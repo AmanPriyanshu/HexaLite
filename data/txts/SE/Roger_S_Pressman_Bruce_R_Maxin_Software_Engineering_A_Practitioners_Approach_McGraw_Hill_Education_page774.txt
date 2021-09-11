@@ -1,0 +1,78 @@
+744 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+An estimation model should be calibrated to reﬂ ect local conditions. The 
+model should be tested by applying data collected from completed projects, plug-
+ging the data into the model, and then comparing actual to predicted results. If 
+agreement is poor, the model must be tuned and retested before it can be used. 
+  
+ 
+33.7.1   
+The Structure of Estimation Models 
+ 
+A typical estimation model is derived using regression analysis on data collected from past software projects. The overall structure of such models takes the form 
+[Mat94]  E 5 A 1 B 
+ 3 ( e 
+ v 
+)  C 
+ 
+ (33.3)
+ where  A, B, 
+ and  
+C 
+ are empirically derived constants,  
+E 
+ is effort in person-months, 
+and  e 
+ v 
+ is the estimation variable (either LOC or FP). In addition to the relation-
+ship noted in Equation (33.3), the majority of estimation models have some form 
+of project adjustment component that enables  E 
+ to be adjusted by other project 
+characteristics (e.g., problem complexity, staff experience, development envi-
+
+ronment). A quick examination of any empirically derived model indicates that 
+it must be calibrated for local needs.   
+ 
+ 
+33.7.2   
+The COCOMO II Model  
+In his classic book on software engineering economics, Barry Boehm [Boe81] in-troduced a hierarchy of software estimation models bearing the name COCOMO, 
+for  COnstructive COst MOdel. 
+ The original COCOMO model became one of the 
+most widely used and discussed software cost estimation models in the industry. 
+
+It has evolved into a more comprehensive estimation model, called COCOMO II 
+[Boe00]. Like its predecessor, COCOMO II is actually a hierarchy of estimation 
+
+models that address different “stages” of the software process.  Like all estimation models for software, the COCOMO II models require siz-ing information. Three different sizing options are available as part of the model 
+hierarchy: object points,  10 
+ 
+ function points, and lines of source code.  
+ 
+  
+ 
+ 
+ 
+33.7.3   
+The Software Equation 
+ 
+The  software equation
+ 
+ [Put92] is a dynamic multivariable model that assumes a 
+speciﬁ c distribution of effort over the life of a software development project. The 
+model has been derived from productivity data collected for over 4,000 contem-
+porary software projects. Based on these data, we derive an estimation model of 
+the form E 
+  5   LOC 3  B 
+ 0.333   ____________  
+P3    3   1 __  t 
+ 4    
+ (33.4)
+ 
+ 
+10  An  
+object point 
+ is an indirect software measure that is computed using counts of the number of 
+(1) screens (at the user interface), (2) reports, and (3) components likely to be required to build 
+the application, along with complexity factors. pre22126_ch33_727-753.indd   744pre22126_ch33_727-753.indd   74413/12/13   6:17 PM13/12/13   6:17 PM

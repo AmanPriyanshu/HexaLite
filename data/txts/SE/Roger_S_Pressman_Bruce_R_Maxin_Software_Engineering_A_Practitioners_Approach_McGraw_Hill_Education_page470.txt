@@ -1,0 +1,71 @@
+440 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+•  Are all navigation options or functions represented at the same level of abstraction?   
+ 
+ 
+•  Are all navigation choices clearly labeled?  
+ 
+  and so on. Any errors or issues noted by the reviewers are recorded by the de-signer for resolution at a later time. Desk checks may be scheduled in an ad hoc 
+manner, or they may be mandated as part of good software engineering practice. 
+
+In general, the amount of material to be reviewed is relatively small and the 
+overall time spent on a desk check span little more than one or two hours.  In Chapter 5, we described  pair programming
+ 
+ in the following manner: XP 
+recommends that two people work together at one computer workstation to cre-
+ate code for a story. This provides a mechanism for real-time problem solving 
+
+(two heads are often better than one) and real-time quality assurance.  Pair programming can be characterized as a continuous desk check. Rather than scheduling a review at some point in time, pair programming encourages 
+continuous review as a work product (design or code) is created. The beneﬁ t is 
+immediate discovery of errors and better work product quality as a consequence.  In their discussion of the efﬁ cacy of pair programming, Williams and Kessler 
+[Wil00] state:
+  
+Anecdotal and initial statistical evidence indicates that pair programming is a pow-erful technique for productively generating high quality software products. The pair 
+works and shares ideas together to tackle the complexities of software development. 
+They continuously perform inspections on each other’s artifacts leading to the earli-
+
+est, most efﬁ cient form of defect removal possible. In addition, they keep each other 
+intently focused on the task at hand.  
+  
+Some software engineers argue that the inherent redundancy built into pair 
+programming is wasteful of resources. After all, why assign two people to a job that 
+
+one person can accomplish? The answer to this question can be found in Section 
+
+20.3.2. If the quality of the work product produced as a consequence of pair pro-
+gramming is signiﬁ cantly better than the work of an individual, the quality-related 
+savings can more than justify the “redundancy” implied by pair programming. 
+ 
+ 
+ 
+  
+ 
+Review Checklists  
+Even when reviews are well organized and properly conducted, it’s not a bad idea to 
+provide reviewers with a “crib sheet.” That is, it’s worth-
+
+while to have a checklist that provides each reviewer 
+with the questions that should be asked about the spe-
+ciﬁ c work product that is undergoing review. 
+ One of the most comprehensive collections of review checklists has been developed by NASA at the Goddard 
+Space Flight Center and is available at    
+ 
+http://www.hq.nasa.gov/ofﬁ
+ ce/codeq/software/ComplexElectronics/checklists.htm 
+ 
+  Other useful technical review checklists have also been proposed by:   
+Process Impact    
+ 
+www.processimpact.com/pr_goodies.shtml 
+ 
+   
+ 
+Macadamian  
+   
+ 
+www.macadamian.com 
+ 
+   
+INFO pre22126_ch20_431-447.indd   440pre22126_ch20_431-447.indd   44013/12/13   10:01 PM13/12/13   10:01 PM

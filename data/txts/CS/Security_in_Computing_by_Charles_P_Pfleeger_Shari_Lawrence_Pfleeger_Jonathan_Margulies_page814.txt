@@ -1,0 +1,71 @@
+780 Chapter 12  
+Details of Cryptographycontinuing interest in encryption systems for protecting military and diplomatic secrets; it was thought that these departments were home to the greatest expertise in cryptol-
+
+ogy. However, precisely because of the sensitive nature of the information they were 
+
+encrypting, the departments could not release any of their work. Thus, the responsibility 
+
+for a more public encryption technique was delegated to the NBS, an agency of the U.S. 
+
+Department of Commerce.At the same time, several private vendors had developed mechanical or software 
+encryption devices that individuals or firms could buy to protect their sensitive com-
+
+munications. The difficulty with this commercial proliferation of encryption techniques 
+
+was exchange: Two users with different devices could not exchange encrypted informa-
+
+tion. Furthermore, no independent body was capable of extensively testing the devices 
+
+to verify that they properly implemented their algorithms, or even that the algorithms 
+
+were worth using.
+It soon became clear that encryption was ripe for assessment and standardization, 
+to promote the ability of unrelated parties to exchange encrypted information and to 
+
+provide a single encryption system that could be rigorously tested and publicly certi-
+
+fied. As a result, in 1972 the NBS called for proposals for producing a public encryption 
+
+algorithm. The call specified desirable criteria for such an algorithm:
+• able to provide a high level of security
+• specified and easy to understand
+
+• publishable, so that security does not depend on the secrecy of the algorithm
+
+• available to all users
+
+• adaptable for use in diverse applications
+
+• economical to implement in electronic devices
+
+• efficient to use
+
+• able to be validated
+
+• exportable
+The NBS envisioned providing the encryption as a separate hardware device. To allow 
+the algorithm to be public, NBS hoped to reveal the algorithm itself, basing the security 
+
+of the system on the keys (which would be under the control of the users).
+Few organizations responded to the call, so the NBS issued a second announce-
+ment in August 1974. The most promising submission was the 
+Lucifer algorithm on 
+which IBM had been working for several years. This idea had been published earlier, 
+
+so the basic algorithm was already public and had been open to scrutiny and valida-
+
+tion. Although lengthy, the algorithm was straightforward, a natural candidate for itera-
+
+tive implementation in a computer program. Furthermore, unlike some algorithms that 
+
+use arithmetic on 500- or 1,000-digit or longer binary numbers (far larger than most 
+
+machine instructions could handle as a single quantity), Lucifer used only simple log-
+
+ical operations on relatively small data blocks. Thus, the algorithm could be imple-
+
+mented fairly efficiently in either hardware or software on conventional computers.
+The data encryption algorithm developed by IBM for NBS was based on Lucifer, 
+and it became known as the 
+Data Encryption Standard (DES), although its proper 
+name is DEA (Data Encryption Algorithm) in the United States and DEA1 (Data 

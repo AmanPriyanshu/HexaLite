@@ -1,0 +1,46 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜2. Non-functional emergent properties, which relate to the behavior of the system 
+in its operational environment. Reliability, performance, safety, and security are 
+
+examples of these properties. These system characteristics are critical for 
+ computer-based systems, as failure to achieve a minimum defined level in these 
+
+properties usually makes the system unusable. Some users may not need some of 
+
+the system functions, so the system may be acceptable without them. However, 
+
+a system that is unreliable or too slow is likely to be rejected by all its users.Emergent properties, such as reliability, depend on both the properties of 
+ individual components and their interactions or relationships. For example, the 
+ reliability of a sociotechnical system is influenced by three things:1. Hardware reliability What is the probability of hardware components failing, 
+and how long does it take to repair a failed component?2. Software reliability How likely is it that a software component will produce an 
+incorrect output? Software failure is unlike hardware failure in that software 
+
+does not wear out. Failures are often transient. The system carries on working 
+after an incorrect result has been produced.3. Operator reliability 
+How likely is it that the operator of a system will make an 
+
+error and provide an incorrect input? How likely is it that the software will fail 
+to detect this error and propagate the mistake?Hardware, software, and operator reliability are not independent but affect each other 
+
+in unpredictable ways. Figure 19.6 shows how failures at one level can be prop-agated to other levels in the system. Say a hardware component in a system starts to 
+
+go wrong. Hardware failure can sometimes generate spurious signals that are outside 
+the range of inputs expected by the software. The software can then behave unpre-
+dictably and produce unexpected outputs. These may confuse and consequently 
+
+cause stress in the system operator.We know that people are more likely to make mistakes when they feel stressed. So a hardware failure may be the trigger for operator errors. These mistakes can, in 
+turn, lead to unexpected software behavior, resulting in additional demands on the 
+processor. This could overload the hardware, causing more failures and so on. Thus, 
+an initial, relatively minor, failure, can rapidly develop into a serious problem that 
+could lead to a complete shutdown of the system.The reliability of a system depends on the context in which that system is used. 
+However, the system™s environment cannot be completely specified, and it is often 
+
+impossible for the system designers to limit the environment for operational sys
+-
+tems. Different systems operating within an environment may react to problems in unpredictable ways, thus affecting the reliability of all of these systems.For example, say a system is designed to operate at normal room temperature. 
+To˜allow for variations and exceptional conditions, the electronic components of 
+
+a˜system are designed to operate within a certain range of temperatures, say, from 
+
+0˜degrees to 40 degrees Celsius. Outside this temperature range, the components will 

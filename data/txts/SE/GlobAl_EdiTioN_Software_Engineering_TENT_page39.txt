@@ -1,0 +1,30 @@
+˜˜˚˝˜˜˜
+˜˜
+3. Configuration services that are used to adapt the environment with a specific set 
+of application services and to define how services are shared between students, 
+teachers, and their parents.The environment has been designed so that services can be replaced as new ser-vices become available and to provide different versions of the system that are suited 
+
+for the age of the users. This means that the system has to support two levels of ser-
+vice integration:1. Integrated services are services that offer an API (application programming 
+interface) and that can be accessed by other services through that API. Direct 
+service-to-service communication is therefore possible. An authentication ser
+-
+vice is an example of an integrated service. Rather than use their own authenti-
+cation mechanisms, an authentication service may be called on by other services 
+to authenticate users. If users are already authenticated, then the authentication 
+service may pass authentication information directly to another service, via an 
+API, with no need for users to reauthenticate themselves.2. Independent services 
+are services that are simply accessed through a browser 
+
+interface and that operate independently of other services. Information can only 
+be shared with other services through explicit user actions such as copy and 
+
+paste; reauthentication may be required for each independent service.If an independent service becomes widely used, the development team may then integrate that service so that it becomes an integrated and supported service.AuthenticationBrowser-based user interface
+Configuration servicesGroupmanagementApplicationmanagementIdentitymanagementUser storageLogging and monitoring
+Application storageInterfacing
+SearchUtility servicesApplication servicesiLearn appEmail   Messaging   Video conferencing  Newspaper archive
+Word processing   Simulation   Video storage   Resource finder
+Spreadsheet   Virtual learning environment   History archive
+Figure 1.8 The architecture of a 
+digital learning 
+environment (iLearn)

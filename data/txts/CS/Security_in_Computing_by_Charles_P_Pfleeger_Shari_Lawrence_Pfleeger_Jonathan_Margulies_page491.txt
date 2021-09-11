@@ -1,0 +1,46 @@
+ Section 6.7  Firewalls 
+457  filter that blocks access from (or to) 
+addresses in one network; the fil-
+
+ter allows HTTP traffic but blocks 
+
+traffic by using the Telnet protocol. 
+
+Packet filters operate at OSI level 3.
+Packet filters do not “see inside” a packet; they block or accept packets solely on 
+the basis of the IP addresses and ports. Thus, any details in the packet’s data field (for 
+
+example, allowing certain Telnet commands while blocking other services) is beyond 
+
+the capability of a packet filter.
+Packet filters can perform the important service of ensuring the validity of inside 
+addresses. An inside host typically trusts other inside hosts precisely because they are 
+
+not outsiders: Outside is uncontrolled and fraught with harmful creatures. But the only 
+way an inside host can recognize another inside host is by the address shown in the 
+
+source field of a message. Source addresses in packets can be forged, so an inside appli-
+
+cation might think it was communicating with another host on the inside instead of an 
+
+outside forger. A packet filter sits between the inside network and the outside net, so 
+
+it can determine if a packet from the outside is forging an inside address, as shown in 
+
+Figure 6-54.When we say the filter “sits between” two networks we really mean it connects to 
+both the inside and outside networks, by two separate interface cards. The packet fil-
+
+ter can easily distinguish inside from outside traffic based on which interface a packet 
+
+arrived on.
+A screening packet filter might be configured to block all packets from the outside 
+that claimed their source address was an inside address. In this example, the packet 
+
+filter blocks all packets claiming to come from any address of the form 100.50.25.x 
+Packet filters—screening routers—limit 
+
+traffic based on packet header data: 
+
+addresses and ports on packets
+FIGURE 6-53 Packet Filter
+HTTPTelnet

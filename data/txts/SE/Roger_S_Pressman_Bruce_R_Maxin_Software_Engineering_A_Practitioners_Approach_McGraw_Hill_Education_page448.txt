@@ -1,0 +1,102 @@
+418 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+19.2.3   
+ISO 9126 Quality Factors  
+The ISO 9126 standard was developed in an attempt to identify the key qual-ity  attributes for computer software. The standard identiﬁ es six key quality 
+attributes:   
+ 
+ 
+Functionality.
+ 
+ The degree to which the software satisﬁ es stated needs as 
+indicated by the following subattributes: suitability, accuracy, interopera-
+
+bility, compliance, and security. 
+  
+Reliability.
+ 
+ 
+ 
+ The amount of time that the software is available for use as indicated by the following subattributes: maturity, fault tolerance, 
+
+recoverability. 
+  
+Usability 
+ 
+. 
+ The degree to which the software is easy to use as indicated by the following subattributes: understandability, learnability, operability. 
+  
+Efﬁ ciency.
+ 
+ 
+ 
+ The degree to which the software makes optimal use of  system resources as indicated by the following subattributes: time behavior, 
+
+ resource behavior. 
+  
+Maintainability.
+ 
+ The ease with which repair may be made to the software as indicated by the following subattributes: analyzability, changeability, 
+
+stability, testability. 
+  
+Portability.
+ 
+ 
+ 
+ The ease with which the software can be transposed from one environment to another as indicated by the following subattributes: adapt-
+ability, installability, conformance, replaceability. 
+ Like other software quality factors discussed in the preceding subsections, the ISO 9126 factors do not necessarily lend themselves to direct measurement. 
+However, they do provide a worthwhile basis for indirect measures and an excel-
+
+lent checklist for assessing the quality of a system.   
+ 
+ 
+ 
+19.2.4   
+Targeted Quality Factors 
+ 
+The quality dimensions and factors presented in Sections 19.2.1 and 19.2.2 focus on the software as a whole and can be used as a generic indication of the quality 
+of an application. A software team can develop a set of quality characteristics 
+and associated questions that would probe the degree to which each factor has 
+been satisﬁ ed. 
+ 3 
+ 
+ For example, McCall identiﬁ
+ es  
+usability 
+ as an important qual-
+ity factor. If you were asked to review a user interface and assess its usability, 
+
+how would you proceed? You might start with the subattributes suggested by 
+
+ McCall— understandability, learnability, and operability—but what do these 
+mean in a pragmatic sense?   
+ 
+ 
+ uote:  “Any activity 
+becomes creative 
+when the doer 
+cares about doing 
+it right, or better.” 
+ John Updike 
+   Although it’s tempting 
+
+to develop quantitative 
+measures for the qual-
+ity factors noted here, 
+you can also create 
+a simple checklist of 
+attributes that provide 
+a solid indication that 
+the factor is present.  3 These characteristics and questions would be addressed as part of a software review 
+ 
+pre22126_ch19_411-430.indd   418pre22126_ch19_411-430.indd   41813/12/13   6:13 PM13/12/13   6:13 PM

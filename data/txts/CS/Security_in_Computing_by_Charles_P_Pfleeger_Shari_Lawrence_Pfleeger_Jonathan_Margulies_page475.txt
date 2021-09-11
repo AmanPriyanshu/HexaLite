@@ -1,0 +1,13 @@
+ Section 6.6  Cryptography in Network Security 
+441  The details of that session, shown in Figure 6-42, reveal that an encrypted session 
+was established based on a certificate Yahoo supplied. That certificate was signed by 
+
+DigiCert, a certification authority.
+In Figure 6-43 you can see the entire chain of certificates and signers, starting with 
+the GTE CyberTrust root certificate and following down to the Yahoo certificate. This 
+
+figure also shows the details of the encryption algorithm (RSA) with which the certifi-
+
+cate was signed.
+FIGURE 6-42 SSL Certificate Employed
+FIGURE 6-43 Chain of Certificates

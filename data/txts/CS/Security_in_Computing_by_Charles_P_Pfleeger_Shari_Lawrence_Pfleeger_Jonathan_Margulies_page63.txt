@@ -1,0 +1,68 @@
+ Section 1.5  Controls 
+29  Of course, more than one of these controls can be used simultaneously. So, for exam-
+ple, we might try to prevent intrusions—but if we suspect we cannot prevent all of 
+
+them, we might also install a detec-
+
+tion device to warn of an imminent 
+
+attack. And we should have in place 
+
+incident-response procedures to 
+
+help in the recovery in case an intru-
+
+sion does succeed.To consider the controls or countermeasures that attempt to prevent exploiting a 
+computing system’s vulnerabilities, we begin by thinking about traditional ways to 
+
+enhance physical security. In the Middle Ages, castles and fortresses were built to pro-
+
+tect the people and valuable property inside. The fortress might have had one or more 
+
+security characteristics, including• a strong gate or door to repel invaders
+• heavy walls to withstand objects thrown or projected against them
+
+• a surrounding moat to control access
+
+• arrow slits to let archers shoot at approaching enemies
+
+• crenellations to allow inhabitants to lean out from the roof and pour hot or vile 
+liquids on attackers
+• a drawbridge to limit access to authorized people
+
+• a portcullis to limit access beyond the drawbridge
+
+• gatekeepers to verify that only authorized people and goods could enter
+Similarly, today we use a multipronged approach to protect our homes and offices. 
+We may combine strong locks on the doors with a burglar alarm, reinforced windows, 
+
+and even a nosy neighbor to keep an eye on our valuables. In each case, we select one 
+
+or more ways to deter an intruder or attacker, and we base our selection not only on 
+
+the value of what we protect but also on the effort we think an attacker or intruder will 
+
+expend to get inside. 
+Computer security has the same characteristics. We have many controls at our dis-
+posal. Some are easier than others to use or implement. Some are cheaper than others 
+to use or implement. And some are more difficult than others for intruders to override. 
+
+Figure 1-12 illustrates how we use a combination of controls to secure our valuable 
+
+resources. We use one or more controls, according to what we are protecting, how the 
+
+cost of protection compares with the risk of loss, and how hard we think intruders will 
+
+work to get what they want.
+In this section, we present an overview of the controls available to us. In the rest of 
+this book, we examine how to use controls against specific kinds of threats.
+We can group controls into three largely independent classes. The following list 
+shows the classes and several examples of each type of control.
+• Physical controls 
+stop or block an attack by using something tangible too, such aswalls and fences
+
+– locksSecurity professionals balance the cost 
+
+and effectiveness of controls with the 
+
+likelihood and severity of harm.

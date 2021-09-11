@@ -1,0 +1,74 @@
+624 PART THREE  
+QUALITY MANAGEMENT(3) ensure that change is being properly implemented, and (4) report changes to others who may have an interest.  It is important to make a clear distinction between software support and soft-ware conﬁ guration management. Support is a set of software engineering activ-
+ities that occur after software has been delivered to the customer and put into 
+operation. Software conﬁ guration management is a set of tracking and control 
+activities that are initiated when a software engineering project begins and ter-
+
+minates only when the software is taken out of operation.  A primary goal of software engineering is to improve the ease with which changes can be accommodated and reduce the amount of effort expended when 
+changes must be made. In this chapter, we discuss the speciﬁ
+ c activities that en-
+able you to manage change.   
+ 
+ 29.1  
+SOFTWARE
+ CONFIGURATION
+ MANAGEMENT  
+ 
+The output of the software process is information that may be divided into three broad categories: (1) computer programs (both source level and execut-
+able forms), (2) work products that describe the computer programs (targeted at 
+various stakeholders), and (3) data or content (contained within the program or 
+external to it). The items that comprise all information produced as part of the 
+software process are collectively called a  software conﬁ
+ guration
+ 
+.   As software engineering work progresses, a hierarchy of  software conﬁ
+ gu-
+ration items 
+ (SCIs)—a named element of information that can be as small as a 
+single UML diagram or as large as the complete design document—is created. 
+If each SCI simply led to other SCIs, little confusion would result. Unfortunately, 
+
+another variable enters the process— change. 
+ Change may occur at any time, for 
+any reason. In fact, the  First Law of System Engineering 
+ [Ber80] states: “No matter 
+where you are in the system life cycle, the system will change, and the desire to 
+change it will persist throughout the life cycle.”  What is the origin of these changes? The answer to this question is as varied as the changes themselves. However, there are four fundamental sources of change: 
+  
+ 
+ 
+ 
+ 
+•  New business or market conditions dictate changes in product require-ments or business rules.   
+ 
+ 
+•  New stakeholder needs demand modiﬁ cation of data produced by infor-
+mation systems, functionality delivered by products, or services delivered 
+by a computer-based system. 
+  
+ 
+ 
+•  Reorganization or business growth/downsizing causes changes in project priorities or software engineering team structure.   
+ 
+ 
+•  Budgetary or scheduling constraints cause a redeﬁ nition of the system or 
+product.   
+ uote:  “There is nothing 
+permanent except 
+change.”  Heraclitus, 
+500 B.C.  What is 
+the origin of changes that 
+are requested for 
+software? ?    software conﬁ
+ guration 
+items  . . . . . . . . . . 628  
+
+    status reporting  . . 639  
+
+    version control  . . . 634  
+
+    Web and 
+
+MobileApps  . . . . . 640  
+
+  pre22126_ch29_623-652.indd   624pre22126_ch29_623-652.indd   62413/12/13   6:16 PM13/12/13   6:16 PM

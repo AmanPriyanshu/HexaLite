@@ -1,0 +1,45 @@
+ Section 3.1  Unintentional (Nonmalicious) Programming Oversights 
+139  by masquerading as the operating system, the attacker can execute commands in a pow-
+erful role. Therefore, by replacing a few instructions right after returning from his or her 
+
+own procedure, the attacker regains control from the operating system, possibly with 
+
+raised privileges. This technique is called 
+privilege escalation
+. If the buffer overflows 
+into system code space, the attacker merely inserts overflow data that correspond to the 
+
+machine code for instructions.In the other kind of attack, the intruder may wander into an area called the stack and 
+heap. Subprocedure calls are handled with a stack, a data structure in which the most 
+recent item inserted is the next one removed (last arrived, first served). This structure 
+
+works well because procedure calls can be nested, with each return causing control to 
+
+transfer back to the immediately preceding routine at its point of execution. Each time a 
+
+procedure is called, its parameters, the return address (the address immediately after its 
+call), and other local values are pushed onto a stack. An old stack pointer is also pushed 
+
+onto the stack, and a stack pointer register is reloaded with the address of these new 
+
+values. Control is then transferred to the subprocedure.
+As the subprocedure executes, it fetches parameters that it finds by using the address 
+pointed to by the stack pointer. Typically, the stack pointer is a register in the proces-
+
+sor. Therefore, by causing an overflow into the stack, the attacker can change either the 
+
+old stack pointer (changing the context for the calling procedure) or the return address 
+
+(causing control to transfer where the attacker intends when the subprocedure returns). 
+
+Changing the context or return address allows the attacker to redirect execution to code 
+
+written by the attacker.
+In both these cases, the assailant must experiment a little to determine where the 
+overflow is and how to control it. But the work to be done is relatively small—probably 
+
+a day or two for a competent analyst. These buffer overflows are carefully explained 
+
+in a paper by Mudge [MUD95] (real name, Pieter Zatko) of the famed l0pht computer 
+FIGURE 3-3 Memory Organization with User and System Areas
+System DataProgram CodeLocal DataSystem CodeHigh addressesLow addressesStackHeap

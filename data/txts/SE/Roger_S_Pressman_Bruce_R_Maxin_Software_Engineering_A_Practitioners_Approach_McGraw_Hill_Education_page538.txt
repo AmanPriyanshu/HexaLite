@@ -1,0 +1,87 @@
+508 PART THREE  
+QUALITY MANAGEMENT 
+  
+ 
+ 
+ 
+  
+ 
+Simple Loops.   The following set of tests can be applied to simple loops, where  n 
+ is the maximum number of allowable passes through the loop.   
+ 
+ 
+ 1.
+  Skip the loop entirely. 
+  
+ 
+ 
+ 2.
+  Only one pass through the loop.   
+ 
+ 
+ 3.
+  Two passes through the loop. 
+  
+ 
+ 
+ 4.
+   
+m 
+ passes through the loop where  m 
+ ,  n. 
+ 
+  
+ 
+  5.   
+n 
+ 2 1,  n, n 
+ 1 1 passes through the loop.   
+ 
+ 
+ 
+Nested Loops.   
+If we were to extend the test approach for simple loops to nested loops, the number of possible tests would grow geometrically as the level of nest-
+ing increases. This would result in an impractical number of tests. Beizer [Bei90] 
+suggests an approach that will help to reduce the number of tests:  
+ 
+ 
+ 1.
+  Start at the innermost loop. Set all other loops to minimum values.   
+ 
+ 
+ 2.
+  Conduct simple loop tests for the innermost loop while holding the outer loops at their minimum iteration parameter (e.g., loop counter) values. 
+Add other tests for out-of-range or excluded values.   
+ 
+ 
+ 3.
+  Work outward, conducting tests for the next loop, but keeping all other 
+outer loops at minimum values and other nested loops to “typical” values.   
+ 
+ 
+ 4.
+  Continue until all loops have been tested.  
+ 
+  
+ 
+ 
+ 
+ 
+Concatenated Loops.   
+Concatenated loops can be tested using the approach de-ﬁ ned for simple loops, if each of the loops is independent of the other. However, 
+if two loops are concatenated and the loop counter for loop 1 is used as the initial 
+value for loop 2, then the loops are not independent. When the loops are not in-
+dependent, the approach applied to nested loops is recommended.   
+ 
+ uote:  “Good testers are 
+masters at noticing 
+‘something funny’ 
+and acting on it.”  Brian Marick 
+   You can’t test unstruc-
+
+tured loops effectively. 
+
+Refactor them. Simple loopsNested loopsConcatenatedloopsUnstructuredloops  
+FIGURE 23.7 
+Classes of Loops  
+ pre22126_ch23_496-522.indd   508pre22126_ch23_496-522.indd   50813/12/13   6:14 PM13/12/13   6:14 PM

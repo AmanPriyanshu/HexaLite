@@ -1,0 +1,94 @@
+CHAPTER 10  
+REQUIREMENTS MODELING: CLASS-BASED METHODS 187 
+ 
+Extracting the nouns, we can propose a number of potential classes:Potential ClassGeneral Classificationhomeownerrole or external entity
+sensorexternal entity
+
+control panelexternal entity
+
+installationoccurrence
+
+system (alias security system)thing
+
+number, typenot objects, attributes of sensor
+
+master passwordthing
+
+telephone numberthing
+
+sensor eventoccurrence
+
+audible alarmexternal entity
+monitoring service
+organizational unit or external entity
+ The list would be continued until all nouns in the processing narrative have been considered. Note that we call each entry in the list a “potential” object. We 
+
+must consider each further before a ﬁ nal decision is made. 
+ 
+ 
+ 
+   
+Coad and Yourdon [Coa91] suggest six selection characteristics that should 
+be used as you consider each potential class for inclusion in the analysis model:  
+ 
+ 
+ 1.
+   
+Retained information. 
+ The potential class will be useful during analysis only if information about it must be remembered so that the system can 
+function.   
+ 
+ 
+ 2.
+   
+Needed services. 
+ The potential class must have a set of identiﬁ able opera-
+tions that can change the value of its attributes in some way. 
+  
+ 
+ 
+ 3.
+   
+Multiple attributes. 
+ During requirement analysis, the focus should be on “major” information; a class with a single attribute may, in fact, be 
+
+ useful during design, but is probably better represented as an attribute of  another class during the analysis activity. 
+  
+ 
+ 
+ 4.
+   
+Common attributes. 
+ A set of attributes can be deﬁ ned for the potential 
+class and these attributes apply to all instances of the class.   
+ 
+ 
+ 5.
+   
+Common operations. 
+ A set of operations can be deﬁ ned for the potential 
+class and these operations apply to all instances of the class.   
+ 
+ 
+ 6.
+   
+Essential requirements.
+ 
+ External entities that appear in the problem space and produce or consume information essential to the operation of 
+any solution for the system will almost always be deﬁ ned as classes in the 
+ requirements model.  
+ 
+ 
+  To be considered a legitimate class for inclusion in the requirements model, 
+a potential object should satisfy all (or almost all) of these characteristics. The 
+decision for inclusion of potential classes in the analysis model is somewhat sub-
+jective, and later evaluation may cause an object to be discarded or reinstated.  How do I 
+determine whether a 
+potential class 
+should, in fact, 
+become an 
+analysis class? ?  uote:  “Classes struggle, 
+some classes 
+triumph, others are 
+eliminated.”  Mao Zedong 
+pre22126_ch10_184-201.indd   187pre22126_ch10_184-201.indd   18713/12/13   6:11 PM13/12/13   6:11 PM

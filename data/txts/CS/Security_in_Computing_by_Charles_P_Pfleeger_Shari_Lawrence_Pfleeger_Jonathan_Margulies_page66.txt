@@ -1,0 +1,67 @@
+32 Chapter 1  
+Introduction• An attacker needs three things: method—the skill and knowledge to perform 
+a successful attack; opportunity—time and access by which to attack; and 
+
+motive—a reason to want to attack. Alas, none of these three is in short supply, 
+
+which means attacks are inevitable.
+In this chapter we have introduced the notions of threats and harm, vulnerabilities, 
+attacks and attackers, and countermeasures. Attackers leverage threats that exploit vul-
+
+nerabilities against valuable assets to cause harm, and we hope to devise countermea-
+
+sures to eliminate means, opportunity, and motive. These concepts are the basis we need 
+
+to study, understand, and master computer security. 
+Countermeasures and controls can be applied to the data, the programs, the system, the physical devices, the communications links, the environment, and the personnel. 
+
+Sometimes several controls are needed to cover a single vulnerability, but sometimes 
+
+one control addresses many problems at once.
+1.7 WHAT’S NEXT?
+The rest of this book is organized around the major aspects or pieces of computer 
+
+security. As you have certainly seen in almost daily news reports, computer security 
+
+incidents abound. The nature of news is that failures are often reported, but seldom 
+
+successes. You almost never read a story about hackers who tried to break into the com-
+
+puting system of a bank but were foiled because the bank had installed strong, layered 
+
+defenses. In fact, attacks repelled far outnumber those that succeed, but such good situ-
+
+ations do not make interesting news items.
+Still, we do not want to begin with examples in which security controls failed. 
+Instead, in Chapter 2 we begin by giving you descriptions of three powerful and widely 
+
+used security protection methods. We call these three our security toolkit, in part 
+
+because they are effective but also because they are applicable. We refer to these tech-
+
+niques in probably every other chapter of this book, so we want not only to give them a 
+
+prominent position up front but also to help lodge them in your brain. Our three featured 
+
+tools are identification and authentication, access control, and encryption.
+After presenting these three basic tools we lead into domains in which computer secu-rity applies. We begin with the simplest computer situations, individual programs, and 
+
+explore the problems and protections of computer code in Chapter 3. We also consider 
+
+malicious code, such as viruses and Trojan horses (defining those terms along with other 
+
+types of harmful programs). As you will see in other ways, there is no magic that can 
+
+make bad programs secure or turn programmers into protection gurus. We do, however, 
+
+point out some vulnerabilities that show up in computer code and describe ways to coun-
+
+ter those weaknesses, both during program development and as a program executes.
+Modern computing involves networking, especially using the Internet. We focus first 
+on how networked computing affects individuals, primarily through browsers and other 
+
+basic network interactions such as email. In Chapter 4 we look at how users can be 
+
+tricked by skillful writers of malicious code. These attacks tend to affect the protection 
+
+of confidentiality of users’ data and integrity of their programs.

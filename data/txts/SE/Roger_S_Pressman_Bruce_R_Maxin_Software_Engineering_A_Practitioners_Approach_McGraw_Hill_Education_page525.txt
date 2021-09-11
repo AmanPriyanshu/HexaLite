@@ -1,0 +1,88 @@
+CHAPTER 22  
+SOFTWARE TESTING STRATEGIES
+ 495O'Brien ( Agile Testing with Ruby and Rails,
+ 
+ Apress, 2008) addresses testing strategies and 
+techniques for the Ruby programming language and Web framework. 
+  
+ 
+Bashir and Goel ( Testing Object-Oriented Software,
+ 
+ Springer-Verlag, 2012), Sykes and 
+McGregor ( Practical Guide to Testing Object-Oriented Software,
+ 
+ Addison-Wesley, 2001), 
+Binder ( Testing Object-Oriented Systems,
+ 
+ Addison-Wesley, 1999), Kung and his colleagues 
+( Testing Object-Oriented Software,
+ 
+ IEEE Computer Society Press, 1998), and Marick ( 
+The Craft of Software Testing,
+ 
+ Prentice Hall, 1997) present strategies and methods for testing 
+OO systems.   
+ 
+Guidelines for debugging are contained in books by Grötker and his colleagues ( The Developer's Guide to Debugging, 
+ 2nd ed., CreateSpace Independent Publishing, 2012), Whit-
+taker ( Exploratory Testing,
+ 
+ Addison-Wesley, 2009), Zeller ( 
+Why Programs Fail: A Guide to 
+Systematic Debugging, 
+ 2nd ed., Morgan Kaufmann, 2009), Butcher ( 
+Debug I!, 
+ Pragmatic 
+Bookshelf, 2009), Agans ( Debugging, 
+ Amacon, 2006), and Tells and Hsieh ( 
+The Science of Debugging, 
+ The Coreolis Group, 2001). Kaspersky ( 
+Hacker Debugging Uncovered,
+ 
+ A-List 
+Publishing, 2005) addresses the technology of debugging tools. Younessi ( 
+Object-Oriented Defect Management of Software,
+ 
+ Prentice Hall, 2002) presents techniques for managing de-
+fects that are encountered in object-oriented systems. Beizer [Bei84] presents an interest-
+ing “taxonomy of bugs” that can lead to effective methods for test planning.   
+ 
+Books by Graham and Fewster ( Experiences of Test Automation,
+ 
+ Addison-Wesley, 2012) 
+and Dustin and his colleagues ( Implementing Automated Software Testing
+ 
+, Addison-Wesley, 
+2009) discuss automated testing. Books by Hunt and John ( Java Performance, 
+ Addison-Wes-
+ley, 2011), Hewardt and his colleagues ( 
+Advanced .NET Debugging, 
+ Addison-Wesley, 2009), 
+Matloff and his colleagues ( The Art of Debugging with GDB, DDD, and Eclipse, 
+ No Starch 
+Press, 2008), Madisetti and Akgul ( Debugging Embedded Systems, 
+ Springer, 2007), Robbins 
+( Debugging Microsoft .NET 2.0 Applications,
+ 
+ Microsoft Press, 2005), Best ( 
+Linux Debugging and Performance Tuning,
+ 
+ Prentice Hall, 2005), Ford and Teorey ( 
+Practical Debugging in C++, 
+ Prentice Hall, 2002), Brown ( Debugging Perl, 
+ McGraw-Hill, 2000), and Mitchell ( 
+Debugging Java, 
+ McGraw-Hill, 2000) address the special nature of debugging for the environments im-plied by their titles.   
+ 
+A wide variety of information sources on software testing strategies are available on the Internet. An up-to-date list of World Wide Web references that are relevant to software test-
+
+ing strategies can be found at the SEPA website:  
+ 
+www.mhhe.com/pressman
+ 
+ 
+.  
+ 
+ 
+ 
+ pre22126_ch22_466-495.indd   495pre22126_ch22_466-495.indd   49513/12/13   6:14 PM13/12/13   6:14 PM

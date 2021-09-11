@@ -1,0 +1,37 @@
+˜˜˚˝˜˜˜
+˜˜
+5. Maintainability If maintainability is a critical requirement, the system architec-ture should be designed using fine-grain, self-contained components that may readily be changed. Producers of data should be separated from consumers, and 
+shared data structures should be avoided.Obviously, there is potential conflict between some of these architectures. For 
+example, using large components improves performance, and using small, fine-grain 
+
+components improves maintainability. If both performance and maintainability are 
+important system requirements, however, then some compromise must be found. 
+
+You can sometimes do this by using different Architectural patterns or styles for 
+
+separate parts of the system. Security is now almost always a critical requirement, 
+and you have to design an architecture that maintains security while also satisfying 
+
+other non-functional requirements.Evaluating an architectural design is difficult because the true test of an architec
+-ture is how well the system meets its functional and non-functional requirements 
+
+when it is in use. However, you can do some evaluation by comparing your design 
+against reference architectures or generic Architectural patterns. Bosch™s description 
+
+(Bosch 2000) of the non-functional characteristics of some Architectural patterns can 
+
+help with architectural evaluation.I explained in the introduction to this 
+chapter that architectural models of a software 
+system can be used to focus discussion about the software requirements or design. 
+Alternatively, they may be used to document a design so that it can be used as a basis 
+for more detailed design and implementation of the system. In this section, I discuss 
+two issues that are relevant to both of these:1. What views or perspectives are useful when designing and documenting a sys-tem™s architecture?2. What notations should be used for describing architectural models?It is impossible to represent all relevant information about a system™s architecture in a single diagram, as a graphical model can only show one view or perspective of 
+the system. It might show how a system is decomposed into modules, how the 
+ runtime processes interact, or the different ways in which system components are 
+
+distributed across a network. Because all of these are useful at different times, for 
+
+both design and documentation, you usually need to present multiple views of the 
+software architecture.There are different opinions as to what views are required. Krutchen (Krutchen˜1995) 
+in his well-known 4  
++1 view model of software architecture,  suggests that there should 

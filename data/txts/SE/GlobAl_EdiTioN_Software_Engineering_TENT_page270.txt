@@ -1,0 +1,44 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜Ideally, objective assessment should be used to inform decisions about what to do 
+with a legacy system. However, in many cases, decisions are not really objective but 
+are based on organizational or political considerations. For example, if two businesses 
+
+merge, the most politically powerful partner will usually keep its systems and scrap 
+
+the other company™s systems. If senior management in an organization decides to 
+
+move to a new hardware platform, then this may require applications to be 
+
+replaced. If no budget is available for system transformation in a particular year, 
+
+then system maintenance may be continued, even though this will result in higher 
+long-term costs.†
+Software maintenance is the general process of changing a system after it has 
+
+been delivered. The term is usually applied to custom software, where separate 
+
+development groups are involved before and after delivery. The changes made to 
+
+the software may be simple changes to correct coding errors, more extensive 
+
+changes to correct design errors, or significant enhancements to correct specifica
+-
+tion errors or to accommodate new requirements. Changes are implemented by 
+
+modifying existing system components and, where necessary, by adding new 
+
+components to the system.FactorQuestionsUnderstandabilityHow difficult is it to understand the source code of the current system? How 
+complex are the control structures that are used? Do variables have 
+meaningful names that reflect their function?DocumentationWhat system documentation is available? Is the documentation complete, 
+consistent, and current?DataIs there an explicit data model for the system? To what extent is data duplicated 
+
+across files? Is the data used by the system up to date and consistent?PerformanceIs the performance of the application adequate? Do performance problems 
+have a significant effect on system users?Programming languageAre modern compilers available for the programming language used to 
+develop the system? Is the programming language still used for new system 
+development?Configuration managementAre all versions of all parts of the system managed by a configuration 
+management system? Is there an explicit description of the versions of 
+components that are used in the current system?Test dataDoes test data for the system exist? Is there a record of regression tests 
+carried out when new features have been added to the system?Personnel skillsAre there people available who have the skills to maintain the application? 
+Are there people available who have experience with the system?Figure 9.11 Factors used in application 
+assessment

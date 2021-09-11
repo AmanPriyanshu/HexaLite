@@ -1,0 +1,16 @@
+ Section 2.3  Cryptography 
+125  With these five components we can construct a digital signature.
+We start with the file. If we use a secure hash code of the file to compute a message 
+digest and include that hash code in the signature, the code demonstrates that the file has 
+
+not been changed. A recipient of the signed file can recompute the hash function and, if 
+
+the hash values match, conclude with reasonable trust that the received file is the same 
+
+one that was signed. So far, our digital signature looks like the object in Figure 2-33.
+Encrypted forauthenticityMHashfunctionMessagedigestFIGURE 2-33 Hash Code to Detect ChangesEncrypted forauthenticityMessagedigestE(M, KPRIV-S
+)MFIGURE 2-34 Encryption to Show 
+AuthenticityNext, we apply the signer’s private encryption key to encrypt the message digest. 
+Because only the signer knows that key, the signer is the only one who could have 
+
+applied it. Now the signed object looks like Figure 2-34.

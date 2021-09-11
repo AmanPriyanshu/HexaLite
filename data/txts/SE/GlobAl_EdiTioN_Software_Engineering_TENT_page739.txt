@@ -1,0 +1,30 @@
+˜˜˚˛˝˜˜˜˜˜˜
+own private repository for testing (3). Once he is satisfied that the changes are 
+acceptable, he then updates the definitive project repository (4).A consequence of the independent development of the same component is that 
+codelines may branch. Rather than a linear sequence of versions that reflect changes 
+to the component over time, there may be several independent sequences, as shown 
+in Figure 25.8. This is normal in system development, where different developers 
+
+work independently on different versions of the source code and change it in differ
+-
+ent ways. It is generally recommended when working on a system that a new branch 
+should be created so that changes do not accidentally break a working system.At some stage, it may be necessary to merge codeline branches to create a new version 
+of a component that includes all changes that have been made. This is also shown in 
+
+Figure 25.
+8, where component versions 2.1.2 and 2.3 are merged to create version 2.4. If 
+
+the changes made involve completely different parts of the code, the component versions 
+
+may be merged automatically by the version control system by combining the code 
+
+changes. This is the normal mode of operation when new features have been added. These 
+
+code changes are merged into the master copy of the system. However, the changes made 
+
+by different developers sometimes overlap. The changes may be incompatible and inter-
+fere with each other. In this case, a developer has to check for clashes and make changes 
+
+to the components to resolve the incompatibilities between the different versions.When version control systems were first developed, storage management was one 
+of their most important functions. Disk space was expensive, and it was important to 
+AliceBobDefinitive project repositoryCharlieAlice™s publicrepositoryAlice™s privaterepositoryBob™s publicrepositoryBob™s privaterepositoryCharlie™s privaterepository122334Figure 25.7 Open-source developmentV1.0V1.1V1.2V2.2V2.3V2.0V2.1.1V2.1.2V2.1V2.4Codeline 1Codeline 2<branch><branch><merge>Codeline 2.1Figure 25.8 Branching and merging

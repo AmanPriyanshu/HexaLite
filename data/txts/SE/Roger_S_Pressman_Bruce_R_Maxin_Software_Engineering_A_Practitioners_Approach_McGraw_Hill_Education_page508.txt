@@ -1,0 +1,59 @@
+478 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+ 
+ 
+ 
+Integration follows the pattern illustrated in  Figure 22.6 . Components are combined to form clusters 1, 2, and 3. Each of the clusters is tested using a driver 
+(shown as a dashed block). Components in clusters 1 and 2 are subordinate to M a . Drivers D1 and D2 are removed and the clusters are interfaced directly to M a . Similarly, driver D3 for cluster 3 is removed prior to integration with module Mb. 
+
+Both M a 
+ and M b 
+ will ultimately be integrated with component M c 
+, and so forth.  As integration moves upward, the need for separate test drivers lessens. In fact, if the top two levels of program structure are integrated top down, the num-
+ber of drivers can be reduced substantially and integration of clusters is greatly 
+simpliﬁ ed. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+Regression Testing.   
+Each time a new module is added as part of integration testing, the software changes. New data ﬂ ow paths are established, new I/O 
+may occur, and new control logic is invoked. Side effects associated with these 
+
+changes may cause problems with functions that previously worked ﬂ awlessly. In 
+the context of an integration test strategy,  
+regression testing
+ 
+ is the reexecution 
+of some subset of tests that have already been conducted to ensure that changes 
+have not propagated unintended side effects. Regression testing helps to ensure 
+that changes (due to testing or for other reasons) do not introduce unintended 
+behavior or additional errors.  Regression testing may be conducted manually, by reexecuting a subset of all 
+test cases or using automated capture/playback tools.  Capture/playback tools
+ 
+ enable the software engineer to capture test cases and results for subsequent    Regression testing is 
+an important strategy 
+
+for reducing “side ef-
+fects.” Run regression 
+tests every time a 
+
+major change is made 
+to the software (includ-
+ing the integration of 
+new components).    Bottom-up integration 
+
+eliminates the need for 
+complex stubs. McMaD2D3D1MbCluster 1Cluster 3Cluster 2 FIGURE 22.6 
+Bottom-up integrationpre22126_ch22_466-495.indd   478pre22126_ch22_466-495.indd   47813/12/13   6:14 PM13/12/13   6:14 PM

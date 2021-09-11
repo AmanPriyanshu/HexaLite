@@ -1,0 +1,91 @@
+60 PART ONE  
+THE SOFTWARE PROCESS
+ 
+ 
+ 
+ 
+ 
+High-level design review.
+ 
+ Formal veriﬁ
+ cation methods (Appendix 3) are 
+applied to uncover errors in the design. Metrics are maintained for im-
+portant tasks and work results.    
+ 
+ 
+ 
+Development. 
+ The component-level design is reﬁ
+ ned and reviewed. 
+Code is generated, reviewed, compiled, and tested. Metrics are main-
+tained for important tasks and work results.    
+ 
+ 
+ 
+Postmortem. 
+ Using the measures and metrics collected (this is a 
+substantial amount of data that should be analyzed statistically), the 
+ effectiveness of the process is determined. Measures and metrics should provide guidance for modifying the process to improve its effectiveness.  
+ 
+   
+PSP stresses the need for you to identify errors early and, just as important, to 
+understand the types of errors that you are likely to make. This is accomplished 
+
+through a rigorous assessment activity performed on all work products you produce. 
+ PSP represents a disciplined, metrics-based approach to software engineer-
+ing that may lead to culture shock for many practitioners. However, when PSP is 
+
+properly introduced to software engineers [Hum96], the resulting improvement 
+in software engineering productivity and software quality are signiﬁ cant [Fer97]. 
+However, PSP has not been widely adopted throughout the industry. The reasons, 
+
+sadly, have more to do with human nature and organizational inertia than they 
+
+do with the strengths and weaknesses of the PSP approach. PSP is intellectu-
+ally challenging and demands a level of commitment (by practitioners and their 
+managers) that is not always possible to obtain. Training is relatively lengthy, and 
+
+training costs are high. The required level of measurement is culturally difﬁ cult 
+for many software people.  Can PSP be used as an effective software process at a personal level? The an-swer is an unequivocal “yes.” But even if PSP is not adopted in its entirely, many 
+
+of the personal process improvement concepts that it introduces are well worth 
+learning.   
+ 
+ 
+ 
+ 
+4.4.2 Team Software Process 
+ 
+  
+Because many industry-grade software projects are addressed by a team of prac-titioners, Watts Humphrey extended the lessons learned from the  
+introduction 
+of PSP and proposed a  Team Software Process
+ 
+ (TSP). The goal of TSP is to build 
+a “self-directed” project team that organizes itself to produce high-quality soft-
+ware. Humphrey [Hum98] deﬁ 
+ 
+ 
+ 
+ 
+•  Build self-directed teams that plan and track their work, establish goals, and own their processes and plans. These can be pure software teams or 
+integrated product teams (IPTs) of 3 to about 20 engineers. 
+  
+ 
+ 
+•  Show managers how to coach and motivate their teams and how to help them sustain peak performance.     PSP emphasizes the 
+need to record and 
+analyze the types of 
+errors you make, so 
+
+that you can develop 
+strategies to eliminate 
+them.  WebRef 
+ Information on building 
+high-performance 
+
+teams using TSP and 
+PSP can be obtained 
+at  www.sei.cmu
+.edu/tsp/ . 
+pre22126_ch04_040-065.indd   60pre22126_ch04_040-065.indd   6013/12/13   6:10 PM13/12/13   6:10 PM

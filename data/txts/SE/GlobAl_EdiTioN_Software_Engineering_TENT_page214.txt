@@ -1,0 +1,49 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜2. The object level 
+At this level, you directly reuse objects from a library rather 
+than writing the code yourself. To implement this type of reuse, you have to find 
+appropriate libraries and discover if the objects and methods offer the function-
+ality that you need. For example, if you need to process email messages in a 
+
+Java program, you may use objects and methods from a JavaMail library.3. The component level Components are collections of objects and object classes 
+
+that operate together to provide related functions and services. You often have 
+
+to adapt and extend the component by adding some code of your own. An 
+
+example of component-level reuse is where you build your user interface using 
+
+a framework. This is a set of general object classes that implement event han-
+dling, display management, etc. You add connections to the data to be dis-played and write code to define specific display details such as screen layout 
+
+and colors.4. The system level 
+At this level, you reuse entire application systems. This function 
+
+usually involves some kind of configuration of these systems. This may be done 
+
+by adding and modifying code (if you are reusing a software product line) or by 
+
+using the system™s own configuration interface. Most commercial systems are 
+
+now built in this way where generic application systems systems are adapted and 
+
+reused. Sometimes this approach may involve integrating several application 
+
+systems to create a new system.By reusing existing software, you can develop new systems more quickly, with 
+fewer development risks and at lower cost. As the reused software has been tested in 
+other applications, it should be more reliable than new software. However, there are 
+costs associated with reuse:1.
+ The costs of the time spent in looking for software to reuse and assessing 
+whether or not it meets your needs. You may have to test the software to make 
+sure that it will work in your environment, especially if this is different from its 
+development environment.2. Where applicable, the costs of buying the reusable software. For large off-the-
+shelf systems, these costs can be very high.3.
+ The costs of adapting and configuring the reusable software components or 
+ systems to reflect the requirements of the system that you are developing.4. The costs of integrating reusable software elements with each other (if you are 
+using software from different sources) and with the new code that you have 
+
+developed. Integrating reusable software from different providers can be diffi-
+cult and expensive because the providers may make conflicting assumptions 
+
+about how their respective software will be reused.How to reuse existing knowledge and software should be the first thing you should 
+think about when starting a software development project. You should consider the 

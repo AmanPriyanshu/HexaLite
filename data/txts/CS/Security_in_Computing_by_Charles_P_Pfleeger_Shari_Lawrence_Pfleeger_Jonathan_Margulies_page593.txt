@@ -1,0 +1,74 @@
+ Section 8.2  Moving to the Cloud 
+559  SIDEBAR 8-2 One Man’s Single Point of Failure
+In August 2012, journalist Mat Honan had his digital life turned upside 
+down. He was playing with his daughter when his Apple iPhone suddenly 
+shut off. When the phone rebooted, all of his data were gone. Luckily, 
+
+Honan had set the phone to regularly backup to his Apple laptop, so he 
+
+wasn’t concerned. Soon after he opened the laptop, the screen went gray, 
+
+and he knew he had a real problem. Before long, Honan discovered that, in 
+
+addition to his phone, his laptop and Apple iPad had been wiped, and that 
+his Gmail and Twitter accounts had been hacked as well.
+Here’s an abridged version of how it happened [HON12]: The hack-
+ers started with the original target, which was Honan’s Twitter account  
+
+(“@mat”). The Twitter account linked to his personal website, which in turn 
+
+listed his Gmail address. When the hackers went to Gmail to attempt to 
+
+reset Honan’s account password, Gmail showed them Honan’s obscured 
+
+emergency alternate email address: m****n@me.com. me.com is owned by 
+
+Apple. The hackers correctly guessed that the me.com address would be 
+
+Honan’s username for Apple iCloud, a service that ties all of a user’s Apple 
+
+devices together with data stored at Apple’s data centers.
+Because the hackers had perpetrated attacks like this before, they 
+knew that the only additional information they would need to hack the 
+
+iCloud account would be Honan’s mailing address and the last four digits 
+
+of his credit card number. The mailing address was easy enough: They just 
+
+searched the whois record for Honan’s website. To get the last four digits 
+
+of the credit card, the hackers went to Amazon. They correctly assumed 
+
+that Honan’s Amazon username would be his Gmail address and, given 
+
+that and the information they already had, they were able to trick Ama-
+
+zon into showing them the last four digits of the credit cards associated 
+
+with the account (for details on this part of the attack, see the 
+Wired
+ article 
+[HON12]).Once the hackers had those four digits, they had all they needed to get Apple customer service to let them into Honan’s iCloud account. Thanks 
+
+to a very useful iCloud security feature that allows users to remotely wipe 
+
+Apple devices in the event of theft, the attackers were able to delete all of 
+
+Honan’s data from his devices within minutes.
+Perhaps the most amazing part of this story is the way Honan found 
+out how the attack went down: The hackers told him. One of the hackers 
+reached out to him and, in exchange for a promise not to press charges, 
+
+detailed the whole event.While one can take a number of valuable security lessons from this 
+story, identifying and eliminating single points of failure is an important one. 
+
+The obvious single point of failure is the linkage between Honan’s devices 
+
+and his iCloud account. He used his Apple laptop to back up his Apple 
+
+phone, and he allowed his Apple iCloud account permission to remotely 
+
+wipe both the laptop and phone. But on top of that, it was because all of 
+his accounts were intertwined—albeit in a nonobvious way—that the attack 
+
+was even possible.

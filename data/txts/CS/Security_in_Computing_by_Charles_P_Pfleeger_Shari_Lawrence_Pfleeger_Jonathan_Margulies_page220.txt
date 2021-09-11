@@ -1,0 +1,34 @@
+186 Chapter 3  
+Programs and Programming• The malicious code is easy to create.
+• The malicious code is machine independent and operating system independent.
+Few examples of malware meet all these criteria. The writer chooses from these objec-
+tives when deciding what the code will do and where it will reside.
+Just a few years ago, the challenge for the virus writer was to write code that would 
+be executed repeatedly so that the virus could multiply. Now, however, one execution is 
+
+usually enough to ensure widespread distribution. Many kinds of malware are transmit-
+
+ted by email. For example, some examples of malware generate a new email message 
+
+to all addresses in the victim’s address book. These new messages contain a copy of the 
+
+malware so that it propagates widely. Often the message is a brief, chatty, nonspecific 
+
+message that would encourage the new recipient to open the attachment from a friend 
+
+(the first recipient). For example, the subject line or message body may read “I thought 
+
+you might enjoy this picture from our vacation.”
+One-Time Execution (Implanting) 
+Malicious code often executes a one-time process to transmit or receive and install the 
+
+infection. Sometimes the user clicks to download a file, other times the user opens an 
+
+attachment, and other times the malicious code is downloaded silently as a web page is 
+
+displayed. In any event, this first step to acquire and install the code must be quick and 
+
+not obvious to the user.
+(a)  Overwriting T
+(b)  Changing Pointers
+BeforeAfterFileDirectoryTTVFileDirectoryTTVFileDirectoryTVFileDirectoryTTVFIGURE 3-22 Virus V Replacing Target T

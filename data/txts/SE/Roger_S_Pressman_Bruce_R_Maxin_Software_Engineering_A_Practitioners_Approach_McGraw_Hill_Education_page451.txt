@@ -1,0 +1,47 @@
+CHAPTER 19  
+QUALITY CONCEPTS 421 
+It’s ﬁ
+ ne to state that software engineers should strive to produce high-quality 
+systems. It’s even better to apply good practices in your attempt to do so. But the 
+
+situation discussed by Meyer is real life and represents a dilemma for even the 
+best software engineering organizations.   
+ 
+19.3.1   
+“Good Enough” Software 
+ 
+Stated bluntly, if we are to accept the argument made by Meyer, is it acceptable 
+to produce “good enough” software? The answer to this question must be  
+ yes, 
+because major software companies do it every day. They create software with 
+
+known bugs and deliver it to a broad population of end users. They recognize 
+that some of the functions and features delivered in Version 1.0 may not be of the 
+
+highest quality and plan for improvements in Version 2.0. They do this knowing 
+
+that some customers will complain, but they recognize that time to market may 
+trump better quality as long as the delivered product is “good enough.”  Exactly what is “good enough”? Good enough software delivers high-quality functions and features that end users desire, but at the same time it delivers 
+other more obscure or specialized functions and features that contain known 
+bugs. The software vendor hopes that the vast majority of end users will overlook 
+the bugs because they are so happy with other application functionality. 
+ This idea may resonate with many readers. If you’re one of them, we can only ask you to consider some of the arguments against “good enough.”  It is true that “good enough” may work in some application domains and for a few major software companies. After all, if a company has a large marketing 
+budget and can convince enough people to buy version 1.0, it has succeeded in 
+locking them in. As we noted earlier, it can argue that it will improve quality in 
+
+subsequent versions. By delivering a good enough version 1.0, it has cornered 
+the market.  If you work for a small company be wary of this philosophy. When you deliver 
+a good enough (buggy) product, you risk permanent damage to your company’s 
+
+reputation. You may never get a chance to deliver version 2.0 because bad buzz 
+
+may cause your sales to plummet and your company to fold.  If you work in certain application domains (e.g., real-time embedded software) or build application software that is integrated with hardware (e.g., automotive 
+software, telecommunications software), delivering software with known bugs 
+can be negligent and open your company to expensive litigation. In some cases, 
+it can even be criminal. No one wants good enough aircraft avionics software!  So, proceed with caution if you believe that “good enough” is a shortcut that can solve your software quality problems. It can work, but only for a few and only 
+in a limited set of application domains.  4 
+ 
+ 
+  
+4 A worthwhile discussion of the pros and cons of “good enough” software can be found in [Bre02]. 
+pre22126_ch19_411-430.indd   421pre22126_ch19_411-430.indd   42113/12/13   6:13 PM13/12/13   6:13 PM

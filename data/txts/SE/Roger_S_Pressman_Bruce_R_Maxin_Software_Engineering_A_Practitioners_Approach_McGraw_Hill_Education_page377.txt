@@ -1,0 +1,138 @@
+347 PATTERN
+-BASED DESIGN   
+ 
+ 
+ 
+ 
+ 
+ Each of us has encountered a design problem and silently thought:  I won-der if anyone has developed a solution for this? 
+ The answer is almost 
+always— yes! 
+ The problem is ﬁ
+ nding the solution; ensuring that it does, 
+in fact, ﬁ t the problem you’ve encountered; understanding the constraints that 
+may restrict the manner in which the solution is applied; and ﬁ nally, translat-
+ing the proposed solution into your design environment.  But what if the solution were codiﬁ ed in some manner? What if there was 
+a standard way of describing a problem (so you could look it up), and an orga-
+nized method for representing the solution to the problem? It turns out that 
+software problems have been codiﬁ ed and described using a standardized 
+template, and solutions to them (along with constraints) have been proposed. 
+Called  design patterns, 
+ this codiﬁ
+ ed method for describing problems and their 
+solution allows the software engineering community to capture design knowl-
+edge in a way that enables it to be reused.   
+ 
+ 
+CHAPTER16  
+ 
+What is it?   Pattern-based design 
+creates a new application by ﬁ nding 
+a set of proven solutions to a clearly 
+
+delineated set of problems. Each 
+problem and its solution is described by a de-
+sign pattern that has been cataloged and vetted 
+
+by other software engineers who have encoun-
+tered the problem and implemented the solution 
+
+while designing other applications. Each design 
+
+pattern provides you with a proven approach to 
+
+one part of the problem to be solved. 
+  
+ 
+Who does it?   A software engineer examines 
+each problem encountered for a new applica-
+tion and then attempts to ﬁ nd a relevant solution 
+by searching one or more patterns repositories. 
+  
+ 
+Why is it important? 
+  Have you ever heard the phrase “reinventing the wheel”? It happens 
+all the time in software development, and it’s 
+
+a waste of time and energy. By using exist-
+
+ing design patterns, you can acquire a proven 
+
+solution for a speciﬁ c problem. As each pat-
+tern is applied, solutions are integrated and 
+
+the application to be built moves closer to a 
+complete design.   
+ 
+What are the steps?   The requirements model is 
+examined in order to isolate the hierarchical set 
+
+of problems to be solved. The problem space is 
+
+partitioned so that subsets of problems associated 
+
+with speciﬁ c software functions and features can 
+be identiﬁ ed. Problems can also be organized by 
+type: architectural, component-level, algorithmic, 
+
+user interface, and so forth. Once a subset of 
+
+problems is deﬁ ned, one or more pattern reposi-
+tories are searched to determine if an existing de-
+
+sign pattern, represented at an appropriate level 
+
+of abstraction, exists. Patterns that are applicable 
+
+are adapted to the speciﬁ c needs of the software 
+to be built. Custom problem solving is applied 
+
+in situations for which no patterns can be found.  
+  
+ 
+What is the work product? 
+  A design model 
+that depicts the architectural structure, user inter-
+
+face, and component-level detail is developed. 
+  
+ 
+How do I ensure that I’ve done it right?   As each design pattern is translated into some 
+
+element of the design model, work products 
+are reviewed for clarity, correctness, complete-
+
+ness, and consistency with requirements and 
+with one another. 
+  
+QUICK LOOK  KEY CONCEPTS     architectural 
+patterns. . . . . . . . 359  
+
+    behavioral 
+
+patterns. . . . . . . . 350  
+
+    component-level design 
+
+patterns. . . . . . . . 360  
+
+    creational 
+
+patterns. . . . . . . . 350  
+
+    design mistakes  . . 359  
+
+    design patterns. . . 348  
+
+    frameworks  . . . . . . .351  
+
+    granularity. . . . . . 365  
+
+    kinds of patterns. . 349  
+
+    pattern languages. 353  
+
+    pattern-organizing 
+
+table  . . . . . . . . . . 358  
+pre22126_ch16_347-370.indd   347pre22126_ch16_347-370.indd   34716/12/13   6:22 PM16/12/13   6:22 PM

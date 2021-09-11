@@ -1,0 +1,48 @@
+516 Chapter 7  
+Databaseswith T is a shadow variable used only in this transaction. The steps of the intent phase 
+can be repeated an unlimited number of times without affecting the integrity of the 
+
+database.Once the DBMS begins the commit phase, it writes a COMMIT flag. When this 
+flag is set, the DBMS will not perform any steps of the intent phase. Intent steps can-
+
+not be performed after committing because database values are modified in the commit 
+
+phase. Notice, however, that the steps of the commit phase can be repeated an unlimited 
+
+number of times, again with no negative effect on the correctness of the values in the 
+
+database.The one remaining flaw in this logic occurs if the system fails after writing the 
+“transaction complete” message in the log but before clearing the commit flag in the 
+
+database. It is a simple matter to work backward through the transaction log to find 
+
+completed transactions for which the commit flag is still set and to clear those flags.Redundancy/Internal Consistency
+Many DBMSs maintain additional information to detect internal inconsistencies in data. 
+
+The additional information ranges from a few check bits to duplicate or shadow fields, 
+
+depending on the importance of the data.Error Detection and Correction Codes
+One form of redundancy is error detection and correction codes, such as parity bits, 
+Hamming codes [HAM50], and cyclic redundancy checks. (We introduce such codes in 
+
+Chapter 2.) These codes can be applied to single fields, records, or the entire database. 
+
+Each time a data item is placed in the database, the appropriate check codes are com-
+
+puted and stored; each time a data item is retrieved, a similar check code is computed 
+
+and compared to the stored value. If the values are unequal, they signify to the DBMS 
+
+that an error has occurred in the database. Some of these codes point out the place of 
+the error; others show precisely what the correct value should be. The more information 
+
+provided, the more space required to store the codes.
+Shadow FieldsEntire attributes or entire records can be duplicated in a database. If the data are irrepro-
+ducible, this second copy can provide an immediate replacement if an error is detected. 
+
+Obviously, redundant fields require substantial storage space.
+RecoveryIn addition to these error correction processes, a DBMS can maintain a log of user 
+
+accesses, particularly changes. In the event of a failure, the database is reloaded from a 
+
+backup copy and all later changes are then applied from the audit log.

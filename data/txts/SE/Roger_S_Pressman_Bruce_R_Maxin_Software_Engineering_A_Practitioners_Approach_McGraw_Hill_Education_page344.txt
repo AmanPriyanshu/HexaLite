@@ -1,0 +1,51 @@
+314 PART TWO  
+MODELINGfocuses on the elaboration of design classes that come from both the problem and infrastructure domain. The traditional view reﬁ nes three different types of 
+components or modules: control modules, problem domain modules, and infra-
+structure modules. In both cases, basic design principles and concepts that lead 
+to high-quality software are applied. When considered from a process viewpoint, 
+component-level design draws on reusable software components and design pat-
+terns that are pivotal elements of component-based software engineering.  A number of important principles and concepts guide the designer as classes are 
+elaborated. Ideas encompassed in the Open-Closed Principle and the Dependency 
+
+Inversion Principle and concepts such as coupling and cohesion guide the software 
+
+engineer in building testable, implementable, and maintainable software compo-
+nents. To conduct component-level design in this context, classes are elaborated by 
+
+specifying messaging details, identifying appropriate interfaces, elaborating attri-
+butes and deﬁ ning data structures to implement them, describing processing ﬂ
+ ow 
+within each operation, and representing behavior at a class or component level. In 
+
+every case, design iteration (refactoring) is an essential activity. 
+ Traditional component-level design requires the representation of data 
+structures, interfaces, and algorithms for a program module in sufﬁ cient detail 
+to guide in the generation of programming language source code. To accom-
+
+plish this, the designer uses one of a number of design notations that represent 
+ component-level detail in either graphical, tabular, or text-based formats. 
+ Component-level design for WebApps considers both content and function-
+ality as it is delivered by a Web-based system. Content design at the component 
+
+level focuses on content objects and the manner in which they may be packaged 
+for presentation to a WebApp end user. Functional design for WebApps focuses 
+
+on processing functions that manipulate content, perform computations, query 
+and access a database, and establish interfaces with other systems. All compo-
+nent-level design principles and guidelines apply. 
+ Component-level design for mobile apps makes use of a multilayered archi-tecture that includes a user interface layer, a business layer, and a data layer. If 
+
+the mobile app requires the design of components that implement the business 
+and/or data layers on the mobile device, the limitations of the physical charac-
+teristics of the device become important constraints on the design.  Structured programming is a procedural design philosophy that constrains the 
+number and type of logical constructs used to represent algorithmic detail. The 
+
+intent of structured programming is to assist the designer in deﬁ ning  
+algorithms 
+that are less complex and therefore easier to read, test, and maintain. 
+ Component-based software engineering identiﬁ es, constructs, catalogs, and 
+disseminates a set of software components in a particular application domain. 
+These components are then qualiﬁ ed, adapted, and integrated for use in a new 
+system. Reusable components should be designed within an environment that 
+establishes standard data structures, interface protocols, and program architec-
+tures for each application domain. pre22126_ch14_285-316.indd   314pre22126_ch14_285-316.indd   31413/12/13   6:12 PM13/12/13   6:12 PM

@@ -1,0 +1,67 @@
+96 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+The algorithm begins by encrypting the plaintext as blocks of 64 bits. The key is 
+64 bits long, but in fact it can be any 56-bit number. (The extra 8 bits are often used 
+
+as check digits but do not affect encryption in normal implementations. Thus we say 
+
+that DES uses a key, the strength of 
+
+which is 56 bits.) The user can pick 
+
+a new key at will any time there is 
+
+uncertainty about the security of the 
+old key.
+DES uses only standard arithmetic and logical operations on binary data up to 
+64 bits long, so it is suitable for implementation in software on most current computers. 
+
+Encrypting with DES involves 16 iterations, each employing replacing blocks of bits 
+
+(called a substitution step), shuffling the bits (called a permutation step), and mingling 
+
+in bits from the key (called a key transformation). Although complex, the process is 
+
+table driven and repetitive, making it suitable for implementation on a single-purpose 
+
+chip. In fact, several such chips are available on the market for use as basic components 
+
+in devices that use DES encryption in an application.
+Double and Triple DES
+As you know, computing power has increased rapidly over the last few decades, and it 
+promises to continue to do so. For this reason, the DES 56-bit key length is not long 
+
+enough for some people’s comfort. Since the 1970s, researchers and practitioners have 
+
+been interested in a longer-key version of DES. But we have a problem: The DES algo-
+
+rithm design is fixed to a 56-bit key.
+Double DESTo address the discomfort, some researchers suggest using a double encryption for 
+greater secrecy. The double encryption works in the following way. Take two keys, 
+k1 and k2, and perform two encryptions, one on top of the other: 
+E(k2, E(k1,m)). In theory, 
+this approach should multiply the difficulty of breaking the encryption, just as two locks 
+
+are harder to pick than one.Unfortunately, that assumption is false. Ralph Merkle and Martin Hellman [MER81] 
+showed that two encryptions are scarcely better than one: two encryptions with differ-
+
+ent 56-bit keys are equivalent in work factor to one encryption with a 57-bit key. Thus, 
+
+the double encryption adds only a small amount of extra work for the attacker who is 
+
+trying to infer the key(s) under which a piece of ciphertext was encrypted. As we soon 
+
+describe, some 56-bit DES keys have been derived in just days; two times days is still 
+
+days, when the hope was to add months if not years of work for the second encryption. 
+
+Alas, double DES adds essentially no more security.
+Triple DES
+However, a simple trick does indeed enhance the security of DES. Using three keys 
+adds significant strength.
+The so-called triple DES
+ procedure is 
+C  E(k3, E(k2, E(k1,m))). That is, you 
+encrypt with one key, then with the second, and finally with a third. This process gives a 
+DES encrypts 64-bit blocks by using a 
+56-bit key.

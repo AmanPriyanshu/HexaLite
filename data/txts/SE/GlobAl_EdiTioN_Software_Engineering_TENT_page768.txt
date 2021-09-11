@@ -1,0 +1,20 @@
+˜˙˛˜˜˚˛˝˙˙ˆˇ˘
+program evolution dynamicsThe study of the ways in which an evolving software system changes. It is claimed that Lehman™s Laws govern the dynamics of program evolution.program generatorA program that generates another program from a high-level, abstract specification. 
+The generator embeds knowledge that is reused in each generation activity.program inspectionA review where a group of inspectors examine a program, line by line, with the aim 
+of detecting program errors. A checklist of common programming errors often 
+drives inspections.PythonA programming language with dynamic types, which is particularly well-suited to 
+the development of web-based systems.quality management (QM)The set of processes concerned with defining how software quality can be achieved 
+and how the organization developing the software knows that the software has met 
+the required level of quality.quality planA plan that defines the quality processes and procedures that should be used. This 
+involves selecting and instantiating standards for products and processes and defin-
+ing the system quality attributes that are most important.rapid application development (RAD)An approach to software development aimed at rapid delivery of the software. It 
+often involves the use of database programming and development support tools 
+such as screen and report generators.rate of occurrence of failure (ROCOF)A reliability metric that is based on the number of observed failures of a system in a 
+given time period.Rational Unified Process (RUP)A generic software process model that presents software development as a four-
+phase iterative activity, where the phases are inception, elaboration, construction 
+and transition. Inception establishes a business case for the system, elaboration 
+defines the architecture, construction implements the system, and transition deploys 
+the system in the customer™s environment.real-time systemA system that has to recognize and process external events in ™real-time™. The 
+ correctness of the system does not just depend on what it does but also on how quickly 
+
+it does it. Real-time systems are usually organized as a set of concurrent processes.

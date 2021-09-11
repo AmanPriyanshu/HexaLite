@@ -1,0 +1,85 @@
+CHAPTER 20  
+REVIEW TECHNIQUES 433 
+ 
+ 
+ 
+   
+The primary objective of technical reviews is to ﬁ nd errors during the process 
+so that they do not become defects after release of the software. The obvious 
+beneﬁ t of technical reviews is the early discovery of errors so that they do not 
+propagate to the next step in the software process.  A number of industry studies indicate that design activities introduce between 50 and 65 percent of all errors (and ultimately, all defects) during the software 
+
+process. However, review techniques have been shown to be up to 75 percent 
+
+effective [Jon86] in uncovering design ﬂ aws. By detecting and removing a large 
+percentage of these errors, the review process substantially reduces the cost of 
+subsequent activities in the software process.   
+ 
+ 
+ 
+ 
+ 20.2 D
+EFECT AMPLIFICATION
+ AND REMOVAL
+  
+ 
+ 
+A  defect ampliﬁ cation model
+ 
+ [IBM81] can be used to illustrate the generation and 
+detection of errors during the design and code generation actions of a software 
+process. The model is illustrated schematically in  Figure 20.1 . A box represents a software engineering action. During the action, errors may be inadvertently 
+generated. Review may fail to uncover newly generated errors and errors from 
+previous steps, resulting in some number of errors that are passed through. In 
+some cases, errors passed through from previous steps are ampliﬁ ed (ampliﬁ
+ -cation factor,  
+x 
+) by current work. The box subdivisions represent each of these characteristics and the percent of efﬁ ciency for detecting errors, a function of 
+the thoroughness of the review. 
+ 
+ 
+ 
+ 
+   
+Figure 20.2  illustrates a hypothetical example of defect ampliﬁ
+ cation for a soft-
+ware process in which no reviews are conducted. Referring to the ﬁ gure, each 
+test step is assumed to uncover and correct 50 percent of all incoming errors 
+without introducing any new errors (an optimistic assumption). Ten preliminary 
+
+design defects are ampliﬁ ed to 94 errors before testing commences. Twelve la-
+tent errors are released to the ﬁ eld.  
+Figure 20.3  considers the same conditions 
+except that design and code reviews are conducted as part of each software en-
+gineering action. In this case, 10 initial preliminary (architectural) design errors 
+are ampliﬁ ed to 24 errors before testing commences. Only three latent errors 
+   The primary objective 
+of an FTR is to ﬁ nd 
+
+errors before they are 
+
+passed on to another 
+software engineering 
+activity or released to 
+the end user. 
+  uote:  “Some maladies, 
+as doctors say, at 
+
+their beginning 
+are easy to cure 
+but difﬁ cult to 
+
+
+in the course of 
+time when they 
+have not at ﬁ rst 
+
+been recognized 
+and treated, 
+become easy to 
+recognize but 
+difﬁ cult to cure.” 
+ Niccolo 
+Machiavelli Errors passed throughDevelopment stepDefectsDetectionErrors fromprevious stepAmplified errors 1 : xNewly generated errorsPercentefficiencyfor errordetectionErrors passedto next step FIGURE 20.1 
+Defect ampliﬁ cation 
+modelpre22126_ch20_431-447.indd   433pre22126_ch20_431-447.indd   43313/12/13   10:01 PM13/12/13   10:01 PM

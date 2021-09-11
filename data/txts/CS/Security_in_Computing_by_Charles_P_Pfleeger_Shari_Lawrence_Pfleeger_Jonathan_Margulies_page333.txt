@@ -1,0 +1,16 @@
+ Section 5.1  Security in Operating Systems 
+299  limit. Each program address is forced to be above the base address because the contents 
+of the base register are added to the address; each address is also checked to ensure that 
+
+it is below the bounds address. In this way, a program’s addresses are neatly confined to 
+
+the space between the base and the bounds registers.
+AddressLimitRegister
+MemoryOperatingSystem Version 2
+User ProgramSpace
+Addresses 0pp + 1Highp + 1AddressLimitRegister
+MemoryOperatingSystem Version 1
+User ProgramSpaceAddresses 0nn + 1Highn + 1AddressingRangeAddressingRangeFIGURE 5-7 Fence Registers
+MemoryOperatingSystemUser AProgram SpaceAddresses 0nn + 1HighBase Register
+n + 1Bounds Register
+pUser CProgram SpaceUser BProgram SpaceUser ProgramSpaceqq + 1pp + 1FIGURE 5-8 Base and Bounds Registers

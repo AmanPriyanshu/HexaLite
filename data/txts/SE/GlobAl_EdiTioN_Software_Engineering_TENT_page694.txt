@@ -1,0 +1,26 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜ Figure 23.13 shows how the cost driver attributes influence effort estimates. 
+Assume that the exponent value is 1.17 as discussed in the above example. Reliability (RELY), complexity (CPLX), storage (STOR), tools (TOOL), and schedule (SCED) are the key cost drivers in the project. All of the other cost drivers have a nominal value of 1, so they do not affect the effort computation.In Figure 23.13, I have assigned maximum and minimum values to the key cost 
+drivers to show how they influence the effort estimate. The values used are those 
+
+from the COCOMO II reference manual (Abts et al. 2000). You can see that high 
+
+values for the cost drivers lead an effort estimate that is more than three times the 
+
+initial estimate, whereas low values reduce the estimate to about one third of the 
+
+original. This highlights the significant differences between different types of 
+
+project and the difficulties of transferring experience from one application domain 
+
+to another.˘˘As well as estimating the overall costs of a project and the effort that is required to 
+develop a software system, project managers must also estimate how long the soft-
+ware will take to develop and when staff will be needed to work on the project. 
+
+Increasingly, organizations are demanding shorter development schedules so that 
+
+their products can be brought to market before their competitor™s.Exponent value1.17System size (including factors for reuse and 
+requirements volatility)128 KLOCInitial COCOMO estimate without cost drivers730 person-monthsReliabilityVery high, multiplier = 1.39ComplexityVery high, multiplier = 1.3Memory constraintHigh, multiplier = 1.21Tool useLow, multiplier = 1.12ScheduleAccelerated, multiplier = 1.29Adjusted COCOMO estimate2306 person-monthsReliabilityVery low, multiplier = 0.75ComplexityVery low, multiplier = 0.75Memory constraintNone, multiplier = 1Tool useVery high, multiplier = 0.72ScheduleNormal, multiplier = 1Adjusted COCOMO estimate295 person-monthsFigure 23.13  The effect of cost  
+drivers on effort 
+estimates

@@ -1,0 +1,39 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜4. Integration and system testing The individual program units or programs are 
+integrated and tested as a complete system to ensure that the software 
+
+requirements have been met. After testing, the software system is delivered 
+
+to the customer.5. Operation and maintenance 
+Normally, this is the longest life-cycle phase. The 
+
+system is installed and put into practical use. Maintenance involves correcting 
+errors that were not discovered in earlier stages of the life cycle, improving the 
+implementation of system units, and enhancing the system™s services as new 
+
+requirements are discovered.In principle, the result of each phase in the waterfall model is one or more docu-ments that are approved (ﬁsigned offﬂ). The following phase should not start until 
+
+the previous phase has finished. For hardware development, where high manufactur-
+ing costs are involved, this makes sense. However, for software development, these 
+stages overlap and feed information to each other. During design, problems with 
+
+requirements are identified; during coding design problems are found, and so on. 
+
+The software process, in practice, is never a simple linear model but involves feed-
+back from one phase to another.As new information emerges in a process stage, the documents produced at previ
+-ous stages should be modified to reflect the required system changes. For example, 
+if it is discovered that a requirement is too expensive to implement, the requirements 
+document should be changed to remove that requirement. However, this requires 
+
+customer approval and delays the overall development process.As a result, both customers and developers may prematurely freeze the software specification so that no further changes are made to it. Unfortunately, this means that 
+
+problems are left for later resolution, ignored, or programmed around. Premature 
+
+freezing of requirements may mean that the system won™t do what the user wants. It 
+may also lead to badly structured systems as design problems are circumvented by 
+implementation tricks.During the final life-cycle phase (operation and maintenance) the software is put into use. Errors and omissions in the original software requirements are discovered. Boehm™s spiral process modelBarry Boehm, one of the pioneers in software engineering, proposed an incremental process model that was 
+risk-driven. The process is represented as a spiral rather than a sequence of activities (Boehm 1988).Each loop in the spiral represents a phase of the software process. Thus, the innermost loop might be con-
+cerned with system feasibility, the next loop with requirements definition, the next loop with system design, 
+and so on. The spiral model combines change avoidance with change tolerance. It assumes that changes are 
+a˜result of project risks and includes explicit risk management activities to reduce these risks.http://software-engineering-book.com/web/spiral-model/

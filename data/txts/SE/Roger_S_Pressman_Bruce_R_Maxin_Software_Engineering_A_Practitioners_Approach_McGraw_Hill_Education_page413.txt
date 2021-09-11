@@ -1,0 +1,30 @@
+CHAPTER 17  
+WEBAPP DESIGN 383hierarchy, a WebApp hierarchical structure can be designed in a manner that 
+enables (via hypertext branching) ﬂ ow of control horizontally, across vertical 
+branches of the structure. Hence, content presented on the far left-hand branch 
+of the hierarchy can have hypertext links that lead directly to content that exists 
+in the middle or right-hand branch of the structure. It should be noted, however, 
+
+that although such branching allows rapid navigation across WebApp content, it 
+
+can lead to confusion on the part of the user. 
+  A  networked 
+ or  
+“pure web” structure
+ 
+ ( 
+Figure 17.7 ) is similar in many ways to the architecture that evolves for object-oriented systems. Architectural compo-
+nents (in this case, Web pages) are designed so that they may pass control (via 
+
+hypertext links) to virtually every other component in the system. This approach 
+allows considerable navigation ﬂ exibility, but at the same time, can be confusing 
+to a user. 
+  
+FIGURE 17.6 
+Hierarchical 
+structure 
+   
+ 
+FIGURE 17.7 
+Network structure 
+  pre22126_ch17_371-390.indd   383pre22126_ch17_371-390.indd   38313/12/13   6:13 PM13/12/13   6:13 PM

@@ -1,0 +1,77 @@
+ Section 8.2  Moving to the Cloud 
+557  As a result, understanding your migration options becomes an important security 
+concern when you are considering cloud services.Different types of cloud services represent different migration challenges. SaaS 
+offerings often present migration challenges by being incompatible with competing ser-
+
+vices. Many SaaS providers store large quantities of their customers’ data in proprietary 
+
+formats and allow customers to access that data through proprietary APIs. It may not 
+
+be in some providers’ best interest to provide customers with tools to export that data 
+
+en masse to open formats. Proprietary APIs also mean that any applications a customer 
+
+has built on top of the SaaS will likely need to be rewritten after the migration to a 
+
+new provider. Unfortunately, the availability of SaaS offerings that have friendly migra-
+
+tion features depends on the application type, so in some cases vendor lock-in may be 
+
+unavoidable.
+PaaS providers offer customers the tools to build hosted cloud applications. They 
+generally allow customers to program using cloud-based compilers (or scripting 
+
+engines), APIs, and databases. Below that code, the provider handles every aspect of 
+
+hosting. As with SaaS, proprietary APIs can present a migration challenge. Luckily, 
+
+the general-purpose nature of PaaS helps mitigate this issue, since most PaaS providers 
+
+support common programming languages, libraries, and database tools that customers 
+
+are already familiar with.
+IaaS offerings are the most standardized of the three service models, since they must 
+maintain compatibility with common operating systems and network protocols. (Side-
+
+bar 8-1 describes a clever way to take advantage of this fact.) The API challenges are 
+
+much the same as in the PaaS model, though in this case those APIs focus on control 
+
+and interaction with IaaS virtual machines (VMs). The VMs themselves are generally 
+
+easy to migrate because there are tools for converting VMs from just about any standard 
+
+file format to another. Some VMs, however, can cause problems: IaaS providers offer 
+
+special-purpose VMs with unique functionality (for example, a firewall product that is 
+
+otherwise only available as an integrated appliance), and they may have exclusive rights 
+
+to those products. Complexity may be an issue in switching IaaS providers as well, 
+
+depending on the extensiveness of the client’s network configuration.
+Cloud as a Security Control
+While moving data and functionality to the cloud does have its risks, cloud services 
+
+can be valuable security tools in a 
+
+number of ways. The most obvi-
+
+ous is that cloud services are often 
+
+excellent at mitigating single points 
+
+of failure. This benefit comes in a 
+
+few forms.
+• Geographic diversity
+. If you have only one data center, you have all sorts of 
+localized threats to worry about: natural disasters, fires, and Internet outages, 
+
+to name a few. Beyond security issues, having only one data center may unac-
+
+ceptably increase network latency for long-distance communications. Cloud ser-
+
+vices may be a cost-effective way to diversify geographically. Some providers 
+Cloud computing mitigates the risk of 
+single points of failure.

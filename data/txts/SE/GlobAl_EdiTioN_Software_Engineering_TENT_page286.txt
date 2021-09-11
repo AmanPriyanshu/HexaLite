@@ -1,0 +1,41 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜As computer systems have become deeply embedded in our business and personal 
+lives, the problems that result from system and software failure are increasing. A 
+
+failure of server software in an e-commerce company could lead to a major loss of 
+revenue and customers for that company. A software error in an embedded control 
+system in a car could lead to expensive recalls of that model for repair and, in the 
+worst case, could be a contributory factor in accidents. The infection of company 
+
+PCs with malware requires expensive clean-up operations to sort out the problem 
+
+and could lead to the loss of or damage to sensitive information.Because software-intensive systems are so important to governments, companies, and individuals, we have to be able to trust these systems. The software should be 
+available when it is needed, and it should operate correctly without undesirable side 
+effects, such as unauthorized information disclosure. In short, we should be able to 
+depend on our software systems.The term dependability was proposed by Jean-Claude Laprie in 1995 to cover the related systems attributes of availability, reliability, safety, and security. His ideas 
+
+were revised over the next few years and are discussed in a definitive paper pub-
+lished in 2004 (Avizienis et al. 2004). As I discuss in Section 10.1, these properties 
+are inextricably linked, so having a single term to cover them all makes sense.The dependability of systems is usually more important than their detailed func-tionality for the following reasons:1. System failures affect a large number of people Many systems include func-tionality that is rarely used. If this functionality were left out of the system, only 
+
+a small number of users would be affected. System failures that affect the avail-
+ability of a system potentially affect all users of the system. Unavailable sys-tems may mean that normal business is impossible.2. Users often reject systems that are unreliable, unsafe, or insecure 
+If users find 
+
+that a system is unreliable or insecure, they will refuse to use it. Furthermore, 
+they may also refuse to buy or use other products from the company that pro-
+duced the unreliable system. They do not want a repetition of their bad experi-
+ence with an undependable system.3. System failure costs may be enormous For some applications, such as a reactor 
+control system or an aircraft navigation system, the cost of system failure is 
+
+orders of magnitude greater than the cost of the control system. Failures in sys
+-
+tems that control critical infrastructure such as the power network have wide-
+spread economic consequences.4. Undependable systems may cause information loss Data is very expensive to collect 
+
+and maintain; it is usually worth much more than the computer system on which it 
+
+is processed. The cost of recovering lost or corrupt data is usually very high.However, a system can be useful without it being very dependable. I don™t think that the word processor that I used to write this book is a very dependable system. 
+
+It˜sometimes freezes and has to be restarted. Nevertheless, because it is very useful, 

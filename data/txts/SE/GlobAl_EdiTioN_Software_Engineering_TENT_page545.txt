@@ -1,0 +1,46 @@
+These key features are enough to describe most workflows. However, BPMN 
+includes many additional features that I don™t have space to describe here. These add 
+information to a business process description that allows it to be automatically trans
+-
+lated into an executable service.
+Figure 18.
+15 shows a process that is enacted in a single organization, the com
+-pany that provides a booking service. However, the key benefit of a service-oriented 
+
+approach is that it supports interorganizational computing. This means that a compu
+-
+tation involves processes and services in different companies. This process is repre
+-
+sented in BPMN by developing separate workflows for each of the organizations 
+
+involved with interactions between them.
+To illustrate multiple workflow processes, I use a different example, drawn 
+from high-performance computing, where hardware is offered as a service. 
+
+Services are created to provide access to high-performance computers to a geo
+-
+graphically distributed user community. In this example, a vector-processing com
+-
+puter (a machine that can carry out parallel computations on arrays of values) is 
+
+offered as a service (
+VectorProcService
+) by a research laboratory. This is accessed 
+through another service called SetupComputation. These services and their 
+ interactions are shown in Figure 
+18.16.In this example, the workflow for the 
+SetupComputation service asks for access 
+to a vector processor and, if a processor is available, establishes the computation 
+
+required and downloads data to the processing service. Once the computation is 
+
+complete, the results are stored on the local computer. The workflow for 
+VectorProcService
+ includes the following steps:
+Check if a processor is available
+Allocate resources for the computation
+Initialize the systemHotels.GetRequirementsCustomerHotels.CheckAvailability
+Hotels.NoAvailability
+Hotels.ReserveRooms
+Hotels.ConfirmReservationRetryCancelRooms OKNo roomsFigure 18.15 A fragment of a hotel booking workflow ˜˚˛˝ˇ˜˜˜
+˜˜˜

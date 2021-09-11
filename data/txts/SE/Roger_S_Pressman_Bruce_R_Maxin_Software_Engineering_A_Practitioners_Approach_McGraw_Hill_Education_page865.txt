@@ -1,0 +1,67 @@
+CHAPTER 37  
+SOFTWARE PROCESS IMPROVEMENT
+ 835 
+At a qualitative level, proponents of SPI argue that an improved software pro-cess will lead to improved software quality. They contend that improved process 
+
+will result in the implementation of better-quality ﬁ
+ lters (resulting in fewer prop-
+agated defects), better control of change (resulting in less project chaos), and 
+less technical rework (resulting in lower cost and better time-to-market). But 
+can these qualitative beneﬁ ts be translated into quantitative results? The classic 
+return on investment (ROI) equation is:  
+ROI 5  [  
+ [S ( beneﬁ ts
+ 
+) 2 S ( costs 
+)]   ________________________  S ( costs 
+)   ] 
+ 3 100%  
+  where  
+ 
+ 
+ 
+ 
+beneﬁ ts
+ 
+ include the cost savings associated with higher product quality (fewer defects), less rework, reduced effort associated with changes, and the in-
+come that accrues from shorter time-to-market.    
+ 
+ 
+ 
+costs 
+ include both direct SPI costs (e.g., training, measurement) and indirect costs associated with greater emphasis on quality control and change manage-
+ment activities and more rigorous application of software engineering methods 
+(e.g., the creation of a design model).  
+ 
+  In the real world, these quantitative beneﬁ ts and costs are sometimes difﬁ
+ cult 
+to measure with accuracy, and all are open to interpretation. But that doesn’t 
+
+mean that a software organization should conduct an SPI program without care-
+ful analysis of the costs and beneﬁ ts that accrue. A comprehensive treatment of 
+ROI for SPI can be found in a unique book by David Rico [Ric04].   
+ 
+ 
+ 
+ 37.7  
+SPI TRENDS  
+ 
+Over the past 25 years, many companies have attempted to improve their soft-ware engineering practices by applying an SPI framework to effect organiza-
+tional change and technology transition. As we noted earlier in this chapter, over 
+
+half fail in this endeavor. Regardless of success or failure, all spend signiﬁ
+ cant 
+amounts of money. David Rico [Ric04] reports that a typical application of an SPI 
+
+framework such as the SEI CMM can cost between $25,000 and $70,000 per per-
+
+son and take years to complete! It should come as no surprise that the future of 
+SPI should emphasize a less costly and time-consuming approach.  To be effective in the twenty-ﬁ
+ rst-century world of software development, fu-
+ture SPI frameworks must become signiﬁ cantly more agile. Rather than an orga-
+nizational focus (which can take years to complete successfully), contemporary 
+SPI efforts should focus on the project level, working to improve a team process 
+in weeks, not months or years. To achieve meaningful results (even at the project 
+
+level) in a short time frame, complex framework models may give way to simpler 
+models. Rather than dozens of key practices and hundreds of supplementary pre22126_ch37_817-838.indd   835pre22126_ch37_817-838.indd   83513/12/13   6:17 PM13/12/13   6:17 PM

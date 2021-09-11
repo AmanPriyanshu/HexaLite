@@ -1,0 +1,120 @@
+CHAPTER 24  
+TESTING OBJECT-ORIENTED APPLICATIONS
+ 533 
+A variety of different operation sequences can be generated randomly. For 
+example:  
+ 
+ 
+ 
+ 
+ 
+ 
+Test case r
+1: 
+  open•setup•deposit•deposit•balance•summarize•withdraw•close   
+ 
+ 
+ 
+ 
+ 
+ 
+Test case r
+2: 
+ open•setup•deposit•withdraw•deposit•balance•creditLimit•withdraw•close  
+ 
+  
+These and other random order tests are conducted to exercise different class instance life histories.  
+ 
+ 
+  
+ 
+ 
+Class Testing 
+  
+ 
+ 
+Class Testing 
+  
+ 
+The scene:  Shakira’s cubicle. 
+  
+The players:  Jamie and Shakira—members of the 
+ SafeHome 
+ software engineering team who are working on test-case design for the security function.   
+The conversation:    
+Shakira:  I’ve developed some tests for the  
+Detector 
+ class [Figure 14.4]—you know, the one that allows 
+
+access to all of the  Sensor 
+ objects for the security function. You familiar with it? 
+  
+Jamie (laughing):  Sure, it’s the one that allowed you 
+to add the “doggie angst” sensor. 
+  
+Shakira:  The one and only. Anyway, it has an inter-
+face with four ops:  read(), enable(), disable(), 
+and  test(). 
+ Before a sensor can be read, it must be enabled. Once 
+it’s enabled, it can be read and tested. It can be dis-
+
+abled at any time, except if an alarm condition is being 
+
+processed. So I deﬁ ned a simple test sequence that will 
+exercise its behavioral life history. [Shows Jamie the 
+
+following sequence.]  #1: enable•test•read•disable   
+Jamie:  That’ll work, but you’ve got to do more testing 
+than that!   
+Shakira:  I know, I know, here are some other se-
+quences I’ve come up with. [Shows Jamie the following 
+sequences.]  #2: enable•test*[read]  n 
+ 
+•test•disable  #3: [read]  n 
+ 
+  #4: enable*disable•[test | read] 
+  
+Jamie:  So let me see if I understand the intent of 
+these. #1 goes through a normal life history, sort of a 
+
+conventional usage. #2 repeats the read operation  n 
+ times, and that’s a likely scenario. #3 tries to read the 
+
+sensor before it’
+
+an error message of some kind, right? #4 enables and 
+disables the sensor and then tries to read it. Isn’t that the 
+
+same as test #2?   
+Shakira:  Actually no. In #4, the sensor has been 
+enabled. What #4 really tests is whether the disable 
+op works as it should. A  read() 
+ or  test() 
+ after  disable() 
+ should generate the error message. If it doesn’t, then we 
+
+have an error in the disable op.   
+Jamie:  Cool. Just remember that the four tests have to 
+be applied for every sensor type since all the ops may 
+
+be subtly different depending on the type of sensor. 
+  
+Shakira:  Not to worry. That’s the plan. 
+  
+SAFEHOME  
+ 
+ 
+ 
+ 
+24.5.2   
+Partition Testing at the Class Level 
+ 
+ 
+Partition testing 
+ reduces the number of test cases required to exercise the class 
+in much the same manner as equivalence partitioning (Chapter 23) for tradi-
+tional software. Input and output are categorized and test cases are designed to 
+exercise each category. But how are the partitioning categories derived? 
+ What testing 
+options are available at the 
+class level? ?pre22126_ch24_523-539.indd   533pre22126_ch24_523-539.indd   53313/12/13   10:02 PM13/12/13   10:02 PM

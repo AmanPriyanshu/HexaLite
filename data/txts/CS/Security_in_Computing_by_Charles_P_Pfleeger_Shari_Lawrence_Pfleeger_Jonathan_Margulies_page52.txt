@@ -1,0 +1,59 @@
+18 Chapter 1  
+IntroductionSIDEBAR 1-1 ContinuedDonn Parker [PAR98] has studied hacking and computer crime for 
+many years. He states “hackers are characterized by an immature, exces-
+
+sively idealistic attitude . . . They delight in presenting themselves to the 
+media as idealistic do-gooders, champions of the underdog.”
+Consider the following excerpt from an interview [SHA00] with “Mix-
+ter,” the German programmer who admitted he was the author of a wide-
+
+spread piece of attack software called Tribal Flood Network (TFN) and its 
+
+sequel TFN2K:Q: Why did you write the software?
+A: I first heard about Trin00 [another piece of attack software] in July 
+’99 and I considered it as interesting from a technical perspective, 
+
+but also potentially powerful in a negative way. I knew some facts of 
+
+how Trin00 worked, and since I didn’t manage to get Trin00 sources 
+
+or binaries at that time, I wrote my own server-client network that was 
+
+capable of performing denial of service.
+Q: Were you involved . . . in any of the recent high-profile attacks?
+A: No. The fact that I authored these tools does in no way mean that I 
+condone their active use. I must admit I was quite shocked to hear 
+
+about the latest attacks. It seems that the attackers are pretty clueless 
+
+people who misuse powerful resources and tools for generally harm-
+
+ful and senseless activities just “because they can.”Notice that from some information about denial-of-service attacks, he 
+wrote his own server-client network and then a sophisticated attack. But he 
+
+was “quite shocked” to hear they were used for harm.
+More research is needed before we can define the profile of a hacker. 
+And even more work will be needed to extend that profile to the profile of 
+
+a (malicious) attacker. Not all hackers become attackers; some hackers 
+
+become extremely dedicated and conscientious system administrators, 
+
+developers, or security experts. But some psychologists see in AS the rudi-
+
+ments of a hacker’s profile.
+IndividualsOriginally, computer attackers were individuals, acting with motives of fun, challenge, 
+or revenge. Early attackers acted alone. Two of the most well known among them are 
+
+Robert Morris Jr., the Cornell University graduate student who brought down the Inter-
+
+net in 1988 [SPA89], and Kevin Mitnick, the man who broke into and stole data from 
+
+dozens of computers, including the San Diego Supercomputer Center [MAR95].
+Organized, Worldwide Groups
+More recent attacks have involved groups of people. An attack against the government 
+of the country of Estonia (described in more detail in Chapter 13) is believed to have 
+
+been an uncoordinated outburst from a loose federation of attackers from around the 
+
+world. Kevin Poulsen [POU05] quotes Tim Rosenberg, a research professor at George 

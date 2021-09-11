@@ -1,0 +1,63 @@
+CHAPTER 36  
+MAINTENANCE AND REENGINEERING 813Communication among the desktop applications (when necessary) is controlled by the business rules layer. 
+ A comprehensive discussion of client-server software design and reengineer-
+ing is best left to books dedicated to the subject. If you have further interest, see 
+[Van02], [Cou00], or [Orf99]. 
+  
+ 
+ 
+36.8.2   
+Forward Engineering for Object-Oriented Architectures 
+ 
+Object-oriented software engineering has become the development paradigm 
+of choice for many software organizations. But what about existing applica-
+tions that were developed using conventional methods? In some cases, the an-
+swer is to leave such applications “as is.” In others, older applications must be 
+
+reengineered so that they can be easily integrated into large, object-oriented 
+
+systems. 
+ Reengineering conventional software into an object-oriented implementa-tion uses many of the same techniques discussed in Part 2 of this book. First, the 
+
+existing software is reverse engineered so that appropriate data, functional, 
+
+and behavioral models can be created. If the reengineered system extends 
+
+8 
+
+and 9) are created. The data models created during reverse engineering are 
+
+then used in conjunction with CRC modeling (Chapter 10) to establish the basis 
+
+for the deﬁ nition of classes. Class hierarchies, object-relationship models, 
+ object-behavior models, and subsystems are deﬁ ned, and object-oriented de-
+sign commences. 
+ As object-oriented forward engineering progresses from analysis to design, a CBSE process model (Chapter 10) can be invoked. If the existing application 
+resides within a domain that is already populated by many object-oriented appli-
+cations, it is likely that a robust component library exists and can be used during 
+forward engineering.  For those classes that must be engineered from scratch, it may be possible to reuse algorithms and data structures from the existing conventional appli-
+cation. However, these must be redesigned to conform to the object-oriented 
+
+architecture.   
+ 
+ 
+ 
+ 
+ 36.9  
+THE ECONOMICS OF REENGINEERING   
+  
+ 
+In a perfect world, every unmaintainable program would be retired immediately, 
+to be replaced by high-quality, reengineered applications developed using mod-
+
+ern software engineering practices. But we live in a world of limited resources. 
+Reengineering drains resources that can be used for other business purposes. 
+Therefore, before an organization attempts to reengineer an existing applica-
+tion, it should perform a cost-beneﬁ t analysis. 
+ 
+ uote:  “You can pay a little 
+now, or you can pay 
+
+a lot more later.” 
+ Sign in an auto 
+dealership suggesting a tune-up pre22126_ch36_795-816.indd   813pre22126_ch36_795-816.indd   81313/12/13   6:17 PM13/12/13   6:17 PM

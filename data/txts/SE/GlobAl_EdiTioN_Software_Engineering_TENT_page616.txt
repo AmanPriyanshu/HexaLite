@@ -1,0 +1,38 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜In some cases, for new systems, you may be able to follow a fairly abstract approach 
+where you start with the stimuli and associated processing, and decide on the hardware 
+
+and execution platforms late in the process. In other cases, the choice of hardware and 
+
+operating system is made before the software design starts. You then have to design 
+
+the software to take account of the constraints imposed by the system hardware.Processes in a real-time system have to be coordinated and share information. 
+Process coordination mechanisms ensure mutual exclusion to shared resources. When 
+
+one process is modifying a shared resource, other processes should not be able to change 
+
+that resource. Mechanisms for ensuring mutual exclusion include semaphores, moni-tors, and critical regions. These process synchronization mechanisms are described in 
+
+most operating system books (Silberschaltz, Galvin, and Gagne 2013; Stallings 2014).When designing the information exchange between processes, you have to take into account that these processes may be running at different speeds. One process is 
+producing information, and the other process is consuming that information. If the 
+
+producer is running faster than the consumer, new information could overwrite a 
+
+previously read information item before the consumer process has read the original 
+
+information. If the consumer process is running faster than the producer process, the 
+same item could be read twice.To avoid this problem, you should implement information exchange using a 
+shared buffer and use mutual exclusion mechanisms to control access to that buffer. 
+
+This means that information can™t be overwritten before it has been read and that 
+
+information cannot be read twice. Figure 21.4 illustrates the organization of a shared 
+buffer. This is usually implemented as a circular queue, using a list data structure. 
+Mismatches in speed between the producer and consumer processes can be accom-
+modated without having to delay process execution.The producer process always enters data in the buffer location at the end of the queue (represented as v10 in Figure 21.4). The consumer process always retrieves 
+information from the head of the queue (represented as v1 in Figure 21.4). After the 
+consumer process has retrieved the information, the tail of the queue is adjusted to 
+point at the next item (v2). After the producer process has added information, the tail 
+of the queue is adjusted to point at the next free slot in the queue.ConsumerprocessProducerprocessCircular BufferHeadTail
+v1v2v3v4v5v6v7v8v9v10
+Figure 21.4 Producer/consumer processes sharing a circular buffer˜

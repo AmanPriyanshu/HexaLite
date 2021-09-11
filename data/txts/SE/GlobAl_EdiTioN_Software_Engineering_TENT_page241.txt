@@ -1,0 +1,25 @@
+˜˜˚˛˜˜˜˜˜˜
+The sequence diagram helps you design the specific test cases that you need, as it shows what inputs are required and what outputs are created:1. An input of a request for a report should have an associated acknowledgment. A˜report should ultimately be returned from the request. During testing, you 
+
+should create summarized data that can be used to check that the report is cor-
+rectly organized.2. An input request for a report to WeatherStation results in a summarized report being generated. You can test this in isolation by creating raw data correspond-
+ing to the summary that you have prepared for the test of SatComms and check-ing that the 
+WeatherStation object correctly produces this summary. This raw 
+data is also used to test the WeatherData object.Of course, I have simplified the sequence diagram in Figure 8.8 so that it does not show exceptions. A complete use case/scenario test must take these exceptions into 
+account and ensure that they are correctly handled.For most systems, it is difficult to know how much system testing is essential and when you should stop testing. Exhaustive testing, where every possible program 
+
+execution sequence is tested, is impossible. Testing, therefore, has to be based on a 
+subset of possible test cases. Ideally, software companies should have policies for 
+
+choosing this subset. These policies might be based on general testing policies, such 
+as a policy that all program statements should be executed at least once. Alternatively, 
+they may be based on experience of system usage and focus on testing the features of 
+the operational system. For example:SatCommsrequest (report)
+acknowledgereportWeather ()
+get (summary)reply (report)
+acknowledgeWeatherStation
+Commslinksummarise ()WeatherData
+acknowledgesend (report)
+acknowledgeWeather
+information systemFigure 8.8 Collect weather data 
+sequence chart 

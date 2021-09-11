@@ -1,0 +1,40 @@
+ Section 5.2  Security in the Design of Operating Systems 
+321  • Memory protection
+. Because each domain includes code and data stored in 
+memory, the TCB must monitor memory references to ensure secrecy and integ-
+
+rity for each domain.• I/O operation
+. In some systems, software is involved with each character trans-
+ferred in an I/O operation. This software connects a user program in the outer-
+
+most domain to an I/O device in the innermost (hardware) domain. Thus, I/O 
+
+operations can cross all domains.TCB Design The division of the operating system into TCB and non-TCB aspects is convenient for 
+
+designers and developers because it means that all security-relevant code is located in 
+
+one (logical) part. But the distinction is more than just logical. To ensure that the secu-
+
+rity enforcement cannot be affected by non-TCB code, TCB code must run in some 
+
+protected state that distinguishes it and protects it from interference or compromise by 
+any code outside the TCB. Thus, the structuring into TCB and non-TCB must be done 
+
+consciously. 
+Non-TCBPrimitive I/O
+Basic operations
+Clocks, timing
+Interrupt handling
+Hardware: registers, memory
+
+CapabilitiesUser request interpreter
+User process coordination, synchronization
+
+User environment: objects, names (e.g., files)
+
+User I/O
+Procedures, user processes
+Creation and deletion of user objects
+Directories
+Extended typesSegmentation, paging, memory management
+User applicationsUtilitiesTCBFIGURE 5-17 System Separated into TCB and Non-TCB Sections 

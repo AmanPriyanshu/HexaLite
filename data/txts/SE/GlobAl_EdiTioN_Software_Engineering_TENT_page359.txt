@@ -1,0 +1,43 @@
+˜˜˚˛˝˜˜˜
+˜˜˜
+best if the model can be created automatically from the program source code. Model 
+checkers are available that work directly from programs in Java, C, C++, and Ada.Model checking is computationally very expensive because it uses an exhaustive approach to check all paths through the system model. As the size of a system 
+
+increases, so too does the number of states, with a consequent increase in the number 
+of paths to be checked. For large systems, therefore, model checking may be imprac-
+tical, due to the computer time required to run the checks. However, better algo-
+rithms are under development that can identify parts of the state that do not have to 
+be explored when checking a particular property. As these algorithms are incorpo-
+rated into model checkers, it will be increasingly possible to use model checking 
+
+routinely in large-scale critical systems development.ˇˇAutomated static analyzers are software tools that scan the source text of a program 
+
+and detect possible faults and anomalies. They parse the program text and thus recog-nize the different types of statements in a program. They can then detect whether or not 
+
+statements are well formed, make inferences about the control flow in the program, 
+
+and, in many cases, compute the set of all possible values for program data. They 
+ complement the error-detection facilities provided by the language compiler, and they 
+
+can be used as part of the inspection process or as a separate V & V process activity.Automated static analysis is faster and cheaper than detailed code reviews and is 
+very effective in discovering some types of program faults. However, it cannot dis-
+cover some classes of errors that could be identified in program inspection meetings.Static analysis tools (Lopes, Vicente, and Silva 2009) work on the source code of 
+a system, and, for some types of analysis at least, no further inputs are required. This 
+means that programmers do not need to learn specialized notations to write program 
+specifications, so the benefits of analysis can be immediately clear. This makes auto-
+mated static analysis easier to introduce into a development process than formal 
+
+verification or model checking.The intention of automatic static analysis is to draw a code reader™s attention to anomalies in the program, such as variables that are used without initialization, vari
+-
+ables that are unused, or data whose values could go out of range. Examples of the 
+
+problems that can be detected by static analysis are shown in Figure 12.9.Of course, the specific checks made by the static analyzer are programming-language-
+specific and depend on what is and isn™t allowed in the language. Anomalies are 
+
+often a result of programming errors or omissions, so they highlight things that could 
+go wrong when the program is executed. However, these anomalies are not necessar-
+ily program faults; they may be deliberate constructs introduced by the programmer, 
+or the anomaly may have no adverse consequences.Three levels of checking may be implemented in static analyzers:1. Characteristic error checking At this level, the static analyzer knows about com-
+mon errors that are made by programmers in languages such as Java or C. The 
+
+tool analyzes the code looking for patterns that are characteristic of that problem 

@@ -1,0 +1,27 @@
+ Section 2.2  Access Control 
+79  User WFile AobjectssubjectsAdminReadWrite
+OwnControlWriteWriteControlPrinterSystemClockReadFIGURE 2-11 Access Control MatrixTABLE 2-8 
+Access Control MatrixBibliogTempF
+Help .txtC_CompLinkerClockPrinter
+USER AORWORWORWRXXRW
+USER BR——RXXRW
+USER SRW—RRXXRW
+USER T——RXXXRW
+SYS MGR———RWOXOXORWO
+USER SVCS———OXXRW
+TABLE 2-9 
+List of Access Control Triples
+SubjectObjectRight
+USER ABibliogORW
+USER BBibliogR
+USER SBibliogRW
+USER ATempORW
+USER AFORW
+USER SFR
+etc.This representation may be more efficient than the access control matrix because there is 
+no triple for any empty cell of the matrix (such as 
+USER T, Bibliog, 
+). Even though 
+the triples can be sorted by subject or object as needed, searching a large number of these 
+
+triples is inefficient enough that this implementation is seldom used.

@@ -1,0 +1,36 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜In this section, I discuss two ways of coping with change and changing system requirements:1. System prototyping, where a version of the system or part of the system is 
+developed quickly to check the customer™s requirements and the feasibility of 
+
+design decisions. This is a method of change anticipation as it allows users to 
+
+experiment with the system before delivery and so refine their requirements. 
+
+The number of requirements change proposals made after delivery is therefore 
+
+likely to be reduced.2. Incremental delivery, where system increments are delivered to the customer 
+
+for comment and experimentation. This supports both change avoidance and 
+
+change tolerance. It avoids the premature commitment to requirements for the 
+whole system and allows changes to be incorporated into later increments at 
+
+relatively low cost.The notion of refactoring, namely, improving the structure and organization of a program, is also an important mechanism that supports change tolerance. 
+I discuss 
+this in Chapter 3 (Agile methods).A prototype is an early version of a software system that is used to demonstrate con-
+cepts, try out design options, and find out more about the problem and its possible 
+solutions. Rapid, iterative development of the prototype is essential so that costs are 
+controlled and system stakeholders can experiment with the prototype early in the 
+software process.A software prototype can be used in a software development process to help 
+anticipate changes that may be required:1.
+ In the requirements engineering process, a prototype can help with the elicita-tion and validation of system requirements.2.
+ In the system design process, a prototype can be used to explore software solu-
+tions and in the development of a user interface for the system.System prototypes allow potential users to see how well the system supports their work. They may get new ideas for requirements and find areas of strength and weak-
+ness in the software. They may then propose new system requirements. Furthermore, 
+as the prototype is developed, it may reveal errors and omissions in the system 
+
+requirements. A feature described in a specification may seem to be clear and useful. 
+However, when that function is combined with other functions, users often find that 
+their initial view was incorrect or incomplete. The system specification can then be 
+modified to reflect the changed understanding of the requirements.

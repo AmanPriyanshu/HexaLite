@@ -1,0 +1,67 @@
+774 Chapter 12  
+Details of CryptographySubstitution and Transposition
+The two cryptographic primitives are substitution and transposition. In a 
+substitution, one set of bits is exchanged for another. If the encryption works on alphabetic letters, 
+
+each letter can be replaced by another, much like the cryptogram puzzles published 
+
+in some newspapers. Substitutions can also be done on bytes or data blocks of other 
+
+sizes. The substitution involves a simple table lookup, so it can be done quickly, and a 
+
+hardware cryptographic processor can be optimized with the substitution table encoded 
+
+within the processor’s memory.
+A weakness of substitution is its regularity. In a letter-based substitution, if E is 
+always replaced by p, the frequency of the ciphertext p will match that of plaintext E, 
+
+giving a clue to the analyst. For this reason, substitutions are seldom used on their own. 
+
+At times the substitution table is changed, so that, for example, E is replaced sometimes 
+
+by p and sometimes by w. This use of multiple replacements helps smooth out apparent 
+
+patterns in the output ciphertext.
+1Transposition
+ involves rearranging the order of the ciphertext to break any repeat-
+ing patterns in the underlying plaintext. Some newspapers also publish puzzles of indi-
+
+vidual words, the letters of which have been scrambled. Solvers of these puzzles look 
+
+for common letter patterns, such as Q followed by U, E-D, I-N-G, and terminal S. If 
+
+transposition is used by itself, these orthographic patterns help solve the puzzle.
+Many cryptographic algorithms involve both substitution and transposition; the sub-
+stitution smooths the distribution of ciphertext output and the transposition breaks up 
+
+apparent patterns of succeeding plaintext units.
+Confusion and Diffusion
+Two additional important concepts are related to the amount of work required to perform 
+an encryption. An encrypting algorithm should take the information from the plaintext 
+
+and transform it so that the interceptor cannot readily recognize the message. The inter-
+
+ceptor should not be able to predict what will happen to the ciphertext by changing one 
+
+character in the plaintext. We call this characteristic 
+confusion. An algorithm providing 
+good confusion has a complex functional relationship between the plaintext/key pair 
+
+and the ciphertext. In this way, an interceptor will need a long time to determine the 
+
+relationship between plaintext, key, and ciphertext; therefore, the interceptor will take a 
+
+long time to break the code. Substitution achieves confusion.
+The cipher should also spread the information from the plaintext over the entire 
+ciphertext so that changes in the plaintext affect many parts of the ciphertext. This prin-
+
+ciple is called diffusion, the characteristic of distributing the information from single 
+plaintext letters over the entire output. Good diffusion means that the interceptor needs 
+
+access to much of the ciphertext to be able to infer the algorithm. Transposition achieves 
+
+diffusion.
+1. The Engima machine, mentioned in Sidebar 12-2, was a substitution code device used by Germans in 
+World War II. See the description by David Kahn [KAH96] of how it changed the substitution with each 
+
+letter in a complex but algorithmic (and hence reversible) way.

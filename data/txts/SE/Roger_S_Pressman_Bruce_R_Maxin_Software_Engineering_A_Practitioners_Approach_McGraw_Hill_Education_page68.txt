@@ -1,0 +1,94 @@
+38 PART ONE  
+THE SOFTWARE PROCESS
+ensure that it meets a set of basic process criteria that have been shown to be essential for a successful software engineering.  4 
+ 
+ 
+   
+ 
+ 
+ 
+A number of different approaches to software process assessment and im-provement have been proposed over the past few decades:  
+ 
+ 
+ 
+ 
+Standard CMMI Assessment Method for Process Improvement (SCAMPI) 
+—provides a ﬁ ve-step process assessment model that incorporates ﬁ
+ ve phases: 
+initiating, diagnosing, establishing, acting, and learning. The SCAMPI method 
+uses the SEI CMMI as the basis for assessment [SEI00].    
+ 
+ 
+ 
+CMM-Based Appraisal for Internal Process Improvement (CBA IPI) 
+—provides a diagnostic technique for assessing the relative maturity of a software 
+organization; uses the SEI CMM as the basis for the assessment [Dun01].    
+ 
+ 
+ 
+SPICE (ISO/IEC15504) 
+—a standard that deﬁ nes a set of requirements for 
+software process assessment. The intent of the standard is to assist organi-
+zations in developing an objective evaluation of the efﬁ cacy of any deﬁ
+ ned 
+ software process [ISO08].    
+ 
+ 
+ 
+ISO 9001:2000 for Software— 
+a generic standard that applies to any organiza-tion that wants to improve the overall quality of the products, systems, or ser-
+
+vices that it provides. Therefore, the standard is directly applicable to software 
+organizations and companies [Ant06].  
+ 
+   
+ 
+ 
+A more detailed discussion of software assessment and process improvement methods is presented in Chapter 37.   
+ 
+ 
+ 
+ 
+ 3.6 S
+UMMARY  
+A generic process model for software engineering encompasses a set of frame-work and umbrella activities, actions, and work tasks. Each of a variety of pro-
+cess models can be described by a different process ﬂ ow—a description of how 
+the framework activities, actions, and tasks are organized sequentially and 
+chronologically. Process patterns can be used to solve common problems that 
+
+are encountered as part of the software process.   
+   
+PROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+3.1.  In the introduction to this chapter Baetjer notes: “The process provides interaction be-tween users and designers, between users and evolving tools, and between designers and 
+evolving tools [technology].” List ﬁ ve questions that (1) designers should ask users, (2) users 
+should ask designers, (3) users should ask themselves about the software product that is to 
+be built, (4) designers should ask themselves about the software product that is to be built 
+and the process that will be used to build it.     Assessment attempts to 
+understand the current 
+
+state of the software 
+process with the intent 
+of  improving it. 
+  uote:  “Software 
+organizations have 
+
+exhibited signiﬁ cant 
+
+shortcomings in 
+
+their ability to 
+
+capitalize on the 
+
+experiences gained 
+
+from completed 
+
+projects.” 
+ NASA 
+  
+4  The SEI’s CMMI [CMM07] describes the characteristics of a software process and the criteria 
+for a successful process in voluminous detail. pre22126_ch03_029-039.indd   38pre22126_ch03_029-039.indd   3813/12/13   6:10 PM13/12/13   6:10 PM

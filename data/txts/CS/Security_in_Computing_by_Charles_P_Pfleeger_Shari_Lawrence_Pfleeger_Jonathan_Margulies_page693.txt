@@ -1,0 +1,58 @@
+ Section 10.2  Business Continuity Planning 
+659  direct profit motive, but being able to meet the needs of their customers—the public, 
+students, and constituents—partially determines how well they will fare in the future. 
+
+All kinds of organizations must plan for ways to cope with emergency situations.
+A business continuity plan
+1 documents how a business will continue to function 
+during or after a computer security incident. An ordinary security plan covers computer 
+
+security during normal times and deals with protecting against a wide range of vulner-
+
+abilities from the usual sources. A business continuity plan deals with situations having 
+
+two characteristics:
+• catastrophic situations,
+ in which all or a major part of a computing capability is 
+suddenly unavailable
+• long duration,
+ in which the 
+outage is expected to last for 
+
+so long that business will 
+
+suffer
+A business continuity plan would be helpful in many situations. Here are some 
+examples that typify what you might find in reading your daily newspaper:
+• A fire destroys a company’s entire network. 
+• A seemingly permanent failure of a critical software component renders the 
+computing system unusable.• The abrupt failure of a supplier of electricity, telecommunications, network 
+access, or other critical service limits or stops activity.
+• A flood prevents the essential network support staff from getting to the opera-
+tions center.
+As you can see, the impact in each example is likely to continue for a long time, and 
+each disables a vital function.You may also have noticed how often “the computer” is blamed for an inability to 
+provide a service or product. For instance, the clerk in a shop is unable to use the cash 
+
+register because “the computer is down.” You may have a CD in your hand, plus exactly 
+
+the cash to pay for it. But the clerk will not take your money and send you on your 
+
+way. Often, computer service is restored shortly. But sometimes it is not. Once we were 
+
+delayed for over an hour in an airport because of an electrical storm that caused a power 
+
+failure and disabled the airlines’ computers. Although our tickets showed clearly our 
+
+reservations on a particular flight, the airline agents refused to let anyone board because 
+
+they could not assign seats. As the computer remained down, the agents were frantic
+2 because the technology was delaying the flight and, more importantly, disrupting hun-
+
+dreds of connections.1. The standard terminology is “business continuity plan,” even though such a plan is needed by and applies 
+to a university’s “business” of educating students or a government’s “business” of serving the public.
+2. The obvious, at least to us, idea of telling passengers to “sit in any seat” seemed to be against airline policy. 
+And this incident was long before the 9/11 terrorist attack tightened airline security.
+Business continuity planning guides response to a crisis that threatens a 
+
+business’s existence.

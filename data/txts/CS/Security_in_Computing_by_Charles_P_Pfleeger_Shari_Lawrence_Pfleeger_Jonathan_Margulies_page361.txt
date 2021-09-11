@@ -1,0 +1,67 @@
+ Section 5.2  Security in the Design of Operating Systems 
+327  The Orange Book—OverviewIn the late 1970s, when the Orange Book was originally developed, the only model for 
+computing was the mainframe computer with access and data shared by multiple users. 
+
+Although in settings such as universities and laboratories, loosely controlled sharing 
+
+matched a relatively free exchange of information, military and major commercial users 
+
+needed assurance that unauthorized users could not access sensitive data. The military 
+
+was concerned for the protection of classified information, and corporate users needed 
+
+to protect trade secrets, business plans, and accounting and personnel records. Thus, the 
+
+goal of the Orange Book was to spur development of multiuser systems that were highly 
+
+resistant to unacceptable information flows.
+That focus led to a two-part scale for rating trusted systems. There were six rankings, 
+in order: C1 (lowest), C2, B1, B2, B3, and A1 (highest). At each step both the security 
+
+features and the necessary assurance of correct functioning increased, with a major 
+
+feature jump between C2 and B1, and major assurance upgrades at B2, B3, and A1. 
+
+Features and assurance were tied as a package at each of these six rankings.Bundling features and assurance was critical to the objective of the Orange Book 
+because its authors thought critical features (for example, being able to maintain pro-
+
+tect-classified data on a system that also allowed uncleared users) needed to be cou-
+
+pled with high assurance. However, strict association also severely limited the book’s 
+
+applicability: Commercial users wanted high assurance but had little need for the rigid 
+
+structure of classified data. Thus, after some straw-man structures and much discus-
+
+sion, representatives from a group of nations settled on the more flexible structure now 
+
+known as the Common Criteria.
+Common CriteriaThe Common Criteria writers made two crucial advances over the Orange Book. First, 
+they agreed to a separation between functions and assurance. Each user and each devel-
+
+oper had the option of selecting an appropriate set of features and, independently, a 
+level of assurance at which those features would be implemented. Although a critical-
+
+functionality, low-assurance product might be of dubious value, if a developer perceived 
+
+a market, the scheme should not block the invention. 
+The Common Criteria defined seven 
+assurance levels
+, EAL1 (lowest) through EAL7 
+(highest). At the lowest level a developer asserts to having followed a practice, with 
+Manifest.1 and HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\
+CurrentVersion\Controls Folder\Presentation Style. Moreover, coupons.com 
+
+failed to remove these files when specifically requested to do so. In Febru-
+
+ary 2008, Edelman reported the practice to TRUSTe, since coupons.com 
+
+displayed a TRUSTe certificate; shortly thereafter, TRUSTe claimed that the 
+
+problem had been resolved with new software and that coupons.com was 
+
+again trustworthy. But Edelman’s further analysis showed that the decep-
+
+tive file names and registry entries were still there, even after a user ran an 
+
+uninstall program (http://www.benedelman.org/).

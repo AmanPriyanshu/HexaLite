@@ -1,0 +1,34 @@
+˜˜˚˙˜˜˜
+˜˜
+Figure 9.
+14 is a general model of the reengineering process. The input to the pro-cess is a legacy program, and the output is an improved and restructured version of 
+the same program. The activities in this reengineering process are:1. Source code translation Using a translation tool, you can convert the program from an old programming language to a more modern version of the same lan-
+guage or to a different language.2. Reverse engineering The program is analyzed and information extracted from 
+it. This helps to document its organization and functionality. Again, this process 
+is usually completely automated.3. Program structure improvement The control structure of the program is ana-
+lyzed and modified to make it easier to read and understand. This can be par
+-
+tially automated, but some manual intervention is usually required.4. Program modularization 
+Related parts of the program are grouped together, 
+
+and, where appropriate, redundancy is removed. In some cases, this stage may 
+involve architectural refactoring (e.g., a system that uses several different data 
+stores may be refactored to use a single repository). This is a manual process.5. Data reengineering The data processed by the program is changed to reflect 
+
+program changes. This may mean redefining database schemas and converting 
+existing databases to the new structure. You should usually also clean up the 
+
+data. This involves finding and correcting mistakes, removing duplicate records, 
+and so on. This can be a very expensive and prolonged process.Program reengineering may not necessarily require all of the steps in Figure 9.11. You don™t need source code translation if you still use the application™s 
+ programming language. If you can do all reengineering automatically, then recovering documenta
+-
+tion through reverse engineering may be unnecessary. Data  reengineering is required only if the data structures in the program change during system reengineering.Reverseengineering
+Program
+documentationDatareengineeringOriginal data
+Program
+structureimprovementProgram
+modularizationRestructuredprogram
+ReengineereddataReengineeredprogramOriginal
+program
+Source codetranslationFigure 9.14 The reengineering  
+process 

@@ -1,0 +1,42 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜ boundaries explicitly but instead to develop a configurable system that can be 
+adapted to the needs of different users. This was the approach that we adopted in the 
+iLearn systems, introduced in Chapter 1. There, users range from very young 
+ children who can™t read through to young adults, their teachers, and school adminis-
+trators. Because these groups need different system boundaries, we specified a 
+ configuration system that would allow the boundaries to be specified when the 
+ system was deployed.The definition of a system boundary is not a value-free judgment. Social and 
+organizational concerns may mean that the position of a system boundary may be 
+
+determined by nontechnical factors. For example, a system boundary may be delib-
+erately positioned so that the complete analysis process can be carried out on one 
+
+site; it may be chosen so that a particularly difficult manager need not be consulted; 
+
+and it may be positioned so that the system cost is increased and the system develop-
+ment division must therefore expand to design and implement the system.Once some decisions on the boundaries of the system have been made, part of the 
+analysis activity is the definition of that context and the dependencies that a system 
+has on its environment. Normally, producing a simple architectural model is the first 
+step in this activity.Figure 5.
+1 is a context model that shows the Mentcare system and the other 
+systems in its environment. You can see that the Mentcare system is connected to 
+
+an appointments system and a more general patient record system with which it 
+
+shares data. The system is also connected to systems for management reporting and 
+
+hospital admissions, and a statistics system that collects information for research. 
+
+Finally, it makes use of a prescription system to generate prescriptions for patients™ 
+
+medication.Context models normally show that the environment includes several other auto-mated systems. However, they do not show the types of relationships between the 
+
+systems in the environment and the system that is being specified. External systems 
+might produce data for or consume data from the system. They might share data with 
+the system, or they might be connected directly, through a network or not connected 
+at all. They might be physically co-located or located in separate buildings. All of «system»
+Mentcare«system»
+Patient record
+system«system»
+Appointmentssystem«system»Admissionssystem«system»Managementreporting
+system«system»Prescriptionsystem«system»HC statisticssystemFigure 5.1 The context of the Mentcare system

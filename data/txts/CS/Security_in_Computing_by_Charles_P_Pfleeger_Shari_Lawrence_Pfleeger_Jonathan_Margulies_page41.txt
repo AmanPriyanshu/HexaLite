@@ -1,0 +1,64 @@
+ Section 1.2  Threats 
+7  your listed recipients; you don’t want them broadcast to other people. And when you 
+write an essay, you expect that no one can copy it without your permission.
+These three aspects, confidentiality, integrity, and availability, make your computer 
+valuable to you. But viewed from another perspective, they are three possible ways 
+
+to make it less valuable, that is, to cause you harm. If someone steals your computer, 
+
+scrambles data on your disk, or looks at your private data files, the value of your com-
+
+puter has been diminished or your computer use has been harmed. These characteristics 
+
+are both basic security properties and the objects of security threats.We can define these three properties as follows.
+• availability: 
+the ability of a system to ensure that an asset can be used by any 
+authorized parties• integrity: the ability of a system to ensure that an asset is modified only by 
+authorized parties• confidentiality: 
+the ability of a system to ensure that an asset is viewed only by 
+authorized partiesThese three properties, hallmarks of solid security, appear in the literature as early as 
+James P. Anderson’s essay on computer security [AND73] and reappear frequently in 
+
+more recent computer security papers and discussions. Taken together (and rearranged), 
+
+the properties are called the C-I-A triad or the security triad. ISO 7498-2 [ISO89] 
+adds to them two more properties that are desirable, particularly in communication 
+
+networks:
+• authentication: the ability of a system to confirm the identity of a sender
+• nonrepudiation 
+or accountability: 
+the ability of a system to confirm that a 
+sender cannot convincingly deny having sent something
+The U.S. Department of Defense [DOD85] adds auditability: the ability of a system to trace all actions related to a given asset. The C-I-A triad forms a foundation for think-
+
+ing about security. Authenticity and nonrepudiation extend security notions to network 
+
+communications, and auditability is important in establishing individual accountability 
+
+for computer activity. In this book we generally use the C-I-A triad as our security 
+
+taxonomy so that we can frame threats, vulnerabilities, and controls in terms of the 
+
+C-I-A properties affected. We high-
+
+light one of these other properties 
+
+when it is relevant to a particular 
+
+threat we are describing. For now, 
+
+we focus on just the three elements 
+of the triad.What can happen to harm the confidentiality, integrity, or availability of computer 
+assets? If a thief steals your computer, you no longer have access, so you have lost 
+
+availability; furthermore, if the thief looks at the pictures or documents you have stored, 
+
+your confidentiality is compromised. And if the thief changes the content of your music 
+
+files but then gives them back with your computer, the integrity of your data has been 
+
+harmed. You can envision many scenarios based around these three properties.
+C-I-A triad: confidentiality, integrity, 
+
+availability

@@ -1,0 +1,123 @@
+CHAPTER 36  
+MAINTENANCE AND REENGINEERING 809provide a scale factor (ranging from 1 to 10) to shrink or magnify a graphical image. A reengineered GUI might use a touch-screen slide bar to accomplish 
+the same function.  
+ 
+ 
+  
+ 
+Reverse Engineering  
+ 
+ 
+ 
+ Objective: 
+  To help software engineers 
+understand the internal design structure of 
+complex programs.   
+ 
+Mechanics:   
+In most cases, reverse engineering tools accept source code as input and produce a variety of 
+structural, procedural, data, and behavioral design 
+representations.   
+ 
+ 
+Representative Tools:  7 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Imagix 4D, 
+ developed by Imagix (  
+www.imagix
+.com  
+), “helps software developers understand complex or legacy C and C11 software” by reverse engineering and documenting source code.    
+ 
+ 
+ 
+Understand, 
+ developed by Scientiﬁ c Toolworks 
+(  
+www.scitools.com 
+ 
+), parse Ada, Fortran, C, 
+C11, C#, PHP, HTML, JavaScript, Python, and 
+Java “to reverse-engineer, automatically document, 
+
+calculate code metrics, and help you understand, 
+navigate and maintain source code.”  
+ 
+  A list of reverse engineering tools can be found at  http://www.eclipse.org/gmt/modisco/
+relatedProjects.php
+ 
+.  
+  
+SOFTWARE
+ TOOLS  
+ 
+7  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+  
+8  It is sometimes difﬁ
+ cult to make a distinction between extensive restructuring and redevelop-
+ment. Both are reengineering.   
+ 
+ 
+ 
+ 
+ 
+ 36.7  
+RESTRUCTURING  
+ 
+Software restructuring modiﬁ es source code and/or data in an effort to make it 
+amenable to future changes. In general, restructuring does not modify the over-
+
+all program architecture. It tends to focus on the design details of individual 
+modules and on local data structures deﬁ ned within modules. If the restructur-
+ing effort extends beyond module boundaries and encompasses the software ar-
+
+chitecture, restructuring becomes forward engineering (Section 36.8).  Restructuring occurs when the basic architecture of an application is solid, even though technical internals need work. It is initiated when major parts of 
+the software are serviceable and only a subset of all modules and data need 
+ extensive modiﬁ cation. 
+ 8 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+36.7.1   
+Code Restructuring  
+ 
+Code restructuring
+ 
+ is performed to yield a design that produces the same function 
+but with higher quality than the original program. In general, code restructur-
+
+ing techniques (e.g., Warnier’s logical simpliﬁ
+ cation techniques [War74]) model 
+program logic using Boolean algebra and then apply a series of transformation 
+rules that yield restructured logic. The objective is to take “spaghetti-bowl” code 
+and derive a procedural design that conforms to the structured programming 
+philosophy (Chapter 19).    Although code restruc-
+turing can alleviate 
+immediate problems 
+associated with debug-
+ging or small changes, 
+it is not reengineering. 
+Real beneﬁ t is 
+
+achieved only when 
+data and architecture 
+are restructured. 
+pre22126_ch36_795-816.indd   809pre22126_ch36_795-816.indd   80913/12/13   6:17 PM13/12/13   6:17 PM

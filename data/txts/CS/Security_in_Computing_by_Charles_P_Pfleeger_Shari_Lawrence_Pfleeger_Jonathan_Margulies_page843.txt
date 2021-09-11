@@ -1,0 +1,27 @@
+ Section 12.6  Quantum Cryptography 
+809  Suppose the sender, Sam, generates a series of photons, remembering their orienta-
+tion. Sam and his receiver, Ruth, call 
+ or
+ 0 and 
+ or  1. Such a series is shown 
+in Figure 12-9.FIGURE 12-9 Transmission of Photons
+Now, Ruth uses either of her polarizing filters, 
+ and 
+ at random, recording the 
+result. Remember that a 
+ filter will accurately distinguish between a 
+ and 
+ photon, but sometimes also declare a
+ or 
+ as a 
+. So Ruth does not know if the results she 
+measures are what Sam sent. Ruth’s choice of filters, and the results she obtained, are 
+
+shown in Figure 12-10.
+FIGURE 12-10 Results Interpreted through FiltersTransmitted
+Perceived Results 
+FilterSome of those results are correct and some are incorrect, depending on the filter Ruth 
+chose. Now Ruth sends to Sam the kind of filter she used, as shown in Figure 12-11.
+FIGURE 12-11 Filters UsedTransmitted
+Perceived Results 
+Filter

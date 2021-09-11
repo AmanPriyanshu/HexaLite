@@ -1,0 +1,25 @@
+ Exercises 231  14. Several proposals have been made for a processor that could decrypt encrypted data and 
+machine instructions and then execute the instructions on the data. The processor would then 
+
+encrypt the results. How would such a processor be useful? What are the design requirements 
+
+for such a processor?15. Explain in what circumstances penetrate-and-patch is a useful program maintenance strategy.
+16. Describe a programming situation in which least privilege is a good strategy to improve 
+security.
+17. Explain why genetic diversity is a good principle for secure development. Cite an example of 
+lack of diversity that has had a negative impact on security.
+18. Describe how security testing differs from ordinary functionality testing. What are the crite-
+ria for passing a security test that differ from functional criteria? 
+ 19. 
+(a)  You receive an email message that purports to come from your bank. It asks you to click 
+a link for some reasonable-sounding administrative purpose. How can you verify that the 
+
+message actually did come from your bank?(b) Now play the role of an attacker. How could you intercept the message described in part 
+(a) and convert it to your purposes while still making both the bank and the customer 
+
+think the message is authentic and trustworthy?
+ 20. 
+Open design would seem to favor the attacker, because it certainly opens the implementation 
+and perhaps also the design for the attacker to study. Justify that open design overrides this 
+
+seeming advantage and actually leads to solid security.

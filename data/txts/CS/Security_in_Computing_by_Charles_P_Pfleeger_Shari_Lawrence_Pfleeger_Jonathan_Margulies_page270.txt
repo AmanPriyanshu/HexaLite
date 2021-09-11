@@ -1,0 +1,50 @@
+236 Chapter 4  
+The Web—User Side
+As if intercepting details such as name, account number, and authentication data 
+were not enough, SilentBanker also changed the effect of customer actions. So, for 
+
+example, if a customer instructed the bank to transfer money to an account at bank A, 
+
+SilentBanker converted that request to make the transfer go to its own account at bank 
+
+B, which the customer’s bank duly accepted as if it had come from the customer. When 
+
+the bank returned its confirmation, SilentBanker changed the details before displaying 
+
+them on the screen. Thus, the customer found out about the switch only after the funds 
+
+failed to show up at bank A as expected.
+A variant of SilentBanker intercepted other sensitive user data, using a display like 
+the details shown in Figure 4-3. Users see many data request boxes, and this one looks 
+
+authentic. The request for token value might strike some users as odd, but many users 
+
+would see the bank’s URL on the address bar and dutifully enter private data.
+As you can see, man-in-the-browser attacks can be devastating because they repre-
+sent a valid, authenticated user. The Trojan horse could slip neatly between the user and 
+
+the bank’s web site, so all the bank’s content still looked authentic. SilentBanker had 
+
+little impact on users, but only because it was discovered relatively quickly, and virus 
+
+detectors were able to eradicate it promptly. Nevertheless, this piece of code demon-
+
+strates how powerful such an attack can be.
+Keystroke Logger
+We introduce another attack approach that is similar to a man in the browser. A 
+key-
+stroke logger
+ (or key logger
+) is either hardware or software that records all keystrokes 
+entered. The logger either retains these keystrokes for future use by the attacker or sends 
+
+them to the attacker across a network connection.
+As a hardware device, a keystroke logger is a small object that plugs into a  
+USB port, resembling a plug-in wireless adapter or flash memory stick. Of course, to FIGURE 4.3 Additional Data Obtained by Man in the Browser
+Welcome to 
+UR Bank!Please fill in the fields below.
+Forgot your password? Click here.Customer IDUser ID
+Password
+Token Value
+
+Email AddressUR BANK

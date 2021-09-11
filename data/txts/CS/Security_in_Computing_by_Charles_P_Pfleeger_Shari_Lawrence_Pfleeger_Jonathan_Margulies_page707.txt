@@ -1,0 +1,64 @@
+ Section 10.4  Risk Analysis 
+673  To organize the way we consider threats and assets, we can use a matrix such as the 
+one shown in Table 10-2. One vulnerability can affect more than one asset or cause 
+
+more than one type of loss. The table is a guide to stimulate thinking, but its format is 
+
+not rigid.Different techniques support the identification and management of 
+potential hazards in complex critical systems. Among the most effective are 
+
+hazard and operability studies
+ (HAZOP), 
+failure modes and effects analy-
+sis (FMEA), and 
+fault tree analysis
+ (FTA). HAZOP is a structured analysis 
+technique originally developed for the process control and chemical plant 
+
+industries. FMEA is a bottom-up technique applied at the system com-
+
+ponent level. A team identifies each component’s possible faults or fault 
+
+modes; then, it determines what could trigger the fault and what system-
+
+wide effects each fault might have. By keeping system consequences in 
+
+mind, the team often finds possible system failures that are not made visible 
+
+by other analytical means. FTA complements FMEA. It is a top-down tech-
+
+nique that begins with a postulated hazardous system malfunction. Then, 
+
+the FTA team works backwards to identify the possible precursors to the 
+
+mishap. By tracing from a specific hazardous malfunction, the team can 
+
+derive unexpected contributors to mishaps and identify opportunities to 
+
+mitigate the risk of mishaps. We decide which technique is most appropriate by understanding 
+how much we know about causes and effects. When we know the cause 
+
+and effect of a given problem, we can strengthen the description of how 
+
+the system should behave. If we can describe a known effect with unknown 
+
+cause, then we use deductive techniques such as FTA to help us under-
+
+stand the likely causes of the unwelcome behavior. Conversely, we may 
+
+know the cause of a problem but not understand all the effects; here, we 
+
+use inductive techniques such as FMEA to help us trace from cause to all 
+
+possible effects. Finally, to find problems about which we may not yet be 
+
+aware, we perform an exploratory analysis such as a HAZOP study.
+TABLE 10-2 
+Assets and Security PropertiesAssetConfidentialityIntegrityAvailability
+Hardware
+Software
+
+Data
+People
+Documentation
+Supplies

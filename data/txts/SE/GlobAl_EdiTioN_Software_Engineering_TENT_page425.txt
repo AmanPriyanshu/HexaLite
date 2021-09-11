@@ -1,0 +1,26 @@
+˜˜˚˛˙˜˜˜˜˜˜˜
+The fundamental notions of recognition, resistance, and recovery were the basis of early work in resilience engineering by Ellison et al. (Ellison et al. 1999, 2002). They designed a method of analysis called survivable systems analysis. This method 
+is used to assess vulnerabilities in systems and to support the design of system archi
+-
+tectures and features that promote system survivability.Survivable systems analysis is a four-stage process (Figure 14.8) that analyzes 
+the current or proposed system requirements and architecture, identifies critical ser
+-
+vices, attack scenarios, and system ﬁsoftspots,ﬂ and proposes changes to improve the 
+survivability of a system. The key activities in each of these stages are as follows:1. System understanding For an existing or proposed system, review the goals of the system (sometimes called the mission objectives), the system requirements, 
+and the system architecture.2. Critical service identification The services that must always be maintained and 
+the components that are required to maintain these services are identified.3. Attack simulation 
+Scenarios or use cases for possible attacks are identified, 
+
+along with the system components that would be affected by these attacks.4. Survivability analysis Components that are both essential and compromisable 
+
+by an attack are identified, and survivability strategies based on resistance, rec-
+ognition, and recovery are identified.The fundamental problem with this approach to survivability analysis is that its starting point is the requirements and architecture documentation for a system. This 
+
+is a reasonable assumption for defense systems (the work was sponsored by the U.S. 
+
+Department of Defense), but it poses two problems for business systems:1. It is not explicitly related to the business requirements for resilience. I believe that 
+these are a more appropriate starting point than technical system requirements.1. Review systemrequirements andarchitecture2. Identify critical services
+and components3. Identify attacks an
+dcompromisablecomponents4. Identify softspots and
+survivability strategies
+Figure 14.8 Stages in survivability analysis 

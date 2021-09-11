@@ -1,0 +1,29 @@
+APPENDIX 1  
+AN INTRODUCTION TO UML 887(soothing music is played for 10 seconds). After 10 seconds, the do-activity of the 
+state is completed and the state behaves like a normal nonactivity state. If the 
+caller pushes the # key when the call is in the  On hold with music  state, the call transitions to the  Canceled  state and then transitions immediately to the  dial tone  state. If the # key is pushed before the 10 seconds of soothing music has com-pleted, the do-activity is interrupted and the music stops immediately.    
+  
+  OBJECT CONSTRAINT LANGUAGE—AN OVERVIEW   The wide variety of diagrams available as part of UML provide you with a rich 
+set of representational forms for the design model. However, graphical repre-
+sentations are often not enough. You may need a mechanism for explicitly and 
+formally representing information that constrains some element of the design 
+model. It is possible, of course, to describe constraints in a natural language such 
+as English, but this approach invariably leads to inconsistency and ambiguity. For 
+this reason, a more formal language—one that draws on set theory and formal 
+speciﬁ cation languages (see Chapter 28 and Appendix 3) but has the somewhat 
+less mathematical syntax of a programming language—seems appropriate.  The  Object Constraint Language  (OCL) complements UML by allowing you to use a formal grammar and syntax to construct unambiguous statements about 
+various design model elements (e.g., classes and objects, events, messages, inter-
+faces). The simplest OCL statements are constructed in four parts: (1) a  context  
+that deﬁ nes the limited situation in which the statement is valid, (2) a  
+property  
+that represents some characteristics of the context (e.g., if the context is a class, 
+a property might be an attribute), (3) an  operation  (e.g., arithmetic, set-oriented) that manipulates or qualiﬁ es a property, and (4) keywords (e.g.,  
+if, then, else, and, or, not, implies ) that are used to specify conditional expressions. 
+on hold with musicdo/play soothing music for 10 secondsPut on holdcanceledconversing# key pushedTaken off hold
+Hang updial tone F
+IGURE A1.14A state 
+diagram with 
+an activity 
+state and a 
+triggerless 
+transition   

@@ -1,0 +1,68 @@
+ Section 2.3  Cryptography 
+113  Cryptographic ChecksumMalicious modification must be handled in a way that also prevents the attacker from 
+modifying the error detection mechanism as well as the data bits themselves. One way 
+
+to handle this is to use a technique that shrinks and transforms the data according to the 
+value of the data bits.
+A cryptographic checksum is a cryptographic function that produces a check-
+sum. It is a digest function using a cryptographic key that is presumably known only 
+
+to the originator and the proper recipient of the data. The cryptography prevents the 
+
+attacker from changing the data block (the plaintext) and also changing the checksum 
+
+value (the ciphertext) to match. The attacker can certainly change the plaintext, but the 
+
+attacker does not have a key with which to recompute the checksum. One example of 
+
+a cryptographic checksum is to first employ any noncryptographic checksum function 
+
+to derive an 
+n-bit digest of the sensitive data. Then apply any symmetric encryption 
+algorithm to the digest. Without the key the attacker cannot determine the checksum 
+
+value that is hidden by the encryption. We present other cryptographic hash functions 
+
+in Chapter 12.Two major uses of cryptographic checksums are code-tamper protection and mes-
+sage-integrity protection in transit. Code tamper protection is implemented in the way 
+
+we just described for detecting changes to files. Similarly, a checksum on data in com-
+
+munication identifies data that have been changed in transmission, maliciously or acci-
+
+dentally. The U.S. government defined the 
+Secure Hash Standard
+ or 
+Algorithm (SHS 
+or SHA), actually a collection of algorithms, for computing checksums. We examine 
+
+SHA in Chapter 12.Checksums are important countermeasures to detect modification. In this section we 
+applied them to the problem of detecting malicious modification to programs stored on 
+
+disk, but the same techniques are applicable to protecting against changes to data, as we 
+
+show later in this book.
+A strong cryptographic algorithm, such as for DES or AES, is especially appropriate 
+for sealing values, since an outsider will not know the key and thus will not be able to 
+
+modify the stored value to match with data being modified. For low-threat applications, 
+
+algorithms even simpler than those of DES or AES can be used. In block encryption 
+
+schemes, chaining means linking each block to the previous block’s value (and there-
+
+fore to all previous blocks), for example, by using an exclusive OR to combine the 
+
+encrypted previous block with the current one. A file’s cryptographic checksum could 
+
+be the last block of the chained encryption of a file because that block will depend on all 
+
+other blocks. We describe chaining in more detail in Chapter 12.
+As we see later in this chapter, these techniques address the non-alterability and non-
+reusability required in a digital signature. A change or reuse will probably be flagged by 
+
+the checksum so the recipient can tell that something is amiss.Signatures
+The most powerful technique to demonstrate authenticity is a digital signature. Like its 
+counterpart on paper, a digital signature is a way by which a person or organization can 
+
+affix a bit pattern to a file such that it implies confirmation, pertains to that file only, 

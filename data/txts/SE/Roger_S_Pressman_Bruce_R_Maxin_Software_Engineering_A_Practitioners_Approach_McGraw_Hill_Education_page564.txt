@@ -1,0 +1,111 @@
+534 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+ 
+ 
+ 
+State-based partitioning 
+ categorizes class operations based on their ability to 
+change the state of the class. As an example, consider the  Account 
+ class. State 
+operations include  deposit() 
+ and  
+withdraw(), 
+ whereas nonstate operations in-
+clude  balance(), summarize(), 
+ and  
+creditLimit().
+ 
+Tests are designed in a way that 
+exercises operations that change state and those that do not change state sepa-
+rately. Therefore,
+  
+ 
+ 
+ 
+ 
+ 
+ 
+Test case p
+1: 
+ open•setup•deposit•deposit•withdraw•withdraw•close   
+ 
+ 
+ 
+ 
+ 
+ 
+Test case p
+2: 
+ open•setup•deposit•summarize•creditLimit•withdraw•close  
+ 
+ 
+  
+Test case  
+p1 
+ changes state, while test case  
+p2 
+exercises operations that do not change state (other than those in the minimum test sequence).  Other types of partition testing can also be applied.  Attribute-based partitioning 
+ categorizes class operations based on the attributes that they use. 
+ Category-based partitioning 
+ categorizes class operations based on the generic 
+function that each performs.   
+ 
+ 
+ 
+ 
+ 24.6  
+INTERCLASS TEST-CASE DESIGN  
+ 
+Test-case design becomes more complicated as integration of the object-
+oriented system begins. It is at this stage that testing of collaborations between 
+
+classes must begin. To illustrate “interclass test-case generation” [Kir94], we 
+
+expand the banking example introduced in Section 24.5 to include the classes 
+
+and collaborations noted in  Figure 24.2 . The direction of the arrows in the ﬁ g-
+ure indicates the direction of messages, and the labeling indicates the opera-
+tions that are invoked as a consequence of the collaborations implied by the 
+
+messages. 
+  Like the testing of individual classes, class collaboration testing can be accom-plished by applying random and partitioning methods, as well as scenario-based 
+testing and behavioral testing.   
+ 
+24.6.1   
+Multiple Class Testing 
+ 
+Kirani and Tsai [Kir94] suggest the following sequence of steps to generate mul-
+tiple class random test cases:  
+ 
+ 
+ 1.
+  For each client class, use the list of class operations to generate a series of random test sequences. The operations will send messages to other server 
+classes.   
+ 
+ 
+ 2.
+  For each message that is generated, determine the collaborator class and the corresponding operation in the server object.   
+ 
+ 
+ uote:  “The boundary 
+that deﬁ nes the 
+
+scope of unit and 
+integration testing 
+is different for 
+object-oriented 
+development. Tests 
+
+can be designed 
+and exercised 
+at many points 
+in the process. 
+Thus ‘design a 
+little, code a little’ 
+becomes ‘design a 
+little, code a little, 
+test a little.’  Robert Binder 
+pre22126_ch24_523-539.indd   534pre22126_ch24_523-539.indd   53413/12/13   10:02 PM13/12/13   10:02 PM

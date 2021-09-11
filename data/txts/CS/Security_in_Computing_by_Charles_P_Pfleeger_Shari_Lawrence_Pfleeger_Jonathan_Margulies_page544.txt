@@ -1,0 +1,68 @@
+510 Chapter 7  
+DatabasesThe third means of providing database integrity is maintaining a 
+change log for the database. A change log lists every change made to the database; it contains both original 
+
+and modified values. Using this log, a database administrator can undo any changes 
+
+that were made in error. For example, a library fine might erroneously be posted against 
+
+Charles W. Robertson, instead of Charles M. Robertson, flagging Charles W. Robertson 
+
+as ineligible to participate in varsity athletics. Upon discovering this error, the database 
+
+administrator obtains Charles W.’s original eligibility value from the log and corrects 
+
+the database.AuditabilityFor some applications administrators may want to generate an audit record of all access 
+
+(read or write) to a database. Such a record can help to maintain the database’s integrity, 
+
+or at least to discover after the fact who had affected what values and when. A second 
+
+advantage, as we see later, is that users can access protected data incrementally; that is, 
+
+no single access reveals protected data, but a set of sequential accesses viewed together 
+
+reveals the data, much like discovering the clues in a detective novel. In this case, an 
+
+audit trail can identify which clues a user has already been given, as a guide to whether 
+
+to tell the user more.SIDEBAR 7-2 Continued• Deltas: One version of the system is deemed the main version, and 
+all other versions are considered to be variations from the main ver-
+
+sion. The database keeps track only of the differences, in a file called 
+
+a delta file. The delta contains commands that are “applied” to the 
+
+main version to transform it into the alternative version. This approach 
+
+saves storage space but can become unwieldy.
+• Conditional compilation: All versions are handled by a single file, and 
+conditional statements are used to determine which statements apply 
+
+under which conditions. In this case, shared code appears only once, 
+
+so only one correction is needed if a problem is found. But the code in 
+
+this single file can be very complex and difficult to maintain.
+In any of these three cases, controlled access to the configuration 
+files is critical. Two programmers fixing different problems sometimes 
+
+need to make changes to the same component. If they do not coordinate 
+
+access, the second programmer can inadvertently undo (or worse, wreck) 
+
+the changes of the first programmer, resulting in not only recurrence of 
+
+the initial problems but also introduction of additional problems. For this 
+
+reason, files are controlled in several ways, including being locked while 
+
+changes are made by one programmer, and being subject to a group of 
+
+people called a configuration control board who ensure that no changed 
+
+file is put back into production without the proper checking and testing. 
+
+Shari Lawrence Pfleeger and Joanne Atlee write about these techniques 
+
+[PFL10a].

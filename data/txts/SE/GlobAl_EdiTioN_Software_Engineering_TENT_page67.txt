@@ -1,0 +1,45 @@
+process improvements have been effective. As you introduce improvements, you 
+re-measure the same attributes, which will hopefully have improved in some way.2. Process analysis The current process is assessed, and process weaknesses and 
+bottlenecks are identified. Process models (sometimes called process maps) that 
+describe the process may be developed during this stage. The analysis may be 
+
+focused by considering process characteristics such as rapidity and robustness.3. Process change Process changes are proposed to address some of the identified 
+process weaknesses. These are introduced, and the cycle resumes to collect data 
+about the effectiveness of the changes.Without concrete data on a process or the software developed using that process, it 
+is impossible to assess the value of process improvement. However, companies starting 
+
+the process improvement process are unlikely to have process data available as an 
+
+improvement baseline. Therefore, as part of the first cycle of changes, you may have to 
+
+collect data about the software process and to measure software product characteristics.
+Process improvement is a long-term activity, so each of the stages in the improve-ment process may last several months. It is also a continuous activity as, whatever 
+new processes are introduced, the business environment will change and the new 
+
+processes will themselves have to evolve to take these changes into account.The notion of process maturity was introduced in the late 1980s when the 
+Software Engineering Institute (SEI) proposed their model of process capability 
+
+maturity (Humphrey 1988). The maturity of a software company™s processes reflects 
+the process management, measurement, and use of good software engineering prac-
+tices in the company. This idea was introduced so that the U.S. Department of 
+
+Defense could assess the software engineering capability of defense contractors, 
+
+with a view to limiting contracts to those contractors who had reached a required 
+
+level of process maturity. Five levels of process maturity were proposed. as shown in 
+Figure 2.
+12. These have evolved and developed over the last 25 years (Chrissis, 
+
+Konrad, and Shrum 2011), but the fundamental ideas in Humphrey™s model are still 
+the basis of software process maturity assessment.The levels in the process maturity model are:1. Initial The goals associated with the process area are satisfied, and for all pro-cesses the scope of the work to be performed is explicitly set out and communi-
+cated to the team members.2. Managed At this level, the goals associated with the process area are met, and organ
+-izational policies are in place that define when each process should be used. There 
+
+must be documented project plans that define the project goals. Resource manage
+-
+ment and process monitoring procedures must be in place across the institution.3. Defined This level focuses on organizational standardization and deployment of 
+processes. Each project has a managed process that is adapted to the project require-ments from a defined set of organizational processes. Process assets and process 
+
+measurements must be collected and used for future process improvements.˜˜˚˙˜˜˜
+˜˜

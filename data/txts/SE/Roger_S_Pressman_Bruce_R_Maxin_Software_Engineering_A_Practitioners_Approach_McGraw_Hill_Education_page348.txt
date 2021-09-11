@@ -1,0 +1,93 @@
+318 PART TWO  
+MODELING 
+ 
+ 
+ 
+ 15.1 T
+HE GOLDEN RULES  
+ 
+In his book on interface design, Theo Mandel [Man97] coins three  golden rules: 
+   
+ 
+ 
+ 1.  Place the user in control.    
+ 
+ 2.  Reduce the user’s memory load. 
+   
+ 
+ 3.  Make the interface consistent.  
+ 
+  These golden rules actually form the basis for a set of user interface design principles that guide this important aspect of software design.   
+ 
+15.1.1 Place the User in Control 
+ 
+During a requirements-gathering session for a major new information system, a key user was asked about the attributes of the window-oriented graphical 
+interface.  “What I really would like,” said the user solemnly, “is a system that reads my 
+mind. It knows what I want to do before I need to do it and makes it very easy for 
+me to get it done. That’s all, just that.” 
+ Your ﬁ
+ rst reaction might be to shake your head and smile, but pause for a mo-
+ment. There was absolutely nothing wrong with the user’s request. She wanted a 
+
+system that reacted to her needs and helped her get things done. She wanted to 
+control the computer, not have the computer control her. 
+ Most interface constraints and restrictions that are imposed by a designer are intended to simplify the mode of interaction. But for whom?  As a designer, you may be tempted to introduce constraints and limitations 
+to simplify the implementation of the interface. The result may be an interface   
+ 
+Why is it important?
+   
+If software is difﬁ cult to 
+use, if it forces you into mistakes, or if it frus-
+trates your efforts to accomplish your goals, 
+
+you won’t like it, regardless of the computa-
+
+tional power it exhibits, the content it delivers, 
+or the functionality it offers. The interface has 
+
+to be right because it molds a user’s percep-
+
+tion of the software.   
+ 
+What are the steps?   
+User interface design 
+begins with the identiﬁ cation of user, task, 
+and environmental requirements. Once user 
+
+tasks have been identiﬁ ed, user scenarios are 
+created and analyzed to deﬁ ne a set of inter-
+face objects and actions. These form the basis 
+
+for the creation of screen layout that depicts 
+
+graphical design and placement of icons, 
+deﬁ nition of descriptive screen text, speciﬁ
+ ca-
+tion and titling of windows, and speciﬁ cation 
+of major and minor menu items. Tools are 
+
+used to prototype and ultimately implement 
+
+the design model, and the result is evaluated 
+
+for quality. 
+  
+ 
+What is the work product?
+   
+User scenarios are created and screen layouts are generated. 
+An interface prototype is developed and mod-
+
+iﬁ ed in an iterative fashion. 
+  
+ 
+How do I ensure that I’ve done it right? 
+   
+An interface prototype is “test driven” by the 
+users, and feedback from the test drive is 
+used for the next iterative modiﬁ cation of the 
+prototype.   
+ uote:  “It’s better to 
+design the user 
+experience than 
+rectify it.”Jon Meads pre22126_ch15_317-346.indd   318pre22126_ch15_317-346.indd   31813/12/13   10:01 PM13/12/13   10:01 PM

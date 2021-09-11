@@ -1,0 +1,60 @@
+CHAPTER 30  
+PRODUCT METRICS 673   •
+  Is the content designed in a manner that imparts the most information 
+with the least effort?  
+   •
+  Is navigation efﬁ cient and straightforward?  
+   •
+  Has the WebApp architecture been designed to accommodate the special 
+
+goals and objectives of WebApp users, the structure of content and func-
+
+tionality, and the ﬂ ow of navigation required to use the system effectively?  
+   •
+  Are components designed in a manner that reduces procedural complex-
+ity and enhances the correctness, reliability, and performance?    
+ Today, each of these questions can be addressed only qualitatively because a 
+
+ validated suite of metrics that would provide quantitative answers does not yet 
+exist.  In the paragraphs that follow, we present a representative sampling of Web 
+and MobileApp design metrics that have been proposed in the literature. It is 
+important to note that many of these metrics have not as yet been validated and 
+should be used judiciously. 
+     
+  
+Interface metrics.   For WebApps, the following interface measures can be 
+considered: 
+     
+Suggested MetricDescriptionLayout appropriatenessThe relative position of entities within the interface
+
+Layout complexityNumber of distinct regions 
+ 12
+   defined for an interface 
+Layout region complexityAverage number of distinct links per region
+
+Recognition complexityAverage number of distinct items the user must look at before making a 
+navigation or data input decisionRecognition time Average time (in seconds) that it takes a user to select the appropriate 
+action for a given taskTyping effortAverage number of key strokes required for a specific function
+
+Mouse pick effortAverage number of mouse picks per function
+
+Selection complexityAverage number of links that can be selected per page
+
+Content acquisition timeAverage number of words of text per Web page
+Memory load
+Average number of distinct data items that the user must remember to 
+
+achieve a specific objective      
+Aesthetic (graphic design) metrics.   By its nature, aesthetic design relies on qual-itative judgment and is not generally amenable to measurement and metrics.    Many of these metrics 
+
+are applicable to all 
+user interfaces and 
+
+should be considered 
+in conjunction with 
+those presented in 
+  12 
+ A distinct region is an area within the layout display that accomplishes some speciﬁ c set of 
+related functions (e.g., a menu bar, a static graphical display, a content area, an animated 
+
+display). 

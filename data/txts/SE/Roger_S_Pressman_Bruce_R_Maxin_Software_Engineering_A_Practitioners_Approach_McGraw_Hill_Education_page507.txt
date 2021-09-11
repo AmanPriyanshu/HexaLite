@@ -1,0 +1,70 @@
+CHAPTER 22  
+SOFTWARE TESTING STRATEGIES
+ 477 
+ 
+ 
+ 5.
+  Regression testing (discussed later in this section) may be conducted to ensure that new errors have not been introduced.    
+The process continues from step 2 until the entire program structure is built.  
+ 
+ 
+ 
+  The top-down integration strategy veriﬁ es major control or decision points early 
+in the test process. In a “well-factored” program structure, decision making occurs 
+
+at upper levels in the hierarchy and is therefore encountered ﬁ rst. If major control 
+problems do exist, early recognition is essential. If depth-ﬁ rst integration is selected, 
+a complete function of the software may be implemented and demonstrated. Early 
+
+demonstration of functional capability is a conﬁ dence builder for all stakeholders. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Bottom-Up Integration.    
+Bottom-up integration testing, 
+ as its name implies, be-
+gins construction and testing with  atomic modules 
+ (i.e., components at the lowest 
+levels in the program structure). Because components are integrated from the 
+bottom up, the functionality provided by components subordinate to a given level 
+is always available and the need for stubs is eliminated. A bottom-up integration 
+strategy may be implemented with the following steps:   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1.
+  Low-level components are combined into clusters (sometimes called  builds 
+) that perform a speciﬁ c software subfunction. 
+  
+ 
+ 
+ 2.
+  A  driver 
+ (a control program for testing) is written to coordinate test-case input and output.   
+ 
+ 
+ 3.
+  The cluster is tested.   
+ 
+ 
+ 4.
+  Drivers are removed and clusters are combined moving upward in the program structure.   What 
+problems may be 
+encountered 
+when top-down 
+integration is 
+chosen? ? What are 
+
+the steps for bottom-up 
+integration? ?M1M3M2M7M6M5M8M4 FIGURE 22.5 
+Top-down 
+integrationpre22126_ch22_466-495.indd   477pre22126_ch22_466-495.indd   47713/12/13   6:14 PM13/12/13   6:14 PM

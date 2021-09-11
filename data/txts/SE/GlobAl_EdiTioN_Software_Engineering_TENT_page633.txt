@@ -1,0 +1,48 @@
+˜˜˚˛ˆ˜˜˜˜˜˜˜
+The process manager has to manage processes with different priorities. For 
+some stimuli, such as those associated with certain exceptional events, it is essen-tial that their processing should be completed within the specified time limits. 
+
+Other processes may be safely delayed if a more critical process requires service. 
+
+Consequently, the RTOS has to be able to manage at least two priority levels for 
+
+system processes:1. Clock level This level of priority is allocated to periodic processes.2. Interrupt level This is the highest priority level. It is allocated to processes that 
+need a very fast response. One of these processes will be the real-time clock 
+
+process. This process is not required if interrupts are not supported in the system.A further priority level may be allocated to background processes (such as a self-checking process) that do not need to meet real-time deadlines. These processes are 
+scheduled for execution when processor capacity is available.Periodic processes must be executed at specified time intervals for data acquisition 
+and actuator control. In most real-time systems, there will be several types of periodic 
+
+process. Using the timing requirements specified in the application program, the RTOS 
+
+arranges the execution of periodic processes so that they can all meet their deadlines.The actions taken by the operating system for periodic process management are shown in Figure 
+21.
+19. The scheduler examines the list of periodic processes and 
+selects a process to be executed. The choice depends on the process priority, the 
+
+process periods, the expected execution times, and the deadlines of the ready pro-
+cesses. Sometimes two processes with different deadlines should be executed at the 
+same clock tick. In such a situation, one process must be delayed. Normally, the 
+
+system will choose to delay the process with the longest deadline.Processes that have to respond quickly to asynchronous events may be interrupt-
+driven. The computer™s interrupt mechanism causes control to transfer to a prede-
+termined memory location. This location contains an instruction to jump to a 
+
+simple and fast interrupt service routine. The service routine disables further inter
+-rupts to avoid being interrupted itself. It then discovers the cause of the interrupt 
+
+and initiates, with a high priority, a process to handle the stimulus causing the 
+
+interrupt. In some high-speed data acquisition systems, the interrupt handler saves 
+
+the data that the interrupt signaled was available in a buffer for later processing. 
+
+Interrupts are then enabled again, and control is returned to the operating system.Resource manager
+Allocate memory
+and processor
+SchedulerChoose process
+for 
+executionDispatcherStart 
+execution on anavailable processor
+Process queueMemory mapProcessor listReady listFigure 21.19 RTOS actions required  
+to start a process 

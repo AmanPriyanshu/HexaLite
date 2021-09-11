@@ -1,0 +1,74 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜The first two requirements are relatedŠpatient information is downloaded to a 
+local machine, so that consultations may continue if the patient database server is 
+attacked or becomes unavailable. However, this information must be deleted so 
+
+that later users of the client computer cannot access the information. The fourth 
+
+requirement is a recovery and auditing requirement. It means that changes can be 
+
+recovered by replaying the change log and that it is possible to discover who has 
+
+made the changes. This accountability discourages misuse of the system by 
+
+authorized staff.The derivation of security requirements from a risk analysis is a creative process 
+
+involving engineers and domain experts. One approach that has been developed to 
+support this process for users of the UML is the idea of misuse cases (Sindre and 
+
+Opdahl 2005). Misuse cases are scenarios that represent malicious interactions with 
+a system. You can use these scenarios to discuss and identify possible threats and, 
+
+therefore also determine the system™s security requirements. They can be used 
+
+alongside use cases when deriving the system requirements (Chapters 4 and 5).Misuse cases are associated with use case instances and represent threats or 
+attacks associated with these use cases. They may be included in a use case diagram 
+but should also have a more complete and detailed textual description. In Figure 
+
+13.8, I have taken the use cases for a medical receptionist using the Mentcare system 
+and have added misuse cases. These are normally represented as black ellipses.As with use cases, misuse cases can be described in several ways. I think that it is 
+most helpful to describe them as a supplement to the original use case description. I 
+
+also think it is best to have a flexible format for misuse cases as different types of attack 
+
+have to be described in different ways. Figure 13.9 shows the original description of 
+
+the Transfer Data use case (Figure 5.4), with the addition of a misuse case description.The problem with misuse cases mirrors the general problem of use cases, which is that interactions between end-users and a system do not capture all of the system Figure 13.7 Threat  and control analysis  
+in a preliminary risk 
+assessment reportThreatProbabilityControl
+FeasibilityAn unauthorized user 
+
+gains access as system 
+
+manager and makes 
+
+system unavailableLowOnly allow system 
+management from 
+specific locations that 
+are physically secure.Low cost of implementation, but care 
+
+must be taken with key distribution 
+
+and to ensure that keys are available 
+
+in the event of an emergency.An unauthorized user 
+
+gains access as system 
+
+user to confidential 
+
+informationHighRequire all users to 
+
+authenticate 
+
+themselves using a 
+
+biometric mechanism.Technically feasible but high- cost 
+solution. Possible user resistance.Log all changes to 
+
+patient information to 
+
+track system usage.Simple and transparent to 
+implement and also supports 
+recovery.

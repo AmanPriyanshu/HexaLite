@@ -1,0 +1,56 @@
+ Section 3.1  Unintentional (Nonmalicious) Programming Oversights 
+165  with different design strategies, development philosophies, and testing protocols. The 
+likelihood of a race condition increases with this increasing system heterogeneity. 
+Security ImplicationThe security implication of race conditions is evident from the airline reservation 
+example. A race condition between two processes can cause inconsistent, undesired and 
+
+therefore wrong, outcomes—a failure of integrity.
+A race condition also raised another security issue when it occurred in an old ver-
+sion of the Tripwire program. Tripwire is a utility for preserving the integrity of files, 
+
+introduced in Chapter 2. As part of its operation it creates a temporary file to which it 
+
+writes a log of its activity. In the old version, Tripwire (1) chose a name for the tempo-
+
+rary file, (2) checked the file system to ensure that no file of that name already existed, 
+
+(3) created a file by that name, and (4) later opened the file and wrote results. Wheeler 
+
+[WHE04] describes how a malicious process can subvert Tripwire’s steps by changing 
+
+the newly created temporary file to a pointer to any other system file the process wants 
+
+Tripwire to destroy by overwriting.
+In this example, the security implication is clear: Any file can be compromised by 
+a carefully timed use of the inherent race condition between steps 2 and 3, as shown 
+
+in Figure 3-18. Overwriting a file may seem rather futile or self-destructive, but an 
+
+attacker gains a strong benefit. Suppose, for example, the attacker wants to conceal 
+
+which other processes were active when an attack occurred (so a security analyst will 
+
+not know what program caused the attack). A great gift to the attacker is that of allow-
+
+ing an innocent but privileged utility 
+
+program to obliterate the system log 
+file of process activations. Usually 
+
+that file is well protected by the sys-
+
+tem, but in this case, all the attacker 
+
+has to do is point to it and let the 
+
+Tripwire program do the dirty work.
+Namefree?Createfile F1 Overwrite
+file F2Choosefile name F1Namefree?Write
+to file Createfile F1(a) Normal Operation(b) Overwriting Filename Other Than One Checked
+Choosefile name F1Changefile name to F2Namefree?Namefree?UnprotectedFIGURE 3-18 File Name Race ConditionRace conditions depend on the order 
+
+and timing of two different processes, 
+
+making these errors hard to find (and 
+
+test for).

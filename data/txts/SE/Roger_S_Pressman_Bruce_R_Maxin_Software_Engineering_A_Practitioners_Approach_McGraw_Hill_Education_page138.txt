@@ -1,0 +1,94 @@
+108 PART TWO  
+MODELINGveriﬁ cation and validation approach that you choose. The following set of core 
+principles are fundamental to the practice of software engineering:   
+ 
+ 
+ 
+ 
+ 
+ 
+Principle 1. 
+  Divide and conquer.Divide and conquer.
+ 
+ Stated in a more technical manner, analysis 
+and design should always emphasize  separation of concerns 
+ (SoCs). A large 
+problem is easier to solve if it is subdivided into a collection of elements (or 
+
+ concerns 
+). Ideally, each concern delivers distinct functionality that can be 
+developed, and in some cases validated, independently of other concerns. 
+   
+ 
+ 
+ 
+ 
+ 
+Principle 2. 
+  Understand the use of abstraction.Understand the use of abstraction. 
+ At its core, an abstraction is a simpliﬁ cation of some complex element of a system used to communi-
+cate meaning in a single phrase. When we use the abstraction  spreadsheet
+ 
+, it is assumed that you understand what a spreadsheet is, the general struc-
+ture of content that a spreadsheet presents, and the typical functions that 
+can be applied to it. In software engineering practice, you use many differ-
+
+ent levels of abstraction, each imparting or implying meaning that must 
+be communicated. In analysis and design work, a software team normally 
+begins with models that represent high levels of abstraction (e.g., a spread-
+sheet) and slowly reﬁ nes those models into lower levels of abstraction (e.g., 
+a  column 
+ or the  SUM 
+ function).   
+  Joel Spolsky [Spo02] suggests that “all non-trivial abstractions, to some degree, are leaky.” The intent of an abstraction is to eliminate the need to 
+
+communicate details. But sometimes, problematic effects precipitated by 
+these details “leak” through. Without an understanding of the details, the 
+
+cause of a problem cannot be easily diagnosed.    
+ 
+ 
+ 
+ 
+ 
+Principle 3. 
+  Strive for consistency.Strive for consistency.
+ 
+ Whether it’s creating an analysis model, 
+developing a software design, generating source code, or creating test 
+cases, the principle of consistency suggests that a familiar context makes 
+software easier to use. As an example, consider the design of a user in-
+terface for a WebApp. Consistent placement of menu options, the use of a 
+
+consistent color scheme, and the consistent use of recognizable icons all 
+help to make the interface ergonomically sound.    
+ 
+ 
+ 
+ 
+ 
+Principle 4. 
+  Focus on the transfer of information.Focus on the transfer of information. 
+ Software is about infor-
+mation transfer—from a database to an end user, from a legacy system to a 
+
+WebApp, from an end user into a graphic user interface (GUI), from an op-
+
+erating system to an application, from one software component to  another—the list is almost endless. In every case, information ﬂ ows across an interface, 
+and as a consequence, there are opportunities for error, or omission, or am-
+
+biguity. The implication of this principle is that you must pay special atten-
+
+tion to the analysis, design, construction, and testing of interfaces. 
+   
+ 
+ 
+ 
+ 
+ 
+Principle 5. 
+  Build software that exhibits effective modularity.Build software that exhibits effective modularity.
+ 
+ Separation of concerns (Principle 1) establishes a philosophy for software.  Modularity 
+ provides a mechanism for realizing the philosophy. Any complex system 
+pre22126_ch07_103-130.indd   108pre22126_ch07_103-130.indd   10813/12/13   6:11 PM13/12/13   6:11 PM

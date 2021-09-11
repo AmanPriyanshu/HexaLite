@@ -1,0 +1,40 @@
+226 PART TWO  
+MODELINGsoftware engineering action within the modeling activity and sets the stage for  construction 
+ (code generation and testing).  Each of the elements of the requirements model (Chapters 9–11) provides  information that is necessary to create the four design models required for a complete speciﬁ cation of design. The ﬂ
+ ow of information during software 
+ design is illustrated in  Figure 12.1 . The requirements model, manifested by  scenario-based, class-based, and behavioral elements, feed the design task. Using design notation and design methods discussed in later chapters, design 
+produces a data/class design, an architectural design, an interface design, and 
+a component design.    
+The data/class design transforms class models (Chapter 10) into design class realizations and the requisite data structures required to implement the soft-
+ware. The objects and relationships deﬁ ned in the CRC diagram and the detailed 
+data content depicted by class attributes and other notation provide the basis for 
+the data design activity. Part of class design may occur in conjunction with the 
+
+design of software architecture. More detailed class design occurs as each soft-
+ware component is designed.  The architectural design deﬁ nes the relationship between major structural el-
+ements of the software, the architectural styles and patterns (Chapter 13 that can 
+be used to achieve the requirements deﬁ ned for the system, and the constraints 
+that affect the way in which architecture can be implemented [Sha96]. The archi-
+tectural design representation—the framework of a computer-based system—is 
+
+derived from the requirements model.    Software design should 
+always begin with 
+a consideration of 
+data—the foundation 
+for all other elements 
+of the design. After 
+the foundation is laid, 
+the architecture must 
+be derived. Only then 
+should you perform 
+
+other design tasks. Analysis ModelUse cases - text Use-case diagrams 
+Activity diagrams 
+Swimlane diagramsBehavioralelementsClass-basedelementsScenerio-basedelementsClass diagrams Analysis packages 
+CRC models 
+Collaboration diagrams  State diagrams Sequence diagramsData/Class DesignInterface Design
+Architectural DesignComponent-Level DesignDesign Model  
+FIGURE 12.1 
+Translating the requirements model into the design model 
+ 
+ pre22126_ch12_224-251.indd   226pre22126_ch12_224-251.indd   22613/12/13   6:12 PM13/12/13   6:12 PM

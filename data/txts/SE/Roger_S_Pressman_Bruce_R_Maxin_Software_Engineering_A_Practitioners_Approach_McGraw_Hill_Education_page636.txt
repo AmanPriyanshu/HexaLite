@@ -1,0 +1,57 @@
+606 PART THREE  
+QUALITY MANAGEMENT 
+Many of the concepts introduced for object-oriented systems are also applica-ble for the black box. Data abstractions and the operations that manipulate those 
+abstractions are encapsulated by the black box. Like a class hierarchy, the black-
+
+box speciﬁ cation can exhibit usage hierarchies in which low-level boxes inherit 
+the properties of those boxes higher in the tree structure.  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+28.2.2   
+State-Box Speciﬁ cation 
+ 
+The  state box 
+ is “a simple generalization of a state machine” [Mil88]. Recalling 
+the discussion of behavioral modeling and state diagrams in Chapter 11, a state 
+is some observable mode of system behavior. As processing occurs, a system re-
+
+sponds to events (stimuli) by making a transition from the current state to some 
+new state. As the transition is made, an action may occur. The state box uses a 
+
+data abstraction to determine the transition to the next state and the action (re-
+sponse) that will occur as a consequence of the transition.  Referring to  Figure 28.4 , the state box incorporates a black box  g. 
+ The stimulus 
+ S 
+ that is input to the black box arrives from some external source and a set of 
+internal system states  T. 
+ Mills [Mil88] provides a mathematical description of the 
+function  f 
+ of the black box contained within the state box: g 
+:  S* 
+ 3  T* 
+   R 
+ 3  T 
+  where  g 
+ is a subfunction that is tied to a speciﬁ
+ c state  
+t 
+. When considered collec-tively, the state-subfunction pairs ( 
+t, g 
+) deﬁ ne the black-box function  
+f. 
+ 
+ 
+ 
+ 
+ 
+ f : S*          RSR 
+FIGURE 28.3 
+A black-box speciﬁ cation
+SRBlack box, gTState FIGURE 28.4 
+A state-box speciﬁ cation
+pre22126_ch28_601-622.indd   606pre22126_ch28_601-622.indd   60613/12/13   6:15 PM13/12/13   6:15 PM

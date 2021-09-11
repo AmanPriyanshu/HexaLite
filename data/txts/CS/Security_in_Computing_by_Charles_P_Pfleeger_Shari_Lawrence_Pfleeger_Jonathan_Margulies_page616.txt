@@ -1,0 +1,40 @@
+582 Chapter 8  
+Cloud ComputingJust as you will want to specialize your VMs for security reasons, you will also 
+want to specialize your networks. IaaS providers commonly offer customers the option 
+
+of easily segregating systems into private network enclaves that are not addressable 
+
+from the Internet. Use these private enclaves to segregate your systems by function (see 
+
+Figure 8-8). For instance, put your FTP servers in one enclave and your web servers 
+
+in another. Protect each enclave with firewall rules that limit traffic to what you know 
+
+to be necessary. Doing all of this will limit every system’s exposure as much as pos-
+
+sible and help prevent attacks from spreading across your systems. Of course, most of 
+
+these systems will be servers that somehow have to be reachable from the Internet; for 
+
+this purpose, use application proxy servers that relay traffic into the private enclaves. 
+
+You will likely want to place the typical boundary protection devices we discuss in  
+
+Chapter 6—firewalls, IDSs, IPSs, and their ilk—in VMs that sit between the Internet 
+
+and the proxy servers.
+Your VMs will have to run SSH or some sort of screen-sharing software so that you 
+can administer them. Limit access to these services: They are prime targets of attackers. 
+
+One way to accomplish this is to use network ACLs to limit SSH and screen-sharing 
+
+traffic so that the connections must originate from your IP address space. You can also 
+
+use log data to discover and investigate failed login attempts to those services. You 
+
+should collect log data from all of your VMs, but do not store the log data on the same 
+
+IaaS infrastructure as your VMs unless absolutely necessary. If the IaaS infrastructure 
+InternetIaaS EnvironmentWeb Proxy Enclave
+FTP Enclave
+FTP ServersWeb EnclaveWeb ServersBoundaryProtectionEnclaveFTP Proxy EnclaveWeb ProxyFTP ProxyFIGURE 8-8 IaaS Security Enclaves

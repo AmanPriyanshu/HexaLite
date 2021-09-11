@@ -1,0 +1,83 @@
+CHAPTER 34  
+PROJECT SCHEDULING 771 
+ Once the macroscopic schedule has been developed, the team is ready to 
+schedule work tasks for a speciﬁ c increment. To accomplish this, you can use 
+a generic process framework that is applicable for all increments. A  task list 
+ is 
+created by using the generic tasks derived as part of the framework as a starting 
+point and then adapting these by considering the content and functions to be 
+derived for a speciﬁ c WebApp increment. 
+ Each framework action (and its related tasks) can be adapted in one of four ways: (1) a task is applied as is, (2) a task is eliminated because it is not neces-
+sary for the increment, (3) a new (custom) task is added, and (4) a task is reﬁ ned 
+(elaborated) into a number of named subtasks that each becomes part of the 
+schedule.  To illustrate, consider a generic  
+design modeling 
+ action for WebApps that can 
+be accomplished by noting the generic design tasks for WebApps discussed in 
+
+Chapter 17. As an example, consider the generic task  Design the Interface 
+ as 
+it is applied to the fourth increment of   
+SafeHomeAssured.com 
+ 
+. Recall that the fourth increment implements the content and function for describing the living 
+or business space to be secured by the  SafeHome 
+ security system. Referring to 
+  
+Figure 34.5  
+, the fourth increment commences at the beginning of the ﬁ fth week 
+and terminates at the end of the ninth week.  There is little question that the  Design the Interface 
+ task must be conducted. 
+The team recognizes that the interface design is pivotal to the success of the 
+increment and decides to reﬁ ne (elaborate) the task. The following subtasks are 
+derived for the  Design the Interface 
+ task for the fourth increment: 
+ 
+ 
+ 
+•  Develop a sketch of the page layout for the space design page.   
+ 
+ 
+•  Review layout with stakeholders.   
+ 
+ 
+•  Design space layout navigation mechanisms.   
+ 
+ 
+•  Design “drawing board” layout.  10 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+•  Develop procedural details for the graphical wall layout function.   
+ 
+ 
+•  Develop procedural details for the wall length computation and display function.   
+ 
+ 
+•  Develop procedural details for the graphical window layout function.   
+ 
+ 
+•  Develop procedural details for the graphical door layout function.   
+ 
+ 
+•  Design mechanisms for selecting security system components (sensors, cameras, microphones, etc.).   
+ 
+ 
+ 
+ 
+ 
+10.  At this stage, the team envisions creating the space by literally drawing the walls, windows, 
+and doors using graphical functions. Wall lines will “snap” onto grip points. Dimensions of the 
+
+wall will be displayed automatically. Windows and doors will be positioned graphically. The end 
+
+user can also select speciﬁ c sensors, cameras, etc., and position them once the space has been 
+deﬁ ned. 
+pre22126_ch34_754-776.indd   771pre22126_ch34_754-776.indd   77113/12/13   10:02 PM13/12/13   10:02 PM

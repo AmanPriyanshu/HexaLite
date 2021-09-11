@@ -1,0 +1,52 @@
+CHAPTER 31  
+PROJECT MANAGEMENT CONCEPTS 695 
+Your team must decide which process model is most appropriate for (1) the 
+customers who have requested the product and the people who will do the work, 
+(2) the characteristics of the product itself, and (3) the project environment in 
+which the software team works. When a process model has been selected, the 
+team then deﬁ nes a preliminary project plan based on the set of process frame-
+work activities. Once the preliminary plan is established, process decomposition 
+begins. That is, a complete plan, reﬂ ecting the work tasks required to populate 
+the framework activities, must be created. We explore these activities brieﬂ
+ y in 
+the sections that follow and present a more detailed view in Chapter 33.   
+ 
+31.4.1   
+Melding the Product and the Process 
+ 
+Project planning begins with the melding of the product and the process. Each function to be engineered by your team must pass through the set of framework 
+activities that have been deﬁ ned for your software organization. 
+ Assume that the organization has adopted the generic framework activities— communication, planning, modeling, construction, 
+ and  
+deployment 
+—discussed in Chapter 2. The team members who work on a product function will 
+apply each of the framework activities to it. In essence, a matrix similar to the 
+one shown in   
+Figure 31.1  
+ is created. Each major product function (the ﬁ
+ gure 
+notes functions for the word-processing software discussed earlier) is listed in 
+the left-hand column. Framework activities are listed in the top row. Software 
+
+engineering work tasks (for each framework activity) would be entered in the 
+following row. 
+ 5 
+ 
+ The job of the project manager (and other team members) is to 
+estimate resource requirements for each matrix cell, start and end dates for the   
+5  It should be noted that work tasks must be adapted to the speciﬁ
+ c needs of the project based 
+on a number of adaptation criteria.  FIGURE 31.1 
+Melding the problem and 
+
+the process
+COMMON PROCESSFRAMEWORK ACTIVITIESSoftware Engineering Tasks
+Product Functions
+  Text input
+  Editing and formatting
+
+  Automatic copy edit
+  Page layout capability
+  Automatic indexing and TOC
+  File management
+  Document productioncommunicationplanningmodelingconstructiondeploymentpre22126_ch31_683-702.indd   695pre22126_ch31_683-702.indd   69513/12/13   6:16 PM13/12/13   6:16 PM

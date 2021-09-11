@@ -1,0 +1,56 @@
+430 Chapter 6  
+Networksreported that in 2013, a botnet of 
+1,000 hosts could be rented for 
+
+$25–$120 US, or $200–$500 US for 
+10,000 hosts for 24 hours.Opt-In BotnetsHave a favorite cause? Want to protest against [name your outrage] but fear your lone 
+voice will not be heard? Join with a group of like-minded individuals to launch a dis-
+
+tributed denial-of-service attack against the outrage.
+Yes, there are now postings for affinity groups to join together in protest. You down-
+load and install an attack script and show up at 11:00 am (GMT) Tuesday to protest by 
+
+pointing your attacking computer at x.com. Join in when you want, drop out when you 
+(or your computer) are tired. Join the movement! The only thing lacking is the pizza 
+
+party after the demonstration. Sorry, you will have to buy your own.
+Malicious Autonomous Mobile AgentsBots belong to a class of code known more generally as 
+malicious autonomous mobile agents. Working largely on their own, these programs can infect computers anywhere 
+they can access, causing denial of service as well as other kinds of harm. Of course, 
+
+code does not develop, appear, or mutate on its own; there has to be a developer involved 
+
+initially to set up the process and, usually, to establish a scheme for updates. Such an 
+
+agent is sometimes called an inoculation agent.As bots or agents execute and acquire updates, not every agent will be updated at 
+once. One agent may be on a system that is powered off, another on a system that 
+
+currently has no external network connectivity, and still another may be running in a 
+
+constrained resource domain. Thus, as agents run in and out of contact with their update 
+
+services, some will be up to date and others will be running older versions. The problem 
+
+of coordinating an army of disparate agents is an active research topic, based on the 
+
+Byzantine generals problem [LAM82].Autonomous Mobile Protective Agents
+Suppose a security engineer decodes the logic of an agent; the engineer might then 
+
+enlist the agent to fight for the good guys by modifying it to look normal to its siblings 
+
+but in fact to spread a counterinfection. So, for example, a modified agent might look 
+
+for other hostile agents and pass them an “update” that in fact disabled them.
+This concept is not as far-fetched as it sounds. In the same way that attackers have 
+developed networks for harm, security researchers have postulated how good agents 
+
+could help heal after a malicious code infection.A German teenager, Sven Jaschen, wrote and released a worm called NetSky in 
+February 2004. He claimed his intention was to remove infections of the widespread 
+
+MyDoom and Bagle worms from infected computers by closing the vulnerabilities those 
+
+worms exploit. NetSky spread by email. However, Jaschen soon became engaged in a 
+Botnet operators make money by 
+renting compromised hosts for DDoS or 
+
+other activity. The rent is mostly profit.

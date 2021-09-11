@@ -1,0 +1,31 @@
+˘˘
+˜˚˛˝˙ˆˇ˘˜˘˜˘Principle or practiceDescription
+Collective ownershipThe pairs of developers work on all areas of the system, so that no islands of 
+expertise develop and all the developers take responsibility for all of the code. Anyone can change anything.Continuous 
+
+integrationAs soon as the work on a task is complete, it is integrated into the whole 
+system. After any such integration, all the unit tests in the system must pass.Incremental planningRequirements are recorded on ﬁstory cards,ﬂ and the stories to be included in 
+a˜release are determined by the time available and their relative priority. The 
+developers break these stories into development ﬁtasks.ﬂ See Figures 3.5 
+and˜3.6.On-site customerA representative of the end-user of the system (the Customer) should be 
+available full time for the use of the XP team. In an extreme programming 
+process, the customer is a member of the development team and is 
+responsible for bringing system requirements to the team for implementation.Pair programmingDevelopers work in pairs, checking each other's work and providing the 
+support to always do a good job.RefactoringAll developers are expected to refactor the code continuously as soon as 
+potential code improvements are found. This keeps the code simple and 
+maintainable.Simple designEnough design is carried out to meet the current requirements and no more.Small releasesThe minimal useful set of functionality that provides business value is 
+developed first. Releases of the system are frequent and incrementally add 
+functionality to the first release.Sustainable paceLarge amounts of overtime are not considered acceptable, as the net effect is 
+often to reduce code quality and medium-term productivity.Test first 
+developmentAn automated unit test framework is used to write tests for a new piece of 
+functionality before that functionality itself is implemented.Figure 3.4 Extreme programming practices4.
+ Change is embraced through regular system releases to customers, test-first 
+
+development, refactoring to avoid code degeneration, and continuous integra-tion of new functionality.5. Maintaining simplicity is supported by constant refactoring that improves code 
+quality and by using simple designs that do not unnecessarily anticipate future 
+changes to the system.In practice, the application of Extreme Programming as originally proposed has proved to be more difficult than anticipated. It cannot be readily integrated with the 
+management practices and culture of most businesses. Therefore, companies adopt-
+ing agile methods pick and choose those XP practices that are most appropriate for 
+their way of working. Sometimes these are incorporated into their own development 
+processes but, more commonly, they are used in conjunction with a management-
+focused agile method such as Scrum (Rubin 2013).

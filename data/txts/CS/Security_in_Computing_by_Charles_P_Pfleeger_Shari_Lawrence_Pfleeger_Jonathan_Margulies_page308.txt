@@ -1,0 +1,39 @@
+274 Chapter 4  
+The Web—User Side
+It is even possible to create and send a valid email message by composing all the 
+headers and content on the fly, through a Telnet interaction with an SMTP service that 
+
+will transmit the mail. Consequently, headers in received email are generally unreliable.
+PhishingOne type of fake email that has become prevalent enough to warrant its own name is 
+
+phishing (pronounced like “fishing”). In a 
+phishing attack, the email message tries to 
+trick the recipient into disclosing private data or taking another unsafe action. Phishing 
+
+email messages purport to be from reliable companies such as banks or other financial 
+
+institutions, popular web site companies (such as Facebook, Hotmail, or Yahoo), or 
+
+consumer products companies. An example of a phishing email posted as a warning on 
+
+Microsoft’s web site is shown in Figure 4-16.
+A more pernicious form of phishing is known as 
+spear phishing, in which the bait looks especially appealing to the prey. What distinguishes spear phishing attacks is their 
+
+use of social engineering: The email lure is personalized to the recipient, thereby reduc-
+
+ing the user’s skepticism. For example, as recounted in Sidebar 4-11, a phishing email 
+
+might appear to come from some-
+one the user knows or trusts, such as 
+
+a friend (whose email contacts list 
+
+may have been purloined) or a sys-
+
+tem administrator. Sometimes the 
+FIGURE 4-16 Example Phishing Email MessageSpear phishing email tempts recipients 
+
+by seeming to come from sources the 
+
+receiver knows and trusts.

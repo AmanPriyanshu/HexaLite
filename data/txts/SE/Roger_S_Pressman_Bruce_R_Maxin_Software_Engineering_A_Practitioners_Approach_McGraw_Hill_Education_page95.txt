@@ -1,0 +1,96 @@
+CHAPTER 4  
+PROCESS MODELS 65 
+ 
+ 
+4.6.  Is it possible to combine process models? If so, provide an example.    
+ 
+4.7.  The concurrent process model deﬁ nes a set of “states.” Describe what these states rep-
+resent in your own words, and then indicate how they come into play within the concurrent 
+process model.    
+ 
+4.8.  What are the advantages and disadvantages of developing software in which quality is “good enough”? That is, what happens when we emphasize development speed over prod-
+uct quality?    
+ 
+4.9.  Provide three examples of software projects that would be amenable to the  component-based model. Be speciﬁ c. 
+   
+ 
+4.10.  It is possible to prove that a software component and even an entire program is  correct. So why doesn’t everyone do this?    
+ 
+4.11.  Are the Uniﬁ ed Process and UML the same thing? Explain your answer. 
+  
+ 
+ 
+ 
+  F
+URTHER
+ READINGS AND INFORMATION
+ SOURCES  
+ 
+Most of the software engineering books discussed in the  Further Readings 
+ section of Chap-ter 2 address prescriptive process models in some detail.   
+ 
+Cynkovic and Larsson ( Building Reliable Component-Based Systems, 
+ Addison-Wesley, 
+2002) and Heineman and Council ( Component-Based Software Engineering,
+ 
+ Addison- 
+Wesley, 
+2001) describe the process required to implement component-based systems. Jacobson 
+and Ng ( Aspect-Oriented Software Development with Use Cases,
+ 
+ Addison-Wesley, 2005) and 
+Filman and his colleagues ( Aspect-Oriented Software Development,
+ 
+ Addison-Wesley, 2004) 
+discuss the unique nature of the aspect-oriented process. Monin and Hinchey ( Understand-ing Formal Methods, 
+ Springer, 2003) present a worthwhile introduction, and Boca and his 
+colleagues ( Formal Methods, 
+ Springer, 2009) discuss the state of the art and new directions. 
+  
+ 
+Books by Kenett and Baker ( Software Process Quality: Management and Control,
+ 
+  Marcel Dekker, 1999) and Chrissis, Konrad, and Shrum ( 
+CMMI for Development: Guidelines for Pro-
+cess Integration and Product Improvement,
+ 
+ 3rd ed., Addison-Wesley, 2011) consider how 
+quality management and process design are intimately connected to one another. 
+  
+ 
+In addition to Jacobson, Rumbaugh, and Booch’s seminal book on the Uniﬁ
+ ed Process 
+[Jac99], books by Shuja and Krebs ( IBM Rational Uniﬁ ed Process Reference and Certiﬁ
+ cation 
+Guide, 
+ IBM Press, 2008), Arlow and Neustadt ( 
+UML 2 and the Uniﬁ ed Process,
+ 
+ Addison-Wesley, 
+2005), Kroll and Kruchten ( The Rational Uniﬁ ed Process Made Easy,
+ 
+ Addison- 
+Wesley, 
+2003), and Farve ( UML and the Uniﬁ ed Process,
+ 
+ IRM Press, 2003) provide excellent com-
+plementary information. Gibbs ( Project Management with the IBM Rational Uniﬁ
+ ed 
+Process,
+ 
+ IBM Press, 2006) discusses project management within the context of the UP. 
+ Dennis, Wixom, and Tegarden ( 
+Systems Analysis and Design with UML, 
+ 4th ed., Wiley, 2012) 
+tackles programming and business process modeling as it relates to UP. 
+  
+ 
+A wide variety of information sources on software process models are available on the Internet. An up-to-date list of World Wide Web references that are relevant to the software 
+
+process can be found at the SEPA website:  
+www.mhhe.com/pressman
+ 
+.  
+ 
+ 
+ pre22126_ch04_040-065.indd   65pre22126_ch04_040-065.indd   6513/12/13   6:10 PM13/12/13   6:10 PM

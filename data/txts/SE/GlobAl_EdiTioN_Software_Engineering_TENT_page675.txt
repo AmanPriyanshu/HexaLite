@@ -1,0 +1,53 @@
+˜˜˚˛˚˜˜˜
+˜˜
+If this renegotiation is unsuccessful or the risk mitigation actions are ineffective, then you should arrange for a formal project technical review. The objectives of this 
+review are to find an alternative approach that will allow the project to continue. 
+
+Reviews should also check that the customer™s goals are unchanged and that the 
+
+project remains aligned with these goals.The outcome of a review may be a decision to cancel a project. This may be a result of technical or managerial failings but, more often, is a consequence of exter
+-
+nal changes that affect the project. The development time for a large software project 
+is often several years. During that time, the business objectives and priorities inevi
+-
+tably change. These changes may mean that the software is no longer required or 
+
+that the original project requirements are inappropriate. Management may then 
+
+decide to stop software development or to make major changes to the project to 
+
+reflect the changes in the organizational objectives.
+Project scheduling is the process of deciding how the work in a project will be organ-
+ized as separate tasks, and when and how these tasks will be executed. You estimate 
+the calendar time needed to complete each task and the effort required, and you sug-
+gest who will work on the tasks that have been identified. You also have to estimate 
+
+the hardware and software resources that are needed to complete each task. For 
+
+example, if you are developing an embedded system, you have to estimate the time 
+that you need on specialized hardware and the costs of running a system simulator. 
+In terms of the planning stages that I introduced in the introduction of this chapter, 
+an initial project schedule is usually created during the project startup phase. This 
+
+schedule is then refined and modified during development planning.Both plan-based and agile processes need an initial project schedule, although less 
+detail is included in an agile project plan. This initial schedule is used to plan how peo-
+ple will be allocated to projects and to check the progress of the project against its 
+
+contractual commitments. In traditional development processes, the complete schedule 
+
+is initially developed and then modified as the project progresses. In agile processes, 
+
+there has to be an overall schedule that identifies when the major phases of the project 
+
+will be completed. An iterative approach to scheduling is then used to plan each phase.Scheduling in plan-driven projects (Figure 23.4) involves breaking down the total work involved in a project into separate tasks and estimating the time required to 
+
+complete each task. Tasks should normally last at least a week and no longer than 
+
+2 months. Finer subdivision means that a disproportionate amount of time must be 
+
+spent on re-planning and updating the project plan. The maximum amount of time 
+for any task should be 6 to 8 weeks. If a task will take longer than this, it should be 
+
+split into subtasks for project planning and scheduling.Some of these tasks are carried out in parallel, with different people working on 
+different components of the system. You have to coordinate these parallel tasks and 
+organize the work so that the workforce is used optimally and you don™t introduce 

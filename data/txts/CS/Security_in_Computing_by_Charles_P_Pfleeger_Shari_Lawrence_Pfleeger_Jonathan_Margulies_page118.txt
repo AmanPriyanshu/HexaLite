@@ -1,0 +1,37 @@
+84 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+As execution continues, the process may call a subprocedure, passing some of the 
+objects to which it has access as arguments to the subprocedure. The domain of the sub-
+
+procedure is not necessarily the same as that of its calling procedure; in fact, a calling 
+
+procedure may pass only some of its objects to the subprocedure, and the subprocedure 
+may have access rights to other objects not accessible to the calling procedure, as shown 
+
+in Figure 2-17. The caller may also pass only some of its access rights for the objects it 
+
+passes to the subprocedure. For example, a procedure might pass to a subprocedure the 
+
+right to read but not to modify a particular data value.
+Because each capability identifies a single object in a domain, the collection of capa-
+bilities defines the domain. When a process calls a subprocedure and passes certain 
+
+objects to the subprocedure, the operating system forms a stack of all the capabilities 
+of the current procedure. The operating system then creates new capabilities for the 
+
+subprocedure.Operationally, capabilities are a straightforward way to keep track of the access 
+rights of subjects to objects during execution. The capabilities are backed up by a more 
+
+comprehensive table, such as an access control matrix or an access control list. Each 
+
+time a process seeks to use a new object, the operating system examines the master list 
+
+of objects and subjects to determine whether the object is accessible. If so, the operating 
+system creates a capability for that object.Capabilities must be stored in memory inaccessible to normal users. One way of 
+accomplishing this is to store capabilities in segments not pointed at by the user’s seg-
+
+ment table or to enclose them in protected memory as from a pair of base/bounds regis-
+
+ters. Another approach is to use a tagged architecture machine to identify capabilities as 
+
+structures requiring protection.Domain of MAINStored dataobjects Domain of SUBCode ofSUB Call SUBCode ofMAIN FilesFilesDevicesStored dataobjects DevicesFIGURE 2-17 Passing Objects to a Domain

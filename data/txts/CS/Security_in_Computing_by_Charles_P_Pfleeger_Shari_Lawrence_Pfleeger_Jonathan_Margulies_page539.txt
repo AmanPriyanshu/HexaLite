@@ -1,0 +1,47 @@
+ Section 7.1  Introduction to Databases 
+505  project the results onto the attributes NAME and FIRST, as in Table 7-5. The result is 
+the list of first and last names of people whose addresses have zip code 43210.
+Notice that we do not have to project onto the same attribute(s) on which the selec-
+tion is done. For example, we can build a query using ZIP and NAME but project the 
+
+result onto FIRST:
+SHOW FIRST WHERE (ZIP='43210') ^ (NAME='ADAMS')The result would be a list of the first names of people whose last names are 
+ADAMS
+ and 
+ZIP is 43210.We can also merge two subschema on a common element by using a 
+join query. 
+The result of this operation is a subschema whose records have the same value for 
+
+the common element. For example, Figure 7-2 shows that the subschema NAME–ZIP 
+
+and the subschema ZIP–AIRPORT 
+
+can be joined on the common field 
+
+ZIP to produce the subschema 
+
+NAME–AIRPORT.
+TABLE 7-4 
+Results of a Select QueryNameFirstAddressCityStateZipAirport
+ADAMSCharles212 Market St.ColumbusOH43210CMH
+ADAMSEdward212 Market St.ColumbusOH43210CMH
+CARTERMarlene411 Elm St.ColumbusOH43210CMH
+CARTERBeth411 Elm St.ColumbusOH43210CMH
+CARTERBen411 Elm St.ColumbusOH43210CMH
+CARTERLisabeth411 Elm St.ColumbusOH43210CMH
+CARTERMary411 Elm St.ColumbusOH43210CMH
+TABLE 7-5 
+Results of a Select–Project QueryADAMSCharles
+
+ADAMSEdward
+
+CARTERMarlene
+
+CARTERBeth
+
+CARTERBen
+
+CARTERLisabeth
+CARTERMary
+Users extract data through use  
+of queries.

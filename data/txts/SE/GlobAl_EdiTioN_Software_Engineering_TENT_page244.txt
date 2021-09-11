@@ -1,0 +1,40 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜the system has actually been executed. Code is tested as it is written, so defects are discovered early in the development process.2. Regression testing A test suite is developed incrementally as a program is devel-
+oped. You can always run regression tests to check that changes to the program 
+have not introduced new bugs.3. Simplified debugging When a test fails, it should be obvious where the prob-
+lem lies. The newly written code needs to be checked and modified. You do 
+
+not need to use debugging tools to locate the problem. Reports of the use of 
+
+TDD suggest that it is hardly ever necessary to use an automated debugger in 
+
+test-driven development (Martin 2007).4. System documentation The tests themselves act as a form of documentation that 
+describe what the code should be doing. Reading the tests can make it easier to 
+understand the code.One of the most important benefits of TDD is that it reduces the costs of regres-sion testing. Regression testing involves running test sets that have successfully 
+
+executed after changes have been made to a system. The regression test checks that 
+these changes have not introduced new bugs into the system and that the new code 
+interacts as expected with the existing code. Regression testing is expensive and 
+
+sometimes impractical when a system is manually tested, as the costs in time and 
+
+effort are very high. You have to try to choose the most relevant tests to re-run and it 
+is easy to miss important tests.Automated testing dramatically reduces the costs of regression testing. Existing tests may be re-run quickly and cheaply. After making a change to a system in test-
+first development, all existing tests must run successfully before any further func-
+tionality is added. As a programmer, you can be confident that the new functionality 
+that you have added has not caused or revealed problems with existing code.Test-driven development is of most value in new software development where 
+the functionality is either implemented in new code or by using components from 
+
+standard libraries. If you are reusing large code components or legacy systems, then 
+you need to write tests for these systems as a whole. You cannot easily decompose 
+them into separate testable elements. Incremental test-driven development is imprac
+-
+tical. Test-driven development may also be ineffective with multithreaded systems. 
+The different threads may be interleaved at different times in different test runs, and 
+so may produce different results.If you use TDD, you still need a system testing process to validate the system, that is, to check that it meets the requirements of all of the system stakeholders. 
+
+System testing also tests performance, reliability, and checks that the system does 
+
+not do things that it shouldn™t do, such as produce unwanted outputs. Andrea (Andrea 
+2007) suggests how testing tools can be extended to integrate some aspects of sys-
+tem testing with TDD.Test-driven development is now a widely used and mainstream approach to soft-ware testing. Most programmers who have adopted this approach are happy with it 

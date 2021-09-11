@@ -1,0 +1,60 @@
+CHAPTER 32  
+PROCESS AND PROJECT METRICS 705software process improvement, it is important to note that process is only one of a number of “controllable factors in improving software quality and organiza-
+tional performance” [Pau94].  
+ 
+ 
+ 
+ 
+  Referring to   
+Figure 32.1  
+, process sits at the center of a triangle connecting three factors that have a profound inﬂ uence on software quality and organiza-
+tional performance. The skill and motivation of people have been shown [Boe81] 
+to be the most inﬂ uential factors in quality and performance. The complexity of 
+the product can have a substantial impact on quality and team performance. The 
+technology (i.e., the software engineering methods and tools) that populates the 
+process also has an impact.   In addition, the process triangle exists within a circle of environmental condi-tions that include the development environment (e.g., integrated software tools), 
+business conditions (e.g., deadlines, business rules), and customer characteris-
+tics (e.g., ease of communication and collaboration).  
+ 
+ 
+   
+You can only measure the efﬁ
+ cacy of a software process indirectly. That is, you 
+derive a set of metrics based on the outcomes that can be derived from the pro-
+cess. Outcomes include measures of errors uncovered before release of the soft-
+ware, defects delivered to and reported by end users, work products delivered 
+(productivity), human effort expended, calendar time used, schedule confor-
+
+mance, and other measures. You can also derive process metrics by measur-
+
+ing the characteristics of speciﬁ c software engineering tasks. For example, you 
+might measure the effort and time spent performing the umbrella activities and 
+the generic software engineering activities described in Chapter 2.    The skill and motiva-
+tion of the software 
+people doing the work 
+are the most important 
+
+factors that inﬂ uence 
+
+software quality. 
+  
+ 
+ uote:  “Software metrics 
+let you know when 
+to laugh and when 
+to cry.” 
+ Tom Gilb 
+Process
+Product
+Technolog
+yPeopleDevelopmentenvironmentCustomercharacteristicsBusinessconditions  
+FIGURE 32.1 
+Determinants 
+for software 
+
+quality and 
+organizational 
+
+effectiveness. 
+ 
+  Source: Adapted from [Pau94]. pre22126_ch32_703-726.indd   705pre22126_ch32_703-726.indd   70513/12/13   6:16 PM13/12/13   6:16 PM

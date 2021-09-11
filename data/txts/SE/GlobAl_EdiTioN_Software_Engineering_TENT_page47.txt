@@ -1,0 +1,25 @@
+˜˜˚˛˜˜˜
+˜˜˜
+can be instantiated in different ways to create processes that resemble any of the 
+general process models discussed here. The RUP has been adopted by some large 
+software companies (notably IBM), but it has not gained widespread acceptance.The first published model of the software development process was derived from 
+
+engineering process models used in large military systems engineering (Royce 
+
+1970). It presents the software development process as a number of stages, as shown 
+
+in Figure 2.1. Because of the cascade from one phase to another, this model is known 
+as the waterfall model or software life cycle. The waterfall model is an example of a 
+
+plan-driven process. In principle at least, you plan and schedule all of the process 
+
+activities before starting software development.The stages of the waterfall model directly reflect the fundamental software devel-opment activities:1. Requirements analysis and definition The system™s services, constraints, and 
+goals are established by consultation with system users. They are then defined 
+in detail and serve as a system specification.2. System and software design The systems design process allocates the require-
+ments to either hardware or software systems. It establishes an overall system 
+architecture. Software design involves identifying and describing the funda-
+mental software system abstractions and their relationships.3. Implementation and unit testing During this stage, the software design is real-
+ized as a set of programs or program units. Unit testing involves verifying that 
+each unit meets its specification.RequirementsdefinitionSystem and
+software designImplementationand unit testingIntegration and
+system testingOperation andmaintenanceFigure 2.1 The  waterfall model

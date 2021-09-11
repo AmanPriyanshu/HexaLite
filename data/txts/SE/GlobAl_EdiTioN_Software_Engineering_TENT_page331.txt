@@ -1,0 +1,41 @@
+˜˜˜˚ˆ˜˜˜˜˜˜
+who is waiting for a response from the system sees a silent system failure, with no 
+response from the system. They have no alternative but to kill the waiting process and 
+
+restart the system.To avoid this prospect, you should always include timeouts when calling external components. A timeout is an automatic assumption that a called component has 
+
+failed and will not produce a response. You define a time period during which you 
+expect to receive a response from a called component. If you have not received a 
+
+response in that time, you assume failure and take back control from the called com-
+ponent. You can then attempt to recover from the failure or tell the system users 
+
+what has happened and allow them to decide what to do.All nontrivial programs include a number of constant values that represent the values of 
+
+real-world entities. These values are not modified as the program executes. Sometimes, 
+
+these are absolute constants and never change (e.g., the speed of light), but more often 
+
+they are values that change relatively slowly over time. For example, a program to  calculate personal tax will include constants that are the current tax rates. These change 
+
+from year to year, and so the program must be updated with the new constant values.You should always include a section in your program in which you name all real-world constant values that are used. When using the constants, you should refer to 
+them by name rather than by their value. This has two advantages as far as depend-
+ability is concerned:1. You are less likely to make mistakes and use the wrong value. It is easy to mistype 
+a number, and the system will often be unable to detect a mistake. For example, 
+
+say a tax rate is 34%. A simple transposition error might lead to this being 
+
+mistyped as 43%. However, if you mistype a name (such as Standard-
+  
+tax-rate), 
+this error can be detected by the compiler as an undeclared variable.2. When a value changes, you do not have to look through the whole program to 
+
+discover where you have used that value. All you need do is to change the value 
+associated with the constant declaration. The new value is then automatically 
+
+included everywhere that it is needed.†
+To assess the reliability of a system, you have to collect data about its operation. The 
+
+data required may include:1. The number of system failures given a number of requests for system services. This is used to measure the POFOD and applies irrespective of the time over 
+
+which the demands are made.

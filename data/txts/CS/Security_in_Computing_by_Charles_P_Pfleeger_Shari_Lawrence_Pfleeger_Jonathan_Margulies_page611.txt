@@ -1,0 +1,65 @@
+ Section 8.4  Cloud Identity Management 
+577  OAuth for AuthenticationWhat if you want all the identity management and authentication features of SAML, but 
+built into a native application rather than one running in a browser? One way to do that 
+
+is by combining OAuth and SAML. Here’s how it works: When the OAuth client sends 
+
+a Request Token to the Authorization Server, the Authorization Server redirects the user 
+
+to his or her SAML IdP to authenticate. The SAML authentication process completes 
+
+as it normally would, after which the OAuth authorization process proceeds normally as 
+
+well. The only extra information the OAuth Client needs is the name of the user’s IdP.
+Another option is OpenID Connect (OIDC), a relatively new standard for federated 
+authentication. A major update to the years-old OpenID standard, OIDC emerged in 
+
+2014 as a strong competitor to SAML by garnering the immediate support of Google 
+and Microsoft. The OIDC protocol serves the same basic authentication purpose as 
+
+SAML, but with less focus on enterprise use cases. While it can handle the typical 
+
+SAML use case—allowing enterprise users to log in to multiple third-party services 
+
+by using a single set of corporate credentials—it has a broader goal: allowing users to 
+
+access every site on the Internet with a single set of credentials. A user with a Google 
+
+account, for instance, can use that account for login at any site that supports the OIDC 
+
+protocol.OIDC is built on top of OAuth 2.0, which gives it a big feature advantage over 
+SAML. Whereas SAML assumes its clients are web browsers, and therefore has poor 
+
+support for native applications, OAuth, and by extension OIDC, supports both browsers 
+
+and native applications. Figure 8-7 shows a typical OIDC authentication flow, and its 
+
+similarity to the OAuth flow is not a coincidence.
+The biggest difference between OIDC and normal OAuth is the addition of an ID 
+Token, which enables an Authorization Server to make authentication claims (similar to 
+
+SAML authentication assertions) about a user. Other than that, the OIDC flow is essen-
+
+tially a normal OAuth flow, but one that focuses specifically on identity. In place of an 
+SIDEBAR 8-5 Whose Vulnerability Is It?
+Sometimes technology journalists get carried away. When PhD student 
+Wang Jing of Nanyang Technological University in Singapore reported 
+
+that Facebook’s OAuth implementation was flawed, the press took it fur-
+
+ther. CNET’s headline, for instance, read “Serious security flaw in OAuth,  
+
+OpenID discovered.” [LOW14] The flaw is called a “covert redirect,” and it 
+
+is the potential vulnerability that causes the OAuth specification to require 
+
+OAuth clients to register their URLs with Authorization Servers. Facebook 
+
+did not limit OAuth Clients to using preregistered URLs, so their OAuth 
+
+implementation was vulnerable.Luckily, it did not take long for the security community to notice that the 
+uproar concerned an issue so well known that it was explicitly addressed 
+
+in the original OAuth specification. Symantec’s official blog [SYM14a] admi-
+
+rably explained the situation the day after the CNET article was published.

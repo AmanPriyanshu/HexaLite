@@ -1,0 +1,132 @@
+730 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+as the project proceeds. In the following sections, each of the activities associ-ated with software project planning is discussed.  
+ 
+ 
+  
+ 
+Task Set for Project Planning 
+ 
+ 
+ 
+ 
+1.  Establish project scope.    
+ 
+2.  Determine feasibility. 
+   
+ 
+ 3.  
+Analyze risks (Chapter 35).    
+ 
+ 4.  
+Deﬁ ne required resources. 
+  
+ 
+ 
+a.  Determine required human resources. 
+   
+ 
+b.  Deﬁ ne reusable software resources. 
+   
+ 
+c.  Identify environmental resources.  
+ 
+   
+ 
+ 5.  
+Estimate cost and effort. 
+  
+ 
+ 
+a.  Decompose the problem.    
+ 
+b.  Develop two or more estimates using size, func-tion points, process tasks, or use cases.    
+ 
+c.  Reconcile the estimates.  
+ 
+   
+ 
+ 6.  
+Develop a project schedule (Chapter 34).   
+ 
+ 
+a.  Establish a meaningful task set.    
+ 
+b.  Deﬁ ne a task network. 
+   
+ 
+c.  Use scheduling tools to develop a time-line chart. 
+   
+ 
+d.  Deﬁ ne schedule tracking mechanisms. 
+ 
+ 
+  
+  
+TASK SET  
+ 
+ 
+ 
+ 
+ 
+ 33.3  
+SOFTWARE
+ SCOPE AND FEASIBILITY  
+ 
+ 
+Software scope
+ 
+ describes the functions and features that are to be delivered to 
+end users; the data that are input and output; the “content” that is presented to 
+users as a consequence of using the software; and the performance, constraints, 
+interfaces, and reliability that  bound 
+ the system. Scope is deﬁ
+ ned using one of 
+two techniques:   
+ 
+ 
+ 1.
+  A narrative description of software scope is developed after communica-tion with all stakeholders.   
+ 
+ 
+ 2.
+  A set of use cases  3 
+ 
+ is developed by end users.  
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Functions described in the statement of scope (or within the use cases) are eval-uated and in some cases reﬁ ned to provide more detail prior to the beginning of 
+estimation. Because both cost and schedule estimates are functionally oriented, 
+some degree of decomposition is often useful. Performance considerations en-
+compass processing and response time requirements. Constraints identify limits 
+placed on the software by external hardware, available memory, or other exist-
+
+ing systems.  Once scope has been identiﬁ ed (with the concurrence of the customer), it is 
+reasonable to ask: “Can we build software to meet this scope? Is the project fea-
+sible?” All too often, software engineers rush past these questions (or are pushed 
+past them by impatient managers or other stakeholders), only to become mired 
+in a project that is doomed from the onset.    Project feasibility is 
+important, but a con-
+
+sideration of business 
+need is even more 
+important. It does no 
+
+good to build a high-
+tech system or product 
+that no one wants.   
+ 
+ 
+ 
+ 
+3  Use cases have been discussed in detail throughout Part 2 of this book. A use case is a scenario-
+based description of the user’s interaction with the software from the user’s point of view. 
+pre22126_ch33_727-753.indd   730pre22126_ch33_727-753.indd   73013/12/13   6:17 PM13/12/13   6:17 PM

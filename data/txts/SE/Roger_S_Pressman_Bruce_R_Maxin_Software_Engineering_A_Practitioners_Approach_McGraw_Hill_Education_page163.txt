@@ -1,0 +1,71 @@
+CHAPTER 8  
+UNDERSTANDING REQUIREMENTS
+ 133begins with a broader system deﬁ nition, where software is but one component 
+of the larger system domain. But regardless of the starting point, the journey 
+across the bridge takes you high above the project, allowing you to examine the 
+context of the software work to be performed; the speciﬁ c needs that design and 
+construction must address; the priorities that guide the order in which work is 
+to be completed; and the information, functions, and behaviors that will have a 
+profound impact on the resultant design.  Over the past decade, there have been many technology changes that impact the requirements engineering process [Wev11]. Ubiquitous computing allows 
+
+computer technology to be integrated into many everyday objects. When these 
+objects are networked they can allow the creation of more complete user pro-
+ﬁ les, with the accompanying concerns for privacy and security. 
+ 
+ 
+ 
+   
+Widespread availability of applications in the electronic marketplace will lead 
+to more diverse stakeholder requirements. Stakeholders can customize a prod-
+uct to meet speciﬁ c, targeted requirements that are applicable to only a small 
+subset of all end users. As product development cycles shorten, there are pres-
+sures to streamline requirements engineering so that products come to market 
+more quickly. But the fundamental problem remains the same, getting timely, 
+
+accurate, and stable stakeholder input.  Requirements engineering encompasses seven distinct tasks: inception, elic-itation, elaboration, negotiation, speciﬁ cation, validation, and management. It is 
+important to note that some of these tasks occur in parallel and all are adapted 
+to the needs of the project.   
+ 
+  
+ 
+Inception.   
+How does a software project get started? Is there a single event that becomes the catalyst for a new computer-based system or product, or does the 
+
+need evolve over time? There are no deﬁ nitive answers to these questions. In 
+some cases, a casual conversation is all that is needed to precipitate a major 
+software engineering effort. But in general, most projects begin when a business 
+need is identiﬁ ed or a potential new market or service is discovered. Stakehold-
+ers from the business community (e.g., business managers, marketing people, 
+product managers) deﬁ ne a business case for the idea, try to identify the breadth 
+and depth of the market, do a rough feasibility analysis, and identify a working 
+description of the project’s scope. All of this information is subject to change, but 
+
+it is sufﬁ cient to precipitate discussions with the software engineering organiza-
+tion.  2 
+ 
+ At project inception, 
+ 3 
+ 
+ you establish a basic understanding of the problem, 
+   Expect to do a bit of 
+design during require-
+ments work and a bit 
+of requirements work 
+during design.   uote:  “The seeds of 
+major software 
+disasters are 
+usually sown in the 
+ﬁ rst three months 
+
+of commencing the 
+software project.”  Caper Jones 
+  
+2  If a computer-based system is to be developed, discussions begin within the context of a system 
+engineering process. For a detailed discussion of system engineering, visit the website that 
+accompanies this book:  www.mhhe.com/pressman 
+   
+3  Recall that the Uniﬁ
+ ed Process (Chapter 4) deﬁ
+ nes a more comprehensive “inception phase” 
+that encompasses the inception, elicitation, and elaboration tasks discussed in this chapter. 
+pre22126_ch08_131-165.indd   133pre22126_ch08_131-165.indd   13313/12/13   6:11 PM13/12/13   6:11 PM

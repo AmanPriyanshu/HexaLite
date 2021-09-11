@@ -1,0 +1,93 @@
+420 PART THREE  
+QUALITY MANAGEMENTcollection of questions similar to these would be developed for each quality 
+factor to be assessed. 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+19.2.5   
+The Transition to a Quantitative View 
+ 
+In the preceding subsections, we have presented a set of qualitative factors for the 
+“measurement” of software quality. The software engineering community strives to 
+
+develop precise measures for software quality and is sometimes frustrated by the 
+
+subjective nature of the activity. Cavano and McCall [Cav78] discuss this situation: 
+  
+The determination of quality is a key factor in everyday events—wine tasting contests, sporting events [e.g., gymnastics], talent contests, etc. In these situations, quality is 
+judged in the most fundamental and direct manner: side by side comparison of ob-
+jects under identical conditions and with predetermined concepts. The wine may be 
+judged according to clarity, color, bouquet, taste, etc. However, this type of judgment 
+
+is very subjective; to have any value at all, it must be made by an expert.    
+ 
+Subjectivity and specialization also apply to determining software quality. To help 
+solve this problem, a more precise deﬁ nition of software quality is needed as well as a 
+way to derive quantitative measurements of software quality for objective  . 
+Since there is no such thing as absolute knowledge, one should not expect to mea-
+sure software quality exactly, for every measurement is partially imperfect. Jacob 
+
+ Bronkowski described this paradox of knowledge in this way: “Year by year we  
+devise more precise instruments with which to observe nature with more ﬁ neness. And 
+when we look at the observations we are discomﬁ ted to see that they are still fuzzy, 
+and we feel that they are as uncertain as ever.” 
+ In Chapter 30, we’ll present a set of software metrics that can be applied to the quantitative assessment of software quality. In all cases, the metrics represent 
+
+indirect measures; that is, we never really measure  quality 
+ but rather some man-
+ifestation of quality. The complicating factor is the precise relationship between 
+
+the variable that is measured and the quality of software.   
+ 
+ 
+ 
+ 
+ 19.3  
+THE SOFTWARE
+ QUALITY DILEMMA  
+ 
+In an interview [Ven03] published on the Web, Bertrand Meyer discusses what I 
+call the  quality dilemma: 
+  
+ 
+ 
+If you produce a software system that has terrible quality, you lose because no one will 
+want to buy it. If on the other hand you spend inﬁ nite time, extremely large effort, and 
+huge sums of money to build the absolutely perfect piece of software, then it’s going 
+
+to take so long to complete and it will be so expensive to produce that you’ll be out of 
+business anyway. Either you missed the market window, or you simply exhausted all 
+
+your resources. So people in industry try to get to that magical middle ground where 
+the product is good enough not to be rejected right away, such as during evaluation, 
+
+but also not the object of so much perfectionism and so much work that it would take 
+too long or cost too much to complete.    When you’re faced 
+with the quality 
+ dilemma (and every-
+
+one is faced with it at 
+one time or another), 
+try to achieve 
+
+ balance—enough 
+
+effort to produce 
+
+acceptable quality 
+without burying the 
+
+project.    Although it’s tempting 
+
+to develop quantitative 
+measures for the qual-
+ity factors noted here, 
+you can also create 
+a simple checklist of 
+attributes that provide 
+a solid indication that 
+the factor is present. pre22126_ch19_411-430.indd   420pre22126_ch19_411-430.indd   42013/12/13   6:13 PM13/12/13   6:13 PM

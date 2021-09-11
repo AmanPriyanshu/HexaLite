@@ -1,0 +1,56 @@
+CHAPTER 1  
+THE NATURE OF SOFTWARE
+ 3entertainment, ofﬁ . the list is almost endless. And if you believe the 
+law of unintended consequences, there are many effects that we cannot yet predict. 
+ No one could predict that millions of computer programs would have to be corrected, adapted, and enhanced as time passed. The burden of performing 
+these “maintenance” activities would absorb more people and more resources 
+than all work applied to the creation of new software.  As software’s importance has grown, the software community has continually 
+attempted to develop technologies that will make it easier, faster, and less ex-
+
+pensive to build and maintain high-quality computer programs. Some of these 
+technologies are targeted at a speciﬁ c application domain (e.g., website design 
+and implementation); others focus on a technology domain (e.g., object-oriented 
+systems or aspect-oriented programming); and still others are broad-based (e.g., 
+operating systems such as Linux). However, we have yet to develop a software 
+
+technology that does it all, and the likelihood of one arising in the future is small. 
+And yet, people bet their jobs, their comforts, their safety, their entertainment, 
+
+their decisions, and their very lives on computer software. It better be right.  This book presents a framework that can be used by those who build computer software—people who must get it right. The framework encompasses a process, 
+a set of methods, and an array of tools that we call  software engineering.
+ 
+  
+ 
+ 1.1 T
+HE   
+NATURE
+ OF SOFTWARE
+    
+ 
+Today, software takes on a dual role. It is a product, and at the same time, the 
+vehicle for delivering a product. As a product, it delivers the computing potential 
+embodied by computer hardware or more broadly, by a network of computers 
+
+that are accessible by local hardware. Whether it resides within a mobile phone, 
+a hand-held tablet, on the desktop, or within a mainframe computer, software 
+
+is an information transformer—producing, managing, acquiring, modifying, dis-
+playing, or transmitting information that can be as simple as a single bit or as 
+complex as a multimedia presentation derived from data acquired from dozens 
+of independent sources. As the vehicle used to deliver the product, software acts 
+as the basis for the control of the computer (operating systems), the communica-
+tion of information (networks), and the creation and control of other programs 
+(software tools and environments).   
+ 
+ 
+Software delivers the most important product of our time— information. 
+ It 
+transforms personal data (e.g., an individual’s ﬁ
+ nancial transactions) so that the 
+data can be more useful in a local context; it manages business information to 
+enhance competitiveness; it provides a gateway to worldwide information net-
+works (e.g., the Internet), and provides the means for acquiring information in 
+all of its forms. It also provides a vehicle that can threaten personal privacy and a 
+gateway that enables those with malicious intent to commit criminal acts.    Software is both a 
+product and a vehicle 
+that delivers a product. pre22126_ch01_001-013.indd   3pre22126_ch01_001-013.indd   313/12/13   10:00 PM13/12/13   10:00 PM

@@ -1,0 +1,105 @@
+468 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+22.1.1   
+Veriﬁ
+ cation and Validation 
+ 
+Software testing is one element of a broader topic that is often referred to as ver-
+iﬁ cation and validation (V&V).  
+Veriﬁ
+ cation
+ 
+ refers to the set of tasks that ensure 
+that software correctly implements a speciﬁ c function.  
+Validation
+ 
+ refers to a dif-ferent set of tasks that ensure that the software that has been built is traceable to 
+customer requirements. Boehm [Boe81] states this another way:    
+Veriﬁ
+ cation: “Are we building the product right?” 
+ Validation: “Are we building the right product?” 
+  
+The deﬁ nition of V&V encompasses many software quality assurance activities 
+(Chapter 21).  1 
+ 
+ 
+  Veriﬁ
+ cation and validation includes a wide array of SQA activities: technical 
+reviews, quality and conﬁ guration audits, performance monitoring, simulation, 
+feasibility study, documentation review, database review, algorithm analysis, de-
+
+velopment testing, usability testing, qualiﬁ cation testing, acceptance testing, and 
+installation testing. Although testing plays an extremely important role in V&V, 
+
+many other activities are also necessary. 
+  
+ 
+ 
+ 
+ 
+Testing does provide the last bastion from which quality can be assessed and, 
+more pragmatically, errors can be uncovered. But testing should not be viewed 
+
+as a safety net. As they say, “You can’t test in quality. If it’s not there before you 
+
+begin testing, it won’t be there when you’re ﬁ nished testing.” Quality is incor-
+porated into software throughout the process of software engineering. Proper 
+application of methods and tools, effective technical reviews, and solid manage-
+ment and measurement all lead to quality that is conﬁ rmed during testing. 
+ Miller [Mil77] relates software testing to quality assurance by stating that “the underlying motivation of program testing is to afﬁ rm software quality with 
+methods that can be economically and effectively applied to both large-scale and 
+small-scale systems.”   
+ 
+ 
+ 
+22.1.2   
+Organizing for Software Testing 
+ 
+For every software project, there is an inherent conﬂ ict of interest that occurs 
+as testing begins. The people who have built the software are now asked to test 
+the software. This seems harmless in itself; after all, who knows the program 
+better than its developers? Unfortunately, these same developers have a vested 
+
+interest in demonstrating that the program is error-free, that it works according 
+
+to customer requirements, and that it will be completed on schedule and within 
+budget. Each of these interests mitigates against thorough testing.    Don’t get sloppy 
+and view testing as 
+a “safety net” that 
+will catch all errors 
+
+that occurred because 
+
+of weak software 
+engineering practices. 
+It won’t. Stress quality 
+and error detection 
+
+throughout the soft-
+ware process.   
+ 
+ uote:  “Optimism is 
+the occupational 
+hazard of 
+programming; 
+testing is the 
+treatment.”  Kent Beck 
+  
+ 
+ uote:  “Testing is the 
+unavoidable part 
+of any responsible 
+effort to develop a 
+software system.”  William Howden 
+  
+1  It should be noted that there is a strong divergence of opinion about what types of testing con-
+stitute “validation.” Some people believe that  all 
+ testing is veriﬁ
+ cation and that validation is 
+conducted when requirements are reviewed and approved, and later, by the user when the sys-
+
+tem is operational. Other people view unit and integration testing (Sections 22.3.1 and 22.3.2) as 
+veriﬁ cation and higher-order testing (Sections 22.6 and 22.7) as validation. 
+pre22126_ch22_466-495.indd   468pre22126_ch22_466-495.indd   46813/12/13   6:14 PM13/12/13   6:14 PM

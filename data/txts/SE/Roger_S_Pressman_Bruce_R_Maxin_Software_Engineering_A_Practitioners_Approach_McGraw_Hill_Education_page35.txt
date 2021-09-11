@@ -1,0 +1,52 @@
+CHAPTER 1  
+THE NATURE OF SOFTWARE
+ 5To accomplish that, it’s important to examine the characteristics of software that 
+make it different from other things that human beings build. Software is a logical 
+rather than a physical system element. Therefore, software has one fundamen-
+tal characteristic that makes it considerably different from hardware:  Software 
+doesn’t “wear out.”
+ 
+   
+ 
+ 
+ 
+Figure 1.1  depicts failure rate as a function of time for hardware. The relation-
+ship, often called the “bathtub curve,” indicates that hardware exhibits relatively 
+high failure rates early in its life (these failures are often attributable to design 
+or manufacturing defects); defects are corrected and the failure rate drops to a 
+steady-state level (hopefully, quite low) for some period of time. As time passes, 
+
+however, the failure rate rises again as hardware components suffer from the 
+
+cumulative effects of dust, vibration, abuse, temperature extremes, and many 
+other environmental maladies. Stated simply, the hardware begins to  
+wear out. 
+ 
+  Software is not susceptible to the environmental maladies that cause hard-ware to wear out. In theory, therefore, the failure rate curve for software should 
+
+take the form of the “idealized curve” shown in  Figure 1.2 . Undiscovered defects will cause high failure rates early in the life of a program. However, these are 
+
+corrected and the curve ﬂ attens as shown. The idealized curve is a gross over-
+simpliﬁ cation of actual failure models for software. However, the implication is 
+clear—software doesn’t wear out. But it does  deteriorate! 
+ 
+  This seeming contradiction can best be explained by considering the actual curve in  Figure 1.2 . During its life,  2 
+ 
+ software will undergo change. As changes are 
+   If you want to reduce 
+software deterioration, 
+you’ll have to do 
+better software design 
+( Chapters 12  to  18 ). 
+ﬁWear outﬂ
+ﬁInfantmortalityﬂ
+TimeFailure rate  
+FIGURE 1.1 
+Failure curve 
+for hardware 
+ 
+  
+ 
+2  
+In fact, from the moment that development begins and long before the ﬁ rst version is delivered, 
+changes may be requested by a variety of different stakeholders. pre22126_ch01_001-013.indd   5pre22126_ch01_001-013.indd   513/12/13   10:00 PM13/12/13   10:00 PM

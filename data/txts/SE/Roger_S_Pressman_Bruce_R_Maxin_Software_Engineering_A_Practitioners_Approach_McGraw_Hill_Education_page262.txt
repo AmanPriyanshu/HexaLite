@@ -1,0 +1,97 @@
+232 PART TWO  
+MODELINGinto individual components, separate or data structure detail from a conceptual representation of the software, and establish uniform criteria that deﬁ ne the 
+technical quality of a software design.  M. A. Jackson [Jac75] once said: “The beginning of wisdom for a [software en-gineer] is to recognize the difference between getting a program to work, and 
+getting it right.” In the sections that follow, we present an overview of fundamen-
+
+tal software design concepts that provide the necessary framework for “getting 
+it right.”   
+ 
+ 
+12.3.1 Abstraction  
+ 
+  
+When you consider a modular solution to any problem, many levels of abstrac-tion can be posed. At the highest level of abstraction, a solution is stated in broad 
+terms using the language of the problem environment. At lower levels of abstrac-
+tion, a more detailed description of the solution is provided. Problem-oriented 
+terminology is coupled with implementation-oriented terminology in an effort to 
+state a solution. Finally, at the lowest level of abstraction, the solution is stated in 
+
+a manner that can be directly implemented.   
+As different levels of abstraction are developed, you work to create both pro-cedural and data abstractions. A  procedural abstraction
+ 
+ refers to a sequence of 
+instructions that have a speciﬁ c and limited function. The name of a procedural 
+abstraction implies these functions, but speciﬁ c details are suppressed. An ex-
+ample of a procedural abstraction would be the word  open 
+ for a door.  
+Open 
+ im-
+plies a long sequence of procedural steps (e.g., walk to the door, reach out and 
+
+grasp knob, turn knob and pull door, step away from moving door, etc.). 
+ 5 
+ 
+ 
+  A  data abstraction 
+ is a named collection of data that describes a data object. 
+In the context of the procedural abstraction  open, 
+ we can deﬁ
+ ne a data abstrac-
+tion called  door.
+ 
+ Like any data object, the data abstraction for  
+door 
+ would encom-
+pass a set of attributes that describe the door (e.g., door type, swing direction, 
+opening mechanism, weight, dimensions). It follows that the procedural abstrac-
+tion  open 
+ would make use of information contained in the attributes of the data 
+abstraction  door 
+.  
+ 
+ 
+ 
+ 
+12.3.2 Architecture 
+ 
+  
+ 
+ 
+Software architecture
+ 
+ alludes to “the overall structure of the software and the 
+ways in which that structure provides conceptual integrity for a system” [Sha95a]. 
+In its simplest form, architecture is the structure or organization of program 
+components (modules), the manner in which these components interact, and the    As a designer, work 
+hard to derive both 
+procedural and data 
+abstractions that serve 
+
+the problem at hand. 
+If they can serve 
+
+an entire domain of 
+problems, that’s even 
+
+better. 
+ WebRef 
+ An in-depth discussion 
+of software architecture 
+can be found at 
+  www.sei.cmu.
+edu/ata/ata_init.
+html  . 
+ 
+ uote:  “Abstraction is one 
+of the fundamental 
+ways that we as 
+humans cope with 
+complexity.” 
+ Grady Booch 
+  
+5  It should be noted, however, that one set of operations can be replaced with another, as long as 
+the function implied by the procedural abstraction remains the same. Therefore, the steps re-
+quired to implement  open 
+ would change dramatically if the door were automatic and attached 
+to a sensor. 
+pre22126_ch12_224-251.indd   232pre22126_ch12_224-251.indd   23213/12/13   6:12 PM13/12/13   6:12 PM

@@ -1,0 +1,48 @@
+Businesses now operate in a global, rapidly changing environment. They have to 
+respond to new opportunities and markets, changing economic conditions and the 
+
+emergence of competing products and services. Software is part of almost all busi
+-
+ness operations, so new software has to be developed quickly to take advantage of 
+new opportunities and to respond to competitive pressure. Rapid software develop
+-
+ment and delivery is therefore the most critical requirement for most business systems. 
+
+In fact, businesses may be willing to trade off software quality and compromise on 
+requirements if they can deploy essential new software quickly.Because these businesses are operating in a changing environment, it is practi-cally impossible to derive a complete set of stable software requirements. 
+
+Requirements change because customers find it impossible to predict how a system 
+will affect working practices, how it will interact with other systems, and what user 
+operations should be automated. It may only be after a system has been delivered 
+and users gain experience with it that the real requirements become clear. Even then, 
+external factors drive requirements change.Plan-driven software development processes that completely specify the require-ments and then design, build, and test a system are not geared to rapid software devel-
+opment. As the requirements change or as requirements problems are discovered, the 
+
+system design or implementation has to be reworked and retested. As a consequence, 
+
+a conventional waterfall or specification-based process is usually a lengthy one, and 
+
+the final software is delivered to the customer long after it was originally specified.For some types of software, such as safety-critical control systems, where a com-plete analysis of the system is essential, this plan-driven approach is the right one. 
+However, in a fast-moving business environment, it can cause real problems. By the 
+
+time the software is available for use, the original reason for its procurement may 
+have changed so radically that the software is effectively useless. Therefore, for 
+
+business systems in particular, development processes that focus on rapid software 
+development and delivery are essential.The need for rapid software development and processes that can handle changing requirements has been recognized for many years (Larman and Basili 2003). 
+
+However, faster software development really took off in the late 1990s with the 
+
+development of the idea of ﬁagile methodsﬂ such as Extreme Programming (Beck 
+
+1999), Scrum (Schwaber and Beedle 2001), and DSDM (Stapleton 2003).Rapid software development became known as agile development or agile meth-ods. These agile methods are designed to produce useful software quickly. All of the 
+agile methods that have been proposed share a number of common characteristics:1.
+ The processes of specification, design and implementation are interleaved. 
+There is no detailed system specification, and design documentation is mini
+-mized or generated automatically by the programming environment used to 
+
+implement the system. The user requirements document is an outline definition 
+of the most important characteristics of the system.2. The system is developed in a series of increments. End-users and other system 
+stakeholders are involved in specifying and evaluating each increment. 
+˜˚˛˝˙ˆˇ˘˜˘˜˘˘˘
+˘˘

@@ -1,0 +1,50 @@
+message, carries out the computation, and, upon completion, sends a reply, as a mes
+-sage, to the requesting service. This service then parses the reply to extract the 
+
+required information. Unlike software components, services do not use remote 
+ procedure or method calls to access functionality associated with other services.When you intend to use a web service, you need to know where the service is located 
+(its Uniform Resource IdentifierŠURI) and the details of its interface. These details are 
+
+provided in a service description that is written in an XML-based language called WSDL 
+
+(Web Service Description Language). The WSDL specification defines three aspects of 
+
+a Web service: what the service does, how it communicates, and where to find it:
+1. The ﬁwhatﬂ part of a WSDL document, called an interface, specifies what oper-
+ations the service supports and defines the format of the messages sent and 
+
+received by the service.
+2. The ﬁhowﬂ part of a WSDL document, called a binding, maps the abstract inter
+-face to a concrete set of protocols. The binding specifies the technical details of 
+
+how to communicate with a Web service.
+3. The ﬁwhereﬂ part of a WSDL document describes the location of a specific Web 
+
+service implementation (its endpoint).The WSDL conceptual model (Figure 
+18.4) shows the elements of a service 
+description. Each element is expressed in XML and may be provided in separate 
+
+files. These elements are:
+1.
+ An introductory part that usually defines the XML namespaces used and that 
+may include a documentation section providing additional information about 
+
+the service.2.
+ An optional description of the types used in the messages exchanged by the service.
+3.
+ A description of the service interface, that is, the operations that the service 
+
+provides for other services or users.
+4. A description of the input and output messages processed by the service.5. A description of the binding used by the service, that is, the messaging protocol 
+
+that will be used to send and receive messages. The default is SOAP, but other 
+IntroAbstract interface
+ConcreteimplementationWSDL service definitionXML namespace declarationsType declarations
+
+Interface declarations
+
+Message declarationsBinding declarations
+Endpoint declarationsFigure 18.4  Organization of a WSDL 
+specification ˜˚˛˝˚˜˜˜
+˜˝˘ˇ
+˜˜

@@ -1,0 +1,102 @@
+124 PART TWO  
+MODELINGsevere defects (from the customer’s point of view) are those that cause the 
+program to fail to meet its requirements.  
+   
+ 
+ 
+ 
+ 
+ 
+Principle 2. 
+  Tests should be planned long before testing begins.Tests should be planned long before testing begins.
+ 
+ Test plan-
+ning (Chapter 22) can begin as soon as the requirements model is com-
+plete. Detailed deﬁ nition of test cases can begin as soon as the design 
+model has been solidiﬁ ed. Therefore, all tests can be planned and de-
+signed before any code has been generated.    
+ 
+ 
+ 
+ 
+ 
+Principle 3. 
+  The Pareto principle applies to software testing.The Pareto principle applies to software testing.
+ 
+ In this context the Pareto principle implies that 80 percent of all errors uncovered during 
+testing will likely be traceable to 20 percent of all program components. 
+The problem, of course, is to isolate these suspect components and to 
+thoroughly test them.    
+ 
+ 
+ 
+ 
+ 
+Principle 4. 
+  Testing should begin “in the small” and progress toward test-Testing should begin “in the small” and progress toward test-
+ing “in the large.”ing “in the large.”
+ 
+ The ﬁ rst tests planned and executed generally focus on 
+individual components. As testing progresses, focus shifts in an attempt 
+to ﬁ nd errors in integrated clusters of components and ultimately in the 
+entire system.    
+ 
+ 
+ 
+ 
+ 
+Principle 5. 
+  Exhaustive testing is not possible.Exhaustive testing is not possible. 
+ The number of path permu-tations for even a moderately sized program is exceptionally large. For 
+this reason, it is impossible to execute every combination of paths during 
+testing. It is possible, however, to adequately cover program logic and 
+
+to ensure that all conditions in the component-level design have been 
+exercised.    
+ 
+ 
+ 
+ 
+ 
+Principle 6. 
+  Apply to each module in the system a testing effort Apply to each module in the system a testing effort  
+commensurate with its expected fault density. 
+commensurate with its expected fault density.
+ 
+ These are often the newest modules or the ones that are least understood by the developers.    
+ 
+ 
+ 
+ 
+ 
+Principle 7. 
+  Static testing techniques can yield high results.Static testing techniques can yield high results.
+ 
+ More than 85% of software defects originated in the software documentation (require-
+ments, speciﬁ cations, code walkthroughs, and user manuals) [Jon91]. 
+There may be value in testing the system documentation.    
+ 
+ 
+ 
+ 
+ 
+Principle 8. 
+  Track defects and look for patterns in defects uncovered by Track defects and look for patterns in defects uncovered by 
+testing.testing. 
+ The total defects uncovered is a good indicator of software quality. 
+The types of defects uncovered can be a good measure of software stabil-
+ity. Patterns of defects found over time can forecast numbers of expected 
+
+defects.    
+ 
+ 
+ 
+ 
+ 
+Principle 9. 
+  Include test cases that demonstrate software is behaving cor-Include test cases that demonstrate software is behaving cor-
+rectly.rectly.
+ 
+ As software components are being maintained or adapted, unex-pected interactions cause unintended side effects in other components. 
+It is important to have a set of regression test cases (Chapter 22) ready to 
+check system behavior after changes are applied to a software product.  pre22126_ch07_103-130.indd   124pre22126_ch07_103-130.indd   12413/12/13   6:11 PM13/12/13   6:11 PM

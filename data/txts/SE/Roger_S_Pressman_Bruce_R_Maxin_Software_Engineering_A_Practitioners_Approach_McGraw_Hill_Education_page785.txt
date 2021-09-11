@@ -1,0 +1,65 @@
+CHAPTER 34  
+PROJECT SCHEDULING 755 
+The boss smiled and encouraged the young engineer to keep up the good work. They planned to meet again in a week’s time. 
+ A week later the boss called the engineer into his ofﬁ ce and asked, “Where 
+are we?”  “Everything’s going well,” said the youngster, “but I’ve run into a few small 
+snags. I’ll get them ironed out and be back on track soon.”  “How does the deadline look?” the boss asked.  “No problem,” said the engineer. “I’m close to 90 percent complete.” 
+ If you’ve been working in the software world for more than a few years, you can ﬁ nish the story. It’ll come as no surprise that the young engineer 
+ 1   stayed 
+percent complete for the entire project duration and ﬁ
+ nished (with the help of 
+others) only one month late.  
+ 
+  This story has been repeated tens of thousands of times by software develop-ers during the past ﬁ ve decades. The big question is why? 
+ 
+ 
+ 
+ 
+ 
+ 34.1  
+BASIC CONCEPTS  
+ 
+Although there are many reasons why software is delivered late, most can be traced to one or more of the following root causes:  
+ 
+ 
+•  An unrealistic deadline established by someone outside the software team and forced on managers and practitioners on the group.   
+ 
+ 
+•  Changing customer requirements that are not reﬂ ected in schedule 
+changes.   
+ 
+ 
+•  An honest underestimate of the amount of effort and/or the number of re-sources that will be required to do the job.   
+ 
+ 
+•  Predictable and/or unpredictable risks that were not considered when the project commenced.   
+ 
+ 
+•  Technical difﬁ
+ culties that could not have been foreseen in advance. 
+  
+ 
+ 
+•  Human difﬁ culties that could not have been foreseen in advance. 
+  
+ 
+ 
+•  Miscommunication among project staff that results in delays.   
+ 
+ 
+•  A failure by project management to recognize that the project is falling behind schedule and a lack of action to correct the problem.  
+ 
+ 
+  Aggressive (read “unrealistic”) deadlines are a fact of life in the software busi-ness. Sometimes such deadlines are demanded for reasons that are legitimate, 
+from the point of view of the person who sets the deadline. But common sense 
+says that legitimacy must also be perceived by the people doing the work.   uote:  “Excessive or 
+irrational schedules 
+are probably 
+the single most 
+destructive 
+inﬂ uence in all of 
+
+software.”  Capers Jones 
+  
+1.  In case you were wondering, this story is autobiographical (RSP). 
+pre22126_ch34_754-776.indd   755pre22126_ch34_754-776.indd   75513/12/13   10:02 PM13/12/13   10:02 PM

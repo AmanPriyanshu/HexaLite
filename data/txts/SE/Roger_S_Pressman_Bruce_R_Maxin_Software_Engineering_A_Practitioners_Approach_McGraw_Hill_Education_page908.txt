@@ -1,0 +1,19 @@
+878 APPENDIX 1  AN INTRODUCTION TO UMLoptionally display a white bar, called an  activation bar , down the object’s lifeline. In   Figure A1.7, activation bars are drawn for all method calls. The diagram can also optionally show the return from a method call with a dashed arrow and an 
+optional label. In   Figure A1.7, the  getFigureAt()  method call’s return is shown labeled with the name of the object that was returned. A common practice, as we 
+have done in   Figure A1.7, is to leave off the return arrow when a void method has been called, since it clutters up the diagram while providing little information of 
+importance. A black circle with an arrow coming from it indicates a  found mes-sage  whose source is unknown or irrelevant. 
+ You should now be able to understand the task that   Figure A1.7 is displaying. An unknown source calls the  mouseClicked()  method of a  MouseListener , pass-ing in the point where the click occurred as the argument. The  MouseListener  
+in turn calls the  getFigureAt()  method of a  Drawing , which returns a  Figure.  The  MouseListener  then calls the highlight method of  Figure , passing in a  Graphics  
+object as an argument. In response,  Figure  calls three methods of the  Graphics  
+object to draw the ﬁ gure in red. 
+ The diagram in   Figure A1.7 is very straightforward and contains no condition-als or loops. If logical control structures are required, it is probably best to draw 
+a separate sequence diagram for each case. That is, if the message ﬂ ow can take 
+
+two different paths depending on a condition, then draw two separate sequence 
+diagrams, one for each possibility.  If you insist on including loops, conditionals, and other control structures in a sequence diagram, you can use  interaction frames , which are rectangles that surround parts of the diagram and that are labeled with the type of control struc-
+tures they represent.   Figure A1.8 illustrates this, showing the process involved  F
+IGURE A1.7A sample 
+sequence 
+diagram   
+:MouseListener:Drawing:GraphicsaFigure:Figure.setColor(red).highlight(graphics).getFigureAt(point).mouseClicked(point) aFigure.drawRect (x,y,w,h)
+.drawString(s)

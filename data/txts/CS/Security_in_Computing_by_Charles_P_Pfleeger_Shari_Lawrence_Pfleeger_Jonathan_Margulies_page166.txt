@@ -1,0 +1,75 @@
+132 Chapter 3  
+Programs and Programminglight. But if the light does not work, the problem could be anywhere from the power 
+plant to the light bulb, and suddenly the user needs to trace potential problems from 
+
+one end to the other. Although the user does not need to become a physicist or electri-
+
+cal engineer, a general understanding of electricity helps determine how to overcome 
+
+the problem, or at least how to isolate faults under the user’s control (burned out bulb, 
+
+unplugged lamp).In this chapter we describe security problems in programs and programming. As with 
+the light, a problem can reside anywhere between the machine hardware and the user 
+
+interface. Two or more problems 
+
+may combine in negative ways, 
+
+some problems can be intermittent 
+
+or occur only when some other con-
+dition is present, and the impact of 
+
+problems can range from annoying 
+
+(perhaps not even perceptible) to catastrophic.
+In Chapter 1 we introduce the notion of motive, observing that some security prob-
+lems result from nonmalicious oversights or blunders, but others are intentional. A mali-
+
+cious attacker can exploit a nonmalicious flaw to cause real harm. Thus, we now study 
+
+several common program failings to show how simple errors during programming can 
+
+lead to large-scale problems during execution. Along the way we describe real attacks 
+
+that have been caused by program flaws. (We use the term 
+flaw because many security 
+professionals use that term or the more evocative term 
+bug
+. However, as you can see in 
+Sidebar 3-1, the language for describing program problems is not universal.)
+Security failures can result from 
+
+intentional or nonmalicious causes;  
+both can cause harm.SIDEBAR 3-1 The Terminology of (Lack of) Quality
+Thanks to Admiral Grace Murray Hopper, we casually call a software prob-
+lem a “bug.” [KID98] But that term can mean different things depending on 
+
+context: a mistake in interpreting a requirement, a syntax error in a piece 
+
+of code, or the (as-yet-unknown) cause of a system crash. The Institute of 
+Electronics and Electrical Engineers (IEEE) suggests using a standard ter-
+
+minology (in IEEE Standard 729) for describing bugs in our software prod-
+
+ucts [IEE83].When a human makes a mistake, called an error
+, in performing some 
+software activity, the error may lead to a 
+fault, or an incorrect step, com-
+mand, process, or data definition in a computer program, design, or docu-
+
+mentation. For example, a designer may misunderstand a requirement and 
+
+create a design that does not match the actual intent of the requirements 
+
+analyst and the user. This design fault is an encoding of the error, and it can 
+
+lead to other faults, such as incorrect code and an incorrect description in a 
+
+user manual. Thus, a single error can generate many faults, and a fault can 
+
+reside in any development or maintenance product.
+A failure is a departure from the system’s required behavior. It can be 
+discovered before or after system delivery, during testing, or during opera-
+
+tion and maintenance. Since the requirements documents can contain 

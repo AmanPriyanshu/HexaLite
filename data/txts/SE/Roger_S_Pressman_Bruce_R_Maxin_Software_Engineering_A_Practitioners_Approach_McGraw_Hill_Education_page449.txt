@@ -1,0 +1,85 @@
+CHAPTER 19  
+QUALITY CONCEPTS 419 
+To conduct your assessment, you’ll need to address speciﬁ
+ c, measurable (or at 
+least, recognizable) attributes of the interface. For example [Bro03]:   
+Intuitiveness.   The degree to which the interface follows expected usage  
+patterns 
+so that even a novice can use it without signiﬁ cant training.
+ 
+ 
+ 
+ 
+•  Is the interface layout conducive to easy understanding?   
+ 
+ 
+•  Are interface operations easy to locate and initiate?   
+ 
+ 
+•  Does the interface use a recognizable metaphor?   
+ 
+ 
+•  Is input speciﬁ ed to economize key strokes or mouse clicks? 
+  
+ 
+ 
+•  Does the interface follow the three golden rules? (Chapter 15)   
+ 
+ 
+•  Do aesthetics aid in understanding and usage?  
+ 
+  
+ 
+ 
+Efficiency.   The degree to which operations and information can be located or initiated.  
+ 
+ 
+•  Does the interface layout and style allow a user to locate operations and information efﬁ ciently? 
+  
+ 
+ 
+•  Can a sequence of operations (or data input) be performed with an econ-omy of motion?   
+ 
+ 
+•  Are output data or content presented so that it is understood immediately? 
+  
+ 
+ 
+•  Have hierarchical operations been organized in a way that minimizes the depth to which a user must navigate to get something done?  
+ 
+  
+ 
+ 
+Robustness.   The degree to which the software handles bad input data or inap-propriate user interaction.  
+ 
+ 
+•  Will the software recognize the error if data values are at or just outside 
+prescribed input boundaries? More importantly, will the software con-
+
+tinue to operate without failure or degradation?   
+ 
+ 
+•  Will the interface recognize common cognitive or manipulative mistakes 
+and explicitly guide the user back on the right track?   
+ 
+ 
+•  Does the interface provide useful diagnosis and guidance when an error condition (associated with software functionality) is uncovered?  
+ 
+  
+ 
+ 
+Richness.   The degree to which the interface provides a rich feature set. 
+ 
+ 
+ 
+•  Can the interface be customized to the speciﬁ c needs of a user? 
+  
+ 
+ 
+•  Does the interface provide a macro capability that enables a user to iden-tify a sequence of common operations with a single action or command?   
+ 
+As the interface design is developed, the software team would review 
+the design prototype and ask the questions noted. If the answer to most of 
+
+these questions is yes, it is likely that the user interface exhibits high quality. 
+pre22126_ch19_411-430.indd   419pre22126_ch19_411-430.indd   41913/12/13   6:13 PM13/12/13   6:13 PM

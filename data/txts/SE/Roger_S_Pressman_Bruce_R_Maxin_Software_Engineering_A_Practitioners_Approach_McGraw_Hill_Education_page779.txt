@@ -1,0 +1,57 @@
+CHAPTER 33  
+ESTIMATION FOR SOFTWARE PROJECTS
+ 749apps), it is less expensive to purchase and experiment than to conduct a lengthy evaluation of potential software packages. In the ﬁ nal analysis, the make/buy 
+decision is made based on the following conditions: (1) Will the delivery date 
+
+of the software product be sooner than that for internally developed software? 
+ill the cost of acquisition plus the cost of customization be less than the cost 
+
+of developing the software internally? (3) Will the cost of outside support (e.g., a 
+
+maintenance contract) be less than the cost of internal support? These condi-
+tions apply for each of the acquisition options.   
+ 
+33.10.1   
+Creating a Decision Tree 
+ 
+The steps just described can be augmented using statistical techniques such as decision tree analysis.  14 
+ 
+ For example,  
+ 
+Figure 33.5  
+ depicts a decision tree for a 
+software-based system X. In this case, the software engineering organization can 
+(1) build system X from scratch, (2) reuse existing partial-experience components 
+to construct the system, (3) buy an available software product and modify it to 
+meet local needs, or (4) contract the software development to an outside 
+vendor. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  If the system is to be built from scratch, there is a 70 percent probability that the job will be difﬁ cult. Using the estimation techniques discussed previously in 
+this chapter, the project planner projects that a difﬁ
+ cult development effort will 
+ Is there a 
+systematic way to sort 
+through the 
+options associated 
+with the make/
+buy decision? ?$380,000$450,000Simple (0.30)$275,000$310,000$490,000$210,000$400,000Minor changes(0.70)Major changes (0.30)$350,000$500,000Without changes
+(0.60)With changes (0.40)
+Complex (0.80)Simple (0.20)Majorchanges(0.60)Minor changes(0.40)Difficult (0.70)BuildReuseBuyContractSystem X FIGURE 33.5 
+A decision tree 
+to support the 
+make/buy 
+decision  
+14  A worthwhile introduction to decision tree analysis can be found at  
+http://en.wikipedia.org/wiki/Decision_tree 
+. pre22126_ch33_727-753.indd   749pre22126_ch33_727-753.indd   74913/12/13   6:17 PM13/12/13   6:17 PM

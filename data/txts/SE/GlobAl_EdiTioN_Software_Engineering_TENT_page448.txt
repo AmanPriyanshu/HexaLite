@@ -1,0 +1,42 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜code is not modified, and the possible modifications are limited to whatever is sup-ported by the framework. Software product lines are not necessarily created using 
+
+an object-oriented approach. Application components are changed, deleted, or 
+
+rewritten. There are no limits, in principle at least, to the changes that can be made.2. Most application frameworks provide general support rather than domain- specific 
+support. For example, there are application frameworks to create web-based 
+
+applications. A software product line usually embeds detailed domain and plat-
+form information. For example, there could be a software product line con
+-cerned with web-based applications for health record management.3. Software product lines are often control applications for equipment. For exam-
+ple, there may be a software product line for a family of printers. This means 
+
+that the product line has to provide support for hardware interfacing. Application 
+frameworks are usually software-oriented, and they do not usually include hard-
+ware interaction components.4. Software product lines are made up of a family of related applications, owned by 
+
+the same organization. When you create a new application, your starting point is 
+
+often the closest member of the application family, not the generic core application.If you are developing a software product line using an object-oriented program-ming language, then you may use an application framework as a basis for the  system. You create the core of the product line by extending the framework with domain-
+specific components using its built-in mechanisms. There is then a second phase of 
+
+development where versions of the system for different customers are created. For 
+example, you can use a web-based framework to build the core of a software product 
+line that supports web-based help desks. This ﬁhelp desk product lineﬂ may then be 
+further specialized to provide particular types of help desk support.The architecture of a software product line often reflects a general, application-
+specific architectural style or pattern. For example, consider a product-line system 
+that is designed to handle vehicle dispatching for emergency services. Operators of 
+this system take calls about incidents, find the appropriate vehicle to respond to the 
+incident, and dispatch the vehicle to the incident site. The developers of such a 
+ system may market versions of it for police, fire, and ambulance services.This vehicle dispatching system is an example of a generic resource allocation 
+and management architecture (Figure 15.8). Resource management systems use a 
+
+database of available resources and include components to implement the resource 
+allocation policy that has been decided by the company using the system. Users 
+
+interact with a resource management system to request and release resources and to 
+ask questions about resources and their availability.You can see how this four-layer structure may be instantiated in Figure 15.9, 
+which shows the modules that might be included in a vehicle dispatching system 
+
+product line. The components at each level in the product-line system are as follows:1. At the interaction level, components provide an operator display interface and an interface with the communications systems used.

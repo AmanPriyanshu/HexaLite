@@ -1,0 +1,37 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜˜˜4. It is possible to reconfigure the system dynamically with components migrating across 
+the network as required. This may be important where there are fluctuating patterns 
+
+of demand on services. A service-providing component can migrate to the same 
+ processor as service-requesting objects, thus improving the performance of the system.
+A distributed component architecture can be used as a logical model that allows 
+you to structure and organize the system. In this case, you think about how to pro
+-
+vide application functionality solely in terms of services and combinations of ser-vices. You then work out how to implement these services. For example, a retail 
+
+application may have application components concerned with stock control, cus-
+tomer communications, goods ordering, and so on.Data-mining systems are a good example of a type of system that can be imple-mented using a distributed component architecture. Data-mining systems look for 
+
+relationships between the data that may be distributed across databases (Figure 17.13). 
+
+These systems pull in information from several separate databases, carry out compu-
+tationally intensive processing, and present easy-to-understand visualizations of the 
+
+relationships that have been discovered.An example of such a data-mining application might be a system for a retail busi-ness that sells food and books. Retail businesses maintain separate databases with 
+detailed information about food products and books. They use a loyalty card system 
+to keep track of customers™ purchases, so there is a large database linking bar codes 
+of products with customer information. The marketing department wants to find 
+
+relationships between a customer™s food and book purchases. For instance, a rela
+-
+tively high proportion of people who buy pizzas might also buy crime novels. With 
+this knowledge, the business can specifically target customers who make specific 
+
+food purchases with information about new novels when they are published.Database 1
+Database 2
+Database 3Integrator 1
+Integrator 2
+Visualizer
+DisplayReport gen.
+ClientsFigure 17.13  A distributed component architecture for a 
+data-mining system 

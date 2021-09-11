@@ -1,0 +1,28 @@
+˜˚˛˝˙ˆˇ˘˜˜˚˜˜˜
+˜˜
+˜ an operating system platform, such as Linux or Windows;˜ other generic applications that run on that system, such as web browsers and 
+email clients;˜ a database management system;˜ middleware that supports distributed computing and database access; and˜ libraries of reusable components that are used by the application software.Network systems are software controlled, and networks may be subject to  security threats where an attacker intercepts and reads or changes network packets. However, this requires specialized equipment, so the majority of security attacks are on the 
+
+software infrastructure of systems. Attackers focus on software infrastructures 
+
+because infrastructure components, such as web browsers, are universally available. 
+Attackers can probe these systems for weaknesses and share information about 
+ vulnerabilities that they have discovered. As many people use the same software, 
+
+attacks have wide applicability.Infrastructure security is primarily a system management problem, where system 
+managers configure the infrastructure to resist attacks. System security management 
+
+includes a range of activities such as user and permission management, system 
+ software deployment and maintenance, and attack monitoring, detection, and 
+ recovery:1. User and permission management involves adding and removing users from the 
+system, ensuring that appropriate user authentication mechanisms are in place, 
+and setting up the permissions in the system so that users only have access to the 
+
+resources they need.2.
+ System software deployment and maintenance involves installing system  software 
+and middleware and configuring these properly so that security  vulnerabilities are 
+avoided. It also involves updating this software regularly with new versions or 
+
+patches, which repair security problems that have been discovered.Operating System
+Generic, shared applications (browsers, email, etc.)Database managementMiddlewareReusable components and librariesApplicationNetworkComputer hardwareFigure 13.1 System layers where security 
+may be compromised 

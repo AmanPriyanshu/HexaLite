@@ -1,0 +1,60 @@
+764 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+ 
+ 
+ 
+ 
+ 
+ 34.4  
+DEFINING A TASK NETWORK  
+ 
+ 
+ 
+ 
+ 
+ 
+Individual tasks and subtasks have interdependencies based on their sequence. In addition, when more than one person is involved in a software engineering 
+project, it is likely that development activities and tasks will be performed in 
+parallel. When this occurs, concurrent tasks must be coordinated so that they 
+will be complete when later tasks require their work product(s).  A  task network, 
+ also called an  activity network, 
+ is a graphic representation of the task ﬂ ow for a project. It is sometimes used as the mechanism through which 
+task sequence and dependencies are input to an automated project scheduling 
+tool. In its simplest form (used when creating a macroscopic schedule), the task 
+network depicts major software engineering tasks.   
+Figure 34.2  
+ shows a sche-
+matic task network for a concept development project.    
+ 
+ 
+ 
+The concurrent nature of software engineering activities leads to a number of important scheduling requirements. Because parallel tasks occur asynchro-
+nously, you should determine intertask dependencies to ensure continuous 
+
+progress toward completion. In addition, you should be aware of those tasks that 
+lie on the  critical path. 
+ That is, tasks that must be completed on schedule if the 
+project as a whole is to be completed on schedule. These issues are discussed in 
+more detail later in this chapter. 
+ It is important to note that the task network shown in   
+Figure 34.2  
+ is macro-
+scopic. In a detailed task network (a precursor to a detailed schedule), each ac-
+tivity shown in the ﬁ gure would be expanded. For example, Task 1.1 would be 
+expanded to show all tasks detailed in the reﬁ nement of Tasks 1.1 shown in Sec-
+tion 34.3.2.    The task network is 
+a useful mechanism 
+for depicting intertask 
+
+dependencies and 
+determining the critical 
+
+path. I.1ConceptscopingI.2ConceptplanningI.3bTech. risk
+assessment I.4Proof ofconceptI.5bConceptimplementIntegratea, b, cI.6CustomerreactionI.3aTech. risk
+assessmentI.5aConceptimplementI.3cTech. risk
+assessmentI.5cConceptimplementThree I.5 tasks are
+applied in parallel to
+3 different concept
+functions FIGURE 34.2 
+A task network for concept developmentpre22126_ch34_754-776.indd   764pre22126_ch34_754-776.indd   76413/12/13   10:02 PM13/12/13   10:02 PM

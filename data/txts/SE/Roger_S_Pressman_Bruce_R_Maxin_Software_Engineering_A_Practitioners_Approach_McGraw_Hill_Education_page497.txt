@@ -1,0 +1,123 @@
+CHAPTER 22  
+SOFTWARE TESTING STRATEGIES
+ 467 
+A number of software testing strategies have been proposed in the literature. All provide you with a template for testing and all have the following generic 
+characteristics:  
+ 
+ 
+•  To perform effective testing, you should conduct effective technical re-
+views (Chapter 20). By doing this, many errors will be eliminated before 
+testing commences.   
+ 
+ 
+•  Testing begins at the component level and works “outward” toward the in-
+tegration of the entire computer-based system. 
+  
+ 
+ 
+•  Different testing techniques are appropriate for different software engi-neering approaches and at different points in time.   
+ 
+ 
+•  Testing is conducted by the developer of the software and (for large proj-
+ects) an independent test group.   
+ 
+ 
+•  Testing and debugging are different activities, but debugging must be ac-
+commodated in any testing strategy. 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+A strategy for software testing must accommodate low-level tests that are necessary to verify that a small source code segment has been correctly imple-
+mented as well as high-level tests that validate major system functions against 
+customer requirements. A strategy should provide guidance for the practitioner 
+and a set of milestones for the manager. Because the steps of the test strategy 
+
+occur at a time when deadline pressure begins to rise, progress must be measur-
+
+able and problems should surface as early as possible.  WebRef 
+ Useful resources for 
+software testing can 
+be found at 
+  www.mtsu
+.edu/˜storm/  . 
+    thread-based 
+testing. . . . . . . . . 482  
+
+    top-down 
+
+integration  . . . . . . 476  
+
+    unit testing. . . . . . 473  
+
+    validation. . . . . . . 468  
+
+    validation testing  . 483  
+
+    veriﬁ
+ cation. . . . . . 468  
+    
+ 
+Why is it important? 
+  Testing often accounts 
+for more project effort than any other software 
+
+engineering action. If it is conducted hap-
+hazardly, time is wasted, unnecessary effort 
+
+is expended, and even worse, errors sneak 
+through undetected. It would therefore seem 
+reasonable to establish a systematic strategy 
+for testing software.   
+ 
+What are the steps?   Testing begins “in 
+the small” and progresses “to the large.” 
+
+By this we mean that early testing focuses 
+
+on a single component or on a small group 
+
+of related components and applies tests to 
+
+uncover errors in the data and processing 
+
+logic that have been encapsulated by the 
+
+component(s). After components are tested 
+
+they must be integrated until the complete 
+
+system is constructed. At this point, a series 
+of high-order tests are executed to uncover er-
+rors in meeting customer requirements. As er-
+
+rors are uncovered, they must be diagnosed 
+
+and corrected using a process that is called 
+
+debugging. 
+  
+ 
+What is the work product? 
+  A  Test Speciﬁ
+ ca-
+tion 
+ documents the software team’s approach 
+to testing by deﬁ ning a plan that describes an 
+overall strategy and a procedure that deﬁ nes 
+speciﬁ c testing steps and the types of tests that 
+will be conducted.   
+ 
+How do I ensure that I’ve done it right?   By reviewing the  Test Speciﬁ
+ cation
+ 
+ prior to testing, 
+you can assess the completeness of test cases 
+and testing tasks. An effective test plan and 
+procedure will lead to the orderly construction 
+of the software and the discovery of errors at 
+
+each stage in the construction process.  pre22126_ch22_466-495.indd   467pre22126_ch22_466-495.indd   46713/12/13   6:14 PM13/12/13   6:14 PM

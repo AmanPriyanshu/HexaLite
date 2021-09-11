@@ -1,0 +1,68 @@
+CHAPTER 29  
+SOFTWARE CONFIGURATION MANAGEMENT
+ 647Classify therequested changeAcquire related objects andassess impact of changeDevelop brief writtendescription of changeTransmit to all team
+members for reviewCheck out object(s)to be changedDevelop brief writtendescription of changeMake changesdesign, construct, testCheck in object(s)that were changedPublish to WebApp
+Transmit to all stake-
+holders for reviewChanges
+required
+in related
+objectsFurther
+evaluation
+is requiredFurther
+evaluation
+is requiredOK to makeOK to make
+Class 1 changeClass 4 change
+Class 3 changeClass 2 change FIGURE 29.7 
+Managing changes for 
+WebApps
+  
+ 
+Change Management   
+ Objective: 
+ To assist Web engineers and 
+content developers in managing changes as they are made to WebApp conﬁ
+ guration objects. 
+  Mechanics: 
+ Tools in this category were originally 
+developed for conventional software but can be adapted 
+for use by Web engineers and content developers to 
+
+make controlled changes to WebApps. They support 
+
+automated check-in and check-out, version control and 
+rollback, reporting, and other SCM functions. 
+  
+Representative Tools:  
+ 11 
+ 
+ 
+ 
+ 
+  
+ 
+Dimension CM, 
+ developed by Serena (  
+http://www.serena.com/index.php/en/products/
+dimensions-cm/  
+), is one of a suite of change management tools that provide complete SCM 
+capabilities.   
+ClearCase, 
+ developed by Rational (  
+http://www-03.ibm.com/software/products/us/en/
+
+clearcase  
+), is a suite of tools that provide full conﬁ guration management capabilities for WebApps. 
+  
+PTC Integrity 
+, developed by PTC (  
+http://www.mks
+.com/platform/our-product 
+ 
+), is an SCM tool that can be integrated with selected development 
+environments.   
+SOFTWARE
+ TOOLS  
+ 
+11  Tools noted here do not represent an endorsement, but rather a sampling of tools in this 
+category. In most cases, tool names are trademarked by their respective developers. 
+pre22126_ch29_623-652.indd   647pre22126_ch29_623-652.indd   64713/12/13   6:16 PM13/12/13   6:16 PM

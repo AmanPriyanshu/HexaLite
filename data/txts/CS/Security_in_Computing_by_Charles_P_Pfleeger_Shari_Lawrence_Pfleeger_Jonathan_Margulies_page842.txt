@@ -1,0 +1,77 @@
+808 Chapter 12  
+Details of Cryptographyassume there are only four directional orientations (by rounding each actual orientation to the nearest 90°). We can denote these four orientations with four symbols, 
+, ,  , and . It is possible to distinguish between a  and 
+ photon with high certainty. 
+However, the 
+ and 
+ photons sometimes appear as 
+ or 
+. Similarly, it is pos-
+sible to distinguish between and 
+, but sometimes 
+ and 
+ will be recognized as
+  or . Fortunately, those shortcomings actually provide some of the confusion of the 
+cryptographic algorithm.A polarizing filter
+ is a device or procedure that accepts any photons as input but 
+produces only certain kinds of photons as output. There are two types of photon fil-
+
+ters:  and 
+. A  filter correctly discriminates between 
+ and 
+ photons but has a 
+50 percent chance of also counting an or 
+ as a 
+ or an 
+; conversely, a 
+ filter 
+distinguishes between and 
+ but may also accept half of the 
+ and 
+ photons. 
+Think of a  filter as a narrow horizontal slit through which a 
+ photon can slide 
+easily, but an 
+ will always be blocked. Sometimes (perhaps half the time), a 
+ or 
+  photon vibrates in a way to sneak through the slit also. A 
+ filter is analogously like 
+a vertical slit.
+Photon ReceptionQuantum cryptography operates by sending a stream of photons from sender to receiver. 
+
+The sender uses one of the polarizing filters to control which kind of photon is sent. The 
+
+receiver uses either filter and records the orientation of the photon received. It does not 
+
+matter if the receiver chooses the same filter the sender did; what matters is whether the 
+
+receiver happened by chance to choose the same type as did the sender.
+The most important property of quantum cryptography is that no one can eavesdrop 
+on a communication without affecting the communication. With a little simple error 
+
+detection coding, the sender and receiver can easily determine the presence of an eaves-
+
+dropper. Heisenberg’s uncertainty principle says that we cannot know both the speed 
+
+and location of a particle at any given time; once we measure the speed, the location 
+
+has already changed, and once we measure the location, the speed has already changed. 
+Because of this principle, when we measure any property of a particle, it affects other 
+
+properties. So, for example, measuring the orientation of a photon affects the photon. 
+
+A horizontal slit filter blocks all 
+ and half of the
+ and 
+ photons, so it affects the 
+photon stream coming through. The sender knows what was sent, the receiver knows 
+
+what was received, but an eavesdropper will alter the photon stream so dramatically that 
+
+sender and receiver can easily determine someone is listening. 
+Let us see how this unusual approach can be used for cryptography.
+Cryptography with PhotonsThe cryptographic algorithm is inefficient, in that more than twice the bits transmitted 
+
+are not used in cryptography. The bits being transmitted are photons which, fortunately, 
+
+are quite readily available.

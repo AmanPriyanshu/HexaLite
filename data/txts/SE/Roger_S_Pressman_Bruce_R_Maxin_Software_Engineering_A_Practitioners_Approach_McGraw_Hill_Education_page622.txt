@@ -1,0 +1,64 @@
+592 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+ 
+ 
+ 27.4  
+SECURITY ASSURANCE  
+ 
+Because software has become integrated into our everyday lives, security ﬂ aws 
+and the losses associated with them become more costly and more ominous. 
+Sound software engineering practice involves ascertaining requirements, devel-
+oping an appropriate design, and demonstrating that you have created the right 
+product. Security assurance is intended to demonstrate that you have built a 
+secure product, and as a consequence, it inspires conﬁ dence among end users 
+and other stakeholders.   
+ 
+27.4.1   
+The Security Assurance Process 
+ 
+Veriﬁ
+ cation is the part of the assurance task that provides evidence that stake-
+holders can be conﬁ dent that the software conforms to requirements. When con-
+sidered in the context of security engineering, you choose a critical subset of the 
+security requirements or claims for the software and create an assurance case 
+that demonstrates that the software conforms to those requirements or claims.   
+ 
+An  assurance case 
+ is a reasoned and auditable artifact that supports the con-tention that the software satisﬁ es the claim being asserted. Assurance cases have 
+long been used for software safety and are now being used for software security; 
+they are often called  security cases 
+.  Each security case consists of three elements: (1) the claims themselves, (2) the 
+arguments that link the claims to each other through evidence and assumptions, 
+
+and (3) the body of evidence and explicit assumptions that support the arguments. 
+ To be valid a security case must satisfy three objectives. It must specify claims 
+that are suitable and adequate for the system in question, document that suitable 
+
+engineering practices have been applied so that the claims can be achieved, and 
+
+show the achievement of these claims are within the required level of risk [Red10]. 
+ Several types of evidence may be used to prove the security case. Formal proofs of software correctness (Chapter 28) may be helpful, if the code was de-
+signed with the intension of proving its correctness. There are tools that support 
+automatic software veriﬁ cation [DSi08] and other tools that perform static scans 
+for software security weaknesses (e.g., RATS, ITS4, SLAM). 
+ 6 
+ 
+ But tools by them-
+selves cannot build a security case.   Some of the evidence will come from the review of system artifacts using varia-tions of formal technical reviews and inspections of the artifacts (Chapter 20). How-
+ever, these reviews focus solely on the security claims. Reviewers with security 
+
+expertise might review the system or its security case. Checklist evaluations might 
+
+also be used to verify that security guidelines and process steps were followed. 
+   A security case 
+supports the claim that 
+
+the software is secure.   
+6  For a list of security tools, see:  
+http://www.tech-faq.com/how-to-ﬁ
+ nd-security-vulnerabilities-
+in-source-code.html 
+ pre22126_ch27_584-600.indd   592pre22126_ch27_584-600.indd   59216/12/13   6:23 PM16/12/13   6:23 PM

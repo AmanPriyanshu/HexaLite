@@ -1,0 +1,39 @@
+˘˜˚˝˙˘˜˘˘˘
+As testing is automated, there is always a set of tests that can be quickly and eas-ily executed. Whenever any functionality is added to the system, the tests can be run and problems that the new code has introduced can be caught immediately.Test-first development and automated testing usually result in a large number of tests being written and executed. However, there are problems in ensuring that test 
+coverage is complete:1. Programmers prefer programming to testing, and sometimes they take shortcuts 
+when writing tests. For example, they may write incomplete tests that do not 
+
+check for all possible exceptions that may occur.2. Some tests can be very difficult to write incrementally. For example, in a com-
+plex user interface, it is often difficult to write unit tests for the code that imple-
+ments the ﬁdisplay logicﬂ and workflow between screens.It is difficult to judge the completeness of a set of tests. Although you may have a lot 
+of system tests, your test set may not provide complete coverage. Crucial parts of 
+
+the˜system may not be executed and so will remain untested. Therefore, although a 
+
+large set of frequently executed tests may give the impression that the system is complete 
+
+and correct, this may not be the case. If the tests are not reviewed and further tests are 
+
+written after development, then undetected bugs may be delivered in the system release.ˆˆAnother innovative practice that was introduced in XP is that programmers work in 
+pairs to develop the software. The programming pair sits at the same computer to 
+develop the software. However, the same pair do not always program together. 
+
+Rather, pairs are created dynamically so that all team members work with each other 
+during the development process.Pair programming has a number of advantages.1.
+ It supports the idea of collective ownership and responsibility for the system. 
+
+This reflects Weinberg™s idea of egoless programming (Weinberg 1971) where 
+the software is owned by the team as a whole and individuals are not held 
+
+responsible for problems with the code. Instead, the team has collective respon-
+sibility for resolving these problems.2. It acts as an informal review process because each line of code is looked at by at least 
+
+two people. Code inspections and reviews (Chapter 24) are effective in discovering 
+
+a high percentage of software errors. However, they are time consuming to organize 
+
+and, typically, introduce delays into the development process. Pair programming is a 
+
+less formal process that probably doesn™t find as many errors as code inspections. 
+
+However, it is cheaper and easier to organize than formal program inspections.3. It encourages refactoring to improve the software structure. The problem with ask-ing programmers to refactor in a normal development environment is that effort 

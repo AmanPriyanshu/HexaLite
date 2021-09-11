@@ -1,0 +1,42 @@
+˜˜˚˙˜˜˜
+˜˜
+Although reengineering and refactoring are both intended to make software easier 
+to understand and change, they are not the same thing. Reengineering takes place after 
+a system has been maintained for some time, and maintenance costs are increasing. 
+
+You use automated tools to process and reengineer a legacy system to create a new 
+
+system that is more maintainable. Refactoring is a continuous process of improvement 
+
+throughout the development and evolution process. It is intended to avoid the structure 
+
+and code degradation that increases the costs and difficulties of maintaining a system.Fowler et al. (Fowler et al. 1999) suggest that there are stereotypical situations (Fowler calls them ﬁbad smellsﬂ) where the code of a program can be improved. 
+
+Examples of bad smells that can be improved through refactoring include:1. Duplicate code 
+The same or very similar code may be included at different 
+places in a program. This can be removed and implemented as a single method 
+or function that is called as required.2. Long methods If a method is too long, it should be redesigned as a number of 
+shorter methods.3. Switch (case) statements These often involve duplication, where the switch 
+
+depends on the type of a value. The switch statements may be scattered around 
+a program. In object-oriented languages, you can often use polymorphism to 
+
+achieve the same thing.4. Data clumping Data clumps occur when the same group of data items (fields in 
+classes, parameters in methods) reoccurs in several places in a program. These 
+can often be replaced with an object that encapsulates all of the data.5. Speculative generality This occurs when developers include generality in a pro-
+gram in case it is required in the future. This can often simply be removed.Fowler, in both his book and website, also suggests some primitive refactoring transformations that can be used singly or together to deal with bad smells. Examples 
+of these transformations include Extract method, where you remove duplication and 
+create a new method; Consolidate conditional expression, where you replace a 
+sequence of tests with a single test; and Pull up method, where you replace similar 
+methods in subclasses with a single method in a superclass. Interactive development 
+environments, such as Eclipse, usually include refactoring support in their editors. 
+This makes it easier to find dependent parts of a program that have to be changed to 
+implement the refactoring.Refactoring, carried out during program development, is an effective way to 
+reduce the long-term maintenance costs of a program. However, if you take over a 
+program for maintenance whose structure has been significantly degraded, then it 
+
+may be practically impossible to refactor the code alone. You may also have to think 
+about design refactoring, which is likely to be a more expensive and difficult prob-
+lem. Design refactoring involves identifying relevant design patterns (discussed in 
+Chapter 7) and replacing existing code with code that implements these design pat-
+terns (Kerievsky 2004).

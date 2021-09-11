@@ -1,0 +1,73 @@
+290 Chapter 5  
+Operating SystemsOperating System Design for Self-Protection
+An operating system must protect itself against compromise to be able to enforce secu-rity. Think of the children’s game “king of the hill.” One player, the king, stands on top 
+
+of a mound while the other players scramble up the mound and try to dislodge the king. 
+The king has the natural advantage of being at the top and therefore able to see anyone 
+
+coming, plus gravity and height work in the king’s favor. If someone does force the 
+
+king off the mound, that person becomes the new king and must defend against attack-
+
+ers. In a computing system, the operating system arrives first and is well positioned by 
+
+privilege and direct hardware interaction to protect against code that would usurp the 
+
+operating system’s power.
+The king of the hill game is simple because there is only one king (at a time). Imag-ine the chaos if several kings had to repel invaders and also protect against attacks from 
+
+other kings. One king might even try to dig the mound out from under another king, so 
+
+attacks on a king could truly come from all directions. Knowing whom to trust and to 
+
+what degree would become challenges in a multiple-king game. (This political situation 
+
+can deteriorate into anarchy, which is not good for nations or computing systems.)
+The operating system is in a similar situation: It must protect itself not just from 
+errant or malicious user programs but also from harm from incorporated modules, 
+
+drivers, and add-ons, and with limited knowledge of which ones to trust and for what 
+
+capabilities. Sidebar 5-1 describes 
+
+the additional difficulty of an 
+
+operating system’s needing to run 
+
+on different kinds of hardware 
+
+platforms.The operating system must protect 
+
+itself in order to protect its users and 
+
+resources.
+SIDEBAR 5-1 Hardware-Enforced Protection
+From the 1960s to the 1980s, vendors produced both hardware and the 
+software to run on it. The major mainframe operating systems—such as 
+
+IBM’s MVS, Digital Equipment’s VAX, and Burroughs’s and GE’s operating 
+
+systems, as well as research systems such as KSOS, PSOS, KVM, Multics, 
+
+and SCOMP—were designed to run on one family of hardware. The VAX 
+
+family, for example, used a hardware design that implemented four distinct 
+
+protection levels: Two were reserved for the operating system, a third for 
+
+system utilities, and the last went to users’ applications. This structure put 
+
+essentially three distinct walls around the most critical functions, including 
+
+those that implemented security. Anything that allowed the user to compro-
+
+mise the wall between user state and utility state still did not give the user 
+access to the most sensitive protection features. A BiiN operating system 
+
+from the late 1980s offered an amazing 64,000 different levels of protection 
+
+(or separation) enforced by the hardware.
+Two factors changed this situation. First, the U.S. government sued 
+IBM in 1969, claiming that IBM had exercised unlawful monopolistic prac-
+
+tices. As a consequence, during the late 1970s and 1980s IBM made its 

@@ -1,0 +1,34 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜˜˜and actuator management. Actuators, as I discuss in Chapter 21, are devices con-trolled by the software system that act to change the system™s environment. For 
+example, an actuator may control a valve and change its state from ﬁopenﬂ to 
+
+ﬁclosed.ﬂ The ﬁmasterﬂ process is usually responsible for computation, coordina-tion, and communications, and it controls the ﬁslaveﬂ processes. ﬁSlaveﬂ pro
+-
+cesses are dedicated to specific actions, such as the acquisition of data from an 
+
+array of sensors. Figure 17.7 shows an example of this architectural model. A traffic control sys-tem in a city has three logical processes that run on separate processors. The master 
+process is the control room process, which communicates with separate slave pro-
+cesses that are responsible for collecting traffic data and managing the operation of 
+traffic lights.A set of distributed sensors collects information on the traffic flow. The sensor 
+control process polls the sensors periodically to capture the traffic flow informa-
+tion and collates this information for further processing. The sensor processor is 
+
+itself polled periodically for information by the master process that is concerned 
+
+with displaying traffic status to operators, computing traffic light sequences, and 
+
+accepting operator commands to modify these sequences. The control room sys-
+tem sends commands to a traffic light control process that converts these into sig-
+nals to control the traffic light hardware. The master control room system is itself 
+
+organized as a clientŒserver system, with the client processes running on the oper-
+ator™s consoles.You use this masterŒslave model of a distributed system in situations where you can predict the distributed processing that is required and where processing can be 
+easily localized to slave processors. This situation is common in real-time systems, 
+where it is important to meet processing deadlines. Slave processors can be used for 
+computationally intensive operations, such as signal processing and the management 
+of equipment controlled by the system.Traffic lights
+LightcontrolprocessTraffic light control
+processorControl roomprocessorOperator consolesTraffic flow sensors and
+camerasSensorprocessorSensorcontrolprocessCoordinationand displayprocessSlaveSlaveMasterFigure 17.7  A traffic management system 
+with a masterŒ 
+slave architecture 

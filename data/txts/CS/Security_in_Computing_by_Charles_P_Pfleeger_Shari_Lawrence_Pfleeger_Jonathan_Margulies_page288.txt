@@ -1,0 +1,49 @@
+254 Chapter 4  
+The Web—User Side
+Web Bug
+You probably know that a web page is made up of many files: some text, graphics, exe-
+cutable code, and scripts. When the web page is loaded, files are downloaded from a 
+
+destination and processed; during the processing they may invoke other files (perhaps 
+
+from other sites) which are in turn downloaded and processed, until all invocations 
+
+have been satisfied. When a remote file is fetched for inclusion, the request also sends 
+
+the IP address of the requester, the type of browser, and the content of any cookies 
+
+stored for the requested site. These cookies permit the page to display a notice such 
+
+as “Welcome back, Elaine,” bring up content from your last visit, or redirect you to a 
+
+particular web page.Some advertisers want to count number of visitors and number of times each visitor 
+arrives at a site. They can do this by a combination of cookies and an invisible image. 
+
+A web bug
+, also called a clear GIF, 1x1 GIF, or tracking bug
+, is a tiny image, as 
+small as 1 pixel by 1 pixel (depending on resolution, screens display at least 100 to 
+
+200 pixels per inch), an image so small it will not normally be seen. Nevertheless, 
+
+it is loaded and processed the same as a larger picture. Part of the processing is to 
+
+notify the bug’s owner, the advertiser, who thus learns that another user has loaded the 
+
+advertising image.
+A single company can do the same thing without the need for a web bug. If you 
+order flowers online, the florist can obtain your IP address and set a cookie containing 
+
+your details so as to recognize you as a repeat customer. A web bug allows this tracking 
+
+across multiple merchants.Your florist might subscribe to a web tracking service, which we name ClicksRUs. The 
+florist includes a web bug in its web image, so when you load that page, your details are 
+
+sent to ClicksRUs, which then installs a cookie. If you leave the florist’s web site and next 
+
+go to a bakery’s site that also subscribes to tracking with ClicksRUs, the new page will 
+
+also have a ClicksRUs web bug. This time, as shown in Figure 4-12, ClicksRUs retrieves 
+
+its old cookie, finds that you were last at the florist’s site, and records the coincidence 
+Download important things to read:Studies of low-ordereven primespdf filepdf fileMaking anti-gravity paintand what to store it inHow to cheat at solitairepdf file101 things to do withstringpdf fileDownload my infected versionof Adobe Reader hereFIGURE 4-11 Malicious Code to Download

@@ -1,0 +1,68 @@
+ Section 1.7  What’s Next? 
+33  Chapter 5 covers operating systems, continuing our path of moving away from 
+things the user can see and affect directly. We see what protections operating systems 
+
+can provide to users’ programs and data, most often against attacks on confidentiality 
+
+or integrity. We also see how the strength of operating systems can be undermined by 
+
+attacks, called rootkits, that directly target operating systems and render them unable to 
+
+protect themselves or their users.
+In Chapter 6 we return to networks, this time looking at the whole network and its 
+impact on users’ abilities to communicate data securely across the network. We also 
+
+study a type of attack called denial of service, just what its name implies, that is the first 
+
+major example of a failure of availability.
+We consider data, databases, and data mining in Chapter 7. The interesting cases 
+involve large databases in which confidentiality of individuals’ private data is an objec-
+
+tive. Integrity of the data in the databases is also a significant concern.
+In Chapter 8 we move even further from the individual user and study cloud com-
+puting, a technology becoming quite popular. Companies are finding it convenient and 
+
+cost effective to store data “in the cloud,” and individuals are doing the same to have 
+
+shared access to things such as music and photos. There are security risks involved in 
+
+this movement, however.
+You may have noticed our structure: We organize our presentation from the user out-
+ward through programs, browsers, operating systems, networks, and the cloud, a pro-
+
+gression from close to distant. In Chapter 9 we return to the user for a different reason: 
+
+We consider privacy, a property closely related to confidentiality. Our treatment here is 
+
+independent of where the data are: on an individual computer, a network, or a database. 
+
+Privacy is a property we as humans deserve, and computer security can help preserve it, 
+
+as we present in that chapter.
+In Chapter 10 we look at several topics of management of computing as related 
+to security. Security incidents occur, and computing installations need to be ready to 
+
+respond, whether the cause is a hacker attack, software catastrophe, or fire. Managers 
+
+also have to decide what controls to employ, because countermeasures cost money that 
+
+must be spent wisely. Computer security protection is hard to evaluate: When it works 
+
+you do not know it does. Performing risk analysis and building a case for security are 
+
+important management tasks.Some security protections are beyond the scope an individual can address. Organized 
+crime from foreign countries is something governments must deal with, through a legal 
+
+system. In Chapter 11 we consider laws affecting computer security. We also look at 
+
+ethical standards, what is “right” in computing.In Chapter 12 we return to cryptography, which we introduced in Chapter 2. Cryp-
+tography merits courses and textbooks of its own, and the topic is detailed enough that 
+
+most of the real work in the field is done at the graduate level and beyond. We use 
+
+Chapter 2 to introduce the concepts enough to be able to apply them. In Chapter 12 we 
+expand upon that introduction and peek at some of the formal and mathematical under-
+
+pinnings of cryptography.
+Finally, in Chapter 13 we raise four topic areas. These are domains with an important 
+need for computer security, although the areas are evolving so rapidly that computer 

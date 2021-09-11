@@ -1,0 +1,37 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜˜˜The components in a distributed system may be implemented in different program-ming languages and may execute on different types of processors. Models of data, 
+information representation, and protocols for communication may all be different. A 
+distributed system therefore requires software that can manage these diverse parts 
+
+and ensure that they can communicate and exchange data.The term middleware is used to refer to this softwareŠit sits in the middle between 
+the distributed components of the system. This concept is illustrated in Figure 
+17.3, 
+
+which shows that middleware is a layer between the operating system and application 
+
+programs. Middleware is normally implemented as a set of libraries, which are installed 
+
+on each distributed computer, plus a runtime system to manage communications.Bernstein (Bernstein 1996) describes types of middleware that are available to 
+support distributed computing. Middleware is general-purpose software that is usu-
+ally bought off-the-shelf rather than written specially by application developers. 
+
+Examples of middleware include software for managing communications with data-
+bases, transaction managers, data converters, and communication controllers.In a distributed system, middleware provides two distinct types of support:1. Interaction support, where the middleware coordinates interactions between differ
+-
+ent components in the system. The middleware provides location transparency in 
+
+that it isn™t necessary for components to know the physical locations of other compo-
+nents. It may also support parameter conversion if different programming languages 
+
+are used to implement components, event detection, communication, and so on.2. The provision of common services, where the middleware provides reusable 
+
+implementations of services that may be required by several components in the 
+distributed system. By using these common services, components can easily 
+
+interoperate and provide user services in a consistent way.I have already given examples of the interaction support that middleware can pro-
+vide in Section 17.1.1. You use middleware to support remote procedure and remote 
+method calls, message exchange, and so forth.Application componentsOperating systemMiddlewareNetworkingApplication componentsOperating systemMiddlewareNetworkingLogical
+interactionInformationexchange andcommon servicesCoordinatedoperationPhysicalconnectivitySystem 1
+System 2
+Figure 17.3  Middleware in a 
+distributed system 

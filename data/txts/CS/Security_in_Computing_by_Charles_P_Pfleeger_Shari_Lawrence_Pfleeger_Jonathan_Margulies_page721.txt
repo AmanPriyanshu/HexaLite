@@ -1,0 +1,62 @@
+ Section 10.5  Dealing with Disaster 
+687  Even when the hardware can be replaced, we must be concerned about the stored 
+data and programs. The system administrator may choose to label storage media in a 
+
+way that makes it easy to identify the most important data. For example, green, yellow, 
+
+and red labels may show which disks are the most sensitive, so that all red disks are 
+
+moved from the data center during a storm. Similarly, large plastic bags and waterproof 
+
+tape can be kept near important equipment and media; they are used to protect the hard-
+
+ware and storage media in case of a burst pipe or other sudden flood.
+The real issue is protecting data and preserving the ability to compute. The only way 
+to ensure the safety of data is to store backup copies in one or more safe locations.Fire
+Fire is more serious than water; often there is not as much time to react, and human 
+lives are more likely to be in immediate danger. To ensure that system personnel can 
+
+react quickly, every user and manager should have a plan for shutting down the system 
+
+in an orderly manner. Such a process takes only a few minutes but can make recovery 
+
+much easier. This plan should include individual responsibilities for all people: some to 
+
+halt the system, others to protect crucial media, others to close doors on media cabinets. 
+Provision should be made for secondary responsibilities, so that onsite staff can perform 
+
+duties for those who are not in the office.
+Water is traditionally used to put out fires, but it can destroy equipment and paper. In 
+fact, sprinklers can be more destructive than the fires themselves. A fire sensor usually 
+
+activates many sprinklers, dousing an entire room, even when the fire is merely some 
+
+ignited paper in a wastebasket and of no threat to the computing system. Many comput-
+
+ing centers use carbon dioxide extinguishers or an automatic system that sprays a gas 
+
+such as Halon to smother a fire but leave no residue. Unfortunately, these gas systems 
+
+work by displacing the oxygen in the room, choking the fire but leaving humans unable 
+
+to breathe. Consequently, when these protection devices are activated, humans must 
+
+leave, halting efforts to salvage portable media.
+The best defense for situations like these is careful placement of the computing 
+facility. A windowless location with fire-resistant access doors and nonflammable full-
+
+height walls can prevent some fires from spreading from adjacent areas to the comput-
+
+ing room. With a fire- and smoke-resistant facility, personnel merely shut down the 
+
+system and leave, perhaps carrying out the most important media.
+Fire prevention is quite effective, especially because most computer goods are not 
+especially flammable. Advance planning, reinforced with simulation drills, can help 
+
+make good use of the small amount of time available before evacuation is necessary.
+Other Natural DisastersComputers are subject to wind storms, earthquakes, volcanoes, and similar events. 
+Although not natural disasters, building collapse, explosion, and damage from falling 
+
+objects can be considered in the same category. These kinds of catastrophes are difficult 
+
+to predict or value.

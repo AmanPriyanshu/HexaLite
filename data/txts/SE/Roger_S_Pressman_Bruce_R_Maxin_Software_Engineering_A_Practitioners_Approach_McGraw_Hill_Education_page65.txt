@@ -1,0 +1,96 @@
+CHAPTER 3  
+SOFTWARE PROCESS STRUCTURE
+ 35You should choose a task set that best accommodates the needs of the project 
+and the characteristics of your team. This implies that a software engineering 
+action can be adapted to the speciﬁ c needs of the software project and the char-
+acteristics of the project team.   
+ 
+ 
+ 
+ 
+ 
+ 3.4 P
+ROCESS PATTERNS
+  
+ 
+Every software team encounters problems as it moves through the software pro-cess. It would be useful if proven solutions to these problems were readily avail-
+able to the team so that the problems could be addressed and resolved quickly. A 
+
+ process pattern
+ 
+ 
+ 1 
+ 
+ describes a process-related problem that is encountered during 
+software engineering work, identiﬁ es the environment in which the problem has 
+been encountered, and suggests one or more proven solutions to the problem. 
+Stated in more general terms, a process pattern provides you with a template 
+[Amb98]—a consistent method for describing problem solutions within the con-
+text of the software process. By combining patterns, a software team can solve 
+problems and construct a process that best meets the needs of a project.   
+ 
+ 
+ 
+ 
+ 
+ 
+Patterns can be deﬁ ned at any level of abstraction. 
+ 2 
+ 
+ In some cases, a pattern 
+might be used to describe a problem (and solution) associated with a complete 
+process model (e.g., prototyping). In other situations, patterns can be used to 
+describe a problem (and solution) associated with a framework activity (e.g., 
+  
+planning 
+) or an action within a framework activity (e.g., project estimating).   
+Ambler [Amb98] has proposed a template for describing a process pattern:   
+ 
+ 
+ 
+ 
+Pattern Name. 
+ The pattern is given a meaningful name describing it within the context of the software process (e.g.,  TechnicalReviews
+ 
+).   
+Forces. 
+ The environment in which the pattern is encountered and the  issues that make the problem visible and may affect its solution.   
+Type.
+ 
+ The pattern type is speciﬁ ed. Ambler [Amb98] suggests three types:
+  
+ 
+ 
+ 1.   Stage pattern 
+—deﬁ nes a problem associated with a framework 
+  
+ multiple actions and work tasks, a stage pattern incorporates mul- 
+
+(framework activity). An example of a stage pattern might be 
+
+ EstablishingCommunication 
+. This pattern would incorporate the 
+RequirementsGathering 
+ and others. 
+  
+ uote:  “The repetition of 
+patterns is quite a 
+different thing than 
+the repetition of 
+parts. Indeed, the 
+different parts will 
+be unique because 
+the patterns are 
+the same.”  Christopher 
+Alexander  What is 
+a process pattern? ?   A pattern template 
+
+provides a consistent 
+means for describing a 
+pattern. 
+  
+1  A detailed discussion of patterns is presented in Chapter 11 
+  
+2  Patterns are applicable to many software engineering activities. Analysis, design, and testing 
+patterns are discussed in Chapters 11, 13, 15, 16, and 20. Patterns and “antipatterns” for project 
+management activities are discussed in Part 4 of this book. pre22126_ch03_029-039.indd   35pre22126_ch03_029-039.indd   3513/12/13   6:10 PM13/12/13   6:10 PM

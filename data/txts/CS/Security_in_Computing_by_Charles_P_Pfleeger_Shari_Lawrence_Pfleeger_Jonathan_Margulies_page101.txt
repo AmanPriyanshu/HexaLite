@@ -1,0 +1,73 @@
+ Section 2.1  Authentication 
+67  Tokens are vulnerable to an attack called skimming. 
+Skimming is the use of a device 
+to copy authentication data surreptitiously and relay it to an attacker. Automated teller 
+
+machines (ATMs) and point-of-sale credit card readers are particularly vulnerable to 
+
+skimming.1 At an ATM the thief attaches a small device over the slot into which you 
+insert your bank card. Because all bank cards conform to a standard format (so you can 
+use your card at any ATM or merchant), the thief can write a simple piece of software 
+
+to copy and retain the information recorded on the magnetic stripe on your bank card. 
+
+Some skimmers also have a tiny camera to record your key strokes as you enter your 
+
+PIN on the keypad. Either instantaneously (using wireless communication) or later (col-
+
+lecting the physical device), the thief thus obtains both your account number and its 
+
+PIN. The thief simply creates a dummy card with your account number recorded and, 
+
+using the PIN for authentication, visits an ATM and withdraws cash from your account 
+
+or purchases things with a cloned credit card.Another form of copying occurs with passwords. If you have to enter or speak your 
+password, someone else can look over your shoulder or overhear you, and now that 
+
+authenticator is easily copied or forged. To overcome copying of physical tokens or 
+
+passwords, we can use dynamic tokens. A 
+dynamic token
+ is one whose value changes. 
+Although there are several different forms, a dynamic authentication token is essentially 
+
+a device that generates an unpredictable value that we might call a pass number. Some 
+
+devices change numbers at a particular interval, for example, once a minute; others 
+
+change numbers when you press a button, and others compute a new number in response 
+
+to an input, sometimes called a challenge. In all cases, it does not matter if someone else 
+sees or hears you provide the pass 
+
+number, because that one value will 
+
+be valid for only one access (yours), 
+
+and knowing that one value will not 
+
+allow the outsider to guess or gener-
+
+ate the next pass number.
+Dynamic token generators are useful for remote authentication, especially of a per-
+son to a computer. An example of a dynamic token is the SecurID token from RSA Lab-
+
+oratories, shown in Figure 2-6. To use a SecurID token, you enter the current number 
+
+displayed on the token when prompted by the authenticating application. Each token 
+
+generates a distinct, virtually unpredictable series of numbers that change every min-
+
+ute, so the authentication system knows what number to expect from your token at any 
+
+moment. In this way, two people can have SecurID tokens, but each token authenticates 
+
+only its assigned owner. Entering the number from another token does not pass your 
+
+authentication. And because the token generates a new number every minute, entering 
+
+the number from a previous authentication fails as well.
+1. Note that this discussion refers to the magnetic-stripe cards popular in the United States. Most other coun-
+tries use embedded computer chip cards that are substantially less vulnerable to skimming.Dynamic tokens have computing power on the token to change their internal 
+
+state.

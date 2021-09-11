@@ -1,0 +1,21 @@
+440 Chapter 6  
+NetworksTABLE 6-4 
+Cipher Suites (Partial List)
+Cipher Suite IdentifierAlgorithms Used
+TLS_NULL_WITH_NULL_NULLNo authentication, no encryption, no hash function
+TLS_RSA_WITH_NULL_MD5RSA authentication, no encryption, MD5 hash function
+
+TLS_RSA_EXPORT_WITH_RC4_40_MD5RSA authentication with limited key length, RC4 
+encryption with a 40-bit key, MD5 hash function
+TLS_RSA_WITH_3DES_EDE_CBC_SHARSA authentication, triple DES encryption, SHA-1 
+hash functionTLS_RSA_WITH_AES_128_CBC_SHARSA authentication, AES with a 128-bit key encryption, 
+SHA-1 hash functionTLS_RSA_WITH_AES_256_CBC_SHARSA authentication, AES with a 256-bit key encryption, 
+SHA-1 hash functionTLS_RSA_WITH_AES_128_CBC_SHA256RSA authentication, AES with a 128-bit key encryption, 
+SHA-256 hash functionTLS_RSA_WITH_AES_256_CBC_SHA256RSA authentication, AES with a 256-bit key encryption, 
+SHA-256 hash functionTLS_DH_DSS_WITH_3DES_EDE_CBC_SHADiffie–Hellman digital signature standard, triple DES 
+encryption, SHA-1 hash functionTLS_RSA_WITH_CAMELLIA_256_CBC_SHA http://www.iana.org/go/rfc5932
+RSA digital signature, Camellia encryption with a  256-bit key, SHA-1 hash function
+TLS_ECDHE_ECDSA_WITH_ARIA_256_CBC_SHA384Elliptic curve cryptosystem digital signature algorithm, 
+Aria encryption with a 256-bit key, SHA-384 hash 
+
+functionFIGURE 6-41 SSL Session Established

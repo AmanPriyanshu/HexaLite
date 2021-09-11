@@ -1,0 +1,44 @@
+˜˜˚˛˜˜˜
+˜˜˜
+Architectural design is a creative process in which you design a system organization that will satisfy the functional and non-functional requirements of a system. There is 
+no formulaic architectural design process. It depends on the type of system being 
+
+developed, the background and experience of the system architect, and the specific 
+requirements for the system. Consequently, I think it is best to consider architectural 
+
+design as a series of decisions to be made rather than a sequence of activities.During the architectural design process, system architects have to make a number 
+of structural decisions that profoundly affect the system and its development pro-
+cess. Based on their knowledge and experience, they have to consider the fundamen-
+tal questions shown in Figure 6.2.Although each software system is unique, systems in the same application domain 
+often have similar architectures that reflect the fundamental concepts of the domain. For 
+
+example, application product lines are applications that are built around a core architecture 
+
+with variants that satisfy specific customer requirements. When designing a system archi
+-
+tecture, you have to decide what your system and broader application classes have in com-
+mon, and decide how much knowledge from these application architectures you can reuse.For embedded systems and apps designed for personal computers and mobile 
+devices, you do not have to design a distributed architecture for the system. However, 
+most large systems are distributed systems in which the system software is distrib-
+uted across many different computers. The choice of distribution architecture is a 
+Is there a generic application architecture that can act as a 
+template for the system that is 
+being designed?How will the system be 
+distributed across hardware 
+cores or processors?What Architectural patterns or 
+
+styles might be used?What will be the fundamental 
+
+approach used to structure 
+the system?How will the structural components in the system be 
+decomposed into 
+sub-components?What strategy will be used to 
+
+control the operation of the 
+components in the system?What architectural organization 
+
+is best for delivering the 
+non-functional requirements 
+of the system?How should the architecture 
+of the system be 
+documented??Figure 6.2 Architectural design decisions

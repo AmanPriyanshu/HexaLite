@@ -1,0 +1,81 @@
+246 PART TWO  
+MODELING 
+ 
+The design of internal interfaces is closely aligned with component-level de-sign (Chapter 14). Design realizations of analysis classes represent all operations 
+and the messaging schemes required to enable communication and collabora-
+tion between operations in various classes. Each message must be designed to 
+accommodate the requisite information transfer and the speciﬁ c functional re-
+quirements of the operation that has been requested.   
+In some cases, an interface is modeled in much the same way as a class. In UML, an interface is deﬁ ned in the following manner [OMG03a]: “An interface 
+is a speciﬁ er for the externally-visible [public] operations of a class, component, 
+or other classiﬁ er (including subsystems) without speciﬁ
+ cation of internal struc-
+ture.” Stated more simply, an interface is a set of operations that describes some 
+
+part of the behavior of a class and provides access to these operations.  
+  For example, the  SafeHome 
+ security function makes use of a control panel 
+that allows a homeowner to control certain aspects of the security function. In an 
+advanced version of the system, control panel functions may be implemented via 
+a mobile platform (e.g., smartphone or tablet).  The  ControlPanel 
+ class ( 
+Figure 12.5 ) provides the behavior associated with a keypad, and therefore, it must implement the operations  readKeyStroke ()
+ 
+ and 
+ decodeKey () 
+. If these operations are to be provided to other classes (in this case,  Tablet
+ 
+ and  
+SmartPhone 
+), it is useful to deﬁ ne an interface as shown in the ﬁ
+ gure. 
+The interface, named  KeyPad 
+, is shown as an <<interface>> stereotype or as a small, labeled circle connected to the class with a line. The interface is deﬁ ned 
+with no attributes and the set of operations that are necessary to achieve the 
+behavior of a keypad.  WebRef 
+ Extremely valuable 
+information on UI 
+
+design can be found at 
+  www.useit.com
+.   
+ControlPanel
+LCDdisplay LEDindicators 
+keyPadCharacteristics 
+speaker 
+wirelessInterface 
+readKeyStroke( ) decodeKey( ) 
+displayStatus( ) 
+lightLEDs( ) 
+sendControlMsg( )KeyPadreadKeystroke( ) 
+decodeKey( ) <<Interface>>
+Tablet
+SmartPhone
+KeyPad  
+FIGURE 12.5 
+Interface rep-
+resentation for 
+
+ControlPanel 
+ 
+  
+ uote:  “Every now and 
+then go away, have 
+
+a little relaxation, 
+for when you come 
+back to your work 
+your judgment 
+will be surer. Go 
+
+some distance 
+away because then 
+the work appears 
+smaller and more 
+of it can be taken 
+in at a glance and 
+a lack of harmony 
+and proportion 
+is more readily 
+seen.”  Leonardo 
+DaVinci pre22126_ch12_224-251.indd   246pre22126_ch12_224-251.indd   24613/12/13   6:12 PM13/12/13   6:12 PM

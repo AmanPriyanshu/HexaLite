@@ -1,0 +1,45 @@
+Figure 18.
+2 illustrates the structure of a service-oriented architecture. Service provid
+-ers design and implement services and specify the interface to these services. They also 
+publish information about these services in an accessible registry. Service requestors 
+
+(sometimes called service clients) who wish to make use of a service discover the speci
+-
+fication of that service and locate the service provider. They can then bind their applica
+-
+tion to that specific service and communicate with it, using standard service protocols.
+The development and use of internationally agreed standards is fundamental to 
+SOA. As a result, service-oriented architectures have not suffered from the incompat
+-
+ibilities that normally arise with technical innovations, where different suppliers 
+
+maintain their proprietary version of the technology. Figure 
+18.3 shows the stack of 
+
+key standards that have been established to support web services.
+Web service protocols cover all aspects of service-oriented architectures, from the 
+basic mechanisms for service information exchange (SOAP) to programming language 
+
+standards (WS-BPEL). These standards are all based on XML, a human and machine-
+
+readable notation that allows the definition of structured data where text is tagged with 
+
+a meaningful identifier. XML has a range of supporting technologies, such as XSD for 
+
+schema definition, which are used to extend and manipulate XML descriptions. Erl (Erl 
+
+2004) provides a good summary of XML technologies and their role in web services.
+Briefly, the fundamental standards for service-oriented architectures are:
+1. SOAP This is a message interchange standard that supports communication 
+between services. It defines the essential and optional components of messages 
+Transport (HTTP, HTTPS, SMTP, ...)
+Messaging (SOAP)
+Service definition (UDDI, WSDL)
+Process (WS-BPEL)Support (WS-Security, WS-Addressing, ...)
+XML technologies (XML, XSD, XSL
+T, ....)Figure 18.3  Web 
+service standards Serviceregistry
+ServicerequestorServiceproviderServiceFindPublishBind (SOAP)
+(WSDL)Figure 18.2 Service-oriented architecture ˜˚˛˝˚˜˜˜
+˜˝˘ˇ
+˜˜

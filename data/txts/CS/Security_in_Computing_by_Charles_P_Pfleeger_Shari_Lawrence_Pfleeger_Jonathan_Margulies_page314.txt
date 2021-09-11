@@ -1,0 +1,38 @@
+280In this chapter:• Object protection: virtualization, sharing
+• Memory protection: registers, paging, segmentation
+
+• Design qualities: modularity, layering, kernelization
+
+• Trusted systems: TCB, reference monitor, trusted path, 
+object reuse, evaluation criteria• Rootkits: power, design
+In this chapter we explore the role of the operating system in security. Although 
+
+operating systems are crucial for implementing separation and access control, they 
+
+are not invulnerable, and therefore compromise of an operating system can lead to 
+security failure. Furthermore, users’ objects can be commingled with code and data for 
+
+applications and support routines, and operating systems are limited in their ability to 
+separate and protect these resources.We begin this chapter with a brief overview, which for many readers will be a review, 
+of operating system design. We continue by examining aspects of operating system 
+
+design that enhance security. Finally, we consider rootkits, the most serious compro-
+
+mise of an operating system; with such an exploit the attacker undermines the entire 
+
+operating system and thus all the security protections it is expected to provide.
+5.1 SECURITY IN OPERATING SYSTEMS
+Many attacks are silent and invisible. What good is an attack if the victim can see and 
+
+perhaps counter it? As we described in Chapter 3, viruses, Trojan horses, and similar 
+
+forms of malicious code may masquerade as harmless programs or attach themselves to 
+
+other legitimate programs. Nevertheless, the malicious code files are stored somewhere, 
+
+usually on disk or in memory, and their structure can be detected with programs that 
+
+recognize patterns or behavior. A powerful defense against such malicious code is pre-
+
+vention to block the malware before it can be stored in memory or on disk. 
+5Operating Systems

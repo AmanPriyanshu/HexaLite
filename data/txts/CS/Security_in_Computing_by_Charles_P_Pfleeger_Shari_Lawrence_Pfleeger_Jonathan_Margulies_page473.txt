@@ -1,0 +1,77 @@
+ Section 6.6  Cryptography in Network Security 
+439  for transport layer security
+. TLS 1.0, which is sometimes also known as SSL 3.1, is 
+documented in Internet RFC 2246; two newer versions are named TLS 1.1 (RFC 4346, 
+
+2006) and TLS 1.2 (RFC 5246, 2008). The acronym SSL is often used to represent both 
+
+the SSL and TLS protocol suites. 
+In the OSI network model, applications run at the highest (farthest from electrical 
+signals) level, called level 7, and SSL is implemented at level 4, above network address-
+
+ing (level 3) and physical media (level 1). SSL operates between applications (such as 
+
+browsers) and the TCP/IP protocols 
+
+to provide server authentication, 
+
+optional client authentication, and 
+
+an encrypted communication chan-
+
+nel between client and server. 
+Cipher Suite Client and server negotiate encryption algorithms, called the 
+cipher suite, for authen-tication, session encryption, and hashing. To allow for expansion and deprecation of 
+
+algorithms over time, the first to open an interaction, often the client, states its preferred 
+
+algorithms, and the second party responds with the highest one on that list it can handle. 
+The Internet Assigned Numbers Authority (IANA) globally coordinates the DNS Root, 
+
+IP addressing, and other Internet protocol resources, including cipher suites; we show 
+
+some of the choices in Table 6-4. When client and server begin an SSL session, the 
+
+server sends a set of records listing the cipher suite identifiers it can use; the client 
+
+responds with its preferred selection from that set. As you can see in the table, SSL sup-
+
+ports use of popular cryptographic algorithms we have described in depth, such as RSA, 
+
+triple DES, and AES; IANA also sanctions use of algorithms such as Camellia and Aria 
+
+that are more commonly used in certain countries. (Camellia and Aria are block ciphers 
+
+similar to DES and AES; Camellia was devised by Mitsubishi and NTT in 2000, and 
+
+Aria was developed by Korean cryptographers in 2003. Elliptic Curve Cryptosystems 
+
+are a form of public key cryptography; we describe them in more detail in Chapter 12.)
+The SSL protocol is simple but effective, and it is the most widely used secure com-
+munication protocol on the Internet. (Note, however, there is a flaw in the MD5 algo-
+
+rithm by which researchers were able to forge a seemingly valid certificate for use with 
+
+SSL. There is also a plaintext injection attack against TLS 1.2, described as CVE-2009-
+
+3555. The flaw involves a fix on the server side, so many web application services will 
+
+need to be corrected.)SSL Session Because SSL is commonly used with web pages, it is often referred to as HTTPS (HTTP 
+
+Secure), and you will see the https: prefix in the address bar of a browser, as well as a 
+
+closed padlock in the corner whenever SSL is in operation. To use SSL, the client requests 
+
+an SSL session. The server responds with its public key certificate so that the client 
+
+can determine the authenticity of the server. The client returns a symmetric session key 
+
+encrypted under the server’s public key. Both the server and client compute the session 
+
+key, and then they switch to encrypted communication, using the shared session key.
+After an SSL session has been established, the details of the session can be viewed. 
+For example, Figure 6-41 shows an SSL connection established to https:login.yahoo.com. 
+SSL encryption covers communication 
+between a browser and the remote 
+
+web host.

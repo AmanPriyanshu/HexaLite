@@ -1,0 +1,61 @@
+ Section 7.3  Reliability and Integrity 
+517  Concurrency/Consistency
+Database systems are often multiuser systems. Accesses by two users sharing the same 
+database must be constrained so that neither interferes with the other. Simple locking is 
+
+done by the DBMS. If two users attempt to read the same data item, there is no conflict 
+
+because both obtain the same value.
+If both users try to modify the same data items, we often assume that there is no con-flict because each knows what to write; the value to be written does not depend on the 
+
+previous value of the data item. However, this supposition is not quite accurate.
+To see how concurrent modification can get us into trouble, suppose that the data-
+base consists of seat reservations for a particular airline flight. Agent A, booking a seat 
+
+for passenger Mock, submits a query to find what seats are still available. The agent 
+
+knows that Mock prefers a right aisle seat, and the agent finds that seats 5D, 11D,  
+
+and 14D are open. At the same time, Agent B is trying to book seats for a family of 
+
+three traveling together. In response to a query, the database indicates that 8A–B–C and 
+
+11D–E–F are the two remaining groups of three adjacent unassigned seats. Agent A 
+
+submits the update commandSELECT (SEAT-NO = '11D')ASSIGN 'MOCK,E' TO PASSENGER-NAMEwhile agent B submits the update sequenceSELECT (SEAT-NO = '11D')
+ASSIGN 'EDWARDS,S' TO PASSENGER-NAMEas well as commands for seats 11E and 11F. Then two passengers have been booked 
+into the same seat (which would be uncomfortable, to say the least).
+Both agents have acted properly: Each sought a list of empty seats, chose one seat 
+from the list, and updated the database to show to whom the seat was assigned. The dif-
+
+ficulty in this situation is the time delay between reading a value from the database and 
+
+writing a modification of that value. During the delay time, another user has accessed 
+
+the same data.To resolve this problem, a DBMS treats the entire query–update cycle as a single 
+atomic operation. The command from the agent must now resemble “read the current 
+
+value of seat PASSENGER-NAME for seat 11D; if it is ‘UNASSIGNED’, modify it 
+
+to ‘MOCK,E’ (or ‘EDWARDS,S’).” The read–modify cycle must be completed as an 
+
+uninterrupted item without allowing any other users access to the PASSENGER-NAME 
+
+field for seat 11D. The second agent’s request to book would not be considered until 
+
+after the first agent’s had been completed; at that time, the value of PASSENGER-
+
+NAME would no longer be ‘UNASSIGNED.’
+A final problem in concurrent access is read–write. Suppose one user is updating 
+a value when a second user wishes to read it. If the read is done while the write is 
+
+in progress, the reader may receive 
+
+data that are only partly updated. 
+
+Consequently, the DBMS locks any 
+
+read requests until a write has been 
+completed.Database management systems serve 
+multiple users at once by implementing 
+concurrency and sequencing.

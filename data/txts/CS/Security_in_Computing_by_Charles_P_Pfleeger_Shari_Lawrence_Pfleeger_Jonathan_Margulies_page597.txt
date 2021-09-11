@@ -1,0 +1,84 @@
+ Section 8.3  Cloud Security Tools and Techniques 
+563  SIDEBAR 8-3 Dropbox Drops Authentication
+For four hours during the afternoon of 19 June 2011, Dropbox, a popular 
+cloud storage service, stopped authenticating users. A coding error caused 
+
+their login system to begin accepting any password, leaving all user accounts 
+
+completely vulnerable. This was the second time in a matter of months that 
+
+security researchers were loudly complaining about Dropbox’s authentication 
+
+issues; in April of that year, security researcher Derek Newton had discov-
+
+ered that simply copying a small database file from a user’s hard drive was 
+
+enough to gain full access to that user’s files in Dropbox.
+Prior to April 2011, Dropbox had made strong claims about its security. 
+Regarding encryption, the Dropbox website said, “All files stored on Dropbox 
+
+servers are encrypted (AES256) and are inaccessible without your account 
+
+password.” Regarding privacy, the site claimed that “Dropbox employees 
+
+aren’t able to access user files, and when troubleshooting an account, they 
+
+only have access to file metadata.” Soon after security researcher Christopher 
+
+Soghoian publicly pointed out that these statements appeared to contradict 
+
+his observations of how the site worked, Dropbox softened their statements. 
+
+In an interview with ChenLi Wang [KAS11], a Dropbox executive, 
+TechRepub-
+lic reporter Michael Kassner asked why Dropbox’s encryption statement was 
+shortened to the simple, “All files stored on Dropbox servers are encrypted 
+
+(AES 256).” Wang’s response: “We were explaining that there are multiple 
+
+safeguards on your data: that the files are stored encrypted and in addition, 
+
+protected by your access credentials. However, a security professional could 
+
+incorrectly infer that the encryption key comes from the user’s password, so 
+
+we’ve separated the two points for clarity.” The company made a similarly 
+
+sweeping change to the privacy statement, saying that employees were “pro-
+
+hibited” from viewing users’ file contents rather than being unable to do so.
+Dropbox’s glaring authentication gaffe would have been nearly impos-
+sible if they had taken the small additional step of issuing each user a rela-
+
+tively unique, password-derived encryption key. If that had been the case, 
+
+the coding error might still have exposed user accounts but would almost 
+
+certainly not have exposed users’ stored files. One possible reason Drop-
+
+box chose not to do this was economic: Storing files unencrypted, or with 
+
+all files using the same encryption key, requires much less storage on the 
+
+part of the service provider because it lets them avoid storing multiple cop-
+
+ies of the same file. When thousands of users back up the same version of 
+Windows, for instance, they will all have many files in common. If Dropbox 
+
+can identify the overlap, they need to store just one copy of each file, then 
+
+maintain a record of all users who backed that file up, saving a great deal of 
+
+storage space. Offering users true confidentiality, including from Dropbox 
+
+itself, would mean sacrificing this money-saving strategy.
+The cloud storage services with the strongest security reputations 
+tend to publish their cryptography schemes in detail, and a number of 
+
+trustworthy, independent security and cryptography researchers regularly 
+
+review such schemes for correctness. When looking for a cloud storage 
+
+provider who can protect your confidentiality, be sure you understand, to 
+
+the extent possible, how they plan to protect your data.

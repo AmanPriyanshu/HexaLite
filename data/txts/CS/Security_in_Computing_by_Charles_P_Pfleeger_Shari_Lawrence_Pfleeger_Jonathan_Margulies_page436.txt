@@ -1,0 +1,65 @@
+402 Chapter 6  
+NetworksAs Sidebar 6-17 shows, denial of service can arise from malicious or benign causes. At 
+the start of an incident it can be difficult to distinguish between an intentional attack and 
+
+a random hardware or software failure. Furthermore, as in this situation, several causes, 
+
+no one of which is enough by itself 
+to cause a problem, can interact in a 
+
+way that becomes serious. Yet teas-
+
+ing out the individual causes can 
+
+be challenging to an administra-
+
+tor, especially when faced with the 
+
+immediate problem of trying to get a 
+
+failed system operating again.
+From the three basic causes of failed service—lack of capacity or overload, blocked 
+access, and unresponsive components—we move now to identify the vulnerabilities that 
+
+could lead to these failures.
+Flooding Attacks in DetailThe most common malicious denial-of-service attack type is flooding. It might seem 
+as if overwhelming a victim would require prodigious resources. However, exploiting 
+
+weaknesses in network protocols and utilities can produce denial of service; in fact, a 
+
+few lines of code from one computer can bring down a seemingly more powerful net-
+
+work entity. In this section we examine how flooding attacks are assembled.
+Insufficient Resources
+In our example of the teacher and the six-year-olds, the teacher simply could not handle 
+demands from all the students: one at a time, perhaps, but not all at once. One teacher 
+
+with two or three students could probably have coped, or ten teachers with thirty 
+ map the connectivity of its 25,000 nodes. The hospital called in its network equipment supplier, Cisco, to help redesign and reimplement its network. 
+
+Over the weekend, hospital and Cisco engineers tested components and 
+segments and replaced switches with routers that were not subject to the 
+
+spanning tree problem. By Monday 18 November, the new network was 
+
+performing reliably and users returned to using the IT network instead 
+
+of paper.
+This incident occurred in 2002, but the vulnerability remains relevant. 
+Organizations are reluctant to redesign and reimplement complex net-
+
+works that have grown over time; cost and inconvenience are two strong 
+
+motivators for maintaining the status quo. But as staff members move on, 
+
+people forget a network’s architecture and design rationale, so mainte-
+
+nance often consists of leaving things alone as much as possible. As this 
+example shows, that strategy has a finite life span and often catastrophic 
+
+consequences.SIDEBAR 6-17 ContinuedIf a network works, administrators are 
+tempted to expand it incrementally 
+
+instead of redesigning it to address 
+
+increased usage.

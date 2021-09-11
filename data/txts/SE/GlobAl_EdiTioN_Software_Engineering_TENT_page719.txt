@@ -1,0 +1,51 @@
+˜˜˚˛ˆ˜˜˜˜˜˜
+1. The internal attribute must be measured accurately. However, measurement is not always straightforward and may require specially developed tools.2. A relationship must exist between the attribute that can be measured and the exter-
+nal quality attribute that is of interest. That is, the value of the quality attribute 
+
+must be related, in some way, to the value of the attribute than can be measured.3. This relationship between the internal and external attributes must be understood, 
+
+validated, and expressed in terms of a formula or model. Model formulation 
+
+involves identifying the functional form of the model (linear, exponential, etc.) 
+
+by analysis of collected data, identifying the parameters that are to be included 
+in the model and calibrating these parameters using existing data.Recent work in the area of software analytics (Zhang et al. 2013) has used data-mining and machine-learning techniques to analyze repositories of software product 
+
+and process data. The idea behind software analytics (Menzies and Zimmermann 
+
+2013) is that we do not, in fact, need a model that reflects the relationships between 
+
+software quality and collected data. Rather, if there is enough data, correlations can 
+
+be discovered and predictions made about software attributes. I discuss software 
+
+analytics in Section 24.5.4.We have very little published information about systematic software measure-ment in industry. Many companies do collect information about their software, 
+
+such as the number of requirements change requests or the number of defects 
+
+discovered in testing. However, it is not clear if they then use these measurements 
+
+systematically to compare software products and processes or assess the impact 
+
+of changes to software processes and tools. There are several reasons why this 
+
+is˜difficult:1. It is impossible to quantify the return on investment of introducing an organiza-tional metrics or software analytics program. We have seen significant improve-
+ments in software quality over the past few years without the use of metrics, so 
+it is difficult to justify the initial costs of introducing systematic software meas-
+urement and assessment.2. There are no standards for software metrics or standardized processes for meas-
+urement and analysis. Many companies are reluctant to introduce measurement 
+
+programs until such standards and supporting tools are available.3.
+ Measurement may require the development and maintenance of specialized 
+
+software tools. It is difficult to justify the costs of tool development when the 
+returns from measurement are unknown.4.
+ In many companies, software processes are not standardized and are poorly 
+
+defined and controlled. As such, there is too much process variability within the 
+same company for measurements to be used in a meaningful way.5.
+ Much of the research on software measurement and metrics has focused on 
+
+code-based metrics and plan-driven development processes. However, more and 
+
+more software is now developed by reusing and configuring existing application 

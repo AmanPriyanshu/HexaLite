@@ -1,0 +1,53 @@
+ Section 3.1  Unintentional (Nonmalicious) Programming Oversights 
+137  Code and Data Before we can explain the real impact of buffer overflows, we need to clarify one point: 
+
+Code, data, instructions, the operating system, complex data structures, user programs, 
+
+strings, downloaded utility routines, hexadecimal data, decimal data, character strings, 
+
+code libraries, photos, and everything else in memory are just strings of 0s and 1s; think 
+
+of it all as bytes, each containing a number. The computer pays no attention to how 
+
+the bytes were produced or where they came from. Each computer instruction deter-
+
+mines how data values are interpreted: An Add instruction implies the data item is inter-
+
+preted as a number, a Move instruction applies to any string of bits of arbitrary form, 
+
+and a Jump instruction assumes the target is an instruction. But at the machine level, 
+
+nothing prevents a Jump instruction 
+
+from transferring into a data field 
+
+or an Add command operating on 
+
+an instruction, although the results 
+
+may be unpleasant. Code and data 
+
+are bit strings interpreted in a par-
+
+ticular way.
+You do not usually try to execute data values or perform arithmetic on instructions. 
+But if 0x1C is the operation code for a Jump instruction, and the form of a Jump instruc-
+
+tion is 1C displ, meaning execute the instruction at the address 
+displ bytes ahead of this 
+instruction, the string 0x1C0A is interpreted as jump forward 10 bytes. But, as shown 
+
+in Figure 3-2, that same bit pattern represents the two-byte decimal integer 7178. So 
+
+storing the number 7178 in a series of instructions is the same as having programmed a 
+
+Jump. Most higher-level-language programmers do not care about the representation of 
+
+instructions in memory, but curious investigators can readily find the correspondence. 
+
+Manufacturers publish references specifying precisely the behavior of their chips, and 
+StackHeapStatic dataCodeHigh addressesLow addressesFIGURE 3-1 Typical Memory Organization
+In memory, code is indistinguishable 
+from data. The origin of code (respected 
+
+source or attacker) is also not visible.

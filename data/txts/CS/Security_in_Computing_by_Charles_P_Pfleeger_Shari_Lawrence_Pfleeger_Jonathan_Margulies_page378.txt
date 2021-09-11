@@ -1,0 +1,70 @@
+344 Chapter 6  
+Networkswire. The equipment needed to pick up signals is inexpensive and easy to obtain, so 
+inductance threats are a serious concern for cable-based networks. For the attack to 
+
+work, the intruder must be fairly close to the cable; therefore, this form of attack is lim-
+
+ited to situations with physical access. Cable Splicing If the attacker is not close enough to take advantage of inductance, then more hostile 
+
+measures may be warranted. The easiest form of intercepting a cable is by direct cut. 
+
+If a cable is severed, all service on it stops. As part of the repair, an attacker can splice 
+
+in a secondary cable that then receives a copy of all signals along the primary cable. 
+
+Interceptors can be a little less obvious but still accomplish the same goal. For example, 
+SIDEBAR 6-1 Electromagnetic Radiation
+Electromagnetic leakage of electronic devices is a known phenomenon that 
+has been studied for decades. Military experts worry about the ability of an 
+
+adversary to intercept sensitive information from such sources as the elec-
+
+trical impulses generated as keys are pressed on a keyboard or the mag-
+
+netic radiation from the circuitry that displays images on video screens. To 
+
+intercept such data requires sophisticated electronics equipment capable of 
+
+detecting small changes in low-level signals; consequently, the techniques 
+
+are applicable primarily to very high value situations, such as military ones.
+Because the military is the primary affected target, much of the 
+research in this area is not public. Two Ukrainian researchers, N.N. Goro-
+
+bets and A.V. Trivaylo, have published [GOR09] results of some recent pub-
+
+lic studies in this area.
+They consider current technology: flat panel displays. Conventional 
+wisdom has been that old style cathode ray tube (CRT) displays emit detect-
+
+able signals but that the newer flat panel liquid crystal displays (LCDs) are 
+
+“safe.” Instead, the researchers report, certain technical characteristics of 
+
+the interface and display may make LCDs even easier to compromise than 
+
+CRTs. The researchers present an example showing interception of test 
+
+data from 10 meters (30 feet) away, two offices distant.
+They also report on experiments involving keyboards. Using different 
+techniques, Gorobets and Trivaylo recovered keyboard signals from dis-
+
+tances of 5 to 8 meters (roughly 15 to 25 feet).
+These distances are small enough that computers in most offices, 
+laboratories, or government installations are probably not at major risk of 
+
+data interception by outsiders. At those distances, the attacker would have 
+
+to be just outside the building (in a rather exposed location) or across the 
+
+hall, both locations that invite questions such as “What in the world are you 
+
+doing?” However, people in coffee shops, waiting rooms, even hotel rooms 
+
+and conference facilities should be aware that the privacy of their computer 
+
+signals is not assured. Is the person sitting at the next table browsing the 
+
+Web or intercepting your keystrokes? We should not ignore the potential 
+
+vulnerability of a wiretap at a distance.

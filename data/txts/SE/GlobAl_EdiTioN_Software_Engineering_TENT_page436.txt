@@ -1,0 +1,35 @@
+Chapter 18 introduces the related topic of service-oriented architectures, 
+which link the notions of distribution and reuse. Services are reusable 
+
+software components whose functionality can be accessed over the 
+
+Internet. I discuss two widely-used approaches to service development 
+
+namely SOAP-based and RESTful services. I explain what is involved in 
+
+creating services (service engineering) and composing services to create 
+
+new software systems.
+The focus of Chapters 19Œ21 is systems engineering. In Chapter 19, 
+I introduce the topic and explain why it is important that software 
+
+engineers should understand systems engineering. I discuss the sys
+-
+tems engineering life cycle and the importance of procurement in that 
+
+life-cycle.Chapter 20 covers systems of systems (SoS). The large systems that we 
+will build in the 21st century will not be developed from scratch but will be created by integrating existing complex systems. I explain why an 
+
+understanding of complexity is important in SoS development and dis
+-
+cuss architectural patterns for complex systems of systems.
+Most software systems are not apps or business systems but are embed
+-ded real-time systems. Chapter 21 covers this important topic. I introduce 
+
+the idea of a real-time embedded system and describe architectural pat
+-
+terns that are used in embedded systems design. I then explain the pro
+-
+cess of timing analysis and conclude the chapter with a discussion of 
+
+real-time operating systems.

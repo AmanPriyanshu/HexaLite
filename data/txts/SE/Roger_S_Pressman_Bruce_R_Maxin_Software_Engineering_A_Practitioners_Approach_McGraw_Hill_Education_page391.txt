@@ -1,0 +1,132 @@
+CHAPTER 16  
+PATTERN-BASED DESIGN
+ 361patterns. Looking through a number of patterns repositories, you ﬁ nd the follow-
+ing patterns, along with the problem that each solves:  
+ 
+ 
+ 
+ 
+ 
+ 
+AdvancedSearch. 
+ Users must ﬁ
+ nd a speciﬁ
+ c item in a large collection of items. 
+   
+ 
+ 
+ 
+ 
+ 
+HelpWizard.
+ 
+ Users need help on a certain topic related to the website or 
+when they need to ﬁ nd a speciﬁ
+ c page within the site. 
+   
+ 
+ 
+ 
+ 
+ 
+SearchArea. 
+ Users must ﬁ
+ nd a page. 
+   
+ 
+ 
+ 
+ 
+ 
+SearchTips.
+ 
+ Users need to know how to control the search engine. 
+   
+ 
+ 
+ 
+ 
+ 
+SearchResults. 
+ Users have to process a list of search results. 
+   
+ 
+ 
+ 
+ 
+ 
+SearchBox. 
+ Users have to ﬁ
+ nd an item or speciﬁ
+ c information. 
+ 
+ 
+  For  SafeHomeAssured.com 
+ the number of products is not particularly large, and 
+each has a relatively simple categorization, so  AdvancedSearch 
+ and  
+HelpWizard
+ 
+ are probably not necessary. Similarly, the search is simple enough not to require 
+
+ SearchTips
+ 
+. The description of  SearchBox 
+, however, is given (in part) as: 
+ 
+ 
+ 
+  
+ 
+Search Box 
+ 
+ 
+(Adapted from
+ 
+   
+www.welie.com/patterns/showPattern.php?patternID=search) 
+ 
+   
+Problem: 
+ The users need to ﬁ
+ nd an item or speciﬁ
+ c information. 
+  
+Motivation: 
+ Any situation in which a keyword search is applied across a 
+collection of content objects organized as Web pages. 
+  
+Context: 
+ Rather than using navigation to acquire information or con-
+tent, the user wants to do a direct search through content 
+contained on multiple Web pages. Any website that already 
+
+has primary navigation. User may want to search for an item 
+in a category. User might want to further specify a query. 
+  
+Forces: 
+ The website already has primary navigation. Users may 
+want to search for an item in a category. Users might want to 
+
+further specify a query using simple Boolean operators.   
+Solution: 
+ Offer search functionality consisting of a search label, a key-
+word ﬁ eld, a ﬁ
+ lter if applicable and a “go” button. Pressing 
+the return key has the same function as selecting the go 
+button. Also provide Search Tips and examples in a separate 
+
+page. A link to that page is placed next to the search func-
+tionality. The edit box for the search term is large enough to 
+
+accommodate three typical user queries (typically around 
+20 characters). If the number of ﬁ lters is more than 2, use a 
+combo box for ﬁ lters selection, otherwise a radio button. 
+  The search results are presented on a new page with a clear 
+label containing at least “Search results” or similar. The search 
+
+function is repeated in the top part of the page with the entered 
+
+keywords, so that the users know what the keywords were. 
+  
+The pattern description continues with other entries as described in Section 16.1.3.  pre22126_ch16_347-370.indd   361pre22126_ch16_347-370.indd   36116/12/13   6:22 PM16/12/13   6:22 PM

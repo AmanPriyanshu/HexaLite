@@ -1,0 +1,69 @@
+546 Chapter 7  
+DatabasesSecure Data Storage In the Hadoop model, data items are replicated and stored in any convenient location. If 
+
+one data store becomes so full that performance suffers, controllers automatically split 
+
+the data and move some elsewhere. The application developer generally does not know, 
+
+much less care, where the data are physically stored.Data-storage providers seek the lowest cost, and hosting data in the center of New 
+York City, London, or Tokyo is likely to be far more costly than Alcoa, Tennessee, or 
+
+Pateley Bridge, England. With adequate power and network infrastructure, any place is 
+
+as good as any other.
+Almost. Suppose data are stored in a politically sensitive region, even a war zone: A 
+mortar attack or fallout from a missile strike is not desirable. Or suppose the data are 
+
+housed in a country whose ruler decides to nationalize all foreign-held assets. Or con-
+
+sider a locale where hungry citizens storm an installation to steal anything they can later 
+
+resell as scrap in order to buy food. In other chapters we have described access control 
+
+in terms of magnetic cards and fingerprint readers for polite persons, but access control 
+
+on a global basis must address physical and political issues, as well.Transaction Logs and Auditing 
+Activity logs are important for monitoring who did what. Review of audit logs can 
+
+help an administrator regulate access permissions, and logs also help determine the 
+
+extent of damage if an error or security breach occurs. Determining what to track is 
+
+challenging, however: Too little tracking can limit the usefulness of the access logs, but 
+
+too much data can overwhelm humans and technology, making it difficult to find the 
+
+proverbial needle in a haystack of accesses. Data granularity affects volume of tracking 
+
+data. It may be useless to know that user A accessed database D on Monday, when what 
+
+would really help is to know that A 
+
+modified records 2 and 17, or even 
+
+that A changed the address field in 
+
+2, and the salary field of 17. The 
+
+tracking data available depend on 
+
+the granularity of access recorded 
+
+for the data.In big data applications the unit of access is often the file, so a log would record only 
+that an application accessed file F, not the specific data within F.
+Real-time Security Monitoring As described in Chapter 6, intrusion detection, and protection systems allow admin-
+
+istrators to monitor activity, perhaps detect anomalous behavior or attacks, and apply 
+
+countermeasures while an incident is underway. Big data architectures involve nimble 
+
+movement of data and computation, but the connecting network may be a large shared 
+
+network, often the Internet. Real-time security monitoring is not intended for complex, 
+
+shared, fluid network architectures.
+Tracking access is expensive, especially 
+
+if accesses are numerous; detailed access 
+
+auditing is uncommon for big data.

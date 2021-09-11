@@ -1,0 +1,60 @@
+ Section 3.2  Malicious Code—Malware 
+185  When an attacker finds a vulnerability to exploit, the next step is using that vulner-
+ability to further the attack. Next we consider how malicious code gains control as part 
+
+of a compromise.How Malicious Code Gains Control To gain control of processing, malicious code such as a virus (V) has to be invoked 
+
+instead of the target (T). Essentially, the virus either has to seem to be T, saying effec-
+
+tively “I am T,” or the virus has to push T out of the way and become a substitute for T, 
+
+saying effectively “Call me instead of T.” A more blatant virus can simply say “invoke 
+
+me [you fool].”
+The virus can assume T’s name by replacing (or joining to) T’s code in a file struc-
+ture; this invocation technique is most appropriate for ordinary programs. The virus can 
+
+overwrite T in storage (simply replacing the copy of T in storage, for example). Alter-
+
+natively, the virus can change the pointers in the file table so that the virus is located 
+
+instead of T whenever T is accessed through the file system. These two cases are shown 
+
+in Figure 3-22.The virus can supplant T by altering the sequence that would have invoked T to now 
+invoke the virus V; this invocation can replace parts of the resident operating system 
+
+by modifying pointers to those resident parts, such as the table of handlers for different 
+
+kinds of interrupts.Embedding: Homes for Malware The malware writer may find it appealing to build these qualities into the malware:
+• The malicious code is hard to detect.
+• The malicious code is not easily destroyed or deactivated.
+
+• The malicious code spreads infection widely.
+
+• The malicious code can reinfect its home program or other programs.
+key for a class of locks with relatively little effort because of a characteristic 
+(vulnerability?) of these locks; the attack finds the master key one pin at a 
+
+time. According to Schneier [SCH03] and Blaze, the characteristic was well 
+
+known to locksmiths and lock-picking criminals, but not to the general public 
+
+(users). A respected cryptographer, Blaze came upon his strategy naturally: 
+
+His approach is analogous to a standard cryptologic attack in which one 
+
+seeks to deduce the cryptographic key one bit at a time.
+Blaze confronted an important question: Is it better to document a tech-
+nique known by manufacturers and attackers but not to users, or to leave 
+
+users with a false sense of security? He opted for disclosure. Schneier notes 
+
+that this weakness has been known for over 100 years and that several other 
+
+master key designs are immune from Blaze’s attack. But those locks are not 
+
+in widespread use because customers are unaware of the risk and thus do 
+
+not demand stronger products. Says Schneier, “I’d rather have as much 
+
+information as I can to make informed decisions about security.”

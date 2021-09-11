@@ -1,0 +1,68 @@
+ Section 3.1  Unintentional (Nonmalicious) Programming Oversights 
+163  several classic and significant exploits that have had a buffer overflow as a significant 
+contributing cause. From these examples you can see the amount of harm that a seem-
+
+ingly insignificant program fault can produce.
+Race ConditionAs the name implies, a race condition means that two processes are competing within 
+
+the same time interval, and the race affects the integrity or correctness of the computing 
+
+tasks. For instance, two devices may submit competing requests to the operating system 
+
+for a given chunk of memory at the same time. In the two-step request process, each 
+
+device first asks if the size chunk is available, and if the answer is yes, then reserves 
+
+that chunk for itself. Depending on the timing of the steps, the first device could ask for 
+
+the chunk, get a “yes” answer, but then not get the chunk because it has already been 
+
+assigned to the second device. In cases like this, the two requesters “race” to obtain a 
+
+resource. A race condition occurs most often in an operating system, but it can also 
+
+occur in multithreaded or cooperating processes.Unsynchronized Activity
+In a race condition or serialization flaw two processes execute concur-
+rently, and the outcome of the com-
+
+putation depends on the order in 
+
+which instructions of the processes 
+execute.
+Imagine an airline reservation system. Each of two agents, A and B, simultaneously 
+tries to book a seat for a passenger on flight 45 on 10 January, for which there is exactly 
+
+one seat available. If agent A completes the booking before that for B begins, A gets the 
+
+seat and B is informed that no seats are available. In Figure 3-16 we show a timeline for 
+
+this situation.However, you can imagine a situation in which A asks if a seat is available, is told 
+yes, and proceeds to complete the purchase of that seat. Meanwhile, between the time A 
+
+asks and then tries to complete the purchase, agent B asks if a seat is available. The sys-
+
+tem designers knew that sometimes agents inquire about seats but never complete the 
+
+booking; their clients often choose different itineraries once they explore their options. 
+
+For later reference, however, the booking software gives each agent a reference number 
+
+to make it easy for the server to associate a booking with a particular flight. Because A 
+
+has not completed the transaction before the system gets a request from B, the system 
+tells B that the seat is available. If the system is not designed properly, both agents can 
+
+complete their transactions, and two passengers will be confirmed for that one seat 
+
+(which will be uncomfortable, to say the least). We show this timeline in Figure 3-17.
+A race condition is difficult to detect because it depends on the order in which two 
+processes execute. But the execution order of the processes can depend on many other 
+
+things, such as the total load on the system, the amount of available memory space, the 
+
+priority of each process, or the number and timing of system interrupts to the processes. 
+During testing, and even for a long period of execution, conditions may never cause 
+Race condition: situation in which 
+program behavior depends on the order 
+
+in which two procedures execute

@@ -1,0 +1,48 @@
+CHAPTER 30  
+PRODUCT METRICS 667 In reality, product metrics for OO systems can be applied not only to the de-
+sign model, but also to the requirements model. In the sections that follow, we 
+
+discuss metrics that provide an indication of quality at the OO class level and 
+the operation level. In addition, metrics applicable for project management and 
+testing are also explored.     30.3.3   Class-Oriented Metrics—The CK Metrics Suite 
+ The class is the fundamental unit of an OO system. Therefore, measures and 
+metrics for an individual class, the class hierarchy, and class collaborations will 
+
+be invaluable when you are required to assess OO design quality. A class encap-
+
+sulates data and the function that manipulate the data. It is often the “parent” for 
+subclasses (sometimes called children) that inherit its attributes and operations. 
+It often collaborates with other classes. Each of these characteristics can be used 
+as the basis for measurement.  7    
+ Chidamber and Kemerer (CK) have proposed one of the most widely refer-
+enced sets of OO software metrics [Chi94]. Often referred to as the  CK metrics suite,  the authors have proposed six class-based design metrics for OO systems.  8   
+  
+Weighted methods per class (WMC).   Assume that  n  methods of complexity  c 
+1,  c 
+2,  
+cn  are deﬁ ned for a class  
+C.  The speciﬁ c complexity metric that is chosen 
+(e.g., cyclomatic complexity) should be normalized so that nominal complexity 
+for a method takes on a value of 1.0.WMC 5 S  c  
+i  
+ for  i  
+5 1 to  n . The number of methods and their complexity are reasonable indi-cators of the amount of effort required to implement and test a class. In addition, 
+the larger the number of methods, the more complex is the inheritance tree (all 
+subclasses inherit the methods of their parents). Finally, as the number of meth-
+
+ods grows for a given class, it is likely to become more and more application 
+speciﬁ c, thereby limiting potential reuse. For all of these reasons, WMC should 
+be kept as low as is reasonable.    
+Depth of the inheritance tree (DIT).   This metric is “the maximum length from the node to the root of the tree” [Chi94]. Referring to   Figure 30.5  , the value of DIT for the class hierarchy shown is 4. As DIT grows, it is likely that lower-level 
+
+classes will inherit many methods. This leads to potential difﬁ culties when at-
+
+tempting to predict the behavior of a class. A deep class hierarchy (DIT is large)   7 
+ It should be noted that the validity of some of the metrics discussed in this chapter is currently 
+debated in the technical literature. Those who champion measurement theory demand a de-
+gree of formalism that some OO metrics do not provide. However, it is reasonable to state that 
+
+the metrics noted provide useful insight for the software engineer. 
+  8 
+ Chidamber, Darcy, and Kemerer use the term  
+methods  rather than  operations . Their usage of the term is reﬂ ected in this section. 

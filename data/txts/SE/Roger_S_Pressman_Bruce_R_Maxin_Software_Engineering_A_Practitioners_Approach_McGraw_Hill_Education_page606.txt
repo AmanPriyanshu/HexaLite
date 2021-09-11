@@ -1,0 +1,67 @@
+576 PART THREE  
+QUALITY MANAGEMENTtest gestures. Instead, testers need to create test framework programs that make calls to functions that simulate gesture events. All of this is expensive and 
+time-consuming.  Accessibility testing for visually impaired users is challenging because gesture interfaces typically do not provide either tactile or auditory feedback. Usability 
+and accessibility testing for gestures become very important for ubiquitous de-
+vices like smartphones. It may be important to test the operation of the device 
+when gesture operations are not available.  Ideally user stories or use cases are written in sufﬁ cient detail to allow 
+their use as the basis for test scripts. It is important to recruit representative 
+
+users and include all targeted devices to take screen differences into account 
+
+when testing gestures with a MobileApp. Finally, testers should ensure that the 
+
+gestures conform to the standards and contexts set for the mobile device or 
+
+platform. 
+  
+ 
+ 
+26.3.2   
+Voice Input and Recognition 
+ 
+Smart mobile devices now make use of voice input to allow for contemporane-ous hands-busy, eyes-busy operation of the device. Voice input may take several 
+
+forms with different levels of programming complexity required to process each. 
+Voice-mail input occurs when a message is simply recorded for playback later. 
+
+Discrete word recognition can be used to allow users to verbally select items 
+from a menu with a small number of choices. Continuous speech recognition 
+reﬂ ects attempts to translate dictated speech into meaningful text strings. Each 
+type of voice input has its own testing challenges.   
+ 
+ 
+ 
+ 
+According to Shneiderman [Shn09] all forms of speech input and process-ing are hindered by interference from noisy environments. Using voice com-
+mands to control a device impresses a greater cognitive load on the user, as 
+
+compared to pointing to a screen object or pressing a key. The user must think 
+
+of the correct word or words to get the MobileApp to perform the desired ac-
+tion. When pointing at an object, however, the user merely needs to recognize 
+
+the appropriate screen object and select it. However, the breadth and accu-
+
+racy of speech recognition systems are evolving rapidly, and it is likely that 
+
+voice recognition will become the dominant form of communication in many 
+
+MobileApps. 
+ Testing the quality and reliability of voice input and recognition presents 
+technical challenges for even the best testing organizations. Erroneous voice 
+
+input (due to user error, misspoken words or phrases, or environmental inter-
+
+ference) must be tested to ensure that bad input does not cause the Mobile-
+App or the device to fail. Because each user/device combination is different, a 
+
+broad population of users and environments should be involved to ensure an 
+
+acceptable error rate. Finally, it is important to log errors so that developers 
+
+can improve the ability of the MobileApp to process speech input. 
+   Testing of voice input 
+should take environ-
+mental conditions and 
+individual voice varia-
+tion into account. pre22126_ch26_567-583.indd   576pre22126_ch26_567-583.indd   57613/12/13   6:15 PM13/12/13   6:15 PM

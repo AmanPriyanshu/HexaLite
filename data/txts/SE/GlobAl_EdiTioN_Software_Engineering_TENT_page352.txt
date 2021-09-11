@@ -1,0 +1,37 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜the required insulin dose computed with the previously delivered dose. If it is much 
+higher, this may mean that the amount has been computed incorrectly. The system 
+
+may also keep track of the dose sequence. After a number of above-average doses 
+
+have been delivered, a warning may be issued and further dosage limited.Some of the resulting safety requirements for the insulin pump software are shown 
+in Figure 12.6. The requirements in Figure 12.6 are user requirements. Naturally, they 
+
+would be expressed in more detail in a more detailed system requirements specification.
+
+The software processes used to develop safety-critical software are based on the 
+
+processes used in software reliability engineering. In general, a great deal of care is 
+taken in developing a complete, and often very detailed, system specification. The 
+design and implementation of the system usual follow a plan-based, waterfall model, 
+
+with reviews and checks at each stage in the process. Fault avoidance and fault 
+
+detection are the drivers of the process. For some types of system, such as aircraft 
+systems, fault-tolerant architectures, as I discussed in Chapter 11, may be used.Reliability is a prerequisite for safety-critical systems. Because of the very high costs and potentially tragic consequences of system failure, additional verification 
+activities may be used in safety-critical systems development. These activities may 
+include developing formal models of a system, analyzing them to discover errors 
+
+and inconsistencies, and using static analysis software tools that parse the software 
+source code to discover potential faults.Safe systems have to be reliable, but, as I have discussed, reliability is not enough. 
+Requirements and verification errors and omissions may mean that reliable systems 
+are unsafe. Therefore, safety-critical systems development processes should include Figure 12.6  Examples of safety 
+requirements SR1: The system shall not deliver a single dose of insulin that is greater than a specified 
+maximum dose for a system user.SR2: The system shall not deliver a daily cumulative dose of insulin that is greater than 
+a specified maximum daily dose for a system user.SR3: The system shall include a hardware diagnostic facility that shall be executed at 
+least four times per hour.SR4: The system shall include an exception handler for all of the exceptions that are 
+identified in Table 3.SR5: The audible alarm shall be sounded when any hardware or software anomaly is 
+discovered and a diagnostic message as defined in Table 4 shall be displayed.SR6: In the event of an alarm, insulin delivery shall be suspended until the user has 
+reset the system and cleared the alarm.Note: Tables 3 and 4 relate to tables that are included in the requirements document; 
+they are not shown here.

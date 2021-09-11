@@ -1,0 +1,63 @@
+836 Chapter 13  
+Emerging Topics
+voter can examine and verify. The paper ballot is then counted by hand or processed 
+electronically.
+The act of casting a ballot is part of a larger process to support voting. The process 
+must include building and maintaining the list of eligible voters, ensuring that each per-
+
+son knows when and where to vote, confirming the identity of each professed eligible 
+
+voter, recording who has voted, supporting absentee ballots (that is, ballots for people 
+
+who cannot report to a voting place), and assisting voters who report to the wrong poll-
+
+ing place or need other assistance. Transmitting and Counting Ballots
+There are many important steps in the election process, starting before an individual’s 
+voting and ending with determination of the winners of elections. Voters must be regis-
+
+tered or authorized, candidates must be approved, ballots must be generated, the elec-
+
+tion parameters (time and place) must be announced, and election workers must be 
+
+trained. After votes are cast, they must be tallied at individual polling sites, transmitted 
+
+to precincts or election headquarters, and then amalgamated and totaled there. Finally, 
+
+the results must be reported to officials who verify that the counts are correct and that 
+
+the process was fair and honest. 
+Each of these steps has obvious security and privacy implications. For example, in 
+some political cultures, it may be desirable to keep secret the identities of those who 
+
+voted, to prevent retaliation against people who did not vote for a powerful candidate. 
+
+Indeed, most citizens want to vote anonymously. Although anonymity is easy to achieve 
+
+with paper ballots (ignoring the possibility of fingerprint tracing or secretly marked 
+
+ballots) and fairly easy to accomplish with simple machines such as optical readers 
+
+(assuming usage protocols that preclude associating the order in which people voted 
+
+with a voting log from the machine), it is sometimes more difficult to maintain anonym-
+
+ity with computers. To understand why, consider the integrity objectives: Every vote is counted and 
+only authorized people can vote. To satisfy the objective that every vote be counted, we 
+
+would ideally have a way a voter could verify that his or her vote was counted, that is, 
+
+be able to pick that vote out of the pool that was counted, which would imply some link-
+
+age between a voter and a vote. Similarly, to ensure that only authorized people voted, 
+
+we need to be able to trace each vote to the single authorized voter who cast that ballot. 
+
+However, as you have probably already concluded, those connections can also reveal 
+
+who cast which ballot.What Is a Fair Election?We often hear about the need for “free and fair elections.” But what exactly is a fair 
+
+election? According to Shamos [SHA93], a fair election is one that satisfies all of the 
+
+following conditions:
+• Each voter’s choices must be kept secret.
+• Each voter may vote only once and only for allowed offices.

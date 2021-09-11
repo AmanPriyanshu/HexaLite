@@ -1,0 +1,78 @@
+CHAPTER 29  
+SOFTWARE CONFIGURATION MANAGEMENT
+ 637on the status and priority of the change. An  engineering change order
+ 
+ (ECO) is 
+generated for each approved change. The ECO describes the change to be made, 
+the constraints that must be respected, and the criteria for review and audit.  The object(s) to be changed can be placed in a directory that is controlled solely by the software engineer making the change. A version control system 
+(see the CVS sidebar) updates the original ﬁ le once the change has been made. 
+As an alternative, the object(s) to be changed can be “checked out” of the project 
+database (repository), the change is made, and appropriate SQA activities are 
+applied. The object(s) is (are) then “checked in” to the database and appropriate 
+version control mechanisms (Section 29.3.2) are used to create the next version 
+of the software.  
+ 
+ 
+ 
+  These version control mechanisms, integrated within the change control process, implement two important elements of change management—access 
+control and synchronization control.  Access control
+ 
+ governs which software engi-
+neers have the authority to access and modify a particular conﬁ guration object. 
+ Synchronization control
+ 
+ helps to ensure that parallel changes, performed by two 
+different people, don’t overwrite one another. 
+ You may feel uncomfortable with the level of bureaucracy implied by the 
+change control process description shown in  Figure 29.5  
+ 
+. This feeling is not un-common. Without proper safeguards, change control can retard progress and 
+
+create unnecessary red tape. Most software developers who have change control 
+mechanisms (unfortunately, many have none) have created a number of layers of 
+
+control to help avoid the problems alluded to here.   
+ 
+Prior to an SCI becoming a baseline, only  informal change control
+ 
+ need be 
+applied. The developer of the conﬁ guration object (SCI) in question may make 
+whatever changes are justiﬁ ed by project and technical requirements (as long 
+as changes do not affect broader system requirements that lie outside the devel-
+oper’s scope of work). Once the object has undergone technical review and has 
+
+been approved, a baseline can be created.  7 
+ 
+ 
+ 
+ Once an SCI becomes a baseline,  
+proj-
+ect level change control
+ 
+ is implemented. Now, to make a change, the developer 
+must gain approval from the project manager (if the change is “local”) or from 
+the CCA if the change affects other SCIs. In some cases, the developer dispenses 
+with the formal generation of change requests, change reports, and ECOs. How-
+ever, assessment of each change is conducted and all changes are tracked and 
+
+reviewed.    
+When the software product is released to customers,  formal change control
+ 
+ is instituted. The formal change control procedure has been outlined in  Figure 29.5  
+ 
+.  The change control authority plays an active role in the second and third lay-ers of control. Depending on the size and character of a software project, the    Opt for a bit more 
+change control than 
+you think you’ll need. 
+It’s likely that too 
+
+much will be the right 
+amount.   
+ 
+ uote:  “Change is 
+inevitable, except 
+for vending 
+machines.”  Bumper sticker 
+  
+7  A baseline can be created for other reasons as well. For example, when “daily builds” are cre-
+ated, all components checked in by a given time become the baseline for the next day’s work. 
+pre22126_ch29_623-652.indd   637pre22126_ch29_623-652.indd   63713/12/13   6:16 PM13/12/13   6:16 PM

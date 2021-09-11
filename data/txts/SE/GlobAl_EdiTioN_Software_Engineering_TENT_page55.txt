@@ -1,0 +1,34 @@
+There are three main activities in the requirements engineering process:1. Requirements elicitation and analysis 
+This is the process of deriving the system 
+requirements through observation of existing systems, discussions with poten-
+tial users and procurers, task analysis, and so on. This may involve the develop-
+ment of one or more system models and prototypes. These help you understand 
+
+the system to be specified.2. Requirements specification Requirements specification is the activity of trans-
+lating the information gathered during requirements analysis into a document 
+
+that defines a set of requirements. Two types of requirements may be included 
+in this document. User requirements are abstract statements of the system 
+
+requirements for the customer and end-user of the system; system requirements 
+are a more detailed description of the functionality to be provided.3. Requirements validation 
+This activity checks the requirements for realism, 
+
+consistency, and completeness. During this process, errors in the require-
+ments document are inevitably discovered. It must then be modified to correct 
+
+these problems.Requirements analysis continues during definition and specification, and new 
+requirements come to light throughout the process. Therefore, the activities of analy-
+sis, definition, and specification are interleaved.In agile methods, requirements specification is not a separate activity but is seen as part of system development. Requirements are informally specified for each 
+
+increment of the system just before that increment is developed. Requirements are 
+specified according to user priorities. The elicitation of requirements comes from 
+
+users who are part of or work closely with the development team.Requirements
+elicitation andanalysis
+Requirements
+specificationRequirements
+validationSystem descriptionsUser and systemrequirementsRequirements
+documentFigure 2.4 The requirements 
+engineering process˜˜˚˜˜˜˜
+˜˜

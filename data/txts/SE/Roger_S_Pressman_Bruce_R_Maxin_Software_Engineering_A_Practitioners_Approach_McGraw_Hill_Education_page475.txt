@@ -1,0 +1,100 @@
+CHAPTER 20  
+REVIEW TECHNIQUES 445do sampling also increase. A software engineering team must establish the best value for  ai 
+ for the types of work products produced.  3 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+3  Thelin and his colleagues have conducted a detailed simulation that can assist in making this 
+determination. See [The01] for details.   
+Quality Issues   
+Quality Issues  
+ 
+The scene:  Doug Miller’s ofﬁ
+ ce as 
+the  SafeHome 
+ software project begins. 
+  
+The players:  Doug Miller (manager of the  
+SafeHome 
+ software engineering team) and other members of the 
+product software engineering team.   
+The conversation:    
+Doug:  I know we didn’t spend time developing a qual-
+ity plan for this project, but we’re already into it and we 
+  
+Jamie:  Sure. We’ve already decided that as we 
+develop the requirements model [Chapters 9–11], Ed 
+has committed to develop a testing procedure for each 
+requirement.   
+Doug:  That’s really good, but we’re not going to wait 
+until testing to evaluate quality, are we? 
+  
+Vinod:  No! Of course not. We’ve got reviews sched-
+uled into the project plan for this software increment. 
+We’ll begin quality control with the reviews. 
+  
+Jamie:  I’m a bit concerned that we won’t have 
+enough time to conduct all the reviews. In fact, I know 
+we won’t. 
+  
+Doug:  Hmmm. So what do you propose? 
+  
+Jamie:  I say we select those elements of the require-
+ments and design model that are most critical to  Safe-Home 
+ and review them.   
+Vinod:  But what if we miss something in a part of the 
+model we don’t review? 
+  
+Shakira:  I read something about a sampling tech-
+nique [Section 20.6.4] that might help us target candi-
+dates for review. (Shakira explains the approach.) 
+  
+Jamie:  
+to sample every element of the models. 
+  
+Vinod:  What do you want us to do, Doug? 
+  
+Doug:  Let’s steal something from Extreme Program-
+ming [Chapter 5]. We’ll develop the elements of each 
+
+model in pairs—two people—and conduct an informal 
+
+review of each as we go. We’ll then target “critical” 
+
+elements for a more formal team review, but keep those 
+
+reviews to a minimum. That way, everything gets looked 
+
+at by more than one set of eyes, but we still maintain 
+our delivery dates. 
+  
+Jamie:  That means we’re going to have to revise the 
+schedule.   
+Doug:  So be it. Quality trumps schedule on this project. 
+  
+SAFEHOME  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 20.7 P
+OST-MORTEM
+ EVALUATIONS
+  
+ 
+Many lessons can be learned if a software team takes the time to evaluate the results of a software project after the software has been delivered to end users. 
+Baaz and his colleagues [Baa10] suggest the use of a  post-mortem evaluation 
+ (PME) as a mechanism to determine what went right and what went wrong when 
+software engineering process and practice are applied in a speciﬁ c project. 
+ Unlike an FTR that focuses on a speciﬁ c work product, a PME examines the 
+entire software project, focusing on both “ excellences 
+ (that is, achievements 
+pre22126_ch20_431-447.indd   445pre22126_ch20_431-447.indd   44513/12/13   10:01 PM13/12/13   10:01 PM

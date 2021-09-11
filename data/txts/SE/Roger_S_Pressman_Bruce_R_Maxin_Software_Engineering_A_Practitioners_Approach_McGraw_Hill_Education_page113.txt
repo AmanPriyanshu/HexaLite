@@ -1,0 +1,108 @@
+CHAPTER 5  
+AGILE DEVELOPMENT 83 
+ 
+ 
+• 
+ 
+   
+Environment management.
+ 
+ Environmental management coordinates a process infrastructure that includes standards, tools, and other support 
+technology available to the team.    
+ 
+ 
+Although the AUP has historical and technical connections to the Uniﬁ ed 
+Modeling Language, it is important to note that UML modeling can be used in 
+conjunction with any of the agile process models described in this chapter. 
+   The “tool set” that 
+supports agile pro-
+
+cesses focuses more 
+on people issues than 
+it does on technology 
+issues.   
+Agile Development  
+ Objective: 
+  The objective of agile development tools is to assist in one or more aspects of agile development with an emphasis on 
+facilitating the rapid generation of operational software. 
+These tools can also be used when prescriptive process 
+models (Chapter 4) are applied.    
+Mechanics: 
+  Tool mechanics vary. In general, agile tool 
+sets encompass automated support for project planning, 
+
+use case development and requirements gathering, rapid 
+design, code generation, and testing.   
+ 
+ 
+Representative tools: 
+ 13 
+ 
+   
+ 
+Note: 
+ Because agile development is a hot topic, most software tools vendors purport to sell tools that 
+support the agile approach. The tools noted here 
+have characteristics that make them particularly 
+
+useful for agile projects.   
+OnTime, 
+ 
+developed by Axosoft (  
+www.axosoft.com
+ 
+ 
+), provides agile process management support for 
+
+various technical activities within the process.   
+Ideogramic UML, 
+ developed by Ideogramic ( http://ideogramic-uml.software.informer.com/
+ 
+) is a UML tool set speciﬁ cally developed for use within an 
+agile process.   
+Together Tool Set,
+ 
+ distributed by Borland (  
+www.
+borland.com 
+ 
+), provides a tools suite that supports 
+many technical activities within XP and other agile 
+processes.  
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+SOFTWARE
+ TOOLS  
+ 
+ 
+ 
+ 
+ 
+ 5.6 A T
+OOL SET FOR THE AGILE PROCESS  
+ 
+Some proponents of the agile philosophy argue that automated software tools (e.g., design tools) should be viewed as a minor supplement to the team’s activi-
+
+ties, and not at all pivotal to the success of the team. However, Alistair Cockburn 
+
+[Coc04] suggests that tools can have a beneﬁ t and that “agile teams stress using 
+tools that permit the rapid ﬂ ow of understanding. Some of those tools are social, 
+starting even at the hiring stage. Some tools are technological, helping distrib-
+uted teams simulate being physically present. Many tools are physical, allowing 
+people to manipulate them in workshops.”  Collaborative and communication “tools” are generally low tech and incor-
+porate any mechanism (“physical proximity, whiteboards, poster sheets, index 
+
+cards, and sticky notes” [Coc04] or modern social networking techniques) that 
+provides information and coordination among agile developers. Active com-
+munication is achieved via the team dynamics (e.g., pair programming), while   
+13  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+pre22126_ch05_066-086.indd   83pre22126_ch05_066-086.indd   8313/12/13   6:10 PM13/12/13   6:10 PM

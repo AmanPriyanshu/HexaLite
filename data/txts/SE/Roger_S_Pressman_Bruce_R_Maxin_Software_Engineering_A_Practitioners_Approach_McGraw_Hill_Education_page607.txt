@@ -1,0 +1,56 @@
+CHAPTER 26  
+TESTING MOBILEAPPS 577 
+ 
+ 
+ 
+26.3.3   
+Virtual Key Board Input 
+ 
+Because a virtual keyboard may obscure part of the display screen when acti-vated, it is important to test the MobileApp to ensure that important screen in-
+formation is not hidden from the user while typing. If the screen information 
+must be hidden it is important to test the ability of the MobileApp to allow page 
+ﬂ ipping by the user without losing typed information [Sch09]. 
+ Virtual keyboards are typically smaller than personal computer keyboards, 
+and therefore, it is difﬁ cult to type with 10 ﬁ
+ ngers. Because the keys themselves 
+are smaller and harder to hit and provide no tactile feedback, the MobileApp 
+must be tested to ensure that it allows easy error correction and can manage 
+mistyped words without crashing.   
+Predictive technologies
+ 
+ (i.e., auto completion of partially typed words) are often 
+used with virtual keyboards to help expedite user input. It is important to test the 
+
+correctness of the word completions for the natural language chosen by the user, 
+
+if the MobileApp is designed for a global market. It is also important to test the us-
+ability of any mechanism that allows the user to override a suggested completion. 
+ Virtual keyboard testing is often conducted in the usability laboratory, but 
+some should be conducted in the wild. If virtual keyboard tests uncover signiﬁ -cant problems, the only alternative may be to ensure that the MobileApp can ac-
+cept input from devices other than a virtual keyboard (e.g., a physical keyboard 
+or voice input).   
+ 
+ 
+26.3.4   
+Alerts and Extraordinary Conditions 
+ 
+As a MobileApp runs in a real-time environment, there are factors that may im-pact its behavior. For example, a Wi-Fi signal may be lost, or an incoming text 
+
+message, phone call, or calendar alert may be received while the user is working 
+with the MobileApp.  These factors can disrupt the MobileApp user’s workﬂ
+ ow, yet most users opt 
+to allow alerts and other interruptions as they work. Your MobileApp test envi-
+
+ronment must be able to simulate these alerts and conditions. In addition, you 
+should test the MobileApp’s ability to handle alerts and conditions in production 
+
+environment on actual devices (Section 26.5).  Part of MobileApp testing should focus on the usability issues relating to alerts and pop-up messages. Testing should examine the clarity and context of alerts, 
+
+the appropriateness of their location on the device display screen, and when for-
+
+eign languages are involved, veriﬁ cation that the translation from one language 
+to another is correct.  Many alerts and conditions may be triggered differently on various mobile devices or by network or context changes. While many of the exception-handling 
+processes can be simulated with a software test harness, you cannot rely solely 
+on testing in the development environment. This again emphasizes the impor-
+
+tance of testing the MobileApp in the wild on actual devices. pre22126_ch26_567-583.indd   577pre22126_ch26_567-583.indd   57713/12/13   6:15 PM13/12/13   6:15 PM

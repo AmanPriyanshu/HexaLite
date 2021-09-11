@@ -1,0 +1,95 @@
+70 PART ONE  
+THE SOFTWARE PROCESS
+   
+ 2.  For many types of software, design and construction are interleaved. That is, both activities should be performed in tandem so that design models 
+are proven as they are created. It is difﬁ cult to predict how much design is 
+necessary before construction is used to prove the design.     
+ 3.  Analysis, design, construction, and testing are not as predictable (from a planning point of view) as we might like.  
+ 
+  Given these three assumptions, an important question arises: How do we cre-ate a process that can manage  unpredictability
+ 
+? The answer, as we have already 
+noted, lies in process adaptability (to rapidly changing project and technical con-
+ditions). An agile process, therefore, must be  adaptable. 
+  But continual adaptation without forward progress accomplishes little. 
+Therefore, an agile software process must adapt  incrementally. 
+ 
+To accom-
+plish incremental adaptation, an agile team requires customer feedback 
+
+that the appropriate adaptations can be made). An effective catalyst for 
+
+customer feedback is an operational prototype or a portion of an operational 
+
+system. Hence, an  incremental development strategy
+ 
+ should be instituted. 
+ Software  
+increments
+ 
+ (executable prototypes or portions of an operational 
+system) must be delivered in short time periods so that adaptation keeps 
+
+pace with change (unpredictability). This iterative approach enables the cus-
+tomer to evaluate the software increment regularly, provide necessary feed-
+
+back to the software team, and influence the process adaptations that are 
+
+made to accommodate the feedback. 
+  
+5.3.1 Agility  
+ 
+Principles  
+ 
+ 
+The Agile Alliance (see [Agi03], [Fow01]) deﬁ nes 12 agility principles for those 
+who want to achieve agility:    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1.  Our highest priority is to satisfy the customer through early and continu-ous delivery of valuable software.     
+ 2.  Welcome changing requirements, even late in development. Agile pro-
+cesses harness change for the customer's competitive advantage.     
+ 3.  Deliver working software frequently, from a couple of weeks to a couple of 
+months, with a preference to the shorter timescale.     
+ 4.  Business people and developers must work together daily throughout the project.     
+ 5.  Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.     
+ 6.  The most efﬁ cient and effective method of conveying information to and 
+within a development team is face-to-face conversation.     
+ 7.  Working software is the primary measure of progress. 
+    Working software 
+is important, but 
+
+don’t forget that it 
+must also exhibit 
+a variety of quality 
+attributes including 
+reliability, usability, and 
+
+maintainability. 
+   Although agile 
+
+processes embrace 
+change, it is still 
+ important to examine 
+
+the reasons for change.  WebRef 
+ A comprehensive 
+collection of articles 
+
+on the agile process 
+can be found at 
+  http://www
+
+.agilemodeling
+.com/  . 
+pre22126_ch05_066-086.indd   70pre22126_ch05_066-086.indd   7013/12/13   6:10 PM13/12/13   6:10 PM

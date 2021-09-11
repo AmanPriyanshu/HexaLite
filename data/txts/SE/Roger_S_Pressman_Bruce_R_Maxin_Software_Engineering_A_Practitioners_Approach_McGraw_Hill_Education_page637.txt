@@ -1,0 +1,57 @@
+CHAPTER 28  
+FORMAL MODELING AND VERIFICATION
+ 607 
+ 
+ 
+ 
+28.2.3   
+Clear-Box Speciﬁ
+ cation 
+ 
+The clear-box speciﬁ
+ cation is closely aligned with procedural design and struc-
+tured programming. In essence, the subfunction  g 
+ within the state box is replaced 
+by the structured programming constructs that implement  g. 
+  As an example, consider the clear box shown in  Figure 28.5 . The black box  g, 
+ shown in  
+Figure 28.3 , is replaced by a sequence construct that incorporates a conditional. These, in turn, can be reﬁ ned into lower-level clear boxes as step-
+wise reﬁ nement proceeds. 
+ It is important to note that the procedural speciﬁ cation described in the 
+clear-box hierarchy can be proved to be correct. This topic is considered in 
+
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 28.3  
+CLEANROOM DESIGN  
+ 
+Cleanroom software engineering makes heavy use of the structured program-ming philosophy (Chapter 14). But in this case, structured programming is ap-
+plied far more rigorously. 
+ Basic processing functions (described during earlier reﬁ nements of the spec-
+iﬁ cation) are reﬁ
+ ned using a “stepwise expansion of mathematical functions into 
+structures of logical connectives [e.g., if-then-else] and subfunctions, where the 
+expansion [is] carried out until all identiﬁ ed subfunctions could be directly stated 
+in the programming language used for implementation” [Dye92].  The structured programming approach can be used effectively to reﬁ ne 
+function, but what about data design? Here a number of fundamental design 
+
+concepts (Chapter 12) come into play. Program data are encapsulated as a 
+
+set of abstractions that are serviced by subfunctions. The concepts of data en-
+capsulation, information hiding, and data typing are used to create the data 
+
+design. 
+SRTStateg11cg1g12g13 
+FIGURE 28.5 
+A clear-box 
+speciﬁ cation
+pre22126_ch28_601-622.indd   607pre22126_ch28_601-622.indd   60713/12/13   6:15 PM13/12/13   6:15 PM

@@ -1,0 +1,42 @@
+CHAPTER 10  
+REQUIREMENTS MODELING: CLASS-BASED METHODS 199a  DisplayWindow
+ 
+ object (in this case, the client class). The relationship between 
+these two objects is not a simple association, yet a dependency association does 
+exist. In a use case written for surveillance (not shown), you learn that a special 
+password must be provided in order to view speciﬁ c camera locations. One way 
+to achieve this is to have  Camera 
+ request a password and then grant permission to the  DisplayWindow
+ 
+ to produce the video display. This can be represented as 
+shown in  Figure 10.6  where <<access>> implies that the use of the camera output 
+is controlled by a special password.   
+ 
+ 
+ 
+ 
+ 
+ 10.6 A
+NALYSIS
+ PACKAGES   
+ 
+ 
+ 
+ 
+  
+ 
+An important part of analysis modeling is categorization. That is, various  elements of the requirements model (e.g., use cases, analysis classes) are categorized in a 
+manner that packages them as a grouping—called an  analysis  package 
+—that is given a representative name.  To illustrate the use of analysis packages, consider the video game that we 
+introduced earlier. As the analysis model for the video game is developed, a 
+   A package is used to 
+assemble a collection 
+of related classes. WallSegment
+WindowDoorWall
+Is used to buildIs used to buildIs used to build1..*1110..*0..*  
+FIGURE 10.5 
+Multiplicity  
+ CameraDisplayWindow{password}<<access>>  
+FIGURE 10.6 
+Dependencies  
+ pre22126_ch10_184-201.indd   199pre22126_ch10_184-201.indd   19913/12/13   6:11 PM13/12/13   6:11 PM

@@ -1,0 +1,68 @@
+ Section 6.2  Threats to Network Communications 
+369  and defenses, and plans an appropriate attack. This investigation is not an attack itself, 
+but something that contributes to the attacker’s method and opportunity.
+Port ScanningScanning is an inspection activity, and as such it causes no harm itself (if you don’t 
+
+consider learning about your opponent as harm). However, scanning is often used as a 
+
+first step in an attack, a probe, to determine what further attacks might succeed. Thus, 
+
+we next introduce the topic of probing subnetworks for their architecture and exposure.
+Vulnerabilities in different versions of software products are well known: Vendors 
+post lists of flaws and protective or corrective actions (patches and work-arounds), and 
+
+security professionals maintain and distribute similar lists, as well as tools to test for 
+
+vulnerabilities. Hackers circulate copies of attack code and scripts. The problem for the 
+
+attacker is to know which attacks to address to which machines: An attack against a spe-
+
+cific version of Adobe Reader will not work if the target machine does not run Reader 
+
+or runs a version that does not contain the particular vulnerability. Sending an attack 
+
+against a machine that is not vulnerable is at least time consuming but worse, may even 
+
+make the attacker stand out or become visible and identifiable. Attackers want to shoot 
+
+their arrows only at likely targets.
+An easy way to gather network information is to use a 
+port scanner, a program that, for a particular Internet (IP) address, reports which ports respond to queries and which of several known vulnerabilities seem to be present. Dan Farmer and Wietse Venema 
+
+[FAR90, FAR95] are among the 
+
+first to describe the technique in 
+ the COPS and SATAN tools. Since 
+
+then, tools such as NESSUS and 
+
+Nmap have expanded on the network- 
+
+probing concept.A port scan is much like a routine physical examination from a doctor, particularly 
+the initial questions used to determine a medical history. The questions and answers 
+
+by themselves may not seem significant, but they point to areas that suggest further 
+
+investigation.
+Port Scanning Tools
+Port scanning tools are readily available, and not just to the underground community. 
+The Nmap scanner, originally written by Fyodor and available at www.insecure.org/
+
+nmap, is a useful tool that anyone can download. Given an address, Nmap will report 
+
+all open ports, the service each supports, and the owner (user ID) of the daemon pro-
+
+viding the service. (The owner is significant because it implies what privileges would 
+
+be conferred on someone who compromised that service. Administrators tend to name 
+
+privileged accounts with names like 
+admin or system.) Another readily available scanner is netcat, written by Hobbit, at www.l0pht.com/
+users/l0pht. Commercial products are a little more costly, but not prohibitive. Well-known 
+
+commercial scanners are Nessus (Nessus Corp. [AND03]), CyberCop Scanner (Network 
+
+Associates), Secure Scanner (Cisco), and Internet Scanner (Internet Security Systems).A port scan maps the topology and 
+hardware and software components of 
+
+a network segment.

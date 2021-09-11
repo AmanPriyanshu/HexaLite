@@ -1,0 +1,103 @@
+CHAPTER 4  
+PROCESS MODELS 55constructing  aspects 
+—“mechanisms beyond subroutines and inheritance for  localizing the expression of a crosscutting concern” [Elr01].  A distinct aspect-oriented process has not yet matured. However, it is likely 
+that such a process will adopt characteristics of both evolutionary and concurrent 
+process models. The evolutionary model is appropriate as aspects are identiﬁ ed 
+and then constructed. The parallel nature of concurrent development is essential 
+because aspects are engineered independently of localized software components 
+and yet, aspects have a direct impact on these components. Hence, it is essential 
+to instantiate asynchronous communication between the software process activi-
+ties applied to the engineering and construction of aspects and components.  A detailed discussion of aspect-oriented software development is best left to books dedicated to the subject. If you have further interest, see [Ras11], [Saf08], 
+[Cla05], [Fil05], [Jac04], and [Gra03].   
+Process Management 
+ 
+ 
+  
+ 
+ 
+ 
+To assist in the deﬁ
+ nition, 
+execution, and management of prescriptive process models.   
+ 
+ 
+ 
+Process management tools allow a software organization or team to deﬁ ne a complete 
+software process model (framework activities, actions, 
+tasks, QA checkpoints, milestones, and work products). 
+In addition, the tools provide a road map as software 
+engineers do technical work and a template for 
+managers who must track and control the software 
+process.   
+ 
+ 
+Representative tools:  12 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+GDPA, a research process deﬁ
+ nition tool suite,
+ 
+ developed at Bremen University in Germany 
+(  
+www.informatik.uni-bremen.de/uniform/
+gdpa/home.htm 
+ 
+), provides a wide array of process modeling and management functions.    
+ 
+ 
+ 
+ALM Studio, 
+ developed by Kovair Corporation ( http://
+www.kovair.com/
+ 
+) encompasses a suite of tools for process deﬁ nition, requirements management, 
+issue resolution, project planning, and tracking.    
+ 
+ 
+ 
+ProVision BPMx, 
+ developed by OpenText ( 
+ 
+http://
+bps.opentext.com/ 
+ 
+), is representative of many tools that assist in process deﬁ nition and workﬂ
+ ow 
+automation.    
+A worthwhile listing of many different tools associ-
+ated with the software process can be found at   
+www.computer.org/portal/web/swebok/html/ch10
+ 
+ 
+.  
+  
+SOFTWARE
+ TOOLS  
+ 
+12  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+  
+ 
+ 
+ 
+ 
+ 4.3 T
+HE   
+UNIFIED PROCESS    
+ 
+In their seminal book on the  Uniﬁ ed Process (UP),
+ 
+ Ivar Jacobson, Grady Booch, and 
+James Rumbaugh [Jac99] discuss the need for a “use case driven, architecture-
+centric, iterative and incremental” software process when they state:  
+Today, the trend in software is toward bigger, more complex systems. That is due in 
+part to the fact that computers become more powerful every year, leading users to 
+
+expect more from them. This trend has also been inﬂ uenced by the expanding use of 
+pre22126_ch04_040-065.indd   55pre22126_ch04_040-065.indd   5513/12/13   6:10 PM13/12/13   6:10 PM

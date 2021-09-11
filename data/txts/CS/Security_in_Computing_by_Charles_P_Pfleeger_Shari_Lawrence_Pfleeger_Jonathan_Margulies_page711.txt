@@ -1,0 +1,75 @@
+ Section 10.4  Risk Analysis 
+677  Often in security we cannot directly evaluate an event’s probability by using classical 
+techniques. However, we can try to apply frequency probability by using observed data 
+
+for a specific system. Local failure rates are fairly easy to record, and we can identify 
+
+which failures resulted in security breaches or created new vulnerabilities. In particular, 
+
+operating systems can track data on hardware failures, failed login attempts, numbers of 
+
+accesses, and changes in the sizes of data files. 
+Another alternative is to estimate the number of occurrences in a given time period. 
+We can ask an analyst familiar with the system to approximate the number of times a 
+
+described event occurred in the last year, for example. Although the count is not exact 
+
+(because the analyst is unlikely to have complete information), the analyst’s knowledge 
+
+of the system and its usage may yield reasonable estimates. Of course, the two methods described depend on the fact that a system is already 
+built and has been in use for some period of time. In many cases, and especially for 
+
+proposed situations, usage data are not available. In this case, we may ask an analyst 
+
+to estimate likelihood by reviewing a table based on a similar system; this approach is 
+
+incorporated in several formal security risk processes. For example, the analyst may 
+
+be asked to choose one of the ratings shown in Table 10-5. Completing this analy-
+
+sis depends on the rater’s professional expertise. The table provides the rater with a 
+
+framework within which to con-
+
+sider each likelihood. Differences 
+
+between close ratings are not very 
+
+significant. A rater should be able 
+
+to distinguish between something 
+
+that happens once a year and once 
+
+a month.These approaches all lead to what is called quantitative risk analysis
+, meaning that numbers can be assigned to various risks. Some people prefer so-called 
+qualitative 
+risk analysis, in which no numerical probabilities are assigned. Instead, descriptive 
+adjectives are used to rate risks, so one risk might be categorized as “highly likely” and 
+
+another “improbable.” Qualitative assessment is more appropriate in situations where 
+
+it is difficult to quantify risk, for example, for the likelihood that a meteor might crash 
+
+into a building. Often, qualitative risks are then assigned a numeric value, for example, 
+
+1 for improbable and 5 for highly likely. These numbers are a simple shorthand nota-
+
+tion, and sometimes they are used in the next step of risk analysis, in which risk likeli-
+
+hoods are used to predict potential loss.so the probability may differ from one person to another. We sometimes use 
+the Delphi method (described later in this section) to reconcile these differ-
+
+ences. The big advantage of subjective probability is that it can be used 
+
+in all circumstances. However, it is clearly not objective, and it requires a 
+
+coherent and complete understanding of the situation and its context.
+In any given risk analysis we may use two or even all three of these 
+estimating techniques. We prefer classical probability, but we use other 
+
+techniques as necessary.
+Estimates of value and event likelihood are just estimates; their purpose 
+
+is to locate points of most serious 
+vulnerability.

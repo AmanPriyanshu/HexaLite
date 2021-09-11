@@ -1,0 +1,53 @@
+200 PART TWO  
+MODELINGlarge number of classes are derived. Some focus on the game environment—the visual scenes that the user sees as the game is played. Classes such as  Tree, 
+Landscape, Road, Wall, Bridge, Building,
+ 
+ and  
+VisualEffect
+ 
+ might fall within this 
+category.  
+Others focus on the characters within the game, describing their phys-ical features, actions, and constraints. Classes such as  Player 
+ (described earlier), 
+ Protagonist, Antagonist, 
+ and  
+SupportingRoles 
+ might be deﬁ
+ ned. Still others 
+ describe the rules of the game—how a player navigates through the environ-ment. Classes such as  RulesOfMovement 
+ and  
+ConstraintsOnAction 
+ are candi-
+dates here. Many other categories might exist. These classes can be represented 
+as analysis classes as shown in  Figure 10.7 .   The plus sign preceding the analysis class name in each package indicates that the classes have public visibility and are therefore accessible from other 
+packages. Although they are not shown in the ﬁ gure, other symbols can precede 
+an element within a package. A minus sign indicates that an element is hidden 
+from all other packages and a # symbol indicates that an element is accessible 
+only to packages contained within a given package.   
+ 
+ 
+ 
+ 
+ 10.7 S
+UMMARY  
+Class-based modeling uses information derived from use cases and other writ-ten application descriptions to identify analysis classes. A grammatical parse 
+may be used to extract candidate classes, attributes, and operations from text-
+based narratives. Criteria for the deﬁ nition of a class are deﬁ
+ ned. 
+ A set of class-responsibility-collaborator index cards can be used to deﬁ ne 
+relationships between classes. In addition, a variety of UML modeling notation 
+can be applied to deﬁ ne hierarchies, relationships, associations, aggregations, 
+Environment
++Tree 
++Landscape 
++Road 
++Wall 
+
++Bridge 
++Building +VisualEffect 
++Scene Characters+Player +Protagonist 
++Antagonist +SupportingRole
+RulesOfTheGame+RulesOfMovement +ConstraintsOnActionPackage name  
+FIGURE 10.7 
+Packages  
+ pre22126_ch10_184-201.indd   200pre22126_ch10_184-201.indd   20013/12/13   6:11 PM13/12/13   6:11 PM

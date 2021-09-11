@@ -1,0 +1,66 @@
+ Section 12.7  Conclusion 
+811  ImplementationThe theory of quantum cryptography is solid, but some technical difficulties still must 
+be worked out before the scheme can be put into practice. To implement quantum cryp-
+
+tography, we need a source of photons randomly but detectably oriented (for the sender) 
+
+and a means of filtering the received photons reliably. A photon gun can fire photons on 
+
+demand. Several different research teams are working to develop photon guns for cryp-
+
+tography, but so far none has succeeded. The best current technology involves pulsed 
+
+lasers, but here, too, there is a problem. Occasionally the laser emits not one but two 
+
+photons, which disturbs the pattern of reception and transmission. However, with error 
+
+correcting codes on the stream of bits, it is relatively easy to detect and correct a few 
+
+erroneous bits.On the receiving side, too, there are problems. One device is subject to catastrophic 
+failure in which it emits a current surge. Although this surge is easily detected, it 
+
+requires the device to be reset, which takes time.
+Experimental implementations of quantum cryptography are still in the laboratories. The U.K. Defence Evaluation and Research Agency in Malvern, England, demonstrated 
+
+a successful communication through the atmosphere over a distance of 2 km, and the 
+
+U.S. Los Alamos National Laboratory is testing a portable device that can operate over 
+
+45 km on a clear night. The U.S. National Institute for Standards and Technology has 
+
+demonstrated a quantum cryptographic system that operates over one kilometer over 
+
+glass fiber at a rate of four megabits per second. BBN Communications and Harvard 
+
+University have activated a joint network secured by quantum encryption. The network 
+
+has six servers and covers a distance of ten kilometers. Reliable communications up 
+
+to 20 kilometers have been achieved, and some scientists expect to be able to cover 
+
+50 kilometers reliably in the near future. (See [ELL04] for a discussion of the potential 
+of quantum cryptography.)
+These results show significant progress as quantum cryptography moves from the 
+research bench to the prototype lab. Although still not ready for widespread public 
+
+adoption, quantum cryptography is becoming a real possibility for commercial use 
+
+within the next decade.
+12.7 CONCLUSION
+As we said at the beginning of this chapter, cryptography is a highly specialized area 
+
+of study. Even in this chapter of details, we have presented only the top layer of this 
+
+rich field.
+Unlike the other chapters of this book, this chapter includes no exercises. Problems 
+in code breaking rapidly become difficult. Exercises involving hand calculation of any 
+
+of the ciphers in this chapter are exhausting and tedious; the educational value of those 
+
+problems is debatable. And questions asking you to find a flaw in one algorithm or 
+
+invent a new algorithm to do something are the subjects of graduate papers, not exer-
+
+cises in a course. We know our readers can answer questions of rote memorization, and 
+
+anything other than that is too much work.

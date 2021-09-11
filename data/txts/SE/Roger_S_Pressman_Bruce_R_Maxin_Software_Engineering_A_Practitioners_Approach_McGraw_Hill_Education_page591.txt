@@ -1,0 +1,94 @@
+CHAPTER 25  
+TESTING WEB APPLICATIONS
+ 561message, with the suggestion that you try again later. Nothing is more dis-
+concerting than a WebApp that responds instantly in some situations, and 
+
+then seems to go into an infinite wait state in other situations. All of these 
+
+occurrences happen on the Web every day, and all of them are performance 
+
+related. 
+  
+Performance testing 
+ is used to uncover performance problems that can 
+result from a lack of server-side resources, inappropriate network band-
+
+width, inadequate database capabilities, faulty or weak operating system 
+
+capabilities, poorly designed WebApp functionality, and other hardware 
+
+or software issues that can lead to degraded client-server performance. 
+
+The intent is twofold: (1) to understand how the system responds as  load-ing 
+ (i.e., number of users, number of transactions, or overall data volume), 
+and (2) to collect metrics that will lead to design modifications to improve 
+
+performance. 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+25.9.1   
+Performance Testing Objectives 
+ 
+Performance tests are designed to simulate real-world loading situations. As the number of simultaneous WebApp users grows, or the number of online trans-
+
+actions increases, or the amount of data (downloaded or uploaded) increases, 
+performance testing will help answer the following questions:  
+ 
+ 
+•  Does the server response time degrade to a point where it is noticeable and unacceptable?   
+ 
+ 
+•  At what point (in terms of users, transactions, or data loading) does performance become unacceptable?   
+ 
+ 
+•  What system components are responsible for performance degradation?   
+ 
+ 
+•  What is the average response time for users under a variety of loading conditions?   
+ 
+ 
+•  Does performance degradation have an impact on system security?   
+ 
+ 
+•  Is WebApp reliability or accuracy affected as the load on the system 
+grows?   
+ 
+ 
+•  What happens when loads that are greater than maximum server capacity are applied?   
+ 
+ 
+•  Does performance degradation have an impact on company revenues?  
+ 
+  To develop answers to these questions, two different performance tests are 
+conducted: (1)  load testing 
+ examines  
+ 
+real-world loading at a variety of load lev-els and in a variety of combinations, and (2)  stress testing
+ 
+ forces  
+ 
+loading to be increased to the breaking point to determine how much capacity the WebApp 
+
+environment can handle. Each of these testing strategies is considered in the 
+sections that follow. 
+   Some aspects of 
+WebApp performance, 
+
+at least as it is per-
+ceived by the end user, 
+
+are difﬁ cult to test. 
+
+Network loading, the 
+vagaries of network 
+interfacing hardware, 
+
+and similar issues are 
+not easily tested at the 
+WebApp level. 
+pre22126_ch25_540-566.indd   561pre22126_ch25_540-566.indd   56113/12/13   6:15 PM13/12/13   6:15 PM

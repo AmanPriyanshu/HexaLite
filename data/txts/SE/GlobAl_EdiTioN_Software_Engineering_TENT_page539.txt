@@ -1,0 +1,65 @@
+Notice how I have added detail to the description by annotating the UML diagram 
+with constraints. These details define the length of the strings representing the com
+-pany and the catalog item, and specify that the number of items must be greater than 
+
+zero and that delivery must be after the current date. The annotations also show 
+
+which error codes are associated with each possible fault.
+The catalog service is an example of a practical service, which illustrates that it is 
+not always straightforward whether to choose a RESTful or a SOAP-based approach 
+
+to  service implementation. As an entity-based service, the catalog can be represented 
+as a resource, which suggests that a RESTful model is the right one to use. However, 
+
+operations on the catalog are not simple GET operations, and you need to maintain 
+
+some state in an interaction session with the catalog. This suggests the use of a SOAP-
+
+based approach. Such dilemmas are common in service engineering, and usually 
+
+local circumstances (e.g., availability of expertise) are a major factor in the decision 
+
+of which approach to use.To implement a set of RESTful services, you have to decide on the set of resources 
+that will be used to represent the catalog and how the fundamental GET, POST, and 
+
+PUT operations will operate on these resources. Some of these design decisions are 
+straightforward:
+1. There should be a resource representing a company-specific catalog. This should 
+have a URL of the form <base catalog>/<company name> and should be cre
+-
+ated using a POST operation.2. Each catalog item should have its own URL of the form <base catalog>/<company 
+
+name>/<item identifier>.
+3. You use the GET operation to retrieve items. 
+Lookup is implemented by using the 
+URL of an item in a catalog as the GET parameter. 
+Search is implemented by using 
+GET with the company catalog as the URL and the search string as a query parameter. 
+
+This GET operation returns a list of URLs of the items matching the search.However, the 
+Compare
+, CheckDelivery
+, and 
+MakeVirtualOrder
+ operations are 
+more complex:
+1. The Compare operation can be implemented as a sequence of GET operations to retrieve the individual items, followed by a POST operation to create the com
+-parison table and a final GET operation to return this to the user.
+2.
+ The CheckDelivery and MakeVirtualOrder
+ operations require an additional 
+resource, representing a virtual order. A POST operation is used to create this 
+
+resource with the number of items required. The company id is used to auto
+-
+matically fill in the order form, and the delivery date is calculated. The resource 
+
+can then be retrieved using a GET operation.
+You need to think carefully about how exceptions are mapped onto the standard 
+http response codes such as a 404 code, meaning that a URL cannot be retrieved. 
+
+I don™t have space to go into this issue here, but it adds a further level of complexity 
+
+to the service interface design.
+˜˚˛˝ˆ˜˜˜
+˜˜˜

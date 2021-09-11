@@ -1,0 +1,71 @@
+692 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+with group collaboration as critical success factors for the team. Cockburn and Highsmith [Coc01a] note this when they write:  
+If the people on the project are good enough, they can use almost any process and accomplish their assignment. If they are not good enough, no process will repair their 
+inadequacy—“people trump process” is one way to say this. However, lack of user and 
+
+executive support can kill a project—“politics trump people.” Inadequate support 
+ 
+  
+To make effective use of the competencies of each team member and to foster 
+effective collaboration through a software project, agile teams are  self-organizing.
+ 
+ A self-organizing team does not necessarily maintain a single team structure but 
+instead, uses elements of Constantine’s random, open, and synchronous para-
+
+digms discussed in Section 31.2.3.   
+ 
+ 
+ 
+ 
+Many agile process models (e.g., Scrum) give the agile team signiﬁ cant au-
+tonomy to make the project management and technical decisions required to 
+get the job done. Planning is kept to a minimum, and the team is allowed to se-
+lect its own approach (e.g., process, methods, tools), constrained only by business 
+requirements and organizational standards. As the project proceeds, the team 
+self-organizes to focus individual competency in a way that is most beneﬁ cial to 
+the project at a given point in time. To accomplish this, an agile team might con-
+
+duct daily team meetings to coordinate and synchronize the work that must be 
+accomplished for that day. 
+ Based on information obtained during these meetings, the team adapts its approach in a way that accomplishes an increment of work. As each day passes, 
+continual self-organization and collaboration move the team toward a completed 
+software increment.   
+ 
+ 
+31.2.5   
+Coordination and Communication Issues 
+ 
+ 
+There are many reasons that software projects get into trouble. The scale of many development efforts is large, leading to complexity, confusion, and signiﬁ
+ cant dif-
+ﬁ culties in coordinating team members. Uncertainty is common, resulting in a 
+continuing stream of changes that ratchets the project team. Interoperability has 
+become a key characteristic of many systems. New software must communicate 
+with existing software and conform to predeﬁ ned constraints imposed by the 
+system or product.  These characteristics of modern software—scale, uncertainty, and interop-
+erability—are facts of life. To deal with them effectively, you must establish ef-
+
+fective methods for coordinating the people who do the work. To accomplish 
+
+this, mechanisms for formal and informal communication among team mem-
+bers and between multiple teams must be established. Formal communication 
+
+is accomplished through “writing, structured meetings, and other relatively 
+   An agile team is a 
+self-organizing team 
+that has autonomy 
+to plan and make 
+technical decisions.   
+ uote:  “Collective 
+ownership is 
+nothing more than 
+an instantiation 
+of the idea that 
+products should 
+be attributable to 
+the [agile] team, 
+not individuals 
+who make up the 
+team.”  Jim Highsmith 
+pre22126_ch31_683-702.indd   692pre22126_ch31_683-702.indd   69213/12/13   6:16 PM13/12/13   6:16 PM

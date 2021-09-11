@@ -1,0 +1,93 @@
+CHAPTER 16  
+PATTERN-BASED DESIGN
+ 363 
+ 
+ 
+Whole UI. 
+ Provide design guidance for top-level structure and navigation 
+throughout the entire interface.   
+ 
+ 
+ 
+ 
+ 
+Pattern: 
+  Top-level navigation
+ 
+   
+Brief description: 
+ Used when a site or application implements a number 
+of major functions. Provides a top-level menu, often coupled with a logo or 
+identifying graphic, that enables direct navigation to any of the system’s 
+
+major functions.   
+Details: 
+ Major functions (generally limited to between four and seven 
+function names) are listed across the top of the display (vertical column 
+formats are also possible) in a horizontal line of text. Each name provides 
+a link to the appropriate function or information source. Often used with 
+the  bread crumbs
+ 
+ pattern discussed later. 
+  
+Navigation elements: 
+ Each function/content name represents a link to the 
+appropriate function or content.   
+ 
+Page layout. 
+ Address the general organization of pages (for websites) or dis-
+tinct screen displays (for interactive applications).   
+ 
+ 
+ 
+ 
+ 
+Pattern: 
+  Card stack
+ 
+   
+Brief description: 
+ Used when a number of speciﬁ
+ c subfunctions or content 
+categories related to a feature or function must be selected in random 
+order. Provides the appearance of a stack of tabbed cards, each selectable 
+
+with a mouse click and each representing speciﬁ c subfunctions or content 
+categories.   
+Details: 
+ Tabbed cards are a well-understood metaphor and are easy for 
+the user to manipulate. Each tabbed card (divider) may have a slightly 
+different format. Some may require input and have buttons or other nav-
+igation mechanisms; others may be informational. May be combined with 
+other patterns such as  drop-down list, ﬁ
+ ll-in-the-blanks,
+ 
+ and others.   
+Navigation elements: 
+ A mouse click on a tab causes the appropriate card to appear. Navigation features within the card may also be present, but in 
+
+general, these should initiate a function that is related to card data, not 
+cause an actual link to some other display. 
+  
+ 
+Forms and input. 
+ Consider a variety of design techniques for completing form-
+level input.  
+ 
+ 
+   
+ 
+Pattern: 
+  Fill-in-the-blanks 
+   
+Brief description: 
+ Allow alphanumeric data to be entered in a “text box.”   
+Details: 
+ Data may be entered within a text box. In general, the data are validated and processed after some text or graphic indicator (e.g., a but-
+ton containing “go,” “submit,” “next”) is picked. In many cases this pattern 
+can be combined with drop-down list or other patterns (e.g., SEARCH 
+< drop down list
+ 
+> FOR < ﬁ ll-in-the-blanks
+ 
+ text box>). pre22126_ch16_347-370.indd   363pre22126_ch16_347-370.indd   36316/12/13   6:22 PM16/12/13   6:22 PM

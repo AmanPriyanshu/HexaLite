@@ -1,0 +1,73 @@
+798 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+may not be around when changes must be made. Therefore, the design and im-plementation of the software must “assist” the person who is making the change.   
+ 
+ 
+ 
+ 36.2  
+SOFTWARE
+ SUPPORTABILITY
+  
+ 
+In order to effectively support industry-grade software, your organization (or its designee) must be capable of making the corrections, adaptations, and enhance-
+ments that are part of the maintenance activity. But in addition, the organization 
+
+must provide other important support activities that include ongoing opera-
+tional support, end-user support, and reengineering activities over the complete 
+life cycle of the software. A reasonable deﬁ nition of  
+software supportability
+ 
+ is  
+ 
+ 
+the capability of supporting a software system over its whole product life. This im-
+plies satisfying any necessary needs or requirements, but also the provision of equip-
+ment, support infrastructure, additional software, facilities, manpower, or any other 
+
+resource required to maintain the software operational and capable of satisfying its 
+function. [SSO08]  
+  
+In essence, supportability is one of many quality factors that should be consid-ered during the analysis and design actions that are part of the software process. 
+It should be addressed as part of the requirements model (or speciﬁ cation) and 
+considered as the design evolves and construction commences.   
+ 
+ 
+ 
+ 
+For example, the need to “antibug” software at the component and code level has been discussed previously in the book. The software should contain facili-
+ties to assist support personnel when a defect is encountered in the operational 
+environment (and make no mistake, defects  will 
+ be encountered). In addition, 
+support personnel should have access to a database that contains records of all 
+defects that have already been encountered—their characteristics, cause, and 
+cure. This will enable support personnel to examine “similar” defects and may 
+provide a means for more rapid diagnosis and correction.  Although defects encountered in an application are a critical support issue, supportability also demands that resources be provided to support day-to-day 
+end-user issues. The job of end-user support personnel is to answer user queries 
+about the installation, operation, and use of the application.    
+ 
+ 
+ 
+36.3  REENGINEERING  
+ 
+In a seminal article written for the  Harvard Business Review,
+ 
+ Michael Hammer 
+[Ham90] laid the foundation for a revolution in management thinking about busi-
+ness processes and computing:  
+It is time to stop paving the cow paths. Instead of embedding outdated processes in silicon and software, we should obliterate them and start over. We should “reengi-
+
+neer” our businesses: use the power of modern information technology to radically  WebRef 
+ A wide array of 
+downloadable docu-
+ments on software 
+supportability can be 
+
+found at   
+www .software-
+supportability
+
+.org/
+
+Downloads
+.html  . 
+pre22126_ch36_795-816.indd   798pre22126_ch36_795-816.indd   79813/12/13   6:17 PM13/12/13   6:17 PM

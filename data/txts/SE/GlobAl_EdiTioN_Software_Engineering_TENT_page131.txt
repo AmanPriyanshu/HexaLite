@@ -1,0 +1,39 @@
+˜˜˚ˇ˜˜˜
+˜˜
+be incomplete. During the software development process, the stakeholders™ under-standing of the problem is constantly changing (Figure 4.18). The system require-
+ments must then evolve to reflect this changed problem understanding.Once a system has been installed and is regularly used, new requirements inevita
+-bly emerge. This is partly a consequence of errors and omissions in the original 
+
+requirements that have to be corrected. However, most changes to system require
+-
+ments arise because of changes to the business environment of the system:1.
+ The business and technical environment of the system always changes after 
+installation. New hardware may be introduced and existing hardware updated. It 
+may be necessary to interface the system with other systems. Business priorities 
+may change (with consequent changes in the system support required), and new 
+legislation and regulations may be introduced that require system compliance.2.
+ The people who pay for a system and the users of that system are rarely the 
+
+same people. System customers impose requirements because of organizational 
+and budgetary constraints. These may conflict with end-user requirements, and, 
+after delivery, new features may have to be added for user support if the system 
+is to meet its goals.3. Large systems usually have a diverse stakeholder community, with stakeholders 
+having different requirements. Their priorities may be conflicting or contradic-
+tory. The final system requirements are inevitably a compromise, and some 
+
+stakeholders have to be given priority. With experience, it is often discovered 
+that the balance of support given to different stakeholders has to be changed and 
+the requirements re-prioritized.As requirements are evolving, you need to keep track of individual requirements and maintain links between dependent requirements so that you can assess the 
+
+impact of requirements changes. You therefore need a formal process for making 
+
+change proposals and linking these to system requirements. This process of ﬁrequire-
+ments managementﬂ should start as soon as a draft version of the requirements docu-
+ment is available.Agile development processes have been designed to cope with requirements that change during the development process. In these processes, when a user proposes a 
+
+requirements change, this change does not go through a formal change management Time
+Changedunderstandingof problem
+Initialunderstandingof problem
+Changedrequirements
+Initialrequirements
+Figure 4.18  Requirements evolution

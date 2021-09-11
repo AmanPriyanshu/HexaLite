@@ -1,0 +1,72 @@
+ Section 2.2  Access Control 
+73  Access control decisions are (or should not be) made capriciously. Pat gets access 
+to this file because she works on a project that requires the data; Sol is an administrator 
+
+and needs to be able to add and delete users for the system. Having a basis simplifies 
+
+making similar decisions for other users and objects. A policy also simplifies establish-
+
+ing access control rules, because they just reflect the existing policy.
+Thus, before trying to implement access control, an organization needs to take the 
+time to develop a higher-level security policy, which will then drive all the access con-
+
+trol rules.Effective Policy Implementation
+Protecting objects involves several complementary goals.
+• Check every access. 
+We may want to revoke a user’s privilege to access an 
+object. If we have previously authorized the user to access the object, we do 
+
+not necessarily intend that the user should retain indefinite access to the object. 
+
+In fact, in some situations, we may want to prevent further access immediately 
+
+after we revoke authorization, for example, if we detect a user being imperson-
+
+ated. For this reason, we should aim to check every access by a user to an object.
+• Enforce least privilege. 
+The principle of least privilege states that a subject 
+should have access to the smallest number of objects necessary to perform some 
+
+task. Even if extra information would be useless or harmless if the subject were 
+
+to have access, the subject should not have that additional access. For example, a 
+
+program should not have access to the absolute memory address to which a page 
+
+number reference translates, even though the program could not use that address 
+
+in any effective way. Not 
+
+allowing access to unneces-
+
+sary objects guards against 
+
+security weaknesses if a part 
+of the protection mechanism 
+should fail.
+• Verify acceptable usage. 
+Ability to access is a yes-or-no decision. But equally 
+important is checking that the activity to be performed on an object is appropri-
+
+ate. For example, a data structure such as a stack has certain acceptable opera-
+
+tions, including push, pop, clear, and so on. We may want not only to control 
+
+who or what has access to a stack but also to be assured that all accesses per-
+
+formed are legitimate stack accesses.
+Tracking
+Implementing an appropriate policy is not the end of access administration. Sometimes 
+administrators need to revisit the access policy to determine whether it is working as it 
+
+should. Has someone been around for a long time and so has acquired a large number of 
+
+no-longer-needed rights? Do so many users have access to one object that it no longer 
+
+needs to be controlled? Or should it be split into several objects so that individuals can 
+
+be allowed access to only the pieces they need? Administrators need to consider these 
+Least privilege: access to the fewest 
+resources necessary to complete some 
+
+task

@@ -1,0 +1,133 @@
+298 PART TWO  
+MODELING 
+ 
+ 
+ 
+14.2.4 Coupling  
+ 
+ 
+ 
+ 
+ 
+In earlier discussions of analysis and design, we noted that communication and collaboration are essential elements of any object-oriented system. There 
+is, however, a darker side to this important (and necessary) characteristic. As 
+
+the amount of communication and collaboration increases (i.e., as the degree of 
+“connectedness” between classes increases), the complexity of the system also 
+increases. And as complexity increases, the difﬁ culty of implementing, testing, 
+and maintaining software grows.   
+Coupling 
+ is a qualitative measure of the degree to which classes are con-
+nected to one another. As classes (and components) become more interdepen-
+
+dent, coupling increases. An important objective in component-level design is to 
+keep coupling as low as is possible.   
+Class coupling 
+ can manifest itself in a variety of ways. Lethbridge and Lagan-
+iére [Let01] deﬁ ne a spectrum of coupling categories. For example,  
+content cou-pling 
+ occurs when one component “surreptitiously modiﬁ
+ es data that is internal 
+to another component” [Let01]. This violates information hiding—a basic design 
+concept.  Control coupling
+ 
+ occurs when operation  
+A() 
+ invokes operation  
+B() 
+ and 
+passes a control ﬂ ag to  
+B. 
+ The control ﬂ
+ ag then “directs” logical ﬂ
+ ow within  
+B. 
+ The 
+problem with this form of coupling is that an unrelated change in  B 
+ can result 
+in the necessity to change the meaning of the control ﬂ ag that  
+A 
+ passes. If this 
+is overlooked, an error will result.  External coupling 
+ occurs when a component 
+communicates or collaborates with infrastructure components (e.g., operating 
+system functions, database capability, telecommunication functions). Although 
+
+this type of coupling is necessary, it should be limited to a small number of com-
+
+ponents or classes within a system.  Software must communicate internally and externally. Therefore, coupling is 
+a fact of life. However, the designer should work to reduce coupling whenever 
+
+possible and understand the ramiﬁ cations of high coupling when it cannot be 
+avoided.  
+ 
+ 
+    As the design for each 
+software component is 
+elaborated, the focus 
+shifts to the design 
+of speciﬁ c data struc-
+
+tures and procedural 
+design to manipulate 
+the data structures. 
+
+However, don’t forget 
+
+the architecture that 
+must house the 
+components or the 
+global data structures 
+
+that may serve many 
+
+components.   
+Coupling in Action   
+Coupling in Action  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The scene:  
+Shakira’s cubicle. 
+   
+ 
+ 
+ 
+The players:  
+Vinod and Shakira—members of SafeHome 
+ software team who are working on security function.    
+ 
+ 
+ 
+The conversation:  
+   
+ 
+ 
+ 
+Shakira:  
+then I thought about it a little, and it seemed like a not so great idea. I ﬁ nally rejected it, but I just thought I’d 
+run it by you.    
+ 
+ 
+ 
+Vinod:  
+Sure. What’s the idea? 
+   
+ 
+ 
+ 
+Shakira:  
+Well, each of the sensors recognizes an 
+alarm condition of some kind, right? 
+   
+ 
+ 
+ 
+Vinod (smiling):  
+That’s why we call them sensors, 
+Shakira.   
+SAFEHOME pre22126_ch14_285-316.indd   298pre22126_ch14_285-316.indd   29813/12/13   6:12 PM13/12/13   6:12 PM

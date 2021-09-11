@@ -1,0 +1,51 @@
+˜˜˚˛˝˜˜˜˜˜˜
+are a consequence of individual carelessness or reckless behavior. People who 
+adopt this approach believe that human errors can be reduced by threats of 
+ disciplinary action, more stringent procedures, retraining, and so on. Their view 
+
+is that the error is the fault of the individual responsible for making the mistake.2. The systems approach The basic assumption is that people are fallible and will make 
+
+mistakes. People make mistakes because they are under pressure from high work-
+loads, because of poor training, or because of inappropriate system design. Good 
+
+systems should recognize the possibility of human error and include barriers and 
+
+safeguards that detect human errors and allow the system to recover before failure 
+
+occurs. When a failure does occur, the best way to avoid its recurrence is to understand 
+
+how and why the system defenses did not trap the error. Blaming and punishing the 
+
+person who triggered the failure does not improve long-term system safety.I believe that the systems approach is the right one and that systems engineers 
+should assume that human errors will occur during system operation. Therefore, to 
+
+improve the resilience of a system, designers have to think about the defenses and 
+
+barriers to human error that could be part of a system. They should also think about 
+
+whether these barriers should be built into the technical components of the system. 
+
+If not, they could be part of the processes, procedures, and guidelines for using the 
+
+system. For example, two operators may be required to check critical system inputs.The barriers and safeguards that protect against human errors may be technical or 
+sociotechnical. For example, code to validate all inputs is a technical defense; an approval 
+
+procedure for critical system updates that needs two people to confirm the update is a 
+
+sociotechnical defense. Using diverse barriers means that shared vulnerabilities are less 
+
+likely and that a user error is more likely to be trapped before system failure.In general, you should use redundancy and diversity to create a set of defensive 
+layers (Figure 14.5), where each layer uses a different approach to deter attackers or 
+to trap component failures or human errors. Dark blue barriers are software checks; 
+light blue barriers are checks carried out by people.As an example of this approach to defense in depth, some of the checks for con
+-troller errors that may be part of an air traffic control system include:1. A conflict alert warning as part of an air traffic control system When a control-ler instructs an aircraft to change its speed or altitude, the system extrapolates its 
+trajectory to see if it intersects with any other aircraft. If so, it sounds an alarm.2. Formalized recording procedures for air traffic management The same ATC 
+
+system may have a clearly defined procedure setting out how to record the con-
+trol instructions that have been issued to aircraft. These procedures help control-
+lers check if they have issued the instruction correctly and make the information 
+
+visible to others for checking.3. Collaborative checking Air traffic control involves a team of controllers who 
+
+constantly monitor each other™s work. When a controller makes a mistake, oth-
+ers usually detect and correct it before an incident occurs.

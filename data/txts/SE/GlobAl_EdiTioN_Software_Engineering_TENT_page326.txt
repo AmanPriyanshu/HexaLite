@@ -1,0 +1,36 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜You can achieve this by implementing data structures in your program as abstract data types. An abstract data type is one in which the internal structure and represen-tation of a variable of that type are hidden. The structure and attributes of the type 
+are not externally visible, and all access to the data is through operations.For example, you might have an abstract data type that represents a queue of 
+requests for service. Operations should include get and put, which add and remove items from the queue, and an operation that returns the number of items in the queue. 
+You might initially implement the queue as an array but subsequently decide to 
+
+change the implementation to a linked list. This can be achieved without any changes 
+to code using the queue, because the queue representation is never directly accessed.In some object-oriented languages, you can implement abstract data types using interface definitions, where you declare the interface to an object without reference 
+to its implementation. For example, you can define an interface 
+Queue, which sup
+-ports methods to place objects onto the queue, remove them from the queue, and 
+
+query the size of the queue. In the object class that implements this interface, the 
+
+attributes and methods should be private to that class.All programs take inputs from their environment and process them. The specification 
+
+makes assumptions about these inputs that reflect their real-world use. For example, it 
+
+may be assumed that a bank account number is always an eight-digit positive integer. In 
+
+many cases, however, the system specification does not define what actions should be 
+
+taken if the input is incorrect. Inevitably, users will make mistakes and will sometimes 
+
+enter the wrong data. As I discuss in Chapter 13,  malicious attacks on a system may 
+rely on deliberately entering invalid information. Even when inputs come from sensors 
+
+or other systems, these systems can go wrong and provide incorrect values.You should therefore always check the validity of inputs as soon as they are read from the program™s operating environment. The checks involved obviously depend 
+
+on the inputs themselves, but possible checks that may be used are:1. Range checks You may expect inputs to be within a particular range. For exam-ple, an input that represents a probability should be within the range 0.0 to 1.0; 
+an input that represents the temperature of a liquid water should be between 0 
+degrees Celsius and 100 degrees Celsius, and so on.Dependable programming guidelines
+1. Limit the visibility of information in a program.2. Check all inputs for validity.3. Provide a handler for all exceptions.4. Minimize the use of error-prone constructs.5. Provide restart capabilities.6. Check array bounds.7. Include timeouts when calling external components.
+8. Name all constants that represent real-world values.Figure 11.11 Good practice guidelines for 
+dependable 
+programming

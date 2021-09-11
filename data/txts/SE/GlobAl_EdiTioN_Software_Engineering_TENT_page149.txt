@@ -1,0 +1,36 @@
+˜˜˚˙˜˜˜˜˜˜
+4. Personal information may be transferred directly from the user interface object to the PRS. Alternatively, a summary record may be created from the database, 
+and that record is then transferred.5. On completion of the transfer, the PRS issues a status message and the user logs˜off.
+Unless you are using sequence diagrams for code generation or detailed docu
+-mentation, you don™t have to include every interaction in these diagrams. If you 
+
+develop system models early in the development process to support requirements 
+
+engineering and high-level design, there will be many interactions that depend on 
+
+implementation decisions. For example, in Figure 5.7 the decision on how to get the 
+user identifier to check authorization is one that can be delayed. In an implementa-
+tion, this might involve interacting with a User object. As this is not important at this 
+stage, you do not need to include it in the sequence diagram.Structural models of software display the organization of a system in terms of the 
+
+components that make up that system and their relationships. Structural models may 
+
+be static models, which show the organization of the system design, or dynamic 
+
+models, which show the organization of the system when it is executing. These are 
+not the same thingsŠthe dynamic organization of a system as a set of interacting 
+
+threads may be very different from a static model of the system components.You create structural models of a system when you are discussing and designing the system architecture. These can be models of the overall system architecture or 
+more detailed models of the objects in the system and their relationships.In this section, I focus on the use of class diagrams for modeling the static struc-ture of the object classes in a software system. Architectural design is an important 
+topic in software engineering, and UML component, package, and deployment dia-
+grams may all be used when presenting architectural models. I cover architectural 
+
+modeling in Chapters 6 and 17. ˇˇClass diagrams are used when developing an object-oriented system model to show 
+
+the classes in a system and the associations between these classes. Loosely, an object 
+class can be thought of as a general definition of one kind of system object. An asso-
+ciation is a link between classes indicating that some relationship exists between 
+
+these classes. Consequently, each class may have to have some knowledge of its 
+
+associated class.When you are developing models during the early stages of the software engi-neering process, objects represent something in the real world, such as a patient, a 

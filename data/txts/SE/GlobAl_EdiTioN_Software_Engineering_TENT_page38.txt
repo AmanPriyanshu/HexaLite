@@ -1,0 +1,49 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+3.
+ Allow for dynamic reconfiguration where parts of the software are replaced 
+with new versions and where backup instruments are switched into the system 
+in the event of system failure.Because weather stations have to be self-contained and unattended, this means 
+that the software installed is complex, even though the data collection functionality 
+is fairly simple.
+
+Many teachers argue that using interactive software systems to support education 
+
+can lead to both improved learner motivation and a deeper level of knowledge and 
+understanding in students. However, there is no general agreement on the ‚best™ 
+
+strategy for computer-supported learning, and teachers in practice use a range of dif-
+ferent interactive, web-based tools to support learning. The tools used depend on the 
+ages of the learners, their cultural background, their experience with computers, 
+
+equipment available, and the preferences of the teachers involved.A digital learning environment is a framework in which a set of general-purpose and specially designed tools for learning may be embedded, plus a set of applica-
+tions that are geared to the needs of the learners using the system. The framework 
+provides general services such as an authentication service, synchronous and asyn-
+chronous communication services, and a storage service.The tools included in each version of the environment are chosen by teachers and 
+learners to suit their specific needs. These can be general applications such as spread-
+sheets, learning management applications such as a Virtual Learning Environment 
+
+(VLE) to manage homework submission and assessment, games, and simulations. 
+
+They may also include specific content, such as content about the American Civil 
+
+War and applications to view and annotate that content.Figure 1.
+8 is a high-level architectural model of a digital learning environment 
+(iLearn) that was designed for use in schools for students from 3 to 18 years of 
+
+age. The approach adopted is that this is a distributed system in which all compo-
+nents of the environment are services that can be accessed from anywhere on the 
+
+Internet. There is no requirement that all of the learning tools are gathered together 
+
+in one place.The system is a service-oriented system with all system components considered 
+to be a replaceable service. There are three types of service in the system:1. Utility services that provide basic application-independent functionality and 
+that may be used by other services in the system. Utility services are usually 
+
+developed or adapted specifically for this system.2. Application services that provide specific applications such as email, conferencing, 
+
+photo sharing, etc., and access to specific educational content such as scientific 
+
+films or historical resources. Application services are external services that are 
+
+either specifically purchased for the system or are available freely over the Internet.

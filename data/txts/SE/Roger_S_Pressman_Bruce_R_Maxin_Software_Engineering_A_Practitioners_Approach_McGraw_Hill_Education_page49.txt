@@ -1,0 +1,141 @@
+CHAPTER 2  
+SOFTWARE ENGINEERING
+ 19and to the organizational culture). Therefore, a process adopted for one proj-ect might be signiﬁ cantly different than a process adopted for another project. 
+Among the differences are   
+ 
+ 
+• 
+ 
+  Overall ﬂ ow of activities, actions, and tasks and the interdependencies 
+among them.   
+ 
+ 
+• 
+ 
+  Degree to which actions and tasks are deﬁ ned within each framework 
+activity. 
+  
+ 
+ 
+• 
+ 
+  Degree to which work products are identiﬁ ed and required. 
+  
+ 
+ 
+• 
+ 
+  Manner in which quality assurance activities are applied.   
+ 
+ 
+• 
+ 
+  Manner in which project tracking and control activities are applied.   
+ 
+ 
+• 
+ 
+  Overall degree of detail and rigor with which the process is described.   
+ 
+ 
+• 
+ 
+  Degree to which the customer and other stakeholders are involved with the project.   
+ 
+ 
+• 
+ 
+  Level of autonomy given to the software team.   
+ 
+ 
+• 
+ 
+  Degree to which team organization and roles are prescribed.   
+  
+In Part 1 of this book, we examine software process in considerable detail.  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 2.3 S
+OFTWARE
+ ENGINEERING PRACTICE  
+ 
+In Section 2.2, we introduced a generic software process model composed of a set of activities that establish a framework for software engineering practice. Ge-
+neric framework activities— communication, planning, modeling, construction, 
+ and  deployment 
+—and umbrella activities establish a skeleton architecture for software engineering work. But how does the practice of software engineering 
+ﬁ t in? In the sections that follow, you’ll gain a basic understanding of the generic 
+concepts and principles that apply to framework activities.  4 
+ 
+  
+ 
+ 
+2.3.1  The Essence of Practice 
+ 
+ 
+ 
+  
+ 
+In the classic book,  How to Solve It, 
+ written before modern computers existed, 
+George Polya [Pol45] outlined the essence of   
+problem solving  
+, and consequently, 
+the essence of software engineering practice:   
+ 
+ 
+ 1.
+   
+Understand the problem
+ 
+ (communication and analysis).   
+ 
+ 
+ 2.
+   
+Plan a solution 
+ (modeling and software design).   
+ 
+ 
+ 3.
+   
+Carry out the plan 
+ (code generation).   
+ 
+ 
+ 4.
+   
+Examine the result for accuracy
+ 
+ (testing and quality assurance).   
+ uote:  “I feel a recipe is 
+only a theme which 
+an intelligent cook 
+can play each time 
+with a variation.”  Madame Benoit 
+ WebRef 
+ A variety of thought- 
+provoking quotes on 
+the practice of software 
+engineering can be 
+found at  
+ 
+www.literate-
+programming.com  . 
+  
+4  You should revisit relevant sections within this chapter as we discuss speciﬁ
+ c software engi-
+neering methods and umbrella activities later in this book.    You might argue that 
+Polya’s approach is 
+
+simply common sense. 
+True. But it’s amazing 
+
+how often common 
+sense is uncommon in 
+the software world. pre22126_ch02_014-028.indd   19pre22126_ch02_014-028.indd   1913/12/13   6:10 PM13/12/13   6:10 PM

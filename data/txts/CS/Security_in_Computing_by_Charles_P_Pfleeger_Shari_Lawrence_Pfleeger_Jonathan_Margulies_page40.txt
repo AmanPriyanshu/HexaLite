@@ -1,0 +1,75 @@
+6 Chapter 1  
+IntroductionHowever, we can see a small crack in the wall—a vulnerability that threatens the 
+man’s security. If the water rises to or beyond the level of the crack, it will exploit the 
+
+vulnerability and harm the man.There are many threats to a computer system, including human-initiated and 
+ computer-initiated ones. We have all experienced the results of inadvertent human 
+
+errors, hardware design flaws, and software failures. But natural disasters are threats, 
+
+too; they can bring a system down when the computer room is flooded or the data center 
+
+collapses from an earthquake, for example.
+A human who exploits a vulnerability perpetrates an 
+attack on the system. An attack 
+can also be launched by another system, as when one system sends an overwhelming 
+
+flood of messages to another, virtually shutting down the second system’s ability to 
+
+function. Unfortunately, we have seen this type of attack frequently, as denial-of-service 
+
+attacks deluge servers with more messages than they can handle. (We take a closer look 
+
+at denial of service in Chapter 6.)How do we address these problems? We use a 
+control
+ or 
+countermeasure 
+as pro-tection. That is, a control is an action, device, procedure, or technique that removes or 
+
+reduces a vulnerability. In Figure 1-4, the man is placing his finger in the hole, control-
+
+ling the threat of water leaks until 
+
+he finds a more permanent solution 
+
+to the problem. In general, we can 
+
+describe the relationship between 
+
+threats, controls, and vulnerabilities 
+
+in this way:
+A threat
+ is blocked by 
+control
+ of a vulnerability
+.Before we can protect assets, we need to know the kinds of harm we have to protect 
+them against, so now we explore threats to valuable assets.
+1.2 THREATS
+We can consider potential harm to assets in two ways: First, we can look at what bad 
+
+things can happen to assets, and second, we can look at who or what can cause or allow 
+
+those bad things to happen. These two perspectives enable us to determine how to pro-
+
+tect assets.Think for a moment about what makes your computer valuable to you. First, you 
+use it as a tool for sending and receiving email, searching the web, writing papers, and 
+
+performing many other tasks, and you expect it to be available for use when you want 
+
+it. Without your computer these tasks would be harder, if not impossible. Second, you 
+
+rely heavily on your computer’s integrity. When you write a paper and save it, you trust 
+
+that the paper will reload exactly as you saved it. Similarly, you expect that the photo a 
+
+friend passes you on a flash drive will appear the same when you load it into your com-
+
+puter as when you saw it on your friend’s computer. Finally, you expect the “personal” 
+
+aspect of a personal computer to stay personal, meaning you want it to protect your 
+
+confidentiality. For example, you want your email messages to be just between you and 
+Controls prevent threats from exercising 
+
+vulnerabilities.

@@ -1,0 +1,65 @@
+ Contents xi  6.3 Wireless Network Security 374
+WiFi Background 374
+Vulnerabilities in Wireless Networks 381
+
+Failed Countermeasure: WEP (Wired Equivalent Privacy) 388
+
+Stronger Protocol Suite: WPA (WiFi Protected Access) 390
+6.4 Denial of Service 396
+Example: Massive Estonian Web Failure  396
+
+How Service Is Denied 398
+
+Flooding Attacks in Detail 402
+
+Network Flooding Caused by Malicious Code 403
+
+Network Flooding by Resource Exhaustion 407
+
+Denial of Service by Addressing Failures 408
+
+Traffic Redirection 413
+
+DNS Attacks 414
+
+Exploiting Known Vulnerabilities 419
+
+Physical Disconnection 420
+6.5 Distributed Denial-of-Service 421
+Scripted Denial-of-Service Attacks 423
+
+Bots 426
+
+Botnets 426
+
+Malicious Autonomous Mobile Agents 430
+
+Autonomous Mobile Protective Agents 430
+ Part II—Strategic Defenses: Security Countermeasures 432
+6.6 Cryptography in Network Security 432
+Network Encryption 433
+Browser Encryption 437
+
+Onion Routing 443
+
+IP Security Protocol Suite (IPsec) 444
+
+Virtual Private Networks 447
+
+System Architecture 450
+6.7 Firewalls 451
+What Is a Firewall? 452
+
+Design of Firewalls 453
+
+Types of Firewalls 454
+
+Personal Firewalls 465
+
+Comparison of Firewall Types 467
+
+Example Firewall Configurations 467
+
+Network Address Translation (NAT) 472
+
+Data Loss Prevention 473

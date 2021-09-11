@@ -1,0 +1,34 @@
+˜˜˜˚˛˜˜˜˜˜˜
+Failure to deliver insulin does not have immediate safety implications, so com-mercial factors rather than safety factors govern the level of reliability required. 
+Service costs are high because users need fast repair and replacement. It is in the 
+
+manufacturer™s interest to limit the number of permanent failures that require repair.To achieve a high level of reliability and availability in a software-intensive system, 
+
+you use a combination of fault-avoidance, fault-detection, and fault-tolerance tech
+-
+niques. This means that functional reliability requirements have to be generated which 
+
+specify how the system should provide fault avoidance, detection, and tolerance.These functional reliability requirements should specify the faults to be detected and the actions to be taken to ensure that these faults do not lead to system failures. 
+Functional reliability specification, therefore, involves analyzing the non-functional 
+requirements (if these have been specified), assessing the risks to reliability and 
+
+specifying system functionality to address these risks.There are four types of functional reliability requirements:1. Checking requirements These requirements identify checks on inputs to the sys-
+tem to ensure that incorrect or out-of-range inputs are detected before they are 
+processed by the system.2. Recovery requirements 
+These requirements are geared to helping the system 
+
+recover after a failure has occurred. These requirements are usually concerned 
+with maintaining copies of the system and its data and specifying how to restore 
+
+system services after failure.3. Redundancy requirements These specify redundant features of the system that 
+ensure that a single component failure does not lead to a complete loss of ser
+-
+vice. I discuss this in more detail in the next chapter.4. Process requirements These are fault-avoidance requirements, which ensure 
+
+that good practice is used in the development process. The practices specified 
+should reduce the number of faults in a system.Some examples of these types of reliability requirement are shown in Figure 11.5.Figure 11.5 Examples of functional reliability 
+requirementsRR1: A predefined range for all operator inputs shall be defined, and the system shall 
+check that all operator inputs fall within this predefined range. (Checking)RR2: Copies of the patient database shall be maintained on two separate servers that 
+are not housed in the same building. (Recovery, redundancy)RR3: N-version programming shall be used to implement the braking control system. 
+(Redundancy)RR4: The system must be implemented in a safe subset of Ada and checked using 
+static analysis. (Process)

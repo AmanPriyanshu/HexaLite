@@ -1,0 +1,53 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜critical protected assets at the lowest level in the system. Figure 13.13 illustrates this multilevel system architecture in which the critical assets to be protected are the 
+
+records of individual patients.To access and modify patient records, an attacker has to penetrate three system layers:1. Platform-level protection. The top level controls access to the platform on 
+
+which the patient record system runs. This usually involves a user signing-on to 
+
+a particular computer. The platform will also normally include support for 
+
+maintaining the integrity of files on the system, backups, and so on.2. Application-level protection. 
+The next protection level is built into the applica
+-
+tion itself. It involves a user accessing the application, being authenticated, and 
+
+getting authorization to take actions such as viewing or modifying data. 
+
+Application-specific integrity management support may be available.3. Record-level protection. This level is invoked when access to specific records is 
+required, and involves checking that a user is authorized to carry out the 
+
+requested operations on that record. Protection at this level might also involve 
+encryption to ensure that records cannot be browsed using a file browser. 
+
+Integrity checking using, for example, cryptographic checksums can detect 
+
+changes that have been made outside the normal record update mechanisms.The number of protection layers that you need in any particular application 
+depends on the criticality of the data. Not all applications need protection at the 
+
+record level, and, therefore, coarser-grain access control is more commonly used. To 
+achieve security, you should not allow the same user credentials to be used at each 
+level. Ideally, if you have a password-based system, then the application password 
+should be different from both the system password and the record-level password. 
+However, multiple passwords are difficult for users to remember, and they find 
+
+repeated requests to authenticate themselves irritating. Therefore, you often have to 
+compromise on security in favor of system usability.If protection of data is a critical requirement, then a centralized clientŒserver 
+architecture is usually the most effective security architecture. The server is respon-
+sible for protecting sensitive data. However, if the protection is compromised, then 
+the losses associated with an attack are high, as all data may be lost or damaged. 
+
+Recovery costs may also be high (e.g., all user credentials may have to be reissued). 
+Centralized systems are also more vulnerable to denial-of-service attacks, which 
+
+overload the server and make it impossible for anyone to access the system database.If the consequences of a server breach are high, you may decide to use an alternative 
+distributed architecture for the application. In this situation, the system™s assets are dis-
+tributed across a number of different platforms, with separate protection mechanisms 
+
+used for each of these platforms. An attack on one node might mean that some assets 
+
+are unavailable, but it would still be possible to provide some system services. Data can 
+
+be replicated across the nodes in the system so that recovery from attacks is simplified.Figure 13.
+14 illustrates the architecture of a banking system for trading in stocks and funds on the New York, London, Frankfurt, and Hong Kong markets. The system 

@@ -1,0 +1,39 @@
+˜˜˚˛˜˜˜˜˜˜˜˜˜
+where components were executable routines that were included in larger systems. Each 
+system that used a component embedded its own version of that component. Service-
+oriented approaches are gradually replacing CBSE with embedded components as an 
+
+approach to systems development. In this chapter, I discuss the use of CBSE with 
+
+embedded components; service-oriented software engineering is covered in Chapter 18.
+The software reuse community generally agrees that a component is an independent 
+
+software unit that can be composed with other components to create a software  system. 
+Beyond that, however, people have proposed varying definitions of a software compo-nent. Councill and Heineman (Councill and Heineman 2001) define a component as:A software element that conforms to a standard component model and can be 
+independently deployed and composed without modification according to a 
+
+composition standard.ƒThis definition is standards-based so that a software unit that conforms to these stand-ards is a component. Szyperski (Szyperski 2002), however, does not mention standards in 
+
+his definition of a component but focuses instead on the key characteristics of components:A software component is a unit of composition with contractually-specified 
+
+interfaces and explicit context dependencies only. A software component can 
+
+be deployed independently and is subject to composition by third parties.⁄Both of these definitions were developed around the idea of a component as an element that is embedded in a system, rather than a service that is referenced by the 
+
+system. However, they are equally applicable to service components.Szyperski also states that a component has no externally observable state; that is, 
+copies of components are indistinguishable. However, some component models, 
+
+such as the Enterprise Java Beans model, allow stateful components, so these do not 
+correspond with Szyperski™s definition. While stateless components are certainly 
+
+simpler to use, in some systems stateful components are more convenient and reduce 
+system complexity.What the above definitions have in common is that they agree that components are independent and that they are the fundamental unit of composition in a system. I 
+
+think that, if we combine these proposals, we get a more rounded description of a 
+reusable component. Figure 16.1 shows what I consider to be the essential character-
+istics of a component as used in CBSE.ƒCouncill, W. T., and G. T. Heineman. 2001. ﬁDe˚nition of a Software Component and Its Elements.ﬂ 
+In Component-Based Software Engineering, edited by G T Heineman and W T Councill, 5Œ20. Boston: 
+
+Addison Wesley.
+⁄Szyperski, C. 2002. Component Software: Beyond Object-Oriented Programming, 2nd Ed. Harlow, 
+UK: Addison Wesley.

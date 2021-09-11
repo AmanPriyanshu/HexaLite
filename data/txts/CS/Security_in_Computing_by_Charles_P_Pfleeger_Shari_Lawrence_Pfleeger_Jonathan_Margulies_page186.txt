@@ -1,0 +1,62 @@
+152 Chapter 3  
+Programs and Programmingwith a countermeasure, the attacker returns the ball with an enhanced attack, and so 
+on. The protective canary value has to be something to which the termination code can 
+
+detect a change, for example, the recognizable pattern 0x0f1e2d3c, which is a num-
+
+ber the attacker is unlikely to write naturally (although not impossible). As soon as 
+
+the attacker discovers that a commercial product looks for a pad of exactly that value, 
+
+we know what value the attacker is likely to write near the return address. Countering 
+
+again, to add variety the defender picks random patterns that follow some sequence, 
+
+such as 0x0f1e2d3c, 0x0f1e2d3d, and so on. In response, the attacker monitors the stack 
+
+over time to try to predict the sequence pattern. The two sides continue to volley modi-
+
+fications until, as in tennis, one side fails.
+Next we consider a programming flaw that is similar to an overflow: a failure to 
+check and control access completely and consistently.
+Incomplete MediationMediation means checking: the process of intervening to confirm an actor’s authoriza-
+
+tion before it takes an intended action. In the last chapter we discussed the steps and 
+
+actors in the authentication process: the access control triple that describes what subject 
+can perform what operation on what object. Verifying that the subject is authorized 
+
+to perform the operation on an object is called 
+mediation. Incomplete mediation is a 
+security problem that has been with us for decades: Forgetting to ask “Who goes there?” 
+
+before allowing the knight across the castle drawbridge is just asking for trouble. In the 
+
+same way, attackers exploit incomplete mediation to cause security problems.
+DefinitionConsider the following URL. In addition to a web address, it contains two parameters, 
+so you can think of it as input to a program:http://www.somesite.com/subpage/userinput.asp? parm1=(808)555-1212&parm2=2015Jan17As a security professional trying to find and fix problems before they occur, you 
+might examine the various parts of the URL to determine what they mean and how they 
+
+might be exploited. For instance, the parameters parm1 and parm2 look like a telephone 
+
+number and a date, respectively. Probably the client’s (user’s) web browser enters those 
+
+two values in their specified format for easy processing on the server’s side. 
+But what would happen if parm2 were submitted as 1800Jan01? Or 1800Feb30? Or 
+2048Min32? Or 1Aardvark2Many? Something in the program or the system with which 
+
+it communicates would likely fail. As with other kinds of programming errors, one pos-
+
+sibility is that the system would fail catastrophically, with a routine’s failing on a data 
+
+type error as it tried to handle a month named “Min” or even a year (like 1800) that was 
+
+out of expected range. Another possibility is that the receiving program would continue 
+
+to execute but would generate a very wrong result. (For example, imagine the amount 
+
+of interest due today on a billing error with a start date of 1 Jan 1800.) Then again, the 
+
+processing server might have a default condition, deciding to treat 1Aardvark2Many as 
+
+21 July 1951. The possibilities are endless.

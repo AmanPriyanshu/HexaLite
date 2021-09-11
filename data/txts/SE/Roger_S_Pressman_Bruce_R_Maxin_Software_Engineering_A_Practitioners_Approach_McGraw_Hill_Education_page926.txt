@@ -1,0 +1,63 @@
+896 APPENDIX 2  
+OBJECT-ORIENTED CONCEPTS
+ 
+Cox [Cox86] describes the interchange between classes in the following manner: 
+ 
+ 
+An object [class] is requested to perform one of its operations by sending it a message telling the object what to do. The receiver [object] responds to the message by ﬁ rst 
+choosing the operation that implements the message name, executing this operation, 
+and then returning control to the caller. Messaging ties an object-oriented system 
+
+together. Messages provide insight into the behavior of individual objects and the OO 
+
+system as a whole.   
+ 
+ 
+Polymorphism.   
+ 
+Polymorphism 
+ is a characteristic that greatly reduces the effort 
+required to extend the design of an existing object-oriented system. To understand 
+
+polymorphism, consider a conventional application that must draw four different 
+
+types of graphs: line graphs, pie charts, histograms, and Kiviat diagrams. Ideally, 
+
+once data are collected for a particular type of graph, the graph should draw itself. 
+
+To accomplish this in a conventional application (and maintain module cohesion), 
+
+it would be necessary to develop drawing modules for each type of graph. Then, 
+
+within the design, control logic similar to the following would have to be embedded: 
+  
+case of graphtype:  if graphtype = linegraph then DrawLineGraph (data);  if graphtype = piechart then DrawPieChart (data);  if graphtype = histogram then DrawHisto (data);  if graphtype = kiviat then DrawKiviat (data);  end case;   
+Although this design is reasonably straightforward, adding new graph types could 
+be tricky. A new drawing module would have to be created for each graph type and 
+
+then the control logic would have to be updated to reﬂ ect the new graph type. 
+ To solve this problem, all of the graphs become subclasses of a general class called  Graph 
+. Using a concept called  overloading 
+ [Tay90], each subclass deﬁ
+ nes 
+an operation called  draw 
+. An object can send a  draw 
+ message to any one of the 
+objects instantiated from any one of the subclasses. The object receiving the mes-
+sage will invoke its own  draw 
+ operation to create the appropriate graph. There-
+fore, the design is reduced to   
+draw <graphtype>   
+When a new graph type is to be added to the system, a subclass is created with its own 
+ draw 
+ operation. But no changes are required within any object that wants a graph 
+drawn because the message  draw <graphtype> 
+ remains unchanged. To summarize, 
+polymorphism enables a number of different operations to have the same name. 
+
+This in turn decouples objects from one another, making each more independent. 
+  
+ 
+Design classes.   
+The requirements model deﬁ nes a complete set of analy-
+sis classes. Each describes some element of the problem domain, focusing on pre22126_app2_891-898.indd   896pre22126_app2_891-898.indd   89613/12/13   6:18 PM13/12/13   6:18 PM

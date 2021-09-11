@@ -1,0 +1,66 @@
+ Section 12.5  Digital Signatures 
+803  where s  (yP  yQ) / (xP  xQ)xR  s2  xP  xQ and yR  yP  s(xP  xR) Note that s is the slope of the line through P and Q. Thus, given P and Q we can find the 
+third point on the line PQR algebraically. That means we can also find the next point T 
+
+on QRT, then V on RTV, and so on. There is also a formula that lets us start with a single 
+
+point and derive a second: one point can get us a second, and two points get us a third.
+The elliptic curve cryptosystems add one more twist, which should be familiar from 
+the mathematics of the RSA algorithm: ECC operations are done in a finite group, the 
+
+integers mod 
+p for some prime 
+p. Thus, although both 
+x and 
+y values increase without 
+bound in the basic ECC equation, restricting the arithmetic to a finite field is what 
+
+makes the cryptographic problem hard to reverse. Given a starting point P and an end 
+
+point Z and constraining results to be in a finite field, the question is how many steps 
+
+does it take to get from P to Z. More formally, find the value 
+k for which P
+k  Z. In 
+other words, find
+ k, 
+the base P logarithm of Z. It turns out the fastest known way to 
+answer that question is to start with P and generate all intermediate points until you 
+
+obtain Z.Elliptic curve cryptography is seldom used by itself for public key encryption. How-
+ever, it is often used as a component in digital signatures. In 2005 the NSA presented 
+
+its strategy and recommendations for securing U.S. government sensitive and unclassi-
+
+fied communications. The strategy included a recommended set of advanced cryptogra-
+
+phy algorithms known as Suite B. The protocols included in Suite B are Elliptic Curve 
+
+Diffie-Hellman (ECDH) and Elliptic Curve Menezes-Qu-Vanstone (ECMQV) for key 
+
+exchange and agreement; the Elliptic Curve Digital Signature Algorithm (ECDSA) for 
+
+digital signatures; the Advanced Encryption Standard (AES) for symmetric encryption; 
+
+and the Secure Hashing Algorithm (SHA). What appealed to the NSA about ECC were 
+
+its strong security, efficiency, and scalability over public-key cryptography algorithms.
+El Gamal and Digital Signature Algorithms
+Another public key algorithm was devised in 1984 by Taher El Gamal [ELG85, ELG86]. 
+
+While this algorithm is not widely used directly, it is of considerable importance in the 
+
+U.S. Digital Signature Standard (DSS) [NIS92, NIS94]. This algorithm relies on the 
+
+difficulty of computing discrete logarithms over finite fields. Because it is based on 
+
+arithmetic in finite fields, as is RSA, it bears some similarity to RSA.
+El Gamal Signature Algorithm
+In the El Gamal algorithm, to generate a key pair, first choose a prime 
+p and two inte-
+gers, a and 
+x, such that a  p and 
+x  p and calculate 
+y  ax mod 
+p. The prime 
+p should 

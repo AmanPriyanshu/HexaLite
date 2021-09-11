@@ -1,0 +1,98 @@
+326 PART TWO  
+MODELING 
+ 
+ 
+•  Is the software to be an integral part of the work users do or will it be used only occasionally?   
+ 
+ 
+•  What is the primary spoken language among users?   
+ 
+ 
+•  What are the consequences if a user makes a mistake using the system?   
+ 
+ 
+•  Are users experts in the subject matter that is addressed by the system?   
+ 
+ 
+•  Do users want to know about the technology that sits behind the interface?  
+ 
+  Once these questions are answered, you’ll know who the end users are, what is likely to motivate and please them, how they can be grouped into different 
+user classes or proﬁ les, what their mental models of the system are, and how the 
+user interface must be characterized to meet their needs.   
+ 
+15.3.2 Task Analysis and Modeling 
+ 
+ 
+ 
+  
+ 
+The goal of task analysis is to answer the following questions: 
+ 
+ 
+ 
+•  What work will the user perform in speciﬁ c circumstances? 
+  
+ 
+ 
+•  What tasks and subtasks will be performed as the user does the work?   
+ 
+ 
+•  What speciﬁ c problem domain objects will the user manipulate as work is 
+performed?   
+ 
+ 
+•  What is the sequence of work tasks—the workﬂ ow? 
+  
+ 
+ 
+•  What is the hierarchy of tasks?  
+ 
+  To answer these questions, you must draw upon techniques that we have dis-
+cussed earlier in this book, but in this instance, these techniques are applied to 
+the user interface.  
+ 
+ 
+  
+ 
+ 
+Use Cases.   
+In previous chapters you learned that the use case describes the man-ner in which an actor (in the context of user interface design, an actor is always a 
+
+person) interacts with a system. When used as part of task analysis, the use case is 
+
+developed to show how an end user performs some speciﬁ c work-related task. In 
+most instances, the use case is written in an informal style (a simple paragraph) in 
+
+the ﬁ rst person. For example, assume that a small software company wants to build 
+a computer-aided design system explicitly for interior designers. To get a better 
+
+understanding of how they do their work, actual interior designers are asked to 
+
+describe a speciﬁ c design function. When asked: “How do you decide where to put 
+furniture in a room?” an interior designer writes the following informal use case:  
+I begin by sketching the ﬂ oor plan of the room, the dimensions and the location of 
+windows and doors. I’m very concerned about light as it enters the room, about the 
+view out of the windows (if it’s beautiful, I want to draw attention to it), about the run-
+
+ning length of an unobstructed wall, about the ﬂ ow of movement through the room. 
+. Then, I draw a 
+
+rendering (a 3-D picture) of the room to give my customer a feel for what it’ll look like.  
+    The user’s goal is to 
+accomplish one or 
+more tasks via the UI. 
+To accomplish this, 
+
+the UI must provide 
+mechanisms that allow 
+the user to achieve 
+her goal.  WebRef 
+ An excellent source 
+of information on 
+
+user modeling can be 
+found at   
+http://web.eecs.umich.
+edu/~kieras/
+
+docs/GOMS/   pre22126_ch15_317-346.indd   326pre22126_ch15_317-346.indd   32613/12/13   10:01 PM13/12/13   10:01 PM

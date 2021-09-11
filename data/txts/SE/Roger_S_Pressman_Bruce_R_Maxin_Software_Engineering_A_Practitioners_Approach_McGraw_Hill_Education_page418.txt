@@ -1,0 +1,48 @@
+388 PART TWO  
+MODELINGconstruct program components that are identical in form to software compo-nents for traditional software.  The design methods discussed in Chapter 14 apply to WebApp components 
+with little, if any, modiﬁ
+ cation. The implementation environment, programming 
+languages, and design patterns, frameworks, and software may vary somewhat, 
+but the overall design approach remains the same.   
+ 
+ 
+ 
+ 
+ 17.10 S
+UMMARY  
+The quality of a WebApp—deﬁ
+ ned in terms of usability, functionality, reliability, 
+efﬁ ciency, maintainability, security, scalability, and time-to-market—is intro-
+duced during design. To achieve these quality attributes, a good WebApp design 
+
+should exhibit the following characteristics: simplicity, consistency, identity, ro-
+
+bustness, navigability, and visual appeal. WebApp design activity focuses on six 
+
+different elements of the design.  Interface design describes  
+ the structure and organization of the user inter-
+face and includes a representation of screen layout, a deﬁ nition of the modes 
+of interaction, and a description of navigation mechanisms. A set of interface 
+design principles and an interface design workﬂ ow guide you when layout and 
+interface control mechanisms are designed.  Aesthetic design, also called graphic design, describes the “look and feel” of the WebApp and includes color schemes; geometric layout; text size, font, and 
+
+placement; the use of graphics; and related aesthetic decisions. A set of graphic 
+design guidelines provides the basis for a design approach.  Content design deﬁ nes the layout, structure, and outline for all content that is 
+presented as part of the WebApp and establishes the relationships between con-
+
+tent objects. Content design begins with the representation of content objects, 
+their associations, and relationships. A set of browsing primitives establishes the 
+basis for navigation design.  Architecture design identiﬁ es the overall hypermedia structure for the 
+WebApp and encompasses both content architecture and WebApp architecture. 
+
+Architectural styles for content include linear, grid, hierarchical, and network 
+
+structures. WebApp architecture describes an infrastructure that enables a Web-
+
+based system or application to achieve its business objectives.  Navigation design represents the navigational ﬂ ow between content objects 
+and for all WebApp functions. Navigation semantics are deﬁ
+ ned by describing 
+a set of navigation semantic units. Each unit is composed of ways of navigations 
+and navigational links and nodes. Navigation syntax depicts the mechanisms 
+used for effecting the navigation described as part of the semantics.  Component design develops the detailed processing logic required to im-plement functional components that implement a complete WebApp function. 
+pre22126_ch17_371-390.indd   388pre22126_ch17_371-390.indd   38813/12/13   6:13 PM13/12/13   6:13 PM

@@ -1,0 +1,79 @@
+CHAPTER 4  
+PROCESS MODELS 61 
+ 
+ 
+•  Accelerate software process improvement by making CMM  18 
+ 
+ level 5  behavior normal and expected.   
+ 
+ 
+•  Provide improvement guidance to high-maturity organizations.   
+ 
+ 
+•  Facilitate university teaching of industrial-grade team skills.  
+ 
+   
+ 
+A self-directed team has a consistent understanding of its overall goals and ob-jectives; deﬁ nes roles and responsibilities for each team member; tracks quantita-
+tive project data (about productivity and quality); identiﬁ es a team process that is 
+appropriate for the project and a strategy for implementing the process; deﬁ nes 
+local standards that are applicable to the team’s software engineering work; contin-
+
+ually assesses risk and reacts to it; and tracks, manages, and reports project status. 
+ TSP deﬁ nes the following framework activities:  
+project launch, high-level 
+design, implementation, integration and test, 
+ and  
+postmortem. 
+ Like their coun-
+terparts in PSP (note that terminology is somewhat different), these activities 
+enable the team to plan, design, and construct software in a disciplined manner 
+while at the same time quantitatively measuring the process and the product. 
+The postmortem sets the stage for process improvements.   
+TSP makes use of a wide variety of scripts, forms, and standards that serve to guide team members in their work. “Scripts” deﬁ ne speciﬁ
+ c process activi-
+ties (i.e., project launch, design, implementation, integration and system testing, 
+postmortem) and other more detailed work functions (e.g., development plan-
+ning, requirements development, software conﬁ guration management, unit test) 
+that are part of the team process.  TSP recognizes that the best software teams are self-directed.  19 
+ 
+ Team members 
+set project objectives, adapt the process to meet their needs, control the project 
+schedule, and through measurement and analysis of the metrics collected, work 
+continually to improve the team’s approach to software engineering. 
+  
+Like PSP, TSP is a rigorous approach to software engineering that provides 
+distinct and quantiﬁ able beneﬁ
+ ts in productivity and quality. The team must 
+make a full commitment to the process and must undergo thorough training to 
+ensure that the approach is properly applied.    TSP scripts deﬁ ne 
+elements of the team 
+process and activities 
+that occur within the 
+process.   
+18  The Capability Maturity Model (CMM), a measure of the effectiveness of a software process, is 
+discussed in Chapter 37.   
+19  In Chapter 5 we discuss the importance of “self-organizing” teams as a key element in agile 
+software development.    To form a self-directed 
+team, you must col-
+laborate well internally 
+
+and communicate well 
+externally. 
+  
+ 
+ 
+ 
+ 
+ 
+ 4.5 P
+ROCESS TECHNOLOGY    
+ 
+One or more of the process models discussed in the preceding sections must be 
+adapted for use by a software team. To accomplish this,  
+process technology tools
+ 
+ have been developed to help software organizations analyze their current process, 
+
+organize work tasks, control and monitor progress, and manage technical quality. 
+pre22126_ch04_040-065.indd   61pre22126_ch04_040-065.indd   6113/12/13   6:10 PM13/12/13   6:10 PM

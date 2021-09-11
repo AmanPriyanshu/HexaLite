@@ -1,0 +1,41 @@
+682 Chapter 10  
+Management and Incidentsaccess control software is high ($25,000), its cost is easily justified when compared to 
+its value, as shown in Table 10-7. Because the entire cost of the package is charged in 
+
+the first year, even greater benefits are expected for subsequent years.
+Another company uses a common carrier to link to a network for certain computing 
+applications. The company has identified the risks of unauthorized access to data and 
+
+computing facilities through the network. The company can eliminate these risks by 
+
+replacing remote network access with the requirement to access the system only from a 
+
+machine operated on the company premises. The machine is not already owned; a new 
+
+one would have to be acquired. The economics of this example are not promising, as 
+
+shown in Table 10-8.
+TABLE 10-7 
+Justiﬁcation of Access Control Software
+ItemAmount
+Risks: disclosure of company confidential data, computation based on incorrect data
+Cost to reconstruct correct data: $1,000,000 @ 10% likelihood per year$100,000
+Effectiveness of access control software: 60%
+60,000Cost of access control software
+25,000Expected annual costs due to loss and controls (100,000  60,000  25,000)$65,000
+Savings (100,000 
+ 65,000)$35,000
+TABLE 10-8 
+Cost/Beneﬁt Analysis for Replacing Network Access
+ItemAmount
+Risk: unauthorized access and useAccess to unauthorized data and programs $100,000 @ 2% likelihood per year$2,000
+Unauthorized use of computing facilities $10,000 @ 40% likelihood per year4,000
+
+Expected annual loss (2,000  4,000)6,000
+Effectiveness of network control: 100%
+6,000Control cost:
+Hardware (50,000 amortized over 5 years)
+10,000Software (20,000 amortized over 5 years)
+4,000Support personnel (each year)40,000Annual cost54,000Expected annual loss (6,000  6,000  54,000)$54,000
+Savings (6,000 
+ 54,000)$48,000

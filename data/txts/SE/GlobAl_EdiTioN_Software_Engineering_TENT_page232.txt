@@ -1,0 +1,29 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜develops tests and assists with the testing process. For critical systems, a more for-mal process may be used, with a separate testing group within the development team. 
+This group is responsible for developing tests and maintaining detailed records of 
+
+test results.There are three stages of development testing:1. Unit testing, where individual program units or object classes are tested. Unit 
+
+testing should focus on testing the functionality of objects or methods.2. Component testing, where several individual units are integrated to create com-
+posite components. Component testing should focus on testing the component 
+interfaces that provide access to the component functions.3. System testing, where some or all of the components in a system are integrated 
+and the system is tested as a whole. System testing should focus on testing com
+-
+ponent interactions.Development testing is primarily a defect testing process, where the aim of test-ing is to discover bugs in the software. It is therefore usually interleaved with 
+
+debuggingŠthe process of locating problems with the code and changing the pro-
+gram to fix these problems.Unit testing is the process of testing program components, such as methods or object 
+classes. Individual functions or methods are the simplest type of component. Your 
+tests should be calls to these routines with different input parameters. You can use 
+the approaches to test-case design discussed in Section 8.1.2 to design the function 
+or method tests.When you are testing object classes, you should design your tests to provide cov-erage of all of the features of the object. This means that you should test all opera-
+tions associated with the object; set and check the value of all attributes associated 
+with the object; and put the object into all possible states. This means that you should 
+
+simulate all events that cause a state change.Consider, for example, the weather station object from the example that I discussed 
+in Chapter 7. The attributes and operations of this object are shown in Figure 8.4. 
+DebuggingDebugging is the process of fixing errors and problems that have been discovered by testing. Using information 
+from the program tests, debuggers use their knowledge of the programming language and the intended out-
+
+come of the test to locate and repair the program error. When you are debugging a program, you usually use 
+interactive tools that provide extra information about program execution.http://software-engineering-book.com/web/debugging/

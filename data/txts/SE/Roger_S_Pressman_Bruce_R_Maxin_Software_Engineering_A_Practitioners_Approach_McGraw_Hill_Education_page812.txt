@@ -1,0 +1,90 @@
+782 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+ 
+ 
+ 10.
+  Is the number of people on the project team adequate to do the job?   
+ 
+ 
+ 11.
+  Do all customer/user constituencies agree on the importance of the proj-ect and on the requirements for the system/product to be built?    
+If any one of these questions is answered negatively, mitigation, monitoring, 
+and management steps should be instituted without fail. The degree to which the 
+project is at risk is directly proportional to the number of negative responses to 
+these questions.   
+ 
+ 
+35.3.2   
+Risk Components and Drivers  
+ 
+The U.S. Air Force [AFC88] has published a pamphlet that contains excellent guidelines for software risk identiﬁ cation and abatement. The Air Force ap-
+proach requires that the project manager identify the risk drivers that affect soft-
+ware risk components—performance, cost, support, and schedule. In the context 
+of this discussion, the risk components are deﬁ ned in the following manner:
+ 
+ 
+ 
+ 
+•   
+Performance risk 
+—The degree of uncertainty that the product will meet its requirements and be ﬁ t for its intended use. 
+  
+ 
+ 
+•   
+Cost risk 
+—The degree of uncertainty that the project budget will be maintained.   
+ 
+ 
+•   
+Support risk 
+—The degree of uncertainty that the resultant software will be easy to correct, adapt, and enhance.   
+ 
+ 
+•   
+Schedule risk 
+—The degree of uncertainty that the project schedule will be maintained and that the product will be delivered on time.  
+ 
+  The impact of each risk driver on the risk component is divided into one of four impact categories—negligible, marginal, critical, or catastrophic. Referring 
+to   
+Figure 35.1  
+ [Boe89], a characterization of the potential consequences of errors 
+(rows labeled 1) or a failure to achieve a desired outcome (rows labeled 2) are 
+described. The impact category is chosen based on the characterization that best 
+ﬁ ts the description in the table. 
+  
+ 
+ 
+ 
+ 
+ 
+ 35.4  
+RISK PROJECTION  
+ 
+ 
+Risk projection
+ 
+, also called  risk estimation, 
+ attempts to rate each risk in two 
+ways—(1) the likelihood or probability that the risk is real and will occur and (2) 
+the consequences of the problems associated with the risk, should it occur. You 
+
+work along with other managers and technical staff to perform four risk projec-
+tion steps:   
+ 
+ 
+ 1.
+  Establish a scale that reﬂ ects the perceived likelihood of a risk. 
+  
+ 
+ 
+ 2.
+  Delineate the consequences of the risk.   
+ 
+ 
+ uote:  “Risk management 
+is project 
+management for 
+adults.”  Tim Lister 
+pre22126_ch35_777-794.indd   782pre22126_ch35_777-794.indd   78213/12/13   6:17 PM13/12/13   6:17 PM

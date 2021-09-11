@@ -1,0 +1,37 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜˜˜these have an inherently lower overhead than web service protocols. The use of 
+RESTful protocols is not standardized.The scalability of a system reflects its ability to deliver high-quality service as 
+demands on the system increase. The three dimensions of scalability are size, distri-
+bution, and manageability.1. Size It should be possible to add more resources to a system to cope with increas-ing numbers of users. Ideally, then, as the number of users increases, the system should increase in size automatically to handle the increased number of users.2. Distribution It should be possible to geographically disperse the components of a system without degrading its performance. As new components are added, it 
+
+should not matter where these are located. Large companies can often make use 
+of computing resources in their different facilities around the world.3. Manageability It should be possible to manage a system as it increases in size, even if parts of the system are located in independent organizations. This is one 
+of the most difficult challenges of scale as it involves managers communicating 
+and agreeing on management policies. In practice, the manageability of a sys-
+tem is often the factor that limits the extent to which it can be scaled.Changing the size of a system may involve either scaling up or scaling out. Scaling 
+up means replacing resources in the system with more powerful resources. For exam-
+ple, you may increase the memory in a server from 16 Gb to 64 Gb. Scaling out means 
+
+adding more resources to the system (e.g., an extra web server to work alongside an 
+
+existing server). Scaling out is often more cost-effective than scaling up, especially 
+
+now that cloud computing makes it easy to add or remove servers from a system. 
+
+However, this only provides performance improvements when concurrent processing 
+
+is possible.I have discussed general security issues and issues of security engineering in Part 2 of 
+this book. When a system is distributed, attackers may target any of the individual system 
+
+components or the network itself. If a part of the system is successfully attacked, then the 
+
+attacker may be able to use this as a ﬁback doorﬂ into other parts of the system.A distributed system must defend itself against the following types of attack:1. Interception, where an attacker intercepts communications between parts of the 
+system so that there is a loss of confidentiality.2. Interruption, where system services are attacked and cannot be delivered as 
+
+expected. Denial-of-service attacks involve bombarding a node with illegitimate 
+
+service requests so that it cannot deal with valid requests.3. Modification, where an attacker gains access to the system and changes data or 
+system services.4. Fabrication, where an attacker generates information that should not exist and 
+then uses this information to gain some privileges. For example, an attacker 
+
+may generate a false password entry and use this to gain access to a system.

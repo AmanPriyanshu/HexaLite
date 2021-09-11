@@ -1,0 +1,152 @@
+CHAPTER 17  
+WEBAPP DESIGN 379supplementary media (e.g., audio, video, animation); and all other aesthetic ele-ments of an application.  A comprehensive discussion of graphic design issues for WebApps is beyond 
+the scope of this book. You can obtain design tips and guidelines from many 
+
+websites that are dedicated to the subject (e.g.,   
+ 
+www.graphic-design.com 
+ 
+,  www.webdesignfromscratch.com 
+,   
+www.wpdfd.com 
+ 
+) or from one or more print re-sources (e.g., [Bea11], [McN10], [Lup08], and [Roc06]).  
+ 
+ 
+  
+ 
+Well-Designed Websites 
+ 
+Sometimes, the best way to understand good WebApp design is to look at a few exam-
+ples. In his article “The Top Twenty Web Design Tips,” 
+
+Marcelle Toor ( 
+ 
+www.graphic-design.com/Web/
+feature/tips.html  
+) suggests the following websites as examples of good graphic design:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+http://www.marcelletoordesigns.com/ 
+ 
+—ILR Website Design is a cutting-edge resource for clients 
+
+developing their websites and other Internet ventures. 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+www.workbook.com 
+ 
+—this site showcases work by illustrators and designers    
+ 
+ 
+ 
+ 
+ 
+ 
+www.pbs.org/riverofsong 
+ 
+—a television series for public TV and radio about American music    
+ 
+ 
+ 
+ 
+ 
+ 
+www.RKDINC.com 
+ 
+—a design ﬁ rm with online 
+portfolio and good design tips 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+http://www.creativehotlist.com/ 
+ 
+—a good source 
+for well-designed sites developed by ad agencies, 
+
+graphics arts ﬁ
+ rms, and other communications specialists 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+www.btdnyc.com 
+ 
+—a design ﬁ rm headed by Beth 
+Toudreau 
+ 
+ 
+   
+INFO  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 17.6  
+CONTENT DESIGN  
+ 
+Content design focuses on two different design tasks, each addressed by individ-uals with different skill sets. First, you should develop a design representation 
+for content objects and the mechanisms required to establish their relationship 
+to one another. Second, the information within a speciﬁ
+ c content object is cre-
+ated. The latter task may be conducted by copywriters, graphic designers, and 
+others who generate the content to be used within a WebApp. 
+  
+17.6.1  Content Objects 
+ 
+In the context of WebApp design, a content object is more closely aligned with a data 
+object for traditional software. A  content object 
+ has attributes that include content-
+speciﬁ c information (normally deﬁ
+ ned during WebApp requirements modeling) 
+and implementation-speciﬁ c attributes that are speciﬁ
+ ed as part of design. 
+  As an example, consider an analysis class,  ProductComponent, 
+ developed 
+for the  SafeHome 
+ e-commerce system 
+. 
+ The analysis class attribute,  
+descrip-tion 
+, is represented as a design class named  CompDescription 
+ composed of 
+ﬁ ve content objects:  
+MarketingDescription, Photograph, TechDescription, 
+Schematic, 
+ and 
+ Video
+ 
+ shown as shaded objects noted in  
+Figure 17.3 . Informa-tion contained within the content object is noted as attributes. For example, 
+  uote:  “Good designers 
+can create 
+normalcy out 
+of chaos; they 
+can clearly 
+communicate 
+ideas through 
+the organizing 
+and manipulating 
+of words and 
+pictures.”  Jeffery Veen 
+pre22126_ch17_371-390.indd   379pre22126_ch17_371-390.indd   37913/12/13   6:13 PM13/12/13   6:13 PM

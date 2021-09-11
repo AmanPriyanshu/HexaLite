@@ -1,0 +1,78 @@
+CHAPTER 36  
+MAINTENANCE AND REENGINEERING 815 
+Business process reengineering deﬁ nes business goals; identiﬁ
+ es and evaluates 
+existing business processes (in the context of deﬁ ned goals); speciﬁ
+ es and designs 
+revised processes; and prototypes, reﬁ nes, and instantiates them within a business. 
+BPR has a focus that extends beyond software. The result of BPR is often the deﬁ -nition of ways in which information technologies can better support the business. 
+ Software reengineering encompasses a series of activities that include inventory 
+analysis, document restructuring, reverse engineering, program and data restruc-
+turing, and forward engineering. The intent of these activities is to create versions of 
+
+existing programs that exhibit higher quality and better  maintainability—programs 
+that will be viable well into the twenty-ﬁ rst century. 
+ The cost-beneﬁ t of reengineering can be determined quantitatively. The cost of 
+the status quo, that is, the cost associated with ongoing support and maintenance 
+
+of an existing application, is compared to the projected costs of reengineering and 
+
+the resultant reduction in maintenance and support costs. In almost every case 
+
+in which a program has a long life and currently exhibits poor maintainability or 
+
+supportability, reengineering represents a cost-effective business strategy. 
+  
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+ 
+36.1.  Consider any job that you’ve held in the last ﬁ ve years. Describe the business process 
+in which you played a part. Use the BPR model described in Section 36.4.2 to recommend 
+changes to the process in an effort to make it more efﬁ cient. 
+   
+ 
+36.2.  Do some research on the efﬁ cacy of business process reengineering. Present pro and 
+con arguments for this approach.    
+ 
+36.3.  Your instructor will select one of the programs that everyone in the class has devel-
+oped during this course. Exchange your program randomly with someone else in the class. 
+Do not explain or walk through the program. Now, implement an enhancement (speciﬁ
+ ed 
+by your instructor) in the program you have received.    
+ 
+ 
+ a.  
+ 
+Perform all software engineering tasks including a brief walkthrough (but not with the author of the program).     
+ 
+b.  Keep careful track of all errors encountered during testing.    
+ 
+ c.  
+Discuss your experiences in class.  
+ 
+   
+ 
+36.4.  Explore the inventory analysis checklist presented at the SEPA website and attempt to 
+develop a quantitative software rating system that could be applied to existing programs in 
+an effort to pick candidate programs for reengineering. Your system should extend beyond 
+
+the economic analysis presented in Section 36.9.    
+ 
+36.5.  Suggest alternatives to paper and ink or conventional electronic documentation that could serve as the basis for document restructuring. (Hint: Think of new descriptive tech-
+nologies that could be used to communicate the intent of the software.)    
+ 
+36.6.  Some people believe that artiﬁ cial intelligence technology will increase the abstrac-
+tion level of the reverse engineering process. Do some research on this subject (i.e., the use 
+of AI for reverse engineering), and write a brief paper that takes a stand on this point.    
+ 
+36.7.  Why is completeness difﬁ cult to achieve as abstraction level increases? 
+   
+ 
+36.8.  Why must interactivity increase if completeness is to increase?    
+ 
+36.9.  Using information obtained via the Web, present characteristics of three reverse engi-
+neering tools to your class.  pre22126_ch36_795-816.indd   815pre22126_ch36_795-816.indd   81513/12/13   6:17 PM13/12/13   6:17 PM

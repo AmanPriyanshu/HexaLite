@@ -1,0 +1,42 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜Woodcock™s survey (Woodcock et al. 2009) found that users of formal methods reported fewer errors in the delivered software. Neither the costs nor the time needed for software development were higher than in comparable development projects. 
+
+There were significant benefits in using formal approaches in safety critical systems 
+that required regulator certification. The documentation produced was an important 
+part of the safety case (see Chapter 12) for the system.In spite of these advantages, formal methods have had limited impact on practical software development, even for critical systems. Woodcock reports on 62 projects 
+over 25 years that used formal methods. Even if we allow for projects that used these 
+techniques but did not report their use, this is a tiny fraction of the total number of 
+critical systems developed in that time. Industry has been reluctant to adopt formal 
+methods for a number of reasons:1. Problem owners and domain experts cannot understand a formal specification, so they cannot check that it accurately represents their requirements. Software 
+engineers, who understand the formal specification, may not understand the 
+
+application domain, so they too cannot be sure that the formal specification is an 
+accurate reflection of the system requirements.2. It is fairly easy to quantify the costs of creating a formal specification, but more 
+difficult to estimate the possible cost savings that will result from its use. As a 
+result, managers are unwilling to take the risk of adopting formal methods. They 
+are unconvinced by reports of success as, by and large, these came from atypical 
+projects where the developers were keen advocates of a formal approach.3. Most software engineers have not been trained to use formal specification lan
+-
+guages. Hence, they are reluctant to propose their use in development processes.4. It is difficult to scale current formal methods up to very large systems. When 
+formal methods are used, it is mostly for specifying critical kernel software 
+
+rather than complete systems.5.
+ Tool support for formal methods is limited, and the available tools are often 
+
+open source and difficult to use. The market is too small for commercial tool 
+providers.6. Formal methods are not compatible with agile development where programs are 
+developed incrementally. This is not a major issue, however, as most critical 
+
+systems are still developed using a plan-based approach.Parnas, an early advocate of formal development, has criticized current formal 
+methods and claims that these have started from a fundamentally wrong premise 
+
+(Parnas 2010). He believes that these methods will not gain acceptance until they 
+
+are radically simplified, which will require a different type of mathematics as a 
+
+basis. My own view is that even this will not mean that formal methods are rou-
+tinely adopted for critical systems engineering unless it can be clearly demon-
+strated that their adoption and use is cost-effective, compared to other software 
+
+engineering methods.

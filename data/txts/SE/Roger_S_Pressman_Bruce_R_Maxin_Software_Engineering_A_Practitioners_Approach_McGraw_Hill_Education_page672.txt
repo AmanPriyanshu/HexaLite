@@ -1,0 +1,60 @@
+642 PART THREE  
+QUALITY MANAGEMENTbackground and are completely unaware of the need for conﬁ guration manage-
+ment. As a consequence, the application grows and changes in an uncontrolled 
+fashion.   
+ 
+Scalability.   The techniques and controls applied to a small WebApp do not scale 
+upward well. It is not uncommon for a simple WebApp to grow signiﬁ
+ cantly as in-
+terconnections with existing information systems, databases, data warehouses, 
+and portal gateways are implemented. As size and complexity grow, small 
+
+changes can have far-reaching and unintended effects that can be problematic. 
+
+Therefore, the rigor of conﬁ guration control mechanisms should be directly pro-
+portional to application scale.   
+ 
+ 
+ 
+Politics.   Who “owns” a WebApp? This question is argued in companies large and 
+small, and its answer has a signiﬁ cant impact on the management and control 
+activities. The following questions [Dar99] help a software team understand the 
+politics associated with Web engineering: Who assumes responsibility for the ac-
+
+curacy of the information on the website? Who ensures that quality control pro-
+cesses have been followed before information is published to the site? Who is 
+responsible for making changes? Who assumes the cost of change? The answers 
+to these questions help determine the people within an organization who must 
+adopt a conﬁ guration management process for WebApps. 
+ SCM techniques for MobileApps adopt many of the same principles that are applied for agile software development. In addition to the conventional SCM 
+tasks discussed earlier in this chapter, change management for MobileApps 
+
+must also consider the security implications of every change and its impact on a 
+broad user base operating in a diverse platform environment.  The dramatic growth of app stores has changed the manner in which mo-bile software is deployed. Changes to a speciﬁ c application can be promulgated 
+widely in a matter of days, thereby requiring very careful analysis of impact 
+across platforms before a new version of a MobileApp is placed in an app store 
+for deployment.  In many instances, a conventional SCM process may be too cumbersome for WebApps and some MobileApps, but a new generation of  
+content management tools 
+ that are speciﬁ
+ cally designed for these application areas have emerged 
+over the past decade. These tools establish a process that acquires existing in-
+formation (content objects), manages changes to the objects, structures it in a 
+way that enables it to be presented to an end user, and then provides it to the 
+
+client-side environment for display. 
+  
+ 
+ 
+ 
+29.4.2   
+Conﬁ guration Objects 
+ 
+Web and MobileApps encompass a broad range of conﬁ
+ guration objects—content 
+objects (e.g., text, graphics, images, video, audio), functional components (e.g., 
+scripts, applets), and interface objects (e.g., COM or CORBA for WebApps). 
+ How do I 
+determine who has 
+responsibility for 
+WebApp CM? 
+?pre22126_ch29_623-652.indd   642pre22126_ch29_623-652.indd   64213/12/13   6:16 PM13/12/13   6:16 PM

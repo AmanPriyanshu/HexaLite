@@ -1,0 +1,22 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜the program will not compute an unsafe dose of insulin. You can structure and present 
+the safety arguments graphically as shown in Figure 12.14.The safety argument shown in Figure 12.14 presents three possible program paths that lead to the call to the administerInsulin method. You have to show that the 
+amount of insulin delivered never exceeds maxDose. All possible program paths to administerInsulin are considered:1.
+ Neither branch of if-statement 2 is executed. This can only happen if current-Dose is outside of the range 
+minimumDose..maxDose. The postcondition predi
+-cate is therefore:currentDose >= minimumDose and currentDose <= maxDose2. The then-branch of if-statement 2 is executed. In this case, the assignment set-
+ting currentDose to zero is executed. Therefore, its postcondition predicate is 
+currentDose = 0.3. The else-if-branch of if-statement 2 is executed. In this case, the assignment set-
+ting currentDose to maxDose is executed. Therefore, after this statement has 
+been executed, we know that the postcondition is currentDose = maxDose.In all three cases, the postcondition predicates contradict the unsafe precondition that currentDose > maxDose. As both cannot be true, we can claim that our initial assumption was incorrect, and so the computation is safe.To construct a structured argument that a program does not make an unsafe computa-tion, you first identify all possible paths through the code that could lead to a potentially 
+Š The insulin dose to be delivered is a function of
+Š blood sugar level, the previous dose delivered and
+Š the time of delivery of the previous dosecurrentDose = computeInsulin () ;
+// Safety checkŠadjust currentDose if necessary.
+// if statement 1if (previousDose == 0){  
+if (currentDose > maxDose/2)    
+currentDose = maxDose/2 ;}
+else  
+if (currentDose > (previousDose * 2) )     
+currentDose = previousDose * 2 ;// if statement 2if ( currentDose < minimumDose )   currentDose = 0 ;else if ( currentDose > maxDose )   currentDose = maxDose ;administerInsulin (currentDose) ;Figure 12.13 Insulin dose computation with safety checks

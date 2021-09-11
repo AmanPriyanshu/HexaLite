@@ -1,0 +1,79 @@
+14 Chapter 1  
+Introductionlike fires or floods; loss of electrical power; failure of a component such as a communi-
+cations cable, processor chip, or disk drive; or attack by a wild boar. 
+Human threats
+ can be either benign (nonmalicious) or malicious. 
+Nonmalicious 
+kinds of harm include someone’s accidentally spilling a soft drink on a laptop, unin-
+
+tentionally deleting text, inadvertently sending an email message to the wrong person, 
+
+and carelessly typing “12” instead of “21” when entering a phone number or clicking 
+“yes” instead of “no” to overwrite a file. These inadvertent, human errors happen to 
+
+most people; we just hope that the 
+
+seriousness of harm is not too great, 
+or if it is, that we will not repeat the 
+mistake.
+Most computer security activity relates to 
+malicious, human-caused harm: A mali-
+cious person actually wants to cause harm, and so we often use the term 
+attack
+ for a 
+malicious computer security event. Malicious attacks can be random or directed. In 
+
+a random attack the attacker wants to harm any computer or user; such an attack is 
+analogous to accosting the next pedestrian who walks down the street. An example of a 
+
+random attack is malicious code posted on a website that could be visited by anybody.
+In a directed attack
+, the attacker intends harm to specific computers, perhaps at one 
+organization (think of attacks against a political organization) or belonging to a specific 
+
+individual (think of trying to drain a specific person’s bank account, for example, by 
+
+impersonation). Another class of directed attack is against a particular product, such as 
+
+any computer running a particular browser. (We do not want to split hairs about whether 
+
+such an attack is directed—at that one software product—or random, against any user 
+
+of that product; the point is not semantic perfection but protecting against the attacks.) 
+
+The range of possible directed 
+
+attacks is practically unlimited. Dif-
+ferent kinds of threats are shown in 
+
+Figure 1-9.Although the distinctions shown in Figure 1-9 seem clear-cut, sometimes the nature 
+of an attack is not obvious until the attack is well underway, or perhaps even ended. 
+
+A normal hardware failure can seem like a directed, malicious attack to deny access, 
+
+and hackers often try to conceal their activity to look like ordinary, authorized users. 
+
+As computer security experts we need to anticipate what bad things might happen, 
+
+instead of waiting for the attack to happen or debating whether the attack is intentional 
+
+or accidental.Neither this book nor any checklist or method can show you 
+all the kinds of harm 
+that can happen to computer assets. There are too many ways to interfere with your use 
+
+of these assets. Two retrospective lists of 
+known vulnerabilities are of interest, how-
+ever. The Common Vulnerabilities and Exposures (CVE) list (see http://cve.mitre.org/) 
+
+is a dictionary of publicly known security vulnerabilities and exposures. CVE’s com-
+
+mon identifiers enable data exchange between security products and provide a baseline 
+
+index point for evaluating coverage of security tools and services. To measure the extent 
+
+of harm, the Common Vulnerability Scoring System (CVSS) (see http://nvd.nist.gov/ 
+
+cvss.cfm) provides a standard measurement system that allows accurate and consistent 
+
+scoring of vulnerability impact.Threats can be malicious or not. 
+Threats can be targeted or random.

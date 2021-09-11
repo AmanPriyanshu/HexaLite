@@ -1,0 +1,36 @@
+64710Management and IncidentsIn this chapter we introduce concepts of managing security. Many readers of this 
+book are, or will be, practitioners or technologists, people who design, implement, 
+
+and use security. Devices, algorithms, architectures, protocols, and mechanisms are 
+important for those readers.Some technologists think security involves just designing a stronger (faster, better, 
+bigger) appliance or selecting the best cryptographic algorithm. That these are impor-
+
+tant considerations is true. But what if you build something that nobody adopts? Per-
+
+haps the user interface is inscrutable. Or people cannot figure out how to integrate your 
+
+product into any existing system. Maybe it doesn’t really address the underlying secu-
+
+rity problem. Perhaps it is too restrictive, preventing users from getting real work done. 
+
+And maybe it is or seems too expensive. Technology—even the best product—has to be 
+
+used and usable.In this chapter we consider two important topics: how security is managed and how 
+it is used. These topics relate to human behavior, and also the business side of comput-
+
+ing. We also address the physical side of security threats: natural disasters and those 
+
+caused by humans.10.1 SECURITY PLANNING
+Years ago, when most computing was done on mainframe computers, data process-
+
+ing centers were responsible for protection. Responsibility for security rested neither 
+ with the programmers nor the users but instead with the computing center staff itself. 
+
+These centers developed expertise in security, and they implemented many protection 
+In this chapter:• Security planning
+
+• Incident response and business continuity planning
+
+• Risk analysis
+
+• Handling natural and human-caused disasters

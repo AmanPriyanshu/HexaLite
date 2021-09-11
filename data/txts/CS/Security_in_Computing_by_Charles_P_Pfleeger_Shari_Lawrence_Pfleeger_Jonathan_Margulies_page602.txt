@@ -1,0 +1,74 @@
+568 Chapter 8  
+Cloud ComputingJust making the logs available is not enough, however. Send logs to a SIEM for stor-
+age and analysis, and take great care to segregate the SIEM and its storage from the 
+
+cloud service to whatever extent is practical. For the SIEM to be useful, it needs a near-
+
+real-time stream of log data from the cloud service, but it also needs to be protected 
+
+from the malicious influence of any attacker who may have infiltrated the cloud service. 
+
+Identify and eliminate any potential paths that might allow an intruder in the cloud sys-
+
+tem to delete or modify data from your SIEM or its underlying storage.8.4 CLOUD IDENTITY MANAGEMENT
+One of the common challenges organizations face when migrating to public cloud ser-
+
+vices is identity management. Cloud customers often move sensitive data and func-
+
+tionality into cloud environments, and as a result they need a way to authenticate and 
+
+authorize users to access those resources in the cloud. Identity management also pro-
+
+tects cloud providers: They need to ensure that users accessing their services are legiti-
+
+mate members of customer organizations rather than impostors.
+The obvious way to handle the cloud identity management problem is to have 
+each user individually sign up for a user account at each cloud provider. This approach, 
+
+unfortunately, is fraught with problems. One issue is that it creates new opportunities 
+
+for vulnerability. Cloud providers, like many companies, sometimes get hacked, and are 
+
+not necessarily good at protecting users’ passwords and personal information. Requiring 
+
+users to create new accounts at many different cloud providers multiplies those users’ 
+
+odds of having personal information stolen and, if those users reuse passwords from 
+
+other services, that practice can expose them to much greater harm. As we describe in 
+
+Chapter 2, many users are unskilled at choosing and managing passwords, and giving 
+
+them more passwords to manage, particularly when sensitive data and functions are at 
+
+risk, is a dangerous proposition. When users setup the same weak password for their 
+
+Facebook and Twitter accounts, they put only themselves in harm’s way. The situation 
+
+is entirely different when a developer uses the same weak password on four different 
+
+software development projects involving different companies, different partnerships, 
+
+and different sensitive data.
+Relying on cloud providers for identity management also limits the control an orga-
+nization can exert to protect the cloud-based user accounts: Many cloud providers will 
+
+allow users to choose weak passwords or to easily reset passwords using basic personal 
+
+information (recall the attack on Sarah Palin’s email described in Chapter 2). Few cloud 
+
+providers offer options for multifactor authentication and, even if that were more com-
+
+monplace, users would justifiably rebel at having to carry a pocketful of access tokens 
+
+for a variety of cloud services.
+Aside from these issues is one of administration: How does an organization disable 
+all of a user’s accounts once that user no longer needs access to them, either because of 
+
+departure from the organization or a change in job duties? As we described in Chapter 
+
+2, assigning and revoking access privileges is difficult to manage within a single orga-
+
+nization; the problem becomes more challenging with multiple cloud providers. Large 
+
+organizations may use tens or even hundreds of cloud service providers, and tracking 

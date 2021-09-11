@@ -1,0 +1,79 @@
+294 Chapter 5  
+Operating Systemsreal resources the user is allowed to access, and redirects other requests to the virtual-
+ized resources.Virtualization can apply to operating systems as well as to other resources. Thus, 
+for example, one virtual machine could run the operating system of an earlier, outdated 
+
+machine. Instead of maintaining compatibility with old operating systems, developers 
+
+would like people to transition to a new system. However, installations with a large 
+
+investment in the old system might prefer to make the transition gradually; to be sure 
+
+the new system works, system managers may choose to run both old and new systems 
+
+in parallel, so that if the new system fails for any reason, the old system provides unin-
+
+terrupted use. In fact, for a large enough investment, some installations might prefer 
+
+to never switch. With a hypervisor to run the old system, all legacy applications and 
+
+systems work properly on the new system.
+A hypervisor can also support two or more operating systems simultaneously. Sup-
+pose you are developing an operating system for a new hardware platform; the hardware 
+
+will not be ready for some time, but when it is available, at the same time you want 
+
+to have an operating system that can run on it. Alas, you have no machine on which 
+
+to develop and test your new system. The solution is a virtual machine monitor that 
+
+simulates the entire effect of the new hardware. It receives system calls from your new 
+
+operating system and responds just as would the real hardware. Your operating system 
+
+cannot detect that it is running in a software-controlled environment.
+This controlled environment has obvious security advantages: Consider a law firm 
+working on both defense and prosecution of the same case. To install two separate com-
+
+puting networks and computing systems for the two teams is infeasible, especially con-
+
+sidering that the teams could legitimately share common resources (access to a library 
+
+or use of common billing and scheduling functions, for example). Two virtual machines 
+
+with both separation and overlap support these two sides effectively and securely.
+The original justification for virtual machine monitors—shared use of large, expen-
+sive mainframe computers—has been diminished with the rise of smaller, cheaper 
+
+servers and personal computers. However, virtualization has become very helpful for 
+
+developing support for more specialized machine clusters, such as massively parallel 
+
+processors. These powerful niche machines are relatively scarce, so there is little moti-
+
+vation to write operating systems that can take advantage of their hardware. But hyper-
+
+visors can support use of conventional operating systems and applications in a parallel 
+
+environment.
+A team of IBM researchers [CHR09] has investigated how virtualization affects the 
+problem of determining the integrity of code loaded as part of an operating system. The 
+
+researchers showed that the problem is closely related to the problem of determining 
+
+the integrity of any piece of code, for example, something downloaded from a web site
+.Sandbox A concept similar to virtualiza-
+
+tion is the notion of a sandbox. As 
+
+its name implies, a sandbox is a 
+protected environment in which a 
+
+program can run and not endanger 
+
+anything else on the system.
+Sandbox: an environment from which a 
+
+process can have only limited, controlled 
+
+impact on outside resources

@@ -1,0 +1,34 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜2. A call part, where you call the object or method to be tested.3. An assertion part, where you compare the result of the call with the expected result. If the assertion evaluates to true, the test has been successful; if false, 
+
+then it has failed.Sometimes, the object that you are testing has dependencies on other objects that 
+may not have been implemented or whose use slows down the testing process. For 
+
+example, if an object calls a database, this may involve a slow setup process before 
+
+it can be used. In such cases, you may decide to use mock objects.Mock objects are objects with the same interface as the external objects being 
+used that simulate its functionality. For example, a mock object simulating a data-
+base may have only a few data items that are organized in an array. They can be 
+
+accessed quickly, without the overheads of calling a database and accessing disks. 
+
+Similarly, mock objects can be used to simulate abnormal operations or rare 
+
+events. For example, if your system is intended to take action at certain times of 
+
+day, your mock object can simply return those times, irrespective of the actual 
+
+clock time.Testing is expensive and time consuming, so it is important that you choose effective 
+unit test cases. Effectiveness, in this case, means two things:1. The test cases should show that, when used as expected, the component that you are testing does what it is supposed to do.2. If there are defects in the component, these should be revealed by test cases.You should therefore design two kinds of test case. The first of these should 
+reflect normal operation of a program and should show that the component works. 
+For example, if you are testing a component that creates and initializes a new patient 
+record, then your test case should show that the record exists in a database and that 
+its fields have been set as specified. The other kind of test case should be based on 
+testing experience of where common problems arise. It should use abnormal inputs 
+to check that these are properly processed and do not crash the component.Two strategies that can be effective in helping you choose test cases are:1. Partition testing, where you identify groups of inputs that have common charac-
+teristics and should be processed in the same way. You should choose tests from 
+within each of these groups.2. Guideline-based testing
+, where you use testing guidelines to choose test cases. 
+
+These guidelines reflect previous experience of the kinds of errors that program-
+mers often make when developing components.

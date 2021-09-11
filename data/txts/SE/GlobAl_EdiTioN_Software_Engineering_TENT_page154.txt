@@ -1,0 +1,25 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜Behavioral models are models of the dynamic behavior of a system as it is execut-ing. They show what happens or what is supposed to happen when a system responds 
+to a stimulus from its environment. These stimuli may be either data or events:1. Data becomes available that has to be processed by the system. The availability of the data triggers the processing.2. An event happens that triggers system processing. Events may have associated 
+data, although this is not always the case.Many business systems are data-processing systems that are primarily driven by data. They are controlled by the data input to the system, with relatively little exter-
+nal event processing. Their processing involves a sequence of actions on that data 
+and the generation of an output. For example, a phone billing system will accept 
+
+information about calls made by a customer, calculate the costs of these calls, and 
+generate a bill for that customer.By contrast, real-time systems are usually event-driven, with limited data pro
+-cessing. For example, a landline phone switching system responds to events such as 
+ﬁhandset activatedﬂ by generating a dial tone, pressing keys on a handset by captur
+-
+ing the phone number, and so on.ˇˇData-driven models show the sequence of actions involved in processing input data 
+and generating an associated output. They can be used during the analysis of require
+-
+ments as they show end-to-end processing in a system. That is, they show the entire 
+
+sequence of actions that takes place from an initial input being processed to the cor-
+responding output, which is the system™s response.Data-driven models were among the first graphical software models. In the 1970s, structured design methods used data-flow diagrams (DFDs) as a way to illustrate the Data flow diagramsData-flow diagrams (DFDs) are system models that show a functional perspective where each transformation 
+represents a single function or process. DFDs are used to show how data flows through a sequence of process-
+
+ing steps. For example, a processing step could be the filtering of duplicate records in a customer database. The 
+data is transformed at each step before moving on to the next stage. These processing steps or transformations 
+represent software processes or functions, where data-flow diagrams are used to document a software design. 
+Activity diagrams in the UML may be used to represent DFDs.http://software-engineering-book.com/web/dfds/

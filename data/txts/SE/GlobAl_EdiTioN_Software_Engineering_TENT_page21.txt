@@ -1,0 +1,47 @@
+˜˜˚˜˜˜˜˘
+˜ˇ
+˜˜
+applications designed for a specific market such as library information systems, accounting systems, or systems for maintaining dental records.2. Customized (or bespoke) software These are systems that are commissioned by 
+and developed for a particular customer. A software contractor designs and 
+
+implements the software especially for that customer. Examples of this type of 
+software include control systems for electronic devices, systems written to 
+
+support a particular business process, and air traffic control systems.The critical distinction between these types of software is that, in generic prod-ucts, the organization that develops the software controls the software specification. 
+This means that if they run into development problems, they can rethink what is to 
+be developed. For custom products, the specification is developed and controlled by 
+the organization that is buying the software. The software developers must work to 
+that specification.However, the distinction between these system product types is becoming increas-ingly blurred. More and more systems are now being built with a generic product as 
+
+a base, which is then adapted to suit the requirements of a customer. Enterprise 
+
+Resource Planning (ERP) systems, such as systems from SAP and Oracle, are the 
+
+best examples of this approach. Here, a large and complex system is adapted for a 
+company by incorporating information about business rules and processes, reports 
+
+required, and so on.When we talk about the quality of professional software, we have to consider that 
+the software is used and changed by people apart from its developers. Quality is 
+
+therefore not just concerned with what the software does. Rather, it has to include the 
+
+software™s behavior while it is executing and the structure and organization of the˜sys
+-
+tem programs and associated documentation. This is reflected in the software™s qual-
+ity or non-functional attributes. Examples of these attributes are the software™s 
+
+response time to a user query and the understandability of the  program code.The specific set of attributes that you might expect from a software system obvi-ously depends on its application. Therefore, an aircraft control system must be safe,˜an 
+
+interactive game must be responsive, a telephone switching system must be reliable, 
+
+and so on. These can be generalized into the set of attributes shown in Figure˜
+1.2, 
+which I think are the essential characteristics of a  professional software system.
+
+Software engineering is an engineering discipline that is concerned with all aspects 
+
+of software production from the early stages of system specification through to 
+
+maintaining the system after it has gone into use. In this definition, there are two 
+
+key phrases:1. Engineering discipline Engineers make things work. They apply theories, meth-ods, and tools where these are appropriate. However, they use them selectively 

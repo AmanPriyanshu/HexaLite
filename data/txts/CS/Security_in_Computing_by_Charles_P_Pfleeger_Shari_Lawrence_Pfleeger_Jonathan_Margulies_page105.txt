@@ -1,0 +1,50 @@
+ Section 2.1  Authentication 
+71  Suppose we want to control access to a computing system. In addition to a name and 
+password, we can use other information available to authenticate users. Suppose Adams 
+
+works in the accounting department during the shift between 8:00 a.m. and 5:00 p.m., 
+
+Monday through Friday. Any legitimate access attempt by Adams should be made dur-
+
+ing those times, through a workstation in the accounting department offices. By limiting 
+
+Adams to logging in under those conditions, the system protects against two problems:
+• Someone from outside might try to impersonate Adams. This attempt would be 
+thwarted by either the time of access or the port through which the access was 
+
+attempted.• Adams might attempt to access the system from home or on a weekend, plan-
+ning to use resources not allowed or to do something that would be too risky 
+
+with other people around.Limiting users to certain workstations or certain times of access can cause complica-
+tions (as when a user legitimately needs to work overtime, a person has to access the 
+
+system while out of town on business, or a particular workstation fails). However, some 
+
+companies use these authentication techniques because the added security they provide 
+
+outweighs inconvenience. As security analysts, we need to train our minds to recognize 
+
+qualities that distinguish normal, allowed activity.
+As you have seen, security practitioners have a variety of authentication mechanisms 
+ready to use. None is perfect; all have strengths and weaknesses, and even combinations 
+SIDEBAR 2-13 When More Factors Mean Less Security
+Dave Concannon’s blog at www.apeofsteel.com/tag/ulsterbank describes 
+his frustration at using Ulsterbank’s online banking system. The logon pro-
+
+cess involves several steps. First, the user supplies a customer identifi-
+
+cation number (the first authentication factor). Next, a separate user ID is 
+required (factor 2). Third, the PIN is used to supply a set of digits (factor 3), 
+
+as shown in the figure below: The system requests three different digits 
+
+chosen at random (in the figure, the third, second, and fourth digits are to 
+
+be entered). Finally, the system requires a passphrase of at least ten char-
+
+acters, some of which must be numbers (factor 4).In his blog, Concannon rails about the difficulties not only of log-
+ging on but also of changing his password. With four factors to remember, 
+
+Ulsterbank users will likely, in frustration, write down the factors and carry 
+
+them in their wallets, thereby reducing the banking system’s security. 

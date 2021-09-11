@@ -1,0 +1,71 @@
+CHAPTER 6  
+HUMAN ASPECTS OF SOFTWARE ENGINEERING
+ 97team working in that area to make connections that would enhance their work. As a community grows, participants discuss technology trends, application sce-
+narios, new tools, and other software engineering knowledge. Finally,  
+social bookmarking sites 
+ (e.g., Delicious, Stumble, CiteULike) allow a software engi-
+neer or team to recommend Web-based resources that may be of interest to a 
+
+social media community of like-minded individuals.  It is very important to note that privacy and security issues should not be over-
+looked when using social media for software engineering work. Much of the work 
+
+performed by software engineers may be proprietary to their employer and dis-
+closure could be very harmful. For that reason, the distinct beneﬁ ts of social media 
+must be weighed against the treat of uncontrolled disclosure of private information. 
+  
+ 
+ 
+ 
+ 6.7 S
+OFTWARE
+ ENGINEERING USING THE CLOUD  
+ 
+ 
+ 
+Cloud computing  
+ provides a mechanism for access to all software engineering 
+work products, artifacts, and project-related information. It runs everywhere and 
+removes the device dependency that was once a constraint for many software 
+projects. It allows members of a software team to conduct platform- independent, low-risk trials of new software tools and to provide feedback on those tools. It 
+provides new avenues for distribution and testing of beta software. It provides 
+the potential for improved approaches to content and conﬁ guration manage-
+ment (Chapter 29).  Because cloud computing can accomplish these things, it has the potential to inﬂ uence the manner in which software engineers organize their teams, the 
+way they do their work, the manner in which they communicate and connect, 
+and the way software projects are managed. Software engineering information 
+developed by one team member can be instantly available to all team members, 
+regardless of the platform others are using or their location.   
+ 
+ 
+ 
+ 
+In essence, information dispersion speeds up and broadens dramatically. That 
+changes the software engineering dynamic and can have a profound impact on 
+the human aspects of software engineering.  But cloud computing in a software engineering milieu is not without risk [The13]. The cloud is dispersed over many servers and the architecture and ser-
+
+vices are often outside the control of a software team. As a consequence, there 
+are multiple points of failure, presenting reliability and security risks. As the 
+number of services provided by the cloud grows, the relative complexity of the 
+software development environment also grows. Does each of these services play 
+well with other services, possibly provided by other vendors? This presents an 
+interoperability risk for cloud services. Finally, if the cloud becomes the develop-
+
+ment environment, services must stress usability and performance. These attri-
+butes sometime conﬂ ict with security, privacy, and reliability. 
+   The cloud is a powerful 
+repository for software 
+
+engineering informa-
+
+tion, but you must 
+be sure to consider 
+the change control 
+issues discussed in 
+  uote:  “They don’t call 
+it the Internet 
+anymore, they call 
+it cloud computing. 
+I’m no longer 
+resisting the name. 
+Call it what you 
+want.”  Larry Ellison 
+pre22126_ch06_087-102.indd   97pre22126_ch06_087-102.indd   9713/12/13   6:10 PM13/12/13   6:10 PM

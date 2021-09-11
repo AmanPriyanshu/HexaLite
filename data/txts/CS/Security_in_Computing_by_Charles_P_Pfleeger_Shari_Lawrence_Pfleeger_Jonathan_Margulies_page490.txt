@@ -1,0 +1,69 @@
+456 Chapter 6  
+Networksmedium. At the destination, the data enter at the bottom of a similar stack and travel up 
+through the layers, where addressing details are removed and items are again repack-
+
+aged and reformatted. Finally, they are delivered to an application on the destination 
+
+side. Each layer plays a well-defined role in the communication. This architecture is 
+
+more conceptual than actual, but it facilitates discussion of network functions.
+Different firewall types correspond to different threats. Consider the port scan exam-
+ple with which we began this chapter. Suppose you identified an attacker who probed 
+
+your system several times. Even if you decided your defenses were solid, you might 
+
+want to block all outside traffic—not just port scans—from the attacker’s address. That 
+
+way, even if the attacker did learn of a vulnerability in your system, you would prevent 
+
+any subsequent attack from the same address. But that takes care of only one attacker 
+
+at a time.Now consider how a port scan operates. The scanner sends a probe first to port 1, 
+then to ports 2, 3, 4, and so forth. These ports represent services, some of which you 
+
+need to keep alive so that external clients can access them. But no normal external cli-
+
+ent needs to try to connect to all your ports. So you might detect and block probes from 
+any source that seems to be trying to investigate your network. Even if the order of 
+
+the probes is not 1-2-3-4 (the scanner might scramble the order of the probes to make 
+
+their detection more difficult), receiving several connection attempts to unusual ports 
+
+from the same source might be something to stop after you had seen enough probes to 
+identify the attack. For that, your firewall would need to record and correlate individual 
+
+connection probes.A different network attack might target a specific application. For example, a flaw 
+might be known about version 
+x.y of the brand 
+z web server, involving a data stream of 
+a specific string of characters. Your firewall could look for exactly that character string 
+
+directed to the web server’s port. These different kinds of attacks and different ways to 
+
+detect them lead to several kinds of firewalls. Types of firewalls include
+• packet filtering gateways or screening routers
+• stateful inspection firewalls
+
+• application-level gateways, also known as proxies
+
+• circuit-level gateways
+
+• guards
+• personal firewalls
+We describe these types in the following sections.
+Packet Filtering GatewayA packet filtering gateway
+ or 
+screening router
+ is the simplest, and in some situa-
+tions, the most effective type of firewall. A packet filtering gateway controls access on 
+
+the basis of packet address (source or destination) or specific transport protocol type 
+
+(such as HTTP web traffic), that is, by examining the control information of each single 
+
+packet. A firewall can screen traffic before it gets to the protected network. So, if the 
+
+port scan originated from address 100.200.3.4, you might configure the packet filtering 
+
+gateway firewall to discard all packets from that address. Figure 6-53 shows a packet 

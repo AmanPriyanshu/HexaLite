@@ -1,0 +1,60 @@
+ Section 6.2  Threats to Network Communications 
+363  In this section we describe some of the modification failures to which communica-
+tions are vulnerable.SequencingA sequencing attack or problem involves permuting the order of data. Most commonly 
+found in network communications, a sequencing error occurs when a later fragment of a 
+
+data stream arrives before a previous one: Packet 2 arrives before packet 1.
+Sequencing errors are actually quite common in network traffic. Because data units 
+are routed according to available routing information, when packet 1 is sent, the best 
+
+route, which is the route chosen, goes via node C. Subsequently the router learns node 
+C is no longer optimal, so when packet 2 is to be sent, the routing goes via node D. The 
+
+second route is indeed superior, so much so that packet 2 arrives before packet 1. Con-
+
+gestion, network interference, faulty or failed equipment, and performance problems 
+
+can easily cause these kinds of speed difficulties.
+Network protocols such as the TCP suite ensure the proper ordering of traffic. How-
+ever, application programs do not always detect or correct sequencing problems within 
+
+the data stream. For example, if an application handles input from many concurrent 
+
+clients at a shopping site, the application must ensure that individual orders are con-
+
+structed correctly, regardless of the order in which the pieces of orders arrived.
+SubstitutionA substitution attack is the replacement of one piece of a data stream with another. 
+Nonmalicious substitution can occur if a hardware or software malfunction causes two 
+
+data streams to become tangled, such that a piece of one stream is exchanged with the 
+
+other stream.Substitution errors can occur with adjacent cables or multiplexed parallel commu-
+nications in a network; occasionally, interference, called crosstalk. allows data to flow 
+
+into an adjacent path. Metallic cable is more subject to crosstalk from adjacent cables 
+than is optical fiber. Crossover in a multiplexed communication occurs if the separation 
+
+between subchannels is inadequate. Such hardware-induced substitution is uncommon.
+A malicious attacker can perform a substitution attack by splicing a piece from one 
+communication into another. Thus, Amy might obtain copies of two communications, 
+
+one to transfer $100 to Amy, and a second to transfer $100,000 to Bill, and Amy could 
+
+swap either the two amounts or the two destinations. Substitution attacks of this sort are 
+
+easiest to carry out with formatted communications. If Amy knows, for example, that 
+
+bytes 24–31 represent the account number, she knows how to formulate a new message 
+
+redirecting money to her account.
+The obvious countermeasure against substitution attacks is encryption, covering the 
+entire message (making it difficult for the attacker to see which section to substitute) 
+
+or creating an integrity check (making modification more evident). In Chapter 12 we 
+
+describe chaining, a process in which each segment of a message is encrypted so that the 
+
+result depends on all preceding segments. Chaining prevents extracting one encrypted 
+
+piece (such as the account number) and replacing it with another.
+Not all substitution attacks are malicious, as the example of Sidebar 6-6 describes. 

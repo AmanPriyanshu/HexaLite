@@ -1,0 +1,37 @@
+˜˚˛˝ˆ˜˜˜˜˜˜˜˜˜˜
+have to decide what services should be included in each layer. In practice, however, it 
+is not always clear whether a service is a data management service, an application 
+
+service, or a database service. Designers must also plan for scalability and so provide 
+
+some means for servers to be replicated as more clients are added to the system.A more general approach to distributed system design is to design the system as a 
+set of services, without attempting to allocate these services to layers in the system. 
+
+Each service, or group of related services, can be implemented using a separate object 
+
+or component. In a distributed component architecture (Figure 17.12), the system is 
+
+organized as a set of interacting components as I discussed in Chapter 16. These com-
+ponents provide an interface to a set of services that they provide. Other components 
+
+call on these services through middleware, using remote procedure or method calls.Distributed component systems are reliant on middleware. This manages component 
+interactions, reconciles differences between types of the parameters passed between 
+components, and provides a set of common services that application components can 
+use. The CORBA standard (Orfali, Harkey, and Edwards 1997) defined middleware 
+for distributed component systems, but CORBA implementations have never been 
+widely adopted. Enterprises preferred to use proprietary software such as Enterprise 
+Java Beans (EJB) or .NET.Using a distributed component model for implementing distributed systems has a number of benefits:1.
+ It allows the system designer to delay decisions on where and how services 
+should be provided. Service-providing components may execute on any node of 
+the network. There is no need to decide in advance whether a service is part of a 
+data management layer, an application layer, or a user interface layer.2. It is a very open-system architecture that allows new resources to be added as 
+required. New system services can be added easily without major disruption to 
+the existing system.3. The system is flexible and scalable. New objects or replicated objects can be added 
+
+as the load on the system increases, without disrupting other parts of the system.Communication middlewareClientClientClientClientClientComp 1Common
+servicesComp 2
+CommonservicesComp 3
+Common
+servicesComp 4Common
+servicesFigure 17.12  A distributed component 
+architecture 

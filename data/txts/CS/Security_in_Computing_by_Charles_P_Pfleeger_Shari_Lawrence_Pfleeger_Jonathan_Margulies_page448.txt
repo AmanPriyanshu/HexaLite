@@ -1,0 +1,63 @@
+414 Chapter 6  
+Networkscommunication protocols were designed without authentication. Only now are authen-
+ticating steps being added to router protocols.DNS AttacksOur final denial-of-service attack is actually a class of attacks based on the concept 
+
+of domain name server. A domain name server queries other name servers to resolve 
+
+domain names it does not know. For efficiency, it caches the answers it receives so that 
+
+it can convert that name more rapidly in the future. An address mapped by a DNS server 
+
+can be retained for weeks or months. Name Server Application Software Flaws
+In the most common implementations of Unix, name servers run software called Berke-
+ley Internet Name Domain, or BIND, or 
+named (a shorthand for “name daemon”). 
+BIND has had numerous flaws, including a now familiar buffer overflow. By overtaking 
+
+a name server or causing it to cache spurious entries, an attacker can redirect the routing 
+
+of any traffic, with an obvious implication for denial of service.
+Top-Level Domain Attacks
+Another way to deny service through address resolution failures involves incapacitating 
+the Internet’s DNS system itself. In October 2002, a massive flood of traffic inundated 
+
+the Internet’s top-level domain DNS servers, the servers that form the foundation of the 
+
+Internet addressing structure. There are 13 top-level domain servers spread around the 
+
+world; these servers translate the top level, or last part of a network address: the .com, 
+
+.edu, .fr, .uk, .org, or .biz part of a URL. In the 2002 attack, roughly half the flood of 
+
+traffic came from just 200 addresses. Although some people think the problem was a 
+
+set of misconfigured firewalls, nobody knows for sure what caused the attack, and even 
+
+whether it was an attack or an anomalous incident.
+Again in 2007, a similar thing happened. On 6 February 2007, the DNS root name servers were hit with two massive denial-of-service attacks for a total of six hours. This 
+
+time it was clearly an attack, at least part of which originated from the Asia-Pacific 
+
+region [ICA07]. In this situation also, the impact of the attack was significantly reduced 
+
+because, between 2002 and 2007, the Internet began using a new design for the root 
+
+name servers. Called anycast, this technology allows the lookup function to be spread 
+
+over many computers, even hundreds. Thus, attacks on a single DNS server, or even a 
+
+small number of servers, have little impact.
+An attack in March 2005 used a flaw in a Symantec firewall to allow a change in the 
+DNS records used on Windows machines. The objective of this attack was not denial of 
+
+service, however. In this attack, the poisoned DNS cache redirected users to advertising 
+
+sites that received money from clients each time a user visited the site. Nevertheless, the 
+
+attack also prevented users from accessing the legitimate sites.
+These attacks attempt to deny service by limiting the system’s ability to resolve 
+addresses. Because address resolution is distributed in the Internet, these attacks tend to 
+
+be more effective at causing localized denial of service and less effective against large 
+
+segments.

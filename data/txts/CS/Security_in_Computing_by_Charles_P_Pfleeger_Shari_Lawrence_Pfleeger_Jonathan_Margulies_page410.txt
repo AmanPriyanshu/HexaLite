@@ -1,0 +1,65 @@
+376 Chapter 6  
+NetworksWireless Communication
+To appreciate how security is applied to wireless communications and where it can fail, 
+you need to know the general structure of wireless data communication. Wireless (and 
+
+also wired) data communications are implemented through an orderly set of exchanges 
+
+called a protocol
+. We use protocols in everyday life to accomplish simple exchanges. 
+For example, a familiar protocol involves making and receiving a telephone call. If you 
+
+call a friend you perform a version of these steps:
+1. You press buttons to activate your phone.
+2. You press buttons to select and transmit the friend’s number (a process that used 
+to be called dialing the phone). 3. Your friend hears a tone and presses a button to accept your call.
+4. Your friend says “hello,” or some other greeting.
+5. You say hello.
+6. You begin your conversation.
+This process doesn’t work if you start to speak before your friend hears and answers 
+the phone, or if your friend accepts your call but never says anything. These six steps 
+
+must be followed in order and in this general form for the simple process of making a 
+
+telephone call work. We all learn and use this protocol without thinking of the process, 
+
+but the pattern helps us communicate easily and efficiently.
+Similar protocols regulate the entire WiFi communication process. You can use your 
+computer, made in one country with software written in another, to connect to wireless 
+
+access points all around the world because these protocols are an internationally agreed-
+
+on standard, called the 802.11 suite of protocols. We now present important points of 
+the 802.11 protocols that are significant for security.
+The 802.11 Protocol Suite
+The 802.11 protocols all describe how devices communicate in the 2.4 GHz radio signal 
+band (essentially 2.4 GHz–2.5 GHz) allotted to WiFi. The band is divided into 14 chan-
+
+nels or subranges within the band; these channels overlap to avoid interference with 
+
+nearby devices. WiFi devices are designed to use only a few channels, often channels 
+
+1, 6, and 11. Wireless signals can travel up to 100 meters (300 feet), although the qual-
+
+ity of the signal diminishes with distance, and intervening objects such as walls and 
+
+trees also interfere with communication. The protocol 802.11n improves the range, and 
+
+devices called repeaters can extend the range of existing wireless transmitters.
+As shown in Figure 6-15, a wireless network consists of an 
+access point or router 
+that receives, forwards and transmits data, and one or more devices, sometimes called 
+
+stations, such as computers or printers, that communicate with the access point. The 
+access point is the hub of the wireless subnetwork. Each device must have a 
+network 
+interface card, or NIC, that com-
+municates radio signals with the 
+
+access point. The NIC is identified 
+
+by a unique 48- or 64-bit hardware 
+
+address called a medium access 
+A NIC identifies itself (and hence its connected computer) by a supposedly 
+unique MAC address.

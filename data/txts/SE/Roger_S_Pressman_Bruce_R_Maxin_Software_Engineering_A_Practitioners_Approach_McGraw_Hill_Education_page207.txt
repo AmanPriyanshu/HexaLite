@@ -1,0 +1,75 @@
+CHAPTER 9  
+REQUIREMENTS MODELING: SCENARIO-BASED METHODS 177 
+ 
+ 
+Is it possible that the actor will encounter some other behavior at this point? 
+ Again 
+the answer to the question is yes. As steps 6 and 7 occur, the system may encoun-
+
+ter an alarm condition. This would result in the system displaying a special alarm 
+
+notiﬁ cation (type, location, system action) and providing the actor with a number 
+of options relevant to the nature of the alarm. Because this secondary scenario can 
+
+occur at any time for virtually all interactions, it will not become part of the  ACS-DCV 
+ use case. Rather, a separate use case— 
+Alarm condition  encountered 
+—would 
+be developed and referenced from other use cases as required. 
+ 
+ 
+ 
+   
+Each of the situations described in the preceding paragraphs is characterized as a use case exception. An  exception 
+ describes a situation (either a failure con-
+dition or an alternative chosen by the actor) that causes the system to exhibit 
+somewhat different behavior. 
+ Cockburn [Coc01b] recommends a “brainstorming” session to derive a rea-sonably complete set of exceptions for each use case. In addition to the three 
+generic questions suggested earlier in this section, the following issues should 
+also be explored:  
+ 
+ 
+•   
+Are there cases in which some “validation function” occurs during this use 
+case? 
+ This implies that validation function is invoked and a potential error condition might occur. 
+  
+ 
+ 
+•   
+Are there cases in which a supporting function (or actor) will fail to re-
+spond appropriately?
+ 
+ For example, a user action awaits a response but the function that is to respond times out.   
+ 
+ 
+•   
+Can poor system performance result in unexpected or improper user ac-
+tions? 
+ For example, a Web-based interface responds too slowly, resulting 
+in a user making multiple selects on a processing button. These selects 
+queue inappropriately and ultimately generate an error condition.  
+ 
+  The list of extensions developed as a consequence of asking and answering these questions should be “rationalized” [Co01b] using the following criteria: an 
+exception should be noted within the use case if the software can detect the con-
+dition described and then handle the condition once it has been detected. In 
+some cases, an exception will precipitate the development of another use case 
+(to handle the condition noted).   
+ 
+9.2.3 Writing a Formal Use Case 
+ 
+The informal use cases presented in Section 9.2.1 are sometimes sufﬁ cient for 
+requirements modeling. However, when a use case involves a critical activity or 
+
+describes a complex set of steps with a signiﬁ cant number of exceptions, a more 
+formal approach may be desirable.  The  ACS-DCV 
+ use case shown in the sidebar follows a typical outline for for-
+mal use cases. The  goal in context 
+ identiﬁ
+ es the overall scope of the use case. 
+ What 
+is a use case exception 
+and how do I 
+determine what 
+exceptions are 
+likely? ?pre22126_ch09_166-183.indd   177pre22126_ch09_166-183.indd   17713/12/13   6:11 PM13/12/13   6:11 PM

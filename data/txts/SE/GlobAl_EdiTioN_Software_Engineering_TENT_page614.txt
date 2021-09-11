@@ -1,0 +1,34 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜and manage the operation of that actuator. This model allows data to be collected quickly from the sensor (before it is overwritten by the next input) and enables pro
+-
+cessing and the associated actuator response to be carried out later.A real-time system has to respond to stimuli that occur at different times. You 
+therefore have to organize the system architecture so that, as soon as a stimulus is 
+received, control is transferred to the correct handler. This is impractical in sequen-
+tial programs. Consequently, real-time software systems are normally designed as a 
+set of concurrent, cooperating processes. To support the management of these pro-
+cesses, the execution platform on which the real-time system executes may include a 
+real-time operating system (discussed in Section 
+21.4). The functions provided by 
+
+this operating system are accessed through the runtime support system for the real-
+
+time programming language that is used.There is no standard embedded system design process. Rather, different processes are used that depend on the type of system, available hardware, and the organization 
+that is developing the system. The following activities may be included in a real-
+time software design process:1. Platform selection In this activity, you choose an execution platform for the 
+system, that is, the hardware and the real-time operating system to be used. 
+
+Factors that influence these choices include the timing constraints on the sys-
+tem, limitations on power available, the experience of the development team, 
+
+and the price target for the delivered system.2. Stimuli/response identification This involves identifying the stimuli that the 
+
+system must process and the associated response or responses for each stimulus.StimulusResponseClear alarmsSwitch off all active alarms; switch off all lights 
+that have been switched on.Console panic button positiveInitiate alarm; turn on lights around console; call 
+police.Power supply failureCall service technician.Sensor failureCall service technician.Single sensor positiveInitiate alarm; turn on lights around site of 
+positive sensor.Two or more sensors positiveInitiate alarm; turn on lights around sites of 
+positive sensors; call police with location of 
+suspected break-in.Voltage drop of between 10% 
+and 20%Switch to battery backup; run power supply test.Voltage drop of more than 
+20%Switch to battery backup; initiate alarm; call 
+police, run power supply test.Figure 21.1 Stimuli  and responses for a 
+burglar alarm system

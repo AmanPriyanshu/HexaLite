@@ -1,0 +1,100 @@
+CHAPTER 25  
+TESTING WEB APPLICATIONS
+ 557 
+ 
+ 
+•  If the NSU can be achieved using more than one navigation path, has every relevant path been tested?   
+ 
+ 
+•  If guidance is provided by the user interface to assist in navigation, are directions correct and understandable as navigation proceeds?   
+ 
+ 
+•  Is there a mechanism (other than the browser “back” arrow) for returning to 
+the preceding navigation node and to the beginning of the navigation path? 
+  
+ 
+ 
+•  Do mechanisms for navigation within a large navigation node (i.e., a long Web page) work properly? 
+  
+ 
+ 
+•  If a function is to be executed at a node and the user chooses not to provide input, can the remainder of the NSU be completed?   
+ 
+ 
+•  If a function is executed at a node and an error in function processing occurs, can the NSU be completed?   
+ 
+ 
+•  Is there a way to discontinue the navigation before all nodes have been reached, but then return to where the navigation was discontinued and 
+proceed from there?   
+ 
+ 
+•  Is every node reachable from the site map? Are node names meaningful to end users?   
+ 
+ 
+•  If a node within an NSU is reached from some external source, is it pos-sible to process to the next node on the navigation path? Is it possible to 
+return to the previous node on the navigation path?   
+ 
+ 
+•  Does the user understand his location within the content architecture as the NSU is executed?  
+ 
+   
+ 
+ 
+ 
+ 
+Navigation testing, like interface and usability testing, should be conducted by as many different constituencies as possible. You have responsibility for early 
+
+stages of navigation testing, but later stages should be conducted by other proj-
+ect stakeholders, an independent testing team, and ultimately, by nontechnical 
+
+users. The intent is to exercise WebApp navigation thoroughly. 
+ 
+ 
+ 
+    If NSUs have not been 
+created as part of 
+
+WebApp analysis or 
+
+design, you can apply 
+use cases for the de-
+sign of navigation test 
+cases. The same set 
+of questions are asked 
+and answered.   
+ 
+Web Navigation Testing Tools 
+  
+ Objective: 
+ The objective of Web user 
+navigation testing tools is to identify any broken 
+web links or pages that are not reachable in a website. 
+  Mechanics: 
+ The tools prompt you for the URL of a Web 
+source and scan its markup language for links that do not 
+
+return the correct type of Web resource. Some tools attempt 
+
+to crawl through whole site to look for errors in deeper links. 
+  Representative Tools:  
+ 11 
+ 
+ 
+  
+ 
+ 
+http://validator.w3.org/checklink> 
+ 
+—Online WC3 link checker that analyzes HTML and XHTML 
+documents for broken links.   
+ 
+http://www.relsoftware.com/ 
+ 
+—Download site for  Rel Link Checker Lite 
+ a free tool for identifying broken links and orphaned ﬁ les. 
+  
+INFO  
+ 
+11  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+pre22126_ch25_540-566.indd   557pre22126_ch25_540-566.indd   55713/12/13   6:15 PM13/12/13   6:15 PM

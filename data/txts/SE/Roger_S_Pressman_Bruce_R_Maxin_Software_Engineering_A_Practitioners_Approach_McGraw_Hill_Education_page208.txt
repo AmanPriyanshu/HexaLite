@@ -1,0 +1,196 @@
+178 PART TWO  
+MODELINGThe  precondition
+ 
+ describes what is known to be true before the use case is initi-
+ated. The  trigger 
+ identiﬁ
+ es the event or condition that “gets the use case started” 
+[Coc01b]. The  scenario 
+ lists the speciﬁ
+ c actions that are required by the actor and 
+the appropriate system responses.  Exceptions 
+ identify the situations uncovered 
+as the preliminary use case is reﬁ ned (Section 9.2.2). Additional headings may or 
+may not be included and are reasonably self-explanatory. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Use Case Template for Surveillance  
+ 
+Use Case Template for Surveillance 
+ 
+ 
+ 
+ 
+Use case: Access camera surveillance 
+ via the Internet—display camera 
+
+ views (ACS-DCV) 
+   
+Iteration:    
+2, last modiﬁ cation: January 14 by 
+V. Raman. 
+  
+Primary actor:    
+Homeowner. 
+  
+Goal in context:    
+To view output of camera placed 
+throughout the house from any 
+remote location via the Internet. 
+  
+Preconditions:    
+System must be fully conﬁ gured; 
+appropriate user ID and passwords 
+must be obtained.   
+Trigger:    
+The homeowner decides to take a look inside the house while away. 
+  
+Scenario:   
+ 
+ 1.  
+The homeowner logs onto the  SafeHome Products 
+ website.    
+ 
+ 2.  
+The homeowner enters his or her user ID.    
+ 
+ 3.  
+The homeowner enters two passwords (each at least eight characters in length).    
+ 
+ 4.  
+The system displays all major function buttons.    
+ 
+ 5.  
+The homeowner selects the “surveillance” from the 
+major function buttons.    
+ 
+ 6.  
+The homeowner selects “pick a camera.”    
+ 
+ 7.  
+The system displays the ﬂ oor plan of the house. 
+   
+ 
+ 8.  
+The homeowner selects a camera icon from the ﬂ oor plan. 
+   
+ 
+ 9.  
+The homeowner selects the “view” button.    
+ 
+ 
+10.  The system displays a viewing window that is identiﬁ ed by the camera ID. 
+   
+ 
+ 
+11.  The system displays video output within the view-ing window at one frame per second.    
+ 
+Exceptions:   
+ 
+ 1.  
+ID or passwords are incorrect or not recognized—see use case  Validate ID and passwords.
+ 
+ 
+   
+ 
+ 2.  
+Surveillance function not conﬁ
+ gured for this 
+system—system displays appropriate error mes-
+sage; see use case  Conﬁ gure surveillance 
+function. 
+ 
+   
+ 
+ 3.  
+Homeowner selects “View thumbnail snapshots for all camera”—see use case  View thumbnail 
+snapshots for all cameras. 
+ 
+   
+ 
+ 4.  
+A ﬂ oor plan is not available or has not been 
+ conﬁ gured—display appropriate error message 
+and see use case  Conﬁ gure ﬂ oor plan. 
+ 
+   
+ 
+ 5.  
+An alarm condition is encountered—see use case 
+ alarm condition encountered. 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Priority:    
+Moderate priority, to be imple-
+mented after basic functions.    
+ 
+ 
+ 
+When available:    
+Third increment.    
+ 
+ 
+ 
+Frequency of use:    
+Infrequent.    
+ 
+ 
+ 
+Channel to actor:    
+Via PC-based browser and  Internet connection. 
+   
+ 
+ 
+ 
+Secondary actors:    
+System administrator, cameras. 
+   
+ 
+Channels to secondary actors:    
+ 
+ 
+ 1.  
+System administrator: PC-based system.    
+ 
+ 2.  
+Cameras: wireless connectivity. 
+   
+ 
+Open issues:    
+ 
+ 
+ 1.  
+What mechanisms protect unauthorized use of this capability by employees of  SafeHome Products 
+?    
+ 
+ 2.  
+Is security sufﬁ cient? Hacking into this feature 
+would represent a major invasion of privacy. 
+   
+ 
+ 3.  
+Will system response via the Internet be accept-
+able given the bandwidth required for camera 
+views?    
+ 
+ 4.  
+Will we develop a capability to provide video 
+at a higher frames-per-second rate when high- 
+
+bandwidth connections are available?  
+ 
+  
+SAFEHOME pre22126_ch09_166-183.indd   178pre22126_ch09_166-183.indd   17813/12/13   6:11 PM13/12/13   6:11 PM

@@ -1,0 +1,49 @@
+220 PART TWO  
+MODELINGcomplexities (e.g., distributing load among multiple servers, caching architec-tures, remote databases, multiple servers serving various objects) may have an 
+
+impact on analysis and design. The UML  deployment diagram 
+ can be used in situ-
+ations in which complex conﬁ guration architectures must be considered. 
+ For  www.safehomeassured.com
+ 
+ the public content and functionality should 
+be speciﬁ ed to be accessible across all major Web clients (i.e., those with more 
+than 1 percent market share or greater). Conversely, it may be acceptable to 
+
+restrict the more complex control and monitoring functionality (which is only 
+accessible to  HomeOwner 
+ 
+ 
+ users) to a smaller set of clients. For a mobile app, 
+implementation might be limited to the three leading mobile operating environ-
+ments. The conﬁ guration model for 
+ 
+www.safehomeassured.com
+ 
+ 
+ 
+ will also specify 
+interoperability with existing product databases and monitoring applications.   
+ 
+11.5.8  Navigation Modeling 
+ 
+In most mobile applications that reside on smartphone platforms, navigation is generally constrained to relatively simple button lists and icon-based menus. In 
+addition, the depth of navigation (i.e., the number of levels into the hypermedia 
+hierarchy) is relatively shallow. For these reasons, navigation modeling is rela-
+
+tively simple.  For WebApps and an increasing number of tablet-based mobile applications, nav-
+igation modeling is more complex and often considers how each user category will 
+
+navigate from one WebApp element (e.g., content object) to another. The mechanics 
+getCurrentCameraUser()Report Camera
+in use and nameof current userLock availableLock unavailable
+Camera not in useCamera in use
+requestCameraLock()Report Camera
+now locked foruserReport Camera
+unavailable  
+FIGURE 11.6 
+Activity diagram 
+for the 
+ takeControlOf-
+Camera() 
+ operation   pre22126_ch11_202-223.indd   220pre22126_ch11_202-223.indd   22013/12/13   6:12 PM13/12/13   6:12 PM

@@ -1,0 +1,63 @@
+CHAPTER 11  
+REQUIREMENTS MODELING: BEHAVIOR, PATTERNS, AND WEB/MOBILE APPS
+ 215aesthetic look and feel, the size of snapshot views, the placement of camera views and the house ﬂ oor plan, or even minutiae such as the maximum and min-
+imum length of passwords. Some of these aspects are design decisions (such as 
+the layout of the buttons) and others are requirements (such as the length of the 
+passwords) that don’t fundamentally inﬂ uence early design work. 
+ But some missing information might actually inﬂ uence the overall design itself 
+and relate more to an actual understanding of the requirements. For example:  
+ 
+ 
+ 
+ 
+ 
+Q1:  What output video resolution is provided by  SafeHome 
+ cameras?    
+ 
+ 
+ 
+ 
+Q2:  What occurs if an alarm condition is encountered while the cam-era is being monitored?    
+ 
+ 
+ 
+ 
+Q3:  How does the system handle cameras that can be panned and zoomed?    
+ 
+ 
+ 
+ 
+Q4:  What information should be provided along with the camera view? (For example, location? time/date? last previous access?)  
+ 
+  None of these questions were identiﬁ ed or considered in the initial develop-
+ment of the use case, and yet, the answers could have a substantial effect on 
+different aspects of the design.  Therefore, it is reasonable to conclude that although the communication ac-tivity provides a good foundation for understanding, requirements analysis re-
+ﬁ nes this understanding by providing additional interpretation. As the problem 
+structure is delineated as part of the requirements model, questions invariably 
+arise. It is these questions that ﬁ ll in the gaps—or in some cases, actually help us 
+to ﬁ nd the gaps in the ﬁ
+ rst place. 
+ To summarize, the inputs to the requirements model will be the information 
+collected during the communication activity—anything from an informal e-mail 
+to a detailed project brief complete with comprehensive usage scenarios and 
+product speciﬁ cations. 
+ 
+ 
+ 
+11.5.3  Requirements Modeling Output 
+ 
+Requirements analysis provides a disciplined mechanism for representing and evaluating application content and function, the modes of interaction that users 
+will encounter, and the environment and infrastructure in which the WebApp or 
+
+mobile app resides.  Each of these characteristics can be represented as a set of models that allow application requirements to be analyzed in a structured manner. While the spe-
+
+ciﬁ c models depend largely upon the nature of the application, there are ﬁ
+ ve 
+main classes of models:  
+ 
+ 
+•   
+Content model 
+—identiﬁ es the full spectrum of content to be provided by 
+the application. Content includes text, graphics and images, video, and 
+audio data.  pre22126_ch11_202-223.indd   215pre22126_ch11_202-223.indd   21513/12/13   6:12 PM13/12/13   6:12 PM

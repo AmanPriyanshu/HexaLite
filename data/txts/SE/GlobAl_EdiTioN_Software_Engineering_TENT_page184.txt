@@ -1,0 +1,39 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜those invoices that have been paid, a receipt is issued. For those invoices that have not been paid within the allowed payment time, a reminder is issued.Pipe and filter systems are best suited to batch processing systems and embedded systems where there is limited user interaction. Interactive systems are difficult to 
+write using the pipe and filter model because of the need for a stream of data to be 
+processed. While simple textual input and output can be modeled in this way, graph-
+ical user interfaces have more complex I/O formats and a control strategy that is 
+
+based on events such as mouse clicks or menu selections. It is difficult to implement 
+
+this as a sequential stream that conforms to the pipe and filter model.Application systems are intended to meet a business or an organizational need. All 
+businesses have much in commonŠthey need to hire people, issue invoices, keep 
+
+accounts, and so on. Businesses operating in the same sector use common sector-
+
+specific applications. Therefore, as well as general business functions, all phone 
+
+companies need systems to connect and meter calls, manage their network and issue 
+bills to customers. Consequently, the application systems used by these businesses 
+also have much in common.These commonalities have led to the development of software architectures that describe the structure and organization of particular types of software systems. 
+
+Application architectures encapsulate the principal characteristics of a class of sys-
+tems. For example, in real-time systems, there might be generic architectural models 
+of different system types, such as data collection systems or monitoring systems. 
+
+Although instances of these systems differ in detail, the common architectural struc-
+ture can be reused when developing new systems of the same type.The application architecture may be reimplemented when developing new sys-tems. However, for many business systems, application architecture reuse is implicit 
+
+when generic application systems are configured to create a new application. We 
+
+see this in the widespread use of Enterprise Resource Planning (ERP) systems and 
+
+off-the-shelf configurable application systems, such as systems for accounting and 
+
+stock control. These systems have a standard architecture and components. The 
+
+components are configured and adapted to create a specific business application. 
+Architectural patterns for controlThere are specific Architectural patterns that reflect commonly used ways of organizing control in a system. 
+These include centralized control, based on one component calling other components, and event-based control, 
+where the system reacts to external events.http://software-engineering-book.com/web/archpatterns/

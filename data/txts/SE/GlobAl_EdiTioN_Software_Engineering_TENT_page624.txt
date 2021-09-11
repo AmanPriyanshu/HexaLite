@@ -1,0 +1,47 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜from the equipment™s environment. For example, an anti-skid braking system in a 
+car monitors the car™s wheels and brake system (the system™s environment). It looks 
+for signs that the wheels are skidding when brake pressure is applied. If this is the 
+case, the system adjusts the brake pressure to stop the wheels locking and reduce the 
+likelihood of a skid.Control systems may make use of the Environmental Control pattern, which is a 
+general control pattern that includes sensor and actuator processes. This pattern is 
+described in Figure 21.9, with the process architecture shown in Figure 21.10. A 
+
+variant of this pattern leaves out the display process. This variant is used in situa-
+tions where user intervention is not required or where the rate of control is so high 
+that a display would not be meaningful.This pattern can be the basis for a control system design with an instantiation 
+of the Environmental Control pattern for each actuator (or actuator type) being 
+
+controlled. You then optimize the design to reduce the number of processes. For 
+
+example, you may combine actuator monitoring and actuator control processes, 
+
+or you may have a single monitoring and control process for several actuators. 
+
+The optimizations that you choose depend on the timing requirements. You may 
+
+need to monitor sensors more frequently than you send control signals, in which 
+
+case it may be impractical to combine control and monitoring processes. There 
+
+may also be direct feedback between the actuator control and the actuator moni-
+toring process. This allows fine-grain control decisions to be made by the actua-
+tor control process.You can see how this pattern is used in Figure 
+21.11, which shows an example of a 
+controller for a car braking system. The starting point for the design is associating an 
+
+instance of the pattern with each actuator type in the system. In this case, there are four 
+
+actuators, with each controlling the brake on one wheel. The individual sensor processes 
+
+are combined into a single wheel-monitoring process that monitors the sensors on all 
+Analysisprocess
+Wheel
+monitorPedal
+monitorBrake 4processBrake 1processBrake 2processBrake 3processBrake 1Brake 2Brake 3Brake 4Pedal pressure sensor
+Wheel sensors
+Figure 21.11
+ Control 
+system architecture 
+ for an anti-skid 
+ braking system 

@@ -1,0 +1,64 @@
+ Section 2.3  Cryptography 
+87  encryption creates only the illusion of protection, we also look at how encryption can 
+fail. We briefly describe techniques used to break through the protective cover to void 
+
+security. Building on these basic types of encryption, we show how to combine them to 
+
+securely address several general problems of computing and communicating.
+Problems Addressed by Encryption
+Sometimes we describe encryption in the context of sending secret messages. This 
+
+framing is just for ease of description: The same concepts apply to protecting a file of 
+
+data or sensitive information in memory. So when we talk about sending a message, you 
+
+should also think of protecting any digital object for access only by authorized people.
+Consider the steps involved in sending messages from a 
+sender, S, to a recipient
+, R. If S entrusts the message to 
+T, who then delivers it to 
+R, T then becomes the 
+trans-mission medium. If an outsider, 
+O, wants to access the message (to read, change, or 
+even destroy it), we call 
+O an 
+interceptor
+ or 
+intruder. Any time after 
+S transmits the 
+message via T, it is vulnerable to exploitation, and 
+O might try to access it in any of the 
+following ways:
+• block
+ it, by preventing its reaching R, thereby affecting the availability of the 
+message• intercept
+ it, by reading or listening to the message, thereby affecting the confi-
+dentiality of the message• modify it, by seizing the message and changing it in some way, affecting the 
+message’s integrity
+• fabricate an authentic-looking message, arranging for it to be delivered as if it 
+came from S, thereby also affecting the integrity of the message
+As you can see, a message’s vulnerabilities reflect the four possible security failures 
+we identified in Chapter l. Fortunately, encryption is a technique that can address all 
+
+these problems. Encryption is a means of maintaining secure data in an insecure envi-
+
+ronment. In this book, we study encryption as a security technique, and we see how it 
+
+is used in protecting programs, databases, networks, and electronic communications.
+Terminology
+Encryption is the process of encoding a message so that its meaning is not obvious; 
+decryption is the reverse process, transforming an encrypted message back into its nor-
+mal, original form. Alternatively, the terms 
+encode and 
+decode or 
+encipher and 
+decipher are used instead of encrypt and decrypt.2 That is, we say we encode, encrypt, or encipher 
+the original message to hide its meaning. Then, we decode, decrypt, or decipher it to reveal 
+
+the original message. A system for encryption and decryption is called a 
+cryptosystem.2. There are slight differences in the meanings of these three pairs of words, although they are not significant 
+in the context of this discussion. Strictly speaking, 
+encoding is the process of translating entire words or 
+phrases to other words or phrases, whereas 
+enciphering is translating letters or symbols individually; 
+encryption is the group term that covers both encoding and enciphering.

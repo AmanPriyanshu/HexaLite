@@ -1,0 +1,37 @@
+˜˜˚˛˜˜˜˜˜˜
+1. Activity diagrams, which show the activities involved in a process or in data 
+processing.2. Use case diagrams, which show the interactions between a system and its 
+ environment.3. Sequence diagrams, which show interactions between actors and the system and 
+between system components.4. Class diagrams, 
+which show the object classes in the system and the associa
+-
+tions between these classes.5. State diagrams, which show how the system reacts to internal and external events.At an early stage in the specification of a system, you should decide on the system 
+boundaries, that is, on what is and is not part of the system being developed. This 
+involves working with system stakeholders to decide what functionality should be 
+
+included in the system and what processing and operations should be carried out in 
+
+the system™s operational environment. You may decide that automated support for 
+some business processes should be implemented in the software being developed but 
+that other processes should be manual or supported by different systems. You should 
+look at possible overlaps in functionality with existing systems and decide where 
+
+new functionality should be implemented. These decisions should be made early in 
+the process to limit the system costs and the time needed for understanding the sys-
+tem requirements and design.In some cases, the boundary between a system and its environment is relatively clear. For example, where an automated system is replacing an existing manual or 
+computerized system, the environment of the new system is usually the same as the 
+existing system™s environment. In other cases, there is more flexibility, and you 
+
+decide what constitutes the boundary between the system and its environment during 
+the requirements engineering process.For example, say you are developing the specification for the Mentcare patient 
+information system. This system is intended to manage information about patients 
+attending mental health clinics and the treatments that have been prescribed. In devel-
+oping the specification for this system, you have to decide whether the system should 
+
+focus exclusively on collecting information about consultations (using other systems 
+
+to collect personal information about patients) or whether it should also  collect per-sonal patient information. The advantage of relying on other systems for patient 
+
+information is that you avoid duplicating data. The major disadvantage,  however, is 
+that using other systems may make it slower to access information, and if these sys-
+tems are unavailable, then it may be impossible to use the Mentcare  system.In some situations, the user base for a system is very diverse, and users have a wide range of different system requirements. You may decide not to define 

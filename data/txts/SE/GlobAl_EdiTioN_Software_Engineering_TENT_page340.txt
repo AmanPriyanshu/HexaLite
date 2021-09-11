@@ -1,0 +1,44 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜In Section 11.2, I briefly described an air accident at Warsaw Airport where an 
+Airbus crashed on landing. Two people were killed and 54 were injured. The subse-
+quent inquiry showed that a major contributory cause of the accident was a failure of 
+the control software that reduced the efficiency of the aircraft™s braking system. This 
+is one of the, thankfully rare, examples of where the behavior of a software system 
+
+has led to death or injury. It illustrates that software is now a central component in 
+many systems that are critical to preserving and maintaining life. These are safety-
+critical software systems, and a range of specialized methods and techniques have 
+
+been developed for safety-critical software engineering.As I discussed in Chapter 10, safety is one of the principal dependability proper-ties. A system can be considered to be safe if it operates without catastrophic failure, 
+
+that is, failure that causes or may cause death or injury to people. Systems whose 
+
+failure may lead to environmental damage may also be safety-critical as environmen-
+tal damage (such as a chemical leak) can lead to subsequent human injury or death.Software in safety-critical systems has a dual role to play in achieving safety:1. The system may be software-controlled so that the decisions made by the soft-
+ware and subsequent actions are safety-critical. Therefore, the software behav-
+ior is directly related to the overall safety of the system.2. Software is extensively used for checking and monitoring other safety-critical com-ponents in a system. For example, all aircraft engine components are monitored by 
+
+software looking for early indications of component failure. This  software is safety-critical because, if it fails, other components may fail and cause an accident.Safety in software systems is achieved by developing an understanding of the situ-ations that might lead to safety-related failures. The software is engineered so that 
+
+such failures do not occur. You might therefore think that if a safety-critical system is 
+
+reliable and behaves as specified, it will therefore be safe. Unfortunately, it isn™t quite 
+
+as simple as that. System reliability is necessary for safety achievement, but it isn™t 
+
+enough. Reliable systems can be unsafe and vice versa. The Warsaw Airport accident 
+
+was an example of such a situation, which I™ll discuss in more detail in Section 12.2.Software systems that are reliable may not be safe for four reasons:1.
+ We can never be 100% certain that a software system is fault-free and 
+ fault-tolerant. Undetected faults can be dormant for a long time, and software 
+failures can occur after many years of reliable operation.2.
+ The specification may be incomplete in that it does not describe the required 
+
+behavior of the system in some critical situations. A high percentage of system 
+malfunctions are the result of specification rather than design errors. In a study 
+of errors in embedded systems, Lutz (Lutz 1993) concludes that ﬁdifficulties 
+
+with requirements are the key root cause of the safety-related software errors, 
+which have persisted until integration and system testing.ƒﬂƒLutz, R R. 1993. ﬁAnalysing Software Requirements Errors in Safety-Critical Embedded Systems.ﬂ In 
+RE™93, 126Œ133. San Diego CA: IEEE. doi:0.1109/ISRE.1993.324825.

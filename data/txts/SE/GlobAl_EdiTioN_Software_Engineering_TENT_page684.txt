@@ -1,0 +1,35 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜The difficulty with experience-based techniques is that a new software project 
+may not have much in common with previous projects. Software development 
+changes very quickly, and a project will often use unfamiliar techniques such as web 
+services, application system configuration, or HTML5. If you have not worked with 
+
+these techniques, your previous experience may not help you to estimate the effort 
+required, making it more difficult to produce accurate costs and schedule estimates.It is impossible to say whether experience-based or algorithmic approaches are more accurate. Project estimates are often self-fulfilling. The estimate is used to 
+
+define the project budget, and the product is adjusted so that the budget figure is real-
+ized. A project that is within budget may have achieved this at the expense of fea-
+tures in the software being developed.To make a comparison of the accuracy of these techniques, a number of controlled 
+experiments would be required where several techniques were used independently to 
+
+estimate the project effort and costs. No changes to the project would be allowed, and the 
+
+final effort could them be compared. The project manager would not know the effort 
+
+estimates, so no bias would be introduced. However, this scenario is completely impos-sible in real projects, so we will never have an objective comparison of these approaches.˘˘Algorithmic cost modeling uses a mathematical formula to predict project costs 
+
+based on estimates of the project size, the type of software being developed, and 
+
+other team, process, and product factors. Algorithmic cost models are developed by 
+analyzing the costs and attributes of completed projects, then finding the closest-fit 
+formula to the actual costs incurred.Algorithmic cost models are primarily used to make estimates of software devel-opment costs. However, Boehm and his collaborators (B. W. Boehm et al. 2000) 
+
+discuss a range of other uses for these models, such as the preparation of estimates 
+for investors in software companies, alternative strategies to help assess risks and to 
+inform decisions about reuse, redevelopment, or outsourcing.Most algorithmic models for estimating effort in a software project are based on a 
+simple formula:Effort = A 3 SizeB 3 MA: a constant factor, which depends on local organizational practices and the type of software that is developed.Size: an assessment of the code size of the software or a functionality estimate 
+expressed in function or application points.B: represents the complexity of the software and usually lies between 1 and 1.5.M: is a factor that takes into account process, product and development attributes, 
+such as the dependability requirements for the software and the experience of the 
+development team. These attributes may increase or decrease the overall diffi-
+culty of developing the system.

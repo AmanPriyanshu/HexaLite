@@ -1,0 +1,39 @@
+ Section 12.4  Message Digests 
+801  SHA-3NIST also commenced a competition in 2008 to select a new hash algorithm to be known 
+as SHA-3. In 2012 NIST formally announced selection of Keccak [NIS14, BER14] as 
+
+winner, to be designated SHA-3; like SHA-2 it is also a family of algorithms.
+Immediately after the announcement there arose a controversy because of changes 
+NIST sought in the internal algorithm. The basis of concern was a fear that NSA had 
+
+somehow weakened the internals to make the algorithm easier for it to break. In fact, 
+
+it seems that NIST requested some minor changes for performance reasons, but those 
+
+changes do not weaken the algorithm. Cryptologist Bruce Schneier essentially put such 
+
+concerns to rest in his blog [SCH13]:The Keccak permutation remains unchanged. What NIST proposed was reducing the 
+hash function’s capacity in the name of performance. One of Keccak’s nice features is 
+
+that it’s highly tunable.
+I do not believe that the NIST changes were suggested by the NSA. Nor do I believe 
+that the changes make the algorithm easier to break by the NSA. I believe NIST made 
+
+the changes in good faith, and the result is a better security/performance trade-off.
+The structure of SHA-3 is different from its predecessors in that it uses far fewer 
+cycles, thus improving performance significantly. The algorithms do use significantly 
+
+more internal memory (1600 bits as opposed to 512 for SHA-2), but the added space is 
+
+available for most application domains.
+Properties of MD5 and the SHA algorithms are presented in Table 12-1. 
+TABLE 12-1 
+Current Secure Hash Standard PropertiesAlgorithmMaximum Message Size (bits)Block Size (bits)Rounds
+Message Digest Size (bits)MD526451264128
+SHA-126451280160
+SHA-2-22426451264224
+SHA-2-25626451264256
+SHA-2-3842128102480384
+SHA-2-5122128102480512
+SHA-3-256unlimited108824256
+SHA-3-512unlimited57624512

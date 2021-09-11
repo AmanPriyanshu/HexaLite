@@ -1,0 +1,60 @@
+ Section 3.1  Unintentional (Nonmalicious) Programming Oversights 
+141  sizes do not have to be predefined, so there is no way to detect an out-of-bounds error. 
+More importantly, the code needed to check each subscript against its potential maxi-
+
+mum value takes time and space during execution, and resources are applied to catch a 
+
+problem that occurs relatively infrequently. Even if the compiler were careful in analyz-
+
+ing the buffer declaration and use, this same problem can be caused with pointers, for 
+
+which there is no reasonable way to define a proper limit. Thus, some compilers do not 
+
+generate the code to check for exceeding bounds.
+Implications of Overwriting MemoryLet us more closely examine the problem of overwriting memory. Be sure to recog-
+nize that the potential overflow causes a serious problem only in some instances. The 
+
+problem’s occurrence depends on what is adjacent to the array 
+sample. For example, 
+suppose each of the ten elements of the array sample is filled with the letter A and the 
+erroneous reference uses the letter B, as follows:
+for (i=0; i<=9; i++)      sample[i] = 'A';
+sample[10] = 'B'All program and data elements are in memory during execution, sharing space with the 
+operating system, other code, and resident routines. So four cases must be considered 
+in deciding where the ‘B’ goes, as shown in Figure 3-4. If the extra character overflows 
+
+into the user’s data space, it simply overwrites an existing variable value (or it may 
+
+be written into an as-yet unused location), perhaps affecting the program’s result but 
+
+affecting no other program or data.
+In the second case, the ‘B’ goes into the user’s program area. If it overlays an already 
+executed instruction (which will not be executed again), the user should perceive no 
+
+effect. If it overlays an instruction that is not yet executed, the machine will try to exe-
+
+cute an instruction with operation code 0x42, the internal code for the character ‘B’. 
+If there is no instruction with operation code 0x42, the system will halt on an illegal 
+
+instruction exception. Otherwise, the machine will use subsequent bytes as if they were 
+
+the rest of the instruction, with success or failure depending on the meaning of the con-
+
+tents. Again, only the user is likely to experience an effect.
+The most interesting cases (from a security perspective) occur when the system owns 
+the space immediately after the array that overflows. Spilling over into system data 
+
+or code areas produces results similar to those for the user’s space: computing with a 
+
+faulty value or trying to execute an operation.
+Program procedures use both local data, data used strictly within one procedure, and shared
+ or common or global data, which are shared between two or more procedures. 
+Memory organization can be complicated, but we simplify the layout as in Figure 3-5. 
+
+In that picture, local data are stored adjacent to the code of a procedure. Thus, as you 
+
+can see, a data overflow either falls strictly within a data space or it spills over into an 
+
+adjacent code area. The data end up on top of one of 
+• another piece of your data 
+• an instruction of yours 

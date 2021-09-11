@@ -1,0 +1,82 @@
+54 PART ONE  
+THE SOFTWARE PROCESS
+ 
+When formal methods (Appendix 3) are used during development, they pro-vide a mechanism for eliminating many of the problems that are difﬁ cult to over-
+come using other software engineering paradigms. Ambiguity, incompleteness, 
+
+and inconsistency can be discovered and corrected more easily—not through ad 
+hoc review, but through the application of mathematical analysis. When formal 
+
+methods are used during design, they serve as a basis for program veriﬁ cation 
+and therefore enable you to discover and correct errors that might otherwise go 
+undetected.   
+Although not a mainstream approach, the formal methods model offers the promise of defect-free software. Yet, concern about its applicability in a business 
+
+environment has been voiced:  
+ 
+ 
+•  The development of formal models is currently quite time consuming and expensive.   
+ 
+ 
+•  Because few software developers have the necessary background to apply formal methods, extensive training is required.   
+ 
+ 
+•  It is difﬁ cult to use the models as a communication mechanism for techni-
+cally unsophisticated customers.  
+ 
+   
+These concerns notwithstanding, the formal methods approach has gained adherents among software developers who must build safety-critical software 
+(e.g., developers of aircraft avionics and medical devices) and among developers 
+that would suffer severe economic hardship should software errors occur. 
+  
+ 
+ 
+ 
+ 
+4.2.3 Aspect-Oriented Software Development 
+ 
+  
+Regardless of the software process that is chosen, the builders of complex soft-ware invariably implement a set of localized features, functions, and information 
+content. These localized software characteristics are modeled as components 
+(e.g., object-oriented classes) and then constructed within the context of a sys-
+tem architecture. As modern computer-based systems become more sophisti-
+
+cated (and complex), certain  concerns 
+—customer required properties or areas of technical interest—span the entire architecture. Some concerns are high-level 
+properties of a system (e.g., security, fault tolerance). Other concerns affect func-
+
+tions (e.g., the application of business rules), while others are systemic (e.g., task 
+synchronization or memory management).  When concerns cut across multiple system functions, features, and informa-tion, they are often referred to as  crosscutting concerns. Aspectual requirement
+ 
+s deﬁ ne those crosscutting concerns that have an impact across the software ar-
+chitecture.  Aspect-oriented software development
+ 
+ (AOSD), often referred to as 
+ aspect-oriented programming
+ 
+ (AOP) or  
+aspect-oriented component engineering 
+ (AOCE) [Gru02], is a relatively new software engineering paradigm that provides 
+a process and methodological approach for deﬁ ning, specifying, designing, and 
+ If formal 
+methods can demonstrate 
+software 
+correctness, why 
+is it they are not 
+widely used? ? WebRef 
+ A wide array of 
+resources and infor-
+mation on AOP can be 
+found at:   
+aosd.net  . 
+   AOSD deﬁ nes 
+ “aspects” that express 
+
+customer concerns that 
+
+cut across multiple 
+system functions, 
+ features, and 
+
+information. 
+pre22126_ch04_040-065.indd   54pre22126_ch04_040-065.indd   5413/12/13   6:10 PM13/12/13   6:10 PM

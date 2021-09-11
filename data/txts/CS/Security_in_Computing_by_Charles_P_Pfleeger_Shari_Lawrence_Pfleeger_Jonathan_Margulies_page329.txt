@@ -1,0 +1,80 @@
+ Section 5.1  Security in Operating Systems 
+295  The original design of the Java system was based on the sandbox concept, skillfully 
+led by Li Gong [GON97]. The designers of Java intended the system to run code, called 
+
+applets, downloaded from untrusted sources such as the Internet. Java trusts locally 
+
+derived code with full access to sensitive system resources (such as files). It does not, 
+
+however, trust downloaded remote code; for that code Java provides a sandbox, limited 
+
+resources that cannot cause negative effects outside the sandbox. The idea behind this 
+
+design was that web sites could have code execute remotely (on local machines) to dis-
+
+play complex content on web browsers.
+Java compilers and a tool called a bytecode verifier ensure that the system executes 
+only well-formed Java commands. A class loader utility is part of the virtual machine 
+
+monitor to constrain untrusted applets to the safe sandbox space. Finally, the Java Vir-
+
+tual Machine serves as a reference monitor to mediate all access requests. The Java 
+
+runtime environment is a kind of virtual machine that presents untrusted applets with an 
+
+unescapable bounded subset of system resources.Unfortunately, the original Java design proved too restrictive [GON09]; people 
+wanted applets to be able to access some resource outside the sandbox. Opening the 
+
+sandbox became a weak spot, as you can well appreciate. A subsequent release of the 
+
+Java system allowed signed applets to have access to most other system resources, 
+
+which became a potential—and soon actual—security vulnerability. Still, the original 
+
+concept showed the security strength of a sandbox as a virtual machine.
+Honeypot A final example of a virtual machine for security is the honeypot. A 
+honeypot is a faux 
+environment intended to lure an attacker. Usually employed in a network, a honeypot 
+
+shows a limited (safe) set of resources for the attacker; meanwhile, administrators monitor 
+
+the attacker’s activities in real time 
+
+to learn more about the attacker’s 
+
+objectives, tools, techniques, and 
+
+weaknesses, and then use this knowl-
+
+edge to defend systems effectively.
+Cliff Stoll [STO88] and Bill Cheswick [CHE90] both employed this form of hon-
+eypot to engage with their separate attackers. The attackers were interested in sensitive 
+
+data, especially to identify vulnerabilities (presumably to exploit later). In these cases, 
+
+the researchers engaged with the attacker, supplying real or false results in real time. 
+
+Stoll, for example, decided to simulate the effect of a slow speed, unreliable connection. 
+
+This gave Stoll the time to analyze the attacker’s commands and make certain files vis-
+
+ible to the attacker; if the attacker performed an action that Stoll was not ready or did 
+
+not want to simulate, Stoll simply broke off the communication, as if the unreliable line 
+
+had failed yet again. Obviously, this kind of honeypot requires a great investment of the 
+
+administrator’s time and mental energy.
+Some security researchers operate honeypots as a way of seeing what the opposi-
+tion is capable of doing. Virus detection companies put out attractive, poorly protected 
+
+systems and then check how the systems have been infected: by what means, with what 
+
+result. This research helps inform further product development.
+In all these cases, a honeypot is an attractive target that turns out to be a virtual 
+machine: What the attacker can see is a chosen, controlled view of the actual system.
+Honeypot: system to lure an attacker 
+
+into an environment that can be both 
+
+controlled and monitored

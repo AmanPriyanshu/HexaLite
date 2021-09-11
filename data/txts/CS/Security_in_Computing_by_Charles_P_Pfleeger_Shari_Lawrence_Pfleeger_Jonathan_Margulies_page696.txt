@@ -1,0 +1,63 @@
+662 Chapter 10  
+Management and IncidentsThe focus of the business continuity plan is to keep the business going while some-
+one else addresses the crisis. That is, the business continuity plan does not include call-
+
+ing the fire department or evacuating the building, important though those steps are. 
+
+The focus of a business continuity 
+
+plan is the business
+ and how to keep 
+it functioning to the degree possible 
+
+in the situation. Handling the emer-
+
+gency is someone else’s problem.
+Now we turn to a different plan that deals specifically with computer crises.
+10.3 HANDLING INCIDENTS
+The network grinds almost to a halt. A pop-up advises you to patch an application 
+
+immediately. A file disappears. An unusual name appears on the list of active processes. 
+
+Are any of these situations normal? A concern? Something to report, and if yes, to 
+
+whom? Any one of these situations could be a first sign of a security incident, or noth-
+
+ing at all. What should you do?
+Individuals must take responsibility for their own environments. But students in a 
+university or employees of a company or government agency sometimes assume it is 
+
+someone else’s responsibility. Or they don’t want to bother a busy operations staff with 
+
+something that may be nothing at all.Organizations develop a capability to handle incidents from receiving the first report 
+and investigating it. In this section we consider incident handling practices.
+Incident Response PlansA (security) incident response plan 
+tells the staff how to deal with a security incident. 
+In contrast to the business continuity plan, the goal of incident response is handling 
+
+the current security incident, without direct regard for the business issues. The security 
+
+incident may at the same time be a business catastrophe, as addressed by the business 
+
+continuity plan. But as a specific security event, it might be less than catastrophic (that 
+
+is, it may not severely interrupt business) but could be a serious breach of security, 
+
+such as a hacker attack or a case of 
+
+internal fraud. An incident could be 
+
+a single event, a series of events, or 
+
+an ongoing problem.An incident response plan should • define what constitutes an 
+incident• identify who is responsible for 
+taking charge 
+of the situation• describe the plan of 
+actionThe plan usually has three phases: advance planning, triage, and running the inci-
+dent. A fourth phase, review, is useful after the situation abates so that this incident can 
+
+lead to improvement for future incidents.
+A business continuity plan focuses on 
+business needs.An incident response plan details how 
+
+to address security incidents of all types.

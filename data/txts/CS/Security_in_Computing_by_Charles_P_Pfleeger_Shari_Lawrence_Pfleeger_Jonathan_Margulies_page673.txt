@@ -1,0 +1,59 @@
+ Section 9.7  Privacy Impacts of Emerging Technologies 
+639  animals to cross quarantine borders or to uniquely identify animals such as pets or valu-
+able racehorses.In these examples, individuals voluntarily allow the tags to be implanted. But remem-
+ber that once the tags are implanted, they will respond to any appropriate receiver, so 
+
+our example of privacy intrusions while walking down the street still holds.
+RFID advocates hasten to point out that the technology does not currently permit 
+reading the simplest tags at a distance and that receivers are so expensive that it would 
+
+be prohibitive to build a network capable of tracking someone’s every movement. As 
+
+we point out in our discussion of cryptography and reiterate in our presentation about 
+security software, you should not base your security just on what is technically possible 
+
+or economically feasible today.
+Security and Privacy IssuesWe have already described two of RFID’s major privacy issues: the ability to track indi-
+viduals wherever they go and the ability to discern sensitive data about people. There 
+
+are other related issues, including correctness and prediction. To see why correctness 
+
+is an issue, consider how the reading sensor may malfunction or the software process-
+
+ing IDs may fail; both cases could lead to mistaken identity. How do you challenge the 
+
+accusation that you were not someplace when the receiver shows you were? Another 
+
+possible failure is forgery of an RFID tag. Here again the sensor would pick up a read-
+
+ing of a tag associated with you. The only way you could prove you were not near the 
+
+sensor is to have an alibi supporting where you actually were.
+Similarly, as Sidebar 9-8 illustrates, the data collected about you can be used to make 
+predictions that may not be correct. And even when they are correct, you may want to 
+
+have a say in decisions being made about you based on predictions from data captured 
+
+by sensors.SIDEBAR 9-8 Using Your Habits to Protect and Predict
+As prices of sensors plummet and as their size makes them easy to embed, manufacturers are putting sensors in everything. “Pervasive computing” 
+
+and “wearable computing” can make life simpler, by enabling you to navi-
+
+gate, troubleshoot, and track people and things in ways not possible only 
+
+a few decades ago. Taub [TAU14] notes that items like smartbands and 
+
+smart watches can monitor your vital signs and activities. Smart pumps 
+
+can automatically give you a dose of insulin or painkiller when you need 
+
+it. “In the name of living healthier lives, sensors may soon give us updates 
+on the whole family, and across the house—from the bathroom sink to the  
+
+garage.”Companies like Grush offer a smart toothbrush containing accelerom-
+eters and gyroscopes, to give your youngster feedback on whether she is 
+
+holding it correctly and brushing properly. And the results can be transmit-
+
+ted to the dentist, so that she can monitor the brushing behavior, too.
+(continues)

@@ -1,0 +1,36 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜Four types of security threats may arise:1.
+ Interception threats that allow an attacker to gain access to an asset. So, a 
+ possible threat to the Mentcare system might be a situation where an attacker gains access to the records of an individual patient.2. Interruption threats that allow an attacker to make part of the system 
+ unavailable. Therefore, a possible threat might be a denial-of-service attack on a system 
+
+database server.3. Modification threats that allow an attacker to tamper with a system asset. In the 
+Mentcare system, a modification threat would be where an attacker alters or 
+
+destroys a patient record.4. Fabrication threats that allow an attacker to insert false information into a sys-
+tem. This is perhaps not a credible threat in the Mentcare system but would 
+
+certainly be a threat in a banking system, where false transactions might be 
+
+added to the system that transfers money to the perpetrator™s bank account.The controls that you might put in place to enhance system security are based on the fundamental notions of avoidance, detection, and recovery:1. Vulnerability avoidance Controls that are intended to ensure that attacks are 
+unsuccessful. The strategy here is to design the system so that security problems 
+are avoided. For example, sensitive military systems are not connected to the 
+
+Internet so that external access is more difficult. You should also think of 
+
+encryption as a control based on avoidance. Any unauthorized access to 
+
+encrypted data means that the attacker cannot read the encrypted data. It is 
+
+expensive and time consuming to crack strong encryption.2. Attack detection and neutralization Controls that are intended to detect and 
+
+repel attacks. These controls involve including functionality in a system that 
+
+monitors its operation and checks for unusual patterns of activity. If these 
+Figure 13.4 Examples of security terminologyTermExampleAssetThe record of each patient who is receiving or has received treatment.AttackAn impersonation of an authorized user.ControlA password checking system that disallows user passwords that are proper names 
+or words that are normally included in a dictionary.ExposurePotential financial loss from future patients who do not seek treatment because 
+they do not trust the clinic to maintain their data. Financial loss from legal action 
+by the sports star. Loss of reputation.ThreatAn unauthorized user will gain access to the system by guessing the credentials 
+(login name and password) of an authorized user.VulnerabilityAuthentication is based on a password system that does not require strong 
+passwords. Users can then set easily guessable passwords.

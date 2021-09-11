@@ -1,0 +1,87 @@
+632 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+Configuration management.   
+A conﬁ guration management facility keeps track 
+of a series of conﬁ gurations representing speciﬁ
+ c project milestones or produc-
+tion releases.   
+ 
+Audit trails.   
+An audit trail establishes additional information about when, why, 
+and by whom changes are made. Information about the source of changes can 
+be entered as attributes of speciﬁ c objects in the repository. A repository trigger 
+mechanism is helpful for prompting the developer or the tool that is being used 
+to initiate entry of audit information (such as the reason for a change) whenever 
+a design element is modiﬁ ed. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 29.3  
+THE SCM PROCESS    
+The software conﬁ guration management process deﬁ
+ nes a series of tasks that 
+have four primary objectives: (1) to identify all items that collectively deﬁ ne the 
+software conﬁ to 
+facilitate the construction of different versions of an application, and (4) to ensure 
+that software quality is maintained as the conﬁ guration evolves over time. 
+ A process that achieves these objectives need not be bureaucratic and pon-derous, but it must be characterized in a manner that enables a software team to 
+develop answers to a set of complex questions:   
+ 
+ 
+ 
+ 
+•  How does a software team identify the discrete elements of a software conﬁ guration? 
+  
+ 
+ 
+•  How does an organization manage the many existing versions of a pro-gram (and its documentation) in a manner that will enable change to be 
+accommodated efﬁ ciently? 
+  
+ 
+ 
+•  How does an organization control changes before and after software is re-leased to a customer?   
+ 
+ 
+•  How does an organization assess the impact of change and manage the impact effectively?   
+ 
+ 
+•  Who has responsibility for approving and ranking requested changes?   
+ 
+ 
+•  How can we ensure that changes have been made properly?   
+ 
+ 
+•  What mechanism is used to apprise others of changes that are made?    
+These questions lead to the deﬁ nition of ﬁ
+ ve SCM tasks—identiﬁ
+ cation, ver-
+sion control, change control, conﬁ guration auditing, and reporting—illustrated 
+in  Figure 29.4  
+ 
+.  
+ 
+ 
+ 
+  Referring to the ﬁ gure, SCM tasks can be viewed as concentric layers. SCIs 
+ﬂ ow outward through these layers throughout their useful life, ultimately becom-
+ing part of the software conﬁ guration of one or more versions of an application 
+or system. As an SCI moves through a layer, the actions implied by each SCM 
+  uote:  “Any change, 
+even a change 
+for the better, is 
+
+accompanied by 
+drawbacks and 
+discomforts.”  Arnold Bennett 
+ What 
+
+questions should the 
+SCM process 
+be designed to 
+answer? ?pre22126_ch29_623-652.indd   632pre22126_ch29_623-652.indd   63213/12/13   6:16 PM13/12/13   6:16 PM

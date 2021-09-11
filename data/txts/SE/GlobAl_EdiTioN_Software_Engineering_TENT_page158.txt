@@ -1,0 +1,27 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜The Operation state includes a number of substates. It shows that operation starts with a status check and that if any problems are discovered an alarm is indicated and operation is disabled. Cooking involves running the microwave generator for the 
+
+specified time; on completion, a buzzer is sounded. If the door is opened during 
+
+operation, the system moves to the disabled state, as shown in Figure 5.17.State models of a system provide an overview of event processing, but you nor-mally have to extend this with a more detailed description of the stimuli and the system 
+
+states. You may use a table to list the states and events that stimulate state transitions 
+
+along with a description of each state and event. Figure 5.18 shows a tabular descrip-
+tion of each state and how the stimuli that force state transitions are generated.ˇˇModel-driven engineering (MDE) is an approach to software development whereby 
+models rather than programs are the principal outputs of the development process 
+Figure 5.18 States and stimuli for the 
+microwave ovenStateDescriptionWaitingThe oven is waiting for input. The display shows the 
+current time.Half powerThe oven power is set to 300 watts. The display shows 
+ﬁHalf power.ﬂFull powerThe oven power is set to 600 watts. The display shows 
+ﬁFull power.ﬂSet timeThe cooking time is set to the user™s input value. The display 
+shows the cooking time selected and is updated as the time 
+is set.DisabledOven operation is disabled for safety. Interior oven light is on. 
+Display shows ﬁNot ready.ﬂEnabledOven operation is enabled. Interior oven light is off. Display 
+shows ﬁReady to cook.ﬂOperationOven in operation. Interior oven light is on. Display shows the 
+timer countdown. On completion of cooking, the buzzer is 
+sounded for 5 seconds. Oven light is on. Display shows 
+ﬁCooking completeﬂ while buzzer is sounding.StimulusDescriptionHalf powerThe user has pressed the half-power button.
+Full powerThe user has pressed the full-power button.TimerThe user has pressed one of the timer buttons.NumberThe user has pressed a numeric key.Door openThe oven door switch is not closed.Door closedThe oven door switch is closed.
+
+StartThe user has pressed the Start button.CancelThe user has pressed the Cancel button.

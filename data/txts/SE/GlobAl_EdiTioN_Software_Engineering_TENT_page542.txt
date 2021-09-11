@@ -1,0 +1,69 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜
+˜ˇ
+˜travelers. In addition to booking their flights, travelers can also book hotels in their pre
+-ferred location, arrange car rental or book a taxi from the airport, browse a travel guide, 
+
+and make reservations to visit local attractions. To create this application, the airline 
+
+composes its own booking service with services offered by a hotel booking agency, rental 
+
+car and taxi companies, and reservation services offered by owners of local attractions. 
+
+The end result is a single service that integrates the services from different providers.
+You can think of this process as a sequence of separate steps, as shown in Figure 
+18.13. Information is passed from one step to the next. For example, the rental car 
+
+company is informed of the time that the flight is scheduled to arrive. The sequence of 
+
+steps is called a workflowŠa set of activities ordered in time, with each activity carry
+-ing out some part of the work. A workflow is a model of a business process; that is, it 
+
+sets out the steps involved in reaching a particular goal that is important for a business. 
+
+In this case, the business process is the vacation booking service, offered by the airline.
+Workflow is a simple idea, and the above scenario of booking a vacation seems to 
+be straightforward. In practice, service composition is usually more complex than 
+
+this simple model implies. You have to consider the possibility of service failure and 
+
+include exception management to handle these failures. You also have to take into 
+
+account nonstandard demands made by users of the application. For example, say a 
+
+traveler was disabled and required a wheelchair to be rented and delivered to the 
+
+airport. This would require extra services to be implemented and composed, with 
+
+additional steps added to the workflow.
+When designing a travel aggregation service, you must be able to cope with situ
+-ations where the normal execution of one of the services results in an incompatibility 
+
+with some other service execution. For example, say a flight is booked to leave on 
+
+June 1 and to return on June 7. The workflow then proceeds to the hotel booking 
+
+stage. However, the resort is hosting a major convention until June 2, so no hotel 
+
+rooms are available. The hotel booking service reports this lack of availability. This 
+
+is not a failure; lack of availability is a common situation.
+You therefore have to ﬁundoﬂ the flight booking and pass the information about 
+lack of availability back to the user. He or she then has to decide whether to change 
+
+the dates or the resort. In workflow terminology, this is called a compensation action. 
+
+Compensation actions are used to undo actions that have already been completed but 
+
+that must be changed as a result of later workflow activities.
+The process of designing new services by reusing existing services is a process of 
+software design with reuse (Figure 
+18.13). Design with reuse inevitably involves 
+
+requirements compromises. The ﬁidealﬂ requirements for the system have to be mod
+-
+ified to reflect the services that are actually available, whose costs fall within budget 
+
+and whose quality of service is acceptable.BookflightsBookhotelArrangecar or taxiBrowseattractionsBookattractionsArrival/departure
+dates/timesHotel locationDates/preferencesFigure 18.13 Vacation 
+package workflow 

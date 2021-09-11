@@ -1,0 +1,117 @@
+350 PART TWO  
+MODELINGseveral patterns, each encapsulating its own problem and forces, unfolds a larger solution which emerges indirectly as a result of the smaller solutions” [App00].  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+Design patterns span a broad spectrum of abstraction and application.  Archi-
+tectural patterns 
+ describe broad-based design problems that are solved using a 
+structural approach.  Data patterns 
+ describe recurring data-oriented problems 
+and the data modeling solutions that can be used to solve them.  Component pat-terns 
+ (also referred to as  
+design patterns 
+) address problems associated with the development of subsystems and components, the manner in which they com-
+municate with one another, and their placement within a larger architecture. 
+
+ Interface design patterns 
+ describe common user interface problems and their 
+solution with a system of forces that includes the speciﬁ c characteristics of end 
+users.  WebApp patterns
+ 
+ address a problem set that is encountered when build-
+ing WebApps and often incorporates many of the other patterns categories just 
+
+mentioned.  Mobile patterns 
+ describe commonly encountered problems when de-
+veloping solutions for mobile platforms. At a lower level of abstraction,  idioms 
+ describe how to implement all or part of a speciﬁ c algorithm or data structure for 
+a software component within the context of a speciﬁ c programming language. 
+ 
+ 
+ 
+   
+In their seminal book on design patterns, Gamma and his colleagues  2 
+ 
+ [Gam95] 
+focus on three types of patterns that are particularly relevant to object-oriented 
+design: creational patterns, structural patterns, and behavioral patterns.   
+ 
+Creational patterns
+ 
+ focus on the “creation, composition, and representation” 
+of objects and provide mechanisms that make the instantiation of objects easier 
+within a system and enforce “constraints on the type and number of objects that 
+can be created within a system” [Maa07].  Structural patterns 
+ focus on problems 
+and solutions associated with how classes and objects are organized and inte-
+grated to build a larger structure.  Behavioral patterns 
+ address problems asso-
+ciated with the assignment of responsibility between objects and the manner in 
+which communication is effected between objects.  
+ 
+ 
+    Don’t force a pattern, 
+even if it addresses the 
+problem at hand. If 
+the context and forces 
+are wrong, look for 
+another pattern. 
+ Is there 
+
+a way to categorize pattern 
+types? ?  
+2  Gamma and his colleagues [Gam95] are often referred to as the “Gang of Four” (GoF) in 
+patterns literature.   
+Creational, Structural, and 
+Behavioral Patterns 
+ A wide variety of design patterns that ﬁ
+ t into 
+creational, structural, and behavioral categories have 
+been proposed and can be found on the Web. Wikipe-
+
+dia  ( http://en.wikipedia.org/wiki/Software_
+design_pattern)  
+ notes the following sampling:  
+ 
+ 
+Creational Patterns  
+ 
+ 
+ 
+•   
+Abstract factory pattern:
+ 
+ centralize decision of what factory to instantiate. 
+  
+ 
+ 
+•   
+Factory method pattern:
+ 
+ centralize creation of an object of a speciﬁ c type choosing one of several 
+implementations.   
+ 
+ 
+•   
+Builder pattern: 
+ separate the construction of a complex object from its representation so that 
+the same construction process can create different 
+representations.   
+ 
+ 
+ 
+Structural Patterns  
+ 
+ 
+ 
+•   
+Adapter pattern: 
+ “adapts” one interface for a 
+class into one that a client expects.   
+INFO pre22126_ch16_347-370.indd   350pre22126_ch16_347-370.indd   35016/12/13   6:22 PM16/12/13   6:22 PM

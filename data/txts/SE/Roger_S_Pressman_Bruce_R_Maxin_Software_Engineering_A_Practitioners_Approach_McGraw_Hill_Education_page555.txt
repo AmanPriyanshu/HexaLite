@@ -1,0 +1,66 @@
+CHAPTER 24  
+TESTING OBJECT-ORIENTED APPLICATIONS
+ 525 
+If the problem is not uncovered during analysis and propagated further, the fol-
+lowing problems could occur (and will have been avoided because of the earlier 
+review) during design:  
+ 
+ 
+ 1.
+  Improper allocation of the class to subsystem and/or tasks may occur during system design.   
+ 
+ 
+ 2.
+  Unnecessary design work may be expended to create the procedural design for the operations that address the extraneous attribute.   
+ 
+ 
+ 3.
+  The messaging model will be incorrect (because messages must be designed for the operations that are extraneous).  
+ 
+ 
+  If the problem remains undetected during design and passes into coding, con-siderable effort will be expended to generate code that implements an unnec-
+essary attribute, two unnecessary operations, messages that drive interobject 
+communication, and many other related issues. In addition, testing of the class 
+will absorb more time than necessary. Once the problem is ﬁ
+ nally uncovered, 
+modiﬁ cation of the system must be carried out with the ever-present potential 
+for side effects that are caused by change.  During latter stages of their development, object-oriented analysis (OOA) and design (OOD) models provide substantial information about the structure and 
+behavior of the system. For this reason, these models should be subjected to rig-
+orous review prior to the generation of code.  All object-oriented models should be tested (in this context, the term  testing 
+ incorporates technical reviews) for correctness, completeness, and consistency 
+within the context of the model’s syntax, semantics, and pragmatics. 
+  
+ 
+ 
+ 
+ 24.2  
+TESTING OOA AND OOD MODELS  
+ 
+Analysis and design models cannot be tested in the conventional sense, because they cannot be executed. However, technical reviews (Chapter 20) can be used to 
+
+examine their correctness and consistency. 
+  
+ 
+24.2.1   
+Correctness of OOA and OOD Models 
+ 
+The notation and syntax used to represent analysis and design models will be tied to the speciﬁ c analysis and design methods that are chosen for the project. Hence 
+syntactic correctness is judged on proper use of the symbology; each model is 
+reviewed to ensure that proper modeling conventions have been maintained.  During analysis and design, you can assess semantic correctness based on the 
+model’s conformance to the real-world problem domain. If the model accurately re-
+
+ﬂ ects the real world (to a level of detail that is appropriate to the stage of development 
+at which the model is reviewed), then it is semantically correct. To determine whether 
+
+the model does, in fact, reﬂ ect real-world requirements, it should be presented to 
+ 
+ uote:  “The tools we use 
+have a profound 
+(and devious!) 
+inﬂ uence on our 
+
+thinking habits, 
+and, therefore, 
+on our thinking 
+abilities.”  Edsger Dijkstra 
+pre22126_ch24_523-539.indd   525pre22126_ch24_523-539.indd   52513/12/13   10:02 PM13/12/13   10:02 PM

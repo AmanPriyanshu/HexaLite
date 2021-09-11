@@ -1,0 +1,128 @@
+816 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+ 
+ 
+36.10.  There is a subtle difference between restructuring and forward engineering. What is it? 
+   
+ 
+36.11.  Research the literature and/or Internet sources to ﬁ nd one or more papers that 
+ discuss case studies of mainframe to client-server reengineering. Present a summary. 
+   
+ 
+36.12.  How would you determine  P 
+ 4 
+ through  
+P 
+ 7 
+ in the cost-beneﬁ
+ t model presented in 
+ Section 36.9?  
+ 
+  
+ 
+ 
+  F
+URTHER
+ READINGS AND INFORMATION
+ SOURCES  
+ 
+It is ironic that software maintenance and support represent the most costly activities in the 
+life of an application, and yet, fewer books have been written about maintenance and support 
+
+than any other major software engineering topics. Among recent additions to the literature 
+
+are books by Reifer ( Software Maintenance Success Recipes,
+ 
+ Auerbach, 2011),  Jarzabek ( Effec-tive Software Maintenance and Evolution,
+ 
+ Auerbach, 2007), Grubb and Takang  
+(Software Main-
+tenance: Concepts and Practice, 
+ World Scientiﬁ
+ c Publishing Co., 2nd ed., 2003), and Pigoski 
+( Practical Software Maintenance,
+ 
+ Wiley, 1996). These books cover basic maintenance and sup-
+port practices and present useful management guidance. Maintenance techniques that focus 
+
+on client-server environments are discussed by Schneberger ( Client/Server Software Mainte-
+nance, 
+ McGraw-Hill, 1997). Current research in “software evolution” is presented in an anthol-
+ogy edited by Mens and Demeyer ( Software Evolution,
+ 
+ Springer, 2008). 
+ Like many hot topics in the business community, the hype surrounding business process 
+reengineering has given way to a more pragmatic view of the subject. Hammer and Champy 
+( Reengineering the Corporation 
+, HarperBusiness, revised edition, 2003) precipitated early interest with their best-selling book. Other books by Jacka and Keller ( Business Process 
+Mapping: Improving Customer Satisfaction,
+ 
+ 2nd ed., Wiley, 2009), Sharp and  
+McDermott ( Workﬂ
+ ow Modeling,
+ 
+ 2nd ed., Artech House, 2008), Andersen ( 
+Business Process Improve-
+ment Toolbox,
+ 
+ 2nd  
+ 
+ed.,   
+American Society for Quality, 2007), Smith and Fingar [ 
+Business Process Management (BPM): The Third Wave,
+ 
+ Meghan-Kiffer Press, 2003], and Harrington 
+al. ( 
+Business Process Improvement Workbook,
+ 
+ McGraw-Hill, 1997) present case studies 
+and  detailed guidelines for BPR.  Abfalter ( Software Reengineering,
+ 
+ VDM Verlag, 2008), Fong ( 
+Information Systems Reengi-neering and Integration, 
+ Springer, 2006) describes database conversion techniques, reverse 
+engineering, and forward engineering as they are applied for major information systems. 
+Nierstrasz and his colleagues ( Object Oriented Reengineering Patterns, 
+ Square Bracket As-sociates, 2009) provides a patterns-based view of how to refactor and/or reengineer OO 
+systems. Secord and his colleagues ( Modernizing Legacy Systems, 
+ Addison-Wesley, 2003), 
+Ulrich ( Legacy Systems: Transformation Strategies,
+ 
+ Prentice Hall, 2002), Valenti ( 
+Successful Software Reengineering,
+ 
+ IRM Press, 2002), and Rada ( 
+Reengineering Software: How to Reuse 
+Programming to Build New, State-of-the-Art Software,
+ 
+ Fitzroy Dearborn Publishers, 1999) 
+focus on strategies and practices for reengineering at a technical level. Miller ( Reengineer-
+ing Legacy Software Systems,
+ 
+ Digital Press, 1998) “provides a framework for keeping appli-
+cation systems synchronized with business strategies and technology changes.”  Cameron ( Reengineering Business for Success in the Internet Age, 
+ Computer Technology 
+Research, 2000) and Umar ( Application (Re)Engineering: Building Web-Based Applications 
+and Dealing with Legacies, 
+ Prentice Hall, 1997) provide worthwhile guidance for organiza-
+tions that want to transform legacy systems into a Web-based environment. Cook ( 
+Building 
+Enterprise Information Architectures: Reengineering Information Systems,
+ 
+ Prentice Hall, 1996) 
+discusses the bridge between BPR and information technology. Aiken ( 
+Data Reverse Engi-neering, 
+ McGraw-Hill, 1996) discusses how to reclaim, reorganize, and reuse organizational 
+data. Arnold ( Software Reengineering,
+ 
+ IEEE Computer Society Press, 1993) has put together 
+an excellent anthology of early papers that focus on software reengineering technologies. 
+ A wide variety of information sources on software reengineering is available on the In-ternet. An up-to-date list of World Wide Web references can be found under “software engi-
+
+neering resources” at the SEPA website:  
+www.mhhe.com/pressman
+ .  
+ 
+ 
+ pre22126_ch36_795-816.indd   816pre22126_ch36_795-816.indd   81613/12/13   6:17 PM13/12/13   6:17 PM

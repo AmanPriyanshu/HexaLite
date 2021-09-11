@@ -1,0 +1,28 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜that is impossible to achieve in many systems of systems. They are a useful checklist 
+to remind architects of things to think about in the architectural design process. 
+
+However, I think that the overhead involved in model management and the reduction-
+ist approach taken by frameworks limits their usefulness in SoS architectural design.ˇˇI have described architectural patterns for different types of system in Chapters 6, 
+17, and 21. In short, an architectural pattern is a stylized architecture that can be 
+
+recognized across a range of different systems. Architectural patterns are a useful 
+
+way of stimulating discussions about the most appropriate architecture for a system 
+and for documenting and explaining the architectures used. This section covers a 
+
+number of ﬁtypicalﬂ patterns in systems of software systems. As with all architec-
+tural patterns, real systems are usually based on more than one of these patterns.The notion of architectural patterns for systems of systems is still at an early stage of development. Kawalsky (Kawalsky et al. 2013) discusses the value of architec-
+tural patterns in understanding and supporting SoS design, with a focus on patterns 
+for command and control systems. I find that patterns are effective in illustrating 
+
+SoS organization, without the need for detailed domain knowledge.In this architectural pattern (Figure 
+20.10), there is a principal system that requires 
+data of different types. This data is available from other systems, and the principal 
+system queries these systems to get the data required. Generally, the systems that 
+
+provide data do not interact with each other. This pattern is often observed in organ-
+izational or federated systems where some governance mechanisms are in place.For example, to license a vehicle in the UK, you need to have both valid insurance and 
+a roadworthiness certificate. When you interact with the vehicle licensing system, it inter
+-
+acts with two other systems to check that these documents are valid. These systems are:1. An ﬁinsured vehiclesﬂ system, which is a federated system run by car insurance companies that maintains information about all current car insurance policies.Data feed 3Data feed 1Data feed 4Data feed 2PrincipalsystemFigure 20.10 Systems as˜data feeds 

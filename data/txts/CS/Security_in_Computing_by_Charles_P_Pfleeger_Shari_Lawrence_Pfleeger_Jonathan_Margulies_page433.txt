@@ -1,0 +1,70 @@
+ Section 6.4  Denial of Service 
+399  comes naturally to six-year-olds). The teacher becomes so overloaded with demands 
+that the only solution is to dismiss all current demands and start afresh.An attacker can try for the same overloading effect by presenting commands more 
+quickly than a server can handle them; servers often queue unmet commands during 
+
+moments of overload for service when the peak subsides, but if the commands continue 
+
+to come too quickly, the server eventually runs out of space to store the demand. Such 
+
+an attack is called an overload 
+or flood.The target of a flooding attack can be an application, such as a database manage-
+ment system; an operating system or one of its components, for example, file or print 
+
+server; or a network appliance like a router. Alternatively, the flooding attack can be 
+
+directed against a resource, such as a memory allocation table or a web page. On the 
+
+day Michael Jackson died, Google received so many queries about him that the Google 
+
+engineers thought they were under attack and took evasive measures that, ironically, 
+
+limited access to the Google news 
+
+service. A denial-of-service flood-
+
+ing attack can be termed volumet-
+ric, meaning it simply seeks to 
+saturate or exhaust the capacity of a 
+
+critical telecommunications link.Blocked AccessAs another physical analogy, consider a traffic accident that stops traffic in both direc-
+tions of a busy, two-lane road. As motorists begin to line up behind the accident, at 
+
+some point one driver concludes the right approach is to slip into the oncoming traffic 
+
+lane to get around all the stopped cars and, naturally, others immediately follow. They 
+
+get as far as the accident and have to stop. What then happens is that two lanes of traffic 
+
+build up at the point of the accident on both sides of the accident, meaning that police 
+
+and other emergency vehicles cannot get past the two solid lines of cars in both direc-
+
+tions to get to the accident. Even when the disabled cars are pushed off the road to clear 
+
+the accident, all lanes are filled with cars that cannot move because there is no room 
+
+either in front or behind. In computer security, the attacker may simply prevent a service from functioning. 
+The attacker could exploit a software vulnerability in an application and cause the appli-
+
+cation to crash. Or the attacker could interfere with the network routing mechanisms, 
+
+preventing access requests from getting to the server. Yet another approach would be 
+
+for the attacker to manipulate access control data, deleting access permissions for the 
+
+resource, or to disable the access control mechanism so that nobody could be approved 
+
+for access. In Sidebar 6-16, the attacker alleged that he had deleted the original copy of 
+
+an important database and encrypted a backup copy, which he was holding for ransom.
+Access Failure
+Either maliciously or not, hardware and software fail from time to time; of course, it 
+always seems that such nonmalicious failures occur only at critical times. Software 
+
+stops working due to a flaw, or a hardware device wears out or inexplicably stops. The 
+A flooding attack occurs from demand 
+
+in excess of capacity, from malicious or 
+
+natural causes.

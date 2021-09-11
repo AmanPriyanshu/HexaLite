@@ -1,0 +1,68 @@
+ Section 2.1  Authentication 
+51  Other Things KnownPasswords, or rather something only the user knows, are one form of strong authentica-
+tion. Passwords are easy to create and administer, inexpensive to use, and easy to under-
+
+stand. However, users too often choose passwords that are easy for them to remember, 
+
+but not coincidentally easy for others to guess. Also, users can forget passwords or tell 
+
+them to others. Passwords come from the authentication factor of something the user 
+
+knows, and unfortunately people’s brains are imperfect. 
+Consequently, several other approaches to “something the user knows” have been 
+proposed. For example, Sidebar 2-5 describes authentication approaches employing a 
+
+user’s knowledge instead of a password. However, few user knowledge authentication 
+
+techniques have been well tested and few scale up in any useful way; these approaches 
+
+are still being researched.SIDEBAR 2-4  
+Usability in the Small versus Usability in the LargeTo an application developer seeking a reasonable control, a password 
+seems to be a straightforward mechanism for protecting an asset. But when 
+
+many applications require passwords, the user’s simple job of remember-
+
+ing one or two passwords is transformed into the nightmare of keeping 
+
+track of a large number of them. Indeed, a visit to http://www.password 
+
+book.com suggests that users often have difficulty managing a collection 
+
+of passwords. The site introduces you to a password and login organizer 
+
+that is cheaply and easily purchased. In the words of the vendor, it is “The 
+
+complete password manager for the busy Web master or network adminis-
+
+trator . . . Safe and easy, books don’t crash! Now you can manage all your 
+passwords in one hardbound book.”
+Although managing one password or token for an application might 
+seem easy (we call it “usability in the small”), managing many passwords 
+
+or tokens at once becomes a daunting task (“usability in the large”). The 
+
+problem of remembering a large variety of items has been documented in 
+
+the psychology literature since the 1950s, when Miller [MIL56] pointed out 
+
+that people remember things by breaking them into memorable chunks, 
+
+whether they are digits, letters, words, or some other identifiable entity. 
+
+Miller initially documented how young adults had a memory span of seven 
+
+(plus or minus two) chunks. Subsequent research revealed that the memory 
+
+span depends on the nature of the chunk: longer chunks led to shorter 
+
+memory spans: seven for digits, six for letters, and five for words. Other 
+
+factors affect a person’s memory span, too. Cowan [COW01] suggests that 
+
+we assume a working memory span of four chunks for young adults, with 
+
+shorter spans for children and senior citizens. For these reasons, usabil-
+
+ity should inform not only the choice of appropriate password construction 
+
+(the small) but also the security architecture itself (the large).

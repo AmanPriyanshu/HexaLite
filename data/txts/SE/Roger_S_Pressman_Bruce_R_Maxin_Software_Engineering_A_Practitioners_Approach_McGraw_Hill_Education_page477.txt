@@ -1,0 +1,83 @@
+CHAPTER 20  
+REVIEW TECHNIQUES 447Assume further that all unit testing will ﬁ nd 30 percent of all errors, integration will ﬁ
+ nd 
+percent of the remaining errors, and validation tests will ﬁ
+ nd 50 percent of the remaining 
+errors. No reviews are conducted. How many errors will be released to the ﬁ eld. 
+   
+ 
+20.4  Reconsider the situation described in Problem 20.3, but now assume that require-ments, design, and code reviews are conducted and are 60 percent effective in uncovering 
+all errors at that step. How many errors will be released to the ﬁ eld? 
+   
+ 
+20.5  Reconsider the situation described in Problems 20.3 and 20.4. If each of the errors re-leased to the ﬁ eld costs $4,800 to ﬁ
+ nd and correct and each error found in review costs $240 
+to ﬁ nd and correct, how much money is saved by conducting reviews? 
+   
+ 
+20.6  Describe the meaning of  Figure 20.4  in your own words.    
+ 
+20.7  Which of the reference model characteristics do you think has the strongest bearing on review formality? Explain why. 
+   
+ 
+20.8  Can you think of a few instances in which a desk check might create problems rather than provide beneﬁ ts? 
+   
+ 
+20.9  A formal technical review is effective only if everyone has prepared in advance. How do you recognize a review participant who has not prepared? What do you do if you’re the 
+review leader?    
+ 
+20.10  Considering all of the review guidelines presented in Section 20.6.3, which do you think is most important and why?   
+ 
+ 
+ 
+  F
+URTHER
+ READINGS AND INFORMATION
+ SOURCES  
+ 
+Although there have been relatively few new books written on software reviews over the past decade, recent additions to the literature include books by McCann ( Cost-Beneﬁ t Anal-
+ysis of Quality Practices, 
+ IEEE Press, 2012), Wong ( 
+Modern Software Review,
+ 
+ IRM Press, 2006), 
+and Young ( 
+Project Requirements: A Guide to Best Practices,
+ 
+ Management Concepts, 2006). 
+Older contributions that provide worthwhile guidance include: Radice ( High Quality, Low 
+Cost Software Inspections,
+ 
+ Paradoxicon Publishers, 2002), Wiegers ( 
+Peer Reviews in Soft-ware: A Practical Guide
+ 
+, Addison-Wesley, 2001) and Gilb and Graham ( 
+Software Inspection,
+ 
+ Addison-Wesley, 1993). Freedman and Weinberg ( 
+Handbook of Walkthroughs, Inspections 
+and Technical Reviews,
+ 
+ Dorset House, 1990) remains a classic text and continues to provide 
+worthwhile information about this important subject.   
+ 
+Books by Rubin ( Essential Scrum: A Practical Guide to the Most Popular Agile Process,
+ 
+ Addison-Wesley, 2012) and Adkins ( 
+Coaching Agile Teams: A Companions for ScrumMas-
+ters, Agile Coaches, and Project Managers in Transition,
+ 
+ Addison-Wesley, 2010) describe the 
+roles of reviews in agile software processes.   
+ 
+A wide variety of information sources on software reviews is available on the Internet. An up-to-date list of World Wide Web references can be found under “software engineering 
+
+resources” at the SEPA website:  
+ 
+www.mhhe.com/pressman 
+ 
+.  
+ 
+ 
+ 
+ pre22126_ch20_431-447.indd   447pre22126_ch20_431-447.indd   44713/12/13   10:01 PM13/12/13   10:01 PM

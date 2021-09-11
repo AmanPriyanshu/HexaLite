@@ -1,0 +1,72 @@
+ Section 4.4  Email Attacks 
+275  phishing email advises the recipient of an error, and the message includes a link to click 
+to enter data about an account. The link, of, course, is not genuine; its only purpose is to 
+
+solicit account names, numbers, and authenticators.Protecting Against Email Attacks
+Email attacks are getting sophisticated. In the examples shown in this chapter, errors in 
+
+grammar and poor layout would raise a user’s skepticism. But over time the spam artists 
+
+have learned the importance of producing an authentic-looking piece of bait.
+SIDEBAR 4-11 Spear Phishing Nets Big Phish
+In March 2011 security firm RSA announced the compromise of the secu-
+rity of its SecurID authentication tokens (described in Chapter 2). Accord-
+
+ing to a company announcement, an unknown party infiltrated servers and 
+
+obtained company secrets, including “information . . . specifically related to 
+RSA’s SecurID two-factor authentication products.” The company revealed 
+
+that two spear phishing emails with subject line “2011 Recruitment Plan” 
+
+were sent to a number of employees. One employee opened the email 
+
+as well as an attached Excel spreadsheet, “2011 Recruitment plan.xls” 
+
+infected with a previously unknown vulnerability. The harmful spreadsheet 
+
+then installed a backdoor that connected the employee’s computer—inside 
+
+the RSA corporate network—to a remote server.
+Earlier, according to a report from 
+Agence France Presse
+ (18 Oct 
+2010), South Korean officials were duped into downloading malware that 
+
+sent sensitive defense documents to a foreign destination, believed to 
+
+be Chinese. The officials received email messages appearing to be from 
+
+Korean diplomats, presidential aides, and other officials; the messages 
+
+appeared to have come from the two main Korean portals, but the underly-
+
+ing IP addresses were registered in China.
+The email messages contained attachments that were titled as and 
+seemed to be important documents, such as plans for a dignitary’s visit 
+
+or an analysis of the North Korean economy. When the recipient clicked 
+
+to open the attachment, that action allowed a virus to infect the recipient’s 
+
+computer, which in turn led to the transfer of the sensitive documents.
+Before the G20 summit (meeting of 20 industrialized nations’ diplomats) 
+in September 2012, attackers were able to access several diplomats from 
+
+unspecified European nations. Tainted emails with attachments with names 
+
+such as US_military_options_in_Syria were used to entice the recipients to 
+
+open the files that then infected computers. The attackers were able to collect 
+
+data from these computers in advance of and during the summit meeting.
+In October 2012 the White House was a victim of a spear phishing 
+attack that compromised an unclassified server. And in July 2013 White 
+
+House staffers were again fooled by phishing email, this time designed to 
+
+look like legitimate BBC or CNN news items. When recipients opened the 
+
+email they were redirected to authentic-looking Gmail or Twitter login pages, 
+
+from which the attackers were able to extract the staffers’ login credentials.

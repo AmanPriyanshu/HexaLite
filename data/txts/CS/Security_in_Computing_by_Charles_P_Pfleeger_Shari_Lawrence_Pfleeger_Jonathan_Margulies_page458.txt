@@ -1,0 +1,47 @@
+424 Chapter 6  
+Networksattack tools first appeared in mid-1999. Some of the original DDoS tools include Tribal 
+Flood Network (TFN), Trin00, and TFN2K (Tribal Flood Network, year 2000 edition). 
+
+As new vulnerabilities that allow Trojan horses to be planted are discovered and as new 
+
+denial-of-service attacks are found, new combination tools appear. For more details on 
+
+this topic, see [HAN00].According to the U.S. Computer Emergency Response Team (CERT) [HOU01b], 
+scanning to find a vulnerable host (potential zombie) is now being included in combina-
+
+tion tools; a single tool now identifies its zombie, installs the Trojan horse, and activates 
+
+the zombie to wait for an attack signal. Symantec [SYM10] confirms that exploit packs 
+
+now include code to turn a compromised system into a zombie. Recent target (zombie) 
+
+selection has been largely random, meaning that attackers do not seem to care which 
+
+zombies they infect. This revelation is actually bad news because it means that no orga-
+
+nization or accessible host is safe from attack. Perhaps because they are so numerous 
+
+and because their users are assumed to be less knowledgeable about computer man-
+
+agement and protection, Windows-based machines are becoming more popular targets 
+
+for attack than other systems. Most 
+frightening is the finding we have 
+
+already presented that the time is 
+
+shrinking between discovery of a 
+
+vulnerability and its widespread 
+
+exploitation.
+FIGURE 6-34 Distributed Denial-of-Service Attack
+1.  Attacker plants
+     Trojan horse in
+
+     zombies2.  Zombies attack     victim simultaneously
+     on commandVictim
+Compromised zombies to augment an 
+attack are located by scanning random 
+
+computers for unpatched vulnerabilities.

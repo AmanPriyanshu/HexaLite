@@ -1,0 +1,65 @@
+342 PART TWO  
+MODELING   
+ 6.   
+Reﬁ ne interface layout and storyboards using input from aesthetic design.
+ 
+ In most cases, you’ll be responsible for rough layout and storyboarding, 
+but the aesthetic look and feel for a major commercial website is often 
+ developed by graphic designers, rather than technical professionals.     
+ 7.   
+Identify user interface objects that are required to implement the inter-
+face. 
+ This task may require a search through an existing object library to ﬁ nd those reusable objects (classes) that are appropriate for the interface. 
+In addition, any custom classes are speciﬁ ed at this time. 
+    
+ 8.   
+Develop a procedural representation of the user’s interaction with the 
+interface. 
+ This optional task uses UML sequence diagrams and/or activity diagrams (Appendix 1) to depict the ﬂ ow of activities (and decisions) that 
+occur as the user interacts with the WebApp. 
+    
+ 9.   
+Develop a behavioral representation of the interface. 
+ This optional task makes use of UML state diagrams (Appendix 1) to represent state tran-
+sitions and the events that cause them. Control mechanisms (i.e., the 
+objects and actions available to the user to alter the state of an app) are 
+deﬁ ned. 
+    
+ 10.   
+Describe the interface layout for each state. 
+ Using design information de-veloped in Tasks 2 and 5, associate a speciﬁ
+ c layout or screen image with 
+each WebApp state described in Task 8. 
+    
+ 11.   
+Reﬁ ne and review the interface design model.
+ 
+ Review of the interface should focus on usability. 
+ 
+ 
+  It is important to note that the ﬁ nal task set you choose should be adapted to 
+the special requirements of the application that is to be built.   
+ 
+ 
+ 
+ 15.6 D
+ESIGN EVALUATION
+  
+ 
+Once you create an operational user interface prototype, it must be evaluated to determine whether it meets the needs of the user. Evaluation can span a formal-
+
+ity spectrum that ranges from an informal “test drive,” in which a user provides 
+impromptu feedback to a formally designed study that uses statistical methods 
+for the evaluation of questionnaires completed by a population of end users.  The user interface evaluation cycle takes the form shown in  Figure 15.4 . After the design model has been completed, a ﬁ rst-level prototype is created. The pro-
+totype is evaluated by the user, 
+ 8 
+ 
+ who provides you with direct comments about 
+the efﬁ cacy of the interface. In addition, if formal evaluation techniques are used 
+(e.g., questionnaires, rating sheets), you can extract information from these data   
+8  It is important to note that experts in ergonomics and interface design may also conduct re-
+views of the interface. These reviews are called  heuristic evaluations 
+ or  
+cognitive walkthroughs
+ 
+. pre22126_ch15_317-346.indd   342pre22126_ch15_317-346.indd   34213/12/13   10:01 PM13/12/13   10:01 PM

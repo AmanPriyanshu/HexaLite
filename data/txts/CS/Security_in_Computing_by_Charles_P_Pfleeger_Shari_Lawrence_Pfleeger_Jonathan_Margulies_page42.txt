@@ -1,0 +1,32 @@
+8 Chapter 1  
+IntroductionThe C-I-A triad can be viewed from a different perspective: the nature of the harm 
+caused to assets. Harm can also be characterized by four acts: interception
+, interrup-tion, modification
+, and fabrication. These four acts are depicted in Figure 1-5. From 
+this point of view, confidentiality can suffer if someone intercepts data, availability is 
+
+lost if someone or something interrupts a flow of data or access to a computer, and 
+
+integrity can fail if someone or something modifies data or fabricates false data. Think-
+
+ing of these four kinds of acts can help you determine what threats might exist against 
+
+the computers you are trying to protect.To analyze harm, we next refine the C-I-A triad, looking more closely at each of its 
+elements.ConfidentialitySome things obviously need confidentiality protection. For example, students’ grades, 
+
+financial transactions, medical records, and tax returns are sensitive. A proud student 
+
+may run out of a classroom screaming “I got an A!” but the student should be the one 
+
+to choose whether to reveal that grade to others. Other things, such as diplomatic and 
+
+military secrets, companies’ marketing and product development plans, and educators’ 
+
+tests, also must be carefully controlled. Sometimes, however, it is not so obvious that 
+
+something is sensitive. For example, a military food order may seem like innocuous 
+
+information, but a sudden increase in the order could be a sign of incipient engagement 
+
+in conflict. Purchases of food, hourly changes in location, and access to books are not ModificationFabrication
+InterruptionInterceptionFIGURE 1-5 Four Acts to Cause Security Harm

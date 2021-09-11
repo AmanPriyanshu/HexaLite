@@ -1,0 +1,64 @@
+388 Chapter 6  
+NetworksFailed Countermeasure: WEP (Wired Equivalent Privacy)
+At the same time the IEEE standards committee was designing the protocols to enable 
+wireless digital communication, they realized they also needed some mechanism to pro-
+
+tect the security of those communications, and so they included a countermeasure in 
+
+the initial protocol design. Wired equivalent privacy
+, or WEP, was intended as a way 
+for wireless communication to provide privacy equivalent to conventional wire com-
+
+munications. Physical wires are easy to protect because they can be secured physically, 
+
+and they are harder to intercept or tap without detection. To make wireless communi-
+
+cation marketable, the protocol designers thought they needed to offer confidentiality 
+
+comparable to that of wired communication. The result was WEP, which was part of the 
+
+original 802.11 standard when it was published in 1997.
+Weaknesses in WEP were identified as early as 2001, and the weaknesses are now 
+so severe that a WEP connection can be cracked with available software in a few 
+
+minutes [BOR01].The original 802.11 wireless standard was an attempt to standardize the emerging 
+field of wireless communications, and so it contains significant detail on transmission, 
+
+frequencies, device-to-device interaction, and operation.
+WEP Security Weaknesses
+The WEP protocol was meant to provide users immunity to eavesdropping and imper-
+sonation attacks, which, at the time, were not a serious threat. (That reasoning is similar 
+to saying protection against vehicle accidents was not a significant concern when the 
+
+automobile was invented, because few other people had cars. As automobile usage has 
+
+increased, manufacturers have added a host of security features, such as air bags, seat 
+
+belts, and reinforced doors. WiFi protocols have been slower to adapt.)
+WEP security involved some relatively simple techniques to respond to what were 
+expected to be unsophisticated, infrequent attacks. WEP uses an encryption key shared 
+
+between the client and the access point. To authenticate a user, the access point sends a 
+
+random number to the client, which the client encrypts using the shared key and returns 
+
+to the access point. From that point on, the client and access point are authenticated and 
+can communicate using their shared encryption key. Several problems exist with this 
+
+seemingly simple approach, which we now describe.
+Weak Encryption Key 
+First, the WEP standard allows either a 64- or 128-bit encryption key, but each key 
+
+begins with a 24-bit initialization vector (IV), which has the effect of reducing the key 
+
+length to 40 or 104 bits. (The reason for these key lengths was that the U.S. government 
+
+mandated that cryptographic software for export be limited to algorithms that used a 
+
+key no more than 40 bits long. The restriction has since been lifted.)
+The user enters the key in any convenient form, usually in hexadecimal or as an 
+alphanumeric string that is converted to a number. Entering 64 or 128 bits in hex 
+
+requires choosing and then typing 16 or 32 symbols correctly for the client and access 
+point. Not surprisingly, hex strings like C0DEC0DE . . . (that is a zero between C and 
+D) are common. Passphrases are vulnerable to a dictionary attack.

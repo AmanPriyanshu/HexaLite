@@ -1,0 +1,44 @@
+˜˜˚˛˝˜˜˜˜˜˜
+Quality plans, which are developed as part of the general project planning process, 
+differ in detail depending on the size and type of system being developed. However, when 
+writing quality plans, you should try to keep them as short as possible. If the document is 
+
+too long, people will not read it, so defeating the purpose of producing the quality plan.Traditional quality management is a formal process that relies on maintaining exten-sive documentation about testing and system validation and on how processes have 
+
+been followed. In this respect, it is diametrically opposed to agile development, where 
+
+the aim is to spend as little time as possible in writing documents and formalizing how 
+
+the development work should be done. QM techniques have therefore had to evolve 
+
+when agile methods are used. I discuss QM and agile development in Section 24.4.
+The manufacturing industry established the fundamentals of quality management in 
+a drive to improve the quality of the products that were being made. As part of this 
+effort, the industry developed a definition of quality that was based on conformance 
+with a detailed product specification. The underlying assumption was that products 
+could be completely specified and procedures could be established that could check 
+a manufactured product against its specification. Of course, products will never 
+
+exactly meet a specification, so some tolerance was allowed. If the product was 
+
+ﬁalmost right,ﬂ it was classed as acceptable.Software quality is not directly comparable with quality in manufacturing. The 
+idea of tolerances is applicable in analog systems but does not apply to software. 
+
+Furthermore, it is often impossible to come to an objective conclusion about whether 
+or not a software system meets its specification:1.
+ It is difficult to write complete and unambiguous software requirements. 
+Software developers and customers may interpret the requirements in different 
+ways, and it may be impossible to reach agreement on whether or not software 
+conforms to its specification.2.
+ Specifications usually integrate requirements from several classes of stake-
+holder. These requirements are inevitably a compromise and may not include 
+
+the requirements of all stakeholder groups. The excluded stakeholders may 
+
+therefore perceive the system as a poor-quality system, even though it imple-ments the agreed requirements.3. It is impossible to measure certain quality characteristics (e.g., maintainability) 
+
+directly, and so they cannot be specified in an unambiguous way. I discuss the 
+difficulties of measurement in Section 24.4.Because of these problems, the assessment of software quality is a subjective 
+process. The quality management team uses their judgment to decide if an acceptable 
+
+level of quality has been achieved. They decide whether or not the software is fit for 

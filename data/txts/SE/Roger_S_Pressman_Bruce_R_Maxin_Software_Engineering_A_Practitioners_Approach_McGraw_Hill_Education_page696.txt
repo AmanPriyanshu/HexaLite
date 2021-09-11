@@ -1,0 +1,84 @@
+666 PART 
+THREE  QUALITY MANAGEMENT       
+Module independence: D2  
+5 1 2  (   
+ S 
+2 __  S 
+1   
+)  
+
+        
+Modules not dependent on prior processing:
+   
+D 3 5 1 2  (   
+ S 
+3 __  S 
+1    
+)  
+       
+Database size:   
+D 
+4 5 1 2  (   
+ S 
+5 __  S 
+4   
+)  
+
+        
+Database compartmentalization:   
+D 
+5 5 1 2  (    
+S 
+6 __  S 
+4   
+)  
+
+        
+Module entrance/exit characteristic:   
+D 
+6 5 1 2  (   
+ S 
+7 __  S 
+1   
+)  
+
+  
+  With these intermediate values determined, the DSQI is computed in the follow-
+
+ing manner:DSQI 5 S  w  
+
+i  
+D  
+
+i  
+ (30.5) where  i  
+5 1 to 6,  w  
+
+i  is the relative weighting of the importance of each of the in-termediate values, and S  wi  
+5 1 (if all  Di  are weighted equally, then  
+w  
+i  
+5 0.167).  The value of DSQI for past designs can be determined and compared to a design that is currently under development. If the DSQI is signiﬁ cantly lower 
+than average, further design work and review are indicated. Similarly, if major 
+
+changes are to be made to an existing design, the effect of those changes on DSQI 
+can be calculated.     
+30.3.2   Metrics for Object-Oriented Design  There is much about object-oriented design that is subjective—an experienced 
+designer “knows” how to characterize an OO system so that it will effectively im-
+plement customer requirements. But, as an OO design model grows in size and 
+complexity, a more objective view of the characteristics of the design can beneﬁ
+ t both the experienced designer (who gains additional insight) and the novice (who 
+obtains an indication of quality that would otherwise be unavailable).  In a detailed treatment of software metrics for OO systems, Whitmire [Whi97] describes nine distinct and measurable characteristics of an OO design.  Size  is deﬁ ned by taking a static count of OO entities such as classes or operations, 
+coupled with the depth of an inheritance tree.  Complexity  is deﬁ ned in terms of 
+structural characteristics by examining how classes of an OO design are inter-
+
+related to one another.  
+Coupling  is measured by counting physical connections between elements of the OO design (e.g., the number of collaborations between 
+classes or the number of messages passed between objects).  Sufﬁ ciency  is “the .” 
+
+[Whi97].  Completeness  determines whether a class delivers the set of properties that fully reﬂ ect the needs of the problem domain.  
+Cohesion  is determined be ex-amining whether all operations work together to achieve a single, well-deﬁ ned purpose.  Primitiveness  is the degree to which an operation is atomic—that is, the operation cannot be constructed out of a sequence of other operations contained 
+within a class. Similarity determines the degree to which two or more classes 
+are similar in terms of their structure, function, behavior, or purpose. Volatility 
+
+measures the likelihood that a change will occur. 

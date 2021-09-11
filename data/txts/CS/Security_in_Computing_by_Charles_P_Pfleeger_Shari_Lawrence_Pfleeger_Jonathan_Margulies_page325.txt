@@ -1,0 +1,69 @@
+ Section 5.1  Security in Operating Systems 
+291  But, as we depict in the previous figures, the operating system is not a monolith, 
+nor is it plopped straight into memory as one object. An operating system is loaded 
+
+in stages, as shown in Figure 5-5. The process starts with basic I/O support for access 
+
+to the boot device, the hardware device from which the next stages are loaded. Next 
+
+the operating system loads something called a bootstrap loader, software to fetch and 
+
+install the next pieces of the operating system, pulling itself in by its bootstraps, hence 
+
+the name. The loader instantiates a primitive kernel, which builds support for low-level 
+
+functions of the operating system, such as support for synchronization, interprocess 
+
+communication, access control and security, and process dispatching. Those functions 
+
+in turn help develop advanced functions, such as a file system, directory structure, and 
+
+third-party add-ons to the operating system. At the end, support for users, such as a 
+
+graphical user interface, is activated. 
+The complexity of timing, coordination, and hand-offs in operating system design 
+and activation is enormous. Further complicating this situation is the fact that operating 
+
+systems and add-ons change all the time. A flaw in one module causes its replacement, 
+
+a new way to implement a function leads to new code, and support for different devices 
+
+requires updated software. Compatibility and consistency are especially important for 
+
+operating system functions.Next, we consider some of the tools and techniques that operating systems use to 
+enforce protection.hardware available to run with other vendors’ operating systems (thereby 
+opening its specifications to competitors). This relaxation encouraged more 
+
+openness in operating system selection: Users were finally able to buy 
+
+hardware from one manufacturer and go elsewhere for some or all of the 
+
+operating system. Second, the Unix operating system, begun in the early 
+1970s, was designed to be largely independent of the hardware on which 
+
+it ran. A small kernel had to be recoded for each different kind of hardware 
+
+platform, but the bulk of the operating system, running on top of that kernel, 
+
+could be ported without change.
+These two situations together meant that the operating system could no longer depend on hardware support for all its critical functionality. Some 
+
+machines might have a particular nature of protection that other hardware 
+
+lacked. So, although an operating system might still be structured to reach 
+
+several states, the underlying hardware might be able to enforce separa-
+
+tion between only two of those states, with the remainder being enforced 
+
+in software.
+Today three of the most prevalent families of operating systems—the 
+Windows series, Unix, and Linux—run on many different kinds of hard-
+
+ware. (Only Apple’s Mac OS is strongly integrated with its hardware base.) 
+
+The default expectation is one level of hardware-enforced separation (two 
+
+states). This situation means that an attacker is only one step away from 
+
+complete system compromise through a “get_root” exploit.

@@ -1,0 +1,76 @@
+308 PART TWO  
+MODELINGrecognize procedural elements of a module, rather than reading the design or code line by line. Understanding is enhanced when readily recognizable logical 
+patterns are encountered.  Any program, regardless of application area or technical complexity, can be 
+designed and implemented using only the three structured constructs. It should 
+be noted, however, that dogmatic use of only these constructs can sometimes 
+
+cause practical difﬁ culties. 
+ 
+ 
+ 
+ 
+ 14.7 C
+OMPONENT-BASED DEVELOPMENT  
+ 
+In the software engineering context, reuse is an idea both old and new. Pro-
+grammers have reused ideas, abstractions, and processes since the earliest 
+days of computing, but the early approach to reuse was ad hoc. Today, complex, 
+
+high-quality computer-based systems must be built in very short time periods 
+
+and demand a more organized approach to reuse.   
+Component-based software engineering
+ 
+ (CBSE) is a process that emphasizes 
+the design and construction of computer-based systems using reusable software 
+
+“components.” Considering this description, a number of questions arise. Is it 
+possible to construct complex systems by assembling them from a catalog of reus-
+able software components? Can this be accomplished in a cost- and time-effective 
+manner? Can appropriate incentives be established to encourage software engi-
+neers to reuse rather than reinvent? Is management willing to incur the added 
+expense associated with creating reusable software components? Can the library 
+of components necessary to accomplish reuse be created in a way that makes it 
+accessible to those who need it? Can existing components be found by those who 
+need them? Increasingly, the answer to each of these questions is yes. 
+   
+14.7.1 Domain Engineering 
+ 
+The intent of  domain engineering 
+ is to identify, construct, catalog, and dissemi-
+nate a set of software components that have applicability to existing and future 
+software in a particular application domain.  8 
+ 
+ The overall goal is to establish 
+mechanisms that enable software engineers to share these components—to 
+reuse them—during work on new and existing systems. Domain engineering in-
+cludes three major activities—analysis, construction, and dissemination.    
+ 
+   
+The overall approach to  domain analysis 
+ is often characterized within the 
+context of object-oriented software engineering. The steps in the process are: 
+(1) deﬁ ne the domain to be investigated, (2) categorize the items extracted from the 
+domain, (3) collect a representative sample of applications in the domain, (4) an-
+alyze each application in the sample and deﬁ develop a 
+ 
+ 
+8  In Chapter 13 we referred to architectural genres that identify speciﬁ
+ c application domains. 
+ uote:   “Domain 
+engineering is 
+about ﬁ nding 
+
+commonalities 
+among systems 
+to identify 
+components that 
+can be applied 
+to many systems 
+and to identify 
+program families 
+that are positioned 
+to take fullest 
+advantage of those 
+components.”   Paul Clements 
+pre22126_ch14_285-316.indd   308pre22126_ch14_285-316.indd   30813/12/13   6:12 PM13/12/13   6:12 PM

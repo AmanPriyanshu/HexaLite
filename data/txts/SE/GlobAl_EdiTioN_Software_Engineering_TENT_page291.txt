@@ -1,0 +1,27 @@
+˜˜˚˛˝˜˜˜
+˜˜
+fewer failures. Consequently, more and more tests are needed to try and assess how many problems remain in the software. Testing is a very expensive process, so this 
+can significantly increase the cost of high-dependability systems.
+In a computer system, the software and the hardware are interdependent. Without 
+
+hardware, a software system is an abstraction, which is simply a representation of 
+some human knowledge and ideas. Without software, hardware is a set of inert elec-
+tronic devices. However, if you put them together to form a system, you create a 
+
+machine that can carry out complex computations and deliver the results of these 
+
+computations to its environment.This illustrates one of the fundamental characteristics of a systemŠit is more than 
+the sum of its parts. Systems have properties that become apparent only when their 
+components are integrated and operate together. Software systems are not isolated 
+systems but are part of more extensive systems that have a human, social, or organi-
+zational purpose. Therefore software engineering is not an isolated activity but is an 
+intrinsic part of systems engineering (Chapter 19).For example, the wilderness weather system software controls the instruments in a weather station. It communicates with other software systems and is a part of wider 
+national and international weather forecasting systems. As well as hardware and 
+
+software, these systems include processes for forecasting the weather and people 
+
+who operate the system and analyze its outputs. The system also includes the organ-
+izations that depend on the system to help them provide weather forecasts to indi-
+viduals, government and industry.CostLow
+MediumHighVery
+highUltra-highDependabilityFigure 10.2 Cost/dependability curve 

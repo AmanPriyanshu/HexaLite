@@ -1,0 +1,51 @@
+680 Chapter 10  
+Management and Incidentschoose to take their business to a competitor. For some time-critical services involving 
+human lives, such as a hospital’s life-support systems or a space station’s guidance sys-
+
+tems, the costs of failure are infinitely high.
+Thus, we must analyze the ramifications of a computer security failure. The follow-
+ing questions can prompt us to think about issues of explicit and hidden cost related to 
+
+security. The answers may not produce precise cost figures, but they will help identify 
+
+the sources of various types of costs.
+• What are the legal obligations for preserving the confidentiality or integrity of 
+a given data item? 
+• What business requirements and agreements cover the situation? Does the orga-
+nization have to pay a penalty if it cannot provide a service?
+• Could release of a data item cause harm to a person or organization? Would 
+there be the possibility of legal action if harm were done? 
+• Could unauthorized access to a data item cause the loss of future business 
+opportunity? Might it give a competitor an unfair advantage? What would be the 
+
+estimated loss in revenue? 
+• What is the psychological effect of lack of computer service? Embarrassment? 
+Loss of credibility? Loss of business? How many customers would be affected? 
+
+What is their value as customers? 
+• What is the value of access to data or programs? Could this computation be 
+deferred? Could this computation be performed elsewhere? How much would it 
+
+cost to have a third party do the computing elsewhere? 
+• What is the value to someone else of having access to data or programs? How 
+much would a competitor be willing to pay for access? 
+• What other problems would arise from loss of data? Could the data be replaced 
+or reconstructed? With what amount of work? 
+These are not easy costs to evaluate. Nevertheless, they are needed to develop a thor-
+ough understanding of the risks. Furthermore, the vulnerabilities in computer security 
+are often considerably higher than managers expect. Realistic estimates of potential harm 
+
+can raise concern and suggest places in which attention to security is especially needed.Step 5: Survey and Select New Controls
+By this point in our risk analysis, we understand the system’s vulnerabilities and the 
+likelihood of exploitation. We turn next to an analysis of the controls to see which ones 
+
+address the risks we have identified. We want to match each vulnerability with at least 
+
+one appropriate security technique. Once we do that, we can use our expected loss esti-
+
+mates to help us decide which controls, alone or in concert, are the most cost effective 
+
+for a given situation. 
+Choosing ControlsIn this analysis controls can overlap, as for example, when a human guard and a locked 
+
+door both protect against unauthorized access. Neither of these is redundant, because 

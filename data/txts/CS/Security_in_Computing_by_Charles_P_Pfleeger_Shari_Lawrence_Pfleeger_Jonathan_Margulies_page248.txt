@@ -1,0 +1,65 @@
+214 Chapter 3  
+Programs and ProgrammingEach of the types of tests listed here can be performed from two perspectives: black 
+box and clear box (sometimes called white box). Black-box testing treats a system or 
+its components as black boxes; testers cannot “see inside” the system, so they apply 
+
+particular inputs and verify that they get the expected output. 
+Clear-box testing
+ allows 
+visibility. Here, testers can examine the design and code directly, generating test cases 
+
+based on the code’s actual construction. Thus, clear-box testing reveals that component 
+
+X uses CASE statements and can look for instances in which the input causes control to 
+drop through to an unexpected line. Black-box testing must rely more on the required 
+
+inputs and outputs because the actual code is not available for scrutiny.
+James Whittaker in his testing blog lists seven key ingredients for testing (http://
+googletesting.blogspot.com/2010/08/ingredients-list-for-testing-part-one.html). We 
+
+summarize his posting here:1. Product expertise
+. The tester needs to understand the requirements and func-
+tionality of the object being tested. More importantly, the tester should have 
+
+sufficient familiarity with the product to be able to predict what it cannot do and 
+
+be able to stress it in all its configurations.
+2. Coverage
+. Testing must be complete, in that no component should be ignored, 
+no matter how small or insignificant.
+3. Risk analysis. Testing can never cover everything. Thus, wise testing, that is, 
+to spend testing resources wisely and effectively, is necessary. A risk analysis 
+
+answers the questions what are the most critical pieces and what can go seri-
+
+ously wrong? From this the priority for testing becomes clearer.
+4. Domain expertise
+. A tester must understand the product being tested. Trivially, 
+someone cannot effectively test a Fahrenheit-to-centigrade converter without 
+
+understanding those two temperature scales.
+5. Common vocabulary
+. There is little common vocabulary for testing; even terms 
+like black-box testing are subject to some interpretation. More importantly, 
+Regression testing to catch such a simple programming error would 
+require setting up a complicated test case. Programmers are often pressed 
+
+during maintenance to complete fixes rapidly, so there is not time for thor-
+
+ough testing, which could be how this flaw became part of the standard 
+
+distribution of the operating system.The flaw is small and easy to spot when you know to look for 
+it, although it is line 632 of a 1970-line file, where it would stand out 
+
+less than in the fragment we reproduce here. The error affected mobile 
+
+iPhones and iPads, as well as desktop Macintosh computers. The 
+
+patches released by Apple indicate the error has been embedded in 
+
+production code for some time. For more details on the flaw, see Paul 
+
+Ducklin’s blog posting at http://nakedsecurity.sophos.com/2014/02/24/
+
+anatomy-of-a-goto-fail-apples-ssl-bug-explained-plus-an-unofficial-patch/.
+SIDEBAR 3-12 Continued

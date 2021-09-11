@@ -1,0 +1,78 @@
+CHAPTER 33  
+ESTIMATION FOR SOFTWARE PROJECTS
+ 735 
+Putnam and Myers [Put92] suggest that the results of each of these sizing approaches be combined statistically to create a  three-point
+ 
+ or  
+expected-value 
+ estimate. This is accomplished by developing optimistic (low), most likely, and 
+
+pessimistic (high) values for size and combining them using Equation (33.1), de-
+scribed in Section 33.6.2.   
+ 
+ 
+33.6.2   
+Problem-Based Estimation 
+ 
+In Chapter 32, lines of code and function points were described as measures from which productivity metrics can be computed. LOC and FP data are used in 
+two ways during software project estimation: (1) as estimation variables to “size” 
+each element of the software and (2) as baseline metrics collected from past proj-
+ects and used in conjunction with estimation variables to develop cost and effort 
+projections.   
+ 
+ 
+ 
+ 
+LOC and FP estimation are distinct estimation techniques. Yet both have a 
+number of characteristics in common. You begin with a bounded statement of 
+
+software scope and from this statement attempt to decompose the statement of 
+scope into problem functions that can each be estimated individually. LOC or FP 
+
+(the estimation variable) is then estimated for each function. Alternatively, you 
+
+may choose another component for sizing, such as classes or objects, changes, or 
+business processes affected.   
+ 
+ 
+ 
+ 
+Baseline productivity metrics (e.g., LOC/pm or FP/pm)  6 
+ 
+ are then applied to 
+the appropriate estimation variable, and cost or effort for the function is derived. 
+Function estimates are combined to produce an overall estimate for the entire 
+project.  
+ 
+  It is important to note, however, that there is often substantial scatter in pro-
+ductivity metrics for an organization, making the use of a single-baseline pro-
+ductivity metric suspect. In general, LOC/pm or FP/pm averages should be 
+computed by project domain. That is, projects should be grouped by team size, 
+application area, complexity, and other relevant parameters. Local domain aver-
+
+ages should then be computed. When a new project is estimated, it should ﬁ rst be 
+allocated to a domain, and then the appropriate domain average for productivity 
+should be used in generating the estimate.  The LOC and FP estimation techniques differ in the level of detail required for decomposition and the target of the partitioning. When LOC is used as the 
+estimation variable, decomposition is absolutely essential and is often taken to 
+considerable levels of detail. The greater the degree of partitioning, the more 
+likely reasonably accurate estimates of LOC can be developed.  For FP estimates, decomposition works differently. Rather than focusing on 
+function, each of the information domain characteristics—inputs, outputs, data 
+ﬁ les, inquiries, and external interfaces—as well as the 14 complexity adjustment 
+ What do 
+LOC- and FP-based estimation 
+have in common? ?   When collecting 
+
+productivity metrics 
+for projects, be 
+sure to establish a 
+taxonomy of project 
+types. This will enable 
+you to compute 
+domain-speciﬁ c 
+
+averages, making 
+estimation more 
+accurate.   
+6  The acronym  
+pm 
+ means person-month of effort. pre22126_ch33_727-753.indd   735pre22126_ch33_727-753.indd   73513/12/13   6:17 PM13/12/13   6:17 PM

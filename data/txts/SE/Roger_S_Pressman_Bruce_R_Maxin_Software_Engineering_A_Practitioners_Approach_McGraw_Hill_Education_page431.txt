@@ -1,0 +1,130 @@
+CHAPTER 18  
+MOBILEAPP DESIGN 401 
+Early user interface prototypes for MobileApps can be created on paper, using 
+sketches or a combination of index cards and/or post-it notes to emulate import-
+ant interaction mechanisms. The key is to allow all interaction mechanisms to 
+be assessed, all usage contexts to be examined, and all user interaction mech-
+anisms to be speciﬁ ed. In addition, the use of interaction widgets and overall 
+screen placement and location can also be emulated. These early rough paper 
+prototypes can assist in uncovering errors, inconsistencies, and omissions before 
+targeted mobile devices come into play. Later prototypes may then be created to 
+
+run on targeted mobile devices once the layout and placement issues have been 
+resolved.   
+MobileApp Design Mistakes  
+ 
+Joh Koester [Koe12] posts several examples of MobileApp design practices that should 
+  
+ 
+ 
+•   
+Kitchen Sink 
+. Avoid adding too many features to 
+the app and too many widgets on the screen. Simple 
+is understandable. Simple is marketable.   
+ 
+ 
+•   
+Inconsistency 
+. To avoid this, set standards for page 
+navigation, menu use, buttons, tabs, and other user-
+
+interface elements. Stick to a uniform look and feel. 
+  
+ 
+ 
+•   
+Overdesigning. 
+ Be ruthless when designing a MobileApp. Remove unnecessary elements and 
+
+wasteful graphics. Do not be tempted to add 
+elements just because you think you should.   
+ 
+ 
+•   
+Lack of Speed 
+. Users do not care about device constraints—they want to view things quickly. Preload 
+
+what you can. Eliminate what is not needed.   
+ 
+ 
+•   
+Verbiage
+ 
+. Unnecessarily long, wordy menus and screen displays are indications of a MobileApp that 
+has not been tested with users and developers who 
+have not spent enough time understanding the user’s 
+
+task.   
+ 
+ 
+•   
+Nonstandard Interaction. 
+ One reason for targeting a platform is to take advantage of the user’s 
+
+experience with the ways things are done on that 
+platform. Where standards exist use them. This needs 
+
+to be balanced with the need to have an application 
+appear and behave the same way on multiple 
+devices when possible.   
+ 
+ 
+•   
+Help-and-FAQ-itis.
+ 
+ Adding online help is not the way to repair a poorly designed user interface. 
+
+Make sure you have tested your app with your 
+targeted users and repaired the identiﬁ ed defects. 
+ 
+ 
+  
+INFO  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 18.3  
+MOBILEAPP DESIGN—BEST PRACTICES  
+ 
+There are several guidelines for developing MobileApps  16 
+ 
+ and for developing 
+apps for speciﬁ c platforms like Apple’s iOS 
+ 17 
+ 
+ or Google’s Android. 
+ 18 
+ 
+ Schumacher 
+[Sch09] has collected many best practice ideas and has posted several specially 
+adapted to the design of a mobile application as Web pages. 
+ 19 
+ 
+ Some important 
+ 
+ 
+16  
+  
+http://www.w3.org/TR/mwabp/ 
+ 
+   
+17  
+  
+https://developer.apple.com/library/iOS/navigation/ 
+ 
+   
+18  
+  
+http://developer.android.com/guide/components/index.html 
+ 
+   
+19  
+  
+http://www.usercentric.com/news/2011/06/15/best-practices-designing-mobile-touch-screen-
+applications  
+ pre22126_ch18_391-410.indd   401pre22126_ch18_391-410.indd   40116/12/13   6:23 PM16/12/13   6:23 PM

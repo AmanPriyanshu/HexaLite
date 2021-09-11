@@ -1,0 +1,33 @@
+˜˜˜˚˜˜˜˜˜˜˜˜
+links a set of inputs with a set of outputs. Given an input or input sequence, the program 
+responds by producing a corresponding output. For example, given an input of a URL, 
+
+a web browser produces an output that is the display of the requested web page.Most inputs do not lead to system failure. However, some inputs or input combi-nations, shown in the shaded ellipse Ie in Figure 11.2, cause system failures or 
+ erroneous outputs to be generated. The program™s reliability depends on the number 
+
+of system inputs that are members of the set of inputs that lead to an erroneous 
+ outputŠin other words, the set of inputs that cause faulty code to be executed and 
+system errors to occur. If inputs in the set Ie are executed by frequently used parts of the system, then failures will be frequent. However, if the inputs in Ie are executed by code that is rarely used, then users will hardly ever see failures.Faults that affect the reliability of the system for one user may never show up 
+under someone else™s mode of working. In Figure 
+11.3, the set of erroneous inputs 
+
+corresponds to the ellipse labeled Ie in Figure 11.2. The set of inputs produced by User 2 intersects with this erroneous input set. User 2 will therefore experience some 
+system failures. User 1 and User 3, however, never use inputs from the erroneous 
+set. For them, the software will always appear to be reliable.The availability of a system does not just depend on the number of system fail
+-ures, but also on the time needed to repair the faults that have caused the failure. 
+
+Therefore, if system A fails once a year and system B fails once a month, then A is 
+apparently more reliable then B. However, assume that system A takes 6 hours to 
+restart after a failure, whereas system B takes 5 minutes to restart. The availability of 
+system B over the year (60 minutes of down time) is much better than that of system 
+A (360 minutes of downtime).Furthermore, the disruption caused by unavailable systems is not reflected in the 
+simple availability metric that specifies the percentage of time that the system is 
+
+available. The time when the system fails is also important. If a system is unavailable 
+
+for an hour each day between 3 am and 4 am, this may not affect many users. 
+
+However, if the same system is unavailable for 10 minutes during the working day, 
+system unavailability has a much greater effect on users.Reliability and availability are closely related, but sometimes one is more impor-tant than the other. If users expect continuous service from a system, then the system Possible
+inputsUser1User3User2Erroneous
+inputsFigure 11.3 Software usage patterns 

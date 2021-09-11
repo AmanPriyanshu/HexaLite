@@ -1,0 +1,70 @@
+480 Chapter 6  
+Networksnumber of states to account for hundreds of thousands of concurrent connections by 
+many users. The logic of the IDS is complicated: Many handshakes may be in progress 
+
+at any time, and the IDS must maintain the state of each of them.
+Other protocols have similar stateful representations. As the IDS monitors traffic, 
+it will build a similar state representation, matching traffic to the expected nature of 
+
+the interchange. The different protocols with their different states and transition condi-
+
+tions is multiplied by the number of instances (for example, the number of concurrent 
+
+TCP connections being established at any time), making the IDS bookkeeping complex 
+
+indeed.Front End Versus Internal IDSs
+An IDS can be placed either at the front end of a monitored subnetwork or on the inside. 
+A front-end device
+ monitors traffic as it enters the network and thus can inspect all 
+packets; it can take as much time as needed to analyze them, and if it finds something 
+
+that it classifies as harmful, it can block the packet before the packet enters the network. 
+
+A front-end intrusion detection system may be visible on the outside, and thus it may 
+be a target of attack itself. Skillful attackers know that disabling the defenses of an IDS 
+
+renders the network easier to attack.
+On the other hand, a front-end IDS does not see inside the network, so it cannot 
+identify any attack originating inside. An 
+internal
+ device monitors activity within the 
+network. If an attacker is sending unremarkable packets to a compromised internal 
+
+machine, instructing that machine to initiate a denial-of-service attack against other 
+
+hosts on that network, a front-end IDS will not notice that attack. Thus, if one com-
+
+puter begins sending threatening packets to another internal computer, for example, an 
+
+echo–chargen stream, the internal IDS would be able to detect that. An internal IDS is 
+
+also more well protected from outside attack. Furthermore, an internal IDS can learn 
+typical behavior of internal machines and users so that if, for example, user A suddenly 
+
+started trying to access protected resources after never having done so previously, the 
+
+IDS could record and analyze that anomaly.
+Host Based and Network BasedHost-based intrusion detection (called 
+HIDS) protects a single host against attack. 
+It collects and analyzes data for that one host. The operating system supplies some 
+
+of that data to the IDS, passing along approved and denied requests to access sensi-
+
+tive resources, logs of applications run, times and dates of actions and other security- 
+
+relevant data. The device either analyzes data itself or forwards the data to a separate 
+
+machine for analysis and perhaps correlation with HIDSs on other hosts. The goal of 
+
+a host-based system is to protect one machine and its data. If an intruder disables that 
+IDS, however, it can no longer protect its host. Being a process on the target computer 
+
+also exposes the HIDS to the vulnerability of being detected.
+A network-based IDS
+ or 
+NIDS is generally a separate network appliance that moni-
+tors traffic on an entire network. It receives data from firewalls, operating systems of the 
+
+connected computers, other sensors such as traffic volume monitors and load balancers, 
+
+and administrator actions on the network. The goal of a NIDS is to protect the entire 

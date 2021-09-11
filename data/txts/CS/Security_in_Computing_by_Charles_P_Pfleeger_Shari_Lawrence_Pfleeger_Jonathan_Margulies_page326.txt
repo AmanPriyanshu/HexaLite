@@ -1,0 +1,39 @@
+292 Chapter 5  
+Operating SystemsOperating System Tools to Implement Security Functions
+In this section we consider how an operating system actually implements the security 
+functions for general objects of unspecified types, such as files, devices, or lists, memory 
+
+objects, databases, or sharable tables. To make the explanations easier to understand, we 
+
+sometimes use an example of a specific object, such as a file. Note, however, that a general 
+
+mechanism can be used to protect any type of object for which access must be limited.
+Remember the basic access control paradigm articulated by Scott Graham and Peter Denning [GRA72] and explained in Chapter 2: A subject is permitted to access an 
+
+object in a particular mode, and only such authorized accesses are allowed. In Chap-
+
+ter 2 we presented several access control techniques: the access control list (ACL), the 
+
+privilege list, and capabilities. Operating systems implement both the underlying tables 
+
+supporting access control and the mechanisms that check for acceptable uses.Another important operating system function 
+related to the access control function is 
+audit: a log of which subject accessed which object when and in what manner. Auditing 
+
+is a tool for reacting after a security breach, not for preventing one. If critical informa-
+
+tion is leaked, an audit log may help to determine exactly what information has been 
+
+compromised and perhaps by whom 
+and when. Such knowledge can help 
+
+limit the damage of the breach and 
+
+also help prevent future incidents 
+
+by illuminating what went wrong 
+
+this time.An operating system cannot log every action because of the volume of such data. 
+The act of writing to the audit record is also an action, which would generate another 
+FIGURE 5-5 Operating System Loaded in StagesearlyBootstrap LoaderPrimitive KernelPrimitive FunctionsAdvanced FunctionsAdd-OnslateBIOSAudit logs show what happened in an incident; analysis of logs can guide 
+prevention of future successful strikes.

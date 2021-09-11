@@ -1,0 +1,98 @@
+348 PART TWO  
+MODELING 
+The early history of software patterns begins not with a computer scientist but a building architect, Christopher Alexander, who recognized that a recurring set 
+
+of problems was encountered whenever a building was designed. He character-
+
+ized these recurring problems and their solutions as  patterns, 
+ describing them 
+in the following manner [Ale77]:  
+Each pattern describes a problem that occurs over and over again in our environment and then describes the core of the solution to that problem in such a way that you can 
+use the solution a million times over without ever doing it the same way twice.  
+  
+Alexander’s ideas were ﬁ
+ rst translated into the software world in books by 
+Gamma [Gam95], Buschmann [Bus96], and their many colleagues.  1 
+ 
+ Today, dozens 
+of pattern repositories exist, and pattern-based design can be applied in many 
+different application domains.   
+ 
+ 
+ 
+ 
+ 16.1  
+DESIGN PATTERNS
+  
+ 
+ 
+ 
+ 
+ 
+ 
+A  design pattern 
+ can be characterized as “a three-part rule which expresses a 
+relation between a certain context, a problem, and a solution” [Ale79]. For soft-
+ware design,  context 
+ allows the reader to understand the environment in which 
+the problem resides and what solution might be appropriate within that envi-
+ronment. A set of requirements, including limitations and constraints, acts as a 
+ system of forces
+ 
+ that inﬂ
+ uences how the problem can be interpreted within its 
+context and how the solution can be effectively applied.   It is reasonable to argue that most problems have multiple solutions, but that a solution is effective only if it is appropriate within the context of the ex-
+isting problem. It is the system of forces that causes a designer to choose a spe-
+ciﬁ c solution. The intent is to provide a solution that best satisﬁ
+ es the system 
+of forces, even when these forces are contradictory. Finally, every solution has 
+
+consequences that may have an impact on other aspects of the software and may 
+themselves become part of the system of forces for other problems to be solved 
+within the larger system.  Coplien [Cop05] characterizes an effective design pattern in the following way: 
+ 
+ 
+ 
+•   
+It solves a problem
+ 
+: Patterns capture solutions, not just abstract principles or strategies.   
+ 
+ 
+•   
+It is a proven concept
+ 
+: Patterns capture solutions with a track record, not theories or speculation.   
+ 
+ 
+•   
+The solution isn’t obvious
+ 
+: Many problem-solving techniques (such as software design paradigms or methods) try to derive solutions from     Forces  are those 
+characteristics of the 
+problem and attributes 
+of the solution that 
+constrain the way in 
+which the design can 
+be developed.     structural 
+patterns. 
+350      system of forces. . 348  
+
+    user interface design 
+
+patterns. . . . . . . . 362  
+
+    WebApp design 
+
+patterns. . . . . . . . 364  
+
+    
+1  Earlier discussions of software patterns do exist, but these two classic books were the ﬁ
+ rst 
+cohesive treatments of the subject.   uote:  “Our responsibility 
+is to do what we 
+can, learn what we 
+can, improve the 
+solutions, and pass 
+them on.”  Richard P. 
+Feynman pre22126_ch16_347-370.indd   348pre22126_ch16_347-370.indd   34816/12/13   6:22 PM16/12/13   6:22 PM

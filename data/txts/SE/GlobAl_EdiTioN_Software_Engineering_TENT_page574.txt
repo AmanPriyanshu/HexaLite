@@ -1,0 +1,55 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜involve more system configuration to reflect the local environment where it is used, the transfer of data from existing systems, and the preparation of user documentation 
+and training. At this stage, you may also have to reconfigure other systems in the 
+
+environment to ensure that the new system interoperates with them.Although system deployment is straightforward in principle, it is often more diffi-cult than anticipated. The user environment may be different from that anticipated by 
+
+the system developers. Adapting the system to make it work in an unexpected environ-
+ment can be difficult. The existing system data may require extensive clean-up, and 
+
+parts of it may involve more effort than expected. The interfaces to other systems may 
+
+not be properly documented. You may find that the planned operational processes 
+have to be changed because they are not compatible with the operational processes for 
+
+other systems. User training is often difficult to arrange, with the consequence that, 
+
+initially at least, users are unable to access the capabilities of the system. System 
+
+deployment can therefore take much longer and cost much more than anticipated.Operational processes are the processes that are involved in using the system as 
+
+intended by its designers. For example, operators of an air traffic control system 
+
+follow specific processes when aircraft enter and leave airspace, when they have to 
+
+change height or speed, when an emergency occurs, and so on. For new systems, 
+
+these operational processes have to be defined and documented during the system 
+
+development process. Operators may have to be trained and other work processes 
+
+adapted to make effective use of the new system. Undetected problems may arise 
+
+at this stage because the system specification may contain errors or omissions. 
+
+While the system may perform to specification, its functions may not meet the real 
+
+operational needs. Consequently, the operators may not use the system as its 
+
+designers intended.Although the designers of operational processes may have based their process 
+designs on extensive user studies, there is always a period of ﬁdomesticationﬂ 
+
+(Stewart and Williams 2005) when users adapt to the new system and work out 
+
+practical processes of how to use it. While user interface design is important, studies 
+
+have shown that, given time, users can adapt to complex interfaces. As they become 
+
+experienced, they prefer ways of using the system quickly rather than easily. This 
+
+means that when designing systems, you should not simply cater for inexperienced 
+
+users but you should design the user interface to be adaptable for experienced users.
+Some people think that system operators are a source of problems in a system and that we should move toward automated systems where operator involvement is min-
+imized. In my opinion, there are two problems with this approach:1. It is likely to increase the technical complexity of the system because it has to be designed to cope with all anticipated failure modes. This increases the costs and 

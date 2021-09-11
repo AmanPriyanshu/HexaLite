@@ -1,0 +1,88 @@
+ Section 10.4  Risk Analysis 
+679  there is a cost to others of not having a piece of hardware or software. Similarly, there 
+are costs in restoring a system to its previous state, reinstalling software, or deriving a 
+
+piece of information. These costs are substantially harder to measure.
+In addition, there may be hidden costs that involve legal fees if certain events take 
+place. For example, some data require protection for legal reasons. Personal data, such 
+
+as police records, tax information, census data, and medical information, are so sensitive 
+
+that there are criminal penalties for releasing the data to unauthorized people. Other data 
+are company confidential; their release may give competitors an edge on new products or 
+
+on likely changes to the stock price. Some financial data, especially when they reflect an 
+
+adverse event, could seriously affect public confidence in a bank, an insurance company, 
+
+or a stock brokerage. We are hard pressed to determine the cost of releasing these data.
+If a computing system, a piece of software, or a key person is unavailable, causing 
+a particular computing task to be delayed, there may be serious consequences. If a 
+
+program that prints paychecks is delayed, employees’ confidence in the company may 
+
+be shaken, or some employees may 
+
+face penalties from not being able 
+
+to pay their own bills. If customers 
+
+cannot make transactions because 
+
+the computer is down, they may 
+TABLE 10-6 
+Comparing Quantitative to Qualitative Risk Assessment
+ProsCons
+Quantitative
+• Assessment and results based on 
+independently objective processes and 
+
+metrics. Meaningful statistical analysis 
+is supported• Value of information assets and 
+expected loss expressed in monetary 
+
+terms. Supporting rationale easily 
+understood• Provides credible basis for cost/benefit 
+assessment of risk mitigation. Supports 
+information security budget decision-
+
+making• Calculations are complex. Management 
+may mistrust the results of calculations 
+and hence analysis• Must gather substantial information 
+about the target IT environment 
+• No standard independently developed 
+and maintained threat population and 
+frequency knowledge base. Users must 
+
+rely on the credibility of the in-house 
+or external threat likelihood assessment
+Qualitative
+• Simple calculations, readily understood 
+and executed
+• Not necessary to quantify threat 
+frequency and impact data
+• Not necessary to estimate cost of 
+recommended risk mitigation measures 
+and calculate cost/benefit
+• A general indication of significant 
+areas of risk that should be addressed is 
+provided
+• Results are subjective. Use of 
+independently objective metrics is 
+
+eschewed
+• No effort to develop an objective 
+monetary basis for the value of targeted 
+
+information assets• Provides no measurable basis for cost/
+benefit analysis of risk mitigation. 
+
+Difficult to compare risk to control cost
+• Not possible to track risk management 
+performance objectively when all 
+
+measures are subjective
+Estimates of expected loss are 
+necessarily imprecise; relative sizes are 
+
+more important than absolute values.

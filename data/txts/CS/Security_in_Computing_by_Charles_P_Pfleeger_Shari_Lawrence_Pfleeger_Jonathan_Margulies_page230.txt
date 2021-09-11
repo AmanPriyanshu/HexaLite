@@ -1,0 +1,72 @@
+196 Chapter 3  
+Programs and Programmingand computing communities, natural defenses tend to be lower, so if an infection does 
+occur, it often spreads unchecked. Human computer users can be naïve, uninformed, 
+
+and lax, so the human route to computer infection is likely to remain important.
+Malware Toolkits
+A bank robber has to learn and practice the trade all alone. There is no 
+Bank Robbing for Dummies book (at least none of which we are aware), and a would-be criminal can-
+not send off a check and receive a box containing all the necessary tools. There seems 
+
+to be a form of apprenticeship as new criminals work with more experienced ones, but 
+
+this is a difficult, risky, and time-consuming process, or at least it seems that way to us 
+
+outsiders.Computer attacking is somewhat different. First, there is a thriving underground of 
+web sites for hackers to exchange techniques and knowledge. (As with any web site, the 
+
+reader has to assess the quality of the content.) Second, attackers can often experiment in 
+
+their own laboratories (homes) before launching public strikes. Most importantly, mal-
+
+ware toolkits are readily available for sale. A would-be assailant can acquire, install, and 
+
+activate one of these as easily as loading and running any other software; using one is 
+
+easier than many computer games. Such a toolkit takes as input a target address and, when 
+
+the user presses the [Start] button, it launches a probe for a range of vulnerabilities. Such 
+
+toolkit users, who do not need to understand the vulnerabilities they seek to exploit, are 
+
+known as script kiddies. As we noted 
+
+earlier in this chapter, these toolkits 
+
+often exploit old vulnerabilities for 
+
+which defenses have long been pub-
+
+licized. Still, these toolkits are effec-
+
+tive against many victims.
+Ease of use means that attackers do not have to understand, much less create, their 
+own attacks. For this reason, it would seem as if offense is easier than defense in com-
+
+puter security, which is certainly true. Remember that the defender must protect against 
+
+all possible threats, but the assailant only has to find one uncovered vulnerability.
+3.3 COUNTERMEASURES
+So far we have described the techniques by which malware writers can transmit, con-
+
+ceal, and activate their evil products. If you have concluded that these hackers are clever, 
+
+crafty, diligent, and devious, you are right. And they never seem to stop working. Anti-
+
+virus software maker McAfee reports identifying 200 distinct, new pieces of malware 
+
+per minute. At the start of 2012 their malware library contained slightly fewer than 100 
+million items and by the end of 2013 it had over 196 million [MCA14].
+Faced with such a siege, users are hard pressed to protect themselves, and the secu-
+rity defense community in general is strained. However, all is not lost. The available 
+
+countermeasures are not perfect, some are reactive—after the attack succeeds—rather 
+
+than preventive, and all parties from developers to users must do their part. In this sec-
+
+tion we survey the countermeasures available to keep code clean and computing safe. 
+Malware toolkits let novice attackers 
+
+probe for many vulnerabilities at the 
+
+press of a button.

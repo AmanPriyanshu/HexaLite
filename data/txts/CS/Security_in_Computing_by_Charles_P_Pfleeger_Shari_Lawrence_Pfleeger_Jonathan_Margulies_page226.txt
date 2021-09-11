@@ -1,0 +1,75 @@
+192 Chapter 3  
+Programs and Programmingcontrol) attachments or embedded code for the recipient, so your email message can 
+have animated bears dancing across the top.
+Another approach virus writers have used is a little-known feature in the Microsoft 
+file design that deals with file types. Although a file with a 
+.doc extension is expected 
+to be a Word document, in fact, the true document type is hidden in a field at the start 
+
+of the file. This convenience ostensibly helps a user who inadvertently names a Word 
+
+document with a .ppt (PowerPoint) or any other extension. In some cases, the operat-
+ing system will try to open the associated application but, if that fails, the system will 
+
+switch to the application of the hidden file type. So, the virus writer creates an execut-
+
+able file, names it with an inappropriate extension, and sends it to the victim, describing 
+
+it as a picture or a necessary code add-in or something else desirable. The unwitting 
+
+recipient opens the file and, without intending to, executes the malicious code.
+More recently, executable code has been hidden in files containing large data sets, such 
+as pictures or read-only documents, using a process called steganography. These bits of 
+
+viral code are not easily detected by virus scanners and certainly not by the human eye. 
+
+For example, a file containing a photograph may be highly detailed, often at a resolution 
+
+of 600 or more points of color (called pixels) per inch. Changing every sixteenth pixel will 
+
+scarcely be detected by the human 
+eye, so a virus writer can conceal the 
+
+machine instructions of the virus in a 
+
+large picture image, one bit of code 
+
+for every sixteen pixels.
+Execution Patterns A virus writer may want a virus to do several things at the same time, namely, spread 
+
+infection, avoid detection, and cause harm. These goals are shown in Table 3-4, along 
+
+with ways each goal can be addressed. Unfortunately, many of these behaviors are per-
+
+fectly normal and might otherwise go undetected. For instance, one goal is modifying 
+
+the file directory; many normal programs create files, delete files, and write to storage 
+
+media. Thus, no key signals point to the presence of a virus.
+Most virus writers seek to avoid detection for themselves and their creations. Because 
+a disk’s boot sector is not visible to normal operations (for example, the contents of the 
+
+boot sector do not show on a directory listing), many virus writers hide their code there. 
+
+A resident virus can monitor disk accesses and fake the result of a disk operation that 
+
+would show the virus hidden in a boot sector by showing the data that 
+should have been 
+in the boot sector (which the virus has moved elsewhere).
+There are no limits to the harm a virus can cause. On the modest end, the virus might do nothing; some writers create viruses just to show they can do it. Or the virus can be 
+
+relatively benign, displaying a message on the screen, sounding the buzzer, or playing 
+
+music. From there, the problems can escalate. One virus can erase files, another an 
+
+entire disk; one virus can prevent a computer from booting, and another can prevent 
+
+writing to disk. The damage is bounded only by the creativity of the virus’s author.
+Transmission Patterns 
+A virus is effective only if it has some means of transmission from one location to 
+
+another. As we have already seen, viruses can travel during the boot process by attaching 
+Steganography permits data to be 
+hidden in large, complex, redundant 
+
+data sets.

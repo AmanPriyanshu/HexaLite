@@ -1,0 +1,54 @@
+ Contents xvii  One-Time Pads 775
+Statistical Analysis 776
+
+What Makes a “Secure” Encryption Algorithm? 777
+12.2 Symmetric Encryption Algorithms 779
+DES 779
+
+AES 789
+
+RC2, RC4, RC5, and RC6 792
+12.3 Asymmetric Encryption with RSA 795
+The RSA Algorithm 795
+
+Strength of the RSA Algorithm 797
+12.4 Message Digests 799
+Hash Functions 799
+
+One-Way Hash Functions 799
+
+Message Digests 800
+12.5 Digital Signatures 802
+Elliptic Curve Cryptosystems 802
+
+El Gamal and Digital Signature Algorithms 803
+
+The NSA–Cryptography Controversy of 2012 804
+12.6 Quantum Cryptography 807
+Quantum Physics 807
+
+Photon Reception 808
+
+Cryptography with Photons 808
+
+Implementation 811
+12.7 Conclusion 811
+Chapter 13 Emerging Topics 813
+13.1 The Internet of Things 814
+Medical Devices 815
+
+Mobile Phones 818
+
+Security in the Internet of Things 820
+13.2 Economics 821
+Making a Business Case 821
+
+Quantifying Security 825
+
+Current Research and Future Directions 832
+13.3 Electronic Voting 834
+What Is Electronic Voting? 835
+
+What Is a Fair Election? 836
+
+What Are the Critical Issues? 837

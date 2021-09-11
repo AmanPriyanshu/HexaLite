@@ -1,0 +1,46 @@
+˜˜˚˛˙˜˜˜
+˜˜
+drivers where program failures can have a serious effect. They extended the approach across a much wider range of their software to look for security problems as well as 
+errors that affect program reliability (Ball, Levin, and Rajamani 2011). Checking for 
+well-known problems, such as buffer overflow, is effective for improving security as 
+attackers often base their attacks on those common vulnerabilities. Attacks may tar-
+get little-used code sections that may not have been thoroughly tested. Static analy-
+sis is a cost-effective way of finding these types of vulnerability.
+As I have discussed, many safety-critical, software-intensive systems are regulated. 
+
+An external authority has significant influence on their development and deployment. 
+
+Regulators are government bodies whose job is to ensure that commercial companies 
+
+do not deploy systems that pose threats to public and environmental safety or the 
+
+national economy. The owners of safety-critical systems must convince regulators 
+that they have made the best possible efforts to ensure that their systems are safe. The 
+
+regulator assesses the safety case for the system, which presents evidence and argu-
+ments that normal operation of the system will not cause harm to a user.This evidence is collected during the systems development process. It may 
+include information about hazard analysis and mitigation, test results, static analy-
+ses, information about the development processes used, records of review meetings, 
+and so on. It is assembled and organized into a safety case, a detailed presentation of 
+why the system owners and developers believe that a system is safe.A safety case is a set of documents that includes a description of the system to be 
+certified, information about the processes used to develop the system, and, critically, 
+
+logical arguments that demonstrate that the system is likely to be safe. More suc-
+cinctly, Bishop and Bloomfield (Bishop and Bloomfield 1998) define a safety case as:A documented body of evidence that provides a convincing and valid argument 
+
+that a system is adequately safe for a given application in a given environmentƒ.The organization and contents of a safety case depend on the type of system that 
+is to be certified and its context of operation. Figure 12.10 shows one possible struc-
+ture for a safety case, but there are no universal industrial standards in this area. 
+
+Safety case structures vary, depending on the industry and the maturity of the domain. 
+
+For example, nuclear safety cases have been required for many years. They are very 
+
+comprehensive and presented in a way that is familiar to nuclear engineers. However, 
+
+safety cases for medical devices have been introduced more recently. The case struc-
+ture is more flexible, and the cases themselves are less detailed than nuclear cases.A safety case refers to a system as a whole, and, as part of that case, there may be a subsidiary software safety case. When constructing a software safety case, you 
+
+have to relate software failures to wider system failures and demonstrate either that 
+ƒBishop, P., and R. E. Bloom˜eld. 1998. ﬁA Methodology for Safety Case Development.ﬂ In Proc. Safety-
+Critical Systems Symposium. Birmingham, UK: Springer. http://www.adelard.com/papers/sss98web.pdf

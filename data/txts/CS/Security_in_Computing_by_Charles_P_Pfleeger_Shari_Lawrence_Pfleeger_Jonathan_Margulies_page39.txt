@@ -1,0 +1,40 @@
+ Section 1.1  What Is Computer Security? 
+5  value. For example, the value of the plans for a company’s new product line is very 
+high, especially to competitors. But once the new product is released, the plans’ value 
+
+drops dramatically.
+The Vulnerability–Threat–Control Paradigm
+The goal of computer security is protecting valuable assets. To study different ways of 
+
+protection, we use a framework that describes how assets may be harmed and how to 
+
+counter or mitigate that harm.A vulnerability is a weakness in the system, for example, in procedures, design, or 
+implementation, that might be exploited to cause loss or harm. For instance, a particular 
+
+system may be vulnerable to unau-
+thorized data manipulation because 
+the system does not verify a user’s 
+
+identity before allowing data access.
+A threat
+ to a computing system 
+is a set of circumstances that has the potential to cause loss or harm. To see the difference 
+
+between a threat and a vulnerability, consider the illustration in Figure 1-4. Here, a wall 
+
+is holding water back. The water to the left of the wall is a threat to the man on the right 
+
+of the wall: The water could rise, overflowing onto the man, or it could stay beneath the 
+
+height of the wall, causing the wall 
+
+to collapse. So the threat of harm is 
+the potential for the man to get wet, 
+get hurt, or be drowned. For now, 
+
+the wall is intact, so the threat to the 
+
+man is unrealized.A vulnerability is a weakness that could 
+be exploited to cause harm.A threat is a set of circumstances that 
+
+could cause harm.FIGURE 1-4 Threat and Vulnerability

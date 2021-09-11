@@ -1,0 +1,48 @@
+˜˚˛˝˙ˆˇ˘˜˜˜˜˜
+˜˜
+include any design information. This ideal is unrealistic, however, except for very small systems. You need to identify the main architectural components as these 
+
+reflect the high-level features of the system. Therefore, as part of the requirements 
+engineering process, you might propose an abstract system architecture where you 
+
+associate groups of system functions or features with large-scale components or sub-
+systems. You then use this decomposition to discuss the requirements and more 
+
+detailed features of the system with stakeholders.You can design software architectures at two levels of abstraction, which I call architecture in the small and architecture in the large:1. Architecture in the small is concerned with the architecture of individual pro-grams. At this level, we are concerned with the way that an individual pro
+-
+gram is decomposed into components. This chapter is mostly concerned with 
+
+program architectures.2. Architecture in the large is concerned with the architecture of complex enter-
+prise systems that include other systems, programs, and program components. 
+
+These enterprise systems may be distributed over different computers, which 
+
+may be owned and managed by different companies. (I cover architecture in the 
+
+large in Chapters 17 and 18.)Software architecture is important because it affects the performance, robust
+-ness, distributability, and maintainability of a system (Bosch 2000). As Bosch 
+
+explains, individual components implement the functional system requirements, 
+
+but the dominant influence on the non-functional system characteristics is the 
+
+system™s architecture. Chen et al. (Chen, Ali Babar, and Nuseibeh 2013) con
+-
+firmed this in a study of ﬁarchitecturally significant requirementsﬂ where they 
+
+found that non-functional requirements had the most significant effect on the 
+
+system™s architecture.Bass et al. (Bass, Clements, and Kazman 2012) suggest that explicitly designing 
+and documenting software architecture has three advantages:1. Stakeholder communication The architecture is a high-level presentation of the sys-tem that may be used as a focus for discussion by a range of different stakeholders.2. System analysis Making the system architecture explicit at an early stage in the 
+system development requires some analysis. Architectural design decisions 
+
+have a profound effect on whether or not the system can meet critical require
+-
+ments such as performance, reliability, and maintainability.3. Large-scale reuse An architectural model is a compact, manageable description 
+of how a system is organized and how the components interoperate. The system 
+architecture is often the same for systems with similar requirements and so can 
+support large-scale software reuse. As I explain in Chapter 15, product-line 
+
+architectures are an approach to reuse where the same architecture is reused 
+
+across a range of related systems.

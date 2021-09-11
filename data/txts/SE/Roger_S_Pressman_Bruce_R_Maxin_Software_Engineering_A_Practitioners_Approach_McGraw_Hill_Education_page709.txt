@@ -1,0 +1,43 @@
+CHAPTER 30  
+PRODUCT METRICS 679       
+ 30.8 S
+UMMARY  Software metrics provide a quantitative way to assess the quality of internal 
+product attributes, thereby enabling you to assess quality before the product is 
+built. Metrics provide the insight necessary to create effective requirements and 
+design models, solid code, and thorough tests.  To be useful in a real-world context, a software metric must be simple and 
+computable, persuasive, consistent, and objective. It should be programming 
+language independent and provide you with effective feedback.  Metrics for the requirements model focus on function, data, and behavior—the three components of the model. Metrics for design consider architecture, 
+component-level design, and interface design issues. Architectural design met-
+rics consider the structural aspects of the design model. Component-level de-
+sign metrics provide an indication of module quality by establishing indirect 
+measures for cohesion, coupling, and complexity. User interface design metrics 
+
+provide an indication of the ease with which a GUI can be used. WebApp metrics 
+
+consider aspects of the user interface as well as WebApp aesthetics, content, and 
+
+navigation.  Metrics for OO systems focus on measurement that can be applied to the class and the design characteristics—localization, encapsulation, information hiding, 
+inheritance, and object abstraction techniques—that make the class unique. 
+The CK metrics suite deﬁ nes six class-oriented software metrics that focus on 
+the class and the class hierarchy. The metrics suite also develops metrics to as-
+
+sess the collaborations between classes and the cohesion of methods that reside 
+within a class. At a class-oriented level, the CK metrics suite can be augmented 
+with metrics proposed by Lorenz and Kidd and the MOOD metrics suite.  Halstead provides an intriguing set of metrics at the source code level. Using the number of operators and operands present in the code, software science pro-
+vides a variety of metrics that can be used to assess program quality. 
+ Few product metrics have been proposed for direct use in software testing and maintenance. However, many other product metrics can be used to guide 
+
+the testing process and as a mechanism for assessing the maintainability of a 
+computer program. A wide variety of OO metrics have been proposed to assess 
+the testability of an OO system.    
+  PROBLEMS AND POINTS TO PONDER     30.1.
+  Measurement theory is an advanced topic that has a strong bearing on software met-rics. Using [Zus97], [Fen91], [Zus90] or Web-based sources, write a brief paper that outlines 
+
+the main tenets of measurement theory. Individual project: Develop a presentation on the 
+
+subject and present it to your class.  
+
+   30.2.
+  Why is it that a single, all-encompassing metric cannot be developed for program com-plexity or program quality? Try to come up with a measure or metric from everyday life that 
+
+violates the attributes of effective software metrics deﬁ ned in Section 30.1.5.  

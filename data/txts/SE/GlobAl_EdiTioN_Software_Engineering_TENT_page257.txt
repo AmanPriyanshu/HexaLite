@@ -1,0 +1,35 @@
+˜˚˛˝˙ˆˇ˘˜˜˜˜˜
+˜˜
+may only have been released every 2 or 3 years. Now, because of competitive pres-sures and the need to respond quickly to user feedback, the gap between releases of 
+some apps and web-based systems may be weeks rather than years.This model of software evolution is applicable when the same company is respon-sible for the software throughout its lifetime. There is a seamless transition from 
+
+development to evolution, and the same software development methods and pro-
+cesses are applied throughout the lifetime of the software. Software products and 
+
+apps are developed using this approach.The evolution of custom software, however, usually follows a different model. 
+The system customer may pay a software company to develop the software and 
+
+then take over responsibility for support and evolution using its own staff. 
+
+Alternatively, the software customer might issue a separate contract to a different 
+
+software company for system support and evolution.In this situation, there are likely to be discontinuities in the evolution process. 
+Requirements and design documents may not be passed from one company to 
+
+another. Companies may merge or reorganize, inherit software from other compa
+-
+nies, and then find that this has to be changed. When the transition from develop-
+ment to evolution is not seamless, the process of changing the software after delivery 
+is called software maintenance. As I discuss later in this chapter, maintenance 
+
+involves extra process activities, such as program understanding, in addition to the 
+normal activities of software development.Rajlich and Bennett (Rajlich and Bennett 2000) propose an alternative view of 
+the software evolution life cycle for business systems. In this model, they distinguish 
+between evolution and servicing. Evolution is the phase in which significant changes 
+to the software architecture and functionality are made. During servicing, the only 
+changes that are made are relatively small but essential changes. These phases over
+-
+lap with each other, as shown in Figure 9.2.According to Rajlich and Bennett, when software is first used successfully, many changes to the requirements by stakeholders are proposed and implemented. This is SpecificationImplementionValidation
+OperationStart
+Release 1Release 2Release 3etc.Figure 9.1 A spiral model of development 
+and evolution 

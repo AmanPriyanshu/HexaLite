@@ -1,0 +1,76 @@
+CHAPTER 14  
+COMPONENT-LEVEL DESIGN
+ 311components and speciﬁ c services that enable components to coordinate with 
+one another and perform common tasks.  Because the potential impact of reuse and CBSE on the software industry is enormous, a number of major companies and industry consortia have proposed 
+standards for component software.  10 
+ 
+ These standards include: CCM (Corba 
+Component Model),  11 
+ 
+ Microsoft COM and .NET, 
+ 12 
+ 
+ JavaBeans, 
+ 13 
+ 
+ and OSGI (Open 
+Services Gateway Initiative [OSG13].  14 
+ 
+ None of these standards dominate the 
+industry. Although many developers have standardized on one, it is likely that 
+
+large software organizations may choose to use a standard based on the applica-
+tion categories and platforms that are chosen.   
+ 
+ 
+ 
+14.7.3 Architectural Mismatch 
+ 
+One of the challenges facing widespread reuse is  architectural mismatch 
+ [Gar09a]. The designers of reusable components often make implicit assump-
+tions about the environment to which the component is coupled. These assump-
+tions often focus on the component control model, the nature of the component 
+connections (interfaces), the architectural infrastructure itself, and the nature of 
+the construction process. If these assumptions are incorrect, architectural mis-
+match occurs.  Design concepts such as abstraction, hiding, functional independence, reﬁ ne-
+ment, and structured programming, along with object-oriented methods, testing, 
+software quality assurance (SQA), and correctness veriﬁ cation methods (Chap-
+ter 28), all contribute to the creation of software components that are reusable 
+and prevent architectural mismatch.  Early detection of architectural mismatch can occur if stakeholder assump-tions are explicitly documented. In addition, the use of a risk-driven process 
+model emphasizes the deﬁ nition of early architectural prototypes and points 
+to areas of mismatch. Repairing architectural mismatch is often very difﬁ cult 
+without making use of mechanisms like wrappers or adapters.  15 
+ 
+ Sometimes it is 
+necessary to completely redesign a component interface or the component itself 
+to remove coupling issues.   
+10  Greg Olsen [Ols06] provides an excellent discussion of past and present industry efforts to 
+make CBSE a reality. Ivica Crnkovic [Crb11] presents a discussion of more recent industrial 
+
+component models.   
+11  Further information on CCM can be found at: 
+ 
+www.omg.org
+ 
+ 
+   
+12  Information on COM and .Net can be found at:  
+ 
+www.microsoft.com/COM 
+and msdn2.microsoft.
+com/en-us/netframework/default.aspx 
+ 
+   
+13  The latest information on Javabeans can be found at:  
+java.sun.com/products/javabeans/docs/    
+14  Information on OSGI can be found at:  
+ 
+http://www.osgi.org/Main/HomePage
+ 
+ 
+   
+15  An  
+adapter 
+ is a software device that allows a client with an incompatible interface to access 
+a component by translating a request for service into a form that can access the original 
+interface. pre22126_ch14_285-316.indd   311pre22126_ch14_285-316.indd   31113/12/13   6:12 PM13/12/13   6:12 PM

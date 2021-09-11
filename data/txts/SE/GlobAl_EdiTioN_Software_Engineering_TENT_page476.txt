@@ -1,0 +1,48 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜should be documented with the component. Other exceptions that are related to the busi-ness function of the component should be passed to the calling component for handling.Mili et al. (Mili et al. 2002) discuss ways of estimating the costs of making a compo-nent reusable and the returns from that investment. The benefits of reusing rather than 
+
+redeveloping a component are not simply productivity gains. There are also quality gains, 
+
+because a reused component should be more dependable, and time-to-market gains. 
+
+These are the increased returns that accrue from deploying the software more quickly.Mili et al. present various formulas for estimating these gains, as does the COCOMO 
+model, discussed in Chapter 23. However, the parameters of these formulas are diffi-
+cult to estimate accurately, and the formulas must be adapted to local  circumstances, 
+making them difficult to use. I suspect that few software project managers use these 
+
+models to estimate the return on investment from component reusability.Whether or not a component is reusable depends on its application domain, 
+ functionality, and generality. If the domain is a general one and the component 
+
+implements standard functionality in that domain, then it is more likely to be reusa-
+ble. As you add generality to a component, you increase its reusability because it can 
+be applied in a wider range of environments. Unfortunately, this normally means 
+
+that the component has more operations and is more complex, which makes the 
+
+component harder to understand and use.There is, therefore, a trade-off between the reusability and understandability of a 
+component. To make a component reusable you have to provide a set of generic 
+
+interfaces with operations that cater to all of the ways in which the component could 
+be used. Reusability adds complexity and hence reduces component understandabil-
+ity. This makes it more difficult and time consuming to decide whether a component 
+is suitable for reuse. Because of the time involved in understanding a reusable com-
+ponent, it is sometimes more cost-effective to reimplement a simpler component 
+
+with the specific functionality that is required.A potential source of components is legacy systems. As I discussed in Chapter 9, legacy  systems are systems that fulfill an important business function but are written using obsolete software technologies. As a result, it may be difficult to use them with 
+new systems. However, if you convert these old systems to components, their func-
+tionality can be reused in new applications.Of course, these legacy systems do not normally have clearly defined ﬁrequiresﬂ and 
+ﬁprovidesﬂ interfaces. To make these components reusable, you have to create a wrapper 
+
+that defines the component interfaces. The wrapper hides the complexity of the underly-
+ing code and provides an interface for external components to access services that are 
+
+provided. Although this wrapper is a fairly complex piece of software, the cost of wrapper 
+
+development may be significantly less than the cost of reimplementing the legacy system.Once you have developed and tested a reusable component or service, it then has 
+to be managed for future reuse. Management involves deciding how to classify the 
+
+component so that it can be discovered, making the component available either in a 
+repository or as a service, maintaining information about the use of the component, 
+and keeping track of different component versions. If the component is open-source, 
+you may make it available in a public repository such as GitHub or Sourceforge. If it 
+is intended for use in a company, then you may use an internal repository system.

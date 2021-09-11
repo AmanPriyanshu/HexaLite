@@ -1,0 +1,52 @@
+ Section 6.7  Firewalls 
+455  types of firewalls and then examine each type to see what it is, how it works, and what 
+its strengths and weaknesses are. Different types of firewalls implement different types 
+
+of policies; for example, simple firewalls called screening routers judge based only on 
+
+header data: addresses. More complex firewalls look into the content being communi-
+
+cated to make access decisions. Simplicity in a security policy is not a bad thing; the 
+
+important question to ask when choosing a type of firewall is what threats an installa-
+
+tion needs to counter.
+Because a firewall is a type of host, it is often as programmable as a good-quality 
+workstation. While a screening router can be fairly primitive, the tendency is to imple-
+
+ment even routers on complete computers with operating systems because editors and 
+
+other programming tools assist in configuring and maintaining the router. However, 
+
+firewall developers are minimalists: They try to eliminate from the firewall all that is 
+
+not strictly necessary for the firewall’s functionality. There is a good reason for this 
+
+minimal constraint: to give as little assistance as possible to a successful attacker. Thus, 
+
+firewalls tend not to have user accounts so that, for example, they have no password file 
+
+to conceal. Indeed, the most desirable firewall is one that runs contentedly in a back 
+
+room; except for periodic scanning of its audit logs, there is seldom a reason to touch it.
+Network Technology Background
+Before we describe firewalls, we need to reiterate and expand upon a bit of network 
+technology that we introduced at the start of this chapter. Figure 6-52 depicts what is 
+
+known as the ISO Open Systems Interconnect (OSI) model of networking. 
+In this model, data are generated at the top layer (7—Application) by some applica-tion program. Then the data pass through the other six layers; at each layer the data 
+
+are reformatted, packaged, and addressed. For example, the transport layer performs 
+
+error checking and correction to ensure a reliable data flow, the network layer handles 
+
+addressing to determine how to route data, and the data link layer divides data into 
+
+manageable blocks for efficient transfer. The last layer, the physical layer, deals with 
+
+the electrical or other technology by which signals are transmitted across some physical FIGURE 6-52 OSI Reference ModelMM
+M
+MH3H2H2
+T3T3T2
+MH3H2T3T2
+H1T1Receiver7−Application6−Presentation5−Session4−Transport3−Network2−Data Link1−Physical7−Application6−Presentation5−Session4−Transport3−Network2−Data Link1−PhysicalMMSender

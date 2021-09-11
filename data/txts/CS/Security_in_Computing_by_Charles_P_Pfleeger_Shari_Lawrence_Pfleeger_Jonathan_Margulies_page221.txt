@@ -1,0 +1,71 @@
+ Section 3.2  Malicious Code—Malware 
+187  Boot Sector Viruses 
+A special case of virus attachment, but formerly a fairly popular one, is the so-called 
+
+boot sector virus. Attackers are interested in creating continuing or repeated harm, 
+
+instead of just a one-time assault. For continuity the infection needs to stay around 
+
+and become an integral part of the operating system. In such attackers, the easy way 
+
+to become permanent is to force the harmful code to be reloaded each time the system 
+is restarted. Actually, a similar technique works for most types of malicious code, so 
+
+we first describe the process for viruses and then explain how the technique extends to 
+
+other types.When a computer is started, control begins with firmware that determines which 
+hardware components are present, tests them, and transfers control to an operating sys-
+
+tem. A given hardware platform can run many different operating systems, so the oper-
+
+ating system is not coded in firmware but is instead invoked dynamically, perhaps even 
+
+by a user’s choice, after the hardware test.
+Modern operating systems consist of many modules; which modules are included on 
+any computer depends on the hardware of the computer and attached devices, loaded 
+
+software, user preferences and settings, and other factors. An executive oversees the 
+
+boot process, loading and initiating the right modules in an acceptable order. Putting 
+
+together a jigsaw puzzle is hard enough, but the executive has to work with pieces from 
+
+many puzzles at once, somehow putting together just a few pieces from each to form 
+
+a consistent, connected whole, without even a picture of what the result will look like 
+
+when it is assembled. Some people see flexibility in such a wide array of connectable 
+
+modules; others see vulnerability in the uncertainty of which modules will be loaded 
+and how they will interrelate.
+Malicious code can intrude in this bootstrap sequence in several ways. An assault 
+can revise or add to the list of modules to be loaded, or substitute an infected module 
+
+for a good one by changing the address of the module to be loaded or by substituting a 
+modified routine of the same name. With boot sector attacks, the assailant changes the 
+
+pointer to the next part of the operating system to load, as shown in Figure 3-23.
+The boot sector is an especially appealing place to house a virus. The virus gains 
+control early in the boot process, before most detection tools are active, so that it can 
+
+avoid, or at least complicate, detection. The files in the boot area are crucial parts of the 
+
+operating system. Consequently, to keep users from accidentally modifying or deleting 
+
+them with disastrous results, the operating system makes them “invisible” by not show-
+
+ing them as part of a normal listing of stored files, thereby preventing their deletion. 
+
+Thus, the virus code is not readily noticed by users.Operating systems have gotten large and complex since the first viruses. The boot 
+process is still the same, but many more routines are activated during the boot process; 
+
+many programs—often hundreds of them—run at startup time. The operating system, 
+
+device handlers, and other necessary applications are numerous and have unintelligible 
+
+names, so malicious code writers do not need to hide their code completely; probably a 
+user even seeing a file named malware.exe, would more likely think the file a joke than 
+
+some real malicious code. Burying the code among other system routines and placing 
+the code on the list of programs started at computer startup are current techniques to 
+ensure that a piece of malware is reactivated.

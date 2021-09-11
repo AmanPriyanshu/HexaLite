@@ -1,0 +1,77 @@
+664 Chapter 10  
+Management and IncidentsTo develop policy and identify a response team, you need to consider certain matters.
+• Legal issues
+: An incident has legal ramifications. In some countries, computer 
+intrusions are illegal, so law enforcement officials must be involved in the inves-
+
+tigation. In other places, you have discretion in deciding whether to ask law 
+
+enforcement to participate. In addition to criminal action, you may be able to 
+bring a civil case. Both kinds of legal action have serious implications for the 
+
+response. For example, evidence must be gathered and maintained in specific 
+
+ways in order to be usable in court. Similarly, laws may limit what you can do 
+
+against the alleged attacker: Cutting off a connection is probably acceptable, but 
+
+launching a retaliatory denial-of-service attack may not be.• Preserving evidence
+: The most common reaction in an incident is to assume the 
+cause was internal or accidental. For instance, you may first assume that hard-
+
+ware has failed or software isn’t working correctly. The staff may be directed to 
+
+change the configuration, reload the software, reboot the system, or similarly 
+
+attempt to resolve the problem by adjusting the software. Unfortunately, each 
+
+of these acts can irreparably distort or destroy evidence. When dealing with a 
+
+possible incident, do as little as possible before securing the site and “dusting 
+for fingerprints.”
+• Records
+: It may be difficult to remember what you have already done: Have you 
+already reloaded a particular file? What steps got you to the prompt asking for 
+
+the new DNS server’s address? If you call in an outside forensic investigator or 
+
+the police, you will need to tell exactly what you have already done. A list of 
+
+what was done can also help people who need to determine what happened, how 
+
+to prevent it in the future, and how to restore data and computing capabilities.
+• Public relations
+: In handling an incident your organization should speak with 
+one voice. You risk sending confusing messages if too many people speak. Only 
+
+one person should speak publicly if legal action may be taken. An unguarded 
+
+comment may tip off the attacker or have a negative effect on the case. You can 
+
+simply say that an incident occurred, tell briefly and generally what it was, and 
+
+state that the situation is now under control and normal operation will resume (at 
+
+a particular time, if a reliable estimate can be given).
+Incident responders first perform triage: They investigate what has happened. “The 
+network is responding slowly” can have many causes, from heavy usage to electronic 
+
+malfunction to terrorist attack. 
+
+Based on first analysis the team 
+
+decides what steps to take to address 
+
+the incident.Some incidents resolve them-
+selves (for example, the heavy usage ends), some stay the same (the malfunction does 
+
+not heal itself), and some get worse (the attack intensifies). Incident responders follow 
+
+the case until they have identified the cause and done as much as possible to return the 
+
+system to normal. Then the team finishes documenting its work and declares the inci-
+
+dent over.
+“Is this really an incident” is the most 
+
+important question.

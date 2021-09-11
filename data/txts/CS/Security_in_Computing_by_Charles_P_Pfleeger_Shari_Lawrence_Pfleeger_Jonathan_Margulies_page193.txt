@@ -1,0 +1,46 @@
+ Section 3.1  Unintentional (Nonmalicious) Programming Oversights 
+159  by security writer Brian Krebs in his blog Krebs on Security
+, 24 January 2013, security researcher Stefan Viehböck of SEC Consult Vulnerability Labs in Vienna, Austria found 
+
+that some products from Barracuda Networks (maker of firewalls and other network 
+
+devices) accepted remote (network) logins from user name “product” and no password. 
+
+The engineer who inserted the backdoor probably thought the activity was protected 
+
+by restricting the address range from which the logins would be accepted: Only logins 
+
+from the range of addresses assigned to Barracuda would succeed. However, the engi-
+
+neer failed to consider (and a good security engineer would have caught) that the speci-
+
+fied range also included hundreds of other companies.
+Thus, preventing or locking these vulnerable doorways is difficult, especially 
+because the people who write them may not appreciate their security implications.Off-by-One Error
+When learning to program, neophytes can easily fail with the 
+off-by-one error
+: miscalculating the condition to end a loop (repeat while in or in? repeat until in or in?) or overlooking that an array of A[0] through A[n] contains n
+1 elements.Usually the programmer is at fault for failing to think correctly about when a loop 
+should stop. Other times the problem is merging actual data with control data (sometimes 
+
+called metadata or data about the data). For example, a program may manage a list that 
+
+increases and decreases. Think of a list of unresolved problems in a customer service 
+
+department: Today there are five open issues, numbered 10, 47, 38, 82, and 55; during the 
+
+day, issue 82 is resolved but issues 93 and 64 are added to the list. A programmer may 
+
+create a simple data structure, an array, to hold these issue numbers and may reasonably 
+
+specify no more than 100 numbers. But to help with managing the numbers, the program-
+
+mer may also reserve the first position in the array for the count of open issues. Thus, in 
+
+the first case the array really holds six elements, 5 (the count), 10, 47, 38, 82, and 55; and 
+
+in the second case there are seven, 6, 10, 47, 38, 93, 55, 64, as shown in Figure 3-14. A 
+
+100-element array will clearly not hold 100 data items plus one count.(a) First open issues list551047388255
+(b) Second open issues list661047389364
+55FIGURE 3-14 Both Data and Number of Used Cells in an Array

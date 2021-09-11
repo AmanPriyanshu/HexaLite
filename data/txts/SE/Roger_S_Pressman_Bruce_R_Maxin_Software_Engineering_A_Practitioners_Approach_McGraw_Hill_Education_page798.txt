@@ -1,0 +1,76 @@
+768 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+ 
+ 
+ 
+ 
+ 
+Control is employed by a software project manager to administer project re-sources, cope with problems, and direct project staff. If things are going well 
+
+(i.e., the project is on schedule and within budget, reviews indicate that real 
+
+progress is being made and milestones are being reached), control is light. But 
+
+when problems occur, you must exercise control to reconcile them as quickly 
+
+as possible. After a problem has been diagnosed, additional resources may be 
+
+focused on the problem area: staff may be redeployed or the project schedule 
+
+can be redeﬁ ned. 
+ When faced with severe deadline pressure, experienced project managers sometimes use a project scheduling and control technique called  time-boxing 
+ [Jal04]. The time-boxing strategy recognizes that the complete product may not 
+be deliverable by the predeﬁ ned deadline. Therefore, an incremental software 
+paradigm (Chapter 4) is chosen, and a schedule is derived for each incremental 
+delivery. 
+ The tasks associated with each increment are then time-boxed. This means that the schedule for each task is adjusted by working backward from the de-
+livery date for the increment. A “box” is put around each task. When a task hits 
+the boundary of its time box (plus or minus 10 percent), work stops and the next 
+task begins.  The initial reaction to the time-boxing approach is often negative: “If the work isn’t ﬁ nished, how can we proceed?” The answer lies in the way work is 
+accomplished. By the time the time-box boundary is encountered, it is likely that 
+percent of the task has been completed.
+  
+9   The remaining 10 percent, although 
+important, can (1) be delayed until the next increment or (2) be completed later 
+if required. Rather than becoming “stuck” on a task, the project proceeds toward 
+the delivery date.  
+ 
+  
+ 
+ 
+ 
+34.5.3   
+Tracking Progress for an OO Project 
+ 
+Although an iterative model is the best framework for an OO project, task par-
+allelism makes project tracking difﬁ cult. You may have difﬁ
+ culty establishing 
+meaningful milestones for an OO project because a number of different things 
+are happening at once. In general, the following major milestones can be consid-
+ered “completed” when the criteria noted have been met.   
+ 
+ 
+ 
+Technical milestone: OO analysis completed 
+ 
+ 
+ 
+•  All classes and the class hierarchy have been deﬁ ned and reviewed. 
+  
+ 
+ 
+•  Class attributes and operations associated with a class have been deﬁ ned 
+and reviewed.   
+ 
+ 
+•  Class relationships (Chapter 10) have been established and reviewed.     The best indication 
+of progress is the 
+completion and 
+successful review of a 
+deﬁ ned software work 
+
+product.   
+9.  A cynic might recall the saying: “The ﬁ
+ rst 90 percent of the system takes 90 percent of the time; 
+the remaining 10 percent of the system takes 90 percent of the time.” pre22126_ch34_754-776.indd   768pre22126_ch34_754-776.indd   76813/12/13   10:02 PM13/12/13   10:02 PM

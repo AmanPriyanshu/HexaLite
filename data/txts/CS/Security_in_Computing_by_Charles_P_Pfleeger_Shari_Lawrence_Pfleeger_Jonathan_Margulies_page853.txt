@@ -1,0 +1,71 @@
+ Section 13.1  The Internet of Things 
+819  formed an opinion. Yet all these people were users, many of whom sent, accessed, and 
+stored sensitive data with and on their phones. To help them decide whether to trust a 
+
+mobile device (or a particular application), 20 percent said they would trust a security 
+
+expert’s advice, 14 percent a service provider’s, 13 percent a software provider’s, and 
+
+10 percent a device manufacturer’s: not resounding votes of confidence in any of these 
+
+sources. Clearly, people have low confidence and do not know whom to trust, but they 
+
+use these devices nevertheless. Indeed, the survey reports that the average user has three 
+
+devices; 18 percent of respondents had five or more devices.
+Mobile Malware
+Users’ concern for security stems largely from reports of malware on mobile devices. 
+Reports of malicious applications, called apps, come from all major antivirus product 
+
+and analysis companies. Victor Chebyshev and Roman Unuchek of Kaspersky Labs 
+
+(a major antivirus product and research firm) studied malware for mobile devices found 
+
+by their labs in 2013 [CHE14a]. The labs identified 143,211 distinct new forms of mal-
+
+ware in calendar year 2013. Thus, attacks against mobile devices are certainly plentiful.
+Most attacks targeted Android devices, by a margin far in excess of its market share. 
+By Kaspersky’s count 98.05 percent of all malware for mobile platforms targeted 
+
+Android. As Chebyshev and Unuchek say, this figure “[confirms] both the popularity of 
+
+this mobile OS and the vulnerability of its architecture.” By architecture these research-
+
+ers also mean the kinds of apps that the operating system permits to be installed. We 
+
+begin by exploring how Apple and Windows have such dramatically lower counts of 
+
+malware.
+Sources of Applications
+Apple allows only apps from its app store to be loaded on its devices. A developer sub-
+mits an app for approval; after review Apple puts the app in its app store, from which 
+
+users can download and install it. As of the writing of this book, Apple reported on 
+
+its website (https://developer.apple.com/appstore/resources/approval/index.html) that it 
+
+had completed reviews within five business days of 93 percent of new apps and 98 per-
+
+cent of updates to current apps. (A completed review means that the app was either 
+
+accepted for distribution through the iOS app store or was rejected and returned to the 
+
+submitter.) Among things Apple says it rejects are apps distributing pornography and 
+
+apps that significantly duplicate existing ones in functionality and usability. Apple does 
+
+not give details about the review-and-approval process, although the speed of approval 
+
+and the volume of apps imply that the security aspect of the process cannot be too rig-
+
+orous. And as we’ve seen in earlier chapters, no review (no matter how extensive) can 
+
+guarantee foolproof security.
+Once approved, apps are signed, using a certificate approach similar to that described 
+in Chapter 2. The operating system checks the certificate of an app before installing it 
+
+on a mobile device, so only authorized developers and authorized code can be run. The 
+
+signing also prevents malicious modification of an existing app (the modification of 
+
+which would no longer match the original signature).

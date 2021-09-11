@@ -1,0 +1,49 @@
+666 Chapter 10  
+Management and Incidents• coordination centers to coordinate incident response activity across organiza-
+tions, so that work is not duplicated unnecessarily and efforts proceed toward 
+
+the same goals• so-called national CSIRTs with coordination responsibility within a country and 
+to national CSIRTs of other countries
+• sector CSIRTs to assist with investigating and handling incidents specific to a 
+particular business sector, for example, financial institutions or medical facili-
+
+ties; some attacks focus on one type of target (for example, in 2013 large banks 
+
+were the target of massive denial-of-service attacks)
+• vendor CSIRTs to address or participate in incidents involving one manufac-
+turer’s products
+• outsourced CSIRT teams, 
+hired to perform incident 
+
+response services on con-
+
+tract to other companiesA related concept is the security operations center (SOC), which performs the day-to-day monitoring of a network and may be the first to detect and report an unusual 
+
+situation. Also, information sharing and analysis centers (ISACs) perform some CSIRT 
+
+functions by sharing threat and incident data across CSIRTs.
+CSIRT Activity
+Responsibilities of a CSIRT include:
+• Reporting: receiving reports of suspected incidents and reporting as appropriate 
+to senior management• Detection: investigation to determine if an incident occurred
+• Triage
+: immediate action to address urgent needs
+• Response: coordination of effort to address all aspects in a manner appropriate 
+to severity and time demands
+• Post-mortem
+: declaring the incident over and arranging to review the case to 
+improve future response
+• Education: preventing harm by advising on good security practices and dissemi-
+nating lessons learned from past incidentsThe proactive role of a CSIRT in preventing attacks is increasing in importance, 
+reports Robin Ruefle’s team [RUE14]. Teams study current data to predict future attack 
+
+trends as a way to determine where to invest preventive resources.
+Team Membership
+Not uncommonly the incident response team of a large organization has 50 or more 
+members.At different times response teams need a variety of skills, including the ability to
+• collect, analyze, and preserve digital forensic evidence
+• analyze data to infer trends
+CSIRTs operate in organizations, 
+nationally, internationally, by vendor, 
+
+and by business sector.

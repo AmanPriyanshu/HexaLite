@@ -1,0 +1,40 @@
+ Section 6.7  Firewalls 
+451  Architecture (a) affords some advantages over architecture (b). First, host A becomes 
+a single point of failure: If gateway A is not available for any reason, it cannot pass traf-
+
+fic to or from B–E, meaning they are effectively disconnected from the network. Fur-
+
+thermore, the gateway device A becomes a potential bottleneck, so devices B through 
+
+E share access through A; if A is slow or if one of B–E consumes a large amount of 
+
+network bandwidth, the other machines’ performance suffers.
+We can even expand the notion of protected subnets to two or more subnets, as shown 
+in Figure 6-51. The three subnets 
+
+could be for separate departments or 
+user groups, or they could be allo-
+
+cated geographically. Of course, the 
+
+more subnets gateway A supports, 
+
+the more risk if device A fails.
+Reconfiguring the architecture of a network limits or complicates movement, but it 
+does not address the central security goal of controlled access. To accomplish that goal 
+
+we depend on a device called a firewall, which we describe next.
+6.7 FIREWALLS
+Firewalls in buildings, as their name implies, are walls intended to inhibit the spread 
+
+of fire from one part of a building to another, for example, between one apartment and 
+
+the next. Firewalls are built of materials that withstand fires of a particular intensity or 
+ABACDE
+Subnet 1Subnet 2Subnet 3JKL
+IHFGFIGURE 6-51 Multiple Protected SubnetsProtected subnetworks can separate 
+departments, projects, clients, areas—
+
+any subgroup requiring controlled 
+
+access to data or communication.

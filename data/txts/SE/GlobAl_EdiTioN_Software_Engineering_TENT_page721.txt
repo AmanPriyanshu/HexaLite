@@ -1,0 +1,45 @@
+˜˜˚˛ˆ˜˜˜˜˜˜
+Software metricDescriptionFan-in/Fan-outFan-in is a measure of the number of functions or methods that call another function or method (say X). Fan-out is the number of functions that are called by 
+function X. A high value for fan-in means that X is tightly coupled to the rest of the 
+design and changes to X will have extensive knock-on effects. A high value for 
+fan-out suggests that the overall complexity of X may be high because of the 
+complexity of the control logic needed to coordinate the called components.Length of codeThis is a measure of the size of a program. Generally, the larger the size of the code 
+of a component, the more complex and error-prone that component is likely to be. 
+Length of code has been shown to be one of the most reliable metrics for 
+predicting error-proneness in components.Cyclomatic complexityThis is a measure of the control complexity of a program. This control complexity may 
+
+be related to program understandability. I discuss cyclomatic complexity in Chapter 8.Length of identifiersThis is a measure of the average length of identifiers (names for variables, classes, 
+methods, etc.) in a program. The longer the identifiers, the more likely they are to 
+be meaningful and hence the more understandable the program.Depth of conditional 
+nestingThis is a measure of the depth of nesting of if-statements in a program. Deeply 
+nested if-statements are hard to understand and potentially error-prone.Fog indexThis is a measure of the average length of words and sentences in documents. 
+The˜higher the value of a document™s Fog index, the more difficult the document is 
+to understand.Figure 24.11 Static software product  
+metricsA clear relationship usually exists between dynamic metrics and software quality characteristics. It is fairly easy to measure the execution time required for particular 
+functions and to assess the time required to start up a system. These functions relate 
+
+directly to the system™s efficiency. Similarly, the number of system failures and the 
+type of failure can be logged and related directly to the reliability of the software. 
+
+I˜have explained how reliability can be measured in Chapter 12.Static metrics, as shown in Figure 24.11, have an indirect relationship with quality 
+attributes. A large number of different metrics have been proposed, and many exper-iments have tried to derive and validate the relationships between these metrics and 
+
+attributes, such as system complexity and maintainability. None of these experiments 
+
+have been conclusive, but program size and control complexity appear be the most 
+
+reliable predictors of understandability, system complexity, and maintainability.The metrics in Figure 
+24.
+11 are applicable to any program, but more specific 
+object-oriented metrics have also been proposed. Figure 24.12 summarizes 
+
+Chidamber and Kemerer™s suite (sometimes called the CK suite) of six object-
+ oriented metrics (Chidamber and Kemerer 1994). Although these metrics were orig-
+inally proposed in the early 1990s, they are still the most widely used object-oriented 
+(OO) metrics. Some UML design tools automatically collect values for these 
+
+metrics as UML 
+ diagrams are created.
+El-Amam™s review of object-oriented metrics discussed the CK metrics and other 
+OO metrics (El-Amam 2001). It concluded that there was insufficient evidence to 
+understand how these and other object-oriented metrics relate to external software 

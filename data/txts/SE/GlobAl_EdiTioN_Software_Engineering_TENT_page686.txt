@@ -1,0 +1,37 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜makes a difference, and some models explicitly estimate the number of lines of code 
+reused. However, if application systems or external services are reused, it is very 
+
+difficult to compute the number of lines of source code that these replace.Algorithmic cost models are a systematic way to estimate the effort required to develop a system. However, these models are complex and difficult to use. There are 
+many attributes and considerable scope for uncertainty in estimating their values. 
+
+This complexity means that the practical application of algorithmic cost modeling 
+
+has been limited to a relatively small number of large companies, mostly working in 
+defense and aerospace systems engineering.Another barrier that discourages the use of algorithmic models is the need for 
+calibration. Model users should calibrate their model and the attribute values 
+
+using their own historical project data, as this reflects local practice and experi-ence. However, very few organizations have collected enough data from past pro-jects in a form that supports model calibration. Practical use of algorithmic 
+
+models, therefore, has to start with the published values for the model parameters. 
+
+It is practically impossible for a modeler to know how closely these relate to his 
+
+or her organization.If you use an algorithmic cost estimation model, you should develop a range of 
+estimates (worst, expected, and best) rather than a single estimate and apply the 
+
+costing formula to all of them. Estimates are most likely to be accurate when you 
+
+understand the type of software that is being developed and have calibrated the cost-
+ing model using local data, or when programming language and hardware choices 
+
+are predefined.
+The best known algorithmic cost modeling technique and tool is the COCOMO II 
+model. This empirical model was derived by collecting data from a large number of 
+software projects of different sizes. These data were analyzed to discover the formu-
+las that were the best fit to the observations. These formulas linked the size of the Software productivitySoftware productivity is an estimate of the average amount of development work that software engineers  complete 
+in a week or a month. It is therefore expressed as lines of code/month, function points/month, and so forth.However, while productivity can be easily measured where there is a tangible outcome (e.g., an administrator processes N travel claims/day), software productivity is more difficult to define. Different people may implement 
+the same functionality in different ways, using different numbers of lines of code. The quality of the code is also 
+important but is, to some extent, subjective. Therefore, you can™t really compare the productivity of individual 
+engineers. It only makes sense to use productivity measures with large groups.http://software-engineering-book.com/web/productivity/

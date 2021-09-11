@@ -1,0 +1,28 @@
+810 Chapter 12  
+Details of CryptographyFIGURE 12-12  Correct FiltersTransmitted
+Perceived Results 
+Correct Results FilterSam tells Ruth which filters were the correct ones she used, as shown in Fig-
+ure 12-12, from which Ruth can determine which of the results obtained were correct, 
+as shown in Figure 12-13. In this example, Ruth happened to choose the right filter six 
+
+times out of ten, slightly higher than expected, and so six of the ten photons transmitted 
+
+were received correctly. Remembering that 
+ or
+ means 0 and 
+ or  means 1, Ruth 
+can convert the photons to bits, as shown in the figure. In general, only half the photons 
+
+transmitted will be received correctly, and so only half the bandwidth of this communi-
+
+cation channel carries meaningful data.Notice that Ruth can tell Sam which filters she used and Sam can tell Ruth which of 
+those will yield correct results without revealing anything about the actual bits transmit-
+
+ted. In this way, Sam and Ruth can talk 
+about their transmission without an eavesdrop-
+per’s knowing what they actually share.
+FIGURE 12-13 Correct ResultsTransmitted
+Perceived Results 
+Correct Results 0111
+00Bit Transmitted
+Filter

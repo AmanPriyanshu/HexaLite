@@ -1,0 +1,36 @@
+˜˜˚ˆ˜˜˜
+˜˜
+For example, a system for supply chain management can be adapted for different 
+types of suppliers, goods, and contractual arrangements.As a software designer, you can use models of application architectures in a num-ber of ways:1. As a starting point for the architectural design process 
+If you are unfamiliar 
+with the type of application that you are developing, you can base your initial 
+design on a generic application architecture. You then specialize this for the 
+
+specific  system that is being developed.2. As a design checklist If you have developed an architectural design for an appli-
+cation system, you can compare this with the generic application architecture. 
+
+You can check that your design is consistent with the generic architecture.3. As a way of organizing the work of the development team The application archi-
+tectures identify stable structural features of the system architectures, and in 
+
+many cases, it is possible to develop these in parallel. You can assign work to 
+group members to implement different components within the architecture.4. As a means of assessing components for reuse If you have components you 
+
+might be able to reuse, you can compare these with the generic structures to see 
+whether there are comparable components in the application architecture.5. As a vocabulary for talking about applications If you are discussing a specific 
+application or trying to compare applications, then you can use the concepts 
+
+identified in the generic architecture to talk about these applications.There are many types of application system, and, in some cases, they may seem to 
+be very different. However, superficially dissimilar applications may have much in 
+common and thus share an abstract application architecture. I illustrate this by 
+
+describing the architectures of two types of application:1. Transaction processing applications Transaction processing applications are 
+database-centered applications that process user requests for information and 
+
+update the information in a database. These are the most common types of inter-
+active business systems. They are organized in such a way that user actions 
+
+can™t interfere with each other and the integrity of the database is maintained. 
+
+This class of system includes interactive banking systems, e-commerce systems, 
+information systems, and booking systems.Application architecturesThere are several examples of application architectures on the book™s website. These include descriptions of 
+batch data-processing systems, resource allocation systems, and event-based editing systems.http://software-engineering-book.com/web/apparch/

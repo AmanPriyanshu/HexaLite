@@ -1,0 +1,55 @@
+ Section 4.2  Web Attacks Targeting Users 
+257  clicked is something like “For a free prize, click [Here].” The victim clicks where 
+[Here] is on the screen, but [Here] is not a button at all; it is just a picture directly under 
+
+[Yes] (which is invisible). The mouse click selects the [Yes] button. 
+It is easy to see how this attack would be used. The attacker chooses an action to 
+which the user would ordinarily not agree, such as
+• Do you really want to delete all your files?
+• Do you really want to send your contacts list to a spam merchant?
+
+• Do you really want to install this program?
+
+• Do you really want to change your password to AWordYouDontKnow?
+
+• Do you really want to allow the world to have write access to your profile?
+For each such question, the clickjacking attacker only has to be able to guess where 
+the confirmation box will land, make it transparent, and slip the For a Free Prize, Click 
+
+[Here] box under the invisible [Yes] button of the dangerous action’s confirmation box.
+These examples give you a sense of the potential harm of clickjacking. A surveil-
+lance attack might activate a computer camera and microphone, and the attack would 
+
+cover the confirmation box; this attack was used against Adobe Flash, as shown in the 
+
+video at http://www.youtube.com/watch?v=gxyLbpldmuU. Sidebar 4-7 describes how 
+
+numerous Facebook users were duped by a clickjacking attack.
+A clickjacking attack succeeds because of what the attacker can do: 
+• choose and load a page with a confirmation box that commits the user to an 
+action with one or a small number of mouse clicks (for example, “Do you want 
+
+to install this program? [Yes] [Cancel]”)
+• change the image’s coloring to transparent
+
+• move the image to any position on the screen
+SIDEBAR 4-7 Facebook Clickjack Attack
+In Summer 2010, thousands of Facebook users were tricked into posting 
+that they “liked” a particular site. According to BBC news (3 June 2010), 
+
+victims were presented with sites that many of their friends had “liked,” 
+
+such as a video of the World Cup tennis match. When the users clicked 
+
+to see the site, they were presented with another message asking them to 
+
+click to confirm they were over age 18.
+What the victims did not see was that the confirmation box was a 
+sham underneath an invisible box asking them to confirm they “liked” the 
+
+target web site. When the victims clicked that they were over 18, they were 
+
+really confirming their “like” of the video.
+This attack seems to have had no malicious impact, other than driving up the “like” figures on certain benign web sites. You can readily imagine 
+
+serious harm from this kind of attack, however.

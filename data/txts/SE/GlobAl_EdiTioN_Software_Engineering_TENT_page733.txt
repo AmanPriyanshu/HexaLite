@@ -1,0 +1,37 @@
+teams may be involved in the development of different system versions. Figure 25.2 shows situations where three versions of a system are being developed:1. Version 1.5 of the system has been developed to repair bug fixes and improve the performance of the first release of the system. It is the basis of the second 
+system release (R1.1).2. Version 2.4 is being tested with a view to it becoming release 2.0 of the system. 
+No new features are being added at this stage.3.
+ Version 3 is a development system where new features are being added in 
+
+response to change requests from customers and the development team. This 
+
+will eventually be released as release 3.0.These different versions have many common components as well as components or 
+component versions that are unique to that system version. The CM system keeps track 
+
+of the components that are part of each version and includes them as required in the 
+
+system build.In large software projects, configuration management is sometimes part of soft
+-ware quality management (covered in Chapter 24). The quality manager is responsi
+-
+ble for both quality management and configuration management. When a pre-release 
+version of the software is ready, the development team hands it over to the quality 
+management team. The QM team checks that the system quality is acceptable. If so, 
+it then becomes a controlled system, which means that all changes to the system 
+
+have to be agreed on and recorded before they are implemented.Many specialized terms are used in configuration management. Unfortunately, 
+these are not standardized. Military software systems were the first systems in which 
+software CM was used, so the terminology for these systems reflected the processes 
+and terminology used in hardware configuration management. Commercial systems 
+developers did not know about military procedures or terminology and so often 
+
+invented their own terms. Agile methods have also devised new terminology in 
+
+order to distinguish the agile approach from traditional CM methods.V1.0V1.1V1.2
+Development versionsV1.3
+V1.4
+V1.5
+R1.0R1.1ReleasesV2.1V2.2
+V2.3
+V2.4
+Pre-releaseversionsVersion 1Version 2Version 3123Figure 25.2  Multiversion system 
+development˜˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜˜

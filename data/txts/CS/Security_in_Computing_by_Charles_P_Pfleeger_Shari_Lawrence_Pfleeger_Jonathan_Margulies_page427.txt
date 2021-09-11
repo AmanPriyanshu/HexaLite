@@ -1,0 +1,69 @@
+ Section 6.3  Wireless Network Security 
+393  Integrity Program
+ (TKIP), by which the encryption key is changed automatically on 
+each packet.
+WPA also uses a hierarchy of keys to establish a new key for each session. These 
+keys permit the access point (called the authenticator) and the connecting device (called 
+
+the supplicant) to create and exchange keys for confidentiality and integrity that are 
+
+unique to the association session.Authentication Second, WEP uses the encryption key as an authenticator, albeit insecurely. WPA 
+
+employs the extensible authentication protocol (EAP) by which authentication can be 
+
+done by password, token, certificate, or other mechanism. For small network (home) 
+
+users, this probably still means a shared secret, which is not ideal. Users are prone to 
+select weak keys, such as short numbers or passphrases subject to a dictionary attack.
+Strong Encryption The encryption algorithm for WEP had been RC4, which has cryptographic flaws both 
+
+in key length and design [ARB02]. In WEP the initialization vector for RC4 is only 24 
+
+bits, a size so small that collisions commonly occur; furthermore, WEP does not check 
+
+against initialization vector reuse.
+WPA2 adds AES as a possible encryption algorithm (although RC4 is also still sup-
+ported for compatibility). AES (described in Chapter 2) is a much stronger encryption 
+
+algorithm, in part because it uses a longer encryption key (which increases the time for 
+
+an exhaustive search from days to millennia). 
+Integrity Protection WEP includes a 32-bit integrity check separate from the data portion. But because the 
+
+WEP encryption is subject to cryptanalytic attack [FLU01], the integrity check was also 
+
+subject, so an attacker could modify content and the corresponding check without hav-
+
+ing to know the associated encryption key [BOR01]. WPA includes a 64-bit integrity 
+
+check that is encrypted.Session Initiation The setup protocol for WPA and WPA2 is much more robust than that for WEP. Setup 
+
+for WPA involves three protocol steps: authentication, a four-way handshake (to ensure 
+
+that the client can generate cryptographic keys and to generate and install keys for both 
+
+encryption and integrity on both ends), and an optional group key handshake (for multi-
+
+cast communication). Lehembre [LEH05] affords a good overview of the WPA protocols.
+WPA and WPA2 address the security deficiencies known in WEP. Arazi et al. 
+[ARA05] make a strong case for public key cryptography in wireless sensor networks, 
+
+and a similar argument can be made for other wireless applications (although the 
+
+heavier computation demands of 
+
+public key encryption is a limiting 
+
+factor on wireless devices with lim-
+
+ited processor capabilities). WEP 
+
+use is declining in favor of WPA, as 
+
+described in Sidebar 6-15.WPA fixes many shortcomings of WEP 
+
+by using stronger encryption; longer, 
+
+changing keys; and secure integrity 
+
+checks.

@@ -1,0 +1,32 @@
+ Section 3.3  Countermeasures 
+203  The virus scanner can use a code or checksum to detect changes to a file. It can also 
+look for suspicious patterns, such as a JUMP instruction as the first instruction of a sys-
+
+tem program (in case the virus has positioned itself at the bottom of the file but is to be 
+
+executed first, as we saw in Figure 3-25). 
+Countermeasures for Developers
+Against this threat background you may well ask how anyone can ever make secure, 
+
+trustworthy, flawless programs. As the size and complexity of programs grows, the 
+
+number of possibilities for attack does, too.In this section we briefly look at some software engineering techniques that have 
+been shown to improve the security of code. Of course, these methods must be used 
+
+effectively, for a good method used improperly or naïvely will not make programs better 
+
+by magic. Ideally, developers should have a reasonable understanding of security, and 
+
+especially of thinking in terms of threats and vulnerabilities. Armed with that mindset 
+
+and good development practices, programmers can write code that maintains security.
+Software Engineering Techniques
+Code usually has a long shelf-life and is enhanced over time as needs change and faults 
+are found and fixed. For this reason, a key principle of software engineering is to create 
+
+a design or code in small, self-contained units, called components or modules; when a 
+system is written this way, we say that it is 
+modular. Modularity offers advantages for 
+program development in general and security in particular.
+OriginalProgramIF (--)
+JUMPSeparateVirusModuleOriginalProgramAttachedVirus CodeRecognizablesignature elementsFIGURE 3-25 Recognizable Patterns in Viruses

@@ -1,0 +1,54 @@
+822 PART FIVE  
+ADVANCED TOPICS
+engineering practices. Schorsch [Sch06] suggests four levels of organizational immaturity that are often encountered in the real world of software development:   
+ 
+Level 0, Negligent 
+—Failure to allow successful development process to succeed. All problems are perceived to be technical problems. Managerial and quality assurance 
+activities are deemed to be overhead and superﬂ uous to the task of software devel-
+opment process. Reliance on silver pellets.   
+Level 1, Obstructive 
+—Counterproductive processes are imposed. Processes are rigidly deﬁ ned and adherence to the form is stressed. Ritualistic ceremonies abound. 
+Collective management precludes assigning responsibility. Status quo über alles. 
+  
+Level 2, Contemptuous 
+—Disregard for good software engineering institutional-ized. Complete schism between software development activities and software pro-
+cess improvement activities. Complete lack of a training program.   
+Level 3, Undermining 
+—Total neglect of own charter, conscious discrediting of peer 
+organizations software process improvement efforts. Rewarding failure and poor 
+performance.  
+  
+Schorsch’s immaturity levels are toxic for any software organization. If you 
+encounter any one of them, attempts at SPI are doomed to failure.  The overriding question is whether maturity scales, such as the one proposed as part of the CMM, provide any real beneﬁ t. We think that they do. A maturity 
+scale provides an easily understood snapshot of process quality that can be used 
+by practitioners and managers as a benchmark from which improvement strat-
+egies can be planned.   
+ 
+ 
+37.1.3  Is SPI for Everyone?  
+For many years, SPI was viewed as a “corporate” activity—a euphemism for some-thing that only large companies perform. But today, a signiﬁ
+ cant percentage of all 
+software development is being performed by companies that employ fewer than 
+100 people. Can a small company initiate SPI activities and do it successfully?   
+ 
+ 
+ 
+ 
+There are substantial cultural differences between large software develop-ment organizations and small ones. It should come as no surprise that small or-
+
+ganizations are more informal, apply fewer standard practices, and tend to be 
+self-organizing. They also tend to pride themselves on the “creativity” of individ-
+ual members of the software organization, and initially view an SPI framework 
+as overly bureaucratic and ponderous. Yet, process improvement is as important 
+
+for a small organization as it is for a large one.  Within small organizations the implementation of an SPI framework re-
+quires resources that may be in short supply. Managers must allocate people 
+
+and money to make software engineering happen. Therefore, regardless of the 
+
+size of the software organization, it’s reasonable to consider the business moti-
+vation for SPI.    If a speciﬁ c process 
+model or SPI approach 
+feels like overkill for 
+your organization, it 
+probably is. pre22126_ch37_817-838.indd   822pre22126_ch37_817-838.indd   82213/12/13   6:17 PM13/12/13   6:17 PM

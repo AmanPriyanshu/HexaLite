@@ -1,0 +1,60 @@
+488 Chapter 6  
+NetworksAccurate Situation AssessmentIntrusion detection systems are not perfect, and mistakes are their biggest problem. 
+Although an IDS might detect an intruder correctly most of the time, it may stumble in 
+two different ways: by raising an alarm for something that is not really an attack (called 
+
+a false positive, or type I error in the statistical community) or not raising an alarm for a 
+
+real attack (a false negative, or type II error). Too many false positives, as with the Tar-
+
+get breach, means the administrator will be less confident of the IDS’s warnings, per-
+
+haps leading to a real alarm’s being ignored. But false negatives mean that real attacks 
+
+are passing the IDS without action. We say that the degree of false positives and false 
+
+negatives represents the sensitivity of the system. Most IDS implementations allow the 
+
+administrator to tune the system’s sensitivity in order to strike an acceptable balance 
+
+between false positives and negatives.
+IDS Strengths and Limitations
+Intrusion detection systems are evolving products. Research began in the mid-1980s 
+
+and commercial products had appeared by the mid-1990s. However, this area continues 
+
+to change as new research influences the design of products.
+On the upside, IDSs detect an ever-growing number of serious problems. And as we 
+learn more about problems, we can add their signatures to the IDS model. Thus, over 
+
+time, IDSs continue to improve. At the same time, they are becoming cheaper and easier 
+
+to administer.
+On the downside, avoiding an IDS is a high priority for successful attackers. An IDS 
+that is not well defended is useless. Fortunately, stealth mode IDSs are difficult even to 
+
+find on an internal network, let alone to compromise.
+IDSs look for known weaknesses, whether through patterns of known attacks or 
+models of normal behavior. Similar IDSs may have identical vulnerabilities, and their 
+
+selection criteria may miss similar attacks. Knowing how to evade a particular model 
+
+of IDS is an important piece of intelligence passed within the attacker community. Of 
+
+course, once manufacturers become aware of a shortcoming in their products, they try 
+
+to fix it. Fortunately, commercial IDSs are pretty good at identifying attacks.
+Another IDS limitation is its sensitivity, which is difficult to measure and adjust. 
+IDSs will never be perfect, so finding the proper balance is critical.
+A final limitation is not of IDSs per se, but is one of use. An IDS does not run itself; 
+someone has to monitor its track record and respond to its alarms. An administrator is 
+
+foolish to buy and install an IDS and then ignore it.
+In general, IDSs are excellent additions to a network’s security. Firewalls block traf-
+fic to particular ports or addresses; they also constrain certain protocols to limit their 
+
+impact. But by definition, firewalls have to allow some traffic to enter a protected area. 
+
+Watching what that traffic actually does inside the protected area is an IDS’s job, which 
+
+it does quite well.

@@ -1,0 +1,78 @@
+CHAPTER 32  
+PROCESS AND PROJECT METRICS 721 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+32.4.3   
+Metrics Collection, Computation, and Evaluation  
+The process for establishing a metrics baseline is illustrated in   
+Figure 32.3  
+. Ideally, 
+data needed to establish a baseline have been collected in an ongoing manner. 
+
+Sadly, this is rarely the case. Therefore, data collection requires an historical 
+
+investigation of past projects to reconstruct required data. Once measures have 
+been collected (unquestionably the most difﬁ cult step), metrics computation is 
+possible. Depending on the breadth of measures collected, metrics can span 
+a broad range of application-oriented metrics (e.g., LOC, FP, object-oriented, 
+
+ WebApp) as well as other quality- and project-oriented metrics. Finally, metrics 
+must be evaluated and applied during estimation, technical work, project con-
+trol, and process improvement. Metrics evaluation focuses on the underlying 
+reasons for the results obtained and produces a set of indicators that guide the 
+project or process.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 32.5  
+METRICS FOR SMALL ORGANIZATIONS
+  
+ 
+The vast majority of software development organizations have fewer than 20 soft-ware people. It is unreasonable, and in most cases unrealistic, to expect that such 
+organizations will develop comprehensive software metrics programs. However, 
+
+it is reasonable to suggest that software organizations  10 
+ 
+ of all sizes measure and 
+then use the resultant metrics to help improve their local software process and 
+the quality and timeliness of the products they produce.   
+ 
+ 
+A small organization can begin by focusing not on measurement but rather on results. The software group is polled to deﬁ ne a single objective that requires 
+   If you’re just starting 
+to collect metrics data, 
+remember to keep it 
+simple. If you bury 
+
+yourself with data, 
+your metrics effort 
+
+will fail.   
+10  This discussion is equally relevant to software teams that have adopted an agile software de-
+velopment process (Chapter 5). SoftwareengineeringprocessSoftwareprojectSoftwareproductDatacollectionMetricscomputationMetricsevaluationMeasuresMetricsIndicators FIGURE 32.3 
+Software 
+ metrics  collection process
+pre22126_ch32_703-726.indd   721pre22126_ch32_703-726.indd   72113/12/13   6:17 PM13/12/13   6:17 PM

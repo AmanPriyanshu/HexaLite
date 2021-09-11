@@ -1,0 +1,119 @@
+224  
+ Software design encompasses the set of principles, concepts, and prac-tices that lead to the development of a high-quality system or product. 
+Design principles establish an overriding philosophy that guides the de-sign work you must perform. Design concepts must be understood before the 
+mechanics of design practice are applied, and design practice itself leads to 
+the creation of various representations of the software that serve as a guide 
+for the construction activity that follows.  Design is pivotal to successful software engineering. In the early 1990s Mitch Kapor, the creator of Lotus 1-2-3, presented a “software design mani-
+
+festo” in  Dr. Dobbs Journal.
+ 
+ He wrote: 
+ 
+What is design? It’s where you stand with a foot in two worlds—the world of 
+ technology and the world of people and human purposes—and you try to bring   
+ 
+KEY CONCEPTS     abstraction. . . . . . 232   
+   architecture  . . . . . 232   
+
+   aspects. . . . . . . . . 237   
+
+   cohesion. . . . . . . . 236   
+
+   data design. . . . . . 244   
+
+   design process  . . . 228   
+
+   functional 
+
+independence  . . . . 236   
+
+   good design  . . . . . 228   
+
+   information hiding. 235   
+
+   modularity  . . . . . . 234   
+
+   object-oriented 
+
+design  . . . . . . . . . 238   
+
+   patterns. . . . . . . . 233   
+
+   quality attributes  . .230 
+   
+DESIGN CONCEPTS 12   
+ 
+ 
+CHAPTER 
+ 
+QUICK LOOK   
+What is it?   
+Design is what almost 
+every engineer wants to do. It is the 
+
+place where creativity rules—where 
+
+stakeholder requirements, business 
+needs, and technical considerations all come 
+
+together in the formulation of a product or sys-
+
+tem. Design creates a representation or model 
+
+of the software, but unlike the requirements 
+
+model (that focuses on describing required 
+
+data, function, and behavior), the design model 
+
+provides detail about software architecture, 
+
+data structures, interfaces, and components that 
+
+are necessary to implement the system. 
+  
+ 
+Who does it?   
+Software engineers conduct each of the design tasks.   
+ 
+Why is it important?
+   
+Design allows you to model the system or product that is to be built. 
+This model can be assessed for quality and 
+improved before code is generated, tests are 
+conducted, and end users become involved in 
+large numbers. Design is the place where soft-
+ware quality is established.   
+ 
+What are the steps?   
+Design depicts the soft-ware in a number of different ways. First, the architecture of the system or product must be represented. Then, the interfaces that connect 
+
+the software to end users, to other systems and 
+devices, and to its own constituent components 
+are modeled. Finally, the software components 
+
+that are used to construct the system are de-
+signed. Each of these views represents a differ-
+
+ent design action, but all must conform to a set 
+
+of basic design concepts that guide software 
+design work.   
+ 
+What is the work product?
+   
+A design model that encompasses architectural, interface, 
+
+ component-level, and deployment representa-tions is the primary work product that is pro-
+
+duced during software design.   
+ 
+How do I ensure that I’ve done it right?   
+The design model is assessed by the software team in an effort to determine 
+
+whether it contains errors, inconsistencies, or 
+omissions; whether better alternatives exist; 
+
+and whether the model can be implemented 
+within the constraints, schedule, and cost that 
+have been established. pre22126_ch12_224-251.indd   224pre22126_ch12_224-251.indd   22413/12/13   6:12 PM13/12/13   6:12 PM

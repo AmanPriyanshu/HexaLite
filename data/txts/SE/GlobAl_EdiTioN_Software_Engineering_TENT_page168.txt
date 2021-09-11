@@ -1,0 +1,39 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜Architectural design is concerned with understanding how a software system should be organized and designing the overall structure of that system. In the model of the 
+software development process that I described in Chapter 2, architectural design is 
+the first stage in the software design process. It is the critical link between design and 
+
+requirements engineering, as it identifies the main structural components in a system 
+and the relationships between them. The output of the architectural design process is 
+an architectural model that describes how the system is organized as a set of 
+ communicating components.
+In agile processes, it is generally accepted that an early stage of an agile develop
+-ment process should focus on designing an overall system architecture. Incremental 
+development of architectures is not usually successful. Refactoring components in 
+
+response to changes is usually relatively easy. However, refactoring the system 
+
+architecture is expensive because you may need to modify most system components 
+to adapt them to the architectural changes.To help you understand what I mean by system architecture, look at Figure 6.1. This diagram shows an abstract model of the architecture for a packing robot system. 
+
+This robotic system can pack different kinds of objects. It uses a vision component 
+to pick out objects on a conveyor, identify the type of object, and select the right 
+
+kind of packaging. The system then moves objects from the delivery conveyor to be 
+
+packaged. It places packaged objects on another conveyor. The architectural model 
+shows these components and the links between them.In practice, there is a significant overlap between the processes of requirements engineering and architectural design. Ideally, a system specification should not 
+Vision
+systemObjectidentification
+systemArm
+controller
+Grippercontroller
+Packaging
+selectionsystemPacking
+systemConveyorcontroller
+Figure 6.1
+ The 
+architecture of a packing 
+
+robot control system

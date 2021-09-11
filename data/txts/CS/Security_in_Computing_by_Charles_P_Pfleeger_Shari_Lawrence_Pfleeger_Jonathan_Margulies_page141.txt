@@ -1,0 +1,61 @@
+ Section 2.3  Cryptography 
+107  Revised Key Exchange Protocol
+Remember that we began this discussion with a man-in-the-middle attack against a 
+simple key exchange protocol. The faulty protocol was 
+1. A says: B, please send me your public key.
+2. B replies: Here, A; this is my public key.
+3. A responds: Thanks. I have generated a symmetric key for us to use for this inter-
+change. I am sending you the symmetric key encrypted under your public key.
+At step 2 the intruder intercepts B’s public key and passes along the intruder’s. The 
+intruder can be foiled if A and B exchange half a key at a time. Half a key is useless to 
+
+the intruder because it is not enough to encrypt or decrypt anything. Knowing half the 
+
+key does not materially improve the intruder’s ability to break encryptions in the future.
+Rivest and Shamir [RIV84] have devised a solid protocol as follows.
+1. Amy sends her public key to Bill.
+2. Bill sends his public key to Amy.
+SIDEBAR 2-15 Aspidistra, a WW II Man in the Middle
+During World War II Britain used a man-in-the-middle attack to delude Ger-
+man pilots and civilians. Aspidistra, the name of a common houseplant also 
+known as cast-iron plant for its seeming ability to live forever, was also the 
+
+name given to a giant radio transmitter the British War Office bought from 
+
+RCA in 1942. The transmitter broadcast at 500 kW of power, ten times the 
+
+power allowed to any U.S. station at the time, which meant Aspidistra was 
+able to transmit signals from Britain into Germany.
+Part of the operation of Aspidistra was to delude German pilots by 
+broadcasting spurious directions (land, go here, turn around). Although the 
+
+pilots also received valid flight instructions from their own controllers, this 
+
+additional chatter confused them and could result in unnecessary flight and 
+
+lost time. This part of the attack was only an impersonation attack.
+Certain German radio stations in target areas were turned off to pre-
+vent their being beacons by which Allied aircraft could home in on the 
+
+signal; bombers would follow the signal and destroy the antenna and its 
+
+nearby transmitter if the stations broadcast continually. When a station was 
+
+turned off, the British immediately went on the air using Aspidistra on the 
+
+same frequency as the station the Germans just shut down. They copied 
+
+and rebroadcast a program from another German station, but they inter-
+
+spersed propaganda messages that could demoralize German citizens 
+
+and weaken support for the war effort.
+The Germans tried to counter the phony broadcasts by advising lis-
+teners that the enemy was transmitting and advising the audience to listen 
+for the official German broadcast announcement—which, of course, the 
+
+British duly copied and broadcast themselves. (More details and pictures 
+
+are at http://www.qsl.net/g0crw/Special%20Events/Aspidistra2.htm, and 
+
+http://bobrowen.com/nymas/radioproppaper.pdf.)

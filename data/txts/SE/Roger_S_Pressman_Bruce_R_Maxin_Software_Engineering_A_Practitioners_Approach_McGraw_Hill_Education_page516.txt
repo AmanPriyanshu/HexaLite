@@ -1,0 +1,75 @@
+486 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 22.8  
+SYSTEM TESTING  
+ 
+ 
+At the beginning of this book, we stressed the fact that software is only one el-ement of a larger computer-based system. Ultimately, software is incorporated 
+
+with other system elements (e.g., hardware, people, information), and a series 
+of system integration and validation tests are conducted. These tests fall out-
+side the scope of the software process and are not conducted solely by software 
+engineers. However, steps taken during software design and testing can greatly 
+
+improve the probability of successful software integration in the larger system.  A classic system-testing problem is “ﬁ nger pointing.” This occurs when an error 
+is uncovered, and the developers of different system elements blame each other 
+
+for the problem. Rather than indulging in such nonsense, you should anticipate po-
+tential interfacing problems and (1) design error-handling paths that test all infor-
+
+mation coming from other elements of the system, (2) conduct a series of tests that 
+
+simulate bad data or other potential errors at the software interface, (3) record the 
+
+results of tests to use as “evidence” if ﬁ nger pointing does occur, and (4) participate 
+in planning and design of system tests to ensure that software is adequately tested. 
+  
+ 
+22.8.1   
+Recovery Testing 
+ 
+Many computer-based systems must recover from faults and resume processing 
+with little or no downtime. In some cases, a system must be fault tolerant; that is, 
+processing faults must not cause overall system function to cease. In other cases, 
+a system failure must be corrected within a speciﬁ ed period of time or severe 
+economic damage will occur. 
+  
+Recovery testing 
+ is a system test that forces the software to fail in a variety of 
+ways and veriﬁ es that recovery is properly performed. If recovery is automatic 
+(performed by the system itself), reinitialization, checkpointing mechanisms, 
+data recovery, and restart are evaluated for correctness. If recovery requires 
+
+human intervention, the mean-time-to-repair (MTTR) is evaluated to determine 
+whether it is within acceptable limits.   
+ 
+ 
+22.8.2   
+Security Testing 
+ 
+Any computer-based system that manages sensitive information or causes actions 
+that can improperly harm (or beneﬁ t) individuals is a target for improper or illegal 
+penetration. Penetration spans a broad range of activities: hackers who attempt to 
+
+penetrate systems for sport, disgruntled employees who attempt to penetrate for 
+
+revenge, dishonest individuals who attempt to penetrate for illicit personal gain. 
+  
+Security testing 
+ attempts to verify that protection mechanisms built into a sys-
+tem will, in fact, protect it from improper penetration. To quote Beizer [Bei84]: 
+
+“The system’s security must, of course, be tested for invulnerability from frontal 
+
+attack—but must also be tested for invulnerability from ﬂ ank or rear attack.” 
+ Given enough time and resources, good security testing will ultimately pene-trate a system. The role of the system designer is to make penetration cost more   uote:  “Like death and 
+taxes, testing is 
+both unpleasant 
+and inevitable.”  Ed Yourdon 
+pre22126_ch22_466-495.indd   486pre22126_ch22_466-495.indd   48613/12/13   6:14 PM13/12/13   6:14 PM

@@ -1,0 +1,75 @@
+352 Chapter 6  
+Networksdata is called a 
+frame. Every NIC 
+puts data onto the communications 
+medium when it has data to transmit 
+
+and seizes from the network those 
+
+frames with its own address as a des-
+
+tination address.On the receiving (destination) side, this process is exercised in reverse: The NIC 
+card receives frames destined for it. The recipient network layer checks that the packet 
+
+is really addressed to it. Packets may not arrive in the order in which they were sent 
+
+(because of network delays or differences in paths through the network), so the session 
+
+layer may have to reorder packets. The presentation layer removes compression and sets 
+
+the appearance appropriate for the destination computer. Finally, the application layer 
+
+formats and delivers the data as a complete unit.
+The layering and coordinating are a lot of work, and each protocol layer does its 
+own part. But the work is worth the effort because the different layers are what enable 
+
+Outlook running on an IBM PC on an Ethernet network in Washington D.C. to com-
+
+municate with a user running Eudora on an Apple computer via a dial-up connection in 
+
+Prague. Moreover, the separation by layers helps the network staff troubleshoot when 
+
+something goes awry.
+RoutingWe still have not answered the question of how data get from a source NIC to the desti-
+nation. The Internet has many devices called 
+routers
+, whose purpose is to redirect pack-
+ets in an effort to get them closer to their destination. Routing protocols are intricate, but 
+
+basically when a router receives a packet it uses a table to determine the quickest path 
+
+to the destination and forwards the packet to the next step on that path. Routers commu-
+
+nicate with neighboring routers to 
+
+update the state of connectivity and 
+
+traffic flow; with these updates the 
+
+routers continuously update their 
+
+tables of best next steps.
+PortsAs we just described, data do not just magically slip into a computer or execute on 
+their own; some active program on the receiving computer has to accept the data and 
+
+store or process them. Some programs solicit data, like the box that prompts for a name 
+
+and password, but other times those data arrive from the network and must be directed 
+
+to a program that will handle them. An example of this latter case is incoming email: 
+
+New mail can be sent at any time, so a service program running on a computer has to 
+
+be ready to receive email and pass it along to a user’s email client such as Microsoft 
+
+Outlook or Mozilla Thunderbird. Such services are sometimes called 
+daemons; for 
+example, the daemon ready to receive incoming mail is named 
+popd, the daemon that supports the Post Office Protocol mail reception function.
+MAC address: unique identifier of a 
+
+network interface card that connects a 
+
+computer and a networkRouters direct traffic on a path that 
+
+leads to a destination.

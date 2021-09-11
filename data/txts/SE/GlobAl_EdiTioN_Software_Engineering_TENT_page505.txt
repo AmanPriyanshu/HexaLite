@@ -1,0 +1,42 @@
+˜˚˛˝ˆ˜˜˜˜˜˜˜˜˜˜
+that execute on the user™s local computer. The update problem for apps remains an 
+issue, but it has been addressed, to some extent, by automatically updating apps with
+-
+out explicit user intervention. Consequently, while it is sometimes helpful to use 
+
+these models as a general basis for the architecture of a distributed system, in practice 
+
+few web-based applications implement all processing on the remote server.The fundamental problem with a two-tier clientŒserver approach is that the logical layers 
+
+in the systemŠpresentation, application processing, data management, and databaseŠ
+must be mapped onto two computer systems: the client and the server. This may lead to 
+
+problems with scalability and performance if the thin-client model is chosen, or problems 
+
+of system management if the fat-client model is used. To avoid some of these problems, 
+
+a ﬁmulti-tier clientŒserverﬂ architecture can be used. In this architecture, the different lay-
+ers of the system, namely presentation, data management, application processing, and 
+
+database, are separate processes that may execute on different processors.An Internet banking system (Figure 17.10) is an example of a multi-tier clientŒserver architecture, where there are three tiers in the system. The bank™s customer 
+database (usually hosted on a mainframe computer as discussed above) provides 
+
+database services. A web server provides data management services such as web 
+
+page generation and some application services. Application services such as facili-
+ties to transfer cash, generate statements, pay bills, and so on are implemented in the 
+web server and as scripts that are executed by the client. The user™s own computer 
+
+with an Internet browser is the client. This system is scalable because it is relatively 
+
+easy to add servers (scale out) as the number of customers increase.In this case, the use of a three-tier architecture allows the information transfer 
+between the web server and the database server to be optimized. Efficient middle-
+ware that supports database queries in SQL (Structured Query Language) is used to 
+handle information retrieval from the database.Database serverCustomeraccountdatabaseWeb server
+ClientClientAccount serviceprovisionSQLSQL queryHTTPS interaction
+ClientClientTier 1. Presentation
+Tier 2. Application
+processing and datahandlingTier 3. Database
+processingFigure 17.10  Three-tier architecture for an 
+Internet banking  
+system

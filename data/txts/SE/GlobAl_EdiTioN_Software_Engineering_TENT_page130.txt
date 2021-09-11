@@ -1,0 +1,32 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜A number of requirements validation techniques can be used individually or in conjunction with one another:1. Requirements reviews The requirements are analyzed systematically by a team of reviewers who check for errors and inconsistencies.2. Prototyping This involves developing an executable model of a system and 
+using this with end-users and customers to see if it meets their needs and expec-
+tations. Stakeholders experiment with the system and feed back requirements 
+
+changes to the development team.3. Test-case generation Requirements should be testable. If the tests for the 
+
+requirements are devised as part of the validation process, this often reveals 
+
+requirements problems. If a test is difficult or impossible to design, this usually 
+means that the requirements will be difficult to implement and should be recon
+-
+sidered. Developing tests from the user requirements before any code is written 
+is an integral part of test-driven development.You should not underestimate the problems involved in requirements validation. Ultimately, it is difficult to show that a set of requirements does in fact meet a user™s 
+needs. Users need to picture the system in operation and imagine how that system 
+
+would fit into their work. It is hard even for skilled computer professionals to per-
+form this type of abstract analysis and harder still for system users.As a result, you rarely find all requirements problems during the requirements 
+validation process. Inevitably, further requirements changes will be needed to cor-
+rect omissions and misunderstandings after agreement has been reached on the 
+
+requirements document.The requirements for large software systems are always changing. One reason for 
+
+the frequent changes is that these systems are often developed to address ﬁwickedﬂ 
+problemsŠproblems that cannot be completely defined (Rittel and Webber 1973). 
+Because the problem cannot be fully defined, the software requirements are bound to Requirements reviewsA requirements review is a process in which a group of people from the system customer and the system devel-
+
+oper read the requirements document in detail and check for errors, anomalies, and inconsistencies. Once these 
+have been detected and recorded, it is then up to the customer and the developer to negotiate how the identi-
+
+fied problems should be solved.http://software-engineering-book.com/web/requirements-reviews/

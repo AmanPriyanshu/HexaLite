@@ -1,0 +1,57 @@
+358 PART TWO  
+MODELING 
+ 
+ 
+16.2.4  Building a Pattern-Organizing Table 
+ 
+As pattern-based design proceeds, you may encounter trouble organizing and categorizing candidate patterns from multiple pattern languages and reposito-
+ries. To help organize your evaluation of candidate patterns, Microsoft [Mic13] 
+
+suggests the creation of a  pattern-organizing table
+ 
+ that takes the general form 
+shown in  Figure 16.2 .   
+ 
+ 
+ 
+ 
+A pattern-organizing table can be implemented as a spreadsheet model using the form shown in the ﬁ gure. An abbreviated list of problem statements, orga-
+nized by data/content, architecture, component level, and user interface issues, 
+is presented in the left-hand (shaded) column. Four pattern types—database, ap-
+plication, implementation, and infrastructure—are listed across the top row. The 
+
+names of candidate patterns are noted in the cells of the table.  To provide entries for the organizing table, you’ll search through pattern 
+languages and repositories for patterns that address a particular problem 
+
+statement. When one or more candidate patterns is found, it is entered in 
+
+the row corresponding to the problem statement and the column that corre-
+sponds to the pattern type. The name of the pattern is entered as a hyperlink 
+
+to the URL of the Web address that contains a complete description of the 
+
+pattern. 
+ FIGURE 16.2 
+A pattern-
+organizing 
+
+table 
+ Source:   
+Adapted from [Mic04]. Problem statement ...Problem statement ...Problem statement ...User interface
+Problem statement ...Problem statement ...Problem statement ...Component-levelProblem statement ...Problem statement ...Problem statement ...ArchitectureProblem statement ...Problem statement ...Problem statement ...PatternName(s)
+PatternName(s)
+PatternName(s)
+PatternName(s)
+PatternName(s)
+PatternName(s)PatternName(s)
+PatternName(s)PatternName(s)
+PatternName(s)PatternName(s)
+PatternName(s)PatternName(s)
+
+PatternName(s)PatternName(s)
+PatternName(s)
+PatternName(s)
+PatternName(s)
+PatternName(s)
+PatternName(s)
+DatabaseData/ContentApplicationImplementationInfrastructurepre22126_ch16_347-370.indd   358pre22126_ch16_347-370.indd   35816/12/13   6:22 PM16/12/13   6:22 PM

@@ -1,0 +1,44 @@
+CHAPTER 35  
+RISK MANAGEMENT 785reevaluated to accomplish second-order prioritization. Referring to   
+Figure 35.3  
+, risk impact and probability have a distinct inﬂ uence on management concern. A 
+risk factor that has a high impact but a very low probability of occurrence should 
+not absorb a signiﬁ cant amount of management time. However, high-impact 
+risks with moderate to high probability and low-impact risks with high probabil-
+ity should be carried forward into the risk analysis steps that follow. 
+ 
+ 
+ 
+ 
+ 
+  All risks that lie above the cutoff line should be managed. The column labeled RMMM contains a pointer into a  risk mitigation, monitoring, and management plan 
+ or, alternatively, a collection of risk information sheets developed for all 
+risks that lie above the cutoff. The RMMM plan and risk information sheets are 
+discussed in Sections 35.5 and 35.6.  Risk probability can be determined by making individual estimates and then developing a single consensus value. Although that approach is workable, more 
+sophisticated techniques for determining risk probability have been developed 
+(e.g., [McC09]).   
+ 
+ 
+35.4.2   
+Assessing Risk Impact  
+Three factors affect the consequences that are likely if a risk does occur: its na-ture, its scope, and its timing. The nature of the risk indicates the problems that 
+are likely if it occurs. For example, a poorly deﬁ ned external interface to cus-
+tomer hardware (a technical risk) will preclude early design and testing and will 
+likely lead to system integration problems late in a project. The scope of a risk 
+combines the severity (just how serious is it?) with its overall distribution (how   
+ 
+ uote:  “[Today,] no one 
+has the luxury of 
+
+getting to know a 
+task so well that it 
+holds no surprises, 
+and surprises mean 
+risk.”  Stephen Grey 
+1.00Very low
+Very high
+ImpactManagementconcernHighDisregardrisk factorProbability
+of occurrence FIGURE 35.3 
+Risk and management 
+concern
+pre22126_ch35_777-794.indd   785pre22126_ch35_777-794.indd   78513/12/13   6:17 PM13/12/13   6:17 PM

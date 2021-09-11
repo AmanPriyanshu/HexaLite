@@ -1,0 +1,51 @@
+644 PART THREE  
+QUALITY MANAGEMENTand is supported by tools that enable the content author to characterize content in a manner that can be standardized for use within the Web or MobileApp. 
+ Once content exists, it must be converted to conform to the requirements of a CMS. This implies stripping raw content of any unnecessary information (e.g., 
+redundant graphical representations), formatting the content to conform to the 
+requirements of the CMS, and mapping the results into an information structure 
+that will enable it to be managed and published.   
+ 
+ 
+ 
+The management subsystem.   
+Once content exists, it must be stored in a re-pository, cataloged for subsequent acquisition and use, and labeled to deﬁ
+ ne 
+current status (e.g., is the content object complete or in development?), (2) the 
+
+appropriate version of the content object, and (3) related content objects. There-
+fore, the  management subsystem 
+ implements a repository that encompasses the 
+following elements:  
+ 
+ 
+•   
+Content database 
+—The information structure that has been established to store all content objects.   
+ 
+ 
+•   
+Database capabilities 
+—Functions that enable the CMS to search for spe-ciﬁ c content objects (or categories of objects), store and retrieve objects, 
+and manage the ﬁ le structure that has been established for the content. 
+  
+ 
+ 
+•   
+Conﬁ guration management functions
+ 
+—The functional elements and asso-ciated workﬂ ow that support content object identiﬁ
+ cation, version control, 
+change management, change auditing, and reporting.     The management 
+subsystem implements 
+a repository for all 
+
+content. Conﬁ guration 
+
+management is 
+performed within this 
+
+subsystem. DatabaseTemplates
+Server-side
+HTML code+ scriptsClient-side browserConfiguration objectsContentmanagementsystem FIGURE 29.6 
+Content management 
+systempre22126_ch29_623-652.indd   644pre22126_ch29_623-652.indd   64413/12/13   6:16 PM13/12/13   6:16 PM

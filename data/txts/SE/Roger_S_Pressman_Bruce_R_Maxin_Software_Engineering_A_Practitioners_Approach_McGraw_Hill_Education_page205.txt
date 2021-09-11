@@ -1,0 +1,102 @@
+CHAPTER 9  
+REQUIREMENTS MODELING: SCENARIO-BASED METHODS 175 
+As further conversations with the stakeholder (who plays the role of a home-owner) progress, the requirements-gathering team develops use cases for each 
+of the functions noted. In general, use cases are written ﬁ rst in an informal narra-
+tive fashion. If more formality is required, the same use case is rewritten using a 
+structured format similar to the one proposed in Chapter 8 and reproduced later 
+in this section as a sidebar. 
+ To illustrate, consider the function  
+access camera surveillance via the  Internet—display camera views 
+ ( 
+ACS-DCV 
+). The stakeholder who takes on the role of the  homeowner 
+ actor might write the following narrative: 
+ 
+ 
+Use case: Access camera surveillance via the Internet—display camera views (ACS-DCV) 
+   
+Actor: homeowner 
+  If I’m at a remote location, I can use any PC with appropriate browser software 
+to log on to the  SafeHome Products
+ 
+ website. I enter my user ID and two levels of 
+passwords and once I’m validated, I have access to all functionality for my in-
+stalled  SafeHome 
+ system. To access a speciﬁ
+ c camera view, I select “surveillance” 
+from the major function buttons displayed. I then select “pick a camera” and the 
+
+ﬂ oor plan of the house is displayed. I then select the camera that I’m interested 
+in. Alternatively, I can look at thumbnail snapshots from all cameras simultane-
+
+ously by selecting “all cameras” as my viewing choice. Once I choose a camera, 
+
+select “view” and a one-frame-per-second view appears in a viewing window that 
+
+is identiﬁ ed by the camera ID. If I want to switch cameras, I select “pick a camera” 
+and the original viewing window disappears and the ﬂ oor plan of the house is 
+displayed again. I then select the camera that I’m interested in. A new viewing 
+
+window appears. 
+ 
+  
+A variation of a narrative use case presents the interaction as an ordered  sequence of user actions. Each action is represented as a declarative sentence. Revisiting the  ACS-DCV 
+ function, you would write: 
+ 
+ 
+Use case: Access camera surveillance via the Internet—display camera views (ACS-DCV) 
+   
+Actor: homeowner 
+ 
+   
+ 
+ 
+ 
+ 1.  
+ 
+The homeowner logs onto the  SafeHome Products
+ 
+ website.    
+ 
+ 2.  
+ 
+The homeowner enters his or her user ID.    
+ 
+ 3.  
+ 
+The homeowner enters two passwords (each at least eight characters in length).    
+ 
+ 4.  
+ 
+The system displays all major function buttons.    
+ 
+ 5.  
+ 
+The homeowner selects the “surveillance” from the major function buttons.    
+ 
+ 6.  
+ 
+The homeowner selects “pick a camera.”    
+ 
+ 7.  
+ 
+The system displays the ﬂ oor plan of the house. 
+   
+ 
+ 8.  
+ 
+The homeowner selects a camera icon from the ﬂ oor plan. 
+   
+ 
+ 9.  
+ 
+The homeowner selects the “view” button.   
+ uote:   “Use cases 
+can be used in 
+many [software] 
+processes. Our 
+favorite is a 
+process that is 
+iterative and risk 
+driven.”  Geri Schneider 
+and Jason Winters pre22126_ch09_166-183.indd   175pre22126_ch09_166-183.indd   17513/12/13   6:11 PM13/12/13   6:11 PM

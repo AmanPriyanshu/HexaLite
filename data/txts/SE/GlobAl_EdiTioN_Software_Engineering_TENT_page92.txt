@@ -1,0 +1,44 @@
+˘˘
+˜˚˛˝˙ˆˇ˘˜˘˜˘unlikely to work. There needs to be some up-front planning, design, and documentation 
+in the systems engineering process. Some of the key issues are as follows:1. How large is the system that is being developed? Agile methods are most effective 
+when the system can be developed with a relatively small co-located team who 
+
+can communicate informally. This may not be possible for large systems that 
+require larger development teams, so a plan-driven approach may have to be used.2. What type of system is being developed? Systems that require a lot of analysis 
+before implementation (e.g., real-time system with complex timing require-
+ments) usually need a fairly detailed design to carry out this analysis. A plan-
+driven approach may be best in those circumstances.3. What is the expected system lifetime? Long-lifetime systems may require more 
+design documentation to communicate the original intentions of the system 
+
+developers to the support team. However, supporters of agile methods rightly 
+
+argue that documentation is frequently not kept up to date and is not of much 
+use for long-term system maintenance.4.
+ Is the system subject to external regulation? If a system has to be approved 
+
+by˜an external regulator (e.g., the Federal Aviation Administration approves 
+
+software that is critical to the operation of an aircraft), then you will probably be 
+required to produce detailed documentation as part of the system safety˜case.Agile methods place a great deal of responsibility on the development team to 
+cooperate and communicate during the development of the system. They rely on indi-
+vidual engineering skills and software support for the development process. However, 
+
+in reality, not everyone is a highly skilled engineer, people do not communicate effec-
+tively, and it is not always possible for teams to work together. Some planning may be 
+
+required to make the most effective use of the people available. Key issues are:1.
+ How good are the designers and programmers in the development team? 
+It˜is˜sometimes argued that agile methods require higher skill levels than plan-
+
+based approaches in which programmers simply translate a detailed design into 
+
+code. If you have a team with relatively low skill levels, you may need to use 
+
+the best people to develop the design, with others responsible for programming.
+System
+Team
+OrganizationScaleTechnolo
+gyDistributionContractsDeliveryRegulationType
+LifetimeCompetenceCultureFigure 3.12 Factors influencing the choice  
+of plan-based or agile 
+development

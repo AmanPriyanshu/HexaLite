@@ -1,0 +1,40 @@
+36Chapter topics:• Authentication, capabilities, and limitations
+• The three bases of authentication: knowledge, charac-
+teristics, possessions• Strength of an authentication mechanism
+
+• Implementation of access control
+
+• Employing encryption
+
+• Symmetric and asymmetric encryption
+
+• Message digests
+
+• Signatures and certificates
+Just as doctors have stethoscopes and carpenters have measuring tapes and squares, 
+
+security professionals have tools they use frequently. Three of these security tools 
+
+are authentication, access control, and cryptography. In this chapter we introduce 
+these tools, and in later chapters we use these tools repeatedly to address a wide range 
+
+of security issues.In some sense, security hasn’t changed since sentient beings began accumulating 
+things worth protecting. A system owner establishes a security policy, formally or infor-
+
+mally, explicitly or implicitly—perhaps as simple as “no one is allowed to take my 
+
+food”—and begins taking measures to enforce that policy. The character of the threats 
+
+changes as the protagonist moves from the jungle to the medieval battlefield to the mod-
+
+ern battlefield to the Internet, as does the nature of the available protections, but their 
+
+strategic essence remains largely constant: An attacker wants something a defender has, 
+
+so the attacker goes after it. The defender has a number of options—fight, build a barrier 
+
+or alarm system, run and hide, diminish the target’s attractiveness to the attacker—and 
+2Toolbox: Authentication, 
+Access Control, and 
+
+Cryptography

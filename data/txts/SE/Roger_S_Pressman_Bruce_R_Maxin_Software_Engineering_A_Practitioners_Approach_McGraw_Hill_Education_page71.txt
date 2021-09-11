@@ -1,0 +1,81 @@
+CHAPTER 4  
+PROCESS MODELS 41advantage under unpredictable environments. Change occurs when there is some structure so that the change can be organized, but not so rigid that it cannot occur. 
+
+Too much chaos, on the other hand, can make coordination and coherence impossi-
+
+ble. Lack of structure does not always mean disorder. 
+ 
+  
+The philosophical implications of this argument are signiﬁ cant for software 
+engineering. Each process model described in this chapter tries to strike a bal-
+ance between the need to impart order in a chaotic world and the need to be 
+adaptable when things change constantly. 
+   The purpose of process 
+models is to try to 
+
+reduce the chaos pres-
+ent in developing new 
+software products.   
+ 
+ 4.1 P
+RESCRIPTIVE PROCESS MODELS  
+ 
+A prescriptive process model
+ 
+ 1 
+ 
+ strives for structure and order in software devel-
+opment. Activities and tasks occur sequentially with deﬁ ned guidelines for prog-
+ress. But are prescriptive models appropriate for a software world that thrives 
+on change? If we reject traditional process models (and the order they imply) 
+and replace them with something less structured, do we make it impossible to 
+achieve coordination and coherence in software work?   
+There are no easy answers to these questions, but there are alternatives available to software engineers. In the sections that follow, we examine the pre-
+
+scriptive process approach in which order and project consistency are domi-
+nant issues. We call them “prescriptive” because they prescribe a set of process 
+
+ elements—framework activities, software engineering actions, tasks, work prod-ucts, quality assurance, and change control mechanisms for each project. Each 
+process model also prescribes a process ﬂ ow (also called a  
+work ﬂ ow
+ 
+)—that is, the manner in which the process elements are interrelated to one another. 
+ All software process models can accommodate the generic framework activi-ties described in Chapters 2 and 3, but each applies a different emphasis to these 
+activities and deﬁ nes a process ﬂ
+ ow that invokes each framework activity (as 
+well as software engineering actions and tasks) in a different manner. 
+  
+ 
+4.1.1 The  
+ 
+Waterfall Model 
+ 
+  
+There are times when the requirements for a problem are well understood—when work ﬂ ows from communication through deployment in a reasonably linear 
+fashion. This situation is sometimes encountered when well-deﬁ ned adaptations 
+or enhancements to an existing system must be made (e.g., an adaptation to ac-
+counting software that has been mandated because of changes to government 
+regulations). It may also occur in a limited number of new development efforts, 
+but only when requirements are well deﬁ ned and reasonably stable. 
+ 
+WebRef 
+ An award-winning “pro-
+cess simulation game” 
+that includes most 
+important prescriptive 
+
+process models can be 
+found at: 
+  http://www.ics
+.uci.edu/˜emilyo/SimSE/
+downloads.html  . 
+   Prescriptive process 
+models deﬁ ne a 
+
+prescribed set of 
+process elements and 
+a predictable process 
+work ﬂ ow. 
+  
+1  Prescriptive process models are sometimes referred to as “traditional” process models. 
+pre22126_ch04_040-065.indd   41pre22126_ch04_040-065.indd   4113/12/13   6:10 PM13/12/13   6:10 PM

@@ -1,0 +1,39 @@
+˜˜˚˛˜˜˜˜
+˜˜
+and conflicts between organizational objectives, and how people in the organi-zation interpret these objectives. New management may reinterpret the organi
+-
+zational objectives that a system was designed to support so that a ﬁsuccessfulﬂ 
+system may then be seen as no longer fit for its intended purpose.Sociotechnical considerations are often critical in determining whether or not a 
+system has successfully met its objectives. Unfortunately, taking these into account 
+is very difficult for engineers who have little experience of social or cultural studies. 
+To help understand the effects of systems on organizations, various sociotechnical 
+systems methodologies have been proposed. My paper on sociotechnical systems 
+
+design discusses the advantages and disadvantages of these sociotechnical design 
+
+methodologies (Baxter and Sommerville 2011).ˇˇThe complex relationships between the components in a system mean that a system 
+
+is more than simply the sum of its parts. It has properties that are properties of the 
+
+system as a whole. These ﬁemergent propertiesﬂ (Checkland 1981) cannot be attrib-
+uted to any specific part of the system. Rather, they only emerge once the system 
+
+components have been integrated. Some emergent properties, such as weight, can be 
+
+derived directly from the subsystem properties. More often, however, they emerge 
+
+from a combination of subsystem properties and subsystem relationships. The 
+ system property cannot be calculated directly from the properties of the individual 
+
+system components. Examples of emergent properties are shown in Figure 19.5.There are two types of emergent properties:1. Functional emergent properties, when the purpose of a system only emerges after 
+
+its components are integrated. For example, a bicycle has the functional property 
+
+of being a transportation device once it has been assembled from its components.Figure 19.5 Examples of˜emergent propertiesPropertyDescriptionReliabilitySystem reliability depends on component reliability, but unexpected interactions 
+can cause new types of failure and therefore affect the reliability of the system.RepairabilityThis property reflects how easy it is to fix a problem with the system once it has 
+been discovered. It depends on being able to diagnose the problem, access the 
+components that are faulty, and modify or replace these components.SecurityThe security of the system (its ability to resist attack) is a complex property that 
+cannot be easily measured. Attacks may be devised that were not anticipated by 
+the system designers and so may defeat built-in safeguards.UsabilityThis property reflects how easy it is to use the system. It depends on the 
+technical system components, its operators, and its operating environment.VolumeThe volume of a system (the total space occupied) depends on how the 
+component assemblies are arranged and connected.

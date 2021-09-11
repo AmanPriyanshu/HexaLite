@@ -1,0 +1,28 @@
+ Section 6.9  Network Management 
+493  check status and look for alerts, but that option does not scale, and it makes it difficult 
+to identify even simple attack patterns, such as attacks on many stores emanating from 
+
+the same source address. Instead, SiC needs an automated aid to enhance the security 
+team’s abilities, and this is where 
+security information and event management
+, or 
+SIEM, tools come into play. SIEMs are software systems that collect security-relevant 
+data from a variety of hardware and software products in order to create a unified secu-
+
+rity dashboard (like the image shown in Figure 6-67 for SOC personnel.
+Data CollectionModern security products, networking equipment, and operating systems commonly 
+report security-relevant data to text-based log files. For instance, when a user enters an 
+
+incorrect password trying to log in to Windows, Windows can write a “logon failure” 
+
+event to its security log. In addition to logon events, operating systems can generally log 
+
+user management events (for example, adding users or modifying user permissions) and 
+
+file or application access. Security tools, both host based and network based, may report 
+
+malware scan results, detected intrusion attempts, and blocked connections. SIEMs can 
+SIEMRoutersSwitchesFirewallsCloud 
+ServicesEmail Servers
+Proxy ServersWeb Servers/ApplicationsDatabasesIDSsLog DataLog DataSOCAnalystsOSs, Applications
+FIGURE 6-67 SIEM Dashboard

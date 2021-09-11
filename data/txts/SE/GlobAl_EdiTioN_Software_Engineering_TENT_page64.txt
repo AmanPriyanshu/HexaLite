@@ -1,0 +1,46 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜Incremental delivery (Figure 2.10) is an approach to software development where 
+some of the developed increments are delivered to the customer and deployed for 
+
+use in their working environment. In an incremental delivery process, customers 
+
+define which of the services are most important and which are least important to 
+
+them. A number of delivery increments are then defined, with each increment pro-
+viding a subset of the system functionality. The allocation of services to increments 
+
+depends on the service priority, with the highest priority services implemented and 
+
+delivered first.Once the system increments have been identified, the requirements for the 
+services to be delivered in the first increment are defined in detail and that incre-
+ment is developed. During development, further requirements analysis for later 
+
+increments can take place, but requirements changes for the current increment 
+
+are not accepted.Once an increment is completed and delivered, it is installed in the customer™s 
+normal working environment. They can experiment with the system, and this helps 
+them clarify their requirements for later system increments. As new increments are 
+completed, they are integrated with existing increments so that system functionality 
+improves with each delivered increment.Incremental delivery has a number of advantages:1. Customers can use the early increments as prototypes and gain experience that 
+
+informs their requirements for later system increments. Unlike prototypes, 
+
+these are part of the real system, so there is no relearning when the complete 
+
+system is available.2.
+ Customers do not have to wait until the entire system is delivered before they 
+can gain value from it. The first increment satisfies their most critical require
+-
+ments, so they can use the software immediately.3.
+ The process maintains the benefits of incremental development in that it should 
+be relatively easy to incorporate changes into the system.Design systemarchitecture
+Define outline requirementsAssign requirements      to incrementsSystem
+incomplete?FinalsystemDevelop systemincrement
+Validate
+increment
+Integrateincrement
+Validate
+systemDeployincrement
+System
+complete?Figure 2.10  Incremental delivery

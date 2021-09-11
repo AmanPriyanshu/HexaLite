@@ -1,0 +1,66 @@
+534 Chapter 7  
+DatabasesRandom Sample With 
+random sample control, a result is not derived from the whole database; instead the 
+result is computed on a random sample of the database. The sample chosen is large enough 
+
+to be valid. Because the sample is not the whole database, a query against this sample will 
+
+not necessarily match the result for the whole database. Thus, a result of 5 percent for a 
+
+particular query means that 5 percent of the records chosen for the sample for this query 
+
+had the desired property. You would expect that approximately 5 percent of the entire data-
+
+base would have the property in question, but the actual percentage may be quite different.
+So that averaging attacks from repeated, equivalent queries are prevented, the same 
+sample set should be chosen for equivalent queries. In this way, all equivalent queries 
+
+will produce the same result, although that result will be only an approximation for the 
+entire database.ConcealmentAggregation need not directly threaten privacy. An aggregate (such as sum, median, or 
+count) often depends on so many data items that the sensitivity of any single contrib-
+
+uting item is hidden. Government statistics show this well: Census data, labor statis-
+
+tics, and school results show trends and patterns for groups (such as a neighborhood or 
+
+school district), but do not violate the privacy of any single person.
+Blocking Small Sample Sizes Organizations that publish personal statistical data, such as the U.S. Census Bureau, 
+
+do not reveal results when a small number of people make up a large proportion of a 
+
+category. The rule of “
+n items over 
+k percent” means that data should be withheld if 
+n items represent over 
+k percent of the result reported. In the previous case, the one person 
+selected represents 100 percent of the data reported, so there would be no ambiguity 
+
+about which person matches the query.
+As we explained, inference and aggregation attacks work better nearer the ends of the 
+distribution. If very few or very many points are in a database subset, a small number of 
+
+equations may disclose private data. The mean of one data value is that value exactly. 
+
+With three data values, the means of each pair yield three equations in three unknowns, 
+
+which you know can easily be solved with linear algebra. A similar approach works 
+
+for very large subsets, such as (
+n  3) values. Mid-sized subsets preserve privacy quite 
+well. So privacy is maintained with the rule of 
+n items, over 
+k percent.Random Data Perturbation It is sometimes useful to perturb the values of the database by a small error. For each 
+xi that is the true value of data item 
+i in the database, we can generate a small random error 
+term i and add it to 
+xi for statistical results. The 
+ values are both positive and negative, 
+so some reported values will be slightly higher than their true values and other reported 
+
+values will be lower. Statistical measures such as sum and mean will be close but not nec-
+
+essarily exact. Data perturbation is easier to use than random sample selection because it 
+
+is easier to store all the  values in order to produce the same result for equivalent queries.
+Data perturbation works for aggregation, as well. With perturbation you add a small 
+positive or negative error term to each data value. Agrawal and Srikant [AGR00] show 

@@ -1,0 +1,41 @@
+˜˜˚˛ˆ˜˜˜˜˜˜
+A software product release is not just the executable code of the system. The 
+release may also include:˜ configuration files defining how the release should be configured for particular 
+installations;˜ data files, such as files of error messages in different languages, that are needed 
+for successful system operation;˜ an installation program that is used to help install the system on target hardware;˜ electronic and paper documentation describing the system;˜ packaging and associated publicity that have been designed for that release.Preparing and distributing a system release for mass-market products is an expensive 
+process. In addition to the technical work involved in creating a release distribution, 
+advertising and publicity material have to be prepared. Marketing strategies may have 
+
+to be designed to convince customers to buy the new release of the system. Careful 
+
+thought must be given to release timing. If releases are too frequent or require hardware 
+
+upgrades, customers may not move to the new release, especially if they have to pay for 
+
+it. If system releases are infrequent, market share may be lost as customers move to 
+
+alternative systems.The various technical and organizational factors that you should take into account 
+when deciding on when to release a new version of a software product are shown in 
+
+Figure 25.17.
+Release creation is the process of creating the collection of files and documentation 
+that include all components of the system release. This process involves several steps:1. The executable code of the programs and all associated data files must be identi-fied in the version control system and tagged with the release identifier.2.
+ Configuration descriptions may have to be written for different hardware and 
+
+operating systems.3. Updated instructions may have to be written for customers who need to config-
+ure their own systems.4. Scripts for the installation program may have to be written.5.
+ Web pages have to be created describing the release, with links to system 
+
+documentation.6.
+ Finally, when all information is available, an executable master image of the 
+
+software must be prepared and handed over for distribution to customers or 
+
+sales outlets.For custom software or software product lines, the complexity of the system release 
+
+management process depends on the number of system customers. Special releases 
+
+of the system may have to be produced for each customer. Individual customers 
+
+may be running several different releases of the system at the same time on differ-
+ent hardware. Where the software is part of a complex system of systems, several 

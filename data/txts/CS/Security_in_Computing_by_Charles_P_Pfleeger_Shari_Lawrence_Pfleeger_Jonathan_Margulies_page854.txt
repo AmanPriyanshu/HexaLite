@@ -1,0 +1,69 @@
+820 Chapter 13  
+Emerging Topics
+Apple can remove an app from the app store with relative ease and speed, but seems 
+unable to remove a malicious app from users’ devices, instead requiring each user to 
+
+remove it.
+Google’s approach to vetting apps is quite different. Google allows users to download 
+and install apps from any source; numerous app sources for Android exist throughout 
+
+the world. Malware researchers report that games and entertainment are the category of 
+
+app most often infected with malware and, not surprisingly, this category is also heavily 
+
+represented in third-party stores for Android apps.
+The fact that there is no central authority to monitor Google’s apps for security is 
+certainly a major factor contributing to the disproportionately large share of malware 
+
+for Android phones.
+Smartphone DevicesNot only are developers hurrying to make applications available for smartphones, tech-
+nologists are rushing to integrate smartphones into other activities. Photo recognition 
+
+software lets you identify and tag friends in photos. Of course, you can use the location-
+
+sensing component of your phone to direct you if you get lost (assuming you have 
+
+connectivity), but that same technology potentially allows a stalker to track your move-
+
+ments throughout the day. You can monitor your home’s security system from your 
+
+smartphone or track various metrics on your health (such as cortisol level or heart rate). 
+
+But pushing more personal data onto a mobile device increases the exposure to inter-
+
+ception and perhaps unwanted interference. For example, an attacker could remotely 
+
+disable your home’s security system and then break in. Your device could secretly feed 
+
+your health statistics to your insurance company, which could raise your rates because 
+
+you do not raise your heart rate sufficiently when you exercise.
+Security in the Internet of Things
+We have just examined two technologies that are part of the Internet of things. Devel-
+
+opers and users envision important benefits that could come from enabling medical 
+
+devices to access the Internet. Mobile phone users already enjoy the advantages of run-
+
+ning apps. As more devices are connected, people are likely to become enchanted with 
+
+new capabilities.
+Technology often comes with benefits and drawbacks. As we add more capabili-
+ties, personal data, and sensitive functionality to a handheld computer that also hap-
+
+pens to function as a telephone, we are subject to the weaknesses and limitations of 
+
+that computer. The lessons of threat surface analysis (Chapter 1), weak identification 
+
+and authentication (Chapter 2), secure software development practices (Chapter 3), and 
+
+operating system structuring and assurance (Chapter 5) may not be known to applica-
+
+tion developers anxious to extend their functionality to a platform the user always has 
+
+at hand. If technologists do not know or learn the lessons of security, they are likely to 
+
+produce insecure products with potentially catastrophic consequences.Users and developers should be cautious as the Internet of things evolves. As previ-
+ous examples have shown, once an insecure concept or approach is established in prod-
+
+ucts, securing the technology becomes extremely difficult.

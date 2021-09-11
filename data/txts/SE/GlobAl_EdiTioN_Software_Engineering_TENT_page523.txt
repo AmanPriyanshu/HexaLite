@@ -1,0 +1,41 @@
+radio so that information is delivered as a signal on a specific radio channel. 
+The car is equipped with GPS receiver to discover its position, and, based on 
+
+that position, the system accesses a range of information services. Information 
+
+may then be delivered in the driver™s specified language.
+Figure 18.
+1 illustrates a possible organization for such a system. The in-car soft
+-ware includes five modules. These handle communications with the driver, with a 
+GPS receiver that reports the car™s position, and with the car radio. The 
+Transmitter
+ and Receiver modules handle all communications with external services.
+The car communicates with an external mobile information service that aggre
+-gates information from a range of other services, providing information on weather, 
+
+traffic, and local facilities. Different providers in different places offer these services, 
+
+and the in-car system accesses an external discovery service to find the services 
+
+available in the local area. The mobile information service also uses the discovery 
+
+service to bind to the appropriate weather, traffic, and facilities services. The aggre
+-
+gated information is then sent to the car through a service that translates that infor
+-mation into the driver™s preferred language.
+This example illustrates one of the key advantages of the service-oriented approach. 
+When the system is programmed or deployed, you don™t have to decide what service 
+User interface
+LocatorDiscovers carpositionWeather
+infoReceives requestfrom userReceiverReceivesinformation stream
+from servicesTransmitter
+Sends position and
+information requestto servicesRadioTranslates digital
+info stream toradio signalIn-car software systemMobile Info ServiceFacilities
+infoTranslator
+RoadlocatorTraffic
+infoCollates informationRoad traffic infocommandgps coordgps
+coordgps coordgps coordLanguageinfoInfostreamService discoveryFinds availableservicesFigure 18.1 A service-based, in-car 
+information system ˜˚˛˝˙ˆˇ˘˜˚˛˜˜˜
+˜ˇ
+˜˜˜

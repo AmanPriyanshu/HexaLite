@@ -1,0 +1,69 @@
+686 Chapter 10  
+Management and Incidents10.5 DEALING WITH DISASTER
+Much of this book has focused on technical issues in security and their technical solu-
+tions: firewalls, encryption techniques, malware scanners, and more. But many threats to 
+
+security involve human or natural disasters, events that should also be addressed in the 
+
+security plan. For this reason, in this section we consider how to cope with the nontech-
+
+nical things that can go wrong. Dealing with nontechnical problems has two aspects: 
+
+preventing things that can be prevented and recovering from the things that cannot be 
+
+prevented. Physical security is the term used to describe protection needed outside the 
+
+computer system. Typical physical security controls include guards, locks, and fences 
+
+to deter direct attacks. In addition, there are other kinds of protection against less direct 
+disasters, such as floods and power outages; these, too, are part of physical security. As 
+
+this section shows, many physical security measures can be established simply by good 
+
+common sense, a characteristic that Mark Twain noted “is a most uncommon virtue.” 
+Natural DisastersComputers are subject to the same natural disasters that can occur to homes, stores, and 
+automobiles. They can be flooded, burned, melted, hit by falling objects, and destroyed 
+
+by earthquakes, storms, and tornadoes. Additionally, computers are sensitive to their 
+
+operating environment, so excessive heat or inadequate power is also a threat. No one 
+
+can prevent natural disasters, but through careful planning, organizations can reduce 
+
+the damage they inflict. Some measures can be taken to reduce their impact. Because 
+
+many of these perils cannot be prevented or predicted, controls focus on limiting pos-
+
+sible damage and recovering quickly from a disaster. Issues to be considered include the 
+
+need for offsite backups, the cost of 
+
+replacing equipment, the speed with 
+which equipment can be replaced, 
+
+the need for available computing 
+
+power, and the cost or difficulty of 
+
+replacing data and programs.FloodWater from a natural flood comes from ground level, rising gradually, and bringing with 
+it mud and debris. Often, the staff has time for an orderly shutdown of the computing 
+
+system; at worst, the organization loses some of the processing in progress. At other 
+
+times, such as when a dam breaks, a water pipe bursts, a sprinkler system malfunctions, 
+
+or the roof collapses in a storm, a sudden flood can overwhelm the system and its users 
+
+before anything can be saved. Water can come from above, below, or the side. The 
+
+machinery may be destroyed or damaged by mud and water, but most computing sys-
+
+tems are insured and replaceable by the manufacturer. Managers of unique or irreplace-
+
+able equipment who recognize the added risk sometimes purchase or lease duplicate 
+
+redundant hardware systems to ensure against disruption of service.
+Natural disasters can neither be 
+predicted nor prevented; that does not 
+
+excuse failing to prepare for them.

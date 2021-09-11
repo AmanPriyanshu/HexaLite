@@ -1,0 +1,68 @@
+226 Chapter 3  
+Programs and ProgrammingPeople outside the professional security community still find it appealing to find and 
+fix security problems as single aberrations. However, security professionals recommend 
+
+a more structured and careful approach to developing secure code.
+Security by ObscurityComputer security experts use the term 
+security by or through obscurity
+ to describe 
+the ineffective countermeasure of assuming the attacker will not find a vulnerability. 
+
+Security by obscurity is the belief that a system can be secure as long as nobody outside 
+its implementation group is told anything about its internal mechanisms. Hiding account 
+
+passwords in binary files or scripts with the presumption that nobody will ever find them 
+
+is a prime case. Another example of faulty obscurity is described in Sidebar 3-14, in 
+which deleted text is not truly deleted. System owners assume an attacker will never 
+
+guess, find, or deduce anything not revealed openly. Think, for example, of the dialer 
+
+program described earlier in this 
+
+chapter. The developer of that util-
+
+ity might have thought that hiding 
+
+the 100-digit limitation would keep 
+
+it from being found or used. Obvi-
+
+ously that assumption was wrong.
+Things meant to stay hidden seldom do. 
+Attackers find and exploit many hidden 
+things.SIDEBAR 3-14 Hidden, But Not Forgotten
+When is something gone? When you press the delete key, it goes away, 
+right? Wrong.
+By now you know that deleted files are not really deleted; they are 
+moved to the recycle bin. Deleted mail messages go to the trash folder. 
+
+And temporary Internet pages hang around for a few days in a history 
+
+folder waiting for repeated interest. But you expect keystrokes to disappear 
+
+with the delete key.
+Microsoft Word saves all changes and comments since a document 
+was created. Suppose you and a colleague collaborate on a document, 
+
+you refer to someone else’s work, and your colleague inserts the comment 
+
+“this research is rubbish.” You concur, so you delete the reference and your 
+
+colleague’s comment. Then you submit the paper to a journal for review 
+
+and, as luck would have it, your paper is sent to the author whose work you 
+disparaged. Then the reviewer happens to turn on change marking and 
+
+finds not just the deleted reference but also your colleague’s deleted com-
+
+ment. (See [BYE04].) If you really wanted to remove that text, you should 
+
+have used the Microsoft Hidden Data Removal Tool. (Of course, inspecting 
+
+the file with a binary editor is the only way you can be sure the offending 
+
+text is truly gone.) The Adobe PDF document format is a simpler format intended to pro-
+vide a platform-independent way to display (and print) documents. Some 
+
+people convert a Word document to PDF to eliminate hidden sensitive data. 

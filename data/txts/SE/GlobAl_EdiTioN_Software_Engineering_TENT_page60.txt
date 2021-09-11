@@ -1,0 +1,38 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜from these test plans, which have been developed from the system specification and design. Figure 2.7 illustrates how test plans are the link between testing and develop-
+ment activities. This is sometimes called the V-model of development (turn it on its 
+side to see the V). The V-model shows the software validation activities that corre
+-
+spond to each stage of the waterfall process model.When a system is to be marketed as a software product, a testing process called beta testing is often used. Beta testing involves delivering a system to a number of 
+potential customers who agree to use that system. They report problems to the sys-
+tem developers. This exposes the product to real use and detects errors that may not 
+
+have been anticipated by the product developers. After this feedback, the software 
+product may be modified and released for further beta testing or general sale.The flexibility of software is one of the main reasons why more and more software 
+
+is being incorporated into large, complex systems. Once a decision has been made to 
+manufacture hardware, it is very expensive to make changes to the hardware design. 
+
+However, changes can be made to software at any time during or after the system 
+development. Even extensive changes are still much cheaper than corresponding 
+
+changes to system hardware.Historically, there has always been a split between the process of software 
+development and the process of software evolution (software maintenance). People 
+
+think of software development as a creative activity in which a software system is 
+
+developed from an initial concept through to a working system. However, they 
+
+sometimes think of software maintenance as dull and uninteresting. They think 
+
+that software maintenance is less interesting and challenging than original soft-ware development.This distinction between development and maintenance is increasingly irrelevant. Very few software systems are completely new systems, and it makes much more RequirementsspecificationSystem
+specificationCustomertestSystem
+integration test
+Sub-systemintegration test
+System
+designComponentdesignServiceComponent code and testCustomertest planSystem
+integration
+test planSub-systemintegration
+test planFigure 2.7 Testing phases in a plan-driven 
+software process

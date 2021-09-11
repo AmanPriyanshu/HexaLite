@@ -1,0 +1,27 @@
+˜˜˚˙˜˜˜˜˜˜
+important that the system passes the test. He also suggests that it should be easy to 
+evaluate. If˜there are problems with the system, then the release testing team should 
+
+recognize them.As an example of a possible scenario from the Mentcare system, Figure 
+8.10 
+describes one way that the system may be used on a home visit. This scenario tests a 
+
+number of features of the Mentcare system:1. Authentication by logging on to the system.2. Downloading and uploading of specified patient records to a laptop.3. Home visit scheduling.4. Encryption and decryption of patient records on a mobile device.5. Record retrieval and modification.6. Links with the drugs database that maintains side-effect information.7. The system for call prompting.If you are a release tester, you run through this scenario, playing the role of 
+George and observing how the system behaves in response to different inputs. As George, you may make deliberate mistakes, such as inputting the wrong key phrase 
+to decode records. This checks the response of the system to errors. You should care-
+fully note any problems that arise, including performance problems. If a system is 
+too slow, this will change the way that it is used. For example, if it takes too long to 
+encrypt a record, then users who are short of time may skip this stage. If they then 
+lose their laptop, an unauthorized person could then view the patient records.When you use a scenario-based approach, you are normally testing several require-ments within the same scenario. Therefore, as well as checking individual requirements, 
+
+you are also checking that combinations of requirements do not cause problems.George is a nurse who specializes in mental health care. One of his responsibilities is to visit patients at home 
+to check that their treatment is effective and that they are not suffering from medication side effects.On a day for home visits, George logs into the Mentcare system and uses it to print his schedule of home visits for that day, along with summary information about the patients to be visited. He requests that the records 
+for these patients be downloaded to his laptop. He is prompted for his key phrase to encrypt the records on the 
+laptop.One of the patients whom he visits is Jim, who is being treated with medication for depression. Jim feels that the medication is helping him but believes that it has the side effect of keeping him awake at night. George 
+looks up Jim™s record and is prompted for his key phrase to decrypt the record. He checks the drug prescribed 
+and queries its side effects. Sleeplessness is a known side effect, so he notes the problem in Jim™s record and 
+suggests that he visit the clinic to have his medication changed. Jim agrees, so George enters a prompt to call 
+him when he gets back to the clinic to make an appointment with a physician. George ends the consultation, 
+and the system re-encrypts Jim™s record.After finishing his consultations, George returns to the clinic and uploads the records of patients visited to the database. The system generates a call list for George of those patients whom he has to contact for follow-up 
+information and make clinic appointments.Figure 8.10 A user story˜for the 
+Mentcare˜system

@@ -1,0 +1,82 @@
+686 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+software process. Issues associated with people management and structure for software projects are considered later in this chapter. 
+  
+ 
+ 
+31.1.2   
+The Product 
+ 
+Before a project can be planned, product objectives and scope should be estab-lished, alternative solutions should be considered, and technical and manage-
+ment constraints should be identiﬁ ed. Without this information, it is impossible 
+to deﬁ ne reasonable (and accurate) estimates of the cost, an effective assessment 
+of risk, a realistic breakdown of project tasks, or a manageable project schedule 
+that provides a meaningful indication of progress.  As a software developer, you and other stakeholders must meet to deﬁ
+ ne prod-
+uct objectives and scope. In many cases, this activity begins as part of the system 
+engineering or business process engineering and continues as the ﬁ rst step in 
+software requirements engineering (Chapter 8). Objectives identify the overall 
+goals for the product (from the stakeholders’ points of view) without considering 
+how these goals will be achieved. Scope identiﬁ es the primary data, functions, 
+and behaviors that characterize the product, and more important, attempts to 
+bound these characteristics in a quantitative manner. 
+  
+ 
+ 
+ 
+ 
+Once the product objectives and scope are understood, alternative solutions are considered. Although very little detail is discussed, the alternatives enable 
+managers and practitioners to select a “best” approach, given the constraints 
+imposed by delivery deadlines, budgetary restrictions, personnel availability, 
+
+technical interfaces, and myriad other factors.   
+ 
+ 
+31.1.3   
+The Process 
+  
+A software process (Chapters 3–5) provides the framework from which a com-prehensive plan for software development can be established. A small num-
+ber of framework activities are applicable to all software projects, regardless 
+of their size or complexity. A number of different task sets—tasks, milestones, 
+
+work products, and quality assurance points—enable the framework activities to 
+be adapted to the characteristics of the software project and the requirements 
+of the project team. Finally, umbrella activities—such as software quality assur-
+
+ance, software conﬁ guration management, and measurement—overlay the pro-
+cess model. Umbrella activities are independent of any one framework activity 
+and occur throughout the process.   
+ 
+ 
+31.1.4   
+The Project 
+ 
+We conduct planned and controlled software projects for one primary reason—it 
+is the only known way to manage complexity. And yet, software teams still strug-
+
+gle. In a study of 250 large software projects between 1998 and 2004, Capers Jones 
+[Jon04] found that “about 25 were deemed successful in that they achieved their 
+schedule, cost, and quality objectives. About 50 had delays or overruns below    Those who adhere 
+to the agile process 
+
+argue that their 
+process is leaner than 
+others. That may be 
+true, but they still have 
+
+a process, and agile 
+software engineering 
+still requires discipline.   
+ uote:  “A project is like 
+a road trip. Some 
+projects are simple 
+and routine, like 
+driving to the store 
+in broad daylight. 
+But most projects 
+worth doing are 
+more like driving 
+a truck off-road, in 
+the mountains, at 
+night.”  Cem Kaner, 
+James Bach, and Bret Pettichord pre22126_ch31_683-702.indd   686pre22126_ch31_683-702.indd   68613/12/13   6:16 PM13/12/13   6:16 PM

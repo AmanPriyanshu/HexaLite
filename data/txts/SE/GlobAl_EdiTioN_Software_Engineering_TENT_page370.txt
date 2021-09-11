@@ -1,0 +1,29 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜˝
+˝˝
+˝˝
+
+˝
+
+
+˝
+1 entryCode = lock.getEntryCode () ;2 if (entryCode == lock.authorizedCode)3 {4  
+shieldStatus = Shield.getStatus ();5  
+radiationLevel = RadSensor.get ();6  
+if (radiationLevel < dangerLevel)7   
+state = safe;8  else9   
+state = unsafe;10  
+if (shieldStatus == Shield.inPlace() )11   
+state = safe;12  
+if (state == safe)13   
+{14    
+Door.locked = false ;15    
+Door.unlock ();
+16   
+}17  else18  {19   
+Door.lock ( );20   
+Door.locked := true ;21  }22 }Figure 12.15 Door entry code…š…
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜

@@ -1,0 +1,112 @@
+754  
+ 
+CHAPTER 
+ 
+ 
+ 
+ 
+ 
+ 
+ In the late 1960s, a bright-eyed young engineer was chosen to “write” a com-puter program for an automated manufacturing application. The reason 
+for his selection was simple. He was the only person in his technical group who had attended a computer programming seminar. He knew the ins and 
+
+outs of assembly language and FORTRAN but nothing about software engi-
+
+neering and even less about project scheduling and tracking.  His boss gave him the appropriate manuals and a verbal description of what had to be done. He was informed that the project must be completed in 
+two months.  He read the manuals, considered his approach, and began writing code. After 
+two weeks, the boss called him into his ofﬁ ce and asked how things were going. 
+ “Really great,” said the young engineer with youthful enthusiasm. “This is much simpler than I thought. I’m probably close to 75 percent ﬁ nished.” 
+ 
+PROJECTSCHEDULING 34  
+ 
+What is it?   You’ve selected an 
+appropriate process model, you’ve 
+
+identiﬁ ed the software engineering 
+tasks that have to be performed, you 
+estimated the amount of work and the number 
+
+of people, you know the deadline, you’ve even 
+
+considered the risks. Now it’s time to connect the 
+
+dots. That is, you have to create a network of 
+
+software engineering tasks that will enable you 
+
+to get the job done on time. Once the network 
+
+is created, you have to assign responsibility for 
+
+each task, make sure it gets done, and adapt 
+
+the network as risks become reality. In a nutshell, 
+
+that’s software project scheduling and tracking. 
+  
+ 
+Who does it?   At the project level, software project managers using information solicited 
+
+from software engineers. At an individual 
+level, software engineers themselves.   
+ 
+Why is it important? 
+  In order to build a complex system, many software engineering 
+tasks occur in parallel, and the result of work 
+performed during one task may have a pro-
+
+found effect on work to be conducted in an-
+other task. These interdependencies are very 
+difﬁ cult to understand without a schedule. It’s 
+also virtually impossible to assess progress on 
+
+a moderate or large software project without a 
+detailed schedule.   
+ 
+What are the steps?   The software engineer-
+ing tasks dictated by the software process 
+model are reﬁ ned for the functionality to be 
+built. Effort and duration are allocated to each 
+
+task and a task network (also called an “activ-
+ity network”) is created in a manner that en-
+ables the software team to meet the delivery 
+
+deadline established.   
+ 
+What is the work product? 
+  The proj-ect schedule and related information are 
+
+produced.   
+ 
+How do I ensure that I’ve done it right?   Proper scheduling requires that: (1) all tasks appear in the network, (2) effort and timing 
+
+are intelligently allocated to each task, (3) in-
+terdependencies between tasks are properly 
+indicated, (4) resources are allocated for the 
+work to be done, and (5) closely spaced mile-
+stones are provided so that progress can be 
+tracked.   
+QUICK LOOK  KEY CONCEPTS     critical path. . . . . . 757  
+    earned value. . . . . 772  
+
+    effort distribution. . 
+760      people and effort  . 759  
+
+    scheduling  
+    principles of. . . 758  
+
+    WebApp and mobile 
+
+projects. . . . . . 769  
+    task network  . . . . 764  
+
+    time-boxing  . . . . . 768  
+
+    time-line charts. . . 766  
+
+    tracking  . . . . . . . . 767  
+
+    work breakdown  . 765  
+
+  pre22126_ch34_754-776.indd   754pre22126_ch34_754-776.indd   75413/12/13   10:02 PM13/12/13   10:02 PM

@@ -1,0 +1,56 @@
+400 Chapter 6  
+Networksfailure can be sporadic, meaning that it goes away or corrects itself spontaneously, or 
+the failure can be permanent, as from a faulty component. 
+These, then, are the three root threats to availability:
+• insufficient capacity; overload
+• blocked access
+
+• unresponsive component
+The attacker will try to actualize any of these threat types by exploiting vulnerabili-
+ties against them. In the next section we examine some of these potential vulnerabilities. 
+
+In Sidebar 6-17 we describe an incident that resulted from a combination of factors—
+
+none malicious—including age of components, antiquated network design, and faulty 
+
+communications protocols.SIDEBAR 6-16  
+State of Virginia Database Held 
+for RansomState officials in Virginia received a ransom note in May 2009 demanding 
+$10 million for release of a state database of 8.3 million records of drug 
+
+prescriptions for state residents. The database held copies of prescriptions 
+
+for Federal controlled substances filled since 2003.
+Ransom note:ATTENTION VIRGINIA
+I have your s[censored]! In *my* possession, right now, are 8,257,378 patient 
+records and a total of 35,548,087 prescriptions. Also, I made an encrypted 
+
+backup and deleted the original. Unfortunately for Virginia, their backups seem 
+
+to have gone missing, too. Uhoh :(For $10 million, I will gladly send along the password. You have 7 days to 
+decide. If by the end of 7 days, you decide not to pony up, I’ll go ahead and 
+put this baby out on the market and accept the highest bid. Now I don’t know 
+
+what all this [censored] is worth or who would pay for it, but I’m bettin’ someone 
+
+will. Hell, if I can’t move the prescription data at the very least I can find a buyer 
+
+for the personal data (name, age, address, social security #, driver’s license #). 
+
+(Brian Krebs, 
+Washington Post 
+Security Fix blog, 4 May 2009)Although the attacker alleged that he had deleted the original, made one encrypted backup copy, and deleted all other backups, state officials 
+
+were able to restore the database from backup copies and could access it 
+
+with no difficulty. Sandra Whitley Ryals, director of the Virginia Department 
+
+of Health Professions stated, “We are satisfied that all data was properly 
+
+backed up and that these backup files have been secured.” (WHSV TV, 
+
+Richmond, VA, from WHSV.com, 6 May 2009) Thus, the ransom demand 
+
+seems to have been a hoax. Nevertheless, removing sensitive data and 
+
+holding it for ransom is a potentially effective means to block access.

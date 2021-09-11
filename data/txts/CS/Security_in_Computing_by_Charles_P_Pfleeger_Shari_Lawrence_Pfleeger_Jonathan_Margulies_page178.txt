@@ -1,0 +1,66 @@
+144 Chapter 3  
+Programs and Programmingthe operating system. However, the system will try to execute a string that accidentally 
+does represent a valid instruction, with effects depending on the actual value. Again, 
+
+depending on the nature of the error, this faulty instruction may have no effect (if it is 
+
+not in the path of execution or in a section that has already been executed), a null effect 
+
+(if it happens not to affect code or data, such as an instruction to move the contents of 
+
+register 1 to itself), or an unnoticed or readily noticed effect.
+Destroying your own code or data is unpleasant, but at least you can say the harm 
+was your own fault. Unless, of course, it wasn’t your fault. One early flaw in Micro-
+
+soft’s Outlook involved the simple date field: A date is a few bytes long to represent a 
+
+day, month, year, and time in GMT (Greenwich Mean Time) format. In a former version 
+
+of Outlook, a message with a date of more than 1000 bytes exceeded the buffer space 
+
+for message headers and ran into reserved space. Simply downloading such a message 
+
+from a mail server would cause your system to crash, and each time you tried to restart, 
+
+Outlook would try to reload the same message and crash again. In this case, you suf-
+
+fered harm from a buffer overflow involving only your memory area.
+One program can accidentally modify code or data of another procedure that will 
+not be executed until much later, so the delayed impact can be almost as difficult to 
+
+diagnose as if the attack came from an unrelated, independent user. The most significant 
+
+impact of a buffer overflow occurs when the excess data affect the operating system’s 
+
+code or data.Modification of code and data for one user or another is significant, but it is not a 
+major computer security issue. However, as we show in the next section, buffer over-
+
+flows perpetrated on the operating system can have serious consequences. 
+people had forgotten that table size if, indeed, it had ever been publicized. (In 1967, 347 IMPs was far more than the designers ever envisioned the 
+
+network would have.) Software handling the IMP’s table detected this over-
+
+flow but handled it by causing the IMP to reboot; upon rebooting, the IMP’s 
+
+table was cleared and would be repopulated as it discovered other reach-
+
+able subnetworks. Apparently the authors of that software assumed such a 
+
+table overflow would be a sporadic mistake from another cause, so clear-
+
+ing and rebooting would rid the table of the faulty data. Because the fault 
+
+was due to a real situation, in 1989 the refreshed IMP ran for a while until its 
+
+table refilled and then it failed and rebooted again.
+It took some time to determine the source and remedy of this flaw, 
+because twenty years had passed between coding and failing; everybody 
+
+associated with the original design or implementation had moved on to 
+
+other projects.
+As this example shows, buffer overflows—like other program faults—
+can remain unexploited and undetected for some time, but they are still 
+
+present.
+SIDEBAR 3-3 Continued

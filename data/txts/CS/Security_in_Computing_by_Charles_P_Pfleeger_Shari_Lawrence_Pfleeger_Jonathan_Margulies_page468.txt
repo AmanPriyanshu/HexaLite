@@ -1,0 +1,46 @@
+434 Chapter 6  
+Networksuntil they are encrypted just prior to transmission, at level 1. Addressing occurs at 
+level 3. Therefore, in the intermediate node, the encryption must be removed in order to 
+
+determine where next to forward the data, and so the content is exposed. 
+Encryption protects the message in transit between two computers, but the message 
+is in plaintext inside the hosts. (A message in plaintext is said to be “in the clear.”) 
+
+Notice that because the encryption is added at the bottom protocol layer, the message 
+
+is exposed in all other layers of the sender and receiver. If we have good physical secu-
+
+rity and we trust the software that implements the upper-layer functions, we may not 
+
+be too concerned about this potential vulnerability. The message is open to access in 
+
+two layers of all intermediate hosts through which the message may pass. The message 
+
+is in the clear in the intermediate hosts, and one of these hosts may not be especially 
+
+trustworthy.
+Link encryption is invisible to the user. The encryption becomes a transmission 
+service performed by a low-level network protocol layer, just like message routing or 
+
+transmission error detection. Figure 6-37 shows a typical link-encrypted message, with 
+
+the shaded fields encrypted. Because some of the data link header and trailer is applied 
+
+before the block is encrypted, part of each of those blocks is shaded. As the message M 
+
+is handled at each layer, header and control information is added on the sending side 
+
+and removed on the receiving side. Hardware encryption devices operate quickly and 
+
+reliably; in this case, link encryption is invisible to the operating system as well as to 
+
+the operator.
+M7M
+M65
+4M
+M323232MMM11MSenderReceiver
+Intermediate nodeMEncrypted
+PlaintextMMMMM1M7M
+M65
+4M
+M32M1MFIGURE 6-36 Model of Link Encryption

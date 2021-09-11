@@ -1,0 +1,70 @@
+174 Chapter 3  
+Programs and ProgrammingToday’s malware often stays dormant until needed, or until it targets specific types 
+of software to debilitate some larger (sometimes hardware) system. For instance, Con-
+
+ficker (2008) is a general name for 
+
+an infection that leaves its targets 
+
+under the control of a master agent. 
+The effect of the infection is not 
+
+immediate; the malware is latent 
+
+until the master agent causes the 
+
+infected agents to download specific 
+
+code and perform a group attack.For example, Stuxnet (2010) received a great deal of media coverage in 2010. A very 
+sophisticated piece of code, Stuxnet exploits a vulnerability in Siemens’ industrial con-
+
+trol systems software. This type of software is especially popular for use in supervisory 
+
+control and data acquisition (SCADA) systems, which control processes in chemical 
+
+manufacturing, oil refining and distribution, and nuclear power plants—all processes 
+
+whose failure can have catastrophic consequences. Table 3-3 gives a timeline of some 
+
+of the more notable malicious code infections.With this historical background we now explore more generally the many types of 
+malicious code.software under such attack is executed by millions of users in thousands of 
+applications. Because a zero-day attack is a surprise to the maintenance 
+
+staff of the affected software, the vulnerability remains exposed until the 
+
+staff can find a repair. Symantec reports vendors take an average of four 
+
+days to prepare and distribute a patch for the top five zero-day attacks; 
+
+users will actually apply the patch at some even later time.But what exactly is a zero-day exploit? It depends on who is count-
+ing. If the vendor knows of the vulnerability but has not yet released a con-
+
+trol, does that count as zero day, or does the exploit have to surprise the 
+
+vendor? David Litchfield of Next Generation Software in the U.K. identified 
+
+vulnerabilities and informed Oracle. He claims Oracle took an astonishing 
+
+800 days to fix two of them and others were not fixed for 650 days. Other 
+
+customers are disturbed by the slow patch cycle—Oracle released no 
+
+patches between January 2005 and March 2006 [GRE06]. Distressed by 
+
+the lack of response, Litchfield finally went public with the vulnerabilities to 
+
+force Oracle to improve its customer support. Obviously, there is no way to 
+
+determine if a flaw is known only to the security community or to attackers 
+
+as well unless an attack occurs.Shrinking time between knowledge of vulnerability and exploit puts 
+pressure on vendors and users both, and time pressure is not conducive to 
+
+good software development or system management.
+The worse problem cannot be controlled: vulnerabilities known to 
+attackers but not to the security community.
+SIDEBAR 3-6 ContinuedMalware doesn’t attack just individual 
+users and single computers. Major 
+applications and industries are also 
+
+at risk.

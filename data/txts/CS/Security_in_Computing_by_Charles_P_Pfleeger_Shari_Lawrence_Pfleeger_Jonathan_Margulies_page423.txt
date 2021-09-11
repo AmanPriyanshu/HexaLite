@@ -1,0 +1,72 @@
+ Section 6.3  Wireless Network Security 
+389  Thus, users tended to use keys that were not really random. The situation is like ask-
+ing very young children to pick a number between 1 and 100 and then trying to guess 
+
+it. If you determine the children know only the numbers 1 through 10, your chance of 
+
+guessing correctly improves from 1 in 100 to 1 in 10, even though the target space is 
+
+still 1 to 100. Nonrandom distribution skews the chances of guessing correctly.
+Static Key The WEP encryption key is shared between sender and receiver. This means that the 
+
+same value has to be entered at both the access point and the remote device. Although 
+
+users are occasionally willing to choose and enter a key both places, they do not want to 
+
+do so frequently. Thus, the same encryption key tends to be used for a long time.
+A dedicated attacker who can monitor a large amount of wireless network traffic 
+will collect many data points from which to deduce a key. If the key changes frequently, 
+
+data points from an old key provide no help in deducing a new key, but keys that are 
+
+not changed frequently admit the possibility of deducing from the large number of data 
+
+points. Thus, a key that is seldom changed increases the chance an attacker can deduce it.
+Weak Encryption Process 
+Even if the key is strong, it really has an effective length of only 40 or 104 bits because 
+
+of the way it is used in the algorithm. A brute-force attack against a 40-bit key suc-
+
+ceeds quickly. Even for the 104-bit version, flaws in the RC4 algorithm and its use (see 
+
+[BOR01, FLU01, and ARB02]) defeat WEP security. Tools such as WEPCrack and 
+
+AirCrack-ng allow an attacker to crack a WEP encryption, usually in a few minutes. At 
+
+a 2005 conference, the FBI demonstrated the ease with which a WEP-secured wireless 
+
+session can be broken.
+Weak Encryption Algorithm 
+The third problem with WEP is the way it performs encryption. WEP does not use 
+
+RC4 as an encryption algorithm directly; instead, RC4 generates a long sequence of 
+
+random numbers, called the key sequence, derived from the 24-bit initialization vector 
+
+and the 40-bit key. WEP combines the key sequence with the data using an exclusive-
+
+OR function. Unfortunately, if the attacker can guess the decrypted value of any single 
+
+encrypted frame, feeding that value into the exclusive-OR function reveals that segment 
+
+of the key sequence. The same key sequence is reused for all messages, so the segment 
+
+will repeat at the same point. The IV is communicated as plaintext, so an attacker can 
+
+intercept it for an exhaustive key search attack. Other known problems involve the use 
+
+of an exclusive OR.
+Initialization Vector Collisions 
+A final encryption problem with WEP concerns the initialization vector, which becomes 
+
+the first 24 bits of the encryption key. These 24 bits cycle in a predictable pattern until 
+
+all 24-bit patterns have been used (approximately 16 million iterations), at which point 
+
+the initialization vector reverts to the first value and the cycle begins again. At least that 
+
+is the theory. In practice, certain initialization vector values get caught in the loop and 
+
+never change, while others do not cycle through all 16 million 24-bit patterns. And the 
+
+first few changes are not totally random but have some degree of predictability.

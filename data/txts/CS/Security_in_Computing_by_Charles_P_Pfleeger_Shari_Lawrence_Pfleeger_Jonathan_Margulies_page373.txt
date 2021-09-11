@@ -1,0 +1,54 @@
+ Section 5.5  Exercises 
+339  Because of its fundamental position in a computing system, an operating system 
+cannot be weak. We have discussed the concept of trust and confidence in an operating 
+
+system’s correctness. The strength of an operating system comes from its tight integra-
+
+tion with hardware, its simple design, and its focus—intentionally or not—on security. 
+
+Of course, an operating system has the advantage of being self-contained on a distinct 
+
+platform.In the next chapter we consider a fundamental part of modern computing: networks. 
+Few computing activities these days do not involve networking. But the self-contained, 
+
+tightly integrated character of an operating system definitely does not apply in net-
+
+works. As we show, authentication and access control are harder to achieve in net-
+
+works than in operating systems, and the degree of self-protection a network user can 
+
+have is decidedly less than an operating system user. Securing networks is more of a 
+
+challenge.5.5 EXERCISES
+1. Give an example of the use of physical separation for security in a computing environment.
+2. Give an example of the use of temporal separation for security in a computing environment.
+3. Give an example of an object whose sensitivity may change during execution.
+4. Respond to the allegation “An operating system requires no protection for its executable code 
+(in memory) because that code is a duplicate of code maintained on disk.”
+5. Explain how a fence register is used for relocating a user’s program.
+6. Can any number of concurrent processes be protected from one another by just one pair of 
+base/bounds registers?
+7. The discussion of base/bounds registers implies that program code is execute-only and that 
+data areas are read-write-only. Is this ever not the case? Explain your answer.
+8. A design using tag bits presupposes that adjacent memory locations hold dissimilar things: a line of code, a piece of data, a line of code, two pieces of data, and so forth. Most programs 
+
+do not look like that. How can tag bits be appropriate in a situation in which programs have 
+
+the more conventional arrangement of code and data?
+9. What are some other modes of access that users might want to apply to code or data, in addi-
+tion to the common read, write, and execute permission?
+10. If two users share access to a segment, they must do so by the same name. Must their protec-
+tion rights to it be the same? Why or why not?
+11. A problem with either segmented or paged address translation is timing. Suppose a user 
+wants to read some data from an input device into memory. For efficiency during data trans-
+
+fer, often the actual memory address at which the data are to be placed is provided to an I/O 
+
+device. The real address is passed so that time-consuming address translation does not have 
+
+to be performed during a very fast data transfer. What security problems does this approach 
+
+bring?12. A directory is also an object to which access should be controlled. Why is it not appropriate 
+to allow users to modify their own directories?
+13. Why should the directory of one user not be generally accessible to other users (not even for 
+read-only access)?

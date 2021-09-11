@@ -1,0 +1,70 @@
+464 Chapter 6  
+NetworksEach of these scenarios can be implemented as a modified proxy. Because the proxy 
+decision is based on some quality of the communication data, we call the proxy a guard. 
+Since the security policy implemented by the guard is somewhat more complex than the 
+
+action of a proxy, the guard’s code is also more complex and therefore more exposed to 
+
+error. Simpler firewalls have fewer possible ways to fail or be subverted. An example 
+
+of a guard process is the so-called Great Firewall of China, described in Sidebar 6-23.
+We have purposely arranged these firewall types from simple to complex. Simple 
+screening is highly mechanistic and algorithmic, implying that code to implement it is 
+regular and straightforward. Complex content determinations edge closer to machine 
+
+intelligence, a more heuristic and variable activity. More complex analysis takes more 
+
+time, which may affect a firewall’s performance and usefulness. No single firewall 
+
+approach is necessarily right or better; each has its appropriate context of use.
+SIDEBAR 6-23 Great Firewall of China
+Rulers in the People’s Republic of China want to control data to which their 
+residents have access. Content companies like Google and Yahoo/Micro-
+
+soft have been told that if they want to do business in China they need to 
+employ special versions of their web applications that filter out “offensive 
+
+words.” When Skype wanted to enter the Chinese market, they were simi-
+
+larly told they had to scrub text messages; the result: Skype text now elimi-
+
+nates words such as “Falun Gong” and “Dalai Lama.”
+Bloomberg Business News reports that China employs 30,000 
+people to monitor content on websites and report on ones that violate 
+
+standards [ELG06]. All Internet traffic passes through a bank of government- 
+
+controlled firewalls. Any email or text messages that contain banned words 
+
+are dropped at the firewall.
+As a condition of doing business in China, Google was asked to 
+provide a special search capability that would not allow access to certain 
+
+banned sites or render unacceptable content. Tiananmen is one sensi-
+
+tive term, as is June 4 (the date of the uprising); enter those into a search 
+
+engine and, according to CNN, you obtain the result “According to relevant 
+
+law and regulations, the results are not displayed.” But enter 8x8, which of 
+
+course evaluates to 64 or 6/4, the abbreviation for June 4, and you may find 
+
+some blog entries that have not yet been censored [SHA11]. Facebook and 
+
+Twitter are, of course, censored, but people find crafty ways to evade that 
+
+censorship.After complying with Chinese restrictions for several years, Google 
+officially left mainland China in Summer 2010. Initially, Google’s traffic was 
+
+redirected to servers in Hong Kong, technically Chinese but operating with 
+
+great freedom. Chinese firewalls and addressing servers redirect attempts 
+
+to reach external sites.
+Although not technically a firewall, the Great Firewall of China, for-
+mally known by the more appealing name Golden Shield Project, certainly 
+
+performs firewall functions. However, as the cited examples show, filtering 
+
+content is more difficult than simply screening addresses.

@@ -1,0 +1,45 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜has a high-availability requirement. It must be available whenever a demand is 
+made. However, if a system can recover quickly from failures without loss of user 
+data, then these failures may not significantly affect system users.A telephone exchange switch that routes phone calls is an example of a system 
+where availability is more important than reliability. Users expect to be able to make a 
+
+call when they pick up a phone or activate a phone app, so the system has high-
+ availability requirements. If a system fault occurs while a connection is being set up, 
+
+this is often quickly recoverable. Exchange or base station switches can reset the  system 
+and retry the connection attempt. This can be done quickly, and phone users may not 
+
+even notice that a failure has occurred. Furthermore, even if a call is interrupted, the 
+
+consequences are usually not serious. Users simply reconnect if this happens.
+In September 1993, a plane landed at Warsaw Airport in Poland during a thunder
+-
+storm. For 9 seconds after landing, the brakes on the computer-controlled braking 
+
+system did not work. The braking system had not recognized that the plane had 
+
+landed and assumed that the aircraft was still airborne. A safety feature on the air-
+craft had stopped the deployment of the reverse thrust system, which slows down the 
+aircraft, because reverse thrust is catastrophic if the plane is in the air. The plane ran 
+off the end of the runway, hit an earth bank, and caught fire.The inquiry into the accident showed that the braking system software had oper-ated according to its specification. There were no errors in the control system. 
+
+However, the software specification was incomplete and had not taken into account 
+a rare situation, which arose in this case. The software worked, but the system failed.This incident shows that system dependability does not just depend on good engi-neering. It also requires attention to detail when the system requirements are derived 
+and the specification of software requirements that are geared to ensuring the 
+
+dependability of a system. Those dependability requirements are of two types:1. Functional requirements
+, which define checking and recovery facilities that 
+should be included in the system and features that provide protection against 
+
+system failures and external attacks.2. Non-functional requirements, which define the required reliability and availa
+-
+bility of the system.As I discussed in Chapter 10, the overall reliability of a system depends on the 
+hardware reliability, the software reliability, and the reliability of the system opera-
+tors. The system software has to take this requirement into account. As well as 
+
+including requirements that compensate for software failure, there may also be 
+
+related reliability requirements to help detect and recover from hardware failures 
+
+and operator errors.

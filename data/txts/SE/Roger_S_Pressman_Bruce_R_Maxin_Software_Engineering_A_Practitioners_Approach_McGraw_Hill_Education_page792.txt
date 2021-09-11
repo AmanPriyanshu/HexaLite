@@ -1,0 +1,119 @@
+762 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+is difﬁ cult to develop a comprehensive taxonomy of software project types, most 
+software organizations encounter the following projects:   
+ 
+ 
+1.   
+Concept development projects
+ 
+ that are initiated to explore some new business concept or application of some new technology. 
+  
+ 
+ 
+ 2.
+   
+New application development 
+ projects that are undertaken as a consequence of a speciﬁ c customer request. 
+  
+ 
+ 
+ 3.
+   
+Application enhancement 
+ projects that occur when existing software undergoes major modiﬁ cations to function, performance, or interfaces 
+that are observable by the end user. 
+  
+ 
+ 
+ 4.
+   
+Application maintenance projects
+ 
+ that correct, adapt, or extend existing software in ways that may not be immediately obvious to the end 
+user. 
+  
+ 
+ 
+ 5.
+   
+Reengineering projects
+ 
+ that are undertaken with the intent of rebuilding an existing (legacy) system in whole or in part.  
+ 
+   
+ 
+ 
+ 
+ 
+Even within a single project type, many factors inﬂ uence the task set to be 
+chosen. These include [Pre05]: size of the project, number of potential users, 
+
+mission criticality, application longevity, stability of requirements, ease of 
+
+customer/developer communication, maturity of applicable technology, perfor-
+
+mance constraints, embedded and nonembedded characteristics, project staff, 
+
+and reengineering factors. When taken in combination, these factors provide 
+
+an indication of the  degree of rigor
+ 
+ with which the software process should be 
+applied. 
+  
+ 
+34.3.1   
+A Task Set Example 
+ 
+Concept development projects are initiated when the potential for some new tech-nology must be explored. There is no certainty that the technology will be applica-
+ble, but a customer (e.g., marketing) believes that potential beneﬁ t exists. Concept 
+development projects are approached by applying the following major tasks:  
+ 
+ 
+ 1.1
+   
+Concept scoping 
+ determines the overall scope of the project.   
+ 
+ 
+ 1.2
+   
+Preliminary concept planning 
+ establishes the organization’s ability to 
+undertake the work implied by the project scope.   
+ 
+ 
+ 1.3
+   
+Technology risk assessment
+ 
+ evaluates the risk associated with the technology to be implemented as part of the project scope.   
+ 
+ 
+ 1.4
+   
+Proof of concept 
+ demonstrates the viability of a new technology in the software context.   
+ 
+ 
+ 1.5
+   
+Concept implementation 
+ implements the concept representation in a manner that can be reviewed by a customer and is used for 
+“marketing” purposes when a concept must be sold to other customers or 
+management.   
+WebRef 
+ An adaptable process 
+model (APM) has been 
+developed to assist 
+in deﬁ ning task sets 
+
+for various software 
+projects. A complete 
+description of the 
+APM can be found at 
+  www.rspa.com/
+
+apm  . 
+pre22126_ch34_754-776.indd   762pre22126_ch34_754-776.indd   76213/12/13   10:02 PM13/12/13   10:02 PM

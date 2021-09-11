@@ -1,0 +1,65 @@
+444 Chapter 6  
+Networksand it prevents sites from learning the user’s physical location. According to 
+Bloom-berg BusinessWeek
+ of 23 Jan 2014, Tor users range from Iranian activists who eluded 
+their government’s censors to transmit images and news during protests following the 
+
+presidential election of 2009, to Chinese citizens who regularly use it to get around 
+
+the country’s stringent limitations 
+
+on Internet content and access. Tor 
+
+also facilitates the so-called dark 
+
+side of the Internet, or Darknet, 
+
+used to implement illegal traffic in 
+
+child pornography, drugs, and sto-
+
+len credit card and identity details.IP Security Protocol Suite (IPsec)
+Address space for the Internet is running out. As domain names and equipment prolifer-
+
+ate, the original, over 30-year-old, 32-bit address structure of the Internet is filling up. 
+
+A new structure, called 
+IPv6 (version 6 of the IP protocol suite), solves the addressing 
+problem. This restructuring also offered an excellent opportunity for the Internet Engi-
+
+neering Task Force (IETF) to address serious security requirements.
+As a part of the IPv6 suite, the IP security protocol suite, or 
+IPsec, was adopted 
+by the IETF. Designed to address fundamental shortcomings such as being subject to 
+
+spoofing, eavesdropping, and session hijacking, the IPsec protocol defines a standard 
+
+means for handling encrypted data. IPsec is implemented at the IP layer (3), so it pro-
+
+tects data produced in all layers above it, in particular, TCP and UDP control informa-
+
+tion, as well as the application data. Therefore, IPsec requires no change to the existing 
+
+large number of TCP and UDP protocols or applications.
+IPsec is somewhat similar to SSL, in that it supports authentication and confidenti-
+ality in a way that does not necessitate significant change either above it (in applica-
+
+tions) or below it (in the TCP protocols). Like SSL, it was designed to be independent 
+
+of specific cryptographic algorithms 
+
+and to allow the two communicating 
+
+parties to agree on a mutually sup-
+ported set of protocols.IPsec Security AssociationThe basis of IPsec is what is called a security association, which is essentially the set of security parameters for a secured communication channel. It is roughly comparable 
+to an SSL session. A security association includes
+• encryption algorithm and mode (for example, AES)
+• encryption key
+
+• encryption parameters, such as the initialization vector
+Tor—onion routing—prevents an 
+eavesdropper from learning source, 
+
+destination, or content of data in transit 
+in a network.IPsec implements encryption and 
+authentication in the Internet protocols.

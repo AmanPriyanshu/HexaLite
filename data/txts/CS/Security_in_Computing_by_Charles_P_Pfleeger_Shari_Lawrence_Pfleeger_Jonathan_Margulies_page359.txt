@@ -1,0 +1,70 @@
+ Section 5.2  Security in the Design of Operating Systems 
+325  Object ReuseOne way that a computing system maintains its efficiency is to reuse objects. The oper-
+ating system controls resource allocation, and as a resource is freed for use by other 
+
+users or programs, the operating system permits the next user or program to access 
+
+the resource. But reusable objects must be carefully controlled, lest they create a seri-
+
+ous vulnerability. To see why, consider what happens when a new file is created. Usu-
+
+ally, space for the file comes from a pool of freed, previously used space on a disk, in 
+
+memory, or on another storage device. Released space is returned to the pool “dirty,” 
+
+that is, still containing the data from the previous user. Because most users would write 
+
+to a file before trying to read from it, the new user’s data obliterate the previous owner’s, 
+
+so there is no inappropriate disclo-
+
+sure of the previous user’s informa-
+
+tion. However, a malicious user may 
+
+claim a large amount of space and 
+
+then scavenge for sensitive data by 
+
+reading before writing. This kind of 
+
+attack is called object reuse
+.To prevent object reuse leakage, operating systems clear (that is, overwrite) all space 
+to be reassigned before allowing the next user to access it. Magnetic media are particu-
+
+larly vulnerable to this threat. Very precise and expensive equipment can sometimes 
+
+separate the most recent data from the data previously recorded, from the data before 
+
+that, and so forth. This threat, called 
+magnetic remanence
+, is beyond the scope of this 
+book. For more information, see [NCS91b]. In any case, the operating system must take 
+
+responsibility for “cleaning” the resource before permitting access to it. AuditTrusted systems must also track any security relevant changes, such as installation of 
+new programs or modification to the operating system. The audit log must be protected 
+
+against tampering, modification, or deletion other than by an authenticated security 
+
+administrator. Furthermore, the audit log must be active throughout system operation. If 
+
+the audit medium fills to capacity (for example, if audit records written to a disk use all 
+
+space on the disk), the system is to shut down.
+The Results of Trusted Systems Research
+The original purpose of the Orange Book was to ensure a range of trustworthy, security-
+
+enforcing products, primarily for use to protect military sensitive information for the 
+obtain the card data and PIN, allowing reuse of the data. The vulnerabili-
+ties involved both physical tampering and interception. These research-
+
+ers designed and implemented only a proof-of-concept demonstration of 
+
+the flaw, so the problem caused no real harm of which we are aware. Still, 
+
+designers not focused on security weaknesses produce numerous prod-
+
+ucts in widespread use.
+Object sanitization ensures no leakage 
+of data if a subject uses a memory 
+object released by another subject.

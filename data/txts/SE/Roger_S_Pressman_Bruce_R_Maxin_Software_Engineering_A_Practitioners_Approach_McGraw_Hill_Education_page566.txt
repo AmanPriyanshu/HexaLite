@@ -1,0 +1,87 @@
+536 PART THREE  
+QUALITY MANAGEMENTapproach partitions tests based on the interfaces to a particular class. Refer-
+ring to  Figure 24.2 , the  Bank 
+ class receives messages from the  
+ATM
+ 
+ and  
+Cashier 
+ classes. The methods within  Bank 
+ can therefore be tested by partitioning them 
+into those that serve  ATM
+ 
+ and those that serve  
+Cashier.
+ 
+ State-based partitioning 
+(Section 24.5.2) can be used to reﬁ ne the partitions further. 
+ 
+ 
+ 
+ 
+24.6.2   
+Tests Derived from Behavior Models 
+ 
+The use of the state diagram as a model that represents the dynamic behavior of a class is discussed in Chapter 11. The state diagram for a class can be used 
+to help derive a sequence of tests that will exercise the dynamic behavior of the 
+class (and those classes that collaborate with it).  Figure 24.3  [Kir94] illustrates a 
+state diagram for the  Account 
+ class discussed earlier. Referring to the ﬁ
+ gure, ini-
+tial transitions move through the  empty acct 
+ and  
+setup acct 
+ states. The majority 
+of all behavior for instances of the class occurs while in the  working acct 
+ state. A 
+ﬁ nal withdrawal and account closure cause the account class to make transitions 
+to the  nonworking acct 
+ and  dead acct 
+ states, respectively. 
+  The tests to be designed should achieve coverage of every state. That is, the operation sequences should cause the  Account 
+ class to make transition through 
+all allowable states:  
+ 
+ 
+ 
+ 
+ 
+ 
+Test case s
+1: 
+ open•setupAccnt•deposit (initial)•withdraw (ﬁ nal)•close 
+ 
+ 
+  
+It should be noted that this sequence is identical to the minimum test sequence discussed in Section 24.5.2. Adding additional test sequences to the 
+minimum sequence,   
+ 
+ 
+ 
+ 
+ 
+ 
+Test case s
+2: 
+ open•setupAccnt•deposit(initial)•deposit•balance•credit•withdraw (ﬁ nal)•close 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+Test case s
+3: 
+ open•setupAccnt•deposit(initial)•deposit•withdraw•accntInfo•withdraw    (ﬁ
+ nal)•close 
+ OpenEmptyacctSet upacctWorking
+acctNonworkingacctDeadacctSetup AccntDeposit (initial)BalancecreditaccntInfoDepositWithdraw
+Withdrawal (final)
+Close  
+FIGURE 24.3 
+State diagram for the 
+Account class. 
+  
+ 
+Source: Adapted from [Kir94]. pre22126_ch24_523-539.indd   536pre22126_ch24_523-539.indd   53613/12/13   10:02 PM13/12/13   10:02 PM

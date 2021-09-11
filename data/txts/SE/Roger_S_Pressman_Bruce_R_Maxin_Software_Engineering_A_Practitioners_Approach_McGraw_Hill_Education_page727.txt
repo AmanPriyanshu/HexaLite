@@ -1,0 +1,96 @@
+CHAPTER 31  
+PROJECT MANAGEMENT CONCEPTS 697 
+ 
+ 
+ 5.
+  Conduct the meeting.   
+ 
+ 
+ 6.
+  Jointly develop mini-specs that reﬂ ect data, function, and behavioral 
+features of the software. Alternatively, develop use cases that describe the 
+
+software from the user’s point of view. 
+  
+ 
+ 
+ 7.
+  Review each mini-spec or use case for correctness, consistency, and lack 
+of ambiguity. 
+  
+ 
+ 
+ 8.
+  Assemble the mini-specs into a scoping document.   
+ 
+ 
+ 9.
+  Review the scoping document or collection of use cases with all concerned.   
+ 
+ 
+ 10.
+  Modify the scoping document or use cases as required.   
+ 
+Both projects perform the framework activity that we call  communication 
+, but the ﬁ rst project team performs half as many software engineering work tasks as 
+the second.  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 31.5  
+THE PROJECT  
+ 
+ 
+ 
+ 
+ 
+ 
+In order to manage a successful software project, you have to understand what 
+can go wrong so that problems can be avoided. In an excellent paper on software 
+
+projects, John Reel [Ree99] deﬁ nes signs that indicate that an information systems 
+project is in jeopardy. In some cases, software people don’t understand their cus-
+
+tomer’s needs. This leads to a project with a poorly deﬁ
+ ned scope. In other proj-
+ects, changes are managed poorly. Sometimes, the chosen technology changes or 
+
+business needs shift and management sponsorship is lost. Management can set 
+
+unrealistic deadlines or end users can be resistant to the new system. There are 
+
+cases in which the project team simply does not have the requisite skills. And 
+
+ﬁ nally, there are developers who never seem to learn from their mistakes. 
+ Jaded industry professionals often refer to the “90–90 rule” when discussing particularly difﬁ cult software projects: The ﬁ
+ rst 90 percent of a system absorbs 90 
+per-
+
+cent of the allotted effort and time [Zah94]. The seeds that lead to the 90–90 rule 
+are contained in the signs noted in the preceding list.  But enough negativity! How does a manager act to avoid the problems just noted? 
+Reel [Ree99] suggests a ﬁ ve-part commonsense approach to software projects:
+ 
+ 
+ 
+ 
+ 1.
+   
+Start on the right foot. 
+ This is accomplished by working hard (very hard) to understand the problem that is to be solved and then setting realistic ob-
+jectives and expectations for everyone who will be involved in the project. 
+It is reinforced by building the right team (Section 31.2.3) and giving the 
+team the autonomy, authority, and technology needed to do the job. 
+  
+ 
+ 
+ 2.
+   
+Maintain momentum. 
+ Many projects get off to a good start and then slowly disintegrate. To maintain momentum, the project manager must provide 
+ What are the 
+signs that a software project 
+is in jeopardy? ?pre22126_ch31_683-702.indd   697pre22126_ch31_683-702.indd   69713/12/13   6:16 PM13/12/13   6:16 PM

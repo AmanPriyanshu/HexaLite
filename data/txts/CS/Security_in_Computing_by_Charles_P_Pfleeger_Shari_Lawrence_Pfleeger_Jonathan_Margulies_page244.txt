@@ -1,0 +1,72 @@
+210 Chapter 3  
+Programs and Programmingcover SSL in Chapter 6.) The OpenSSL implementation is used by the majority of web 
+sites; two major packages using OpenSSL account for over 66 percent of sites using 
+
+SSL. Because the adoption of OpenSSL is so vast, this one vulnerability affects a huge 
+
+number of sites, putting the majority of Internet users at risk. The warning about lack 
+
+of diversity in software is especially relevant here. However, cryptography is a delicate 
+
+topic; even correctly written code can leak sensitive information, not to mention the 
+
+numerous subtle ways such code can be wrong. Thus, there is a good argument for hav-
+
+ing a small number of cryptographic implementations that analysts can scrutinize rigor-
+
+ously. But common code presents a single or common point for mass failure.
+Furthermore, diversity is expensive, as large users such as companies or universi-
+ties must maintain several kinds of systems instead of focusing their effort on just one. 
+
+Furthermore, diversity would be substantially enhanced by a large number of compet-
+
+ing products, but the economics of the market make it difficult for many vendors to 
+
+all profit enough to stay in business. Geer refined the argument in [GEE03], which 
+
+was debated by James Whittaker [WHI03b] and David Aucsmith [AUC03]. There is no 
+
+obvious right solution for this dilemma.
+Tight integration of products is a similar concern. The Windows operating system is 
+tightly linked to Internet Explorer, the Office suite, and the Outlook email handler. A 
+
+vulnerability in one of these can also affect the others. Because of the tight integration, 
+
+fixing a vulnerability in one subsystem can have an impact on the others. On the other 
+
+hand, with a more diverse (in terms of vendors) architecture, a vulnerability in another 
+
+vendor’s browser, for example, can affect Word only to the extent that the two systems 
+
+communicate through a well-defined interface.
+A different form of change occurs when a program is loaded into memory for execu-
+tion. Address-space-layout randomization
+ is a technique by which a module is loaded 
+into different locations at different times (using a relocation device similar to base and 
+
+bounds registers, described in Chapter 5). However, when an entire module is relocated 
+
+as a unit, getting one real address gives the attacker the key to compute the addresses of 
+
+all other parts of the module. Next we turn from product to process. How is good software produced? As with the 
+code properties, these process approaches are not a recipe: doing these things does not 
+guarantee good code. However, like the code characteristics, these processes tend to 
+
+reflect approaches of people who successfully develop secure software.
+Testing
+Testing is a process activity that concentrates on product quality: It seeks to locate poten-
+tial product failures before they actually occur. The goal of testing is to make the product 
+
+failure free (eliminating the possibility of failure); realistically, however, testing will only 
+
+reduce the likelihood or limit the impact of failures. Each software problem (especially 
+
+when it relates to security) has the potential not only for making software fail but also for 
+
+adversely affecting a business or a life. The failure of one control may expose a vulner-
+
+ability that is not ameliorated by any number of functioning controls. Testers improve 
+
+software quality by finding as many faults as possible and carefully documenting their 
+
+findings so that developers can locate the causes and repair the problems if possible.

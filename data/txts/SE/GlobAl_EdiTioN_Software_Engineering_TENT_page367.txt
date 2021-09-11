@@ -1,0 +1,27 @@
+˜˜˚˛˙˜˜˜
+˜˜
+unsafe assignment. You work backwards from the unsafe state and consider the last 
+assignment to all of the state variables on each path leading to this unsafe state. If you 
+
+can show that none of the values of these variables is unsafe, then you have shown that 
+
+your initial assumption (that the computation is unsafe) is incorrect.Working backwards is important because it means that you can ignore all inter-mediate states apart from the final states that lead to the exit condition for the code. 
+The previous values don™t matter to the safety of the system. In this example, all you 
+need be concerned with is the set of possible values of currentDose
+ immediately 
+before the administerInsulin method is executed. You can ignore computations, such as if-statement 1 in Figure 
+12.13 in the safety argument because their results are 
+
+overwritten in later program statements.currentDose = 0
+currentDose = 0if statement 2
+then branchexecutedcurrentDose =
+maxDosecurrentDose =maxDoseif statement 2
+else branchexecutedif statement 2
+not executedcurrentDose >= minimumDose and
+currentDose <= maxDoseorcurrentDose >
+maxDoseadministerInsulinContradictionContradictionContradictionPrecondition
+for unsafe state
+Overdose
+administered
+assignassignFigure 12.14 Informal safety argument based on demonstrating 
+contradictions 

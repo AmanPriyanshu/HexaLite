@@ -1,0 +1,69 @@
+560 Chapter 8  
+Cloud Computingat multiple, geographically diverse data centers, you still have to worry about those data 
+centers sharing many vulnerabilities in common as well as the risk of the provider going 
+
+out of business. If you decide to mitigate these risks by outsourcing to two cloud provid-
+
+ers instead of one, you’ll have one more concern to watch out for: Many cloud providers 
+
+are themselves customers of bigger cloud providers. If one of your cloud providers is 
+
+selling services to the other, you may not have the redundancy you think you have.
+In addition to mainstream cloud services providing redundancy and diversity to busi-
+ness operation, other cloud services have sprung up to focus specifically on security 
+
+operations. Many security tools handle massive amounts of traffic and are therefore 
+
+difficult for customers to outsource to cloud providers (which would require routing all 
+
+that traffic through the provider), but a few fit nicely in the cloud paradigm:
+• Email filtering
+. SMTP already routes email to and from servers all over the 
+Internet, so adding an extra hop to a cloud provider for filtering is very little 
+
+trouble. Cloud providers remove spam and dangerous attachments before for-
+
+warding email to customers and hold suspicious messages in quarantine so cus-
+
+tomers can inspect them safely.
+• DDoS protection
+. Cloud-based DDoS protection services update your DNS 
+records to insert their servers as proxies between customers’ outward-facing ser-
+
+vices and the Internet. They maintain sufficient bandwidth to handle the flood 
+
+of attack traffic, and once they detect an attack they begin filtering malicious 
+
+packets before the packets can reach customers.
+• Network monitoring. 
+Log analysis and SIEM tools (see section 6.9) have steep 
+processor, memory, and storage requirements, and require expertise to use effec-
+
+tively. To help companies deal with these issues, some cloud-based solutions 
+
+have emerged. Customers can forward all their log data to a cloud provider run-
+
+ning a SIEM on seemingly limitless infrastructure, and they can alleviate con-
+
+cerns about losing data because they lack storage or having queries take too 
+
+long because of processor limitations. Customers with log analysis and incident 
+response expertise can remotely log in to the SIEM and use it as though it were 
+
+running on local hardware. Customers who cannot afford adequate expertise can 
+
+outsource some or all of their SOC operations to a cloud provider.
+8.3 CLOUD SECURITY TOOLS AND TECHNIQUES
+Cloud security is not inherently different from information security generally, but it 
+
+does present a unique threat vector: shared processing, storage, and communication 
+
+resources with potential adversaries. As a result, the standard approach to securing 
+
+cloud services has been to use the same basic tools we discuss elsewhere in this book—
+
+encryption, secure programming, network security products, and the like—but adapt 
+
+them to work with common cloud offerings and to respect the new threats that come 
+
+from using shared resources.

@@ -1,0 +1,35 @@
+˜˜˚˛˜˜˜˜˜˜˜˜˜
+Intermediate Language (CIL). Some component models require specific inter-faces that must be defined by a component. These are used to compose the com-
+ponent with the component model infrastructure, which provides standardized 
+services such as security and transaction management.2. Usage In order for components to be distributed and accessed remotely via 
+RPCs, they need to have a unique name or handle associated with them. This 
+has to be globally unique. For example, in EJB, a hierarchical name is generated 
+with the root based on an Internet domain name. Services have a unique URI 
+(Uniform Resource Identifier). Component meta-data is data about the component itself, such as information 
+
+about its interfaces and attributes. The meta-data is important because it allows 
+users of the component to find out what services are provided and required. 
+
+Component model implementations normally include specific ways (such as the 
+use of a reflection interface in Java) to access this component meta-data. Components are generic entities, and, when deployed, they have to be config-
+ured to fit into an application system. For example, you could configure the 
+
+Data collector component (Figure 16.3) by defining the maximum number of 
+
+sensors in a sensor array. The component model may therefore specify how the 
+binary components can be customized for a particular deployment environment.
+3. Deployment The component model includes a specification of how components should be packaged for deployment as independent, executable routines. 
+
+Because components are independent entities, they have to be packaged with all 
+supporting software that is not provided by the component infrastructure, or is 
+not defined in a ﬁrequiresﬂ interface. Deployment information includes informa-
+tion about the contents of a package and its binary organization. Inevitably, as new requirements emerge, components will have to be changed or 
+replaced. The component model may therefore include rules governing when 
+
+and how component replacement is allowed. Finally, the component model may 
+define the component documentation that should be produced. This is used to 
+find the component and to decide whether it is appropriate.Component modelInterfaces
+UsageinformationDeploymentand useInterfacedefinitionSpecificinterfaces
+CompositionNamingconventionMeta-dataaccessCustomizationPackaging
+DocumentationEvolutionsupportFigure 16.4  Basic elements of a 
+component model 

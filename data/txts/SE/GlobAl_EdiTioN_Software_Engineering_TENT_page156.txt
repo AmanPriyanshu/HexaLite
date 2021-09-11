@@ -1,0 +1,42 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜ˇˇEvent-driven modeling shows how a system responds to external and internal 
+events. It is based on the assumption that a system has a finite number of states 
+
+and that events (stimuli) may cause a transition from one state to another. For 
+
+example, a system controlling a valve may move from a state ﬁValve openﬂ to a 
+
+state ﬁValve closedﬂ when an operator command (the stimulus) is received. This 
+
+view of a system is particularly appropriate for real-time systems. Event-driven 
+
+modeling is used extensively when designing and documenting real-time systems 
+
+(Chapter 21).The UML supports event-based modeling using state diagrams, which are based on Statecharts (Harel 1987). State diagrams show system states and events that cause 
+transitions from one state to another. They do not show the flow of data within the 
+system but may include additional information on the computations carried out in 
+
+each state.I use an example of control software for a very simple microwave oven to illus-trate event-driven modeling (Figure 5.16). Real microwave ovens are much more 
+
+complex than this system, but the simplified system is easier to understand. This 
+
+simple oven has a switch to select full or half power, a numeric keypad to input the 
+cooking time, a start/stop button, and an alphanumeric display.Full po
+werEnableddo:operate
+ovenFull
+powerHalfpowerHalfpowerFull
+powerNumberDooropenDoorclosedDoorclosedDooropenStart
+do:set power
+= 600Half powerdo:set power
+= 300Set time
+do: get numberexit: set time
+Disabled
+OperationCancelWaiting
+do:display
+timeWaiting
+do:display
+time
+do: display     'Ready'do:display
+'Waiting'
+Timer
+TimerFigure 5.16 A state diagram of a microwave oven 

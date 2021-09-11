@@ -1,0 +1,100 @@
+CHAPTER 2  
+SOFTWARE ENGINEERING
+ 23and designs has been proclaimed as a major beneﬁ t of using object-oriented 
+technologies. However, the return on this investment is not automatic. To lever-
+
+age the reuse possibilities that object-oriented [or conventional] programming 
+provides requires forethought and planning. There are many techniques to re-
+Planning ahead for reuse reduces the cost and increases the value of both the reusable compo-
+
+nents and the systems into which they are incorporated
+ 
+.  
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Seventh Principle:   Think!Think! 
+  
+ 
+ 
+This last Principle is probably the most overlooked.  Placing clear, complete 
+thought before action almost always produces better results
+ 
+. When you think about 
+something, you are more likely to do it right. You also gain knowledge about how to 
+
+do it right again. If you do think about something and still do it wrong, it becomes 
+
+a valuable experience. A side effect of thinking is learning to recognize when you 
+
+don’t know something, at which point you can research the answer. When clear 
+
+thought has gone into a system, value comes out. Applying the ﬁ rst six principles 
+requires intense thought, for which the potential rewards are enormous. 
+   
+If every software engineer and every software team simply followed Hooker’s 
+seven principles, many of the difﬁ culties we experience in building complex 
+computer-based systems would be eliminated. 
+  
+ 
+ 
+ 
+ 2.4 S
+OFTWARE
+ DEVELOPMENT MYTHS  
+ 
+Software development myths—erroneous beliefs about software and the process that is used to build it—can be traced to the earliest days of computing. Myths 
+have a number of attributes that make them insidious. For instance, they appear 
+to be reasonable statements of fact (sometimes containing elements of truth), 
+they have an intuitive feel, and they are often promulgated by experienced prac-
+titioners who “know the score.”  Today, most knowledgeable software engineering professionals recognize 
+myths for what they are—misleading attitudes that have caused serious prob-
+lems for managers and practitioners alike. However, old attitudes and habits are 
+
+difﬁ cult to modify, and remnants of software myths remain. 
+ 
+ 
+ 
+  
+ 
+ 
+Management myths.   
+Managers with software responsibility, like managers in 
+most disciplines, are often under pressure to maintain budgets, keep sched-
+ules from slipping, and improve quality. Like a drowning person who grasps at a 
+
+straw, a software manager often grasps at belief in a software myth, if that belief 
+
+will lessen the pressure (even temporarily).   
+ 
+ 
+ 
+ 
+ 
+ 
+Myth:  
+   
+We already have a book that's full of standards and procedures for 
+building software. Won't that provide my people with everything 
+
+they need to know? 
+ 
+  
+WebRef 
+ The Software Project 
+Managers Network at 
+ www.spmn.com
+  can 
+help you dispel these 
+and other myths. pre22126_ch02_014-028.indd   23pre22126_ch02_014-028.indd   2313/12/13   6:10 PM13/12/13   6:10 PM

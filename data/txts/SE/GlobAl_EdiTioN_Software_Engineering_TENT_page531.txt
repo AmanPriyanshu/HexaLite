@@ -1,0 +1,52 @@
+3. PUT is used to update the value of a resource.
+4. DELETE is used to delete the resource.All services, in some way, operate on data. For example, the service described in 
+Section 18.
+2 that returns the maximum and minimum temperatures for a location on a given data uses a weather information database. SOAP-based services execute 
+
+actions on this database to return particular values from it. RESTful services 
+
+(Richardson and Ruby 2007) access the data directly.
+When a RESTful approach is used, the data is exposed and is accessed using its 
+URL. RESTful services use http or https protocols, with the only allowed actions 
+
+being POST, GET, PUT, and DELETE. Therefore, the weather data for each place in 
+
+the database might be accessed using URLs such as:http://weather-info-example.net/temperatures/boston
+
+http://weather-info-example.net/temperatures/edinburgh
+This would invoke the GET operation and return a list of maximum and minimum 
+temperatures. To request the temperatures for a specific date, a URL query can be used:
+http://weather-info-example.net/temperatures/edinburgh?date=20140226
+
+URL queries can also be used to disambiguate the request, given that there may 
+be several places in the world with the same name:
+http://weather-info-example.net/temperatures/boston?date=20140226&country=
+USA&state=ﬁMassﬂAn important difference between RESTful services and SOAP-based services is 
+that RESTful services are not exclusively XML-based. So, when a resource is 
+requested, created, or changed, the representation may be specified. This is impor
+-tant for RESTful services because representations such as JSON (Javascript Object 
+
+Notation), as well as XML, may be used. These can be processed more efficiently 
+
+than XML-based notations, thus reducing the overhead involved in a service call. 
+
+Therefore, the above request for maximum and minimum temperatures for Boston 
+
+may return the following information:
+{ﬁplaceﬂ: ﬁBostonﬂ,
+
+ﬁcountry  ﬁUSAﬂ,
+
+ﬁstateﬂ: ﬁMassﬂ,
+
+ﬁdateﬂ: ﬁ26 Feb 2014ﬂ,
+
+ﬁunitsﬂ: ﬁFahrenheitﬂ,
+
+ﬁmax tempﬂ: 41,
+ﬁmin tempﬂ: 29
+}The response to a GET request in a RESTful service may include URLs. 
+Therefore, if the response to a request is a set of resources, then the URL of each of 
+˜˚˛˝˙˜˜˜
+˜
+˜˜

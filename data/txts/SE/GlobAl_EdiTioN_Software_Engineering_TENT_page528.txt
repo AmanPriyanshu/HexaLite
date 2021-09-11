@@ -1,0 +1,37 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜
+˜ˇ
+˜bindings may also be specified. The binding sets out how the input and output 
+messages associated with the service should be packaged into a message, and 
+specifies the communication protocols used. The binding may also specify how 
+
+supporting information, such as security credentials or transaction identifiers, is 
+
+included in messages to the service.6. An endpoint specification that is the physical location of the service, expressed 
+
+as a URIŠthe address of a resource that can be accessed over the Internet.
+Figure 18.
+5 shows part of the interface for a simple service that, given a date and a 
+place, specified as a town within a country, returns the maximum and minimum tem
+-
+perature recorded in that place on that date. The input message also specifies whether 
+
+these temperatures are to be returned in degrees Celsius or degrees Fahrenheit.
+XML-based service descriptions include definitions of XML namespaces. A names
+-pace identifier may precede any identifier used in the XML description, making it 
+ possible 
+to distinguish between identifiers with the same name that have been defined in different 
+
+parts of an XML description. You don™t have to understand the details of namespaces to 
+Figure 18.5 Part of a 
+WSDL description for a 
+web serviceDefine some of the types used. Assume that the namespace prefixes ™ws™ refers to 
+the namespace URI for XML schemas and the namespace prefix associated with this 
+definition is weathns.<types><xs: schema targetNameSpace = ﬁhttp://. . ./weathnsﬂxmlns: weathns = ﬁhttp://. . ./weathnsﬂ ><xs:element name = ﬁPlaceAndDateﬂ type = ﬁpdrecﬂ /><xs:element name = ﬁMaxMinTempﬂ type = ﬁmmtrecﬂ />
+<xs:element name = ﬁInDataFaultﬂ type = ﬁerrmessﬂ /><xs:complexType name = ﬁpdrecﬂ<xs:sequence><xs:element name = ﬁtownﬂ type = ﬁxs:stringﬂ/>
+<xs:element name = ﬁcountryﬂ type = ﬁxs:stringﬂ/>
+<xs:element name = ﬁdayﬂ type = ﬁxs:dateﬂ /></xs:complexType>Definitions of MaxMinType and InDataFault here</schema></types>
+Now define the interface and its operations. In this case, there is only a single operation to return maximum and minimum temperatures<interface name = ﬁweatherInfoﬂ ><operation name = ﬁgetMaxMinTempsﬂ pattern = ﬁwsdlns: in-outﬂ><input messageLabel = ﬁInﬂ element = ﬁweathns: PlaceAndDateﬂ />
+<output messageLabel = ﬁOutﬂ element = ﬁweathns:MaxMinTempﬂ />
+<outfault messageLabel = ﬁOutﬂ element = ﬁweathns:InDataFaultﬂ /></operation>
+</interface>

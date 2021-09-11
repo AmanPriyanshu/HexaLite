@@ -1,0 +1,60 @@
+CHAPTER 23  
+TESTING CONVENTIONAL APPLICATIONS
+ 513output report that produces the maximum (and minimum) allowable num-ber of table entries.   
+ 
+ 
+ 4.
+  If internal program data structures have prescribed boundaries (e.g., a table has a deﬁ ned limit of 100 entries), be certain to design a test case to 
+exercise the data structure at its boundary. 
+  Most software engineers intuitively perform BVA to some degree. By applying 
+these guidelines, boundary testing will be more complete, thereby having a 
+higher likelihood for error detection.  
+  
+ 
+ 
+ 
+23.6.4   
+Orthogonal Array Testing 
+ 
+ 
+ 
+There are many applications in which the input domain is relatively limited. That is, the number of input parameters is small and the values that each of the 
+parameters may take are clearly bounded. When these numbers are very small 
+(e.g., three input parameters taking on three discrete values each), it is possible to 
+consider every input permutation and exhaustively test the input domain. How-
+ever, as the number of input values grows and the number of discrete values for 
+
+each data item increases, exhaustive testing becomes impractical or impossible.   
+Orthogonal array testing 
+ can be applied to problems in which the input do-
+main is relatively small but too large to accommodate exhaustive testing. The or-
+
+thogonal array testing method is particularly useful in ﬁ nding  
+region faults
+ 
+—an error category associated with faulty logic within a software component.  To illustrate the difference between orthogonal array testing and more con-
+ventional “one input item at a time” approaches, consider a system that has 
+three input items,  X, Y,
+ 
+ and  
+Z. 
+ Each of these input items has three discrete values 
+associated with it. There are 3 3  5 27 possible test cases. Phadke [Pha97] suggests 
+a geometric view of the possible test cases associated with X, Y, and Z illustrated 
+
+in  Figure 23.9 . Referring to the ﬁ gure, one input item at a time may be varied in 
+sequence along each input axis. This results in relatively limited coverage of the 
+input domain (represented by the left-hand cube in the ﬁ gure). 
+    Orthogonal array 
+testing enables you 
+to design test cases 
+that provide maximum 
+test coverage with a 
+reasonable number of 
+test cases. YYXXZZOne input item at a timeL9 orthogonal array
+  
+FIGURE 23.9 
+A geometric view of test 
+cases 
+ Source: [Pha97].  
+ pre22126_ch23_496-522.indd   513pre22126_ch23_496-522.indd   51313/12/13   6:14 PM13/12/13   6:14 PM

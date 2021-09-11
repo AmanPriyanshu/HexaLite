@@ -1,0 +1,161 @@
+CHAPTER 15  
+USER INTERFACE DESIGN
+ 327 
+ 
+Use Cases for UI Design  
+ 
+Use Cases for UI Design  
+ 
+ 
+ 
+ 
+ 
+The scene:  Vinod’s cubicle, as user 
+interface design continues. 
+   
+ 
+ 
+ 
+The players:  Vinod and Jamie, members of the 
+  
+SafeHome 
+ software engineering team.    
+ 
+ 
+ 
+The conversation:  
+   
+ 
+ 
+ 
+Jamie:  I pinned down our marketing contact and had 
+her write a use case for the surveillance interface. 
+   
+ 
+ 
+ 
+Vinod:  From whose point of view? 
+   
+ 
+ 
+ 
+Jamie:  The homeowner, who else is there? 
+   
+ 
+ 
+ 
+Vinod:  There’s also the system administrator role, even 
+if it’s the homeowner playing the role, it’s a  
+different point 
+of view. The administrator sets the system up, conﬁ
+ gures 
+stuff, lays out the ﬂ  
+   
+ 
+ 
+ 
+Jamie:  All I had her do was play the role of the home-
+owner when he wants to see video.    
+ 
+ 
+ 
+Vinod:  That’s okay. It’s one of the major behaviors of 
+the surveillance function interface. But we’re going to 
+
+have to examine the system administration behavior 
+   
+ 
+ 
+ 
+Jamie (irritated):  You’re right. 
+   
+ 
+ 
+[Jamie leaves to ﬁ nd the marketing person. She returns 
+a few hours later.] 
+   
+ 
+ 
+ 
+Jamie:  I was lucky, I found her and we worked 
+through the administrator use case together. Basically, 
+
+we’re going to deﬁ ne “administration” as one function 
+that’s applicable to all other  
+SafeHome 
+ functions. Here’s 
+what we came up with.    
+[Jamie shows the informal use case to Vinod.] 
+  
+ 
+ 
+ 
+ 
+Informal use case:  I want to be able to set or edit the 
+system layout at any time. When I set up the system, I se-
+lect an administration function. It asks me whether I want 
+
+to do a new setup or whether I want to edit an existing 
+
+setup. If I select a new setup, the system displays a draw-
+ing screen that will enable me to draw the ﬂ oor plan onto 
+a grid. There will be icons for walls, windows, and doors 
+
+so that drawing is easy. I just stretch the icons to their 
+
+appropriate lengths. The system will display the lengths in 
+
+feet or meters (I can select the measurement system). I can 
+
+select from a library of sensors and cameras and place 
+
+them on the ﬂ oor plan. I get to label each, or the system 
+will do automatic labeling. I can establish settings for sen-
+sors and cameras from appropriate menus. If I select edit, 
+
+I can move sensors or cameras, add new ones or delete 
+
+existing ones, edit the ﬂ oor plan, and edit the setting for 
+cameras and sensors. In every case, I expect the system to 
+
+do consistency checking and to help me avoid mistakes. 
+   
+ 
+ 
+ 
+Vinod (after reading the scenario):  Okay, there 
+are probably some useful design patter
+
+or reusable components for GUIs for drawing  programs. I’ll betcha 50 bucks we can implement some or most of 
+the administrator interface using them. 
+   
+ 
+ 
+ 
+Jamie:  Agreed. I’ll check it out. 
+ 
+ 
+  
+SAFEHOME  
+This use case provides a basic description of one important work task for the computer-aided design system. From it, you can extract tasks, objects, and the 
+
+overall ﬂ ow of the interaction. In addition, other features of the system that 
+would please the interior designer might also be conceived. For example, a dig-
+ital photo could be taken looking out each window in a room. When the room is 
+rendered, the actual outside view could be represented through each window. 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+Task Elaboration.   
+In Chapter 12, we discussed stepwise elaboration (also called functional decomposition or stepwise reﬁ nement) as a mechanism for reﬁ
+ ning the 
+processing tasks that are required for software to accomplish some desired func-
+tion. Task analysis for interface design uses an elaborative approach that assists 
+
+in understanding the human activities the user interface must accommodate.  First, you should deﬁ ne and classify the human tasks that are required to 
+accomplish the goal of the system or app. For example, let’s reconsider the 
+pre22126_ch15_317-346.indd   327pre22126_ch15_317-346.indd   32713/12/13   10:01 PM13/12/13   10:01 PM

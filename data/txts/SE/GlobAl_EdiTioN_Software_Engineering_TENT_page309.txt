@@ -1,0 +1,27 @@
+˜˜˜˚˜˜˜˜˜˜˜˜
+As a result, software companies accept that their software will always contain 
+some residual faults. The level of faults depends on the type of system. Software 
+products have a relatively high level of faults, whereas critical systems usually have 
+a much lower fault density.The rationale for accepting faults is that, if and when the system fails, it is cheaper to pay for the consequences of failure than it would be to discover and remove the 
+faults before system delivery. However, the decision to release faulty software is not 
+simply an economic one. The social and political acceptability of system failure 
+
+must also be taken into account.
+In Chapter 10, I introduced the concepts of system reliability and system availability. 
+
+If we think of systems as delivering some kind of service (to deliver cash, control 
+
+brakes, or connect phone calls, for example), then the availability of that service is 
+
+whether or not that service is up and running and its reliability is whether or not that 
+
+service delivers correct results. Availability and reliability can both be expressed as 
+
+probabilities. If the availability is 0.999, this means that, over some time period, the 
+
+system is available for 99.9% of that time. If, on average, 2 inputs in every 1000 result 
+
+in failures, then the reliability, expressed as a rate of occurrence of failure, is 0.002.More precise definitions of availability and reliability are:1. Reliability The probability of failure-free operation over a specified time, in a given environment, for a specific purpose.2. Availability The probability that a system, at a point in time, will be operational and able to deliver the requested services.Cost per error detected
+FewNumber of residual errors
+ManyVery fewFigure 11.1 The increasing costs of 
+residual fault removal 

@@ -1,0 +1,51 @@
+˜˜˚˛˝˜˜˜
+˜˜
+In the system proposal development stage, the conceptual design team set out 
+their ideas for alternative systems and these are the basis for a feasibility study to 
+decide which of the ideas are worth further development. In a feasibility study, you 
+should look at comparable systems that have been developed elsewhere and techno
+-
+logical issues (e.g., use of mobile devices) that may affect use of the system. Then 
+you need to assess whether or not the system could be implemented using current 
+
+hardware and software technologies.I have found that an additional useful activity is to develop an outline structure 
+or architecture for the system. This activity is helpful both for making a feasibility 
+
+assessment and for providing a basis for more detailed requirements engineering 
+
+and architectural design. Furthermore, as the majority of systems are now assem
+-
+bled from existing systems and components, an initial architecture means that the 
+
+key parts of the system have been identified and can be procured separately. 
+
+This˜approach is often better than procuring a system as a monolithic unit from a 
+
+single supplier.For the digital learning environment, we decided on a layered service architecture (shown in Figure 1.8). All components in the system should be considered to be 
+
+replaceable services. In this way, users can replace a standard service with their pre-
+ferred alternative and so adapt the system to the ages and interests of the students 
+
+learning with the system.All of these activities generate information that is used to develop the system 
+vision document. This is a critical document that senior decision makers use to 
+
+decide whether or not further development of the system should go ahead. It is also 
+used to develop further documents such as a risk analysis and budget estimate, which 
+are also important inputs to the decision-making process.Managers use the system vision document to understand the system; a procure-ment team uses it to define a tender document; and requirements engineers use it 
+
+as a basis for refining the system requirements. Because these different people 
+
+need different levels of detail, I suggest that the document should be structured 
+
+into two parts:1. A short summary for senior decision makers that presents the key points of the problem and the proposed system. It should be written so that readers can imme-
+diately see how the system will be used and the benefits that it will provide.2. A number of appendices that develop the ideas in more detail and that can be 
+used in the system procurement and requirements engineering activities.It is challenging to write a summary of the system vision inasmuch as the readers 
+are busy people who are unlikely to have a technical background. I have found that 
+
+using user stories is very effective, providing a tangible vision of system use that 
+
+nontechnical people can relate to. Stories should be short and personalized and should 
+
+be a feasible description of the use of the system, as shown in Figure 
+19.8. There is 
+another example of a user story from the same system in Chapter 4 (Figure 4.9).

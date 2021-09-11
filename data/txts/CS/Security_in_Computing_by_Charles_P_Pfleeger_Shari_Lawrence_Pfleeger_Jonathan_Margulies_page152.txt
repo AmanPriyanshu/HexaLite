@@ -1,0 +1,71 @@
+118 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+“Who is the president of your organization?” If we have a low degree of trust, we may 
+even act to exclude an outsider, as in “I will mail a check directly to your charity rather 
+
+than give you my credit card number.”
+For each of these interactions, we have what we might call a “trust threshold,” a 
+degree to which we are willing to believe an unidentified individual. This threshold 
+
+exists in commercial interactions, too. When Acorn Manufacturing Company sends Big 
+
+Steel Company an order for 10,000 sheets of steel, to be shipped within a week and paid 
+
+for within ten days, trust abounds. The order is printed on an Acorn form, signed by 
+
+someone identified as Helene Smudge, Purchasing Agent. Big Steel may begin prepar-
+
+ing the steel even before receiving money from Acorn. Big Steel may check Acorn’s 
+
+credit rating to decide whether to ship the order without payment first. If suspicious, 
+
+Big Steel might telephone Acorn and ask to speak to Ms. Smudge in the purchasing 
+
+department. But more likely Big Steel will actually ship the goods without knowing 
+
+who Ms. Smudge is, whether she is actually the purchasing agent, whether she is autho-
+rized to commit to an order of that size, or even whether the signature is actually hers. 
+
+Sometimes a transaction like this occurs by fax, so that Big Steel does not even have 
+
+an original signature on file. In cases like this one, which occur daily, trust is based on 
+
+appearance of authenticity (such as a printed, signed form), outside information (such 
+as a credit report), and urgency (Acorn’s request that the steel be shipped quickly).
+Establishing Trust Electronically
+For electronic communication to succeed, we must develop similar ways for two parties 
+to establish trust without having met. A common thread in our personal and business 
+
+interactions is the ability to have someone or something vouch for the existence and 
+
+integrity of one or both parties. The police, the Chamber of Commerce, or the Better 
+
+Business Bureau vouches for the authenticity of a caller. Acorn indirectly vouches for 
+
+the fact that Ms. Smudge is its purchasing agent by transferring the call to her in the 
+
+purchasing department when Big Steel calls for her. In a sense, the telephone company 
+
+vouches for the authenticity of a party by listing someone in the directory. This concept 
+
+of “vouching for” by a third party can be a basis for trust in commercial settings where 
+
+two parties do not know each other.
+The trust issue we need to address for digital signatures is authenticity of the public key. If Monique signs a document with her private key, anyone else can decrypt the 
+
+signature with her public key to verify that only Monique could have signed it. The 
+
+only problem is being able to obtain Monique’s public key in a way in which we can 
+
+adequately trust that the key really belongs to her, that is, that the key was not circulated 
+
+by some evil actor impersonating Monique. In the next section we present a trustworthy 
+
+means to bind a public key with an identity.
+Trust Based On a Common Respected Individual
+A large company may have several divisions, each division may have several depart-
+ments, each department may have several projects, and each project may have several 
+
+task groups (with variations in the names, the number of levels, and the degree of com-
+
+pleteness of the hierarchy). The top executive may not know by name or sight every 

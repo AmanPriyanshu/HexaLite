@@ -1,0 +1,57 @@
+250 PART TWO  
+MODELINGcomplete structural representation of the software, its subsystems, and compo-nents. Interface design elements model external and internal interfaces and the 
+user interface. Component-level elements deﬁ ne each of the modules (compo-
+nents) that populate the architecture. Finally, deployment-level design elements 
+
+allocate the architecture, its components, and the interfaces to the physical con-
+ﬁ guration that will house the software. 
+   
+ 
+ 
+PROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+12.1.  Do you design software when you “write” a program? What makes software design different from coding?    
+ 
+12.2.  If a software design is not a program (and it isn’t), then what is it?    
+ 
+12.3.  How do we assess the quality of a software design?    
+ 
+12.4.  Examine the task set presented for design. Where is quality assessed within the task set? How is this accomplished? How are the quality attributes discussed in Section 12.2.1 
+achieved?    
+ 
+12.5.  Provide examples of three data abstractions and the procedural abstractions that can be used to manipulate them.    
+ 
+12.6.  Describe software architecture in your own words.    
+ 
+12.7.  Suggest a design pattern that you encounter in a category of everyday things (e.g., consumer electronics, automobiles, appliances). Brieﬂ y describe the pattern. 
+   
+ 
+12.8.  Describe separation of concerns in your own words. Is there a case when a “divide and conquer” strategy may not be appropriate? How might such a case affect the argument for 
+modularity?    
+ 
+12.9.  When should a modular design be implemented as monolithic software? How can this be accomplished? Is performance the only justiﬁ cation for implementation of monolithic 
+software?    
+ 
+12.10.  Discuss the relationship between the concept of information hiding as an attribute of effective modularity and the concept of module independence.    
+ 
+12.11.  How are the concepts of coupling and software portability related? Provide examples to support your discussion.    
+ 
+12.12.  Apply a “stepwise reﬁ nement approach” to develop three different levels of proce-
+dural abstractions for one or more of the following programs: (1) Develop a check writer 
+that, given a numeric dollar amount, will print the amount in words normally required on 
+a check. (2) Iteratively solve for the roots of a transcendental equation. (3) Develop a simple 
+task-scheduling algorithm for an operating system.    
+ 
+12.13.  Consider the software required to implement a full navigation capability (using GPS) in a mobile, handheld communication device. Describe two or three crosscutting concerns 
+that would be present. Discuss how you would represent one of these concerns as an aspect.    
+ 
+12.14.  Does “refactoring” mean that you modify the entire design iteratively? If not, what does it mean?    
+ 
+12.15.  Discuss what the dependency inversion principle is in your own words.    
+ 
+12.16.  Why is design for testing so important?    
+ 
+12.17.  Brieﬂ y describe each of the four elements of the design model. 
+ pre22126_ch12_224-251.indd   250pre22126_ch12_224-251.indd   25013/12/13   6:12 PM13/12/13   6:12 PM

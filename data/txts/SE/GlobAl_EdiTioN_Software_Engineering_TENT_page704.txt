@@ -1,0 +1,27 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜its intended purpose. This decision involves answering questions about the system™s characteristics. For example:1. Has the software been properly tested, and has it been shown that all require-ments have been implemented?2. Is the software sufficiently dependable to be put into use?3. Is the performance of the software acceptable for normal use?4. Is the software usable?5. Is the software well structured and understandable?6. Have programming and documentation standards been followed in the develop-
+ment process?There is a general assumption in software quality management that the system 
+will be tested against its requirements. The judgment on whether or not it delivers 
+the required functionality should be based on the results of these tests. Therefore, the 
+QM team should review the tests that have been developed and examine the test 
+
+records to check that testing has been properly carried out. In some companies, the 
+QM group carries out final system testing; in others, a dedicated system testing team 
+reports to the system quality manager.The subjective quality of a software system is largely based on its non-functional characteristics. This reflects practical user experienceŠif the software™s functional-
+ity is not what is expected, then users will often just work around this deficiency and 
+find other ways to do what they want to do. However, if the software is unreliable or 
+too slow, then it is practically impossible for them to achieve their goals.Therefore, software quality is not just about whether the software functionality 
+has been correctly implemented, but also depends on non-functional system attrib-
+utes as shown in Figure 24.2. These attributes reflect the software dependability, 
+
+usability, efficiency, and maintainability.It is not possible for any system to be optimized for all of these attributes. For 
+example, improving security may lead to loss of performance. The quality plan 
+
+should therefore define the most important quality attributes for the software that is 
+
+being developed. It may be that efficiency is critical and other factors have to be 
+
+sacrificed to achieve it. If you have emphasized the importance of efficienty in the 
+quality plan, the engineers working on the development can work together to achieve 
+this. The plan should also include a definition of the quality assessment process. 
+SafetyUnderstandabilityPortabilitySecurityTestabilityUsabilityReliabilityAdaptabilityReusabilityResilienceModularityEfficiencyRobustnessComplexityLearnabilityFigure 24.2 Software quality attributes

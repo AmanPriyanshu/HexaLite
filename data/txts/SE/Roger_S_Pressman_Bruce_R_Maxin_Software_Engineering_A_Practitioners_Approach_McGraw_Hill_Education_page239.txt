@@ -1,0 +1,163 @@
+CHAPTER 11  
+REQUIREMENTS MODELING: BEHAVIOR, PATTERNS, AND WEB/MOBILE APPS
+ 209 
+ 
+Software in many different application domains is required to monitor sensors and control physical actuators. It follows that an analysis pattern that describes 
+generic requirements for this capability could be used widely. The pattern, called 
+
+ Actuator-Sensor
+ 
+ 
+,  would be applicable as part of the requirements model for 
+ SafeHome 
+ and is discussed in Section 11.4.2.  
+ 
+ 
+11.4.2  A Requirements Pattern Example: Actuator-Sensor 
+5   
+ 
+One of the requirements of the  SafeHome 
+ security function is the ability to mon-itory security sensors (e.g., break-in sensors, ﬁ re, smoke or CO sensors, water 
+sensors). Internet-based extensions to  SafeHome 
+ will require the ability to con-
+trol the movement (e.g., pan, zoom) of a security camera within a residence. The 
+implication— SafeHome 
+ software must manage various sensors and “actuators” 
+(e.g., camera control mechanisms).  Konrad and Cheng [Kon02] have suggested a requirements pattern named  Actuator-Sensor
+ 
+ that provides useful guidance for modeling this requirement 
+within  SafeHome 
+ software. An abbreviated version of the  
+Actuator-Sensor
+ 
+ pat-
+tern, originally developed for automotive applications, follows.   
+Pattern Name.   
+ 
+Actuator-Sensor
+ 
+  
+ 
+ 
+Intent.   
+Specify various kinds of sensors and actuators in an embedded system.  
+ 
+Discovering an Analysis Pattern  
+ 
+Discovering an Analysis Pattern  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The scene:  A meeting room, during 
+a team meeting.    
+ 
+ 
+ 
+ 
+ 
+The players:  Jamie Lazar, software team member; Ed 
+Robbins, software team member; Doug Miller, software 
+
+engineering manager    
+ 
+ 
+ 
+ 
+ 
+The conversation:  
+   
+ 
+ 
+ 
+ 
+ 
+Doug:  How are things going with modeling the re-
+quirements for the sensor network for the  SafeHome 
+ project?    
+ 
+ 
+ 
+ 
+ 
+Jamie:  Sensor work is a little new to me, but I think 
+   
+ 
+ 
+ 
+ 
+ 
+Doug:  Is there anything we can do to help you with 
+that?    
+ 
+ 
+ 
+ 
+ 
+Jamie:  It would be a lot easier if I’d built a system like 
+this before.    
+ 
+ 
+ 
+ 
+ 
+Doug:  True. 
+   
+ 
+ 
+ 
+ 
+ 
+Ed:  I was thinking this is a situation where we might 
+be able to ﬁ nd an analysis pattern that would help us 
+model these requirements.    
+ 
+ 
+ 
+ 
+ 
+Doug:  If we can ﬁ
+ nd the right pattern, we’d avoid rein-
+venting the wheel.    
+ 
+ 
+ 
+ 
+ 
+Jamie:  That sounds good to me. How do we start? 
+   
+ 
+ 
+ 
+ 
+ 
+Ed:  We have access to a repository that contains a 
+large number of analysis and design patterns. We just 
+
+need to search for patterns with intents that match our 
+
+needs.    
+ 
+ 
+ 
+ 
+ 
+Doug:  That seems like that might work. What do you 
+think, Jamie?    
+ 
+ 
+ 
+ 
+ 
+Jamie:  If Ed can help me get started, I’ll tackle this 
+today. 
+ 
+ 
+  
+SAFEHOME  
+ 
+5  This section has been adapted from [Kon02] with the permission of the authors. 
+pre22126_ch11_202-223.indd   209pre22126_ch11_202-223.indd   20913/12/13   6:12 PM13/12/13   6:12 PM

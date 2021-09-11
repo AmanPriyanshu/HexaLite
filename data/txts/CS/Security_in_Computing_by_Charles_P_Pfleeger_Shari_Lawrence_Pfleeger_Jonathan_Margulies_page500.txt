@@ -1,0 +1,35 @@
+466 Chapter 6  
+NetworksSIDEBAR 6-24 Poking a Hole in the Firewall
+Firewalls have clear security benefits, but sometimes they prevent well-
+intentioned users from accessing needed data and functions. For instance, 
+
+firewalls usually prevent a user on one system from using the File Transfer 
+
+Protocol (ftp) to upload or download files on another system. For this reason, 
+
+someone inside the firewall sometimes “pokes a hole” through the firewall 
+
+so that a trusted outsider can get in temporarily. Such a hole is actually an 
+
+exception entered into the firewall policy rules. These holes allow files to be 
+
+shared, applications to be accessed, and more. Technically called an SSH 
+
+backdoor, the firewall hole can be set up in various ways. Once the outsider’s 
+
+work is done, the insider closes up the hole and protection is restored. 
+Some operating systems allow rules that intentionally breach firewalls. 
+For example, Windows XP formally allows a user to create the hole by set-
+
+ting “exceptions” on the administrative screen for the Windows firewall, 
+
+shown in Figure 6-58. The exceptions can either open a port or, preferably, 
+
+enable a specified program or service to have access within the firewall.
+FIGURE 6-58 Firewall Exceptions
+What are the downsides of such firewall breaches? They weaken the 
+firewall, perhaps to the point of disabling it. Such breaches risk inadver-
+
+tently allowing others (other than the traffic for which the exception is being 
+
+created) to squeeze through the hole at the same time. So is it ethical to 

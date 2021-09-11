@@ -1,0 +1,110 @@
+496  
+ 
+ 
+CHAPTER23  TESTING CONVENTIONALAPPLICATIONS
+  
+ 
+ 
+ 
+ 
+ 
+ Testing presents an interesting dilemma for software engineers, who by their nature are constructive people. Testing requires that the devel-
+
+oper discard preconceived notions of the “correctness” of software just developed and then work hard to design test cases to “break” the software. 
+Beizer [Bei90] describes this situation effectively when he states:  
+There’s a myth that if we were really good at programming, there would be no bugs 
+to catch. If only we could really concentrate, if only everyone used structured pro-
+then there would be no bugs. So goes the myth. There 
+
+are bugs, the myth says, because we are bad at what we do; and if we are bad at it, we 
+should feel guilty about it. Therefore, testing and test case design is an admission KEY CONCEPTS     basis path testing. 500  
+    black-box testing  . 509  
+
+    boundary value 
+
+analysis  . . . . . . . . 512  
+
+    control structure 
+
+testing. . . . . . . . . 507  
+
+    cyclomatic 
+
+complexity  . . . . . . 503  
+
+    equivalence 
+
+partitioning  . . . . . . . 511  
+
+    ﬂ ow graph. . . . . . 500  
+    graph matrices  . . . 506  
+  
+What is it?   Once source code has been generated, software must 
+be tested to uncover (and correct) 
+as many errors as possible before delivery to your customer. Your goal is to de-
+
+sign a series of test cases that have a high 
+likelihood of ﬁ nding errors—but how? That’s 
+where software testing techniques enter the 
+picture. These techniques provide systematic 
+guidance for designing tests that (1) exercise 
+the internal logic and interfaces of every soft-
+
+ware component and (2) exercise the input 
+and output domains of the program to uncover 
+errors in program function, behavior, and 
+
+performance. 
+  
+ 
+Who does it?   During early stages of testing, a software engineer performs all tests. However, 
+
+as the testing process progresses, testing spe-
+cialists may become involved.   
+ 
+Why is it important? 
+  Reviews and other SQA activities can and do uncover errors, but they 
+are not sufﬁ cient. Every time the program is 
+executed, the customer tests it! Therefore, you 
+have to execute the program before it gets to 
+the customer with the speciﬁ c intent of ﬁ
+ nding 
+and removing all errors. To ﬁ
+ nd the highest pos-
+sible number of errors, tests must be conducted systematically and test cases must be designed using disciplined techniques.   
+ 
+What are the steps?   For conventional appli-cations, software is tested from two different 
+perspectives: (1) internal program logic is 
+
+exercised using “white box” test-case design 
+techniques and (2) software requirements are 
+exercised using “black box” test-case design 
+techniques. Use cases assist in the design of 
+tests to uncover errors at the software valida-
+tion level. In every case, the intent is to ﬁ
+ nd the 
+maximum number of errors with the minimum 
+amount of effort and time. 
+  
+ 
+What is the work product? 
+  A set of test cases designed to exercise internal logic, inter-
+
+faces, component collaborations, and external 
+
+requirements is designed and documented, ex-
+pected results are deﬁ ned, and actual results 
+are recorded.   
+ 
+How do I ensure that I’ve done it right?   When you begin testing, change your 
+point of view. Try hard to “break” the soft-
+
+ware! Design test cases in a disciplined fash-
+ion and review the test cases you do create 
+
+for thoroughness. In addition, you can eval-
+uate test coverage and track error detection 
+
+activities. 
+  
+QUICK LOOK pre22126_ch23_496-522.indd   496pre22126_ch23_496-522.indd   49613/12/13   6:14 PM13/12/13   6:14 PM

@@ -1,0 +1,39 @@
+CHAPTER 19  
+QUALITY CONCEPTS 423 
+In an indictment of software developers who refuse to consider external fail-ure costs, Cem Kaner [Kan95] states:  
+ 
+Many of the external failure costs, such as goodwill, are difﬁ cult to quantify, and 
+many companies therefore ignore them when calculating their cost-beneﬁ t tradeoffs. 
+Other external failure costs can be reduced (e.g. by providing cheaper, lower-quality, 
+
+post-sale support, or by charging customers for support) without increasing customer 
+satisfaction. By ignoring the costs to our customers of bad products, quality engineers 
+encourage quality-related decision-making that victimizes our customers, rather 
+than delighting them.  
+  
+As expected, the relative costs to ﬁ nd and repair an error or defect increase 
+dramatically as we go from prevention to detection to internal failure to external 
+failure costs.  Figure 19.2 , based on data collected by Boehm and Basili [Boe01b] and illustrated by Cigital Inc. [Cig07], illustrates this phenomenon.   The industry average cost to correct a defect during code generation is  approximately $977 per error. The industry average cost to correct the same error 
+if it is discovered during system testing is $7,136 per error. Cigital Inc. [Cig07] 
+considers a large application that has 200 errors introduced during coding.   
+According to industry average data, the cost of ﬁ nding and correcting defects during 
+the coding phase is $977 per defect. Thus, the total cost for correcting the 200 “criti-
+cal” defects during this phase (200 3 $977) is approximately $195,400.  Industry average data shows that the cost of ﬁ nding and correcting defects during 
+the system testing phase is $7,136 per defect. In this case, assuming that the sys-
+tem testing phase revealed approximately 50 critical defects (or only 25% of those 
+found by Cigital in the coding phase), the cost of ﬁ nding and ﬁ
+ xing those defects 
+3$7,136) would have been approximately $356,800. This would also have resulted 
+Requirements$139$455$977$7,136$14,102DesignCodingTestingMaintenance
+$16,000.00$14,000.00
+$12,000.00$10,000.00$8,000.00
+$6,000.00
+$4,000.00
+$2,000.00$-  
+FIGURE 19.2 
+Relative cost of correcting 
+
+errors and 
+
+defects  
+  Source: Adapted from [Boe01b]. pre22126_ch19_411-430.indd   423pre22126_ch19_411-430.indd   42313/12/13   6:13 PM13/12/13   6:13 PM

@@ -1,0 +1,166 @@
+572
+ PART THREE  
+QUALITY MANAGEMENT
+instead of emulators reduces the incidence of false defect reporting and en-
+sures that user-level errors will be more likely to be uncovered (Section 26.2.5). 
+ 
+ 
+Rapid defect resolution.
+ 
+ Speeds implementation through automatic submis-
+sion of defect information and generation of discrepancy reports allowing de-
+velopers to reduce the time required to resolve defects. 
+ 
+ 
+Reuse of test scripts.
+ 
+ Provides cost savings by eliminating the need to start 
+test case creation from scratch when enhancements are made. It is important 
+for the test tool architecture to allow the separation of function interfaces and 
+test logic. This allows interfaces to be wrapped in reusable functions as tools 
+
+ 
+ 
+ 
+ 
+26.2.3   
+Building a Test Matrix 
+ 
+MobileApps are often developed for multiple devices and designed to be 
+used in many different contexts and locations. A  
+weighted device platform 
+matrix
+ 
+ (WDPM) helps ensure that test coverage includes each combination 
+of mobile device and context variables. 
+ 
+2
+ 
+ 
+ The WDPM can also be used to help 
+prioritize the device/context combinations so that the most important are 
+tested first. 
+ 
+The steps to build the WDPM ( 
+Figure 26.1 
+) for several devices and operating 
+systems are: (1) list the important operating system variants as the matrix col-
+umn labels, (2) list the targeted devices as the matrix row labels, (3) assign a 
+ranking (e.g., 0 to 10) to indicate the relative importance of each operating sys-
+tem and each device, and (4) compute the product of each pair of rankings and 
+enter each product as the cell entry in the matrix (use NA for combinations that 
+are not available). 
+ 
+ 
+Testing effort should be adjusted so that the device/platform combinations 
+with the highest ratings receive the most attention for each context variable 
+under consideration. In  
+Figure 26.1 
+,  
+Device4
+ 
+ and  
+OS3
+ 
+ have the highest rating and 
+would receive high-priority attention during testing. 
+ 
+ 
+ 
+F
+IGURE
+ 26.1
+ 
+Weighted 
+device 
+platform 
+matrix 
+ 
+ 
+ 
+ 
+2 
+ 
+ 
+Context variables
+ 
+ are variables that are associated with either the current connection or the 
+current transaction that the MobileApp will use to direct its visible-user behavior. 
+Device 1
+Ranking3
+OS1
+NA
+NA
+9
+14
+4
+OS2
+28
+36
+NA
+NA
+7
+OS3
+49
+63
+NA
+NA
+7
+3
+4
+9
+Device 2
+Device 3
+Device 4
+p
+r
+e
+2
+2
+1
+2
+6
+_
+c
+h
+2
+6
+_
+5
+6
+7
+-
+5
+8
+3
+.
+i
+n
+d
+d
+ 
+ 
+ 
+5
+7
+2
+pre22126_ch26_567-583.indd   572
+1
+3
+/
+1
+2
+/
+1
+3
+ 
+ 
+ 
+6
+:
+1
+5
+ 
+P
+M
+13/12/13   6:15 PM

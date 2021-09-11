@@ -1,0 +1,40 @@
+CHAPTER 9  
+REQUIREMENTS MODELING: SCENARIO-BASED METHODS 181 
+ 
+ 
+9.3.2 Swimlane Diagrams 
+ 
+The UML  swimlane diagram 
+ is a useful variation of the activity diagram and al-
+lows you to represent the ﬂ ow of activities described by the use case and at the 
+same time indicate which actor (if there are multiple actors involved in a speciﬁ c 
+use case) or analysis class (Chapter 10) has responsibility for the action described 
+by an activity rectangle. Responsibilities are represented as parallel segments 
+that divide the diagram vertically, like the lanes in a swimming pool. 
+ 
+ 
+ 
+   
+Three analysis classes— Homeowner, Camera,
+ 
+ and 
+ Interface
+ 
+—have direct or indirect responsibilities in the context of the activity diagram represented 
+in  Figure 9.5 . Referring to  Figure 9.6 , the activity diagram is rearranged so that    A UML swimlane 
+diagram represents the 
+ﬂ ow of actions and 
+
+decisions and indicates 
+which actors perform 
+
+each. Enter password and user IDSelect major functionValid passwords/ID
+Prompt for reentry
+Invalid passwords/IDInput tries remainNo inputtries remainSelect surveillance
+Other functionsmay also beselected Thumbnail viewsSelect a specific cameraSelect camera iconGenerate videooutputSelect specificcamera - thumbnailsExit thisfunctionSeeanothercameraHomeownerCameraInterface
+Prompt foranother viewView camera output
+in labelled window   
+FIGURE 9.6 
+Swimlane diagram for Access camera surveillance via the Internet—display camera 
+views function.  
+ pre22126_ch09_166-183.indd   181pre22126_ch09_166-183.indd   18113/12/13   6:11 PM13/12/13   6:11 PM

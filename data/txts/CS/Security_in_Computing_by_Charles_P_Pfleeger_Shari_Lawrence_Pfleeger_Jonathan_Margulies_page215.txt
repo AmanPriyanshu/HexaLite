@@ -1,0 +1,61 @@
+ Section 3.2  Malicious Code—Malware 
+181  The ordinary user usually sees only the content of the document (its text or data), so 
+the virus writer simply includes the virus in the commands part of the document, as in 
+the integrated program virus.
+Autorun Autorun is a feature of operating systems that causes the automatic execution of code 
+
+based on name or placement. An early autorun program was the DOS file autoexec.bat, 
+
+a script file located at the highest directory level of a startup disk. As the system began 
+
+execution, it would automatically execute autoexec.bat, so a goal of early malicious 
+
+code writers was to augment or replace autoexec.bat to get the malicious code executed. 
+
+Similarly, in Unix, files such as .cshrc and .profile are automatically processed at sys-
+
+tem startup (depending on version).
+In Windows, the registry contains several lists of programs automatically invoked at 
+startup, some readily apparent (in the start menu/programs/startup list) and others more 
+hidden (for example, in the registry key software\windows\current_version\run).
+One popular technique for transmitting malware is distribution via flash memory, 
+such as a solid state USB memory stick. People love getting something for free, and 
+
+handing out infected memory devices is a relatively low cost way to spread an infection. 
+
+Although the spread has to be done by hand (handing out free drives as advertising at 
+
+a railway station, for example), the personal touch does add to credibility: We would 
+
+be suspicious of an attachment from an unknown person, but some people relax their 
+
+guards for something received by hand from another person.
+Propagation Since a virus can be rather small, its code can be “hidden” inside other larger and more 
+
+complicated programs. Two hundred lines of a virus could be separated into one hundred 
+
+packets of two lines of code and a jump each; these one hundred packets could be easily 
+
+hidden inside a compiler, a database manager, a file manager, or some other large utility.
+Appended Viruses 
+A program virus attaches itself to a program; then, whenever the program is run, the 
+
+virus is activated. This kind of attachment is usually easy to design and implement.
+In the simplest case, a virus inserts a copy of itself into the executable program file 
+before the first executable instruction. Then, all the virus instructions execute first; after 
+
+the last virus instruction, control flows naturally to what used to be the first program 
+
+instruction. Such a situation is shown in Figure 3-19.
+This kind of attachment is simple and usually effective. The virus writer need not 
+know anything about the program to which the virus will attach, and often the attached 
+
+program simply serves as a carrier for the virus. The virus performs its task and then 
+
+transfers to the original program. Typically, the user is unaware of the effect of the virus 
+
+if the original program still does all that it used to. Most viruses attach in this manner.
+Viruses That Surround a Program 
+An alternative to the attachment is a virus that runs the original program but has con-
+
+trol before and after its execution. For example, a virus writer might want to prevent 

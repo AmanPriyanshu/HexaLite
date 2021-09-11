@@ -1,0 +1,39 @@
+126 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+Encrypted forauthenticityMessagedigestSignerE(M, KPRIV-S
+)MFIGURE 2-35 Indication of SignerThe only other piece to add is an indication of who the signer was, so that the receiver 
+knows which public key to use to unlock the encryption, as shown in Figure 2-35. The 
+
+signer’s identity has to be outside the encryption because if it were inside, the identity 
+
+could not be extracted.
+Two extra flourishes remain to be added. First, depending on the file’s size, this 
+object can be large, and asymmetric encryption is slow, not suited to encrypting large 
+
+things. However, S’s authenticating encryption needs to cover only the secure hash 
+
+code, not the entire file itself. If the file were modified, it would no longer match the 
+
+hash code, so the recipient would know not to trust the object as authentic from S. And 
+
+if the hash code were broken off and attached to a different file, it would not match 
+
+there, either. So for efficiency we need encrypt only the hash value with S’s private key, 
+
+as shown in Figure 2-36.
+Second, the file, the data portion of the object, is exposed for anyone to read. If S 
+wants confidentiality, that is, so that only one recipient can see the file contents, S can 
+
+select a symmetric encryption key, encrypt the file, and store the key under user U’s 
+
+asymmetric public encryption key. This final addition is shown in Figure 2-37.
+In conclusion, a digital signature can indicate the authenticity of a file, especially a 
+piece of code. When you attempt to install a piece of signed code, the operating sys-
+
+tem will inspect the certificate and file and notify you if the certificate and hash are 
+
+not acceptable. Digital signatures, coupled with strong hash functions and symmetric Encrypted forauthenticityMessagedigestSignerE(MD, KPRIV-S)MFIGURE 2-36 Asymmetric Encryption Covering the Hash Value
+Encrypted forconfidentialityEncrypted forauthenticityMessagedigestSignerE(M,Sym)E(MD,KPRIV-S
+)MFIGURE 2-37 Digitally Signed Object Protected for Both Integrity and 
+
+Confidentiality

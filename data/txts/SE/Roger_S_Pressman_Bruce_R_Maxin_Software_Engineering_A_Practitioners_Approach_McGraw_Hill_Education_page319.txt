@@ -1,0 +1,32 @@
+CHAPTER 14  
+COMPONENT-LEVEL DESIGN
+ 289Control components (modules) reside near the top of the hierarchy (program ar-
+chitecture), and problem domain components tend to reside toward the bottom 
+
+of the hierarchy. To achieve effective modularity, design concepts like functional 
+
+independence (Chapter 12) are applied as components are elaborated. 
+ To illustrate this process of design elaboration for traditional components, again 
+consider software to be built for a sophisticated print shop. A hierarchical architec-
+ture is derived and shown in  Figure 14.2 . Each box represents a software component. 
+Note that the shaded boxes are equivalent in function to the operations deﬁ ned for 
+the  PrintJob 
+ class discussed in Section 14.1.1. In this case, however, each operation 
+is represented as a separate module that is invoked as shown in the ﬁ gure. Other 
+modules are used to control processing and are therefore control components. 
+  During component-level design, each module in  Figure 14.2  is elaborated. The 
+module interface is deﬁ ned explicitly. That is, each data or control object that 
+ﬂ ows across the interface is represented. The data structures that are used inter-
+nal to the module are deﬁ ned. The algorithm that allows the module to accom-
+plish its intended function is designed using the stepwise reﬁ nement approach 
+discussed in Chapter 12. The behavior of the module is sometimes represented 
+using a state diagram.  To illustrate this process, consider the module  
+ComputePageCost. 
+ The intent 
+of this module is to compute the printing cost per page based on speciﬁ cations 
+ 
+ 
+FIGURE 14.2 
+Structure chart for a traditional system 
+ 
+ Readprint jobdataJobmanagementsystemSelectjobmgmtfunctionDevelopjob costBuildwork orderSend jobtoproductionComputepage costComputepaper costComputeprod costCheckpriorityPass job toproductionpre22126_ch14_285-316.indd   289pre22126_ch14_285-316.indd   28913/12/13   6:12 PM13/12/13   6:12 PM

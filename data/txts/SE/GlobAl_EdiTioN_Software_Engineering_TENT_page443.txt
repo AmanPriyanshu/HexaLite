@@ -1,0 +1,38 @@
+˜˜˚˛˝˜˜˜
+˜˜
+6. The platform on which the system will run Some components models, such as .NET, are specific to Microsoft platforms. Similarly, generic application sys-
+tems may be platform-specific, and you may only be able to reuse these if your 
+system is designed for the same platform.The range of available reuse techniques is such that, in most situations, there is the 
+possibility of some software reuse. Whether or not reuse is achieved is often a manage-
+rial rather than a technical issue. Managers may be unwilling to compromise their 
+
+requirements to allow reusable components to be used. They may not understand the 
+
+risks associated with reuse as well as they understand the risks of original development. 
+
+Although the risks of new software development may be higher, some managers may 
+
+prefer known risks of development to unknown risks of reuse. To promote company-
+wide reuse, it may be necessary to introduce a reuse program that focuses on the creation 
+
+of reusable assets and processes to facilitate reuse (Jacobsen, Griss, and Jonsson 1997).
+Early enthusiasts for object-oriented development suggested that one of the key ben-
+efits of using an object-oriented approach was that objects could be reused in differ-
+ent systems. However, experience has shown that objects are often too fine-grained 
+
+and are often specialized for a particular application. It often takes longer to under-
+stand and adapt the object than to reimplement it. It has now become clear that 
+
+object-oriented reuse is best supported in an object-oriented development process 
+
+through larger-grain abstractions called frameworks.As the name suggests, a framework is a generic structure that is extended to cre-ate a more specific subsystem or application. Schmidt et al. (Schmidt et al. 2004) 
+
+define a framework to bean integrated set of software artifacts (such as classes, objects and components) that 
+
+collaborate to provide a reusable architecture for a family of related applications.ƒ Frameworks provide support for generic features that are likely to be used in all appli-cations of a similar type. For example, a user interface framework will provide support 
+Generator-based reuseGenerator-based reuse involves incorporating reusable concepts and knowledge into automated tools and 
+ providing an easy way for tool users to integrate specific code with this generic knowledge. This approach is 
+
+usually most effective in domain-specific applications. Known solutions to problems in that domain are 
+ embedded in the generator system and selected by the user to create a new system.http://software-engineering-book.com/web/generator-reuse/ƒSchmidt, D. C., A. Gokhale, and B. Natarajan. 2004. ﬁLeveraging Application Frameworks.ﬂ ACM 
+Queue 2 (5 (July/August)): 66Œ75. doi:10.1145/1016998.1017005.

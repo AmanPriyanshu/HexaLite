@@ -1,0 +1,67 @@
+154 Chapter 3  
+Programs and Programmingany other properties. For example, a customer on the web could choose to buy 20 of 
+part number 555A Objects. If the price of one such part were $10, the web server would 
+
+correctly compute the price of the 20 parts to be $200. Then the customer could decide 
+
+whether to have the Objects shipped by boat, by ground transportation, or sent elec-
+
+tronically. If the customer were to choose boat delivery, the customer’s web browser 
+
+would complete a form with parameters like these:
+http://www.things.com/order.asp?custID=101&part=555A &qy=20&price=10&ship=boat&shipcost=5&total=205So far, so good; everything in the parameter passing looks correct. But this proce-
+dure leaves the parameter statement open for malicious tampering. Things should not 
+
+need to pass the price of the items back to itself as an input parameter. Things presum-
+
+ably knows how much its Objects 
+
+cost, and they are unlikely to change 
+
+dramatically since the time the price 
+was quoted a few screens earlier.
+A malicious attacker may decide 
+to exploit this peculiarity by supplying instead the following URL, where the price has 
+
+been reduced from $205 to $25:http://www.things.com/order.asp?custID=101&part=555A &qy=20&price=1&ship=boat&shipcost=5&total=25Surprise! It worked. The attacker could have ordered Objects from Things in any quan-
+tity at any price. And yes, this code was running on the web site for a while before the 
+
+problem was detected.
+From a security perspective, the most serious concern about this flaw was the length 
+of time that it could have run undetected. Had the whole world suddenly made a rush to 
+
+Things’ web site and bought Objects at a fraction of their actual price, Things probably 
+
+would have noticed. But Things is large enough that it would never have detected a few 
+
+customers a day choosing prices that were similar to (but smaller than) the real price, 
+
+say, 30 percent off. The e-commerce division would have shown a slightly smaller profit 
+
+than other divisions, but the difference probably would not have been enough to raise 
+
+anyone’s eyebrows; the vulnerability could have gone unnoticed for years. Fortunately, 
+
+Things hired a consultant to do a routine review of its code, and the consultant quickly 
+
+found the error.
+The vulnerability in this situation is that the customer (computer user) has unmedi-
+ated access to sensitive data. An application running on the user’s browser maintained 
+
+the order details but allowed the user to change those details at will. In fact, few of these 
+
+values should have been exposed in the URL sent from the client’s browser to the server. 
+
+The client’s application should have 
+
+specified part number and quantity, 
+
+but an application on the server’s 
+
+side should have returned the price 
+
+per unit and total price.There is no reason to leave sensitive 
+
+data under control of an untrusted user.
+If data can be changed, assume they 
+have been.

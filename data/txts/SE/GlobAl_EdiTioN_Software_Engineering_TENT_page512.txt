@@ -1,0 +1,39 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜˜˜2. Where the system primarily involves the exchange of information between indi-vidual computers on a network and there is no need for this information to be 
+
+centrally stored or managed. Examples of such applications include file-sharing 
+
+systems that allow peers to exchange local files such as music and video files, and 
+
+phone systems that support voice and video communications between  computers.Peer-to-peer architectures allow for the efficient use of capacity across a network. 
+However, security concerns are the principal reason why these systems have not become 
+
+more widely used, especially in business (Wallach 2003). The lack of 
+ centralized man
+-agement means that attackers can set up malicious nodes that deliver spam and malware 
+
+to legitimate p2p system users. Peer-to-peer communications involve opening your 
+
+computer to direct interactions with other peers and this means that these systems could 
+
+potentially access any of your resources. To counter this possibility, you need to 
+ organize your system so that these resources are protected. If this is done incorrectly, 
+
+then your system is insecure and vulnerable to external corruption.
+šIn the previous sections, I discussed clientŒserver models and how functionality may 
+
+be distributed between the client and the server. To implement a clientŒserver  system, 
+you may have to install a program or an app on the client computer, which commu-
+nicates with the server, implements client-side functionality, and manages the user 
+
+interface. For example, a mail client, such as Outlook or Mac Mail, provides mail 
+
+management features on your own computer. This avoids the problem of server over-
+load in thin-client systems, where all of the processing is carried out at the server.The problems of server overload can be significantly reduced by using web tech
+-nologies such as AJAX (Holdener, 2008) and HTML5 (Sarris 2013). These  technologies 
+support efficient management of web page presentation and local computation by exe-
+cuting scripts that are part of the web page. This means that a browser can be configured 
+
+and used as client, with significant local processing. The application software can be 
+n1n6n2n3n5n4Discovery server(Super peer)Figure 17.15  A semicentralized p2p 
+architecture 

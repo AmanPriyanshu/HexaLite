@@ -1,0 +1,62 @@
+120 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+This model works well within a company because there is always someone common 
+to any two employees, even if the two employees are in different divisions so that the 
+
+only common person is the president. The process bogs down, however, if Ann, Bill, 
+
+Camilla, Betty, and Andrew all have to be available whenever Ann and Andrew want to 
+
+communicate. If Betty is away on a business trip or Bill is off sick, the protocol falters. 
+
+It also does not work well if the president cannot get any meaningful work done because 
+
+every day is occupied with handling forms 632a.
+To address the first of these problems, Andrew can ask for his complete chain of 
+forms 632a from the president down to him. Andrew can then give a copy of this full set 
+
+to anyone in the company who wants his key. Instead of working from the bottom up to 
+
+a common point, Andrew starts at the top and documents his full chain. He gets these 
+
+signatures any time his superiors are available, so they do not need to be available when 
+
+he wants to give away his authenticated public key.
+We can resolve the second problem by reversing the process. Instead of starting at 
+the bottom (with task members) and working to the top of the tree (the president), we 
+
+start at the top. Andrew thus has a preauthenticated public key for unlimited use in the 
+
+future. Suppose the expanded structure of our hypothetical company, showing the presi-
+
+dent and other levels, is as illustrated in Figure 2-30.
+The president creates a letter for each division manager saying “I am Edward, the 
+president, I attest to the identity of division manager Diana, whom I know personally, 
+
+and I trust Diana to attest to the identities of her subordinates.” Each division manager 
+
+does similarly, copying the president’s letter with each letter the manager creates, and 
+
+so on. Andrew receives a packet of letters, from the president down through his task 
+
+group leader, each letter linked by name to the next. If every employee in the com-
+
+pany receives such a packet, any two employees who want to exchange authenticated 
+
+keys need only compare each other’s packets; both packets will have at least Edward in 
+
+common, perhaps some other managers below Edward, and at some point will deviate. 
+
+Andrew and Ann, for example, could compare their chains, determine that they were the 
+
+same through Camilla, and trace just from Camilla down. Andrew knows the chain from 
+
+Edward to Camilla is authentic because it is identical to his chain, and Ann knows the 
+CamillaBettyAndrew
+AnnBillBetty’s
+632aCamilla’s
+632aBetty’s
+632aCamilla’s
+632aBetty’s
+632aBill’s
+632aFIGURE 2-29 Key Relationships in a Certificate

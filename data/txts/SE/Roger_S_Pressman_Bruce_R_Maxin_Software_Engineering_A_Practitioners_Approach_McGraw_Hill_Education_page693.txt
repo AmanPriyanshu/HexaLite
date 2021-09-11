@@ -1,0 +1,78 @@
+CHAPTER 30  
+PRODUCT METRICS 663where  n  
+f  is the number of functional requirements and  n  
+
+nf  is the number of non-functional (e.g., performance) requirements.  To determine the  
+speciﬁ city  (lack of ambiguity) of requirements, Davis and colleagues suggest a metric that is based on the consistency of the reviewers’ 
+interpretation of each requirement: Q 1 5   
+ n  
+
+ui  ___  n  
+
+r   where  n  
+
+ui  is the number of requirements for which all reviewers had identical interpretations. The closer the value of  Q  to 1, the lower is the ambiguity of the speciﬁ cation.  The  completeness  of functional requirements can be determined by comput-ing the ratio Q 
+2 5    
+n  
+
+u  ________ [ n  
+
+i  
+3  n  
+
+s ]
+   
+  where  n  
+
+u  is the number of unique function requirements,  n  
+
+i  is the number of inputs (stimuli) deﬁ ned or implied by the speciﬁ cation, and  
+n  
+
+s  is the number of states speciﬁ ed. The  
+Q 
+2 ratio measures the percentage of necessary functions that have been speciﬁ ed for a system. However, it does not address nonfunctional 
+
+requirements. To incorporate these into an overall metric for completeness, you 
+
+must consider the degree to which requirements have been validated: Q 
+3 5    
+n  
+
+c  ________ [ n  
+
+c  
+1  n  
+
+nv ]
+  where  n  
+
+c  is the number of requirements that have been validated as correct and  n  
+nv  is the number of requirements that have not yet been validated. 
+      
+ 30.3  METRICS FOR THE DESIGN MODEL        
+It is inconceivable that the design of a new aircraft, a new computer chip, or a 
+new ofﬁ ce building would be conducted without deﬁ ning design measures, de-
+termining metrics for various aspects of design quality, and using them as indi-
+
+cators to guide the manner in which the design evolves. And yet, the design of 
+complex software-based systems often proceeds with virtually no measurement. 
+The irony of this is that design metrics for software are available, but the vast 
+majority of software engineers continue to be unaware of their existence.  Design metrics for computer software, like all other software metrics, are not perfect. Debate continues over their efﬁ cacy and the manner in which they should be applied. Many experts argue that further experimentation is required 
+before design measures can be used. And yet, design without measurement is an 
+unacceptable alternative.    
+30.3.1   Architectural Design Metrics 
+ Architectural design metrics focus on characteristics of the program archi-
+tecture (Chapter 13) with an emphasis on the architectural structure and the     uote: 
+ “Measure what 
+
+is measurable, 
+and what is not 
+measurable, make 
+measurable.”  Galileo    Metrics can provide 
+
+insight into structural 
+
+data and system com-
+plexity associated with 
+architectural design. 

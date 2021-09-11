@@ -1,0 +1,38 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜To create a new instance of this system, you may have to modify individual com-ponents. For example, the police have a large number of vehicles but a relatively 
+small number of vehicle types. By contrast, the fire service has many types of spe-
+cialized vehicles but relatively few vehicles. Therefore, when you are implementing 
+a system for these different services, you may have to define a different vehicle 
+
+database structure.Various types of specialization of a software product line may be developed:1. Platform specialization Versions of the application may be developed for differ-
+ent platforms. For example, versions of the application may exist for Windows, 
+Mac OS, and Linux platforms. In this case, the functionality of the application is 
+normally unchanged; only those components that interface with the hardware 
+
+and operating system are modified.2. Environment specialization Versions of the application may be created to handle 
+
+different operating environments and peripheral devices. For example, a system 
+
+for the emergency services may exist in different versions, depending on the 
+
+communications hardware used by each service. For example, police radios may 
+
+have built-in encryption that has to be used. The product-line components are 
+
+changed to reflect the functionality and characteristics of the equipment used.3. Functional specialization Versions of the application may be created for specific 
+
+customers who have different requirements. For example, a library automation 
+
+system may be modified depending on whether it is used in a public library, a 
+
+reference library, or a university library. In this case, components that implement 
+
+functionality may be modified and new components added to the system.4. Process specialization The system may be adapted to cope with specific business 
+
+processes. For example, an ordering system may be adapted to cope with a central-
+ized ordering process in one company and with a distributed process in another.Figure 15.
+10 shows the process for extending a software product line to create a new application. The activities in this process are:1. Elicit stakeholder requirements You may start with a normal requirements engi-neering process. However, because a system already exists, you can demon-
+strate the system and have stakeholders experiment with it, expressing their 
+
+requirements as modifications to the functions provided.ElicitstakeholderrequirementsChooseclosest-fitsystem instanceDeliver newsystem instanceRenegotiaterequirementsAdapt existingsystemFigure 15.10 Product instance development 

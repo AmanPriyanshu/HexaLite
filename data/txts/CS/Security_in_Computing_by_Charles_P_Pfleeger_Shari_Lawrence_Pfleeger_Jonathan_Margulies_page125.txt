@@ -1,0 +1,80 @@
+ Section 2.3  Cryptography 
+91  ciphertext message, mathematical or statistical tools and techniques, and properties of 
+languages, as well as plenty of ingenuity and luck. Each piece of evidence can provide a 
+
+clue, and the analyst puts the clues together to try to form a larger picture of a message’s 
+
+meaning in the context of how the encryption is done. Remember that there are no rules. 
+
+An interceptor can use any means available to tease out the meaning of the message.
+Work Factor
+An encryption algorithm is called breakable
+ when, given enough time and data, an 
+analyst can determine the algorithm. However, an algorithm that is theoretically break-
+
+able may in fact be impractical to try to break. To see why, consider a 25-character 
+
+message that is expressed in just uppercase letters. A given cipher scheme may have 
+
+2625 (approximately 10
+35) possible decipherments, so the task is to select the right one out of the 2625. If your computer could perform on the order of 1010 operations per sec-
+ond, finding this decipherment would require on the order of 10
+25 seconds, or roughly 
+1017 years. In this case, although we know that theoretically we could generate the 
+solution, determining the deciphering algorithm by examining all possibilities can be 
+
+ignored as infeasible with current technology.
+The difficulty of breaking an encryption is called its 
+work factor
+. Again, an anal-
+ogy to physical locks may prove helpful. As you know, physical keys have notches or 
+
+other irregularities, and the notches cause pins to move inside a lock, allowing the lock 
+
+to open. Some simple locks, such as those sold with suitcases, have only one notch, so 
+
+these locks can often be opened with just a piece of bent wire; worse yet, some manu-
+
+facturers produce only a few (and sometimes just one!) distinct internal pin designs; you 
+
+might be able to open any such lock with a ring of just a few keys. Clearly these locks 
+
+are cosmetic only.
+Common house locks have five or six notches, and each notch can have any of ten 
+depths. To open such a lock requires finding the right combination of notch depths, of 
+
+which there may be up to a million possibilities, so carrying a ring of that many keys is 
+
+infeasible. Even though in theory someone could open one of these locks by trying all 
+
+possible keys, in practice the number of possibilities is prohibitive. We say that the work 
+
+factor to open one of these locks without the appropriate key is large enough to deter 
+
+most attacks. So too with cryptog-
+raphy: An encryption is adequate if 
+
+the work to decrypt without know-
+
+ing the encryption key is greater 
+
+than the value of the encrypted data.
+Two other important issues must 
+be addressed when considering the breakability of encryption algorithms. First, the 
+
+cryptanalyst cannot be expected to try only the hard, long way. In the example just 
+
+presented, the obvious decryption might require 26
+25 machine operations, but a more 
+ingenious approach might require only 1015 operations. At the speed of 10
+10 operations per second, 1015 operations take slightly more than one day. The ingenious approach is 
+certainly feasible. In fact, newspapers sometimes print cryptogram puzzles that humans 
+
+solve with pen and paper alone, so there is clearly a shortcut to our computer machine 
+
+time estimate of years or even one day of effort. The newspaper games give hints about 
+Work factor: amount of effort needed 
+
+to break an encryption (or mount a 
+
+successful attack)

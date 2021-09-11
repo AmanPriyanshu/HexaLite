@@ -1,0 +1,71 @@
+470 PART THREE  
+QUALITY MANAGEMENTcomputer software, you spiral inward along streamlines that decrease the level of abstraction on each turn.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+A strategy for software testing may also be viewed in the context of the spiral ( Figure 22.1 ).  Unit testing 
+ begins at the vortex of the spiral and concentrates on 
+each unit (e.g., component, class, or WebApp content object) of the software as 
+
+implemented in source code. Testing progresses by moving outward along the 
+
+spiral to  integration testing, 
+ where the focus is on design and the construction of the software architecture. Taking another turn outward on the spiral, you en-
+
+counter  validation testing, 
+ where requirements established as part of require-
+ments modeling are validated against the software that has been constructed. 
+Finally, you arrive at  
+system testing, 
+ where the software and other system ele-
+ments are tested as a whole. To test computer software, you spiral out along 
+
+streamlines that broaden the scope of testing with each turn.   
+ 
+ 
+ 
+ 
+Considering the process from a procedural point of view, testing within the 
+context of software engineering is actually a series of four steps that are im-
+plemented sequentially. The steps are shown in  
+Figure 22.2 . Initially, tests focus 
+on each component individually, ensuring that it functions properly as a unit. 
+
+Hence, the name  unit testing. 
+ Unit testing makes heavy use of testing techniques 
+that exercise speciﬁ c paths in a component’s control structure to ensure com-
+plete coverage and maximum error detection. Next, components must be assem-
+bled or integrated to form the complete software package.  Integration testing 
+ addresses the issues associated with the dual problems of veriﬁ cation and pro-
+gram construction. Test-case design techniques that focus on inputs and out-
+
+puts are more prevalent during integration, although techniques that exercise 
+speciﬁ c program paths may be used to ensure coverage of major control paths. 
+After the software has been integrated (constructed), a set of  high-order tests
+ 
+ is 
+conducted. Validation criteria (established during requirements analysis) must 
+
+be evaluated.  Validation testing
+ 
+ provides ﬁ nal assurance that software meets all 
+functional, behavioral, and performance requirements.  
+ 
+ 
+ 
+  What is 
+the overall strategy for 
+software testing? ? WebRef 
+ Useful resources for 
+software testers can 
+be found at   
+www.SQAtester.com  . 
+System testingValidation testing
+Integration testingUnit testingCodeDesignRequirementsSystem engineering FIGURE 22.1 
+Testing 
+strategypre22126_ch22_466-495.indd   470pre22126_ch22_466-495.indd   47013/12/13   6:14 PM13/12/13   6:14 PM

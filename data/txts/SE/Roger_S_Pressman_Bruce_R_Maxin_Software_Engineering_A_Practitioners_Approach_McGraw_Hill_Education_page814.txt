@@ -1,0 +1,95 @@
+784 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+ 
+  
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+You begin by listing all risks (no matter how remote) in the ﬁ
+ rst column of 
+the table. This can be accomplished with the help of the risk item checklists ref-
+erenced in Section 35.3. Each risk is categorized in the second column (e.g., PS 
+implies a project size risk, BU implies a business risk). The probability of occur-
+
+rence of each risk is entered in the next column of the table. The probability 
+value for each risk can be estimated by team members individually. One way to 
+
+accomplish this is to poll individual team members in round-robin fashion until 
+their collective assessment of risk probability begins to converge.  Next, the impact of each risk is assessed. Each risk component is assessed using the characterization presented in   
+Figure 35.1  
+, and an impact category is determined. The categories for each of the four risk components—performance, 
+support, cost, and schedule—are averaged  3 
+ 
+ to determine an overall impact value. 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+Once the ﬁ rst four columns of the risk table have been completed, the table 
+is sorted by probability and by impact. High-probability, high-impact risks per-
+
+colate to the top of the table, and low-probability risks drop to the bottom. This 
+accomplishes ﬁ rst-order risk prioritization. 
+ You can study the resultant sorted table and deﬁ
+ ne a cutoff line. The  
+cutoff line 
+ (drawn horizontally at some point in the table) implies that only risks that 
+lie above the line will be given further attention. Risks that fall below the line are    Think hard about 
+the software you’re 
+about to build and ask 
+yourself, “what can go 
+wrong?” Create your 
+own list and ask other 
+members of the team 
+to do the same.    A risk table is sorted by 
+
+probability and impact 
+to rank risks. RisksSize estimate may be significantly lowLarger number of users than planned
+Less reuse than planned
+End users resist system
+Delivery deadline will be tightened
+Funding will be lost
+Customer will change requirements
+Technology will not meet expectations
+Lack of training on tools
+Staff inexperienced
+Staff turnover will be highPSPS
+PSBU
+BUCUPSTEDEST
+ST60%30%
+70%
+40%
+50%
+40%
+80%
+30%
+80%
+30%
+60%23
+2
+3
+2
+1
+2
+1
+3
+2
+2ProbabilityImpact values:1Šcatastrophic
+2Šcritical
+3Šmarginal
+4ŠnegligibleImpactRMMMCategory FIGURE 35.2 
+Sample risk table prior to 
+sorting  
+3  A weighted average can be used if one risk component has more signiﬁ
+ cance for a project. 
+pre22126_ch35_777-794.indd   784pre22126_ch35_777-794.indd   78413/12/13   6:17 PM13/12/13   6:17 PM

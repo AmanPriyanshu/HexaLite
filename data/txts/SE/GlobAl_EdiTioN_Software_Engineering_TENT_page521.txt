@@ -1,0 +1,68 @@
+The development of the Web in the 1990s revolutionized organizational information 
+exchange. Client computers could gain access to information on remote servers out
+-
+side their own organizations. However, access was solely through a web browser, 
+
+and direct access to the information by other programs was not practical. This meant 
+
+that opportunistic connections between servers, where, for example, a program could 
+
+query a number of catalogs from different suppliers, were not possible.
+To get around this problem, web services were developed that allowed programs 
+to access and update resources available on the web. Using a web service, organiza
+-
+tions that wish to make their information accessible to other programs can do so by 
+
+defining and publishing a programmatic web service interface. This interface defines 
+
+the data available and how it can be accessed and used.
+More generally, a web service is a standard representation for some computational or 
+information resource that can be used by other programs. These may be information 
+
+resources, such as a parts catalog, computer resources, such as a specialized processor, or 
+
+storage resources. For example, an archive service could be implemented that permanently 
+
+and reliably stores organizational data that, by law, has to be maintained for many years.
+A web service is an instance of a more general notion of a service, which Lovelock 
+et al. (Lovelock et al., 1996) defined as:
+an act or performance offered by one party to another. Although the process 
+
+may be tied to a physical product, the performance is essentially intangible 
+
+and does not normally result in ownership of any of the factors of production.
+ƒServices are a natural development of software components where the component 
+
+model is, in essence, a set of standards associated with web services. A web service 
+
+can therefore be defined as:
+A loosely coupled, reusable software component that encapsulates discrete func
+-
+tionality, which may be distributed and programmatically accessed. A web service 
+
+is a service that is accessed using standard Internet and XML-based protocols.
+A critical distinction between a service and a software component, as defined in 
+component-based software engineering, is that services should be independent and 
+loosely coupled. That is, they should always operate in the same way, irrespective of 
+
+their execution environment. They should not rely on external components that may 
+
+have different functional and non-functional behavior. Therefore, web services do 
+
+not have a ﬁrequiresﬂ interface that, in CBSE, defines the other system components 
+
+that must be present. A web service interface is simply a ﬁprovidesﬂ interface that 
+
+defines the service functionality and parameters.
+Service-oriented systems are a way of developing distributed systems where the 
+system components are stand-alone services, executing on geographically distributed 
+
+computers. Services are platform and implementation-language independent. Software 
+
+systems can be constructed by composing local services and external services from 
+
+different providers, with seamless interaction between the services in the system.
+˜˚˛˝˙ˆˇ˘˜˚˛˜˜˜
+˜ˇ
+˜˜˜
+ƒLovelock, C., Vandermerwe, S. and Lewis, B. (1996). Services Marketing. Englewood Cliffs, NJ: Prentice Hall.

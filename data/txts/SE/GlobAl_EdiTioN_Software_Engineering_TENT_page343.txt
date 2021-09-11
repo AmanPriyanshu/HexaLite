@@ -1,0 +1,42 @@
+˜˜˚˛˜˜˜˜
+˜˜
+TermDefinitionAccident (or mishap)An unplanned event or sequence of events that results in human death or injury, 
+damage to property or to the environment. An overdose of insulin is an example of an accident.DamageA measure of the loss resulting from a mishap. Damage can range from many 
+people being killed as a result of an accident to minor injury or property damage. 
+Damage resulting from an overdose of insulin could lead to serious injury or the 
+death of the user of the insulin pump.HazardA condition with the potential for causing or contributing to an accident. A failure of 
+the sensor that measures blood glucose is an example of a hazard.Hazard probabilityThe probability of the events occurring which create a hazard. Probability values 
+tend to be arbitrary but range from ﬁprobableﬂ (say 1/100 chance of a hazard 
+occurring) to ﬁimplausibleﬂ (no conceivable situations are likely in which the hazard 
+could occur). The probability of a sensor failure in the insulin pump that 
+overestimates the user™s blood sugar level is low.Hazard severityAn assessment of the worst possible damage that could result from a particular 
+hazard. Hazard severity can range from catastrophic, where many people are killed, 
+to minor, where only minor damage results. When an individual death is a 
+possibility, a reasonable assessment of hazard severity is ﬁvery high.ﬂRiskA measure of the probability that the system will cause an accident. The risk is assessed 
+
+by considering the hazard probability, the hazard severity, and the probability that the 
+
+hazard will lead to an accident. The risk of an insulin overdose is medium to low.Figure 12.1 Safety terminologyUnanticipated combinations of subsystem failures led to interactions that resulted in 
+overall system failure. For example, failure of an air conditioning system may lead 
+to overheating. Once hardware gets hot, its behavior becomes unpredictable, so 
+
+overheating may lead to the system hardware generating incorrect signals. These 
+
+wrong signals may then cause the software to react incorrectly.Perrow made the point that, in complex systems, it is impossible to anticipate all possible combinations of failures. He therefore coined the phrase ﬁnormal acci
+-
+dents,ﬂ with the implication that accidents have to be considered as inevitable when 
+we build complex safety-critical systems.To reduce complexity, we could use simple hardware controllers rather than soft
+-ware control. However, software-controlled systems can monitor a wider range of 
+
+conditions than simpler electromechanical systems. They can be adapted relatively 
+easily. They use computer hardware, which has high inherent reliability and which is 
+physically small and lightweight.Software-controlled systems can provide sophisticated safety interlocks. They 
+can support control strategies that reduce the amount of time people need to spend in 
+hazardous environments. Although software control may introduce more ways in 
+
+which a system can go wrong, it also allows better monitoring and protection. 
+
+Therefore, software control can contribute to improvements in system safety.It is important to maintain a sense of proportion about safety-critical systems. Critical 
+software systems operate without problems most of the time. Relatively few people 
+
+worldwide have been killed or injured because of faulty software. Perrow is right in say-

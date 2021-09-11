@@ -1,0 +1,54 @@
+206 PART TWO  
+MODELINGa shorthand version of the use case. It represents key classes and the events that cause behavior to ﬂ ow from class to class. 
+  
+ 
+Figure 11.2  illustrates a partial sequence diagram for the  
+SafeHome 
+ security 
+function. Each of the arrows represents an event (derived from a use case) and 
+indicates how the event channels behavior between  SafeHome 
+ objects. Time is 
+measured vertically (downward), and the narrow vertical rectangles represent 
+time spent in processing an activity. States may be shown along a vertical time 
+
+line.  The ﬁ rst event,  
+system ready
+ 
+, is derived from the external environment and channels behavior to the  Homeowner 
+ object. The homeowner enters a password. 
+A  request lookup
+ 
+ event is passed to  
+System, 
+ which looks up the password in a 
+simple database and returns a  result
+ 
+ ( 
+found 
+ or  
+not found 
+) to  ControlPanel 
+ (now 
+in the  comparing 
+ state). A valid password results in a  
+password
+=correct
+ 
+ event 
+to  System, 
+ which activates  
+Sensors 
+ with a  
+request activation
+ 
+ event. Ultimately, 
+control is passed back to the homeowner with the  activation successful 
+ event.  Once a complete sequence diagram has been developed, all of the events that cause transitions between system objects can be collated into a set of input 
+events and output events (from an object). This information is useful in the cre-
+ation of an effective design for the system to be built. Control panelSystemSystem readyReadingRequest lookupComparingResultPassword enteredPassword = correctRequest activationActivation successfulLockedSelectingTimer > lockedTime
+AAActivation successfulHomeownerSensorsnumberOfTries > maxTries
+  
+FIGURE 11.2 
+Sequence diagram (partial) for the  SafeHome 
+ security function  
+ pre22126_ch11_202-223.indd   206pre22126_ch11_202-223.indd   20613/12/13   6:12 PM13/12/13   6:12 PM

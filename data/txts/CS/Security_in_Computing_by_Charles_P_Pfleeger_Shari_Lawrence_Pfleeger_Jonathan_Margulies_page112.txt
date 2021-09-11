@@ -1,0 +1,41 @@
+78 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+This action opens up the possibility that one subject, S, may have two distinct sets of 
+access rights to F, one under the name Q and one under the name F. In this way, allowing 
+
+pseudonyms can lead to multiple permissions that are not necessarily consistent. Thus, 
+
+the directory approach is probably too simple for most object protection situations.Access Control Matrix
+We can think of the directory as a listing of objects accessible by a single subject, and 
+the access list as a table identifying subjects that can access a single object. The data in 
+
+these two representations are equivalent, the distinction being the ease of use in given 
+
+situations.As an alternative, we can use an 
+access control matrix
+, shown in Figure 2-11, a 
+table in which each row represents a subject, each column represents an object, and 
+
+each entry is the set of access rights for that subject to that object. A more detailed example representation of an access control matrix is shown in 
+Table 2-8. Access rights shown in that table are O, own; R, read; W, write; and X, execute. 
+In general, the access control matrix is sparse (meaning that most cells are empty): Most 
+subjects do not have access rights to most objects. The access matrix can be represented 
+
+as a list of triples, each having the form 
+subject, object, rights, as shown in Table 2-9. 
+FIGURE 2-10 Ambiguous Access Rights
+ F BIBLIOG PROG1.C
+ HELP.TXT
+ PROG1.EXE
+ORWX
+ORW
+OXORW
+RFile NameAccessRightsFilePointer Q F TEMP
+ HELP.TXT
+RORW
+RWR TEMP
+ F HELP.TXTR
+ORW
+File NameAccessRightsFilePointerORW
+ConflictingAccess!User A Directory
+User S DirectoryFilesUser B Directory

@@ -1,0 +1,83 @@
+CHAPTER 24  
+TESTING OBJECT-ORIENTED APPLICATIONS
+ 531 
+ 
+ 
+ 
+24.4.2   
+Applicability of Conventional Test-Case Design Methods 
+ 
+The white-box testing methods described in Chapter 23 can be applied to the op-erations deﬁ ned for a class. Basis path, loop testing, or data ﬂ
+ ow techniques can 
+help to ensure that every statement in an operation has been tested. However, the 
+
+concise structure of many class operations causes some to argue that the effort 
+applied to white-box testing might be better redirected to tests at a class level.  Black-box testing methods are as appropriate for OO systems as they are for systems developed using conventional software engineering methods. As we 
+noted in Chapter 23, use cases can provide useful input in the design of black-
+box and state-based tests.   
+ 
+ 
+24.4.3   
+Fault-Based Testing 
+ 5 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The object of  fault-based testing 
+within an OO system is to design tests that have a high likelihood of uncovering plausible faults. Because the product or system 
+must conform to customer requirements, preliminary planning required to per-
+
+form fault-based testing begins with the analysis model. The tester looks for 
+plausible faults (i.e., aspects of the implementation of the system that may result 
+in defects). To determine whether these faults exist, test cases are designed to 
+
+exercise the design or code.  Of course, the effectiveness of these techniques depends on how testers per-
+ceive a plausible fault. If real faults in an OO system are perceived to be implau-
+sible, then this approach is really no better than any random testing technique. 
+However, if the analysis and design models can provide insight into what is likely 
+
+to go wrong, then fault-based testing can ﬁ nd signiﬁ
+ cant numbers of errors with 
+relatively low expenditures of effort.   
+ 
+ 
+ 
+ 
+Integration testing looks for plausible faults in operation calls or message con-nections. Three types of faults are encountered in this context: unexpected re-
+sult, wrong operation/message used, and incorrect invocation. To determine 
+
+plausible faults as functions (operations) are invoked, the behavior of the opera-
+tion must be examined.  Integration testing applies to attributes as well as to operations. The “behav-iors” of an object are deﬁ ned by the values that its attributes are assigned. Test-
+ing should exercise the attributes to determine whether proper values occur for 
+distinct types of object behavior. 
+  
+ 
+ 
+ 
+ 
+It is important to note that integration testing attempts to ﬁ nd errors in the cli-
+ent object, not the server. Stated in conventional terms, the focus of integration 
+
+testing is to determine whether errors exist in the calling code, not the called    The strategy for fault-
+based testing is to 
+hypothesize a set of 
+plausible faults and 
+then derive tests to 
+prove each hypothesis.  What types 
+
+of faults are encountered 
+in operation calls 
+and message 
+connections? ?  
+5  Sections 24.4.3 and 24.4.4 have been adapted from an article by Brian Marick originally posted 
+on the Internet newsgroup comp.testing. This adaptation is included with the permission of 
+the author. For further information on these topics, see [Mar94]. It should be noted that the 
+
+techniques discussed in Sections 24.4.3 and 24.4.4 are also applicable for conventional software. pre22126_ch24_523-539.indd   531pre22126_ch24_523-539.indd   53113/12/13   10:02 PM13/12/13   10:02 PM

@@ -1,0 +1,118 @@
+CHAPTER 18  
+MOBILEAPP DESIGN 399 
+ 
+ 
+ 
+ 
+18.2.3  Context-Aware Apps 
+ 
+Context allows the creation of new applications based on the location of the mo-bile device and the functionality to be delivered by the device. Context can also 
+help tailor personal computer applications for mobile devices (e.g., downloading 
+patient information to a device carried by a home health care worker as he ar-
+
+rives at the patient’s house). 
+ Using highly adaptive, contextual interfaces is a good way to deal with de-vice limitations (e.g., screen size and memory). To facilitate the development 
+
+of context-aware user interaction requires support of corresponding software 
+architectures.   
+ 
+In an early discussion of context-aware applications, Rodden [Rod98] points 
+out that mobile computing merges the real and virtual worlds by providing func-
+tionality that allows a device to be aware of its location, time, and other objects in 
+
+its surroundings. The device could be in a ﬁ xed location like an alarm sensor, 
+embedded in an autonomous device, or be carried around by a human. Because 
+
+the device can be designed to be used by individuals, groups, or the public, it must 
+
+detect the presence and identity of the user, as well as the attributes of the context 
+
+that are relevant or permitted for that user (even if the user is another device). 
+ To achieve context awareness, mobile systems must produce reliable infor-
+mation in the presence of uncertain and rapidly changing data from a variety  How does 
+a design achieve context 
+awareness? ?  
+MobileApp User Interface Design Considerations 
+ 
+Design choices affect performance and 
+should be examined early in the UI design process. Ivo Weevers [Wee11] posted several mobile 
+
+user–interface design practices that have proven to be 
+
+helpful when designing mobile applications:   
+ 
+ 
+ 
+ 
+•   
+Deﬁ ne user interface brand signatures
+ 
+. Differentiate the app from its competitors. Make 
+the core signature elements of the brand the most 
+responsive, since users will use them over and over. 
+  
+ 
+ 
+•   
+Focus the portfolio of products
+ 
+. Target the 
+platforms that are most important to the success of 
+
+the app and the company. Not all platforms have the 
+
+same number of users.   
+ 
+ 
+•   
+Identify the core user stories 
+. Make use of techniques such as quality function deployment 
+(Chapter 8) to reduce a lengthy list of requirements to 
+implement using the constrained resources available 
+on mobile devices.   
+ 
+ 
+•   
+Optimize UI ﬂ ows and elements 
+. Users do not like to wait. Identify potential bottlenecks in user work ﬂ ow and make sure the user is given indication of 
+progress when delays occur. Make sure that the time 
+
+to display screen elements is justiﬁ ed in terms of user 
+beneﬁ ts. 
+  
+ 
+ 
+•   
+Deﬁ ne scaling rules. 
+ Determine the options that 
+will be used when information to be displayed is too 
+
+large to ﬁ t on the screen. Managing functionality, 
+aesthetics, usability, and performance is a continual 
+
+balancing act.   
+ 
+ 
+•   
+Use a performance dashboard.
+ 
+ Used to communicate the product’s current state of completion 
+
+(e.g., number of use stories implemented), its 
+performance relative to its targets, and perhaps 
+
+comparisons to its competitors.   
+ 
+ 
+•   
+Champion dedicated UI engineering skills. 
+ It is important to understand that the implementation 
+
+of layout, graphics, and animation has performance 
+
+implications. Techniques to interleave rendering of 
+
+display items and program execution can be helpful.  
+ 
+  
+INFO pre22126_ch18_391-410.indd   399pre22126_ch18_391-410.indd   39916/12/13   6:23 PM16/12/13   6:23 PM

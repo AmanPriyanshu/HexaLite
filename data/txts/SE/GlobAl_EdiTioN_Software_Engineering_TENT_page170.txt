@@ -1,0 +1,48 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜System architectures are often modeled informally using simple block diagrams, as in Figure 6.1. Each box in the diagram represents a component. Boxes within 
+boxes indicate that the component has been decomposed to subcomponents. Arrows 
+mean that data and or control signals are passed from component to component in 
+the direction of the arrows. You can see many examples of this type of architectural 
+model in Booch™s handbook of software architecture (Booch 2014).Block diagrams present a high-level picture of the system structure, which people from different disciplines, who are involved in the system development process, can 
+readily understand. In spite of their widespread use, Bass et al. (Bass, Clements, and 
+Kazman 2012) dislike informal block diagrams for describing an architecture. They 
+
+claim that these informal diagrams are poor architectural representations, as they 
+
+show neither the type of the relationships among system components nor the compo
+-
+nents™ externally visible properties.The apparent contradictions between architectural theory and industrial prac
+-tice arise because there are two ways in which an architectural model of a program 
+
+is used:1. As a way of encouraging discussions about the system design A high-level 
+architectural view of a system is useful for communication with system stake-
+holders and project planning because it is not cluttered with detail. 
+
+Stakeholders can relate to it and understand an abstract view of the system. 
+
+They can then discuss the system as a whole without being confused by detail. 
+
+The architectural model identifies the key components that are to be devel-
+oped so that managers can start assigning people to plan the development of 
+
+these systems.2. As a way of documenting an architecture that has been designed The aim here 
+is to produce a complete system model that shows the different components in a 
+system, their interfaces and their connections. The argument for such a model is 
+that such a detailed architectural description makes it easier to understand and 
+evolve the system.Block diagrams are a good way of supporting communications between the peo-ple involved in the software design process. They are intuitive, and domain experts 
+and software engineers can relate to them and participate in discussions about the 
+
+system. Managers find them helpful in planning the project. For many projects, 
+
+block diagrams are the only architectural description.Ideally, if the architecture of a system is to be documented in detail, it is better to 
+use a more rigorous notation for architectural description. Various architectural 
+
+description languages (Bass, Clements, and Kazman 2012) have been developed for 
+this purpose. A more detailed and complete description means that there is less scope 
+for misunderstanding the relationships between the architectural components. 
+
+However, developing a detailed architectural description is an expensive and 
+ time-consuming process. It is practically impossible to know whether or not it is 
+
+cost-effective, so this approach is not widely used.

@@ -1,0 +1,75 @@
+252 Chapter 4  
+The Web—User Side
+Chapter 2, a digital signature is an electronic seal that can vouch for the authenticity of 
+a file or other data object. The recipient can inspect the seal to verify that it came from 
+
+the person or organization believed to have signed the object and that the object was not 
+
+modified after it was signed.
+A partial approach to reducing 
+the risk of false code is 
+signed code. Users can hold downloaded code 
+
+until they inspect the seal. After 
+
+verifying that the seal is authentic 
+
+and covers the entire code file being 
+
+downloaded, users can install the 
+
+code obtained.A trustworthy third party appends a digital signature to a piece of code, supposedly 
+connoting more trustworthy code. Who might the trustworthy party be? A well-known 
+
+manufacturer would be recognizable as a code signer. In fact, Microsoft affixes a digital 
+
+signature to protect the integrity of critical parts of Windows. The signature is verified 
+
+each time the code is loaded, ordinarily when the system is rebooted. But what of the 
+small and virtually unknown manufacturer of a device driver or a code add-in? If the 
+
+code vendor is unknown, it does not help that the vendor signs its own code; miscreants 
+
+can post their own signed code, too. As described in Sidebar 4-6, malicious agents can 
+
+also subvert a legitimate signing infrastructure. Furthermore, users must check the valid-
+
+ity of the signatures: Sally’s signature does not confirm the legitimacy of Ben’s code.
+The threat of signed malicious code is real. According to anti-malware company 
+McAfee, digitally signed malware accounted for only 1.3 percent of code items 
+
+obtained in 2010, but the proportion rose to 2.9 percent for 2011 and 6.6 percent for 
+
+2012. Miscreants apply for and obtain legitimate certificates. Unsuspecting users (and 
+A digital signature can vouch for the 
+
+authenticity of a program, update, or 
+
+dataset. The problem is, trusting the 
+
+legitimacy of the signer.
+SIDEBAR 4-6 Adobe Code-Signing Compromised
+In 2012, Adobe announced that part of its code-signing infrastructure had 
+been compromised and that the attackers had been able to distribute ille-
+
+gitimate code signed with a valid Adobe digital signature. In the incident 
+
+attackers obtained access to a server in the Adobe code production library; 
+
+with that server the agents were able to enter arbitrary code into the soft-
+
+ware build and request signatures for that software by using the standard 
+
+procedure for legitimate Adobe software.
+In this attack only two illicit utilities were introduced, and those 
+affected only a small number of users. However, the cleanup required 
+
+Adobe to decommission the compromised digital signature, issue a new 
+
+signature, and develop a process for re-signing the affected utilities. For-
+
+tunately, the compromised server was reasonably well isolated, having 
+
+access to source code for only one product; thus, the extent of potential 
+
+damage was controlled.

@@ -1,0 +1,88 @@
+CHAPTER 14  
+COMPONENT-LEVEL DESIGN
+ 315 
+ 
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+14.1.  The term  component 
+ is sometimes a difﬁ
+ cult one to deﬁ
+ ne. First provide a generic 
+deﬁ nition, and then provide more explicit deﬁ
+ nitions for object-oriented and traditional 
+software. Finally, pick three programming languages with which you are familiar and illus-
+
+trate how each deﬁ nes a component. 
+   
+ 
+14.2.  Why are control components necessary in traditional software and generally not re-quired in object-oriented software?    
+ 
+14.3.  Describe the OCP in your own words. Why is it important to create abstractions that serve as an interface between components?    
+ 
+14.4.  Describe the DIP in your own words. What might happen if a designer depends too heavily on concretions?    
+ 
+14.5.  Select three components that you have developed recently and assess the types of cohesion that each exhibits. If you had to deﬁ ne the primary beneﬁ
+ t of high cohesion, what 
+would it be?    
+ 
+14.6.  Select three components that you have developed recently and assess the types of coupling that each exhibits. If you had to deﬁ ne the primary beneﬁ
+ t of low coupling, what 
+would it be?    
+ 
+14.7.  Is it reasonable to say that problem domain components should never exhibit external coupling? If you agree, what types of component would exhibit external coupling?    
+ 
+14.8.  Develop (1) an elaborated design class, (2) interface descriptions, (3) an activity dia-gram for one of the operations within the class, and (4) a detailed statechart diagram for one 
+of the  SafeHome 
+ classes that we have discussed in earlier chapters.    
+ 
+14.9.  Are stepwise reﬁ nement and refactoring the same thing? If not, how do they differ? 
+   
+ 
+14.10.  What is a WebApp component? 
+   
+ 
+14.11.  Select a small portion of an existing program (approximately 50 to 75 source lines). Isolate the structured programming constructs by drawing boxes around them in the source 
+code. Does the program excerpt have constructs that violate the structured programming 
+philosophy? If so, redesign the code to make it conform to structured programming con-
+structs. If not, what do you notice about the boxes that you’ve drawn?    
+ 
+14.12.  All modern programming languages implement the structured programming con-structs. Provide examples from three programming languages.    
+ 
+14.13.  Select a small coded component and represent it using an activity diagram.    
+ 
+14.14.  Why is “chunking” important during the component-level design review process?   
+ 
+ 
+ 
+  F
+URTHER
+ READINGS AND INFORMATION
+ SOURCES  
+ 
+Many books on component-based development and component reuse have been pub-lished in recent years. Szyperski ( Component Software,
+ 
+ 2nd ed., Addison-Wesley, 2011) 
+emphasizes the importance of software components as building blocks for effective sys-
+tems.  Hamlet, ( Composing Software Components
+ 
+, Springer, 2010), Curtis ( 
+Modular Web 
+Design 
+, New R iders, 2009), Apperly and his colleagues ( Service- and Component-Based Development, 
+ Addison-Wesley, 2004), Heineman and Councill ( 
+Component Based Software 
+Engineering, 
+ Addison-Wesley, 2001), Brown ( 
+Large-Scale Component-Based Development,
+ 
+ Prentice Hall, 2000), Allen ( Realizing e-Business with Components, 
+ Addison-Wesley, 2000), 
+and Leavens and  Sitaraman ( Foundations of Component-Based Systems, 
+ Cambridge Uni-
+versity Press, 2000) cover many important aspects of the CBSE process. Stevens ( UML Com-ponents 
+,  Addison-Wesley, 2006), Apperly and his colleagues ( 
+Service- and Component-Based pre22126_ch14_285-316.indd   315pre22126_ch14_285-316.indd   31513/12/13   6:12 PM13/12/13   6:12 PM

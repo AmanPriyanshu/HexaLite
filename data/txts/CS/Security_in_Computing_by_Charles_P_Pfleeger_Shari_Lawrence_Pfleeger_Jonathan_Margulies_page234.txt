@@ -1,0 +1,73 @@
+200 Chapter 3  
+Programs and Programmingrecognize that the interview was in the 
+Wall Street Journal
+, a popular publication for business and finance executives. Antivirus products make money; otherwise there 
+
+would not be so many of them on the market. However, consulting services can make 
+
+even more money, too. The Symantec executive was making the point that businesses, 
+
+whose executives read the 
+Wall Street Journal
+, need to invest also in advisors who will 
+study a business’s computing activity, identify shortcomings, and recommend remedia-
+
+tion. And in the event of a security incident, organizations will need similar advice on 
+
+the cause of the case, the amount and nature of harm suffered, and the next steps for 
+
+further protection.Virus Signatures 
+A virus cannot be completely invisible. Code must be stored somewhere, and the code 
+
+must be in memory to execute. Moreover, the virus executes in a particular way, using 
+
+certain methods to spread. Each of these characteristics yields a telltale pattern, called 
+a signature, that can be found by a program that looks for it. The virus’s signature is 
+
+important for creating a program, called a virus scanner, that can detect and, in some 
+
+cases, remove viruses. The scanner searches memory and long-term storage, monitor-
+
+ing execution and watching for the telltale signatures of viruses. For example, a scanner 
+SIDEBAR 3-9 Free Security
+Whenever influenza threatens, governments urge all citizens to get a flu 
+vaccine. Not everyone does, but the vaccines manage to keep down the 
+
+incidence of flu nevertheless. As long as enough people are vaccinated, 
+
+the whole population gets protection. Such protection is called “herd 
+
+immunity,” because all in the group are protected by the actions of most, 
+
+usually because enough vaccination occurs to prevent the infection from 
+
+spreading. 
+In a similar way, sometimes parts of a network without security are 
+protected by the other parts that are secure. For example, a node on a 
+
+network may not incur the expense of antivirus software or a firewall, know-
+
+ing that a virus or intruder is not likely to get far if the others in the network 
+are protected. So the “free riding” acts as a disincentive to pay for security; 
+
+the one who shirks security gets the benefit from the others’ good hygiene.
+The same kind of free-riding discourages reporting of security attacks 
+and breaches. As we have seen, it may be costly for an attacked organiza-
+
+tion to report a problem, not just in terms of the resources invested in report-
+
+ing but also in negative effects on reputation or stock price. So free-riding 
+
+provides an incentive for an attacked organization to wait for someone else 
+
+to report it, and then benefit from the problem’s resolution. Similarly, if a 
+
+second organization experiences an attack and shares its information and 
+
+successful response techniques with others, the first organization receives 
+
+the benefits without bearing any of the costs. Thus, incentives matter, and 
+
+technology without incentives to understand and use it properly may in fact 
+
+be ineffective technology.

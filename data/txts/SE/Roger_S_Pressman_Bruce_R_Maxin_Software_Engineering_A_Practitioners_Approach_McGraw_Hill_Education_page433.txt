@@ -1,0 +1,77 @@
+CHAPTER 18  
+MOBILEAPP DESIGN 403 
+ 
+ 
+•   
+Support user expectations for personalization. 
+ Mobile device users expect 
+to be able to personalize everything. At the very least, developers should 
+
+try to allow users to set their location (or detect it automatically) and  select 
+content options that may be available at that location. It is important to 
+
+indicate to users what features can be personalized and how users can 
+
+ personalize them. 
+  
+ 
+ 
+•   
+Long scrolling forms trump multiple screens on mobile devices. 
+ Experi-enced mobile device users want all information on a single input screen 
+even if this requires scrolling. Novice users often become experienced 
+quickly and will grow tired of multiple input screens.    
+Developing native applications for multiple device platforms can be costly and time-consuming. Development costs can be reduced by using technologies fa-
+miliar to Web developers (e.g., JavaScript, CSS, and HTML) to create MobileApps 
+
+that will be accessed using a Web browser on the mobile device. Open webOS 
+ 20 
+ 
+ is 
+a device-independent platform intended to allow this type of development.    
+ 
+ 
+ 
+ 
+ 18.4  
+MOBILITY ENVIRONMENTS  
+ 
+The sidebar contains pointers to several tools that can be used to develop  MobileApps for popular platforms. Each has its own advantages and disadvan-tages.  21 
+ 
+ Some use technologies that are restricted to a single manufacturer’s 
+ devices (e.g., iOS and Objective C). Some platforms are licensed to several man-ufacturers (e.g., Android and Java or Windows 8 and C#). Some are open source 
+
+and designed to work on many devices (e.g., webOS and Enyo). Each platform has 
+its own rules for marketing and distribution and each varies in the degree to 
+which it supports speciﬁ c application technologies such as gaming. 
+ 
+ 
+ 
+ 
+  Choosing a platform (or platforms) requires careful thought by mobile devel-opers. Sometimes the platform(s) chosen will be dictated by the customer’s busi-
+
+ness goals. In other situations platform choices will be determined by the device 
+features they support or hardware limitations that exist. Yuan [Yua02] uses the 
+
+following criteria to assess several  mobile interactive development environments
+ 
+ (MIDEs):  
+ 
+ 
+•   
+General productivity features 
+. The MIDE should contain tools to support editing, project management, debugging, architectural design, documen-
+tation, and unit testing.   How should 
+I go about choosing mobility 
+environments and 
+platforms? ?  
+20  Information on webOS can be found at  
+ 
+https://developer.palm.com 
+ 
+   
+21  Further discussion can be found at  
+ 
+http://www.cs.colorado.edu/~kena/classes/5828/s10/
+presentations/software_engineering_mobile.pdf  
+ pre22126_ch18_391-410.indd   403pre22126_ch18_391-410.indd   40316/12/13   6:23 PM16/12/13   6:23 PM

@@ -1,0 +1,33 @@
+500 Chapter 6  
+Networks43. Do firewall rules have to be symmetric? That is, does a firewall have to block a particular 
+traffic type both inbound (to the protected site) and outbound (from the site)? Why or why 
+
+not?44. The FTP protocol is relatively easy to proxy; the firewall decides, for example, whether an 
+outsider should be able to access a particular directory in the file system and issues a cor-
+
+responding command to the inside file manager or responds negatively to the outsider. Other 
+
+protocols are not feasible to proxy. List three protocols that it would be prohibitively difficult 
+
+or impossible to proxy. Explain your answer.
+45. How would the content of the audit log differ for a screening router versus an application 
+proxy firewall?
+46. Cite a reason why an organization might want two or more firewalls on a single network.
+47. Firewalls are targets for penetrators. Why are there few compromises of firewalls?
+48. Should a network administrator put a firewall in front of a honeypot (introduced in Chap-
+ter 5)? Why or why not?
+49. Can a firewall block attacks that use server scripts, such as the attack in which the user could 
+change a price on an item offered by an e-commerce site? Why or why not?
+50. Why does a stealth mode IDS need a separate network to communicate alarms and to accept 
+management commands?51. One form of IDS starts operation by generating an alert for every action. Over time, the 
+administrator adjusts the setting of the IDS so that common, benign activities do not generate 
+
+alarms. What are the advantages and disadvantages of this design for an IDS?
+52. Can encrypted email provide verification to a sender that a recipient has read an email mes-
+sage? Why or why not?
+53. Can message confidentiality and message integrity protection be applied to the same mes-
+sage? Why or why not?
+54. What are the advantages and disadvantages of an email program (such as Eudora or Outlook) 
+that automatically applies and removes protection to email messages between sender and 
+
+receiver?

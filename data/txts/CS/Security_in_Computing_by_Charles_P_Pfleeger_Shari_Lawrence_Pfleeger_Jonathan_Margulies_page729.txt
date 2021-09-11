@@ -1,0 +1,75 @@
+ Section 10.5  Dealing with Disaster 
+695  SIDEBAR 10-9 Cost of Backup: A Business Decision
+Data are no longer stored only on large mainframe computers. Your organi-
+zation’s key information could reside on your laptop, on remote servers, or 
+
+even on your smartphone. The sheer number of devices holding important 
+
+data suggests that the cost of regular backups could be extremely high.
+Deciding whether, when, and how often to back up is an essential 
+business decision. Resources spent on backups, including support staff, 
+
+could be spent instead on providing products and services to customers. 
+
+So is it better for an organization to take its chances and deal with prob-
+
+lems only when they happen? David Smith’s research [SMI03] suggests 
+
+that the answer is no. Smith estimated that 80 million personal computers 
+and over 60 million desktop computers were in use by U.S. businesses in 
+
+2003. In a different analysis, market intelligence firm IDC estimated that in 
+
+2010 40 percent of small-to-medium-sized enterprises did not back up their 
+
+data, and of the 60 percent who did, 40 percent to 50 percent of the back-
+
+ups were incomplete or unrecoverable.
+Smith points out that even when data can be recovered, substantial 
+costs are involved. Using the average salary of a computer support spe-
+
+cialist and estimates of recovery time, he suggests that for each incident, 
+
+businesses pay $170 per loss for each internal specialist, and twice that 
+
+for external consultants to perform the recovery. Lost productivity for each 
+
+employee affected is estimated to be over $200, and the expected value of 
+
+the data lost is $3,400. Smith suggests that data loss costs U.S. businesses 
+over $18 billion a year. Although these figures are somewhat dated, we can 
+
+extrapolate using a 68 percent increase in the cost of a data loss (
+Comput-erworld 20 March 2012) from 2007 to 2011.
+There is another way to think about the cost of data loss. Suppose 
+an organization loses the data for 100,000 customers, and it costs $20 per 
+customer (a very low estimate) for organization personnel to contact each 
+
+customer and elicit replacement data. That’s $2 million that could have 
+
+been spent on more important business functions. So the cost of backing 
+
+up the 100,000 records should be less than the $2 million cost to replace 
+
+them. In fact, this analysis underestimates the costs in other ways: When 
+
+customers find out about the data loss, they may switch to a competitor, or 
+
+the company’s stock price may suffer. 
+Thus, each organization must weigh the cost of its potential losses 
+against the costs of doing regular backups. There are other alternatives, 
+
+such as insurance. But when data are essential to the organization’s viabil-
+
+ity, insurance may not be a realistic option.
+Major installations may perform revolving backups
+, in which the last several back-
+ups are kept. Each time a backup is done, the oldest backup is replaced with the newest 
+
+one. There are two reasons to perform revolving backups: to avoid problems with cor-
+
+rupted media (so that all is not lost if one of the disks is bad) and to allow users or devel-
+
+opers to retrieve old versions of a file. Another form of backup is a 
+selective backup
+, in 

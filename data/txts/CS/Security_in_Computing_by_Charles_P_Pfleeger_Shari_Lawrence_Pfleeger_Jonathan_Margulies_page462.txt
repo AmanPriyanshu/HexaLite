@@ -1,0 +1,71 @@
+428 Chapter 6  
+Networksso the attacker builds in redundancy. 
+The attacker controls one or more 
+
+master controllers that establish 
+
+command-and-control centers.Command-and-control centers 
+control the individual bots, telling 
+
+them when to start and stop an attack against which victim. Communication from the 
+
+command-and-control center to the bots can be either pushed, with the center sending instructions to the bots, or 
+pulled, with each bot responsible for periodically calling 
+home to a controller to determine if there is work to do. To avoid detection, masters 
+
+change command-and-control centers often, for which the push model is more effec-
+
+tive, since the individual bots do not have to be informed of the address of the new 
+
+command-and-control computer. 
+Bots coordinate with each other and with their master through ordinary network 
+channels, such as Internet Relay Chat (IRC) channels, peer-to-peer networking (which 
+
+has been used for sharing music over the Internet) or other network protocols (includ-
+
+ing HTTP). Structured as a loosely coordinated web, a botnet is not subject to failure of 
+
+any one bot or group of bots, and with multiple channels for communication and coor-
+
+dination, they are highly resilient. All this command-and control activity has to be per-
+
+formed stealthily so as not to arouse network administrators’ attention or be disabled, as 
+
+described in Sidebar 6-22.A botnet command-and-control center 
+
+instructs specific machines to target a 
+particular victim at a given time and 
+duration.SIDEBAR 6-22 Command-and-Control Stealth
+Conficker, introduced in Chapter 3, is an especially crafty piece of mal-
+ware that has infected millions of machines since its first appearance late in 
+
+2008. It relies on a typical bot network with command-and-control servers, 
+
+but its use of stealth techniques and encryption to protect its network is 
+
+sophisticated.The command-and-control site uses 512-bit RSA encryption and an 
+MD4 hash to sign code being downloaded to the compromised machine. 
+
+The machine verifies the signature; if the signature does not match, the 
+
+machine discards the download. Each Conficker host uses the current date 
+
+as a seed to generate a list of random domain names, called rendezvous 
+
+points, which it then polls to try to find commands. In this way the command- 
+
+and-control servers move every day, and analysts cannot predict to what 
+
+addresses the servers will move, which means the analysts cannot block 
+
+access to those addresses in advance. 
+That is, until Porras and his team analyzed Conficker: They broke 
+Conficker’s code and determined the list of addresses in advance [POR09]. 
+
+Blocking those addresses effectively halted Conficker’s progress. Except 
+
+that on 15 March 2009, one site name was mistakenly not blocked, and 
+
+Conficker bots were again able to contact the command server for an 
+
+update. That update, unfortunately, gave Conficker a new life.

@@ -1,0 +1,35 @@
+4. Safety-related events are accidental and are not created by an intelligent adver-sary. An attacker can probe a system™s defenses in a series of attacks, modifying 
+
+the attacks as he or she learns more about the system and its responses.These distinctions mean that security requirements have to be more extensive 
+than safety requirements. Safety requirements lead to the generation of functional 
+
+system requirements that provide protection against events and faults that could 
+
+cause safety-related failures. These requirements are mostly concerned with check-
+ing for problems and taking actions if these problems occur. By contrast, many types 
+of security requirements cover the different threats faced by a system.Firesmith (Firesmith 2003) identified 10 types of security requirements that may be included in a system specification:1. Identification requirements specify whether or not a system should identify its 
+users before interacting with them.2. Authentication requirements specify how users are identified.3.
+ Authorization requirements specify the privileges and access permissions of 
+
+identified users.4.
+ Immunity requirements specify how a system should protect itself against 
+
+viruses, worms, and similar threats.5. Integrity requirements specify how data corruption can be avoided.6.
+ Intrusion detection requirements specify what mechanisms should be used to 
+
+detect attacks on the system.7. Nonrepudiation requirements specify that a party in a transaction cannot deny 
+
+its involvement in that transaction.8. Privacy requirements specify how data privacy is to be maintained.9.
+ Security auditing requirements specify how system use can be audited and 
+
+checked.10. System maintenance security requirements specify how an application can pre-
+vent authorized changes from accidentally defeating its security mechanisms.Of course, you will not see all of these types of security requirements in every 
+system. The particular requirements depend on the type of system, the situation of 
+use, and the expected users.Preliminary risk assessment and analysis aim to identify the generic security risks 
+for a system and its associated data. This risk assessment is an important input to the 
+
+security requirements engineering process. Security requirements can be proposed to 
+
+support the general risk management strategies of avoidance, detection and mitigation.1. Risk avoidance requirements set out the risks that should be avoided by design
+-ing the system so that these risks simply cannot arise.˜˜˚˛˚˜˜˜
+˜˜

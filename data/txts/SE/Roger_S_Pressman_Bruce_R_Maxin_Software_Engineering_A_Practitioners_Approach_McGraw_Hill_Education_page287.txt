@@ -1,0 +1,174 @@
+CHAPTER 13  
+ARCHITECTURAL DESIGN 257this type of product may begin to emerge. Without documenting what worked 
+and what did not, it is hard for software engineers to decide when to innovate 
+and when to use previously created architecture.  
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 13.2 A
+RCHITECTURAL GENRES  
+ 
+Although the underlying principles of architectural design apply to all types of 
+ architecture, the architectural  genre
+ 
+ will often dictate the speciﬁ
+ c architectural 
+approach to the structure that must be built. In the context of architectural design, 
+
+ genre
+ 
+ implies a speciﬁ
+ c category within the overall software domain. Within each 
+category, you encounter a number of subcategories. For example, within the genre 
+
+of  buildings 
+, you would encounter the following general styles: houses, condos, 
+apartment buildings, ofﬁ ce buildings, industrial building, warehouses, and so on. 
+Within each general style, more speciﬁ
+ c styles might apply (Section 13.3). Each style 
+would have a structure that can be described using a set of predictable patterns. 
+ 
+ 
+ 
+   
+In his evolving  Handbook of Software Architecture
+ 
+ [Boo08], Grady Booch suggests 
+the following architectural genres for software-based systems that include artiﬁ cial 
+intelligence, communications, devices, ﬁ nancial, games, industrial, legal, medical, 
+military, operating systems, transportation, and utilities, among many others. 
+   A number of different 
+architectural styles 
+may be applicable to 
+a speciﬁ c genre (also 
+
+called an application 
+domain).   
+Architecture Decision Description Template 
+ 
+Each major architectural decision can be documented for later review by stakeholders who want to understand the architecture description that 
+has been proposed. The template presented in this side-
+bar is an adapted and abbreviated version of a template 
+proposed by Tyree and Ackerman [Tyr05].
+  
+ 
+ 
+ 
+ 
+ 
+ Design issue: 
+  Describe the architectural design issues that are to be addressed.    
+ 
+ 
+ 
+ 
+ 
+Resolution: 
+  State the approach you’ve chosen 
+to address the design issue. 
+   
+ 
+ 
+ 
+ 
+ 
+Category:
+ 
+  Specify the design category that 
+the issue and resolution address 
+(e.g., data design, content 
+structure, component structure, 
+integration, presentation).    
+ 
+ 
+ 
+ 
+ 
+Assumptions: 
+  Indicate any assumptions that helped shape the decision.    
+ 
+ 
+ 
+ 
+ 
+Constraints: 
+  Specify any environmental constraints that helped shape 
+the decision (e.g., technology 
+standards, available patterns, 
+
+project-related issues).   
+ 
+ 
+ 
+ 
+ 
+ Alternatives: 
+  Brieﬂ y describe the architectural 
+design alternatives that were 
+
+considered and why they were 
+rejected.    
+ 
+ 
+ 
+ 
+ 
+Argument:
+ 
+  State why you chose the 
+resolution over other alternatives. 
+   
+ 
+ 
+ 
+ 
+ 
+Implications: 
+  Indicate the design consequences of making the 
+decision. How will the resolution 
+affect other architectural design 
+issues? Will the resolution 
+
+   
+ 
+ 
+ 
+ 
+ 
+Related decisions: 
+  What other documented decisions 
+are related to this decision? 
+   
+ 
+ 
+ 
+ 
+ 
+Related concerns: 
+  What other requirements are related to this decision?    
+ 
+ 
+ 
+ 
+ 
+Work products:
+ 
+  Indicate where this decision will be reﬂ ected in the architecture 
+description.    
+ 
+ 
+ 
+ 
+ 
+Notes: 
+  Reference any team notes or other documentation that was 
+used to make the decision.  
+ 
+   
+INFO pre22126_ch13_252-284.indd   257pre22126_ch13_252-284.indd   25713/12/13   6:12 PM13/12/13   6:12 PM

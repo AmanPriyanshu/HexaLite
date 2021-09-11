@@ -1,0 +1,40 @@
+58 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+• The speed at which a recognition must be done limits accuracy. We might ide-
+ally like to take several readings and merge the results or evaluate the closest fit. 
+
+But authentication is done to allow a user to do something: Authentication is not 
+
+the end goal but a gate keeping the user from the goal. The user understandably 
+
+wants to get past the gate and becomes frustrated and irritated if authentication 
+
+takes too long.
+• Although we like to think of biometrics as unique parts of an individual, 
+forger-
+ies are possible. Some examples of forgeries are described in Sidebar 2-7.
+Biometrics depend on a physical characteristic that can vary from one day to the next 
+or as people age. Consider your hands, for example: On some days, the temperature, 
+
+your activity level, or other factors may cause your hands to swell, thus distorting your 
+
+hands’ physical characteristics. But an authentication should not fail just because the 
+
+day is hot. Biometric recognition also depends on how the sample is taken. For hand 
+
+geometry, for example, you place your hand on a template, but measurements will vary 
+
+slightly depending on exactly how you position your hand. 
+Authentication with biometrics uses a pattern or template, much like a baseline, 
+that represents measurement of the characteristic. When you use a biometric for 
+1.00.80.6
+0.40.20.00.00.10.20.30.40.50.60.70.80.91.0
+FITGood (0.774)V. Good (0.877)
+Poor (0.574)1−SpecificitySensitivityFIGURE 2-4 ROC Curves
+SIDEBAR 2-6 ContinuedFor a matching or screening system, as for any test, system admin-
+istrators must determine what levels of sensitivity and specificity are 
+
+acceptable. The levels depend on the intention of the test, the setting, the 
+prevalence of the target criterion, alternative methods for accomplishing 
+
+the same goal, and the costs and benefits of testing.

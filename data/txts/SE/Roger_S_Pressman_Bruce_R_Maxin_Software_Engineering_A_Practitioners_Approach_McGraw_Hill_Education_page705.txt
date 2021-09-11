@@ -1,0 +1,98 @@
+CHAPTER 30  
+PRODUCT METRICS 675   
+Using a subset of the metrics suggested, it may be possible to derive empirical 
+relations that allow a WebApp development team to assess technical quality and 
+
+predict effort based on projected estimates of complexity. Further work remains 
+
+to be accomplished in this area.    Technical Metrics for WebApps  
+  
+Objective:  To assist Web engineers in 
+developing meaningful WebApp metrics that 
+provide insight into the overall quality of an application. 
+  
+Mechanics:  Tool mechanics vary. 
+  
+Representative Tools:   
+13    
+  
+Netmechanic Tools,
+  developed by Netmechanic ( 
+www.
+netmechanic.com ), is a collection of tools that 
+help to improve website performance, focusing on 
+
+implementation-speciﬁ c issues. 
+  
+NIST Web Metrics Testbed
+ , developed by the National 
+Institute of Standards and Technology ( 
+zing.ncsl.nist.gov/WebTools/
+ ) encompasses the following 
+collection of useful tools that are available for 
+download:   
+Web Static Analyzer Tool (WebSAT)—
+ Checks Web 
+page HTML against typical usability guidelines. 
+  
+Web Category Analysis Tool (WebCAT)
+ —Lets the 
+usability engineer construct and conduct a Web 
+
+category analysis. 
+
+  
+Web Variable Instrumenter Program (WebVIP)—
+
+ Provides instruments to a website to capture a log of 
+
+user interaction. 
+  
+Framework for Logging Usability Data (FLUD) —
+Implements a ﬁ le formatter and parser for 
+
+representation of user interaction logs. 
+  
+VisVIP Tool
+ —Produces a 3D visualization of user 
+navigation paths through a website. 
+  
+TreeDec
+ —Adds navigation aids to the pages of a 
+website.   S
+OFTWARE
+ TOOLS   13 
+ Tools noted here do not represent an endorsement, but rather a sampling of tools in this 
+category. 
+  14 
+ It should be noted that Halstead’s “laws” have generated substantial controversy, and many 
+believe that the underlying theory has ﬂ aws. However, experimental veriﬁ cation for selected 
+programming languages has been performed (e.g., [Fel89]).        
+ 30.5  METRICS FOR SOURCE CODE    
+Halstead’s theory of “software science” [Hal77] proposed the ﬁ rst analytical “laws” 
+
+for computer software.  14  
+ Halstead assigned quantitative laws to the development of computer software, using a set of primitive measures that may be derived after 
+code is generated or estimated once design is complete. The measures are:         
+n 1 5 number of distinct operators that appear in a program  
+       
+n 
+2 5 number of distinct operands that appear in a program  
+       
+N 1 5 total number of operator occurrences  
+      
+N 
+2 5 total number of operand occurrences  
+       
+Halstead uses these primitive measures to develop expressions for the overall 
+program length, potential minimum volume for an algorithm, the actual volume 
+(number of bits required to specify a program), the program level (a measure of 
+software complexity), the language level (a constant for a given language), and  uote: 
+ “The human brain 
+
+follows a more 
+rigid set of rules 
+[for developing 
+algorithms] than 
+it has been aware 
+of.”  Maurice Halstead 

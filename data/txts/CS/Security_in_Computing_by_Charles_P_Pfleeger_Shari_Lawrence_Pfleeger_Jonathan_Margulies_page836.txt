@@ -1,0 +1,61 @@
+802 Chapter 12  
+Details of Cryptography12.5 DIGITAL SIGNATURES
+We introduced digital signatures in Chapter 2. Recall that a digital signature is, like a 
+handwritten signature, a means of associating a mark unique to an individual with a body 
+
+of text. The mark should be unforgeable, meaning that only the originator should be able 
+
+to compute the signature value. But the mark should be verifiable, meaning that other 
+
+people should be able to check that the signature comes from the claimed originator.
+The general way of computing digital signatures is with public key encryption; the 
+signer computes a signature value by using a private key, and others can use the public 
+
+key to verify that the signature came from the corresponding private key.
+As we point out in Chapter 2, a digital signature must meet two requirements and 
+ideally would satisfy two more:
+• unforgeable (mandatory
+). No one other than the signer can produce the signa-
+ture without the signer’s private key.
+• authentic (mandatory). The receiver can determine that the signature really 
+came from the signer.
+• not alterable (desirable
+). No signer, receiver, or any interceptor can modify the 
+signature without the tampering being evident.
+• not reusable (desirable
+). Any attempt to reuse a previous signature will be 
+detected by receiver.
+To support digital signatures, we need strong public key algorithms. The RSA algo-
+rithm described earlier in this chapter is fine for digital signatures, but it is not the only 
+
+possibility.
+Elliptic Curve CryptosystemsElliptic Curve Cryptography (ECC) was discovered in 1985 by Victor Miller (IBM) and 
+
+Neil Koblitz (University of Washington) [MIL85, KOB87] as an alternative mechanism 
+
+for implementing public-key cryptography. Unlike RSA, ECC is based on logarithms 
+
+in finite fields; an advantage of ECC is that equivalent security can be had with shorter 
+
+key lengths than RSA.
+A problem with RSA from its inception has been that its developers patented the 
+algorithm. Thus, users of the algorithm may be required to pay a license fee. Develop-
+
+ers of the ECC algorithm placed it in the public domain, thereby avoiding licensing and 
+
+fees. (Other developers have patented technologies incorporating ECC, so not every-
+
+thing involving ECC is patent free.)
+The mathematics behind elliptic curve cryptography is quite sophisticated, more so 
+than we can possibly present here. The elliptic curves are (
+x,y) coordinates of points 
+that satisfy an equation such as 
+y2  x3  ax  b for constants a and b. Nick Sullivan 
+[SUL13] points out that any nonvertical straight line passes through at most three points 
+
+on the curve. And, given any two points, P and Q, we can find the third point R through 
+
+which the line PQR passes. When P 
+ (xP,yP) and Q 
+ (xQ,yQ), 
+P  Q  R 

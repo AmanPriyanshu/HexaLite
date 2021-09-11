@@ -1,0 +1,48 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜Figure 6.
+13 is an example of a system that is based on the clientŒserver model. 
+This is a multiuser, web-based system for providing a film and photograph library. 
+In this system, several servers manage and display the different types of media. 
+
+Video frames need to be transmitted quickly and in synchrony but at relatively low 
+
+resolution. They may be compressed in a store, so the video server can handle 
+
+video compression and decompression in different formats. Still pictures, how-ever, must be maintained at a high resolution, so it is appropriate to maintain them 
+
+on a separate server.The catalog must be able to deal with a variety of queries and provide links into 
+the web information system that include data about the film and video clips, and an 
+e-commerce system that supports the sale of photographs, film, and video clips. The 
+
+client program is simply an integrated user interface, constructed using a web 
+
+browser, to access these services.The most important advantage of the clientŒserver model is that it is a distributed architecture. Effective use can be made of networked systems with many distributed 
+
+processors. It is easy to add a new server and integrate it with the rest of the system 
+or to upgrade servers transparently without affecting other parts of the system. I 
+cover distributed architectures in Chapter 17, where I explain the clientŒserver 
+
+model and its variants in more detail.My final example of a general Architectural pattern is the Pipe and Filter pattern 
+
+(Figure 6.
+14). This is a model of the runtime organization of a system where 
+
+functional transformations process their inputs and produce outputs. Data flows 
+
+from one to another and is transformed as it moves through the sequence. Each 
+
+processing step is implemented as a transform. Input data flows through these 
+
+transforms until converted to output. The transformations may execute sequen-
+tially or in parallel. The data can be processed by each transform item by item or 
+
+in a single batch.Catalog
+server
+LibrarycatalogueVideo
+server
+Film storePicture
+server
+Photo storeWebserver
+Film andphoto info.Client 1Client 2Client 3Client 4InternetFigure 6.13 A clientŒserver architecture for a 
+film library 

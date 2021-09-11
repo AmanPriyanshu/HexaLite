@@ -1,0 +1,190 @@
+CHAPTER 8  
+UNDERSTANDING REQUIREMENTS
+ 147 
+ 
+ 
+ 
+8.3.4  Elicitation Work Products 
+ 
+ 
+ 
+  
+ 
+The work products produced as a consequence of requirements elicitation will vary depending on the size of the system or product to be built. For most systems, 
+the work products include: (1) a statement of need and feasibility, (2) a bounded 
+
+statement of scope for the system or product, (3) a list of customers, users, and 
+other stakeholders who participated in requirements elicitation, (4) a descrip-
+tion of the system’s technical environment, (5) a list of requirements (prefera-
+
+bly organized by function) and the domain constraints that applies to each, (6) a 
+set of usage scenarios that provide insight into the use of the system or product 
+under different operating conditions, and (7) any prototypes developed to better  What 
+information is produced as 
+a consequence 
+of requirements 
+gathering? ?  
+Developing a Preliminary User Scenario   
+Developing a Preliminary User Scenario 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The scene:  A meeting room, 
+continuing the ﬁ rst requirements 
+gathering meeting.    
+ 
+ 
+ 
+ 
+ 
+The players:  Jamie Lazar, software team member; 
+Vinod Raman, software team member; Ed Robbins, soft-
+ware team member; Doug Miller, software engineering 
+
+manager; three members of marketing; a product engi-
+neering representative; and a facilitator. 
+   
+ 
+ 
+ 
+ 
+ 
+The conversation:  
+   
+ 
+ 
+ 
+ 
+ 
+Facilitator:  We’ve been talking about security for ac-
+cess to  SafeHome 
+ functionality that will be accessible 
+via the Internet. I’d like to try something. Let’s develop 
+
+a usage scenario for access to the home security 
+
+function. 
+   
+ 
+ 
+ 
+ 
+ 
+Jamie:  How? 
+   
+ 
+ 
+ 
+ 
+ 
+Facilitator:  We can do it a couple of different ways, 
+but for now, I’d like to keep things really informal. Tell 
+
+us (he points at a marketing person) how you envision 
+accessing the system.    
+ 
+ 
+ 
+ 
+ 
+Marketing person:  
+thing I’d do if I was away from home and I had to let 
+someone into the house, say a housekeeper or repair 
+guy, who didn’t have the security code. 
+   
+ 
+ 
+ 
+ 
+ 
+Facilitator (smiling):  That’s the reason you’d do 
+   
+ 
+ 
+ 
+ 
+ 
+Marketing person: ﬁ
+ rst thing I’d need is 
+a PC. I’d log on to a website we’d maintain for all users 
+of  SafeHome.    
+ 
+ 
+ 
+ 
+ 
+Vinod (interrupting):  The Web page would have to be 
+secure, encr 
+   
+ 
+ 
+ 
+ 
+ 
+Facilitator (interrupting):  That’s good information, 
+Vinod, but it’s technical. Let’s just focus on how the end 
+
+user will use this capability. OK? 
+   
+ 
+ 
+ 
+ 
+ 
+Vinod:  No problem. 
+   
+ 
+ 
+ 
+ 
+ 
+Marketing person:  So as I was saying, I’d log on 
+to a website and provide my user ID and two levels of 
+passwords.    
+ 
+ 
+ 
+ 
+ 
+Jamie:  What if I forget my password? 
+   
+ 
+ 
+ 
+ 
+ 
+Facilitator (interrupting):  Good point, Jamie, but 
+let’s not address that now. We’ll make a note of that 
+
+and call it an  exception.  I’m sure there’ll be others.    
+ 
+ 
+ 
+ 
+ 
+Marketing person:  After I enter the passwords, a 
+screen representing all  SafeHome 
+ functions will appear. 
+I’d select the home security function. The system might 
+request that I verify who I am, say, by asking for my ad-
+
+dress or phone number or something. It would then dis-
+play a picture of the security system control panel along 
+with a list of functions that I can perform—arm the 
+
+system, disarm the system, disarm one or more sensors. 
+
+I suppose it might also allow me to reconﬁ gure security 
+zones and other things like that, but I’m not sure.    
+(As the marketing person continues talking, Doug takes copious notes; these form the basis for the ﬁ
+ rst informal 
+usage scenario. Alternatively, the marketing person 
+
+could have been asked to write the scenario, but this 
+would be done outside the meeting.)   
+SAFEHOME pre22126_ch08_131-165.indd   147pre22126_ch08_131-165.indd   14713/12/13   6:11 PM13/12/13   6:11 PM

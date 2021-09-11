@@ -1,0 +1,50 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜Figure 4.17 The structure of a requirements  
+documentChapterDescriptionPrefaceThis defines the expected readership of the document and describe its version history, 
+including a rationale for the creation of a new version and a summary of the changes 
+made in each version.IntroductionThis describes the need for the system. It should briefly describe the system™s functions 
+and explain how it will work with other systems. It should also describe how the system 
+fits into the overall business or strategic objectives of the organization commissioning the 
+software.GlossaryThis defines the technical terms used in the document. You should not make assumptions 
+about the experience or expertise of the reader.User 
+requirements 
+definitionHere, you describe the services provided for the user. The nonfunctional system 
+requirements should also be described in this section. This description may use natural 
+language, diagrams, or other notations that are understandable to customers. Product and 
+process standards that must be followed should be specified.System 
+architectureThis chapter presents a high-level overview of the anticipated system architecture, showing 
+the distribution of functions across system modules. Architectural components that are 
+reused should be highlighted.System 
+requirements 
+specificationThis describes the functional and nonfunctional requirements in more detail. If necessary, 
+further detail may also be added to the nonfunctional requirements. Interfaces to other 
+systems may be defined.System 
+modelsThis chapter includes graphical system models showing the relationships between the 
+system components and the system and its environment. Examples of possible models are 
+object models, data-flow models, or semantic data models.System 
+evolutionThis describes the fundamental assumptions on which the system is based, and any 
+anticipated changes due to hardware evolution, changing user needs, and so on. This 
+section is useful for system designers as it may help them avoid design decisions that 
+would constrain likely future changes to the system.AppendicesThese provide detailed, specific information that is related to the application being 
+
+developedŠfor example, hardware and database descriptions. Hardware requirements 
+
+define the minimal and optimal configurations for the system. Database requirements define 
+
+the logical organization of the data used by the system and the relationships between data.IndexSeveral indexes to the document may be included. As well as a normal alphabetic index, 
+there may be an index of diagrams, an index of functions, and so on.Naturally, the information included in a requirements document depends on the 
+type of software being developed and the approach to development that is to be used. 
+
+A requirements document with a structure like that shown in Figure 4.17 might be 
+
+produced for a complex engineering system that includes hardware and software 
+
+developed by different companies. The requirements document is likely to be long 
+
+and detailed. It is therefore important that a comprehensive table of contents and doc-
+ument index be included so that readers can easily find the information they need.By contrast, the requirements document for an in-house software product will 
+leave out many of detailed chapters suggested above. The focus will be on defining 
+the user requirements and high-level, nonfunctional system requirements. The sys-
+tem designers and programmers use their judgment to decide how to meet the out-
+line user requirements for the system.

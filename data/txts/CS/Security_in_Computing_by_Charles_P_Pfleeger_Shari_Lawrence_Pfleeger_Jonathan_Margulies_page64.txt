@@ -1,0 +1,47 @@
+30 Chapter 1  
+Introduction – (human) guards
+– sprinklers and other fire extinguishers
+• Procedural
+ or 
+administrative
+ controls use a command or agreement that 
+ – requires or advises people how to act; for example,
+
+ – laws, regulations
+
+ – policies, procedures, guidelines
+
+ – copyrights, patents
+
+ – contracts, agreements
+• Technical controls 
+counter threats with technology (hardware or software), 
+including
+ – passwords
+
+ – program or operating system access controls
+
+ – network protocols
+
+ – firewalls, intrusion detection systems
+
+ – encryption
+
+ – network traffic flow regulators
+(Note that the term “logical controls” is also used, but some people use it to mean 
+administrative controls, whereas others use it to mean technical controls. To avoid con-
+
+fusion, we do not use that term.)As shown in Figure 1-13, you can think in terms of the property to be protected and 
+the kind of threat when you are choosing appropriate types of countermeasures. None 
+of these classes is necessarily better than or preferable to the others; they work in dif-
+
+ferent ways with different kinds of results. And it can be effective to use 
+overlapping 
+controls 
+or defense in depth: more than one control or more than one class of control to achieve protection.
+IntrusionAttemptsDetectionInternalPrevention
+ExternalPrevention
+ExternalDeterrenceInternal
+DeterrenceResponsePreemptionSystem PerimeterSystemResourceFaux
+Environment
+OIIIOIIOIODeflectionFIGURE 1-12 Effects of Controls

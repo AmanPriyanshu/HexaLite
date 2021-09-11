@@ -1,0 +1,63 @@
+CHAPTER 38  
+EMERGING TRENDS IN SOFTWARE ENGINEERING
+ 845 
+ 
+ 
+38.4.1   
+Managing Complexity  
+When the ﬁ rst edition of this book was written (1982), digital consumer prod-
+ucts as we now know them today didn’t exist, and mainframe-based systems con-
+taining a million lines of source code (LOC) were considered to be quite large. 
+Today, it is not uncommon for small digital devices to encompass between 60,000 
+
+to 200,000 lines of custom software, coupled with a few million LOC for operat-
+ing system features. Modern computer-based systems containing 10 to 50 million 
+
+lines of code are not uncommon.  3 
+ 
+ In the relatively near future, systems 
+ 4 
+ 
+ requiring 
+over 1 billion LOC will begin to emerge.  5 
+ 
+ 
+  Think about that for a moment!  Consider the interfaces for a billion LOC system, both to the outside world, to other interoperable systems, to the Internet (or its successor), and to the mil-
+lions of internal components that must all work together to make this computing 
+monster operate successfully. Is there a reliable way to ensure that all of these 
+
+connections will allow information to ﬂ ow properly? 
+ Consider the project itself. How do we manage the work ﬂ ow and track prog-
+ress? Will conventional approaches scale upward by orders of magnitude? 
+ Consider the number of people (and their locations) who will be doing 
+the work, the coordination of people and technology, the unrelenting ﬂ
+ ow of 
+changes, the likelihood of a multiplatform, multioperating system environment. 
+
+Is there a way to manage and coordinate people who are working on a monster 
+
+project? 
+ Consider the engineering challenge. How can we analyze tens of thousands of requirements, constraints, and restrictions in a way that ensures that incon-
+sistency and ambiguity, omissions, and outright errors are uncovered and cor-
+
+rected? How can we create a design architecture that is robust enough to handle 
+a system of this size? How can software engineers establish a change manage-
+ment system that will have to handle hundreds of thousands of changes?  
+   
+Consider the challenge of quality assurance. How can we perform veriﬁ cation 
+and validation in a meaningful way? How do you test a 1 billion LOC system?  In the early days, software engineers attempted to manage complexity in what can only be described as an ad hoc fashion. Today, we use process, methods, and 
+
+tools to keep complexity under control. But tomorrow? Is our current approach 
+up to the task?   
+ uote:  “There is no reason 
+anyone would want 
+a computer in their 
+home.”  Ken Olson, 
+President, Chairman and Founder of Digital Equipment Corp., 1977   
+3  For example, modern PC operating systems (e.g., Linux, Mac OS, and Windows) have between 
+30 and 60 million LOC. Operating system software for mobile devices can exceed 2 million 
+LOC.   
+4  In reality, this “system” will actually be a system of systems–hundreds of interoperable applica-
+tions working together to achieve some overall objective.   
+5  Not all complex systems are large. A relatively small application (say, less than 100,000 LOC 
+can still be exceedingly complex. pre22126_ch38_839-859.indd   845pre22126_ch38_839-859.indd   84513/12/13   6:17 PM13/12/13   6:17 PM

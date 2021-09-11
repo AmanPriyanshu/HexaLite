@@ -1,0 +1,70 @@
+816 Chapter 13  
+Emerging Topics
+to disseminate a software patch to a flaw, instead of a more thorough system-wide analy-
+sis of the problem. (Hasty patching here is what the computer security community calls 
+penetrate and patch, an approach we decry in Chapter 3.) We do not detail all the soft-
+
+ware problems here, but we encourage you to read Leveson’s thoughtful analysis.
+You might dismiss these incidents because of their age, arguing that software devel-
+opment has improved dramatically since they occurred. True, software engineering 
+
+has changed significantly, with new languages, more powerful program development 
+
+tools, reusable code libraries, open source software, and different testing tools and 
+
+approaches. However, scarcely a week goes by without a newspaper article relating 
+
+some incident caused by a software failure. One can argue that the developers of the 
+
+Therac-25 control software knew their code would control radiation machinery, known 
+
+to be both life-saving and life threatening. Programmers should have been extraordi-
+
+narily cautious about the code they wrote. And still multiple faults ensued. The quality 
+
+of software development was and still is imperfect.
+These problems are not just safety problems. The technicians operating these 
+machines had no evil motive. But they could have: A motivated agent could have got-
+
+ten a job as a technician at a hospital 
+specifically to exploit one of these 
+
+faults against a human target, with 
+
+exactly the same outcome.
+Program Security Failures
+In February 2013 Barnaby Jack, an employee of the IOActive security research firm, 
+wrote a piece analyzing a recent episode of the Heartland television show. In the pro-
+gram, someone killed the vice president of the United States by taking control of his 
+pacemaker, an implanted device to regulate heart rhythm
+1. The killer perpetrated the 
+crime from a remote laptop computer. Jack examined the plot elements and determined 
+
+that the attack was basically feasible, ignoring a few inconsequential changes made for 
+
+television. Proximity was the only serious issue Jack raised; the attacker would have 
+
+needed to be within about 15 meters (50 feet) of the target.
+About 600,000 pacemakers (not all of which have defibrillator capability) are 
+implanted worldwide each year. Pacemakers receive and respond to signals from elec-
+
+trodes implanted in the heart. For monitoring and maintenance purposes, however, they 
+
+also execute control functions using wireless radio signal inputs and outputs. Having 
+
+read Chapter 2, you should now be asking “identification and authentication?” 
+Daniel Halperin and colleagues [HAL08b] studied the security of implantable car-
+dioverter defibrillators (ICDs, also called enhanced pacemakers). They first looked at 
+
+potential attacks from someone who possessed a commercial device designed to enable 
+
+a medical professional to monitor and reprogram an ICD device. Not surprisingly, they 
+
+discovered that a person with such a device could not only determine the serial number, 
+
+patient history, and patient identifier from that device, but also change device settings, 
+
+change the therapy, and deliver an electric shock to the patient. All but the last of these 
+1. This plot line was not unrealistic: Dick Cheney, Vice President from 2001 to 2009, had a heart condition 
+for which he had an implanted pacemaker.
+Safety issues can easily become security issues if exploitable by an attacker.

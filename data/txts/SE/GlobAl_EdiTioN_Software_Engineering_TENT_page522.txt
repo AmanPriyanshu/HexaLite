@@ -1,0 +1,66 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜
+˜ˇ
+˜As I discussed in Chapter 17, the ideas of ﬁsoftware as a serviceﬂ and ﬁservice-
+oriented systemsﬂ are not the same thing. Software as a service means offering 
+ software functionality to users remotely over the web, rather than through applica
+-tions installed on a user™s computer. Service-oriented systems are systems that are 
+
+implemented using reusable service components and that are accessed by other pro-
+grams, rather than directly by users. Software that is offered as a service may be 
+
+implemented using a service-oriented system. However, you don™t have to imple
+-
+ment software in this way to offer it as a user service.
+Adopting a service-oriented approach to software engineering has a number of 
+important benefits:
+1.
+ Services can be offered by any service provider inside or outside of an 
+ organization. 
+Assuming these services conform to certain standards, organizations can create 
+applications by integrating services from a range of providers. For example, a 
+
+manufacturing company can link directly to services provided by its suppliers.
+2.
+ The service provider makes information about the service public so that any 
+
+authorized user can use the service. The service provider and the service user do 
+
+not need to negotiate about what the service does before it can be incorporated 
+
+in an application program.3. Applications can delay the binding of services until they are deployed or until 
+
+execution. Therefore, an application using a stock price service (say) could, in 
+
+principle, dynamically change service providers while the system was execut
+-
+ing. This means that applications can be reactive and adapt their operation to 
+
+cope with changes to their execution environment.
+4. Opportunistic construction of new services is possible. A service provider may 
+ recognize new services that can be created by linking existing services in 
+ innovative ways.
+5.
+ Service users can pay for services according to their use rather than their  provision. 
+Therefore, instead of buying an expensive component that is rarely used, the appli
+-
+cation writer can use an external service that will be paid for only when required.
+6.
+ Applications can be made smaller, which is particularly important for mobile 
+
+devices with limited processing and memory capabilities. Some 
+ computationally 
+intensive processing and exception handling can be offloaded to external 
+ services.Service-oriented systems have loosely coupled architectures where service bindings 
+
+may change during system execution. A different, but equivalent, version of the ser
+-vice may therefore be executed at different times. Some systems will be solely built 
+
+using web services, and others will mix web services with locally developed compo
+-
+nents. To illustrate how applications that use a mixture of services and components 
+
+may be organized, consider the following scenario:
+An in-car information system provides drivers with information on weather, 
+
+road traffic conditions, local information and so forth. This is linked to the car 

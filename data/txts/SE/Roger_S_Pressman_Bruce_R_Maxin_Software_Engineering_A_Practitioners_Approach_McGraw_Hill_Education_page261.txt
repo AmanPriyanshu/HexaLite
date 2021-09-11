@@ -1,0 +1,131 @@
+CHAPTER 12  
+DESIGN CONCEPTS 231 
+ 
+A number of design methods, growing out of the work just noted, are being 
+applied throughout the industry. Like the analysis methods presented in 
+
+ Chapters 9 to 11, each software design method introduces unique heuristics 
+and notation, as well as a somewhat parochial view of what characterizes de-
+sign quality. Yet, all of these methods have a number of common characteristics: 
+
+(1) a mechanism for the translation of the requirements model into a design 
+
+representation, (2) a notation for representing functional components and their 
+
+interfaces, (3) heuristics for reﬁ nement and partitioning, and (4) guidelines for 
+quality assessment. 
+ Regardless of the design method that is used, you should apply a set of basic concepts to data, architectural, interface, and component-level design. These 
+concepts are considered in the sections that follow. 
+ What 
+characteristics 
+are common to all 
+design methods? ?  
+ 
+ 
+ 
+ 
+ 12.3 D
+ESIGN CONCEPTS  
+ 
+A set of fundamental software design concepts has evolved over the history of software engineering. Although the degree of interest in these concepts has var-
+
+ied over the years, each has stood the test of time. Each provides the software 
+designer with a foundation from which more sophisticated design methods can 
+be applied. Each helps you deﬁ ne criteria that can be used to partition software 
+ 
+ 
+Generic Task Set for Design 
+ 
+ 
+ 
+ 
+ 1.  
+Examine the information domain 
+model and design appropriate data structures for data objects and their attributes.    
+ 
+ 2.  
+Using the analysis model, select an architectural style (pattern) that is appropriate for the software. 
+   
+ 
+ 3.  
+Partition the analysis model into design subsystems 
+and allocate these subsystems within the architecture: 
+  
+ 
+ 
+Be certain that each subsystem is functionally 
+cohesive.    
+ 
+Design subsystem interfaces. 
+   
+ 
+Allocate analysis classes or functions to each subsystem.  
+ 
+   
+ 
+ 4.  
+Create a set of design classes or components:   
+ 
+ 
+Translate analysis class description into a design 
+class.    
+ 
+Check each design class against design criteria; consider inheritance issues.    
+ 
+Deﬁ ne methods and messages associated with 
+each design class.    
+ 
+Evaluate and select design patterns for a design 
+class or a subsystem.    
+ 
+Review design classes and revise as required.  
+ 
+   
+ 
+ 5.  
+Design any interface required with external systems 
+or devices.    
+ 
+ 6.  
+Design the user interface: 
+  
+ 
+ 
+Review results of task analysis.    
+ 
+Specify action sequence based on user scenarios. 
+   
+ 
+Create behavioral model of the interface. 
+   
+ 
+Deﬁ ne interface objects, control mechanisms. 
+   
+ 
+Review the interface design and revise as 
+required.  
+ 
+   
+ 
+ 7.  
+Conduct component-level design.   
+ 
+ 
+Specify all algorithms at a relatively low level of abstraction.    
+ 
+Reﬁ ne the interface of each component. 
+   
+ 
+Deﬁ ne component-level data structures. 
+    
+ 
+ 
+Review each component and correct all errors uncovered.  
+ 
+   
+ 
+ 8.  
+Develop a deployment model.  
+ 
+  
+TASK SET  pre22126_ch12_224-251.indd   231pre22126_ch12_224-251.indd   23113/12/13   6:12 PM13/12/13   6:12 PM

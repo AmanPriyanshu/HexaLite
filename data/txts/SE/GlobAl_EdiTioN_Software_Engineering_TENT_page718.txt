@@ -1,0 +1,39 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜In this 
+chapter, I focus on predictor metrics, whose values are automatically 
+assessed by analyzing code or documents. I discuss control metrics and how they are used in process improvement in web Chapter 26.Measurements of a software system may be used in two ways:1. To assign a value to system quality attributes By measuring the characteristics 
+of system components and then aggregating these measurements, you may be 
+able to assess system quality attributes, such as maintainability.2. To identify the system components whose quality is substandard Measurements 
+
+can identify individual components with characteristics that deviate from the norm. 
+
+For example, you can measure components to discover those with the highest com-
+plexity. These components are most likely to contain bugs because the complexity 
+
+makes it more likely that the component developer has made mistakes.It is difficult to make direct measurements of many of the software quality attrib-utes shown in Figure 24.2. Quality attributes such as maintainability, understanda-
+bility, and usability are external attributes that relate to how developers and users 
+
+experience the software. They are affected by subjective factors, such as user experi-
+ence and education, and they cannot therefore be measured objectively. To make a 
+judgment about these attributes, you have to measure some internal attributes of the 
+software (such as its size and complexity) and assume that these are related to the 
+quality characteristics that you are concerned with. Figure 
+24.10 shows some external software quality attributes and internal attrib
+-utes that could, intuitively, be related to them. The diagram suggests that there may 
+be relationships between external and internal attributes, but it does not say how 
+
+these attributes are related. Kitchenham (Kitchenham 1990) suggested that if the 
+
+measure of the internal attribute is to be a useful predictor of the external software 
+characteristic, three conditions must hold:Reliability
+Depth of inheritance treeCyclomatic complexity
+Program size in lines
+of code
+Number of error
+messages
+Length of user manual
+Maintainability
+Usability
+ReusabilityExternal quality attributesInternal attributesFigure 24.10  Relationships between 
+internal and external 
+software attributes

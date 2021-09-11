@@ -1,0 +1,33 @@
+˜˜˚˛ˇ˜˜˜
+˜˜˜
+estimate to take into account the percentage of reuse expected. Therefore, the final formula for effort computation for system prototypes is:PM 5 (NAP 3 (1 2 %reuse/100)) / PRODPM: the effort estimate in person-months.NAP: the total number of application points in the delivered system.%reuse: an estimate of the amount of reused code in the development.PROD: the application-point productivity as shown in Figure 23.11.˘˘This model may be used during the early stages of a project, before a detailed archi-tectural design for the system is available. The early design model assumes that user 
+requirements have been agreed and initial stages of the system design process are 
+
+underway. Your goal at this stage should be to make a quick and approximate cost 
+estimate. Therefore, you have to make simplifying assumptions, such as the assump-
+tion that there is no effort involved in integrating reusable code.Early design estimates are most useful for option exploration where you need to compare different ways of implementing the user requirements. The estimates pro-
+duced at this stage are based on the standard formula for algorithmic models, namely:Effort 5 A 3 SizeB 3 MBased on his own large dataset, Boehm proposed that the co-efficient A should be 2.94. The size of the system is expressed in KSLOC, which is the number of thou-
+sands of lines of source code. You calculate KSLOC by estimating the number of 
+
+function points in the software. You then use standard tables, which relate software 
+size to function points for different programming languages (QSM 2014) to compute 
+
+an initial estimate of the system size in KSLOC.The exponent 
+B reflects the increased effort required as the size of the project 
+increases. This can vary from 1.1 to 1.24 depending on the novelty of the project, the 
+development flexibility, the risk resolution processes used, the cohesion of the 
+
+development team, and the process maturity level (see web Chapter 26) of the organ
+-
+ization. I discuss how the value of this exponent is calculated using these parameters 
+
+in the description of the COCOMO II post-architecture model.Developer™s 
+experience and 
+capabilityVery lowLow
+NominalHigh
+Very highICASE maturity and 
+capabilityVery lowLow
+NominalHigh
+Very highPROD (NAP/month)4
+7132550Figure 23.11  Application- 
+point productivity

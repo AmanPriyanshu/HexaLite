@@ -1,0 +1,91 @@
+42 PART ONE  
+THE SOFTWARE PROCESS
+ 
+The  waterfall model, 
+ sometimes called the  
+classic life cycle 
+, suggests a system-atic, sequential approach  2 
+ 
+ to software development that begins with customer 
+speciﬁ cation of requirements and progresses through planning, modeling, con-
+struction, and deployment, culminating in ongoing support of the completed 
+software ( Figure 4.1 ).  
+ 
+ 
+ 
+ 
+ 
+  A variation in the representation of the waterfall model is called the   
+ 
+V-model
+.  
+ 
+ Represented in  Figure 4.2 , the V-model [Buc99] depicts the relationship of quality 
+assurance actions to the actions associated with communication, modeling, and 
+early construction activities. As a software team moves down the left side of the 
+V, basic problem requirements are reﬁ
+ ned into progressively more detailed and 
+technical representations of the problem and its solution. Once code has been 
+generated, the team moves up the right side of the V, essentially performing a 
+
+series of tests (quality assurance actions) that validate each of the models cre-
+ated as the team moves down the left side.  3 
+ 
+ In reality, there is no fundamental 
+difference between the classic life cycle and the V-model. The V-model provides 
+
+a way of visualizing how veriﬁ cation and validation actions are applied to earlier 
+engineering work.  
+ 
+ 
+ 
+ 
+   
+The waterfall model is the oldest paradigm for software engineering. How-ever, over the past four decades, criticism of this process model has caused even 
+
+ardent supporters to question its efﬁ cacy [Han95]. Among the problems that are 
+sometimes encountered when the waterfall model is applied are:  
+ 
+ 
+ 1.  Real projects rarely follow the sequential ﬂ ow that the model proposes. 
+Although the linear model can accommodate iteration, it does so indi-
+rectly. As a result, changes can cause confusion as the project team 
+
+proceeds.    
+ 
+ 2.  It is often difﬁ cult for the customer to state all requirements explicitly. The 
+waterfall model requires this and has difﬁ culty accommodating the natu-
+ral uncertainty that exists at the beginning of many projects.   Why does 
+the waterfall model sometimes 
+fail? ?  
+2  Although the original waterfall model proposed by Winston Royce [Roy70] made provision for 
+“feedback loops,” the vast majority of organizations that apply this process model treat it as if 
+it were strictly linear. 
+  
+3  A detailed discussion of quality assurance actions is presented in Part 3 of this book. 
+Communication project initiation
+ requirements gathering
+Planning estimating
+
+ scheduling
+
+ tracking
+Modeling analysis
+
+ design
+Deployment delivery
+
+ support
+
+ feedback
+Construction code
+
+ test
+ FIGURE 4.1 
+The waterfall model
+ The V-model illustrates 
+how veriﬁ cation and 
+
+validation actions are 
+associated with earlier 
+engineering actions. pre22126_ch04_040-065.indd   42pre22126_ch04_040-065.indd   4213/12/13   6:10 PM13/12/13   6:10 PM

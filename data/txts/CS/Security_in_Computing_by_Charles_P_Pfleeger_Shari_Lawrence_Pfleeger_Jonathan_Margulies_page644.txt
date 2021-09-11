@@ -1,0 +1,73 @@
+610 Chapter 9  
+Privacyout a new credit card in another person’s name is also a crime: identity theft. Identity 
+theft has risen as a problem from a relatively rare issue in the 1970s to one affect-
+
+ing 1 in 20 consumers today. In 2005, the U.S. Federal Trade Commission received 
+
+over 250,000 complaints of identity theft [FTC06]. But Javelin’s 2014 Identity Fraud 
+
+Report [JAV14]
+ notes that an identity theft occurs in the United States every two sec-
+onds. Indeed the incidence of overall identity theft affected 5.3 percent of consumers in 
+
+2013, up from 4.9 percent in 2012. Identity theft occurs in many ways: unauthorized opening of an account in some-
+one else’s name, changing account information to enable the thief to take over and use 
+
+someone else’s account or service, or perpetration of fraud by obtaining identity docu-
+
+ments in the stolen name. Most cases of identity theft become apparent a month or two 
+
+after the data are stolen, when fraudulent bills or transactions start coming or appearing 
+in the victim’s files. By that time, the thief has likely made a profit and has dropped the 
+
+stolen identity, moving on to a new victim.
+Having relatively few unique identifying characteristics facilitates identity theft: A 
+thief who gets one key, such as a national identity number, can use that to get a second, 
+
+and those two to get a third. Each key gives access to more data and resources. Few 
+
+companies or agencies are set up to ask truly discriminating authentication questions 
+(such as the grocery store at which you frequently shop or the city to which you recently 
+bought an airplane ticket or the third digit on line four of your last tax return). Because 
+
+there are few authentication keys, we are often asked to give out the same key (such as 
+
+mother’s maiden name) to many people, some of whom might be part-time accomplices 
+
+in identity theft. The U.S. Department of Justice maintains an identity theft website, 
+
+with information about how to prevent identity theft and what to do if you find yourself 
+
+a victim: http://www.justice.gov/criminal/fraud/websites/idtheft.html. 
+9.3 AUTHENTICATION AND PRIVACY
+In Chapter 2 we studied authentication, which we described as a means of proving or 
+
+verifying a previously given identity. We also discussed various authentication technol-
+
+ogies, which are subject to false accept (false positive) and false reject (false negative) 
+
+limitations. Here, we examine the problem that occurs when we confuse authentication 
+
+with identification.
+We know that passwords are a poor discriminator and are definitely not an identifier. 
+You would not expect all users of a system to have chosen different passwords. All we 
+
+need is for the ID–password pair to be unique. On the other end of the spectrum, finger-
+
+prints and the blood vessel pattern in the eye’s retina are thought to be unique: Given 
+
+a fingerprint or retina pattern, we expect to get only one identity that corresponds or to 
+
+find no match in the database. That situation assumes we work with a good image. If 
+
+the fingerprint is blurred or incomplete (not a complete contact or on a partly unsuitable 
+
+surface), we might get several possible matches. Other authenticators are less sophisti-
+
+cated still. Hand geometry or facial appearance does not discriminate so well. Face rec-
+
+ognition, in particular, is highly dependent on the quality of the facial image: Evaluating 
+
+a photograph of one person staring directly into a camera is very different from trying to 
+
+identify one face in the picture of a crowd.

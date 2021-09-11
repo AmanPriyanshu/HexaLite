@@ -1,0 +1,72 @@
+476 Chapter 6  
+Networks• assessing the integrity of critical system and data files
+• recognizing known attack patterns in system activity
+
+• identifying abnormal activity through statistical analysis
+
+• managing audit trails and highlighting user violation of policy or normal activity
+
+• correcting system configuration errors
+
+• installing and operating traps to record information about intruders
+No one IDS performs all of these functions. Let us look more closely at the kinds of IDSs and their use in providing security.
+Types of IDSs
+The two general types of intrusion detection systems are signature based and heuris-
+
+tic. Signature-based
+ intrusion detection systems perform simple pattern-matching and 
+report situations that match a pattern (signature) corresponding to a known attack type. 
+
+Heuristic intrusion detection systems, also known as 
+anomaly based, build a model 
+of acceptable behavior and flag exceptions to that model; for the future, the admin-
+
+istrator can mark a flagged behavior as acceptable so that the heuristic IDS will now 
+
+treat that previously unclassified behavior as acceptable. Thus, heuristic intrusion detec-
+
+tion systems are said to learn what constitute anomalies or improper behavior. This 
+
+learning occurs as an artificial intel-
+
+ligence component of the tool, the 
+
+inference engine
+, identifies pieces 
+of attacks and rates the degree to 
+
+which these pieces are associated 
+
+with malicious behavior.
+Intrusion detection devices can be network based or host based. A 
+network-based
+ IDS is a stand-alone device attached to the network to monitor traffic throughout that 
+
+network; a 
+host-based IDS runs on a single workstation or client or host, to protect that 
+one host.Early intrusion detection systems (for example, [DEN87, LUN90, FOX90, LIE89]) 
+worked after the fact by reviewing logs of system activity to spot potential misuses 
+
+that had occurred. The administrator could review the results of the IDS to find and fix 
+
+weaknesses in the system. Now, however, intrusion detection systems operate in real 
+
+time (or near real time), watching activity and raising alarms in time for the administra-
+
+tor to take protective action.
+Signature-Based Intrusion Detection
+A simple signature for a known attack type might describe a series of TCP SYN packets 
+sent to many different ports in succession and at times close to one another, as would 
+
+be the case for a port scan. An intrusion detection system would probably find noth-
+
+ing unusual in the first SYN, say, to port 80, and then another (from the same source 
+
+address) to port 25. But as more and more ports receive SYN packets, especially ports 
+
+that normally receive little traffic, this pattern reflects a possible port scan. Similarly, 
+Signature-based IDSs look for patterns; 
+
+heuristic ones learn characteristics of 
+
+unacceptable behavior over time.

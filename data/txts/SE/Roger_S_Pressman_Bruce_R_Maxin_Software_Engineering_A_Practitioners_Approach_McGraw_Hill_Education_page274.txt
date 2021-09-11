@@ -1,0 +1,82 @@
+244 PART TWO  
+MODELINGmodels is possible. In other cases, the analysis model slowly blends into the de-sign and a clear distinction is less obvious.    
+The elements of the design model use many of the same UML diagrams  7 
+ 
+ that 
+were used in the analysis model. The difference is that these diagrams are re-
+ﬁ ned and elaborated as part of design; more implementation-speciﬁ
+ c detail is 
+provided, and architectural structure and style, components that reside within 
+the architecture, and interfaces between the components and with the outside 
+world are all emphasized.  
+  You should note, however, that model elements indicated along the horizontal 
+axis are not always developed in a sequential fashion. In most cases prelimi-
+nary architectural design sets the stage and is followed by interface design and 
+component-level design, which often occur in parallel. The deployment model is 
+usually delayed until the design has been fully developed.  You can apply design patterns (Chapter 16) at any point during design. These 
+patterns enable you to apply design knowledge to domain-speciﬁ c problems that 
+have been encountered and solved by others.   
+ 
+ 
+12.4.1 Data Design 
+ 
+ Elements  
+Like other software engineering activities, data design (sometimes referred to as  data architecting
+ 
+) creates a model of data and/or information that is repre-sented at a high level of abstraction (the customer/user’s view of data). This data 
+
+model is then reﬁ ned into progressively more implementation-speciﬁ
+ c repre-
+sentations that can be processed by the computer-based system. In many soft-
+
+ware applications, the architecture of the data will have a profound inﬂ uence on 
+the architecture of the software that must process it.   
+The structure of data has always been an important part of software design. At the program-component level, the design of data structures and the asso-
+ciated algorithms required to manipulate them is essential to the creation of 
+high- quality applications. At the application level, the translation of a data model (derived as part of requirements engineering) into a database is pivotal to 
+achieving the business objectives of a system. At the business level, the collection 
+of information stored in disparate databases and reorganized into a “data ware-
+house” enables data mining or knowledge discovery that can have an impact on 
+the success of the business itself. In every case, data design plays an important 
+role. Data design is discussed in more detail in Chapter 13.   
+ 
+12.4.2 Architectural Design Elements 
+  
+The  architectural design
+ 
+ for software is the equivalent to the ﬂ
+ oor plan of a house. 
+The ﬂ oor plan depicts the overall layout of the rooms; their size, shape, and re-
+lationship to one another; and the doors and windows that allow movement into    The design model has 
+four major elements: 
+data, architecture, 
+components, and 
+interface. 
+   At the architectural 
+
+(application) level, 
+data design focuses on 
+ﬁ les or databases; at 
+
+the component level, 
+data design considers 
+the data structures 
+
+that are required to 
+implement local data 
+objects.   
+7  Appendix 1 provides a tutorial on basic UML concepts and notation.  
+ 
+uote:  “Questions about 
+whether design 
+is necessary or 
+
+affordable are 
+quite beside the 
+point: design is 
+inevitable. The 
+alternative to 
+good design is 
+bad design, not no 
+design at all.”  Douglas Martin 
+pre22126_ch12_224-251.indd   244pre22126_ch12_224-251.indd   24413/12/13   6:12 PM13/12/13   6:12 PM

@@ -1,0 +1,114 @@
+CHAPTER 23  
+TESTING CONVENTIONAL APPLICATIONS
+ 499 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 23.2  
+INTERNAL AND EXTERNAL VIEWS OF TESTING    
+Any engineered product (and most other things) can be tested in one of two ways: (1) Knowing the speciﬁ ed function that a product has been designed to perform, 
+tests can be conducted that demonstrate each function is fully operational while 
+at the same time searching for errors in each function. (2) Knowing the internal 
+workings of a product, tests can be conducted to ensure that “all gears mesh,” 
+that is, internal operations are performed according to speciﬁ cations and all 
+internal components have been adequately exercised. The ﬁ rst test approach 
+takes an external view and is called black-box testing. The second requires an 
+internal view and is termed white-box testing.  2 
+ 
+   
+ 
+Black-box testing 
+ alludes to tests that are conducted at the software inter-
+face. A black-box test examines some fundamental aspect of a system with lit-
+tle regard for the internal logical structure of the software.  White-box testing 
+ of 
+software is predicated on close examination of procedural detail. Logical paths 
+through the software and collaborations between components are tested by ex-
+ercising speciﬁ c sets of conditions and/or loops. 
+  
+ 
+At ﬁ rst glance it would seem that very thorough white-box testing would lead 
+to “100 percent correct programs.” All we need do is deﬁ ne all logical paths, 
+ 
+ uote:  “There is only one 
+rule in designing 
+test cases: cover 
+all features, but 
+do not make too 
+many test cases.”  Tsuneo Yamaura 
+   White-box tests can 
+
+be designed only after 
+component-level design 
+(or source code) ex-
+ists. The logical details 
+of the program must 
+be available.   
+ 
+Designing Unique Tests 
+   
+ 
+Designing Unique Tests 
+  
+ 
+The scene:  Vinod’s cubical. 
+  
+The players:  Vinod and Ed—members of the 
+ SafeHome 
+ software engineering team.   
+The conversation:    
+Vinod:  So these are the test cases you intend to run for 
+the  passwordValidation
+ 
+ operation.   
+Ed:  Yeah, they should cover pretty much all 
+possibilities for the kinds of passwords a user might 
+enter. 
+  
+Vinod:  So let’
+password will be 8080, right?  Ed: Uh huh. 
+  
+Vinod:  And you specify passwords 1234 and 
+6789 to test for error in recognizing invalid 
+
+passwords? 
+  
+Ed:  Right, and I also test passwords that are close to 
+  
+Vinod:  Those are okay, but I don’t see much point in 
+running both the 1234 and 6789 inputs. They’re redun-
+t they? 
+  
+Ed:  Well, they’re different values. 
+  
+Vinod:  That’s true, but if 1234 doesn’t uncover an 
+passwordValidation
+ 
+ operation notes that it’s an invalid password, it’s not 
+
+likely that 6789 will show us anything new. 
+  
+Ed:  I see what you mean. 
+  
+Vinod:  I’m not trs just that 
+we have limited time to do testing, so it’s a good idea to 
+
+run tests that have a high likelihood of ﬁ nding new errors. 
+  
+Ed:  
+  
+SAFEHOME  
+ 
+2  The terms  
+functional testing 
+ and  
+structural testing 
+ are sometimes used in place of black-box 
+and white-box testing, respectively. 
+pre22126_ch23_496-522.indd   499pre22126_ch23_496-522.indd   49913/12/13   6:14 PM13/12/13   6:14 PM

@@ -1,0 +1,116 @@
+CHAPTER 14  
+COMPONENT-LEVEL DESIGN
+ 313 
+ 
+ 
+ 
+ 
+• 
+ 
+  A component database capable of storing software components and the classiﬁ cation information necessary to retrieve them. 
+  
+ 
+ 
+• 
+ 
+  A library management system that provides access to the database.   
+ 
+ 
+• 
+ 
+  A software component retrieval system (e.g., an object request broker) that enables a client application to retrieve components and services from 
+the library server. 
+  
+ 
+ 
+• 
+ 
+  CBSE tools that support the integration of reused components into a new design or implementation.    
+Each of these functions interacts with or is embodied within the conﬁ nes of 
+a reuse library, one element of a larger software repository (Chapter 29) that 
+
+provides facilities for the storage of software components and a wide variety of 
+reusable work products (e.g., speciﬁ cations, designs, patterns, frameworks, code 
+fragments, test cases, user guides).  
+ 
+ 
+  What are 
+the key characteristics of 
+a component reuse 
+environment? ?  
+CBSE  
+ 
+ 
+ 
+ 
+Objective:   
+To aid in modeling, design, 
+review, and integration of software 
+components as part of a larger system. 
+  
+ 
+Mechanics:   
+Tools mechanics vary. In general, CBSE 
+tools assist in one or more of the following capabilities: 
+speciﬁ cation and modeling of the software architecture, 
+browsing and selection of available software 
+components; integration of components.   
+ 
+ 
+Representative Tools  17 
+ 
+  
+ 
+ 
+Component Source 
+ (  
+www.componentsource.com
+ 
+ 
+) provides a wide array of COTS software components 
+(and tools) supported within many different 
+
+component standards.   
+Component Manager,
+ 
+ developed by Flashline (  
+http://www.softlookup.com/download.
+asp?id=8204 
+ 
+), “is an application that enables, promotes, and measures software component reuse.”   
+Select Component Factory, 
+ developed by Select Business Solutions (  
+www.selectbs.com
+ 
+ 
+), “is an integrated set of products for software design, design review, 
+
+service/component management, requirements 
+
+management and code generation.”   
+Software Through Pictures-ACD,  distributed by Aonix 
+(  
+www.aonix.com
+ 
+ 
+), enables comprehensive model-ing using UML for the OMG model-driven architecture—
+an open, vendor-neutral approach for CBSE. 
+ 
+  
+SOFTWARE
+ TOOLS  
+ 
+17  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 14.8 S
+UMMARY  
+The component-level design process encompasses a sequence of activities that slowly reduces the level of abstraction with which software is represented. Com-
+ponent-level design ultimately depicts the software at a level of abstraction that 
+is close to code.  Three different views of component-level design may be taken, depend-ing on the nature of the software to be developed. The object-oriented view pre22126_ch14_285-316.indd   313pre22126_ch14_285-316.indd   31313/12/13   6:12 PM13/12/13   6:12 PM

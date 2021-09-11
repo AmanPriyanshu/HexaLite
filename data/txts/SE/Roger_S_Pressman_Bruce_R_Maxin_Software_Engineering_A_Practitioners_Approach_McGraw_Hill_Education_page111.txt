@@ -1,0 +1,95 @@
+CHAPTER 5  
+AGILE DEVELOPMENT 81required, the degree of formalism suggested, the sheer size of the models for large projects, and the difﬁ culty in maintaining the model(s) as changes occur. 
+Is there an agile approach to software engineering modeling that might provide 
+some relief?   
+At “The Ofﬁ cial Agile Modeling Site,” Scott Ambler [Amb02a] describes 
+ agile 
+modeling 
+ (AM) in the following manner: 
+ 
+Agile Modeling (AM) is a practice-based methodology for effective modeling and doc-umentation of software-based systems. Simply put, Agile Modeling (AM) is a collec-
+tion of values, principles, and practices for modeling software that can be applied 
+on a software development project in an effective and light-weight manner. Agile 
+
+models are more effective than traditional models because they are just barely good, 
+they don’t have to be perfect.  
+  
+Agile modeling adopts all of the values that are consistent with the agile man-ifesto. The agile modeling philosophy recognizes that an agile team must have 
+the courage to make decisions that may cause it to reject a design and refactor. 
+
+The team must also have the humility to recognize that technologists do not have 
+all the answers and that business experts and other stakeholders should be re-
+spected and embraced.  Although AM suggests a wide array of “core” and “supplementary” modeling principles, those that make AM unique are [Amb02a]:   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Model with a purpose.  
+ A developer who uses AM should have a speciﬁ c goal 
+(e.g., to communicate information to the customer or to help better understand 
+some aspect of the software) in mind before creating the model. Once the goal 
+for the model is identiﬁ ed, the type of notation to be used and level of detail 
+ required will be more obvious.    
+ 
+ 
+ 
+ 
+ 
+Use multiple models.  
+There are many different models and notations that can be used to describe software. Only a small subset is essential for most proj-
+ects. AM suggests that to provide needed insight, each model should present a 
+different aspect of the system and only those models that provide value to their 
+intended audience should be used.    
+ 
+ 
+ 
+ 
+ 
+Travel light.
+ 
+ 
+  
+As software engineering work proceeds, keep only those models that will provide long-term value and jettison the rest. Every work product that 
+is kept must be maintained as changes occur. This represents work that slows 
+
+the team down. Ambler [Amb02a] notes that “Every time you decide to keep a 
+model you trade off agility for the convenience of having that information avail-
+able to your team in an abstract manner (hence potentially enhancing commu-
+nication within your team as well as with project stakeholders).”    
+ 
+ 
+ 
+ 
+ 
+Content is more important than representation.  
+Modeling should impart in-formation to its intended audience. A syntactically perfect model that imparts 
+little useful content is not as valuable as a model with ﬂ awed notation that 
+ nevertheless provides valuable content for its audience.     “Traveling light” is an 
+appropriate philosophy 
+for all software engi-
+neering work. Build 
+only those models that 
+
+more, no less.   uote:  “I was in the 
+drugstore the other 
+day trying to get a 
+
+
+Not easy. There’s 
+
+an entire wall of 
+products you need. 
+You stand there 
+
+going, Well, this 
+
+one is quick acting 
+but this is long 
+lasting ... Which is 
+more important, 
+the present or the 
+future?”  Jerry Seinfeld 
+pre22126_ch05_066-086.indd   81pre22126_ch05_066-086.indd   8113/12/13   6:10 PM13/12/13   6:10 PM

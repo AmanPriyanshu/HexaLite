@@ -1,0 +1,51 @@
+˜˜˚˛˜˜˜˜˜˜˜˜˜
+of the component. In a UML component diagram, the ﬁprovidesﬂ interface for a 
+component is indicated by a circle at the end of a line from the component icon.2. The ﬁrequiresﬂ interface specifies the services that other components in the system 
+
+must provide if a component is to operate correctly. If these services are not availa
+-
+ble, then the component will not work. This does not compromise the independence 
+
+or deployability of a component because the ﬁrequiresﬂ interface does not define 
+
+how these services should be provided. In the UML, the symbol for a ﬁrequiresﬂ 
+
+interface is a semicircle at the end of a line from the component icon. Notice that 
+
+ﬁprovidesﬂ and ﬁrequiresﬂ interface icons can fit together like a ball and socket.To illustrate these interfaces, Figure 16.3 shows a model of a component that has been designed to collect and collate information from an array of sensors. It runs 
+
+autonomously to collect data over a period of time and, on request, provides collated 
+data to a calling component. The ﬁprovidesﬂ interface includes methods to add, 
+
+remove, start, stop, and test sensors. The report method returns the sensor data that 
+has been collected, and the listAll method provides information about the attached 
+sensors. Although I have not shown them here, these methods have associated 
+
+parameters specifying the sensor identifiers, locations, and so on.The ﬁrequiresﬂ interface is used to connect the component to the sensors. It 
+assumes that sensors have a data interface, accessed through sensorData, and a man-agement interface, accessed through 
+sensorManagement. This interface has been 
+designed to connect to different types of sensors so that it does not include specific 
+sensor operations such as 
+Test and 
+provideReading. Instead, the commands used by a 
+specific type of sensor are embedded in a string, which is a parameter to the opera
+-
+tions in the ﬁrequiresﬂ interface. Adaptor components parse this parameter string and 
+translate the embedded commands into the specific control interface of each type of 
+sensor. I discuss the use of adaptors later in this chapter, where I show how the data 
+collector component may be connected to a sensor (Figure 16.12).Provides interface
+Requires interface
+ComponentDefines the services
+that are needed and
+should be provided
+by other component
+sDefines the services
+that are provided
+by the componentto other componentsFigure 16.
+2  Component 
+interfaces 
+Provides interface
+Requires interface
+Data collectoraddSensorremoveSensorstartSensor
+stopSensortestSensorlistAllreport
+initializesensorManagementsensorDataFigure 16.3 A model of˜a data collector component 

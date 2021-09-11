@@ -1,0 +1,32 @@
+˜˜˚˛˜˜˜˜˜˜˜
+the compiler and other software tools that are to be used in the build. Ideally, you 
+should be able to build a complete system with a single command or mouse click.Tools for system integration and building include some or all of the following features:1. Build script generation 
+The build system should analyze the program that is 
+
+being built, identify dependent components, and automatically generate a build 
+script (configuration file). The system should also support the manual creation 
+and editing of build scripts.2. Version control system integration The build system should check out the 
+
+required versions of components from the version control system.3. Minimal recompilation The build system should work out what source code 
+
+needs to be recompiled and set up compilations if required.4. Executable system creation 
+The build system should link the compiled object 
+
+code files with each other and with other required files, such as libraries and 
+
+configuration files, to create an executable system.5. Test automation Some build systems can automatically run automated tests 
+
+using test automation tools such as JUnit. These check that the build has not 
+
+been ﬁbrokenﬂ by changes.6. Reporting The build system should provide reports about the success or failure of the build and the tests that have been run.7. Documentation generation The build system may be able to generate release 
+
+notes about the build and system help pages.The build script is a definition of the system to be built. It includes information about 
+components and their dependencies, and the versions of tools used to compile and link 
+
+the system. The configuration language used to define the build script includes constructs 
+
+to describe the system components to be included in the build and their dependencies.Building is a complex process, which is potentially error-prone, as three different system platforms may be involved (Figure 25.11): 1. The development system
+, which includes development tools such as compilers and 
+source code editors. Developers check out code from the version control system into 
+Automatedbuild systemSourcecode filesData filesLibrariesConfigurationfilesExecutabletestsExecutabletarget systemTest results
+Compilersand toolsFigure 25.10 System building

@@ -1,0 +1,38 @@
+˜˜˚˛˙˜˜˜
+˜˜
+case. When  software or hardware changes are made to a system, a large part of the safety case may have to be rewritten to demonstrate that the system safety has not been affected by the change.ˇˇThe decision on whether or not a system is operationally safe should be based on 
+
+logical arguments. These arguments should demonstrate that the evidence presented 
+
+supports the claims about a system™s security and dependability. These claims may 
+be absolute (event X will or will not happen) or probabilistic (the probability of 
+
+occurrence of event Y is 0.n). An argument links the evidence and the claim. As 
+
+shown in Figure 12.11, an argument is a relationship between what is thought to be 
+the case (the claim) and a body of evidence that has been collected. The argument 
+essentially explains why the claim, which is an assertion about system security or 
+dependability, can be inferred from the available evidence.Arguments in a safety case are usually presented as ﬁclaim basedﬂ arguments. 
+Some claim about system safety is made, and, on the basis of available evidence, 
+
+an argument is presented as to why that claim holds. For example, the following 
+
+argument might be used to justify a claim that computations carried out by the con
+-
+trol software in an insulin pump will not lead to an overdose of insulin being deliv-
+ered. Of course, this is a very simplified presentation of the argument. In a real 
+
+safety case, more detailed references to the evidence would be presented.Claim: The maximum single dose computed by the insulin pump will not 
+exceed maxDose, where maxDose has been assessed as a safe single dose for a 
+particular patient.Evidence: Safety argument for insulin pump software control program (covered 
+later in this section).
+Evidence: Test datasets for the insulin pump. In 400 tests, which provided com-plete code coverage, the value of the dose of insulin to be delivered, 
+currentDose, never exceeded maxDose.EVIDENCE
+EVIDENCE
+EVIDENCE
+<< ARGUMENT >>
+CLAIM
+Supports
+Supports
+Supports
+JustifiesFigure 12.11 Structured arguments 

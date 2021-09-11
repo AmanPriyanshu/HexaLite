@@ -1,0 +1,39 @@
+ Section 12.2  Symmetric Encryption Algorithms 
+785  Because these are networked communications, Zelda can see them in ciphertext 
+form. Although she cannot interpret the content, she can look for similarities. Let us 
+
+assume she knows where to look for the different fields. She will see two messages 
+
+with the same encrypted destination account numbers and infer that those are probably 
+the two transfers to her account. With that knowledge, she can create new messages, as 
+
+shown in Figure 12-5, to transfer money from Annie and Carole to her account.
+FIGURE 12-5 Fabricated Transfer Messages
+1 AugAnnieZelda0001100.00
+apqrwxw2z%prcd4wx7wenh553dhop3
+1 AugCaroleZelda0002500.00
+apqrwxdf7ynmcd4wx7ztpztpkslw4l
+Without ever accessing the underlying plaintext, Zelda has fabricated two encrypted 
+messages that might pass. (She still has a little more work to do to cover for her reuse of 
+
+a previous transaction number.) The problem described here occurs because each plain-
+
+text block is encrypted independently from all other blocks, so an attacker can reorder 
+
+and substitute blocks undetected.The solution to this problem is called 
+chaining. If the encryption of each block 
+depends not only on the direct ciphertext of its distinct content but also on previous 
+
+content, the order and position of each block in the chain is fixed. That change would 
+
+prevent Zelda from reusing blocks from previous encryptions.
+FIGURE 12-4 Transfer Messages
+Date64 bitsFrom acctTo acctTrf NumAmount
+1 AugAnnieBrian0001100.00
+apqrwxciphertextw2z%prgrd#d#wenh553dhop3
+1 AugCaroleDrew0002500.00
+apqrwxdf7ynmgyl61523opdwkslw4l
+1 AugEvinZelda00030.01
+apqrwxbze4n4cd4wx7wenh55otm4m5
+1 AugFengZelda00040.01
+apqrwxbr5huncd4wx7ztpztpotm4m5

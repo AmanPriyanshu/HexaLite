@@ -1,0 +1,82 @@
+422 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+19.3.2   
+The Cost of Quality  
+The argument goes something like this— we know that quality is important, but it costs us time and money—too much time and money to get the level of software 
+
+quality we really want.
+ 
+ On its face, this argument seems reasonable (see Meyer’s 
+comments earlier in this section). There is no question that quality has a cost, but 
+lack of quality also has a cost—not only to end users who must live with buggy 
+software, but also to the software organization that has built and must maintain 
+it. The real question is this:  which cost should we be worried about? 
+ To answer 
+this question, you must understand both the cost of achieving quality and the cost 
+of low-quality software.  The  cost of quality 
+ includes all costs incurred in the pursuit of quality or 
+in performing quality-related activities and the downstream costs of lack of 
+
+quality. To understand these costs, an organization should collect metrics to 
+
+provide a baseline for the current cost of quality, identify opportunities for 
+
+reducing these costs, and provide a normalized basis of comparison. The cost 
+
+of quality can be divided into costs associated with prevention, appraisal, and 
+
+failure. 
+  
+ 
+ 
+Prevention costs
+ 
+ include (1) the cost of management activities required to 
+plan and coordinate all quality control and quality assurance activities, (2) the 
+cost of added technical activities to develop complete requirements and design 
+ models, (3) test planning costs, and (4) the cost of all training associated with these activities.   
+Appraisal costs 
+ include activities to gain insight into product condition the 
+“ﬁ rst time through” each process. Examples of appraisal costs include: (1) the 
+cost of conducting technical reviews (Chapter 20) for software engineering work 
+products, (2) the cost of data collection and metrics evaluation (Chapter 30), and 
+(3) the cost of testing and debugging (Chapters 22 through 26).    
+Failure costs
+ 
+ are those that would disappear if no errors appeared before 
+shipping a product to customers. Failure costs may be subdivided into internal 
+failure costs and external failure costs.  Internal failure costs
+ 
+ are incurred when 
+you detect an error in a product prior to shipment. Internal failure costs include: 
+(1) the cost required to perform rework (repair) to correct an error, (2) the cost 
+
+that occurs when rework inadvertently generates side effects that must be miti-
+gated, and (3) the costs associated with the collection of quality metrics that allow 
+an organization to assess the modes of failure.  External failure costs
+ 
+ are asso-
+ciated with defects found after the product has been shipped to the customer. 
+
+Examples of external failure costs are complaint resolution, product return and 
+replacement, help line support, and labor costs associated with warranty work. 
+A poor reputation and the resulting loss of business is another external failure 
+cost that is difﬁ cult to quantify but nonetheless very real. Bad things happen 
+when low-quality software is produced.    Don’t be afraid to incur 
+signiﬁ cant prevention 
+
+costs. Rest assured 
+that your investment 
+will provide an 
+ excellent return. 
+  
+ 
+ uote:  “It takes less time 
+to do a thing right 
+than to explain 
+why you did it 
+wrong.”  H. W. 
+Longfellow pre22126_ch19_411-430.indd   422pre22126_ch19_411-430.indd   42213/12/13   6:13 PM13/12/13   6:13 PM

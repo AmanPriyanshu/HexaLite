@@ -1,0 +1,31 @@
+APPENDIX 1  
+AN INTRODUCTION TO UML 879in highlighting all ﬁ gures inside a given rectangle. The  
+MouseListener  is sent the  rectDragged  message. The  MouseListener  then tells the drawing to highlight all ﬁ gures in the rectangle by called the method  
+highlightFigures() , passing the rectangle as the argument. The method loops through all  Figure  objects in the  Drawing  object and, if the  Figure  intersects the rectangle, the  Figure  is asked to highlight itself. The phrases in square brackets are called  guards , which are Boolean conditions that must be true if the action inside the interaction frame is 
+to continue.  
+ There are many other special features that can be included in a sequence diagram. For example:  
+  
+ 1. You can distinguish between synchronous and asynchronous messages. 
+Synchronous messages are shown with solid arrowheads while asynchro-
+nous messages are shown with stick arrowheads.  
+  
+ 2. You can show an object sending itself a message with an arrow going out 
+from the object, turning downward, and then pointing back to the same 
+object.  
+  
+ 3. You can show object creation by drawing an arrow appropriately labeled 
+(for example, with a «create» label) to an object’s box. In this case, the box 
+will appear lower in the diagram than the boxes corresponding to objects 
+already in existence when the action begins.  
+  
+ 4. You can show object destruction by a big X at the end of the object’s life-
+line. Other objects can destroy an object, in which case an arrow points 
+from the other object to the X. An X is also useful for indicating that an 
+object is no longer usable and so is ready for garbage collection.   
+ The last three features are all shown in the sequence diagram in   Figure A1.9. 
+ F
+IGURE A1.8A sequence 
+diagram with 
+two interaction 
+frames   
+:MouseListener:Figure:Drawing.highlightFiguresIn(rect).rectDragged(rect).highlight(g)[ figure intersectsrect ][ for all Figures in the Drawing ]optloop (  )

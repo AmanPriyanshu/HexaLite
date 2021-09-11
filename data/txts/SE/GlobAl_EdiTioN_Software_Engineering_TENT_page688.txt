@@ -1,0 +1,38 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜3. A reuse model This model is used to compute the effort required to integrate 
+reusable components and/or automatically generated program code. It is nor-
+mally used in conjunction with the post-architecture model.4. A post-architecture model Once the system architecture has been designed, a 
+
+more accurate estimate of the software size can be made. Again, this model uses 
+
+the standard formula for cost estimation discussed above. However, it includes 
+
+a more extensive set of 17 multipliers reflecting personnel capability, product, 
+and project characteristics.Of course, in large systems, different parts of the system may be developed using different technologies, and you may not have to estimate all parts of the system to 
+the same level of accuracy. In such cases, you can use the appropriate submodel for 
+each part of the system and combine the results to create a composite estimate.The COCOMO II model is a very complex model and, to make it easier to explain, 
+I have simplified its presentation. You could use the models as I have explained them 
+
+here for simple cost estimation. However, to use COCOMO properly, you should refer 
+
+to Boehm™s book and the manual for the COCOMO II model (B. W. Boehm et al. 
+
+2000; Abts et al. 2000).˘˘The application composition model was introduced into COCOMO II to support 
+
+the estimation of effort required for prototyping projects and for projects where 
+
+the software is developed by composing existing components. It is based on an 
+
+estimate of weighted application points (sometimes called object points), divided 
+
+by a standard estimate of application point productivity (B. W. Boehm et al. 
+
+2000). The number of application points in a program is derived from four sim-pler estimates:˜ the number of separate screens or web pages that are displayed;˜ the number of reports that are produced;˜ the number of modules in imperative programming languages (such as Java); and˜ the number of lines of scripting language or database programming code.This estimate is then adjusted according to the difficulty of developing each 
+application point. Productivity depends on the developer™s experience and capability as well as the capabilities of the software tools (ICASE) used to support develop
+-
+ment. Figure 
+23.11 shows the levels of application-point productivity suggested by 
+
+the COCOMO model developers.Application composition usually relies on reusing existing software and configur-ing application systems. Some of the application points in the system will therefore 
+be implemented using reusable components. Consequently, you have to adjust the 

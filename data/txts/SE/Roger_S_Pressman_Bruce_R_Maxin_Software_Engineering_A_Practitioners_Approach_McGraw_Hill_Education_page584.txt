@@ -1,0 +1,96 @@
+554 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+ 
+25.4.5   
+Compatibility Tests 
+ 
+Different computers, display devices, operating systems, browsers, and net-work connection speeds can have a signiﬁ cant inﬂ
+ uence on WebApp operation. 
+Each computing conﬁ guration can result in differences in client-side processing 
+speeds, display resolution, and connection speeds. Operating system vagaries 
+may cause WebApp processing issues. Different browsers sometimes produce 
+
+slightly different results, regardless of the degree of HTML standardization 
+within the WebApp. Required plug-ins may or may not be readily available for a 
+
+particular conﬁ guration.  
+Compatibility testing 
+ strives to uncover these problems 
+before the WebApp goes online. 
+ The ﬁ rst step in compatibility testing is to deﬁ
+ ne a set of “commonly encoun-
+tered” client-side computing conﬁ gurations and their variants. In essence, a 
+tree structure is created, identifying each computing platform, typical display 
+devices, the operating systems supported on the platform, the browsers avail-
+able, likely Internet connection speeds, and similar information. Next, a series of 
+compatibility validation tests are derived, often adapted from existing interface 
+tests, navigation tests, performance tests, and security tests. The intent of these 
+tests is to uncover errors or execution problems that can be traced to conﬁ gura-
+tion differences.   
+ 
+Web User Interface Testing Tools 
+  
+ Objective: 
+ The objective of Web user 
+interface testing tools is to determine usability 
+or accessibility problems present in a Web page or 
+
+website.   Mechanics: 
+ Two types of tools are listed here. Some 
+tools prompt you to enter the URL of a Web page and 
+
+print a list of suggestions on how to correct any failures 
+to conform to a set of heuristics. Some tools capture 
+
+the user actions and prompt users for feedback while 
+working on the pages of a website.   
+Representative Tools:  
+ 10 
+ 
+ 
+   
+ 
+http://www.usabilla.com/ 
+ 
+— Usabilla 
+ is an online tool that allows developers to track user actions and 
+gather opinions during active use of a Web page. 
+  
+ 
+http://www.google.com/analytics/ 
+ 
+— Google Analytics 
+ is an online tool that provides a comprehensive set of website data tracking and 
+analysis tools that can be used to assess site usability. 
+  
+ 
+http://valet.webthing.com/access/url.html  
+— Web Valet
+ 
+ provides an online service for checking 
+Web pages for accessibility issues. 
+  
+ 
+http://wave.webaim.org/ 
+ 
+— Wave
+ 
+ provides an online service that marks up Web pages to show 
+
+accessibility issues.   
+ 
+http://www.sidar.org/hera/index.php.en 
+ 
+— Hera 
+ provides an online service that uses the Web 
+Content Accessibility Guidelines to check Web pages 
+
+for accessibility issues.   
+INFO  
+ 
+10  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+pre22126_ch25_540-566.indd   554pre22126_ch25_540-566.indd   55413/12/13   6:15 PM13/12/13   6:15 PM

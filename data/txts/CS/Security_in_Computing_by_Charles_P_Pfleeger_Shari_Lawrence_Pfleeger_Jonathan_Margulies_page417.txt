@@ -1,0 +1,58 @@
+ Section 6.3  Wireless Network Security 
+383  But is it legal to connect with any wireless signal detected? In separate cases, Ben-
+jamin Smith III in Florida in July 2005 and Dennis Kauchak in Illinois in March 2006 
+were convicted of remotely accessing a computer wirelessly without the owner’s per-
+
+mission. Kauchak was sentenced to a $250 fine. So, even though you are able to con-
+
+nect, it may not be legal to do so.
+With these three areas of possible security failing, we next look at specific wireless 
+attacks and countermeasures.Unauthorized WiFi AccessAn unauthorized device can attempt to establish an association with an access point. 
+Remember from the WiFi protocols that access basically involves three steps:
+1. The access point broadcasts its availability by sending a beacon,
+ an invitation 
+for devices to connect with it.
+2. A device’s NIC responds with a request to authenticate, which the access point 
+accepts.3. The device’s NIC requests establishment of an association, which the access 
+point negotiates and accepts.
+default SSID and no encryption is the equivalent of a box saying “here I am, 
+please use my wireless network.”
+While helping a friend set up his home network in the United States, a consultant had a wireless-enabled laptop. When he scanned to find his 
+
+friend’s (secured) access point, he found five others near enough to get 
+
+a good signal; three were running unsecured, and two of those three had 
+
+SSIDs obvious enough to guess easily to which neighbors they belonged.Just because a network is available does not mean it is safe. A rogue 
+access point is another means to intercept sensitive information. All you 
+
+have to do is broadcast an open access point in a coffee shop or near 
+
+a major office building, allow people to connect, and then use a network 
+
+sniffer to copy traffic surreptitiously. Most commercial sites employ encryp-
+
+tion (such as the SSL algorithm, which we describe later in this chapter) 
+
+when obtaining sensitive information, so a user’s financial or personal iden-
+
+tification should not be exposed. But many other kinds of data, such as 
+
+passwords or email messages, are open for the taking.
+The appeal of war driving has waned for several reasons. First, the 
+increase in free public WiFi hot spots in coffee shops, bookstores, hotels, 
+
+libraries, and similar places has reduced the motivation for finding WiFi sig-
+
+nals. Second, the risks of connecting to an unsecured access point are 
+
+high: Some unsecured WiFi connections are intentional magnets to lure 
+
+unsuspecting clients in order to intercept sensitive data from the wire-
+
+less connection. Finally, because many people have Internet-enabled cell 
+
+phones, they use a phone for brief access instead of a computer with WiFi. 
+Thus, the war-driving activity of locating and mapping wireless access 
+
+points has largely stopped.

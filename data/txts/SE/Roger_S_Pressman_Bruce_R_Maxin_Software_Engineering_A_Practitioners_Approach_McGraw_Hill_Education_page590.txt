@@ -1,0 +1,97 @@
+560 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+ 
+ 
+Security tests are designed to probe vulnerabilities of the client-side environ-ment, the network communications that occur as data are passed from client to 
+server and back again, and the server-side environment. Each of these domains 
+
+can be attacked, and it is the job of the security tester to uncover weaknesses 
+that can be exploited by those with the intent to do so.  On the client side, vulnerabilities can often be traced to preexisting bugs in browsers, e-mail programs, or communication software. On the server side, vul-
+nerabilities include denial-of-service attacks and malicious scripts that can be 
+passed along to the client side or used to disable server operations. In addition, 
+server-side databases can be accessed without authorization (data theft). 
+  
+ 
+ 
+ 
+ 
+To protect against these (and many other) vulnerabilities, ﬁ
+ rewalls, authen-
+tication, encryption, and authorization techniques can be used. Security tests 
+should be designed to probe each of these security technologies in an effort to 
+uncover security holes.  The actual design of security tests requires in-depth knowledge of the inner workings of each security element and a comprehensive understanding of a full 
+range of networking technologies. In many cases, security testing is outsourced 
+to ﬁ rms that specialize in these technologies. 
+   If the WebApp is busi-
+ness critical, maintains 
+sensitive data, or is a 
+likely target of hack-
+ers, it’s a good idea 
+
+to outsource security 
+testing to a vendor 
+who specializes in it.    Security tests should 
+
+be designed to exercise 
+ﬁ rewalls, authentica-
+
+tion, encryption, and 
+
+authorization.   
+17  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+  
+ 
+Web Security Testing Tools 
+  
+ Objective: 
+ The objective of Web security 
+testing tools is to help identify potential security problems present in a website.   Mechanics: 
+ These tools are typically downloaded and run in the development environment. They check web 
+application for scripts that can inject harmful data that 
+
+can alter the website functionality. Some tools allow you 
+
+to schedule their use as probing or monitoring tools.   Representative Tools:  
+ 17 
+ 
+  
+ 
+ 
+http://www.mavitunasecurity.com/
+communityedition/  
+—Download site for a tool ( Netsparker 
+) that checks WebApps for SQL injection 
+vulnerabilities.   
+ 
+http://enyojs.com/  
+—Download site for the free  N-Stalker 
+ tool that performs a number of security 
+checks on websites using the  N-Stealth 
+ web attack signature database.   
+ 
+http://code.google.com/p/skipﬁ sh/  
+—Download site for skipﬁ sh which prepares a report on security 
+vulnerabilities found by crawling the pages in a 
+website.   
+INFO  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 25.9  
+PERFORMANCE TESTING  
+ 
+Nothing is more frustrating than a WebApp that takes minutes to load content 
+when competitive sites download similar content in seconds. Nothing is more 
+
+aggravating than trying to log on to a WebApp and receiving a “server-busy” 
+pre22126_ch25_540-566.indd   560pre22126_ch25_540-566.indd   56013/12/13   6:15 PM13/12/13   6:15 PM

@@ -1,0 +1,63 @@
+ Section 8.5  Securing IaaS 
+581  will be unreadable anyway. The other option is to use a deletion tool that “wipes” your 
+data, overwriting it a number of times so it cannot be recovered. This second option is 
+
+more difficult to enforce than the first, however, and does not provide confidentiality for 
+
+data that has not yet been deleted, so encryption should be your preferred route.The other threat that you can address is the shared network. IaaS providers use logi-
+cal access controls to make sure that users cannot sniff one another’s network traffic 
+
+within the IaaS environment. Nonetheless, if you can afford the performance hit of 
+
+encrypting all your potentially sensitive IaaS network traffic—including traffic that only 
+
+travels among VMs within the same IaaS environment—TLS, SSH, or a VPN will pro-
+
+vide a strong second layer of protection.Host AccessYour IaaS provider will likely allow you to control hosts via a web-based console inter-
+face or an API in addition to any network services that the host itself may be running 
+
+(for example, SSH or Remote Desktop Protocol). The difference between the console 
+
+and API that the IaaS offers versus the services running on your VM hosts is that you 
+
+cannot put network protections in front of the console or the API. The best thing you 
+
+can do to protect these interfaces is use strong authentication. Authentication options 
+
+will vary by provider, but consider the following if available:
+• Require multifactor authentication for the console interface.
+• Do not share accounts, and do not give any account more privileges than 
+necessary.
+• Use OAuth rather than passwords to give applications access to API interfaces, 
+and limit those applications’ privileges as much as possible.
+• Use FIdM wherever possible so you manage only one set of user accounts.
+Virtual Infrastructure
+If you install an OS directly on a powerful server and then use that OS only to handle 
+small, occasional requests, most of the capabilities of the server will be wasted. But if 
+
+you install a hypervisor on that server and VMs on top of that, then it does not matter if 
+
+the VMs are not fully utilizing the hardware capabilities: It just means you can run more 
+
+VMs. Virtual infrastructure obviates guilt feelings about running VMs that serve highly 
+
+specialized purposes. In fact, in an IaaS environment, having every VM be as special-
+
+ized as possible is an excellent, if expensive, security practice. For example, if you plan 
+
+to run an FTP server in your IaaS environment, build a VM image just for serving FTP. 
+
+Shut off every service that isn’t required for running FTP or securing the system. Run 
+
+application whitelisting software that limits the OS to running only the executables 
+that you list, which should be the bare minimum necessary. Configure a host-based fire-
+
+wall to limit network traffic—incoming and outgoing—to whatever is absolutely nec-
+
+essary for running FTP, maintaining the OS, and maintaining security. Turn off every 
+
+unneeded privilege. This all may sound overwhelming, but an IaaS environment makes 
+
+it fairly straightforward. Creating a hardened VM can be a challenge, but once you have 
+
+created the VM for a given function, maintaining it is mostly just patch management.

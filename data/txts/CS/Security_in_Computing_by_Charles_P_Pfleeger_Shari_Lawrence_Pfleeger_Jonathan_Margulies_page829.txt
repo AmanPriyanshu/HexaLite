@@ -1,0 +1,66 @@
+ Section 12.3  Asymmetric Encryption with RSA 
+795  RC6To compete in the AES competition, RSA Laboratories made minor modifications to 
+RC5, calling it RC6. The RC6 cipher is a proprietary product of RSA Security, but it 
+
+does not appear to be supported.There are thousands of other symmetric encryption algorithms. As we stated earlier 
+in this chapter, cryptology is an extraordinarily complex subject, certainly not one to 
+
+be tackled lightly. Although a friend of a friend might have the background to devise a 
+
+solid algorithm, be wary of amateurs practicing cryptology (or brain surgery, for that 
+
+matter). You should choose cryptography with care, and certainly match your assess-
+
+ment of the strength of a technique to the value of the data you want to protect. Well-
+
+known algorithms that have withstood concerted scrutiny are your best tools.
+We now turn to even more sophisticated algorithms in asymmetric cryptography.
+12.3 ASYMMETRIC ENCRYPTION WITH RSA
+As we present in Chapter 2, asymmetric cryptography, also known as public key, uses 
+
+two different but related keys. One key encrypts data, and its matching counterpart 
+
+decrypts. Mathematically, it is infeasible to derive one key from the other, so it is safe 
+
+to release one key (often called the public key) as long as you do not disclose the other 
+
+one (often called the private key).
+The RSA algorithm is a cryptosystem based on an underlying hard problem This 
+algorithm was introduced in 1978 by Rivest, Shamir, and Adelman [RIV78]. RSA has 
+
+been the subject of extensive cryptanalysis. No serious flaws have yet been found—not 
+
+a guarantee of its security but suggesting a high degree of confidence in its use.
+The RSA AlgorithmIn this section, we present the RSA algorithm in two parts. First, we outline RSA, to 
+
+give you an idea of how it works. Then, we delve more deeply into a detailed analysis 
+
+of the steps involved.
+Introduction to the RSA Algorithm
+The RSA algorithm requires finding terms that multiply to a particular product. The 
+RSA encryption algorithm incorporates results from number theory, combined with the 
+
+difficulty of determining the prime factors of a target. The RSA algorithm operates with 
+
+arithmetic mod n, which makes factorization extremely difficult.
+The encryption algorithm is based on the underlying problem of factoring large num-
+bers, a problem for which the fastest known algorithm is exponential in time.
+Two keys, 
+d and 
+e, are used for decryption and encryption. They are actually inter-
+changeable. The plaintext block 
+P is encrypted as 
+Pe mod 
+n. Because the exponentia-
+tion is performed mod n, factoring 
+Pe to uncover the encrypted plaintext is daunting. 
+However, the decrypting key 
+d is carefully chosen so that (
+Pe)d mod 
+n  P. Thus, the 
+legitimate receiver who knows 
+d simply computes (
+Pe)d mod 
+n  P and recovers 
+P without having to factor 
+Pe.

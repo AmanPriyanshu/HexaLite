@@ -1,0 +1,41 @@
+ Section 12.2  Symmetric Encryption Algorithms 
+791  after the launch of DES, the power of individual specialized processors and of massive 
+parallel searches finally overtook the fixed DES key size.
+We must ask the same questions about AES: Does it have flaws, and for how long 
+will it remain sound? We cannot address the question of flaws yet, other than to say that 
+
+teams of cryptanalysts pored over the design of Rijndael during the two-year review 
+
+period without finding any problems. Furthermore, since AES was adopted in 2001, 
+
+the only serious challenges to its security have been highly specialized and theoretical.
+The longevity question is more difficult, but also more optimistic, to answer for AES 
+than for DES. Remember that extending the key by one bit doubles the effort of a brute 
+
+force attack. The AES algorithm as defined can use 128-, 192-, or 256-bit keys. Thus, 
+
+relative to a 56-bit DES key, a 128-bit AES key results in 72 doublings, which means 
+
+the work is 2
+72 (approximately 4
+*1021) times as hard. Key lengths of 192 and 256 bits 
+extend this already prodigious effort even more. But because there is an evident under-
+
+lying structure to AES, it is even possible to use the same general approach on a slightly 
+
+different underlying problem and accommodate keys of even larger size. Thus, unlike 
+
+DES, AES lets users move to longer keys any time technology threatens to allow an 
+
+analyst to overtake the current key size, and so Diffie and Hellman’s conjecture of 1977 
+
+is unlikely to apply to AES at any time in the foreseeable future. Furthermore, this 
+
+extended key length builds in a margin of safety if clever attacks divide the effort in a 
+
+brute force attack.SSSSkkkk 1.  Byte Sub2.  
+Shift Row3. 
+ Mix Columns4.  Add 
+Round Key 
+inputoutputnext cycle
+FIGURE 12-8 Structure of AES

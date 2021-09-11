@@ -1,0 +1,30 @@
+60 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+the data points particular to a specific user. In the second phase the user later seeks 
+authentication from the system, during which time the system remeasures the hand and 
+compares the new measurements with the stored template. If the new measurement 
+
+is close enough to the template, the system accepts the authentication; otherwise, the 
+system rejects it. Sidebar 2-9 points out the problem in confusing identification and 
+
+authentication.SIDEBAR 2-8 Fingerprint Capture—Not So Fast!
+Recording or capturing fingerprints should be a straightforward process. 
+Some countries use fingerprints to track foreign visitors who enter the 
+
+country, and so they want to know the impact on processing visitors at the 
+
+border. On television and in the movies it seems as if obtaining a good fin-
+
+gerprint image takes only a second or two.Researchers at the U.S. National Institute of Standards and Technol-
+ogy (NIST) performed a controlled experiment involving over 300 subjects 
+
+generally representative of the U.S. population [THE07]. They found that 
+
+contrary to television, obtaining a quality sample of all ten fingers takes 
+
+between 45 seconds and a minute.FIGURE 2-5 Identification and Authentication (courtesy of Lfoxy/Shutterstock [left]; Schotter 
+Studio/Shutterstock [right])IdentificationAuthentication
+Right, sir. I'll
+just have to
+check yourfingerprints. 
+I am AloysiusBiltmore Snowman.

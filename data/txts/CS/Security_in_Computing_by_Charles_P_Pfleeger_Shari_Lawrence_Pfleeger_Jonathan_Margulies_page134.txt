@@ -1,0 +1,57 @@
+100 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+However, we cannot rest on our laurels. No one can predict now what limitations 
+cryptanalysts might identify in the future. Fortunately, talented cryptologists continue 
+
+to investigate even stronger algorithms that will be able to replace AES when it becomes 
+
+obsolete. At present, AES seems to be a significant improvement over DES, and it can 
+
+be improved in a natural way if necessary. DES is still in widespread use, but AES is 
+
+also widely adopted, particularly for new applications.
+Public Key CryptographySo far, we have looked at encryption algorithms from the point of view of making the 
+
+scrambling easy for the sender (so that encryption is fast and simple) and the decryption 
+
+easy for the receiver but not for an intruder. But this functional view of transforming 
+
+plaintext to ciphertext is only part of the picture. We must also figure out how to dis-
+
+tribute encryption keys. We have noted how useful keys can be in deterring an intruder, 
+
+but the key must remain secret for it to be effective. The encryption algorithms we have 
+
+presented so far are called 
+symmetric or 
+secret-key
+ algorithms. The two most widely 
+used symmetric algorithms, DES and AES, operate similarly: Two users have copies 
+
+of the same key. One user uses the algorithm to encrypt some plaintext under the key, 
+
+and the other user uses an inverse of the algorithm with the same key to decrypt the 
+
+ciphertext. The crux of this issue is that all the power of the encryption depends on the 
+
+secrecy of the key.
+TABLE 2-12 
+Comparison of DES and AES
+DESAES
+Date designed19761999
+Block size64 bits128 bits
+Key length
+56 bits (effective length); up to 112 bits 
+with multiple keys
+128, 192, 256 (and possibly more) bitsOperations16 rounds10, 12, 14 (depending on key length); 
+can be increasedEncryption primitives
+Substitution, permutationSubstitution, shift, bit mixing
+Cryptographic primitives
+Confusion, diffusionConfusion, diffusion
+DesignOpenOpen
+Design rationaleClosedOpen
+Selection process
+SecretSecret, but open public comments and 
+criticisms invited
+Source
+IBM, enhanced by NSAIndependent Dutch cryptographers

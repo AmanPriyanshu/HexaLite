@@ -1,0 +1,37 @@
+More and more systems are safety-critical systems, where system failure 
+can endanger people. Chapter 12 is concerned with safety engineering 
+
+and techniques that may be used to develop these safety-critical systems. 
+
+I explain why safety is a broader notion than reliability and discuss meth-
+ods for deriving system safety requirements. I also explain why defined 
+
+and documented processes for safety-critical systems engineering are 
+
+important and describe software safety casesŠstructured documents 
+
+that are used to justify why a system is safe.
+Threats to the security of our systems are one of the major problems 
+faced by today™s societies and I devote two chapters to this topic. 
+
+Chapter 13 is concerned with application security engineeringŠ
+ methods 
+used to achieve security in individual software systems. I explain the 
+
+relationships between security and other dependability attributes and 
+
+cover security requirements engineering, secure systems design and 
+
+security testing.
+Chapter 14 is a new chapter that addresses the broader issue of resil
+-ience. A resilient system can continue to deliver its essential services 
+
+even when individual parts of the system fail or are subject to a cyberat
+-
+tack. I explain the basics of cybersecurity and discuss how resilience is 
+achieved by using redundancy and diversity and by empowering people 
+as well as through technical mechanisms. Finally, I discuss systems and 
+
+software design issues that can contribute to improving the resilience of 
+
+a system.

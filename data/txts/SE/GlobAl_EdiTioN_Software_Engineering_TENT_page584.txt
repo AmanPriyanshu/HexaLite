@@ -1,0 +1,32 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜I suggested in the introduction that the engineering problems that arise when con-structing systems of software systems are due to the inherent complexity of these 
+
+systems. In this section, I explain the basis of system complexity and discuss the 
+
+different types of complexity that arise in software SoS.All systems are composed of parts (elements) with relationships between these 
+elements of the system. For example, the parts of a program may be objects, and the 
+
+parts of each object may be constants, variables, and methods. Examples of relation-ships include ﬁcallsﬂ (method A calls method B), ﬁinherits-fromﬂ (object X inherits 
+
+the methods and attributes of object Y), and ﬁpart of   
+ﬂ (method A is part of object X).The complexity of any system depends on the number and types of relationships between system elements. Figure 
+20.1 shows examples of two systems. System (a) is 
+a relatively simple system with only a small number of relationships between its ele-
+ments. By contrast, System (b), with the same number of elements, is a more com-
+plex system because it has many more elementŒelement relationships.The type of relationship also influences the overall complexity of a system. Static relationships are relationships that are planned and analyzable from static depictions 
+of the system. Therefore, the ﬁusesﬂ relationship in a software system is a static rela-
+tionship. From either the software source code or a UML model of a system, you can 
+work out how any one software component uses other components.Dynamic relationships are relationships that exist in an executing system. The 
+ﬁcallsﬂ relationship is a dynamic relationship because, in any system with if-statements, 
+
+you cannot tell whether or not one method will call another method. It depends on 
+
+the˜runtime inputs to the system. Dynamic relationships are more complex to analyze 
+
+as you need to know the system inputs and data used as well as the source code of 
+
+the˜system.As well as system complexity, we also have to consider the complexity of the 
+processes used to develop and maintain the system once it has gone into use. Figure 20.2 
+illustrates these processes and their relationship with the developed system.System (a)
+System (b)
+Figure 20.1 Simple  and complex systems 

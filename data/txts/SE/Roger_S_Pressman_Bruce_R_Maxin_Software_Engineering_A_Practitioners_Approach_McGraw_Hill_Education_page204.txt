@@ -1,0 +1,121 @@
+174 PART TWO  
+MODELING 
+ 
+Developing Another Preliminary User Scenario  
+ 
+Developing Another Preliminary User Scenario 
+ 
+ 
+ 
+The scene:  A meeting room, during 
+the second requirements-gathering 
+meeting.   
+The players:  Jamie Lazar, software team member; Ed 
+Robbins, software team member; Doug Miller, software 
+
+engineering manager; three members of marketing; a 
+product engineering representative; and a facilitator. 
+  
+The conversation:    
+Facilitator:  It’s time that we begin talking about the 
+ SafeHome 
+ surveillance function. Let’s develop a user 
+scenario for access to the surveillance function. 
+  
+Jamie:  Who plays the role of the actor on this? 
+  
+Facilitator:  I think Meredith (a marketing person) has 
+been working on that functionality. Why don’t you play 
+
+the role?   
+Meredith:  You want to do it the same way we did it 
+last time, right?   
+Facilitator: way. 
+  
+Meredith:  Well, obviously the reason for surveillance 
+is to allow the homeowner to check out the house while 
+he or she is away, to record and play back video that is 
+
+t of thing. 
+  
+Ed:  Will we use compression to store the video? 
+  
+Facilitator:  Good question, Ed, but let’s postpone 
+ implementation issues for now. Meredith? 
+  
+Meredith:  Okay, so basically there are two parts 
+to the sur
+ rst conﬁ
+ gures the 
+system including laying out a ﬂ oor plan—we have to 
+have tools to help the homeowner do this—and the sec-
+ond part is the actual surveillance function itself. Since 
+
+the layout is part of the conﬁ
+ guration activity, I’ll focus 
+on the surveillance function. 
+  
+Facilitator (smiling):  Took the words right out of my 
+mouth.   
+Meredith:  -
+veillance function either via the PC or via the Internet. 
+
+My feeling is that the Internet access would be more 
+
+frequently used. Anyway, I want to be able to display 
+
+camera views on a PC and control pan and zoom for 
+a speciﬁ c camera. I specify the camera by selecting it 
+from the house ﬂ oor plan. I want to selectively record 
+camera output and replay camera output. I also want 
+to be able to block access to one or more cameras with 
+a speciﬁ c password. I also want the option of seeing 
+small windows that show views from all cameras and 
+then be able to pick the one I want enlarged.   
+Jamie:  Those are called thumbnail views. 
+  
+Meredith:  Okay, then I want thumbnail views of all 
+the cameras. I also want the interface for the surveil-
+
+lance function to have the same look and feel as all 
+other  SafeHome 
+ interfaces. I want it to be intuitive, 
+meaning I don’t want to have to read a manual to 
+
+  
+Facilitator:  Good job. Now, let’s go into this function 
+  
+SAFEHOME  
+ 
+The  SafeHome 
+ home surveillance function (subsystem) discussed in the side-
+bar identiﬁ es the following functions (an abbreviated list) that are performed by 
+the  homeowner 
+ actor: 
+ 
+ 
+ 
+•  Select camera to view. 
+  
+ 
+ 
+•  Request thumbnails from all cameras.   
+ 
+ 
+•  Display camera views in a PC window. 
+  
+ 
+ 
+•  Control pan and zoom for a speciﬁ c camera. 
+  
+ 
+ 
+•  Selectively record camera output.   
+ 
+ 
+•  Replay camera output.   
+ 
+ 
+•  Access camera surveillance via the Internet.  
+ 
+ pre22126_ch09_166-183.indd   174pre22126_ch09_166-183.indd   17413/12/13   6:11 PM13/12/13   6:11 PM

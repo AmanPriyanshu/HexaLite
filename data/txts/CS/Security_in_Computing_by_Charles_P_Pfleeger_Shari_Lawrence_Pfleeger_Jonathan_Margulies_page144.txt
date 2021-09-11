@@ -1,0 +1,60 @@
+110 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+Sam writes a letter, makes and keeps a photocopy, and sends the original to Theresa. 
+Along the way, Fagin intercepts the letter and makes changes; being a skilled forger, 
+
+Fagin deceives Theresa. Only when Theresa and Sam meet and compare the (modified) 
+
+original do they detect the change.
+The situation is different if Sam and Theresa suspect a forger is nigh. Sam carefully 
+counts the letters in his document, tallying 1 for an a, 2 for a b, and so on up to 26 for 
+a z. He adds those values and writes the sum in tiny digits at the bottom of the letter. 
+
+When Teresa receives the letter she does the same computation and compares her result 
+
+to the one written at the bottom. Three cases arise:
+• the counts to do not agree, in which case Theresa suspects a change
+• there is no count, in which case Theresa suspects either that Sam was lazy or 
+forgetful or that a forger overlooked their code
+• Teresa’s count is the same as written at the bottom
+The last case is the most problematic. Theresa probably concludes with relief that 
+there was no change. As you may have already determined, however, she may not be 
+
+thinking correctly. Fagin might catch on to the code and correctly compute a new sum 
+
+to match the modifications. Even worse, perhaps Fagin’s changes happen to escape 
+
+detection. Suppose Fagin removes one letter c (value
+3) and replaces it with three cop-ies of the letter a (value
+1113); the sum is the same, or if Fagin only permutes 
+letters, the sum remains the same, because it is not sensitive to order.
+These problems all arise because the code is a many-to-one function: two or more 
+inputs produce the same output. Two inputs that produce the same output are called a 
+
+collision. In fact, all message digests are many-to-one functions, and thus when they 
+report a change, one did occur, but when they report no change, it is only likely—not 
+
+certain—that none occurred because of the possibility of a collision.Collisions are usually not a problem for two reasons. First, they occur infrequently. 
+If plaintext is reduced to a 64-bit digest, we expect the likelihood of a collision to be 
+
+1 in 264, or about 1 in 1019, most unlikely, indeed. More importantly, digest functions 
+are unpredictable, so given one input, finding a second input that results in the same 
+
+output is infeasible. Thus, with good digest functions collisions are infrequent, and we 
+
+cannot cause or predict them.We can use error detecting and error correcting codes to guard against modification 
+of data. Detection and correction codes are procedures or functions applied to a block 
+of data; you may be familiar with one type of detecting code: parity. These codes work 
+
+as their names imply: Error detecting codes detect when an error has occurred, and error 
+correcting codes can actually correct errors without requiring a copy of the original 
+
+data. The error code is computed and stored safely on the presumed intact, original 
+
+data; later anyone can recompute the error code and check whether the received result 
+
+matches the expected value. If the values do not match, a change has certainly occurred; 
+
+if the values match, it is probable—but not certain—that no change has occurred.
+ParityThe simplest error detection code is a parity check. An extra bit, which we call a finger-
+print, is added to an existing group of data bits, depending on their sum. The two kinds of 

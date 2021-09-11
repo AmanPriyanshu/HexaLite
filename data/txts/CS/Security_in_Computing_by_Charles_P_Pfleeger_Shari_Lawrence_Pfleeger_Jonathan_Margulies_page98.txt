@@ -1,0 +1,70 @@
+64 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+Authentication is essential for a computing system because accurate user identifi-
+cation is the key to individual access rights. Most operating systems and computing 
+
+system administrators have applied reasonable but stringent security measures to lock 
+
+out unauthorized users before they can access system resources. But, as reported in 
+
+Sidebar 2-12, sometimes an inappropriate mechanism is forced into use as an authenti-
+
+cation device.
+Losing or forgetting a biometric authentication is virtually impossible because bio-
+metrics rely on human characteristics. But the characteristics can change over time 
+
+(think of hair color or weight); therefore, biometric authentication may be less precise 
+than knowledge-based authentication. You either know a password or you don’t. But a 
+
+fingerprint can be a 99 percent match or 95 percent or 82 percent, part of the variation 
+
+depending on factors such as how you position your finger as the print is read, whether 
+
+your finger is injured, and if your hand is cold or your skin is dry or dirty. Stress can also 
+
+affect biometric factors, such as voice recognition, potentially working against security. 
+
+Imagine a critical situation in which you need to access your computer urgently but 
+
+your being agitated affects your voice. If the system fails your authentication and offers 
+
+you the chance to try again, the added pressure may make your voice even worse, which 
+
+threatens availability.
+Biometrics can be reasonably quick and easy, and we can sometimes adjust the sen-
+sitivity and specificity to balance false positive and false negative results. But because 
+
+biometrics require a device to read, their use for remote authentication is limited. The 
+SIDEBAR 2-11 Continuedof 744 prints to determine whether the prints matched. This experiment was 
+designed to measure the accuracy (degree to which two examiners would 
+
+reach the same conclusion) and reliability (degree to which one examiner 
+
+would reach the same conclusion twice). A total of 4,083 fingerprint pairs 
+
+were examined.
+Of the pairs examined, six were incorrectly marked as matches, for a 
+false positive rate of 0.01 percent. Although humans are recognized as fal-
+
+lible, frustratingly we cannot predict when they will be so. Thus, in a real-life 
+
+setting, these false positives could represent six noncriminals falsely found 
+
+guilty. The false negative rate was significantly higher, 7.5 percent, perhaps 
+
+reflecting conservatism on the part of the examiners: The examiners were 
+
+more likely to be unconvinced of a true match than to be convinced of a 
+
+nonmatch.The issue of false positives in fingerprint matching gained prominence 
+after a widely publicized error related to the bombings in 2004 of commuter 
+
+trains in Madrid, Spain. Brandon Mayfield, a U.S. lawyer living in Oregon, 
+
+was arrested because the FBI matched his fingerprint with a print found on 
+
+a plastic bag containing detonator caps at the crime scene. In 2006 the 
+
+FBI admitted it had incorrectly classified the fingerprints as “an absolutely 
+
+incontrovertible match.”

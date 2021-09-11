@@ -1,0 +1,47 @@
+170 Chapter 3  
+Programs and Programming2014, for example, there were eight adware attacks (ads offering useless or malicious 
+programs for sale), and nine Trojan horses or Trojan horse transmitters in the top 20, 
+
+and two exploit script attacks, which we also describe in this chapter. But the top attack 
+
+type, comprising 81.73 percent of attacks, was malicious URLs, described in the next 
+
+chapter. A different measure counts the number of pieces of malicious code Kasper-
+
+sky products found on protected computers (that is, malware not blocked by Kasper-
+
+sky’s email and Internet activity screens). Among the top 20 types of malware were five 
+TABLE 3-2 
+Types of Malicious Code
+Code TypeCharacteristics
+Virus
+Code that causes malicious behavior and propagates copies of itself to other programs
+Trojan horse
+Code that contains unexpected, undocumented, additional functionality
+Worm
+Code that propagates copies of itself through a network; impact is usually degraded 
+performanceRabbit
+Code that replicates itself without limit to exhaust resources
+Logic bombCode that triggers action when a predetermined condition occursTime bomb
+Code that triggers action when a predetermined time occursDropper
+Transfer agent code only to drop other malicious code, such as virus or Trojan horse
+Hostile mobile code agentCode communicated semi-autonomously by programs transmitted through the webScript attack, JavaScript, 
+Active code attack
+Malicious code communicated in JavaScript, ActiveX, or another scripting language, 
+downloaded as part of displaying a web page
+RAT (remote access Trojan)
+Trojan horse that, once planted, gives access from remote location
+Spyware
+Program that intercepts and covertly communicates data on the user or the user’s 
+activity
+BotSemi-autonomous agent, under control of a (usually remote) controller or “herder”; not necessarily maliciousZombieCode or entire computer under control of a (usually remote) programBrowser hijacker
+Code that changes browser settings, disallows access to certain sites, or redirects 
+browser to others
+RootkitCode installed in “root” or most privileged section of operating system; hard to detect
+Trapdoor or backdoor
+Code feature that allows unauthorized access to a machine or program; bypasses 
+normal access control and authenticationTool or toolkit
+Program containing a set of tests for vulnerabilities; not dangerous itself, but each 
+successful test identifies a vulnerable host that can be attacked
+Scareware
+Not code; false warning of malicious code attack

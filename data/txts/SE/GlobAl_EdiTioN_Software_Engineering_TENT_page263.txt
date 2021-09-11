@@ -1,0 +1,40 @@
+˜˜˚˝˜˜˜
+˜˜
+require consequent changes to layers that are both above and below the changed 
+level. The reasons for this are as follows:1.
+ Changing one layer in the system may introduce new facilities, and higher 
+ layers in the system may then be changed to take advantage of these facilities. 
+For example, a new database introduced at the support software layer may 
+
+include facilities to access the data through a web browser, and business 
+ processes may be modified to take advantage of this facility.2.
+ Changing the software may slow the system down so that new hardware is 
+
+needed to improve the system performance. The increase in performance from 
+the new hardware may then mean that further software changes that were 
+ previously impractical become possible.3.
+ It is often impossible to maintain hardware interfaces, especially if new hard-ware is introduced. This is a particular problem in embedded systems where 
+
+there is a tight coupling between software and hardware. Major changes to the 
+
+application software may be required to make effective use of the new hardware.It is difficult to know exactly how much legacy code is still in use, but, as an indi-cator, industry has estimated that there are more than 200 billion lines of COBOL 
+code in current business systems. COBOL is a programming language designed for 
+writing business systems, and it was the main business development language from 
+
+the 1960s to the 1990s, particularly in the finance industry (Mitchell 2012). These 
+programs still work effectively and efficiently, and the companies using them see no 
+need to change them. A major problem that they face, however, is a shortage of 
+
+COBOL programmers as the original developers of the system retire. Universities no 
+longer teach COBOL, and younger software engineers are more interested in pro
+-gramming in modern languages.Skill shortages are only one of the problems of maintaining business legacy sys-tems. Other issues include security vulnerabilities because these systems were 
+
+developed before the widespread use of the Internet and problems in interfacing 
+
+with systems written in modern programming languages. The original software tool 
+
+supplier may be out of business or may no longer maintain the support tools used to 
+System
+hardwareBusinessprocessesApplicationsoftwareBusiness policiesand rulesSupport
+softwareApplication dataConstrainsUsesUsesRuns-onRuns-onEmbedsknowledge ofUsesFigure 9.7
+ The elements of a legacy system 

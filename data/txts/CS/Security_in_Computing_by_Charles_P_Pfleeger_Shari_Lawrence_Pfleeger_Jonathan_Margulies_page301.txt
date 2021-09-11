@@ -1,0 +1,57 @@
+ Section 4.4  Email Attacks 
+267  An input preprocessor could watch for and filter out specific inappropriate string 
+forms, such as  and 
+ in data expected to contain only letters and numbers. However, 
+to support input from different keyboard types and in different languages, some brows-
+
+ers encode special characters in a numeric format, making such input slightly more 
+
+difficult to filter.
+The second countermeasure that applies is access control on the part of backend 
+servers that might receive and execute these data attacks. For example, a database of 
+
+names and telephone numbers might support queries for a single person. To assist users 
+
+who are unsure of the spelling of some names, the application might support a wildcard 
+notation, such as AAR* to obtain names and numbers of all people whose name begins 
+
+with AAR. If the number of matching names is under a predetermined threshold, for 
+
+example 10, the system would return all matching names. But if the query produces too 
+
+many matches, the system could return an error indication.
+In general, however, blocking the malicious effect of a cross-site scripting attack is 
+a challenge.4.4 EMAIL ATTACKS
+So far we have studied attacks that involve the browser, either modifying the browser’s 
+
+action or changing the web site the browser presents to the user. Another way to attack 
+
+a user is through email.Fake EmailGiven the huge amount of email sent and received daily, it is not surprising that much of 
+
+it is not legitimate. Some frauds are easy to spot, as our first example shows, but some 
+
+illegitimate email can fool professionals, as in our second example.
+A recent email message advised me that my Facebook account had been deacti-
+vated, shown in Figure 4-15. The only problem is, I have no Facebook account. In the 
+
+figure I have shown where some of the links and buttons actually lead, instead of the 
+
+addresses shown; the underlying addresses certainly do not look like places Facebook 
+
+would host code.
+This forgery was relatively well done: the images were clear and the language 
+was correct; sometimes forgeries of this sort have serious spelling and syntax errors, 
+
+although the quality of unauthentic emails has improved significantly. Attackers using 
+
+fake email know most people will spot the forgery. On the other hand, it costs next to 
+
+nothing to send 100,000 messages, and even if the response rate is only 0.1%, that is 
+
+still 100 potential victims.Fake Email Messages as SpamSimilarly, an attacker can attempt to fool people with fake email messages. Probably 
+
+everyone is familiar with 
+spam, fictitious or misleading email, offers to buy designer 
+watches, anatomical enhancers, or hot stocks, as well as get-rich schemes involving 
+
+money in overseas bank accounts. Similar false messages try to get people to click to 

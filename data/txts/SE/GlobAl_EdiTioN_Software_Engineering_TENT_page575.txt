@@ -1,0 +1,43 @@
+˜˜˚˛ˇ˜˜˜
+˜˜˜˜
+time required to build the system. Provision also has to be made to bring in peo-ple to deal with unanticipated failures.2.
+ People are adaptable and can cope with problems and unexpected situations. 
+
+Thus, you do not have to anticipate everything that could possibly go wrong 
+
+when you are specifying and designing the system.People have a unique capability of being able to respond effectively to the unex-pected, even when they have never had direct experience of these unexpected events or 
+
+system states. Therefore, when things go wrong, the system operators can often recover 
+
+the situation by finding workarounds and using the system in nonstandard ways. 
+
+Operators also use their local knowledge to adapt and improve processes. Normally, the 
+
+actual operational processes are different from those anticipated by the system designers.Consequently, you should design operational processes to be flexible and adapt-able. The operational processes should not be too constraining; they should not 
+
+require operations to be done in a particular order; and the system software should 
+not rely on a specific process being followed. Operators usually improve the process 
+because they know what does and does not work in a real situation.A problem that may only emerge after the system goes into operation is the oper-ation of the new system alongside existing systems. There may be physical problems 
+of incompatibility, or it may be difficult to transfer data from one system to another. 
+More subtle problems might arise because different systems have different user 
+
+interfaces. Introducing a new system may increase the operator error rate, as the 
+
+operators use user interface commands for the wrong system.ˇˇLarge, complex systems usually have a long lifetime. Complex hardware/software 
+
+systems may remain in use for more than 20 years, even though both the original 
+
+hardware and software technologies used are obsolete. There are several reasons for 
+
+this longevity, as shown in Figure 19.12.Over their lifetime, large complex systems change and evolve to correct errors in the 
+original system requirements and to implement new requirements that have emerged. 
+
+The system™s computers are likely to be replaced with new, faster machines. The organ-
+ization that uses the system may reorganize itself and hence use the system in a different 
+
+way. The external environment of the system may change, forcing changes to the sys-
+tem. Hence, evolution is a process that runs alongside normal system operational pro-cesses. System evolution involves reentering the development process to make changes 
+
+and extensions to the system™s hardware, software, and operational processes.System evolution, like software evolution (discussed in Chapter 9), is inherently costly for several reasons:1. Proposed changes have to be analyzed very carefully from a business and a tech-nical perspective. Changes have to contribute to the goals of the system and 
+
+should not simply be technically motivated.

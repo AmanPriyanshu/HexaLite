@@ -1,0 +1,64 @@
+ Section 5.2  Security in the Design of Operating Systems 
+315  with complex and constraining security requirements. For the same reasons, the secu-
+rity and other design principles must be carried throughout implementation, testing, and 
+maintenance. Phrased differently, as explained in Sidebar 5-3, security emphatically 
+
+cannot be added on at the end.Secure Design Principles
+Good design principles are always good for security, as we have noted above. But sev-
+eral important design principles are particular to security and essential for building a 
+
+solid, trusted operating system. These principles, articulated well by Jerome Saltzer and 
+
+Michael Schroeder [SAL74, SAL75], were raised in Chapter 3; we repeat them here 
+
+because of their importance in the design of secure operating systems.• least privilege 
+• economy of mechanism
+
+• open design
+
+• complete mediation
+SIDEBAR 5-3 Security as an Add-On
+In the 1980s, the U.S. State Department handled its diplomatic office func-
+tions with a network of Wang computers. Each American embassy had at 
+
+least one Wang system, with specialized word processing software to cre-
+
+ate documents, modify them, store and retrieve them, and send them from 
+
+one location to another. Supplementing Wang’s office automation software 
+
+was the State Department’s own Foreign Affairs Information System (FAIS).
+In the mid-1980s, the State Department commissioned a private con-
+tractor to add security to FAIS. Diplomatic and other correspondence was 
+
+to be protected by a secure “envelope” surrounding sensitive materials. 
+
+The added protection was intended to prevent unauthorized parties from 
+
+“opening” an envelope and reading the contents.
+To design and implement the security features, the contractor had 
+to supplement features offered by Wang’s operating system and utilities. 
+
+The security design depended on the current Wang VS operating system 
+
+design, including the use of unused words in operating system files. As 
+
+designed and implemented, the new security features worked properly and 
+
+met the State Department requirements. But the system was bound for fail-
+
+ure because the evolutionary goals of VS were different from those of the 
+
+State Department. That is, Wang could not guarantee that future modifica-
+
+tions to VS would preserve the functions and structure required by the con-
+
+tractor’s security software. In other words, Wang might need to appropriate 
+
+some of the unused words in operating system files for new system func-
+
+tions, regardless of whether or not FAIS was using those words. Eventually, 
+
+there were fatal clashes of intent and practice, and the added-on security 
+
+functions failed.

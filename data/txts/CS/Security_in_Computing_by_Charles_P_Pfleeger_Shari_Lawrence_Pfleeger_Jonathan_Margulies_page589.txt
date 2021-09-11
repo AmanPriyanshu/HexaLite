@@ -1,0 +1,75 @@
+ Section 8.2  Moving to the Cloud 
+555  • Logging capabilities
+• Incident response
+
+• Reliability/uptimeWe address the first four categories in much greater depth later in this chapter. 
+Uptime is typically dealt with by a service level agreement (SLA), a contract between 
+
+providers and customers that sets service performance expectations. SLAs usually guar-
+
+antee service uptime as a percentage of total time (for example, 99.99 percent uptime), 
+
+with the service provider paying a penalty if uptime falls below that number.
+The second step to assessing cloud providers is determining which providers meet 
+the list of requirements you created in the first step. This can be much more difficult 
+
+than it sounds. Cloud providers vary widely in terms of how much information they 
+
+divulge about security architecture. As a general rule, larger providers are likely to 
+
+divulge more detail than smaller ones, and IaaS providers are likely to divulge more 
+
+detail than PaaS or SaaS providers. The reasons for this are practical: Large providers 
+
+generally have more funding and staff available to address such issues. IaaS services are 
+
+so complex and customizable that customers need to know how the services are archi-
+
+tected, in order to understand how to configure them. In the cases of SaaS and PaaS, 
+
+many providers document security details only if they think those details will make 
+
+for good advertising. Sidebar 8-3 (see page 563), on another topic, as a bonus gives an 
+
+interesting example of a cloud provider advertising a misleading security control.
+In addition to reading provider security documentation, you can also conduct secu-
+rity assessments. Unfortunately, a security assessment that is deep enough to be worth-
+
+while will also be very expensive and time consuming, so you probably will not be able 
+
+to do it with many providers. There are, however, some other options for narrowing the 
+
+field of providers. One is the U.S. government’s Federal Risk and Automation Manage-
+
+ment Program (FedRAMP), which requires cloud providers to prove compliance with 
+
+hundreds of security controls in order to do business with the federal government. As 
+
+the list of FedRAMP-approved providers is publicly available, this can be a valuable 
+
+input to your assessment. Another standard that provides similar value is the Payment 
+
+Card Industry Data Security Standard (PCI DSS). Like FedRAMP, PCI DSS compli-
+
+ance requires cloud providers to prove they have a minimum set of adequate security 
+
+controls in place. There is also an intriguing newer option for assessing cloud provider 
+
+security: the Cloud Security Alliance (CSA) Security, Trust, and Assurance Registry 
+
+(STAR). STAR aims to be a comprehensive registry of cloud provider security imple-
+
+mentations and offers a number of cloud providers’ detailed self-assessments.
+Public, Community, Private, or Hybrid?
+Choosing a cloud deployment model is perhaps the most fundamental security question 
+you’ll ask during the cloud migration process, and it will both drive and be driven by 
+
+your other security requirements. While private and community clouds are generally 
+
+more expensive than public ones, the cost difference depends on the size of your orga-
+
+nization. If your company or a community of similar companies has enough combined 
+
+demand to justify one or two large data centers, you can take advantage of some of the 
+
+same economies of scale that public cloud providers do.

@@ -1,0 +1,56 @@
+CHAPTER 1  
+THE NATURE OF SOFTWARE
+ 11 
+Referring to the ﬁ gure, computing devices reside outside the cloud and have 
+access to a variety of resources within the cloud. These resources encompass ap-
+plications, platforms, and infrastructure. In its simplest form, an external com-
+puting device accesses the cloud via a Web browser or analogous software. The 
+
+cloud provides access to data that resides with databases and other data struc-
+tures. In addition, devices can access executable applications that can be used in 
+lieu of apps that reside on the computing device.  The implementation of cloud computing requires the development of an ar-
+chitecture that encompasses front-end and back-end services. The  front-end
+ 
+ in-
+cludes the client (user) device and the application software (e.g., a browser) that 
+allows the back-end to be accessed. The  back-end 
+ includes servers and related 
+computing resources, data storage systems (e.g., databases), server-resident ap-
+
+plications, and administrative servers that use middleware to coordinate and 
+monitor trafﬁ c by establishing a set of protocols for access to the cloud and its 
+resident resources. [Str08]  The cloud architecture can be segmented to provide access at a variety of different levels from full public access to private cloud architectures accessible 
+only to those with authorization.   
+ 
+1.2.4  Product Line Software 
+ 
+The Software Engineering Institute deﬁ nes a  
+software product line
+ 
+ as “a set of 
+software-intensive systems that share a common, managed set of features sat-
+isfying the speciﬁ c needs of a particular market segment or mission and that 
+are developed from a common set of core assets in a prescribed way.” [SEI13] 
+
+The concept of a line of software products that are related in some way is not 
+new. But the idea that a line of software products, all developed using the same 
+
+underlying application and data architectures, and all implemented using a set 
+of reusable software components that can be reused across the product line pro-
+vides signiﬁ cant engineering leverage. 
+ A software product line shares a set of assets that include requirements ( Chapter 8 ), architecture ( Chapter 13 ), design patterns ( Chapter 16 ), reusable components ( Chapter 14 ), test cases ( Chapters 22 and 23 ), and other software engineering work products. In essence, a software product line results in the 
+development of many products that are engineered by capitalizing on the com-
+monality among all the products within the product line.   
+ 
+ 
+ 
+ 
+ 
+ 1.3 S
+UMMARY  
+Software is the key element in the evolution of computer-based systems and 
+products and one of the most important technologies on the world stage. Over 
+the past 50 years, software has evolved from a specialized problem solving and 
+information analysis tool to an industry in itself. Yet we still have trouble devel-
+
+oping high-quality software on time and within budget. pre22126_ch01_001-013.indd   11pre22126_ch01_001-013.indd   1113/12/13   10:00 PM13/12/13   10:00 PM

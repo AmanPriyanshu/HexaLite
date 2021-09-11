@@ -1,0 +1,54 @@
+ Section 7.2  Security Requirements of Databases 
+507  increase the computing system’s size or complexity. What is surprising, though, is that 
+security interests may also reduce the system’s ability to provide data to users by limit-
+
+ing certain queries that would otherwise seem innocuous.
+7.2 SECURITY REQUIREMENTS OF DATABASES
+The basic security requirements of database systems are not unlike those of other com-
+
+puting systems we have studied. The basic problems—access control, exclusion of spu-
+
+rious data, authentication of users, and reliability—have appeared in many contexts so 
+
+far in this book. Following is a list of requirements for database security.
+• Physical database integrity. 
+The data of a database are immune from physical problems, such as power failures, and someone can reconstruct the database if it 
+
+is destroyed through a catastrophe.
+• Logical database integrity. 
+The structure of the database is preserved. With 
+logical integrity of a database, a modification to the value of one field does not 
+
+affect other fields, for example.
+• Element integrity. 
+The data contained in each element are accurate.• Auditability. 
+It is possible to track who or what has accessed (or modified) the 
+elements in the database.• Access control. 
+A user is allowed to access only authorized data, and different 
+users can be restricted to different modes of access (such as read or write).
+• User authentication. Every user is positively identified, both for the audit trail 
+and for permission to access certain data.• Availability. 
+Users can access the database in general and all the data for which they are authorized.
+We briefly examine each of these requirements.
+Integrity of the DatabaseIf a database is to serve as a central repository of data, users must be able to trust the 
+accuracy of the data values. This condition implies that the database administrator must 
+
+be assured that updates are performed only by authorized individuals. It also implies 
+
+that the data must be protected from corruption, either by an outside illegal program 
+
+action or by an outside force such as fire or a power failure. Two situations can affect 
+
+the integrity of a database: when the whole database is damaged (as happens, for exam-
+
+ple, if its storage medium is damaged) or when individual data items are unreadable.
+Integrity of the database as a whole is the responsibility of the DBMS, the operat-
+ing system, and the (human) computing system manager. From the perspective of the 
+
+operating system and the computing system manager, databases and DBMSs are files 
+
+and programs, respectively. Therefore, one way of protecting the database as a whole 
+
+is to regularly back up all files on the system. These periodic backups can be adequate 
+
+controls against catastrophic failure.

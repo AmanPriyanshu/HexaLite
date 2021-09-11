@@ -1,0 +1,68 @@
+CHAPTER 38  
+EMERGING TRENDS IN SOFTWARE ENGINEERING
+ 853 
+Today, most “informal” requirements engineering approaches begin with the 
+creation of user scenarios (e.g., use cases). More formal approaches create one or 
+more requirements models and use these as a basis for design. Formal methods 
+enable a software engineer to represent requirements using a veriﬁ able math-
+ematical notation. All can work reasonably well when requirements are stable, 
+but do not readily solve the problem of dynamic or emergent requirements.  There are a number of distinct requirements engineering research directions including natural language processing from translated textual descriptions into 
+more structured representations (e.g., analysis classes), greater reliance on da-
+tabases for structuring and understanding software requirements, the use of RE 
+patterns to describe typical problems and solutions when requirements engi-
+neering tasks are conducted, and goal-oriented requirements engineering. How-
+ever, at the industry level, RE actions remain relatively informal and surprisingly 
+
+basic. To improve the manner in which requirements are deﬁ
+ ned, the software 
+engineering community will likely implement three distinct subprocesses as RE 
+is conducted [Gli07]: (1) improved knowledge acquisition and knowledge sharing 
+that allows more complete understanding of application domain constraints and 
+stakeholder needs, (2) greater emphasis on iteration as requirements are de-
+ﬁ ned, and (3) more effective communication and coordination tools that enable 
+all stakeholders to collaborate effectively. 
+ The RE subprocesses noted in the preceding paragraph will only succeed if 
+they are properly integrated into an evolving approach to software engineer-
+
+ing. As pattern-based problem solving and component-based solutions begin 
+
+to dominate many application domains, RE must accommodate the desire for 
+
+agility (rapid incremental delivery) and the inherent emergent requirements 
+
+that result. The notion of a static “software speciﬁ cation” is beginning to dis-
+appear, to be replaced by “value-driven requirements” [Som05] derived as 
+
+stakeholders respond to features and functions delivered in early software 
+
+increments. 
+  
+ 
+ 
+38.5.5   
+Model-Driven Software Development 
+ 
+ 
+ 
+Software engineers grapple with abstraction at virtually every step in the software engineering process. As design commences, architectural and component-level 
+abstractions are represented and assessed. They must then be translated into a 
+programming language representation that transforms the design (a relatively 
+high level of abstraction) into an operable system with a speciﬁ c computing envi-
+ronment (a low level of abstraction).  Model-driven software development
+ 
+ 
+ 
+8   couples 
+domain-speciﬁ c modeling languages with transformation engines and genera-
+tors in a way that facilitates the representation of abstraction at high levels and 
+then transforms it into lower levels [Sch06].     Model-driven 
+approaches address a 
+continuing challenge 
+for all software 
+developers—how to 
+represent software 
+at a higher level of 
+abstraction than code.   
+8  The term  
+model-driven engineering 
+ (MDE) is also used. pre22126_ch38_839-859.indd   853pre22126_ch38_839-859.indd   85313/12/13   6:17 PM13/12/13   6:17 PM

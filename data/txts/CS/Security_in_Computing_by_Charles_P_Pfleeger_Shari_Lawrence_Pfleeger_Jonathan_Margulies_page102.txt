@@ -1,0 +1,56 @@
+68 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+We have now examined the three bases of authentication: something you know, are, 
+or have. Used in an appropriate setting, each can offer reasonable security. In the next 
+
+sections we look at some ways of enhancing the basic security from these three forms.
+Federated Identity ManagementIf these different forms of authentication seem confusing and overwhelming, they can 
+
+be. Consider that some systems will require a password, others a fingerprint scan, oth-
+
+ers an active token, and others some combination of techniques. As you already know, 
+
+remembering identities and distinct passwords for many systems is challenging. People 
+
+who must use several different systems concurrently (email, customer tracking, inven-
+
+tory, and sales, for example) soon grow weary of logging out of one, into another, 
+
+refreshing a login that has timed out, and creating and updating user profiles. Users 
+
+rightly call for computers to handle the bookkeeping.
+A federated identity management scheme is a union of separate identification 
+and authentication systems. Instead of maintaining separate user profiles, a federated 
+
+scheme maintains one profile with one authentication method. Separate systems share 
+
+access to the authenticated identity 
+
+database. Thus, authentication is 
+
+performed in one place, and sepa-
+
+rate processes and systems deter-
+
+mine that an already authenticated 
+
+user is to be activated. Such a pro-
+
+cess is shown in Figure 2-7.
+Closely related is a single sign-on process, depicted in Figure 2-8. Think of an 
+umbrella procedure to which you log in once per session (for example, once a day). 
+
+The umbrella procedure maintains your identities and authentication codes for all the 
+different processes you access. When you want to access email, for example, instead 
+
+of your completing a user ID and password screen, the single sign-on process passes 
+
+those details to the email handler, and you resume control after the authentication step 
+
+has succeeded.Time-Based Token AuthenticationPASSCODEPINTOKENCODE
+=Login:mcollings
+2468159759Passcode:+Clocksynchronized to
+UCTUnique seedToken code:Changes every60 secondsFIGURE 2-6 SecurID Token (Photo courtesy of RSA, the security division of EMS and copy-
+right © RSA Corporation, all rights reserved.)
+Federated identity management unifies the identification and authentication 
+process for a group of systems.

@@ -1,0 +1,28 @@
+˘˜˚ˆ˙˘˜˘˘˘
+Dean Leffingwell, who has a great deal of experience in scaling agile methods, 
+has developed the Scaled Agile Framework (Leffingwell 2007, 2011) to support 
+large-scale, multi-team software development. He reports how this method has been 
+used successfully in a number of large companies. IBM has also developed a frame
+-
+work for the large-scale use of agile methods called the Agile Scaling Model (ASM). 
+
+Figure 3.
+14, taken from Ambler™s white paper that discusses ASM (Ambler 2010), 
+shows an overview of this model.The ASM recognizes that scaling is a staged process where development teams move from the core agile practices discussed here to what is called Disciplined Agile 
+Delivery. Essentially, this stage involves adapting these practices to a disciplined 
+
+organizational setting and recognizing that teams cannot simply focus on develop-
+ment but must also take into account other stages of the software engineering 
+ process, such as requirements and architectural design.The final scaling stage in ASM is to move to Agility at Scale where the com-plexity that is inherent in large projects is recognized. This involves taking account 
+
+of factors such as distributed development, complex legacy environments, and 
+
+regulatory compliance requirements. The practices used for disciplined agile 
+
+delivery may have to be modified on a project-by-project basis to take these into 
+
+account and, sometimes, additional plan-based practices added to the process.No single model is appropriate for all large-scale agile products as the type of 
+product, the customer requirements, and the people available are all different. 
+
+However, approaches to scaling agile methods have a number of things in common:Core agile developmentDisciplined agile deliveryAgility atscaleAgility at scaleDisciplined agile delivery where scaling factors apply:Large team sizeGeographic distributionRegulatory complianceDomain complexityOrganization distributionTechnical complexityOrganizational complexityEnterprise disciplineDisciplined agile deliveryRisk+value driven life-cycleSelf-organizing with appropriategovernance frameworkFull delivery life-cycleCore agile developmentValue-driven life-cycleSelf-organizing teamsFocus on constructionFigure 3.14 IBM™s  Agility at Scale model  
+(© IBM 2010)

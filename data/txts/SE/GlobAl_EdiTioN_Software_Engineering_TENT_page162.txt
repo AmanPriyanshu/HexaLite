@@ -1,0 +1,35 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜systems and testing are all more significant. Consequently, the gains from the 
+use of MDA are limited.3. The arguments for platform independence are only valid for large, long-lifetime 
+
+systems, where the platforms become obsolete during a system™s lifetime. For 
+software products and information systems that are developed for standard plat-
+forms, such as Windows and Linux, the savings from the use of MDA are likely 
+to be outweighed by the costs of its introduction and tooling.4. The widespread adoption of agile methods over the same period that MDA was 
+evolving has diverted attention away from model-driven approaches.The success stories for MDA (OMG 2012) have mostly come from companies 
+that are developing systems products, which include both hardware and software. 
+
+The software in these products has a long lifetime and may have to be modified 
+
+to reflect changing hardware technologies. The domain of application (automo-
+tive, air traffic control, etc.) is often well understood and so can be formalized in 
+
+a CIM.Hutchinson and his colleagues (Hutchinson, Rouncefield, and Whittle 2012) 
+report on the industrial use of MDA, and their work confirms that successes in the 
+use of model-driven development have been in systems products. Their assessment 
+
+suggests that companies have had mixed results when adopting this approach, but 
+the majority of users report that using MDA has increased productivity and reduced 
+maintenance costs. They found that MDA was particularly useful in facilitating 
+
+reuse, and this led to major productivity improvements.There is an uneasy relationship between agile methods and model-driven archi-tecture. The notion of extensive up-front modeling contradicts the fundamental ideas 
+in the agile manifesto and I suspect that few agile developers feel comfortable with 
+
+model-driven engineering. Ambler, a pioneer in the development of agile methods, 
+suggests that some aspects of MDA can be used in agile processes (Ambler 2004) 
+but considers automated code generation to be impractical. However, Zhang and 
+
+Patel report on Motorola™s success in using agile development with automated code 
+generation (Zhang and Patel 2011).Executable UMLThe fundamental notion behind model-driven engineering is that completely automated transformation of  models to code should be possible. To achieve this, you have to be able to construct graphical models with 
+clearly defined meanings that can be compiled to executable code. You also need a way of adding information 
+to graphical models about the ways in which the operations defined in the model are implemented. This is  possible using a subset of UML 2, called Executable UML or xUML (Mellor and Balcer 2002).http://software-engineering-book.com/web/xuml/

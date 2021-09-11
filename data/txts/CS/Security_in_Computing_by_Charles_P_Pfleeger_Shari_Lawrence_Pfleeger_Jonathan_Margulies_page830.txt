@@ -1,0 +1,63 @@
+796 Chapter 12  
+Details of CryptographyDetailed Description of the Encryption AlgorithmThe RSA algorithm uses two keys, 
+d and e, which work in pairs, for decryption and 
+encryption, respectively. A plaintext message 
+P is encrypted to ciphertext 
+C byC  Pe mod nThe plaintext is recovered by
+P  Cd mod nBecause of symmetry in modular arithmetic C, encryption and decryption are mutual inverses and commutative. Therefore,
+P  Cd mod n(Pe)d mod n(Pd)e mod nThis relationship means that one can apply the encrypting transformation and then the decrypting one, or the decrypting one followed by the encrypting one.
+Deriving a Key PairThe encryption key consists of the pair of integers (
+e, n), and the decryption key is 
+(d, n). The starting point in finding keys for this algorithm is selection of a value for 
+n. The value of 
+n should be quite large, a product of two primes 
+p and 
+q. Both p and 
+q should be large themselves. Typically, 
+p and 
+q are nearly 100 digits each, so 
+n is 
+approximately 200 decimal digits (about 512 bits) long; depending on the application, 
+768, 1024, or more bits may be more appropriate. A large value of 
+n effectively inhibits 
+factoring 
+n to infer 
+p and 
+q (but time to encrypt increases as the value of 
+n grows larger).
+Next, a relatively large integer 
+e is chosen so that 
+e is relatively prime to (
+p − 1) 
+ (q − 1). (Recall that “relatively prime” means that 
+e has no factors in common with 
+(p − 1) 
+ (q − 1).) An easy way to guarantee that 
+e is relatively prime to (
+p − 1) 
+ (q − 1) 
+is to choose e as a prime that is larger than both (
+p − 1) and (q − 1).Finally, select 
+d such thate  d 1 mod (p − 1)  (q − 1)ExampleLet p  11 and 
+q  12, so that 
+n  p q  143 and 
+j(n)  (p − 1) (q − 1)  10 12  120. Next, an integer 
+e is needed, and 
+e must be relatively prime to (
+p − 1) (q − 1). Choose e  11.The inverse of 11 mod 120 is also 11, since 11 
+ 11 
+ 121  1 mod 120. Thus, both 
+encryption and decryption keys are the same: 
+e  d  11. (For the example, 
+e  d is 
+not a problem, but in a real application you would want to choose values where 
+e is not equal to d.)Let P be a “message” to be encrypted. For this example we use 
+P  7. The message 
+is encrypted as follows: 7
+11 mod 143  106, so that 
+E(7)  106. (Note: This result can 
+be computed fairly easily with the use of a common pocket calculator. 7
+11  79  72. Then 79  40 353 607, but we do not have to work with figures that large. Because of 
+the reducibility rule, a  b 
+mod n  (a mod n)  (b mod 
+n) mod n. Since we will reduce 

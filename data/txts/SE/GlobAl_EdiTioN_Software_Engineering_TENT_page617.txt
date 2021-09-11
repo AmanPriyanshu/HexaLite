@@ -1,0 +1,47 @@
+˜˜˚˛˚˝˜˜˜˜˜˜˜
+Obviously, it is important to ensure that the producer and consumer process do not attempt to access the same item at the same time (i.e., when Head = Tail). If they do, the value of the item is unpredictable. The system also has to ensure that the 
+producer process does not add items to a full buffer and that the consumer process 
+does not try to take items from an empty buffer.To do this, you implement the circular buffer as a process with Get and Put oper-ations to access the buffer. The Put operation is called by the producer process and the Get operation by the consumer process. Synchronization primitives, such as 
+semaphores or critical regions, are used to ensure that the operation of 
+Get and 
+Put are synchronized, so that they don™t access the same location simultaneously. If the 
+buffer is full, the Put process has to wait until a slot is free; if the buffer is empty, the Get process has to wait until an entry has been made.Once you have chosen the execution platform for the system, designed a process 
+architecture, and decided on a scheduling policy, you have to check that the system 
+
+will meet its timing requirements. You can perform this check through static analysis 
+
+of the system using knowledge of the timing behavior of components, or through 
+
+simulation. This analysis may reveal that the system will not perform adequately. The 
+
+process architecture, the scheduling policy, the execution platform, or all of these 
+
+may then have to be redesigned to improve the performance of the system.Timing constraints or other requirements may sometimes mean that it is best to 
+implement some system functions, such as signal processing, in hardware. Modern 
+
+hardware components, such as FPGAs (field-programmable gate arrays), are flexible 
+
+and can be adapted to different functions. Hardware components deliver much better 
+
+performance than the equivalent software. System processing bottlenecks can be 
+
+identified and replaced by hardware, thus avoiding expensive software optimization.The events that a real-time system must react to often cause the system to move from 
+one state to another. For this reason, state models, which I introduced in Chapter 5, 
+are used to describe real-time systems. A state model of a system assumes that, at 
+any time, the system is in one of a number of possible states. When a stimulus is 
+
+received, this may cause a transition to a different state. For example, a system con-
+trolling a valve may move from a state ﬁValve openﬂ to a state ﬁValve closedﬂ when 
+
+an operator command (the stimulus) is received.State models are an integral part of real-time system design methods. The UML supports the development of state models based on Statecharts (Harel 1987, 1988). 
+Statecharts are formal state machine models that support hierarchical states, so that 
+groups of states can be considered as a single entity. Douglass discusses the use of 
+the UML in real-time systems development (Douglass 1999).I have already illustrated this approach to system modeling in Chapter 5 where I 
+used an example of a model of a simple microwave oven. Figure 21.
+5 is another 
+
+example of a state model that shows the operation of a fuel delivery software system 
+
+embedded in a petrol (gas) pump. The rounded rectangles represent system states, 
+
+and the arrows represent stimuli that force a transition from one state to another. 

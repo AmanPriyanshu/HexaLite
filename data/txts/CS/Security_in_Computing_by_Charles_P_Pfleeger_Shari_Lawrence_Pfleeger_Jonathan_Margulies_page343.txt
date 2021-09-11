@@ -1,0 +1,60 @@
+ Section 5.2  Security in the Design of Operating Systems 
+309  other pieces date back literally decades, with long-forgotten design characteristics. And 
+some pieces were written just yesterday. Old and new pieces must interact and interface 
+
+successfully, and new designers must ensure that their code works correctly with all 
+
+existing previous versions, not to mention the numerous applications that exist.
+Exploit authors capitalize on this complexity by experimenting to locate interface 
+mismatches: a function no longer called, an empty position in the table of interrupts 
+
+handled, a forgotten device driver. The operating system opens many points to which 
+
+code can later attach as pieces are loaded during the boot process; if one of these pieces 
+is not present, the malicious code can attach instead.Obviously, not all complex software is vulnerable to attack. The point we are mak-
+ing is that the more complex the software, the more possibilities for unwanted soft-
+
+ware introduction. A house with no windows leaves no chance for someone to break in 
+
+through a window, but each additional window in a house design increases the potential 
+
+for this harm and requires the homeowner to apply more security. Now extend this 
+
+metaphor to modern operating systems that typically include millions of lines of code: 
+What is the likelihood that every line is perfect for its use and fits perfectly with every 
+
+other line?The principles of secure program design we introduced in Chapter 3 apply equally well to operating systems. Simple, modular, loosely coupled designs present fewer 
+
+opportunities to the attacker.
+Simplicity of DesignOperating systems by themselves (regardless of their security constraints) are difficult 
+
+to design. They handle many duties, are subject to interruptions and context switches, 
+
+and must minimize overhead so as not to slow user computations and interactions. Add-
+
+ing the responsibility for security enforcement to the operating system increases the 
+
+difficulty of design.
+Nevertheless, the need for effective security is pervasive, and good software engi-
+neering principles tell us how important it is to design in security at the beginning than 
+
+to shoehorn it in at the end. (See Sidebar 5-2 for more about good design principles.) 
+
+Thus, this section focuses on the design of operating systems for a high degree of 
+
+security. We look in particular at the design of an operating system’s kernel; how the 
+
+kernel is designed suggests whether security will be provided effectively. We study two 
+
+different interpretations of the kernel, and then we consider layered or ring-structured 
+
+designs.Layered Design
+As described previously, a nontrivial operating system consists of at least four levels: 
+
+hardware, kernel, operating system, and user. Each of these layers can include sublay-
+
+ers. For example, in [SCH83], the kernel has five distinct layers. The user level may 
+
+also have quasi-system programs, such as database managers or graphical user interface 
+
+shells, that constitute separate layers of security themselves.

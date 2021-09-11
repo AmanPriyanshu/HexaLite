@@ -1,0 +1,44 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜supports the user interface and the bottom layer is the system database. The user 
+communications layer handles all input and output from the user interface, and the 
+information retrieval layer includes application-specific logic for accessing and 
+
+updating the database. The layers in this model can map directly onto servers in a 
+distributed Internet-based system.As an example of an instantiation of this layered model, Figure 
+6.19 shows the architecture of the Mentcare system. Recall that this system maintains and manages 
+details of patients who are consulting specialist doctors about mental health prob-lems. I have added detail to each layer in the model by identifying the components 
+that support user communications and information retrieval and access:1. The top layer is a browser-based user interface.2.
+ The second layer provides the user interface functionality that is delivered 
+through the web browser. It includes components to allow users to log in to the 
+system and checking components that ensure that the operations they use are 
+
+allowed by their role. This layer includes form and menu management compo-
+nents that present information to users, and data validation components that 
+
+check information consistency.3.
+ The third layer implements the functionality of the system and provides 
+ components that implement system security, patient information creation and 
+
+updating, import and export of patient data from other databases, and report 
+
+generators that create management reports.4. Finally, the lowest layer, which is built using a commercial database manage
+-
+ment system, provides transaction management and persistent data storage.Information and resource management systems are sometimes also transaction pro
+-
+cessing systems. For example, e-commerce systems are Internet-based resource 
+
+management systems that accept electronic orders for goods or services and then 
+
+arrange delivery of these goods or services to the customer
+. In an e-commerce 
+Web browser
+Report
+generationTransaction management
+Patient database
+Login
+Form and menu
+managerDatavalidationRole checkingSecuritymanagementPatient info.
+managerData import
+and exportFigure 6.19 The architecture of the 
+Mentcare system

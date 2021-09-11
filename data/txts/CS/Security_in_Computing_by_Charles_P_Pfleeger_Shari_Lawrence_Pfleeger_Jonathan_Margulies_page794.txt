@@ -1,0 +1,68 @@
+760 Chapter 11  
+Legal Issues and EthicsIn this study we consider ethical behavior in a shared-use computing environment, 
+such as the Internet. The questions are similar to “what behavior is acceptable in outer 
+
+space?” or “who owns the oceans?”
+Goli is a computer security consultant; she enjoys the challenge of finding and fixing 
+security vulnerabilities. Independently wealthy, she does not need to work, so she has 
+
+ample spare time in which to test the security of systems.In her spare time, Goli does three things: First, she aggressively attacks commer-
+cial products for vulnerabilities. She is quite proud of the tools and approach she has 
+developed, and she is quite successful at finding flaws. Second, she probes accessible 
+
+systems on the Internet, and when she finds vulnerable sites, she contacts the owners 
+
+to offer her services repairing the problems. Finally, she is a strong believer in high-
+quality pastry, and she plants small programs to slow performance in the web sites of 
+
+pastry shops that do not use enough butter in their pastries. Let us examine these three 
+
+actions in order.
+Vulnerabilities in Commercial Products
+We have already described a current debate regarding the vulnerability reporting pro-
+cess. Now let us explore the ethical issues involved in that debate.
+Clearly from a rule-based ethical theory, attackers are wrong to perform malicious 
+attacks. The appropriate theory seems to be one of consequence: Who is helped or hurt 
+
+by finding and publicizing flaws in products? Relevant parties are attackers, the vulner-
+
+ability finder, the vendor, and the using public. Notoriety or credit for finding the flaw 
+
+is a small interest. And the interests of the vendor (financial, public relations) are less 
+
+important than the interests of users to have secure products. But how are the interests 
+
+of users best served?
+• Full disclosure
+ helps users assess the seriousness of the vulnerability and apply 
+appropriate protection. But it also gives attackers more information with which 
+
+to formulate attacks. Early full disclosure—before the vendor has countermea-
+
+sures ready—may actually harm users by leaving them vulnerable to a now 
+
+widely known attack.
+• Partial disclosure
+—the general nature of the vulnerability but not a detailed 
+exploitation scenario—may forestall attackers. One can argue that the vulner-
+
+ability details are there to be discovered; when a vendor announces a patch for 
+
+an unspecified flaw in a product, the attackers will test that product aggressively 
+
+and study the patch carefully to try to determine the vulnerability. Attackers 
+
+will then spread a complete description of the vulnerability to other attackers 
+
+through an underground network, and attacks will start against users who may 
+
+not have applied the vendor’s fix.
+• No disclosure
+. Perhaps users are best served by a scheme in which every so 
+often new code is released, sometimes fixing security vulnerabilities, some-
+
+times fixing things that are not security related, and sometimes adding new 
+
+features. But without a sense of significance or urgency, users may not install 
+
+this new code.

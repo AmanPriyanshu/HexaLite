@@ -1,0 +1,25 @@
+˜˜˚˛˝˙˙ˆˇ˘
+user interface designThe process of designing the way in which system users can access system  functionality, and the way that information produced by the system is displayed.user storyA natural language description of a situation that explains how a system or systems might be used and the interactions with the systems that might take place.validationThe process of checking that a system meets the needs and expectations of the customer.
+verificationThe process of checking that a system meets its specification.version controlThe process of managing changes to a software system and its components so 
+
+that it is possible to know which changes have been implemented in each version 
+
+of the component/system, and also to recover/recreate previous versions of the 
+
+component/system.version control (VC) systemsSoftware tools that have been developed to support the processes of version  control. These may be based on either centralized or distributed repositories.waterfall modelA software process model that involves discrete development stages: specification, 
+design, implementation, testing and maintenance. In principle, one stage must be 
+complete before progress to the next stage is possible. In practice, there is signifi-
+cant iteration between stages.web serviceAn independent software component that can be accessed through the Internet 
+
+using standard protocols. It is completely self-contained without external 
+
+dependencies. XML-based standards such as SOAP (Standard Object Access 
+
+Protocol), for web service information exchange, and WSDL (Web Service 
+ Definition Language), for the definition of web service interfaces, have been 
+
+developed. However, the REST approach may also be used for web service 
+
+implementation.white-box testingAn approach to program testing where the tests are based on knowledge of the 
+structure of the program and its components. Access to source code is essential for 
+white-box testing.wicked problemA problem that cannot be completely specified or understood because of the  complexity of the interactions between the elements that contribute to the problem.

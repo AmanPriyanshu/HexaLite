@@ -1,0 +1,42 @@
+4.
+ As the highest priority services are delivered first and later increments then inte-grated, the most important system services receive the most testing. This means 
+that customers are less likely to encounter software failures in the most impor-
+tant parts of the system.However, there are problems with incremental delivery. In practice, it only works in 
+situations where a brand-new system is being introduced and the system evaluators are 
+
+given time to experiment with the new system. Key problems with this approach are:1.
+ Iterative delivery is problematic when the new system is intended to replace an existing system. Users need all of the functionality of the old system and are 
+
+usually unwilling to experiment with an incomplete new system. It is often 
+
+impractical to use the old and the new systems alongside each other as they are 
+likely to have different databases and user interfaces.2. Most systems require a set of basic facilities that are used by different parts of the 
+
+system. As requirements are not defined in detail until an increment is to be imple-
+mented, it can be hard to identify common facilities that are needed by all increments.3.
+ The essence of iterative processes is that the specification is developed in con-
+junction with the software. However, this conflicts with the procurement model 
+of many organizations, where the complete system specification is part of the 
+system development contract. In the incremental approach, there is no complete 
+system specification until the final increment is specified. This requires a new 
+form of contract, which large customers such as government agencies may find 
+difficult to accommodate.For some types of systems, incremental development and delivery is not the best 
+
+approach. These are very large systems where development may involve teams working 
+
+in different locations, some embedded systems where the software depends on hardware 
+
+development, and some critical systems where all the requirements must be analyzed to 
+
+check for interactions that may compromise the safety or security of the system.These large systems, of course, suffer from the same problems of uncertain and 
+changing requirements. Therefore, to address these problems and get some of the 
+
+benefits of incremental development, a system prototype may be developed and used 
+as a platform for experiments with the system requirements and design. With the 
+
+experience gained from the prototype, definitive requirements can then be agreed.Nowadays, there is a constant demand from industry for cheaper, better software, 
+
+which has to be delivered to ever-tighter deadlines. Consequently, many software 
+
+companies have turned to software process improvement as a way of enhancing the ˜˜˚˙˜˜˜
+˜˜

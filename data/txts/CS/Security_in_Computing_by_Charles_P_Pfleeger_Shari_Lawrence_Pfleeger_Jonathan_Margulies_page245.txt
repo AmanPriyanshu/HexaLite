@@ -1,0 +1,73 @@
+ Section 3.3  Countermeasures 
+211  Testing is easier said than done, and Herbert Thompson points out that security test-
+ing is particularly hard [THO03]. James Whittaker observes in the Google Testing Blog, 
+
+20 August 2010, that “Developers grow trees; testers manage forests,” meaning the job 
+
+of the tester is to explore the interplay of many factors. Side effects, dependencies, 
+
+unpredictable users, and flawed implementation bases (languages, compilers, infrastruc-
+
+ture) all contribute to this difficulty. But the essential complication with security testing 
+
+is that we cannot look at just the one 
+behavior the program gets right; we 
+
+also have to look for the hundreds of 
+
+ways the program might go wrong.
+Types of Testing 
+Testing usually involves several stages. First, each program component is tested on its 
+
+own. Such testing, known as
+ module testing
+, component testing, or unit testing, veri-
+fies that the component functions properly with the types of input expected from a study 
+
+of the component’s design. 
+Unit testing is done so that the test team can feed a prede-
+termined set of data to the component being tested and observe what output actions and 
+
+data are produced. In addition, the test team checks the internal data structures, logic, 
+and boundary conditions for the input and output data.When collections of components have been subjected to unit testing, the next step is 
+ensuring that the interfaces among the components are defined and handled properly. 
+
+Indeed, interface mismatch can be a significant security vulnerability, so the interface 
+
+design is often documented as an application programming interface
+ or 
+API. Inte-gration testing is the process of verifying that the system components work together as 
+described in the system and program design specifications.
+Once the developers verify that information is passed among components in accor-
+dance with their design, the system is tested to ensure that it has the desired functional-
+ity. A 
+function test evaluates the system to determine whether the functions described 
+by the requirements specification are actually performed by the integrated system. The 
+
+result is a functioning system.The function test compares the system being built with the functions described in the 
+developers’ requirements specification. Then, a 
+performance test
+ compares the system 
+with the remainder of these software and hardware requirements. During the function 
+
+and performance tests, testers examine security requirements and confirm that the sys-
+
+tem is as secure as it is required to be.When the performance test is complete, developers are certain that the system func-
+tions according to their understanding of the system description. The next step is con-
+
+ferring with the customer to make certain that the system works according to customer 
+
+expectations. Developers join the customer to perform an 
+acceptance test, in which 
+the system is checked against the customer’s requirements description. Upon comple-
+
+tion of acceptance testing, the accepted system is installed in the environment in which 
+
+it will be used. A final 
+installation test is run to make sure that the system still func-
+tions as it should. However, security requirements often state that a system should not 
+
+do something. As Sidebar 3-11 demonstrates, absence is harder to demonstrate than 
+
+presence.Security testing tries to anticipate the 
+hundreds of ways a program can fail.

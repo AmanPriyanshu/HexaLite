@@ -1,0 +1,70 @@
+xx Foreword
+The enabling event was the development within the National Security Agency (NSA) 
+of a remote-access time-sharing system with a full set of security access controls, run-
+ning on a Univac 494 machine, and serving terminals and users not only within the 
+
+headquarters building at Fort George G. Meade, Maryland, but also worldwide. Fortu-
+
+itously, I knew details of the system.
+Persuading two others from RAND to help—Dr. Harold Peterson and Dr. Rein 
+Turn—plus Bernard Peters of NSA, I organized a group of papers and presented it 
+
+to the SJCC conference management as a ready-made additional paper session to be 
+
+chaired by me. [1] The conference accepted the offer, and the session was presented at 
+
+the Atlantic City (NJ) Convention Hall in 1967.
+Soon thereafter and driven by a request from a defense contractor to include both 
+defense classified and business applications concurrently in a single mainframe machine 
+
+functioning in a remote-access mode, the Department of Defense, acting through the 
+Advanced Research Projects Agency (ARPA) and later the Defense Science Board 
+
+(DSB), organized a committee, which I chaired, to study the issue of security controls 
+
+for computer systems. The intent was to produce a document that could be the basis for 
+
+formulating a DoD policy position on the matter.
+The report of the committee was initially published as a classified document and was 
+formally presented to the sponsor (the DSB) in January 1970. It was later declassified 
+
+and republished (by The RAND Corporation) in October 1979. [2] It was widely circu-
+
+lated and became nicknamed “the Ware report.” The report and a historical introduction 
+
+are available on the RAND website. [3]
+Subsequently, the United States Air Force (USAF) sponsored another committee 
+chaired by James P. Anderson. [4] Its report, published in 1972, recommended a 6-year 
+
+R&D security program totaling some $8M. [5] The USAF responded and funded sev-
+
+eral projects, three of which were to design and implement an operating system with 
+security controls for a specific computer.
+Eventually these activities led to the “Criteria and Evaluation” program sponsored by 
+the NSA. It culminated in the “Orange Book” [6] in 1983 and subsequently its support-
+ing array of documents, which were nicknamed “the rainbow series.” [7] Later, in the 
+
+1980s and on into the 1990s, the subject became an international one leading to the ISO 
+standard known as the “Common Criteria.” [8]
+It is important to understand the context in which system security was studied in the 
+early decades. The defense establishment had a long history of protecting classified 
+
+information in document form. It had evolved a very elaborate scheme for compart-
+
+menting material into groups, sub-groups and super-groups, each requiring a specific 
+
+personnel clearance and need-to-know as the basis for access. [9] It also had a centuries-
+
+long legacy of encryption technology and experience for protecting classified informa-
+
+tion in transit. Finally, it understood the personnel problem and the need to establish the 
+
+trustworthiness of its people. And it certainly understood the physical security matter.
+Thus, the computer security issue, as it was understood in the 1960s and even later, 
+was how to create in a computer system a group of access controls that would imple-
+
+ment or emulate the processes of the prior paper world, plus the associated issues of 
+
+protecting such software against unauthorized change, subversion and illicit use, and 
+
+of embedding the entire system in a secure physical environment with appropriate 

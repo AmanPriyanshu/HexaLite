@@ -1,0 +1,70 @@
+ Section 10.5  Dealing with Disaster 
+697  a backup is completed, it is trans-
+ported to the backup site. Keeping 
+
+a backup version separate from the 
+
+actual system reduces the risk of its 
+loss. Similarly, the paper trail is also 
+
+stored somewhere other than at the 
+
+main computing facility.
+Personal computer users concerned with integrity can take home a copy of important 
+disks as protection or send a copy to a friend in another city. If both secrecy and integrity 
+
+are important, a bank vault, or even a secure storage place in another part of the same 
+
+building can be used. The worst place to store a backup copy is where it usually is stored: 
+
+right next to the machine.
+Networked StorageWith today’s extensive use of networking, using the network to implement backups is 
+a good idea. Storage providers sell space in which you can store data; think of these 
+
+services as big network-attached disk drives. You rent space just as you would con-
+
+sume electricity: You pay for what you use. The storage provider needs to provide only 
+
+enough total space to cover everyone’s needs, and it is easy to monitor usage patterns 
+
+and increase capacity as combined needs rise.Networked storage is perfect for backups of critical data because you can choose a 
+storage provider whose physical storage is not close to your processing. In this way, 
+
+physical harm to your system will not affect your backup. You do not need to manage 
+
+tapes or other media and physically transport them offsite.
+Cloud BackupThe Internet has given rise to another backup method. As we describe in Chapter 8, 
+companies, including Internet giants Microsoft, Google, and Amazon, effectively aug-
+
+ment a user’s workstation with a seemingly infinite set of hardware on the Internet. 
+
+The user signs a contract with a cloud provider and uses the Internet effectively as an 
+
+auxiliary device.
+A typical service is Google docs, in which a user can create a document either 
+locally or “in the cloud,” meaning through an Internet-based application on the user’s 
+
+web browser. The user edits a document locally and pushes a replica of the document 
+
+back into the Internet, or the user edits completely in the cloud, using the editing tools 
+provided by the cloud server, for example, Google. Three significant advantages of this 
+
+approach relate to availability.
+First, and most important for this discussion, Google assumes responsibility for 
+maintaining the content. Even if one of Google’s hardware storage devices fails, Google 
+
+maintains replicated copies of the document on different devices in different locations, 
+
+so the user is directed to a copy without even knowing there has been a hardware failure. 
+
+Thus, the document is automatically backed up. Second, because the data are reached 
+
+through the Internet, the user needs only an Internet connection to access a document; 
+on a business trip, at home, or on vacation, the user accesses documents just as if in the 
+
+office. Finally, the cloud permits document sharing by a controlled list of people.
+If the purpose of backup is to protect 
+
+against disaster, the backup must not 
+
+also be destroyed in the disaster.

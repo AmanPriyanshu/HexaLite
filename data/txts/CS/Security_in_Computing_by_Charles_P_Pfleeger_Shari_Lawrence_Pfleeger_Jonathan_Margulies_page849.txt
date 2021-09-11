@@ -1,0 +1,64 @@
+ Section 13.1  The Internet of Things 
+815  backup company acquires a new foreign owner in a country whose data protec-
+tion policies are not trustworthy.
+• potential for subversion.
+ A malevolent government influences the opinions of its 
+citizens by controlling content provided through online news sources, by plant-
+
+ing slanted or even false stories.
+• mistaken identification.
+ You share your computer with a houseguest who has dif-
+ferent tastes in entertainment from you, so inappropriate programs are recorded 
+and your favorites are not.
+• uncontrolled access.
+ The exchange between your thermostat and your calendar 
+is intercepted by a third party who, realizing your home is vacant, burglarizes 
+
+while you are away.
+In the next sections we offer two examples of current technologies to show you sev-
+eral known security weaknesses. 
+Medical DevicesThe field of medicine has advanced significantly with the support of computers. Digi-
+
+tally controlled and enhanced scanning permits doctors to “see” a patient’s anatomy in 
+
+ways never before possible. A computer controlled “cyberknife” allows more precise 
+
+and less invasive surgery than conventional methods. Pacemakers have extended the 
+
+lives of many patients. But these advances in technology also have potential downsides.
+Program Safety Failures
+We present a set of incidents here from a discipline similar to but different from secu-
+rity: safety. In the safety community, there is no malevolent actor trying to exploit flaws, 
+
+just ordinary people doing ordinary things in a way they think is proper. The problems 
+
+we describe here are serious enough (some leading to patients’ deaths) that they engen-
+
+dered careful public scrutiny, so we can see the precise failings that caused these several 
+
+incidents. The programming and system difficulties raised in this safety review are no 
+
+different from ones that might have been raised by a security analyst: How could a bad 
+
+agent cause these devices to malfunction? Thus, we encourage you to think of security 
+
+issues each time you hear of a safety problem caused by natural causes: Could a mali-
+
+cious person with evil intent exploit the same faults?
+The Therac 25 is a radiation therapy machine. It can be used in two modes: diagnos-
+tic and treatment. In diagnostic mode it delivers a small dose of radiation, suitable for 
+
+capturing an x-ray image, but in treatment mode it delivers a larger dose, intended for 
+
+destroying tissue. The machine was controlled by a computer, and user (radiotherapy 
+
+technician) input was entered on the computer’s keyboard and screen.
+Between 1985 and 1987 six serious radiation accidents occurred that involved 
+Therac 25 machines. Nancy Leveson has performed extensive analysis [LEV95] of the 
+reasons behind these accidents. The accidents arose from different causes, including 
+
+misleading user (operator) interface, race conditions among program routines, faulty 
+
+(software) recognition of sensors, faulty keyboard recognition, and excessive reliance on 
+
+software. In at least one case, safety problems were worsened because of a hasty attempt 

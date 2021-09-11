@@ -1,0 +1,54 @@
+˜˜˚˛˙˜˜˜
+˜˜
+these faults, which have hazard potential. If it can be demonstrated that these faults 
+cannot occur or, if they occur, that the associated hazard will not result in an acci-
+dent, then the system is safe. This is the basis of software safety arguments.Software safety arguments are a type of structured argument which demonstrates 
+that a program meets its safety obligations. In a safety argument, it is not necessary to 
+
+prove that the program works as intended. It is only necessary to show that program 
+
+execution cannot result in it reaching a potentially unsafe state. Safety arguments are 
+
+therefore cheaper to make than correctness arguments. You don™t have to consider all 
+
+program statesŠyou can simply concentrate on states that could lead to a hazard.Safety arguments demonstrate that, assuming normal execution conditions, a pro-gram should be safe. They are usually based on contradiction, where you assume 
+
+that the system is unsafe and then show that it is impossible to reach an unsafe state. 
+The steps involved in creating a safety argument are:1.
+ You start by assuming that an unsafe state, which has been identified by the 
+system hazard analysis, can be reached by executing the program.2.
+ You write a predicate (a logical expression) that defines this unsafe state.3. You then systematically analyze a system model or the program and show that, 
+
+for all program paths leading to that state, the terminating condition of these paths, 
+
+also defined as a predicate, contradicts the unsafe state predicate. If this is the 
+
+case, you may then claim that the initial assumption of an unsafe state is incorrect.
+4.
+ When you have repeated this analysis for all identified hazards, then you have 
+strong evidence that the system is safe.Safety arguments can be applied at different levels, from requirements through design models to code. At the requirements level, you are trying to demonstrate that 
+
+there are no missing safety requirements and that the requirements do not make invalid 
+
+assumptions about the system. At the design level, you might analyze a state model of 
+
+the system to find unsafe states. At the code level, you consider all of the paths through 
+
+the safety-critical code to show that the execution of all paths leads to a contradiction.As an example, consider the code outlined in Figure 12.13, which is a simpli-fied description of part of the implementation of the insulin delivery system. The 
+
+code computes the dose of insulin to be delivered and then applies some safety 
+
+checks that this is not an overdose for that patient. Developing a safety argument 
+
+for this code involves demonstrating that the dose of insulin administered is never 
+
+greater than the maximum safe level for a single dose. This dose is established for 
+
+each individual diabetic user in discussions with their medical advisors.To demonstrate safety, you do not have to prove that the system delivers the ﬁcor
+-rectﬂ dose, but merely that it never delivers an overdose to the patient. You work on 
+
+the assumption that maxDose is the safe level for that system user.To construct the safety argument, you identify the predicate that defines the unsafe 
+state, which is that currentDose > maxDose. You then demonstrate that all program 
+paths lead to a contradiction of this unsafe assertion. If this is the case, the unsafe 
+
+condition cannot be true. If you can prove a contradiction, you can be confident that 

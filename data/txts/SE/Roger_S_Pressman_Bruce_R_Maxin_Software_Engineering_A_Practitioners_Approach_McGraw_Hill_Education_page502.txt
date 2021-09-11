@@ -1,0 +1,100 @@
+472 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+ 
+22.1.4   
+Criteria for Completion of Testing 
+ 
+A classic question arises every time software testing is discussed: “When are we done testing—how do we know that we’ve tested enough?” Sadly, there is no de-
+
+ﬁ nitive answer to this question, but there are a few pragmatic responses and 
+early attempts at empirical guidance.  
+ 
+ 
+   
+One response to the question is: “You're never done testing; the burden simply 
+shifts from you (the software engineer) to the end user.” Every time the user exe-
+
+cutes a computer program, the program is being tested. This sobering fact un-
+derlines the importance of other software quality assurance activities. Another 
+response (somewhat cynical but nonetheless accurate) is: “You’re done testing 
+
+when you run out of time or you run out of money.” 
+ Although few practitioners would argue with these responses, you need more rigorous criteria for determining when sufﬁ cient testing has been conducted. 
+The  cleanroom software engineering
+ 
+ approach (Chapter 28) suggests statistical 
+use techniques [Kel00] that execute a series of tests derived from a statistical 
+sample of all possible program executions by all users from a targeted popula-
+tion. By collecting metrics during software testing and making use of existing 
+statistical models, it is possible to develop meaningful guidelines for answering 
+the question: “When are we done testing?”    
+ 
+ 
+ 
+ 
+ 22.2  
+STRATEGIC
+ ISSUES  
+ 
+Later in this chapter, we present a systematic strategy for software testing. But 
+even the best strategy will fail if a series of overriding issues are not addressed. 
+Tom Gilb [Gil95] argues that a software testing strategy will succeed only when 
+
+software testers: (1) specify product requirements in a quantiﬁ able manner long 
+before testing commences, (2) state testing objectives explicitly, (3) understand 
+
+the users of the software and develop a proﬁ le for each user category, (4) develop 
+a testing plan that emphasizes “rapid cycle testing,”  2 
+ 
+ (5) build “robust” software 
+that is designed to test itself (the concept of antibugging is discussed in Section 
+22.3.1), (6) use effective technical reviews as a ﬁ lter prior to testing, (7) conduct 
+technical reviews to assess the test strategy and test cases themselves, and (8) 
+develop a continuous improvement approach (Chapter 37) for the testing 
+process.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  When are 
+we ﬁ nished 
+testing? ?  
+ 
+ uote:  “Testing only 
+to end-user 
+requirements is 
+like inspecting a 
+building based 
+on the work done 
+by the interior 
+designer at the 
+expense of the 
+foundations, 
+girders, and 
+plumbing.”  Boris Beizer 
+ What 
+
+guidelines lead to a 
+successful 
+software testing 
+strategy? ? WebRef 
+ An excellent list of 
+testing resources can 
+be found at   
+www.SQAtester.com  . 
+  
+2  Gilb [Gil95] recommends that a software team “learn to test in rapid cycles (2 percent of project 
+effort) of customer-useful, at least ﬁ
+ eld ‘trialable,’ increments of functionality and/or quality 
+improvement.” The feedback generated from these rapid cycle tests can be used to control 
+quality levels and the corresponding test strategies. pre22126_ch22_466-495.indd   472pre22126_ch22_466-495.indd   47213/12/13   6:14 PM13/12/13   6:14 PM

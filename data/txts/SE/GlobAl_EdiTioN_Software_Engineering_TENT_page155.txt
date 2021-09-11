@@ -1,0 +1,24 @@
+˜˜˚ˆ˜˜˜˜˜˜
+processing steps in a system. Data-flow models are useful because tracking and doc-umenting how data associated with a particular process moves through the system 
+help analysts and designers understand what is going on in the process. DFDs are 
+
+simple and intuitive and so are more accessible to stakeholders than some other types 
+of model. It is usually possible to explain them to potential system users who can 
+
+then participate in validating the model.Data-flow diagrams can be represented in the UML using the activity diagram 
+type, described in Section 5.1. Figure 5.14 is a simple activity diagram that shows 
+the chain of processing involved in the insulin pump software. You can see the 
+ processing steps, represented as activities (rounded rectangles), and the data flowing 
+between these steps, represented as objects (rectangles).An alternative way of showing the sequence of processing in a system is to use UML sequence diagrams. You have seen how these diagrams can be used to model 
+interaction, but if you draw these so that messages are only sent from left to right, 
+then they show the sequential data processing in the system. Figure 5.15 illustrates 
+this, using a sequence model of processing an order and sending it to a supplier. 
+
+Sequence models highlight objects in a system, whereas data-flow diagrams high-light the operations or activities. In practice, nonexperts seem to find data-flow dia-
+grams more intuitive, but engineers prefer sequence diagrams.CalculatepumpcommandsBlood sugarsensorInsulinpumpBlood sugarlevelPump control
+commandsInsulinrequirement
+Get sensorvalueSensordataComputesugar levelCalculateinsulindeliveryControlpumpFigure 5.14 An activity model of the insulin 
+pump™s operation:OrderFillin ( )
+Purchase officerValidate ( )
+[validation ok]«datastore»OrdersBudgetUpdate (amount)Save ( )SupplierSend ( )
+Figure 5.15 Order processing

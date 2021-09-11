@@ -1,0 +1,62 @@
+700 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 31.8 S
+UMMARY  
+Software project management is an umbrella activity within software engineer-
+ing. It begins before any technical activity is initiated and continues throughout 
+the modeling, construction, and deployment of computer software.  Four Ps have a substantial inﬂ uence on software project management—
+people, product, process, and project. People must be organized into effective 
+teams, motivated to do high-quality software work, and coordinated to achieve 
+effective communication. Product requirements must be communicated from 
+customer to developer, partitioned (decomposed) into their constituent parts, 
+
+and positioned for work by the software team. The process must be adapted to 
+the people and the problem. A common process framework is selected, an ap-
+propriate software engineering paradigm is applied, and a set of work tasks is 
+chosen to get the job done. Finally, the project must be organized in a manner 
+
+that enables the software team to succeed.  The pivotal element in all software projects is people. Software engineers can be organized in a number of different team structures that range from traditional 
+control hierarchies to “open paradigm” teams. A variety of coordination and 
+communication techniques can be applied to support the work of the team. In 
+general, technical reviews and informal person-to-person communication have 
+the most value for practitioners.  The project management activity encompasses measurement and metrics, estimation and scheduling, risk analysis, tracking, and control. Each of these top-
+ics is considered in the chapters that follow. 
+  
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+31.1.  Based on information contained in this chapter and your own experience, develop “10 commandments” for empowering software engineers. That is, make a list of 10 guide-
+lines that will lead to software people who work to their full potential.    
+ 
+31.2.  The Software Engineering Institute’s People Capability Maturity Model (People-CMM) 
+takes an organized look at “key practice areas” (KPAs) that cultivate good software people. 
+
+Your instructor will assign you one KPA for analysis and summary. 
+   
+ 
+31.3.  Describe three real-life situations in which the customer and the end user are the same. Describe three situations in which they are different.    
+ 
+31.4.  The decisions made by senior management can have a signiﬁ cant impact on the effec-
+tiveness of a software engineering team. Provide ﬁ ve examples to illustrate that this is true. 
+   
+ 
+31.5.  Review a copy of Weinberg’s book [Wei86], and write a two- or three-page summary of 
+the issues that should be considered in applying the MOI model.    
+ 
+31.6.  You have been appointed a project manager within an information systems organiza-
+tion. Your job is to build an application that is quite similar to others your team has built, 
+
+although this one is larger and more complex. Requirements have been thoroughly docu-
+mented by the customer. What team structure would you choose and why? What software 
+
+process model(s) would you choose and why?  pre22126_ch31_683-702.indd   700pre22126_ch31_683-702.indd   70013/12/13   6:16 PM13/12/13   6:16 PM

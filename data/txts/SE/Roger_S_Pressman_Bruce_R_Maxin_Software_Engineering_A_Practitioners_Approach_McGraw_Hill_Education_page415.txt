@@ -1,0 +1,70 @@
+CHAPTER 17  
+WEBAPP DESIGN 385a corporate database, as part of a local data store, or as a collection of indepen-dent ﬁ les. The data developed by the model must be formatted and organized 
+by the appropriate view object and then transmitted from the application server 
+back to the client-based browser for display on the customer’s machine. 
+ In many cases, WebApp architecture is deﬁ
+ ned within the context of the de-
+velopment environment in which the application is to be implemented. If you 
+have further interest, see [Fow03] for a discussion of development environments 
+and their role in the design of Web application architectures.
+    
+ 
+ 
+ 
+ 
+ 17.8  
+NAVIGATION
+ DESIGN  
+ 
+Once the WebApp architecture has been established and the components (pages, 
+scripts, applets, and other processing functions) of the architecture have been 
+identiﬁ ed, you must deﬁ
+ ne navigation pathways that enable users to access 
+WebApp content and functions. To accomplish this, identify the semantics of nav-
+
+igation for different users of the site, and deﬁ ne the mechanics (syntax) of achiev-
+ing the navigation.   
+17.8.1  Navigation Semantics 
+ 
+ 
+ 
+ 
+ 
+ 
+Like many WebApp design actions, navigation design begins with a consider-
+ation of the user hierarchy and related use cases (Chapter 9) developed for each 
+category of user (actor). Each actor may use the WebApp somewhat differently 
+
+and therefore have different navigation requirements. In addition, the use cases 
+developed for each actor will deﬁ ne a set of classes that encompass one or more 
+BrowserClientHTML dataUserrequestor dataController
+Manages user requests
+Selects model behavior
+Selects view responseView
+Prepares data from model
+Request updates from model
+Presents view selected by
+controllerModelEncapsulates functionality
+Encapsulates content objects
+Incorporates all WebApp states
+View selection
+Behavior request(state change)Update requestServer
+External data
+Data frommodel  
+FIGURE 17.8 
+The MVC architecture 
+
+  
+ 
+ 
+Source: Adapted from [Jac02b].   
+ uote:  “Just wait, Gretel, 
+until the moon 
+rises, and then 
+we shall see the 
+crumbs of bread 
+which I have 
+strewn about, they 
+will show us our 
+way home again.”   Hansel and 
+Gretel  pre22126_ch17_371-390.indd   385pre22126_ch17_371-390.indd   38513/12/13   6:13 PM13/12/13   6:13 PM

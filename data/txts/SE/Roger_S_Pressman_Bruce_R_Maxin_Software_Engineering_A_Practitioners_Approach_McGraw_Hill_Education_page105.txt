@@ -1,0 +1,117 @@
+CHAPTER 5  
+AGILE DEVELOPMENT 75(KIS). Once the code is complete, it can be unit-tested immediately, thereby pro-
+viding instantaneous feedback to the developers.   
+ 
+ 
+ 
+ 
+ 
+ 
+A key concept during the coding activity (and one of the most talked-about as-pects of XP) is   
+ 
+pair programming
+ 
+ 
+ 
+. XP recommends that two people work together 
+at one computer workstation to create code for a story. This provides a mechanism 
+
+for real-time problem solving (two heads are often better than one) and real-time 
+
+quality assurance (the code is reviewed as it is created). It also keeps the develop-
+ers focused on the problem at hand. In practice, each person takes on a slightly 
+
+different role. For example, one person might think about the coding details of a 
+
+particular portion of the design while the other ensures that coding standards (a 
+
+required part of XP) are being followed or that the code for the story will satisfy the 
+
+unit test that has been developed to validate the code against the story. 
+ 7  
+   
+ 
+ 
+ 
+ 
+ 
+As pair programmers complete their work, the code they develop is inte-grated with the work of others. In some cases this is performed on a daily basis 
+by an integration team. In other cases, the pair programmers have integration 
+responsibility. This “continuous integration” strategy helps to avoid compatibility 
+
+and interfacing problems and provides a “smoke testing” environment (Chap-
+. 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+Testing.   
+The unit tests that are created should be implemented using a frame-work that enables them to be automated (hence, they can be executed easily and 
+repeatedly). This encourages a regression testing strategy (Chapter 22) when-
+ever code is modiﬁ ed (which is often, given the XP refactoring philosophy). 
+ As the individual unit tests are organized into a “universal testing suite” [Wel99], integration and validation testing of the system can occur on a daily 
+
+basis. This provides the XP team with a continual indication of progress and also 
+can raise warning ﬂ ags early if things go awry. Wells [Wel99] states: “Fixing small 
+problems every few hours takes less time than ﬁ xing huge problems just before 
+the deadline.”   
+ 
+ 
+ 
+ 
+XP   
+ 
+acceptance tests 
+ 
+ 
+, also called  customer tests,
+ 
+ are speciﬁ
+ ed by the customer 
+and focus on overall system features and functionality that are visible and re-
+viewable by the customer. Acceptance tests are derived from user stories that 
+
+have been implemented as part of a software release.   
+ 
+ 
+ 
+ 
+5.4.2 Industrial XP 
+ 
+ 
+ 
+Joshua Kerievsky [Ker05] describes  Industrial Extreme Programming
+ 
+ (IXP) in 
+the following manner: “IXP is an organic evolution of XP. It is imbued with XP’s 
+
+minimalist, customer-centric, test-driven spirit. IXP differs most from the origi-
+
+nal XP in its greater inclusion of management, its expanded role for customers, 
+and its upgraded technical practices.” IXP incorporates six new practices that    XP acceptance tests 
+are derived from user 
+stories.  What new 
+
+practices are appended to XP to 
+create IXP? ?   Many software teams 
+
+are populated by 
+individualists. You’ll 
+
+have to work to 
+change that culture if 
+pair programming is to 
+work effectively. 
+ How are unit 
+
+tests used in XP? ? What is 
+
+pair programming? ?  
+7  Pair programming has become so widespread throughout the software community that 
+ all Street Journal
+ 
+ [Wal12] ran a front-page story about the subject. 
+pre22126_ch05_066-086.indd   75pre22126_ch05_066-086.indd   7513/12/13   6:10 PM13/12/13   6:10 PM

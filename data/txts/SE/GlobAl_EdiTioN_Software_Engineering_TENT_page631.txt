@@ -1,0 +1,49 @@
+˜˜˚˛ˆ˜˜˜˜˜˜˜
+only runs when processor time is available. In general, it is simpler to design a sys
+-tem so that there are a small number of process frequencies. The execution times 
+
+represent the required worst-case execution times of the processes.The final step in the design process is to design a scheduling system that will 
+ensure that a process will always be scheduled to meet its deadlines. You can only do 
+this if you know the scheduling approaches that are supported by the real-time oper-
+ating system (OS) used (Burns and Wellings 2009). The scheduler in the real-time 
+OS allocates a process to a processor for a given amount of time. The time can be 
+
+fixed, or it may vary depending on the priority of the process.In allocating process priorities, you have to consider the deadlines of each process so 
+that processes with short deadlines receive processor time to meet these deadlines. For 
+
+example, the voltage monitor process in the burglar alarm needs to be scheduled so that 
+
+voltage drops can be detected and a switch made to backup power before the system 
+
+fails. This should therefore have a higher priority than the processes that check sensor 
+
+values, as these have fairly relaxed deadlines compared to their expected execution time.
+The execution platform for most application systems is an operating system that 
+
+manages shared resources and provides features such as a file system and runtime 
+process management. However, the extensive functionality in a conventional operat-
+ing system takes up a great deal of space and slows down the operation of programs. 
+Furthermore, the process management features in the system may not be designed to 
+allow fine-grain control over the scheduling of processes.For these reasons, standard operating systems, such as Linux and Windows, are not 
+normally used as the execution platform for real-time systems. Very simple embedded 
+
+systems may be implemented as ﬁbare metalﬂ systems. The systems provide their own 
+
+execution support and so include system startup and shutdown, process and resource 
+
+management, and process scheduling. More commonly, however, embedded applica
+-
+tions are built on top of a real-time operating system (RTOS), which is an efficient 
+
+operating system that offers the features needed by real-time systems. Examples of 
+
+RTOS are Windows Embedded Compact, VxWorks, and RTLinux.A real-time operating system manages processes and resource allocation for a 
+real-time system. It starts and stops processes so that stimuli can be handled, and it 
+allocates memory and processor resources. The components of an RTOS (Figure 
+
+21.18) depend on the size and complexity of the real-time system being developed. 
+For all except the simplest systems, they usually include:1.
+ A real-time clock, which provides the information required to schedule pro-cesses periodically.2.
+ If interrupts are supported, an interrupt handler, which manages aperiodic 
+
+requests for service.

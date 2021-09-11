@@ -1,0 +1,64 @@
+ Section 6.11  Exercises 
+499  29. The system must control applets’ accesses to sensitive system resources, such as the file sys-
+tem, the processor, the network, and internal state variables. But the term “the file system” 
+
+is very broad, and useful applets usually need some persistent storage. Suggest controls that 
+
+could be placed on access to the file system. Your answer has to be more specific than “allow 
+
+all reads” or “disallow all writes.” Your answer should essentially differentiate between what 
+
+is “security critical” and not, or “harmful” and not.30. Suppose you have a high-capacity network connection coming into your home and you also 
+have a wireless network access point. Also suppose you do not use the full capacity of your 
+
+network connection. List three reasons you might still want to prevent an outsider from 
+
+obtaining free network access by intruding into your wireless network.
+31. Why is segmentation recommended for network design? That is, what makes it better to have 
+a separate network segment for web servers, one for the backend office processing, one for 
+
+testing new code, and one for system management?
+32. For large applications, some websites use load balancers to distribute traffic evenly among 
+several equivalent servers. For example, a search engine might have a massive database of 
+
+content and URLs, and several front-end processors that formulate queries to the database 
+
+manager and format results to display to an inquiring client. A load balancer would assign 
+
+each incoming client request to the least busy front-end processor. What is a security advan-
+
+tage of using a load balancer?33. Can link and end-to-end encryption both be used on the same communication? What would 
+be the advantage of that? Cite a situation in which both forms of encryption might be 
+
+desirable.34. Does a VPN use link encryption or end-to-end? Justify your answer.
+35. Why is a firewall a good place to implement a VPN? Why not implement it at the actual 
+server(s) being accessed?
+36. Does a VPN use symmetric or asymmetric encryption? Explain your answer.
+37. What is the security purpose for the fields, such as sequence number, of an IPsec packet?
+38. Discuss the trade-offs between a manual challenge response system (one to which the user 
+computes the response by hand or mentally) and a system that uses a special device, like a 
+
+calculator.
+39. A synchronous password token has to operate at the same pace as the receiver. That is, the 
+token has to advance to the next random number at the same time the receiver advances. 
+
+Because of clock imprecision, the two units will not always be perfectly together; for exam-
+
+ple, the token’s clock might run 1 second per day slower than the receiver’s. Over time, the 
+
+accumulated difference can be significant. Suggest a means by which the receiver can detect 
+
+and compensate for clock drift on the part of the token.
+40. ACLs on routers slow throughput of a heavily used system resource. List two advantages of 
+using ACLs. List a situation in which you might want to block (reject) certain traffic through 
+
+an ACL on a router; that is, a situation in which the performance penalty would not be the 
+
+deciding factor.
+41. What information might a stateful inspection firewall want to examine from multiple packets?
+42. Recall that packet reordering and reassembly occur at the transport level of the TCP/IP pro-
+tocol suite. A firewall will operate at a lower layer, either the Internet or data layer. How can 
+
+a stateful inspection firewall determine anything about a traffic stream when the stream may 
+
+be out of order or damaged?

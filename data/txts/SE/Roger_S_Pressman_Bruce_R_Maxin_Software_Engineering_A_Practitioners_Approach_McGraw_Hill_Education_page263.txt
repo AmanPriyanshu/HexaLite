@@ -1,0 +1,86 @@
+CHAPTER 12  
+DESIGN CONCEPTS 233structure of data that are used by the components. In a broader sense, however, 
+components can be generalized to represent major system elements and their 
+interactions.  One goal of software design is to derive an architectural rendering of a sys-tem. This rendering serves as a framework from which more detailed design 
+activities are conducted. A set of architectural patterns enables a software engi-
+neer to reuse design-level concepts.   Shaw and Garlan [Sha95a] describe a set of properties that should be speciﬁ ed 
+as part of an architectural design.  Structural properties
+ 
+ deﬁ
+ ne “the components 
+of a system (e.g., modules, objects, ﬁ lters) and the manner in which those compo-
+nents are packaged and interact with one another.”  
+Extra-functional properties
+ 
+ address  “ 
+how the design architecture achieves requirements for performance, capacity, reliability, security, adaptability, and other system characteristics.  
+Fam-ilies of related systems
+ 
+ 
+ “ 
+draw upon repeatable patterns that are commonly en-countered in the design of families of similar systems.”  Given the speciﬁ cation of these properties, the architectural design can be 
+represented using one or more of a number of different models [Gar95].  Struc-tural models 
+ represent architecture as an organized collection of program 
+components.  Framework models 
+ increase the level of design abstraction by 
+ attempting to identify repeatable architectural design frameworks (patterns) that are encountered in similar types of applications.  Dynamic models 
+ address 
+the behavioral aspects of the program architecture, indicating how the struc-
+ture or system conﬁ guration may change as a function of external events.  
+Process 
+ models 
+ focus on the design of the business or technical process that the system 
+must accommodate. Finally,  
+functional models 
+ can be used to represent the func-
+tional hierarchy of a system.  A number of different  architectural description languages
+ 
+ (ADLs) have been 
+developed to represent these models [Sha95b]. Although many different ADLs 
+have been proposed, the majority provide mechanisms for describing system 
+components and the manner in which they are connected to one another. 
+ You should note that there is some debate about the role of architecture in 
+design. Some researchers argue that the derivation of software architecture 
+should be separated from design and occurs between requirements engineering 
+actions and more conventional design actions. Others believe that the derivation 
+of architecture is an integral part of the design process. The manner in which 
+software architecture is characterized and its role in design are discussed in 
+Chapter 13.   
+ 
+ 
+ 
+ 
+12.3.3 Patterns 
+ 
+  
+Brad Appleton deﬁ nes a  
+design pattern 
+ in the following manner: “A pattern is 
+a named nugget of insight which conveys the essence of a proven solution to a 
+recurring problem within a certain context amidst competing concerns” [App00].   uote:  “A software 
+architecture is the 
+development work 
+product that gives 
+the highest return 
+on investment with 
+respect to quality, 
+
+schedule, and 
+cost.”  Len Bass et al. 
+  uote:  “Each pattern 
+describes a 
+problem which 
+occurs over and 
+over again in our 
+environment, and 
+then describes the 
+core of the solution 
+to that problem, 
+in such a way that 
+you can use this 
+solution a million 
+times over, without 
+
+ever doing it the 
+same way twice.”  Christopher 
+Alexander pre22126_ch12_224-251.indd   233pre22126_ch12_224-251.indd   23313/12/13   6:12 PM13/12/13   6:12 PM

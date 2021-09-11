@@ -1,0 +1,23 @@
+is distributed so that data about each market is maintained separately. Assets required to support the critical activity of equity trading (user accounts and prices) are repli
+-
+cated and available on all nodes. If a node of the system is attacked and becomes 
+
+unavailable, the critical activity of equity trading can be transferred to another coun-
+try and so can still be available to users.I have already discussed the problem of finding a balance between security and system performance. A problem of secure system design is that in many cases, the 
+architectural style that is best for the security requirements may not be the best one 
+for meeting the performance requirements. For example, say an application has an 
+absolute requirement to maintain the confidentiality of a large database and another 
+requirement for very fast access to that data. A high-level of protection suggests that 
+layers of protection are required, which means that there must be communications 
+between the system layers. This has an inevitable performance overhead and so will 
+slow down access to the data.If an alternative architecture is used, then implementing protection and guaran-teeing confidentiality may be more difficult and expensive. In such a situation, you 
+have to discuss the inherent conflicts with the customer who is paying for the system 
+and agree on how these conflicts are to be resolved.US equity dataUS tradinghistoryInternationalequity pricesUS funds dataUS user accountsInternationaluser accountsNew York trading system
+Authentication and authorizationUK equity dataUK tradinghistoryInternationalequity pricesUK funds dataUK user accountsInternationaluser accountsLondon trading systemAuthentication and authorizationEuro. equity dataEuro. tradinghistoryInternationalequity pricesEuro. funds dataEuropean useraccountsInternationaluser accountsFrankfurt trading system
+Authentication and authorizationAsian equity dataHK tradinghistoryInternationalequity pricesAsian funds dataHK user accountsInternationaluser accountsHong Kong trading system
+Authentication and authorizationFigure 13.14
+  Distributed assets in an 
+
+equity trading system 
+˜˜˚˛˙˜˜˜
+˜˜˜

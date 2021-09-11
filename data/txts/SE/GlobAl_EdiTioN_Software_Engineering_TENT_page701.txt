@@ -1,0 +1,51 @@
+˜˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜˜
+Software quality management is concerned with ensuring that developed software 
+systems are ﬁfit for purpose.ﬂ That is, systems should meet the needs of their users, 
+should perform efficiently and reliably, and should be delivered on time and within 
+budget. The use of quality management techniques along with new software tech-
+nologies and testing methods has led to significant improvements in the level of 
+
+software quality over the past 20 years.Formalized quality management (QM) is particularly important in teams that are 
+developing large, long-lifetime systems that take several years to develop. These systems 
+
+are developed for external clients, usually using a plan-based process. For these systems, 
+
+quality management is both an organizational and an individual project issue:1.
+ At an organizational level, quality management is concerned with establishing a 
+framework of organizational processes and standards that will lead to high-quality 
+
+software. The QM team should take responsibility for defining the software 
+
+development processes to be used and standards that should apply to the software 
+
+and related documentation, including the system requirements, design, and code.2. At a project level, quality management involves the application of specific qual-
+ity processes, checking that these planned processes have been followed, and 
+
+ensuring that the project outputs meet the defined project standards. Project 
+
+quality management may also involve defining a quality plan for a project. The 
+quality plan should set out the quality goals for the project and define what 
+ processes and standards are to be used.Software quality management techniques have their roots in methods and techniques 
+that were developed in manufacturing industries, where the terms quality assurance and 
+
+quality control are widely used. Quality assurance is the definition of processes and 
+
+standards that should lead to high-quality products and the introduction of quality pro-
+cesses into the manufacturing process. Quality control is the application of these quality 
+
+processes to weed out products that are not of the required level of quality. Both quality 
+
+assurance and quality control are part of quality management.In the software industry, some companies see quality assurance as the definition of procedures, processes, and standards to ensure that software quality is achieved. 
+In other companies, quality assurance also includes all configuration management, 
+verification, and validation activities that are applied after a product has been handed 
+over by a development team.Quality management provides an independent check on the software develop-ment process. The QM team checks the project deliverables to ensure that they are 
+consistent with organizational standards and goals (Figure 24.1). They also check 
+
+process documentation, which records the tasks that have been completed by each 
+team working on this project. The QM team uses documentation to check that impor-
+tant tasks have not been forgotten or that one group has not made incorrect assump
+-
+tions about what other groups have done.The QM team in large companies is usually responsible for managing the release 
+testing process. 
+As I discussed in Chapter 8, this means that they manage the testing 
+of the software before it is released to customers. In addition, they are responsible 

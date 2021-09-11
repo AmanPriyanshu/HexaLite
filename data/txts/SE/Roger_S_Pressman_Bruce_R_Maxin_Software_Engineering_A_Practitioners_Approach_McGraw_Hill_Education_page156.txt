@@ -1,0 +1,83 @@
+126 PART TWO  
+MODELINGAppropriate training aids (if required) should be developed; troubleshoot-ing guidelines should be provided, and when necessary, a “what’s different 
+
+about this software increment” description should be published.  12 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Principle 5. 
+  Buggy software should be ﬁ xed ﬁ rst, delivered later.Buggy software should be ﬁ
+ xed ﬁ
+ rst, delivered later.
+ 
+ Under time pressure, some software organizations deliver low-quality incre-
+ments with a warning to the customer that bugs “will be ﬁ xed in the next 
+release.” This is a mistake. There’s a saying in the software business: 
+
+ “Customers will forget you delivered a high-quality product a few days late, but they will never forget the problems that a low-quality product 
+caused them. The software reminds them every day.” 
+   
+The delivered software provides beneﬁ t for the end user, but it also pro-
+vides useful feedback for the software team. As the increment is put into use, 
+
+end users should be encouraged to comment on features and functions, ease 
+
+of use, reliability, security concerns, and any other characteristics that are 
+
+appropriate. 
+  
+ 
+ 
+ 
+ 
+ 7.4 W
+ORK PRACTICES  
+ 
+Iskold [Isk08] writes that the quality of software has become the competitive differentiator between software companies. As you learned in Chapter 6, the 
+human aspects of software engineering are as important as any other technol-
+ogy area. For that reason, it is interesting to examine the traits and work habits 
+that seem to be shared among successful software engineers. Among the more 
+important are a desire to continuously refactor the design and code, actively 
+use proven design patterns, acquire reusable components whenever possible, 
+focus on usability, develop maintainable applications, apply the programming 
+
+language that is best for the application, and build software using proven design 
+and testing practices.  Beyond basic traits and work habits, Isklod [Isk08] suggests 10 concepts that transcend programming languages and speciﬁ c technologies. Some of these 
+concepts form the prerequisite knowledge needed to appreciate the role of soft-
+ware engineering in the software process.    
+ 
+ 1.   
+Interfaces. 
+ Simple, familiar interfaces are less error-prone than complex 
+or unique interfaces.     
+ 2.   
+Conventions and templates. 
+ Naming conventions and software templates are a good way to communicate with a larger number of developers and 
+end users.   
+ uote:  “The ideal engineer 
+
+He is not a 
+scientist, he is not a 
+mathematician, he 
+is not a sociologist 
+or a writer; but 
+he may use the 
+knowledge and 
+techniques of any 
+or all of these 
+disciplines in 
+solving engineering 
+problems.”  N. W. Dougherty 
+  
+ 
+ 
+ 
+ 
+12  During the communication activity, the software team should determine what types of help 
+materials users want. pre22126_ch07_103-130.indd   126pre22126_ch07_103-130.indd   12613/12/13   6:11 PM13/12/13   6:11 PM

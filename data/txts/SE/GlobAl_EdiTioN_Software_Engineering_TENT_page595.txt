@@ -1,0 +1,50 @@
+˜˜˚˛ˆ˜˜˜˜˜˜˜˜
+systems for reuse, covered in Chapter 15. You need to assess and evaluate exist
+-ing systems to choose the capabilities that you need. When you are selecting 
+
+application systems, the selection criteria are largely commercial; that is, which 
+systems offer the most suitable functionality at a price you are  prepared to pay?However, political imperatives and issues of system governance and management 
+
+are often the key factors that influence what systems are included in a SoS. For 
+
+example, some systems may be excluded from consideration because an organiza-
+tion does not wish to collaborate with a competitor. In other cases, organizations 
+
+that are contributing to a federation of systems may have systems in place and 
+
+insist that these are used, even though they are not necessarily the best systems.3. Architectural design In parallel with system selection, an overall architecture 
+
+for the SoS has to be developed. Architectural design is a major topic in its own 
+
+right that I cover in Section 20.5.4. Interface development The different systems involved in a SoS usually have 
+
+incompatible interfaces. Therefore, a major part of the software engineering 
+
+effort in developing a SoS is to develop interfaces so that constituent systems 
+
+can interoperate. This may also involve the development of a unified user inter-
+face so that SoS operators do not have to deal with multiple user interfaces as 
+
+they use the different systems in the SoS.5. Integration and deployment This stage involves making the different systems 
+involved in the SoS work together and interoperate through the developed inter-faces. System deployment means putting the system into place in the organizations 
+
+concerned and making it operational.In parallel with these technical activities, there needs to be a high-level activity 
+concerned with establishing policies for the governance of the system of systems and 
+
+defining management guidelines to implement these policies. Where there are several 
+
+organizations involved, this process can be prolonged and difficult. It may involve 
+
+organizations changing their own policies and processes. It is therefore important to 
+
+start governance discussions at an early stage in the SoS development process.ˇˇThe constituent systems in a SoS are usually developed independently for some spe
+-
+cific purpose. Their user interface is tailored to that original purpose. These systems 
+
+may or may not have application programming interfaces (APIs) that allow other 
+
+systems to interface directly to them. Therefore, when these systems are integrated 
+into a SoS, software interfaces have to be developed, which allows the constituent 
+systems in the SoS to interoperate.In general, the aim in SoS development is for systems to be able to communicate directly with each other without user intervention. If these systems already offer a 
+service-based interface, as discussed in Chapter 18, then this communication can be 
+implemented using this approach. Interface development involves describing how to 

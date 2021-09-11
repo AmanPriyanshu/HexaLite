@@ -1,0 +1,51 @@
+The stages in the testing process are:1.       
+Component testing The components making up the system are tested by the people 
+developing the system. Each component is tested independently, without other system components. Components may be simple entities such as functions or 
+
+object classes or may be coherent groupings of these entities. Test automation 
+tools, such as JUnit for Java, that can rerun tests when new versions of the 
+ component are created, are commonly used (Koskela 2013).
+2.    System testing 
+System components are integrated to create a complete system. 
+This process is concerned with finding errors that result from unanticipated 
+
+interactions between components and component interface problems. It is also 
+
+concerned with showing that the system meets its functional and non-functional 
+requirements, and testing the emergent system properties. For large systems, 
+
+this may be a multistage process where components are integrated to form 
+ subsystems that are individually tested before these subsystems are integrated to 
+form the final system.3.    Customer testing 
+This is the final stage in the testing process before the system 
+is accepted for operational use. The system is tested by the system customer (or 
+potential customer) rather than with simulated test data. For custom-built 
+ software, customer testing may reveal errors and omissions in the system 
+
+requirements definition, because the real data exercise the system in different 
+
+ways from the test data. Customer testing may also reveal requirements problems 
+
+where the system™s facilities do not really meet the users™ needs or the system 
+
+performance is unacceptable. For products, customer testing shows how well 
+
+the software product meets the customer™s needs.Ideally, component defects are discovered early in the testing process, and inter
+-face problems are found when the system is integrated. However, as defects are dis-
+covered, the program must be debugged, and this may require other stages in the 
+
+testing process to be repeated. Errors in program components, say, may come to 
+
+light during system testing. The process is therefore an iterative one with informa-
+tion being fed back from later stages to earlier parts of the process.Normally, component testing is simply part of the normal development process. Programmers make up their own test data and incrementally test the code as it is 
+
+developed. The programmer knows the component and is therefore the best person 
+to generate test cases.If an incremental approach to development is used, each increment should be 
+tested as it is developed, with these tests based on the requirements for that incre-
+ment. In test-driven development, which is a normal part of agile processes, tests are 
+
+developed along with the requirements before development starts. This helps the 
+
+testers and developers to understand the requirements and ensures that there are no 
+delays as test cases are created.When a plan-driven software process is used (e.g., for critical systems develop-ment), testing is driven by a set of test plans. An independent team of testers works ˜˜˚˜˜˜˜
+˜˜

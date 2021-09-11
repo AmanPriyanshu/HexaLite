@@ -1,0 +1,30 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜for checking that the system tests provide coverage of the requirements and that 
+proper records of the testing process are maintained.The QM team should be independent and not part of the software development group so that they can take an objective view of the quality of the software. They can 
+report on software quality without being influenced by software development issues. 
+Ideally, the QM team should have organization-wide responsibility for quality man-
+agement. They should report to management above the project manager level.Because project managers have to maintain the project budget and schedule, they 
+may be tempted to compromise on product quality to meet that schedule. An independ-ent QM team ensures that the organizational goals of quality are not influenced by 
+
+short-term budget and schedule considerations. In smaller companies, however, this is 
+
+practically impossible. Quality management and software development are inevitably 
+
+intertwined with people having both development and quality responsibilities.Formalized quality planning is an integral part of plan-based development processes. 
+It is the process of developing a quality plan for a project. The quality plan should set 
+
+out the desired software qualities and describe how these qualities are to be assessed. It 
+
+defines what ﬁhigh-qualityﬂ software actually means for a particular system. Engineers, 
+
+therefore, have a shared understanding of the most important software quality attributes.
+Humphrey (Humphrey 1989), in his classic book on software management, sug-gests an outline structure for a quality plan. This outline includes the following:1. Product introduction A description of the product, its intended market, and the quality expectations for the product.2. Product plans 
+The critical release dates and responsibilities for the product, 
+
+along with plans for distribution and product servicing.3. Process descriptions The development and service processes and standards that 
+should be used for product development and management.4. Quality goals The quality goals and plans for the product, including an identifi-
+cation and justification of critical product quality attributes.5. Risks and risk management The key risks that might affect product quality and 
+the actions to be taken to address these risks.Software developmentprocessQuality managementprocessD1D2D3D4D5
+Standards andproceduresQuality
+planQuality review reports
+Figure 24.1 Quality management and software development

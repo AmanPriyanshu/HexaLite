@@ -1,0 +1,78 @@
+324 Chapter 5  
+Operating SystemsThis problem is difficult to solve at the application level, but at the operating sys-
+tem level it is a little easier to solve. A 
+trusted path is an unforgeable connection by 
+which the user can be confident of communicating directly with the operating system, 
+
+not with any fraudulent intermediate application. In the early days of Microsoft Win-
+
+dows, the user had to press the control, alt, and delete keys simultaneously to activate 
+
+the login prompt. The keyboard device driver trapped that one sequence and imme-
+
+diately transferred control to the 
+
+operating system’s authentication 
+
+routine. Thus, even if an applica-
+
+tion could forge a convincing-look-
+
+ing login screen, the user knew the 
+
+only safe way to log in was to press 
+
+control–alt–delete.Trusted systems required a trusted path for all security-critical authentication opera-
+tions, such as changing a password. The Orange Book [DOD85] requires “a trusted 
+
+communication path between itself and user for initial login and authentication. Com-
+
+munications via this path shall be initiated exclusively by a user.” Sidebar 5-5 describes 
+
+a physical case in which the lack of a trusted path compromised security.
+A trusted path precludes interference 
+
+between a user and the security 
+enforcement mechanisms of the 
+
+operating system.SIDEBAR 5-5 Milking the Skimmer
+Journalist Brian Krebs has a series of reports on ATM skimmers. (See http://
+krebsonsecurity.com/2011/01/atm-skimmers-up-close/ and follow the links 
+
+for other postings; note especially how authentic the devices look in the 
+
+pictures.) A 
+skimmer is a device that fits over the slot on an ATM machine 
+into which you insert the bank card. The skimmer reads the information 
+
+encoded on the bank card’s magnetic stripe and, in some models, a tiny 
+
+camera photographs your hand as you enter your PIN. The criminal then 
+
+downloads the data captured, and with the encoded information it has cap-
+
+tured, the criminal fabricates a duplicate bank card. Using your PIN, the 
+
+criminal can then impersonate you to access your account.ATM card fraud is prevalent in the United States, but few consum-
+ers are concerned because currently most banks reimburse the losses to 
+
+individuals’ accounts. In Europe, however, banks take a harsher stance, 
+
+making customers responsible for some losses. According to the European 
+
+ATM Security Team, ATM crime rose 24 percent for the six-month period 
+
+January–June 2010 as compared to the same period of 2009; there were 
+
+5,743 attacks in the 2010 period with losses of €144 million (almost $200 million). By contrast, the U.S. Secret Service estimates ATM fraud is approx-
+
+imately $1 billion in the United States.Three researchers with Cambridge University [DRI08] found a sim-
+ilar problem with skimmers added to handheld terminals widely used in 
+
+Europe to validate customers’ credit cards. The customer passes a card 
+
+to a clerk, who inserts it into a machine with a numeric keypad and passes 
+
+the machine for the customer to enter a secret PIN. Although the customer 
+
+is performing an authentication function, the researchers found they could 

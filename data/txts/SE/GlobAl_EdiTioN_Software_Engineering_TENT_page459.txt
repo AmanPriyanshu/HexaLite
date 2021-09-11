@@ -1,0 +1,41 @@
+˜˜˚˛ˆ˜˜˜
+˜˜˜
+Application system integration can be simplified if a service-oriented approach 
+is used. Essentially, a service-oriented approach means allowing access to the 
+application system™s functionality through a standard service interface, with a 
+
+service for each discrete unit of functionality. Some applications may offer a ser-vice interface, but sometimes this service interface has to be implemented by the 
+
+system integrator. Essentially, you have to program a wrapper that hides the 
+
+application and provides externally visible services (Figure 15.15). This approach 
+
+is particularly valuable for legacy systems that have to be integrated with newer 
+
+application systems.In principle, integrating application systems is the same as integrating any other component. You have to understand the system interfaces and use them exclusively 
+to communicate with the software; you have to trade off specific requirements 
+
+against rapid development and reuse; and you have to design a system architecture 
+that allows the application systems to operate together.However, the fact that these products are usually large systems in their own right, and 
+are often sold as separate standalone systems, introduces additional problems. Boehm 
+
+and Abts (Boehm and Abts 1999) highlight four important system integration problems:1. Lack of control over functionality and performance Although the published 
+interface of a product may appear to offer the required facilities, the system may 
+
+not be properly implemented or may perform poorly. The product may have 
+
+hidden operations that interfere with its use in a specific situation. Fixing these 
+problems may be a priority for the system integrator but may not be of real con-
+cern for the product vendor. Users may simply have to find workarounds to 
+
+problems if they wish to reuse the application system.2. Problems with system interoperability It is sometimes difficult to get individual 
+application systems to work together because each system embeds its own 
+
+assumptions about how it will be used. Garlan et al. (Garlan, Allen, and 
+
+Ockerbloom 1995), reporting on their experience integrating four application 
+
+systems, found that three of these products were event-based but that each used 
+a different model of events. Each system assumed that it had exclusive access to 
+
+the event queue. As a consequence, integration was very difficult. The project ApplicationsystemService wrapperServicesServicesFigure 15.15  Application wrapping 

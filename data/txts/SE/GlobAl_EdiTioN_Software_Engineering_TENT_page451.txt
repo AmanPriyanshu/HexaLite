@@ -1,0 +1,46 @@
+˜˜˚˛˙˜˜˜
+˜˜˜
+2. Select the existing system that is the closest fit to the requirements When creat-ing a new member of a product line, you may start with the nearest product 
+
+instance. The requirements are analyzed, and the family member that is the clos
+-
+est fit is chosen for modification.3. Renegotiate requirements As more details of required changes emerge and the 
+project is planned, some requirements may be renegotiated with the customer to 
+minimize the changes that will have to be made to the base application.4. Adapt existing system New modules are developed for the existing system, and 
+existing system modules are adapted to meet the new requirements.5. Deliver new product family member The new instance of the product line is 
+
+delivered to the customer. Some deployment-time configuration may be 
+
+required to reflect the particular environments where the system will be used. At 
+this stage, you should document its key features so that it may be used as a basis 
+for other system developments in the future.When you create a new member of a product line, you may have to find a com-promise between reusing as much of the generic application as possible and satis-
+fying detailed stakeholder requirements. The more detailed the system 
+
+requirements, the less likely it is that the existing components will meet these 
+
+requirements. However, if stakeholders are willing to be flexible and to limit the 
+
+system modifications that are required, you can usually deliver the system more 
+
+quickly and at a lower cost.Software product lines are designed to be reconfigurable. This reconfigura
+-tion may involve adding or removing components from the system, defining 
+
+parameters and constraints for system components, and including knowledge of 
+
+business processes. This configuration may occur at different stages in the devel-
+opment process:1. Design-time configuration The organization that is developing the software 
+modifies a common product-line core by developing, selecting, or adapting 
+
+components to create a new system for a customer.2. Deployment-time configuration A generic system is designed for configuration 
+by a customer or consultants working with the customer. Knowledge of the 
+ customer™s specific requirements and the system™s operating environment is 
+
+embedded in the configuration data used by the generic system.When a system is configured at design time, the supplier starts with either a 
+generic system or an existing product instance. By modifying and extending mod-
+ules in this system, the supplier creates a specific system that delivers the required 
+
+customer functionality. This usually involves changing and extending the source 
+
+code of the system so that greater flexibility is possible than with deployment-
+
+time configuration.

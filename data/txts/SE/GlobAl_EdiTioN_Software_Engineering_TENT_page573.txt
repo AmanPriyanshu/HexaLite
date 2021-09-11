@@ -1,0 +1,53 @@
+˜˜˚˛ˆ˜˜˜
+˜˜
+Subsystem engineering involves designing and building the system™s hardware and 
+software components. For some types of systems, such as spacecraft, all hardware and 
+software components may be designed and built during the development process. 
+
+However, in most systems, some components are bought rather than developed. It is 
+
+usually much cheaper to buy existing products than to develop special-purpose compo
+-
+nents. However, if you buy large off-the-shelf systems, such as ERP systems, there is a 
+
+significant cost in configuring these systems for use in their operational environment.Subsystems are usually developed in parallel. When problems that cut across sub-system boundaries are encountered, a system modification request must be made. 
+
+Where systems involve extensive hardware engineering, making modifications after 
+manufacturing has started is usually very expensive. Often ﬁworkaroundsﬂ that com
+-
+pensate for the problem must be found. These workarounds usually involve software 
+
+changes to implement new requirements.During systems integration, you take the independently developed subsystems 
+and put them together to make up a complete system. This integration can be 
+
+achieved using a ﬁbig bangﬂ approach, where all the subsystems are integrated at the 
+same time. However, for technical and managerial reasons, an incremental integra
+-
+tion process where subsystems are integrated one at a time is the best approach:1.
+ It is usually impossible to schedule the development of all the subsystems so 
+that they are all finished at the same time.2. Incremental integration reduces the cost of error location. If many subsystems 
+
+are simultaneously integrated, an error that arises during testing may be in any of 
+
+these subsystems. When a single subsystem is integrated with an already work-
+ing system, errors that occur are probably in the newly integrated subsystem or 
+
+in the interactions between the existing subsystems and the new subsystem.As an increasing number of systems are built by integrating off-the-shelf hardware 
+and software application systems, the distinction between implementation and integra-
+tion is becoming blurred. In some cases, there is no need to develop new hardware or 
+
+software. Essentially, systems integration is the implementation phase of the system.During and after the integration process, the system is tested. This testing should 
+focus on testing the interfaces between components and the behavior of the system as a 
+
+whole. Inevitably, testing also reveals problems with individual subsystems that have to 
+
+be repaired. Testing takes a long time, and a common problem in system development 
+
+is that the testing team may run out of either budget or time. This problem can lead to the 
+
+delivery of error-prone systems that need be repaired after they have been deployed.Subsystem faults that are a consequence of invalid assumptions about other subsys-tems are often exposed during system integration. This may lead to disputes between 
+
+the contractors responsible for implementing different subsystems. When problems 
+
+are discovered in subsystem interaction, the contractors may argue about which sub-
+system is faulty. Negotiations on how to solve the problems can take weeks or months.The final stage of the system development process is system delivery and deploy-ment. The software is installed on the hardware and is readied for operation. This˜may 

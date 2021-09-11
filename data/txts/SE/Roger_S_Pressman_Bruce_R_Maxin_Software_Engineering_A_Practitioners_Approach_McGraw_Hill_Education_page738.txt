@@ -1,0 +1,101 @@
+708 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 32.2  
+SOFTWARE
+ MEASUREMENT  
+ 
+In Chapter 30 we noted that measurements in the physical world can be cat-egorized in two ways: direct measures (e.g., the length of a bolt) and indirect 
+measures (e.g., the “quality” of bolts produced, measured by counting rejects). 
+Software metrics can be categorized similarly. 
+  
+Direct measures
+ 
+ of the software process include cost and effort applied. Direct 
+measures of the product include lines of code (LOC) produced, execution speed, 
+memory size, and defects reported over some set period of time. Indirect mea-
+sures of the product include functionality, quality, complexity, efﬁ
+ ciency, reliabil-
+ity, maintainability, and many other “–abilities” that are discussed in Chapter 19. 
+  The cost and effort required to build software, the number of lines of code produced, and other direct measures are relatively easy to collect, as long as   uote:  “Not everything 
+that can be counted 
+counts, and not 
+everything that 
+
+counts can be 
+counted.”  Albert Einstein 
+  
+Establishing a Metrics Approach   
+Establishing a Metrics Approach 
+ 
+ 
+The scene:  Doug Miller’s ofﬁ
+ ce as 
+the  SafeHome 
+ software project is about to begin.   
+The players:  Doug Miller (manager of the  
+SafeHome 
+ software engineering team) and Vinod Raman and 
+Jamie Lazar, members of the product software engineer-
+
+ing team.   
+The conversation:    
+Doug:  Before we start work on this project, I’d like you 
+guys to deﬁ ne and collect a set of simple metrics. To 
+start, you’ll have to deﬁ
+ ne your goals. 
+  
+Vinod (frowning):  We’ve never done that before, 
+  
+Jamie (interrupting):  And based on the time line 
+management has been talking about, we’ll never have 
+the time. What good are metrics anyway?   
+Doug (raising his hand to stop the onslaught):  Slow down and take a breath, guys. The fact that we’ve 
+never done it before is all the more reason to start now, 
+
+and the metrics work I’m talking about shouldn’t take 
+
+  
+Vinod:  How? 
+  
+Doug:  Look, we’re going to be doing a lot more 
+in-house software engineering as our products get 
+more intelligent, become Web enabled, mobile, all 
+
+software better. The only way to do that is to measure. 
+  
+Jamie:  But we’re under time pressure, Doug. I’m not 
+
+do our work, not collect data.   
+Doug (calmly):  Jamie, an engineer’s work involves 
+collecting data, evaluating it, and using the results to 
+improve the product and the process. Am I wrong?   
+Jamie:  No, 
+  
+Doug:  What if we hold the number of measures we 
+collect to no more than ﬁ ve or six and focus on quality? 
+  
+Vinod:  
+  
+Jamie:  Tt know. I still think this isn’t 
+necessary. 
+  
+Doug:  I’m going to ask you to humor me on this one. 
+How much do you guys know about software metrics?   
+Jamie (looking at Vinod):  Not much. 
+  
+Doug:  Here are some W
+getting up to speed.   
+Jamie (smiling):  I thought you said this wouldn’t take 
+any time.   
+Doug:  Time you spend learning is never 
+
+goals, ask a few questions, and deﬁ ne the metrics we 
+need to collect.   
+SAFEHOME pre22126_ch32_703-726.indd   708pre22126_ch32_703-726.indd   70813/12/13   6:16 PM13/12/13   6:16 PM

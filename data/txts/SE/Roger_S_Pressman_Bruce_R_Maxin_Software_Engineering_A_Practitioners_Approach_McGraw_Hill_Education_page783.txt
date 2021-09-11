@@ -1,0 +1,91 @@
+CHAPTER 33  
+ESTIMATION FOR SOFTWARE PROJECTS
+ 753 
+ 
+ 
+33.3.  Performance is an important consideration during planning. Discuss how perfor-
+mance can be interpreted differently depending upon the software application area.    
+ 
+33.4.  Do a functional decomposition of the robot software you described in Problem 33.1. Estimate the size of each function in LOC. Assuming that your organization produces 
+LOC/pm with a burdened labor rate of $7,000 per person-month, estimate the effort and 
+
+cost required to build the software using the LOC-based estimation technique described in 
+this chapter. 
+   
+ 
+33.5.  Use the software equation to estimate the lawn-mowing robot software. Assume that Equation (33.4) is applicable and that  P  5 8,000.    
+ 
+33.6.  Develop a spreadsheet model that implements one or more of the estimation tech-niques described in this chapter. Alternatively, acquire one or more online models for esti-
+
+mation from Web-based sources. 
+   
+ 
+33.7.  For a project team: Develop a software tool that implements each of the estimation techniques developed in this chapter. 
+   
+ 
+33.8.  It seems odd that cost and schedule estimates are developed during software project planning—before detailed software requirements analysis or design has been conducted. 
+Why do you think this is done? Are there circumstances when it should not be done?   
+ 
+ 
+ 
+  F
+URTHER
+ READINGS AND INFORMATION
+ SOURCES  
+ 
+Most software project management books contain discussions of project estimation. The Project Management Institute ( PMBOK Guide, 
+ PMI, 2001), Wysoki ( 
+Effective Project Manage-
+ment: Traditional, Agile, Extreme,
+ 
+ 6th ed., Wiley, 2011), Lewis ( 
+Project Planning Scheduling 
+and Control,
+ 
+ 5th ed., McGraw-Hill, 2010), Kerzner ( 
+Project Management: A Systems Ap-
+proach to Planning, Scheduling, and Controlling,
+ 
+ 10th ed., Wiley, 2009), Bennatan ( 
+On Time, 
+Within Budget: Software Project Management Practices and Techniques,
+ 
+ 3rd ed., Wiley, 2000), 
+and Phillips [Phi98] provide useful estimation guidelines.  McConnell ( Software Estimation: Demystifying the Black Art
+ 
+, Microsoft Press, 2006) has written a pragmatic guide that provides worthwhile guidance for anyone who must estimate 
+the cost of software. Parthasarathy ( Practical Software Estimation,
+ 
+ Addison-Wesley, 2007) 
+emphasizes function points as an estimation metric. Hill ( Practical Software Project Esti-
+mation, 
+ McGraw-Hill Osborne Media, 2010) and Laird and Brennan ( 
+Software Measurement 
+and Estimation: A Practical Approach,
+ 
+ Wiley-IEEE Computer Society Press, 2006) addresses 
+measurement and its use in software estimation. Pﬂ eeger ( 
+Software Cost Estimation and 
+Sizing Methods, Issues, and Guidelines, 
+ RAND Corporation, 2005) has developed an abbrevi-
+ated guidebook that addresses many estimation fundamentals. Jones ( Estimating Software 
+Costs, 
+ 2nd ed., McGraw-Hill, 2007) has written one of the most comprehensive treatments 
+of models and data that are applicable to software estimating in every application domain. 
+Coombs ( IT Project Estimation,
+ 
+ Cambridge University Press, 2002, and Roetzheim and 
+Beasley ( Software Project Cost and Schedule Estimating: Best Practices,
+ 
+ Prentice Hall, 1997) 
+present many useful models and suggest step-by-step guidelines for generating the best 
+possible estimates.  A wide variety of information sources on software estimation is available on the Internet. An up-to-date list of World Wide Web references can be found under “software engineering 
+
+resources” at the SEPA website:  
+www.mhhe.com/pressman
+ 
+.  
+ 
+ 
+ 
+ pre22126_ch33_727-753.indd   753pre22126_ch33_727-753.indd   75313/12/13   6:17 PM13/12/13   6:17 PM

@@ -1,0 +1,63 @@
+704 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+Within the context of the software process and the projects that are conducted 
+using the process, a software team is concerned primarily with productivity and 
+quality metrics—measures of software development “output” as a function of ef-
+fort and time applied and measures of the “ﬁ tness for use” of the work products 
+that are produced. For planning and estimating purposes, our interest is histori-
+cal. What was software development productivity on past projects? What was the 
+quality of the software that was produced? How can past productivity and quality 
+data be extrapolated to the present? How can it help us plan and estimate more 
+accurately?  In their guidebook on software measurement, Park, Goethert, and Florac [Par96b] note the reasons that we measure: (1) to  characterize 
+ in an effort to gain 
+an understanding “of processes, products, resources, and environments, and to 
+establish baselines for comparisons with future assessments”; (2) to  evaluate 
+ “to 
+determine status with respect to plans”; (3) to  predict
+ 
+ by “gaining understand-
+ings of relationships among processes and products and building models of these 
+relationships”; and (4) to  improve
+ 
+ by “identify[ing] roadblocks, root causes, inef-
+ﬁ ciencies, and other opportunities for improving product quality and process 
+performance.”  Measurement is a management tool. If conducted properly, it provides a proj-
+ect manager with insight. And as a result, it assists the project manager and the 
+software team in making decisions that will lead to a successful project.   
+ 
+ 
+ 
+ 32.1  
+METRICS IN THE PROCESS AND PROJECT DOMAINS  
+ 
+ 
+Process metrics
+ 
+ are collected across all projects and over long periods of time. 
+Their intent is to provide a set of process indicators that lead to long-term soft-
+ware process improvement (Chapter 37).  Project metrics
+ 
+ enable a software proj-
+ect manager to (1) assess the status of an ongoing project, (2) track potential 
+risks, (3) uncover problem areas before they go “critical,” (4) adjust work ﬂ ow 
+or tasks, and (5) evaluate the project team’s ability to control quality of software 
+
+work products.  Measures that are collected by a project team and converted into metrics for use during a project can also be transmitted to those with responsibility for soft-
+ware process improvement. For this reason, many of the same metrics are used 
+in both the process and project domains.   
+ 
+32.1.1   
+Process Metrics and Software Process Improvement 
+ 
+The only rational way to improve any process is to measure speciﬁ c attributes of 
+the process, develop a set of meaningful metrics based on these attributes, and 
+then use the metrics to provide indicators that will lead to a strategy for improve-
+ment (Chapter 37). But before we discuss software metrics and their impact on     software 
+quality. . . . . . . 716  
+
+    use case-oriented. . 
+
+714  
+    WebApps. . . . . 714  
+  pre22126_ch32_703-726.indd   704pre22126_ch32_703-726.indd   70413/12/13   6:16 PM13/12/13   6:16 PM

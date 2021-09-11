@@ -1,0 +1,22 @@
+410 Chapter 6  
+Networksman-in-the-middle explanation for routers is a bit complicated, so we present a sim-
+plified version that highlights the middle role; for a more complete description of this 
+
+phenomenon, consult Hepner et al. [HEP09].Each router sends a message to other routers, listing addresses to which it has a path; the other routers then add their paths and forward the extended list to the other routers 
+
+as well. In this way, all routers learn of the connections of other routers. In Figure 6-25, 
+
+four routers control four subnets: A controls the 10.0.0.0 subnet; B, the 20.0.0.0, and 
+
+so forth. A is adjacent to B, B is adjacent to C, and T is another router not adjacent to 
+
+any of the other three. A advertises to its neighbors that it is a distance of 1 from any 
+
+machine in the 10.0.0.0 subnet.Because B has just learned that router A is only distance 1 from the 10.0.0.0 sub-
+net, B advertises to its neighbors A and C that it is distance 1 from its own subnet and 
+Please convert www.microsoft.com
+207.46.197.32UserDNS server
+AttackerReceived too
+late; ignored7.0.1.1FIGURE 6-24 Address Resolution Involving DNS Spoofing
+FIGURE 6-25 Router Advertises Its Subnet
+10.0.0.090.0.0.010.0.0.0 dist 120.0.0.030.0.0.0ATBC…

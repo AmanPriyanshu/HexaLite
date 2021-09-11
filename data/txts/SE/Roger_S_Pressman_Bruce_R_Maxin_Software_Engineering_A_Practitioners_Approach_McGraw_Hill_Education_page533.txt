@@ -1,0 +1,118 @@
+CHAPTER 23  
+TESTING CONVENTIONAL APPLICATIONS
+ 503 
+is not considered to be an independent path because it is simply a combination of already speciﬁ ed paths and does not traverse any new edges. 
+ Paths 1 through 4 constitute a  basis set 
+ for the ﬂ
+ ow graph in  
+Figure 23.2b . That is, if you can design tests to force execution of these paths (a basis set), every 
+statement in the program will have been guaranteed to be executed at least one 
+time and every condition will have been executed on its true and false sides. It 
+should be noted that the basis set is not unique. In fact, a number of different 
+basis sets can be derived for a given procedural design.   
+ 
+How do you know how many paths to look for? The computation of cyclomatic complexity provides the answer.  
+Cyclomatic complexity 
+ is a software metric that 
+provides a quantitative measure of the logical complexity of a program. When 
+used in the context of the basis path testing method, the value computed for cyc-
+lomatic complexity deﬁ nes the number of independent paths in the basis set of a 
+program and provides you with an upper bound for the number of tests that must 
+be conducted to ensure that all statements have been executed at least once.  Cyclomatic complexity has a foundation in graph theory and provides you with an extremely useful software metric. Complexity is computed in one of 
+three ways:   
+ 
+ 
+ 
+ 
+ 1.
+  The number of regions of the ﬂ ow graph corresponds to the cyclomatic 
+complexity. 
+  
+ 
+ 
+ 2.
+  Cyclomatic complexity  V 
+( G 
+) for a ﬂ ow graph  
+G 
+ is deﬁ ned as
+ V 
+( G 
+) 5  E 
+ 2  N 
+ 1 2  
+ 
+   where  
+E 
+ is the number of ﬂ ow graph edges and  
+N 
+ is the number of ﬂ ow 
+graph nodes.   
+ 
+ 
+ 3.
+  Cyclomatic complexity  V 
+( G 
+) for a ﬂ ow graph  
+G 
+ is also deﬁ ned as
+ V 
+( G 
+) 5  P 
+ 1 1  
+ 
+   where  
+P 
+ is the number of predicate nodes contained in the ﬂ ow graph  
+G 
+.    
+ 
+ 
+Referring once more to the ﬂ ow graph in  
+Figure 23.2b , the cyclomatic complexity can be computed using each of the algorithms just noted:  
+ 
+ 
+ 1.
+  The ﬂ ow graph has four regions. 
+  
+ 
+  2.   
+V 
+( G 
+) 5 11 edges 2 9 nodes 1 2 5 4.   
+ 
+ 
+ 3.
+   
+V 
+( G 
+) 5 3 predicate nodes 1 1 5 4.  
+ 
+  Therefore, the cyclomatic complexity of the ﬂ ow graph in  
+Figure 23.2b  is 4.  More important, the value for  V 
+( G 
+) provides you with an upper bound for the number of independent paths that form the basis set and, by implication, an 
+upper bound on the number of tests that must be designed and executed to guar-
+
+antee coverage of all program statements.    Cyclomatic complexity 
+is a useful metric 
+for predicting those 
+modules that are likely 
+to be error prone. Use 
+
+it for test planning 
+as well as test-case 
+design.  How do I 
+
+compute cyclomatic 
+complexity? ?   Cyclomatic complexity 
+
+provides the upper 
+bound on the number 
+of test cases that will 
+be required to guaran-
+tee that every state-
+
+ment in the program 
+has been executed at 
+least one time. pre22126_ch23_496-522.indd   503pre22126_ch23_496-522.indd   50313/12/13   6:14 PM13/12/13   6:14 PM

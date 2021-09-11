@@ -1,0 +1,95 @@
+CHAPTER 33  
+ESTIMATION FOR SOFTWARE PROJECTS
+ 733elements being developed by other engineering teams. For example, software for 
+a robotic device used within a manufacturing cell may require a speciﬁ c robot (e.g., 
+a robotic welder) as part of the validation test step; a software project for advanced 
+
+page layout may need a high-speed digital printing system at some point during 
+
+development. Each hardware element must be speciﬁ ed as part of planning. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 33.5  
+SOFTWARE
+ PROJECT ESTIMATION
+    
+Software cost and effort estimation will never be an exact science. Too many vari-
+ables—human, technical, environmental, political—can affect the ultimate cost 
+of software and effort applied to develop it. However, software project estimation 
+
+can be transformed from a black art to a series of systematic steps that provide 
+estimates with acceptable risk. To achieve reliable cost and effort estimates, a 
+
+number of options arise:  
+ 
+ 
+ 1.
+  Delay estimation until late in the project (obviously, we can achieve 
+  
+ 
+ 
+ 2.
+  Base estimates on similar projects that have already been completed.   
+ 
+ 
+ 3.
+  Use relatively simple decomposition techniques to generate project cost and effort estimates.   
+ 
+ 
+ 4.
+  Use one or more empirical models for software cost and effort estimation.  
+ 
+  Unfortunately, the ﬁ
+ rst option, however attractive, is not practical. Cost esti-
+mates must be provided up front. However, you should recognize that the longer 
+
+you wait, the more you know, and the more you know, the less likely you are to 
+
+make serious errors in your estimates.   The second option can work reasonably well, if the current project is quite similar to past efforts and other project inﬂ uences (e.g., the customer, business 
+conditions, the software engineering environment, deadlines) are roughly equiv-
+alent. Unfortunately, past experience has not always been a good indicator of 
+
+future results.  The remaining options are viable approaches to software project estima-tion. Ideally, the techniques noted for each option should be applied in tandem; 
+
+each used as a cross-check for the other. Decomposition techniques take a 
+
+divide-and-conquer approach to software project estimation. By decomposing 
+a project into major functions and related software engineering activities, cost 
+and effort estimation can be performed in a stepwise fashion. Empirical estima-
+tion models can be used to complement decomposition techniques and offer a 
+potentially valuable estimation approach in their own right. A model is based on 
+experience (historical data) and takes the form d 
+ 5  f 
+ ( v 
+ i 
+)  
+ uote:  “In an age of 
+outsourcing 
+and increased 
+competition, 
+the ability to 
+estimate more 
+
+emerged as a 
+critical success 
+factor for many IT 
+groups.”  Rob Thomsett 
+  uote:  “It is very difﬁ cult 
+to make a 
+vigorous, plausible 
+and job-risking 
+defense of an 
+estimate that 
+is derived by 
+no quantitative 
+method, supported 
+by little data, and 
+certiﬁ ed chieﬂ y by 
+
+the hunches of the 
+managers.”  Fred Brooks 
+pre22126_ch33_727-753.indd   733pre22126_ch33_727-753.indd   73313/12/13   6:17 PM13/12/13   6:17 PM

@@ -1,0 +1,74 @@
+CHAPTER 33  
+ESTIMATION FOR SOFTWARE PROJECTS
+ 737“characteristics of good human/machine interface design” means or what the size and sophistication of the “CAD database” are to be.  For our purposes, assume that further reﬁ nement has occurred and that the 
+major software functions listed in   
+Figure 33.2  
+ are identiﬁ
+ ed. Following the de-
+composition technique for LOC, an estimation table (  
+Figure 33.2  
+) is developed. A range of LOC estimates is developed for each function. For example, the range 
+of LOC estimates for the 3D geometric analysis function is optimistic, 4600 LOC; 
+most likely, 6900 LOC; and pessimistic, 8600 LOC. Applying Equation (33.1), the 
+
+expected value for the 3D geometric analysis function is 6800 LOC. Other esti-
+mates are derived in a similar fashion. By summing vertically in the estimated 
+LOC column, an estimate of 33,200 lines of code is established for the CAD system.  
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+A review of historical data indicates that the organizational average produc-tivity for systems of this type is 620 LOC/pm. Based on a burdened labor rate of 
+$8,000 per month, the cost per line of code is approximately $13. Based on the 
+LOC estimate and the historical productivity data, the total estimated project 
+cost is $431,000 and the estimated effort is 54 person-months.  7 
+ 
+ 
+ 
+ 
+    Do not succumb to 
+the temptation to use 
+this result as your 
+project estimate. You 
+
+should derive another 
+result using a different 
+approach.   
+7  Estimates are rounded to the nearest $1,000 and person-month. Further precision is unneces-
+sary and unrealistic, given the limitations of estimation accuracy. 
+FunctionUser interface and control facilities (UICF)
+Two-dimensional geometric analysis (2DGA)
+
+Three-dimensional geometric analysis (3DGA)
+Database management (DBM)
+Computer graphics display facilities (CGDF)
+Peripheral control function (PCF)
+Design analysis modules (DAM)Estimated lines of codeEstimated LOC2,3005,300
+6,800
+3,350
+4,950
+2,100
+8,40033,200 FIGURE 33.2 
+Estimation table for the 
+LOC methods  
+Estimating   
+Estimating  
+ 
+The scene:  Doug Miller’s ofﬁ
+ ce as 
+project planning begins.   
+The players:  Doug Miller (manager of the  
+SafeHome 
+ software engineering team) and Vinod Raman, Jamie 
+Lazar, and other members of the product software engi-
+
+neering team.   
+The conversation:    
+Doug:  We need to develop an effort estimate for the 
+project and then we’ve got to deﬁ ne a micro schedule 
+for the ﬁ rst increment and a macro schedule for the 
+remaining increments.  SAFEHOME pre22126_ch33_727-753.indd   737pre22126_ch33_727-753.indd   73713/12/13   6:17 PM13/12/13   6:17 PM

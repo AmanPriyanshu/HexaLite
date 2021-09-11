@@ -1,0 +1,36 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜process. Rather, the user has to prioritize that change and, if it is high priority, decide what system features that were planned for the next iteration should be dropped for 
+
+the change to be implemented.The problem with this approach is that users are not necessarily the best people to decide on whether or not a requirements change is cost-effective. In systems with 
+multiple stakeholders, changes will benefit some stakeholders and not others. It is 
+
+often better for an independent authority, who can balance the needs of all stake
+-holders, to decide on the changes that should be accepted.
+
+Requirements management planning is concerned with establishing how a set of 
+
+evolving requirements will be managed. During the planning stage, you have to 
+
+decide on a number of issues:1. Requirements identification Each requirement must be uniquely identified so 
+that it can be cross-referenced with other requirements and used in traceability 
+assessments.2. A change management process 
+This is the set of activities that assess the impact 
+
+and cost of changes. I discuss this process in more detail in the following section.3. Traceability policies These policies define the relationships between each require-
+ment and between the requirements and the system design that should be recorded. 
+
+The traceability policy should also define how these records should be maintained.4. Tool support Requirements management involves the processing of large 
+
+amounts of information about the requirements. Tools that may be used range 
+from specialist requirements management systems to shared spreadsheets and 
+
+simple database systems.Requirements management needs automated support, and the software tools for 
+this should be chosen during the planning phase. You need tool support for:1. Requirements storage The requirements should be maintained in a secure, man-aged data store that is accessible to everyone involved in the requirements engi
+-
+neering process.Enduring and volatile requirementsSome requirements are more susceptible to change than others. Enduring requirements are the requirements 
+that are associated with the core, slow-to-change activities of an organization. Enduring requirements are asso-
+
+ciated with fundamental work activities. Volatile requirements are more likely to change. They are usually asso-
+
+ciated with supporting activities that reflect how the organization does its work rather than the work itself.http://software-engineering-book.com/web/changing-requirements/

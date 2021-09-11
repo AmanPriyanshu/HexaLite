@@ -1,0 +1,37 @@
+˜˜˚˛˙˜˜˜
+˜˜˜
+suit the needs of different customers or equipment. This may involve the configuration 
+of some components, implementing additional components, and modifying some of 
+
+the components to reflect new requirements.Developing applications by adapting a generic version of the application means that a high proportion of the application code is reused in each system. Testing is 
+simplified because tests for large parts of the application may also be reused, thus 
+reducing the overall application development time. Engineers learn about the appli-
+cation domain through the software product line and so become specialists who can 
+work quickly to develop new applications.Software product lines usually emerge from existing applications. That is, an 
+organization develops an application and then, when a similar system is required, 
+
+informally reuses code from this in the new application. The same process is used as 
+
+other similar applications are developed. However, change tends to corrupt application 
+
+structure so, as more new instances are developed, it becomes increasingly difficult to 
+
+create a new version. Consequently, a decision to design a generic product line may 
+
+then be made. This involves identifying common functionality in product instances 
+
+and developing a base application, which is then used for future development.This base application (Figure 15.7) is designed to simplify reuse and reconfigura-tion. Generally, a base application includes:1.
+ Core components that provide infrastructure support. These are not usually 
+modified when developing a new instance of the product line.2. Configurable components that may be modified and configured to specialize them 
+
+to a new application. Sometimes it is possible to reconfigure these components 
+
+without changing their code by using a built-in component configuration language.3. Specialized, domain-specific components some or all of which may be replaced 
+when a new instance of a product line is created.Application frameworks and software product lines have much in common. They both support a common architecture and components, and require new development 
+to create a specific version of a system. The main differences between these 
+
+approaches are as follows:1.
+ Application frameworks rely on object-oriented features such as inheritance and 
+polymorphism to implement extensions to the framework. Generally, the framework 
+CorecomponentsConfigurable application componentsSpecialized application componentsFigure 15.7 The organization of a base 
+system for a product line 

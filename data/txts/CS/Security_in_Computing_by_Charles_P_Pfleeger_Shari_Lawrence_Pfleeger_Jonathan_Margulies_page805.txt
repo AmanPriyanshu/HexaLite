@@ -1,0 +1,62 @@
+ Section 12.1  Cryptology 
+771  Ciphertext of Any PlaintextThe analyst, having infiltrated the sender’s transmission process, could advantageously 
+cause messages to be encrypted and sent at will. This attack is called a 
+chosen plaintext attack. For instance, the analyst could insert records into a database and observe the 
+
+change in statistics after the insertions. Linear programming sometimes enables such 
+an analyst to infer data in the database that should be kept confidential. Alternatively, 
+
+an analyst may tap wires in a network and so notice the effect of sending a particular 
+
+message to a particular network user. The cryptanalyst may be an insider or have an 
+
+inside colleague who could cause certain transactions to be reflected in ciphertext; for 
+
+example, the insider may forward messages resulting from receipt of a large order. A 
+
+chosen plaintext attack favors the analyst. Another desirable situation is for the ana-
+
+lyst to force the enemy to put particular content into the ciphertext stream, a situation 
+
+described in Sidebar 12-3. Other Weaknesses
+A cryptanalyst works against humans, who can be hurried, lazy, careless, naïve, or unin-
+formed. Humans sometimes fail to change cryptographic keys when needed, broad-
+
+cast cryptographic keys in the clear, or choose keys in a predictable manner. That is, 
+
+the algorithm may be strong and the implementation effective, but the people using it 
+
+fail in some way and open up the ciphertext to detection. People have been known to 
+SIDEBAR 12-2 Human Fallibility Led to Cracked Codes
+Kahn [KAH96] describes the history of the Enigma machine, a mechanical 
+tool used by the Germans in World War II to scramble messages and pre-
+
+vent the enemy from understanding them. Enigma was based on revolving 
+
+wheels, or rotors, that were wired together and connected to a typewriter 
+
+keyboard. There were so many ways to encrypt a message that even if 
+
+1,000 analysts tried four different ways each minute, all day, every day, it 
+
+would have taken the team 1.8 billion years to test them all.So how did the Allies break the encryption? First, they made use of 
+the likely chatter over the wires about each day’s events. By guessing that 
+
+the Germans would be discussing certain places or issues, the Allies found 
+
+sections of scrambled text that they could relate to the original messages, 
+
+or cleartext. Next, they concentrated on Luftwaffe messages.
+Counting on the likelihood that the Luftwaffe signalmen were not as 
+well trained as those in the Army or Navy, the Allies then watched for slip-
+
+ups that increased the odds of understanding the encrypted messages. 
+
+For instance, Luftwaffe signalmen often used “a girlfriend’s name for a key 
+
+setting or beginning a second message with the same setting as that left 
+at the ending of the first.” Such knowledge enabled the Allies to determine 
+
+some of the Luftwaffe’s plans during the Battle of Britain.
+Thus, sophisticated technology can be trumped when control proto-
+cols are not followed carefully and completely.

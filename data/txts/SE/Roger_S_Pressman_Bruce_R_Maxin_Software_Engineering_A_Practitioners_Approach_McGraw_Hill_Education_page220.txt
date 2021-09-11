@@ -1,0 +1,112 @@
+190 PART TWO  
+MODELINGoperating on attributes and/or associations (Section 10.5). Therefore, an opera-tion must have “knowledge” of the nature of the class attributes and associations.  
+ 
+ 
+   
+As a ﬁ rst iteration at deriving a set of operations for an analysis class, you 
+can again study a processing narrative (or use case) and select those operations 
+that reasonably belong to the class. To accomplish this, the grammatical parse 
+
+is again studied and verbs are isolated. Some of these verbs will be legitimate 
+operations and can be easily connected to a speciﬁ c class. For example, from the 
+ SafeHome 
+ processing narrative presented earlier in this chapter, we see that 
+“sensor is  assigned 
+ a number and type” or “a master password is  
+programmed
+ 
+ for 
+ arming and disarming 
+ the system.” These phrases indicate a number of things: 
+ 
+ 
+ 
+•  That an  assign() 
+ operation is relevant for the  Sensor 
+ class.   
+ 
+ 
+•  That a  program()
+ 
+ operation will be applied to the  System 
+ class.   
+ 
+ 
+•  That  arm() 
+ and  disarm() 
+ are operations that apply to  System 
+ class.  
+ 
+  Upon further investigation, it is likely that the operation  program()
+ 
+ will be divided 
+into a number of more speciﬁ c suboperations required to conﬁ
+ gure the system. For 
+example,  program()
+ 
+ implies specifying phone numbers, conﬁ
+ guring system charac-
+teristics (e.g., creating the sensor table, entering alarm characteristics), and enter-
+
+ing password(s). But for now, we specify  
+program()
+ 
+ as a single operation. 
+ In addition to the grammatical parse, you can gain additional insight into other operations by considering the communication that occurs between objects. 
+Objects communicate by passing messages to one another. Before continuing 
+
+with the speciﬁ cation of operations, we explore this matter in a bit more detail. 
+   When you deﬁ ne 
+operations for an 
+analysis class, focus 
+on problem-oriented 
+behavior rather than 
+behaviors required for 
+implementation.   
+Class Models   
+Class Models  
+ 
+The scene:  Ed’s cubicle, as analysis 
+modeling begins.   
+The players:  Jamie, Vinod, and Ed—all members of 
+the  SafeHome 
+ software engineering team.   
+The conversation:  
+  [Ed has been working to extract classes from the use case template for ACS-DCV (presented in an earlier 
+sidebar in this chapter) and is presenting the classes he 
+has extracted to his colleagues.]   
+Ed:  So when the homeowner wants to pick a camera, 
+he or she has to pick it from a ﬂ oor plan. I’ve deﬁ
+ ned a 
+ FloorPlan 
+ class. Here’s the diagram. 
+ (They look at  Figure 10.2 .)   
+Jamie:  So  
+FloorPlan 
+ is an object that is put together with walls, doors, windows, and cameras. That’s what 
+
+those labeled lines mean, right?   
+Ed:  Yeah, they’re called “associations.” One class is 
+ associated with another according to the associations 
+I’ve shown. [Associations are discussed in Section 10.5.] 
+  
+Vinod:  So the actual ﬂ
+ oor plan is made up of walls 
+and contains cameras and sensors that are placed 
+within those walls. How does the ﬂ oor plan know where 
+to put those objects?   
+Ed:  It doesn’t, but the other classes do. See the 
+ attributes under, say,  
+WallSegment,
+ 
+ which is used to build a wall. The wall segment has start and stop 
+
+ coordinates and the  draw() 
+ operation does the rest.   
+Jamie:  And the same goes for windows and doors. 
+Looks like camera has a few extra attributes.   
+Ed:  Yeah, I need them to provide pan and zoom info. 
+  
+Vinod:  I have a question. Why does the camera have 
+an ID but the others don’t? I notice you have an attribute 
+ SAFEHOME pre22126_ch10_184-201.indd   190pre22126_ch10_184-201.indd   19013/12/13   6:11 PM13/12/13   6:11 PM

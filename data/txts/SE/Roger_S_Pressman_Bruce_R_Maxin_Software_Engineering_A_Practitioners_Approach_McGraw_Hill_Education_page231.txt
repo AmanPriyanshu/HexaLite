@@ -1,0 +1,105 @@
+CHAPTER 10  
+REQUIREMENTS MODELING: CLASS-BASED METHODS 201and dependencies among classes. Analysis packages are used to categorize and group classes in a manner that makes them more manageable for large systems.   
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+10.1.  You have been asked to build one of the following systems: 
+  
+ 
+ 
+ a.  
+A network-based course registration system for your university. 
+   
+ 
+ b.  
+A Web-based order-processing system for a computer store. 
+   
+ 
+ c.  
+A simple invoicing system for a small business.    
+ 
+ d.  
+An Internet-based cookbook that is built into an electric range or microwave.   
+    Select the system that is of interest to you and develop a processing narrative. Then use the grammatical parsing technique to identify candidate objects and classes.    
+ 
+ 
+ 
+10.2.  Develop a set of operations that are used within the classes identiﬁ
+ ed in Problem 10.1. 
+   
+ 
+10.3.  Develop a class model for the PHTRS system present in Problem 9.5.    
+ 
+10.4.  Write a template-based use case for the  
+SafeHome 
+ home management system 
+ described informally in the sidebar following Section 10.4.    
+ 
+10.5.  Develop a complete set of CRC model index cards on the product or system you chose as part of Problem 10.1.    
+ 
+10.6.  Conduct a review of the CRC index cards with your colleagues. How many additional classes, responsibilities, and collaborators were added as a consequence of the review?    
+ 
+10.7.  What is an analysis package and how might it be used?   
+ 
+ 
+ 
+  F
+URTHER
+ READINGS AND INFORMATION
+ SOURCES  
+ 
+General class-based concepts are discussed by Weisfeld ( 
+The Object-Oriented Thought Process
+ 
+, 4th ed., Addison-Wesley, 2013). Class-based modeling methods are discussed in 
+books by Bennet and Farmer (Object-Oriented Systems Analysis and Design Using UML, 
+McGraw-Hill, 2010), Ashraﬁ  and Ashraﬁ
+  ( 
+Object-Oriented Systems Analysis and Design, 
+ Prentice Hall, 2008), Booch ( Object-Oriented Analysis and Design with Applications, 
+ 3rd 
+ed., Addison-Wesley, 2007), George and his colleagues ( 
+Object-Oriented Systems Analysis and Design 
+, 2nd ed., Prentice Hall, 2006), O’Docherty ( Object-Oriented Analysis and  Design, 
+ Wiley, 2005), Satzinger et al. ( 
+Object-Oriented Analysis and Design with the Uniﬁ ed Pro-
+cess, 
+ Course Technology, 2004), Stumpf and Teague ( 
+Object-Oriented Systems Analysis and  Design with UML, 
+ Prentice Hall, 2004).   
+ 
+UML modeling techniques that can be applied for both analysis and design are discussed by Dennis and his colleagues ( Systems Analysis and Design with UML Version 2.0,
+ 
+ Wiley, 
+ed., 2012), Ramnath and Dathan ( 
+Object-Oriented Analysis and Design, 
+ Springer, 2011), 
+ Bennett and Farmer ( 
+Object-Oriented Systems Analysis and Design Using UML, 
+ McGraw-Hill, 
+ed., 2010). Larman ( 
+Applying UML and Patterns: An Introduction to Object-Oriented 
+Analysis and Design and Iterative Development, 
+ Dohrling Kindersley, 2008), Rosenberg and 
+Stephens ( Use Case Driven Object Modeling with UML Theory and Practice, 
+ Apress, 2007), 
+and Arlow and Neustadt ( UML 2 and the Uniﬁ ed Process,
+ 
+ 2nd ed.,  
+Addison-Wesley, 2005) all 
+address the deﬁ nition of analysis classes within the context of UML. 
+  
+ 
+A wide variety of information sources on class-based methods for requirements model-ing are available on the Internet. An up-to-date list of World Wide Web references that are 
+
+relevant to analysis modeling can be found at the SEPA website:  
+ 
+www.mhhe.com/pressman 
+ 
+.  
+ 
+ 
+ pre22126_ch10_184-201.indd   201pre22126_ch10_184-201.indd   20113/12/13   6:11 PM13/12/13   6:11 PM

@@ -1,0 +1,64 @@
+28 Chapter 1  
+IntroductionBy demonstrating feasibility, the factors of method, opportunity, and motive deter-
+mine whether an attack can succeed. These factors give the advantage to the attacker 
+
+because they are qualities or strengths the attacker must possess. Another factor, this 
+
+time giving an advantage to the defender, determines whether an attack will succeed: 
+
+The attacker needs a vulnerability, an undefended place to attack. If the defender 
+
+removes vulnerabilities, the attacker cannot attack.
+1.4 VULNERABILITIES
+As we noted earlier in this chapter, a 
+vulnerability is a weakness in the security of the 
+computer system, for example, in procedures, design, or implementation, that might 
+
+be exploited to cause loss or harm. Think of a bank, with an armed guard at the front 
+
+door, bulletproof glass protecting the tellers, and a heavy metal vault requiring mul-
+
+tiple keys for entry. To rob a bank, you would have to think of how to exploit a weak-
+
+ness not covered by these defenses. For example, you might bribe a teller or pose as a 
+
+maintenance worker.
+Computer systems have vulnerabilities, too. In this book we consider many, such 
+as weak authentication, lack of access control, errors in programs, finite or insufficient 
+
+resources, and inadequate physical protection. Paired with a credible attack, each of 
+
+these vulnerabilities can allow harm 
+
+to confidentiality, integrity, or avail-
+
+ability. Each attack vector seeks to 
+
+exploit a particular vulnerability.
+Security analysts speak of a 
+system’s 
+attack surface, which is the system’s full set of vulnerabilities—actual and 
+potential. Thus, the attack surface includes physical hazards, malicious attacks by 
+
+outsiders, stealth data theft by insiders, mistakes, and impersonations. Although such 
+
+attacks range from easy to highly improbable, analysts must consider all possibilities.Our next step is to find ways to block threats by neutralizing vulnerabilities.
+1.5 CONTROLS
+A control
+ or 
+countermeasure
+ is a means to counter threats. Harm occurs when a threat 
+is realized against a vulnerability. To protect against harm, then, we can neutralize the 
+
+threat, close the vulnerability, or both. The possibility for harm to occur is called risk. 
+
+We can deal with harm in several ways:
+• prevent
+ it, by blocking the attack or closing the vulnerability• deter it, by making the attack harder but not impossible
+• deflect it, by making another target more attractive (or this one less so)
+• mitigate it, by making its impact less severe
+• detect it, either as it happens or some time after the fact
+• recover
+ from its effects
+Vulnerabilities are weaknesses that can 
+allow harm to occur.

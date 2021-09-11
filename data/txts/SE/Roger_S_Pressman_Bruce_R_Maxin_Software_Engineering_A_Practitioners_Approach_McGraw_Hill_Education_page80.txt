@@ -1,0 +1,140 @@
+50 PART ONE  
+THE SOFTWARE PROCESS
+deﬁ ned for the spiral model is accomplished by invoking one or more of the fol-
+lowing software engineering actions: prototyping, analysis, and design.  6 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+Figure 4.6  provides an example of the concurrent modeling approach. An 
+ activity— modeling 
+—may be in any one of the states  7   
+noted at any given time. Similarly, other activities, actions, or tasks (e.g.,  
+communication 
+ or  
+construction 
+) can be represented in an analogous manner. All software engineering activities 
+
+exist concurrently but reside in different states.   
+For example, early in a project the communication activity (not shown in the ﬁ gure) has completed its ﬁ
+ rst iteration and exists in the  
+awaiting changes 
+ state. 
+The modeling activity (which existed in the  none 
+ state while initial communica-
+tion was completed) now makes a transition into the  under development 
+ state. 
+If, however, the customer indicates that changes in requirements must be made, 
+
+the modeling activity moves from the  under development 
+ state into the  
+awaiting changes 
+ state.  Concurrent modeling deﬁ nes a series of events that will trigger transitions 
+from state to state for each of the software engineering activities, actions, or tasks. 
+For example, during early stages of design (a major software engineering action 
+that occurs during the modeling activity), an inconsistency in the requirements    Project plans must 
+be viewed as living 
+documents; progress 
+must be assessed often 
+and revised to take 
+changes into account.   
+Selecting a Process Model, Part 2   
+Selecting a Process Model, Part 2 
+ 
+ 
+ 
+ 
+ 
+ 
+The scene:  Meeting room for the 
+software engineering group at CPI Corporation, a company that makes consumer products 
+for home and commercial use.    
+ 
+ 
+ 
+The players:  Lee Warren, engineering manager; 
+Doug Miller, software engineering manager; Vinod and 
+
+Jamie, members of the software engineering team.    
+ 
+ 
+The conversation:   (Doug describes evolutionary 
+process options.)   
+ 
+ 
+ 
+ 
+Jamie:  Now I see something I like. An incremental 
+approach makes sense, and I really like the ﬂ ow of that 
+spiral model thing. That’s keepin’ it real. 
+   
+ 
+ 
+ 
+Vinod:  I agree. We deliver an increment, learn from 
+customer feedback, re-plan, and then deliver another 
+increment. It also ﬁ ts into the nature of the product. We 
+can have something on the market fast and then add functionality with each version, er, increment. 
+   
+ 
+ 
+ 
+Lee:  Wait a minute. Did you say that we regenerate 
+the plan with each tour around the spiral, Doug? That’s 
+
+not so great; we need one plan, one schedule, and 
+we’ve got to stick to it.    
+ 
+ 
+ 
+Doug:  That’s old-school thinking, Lee. Like the guys 
+said, we’ve got to keep it real. I submit that it’s better to 
+
+tweak the plan as we learn more and as changes are 
+
+requested. It’s way more realistic. What’s the point of a 
+
+plan if it doesn’t reﬂ
+ ect reality? 
+   
+ 
+ 
+ 
+Lee   (frowning):
+ I suppose so, but . . . senior manage-
+ment’s not going to like this . . . they want a ﬁ
+ xed plan. 
+   
+ 
+ 
+ 
+Doug   (smiling): Then you’ll have to reeducate them, 
+buddy. 
+ 
+ 
+  
+SAFEHOME    The concurrent model 
+is often more appro-
+priate for product engi-
+neering projects where 
+different engineering 
+teams are involved.   
+6  It should be noted that analysis and design are complex tasks that require substantial discus-
+sion. Part 2 of this book considers these topics in detail.   
+7  A  
+state 
+ is some externally observable mode of behavior. 
+ 
+ uote:  “Every process in 
+your organization 
+has a customer, 
+
+and without a 
+customer a process 
+has no purpose.”  V. Daniel Hunt 
+pre22126_ch04_040-065.indd   50pre22126_ch04_040-065.indd   5013/12/13   6:10 PM13/12/13   6:10 PM

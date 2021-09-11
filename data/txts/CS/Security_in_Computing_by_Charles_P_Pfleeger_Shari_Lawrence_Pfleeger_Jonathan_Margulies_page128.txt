@@ -1,0 +1,40 @@
+94 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+IHKey(Optional)PlaintextCiphertext.. XN OI TP ESpobaqckdem..EncryptionFIGURE 2-21 Block Ciphereconomies of scale by operating on large amounts of data at once. Blocks for such algo-
+rithms are typically 64, 128, 256 bits or more. The block size need not have any par-
+
+ticular relationship to the size of a character. Block ciphers work on blocks of plaintext 
+
+and produce blocks of ciphertext, as 
+
+shown in Figure 2-21. In the figure, 
+
+the central box represents an encryp-
+tion machine: The previous plaintext 
+
+pair is converted to 
+po, the current one being converted is 
+IH, and the machine is soon to convert 
+ES.Table 2-10 lists the advantages and disadvantages of stream and block encryption 
+algorithms.With this description of the characteristics of different encryption algorithms we can 
+now turn to some widely used encryption algorithms. We present how each works, a bit 
+
+of the historical context and motivation for each, and some strengths and weaknesses. 
+
+We identify these algorithms by name because these names appear in the popular litera-
+
+ture. We also introduce other symmetric algorithms in Chapter 12. Of course you should 
+
+recognize that these are just examples of popular algorithms; over time these algorithms 
+
+may be superseded by others. To a large degree cryptography has become plug-and-
+
+play, meaning that in an application developers can substitute one algorithm for another 
+
+of the same type and similar characteristics. In that way advancements in the field of 
+
+cryptography do not require that all applications using cryptography be rewritten.
+Stream ciphers encrypt one bit or one 
+
+byte at a time; block ciphers encrypt a 
+fixed number of bits as a single chunk.

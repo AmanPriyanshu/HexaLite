@@ -1,0 +1,120 @@
+523 TESTING OBJECT-ORIENTEDAPPLICATIONS
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ In Chapter 23, we noted that the objective of testing, stated simply, is to ﬁ
+ nd 
+the greatest possible number of errors with a manageable amount of effort 
+applied over a realistic time span. Although this fundamental objective remains unchanged for object-oriented software, the nature of OO programs 
+changes both testing strategy and testing tactics.  It could be argued that as reusable class libraries grow in size, greater reuse will mitigate the need for heavy testing of OO systems. Exactly the op-
+posite is true. Binder [Bin94b] discusses this when he states:  
+[E]ach reuse is a new context of usage and retesting is prudent. It seems likely that more, not less testing will be needed to obtain high reliability in object-oriented 
+systems.  
+  
+ 
+What is it?   The architecture of 
+object-oriented (OO) software results 
+
+in a series of layered subsystems that 
+
+encapsulate collaborating classes. 
+Each of these system elements (subsystems and 
+
+classes) performs functions that help to achieve 
+
+system requirements. It is necessary to test an 
+
+OO system at a variety of different levels in an 
+
+effort to uncover errors that may occur as classes 
+
+collaborate with one another and subsystems 
+
+communicate across architectural layers. 
+  
+ 
+Who does it?   Object-oriented testing is per-
+formed by software engineers and testing 
+
+specialists.   
+ 
+Why is it important? 
+  Ythe 
+program before it gets to the customer with 
+
+speciﬁ
+ c intent of removing all errors, so that 
+the customer will not experience the frustration 
+
+associated with a poor-quality product. In order 
+
+to ﬁ nd the highest possible number of errors, tests 
+must be conducted systematically and test cases 
+
+must be designed using disciplined techniques. 
+  
+ 
+What are the steps?   OO testing is strategi-cally analogous to the testing of conventional 
+systems, but it is tactically different. Because the OO analysis and design models are simi-lar in structure and content to the resultant OO 
+program, “testing” is initiated with the review 
+of these models. Once code has been gener-
+
+ated, OO testing begins “in the small” with 
+class testing. A series of tests are designed 
+that exercise class operations and examine 
+whether errors exist as one class collaborates 
+with other classes. As classes are integrated 
+to form a subsystem, thread-based, use-based, 
+
+and cluster testing along with fault-based ap-
+proaches are applied to fully exercise collabo-
+rating classes. Finally, use cases (developed as 
+
+part of the analysis model) are used to uncover 
+
+errors at the software validation level.   
+ 
+What is the work product? 
+  A set of test cases, designed to exercise classes, their col-
+laborations, and behaviors is designed and 
+documented; expected results are deﬁ ned, 
+and actual results are recorded.   
+ 
+How do I ensure that I’ve done it right?   When you begin testing, change your point of view. Try hard to “break” the software! Design 
+
+test cases in a disciplined fashion, and review 
+the tests cases you do create for thoroughness.   
+QUICK LOOK  KEY CONCEPTS     class testing. . . . . 528  
+    cluster testing. . . . 529  
+
+    consistency. . . . . . 526  
+
+    fault-based 
+
+testing. . . . . . . . . 531  
+
+    multiple class 
+
+testing. . . . . . . . . 534  
+
+    object-oriented 
+
+models. . . . . . . . . 525  
+
+    partition testing  . . 533  
+
+    random testing . . . 532  
+
+    scenario-based 
+
+testing. . . . . . . . . 532  
+  
+ 
+ 
+ 
+CHAPTER24 pre22126_ch24_523-539.indd   523pre22126_ch24_523-539.indd   52313/12/13   10:02 PM13/12/13   10:02 PM

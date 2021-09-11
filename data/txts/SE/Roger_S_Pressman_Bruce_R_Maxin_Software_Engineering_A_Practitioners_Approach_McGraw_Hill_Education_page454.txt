@@ -1,0 +1,75 @@
+424 PART THREE  
+QUALITY MANAGEMENTin 150 critical errors going undetected and uncorrected. The cost of ﬁ nding and ﬁ
+ xing 
+these remaining 150 defects in the maintenance phase (150 3 $14,102) would have 
+been $2,115,300. Thus, the total cost of ﬁ nding and ﬁ
+ xing the 200 defects after the 
+ coding phase would have been $2,472,100 ($2,115,300 1 $356,800).   
+Even if your software organization has costs that are half of industry average (most have no idea what their costs are!), the cost savings associated with early 
+quality control and assurance activities (conducted during requirements analy-
+sis and design) are compelling.   
+Quality Issues   
+Quality Issues  
+ 
+The scene:  Doug Miller’s ofﬁ
+ ce 
+as the  SafeHome 
+ software project begins.   
+The players:  Doug Miller (manager of the 
+ 
+SafeHome 
+ software engineering team) and other members of the 
+product software engineering team.   
+The conversation:    
+Doug:  I was looking at an industry report on the costs 
+of repairing software defects. They are pretty sobering.   
+Jamie:  We are already working on developing test 
+cases for each functional requirement.   
+Doug:  That’s good, but I was noticing that it costs eight 
+times as much to repair a defect that is discovered in 
+testing than it does if the defect is caught and repaired 
+during coding.   
+Vinod:  We are using pairs programming so we should 
+be able to catch most of the defects during coding.   
+Doug:  I think you are missing the point. Quality is 
+more than simply removing coding errors. We need 
+
+to look at the project quality goals and ensure that the 
+evolving software products are meeting them.   
+Jamie:  Do you mean things like usability, security, and 
+reliability?   
+Doug:  Yes, I do. We need to build checks into the soft-
+ware process to monitor our progress toward meeting 
+our quality goals.   
+Vinod:  Can’t we ﬁ
+ nish the ﬁ
+ rst prototype and then 
+check it for quality?   
+Doug:  I am afraid not. We must establish a culture of 
+quality early in the project.   
+Vinod:  What do you want us to do, Doug? 
+  
+Doug:  I think we will need to ﬁ
+ nd a technique that will 
+allow us to monitor the quality of the  SafeHome 
+  products. 
+Let’s think about this and revisit this again tomorrow. 
+  
+SAFEHOME  
+ 
+ 
+ 
+ 
+ 
+19.3.3   
+Risks  
+In Chapter 1 of this book, we wrote “people bet their jobs, their comforts, their safety, their entertainment, their decisions, and their very lives on computer soft-
+
+ware. It better be right.” The implication is that low-quality software increases 
+risks for both the developer and the end user. In the preceding subsection, we 
+
+discussed one of these risks (cost). But the downside of poorly designed and im-
+plemented applications does not always stop with dollars and time. An extreme 
+example [Gag04] might serve to illustrate.  Throughout the month of November 2000 at a hospital in Panama, 28 patients received massive overdoses of gamma rays during treatment for a variety of can-
+cers. In the months that followed, 5 of these patients died from radiation poison-
+ing and 15 others developed serious complications. What caused this tragedy? pre22126_ch19_411-430.indd   424pre22126_ch19_411-430.indd   42413/12/13   6:13 PM13/12/13   6:13 PM

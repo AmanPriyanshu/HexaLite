@@ -1,0 +1,76 @@
+CHAPTER 37  
+SOFTWARE PROCESS IMPROVEMENT
+ 825 
+The difference between local application and best practice represents a “gap” that offers opportunities for improvement. The degree to which consistency, so-
+
+phistication, acceptance, and commitment are achieved indicates the amount of 
+cultural change that will be required to achieve meaningful improvement.   
+ 
+ 
+37.2.2  Education and Training 
+ 
+ 
+ 
+ 
+ 
+ 
+Although few software people question the beneﬁ t of an agile, organized soft-
+ware process or solid software engineering practices, many practitioners and 
+managers do not know enough about either subject.  4   As a consequence, inaccu-
+rate perceptions of process and practice lead to inappropriate decisions when 
+an SPI framework is introduced. It follows that a key element of any SPI strategy 
+is education and training for practitioners, technical managers, and more senior 
+managers who have direct contact with the software organization. Three types 
+of education and training should be conducted: generic software engineering 
+concepts and methods, speciﬁ c technology and tools, and communication and 
+quality-oriented topics. In a modern context, education and training can be de-
+livered in a variety of different ways. Everything from podcasts, to short YouTube 
+
+videos, to more comprehensive Internet-based training (e.g., [QAI08], to DVDs, to 
+classroom courses can be offered as part of an SPI strategy. 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+37.2.3   
+Selection and Justiﬁ cation 
+ 
+Once the initial assessment activity  5 
+ 
+ has been completed and education has 
+begun, a software organization should begin to make choices. These choices 
+occur during a  selection and justiﬁ cation activity
+ 
+ in which process characteris-
+tics and speciﬁ c software engineering methods and tools are chosen to populate 
+the software process.  First, you should choose the process model (Chapters 3–5) that best ﬁ ts your 
+organization, its stakeholders, and the software that you build. You should decide 
+
+which of the set of framework activities will be applied, the major work products 
+that will be produced, and the quality assurance checkpoints that will enable 
+your team to assess progress. If the SPI assessment activity indicates that you 
+have speciﬁ c weaknesses (e.g., you have no formal SQA functions), you should 
+focus attention on process characteristics that will address these weaknesses 
+directly. 
+ Next, develop an adaptable work breakdown for each framework activity (e.g., modeling), deﬁ ning the task set that would be applied for a typical project. You 
+   Try to provide “just-in-
+time” training targeted 
+to the real needs of a 
+software team.    As you make your 
+
+choices, be sure to 
+consider the culture of 
+your organization and 
+the level of acceptance 
+that each choice will 
+likely elicit.   
+4  If you’ve spent time reading this book, you won’t be one of them! 
+  
+5  In actuality, assessment is an ongoing activity. It is conducted periodically in an effort to deter-
+mine whether the SPI strategy has achieved its immediate goals and to set the stage for future 
+improvement. pre22126_ch37_817-838.indd   825pre22126_ch37_817-838.indd   82513/12/13   6:17 PM13/12/13   6:17 PM

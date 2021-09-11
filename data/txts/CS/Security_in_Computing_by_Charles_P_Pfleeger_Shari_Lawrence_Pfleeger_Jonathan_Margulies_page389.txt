@@ -1,0 +1,66 @@
+ Section 6.2  Threats to Network Communications 
+355  Wiretapping
+ is the name given to data interception, often covert and unauthorized. 
+As Sidebar 6-3 explains, even a backdoor intended only for court-authorized wiretaps 
+
+can be misused. The name wiretap refers to the original mechanism, which was a device 
+
+that was attached to a wire to split off a second pathway that data would follow in addi-
+
+tion to the primary path. Now, of course, the media range from copper wire to fiber 
+
+cables and radio signals, and the way to tap depends on the medium.
+Users generally have little control over the routing of a signal. With the telephone 
+system, for example, a call from New York to Sydney might travel west by satellite, 
+
+transfer to an undersea cable, and reach the ultimate destination on conventional wire. 
+
+Along the way, the signal could pass through different countries, as well as interna-
+
+tional regions of the oceans and sky. The same is true of networked digital communi-
+
+cations, which use some of the same resources telephony does. The signal may travel 
+
+through hostile regions and areas full of competitors. Along the way may be people with 
+
+method, opportunity, and motive to obtain your data. Thus, a wide area network can be 
+
+far riskier than a well-controlled local network.
+Encryption is the strongest and most commonly used countermeasure against inter-ception, although physical security (protecting the communications lines themselves), 
+
+dedicated lines, and controlled routing (ensuring that a communication travels only 
+
+along certain paths) have their roles, as well. We examine encryption for communica-
+
+tion later in this chapter.
+What Makes a Network Vulnerable to Interception?
+An isolated home user or a standalone office with a few employees is an unlikely target 
+for many attacks. But add a network to the mix and the risk rises sharply. Consider how 
+
+a network differs from a stand-alone environment.
+Anonymity An attacker can mount an attack from thousands of miles away and never come into 
+
+direct contact with the system, its administrators, or users. The potential attacker is thus 
+
+safe behind an electronic shield. The attack can be passed through many other hosts in 
+
+an effort to disguise the attack’s origin. And computer-to-computer authentication is not 
+
+the same for computers as it is for humans. As illustrated by Sidebar 6-4, secure distrib-
+
+uted authentication requires thought and attention to detail.SIDEBAR 6-3 Unintended Intended Interception
+Telecommunications providers cooperate with governments in what is 
+called lawful interception. Any time a court authorizes a wiretap on tele-
+
+phone or data communications, government agents work with service 
+
+providers to install the tap. Modern telecommunications hardware and soft-
+
+ware include special features to implement these wiretaps as technology 
+
+has evolved. Even voice communications are now often transmitted digi-
+
+tally, using routers and routing protocols like those for data networking on 
+
+the Internet.
+(continues)

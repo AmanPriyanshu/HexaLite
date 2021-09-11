@@ -1,0 +1,49 @@
+ Contents ix  Unterminated Null-Terminated String 161
+Parameter Length, Type, and Number 162
+
+Unsafe Utility Program 162
+
+Race Condition 163
+3.2 Malicious Code—Malware 166
+Malware—Viruses, Trojan Horses, and Worms 167
+
+Technical Details: Malicious Code 176
+3.3 Countermeasures 196
+Countermeasures for Users 197
+
+Countermeasures for Developers 203
+
+Countermeasure Specifically for Security 216
+
+Countermeasures that Don’t Work 224
+ Conclusion 229
+ Exercises 229
+Chapter 4 The Web—User Side 232
+4.1 Browser Attacks 234
+Browser Attack Types 234
+How Browser Attacks Succeed: Failed Identification  
+and Authentication 240
+4.2 Web Attacks Targeting Users 245
+False or Misleading Content 246
+
+Malicious Web Content 253
+
+Protecting Against Malicious Web Pages 259
+4.3 Obtaining User or Website Data 260
+Code Within Data 261
+
+Website Data: A User’s Problem, Too 265
+
+Foiling Data Attacks 266
+4.4 Email Attacks 267
+Fake Email 267
+
+Fake Email Messages as Spam 267
+
+Fake (Inaccurate) Email Header Data 273
+
+Phishing 274
+
+Protecting Against Email Attacks 275
+4.5 Conclusion 277
+4.6 Exercises 278

@@ -1,0 +1,61 @@
+56 PART ONE  
+THE SOFTWARE PROCESS
+the Internet for exchanging all kinds of information . . . Our appetite for ever-more 
+sophisticated software grows as we learn from one product release to the next how 
+the product could be improved. We want software that is better adapted to our needs, 
+
+but that, in turn, merely makes the software more complex. In short, we want more.  
+  
+In some ways the Uniﬁ ed Process is an attempt to draw on the best features 
+and characteristics of traditional software process models, but characterize them 
+in a way that implements many of the best principles of agile software develop-
+ment (Chapter 5). The Uniﬁ ed Process recognizes the importance of customer 
+communication and streamlined methods for describing the customer’s view of 
+
+a system (the use case).  13 
+ 
+ It emphasizes the important role of software architec-
+ture and “helps the architect focus on the right goals, such as understandability, 
+
+reliance to future changes, and reuse” [Jac99]. It suggests a process ﬂ ow that 
+is iterative and incremental, providing the evolutionary feel that is essential in 
+modern software development.   
+ 
+4.3.1 A Brief History 
+ 
+During the early 1990s James Rumbaugh [Rum91], Grady Booch [Boo94], and Ivar Jacobson [Jac92] began working on a “uniﬁ ed method” that would com-
+bine the best features of each of their individual object-oriented analysis and 
+design methods and adopt additional features proposed by other experts (e.g., 
+[Wir90]) in object-oriented modeling. The result was UML—a  
+uniﬁ ed modeling 
+language 
+ that contains a robust notation for the modeling and development of 
+object- oriented systems. By 1997, UML became a de facto industry standard for object-oriented software development.  UML is used throughout Part 2 of this book to represent both requirements and design models. Appendix 1 presents an introductory tutorial for those who 
+are unfamiliar with basic UML notation and modeling rules. A comprehensive 
+presentation of UML is best left to textbooks dedicated to the subject. Recom-
+mended books are listed in Appendix 1.   
+ 
+4.3.2 Phases of the Uniﬁ
+ ed Process 
+ 14 
+ 
+  
+ 
+In Chapter 3, we discussed ﬁ ve generic framework activities and argued that 
+they may be used to describe any software process model. The Uniﬁ ed Process 
+ 
+ 
+13  A  
+use case 
+ (Chapter 8) is a text narrative or template that describes a system function or fea-
+ture from the user’s point of view. A use case is written by the user and serves as a basis for the 
+
+creation of a more comprehensive analysis model.   
+14  The Uniﬁ
+ ed Process is sometimes called the  
+Rational Uniﬁ ed Process
+ 
+ (RUP) after the Rational 
+Corporation (subsequently acquired by IBM), an early contributor to the development and re-
+ﬁ nement of the UP and a builder of complete environments (tools and technology) that support 
+the process. pre22126_ch04_040-065.indd   56pre22126_ch04_040-065.indd   5613/12/13   6:10 PM13/12/13   6:10 PM

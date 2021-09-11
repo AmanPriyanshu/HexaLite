@@ -1,0 +1,69 @@
+640 Chapter 9  
+PrivacyThe Owlet Smart Sock is designed for monitoring babies. “Wrap the 
+Owlet Smart Sock around your infant’s ankle and you’ll be able to use an app 
+
+to keep an eye on body temperature, heart rate, blood oxygen level, sleep 
+
+quality, and rollovers.” [TAU14] And once your child’s Smart Diaper is wet, 
+
+you can scan the diaper’s QR code. “Reagents in the diaper detect whether 
+
+your baby has a urinary tract infection, is dehydrated or may be develop-
+
+ing kidney problems.” Similar sensors and applications monitor whether you 
+
+have exercised, taken your medication, eaten properly, or changed your rou-
+
+tine (by, for example, not turning lights on and off in your usual way).
+The companies using these sensors are sometimes aware of their 
+privacy implications. “‘The creepiness case is something we will pay very 
+
+much attention to,’ said Jim Buczkowski, Ford’s director of electrical and 
+
+electronics research. ‘Consumers need to be able to opt in or out of being 
+
+watched.’”
+In many cases, there are calls for more monitoring. Wald [WAL14] 
+reports that experts in the automotive industry are considering installing 
+
+“black boxes” akin to those used in aircraft. “Unraveling a problem like the 
+
+[Chevrolet] Cobalt’s, with a faulty ignition switch that tended to turn off the 
+
+engine and disable the air bags, is hard,” said one expert, so “we’ve got 
+
+to do a full press on whatever we have that can help us to get to that story 
+
+more quickly.” Many new cars have black boxes now; it is not clear whether 
+
+the boxes will soon be mandatory.
+Wald points out that it is easier to protect privacy in aircraft than in 
+automobiles. “Big airliners are equipped with a device that copies the infor-
+
+mation that goes into the flight data recorder, in a format that allows easy 
+
+download after ordinary flights. Analysts aggregate information from thou-
+
+sands of flights and look for indications of latent problems, like extreme 
+
+maneuvers, even if they did not cause death or injury. In cars, the black box 
+
+captures much less data and none for ordinary trips.” And because you are 
+
+most likely to be driving your car, the black box can capture evidence of 
+
+unwelcome behavior, such as speeding or weaving through traffic.
+Juels [JUE05] presents several privacy-restoring approaches to RFID use. Among 
+the ideas he proposes are blasting (disabling a tag), blocking (shielding a tag to block its 
+access by a reader), reprogramming (so a tag emits a different number), and encrypting 
+
+(so the output is selectively available).
+RFID technology is still very young, but its use is growing rapidly. As with similarly 
+sensitive technologies, protecting privacy will be easier before the uses proliferate. 
+Electronic Voting
+Voting is another area in which privacy is important. We want votes to be private, but at 
+
+the same time we want a way to demonstrate that all collected votes are authentic. With 
+
+careful control of paper ballots, we can largely satisfy both those requirements, but the 
+SIDEBAR 9-8 Continued

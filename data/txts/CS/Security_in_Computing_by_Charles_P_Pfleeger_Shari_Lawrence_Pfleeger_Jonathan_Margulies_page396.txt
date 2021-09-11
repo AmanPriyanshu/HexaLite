@@ -1,0 +1,41 @@
+362 Chapter 6  
+Networksdirected or accidental. Data corruption can occur during data entry, in storage, during 
+use and computation, in transit, and on output and retrieval. In this section we are inter-
+
+ested in corruption as part of networked interaction.
+Sometimes modification is blatant, making it readily apparent that a change has 
+occurred (for example, complete deletion, which could be detected by a program, or 
+
+replacement of text by binary data, which would be apparent to a human reader). Other 
+
+times the alteration is subtle, such as the change of a single bit, which might allow pro-
+
+cessing to continue, although perhaps producing incorrect results.Communications media are known to be vulnerable to data corruption. Simple 
+ factors such as weather and trees can interfere with clean transmission. For this rea-
+
+son, communications protocols include features to check for and correct, at least 
+
+some, errors in transmission. The TCP/IP protocol suite (which we describe later 
+
+in this chapter), is used for most 
+
+Internet data communication. TCP/
+
+IP has extensive features to ensure 
+
+that the receiver gets a complete, 
+
+correct, and well-ordered data 
+
+stream, despite any errors during 
+
+transmission.FIGURE 6-9 Data Corruption SourcesTyping
+errorMaliciouscodeHardwarefailureNoise,accidentProgramerrorHumanmistakeHackeractivity
+Transmission
+problemSoftwareflaw
+Network data corruption occurs 
+naturally because of minor failures of 
+
+transmission media. Corruption can also 
+be induced for malicious purposes. Both 
+must be controlled.

@@ -1,0 +1,104 @@
+CHAPTER 9  
+REQUIREMENTS MODELING: SCENARIO-BASED METHODS 171DomainanalysisSources ofdomainknowledgeCustomer surveys
+Expert advice
+Current/future requirementsExisting applicationsTechnical literatureDomainanalysismodelFunctional modelsDomain languagesReuse standardsClass taxonomies  
+FIGURE 9.2 
+Input and output for domain analysis  
+  
+ 
+Domain Analysis  
+ 
+Domain Analysis  
+ 
+The scene:  Doug Miller’s ofﬁ
+ ce, 
+after a meeting with marketing.   
+The players:  Doug Miller, software engineering 
+manager, and Vinod Raman, a member of the software 
+
+engineering team.   
+The conversation:    
+Doug:  I need you for a special project, Vinod. I’m going 
+to pull you out of the requirements-gathering meetings. 
+  
+Vinod (frowning):  Too bad. That format actually 
+s up? 
+  
+Doug:  
+Jamie and Ed will cover for you. Anyway, 
+marketing insists that we deliver the Internet capability 
+
+along with the home security function in the ﬁ rst release 
+of  SafeHome. 
+ W
+enough time or people, so we’ve got to solve both prob-
+lems—the PC interface and the Web interface—at once. 
+  
+Vinod (looking confused):  I didn’t know the plan 
+ nished with requirements 
+gathering.   
+Doug (a wan smile):  I know, but the time lines 
+are so short that I decided to begin strategizing with 
+
+, we’ll revisit any 
+
+tentative plan once we have the info from all of the 
+ requirements-gathering meetings.   
+Vinod:  Okay, what’s up? What do you want me to do? 
+  
+Doug:  Do you know what “domain analysis” is? 
+  
+Vinod:  Sort of. You look for similar patterns in Apps 
+that do the same kinds of things as the App you’re 
+building. If possible, you then steal the patterns and 
+
+reuse them in your work.   
+Doug:  Not sure I like the word  
+steal, 
+ but basically 
+you have it right. What I’d like you to do is to begin re-
+searching existing user interfaces for systems that control 
+
+something like  SafeHome 
+. I want you to propose a set 
+of patterns and analysis classes that can be common to 
+
+both the PC-based interface that’ll sit in the house and the 
+
+browser-based interface that is accessible via the Internet. 
+  
+Vinod:  We can save time by making them the 
+t we just do that? 
+  
+Doug:  s nice to have people who think like 
+you do. That’s the whole point—we can save time and 
+
+effort if both interfaces are nearly identical, implemented 
+
+with the same code, blah, blah, that marketing insists on. 
+  
+Vinod:  So you want, what—classes, analysis patterns, 
+design patterns? 
+  
+Doug:  All of ‘em. Nothing formal at this point. I just 
+want to get a head start on our internal analysis and 
+
+design work.    
+Vinod:  I’ll go to our class library and see what we’ve 
+got. I’ll also use a patterns template I saw in a book I 
+
+was reading a few months back.   
+Doug:  Good. Go to work. 
+  
+SAFEHOME  
+ 
+ 
+ 
+9.1.4 Requirements Modeling Approaches 
+ 
+One view of requirements modeling, called  structured analysis,
+ 
+ considers data 
+and the processes that transform the data as separate entities. Data objects are 
+modeled in a way that deﬁ nes their attributes and relationships. Processes that 
+pre22126_ch09_166-183.indd   171pre22126_ch09_166-183.indd   17113/12/13   6:11 PM13/12/13   6:11 PM

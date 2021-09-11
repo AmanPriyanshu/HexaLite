@@ -1,0 +1,39 @@
+450 Chapter 6  
+NetworksSystem Architecture
+If you are trying to limit the information a port scan reveals about a network and its 
+hosts and services, the natural approach is to segment the network, with many hosts on 
+
+segments that are not immediately visible to the outside.
+As an example, think about a typical hospital telephone system. Some functions, 
+such as human resources or patient services, need to accept calls directly from outsid-
+
+ers, and those telephone numbers could be published in a directory. But you do not 
+
+want the telephone number of the operating room or the diagnostics laboratory or even 
+
+housekeeping or maintenance to be readily available to outsiders. The hospital would 
+
+publish a general operator’s number; if an outsider has a convincing reason to need to be 
+
+connected with the operating room, the operator can determine that and forward the call 
+
+or perhaps redirect it to someone else who can be of better assistance. Certain execu-
+
+tives may have administrative assistants who screen their calls, allowing some calls 
+
+through immediately, taking messages for others, and redirecting still others. The archi-
+
+tecture implicit in this description of a hospital’s telephone service is of a small number 
+
+of externally accessible phones (relative to the larger number of internal phones), and a 
+
+few other choke points that screen and redirect all other calls.
+A similar situation occurs with networks. Compare the network of Figure 6-50(a) 
+to that of Figure 6-50(b). In Figure 6-50(a), all five computers A–E are visible to the 
+
+outside network, whereas in Figure 6-50(b) only computer A is visible. The network of 
+
+devices B–E in part (b) is known as a 
+protected subnet
+, and device A is called a 
+dual-homed gateway.AB(a)CDE(b)ABCDEFIGURE 6-50 (a) Visible Devices. (b) Less Visible Devices

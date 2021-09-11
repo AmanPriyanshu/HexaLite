@@ -1,0 +1,25 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜These broader systems are called sociotechnical systems. They include nontech-nical elements such as people, processes, and regulations, as well as technical 
+ components such as computers, software, and other equipment. System  dependability is influenced by all of the elements in a sociotechnical systemŠhardware, software, people, and organizations.Sociotechnical systems are so complex that it is impossible to understand them as a whole. Rather, you have to view them as layers, as shown in Figure 10.3. These 
+layers make up the sociotechnical systems stack:1. The equipment layer is composed of hardware devices, some of which may be computers.2. The operating system layer interacts with the hardware and provides a set of 
+
+common facilities for higher software layers in the system.3. The communications and data management layer 
+extends the operating system 
+
+facilities and provides an interface that allows interaction with more extensive 
+functionality, such as access to remote systems and access to a system database. 
+This is sometimes called middleware, as it is in between the application and the 
+operating system.4. The application layer delivers the application-specific functionality that is 
+
+required. There may be many different application programs in this layer.5. The business process layer includes the organizational business processes, 
+
+which make use of the software system.6. The organizational layer includes higher-level strategic processes as well as 
+
+business rules, policies, and norms that should be followed when using the 
+ system.7. The social layer refers to the laws and regulations of society that govern the 
+
+operation of the system.EquipmentOperating systemCommunications and data managementApplication systemBusiness processesOrganizationSocietySystems
+engineeringSoftwareengineering
+Figure 10.3 The sociotechnical 
+systems stack 

@@ -1,0 +1,42 @@
+˜˚˛˝ˇ˜˜˜˜˜˝˜˜˜
+2. Business rules and workflows
+, where each organization defines its own rules 
+that govern the use of the service and its data.3. Database extensions, where each organization defines how the generic service data model is extended to meet its specific needs.4. Access control, where service customers create individual accounts for their staff 
+
+and define the resources and functions that are accessible to each of their users. Figure 
+17.16 illustrates this situation. This diagram shows five users of the appli
+-cation service, who work for three different customers of the service provider. Users 
+interact with the service through a customer profile that defines the service configu-
+ration for their employer.Multi-tenancy is a situation in which many different users access the same system 
+and the system architecture is defined to allow the efficient sharing of system resources. 
+
+However, it must appear to users that they each have sole use of the system. Multi-
+tenancy involves designing the system so that there is an absolute separation between 
+
+system functionality and system data. All operations must therefore be stateless so that 
+
+they can be shared. Data must either be provided by the client or should be available in 
+
+a storage system or database that can be accessed from any system instance.A particular problem in multi-tenant systems is data management. The simplest way to provide data management is for all customers to have their own database, 
+
+which they may use and configure as they wish. However, this requires the service 
+provider to maintain many different database instances (one per customer) and to 
+
+make these databases available on demand.As an alternative, the service provider can use a single database, with different users being virtually isolated within that database. This is illustrated in Figure 17.17, 
+where you can see that database entries also have a ﬁtenant identifierﬂ that links 
+
+these entries to specific users. By using database views, you can extract the entries 
+
+for each service customer and so present users from that customer with a virtual, 
+
+personal database. This process can be extended to meet specific customer needs 
+
+using the configuration features discussed above.Scalability is the ability of the system to cope with increasing numbers of users 
+without reducing the overall quality of service that is delivered to any user. Generally, User 1
+User 1
+User 2
+User 3
+User 4User 5
+Application serviceProfile C1Profile C2Profile C3Figure 17.16  Configuration of a 
+software system  
+offered as a service 

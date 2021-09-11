@@ -1,0 +1,76 @@
+CHAPTER 25  
+TESTING WEB APPLICATIONS
+ 551 
+ 
+ 
+Dynamic HTML.   
+ Each Web page that contains dynamic HTML is executed to en-
+sure that the dynamic display is correct. In addition, a compatibility test should 
+be conducted to ensure that the dynamic HTML works properly in the environ-
+mental conﬁ gurations that support the WebApp. 
+ 
+ 
+ 
+Pop-up windows.    A series of tests ensure that (1) the pop-up is properly sized 
+and positioned, (2) the pop-up does not cover the original WebApp window, 
+
+the aesthetic design of the pop-up is consistent with the aesthetic design of 
+
+the interface, and (4) scroll bars and other control mechanisms appended to the 
+pop-up are properly located and function as required.   
+ 
+CGI scripts.    Black-box tests are conducted with an emphasis on data integ-
+rity (as data are passed to the CGI script) and script processing (once validated 
+data have been received). In addition, performance testing can be conducted to 
+ensure that the server-side conﬁ
+ guration can accommodate the processing de-
+mands of multiple invocations of CGI scripts [Spl01].   
+ 
+Streaming content.    Tests should demonstrate that streaming data are up-to-
+date, properly displayed, and can be suspended without error and restarted 
+without difﬁ culty. 
+ 
+ 
+ 
+Cookies.    Both server-side and client-side testing are required. On the server 
+side, tests should ensure that a cookie is properly constructed (contains correct 
+data) and properly transmitted to the client side when speciﬁ c content or func-
+tionality is requested. In addition, the proper persistence of the cookie is tested 
+to ensure that its expiration date is correct. On the client side, tests determine 
+whether the WebApp properly attaches existing cookies to a speciﬁ
+ c request 
+(sent to the server).   
+ 
+Application-specific interface mechanisms.   
+Tests conform to a checklist of func-
+tionality and features that are deﬁ ned by the interface mechanism. For exam-
+ple, Splaine and Jaskiel [Spl01] suggest the following checklist for shopping cart 
+functionality deﬁ ned for an e-commerce application:
+ 
+ 
+ 
+ 
+•  Boundary-test (Chapter 23) the minimum and maximum number of items that can be placed in the shopping cart.   
+ 
+ 
+•  Test a “check out” request for an empty shopping cart. 
+  
+ 
+ 
+•  Test proper deletion of an item from the shopping cart. 
+  
+ 
+ 
+•  Test to determine whether a purchase empties the cart of its contents. 
+  
+ 
+ 
+•  Test to determine the persistence of shopping cart contents (this should be 
+speciﬁ ed as part of customer requirements). 
+  
+ 
+ 
+•  Test to determine whether the WebApp can recall shopping cart contents 
+at some future date (assuming that no purchase was made).  
+ 
+ pre22126_ch25_540-566.indd   551pre22126_ch25_540-566.indd   55113/12/13   6:15 PM13/12/13   6:15 PM

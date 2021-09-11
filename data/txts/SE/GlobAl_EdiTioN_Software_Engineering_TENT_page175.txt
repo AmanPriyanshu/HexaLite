@@ -1,0 +1,57 @@
+˜˜˚˙˜˜˜
+˜˜
+There are differing views about whether or not software architects should use the 
+UML for describing and documenting software architectures. A survey in 2006 (Lange, 
+Chaudron, and Muskens 2006) showed that, when the UML was used, it was mostly 
+
+applied in an informal way. The authors of that paper argued that this was a bad thing.I disagree with this view. The UML was designed for describing object-oriented 
+systems, and, at the architectural design stage, you often want to describe systems at a 
+
+higher level of abstraction. Object classes are too close to the implementation to be use-
+ful for architectural description. I don™t find the UML to be useful during the design 
+
+process itself and prefer informal notations that are quicker to write and that can be eas-
+ily drawn on a whiteboard. The UML is of most value when you are documenting an 
+
+architecture in detail or using model-driven development, as discussed in Chapter 5.A number of researchers (Bass, Clements, and Kazman 2012) have proposed the 
+use of more specialized architectural description languages (ADLs) to describe system 
+
+architectures. The basic elements of ADLs are components and connectors, and they 
+
+include rules and guidelines for well-formed architectures. However, because ADLs 
+
+are specialist languages, domain and application specialists find it hard to understand 
+
+and use ADLs. There may be some value in using domain-specific ADLs as part of 
+
+model-driven development, but I do not think they will become part of mainstream 
+
+software engineering practice. Informal models and notations, such as the UML, will 
+
+remain the most commonly used ways of documenting system architectures.Users of agile methods claim that detailed design documentation is mostly 
+unused. It is, therefore, a waste of time and money to develop these documents. I 
+
+largely agree with this view, and I think that, except for critical systems, it is not 
+
+worth developing a detailed architectural description from Krutchen™s four perspec-
+tives. You should develop the views that are useful for communication and not worry 
+about whether or not your architectural documentation is complete.The idea of patterns as a way of presenting, sharing, and reusing knowledge about 
+
+software systems has been adopted in a number of areas of software engineering. The 
+
+trigger for this was the publication of a book on object-oriented design patterns 
+
+(Gamma et al. 1995). This prompted the development of other types of patterns, such 
+
+as patterns for organizational design (Coplien and Harrison 2004), usability patterns 
+
+(Usability Group 1998), patterns of cooperative interaction (Martin and Sommerville 
+
+2004), and configuration management patterns (Berczuk and Appleton 2002).Architectural patterns were proposed in the 1990s under the name ﬁarchitectural stylesﬂ (Shaw and Garlan 1996). A very detailed five-volume series of handbooks on 
+pattern-oriented software architecture was published between 1996 and 2007 
+
+(Buschmann et al. 1996; Schmidt et al. 2000; Buschmann, Henney, and Schmidt 
+
+2007a, 2007b; Kircher and Jain 2004).In this section, I introduce Architectural patterns and briefly describe a selection of 
+Architectural patterns that are commonly used. Patterns may be described in a stand-
+ard way (Figures 6.4 and 6.5) using a mixture of narrative description and diagrams. 

@@ -1,0 +1,41 @@
+442 Chapter 6  
+NetworksThe chain of certificates and signers is important because of the potential for 
+unscru-pulous CAs. If you examine the set of CA certificates loaded in a browser, you will 
+likely find familiar and unfamiliar names of organizations from all over the world. Any 
+
+of these CAs can sign a certificate for another lower-level certificate authority, and so 
+
+forth, down to an individual organization engaging in an SSL session. If an attacker 
+
+wanted to establish a fake banking site, for example, getting an unscrupulous CA to 
+
+issue a certificate for SSL would add to the site’s apparent credibility without necessar-
+
+ily providing security.
+Finally, in Figure 6-44 you can see that the DigiCert root certificate was issued by 
+GTE CyberTrust Solutions. Other fields include period of validity, algorithms used, 
+
+date of issuance, and contact details. Thus, an interested user could compare the full 
+
+chain of certificates and signatures starting from a trusted root.
+Although the preloaded certificate authorities are reputable, if one were to sign a cer-
+tificate for a less honorable firm, the SSL operation would still succeed. SSL requires a 
+
+certificate chain from a CA in the browser’s list, but all such CAs are equally credible to 
+
+the browser. That is why you should review your set of loaded certificates to ensure that 
+
+you would trust anything signed by any of them.
+The SSL protocol is simple but effective, and it is the most widely used secure commu-
+nication protocol on the Internet. However, remember that SSL protects only from the cli-
+
+ent’s browser to the server’s decryption point (which is often only to the server’s firewall 
+
+or, slightly stronger, to the computer that runs the web application). Data are exposed from 
+
+the user’s keyboard to the browser and throughout the recipient’s environment. Remem-
+
+ber the vulnerabilities of a keystroke logger and man in the browser that we described in 
+
+Chapter 4. Blue Gem Security has developed a product called LocalSSL that encrypts 
+FIGURE 6-44 Root Certificate

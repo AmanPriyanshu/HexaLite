@@ -1,0 +1,45 @@
+8. Security requirements definition, 
+where knowledge of the exposure, threats, and 
+control assessments is used to derive system security requirements. These 
+
+requirements may apply to the system infrastructure or the application system.The Mentcare patient management system is a security-critical system. Figures 13.6 and 13.7 are fragments of a report that documents the risk analysis of that soft-
+ware system. Figure 13.6 is an asset analysis that describes the assets in the system 
+and their value. Figure 13.7 shows some of the threats that a system may face.Once a preliminary risk assessment has been completed, then requirements can be 
+proposed that aim to avoid, detect, and mitigate risks to the system. However, creating 
+
+these requirements is not a formulaic or automated process. It requires inputs from 
+
+both engineers and domain experts to suggest requirements based on their understand-
+ing of the risk analysis and the functional requirements of the software system. Some 
+
+examples of the Mentcare system security requirements and associated risks are:1. Patient information shall be downloaded, at the start of a clinic session, from the database to a secure area on the system client. Risk: Damage from denial-of-service attack. Maintaining local copies means 
+
+that access is still possible.2. All patient information on the system client shall be encrypted. Risk: External access to patient records. If data is encrypted, then attacker must have access to the encryption key to discover patient information.3. Patient information shall be uploaded to the database when a clinic session is 
+over and deleted from the client computer. Risk: External access to patience records through stolen laptop.4.
+ A log of all changes made to the system database and the initiator of these 
+
+changes shall be maintained on a separate computer from the database server. Risk: Insider or external attacks that corrupt current data. A log should allow 
+up-to-date records to be re-created from a backup.Figure 13.6 Asset 
+analysis in a 
+
+preliminary risk 
+
+assessment report for 
+
+the Mentcare systemAssetValueExposureThe information 
+systemHigh. Required to support 
+all clinical consultations. 
+Potentially safety critical.High. Financial loss as clinics may have to 
+be canceled. Costs of restoring system. 
+Possible patient harm if treatment cannot 
+be prescribed.The patient databaseHigh. Required to support 
+all clinical consultations. 
+Potentially safety critical.High. Financial loss as clinics may have to 
+be canceled. Costs of restoring system. 
+Possible patient harm if treatment cannot 
+be prescribed.An individual patient 
+recordNormally low, although 
+may be high for specific 
+high-profile patientsLow direct losses but possible loss of 
+reputation.˜˜˚˛˚˜˜˜
+˜˜

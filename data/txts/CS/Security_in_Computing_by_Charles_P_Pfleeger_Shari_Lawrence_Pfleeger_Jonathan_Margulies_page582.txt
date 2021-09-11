@@ -1,0 +1,69 @@
+548 Chapter 7  
+DatabasesSecurity Additions for Big Data ApplicationsAs described in other chapters, adding security to an existing product or system is sel-
+dom a successful strategy. Nevertheless, sometimes that is the only available approach; 
+
+not only is the specification and design complete, but one or more versions of the prod-
+
+uct are in use. Such is the case with Hadoop and other proprietary big data application 
+frameworks: Product design and implementation were complete before security was 
+
+considered seriously. Security engineers have now recommended changes and additions 
+
+to Hadoop to support well-known security tools and techniques.
+Hadoop secure mode is described on the Hadoop website https://hadoop.apache.org/
+docs/current/hadoop-project-dist/hadoop-common/SecureMode.html and in a white 
+
+paper [OMA09] from the Yahoo! Team, headed by Owen O’Malley. These proposals for 
+
+security functions suggested security features to be included in the Hadoop framework. 
+
+The white paper identified two security holes to address: lack of user authentication 
+
+(and identification) and lack of access control to data blocks. To address these errors, 
+
+the team proposed a secure mode that involves the following extensions to Hadoop:
+• authentication for end-user web devices
+• mutual (user–process–Hadoop service) authentication with Kerberos
+
+• access control to files in the Hadoop file system
+
+• delegation tokens for continuous authentication between internal clients and 
+services• job tokens for distributing access authorization to multiple distributed platforms 
+that collectively implement a data search across disparate data stores
+• SSL encryption for network traffic
+A driving force in this design was performance: The developers decided that security 
+functions could not reduce performance by more than 3 percent. In 2008, the Yahoo! devel-
+
+opers’ network reported that a Hadoop cluster had successfully sorted a terabyte of data 
+
+in 209 seconds. Notice that to protect 
+
+data the O’Malley team was unwill-
+
+ing to slow that result by less time 
+
+than it takes you to read this sentence. 
+
+(The 209 seconds beat the previous 
+
+record of 297 seconds, a reduction of 
+
+over 26 percent.)
+Andrew Becherer presented a paper [BEC10] at BlackHat 2010 noting some of the 
+shortcomings of the Hadoop security extension of 2009. He criticizes the default level 
+
+of protection, measured by the strength of cryptography employed by default for those 
+
+users who choose to use the security enhancements. Furthermore, he points out that the 
+design involves distributing the same key to potentially hundreds or thousands of serv-
+
+ers at distributed locations. The large number of copies of the same key increases the 
+
+risk that one copy of the key might fall into an attacker’s hands. The security model also 
+
+authenticates certain processes based on the IP address on which they (appear to be) 
+
+hosted. As explained in Chapter 6, IP addresses can be spoofed, and that vulnerability 
+
+cannot be discounted when a Hadoop system is hosted on the Internet.Performance tends to outweigh accuracy 
+or security for data-mining applications.

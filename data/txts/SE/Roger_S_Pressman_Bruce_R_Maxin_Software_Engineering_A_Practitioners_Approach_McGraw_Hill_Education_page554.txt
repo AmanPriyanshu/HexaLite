@@ -1,0 +1,81 @@
+524 PART THREE  
+QUALITY MANAGEMENT 
+To adequately test OO systems, three things must be done: (1) the deﬁ
+ nition 
+of testing must be broadened to include error discovery techniques applied 
+to object-oriented analysis and design models, (2) the strategy for unit and 
+integration testing must change signiﬁ cantly, and (3) the design of test cases 
+must account for the unique characteristics of OO software.   
+ 
+ 24.1  
+BROADENING THE VIEW OF TESTING  
+ 
+The construction of object-oriented software begins with the creation of analy-sis and design models.  1 
+ 
+ Because of the evolutionary nature of the OO software 
+engineering paradigm, these models begin as relatively informal representa-
+tions of system requirements and evolve into detailed models of classes, class 
+
+relationships, system design and allocation, and object design (incorporating a 
+
+model of object connectivity via messaging). At each stage, the models can be 
+
+“tested” in an attempt to uncover errors prior to their propagation to the next 
+
+iteration. 
+  It can be argued that the review of OO analysis and design models is espe-cially useful because the same semantic constructs (e.g., classes, attributes, op-
+erations, messages) appear at the analysis, design, and code levels. Therefore, a 
+problem in the deﬁ nition of class attributes that is uncovered during analysis will 
+circumvent side effects that might occur if the problem were not discovered until 
+design or code (or even the next iteration of analysis).  
+ 
+ 
+   
+For example, consider a class in which a number of attributes are deﬁ ned 
+during the ﬁ rst iteration of analysis. An extraneous attribute is appended to the 
+class (due to a misunderstanding of the problem domain). Two operations are 
+
+then speciﬁ ed to manipulate the attribute. A review is conducted and a domain 
+expert points out the problem. By eliminating the extraneous attribute at this 
+stage, the following problems and unnecessary effort may be avoided during 
+analysis:  
+ 
+ 
+ 1.
+  Special subclasses may have been generated to accommodate the unnec-essary attribute or exceptions to it. Work involved in the creation of un-
+
+necessary subclasses has been avoided.   
+ 
+ 
+ 2.
+  A misinterpretation of the class deﬁ nition may lead to incorrect or extra-
+neous class relationships.   
+ 
+ 
+ 3.
+  The behavior of the system or its classes may be improperly characterized to accommodate the extraneous attribute.  
+ 
+    Although the review 
+of the OO analysis 
+and design models 
+is an integral part of 
+
+“testing” an OO appli-
+cation, recognize that 
+it is not sufﬁ cient in 
+
+and of itself. You must 
+
+conduct executable 
+tests as well.     testing methods  . . 529  
+    testing strategies  . 528  
+
+    thread-based 
+
+testing. . . . . . . . . 529  
+
+    use-based testing  . 529  
+
+    
+1  Analysis and design modeling techniques are presented in Part 2 of this book. Basic OO con-
+cepts are presented in Appendix 2. pre22126_ch24_523-539.indd   524pre22126_ch24_523-539.indd   52413/12/13   10:02 PM13/12/13   10:02 PM

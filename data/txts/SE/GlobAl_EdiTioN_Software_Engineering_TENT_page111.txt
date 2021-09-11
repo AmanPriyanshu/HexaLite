@@ -1,0 +1,45 @@
+˜˜˚˝˜˜˜
+˜˜˜
+equipped with card readers so, in these circumstances, some alternative identifica-tion method may have to be supported.It is difficult to separate functional and non-functional requirements in the 
+requirements document. If the non-functional requirements are stated separately 
+
+from the functional requirements, the relationships between them may be hard to 
+
+understand. However, you should, ideally, highlight requirements that are clearly 
+
+related to emergent system properties, such as performance or reliability. You can do 
+this by putting them in a separate section of the requirements document or by distin
+-
+guishing them, in some way, from other system requirements.Non-functional requirements such as reliability, safety, and confidentiality 
+requirements are particularly important for critical systems. I cover these dependa
+-
+bility requirements in Part 2, which describes ways of specifying reliability, safety, 
+and security requirements.As I discussed in Chapter 2, requirements engineering involves three key activities. 
+These are discovering requirements by interacting with stakeholders (elicitation and 
+
+analysis); converting these requirements into a standard form (specification); and 
+
+checking that the requirements actually define the system that the customer wants 
+
+(validation). I have shown these as sequential processes in Figure 2.4. However, 
+in˜practice, requirements engineering is an iterative process in which the activities 
+
+are interleaved.Figure 4.
+6 shows this interleaving. The activities are organized as an iterative 
+process around a spiral. The output of the RE process is a system requirements docu-
+ment. The amount of time and effort devoted to each activity in an iteration depends 
+on the stage of the overall process, the type of system being developed, and the 
+
+budget that is available.Early in the process, most effort will be spent on understanding high-level business 
+and non-functional requirements, and the user requirements for the system. Later in the 
+
+process, in the outer rings of the spiral, more effort will be devoted to eliciting and 
+
+understanding the non-functional requirements and more detailed system requirements.This spiral model accommodates approaches to development where the require-ments are developed to different levels of detail. The number of iterations around the 
+spiral can vary so that the spiral can be exited after some or all of the user require-
+ments have been elicited. Agile development can be used instead of prototyping so 
+that the requirements and the system implementation are developed together.In virtually all systems, requirements change. The people involved develop a bet-ter understanding of what they want the software to do; the organization buying the 
+system changes; and modifications are made to the system™s hardware, software, and 
+organizational environment. Changes have to be managed to understand the impact 
+on other requirements and the cost and system implications of making the change. 
+I˜discuss this process of requirements management in Section 4.6.

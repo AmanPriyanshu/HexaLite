@@ -1,0 +1,105 @@
+CHAPTER 25  
+TESTING WEB APPLICATIONS
+ 565 
+ 
+ 
+25.7.  Is it fair to say that the overall WebApp testing strategy begins with user-visible ele-
+ments and moves toward technology elements? Are there exceptions to this strategy?    
+ 
+25.8.  Is content testing  really
+ 
+ testing in a conventional sense? Explain.    
+ 
+25.9.  Describe the steps associated with database testing for a WebApp. Is database testing 
+predominantly a client-side or server-side activity? 
+   
+ 
+25.10.  What is the difference between testing that is associated with interface mechanisms and testing that addresses interface semantics?    
+ 
+25.11.  Assume that you are developing an online pharmacy ( YourCornerPharmacy.com
+ 
+) that caters to senior citizens. The pharmacy provides typical functions, but also maintains 
+a database for each customer so that it can provide drug information and warn of potential 
+drug interactions. Discuss any special usability tests for this WebApp. 
+   
+ 
+25.12.  Assume that you have implemented a drug interaction checking function for  YourCornerPharmacy.com
+ 
+ (Problem 20.11). Discuss the types of component-level tests that 
+would have to be conducted to ensure that this function works properly. (Note: A database 
+
+would have to be used to implement this function.)    
+ 
+25.13.  What is the difference between testing for navigation syntax and navigation semantics?    
+ 
+25.14.  Is it possible to test every conﬁ guration that a WebApp is likely to encounter on the 
+server side? On the client side? If it is not, how do you select a meaningful set of conﬁ gura-
+tion tests?    
+ 
+25.15.  What is the objective of security testing? Who performs this testing activity?    
+ 
+25.16.   
+YourCornerPharmacy.com
+ 
+ (Problem 25.11) has become wildly successful, and the 
+number of users has increased dramatically in the ﬁ rst two months of operation. Draw a 
+graph that depicts probable response time as a function of number of users for a ﬁ xed set of 
+server-side resources. Label the graph to indicate points of interest on the “response curve.” 
+   
+ 
+25.17.  In response to it, success  YourCornerPharmacy.com
+ 
+ (Problem 25.11) has imple-
+mented a special server solely to handle prescription reﬁ lls. On average, 1000 concurrent 
+users submit a reﬁ ll request once every two minutes. The WebApp downloads a 500-byte 
+block of data in response. What is the approximate required throughput for this server in 
+megabits per second?    
+ 
+25.18.  What is the difference between load testing and stress testing?   
+ 
+ 
+ 
+  F
+URTHER
+ READINGS AND INFORMATION
+ SOURCES  
+ 
+The literature for WebApp testing continues to evolve. Books by Andrews and Whittaker 
+( How to Break Web Software,
+ 
+Addison-Wesley, 2006), Ash ( 
+The Web Testing Companion,
+ 
+ Wiley, 
+2003), Nguyen and his colleagues ( Testing Applications for the Web,
+ 
+ 2nd ed., Wiley, 2003), 
+Dustin and his colleagues ( Quality Web Systems,
+ 
+ Addison-Wesley, 2002), and Splaine and 
+Jaskiel [Spl01] are among the most complete treatments of the subject published to date. 
+Whitaker and his colleagues describe additional web testing practices ( How Google Tests 
+Software,
+ 
+ Addison-Wesley, 2012). Mosley ( 
+Client-Server Software Testing on the Desktop and 
+the Web,
+ 
+ Prentice Hall, 1999) addresses both client-side and server-side testing issues. 
+  
+ 
+Useful information of WebApp testing strategies and methods, as well as a worthwhile 
+discussion of automated testing tools is presented by David ( Selenium 2 Testing Tools: A 
+Beginner’s Guide,
+ 
+ Packit Publishing, 2012) and Stottlemeyer ( 
+Automated Web Testing Toolkit,
+ 
+ Wiley, 2001). Graham and her colleagues ( 
+Experiences of Test Automation,
+ 
+ Addison-Wesley, 
+2012) and ( Software Test Automation,
+ 
+ Addison-Wesley, 1999) present additional material on 
+automated tools. pre22126_ch25_540-566.indd   565pre22126_ch25_540-566.indd   56513/12/13   6:15 PM13/12/13   6:15 PM

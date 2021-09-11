@@ -1,0 +1,56 @@
+580 Chapter 8  
+Cloud Computingsoftware, configuring security controls, and so on. Once the VM is set up, with your 
+MMO software installed and ready to run, you would save the VM as a new template, 
+
+and this would be the one you use for provisioning new servers.
+Now, when your game is ready for release, you have offloaded a number of con-
+cerns. You do not need to worry about buying, storing, or cooling servers, ensuring you 
+
+have sufficient network bandwidth, or maintaining revision control across your servers. 
+
+Instead, you start running a few copies of the same VM in an IaaS environment, then 
+
+monitor how taxed those servers are. If one of those servers comes to have enough users 
+
+that its processor, memory, or network bandwidth is oversubscribed, start up a new VM 
+
+instance and shift some users to that server. If your VMs are being underutilized, do the 
+
+opposite. Some providers will even automate this scaling for you. You can have exactly 
+
+the server and communication infrastructure you need to meet demand, while taking on 
+
+minimal risk.You now understand what IaaS is and how it works, so the rest of this section focuses 
+on best practices for using IaaS securely. We particularly look at public IaaS offerings, 
+
+and how securing them differs from securing private networks.
+Public IaaS Versus Private Network Security
+Three salient differences between public IaaS and traditional networks should influence 
+
+your security approach:1. As we mentioned earlier in the chapter, shared infrastructure in IaaS incurs new 
+threats that you need to address.2. There are typically more ways to access and control IaaS hosts than traditional 
+hosts, including via APIs.
+3. IaaS removes many of the traditional constraints on network security by making 
+new VMs and private networks easy and cheap to deploy.
+Over the next three sections, we cover each of these differences, and how each might 
+have an impact on your security deployment.
+Shared Infrastructure
+Earlier in the chapter we briefly looked at some of the attacks that shared infrastructure 
+makes possible. In short, just about any hardware or virtual device can potentially leak 
+
+data to attackers, and some can do more harm than that. Of course, one can do little 
+
+about controlling processor temperature or even hypervisor patching in IaaS, but one 
+
+can address a couple of shared infrastructure threats.The first of these is the threat of shared storage. When you delete a file in the cloud, 
+the file system deallocates it—that is, forgets it exists—but the file stays on a hard drive 
+
+somewhere until it is overwritten. Cloud providers generally overwrite storage to protect 
+
+confidentiality just before they allocate it to a new user, but there is no reason you need 
+
+to trust that this is happening consistently: You can fairly easily mitigate the risk on your 
+
+own. One option is to use a commercial encryption product to encrypt your sensitive 
+
+files, in which case you need not care whether a deleted file gets overwritten, since it 

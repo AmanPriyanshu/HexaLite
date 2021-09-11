@@ -1,0 +1,44 @@
+360 Chapter 6  
+NetworksNetwork ANetwork B 
+Host C Host D Host A1Host B3FIGURE 6-8 Multiple Routing Paths 
+SIDEBAR 6-5  
+Hello. Can You Hear Me Now? 
+How About Now?Mobile telephones are much more complicated than we sometimes imag-
+ine. With landline telephony you have essentially one cable connecting your 
+
+phone with the local telephone switching office, so most of the telephone 
+
+is just electronics to convert audio voice to an electronic signal and back 
+
+again. Mobile telephones do that, plus they have to manage the connection 
+to the mobile network. Unlike the case with landline communication, as a 
+mobile phone moves (and sometimes even when not), the device is con-
+
+stantly looking for a different signal to which to connect.
+At the 2010 Defcon 18 conference in Las Vegas, Nevada, security 
+researcher Chris Paget demonstrated his own homemade GSM tower, and 
+
+convinced up to 30 unwitting attendees with mobile phones to connect to 
+his system. The parts cost approximately $1500, and he used an ordinary 
+
+laptop running an open source application that essentially turned the lap-
+
+top into a GSM base station. A mobile phone will try to associate with the 
+
+strongest signal it can find; proximity helped him meet that goal. Users are 
+
+unaware when a mobile phone establishes or changes its association with 
+
+a provider.
+The United States has laws against wiretapping telephone conver-
+sations, so Paget was careful to announce his intentions and activity to 
+
+attendees. He also carefully eliminated all traces of the phone calls his 
+
+system handled so as to preserve his customers’ privacy. (Most attackers 
+
+would not be so scrupulously polite, however.) For purposes of the demon-
+
+stration he intercepted only outbound calls and played a warning message 
+
+to the callers.

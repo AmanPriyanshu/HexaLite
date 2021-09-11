@@ -1,0 +1,76 @@
+CHAPTER 3  
+SOFTWARE PROCESS STRUCTURE
+ 31 
+But what exactly is a software process from a technical point of view? Within 
+the context of this book, we deﬁ ne a  
+software process
+ 
+ as a framework for the 
+activities, actions, and tasks that are required to build high-quality software. Is 
+“process” synonymous with “software engineering”? The answer is yes and no. A 
+software process deﬁ nes the approach that is taken as software is engineered. 
+But software engineering also encompasses technologies that populate the 
+ process—technical methods and automated tools.  More important, software engineering is performed by creative, knowledge-able people who should adapt a mature software process so that it is appropriate 
+for the products that they build and the demands of their marketplace.   
+ 3.1 A G
+ENERIC PROCESS MODEL  
+ 
+In Chapter 2, a process was deﬁ ned as a collection of work activities, actions, and 
+tasks that are performed when some work product is to be created. Each of these 
+activities, actions, and tasks resides within a framework or model that deﬁ nes 
+their relationship with the process and with one another. 
+  
+ 
+ 
+The software process is represented schematically in  Figure 3.1 . Referring to the ﬁ gure, each framework activity is populated by a set of software engineering 
+actions. Each software engineering action is deﬁ ned by a  
+task set 
+ that identiﬁ
+ es 
+the work tasks that are to be completed, the work products that will be pro-
+duced, the quality assurance points that will be required, and the milestones that 
+will be used to indicate progress.   As we discussed in Chapter 2, a generic process framework for software engi-neering deﬁ nes ﬁ
+ ve framework activities— 
+communication, planning, modeling, construction, 
+ and  
+deployment 
+. In addition, a set of umbrella activities—project tracking and control, risk management, quality assurance, conﬁ guration man-
+agement, technical reviews, and others—are applied throughout the process.   
+ 
+ 
+You should note that one important aspect of the software process has not 
+yet been discussed. This aspect—called  process ﬂ
+ ow
+ 
+—describes how the frame-work activities and the actions and tasks that occur within each framework ac-
+tivity are organized with respect to sequence and time and is illustrated in 
+
+ .  A  linear process ﬂ
+ ow
+ 
+ executes each of the ﬁ
+ ve framework activities in se-
+quence, beginning with communication and culminating with deployment ( Fig-ure 3.2a) . An  iterative process ﬂ
+ ow
+ 
+ repeats one or more of the activities before 
+proceeding to the next ( Figure 3.2b) . An  evolutionary process ﬂ
+ ow
+ 
+ executes the 
+activities in a “circular” manner. Each circuit through the ﬁ
+ ve activities leads 
+to a more complete version of the software ( Figure 3.2c) . A  parallel process ﬂ
+ ow
+ 
+ ( Figure 3.2d)  executes one or more activities in parallel with other activities (e.g., 
+modeling for one aspect of the software might be executed in parallel with con-
+struction of another aspect of the software).     The hierarchy of 
+technical work within 
+the software process is 
+activities, encompass-
+ing actions, populated 
+by tasks.  What is 
+
+process ﬂ ow? 
+?pre22126_ch03_029-039.indd   31pre22126_ch03_029-039.indd   3113/12/13   6:10 PM13/12/13   6:10 PM

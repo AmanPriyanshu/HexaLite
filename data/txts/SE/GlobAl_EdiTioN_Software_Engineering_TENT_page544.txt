@@ -1,0 +1,68 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜
+˜ˇ
+˜scrapingﬂ process where your program extracts information from the HTML text of 
+web pages that are sent to a browser for rendering.
+
+Workflow design involves analyzing existing or planned business processes to 
+
+understand the tasks involved and how these tasks exchange information. You then 
+
+define the new business process in a workflow design notation. This sets out the 
+
+stages involved in enacting the process and the information that is passed between 
+
+the different process stages. However, existing processes may be informal and 
+
+dependent on the skills and ability of the people involved. There may be no ﬁnormalﬂ 
+
+way of working or process definition. In such cases, you have to use your knowledge 
+
+of the current process to design a workflow that achieves the same goals.
+Workflows represent business process models. They are graphical models that are 
+written using UML activity diagrams or BPMN, the Business Process Modeling Notation 
+
+(White and Miers 2008; OMG 2011). I use BPMN for the examples in this 
+chapter. If 
+you use SOAP-based services, it is possible to convert BPMN workflows automatically 
+
+into WS-BPEL, an XML-based workflow language. This is conformant with other web 
+
+service standards such as SOAP and WSDL. RESTful services may be composed within 
+
+a program in a standard programming language such as Java. Alternatively, a composi
+-
+tion language used for service mashups may be used (Rosenberg et al. 2008).
+Figure 18.
+15 is an example of a simple BPMN model of part of the vacation pack
+-age scenario, shown in Figure 
+18.14. The model shows a simplified workflow for 
+hotel booking and assumes the existence of a 
+Hotels service with associated opera-tions called GetRequirements, CheckAvailability
+, ReserveRooms, NoAvailability
+, ConfirmReservation, and CancelReservation. The process involves getting require
+-ments from the customer, checking room availability, and then, if rooms are availa
+-
+ble, making a booking for the required dates.This model introduces some of the core concepts of BPMN that are used to create 
+workflow models:
+1.
+ Rectangles with rounded corners represent activities. An activity can be exe
+-cuted by a human or by an automated service.2. Circles represent discrete events. An event is something that happens during a 
+business process. A simple circle is used to represent a starting event and a 
+
+darker circle to represent an end event. A double circle (not shown) is used to 
+
+represent an intermediate event. Events can be clock events, thus allowing work
+-
+flows to be executed periodically or timed out.
+3. A diamond is used to represent a gateway. A gateway is a stage in the process 
+
+where some choice is made. For example, in Figure 
+18.15, a choice is made on 
+the basis of whether or not rooms are available.
+4. A solid arrow shows the sequence of activities; a dashed arrow represents mes
+-
+sage flow between activities. In Figure 
+18.15, these messages are passed 
+
+between the hotel booking service and the customer.

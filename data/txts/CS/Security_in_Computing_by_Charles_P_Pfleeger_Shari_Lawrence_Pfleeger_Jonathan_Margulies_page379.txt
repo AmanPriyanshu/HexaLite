@@ -1,0 +1,70 @@
+ Section 6.1  Network Concepts 
+345  the attacker might carefully expose some of the outer conductor, connect to it, then 
+carefully expose some of the inner conductor and connect to it. Both of these operations 
+
+alter the resistance, called the impedance, of the cable. In the first case, the repair itself 
+
+alters the impedance, and the impedance change can be explained (or concealed) as 
+
+part of the repair. In the second case, a little social engineering can explain the change. 
+
+(“Hello, this is Matt, a technician with Bignetworks. We are changing some equipment 
+
+on our end, and so you might notice a change in impedance.”)
+Some LANs have a fixed set of devices that rarely change; with other LANs, people 
+add and remove devices frequently enough that change is not an exceptional event. In an 
+
+office, employees power up workstations that have been shut off for the night, visiting 
+
+employees connect laptops to the network, and technicians add and remove monitoring 
+
+gear to maintain the network. Adding one more device may pass unnoticed. An attacker 
+
+only needs to find an unused network connection point and plug in.
+Another way to intercept from a LAN is to find the wiring closet or panel, the place 
+where the wires of the network all come together and from which network adminis-
+
+trators can reconfigure the LAN’s topology, for example, by routing one set of wires 
+
+through a switch to make a separate subnet. With a device called a 
+sniffer someone can 
+connect to and intercept all traffic on a network; the sniffer can capture and retain data 
+
+or forward it to a different network.
+Signals on a network are multiplexed, meaning that more than one signal is transmit-
+ted at a given time. For example, two analog (sound) signals can be combined, like two 
+
+tones in a musical chord, and two digital signals can be combined by interleaving, like 
+
+playing cards being shuffled. A LAN carries distinct packets, but data on a WAN may 
+
+be heavily multiplexed as it leaves its sending host. Thus, a wiretapper on a WAN needs 
+
+to be able not only to intercept the desired communication but also to extract it from the 
+
+others with which it is multiplexed. While this can be done, the effort involved means 
+
+that the technique will be used sparingly.
+Optical FiberOptical fiber offers two significant security advantages over other transmission media. 
+First, the entire optical network must be tuned carefully each time a new connection is 
+
+made. Therefore, no one can tap an optical system without detection. Clipping just one 
+
+fiber in a bundle will destroy the balance in the network.
+Second, optical fiber carries light energy, not electricity. Light does not create a mag-
+netic field as electricity does. Therefore, an inductive tap is impossible on an optical 
+
+fiber cable.
+Just using fiber, however, does not guarantee security, any more than does just using 
+encryption. The repeaters, splices, and taps along a cable are places at which data may 
+
+be available more easily than in the fiber cable itself. The connections from computing 
+
+equipment to the fiber may also be points for penetration. By itself, fiber is much more 
+
+secure than cable, but it has vulnerabilities, too.
+Physical cables are thus susceptible to a range of interception threats. But pulling off 
+such an intrusion requires physical access to one of the cables carrying the communica-
+tion of interest, no small feat. In many cases pulling data from the air is easier, as we 
+
+describe next.

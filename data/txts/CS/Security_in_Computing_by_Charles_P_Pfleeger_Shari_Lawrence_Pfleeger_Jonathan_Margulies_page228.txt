@@ -1,0 +1,72 @@
+194 Chapter 3  
+Programs and Programmingwould have to look for both patterns. A virus that can change its appearance is called a 
+polymorphic
+ virus. (Poly
+ means “many” and 
+morph means “form.”)
+A two-form polymorphic virus can be handled easily as two independent viruses. 
+Therefore, the virus writer intent on preventing detection of the virus will want either a 
+
+large or an unlimited number of forms so that the number of possible forms is too large 
+
+for a virus scanner to search for. Simply embedding a random number or string at a fixed 
+
+place in the executable version of a virus is not sufficient, because the signature of the 
+
+virus is just the unvaried instructions, excluding the random part. A polymorphic virus 
+
+has to randomly reposition all parts of itself and randomly change all fixed data. Thus, 
+
+instead of containing the fixed (and therefore searchable) string “HA! INFECTED BY 
+
+A VIRUS,” a polymorphic virus has to change even that pattern sometimes.
+Trivially, assume a virus writer has 100 bytes of code and 50 bytes of data. To make 
+two virus instances different, the writer might distribute the first version as 100 bytes 
+
+of code followed by all 50 bytes of data. A second version could be 99 bytes of code, a 
+
+jump instruction, 50 bytes of data, and the last byte of code. Other versions are 98 code 
+
+bytes jumping to the last two, 97 and three, and so forth. Just by moving pieces around, 
+
+the virus writer can create enough different appearances to fool simple virus scanners. 
+
+Once the scanner writers became aware of these kinds of tricks, however, they refined 
+
+their signature definitions and search techniques.
+A simple variety of polymorphic virus uses encryption under various keys to make 
+the stored form of the virus different. These are sometimes called 
+encrypting viruses
+. This type of virus must contain three distinct parts: a decryption key, the (encrypted) 
+
+object code of the virus, and the (unencrypted) object code of the decryption routine. 
+For these viruses, the decryption routine itself or a call to a decryption library routine 
+
+must be in the clear, and so that becomes the signature. (See [PFL10d] for more on virus 
+
+writers’ use of encryption.)
+To avoid detection, not every copy of a polymorphic virus has to differ from every 
+other copy. If the virus changes occasionally, not every copy will match a signature of 
+
+every other copy.
+Because you cannot always know which sources are infected, you should assume 
+that any outside source is infected. Fortunately, you know when you are receiving code 
+
+from an outside source; unfortunately, cutting off all contact with the outside world is 
+
+not feasible. Malware seldom comes with a big warning sign and, in fact, as Sidebar 3-8 
+
+shows, malware is often designed to fool the unsuspecting.
+SIDEBAR 3-8 Malware Non-Detector
+In May 2010, the United States issued indictments against three men charged 
+with deceiving people into believing their computers had been infected with 
+
+malicious code [FBI10]. The three men set up computer sites that would first 
+
+report false and misleading computer error messages and then indicate that 
+
+the users’ computers were infected with various forms of malware.
+According to the indictment, after the false error messages were 
+transmitted, the sites then induced Internet users to purchase software 
+
+products bearing such names as “DriveCleaner” and “ErrorSafe,” ranging 

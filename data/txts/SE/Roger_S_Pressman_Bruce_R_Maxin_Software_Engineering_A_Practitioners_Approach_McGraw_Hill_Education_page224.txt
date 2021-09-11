@@ -1,0 +1,98 @@
+194 PART TWO  
+MODELING 
+ 
+ 
+  To determine whether system intelligence is properly distributed, 
+the responsibilities noted on each CRC model index card should be 
+
+evaluated to determine if any class has an extraordinarily long list of 
+
+responsibilities. This indicates a concentration of intelligence.  4 
+ 
+ In addi-tion, the responsibilities for each class should exhibit the same level of 
+
+abstraction. For example, among the operations listed for an aggregate 
+
+class called  CheckingAccount 
+ a reviewer notes two responsibilities: 
+ balance-the-account 
+ and  check-off-cleared-checks.
+ 
+ The ﬁ rst operation 
+(responsibility) implies a reasonably complex mathematical and logi-
+cal procedure. The second is a simple clerical activity. Since these two 
+
+operations are not at the same level of abstraction,  check-off-cleared-
+checks 
+ should be placed within the responsibilities of  CheckEntry 
+, a 
+class that is encompassed by the aggregate class  CheckingAccount 
+.  
+  
+ 
+ 
+ 2.
+   
+Each responsibility should be stated as generally as possible. 
+ This 
+guideline implies that general responsibilities (both attributes and 
+
+ operations) should reside high in the class hierarchy (because they are 
+generic, they will apply to all subclasses). 
+  
+ 
+ 
+ 3.
+   
+Information and the behavior related to it should reside within the 
+same class. 
+ This achieves the object-oriented principle called  encap-sulation 
+. Data and the processes that manipulate the data should be 
+packaged as a cohesive unit. 
+  
+ 
+ 
+ 4.
+   
+Information about one thing should be localized with a single class, 
+not distributed across multiple classes. 
+ A single class should take on 
+the responsibility for storing and manipulating a speciﬁ c type of infor-
+mation. This responsibility should not, in general, be shared across a 
+
+number of classes. If information is distributed, software becomes more 
+
+difﬁ cult to maintain and more challenging to test. 
+  
+ 
+ 
+ 5.
+   
+Responsibilities should be shared among related classes, when appro-priate. 
+ There are many cases in which a variety of related objects must 
+all exhibit the same behavior at the same time. As an example, con-
+sider a video game that must display the following classes:  Player, Play-
+erBody, PlayerArms, PlayerLegs, PlayerHead.
+ 
+ Each of these classes 
+has its own attributes (e.g., position, orientation, color, speed) and all 
+
+must be updated and displayed as the user manipulates a joystick. The 
+
+responsibilities  update 
+ and  display 
+ must therefore be shared by each 
+of the objects noted.  Player 
+ knows when something has changed and 
+ update 
+ is required. It collaborates with the other objects to achieve a 
+new position or orientation, but each object controls its own display. 
+  
+ 
+ 
+ 
+ 
+ 
+4  In such cases, it may be necessary to split the class into multiple classes or complete subsys-
+tems in order to distribute intelligence more effectively. 
+pre22126_ch10_184-201.indd   194pre22126_ch10_184-201.indd   19413/12/13   6:11 PM13/12/13   6:11 PM

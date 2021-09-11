@@ -1,0 +1,67 @@
+616 Chapter 9  
+PrivacyWe have also studied cases in which we do not want to be identified. Anonymity and 
+pseudonymity are useful in certain contexts. But data collection and correlation, on a 
+
+scale made possible only with computers, can defeat anonymity and pseudonymity. As 
+
+we computer professionals introduce new computer capabilities, we need to encourage 
+
+a public debate on the related privacy issues.
+In the next section we study data mining, a data retrieval process involving the link-
+ing of databases.9.4 DATA MINING
+In Chapter 7 we described the process and some of the security and privacy issues of 
+
+data mining. Here we consider how to maintain privacy in the context of data mining.
+Private sector data mining is a lucrative and rapidly growing industry. The more data 
+are collected, the more opportunities open for learning from various aggregations. Deter-
+
+mining trends, market preferences, and characteristics may be good because they lead to 
+
+an efficient and effective market. But people become sensitive or may even be harmed 
+
+if their private information becomes known without permission. See Sidebar 9-6 for an 
+
+example of the degree to which data tracking can learn about individuals.
+SIDEBAR 9-6  
+Corporations Know More about You Than 
+You Do Yourself
+Large datasets enable organizations to make predictions about you, not only 
+tailoring advertising but also suggesting likely health or behavior changes. 
+
+For example, Duhigg [DUH12] describes how the Target Corporation 
+
+amasses data about each actual and potential customer. “For decades, Tar-
+
+get has collected vast amounts of data on every person who regularly walks 
+
+into one of its stores. Whenever possible, Target assigns each shopper a 
+
+unique code—known internally as the Guest ID number—that keeps tabs on 
+
+everything they buy. ‘If you use a credit card or a coupon, or fill out a survey, 
+
+or mail in a refund, or call the customer help line, or open an email we’ve sent 
+
+you or visit our Website, we’ll record it and link it to your Guest ID,’” said one 
+
+of Target’s data analysts. “We want to know everything we can.”
+Duhigg describes how Target used these data to identify women who 
+were likely in their second trimester of pregnancy, to offer them special 
+
+prices on baby-related items. One young woman’s father was incensed 
+
+when pregnancy-related Target advertising showed up in the surface 
+
+mail—only to find out from an embarrassed daughter that a pregnancy test 
+
+confirmed what Target already suspected.
+These predictions are intrusive enough when they are correct, but 
+they can be damaging when they are wrong. People can be denied credit, 
+
+employment or mortgages, based on predictions about their likely behavior. 
+
+As we have seen in this chapter, the data can be incorrect, the predic-
+
+tions can be wrong, and those people affected can be unaware that their 
+
+choices are being constrained in this way. 

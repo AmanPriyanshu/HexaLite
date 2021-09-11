@@ -1,0 +1,71 @@
+ Section 11.5  Computer Crime 
+733  • If the vendor does not follow these steps, the reporter should work with a coor-
+dinator to determine a responsible way to publicize the vulnerability.
+Such a proposal can only have the status of a commonly agreed-on process, since no 
+authority can enforce adherence on either users or vendors.
+Quality Software
+Boris Beizer, a consultant, has said, “Software should be shipped with bugs. The zero-
+defect notion is mythological and theoretically unachievable. That doesn’t mean ship-
+
+ping ill-behaved or useless software; it means being open with users about the bugs we 
+
+find, sending notices or including the bug list, publishing the workarounds when we 
+
+have them, and being honest and open about what we have and haven’t yet tested and 
+
+when we do and don’t plan to test in the near future.” [COF02]
+The whole debate over how and when to disclose vulnerabilities avoids the real issue. 
+The world does not need faster patches, it needs better software with fewer vulnerabili-
+
+ties after delivery to the user. Forno [FOR01] says, “The most significant danger and 
+
+vulnerability facing the Wired World is continuing to accept and standardize corporate 
+
+and consumer computer environments on technology that’s proven time and again to be 
+
+insecure, unstable, and full of undocumented bugs (‘features’) that routinely place the 
+
+Internet community at risk.”
+In January 2002, Bill Gates, CEO of Microsoft, announced that producing quality software with minimal defects was his highest priority for Microsoft, ahead of new 
+
+functionality. His manager of development of the XP operating system announced he 
+
+was requiring programmers involved in development of XP to attend a course in secure 
+
+programming. Did the initiative work? In one five-day period in June 2002, Microsoft 
+
+released six separate patches for security vulnerabilities. In November 2003, Microsoft 
+
+went to once-a-month patch releases and has distributed an average of two to three new 
+
+critical patches each month in the six years from 2003 to 2009 (PCWorld
+, 24 Oct 2009).The issue is not how promptly a vulnerability is patched or how much detail is 
+released with a vulnerability announcement. The issue is that, as the James P. Ander-
+
+son report [AND72] noted over four decades ago, “penetrate and patch” is a fatally 
+
+flawed concept: After a flaw was patched, the penetrators always found other old flaws 
+
+or new flaws introduced because of 
+
+or in the patch. The issue is techni-
+
+cal, psychological, sociological, 
+
+managerial, and economic. Until we 
+produce consistently solid software, 
+
+our entire computing infrastructure 
+
+is seriously at risk.11.5 COMPUTER CRIME
+The law related to contracts and employment is difficult, but at least employees, objects, 
+
+contracts, and owners are fairly standard entities for which legal precedents have been 
+
+developed over centuries. The definitions in copyright and patent law are strained when 
+Disclosing vulnerabilities encourages 
+vendors to develop and disseminate 
+patches, but patching under time 
+pressure is counter to fixing flaws 
+
+completely.

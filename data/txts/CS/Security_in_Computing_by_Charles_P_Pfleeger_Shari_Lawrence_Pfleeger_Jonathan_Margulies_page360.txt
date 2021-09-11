@@ -1,0 +1,69 @@
+326 Chapter 5  
+Operating SystemsUnited States. The Orange Book became a U.S. Department of Defense standard, and a 
+regulation called for “C2 by 92,” a modest level of trustworthiness for all new Defense 
+
+Department computers by 1992. That mandate was never enforced, and for a while it 
+
+seemed as though the effort had achieved nothing.
+Trusted Systems Today
+Significant thought and money was invested during the 1980s and 1990s on design and 
+implementation of trusted systems. Research and development projects such as PSOS 
+
+[NEU80], KSOS [MCC79], KVM [GOL77], SCOMP [FRA83], Multics [SAL74], 
+
+Trusted Xenix, Trusted Mach [BRA88], GEMSOS [NCS95], and Vax VMM [KAR90] 
+
+helped establish the principles of high-assurance, security-enforcing trusted systems. Today, however, few security people have ever heard of these systems, let alone 
+know what they involve. These projects have disappeared from the security scene for 
+
+at least two reasons: First, the market for high-assurance, security-enforcing operating 
+
+systems is quite limited. Even users dealing with sensitive data, such as highly classi-
+
+fied military or diplomatic information, found they preferred or even needed functional-
+
+ity, performance, and usability more than security. Second, these systems were sidelines 
+
+to manufacturers’ major system offerings, and maintaining such separate product lines 
+
+became untenable. By now, as Sidebar 5-6 describes, even the word “trust” has lost 
+
+some of its value.
+Fortunately, however, the lessons of trusted systems design endure. Design prin-
+ciples such as least privilege and separation; features such as trusted path, secure 
+
+startup, and object reuse; and concepts such as the security kernel and reference moni-
+
+tor live on today. For example, today’s firewall, the widely used network security prod-
+
+uct (which we cover in the next chapter), is an instantiation of the reference monitor 
+
+concept, and Microsoft’s Trustworthy Computing (described in Chapter 3) is heavily 
+
+based on trusted systems principles. Thus, we encourage you to adopt the historian’s 
+
+philosophy that understanding the past can help you appreciate the present and prepare 
+
+for the future. SIDEBAR 5-6 Can Trust Be Certified?
+Is it possible to rely on a service or search engine to verify that an online 
+site is trustworthy? TRUSTe is a non-profit organization, founded in 1997 
+
+by privacy advocates, that uses its TRUSTe certification to assure users 
+
+that a site will protect the user’s privacy. In 2006, TRUSTe also introduced 
+
+a “trusted download program,” designed to confirm to users that software 
+
+downloaded from a site is neither adware nor spyware. 
+Edelman [EDE06] investigated the trustworthiness of sites holding 
+a TRUSTe certification. Dismayingly, he found that TRUSTe-certified sites 
+
+were twice as untrustworthy as uncertified sites. Similarly, he found that 
+
+relying on well-known and trusted search engines also increases the likeli-
+
+hood of being directed to an untrustworthy site.
+In 2008, Edelman found that the web site coupons.com stored data 
+in deceptive file names and registry entries designed to look like part of 
+
+Windows. The files had names such as c:\windows\WindowsShellOld.

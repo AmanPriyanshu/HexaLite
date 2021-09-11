@@ -1,0 +1,66 @@
+ Section 6.9  Network Management 
+491  customers—whose address blocks the provider should know and be able to verify—and 
+traffic from outsiders. Having reliable source addresses would limit certain denial-of-
+
+service attacks, but the Internet protocol design does not include mechanisms to support 
+
+address authenticity.
+ShunningWith reliable source addresses, network administrators can set edge routers to drop 
+packets engaging in a denial-of-service attack. This practice, called 
+shunning, essen-tially filters out all traffic from implicated addresses. Real-time monitoring that detects 
+
+an attack determines the addresses from which the attack is coming and acts quickly to 
+block those addresses. A firewall can implement shunning of a particular address
+Shunning has a downside, however. If an attacker can detect that a site implements 
+shunning, the attacker can send attack traffic spoofed to appear to be from a legiti-
+
+mate source. That is, the attacker might make it appear as if the attack is originating at 
+
+google.com or facebook.com, for example; shunning that apparent attack has the nega-
+
+tive outcome of denying legitimate traffic from Google or Facebook.
+Blacklisting and SinkholingIn extreme cases, the network administrator may decide to effectively disconnect the 
+targeted system. The administrator can 
+blacklist the target address, meaning that no 
+traffic goes to that address, from 
+
+legitimate or malicious sources 
+
+alike. Alternatively, the administra-
+
+tor may redirect traffic to a valid 
+
+address where the incoming traf-
+
+fic can be analyzed; this process is 
+
+called sinkholing.Both of these countermeasures can be applied at the network edge, before the over-
+load volume of traffic is allowed to overwhelm an internal subnetwork. Otherwise, the 
+
+excessive traffic could overwhelm all of an internal subnetwork, thereby denying or 
+
+degrading service to all hosts on the subnetwork, not just the one host that was the target 
+
+of the attack.All these administrative measures carry potential risks. Network monitoring affects 
+network performance because intercepting, analyzing, and forwarding traffic takes time 
+
+and therefore imposes a delay. In normal operation the delay is minor, but at the moment 
+
+of an attack, this delay, which affects good as well as malicious traffic, further slows 
+
+an already stressed system. Furthermore, good management requires detailed analysis, 
+to see, for example, not only that the traffic is a SYN packet but that the SYN packet 
+
+came from address a.b.c.d, which is the same address from which 250 SYN packets 
+
+have recently originated. Recognizing a SYN packet can be done instantly; recognizing 
+
+address a.b.c.d as involved in 250 previous attacks requires analysis of retained histori-
+
+cal data. More precise inspection produces more useful information but also takes more 
+
+time for the inspection.Shunning and sinkholing are extreme 
+
+network countermeasures blocking all 
+
+traffic from or to a specific address.

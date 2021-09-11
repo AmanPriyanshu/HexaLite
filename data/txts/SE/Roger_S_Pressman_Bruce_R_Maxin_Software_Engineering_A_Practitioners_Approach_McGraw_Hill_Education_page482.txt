@@ -1,0 +1,106 @@
+452 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 21.3  
+SQA PROCESSES AND PRODUCT CHARACTERISTICS  
+ 
+As we begin a discussion of software quality assurance, it’s important to note 
+that SQA procedures and approaches that work in one software environment 
+may not work as well in another. Even within a company that adopts a consis-
+
+tent approach  2 
+ 
+ to software engineering, different software products may exhibit 
+different levels of quality [Par11].   The solution to this dilemma is to understand the speciﬁ c quality requirements 
+for a software product and then select the process and speciﬁ c SQA actions and 
+tasks that will be used to meet those requirements. The Software Engineering 
+Institute’s CMMI and ISO 9000 standards are the most commonly used process 
+
+frameworks. Each proposes “a syntax and semantics” [Par11] that will lead to the 
+implementation of software engineering practices that improve product quality. 
+
+Rather than instantiating either framework in its entirety, a software organiza-
+
+tion can “harmonize” the two models by selecting elements of both frameworks 
+and matching them to the quality requirements of an individual product.   
+ 
+ 
+ 
+ 21.4  
+SQA TASKS, GOALS, AND METRICS  
+ 
+Software quality assurance is composed of a variety of tasks associated with two different constituencies—the software engineers who do technical work and   
+Quality Management Resources 
+ 
+Dozens of quality management resources are available on the Web, including professional 
+societies, standards organizations, and general informa-
+
+tion sources. The sites that follow provide a good starting 
+
+point: 
+  
+American Society for Quality (ASQ) Software Division    
+www.asq.org/software
+ 
+  Association for Computer Machinery 
+  
+www.acm.org
+ 
+  Cyber Security and Information Systems Information 
+Analysis Center (CSIAC)    
+https://sw.thecsiac.com/
+ 
+  International Organization for Standardization (ISO) 
+  
+www.iso.ch
+ 
+  ISO SPICE    
+http://www.spiceusergroup.org/
+ 
+  Malcolm Baldridge National Quality Award 
+  
+http://www.nist.gov/baldrige/
+ 
+  Software Engineering Institute    
+www.sei.cmu.edu/
+ 
+  Software Testing and Quality Engineering 
+  
+www.stickyminds.com
+ 
+  Six Sigma Resources     
+www.isixsigma.com/
+ 
+   
+www.asq.org/sixsigma/
+ 
+  TickIT International: Quality certiﬁ
+ cation topics 
+  
+www.tickit.org/international.htm
+ 
+  Total Quality Management (TQM) 
+  
+http://www.isixsigma.com/methodology/
+total-quality-management-tqm/ 
+   
+http://asq.org/learn-about-quality/
+total-quality-management/overview/
+
+overview.html
+ 
+ 
+  
+INFO  
+ 
+2  For example, CMMI-deﬁ
+ ned process and practices (Chapter 37). 
+pre22126_ch21_448-465.indd   452pre22126_ch21_448-465.indd   45213/12/13   10:02 PM13/12/13   10:02 PM

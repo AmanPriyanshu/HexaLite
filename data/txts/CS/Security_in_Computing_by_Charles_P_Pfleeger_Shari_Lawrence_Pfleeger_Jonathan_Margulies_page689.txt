@@ -1,0 +1,58 @@
+ Section 10.1  Security Planning 
+655  People building, using, and maintaining the system play many roles. Each role can 
+take some responsibility for one or more aspects of security. Consider, for example, the 
+
+groups listed below.
+• Users
+ of personal computers or other devices
+ may be responsible for the secu-
+rity of their own machines. Alternatively, the security plan may designate one 
+
+person or group to be coordinator of personal computer security. 
+• Project leaders
+ may be responsible for the security of data and computations.• Managers
+ may be responsible for seeing that the people they supervise imple-
+ment security measures.• Database administrators
+ may be responsible for the access to and integrity of 
+data in their databases. • Information officers
+ may be responsible for overseeing the creation and use of data; 
+these officers may also be responsible for retention and proper disposal of data. 
+• Personnel staff members
+ may be responsible for security involving employees, 
+for example, screening potential employees for trustworthiness and arranging 
+
+security training programs. TimetableA comprehensive security plan cannot be executed instantly. The security plan includes 
+a timetable that shows how and when the elements of the plan will be performed. These 
+
+dates also set milestones so that management can track the progress of implementation.It may be desirable to implement the security practices over time. For example, if the 
+controls are expensive or complicated, they may be acquired and implemented gradu-
+
+ally. Similarly, procedural controls may require staff training to ensure that everyone 
+
+understands and accepts the reason for the control. The plan should specify the order in 
+
+which the controls are to be implemented so that the most serious exposures are covered 
+
+as soon as possible.Furthermore, the plan must be extensible. Conditions will change: New equipment 
+will be acquired, new degrees and modes of connectivity will be requested, and new 
+
+threats will be identified. The plan must include a procedure for change and growth, so 
+
+that the security aspects of changes are considered as a part of preparing for the change, 
+not for adding security after the change has been made. The plan should also contain 
+
+a schedule for periodic review. Even though there may have been no obvious, major 
+
+growth, most organizations experience modest change every day. At some point the 
+
+cumulative impact of the change is enough to require that the plan be modified.
+Plan MaintenanceGood intentions are not enough when it comes to security. We must not only take care 
+in defining requirements and controls, but we must also find ways for evaluating a sys-
+
+tem’s security to be sure that the system is as secure as we intend it to be. Thus, the 
+
+security plan must call for reviewing the security situation periodically. As users, data, 
+
+and equipment change, new exposures may develop. In addition, the current means of 
+
+control may become obsolete or ineffective (such as when faster processor times enable 

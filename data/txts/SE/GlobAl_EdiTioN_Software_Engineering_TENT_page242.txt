@@ -1,0 +1,30 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜1. All system functions that are accessed through menus should be tested.2. Combinations of functions (e.g., text formatting) that are accessed through the same menu must be tested.3. Where user input is provided, all functions must be tested with both correct and 
+incorrect input.It is clear from experience with major software products such as word processors 
+or spreadsheets that similar guidelines are normally used during product testing. 
+
+When features of the software are used in isolation, they normally work. Problems 
+
+arise, as Whittaker explains (Whittaker 2009), when combinations of less com-
+monly used features have not been tested together. He gives the example of how, in 
+
+a commonly used word processor, using footnotes with multicolumn layout causes 
+
+incorrect layout of the text.Automated system testing is usually more difficult than automated unit or compo-nent testing. Automated unit testing relies on predicting the outputs and then  encoding 
+these predictions in a program. The prediction is then compared with the result. 
+
+However, the point of implementing a system may be to generate outputs that are 
+
+large or cannot be easily predicted. You may be able to examine an output and check 
+its credibility without necessarily being able to create it in advance.Test-driven development (TDD) is an approach to program development in which 
+
+you interleave testing and code development (Beck 2002; Jeffries and Melnik 2007). 
+You develop the code incrementally, along with a set of tests for that increment. You 
+
+don™t start working on the next increment until the code that you have developed 
+
+passes all of its tests. Test-driven development was introduced as part of the XP agile 
+
+development method. However, it has now gained mainstream acceptance and may 
+be used in both agile and plan-based processes.Incremental integration and testingSystem testing involves integrating different components, then testing the integrated system that you have  created. You should always use an incremental approach to integration and testing where you integrate a  component, test the system, integrate another component, test again, and so on. If problems occur, they are 
+probably due to interactions with the most recently integrated component.Incremental integration and testing is fundamental to agile methods, where regression tests are run every time a new increment is integrated.http://software-engineering-book.com/web/integration/

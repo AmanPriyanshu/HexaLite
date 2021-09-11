@@ -1,0 +1,50 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜1. The development organization sets a delivery time (say 2 p.m.) for system com-ponents. If developers have new versions of the components that they are writ-
+ing, they must deliver them by that time. Components may be incomplete but 
+should provide some basic functionality that can be tested.2. A new version of the system is built from these components by compiling and 
+
+linking them to form a complete system.3. This system is then delivered to the testing team, which carries out a set of pre-
+defined system tests.4. Faults that are discovered during system testing are documented and returned to the 
+
+system developers. They repair these faults in a subsequent version of the component.The advantages of using frequent builds of software are that the chances of 
+finding problems stemming from component interactions early in the process are 
+
+increased. Frequent building encourages thorough unit testing of components. 
+
+Psychologically, developers are put under pressure not to ﬁbreak the buildﬂ; that 
+
+is, they try to avoid checking in versions of components that cause the whole sys-
+tem to fail. They are therefore reluctant to deliver new component versions that 
+
+have not been properly tested. Consequently, less time is spent during system 
+
+testing discovering and coping with software faults that could have been found by 
+
+the developer.As compilation is a computationally intensive process, tools to support system 
+building may be designed to minimize the amount of compilation that is required. 
+
+They do this by checking if a compiled version of a component is available. If so, there 
+
+is no need to recompile that component. Therefore, there has to be a way of unam-
+biguously linking the source code of a component with its equivalent object code.This linking is accomplished by associating a unique signature with each file 
+where a source code component is stored. The corresponding object code, which has 
+been compiled from the source code, has a related signature. The signature identifies 
+
+each source code version and is changed when the source code is edited. By compar-
+ing the signatures on the source and object code files, it is possible to decide if the 
+
+source code component was used to generate the object code component.Two types of signature may be used, as shown in Figure 25.13:1. Modification timestamps The signature on the source code file is the time and 
+date when that file was modified. If the source code file of a component has 
+
+been modified after the related object code file, then the system assumes that 
+
+recompilation to create a new object code file is necessary. For example, say components Comp.java and Comp.class have modification 
+
+signatures of 17:03:05:02:14:2014 and 16:58:43:02:14:2014, respectively. This 
+means that the Java code was modified at 3 minutes and 5 seconds past 5 on the 
+14th of February 2014 and the compiled version was modified at 58 minutes 
+
+and 43 seconds past 4 on the 14th of February 2014. In this case, the system 
+
+would automatically recompile Comp.java because the compiled version has an 
+earlier modification date than the most recent version of the component.

@@ -1,0 +1,29 @@
+˜˜˚˛˜˜˜˜˜˜ˆ˛ˇ˜˜˜Figure 7.3 Use case descriptionŠReport weatherhow they respond to internal or external stimuli. Therefore, the stimuli and associ-
+ated responses should be listed in the description. Figure 7.3 shows the description of 
+the Report weather use case from Figure 7.2 that is based on this approach.ˇˇOnce the interactions between the software system and the system™s environment 
+
+have been defined, you use this information as a basis for designing the system archi
+-
+tecture. Of course, you need to combine this knowledge with your general knowl-
+edge of the principles of architectural design and with more detailed domain 
+
+knowledge. You identify the major components that make up the system and their 
+interactions. You may then design the system organization using an architectural 
+
+pattern such as a layered or clientŒserver model.The high-level architectural design for the weather station software is shown in 
+Figure 7.
+4. The weather station is composed of independent subsystems that  communicate 
+«subsystem»
+Data collection«subsystem»
+Communications«subsystem»Configuration manager«subsystem»
+Fault manager
+«subsystem»
+Power manager«subsystem»
+InstrumentsCommunication linkFigure 7.4 High-level architecture of 
+weather station SystemWeather stationUse caseReport weatherActorsWeather information system, Weather stationDataThe weather station sends a summary of the weather data that has been collected from the 
+instruments in the collection period to the weather information system. The data sent are the 
+maximum, minimum, and average ground and air temperatures; the maximum, minimum, 
+and average air pressures; the maximum, minimum and average wind speeds; the total 
+rainfall; and the wind direction as sampled at 5-minute intervals.StimulusThe weather information system establishes a satellite communication link with the weather 
+station and requests transmission of the data.ResponseThe summarized data is sent to the weather information system.CommentsWeather stations are usually asked to report once per hour, but this frequency may differ 
+from one station to another and may be modified in future.

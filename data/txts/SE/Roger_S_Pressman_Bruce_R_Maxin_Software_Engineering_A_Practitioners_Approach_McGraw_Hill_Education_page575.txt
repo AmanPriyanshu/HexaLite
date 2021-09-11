@@ -1,0 +1,72 @@
+CHAPTER 25  
+TESTING WEB APPLICATIONS
+ 545 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 25.3 
+ CONTENT TESTING  
+ 
+ 
+ 
+ 
+ 
+ 
+Errors in WebApp content can be as trivial as minor typographical mistakes or as 
+signiﬁ cant as incorrect information, improper organization, or violation of intel-
+lectual property laws.  Content testing 
+ attempts to uncover these and many other 
+problems before the user encounters them.  Content testing combines both reviews and the generation of executable test cases. Review is applied to uncover semantic errors in content (discussed in 
+Section 25.3.1). Executable testing is used to uncover content errors that can be 
+traced to dynamically derived content that is driven by data acquired from one 
+or more databases.  
+ 
+ 
+  
+ 
+ 
+ 
+25.3.1   
+Content Testing Objectives 
+ 
+Content testing has three important objectives: (1) to uncover syntactic errors (e.g., typos, grammar mistakes) in text-based documents, graphical representa-
+tions, and other media; (2) to uncover semantic errors (i.e., errors in the accuracy 
+or completeness of information) in any content object presented as navigation 
+occurs, and (3) to ﬁ nd errors in the organization or structure of content that is 
+presented to the end user. 
+   Although technical re-
+views are not a part of 
+
+testing, content review 
+should be performed 
+
+to ensure that content 
+has quality. 
+   Content testing objects 
+
+are: (1) to uncover 
+syntactic errors in con-
+
+tent, (2) to uncover 
+semantic errors, and 
+
+(3) to ﬁ nd structural 
+
+errors. 
+ContentTesting
+Interface
+Testing
+NavigationTesting
+ComponentTesting
+ConfigurationTesting
+Performance
+Testing
+SecurityTesting
+Interface
+designAesthetic designContent designNavigation designArchitecture designComponent designusertechnology FIGURE 25.1 
+The testing process
+pre22126_ch25_540-566.indd   545pre22126_ch25_540-566.indd   54513/12/13   6:15 PM13/12/13   6:15 PM

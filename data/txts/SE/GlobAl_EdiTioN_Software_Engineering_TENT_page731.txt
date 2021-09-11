@@ -1,0 +1,45 @@
+Software systems are constantly changing during development and use. Bugs are 
+discovered and have to be fixed. System requirements change, and you have to 
+
+implement these changes in a new version of the system. New versions of hardware 
+and system platforms are released, and you have to adapt your systems to work with 
+them. Competitors introduce new features in their system that you have to match. As 
+changes are made to the software, a new version of a system is created. Most sys-
+tems, therefore, can be thought of as a set of versions, each of which may have to be 
+maintained and managed.Configuration management (CM) is concerned with the policies, processes, and 
+tools for managing changing software systems (Aiello and Sachs 2011). You need to 
+
+manage evolving systems because it is easy to lose track of what changes and compo-
+nent versions have been incorporated into each system version. Versions implement 
+
+proposals for change, corrections of faults, and adaptations for different hardware 
+
+and operating systems. Several versions may be under development and in use at the 
+
+same time. If you don™t have effective configuration management procedures in 
+
+place, you may waste effort modifying the wrong version of a system, delivering the 
+
+wrong version of a system to customers, or forgetting where the software source code 
+
+for a particular version of the system or component is stored.Configuration management is useful for individual projects as it is easy for one person to forget what changes have been made. It is essential for team projects where 
+
+several developers are working at the same time on a software system. Sometimes 
+these developers are all working in the same place, but, increasingly, development 
+teams are distributed with members in different locations across the world. The con
+-
+figuration management system provides team members with access to the system 
+
+being developed and manages the changes that they make to the code.The configuration management of a software system product involves four 
+closely related activities (Figure 25.1):1. Version control This involves keeping track of the multiple versions of system 
+components and ensuring that changes made to components by different devel
+-
+opers do not interfere with each other.2. System building This is the process of assembling program components, data, 
+and libraries, then compiling and linking these to create an executable system.3. Change management This involves keeping track of requests for changes to 
+
+delivered software from customers and developers, working out the costs and 
+impact of making these changes, and deciding if and when the changes should 
+be implemented.4. Release management This involves preparing software for external release and 
+keeping track of the system versions that have been released for customer use.Because of the large volume of information to be managed and the relationships between configuration items, tool support is essential for configuration manage-
+ment. Configuration management tools are used to store versions of system compo-
+nents, build systems from these components, track the releases of system versions to ˜˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜˜

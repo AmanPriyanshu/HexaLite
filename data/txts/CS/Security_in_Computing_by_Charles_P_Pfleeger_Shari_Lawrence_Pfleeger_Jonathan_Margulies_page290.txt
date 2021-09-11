@@ -1,0 +1,53 @@
+256 Chapter 4  
+The Web—User Side
+Is a web bug malicious? Probably not, although some people would claim that the 
+unannounced tracking is a harmful invasion of privacy. But the invisible image is also 
+
+useful in more malicious activities, as described next.
+ClickjackingSuppose you are at a gasoline filling station with three buttons to press to select the 
+grade of fuel you want. The station owner, noticing that most people buy the lowest-
+
+priced fuel but that his greatest profit comes from the highest-priced product, decides to 
+
+pull a trick. He pastes stickers over the buttons for the lowest and highest prices saying, 
+
+respectively, “high performance” (on the lowest-priced button) and “economy” (on the 
+
+expensive, high-profit button). Thus, some people will inadvertently push the economy/
+
+high-priced button and unwittingly generate a higher profit. Unfair and deceptive, yes, 
+
+but if the owner is unscrupulous, the technique would work; however, most businesses 
+
+would not try that, because it is unethical and might lose customers. But computer 
+
+attackers do not care about ethics or loss of customers, so a version of this technique 
+
+becomes a computer attack.Consider a scenario in which an attacker wants to seduce a victim into doing some-
+thing. As you have seen in several examples in this book, planting a Trojan horse is 
+
+not difficult. But application programs and the operating system make a user confirm 
+
+actions that are potentially dangerous—the equivalent of a gas pump display that would 
+
+ask “are you sure
+ you want to buy the most expensive fuel?” The trick is to get the user 
+to agree without realizing it.As shown in Figure 4-13, the computer attack uses an image pasted over, that is, 
+displayed on top of, another image. We are all familiar with the click box “Do you 
+
+want to delete this file? [Yes] [No].” 
+Clickjacking is a technique that essentially causes 
+that prompt box to slide around so that [Yes] is always under the mouse. The attacker 
+
+also makes this box transparent, so 
+
+the victim is unaware of clicking 
+
+anything. Furthermore, a second, 
+
+visible image is pasted underneath, 
+so the victim thinks the box being 
+Clickjacking: Tricking a user into clicking 
+
+a link by disguising what the link 
+points toFIGURE 4-13 ClickjackingDo you want to performthis dangerous act?[Yes]       [No]For a Free PrizeClick[Here]

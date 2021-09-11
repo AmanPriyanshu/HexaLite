@@ -1,0 +1,85 @@
+510 PART THREE  
+QUALITY MANAGEMENThave the expected relationship to one another” [Bei95]. Stated in another way, 
+software testing begins by creating a graph of important objects and their rela-
+tionships and then devising a series of tests that will cover the graph so that each 
+object and relationship is exercised and errors are uncovered.   
+To accomplish these steps, you begin by creating a  
+graph 
+—a collection of  nodes 
+ that represent objects,  links 
+ that represent the relationships between objects, 
+ node weights 
+ that describe the properties of a node (e.g., a speciﬁ
+ c data value 
+or state behavior), and  link weights 
+ that describe some characteristic of a link.  The symbolic representation of a graph is shown in  Figure 23.8a . Nodes are represented as circles connected by links that take a number of different forms. 
+A  directed link
+ 
+ (represented by an arrow) indicates that a relationship moves in 
+only one direction. A  bidirectional link,
+ 
+ also called a  
+symmetric link, 
+ implies that 
+the relationship applies in both directions.  Parallel links 
+ are used when a num-
+ber of different relationships are established between graph nodes.   As a simple example, consider a portion of a graph for a word-processing application ( Figure 23.8b ) where  
+ 
+ 
+ 
+ 
+ 
+ 
+Object #1 
+ 5  newFile ( 
+menu selection)    
+ 
+ 
+ 
+ 
+ 
+Object #2 
+ 5  documentWindow
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Object #3 
+ 5  documentText
+ 
+ 
+ 
+ 
+  Referring to the ﬁ gure, a menu select on  
+newFile 
+ generates a document win-
+dow. The node weight of  
+documentWindow
+ 
+ provides a list of the window attributes 
+   A graph represents the 
+relationships between 
+data objects and pro-
+gram objects, enabling 
+us to derive test cases 
+that search for errors 
+
+associated with these 
+relationships.   
+FIGURE 23.8 
+(a) Graph notation; 
+(b) simple 
+example  
+ New filemenuselectMenu select generatesDocumentwindowDocumenttextIs represented asContains(b)Object#1Directed linkObject#2Object#3Undirected linkParallel linksNode weight(value)(a)Allows editing of(link weight)(generation time < 1.0 sec)Attributes:Start dimension: default setting
+
+          or preferences
+
+Background color: white
+Text color: default color 
+
+  or preferences
+pre22126_ch23_496-522.indd   510pre22126_ch23_496-522.indd   51013/12/13   6:14 PM13/12/13   6:14 PM

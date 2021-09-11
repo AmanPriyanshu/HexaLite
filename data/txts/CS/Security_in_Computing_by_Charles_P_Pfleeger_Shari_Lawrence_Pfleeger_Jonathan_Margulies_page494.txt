@@ -1,0 +1,80 @@
+460 Chapter 6  
+Networksmessages so that inside users can read them). A flawed application, running with all-
+users privileges, can cause much damage.
+An application proxy gateway
+, also called a bastion host, is a firewall that simu-
+lates the (proper) effects of an application at level 7 so that the application receives only 
+
+requests to act properly. A proxy 
+
+gateway is a two-headed device: 
+
+From inside, the gateway appears to 
+
+be the outside (destination) connec-
+
+tion, while to outsiders the proxy host 
+
+responds just as the insider would. In 
+
+fact, it behaves like a man in the mid-
+
+dle as described in Chapter 4.An application proxy runs pseudoapplications. For instance, when electronic mail 
+is transferred to a location, a sending process at one site and a receiving process at the 
+
+destination communicate by a protocol that establishes the legitimacy of a mail transfer 
+
+and then actually passes the mail message. The protocol between sender and destination 
+
+is carefully defined. A proxy gateway essentially intrudes in the middle of this protocol 
+
+exchange, seeming like a destination in communication with the sender that is outside 
+
+the firewall, and seeming like the sender in communication with the real recipient on the 
+
+inside. The proxy in the middle has the opportunity to screen the mail transfer, ensuring 
+
+that only acceptable email protocol commands and content are sent in either direction. 
+(Typically firewalls focus on protecting insider recipients from harmful content sent 
+
+from outside.)As an example of application proxying, consider the FTP (file transfer) protocol. 
+Specific protocol commands fetch (get) files from a remote location, store (put) files 
+
+onto a remote host, list files (ls) in a directory on a remote host, and position the process 
+
+(cd) at a particular point in a directory tree on a remote host. The commands of the FTP 
+
+protocol are actually a subset of commands a user could execute from a workstation to 
+
+manipulate files. Some administrators might want to permit gets but block puts, and to 
+
+list only certain files or prohibit changing out of a particular directory (so that an out-
+
+sider could retrieve only files from a prespecified directory). The proxy would simulate 
+
+both sides of this protocol exchange. For example, in one instance the proxy might 
+
+accept get commands but reject put commands. In another situation a proxy could filter 
+
+the local response to a request to list files so as to reveal only a subset of files the inside 
+
+administrator was willing to expose to outsiders.
+To understand the real purpose of a proxy gateway, let us consider several examples.
+• A company wants to set up an online price list so that outsiders can see the prod-
+ucts and prices offered. It wants to be sure that (a) no outsider can change the 
+
+prices or product list and (b) outsiders can access only the price list, not any of 
+
+the more sensitive files stored inside.
+• A school wants to allow its students to retrieve any information from World 
+Wide Web resources on the Internet. To help provide efficient service, the school 
+
+wants to know what sites have been visited and what files from those sites have 
+
+been fetched; particularly popular files will be cached locally.
+An application proxy simulates the 
+
+behavior of a protected application on 
+
+the inside network, allowing in only 
+safe data.

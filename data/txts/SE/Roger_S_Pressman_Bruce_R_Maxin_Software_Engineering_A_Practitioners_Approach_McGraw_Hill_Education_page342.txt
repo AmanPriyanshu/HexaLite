@@ -1,0 +1,76 @@
+312 PART TWO  
+MODELING 
+ 
+ 
+14.7.4 Analysis and Design for Reuse 
+ 
+Elements of the requirements model (Chapters 9–11) are compared to descrip-tions of reusable components in a process that is sometimes referred to as 
+“speciﬁ cation matching” [Bel95]. If speciﬁ
+ cation matching points to an existing 
+component that ﬁ ts the needs of the current application, you can extract the 
+component from a reuse library (repository) and use it in the design of a new 
+system. If components cannot be found (i.e., there is no match), a new component 
+is created. It is at this point—when you begin to create a new component—that 
+ design for reuse
+ 
+ (DFR) should be considered.  
+ 
+ 
+   
+As we have already noted, DFR requires that you apply solid software de-sign concepts and principles (Chapter 12). But the characteristics of the appli-
+cation domain must also be considered. Binder [Bin93] suggests a number of 
+
+key issues  16 
+ 
+ that form a basis for design for reuse. If the application domain has 
+standard global data structures, the component should be designed to make 
+
+use of these standard data structures. Standard interface protocols within an 
+
+application domain should be adopted, and an architectural style (Chapter 13) 
+
+that is appropriate for the domain can serve as a template for the architectural 
+
+design of new software. Once standard data, interfaces, and program templates 
+
+have been established, you have a framework in which to create the design. 
+
+New components that conform to this framework have a higher probability for 
+
+subsequent reuse. 
+  
+ 
+ 
+14.7.5 Classifying and Retrieving Components 
+ 
+Consider a large component repository. Tens of thousands of reusable software 
+components reside in it. But how do you ﬁ nd the one that you need? To answer 
+this question, another question arises: How do we describe software components 
+in unambiguous, classiﬁ able terms? These are difﬁ
+ cult questions, and no deﬁ
+ ni-
+tive answer has yet been developed.  A reusable software component can be described in many ways, but an ideal description encompasses what Tracz [Tra95] has called the  
+3C model 
+—concept, content, and context—a description of what the component accomplishes, how 
+this is achieved with content that may be hidden from casual users and need be 
+known only to those who intend to modify or test the component, and where the 
+component resides within its domain of applicability. 
+ To be of use in a pragmatic setting, concept, content, and context must be 
+translated into a concrete speciﬁ cation scheme. Dozens of papers and articles 
+have been written about classiﬁ cation schemes for reusable software compo-
+nents (e.g., [Nir10], [Cec06]), and all should be implemented within a reuse envi-
+ronment that exhibits the following characteristics:  
+ 
+ 
+    DFR can be quite difﬁ -
+cult when components 
+must be interfaced 
+
+or integrated with 
+legacy systems or 
+with multiple systems 
+whose architecture and 
+interfacing protocols 
+
+are inconsistent.   
+16  In general, DFR preparations should be undertaken as part of domain engineering. pre22126_ch14_285-316.indd   312pre22126_ch14_285-316.indd   31213/12/13   6:12 PM13/12/13   6:12 PM

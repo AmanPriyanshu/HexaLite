@@ -1,0 +1,70 @@
+528 PART THREE  
+QUALITY MANAGEMENTimplement the collaborations deﬁ ned for each CRC index card. In addition, the 
+detailed speciﬁ cation of operation details (i.e., the algorithms that implement 
+the operations) is reviewed.   
+ 
+ 
+ 
+ 
+ 24.3  
+OBJECT-ORIENTED TESTING STRATEGIES
+  
+ 
+As we noted in Chapter 23, the classical software testing strategy begins with “testing in the small” and works outward toward “testing in the large.” Stated 
+in the jargon of software testing (Chapter 23), you begin with  unit testing, 
+ then 
+progress toward  integration testing, 
+ and culminate with  
+validation and system testing. 
+ In conventional applications, unit testing focuses on the smallest compi-
+lable program unit—the subprogram (e.g., component, module, subroutine, pro-
+cedure). Once each of these units has been testing individually, it is integrated 
+
+into a program structure while a series of regression tests are run to uncover 
+errors due to interfacing the modules and side effects that are caused by the ad-
+dition of new units. Finally, the system as a whole is tested to ensure that errors 
+
+in requirements are uncovered.   
+ 
+ 
+ 
+ 
+ 
+ 
+24.3.1   
+Unit Testing in the OO Context 
+ 
+When object-oriented software is considered, the concept of the unit changes. Encapsulation drives the deﬁ nition of classes and objects. This means that each 
+class and each instance of a class (object) packages attributes (data) and the op-
+erations (also known as methods or services) that manipulate these data. Rather 
+than testing an individual module, the smallest testable unit is the encapsulated 
+class. Because a class can contain a number of different operations and a partic-
+ular operation may exist as part of a number of different classes, the meaning of 
+unit testing changes dramatically. 
+ We can no longer test a single operation in isolation (the conventional view of 
+unit testing) but rather, as part of a class. To illustrate, consider a class hierar-
+
+chy in which an operation  X 
+() is deﬁ ned for the superclass and is inherited by a 
+number of subclasses. Each subclass uses operation  X 
+(), but it is applied within the context of the private attributes and operations that have been deﬁ ned for 
+each subclass. Because the context in which operation  X 
+() is used varies in subtle ways, it is necessary to test operation  X 
+() in the context of each of the subclasses. This means that testing operation  X 
+() in a vacuum (the traditional unit-testing approach) is ineffective in the object-oriented context.   
+Class testing 
+ for OO software is the equivalent of unit testing for conventional 
+software.  3 
+ 
+ Unlike unit testing of conventional software, which tends to focus on 
+the algorithmic detail of a module and the data that ﬂ ows across the module 
+   The smallest testable 
+“unit” in OO software 
+is the class. Class 
+testing is driven by the 
+operations encapsu-
+lated by the class and 
+the state behavior of 
+the class.   
+3  Test-case design methods for OO classes are discussed in Sections 24.4 through 24.6. 
+pre22126_ch24_523-539.indd   528pre22126_ch24_523-539.indd   52813/12/13   10:02 PM13/12/13   10:02 PM

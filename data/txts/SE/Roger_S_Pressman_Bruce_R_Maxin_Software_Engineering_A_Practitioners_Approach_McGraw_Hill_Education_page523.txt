@@ -1,0 +1,57 @@
+CHAPTER 22  
+SOFTWARE TESTING STRATEGIES
+ 493is to be made in a highly coupled section of the program, special care must be taken when any change is made.   
+ 
+ 
+ 3.
+   
+What could we have done to prevent this bug in the ﬁ
+ rst place?
+ 
+ This ques-tion is the ﬁ rst step toward establishing a statistical software quality as-
+surance approach (Chapter 21). If you correct the process as well as the 
+product, the bug will be removed from the current program and may be 
+eliminated from all future programs.  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 22.10 S
+UMMARY  
+Software testing accounts for the largest percentage of technical effort in the software process. Regardless of the type of software you build, a strategy for sys-
+tematic test planning, execution, and control begins by considering small ele-
+ments of the software and moves outward toward the program as a whole.  The objective of software testing is to uncover errors. For conventional soft-ware, this objective is achieved through a series of test steps. Unit and integration 
+tests concentrate on functional veriﬁ cation of a component and incorporation 
+of components into the software architecture. Validation testing demonstrates 
+
+traceability to software requirements, and system testing validates software once 
+it has been incorporated into a larger system. Each test step is accomplished 
+through a series of systematic test techniques that assist in the design of test 
+cases. With each testing step, the level of abstraction with which software is con-
+
+sidered is broadened.  The strategy for testing object-oriented software begins with tests that exer-
+cise the operations within a class and then moves to thread-based testing for 
+integration. Threads are sets of classes that respond to an input or event. Use-
+based tests focus on classes that do not collaborate heavily with other classes.  Web and MobileApps are tested in much the same way as OO systems. How-
+ever, tests are designed to exercise content, functionality, the interface, naviga-
+
+tion, and other aspects of app performance and security. MobileApps require 
+
+specialized testing approaches that focus on testing the App on multiple devices 
+and in real world network environments.  Unlike testing (a systematic, planned activity), debugging can be viewed as an art. Beginning with a symptomatic indication of a problem, the debugging 
+activity must track down the cause of an error. Of the many resources available 
+
+during debugging, the most valuable is the counsel of other members of the soft-
+ware engineering staff.   
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+22.1  Using your own words, describe the difference between veriﬁ cation and validation. Do 
+both make use of test-case design methods and testing strategies?  pre22126_ch22_466-495.indd   493pre22126_ch22_466-495.indd   49313/12/13   6:14 PM13/12/13   6:14 PM

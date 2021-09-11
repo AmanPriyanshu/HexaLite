@@ -1,0 +1,28 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜An exception handler usually does one of three things:1.
+ Signals to a higher-level component that an exception has occurred and pro-vides information to that component about the type of exception. You use this 
+approach when one component calls another and the calling component needs to 
+know if the called component has executed successfully. If not, it is up to the 
+calling component to take action to recover from the problem.2. Carries out some alternative processing to that which was originally intended. 
+
+Therefore, the exception handler takes some actions to recover from the prob-
+lem. Processing may then continue as normal. Alternatively, the exception han-
+dler may indicate that an exception has occurred so that a calling component is 
+aware of and can deal with the exception.3. Passes control to the programming language runtime support system that han-
+dles the exception. This is often the default when faults occur in a program, for 
+example, when a numeric value overflows. The usual action of the runtime sys-
+tem is to halt processing. You should only use this approach when it is possible 
+to move the system to a safe and quiescent state, before handing over control to 
+the runtime system.Handling exceptions within a program makes it possible to detect and recover 
+from some input errors and unexpected external events. As such, it provides a degree 
+of fault tolerance. The program detects faults and can take action to recover from 
+
+them. As most input errors and unexpected external events are usually transient, it is 
+often possible to continue normal operation after the exception has been processed.Faults in programs, and therefore many program failures, are usually a consequence 
+of human error. Programmers make mistakes because they lose track of the numer-
+ous relationships between the state variables. They write program statements that 
+
+result in unexpected behavior and system state changes. People will always make 
+Code sectionException-handling codeNormal flow
+of controlException detectedNormal exitException
+processingFigure 11.12 Exception handling 

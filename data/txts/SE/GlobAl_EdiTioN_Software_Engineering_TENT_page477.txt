@@ -1,0 +1,42 @@
+˜˜˚˛˝˜˜˜˜˜˜
+A company with a reuse program may carry out some form of component certifi-cation before the component is made available for reuse. Certification means that 
+someone apart from the developer checks the quality of the component. They test the 
+
+component and certify that it has reached an acceptable quality standard, before it is 
+made available for reuse. However, this process can be expensive, and so many 
+
+companies simply leave testing and quality checking to the component developers.The successful reuse of components requires a development process tailored to 
+
+including reusable components in the software being developed. The CBSE with 
+
+reuse process has to include activities that find and integrate reusable components. 
+The structure of such a process was discussed in Chapter 2, and Figure 16.
+7 shows 
+the principal activities within that process. Some of these activities, such as the 
+ initial discovery of user requirements, are carried out in the same way as in other 
+
+software processes. However, the essential differences between CBSE with reuse 
+
+and software processes for original software development are as follows:1. The user requirements are initially developed in outline rather than in detail, and 
+stakeholders are encouraged to be as flexible as possible in defining their 
+
+requirements. Requirements that are too specific limit the number of compo-
+nents that could meet these requirements. However, unlike incremental devel-
+opment, you need a complete description of the requirements so that you can 
+
+identify as many components as possible for reuse.2.
+ Requirements are refined and modified early in the process depending on the 
+
+components available. If the user requirements cannot be satisfied from available 
+
+components, you should discuss the related requirements that can be supported 
+
+by the reusable components. Users may be willing to change their minds if this 
+
+means cheaper or quicker system delivery.3. There is a further component search and design refinement activity after the sys-
+tem architecture has been designed. Apparently, usable components may turn out 
+Identify candidatecomponentsOutlinesystemrequirements
+Modifyrequirements
+according to discovered
+componentsArchitectural
+designComposecomponents tocreate systemIdentify candidatecomponentsFigure 16.7 CBSE with reuse 

@@ -1,0 +1,37 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜requirements. Misuse cases can be used as part of the security requirements engi-neering process, but you also need to consider risks that are associated with system 
+stakeholders who do not interact directly with the system.It is very difficult to add security to a system after it has been implemented. Therefore, 
+
+you need to take security issues into account during the systems design process and 
+
+make design choices that enhance the security of a system. In this section, I focus on 
+
+two application-independent issues relevant to secure systems design:1. Architectural designŠhow do architectural design decisions affect the security of a system?2. Good practiceŠwhat is accepted good practice when designing secure  systems?Of course, these are not the only design issues that are important for security. 
+Every application is different, and security design also has to take into account the 
+purpose, criticality, and operational environment of the application. For example, if 
+you are designing a military system, you need to adopt their security classification 
+model (secret, top secret, etc.) If you are designing a system that maintains personal 
+information, you may have to take into account data protection legislation that places 
+restrictions on how data is managed.Using redundancy and diversity, which is essential for dependability, may mean that a system can resist and recover from attacks that target specific design or imple-
+mentation characteristics. Mechanisms to support a high level of availability may 
+
+help the system to recover from denial-of-service attacks, where the aim of an 
+
+attacker is to bring down the system and stop it from working properly.Designing a system to be secure inevitably involves compromises. It is usually possible to design multiple security measures into a system that will reduce the 
+
+chances of a successful attack. However, these security measures may require addi-
+tional computation and so affect the overall performance of the system. For example, 
+
+you can reduce the chances of confidential information being disclosed by encrypt
+-
+ing that information. However, this means that users of the information have to wait 
+for it to be decrypted, which may slow down their work.There are also tensions between security and usabilityŠanother emergent system property. Security measures sometimes require the user to remember and provide 
+
+additional information (e.g., multiple passwords). However, sometimes users forget 
+
+this information, so the additional security means that they can™t use the system.System designers have to find a balance between security, performance, and usa-bility. This depends on the type of system being developed, the expectations of its 
+users, and its operational environment. For example, in a military system, users are 
+familiar with high-security systems and so accept and follow processes that require 
+frequent checks. In a system for stock trading, where speed is essential, interruptions 
+of operation for security checks would be completely unacceptable.

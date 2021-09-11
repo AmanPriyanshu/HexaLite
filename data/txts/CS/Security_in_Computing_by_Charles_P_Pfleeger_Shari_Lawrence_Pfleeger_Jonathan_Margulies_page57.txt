@@ -1,0 +1,71 @@
+ Section 1.3  Harm 
+23  some risks and let others slide. Or we consider alternative courses of action, such as 
+transferring risk by purchasing insurance or even doing nothing if the side effects of the 
+
+countermeasure could be worse than the possible harm. The risk that remains uncovered 
+
+by controls is called residual risk
+.A basic model of risk management involves a user’s calculating the value of all 
+assets, determining the amount of harm from all possible threats, computing the costs 
+of protection, selecting safeguards (that is, controls or countermeasures) based on the 
+
+degree of risk and on limited resources, and applying the safeguards to optimize harm 
+
+averted. This approach to risk management is a logical and sensible approach to protec-
+
+tion, but it has significant drawbacks. In reality, it is difficult to assess the value of each 
+
+asset; as we have seen, value can change depending on context, timing, and a host of 
+
+other characteristics. Even harder is determining the impact of all possible threats. The 
+
+range of possible threats is effectively limitless, and it is difficult (if not impossible in 
+
+some situations) to know the short- and long-term impacts of an action. For instance, 
+
+Sidebar 1-3 describes a study of the impact of security breaches over time on corporate 
+
+finances, showing that a threat must be evaluated over time, not just at a single instance. 
+SIDEBAR 1-3  
+Short- and Long-term Risks of Security Breaches
+It was long assumed that security breaches would be bad for business: 
+that customers, fearful of losing their data, would veer away from insecure 
+
+businesses and toward more secure ones. But empirical studies suggest 
+
+that the picture is more complicated. Early studies of the effects of secu-
+
+rity breaches, such as that of Campbell [CAM03], examined the effects 
+
+of breaches on stock price. They found that a breach’s impact could 
+
+depend on the nature of the breach itself; the effects were higher when the 
+
+breach involved unauthorized access to confidential data. Cavusoglu et al. 
+
+[CAV04] discovered that a breach affects the value not only of the com-
+
+pany experiencing the breach but also of security enterprises: On aver-
+
+age, the breached firms lost 2.1 percent of market value within two days 
+
+of the breach’s disclosure, but security developers’ 
+market value actually 
+increased
+ 1.36 percent.
+Myung Ko and Carlos Dorantes [KO06] looked at the longer-term 
+financial effects of publicly announced breaches. Based on the Campbell 
+
+et al. study, they examined data for four quarters following the announce-
+
+ment of unauthorized access to confidential data. Ko and Dorantes note 
+
+many types of possible breach-related costs:
+“Examples of short-term costs include cost of repairs, cost of replacement of 
+the system, lost business due to the disruption of business operations, and lost 
+productivity of employees. These are also considered tangible costs. On the 
+
+other hand, long-term costs include the loss of existing customers due to loss 
+
+of trust, failing to attract potential future customers due to negative reputation 
+(continues)

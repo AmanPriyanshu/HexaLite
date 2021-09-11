@@ -1,0 +1,25 @@
+˜˜˚˝˜˜˜˜˜˜
+conditions indicated in square brackets, with alternative interaction options sepa-rated by a dotted line.You can read Figure 5.6 as follows:1. The medical receptionist triggers the ViewInfo method in an instance P of the 
+
+PatientInfo object class, supplying the patient™s identifier, PID to identify the 
+
+required information. P is a user interface object, which is displayed as a form 
+showing patient information.2. The instance P calls the database to return the information required, supplying 
+the receptionist™s identifier to allow security checking. (At this stage, it is not 
+important where the receptionist™s UID comes from.)3. The database checks with an authorization system that the receptionist is author-
+ized for this action.4. If authorized, the patient information is returned and is displayed on a form on 
+the user™s screen. If authorization fails, then an error message is returned. The 
+
+box denoted by ﬁaltﬂ in the top-left corner is a choice box indicating that one of 
+the contained interactions will be executed. The condition that selects the choice 
+
+is shown in square brackets.Figure 5.
+7 is a further example of a sequence diagram from the same system that illustrates two additional features. These are the direct communication between the 
+actors in the system and the creation of objects as part of a sequence of operations. In 
+
+this example, an object of type Summary is created to hold the summary data that is P: PatientInfo
+ViewInfo (
+PID)report (Info, 
+PID,UID)authorize (Info,UID)Patient info
+D: Mentcare-DB AS: AuthorizationauthorizationError (no access)[authorization OK]
+[authorization fail]Medical ReceptionistaltFigure 5.6 Sequence diagram for View patient information 

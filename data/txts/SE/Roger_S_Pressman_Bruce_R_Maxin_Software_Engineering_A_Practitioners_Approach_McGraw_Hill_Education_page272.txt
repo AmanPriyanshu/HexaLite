@@ -1,0 +1,70 @@
+242 PART TWO  
+MODELINGobject-oriented software engineering, abstractions are implemented as abstract classes,  
+R* 
+ and  
+W*. 
+ These abstract classes could then be used to invoke worker 
+classes that perform any read and write function. Therefore a  copy 
+ class,  
+C, 
+  invokes abstract classes,  R* 
+ and  
+W*, 
+ and the abstract class points to the appro-
+priate worker-class (e.g., the 
+R* class might point to a  
+read()
+ 
+ operation within a 
+ keyboard 
+ class in one context and a  
+read()
+ 
+ operation within a  
+sensor 
+ class in 
+another. This approach reduces coupling and improves the testability of a 
+
+design.  The example discussed in the preceding paragraph can be generalized with the  dependency inversion principle 
+ [Obj10], which states:  
+High-level modules (classes) should not depend [directly] upon low-level modules. Both should de-
+
+pend on abstractions. Abstractions should not depend on details. Details should 
+depend on abstractions. 
+  
+ 
+ 
+12.3.14 Design for Test 
+ 
+There is an ongoing chicken-and-egg debate about whether software design or test case design should come ﬁ rst. Rebecca Wirfs-Brock [Wir09] writes: 
+ 
+ 
+Advocates of test-driven development (TDD) write tests before implementing any other code. They take to heart Tom Peters’ credo, “Test fast, fail fast, adjust fast.” Test-
+
+ing guides their design as they implement in short, rapid-ﬁ re “write test code—fail 
+the test—write enough code to pass—then pass the test” cycles.  
+ FloorPlanaddCamera( ) addWall( ) 
+
+addWindow( ) 
+
+deleteSegment( ) 
+draw( )  type outsideDimensions  WallSegment
+SegmentstartCoordinate 
+endCoordinate getType( ) 
+draw( )WindowCameratype id 
+fieldView 
+
+panAngle
+zoomSetting  1*1*  
+FIGURE 12.3 
+Design class for FloorPlan 
+and composite 
+aggregation 
+
+for the class 
+(see sidebar 
+discussion)  
+  
+ uote:  “Test fast, fail fast, 
+adjust fast.”  Tom Peters 
+pre22126_ch12_224-251.indd   242pre22126_ch12_224-251.indd   24213/12/13   6:12 PM13/12/13   6:12 PM

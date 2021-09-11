@@ -1,0 +1,46 @@
+48 PART ONE  
+THE SOFTWARE PROCESS
+complete versions of the software. Boehm [Boe01a] describes the model in the following manner:   
+The spiral development model is a  risk 
+-driven  process model
+ 
+ generator that is used 
+to guide multi-stakeholder concurrent engineering of software intensive systems. 
+It has two main distinguishing features. One is a  cyclic 
+ approach for incrementally 
+growing a system’s degree of deﬁ
+ nition and implementation while decreasing its de-
+gree of risk. The other is a set of  anchor point milestones 
+ for ensuring stakeholder 
+commitment to feasible and mutually satisfactory system solutions.   
+Using the spiral model, software is developed in a series of evolutionary re-leases. During early iterations, the release might be a model or prototype. During 
+later iterations, increasingly more complete versions of the engineered system 
+are produced.  
+ 
+ 
+ 
+  A spiral model is divided into a set of framework activities deﬁ ned by the soft-
+ware engineering team. For illustrative purposes, we use the generic framework 
+activities discussed earlier. 
+ 4 
+ 
+ Each of the framework activities represent one seg-
+ment of the spiral path illustrated in  Figure 4.5 . As this evolutionary process be-gins, the software team performs activities that are implied by a circuit around 
+the spiral in a clockwise direction, beginning at the center. Risk (Chapter 35) is 
+
+considered as each revolution is made.  Anchor point milestones 
+—a combination of work products and conditions that are attained along the path of the spiral—
+are noted for each evolutionary pass.    The spiral model 
+can be adapted to 
+apply throughout the 
+entire life cycle of 
+an application, from 
+concept development 
+to maintenance.   
+4  The spiral model discussed in this section is a variation on the model proposed by Boehm. 
+For further information on the original spiral model, see [Boe88]. More recent discussion of 
+Boehm’s spiral model can be found in [Boe98]. 
+CommunicationPlanning ModelingConstructionDeployment delivery 
+feedbackStart
+analysis designcode testestimation scheduling risk analysis FIGURE 4.5 
+A typical  spiral model pre22126_ch04_040-065.indd   48pre22126_ch04_040-065.indd   4813/12/13   6:10 PM13/12/13   6:10 PM

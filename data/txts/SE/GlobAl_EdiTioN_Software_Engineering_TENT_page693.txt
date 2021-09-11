@@ -1,0 +1,32 @@
+˜˜˚˛ˇ˜˜˜
+˜˜˜
+For example, imagine that an organization is taking on a project in a domain in which 
+it has little previous experience. The project client has not defined the process to be used or 
+allowed time in the project schedule for significant risk analysis. A new development team 
+
+must be put together to implement this system. The organization has recently put in place 
+
+a process improvement program and has been rated as a Level 2 organization according to 
+
+the SEI capability assessment, as discussed in Chapter 26 (web chapter). These character-
+istics lead to estimates of the ratings used in exponent calculation as follows:1. Precedentedness, rated low (4). This is a new project for the organization.2. Development flexibility, rated very high (1). There is no client involvement in the development process, so there are few externally imposed changes.3. Architecture/risk resolution, rated very low (5). There has been no risk analysis 
+carried out.4. Team cohesion, rated nominal (3). This is a new team, so there is no information 
+available on cohesion.5. Process maturity, rated nominal (3). Some process control is in place.The sum of these values is 16. You then calculate the final value of the exponent 
+by dividing this sum by 100 and adding 0.01 to the result. The adjusted value of B is therefore 1.17.The overall effort estimate is refined using an extensive set of 17 product, pro-cess, and organizational attributes (see breakout box) rather than the seven attributes 
+
+used in the early design model. You can estimate values for these attributes because 
+you have more information about the software itself, its non-functional require-
+ments, the development team, and the development process.Scale factorExplanationArchitecture/risk resolutionReflects the extent of risk analysis carried out. Very low means little analysis; 
+extra-high means a complete and thorough risk analysis.Development flexibilityReflects the degree of flexibility in the development process. Very low means 
+a prescribed process is used; extra-high means that the client sets only 
+general goals.PrecedentednessReflects the previous experience of the organization with this type of project. 
+Very low means no previous experience; extra-high means that the 
+organization is completely familiar with this application domain.Team cohesionReflects how well the development team knows each other and works 
+together. Very low means very difficult interactions; extra-high means an 
+integrated and effective team with no communication problems.Process maturityReflects the process maturity of the organization as discussed in web  
+chapter 26. The computation of this value depends on the CMM Maturity 
+Questionnaire, but an estimate can be achieved by subtracting the CMM 
+process maturity level from 5.Figure 23.12 Scale factors used in the 
+exponent computation 
+in the post-architecture 
+model

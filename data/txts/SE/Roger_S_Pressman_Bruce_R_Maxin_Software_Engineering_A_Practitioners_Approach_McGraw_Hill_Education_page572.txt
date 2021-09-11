@@ -1,0 +1,123 @@
+542 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+•   
+Navigability 
+ is tested to ensure that all navigation syntax and semantics are exercised to uncover any navigation errors (e.g., dead links, improper 
+links, erroneous links).  
+  
+ 
+ 
+•   
+Performance 
+ is tested under a variety of operating conditions, conﬁ gura-
+tions, and loading to ensure that the system is responsive to user inter-
+
+action and handles extreme loading without unacceptable operational 
+degradation.   
+ 
+ 
+•   
+Compatibility 
+ is tested by executing the WebApp in a variety of different 
+host conﬁ gurations on both the client and server sides. The intent is to 
+ﬁ nd errors that are speciﬁ
+ c to a unique host conﬁ
+ guration. 
+  
+ 
+ 
+•   
+Interoperability
+ 
+is tested to ensure that the WebApp properly interfaces 
+with other applications and/or databases.   
+ 
+ 
+•   
+Security 
+ is tested by assessing potential vulnerabilities and attempting 
+to exploit each. Any successful penetration attempt is deemed a security 
+
+failure. 
+   
+A strategy and tactics for WebApp testing has been developed to exercise each 
+of these quality dimensions and is discussed in the remainder of this chapter. 
+  
+ 
+ 
+25.1.2   
+Errors within a WebApp Environment 
+ 
+Errors encountered as a consequence of successful WebApp testing have a num-
+ber of unique characteristics [Ngu00]:   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1.
+  Because many types of WebApp tests uncover problems that are ﬁ
+ rst evi-
+denced on the client side (i.e., via an interface implemented on a speciﬁ c 
+browser or a personal communication device), you often see a symptom of 
+the error, not the error itself. 
+  
+ 
+ 
+ 2.
+  Because a WebApp is implemented in a number of different conﬁ
+ gura-
+tions and within different environments, it may be difﬁ cult or impossible 
+to reproduce an error outside the environment in which the error was 
+originally encountered.   
+ 
+ 
+ 3.
+  Although some errors are the result of incorrect design or improper HTML (or other programming language) coding, many errors can be 
+traced to the WebApp conﬁ
+ guration. 
+  
+ 
+ 
+ 4.
+  Because WebApps reside within a client-server architecture, errors can 
+be difﬁ cult to trace across three architectural layers: the client, the server, 
+or the network itself.   
+ 
+ 
+ 5.
+  Some errors are due to the  static operating environment
+ 
+ (i.e., the speciﬁ c 
+conﬁ guration in which testing is conducted), while others are attributable 
+to the dynamic operating environment (i.e., instantaneous resource load-
+ing or time-related errors).   
+ 
+ 
+ uote:  “Innovation is a 
+bittersweet deal for 
+software testers. 
+Just when it seems 
+that we know how 
+to test a particular 
+technology, a new 
+
+one [WebApps] 
+
+comes along and 
+all bets are off.”  James Bach 
+ What makes 
+
+errors encountered 
+during WebApp 
+
+execution 
+somewhat 
+different from 
+those encountered 
+for conventional 
+software? ?pre22126_ch25_540-566.indd   542pre22126_ch25_540-566.indd   54213/12/13   6:15 PM13/12/13   6:15 PM

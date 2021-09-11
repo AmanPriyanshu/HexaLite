@@ -1,0 +1,58 @@
+CHAPTER 30  
+PRODUCT METRICS 657 A  goal deﬁ nition template
+  [Bas94] can be used to deﬁ ne each measurement 
+goal. The template takes the form:   
+Analyze  {the name of activity or attribute to be measured}  for the purpose of  {the overall objective of the analysis}  2  
+  with respect to  {the aspect of the activity or attribute that is considered}  from the viewpoint of  {the people who have an interest in the mea-surement}  in the context of  {the environment in which the measurement takes place}.    
+ As an example, consider a goal deﬁ nition template for  
+SafeHome :
+   
+Analyze  the  SafeHome  software architecture  for the purpose of  evaluating architec-tural components  with respect to  the ability to make  SafeHome  more extensible  from the viewpoint of  the software engineers performing the work  in the context of  prod-uct enhancement over the next three years.   
+ With a measurement goal explicitly deﬁ ned, a set of questions is developed. An-
+
+swers to these questions help the software team (or other stakeholders) to deter-
+
+mine whether the measurement goal has been achieved. Among the questions 
+that might be asked are:        
+Q 
+1:   Are architectural components characterized in a manner that compart-
+mentalizes function and related data?  
+       
+Q 
+2:  Is the complexity of each component within bounds that will facilitate 
+modiﬁ cation and extension?    
+ Each of these questions should be answered quantitatively, using one or more 
+
+measures and metrics. For example, a metric that provides an indication of the 
+cohesion (Chapter 12) of an architectural component might be useful in answer-
+
+ing  Q 1. Metrics discussed later in this chapter might provide insight for  Q 
+2. In every case, the metrics that are chosen (or derived) should conform to the mea-
+surement principles discussed in Section 30.1.3 and the measurement attributes 
+discussed in Section 30.1.5.     
+30.1.5   The Attributes of Effective Software Metrics 
+ Hundreds of metrics have been proposed for computer software, but not all pro-
+vide practical support to the software engineer. Some demand measurement 
+
+that is too complex, others are so esoteric that few real-world professionals have 
+any hope of understanding them, and others violate the basic intuitive notions of 
+what high-quality software really is.     
+  
+Ejiogu [Eji91] deﬁ nes a set of attributes that should be encompassed by effec-
+tive software metrics. It should be relatively easy to learn how to derive the met-
+ric, and its computation should not demand inordinate effort or time.The metric 
+should satisfy the engineer’s intuitive notions about the product attribute under 
+   Experience indicates 
+
+that a product metric 
+will be used only if it 
+is intuitive and easy to 
+compute. If dozens of 
+“counts” have to be 
+made, and complex 
+computations are 
+required, it is unlikely 
+that the metric will be 
+widely adopted.   2 
+ van Solingen and Berghout [Sol99] suggest that the objective is almost always “understanding, 
+controlling or improving” the process activity or product attribute. 

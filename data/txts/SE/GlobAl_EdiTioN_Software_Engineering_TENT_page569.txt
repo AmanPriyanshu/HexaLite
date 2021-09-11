@@ -1,0 +1,47 @@
+˜˜˚˛˙˜˜˜
+˜˜
+selected, you may negotiate with the supplier on costs, license conditions, 
+ possible changes to the system, and other contractual issues. For custom sys-tems, negotiations are likely to involve payment schedules, reporting, accept-ance criteria, requirements change requests, and costs of system changes. During this process, requirements changes may be agreed that will reduce the overall 
+
+costs and avoid some development problems.Complex sociotechnical systems are rarely developed ﬁin houseﬂ by the buyer of 
+the system. Rather, external systems companies are invited to bid for the systems 
+
+engineering contract. The customer™s business is not systems engineering, so its 
+
+employees do not have the skills needed to develop the systems themselves. For 
+
+complex hardware/software systems, it may be necessary to use a group of suppliers, 
+each with a different type of expertise.For large systems, such as an air traffic management system, a group of suppliers may form a consortium to bid for a contract. The consortium should include all of the 
+capabilities required for this type of system. For an ATC system, this would include 
+
+computer hardware suppliers, software companies, peripheral suppliers, and suppli-
+ers of specialist equipment such as radar systems.Customers do not usually wish to negotiate with multiple suppliers, so the contract 
+is usually awarded to a principal contractor, who coordinates the project. The princi-
+pal contractor coordinates the development of different subsystems by subcontrac-tors. The subcontractors design and build parts of the system to a specification that is 
+
+negotiated with the principal contractor and the customer. Once completed, the prin-
+cipal contractor integrates these components and delivers them to the customer.Decisions made at the procurement stage of the systems engineering process are 
+critical for later stages in that process. Poor procurement decisions often lead to prob-lems such as late delivery of a system and development of systems that are unsuited to 
+
+their operational environment. If the wrong system or the wrong supplier is chosen, then 
+
+the technical processes of system and software engineering become more complex.For example, I studied a system ﬁfailureﬂ where a decision was made to choose an 
+ERP˜system because this would ﬁstandardizeﬂ operations across the organization. These 
+
+operations were very diverse, and it turned out there were good reasons for this. 
+
+Standardization was practically impossible. The ERP system could not be adapted to cope 
+
+with this diversity. It was ultimately abandoned after incurring costs of around £10 million.
+Decisions and choices made during system procurement have a profound effect on the security and dependability of a system. For example, if a decision is made to 
+procure an off-the-shelf system, then the organization has to accept that they have no 
+influence over the security and dependability requirements of this system. System 
+
+security depends on decisions made by system vendors. In addition, off-the-shelf 
+
+systems may have known security weaknesses or may require complex configura
+-tion. Configuration errors, where entry points to the system are not properly secured, 
+are a significant source of security problems.On the other hand, a decision to procure a custom system means that a lot of effort 
+must be devoted to understanding and defining security and dependability requirements. 
+
+If a company has limited experience in this area, this is quite a difficult thing to do. If the 

@@ -1,0 +1,30 @@
+˜˜˚˛˜˜˜
+˜˜
+ components are included in each system release. I discuss change and configuration management in Chapter 25.Figure 9.
+4 shows some of the activities involved in software evolution. The pro-cess includes the fundamental activities of change analysis, release planning, system 
+implementation, and releasing a system to customers. The cost and impact of these 
+changes are assessed to see how much of the system is affected by the change and 
+
+how much it might cost to implement the change.If the proposed changes are accepted, a new release of the system is planned. 
+During release planning, all proposed changes (fault repair, adaptation, and new 
+
+functionality) are considered. A decision is then made on which changes to imple-
+ment in the next version of the system. The changes are implemented and validated, 
+and a new version of the system is released. The process then iterates with a new set 
+
+of changes proposed for the next release.In situations where development and evolution are integrated, change implemen-tation is simply an iteration of the development process. Revisions to the system are 
+designed, implemented, and tested. The only difference between initial development 
+and evolution is that customer feedback after delivery has to be considered when 
+
+planning new releases of an application.Where different teams are involved, a critical difference between development and 
+evolution is that the first stage of change implementation requires program understanding. 
+Change proposalsNew systemChange identificationprocessSoftware evolutionprocessFigure 9.3 Change identification and 
+evolution processes ReleaseplanningChangeimplementation
+System
+release
+Impactanalysis
+Changerequests
+PlatformadaptationSystem
+enhancementFault repair
+Figure 9.4 A general model of the software 
+evolution process 

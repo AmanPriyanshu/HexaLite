@@ -1,0 +1,73 @@
+CHAPTER 12  
+DESIGN CONCEPTS 243 
+But if design comes ﬁ rst, then the design (and code) must be developed with 
+ seams 
+—locations in the detailed design where you can “insert test code that probes the state of your running software” and/or “isolate code under test from 
+its production environment so that you can exercise it in a controlled testing 
+context” [Wir09]. 
+ Sometimes referred to as “test hooks,” seams must be consciously designed at the component level. To accomplish this, a designer must give thought to the 
+
+tests that will be conducted to exercise the component. As Wirfs-Brock states: “In 
+
+short, you need to provide appropriate test affordances—factoring your design in 
+a way that lets test code interrogate and control the running system.”   
+ 
+ 
+ 
+ 12.4 T
+HE DESIGN MODEL  
+ 
+The design model can be viewed in two different dimensions as illustrated in  Figure 12.4 . The  process dimension
+ 
+ indicates the evolution of the design model 
+as design tasks are executed as part of the software process. The  abstraction dimension 
+ represents the level of detail as each element of the analysis model 
+is transformed into a design equivalent and then reﬁ ned iteratively. Referring to 
+the ﬁ gure, the dashed line indicates the boundary between the analysis and de-
+sign models. In some cases, a clear distinction between the analysis and design Process dimension
+Abstraction dimensionArchitecture elementsInterface 
+elementsComponent-level elementsDeployment-level elementsLowHighClass diagrams Analysis packages 
+CRC models 
+Collaboration 
+   diagrams 
+Data flow diagrams 
+Control-flow diagrams 
+Processing narrativesUse cases - text Use-case diagrams 
+Activity diagrams 
+Swimlane diagrams 
+Collaboration 
+   diagrams
+State diagrams
+Sequence diagramsDesign class    realizations
+Subsystems 
+Collaboration 
+   diagrams Refinements to:Deployment diagramsClass diagramsAnalysis packages
+CRC models
+Collaboration diagrams
+Data flow diagrams
+Control-flow diagrams
+Processing narratives
+State diagrams
+Sequence diagramsComponent diagramsDesign classes 
+Activity diagrams 
+Sequence diagrams Refinements to:Component diagrams
+Design classes 
+Activity diagrams 
+Sequence diagrams Design class realizations Subsystems 
+Collaboration diagrams 
+Component diagrams 
+Design classes 
+Activity diagrams 
+Sequence diagramsAnalysis modelDesign modelRequirements:  Constraints  Interoperability
+  Targets and
+
+      configurationTechnical interface
+ design  
+Navigation design 
+GUI design     Design class       realizations 
+   Subsystems 
+   Collaboration 
+      diagrams   
+FIGURE 12.4 
+Dimensions of the design model  
+ pre22126_ch12_224-251.indd   243pre22126_ch12_224-251.indd   24313/12/13   6:12 PM13/12/13   6:12 PM

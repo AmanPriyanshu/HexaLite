@@ -1,0 +1,43 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜for interface event handling and will include a set of widgets that can be˜used to construct 
+displays. It is then left to the developer to specialize these by adding specific functionality 
+
+for a particular application. For example, in a user interface framework, the developer 
+
+defines display layouts that are appropriate to the application being implemented.Frameworks support design reuse in that they provide a skeleton architecture for the application as well as the reuse of specific classes in the system. The architecture 
+is implemented by the object classes and their interactions. Classes are reused 
+
+directly and may be extended using features such as inheritance and polymorphism.Frameworks are implemented as a collection of concrete and abstract object 
+classes in an object-oriented programming language. Therefore, frameworks are 
+
+language-specific. Frameworks are available in commonly used object-oriented 
+ programming languages such as Java, C#, and C++, as well as in dynamic languages 
+such as Ruby and Python. In fact, a framework can incorporate other frameworks, 
+where each framework is designed to support the development of part of the applica-
+tion. You can use a framework to create a complete application or to implement part 
+of an application, such as the graphical user interface.The most widely used application frameworks are web application frameworks (WAFs), which support the construction of dynamic websites. The architecture of a 
+
+WAF is usually based on the Model-View-Controller (MVC) Composite pattern shown 
+
+in Figure 15.5. The MVC pattern was originally proposed in the 1980s as an approach 
+
+to GUI design that allowed for multiple presentations of an object and separate styles 
+
+of interaction with each of these presentations. In essence, it separates the state from 
+
+its presentation so that the state may be updated from each presentation.An MVC framework supports the presentation of data in different ways and 
+allows interaction with each of these presentations. When the data is modified 
+
+through one of the presentations, the system model is changed and the controllers 
+associated with each view update their presentation.Frameworks are often implementations of design patterns, as discussed in Chapter˜7. 
+For example, an MVC framework includes the Observer pattern, the Strategy pattern, the 
+
+Composite pattern, and a number of others that are discussed by Gamma˜et˜al. (Gamma et 
+
+al. 1995). The general nature of patterns and their use of abstract and concrete classes allow 
+
+for extensibility. Without patterns, frameworks would almost certainly be impractical.Model methodsController methodsView methods
+Userinputsview modificationmessagesModel editsModel queriesand updatesController stateView state
+Model stateFigure 15.5 The Model-View-Controller 
+pattern

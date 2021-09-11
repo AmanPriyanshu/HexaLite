@@ -1,0 +1,47 @@
+ Section 6.2  Threats to Network Communications 
+371  Another thing an attacker can learn is connectivity. Figure 6-12 concerns a single 
+host. In Figure 6-13 we have expanded the search to an entire subnetwork (again, with 
+
+changed name and address). As you can see, the network consists of a router, three com-
+
+puters, and one unidentified device. 
+The information from Figure 6-14 gives another important clue: Because the latency 
+time (the time between when a packet is sent to the device and the device responds) for 
+
+all devices is similar, they are probably on the same network segment. Thus, you could 
+
+sketch a connectivity diagram of the network (as shown in Figure 6-14).
+ Nmap has many options; an outsider can fingerprint owners and users, identify 
+common services running on uncommon ports, map the connectivity (routes between) 
+
+machines, or deduce the real kind of unknown device. Notice that with only a couple of 
+
+commands the attacker in the two examples shown learns
+• how many hosts there are
+• what their IP addresses are
+Nmap scan report 192.168.1.1 / somehost.com (online) ping results
+address: 192.168.1.1 (ipv4) 
+hostnames: somehost.com (user) 
+The 83 ports scanned but not shown below are in state: closed
+Port      State     Service Reason      Product  Version  Extra info 
+21   tcp  open      ftp     syn-ack     ProFTPD  1.3.1    
+22   tcp  filtered  ssh     no-response
+25   tcp  filtered  smtp    no-response       
+80   tcp  open      http    syn-ack     Apache   2.2.3    (CentOS)  
+106  tcp  open      pop3pw  syn-ack     poppassd      
+110  tcp  open      pop3    syn-ack     Courier pop3d      
+111  tcp  filtered  rpcbind no-response
+113  tcp  filtered  auth    no-response       
+143  tcp  open      imap    syn-ack     Courier Imapd      rel'd 2004  
+443  tcp  open      http    syn-ack     Apache  2.2.3      (CentOS)  
+465  tcp  open      unknown syn-ack       
+646  tcp  filtered  ldp     no-response       
+993  tcp  open      imap    syn-ack     Courier Imapd      rel'd 2004  
+995  tcp  open              syn-ack       
+2049 tcp  filtered  nfs     no-response       
+3306 tcp  open      mysql   syn-ack     MySQL   5.0.45    
+8443 tcp  open      unknown syn-ack       
+34 sec. scanned 
+1 host(s) scanned 
+1 host(s) online 
+0 host(s) offlineFIGURE 6-12 Nmap Scanner Output

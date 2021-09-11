@@ -1,0 +1,67 @@
+694 Chapter 10  
+Management and Incidentsis a possible point of emanation. Furthermore, continuous metal pathways, such as 
+water pipes or heating ducts, act as antennas to convey the emanations away from their 
+
+source.Emanations can also be designed in such a way that they cannot be retrieved. This 
+process is similar to generating noise in an attempt to jam or block a radio signal. With 
+
+this approach, the emanations of a piece of equipment must be modified by addition of 
+
+spurious signals. Additional processors are added to Tempest equipment specifically to 
+
+generate signals that fool an interceptor. The exact Tempest modification methods are 
+
+classified.
+As might be expected, Tempest-enclosed components are larger and heavier than 
+their unprotected counterparts. Tempest testing is a rigorous program of the U.S. 
+
+Department of Defense. Once a product has been approved, even a minor design modi-
+
+fication, such as changing from one manufacturer’s power supply to an equivalent one 
+
+from another manufacturer, invalidates the Tempest approval. Therefore, these com-
+
+ponents are costly, ranging in price from 10 percent to 300 percent more than similar 
+
+non-Tempest products. They are most appropriate in situations in which the data to be 
+
+confined are of great value, such as top-level government information. Other groups 
+
+with less dramatic needs can use other less rigorous shielding.Contingency PlanningThe key to successful recovery is adequate preparation. Seldom does a crisis destroy 
+
+irreplaceable equipment; most computing systems—personal computers to main-
+
+frames—are standard, off-the-shelf systems that can easily be replaced. Data and 
+
+locally developed programs are more vulnerable because they cannot quickly be substi-
+
+tuted from another source. Let us look more closely at what to do after a crisis occurs.BackupIn many computing systems, some data items change frequently, whereas others sel-
+dom change. For example, a database of bank account balances changes daily, but a 
+
+file of depositors’ names and addresses changes much less often. Also the number of 
+
+changes in a given period of time is different for these two files. These variations in 
+
+number and extent of change relate 
+
+to the amount of data necessary to 
+
+reconstruct these files in the event 
+
+of a loss.A backup is a copy of all or a part of a file to assist in reestablishing a lost file. In 
+professional computing systems, periodic backups are usually performed automatically, 
+
+often at night when system usage is low. But, as Sidebar 10-9 explains, the cost of 
+
+backups can be significant for some businesses. Everything on the system is copied, 
+
+including system files, user files, scratch files, and directories, so that the system can be 
+
+regenerated after a crisis. This type of backup is called a complete backup. Complete 
+
+backups are done at regular intervals, usually weekly or daily, depending on the critical-
+
+ity of the information or service provided by the system.
+Backup permits recovery from loss or 
+
+failure of a computing device.

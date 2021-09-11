@@ -1,0 +1,39 @@
+language such as Java. The language IDE may be developed specially or may be an instantiation of a general-purpose IDE, with specific language-support tools.A general-purpose IDE is a framework for hosting software tools that provides data 
+management facilities for the software being developed and integration mechanisms 
+
+that allow tools to work together. The best-known general-purpose IDE is the Eclipse 
+
+environment (http://www.eclipse.org). This environment is based on a plug-in architec-ture so that it can be specialized for different languages, such as Java, and application 
+
+domains. Therefore, you can install Eclipse and tailor it for your specific needs by add
+-ing plug-ins. For example, you may add a set of plug-ins to support networked systems 
+
+development in Java (Vogel 2013) or embedded systems  engineering using C.As part of the development process, you need to make decisions about how the developed software will be deployed on the target platform. This is straightforward 
+for embedded systems, where the target is usually a single computer. However, for 
+distributed systems, you need to decide on the specific platforms where the compo-
+nents will be deployed. Issues that you have to consider in making this decision are:1. The hardware and software requirements of a component If a component is 
+designed for a specific hardware architecture, or relies on some other software 
+system, it must obviously be deployed on a platform that provides the required 
+
+hardware and software support.2. The availability requirements of the system High-availability systems may require 
+
+components to be deployed on more than one platform. This means that, in the event 
+
+of platform failure, an alternative implementation of the component is available.3. Component communications If there is a lot of intercomponent communication, it is 
+
+usually best to deploy them on the same platform or on platforms that are physically 
+
+close to one another. This reduces communications latencyŠthe delay between the 
+
+time that a message is sent by one component and received by another.You can document your decisions on hardware and software deployment using 
+UML deployment diagrams, which show how software components are distributed 
+across hardware platforms.If you are developing an embedded system, you may have to take into account 
+target characteristics, such as its physical size, power capabilities, the need for 
+ real-time responses to sensor events, the physical characteristics of actuators and its 
+
+real-time operating system. I discuss embedded systems engineering in Chapter 21. 
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜UML deployment diagramsUML deployment diagrams show how software components are physically deployed on processors. That is, the 
+deployment diagram shows the hardware and software in the system and the middleware used to connect the 
+different components in the system. Essentially, you can think of deployment diagrams as a way of defining and 
+documenting the target environment.http://software-engineering-book.com/web/deployment/

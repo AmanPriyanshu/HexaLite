@@ -1,0 +1,89 @@
+CHAPTER 33  
+ESTIMATION FOR SOFTWARE PROJECTS
+ 729are therefore difﬁ cult to use during software planning (before a design and code 
+exist). However, other, more subjective assessments of complexity (e.g., function 
+
+point complexity adjustment factors described in Chapter 30) can be established 
+early in the planning process.   
+Project size
+ 
+ is another important factor that can affect the accuracy and efﬁ
+ cacy 
+of estimates. As size increases, the interdependency among various elements of 
+the software grows rapidly. 
+ 2 
+ 
+ Problem decomposition, an important approach to 
+estimating, becomes more difﬁ cult because the reﬁ
+ nement of problem elements 
+may still be formidable. To paraphrase Murphy’s law: “What can go wrong will go 
+
+wrong”—and if there are more things that can fail, more things will fail.  
+ 
+  The  degree of structural uncertainty
+ 
+ also has an effect on estimation risk. In 
+this context, structure refers to the degree to which requirements have been 
+solidiﬁ ed, the ease with which functions can be compartmentalized, and the hi-
+erarchical nature of the information that must be processed.   The availability of historical information has a strong inﬂ uence on estimation 
+risk. By looking back, you can emulate things that worked and improve areas 
+where problems arose. When comprehensive software metrics (Chapter 32) are 
+available for past projects, estimates can be made with greater assurance, sched-
+ules can be established to avoid past difﬁ culties, and overall risk is reduced. 
+ Estimation risk is measured by the degree of uncertainty in the quantitative es-timates established for resources, cost, and schedule. If project scope is poorly un-
+derstood or project requirements are subject to change, uncertainty and estimation 
+
+risk become dangerously high. As a planner, you and the customer should recognize 
+
+that variability in software requirements means instability in cost and schedule. 
+ However, you should not become obsessive about estimation. Modern soft-
+ware engineering approaches (e.g., evolutionary process models) take an itera-
+tive view of development. In such approaches, it is possible—although not always 
+politically acceptable—to revisit the estimate (as more information is known) 
+and revise it when the customer makes changes to requirements.  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 33.2  
+THE PROJECT PLANNING PROCESS  
+ 
+The objective of software project planning is to provide a framework that enables the manager to make reasonable estimates of resources, cost, and schedule. In 
+addition, estimates should attempt to deﬁ ne best-case and worst-case scenarios 
+so that project outcomes can be bounded. Although there is an inherent degree 
+of uncertainty, the software team embarks on a plan that has been established as 
+
+a consequence of these tasks. Therefore, the plan must be adapted and updated    Project complexity, 
+project size, and the 
+degree of structural un-
+
+certainty all affect the 
+
+reliability of estimates.   uote:  “It is the mark 
+of an instructed 
+mind to rest 
+satisﬁ ed with the 
+
+degree of precision 
+that the nature 
+of the subject 
+admits, and not 
+to seek exactness 
+when only an 
+approximation 
+of the truth is 
+possible.”  Aristotle 
+   The more you know, 
+
+the better you 
+estimate. Therefore, 
+update your estimates 
+as the project 
+progresses.   
+2  Size often increases due to “scope creep” that occurs when problem requirements change. 
+Increases in project size can have a geometric impact on project cost and schedule (Michael 
+Mah, personal communication). pre22126_ch33_727-753.indd   729pre22126_ch33_727-753.indd   72913/12/13   6:17 PM13/12/13   6:17 PM

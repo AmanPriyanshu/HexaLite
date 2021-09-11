@@ -1,0 +1,42 @@
+attacks are detected, then action may be taken, such as shutting down parts of the system or restricting access to certain users.3. Exposure limitation and recovery Controls that support recovery from prob
+-
+lems. These can range from automated backup strategies and information ﬁmir-
+roringﬂ through to insurance policies that cover the costs associated with a 
+
+successful attack on the system.Security is closely related to the other dependability attributes of reliability, avail-ability, safety, and resilience:1. Security and reliability 
+If a system is attacked and the system or its data are cor
+-rupted as a consequence of that attack, then this may induce system failures that 
+compromise the reliability of the system.Errors in the development of a system can lead to security loopholes. If a system 
+does not reject unexpected inputs or if array bounds are not checked, then attackers can 
+
+exploit these weaknesses to gain access to the system. For example, failure to check the 
+
+validity of an input may mean that an attacker can inject and execute malicious code.2. Security and availability A common attack on a web-based system is a denial-
+of-service attack, where a web server is flooded with service requests from a 
+
+range of different sources. The aim of this attack is to make the system unavail-
+able. A variant of this attack is where a profitable site is threatened with this 
+
+type of attack unless a ransom is paid to the attackers.3. Security and safety Again, the key problem is an attack that corrupts the system 
+or its data. Safety checks are based on the assumption that we can analyze the 
+source code of safety-critical software and that the executing code is a com-
+pletely accurate translation of that source code. If this is not the case, because an 
+
+attacker has changed the executing code, safety-related failures may be induced 
+and the safety case made for the software is invalid.Like safety, we cannot assign a numeric value to the security of a system, nor 
+can we exhaustively test the system for security. Both safety and security can be 
+
+thought of as ﬁnegativeﬂ or ﬁshall notﬂ characteristics in that they are concerned 
+
+with things that should not happen. As we can never prove a negative, we can 
+never prove that a system is safe or secure.4. Security and resilience Resilience, covered in Chapter 14, is a system character-
+istic that reflects its ability to resist and recover from damaging events. The 
+
+most probable damaging event on networked software systems is a cyberattack 
+
+of some kind, so most of the work now done in resilience is aimed at deterring, 
+detecting, and recovering from such attacks.Security has to be maintained if we are to create reliable, available, and safe software-
+intensive systems. It is not an add-on, which can be added later but has to be considered 
+
+at all stages of the development life cycle from early requirements to system operation.˜˜˚˛˜˜˜˜
+˜˜˜

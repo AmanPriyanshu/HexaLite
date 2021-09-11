@@ -1,0 +1,71 @@
+CHAPTER 27  
+SECURITY ENGINEERING 599 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 27.8 S
+UMMARY  
+Software security engineering is concerned with developing software that pro-tects the assets it manages from threats. Threats may involve attacks that exploit 
+system vulnerabilities to compromise the conﬁ dentiality, integrity, or availability 
+of system services or data.  Security risk management is concerned with assessing the impact of possible threats and deriving security requirements to minimize critical losses. Design 
+for security involves creating a system architecture that minimizes the introduc-
+tion of known vulnerabilities. Software engineers should make use of techniques 
+to prevent attacks, to repel attacks, and to recover from attacks as a means to 
+mitigating the effects of losses.  Inspiring trust among stakeholders requires that developers regard security assurance as an umbrella activity that is present at the beginning throughout 
+the software process. The development of security metrics is still in its infancy. 
+
+Building a security case for a system involves collecting evidence using security 
+testing, conducting security-focused formal technical reviews, and inspecting to 
+ensure security guidelines and mitigation practices are being followed.   
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+27.1.  Consider a mobile phone app that you own. First describe the app brieﬂ y and then list 
+at least three to ﬁ ve security risks. 
+   
+ 
+27.2.  Describe a security migration strategy for one of the risks noted in Problem 27.1.    
+ 
+27.3.  Identify ﬁ ve attack patterns that may be commonly used to attack web apps. 
+   
+ 
+27.4.  Describe the trust model used on a bidding site such as eBay. 
+   
+ 
+27.5.  Describe the security requirements for a cloud-based photo repository. 
+   
+ 
+27.6.  What does the same origin policy have to do with trustworthy systems?    
+ 
+27.7.  Use the Internet to determine the annual average cost of single incidence of identity theft to an individual consumer. 
+   
+ 
+27.8.  Explain some of the problems that might be encountered if you try to address security risk after a system is completed.    
+ 
+27.9.  Use the Internet to ﬁ nd the details needed to create a phishing attack pattern. 
+  
+ 
+ITS4, 
+ developed by Cigital ( http://freecode.com/projects/its4/
+ 
+), is a tool for statically scanning security critical C and C++ source code for 
+vulnerabilities.   
+SLAM, 
+ developed by Microsoft ( http://research.microsoft.com/en-us/projects/slam/
+ 
+), is a tool for checking that software satisﬁ es critical 
+behavioral properties of the interfaces it uses and to 
+aid software engineers in designing interfaces and 
+
+software that ensure reliable and correct functioning.  Many additional security source code–scanning tools can be found at   
+http://www.tech-faq.com/
+how-to-ﬁ nd-security-vulnerabilities-in-source-code.html  
+ 
+ pre22126_ch27_584-600.indd   599pre22126_ch27_584-600.indd   59916/12/13   6:23 PM16/12/13   6:23 PM

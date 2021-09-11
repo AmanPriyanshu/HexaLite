@@ -1,0 +1,83 @@
+394 PART TWO  
+MODELINGemulators may or may not accurately reﬂ ect the limitations of the device it-
+self. Thin-client applications are often easier to port to multiple devices than 
+
+applications designed to run exclusively on the mobile device. 
+  
+Many app stores with different rules and tools. 
+  Each mobile platform has 
+its own app store and its own standards for accepting apps (e.g., Apple,  5 
+ 
+ Google,  6 
+ 
+ RIM,  7 
+ 
+ Microsoft,  8 
+ 
+ and Nokia  9 
+ 
+ publish their own standards). Devel-opment of a MobileApp for multiple platforms must proceed separately, 
+
+and each version of the MobileApp needs its own standards expert.     
+Very short development cycles.
+ 
+  Software engineers often use of agile 
+development processes when building MobileApps in an effort to reduce 
+development time [Was10]. 
+  
+UI limitations and complexities of interaction with sensors and cameras.   Mobile devices have smaller screen sizes than personal computers and a richer 
+
+set of interaction possibilities (e.g., voice, touch, gesture, eye tracking) and 
+
+usage scenarios based on context awareness. The style and appearance of the 
+
+user interface is often dictated by the nature of platform-speciﬁ c development 
+tools [Rot02]. Allowing smart devices to interact with smart spaces offers the 
+
+potential to create personalized, networked, high-ﬁ delity application platforms 
+such as those seen by merging smartphones and car infotainment systems.  10  
+   
+Effective use of context. 
+  Users expect MobileApps to deliver personalized 
+user experiences based on the physical location of a device in relation to 
+the available network features. User interface design and  context-aware applications are discussed in greater detail in Section 18.2.   
+Power management. 
+  Battery life is often one of the most limiting con-
+straints on MobileApps. Backlighting, reading and writing to memory, 
+
+using wireless connections, making use of specialized hardware, and pro-
+cessor speed all impact power usage and need to be taken into account by 
+software developers [Mei09].   
+Security and privacy models and policies. 
+  Wireless communication is difﬁ
+ -cult to protect from eavesdropping. Indeed preventing  man-in-the-middle-attacks 
+ 
+ 11 
+ 
+ in automotive applications can be critical to the safety of the users 
+[Bos11]. Data stored on a mobile device is subject to theft if a device is lost 
+
+or a malicious app is downloaded. Software policies that increase the level 
+  
+5    
+https://developer.apple.com/appstore/guidelines.html 
+ 
+   
+6    
+http://developer.android.com/distribute/googleplay/publish/preparing.html 
+ 
+   
+7    
+https://appworld.blackberry.com/isvportal/guidelines.do 
+ 
+   
+8    
+http://msdn.microsoft.com/en-us/library/ff941089%28v=vs.92%29.aspx  
+   
+9    
+http://support.publish.nokia.com/?p=64\  
+   
+10  When used in an automotive setting, smart devices should be able to restrict access to services 
+that may distract the driver and allow hands-free operation when a vehicle is moving [Bos11].   
+11  These attacks involve a third party intercepting communications between two trusted sources 
+and impersonating one or both of the parties. pre22126_ch18_391-410.indd   394pre22126_ch18_391-410.indd   39416/12/13   6:23 PM16/12/13   6:23 PM

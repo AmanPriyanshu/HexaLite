@@ -1,0 +1,17 @@
+ Section 6.4  Denial of Service 
+411  distance 2 from the 10.0.0.0 subnet, as shown in Figure 6-26. Of course, A doesn’t care 
+that it could get to 10.0.0.0 addresses by going through B; that would be a senseless 
+
+loop, but it does record that B is the closest path to 20.0.0.0 addresses.
+10.0.0.090.0.0.010.0.0.0 dist 220.0.0.0 dist 120.0.0.030.0.0.0ATBC…FIGURE 6-26 Router Advertises Its Own Subnet and Its Neighbor’s
+Figure 6-27 shows how C takes what it has just learned from B and broadcasts it to 
+other routers adjacent to it. In this way, the routers announce their capabilities through-
+
+out the entire network. Over time, the routers share information that details the com-
+
+plete network topology. Each router maintains a table of destinations and next steps, 
+
+so if C had something for the 10.0.0.0 subnetwork, its table would indicate it should 
+
+forward that data stream to B.
+FIGURE 6-27 Router Propagates Routing Information10.0.0.090.0.0.010.0.0.0 dist 320.0.0.0 dist 230.0.0.0 dist 120.0.0.030.0.0.0ATBC…

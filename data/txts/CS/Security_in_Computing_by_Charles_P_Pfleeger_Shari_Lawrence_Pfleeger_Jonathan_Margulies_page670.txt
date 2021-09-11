@@ -1,0 +1,53 @@
+636 Chapter 9  
+Privacyof a phishing message by spoofing a convincing source address or using a deceptive 
+domain name.These kinds of email messages entice gullible users to reveal sensitive personal data. 
+Because of limited regulation of the Internet, very little can be done to control these 
+
+threats. User awareness is the best defense.
+SummaryEmail is exposed from sender to receiver, and there are numerous points for interception 
+
+along the way. Unless the email is encrypted, there is little to prevent its access along 
+
+the way.
+In businesses, governments, schools, and other organizations, network administra-
+tors, and managers may read any email messages sent.
+9.7 PRIVACY IMPACTS OF EMERGING TECHNOLOGIES
+In this section, we look at the privacy implications of several emerging technologies. 
+
+Nothing inherent in the technologies affects privacy, but their applications have risk. 
+
+The first is a broadcast technology that can be used for tracking objects or people.  
+
+Second is a group of technologies to facilitate elections. The third technology involves 
+
+the changing methods for providing voice-grade telephone calls. And finally, building 
+
+on the cloud security issues we presented in Chapter 8, we discuss particular privacy 
+
+issues related to cloud computing.Radio Frequency Identification 
+Radio frequency identification
+ (RFID) is a technology that uses small, low-power 
+wireless radio transmitters called RFID tags. The devices can be as small as a grain of 
+sand and can cost less than a penny apiece. Tags are tuned to a particular frequency and 
+
+each has a unique ID number. When a tag receives its signal from a remote product, it 
+
+sends its ID number signal in response. Many tags have no power supply of their own 
+
+and receive the power to send a signal from the very act of receiving a signal. Thus, 
+
+these devices can be passive until they receive a signal from an interrogating reader. 
+Some tags can be surgically implanted under the skin of humans or animals. Others 
+can be embedded in a credit card or identity badge, and others can be placed in a ship-
+ping or inventory label.
+The distance at which they can receive and broadcast a receivable signal varies from 
+roughly five centimeters (the least powerful) to several meters (the most powerful). 
+
+Some transmitters have their own power supply (usually a battery, but it can be a solar 
+
+collector or other associated device) and can transmit over an even greater distance. As 
+
+receivers get better and power supplies become more portable, the reception distance 
+
+will increase.Advances in technology have allowed smaller RFID tokens over time. For example, 
+certain RFID tokens can now be manufactured in a thread, as shown in Figure 9-4.

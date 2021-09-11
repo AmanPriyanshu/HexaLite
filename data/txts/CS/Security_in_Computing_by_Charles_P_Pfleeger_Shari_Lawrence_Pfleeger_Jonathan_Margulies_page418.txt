@@ -1,0 +1,71 @@
+384 Chapter 6  
+NetworksThere are threats at each of these points. In step 1, anyone can pick up and reply to a 
+broadcast beacon. In step 2, the authentication is not rigorous; in basic WiFi mode the 
+
+access point accepts any device, without authentication. In step 3, any access point can 
+
+accept an association with any device. We can counter these attacks of unauthorized 
+
+access at any of the three steps.
+WiFi Protocol Weaknesses
+The wireless access protocol has built-in weaknesses that can harm security. Obviously, 
+wireless communication is more exposed than wired communication because of the 
+
+lack of physical protection. For whatever reason, the initial designers of the interna-
+
+tional wireless communication protocols, the 802.11 suite, created situations that left 
+wireless communications vulnerable, as we now describe.
+Picking Up the BeaconA client and an access point engage in the authentication and association handshake to 
+locate each other. Essentially the client says, “I am looking to connect to access point 
+
+S” and the access point says, “I am access point S; I accept your request to connect.” 
+
+The order of these two steps is important. In what is called 
+open mode, an access 
+point continually broadcasts its appeal in its beacon, indicating that it is open for the 
+next step in establishing a connection. 
+Closed or 
+stealth mode, also known as 
+SSID cloaking, reverses the order of the 
+steps: The client must first send a 
+
+signal seeking an access point with 
+a particular SSID before the access 
+point responds to that one query 
+
+with an invitation to connect. These 
+
+two modes of operation are shown 
+
+in Figure 6-17.Operating in closed mode would seem to be a successful way to prevent unauthor-
+ized access: If you do not know the SSID, you cannot request a connection. However, 
+
+closed mode leaves the 
+client exposed. In open mode, the client is quiet, monitoring 
+beacons, until it finds one to which it wants to connect; thus, the client is not constantly 
+
+visible. In open mode, however, the client effectively becomes a beacon, sending a con-
+
+tinuing series of messages saying, in essence, “I am MAC address mmm, looking for 
+
+SSID sss. Are you sss?” From those messages a rogue host can learn the expected val-
+
+ues needed to impersonate an access point to which the client hopes to connect.SSID in All FramesBroadcasting the desired SSID in closed mode reveals the identity of a sought-after 
+access point. Worse, in both closed and open modes, even after the initial handshake, all 
+
+subsequent management and data frames contain this same SSID, so sniffing any one 
+
+of these frames reveals the SSID. Thus, anyone who sniffs the SSID can save the SSID 
+
+(which is seldom changed in practice) to use later. A snooper can reasonably guess that 
+
+the client will attempt to connect to this same access point again. Thus, the rogue has 
+
+the information needed to imitate either the client or the access point in the future.In open mode an access point 
+continually broadcasts its SSID; in closed 
+
+mode a client continually broadcasts a 
+
+request to connect to a given SSID from 
+
+a given MAC address.

@@ -1,0 +1,35 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜solid bar, then all of these activities must be complete before progress is possible. When the flow from a solid bar leads to a number of activities, these may be exe
+-
+cuted in parallel. Therefore, in Figure 5.2, the activities to inform social care and the 
+patient™s next of kin, as well as to update the detention register, may be concurrent.Arrows may be annotated with guards (in square brackets) that specify when that flow is followed. In Figure 5.2, you can see guards showing the flows for patients 
+who are dangerous and not dangerous to society. Patients who are dangerous to soci-
+ety must be detained in a secure facility. However, patients who are suicidal and are 
+a danger to themselves may be admitted to an appropriate ward in a hospital, where 
+
+they can be kept under close supervision.
+All systems involve interaction of some kind. This can be user interaction, which 
+
+involves user inputs and outputs; interaction between the software being developed and 
+
+other systems in its environment; or interaction between the components of a software 
+
+system. User interaction modeling is important as it helps to identify user requirements. 
+
+Modeling system-to-system interaction highlights the communication problems that 
+
+may arise. Modeling component interaction helps us understand if a˜proposed system 
+
+structure is likely to deliver the required system performance and˜dependability.This section discusses two related approaches to interaction modeling:1. Use case modeling, which is mostly used to model interactions between a sys
+-
+tem and external agents (human users or other systems).2. Sequence diagrams, which are used to model interactions between system com
+-
+ponents, although external agents may also be included.Use case models and sequence diagrams present interactions at different levels of detail and so may be used together. For example, the details of the interactions 
+
+involved in a high-level use case may be documented in a sequence diagram. The 
+UML also includes communication diagrams that can be used to model interactions. 
+I don™t describe this diagram type because communication diagrams are simply an 
+alternative representation of sequence diagrams.ˇˇUse case modeling was originally developed by Ivar Jacobsen in the 1990s (Jacobsen 
+et al. 1993), and a UML diagram type to support use case modeling is part of the Medical receptionistPatient record system
+Transfer data
+Figure 5.3 Transfer-data use case 

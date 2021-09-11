@@ -1,0 +1,63 @@
+672 PART 
+THREE  QUALITY MANAGEMENT[Chu95] discuss this when they state: “Results of recent studies indicate that 
+methods tend to be small, both in terms of number of statements and in logi-
+cal complexity [Wil93], suggesting that connectivity structure of a system may be 
+
+more important than the content of individual modules.” However, some insights 
+
+can be gained by examining average characteristics for methods (operations). 
+Three simple metrics, proposed by Lorenz and Kidd [Lor94], are appropriate:   
+Average operation size (OS
+avg).  
+   Size can be determined by counting the number of lines of code or the number of messages sent by the operation. 
+As the number of messages sent by a single operation increases, it is likely 
+that responsibilities have not been well allocated within a class. 
+  
+Operation complexity (OC).  
+   The complexity of an operation can be  computed using any of the complexity metrics proposed for conventional 
+
+software [Zus90]. Because operations should be limited to a speciﬁ c  responsibility, the designer should strive to keep OC as low as possible. 
+
+  
+Average number of parameters per operation (NP
+avg).  
+   The larger the number of operation parameters, the more complex the collaboration 
+ between objects. In general, NP
+avg should be kept as low as possible.     
+30.3.8   User Interface Design Metrics 
+ Although there is signiﬁ cant literature on the design of human/computer inter-
+
+faces (Chapter 15), relatively little information has been published on metrics 
+that would provide insight into the quality and usability of the interface.   
+A study of Web page metrics [Ivo01] indicates that simple characteristics of 
+the elements of the layout can also have a signiﬁ cant impact on the perceived 
+
+quality of the GUI design. The number of words, links, graphics, colors, and fonts 
+(among other characteristics) contained within a Web page affect the perceived 
+
+complexity and quality of that page.  Although UI metrics may be useful in some cases, the ﬁ nal arbiter should be 
+user input based on GUI prototypes. Nielsen and Levy [Nie94] report that “one 
+has a reasonably large chance of success if one chooses between interface [de-
+signs] based solely on users’ opinions. Users’ average task performance and their 
+subjective satisfaction with a GUI are highly correlated.”       
+ 30.4  DESIGN METRICS FOR WEB AND MOBILE APPS   
+A useful set of measures and metrics for WebApps provides quantitative answers 
+
+to the following questions:    •
+  Does the user interface promote usability?  
+   •
+  Are the aesthetics of the WebApp appropriate for the application domain 
+
+and pleasing to the user?  
+    uote: 
+ “You can learn at 
+
+least one principle 
+of user interface 
+design by loading 
+a dishwasher. If 
+
+you crowd a lot in 
+there, nothing gets 
+very clean.” 
+ Author unknown 

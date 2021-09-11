@@ -1,0 +1,66 @@
+ Section 10.5  Dealing with Disaster 
+693  A more secure way to destroy data on magnetic devices is to overwrite the data several 
+times, using a different pattern each time. This process removes enough magnetic resi-
+
+due to prevent most people from reconstructing the original file. However, “cleaning” a 
+
+disk in this fashion takes time. Moreover, a person using highly specialized equipment 
+
+might be able to identify each separate message, much like the process of peeling off 
+
+layers of wallpaper to reveal the wall beneath. 
+DegaussingDegaussers destroy magnetic fields. Passing a disk or other magnetic medium through 
+a degausser generates a magnetic flux so forceful that all magnetic charges are instantly 
+
+realigned, thereby fusing all the separate layers. A degausser is a fast way to cleanse a 
+
+magnetic medium, although experts question whether it is adequate for use in the most 
+
+sensitive of applications. (Media that have had the same pattern for a long time, such as 
+
+a disk saved for archival purposes, may retain traces of the original pattern even after 
+
+it has been overwritten many times or degaussed.) For most users, a degausser is a fast 
+
+way to neutralize a disk or tape, permitting it to be reused by others.
+Protecting Against Emanation: Tempest
+Computer screens emit signals that can be detected from a distance. In fact, any compo-
+nents, including printers, disk drives, and processors, can emit information. Tempest is 
+
+a U.S. government program under which computer equipment is certified as emission 
+
+free (that is, no detectable emissions). There are two approaches for preparing a device 
+
+for Tempest certification: enclosing the device and modifying the emanations.
+The obvious solution to preventing emanations is to trap the signals before they  
+can be picked up. Enclosing a device in a conductive case, such as copper, diffuses all 
+
+the waves by conducting them throughout the case. Copper is a good conductor, and  
+
+the waves travel much better through copper than through the air outside the case, so the 
+
+emissions are rendered harmless.This solution works very well with cable, which is then enclosed in a solid, emana-
+tion-proof shield. Typically, the shielded cable is left exposed so that anyone can inspect 
+
+visually for signs of tapping or other tampering. The shielding must be complete. That 
+
+is, it does little good to shield a length of cable but not also shield the junction box at 
+
+which that cable is connected to a component. The line to the component and the com-
+
+ponent itself must be shielded, too.The shield must enclose the device completely. If top, bottom, and three sides are 
+shielded, emanations are prevented only in those directions. However, a solid copper 
+
+shield is useless in front of a computer screen. Covering the screen with a fine copper 
+
+mesh in an intricate pattern carries the emanation safely away. This approach solves the 
+
+emanation problem while still maintaining the screen’s usability.
+Entire computer rooms or even whole buildings can be shielded in copper so that 
+large computers inside do not leak sensitive emanations. Although it seems appealing 
+
+to shield the room or building instead of each component, the scheme has significant 
+
+drawbacks. A shielded room is inconvenient because it is impossible to easily expand 
+
+the room as needs change. The shielding must be done carefully, because any puncture 

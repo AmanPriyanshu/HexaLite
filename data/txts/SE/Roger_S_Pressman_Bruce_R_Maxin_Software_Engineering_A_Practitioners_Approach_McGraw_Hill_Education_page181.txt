@@ -1,0 +1,93 @@
+CHAPTER 8  
+UNDERSTANDING REQUIREMENTS
+ 151 
+ 
+ 
+2.  The homeowner uses the keypad to key in a four-digit password. The password is 
+compared with the valid password stored in the system. If the password is incor-
+
+rect, the control panel will beep once and reset itself for additional input. If the 
+password is correct, the control panel awaits further action.    
+ 
+3.  The homeowner selects and keys in  stay 
+ or  
+away 
+ (see  
+Figure 8.1 ) to activate the system.  Stay 
+ activates only perimeter sensors (inside motion detecting sensors are 
+deactivated).  Away
+ 
+ activates all sensors.    
+ 
+4.  When activation occurs, a red alarm light can be observed by the homeowner. 
+  
+ 
+The basic use case presents a high-level story that describes the interaction between the actor and the system.  
+ 
+ 
+   
+In many instances, uses cases are further elaborated to provide considerably more detail about the interaction. For example, Cockburn [Coc01b] suggests the 
+following template for detailed descriptions of use cases:   
+ 
+ 
+ 
+ 
+ 
+ 
+Use case: 
+   
+InitiateMonitoring 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Primary actor: 
+ Homeowner. 
+   
+ 
+ 
+ 
+ 
+ 
+Goal in context: 
+  To set the system to monitor sensors when the homeowner 
+leaves the house or remains inside.    
+ 
+ 
+ 
+ 
+ 
+Preconditions: 
+  System has been programmed for a password and to  recognize various sensors.    
+ 
+ 
+ 
+ 
+ 
+Trigger:
+ 
+  The homeowner decides to “set” the system, that is, to turn on the alarm functions.     Use cases are often 
+written informally. 
+
+However, use the 
+
+template shown here 
+to ensure that you’ve 
+addressed all key 
+issues. 123456789*0offSAFEHOMEawaystay
+maxtestbypass
+instantcodechime
+ready#armedpower
+alarm
+checkfireawaystay
+instant
+bypass
+not readypanic  
+FIGURE 8.1  
+SafeHome 
+  control panel 
+ 
+ pre22126_ch08_131-165.indd   151pre22126_ch08_131-165.indd   15113/12/13   6:11 PM13/12/13   6:11 PM

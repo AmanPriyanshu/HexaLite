@@ -1,0 +1,43 @@
+ Section 2.4  Exercises 
+127  encryption, are an effective way to ensure that a file is precisely what the originator 
+stored for download.
+This description of digital signatures concludes our section on tools from cryptogra-phy. We summarize the tools in Table 2-15. In this section we have introduced important 
+
+pieces we call upon later in this book.Our point in this chapter is not to train a new corps of cryptographers or cryptolo-
+gists; to do that would require far more material than this book can contain. Rather, 
+
+we want you to know and understand the basic concepts of cryptography so in later 
+
+chapters you can appreciate the difficulty, strengths, and weaknesses of, for example, 
+
+securing a wireless network signal or establishing a protected communication between 
+
+a browser user and a website.
+In the next chapter we put the three tools of this chapter to use in dealing with secu-
+rity problems in programs and programming.2.4 EXERCISES
+1. Describe each of the following four kinds of access control mechanisms in terms of (a) ease 
+of determining authorized access during execution, (b) ease of adding access for a new sub-
+
+ject, (c) ease of deleting access by a subject, and (d) ease of creating a new object to which 
+
+all subjects by default have access.
+• per-subject access control list (that is, one list for each subject tells all the objects to 
+
+which that subject has access)TABLE 2-15 
+Tools Derived from Cryptography
+ToolUses
+Secret key (symmetric) 
+encryptionProtecting confidentiality and integrity of data at rest or in transit
+Public key (asymmetric) 
+encryptionExchanging (symmetric) encryption keys
+Signing data to show authenticity and proof of origin
+Error detection codes
+Detect changes in dataHash codes and functions (forms of error detection codes)
+Detect changes in dataCryptographic hash functionsDetect changes in data, using a function that only the data owner 
+can compute (so an outsider cannot change both data and the hash 
+code result to conceal the fact of the change)
+Error correction codes
+Detect and repair errors in dataDigital signatures
+Attest to the authenticity of dataDigital certificates
+Allow parties to exchange cryptographic keys with confidence of 
+the identities of both parties

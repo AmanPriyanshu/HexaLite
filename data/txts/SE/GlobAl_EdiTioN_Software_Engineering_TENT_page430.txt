@@ -1,0 +1,55 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜fails, it can also act as the main server for the whole system. This provides con-tinuity of service and recovery after a server failure (resistance and recovery).3. Database integrity checking and recovery software Integrity checking runs as a 
+background task checking for signs of database corruption. If corruption is dis-
+covered, it can automatically initiate the recovery of some or all of the data from 
+backups. The transaction log allows these backups to be updated with details of 
+recent changes (recognition and recovery).To maintain the key services of patient information access and staff warning, we can make use of the inherent redundancy in a client-server system. By downloading 
+
+information to the client at the start of a clinic session, the consultation can continue 
+
+without server access. Only the information about the patients who are scheduled to 
+
+attend consultations that day needs to be downloaded. If there is a need to access 
+
+other patient information and the server is unavailable, then other client computers 
+may be contacted using peer-to-peer communication to see if the information is 
+
+available on them.The service that provides a warning to staff of patients who may be dangerous can easily be implemented using this approach. The records of patients who may 
+
+harm themselves or others are identified before the download process. When clinical 
+
+staff access these records, the software can highlight the records to indicate the 
+
+patients that require special care.Figure 14.11  Recognition and 
+resistance strategies  
+for adverse events EventRecognitionResistanceServer 
+unavailability1.  Watchdog timer on client 
+that times out if no response 
+to client access2.  Text messages from system 
+managers to clinical users1.  Design system architecture to maintain local 
+copies of critical information2.  Provide peer-to-peer search across clients for 
+patient data3.  Provide staff with smartphones that can be 
+used to access the network in the event of 
+server failure4. Provide backup serverPatient database 
+corruption1.  Record level cryptographic 
+checksums2.  Regular auto-checking of 
+database integrity3.  Reporting system for 
+incorrect information1.  Replayable transaction log to update database 
+backup with recent transactions2.  Maintenance of local copies of patient 
+information and software to restore database 
+from local copies and backupsMalware 
+infection of 
+client computers1.  Reporting system so that 
+computer users can report 
+unusual behavior2.  Automated malware checks 
+on startup1.  Security awareness workshops for all system users2.  Disabling of USB ports on client computers3. Automated system setup for new clients
+4. Support access to system from mobile devices
+5. Installation of security softwareUnauthorized 
+access to patient 
+information1.  Warning text messages from 
+
+users about possible intruders2.  Log analysis for unusual 
+activity1. Multilevel system authentication process
+2. Disabling of USB ports on client computers
+3. Access logging and real-time log analysis
+4.  Security awareness workshops for all system users

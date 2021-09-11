@@ -1,0 +1,58 @@
+214 PART TWO  
+MODELING 
+ 
+11.5.1  How Much Analysis Is Enough? 
+ 
+The degree to which requirements modeling for Web and mobile apps is empha-
+sized depends on the following size-related factors: (1) the size and complexity 
+of the application increment, (2) the number of stakeholders (analysis can help 
+to identify conﬂ icting requirements coming from different sources), (3) the size 
+of the app development team, (4) the degree to which members of the team have 
+worked together before (analysis can help develop a common understanding of 
+the project), and (5) the degree to which the organization’s success is directly 
+
+dependent on the success of the application.  The converse of the preceding points is that as the project becomes smaller, the 
+number of stakeholders fewer, the development team more cohesive, and the appli-
+
+cation less critical, it is reasonable to apply a more lightweight analysis approach. 
+ Although it is a good idea to analyze the problem or product requirements  before
+ 
+ beginning design, it is not true that  
+all 
+ analysis must precede  
+all 
+ design. 
+In fact, the design of a speciﬁ c part of the application only demands an analysis 
+of those requirements that affect only that part of the application. As an example 
+from  SafeHome 
+, you could validly design the overall website aesthetics (layouts, color schemes, etc.) without having analyzed the functional requirements for 
+e-commerce capabilities. You only need to analyze that part of the problem that 
+
+is relevant to the design work for the increment to be delivered.  8 
+ 
+  
+ 
+ 
+ 
+11.5.2  Requirements Modeling Input 
+ 
+An agile version of the generic software process discussed in Chapter 5 can be applied when Web or mobile apps are engineered. The process incorporates a 
+
+communication activity that identiﬁ es stakeholders and user categories, the 
+business context, deﬁ ned informational and applicative goals, general product 
+requirements, and usage scenarios—information that becomes input to require-
+ments modeling. This information is represented in the form of natural language 
+descriptions, rough outlines, sketches, and other informal representations.  Analysis takes this information, structures it using a formally deﬁ ned repre-
+sentation scheme (where appropriate), and then produces more rigorous models 
+as an output. The requirements model provides a detailed indication of the true 
+structure of the problem and provides insight into the shape of the solution.  The  SafeHome 
+ ACS-DCV (camera surveillance) function was introduced in 
+Chapter 9. When it was introduced, this function seemed relatively clear and was de-
+scribed in some detail as part of a use case (Section 9.2.1). However, a reexamination 
+
+of the use case might uncover information that is missing, ambiguous, or unclear. 
+ Some aspects of this missing information would naturally emerge during the design. Examples might include the speciﬁ c layout of the function buttons, their 
+ 
+ 
+8  In situations in which a design of one part of an application will have impact across other parts 
+of an application, the scope of analysis should be broadened. pre22126_ch11_202-223.indd   214pre22126_ch11_202-223.indd   21413/12/13   6:12 PM13/12/13   6:12 PM

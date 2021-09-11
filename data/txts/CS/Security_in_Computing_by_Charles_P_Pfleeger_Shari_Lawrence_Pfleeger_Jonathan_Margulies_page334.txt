@@ -1,0 +1,45 @@
+300 Chapter 5  
+Operating SystemsThis technique protects a program’s addresses from modification by another user. 
+When execution changes from one user’s program to another’s, the operating system must 
+
+change the contents of the base and bounds registers to reflect the true address space for 
+
+that user. This change is part of the general preparation, called a context switch, that the 
+
+operating system must perform when transferring control from one user to another.
+With a pair of base/bounds registers, each user is perfectly protected from outside 
+users, or, more correctly, outside users are protected from errors in any other user’s 
+
+program. Erroneous addresses inside a user’s address space can still affect that program 
+
+because the base/bounds checking guarantees only that each address is inside the user’s 
+
+address space. For example, a user error might occur when a subscript is out of range 
+
+or an undefined variable generates an address reference within the user’s space but, 
+
+unfortunately, inside the executable instructions of the user’s program. In this manner, 
+
+a user can accidentally store data on 
+top of instructions. Such an error 
+
+can let a user inadvertently destroy 
+
+a program, but (fortunately) only 
+
+that user’s own program.
+We can solve this overwriting problem by using another pair of base/bounds reg-
+isters, one for the instructions (code) of the program and a second for the data space. 
+Then, only instruction fetches (instructions to be executed) are relocated and checked 
+
+with the first register pair, and only data accesses (operands of instructions) are relo-
+
+cated and checked with the second register pair. The use of two pairs of base/bounds 
+
+registers is shown in Figure 5-9. Although two pairs of registers do not prevent all pro-
+
+gram errors, they limit the effect of data-manipulating instructions to the data space. 
+Base/bounds registers surround a 
+
+program, data area, or domain.
+OperatingSystemProgram BaseProgram BoundsUser Programand DataSpaceData BaseData BoundsUser B Data SpaceUser A Data SpaceUser C Data SpaceUser AProgram SpaceUser CProgram SpaceUser BProgram SpaceFIGURE 5-9 Two Pairs of Base and Bounds Registers

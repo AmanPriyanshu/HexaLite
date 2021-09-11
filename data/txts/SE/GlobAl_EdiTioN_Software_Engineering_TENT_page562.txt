@@ -1,0 +1,44 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜so frequent. The interactions between these changes are complex, and so the behav-ior of the system is unpredictable. Users do not know when and why changes have 
+been made, so they see the system as nondeterministic.For example, say a system is presented with a set of 20 test inputs. It processes these inputs and the results are recorded. At some later time, the same 20 test inputs 
+are processed, and the results are compared to the previous stored results. Five of 
+
+them are different. Does this mean that there have been five failures? Or are the dif-ferences simply reasonable variations in the system™s behavior? You can only find 
+this out by looking at the results in more depth and making judgments about the way 
+the system has handled each input.Non-determinism is often seen as a bad thing, and it is felt that designers should 
+try to avoid nondeterministic behavior wherever possible. In fact, in sociotechnical 
+systems, non-determinism has important benefits. It means that the behavior of a 
+
+system is not fixed for all time but can change depending on the system™s environ-
+ment. For example, operators may observe that a system is showing signs of failure. 
+Instead of using the system normally, they can change their behavior to diagnose and 
+
+recover from the detected problems.ˇˇGenerally, complex sociotechnical systems are developed to tackle ﬁwicked prob-
+lemsﬂ (Rittel and Webber 1973). A wicked problem is a problem that is so complex 
+and that involves so many related entities that there is no definitive problem specifi
+-
+cation. Different stakeholders see the problem in different ways, and no one has a full understanding of the problem as a whole. The true nature of the problem may 
+only emerge as a solution is developed.An extreme example of a wicked problem is emergency planning to deal with the 
+aftermath of an earthquake. No one can accurately predict where the epicenter of an 
+
+earthquake will be, what time it will occur, or what effect it will have on the local 
+
+environment. It is impossible to specify in detail how to deal with the problem. 
+
+System designers have to make assumptions, but understanding what is required 
+
+emerges only after the earthquake has happened.This makes it difficult to define the success criteria for a system. How do you decide 
+if a new system contributes to the business goals of the company that paid for the system? 
+
+The judgment of success is not usually made against the original reasons for procuring 
+
+and developing the system. Rather, it is based on whether or not the system is effective at 
+
+the time it is deployed. As the business environment can change very quickly, the busi-
+ness goals may have changed significantly during the development of the system.The situation is even more complex when there are multiple conflicting goals that 
+are interpreted differently by different stakeholders. For instance, the system on which 
+
+the Mentcare system is based was designed to support two separate business goals:1. To improve the quality of care for sufferers from mental illness.2.
+ To improve the cost-effectiveness of treatments by providing managers with 
+detailed reports of care provided and the costs of that care.

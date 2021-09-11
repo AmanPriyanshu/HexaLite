@@ -1,0 +1,53 @@
+634 Chapter 9  
+PrivacyAnonymous, Pseudonymous, and Disappearing EmailWe have described anonymity in other settings; there are reasons for anonymous email, 
+as well.As with telephone calls, employees sending tips or complaining to management may 
+want to do so anonymously. For example, consumers may want to contact commercial 
+
+establishments—to register a complaint, inquire about products, or request informa-
+
+tion—without getting on a mailing list or becoming a target for spam. Or people begin-
+
+ning a personal relationship may want to pass along some information without giving 
+
+away their full identities or location. For these reasons and more, people want to be able 
+
+to send anonymous email.
+Free email addresses are readily available from Yahoo!, Microsoft Hotmail, and 
+many other places, and several services offer disposable addresses, too. People can treat 
+
+these addresses as disposable: Obtain one, use it for a while, and discard it (by ceasing 
+to use it).Simple RemailersAnother solution is a remailer. A 
+remailer
+ is a trusted third party to whom you send an email message and indicate to whom you want your mail sent. The remailer strips off 
+
+the sender’s name and address, assigns an anonymous pseudonym as the sender, and 
+
+forwards the message to the designated recipient. The third party keeps a record of the 
+
+correspondence between pseudonyms and real names and addresses. If the recipient 
+
+replies, the remailer removes the recipient’s name and address, applies a different anon-
+
+ymous pseudonym, and forwards the message to the original sender. Such a remailer 
+
+knows both sender and receiver, so it provides pseudonymity, not anonymity.
+Multiple RemailersA more complicated design is needed to overcome the problem that the remailer knows 
+who the real sender and receiver are. The basic approach involves a set of cooperating 
+
+hosts, sometimes called mixmaster remailers
+, that agree to forward mail. Each host 
+publishes its own public encryption key.
+The sender creates a message and selects several of the cooperating hosts. The 
+sender designates the ultimate recipient (call it node n) and places a destination note with the content. The sender then chooses one of the cooperating hosts (call it node 
+
+n1), encrypts the package with the public key of node (
+n1) and places a destination note showing node (
+n) with the encrypted package. The sender chooses another node 
+(n2), encrypts, and adds a destination note for (n1). The sender thus builds a multi-
+layered package, with the message inside; each layer adds another layer of encryption 
+and another destination.Each remailer node knows only from where it received the package and to whom to 
+send it next. Only the first remailer knows the true recipient, and only the last remailer 
+
+knows the final recipient. Therefore, no remailer can compromise the relationship 
+
+between sender and receiver.

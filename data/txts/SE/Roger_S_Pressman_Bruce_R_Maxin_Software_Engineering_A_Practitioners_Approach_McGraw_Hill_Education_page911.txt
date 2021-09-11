@@ -1,0 +1,34 @@
+APPENDIX 1  
+AN INTRODUCTION TO UML 881those messages are represented by arrows from the sender to the receiver along 
+an association line and are given numbers 1.1, 1.2, and so forth, in the order they 
+are called. If those messages in turn invoke other messages, another decimal 
+point and number are added to the number labeling these messages, to indicate 
+further nesting of the message passing.  In   Figure A1.10, you see that the  mouseClicked  message invokes the methods  getFigureAt()  and then  highlight().  The  highlight()  message invokes three other messages:  setColor(), drawRect(),  and  drawstring().  The numbering in each label shows the nesting as well as the sequential nature of each message.  There are many optional features that can be added to the arrow labels. For example, you can precede the number with a letter. An incoming arrow could be 
+labeled  A1: mouseClicked(point).  indicating an execution thread, A. If other mes-sages are executed in other threads, their label would be preceded by a different 
+letter. For example, if the  mouseClicked()  method is executed in thread A but it creates a new thread B and invokes  highlight()  in that thread, then the arrow from  MouseListener  to  
+Figure  would be labeled  
+1.B2: highlight(graphics).  
+ If you are interested in showing the relationships among the objects in addition 
+to the messages being sent between them, the communication diagram is probably 
+
+a better option than the sequence diagram. If you are more interested in the tem-
+poral order of the message passing, then a sequence diagram is probably better. 
+    
+  ACTIVITY DIAGRAMS   A UML  activity diagram  depicts the dynamic behavior of a system or part of a system through the ﬂ ow of control between actions that the system performs. It is 
+
+similar to a ﬂ owchart except that an activity diagram can show concurrent ﬂ
+ ows.  The main component of an activity diagram is an  action  node, represented by a rounded rectangle, which corresponds to a task performed by the software sys-
+tem. Arrows from one action node to another indicate the ﬂ ow of control. That is, 
+
+an arrow between two action nodes means that after the ﬁ rst action is complete 
+
+the second action begins. A solid black dot forms the  initial node  that indicates the starting point of the activity. A black dot surrounded by a black circle is the 
+ ﬁ nal node
+  indicating the end of the activity. 
+ A  fork  represents the separation of activities into two or more concurrent ac-tivities. It is drawn as a horizontal black bar with one arrow pointing to it and 
+two or more arrows pointing out from it. Each outgoing arrow represents a ﬂ ow of control that can be executed concurrently with the ﬂ ows corresponding to the 
+
+other outgoing arrows. These concurrent activities can be performed on a com-
+puter using different threads or even using different computers.    
+Figure A1.11 shows a sample activity diagram involving baking a cake. The ﬁ rst step is ﬁ nding the recipe. Once the recipe has been found, the dry ingre-
+dients and wet ingredients can be measured and mixed and the oven can be 

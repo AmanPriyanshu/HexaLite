@@ -1,0 +1,71 @@
+ Section 5.2  Security in the Design of Operating Systems 
+317  Security professionals prefer to speak of trusted instead of secure 
+operating systems. A trusted system connotes one that meets the intended 
+security requirements, is of high enough quality, and justifies the user’s con-
+
+fidence in that quality. That is, trust is perceived by the system’s receiver or 
+
+user, not by its developer, designer, or manufacturer. As a user, you may not 
+
+be able to evaluate that trust directly. You may trust the design, a profes-
+
+sional evaluation, or the opinion of a valued colleague. But in the end, it is 
+your responsibility to sanction the degree of trust you require.
+We say that software is trusted software if we know that the code has 
+been rigorously developed and analyzed, giving us reason to trust that the 
+
+code does what it is expected to do and nothing more. Typically, trusted 
+
+code can be a foundation on which other, untrusted, code runs. That is, 
+
+the untrusted system’s quality depends, in part, on the trusted code; the 
+
+trusted code establishes the baseline for security of the overall system. 
+
+In particular, an operating system can be trusted software when there is a 
+
+rational or objective basis for trusting that it correctly controls the accesses 
+
+of components or systems run from it. 
+To trust any program, we base our trust on rigorous analysis and test-
+ing, looking for certain key characteristics:
+• Functional correctness
+. The program does what it is supposed to, and 
+it works correctly.
+• Enforcement of integrity
+. Even if presented erroneous commands or 
+commands from unauthorized users, the program maintains the cor-
+
+rectness of the data with which it has contact.
+• Limited privilege. The program is allowed to access secure data, but 
+the access is minimized and neither the access rights nor the data 
+
+are passed along to other untrusted programs or back to an untrusted 
+
+caller.
+• Appropriate confidence level
+. The program has been examined and 
+rated at a degree of trust appropriate for the kind of data and environ-
+
+ment in which it is to be used.Trusted software is often used as a safe way for general users to 
+access sensitive data. Trusted programs are used to perform limited (safe) 
+
+operations for users without allowing the users to have direct access to 
+
+sensitive data.There can be degrees of trust; unlike security, trust is not a dichotomy. 
+For example, you trust certain friends with deep secrets, but you trust oth-
+
+ers only to give you the time of day. Trust is a characteristic that often grows 
+
+over time, in accordance with evidence and experience. For instance, 
+
+banks increase their trust in borrowers as the borrowers repay loans as 
+
+expected; borrowers with good trust (credit) records can borrow larger 
+
+amounts. Finally, trust is earned, not claimed or conferred.
+The adjective trusted appears many times in this chapter, as in 
+• trusted process (a process that can affect system security, or a pro-
+cess whose incorrect or unsecure execution is capable of violating 
+
+system security policy) (continues)

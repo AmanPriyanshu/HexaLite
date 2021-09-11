@@ -1,0 +1,54 @@
+CHAPTER 30  
+PRODUCT METRICS 665 The arc-to-node ratio,  r 5 a/n,  measures the connectivity density of the architec-ture and may provide a simple indication of the coupling of the architecture. For 
+the architecture shown in   Figure 30.4  ,  
+r  
+5 18/17 5 1.06.  
+ The U.S. Air Force Systems Command [USA87] has developed a number of software quality indicators that are based on measurable design characteristics 
+of a computer program. Using concepts similar to those proposed in IEEE Std. 
+982.1-2005 [IEE05], the Air Force uses information obtained from data and archi-
+tectural design to derive a  design structure quality index
+  (DSQI) that ranges from 0 to 1. The following values must be ascertained to compute the DSQI [Cha89]: S 1 5  total number of modules deﬁ ned in the program architecture
+ S 2 5  number of modules whose correct function depends on the source 
+of data input or that produce data to be used elsewhere (in general, 
+control modules, among others, would not be counted as part of  S 
+2) S 
+3 5  number of modules whose correct function depends on prior processing S 
+4 5  number of database items (includes data objects and all attributes that 
+deﬁ ne objects)
+ S 
+5 5  total number of unique database items
+ S 
+6 5  number of database segments (different records or individual objects)
+ S 
+7 5  number of modules with a single entry and exit (exception processing 
+is not considered to be a multiple exit)  
+ Once values  S 1 through  S 
+7 are determined for a computer program, the following intermediate values can be computed:        
+Program structure: D
+ 
+1, where  D 
+1 is deﬁ ned as follows: If the architectural de-
+sign was developed using a distinct method (e.g., data ﬂ ow–oriented design or 
+
+object-oriented design), then  D 
+1 5 1, otherwise  D 
+1 5 0.      uote: 
+ “Measurement 
+can be seen as 
+a detour. This 
+
+detour is necessary 
+
+because humans 
+mostly are not 
+able to make clear 
+and objective 
+decisions [without 
+quantitative 
+support].”  Horst Zuse 
+  F
+IGURE 30.4 Morphology 
+
+metrics   
+jenqpklridmhbgfcaWidth
+DepthNodeArc

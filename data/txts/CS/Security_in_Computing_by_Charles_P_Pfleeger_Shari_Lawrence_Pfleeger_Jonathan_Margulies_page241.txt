@@ -1,0 +1,63 @@
+ Section 3.3  Countermeasures 
+207  Mutual Suspicion Programs are not always trustworthy. Even with an operating system to enforce access 
+
+limitations, it may be impossible or infeasible to bound the access privileges of an 
+
+untested program effectively. In this case, the user U is legitimately suspicious of a 
+
+new program P. However, program P may be invoked by another program, Q. There is 
+
+no way for Q to know that P is correct or proper, any more than a user knows that of P.
+Therefore, we use the concept of mutual suspicion to describe the relationship 
+between two programs. Mutually suspicious programs operate as if other routines in 
+
+the system were malicious or incorrect. A calling program cannot trust its called sub-
+
+procedures to be correct, and a called subprocedure cannot trust its calling program to 
+be correct. Each protects its interface data so that the other has only limited access. For 
+
+example, a procedure to sort the entries in a list cannot be trusted not to modify those 
+
+elements, while that procedure cannot trust its caller to provide any list at all or to sup-
+
+ply the number of elements predicted. An example of misplaced trust is described in 
+
+Sidebar 3-10.SIDEBAR 3-10  
+Facebook Outage from Improper Error 
+HandlingIn September 2010 the popular social networking site Facebook was forced 
+to shut down for several hours. According to a posting by company repre-
+
+sentative Robert Johnson, the root cause was an improperly handled error 
+
+condition.Facebook maintains in a persistent store a set of configuration param-
+eters that are then copied to cache for ordinary use. Code checks the valid-
+
+ity of parameters in the cache. If it finds an invalid value, it fetches the value 
+from the persistent store and uses it to replace the cache value. Thus, the 
+
+developers assumed the cache value might become corrupted but the per-
+
+sistent value would always be accurate.In the September 2010 instance, staff mistakenly placed an incorrect 
+value in the persistent store. When this value was propagated to the cache, 
+
+checking routines identified it as erroneous and caused the cache control-
+
+ler to fetch the value from the persistent store. The persistent store value, 
+
+of course, was erroneous, so as soon as the checking routines examined 
+
+it, they again called for its replacement from the persistent store. This con-
+
+stant fetch from the persistent store led to an overload on the server holding 
+
+the persistent store, which in turn led to a severe degradation in perfor-
+
+mance overall.Facebook engineers were able to diagnose the problem, concluding 
+that the best solution was to disable all Facebook activity and then cor-
+
+rect the persistent store value. They gradually allowed Facebook clients 
+
+to reactivate; as each client detected an inaccurate value in its cache, it 
+
+would refresh it from the correct value in the persistent store. In this way, 
+(continues)

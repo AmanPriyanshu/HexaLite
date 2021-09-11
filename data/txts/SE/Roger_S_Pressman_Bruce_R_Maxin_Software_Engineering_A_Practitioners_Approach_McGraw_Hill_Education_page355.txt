@@ -1,0 +1,79 @@
+CHAPTER 15  
+USER INTERFACE DESIGN
+ 325or design model) on the ﬁ rst pass. Subsequent passes through the process elabo-
+rate task detail, design information, and the operational features of the interface. 
+  
+ 
+ 
+ 
+ 15.3 I
+NTERFACE
+ ANALYSIS
+ 
+ 1    
+ 
+ 
+A key tenet of all software engineering process models is this:  understand the problem before you attempt to design a solution.
+ 
+ In the case of user interface de-sign, understanding the problem means understanding (1) the people (end users) 
+who will interact with the system through the interface, (2) the tasks that end 
+users must perform to do their work, (3) the content that is presented as part of 
+the interface, and (4) the environment in which these tasks will be conducted. In 
+the sections that follow, we examine each of these elements of interface analysis 
+
+with the intent of establishing a solid foundation for the design tasks that follow. 
+  
+15.3.1 User Analysis 
+ 
+The phrase  user interface 
+ is probably all the justiﬁ
+ cation needed to spend some 
+time understanding the user before worrying about technical matters. Earlier we 
+noted that each user has a mental image of the software that may be different 
+from the mental image developed by other users. In addition, the user’s mental 
+
+image may be vastly different from the software engineer’s design model. The 
+
+only way that you can get the mental image and the design model to converge 
+is to work to understand the users themselves as well as how these people will 
+use the system. Information from a broad array of sources (user interviews, sales 
+input, marketing input, support input) can be used to accomplish this.  
+ 
+ 
+   
+The following set of questions (adapted from [Hac98]) will help you to better understand the users of a system:  
+ 
+ 
+•  Are users trained professionals, technicians, clerical, or manufacturing workers?   
+ 
+ 
+•  What level of formal education does the average user have?   
+ 
+ 
+•  Are the users capable of learning from written materials or have they  expressed a desire for classroom training?   
+ 
+ 
+•  Are users expert typists or keyboard phobic?   
+ 
+ 
+•  What is the age range of the user community?   
+ 
+ 
+•  Will the users be represented predominately by one gender? 
+  
+ 
+ 
+•  How are users compensated for the work they perform?   
+ 
+ 
+•  Do users work normal ofﬁ ce hours or do they work until the job is done? 
+    How do we learn 
+about the demograph-
+ics and characteristics 
+of end users?   
+1  It is reasonable to argue that this section should be placed in Chapter 8, 9, 10, or 11, since 
+ requirements analysis issues are discussed there. It has been positioned here because inter-
+face analysis and design are intimately connected to one another, and the boundary between 
+
+the two is often fuzzy. 
+pre22126_ch15_317-346.indd   325pre22126_ch15_317-346.indd   32513/12/13   10:01 PM13/12/13   10:01 PM

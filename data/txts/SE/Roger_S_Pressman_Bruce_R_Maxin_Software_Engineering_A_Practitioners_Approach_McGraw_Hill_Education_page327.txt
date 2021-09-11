@@ -1,0 +1,213 @@
+CHAPTER 14  
+COMPONENT-LEVEL DESIGN
+ 297DetectorControl panelPhoneModemT-com
+ 
+ 
+FIGURE 14.5 
+Layer cohesion  
+  
+ 
+Cohesion in Action  
+ 
+Cohesion in Action  
+ 
+ 
+ 
+ 
+ 
+The scene:  
+Jamie’s cubicle. 
+   
+ 
+ 
+ 
+The players:  
+Jamie and Ed—members of the  Safe-Home 
+ software engineering team who are working on the surveillance function. 
+   
+ 
+ 
+ 
+The conversation:  
+   
+ 
+ 
+ 
+Ed:  
+I have a ﬁ rst-cut design of the  
+camera 
+ component.    
+ 
+ 
+ 
+Jamie:  
+Wanna do a quick review? 
+   
+ 
+ 
+ 
+Ed:  
+. but really, I’d like your input on something. 
+   
+ 
+(Jamie gestures for him to continue.)   
+ 
+ 
+ 
+ 
+Ed:  
+We originally deﬁ
+ ned ﬁ
+ ve operations for  
+camera 
+.    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+determineType()
+ 
+ tells me the type of camera.     
+ 
+ 
+ 
+ 
+ 
+translateLocation() 
+ allows me to move the camera around the ﬂ oor plan. 
+    
+ 
+ 
+ 
+ 
+ 
+displayID() 
+ gets the camera ID and displays it near the camera icon.     
+ 
+ 
+ 
+ 
+ 
+displayView() 
+ shows me the ﬁ eld of view of the 
+camera graphically. 
+    
+ 
+ 
+ 
+ 
+ 
+displayZoom() 
+ shows me the magniﬁ cation of the 
+camera graphically. 
+ 
+ 
+   
+ 
+ 
+ 
+Ed:  
+I’ve designed each separately, and they’re pretty 
+simple operations. So I thought it might be a good idea 
+to combine all of the display operations into just one 
+that’s called  
+displayCamera() 
+—it’ll show the ID, the view, and the zoom. Whaddaya think? 
+   
+ 
+ 
+ 
+Jamie (grimacing):  
+Not sure that’s such a good idea. 
+   
+ 
+ 
+ 
+Ed (frowning):  
+Why? All of these little ops can cause headaches.    
+ 
+ 
+ 
+Jamie:  
+The problem with combining them is we lose cohesion, you know, the  
+displayCamera() 
+ op won’t be 
+single-minded.    
+ 
+ 
+ 
+Ed (mildly exasperated):  
+So what? The whole thing will be less than 100 source lines, max. It’ll be 
+easier to implement, I think.    
+ 
+ 
+ 
+Jamie:  
+And what if marketing decides to change the way that we represent the view ﬁ eld? 
+   
+ 
+ 
+ 
+Ed:  
+I just jump into the  displayCamera() 
+ op and make the mod.    
+ 
+ 
+ 
+Jamie:  
+What about side effects?    
+ 
+ 
+ 
+Ed:  
+Whaddaya mean?    
+ 
+ 
+ 
+Jamie:  
+Well, say you make the change but inadver-
+tently create a problem with the ID display. 
+   
+ 
+ 
+ 
+Ed:  
+I wouldn’t be that sloppy. 
+   
+ 
+ 
+ 
+Jamie:  
+Maybe not, but what if some support person 
+two years from now has to make the mod. He might not 
+understand the op as well as you do, and, who knows, 
+he might be sloppy. 
+   
+ 
+ 
+ 
+Ed:  
+So you’re against it?    
+ 
+ 
+ 
+Jamie:  
+Y 
+be sure you understand the consequences of low cohesion. 
+   
+ 
+ 
+ 
+Ed (thinking a moment):  
+Maybe we’ll go with sep-arate display ops.    
+ 
+ 
+ 
+Jamie:  
+Good decision.  
+ 
+  
+SAFEHOME pre22126_ch14_285-316.indd   297pre22126_ch14_285-316.indd   29713/12/13   6:12 PM13/12/13   6:12 PM

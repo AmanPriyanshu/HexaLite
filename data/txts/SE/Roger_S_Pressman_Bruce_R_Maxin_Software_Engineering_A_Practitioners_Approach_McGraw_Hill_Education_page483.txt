@@ -1,0 +1,69 @@
+CHAPTER 21  
+SOFTWARE QUALITY ASSURANCE
+ 453an SQA group that has responsibility for quality assurance planning, oversight, record keeping, analysis, and reporting.  Software engineers address quality (and perform quality control activities) by applying solid technical methods and measures, conducting technical reviews, 
+and performing well-planned software testing.   
+ 
+21.4.1   
+SQA Tasks 
+ 
+The charter of the SQA group is to assist the software team in achieving a high-quality end product. The Software Engineering Institute recommends a 
+set of SQA activities that address quality assurance planning, oversight, record 
+keeping, analysis, and reporting. These activities are performed (or facilitated) 
+by an independent SQA group that:  
+ 
+ 
+   
+ 
+Prepares an SQA plan for a project. 
+  The plan is developed as part of project 
+planning and is reviewed by all stakeholders. Quality assurance activities 
+
+performed by the software engineering team and the SQA group are gov-
+erned by the plan. The plan identiﬁ es evaluations to be performed, audits and 
+reviews to be conducted, standards that are applicable to the project, proce-
+dures for error reporting and tracking, work products that are produced by 
+
+the SQA group, and feedback that will be provided to the software team. 
+  
+Participates in the development of the project’s software process description.   The software team selects a process for the work to be per-
+formed. The SQA group reviews the process description for compliance 
+with organizational policy, internal software standards, externally imposed 
+
+standards (e.g., ISO-9001), and other parts of the software project plan.   
+Reviews software engineering activities to verify compliance with the 
+defined software process. 
+  The SQA group identiﬁ
+ es, documents, and tracks 
+deviations from the process and veriﬁ es that corrections have been made. 
+  
+Audits designated software work products to verify compliance with those defined as part of the software process. 
+  The SQA group reviews selected 
+work products; identiﬁ es, documents, and tracks deviations; veriﬁ
+ es that 
+corrections have been made; and periodically reports the results of its 
+work to the project manager. 
+  
+Ensures that deviations in software work and work products are docu-mented and handled according to a documented procedure.   Deviations 
+may be encountered in the project plan, process description, applicable 
+standards, or software engineering work products.   
+Records any noncompliance and reports to senior management. 
+  Noncompliance items are tracked until they are resolved.   
+In addition to these activities, the SQA group coordinates the control and man-agement of change (Chapter 29) and helps to collect and analyze software metrics. 
+ 
+ 
+ 
+  What is the 
+role of an SQA group? ?  
+ 
+ uote:  “Quality is never 
+an accident; it 
+is always the 
+result of high 
+intention, sincere 
+effort, intelligent 
+direction and 
+skillful execution; it 
+represents the wise 
+choice of many 
+alternatives.”  William A. 
+Foster pre22126_ch21_448-465.indd   453pre22126_ch21_448-465.indd   45313/12/13   10:02 PM13/12/13   10:02 PM

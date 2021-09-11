@@ -1,0 +1,72 @@
+368 Chapter 6  
+NetworksComponent Failure
+Being hardware devices, components fail; these failures tend to be sporadic, individual, 
+unpredictable, and nonmalicious. As we have said, the Internet is robust enough that it 
+
+can work around failures of most components. And attackers usually cannot cause the 
+
+failure of a component, so these problems are seldom the result of a malicious attack. 
+
+(See Sidebar 6-7 for a description of what seems to have been an induced hardware 
+
+failure.) Nevertheless, security engineers need to remain mindful of the potential for 
+
+system harm from equipment failures.
+Next we turn to a technique attackers use to determine how to mount an attack. Like 
+a burglar casing out a neighborhood for vulnerabilities, a successful attacker intent on 
+
+harming a particular victim often spends time investigating the victim’s vulnerabilities 
+SIDEBAR 6-7  
+Stuxnet May Have Induced Hardware 
+Failure
+In June 2010, nuclear enrichment facilities in Iran were hit by the complex 
+and sophisticated computer virus Stuxnet (mentioned in Chapter 3 and 
+
+discussed in Chapter 13). Stuxnet targeted industrial control systems by 
+
+modifying code on programmable logic controllers (PLCs) to make them 
+
+work in a manner the attacker intended and to hide those changes from the 
+
+operator of the equipment. The systems Stuxnet went after were ones using 
+
+Siemens Simatic controllers, apparently at the nuclear plants at Bushehr or 
+
+Natanz. Stuxnet targets specific power supplies used to control the speed 
+
+of a device, such as a motor. The malware modified commands sent to the 
+
+drives from the Siemens SCADA software, causing the controllers to vary 
+
+the speed of a device, making it change speed intermittently.
+Stuxnet targeted particular drives running at high speeds. Such high 
+speeds are used only for select applications, one of which is uranium 
+
+enrichment. According to Symantec’s Eric Chien “Stuxnet changes the 
+
+output power frequency for short periods of time to 1410Hz and then to 
+
+2Hz and then to 1064Hz.” [FAL10] The normal frequency of the motors is 
+
+1064 Hz; running at a speed of 1400 Hz could destroy the equipment. Such 
+wild frequency oscillations cause the motors to speed up, then slow, and 
+
+then speed up again. Enriching uranium requires centrifuges spinning at 
+
+a precise speed for a long time; changing the speed would significantly 
+
+reduce the quality of the enriched product.
+Indeed, some outside experts think as many as 1000 of approximately 
+8000 centrifuges in the Iranian enrichment program failed in 2009 to 2010, 
+
+during the peak of Stuxnet’s operation. Iran manufactured its own centri-
+
+fuges, which were known to fail regularly, although probably not as many as 
+
+1000 of 8000. The virus may also have been intended to keep maintenance 
+engineers and designers busy replacing failed hardware and figuring out 
+
+how to keep the whole system running. Stuxnet could have contributed to 
+this failure rate, perhaps the first example of a malicious attack causing 
+
+hardware failure.

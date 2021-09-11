@@ -1,0 +1,58 @@
+218 Chapter 3  
+Programs and Programming5. Default to deny.
+6. Adhere to the principle of least privilege.
+7. Sanitize data sent to other systems.8. Practice defense in depth.9. Use effective quality-assurance techniques.
+10. Adopt a secure coding standard.Of these ten, numbers 4, 5, and 6 match directly with Saltzer and Schroeder, and 3 and 
+8 are natural outgrowths of that work. Similarly, the Software Assurance Forum for 
+
+Excellence in Code (SAFECode)2 produced a guidance document [SAF11] that is also 
+compatible with these concepts, including such advice as implementing least privilege 
+
+and sandboxing (to be defined later), which is derived from separation of privilege and 
+
+complete mediation. We elaborate on many of the points from SAFECode throughout 
+
+this chapter, and we encourage you to read their full report after you have finished this 
+
+chapter. Other authors, such as John Viega and Gary McGraw [VIE01] and Michael 
+
+Howard and David LeBlanc [HOW02], have elaborated on the concepts in developing 
+
+secure programs.Penetration Testing for Security
+The testing approaches in this chapter have described methods appropriate for all pur-
+poses of testing: correctness, usability, performance, as well as security. In this section 
+
+we examine several approaches that are especially effective at uncovering security flaws.
+We noted earlier in this chapter that 
+penetration testing or 
+tiger team analysis is a 
+strategy often used in computer security. (See, for example, [RUB01, TIL03, PAL01].) 
+
+Sometimes it is called ethical hacking, because it involves the use of a team of experts 
+trying to crack the system being tested (as opposed to trying to break into the system 
+for unethical reasons). The work of penetration testers closely resembles what an actual 
+
+attacker might do [AND04, SCH00b]. The tiger team knows well the typical vulner-
+
+abilities in operating systems and computing systems. With this knowledge, the team 
+
+attempts to identify and exploit the system’s particular vulnerabilities. 
+Penetration testing is both an art and science. The artistic side requires careful 
+analysis and creativity in choosing the test cases. But the scientific side requires rigor, 
+
+order, precision, and organization. As Clark Weissman observes [WEI95], there is an 
+
+organized methodology for hypothesizing and verifying flaws. It is not, as some might 
+
+assume, a random punching contest.Using penetration testing is much like asking a mechanic to look over a used car 
+on a sales lot. The mechanic knows potential weak spots and checks as many of them 
+
+as possible. A good mechanic will likely find most significant problems, but finding a 
+
+problem (and fixing it) is no guarantee that no other problems are lurking in other parts 
+2. SAFECode is a non-profit organization exclusively dedicated to increasing trust in information and com-
+munications technology products and services through the advancement of effective software assurance 
+
+methods. Its members include Adobe Systems Incorporated, EMC Corporation, Juniper Networks, Inc., 
+
+Microsoft Corp., Nokia, SAP AG, and Symantec Corp.

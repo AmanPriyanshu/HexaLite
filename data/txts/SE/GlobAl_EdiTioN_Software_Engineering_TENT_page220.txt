@@ -1,0 +1,49 @@
+open-source systems. Even then, however, it could be quicker and cheaper to modify 
+the open-source system rather than redevelop the functionality that you need.Many software product companies are now using an open-source approach to devel-opment, especially for specialized systems. Their business model is not reliant on selling 
+
+a software product but rather on selling support for that product. They believe that 
+
+involving the open-source community will allow software to be developed more cheaply 
+
+and more quickly and will create a community of users for the software.Some companies believe that adopting an open-source approach will reveal con
+-fidential business knowledge to their competitors and so are reluctant to adopt this 
+development model. However, if you are working in a small company and you open 
+source your software, this may reassure customers that they will be able to support 
+the software if your company goes out of business.Publishing the source code of a system does not mean that people from the wider 
+community will necessarily help with its development. Most successful open-source 
+
+products have been platform products rather than application systems. There are a 
+
+limited number of developers who might be interested in specialized application sys-
+tems. Making a software system open source does not guarantee community involve-
+ment. There are thousands of open-source projects on Sourceforge and GitHub that 
+
+have only a handful of downloads. However, if users of your software have concerns 
+
+about its availability in future, making the software open source means that they can 
+
+take their own copy and so be reassured that they will not lose access to it.ˇˇAlthough a fundamental principle of open-source development is that source code should 
+
+be freely available, this does not mean that anyone can do as they wish with that code. 
+
+Legally, the developer of the code (either a company or an individual) owns the code. 
+
+They can place restrictions on how it is used by including legally binding conditions in an 
+
+open-source software license (St. Laurent 2004). Some open-source developers believe 
+
+that if an open-source component is used to develop a new system, then that system 
+
+should also be open source. Others are willing to allow their code to be used without this 
+
+restriction. The developed systems may be proprietary and sold as closed-source systems.Most open-source licenses (Chapman 2010) are variants of one of three 
+ general models:
+1. The GNU General Public License (GPL). This is a so-called reciprocal license that simplistically means that if you use open-source software that is licensed 
+under the GPL license, then you must make that software open source.2. The GNU Lesser General Public License (LGPL). This is a variant of the GPL 
+license where you can write components that link to open-source code without 
+having to publish the source of these components. However, if you change the 
+licensed component, then you must publish this as open source.3. The Berkley Standard Distribution (BSD) License. This is a nonreciprocal license, 
+
+which means you are not obliged to re-publish any changes or modifications made to 
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜

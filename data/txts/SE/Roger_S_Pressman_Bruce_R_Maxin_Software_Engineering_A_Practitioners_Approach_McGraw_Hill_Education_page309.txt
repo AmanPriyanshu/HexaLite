@@ -1,0 +1,57 @@
+CHAPTER 13  
+ARCHITECTURAL DESIGN 279a lightweight architectural review process known as  pattern-based architecture 
+review
+ 
+ (PBAR) might be the best option.  PBAR is an evaluation method that leverages the relationship between archi-tectural patterns  16 
+ 
+ and software quality attributes. A PBAR is a face-to-face audit 
+meeting involving all developers and other interested stakeholders. An external 
+reviewer with expertise in architecture, architecture patterns, quality attributes, 
+and the application domain is also in attendance. The system architect is the 
+primary presenter. 
+  
+A PBAR should be scheduled after the ﬁ rst working prototype or  
+walking  skeleton 
+ 
+ 17 
+ 
+ is completed. The PBAR encompasses the following iterative steps 
+[Har11]:    
+ 
+ 
+ 1.  Identify and discuss the quality attributes most important to the system by walking through the relevant use cases ( Chapter 9 ).     
+ 2.  Discuss a diagram of the system’s architecture in relation to its 
+requirements.     
+ 3.  Help the reviewers identify the architecture patterns used and match the system’s structure to the patterns’ structure. 
+    
+ 4.  Using existing documentation and past use cases, examine the archi-tecture and quality attributes to determine each pattern’s effect on the 
+
+ system’s quality attributes. 
+    
+ 5.  Identify and discuss all quality issues raised by architecture patterns used in the design.     
+ 6.  Develop a short summary of the issues uncovered during the meeting and makes appropriate revisions to the walking skeleton.    
+PBARs are well-suited to small, agile teams and require a relatively small 
+amount of extra project time and effort. With its short preparation and review time, 
+
+PBAR can accommodate changing requirements and short build cycles, and at the 
+
+same time, help improve the team’s understanding of the system architecture. 
+  
+ 
+ 
+ 13.10 A
+RCHITECTURE CONFORMANCE CHECKING  
+ 
+As the software process moves through design and into construction, software 
+engineers must work to ensure that an implemented and evolving system con-
+forms to its planned architecture. Many things (e.g., conﬂ icting requirements, 
+ 
+ 
+16  An  
+architectural pattern
+ 
+ is a generalized solution to an architectural design problem with a 
+speciﬁ c set of conditions or constraints. Patterns are discussed in detail in  
+Chapter 16 .   
+17  A walking skeleton contains a baseline architecture that supports the functional requirements 
+with the highest priorities in the business case and the most challenging quality attributes. pre22126_ch13_252-284.indd   279pre22126_ch13_252-284.indd   27913/12/13   6:12 PM13/12/13   6:12 PM

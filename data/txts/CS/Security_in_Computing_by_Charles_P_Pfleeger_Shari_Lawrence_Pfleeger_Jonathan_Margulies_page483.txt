@@ -1,0 +1,36 @@
+ Section 6.6  Cryptography in Network Security 
+449  Now consider the second case of a telecommuter: Jeannie, an employee working 
+from home. To be productive from home she needs to use central files and resources 
+
+she could access easily from the office. But obviously, the company does not want these 
+
+resources exposed to the general public. From her house Jeannie uses a technology such 
+
+as DSL or cable to connect to an Internet provider that routes some of her traffic to her 
+
+office and the rest to other websites. Thus, she appears to her office like any other web 
+
+user. She can also use a VPN for secure office communications.
+Virtual private networks are created when the firewall interacts with an authentica-
+tion service inside the perimeter. The firewall may pass user authentication data to the 
+
+authentication server and, upon confirmation of the authenticated identity, the firewall 
+
+provides the user with appropriate security privileges. For example, Jeannie may be 
+
+allowed to access resources not available to general users. The firewall implements this 
+
+access control on the basis of the VPN. A VPN with privileged access is shown in Fig-
+
+ure 6-49. In that figure, the firewall passes to the internal server Jeannie’s (privileged) 
+
+identity.
+Encryption is a powerful tool, but its use is fraught with problems. The algorithms 
+run neatly by themselves, and many implementations in hardware and software are easy 
+
+to use and reliable. Managing keys to support many virtual users is complex but table 
+
+driven, making it a good task for computers. The keys must also be protected in storage 
+
+on both ends.Firewall AOfficeA1A2A3A4EncryptedTo other
+sitesTeleworkerFIGURE 6-49 VPN with Privileged Access

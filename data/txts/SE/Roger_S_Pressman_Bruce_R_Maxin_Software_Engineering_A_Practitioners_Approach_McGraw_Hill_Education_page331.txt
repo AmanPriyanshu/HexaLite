@@ -1,0 +1,49 @@
+CHAPTER 14  
+COMPONENT-LEVEL DESIGN
+ 301operation within the abstract class (the interface) should be cohesive; that is, it 
+should exhibit processing that focuses on one limited function or subfunction. 
+ Referring to  Figure 14.1 , it can be argued that the interface  initiateJob 
+ does not 
+exhibit sufﬁ cient cohesion. In actuality, it performs three different  
+subfunctions—building a work order, checking job priority, and passing a job to production. 
+
+The interface design should be refactored. One approach might be to reexamine 
+the design classes and deﬁ ne a new class 
+WorkOrder
+ that would take care of 
+all activities associated with the assembly of a work order. The operation  
+build-WorkOrder()
+ 
+ becomes a part of that class. Similarly, we might deﬁ
+ ne a class 
+JobQueue that would incorporate the operation  
+checkPriority() 
+. A class Produc-tionJob would encompass all information associated with a production job to be 
+passed to the production facility. The interface  
+initiateJob 
+ would then take the 
+form shown in  Figure 14.7 . The interface  initiateJob 
+ is now cohesive, focusing 
+on one function. The interfaces associated with ProductionJob, WorkOrder,
+ and 
+JobQueue are similarly single-minded.   
+ 
+ 
+Step 3c. Elaborate attributes and define data types and data structures required to implement them.   In general, data structures and types used to deﬁ ne attri-
+butes are deﬁ ned within the context of the programming language that is to be 
+used for implementation. UML deﬁ nes an attribute’s data type using the follow-
+ing syntax:  name : type-expression 5 initial-value {property string}  
+where name is the attribute name, 
+type expression is the data type, 
+initial value is the value that the attribute takes when an object is created, and property-string deﬁ
+ nes 
+a property or characteristic of the attribute.   
+FIGURE 14.7 
+Refactoring interfaces and class deﬁ
+ nitions for PrintJob 
+ 
+ PrintJobcomputeJobinitiateJobProductionJobbuildJobsubmitJobWorkOrder
+appropriate attributesbuildWorkOrder ( )
+getJobDescriptionJobQueueappropriate attributescheckPriority ( )<<interface>>
+ initiateJobpassJobToProduction( )
+pre22126_ch14_285-316.indd   301pre22126_ch14_285-316.indd   30113/12/13   6:12 PM13/12/13   6:12 PM

@@ -1,0 +1,33 @@
+CHAPTER 10  
+REQUIREMENTS MODELING: CLASS-BASED METHODS 191called . How will  WallSegment
+ 
+ know what the next wall will be?   
+Ed:  Good question, but as they say, that’s a design 
+  
+Jamie:  
+ﬁ gured it out. 
+  
+Ed (smiling sheepishly):  True, I’m gonna use a list 
+structure which I’ll model when we get to design. If you 
+get religious about separating analysis and design, the 
+level of detail I have right here could be suspect.   
+Jamie:  Looks pretty good to me, but I have a few 
+more questions. 
+ (Jamie asks questions which result in minor modiﬁ cations.) 
+  
+Vinod:  Do you have CRC cards for each of the 
+ objects? If so, we ought to role-play through them, just to make sure nothing has been omitted.   
+Ed:  I’m not quite sure how to do them. 
+  
+Vinod:  It’s not hard and they really pay off. I’ll show 
+you.  FloorPlandetermineType( ) positionFloorplan( ) 
+scale( ) change color( ) type name 
+outsideDimensions CameradetermineType( )  translateLocation( ) displayID( ) displayView( ) displayZoom( )  type ID location fieldView panAngle ZoomSetting WallSegmenttype startCoordinates 
+stopCoordinates nextWalldetermineType( ) draw( )  Windowtype startCoordinates 
+stopCoordinates nextWindow determineType( ) draw( )  Is placed withinWalltype wallDimensions  determineType( ) computeDimensions ( )Doortype startCoordinates 
+stopCoordinates nextDoordetermineType( ) draw( )  Is part ofIs used to buildIs used to buildIs used to build  
+FIGURE 10.2 
+Class diagram for FloorPlan 
+(see sidebar 
+discussion)  
+ pre22126_ch10_184-201.indd   191pre22126_ch10_184-201.indd   19113/12/13   6:11 PM13/12/13   6:11 PM

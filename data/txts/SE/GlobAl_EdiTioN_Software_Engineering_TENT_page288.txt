@@ -1,0 +1,33 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜
+All of us are familiar with the problem of computer system failure. For no obvious reason, our computers sometimes crash or go wrong in some way. Programs running 
+on these computers may not operate as expected and occasionally may corrupt the 
+
+data that is managed by the system. We have learned to live with these failures, but 
+few of us completely trust the personal computers that we normally use.The dependability of a computer system is a property of the system that reflects its trustworthiness. Trustworthiness here essentially means the degree of confidence 
+
+a user has that the system will operate as they expect and that the system will not 
+ﬁfailﬂ in normal use. It is not meaningful to express dependability numerically. 
+
+Rather, relative terms such as ﬁnot dependable,ﬂ ﬁvery dependable,ﬂ and ﬁultra-
+dependableﬂ can reflect the degree of trust that we might have in a system.There are five principal dimensions to dependability, as I have shown in 
+Figure 10.1.1. Availability Informally, the availability of a system is the probability that it will be up and running and able to deliver useful services to users at any given time.2. Reliability Informally, the reliability of a system is the probability, over a given 
+period of time, that the system will correctly deliver services as expected by the user.3. Safety Informally, the safety of a system is a judgment of how likely it is that the 
+system will cause damage to people or its environment.4. Security Informally, the security of a system is a judgment of how likely it is that the system can resist accidental or deliberate intrusions.5. Resilience Informally, the resilience of a system is a judgment of how well that  system can maintain the continuity of its critical services in the presence of 
+ disruptive events, such as equipment failure and cyberattacks. Resilience is a 
+more recent addition to the set of dependability properties that were originally 
+
+suggested by Laprie.The dependability properties shown in Figure 10.1 are complex properties that 
+can be broken down into several simpler properties. For example, security includes 
+ﬁintegrityﬂ (ensuring that the systems program and data are not damaged) and ﬁcon-
+fidentialityﬂ (ensuring that information can only be accessed by people who are 
+
+authorized). Reliability includes ﬁcorrectnessﬂ (ensuring the system services are as 
+specified), ﬁprecisionﬂ (ensuring information is delivered at an appropriate level of 
+detail), and ﬁtimelinessﬂ (ensuring that information is delivered when it is required).Of course, not all dependability properties are critical for all systems. For the 
+insulin pump system, introduced in Chapter 1, the most important properties are reli
+-
+ability (it must deliver the correct dose of insulin) and safety (it must never deliver a 
+dangerous dose of insulin). Security is not an issue as the pump does not store confi-
+dential information. It is not networked and so cannot be maliciously attacked. For 

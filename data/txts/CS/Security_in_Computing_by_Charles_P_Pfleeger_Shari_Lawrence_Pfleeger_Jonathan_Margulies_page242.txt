@@ -1,0 +1,56 @@
+208 Chapter 3  
+Programs and Programmingthe gradual expansion of services allowed these refresh requests to occur 
+without overwhelming access to the persistent store server.
+A design of mutual suspicion—not implicitly assuming the cache 
+is wrong and the persistent store is right—would have avoided this 
+
+catastrophe.
+SIDEBAR 3-10 ContinuedConfinement Confinement is a technique used by an operating system on a suspected program to 
+
+help ensure that possible damage does not spread to other parts of a system. A 
+confined
+ program is strictly limited in what system resources it can access. If a program is not 
+trustworthy, the data it can access are strictly limited. Strong confinement would be 
+
+particularly helpful in limiting the spread of viruses. Since a virus spreads by means 
+
+of transitivity and shared data, all the data and programs within a single compartment 
+
+of a confined program can affect only the data and programs in the same compartment. 
+
+Therefore, the virus can spread only to things in that compartment; it cannot get outside 
+the compartment.Simplicity The case for simplicity—of both design and implementation—should be self-evident: 
+
+simple solutions are easier to understand, leave less room for error, and are easier to 
+
+review for faults. The value of simplicity goes deeper, however.
+With a simple design, all members of the design and implementation team can under-
+stand the role and scope of each element of the design, so each participant knows not 
+
+only what to expect others to do but also what others expect. Perhaps the worst problem 
+
+of a running system is maintenance: After a system has been running for some time, 
+
+and the designers and programmers are working on other projects (or perhaps even at 
+
+other companies), a fault appears and some unlucky junior staff member is assigned the 
+
+task of correcting the fault. With no background on the project, this staff member must 
+
+attempt to intuit the visions of the original designers and understand the entire context 
+
+of the flaw well enough to fix it. A simple design and implementation facilitates correct 
+
+maintenance.Hoare [HOA81] makes the case simply for simplicity of design:
+I gave desperate warnings against the obscurity, the complexity, and overambition of 
+the new design, but my warnings went unheeded. I conclude that there are two ways of 
+
+constructing a software design: One way is to make it so simple that there are 
+obviously no deficiencies and the other way is to make it so complicated that there are no 
+obvious deficiencies.
+In 2014 the web site for the annual RSA computer security conference was com-
+promised. Amit Yoran, Senior Vice President of Products and Sales for RSA, the par-
+
+ent company that founded the conference and supports it financially, spoke to the 
+
+issue. “Unfortunately, complexity is very often the enemy of security,” he concluded, 

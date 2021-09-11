@@ -1,0 +1,67 @@
+854 PART FIVE  
+ADVANCED TOPICS
+ 
+ 
+Domain-speciﬁ c modeling languages
+ 
+ (DSMLs) represent “application struc-
+ture, behavior and requirements within particular application domains” and are 
+described with meta-models that “deﬁ ne the relationships among concepts in 
+the domain and precisely specify the key semantics and constraints associated 
+with these domain concepts” [Sch06]. The key difference between a DSML and a 
+general-purpose modeling language such as UML (Appendix 1) is that the DSML 
+is tuned to design concepts inherent in the application domain and can therefore 
+represent relationships and constraints among design elements in an efﬁ cient 
+manner. 
+  
+ 
+ 
+38.5.6   
+Postmodern Design 
+ 
+In an interesting article on software design in the “postmodern era,” Philippe Kruchten [Kru05] makes the following observation:  
+Computer science hasn’t achieved the grand narrative that explains it all, the  big picture
+ 
+—we haven’t found the fundamental laws of software that would play the role that the fundamental laws of physics play in other engineering disciplines. We still 
+
+live with the bitter aftertaste of the Internet bubble burst and the Y2K doomsday. So, 
+
+in this postmodern era, where it seems that everything matters a bit yet not much 
+really matters, what are the next directions for software design?  
+  
+Part of any attempt to understand trends in software design is to establish boundaries for design. Where does requirements engineering stop and design 
+begin? Where does design stop and code generation begin? The answers to these 
+questions are not as easy as they might ﬁ rst appear. Even though the require-
+ments model should focus on “what,” not “how,” every analyst does a bit of design 
+
+and almost all designers do a bit of analysis. Similarly, as the design of software 
+
+components moves closer to algorithmic detail, a designer begins to represent 
+the component at a level of abstraction that is close to code.   
+ 
+ 
+38.5.7   
+Test-Driven Development 
+ 
+Requirements drive design, and design establishes a foundation for construction. This simple software engineering reality works reasonably well and is essential 
+as a software architecture is created. However, a subtle change can provide sig-
+
+niﬁ cant beneﬁ
+ t when component-level design and construction are considered. 
+ In  test-driven development 
+ (TDD), requirements for a software component 
+serve as the basis for the creation of a series of test cases that exercise the inter-
+
+face and attempt to ﬁ nd errors in the data structures and functionality delivered 
+by the component. TDD is not really a new technology but rather a trend that 
+emphasizes the design of test cases  before
+ 
+ the creation of source code. 
+ 
+9 
+ 
+ 
+  
+ 
+9  Recall that Extreme Programming (Chapter 5) emphasizes this approach as part of its agile 
+process model. pre22126_ch38_839-859.indd   854pre22126_ch38_839-859.indd   85413/12/13   6:17 PM13/12/13   6:17 PM

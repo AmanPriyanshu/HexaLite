@@ -1,0 +1,83 @@
+170 PART TWO  
+MODELING 
+ 
+ 
+ 
+9.1.3 Domain Analysis 
+ 
+In the discussion of requirements engineering (Chapter 8), we noted that anal-ysis patterns often reoccur across many applications within a speciﬁ c business 
+domain. If these patterns are deﬁ ned and categorized in a manner that allows 
+you to recognize and apply them to solve common problems, the creation of the 
+analysis model is expedited. More important, the likelihood of applying design 
+patterns and executable software components grows dramatically. This improves 
+
+time-to-market and reduces development costs.  
+ 
+ 
+   
+But how are analysis patterns and classes recognized in the ﬁ rst place? Who 
+deﬁ nes them, categorizes them, and readies them for use on subsequent proj-
+ects? The answers to these questions lie in  domain analysis. 
+ Firesmith [Fir93] 
+describes domain analysis in the following way:  
+Software domain analysis is the identiﬁ cation, analysis, and speciﬁ
+ cation of common 
+requirements from a speciﬁ c application domain, typically for reuse on multiple 
+[Object-oriented domain analysis is] the 
+
+identiﬁ cation, analysis, and speciﬁ
+ cation of common, reusable capabilities within a 
+speciﬁ c application domain, in terms of common objects, classes, subassemblies, and 
+frameworks.  
+  
+The “speciﬁ c application domain” can range from avionics to banking, from 
+multimedia video games to software embedded within medical devices. The goal 
+of domain analysis is straightforward: to ﬁ nd or create those analysis classes 
+and/or analysis patterns that are broadly applicable so that they may be reused.  5 
+ 
+   
+Using terminology that was introduced previously in this book, domain anal-ysis may be viewed as an umbrella activity for the software process. By this we 
+mean that domain analysis is an ongoing software engineering activity that is not 
+connected to any one software project. In a way, the role of a domain analyst is 
+
+similar to the role of a master toolsmith in a heavy manufacturing environment. 
+The job of the toolsmith is to design and build tools that may be used by many 
+people doing similar but not necessarily the same jobs. The role of the domain 
+analyst  6 
+ 
+ is to discover and deﬁ
+ ne analysis patterns, analysis classes, and related 
+information that may be used by many people working on similar but not neces-
+sarily the same applications.  
+   
+Figure 9.2  [Arn89] illustrates key inputs and outputs for the domain analysis 
+process. Sources of domain knowledge are surveyed in an attempt to identify 
+objects that can be reused across the domain.  
+ 
+ 
+  
+WebRef 
+ Many useful resources 
+for domain analysis 
+and many other 
+topics can be found at 
+  http://www.sei
+.cmu.edu/  . 
+   Domain analysis 
+doesn’t look at a 
+speciﬁ c application, but 
+
+rather at the domain in 
+which the application 
+resides. The intent is to 
+identify common prob-
+lem solving elements 
+that are applicable to 
+all applications within 
+the domain.   
+5  A complementary view of domain analysis “involves modeling the domain so that software en-
+
+result in the development of reusable classes.” [Let03a]   
+6  Do not make the assumption that because a domain analyst is at work, a software engineer 
+need not understand the application domain. Every member of a software team should have 
+some understanding of the domain in which the software is to be placed. pre22126_ch09_166-183.indd   170pre22126_ch09_166-183.indd   17013/12/13   6:11 PM13/12/13   6:11 PM

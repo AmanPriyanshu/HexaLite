@@ -1,0 +1,142 @@
+320 PART TWO  
+MODELINGthe user with an interaction scenario that assists recall. Mandel [Man97] deﬁ nes 
+design principles that enable an interface to reduce the user’s memory load:
+  
+ 
+ 
+ 
+ 
+Reduce demand on short-term memory.
+ 
+ When users are involved in complex 
+tasks, the demand on short-term memory can be signiﬁ cant. The interface 
+should be designed to reduce the requirement to remember past actions, 
+
+inputs, and results. This can be accomplished by providing visual cues that 
+
+enable a user to recognize past actions, rather than having to recall them. 
+   
+ 
+ 
+ 
+Establish meaningful defaults. 
+ The initial set of defaults should make sense for the average user, but a user should be able to specify individual 
+
+preferences. However, a “reset” option should be available, enabling the 
+
+redeﬁ nition of original default values. 
+   
+ 
+ 
+ 
+Deﬁ ne shortcuts that are intuitive.
+ 
+ When mnemonics are used to accom-plish a system function (e.g., alt-P to invoke the  print 
+ function), the mne-monic should be tied to the action in a way that is easy to remember (e.g., 
+ﬁ rst letter of the task to be invoked). 
+   
+ 
+ 
+ 
+The visual layout of the interface should be based on a real-world met-aphor.
+ 
+ For example, a bill payment system should use a checkbook and check register metaphor to guide the user through the bill paying process. 
+This enables the user to rely on well-understood visual cues, rather than 
+memorizing an arcane interaction sequence.    
+ 
+ 
+ 
+Disclose information in a progressive fashion. 
+ The interface should be organized hierarchically. That is, information about a task, an object, or 
+
+some behavior should be presented ﬁ rst at a high level of abstraction. 
+More detail should be presented after the user indicates interest.  
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Violating a UI Golden Rule  
+ 
+Violating a UI Golden Rule 
+ 
+ 
+ 
+ 
+ 
+ 
+The scene:  Vinod’s cubicle, as user 
+interface design begins. 
+   
+ 
+ 
+ 
+The players:  Vinod and Jamie, members of the 
+ SafeHome 
+ software engineering team.    
+ 
+ 
+ 
+The conversation:  
+   
+ 
+ 
+ 
+Jamie:  I’ve been thinking about the surveillance 
+ function interface. 
+   
+ 
+ 
+ 
+Vinod (smiling):  Thinking is good. 
+   
+ 
+ 
+ 
+Jamie:  I think maybe we can simplify matters some. 
+   
+ 
+ 
+ 
+Vinod:  Meaning? 
+   
+ 
+ 
+ 
+Jamie:  Well, what if we eliminate the ﬂ
+ oor plan entirely. 
+It’s ﬂ
+ ashy, but it’s going to take serious development effort. 
+Instead we just ask the user to specify the camera he wants 
+
+to see and then display the video in a video window. 
+   
+ 
+ 
+ 
+Vinod:  How does the homeowner remember how 
+many cameras are set up and where they are?    
+ 
+ 
+ 
+Jamie (mildly irritated):  He’s the homeowner; he 
+should know. 
+   
+ 
+ 
+ 
+Vinod:  But what if he doesn’t? 
+   
+ 
+ 
+ 
+Jamie:  He should. 
+   
+ 
+ 
+ 
+Vinod:  That’. what if he forgets? 
+  
+SAFEHOME pre22126_ch15_317-346.indd   320pre22126_ch15_317-346.indd   32013/12/13   10:01 PM13/12/13   10:01 PM

@@ -1,0 +1,88 @@
+CHAPTER 8  
+UNDERSTANDING REQUIREMENTS
+ 149 
+ 
+The requirements for touchpoints should be characterized in a manner that indicates achievement of the overall service requirements. This suggests that 
+each requirement should be traceable to a speciﬁ c service. 
+ 
+ 
+ 
+ 
+ 
+ 8.4 D
+EVELOPING USE CASES  
+ 
+In a book that discusses how to write effective use cases, Alistair Cockburn [that] describes the sys-
+
+tem’s behavior under various conditions as the system responds to a request 
+
+.” In essence, a use case tells a stylized story about 
+
+how an end user (playing one of a number of possible roles) interacts with the 
+system under a speciﬁ c set of circumstances. The story may be narrative text, an 
+outline of tasks or interactions, a template-based description, or a diagrammatic 
+representation. Regardless of its form, a use case depicts the software or system 
+from the end user’s point of view. 
+ 
+ 
+ 
+   
+The ﬁ rst step in writing a use case is to deﬁ
+ ne the set of “actors” that will be 
+involved in the story.  
+Actors 
+ are the different people (or devices) that use the 
+system or product within the context of the function and behavior that is to be 
+described. Actors represent the roles that people (or devices) play as the system 
+operates. Deﬁ ned somewhat more formally, an actor is anything that communi-
+cates with the system or product and that is external to the system itself. Every 
+actor has one or more goals when using the system.   
+ 
+ 
+ 
+ 
+It is important to note that an actor and an end user are not necessarily the same thing. A typical user may play a number of different roles when using a 
+system, whereas an actor represents a class of external entities (often, but not 
+always, people) that play just one role in the context of the use case. As an ex-
+ample, consider a machine operator (a user) who interacts with the control com-
+puter for a manufacturing cell that contains a number of robots and numerically 
+controlled machines. After careful review of requirements, the software for the 
+control computer requires four different modes (roles) for interaction: program-
+ming mode, test mode, monitoring mode, and troubleshooting mode. Therefore, 
+four actors can be deﬁ ned: programmer, tester, monitor, and troubleshooter. In 
+some cases, the machine operator can play all of these roles. In others, different 
+people may play the role of each actor. 
+ Because requirements elicitation is an evolutionary activity, not all actors 
+are identiﬁ ed during the ﬁ
+ rst iteration. It is possible to identify primary actors 
+[Jac92] during the ﬁ rst iteration and secondary actors as more is learned about 
+the system.  Primary actors 
+ interact to achieve required system function and de-
+rive the intended beneﬁ t from the system. They work directly and frequently 
+with the software.  Secondary actors 
+ support the system so that primary actors 
+can do their work.  
+ 
+ 
+  
+WebRef 
+ An excellent paper 
+on use cases can be 
+downloaded from 
+  www.ibm.com/
+developerworks/
+
+webservices/
+
+library/co-
+
+design7.html  . 
+   Use cases are deﬁ ned 
+from an actor’s point 
+
+of view. An actor is 
+
+a role that people 
+(users) or devices play 
+as they interact with 
+the software. pre22126_ch08_131-165.indd   149pre22126_ch08_131-165.indd   14913/12/13   6:11 PM13/12/13   6:11 PM

@@ -1,0 +1,51 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜authority, such as the system architect, should assess and prioritize changes that cut across system modules that have been produced by different development teams.In some agile methods, customers are directly involved in deciding whether a change 
+should be implemented. When they propose a change to the system requirements, they 
+
+work with the team to assess the impact of that change and then decide whether the 
+
+change should take priority over the features planned for the next increment of the sys
+-
+tem. However, changes that involve software improvement are left to the discretion of 
+
+the programmers working on the system. Refactoring, where the software is continually 
+
+improved, is not seen as an overhead but as a necessary part of the development process.As the development team changes software components, they should maintain a 
+record of the changes made to each component. This is sometimes called the derivation 
+
+history of a component. A good way to keep the derivation history is in a standardized 
+
+comment at the beginning of the component source code (Figure 
+25.
+16). This com
+-ment should reference the change request that triggered the software change. These 
+
+comments can be processed by scripts that scan all components for the derivation his-
+tories and then generate component change reports. For documents, records of changes 
+
+incorporated in each version are usually maintained in a separate page at the front of 
+
+the document. I discuss this in the web chapter on documentation (Chapter 30).A system release is a version of a software system that is distributed to customers. 
+For mass-market software, it is usually possible to identify two types of release: 
+
+major releases, which deliver significant new functionality, and minor releases, 
+
+which repair bugs and fix customer problems that have been reported. For example, 
+this book
+ is being written on an Apple Mac computer where the operating system is 
+
+OS 10.9.2. This means minor release 2 of major release 9 of OS 10. Major releases 
+
+are very important economically to the software vendor, as customers usually have 
+to pay for them. Minor releases are usually distributed free of charge.// SICSA project (XEP 6087)
+//
+// APP-SYSTEM/AUTH/RBAC/USER_ROLE
+//
+// Object: currentRole
+// Author: R. Looek
+// Creation date: 13/11/2012
+//
+// © St Andrews University 2012
+//
+// Modification history
+// Version Modifier Date Change Reason// 1.0 J. Jones 11/11/2009 Add header Submitted to CM// 1.1 R. Looek 13/11/2009 New field Change req. R07/02Figure 25.16  Derivation history

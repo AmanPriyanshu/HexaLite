@@ -1,0 +1,66 @@
+840 Chapter 13  
+Emerging Topics
+examines, and one that the attacker surreptitiously carries away (and perhaps matches 
+with a photo taken with a hidden camera). Another way might be social engineering: 
+
+posing as a voting official and asking questions at an “exit interview.” As we have seen, 
+
+we don’t always need fancy technology to construct an effective attack.
+Tampering
+One way to attack a voting machine is to break in and tamper with its workings. Once 
+in, an attacker could reset hardware or change software settings. In September 2010, the 
+
+U.S. Department of Energy’s Argonne National Laboratory investigated how to break 
+
+antitamper seals on voting machines. The results are disheartening: Within 11 minutes, 
+
+almost all of the 244 seals were defeated “by one person, well practiced in the attack, 
+working alone, and using only low-tech methods.” Even more expensive seals didn’t 
+
+fare much better. The Argonne report [ARG10] suggests that there are simple coun-
+
+termeasures, derived from doing what we are doing in this book: examining the seals, 
+
+thinking like an attacker, and learning from trying various attacks.
+How else might the results be changed? The U.S. presidential vote in 2000 brings 
+one way to mind: ballot design. Some ballots are easier to understand than others, and 
+
+ballot design can encourage a voter to think she is voting one way when she is really 
+
+voting another. Placement of names or party affiliation can make a difference; for 
+
+instance, some people are biased toward voting for the person at the top of the ballot, 
+
+so name placement is sometimes randomized to counter that effect. Similarly, places 
+
+like California have very complex ballots because each election can include multiple 
+
+jurisdictions (for example, local government, school board, water district), as well as 
+
+voter initiatives, judicial races, and more. Some researchers suggest that simplifying the 
+
+ballot may address this problem.Interface problems can lead to miscounts in other ways. Some voting machines’ 
+interfaces ask the voter to verify the selections before the votes are actually recorded. 
+
+In some instances, voters have walked away from the machines, not realizing that one 
+
+more step is needed before their votes were formally cast. In other cases, sliding a finger 
+
+across the touch-screen causes the machine to crash and reboot [THO08].Many of the attacks presented in this book can be directed at vote-tampering. For 
+instance, program flaws may result in changes to vote counts. Chapter 4 introduces 
+
+man-in-the-middle attacks that can intercept a vote, change it, and force a voting 
+
+machine to record a vote different from the one the voter intended, while showing the 
+
+voter an image of the selections the voter believes are being recorded. And, depending 
+
+on the voting process’s architecture, a distributed denial-of-service attack can flood an 
+
+Internet voting server with spurious traffic, preventing even astronauts from being able 
+
+to access a voting application.
+Assuring AccuracyHow would you assure the accuracy of a vote? The voting process must be examined 
+end to end, to make sure that what the voter intends is what is actually recorded in a 
+
+vote. One mechanism for such assurance is the production of an audit log. Here, some 

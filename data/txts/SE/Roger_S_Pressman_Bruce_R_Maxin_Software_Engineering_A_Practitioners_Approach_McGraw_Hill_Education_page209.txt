@@ -1,0 +1,57 @@
+CHAPTER 9  
+REQUIREMENTS MODELING: SCENARIO-BASED METHODS 179 
+ 
+In many cases, there is no need to create a graphical representation of a 
+usage scenario. However, diagrammatic representation can facilitate under-
+
+standing, particularly when the scenario is complex. As we noted earlier in this 
+
+book, UML does provide use case diagramming capability.  
+Figure 9.4  depicts 
+a preliminary use case diagram for the  SafeHome 
+ product. Each use case is 
+represented by an oval. Only the  ACS-DCV 
+ use case has been discussed in this 
+section. 
+  Every modeling notation has limitations, and the use case is no exception. Like any other form of written description, a use case is only as good as its author(s). 
+If the description is unclear, the use case can be misleading or ambiguous. A use 
+
+case focuses on function and behavioral requirements and is generally inappro-
+priate for nonfunctional requirements. For situations in which the requirements 
+model must have signiﬁ cant detail and precision (e.g., safety critical systems), a 
+use case may not be sufﬁ cient. 
+ However, scenario-based modeling is appropriate for a signiﬁ
+ cant majority of 
+all situations that you will encounter as a software engineer. If developed prop-
+
+erly, the use case can provide substantial beneﬁ
+ t as a modeling tool. 
+ 
+ 
+ 
+ 
+ 
+ 9.3 UML M
+ODELS THAT
+ SUPPLEMENT THE USE CASE  
+ 
+There are many requirements modeling situations in which a text-based model—even one as simple as a use case—may not impart information in a clear and con-
+cise manner. In such cases, you can choose from a broad array of UML graphical 
+
+models.  WebRef 
+ When are you ﬁ nished 
+writing use cases? For 
+a worthwhile discussion 
+
+of this topic, see 
+  ootips.org/use-cases-done.html  . 
+Home-ownerAccess camera surveillance via the 
+Internet
+Configure SafeHome system parametersSet alarm
+CamerasSafeHome  
+FIGURE 9.4 
+Preliminary 
+use case 
+ diagram for the  SafeHome 
+ system  
+ pre22126_ch09_166-183.indd   179pre22126_ch09_166-183.indd   17913/12/13   6:11 PM13/12/13   6:11 PM

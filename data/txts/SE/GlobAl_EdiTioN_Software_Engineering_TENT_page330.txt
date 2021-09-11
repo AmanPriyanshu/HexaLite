@@ -1,0 +1,44 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜start all over from the beginning. These copies are sometimes called checkpoints. 
+For example:1. In an e-commerce system, you can keep copies of forms filled in by a user and 
+allow them to access and submit these forms without having to fill them in again.2. In a long transaction or computationally intensive system, you can automatically 
+
+save data every few minutes and, in the event of a system failure, restart with the 
+
+most recently saved data. You should also allow for user error and provide a way 
+
+for users to go back to the most recent checkpoint and start again from there.If an exception occurs and it is impossible to continue normal operation, you can 
+handle the exception using backward error recovery. This means that you reset the state 
+
+of the system to the saved state in the checkpoint and restart operation from that point.All programming languages allow the specification of arraysŠsequential data struc-
+tures that are accessed using a numeric index. These arrays are usually laid out in 
+contiguous areas within the working memory of a program. Arrays are specified to 
+be of a particular size, which reflects how they are used. For example, if you wish to 
+represent the ages of up to 10,000 people, then you might declare an array with 
+
+10,000 locations to hold the age data.Some programming languages, such as Java, always check that when a value is 
+entered into an array, the index is within that array. So, if an array A is indexed from 0 to 
+
+10,000, an attempt to enter values into elements A [-5] or A [12345] will lead to an 
+
+exception being raised. However, programming languages such as C and C++ do not 
+
+automatically include array bound checks and simply calculate an offset from the begin-
+ning of the array. Therefore, A [12345] would access the word that was 12345 locations 
+
+from the beginning of the array, irrespective of whether or not this was part of the array.These languages do not include automatic array bound checking because this 
+introduces an overhead every time the array is accessed and so it increases program 
+execution time. However, the lack of bound checking leads to security vulnerabili
+-
+ties, such as buffer overflow, which I discuss in Chapter 13. More generally, it intro-
+duces a system vulnerability that can lead to system failure. If you are using a 
+
+language such as C or C++ that does not include array bound checking, you should 
+always include checks that the array index is within bounds.In distributed systems, components of the system execute on different computers, and 
+
+calls are made across the network from component to component. To receive some 
+
+service, component A may call component B. A waits for B to respond before con-
+tinuing execution. However, if component B fails to respond for some reason, then 
+
+component A cannot continue. It simply waits indefinitely for a response. A person 

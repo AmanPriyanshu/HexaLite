@@ -1,0 +1,72 @@
+618 Chapter 9  
+PrivacyOne form of data perturbation involves swapping data fields to prevent linking of 
+records. Swapping the condition values Erin and Geoff (but not the ID values) breaks 
+
+the linkage of Erin to diabetes. Other properties of the databases are preserved: Three 
+
+patients have actual names and three conditions accurately describe the patients. Swap-
+
+ping all data values can prevent useful analysis, but limited swapping balances privacy 
+
+and accuracy. With our example of swapping just Erin and Geoff, you still know that 
+
+one of the participants has diabetes, but you cannot know if Geoff (who now has ID
+1) has been swapped or not. In turn, if you cannot know if a value has been swapped, you 
+
+cannot assume that any such correlation you derive is true. 
+Of course, by destroying the links in the database, we also deny researchers the abil-
+ity to examine the data for other connections; for example, if the first table also con-
+
+tained age, researchers might want to analyze the data to see if age of patient correlates 
+
+with presence of diabetes. Our example of three data points is, of course, too small for a realistic data-mining 
+application, but we constructed it just to show how value swapping would be done. 
+
+A chance of one in three of correctly identifying the person with diabetes seems high 
+enough to convince some people that Geoff is the one. But a more realistic example 
+
+would involve a database of many thousands of data points, so the likelihood of a cor-
+
+rect inference becomes minuscule.Consider the more realistic example of larger databases. We might have addresses 
+instead of names, and the data mining’s purpose would be to determine if there is a 
+
+correlation between a neighborhood and an illness, such as measles. Swapping all 
+
+addresses would defeat the ability to draw any correct conclusions regarding neigh-
+
+borhood. Swapping a small but significant number of addresses would introduce 
+
+uncertainty to preserve privacy. Some measles patients might be swapped out of the 
+
+high-incidence neighborhoods, but other measles patients would also be swapped in. If 
+
+the neighborhood has a higher incidence than the general population, random swapping 
+
+would cause more losses than gains, thereby reducing the strength of the correlation. 
+
+After value swapping, an already weak correlation might become so weak as to be sta-
+
+tistically insignificant. But a previously strong correlation would still be significant, just 
+
+not as strong.Thus, value swapping is a tech-
+nique that can help balance goals 
+
+of privacy and accuracy under data 
+
+mining.Privacy for Aggregation
+Aggregation need not directly threaten privacy. As demonstrated in Chapter 7, an aggre-
+gate (such as sum, median, or count) often depends on so many data items that the sen-
+
+sitivity of any single contributing item is hidden. Government statistics show this well: 
+
+Census data, labor statistics, and school results show trends and patterns for groups (such 
+
+as a neighborhood or school district) but do not violate the privacy of any single person.
+As we also explained in Chapter 7, inference and aggregation attacks work better 
+nearer the ends of the distribution. If there are very few or very many points in a data-
+
+base subset, a small number of equations may disclose private data. The mean of one 
+Data swapping can help maintain 
+reasonable privacy while providing 
+
+usable data for research.

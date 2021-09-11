@@ -1,0 +1,66 @@
+ Section 5.1  Security in Operating Systems 
+287  • serially reusable I/O devices, such as printers and tape drives
+• sharable programs and subprocedures
+
+• networks
+
+• sharable data
+As it assumed responsibility for controlled sharing, the operating system had to pro-tect these objects. In the following sections, we look at some of the mechanisms with 
+
+which operating systems have enforced these objects’ protection. Many operating sys-
+
+tem protection mechanisms have been supported by hardware.
+We want to provide sharing for some of those objects. For example, two users with 
+different security levels may want to invoke the same search algorithm or function call. 
+
+We would like the users to be able to share the algorithms and functions without com-
+
+promising their individual security needs. 
+When we think about data, we realize that access can be controlled at various lev-
+els: the bit, the byte, the element or word, the field, the record, the file, or the volume. 
+
+Thus, the granularity of control concerns us. The larger the level of object controlled, 
+the easier it is to implement access control. However, sometimes the operating system 
+
+must allow access to more than the user needs. For example, with large objects, a user 
+
+needing access only to part of an object (such as a single record in a file) must be given 
+
+access to the entire object (the whole file).
+Operating System Design to Protect Objects
+Operating systems are not monolithic but are instead composed of many individual rou-
+tines. A well-structured operating system also implements several levels of function and 
+
+protection, from critical to cosmetic. This ordering is fine conceptually, but in practice, 
+
+specific functions span these layers. One way to visualize an operating system is in lay-
+
+ers, as shown in Figure 5-2. This figure shows functions arranged from most critical (at 
+
+the bottom) to least critical (at the top). When we say “critical,” we mean important to 
+
+security. So, in this figure, the functions are grouped in three categories: security kernel 
+
+(to enforce security), operating system kernel (to allocate primitive resources such as 
+
+time or access to hardware devices), and other operating system functions (to imple-
+
+ment the user’s interface to hardware). Above the operating system come system utility 
+
+functions and then the user’s applications. In this figure the layering is vertical; other 
+
+designers think of layering as concentric circles. The critical functions of controlling 
+
+hardware and enforcing security are said to be in lower or inner layers, and the less criti-
+
+cal functions in the upper or outer layers.Consider password authentication as an example of a security-relevant operating sys-
+tem activity. In fact, that activity includes several different operations, including (in no 
+
+particular order) displaying the box in which the user enters a password, receiving pass-
+
+word characters but echoing a character such as 
+*, comparing what the user enters to the stored password, checking that a user’s identity has been authenticated, or modifying 
+
+a user’s password in the system table. Changing the system password table is certainly 
+
+more critical to security than displaying a box for password entry, because changing the 

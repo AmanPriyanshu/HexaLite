@@ -1,0 +1,69 @@
+ Section 6.2  Threats to Network Communications 
+373  • what service applications respond, and what program and version they are 
+running• how long responses took (which reveals speed of various network connections 
+and thus may indicate the design of the network)
+For lazy attackers, Nmap even has an option by which it automatically generates a 
+specified number of random IP addresses and then scans those addresses. This point is 
+
+especially significant for computer security. If an attacker wants to exploit a vulnerabil-
+
+ity known in a particular version of some software, the attacker need not run the attack 
+
+repeatedly against many systems that run a different version—or even different soft-
+
+ware entirely. Instead, the attacker first runs an Nmap scan either picking, say, 10,000 
+
+addresses at random, or picking all addresses in a specified range, say, 100.200.*.*. 
+
+When Nmap returns its results from all these scans, the attacker can use a simple text 
+
+editor to select from the large output only those lines identifying the desired software 
+
+version.
+Harm from Port Scanning
+You might ask what harm comes of someone’s knowing machines and services; after 
+all, the reason the ports are open is to interchange data. A scanner is just picking up data 
+
+the machines voluntarily divulge.
+Think instead of two houses in a neighborhood a burglar is casing. She knows nothing 
+about the first house. As to the second house, she knows two people live there, their bed-
+
+room is on the upper floor. The couple have a dog, which sleeps in the basement behind a 
+
+closed door. They always leave a back window open slightly so the cat can get in and out. 
+
+And one of the occupants recently sprained his ankle, so he moves slowly and with some 
+
+pain. Clearly the second house is more attractive to the burglar, in part because she can 
+
+plan an attack that capitalizes on the known vulnerabilities in that house. Thus, unneces-
+
+sarily exposing characteristics of a computing system can be harmful. 
+Network and vulnerability scanners, of which Nmap is only one example, have two 
+purposes, one good and one bad. The good use is by network administrators or sys-
+
+tem owners who will explore their networks with the tool. The tool will report which 
+
+devices may be running out-of-date and vulnerable versions of software that should 
+
+be upgraded or which ports are unnecessarily exposed and should be closed. Admin-
+
+istrators of large networks may use a scanner to document and review all the devices 
+
+connected to the network (because new devices may be added to the network at any 
+
+time). But of course, as we have shown, the bad use of a network scanner is to allow an 
+
+attacker to learn about a system. (The law is not settled as to whether scanning comput-
+
+ers without permission is illegal.
+) Because of the importance of the good use, sound 
+commercial software companies continue to improve the uses and usability of network 
+
+scanners which, unfortunately, also supports the bad use.
+Port scans are difficult to classify. They certainly are a tool widely used by network 
+attackers as a first step in a more serious effort. Are they a vulnerability? No; the vul-
+
+nerability is in the amount and kind of information network administrators allow their 
+
+components to export to any program that asks. Are they a threat? Not really, because the 

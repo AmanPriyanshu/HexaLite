@@ -1,0 +1,127 @@
+40  
+ 
+ 
+ Process models were originally proposed to bring order to the chaos of software development. History has indicated that these models have 
+brought a certain amount of useful structure to software engineering work and have provided a reasonably effective road map for software teams. 
+However, software engineering work and the products that are produced re-
+
+main on “the edge of chaos.”   
+In an intriguing paper on the strange relationship between order and chaos in the software world, Nogueira and his colleagues [Nog00] state  
+The edge of chaos is deﬁ ned as “a natural state between order and chaos, a grand 
+compromise between structure and surprise.” [Kau95] The edge of chaos can be 
+visualized as an unstable, partially structured state . . . It is unstable because it is 
+constantly attracted to chaos or to absolute order. 
+  We have the tendency to think that order is the ideal state of nature. This 
+could be a mistake. Research . . . supports the theory that operation away from 
+equilibrium generates creativity, self-organized processes, and increasing re-
+
+turns [Roo96]. Absolute order means the absence of variability, which could be an 
+  
+ 
+KEY CONCEPTS     aspect-oriented software 
+development. . . . . . 54  
+
+    component-based 
+
+development. . . . . . 53  
+
+    concurrent models…49  
+
+    evolutionary process 
+
+model. . . . . . . . . . . 45  
+
+    formal methods 
+
+model. . . . . . . . . . . 53  
+
+    incremental process 
+
+models. . . . . . . . . . 43  
+
+    Personal Software 
+
+Process  . . . . . . . . . 59  
+
+    process modeling 
+
+tools  . . . . . . . . . . . 62  
+
+    process technology  . 61  
+
+    prototyping  . . . . . . 45  
+
+    spiral model  . . . . . . 47  
+
+    Team Software 
+
+Process  . . . . . . . . . 60  
+
+    uniﬁ
+ ed process  . . . . 55  
+    V-model. . . . . . . . . 42  
+
+    waterfall model  . . . 41  
+ PROCESS MODELS 4   
+ 
+ 
+CHAPTER 
+ 
+ 
+ 
+ 
+QUICK LOOK   
+What is it?   
+A process model pro-vides a speciﬁ c roadmap for soft-
+ware engineering work. It deﬁ nes 
+the ﬂ ow of all activities, actions and 
+tasks, the degree of iteration, the work prod-
+ucts, and the organization of the work that 
+must be done.   
+ 
+Who does it?   
+Software engineers and their managers adapt a process model to their 
+needs and then follow it. In addition, the peo-
+ple who have requested the software have a 
+role to play in the process of deﬁ ning, build-
+ing, and testing it.   
+ 
+Why is it important?
+   
+Because process pro-vides stability, control, and organization to an 
+
+activity that can, if left uncontrolled, become 
+
+quite chaotic. However, a modern software 
+
+engineering approach must be “agile.” It must 
+demand only those activities, controls, and 
+work products that are appropriate for the proj-
+ect team and the product that is to be produced. 
+  
+ 
+What are the steps?   
+The process model pro-vides you with the “steps” you’ll need to per-
+
+form disciplined software engineering work. 
+  
+ 
+What is the work product?
+   
+From the point of view of a software engineer, the work prod-
+
+uct is a customized description of the activities 
+and tasks deﬁ ned by the process. 
+  
+ 
+How do I ensure that I’ve done it right? 
+   
+There are a number of software process assess-ment mechanisms that enable organizations 
+to determine the “maturity” of their software 
+
+process. However, the quality, timeliness, and 
+
+long-term viability of the product you build are 
+
+the best indicators of the efﬁ cacy of the pro-
+cess that you use. pre22126_ch04_040-065.indd   40pre22126_ch04_040-065.indd   4013/12/13   6:10 PM13/12/13   6:10 PM

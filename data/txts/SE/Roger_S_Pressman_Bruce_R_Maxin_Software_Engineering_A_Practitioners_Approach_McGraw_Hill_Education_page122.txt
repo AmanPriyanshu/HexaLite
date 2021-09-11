@@ -1,0 +1,87 @@
+92 PART ONE  
+THE SOFTWARE PROCESS
+ 
+ 
+ 
+ 
+ 
+ 
+ 6.4 T
+EAM STRUCTURES    
+ 
+ 
+ 
+   
+The “best” team structure depends on the management style of your organiza-tion, the number of people who will populate the team and their skill levels, and 
+the overall problem difﬁ culty. Mantei [Man81] describes a number of project fac-
+tors that should be considered when planning the structure of software engi-
+neering teams: (1) difﬁ culty of the problem to be solved, (2) “size” of the resultant 
+program(s) in lines of code or function points,  3   (3) time that the team will stay 
+together (team lifetime), (4) degree to which the problem can be modularized, 
+required quality and reliability of the system to be built, (6) rigidity of the deliv-
+
+ery date, and (7) degree of sociability (communication) required for the project.  
+ 
+ 
+ 
+   
+Constantine [Con93] suggests four “organizational paradigms” for software engineering teams:  
+ 
+ 
+ 1.  A  closed paradigm 
+ structures a team along a traditional hierarchy of au-thority. Such teams can work well when producing software that is quite 
+
+similar to past efforts, but they will be less likely to be innovative when 
+working within the closed paradigm.    
+ 
+ 2.  A  random paradigm 
+ structures a team loosely and depends on individual initiative of the team members. When innovation or technological break-
+through is required, teams following the random paradigm will excel. But 
+such teams may struggle when “orderly performance” is required.    
+ 
+ 3.  An  open paradigm 
+ attempts to structure a team in a manner that achieves some of the controls associated with the closed paradigm but also much of 
+the innovation that occurs when using the random paradigm. Work is per-
+
+formed collaboratively, with heavy communication and consensus-based 
+
+decision making the trademarks of open paradigm teams. Open paradigm 
+team structures are well suited to the solution of complex problems but 
+may not perform as efﬁ ciently as other teams. 
+   
+ 
+ 4.  A  synchronous paradigm
+ 
+ relies on the natural compartmentalization of a problem and organizes team members to work on pieces of the problem 
+with little active communication among themselves.  
+ 
+ 
+  As a historical footnote, one of the earliest software team organizations was a closed paradigm structure originally called the  chief programmer team.
+ 
+ This 
+structure was ﬁ rst proposed by Harlan Mills and described by Baker [Bak72]. The 
+nucleus of the team was composed of a  senior engineer 
+ (the chief programmer), 
+who plans, coordinates, and reviews all technical activities of the team;  technical staff 
+ (normally two to ﬁ
+ ve people), who conduct analysis and development 
+ What 
+options do we have when 
+deﬁ ning the 
+structure of a 
+software team? ? What factors 
+
+should be considered when 
+the structure of a 
+software team is 
+chosen? ?  
+3  Lines of code (LOC) and function points are measures of the size of a computer program and 
+are discussed in Chapter 33.   uote:  “If you want to 
+be incrementally 
+better: Be 
+competitive. If 
+you want to be 
+exponentially 
+better: Be 
+cooperative.”  Author unknown 
+pre22126_ch06_087-102.indd   92pre22126_ch06_087-102.indd   9213/12/13   6:10 PM13/12/13   6:10 PM

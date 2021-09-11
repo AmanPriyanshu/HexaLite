@@ -1,0 +1,70 @@
+CHAPTER 5  
+AGILE DEVELOPMENT 69speciﬁ cation can be edited. The costs of doing this work are minimal, and the 
+time required will not adversely affect the outcome of the project. But what if we 
+fast-forward a number of months? The team is in the middle of validation testing 
+(something that occurs relatively late in the project), and an important stake-
+holder is requesting a major functional change. The change requires a modiﬁ -cation to the architectural design of the software, the design and construction 
+of three new components, modiﬁ cations to another ﬁ
+ ve components, the design 
+of new tests, and so on. Costs escalate quickly, and the time and cost required 
+
+to ensure that the change is made without unintended side effects is nontrivial.    
+ 
+ 
+ 
+ 
+Proponents of agility (e.g., [Bec00], [Amb04]) argue that a well-designed agile 
+process “ﬂ attens” the cost of change curve ( 
+Figure 5.1 , shaded, solid curve), allowing 
+a software team to accommodate changes late in a software project without dra-
+matic cost and time impact. You’ve already learned that the agile process encom-
+
+passes incremental delivery. When incremental delivery is coupled with other agile 
+
+practices such as continuous unit testing and pair programming (discussed later 
+
+in this chapter), the cost of making a change is attenuated. Although debate about 
+
+the degree to which the cost curve ﬂ attens is ongoing, there is evidence [Coc01a] to 
+suggest that a signiﬁ cant reduction in the cost of change can be achieved. 
+ 
+ 
+ 
+ 
+ 5.3 W
+HAT
+ IS AN   
+AGILE PROCESS 
+ 
+?  
+ 
+ 
+ 
+ 
+ 
+ 
+Any agile software process is characterized in a manner that addresses a num-ber of key assumptions [Fow02] about the majority of software projects:   
+ 
+ 1.  It is difﬁ cult to predict in advance which software requirements will per-
+sist and which will change. It is equally difﬁ cult to predict how customer 
+priorities will change as the project proceeds.     An agile process 
+reduces the cost 
+of change because 
+software is released in 
+increments and change 
+can be better controlled 
+within an increment.   uote:  “Agility is dynamic, 
+content speciﬁ c, 
+
+aggressively 
+change embracing, 
+and growth 
+oriented.”  Steven Goldman 
+et al. Cost of changeusing conventional
+software processesCost of changeusing agile processesIdealized cost of changeusing agile processDevelopment schedule progress
+Development cost  
+FIGURE 5.1 
+Change costs as a function 
+of time in 
+development  
+ pre22126_ch05_066-086.indd   69pre22126_ch05_066-086.indd   6913/12/13   6:10 PM13/12/13   6:10 PM

@@ -1,0 +1,58 @@
+156 PART TWO  
+MODELINGone another and the relationships and interactions between classes. These are discussed in more detail in Chapter 10.   
+ 
+ 
+Behavioral elements.   The behavior of a computer-based system can have a pro-
+found effect on the design that is chosen and the implementation approach that 
+is applied. Therefore, the requirements model must provide modeling elements 
+that depict behavior. 
+ The  state diagram 
+ is one method for representing the behavior of a system by 
+depicting its states and the events that cause the system to change state. A  state 
+ is any observable mode of behavior. In addition, the state diagram indicates what 
+
+actions (e.g., process activation) are taken as a consequence of a particular event.   
+ 
+ 
+ 
+ 
+To illustrate the use of a state diagram, consider software embedded within 
+the  SafeHome 
+ control panel that is responsible for reading user input. A simpli-
+ﬁ ed UML state diagram is shown in  
+Figure 8.5 .   In addition to behavioral representations of the system as a whole, the behav-ior of individual classes can also be modeled. Further discussion of behavioral 
+modeling is presented in Chapter 11.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    A state is an 
+ externally observable 
+
+mode of behavior. 
+
+External  stimuli cause 
+
+ transitions between 
+
+states. NameType
+
+Location
+Area
+CharacteristicsIdentify()
+Enable()
+Disable()
+Reconfigure()Sensor  
+FIGURE 8.4 
+Class diagram for sensor  
+ System status = "Ready"Display msg = "enter cmd"
+Display status = steadyState nameState variablesState activitiesEntry/subsystems ready
+Do: poll user input panel
+Do: read user input
+Do: interpret user inputReadingcommands  
+FIGURE 8.5 
+UML state  diagram notation  
+ pre22126_ch08_131-165.indd   156pre22126_ch08_131-165.indd   15613/12/13   6:11 PM13/12/13   6:11 PM

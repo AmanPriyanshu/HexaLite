@@ -1,0 +1,74 @@
+ Section 2.1  Authentication 
+59  authentication, a current set of measurements is taken and compared to the template. The 
+current sample need not exactly match the template, however. Authentication succeeds 
+
+if the match is “close enough,” meaning it is within a predefined tolerance, for example, 
+
+if 90 percent of the values match or if each parameter is within 5 percent of its expected 
+
+value. Measuring, comparing, and assessing closeness for the match takes time, cer-
+
+tainly longer than the “exact match 
+
+or not” comparison for passwords. 
+
+(Consider the result described in 
+
+Sidebar 2-8.) Therefore, the speed 
+
+and accuracy of biometrics is a fac-
+
+tor in determining their suitability 
+
+for a particular environment of use.
+Remember that identification is stating an identity, whereas authentication is con-
+firming the identity, as depicted in Figure 2-5. Biometrics are reliable for authentication 
+
+but are much less reliable for identification. The reason is mathematical. All biometric 
+
+readers operate in two phases. First, a user registers with the reader, during which time 
+
+a characteristic of the user (for example, the geometry of the hand) is captured and 
+
+reduced to a set of data points. During registration, the user may be asked to present 
+
+the hand several times so that the registration software can adjust for variations, such 
+
+as how the hand is positioned. Registration produces a pattern, called a 
+template, of SIDEBAR 2-7 Biometric Forgeries
+The most famous fake was an artificial fingerprint produced by researchers 
+in Japan using cheap and readily available gelatin. The researchers used 
+
+molds made by pressing live fingers against them or by processing finger-
+
+print images from prints on glass surfaces. The resulting “gummy fingers” 
+
+were frequently accepted by 11 particular fingerprint devices with optical 
+
+or capacitive sensors. [MAT02]
+According to another story from BBC news (13 Mar 2013) a doctor 
+in Brazil was caught with sixteen fingers: ten authentic and six made of 
+
+silicone that she used to log in to the hospital’s time-card system on behalf 
+
+of fellow doctors.In a study published in 2014 [BOW14], researchers looked at whether 
+contact lenses can be used to fool authentication devices that look at the 
+pattern of the iris (the colored ring of the eye). The goal of the research was 
+
+to determine whether iris recognition systems reliably detect true positives; 
+
+that is, whether a subject will be reliably authenticated by the system. The 
+
+researchers demonstrated that tinted contact lenses can fool the system 
+
+into denying a match when one really exists. A subject might apply con-
+
+tact lenses in order to not be noticed as a wanted criminal, for example. 
+
+Although difficult and uncommon, forgery will be an issue whenever the 
+
+reward for a false result is high enough.
+Biometric matches are not exact; 
+the issue is whether the rate of 
+false positives and false negatives is 
+acceptable.

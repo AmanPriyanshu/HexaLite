@@ -1,0 +1,37 @@
+206 Chapter 3  
+Programs and ProgrammingEncapsulation Encapsulation hides a component’s implementation details, but it does not necessarily 
+
+mean complete isolation. Many components must share information with other compo-
+
+nents, usually with good reason. However, this sharing is carefully documented so that a 
+
+component is affected only in known ways by other components in the system. Sharing 
+
+is minimized so that the fewest interfaces possible are used.
+An encapsulated component’s protective boundary can be translucent or transparent, 
+as needed. Berard [BER00] notes that encapsulation is the “technique for packaging the 
+information [inside a component] in such a way as to hide what should be hidden and 
+
+make visible what is intended to be visible.”
+Information Hiding Developers who work where modularization is stressed can be sure that other components 
+
+will have limited effect on the ones they write. Thus, we can think of a component as a kind 
+
+of black box, with certain well-defined inputs and outputs and a well-defined function. 
+
+Other components’ designers do not 
+
+need to know how the module com-
+
+pletes its function; it is enough to be 
+
+assured that the component performs 
+
+its task in some correct manner.
+This concealment is the information hiding, depicted in Figure 3-28. Information 
+hiding is desirable, because malicious developers cannot easily alter the components of 
+
+others if they do not know how the components work.
+Tight Coupling
+Independent, LooselyCoupled ModulesModule 1 Module 2 Module 3 Module 1 Module 2 Module 3 Module 4 Module 5 FIGURE 3-27 Types of Coupling
+Information hiding: describing what a module does, not howAccess to all parts of moduleMethod, data hiddenFIGURE 3-28 Information Hiding

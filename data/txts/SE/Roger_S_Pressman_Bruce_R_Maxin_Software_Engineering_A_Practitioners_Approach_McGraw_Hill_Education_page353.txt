@@ -1,0 +1,80 @@
+CHAPTER 15  
+USER INTERFACE DESIGN
+ 323implementers of the system create an  implementation model 
+. Unfortunately, each 
+of these models may differ signiﬁ cantly. Your role, as an interface designer, is to 
+reconcile these differences and derive a consistent representation of the interface. 
+  The user model establishes the proﬁ le of end users of the system. In his intro-
+ductory column on “user-centric design,” Jeff Patton [Pat07] notes:
+  
+The truth is, designers and developers—myself included—often think about users. However, in the absence of a strong mental model of speciﬁ
+ c users, we self-substitute. 
+Self-substitution isn’t user centric—it’s self-centric. 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+To build an effective user interface, “all design should begin with an under-
+standing of the intended users, including proﬁ les of their age, gender, physical 
+abilities, education, cultural or ethnic background, motivation, goals and person-
+ality” [Shn04]. In addition, users can be categorized as novices, knowledgeable, 
+intermittent users, or knowledgeable frequent users.  The user’s  
+mental model 
+ (system perception) is the image of the system that 
+end users carry in their heads. For example, if the user of a mobile app that rates 
+restaurants were asked to describe its operation, the system perception would 
+guide the response. The accuracy of the description will depend on the user’s 
+
+proﬁ le (e.g., novices would provide a sketchy response at best) and overall famil-
+iarity with software in the application domain. A user who understands restau-
+rant rating apps fully but has worked with the speciﬁ c app only a few times might 
+actually be able to provide a more complete description of its function than the 
+novice who has spent days trying to apply the app effectively. 
+  The  implementation model 
+ combines the outward manifestation of the com-
+puter-based system (the look and feel of the interface), coupled with all support-
+
+ing information (books, manuals, videotapes, help ﬁ les) that describes interface 
+syntax and semantics. When the implementation model and the user’s mental 
+
+model are coincident, users generally feel comfortable with the software and 
+use it effectively. To accomplish this “melding” of the models, the design model 
+
+must have been developed to accommodate the information contained in the 
+user model, and the implementation model must accurately reﬂ ect syntactic and 
+semantic information about the interface.   
+ 
+15.2.2  The Process 
+ 
+ 
+ 
+ 
+  
+The analysis and design process for user interfaces is iterative and can be repre-sented using a spiral model similar to the one discussed in Chapter 4. Referring to 
+
+ Figure 15.1 , the user interface analysis and design process begins at the interior of the 
+spiral and encompasses four distinct framework activities [Man97]: (1) interface anal-
+ysis and modeling, (2) interface design, (3) interface construction, and (4) interface 
+
+validation. The spiral shown in  Figure 15.1  implies that each of these tasks will occur 
+more than once, with each pass around the spiral representing additional elabora-
+tion of requirements and the resultant design. In most cases, the construction activity 
+
+involves prototyping—the only practical way to validate what has been designed. 
+    Even a novice user 
+wants shortcuts; even 
+
+knowledgeable, fre-
+quent users sometimes 
+need guidance. Give 
+them what they need.   uote:  “If there’s a ‘trick’ 
+to it, the UI is 
+broken.”  Douglas 
+Anderson   uote:  “[P]ay attention to 
+what users do, not 
+what they say.” 
+ Jakob Nielsen 
+pre22126_ch15_317-346.indd   323pre22126_ch15_317-346.indd   32313/12/13   10:01 PM13/12/13   10:01 PM

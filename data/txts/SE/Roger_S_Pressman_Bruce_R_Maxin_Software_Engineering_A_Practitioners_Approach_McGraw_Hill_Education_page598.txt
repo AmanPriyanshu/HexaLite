@@ -1,0 +1,82 @@
+568 PART THREE  
+QUALITY MANAGEMENT(Chapter 20) and test usability (Chapter 15), as well as performance. Conﬁ gura-
+tion testing is especially important as a mechanism for verifying the MobileApp’s 
+
+ability to take context into account. The intent is to uncover and correct errors 
+before the MobileApp is released to the end-user community. 
+ There are several important questions to ask when creating a MobileApp test-ing strategy [Sch09].   
+ 
+ 
+•  Do you have to build a fully functional prototype before you test with users? 
+  
+ 
+ 
+•  Should you test with the user’s device or provide a device for testing? 
+  
+ 
+ 
+•  What devices and user groups should you include in testing?   
+ 
+ 
+•  What are the beneﬁ ts/drawbacks of lab testing versus remote testing? 
+   
+We address each of these questions throughout this chapter. 
+ 
+ 
+ 
+ 26.1  
+TESTING GUIDELINES  
+ 
+MobileApps that execute entirely on a mobile device can be tested using  traditional software testing methods (Chapter 23) or using emulators running on personal computers. On the other hand, thin-client MobileApps that make 
+use of server-based resources are particularly challenging to test. In addition to 
+
+many of the testing challenges presented by WebApps (Chapter 25), the testing 
+
+of thin-client MobileApps must also consider transmission of data through Inter-
+
+net gateways and telephone networks [Was10]. Users expect MobileApps to be 
+
+context aware and deliver personalized user experiences based on the physical 
+location of a device in relation to available network features. But testing Mobile-
+Apps in a dynamic ad hoc network environment using every possible device and 
+network conﬁ guration is difﬁ
+ cult, if not impossible. 
+  
+ 
+ 
+ 
+ 
+To understand the objectives of MobileApp testing, you should consider the 
+many unique challenges facing app designers. MobileApps are expected to de-
+liver much of the complex functionality and reliability found in PC-based ap-
+plications, but they are resident on mobile platforms with relatively limited 
+resources. The following guidelines provide a basis for mobile application test-
+ing [Kea07]:  
+ 
+ 
+•   
+Understand the network and device landscape before testing to identify 
+bottlenecks. 
+ Testing across borders is discussed in Section 26.4. 
+  
+ 
+ 
+•   
+Conduct tests in uncontrolled real-world test conditions
+ 
+ (ﬁ eld-based test-
+ing), especially for a multitier mobile application. Testing in the produc-
+
+tion environment is discussed in Section 26.2.5.   
+ 
+ 
+•   
+Select the right automation test tool. 
+ Ideally, the tool should support all 
+desired platforms, allow testing for various screen types, resolutions, 
+and input mechanisms—such as touchpad and keypad, and implement    Involve users as early 
+as possible in the 
+testing cycle—early 
+feedback helps in 
+design correction. 
+pre22126_ch26_567-583.indd   568pre22126_ch26_567-583.indd   56813/12/13   6:15 PM13/12/13   6:15 PM

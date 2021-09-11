@@ -1,0 +1,116 @@
+82 PART ONE  
+THE SOFTWARE PROCESS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Know the models and the tools you use to create them. 
+ 
+  
+Understand the strengths and weaknesses of each model and the tools that are used to create it.    
+ 
+ 
+ 
+ 
+ 
+Adapt locally.
+ 
+ 
+  
+The modeling approach should be adapted to the needs of the agile team.    
+ 
+ 
+ 
+ 
+ 
+A major segment of the software engineering community has adopted the Uniﬁ ed Modeling Language (UML) 
+ 11 
+ 
+ as the preferred method for representing 
+analysis and design models. The Uniﬁ ed Process (Chapter 4) has been devel-
+oped to provide a framework for the application of UML. Scott Ambler [Amb06] 
+has developed a simpliﬁ ed version of the UP that integrates his agile modeling 
+philosophy. 
+  
+ 
+ 
+ 
+ 
+5.5.4 Agile Uniﬁ
+ ed Process 
+ 
+ 
+ 
+The  Agile Uniﬁ
+ ed Process
+ 
+ (AUP) adopts a “serial in the large” and “iterative in 
+the small” [Amb06] philosophy for building computer-based systems. By adopt-
+
+ing the classic UP phased activities—inception, elaboration, construction, and 
+transition—AUP provides a serial overlay (i.e., a linear sequence of software 
+engineering activities) that enables a team to visualize the overall process ﬂ ow 
+for a software project. However, within each of the activities, the team iterates 
+
+to achieve agility and to deliver meaningful software increments to end users 
+as rapidly as possible. Each AUP iteration addresses the following activities 
+[Amb06]:  
+ 
+ 
+• 
+ 
+   
+Modeling. 
+ UML representations of the business and problem domains are created. However, to stay agile, these models should be “just barely good 
+
+enough” [Amb06] to allow the team to proceed.   
+ 
+ 
+• 
+ 
+   
+Implementation. 
+ Models are translated into source code.   
+ 
+ 
+• 
+ 
+   
+Testing.
+ 
+ Like XP, the team designs and executes a series of tests to un-
+cover errors and ensure that the source code meets its requirements.   
+ 
+ 
+• 
+ 
+   
+Deployment. 
+ Like the generic process activity discussed in Chapters 3, deployment in this context focuses on the delivery of a software increment 
+and the acquisition of feedback from end users.   
+ 
+ 
+• 
+ 
+   
+Conﬁ guration and project management.
+ 
+ In the context of AUP, conﬁ
+ gu-
+ration management (Chapter 29) addresses change management, risk 
+management, and the control of any persistent work products  12 
+ 
+ that are produced by the team. Project management tracks and controls the prog-
+ress of the team and coordinates team activities.   
+ 
+11  A brief tutorial on UML is presented in Appendix 1. 
+  
+12  A  
+persistent work product
+ 
+ is a model or document or test case produced by the team that will be 
+kept for an indeterminate period of time. It will  not 
+ be discarded once the software increment is delivered. pre22126_ch05_066-086.indd   82pre22126_ch05_066-086.indd   8213/12/13   6:10 PM13/12/13   6:10 PM

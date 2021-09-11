@@ -1,0 +1,59 @@
+734 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+where  d 
+ is one of a number of estimated values (e.g., effort, cost, project duration) 
+and  v 
+ i 
+ are selected independent parameters (e.g., estimated LOC or FP).  Automated estimation tools implement one or more decomposition tech-niques or empirical models and provide an attractive option for estimating. In 
+such systems, the characteristics of the development organization (e.g., expe-
+rience, environment) and the software to be developed are described. Cost and 
+effort estimates are derived from these data.  Each of the viable software cost estimation options is only as good as the his-torical data used to seed the estimate. If no historical data exist, costing rests on 
+a very shaky foundation. In Chapter 32, we examined the characteristics of some 
+of the software metrics that provide the basis for historical estimation data.   
+ 
+ 
+ 
+ 33.6  
+DECOMPOSITION TECHNIQUES  
+ 
+Software project estimation is a form of problem solving, and in most cases, the problem to be solved (i.e., developing a cost and effort estimate for a software 
+project) is too complex to be considered in one piece. For this reason, you should 
+decompose the problem, recharacterizing it as a set of smaller (and hopefully, 
+
+more manageable) problems.  In Chapter 31, the decomposition approach was discussed from two different points of view: decomposition of the problem and decomposition of the process. 
+Estimation uses one or both forms of partitioning. But before an estimate can be 
+made, you must understand the scope of the software to be built and generate an 
+estimate of its “size.”   
+ 
+ 
+ 
+ 
+ 
+ 
+33.6.1   
+Software Sizing 
+ 
+The accuracy of a software project estimate is predicated on a number of things: (1) the degree to which you have properly estimated the size of the product to 
+be built; (2) the ability to translate the size estimate into human effort, calendar 
+time, and dollars (a function of the availability of reliable software metrics from 
+past projects); (3) the degree to which the project plan reﬂ ects the abilities of the 
+software team; and (4) the stability of product requirements and the environment 
+that supports the software engineering effort.  Because a project estimate is only as good as the estimate of the size of the work to be accomplished,  software sizing
+ 
+ represents your ﬁ
+ rst major challenge 
+as a planner. In the context of project planning, size refers to a quantiﬁ
+ able out-
+come of the software project. If a direct approach is taken, size can be measured 
+in lines of code (LOC). If an indirect approach is chosen, size is represented as 
+function points (FP). Size can be estimated by considering the type of project and 
+its application domain, the functionality delivered (i.e., the number of function 
+points), the number of components to be delivered, the degree to which a set of 
+existing components must be modiﬁ ed for the new system. 
+   The “size” of software 
+to be built can be es-
+timated using a direct 
+measure, LOC, or an 
+indirect measure, FP. 
+pre22126_ch33_727-753.indd   734pre22126_ch33_727-753.indd   73413/12/13   6:17 PM13/12/13   6:17 PM

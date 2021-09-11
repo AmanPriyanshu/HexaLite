@@ -1,0 +1,98 @@
+CHAPTER 25  
+TESTING WEB APPLICATIONS
+ 553 
+ 
+ 
+ 
+ 
+ 
+ 
+Readability 
+—Is text well written and understandable?  9 
+ 
+ Are graphic repre-sentations easy to understand?    
+ 
+ 
+ 
+ 
+ 
+Aesthetics 
+—Do layout, color, typeface, and related characteristics lead to 
+ease of use? Do users “feel comfortable” with the look and feel of the WebApp? 
+   
+ 
+ 
+ 
+ 
+ 
+Display characteristics 
+—Does the WebApp make optimal use of screen size 
+and resolution?    
+ 
+ 
+ 
+ 
+ 
+Time sensitivity
+ 
+—Can important features, functions, and content be used or acquired in a timely manner?    
+ 
+ 
+ 
+ 
+ 
+Personalization 
+—Does the WebApp tailor itself to the speciﬁ
+ c needs of differ-
+ent user categories or individual users?    
+ 
+ 
+ 
+ 
+ 
+Accessibility 
+—Is the WebApp accessible to people who have disabilities? 
+   
+ 
+ 
+ 
+ 
+A series of tests is designed within each of these categories. In some cases, the 
+“test” may be a visual review of a Web page. In other cases interface semantics tests 
+
+may be executed again, but in this instance usability concerns are paramount. 
+   
+As an example, we consider usability assessment for interaction and interface mechanisms. Constantine and Lockwood [Con99] suggest that the following list 
+of interface features should be reviewed and tested for usability: animation, but-
+tons, color, control, dialogue, ﬁ
+ elds, forms, frames, graphics, labels, links, menus, 
+messages, navigation, pages, selectors, text, and tool bars. As each feature is as-
+sessed, it is graded on a qualitative scale by the users who are doing the testing. 
+ Figure 25.3  depicts a possible set of assessment “grades” that can be selected by 
+users. These grades are applied to each feature individually, to a complete Web 
+
+page, or to the WebApp as a whole. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+FIGURE 25.3 
+Qualitative assessment of 
+usabilityEase of useEasy to learn
+EffectiveSimpleSomewhat ambiguousConfusingGenerally uniform
+PredictablePredictabilityEase of understandingAwkward
+Difficult to learn
+Informative
+ClearMisleadingInconsistentLacking uniformity
+  
+ 
+ 
+ 
+9  The FOG Readability Index and others may be used to provide a quantitative assessment of read-
+ability See  http://developer.gnome.org/gdp-style-guide/stable/usability-readability.html.en
+ for more details.pre22126_ch25_540-566.indd   553pre22126_ch25_540-566.indd   55313/12/13   6:15 PM13/12/13   6:15 PM

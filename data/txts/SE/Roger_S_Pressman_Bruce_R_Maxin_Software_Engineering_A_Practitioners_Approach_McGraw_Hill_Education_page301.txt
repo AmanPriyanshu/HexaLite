@@ -1,0 +1,59 @@
+CHAPTER 13  
+ARCHITECTURAL DESIGN 271 
+Continuing the  SafeHome 
+ home security function example, you might deﬁ
+ ne 
+the set of top-level components that address the following functionality:  
+ 
+ 
+•   
+External communication management —coordinates communication of the security function with external entities such as other Internet-based 
+systems and external alarm notiﬁ cation. 
+  
+ 
+ 
+•   
+Control panel processing
+ 
+—manages all control panel functionality. 
+  
+ 
+ 
+•   
+Detector management —coordinates access to all detectors attached to the system.   
+ 
+ 
+•   
+Alarm processing
+ 
+—veriﬁ es and acts on all alarm conditions. 
+   
+ 
+Each of these top-level components would have to be elaborated iteratively and then positioned within the overall  SafeHome 
+ architecture. Design classes 
+(with appropriate attributes and operations) would be deﬁ ned for each. It is im-
+portant to note, however, that the design details of all attributes and operations 
+
+would not be speciﬁ ed until component-level design ( 
+Chapter 14 ).  The overall architectural structure (represented as a UML component dia-gram) is illustrated in  Figure 13.8 . Transactions are acquired by  
+external com-munication management 
+ as they move in from components that process the 
+ SafeHome 
+ GUI and the Internet interface. This information is managed by a 
+ SafeHome 
+ executive component that selects the appropriate product function 
+(in this case security). The  control panel processing
+ 
+ component interacts with 
+the homeowner to arm/disarm the security function. The  detector management 
+ SafeHome executiveExternal 
+communicationmanagement GUI Internet
+interface
+Function selectionSecuritySurveillance
+HomemanagementControl panel processingDetectormanagementAlarm
+processing-  
+FIGURE 13.8 
+Overall architectural structure for  
+SafeHome 
+ with top-level components  
+ pre22126_ch13_252-284.indd   271pre22126_ch13_252-284.indd   27113/12/13   6:12 PM13/12/13   6:12 PM

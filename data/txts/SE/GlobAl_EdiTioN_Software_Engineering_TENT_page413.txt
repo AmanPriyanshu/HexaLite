@@ -1,0 +1,30 @@
+˜˜˚˛˜˜˜˜˜˜
+In Chapter 13, where I discussed security engineering, I introduced concepts that are fundamental to resilience planning. Some of these concepts are:1. Assets, which are systems and data that have to be protected. Some assets are more valuable than others and so require a higher level of protection.2. Threats, which are circumstances that can cause harm by damaging or stealing organizational IT infrastructure or system assets.3. Attacks, which are manifestations of a threat where an attacker aims to damage or steal IT assets, such as websites or personal data.Three types of threats have to be considered in resilience planning:1. Threats to the confidentiality of assets 
+In this case, data is not damaged, but it is 
+made available to people who should not have access to it. An example of a 
+
+threat to confidentiality is when a credit card database held by a company is 
+
+stolen, with the potential for illegal use of card information.2. Threats to the integrity of assets These are threats where systems or data are 
+
+damaged in some way by a cyberattack. This may involve introducing a virus or 
+
+a worm into software or corrupting organizational databases.3. Threats to the availability of assets 
+These are threats that aim to deny use of 
+
+assets by authorized users. The best-known example is a denial-of-service attack 
+that aims to take down a website and so make it unavailable for external use.These are not independent threat classes. An attacker may compromise the integ-rity of a user™s system by introducing malware, such as a botnet component. This 
+
+may then be invoked remotely as part of a distributed denial-of-service attack on 
+
+another system. Other types of malware may be used to capture personal details and 
+so allow confidential assets to be accessed.To counter these threats, organizations should put controls in place that make it 
+difficult for attackers to access or damage assets. It is also important to raise aware-
+ness of cybersecurity issues so that people know why these controls are important 
+
+and so are less likely to reveal information to an attacker.Examples of controls that may be used are:1. Authentication, where users of a system have to show that they are authorized to access the system. The familiar login/password approach to authentication is a 
+universally used but rather weak control.2. Encryption, where data is algorithmically scrambled so that an unauthorized 
+reader cannot access the information. Many companies now require that laptop 
+disks are encrypted. If the computer is lost or stolen, this reduces the likelihood 
+that the confidentiality of the information will be breached.3. Firewalls, where incoming network packets are examined, then accepted or 
+rejected according to a set of organizational rules. Firewalls can be used to 

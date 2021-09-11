@@ -1,0 +1,39 @@
+˜˜˚˛˜˜˜˜˜˜˜
+2. Process standards 
+These define the processes that should be followed during 
+software development. They should encapsulate good development practice. 
+
+Process standards may include definitions of specification, design, and valida
+-
+tion processes, process support tools, and a description of the documents that 
+
+should be written during these processes.Examples of product and process standards that may be used are shown in 
+Figure 24.4.
+Standards have to deliver value, in the form of increased product quality. There is no 
+point in defining standards that are expensive in terms of time and effort to apply that only 
+
+lead to marginal improvements in quality. Product standards have to be designed so that 
+
+they can be applied and checked in a cost-effective way, and process standards should 
+
+include the definition of processes that check if product standards have been followed.The software engineering standards that are used within a company are usually adapted from broader national or international standards. National and international 
+standards have been developed covering software engineering terminology, pro-
+gramming languages such as Java and C++, notations such as charting symbols, 
+
+procedures for deriving and writing software requirements, quality assurance proce-
+dures, and software verification and validation processes (IEEE 2003). More spe-
+cialized standards have been developed for safety and security critical systems.Software engineers sometimes consider standards to be overprescriptive and 
+irrelevant to the technical activity of software development. This is particularly 
+
+likely when project standards require tedious documentation and work recording. 
+
+Although they usually agree about the general need for standards, engineers often 
+find good reasons why standards are not necessarily appropriate to their particular 
+project. Quality managers who set the standards should therefore consider possible 
+actions to convince engineers of the value of standards:1. Involve software engineers in the selection of product standards If developers understand why standards have been selected, they are more likely to be com-
+mitted to these standards. Ideally, the standards document should not just set out 
+
+the standard to be followed but should also include commentary explaining why 
+
+standardization decisions have been made.Product standardsProcess standardsDesign review formDesign review conductRequirements document structureSubmission of new code for system building
+Method header formatVersion release processJava programming styleProject plan approval processProject plan formatChange control processChange request formTest recording processFigure 24.4 Product and process standards

@@ -1,0 +1,39 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜relationships. The need for tight integration (data and operations) and loose cou
+-pling was the driver for the development of object-oriented software engineering.Unfortunately, controlling the number and types of relationship is practically 
+impossible in large systems, especially systems of systems. Reductionism does not 
+work well when there are many relationships in a system and when these relation-
+ships are difficult to understand and analyze. Therefore, any type of large system 
+
+development is likely to run into difficulties.The reasons for these potential difficulties are that the fundamental assumptions 
+inherent to reductionism are inapplicable for large and complex systems (Sommerville 
+
+et al. 2012). These assumptions are shown in Figure 20.5 and apply in three areas:1. System ownership and control Reductionism assumes that there is a controlling authority for a system that can resolve disputes and make high-level technical 
+decisions that will apply across the system. As we have seen, because there are 
+multiple bodies involved in their governance, this is simply not true for systems 
+of systems.2. Rational decision making Reductionism assumes that interactions between com-
+ponents can be objectively assessed by, for example, mathematical model- ing. These assessments are the driver for system decision making. Therefore, if 
+
+one particular design of a vehicle, say, offers the best fuel economy without a 
+
+reduction in power, then a reductionist approach assumes that this will be the 
+
+design chosen.3. Defined system boundaries Reductionism assumes that the boundaries of a sys-
+tem can be agreed to and defined. This is often straightforward: There may be a 
+physical shell defining the system as in a car, a bridge has to cross a given 
+
+stretch of water, and so on. Complex systems are often developed to address 
+
+wicked problems (Rittel and Webber 1973). For such problems, deciding on 
+
+what is part of the system and what is outside it is usually a subjective judgment, 
+
+with frequent disagreements between the stakeholders involved.Reductionist assumptionsOwners of a system control its developmentDecisions are made rationally, driven 
+by technical criteriaThere is a definable 
+problem and clear system boundariesThere is no single 
+system owner or controllerDecision making driven by political motivesWicked problem with
+constantly renegotiated system boundariesControlDecision makingProblem definitionSystems of systems reality
+Figure 20.5  Reductionist 
+assumptions 
+and˜complex 
+system reality 

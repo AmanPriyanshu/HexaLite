@@ -1,0 +1,78 @@
+802 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 36.5  
+SOFTWARE
+ REENGINEERING  
+ 
+The scenario is all too common: An application has served the business needs of a company for 10 or 15 years. During that time it has been corrected, adapted, 
+and enhanced many times. People approached this work with the best inten-
+tions, but good software engineering practices were always shunted to the side 
+(due to the urgency of other matters). Now the application is unstable. It still 
+works, but every time a change is attempted, unexpected and serious side effects 
+occur. Yet the application must continue to evolve. What to do? 
+ Unmaintainable software is not a new problem. In fact, the broadening em-phasis on software reengineering has been spawned by software maintenance 
+problems that have been building for almost half a century. 
+  
+ 
+36.5.1   
+A Software Reengineering Process Model 
+ 
+Reengineering takes time, it costs signiﬁ cant amounts of money, and it absorbs 
+resources that might be otherwise occupied on immediate concerns. For all of 
+these reasons, reengineering is not accomplished in a few months or even a few 
+years. Reengineering of information systems is an activity that will absorb in-
+formation technology resources for many years. That’s why every organization 
+
+needs a pragmatic strategy for software reengineering.   
+ 
+ 
+ 
+ 
+A workable strategy is encompassed in a reengineering process model. We’ll 
+discuss the model later in this section, but ﬁ rst, some basic principles. 
+ Reengineering is a rebuilding activity. To better understand it, consider an 
+analogous activity: the rebuilding of a house. Consider the following situation. 
+You’ve purchased a house in another state. You’ve never actually seen the prop-
+
+erty, but you acquired it at an amazingly low price, with the warning that it might 
+
+have to be completely rebuilt. How would you proceed?   
+ 
+ 
+•  Before you can start rebuilding, it would seem reasonable to inspect the house. To determine whether it is in need of rebuilding, you (or a pro-
+
+fessional inspector) would create a list of criteria so that your inspection 
+would be systematic.   
+ 
+ 
+•  Before you tear down and rebuild the entire house, be sure that the struc-ture is weak. If the house is structurally sound, it may be possible to “re-
+model” without rebuilding (at much lower cost and in much less time).   
+ 
+ 
+•  Before you start rebuilding be sure you understand how the original was built. Take a peek behind the walls. Understand the wiring, the plumbing, 
+
+and the structural internals. Even if you trash them all, the insight you’ll 
+gain will serve you well when you start construction.   
+ 
+ 
+•  If you begin to rebuild, use only the most modern, long-lasting materials. This may cost a bit more now, but it will help you to avoid expensive and 
+
+time-consuming maintenance later. 
+  
+WebRef 
+ An excellent source 
+of information on 
+
+software reengineering 
+can be found at 
+  
+reengineer .org 
+ . 
+pre22126_ch36_795-816.indd   802pre22126_ch36_795-816.indd   80213/12/13   6:17 PM13/12/13   6:17 PM

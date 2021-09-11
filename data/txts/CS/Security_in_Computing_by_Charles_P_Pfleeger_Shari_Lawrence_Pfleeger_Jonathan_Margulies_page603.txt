@@ -1,0 +1,73 @@
+ Section 8.4  Cloud Identity Management 
+569  them all, along with which users have or need accounts with which providers, can be 
+a logistical nightmare. One strong advantage of cloud computing is that responsibility 
+
+for managing a computing operation is transferred to the cloud provider. However, with 
+
+that transfer comes a temptation to ignore or forget the need for identity management 
+
+that only the organization can provide.
+If having users create an individual account is a poor option, then having a shared 
+account for a whole organization is a worse one. Having multiple users sharing a single 
+
+password greatly increases the odds of that password being stolen. Worse, in the case 
+
+of user misbehavior, discerning who did what with which data is impossible. Worst of 
+
+all, the password must be changed every time a user leaves the organization or changes 
+
+roles, since that is the only way to prevent a formerly authorized user from continuing 
+
+to access the account.The solution to these problems is a concept called federated identity manage-ment (FIdM, which we introduce in Chapter 2). FIdM “enables identity information to 
+be developed and shared among several entities and across trust domains…providing 
+
+‘single sign-on’ convenience and efficiencies to identified individuals, identity provid-
+ers and relying parties.” [GAR14] In short, FIdM allows one organization or system to 
+
+attest to another a user’s identity and authority.
+With FIdM, one system maintains a user’s identity information, and other systems 
+query that one system when needed. Imagine, for example, that you work for a com-
+
+pany that outsources its email system to a cloud provider. To access your email, you go 
+
+to the cloud provider’s website and enter your company login credentials—likely the 
+
+same credentials you use to log in to your computer at work. Instead of checking your 
+
+credentials itself, the website refers to an identity management server at your company 
+
+to authenticate you. Because your company’s identity management server knows your 
+
+identity, it can confirm your credentials and send the cloud provider a message authoriz-
+
+ing you to access your email. Figure 8-4 diagrams this information flow, with steps 3 
+
+and 4 depicting the alternative (and preferred, from a security perspective) possibility of 
+
+bypassing the third-party provider when transmitting login credentials.
+FIdM deals effectively with all the cloud identity challenges we have outlined 
+above. With FIdM solutions, users can access all of a company’s cloud service pro-
+
+viders with the same credentials they use to access company systems. Because cloud 
+
+customers control the authentication process, they can specify authentication require-
+
+ments that make sense for them: minimum password length, multifactor authentication, 
+
+or biometrics, for instance. FIdM also greatly simplifies the governance issue, ensur-
+
+ing, as it does, that only one system has the authority to create, modify, or delete user 
+
+accounts: the customer’s identity management system (commonly LDAP or Microsoft 
+
+Active Directory).
+Although we are presenting FIdM in the context of using cloud services, none of 
+the federation techniques we are presenting here are restricted to cloud scenarios. They 
+
+can be equally valuable for managing identities across network enclaves or security 
+
+contexts within a single enterprise or among groups of enterprises. If user identities are 
+
+provisioned, maintained, and authenticated in one environment, but services that require 
+
+those identities run in a separate environment, then FIdM is probably a good idea.

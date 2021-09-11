@@ -1,0 +1,45 @@
+˜˜˚˛˚˜˜˜˜˜˜˜˜˜
+2. Never break the build 
+It is not acceptable for team members to check in code 
+that causes the system as a whole to fail. Therefore, individuals have to test their code changes against the whole system and be confident that these codes work 
+as expected. If the build is broken, the person responsible is expected to give top 
+priority to fixing the problem.3. Fix problems when you see them The code of the system belongs to the team 
+rather than to individuals. Therefore, if a programmer discovers problems or 
+
+obscurities in code developed by someone else, he or she can fix these problems 
+
+directly rather than referring them back to the original developer.Agile processes rarely use formal inspection or review processes. In Scrum, the 
+development team meets after each iteration to discuss quality issues and prob
+-lems. The team may decide on changes to the way they work to avoid any quality 
+
+problems that have emerged. A collective decision may be made to focus on refac-
+toring and quality improvement during a sprint rather than the addition of new 
+
+system functionality.Code reviews may be the responsibility of individuals (check before check-in) or may rely on the use of pair programming. As I discussed in Chapter 3, pair program-
+ming is an approach in which two people are responsible for code development and 
+work together to achieve it. Code developed by an individual is therefore constantly 
+being examined and reviewed by another team member. Two people look at every 
+
+line of code and check it before it is accepted.Pair programming leads to a deep knowledge of a program, as both program-mers have to understand the program in detail to continue development. This depth 
+
+of knowledge is sometimes difficult to achieve in other inspection processes, and 
+
+so pair programming can find bugs that sometimes would not be discovered in 
+
+formal inspections. However, the two people involved cannot be as objective as an 
+
+external inspection team inasmuch as they are examining their own work. Potential 
+
+problems are:1. Mutual misunderstandings Both members of a pair may make the same mistake 
+in understanding the system requirements. Discussions may reinforce these errors.
+2. Pair reputation 
+Pairs may be reluctant to look for errors because they do not 
+want to slow down the progress of the project.3. Working relationships The pair™s ability to discover defects is likely to be com-
+promised by their close working relationship that often leads to reluctance to 
+
+criticize work partners.The informal approach to quality management adopted in agile methods is par
+-ticularly effective for software product development where the company develop-
+ing the software also controls its specification. There is no need to deliver quality 
+
+reports to an external customer, nor is there any need to integrate with other qual-
+ity management teams. However, when a large system is being developed for an 

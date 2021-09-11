@@ -1,0 +1,65 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜
+˜ˇ
+˜provider should be used or what specific services should be accessed. As the car moves 
+around, the in-car software uses the service discovery service to find the most useful local 
+
+information service. Because of the use of a translation service, it can move across bor
+-ders and make local information available to people who don™t speak the local language.
+I think that the service-oriented approach to software engineering is as important 
+a development as object-oriented software engineering. Service-oriented systems are 
+
+essential to the cloud and mobile systems. Newcomer and Lomow (Newcomer and 
+
+Lomow 2005), in their book on SOA, summarize the potential of service-oriented 
+
+approaches, which is now being realized:
+Driven by the convergence of key technologies and the universal adoption of 
+
+Web services, the service-oriented enterprise promises to significantly improve 
+
+corporate agility, speed time-to-market for new products and services, reduce 
+
+IT costs and improve operational efficiency.
+ƒBuilding applications based on services allows companies and other organiza
+-tions to cooperate and make use of each other™s business functions. Thus, systems 
+
+that involve extensive information exchange across company boundaries, such as 
+
+supply chain systems where one company orders goods from another, can easily be 
+
+automated. Service-based applications may be constructed by linking services from 
+various providers using either a standard programming language or a specialized 
+
+workflow language, as discussed in Section 18.4.
+Initial work on service provision and implementation was heavily influenced by 
+the failure of the software industry to agree on component standards. It was therefore 
+
+standards-driven, with all of the main industrial companies involved in standards 
+
+development. This led to a whole range of standards (WS* standards) and the notion 
+
+of service-oriented architectures. These were proposed as architectures for service-
+
+based systems, with all service communication being standards-based. However, the 
+
+standards proposed were complex and had a significant execution overhead. This 
+
+problem has led many companies to adopt an alternative architectural approach, 
+
+based on so-called RESTful services. A RESTful approach is a simpler approach 
+
+than a service-oriented architecture, but it is less suited to services that offer complex 
+
+functionality. I discuss both of these architectural approaches in this chapter.
+
+˝
+Service-oriented architecture (SOA) is an architectural style based on the idea that execut
+-
+able services can be included in applications. Services have well-defined, published inter
+-faces, and applications can choose whether or not these are appropriate. An important 
+
+idea underlying SOA is that the same service may be available from different providers 
+
+and that applications could make a runtime decision of which service provider to use.
+ƒNewcomer, E. and Lomow, G. (2005). Understanding SOA with Web Services. Boston: Addison-Wesley.

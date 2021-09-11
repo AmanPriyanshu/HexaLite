@@ -1,0 +1,54 @@
+790 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+For a large project, 30 or 40 risks may be identiﬁ ed. If between three and seven 
+risk management steps are identiﬁ ed for each, risk management may become a 
+project in itself. For this reason, you should adapt the Pareto 80–20 rule to soft-
+ware risk. Experience indicates that 80 percent of the overall project risk (i.e., 
+80 percent of the potential for project failure) can be accounted for by only 20 
+percent of the identiﬁ ed risks. The work performed during earlier risk analysis 
+steps will help you to determine which of the risks reside in that 20 percent (e.g., 
+risks that lead to the highest risk exposure). For this reason, some of the risks 
+identiﬁ ed, assessed, and projected may not make it into the RMMM plan—they 
+don’t fall into the critical 20 percent (the risks with highest project priority).  Risk is not limited to the software project itself. Risks can occur after the soft-ware has been successfully developed and delivered to the customer. These risks 
+
+are typically associated with the consequences of software failure in the ﬁ eld. 
+  
+Software safety and hazard analysis
+ 
+ (e.g., [Dun02], [Her00], [Lev95]) are soft-
+ware quality assurance activities (Chapter 21) that focus on the identiﬁ cation and 
+assessment of potential hazards that may affect software negatively and cause an 
+entire system to fail. If hazards can be identiﬁ ed early in the software engineer-
+ing process, software design features can be speciﬁ ed that will either eliminate 
+or control potential hazards.   
+ 
+ 
+ 
+ 35.7  
+THE RMMM PLAN  
+ 
+A risk management strategy can be included in the software project plan, or the risk management steps can be organized into a separate  risk mitigation, moni-toring and management plan. 
+ The RMMM plan documents all work performed 
+as part of risk analysis and is used by the project manager as part of the overall 
+project plan.  Some software teams do not develop a formal RMMM document. Rather, each 
+risk is documented individually using a  risk information sheet 
+ (RIS) [Wil97]. In 
+most cases, the RIS is maintained using a database system so that creation and 
+information entry, priority ordering, searches, and other analysis may be accom-
+
+plished easily. The format of the RIS is illustrated in  
+ 
+Figure 35.4  
+.   Once RMMM has been documented and the project has begun, risk mitigation and monitoring steps commence. As we have already discussed, risk mitigation 
+is a problem avoidance activity. Risk monitoring is a project tracking activity 
+
+with three primary objectives: (1) to assess whether predicted risks do, in fact, 
+occur; (2) to ensure that risk aversion steps deﬁ ned for the risk are being prop-
+erly applied; and (3) to collect information that can be used for future risk anal-
+ysis. In many cases, the problems that occur during a project can be traced to 
+more than one risk. Another job of risk monitoring is to attempt to allocate origin 
+[what risk(s) caused which problems throughout the project].  
+ 
+ 
+ pre22126_ch35_777-794.indd   790pre22126_ch35_777-794.indd   79013/12/13   6:17 PM13/12/13   6:17 PM

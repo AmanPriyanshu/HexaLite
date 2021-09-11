@@ -1,0 +1,41 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜Menzies and Zimmerman (Menzies and Zimmermann 2013) define software 
+analytics as:Software analytics is analytics on software data for managers and software 
+engineers with the aim of empowering software development individuals and 
+teams to gain and share insight from their data to make better decisions.Menzies and Zimmermann emphasize that the point of analytics is not to derive gen-eral theories about software but to identify specific issues that are of interest to software 
+developers and managers. Analytics aims to provide information about these issues in real 
+
+time so that actions can be taken in response to the information provided by the analysis. 
+
+In a study of managers at Microsoft, Buse and Zimmermann (Buse and Zimmermann 
+
+2012) identified information needs such as how to target testing, inspections, and refactor-
+ing, when to release software, and how to understand the needs of software customers.A range of different data mining and analysis tools can be used for software ana-lytics (Witten, Frank, and Hall 2011). In general, it is impossible to know what are 
+the best analysis tools to use in a particular situation. You have to experiment with 
+several tools to discover which are most effective. Buse and Zimmerman suggest a 
+number of guidelines for tool use:˜ Tools should be easy to use, as managers are unlikely to have experience with analysis.˜ Tools should run quickly and produce concise outputs rather than large volumes 
+of information.˜ Tools should make many measurements using as many parameters as possible. It 
+is impossible to predict in advance what insights might emerge.˜ Tools should be interactive and allow managers and developers to explore the 
+
+analyses. They should recognize that managers and developers are interested in 
+different things. They should not be predictive but should support decision mak
+-
+ing based on the analysis of past and current data.Zhang and her colleagues (Zhang et al. 2013) describe an excellent practical 
+application of software analytics for performance debugging. User software was 
+instrumented to collect data on response times and the associated system state. When 
+the response time was greater than expected, this data was sent for analysis. The 
+
+automated analysis highlighted performance bottlenecks in the software. The devel-
+opment team could then improve the algorithms to eliminate the bottleneck so that 
+performance was improved in a later software release.At the time of writing, software analytics is immature, and it is too early to say what 
+effect it will have. Not only are there general problems of ﬁbig dataﬂ processing (Harford 
+
+2013), but it will always be the case that our knowledge depends on collected data from 
+
+large companies. This data is primarily from software products, and it is unclear if the 
+
+tools and techniques that are appropriate for products can also be used with custom 
+
+software. Small companies are unlikely to invest in the data collection systems that are 
+
+required for automated analysis and so they may not be able to use software analytics.

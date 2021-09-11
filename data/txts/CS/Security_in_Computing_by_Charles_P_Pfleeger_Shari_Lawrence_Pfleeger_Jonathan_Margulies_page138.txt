@@ -1,0 +1,64 @@
+104 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+Suppose you need to send a protected message to someone you do not know and who 
+does not know you. This situation is more common than you may think. For instance, 
+
+you may want to send your income tax return to the government. You want the informa-
+
+tion to be protected, but you do not necessarily know the person who is receiving the 
+
+information. Similarly, you may want to purchase from a shopping website, exchange 
+
+private (encrypted) email, or arrange for two hosts to establish a protected channel. 
+
+Each of these situations depends on being able to exchange an encryption key in such 
+
+a way that nobody else can intercept it. The problem of two previously unknown par-
+
+ties exchanging cryptographic keys is both hard and important. Indeed, the problem 
+
+is almost circular: To establish an encrypted session, you need an encrypted means to 
+
+exchange keys.
+Public key cryptography can help. Since asymmetric keys come in pairs, one half of 
+the pair can be exposed without compromising the other half. In fact, you might think 
+
+of the public half of the key pair as truly public—posted on a public website, listed in a 
+
+public directory similar to a telephone listing, or sent openly in an email message. That 
+
+is the beauty of public key cryptography: As long as the private key is not disclosed, a 
+
+public key can be open without compromising the security of the encryption.
+Simple Key Exchange Protocol
+Suppose that a sender, Amy, and a receiver, Bill, both have pairs of asymmetric keys 
+for a common encryption algorithm. We denote any public key encryption function as 
+ E(k, X), meaning perform the public key encryption function on 
+X by using key 
+k. Call the keys 
+kPRIV-
+A, kPUB-A, kPRIV-
+B, and kPUB-B, for the private and public keys for Amy and 
+Bill, respectively.
+TABLE 2-13 
+Comparison of Secret Key and Public Key Encryption
+Secret Key (Symmetric)Public Key (Asymmetric)
+Number of keys
+12Key size (bits)
+Depends on the algorithm; 56–112 (DES), 128–256 (AES)Unlimited; typically no less than 256; 1000 to 2000 currently considered 
+desirable for most usesProtection of 
+key
+Must be kept secretOne key must be kept secret; the other 
+can be freely exposed
+Best usesCryptographic workhorse. Secrecy and 
+integrity of data, from single characters 
+
+to blocks of data, messages and files
+Key exchange, authentication, signing
+Key distribution
+Must be out-of-bandPublic key can be used to distribute 
+other keys
+SpeedFastSlow, typically by a factor of up to 
+10,000 times slower than symmetric 
+
+algorithms

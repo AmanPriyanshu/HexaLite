@@ -1,0 +1,72 @@
+384 PART TWO  
+MODELING 
+The architectural structures discussed in the preceding paragraphs can be combined to form  composite structures.
+ 
+ The overall architecture of a WebApp 
+may be hierarchical, but part of the structure may exhibit linear characteris-
+tics, while another part of the architecture may be networked. Your goal as an 
+
+architectural designer is to match the WebApp structure to the content to be 
+
+presented and the processing to be conducted.   
+ 
+17.7.2  WebApp Architecture 
+ 
+WebApp architecture describes an infrastructure that enables a Web-based sys-
+tem or application to achieve its business objectives. Jacyntho and his colleagues 
+[Jac02b] describe the basic characteristics of this infrastructure in the following 
+manner:  
+Applications should be built using layers in which different concerns are taken into account; in particular, application data should be separated from the page’s contents 
+
+(navigation nodes) and these contents, in turn, should be clearly separated from the 
+interface look-and-feel (pages).  
+  
+The authors suggest a three-layer design architecture that decouples inter-
+face from navigation and from application behavior. They argue that keeping 
+
+interface, application, and navigation separate simpliﬁ es implementation and 
+enhances reuse.  
+ 
+ 
+   
+The  Model-View-Controller
+ 
+ (MVC) architecture [Kra88] 
+ 8 
+ 
+ is one of a number of 
+suggested WebApp infrastructure models that decouple the user interface from 
+
+the WebApp functionality and informational content. The  
+model 
+ (sometimes re-
+ferred to as the “model object”) contains all application-speciﬁ c content and pro-
+cessing logic, including all content objects, access to external data/information 
+sources, and all processing functionality that is application speciﬁ c. The  
+view 
+ contains all interface-speciﬁ c functions and enables the presentation of con-
+tent and processing logic, including all content objects, access to external data/
+information sources, and all processing functionality required by the end user. 
+
+The  controller
+ 
+ manages access to the model and the view and coordinates the 
+ﬂ ow of data between them. In a WebApp, “the view is updated by the controller 
+with data from the model based on user input” [WMT02]. A schematic represen-
+tation of the MVC architecture is shown in  Figure 17.8 .  
+  Referring to the ﬁ gure, user requests or data are handled by the controller. 
+The controller also selects the view object that is applicable based on the user 
+request. Once the type of request is determined, a behavior request is transmit-
+ted to the model, which implements the functionality or retrieves the content re-
+quired to accommodate the request. The model object can access data stored in    The MVC architecture 
+decouples the user 
+interface from WebApp 
+
+functionality and 
+information content. 
+  
+8  It should be noted that MVC is actually an architectural design pattern developed for the Small-
+talk environment (see   
+www.smalltalk.org 
+ 
+) and can be used for any interactive application. pre22126_ch17_371-390.indd   384pre22126_ch17_371-390.indd   38413/12/13   6:13 PM13/12/13   6:13 PM

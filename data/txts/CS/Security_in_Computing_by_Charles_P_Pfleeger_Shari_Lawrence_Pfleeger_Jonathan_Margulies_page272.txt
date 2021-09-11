@@ -1,0 +1,29 @@
+238 Chapter 4  
+The Web—User Side
+determine the popularity of television programs. To avoid being fooled by bogus votes 
+from automated program scripts, the voting sites sometimes ensure interaction with 
+
+an active human by using CAPTCHAs (an acronym for Completely Automated Public 
+
+Turing test to tell Computers and Humans Apart—sometimes finding words to match a 
+
+clever acronym is harder than doing the project itself).
+The puzzle is a string of numbers and letters displayed in a crooked shape against 
+a grainy background, perhaps with extraneous lines, like the images in Figure 4-4; the 
+
+user has to recognize the string and type it into an input box. Distortions are intended to 
+defeat optical character recognition software that might be able to extract the characters. 
+
+(Figure 4-5 shows an amusing spoof of CAPTCHA puzzles.) The line is fine between 
+
+what a human can still interpret and what is too distorted for pattern recognizers to 
+
+handle, as described in Sidebar 4-1.Sites offering free email accounts, such as Yahoo mail and Hotmail, use CAPTCHAs 
+in their account creation phase to ensure that only individual humans obtain accounts. 
+
+The mail services do not want their accounts to be used by spam senders who use thou-
+
+sands of new account names that are not yet recognized by spam filters; after using the 
+
+account for a flood of spam, the senders will abandon those account names and move 
+FIGURE 4-4 CAPTCHA ExampleFIGURE 4-5 CAPTCHA Spoof

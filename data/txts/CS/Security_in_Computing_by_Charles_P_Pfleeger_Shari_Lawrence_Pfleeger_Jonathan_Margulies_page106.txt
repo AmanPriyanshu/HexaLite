@@ -1,0 +1,58 @@
+72 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+of mechanisms are imperfect. Often the user interface seems simple and foolproof 
+(what could be easier than laying a finger on a glass plate?), but as we have described, 
+
+underneath that simplicity lies uncertainty, ambiguity, and vulnerability. Nevertheless, 
+
+in this section you have seen types and examples so that when you develop systems and 
+
+applications requiring authentication, you will be able to draw on this background to 
+
+pick an approach that achieves your security needs.
+2.2 ACCESS CONTROL
+In this section we discuss how to protect general objects, such as files, tables, access to 
+
+hardware devices or network connections, and other resources. In general, we want a 
+
+flexible structure, so that certain users can use a resource in one way (for example, read-
+
+only), others in a different way (for example, allowing modification), and still others not 
+
+at all. We want techniques that are robust, easy to use, and efficient.
+We start with the basic access control paradigm, articulated by Scott Graham and 
+Peter Denning [GRA72]: A subject is permitted to access an object in a particular mode, 
+
+and only such authorized accesses are allowed.
+• Subjects are human users, often represented by surrogate programs running on 
+behalf of the users. • Objects are things on which an action can be performed: Files, tables, programs, 
+memory objects, hardware devices, strings, data fields, network connections, 
+
+and processors are examples of objects. So too are users, or rather programs or 
+
+processes representing users, because the operating system (a program repre-
+senting the system administrator) can act on a user, for example, allowing a user 
+
+to execute a program, halting a user, or assigning privileges to a user. 
+• Access modes are any controllable actions of subjects on objects, including, but 
+not limited to, read, write, modify, delete, execute, create, destroy, copy, export, 
+
+import, and so forth.Effective separation will keep unauthorized subjects from unauthorized access to 
+objects, but the separation gap must 
+
+be crossed for authorized subjects 
+
+and modes. In this section we con-
+sider ways to allow all and only 
+
+authorized accesses.Access PoliciesAccess control is a mechanical process, easily implemented by a table and computer 
+process: A given subject either can or cannot access a particular object in a specified 
+
+way. Underlying the straightforward decision is a complex and nuanced decision of 
+
+which accesses should be allowed; these decisions are based on a formal or informal 
+
+security policy.
+Access control: limiting who can access 
+
+what in what ways

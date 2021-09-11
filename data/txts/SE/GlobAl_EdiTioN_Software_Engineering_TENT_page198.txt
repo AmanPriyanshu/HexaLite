@@ -1,0 +1,33 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜2.
+ To introduce important implementation issues that are not usually covered in 
+programming books. These include software reuse, configuration management 
+and open-source development.As there are a vast number of different development platforms, the chapter is not biased toward any particular programming language or implementation technology. 
+Therefore, I have presented all examples using the UML rather than a programming 
+language such as Java or Python.An object-oriented system is made up of interacting objects that maintain their own local 
+
+state and provide operations on that state. The representation of the state is private and 
+
+cannot be accessed directly from outside the object. Object-oriented design processes 
+
+involve designing object classes and the relationships between these classes. These 
+
+classes define the objects in the system and their interactions. When the design is realized 
+
+as an executing program, the objects are created dynamically from these class definitions.Objects include both data and operations to manipulate that data. They may there-fore be understood and modified as stand-alone entities. Changing the implementa-
+tion of an object or adding services should not affect other system objects. Because 
+objects are associated with things, there is often a clear mapping between real-world 
+entities (such as hardware components) and their controlling objects in the system. 
+This improves the understandability, and hence the maintainability, of the design.To develop a system design from concept to detailed, object-oriented design, you need to:1.
+ Understand and define the context and the external interactions with the system.2.
+ Design the system architecture.3.
+ Identify the principal objects in the system.4.
+ Develop design models.5.
+ Specify interfaces.Like all creative activities, design is not a clear-cut, sequential process. You 
+develop a design by getting ideas, proposing solutions, and refining these solutions as information becomes available. You inevitably have to backtrack and retry when 
+problems arise. Sometimes you explore options in detail to see if they work; at other 
+
+times you ignore details until late in the process. Sometimes you use notations, such 
+as the UML, precisely to clarify aspects of the design; at other times, notations are 
+used informally to stimulate discussions.I explain object-oriented software design by developing a design for part of the embedded software for the wilderness weather station that I introduced in Chapter 1. 
+Wilderness weather stations are deployed in remote areas. Each weather station 

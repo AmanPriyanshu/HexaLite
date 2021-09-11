@@ -1,0 +1,66 @@
+ Section 3.3  Countermeasures 
+221  speed of the engine degrades as the size of the program increases, so proofs of 
+correctness become less appropriate as program size increases.• As Marv Schaefer [SCH89a] points out, too often people focus so much on the 
+formalism and on deriving a formal proof that they ignore the underlying secu-
+
+rity properties to be ensured.• The current state of program verification is less well developed than code pro-
+duction. As a result, correctness proofs have not been consistently and success-
+
+fully applied to large production systems.
+Program verification systems are being improved constantly. Larger programs are 
+being verified in less time than before. Gerhart [GER89] succinctly describes the advan-
+
+tages and disadvantages of using formal methods, including proof of correctness. As 
+
+program verification continues to mature, it may become a more important control to 
+
+ensure the security of programs.Validation
+Formal verification is a particular instance of the more general approach to assuring 
+correctness. There are many ways to show that each of a system’s functions works cor-
+
+rectly. 
+Validation
+ is the counterpart to verification, assuring that the system developers 
+have implemented all requirements. Thus, validation makes sure that the developer is 
+
+building the right product (according to the specification), and verification checks the 
+
+quality of the implementation. For more details on validation in software engineering, 
+
+see Shari Lawrence Pfleeger and Joanne Atlee [PFL10]. 
+A program can be validated in several different ways: 
+• Requirements checking. 
+One technique is to cross-check each system require-
+ment with the system’s source code or execution-time behavior. The goal is to 
+
+demonstrate that the system does each thing listed in the functional require-
+
+ments. This process is a narrow one, in the sense that it demonstrates only that 
+
+the system does everything it should do. As we have pointed out, in security, we 
+
+are equally concerned about prevention: making sure the system does 
+not do the 
+things it is not supposed to do. Requirements-checking seldom addresses this 
+aspect of requirements compliance.• Design and code reviews. 
+As described earlier in this chapter, design and 
+code reviews usually address system correctness (that is, verification). But a 
+
+review can also address requirements implementation. To support validation, 
+
+the reviewers scrutinize the design or the code to assure traceability from each 
+
+requirement to design and code components, noting problems along the way 
+
+(including faults, incorrect assumptions, incomplete or inconsistent behavior, 
+
+or faulty logic). The success of this process depends on the rigor of the review.
+• System testing. 
+The programmers or an independent test team select data to 
+check the system. These test data can be organized much like acceptance testing, 
+
+so behaviors and data expected from reading the requirements document can be 
+
+confirmed in the actual running of the system. The checking is done methodi-
+
+cally to ensure completeness.

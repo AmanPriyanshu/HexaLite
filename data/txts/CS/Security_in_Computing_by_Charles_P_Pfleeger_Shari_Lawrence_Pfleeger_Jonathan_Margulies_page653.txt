@@ -1,0 +1,72 @@
+ Section 9.5  Privacy on the Web 
+619  data value is that value exactly. With three data values, the means of each pair yield 
+three equations in three unknowns, which you know can be solved easily with linear 
+
+algebra. A similar approach works for very large subsets of the entire database. Mid-
+
+sized subsets preserve privacy quite well. So privacy is maintained with the rule of 
+
+n items, over 
+k percent, as described in Chapter 7.As described in Chapter 7, data perturbation can be used to reduce the risk from 
+aggregation. Perturbation does not limit the ability of researchers to work with the sta-
+
+tistics of a dataset; it just prevents linking of individual identities with specific data 
+
+items, thereby preserving privacy. Often, researchers can draw conclusions from the 
+
+distribution and magnitude of a population, thus preserving privacy without impeding 
+
+valid research.
+Vaidya and Clifton [VAI04] also describe a method by which databases can be par-
+titioned to preserve privacy. Our trivial example in Table 9-1 could be an example of 
+
+a database that was partitioned vertically to separate the sensitive association of name 
+
+and condition.Summary of Data Mining PrivacyAs we have described in this section, data mining and privacy are not mutually exclu-
+sive: We can derive results from data mining without sacrificing privacy. True, some 
+
+accuracy is lost with perturbation. A counterargument is that the weakening of confi-
+
+dence in conclusions most seriously affects weak results; strong conclusions become 
+
+only marginally less strong. Additional research will likely produce additional tech-
+
+niques for preserving privacy during data mining operations.
+We 
+can derive results without sacrificing privacy, but privacy will not exist auto-
+matically. The techniques described here must be applied by people who understand 
+
+and respect privacy implications. 
+
+Left unchecked, data mining has 
+
+the potential to undermine privacy. 
+
+Security professionals need to con-
+
+tinue to press for privacy in data 
+
+mining applications.9.5 PRIVACY ON THE WEB
+The Internet is sometimes viewed as the greatest threat to privacy. As Chapter 7 says, an 
+
+advantage of the Internet, which is also a disadvantage, is anonymity. A user can visit 
+
+websites, send messages, and interact with applications without revealing an identity. 
+
+At least that is what we would like to think. Unfortunately, because of things like cook-
+
+ies, adware, spybots, and malicious code, the anonymity is superficial and largely one-
+
+sided. Sophisticated web applications can know a lot about a user, but the user knows 
+
+relatively little about the application.
+The topic is clearly of great interest: a recent Google search returned over 7 billion 
+hits for the terms “web” and “privacy” together, and 634,000 hits for the phrase “web 
+
+privacy.”
+In this section we investigate some of the ways a user’s privacy is lost on the Internet.
+We 
+can derive useful research results 
+without sacrificing privacy, but privacy 
+
+will not automatically exist.

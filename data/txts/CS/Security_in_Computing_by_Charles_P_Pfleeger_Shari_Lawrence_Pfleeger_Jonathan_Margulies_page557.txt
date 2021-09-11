@@ -1,0 +1,34 @@
+ Section 7.4  Database Disclosure 
+523  Mean The arithmetic mean (average) allows exact disclosure if the attacker can manipu-
+late the subject population. As a trivial example, consider salary. Given the number of 
+
+employees, the mean salary for a company and the mean salary of all employees except 
+
+the president, it is easy to compute the president’s salary.
+Median By a slightly more complicated process, we can determine an individual value from the 
+
+median, the midpoint of an ordered list of values. The attack requires finding selections 
+having one point of intersection that happens to be exactly in the middle, as shown in 
+
+Figure 7-3.For example, in our sample database, there are five males and three persons whose 
+drug use value is 2. Arranged in order of aid, these lists are shown in Table 7-10. Notice 
+
+that Majors is the only name common to both lists, and conveniently that name is in the 
+
+middle of each list. Someone working at the Health Clinic might be able to find out that 
+
+Majors is a white male whose drug-use score is 2. That information identifies Majors as 
+TABLE 7-8 
+Table Showing Negative Result
+HolmesGreyWestTotal
+M50003000400012000 
+F70000400011000
+Total
+120003000800023000
+TABLE 7-9  
+Inference from Count and Sum ResultsSexHolmesGreyWestTotal
+M131 5
+F213 6
+Total
+34411
+FIGURE 7-3 Intersecting MediansAttribute 2 ValuesMedian for bothattribute 1 andattribute 2Attribute 1 Values

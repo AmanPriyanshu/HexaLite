@@ -1,0 +1,52 @@
+˜˜˚˛˝˜˜˜˜˜˜
+This˜process should be an agreed way of assessing whether some quality, such as 
+maintainability or robustness, is present in the product.Traditional software quality management is based on the assumption that the qual-ity of software is directly related to the quality of the software development process. 
+
+This assumption comes from manufacturing systems where product quality is inti-
+mately related to the production process. A manufacturing process involves configur-
+ing, setting up, and operating the machines involved in the process. Once the machines 
+
+are operating correctly, product quality naturally follows. You measure the quality of 
+
+the product and change the process until you achieve the quality level that you need. 
+
+Figure 24.
+3 illustrates this process-based approach to achieving product quality.There is a clear link between process and product quality in manufacturing because 
+the process is relatively easy to standardize and monitor. Once manufacturing sys
+-tems are calibrated, they can be run again and again to output high-quality products. 
+
+However, software is designed rather than manufactured, and the relationship 
+
+between process quality and product quality is more complex. Software design is a 
+
+creative process, so the influence of individual skills and experience is significant. 
+
+External factors, such as the novelty of an application or commercial pressure for an 
+
+early product release, also affect product quality irrespective of the process used.Without doubt, the development process used has a significant influence on the qual-ity of the software, and good processes are more likely to lead to good quality software. 
+
+Process quality management and improvement can result in fewer defects in the software 
+
+being developed. However, it is difficult to assess software quality attributes, such as reli-
+ability and maintainability, without using the software for a long period. Consequently, it 
+
+is hard to tell how process characteristics influence these attributes. Furthermore, because 
+
+of the role of design and creativity in the software process, process standardization can 
+
+sometimes stifle creativity, which may lead to poorer rather than better quality software.Defined processes are important, but quality managers should also aim to develop a ﬁquality cultureﬂ in which everyone responsible for software development is com-
+mitted to achieving a high level of product quality. They should encourage teams to 
+take responsibility for the quality of their work and to develop new approaches to 
+quality improvement. While standards and procedures are the basis of quality man-
+agement, good-quality managers recognize that there are intangible aspects to software 
+
+quality (elegance, readability, etc.) that cannot be embodied in standards. They 
+
+should support people who are interested in the intangible aspects of quality and 
+
+encourage professional behavior in all team members.Define process
+DevelopproductAssess product
+qualityStandardize
+process
+Improveprocess
+QualityOKNoYesFigure 24.3 Process-based quality

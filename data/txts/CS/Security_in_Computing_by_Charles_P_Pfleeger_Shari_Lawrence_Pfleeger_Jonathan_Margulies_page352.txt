@@ -1,0 +1,62 @@
+318 Chapter 5  
+Operating SystemsTrusted systems have three characteristics:
+• a defined policy
+ that details what security qualities it enforces• appropriate 
+measures 
+and mechanisms
+ by which it can enforce that security 
+adequately• independent 
+scrutiny or 
+evaluation
+ to ensure that the mechanisms have been 
+selected and implemented properly so that the security policy is in fact enforced.
+History of Trusted Systems
+Trusted systems have had a long and fitful history in computer security. The need for 
+secure systems became apparent early in the days of multiuser, shared computing, in 
+
+the 1960s. Willis Ware [WAR70] chaired a committee expressing the need for stronger 
+
+security enforcement in systems. During the 1970s, research and actual systems dem-
+
+onstrated the capability of and need for such systems, culminating in the report from 
+James Anderson’s committee [AND72] that called for development of a process for 
+
+obtaining more trustworthy systems.
+Starting with drafts in the late 1970s, the U.S. Department of Defense wrote the 
+Trusted Computer System Evaluation Criteria
+ (called the TCSEC or Orange Book, 
+because of the color of its cover), a document that specified functionality, design princi-
+
+ples, and an evaluation methodology for trusted computer systems. Over time, the same 
+
+approach was extended to network components and database management systems. For 
+
+reasons we explain shortly, this scheme did not reach its intended degree of acceptance. 
+
+Nevertheless, the TCSEC laid the groundwork for a progression of advancements on 
+
+that foundation. Also important is that this progression started in the United States, but 
+
+rapidly expanded to involve Canada, Germany, England, the Netherlands, and France 
+• trusted product (an evaluated and approved product), trusted soft-
+ware (the software portion of a system that can be relied upon to 
+
+enforce security policy) 
+• trusted computing base (the set of all protection mechanisms within a 
+computing system, including hardware, firmware, and software, that 
+
+together enforce a unified security policy over a product or system) 
+• trusted system (a system that employs sufficient hardware and soft-
+ware integrity measures to allow its use for processing sensitive 
+
+information)
+These definitions are paraphrased from [NIS91]
+. Common to these 
+definitions are the concepts of
+• enforcement of security policy
+• sufficiency of measures and mechanisms
+
+• objective evaluation
+Thus, the adjective trusted has a precise meaning in computer 
+security.
+SIDEBAR 5-4 Continued

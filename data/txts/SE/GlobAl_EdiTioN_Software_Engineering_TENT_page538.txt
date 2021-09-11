@@ -1,0 +1,68 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜
+˜ˇ
+˜Figure 18.11 Catalog interface design
+OperationInputsOutputsExceptionsMakeCatalogmcInCompany id
+PDF-flag
+mcOut
+URL of the catalog for 
+that companymcFault
+
+Invalid company idLookuplookIn
+Catalog URL
+
+Catalog numberlookOut
+URL of page with the  
+item informationlookFault
+
+Invalid catalog 
+numberSearchsearchIn
+Catalog URL
+
+Search stringsearchOut
+URL of web page with 
+search resultssearchFault
+
+Badly formed search stringComparecompIn
+Catalog URL
+
+Entry attribute (up to 6)
+Catalog number (up to 4)compOut
+URL of page showing 
+comparison tablecompFault
+
+Invalid company id
+Invalid catalog number
+
+Unknown attributeCheckDeliverycdIn
+Company id
+Catalog number
+Number of items requiredcdOut
+Expected delivery  datecdFault
+
+Invalid company id
+No availability
+Zero items requestedMakeVirtualOrder
+voIn
+Company id
+Catalog number
+Number of items requiredvoOut
+Catalog number
+Number of items  requiredPredicted delivery date
+Unit price estimate
+Total price estimate
+voFault
+
+Invalid company id
+Invalid catalog 
+number
+Zero items requestedcdIncID: string
+catNum: stringnumItems: integersize (cID) = 6
+size (catNum) = 10numItems > 0cdOutcatNum: string
+delivDate: datesize (catNum) = 10delivDate > Today
+cdFault
+errCode: integerInvalid company iderrCode=1Invalid catalog numbererrCode = 2
+No availabilityerrCode = 3
+Zero items requestederrCode = 4
+Figure 18.12 UML 
+definition of input and output messages 

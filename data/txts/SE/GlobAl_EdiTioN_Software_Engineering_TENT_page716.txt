@@ -1,0 +1,41 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜external customer, agile approaches to quality management with minimal docu
+-mentation may be impractical:1.
+ If the customer is a large company, it may have its own quality management pro-cesses and may expect the software development company to report on progress in a 
+
+way that is compatible with these processes. Therefore, the development team may 
+
+have to produce a formal quality plan and quality reports as required by the customer.2.
+ Where several geographically distributed teams are involved in development, 
+
+perhaps from different companies, then informal communications may be 
+
+impractical. Different companies may have different approaches to quality man-
+agement, and you may have to agree to produce some formal documentation.3. For long-lifetime systems, the team involved in development will change over 
+time. If there is no documentation, new team members may find it impossible to 
+understand why development decisions have been made.Consequently, the informal approach to quality management in agile methods 
+may have to be adapted so that some quality documentation and processes are intro
+-
+duced. Generally, this approach is integrated with the iterative development process. 
+Instead of developing software, one of the sprints or iterations should focus on pro-
+ducing essential software documentation.
+Software measurement is concerned with quantifying some attribute of a software 
+
+system such as its complexity or its reliability. By comparing the measured values to 
+each other and to the standards that apply across an organization, you may be able to 
+draw conclusions about the quality of software or assess the effectiveness of soft
+-
+ware processes, tools, and methods. In an ideal world, quality management could 
+
+rely on measurements of attributes that affect the software quality. You could then 
+objectively assess process and tool changes that aim to improve software quality.For example, say you work in a company that plans to introduce a new software-testing tool. Before introducing the tool, you record the number of software defects 
+discovered in a given time. This is a baseline for assessing the effectiveness of the 
+tool. After using the tool for some time, you repeat this process. If more defects have 
+been found in the same amount of time, after the tool has been introduced, then you 
+may decide that it provides useful support for the software validation process.The long-term goal of software measurement is to use measurement to make 
+judgments about software quality. Ideally, a system could be assessed using a range 
+of metrics to measure its attributes. From the measurements made, a value for the 
+quality of the system could be inferred. If the software had reached a required quality 
+
+threshold, then it could be approved without review. When appropriate, the measure-
+ment tools might also highlight areas of the software that could be improved. 

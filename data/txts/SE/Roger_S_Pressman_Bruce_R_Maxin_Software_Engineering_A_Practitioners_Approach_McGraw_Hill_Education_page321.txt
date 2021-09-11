@@ -1,0 +1,96 @@
+CHAPTER 14  
+COMPONENT-LEVEL DESIGN
+ 291a collection of input and output data objects or items. Design elaboration con-tinues until sufﬁ cient detail is provided to guide construction of the component. 
+  
+ 
+ 
+14.1.3 A Process-Related View 
+ 
+The object-oriented and traditional views of component-level design presented in Sections 14.1.1 and 14.1.2 assume that the component is being designed from 
+scratch. That is, you have to create a new component based on speciﬁ cations de-
+rived from the requirements model. There is, of course, another approach.  Over the past three decades, the software engineering community has em-phasized the need to build systems that make use of existing software compo-
+nents or design patterns. In essence, a catalog of proven design or code-level 
+components is made available to you as design work proceeds. As the software 
+architecture is developed, you choose components or design patterns from the 
+catalog and use them to populate the architecture. Because these components 
+have been created with reusability in mind, a complete description of their in-
+terface, the function(s) they perform, and the communication and collaboration 
+they require are all available to you. We discuss some of the important aspects of 
+
+component-based software engineering (CBSE) later in Section 14.6.  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 14.2 D
+ESIGNING CLASS-BASED COMPONENTS  
+ 
+As we have already noted, component-level design draws on information devel-oped as part of the requirements model (Chapters 9–11) and represented as part 
+of the architectural model (Chapter 13). When an object-oriented software engi-
+neering approach is chosen, component-level design focuses on the elaboration 
+of problem domain speciﬁ c classes and the deﬁ
+ nition and reﬁ
+ nement of infra-
+structure classes contained in the requirements model. The detailed description 
+of the attributes, operations, and interfaces used by these classes is the design 
+detail required as a precursor to the construction activity. 
+ One of the key elements that lead to the success or failure of CBSE is the availability of component-based standards, sometimes called mid-
+dleware.  Middleware 
+ is a collection of infrastructure components that enable problem domain components 
+to communicate with one another across a network or 
+within a complex system. Software engineers who want 
+to use component-based development as their software 
+process can choose from among the following standards:   
+ 
+ 
+ 
+ 
+ 
+ 
+OMG CORBA —  www.corba.org/ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+Microsoft COM 
+—  http://www.microsoft.com/
+ com/default.mspx 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+Microsoft .NET 
+—  http://msdn.microsoft.com/
+ en-us/netframework/default.aspx 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+Sun JavaBeans —  http://www.oracle.com/
+ technetwork/java/javaee/ejb/index.html 
+ 
+ 
+ 
+  The websites noted present a wide array of tutorials, white papers, tools, and general resources on these im-
+portant middleware standards. 
+  
+INFO  
+ 
+Component-Based Standards and Frameworks 
+pre22126_ch14_285-316.indd   291pre22126_ch14_285-316.indd   29113/12/13   6:12 PM13/12/13   6:12 PM

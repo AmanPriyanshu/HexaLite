@@ -1,0 +1,65 @@
+650 Chapter 10  
+Management and Incidentspolicies would be the same: to prevent security breaches. But in fact the policy is one of 
+the most difficult sections to write well. 
+Consider security needs for different types of organizations. What does an organiza-
+tion consider its most precious asset? A pharmaceutical company might value its scien-
+
+tific research on new drugs and its sales and marketing strategy as its most important 
+
+assets. A hospital would likely find protecting the confidentiality of its patients’ records 
+
+most crucial. A television studio could decide its archive of previous broadcasts is most 
+
+important. An online merchant might value highly its web presence, and the associated 
+
+back-end order receiving and processing system. A securities trading firm would be most 
+
+concerned with the accuracy and completeness of its transaction records, including its 
+
+log of executed trades. As you can see, organizations value different things, and follow-
+
+ing this analysis, the most significant threats will differ among organizations. In some 
+
+cases confidentiality is paramount, but in others availability or integrity matters most.
+As we discuss later in this chapter, there are trade-offs among the strength of the 
+security, the cost, the inconvenience to users, and more. For example, we must decide 
+
+whether to implement very stringent—and possibly unpopular—controls that prevent 
+
+all security problems or simply mitigate the effects of security breaches once they hap-
+
+pen. For this reason, the policy statement must answer three essential questions:
+• Who should be allowed access?
+• To what system and organizational 
+resources 
+should access be allowed?
+• What types of access should each user be allowed for each resource
+?The policy statement should specify the following:
+• The organization’s 
+goals on security. For example, should the system protect 
+data from leakage to outsiders, protect against loss of data due to physical disas-
+ter, protect the data’s integrity, or protect against loss of business when comput-
+
+ing resources fail? What is the higher priority: serving customers or securing 
+data?• Where the 
+responsibility
+ for security lies. For example, should the responsibility 
+rest with a small computer security group, with each employee, or with relevant 
+
+managers?• The organization’s 
+commitment to security. For example, who provides security 
+support for staff, and where does security fit into the organization’s structure?
+Assessment of Current Security Status
+To be able to plan for security, an organization must understand the vulnerabilities to 
+which it may be exposed. The organization can determine the vulnerabilities by per-
+
+forming a risk analysis: a systematic investigation of the system, its environment, and 
+the things that might go wrong. The risk analysis forms the basis for describing the cur-
+
+rent status of security. This status can be expressed as a listing of organizational assets, 
+
+the security threats to the assets, and the controls in place to protect the assets. We look 
+
+at risk analysis in more detail later in this chapter.
+The status portion of the plan also defines the limits of responsibility for security. 
+It describes not only which assets are to be protected but also who is responsible for 

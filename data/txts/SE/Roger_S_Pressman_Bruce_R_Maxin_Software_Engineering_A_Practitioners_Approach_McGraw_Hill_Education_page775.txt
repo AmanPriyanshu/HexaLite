@@ -1,0 +1,54 @@
+CHAPTER 33  
+ESTIMATION FOR SOFTWARE PROJECTS
+ 745 
+where  E 
+ 5 effort in person-months or person-years t 
+ 5 project duration in months or years B 
+ 5 “special skills factor” 11  P 
+ 5  “productivity parameter” that reﬂ ects: overall process maturity and 
+management practices, the extent to which good software engineering 
+practices are used, the level of programming languages used, the state 
+of the software environment, the skills and experience of the software 
+team, and the complexity of the application  
+ 
+  Typical values might be  
+P 
+ 5 2,000 for development of real-time embedded soft-
+ware,  P 
+ 5 10,000 for telecommunication and systems software, and  
+P 
+ 5 28,000 
+for business systems applications. The productivity parameter can be derived 
+
+for local conditions using historical data collected from past development 
+
+efforts. 
+ You should note that the software equation has two independent parameters: 
+(1) an estimate of size (in LOC) and (2) an indication of project duration in calen-
+dar months or years.  To simplify the estimation process and use a more common form for their esti-
+mation model, Putnam and Myers [Put92] suggest a set of equations derived from 
+the software equation. Minimum development time is deﬁ ned as
+ t min 5 8.14   LOC _____  P 
+ 0.43    in months for  t min . 6 months (33.5a)
+ E 
+ 5 180  Bt 
+ 3 
+ in person-months for  E 
+ $ 20 person-months  (33.5b)
+ Note that  t 
+ in Equation (33.5b) is represented in years.  Using Equation (33.5) with  P 
+  5 12,000 (the recommended value for scientiﬁ
+ c 
+software) for the CAD software discussed previously in this chapter, 
+ t min 5 8.14 3   33,200 _________ 12,000 0.43    5 12.6 calendar months E 
+ 5 180 3 0.28 3 (1.05) 3 
+ 5 58 person-months  The results of the software equation correspond favorably with the estimates de-veloped in Section 33.6. Like the COCOMO model noted in Section 33.7.2, the 
+software equation continues to evolve. Further discussion of an extended version 
+of this estimation approach can be found in [Put97b].   
+11   B 
+ increases slowly as “the need for integration, testing, quality assurance, documentation, and 
+management skills grows” [Put92]. For small programs (KLOC 5 5 to 15),  
+B 
+ 5 0.16. For programs 
+greater than 70 KLOC,  B 
+ 5 0.39. pre22126_ch33_727-753.indd   745pre22126_ch33_727-753.indd   74513/12/13   6:17 PM13/12/13   6:17 PM

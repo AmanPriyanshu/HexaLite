@@ -1,0 +1,40 @@
+ Section 6.6  Cryptography in Network Security 
+445  • authentication protocol and key
+• life span of the association, to permit long-running sessions to select a new cryp-
+tographic key as often as needed
+• address of the opposite end of association
+
+• sensitivity level of protected data (usable for classified data)
+A host, such as a network server or a firewall, might have several security associa-
+tions in effect for concurrent communications with different remote clients. A security 
+
+association is selected by a security parameter index (SPI), a data element that is essen-
+
+tially a pointer into a table of security associations.Headers and DataThe fundamental data structures of IPsec are the authentication header (AH) and the encapsulated security payload (ESP). The ESP replaces (includes) the conventional 
+TCP header and data portion of a packet, as shown in Figure 6-45. The physical header 
+
+and trailer depend on the data link and physical layer communications medium, such 
+as Ethernet.The ESP contains both an authenticated portion and an encrypted portion, as shown 
+in Figure 6-46. The sequence number is incremented by 1 for each packet transmitted 
+
+to the same address using the same security association, to preclude packet replay 
+
+attacks. The payload data are the actual data of the packet. Because some encryption 
+
+or other security mechanisms require blocks of certain sizes, the padding factor and 
+
+padding length fields contain padding and the amount of padding to bring the pay-
+
+load data to an appropriate length. 
+
+The next header indicates the type 
+
+of payload data. The authentication 
+
+field is used for authentication of 
+
+the entire object.PhysicalHeaderPhysicalHeaderIPHeaderIPHeaderTCPHeaderDataPhysicalTrailerPhysicalTrailerESP(includes control, TCP header, and data)FIGURE 6-45 IPsec Encapsulated Security Payload
+IPsec encapsulated security payload 
+contains descriptors to tell a recipient 
+
+how to interpret encrypted content.

@@ -1,0 +1,64 @@
+ Section 9.6  Email Security 
+635  Although this strategy is sound, the overhead involved indicates that this approach 
+should be used only when anonymity is critical. The general concept leads to the ano-
+
+nymity-preserving network TOR described in Chapter 6.
+Disappearing EmailSome services claim to protect your privacy by enabling disappearing messages. That is, 
+you can use the service to send a file, a photo, or a message that the service destroys as 
+
+soon as it reaches its destination. As we noted earlier, the risk is considerable. Wortham 
+
+[WOR14] points out that, “what is shared over the web and through mobile devices is 
+
+at risk for interception or eventual retrieval, even if the hardware and software com-
+
+panies that transmit them promise 
+
+otherwise. Security vulnerabilities 
+
+have been exposed at major banks, 
+
+corporations, and retailers around 
+
+the globe and at many start-ups.” 
+Services such as Snapchat promise to remove all traces of what you send, to keep 
+your content from snooping eyes. But sometimes the claims do not match the reality. 
+
+Snapchat became wildly successful—so successful that it spurned a multibillion dollar 
+offer to be bought by Facebook. In 2014, the Federal Trade Commission charged Snap-
+
+chat with misrepresenting how it protects users’ information. 
+In its charge, the FTC noted that Snapchat claimed that its messages, often called 
+snaps, could not be saved. But in fact there were several ways to save them, including 
+
+using a third-party app or workarounds involving taking a screen shot of the messages.
+That was not the only privacy violation, though. Snapchat also “transmitted users’ 
+location information and collected sensitive data like address book contacts, despite its 
+
+saying that it did not collect such information. The commission said the lax policies 
+
+did not secure a feature called ‘Find Friends’ that allowed security researchers to com-
+
+pile a database of 4.6 million user names and phone numbers during a recent security 
+breach.” [WOR14]
+The lesson here is clear: If you plan to engage a service or use a product to protect your privacy, look first for evidence of how the protection is provided and whether it 
+
+really works.
+Spoofing and SpammingEmail has very little authenticity protection. Nothing in the SMTP protocol checks to 
+
+verify that the listed sender (the From: address) is accurate or even legitimate. Spoofing 
+
+the source address of an email message is not difficult. This limitation facilitates the 
+
+sending of spam because it is impossible to trace the real sender of a spam message. 
+Sometimes the apparent sender will be someone the recipient knows or someone on a 
+
+common mailing list with the recipient. Spoofing such an apparent sender is intended to 
+
+lend credibility to the spam message.Phishing is a form of spam in which the sender attempts to convince the receiver 
+to reveal personal data, such as banking details. The sender enhances the credibility 
+Email copies can remain with the 
+
+recipient and at intermediate points for 
+
+an unlimited time.

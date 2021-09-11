@@ -1,0 +1,39 @@
+possibilities of reuse before designing the software in detail, as you may wish to adapt 
+your design to reuse existing software assets. As I discussed in Chapter 2, in  a  reuse-oriented development process, you search for reusable elements, then modify 
+
+your requirements and design to make the best use of these.Because of the importance of reuse in modern software engineering, I devote 
+several chapters in Part 3 of this book to this topic (Chapters 15, 16, and 18).ˇˇIn software development, change happens all the time, so change management is 
+
+absolutely essential. When several people are involved in developing a software sys
+-
+tem, you have to make sure that team members don™t interfere with each other™s 
+
+work. That is, if two people are working on a component, their changes have to be 
+
+coordinated. Otherwise, one programmer may make changes and overwrite the oth-
+er™s work. You also have to ensure that everyone can access the most up-to-date ver-
+sions of software components; otherwise developers may redo work that has already 
+
+been done. When something goes wrong with a new version of a system, you have to 
+
+be able to go back to a working version of the system or component.Configuration management is the name given to the general process of managing a changing software system. The aim of configuration management is to support the 
+system integration process so that all developers can access the project code and 
+
+documents in a controlled way, find out what changes have been made, and compile 
+and link components to create a system. As shown in Figure 7.14, there are four 
+
+fundamental configuration management activities:1. Version management, where support is provided to keep track of the different 
+versions of software components. Version management systems include facilities 
+
+to coordinate development by several programmers. They stop one developer 
+
+from overwriting code that has been submitted to the system by someone else.2. System integration, where support is provided to help developers define what 
+
+versions of components are used to create each version of a system. This 
+ComponentversionsReleasemanagementChangeproposalsSystem
+releasesChangemanagementSystem
+versionsVersion
+managementSystem
+buildingFigure 7.14
+ Configuration 
+management˜˜˚˙˜˜˜˜˜˜

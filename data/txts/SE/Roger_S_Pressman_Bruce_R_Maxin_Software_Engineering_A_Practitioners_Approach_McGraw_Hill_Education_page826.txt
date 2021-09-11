@@ -1,0 +1,86 @@
+796 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+details of this work are beyond the scope of this book, but the underlying laws that have been derived are worthy of note [Leh97b]:   
+ 
+ 
+    
+ 
+The Law of Continuing Change (1974): 
+ Software that has been implemented in a 
+ real-world computing context and will therefore evolve over time (called  E-type sys-tems 
+) must be continually adapted else they become progressively less satisfactory. 
+  
+The Law of Increasing Complexity (1974): 
+ As an E-type system evolves its complex-
+ity increases unless work is done to maintain or reduce it.   
+The Law of Self Regulation (1974): 
+ The E-type system evolution process is self- 
+regulating with distribution of product and process measures close to normal.   
+The Law of Conservation of Organizational Stability (1980): 
+ The average effective 
+global activity rate in an evolving E-type system is invariant over product lifetime.   
+The Law of Conservation of Familiarity (1980): 
+ As an E-type system evolves all as-
+sociated with it, developers, sales personnel, users, for example, must maintain mas-
+tery of its content and behavior to achieve satisfactory evolution. Excessive growth 
+diminishes that mastery. Hence the average incremental growth remains invariant 
+
+as the system evolves.   
+The Law of Continuing Growth (1980): 
+ The functional content of E-type systems 
+must be continually increased to maintain user satisfaction over their lifetime.   
+The Law of Declining Quality (1996): 
+ The quality of E-type systems will appear to 
+be declining unless they are rigorously maintained and adapted to operational envi-
+ronment changes.   
+The Feedback System Law (1996): 
+ E-type evolution processes constitute multi-
+level, multi-loop, multi-agent feedback systems and must be treated as such to 
+achieve signiﬁ cant improvement over any reasonable base. 
+ 
+  
+The laws that Lehman and his colleagues have deﬁ ned are an inherent part of 
+a software engineer’s reality. In this chapter, we’ll discuss the challenge of soft-
+
+ware maintenance and the reengineering activities that are required to extend 
+the effective life of legacy systems.   
+ 
+ 
+ 
+ 36.1  
+SOFTWARE
+ MAINTENANCE  
+ 
+It begins almost immediately. Software is released to end users, and within days, 
+bug reports ﬁ lter back to the software engineering organization. Within weeks, 
+one class of users indicates that the software must be changed so that it can 
+accommodate the special needs of their environment. And within months, an-
+other corporate group that wanted nothing to do with the software when it was 
+released now recognizes that it may provide unexpected beneﬁ t. They’ll need a 
+few enhancements to make it work in their world.  The challenge of software maintenance has begun. You’re faced with a growing 
+queue of bug ﬁ xes, adaptation requests, and outright enhancements that must be 
+planned, scheduled, and ultimately accomplished. Before long, the queue has  Why do 
+legacy systems evolve as 
+time passes? ?    restructuring. . . . . 809  
+    code  . . . . . . . . 809  
+
+    data  . . . . . . . . 810  
+    reverse 
+
+engineering. . . . . . 805  
+    data  . . . . . . . . 807  
+
+    processing  . . . . 807  
+
+    user interfaces. 808  
+    software 
+
+maintenance. . . . . 796  
+
+    software 
+
+reengineering  . . . . 802  
+
+    supportability. . . . 798  
+
+  pre22126_ch36_795-816.indd   796pre22126_ch36_795-816.indd   79613/12/13   6:17 PM13/12/13   6:17 PM

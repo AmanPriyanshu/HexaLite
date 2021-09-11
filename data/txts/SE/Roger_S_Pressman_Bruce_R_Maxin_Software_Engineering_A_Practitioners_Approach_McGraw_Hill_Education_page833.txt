@@ -1,0 +1,54 @@
+CHAPTER 36  
+MAINTENANCE AND REENGINEERING 803 
+ 
+ 
+•  If you decide to rebuild, be disciplined about it. Use practices that will re-sult in high quality—today and in the future.  
+ 
+  Although these principles focus on the rebuilding of a house, they apply equally well to the reengineering of computer-based systems and applications. 
+ To implement these principles, you can use a software reengineering process 
+model that deﬁ nes six activities, shown in Figure 36.2. In some cases, these ac-
+tivities occur in a linear sequence, but this is not always the case. For example, it 
+may be that reverse engineering (understanding the internal workings of a pro-
+gram) may have to occur before document restructuring can commence.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+36.5.2   
+Software Reengineering Activities 
+ 
+The reengineering paradigm shown in Figure 36.2 is a cyclical model. This means that each of the activities presented as a part of the paradigm may be revis-
+ited. For any particular cycle, the process can terminate after any one of these 
+activities.   
+Inventory analysis.   
+Every software organization should have an inventory of all applications. The inventory can be nothing more than a spreadsheet model 
+containing information that provides a detailed description (e.g., size, age, busi-
+ness criticality) of every active application. By sorting this information according 
+to business criticality, longevity, current maintainability and supportability, and 
+
+other locally important criteria, candidates for reengineering appear. Resources 
+
+can then be allocated to candidate applications for reengineering work.    If time and resources 
+are in short supply, you 
+
+might consider apply-
+ing the Pareto principle 
+to the software that 
+is to be reengineered. 
+Apply the reengineer-
+ing process to the 
+20 percent of the 
+software that accounts 
+for 80 percent of the 
+problems. Forward
+engineeringDocumentrestructuringReverseengineeringInventory
+analysisDatarestructuringCoderestructuring FIGURE 36.2A software 
+reengineering 
+
+process model  
+ 
+ pre22126_ch36_795-816.indd   803pre22126_ch36_795-816.indd   80313/12/13   6:17 PM13/12/13   6:17 PM

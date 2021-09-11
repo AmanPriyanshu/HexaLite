@@ -1,0 +1,65 @@
+272 Chapter 4  
+The Web—User Side
+of another, to a destination in a third with perhaps a malicious link hosted on a computer 
+in a fourth—sorting out who can act is complicated and time consuming, especially if 
+not all the countries involved want to cooperate fully.
+Defining the scope of prohibited activity is tricky, because countries want to support 
+Internet commerce, especially in their own borders. Almost immediately after it was 
+
+signed, detractors dubbed the U.S. CAN-SPAM act the “You Can Spam” act because 
+
+it does not require emailers to obtain permission from the intended recipient before 
+
+sending email messages. The act requires emailers to provide an opt-out procedure, but 
+
+marginally legal or illegal senders will not care about violating that provision
+Redress for an offshore agent requires international cooperation, which is both time 
+consuming and political. Extraditing suspects and seizing assets are not routine activi-
+
+ties, so they tend to be reserved for major, highly visible crimes.
+Thus, although passing laws against spam is easy, writing effective laws and imple-
+menting them is far more difficult. As we describe in Chapter 11, laws are an important 
+
+and necessary part of maintaining a peaceful and fair civil society. Good laws inform 
+
+citizens of honest and proper actions. But laws are not always effective deterrents 
+
+against determined and dedicated actors.Source Addresses The Internet runs on a sort of honor system in which everyone is expected to play by the 
+
+rules. As we noted earlier, source addresses in email can easily be forged. Legitimate 
+
+senders want valid source addresses as a way to support replies; illegitimate senders get 
+
+their responses from web links, so the return address is of no benefit. Accurate return 
+
+addresses only provide a way to track the sender, which illegitimate senders do not want.
+Still, the Internet protocols could enforce stronger return addresses. Each recipient 
+in the chain of email forwarding could enforce that the address of the sender match 
+
+the system from which this email is being transmitted. Such a change would require 
+
+a rewriting of the email protocols and a major overhaul of all email carriers on the 
+
+Internet, which is unlikely unless 
+
+there is another compelling reason, 
+not security.
+Screeners Among the first countermeasures developed against spam were screeners, tools to auto-
+
+matically identify and quarantine or delete spam. As with similar techniques such as 
+
+virus detection, spammers follow closely what gets caught by screeners and what slips 
+
+through, and revise the form and content of spam email accordingly.
+Screeners are highly effective against amateur spam senders, but sophisticated mail-
+ers can pass through screeners.Volume Limitations 
+One proposed option is to limit the volume of a single sender or a single email system. 
+
+Most of us send individual email messages to one or a few parties; occasionally we may 
+
+send to a mass mailing list. Limiting our sending volume would not be a serious hard-
+
+ship. The volume could be per hour, day, or any other convenient unit. Set high enough 
+
+the limits would never affect individuals.
+Email sender addresses are not reliable.

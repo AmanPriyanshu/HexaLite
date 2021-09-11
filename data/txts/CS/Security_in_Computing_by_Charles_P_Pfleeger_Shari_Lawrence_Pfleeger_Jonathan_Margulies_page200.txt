@@ -1,0 +1,66 @@
+166 Chapter 3  
+Programs and ProgrammingIf the malicious programmer acts too early, no temporary file has yet been created, 
+and if the programmer acts too late, the file has been created and is already in use. But 
+
+if the programmer’s timing is between too early and too late, Tripwire will innocently 
+
+write its temporary data over whatever file is pointed at. Although this timing may seem 
+
+to be a serious constraint, the attacker has an advantage: If the attacker is too early, the 
+
+attacker can try again and again until either the attack succeeds or is too late.
+Thus, race conditions can be hard to detect; testers are challenged to set up exactly 
+the necessary conditions of system load and timing. For the same reason, race condition 
+
+threats are hard for the attacker to execute. Nevertheless, if race condition vulnerabili-
+
+ties exist, they can also be exploited.
+The vulnerabilities we have presented here—incomplete mediation, race conditions, 
+time-of-check to time-of-use, and undocumented access points—are flaws that can be 
+
+exploited to cause a failure of security. Throughout this book we describe other sources 
+
+of failures because programmers have many process points to exploit and opportunities to 
+
+create program flaws. Most of these flaws may have been created because the program-
+
+mer failed to think clearly and carefully: simple human errors. Occasionally, however, 
+
+the programmer maliciously planted an intentional flaw. Or, more likely, the assailant 
+
+found one of these innocent program errors and exploited it for malicious purpose. In the 
+
+descriptions of program flaws we have pointed out how an attacker could capitalize on the 
+
+error. In the next section we explain in more detail the harm that malicious code can cause.
+3.2 MALICIOUS CODE—MALWARE
+In May 2010, researcher Roger Thompson of the antivirus firm AVG detected malicious 
+
+code at the web site of the U.S. Bureau of Engraving and Printing, a part of the Treasury 
+
+Department [MCM10]. The site has two particularly popular sections: a description 
+
+of the design of the newly redesigned U.S. $100 bill and a set of steps for identifying 
+
+counterfeit currency. 
+The altered web site contained a hidden call to a web site in the Ukraine, which then attempted to exploit known vulnerabilities in the web site to lodge malicious code on 
+
+unsuspecting users’ machines. Visitors to the site would download pictures and text, as 
+
+expected; what visitors couldn’t see, and probably did not expect, was that they also 
+
+downloaded an additional web code script that invoked code at the Ukrainian site.
+The source of the exploit is unknown; some researchers think it was slipped into the 
+site’s tracking tool that tallies and displays the number of visits to a web page. Other 
+
+researchers think it was introduced in a configuration flaw from the company acting as 
+
+the Treasury Department’s web site provider.
+Two features of this attack are significant. First, U.S. government sites are seldom 
+unwitting propagators of code attacks because administrators strongly defend the sites 
+and make them resistant to attackers. But precisely those characteristics make users 
+
+more willing to trust these sites to be free of malicious code, so users readily open their 
+windows and download their content, which makes such sites attractive to attackers.
+Second, this attack seems to have used the Eleonore attack toolkit [FIS10]. The 
+kit is a package of attacks against known vulnerabilities, some from as long ago as 

@@ -1,0 +1,59 @@
+848 PART FIVE  
+ADVANCED TOPICS
+community has made progress as it attempts to capture past knowledge and 
+reuse proven solutions, a significant percentage of the software that is built 
+
+today continues to be built “from scratch.” Part of the reason for this is a con-
+tinuing desire (by stakeholders and software engineering practitioners) for 
+
+“unique solutions.” 
+ In the hardware world, original equipment manufacturers (OEMs) of digital devices use application-speciﬁ c standard products (ASSPs) produced by sili-
+con vendors almost exclusively. This “merchant hardware” provides the build-
+
+ing blocks necessary to implement everything from a smartphone to a wearable 
+computing device. Increasingly, the same OEMs are using “merchant software”—
+
+software building blocks designed speciﬁ cally for a unique application domain 
+[e.g., VoIP devices]. Michael Ward [War07] comments:
+  
+One advantage of the use of software components is that the OEM can leverage the functionality provided by the software without having to develop in-house expertise 
+in the speciﬁ c functions or invest developer time on the effort to implement and vali-
+date the components. Other advantages include the ability to acquire and deploy only 
+the speciﬁ c set of functionalities that are needed for the system, as well as the ability 
+to integrate these components into an already-existing architecture.  
+  
+In addition to components packaged as merchant software, there is an increas-ing tendency to adopt  software platform solutions
+ 
+ that “incorporate collections of 
+related functionalities, typically provided within an integrated software frame-
+work” [War07]. A software platform frees an OEM from the work associated with 
+
+developing base functionality and instead allows the OEM to dedicate software 
+effort on those features that differentiate its product.   
+ 
+ 
+38.4.6   
+Changing Perceptions of “Value” 
+ 
+During the last quarter of the 20th century, the operative question that business-
+people asked when discussing software was: Why does it cost so much? That 
+question is rarely asked today and has been replaced by: Why can’t we get it 
+(software and/or the software-based product) sooner?  When computer software is considered, the modern perception of value 
+is changing from business value (cost and proﬁ tability) to customer values 
+that include: speed of delivery, richness of functionality, and overall product 
+
+quality. 
+  
+ 
+ 
+38.4.7   
+Open Source 
+ 
+Who owns the software you or your organization uses? Increasingly, the an-
+swer is “everyone.” The “open source” movement has been described in the 
+
+following manner [OSO12]: “Open source is a development method for soft-
+ware that harnesses the power of distributed peer review and transparency of 
+
+process. The promise of open source is better quality, higher reliability, more 
+pre22126_ch38_839-859.indd   848pre22126_ch38_839-859.indd   84813/12/13   6:17 PM13/12/13   6:17 PM

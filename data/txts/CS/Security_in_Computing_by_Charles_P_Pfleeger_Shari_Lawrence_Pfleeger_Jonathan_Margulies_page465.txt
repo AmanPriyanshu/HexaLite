@@ -1,0 +1,79 @@
+ Section 6.5  Distributed Denial-of-Service 
+431  battle with the creators of Bagle and MyDoom, who produced better versions of their 
+code, which led to new versions of NetSky, and so on, for a total of 30 separate strains 
+
+of NetSky. According to one security expert, Mikko Hypponen of f-Secure, NetSky was 
+
+more effective at reducing the flow of spam than anything that had happened in the U.S. 
+
+Congress or courts. Unfortunately, it also consumed large amounts of system resources 
+
+and bombarded numerous commercial clients with email. Later versions of the worm 
+
+launched denial-of-service attacks against places Jaschen disliked. Two years after the 
+
+virus’s release, it was still the most prevalent virus infection worldwide, according to 
+
+security firm Sophos [SOP04].
+Two months after releasing NetSky, on his eighteenth birthday, Jaschen wrote and 
+released a highly destructive Internet-based virus named Sasser that forced computers 
+
+to reboot constantly. He was arrested by German authorities, and convicted and sen-
+
+tenced to a 31-month suspended sentence and three years’ probation.
+Coping with DDoS AttacksDDoS attacks are not hard to prevent, at least in theory. Most bots are conscripted using 
+well-known vulnerabilities, for which patches have been distributed for some time. 
+
+Thus, if the entire world would just install patches in a timely manner, the DDoS threat 
+
+would diminish. Some computer users, however, do not have legal copies of their operat-
+
+ing systems and other software, so they cannot subscribe for and obtain patches through 
+
+the manufacturers’ chains. Computer software is one of a small number of commodi-
+
+ties, including illegal firearms and illicit drugs, in which the black market also affects 
+
+legitimate consumers. DDoS attacks 
+
+involve some talented programmers 
+
+and analysts in a lucrative game of 
+
+crafting intricate shields around 
+
+creaky old mundane flaws. Until we 
+
+eradicate the flaws, nothing around 
+
+them will improve. That is the point 
+
+where theory meets practice.Administrators can address ordinary DoS attacks by means of techniques such as 
+tuning (adjusting the number of active servers), load balancing (evening the computing 
+
+load across available servers), shunning (reducing service given to traffic from certain 
+
+address ranges), and blacklisting (rejecting connections from certain addresses). These 
+
+same techniques are used against DDoS attacks, applied on a larger scale and at the 
+
+network perimeter. So far most DDoS attacks seem to have been to make a statement or 
+
+focus attention, so after they go on for a while, the attacker concludes the point has been 
+
+made and halts. Some attacks, such as the one described earlier in Sidebar 6-20, aim to 
+extort money from the victims; as with other kinds of extortion attacks, paying the bribe 
+
+may not stop the attack.This discussion of denial of service concludes our examination of the threats to 
+which networked computing is vulnerable. Denial of service is a distinctive problem 
+
+and requires its own countermeasures. Other network attacks involving interception and 
+
+modification employ more well-known controls.
+Bots are co-opted by an agent who 
+
+exploits a vulnerability, typically one 
+
+already known. Vulnerable machines 
+
+can be discovered by scanning.

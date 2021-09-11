@@ -1,0 +1,118 @@
+758 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+organization. Effort is distributed to make best use of resources, and an end date is deﬁ ned after careful analysis of the software. Unfortunately, the ﬁ
+ rst situation 
+is encountered far more frequently than the second.   
+ 
+34.2.1   
+Basic Principles  
+ 
+ 
+ 
+ 
+ 
+Like all other areas of software engineering, a number of basic principles guide software project scheduling:  
+ 
+ 
+ 
+ 
+ 
+ 
+Compartmentalization. 
+ The project must be compartmentalized into a num-ber of manageable activities and tasks. To accomplish compartmentalization, 
+
+both the product and the process are decomposed.    
+ 
+ 
+ 
+ 
+ 
+Interdependency.
+ 
+ The interdependency of each compartmentalized activity or task must be determined. Some tasks must occur in sequence, while others 
+can occur in parallel. Some activities cannot commence until the work product 
+produced by another is available. Other activities can occur independently. 
+   
+ 
+ 
+ 
+ 
+Time allocation.
+ 
+ Each task to be scheduled must be allocated some num-ber of work units (e.g., person-days of effort). In addition, each task must be 
+assigned a start date and a completion date that are a function of the interde-
+pendencies and whether work will be conducted on a full-time or part-time 
+basis.    
+ 
+ 
+ 
+ 
+ 
+Effort validation. 
+ Every project has a deﬁ ned number of people on the soft-
+ware team. As time allocation occurs, you must ensure that no more than the 
+allocated number of people has been scheduled at any given time. For exam-
+ple, consider a project that has three assigned software engineers (e.g., three 
+person-days are available per day of assigned effort).  4 
+ 
+ On a given day, seven 
+concurrent tasks must be accomplished. Each task requires 0.50 person-days of 
+effort. More effort has been allocated than there are people to do the work.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Deﬁ ned responsibilities.
+ 
+ Every task that is scheduled should be assigned to a speciﬁ c team member. 
+   
+ 
+ 
+ 
+ 
+ 
+Deﬁ ned outcomes.
+ 
+ Every task that is scheduled should have a deﬁ ned out-
+come. For software projects, the outcome is normally a work product (e.g., the 
+design of a component) or a part of a work product. Work products are often 
+
+combined in deliverables.    
+ 
+ 
+ 
+ 
+ 
+Deﬁ ned milestones.
+ 
+ Every task or group of tasks should be associated with a project milestone. A milestone is accomplished when one or more work prod-
+ucts has been reviewed for quality (Chapter 19) and has been approved.  
+ 
+  Each of these principles is applied as the project schedule evolves.    When you develop 
+a schedule, 
+compartmentalize 
+
+the work, note task 
+interdependencies, 
+allocate effort and 
+
+time to each task, and 
+deﬁ ne responsibilities, 
+
+outcomes, and 
+milestones.   
+ 
+ 
+ 
+ 
+4.  In reality, less than three person-days of effort are available because of unrelated meetings, 
+sickness, vacation, and a variety of other reasons. For our purposes, however, we assume 
+
+. 
+pre22126_ch34_754-776.indd   758pre22126_ch34_754-776.indd   75813/12/13   10:02 PM13/12/13   10:02 PM

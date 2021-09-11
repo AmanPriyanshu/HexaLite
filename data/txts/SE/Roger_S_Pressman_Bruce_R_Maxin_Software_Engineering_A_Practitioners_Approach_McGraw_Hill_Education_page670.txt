@@ -1,0 +1,124 @@
+640 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+The ﬂ ow of information for conﬁ
+ guration status reporting (CSR) is illustrated 
+in  Figure 29.5  
+ 
+. Each time an SCI is assigned new or updated identiﬁ cation, a CSR 
+entry is made. Each time a change is approved by the CCA (i.e., an ECO is is-
+sued), a CSR entry is made. Each time a conﬁ guration audit is conducted, the 
+results are reported as part of the CSR task. Output from CSR may be placed in 
+an online database or website, so that software developers or support staff can 
+access change information by keyword category. In addition, a CSR report is gen-
+
+erated on a regular basis and is intended to keep management and practitioners 
+appraised of important changes.    Develop a “need to 
+know” list for every 
+
+conﬁ guration object 
+
+and keep it up to 
+date. When a change 
+is made, be sure that 
+everyone on the list is 
+
+notiﬁ ed. 
+  
+ 
+SCM Support   
+ Objective: 
+ SCM tools provide support 
+to one or more of the process activities discussed in Section 29.3.   Mechanics: 
+ Most modern SCM tools work in 
+conjunction with a repository (a database system) and 
+
+provide mechanisms for identiﬁ cation, version and 
+change control, auditing, and reporting. 
+  
+Representative Tools:  
+ 8 
+ 
+ 
+ 
+ 
+  
+ 
+Software Change Manager,
+ 
+ distributed by Computer Associates (  
+http://www.ca.com/us/products/
+detail/ca-change-manager-enterprise-
+workbench.aspx  
+), is a multiplatform SCM system. 
+  
+ClearCase, 
+ developed by Rational, provides a family of SCM functions (  
+http://www-03.ibm.com/software/products/us/en/clearcase 
+ 
+).   
+Serena Dimensions CMF,
+ 
+ distributed by Serena (  
+http://www.serena.com/index.php/en/products/
+dimensions-cm/  
+), provides a full set of SCM tools that are applicable for both conventional software 
+and WebApps. 
+  
+Allura, 
+ distributed by SourceForge Inc. (  
+http://sourceforge.net/p/allura/wiki/Allura%20
+
+Wiki/  
+), provides version management, build capabilities, issue/bug tracking, and many other 
+management features.   
+SurroundSCM, 
+ developed by Seapine Software, provides complete change management capabilities 
+(  
+www.seapine.com 
+ 
+).   
+Vesta,
+ 
+ distributed by Compac, is a public-domain SCM 
+system that can support both small (<10 KLOC) and 
+
+large (10,000 KLOC) projects (  
+www.vestasys.org 
+ 
+). 
+ A comprehensive list of commercial SCM tools and 
+environments can be found at   
+www.cmtoday.com 
+ 
+.   
+SOFTWARE
+ TOOLS  
+ 
+8  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+  
+9  See [Pre08] for a comprehensive discussion of Web engineering methods. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 29.4  
+CONFIGURATION
+ MANAGEMENT FOR WEB AND MOBILEAPPS  
+ 
+Earlier in this book, we discussed the special nature of Web and MobileApps 
+and the specialized methods  9 
+ 
+ 
+ 
+ that are required to build them. Among the many 
+characteristics that differentiate these applications from traditional software is 
+the ubiquitous nature of change.  Web and mobile developers often use an iterative, incremental process model 
+that applies many principles derived from agile software development (Chap-
+pre22126_ch29_623-652.indd   640pre22126_ch29_623-652.indd   64013/12/13   6:16 PM13/12/13   6:16 PM

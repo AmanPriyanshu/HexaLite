@@ -1,0 +1,140 @@
+CHAPTER 16  
+PATTERN-BASED DESIGN
+ 351 
+ 
+ 
+ 
+16.1.2  Frameworks 
+ 
+ 
+ 
+ 
+ 
+ 
+Patterns themselves may not be sufﬁ cient to develop a complete design. In some 
+cases it may be necessary to provide an implementation-speciﬁ c skeletal infra-
+structure, called a  framework, 
+ for design work. That is, you can select a “ 
+reusable 
+mini-architecture
+ 
+ that provides the generic structure and behavior for a family of 
+which speciﬁ
+ es their collaboration 
+and use within a given domain” [Amb98].  A framework is not an architectural pattern, but rather a skeleton with a col-lection of “plug points” (also called  hooks 
+ and  
+slots 
+) that enable it to be adapted to a speciﬁ c problem domain. The plug points enable you to integrate problem-
+speciﬁ c classes or functionality within the skeleton. In an object-oriented con-
+text, a framework is a collection of cooperating classes.  Gamma and his colleagues [Gam95] describe the differences between design patterns and frameworks in the following manner:  
+ 
+ 
+1.   
+ 
+Design patterns are more abstract than frameworks
+ 
+. Frameworks can be embod-ied in code, but only  examples 
+ of patterns can be embodied in code. A strength of 
+frameworks is that they can be written down in programming languages and not 
+   
+ 
+2.   
+ 
+Design patterns are smaller architectural elements than frameworks
+ 
+. A typical framework contains several design patterns but the reverse is never true.    
+ 
+3.   
+ 
+Design patterns are less specialized than frameworks
+ 
+. Frameworks always have a particular application domain. In contrast, design patterns can be used in nearly 
+any kind of application. While more specialized design patterns are certainly pos-
+sible, even these wouldn’t dictate an application architecture.  
+ 
+    A  
+framework  is a 
+reusable “mini-
+architecture” that 
+serves as a foundation 
+
+from which other 
+design patterns can be 
+
+applied.   
+ 
+•   
+Aggregate pattern: 
+ a version of the composite pattern with methods for aggregation of children. 
+  
+ 
+ 
+•   
+Composite pattern: 
+ a tree structure of objects where every object has the same interface. 
+  
+ 
+ 
+•   
+Container pattern: 
+ create objects for the sole purpose of holding other objects and managing 
+them.   
+ 
+ 
+•   
+Proxy pattern:
+ 
+ a class functioning as an interface 
+to another thing.   
+ 
+ 
+•   
+Pipes and ﬁ lters: 
+ a chain of processes where the output of each process is the input of the next.   
+ 
+ 
+ 
+Behavioral Patterns  
+ 
+ 
+ 
+•   
+Chain of responsibility pattern: 
+ Command objects are handled or passed on to other objects by 
+logic-containing processing objects.   
+ 
+ 
+•   
+Command pattern: 
+ Command objects encapsulate an action and its parameters.   
+ 
+ 
+•   
+Iterator pattern: 
+ Iterators are used to access the elements of an aggregate object sequentially without 
+exposing its underlying representation.   
+ 
+ 
+•   
+Mediator pattern: 
+ Provides a uniﬁ ed interface to 
+a set of interfaces in a subsystem. 
+  
+ 
+ 
+•   
+Visitor pattern:
+ 
+ A way to separate an algorithm from an object.   
+ 
+ 
+•   
+Hierarchical visitor pattern: 
+ Provide a way to visit every node in a hierarchical data structure such 
+
+as a tree.    
+Comprehensive descriptions of each of these patterns 
+can be obtained via links at   
+www.wikipedia.org 
+ 
+.  pre22126_ch16_347-370.indd   351pre22126_ch16_347-370.indd   35116/12/13   6:22 PM16/12/13   6:22 PM

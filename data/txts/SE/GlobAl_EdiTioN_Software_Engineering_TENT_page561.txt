@@ -1,0 +1,40 @@
+˜˜˚˛˜˜˜˜
+˜˜
+behave in an unpredictable way. Now assume that this system is installed close to an 
+air conditioner. If this air conditioner fails and vents hot gas over the electronics, then 
+
+the system may overheat. The components, and hence the whole system may then fail.If this system had been installed elsewhere in that environment, this problem 
+would not have occurred. When the air conditioner worked properly, there were no 
+problems. However, because of the physical closeness of these machines, an unan
+-
+ticipated relationship existed between them that led to system failure.Like reliability, emergent properties such as performance or usability are hard to assess but can be measured after the system is operational. Properties such as safety 
+and security, however, are not directly measurable. Here, you are not simply con-cerned with attributes that relate to the behavior of the system but also with unwanted 
+
+or unacceptable behavior.A secure system is one that does not allow unauthorized access to its data. 
+Unfortunately, it is clearly impossible to predict all possible modes of access and 
+
+explicitly forbid them. Therefore, it may only be possible to assess these ﬁshall notﬂ 
+properties after the system is operational. That is, you only know that a system is 
+
+insecure when someone manages to penetrate the system.ˇˇA deterministic system is one that is absolutely predictable. If we ignore issues of 
+
+concurrency, software systems that run on reliable hardware are deterministic. When 
+
+they are presented with a sequence of inputs they will always produce the same 
+
+sequence of outputs. Of course, there is no such thing as completely reliable hardware, 
+
+but hardware is usually reliable enough to think of hardware systems as deterministic.People, on the other hand, are non-deterministic. When presented with exactly 
+the˜same input (say a request to complete a task), their responses will depend on 
+
+their˜emotional and physical state, the person making the request, other people in the 
+
+environment, and whatever else they are doing. Sometimes they will be happy to do 
+
+the work, and, at other times, they will refuse; sometimes they will perform a task 
+
+well, and sometimes they will do it badly.Sociotechnical systems are nondeterministic partly because they include people 
+and partly because changes to the hardware, software, and data in these systems are HardwareSoftwareOperationInitialfailureFailure
+
+propagationFailure
+consequenceFigure 19.6 Failure propagation

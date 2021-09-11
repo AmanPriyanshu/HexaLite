@@ -1,0 +1,35 @@
+CHAPTER 20  
+REVIEW TECHNIQUES 437 
+Requirements-related errors uncovered during testing require an average of 45 person-hours to ﬁ nd and correct (no data are available on the relative severity 
+of the error). Using the averages noted, we get:Effort saved per error 5 Etesting 2 Ereviews 45 
+2 6 5 30 person-hours/error  Since 22 errors were found during the review of the requirements model, a sav-ing of about 660 person-hours of testing effort would be achieved. And that’s just 
+
+for requirements-related errors. Errors associated with design and code would 
+add to the overall beneﬁ t. The bottom line—effort saved leads to shorter delivery 
+cycles and improved time to market.  In his book on peer reviews, Karl Wiegers [Wie02] discusses anecdotal data 
+from major companies that have used  inspections 
+ (a relatively formal type of tech-
+nical review) as part of their software quality control activities. Hewlett-Packard 
+(HP) reported a 10 to 1 return on investment for inspections and noted that ac-
+tual product delivery accelerated by an average of 1.8 calendar months. AT&T 
+
+indicated that inspections reduced the overall cost of software errors by a fac-
+tor of 10 and that quality improved by an order of magnitude and productivity 
+increased by 14 percent. Others report similar beneﬁ ts. Technical reviews (for 
+design and other technical activities) provide a demonstrable cost beneﬁ t and 
+actually save time.  But for many software people, this statement is counterintuitive. “Reviews take time,” software people argue, “and we don’t have the time to spare!” They 
+argue that time is a precious commodity on every software project and the ability 
+to review “every work product in detail” absorbs too much time.  The examples presented previously in this section indicate otherwise. More im-portantly, industry data for software reviews has been collected for more than two 
+
+decades and is summarized qualitatively using the graphs illustrated in  Figure 20.4 . PlanningRequirementsWithout
+inspectionsWith
+inspectionsDeploymentDesignCodeTest
+Effort
+Time  
+FIGURE 20.4 
+Effort 
+expended with 
+and without 
+reviews 
+ Source: Adapted from [Fag86].  
+ pre22126_ch20_431-447.indd   437pre22126_ch20_431-447.indd   43713/12/13   10:01 PM13/12/13   10:01 PM

@@ -1,0 +1,136 @@
+570 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+26.2.1   
+Are Conventional Approaches Applicable? 
+ 
+ 
+ 
+ 
+ 
+ 
+A comprehensive MobileApp testing program includes the generic spiral ap-proach discussed in Chapter 22, but will also include adaptations discussed 
+for client-server architectures, real-time computing, graphical user interfaces, 
+WebApps, and object-oriented systems (Chapters 23–25). MobileApp testing also 
+
+has unique challenges that should be addressed to ensure that an app meets 
+both its functional and nonfunctional requirements.  1 
+ 
+ 
+  Vinson [Vin11] suggests that MobileApp testers adapt the strategy used for test-
+ing WebApps (Chapter 25). Content must be tested to be sure that it was chosen 
+
+with the limitations of mobile devices and ad hoc networks in mind. Compatibility 
+
+testing and deployment testing are more challenging in the mobile world, owing 
+
+to the large variety in device characteristics and user environments. Performance 
+
+testing needs to determine whether the limited storage, processing, connectivity, 
+
+and power available on a mobile device may negatively impact features or func-
+tionality. MobileApp performance testing is often conducted at a level of detail 
+   Those who must test 
+MobileApps are well 
+served by adopting 
+
+the overall strategy for 
+testing WebApps 
+  
+ 
+MobileApp Testing—Checklist 
+  
+Nari Kannnan, CEO of the mobile appli-cations consulting company appsparq, 
+MobileApps [Kan11]:  
+ 
+ 
+•   
+Conceptual testing 
+—Getting input from prospective users of the MobileApp prior to beginning 
+development helps ensure that no unnecessary 
+
+features are included and no essential features have 
+been missed. (Requirements gathering and validation 
+  
+ 
+ 
+•   
+Unit and system testing 
+—Implementing regular unit and system testing accommodates any software 
+application that contains multiple components and 
+interacts with networks (Chapters 22 and 26).   
+ 
+ 
+•   
+User experience testing 
+—Involving real users early in the development process ensures that 
+the experience provided lives up to the usability 
+and accessibility expectations of its stakeholders. 
+MobileApp usability testing is discussed in 
+  
+ 
+ 
+•   
+Stability testing 
+—Ensuring that the MobileApp does not crash owing to incompatibilities with network or Web services. Testing MobileApps 
+in production environments is discussed in 
+  
+ 
+ 
+•   
+Connectivity testing 
+—Testing access to all 
+essential components and Web resources is essential 
+
+to ensuring the MobileApp is making appropriate 
+use of context. Testing across borders is discussed in 
+
+Section 26.6.   
+ 
+ 
+•   
+Performance testing
+ 
+—Testing the ability of the 
+MobileApp to meet its nonfunction requirements 
+(download times, processor speed, storage capacity, 
+
+etc.). Performance testing is discussed in Sections 
+
+26.2.4 and 26.5.   
+ 
+ 
+•   
+Device compatibility testing 
+—Verifying that the 
+MobileApp runs correctly on all targeted devices. The 
+task is discussed in Section 26.2.3.   
+ 
+ 
+•   
+Security testing 
+—Ensuring the MobileApp meets the security requirements set by its stakeholders. 
+Security assurance testing is discussed in Chapter 27.   
+ 
+ 
+•   
+Certiﬁ
+ cation testing 
+—Checking that the MobileApp meets the standards established by the 
+app stores that will distribute it.  
+ 
+ 
+  
+INFO  
+ 
+1  An overview of the unique issues in testing MobileApps can be found at:  
+http://www.utest.com/
+landing-interior/crowdsource-your-mobile-app-testing
+ 
+ pre22126_ch26_567-583.indd   570pre22126_ch26_567-583.indd   57013/12/13   6:15 PM13/12/13   6:15 PM

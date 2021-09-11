@@ -1,0 +1,47 @@
+218 PART TWO  
+MODELINGHowever, when the sequence of interaction is complex and involves multiple 
+analysis classes or many tasks, it is sometimes worthwhile to depict it using a 
+more rigorous diagrammatic form.  The layout of the user interface, the content it presents, the interaction mech-anisms it implements, and the overall aesthetic of the user to app connection 
+have much to do with user satisfaction and the overall success of the app. Al-
+though it can be argued that the creation of a user interface prototype is a design 
+activity, it is a good idea to perform it during the creation of the analysis model. 
+
+The sooner that a physical representation of a user interface can be reviewed, 
+the higher the likelihood that end users will get what they want. The design of 
+user interfaces is discussed in detail in Chapter 15.  Because Web and mobile app construction tools are plentiful, relatively in-
+expensive, and functionally powerful, it is best to create the interface prototype 
+using such tools. The prototype should implement the major navigational links 
+and represent the overall screen layout in much the same way that it will be con-
+structed. For example, if ﬁ ve major system functions are to be provided to the 
+end user, the prototype should represent them as the user will see them upon 
+
+ﬁ rst entering the app. Will graphical links be provided? Where will the naviga-
+tion menu be displayed? What other information will the user see? Questions 
+like these should be answered by the prototype.   
+ 
+11.5.6  Functional Model 
+ 
+Many WebApps deliver a broad array of computational and manipulative func-
+tions that can be associated directly with content (either using it or producing it) 
+and that are often a major goal of user-WebApp interaction. Mobile apps tend to 
+
+be more focused and provide a more limited set of computational and manipu-
+lative functions. Regardless of the breadth of functionality, functional require-
+
+ments should be analyzed, and when necessary, modeled. 
+ The  functional model 
+ addresses two app processing elements, each repre-
+senting a different level of procedural abstraction: (1) user-observable function-
+
+ality that is delivered by the app to end users, and (2) the operations contained 
+within analysis classes that implement behaviors associated with the class.  User-observable functionality encompasses any processing functions that are 
+initiated directly by the user. For example, a ﬁ
+ nancial mobile app might imple-
+ment a variety of ﬁ nancial functions (e.g., computation of mortgage payment). 
+These functions may actually be implemented using operations within analysis 
+classes, but from the point of view of the end user, the function (more correctly, 
+
+the data provided by the function) is the visible outcome.  At a lower level of procedural abstraction, the requirements model describes the processing to be performed by analysis class operations. These operations 
+manipulate class attributes and are involved as classes collaborate with one an-
+other to accomplish some required behavior. 
+pre22126_ch11_202-223.indd   218pre22126_ch11_202-223.indd   21813/12/13   6:12 PM13/12/13   6:12 PM

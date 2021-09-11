@@ -1,0 +1,126 @@
+131  Understanding the requirements of a problem is among the most difﬁ -cult tasks that face a software engineer. When you ﬁ
+ rst think about it, 
+developing a clear understanding of requirements doesn’t seem that hard. After all, doesn’t the customer know what is required? Shouldn’t the 
+end users have a good understanding of the features and functions that will 
+provide beneﬁ t? Surprisingly, in many instances the answer to these ques-
+tions is “no.” And even if customers and end users are explicit in their needs, 
+those needs will change throughout the project.  In the forward to a book by Ralph Young [You01] on effective requirements 
+practices, one of us [RSP] wrote:  
+It’s your worst nightmare. A customer walks into your ofﬁ
+ ce, sits down, looks you 
+straight in the eye, and says, “I know you think you understand what I said, but 
+what you don’t understand is what I said is not what I meant.” Invariably, this hap-
+
+pens late in the project, after deadline commitments have been made, reputations 
+are on the line, and serious money is at stake.  UNDERSTANDING
+REQUIREMENTS   
+ 
+KEY CONCEPTS     analysis patterns  . 157  
+    collaboration. . . . . 140  
+
+    elaboration. . . . . . 135  
+
+    elicitation. . . . . . . 134  
+
+    inception. . . . . . . . 133  
+
+    negotiation. . . . . . . 135 
+     negotiation. . . . . . . 159 
+     quality function 
+
+deployment. . . . . . 146  
+
+    requirements 
+
+engineering. . . . . . 132  
+
+    requirements 
+
+gathering  . . . . . . . 143  
+
+    requirements 
+
+management. . . . . 138  
+
+    requirements 
+
+monitoring  . . . . . . 160  
+
+    speciﬁ
+ cation  . . . . . 135  
+ 
+ 
+ 
+ 
+ 
+CHAPTER8  
+ 
+What is it?   Before you begin any 
+technical work, it’s a good idea to 
+
+create a set of requirements for any 
+
+engineering tasks. These tasks lead to 
+an understanding of what the business impact of 
+
+the software will be, what the customer wants, 
+
+and how end users will interact with the software. 
+  
+ 
+Who does it?   Software engineers (sometimes referred to as system engineers or “analysts” 
+in the IT world) and other project stakeholders 
+(managers, customers, and end users) all par-
+
+ticipate in requirements engineering.   
+ 
+Why is it important? 
+  Designing and building an elegant computer program that solves the 
+wrong problem serves no one’s needs. That’s 
+
+why it’s important to understand what the cus-
+
+tomer wants before you begin to design and 
+build a computer-based system. 
+  
+ 
+What are the steps?   Requirements engineering 
+begins with inception (a task that deﬁ nes the 
+scope and nature of the problem to be solved). 
+
+It moves onward to elicitation (a task that helps 
+stakeholders deﬁ ne what is required), and then 
+elaboration (where basic requirements are re-
+ﬁ ned and modiﬁ
+ ed). As stakeholders deﬁ
+ ne the 
+problem, negotiation occurs (what are the prior-
+
+ities, what is essential, when is it required?) Fi-
+nally, the problem is speciﬁ
+ ed in some manner 
+and then reviewed or validated to ensure that 
+
+your understanding of the problem and the stake-
+holders’ understanding of the problem coincide. 
+  
+ 
+What is the work product? 
+  The intent of re-quirements engineering is to provide all parties 
+
+with a written understanding of the problem. This 
+
+can be achieved though a number of work prod-
+ucts: usage scenarios, functions and features 
+
+lists, requirements models, or a speciﬁ cation. 
+  
+ 
+How do I ensure that I’ve done it right?   Requirements engineering work products are reviewed with stakeholders to ensure that what 
+you have learned is what they really meant. A 
+
+word of warning: Even after all parties agree, 
+
+things will change, and they will continue to 
+change throughout the project.   
+QUICK LOOK pre22126_ch08_131-165.indd   131pre22126_ch08_131-165.indd   13113/12/13   6:11 PM13/12/13   6:11 PM

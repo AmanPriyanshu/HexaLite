@@ -1,0 +1,12 @@
+142 Chapter 3  
+Programs and ProgrammingMemoryAAAAAAAAAABUser’s Data
+(a)Affects user’s data
+MemoryAAAAAAAAAABUser’s Data
+User’s Program Code
+(b)Affects user’s code
+MemoryUser’s Data
+AAAAAAAAAABSystem Data(c)Affects system data
+MemoryAAAAAAAAABUser’s Data
+System Program Code(d)Affects system code
+AFIGURE 3-4 One-Character Overflow
+User 1’scode &dataUser 2’scode &dataOperatingsystem’scode &dataProc MProc M dataProc AProc A dataProc BProc B dataFIGURE 3-5  Memory of Different Procedures for Different Users

@@ -1,0 +1,36 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜3. A scheduler, which is responsible for examining the processes that can be exe-cuted and for choosing one of these processes for execution.4.
+ A resource manager, which allocates appropriate memory and processor 
+
+resources to processes that have been scheduled for execution.5. A dispatcher, which is responsible for starting the execution of processes.Real-time operating systems for large systems, such as process control or telecom-munication systems, may have additional facilities, namely, disk storage management, 
+
+fault management facilities that detect and report system faults, and a configuration 
+
+manager that supports the dynamic reconfiguration of real-time applications.Real-time systems have to handle external events quickly and, in some cases, meet 
+deadlines for processing these events. The event-handling processes must therefore 
+be scheduled for execution in time to detect the event. They must also be allocated 
+sufficient processor resources to meet their deadline. The process manager in an 
+
+RTOS is responsible for choosing processes for execution, allocating processor and 
+memory resources, and starting and stopping process execution on a processor.Process resource
+requirements
+SchedulerSchedulinginformation
+Resource
+manager
+Dispatcher
+Real-time
+clockProcesses
+awaiting
+resources
+Ready
+listInterrupthandlerAvaila
+bleresource
+listProcessor
+listExecuting process
+Ready
+processes
+Released
+resources
+Figure 21.18  Components of a  
+real-time operating  
+system 

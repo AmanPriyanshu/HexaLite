@@ -1,0 +1,79 @@
+106 PART TWO  
+MODELINGBut, as McConnell indicates, core principles—the elemental ideas that guide 
+software engineers in the work that they do—still provide a foundation from 
+
+which software engineering models, methods, and tools can be applied and 
+
+evaluated. 
+  
+ 
+ 
+ 
+ 
+ 7.2 C
+ORE PRINCIPLES    
+ 
+Software engineering is guided by a collection of core principles that help in the application of a meaningful software process and the execution of effective soft-
+ware engineering methods. At the process level, core principles establish a phil-
+osophical foundation that guides a software team as it performs framework and 
+umbrella activities, navigates the process ﬂ ow, and produces a set of software 
+engineering work products. At the level of practice, core principles establish a 
+collection of values and rules that serve as a guide as you analyze a problem, 
+design a solution, implement and test the solution, and ultimately deploy the 
+software in the user community. 
+  In Chapter 2, we identiﬁ ed a set of general principles that span software en-
+gineering process and practice: (1) provide value to end users, (2) keep it simple, 
+(3) maintain the vision (of the product and the project), (4) recognize that others 
+consume (and must understand) what you produce, (5) be open to the future, 
+plan ahead for reuse, and (7) think! Although these general principles are 
+
+important, they are characterized at such a high level of abstraction that they are 
+sometimes difﬁ cult to translate into day-to-day software engineering practice. In 
+the subsections that follow, we take a more detailed look at the core principles 
+
+that guide process and practice.   
+7.2.1  Principles That Guide  
+ 
+Process 
+ 
+  
+In Part 1 of this book we discussed the importance of the software process and 
+described the many different process models that have been proposed for soft-
+ware engineering work. Regardless of whether a model is linear or iterative, 
+
+prescriptive or agile, it can be characterized using the generic process frame-
+work that is applicable for all process models. The following set of core prin-
+ciples can be applied to the framework, and by extension, to every software 
+
+process. 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Principle 1. 
+  Be agile.Be agile. 
+ Whether the process model you choose is prescrip-tive or agile, the basic tenets of agile development should govern your 
+approach. Every aspect of the work you do should emphasize economy 
+of action—keep your technical approach as simple as possible, keep the 
+work products you produce as concise as possible, and make decisions 
+ locally whenever possible.     Every project and every 
+team is unique. That 
+means that you must 
+adapt your process to 
+best ﬁ t your needs. 
+ uote:  “In theory there 
+is no difference 
+
+between theory 
+
+and practice. But, in 
+
+practice, there is.”  
+Jan van de Snepscheut pre22126_ch07_103-130.indd   106pre22126_ch07_103-130.indd   10613/12/13   6:11 PM13/12/13   6:11 PM

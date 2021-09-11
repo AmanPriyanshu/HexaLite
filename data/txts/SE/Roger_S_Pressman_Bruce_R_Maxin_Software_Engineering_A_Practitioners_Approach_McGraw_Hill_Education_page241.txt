@@ -1,0 +1,58 @@
+CHAPTER 11  
+REQUIREMENTS MODELING: BEHAVIOR, PATTERNS, AND WEB/MOBILE APPS
+ 211control) to check the operation state for diagnostic purposes before reading or setting a value. The messages  Set Physical Value
+ 
+ and  
+Get Physical Value
+ 
+ are not 
+messages between objects. Instead, they describe the interaction between the 
+physical devices of the system and their software counterparts. In the lower part 
+of the diagram, below the horizontal line, the  PositionSensor 
+ reports that the op-
+eration state is zero. The  ComputingComponent 
+ then sends the error code for a 
+position sensor failure to the  FaultHandler 
+ that will decide how this error affects 
+the system and what actions are required. It gets the data from the sensors and 
+computes the required response for the actuators. Passive integer
+sensorPassive sensor
+Computing
+component
+Active sensor
+Passive boolean
+sensorPassive complex
+sensorPassive real
+sensorBooleanactuator
+Integer
+actuator
+Complex
+actuator
+Realactuator
+Actuator
+Active boolean
+sensorActive integer
+sensorActive complex
+sensorActive real
+sensor  
+FIGURE 11.3 
+UML sequence diagram for 
+the Actuator-
+
+Sensor pattern. 
+
+ Source: Adapted from [Kon02] with 
+permission.    
+FauntHandler(PositionSensor.
+OpState = 1)PositionSensorControlPanel
+Get operation statePanControlActuatorSenorInputDevicePositionSensorActuatorOutputDevicePanControlGet valueGet operation stateGet operation stateSet valueSet physical valueStore errorGet physical value(PositionSensor.
+OpState = 0)  
+FIGURE 11.4 
+UML Class diagram for 
+the Actuator-
+
+Sensor pattern. 
+
+ Source: Reprinted from [Kon02] with 
+permission.    
+pre22126_ch11_202-223.indd   211pre22126_ch11_202-223.indd   21113/12/13   6:12 PM13/12/13   6:12 PM

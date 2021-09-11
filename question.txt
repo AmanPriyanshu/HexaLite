@@ -1,0 +1,15 @@
+In 2005, the U.S. Computer Science and Telecommunications Board (CSTB) of the 
+National Academies of Science [NRC05] released its study of electronic voting. The 
+report raised questions that must be addressed in any thorough debate about electronic 
+voting. For example, the CSTB asked how an electronic voting process will assure 
+individual privacy in voter registration and in individual votes. In addition, the study 
+emphasized that the public must have confidence in the process; otherwise, the public 
+will not trust the outcome.
+
+Privacy-Preserving Technology
+The critical privacy problem with voting is ensuring accountability in addition to privacy. In many approaches, for example, encrypting a vote with the public key of the 
+election board, could preserve confidentiality. The difficulty is in ensuring that only 
+authorized people can vote (that is, that each vote counted is the submission of one 
+authorized voter), and that an authorized person can vote only once. These last characteristics could similarly be handled easily, if only we did not need to ensure privacy of 
+an individual’s choices. Anything that associates a countable vote with a specific named 
+individual destroys the voter’s privacy.

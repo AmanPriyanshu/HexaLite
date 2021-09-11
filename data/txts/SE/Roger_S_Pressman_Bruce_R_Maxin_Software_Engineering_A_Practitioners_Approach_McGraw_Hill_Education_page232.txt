@@ -1,0 +1,102 @@
+202  
+ 
+ 
+CHAPTER 
+KEY CONCEPTS     analysis patterns  . .208 
+     behavioral model. . 203   
+
+   conﬁ
+ guration 
+models. . . . . . . . . 219   
+
+   content model. . . . 216   
+
+   events  . . . . . . . . . 203   
+
+   functional model . . 218   
+
+   interaction model  . .217 
+     navigation 
+
+modeling  . . . . . . . 220   
+
+   sequence diagrams  205   
+
+   state diagrams  . . . 204   
+
+   state representations 204    
+  
+ 
+ 
+ 
+ 
+ 
+ After our discussion of scenario-based and class-based models in Chap-ters 9 and 10, it’s reasonable to ask, “Aren’t those requirement model-
+
+ing representations enough?”  The only reasonable answer is, “That depends.”  For some types of software, the use case may be the only requirements mod-eling representation that is required. For others, an object-oriented approach 
+is chosen and class-based models may be developed. But in other situations, 
+complex application requirements may demand an examination of how an 
+application behaves as a consequence of external events; whether existing 
+domain knowledge can be adapted to the current problem; or in the case of 
+Web-based or mobile systems and applications, how content and functionality 
+
+meld to provide an end user with the ability to successfully navigate an appli-
+cation to achieve usage goals.  REQUIREMENTS MODELING: BEHAVIOR
+, PATTERNS
+, AND WEB/MOBILE APPS 11   
+What is it?   In this chapter you’ll learn about other dimensions of the 
+
+requirements model—behavioral 
+models, patterns, and the special re-
+quirements analysis considerations that come 
+into play when WebApps are developed. 
+
+Each of these modeling representations sup-
+plements the scenario-based and class-based 
+models discussed in Chapters 9 and 10.   
+ 
+Who does it?   A software engineer (sometimes called an analyst) builds the model using re-
+quirements elicited from various stakeholders.   
+ 
+Why is it important? 
+  Your insight into soft-
+ware requirements grows in direct proportion 
+
+to the number of different requirements model-
+ing dimensions. Although you may not have 
+the time, the resources, or the inclination to 
+develop every representation suggested in 
+
+Chapters 9 to 11, recognize that each differ-
+
+ent modeling approach provides you with a 
+different way of looking at the problem. As a 
+consequence, you (and other stakeholders) will be better able to assess whether you’ve prop-erly speciﬁ ed what must be accomplished. 
+  
+ 
+What are the steps?   Behavioral model-ing depicts the states of the system and its 
+classes and the impact of events on these 
+states. Pattern-based modeling makes use of 
+
+existing domain knowledge to facilitate re-
+quirements analysis. WebApp requirements 
+
+models are especially adapted for the repre-
+sentation of content, interaction, function, and 
+conﬁ guration-related requirements. 
+  
+ 
+What is the work product? 
+  A wide array of text-based and diagrammatic forms may be 
+
+chosen for the requirements model. Each of 
+these representations provides a view of one 
+or more of the model elements.   
+ 
+How do I ensure that I’ve done it right?   Re-quirements modeling work products must be 
+reviewed for correctness, completeness, and 
+consistency. They must reﬂ
+ ect the needs of all 
+stakeholders and establish a foundation from 
+which design can be conducted.   
+QUICK LOOK pre22126_ch11_202-223.indd   202pre22126_ch11_202-223.indd   20213/12/13   6:12 PM13/12/13   6:12 PM

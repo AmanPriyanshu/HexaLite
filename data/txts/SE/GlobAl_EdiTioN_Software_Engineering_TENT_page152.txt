@@ -1,0 +1,43 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜ˇˇGeneralization is an everyday technique that we use to manage complexity. 
+Rather than learn the detailed characteristics of everything that we experience, we 
+
+learn about general classes (animals, cars, houses, etc.) and learn the characteris-tics of these classes. We then reuse knowledge by classifying things and focus on 
+
+the differences between them and their class. For example, squirrels and rats are 
+
+members of the class ﬁrodents,ﬂ and so share the characteristics of rodents. 
+
+General statements apply to all class members; for example, all rodents have teeth 
+
+for gnawing.When you are modeling systems, it is often useful to examine the classes in a 
+ system to see if there is scope for generalization and class creation. This means 
+
+that common information will be maintained in one place only. This is good design 
+
+practice as it means that, if changes are proposed, then you do not have to look at 
+
+all classes in the system to see if they are affected by the change. You can make the 
+
+changes at the most general level. In object-oriented languages, such as Java, 
+ generalization is implemented using the class inheritance mechanisms built into 
+
+the language.The UML has a specific type of association to denote generalization, as illus
+-trated in Figure 5.11. The generalization is shown as an arrowhead pointing up to 
+
+the more general class. This indicates that general practitioners and hospital doctors 
+
+can be generalized as doctors and that there are three types of Hospital Doctor: 
+
+those who have just graduated from medical school and have to be supervised 
+
+(Trainee Doctor); those who can work unsupervised as part of a consultant™s team 
+
+(Registered Doctor); and consultants, who are senior doctors with full decision-
+making responsibilities.In a generalization, the attributes and operations associated with higher-level 
+classes are also associated with the lower-level classes. The lower-level classes are 
+subclasses that inherit the attributes and operations from their superclasses. These 
+
+lower-level classes then add more specific attributes and operations.DoctorGeneralpractitionerHospitaldoctorConsultantTeam doctor
+Trainee
+doctorQualifieddoctorFigure 5.11 A generalization hierarchy

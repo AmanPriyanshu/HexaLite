@@ -1,0 +1,74 @@
+136 Chapter 3  
+Programs and ProgrammingMemory Allocation Memory is a limited but flexible resource; any memory location can hold any piece of 
+
+code or data. To make managing computer memory efficient, operating systems jam one 
+
+data element next to another, without regard for data type, size, content, or purpose.
+1 Users and programmers seldom know, much less have any need to know, precisely 
+
+which memory location a code or data item occupies.Computers use a pointer or register known as a 
+program counter
+ that indicates the 
+next instruction. As long as program flow is sequential, hardware bumps up the value 
+
+in the program counter to point just after the current instruction as part of performing 
+that instruction. Conditional instructions such as IF(), branch instructions such as loops 
+(WHILE, FOR) and unconditional transfers such as GOTO or CALL divert the flow 
+
+of execution, causing the hardware to put a new destination address into the program 
+
+counter. Changing the program counter causes execution to transfer from the bottom of 
+
+a loop back to its top for another iteration. Hardware simply fetches the byte (or bytes) 
+
+at the address pointed to by the program counter and executes it as an instruction.
+Instructions and data are all binary strings; only the context of use says a byte, for 
+example, 0x41 represents the letter A, the number 65, or the instruction to move the 
+
+contents of register 1 to the stack pointer. If you happen to put the data string “A” in 
+
+the path of execution, it will be executed as if it were an instruction. In Figure 3-1 we 
+
+show a typical arrangement of the contents of memory, showing code, local data, the 
+
+heap (storage for dynamically created data), and the stack (storage for subtask call and 
+return data). As you can see, instructions move from the bottom (low addresses) of 
+
+memory up; left unchecked, execution would proceed through the local data area and 
+
+into the heap and stack. Of course, execution typically stays within the area assigned to 
+
+program code.Not all binary data items represent valid instructions. Some do not correspond to any 
+defined operation, for example, operation 0x78 on a machine whose instructions are all 
+
+numbers between 0x01 and 0x6f. Other invalid forms attempt to use nonexistent hard-
+
+ware features, such as a reference to register 9 on a machine with only eight hardware 
+
+registers.
+To help operating systems implement security, some hardware recognizes more than 
+one mode of instruction: so-called privileged instructions that can be executed only 
+
+when the processor is running in a protected mode. Trying to execute something that 
+
+does not correspond to a valid instruction or trying to execute a privileged instruction 
+
+when not in the proper mode will cause a program fault
+. When hardware generates a 
+program fault, it stops the current thread of execution and transfers control to code that 
+
+will take recovery action, such as halting the current process and returning control to 
+
+the supervisor.
+1. Some operating systems do separate executable code from nonexecutable data, and some hardware can 
+provide different protection to memory addresses containing code as opposed to data. Unfortunately, 
+
+however, for reasons including simple design and performance, most operating systems and hardware do 
+
+not implement such separation. We ignore the few exceptions in this chapter because the security issue of 
+
+buffer overflow applies even within a more constrained system. Designers and programmers need to be 
+
+aware of buffer overflows, because a program designed for use in one environment is sometimes trans-
+
+ported to another less protected one.

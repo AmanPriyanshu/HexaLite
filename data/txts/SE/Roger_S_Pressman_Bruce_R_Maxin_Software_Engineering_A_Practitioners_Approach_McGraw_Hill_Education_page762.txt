@@ -1,0 +1,72 @@
+732 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+a single individual may perform all software engineering tasks, consulting with specialists as required. For larger projects, the software team may be geograph-
+ically dispersed across a number of different locations. Hence, the location of 
+each human resource is speciﬁ ed. 
+ The number of people required for a software project can be determined only after an estimate of development effort (e.g., person-months) is made. Tech-
+
+niques for estimating effort are discussed later in this chapter. 
+  
+ 
+ 
+33.4.2   
+Reusable Software Resources 
+ 
+Component-based software engineering (CBSE) 
+ 
+4 
+ 
+ emphasizes reusability—that is, 
+the creation and reuse of software building blocks. Such building blocks, often 
+called  components, 
+ must be cataloged for easy reference, standardized for easy 
+application, and validated for easy integration. Bennatan [Ben00] suggests four 
+software resource categories that should be considered as planning proceeds: 
+ off-the-shelf components 
+ (existing software that can be acquired from a third 
+party or from a past project),  full-experience components 
+ (existing speciﬁ
+ cations, 
+designs, code, or test data developed for past projects that are similar to the soft-
+ware to be built for the current project),  partial-experience components 
+ (existing 
+speciﬁ cations, designs, code, or test data developed for past projects that are 
+related to the software to be built for the current project but will require substan-
+tial modiﬁ cation), and  
+new components 
+ (components built by the software team 
+speciﬁ cally for the needs of the current project). 
+ 
+ 
+  Ironically, reusable software components are often neglected during plan-
+ning, only to become a paramount concern during the development phase of the 
+software process. It is better to specify software resource requirements early. In 
+
+this way technical evaluation of the alternatives can be conducted and timely 
+acquisition can occur. 
+  
+ 
+ 
+33.4.3   
+Environmental Resources 
+ 
+The environment that supports a software project, often called the  software engi-
+neering environment
+ 
+ (SEE), incorporates hardware and software. Hardware pro-vides a platform that supports the tools (software) required to produce the work 
+products that are an outcome of good software engineering practice.  5 
+ 
+ Because 
+most software organizations have multiple constituencies that require access to 
+the SEE, you must prescribe the time window required for hardware and soft-
+ware and verify that these resources will be available.  
+  When a computer-based system (incorporating specialized hardware and soft-
+ware) is to be engineered, the software team may require access to hardware 
+  
+4  CBSE was considered in Chapter 14. 
+  
+5  Other hardware—the  
+target environment
+ 
+—is the computer on which the software will execute when it has been released to the end user. 
+pre22126_ch33_727-753.indd   732pre22126_ch33_727-753.indd   73213/12/13   6:17 PM13/12/13   6:17 PM

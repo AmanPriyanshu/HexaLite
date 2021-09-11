@@ -1,0 +1,104 @@
+482 PART THREE  
+QUALITY MANAGEMENT 
+There are two different strategies for integration testing of OO systems [Bin94b]. The ﬁ rst,  
+thread-based testing,
+ 
+ integrates the set of classes required 
+to respond to one input or event for the system. Each thread is integrated and 
+tested individually. Regression testing is applied to ensure that no side effects 
+
+occur. The second integration approach,  
+use-based testing, 
+ begins the construc-
+tion of the system by testing those classes (called  independent classes 
+) that use very few (if any)  server 
+ classes. After the independent classes are tested, the next 
+layer of classes, called  dependent classes, 
+ that use the independent classes are 
+tested. This sequence of testing layers of dependent classes continues until the 
+entire system is constructed.   
+ 
+ 
+ 
+ 
+The use of drivers and stubs also changes when integration testing of OO sys-tems is conducted. Drivers can be used to test operations at the lowest level and 
+for the testing of whole groups of classes. A driver can also be used to replace 
+the user interface so that tests of system functionality can be conducted prior to 
+implementation of the interface. Stubs can be used in situations in which collab-
+oration between classes is required but one or more of the collaborating classes 
+has not yet been fully implemented.   
+Cluster testing 
+ is one step in the integration testing of OO software. Here, a 
+cluster of collaborating classes (determined by examining the CRC and object-
+relationship model) is exercised by designing test cases that attempt to uncover 
+errors in the collaborations.   
+ 
+ 
+ 
+ 
+ 22.5  
+TEST STRATEGIES
+ FOR WEBAPPS  
+ 
+The strategy for WebApp testing adopts the basic principles for all software test-
+ing and applies a strategy and tactics that are used for object-oriented systems. 
+The following steps summarize the approach:  
+ 
+ 
+ 1.
+  The content model for the WebApp is reviewed to uncover errors. 
+  
+ 
+ 
+ 2.
+  The interface model is reviewed to ensure that all use cases can be accommodated.   
+ 
+ 
+ 3.
+  The design model for the WebApp is reviewed to uncover navigation 
+errors.   
+ 
+ 
+ 4.
+  The user interface is tested to uncover errors in presentation and/or navi-gation mechanics.   
+ 
+ 
+ 5.
+  Each functional component is unit tested.   
+ 
+ 
+ 6.
+  Navigation throughout the architecture is tested.   
+ 
+ 
+ 7.
+  The WebApp is implemented in a variety of different environmental con-
+ﬁ gurations and is tested for compatibility with each conﬁ
+ guration. 
+  
+ 
+ 
+ 8.
+  Security tests are conducted in an attempt to exploit vulnerabilities in the WebApp or within its environment. 
+    An important strategy 
+for integration testing 
+of OO software is 
+thread-based testing. 
+Threads are sets of 
+classes that respond 
+to an input or event. 
+Use-based tests focus 
+on classes that do not 
+collaborate heavily 
+with other classes.    The overall strategy for 
+
+WebApp testing can be 
+
+summarized in the 10 
+steps noted here.  WebRef 
+ Excellent articles on 
+WebApp testing can be 
+
+found at   
+www.stickyminds.com/
+testing.asp   pre22126_ch22_466-495.indd   482pre22126_ch22_466-495.indd   48213/12/13   6:14 PM13/12/13   6:14 PM

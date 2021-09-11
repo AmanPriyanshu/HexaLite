@@ -1,0 +1,86 @@
+CHAPTER 32  
+PROCESS AND PROJECT METRICS 723measures. A detailed discussion of these steps is best left to the SEI’s guidebook. 
+However, a brief overview of key points is worthwhile. 
+  
+ 
+ 
+ 
+ 
+Because software supports business functions, differentiates computer-based 
+systems or products, or acts as a product in itself, goals deﬁ ned for the busi-
+ness can almost always be traced downward to speciﬁ c goals at the software 
+engineering level. For example, consider the  SafeHome 
+ product. Working as a 
+team, software engineering and business managers develop a list of prioritized 
+ business goals:   
+ 
+ 
+1.  Improve our customers’ satisfaction with our products.   
+ 
+ 
+ 2.
+  Make our products easier to use.   
+ 
+ 
+ 3.
+  Reduce the time it takes us to get a new product to market.   
+ 
+ 
+ 4.
+  Make support for our products easier. 
+  
+ 
+ 
+ 5.
+  Improve our overall proﬁ tability. 
+    
+The software organization examines each business goal and asks: “What ac-tivities do we manage, execute, or support and what do we want to improve 
+
+within these activities?” To answer these questions the SEI recommends the 
+
+creation of an “entity-question list” in which all things (entities) within the 
+
+software process that are managed or influenced by the software organiza-
+tion are noted. Examples of entities include development resources, work 
+
+products, source code, test cases, change requests, software engineering 
+
+tasks, and schedules. For each entity listed, software people develop a set of 
+
+questions that assess quantitative characteristics of the entity (e.g., size, cost, 
+
+time to develop). The questions derived as a consequence of the creation of 
+
+an entity-question list lead to the derivation of a set of subgoals that relate 
+
+directly to the entities created and the activities performed as part of the 
+
+software process. 
+ Consider the fourth goal: “Make support for our products easier.” The follow-
+ing list of questions might be derived for this goal [Par96b]:   
+ 
+ 
+•  Do customer change requests contain the information we require to ade-quately evaluate the change and then implement it in a timely manner?   
+ 
+ 
+•  How large is the change request backlog?   
+ 
+ 
+•  Is our response time for ﬁ xing bugs acceptable based on customer need? 
+  
+ 
+ 
+•  Is our change control process (Chapter 29) followed?   
+ 
+ 
+•  Are high-priority changes implemented in a timely manner?  
+ 
+  Based on these questions, the software organization can derive the following sub-goal:  Improve the performance of the change management process.
+ 
+ The software 
+process entities and attributes that are relevant to the subgoal are identiﬁ ed, 
+and the measurement goals associated with them are delineated.    The software metrics 
+you choose should be 
+driven by the business 
+and technical goals you 
+wish to accomplish. pre22126_ch32_703-726.indd   723pre22126_ch32_703-726.indd   72313/12/13   6:17 PM13/12/13   6:17 PM

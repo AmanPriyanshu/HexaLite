@@ -1,0 +1,37 @@
+˜˜˚˛˙˜˜˜˜˜˜
+3. Additive composition This occurs when two or more components are put together 
+(added) to create a new component, which combines their functionality. The ﬁpro-
+videsﬂ interface and ﬁrequiresﬂ interface of the new component are a combination 
+
+of the corresponding interfaces in components A and B. The components are 
+
+called separately through the external interface of the composed component and 
+
+may be called in any order. A and B are not dependent and do not call each other. 
+
+This type of composition may be used with embedded or service components.You might use all the forms of component composition when creating a system. In all cases, you may have to write ﬁglue codeﬂ that links the components. For exam-
+ple, for sequential composition, the output of component A typically becomes the 
+
+input to component B. You need intermediate statements that call component A, 
+
+collect the result, and then call component B, with that result as a parameter. When 
+
+one component calls another, you may need to introduce an intermediate component 
+that ensures that the ﬁprovidesﬂ interface and the ﬁrequiresﬂ interface are compatible.When you write new components especially for composition, you should design the 
+interfaces of these components so that they are compatible with other components in 
+
+the system. You can therefore easily compose these components into a  single unit. 
+However, when components are developed independently for reuse, you will often be 
+
+faced with interface incompatibilities. This means that the interfaces of the components 
+
+that you wish to compose are not the same. Three types of incompatibility can occur:1. Parameter incompatibility The operations on each side of the interface have the 
+same name, but their parameter types or the number of parameters are different. In 
+
+Figure 16.
+11, the location parameter returned by addressFinder is incompatible 
+with the parameters required by the displayMap and printMap methods in mapDB.2. Operation incompatibility The names of the operations in the provides and 
+
+ﬁrequiresﬂ interfaces are different. This is a further incompatibility between the 
+components shown in Figure 16.11.3. Operation incompleteness The ﬁprovidesﬂ interface of a component is a subset 
+of the ﬁrequiresﬂ interface of another component, or vice versa.(1)AABBAB(2)(3)Figure 16.10  Types of component composition 

@@ -1,0 +1,36 @@
+ Section 4.1  Browser Attacks 
+243  • Malicious software can undermine authentication by eavesdropping on (inter-
+cepting) the authentication data and allowing it to be reused later. Well-placed 
+
+attack code can also wait until a user has completed authentication and then 
+
+interfere with the content of the authenticated session.• Each side of a computer interchange needs assurance of the authentic identity 
+of the opposing side. This is true for human-to-computer interactions as well as 
+
+for computer-to-human.
+The specific situation of man-in-the-middle attacks gives us some interesting coun-
+termeasures to apply for identification and authentication.
+Successful Identification and AuthenticationAppealing to everyday human activity gives some useful countermeasures for attacks 
+against identification and authentication.
+Shared Secret Banks and credit card companies struggle to find new ways to make sure the holder of 
+
+a credit card number is authentic. The first secret was mother’s maiden name, which is 
+
+something a bank might have asked when someone opened an account. However, when 
+
+all financial institutions started to use this same secret, it was no longer as secret. Next, 
+
+credit card companies moved to a secret verification number imprinted on a credit card 
+
+to prove the person giving the card number also possessed the card. Again, overuse is 
+
+reducing the usefulness of this authenticator. Now, financial institutions are asking new 
+
+customers to file the answers to questions presumably only the right person will know. 
+
+Street on which you grew up, first school attended, and model of first car are becoming 
+
+popular, perhaps too popular. As long as different places use different questions and the 
+
+answers are not easily derived, these measures can confirm authentication.
+I am the computerof the great andpowerful warlordand sultan ofFrangipane.And I am thecomputer complex ofthe multinational mega-conglomerateUniversal Ubercorp.FIGURE 4-6 Without Continuous Authentication Neither End Can Trust the Other

@@ -1,0 +1,38 @@
+˘˜˚ˆ˙˘˜˘˘˘
+Of course, scaling up and scaling out are closely related. Contracts to develop 
+large software systems are usually awarded to large organizations, with multiple 
+teams working on the development project. These large companies have often exper-
+imented with agile methods in smaller projects, so they face the problems of scaling 
+
+up and scaling out at the same time.There are many anecdotes about the effectiveness of agile methods, and it has 
+been suggested that these can lead to orders of magnitude improvements in produc
+-tivity and comparable reductions in defects. Ambler (Ambler 2010), an influential 
+
+agile method developer, suggests that these productivity improvements are exagger-ated for large systems and organizations. He suggests that an organization moving to 
+
+agile methods can expect to see productivity improvement across the organization of 
+
+about 15% over 3 years, with similar reductions in the number of product defects.ˆˆIn some areas, particularly in the development of software products and apps, agile 
+development has been incredibly successful. It is by far the best approach to use for 
+this type of system. However, agile methods may not be suitable for other types of 
+software development, such as embedded systems engineering or the development 
+of large and complex systems.For large, long-lifetime systems that are developed by a software company for an external client, using an agile approach presents a number of problems.1. The informality of agile development is incompatible with the legal approach to contract definition that is commonly used in large companies.2. Agile methods are most appropriate for new software development rather than 
+for software maintenance. Yet the majority of software costs in large companies 
+
+come from maintaining their existing software systems.3.
+ Agile methods are designed for small co-located teams, yet much software 
+
+development now involves worldwide distributed teams.Contractual issues can be a major problem when agile methods are used. When the system customer uses an outside organization for system development, a contract 
+for the software development is drawn up between them. The software requirements 
+document is usually part of that contract between the customer and the supplier. 
+
+Because the interleaved development of requirements and code is fundamental to 
+
+agile methods, there is no definitive statement of requirements that can be included 
+
+in the contract.Consequently, agile methods have to rely on contracts in which the customer 
+pays for the time required for system development rather than the development of a 
+specific set of requirements. As long as all goes well, this benefits both the customer 
+and the developer. However, if problems arise, then there may be difficult disputes 
+over who is to blame and who should pay for the extra time and resources required 
+to resolve the problems.

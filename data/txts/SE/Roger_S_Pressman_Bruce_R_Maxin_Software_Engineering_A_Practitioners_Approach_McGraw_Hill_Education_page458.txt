@@ -1,0 +1,55 @@
+428 PART THREE  
+QUALITY MANAGEMENTis applied to uncover errors in processing logic, data manipulation, and interface communication. A combination of measurement and feedback allows a software 
+team to tune the process when any of these work products fail to meet quality 
+goals. Quality control activities are discussed in detail throughout the remainder 
+of Part 3 of this book.   
+ 
+ 
+19.4.4   
+Quality Assurance  
+ 
+ 
+Quality assurance establishes the infrastructure that supports solid soft-ware  engineering methods, rational project management, and quality control  actions—all pivotal if you intend to build high-quality software. In addition, qual-ity assurance consists of a set of auditing and reporting functions that assess 
+the effectiveness and completeness of quality control actions. The goal of quality 
+assurance is to provide management and technical staff with the data necessary 
+to be informed about product quality, thereby gaining insight and conﬁ
+ dence that 
+actions to achieve product quality are working. Of course, if the data provided 
+through quality assurance identiﬁ es problems, it is management’s responsibility 
+to address the problems and apply the necessary resources to resolve quality 
+issues. Software quality assurance is discussed in detail in Chapter 21.   
+ 
+ 
+ 
+ 
+ 
+ 19.5 S
+UMMARY  
+Concern for the quality of the software-based systems has grown as software be-comes integrated into every aspect of our daily lives. But it is difﬁ cult to develop 
+a comprehensive description of software quality. In this chapter quality has been 
+
+deﬁ ned as an effective software process applied in a manner that creates a use-
+ful product that provides measurable value for those who produce it and those 
+who use it.  A wide variety of software quality dimensions and factors has been proposed over the years. All try to deﬁ ne a set of characteristics that, if achieved, will lead 
+to high software quality. McCall’s and the ISO 9126 quality factors establish char-
+
+acteristics such as reliability, usability, maintainability, functionality, and porta-
+
+bility as indicators that quality exists.  Every software organization is faced with the software quality dilemma. In es-sence, everyone wants to build high-quality systems, but the time and effort re-
+quired to produce “perfect” software are simply unavailable in a market-driven 
+world. The question becomes, should we build software that is “good enough”? 
+Although many companies do just that, there is a signiﬁ cant downside that must 
+be considered.  Regardless of the approach that is chosen, quality does have a cost that can be discussed in terms of prevention, appraisal, and failure. Prevention costs in-
+clude all software engineering actions that are designed to prevent defects in the 
+ﬁ rst place. Appraisal costs are associated with those actions that assess software 
+ 
+WebRef 
+ Useful links to SQA 
+ resources can be found at 
+
+  www.niwotridge
+.com/Resources/
+PM- SWEResources/
+SoftwareQuality
+Assurance.htm  . 
+pre22126_ch19_411-430.indd   428pre22126_ch19_411-430.indd   42813/12/13   6:13 PM13/12/13   6:13 PM

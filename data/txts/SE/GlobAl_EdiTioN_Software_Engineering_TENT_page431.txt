@@ -1,0 +1,24 @@
+˜˜˚˛˙˜˜˜˜˜˜˜
+The features in this architecture that support the resistance to adverse events are 
+also useful in supporting recovery from these events. By maintaining multiple copies of information and having backup hardware available, critical system services can 
+
+be quickly restored to normal operation. Because the system need only be available 
+during normal working hours (say, 8 a.m to 6 p.m), the system can be reinstated 
+
+overnight so that it is available for the following day after a failure.As well as maintaining critical services, the other business requirements of main-taining the confidentiality and integrity of patient data must also be supported. The 
+
+architecture shown in Figure 14.12 includes a backup system and explicit database 
+integrity checking to reduce the chances that patient information is damaged acci-
+dentally or in a malicious attack. Information on client computers is also available 
+and can be used to support recovery from data corruption or damage.While maintaining multiple copies of data is a safeguard against data corruption, it poses a risk to confidentiality as all of these copies have to be secured. In this case, 
+this risk can be controlled by:1. Only downloading the summary records of patients who are scheduled to attend a clinic. This limits the number of records that could be compromised.2. Encrypting the disk on local client computers. Attackers who do not have the 
+
+encryption key cannot read the disk if they gain access to the computer.3.
+ Securely deleting the downloaded information at the end of a clinic session. This 
+
+further reduces the chances of an attacker gaining access to confidential information.MentcareclientMentcare serverPatient database
+MentcareclientMentcareclientNetworkSummarypatient recordsSummarypatient recordsSummarypatient recordsBackup serverDatabase integrity
+checkerTransaction
+logDatabase backupFigure 14.12 An architecture for 
+Mentcare system 
+resilience 

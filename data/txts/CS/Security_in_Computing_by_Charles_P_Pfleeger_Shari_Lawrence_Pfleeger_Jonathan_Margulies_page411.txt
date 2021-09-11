@@ -1,0 +1,45 @@
+ Section 6.3  Wireless Network Security 
+377  code, or MAC
+. (MAC addresses are 
+supposed to be fixed and unique, but as we describe 
+later in this chapter, MAC addresses can be changed.) For a view of misuse of MAC 
+
+addresses for authentication, see Sidebar 6-9.WiFi Access RangeDistance is an important consideration with WiFi, but it is hard to state precisely. Wire-
+less signals degrade because of interference from intervening objects, such as walls, 
+
+machinery, and trees, as well as distance; a receiver will not establish, or may drop, a 
+
+connection with a poor signal, one that is weak or has lost a lot of data. Outdoor signals, 
+with fewer objects to interfere, generally travel longer distances than indoor signals. 
+From 01af3c4c8a21Remote network
+Local stationNICMAC Addr 01af3c4c8a21
+AccessPointFIGURE 6-15 Local Station Communicating with Remote Network
+SIDEBAR 6-9  
+Using MAC Address for Authentication 
+[Bad Idea]In what we hope is a spoof, a posting allegedly from the IT services depart-
+ment of Harvard University indicated that Harvard would begin to use MAC 
+
+addresses for authentication. (http://video2.harvard.edu/wireless/Wireless_
+
+Registration_Procedure_072910.pdf). The announcement stated that after 
+
+registering with Harvard network services, students’ machines would be 
+
+recognized by MAC address and the students would no longer need to 
+
+enter a Harvard ID and PIN to access the Harvard wireless network.
+The posting was on an obscure Harvard web server, not the main IT 
+services page, and seemingly no mention of it was made elsewhere on the 
+
+Harvard website.
+As we have just reported, a moderately skilled network programmer 
+can change the MAC address, and a program called a sniffer reports the 
+
+MAC address of devices participating in a wireless network. Thus, anyone 
+
+who wanted to use the Harvard WiFi network could easily gain authenti-
+
+cated access by sniffing the MAC address from an ongoing session and 
+
+setting a NIC card to present that address.
+Perhaps this website was a joke from Harvard’s nearby rival, M.I.T.?

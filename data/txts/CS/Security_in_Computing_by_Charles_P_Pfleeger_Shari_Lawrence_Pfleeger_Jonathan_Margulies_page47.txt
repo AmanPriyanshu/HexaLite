@@ -1,0 +1,36 @@
+ Section 1.2  Threats 
+13  example, see David Bell and Leonard La Padula [BEL73, BEL76] and Kenneth Biba 
+[BIB77]. Availability is security’s next great challenge.
+We have just described the C-I-A triad and the three fundamental security prop-
+erties it represents. Our description of these properties was in the context of things 
+
+that need protection. To motivate your understanding we gave some examples of 
+
+harm and threats to cause harm. Our next step is to think about the nature of threats  
+
+themselves.
+Types of Threats
+For some ideas of harm, look at Figure 1-8, taken from Willis Ware’s report [WAR70]. 
+
+Although it was written when computers were so big, so expensive, and so difficult to 
+
+operate that only large organizations like universities, major corporations, or govern-
+
+ment departments would have one, Ware’s discussion is still instructive today. Ware 
+
+was concerned primarily with the protection of classified data, that is, preserving confi-
+
+dentiality. In the figure, he depicts humans such as programmers and maintenance staff 
+
+gaining access to data, as well as radiation by which data can escape as signals. From 
+the figure you can see some of the many kinds of threats to a computer system.
+One way to analyze harm is to consider the cause or source. We call a potential cause 
+of harm a threat
+. Harm can be 
+caused by either nonhuman events 
+
+or humans. Examples of nonhuman threats
+ include natural disasters 
+FIGURE 1-8 Computer [Network] Vulnerabilities (from [WAR70])
+Threats are caused both by human and 
+other sources.

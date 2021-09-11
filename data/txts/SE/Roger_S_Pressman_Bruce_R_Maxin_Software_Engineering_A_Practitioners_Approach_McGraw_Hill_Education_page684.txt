@@ -1,0 +1,79 @@
+654 PART 
+THREE  QUALITY MANAGEMENTas reﬁ , but they exist [and 
+important decisions are made based on them]. We feel that the obligation to attempt 
+
+to “measure the unmeasurable” in order to improve our understanding of particular 
+entities is as powerful in software engineering as in any discipline.   
+ But some members of the software community continue to argue that software is 
+“unmeasurable” or that attempts at measurement should be postponed until we 
+better understand software and the attributes that should be used to describe it. 
+This is a mistake.  Although product metrics for computer software are imperfect, they can pro-vide you with a systematic way to assess quality based on a set of clearly deﬁ ned rules. They also provide you with on-the-spot, rather than after-the-fact, insight. 
+
+This enables you to discover and correct potential problems before they become 
+catastrophic defects.  In this chapter, we present measures that can be used to assess the quality of 
+the product as it is being engineered. These measures of internal product attri-
+butes provide you with a real-time indication of the efﬁ cacy of the requirements, 
+
+design, and code models; the effectiveness of test cases; and the overall quality 
+of the software to be built.      
+ 30.1  A FRAMEWORK FOR PRODUCT METRICS    Measurement assigns numbers or symbols to attributes of entities in the real 
+word. To accomplish this, a measurement model encompassing a consistent set 
+
+of rules is required. Although the theory of measurement (e.g., [Kyb84]) and its 
+application to computer software (e.g., [Zus97]) are topics that are beyond the 
+scope of this book, it is worthwhile to establish a fundamental framework and a 
+set of basic principles that guide the deﬁ nition of product metrics for software. 
+   
+30.1.1   Measures, Metrics, and Indicators 
+    
+  
+Although the terms  measure, measurement,
+  and  metrics  are often used inter-
+changeably, it is important to note the subtle differences between them. Because 
+
+ measure
+  can be used either as a noun or a verb, deﬁ nitions of the term can be-come confusing. Within the software engineering context, a  
+measure
+  provides a quantitative indication of the extent, amount, dimension, capacity, or size of 
+
+some attribute of a product or process.  Measurement
+  is the act of determining a measure. The  IEEE Standard Glossary of Software Engineering Terminology
+  
+[IEE93b] deﬁ nes  
+metric  as “a quantitative measure of the degree to which a sys-tem, component, or process possesses a given attribute.”  When a single data point has been collected (e.g., the number of errors uncov-ered within a single software component), a measure has been established. Mea-
+surement occurs as the result of the collection of one or more data points (e.g.,   uote: 
+  “A science is as 
+
+mature as its 
+measurement 
+tools.”  Louis Pasteur 
+ What’s the 
+
+difference between a 
+measure and a 
+metric? ?    metrics for object-
+
+oriented design. . . 666  
+
+    metrics      attributes of  . . 657  
+
+    component-
+level  . . . . . . . . 671  
+
+    design . . . . . . . 663  
+
+    MobileApps  . . . 672  
+
+    requirements 
+model  . . . . . . . 659  
+
+    source code  . . . 675  
+
+    testing. . . . . . . 676  
+
+    user interface 
+
+design . . . . . . . 672  
+
+    WebApps  . . . . . 
+672    

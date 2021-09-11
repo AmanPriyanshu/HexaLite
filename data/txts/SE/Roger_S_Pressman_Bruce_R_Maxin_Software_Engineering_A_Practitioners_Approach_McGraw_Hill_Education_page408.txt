@@ -1,0 +1,103 @@
+378 PART TWO  
+MODELING 
+ 
+ 
+17.5.1  Layout Issues 
+ 
+Every Web page has a limited amount of “real estate” that can be used to sup-
+port nonfunctional aesthetics, navigation features, informational content, and 
+user-directed functionality. The development of this real estate is planned during 
+
+aesthetic design.  Like all aesthetic issues, there are no absolute rules when screen layout is de-signed. However, a number of general layout guidelines are worth considering: 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+Don’t be afraid of open space. 
+  It is inadvisable to pack every square inch 
+of a Web page with information. The resulting clutter makes it difﬁ
+ cult 
+for the user to identify needed information or features and create visual 
+chaos that is not pleasing to the eye.    
+ 
+ 
+ 
+ 
+ 
+Emphasize content.   After all, that’s the reason the user is there. 
+eb page user should be 80 per-
+
+cent content with the remaining real estate dedicated to navigation and 
+other features.    
+ 
+ 
+ 
+ 
+Organize layout elements from top left to bottom right. 
+  The vast majority 
+of users will scan a Web page in much the same way as they scan the page 
+
+of a book—top left to bottom right.  5 
+ 
+ If layout elements have speciﬁ c prior-
+ities, high-priority elements should be placed in the upper-left portion of 
+
+the page real estate.  
+   
+ 
+ 
+ 
+ 
+ 
+Group navigation, content, and function geographically within the page. 
+ 
+ 
+  Humans look for patterns in virtually all things. If there are no discernible 
+patterns within a Web page, user frustration is likely to increase (owing to 
+
+unnecessary searching for needed information).    
+ 
+ 
+ 
+ 
+ 
+Don’t extend your real estate with the scrolling bar.   Although scrolling 
+is often necessary, most studies indicate that users would prefer not to 
+
+scroll. It is often better to reduce page content or to present necessary 
+content on multiple pages.    
+ 
+ 
+ 
+ 
+ 
+Consider resolution and browser window size when designing layout. 
+  Rather than deﬁ ning ﬁ
+ xed sizes within a layout, the design should specify 
+all layout items as a percentage of available space [Nie00]. With the grow-
+
+ing use of mobile devices with different screen sizes, this concept becomes 
+increasingly important.   
+ 
+ 
+ 
+17.5.2  Graphic Design Issues 
+ 
+Graphic design considers every aspect of the look and feel of a WebApp. The 
+graphic design process begins with layout (Section 17.5.1) and proceeds into a 
+consideration of global color schemes; type fonts, sizes, and styles; the use of   uote:  “We ﬁ nd that 
+people quickly 
+evaluate a site 
+by visual design 
+alone.”   Stanford 
+Guidelines for Web Credibility  
+  
+ 
+ 
+ 
+ 
+5  There are exceptions that are cultural and language-based, but this rule holds for most users. 
+pre22126_ch17_371-390.indd   378pre22126_ch17_371-390.indd   37813/12/13   6:13 PM13/12/13   6:13 PM

@@ -1,0 +1,94 @@
+CHAPTER 4  
+PROCESS MODELS 59 
+ 
+ 
+ 
+ 
+ 4.4 P
+ERSONAL AND TEAM PROCESS MODELS  
+ 
+The best software process is one that is close to the people who will be doing 
+the work. If a software process model has been developed at a corporate or 
+
+organizational level, it can be effective only if it is amenable to signiﬁ cant ad-
+aptation to meet the needs of the project team that is actually doing software 
+
+engineering work. In an ideal setting, you would create a process that best ﬁ ts 
+your needs, and at the same time, meets the broader needs of the team and the 
+
+organization. Alternatively, the team itself can create its own process, and at 
+
+the same time meet the narrower needs of individuals and the broader needs 
+
+of the organization. Watts Humphrey ([Hum05] and [Hum00]) argues that it is 
+
+possible to create a ”personal software process” and/or a “team software 
+
+process.” Both require hard work, training, and coordination, but both are 
+
+achievable.  17  
+ 
+ 
+ 
+  
+ 
+ 
+ 
+4.4.1 Personal Software Process 
+ 
+  
+Every developer uses some process to build computer software. The process may be haphazard or ad hoc; may change on a daily basis; may not be efﬁ cient, 
+ effective, or even successful; but a “process” does exist. Watts Humphrey [Hum05] 
+suggests that in order to change an ineffective personal process, an individual 
+must move through four phases, each requiring training and careful instrumen-
+tation. The  Personal Software Process
+ 
+ (PSP) emphasizes personal measurement 
+of both the work product that is produced and the resultant quality of the work 
+product. In addition PSP makes the practitioner responsible for project planning 
+(e.g., estimating and scheduling) and empowers the practitioner to control the 
+quality of all software work products that are developed. The PSP model deﬁ nes 
+ﬁ ve framework activities:
+  
+ 
+ 
+ 
+ 
+Planning. 
+ This activity isolates requirements and develops both size and 
+resource estimates. In addition, a defect estimate (the number of defects 
+projected for the work) is made. All metrics are recorded on worksheets 
+or templates. Finally, development tasks are identiﬁ
+ ed and a project 
+schedule is created.    
+ 
+ 
+ 
+High-level design. 
+ External speciﬁ
+ cations for each component to be 
+constructed are developed and a component design is created. Proto-
+types are built when uncertainty exists. All issues are recorded and 
+
+tracked. 
+  
+WebRef 
+ A wide array of 
+resources for PSP can 
+be found at 
+  http://www.sei
+.cmu.edu/tsp/
+tools/academic/  . 
+ What 
+framework activities are used 
+during PSP? ?  
+17  It’s worth noting the proponents of agile software development (Chapter 5) also argue that the 
+process should remain close to the team. They propose an alternative method for achieving this. 
+  uote:  “A person who 
+is successful has 
+simply formed 
+the habit of 
+doing things that 
+unsuccessful people 
+will not do.”  Dexter Yager 
+pre22126_ch04_040-065.indd   59pre22126_ch04_040-065.indd   5913/12/13   6:10 PM13/12/13   6:10 PM

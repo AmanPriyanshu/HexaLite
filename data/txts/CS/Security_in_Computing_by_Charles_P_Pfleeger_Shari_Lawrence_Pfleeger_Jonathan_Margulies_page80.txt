@@ -1,0 +1,88 @@
+46 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+Defeating Concealment Easier than guessing a password is just to read one from a table, like the sample table 
+
+shown in Table 2-2. The operating system authenticates a user by asking for a name and 
+
+password, which it then has to validate, most likely by comparing to a value stored in 
+
+a table. But that table then becomes a treasure trove for evil-doers: Obtaining the table 
+
+gives access to all accounts because it contains not just one but all user IDs and their 
+
+corresponding passwords.
+Operating systems stymie that approach by storing passwords not in their public form 
+but in a concealed form (using encryption, which we describe later in this chapter), as 
+
+shown in Table 2-3. When a user creates a password, the operating system accepts and 
+
+immediately conceals it, storing the unreadable version. Later when the user attempts 
+
+to authenticate by entering a user ID 
+and password, the operating system 
+
+accepts whatever is typed, applies 
+
+the same concealing function, and 
+
+compares the concealed version 
+
+with what is stored. If the two forms 
+
+match, the authentication passes.We used the term “conceal” in 
+the previous paragraph because sometimes the operating system performs some form of 
+
+scrambling that is not really encryption, or sometimes it is a restricted form of encryp-
+tion. The only critical point is that the process be one-way: Converting a password to its 
+
+concealment form is simple, but going the other way (starting with a concealed version 
+
+and deriving the corresponding password) is effectively impossible. (For this reason, 
+
+on some websites if you forget your password, the system can reset your password to a 
+
+new, random value, but it cannot tell you what your forgotten password was.)
+For active authentication, that is, entering identity and authenticator to be able to 
+access a system, most systems lock out a user who fails a small number of successive 
+
+login attempts. This failure count prevents an attacker from attempting more than a 
+
+few guesses. (Note, however, that this lockout feature gives an attacker a way to pre-
+
+vent access by a legitimate user: simply enter enough incorrect passwords to cause the 
+TABLE 2-2  
+Sample Password 
+Table
+IdentityPassword
+Janeqwerty
+
+Pataaaaaa
+
+Phillipoct31witch
+
+Rozaaaaaa
+
+Hermanguessme
+
+Claireaq3wm$oto!4
+TABLE 2-3  
+Sample Password Table with 
+Concealed Password Values
+IdentityPassword
+Jane0x471aa2d2
+
+Pat0x13b9c32f
+
+Phillip0x01c142be
+
+Roz0x13b9c32f
+
+Herman0x5202aae2
+
+Claire0x488b8c27
+Operating systems store passwords 
+in hidden (encrypted) form so that 
+compromising the id–password list does 
+
+not give immediate access to all user 
+accounts.

@@ -1,0 +1,24 @@
+CHAPTER 4  
+PROCESS MODELS 51model is uncovered. This generates the event  analysis model correction
+ 
+, which will trigger the requirements analysis action from the  done 
+ state into the  
+await-ing changes 
+ state.   Concurrent modeling is applicable to all types of software development and provides an accurate picture of the current state of a project. Rather than con-
+ﬁ ning software engineering activities, actions, and tasks to a sequence of events, 
+it deﬁ nes a process network. Each activity, action, or task on the network exists 
+simultaneously with other activities, actions, or tasks. Events generated at one 
+point in the process network trigger transitions among the states associated with 
+each activity. 
+  
+ 
+4.1.5 A Final Word on Evolutionary Processes 
+ 
+We have already noted that modern computer software is characterized by con-
+tinual change, by very tight time lines, and by an emphatic need for  customer–user satisfaction. In many cases, time-to-market is the most important management Under reviewBaselinedUnderrevisionAwaiting
+changesUnderdevelopmentInactiveModeling activityRepresents the state of a software engineering 
+activity or task Done FIGURE 4.6 
+One element of the concurrent 
+
+process model
+pre22126_ch04_040-065.indd   51pre22126_ch04_040-065.indd   5113/12/13   6:10 PM13/12/13   6:10 PM

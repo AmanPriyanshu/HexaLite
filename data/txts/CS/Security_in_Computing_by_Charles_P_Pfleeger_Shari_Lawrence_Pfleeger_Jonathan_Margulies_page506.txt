@@ -1,0 +1,76 @@
+472 Chapter 6  
+Networks• Firewalls are targets for penetrators. While a firewall is designed to withstand 
+attack, it is not impenetrable. Designers intentionally keep a firewall small and 
+
+simple so that even if a penetrator breaks it, the firewall does not have further 
+
+tools, such as compilers, linkers, loaders, and the like, to continue an attack.
+• Firewalls exercise only minor control over the content admitted to the inside, 
+meaning that inaccurate data or malicious code must be controlled by other 
+
+means inside the perimeter.
+Firewalls are important tools in protecting an environment connected to a network. 
+However, the environment must be viewed as a whole, all possible exposures must be 
+
+considered, and the firewall must fit into a larger, comprehensive security strategy. Fire-
+
+walls alone cannot secure an environment.
+Network Address Translation (NAT)
+Firewalls protect internal hosts against unacceptable inbound or outbound data flows. 
+
+However, as shown earlier in this chapter, sometimes an outsider can gain valuable 
+
+information just by learning the architecture, connectivity, or even size of the internal 
+
+network. When an internal host presents its IP address to an outsider (necessary if the 
+
+outsider is expected to reply), the outsider can infer some of the network structure from 
+
+the pattern of addresses. Furthermore, once released, this address will forever be known 
+
+and exploitable by outsiders. Conveniently, a firewall can also prevent this information 
+
+from escaping. Every packet between two hosts contains the source host’s address and port and 
+the destination host’s address and port. Port 80 is the number conventionally used for 
+
+HTTP (web page) access. As shown in Figure 6-63, internal host 192.168.1.35 port 
+
+80 is sending a packet to external host 65.216.161.24 port 80. Using a process called 
+
+network address translation (NAT)
+, the source firewall converts source address 
+192.168.1.35:80 in the packet to the firewall’s own address, 173.203.129.90. The fire-
+
+wall also makes an entry in a trans-
+
+lation table showing the destination 
+
+address, the source port, and the 
+
+original source address, to be able 
+
+to forward any replies to the origi-
+
+nal source address. As you might 
+
+expect, the firewall converts the 
+
+address back on any return packets.
+The only complication to this scheme occurs if two internal hosts both contact the 
+same destination address over the same port, which might be expected if two internal 
+
+hosts independently wanted to access the web page at www.google.com, for example. 
+
+In this case, the firewall would rewrite the source port number of one requesting host 
+
+to a random different number so that the firewall could properly retranslate the return. 
+
+Internal host 192.168.1.35 might become 173.203.129.90 port 4236, and 192.168.1.57 
+
+might become 173.203.129.90 port 4966.Network address translation conceals 
+
+real internal addresses; outsiders who 
+
+do not know real addresses cannot 
+
+access them directly.

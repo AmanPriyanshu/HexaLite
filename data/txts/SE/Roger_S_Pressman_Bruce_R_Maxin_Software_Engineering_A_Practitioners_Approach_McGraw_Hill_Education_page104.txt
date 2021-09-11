@@ -1,0 +1,93 @@
+74 PART ONE  
+THE SOFTWARE PROCESS
+(class-responsibility-collaborator) cards identify and organize the object- oriented classes  4 
+ 
+ that are relevant to the current software increment. The XP 
+team conducts the design exercise using a process similar to the one described 
+in Chapter 10. The CRC cards are the only design work product produced as part 
+of the XP process.   
+If a difﬁ cult design problem is encountered as part of the design of a story, XP 
+recommends the immediate creation of an operational prototype of that portion 
+of the design. Called a   
+ 
+spike solution 
+ 
+ 
+, the design prototype is implemented and evaluated. The intent is to lower risk when true implementation starts and to 
+validate the original estimates for the story containing the design problem.  
+ 
+ 
+   
+XP encourages   
+ 
+refactoring
+ 
+ 
+ 
+—a construction technique that is also a design technique. Fowler [Fow00] describes refactoring in the following manner:  
+Refactoring is the process of changing a software system in such a way that it does not alter the external behavior of the code yet improves the internal structure. It 
+is a disciplined way to clean up code [and modify/simplify the internal design] that 
+minimizes the chances of introducing bugs. In essence, when you refactor you are 
+improving the design of the code after it has been written.   
+ 
+ 
+ 
+ 
+ 
+ 
+Because XP design uses virtually no notation and produces few, if any, work 
+products other than CRC cards and spike solutions, design is viewed as a tran-
+sient artifact that can and should be continually modiﬁ ed as construction pro-
+ceeds. The intent of refactoring is to control these modiﬁ cations by suggesting 
+small design changes that “can radically improve the design” [Fow00]. It should 
+be noted, however, that the effort required for refactoring can grow dramatically 
+
+as the size of an application grows.  A central notion in XP is that design occurs both before  and after 
+ coding com-
+mences. Refactoring means that design occurs continuously as the system is con-
+structed. In fact, the construction activity itself will provide the XP team with 
+guidance on how to improve the design.  
+ 
+ 
+  
+ 
+ 
+ 
+Coding.   
+After stories are developed and preliminary design work is done, the team does  not 
+ move to code, but rather develops a series of unit tests that will 
+exercise each of the stories that is to be included in the current release (software 
+increment).  5 
+ 
+ Once the unit test  6 
+ 
+ has been created, the developer is better able to focus on what must be implemented to pass the test. Nothing extraneous is added   
+4  Object-oriented classes are discussed in Appendix 2, in Chapter10, and throughout Part 2 of 
+this book.  WebRef 
+ Useful information on 
+XP can be obtained at 
+  www.xprogram-
+ming.com  . 
+  
+5  This approach is analogous to knowing the exam questions before you begin to study. It makes 
+studying much easier by focusing attention only on the questions that will be asked.   
+6  Unit testing, discussed in detail in Chapter 22, focuses on an individual software component, 
+exercising the component’s interface, data structures, and functionality in an effort to uncover 
+
+errors that are local to the component.  WebRef 
+ Refactoring techniques 
+and tools can be 
+found at:   
+www.
+refactoring.com  . 
+   Refactoring improves 
+the internal structure 
+
+of a design (or source 
+
+code) without changing 
+
+its external functionality 
+
+or behavior. 
+pre22126_ch05_066-086.indd   74pre22126_ch05_066-086.indd   7413/12/13   6:10 PM13/12/13   6:10 PM

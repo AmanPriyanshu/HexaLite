@@ -1,0 +1,38 @@
+open-source code. You can include the code in proprietary systems that are sold. If 
+you use open-source components, you must acknowledge the original creator of 
+
+the code. The MIT license is a variant of the BSD license with similar conditions.Licensing issues are important because if you use open-source software as part of a software product, then you may be obliged by the terms of the license to make your 
+own product open source. If you are trying to sell your software, you may wish to 
+keep it secret. This means that you may wish to avoid using GPL-licensed open-
+source software in its development.If you are building software that runs on an open-source platform but that does 
+not reuse open-source components, then licenses are not a problem. However, if 
+
+you embed open-source software in your software, you need processes and data-
+bases to keep track of what™s been used and their license conditions. Bayersdorfer 
+
+(Bayersdorfer 2007) suggests that companies managing projects that use open 
+
+source should:1. Establish a system for maintaining information about open-source components that are downloaded and used. You have to keep a copy of the license for each 
+component that was valid at the time the component was used. Licenses may 
+
+change, so you need to know the conditions that you have agreed to.2. Be aware of the different types of licenses and understand how a component is 
+licensed before it is used. You may decide to use a component in one system but 
+not in another because you plan to use these systems in different ways.3. Be aware of evolution pathways for components. You need to know a bit about 
+the open-source project where components are developed to understand how 
+
+they might change in future.4. Educate people about open source. It™s not enough to have procedures in place 
+
+to ensure compliance with license conditions. You also need to educate devel-
+opers about open source and open-source licensing.5.
+ Have auditing systems in place. Developers, under tight deadlines, might be 
+
+tempted to break the terms of a license. If possible, you should have software in 
+place to detect and stop this.6. Participate in the open-source community. If you rely on open-source products, 
+you should participate in the community and help support their development.The open-source approach is one of several business models for software. In this 
+model, companies release the source of their software and sell add-on services and 
+advice in association with this. They may also sell cloud-based software servicesŠ
+an attractive option for users who do not have the expertise to manage their own 
+
+open-source system and also specialized versions of their system for particular cli-
+ents. Open-source is therefore likely to increase in importance as a way of develop-
+ing and distributing software.˜˜˚ˆ˜˜ ˜˜˜

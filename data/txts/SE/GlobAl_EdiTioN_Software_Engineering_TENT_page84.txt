@@ -1,0 +1,45 @@
+˘˘
+˜˚˛˝˙ˆˇ˘˜˘˜˘involved is expended for long-term benefit. An developer who spends time refac-toring may be judged to be less efficient than one who simply carries on developing 
+
+code. Where pair programming and collective ownership are used, others benefit 
+
+immediately from the refactoring so they are likely to support the process.You might think that pair programming would be less efficient than individual 
+programming. In a given time, a pair of developers would produce half as much code 
+as two individuals working alone. Many companies that have adopted agile methods 
+are suspicious of pair programming and do not use it. Other companies mix pair and 
+
+individual programming with an experienced programmer working with a less expe-
+rienced colleague when they have problems.Formal studies of the value of pair programming have had mixed results. Using student volunteers, Williams and her collaborators (Williams et al. 2000) found that 
+productivity with pair programming seems to be comparable to that of two people 
+working independently. The reasons suggested are that pairs discuss the software 
+
+before development and so probably have fewer false starts and less rework. 
+
+Furthermore, the number of errors avoided by the informal inspection is such that 
+
+less time is spent repairing bugs discovered during the testing process.However, studies with more experienced programmers did not replicate these 
+results (Arisholm et al. 2007). They found that there was a significant loss of produc-
+tivity compared with two programmers working alone. There were some quality 
+
+benefits, but these did not fully compensate for the pair-programming overhead. 
+
+Nevertheless, the sharing of knowledge that happens during pair programming is 
+
+very important as it reduces the overall risks to a project when team members leave. 
+In itself, this may make pair programming worthwhile.
+In any software business, managers need to know what is going on and whether or not 
+
+a project is likely to meet its objectives and deliver the software on time with the pro-posed budget. Plan-driven approaches to software development evolved to meet this 
+
+need. As I discussed in Chapter 23, managers  draw up a plan for the project showing 
+what should be delivered, when it should be delivered, and who will work on the devel
+-opment of the project deliverables. A plan-based approach requires a manager to have 
+
+a stable view of everything that has to be developed and the development processes.The informal planning and project control that was proposed by the early adher-ents of agile methods clashed with this business requirement for visibility. Teams 
+
+were self-organizing, did not produce documentation, and planned development in 
+very short cycles. While this can and does work for small companies developing 
+
+software products, it is inappropriate for larger companies who need to know what is 
+going on in their organization.Like every other professional software development process, agile development 
+has to be managed so that the best use is made of the time and resources available to 

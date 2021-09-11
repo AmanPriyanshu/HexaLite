@@ -1,0 +1,47 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜have been many proposals for alternative ways to write requirements. However, 
+none of these proposals has been widely adopted, and natural language will continue 
+to be the most widely used way of specifying system and software requirements.To minimize misunderstandings when writing natural language requirements, I 
+recommend that you follow these simple guidelines:1. Invent a standard format and ensure that all requirement definitions adhere to that format. Standardizing the format makes omissions less likely and requirements 
+
+easier to check. I suggest that, wherever possible, you should write the requirement 
+
+in one or two sentences of natural language.2.
+ Use language consistently to distinguish between mandatory and desirable 
+
+requirements. Mandatory requirements are requirements that the system must 
+
+support and are usually written using ﬁshall.ﬂ Desirable requirements are not 
+
+essential and are written using ﬁshould.ﬂ3. Use text highlighting (bold, italic, or color) to pick out key parts of the requirement.4. Do not assume that readers understand technical, software engineering language. 
+
+It˜is easy for words such as ﬁarchitectureﬂ and ﬁmoduleﬂ to be misunderstood. 
+
+Wherever possible, you should avoid the use of jargon, abbreviations, and acronyms.
+5.
+ Whenever possible, you should try to associate a rationale with each user 
+
+requirement. The rationale should explain why the requirement has been 
+
+included and who proposed the requirement (the requirement source), so that 
+
+you know whom to consult if the requirement has to be changed. Requirements 
+
+rationale is particularly useful when requirements are changed, as it may help 
+decide what changes would be undesirable.Figure 4.
+12 illustrates how these guidelines may be used. It includes two require-ments for the embedded software for the automated insulin pump, introduced in 
+
+Chapter 1. Other requirements for this embedded system are defined in the insulin 
+
+pump requirements document, which can be downloaded from the book™s web pages.
+
+
+Structured natural language is a way of writing system requirements where require-
+ments are written in a standard way rather than as free-form text. This approach 
+
+maintains most of the expressiveness and understandability of natural language but Figure 4.12 Example requirements for the 
+insulin pump software 
+system3.2 The system shall measure the blood sugar and deliver insulin, if required, every 10 minutes. (Changes in blood sugar are relatively slow, so more frequent measurement is unnecessary; less frequent measurement 
+could lead to unnecessarily high sugar levels.)3.6 The system shall run a self-test routine every minute with the conditions to be tested and the associated actions defined in Table 1. (A self-test routine can discover hardware and software problems and alert the user 
+to the fact the normal operation may be impossible.)

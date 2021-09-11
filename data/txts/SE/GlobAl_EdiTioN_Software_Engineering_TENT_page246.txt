@@ -1,0 +1,29 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜For example, consider the following Mentcare system requirements that are con-cerned with checking for drug allergies:If a patient is known to be allergic to any particular medication, then prescrip-tion of that medication shall result in a warning message being issued to the 
+
+system user.If a prescriber chooses to ignore an allergy warning, he or she shall provide 
+a reason why this has been ignored.To check if these requirements have been satisfied, you may need to develop sev-eral related tests:1. Set up a patient record with no known allergies. Prescribe medication for aller
+-gies that are known to exist. Check that a warning message is not issued by the 
+
+system.2. Set up a patient record with a known allergy. Prescribe the medication that the 
+patient is allergic to and check that the warning is issued by the system.3.
+ Set up a patient record in which allergies to two or more drugs are recorded. 
+
+Prescribe both of these drugs separately and check that the correct warning for 
+each drug is issued.4. Prescribe two drugs that the patient is allergic to. Check that two warnings are 
+
+correctly issued.5. Prescribe a drug that issues a warning and overrule that warning. Check that the 
+system requires the user to provide information explaining why the warning was 
+
+overruled.You can see from this list that testing a requirement does not mean just writing a single test. You normally have to write several tests to ensure that you have coverage 
+of the requirement. You should also keep traceability records of your requirements-
+based testing, which link the tests to the specific requirements that you have tested.Scenario testing is an approach to release testing whereby you devise typical sce
+-narios of use and use these scenarios to develop test cases for the system. A scenario 
+is a story that describes one way in which the system might be used. Scenarios 
+
+should be realistic, and real system users should be able to relate to them. If you have 
+used scenarios or user stories as part of the requirements engineering process 
+
+(described in Chapter 4), then you may be able to reuse them as testing scenarios.In a short paper on scenario testing, Kaner (Kaner 2003) suggests that a scenario 
+test should be a narrative story that is credible and fairly complex. It should moti-
+vate stakeholders; that is, they should relate to the scenario and believe that it is 

@@ -1,0 +1,42 @@
+ Section 4.2  Web Attacks Targeting Users 
+255  of these two firms. After correlating these data points, ClicksRUs can inform the florist 
+and the bakery that they have common customers and might develop a joint marketing 
+
+approach. Or ClicksRUs can determine that you went from florist A to florist B to flo-
+
+rist C and back to florist A, so it can report to them that B and C lost out to A, helping 
+
+them all develop more successful marketing strategies. Or ClicksRUs can infer that you 
+
+are looking for a gift and will offer a targeted ad on the next site you visit. ClicksRUs 
+
+might receive advertising revenue 
+
+from florist D and trinket merchant 
+
+E, which would influence the ads it 
+
+will display to you. Web bugs and 
+
+tracking services are big business, as 
+
+we explain in Chapter 9.
+Web bugs can also be used in email with images. A spammer gets a list of email 
+addresses but does not know if the addresses are active, that is, if anyone reads mail at 
+
+that address. With an embedded web bug, the spammer receives a report when the email 
+
+message is opened in a browser. Or a company suspecting its email is ending up with 
+
+competitors or other unauthorized parties can insert a web bug that will report each time 
+
+the message is opened, whether as a direct recipient or someone to whom the message 
+has been forwarded.
+Tiny action points called web bugs can 
+report page traversal patterns to central 
+
+collecting points, compromising privacy.
+FloristBaker
+yTargeted ad321Visit from 200.100.1.10Vi
+sit from 200.100.1.10ClicksRUsWeb
+bugs FIGURE 4-12 Web Bugs

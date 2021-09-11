@@ -1,0 +1,21 @@
+APPENDIX 1  
+AN INTRODUCTION TO UML 883and two or more outgoing arrows. Each outgoing arrow is labeled with a guard (a 
+condition inside square brackets). The ﬂ ow of control follows the outgoing arrow 
+whose guard is true. It is advisable to make sure that the conditions cover all pos-
+sibilities so that exactly one of them is true every time a decision node is reached. 
+  
+Figure A1.11 shows a decision node following the baking of the cake. If the cake is 
+done, then it is removed from the oven. Otherwise, it is baked for a while longer.  One of the things the activity diagram in   Figure A1.11 does not tell you is who or what does each of the actions. Often, the exact division of labor does not 
+matter. But if you do want to indicate how the actions are divided among the 
+participants, you can decorate the activity diagram with swimlanes, as shown 
+in   A1.12.  
+Swimlanes , as the name implies, are formed by dividing the diagram into strips or “lanes,” each of which corresponds to one of the partici-
+pants. All actions in one lane are done by the corresponding participant. In   Fig-
+A1.12, Jennie is responsible for mixing the dry ingredients and then mixing 
+ F
+IGURE A1.12The cake-
+baking activity 
+diagram with 
+swimlanes 
+added   
+Find recipeMix dryingredientsMix wetingredientsHeat ovenBakeMix together(not done)JennieMaryHelen(done)Remove from oven

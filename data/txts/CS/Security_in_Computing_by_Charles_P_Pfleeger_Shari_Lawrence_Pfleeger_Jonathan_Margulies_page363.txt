@@ -1,0 +1,74 @@
+ Section 5.3  Rootkit 
+329  hardware. So positioned, the rootkit can circumvent, disable, or alter the work of the 
+operating system; in essence, the rootkit controls the operating system. As you can well 
+
+imagine, rootkits are a pernicious threat for computer system security.
+5.3 ROOTKIT
+In the Unix operating system root
+ is the identity of the most powerful user, owning 
+sensitive system resources such as memory and performing powerful actions such as 
+
+creating users and killing processes. The identity 
+root
+ is not normally a user with login 
+credentials; instead it is the name of the entity (subject) established to own and run 
+
+all primitive system tasks (and these tasks create the remaining user identities such 
+
+as admin and ordinary users). Thus, 
+
+compromising—becoming—a task 
+
+with root privilege is a hacker’s ulti-
+
+mate goal because from that posi-
+
+tion the hacker has complete and 
+
+unrestricted system control.As you have seen, there are two types of attackers: those who craft new attacks and 
+those who merely execute someone else’s brainchild. The latter far outnumber the for-
+
+mer, but the new attacks are especially troublesome because they are new, and therefore 
+
+unknown to protection tools and response teams. As we explain in Chapter 3, people 
+
+who execute attack code from someone else are sometimes pejoratively called “script 
+
+kiddies” because they simply execute someone else’s attack script or package. An attack 
+
+package that attains root status is 
+
+called a rootkit
+. In this section 
+we look at rootkits to see how the 
+
+power of root can be used to cause 
+
+serious and hard-to-eradicate harm.Phone RootkitResearchers at Rutgers University [BIC10] demonstrated an ability to load a rootkit 
+
+onto a mobile phone. The operating system of a mobile phone is rather simple, although 
+
+smartphones with their rich functionality demand a more complex operating system to 
+
+support a graphical user interface, downloadable applications, and files of associated 
+
+data. The complexity of the operating system led to more opportunities for attack and, 
+
+ultimately, a rootkit. Rootkits can exist on any operating system; the Rutgers research-
+
+ers chose to investigate this platform because it is relatively simple and many users 
+
+forget—or are unaware—it is an operating system that can be compromised. The points 
+
+in this research apply equally to operating systems for more traditional computers.In one test, the researchers demonstrated a rootkit that could turn on a phone’s micro-
+phone without the owner’s knowing it happened. In such a case, the attacker would send 
+
+an invisible text message to the infected phone, telling it to place a call and turn on the 
+
+microphone; imagine the impact of such an attack when the phone’s owner is in a meet-
+
+ing on which the attacker wants to eavesdrop.
+Root: most privileged subject (in a Unix 
+system)Rootkit: Tool or script that obtains 
+
+privileges of root

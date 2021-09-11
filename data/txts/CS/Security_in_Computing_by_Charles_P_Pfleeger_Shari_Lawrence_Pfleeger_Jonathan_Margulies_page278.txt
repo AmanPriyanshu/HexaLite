@@ -1,0 +1,76 @@
+244 Chapter 4  
+The Web—User Side
+The basic concept is of a shared secret, something only the two entities on the end 
+should know. A human man-in-the-middle attack can be defeated if one party asks the 
+
+other a pointed question about a dinner they had together or details of a recent corporate 
+
+event, or some other common topic. 
+
+Similarly, a shared secret for com-
+
+puter systems can help authenticate. 
+Possible secrets could involve the 
+
+time or date of last login, time of 
+
+last update, or size of a particular 
+
+application file.
+One-Time Password 
+As its name implies, a one-time password
+ is good for only one use. To use a one-time 
+password scheme, the two end parties need to have a shared secret list of passwords. 
+
+When one password is used, both parties mark the word off the list and use the next 
+
+word the next time.
+The SecurID token, introduced in Chapter 2, generates a new random number every 
+ 60 seconds. The receiving computer has a program that can compute the random number 
+
+for any given moment, so it can compare the value entered against the expected value.
+Out-of-Band Communication Out-of-band communication means transferring one fact along a communication path 
+
+separate from that of another fact. For example, bank card PINs are always mailed sepa-
+
+rately from the bank card so that if the envelope containing the card is stolen, the thief 
+
+cannot use the card without the PIN. Similarly, if a customer calls a bank about having 
+
+forgotten a PIN, the bank does not simply provide a new PIN in that conversation over 
+
+the phone; the bank mails a separate letter containing a new PIN to the account-hold-
+
+er’s address on file. In this way, if someone were impersonating the customer, the PIN 
+
+would not go to the impersonator. Some banks confirm large Internet fund transfers by 
+
+sending a text message to the user’s mobile phone. However, as Sidebar 4-3 indicates, 
+
+mobile phones are also subject to man-in-the-middle attacks.The U.S. Defense Department uses a secure telephone called a STU-III. A customer 
+places a call and, after establishing communication with the correct party on the other 
+end, both parties press a button for the phones to enter secure mode; the phones then 
+
+encrypt the rest of the conversation. As part of the setup for going into secure mode, the 
+
+two phones together derive a random number that they then display in a window on the 
+
+phone. To protect against a man-in-the-middle attack, callers are instructed to recite the 
+
+number so that both parties agree they have the same number on their phone’s window. 
+
+A wiretapper in the middle might be able to intercept the initial call setup and call the 
+intended recipient on a second STU-III phone. Then, sitting with the earpiece of one STU-
+
+III up against the mouthpiece of the other, the intruder could perform a man-in-the-middle 
+
+attack. However, these two phones would establish two different sessions and display dif-
+
+ferent random numbers, so the end parties would know their conversation was being inter-
+
+cepted because, for example, one would hear the number 101 but see 234 on the display.
+As these examples show, the use of some outside information, either a shared secret 
+or something communicated out of band, can foil a man-in-the-middle attack.To be effective, a shared secret must be 
+
+something no malicious middle agent 
+can know. 

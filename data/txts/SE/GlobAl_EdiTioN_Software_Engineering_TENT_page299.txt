@@ -1,0 +1,52 @@
+˜˜˚˛ˇ˜˜˜
+˜˜˜˜
+As well as process activities that focus on system development and testing, there must also be well-defined quality management and change management processes. While the specific activities in a dependable process may vary from one company to 
+another, the need for effective quality and change management is universal.Quality management processes (covered in Chapter 24) establish a set of process and 
+product standards. They also include activities that capture process information to dem-
+onstrate that these standards have been followed. For example, there may be a standard 
+
+defined for carrying out program inspections. The inspection team leader is responsible 
+
+for documenting the process to show that the inspection standard has been followed.Change management, discussed in Chapter 25, is concerned with managing changes 
+to a system, ensuring that accepted changes are actually implemented, and confirming 
+
+that planned releases of the software include the planned changes. One common problem 
+
+with software is that the wrong components are included in a system build. This can lead 
+
+to a situation where an executing system includes components that have not been checked 
+
+during the development process. Configuration management procedures must be defined 
+
+as part of the change management process to ensure that this does not happen.As agile methods have become increasingly used, researchers and practitioners have 
+thought carefully about how to use agile approaches in dependable software development 
+
+(Trimble 2012). Most companies that develop critical software systems have based their 
+
+development on plan-based processes and have been reluctant to make radical changes to 
+
+their development process. However, they recognize the value of agile approaches and 
+
+are exploring how their dependable development processes can be more agile.As dependable software often requires certification, both process and product 
+documentation have to be produced. Up-front requirements analysis is also essential 
+to discover possible requirements and requirements conflicts that may compromise 
+
+the safety and security of the system. Formal change analysis is essential to assess 
+the effect of changes on the safety and integrity of the system. These requirements 
+conflict with the general approach in agile development of co-development of the 
+
+requirements and the system and minimizing documentation.Although most agile development uses an informal, undocumented process, this is not a fundamental requirement of agility. An agile process may be defined that 
+
+incorporates techniques such as iterative development, test-first development and 
+
+user involvement in the development team. As long as the team follows that process 
+and documents their actions, agile techniques can be used. To support this notion, 
+various proposals of modified agile methods have been made that incorporate the 
+
+requirements of dependable systems engineering (Douglass 2013). These combine 
+the most appropriate techniques from agile and plan-based development.“
+For more than 30 years, researchers have advocated the use of formal methods of 
+ software development. Formal methods are mathematical approaches to software 
+
+development where you define a formal model of the software. You may then for-
+mally analyze this model to search for errors and inconsistencies, prove that a program 

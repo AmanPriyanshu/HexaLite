@@ -1,0 +1,50 @@
+784 Chapter 12  
+Details of CryptographyDecryption of DESThe same DES algorithm is used both for encryption and decryption. This result is true 
+because cycle 
+j derives from cycle (
+j−1) in the following manner:
+ Lj  Rj–1 (1) Rj  Lj–1 f(Rj–1, kj) (2)where  is the exclusive OR operation and 
+f is the function computed in an expand-
+shift-substitute-permute cycle. These two equations show that the result of each cycle 
+
+depends only on the previous cycle.
+By rewriting these equations in terms of R
+j−1 and Lj−1, we get Rj–1  Lj (3)and
+ Lj–1  Rj f(Rj–1, kj) (4)Substituting (3) into (4) gives
+
+ Lj–1  Rj f(Lj, kj) (5)Equations (3) and (5) show that these same values could be obtained from the results of 
+later cycles. This property makes DES a reversible procedure; we can encrypt a string 
+and also decrypt the result to derive the plaintext again.
+With DES, the same function 
+f is used forward to encrypt or backwards to decrypt
+. The only change is that the keys must be taken in reverse order (
+k16, k15, ..., k1) for 
+decryption. Using one algorithm either to encrypt or to decrypt is convenient for a hard-
+
+ware or software implementation of DES.
+ChainingYou may have noticed a weakness in description of the previous section. DES uses the 
+same process for each 64-bit block. That means that any identical data blocks encrypted 
+
+with the same key will have the same output. Of course, you might say, the process has 
+
+to be regular and consistent for decryption to be possible, and that is certainly true.
+Now think like an attacker. A bank uses DES to encrypt a network stream of data con-
+taining instructions to transfer money from one account to another. The bank chooses 
+
+a key to use for some period of time, for example, a day, because changing keys is 
+
+cumbersome. Just to make this argument simple, assume the amount and account num-
+
+ber are both exactly 64 bits long and happen to appear on 64-bit boundaries within the 
+
+transfer message. (A similar argument will work regardless of the lengths and positions 
+
+of the fields.) In Figure 12-4 we depict the general form of these messages. The figure 
+
+also shows four examples, to transfer (1) $100 from Annie to Brian, (2) $500 from Car-
+
+ole to Drew, (3) $0.01 from Evin to our malicious agent Zelda, and (4) the same amount 
+
+from Feng to Zelda. (Note: the encrypted values in these four example figures are ficti-
+
+tious, created just for these explanations; no real cryptography was applied.)

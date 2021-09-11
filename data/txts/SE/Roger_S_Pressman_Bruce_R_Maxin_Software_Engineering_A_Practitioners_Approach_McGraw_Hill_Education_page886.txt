@@ -1,0 +1,49 @@
+856 PART FIVE  
+ADVANCED TOPICS
+code generation, or testing, or change management, or any of the many software engineering activities, actions, and tasks discussed throughout this book. Other 
+tools have been developed as open-source offerings. The majority of open-source 
+tools focus on “programming” activities with a speciﬁ c emphasis on the construc-
+tion activity (particularly code generation). Still other tools grow out of research 
+efforts at universities and government labs. Although they have appeal in very 
+limited applications, the majority are not ready for broad industry application.  At the industry level, the most comprehensive tools packages form  software 
+engineering environments
+ 
+ (SEE) 
+ 10 
+ 
+ that integrate a collection of individual tools 
+around a central database (repository). When considered as a whole, an SEE in-
+tegrates information across the software process and assists in the collaboration 
+that is required for many large, complex software-based systems. But current 
+environments are not easily extensible (it’s difﬁ
+ cult to integrate a COTS tool that 
+is not part of the package) and tend to be general purpose (i.e., they are not ap-
+plication domain speciﬁ c). There is also a substantial time lag between the intro-
+duction of new technology solutions (e.g., model-driven software development) 
+and the availability of viable SEEs that support the new technology. 
+  Future trends in software tools will follow two distinct paths—a  human- focused path 
+ that responds to some of the “soft trends” discussed in Section 38.4, and a 
+technology-centered path that addresses new technologies (Section 38.5) as they 
+are introduced and adopted.  The soft trends discussed in Section 38.4—the need to manage complexity, 
+accommodate emergent requirements, establish process models that embrace 
+change, coordinate global teams with a changing talent mix, among others—sug-
+gest a new era in which tools support for stakeholder collaboration will become 
+as important as tools support for technology. 
+ Agility in software engineering (Chapter 5) is achieved when stakeholders work as a team. Therefore, the trend toward collaborative SEEs will provide bene-
+ﬁ ts even when software is developed locally. But what of the technology tools that 
+complement the system and components that empower better collaboration?  One of the dominant trends in technology tools is the creation of a tool set that supports model-driven development (Section 38.5.5) with an emphasis on ar-
+
+chitecture-driven design. Oren Novotny [Nov04] suggests that the model rather 
+than the source code becomes the central software engineering focus:  
+Platform independent models are created in UML and then undergo various levels of transformation to eventually wind up as source code for a speciﬁ c platform. It stands 
+to reason then, that the model, not the ﬁ le, should become the new unit of output. A 
+model has many different views at different levels of abstraction. At the highest level, 
+platform independent components can be speciﬁ ed in analysis; at the lowest level 
+there is a platform speciﬁ c implementation that reduces to a set of classes in code. 
+ 
+  
+ 
+10  The term  
+integrated development environment
+ 
+ (IDE) is also used. pre22126_ch38_839-859.indd   856pre22126_ch38_839-859.indd   85613/12/13   6:17 PM13/12/13   6:17 PM

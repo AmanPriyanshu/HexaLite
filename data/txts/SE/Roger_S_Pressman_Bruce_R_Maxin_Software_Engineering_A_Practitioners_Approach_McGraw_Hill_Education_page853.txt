@@ -1,0 +1,61 @@
+CHAPTER 37  
+SOFTWARE PROCESS IMPROVEMENT
+ 823 
+SPI will be approved and implemented only after its proponents demonstrate  ﬁ nancial leverage
+ 
+ [Bir98]. Financial leverage is demonstrated by examining tech-
+nical beneﬁ ts (e.g., fewer defects delivered to the ﬁ
+ eld, reduced rework, lower 
+maintenance costs, or more rapid time-to-market) and translating them into dol-
+37.7) for 
+
+SPI costs.   
+ 
+ 
+ 
+ 
+ 37.2  
+THE SPI PROCESS  
+ 
+The hard part of SPI isn’t the deﬁ nition of characteristics that deﬁ
+ ne a high- 
+quality software process or the creation of a process maturity model. Those 
+things are relatively easy. Rather, the hard part is establishing a consensus for 
+
+initiating SPI and deﬁ ning an ongoing strategy for implementing it across a soft-
+ware organization.  The Software Engineering Institute has developed IDEAL— “an organizational improvement model that serves as a road map for initiating, planning, and imple-
+menting improvement actions” [SEI08]. IDEAL is representative of many process 
+models for SPI, deﬁ ning ﬁ
+ ve distinct activities— initiating, diagnosing, establish-
+ing, acting, and learning—that guide an organization through SPI activities.  In this book, we present a somewhat different road map for SPI, based on the process model for SPI originally proposed in [Pre88]. It applies a commonsense 
+philosophy that requires an organization to (1) look in the mirror, (2) then get 
+
+smarter so it can make intelligent choices, (3) select the process model (and re-
+lated technology elements) that best meets its needs, (4) instantiate the model 
+into its operating environment and its culture, and (5) evaluate what has been 
+done. These ﬁ ve activities (discussed in the subsections 
+ 3 
+ 
+ that follow) are ap-
+plied in an iterative (cyclical) manner in an effort to foster continuous process 
+improvement.   
+ 
+ 
+37.2.1   
+Assessment and Gap Analysis  
+Any attempt to improve your current software process without ﬁ rst assessing 
+the efﬁ cacy of current framework activities and associated software engineer-
+ing practices would be like starting on a long journey to a new location with 
+
+no idea where you are starting from. You’d depart with great ﬂ
+ ourish, wander 
+around trying to get your bearings, expend lots of energy and endure large 
+
+doses of frustration, and likely, decide you really didn’t want to travel anyway. 
+
+Stated simply, before you begin any journey, it’s a good idea to know precisely 
+
+where you are. 
+  
+3  Some of the content in these sections has been adapted from [Pre88] with permission. 
+pre22126_ch37_817-838.indd   823pre22126_ch37_817-838.indd   82313/12/13   6:17 PM13/12/13   6:17 PM

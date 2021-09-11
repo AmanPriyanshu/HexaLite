@@ -1,0 +1,84 @@
+168 PART TWO  
+MODELING 
+In this chapter, we focus on  
+scenario-based modeling 
+—a technique that is growing increasingly popular throughout the software engineering community. 
+
+In Chapters 10 and 11 we consider class-based models and behavioral models. 
+Over the past decade, ﬂ ow and data modeling have become less commonly used, 
+while scenario and class-based methods, supplemented with behavioral ap-
+proaches and pattern-based techniques have grown in popularity. 
+ 2 
+ 
+ 
+ 
+  
+ 
+9.1.1 Overall Objectives and Philosophy 
+ 
+Throughout analysis modeling, your primary focus is on  what, 
+ not  
+how.
+ 
+ What 
+user interaction occurs in a particular circumstance, what objects does the sys-
+tem manipulate, what functions must the system perform, what behaviors does 
+the system exhibit, what interfaces are deﬁ ned, and what constraints apply? 
+ 3 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+In previous chapters, we noted that complete speciﬁ cation of requirements 
+may not be possible at this stage. The customer may be unsure of precisely what 
+is required for certain aspects of the system. The developer may be unsure that 
+a speciﬁ c approach will properly accomplish function and performance. These 
+realities mitigate in favor of an iterative approach to requirements analysis and 
+modeling. The analyst should model what is known and use that model as the 
+basis for design of the software increment.  4 
+ 
+   
+The requirements model must achieve three primary objectives: (1) to de-scribe what the customer requires, (2) to establish a basis for the creation of a 
+software design, and (3) to deﬁ ne a set of requirements that can be validated 
+once the software is built. The analysis model bridges the gap between a sys-
+tem-level description that describes overall system or business functionality as 
+it is achieved by applying software, hardware, data, human, and other system 
+elements and a software design (Chapters 12 through 18) that describes the soft-
+ware’s application architecture, user interface, and component-level structure. 
+
+This relationship is illustrated in  Figure 9.1 .   It is important to note that all elements of the requirements model will be directly traceable to parts of the design model. A clear division of analysis and 
+design tasks between these two important modeling activities is not always pos-
+sible. Some design invariably occurs as part of analysis, and some analysis will be 
+conducted during design.   uote:  “Requirements are 
+not architecture. 
+Requirements 
+are not design, 
+nor are they the 
+user interface. 
+Requirements are 
+need.”  Andrew Hunt 
+and David Thomas    The analysis model 
+should describe what 
+the customer wants, 
+establish a basis for 
+design, and establish a 
+target for validation.   
+2  Our presentation of ﬂ
+ ow-oriented modeling and data modeling has been omitted from this 
+edition. However, copious information about these older requirements modeling methods can 
+
+be found on the Web. If you have interest, use the search phrase “structured analysis.” 
+  
+3  It should be noted that as customers become more technologically sophisticated, there is a 
+trend toward the speciﬁ cation of  
+how 
+ as well as  
+what. 
+ However, the primary focus should re-
+main on  what. 
+   
+4  Alternatively, the software team may choose to create a prototype (Chapter 4) in an effort to 
+better understand requirements for the system. pre22126_ch09_166-183.indd   168pre22126_ch09_166-183.indd   16813/12/13   6:11 PM13/12/13   6:11 PM

@@ -1,0 +1,65 @@
+CHAPTER 15  
+USER INTERFACE DESIGN
+ 341 
+ 
+ 
+•  Don’t force the user to search the display to determine how to link to other content or services.  
+ 
+  A well-designed interface improves the user’s perception of the content or 
+services provided by the site. It need not necessarily be ﬂ ashy, but it should al-
+ways be well structured and ergonomically sound.   
+ 
+ 
+15..5.2  Interface Design Workﬂ
+ ow for Web and Mobile Apps 
+ 7 
+ 
+  
+ 
+Earlier in this chapter we noted that user interface design begins with the iden-tiﬁ cation of user, task, and environmental requirements. Once user tasks have 
+been identiﬁ ed, user scenarios (use cases) are created and analyzed to deﬁ
+ ne a 
+set of interface objects and actions.  Information contained within the requirements model forms the basis for the creation of a screen layout that depicts graphical design and placement of icons, 
+deﬁ nition of descriptive screen text, speciﬁ
+ cation and titling for windows, and 
+speciﬁ cation of major and minor menu items. Tools are then used to prototype 
+and ultimately implement the interface design model. The following tasks repre-
+sent a rudimentary workﬂ ow:
+   
+ 
+ 1.   
+Review information contained in the requirements model and reﬁ ne as 
+required. 
+ 
+    
+ 2.   
+Develop a rough sketch of the WebApp interface layout.
+ 
+ If the interface layout (a prototype developed during requirements modeling) already ex-
+ists, it should be reviewed and reﬁ ned as required. 
+    
+ 3.   
+Map user objectives into speciﬁ c interface actions.
+ 
+ For the vast majority of Web and mobile apps, the user will have a relatively small set of primary 
+
+objectives. These should be mapped into speciﬁ c interface. In essence, you 
+must answer the following question: “How does the interface enable the 
+user to accomplish each objective?”     
+ 4.   
+Deﬁ ne a set of user tasks that are associated with each action.
+ 
+ Each in-terface action (e.g., “buy a product”) is associated with a set of user tasks. 
+These tasks have been identiﬁ ed during requirements modeling. During 
+design, they must be mapped into speciﬁ c interactions that encompass 
+navigation issues, content objects, and application functions.     
+ 5.   
+Storyboard screen images for each interface action. 
+ As each action is considered, a sequence of storyboard images (screen images) should be 
+created to depict how the interface responds to user interaction. Content 
+objects should be identiﬁ ed (even if they have not yet been designed and 
+developed), and navigation links should be indicated.   
+ 
+7  More detailed discussions of design for WebApps and mobile applications are presented in 
+Chapters 17 and 18, respectively. 
+pre22126_ch15_317-346.indd   341pre22126_ch15_317-346.indd   34113/12/13   10:01 PM13/12/13   10:01 PM

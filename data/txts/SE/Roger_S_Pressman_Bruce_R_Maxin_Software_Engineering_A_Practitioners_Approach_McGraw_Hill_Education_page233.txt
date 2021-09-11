@@ -1,0 +1,74 @@
+CHAPTER 11  
+REQUIREMENTS MODELING: BEHAVIOR, PATTERNS, AND WEB/MOBILE APPS
+ 203 
+ 
+ 
+ 
+ 11.1 C
+REATING
+ A BEHAVIORAL
+ MODEL   
+ 
+ 
+  
+ 
+The modeling notation that has been discussed in the preceding chapters rep-resents static elements of the requirements model. It is now time to make a tran-
+sition to the dynamic behavior of the system or product. To accomplish this, you 
+
+can represent the behavior of the system as a function of speciﬁ c events and time. 
+ The  behavioral model 
+ indicates how software will respond to external events 
+or stimuli. To create the model, you should perform the following steps: (1) eval-
+
+uate all use cases to fully understand the sequence of interaction within the sys-
+tem, (2) identify events that drive the interaction sequence and understand how 
+these events relate to speciﬁ c objects, (3) create a sequence for each use case, 
+(4) build a state diagram for the system, and (5) review the behavioral model to 
+verify accuracy and consistency. Each of these steps is discussed in the sections 
+
+that follow. 
+  
+ 
+ 
+ 11.2 I
+DENTIFYING EVENTS WITH THE USE CASE  
+ 
+In Chapter 9, you learned that the use case represents a sequence of activities that involves actors and the system. In general, an event occurs whenever the 
+system and an actor exchange information. An event is  not 
+ the information that 
+has been exchanged, but rather the fact that information has been exchanged.  A use case is examined for points of information exchange. To illustrate, re-
+consider the use case for a portion of the  SafeHome 
+ security function. 
+ 
+The  homeowner uses the keypad to key in a four-digit password 
+. The  password is compared with the valid password stored in the system . If the password is incorrect, the  control panel will beep  once and reset itself for additional input. If the password 
+is correct, the control panel awaits further action.  
+  
+The underlined portions of the use case scenario indicate events. An actor should be identiﬁ ed for each event; the information that is exchanged should be 
+noted, and any conditions or constraints should be listed.  As an example of a typical event, consider the underlined use case phrase “homeowner uses the keypad to key in a four-digit password.” In the context 
+
+of the requirements model, the object,  Homeowner,
+ 
+ 
+ 1 
+ 
+ transmits an event to the 
+object  ControlPanel. 
+ The event might be called  
+password entered
+ 
+. The informa-tion transferred is the four digits that constitute the password, but this is not an 
+essential part of the behavioral model. It is important to note that some events 
+have an explicit impact on the ﬂ ow of control of the use case, while others have 
+no direct impact on the ﬂ ow of control. For example, the event  
+password entered
+ 
+  How do 
+I model the software’s 
+
+reaction to some 
+external event? ?  
+1  In this example, we assume that each user (homeowner) that interacts with  
+SafeHome 
+ has an 
+identifying password and is therefore a legitimate object. pre22126_ch11_202-223.indd   203pre22126_ch11_202-223.indd   20313/12/13   6:12 PM13/12/13   6:12 PM

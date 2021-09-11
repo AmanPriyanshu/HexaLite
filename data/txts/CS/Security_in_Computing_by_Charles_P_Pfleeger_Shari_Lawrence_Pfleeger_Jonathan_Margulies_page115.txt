@@ -1,0 +1,32 @@
+ Section 2.2  Access Control 
+81  compartment Art1. The list might also specify Adams-
+*-Art1, meaning that Adams can 
+access the object from any group in compartment Art1. Likewise, a notation of 
+*-Decl-* would mean “any user in group Decl in any compartment.” Different placements of the 
+
+wildcard notation * have the obvious interpretations.
+Unix uses a similar approach with user–group–world permissions. Every user 
+belongs to a group of related users—students in a common class, workers on a shared 
+
+project, or members of the same department. The access permissions for each object are 
+
+a triple (u,g,w
+) in which u is for the access rights of the user, 
+g is for other members of 
+the group, and w is for all other users in the world.
+The access control list can be maintained in sorted order, with 
+* sorted as coming 
+after all specific names. For example, Adams-Decl-
+* would come after all specific com-
+partment designations for Adams. The search for access permission continues just until 
+
+the first match. In the protocol, all explicit designations are checked before wild cards 
+
+in any position, so a specific access right would take precedence over a wildcard right. 
+ F TEMP BIBLIOGHELP.TXT
+FileAccess ListPointerUserAccessRights USER_S USER_B USER_AORW
+RWRBIBLIOGTEMPFHELP.TXT
+ USER_AORW
+ USER_S USER_AORW
+R USER_S USER_B USER_AR
+RR USER_TR SYSMGR USER_SVCSRWODirectoryAccess ListsFilesFIGURE 2-13 Access Control List with Two Subjects

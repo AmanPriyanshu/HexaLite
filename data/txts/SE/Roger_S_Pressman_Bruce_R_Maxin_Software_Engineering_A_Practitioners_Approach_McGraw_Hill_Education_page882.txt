@@ -1,0 +1,74 @@
+852 PART FIVE  
+ADVANCED TOPICS
+safety-rated components. Even more complex systems are on the immedi-ate horizon, presenting signiﬁ cant challenges for software designers. 
+  
+ 
+ 
+•   
+Heterogeneous, distributed systems
+ 
+—The real-time components of any modern embedded system can be connected via an internal bus, a wire-
+less network, or across the Internet (or all three).   
+ 
+ 
+•   
+Criticality 
+—Software has become the pivotal component in virtually all business-critical systems and in most safety-critical systems. Yet, the soft-
+
+ware engineering community has only begun to apply even the most basic 
+principles of software safety. 
+  
+ 
+ 
+•   
+Maintenance variability 
+—The life of software within a digital device rarely lasts beyond 3 to 5 years, but the complex avionics systems within an air-
+
+craft has a useful life of at least 20 years. Automobile software falls some-
+where in between. Should this have an impact on design?    
+Broy [Bro06] argues that these and other software characteristics can be man-aged only if the software engineering community develops a more effective dis-
+tributed and collaborative software engineering philosophy, better requirements 
+
+engineering approaches, a more robust approach to model-driven development, 
+and better software tools. In the sections that follow we’ll explore each of these 
+areas brieﬂ y. 
+ 
+ 
+ 
+ 
+ 
+ 
+38.5.3   
+Collaborative Development  
+It seems too obvious to state, but we’ll do so anyway:  software engineering is an 
+information technology.
+ 
+ From the onset of any software project, every stake-
+holder must share information—about basic business goals and objectives, about 
+speciﬁ c system requirements, about architectural design issues, about almost 
+every aspect of the software to be built.  Today, software engineers collaborate across time zones and international 
+boundaries. Every one of them must share information. The same holds for open-
+source projects in which hundreds or thousands of software developers work to 
+build an open-source app. Again, information must be disseminated so that open 
+collaboration can occur. 
+  
+ 
+ 
+38.5.4   
+Requirements Engineering 
+ 
+Basic requirements engineering actions—elicitation, elaboration, negotiation, speciﬁ cation, and validation—were presented in Chapters 8 through 11. The suc-
+cess or failure of these actions has a very strong inﬂ uence on the success or failure 
+of the entire software engineering process. And yet, requirements engineering 
+(RE) has been compared to “trying to put a hose clamp around jello” [Gon04]. As 
+we’ve noted in many places throughout this book, software requirements have a 
+tendency to keep changing, and with the advent of open-world systems, emer-
+
+gent requirements (and near-continuous change) may become the norm. 
+   Collaboration involves 
+the timely dissemina-
+tion of information and 
+
+an effective process 
+for communication and 
+decision making. pre22126_ch38_839-859.indd   852pre22126_ch38_839-859.indd   85213/12/13   6:17 PM13/12/13   6:17 PM

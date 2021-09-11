@@ -1,0 +1,105 @@
+CHAPTER 16  
+PATTERN-BASED DESIGN
+ 369and team must solve. You need only specify pattern names and provide a one-sentence 
+description for each pattern.    
+ 
+16.7.  Find ﬁ ve patterns repositories and present an abbreviated description of the types of 
+patterns contained in each.    
+ 
+16.8.  When Christopher Alexander says “good design cannot be achieved simply by adding together performing parts,” what do you think he means?    
+ 
+16.9.  Using the pattern-based design tasks noted in Section 16.2.3, develop a skeletal design for the “interior design system” described in Section 15.3.2.    
+ 
+16.10.  Build a pattern-organizing table for the patterns you used in Problem 16.9.    
+ 
+16.11.  Using the design pattern template presented in Section 16.1.3, develop a complete pattern description for the  Kitchen 
+ pattern mentioned in Section 16.3.    
+ 
+16.12.  The gang of four [Gam95] have proposed a variety of component patterns that are applicable to object-oriented systems. Select one (these are available on the Web) and dis-
+
+cuss it.    
+ 
+16.13.  Find three patterns repositories for user-interface patterns. Select one pattern from 
+each and present an abbreviated description of it.    
+ 
+16.14.  Find three patterns repositories for WebApp patterns. Select one pattern from each 
+and present an abbreviated description of it.    
+ 
+16.15.   Find three patterns repositories for mobile patterns. Select one pattern from each 
+and present an abbreviated description of it.   
+ 
+ 
+ 
+  F
+URTHER
+ READINGS AND INFORMATION
+ SOURCES  
+ 
+Many books on pattern-based design have been written for software engineers. Gamma and his colleagues [Gam95] have written the seminal book on the subject. More recent con-
+tributions include books by Burris ( Programming in the Large with Design Patterns,
+ 
+ Pretty 
+Print Press, 2012), Smith ( Elemental Design Patterns, 
+ Addison-Wesley, 2012). Lasater ( 
+Design Patterns, 
+ Wordware Publishing, 2007), Holzner ( 
+Design Patterns for Dummies, 
+ For Dummies, 
+2006), Freeman and her colleagues ( Head First Design Patterns, 
+ O’Reilly Media, 2005), and 
+Shalloway and Trott ( 
+Design Patterns Explained, 
+ 2nd. ed., Addison-Wesley, 2004). Kent Beck 
+( Implementation Patterns, 
+ Addison-Wesley, 2008) addresses patterns for coding and imple-
+mentation issues that are encountered during the construction activity. 
+  
+ 
+Other books focus on design patterns as they are supplied in speciﬁ c application de-
+velopment and language environments. Contributions in this area include: Bowers and his 
+colleagues ( Pro HTML5 and CSS3 Design Patterns,
+ 
+ Apress, 2011), Scott and Neil ( 
+Designing Web Interfaces: Principles and Patterns for Rich Interactions
+ 
+, O’Reilly, 2009), Tropashko 
+and Burleson ( SQL Design Patterns: Expert Guide to SQL Programming,
+ 
+ Rampant Tech-
+press, 2007), Mahemoff ( Ajax Design Patterns, 
+ O’Reilly Media, 2006), Bevis ( 
+Java Design Pattern Essentials, 
+ Ability First Limited, 2010), Metsker and Wake ( 
+Design Patterns in Java, 
+ Addison-Wesley, 2006), Millett ( 
+Professional ASP.NET Design Patterns,
+ 
+ Wrox, 2010), 
+Nilsson ( Applying Domain-Driven Design and Patterns: With Examples in C# and .NET,
+ 
+ Addison-Wesley, 2006), Stefanov ( 
+JavaScript Patterns, 
+ O’Reilly, 2010), Sweat ( 
+Architect’s 
+Guide to PHP Design Patterns, 
+ Marco Tabini & Associates, 2005), Paul ( 
+Design Patterns in C# 
+), Metsker ( Design Patterns C#, 
+ Addison-Wesley, 2004), Grand and Merrill ( 
+Visual Basic 
+.NET Design Patterns, 
+ Wiley, 2003), Crawford and Kaplan ( 
+J2EE Design Patterns, 
+ O’Reilly 
+Media, 2003), Juric et al. ( J2EE Design Patterns Applied, 
+ Wrox Press, 2002), and Marinescu 
+and Roman ( EJB Design Patterns, 
+ Wiley, 2002), 
+  
+ 
+Still other books address speciﬁ c application domains. These include contributions by 
+Kuchana ( Software Architecture Design Patterns in Java,
+ 
+ Auerbach, 2004), Joshi ( 
+C++ Design 
+pre22126_ch16_347-370.indd   369pre22126_ch16_347-370.indd   36916/12/13   6:22 PM16/12/13   6:22 PM

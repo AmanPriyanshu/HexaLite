@@ -1,0 +1,80 @@
+ Section 6.7  Firewalls 
+463  are unaware of the cryptography and 
+management is assured of the confi-
+
+dentiality protection.Guard
+A guard is a sophisticated firewall. Like a proxy firewall, it receives protocol data units, 
+interprets them, and emits the same or different protocol data units that achieve either the 
+
+same result or a modified result. The guard determines what services to perform on the 
+
+user’s behalf in accordance with its available information, such as whatever it can reliably 
+
+ascertain of the (outside) user’s identity, previous interactions, and so forth. The degree of 
+
+control a guard can provide is limited only by what is computable. But guards and proxy 
+
+firewalls are similar enough that the distinction between them is sometimes fuzzy. That is, 
+
+we can add functionality to a proxy firewall until it starts to look a lot like a guard.
+Guard activities can be quite detailed, as illustrated in the following examples:
+• A university wants to allow its students to use email up to a limit of so many 
+messages or so many characters of email in the last so many days. Although this 
+
+result could be achieved by modifying email handlers, it is more easily done by 
+
+monitoring the common point through which all email flows, the mail transfer 
+
+protocol.• A school wants its students to be able to access the World Wide Web but, 
+because of the capacity of its connection to the web, it will allow only so many 
+
+bytes per second (that is, allowing text mode and simple graphics but disallow-
+
+ing complex graphics, video, music, or the like).
+• A library wants to make available certain documents but, to support fair use of 
+copyrighted matter, it will allow a user to retrieve only the first so many charac-
+
+ters of a document. After that amount, the library will require the user to pay a 
+
+fee that will be forwarded to the author.
+• A company is developing a new product based on petroleum and helium gas, 
+code-named “light oil.” In any outbound data flows, as file transfers, email, web 
+
+pages, or other data stream, it will replace the words “petroleum,” “helium,” or 
+
+“light oil” with “magic.” A firewall is thought of primarily as an inbound filter: 
+
+letting in only appropriate traffic (that which conforms to the firewall’s security 
+
+policy). This example shows that a firewall or guard can just as easily screen 
+
+outbound traffic.
+• A company wants to allow its employees to fetch files by FTP. However, to 
+prevent introduction of viruses, it will first pass all incoming files through a 
+
+virus scanner. Even though 
+
+many of these files will be 
+
+nonexecutable text or graph-
+
+ics, the company adminis-
+
+trator thinks that the expense 
+
+of scanning them (which 
+
+file shall pass) will be 
+
+negligible.
+A circuit-level gateway connects two 
+
+separate subnetworks as if they were 
+
+one contiguous unit.A guard can implement any 
+
+programmable set of conditions, even if 
+
+the program conditions become highly 
+
+sophisticated.

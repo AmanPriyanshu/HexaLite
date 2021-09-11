@@ -1,0 +1,53 @@
+522 Chapter 7  
+DatabasesThis query discloses that for record ADAMS, DRUGS=1. However, it is an obvious 
+attack because it selects people for whom DRUGS=1, and the DBMS might reject the 
+
+query because it selects records for a specific value of the sensitive attribute DRUGS.
+A less obvious query is
+List NAME where      (SEX=M ^ DRUGS=1) ^      (SEX=M ^ SEX=F) ^      (DORM=AYRES)On the surface, this query looks as if it should conceal drug usage by selecting other non-
+drug-related records as well. However, this query still retrieves only one record, reveal-
+
+ing a name that corresponds to the sensitive DRUG value. The DBMS needs to know 
+
+that SEX has only two possible values, so that the second clause will select no records. 
+
+Even if that were possible, the DBMS would also need to know that no records exist with 
+
+DORM=AYRES, even though AYRES might in fact be an acceptable value for DORM.
+Inference by Arithmetic
+Another procedure, used by the U.S. Census Bureau and other organizations that gather 
+sensitive data, is to release only statistics. The organizations suppress individual names, 
+
+addresses, or other characteristics by which a single individual can be recognized. Only 
+
+neutral statistics, such as count, sum, and mean, are released.The indirect attack seeks to infer a final result based on one or more intermediate 
+statistical results. But this approach requires work outside the database itself. In particu-
+
+lar, a statistical attack seeks to use some apparently anonymous statistical measure to 
+
+infer individual data. In the following sections, we present several examples of indirect 
+
+attacks on databases that report statistics.Sum An attack by sum tries to infer a value from a reported sum. For example, with the 
+sample database in Table 7-7, it might seem safe to report student aid total by sex and 
+
+dorm. Such a report is shown in Table 7-8. This seemingly innocent report reveals that 
+
+no female living in Grey is receiving financial aid. Thus, we can infer that any female 
+
+living in Grey (such as Liu) is certainly not receiving financial aid. This approach often 
+
+allows us to determine a negative result.
+Count The count can be combined with the sum to produce some even more revealing results. 
+Often these two statistics are released for a database to allow users to determine average 
+
+values. (Conversely, if count and mean are released, sum can be deduced.)
+Table 7-9 shows the count of records for students by dorm and sex. This table is 
+innocuous by itself. Combined with the sum table, however, this table demonstrates 
+
+that the two males in Holmes and West are receiving financial aid in the amount of 
+
+$5000 and $4000, respectively. We can obtain the names by selecting the subschema of 
+
+NAME, DORM, which is not sensitive because it delivers only low-security data on the 
+
+entire database.

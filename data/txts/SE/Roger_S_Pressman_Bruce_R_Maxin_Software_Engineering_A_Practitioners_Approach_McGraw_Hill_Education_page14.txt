@@ -1,0 +1,73 @@
+xiv TABLE OF CONTENTS
+13.5 Architectural Decisions  266
+
+13.6 Architectural Design  267
+13.6.1 Representing the System in Context  267
+
+13.6.2 Deﬁ ning Archetypes  269
+
+13.6.3 Reﬁ ning the Architecture into Components  270
+
+13.6.4 Describing Instantiations of the System  272
+
+13.6.5 Architectural Design for Web Apps  273
+
+13.6.6 Architectural Design for Mobile Apps  274
+13.7 Assessing Alternative Architectural Designs  274
+13.7.1 Architectural Description Languages  276
+
+13.7.2 Architectural Reviews  277
+13.8 Lessons Learned  278
+
+13.9 Pattern-based Architecture Review  278
+
+13.10 Architecture Conformance Checking  279
+
+13.11 Agility and Architecture  280
+
+13.12 Summary  282
+
+PROBLEMS AND POINTS TO PONDER  282FURTHER READINGS AND INFORMATION SOURCES  283CHAPTER 14 COMPONENT-LEVEL DESIGN  285
+14.1 What Is a Component?  286
+14.1.1 An Object-Oriented View  286
+
+14.1.2 The Traditional View  288
+
+14.1.3 A Process-Related View  291
+14.2 Designing Class-Based Components  291
+14.2.1 Basic Design Principles  292
+
+14.2.2 Component-Level Design Guidelines  295
+
+14.2.3 Cohesion  296
+
+14.2.4 Coupling  298
+14.3 Conducting Component-Level Design  299
+
+14.4 Component-Level Design for WebApps  305
+14.4.1 Content Design at the Component Level  306
+
+14.4.2 Functional Design at the Component Level  306
+14.5 Component-Level Design for Mobile Apps  306
+
+14.6 Designing Traditional Components  307
+
+14.7 Component-Based Development  308
+14.7.1 Domain Engineering  308
+
+14.7.2 Component Qualiﬁ cation, Adaptation, and Composition  309
+
+14.7.3 Architectural Mismatch  311
+
+14.7.4 Analysis and Design for Reuse  312
+
+14.7.5 Classifying and Retrieving Components  312
+14.8 Summary  313
+
+PROBLEMS AND POINTS TO PONDER  315FURTHER READINGS AND INFORMATION SOURCES  315CHAPTER 15 USER INTERFACE DESIGN  317
+15.1 The Golden Rules  318
+15.1.1 Place the User in Control  318
+
+15.1.2 Reduce the User’s Memory Load  319
+
+15.1.3 Make the Interface Consistent  321

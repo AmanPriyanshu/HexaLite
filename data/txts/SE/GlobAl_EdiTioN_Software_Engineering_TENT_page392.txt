@@ -1,0 +1,42 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜about additional system security requirements or the operational process of using the 
+system. Examples of these requirements might be:1. A password checker program shall be made available and shall be run daily to check all user passwords. User passwords that appear in the system dictionary 
+shall be identified, and users with weak passwords shall be reported to system 
+administrators.2. Access to the system shall only be allowed to client computers that have been 
+
+approved and registered with the system administrators.3. Only one approved web browser shall be installed on client computers.As an off-the-shelf system is used, it isn™t possible to include a password checker in the application system itself, so a separate system must be used. Password check-
+ers analyze the strength of user passwords when they are set up and notify users if 
+
+they have chosen weak passwords. Therefore, vulnerable passwords can be identi
+-
+fied reasonably quickly after they have been set up, and action can then be taken to 
+ensure that users change their password.The second and third requirements mean that all users will always access the sys-tem through the same browser. You can decide what is the most secure browser 
+
+when the system is deployed and install that on all client computers. Security updates 
+are simplified because there is no need to update different browsers when security 
+
+vulnerabilities are discovered and fixed.The process model shown in Figure 13.10 assumes a design process where the 
+design is developed to a fairly detailed level before implementation begins. This is 
+not the case for agile processes where the design and the implementation are devel-
+oped together, with the code refactored as the design is developed. Frequent delivery 
+of system increments does not allow time for a detailed risk assessment, even if 
+
+information on assets and technology choices is available.The issues surrounding security and agile development have been widely dis-cussed (Lane 2010; Schoenfield 2013). So far, the issue has not really been 
+
+resolvedŠsome people think that a fundamental conflict exists between security 
+
+and agile development, and others believe that this conflict can be resolved using 
+
+security-focused stories (Safecode 2012). This remains an outstanding problem 
+
+for developers of agile methods. Meanwhile, many security-conscious companies 
+
+refuse to use agile methods because they conflict with their security and risk 
+
+analysis policies.Software architecture design decisions can have profound effects on the emergent 
+
+properties of a software system. If an inappropriate architecture is used, it may be 
+
+very difficult to maintain the confidentiality and integrity of information in the sys-
+tem or to guarantee a required level of system availability.

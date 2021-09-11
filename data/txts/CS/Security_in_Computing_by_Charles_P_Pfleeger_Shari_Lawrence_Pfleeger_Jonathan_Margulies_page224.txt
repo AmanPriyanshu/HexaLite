@@ -1,0 +1,66 @@
+190 Chapter 3  
+Programs and Programmingsuggest that a general solution is unlikely. In complexity theory, we say that the general 
+question “Are these two programs equivalent?” is undecidable (although that question 
+
+can be answered for many specific pairs of programs).
+Even if we ignore the general undecidability problem, we must still deal with a great 
+deal of uncertainty about what equivalence means and how it affects security. Two mod-
+
+ules may be practically equivalent but produce subtly different results that may—or 
+
+may not—be security relevant. One may run faster, or the first may use a temporary 
+
+file for workspace, whereas the second performs all its computations in memory. These 
+
+differences could be benign, or they could be a marker of an infection. Therefore, we 
+
+are unlikely to develop a screening program that can separate infected modules from 
+
+uninfected ones.Although the general case is dismaying, the particular is not. If we know that a par-
+ticular virus may infect a computing system, we can check for its “signature” and detect 
+
+it if it is there. Having found the virus, however, we are left with the task of cleansing 
+
+the system of it. Removing the virus in a running system requires being able to detect 
+
+and eliminate its instances faster than it can spread.
+The examples we have just given describe several ways in which malicious code 
+arrives at a target computer, but they do not answer the question of how the code is first 
+
+executed and continues to be executed. Code from a web page can simply be injected 
+
+into the code the browser executes, although users’ security settings within browsers 
+
+may limit what that code can do. More generally, however, code writers try to find ways 
+
+to associate their code with existing programs, in ways such as we describe here, so that 
+
+the “bad” code executes whenever the “good” code is invoked.
+Installation Stealth We have described several approaches used to transmit code without the user’s being 
+
+aware, including downloading as a result of loading a web page and advertising one 
+
+function while implementing another. Malicious code designers are fairly competent at 
+
+tricking the user into accepting malware.
+Execution Stealth Similarly, remaining unnoticed during execution is not too difficult. Modern operating 
+
+systems often support dozens of concurrent processes, many of which have unrecogniz-
+
+able names and functions. Thus, even if a user does notice a program with an unrecog-
+
+nized name, the user is more likely to accept it as a system program than malware.
+Stealth in Storage If you write a program to distribute to others, you will give everyone a copy of the 
+
+same thing. Except for some customization (such as user identity details or a product 
+serial number) your routine will be identical to everyone else’s. Even if you have dif-
+
+ferent versions, you will probably structure your code in two sections: as a core rou-
+
+tine for everyone and some smaller modules specific to the kind of user—home user, 
+
+small business professional, school personnel, or large enterprise customer. Designing 
+
+your code this way is the economical approach for you: Designing, coding, testing, and 
+
+maintaining one entity for many customers is less expensive than doing that for each 

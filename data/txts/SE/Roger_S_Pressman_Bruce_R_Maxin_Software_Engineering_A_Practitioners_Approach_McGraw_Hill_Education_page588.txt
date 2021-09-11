@@ -1,0 +1,102 @@
+558 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 25.7  
+CONFIGURATION
+ TESTING  
+ 
+Conﬁ guration variability and instability are important factors that make WebApp 
+testing a challenge. Hardware, operating system(s), browsers, storage capacity, net-
+
+work communication speeds, and a variety of other client-side factors are difﬁ cult 
+to predict for each user. In addition, the conﬁ
+ guration for a given user can change 
+[e.g., operating system (OS) updates, new ISP and connection speeds] on a regular 
+
+basis. The result can be a client-side environment that is prone to errors that are 
+
+both subtle and signiﬁ cant. One user’s impression of the WebApp and the manner 
+in which she interacts with it can differ signiﬁ cantly from another user’s experi-
+ence, if both users are not working within the same client-side conﬁ guration. 
+ The job of  conﬁ guration testing
+ 
+ is not to exercise every possible client-side 
+conﬁ guration. Rather, it is to test a set of probable client-side and server-side 
+conﬁ gurations to ensure that the user experience will be the same on all of them 
+and to isolate errors that may be speciﬁ c to a particular conﬁ
+ guration. 
+ 
+ 
+ 
+25.7.1   
+Server-Side Issues 
+ 
+On the server side, conﬁ guration test cases are designed to verify that the projected 
+server conﬁ guration [i.e., WebApp server, database server, operating system(s), ﬁ
+ re-
+wall software, concurrent applications] can support the WebApp without error. 
+ As server-side conﬁ
+ guration tests are designed, you should consider each 
+component of the server conﬁ guration. Among the questions that need to be 
+asked and answered during server-side conﬁ
+ guration testing are: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+•  Is the WebApp fully compatible with the server OS? 
+  
+ 
+ 
+•  Are system ﬁ les, directories, and related system data created correctly 
+when the WebApp is operational? 
+  
+ 
+ 
+•  Do system security measures (e.g., ﬁ rewalls or encryption) allow the 
+WebApp to execute and service users without interference or perfor-
+
+mance degradation?   
+ 
+ 
+•  Has the WebApp been tested with the distributed server conﬁ
+ guration 
+ 12 
+ 
+ (if one exists) that has been chosen?  
+  
+ 
+ 
+•  Is the WebApp properly integrated with database software? Is the 
+WebApp sensitive to different versions of database software? 
+  
+ 
+ 
+•  Do server-side WebApp scripts execute properly? 
+  
+ 
+ 
+•  Have system administrator errors been examined for their effect on WebApp operations? 
+  
+ 
+ 
+•  If proxy servers are used, have differences in their conﬁ guration been 
+addressed with on-site testing?   What 
+questions must be asked 
+and answered 
+as server-side 
+
+conﬁ guration 
+testing is 
+conducted? ?  
+12  For example, a separate application server and database server may be used. Communication between the two machines occurs across a network connection.pre22126_ch25_540-566.indd   558pre22126_ch25_540-566.indd   55813/12/13   6:15 PM13/12/13   6:15 PM

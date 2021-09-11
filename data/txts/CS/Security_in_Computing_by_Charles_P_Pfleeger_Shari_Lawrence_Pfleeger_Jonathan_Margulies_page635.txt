@@ -1,0 +1,74 @@
+ Section 9.2  Privacy Principles and Policies 
+601  purchased in a given order, obtains the purchaser’s name and address, and determines 
+shipping and payment details. This software runs as an application within other well-
+
+known retail merchants’ websites; it is the subsystem that handles order processing. 
+
+Some of these other retailers had privacy statements on their websites saying, in effect, 
+
+that they would not sell or distribute customers’ data. Nevertheless, CartManager did 
+
+sell the data it collected with its subsystem. The FTC prosecuted CartManager, settling 
+
+in 2005. The agency held that the merchants’ relationship to CartManager was invisible 
+
+to users, and so the policy from the online merchants applied also to CartManager.
+In another case, Annie Antón and her colleagues [ANT04] analyzed the privacy pol-
+icy posted on Jet Blue airlines’ website and found it misleading. Jet Blue stated that it 
+
+would not disclose passenger data to third parties. “In response to a special request from 
+
+the Department of Defense,” Jet Blue released passenger data to Torch Concepts, which 
+
+in turn passed it to the Defense Department to use in testing passenger-screening algo-
+
+rithms for airline security. The data in question involved credit card information, clearly 
+
+collected by Jet Blue only to process charges for airline tickets. 
+The analysis by Antón is interesting for two reasons: First, Jet Blue violated its own 
+policy. Second, the Defense Department may have circumvented the e-Government Act 
+
+by acquiring from a private company data it would not have been able to collect directly 
+
+as a government entity. The original purpose for Jet Blue’s data collection derived from 
+
+its business and accounting activities. Using those same records to screen for terrorists 
+
+was outside the scope of the original data collection. 
+Commercial sites have no standard of content comparable to the FTC recommenda-
+tion from the e-Government Act. Some companies display clear and detailed privacy 
+
+statements that they must obey. Meanwhile, other companies provide no privacy state-
+
+ment at all, giving them great flexibility: It is impossible to mislead when a privacy 
+
+policy says nothing. For a different approach to defining online privacy, see Sidebar 9-3.
+SIDEBAR 9-3 Privacy in Context
+Many of the ways we think about and provide privacy, especially online, 
+don’t work as well as we would like them to. Helen Nissenbaum [NIS11] 
+
+suggests an alternative approach to privacy online: privacy as a form of 
+
+“contextual integrity.” Her approach considers the “formative ideals of the 
+
+Internet as a public good.” Let’s investigate what those phrases mean.
+Nissenbaum notes that a privacy model based on choices may leave out important considerations. “While it may seem that individuals freely 
+
+choose to pay the informational price, the price of not engaging socially, 
+
+commercially, and financially may in fact be exacting enough to call into 
+
+question how freely these choices are made.” She says that “the consent 
+
+model for respecting privacy online is plagued by deeper problems than 
+
+the practical ones.” In particular, consider that “achieving transparency 
+
+means conveying information-handling practices in ways that are relevant 
+
+and meaningful” to an individual’s choices. But if notice means conveying 
+
+the fine details of “every flow, condition, qualification, and exception, we 
+
+know that it is unlikely to be understood, let alone read.” A shortened version 
+(continues)

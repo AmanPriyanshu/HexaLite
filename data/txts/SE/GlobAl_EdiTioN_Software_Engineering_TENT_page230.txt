@@ -1,0 +1,54 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜2. Incomplete versions of a system can be inspected without additional costs. If 
+a program is incomplete, then you need to develop specialized test harnesses 
+
+to test the parts that are available. This obviously adds to the system develop-
+ment costs.3.
+ As well as searching for program defects, an inspection can also consider 
+
+broader quality attributes of a program, such as compliance with standards, 
+
+portability, and maintainability. You can look for inefficiencies, inappropriate 
+algorithms, and poor programming style that could make the system difficult to 
+maintain and update.Program inspections are an old idea, and several studies and experiments have 
+shown that inspections are more effective for defect discovery than program testing. 
+
+Fagan (Fagan 1976) reported that more than 60% of the errors in a program can be 
+detected using informal program inspections. In the Cleanroom process (Prowell et 
+
+al. 1999), it is claimed that more than 90% of defects can be discovered in program 
+inspections.However, inspections cannot replace software testing. Inspections are not good 
+for discovering defects that arise because of unexpected interactions between differ-
+ent parts of a program, timing problems, or problems with system performance. In 
+
+small companies or development groups, it can be difficult and expensive to put 
+
+together a separate inspection team as all potential team members may also be 
+
+developers of the software.I discuss reviews and inspections in more detail in Chapter 24 (Quality 
+Management). Static analysis, where the source text of a program is automatically 
+
+analyzed to discover anomalies, is explained in Chapter 12. In this chapter, I focus 
+on testing and testing processes.Figure 8.
+3 is an abstract model of the traditional testing process, as used in plan-driven development. Test cases are specifications of the inputs to the test and the 
+
+expected output from the system (the test results), plus a statement of what is being 
+tested. Test data are the inputs that have been devised to test a system. Test data can 
+sometimes be generated automatically, but automatic test case generation is impos-
+sible. People who understand what the system is supposed to do must be involved to 
+specify the expected test results. However, test execution can be automated. The test 
+results are automatically compared with the predicted results, so there is no need for 
+a person to look for errors and anomalies in the test run.Design testcasesPrepare test
+data
+Run pr
+ogramwith test data
+Compare results
+to test casesTest
+casesTest
+data
+Test
+results
+Test
+reports
+Figure 8.3 A model of˜the software 
+testing process

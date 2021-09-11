@@ -1,0 +1,18 @@
+ Section 3.1  Unintentional (Nonmalicious) Programming Oversights 
+151  some termination code cleans up the stack, reloads registers, and returns. Just below 
+the program counter, StackGuard inserts a canary value to signal modification; if the 
+
+attacker rewrites the program counter and the added value, StackGuard augments the 
+
+termination code to detect the modified added value and signal an error before return-
+
+ing. Thus, each canary value serves as a protective insert to protect the program counter. 
+
+These protective inserts are shown in Figure 3-11. The idea of surrounding the return 
+
+address with a tamper-detecting value is sound, as long as only the defender can gener-
+
+ate and verify that value.
+Alas, the attack–countermeasure tennis match was played here, as we have seen in 
+other situations such as password guessing: The attacker serves, the defender responds 
+StackP3Procedure AP2P1Prog CtrStack PtrcodecodeProg CtrStack Ptrcall Bcall CProcedure CProcedure BFIGURE 3-10 Compromised StackStackP3Procedure AP2P1Prog CtrCanaryStack PtrP2P1Prog Ctr CanaryStack Ptrcall Bcall CProcedure CProcedure BFIGURE 3-11 Canary Values to Signal Modification

@@ -1,0 +1,62 @@
+678 Chapter 10  
+Management and IncidentsNeither of these two approaches is “right” nor is one necessarily better than the 
+other. In Table 10-6 we summarize the advantages and disadvantages of each.
+The Delphi approach
+ is a subjective probability technique originally devised by 
+RAND [HAL67] to deal with public policy decisions. It assumes experts can make 
+
+informed estimates based on their experience; the method brings a group of experts to 
+
+consensus. The first step in using Delphi is to provide each of several experts with infor-
+
+mation describing the situation surrounding the event under consideration. For example, 
+
+the experts may be told about the software and hardware architecture, conditions of use, 
+
+and expertise of users. Then, each expert individually estimates the likelihood of the 
+
+event. The estimates are collected, reproduced, and distributed to all experts. The indi-
+
+vidual estimates are listed anonymously, and the experts are usually given some statisti-
+
+cal information, such as mean or median. The experts are then asked whether they wish 
+
+to modify their individual estimates in light of values their colleagues have supplied. If 
+
+the revised values are reasonably consistent, the process ends with the group’s reaching 
+
+consensus. If the values are inconsistent, additional rounds of revision may occur until 
+
+consensus is reached.Step 4: Compute Expected LossBy this time, we have gained an understanding of the assets we value, their possible vul-
+nerabilities, and the likelihood that the vulnerabilities will be exploited. Next, we must 
+
+determine the likely loss if the exploitation does indeed occur. As with likelihood of 
+
+occurrence, this value is difficult to determine. Some costs, such as the cost to replace a 
+
+hardware item, are easy to obtain. The cost to replace a piece of software can be approx-
+
+imated reasonably well from the initial cost to buy it (or specify, design, and write it). 
+
+However, we must take care to include hidden costs in our calculations. For instance, 
+TABLE 10-5 
+Ratings of Likelihood
+FrequencyRating
+More than once a day10
+Once a day9
+
+Once every three days8
+
+Once a week7
+
+Once in two weeks6
+
+Once a month5
+
+Once every four months4
+
+Once a year3
+
+Once every three years2
+
+Less than once in three years1

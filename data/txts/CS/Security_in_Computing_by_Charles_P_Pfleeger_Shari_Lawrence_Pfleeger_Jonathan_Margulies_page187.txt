@@ -1,0 +1,74 @@
+ Section 3.1  Unintentional (Nonmalicious) Programming Oversights 
+153  A programmer typically dismisses considering bad input, asking why anyone would 
+enter such numbers. Everybody knows there is no 30th of February and, for certain 
+
+applications, a date in the 1800s is ridiculous. True. But ridiculousness does not alter 
+
+human behavior. A person can type 1800 if fingers slip or the typist is momentarily 
+
+distracted, or the number might have been corrupted during transmission. Worse, just 
+
+because something is senseless, stupid, or wrong doesn’t prevent people from doing 
+
+it. And if a malicious person does it accidentally and finds a security weakness, other 
+
+people may well hear of it. Security scoundrels maintain a robust exchange of find-
+
+ings. Thus, programmers should not 
+
+assume data will be proper; instead, 
+programs should validate that all 
+
+data values are reasonable before 
+
+using them.Validate All Input
+One way to address potential problems is to try to anticipate them. For instance, the pro-
+grammer in the examples above may have written code to check for correctness on the 
+
+client’s side (that is, the user’s browser). The client program can search for and screen out 
+errors. Or, to prevent the use of nonsense data, the program can restrict choices to valid 
+
+ones only. For example, the program supplying the parameters might have solicited them 
+
+by using a drop-down box or choice list from which only the twelve conventional months 
+
+could have been selected. Similarly, the year could have been tested to ensure a reasonable 
+
+value (for example, between 2000 and 2050, according to the application) and date num-
+
+bers would have to be appropriate for the months in which they occur (no 30th of Febru-
+
+ary, for example). Using such verification, the programmer may have felt well insulated 
+
+from the possible problems a careless or malicious user could cause.Guard Against Users’ Fingers
+However, the application is still vulnerable. By packing the result into the return URL, 
+the programmer left these data fields in a place where the user can access (and modify) 
+
+them. In particular, the user can edit the URL line, change any parameter values, and 
+
+send the revised line. On the server side, the server has no way to tell if the response 
+
+line came from the client’s browser or as a result of the user’s editing the URL directly. 
+
+We say in this case that the data values are not completely mediated: The sensitive data 
+
+(namely, the parameter values) are in an exposed, uncontrolled condition.
+Unchecked data values represent a serious potential vulnerability. To demonstrate 
+this flaw’s security implications, we use a real example; only the name of the vendor 
+
+has been changed to protect the guilty. Things, Inc., was a very large, international ven-
+
+dor of consumer products, called Objects. The company was ready to sell its Objects 
+
+through a web site, using what appeared to be a standard e-commerce application. The 
+
+management at Things decided to let some of its in-house developers produce a web site 
+
+with which its customers could order Objects directly from the web.
+To accompany the web site, Things developed a complete price list of its Objects, 
+including pictures, descriptions, and drop-down menus for size, shape, color, scent, and 
+Users make errors from ignorance, 
+
+misunderstanding, distraction; user 
+
+errors should not cause program failures.

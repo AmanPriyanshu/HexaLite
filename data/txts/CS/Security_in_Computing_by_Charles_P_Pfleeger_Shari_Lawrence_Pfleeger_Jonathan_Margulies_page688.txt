@@ -1,0 +1,61 @@
+654 Chapter 10  
+Management and IncidentsSIDEBAR 10-1 Who Is Responsible for Using Security?
+We put a lot of responsibility on the user: Apply these patches, don’t down-
+load unknown code, keep sensitive material private, change your password 
+
+frequently, don’t forget your umbrella. We are all fairly technology savvy, so 
+
+we take in stride messages like “fatal error.” (A neighbor once called in a 
+
+panic, fearing that her entire machine and all its software data were about 
+
+to go up in a puff of electronic smoke because she had received a “fatal 
+
+error” message; I explained calmly that the message was perhaps a bit 
+
+melodramatic.)But that neighbor raises an important point: How can we expect peo-
+ple to use their computers securely when that is so hard to do? Take, for 
+
+example, the various steps necessary in securing a wireless access point 
+
+(see Chapter 6): Use WPA or WPA2, not WEP; set the access point into non-
+
+broadcast mode, not open; choose a random 128-bit number for an initial 
+
+value. Whitten and Tygar [WHI99] list four points critical to users’ security: 
+
+users must be• aware of the security of tasks they need to perform
+• able to figure out how to perform those tasks successfully
+
+• prevented from making dangerous errors
+
+• sufficiently comfortable with the technology to continue using it
+Whitten and Tygar conclude that the popular PGP product, which has 
+a fairly good user interface, is not usable enough to provide effective secu-
+
+rity for most computer users. Furnell [FUR05] reached a similar conclusion 
+
+about the security features in Microsoft Word.
+The field of human–computer interaction (HCI) is mature, guidance 
+materials are available, and numerous good examples exist. Why, then, 
+
+are security settings hidden on a sub-sub-tab and written in highly techni-
+
+cal jargon? We cannot expect users to participate in security enforcement 
+
+unless they can understand what they should do.A leader in the HCI field, Ben Shneiderman counsels that the human–
+computer interface should be, in his word, fun. Citing work others have 
+
+done on computer game interfaces, Shneiderman notes that such inter-
+
+faces satisfy needs for challenge, curiosity, and fantasy. He then argues 
+
+that computer use must “(1) provide the right functions so that users can 
+
+accomplish their goals, (2) offer usability plus reliability to prevent frustra-
+
+tion from undermining the fun, and (3) engage users with fun-features.” 
+
+[SHN04] One can counter that security functionality is serious, unlike computer games or web browsers. Still, this does not relieve us from the need to make 
+
+the interface consistent, informative, empowering, and error preventing.

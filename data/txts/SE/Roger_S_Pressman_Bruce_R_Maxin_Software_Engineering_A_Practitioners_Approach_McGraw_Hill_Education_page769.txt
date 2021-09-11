@@ -1,0 +1,83 @@
+CHAPTER 33  
+ESTIMATION FOR SOFTWARE PROJECTS
+ 739 
+Finally, the estimated number of FP is derived:
+FPestimated 5 count total 3 [0.65 1 0.01 3 S( F 
+ i 
+)] 5 375  The organizational average productivity for systems of this type is 6.5 FP/pm. Based on a burdened labor rate of $8,000 per month, the cost per FP is ap-
+proximately $1,230. Based on the FP estimate and the historical productivity 
+data, the total estimated project cost is $461,000 and the estimated effort is 58 
+person-months.   
+ 
+ 
+33.6.5   
+Process-Based Estimation 
+ 
+The most common technique for estimating a project is to base the estimate on the process that will be used. That is, the process is decomposed into a relatively 
+small set of activities, actions, and tasks and the effort required to accomplish 
+each is estimated.  Like the problem-based techniques, process-based estimation begins with a delineation of software functions obtained from the project scope. A series of 
+framework activities must be performed for each function. Functions and related 
+framework activities  8 
+ 
+ may be represented as part of a table similar to the one 
+presented in   
+Figure 33.4  
+.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  Once problem functions and process activities are melded, you estimate the effort (e.g., person-months) that will be required to accomplish each software 
+process activity for each software function. These data constitute the central ma-
+trix of the table in   
+Figure 33.4  
+. Average labor rates (i.e., cost/unit effort) are then 
+applied to the effort estimated for each process activity. 
+ If process-based estimation is performed independently of LOC or FP es-timation, you now have two or three estimates for cost and effort that may be    If time permits, use 
+ﬁ ner granularity when 
+
+specifying tasks in 
+  Figure 33.4  . For ex-
+
+ample, break analysis 
+into its major tasks 
+and estimate each 
+separately. 
+Information domain valueNumber of external inputs
+Number of external outputs
+
+Number of external inquiries
+
+Number of internal logical files
+
+Number of external interface files
+Count totalFP count9778
+88
+42
+15320Opt.2012
+164
+2Likely24
+15
+224
+2Pess.30
+22
+285
+3Est.count2416
+224
+2Weight
+4
+5
+5107 FIGURE 33.3 
+Estimating information 
+
+domain values  
+8  The framework activities chosen for this project differ somewhat from the generic activities 
+discussed in Chapter 3. They are: customer communication (CC), planning, risk analysis, engi-
+neering, and construction/release. pre22126_ch33_727-753.indd   739pre22126_ch33_727-753.indd   73913/12/13   6:17 PM13/12/13   6:17 PM

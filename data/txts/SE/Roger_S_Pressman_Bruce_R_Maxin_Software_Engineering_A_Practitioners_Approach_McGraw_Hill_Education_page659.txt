@@ -1,0 +1,35 @@
+CHAPTER 29  
+SOFTWARE CONFIGURATION MANAGEMENT
+ 629among requirements, architectural decisions (Section 13.5), and defect causes (Section 21.6). These dependencies need to be taken into account when deter-
+
+mining the impact of a proposed change and guiding the selection of test cases 
+22.3.2). Dependency manage-
+
+ment can be viewed as impact management.  3 
+ 
+ 
+ 
+ This helps developers to focus on 
+how changes that are made affect their work [Sou08].    
+Impact analysis  focuses on organizational behavior as well as individual ac-
+tions. Impact management involves two complementary aspects: (1) ensuring 
+that software developers employ strategies to minimize the impact of their col-
+leagues’ actions on their own work, and (2) encouraging software developers to 
+use practices that minimize the impact of their own work on that of their col-
+leagues. It is important to note that when a developer tries to minimize the im-
+pact of her work on others she is also reducing the work others need to do to 
+minimize the impact of her work on theirs [Sou08].  It is important to maintain software work products to ensure that developers are aware of the dependencies among the SCIs. Developers must establish dis-
+cipline when checking items in and out of the SCM repository and when making 
+approved changes as discussed in Section 29.2. Bug tracking software is also use-
+ful in helping to uncover SCI dependencies. Electronic communication (e-mail, 
+wikis, social networks) provide convenient ways for developers to share undocu-
+mented dependencies and problems as they arise. DesignSpecificationdata designarchitectural design
+module design
+interface designComponentNinterface descriptionalgorithm description
+PDL DataModelTestSpecificationtest plan
+test procedure
+test casesSourceCode FIGURE 29.2 
+Conﬁ guration 
+objects  
+3  Impact management is discussed further in Section 29.3.4 
+pre22126_ch29_623-652.indd   629pre22126_ch29_623-652.indd   62913/12/13   6:16 PM13/12/13   6:16 PM

@@ -1,0 +1,66 @@
+624 Chapter 9  
+PrivacyContests and Offers
+It’s hard to resist anything free. We will sign up for a chance to win a large prize, even if 
+we have only a minuscule chance of succeeding. Advertisers know that. So contests and 
+
+special offers often convince people to divulge private details. Advertisers also know 
+
+that people are enthusiastic in the moment, but their enthusiasm and attention wane 
+
+quickly; consequently, advertisers work hard to “close the deal” quickly.
+A typical promotion offers you something small for free, to entice you to commit to 
+a product or service. In the days of safety razor advertising, the watchwords were, “Give 
+
+them the razor, then sell them the blades.” Today, the offer is more likely to be “Give 
+
+them a free month of a service, and then automatically enroll them in continuing it.” You 
+
+just sign up, provide a credit card number (which won’t be charged until next month), 
+
+and you get a month’s use of the service for free. As soon as you sign up, the credit card 
+
+number and your name become keys by which to link to other data about you. In fact, if 
+
+you made your way to the vendor site by app or web access, there may already be a link 
+
+history from the forwarding sites that the vendors can exploit. So even if you cancel the 
+
+service after the first month, the link history persists and can be shared with and used 
+
+for other purposes by many of the links in the chain.
+Precautions for Web Surfing
+We have seen why governments, companies and people would want to track your activi-
+
+ties and gather information about you. In this section we discuss some of the technology 
+used to perform the tracking and gathering: cookies and web bugs. As we have already 
+
+noted, these technologies are frequently used to monitor activities without the user’s 
+
+knowledge.
+CookiesCookies are files of data put in place by a website. They are really an inexpensive way for 
+a website owner to transfer its storage need from its website to a user’s computer or phone.
+A cookie is formatted as a text file, stored on the user’s computer, and passed by the 
+user’s browser to the website when the user goes to that site. Each cookie file consists of 
+
+a pair of data items sent to your web browser by the visited website: a key and a value. 
+
+Together, the pair represents the current state of a session between a visiting user and 
+
+the visited website. The key is the URL of the site establishing the cookie. A cookie’s 
+
+value can be thought of as six fields: name, persistent data, expiration date, path on the 
+
+server to which it is to be delivered, domain of the server to which it is to be delivered, 
+
+and the requirement for a secure connection (SSL) by which the cookie is to be deliv-
+
+ered. The persistent data, which is often encrypted, is something the site owner wants 
+
+to retain about the user for future reference, for example, that the user last searched for 
+
+long-stemmed red roses.Once the cookie is placed on the user’s system (usually in a directory with other 
+cookies), the browser continues to use it for subsequent interaction between the user 
+
+and that website. Each cookie is supposed to have an expiration date, but that date can 
+
+be far in the future—and can be modified later or even ignored.

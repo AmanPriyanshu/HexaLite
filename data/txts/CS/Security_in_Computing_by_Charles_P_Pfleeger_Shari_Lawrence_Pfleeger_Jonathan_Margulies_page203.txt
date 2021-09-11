@@ -1,0 +1,80 @@
+ Section 3.2  Malicious Code—Malware 
+169  A Trojan horse
+ is malicious code that, in addition to its primary effect, has a sec-
+ond, nonobvious, malicious effect. The name is derived from a reference to the Trojan 
+
+war. Legends tell how the Greeks tricked the Trojans by leaving a great wooden horse 
+
+outside the Trojans’ defensive wall. The Trojans, thinking the horse a gift, took it inside 
+
+and gave it pride of place. But unknown to the naïve Trojans, the wooden horse was 
+
+filled with the bravest of Greek soldiers. In the night, the Greek soldiers descended from 
+
+the horse, opened the gates, and signaled their troops that the way in was now clear to 
+
+capture Troy. In the same way, Trojan horse malware slips inside a program undetected 
+
+and produces unwelcome effects later on.
+As an example of a computer Trojan horse, consider a login script that solicits a user’s 
+identification and password, passes the identification information on to the rest of the 
+
+system for login processing, but also 
+
+retains a copy of the information for 
+
+later, malicious use. In this example, 
+
+the user sees only the login occurring 
+
+as expected, so there is no reason to 
+
+suspect that any other, unwelcome 
+
+action took place.To remember the differences among these three types of malware, understand that a 
+Trojan horse is on the surface a useful program with extra, undocumented (malicious) 
+
+features. It does not necessarily try to propagate. By contrast, a virus is a malicious pro-
+gram that attempts to spread to other computers, as well as perhaps performing unpleas-
+ant action on its current host. The virus does not necessarily spread by using a network’s 
+
+properties; it can be spread instead by traveling on a document transferred by a portable 
+
+device (that memory stick you just inserted in your laptop!) or triggered to spread to 
+
+other, similar file types when a file is opened. However, a worm requires a network for 
+
+its attempts to spread itself elsewhere.
+Beyond this basic terminology, there is much similarity in types of malicious code. 
+Many other types of malicious code are shown in Table 3-2. As you can see, types 
+
+of malware differ widely in their operation, transmission, and objective. Any of these 
+
+terms is used popularly to describe malware, and you will encounter imprecise and 
+
+overlapping definitions. Indeed, people sometimes use virus as a convenient general 
+
+term for malicious code. Again, let us remind you that nomenclature is not critical; 
+
+impact and effect are. Battling over whether something is a virus or worm is beside the 
+
+point; instead, we concentrate on understanding the mechanisms by which malware 
+
+perpetrates its evil.
+In this chapter we explore viruses in particular, because their ability to replicate and 
+cause harm gives us insight into two aspects of malicious code. Throughout the rest of 
+
+this chapter we may also use the general term malware
+ for any type of malicious code. 
+You should recognize that, although we are interested primarily in the malicious aspects 
+
+of these code forms so that we can recognize and address them, not all activities listed 
+
+here are always malicious. 
+Every month the security firm Kaspersky reports the top 20 infections detected on 
+users’ computers by its products. (See http://www.securelist.com/en/analysis.) In April 
+Trojan horse: program with benign 
+
+apparent effect but second, hidden, 
+
+malicious effect

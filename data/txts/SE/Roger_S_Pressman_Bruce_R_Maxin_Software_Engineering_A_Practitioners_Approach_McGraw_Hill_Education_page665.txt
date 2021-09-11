@@ -1,0 +1,96 @@
+CHAPTER 29  
+SOFTWARE CONFIGURATION MANAGEMENT
+ 635changes to all ﬁ les in the conﬁ
+ guration along with the reason for changes and 
+details of who made the changes and when.”  A number of named change sets can be identiﬁ ed for an application or system. 
+This enables you to construct a version of the software by specifying the change 
+sets (by name) that must be applied to the baseline conﬁ guration. To accomplish 
+this, a  system modeling 
+ approach is applied. The system model contains: (1) a 
+ template 
+ that includes a component hierarchy and a “build order” for the compo-
+nents that describes how the system must be constructed, (2) construction rules, 
+and (3) veriﬁ cation rules. 
+ 5 
+ 
+ 
+ 
+ 
+  A number of different automated approaches to version control have been proposed over the years. The primary difference in approaches is the sophistica-
+tion of the attributes that are used to construct speciﬁ c versions and variants of 
+a system and the mechanics of the process for construction.  
+ 
+  
+ 
+ 
+ uote:  “The art of 
+progress is to 
+preserve order 
+
+amid change and 
+to preserve change 
+
+amid order.” 
+ Alfred North 
+Whitehead   
+5  It is also possible to query the system model to assess how a change in one component will 
+impact other components.   
+6  Download link for [CVS12]  
+http://olex.openlogic.com/packages/cvs 
+  
+ 
+ 
+The Concurrent Versions System (CVS) 
+  
+The use of tools to achieve version control is essential for effective change management. The  Concurrent Versions System
+ 
+ (CVS) is a widely used tool for version control. Originally designed for source 
+code but useful for any text-based ﬁ le, the CVS system 
+(1) establishes a simple repository, (2) maintains all ver-
+
+sions of a ﬁ le in a single named ﬁ
+ le by storing only the 
+differences between progressive versions of the original 
+ﬁ le, and (3) protects against simultaneous changes to 
+a ﬁ le by establishing different directories for each de-
+veloper, thus insulating one from another. CVS merges 
+
+changes when each developer completes her work.  It is important to note that CVS is not a “build” sys-
+tem; that is, it does not construct a speciﬁ c version of the 
+software. Other tools (e.g.,  Makeﬁ le
+ 
+) must be integrated with CVS to accomplish this. CVS does not implement a 
+change control process (e.g., change requests, change 
+reports, bug tracking). 
+ Even with these limitations, CVS “is a dominant open-source network-transparent version control system 
+[that] is useful for everyone from individual developers 
+
+to large, distributed teams” [CVS07]. Its client-server ar-
+
+chitecture allows users to access ﬁ les via Internet connec-
+tions, and its open-source philosophy makes it available 
+on most popular platforms. 
+ CVS is available at no cost for Windows, Mac OS, 
+LINUX, and UNIX environments and an open-source ver-
+
+sion of the application [CVS12] is available.  6 
+ 
+ 
+ 
+   
+SOFTWARE
+ TOOLS  
+ 
+ 
+ 
+29.3.3   
+Change Control 
+ 
+The reality of change control in a software engineering context has been summed up beautifully by James Bach [Bac98]:  
+Change control is vital. But the forces that make it necessary also make it annoying. We worry about change because a tiny perturbation in the code can create a big fail-
+
+ure in the product. But it can also ﬁ x a big failure or enable wonderful new capabili-
+ties. We worry about change because a single rogue developer could sink the project; 
+
+yet brilliant ideas originate in the minds of those rogues, and a burdensome change 
+control process could effectively discourage them from doing creative work. pre22126_ch29_623-652.indd   635pre22126_ch29_623-652.indd   63513/12/13   6:16 PM13/12/13   6:16 PM

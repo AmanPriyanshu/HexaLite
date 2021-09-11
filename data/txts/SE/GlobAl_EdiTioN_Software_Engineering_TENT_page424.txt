@@ -1,0 +1,41 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜the different systems. Individuals may therefore specialize so that they become 
+expert and knowledgeable about a small number of systems. This leads to more effi-
+cient operation but has consequences for the resilience of the system.The problem with role specialization is that there may not be anyone available at a particular time who understands the interactions between systems. Consequently, 
+
+it is difficult to cope with problems if the specialist is not available. If people work 
+with several systems, they come to understand the dependencies and relationships 
+between them and so can tackle problems that affect more than one system. With no 
+specialist available, it becomes much more difficult to contain the problem and 
+
+repair any damage that has been caused.You may use risk assessment, as discussed in Chapter 13, to help make decisions on the balance between process efficiency and resilience. You consider all of the 
+
+risks where operator or manager intervention may be required and assess the likeli
+-
+hood of these risks and the extent of the possible losses that might arise. For risks 
+that may lead to serious damage and extensive loss and for risks that are likely to 
+occur, you should favor resilience over process efficiency.
+Resilient systems can resist and recover from adverse incidents such as software 
+
+failures and cyberattacks. They can deliver critical services with minimal interrup-
+tions and can quickly return to their normal operating state after an incident has 
+
+occurred. In designing a resilient system, you have to assume that system failures or 
+penetration by an attacker will occur, and you have to include redundant and diverse 
+features to cope with these adverse events.Designing systems for resilience involves two closely related streams of work:1. Identifying critical services and assets Critical services and assets are those ele-
+ments of the system that allow a system to fulfill its primary purpose. For exam-
+ple, the primary purpose of a system that handles ambulance dispatch in 
+
+response to emergency calls is to get help to people who need it as quickly as 
+possible. The critical services are those concerned with taking calls and dis-
+patching ambulances to the medical emergency. Other services such as call log
+-
+ging and ambulance tracking are less important.2. Designing system components that support problem recognition, resistance, 
+
+recovery, and reinstatement For example, in an ambulance dispatch system, a 
+watchdog timer (see Chapter 12) may be included to detect if the system is not 
+responding to events. Operators may have to authenticate with a hardware token 
+to resist the possibility of unauthorized access. If the system fails, calls may be 
+diverted to another center so that the essential services are maintained. Copies 
+of the system database and software on alternative hardware may be maintained 
+to allow for reinstatement after an outage.

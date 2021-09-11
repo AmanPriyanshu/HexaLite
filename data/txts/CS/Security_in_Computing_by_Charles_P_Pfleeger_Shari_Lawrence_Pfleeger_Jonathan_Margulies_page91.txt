@@ -1,0 +1,71 @@
+ Section 2.1  Authentication 
+57  TABLE 2-7 
+Reference Standard with Variables
+Is the Person ClaimedIs Not the Person Claimed
+Test is Positive
+True Positive 
+ aFalse Positive 
+ bTest is Negative
+False Negative 
+ cTrue Negative 
+ dnumber of false positives and false negatives. To assist us, we calculate the 
+positive predictive value 
+of a test: a number that expresses how many times 
+a positive match actually represents the identification of the sought person. 
+
+The positive predictive value is 
+a / (
+a  b). Similarly, we can calculate the 
+negative predictive value 
+of the test as d / (
+c  d). We can use the predic-
+tive values to give us an idea of when a result is likely to be positive or 
+
+negative. For example, a positive result of a condition that has high preva-
+
+lence is likely to be positive. However, a positive result for an uncommon 
+
+condition is likely to be a false positive.The sensitivity and specificity change for a given test, depending on the level of the test that defines a match. For example, the test could call it 
+a match only if it is an exact match: only ‘Smith’ would match ‘Smith.’ Such 
+a match criterion would have fewer positive results (that is, fewer situa-
+
+tions considered to match) than one that uses Soundex to declare that two 
+
+names are the same: ‘Smith’ is the same as ‘Smythe,’ ‘Smeth,’ ‘Smitt,’ and 
+
+other similarly sounding names. Consequently, the two tests vary in their 
+
+sensitivity. The Soundex criterion is less strict and is likely to produce more 
+
+positive matches; therefore, it is the more sensitive but less specific test. 
+
+In general, consider the range of sensitivities that can result as we change 
+
+the test criteria. We can improve the sensitivity by making the criterion for a 
+
+positive test less strict. Similarly, we can improve the specificity by making 
+
+the criterion for a positive test stricter.
+A receiver operating characteristic
+ (ROC) 
+curve is a graphical rep-
+resentation of the trade-off between the false negative and false positive 
+
+rates. Traditionally, the graph of the ROC shows the false positive rate  
+
+(1  specificity) on the x-axis and the true positive rate (sensitivity or 
+1  the false negative rate) on the y-axis. The accuracy of the test cor-
+responds to the area under the curve. An area of 1 represents the perfect 
+
+test, whereas an area of 0.5 is a worthless test. Ideally, we want a test to 
+
+be as far left and as high on the graph as possible, representing a test with 
+
+a high rate of true positives and a low rate of false positives. That is, the 
+
+larger the area under the curve, the more the test is identifying true posi-
+
+tives and minimizing false positives. Figure 2-4 shows examples of ROC 
+
+curves and their relationship to sensitivity and specificity.
+(continues)

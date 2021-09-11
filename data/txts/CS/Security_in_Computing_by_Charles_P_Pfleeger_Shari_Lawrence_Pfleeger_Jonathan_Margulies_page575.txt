@@ -1,0 +1,72 @@
+ Section 7.5  Data Mining and Big Data 
+541  increased exponentially since the introduction of computers, and the amount of storage 
+a given amount of money will buy has similarly skyrocketed.
+Beginning in the mid-2000s companies began to amass and analyze new kinds of 
+information. Big companies such as Amazon, GE, and AT&T invested heavily in learn-
+
+ing more about their customers. One geographic region had especially loyal fans of a 
+
+sports team, another had disproportionately more supporters of one political party, and 
+
+another had high disposable incomes. Sidebar 7-7 gives an example of the use of big 
+
+data to predict crime.SIDEBAR 7-7  
+Police Use Data Mining to Predict 
+(and Prevent) Crime
+Police Chief Rodney Monroe of the Charlotte-Mecklenburg, North Carolina 
+Police Department uses technology to reduce crime. He argues that mea-
+
+surement and analysis are keys to smarter police work.
+As Chief of Police in Richmond, Virginia, in 2005 he introduced data 
+analysis from seemingly unrelated sources, such as weather, traffic volume, 
+
+day of week, paydays, as well as more usual police data such as crime 
+
+reports and emergency response calls. He found (not surprisingly) that rob-
+
+beries tended to spike on paydays from large employers in areas where 
+
+fewer residents have bank accounts and thus use storefront check-cashing 
+
+businesses. People walking around with large amounts of cash would be 
+
+appealing targets. By analyzing such data and targeting policing activity to 
+high-potential situations, the Richmond Police Department saw crime fall 
+
+21 percent in 2005–2006 and another 19 percent in 2006–2007. Since mov-
+
+ing to Charlotte, Chief Monroe has implemented similar approaches and 
+
+has seen a 20 percent drop in violent crime and 30 percent reduction in 
+
+property crime, according to a report in 
+Computerworld (24 October 2013).
+Other police departments are using tools such as PredPol, developed 
+at the University of California Los Angeles. PredPol is based on the same 
+
+algorithms used to predict locations of aftershocks from earthquakes. The 
+
+tool develops predictions for 500 ft (150 m) square boxes, showing officers 
+
+which areas are at highest risk of particular types of crime; police can then 
+
+focus patrolling on the most likely spots.
+Predictive policing is not without problems, as Jennifer Bachner 
+[BAC13] points out. Overreliance on technology, separating the officers 
+
+from the community (so officers interact with programs instead of devel-
+
+oping leads by conversing with community members), privacy concerns, 
+
+data correctness, and security in managing data are all limitations of using 
+
+analysis to suggest hot spots for police attention.Police departments are using the same strategies and techniques 
+as retailers, manufacturers, and other businesses. Faced with limited 
+
+resources, police captains want to deploy officers where and when they 
+
+can do the most good—preventing crime instead of searching for criminals 
+
+after the incident. Inferring patterns from past data helps managers make 
+
+informed choices.

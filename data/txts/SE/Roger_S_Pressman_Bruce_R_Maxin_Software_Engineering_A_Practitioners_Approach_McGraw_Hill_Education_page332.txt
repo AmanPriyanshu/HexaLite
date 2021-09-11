@@ -1,0 +1,68 @@
+302 PART TWO  
+MODELING 
+During the ﬁ rst component-level design iteration, attributes are normally 
+described by name. Referring once again to  Figure 14.1 , the attribute list for  PrintJob 
+ lists only the names of the attributes. However, as design elaboration 
+proceeds, each attribute is deﬁ ned using the UML attribute format noted. For 
+example, paperType-weight
+ is deﬁ ned in the following manner: 
+ 
+paperType-weight: string 
+5 “A” { contains 1 of 4 values 2  A, B, C, or D} 
+ 
+which deﬁ nes 
+paperType-weight
+ as a string variable initialized to the value A that 
+can take on one of four values from the set {A, B, C, D}.  If an attribute appears repeatedly across a number of design classes, and it has a relatively complex structure, it is best to create a separate class to accom-
+modate the attribute.   
+ 
+Step 3d. Describe processing flow within each operation in detail.   This may be accomplished using a programming language-based pseudocode or with a UML 
+activity diagram. Each software component is elaborated through a number of 
+iterations that apply the stepwise reﬁ nement concept (Chapter 12). 
+ The ﬁ rst iteration deﬁ
+ nes each operation as part of the design class. In every 
+case, the operation should be characterized in a way that ensures high cohesion; 
+that is, the operation should perform a single targeted function or subfunction. 
+The next iteration does little more than expand the operation name. For exam-
+ple, the operation  computePaperCost() 
+ noted in  
+Figure 14.1  can be expanded in 
+the following manner:  computePaperCost (weight, size, color): numeric  
+This indicates that  computePaperCost() 
+ requires the attributes 
+weight, size, and 
+color as input and returns a value that is numeric (actually a dollar value) as 
+output.  
+ 
+ 
+   
+If the algorithm required to implement  computePaperCost() 
+ is simple and 
+widely understood, no further design elaboration may be necessary. The software 
+
+engineer who does the coding will provide the detail necessary to implement the 
+operation. However, if the algorithm is more complex or arcane, further design 
+
+elaboration is required at this stage.  Figure 14.8  depicts a UML activity diagram 
+for  computePaperCost(). 
+ When activity diagrams are used for component-level 
+design speciﬁ cation, they are generally represented at a level of abstraction 
+that is somewhat higher than source code. An alternative approach—the use of 
+pseudocode for design speciﬁ cation—is discussed in Section 14.5.3. 
+  
+ 
+ 
+Step 4. Describe persistent data sources (databases and files) and identify the classes required to manage them.   Databases and ﬁ les normally transcend the 
+design description of an individual component. In most cases, these persistent 
+data stores are initially speciﬁ ed as part of architectural design. However, as 
+design elaboration proceeds, it is often useful to provide additional detail about 
+the structure and organization of these persistent data sources.    Use stepwise elabora-
+tion as you reﬁ ne the 
+
+component design. 
+Always ask, “Is there 
+a way this can be 
+simpliﬁ ed and yet still 
+
+accomplish the same 
+result?” pre22126_ch14_285-316.indd   302pre22126_ch14_285-316.indd   30213/12/13   6:12 PM13/12/13   6:12 PM

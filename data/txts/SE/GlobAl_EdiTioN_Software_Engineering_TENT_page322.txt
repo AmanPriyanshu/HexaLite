@@ -1,0 +1,21 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜The designers of the Airbus system have tried to achieve diversity in a number of different ways:1. The primary flight control computers use a different processor from the second-ary flight control systems.2. The chipset that is used in each channel in the primary and secondary systems is 
+supplied by a different manufacturer.3. The software in the secondary flight control systems provides critical function-
+ality onlyŠit is less complex than the primary software.4. The software for each channel in both the primary and the secondary systems is 
+developed using different programming languages and by different teams.5. Different programming languages are used in the secondary and primary systems.As I discuss in Section 
+11.3.4, these do not guarantee diversity but they reduce 
+the probability of common failures in different channels.˜Self-monitoring architectures are examples of systems in which multiversion 
+ programming is used to provide software redundancy and diversity. This notion of 
+multiversion programming has been derived from hardware systems where the 
+
+notion of triple modular redundancy (TMR) has been used for many years to build 
+systems that are tolerant of hardware failures (Figure 11.9).In a TMR system, the hardware unit is replicated three (or sometimes more) 
+times. The output from each unit is passed to an output comparator that is usually 
+implemented as a voting system. This system compares all of its inputs, and, if two 
+or more are the same, then that value is output. If one of the units fails and does not 
+produce the same output as the other units, its output is ignored. A fault manager 
+
+may try to repair the faulty unit automatically, but if this is impossible, the system is 
+automatically reconfigured to take the unit out of service. The system then continues 
+to function with two working units.This approach to fault tolerance relies on most hardware failures being the result 
+of component failure rather than design faults. The components are therefore likely A2A1A3OutputselectorInputFigure 11.9 Triple modular redundancy

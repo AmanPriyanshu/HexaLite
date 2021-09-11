@@ -1,0 +1,100 @@
+628 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+The progression of events that lead to a baseline is also illustrated in  Figure 29.1  
+ 
+. Software engineering tasks produce one or more SCIs. After SCIs are reviewed and 
+
+approved, they are placed in a  project database
+ 
+ (also called a  
+project library
+ 
+ or  
+soft-ware repository
+ 
+ and discussed in Section 29.3). When a member of a software engi-
+neering team wants to make a modiﬁ cation to a baselined SCI, it is copied from the 
+project database into the engineer’s private workspace. However, this extracted SCI 
+
+can be modiﬁ ed only if SCM controls (discussed later in this chapter) are followed. 
+The arrows in  Figure 29.1  
+ 
+ illustrate the modiﬁ cation path for a baselined SCI. 
+ 
+ 
+ 
+ 
+29.1.4   
+Software Conﬁ
+ guration Items 
+ 
+We have already deﬁ
+ ned a software conﬁ
+ guration item as information that is 
+created as part of the software engineering process. In the extreme, an SCI could 
+be considered to be a single section of a large speciﬁ cation or one test case in a 
+large suite of tests. More realistically, an SCI is all or part of a work product (e.g., 
+
+a document, an entire suite of test cases, or a named program component).  In addition to the SCIs that are derived from software work products, many software engineering organizations also place software tools under conﬁ gura-
+tion control. That is, speciﬁ c versions of editors, compilers, browsers, and other 
+automated tools are “frozen” as part of the software conﬁ guration. Because these 
+tools were used to produce documentation, source code, and data, they must be 
+available when changes to the software conﬁ guration are to be made. Although 
+problems are rare, it is possible that a new version of a tool (e.g., a compiler) 
+might produce different results than the original version. For this reason, tools, 
+like the software that they help to produce, can be baselined as part of a compre-
+hensive conﬁ guration management process. 
+ In reality, SCIs are organized to form conﬁ
+ guration objects that may be cat-
+aloged in the project database with a single name. A  conﬁ guration object
+ 
+ has a 
+name, attributes, and is “connected” to other objects by relationships. Referring 
+
+to  Figure 29.2  
+ 
+, the conﬁ guration objects,  
+DesignSpeciﬁ cation, DataModel, Compo-
+nentN, SourceCode, 
+ and  
+TestSpeciﬁ
+ cation
+ 
+ are each deﬁ
+ ned separately. However, 
+each of the objects is related to the others as shown by the arrows. A curved arrow 
+
+indicates a compositional relation. That is,  DataModel 
+ and  
+ComponentN 
+ are part 
+of the object  DesignSpeciﬁ cation.
+ 
+ A double-headed straight arrow indicates an in-
+terrelationship. If a change were made to the  SourceCode 
+ object, the interrelation-
+ships enable you to determine what other objects (and SCIs) might be affected.  2  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+29.1.5   
+Management of Dependencies and Changes  
+We introduced the concept of traceability and the use of traceability matrices 
+in Section 8.2.6. The traceability matrix is one way to document dependencies    Be sure that the project 
+database is maintained 
+in a centralized, con-
+trolled location.   
+2  These relationships are deﬁ
+ ned within the database. The structure of the database (repository) 
+is discussed in greater detail in Section 29.3. pre22126_ch29_623-652.indd   628pre22126_ch29_623-652.indd   62813/12/13   6:16 PM13/12/13   6:16 PM

@@ -1,0 +1,90 @@
+CHAPTER 15  
+USER INTERFACE DESIGN
+ 335is well known to every user and provides an effective mechanism for placing a future date in context.  A vast array of interface design patterns has been proposed over the past de-cade. A more detailed discussion of user interface design patterns is presented 
+in Chapter 16. In addition, Erickson [Eri08] provides pointers to many Web-based 
+
+collections.   
+ 
+15.4.3 Design Issues 
+ 
+ 
+ 
+  
+ 
+As the design of a user interface evolves, four common design issues almost  always surface: system response time, user help facilities, error information handling, and command labeling. Unfortunately, many designers do not address 
+
+these issues until relatively late in the design process (sometimes the ﬁ rst inkling 
+of a problem doesn’t occur until an operational prototype is available). Unneces-
+sary iteration, project delays, and end-user frustration often result. It is far better 
+to establish each as a design issue to be considered at the beginning of software 
+design, when changes are easy and costs are low. 
+  
+ 
+Response Time.   System response time has two important characteristics: length 
+and variability. If system response is too long, user frustration and stress are in-
+
+evitable.   
+Variability
+ 
+ refers to the deviation from average response time, and in 
+many ways, it is the most important response time characteristic. Low variability 
+
+enables the user to establish an interaction rhythm, even if response time is rela-
+tively long. For example, a 1-second response to a command will often be prefera-
+ble to a response that varies from 0.1 to 2.5 seconds. When variability is signiﬁ cant, 
+the user is always off balance, always wondering whether something “different” 
+
+has occurred behind the scenes. 
+  
+ 
+Help Facilities.   Almost every user of an interactive, computer-based system re-
+quires help now and then. Modern software should provide online help facilities 
+that enable a user to get a question answered or resolve a problem without leav-
+ing the interface.   
+ 
+ 
+Error Handling.   In general, every error message or warning produced by an interactive system should have the following characteristics: (1) describes the 
+problem in jargon that the user can understand; (2) provides constructive ad-
+vice for recovering from the error; (3) indicates any negative consequences of the 
+error (e.g., potentially corrupted data ﬁ les) so that the user can check to ensure 
+that they have not occurred (or correct them if they have); be accompanied by 
+an audible or visual cue; and should never place blame for the error on the user. 
+  
+ 
+Menu and Command Labeling.   The typed command was once the most com-mon mode of interaction between user and system software and was commonly 
+used for applications of every type. Today, the use of window-oriented, point-and-
+
+pick  interfaces has reduced reliance on typed commands, but some power-users 
+ 
+WebRef 
+ A wide variety of UI 
+ design patterns has 
+
+been proposed. For 
+pointers to a variety 
+of patterns sites, visit 
+
+  http://www.
+hcipatterns.org/
+patterns/
+borchers/
+patternIndex.html  . 
+ 
+ uote:  “A common 
+mistake that 
+people make 
+when trying to 
+
+design something 
+completely 
+foolproof is to 
+underestimate 
+the ingenuity of 
+complete fools.”  Douglas Adams 
+  uote:  “The interface 
+from hell—‘to 
+correct this error 
+and continue, enter 
+any 11-digit prime 
+ Author unknown 
+pre22126_ch15_317-346.indd   335pre22126_ch15_317-346.indd   33513/12/13   10:01 PM13/12/13   10:01 PM

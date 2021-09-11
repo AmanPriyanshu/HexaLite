@@ -1,0 +1,38 @@
+˜˜˚˛ˇ˜˜˜
+˜˜˜
+system and product, project, and team factors to the effort to develop the system. 
+COCOMO II is a freely available model that is supported with open-source tools.COCOMO II was developed from earlier COCOMO (Constructive Cost 
+Modeling) cost estimation models, which were largely based on original code devel-
+opment (B. W. Boehm 1981; B. Boehm and Royce 1989). The COCOMO II model 
+
+takes into account modern approaches to software development, such as rapid devel
+-
+opment using dynamic languages, development with reuse, and database program-
+ming. COCOMO II embeds several submodels based on these techniques, which 
+
+produce increasingly detailed estimates.The submodels (Figure 23.10) that are part of the COCOMO II model are:1. An application composition model This models the effort required to develop 
+
+systems that are created from reusable components, scripting, or database pro-
+gramming. Software size estimates are based on application points, and a simple 
+
+size/productivity formula is used to estimate the effort required.2. An early design model This model is used during early stages of the system 
+
+design after the requirements have been established. The estimate is based on the 
+
+standard estimation formula that I discussed in the introduction of this chapter, 
+with a simplified set of seven multipliers. Estimates are based on function points, 
+
+which are then converted to number of lines of source code. Function points are a language-independent way of quantifying program func
+-
+tionality. You compute the total number of function points in a program by 
+
+measuring or estimating the number of external inputs and outputs, user interac-
+tions, external interfaces, and files or database tables used by the system.Number ofapplication pointsNumber of 
+functionpointsBased onUsed forUsed forUsed forUsed forBased onBased onBased onNumber of lines ofcode reused orgeneratedNumber of lines ofsource codeApplicationcomposition mode
+lEarly design modelReuse modelPost-architecture
+modelSystems developed
+using dynamiclanguages, DBprogramming etc.
+Initial effort
+estimation based onsystem requirementsand design optionsEffort to integratereusable components
+or automaticallygenerated codeDevelopment effort
+based on systemdesign specificationFigure 23.10 COCOMO estimation models

@@ -1,0 +1,204 @@
+CHAPTER 13  
+ARCHITECTURAL DESIGN 265symmetry, consider a  
+customer account 
+ object whose life cycle is modeled directly by a software architecture that requires both  open() 
+ and  close() 
+ methods. Architectural symmetry can be both structural and behavioral.     
+ •   
+Emergence 
+—Emergent, self-organized behavior and control are often the key to creating scalable, efﬁ cient, and economic software architectures. 
+For example, many real-time software applications are event driven. The 
+sequence and duration of the events that deﬁ ne the system’s behavior is 
+an emergent quality. It is very difﬁ
+ cult to plan for every possible sequence 
+of events. Instead the system architect should create a ﬂ exible system that 
+accommodates this emergent behavior. 
+   
+ 
+These considerations do not exist in isolation. They interact with each other and are moderated by each other. For example, spacing can be both reinforced and 
+
+reduced by economy. Visibility can be balanced by spacing. 
+  
+Evaluating Architectural Decisions   
+Evaluating Architectural Decisions 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The scene:  Jamie’s cubicle, as 
+ design modeling continues.    
+ 
+ 
+ 
+ 
+ 
+The players:  Jamie and Ed—members of the 
+  
+SafeHome 
+ software engineering team.    
+ 
+ 
+ 
+ 
+ 
+The conversation:  
+   
+ 
+ 
+ 
+ 
+ 
+Ed:  I ﬁ
+ nished my call-return architectural model of the 
+security function.    
+ 
+ 
+ 
+ 
+ 
+Jamie:  Great! Do you think it meets our needs? 
+   
+ 
+ 
+ 
+ 
+ 
+Ed:  It doesn’t introduce any unneeded features, so it 
+seems to be economic.    
+ 
+ 
+ 
+ 
+ 
+Jamie:  How about visibility? 
+   
+ 
+ 
+ 
+ 
+ 
+Ed:  Well, I understand the model and there’s no prob-
+lem implementing the security requirements needed for 
+this product.    
+ 
+ 
+ 
+ 
+ 
+Jamie:  I get that you understand the architecture, but 
+you may not be the programmer for this part of the proj-
+
+ect. I’m a little worried about spacing. This design may 
+not be as modular as an object-oriented design.    
+ 
+ 
+ 
+ 
+ 
+Ed:  Maybe, but that may limit our ability to reuse some 
+of our code when we have to create the web-based 
+ version of this  SafeHome 
+.    
+ 
+ 
+ 
+ 
+ 
+Jamie:  What about symmetry? 
+   
+ 
+ 
+ 
+ 
+ 
+Ed:  Well, that’s harder for me to assess. It seems to me 
+the only place for symmetry in the security function is 
+
+adding and deleting PIN information. 
+   
+ 
+ 
+ 
+ 
+ 
+Jamie:  That will get more complicated when we add 
+remote security features to the web-based product.    
+ 
+ 
+ 
+ 
+ 
+Ed:  That’s true, I guess. 
+  
+[They both pause for a moment, pondering the architec-tural issues.]    
+ 
+ 
+ 
+ 
+ 
+Jamie:   
+SafeHome 
+ is a real-time system, so state transi-tion and sequencing of events will be tough to predict.    
+ 
+ 
+ 
+ 
+ 
+Ed:  Yeah, but the emergent behavior of this system can 
+be handled with a ﬁ nite state model. 
+   
+ 
+ 
+ 
+ 
+ 
+Jamie:  How? 
+   
+ 
+ 
+ 
+ 
+ 
+Ed:  The model can be implemented based on the 
+call-return architecture. Interrupts can be handled easily 
+
+in many programming languages.    
+ 
+ 
+ 
+ 
+ 
+Jamie:  Do you think we need to do the same kind of 
+analysis for the object-oriented architecture we were 
+initially considering?     
+ 
+ 
+ 
+ 
+Ed:  I suppose it might be a good idea, since architec-
+ture is hard to change once implementation starts. 
+   
+ 
+ 
+ 
+ 
+ 
+Jamie:  It’s also important for us to map the nonfunc-
+tional requirements besides security on top of these 
+architectures to be sure they have been considered 
+thoroughly. 
+   
+ 
+ 
+ 
+ 
+ 
+Ed:  Also, true. 
+ 
+ 
+  
+SAFEHOME pre22126_ch13_252-284.indd   265pre22126_ch13_252-284.indd   26513/12/13   6:12 PM13/12/13   6:12 PM

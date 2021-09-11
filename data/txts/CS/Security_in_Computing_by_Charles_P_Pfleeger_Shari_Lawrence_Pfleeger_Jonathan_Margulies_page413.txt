@@ -1,0 +1,60 @@
+ Section 6.3  Wireless Network Security 
+379  The data collection operated from 2007 until May 2010, when Google 
+announced it had mistakenly collected 600 MB of wireless content data. 
+
+Although the audit establishes that the captured data items were parsed so 
+
+as to separate encrypted and different kinds of unencrypted data, Google 
+
+contends that writing and retaining the data was a mistake.
+In 2013 Google agreed to a settlement of $7 million in law suits 
+brought by 37 states in the United States (in addition to a $25,000 fine 
+
+Google paid the U.S. government over a claim it had willfully stonewalled 
+
+investigation into a claim of privacy violations in that activity. And in 2011 
+
+it paid a fine of 100,000 € (approximately $150,000 US). In 2013 Germany 
+fined Google 145,000 
+€ (approximately $200,000 US), and Google paid 
+Italy 1 million € (approximately $1.4 million US) over privacy violations of 
+this project. (Google’s gross income for 2013 was $33 billion US so these 
+
+fines amount to less than 0.1 percent of Google’s revenue for the year.)
+One can argue that Google merely listened to public radio waves, 
+which are exposed to anyone with an appropriate receiver. An extension 
+
+of this argument is that these airwaves are no more protected than sound 
+
+waves or visual images: As you talk in public you have no expectation 
+
+that your conversation is private, and you know amateur photographers 
+
+may catch your image when you happen to be in front of a landmark they 
+
+are shooting. A counterargument is that because of various security mea-
+
+sures you employ, you intend that your computer access be private. Legal 
+
+aspects of this situation are likely to be debated for some time.
+WiFi FramesEach WiFi data unit is called a 
+frame. Each frame contains three fields: 
+MAC header
+, payload, and FCS (frame check sequence). The MAC header contains fixed-sized 
+fields, including
+• frame type: control, management, or data
+• ToDS, FromDS: direction of this frame: to or from the access point
+
+• fragmentation and order control bits
+
+• WEP (wired equivalent privacy) or encryption bit: encryption, described shortly
+
+• up to four MAC addresses (physical device identifiers): sender and receiver’s 
+addresses, plus two optional addresses for traffic filtering points
+The payload or frame body is the actual data being transmitted, 0–2304 bytes whose structure depends on the application handling the data. The frame check sequence is an 
+
+integrity check (actually a cyclic redundancy check, which we describe in Chapter 2) to 
+
+ensure accurate transmission of the entire frame. The format of a WiFi frame is shown 
+
+in Figure 6-16.

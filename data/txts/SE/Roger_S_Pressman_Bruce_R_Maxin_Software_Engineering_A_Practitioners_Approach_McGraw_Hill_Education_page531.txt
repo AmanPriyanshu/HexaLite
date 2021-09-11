@@ -1,0 +1,55 @@
+CHAPTER 23  
+TESTING CONVENTIONAL APPLICATIONS
+ 501introduced.  3 
+ 
+ The ﬂ
+ ow graph depicts logical control ﬂ
+ ow using the notation illus-
+trated in  Figure 23.1 . Each structured construct (Chapter 14) has a corresponding ﬂ ow graph symbol. 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+To illustrate the use of a ﬂ
+ ow graph, consider the procedural design repre-
+sentation in  Figure 23.2a . Here, a ﬂ owchart is used to depict program control 
+structure.  Figure 23.2b  maps the ﬂ
+ owchart into a corresponding ﬂ
+ ow graph (as-
+suming that no compound conditions are contained in the decision diamonds of 
+the ﬂ owchart). Referring to  
+Figure 23.2b , each circle, called a  ﬂ ow graph node,
+ 
+ represents one or more procedural statements. A sequence of process boxes and 
+a decision diamond can map into a single node. The arrows on the ﬂ ow graph, 
+called  edges 
+ or  
+links, 
+ represent ﬂ
+ ow of control and are analogous to ﬂ
+ owchart 
+arrows. An edge must terminate at a node, even if the node does not represent    A ﬂ ow graph should be 
+drawn only when the 
+logical structure of a 
+
+component is complex. 
+The ﬂ ow graph allows 
+
+you to trace program 
+paths more readily. 
+  
+3  In actuality, the basis path method can be conducted without the use of ﬂ
+ ow graphs. However, 
+they serve as a useful notation for understanding control ﬂ ow and illustrating the approach. 
+IfWhile
+The structured constructs in flow graph form:
+Where each circle represents one or morenonbranching PDL or source code statementsUntilCaseSequence FIGURE 23.1 
+Flow graph notation1310(a)692458711(b)12,34,569101187R1R3R2R4RegionNodeEdge  
+FIGURE 23.2 
+(a) Flowchart and (b) ﬂ ow graph 
+ 
+ pre22126_ch23_496-522.indd   501pre22126_ch23_496-522.indd   50113/12/13   6:14 PM13/12/13   6:14 PM

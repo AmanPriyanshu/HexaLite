@@ -1,0 +1,62 @@
+ Section 11.4  Redress for Software Failures 
+731  parties with patches and work-arounds. Now, a maker is potentially liable for all pos-
+sible failings, and a major security-critical flaw could be very costly. Trope’s approach 
+
+limits the exposure to addressing known defects reasonably promptly.
+Reporting Software Flaws
+Who should publicize flaws—the user or the manufacturer? A user might want the rec-
+
+ognition of finding a flaw; delaying the release might let someone else get that credit. A 
+
+manufacturer might want to ignore a problem or fail to credit the user. And either could 
+
+say the other was wrong. Then, too, how should these flaws be reported? Several differ-
+
+ent viewpoints exist.
+What You Don’t Know Can Hurt You
+The several variants of Code Red (introduced in Chapter 3) in 2001 sparked a debate 
+about whether we should allow full disclosure of the mechanisms that allow malicious 
+
+code to enter and thrive in our systems. For example, the first variant of Code Red was 
+
+relatively benign, but the third and fourth variants were powerful. When the first Code 
+
+Red variant appeared, it was studied by many security analysts, including those at eEye 
+
+Digital Security in Aliso Viejo, California. In an effort to pressure vendors and software 
+
+managers to take seriously the threats they represent, eEye practices full disclosure of 
+
+what it knows about security flaws.
+However, some observers claim that such open sharing of information is precisely 
+what enables hackers to learn about vulnerabilities and then exploit them. Several devel-
+
+opers suspect that eEye’s openness about Code Red enabled the more powerful variants 
+
+to be written and disseminated [HUL01].Scott Culp [CUL01], Microsoft’s manager of Windows security, distinguishes 
+between full disclosure and full exposure; he thinks that source code or detailed expla-
+
+nations of a vulnerability’s concept should be protected. And many security analysts 
+
+encourage users and managers to apply patches right away, closing security holes before 
+
+they can be exploited. But as we saw in Sidebar 3-5, the patches require resources and 
+
+may introduce other problems while fixing the initial one. Each software-using organi-
+
+zation must analyze and balance the risks and cost of not acting with the risks and costs 
+of acting right away.
+The Vendor’s Interests
+Microsoft argues that producing one patch for each discovered vulnerability is inef-
+ficient both for the vendor and the user. The vendor might prefer to bundle several 
+
+patches into a single service pack or, for noncritical vulnerabilities, to hold them until 
+
+the next version. So, Microsoft would like to control if or when the report of a vulner-
+
+ability goes public.Craig Mundie, Microsoft’s Chief Technology Officer, suggests a stronger reason 
+to minimize disclosure of vulnerability information. “Every time we become explicit 
+
+about a problem that exists in a legacy product, the response to our disclosure is to focus 
+
+the attack. In essence we end up funneling them to the vulnerability.” [FIS02a] Scott 

@@ -1,0 +1,45 @@
+˘˘
+˜˚˛˝˙ˆˇ˘˜˘˜˘1. A completely incremental approach to requirements engineering is impossible. Some early work on initial software requirements is essential. You need this 
+
+work to identify the different parts of the system that may be developed by 
+ different teams and, often, to be part of the contract for the system development. 
+However, these requirements should not normally be specified in detail; details 
+are best developed incrementally.2.
+ There cannot be a single product owner or customer representative. Different 
+
+people have to be involved for different parts of the system, and they have to 
+
+continuously communicate and negotiate throughout the development process.3. It is not possible to focus only on the code of the system. You need to do more 
+
+up-front design and system documentation. The software architecture has to be 
+
+designed, and there has to be documentation produced to describe critical 
+
+aspects of the system, such as database schemas and the work breakdown 
+
+across teams.4.
+ Cross-team communication mechanisms have to be designed and used. This 
+
+should involve regular phone and videoconferences between team members and 
+
+frequent, short electronic meetings where teams update each other on progress. 
+A range of communication channels such as email, instant messaging, wikis, 
+
+and social networking systems should be provided to facilitate communications.5. Continuous integration, where the whole system is built every time any devel
+-
+oper checks in a change, is practically impossible when several separate 
+
+programs have to be integrated to create the system. However, it is essential 
+
+to maintain frequent system builds and regular releases of the system. 
+
+Configuration management tools that support multi-team software develop-
+ment are essential.Scrum has been adapted for large-scale development. In essence, the Scrum team model described in Section 3.3 is maintained, but multiple Scrum teams are set up. 
+The key characteristics of multi-team Scrum are:1. Role replication Each team has a Product Owner for its work component and ScrumMaster. There may be a chief Product Owner and ScrumMaster for the 
+entire project.2. Product architects Each team chooses a product architect, and these architects 
+collaborate to design and evolve the overall system architecture.3. Release alignment The dates of product releases from each team are aligned so 
+that a demonstrable and complete system is produced.4. Scrum of Scrums There is a daily Scrum of Scrums where representatives from 
+each team meet to discuss progress, identify problems, and plan the work to be 
+done that day. Individual team Scrums may be staggered in time so that repre
+-
+sentatives from other teams can attend if necessary.

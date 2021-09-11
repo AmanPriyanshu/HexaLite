@@ -1,0 +1,53 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜is consistent with this model, or you may apply a series of correctness-preserving 
+transformations to the model to generate a program. Abrial (Abrial 2009) claims that 
+
+the use of formal methods can lead to ﬁfaultless systems,ﬂ although he is careful to 
+
+limit what he means in this claim.In an excellent survey, Woodcock et al. (Woodcock et al. 2009) discuss industrial applications where formal methods have been successfully applied. These include 
+
+train control systems (Badeau and Amelot 2005), cash card systems (Hall and 
+
+Chapman 2002), and flight control systems (Miller et al. 2005). Formal methods are 
+the basis of tools used in static verification, such as the driver verification system 
+used by Microsoft (Ball et al. 2006).Using a mathematically formal approach to software development was proposed 
+at an early stage in the development of computer science. The idea was that a formal 
+specification and a program could be developed independently. A mathematical 
+
+proof could then be developed to show that the program and its specification were 
+consistent. Initially, proofs were developed manually but this was a long and expen-
+sive process. It quickly became clear that manual proofs could only be developed for 
+very small systems. Program proving is now supported by large-scale automated 
+
+theorem proving software, which has meant that larger systems can be proved. 
+
+However, developing the proof obligations for theorem provers is a difficult and 
+
+specialized task, so formal verification is not widely used.An alternative approach, which avoids a separate proof activity, is refinement-
+based development. Here, a formal specification of a system is refined through 
+
+a˜series of correctness-preserving transformations to generate the software. 
+
+Because these are trusted transformations, you can be confident that the gener-
+ated program is consistent with its formal specification. This was the approach 
+
+used in the software development for the Paris Metro system (Badeau and Amelot 
+
+2005). It used a language called B (Abrial 2010), which was designed to support 
+
+specification refinement.Formal methods based on model-checking (Jhala and Majumdar 2009) have been 
+used in a number of systems (Bochot et al. 2009; Calinescu and Kwiatkowska 2009). 
+These systems rely on constructing or generating a formal state model of a system 
+and using a model-checker to check that properties of the model, such as safety 
+
+properties, always hold. The model-checking program exhaustively analyzes the 
+
+specification and either reports that the system property is satisfied by the model or 
+presents an example that shows it is not satisfied. If a model can be automatically or 
+systematically generated from a program, this means that bugs in the program can be 
+uncovered. (I cover model checking in safety-critical systems in Chapter 12.)Formal methods for software engineering are effective for discovering or avoid-ing two classes of error in software representations:1. Specification and design errors and omissions. The process of developing and analyzing a formal model of the software may reveal errors and omissions in the 
+software requirements. If the model is generated automatically or systematically 
+from source code, analysis using model checking can discover undesirable 
+
+states that may occur, such as deadlock in a concurrent system.

@@ -1,0 +1,38 @@
+˜˜˜˚˙˜˜˜˜˜˜˜
+mistakes, but in the late 1960s it became clear that some approaches to programming were more likely to introduce errors into a program than others.For example, you should try to avoid using floating-point numbers because the precision of floating point numbers is limited by their hardware representation. 
+
+Comparisons of very large or very small numbers are unreliable. Another construct 
+that is potentially error-prone is dynamic storage allocation where you explicitly 
+
+manage storage in the program. It is very easy to forget to release storage when it™s 
+no longer needed, and this can lead to hard to detect runtime errors.Some standards for safety-critical systems development completely prohibit the use of error-prone constructs. However, such an extreme position is not normally 
+
+practical. All of these constructs and techniques are useful, though they must be used 
+
+with care. Wherever possible, their potentially dangerous effects should be con-
+trolled by using them within abstract data types or objects. These act as natural ﬁfire-
+wallsﬂ limiting the damage caused if errors occur.Many organizational information systems are based on short transactions where pro-
+cessing user inputs takes a relatively short time. These systems are designed so that 
+
+changes to the system™s database are only finalized after all other processing has been 
+
+successfully completed. If something goes wrong during processing, the database is 
+
+not updated and so does not become inconsistent. Virtually all e-commerce systems, 
+
+where you only commit to your purchase on the final screen, work in this way.User interactions with e-commerce systems usually last a few minutes and 
+involve minimal processing. Database transactions are short and are usually com-
+pleted in less than a second. However, other types of system such as CAD systems 
+and word processing systems involve long transactions. In a long transaction system, 
+
+the time between starting to use the system and finishing work may be several min-
+utes or hours. If the system fails during a long transaction, then all of the work may 
+be lost. Similarly, in computationally intensive systems such as some e-science sys-
+tems, minutes or hours of processing may be required to complete the computation. 
+All of this time is lost in the event of a system failure.In all of these types of systems, you should provide a restart capability that is 
+based on keeping copies of data collected or generated during processing. The restart 
+facility should allow the system to restart using these copies, rather than having to Error-prone constructsSome programming language features are more likely than others to lead to the introduction of program bugs. 
+Program reliability is likely to be improved if you avoid using these constructs. Wherever possible, you should 
+minimize the use of go to statements, floating-point numbers, pointers, dynamic memory allocation, parallel-
+
+ism, recursion, interrupts, aliasing, unbounded arrays, and default input processing.http://software-engineering-book.com/web/error-prone-constructs/

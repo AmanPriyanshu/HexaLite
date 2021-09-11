@@ -1,0 +1,40 @@
+˘˘
+˜˚˛˝˙ˆˇ˘˜˘˜˘used immediately to deliver useful business support. The intention is to identify 
+ useful functionality that can be implemented in about two weeks, when the next 
+release of the system is made available to the customer.Of course, as requirements change, the unimplemented stories change or may be discarded. If changes are required for a system that has already been delivered, new 
+story cards are developed and again, the customer decides whether these changes 
+
+should have priority over new functionality.The idea of user stories is a powerful oneŠpeople find it much easier to relate to 
+these stories than to a conventional requirements document or use cases. User stories can 
+
+be helpful in getting users involved in suggesting requirements during an initial prede
+-
+velopment requirements elicitation activity. I discuss this in more detail in Chapter 4.The principal problem with user stories is completeness. It is difficult to judge if enough user stories have been developed to cover all of the essential requirements 
+
+of˜a system. It is also difficult to judge if a single story gives a true picture of an 
+
+activity. Experienced users are often so familiar with their work that they leave 
+
+things out when describing it.ˆˆA fundamental precept of traditional software engineering is that you should design 
+for change. That is, you should anticipate future changes to the software and design 
+
+it so that these changes can be easily implemented. Extreme programming, however, 
+has discarded this principle on the basis that designing for change is often wasted 
+
+effort. It isn™t worth taking time to add generality to a program to cope with change. 
+
+Often the changes anticipated never materialize, or completely different change 
+
+requests may actually be made.Of course, in practice, changes will always have to be made to the code being devel-oped. To make these changes easier, the developers of XP suggested that the code being 
+
+developed should be constantly refactored. Refactoring (Fowler et al. 1999) means that 
+
+the programming team look for possible improvements to the software and implements 
+Task 1: Change dose of prescribed drug
+Task 2: Formulary selection
+Task 3: Dose checking
+Dose checking is a safety precaution to check thatthe doctor has not prescribed a dangerously small orlarge dose.Using the formulary id for the generic drug name,look up the formulary and retrieve the recommended
+maximum and minimum dose.Check the prescribed dose against the minimum andmaximum. If outside the range, issue an errormessage saying that the dose is too high or too low.
+
+If within the range, enable the ‚Con˜rm™ button.Figure 3.6 Examples of task cards for prescribing 
+medication

@@ -1,0 +1,64 @@
+804 Chapter 12  
+Details of Cryptographybe chosen so that (p − 1) has a large prime factor, 
+q. The private key is 
+x and the public 
+key is 
+y, along with parameters p and a.To sign a message 
+m, choose a random integer 
+k, 0  k  p − 1, which has not been used before and which is relatively prime to (
+p − 1), and computer  ak mod pands  k–1 (m  xr) mod (p  1)where k–1 is the multiplicative inverse of 
+k mod (
+p − 1), so that k  k–1  1 mod (
+p − 1). The message signature is then r and 
+s. A recipient can use the public key 
+y to compute 
+yr rs mod p and determine that it is equivalent to 
+am mod 
+p. To defeat this encryption 
+and infer the values of 
+x and 
+k given 
+r, s, and m, the intruder would have to find a means 
+of computing a discrete logarithm to solve 
+y  ax and r  ak.Digital Signature Algorithm
+The U.S. Digital Signature Algorithm (DSA) (also called the Digital Signature Standard 
+or DSS) [NIS94] is the El Gamal algorithm with a few restrictions. First, the size of 
+p is 
+specifically fixed at 2
+511  p  2512 (so that p is roughly 170 decimal digits long). Sec-ond, q, the large prime factor of (
+p − 1) is chosen so that 2159  q  2160. The algorithm 
+explicitly uses 
+H(m), a hash value, instead of the full message text 
+m. Finally, the com-
+putations of r and 
+s are taken mod 
+q. One interpretation is that these changes make the 
+algorithm easy to use for people who do not want or need to understand the underlying 
+
+mathematics. However, the changes also weaken the potential strength of the encryption 
+
+by reducing the uncertainty for the attacker.
+U.S. Digital Signature Standard
+Having devised the digital signature algorithm DSA, the U.S. government instituted a 
+standard for use of that algorithm to make digital signatures. However, the government 
+
+was a bit late to the game: Private industry had already converged around a digital sig-
+
+nature approach based on RSA encryption, and a standards committee for the banking 
+community had settled upon a third method using ECC. Thus, FIPS Publication 186-3, 
+
+Digital Signature Standard
+ [NIS09] covers and approves for government use all three 
+methods. A new standard, version 186-4 [NIS13], was published in July 2013. 
+The NSA–Cryptography Controversy of 2012
+In this chapter we have described strengths and weaknesses of cryptographic techniques. 
+
+In some cases a weakness surfaced years, even decades, after the algorithm was intro-
+
+duced. Cryptologists pore through one another’s work looking for tiny oversights and 
+
+unprotected attack vectors. And largely this scrutiny is good-natured, because someone 
+
+who finds a weakness is also likely to release a new algorithm some time later for analy-
+
+sis by peers. The community seems to enjoy the challenge of the analytic game.

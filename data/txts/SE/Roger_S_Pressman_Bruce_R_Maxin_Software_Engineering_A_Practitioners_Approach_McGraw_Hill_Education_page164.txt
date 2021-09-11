@@ -1,0 +1,77 @@
+134 PART TWO  
+MODELINGthe people who want a solution, the nature of the solution that is desired, and the effectiveness of preliminary communication and collaboration between the 
+other stakeholders and the software team.   
+ 
+ 
+Elicitation.   
+It certainly seems simple enough—ask the customer, the users, and 
+others what the objectives for the system or product are, what is to be accom-
+plished, how the system or product ﬁ ts into the needs of the business, and ﬁ
+ nally, 
+how the system or product is to be used on a day-to-day basis. But it isn’t  simple—it’s very hard. 
+ An important part of elicitation is to establish business goals [Cle10]. Your job 
+is to engage stakeholders and to encourage them to share their goals honestly. 
+
+Once the goals have been captured, a prioritization mechanism should be es-
+tablished, and a design rationale for a potential architecture (that meets stake-
+holder goals) can be created.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Goal-Oriented Requirements 
+Engineering  A  goal 
+ is a long-term aim that a system or 
+product must achieve. Goals may deal with either func-
+tional or nonfunctional (e.g., reliability, security, usability, 
+
+etc.) concerns. Goals are often a good way to explain 
+
+requirements to stakeholders and, once established, can 
+be used to manage conﬂ icts among stakeholders. 
+ Object models (Chapters 10 and 11) and require-ments can be derived systematically from goals. A goal 
+
+graph showing links among goals can provide some 
+
+degree of traceability (Section 8.2.6) between high-level 
+strategic concerns to low-level technical details. Goals 
+should be speciﬁ ed precisely and serve as the basis 
+for requirements elaboration, veriﬁ cation/validation, 
+conﬂ ict management, negotiation, explanation, and 
+
+evolution. 
+ Conﬂ icts detected in requirements are often a result 
+of conﬂ icts present in the goals themselves. Conﬂ
+ ict 
+resolution is achieved by negotiating a set of mutually 
+agreed-upon goals that are consistent with one another 
+and with stakeholder desires. A more complete discus-
+sion on goals and requirements engineering can be 
+found in a paper by Lamsweweerde [LaM01b].   
+ INFO  
+ 
+Christel and Kang [Cri92] identify a number of problems that are encountered as elicitation occurs.  Problems of scope
+ 
+ occur when the boundary of the system is 
+ill-deﬁ ned or the customers and users specify unnecessary technical detail that 
+may confuse, rather than clarify, overall system objectives.  
+Problems of under-
+standing 
+ are encountered when customers and users are not completely sure of what is needed, have a poor understanding of the capabilities and limitations of 
+their computing environment, don’t have a full understanding of the problem 
+domain, have trouble communicating needs, omit information that is believed to 
+be “obvious,” specify requirements that conﬂ ict with the needs of other custom-
+ers and users, or specify requirements that are ambiguous or untestable.  Prob-
+lems of volatility 
+ occur when the requirements change over time. To help 
+ Why is it 
+difﬁ cult 
+to gain a clear 
+understanding 
+of what the 
+customer wants? ?pre22126_ch08_131-165.indd   134pre22126_ch08_131-165.indd   13413/12/13   6:11 PM13/12/13   6:11 PM

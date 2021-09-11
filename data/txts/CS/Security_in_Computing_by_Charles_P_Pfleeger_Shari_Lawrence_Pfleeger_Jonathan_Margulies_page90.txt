@@ -1,0 +1,62 @@
+56 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+SIDEBAR 2-6  
+What False Positives and Negatives Really MeanScreening systems must be able to judge the degree to which their match-
+ing schemes work well. That is, they must be able to determine if they are 
+
+effectively identifying those people who are sought while not harming those 
+
+people who are not sought. When a screening system compares something 
+
+it has (such as a stored fingerprint) with something it is measuring (such as 
+
+a finger’s characteristics), we call this a dichotomous system or test: There 
+
+either is a match or there is not. 
+We can describe the dichotomy by using a Reference Standard, as 
+depicted in Table 2-6, below. The Reference Standard is the set of rules that 
+
+determines when a positive test means a positive result. We want to avoid 
+
+two kinds of errors: false positives (when there is a match but should not 
+
+be) and false negatives (when there is no match but should be).
+We can measure the success of the screen by using four standard 
+measures: sensitivity, prevalence, accuracy, and specificity. To see how 
+
+they work, we assign variables to the entries in Table 2-6, as shown in 
+
+Table 2-7.
+Sensitivity measures the degree to which the screen selects those 
+whose names correctly match the person sought. It is the proportion of 
+
+positive results among all possible correct matches and is calculated as 
+
+a / (
+a c). Specificity measures the proportion of negative results among 
+all people who are not sought; it is calculated as 
+d / (
+b d). Sensitivity and specificity describe how well a test discriminates between cases with and 
+without a certain condition. 
+Accuracy or efficacy measures the degree to which the test 
+or screen correctly flags the condition or situation; it is measured as 
+
+(a d) / (a  b 
+ c 
+ d). Prevalence
+ tells us how common a certain condi-
+tion or situation is. It is measured as (
+a  c) / (a  b  c  d).Sensitivity and specificity are statistically related: When one increases, 
+the other decreases. Thus, you cannot simply say that you are going to 
+
+reduce or remove false positives; such an action is sure to increase the 
+
+false negatives. Instead, you have to find a balance between an acceptable TABLE 2-6  
+Reference Standard for Describing Dichotomous Tests
+Is the Person ClaimedIs Not the Person Claimed
+Test is Positive 
+(There is a match.)
+True PositiveFalse Positive 
+Test is Negative 
+(There is no match.)
+False NegativeTrue Negative

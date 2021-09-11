@@ -1,0 +1,64 @@
+ Section 6.1  Network Concepts 
+349  commercial network users employ encryption to protect the confidentiality of their 
+communications, as we demonstrate later in this chapter. Local network communica-
+
+tions can be encrypted, although for performance reasons it may instead be preferable 
+to protect local connections with strong physical and administrative security.
+Intruding into or intercepting from a communications medium is just one way to 
+strike a network. Integrity and availability threats apply as well. Addressing and routing 
+
+are also fruitful points of vulnerability. In the next section we present basic network 
+
+addressing concepts that have security implications.
+Background: Protocol Layers
+Network communications are performed through a virtual concept called the Open Sys-
+
+tem Interconnection (or OSI) model. This seven-layer model starts with an application 
+
+that prepares data to be transmitted 
+through a network. The data move 
+
+down through the layers, being 
+
+transformed and repackaged; at the 
+lower layers, control information is 
+SIDEBAR 6-2  
+Mirror, Mirror, on My Screen
+Researcher Michael Backes has discovered that many surfaces can reflect 
+images. We are, of course, aware of mirrors and shiny metal objects. But 
+
+researcher Backes has experimented with eyeglasses (which he found work 
+
+quite well), ceramic coffee cups, jewelry, and even individuals’ eyeballs.
+A professor at the Max Planck Institute for Software Systems, Backes 
+got his idea as he passed a room in which his graduate students were 
+
+intently typing on computers. Wondering what they were up to, he noticed 
+
+the blue image of the screen reflected on a teapot on one student’s desk. 
+
+The next day he appeared with a telescope and camera and began his 
+
+study, as reported in 
+Scientific American [GIB09]. Using a powerful ama-
+teur-grade telescope, he trained his sight on reflecting objects from a dis-
+
+tance of 10 meters (30 feet) and read the contents of a computer screen, 
+
+even when the screen faced away from the telescope.
+He has applied techniques from mathematics and astronomy to clarify 
+the images, allowing him to read 36-point type (roughly three times as large 
+
+as the type in this paragraph) from 10 meters away, but he thinks with more 
+
+sophisticated equipment he could significantly improve on that result. Other 
+
+photo enhancement software should also clarify the image, he thinks. He 
+
+warns that if these attacks are feasible for an amateur like him, dedicated 
+
+attackers can probably do better.
+Maybe the expression “I can see what you are thinking” is truer than 
+we think.The OSI model, most useful conceptually, describes similar processes 
+
+of both the sender and receiver.

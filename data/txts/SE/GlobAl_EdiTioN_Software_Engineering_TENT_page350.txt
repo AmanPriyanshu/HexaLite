@@ -1,0 +1,36 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜may not respond correctly to commands specifying the amount of insulin to be injected. Alternatively, (3) the dose may be correctly computed, but it is deliv-
+ered too early or too late.2.
+ The left branch of the fault tree, concerned with incorrect measurement of the 
+
+blood sugar level, identifies how this might happen. This could occur either 
+
+because the sensor that provides an input to calculate the sugar level has failed or 
+
+because the calculation of the blood sugar level has been carried out incorrectly. 
+
+The sugar level is calculated from some measured parameter, such as the conduc-
+tivity of the skin. Incorrect computation can result from either an incorrect algo-
+rithm or an arithmetic error that results from the use of floating-point numbers.3. The central branch of the tree is concerned with timing problems and concludes 
+that these can only result from system timer failure.Incorrect
+sugar levelmeasured
+Incorrect
+insulin doseadministered
+orCorrect dose
+delivered 
+atwrong time
+Sensorfailure
+orSugarcomputation
+error
+Timer
+failure
+Pumpsignalsincorrect
+orInsulincomputation
+incorrect
+DeliverysystemfailureArithmeticerror
+orAlgorithmerror
+Arithmeticerror
+orAlgorithmerror
+Figure 12.5 An example of a 
+fault tree 

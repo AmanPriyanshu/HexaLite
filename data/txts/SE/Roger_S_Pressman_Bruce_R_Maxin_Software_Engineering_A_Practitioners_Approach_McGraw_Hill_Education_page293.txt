@@ -1,0 +1,66 @@
+CHAPTER 13  
+ARCHITECTURAL DESIGN 263 
+ 
+Domain modeling can inﬂ uence the choice of architectural style, particularly 
+the core properties of domain objects. The domain objects that represent physi-
+cal objects (e.g., sensors or drives) should be treated differently from those repre-
+senting logical objects (e.g., schedules or workﬂ ows). Physical objects must obey 
+stringent constraints like connection limitations or use of consumable resources. 
+Logical objects may have softer real-time behaviors that can be canceled or un-
+done.  Domain-driven design is often best supported by a layered architectural style. [Eva04]   
+ 
+ 
+13.3.2  Architectural Patterns 
+ 
+As the requirements model is developed, you’ll notice that the software must ad-dress a number of broad problems that span the entire application. For example, 
+the requirements model for virtually every e-commerce application is faced with 
+the following problem:  How do we offer a broad array of goods to many different 
+customers and allow those customers to purchase our goods online?
+ 
+   
+The requirements model also deﬁ nes a context in which this question must 
+be answered. For example, an e-commerce business that sells golf equipment 
+to consumers will operate in a different context than an e-commerce business 
+that sells high-priced industrial equipment to medium and large corporations. 
+In addition, a set of limitations and constraints may affect the way you address 
+the problem to be solved.  Architectural patterns address an application-speciﬁ c problem within a spe-
+ciﬁ c context and under a set of limitations and constraints. The pattern proposes 
+an architectural solution that can serve as the basis for architectural design.  Previously in this chapter, we noted that most applications ﬁ
+ t within a speciﬁ
+ c 
+domain or genre and that one or more architectural styles may be appropriate 
+for that genre. For example, the overall architectural style for an application 
+might be call-and-return or object-oriented. But within that style, you will en-
+counter a set of common problems that might best be addressed with speciﬁ c 
+architectural patterns. Some of these problems and a more complete discussion 
+of architectural patterns are presented in  Chapter 16 .  
+ 
+ 
+13.3.3  Organization and Reﬁ
+ nement 
+ 
+ 
+ 
+ 
+ 
+ 
+Because the design process often leaves you with a number of architectural  alternatives, it is important to establish a set of design criteria that can be used to assess an architectural design that is derived. The following questions [Bas03] 
+provide insight into an architectural style:  
+ 
+ 
+ 
+ 
+ 
+ 
+Control. 
+  How is control managed within the architecture? Does a distinct 
+control hierarchy exist, and if so, what is the role of components within 
+this control hierarchy? How do components transfer control within the 
+system? How is control shared among components? What is the  control  topology (i.e., the geometric form that the control takes)? Is control  synchronized or do components operate asynchronously?   How do I 
+assess an architectural style 
+that has been 
+derived? ?  uote:  “Maybe it’s in the 
+basement. Let me 
+go upstairs and 
+check.”  M. C. Escher 
+pre22126_ch13_252-284.indd   263pre22126_ch13_252-284.indd   26313/12/13   6:12 PM13/12/13   6:12 PM

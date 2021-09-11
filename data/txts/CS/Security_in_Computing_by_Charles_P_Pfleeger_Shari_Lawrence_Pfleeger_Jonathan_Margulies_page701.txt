@@ -1,0 +1,59 @@
+ Section 10.3  Handling Incidents 
+667  • analyze the source, impact, and structure of malicious code
+• help manage installations and networks by developing defenses such as 
+signatures• perform penetration testing and vulnerability analysis
+
+• understand current technologies used in attacks
+Specialized skills can be brought into the response team as needed for specific 
+incidents.Forming the team in advance lets an organization select people according to their 
+personal and technical skills, try out different member groupings to determine whether 
+
+the mix of people is effective, and let the team members develop camaraderie and trust 
+
+before having to work together on an incident. Additionally, at least some incident 
+
+response team members will have other jobs in the organization; that is, they do not 
+
+work full time for the incident team. With advance notice, managers can plan for other 
+
+people to take over the work of the person seconded to the incident response team for 
+
+the duration of the incident.Information SharingAs Robin Ruefle and colleagues [RUE14] report, information sharing is a key respon-
+sibility of CSIRTs. An incident affecting one site may also affect another, and anal-
+
+ysis from one place may help another. To date there are no standards for automated 
+
+information sharing between CSIRTs, however. Because of trust issues, much sharing 
+
+now takes place informally, by word of mouth, in which one CSIRT member interacts 
+
+with a known colleague at another. That model does not scale to larger scale opera-
+
+tion, nor does it support interchange 
+with national and other coordinat-
+ing CSIRTs. Information sharing 
+
+is also stymied because of fears of 
+
+competition, negative publicity, and 
+
+regulations.
+Determining Incident ScopeThe scope of an incident is rarely obvious at the beginning. It may begin with some-
+one’s noticing something irregular. (See the example in Sidebar 10-3 of how a tiny 
+
+irregularity exploded into a major incident.)
+Incident response often requires sharing 
+
+information—within an organization, 
+with similarly affected ones, and with 
+
+national officials.
+SIDEBAR 10-3  
+Incorrect Account Balance Leads 
+to IntruderIn 1986 Cliff Stoll was working as an astronomer at Lawrence Berkeley 
+Laboratory when he noticed the amounts for computer accounts he man-
+
+aged did not add up properly. Although the mismatch was small, Stoll was 
+
+unwilling just to dismiss it as an unfathomable computer error. Someone 
+(continues)

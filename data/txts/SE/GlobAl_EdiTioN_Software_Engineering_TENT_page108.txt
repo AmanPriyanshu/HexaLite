@@ -1,0 +1,46 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜Performance
+requirements
+Spacerequirements
+Usabilityrequirements
+Efficiency
+requirements
+Dependabilityrequirements
+Securityrequirements
+Regulatoryrequirements
+Ethicalrequirements
+Legislati
+verequirements
+Operationalrequirements
+Developmentrequirements
+Environmentalrequirements
+Safety/securityrequirements
+Accountingrequi
+rementsProduct
+requirements
+Organizationalrequirements
+Externalrequirements
+Non-functional
+requirements
+Figure 4.3 Types of non-functional requirements2. An individual non-functional requirement, such as a security requirement, may 
+generate several, related functional requirements that define new system ser-
+vices that are required if the non-functional requirement is to be implemented. 
+In addition, it may also generate requirements that constrain existing require
+-ments; for example, it may limit access to information in the system.Nonfunctional requirements arise through user needs because of budget con-straints, organizational policies, the need for interoperability with other software or 
+hardware systems, or external factors such as safety regulations or privacy legisla-
+tion. Figure 4.3 is a classification of non-functional requirements. You can see from 
+this diagram that the non-functional requirements may come from required charac-
+teristics of the software (product requirements), the organization developing the 
+
+software (organizational requirements), or external sources:1. Product requirements These requirements specify or constrain the runtime 
+behavior of the software. Examples include performance requirements for how 
+fast the system must execute and how much memory it requires; reliability 
+
+requirements that set out the acceptable failure rate; security requirements; and 
+usability requirements.2. Organizational requirements 
+These requirements are broad system require
+-ments derived from policies and procedures in the customer™s and developer™s 
+organizations. Examples include operational process requirements that define 
+
+how the system will be used; development process requirements that specify the 

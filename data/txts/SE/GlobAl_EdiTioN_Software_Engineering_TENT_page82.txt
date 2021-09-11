@@ -1,0 +1,42 @@
+˘˘
+˜˚˛˝˙ˆˇ˘˜˘˜˘means that you can run the test as the code is being written and discover problems dur-ing development. I discuss test-driven development in more depth in Chapter 8.Writing tests implicitly defines both an interface and a specification of behavior for 
+the functionality being developed. Problems of requirements and interface misunder-
+standings are reduced. Test-first development requires there to be a clear relationship 
+
+between system requirements and the code implementing the corresponding require-
+ments. In XP, this relationship is clear because the story cards representing the require-
+ments are broken down into tasks and the tasks are the principal unit of implementation.In test-first development, the task implementers have to thoroughly understand 
+the specification so that they can write tests for the system. This means that ambi-
+guities and omissions in the specification have to be clarified before implementation 
+begins. Furthermore, it also avoids the problem of ﬁtest-lag.ﬂ This may happen when 
+the developer of the system works at a faster pace than the tester. The implementa
+-
+tion gets further and further ahead of the testing and there is a tendency to skip tests, 
+so that the development schedule can be maintained.XP™s test-first approach assumes that user stories have been developed, and these 
+have been broken down into a set of task cards, as shown in Figure 
+3.6. Each task 
+generates one or more unit tests that check the implementation described in that task. 
+
+Figure 3.
+7 is a shortened description of a test case that has been developed to check 
+
+that the prescribed dose of a drug does not fall outside known safe limits.The role of the customer in the testing process is to help develop acceptance tests for the stories that are to be implemented in the next release of the system. As I 
+
+explain in Chapter 8, acceptance  testing is the process whereby the system is tested 
+
+using customer data to check that it meets the customer™s real needs.Test automation is essential for test-first development. Tests are written as exe-cutable components before the task is implemented. These testing components 
+
+should be stand-alone, should simulate the submission of input to be tested, and 
+
+should check that the result meets the output specification. An automated test frame-
+work is a system that makes it easy to write executable tests and submit a set of tests 
+for execution. Junit (Tahchiev et al. 2010) is a widely used example of an automated 
+testing framework for Java programs.Input:1.  A number in mg representing a single dose of the drug.
+2.  A number representing the number of single doses per day.
+Tests:
+1.   Test for inputs where the single dose is correct but the frequency is too
+high.2.   Test for inputs where the single dose is too high and too low.
+3.   Test for inputs where the single dose * frequency is too high and too low.
+4.   Test for inputs where single dose * frequency is in the permitted range.
+Output:OK or error message indicating that the dose is outside the safe range.Test 4: Dose checking
+Figure 3.7 Test case description for dose checking

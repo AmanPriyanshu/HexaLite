@@ -1,0 +1,109 @@
+CHAPTER 2  
+SOFTWARE ENGINEERING
+ 21 
+ 
+ 
+ 
+Examine the result.  
+ 
+You can’t be sure that your solution is perfect, but you can 
+be sure that you’ve designed a sufﬁ cient number of tests to uncover as many 
+errors as possible.   
+ 
+ 
+• 
+ 
+   
+Is it possible to test each component part of the solution? 
+ Has a reasonable testing strategy been implemented?   
+ 
+ 
+• 
+ 
+   
+Does the solution produce results that conform to the data, functions, and 
+features that are required?
+ 
+ Has the software been validated against all stakeholder requirements?    
+It shouldn’t surprise you that much of this approach is common sense. In fact, it’s reasonable to state that a commonsense approach to software engineering 
+
+will never lead you astray. 
+  
+ 
+ 
+ 
+2.3.2  General Principles 
+ 
+The dictionary deﬁ nes the word  
+principle 
+ as “an important underlying law or 
+assumption required in a system of thought.” Throughout this book we’ll dis-
+cuss principles at many different levels of abstraction. Some focus on software 
+engineering as a whole, others consider a speciﬁ c generic framework activity 
+ 
+communication 
+), and still others focus on software engineering actions (e.g., architectural design) or technical tasks (e.g., write a usage scenario). Regardless 
+of their level of focus, principles help you establish a mind-set for solid software 
+engineering practice. They are important for that reason.  David Hooker [Hoo96] has proposed seven principles that focus on software en-gineering practice as a whole. They are reproduced in the following paragraphs:  5 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The First Principle:    The Reason It All Exists  
+ The Reason It All Exists  
+  
+ 
+ 
+ 
+ 
+ 
+A software system exists for one reason:  to provide value to its users
+ 
+. All decisions should be made with this in mind. Before specifying a system re-
+quirement, before noting a piece of system functionality, before determining 
+
+the hardware platforms or development processes, ask yourself questions such 
+as: “Does this add real value to the system?” If the answer is no, don’t do it. All 
+other principles support this one.   
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Second Principle:   KISS (Keep It Simple, Stupid!)KISS (Keep It Simple, Stupid!) 
+  
+ 
+ 
+Software design is not a haphazard process. There are many factors to con-sider in any design effort.  All design should be as simple as possible, but no simpler 
+. This facilitates having a more easily understood and easily maintained system. This is not to say that features, even internal features, should be dis-
+carded in the name of simplicity. Indeed, the more elegant designs are usually 
+
+the more simple ones. Simple also does not mean “quick and dirty.” In fact, it 
+  
+5  Reproduced with permission of the author [Hoo96]. Hooker deﬁ nes patterns for these princi-
+ples at  http://c2.com/cgi/wiki?SevenPrinciplesOfSoftwareDevelopment 
+.    Before beginning a 
+software project, be 
+sure the software has 
+a business purpose 
+and that users perceive 
+value in it.   uote:  “There is a 
+certain majesty in 
+simplicity which is 
+far above all the 
+quaintness of wit.”  Alexander Pope 
+(1688–1744) pre22126_ch02_014-028.indd   21pre22126_ch02_014-028.indd   2113/12/13   6:10 PM13/12/13   6:10 PM

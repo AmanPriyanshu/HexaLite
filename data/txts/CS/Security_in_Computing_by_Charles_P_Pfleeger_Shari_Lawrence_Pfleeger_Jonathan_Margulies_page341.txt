@@ -1,0 +1,62 @@
+ Section 5.1  Security in Operating Systems 
+307  With a segmentation approach, a programmer must be conscious of segments. How-
+ever, a programmer is oblivious to page boundaries when using a paging-based operat-
+
+ing system. Moreover, with paging there is no logical unity to a page; a page is simply 
+
+the next 2
+n bytes of the program. Thus, a change to a program, such as the addition of 
+one instruction, pushes all subsequent instructions to lower addresses and moves a few 
+
+bytes from the end of each page to the start of the next. This shift is not something about 
+
+which the programmer need be concerned, because the entire mechanism of paging and 
+address translation is hidden from the programmer.
+However, when we consider protection, this shift is a serious problem. Because seg-
+ments are logical units, we can associate different segments with individual protection 
+
+rights, such as read-only or execute-only. The shifting can be handled efficiently during 
+
+address translation. But with paging, there is no necessary unity to the items on a page, 
+so there is no way to establish that all values on a page should be protected at the same 
+
+level, such as read-only or execute-only.
+Combined Paging with Segmentation We have seen how paging offers implementation efficiency, while segmentation offers 
+
+logical protection characteristics. Since each approach has drawbacks as well as desir-
+
+able features, the two approaches have been combined.
+The IBM 390 family of mainframe systems used a form of paged segmentation. 
+Similarly, the Multics operating system (implemented on a GE-645 machine) applied 
+Logical Program
+Page 0
+Page 1
+Page 2
+Page 4
+Page 3
+Page 5
+Page 6
+
+Page 7
+0124356
+7bficlgn
+ePage Tr
+anslation Table
+Page   Address
+Page 0
+Page 4
+Page 7
+Page 1
+
+Page 5
+Page 2
+Page 3
+Page 6
+MemoryAddress
+0a
+bcd
+efg
+hi
+jklmn
+o+Location37, Page 4
+FETCH<4,37>FIGURE 5-13 Page Address Translation

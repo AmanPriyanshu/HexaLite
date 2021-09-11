@@ -1,0 +1,34 @@
+ Section 8.2  Moving to the Cloud 
+553  services. A hybrid cloud
+ is composed of two or more types of clouds, connected by 
+technology that enables data and applications to be moved around the infrastructure to 
+
+balance loads among clouds.Thus, cloud software is not business as usual. It must provide services without 
+anchoring in a particular location. It must also be highly modular, with low coupling 
+
+and easy interoperability—all characteristics of good code, as discussed in Chapter 3.8.2 MOVING TO THE CLOUD
+Before moving functionality or data to a cloud, it is important to consider pros and cons. 
+
+Moving to a cloud can be difficult and expensive, and it can be equally expensive to 
+
+undo. While every cloud offering presents its own set of risks and benefits, a number of 
+
+guidelines can help you understand whether your functions and data should be migrated 
+to a cloud environment, as well as which cloud offerings will be most likely to meet 
+
+your security needs.Risk AnalysisRisk analysis should be a part of any major security decision, including a move to cloud 
+
+services. We discuss risk analysis in detail in Chapter 10, but for now, here are the high-
+
+level steps, along with a brief discussion of how each applies to adopting cloud services:
+1. Identify assets. Moving to a cloud service generally means moving functionality and 
+data. It is important that you document every function and data type that might move 
+
+to the cloud service, since it’s easy to lose track and miss something important.
+Hardware: Servers, Storage Devices, 
+and Networking EquipmentHypervisorVirtual Machines, Virtual Volume 
+Storage, Virtual Networking EquipmentApplication Platform: Tools and APIs for Building and Deploying Applications
+ApplicationsAdministeredby the SaaS
+ProviderAdministeredby the PaaS
+ProviderAdministeredby the IaaS
+ProviderFIGURE 8-1 Cloud Service Models

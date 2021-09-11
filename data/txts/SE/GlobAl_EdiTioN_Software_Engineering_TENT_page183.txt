@@ -1,0 +1,35 @@
+˜˜˚˙˜˜˜
+˜˜
+The name ﬁpipe and filterﬂ comes from the original Unix system where it was 
+possible to link processes using ﬁpipes.ﬂ These passed a text stream from one pro-cess to another. Systems that conform to this model can be implemented by combin
+-
+ing Unix commands, using pipes and the control facilities of the Unix shell. The 
+
+term filter is used because a transformation ﬁfilters outﬂ the data it can process from its input data stream.Variants of this pattern have been in use since computers were first used for auto
+-matic data processing. When transformations are sequential with data processed in 
+batches, this pipe and filter architectural model becomes a batch sequential model, a 
+common architecture for data-processing systems such as billing systems. The archi-
+tecture of an embedded system may also be organized as a process pipeline, with 
+
+each process executing concurrently. I cover use of this pattern in embedded systems 
+in Chapter 21.An example of this type of system architecture, used in a batch processing appli-cation, is shown in Figure 6.15. An organization has issued invoices to customers. 
+Once a week, payments that have been made are reconciled with the invoices. For Figure 6.14 The Pipe and Filter patternNamePipe and filterDescriptionThe processing of the data in a system is organized so that each processing component 
+(filter) is discrete and carries out one type of data transformation. The data flows (as in a 
+pipe) from one component to another for processing.ExampleFigure 6.15 is an example of a pipe and filter system used for processing invoices.When usedCommonly used in data-processing applications (both batch and transaction-based) 
+where inputs are processed in separate stages to generate related outputs.AdvantagesEasy to understand and supports transformation reuse. Workflow style matches the 
+structure of many business processes. Evolution by adding transformations is 
+straightforward. Can be implemented as either a sequential or concurrent system.DisadvantagesThe format for data transfer has to be agreed between communicating transformations. 
+Each transformation must parse its input and unparse its output to the agreed form. This 
+increases system overhead and may mean that it is impossible to reuse architectural 
+components that use incompatible data structures.Read issued
+invoices
+Identifypayments
+Issuereceipts
+Findpayments
+dueReceipts
+Issuepayment
+reminder
+Reminders
+Invoices
+PaymentsFigure 6.15 An example of the pipe 
+and filter architecture

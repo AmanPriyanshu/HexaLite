@@ -1,0 +1,34 @@
+˜˜˚˛˚˜˜˜
+˜˜
+4. The right branch of the tree, concerned with delivery system failure, examines possible causes of this failure. These could result from an incorrect computation 
+of the insulin requirement or from a failure to send the correct signals to the 
+
+pump that delivers the insulin. Again, an incorrect computation can result from 
+algorithm failure or arithmetic errors.Fault trees are also used to identify potential hardware problems. Hardware fault trees may provide insights into requirements for software to detect and, perhaps, cor-
+rect these problems. For example, insulin doses are not administered frequentlyŠno 
+more than five or six times per hour and sometimes less often than that. Therefore, 
+processor capacity is available to run diagnostic and self-checking programs. 
+
+Hardware errors such as sensor, pump, or timer errors can be discovered and warn-
+ings issued before they have a serious effect on the patient.ˇˇOnce potential risks and their root causes have been identified, you are then able to 
+
+derive safety requirements that manage the risks and ensure that incidents or acci-
+dents do not occur. You can use three possible strategies:1. Hazard avoidance, where a system is designed so that the hazard cannot occur.2. Hazard detection and removal, where a system is designed so that hazards are detected and neutralized before they result in an accident.3. Damage limitation, where a system is designed so that the consequences of an 
+
+accident are minimized.Normally, designers of critical systems use a combination of these approaches. In a 
+safety-critical system, intolerable hazards may be handled by minimizing their probabil-ity and adding a protection system (see Chapter 11) that provides a safety backup. For 
+
+example, in a chemical plant control system, the system will attempt to detect and avoid 
+
+excess pressure in the reactor. However, there may also be an independent protection 
+
+system that monitors the pressure and opens a relief valve if high pressure is detected.In the insulin delivery system, a safe state is a shutdown state where no insulin is injected. Over a short period, this is not a threat to the diabetic™s health. For the soft
+-
+ware failures that could lead to an incorrect dose of insulin, the following ﬁsolu-
+tionsﬂ might be developed:1. Arithmetic error This error may occur when an arithmetic computation causes a representation failure. The specification should identify all possible arithmetic 
+errors that may occur and state that an exception handler must be included for 
+each possible error. The specification should set out the action to be taken for 
+each of these errors. The default safe action is to shut down the delivery system 
+and activate a warning alarm.2. Algorithmic error This is a more difficult situation as there is no clear program 
+
+exception that must be handled. This type of error could be detected by comparing 

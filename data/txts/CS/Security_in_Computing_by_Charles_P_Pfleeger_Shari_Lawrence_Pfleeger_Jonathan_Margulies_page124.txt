@@ -1,0 +1,65 @@
+90 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+The history of encryption is fascinating; it is well documented in David Kahn’s book 
+[KAH96]. Claude Shannon is considered the father of modern cryptography because 
+
+he laid out a formal, mathematical foundation for information security and expounded 
+
+on several principles for secure cryptography at the naissance of digital computing 
+
+[SHA49]. Encryption has been used for centuries to protect diplomatic and military 
+
+communications, sometimes without full success. The word 
+cryptography
+ refers to 
+the practice of using encryption to conceal text. A 
+cryptanalyst studies encryption and 
+encrypted messages, hoping to find the hidden meanings. A cryptanalyst might also 
+
+work defensively, probing codes and ciphers to see if they are solid enough to protect 
+
+data adequately.
+Both a cryptographer and a cryptanalyst attempt to translate coded material back to 
+its original form. Normally, a cryptographer works on behalf of a legitimate sender or 
+
+receiver, whereas a cryptanalyst works on behalf of an unauthorized interceptor. Finally, 
+
+cryptology is the research into and study of encryption and decryption; it includes both 
+cryptography and cryptanalysis.CryptanalysisA cryptanalyst’s chore is to 
+break
+ an encryption. That is, the cryptanalyst attempts to 
+deduce the original meaning of a ciphertext message. Better yet, the cryptanalyst hopes 
+
+to determine which decrypting algorithm, and ideally which key, matches the encrypt-
+
+ing algorithm to be able to break other messages encoded in the same way.
+For instance, suppose two countries are at war and the first country has intercepted 
+encrypted messages of the second. Cryptanalysts of the first country want to decipher a 
+
+particular message so as to anticipate the movements and resources of the second. But 
+
+even better is to discover the actual decryption method; then the first country can pen-
+
+etrate the encryption of all messages sent by the second country.
+An analyst works with a variety of information: encrypted messages, known 
+encryption algorithms, intercepted plaintext, data items known or suspected to be in a 
+SIDEBAR 2-14 Silken Codes
+Leo Marks [MAR98] describes his life as a code-maker in Britain during 
+World War II. That is, the British hired Marks and others to devise codes 
+
+that could be used by spies and soldiers in the field. In the early days, the 
+encryption scheme depended on poems that were written for each spy, 
+
+and it relied on the spy’s ability to memorize and recall the poems correctly.
+Marks reduced the risk of error by introducing a coding scheme that 
+was printed on pieces of silk. Silk hidden under clothing could not be felt 
+when the spy was patted down and searched. And, unlike paper, silk burns 
+
+quickly and completely, so the spy could destroy incriminating evidence, 
+
+also ensuring that the enemy could not get even fragments of the valuable 
+code. When pressed by superiors as to why the British should use scarce 
+
+silk (which was also needed for war-time necessities like parachutes) for 
+
+codes, Marks said that it was a choice “between silk and cyanide.”

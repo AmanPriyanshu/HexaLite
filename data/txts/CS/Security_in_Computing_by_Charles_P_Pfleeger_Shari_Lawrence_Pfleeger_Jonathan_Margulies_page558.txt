@@ -1,0 +1,44 @@
+524 Chapter 7  
+Databasesthe intersection of these two lists and pinpoints Majors’ financial aid as $2000. In this 
+example, the queries
+q = median(AID where SEX = M)p = median(AID where DRUGS = 2)reveal the exact financial aid amount for Majors.
+Tracker Attacks 
+As already explained, database management systems may conceal data when a small 
+
+number of entries make up a large proportion of the data revealed. A 
+tracker attack
+ can fool the database manager into locating the desired data by using additional queries 
+that produce small results. The tracker adds additional records to be retrieved for two 
+
+different queries; the two sets of records cancel each other out, leaving only the statis-
+
+tic or data desired. The approach is to use intelligent padding of two queries. In other 
+
+words, instead of trying to identify a unique value, we request 
+n–1 other values (where 
+there are n values in the database). Given 
+n and n–1, we can easily compute the desired single element.For instance, suppose we want to know how many female Caucasians live in Holmes 
+Hall. A query posed might be
+count ((SEX=F) ^ (RACE=C) ^ (DORM=Holmes))The database management system might consult the database, find that the answer is 
+
+1, and block the answer to that query because one record dominates the result of the 
+query. However, further analysis of the query allows us to track sensitive data through 
+
+nonsensitive queries.
+The queryq=count((SEX=F) ^ (RACE=C) ^ (DORM=Holmes))TABLE 7-10 
+Drug Use and Aid Results
+NameSexDrugsAid
+BaileyM00
+DewittM31000
+
+MajorsM22000
+
+GroffM34000
+
+AdamsM15000
+
+LiuF20
+
+MajorsM22000
+
+HillF25000

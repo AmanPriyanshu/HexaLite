@@ -1,0 +1,36 @@
+138 Chapter 3  
+Programs and Programmingutility programs such as compilers, assemblers, and disassemblers help interested pro-
+grammers develop and interpret machine instructions.
+Usually we do not treat code as data, or vice versa; attackers sometimes do, however, 
+especially in memory overflow attacks. The attacker’s trick is to cause data to spill over 
+
+into executable code and then to select the data values such that they are interpreted as 
+
+valid instructions to perform the attacker’s goal. For some attackers this is a two-step 
+
+goal: First cause the overflow and then experiment with the ensuing action to cause a 
+
+desired, predictable result, just as David did.
+Harm from an Overflow
+Let us suppose a malicious person understands the damage that can be done by a buffer 
+overflow; that is, we are dealing with more than simply a normal, bumbling program-
+
+mer. The malicious programmer thinks deviously: What data values could I insert to 
+
+cause mischief or damage, and what planned instruction codes could I force the sys-
+
+tem to execute? There are many possible answers, some of which are more malevolent 
+
+than others. Here, we present two buffer overflow attacks that are used frequently. (See 
+
+[ALE96] for more details.)First, the attacker may replace code in the system space. As shown in Figure 3-3, 
+memory organization is not as simple as shown in Figure 3-1. The operating system’s 
+
+code and data coexist with a user’s code and data. The heavy line between system and 
+
+user space is only to indicate a logical separation between those two areas; in practice, 
+
+the distinction is not so solid. Remember that every program is invoked by an operating system that may run with 
+higher privileges than those of a regular program. Thus, if the attacker can gain control 
+01C0AExecute instruction“Jump forward 10
+bytes”Store sum  7178MemoryFIGURE 3-2 Bit Patterns Can Represent Data or Instructions

@@ -1,0 +1,41 @@
+131In this chapter:• Programming oversights: buffer overflows, off-by-one 
+errors, incomplete mediation, time-of-check to time-of-
+use errors• Malicious code: viruses, worms, Trojan horses
+
+• Developer countermeasures: program development 
+techniques, security principles• Ineffective countermeasures
+Programs are simple things but they can wield mighty power. Think about them 
+
+for a minute: Programs are just strings of 0s and 1s, representing elementary 
+
+machine commands such as move one data item, compare two data items, or 
+branch to a different command. Those primitive machine commands implement higher-
+
+level programming language constructs such as conditionals, repeat loops, case selec-
+
+tion, and arithmetic and string operations. And those programming language constructs 
+
+give us pacemaker functions, satellite control, smart-home technology, traffic manage-
+
+ment, and digital photography, not to mention streaming video and social networks. 
+
+The Intel 32- and 64-bit instruction set has about 30 basic primitives (such as move, 
+
+compare, branch, increment and decrement, logical operations, arithmetic operations, 
+trigger I/O, generate and service interrupts, push, pop, call, and return) and specialized 
+instructions to improve performance on computations such as floating point operations 
+
+or cryptography. These few machine commands are sufficient to implement the vast 
+
+range of programs we know today.
+Most programs are written in higher-level languages such as Java, C, C++, Perl, or 
+Python; programmers often use libraries of code to build complex programs from pieces 
+
+written by others. But most people are not programmers; instead, they use already writ-
+
+ten applications for word processing, web browsing, graphics design, accounting, and 
+
+the like without knowing anything about the underlying program code. People do not 
+
+expect to need to understand how power plants operate in order to turn on an electric 
+3Programs and Programming

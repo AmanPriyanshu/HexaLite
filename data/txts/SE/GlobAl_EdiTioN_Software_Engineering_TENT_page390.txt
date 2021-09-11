@@ -1,0 +1,29 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜Figure 13.
+11 is a model of the design risk assessment process. The key difference between preliminary risk analysis and design risk assessment is that, at the design stage, you now have information about information representation and distribution 
+and the database organization for the high-level assets that have to be protected. You 
+also know about important design decisions such as the software to be reused, infra-
+structure controls and protection, and so forth. Based on this information, your 
+
+assessment can identify changes to the security requirements and the system design 
+to provide additional protection for the important system assets.Two examples from the Mentcare system illustrate how protection requirements are influenced by decisions on information representation and distribution:1. You may make a design decision to separate personal patient information and information (design assets) about treatments received, with a key linking these 
+records. The treatment information is technical and so much less sensitive than 
+the personal patient information. If the key is protected, then an attacker will 
+
+only be able to access routine information, without being able to link this to an 
+
+individual patient.2. Assume that, at the beginning of a session, a design decision is made to copy 
+patient records to a local client system. This allows work to continue if the 
+
+server is unavailable. It makes it possible for a healthcare worker to access 
+
+patient records from a laptop, even if no network connection is available. 
+
+However, you now have two sets of records to protect and the client copies are 
+subject to additional risks, such as theft of the laptop computer. You therefore 
+have to think about what controls should be used to reduce risk. You may there-
+fore include a requirement that client records held on laptops or other personal 
+computers may have to be encrypted.Design assetsAsset valueassessmentThreat
+identificationAttackassessmentExposureassessmentControlidentificationTechnology and architecture  choicesAvailable
+controlsDesign andrequirementschangesFigure 13.11 Design risk assessment 

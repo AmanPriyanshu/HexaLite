@@ -1,0 +1,33 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜Components are accessed using remote procedure calls (RPCs). Each component has a unique identifier and, using this name, may be called from another computer. The called component uses the same mechanism to access the ﬁrequiredﬂ compo-
+nents that are defined in its interface.An important difference between a component as an external service and a com-ponent as a program element accessed using a remote procedure call is that services 
+are completely independent entities. They do not have an explicit ﬁrequiresﬂ inter-
+face. Of course, they do require other components to support their operation, but 
+
+these are provided internally. Other programs can use services without the need to 
+implement any additional support required by the service.A component model is a definition of standards for component implementation, doc-
+umentation, and deployment. These standards are for component developers to 
+
+ensure that components can interoperate. They are also for providers of component 
+execution infrastructures who provide middleware to support component operation. 
+For service components, the most important component model is the Web Service 
+models, and for embedded components, widely used models include the Enterprise 
+Java Beans (EJB) model and Microsoft™s .NET model (Lau and Wang 2007).The basic elements of an ideal component model are discussed by Weinreich and Sametinger (Weinreich and Sametinger 2001). I summarize these model elements in 
+
+Figure 16.
+4. This diagram shows that the elements of a component model define the 
+component interfaces, the information that you need to use the component in a pro-
+gram, and how a component should be deployed:1. Interfaces Components are defined by specifying their interfaces. The compo-nent model specifies how the interfaces should be defined and the elements,  
+such as operation names, parameters, and exceptions, which should be included 
+
+in the interface definition. The model should also specify the language used to 
+
+define the component interfaces. For web services, interface specification uses XML-based languages as 
+ discussed in Chapter 18; EJB is Java-specific, so Java is used as the interface 
+definition language; in .NET, interfaces are defined using Microsoft™s Common 
+Components and objectsComponents are often implemented in object-oriented languages, and, in some cases, accessing the ﬁprovidesﬂ 
+
+interface of a component is done through method calls. However, components and object classes are not the 
+
+same thing. Unlike object classes, components are independently deployable, do not define types, are language-
+independent, and are based on a standard component model.http://software-engineering-book.com/web/components-and-objects/

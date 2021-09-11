@@ -1,0 +1,58 @@
+CHAPTER 7  
+PRINCIPLES THAT GUIDE PRACTICE
+ 127   
+ 3.   
+Layering. 
+ Layering is the key to both data and programming abstractions. It allows a separation of design concepts and implementation details and, 
+at the same time, reduces the complexity of the software design.     
+ 4.   
+Algorithmic complexity.
+ 
+ Software engineers must be able to appreciate the elegance and performance characteristics of algorithms, even when 
+selecting among library routines. Writing simple and readable code is 
+
+often a good way to ensure the time and space efﬁ ciency of an application. 
+    
+ 5.   
+Hashing. 
+ Hashes are important for efﬁ cient storage and retrieval of data. 
+Hashes can also be important as a means to allocate data evenly among 
+computers in a cloud database.     
+ 6.   
+Caching. 
+ Software engineers need to appreciate the trade-offs associated with providing quick access to a subset of data by storing it in computer 
+memory and not secondary storage devices. Thrashing may occur when 
+mutually dependent data are not in memory at the same time. Applica-
+tions can slow down when new information needs to be brought into mem-
+ory (e.g., playing cut scenes in a real-time video game).     
+ 7.   
+Concurrency.
+ 
+ The widespread availability of multiprocessor computers and multithreaded programming environments creates software engi-
+neering challenges.     
+ 8.   
+Cloud computing. 
+ Cloud computing provides powerful and readily  accessible web services and data to computing platforms of all types.  9.   
+Security.
+ 
+ Protecting the conﬁ dentiality and integrity of system assets 
+should be the concern of every computing professional.     
+ 10.   
+Relational databases. 
+ Relational databases are the cornerstone of infor-
+mation storage and retrieval. It is important to know how to minimize 
+data redundancy and to maximize the speed of retrieval.    
+In many cases a few good software engineers working “smart” can be more productive than groups many times their size. A good software engineer must 
+know what principles, practices, and tools to use, when to use them, and why 
+they are needed.   
+ 
+ 
+ 
+ 
+ 7.5 S
+UMMARY  
+Software engineering practice encompasses principles, concepts, methods, and tools that software engineers apply throughout the software process. Every soft-
+ware engineering project is different. Yet, a set of generic principles apply to the 
+
+process as a whole and to the practice of each framework activity regardless of 
+the project or the product.  A set of core principles help in the application of a meaningful software pro-cess and the execution of effective software engineering methods. At the process pre22126_ch07_103-130.indd   127pre22126_ch07_103-130.indd   12713/12/13   6:11 PM13/12/13   6:11 PM

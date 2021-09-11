@@ -1,0 +1,88 @@
+500 PART THREE  
+QUALITY MANAGEMENTdevelop test cases to exercise them, and evaluate results, that is, generate test cases to exercise program logic exhaustively. Unfortunately, exhaustive testing 
+
+presents certain logistical problems. For even small programs, the number of 
+possible logical paths can be very large. White-box testing should not, however, 
+
+be dismissed as impractical. A limited number of important logical paths can 
+be selected and exercised. Important data structures can be probed for validity. 
+ Exhaustive Testing 
+ 
+Consider a 100-line program in the language C. After some basic data declaration, the program contains two nested loops that execute from 
+
+ﬁ ed at input. Inside the interior loop, four if-then-else 
+constructs are required. There are approximately 10 14  possible paths that may be executed in this program!  To put this number in perspective, we assume that 
+a magic test processor (“magic” because no such 
+processor exists) has been developed for exhaustive 
+testing. The processor can develop a test case, execute 
+
+it, and evaluate the results in one millisecond. Work-
+
+ing 24 hours a day, 365 days a year, the processor 
+
+would work for 3170 years to test the program. This 
+
+would, undeniably, cause havoc in most development 
+
+schedules. 
+ Therefore, it is reasonable to assert that exhaustive 
+testing is impossible for large software systems.  INFO  
+ 
+ 
+ 
+ 
+ 
+ 
+ 23.3  
+WHITE-BOX TESTING    
+ 
+White-box testing, 
+ sometimes called  
+glass-box testing 
+ or  
+structural testing, 
+ is a 
+test-case design philosophy that uses the control structure described as part of 
+
+component-level design to derive test cases. Using white-box testing methods, you 
+
+can derive test cases that (1) guarantee that all independent paths within a module 
+
+have been exercised at least once, (2) exercise all logical decisions on their true 
+
+and false sides, (3) execute all loops at their boundaries and within their opera-
+tional bounds, and (4) exercise internal data structures to ensure their validity. 
+  
+ 
+ 
+ 
+ 23.4  
+BASIS PATH
+ TESTING  
+ 
+ 
+Basis path testing 
+ is a white-box testing technique ﬁ
+ rst proposed by Tom McCabe 
+[McC76]. The basis path method enables the test-case designer to derive a logical 
+
+complexity measure of a procedural design and use this measure as a guide for deﬁ n-
+ing a basis set of execution paths. Test cases derived to exercise the basis set are guar-
+
+anteed to execute every statement in the program at least one time during testing. 
+  
+ 
+23.4.1   
+Flow Graph Notation  
+Before the basis path method can be introduced, a simple notation for the rep-resentation of control ﬂ ow, called a  
+ﬂ ow graph
+ 
+ (or  
+program graph
+ 
+) must be  
+ uote:  “Bugs lurk in 
+corners and 
+congregate at 
+boundaries.”  Boris Beizer 
+pre22126_ch23_496-522.indd   500pre22126_ch23_496-522.indd   50013/12/13   6:14 PM13/12/13   6:14 PM

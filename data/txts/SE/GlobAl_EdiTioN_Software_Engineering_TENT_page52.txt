@@ -1,0 +1,27 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜In the majority of software projects, there is some software reuse. This often happens informally when people working on the project know of or search for code that is 
+similar to what is required. They look for these, modify them as needed, and integrate 
+
+them with the new code that they have developed.This informal reuse takes place regardless of the development process that is 
+used. However, since 2000, software development processes that focus on the reuse 
+of existing software have become widely used. Reuse-oriented approaches rely on a 
+base of reusable software components and an integrating framework for the compo-
+sition of these components.Three types of software components are frequently reused:1. Stand-alone application systems that are configured for use in a particular envi-
+ronment. These systems are general-purpose systems that have many features, 
+but they have to be adapted for use in a specific application.2. Collections of objects that are developed as a component or as a package to be 
+integrated with a component framework such as the Java Spring framework 
+
+(Wheeler and White 2013).3.
+ Web services that are developed according to service standards and that are 
+
+available for remote invocation over the Internet.Figure 2.
+3 shows a general process model for reuse-based development, based on integration and configuration. The stages in this process are:1. Requirements specification The initial requirements for the system are pro-posed. These do not have to be elaborated in detail but should include brief 
+
+descriptions of essential requirements and desirable system features.2. Software discovery and evaluation Given an outline of the software require-
+ments, a search is made for components and systems that provide the func-
+tionality required. Candidate components and systems are evaluated to see if 
+RequirementsspecificationSoftwarediscoverySoftwareevaluationRequirementsrefinementConfigureapplication systemAdapt componentsIntegratesystemDevelop newcomponentsApplication system availableComponentsavailableFigure 2.3
+ Reuse- oriented software 
+
+engineering 

@@ -1,0 +1,33 @@
+418 Chapter 6  
+NetworksDNS Cache PoisoningThe DNS cache poisoning attack is a way to subvert the addressing to cause a DNS 
+server to redirect clients to a specified address. A conceptually simple DNS poisoning 
+
+attack is to forge a message to a DNS registrar, requesting that a particular domain 
+
+name be changed from one address to another. These requests occur normally when a 
+
+website is moved from one hosting provider to another or when an organization changes 
+
+its address structure. However, a malicious attacker can use a DNS change request to 
+
+redirect traffic intended for a particular domain name. Because of strong authentication 
+
+requirements, registrars seldom succumb to such a forgery.
+A more likely attack is to use the DNS protocol messages by which all Internet 
+name servers coordinate their address translations. Dan Kaminsky [KAM08] expanded 
+
+on some previously known methods to poison the DNS cache. The DNS protocol is 
+
+complex, but you do not need to understand the details in order to appreciate this attack. 
+A client requiring the address corresponding to a domain name sends a query to its local DNS name server. If that server does not have the answer, it forwards the query 
+
+to a root name server; the query is forwarded to more-specific name servers until one 
+
+replies authoritatively with the address. That address is propagated through the chain of 
+
+servers involved in resolving the query and eventually back to the client. The servers 
+
+along the way cache the response so that they can respond directly to future queries for 
+
+the same address.Receiver
+AttackerSenderData (len 5)Seq=10Data (len 20)Seq=15Data (len 100)Seq=35Data (len 30)Seq=35Data (len 25)Seq=135Ack=35Ack=135Ack=15HijackResetFIGURE 6-33 Resetting the Original Sender

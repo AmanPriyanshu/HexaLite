@@ -1,0 +1,44 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜that does not meet the real needs of users. Furthermore, some control over the sys-tem evolution is lost as new versions of the reusable components are not under the 
+control of the organization using them.Software reuse is very important, and so several chapters in the third I have dedi-cated several chapters in the 3
+rd
+ part of the book to this topic. General issues of 
+software reuse are covered in Chapter 15, component-based software engineering in 
+Chapters 16 and 17, and service-oriented systems in Chapter 18.Real software processes are interleaved sequences of technical, collaborative, and 
+
+managerial activities with the overall goal of specifying, designing, implementing, 
+and testing a software system. Generally, processes are now tool-supported. This 
+
+means that software developers may use a range of software tools to help them, such 
+as requirements management systems, design model editors, program editors, auto-
+mated testing tools, and debuggers.The four basic process activities of specification, development, validation, and 
+evolution are organized differently in different development processes. In the water-
+fall model, they are organized in sequence, whereas in incremental development 
+
+they are interleaved. How these activities are carried out depends on the type of 
+
+software being developed, the experience and competence of the developers, and the 
+type of organization developing the software.Software specification or requirements engineering is the process of understanding 
+and defining what services are required from the system and identifying the con-
+straints on the system™s operation and development. Requirements engineering is a 
+
+particularly critical stage of the software process, as mistakes made at this stage 
+
+inevitably lead to later problems in the system design and implementation.Before the requirements engineering process starts, a company may carry out a 
+feasibility or marketing study to assess whether or not there is a need or a market for 
+
+the software and whether or not it is technically and financially realistic to develop 
+
+the software required. Feasibility studies are short-term, relatively cheap studies that 
+
+inform the decision of whether or not to go ahead with a more detailed analysis.The requirements engineering process (Figure 
+2.
+4) aims to produce an agreed 
+requirements document that specifies a system satisfying stakeholder requirements. 
+
+Requirements are usually presented at two levels of detail. End-users and customers 
+
+need a high-level statement of the requirements; system developers need a more 
+
+detailed system specification.

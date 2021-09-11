@@ -1,0 +1,53 @@
+ Exercises 229  mathematician Alan Turing
+4 proved in 1936 (notably, well before the advent of modern 
+computers) that it is impossible to write a program to solve the halting problem for any 
+
+possible program and any possible stream of input. Our good program checker would 
+
+fall into the halting problem trap: If we could identify all good programs we would 
+
+solve the halting problem, which is provably unsolvable. Thus, we will never have a 
+
+comprehensive good program checker.
+This negative result does not say we cannot examine certain programs for good-
+ness. We can, in fact, look at some programs and say they are bad, and we can even 
+
+write code to detect programs that modify protected memory locations or exploit known 
+
+security vulnerabilities. So, yes, we can detect some bad programs, just not all of them.CONCLUSIONIn this chapter we have surveyed programs and programming: errors programmers make 
+and vulnerabilities attackers exploit. These failings can have serious consequences, as 
+
+reported almost daily in the news. However, there are techniques to mitigate these short-
+
+comings, as we described at the end of this chapter.
+The problems recounted in this chapter form the basis for much of the rest of this book. Programs implement web browsers, website applications, operating systems, net-
+
+work technologies, cloud infrastructures, and mobile devices. A buffer overflow can 
+
+happen in a spreadsheet program or a network appliance, although the effect is more 
+
+localized in the former case than the latter. Still, you should keep the problems of this 
+
+chapter in mind as you continue through the remainder of this book.In the next chapter we consider the security of the Internet, investigating harm affect-
+ing a user. In this chapter we have implicitly focused on individual programs running 
+
+on one computer, although we have acknowledged external actors, for example, when 
+
+we explored transmission of malicious code. Chapter 4 involves both a local user and 
+
+remote Internet of potential malice.EXERCISES1. Suppose you are a customs inspector. You are responsible for checking suitcases for secret 
+compartments in which bulky items such as jewelry might be hidden. Describe the procedure 
+
+you would follow to check for these compartments.
+2. Your boss hands you a microprocessor and its technical reference manual. You are asked to 
+check for undocumented features of the processor. Because of the number of possibilities, 
+
+you cannot test every operation code with every combination of operands. Outline the strat-
+
+egy you would use to identify and characterize unpublicized operations.
+3. Your boss hands you a computer program and its technical reference manual. You are asked 
+to check for undocumented features of the program. How is this activity similar to the task of 
+
+the previous exercises? How does it differ? Which is the more feasible? Why?
+4. Alan Turing was also a vital contributor to Britain during World War II when he devised several techniques 
+that succeeded at breaking German encrypted communications.

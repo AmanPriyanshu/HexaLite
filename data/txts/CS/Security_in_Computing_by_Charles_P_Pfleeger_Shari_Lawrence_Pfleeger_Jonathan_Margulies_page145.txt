@@ -1,0 +1,54 @@
+ Section 2.3  Cryptography 
+111  parity are called even and odd. With even parity the fingerprint is 0 if the sum of the data 
+bits is even, and 1 if the sum is odd; that is, the parity bit is set so that the sum of all data 
+
+bits plus the parity bit is even. Odd parity is the same except the overall sum is odd. For 
+
+example, the data stream 01101101 would have an even parity bit of 1 (and an odd parity 
+
+bit of 0) because 01101101  5  1  6 (or 5  0  5 for odd parity).One parity bit can reveal the modification of a single bit. However, parity does not 
+detect two-bit errors—cases in which two bits in a group are changed. One parity bit can 
+
+detect all single-bit changes, as well as changes of three, five and seven bits. Table 2-14 
+
+shows some examples of detected and undetected changes. The changed bits (each line 
+
+shows changes from the original value of 00000000) are in bold, underlined; the table 
+
+shows whether parity properly detected that at least one change occurred.
+Detecting odd numbers of changed bits leads to a change detection rate of about 50 percent, which is not nearly good enough for our purposes. We can improve this rate 
+
+with more parity bits (computing a second parity bit of bits 1, 3, 5, and 7, for example), 
+
+but more parity bits increase the size of the fingerprint; each time we increase the fin-
+
+gerprint size we also increase the size of storing these fingerprints.
+Parity signals only that a bit has been changed; it does not identify which bit has 
+been changed, much less when, how, or by whom. On hardware storage devices, a code 
+
+called a cyclic redundancy
+ check detects errors in recording and playback. Some more 
+complex codes, known as 
+error correction codes
+, can detect multiple-bit errors (two or 
+more bits changed in a data group) and may be able to pinpoint the changed bits (which 
+are the bits to reset to correct the modification). Fingerprint size, error detection rate, 
+
+and correction lead us to more powerful codes.
+Hash CodesIn most files, the elements or components of the file are not bound together in any way. 
+That is, each byte or bit or character is independent of every other one in the file. This 
+TABLE 2-14  
+Changes Detected by Parity
+Original DataParity BitModified Data
+Modification Detected?0 0 0 0 0 0 0 01
+0 0 0 0 0 0 0 1Yes
+0 0 0 0 0 0 0 01
+1 0 0 0 0 0 0 0Yes
+0 0 0 0 0 0 0 01
+1 0 0 0 0 0 0 1No0 0 0 0 0 0 0 01
+0 0 0 0 0 0 1 1No0 0 0 0 0 0 0 01
+0 0 0 0 0 1 1 1Yes
+0 0 0 0 0 0 0 01
+0 0 0 0 1 1 1 1No0 0 0 0 0 0 0 01
+0 1 0 1 0 1 0 1No0 0 0 0 0 0 0 01
+1 1 1 1 1 1 1 1No

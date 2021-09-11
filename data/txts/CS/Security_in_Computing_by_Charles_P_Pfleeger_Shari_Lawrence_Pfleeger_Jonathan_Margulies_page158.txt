@@ -1,0 +1,57 @@
+124 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+The Internet is a large federation of networks for interpersonal, intercompany, inter-
+organizational, and international (as well as intracompany, intraorganizational, and 
+
+intranational) communication. It is not a part of any government, nor is it a privately 
+
+owned company. It is governed by a board called the Internet Society. The Internet Soci-
+
+ety has power only because its members, the governments and companies that make up 
+
+the Internet, agree to work together. But there really is no “top” for the Internet. Dif-
+
+ferent companies, such as C&W HKT, SecureNet, VeriSign, Baltimore Technologies, 
+
+Deutsche Telecom, Societá Interbancaria per l’Automatzione di Milano, Entrust, and 
+
+Certiposte are root certification authorities, which means each is a highest authority 
+
+that signs certificates. So, instead of one root and one top, there are many roots, largely 
+
+structured around national boundaries.Distributing Keys and CertificatesEarlier in this chapter we introduced several approaches to key distribution, ranging 
+from direct exchange to distribution through a central distribution facility to certified 
+
+advance distribution. But no matter what approach is taken to key distribution, each 
+
+has its advantages and disadvantages. Points to keep in mind about any key distribution 
+
+protocol include the following:
+• What operational restrictions are there? For example, does the protocol require a 
+continuously available facility, such as the key distribution center?
+• What trust requirements are there? Who and what entities must be trusted to act 
+properly?• What is the protection against failure? Can an outsider impersonate any of the 
+entities in the protocol and subvert security? Can any party of the protocol cheat 
+
+without detection?• How efficient is the protocol? A protocol requiring several steps to establish an 
+encryption key that will be used many times is one thing; it is quite another to go 
+
+through several time-consuming steps for a one-time use.
+• How easy is the protocol to implement? Notice that complexity in computer 
+implementation may be different from manual use.
+Digital Signatures—All the Pieces
+Putting these pieces together we can now outline a complete digital signature scheme. 
+
+Assume user S wants to apply a digital signature to a file (or other data object), meeting 
+
+the four objectives of a digital signature: unforgeable, authentic, unalterable, and not 
+
+reusable.A digital signature
+ consists of• a file
+• demonstration that the file has not been altered
+
+• indication of who applied the signature
+
+• validation that the signature is authentic, that is, that it belongs to the signer
+
+• connection of the signature to the file

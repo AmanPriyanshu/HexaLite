@@ -1,0 +1,56 @@
+ Section 6.9  Network Management 
+489  6.9 NETWORK MANAGEMENT
+Next, we introduce some security-relevant concepts of managing, administering, and 
+tuning networks. The administrator can take actions to prefer one stream of network 
+
+traffic over another, either to promote fair use of resources or to block a malicious traffic 
+
+stream so that nonmalicious communication does go through. To do this kind of tuning 
+
+the administrator needs an accurate image of the network’s status. Tools called security 
+
+information and event management devices collect status indications from a range of 
+
+products—including firewalls, IDSs, routers, load balancers—and put these separate 
+
+data streams together into a unified view.
+Management to Ensure Service
+Networks are not set-and-forget kinds of systems; because network activity is dynamic, 
+
+administrators need to monitor network performance and adjust characteristics as 
+
+necessary. 
+In this section we list some of the kinds of management that networks require. 
+Recognize, however, that most of this information is useful for network administra-
+
+tors whose main responsibility is keeping the network running smoothly, not defending 
+
+against denial-of-service attacks. These measures counter ordinary cases of suboptimal 
+
+performance, but not concerted attacks. In this section we merely mention these topics; 
+
+for details you should consult a comprehensive network administration reference.
+Capacity PlanningOne benign cause of denial of service is insufficient capacity: too much data for too little 
+capability. Not usually viewed as a security issue, capacity planning involves monitor-
+
+ing network traffic load and performance to determine when to upgrade which aspects.
+A network or component running at or near capacity has little margin for error, 
+meaning that a slight but normal surge in traffic can put the network over the top and 
+
+cause significant degradation in service.
+Websites are especially vulnerable to unexpected capacity problems. A news site 
+may run fine during normal times until a significant event occurs, such as the death of 
+
+a famous person or an earthquake, plane crash, or terrorist attack, after which many 
+
+people want the latest details on the event. Launching a new product with advertising 
+
+can also cause an overload; events such as opening sales of tickets for a popular concert 
+
+or sporting event have swamped websites.
+Network administrators need to be aware of these situations that can cause unex-
+pected demand.Load balancingPopular websites such as those of Google, Microsoft, and the New York Times
+ are not run 
+on one computer alone; no single computer has the capacity to support all the traffic these 
+
+sites receive at once. Instead, these places rely on many computers to handle the volume.

@@ -1,0 +1,88 @@
+CHAPTER 27  
+SECURITY ENGINEERING 589 
+ 
+ 
+27.3.1   
+Security Requirement Elicitation 
+ 
+ 
+The general techniques for requirement elicitation discussed in Chapter 8 are equally applicable to the elicitation of security requirements. Security require-
+ments are nonfunctional requirements  2 
+ 
+ that strongly inﬂ
+ uence the  
+architectural 
+design 
+ of software systems. Once the system requirements have been reﬁ
+ ned 
+and prioritized using threat modeling and risk analysis, security policies can be 
+set for the system. These policies will be reﬁ ned using security modeling and 
+decomposition along with usage considerations to derive the required security 
+architecture. The security aspects of the architecture are validated before they 
+are implemented [Bod09].    
+ 
+In some cases, security requirements and other software requirements can 
+come into conﬂ ict with one another. For example, security and usability can be at 
+odds with one another, and a balance between the two must be found. Highly se-
+
+cure systems are often harder to use by inexperienced users. In  user-centered se-
+curity engineering 
+, security requirements elicitation ﬁ nds answers to three 
+important questions [Mar02]: (1) What are the users’ needs with respect to security 
+
+software? (2) How can a secure architecture be designed so that it accommodates 
+
+a good user interface design? (3) How can a good user interface be designed so that 
+
+it is secure but at the same time enables effective, efﬁ cient, and satisfying usage? 
+The answers to these questions should be incorporated into the use case scenarios 
+
+(Chapter 8) describing how stakeholders interact with the system resources. 
+  As requirement elicitation proceeds, the analyst should identify attack pat-terns. An  attack pattern 
+ is a type of design pattern (Chapter 16) that identiﬁ
+ es 
+the security shortcoming of a system. Attack patterns can speed up security 
+analysis by providing problem/solution pairs to common security vulnerability. 
+
+Reusing attack patterns can help engineers to identify system vulnerabilities. 
+There is no need to recreate different ways to attack a system. Attack patterns 
+allow developers to use well-understood names (e.g., phishing, SQL injection, 
+and cross-site scripting) for software security issues. Common attack patterns 
+can be improved over time [Sin08]. The difﬁ culty with using attack patterns is 
+knowing when a speciﬁ c pattern will apply. 
+ Some software engineers believe that the rigors of security engineering are incompatible with the informal nature of requirements elicitation in agile pro-
+cesses (Chapter 5). However, one technique that might be used to reconcile the 
+
+“formality gap” is the creation of abuser stories in the requirements domain. 
+ Abuser stories 
+ are based on customer input that describes threats to the system 
+assets. Abuser stories extend the well-established agile concept of user stories 
+and can help achieve the security requirements traceability needed to allow 
+security assurance to proceed [Pee11].   
+ 
+ uote:  ”The user’s going 
+to pick dancing 
+pigs over security 
+every time. 
+”   Bruce Schneier 
+ What 
+security requirement 
+elicitation 
+questions should 
+I ask? ?  
+ 
+ uote:   “Securing a 
+computer system 
+has traditionally 
+been a battle of 
+wits: the penetrator 
+tries to ﬁ nd the 
+
+holes, and the 
+designer tries to 
+close them.”  Gosser 
+  
+2  These are sometimes called  
+crosscutting concerns
+ 
+ and were discussed in Chapter 4. pre22126_ch27_584-600.indd   589pre22126_ch27_584-600.indd   58916/12/13   6:23 PM16/12/13   6:23 PM

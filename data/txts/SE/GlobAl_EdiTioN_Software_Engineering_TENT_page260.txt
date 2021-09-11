@@ -1,0 +1,52 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜During the program understanding phase, new developers have to understand how the 
+program is structured, how it delivers functionality, and how the proposed change might 
+
+affect the program. They need this understanding to make sure that the implemented 
+
+change does not cause new problems when it is introduced into the existing system.If requirements specification and design documents are available, these should be 
+updated during the evolution process to reflect the changes that are required (Figure 9.5). 
+
+New software requirements should be written, and these should be analyzed and 
+
+validated. If the design has been documented using UML models, these models 
+
+should be updated. The proposed changes may be prototyped as part of the change 
+analysis process, where you assess the implications and costs of making the change.
+However, change requests sometimes relate to problems in operational systems that have to be tackled urgently. These urgent changes can arise for three reasons:1.
+ If a serious system fault is detected that has to be repaired to allow normal 
+operation to continue or to address a serious security vulnerability.2. If changes to the systems operating environment have unexpected effects that 
+disrupt normal operation.3. If there are unanticipated changes to the business running the system, such as 
+the emergence of new competitors or the introduction of new legislation that 
+
+affects the system.In these cases, the need to make the change quickly means that you may not be˜able 
+to update all of the software documentation. Rather than modify the  requirements and 
+design, you make an emergency fix to the program to solve the immediate  problem 
+(Figure 9.
+6). The danger here is that the requirements, the software design, and the 
+
+code can become inconsistent. While you may intend to document the change in the 
+
+requirements and design, additional emergency fixes to the software may then be 
+
+needed. These take priority over documentation. Eventually, the original change is 
+
+forgotten, and the system documentation and code are never realigned. This problem 
+
+of maintaining multiple representations of a system is one of the arguments for mini-
+mal documentation, which is fundamental to agile development processes.Emergency system repairs have to be completed as quickly as possible. You 
+choose a quick and workable solution rather than the best solution as far as system 
+structure is concerned. This tends to accelerate the process of software ageing so that 
+future changes become progressively more difficult and maintenance costs increase. 
+
+Ideally, after emergency code repairs are made, the new code should be refactored Requirements
+updating
+Software
+developmentRequirementsanalysis
+ProposedchangesFigure 9.5 Change implementation Modifysource code
+Deliver modifiedsystemAnalyze
+source code
+Changerequests
+Figure 9.6 The emergency repair 
+process 

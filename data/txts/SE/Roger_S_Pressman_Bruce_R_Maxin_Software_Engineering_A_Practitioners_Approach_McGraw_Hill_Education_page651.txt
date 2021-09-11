@@ -1,0 +1,121 @@
+CHAPTER 28  
+FORMAL MODELING AND VERIFICATION
+ 621 
+ 
+ 
+28.7.  For the program stimuli and probability distribution table developed in Problem 28.6, use a random-number generator to develop a set of test cases for use in statistical use 
+testing.    
+ 
+28.8.  In your own words, describe the intent of certiﬁ cation in the cleanroom software en-
+gineering context.    
+ 
+28.9.  You have been assigned to a team that is developing software for a fax modem. Your 
+job is to develop the “phone book” portion of the application. The phone book function en-
+ables up to  MaxNames 
+ people to be stored along with associated company names, fax num-
+bers, and other related information. Using natural language, deﬁ ne
+  
+ 
+ 
+ a.  
+The data invariant.    
+ 
+ b.  
+The state.    
+ 
+ c.  
+The operations that are likely. 
+  
+ 
+  
+ 
+ 
+28.10.  You have been assigned to a software team that is developing software called 
+MemoryDoubler that provides greater apparent memory for a PC than physical memory. 
+
+This is accomplished by identifying, collecting, and reassigning blocks of memory that have 
+been assigned to an existing application but are not being used. The unused blocks are re-
+assigned to applications that require additional memory. Making appropriate assumptions 
+
+and using natural language, deﬁ ne
+  
+ 
+ 
+ a.  
+The data invariant.    
+ 
+ b.  
+The state.    
+ 
+ c.  
+The operations that are likely. 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+  F
+URTHER
+ READINGS AND INFORMATION
+ SOURCES  
+ 
+Relatively few books on advanced speciﬁ cation and veriﬁ
+ cation techniques have been pub-
+lished in recent years. However, some new additions to the literature are worth consider-
+
+ing. Books by Gabbar ( Modern Formal Methods and Applications, 
+ Springer, 2010) and Boca 
+and his colleagues ( Formal Methods: State of the Art and New Directions,
+ 
+ Springer, 2010) 
+present both fundamentals, new developments, and advanced applications. Jackson ( Soft-ware Abstractions,
+ 
+ 2nd ed., MIT Press, 2012) presents all of the basics and an approach that he calls “lightweight formal methods.” Monin and Hinchey ( Understanding Formal Methods, 
+ Springer, 2003) provide an excellent introduction to the subject. Butler and other editors 
+
+( Integrated Formal Methods, 
+ Springer, 2002) present a variety of papers on formal methods 
+topics.   
+ 
+In addition to books referenced in this chapter, Prowell and his colleagues ( 
+Clean-room Software Engineering: Technology and Process,
+ 
+ Addison-Wesley, 1999) provide an in-
+depth treatment of all important aspects of the cleanroom approach. Useful discussions 
+of cleanroom topics have been edited by Liu ( Formal Engineering for Industrial Software 
+Development: Using the SOFL Method, 
+ Springer, 2010) and Poore and Trammell ( 
+Cleanroom 
+Software Engineering: A Reader,
+ 
+ Blackwell Publishing, 1996). Becker and Whittaker ( Clean-room Software Engineering Practices,
+ 
+ Idea Group Publishing, 1997) present an excellent 
+overview for those who are unfamiliar with cleanroom practices.   
+ 
+ 
+The Cleanroom Pamphlet
+ 
+ (Software Technology Support Center, Hill AF Base, April 1995) 
+contains reprints of a number of important articles. The Cyber Security and Information 
+Systems Information Analysis Center (CSIAC) ( www.thecsiac.com
+ 
+) provides many useful papers, guidebooks, and other information sources on cleanroom software engineering.   
+ 
+Design veriﬁ cation via proof of correctness lies at the heart of the cleanroom approach. 
+Books by Cupillari ( The Nuts and Bolts of Proofs,
+ 
+ 4th ed., Academic Press, 2012), Solow ( 
+How to Read and Do Proofs,
+ 
+ 5th ed., Wiley, 2009), Eccles ( 
+An Introduction to Mathematical Reason-
+ing, 
+ Cambridge University Press, 1998), provide excellent introductions into the mathemat-
+ical basics. Stavely ( Toward Zero-Defect Software,
+ 
+ Addison-Wesley, 1998), Baber ( 
+Error-Free 
+pre22126_ch28_601-622.indd   621pre22126_ch28_601-622.indd   62113/12/13   6:15 PM13/12/13   6:15 PM

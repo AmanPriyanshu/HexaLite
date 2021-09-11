@@ -1,0 +1,36 @@
+˜˜˚˛˝˜˜˜˜˜˜
+To make components reusable, you have to adapt and extend the application-specific components to create more generic and therefore more reusable versions. 
+Obviously, this adaptation has an associated cost. You have to decide first, whether 
+a component is likely to be reused and second, whether the cost savings from future 
+
+reuse justify the costs of making the component reusable.To answer the first of these questions, you have to decide whether or not the com
+-ponent implements one or more stable domain abstractions. Stable domain abstrac-
+tions are fundamental elements of the application domain that change slowly. For 
+
+example, in a banking system, domain abstractions might include accounts, account 
+
+holders, and statements. In a hospital management system, domain abstractions might 
+
+include patients, treatments, and nurses. These domain abstractions are sometimes 
+called business objects. If the component is an implementation of a commonly used 
+
+domain abstraction or group of related business objects, it can probably be reused.To answer the question about cost-effectiveness, you have to assess the costs of 
+changes˜that are required to make the component reusable. These costs are the costs of 
+
+component documentation and component validation, and of making the component more 
+
+generic. Changes that you may make to a component to make it more reusable include:˜ removing application-specific methods;˜ changing names to make them more general;˜ adding methods to provide more complete functional coverage;˜ making exception handling consistent for all methods;˜ adding a ﬁconfigurationﬂ interface to allow the component to be adapted to 
+ different situations of use;˜ integrating required components to increase independence.The problem of exception handling is a difficult one. In principle, components 
+should not handle exceptions themselves because each application will have its own requirements for exception management. Rather, the component should define what 
+
+exceptions can arise and should publish these exceptions as part of the interface. For 
+example, a simple component implementing a stack data structure should detect and 
+publish stack overflow and stack underflow exceptions. In practice, however, there 
+are two problems with this process:1.
+ Publishing all exceptions leads to bloated interfaces that are harder to under-stand. This may put off potential users of the component.2.
+ The operation of the component may depend on local exception handling, and 
+
+changing this may have serious implications for the functionality of the component.You therefore have to take a pragmatic approach to component exception handling. 
+Common technical exceptions, where recovery is important for the functioning of the 
+
+component, should be handled locally. These exceptions and how they are handled 

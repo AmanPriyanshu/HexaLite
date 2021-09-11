@@ -1,0 +1,32 @@
+340 Chapter 5  
+Operating Systems14. File access control relates largely to the secrecy dimension of security. What is the relation-
+ship between an access control matrix and the integrity of the objects to which access is 
+
+being controlled?15. One feature of a capability-based protection system is the ability of one process to transfer a copy of a capability to another process. Describe a situation in which one process should be 
+
+able to transfer a capability to another.
+16. Describe a mechanism by which an operating system can enforce limited transfer of capa-
+bilities. That is, process A might transfer a capability to process B, but A wants to prevent B 
+
+from transferring the capability to any other processes.
+ Your design should include a description of the activities to be performed by 
+A and 
+B, as well as the activities performed by and the information maintained by the operating 
+
+system.17. List two disadvantages of using physical separation in a computing system. List two disad-
+vantages of using temporal separation in a computing system.
+18. Explain why asynchronous I/O activity is a problem with many memory protection schemes, 
+including base/bounds and paging. Suggest a solution to the problem.19. Suggest an efficient scheme for maintaining a per-user protection scheme. That is, the system 
+maintains one directory per user, and that directory lists all the objects to which the user is 
+
+allowed access. Your design should address the needs of a system with 1000 users, of whom 
+
+no more than 20 are active at any time. Each user has an average of 200 permitted objects; 
+
+there are 50,000 total objects in the system.20. A flaw in the protection system of many operating systems is argument passing. Often a 
+common shared stack is used by all nested routines for arguments as well as for the remain-
+
+der of the context of each calling process.
+(a) Explain what vulnerabilities this flaw presents.
+(b) Explain how the flaw can be controlled. The shared stack is still to be used for passing 
+arguments and storing context.

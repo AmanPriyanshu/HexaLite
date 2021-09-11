@@ -1,0 +1,54 @@
+64 PART ONE  
+THE SOFTWARE PROCESS
+ 
+ 
+ 
+ 
+ 
+ 
+ 4.7 S
+UMMARY  
+Prescriptive process models have been applied for many years in an effort to bring order and structure to software development. Each of these models sug-
+gests a somewhat different process ﬂ ow, but all perform the same set of generic 
+framework activities: communication, planning, modeling, construction, and 
+deployment.  Sequential process models, such as the waterfall and V-models, are the oldest 
+software engineering paradigms. They suggest a linear process ﬂ ow that is often 
+inconsistent with modern realities (e.g., continuous change, evolving systems, 
+tight time lines) in the software world. They do, however, have applicability in 
+
+situations where requirements are well deﬁ ned and stable. 
+ Incremental process models are iterative in nature and produce working ver-
+sions of software quite rapidly. Evolutionary process models recognize the itera-
+
+tive, incremental nature of most software engineering projects and are designed 
+to accommodate change. Evolutionary models, such as prototyping and the spiral 
+model, produce incremental work products (or working versions of the software) 
+quickly. These models can be adopted to apply across all software engineering 
+
+activities—from concept development to long-term system maintenance.  The concurrent process model allows a software team to represent iterative and concurrent elements of any process model. Specialized models include the 
+component-based model that emphasizes component reuse and assembly; the 
+formal methods model that encourages a mathematically based approach to 
+software development and veriﬁ cation; and the aspect-oriented model that ac-
+commodates crosscutting concerns spanning the entire system architecture. The 
+Uniﬁ ed Process is a “use case driven, architecture-centric, iterative and incre-
+mental” software process designed as a framework for UML methods and tools.  Personal and team models for the software process have been proposed. Both emphasize measurement, planning, and self-direction as key ingredients for a 
+successful software process.   
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+4.1.  Provide three examples of software projects that would be amenable to the waterfall model. Be speciﬁ c. 
+   
+ 
+4.2.  Provide three examples of software projects that would be amenable to the prototyping model. Be speciﬁ c. 
+   
+ 
+4.3.  What process adaptations are required if the prototype will evolve into a delivery sys-tem or product?    
+ 
+4.4.  Provide three examples of software projects that would be amenable to the incremen-tal model. Be speciﬁ c. 
+   
+ 
+4.5.  As you move outward along the spiral process ﬂ ow, what can you say about the software 
+that is being developed or maintained?  pre22126_ch04_040-065.indd   64pre22126_ch04_040-065.indd   6413/12/13   6:10 PM13/12/13   6:10 PM

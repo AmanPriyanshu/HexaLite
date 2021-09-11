@@ -1,0 +1,34 @@
+˘˘
+˜˚˛˝˙ˆˇ˘˜˘˜˘They˜may propose changes to the software and new requirements that should be 
+implemented in a later version of the system.3.
+ Extensive tool support is used to support the development process. Tools that 
+
+may be used include automated testing tools, tools to support configuration man-
+agement, and system integration and tools to automate user interface production.Agile methods are incremental development methods in which the increments are 
+small, and, typically, new releases of the system are created and made available to 
+ customers every two or three weeks. They involve customers in the development 
+ process to get rapid feedback on changing requirements. They minimize documentation 
+
+by using informal communications rather than formal meetings with written documents.
+Agile approaches to software development consider design and implementation 
+to be the central activities in the software process. They incorporate other activities, 
+such as requirements elicitation and testing, into design and implementation. By 
+
+contrast, a plan-driven approach to software engineering identifies separate stages in 
+the software process with outputs associated with each stage. The outputs from one 
+stage are used as a basis for planning the following process activity.Figure 3.
+1 shows the essential distinctions between plan-driven and agile approaches 
+to system specification. In a plan-driven software development process, iteration 
+
+occurs within activities, with formal documents used to communicate between stages 
+
+of the process. For example, the requirements will evolve, and, ultimately, a require-ments specification will be produced. This is then an input to the design and imple
+-
+mentation process. In an agile approach, iteration occurs across activities. Therefore, 
+
+the requirements and the design are developed together rather than separately.In practice, as I explain in Section 3.4.1, plan-driven processes are often used along 
+with agile programming practices, and agile methods may incorporate some planned 
+RequirementsspecificationRequirementsengineering
+Design andimplementationRequirements changerequestsPlan-based developmentAgile development
+Requirementsengineering
+Design andimplementationFigure 3.1 Plan-driven and agile development

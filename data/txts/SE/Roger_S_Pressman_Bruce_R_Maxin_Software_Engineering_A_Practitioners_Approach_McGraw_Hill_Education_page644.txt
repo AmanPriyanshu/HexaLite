@@ -1,0 +1,77 @@
+614 PART THREE  
+QUALITY MANAGEMENT 
+Although the use of formal methods may slow the delivery of the ﬁ rst software 
+increment, it can reduce the amount of rework during the project lifetime and 
+therefore provide a signiﬁ cant return on the time investment applied. If the cus-
+tomer’s requirements are extremely volatile, there is no guarantee that a project 
+
+can be completed more quickly using agile techniques. The name of the game 
+is creating a product that that meets the customer’s requirements, and supple-
+
+menting an agile approach with formal methods can help ensure that require-
+ments have been met.  Mayer and his colleagues [Mey09] describe three types of tools that can be useful in automating testing, thereby acting to facilitate statistical use testing 
+approaches.  Test generation
+ 
+ tools create and execute test cases without human 
+input.  Test extraction
+ 
+ tools produce test cases for later replay from program ex-
+ecution failures.  Manual test integration 
+ tools provide help in developing and 
+managing test cases that are produced manually. 
+ The part of testing that is most likely to be automated is test case execution, which is very important for efﬁ cient regression testing. Meyer [Mey09] suggests 
+that test case generation is relatively straightforward for languages such as Eiffel 
+that support design by contract.  8 
+ 
+ Test cases are generated to exercise precon-
+ditions and postconditions represented as part of the source code (discussed in 
+Section 28.6). When developers ﬁ nd bugs in programs, they typically log them 
+and ﬁ x them, missing the opportunity to create test cases for future regression 
+testing. When an error occurs during program execution, testing tools capture 
+the information about precondition violations or postcondition failures and con-
+vert them into test cases automatically. 
+  
+ 
+8  
+ Design by contract
+ 
+ uses preconditions, postconditions, and invariants to answer the questions: 
+What does the program expect? What does it guarantee? What does it maintain?   
+9  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+  
+ 
+Formal Methods 
+  
+ Objective: 
+ The objective of formal 
+methods tools is to assist a software team in speciﬁ cation and correctness veriﬁ
+ cation. 
+  Mechanics: 
+ Tools mechanics vary. In general, tools 
+assist in speciﬁ cation and automating correctness 
+proving, usually by deﬁ ning a specialized language 
+for theorem proving. Many tools are not 
+commercialized and have been developed for research 
+purposes.   
+Representative Tools:  
+ 9 
+ 
+  
+ 
+ACL2,  developed at the University of Texas ( 
+ 
+www.cs.utexas.edu/users/moore/acl2/  
+), is “both a programming language in which you can model 
+computer systems and a tool to help you prove 
+properties of those models.” 
+ Pointers to several formal methods tool repositories can 
+be found on a site hosted by Cyber Security and 
+Information Systems Information Analysis Center 
+
+(CSIAC)  https://sw.thecsiac.com/databases/
+url/key/53/57#.UHrvKYbwpuh/
+ 
+.   
+SOFTWARE
+ TOOLS pre22126_ch28_601-622.indd   614pre22126_ch28_601-622.indd   61413/12/13   6:15 PM13/12/13   6:15 PM

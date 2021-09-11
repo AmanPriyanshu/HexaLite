@@ -1,0 +1,74 @@
+52 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+Security Questions Instead of passwords, some companies use questions to which (presumably) only the 
+
+right person would know the answer. Such questions include mother’s maiden name, 
+
+street name from childhood, model of first automobile, and name of favorite teacher. 
+
+The user picks relevant questions and supplies the answers when creating an identity.
+The problem with such questions is that the answers to some can be determined with little difficulty, as was the case for Sarah Palin’s email account. With the number of 
+
+public records available online, mother’s maiden name and street name are often avail-
+
+able, and school friends could guess a small number of possible favorite teachers. Anitra 
+
+Babic and colleagues [BAB09] documented the weakness of many of the supposedly 
+
+secret question systems in current use. Joseph Bonneau and Sören Preibusch [BON10] 
+SIDEBAR 2-5 Using Personal Patterns for Authentication
+Lamandé [LAM10] reports that the GrIDSure authentication system (http://
+www.gridsure.com) has been integrated into Microsoft’s Unified Access 
+
+Gateway (UAG) platform. This system allows a user to authenticate herself 
+
+with a one-time passcode based on a pattern of squares chosen from a 
+
+grid. When the user wishes access, she is presented with a grid containing 
+
+randomly assigned numbers; she then enters as her passcode the num-
+
+bers that correspond to her chosen pattern. Because the displayed grid 
+
+numbers change each time the grid is presented, the pattern enables the 
+
+entered passcode to be a one-time code. GrIDSure is an attempt to scale 
+
+a “user knowledge” approach from usability in the small to usability in the 
+
+large. Many researchers (see, for example, [SAS07, BON08, and BID09]) 
+
+have examined aspects of GrIDSure’s security and usability, with mixed 
+
+results. It remains to be seen how the use of GrIDSure compares with the 
+
+use of a collection of traditional passwords.
+Similarly, the ImageShield product from Confident Technologies (www 
+.confidenttechnologies.com) asks a user to enroll by choosing three cat-
+
+egories from a list; the categories might be cats, cars, and flowers, for 
+
+example. Then at authentication time, the user is shown a grid of pictures, 
+
+some from the user’s categories and others not. Each picture has a 1-char-
+
+acter letter or number. The user’s one-time access string is the characters 
+
+attached to the images from the user’s preselected categories. So, if the 
+
+pictures included a cat with label A, a flower with label 7, and seven other 
+
+images, the user’s access value would be A7. The images, characters and 
+
+positions change for each access, so the authenticator differs similarly.
+Authentication schemes like this are based on simple puzzles that 
+the user can solve easily but that an imposter would be unable to guess 
+
+successfully. However, with novel authentication schemes, we have to be 
+
+aware of the phenomenon of usability in the small and the large: Can a 
+
+user remember squares on a grid and categories of pictures and a favorite 
+
+vacation spot and the formula 2a
+c and many other nonobvious things?

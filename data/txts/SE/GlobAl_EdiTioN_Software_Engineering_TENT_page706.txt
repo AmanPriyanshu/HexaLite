@@ -1,0 +1,41 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜
+Software standards play an important role in plan-based software quality management. 
+As I have discussed, an important part of quality assurance is the definition or selection 
+
+of standards that should apply to the software development process or software product. 
+
+As part of this process, tools and methods to support the use of these standards may also 
+
+be chosen. Once standards have been selected for use, project-specific processes have to 
+
+be defined to monitor the use of the standards and check that they have been followed.Software standards are important for three reasons:1. Standards capture wisdom that is of value to the organization. They are based on 
+
+knowledge about the best or most appropriate practice for the company. This 
+
+knowledge is often acquired only after a great deal of trial and error. Building it into 
+
+a standard helps the company reuse this experience and avoid previous mistakes.2. Standards provide a framework for defining what quality means in a particular 
+
+setting. As I have discussed, software quality is subjective, and by using stand-
+ards you establish a basis for deciding if a required level of quality has been 
+
+achieved. Of course, this depends on setting standards that reflect user expecta-
+tions for software dependability, usability, and performance.3. Standards assist continuity when work carried out by one person is taken up and 
+
+continued by another. Standards ensure that all engineers within an organization 
+adopt the same practices. Consequently, the learning effort required when start-
+ing new work is reduced.Two related types of software engineering standard may be defined and used in 
+software quality management:1. Product standards These apply to the software product being developed. They include document standards, such as the structure of requirements documents, 
+documentation standards, such as a standard comment header for an object class 
+definition, and coding standards, which define how a programming language 
+
+should be used.Documentation standardsProject documents are a tangible way of describing the different representations of a software system 
+
+(requirements, UML, code, etc.) and its production process. Documentation standards define the organization 
+of˜different types of document as well as the document format. They are important because they make it easier 
+
+to check that important material has not been omitted from documents and ensure that project documents 
+
+have a common ﬁlook and feel.ﬂ Standards may be developed for the process of writing documents, for the 
+ documents themselves and for document exchange.http://software-engineering-book.com/web/documentation-standards/

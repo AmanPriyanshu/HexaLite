@@ -1,0 +1,61 @@
+798 Chapter 12  
+Details of CryptographyCombining these last two results with (a) produces
+(Pe)d= Pe*d= Pk*(n)+1= Pmod p= Pmod q qso that()PPn
+ed   mod 
+and e and d are inverse operations.
+Use of the AlgorithmThe user of the RSA algorithm chooses primes p and 
+q, from which the value 
+n  p  q is obtained. Next, 
+e is chosen to be relatively prime to (
+p − 1)  (q − 1); e is usually 
+a prime larger than (
+p − 1) or (q − 1). Finally, 
+d is computed as the inverse of 
+e mod 
+((n)).The user distributes 
+e and n and keeps 
+d secret; p, q, and (n) may be discarded (but 
+not revealed) at this point. Notice that even though 
+n is known to be the product of two 
+primes, if they are relatively large (such as 100 digits long), it will not be feasible to 
+
+determine the primes p and 
+q or the private key 
+d from 
+e. Therefore, this scheme pro-
+vides adequate security for d.It is not even practical to verify that 
+p and q themselves are primes, since that would 
+require considering on the order of 1050 possible factors. A heuristic algorithm from 
+Solovay and Strassen [SOL77] can determine the probability of primality to any desired 
+
+degree of confidence.
+Every prime number passes two tests. If 
+p is prime and 
+r is any number less than 
+p, thengcd(p, r)  1(where gcd is the greatest common divisor function) and
+J(r, p)  r(p–1)/2 mod pwhere J(r,p) is the Jacobi function
+ defined as follows.
+JrpJrp
+Jpr, r
+rr
+rrprp(,( ) =
+1(/2, )  ( 1)
+ mod )  ( 1)
+       if  = 1
+if  is even
+
+if  is odd and   1
+(1)/8
+(1)(1)/4
+2−−
+If a number is suspected to be prime but fails either of these tests, it is definitely 
+not a prime. If a number is suspected to be a prime and passes both of these tests, the likeli-
+
+hood that it is prime is at least 1/2.The problem relative to the RSA algorithm is to find two large primes 
+p and q. With 
+the Solovay and Strassen approach, you first guess a large candidate prime 
+p. You then 
+generate a random number r and compute gcd(
+p,r) and J(r, p). If either of these tests fails, 
+p was not a prime, and you stop the procedure. If both pass, the likelihood that 
+p 

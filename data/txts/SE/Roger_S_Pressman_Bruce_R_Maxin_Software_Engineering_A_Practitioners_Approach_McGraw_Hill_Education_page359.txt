@@ -1,0 +1,115 @@
+CHAPTER 15  
+USER INTERFACE DESIGN
+ 329 
+ 
+3  This example has been adapted from [Hac98]. 
+(and roles) are involved. Consider a company that intends to fully automate the process of prescribing and delivering prescription drugs. The entire process  3 
+ 
+ will 
+revolve around a Web-based application that is accessible by physicians (or their 
+
+assistants), pharmacists, and patients. Workﬂ
+ ow can be represented effectively 
+with a UML swimlane diagram (a variation on the activity diagram).  
+  We consider only a small part of the work process: the situation that occurs 
+when a patient asks for a reﬁ ll.  
+Figure 15.2  presents a swimlane diagram that 
+indicates the tasks and decisions for each of the three roles noted earlier. This 
+
+information may have been elicited via interview or from use cases written by 
+each actor. Regardless, the ﬂ
+ ow of events (shown in the ﬁ
+ gure) enables you to 
+recognize a number of key interface characteristics:   
+ 
+ 
+ 1.  Each user implements different tasks via the interface; therefore, the look and feel of the interface designed for the patient will be different than the 
+one deﬁ ned for pharmacists or physicians. 
+   
+ 
+ 2.  The interface design for pharmacists and physicians must accommodate access to and display of information from secondary information sources 
+(e.g., access to inventory for the pharmacist and access to information 
+about alternative medications for the physician).    
+ 
+ 3.  Many of the activities noted in the swimlane diagram can be further elab-orated using task analysis and/or object elaboration (e.g.,  Fills prescription
+ 
+ could imply a mail-order delivery, a visit to a pharmacy, or a visit to a spe-
+
+cial drug distribution center).  
+ 
+  
+ 
+ 
+Hierarchical Representation.   
+A process of elaboration occurs as you begin to analyze the interface. Once workﬂ ow has been established, a task hierarchy can 
+be deﬁ ned for each user type. The hierarchy is derived by a stepwise elaboration 
+of each task identiﬁ ed for the user. For example, consider the user task  
+requests 
+that a prescription be reﬁ
+ lled.
+ 
+ The following task hierarchy is developed: 
+ 
+ 
+Requests that a prescription be reﬁ
+ lled
+ 
+  
+ 
+ 
+•   
+Provide identifying information.
+ 
+  
+ 
+ 
+ 
+•   
+Specify name. 
+ 
+  
+ 
+ 
+•   
+Specify userid. 
+ 
+  
+ 
+ 
+•   
+Specify PIN and password.
+ 
+ 
+ 
+ 
+  
+ 
+ 
+•   
+Specify prescription number.
+ 
+ 
+  
+ 
+ 
+•   
+Specify date reﬁ
+ ll is required.
+ 
+ 
+ 
+ 
+  To complete the 
+ 
+ task, three subtasks are deﬁ ned. One of these subtasks,  
+provide 
+identifying information, 
+ is further elaborated in three additional sub-subtasks.  
+ uote:  “It is far better 
+to adapt the 
+technology to the 
+user than to force 
+the user to adapt 
+to the technology.” 
+ Larry Marine 
+pre22126_ch15_317-346.indd   329pre22126_ch15_317-346.indd   32913/12/13   10:01 PM13/12/13   10:01 PM

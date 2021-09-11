@@ -1,0 +1,116 @@
+727  
+ 
+ 
+ 
+ 
+ 
+ Software project management begins with a set of activities that are col-lectively called  project planning.
+ 
+ Before the project can begin, the soft-
+ware team should estimate the work to be done, the resources that will be required, and the time that will elapse from start to ﬁ nish. Once these ac-
+tivities are accomplished, the software team should establish a project sched-
+ule that deﬁ nes software engineering tasks and milestones, identiﬁ
+ es who is 
+responsible for conducting each task, and speciﬁ es the intertask dependen-
+cies that may have a strong bearing on progress.  In an excellent guide to “software project survival,” Steve McConnell [McC98] presents a real-world view of project planning:  
+Many technical workers would rather do technical work than spend time plan-ning. Many technical managers do not have sufﬁ cient training in technical man-
+agement to feel conﬁ dent that their planning will improve a project’s outcome. 
+Since neither party wants to do planning, it often doesn’t get done.  ESTIMATION
+ FOR SOFTWARE
+ PROJECTS   
+ 
+ 
+CHAPTER33  
+KEY CONCEPTS     estimation  
+    agile 
+
+development  . . 746  
+
+    decomposition 
+
+techniques  . . . . 734  
+
+    empirical 
+
+models. . . . . . . 743  
+
+    FP-based. . . . . 738  
+
+    make-buy  . . . . 748  
+
+    object-oriented 
+
+projects. . . . . . 746  
+
+    outsourcing  . . . 750  
+
+    problem-based 
+ . 735  
+    process-based  . 739  
+
+    reconciliation  . . 742  
+ QUICK LOOK   
+What is it?   A real need for software 
+has been established; stakeholders 
+
+are onboard, software engineers 
+
+are ready to start, and the project is 
+about to begin. But how do you proceed? Soft-
+ware project planning encompasses ﬁ ve major 
+activities—estimation, scheduling, risk analysis, 
+
+quality management planning, and change man-
+agement planning. In the context of this chapter, 
+
+we consider only estimation—your attempt to de-
+termine how much money, effort, resources, and 
+
+time it will take to build a speciﬁ c software-based 
+system or product. 
+  
+ 
+Who does it?   Software project managers—using information solicited from project stake-
+
+holders and software metrics data collected 
+from past projects.   
+ 
+Why is it important? 
+  Would you build a house 
+without knowing how much you were about to 
+spend, the tasks that you need to perform, and 
+
+the time line for the work to be conducted? Of 
+course not, and since most computer-based 
+
+systems and products cost considerably more 
+to build than a large house, it would seem reasonable to develop an estimate before you start creating the software. 
+  
+ 
+What are the steps?   Estimation begins with a description of the scope of the product. The 
+problem is then decomposed into a set of 
+smaller problems, and each of these is esti-
+mated using historical data and experience as 
+guides. Problem complexity and risk are con-
+sidered before a ﬁ nal estimate is made. 
+  
+ 
+What is the work product? 
+  A simple table delineating the tasks to be performed, the func-
+
+tions to be implemented, and the cost, effort, 
+
+and time involved for each is generated.   
+ 
+How do I ensure that I’ve done it right?   That’s hard, because you won’t really know 
+until the project has been completed. However, 
+
+if you have experience and follow a system-
+atic approach, generate estimates using solid 
+historical data, create estimation data points 
+using at least two different methods, establish 
+a realistic schedule, and continually adapt it 
+as the project moves forward, you can feel 
+
+conﬁ dent that you’ve given it your best shot. 
+ pre22126_ch33_727-753.indd   727pre22126_ch33_727-753.indd   72713/12/13   6:17 PM13/12/13   6:17 PM

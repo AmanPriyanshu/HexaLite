@@ -1,0 +1,64 @@
+ Section 9.2  Privacy Principles and Policies 
+607  Multiple identities can also be convenient; for example, you may have a profes-
+sional email account and a social one. Similarly, disposable identities (that you use for a 
+
+while and then stop using) can be convenient. When you sign up for something and you 
+
+know your email address will subsequently be sold many times, you might get a new 
+
+email address to use only until the unsolicited email becomes oppressive. Seigneur and 
+
+Jensen [SEI03] discuss the use of email aliases to maintain privacy. These uses, called 
+
+pseudonymity, protect our privacy because we do not have to divulge what we consider 
+sensitive data. 
+The Swiss bank account provides a classic example of pseudonymity. Each cus-
+tomer has only a number to identify and access the account, and only a few selected 
+
+bank employees are allowed to know your identity; all other employees see only your 
+
+account number. On account statements, no name appears: Only the account number 
+
+or a pseudonym is printed. “Only in case of a criminal investigation for drug offenses, 
+
+financing terrorism or another heavy crime, the identity of the beneficial owner will be 
+
+disclosed to the authorities . . . You are protected by Swiss bank secrecy law.” (http://
+
+swiss-banking-law.com/faq/)
+Some people register pseudonyms with email providers, so that they have anony-
+mous drop boxes for email. Others use pseudonyms in chat rooms or with online dat-
+
+ing services. We revisit the notion of pseudonyms later in this chapter, when we study 
+
+privacy for email.
+Governments and Privacy
+Governments gather and store data on citizens, residents, and visitors. At the same time, 
+
+governments also facilitate and regulate commerce and oversee personal activities such 
+
+as healthcare, employment, education, and banking. In those roles, the government is 
+
+an enabler or regulator of privacy as well as a user of private data. In this section, we 
+
+consider some of the implications of government access to private data.
+AuthenticationGovernment plays a complex role in personal authentication. Many government agen-
+cies (such as the motor vehicles bureau) use identifiers to perform their work: authen-
+
+ticating who you are (for instance, with a passport or residency document) and issuing 
+
+related authenticating documents (such as a driver’s license). The government may also 
+
+regulate the businesses that use identification and authentication materials. And some-
+
+times the government obtains data based on those materials from others (for example, 
+
+the government may buy credit report information from private companies to help with 
+
+screening airline passenger lists for terrorists). In these multiple roles, there is always a 
+
+potential for the government to misuse data and violate privacy rights.
+Data Access RisksRecognizing these risks in government access to personal data, the U.S. Secretary of 
+Defense appointed a committee to investigate and document the nature of risks in such 
+
+data collection. The Technology and Privacy Advisory Committee, chaired by Newton 

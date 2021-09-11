@@ -1,0 +1,39 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜The operational profile of a software system reflects how it will be used in practice. It consists of a specification of classes of input and the probability of their occur
+-
+rence. When a new software system replaces an existing automated system, it is 
+
+reasonably easy to assess the probable pattern of usage of the new software. It should 
+correspond to the existing usage, with some allowance made for the new functional-
+ity that is (presumably) included in the new software. For example, an operational 
+profile can be specified for telephone switching systems because telecommunication 
+companies know the call patterns that these systems have to handle.Typically, the operational profile is such that the inputs that have the highest 
+probability of being generated fall into a small number of classes, as shown on the 
+left of Figure 11.14. There are many classes where inputs are highly improbable but 
+not impossible. These are shown on the right of Figure 11.14. The ellipsis (. . .) 
+
+means that there are many more of these uncommon inputs than are shown.Musa (Musa 1998) discusses the development of operational profiles in tele-communication systems. As there is a long history of collecting usage data in that 
+
+domain, the process of operational profile development is relatively straightfor-
+ward. It simply reflects the historical usage data. For a system that required about 
+
+15  person-years of development effort, an operational profile was developed in 
+about 1 person-month. In other cases, operational profile generation took longer 
+
+(2Œ3  person-years), but the cost was spread over a number of system releases.When a software system is new and innovative, however, it is difficult to antici-pate how it will be used. Consequently, it is practically impossible to create an accu
+-rate operational profile. Many different users with different expectations, 
+
+backgrounds, and experience may use the new system. There is no historical usage 
+
+database. These users may make use of systems in ways that the system developers 
+
+did not anticipate.Developing an accurate operational profile is certainly possible for some types of system, such as telecommunication systems, that have a standardized pattern of use. 
+
+However, for other types of system, developing an accurate operational profile may 
+be difficult or impossible:1. A system may have many different users who each have their own ways of 
+using the system. As I explained earlier in this chapter, different users have 
+Reliability growth modelingA reliability growth model is a model of how the system reliability changes over time during the testing process. 
+As system failures are discovered, the underlying faults causing these failures are repaired so that the reliability 
+of the system should improve during system testing and debugging. To predict reliability, the conceptual reliabil-
+
+ity growth model must then be translated into a mathematical model.http://software-engineering-book.com/web/reliability-growth-modeling/

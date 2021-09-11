@@ -1,0 +1,53 @@
+770 Chapter 12  
+Details of Cryptography• Easily deduce the key to break one message, and perhaps subsequent ones.
+• Find weaknesses in the implementation or environment of use of encryption by 
+the sender.
+• Find general weaknesses in an encryption algorithm, without necessarily having 
+intercepted any messages.
+In addition to these attacks, one other approach is worth mentioning, although it 
+does not directly involve the encryption itself. An attacker can try to obtain data before 
+
+encryption or after decryption, for example, by tapping a communications line or modi-
+
+fying a program or the operating system. Although not a cryptographic technique, this 
+
+method does reinforce that an attacker must be expected to use any means to obtain the 
+
+desired data.Plaintext OnlyCode-breakers will use anything they can obtain. The most readily available input is the 
+ciphertext of a single message, but that may also be the hardest puzzle to solve. Ana-
+
+lysts look for patterns, similarities, and discontinuities, but with little data to analyze, 
+
+those signs are elusive. For this reason, code-breakers like to obtain large amounts of 
+
+data—many messages—encrypted alike, as can happen when a sender does not change 
+
+its encryption key often. 
+Plaintext and CiphertextEven better is to get a plaintext–ciphertext pair, because that find lets the analyst see 
+what transformations occurred. Full or Partial PlaintextThe analyst may be fortunate enough to have a sample message and its decipherment. 
+For example, a diplomatic service may have intercepted an encrypted message, sus-
+
+pected to be the text of an official statement. If the official statement (in plaintext) is 
+
+subsequently released, the interceptor has both C and P and need only deduce the E for which C  E(P) to find 
+D. In this case the analyst is attempting to find 
+E (or D) by using a known plaintext 
+attack.The analyst may have additional information, too. For example, the analyst may 
+know that the message was intercepted from a diplomatic exchange between Germany 
+
+and Austria. From that information, the analyst may guess that the words Bonn, Vienna, 
+
+and Chancellor appear in the message. Alternatively, the message may be a memoran-
+
+dum to the sales force from a corporate president, and the memo would have a particu-
+
+lar form (To: Sales Force, From: The President, Subject: Weekly Sales Update, Date: 
+
+nn/nn/nn).In these cases, the analyst can use what is called a probable plaintext 
+analysis. After doing part of the decryption, the analyst may find places where the known message fits 
+
+with the deciphered parts, thereby giving more clues about the total translation.
+Sometimes the analyst is lucky enough to obtain a copy of the encryption algorithm 
+or machine, a situation described in Sidebar 12-2. In this instance the analyst can gener-
+
+ate many messages, run them through the machine, and see the result.

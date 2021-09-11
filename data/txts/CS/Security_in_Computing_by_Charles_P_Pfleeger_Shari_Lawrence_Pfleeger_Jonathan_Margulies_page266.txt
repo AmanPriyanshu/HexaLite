@@ -1,0 +1,39 @@
+232In this chapter:• Attacks against browsers
+• Attacks against and from web sites
+
+• Attacks seeking sensitive data
+
+• Attacks through email
+In this chapter we move beyond the general programs of the previous chapter to 
+
+more specific code that supports user interaction with the Internet. Certainly, Inter-
+
+net code has all the potential problems of general programs, and you should keep 
+malicious code, buffer overflows, and trapdoors in mind as you read this chapter. How-
+
+ever, in this chapter we look more specifically at the kinds of security threats and vul-
+
+nerabilities that Internet access makes possible. Our focus here is on the user or client 
+
+side: harm that can come to an individual user interacting with Internet locations. Then, 
+
+in Chapter 6 we look at security networking issues largely outside the user’s realm or 
+
+control, problems such as interception of communications, replay attacks, and denial of 
+service.We begin this chapter by looking at browsers, the software most users perceive as 
+the gateway to the Internet. As you already know, a browser is software with a relatively 
+
+simple role: connect to a particular web address, fetch and display content from that 
+
+address, and transmit data from a user to that address. Security issues for browsers arise 
+
+from several complications to that simple description, such as these:
+• A browser often connects to more than the one address shown in the browser’s 
+address bar.
+• Fetching data can entail accesses to numerous locations to obtain pictures, audio 
+content, and other linked content.
+• Browser software can be malicious or can be corrupted to acquire malicious 
+functionality.
+• Popular browsers support add-ins, extra code to add new features to the browser, 
+but these add-ins themselves can include corrupting code.
+4The Web—User Side

@@ -1,0 +1,62 @@
+ Section 4.4  Email Attacks 
+273  The problem is legitimate mass marketers, who send thousands of messages on 
+behalf of hundreds of clients. Rate limitations have to allow and even promote com-
+
+merce, while curtailing spam; balancing those two needs is the hard part.
+Postage Certain private and public postal services were developed in city–states as much as two 
+
+thousand years ago, but the modern public postal service of industrialized countries is 
+
+a product of the 1700s. Originally the recipient, not the sender, paid the postage for a 
+
+letter, which predictably led to letter inundation attacks. The model changed in the early 
+
+1800s, making the sender responsible for prepaying the cost of delivery.
+A similar model could be used with email. A small fee could be charged for each 
+email message sent, payable through the sender’s ISP. ISPs could allow some free mes-
+
+sages per customer, set at a number high enough that few if any individual customers 
+
+would be subject to payment. The difficulty again would be legitimate mass mailers, but 
+
+the cost of e-postage would simply be a recognized cost of business.
+As you can see, the list of countermeasures is short and imperfect. The true challenge 
+is placating and supporting legitimate mass emailers while still curtailing the activities 
+
+of spammers.Fake (Inaccurate) Email Header DataAs we just described, one reason email attacks succeed is that the headers on email are 
+easy to spoof, and thus recipients believe the email has come from a safe source. Here 
+
+we consider precisely how the spoofing occurs and what could be done.
+Control of email headers is up to the sending mail agent. The header form is stan-
+dardized, but within the Internet email network as a message is forwarded to its destina-
+
+tion, each receiving node trusts the sending node to deliver accurate content. However, 
+
+a malicious, or even faulty, email transfer agent may send messages with inaccurate 
+
+headers, specifically in the “from” fields.
+The original email transfer system was based on a small number of trustworthy par-
+ticipants, and the system grew with little attention to accuracy as the system was opened 
+
+to less trustworthy participants. Proposals for more reliable email include authenticated 
+
+Simple Mail Transport Protocol (SMTP) or SMTP-Auth (RFC 2554) or Enhanced 
+
+SMTP (RFC 1869), but so many nodes, programs, and organizations are involved in the 
+
+Internet email system that it would be infeasible now to change the basic email transport 
+
+scheme.Without solid authentication, email sources are amazingly easy to spoof. Telnet is 
+a protocol that essentially allows a user at a keyboard to send commands as if pro-
+
+duced by an application program. The SMTP protocol, which is fully defined in RFC 
+
+5321, involves a number of text-based conversations between mail sender and receiver. 
+
+Because the entire protocol is implemented in plain text, a person at a keyboard can cre-
+
+ate one side of the conversation in interaction with a server application on the other end, 
+
+and the sender can present any message parameter value (including sender’s identity, 
+
+date, or time).

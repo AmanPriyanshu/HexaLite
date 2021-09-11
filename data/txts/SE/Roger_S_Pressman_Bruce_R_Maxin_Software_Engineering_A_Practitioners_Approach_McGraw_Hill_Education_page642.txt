@@ -1,0 +1,86 @@
+612 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+28.4.2   
+Certiﬁ cation 
+ 
+The veriﬁ cation and testing techniques discussed earlier in this chapter lead to 
+software components (and entire increments) that can be certiﬁ ed. Within the 
+context of the cleanroom software engineering approach,  certiﬁ cation
+ 
+ implies 
+that the reliability [measured by mean-time-to-failure (MTTF)] can be speciﬁ ed 
+for each component.  The potential impact of certiﬁ able software components goes far beyond a sin-
+gle cleanroom project. Reusable software components can be stored along with 
+their usage scenarios, program stimuli, and probability distributions. Each com-
+ponent would have a certiﬁ ed reliability under the usage scenario and testing 
+regime described. This information is invaluable to others who intend to use the 
+components.  The certiﬁ cation approach involves ﬁ
+ ve steps [Woh94]: (1) usage scenarios 
+must be created, (2) a usage proﬁ le is speciﬁ
+ ed, (3) test cases are generated from 
+the proﬁ le, (4) tests are executed and failure data are recorded and analyzed, 
+and (5) reliability is computed and certiﬁ ed. Steps 1 through 4 have been dis-
+cussed in a previous section. Certiﬁ cation for cleanroom software engineering 
+requires the creation of three models [Poo93]:  
+ 
+ 
+ 
+ 
+ 
+ 
+Sampling model. 
+ Software testing executes  
+m 
+ random test cases and is 
+certiﬁ ed if no failures or a speciﬁ
+ ed number of failures occur. The value of 
+ m 
+ is derived mathematically to ensure that required reliability is achieved. 
+   
+ 
+ 
+ 
+ 
+Component model. 
+ A system composed of  n 
+ components is to be certiﬁ ed. 
+The component model enables the analyst to determine the probability 
+that component  i 
+ will fail prior to completion.    
+ 
+ 
+ 
+ 
+ 
+Certiﬁ cation model.
+ 
+ The overall reliability of the system is projected and certiﬁ ed. 
+   
+ 
+ 
+ 
+ 
+At the completion of statistical use testing, the certiﬁ cation team has the infor-
+mation required to deliver software that has a certiﬁ ed MTTF computed using 
+each of these models. If you have further interest, see [Cur86], [Mus87], or [Poo93] 
+for additional detail.  
+    
+ 
+ 
+ 
+ 
+ 
+ 28.5  
+RETHINKING FORMAL METHODS    
+Most software engineers agree that it is difﬁ cult if not impossible to create fault-
+free software systems following a modeling, design, code, and test paradigm. 
+There are some systems that cannot be adequately tested before they are de-
+ployed (e.g., a robot operating on a remote planet under hostile environmental 
+conditions).  Formal methods provide a method for verifying that a critical system will oper-
+ate according to its speciﬁ cation. To do this software is treated as a mathematical 
+  How do 
+we certify a software 
+component?  ?pre22126_ch28_601-622.indd   612pre22126_ch28_601-622.indd   61213/12/13   6:15 PM13/12/13   6:15 PM

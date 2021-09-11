@@ -1,0 +1,93 @@
+CHAPTER 7  
+PRINCIPLES THAT GUIDE PRACTICE
+ 109can be divided into modules (components), but good software engineer-
+ing practice demands more. Modularity must be  effective 
+. That is, each module should focus exclusively on one well-constrained aspect of the 
+system—it should be cohesive in its function and/or constrained in the 
+content it represents. Additionally, modules should be interconnected in 
+
+a relatively simple manner—each module should exhibit low coupling to 
+other modules, to data sources, and to other environmental aspects.  
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Principle 6. 
+  Look for patterns.Look for patterns. 
+ Brad Appleton [App00] suggests that:   
+ 
+ 
+ 
+The goal of patterns within the software community is to create a body of  literature to help software developers resolve recurring problems encoun-tered throughout all of software development. Patterns help create a shared 
+language for communicating insight and experience about these problems and 
+their solutions. Formally codifying these solutions and their relationships lets 
+us successfully capture the body of knowledge which deﬁ nes our understand-
+ing of good architectures that meet the needs of their users.    
+  The use of design patterns can be applied to wider systems engineering and systems integration problems, by allowing components in complex 
+systems to evolve independently. 
+   
+ 
+ 
+ 
+ 
+ 
+Principle 7. 
+  When possible, represent the problem and its solution from When possible, represent the problem and its solution from 
+a number of different perspectives.a number of different perspectives.
+ 
+ When a problem and its solution are examined from a number of different perspectives, it is more likely that 
+greater insight will be achieved and that errors and omissions will be un-
+covered. For example, a requirements model can be represented using a 
+scenario-oriented viewpoint, a class-oriented viewpoint, or a behavioral 
+viewpoint (Chapters 9 through 11). Each provides a different perspective 
+of the problem and its requirements.    
+ 
+ 
+ 
+ 
+ 
+Principle 8. 
+  Remember that someone will maintain the software.Remember that someone will maintain the software.
+ 
+ Over the long term, software will be corrected as defects are uncovered, adapted as 
+its environment changes, and enhanced as stakeholders request more ca-
+pabilities. These maintenance activities can be facilitated if solid software 
+engineering practice is applied throughout the software process.  
+ 
+ 
+ 
+ 
+   
+These principles are not all you’ll need to build high-quality software, but they do establish a foundation for every software engineering method discussed 
+in this book.   
+ 
+ 
+ 
+ 7.3 P
+RINCIPLES THAT
+ GUIDE EACH FRAMEWORK ACTIVITY  
+ 
+In the sections that follow we consider principles that have a strong bearing on the success of each generic framework activity deﬁ ned as part of the soft-
+ware process. In many cases, the principles that are discussed for each of the    Avoid tunnel vision by 
+examining a problem 
+from a number of 
+different perspectives. 
+You discover aspects 
+
+that would haven been 
+hidden otherwise. 
+   Use patterns (Chap-
+
+
+knowledge and expe-
+rience for future gen-
+erations of software 
+engineers. pre22126_ch07_103-130.indd   109pre22126_ch07_103-130.indd   10913/12/13   6:11 PM13/12/13   6:11 PM

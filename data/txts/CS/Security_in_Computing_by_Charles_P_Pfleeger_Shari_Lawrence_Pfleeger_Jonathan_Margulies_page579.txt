@@ -1,0 +1,64 @@
+ Section 7.5  Data Mining and Big Data 
+545  Privacy-Preserving Analytics As we explain in Chapter 9, anonymization is an important method to balance privacy 
+
+concerns with functional objectives. Researchers want to know, for example, if smok-
+
+ing correlates with lung cancer. To learn that, researchers need a population containing 
+
+smokers and nonsmokers, along with their lung cancer status. Who the subjects are is 
+
+immaterial. In theory, a large body of case histories makes it infeasible to connect a 
+
+subject with an actual identity. In that sense, big data should improve privacy by vastly 
+
+increasing the pool of subjects, thereby increasing the number of subjects and identities.Alas, big data also contributes to the problem because it provides more data that 
+might identify particular individuals: More data terms reduce the number of persons 
+
+matching all attributes. Who is the cancer patient living on Maple Street, aged 55, in a 
+
+household with two dogs, subscrib-
+
+ing to Bicycling magazine, who 
+makes frequent telephone calls to 
+
+Rio de Janeiro?As described earlier in this chapter, adding noise and removing identifying data can 
+help preserve privacy. Noise might include false data: one cat and no dogs, for example; 
+
+removing the age might also make it harder to infer the person’s identity from the data. 
+
+Still, as we show in Chapter 9, approaches that restrict data are incomplete solutions.
+Granular Access Control Big data often uses unstructured datasets, flat, two-dimensional tables. Access control, 
+
+if any, is imposed at the file level: The entire file is or is not accessible to a user. Such 
+
+an approach fits neatly with big data architectures like Hadoop, in which entire files are 
+
+replicated and analyzed by a collection of DataNodes working in parallel.
+As first raised in Chapter 2 and reinforced throughout the rest of this book, fine-
+grained access control helps promote security (and privacy) by allowing least privilege: 
+
+A process can access only those objects or the specific data consistent with security 
+
+policy and necessary for the task at hand.
+SecuritySecurity of data is the second major challenge of big data architectures. Reconsider the C–I–A triad from Chapter 1. Confidentiality is closely related to privacy, but there are 
+
+other confidentiality concerns. Big data often involves big money: Data collectors pay 
+
+to harvest data that they then sell. A data harvester reaps continuing profits by collect-
+
+ing data once and selling it many times to different buyers. Search companies such as 
+
+Google collect data from users’ search terms (such as “hotel San Francisco”) which they 
+
+might then sell to Hilton, Marriott, and Sheraton, as well as airlines, restaurants, tour 
+companies, and so on. If Google sells data to Hilton and Hilton then resells it to Mar-
+
+riott and the others, Google loses out on the subsequent revenue stream. Thus, Google 
+
+wants to control the confidentiality of its proprietary data. Integrity of data—that it is 
+
+correct and intact—matters, as does ensuring availability of the data. Thus, all three ele-
+
+ments of the triad matter for big data.Here we list some of the security issues of big data.Inference works on big data just as it 
+
+does in databases.

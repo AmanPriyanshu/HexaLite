@@ -1,0 +1,71 @@
+480 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+•   
+The quality of the end product is improved.
+ 
+ Because the approach is 
+construction (integration) oriented, smoke testing is likely to uncover 
+
+functional errors as well as architectural and component-level design 
+
+errors. If these errors are corrected early, better product quality will 
+
+result. 
+  
+ 
+ 
+•   
+Error diagnosis and correction are simpliﬁ
+ ed.
+ 
+ Like all integration testing approaches, errors uncovered during smoke testing are likely to be asso-
+ciated with “new software increments”—that is, the software that has just 
+been added to the build(s) is a probable cause of a newly discovered error. 
+  
+ 
+ 
+•   
+Progress is easier to assess.
+ 
+ With each passing day, more of the software 
+has been integrated and more has been demonstrated to work. This im-
+proves team morale and gives managers a good indication that progress is 
+being made.  
+ 
+  
+ 
+ 
+Integration Test Work Products.   
+An overall plan for integration of the software and a description of speciﬁ c tests is documented in a  
+Test Speciﬁ
+ cation.
+ 
+ This 
+work product incorporates a test plan and a test procedure and becomes part of 
+the software conﬁ guration. Testing is divided into phases and builds that address 
+speciﬁ c functional and behavioral characteristics of the software. For example, 
+integration testing for the  SafeHome 
+ security system might be divided into the 
+following test phases: user interaction, sensor processing, communications func-
+tions, and alarm processing.  Each of integration test phase delineates a broad functional category within the software and generally can be related to a speciﬁ c domain within the soft-
+ware architecture. Therefore, program builds (groups of modules) are created to 
+correspond to each phase.  A schedule for integration, the development of overhead software, and re-lated topics are also discussed as part of the test plan. Start and end dates for 
+each phase are established and “availability windows” for unit-tested modules 
+are deﬁ ned. A brief description of overhead software (stubs and drivers) con-
+centrates on characteristics that might require special effort. Finally, test envi-
+
+ronment and resources are described. Unusual hardware conﬁ gurations, exotic 
+simulators, and special test tools or techniques are a few of many topics that may 
+also be discussed.  The detailed testing procedure that is required to accomplish the test plan is described next. The order of integration and corresponding tests at each inte-
+gration step are described. A listing of all test cases (annotated for subsequent 
+reference) and expected results are also included.  A history of actual test results, problems, or peculiarities is recorded in a  Test 
+Report 
+ that can be appended to the  
+Test Speciﬁ
+ cation,
+ 
+ if desired. Information 
+contained in this section can be vital during software maintenance. Appropriate 
+references and appendixes are also presented. pre22126_ch22_466-495.indd   480pre22126_ch22_466-495.indd   48013/12/13   6:14 PM13/12/13   6:14 PM

@@ -1,0 +1,39 @@
+˜˜˚˝˜˜˜
+˜˜
+and improved to avoid program degradation. Of course, the code of the repair may be reused if possible. However, an alternative, better solution to the problem may be 
+discovered when more time is available for analysis.Agile methods and processes, discussed in Chapter 3, may be used for program evolution as well as program development. Because these methods are based on 
+
+incremental development, making the transition from agile development to postde
+-
+livery evolution should be seamless.However, problems may arise during the handover from a development team to a separate team responsible for system evolution. There are two potentially problem-
+atic situations:1. Where the development team has used an agile approach but the evolution team 
+prefers a plan-based approach. The evolution team may expect detailed docu-
+mentation to support evolution, and this is rarely produced in agile processes. 
+
+There may be no definitive statement of the system requirements that can be 
+
+modified as changes are made to the system.2. Where a plan-based approach has been used for development but the evolution 
+
+team prefers to use agile methods. In this case, the evolution team may have to 
+start from scratch developing automated tests. The code in the system may not 
+have been refactored and simplified, as is expected in agile development. In this 
+case, some program reengineering may be required to improve the code before 
+it can be used in an agile development process.Agile techniques such as test-driven development and automated regression test-ing are useful when system changes are made. System changes may be expressed as 
+user stories, and customer involvement can help prioritize changes that are required 
+in an operational system. The Scrum approach of focusing on a backlog of work to 
+be done can help prioritize the most important system changes. In short, evolution 
+simply involves continuing the agile development process.Agile methods used in development may, however, have to be modified when 
+they are used for program maintenance and evolution. It may be practically impossible 
+
+to involve users in the development team as change proposals come from a wide 
+
+range of stakeholders. Short development cycles may have to be interrupted to deal 
+with emergency repairs, and the gap between releases may have to be lengthened to 
+avoid disrupting operational processes.
+Large companies started computerizing their operations in the 1960s, so for the past 50 
+
+years or so, more and more software systems have been introduced. Many of these 
+ systems have been replaced (sometimes several times) as the business has changed and 
+
+evolved. However, a lot of old systems are still in use and play a critical part in the run-
+ning of the business. These older software systems are sometimes called legacy systems.

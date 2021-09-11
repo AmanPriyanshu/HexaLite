@@ -1,0 +1,62 @@
+208 PART TWO  
+MODELINGwithin the application domain that can be reused when performing requirements modeling for an application within a domain.  4   Analysis patterns are stored in a 
+repository so that members of the software team can use search facilities to ﬁ nd 
+and reuse them. Once an appropriate pattern is selected, it is integrated into the 
+requirements model by reference to the pattern name.   
+ 
+11.4.1  Discovering Analysis Patterns 
+ 
+The requirements model comprises a wide variety of elements: scenario-based (use cases), class-based (objects and classes), and behavioral (events 
+
+and states). Each of these elements represents the problem from a different 
+
+perspective, and each provides an opportunity to discover patterns that may 
+
+occur throughout an application domain, or by analogy, across different appli-
+
+cation domains. 
+ The most basic element in the description of a requirements model is the use case. In the context of this discussion, a coherent set of use cases may serve 
+as the basis for discovering one or more  
+ analysis patterns. A  
+semantic analysis pattern 
+ (SAP) “is a pattern that describes a small set of coherent use cases that 
+together describe a basic generic application” [Fer00].  Consider the following preliminary use case for software required to control and monitor a real-view camera and proximity sensor for an automobile:  
+Use case:   
+   
+Description:  When the vehicle is placed in  
+reverse
+ 
+ gear, the control software enables 
+a video feed from a rear-placed video camera to the dashboard display. The control 
+
+software superimposes a variety of distance and orientation lines on the dashboard 
+display so that the vehicle operator can maintain orientation as the vehicle moves in 
+reverse. The control software also monitors a proximity sensor to determine whether 
+an object is inside 10 feet of the rear of the vehicle. It will automatically brake the 
+vehicle if the proximity sensor indicates an object within  x 
+ feet of the rear of the 
+vehicle, where  x 
+ is determined based on the speed of the vehicle.  
+  
+This use case implies a variety of functionality that would be reﬁ ned and 
+elaborated (into a coherent set of use cases) during requirements gathering 
+
+and modeling. Regardless of how much elaboration is accomplished, the use 
+
+cases suggest a simple, yet widely applicable SAP—the software-based moni-
+toring and control of sensors and actuators in a physical system. In this case, 
+
+the “sensors” provide information about proximity and video information. The 
+
+“actuator” is the braking system of the vehicle (invoked if an object is close 
+
+to the vehicle). But in a more general case, a widely applicable pattern is 
+
+discovered. 
+ 
+ 
+ 
+  
+ 
+4  An in-depth discussion of the use of patterns during software design is presented in Chapter 16. 
+pre22126_ch11_202-223.indd   208pre22126_ch11_202-223.indd   20813/12/13   6:12 PM13/12/13   6:12 PM

@@ -1,0 +1,93 @@
+CHAPTER 38  
+EMERGING TRENDS IN SOFTWARE ENGINEERING
+ 849ﬂ exibility, lower cost, and an end to predatory vendor lock-in.” The term  
+open 
+source,
+ 
+ when applied to computer software, implies that software engineering 
+work products (models, source code, test suites) are open to the public and 
+
+can be reviewed and extended (with controls) by anyone with interest and 
+
+permission. 
+ 
+   
+If you have further interest, Weber [Web05] provides a worthwhile introduc-
+tion, Feller and his colleagues [Fel07] have edited a comprehensive and objective 
+anthology that considers the beneﬁ ts and problems associated with open source, 
+and Brown [Bro12] provides a more technical discussion.   
+ 
+ 
+ 
+ 
+ 38.5  
+TECHNOLOGY DIRECTIONS  
+ 
+We always seem to think that software engineering will change more rapidly 
+than it does. A new “hyped” technology (it could be a new process, a unique 
+method, or an exciting tool) is introduced, and pundits suggest that “everything” 
+will change. But software engineering is about far more than technology—it’s 
+
+about people and their ability to communicate their needs and innovate to make 
+those needs a reality. Whenever people are involved, change occurs slowly in ﬁ
+ ts 
+and starts. It’s only when a “tipping point” [Gla02] is reached that a technology 
+
+cascades across the software engineering community and broad-based change 
+truly does occur. 
+ In this section we’ll examine a few trends in process, methods, and tools that are likely to have some inﬂ uence on software engineering over the next decade. 
+Will they lead to a tipping point? We’ll just have to wait and see. 
+  
+ 
+38.5.1   
+Process Trends 
+ 
+  
+ 
+It can be argued that all of the business, organizational, and cultural trends dis-cussed in Section 38.4 reinforce the need for process. But do the frameworks 
+discussed in Chapter 37 provide a road map into the future? Will process frame-
+
+works evolve to ﬁ nd a better balance between discipline and creativity? Will the 
+software process adapt to the differing needs of stakeholders who procure soft-
+ware, those who build it, and those who use it? Can it provide a means for reduc-
+ing risk for all three constituencies at the same time?  These and many other questions remain open. In the paragraphs that follow, 
+we have adapted six ideas proposed by Conradi and Fuggetta [Con02] to suggest 
+possible process trends.   
+ 
+ 
+ 
+ 
+ 1.
+   
+As SPI frameworks evolve, they will emphasize “strategies that focus on goal orientation and product innovation”
+ 
+ [Con02]. In the fast-paced world of software development, long-term SPI strategies rarely survive in a dy-
+namic business environment. Too much changes too quickly. This means 
+
+that a stable, step-by-step road map for SPI may have to be replaced with   
+ uote:  “But what is it 
+good for?”  Engineer at 
+the Advanced 
+Computing 
+Systems Division 
+of IBM, 1968, 
+commenting on 
+the microchip 
+  
+ uote:  “The proper artistic 
+response to digital 
+technology is to 
+embrace it as a 
+new window on 
+everything that’s 
+
+eternally human, 
+and to use it with 
+passion, wisdom, 
+fearlessness and 
+joy.” 
+ Ralph 
+Lombreglia  What 
+process trends are likely 
+over the next 
+decade? ?pre22126_ch38_839-859.indd   849pre22126_ch38_839-859.indd   84913/12/13   6:17 PM13/12/13   6:17 PM

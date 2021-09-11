@@ -1,0 +1,72 @@
+ Section 6.3  Wireless Network Security 
+395  At one point the supplicant (client) is required to authenticate to the access point, but 
+the supplicant has no basis for assurance that the access point is legitimate, that is, that 
+
+a malicious party is not sending signals pretending to be an access point. Thus, the sup-
+
+plicant can be forced to reveal authentication data to an unauthorized third party.
+Recall our discussion in Chapter 3 of the importance of mutual suspicion in pro-grams: Each routine needs to suspect that all other routines with which it interacts might 
+be faulty or hostile. The posited attack shows an example of failing to exercise mutual 
+
+suspicion.Exhaustive Key Search A known limitation of cryptography is that the entire space of possible cryptographic 
+
+keys can be searched to find the correct one. The countermeasure to this attack is to use 
+
+a long key, so that the number of keys required to be searched is prohibitive. The 56-bit 
+
+DES key has been shown vulnerable to an adversary with significant computing power, 
+
+and a panel of cryptographers in 1996 [BLA96] advised that keys be of 100 bits or more 
+
+for high security. This advice depends on the key being truly random; as with using 
+
+aaaaaa as a password, using any predictable pattern number weakens the key. Because 
+key selection is so critical, the key management of WPA has come under scrutiny. WPA 
+
+uses a 256-bit base key, which seems long enough to be secure.
+To establish a shared key between the access point and the device, the administrator 
+has to enter a very large number correctly twice, once for the access point and once for 
+
+the device. To simplify the entry of a large number, many WPA implementations allow 
+
+a passphrase, a string of characters, which are then converted to a number. Moskowitz 
+
+[MOS03] observes that people tend not to choose character strings completely at ran-
+
+dom, and thus guessing attacks with popular strings succeed faster than full exhaustive 
+
+searches. Moskowitz notes, however, that the algorithm by which WPA converts a pass-
+
+phrase into an encryption key is (computer) time consuming, which reduces the ability 
+
+of an attacker to test a large number of potential passphrases as keys.
+A similar attack depends on people’s having chosen short passphrases, because an 
+exhaustive attack will progress in an orderly manner through all one-character potential 
+
+passphrases, then two characters, and so forth.
+Finally, in 2008, researchers Martin Beck and Erik Tews [BEC08] presented an 
+attack against a feature of WEP that was carried over into WPA (but not WPA2). The 
+
+attack undermines the integrity of encrypted content. We have already described the 
+
+insecurity of the RC4 algorithm used by WEP, applying either a 40- or 104-bit key, and 
+
+the Tews–Beck attack finds another weakness there. The researchers also attack WPA 
+
+with their technique, which they call chopchop because they chop out and replace one 
+
+byte of a block and see the change in the block’s integrity. By repeatedly chopping 
+
+and substituting, they infer the integrity key. The attack undermines the original WPA 
+
+because it uses an integrity mechanism called TKIP (Temporal Key Integrity Protocol) 
+
+designed to be compatible with WEP. The sophisticated attack is most effective against 
+
+short data blocks of which the attacker knows some of the underlying plaintext data; 
+
+the result of the attack enables the attacker to substitute some packets with other data 
+
+without being detected. Ohigashi and Morii [OHI09] improved upon the technique by 
+
+making it faster.

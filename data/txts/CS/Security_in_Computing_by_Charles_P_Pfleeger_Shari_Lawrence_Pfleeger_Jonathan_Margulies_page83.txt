@@ -1,0 +1,68 @@
+ Section 2.1  Authentication 
+49  change seems small, the effect is large when someone is testing a full space 
+of all possible combinations of characters. It takes about 100 hours to test all  
+
+6-letter words chosen from letters of one case only, but it takes about 2 years 
+
+to test all 6-symbol passwords from upper- and lowercase letters and digits. 
+
+Although 100 hours is reasonable, 2 years is oppressive enough to make this 
+
+attack far less attractive.
+• Choose long passwords. 
+The combinatorial explosion of password guessing dif-
+ficulty begins around length 4 or 5. Choosing longer passwords makes it less 
+
+likely that a password will be uncovered. Remember that a brute force penetra-
+
+tion can stop as soon as the password is found. Some penetrators will try the 
+
+easy cases—known words and short passwords—and move on to another target 
+
+if those attacks fail.
+• Avoid actual names or words. 
+Theoretically, there are 26
+6, or about 300 million 6-letter “words” (meaning any combination of letters), but there are only about 
+SIDEBAR 2-3  
+Will the Real Earl of Buckingham Please Step Forward?
+A man claiming to be the Earl of Buckingham was identified as Charlie Stop-ford, a man who had disappeared from his family in Florida in 1983 and 
+
+assumed the identity of Christopher Buckingham, an 8-month-old baby who 
+
+died in 1963. Questioned in England in 2005 after a check of passport details 
+
+revealed the connection to the deceased Buckingham baby, Stopford was 
+
+arrested when he didn’t know other correlating family details [PAN06]. (His 
+
+occupation at the time of his arrest? Computer security consultant.) 
+The British authorities knew he was not Christopher Buckingham, but what was his real identity? The answer was discovered only because his 
+
+family in the United States thought it recognized him from photos and a 
+
+news story: Stopford was a husband and father who had disappeared more 
+
+than 20 years earlier. Because he had been in the U.S. Navy (in military 
+
+intelligence, no less) and his adult fingerprints were on file, authorities were 
+
+able to make a positive identification.As for the title he appropriated for himself, there has been no Earl of 
+Buckingham since 1687.In modern society we are accustomed to a full paper trail document-
+ing events from birth through death, but not everybody fits neatly into that 
+
+model. Consider the case of certain people who for various reasons need 
+
+to change their identity. When the government changes someone’s identity 
+
+(for example, when a witness goes into hiding), the new identity includes 
+school records, addresses, employment records, and so forth. 
+How can we authenticate the identity of war refugees whose home 
+country may no longer exist, let alone civil government and a records 
+
+office? What should we do to authenticate children born into nomadic tribes 
+
+that keep no formal birth records? How does an adult confirm an identity 
+
+after fleeing a hostile territory without waiting at the passport office for two 
+
+weeks for a document?

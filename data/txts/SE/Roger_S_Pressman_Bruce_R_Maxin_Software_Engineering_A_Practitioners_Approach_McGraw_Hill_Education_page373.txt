@@ -1,0 +1,38 @@
+CHAPTER 15  
+USER INTERFACE DESIGN
+ 343(e.g., 80 percent of all users did not like the mechanism for saving data ﬁ les). 
+Design modiﬁ cations are made based on user input, and the next level prototype 
+is created. The evaluation cycle continues until no further modiﬁ cations to the 
+interface design are necessary. 
+ 
+ 
+ 
+ 
+ 
+   
+The prototyping approach is effective, but is it possible to evaluate the qual-ity of a user interface before a prototype is built?  9 
+ 
+ If you identify and correct 
+ potential problems early, the number of loops through the evaluation cycle will 
+be reduced and development time will shorten. If a design model of the interface 
+has been created, a number of evaluation criteria [Mor81] can be applied during 
+early design reviews:   
+ 
+ 1.  The length and complexity of the requirements model or written speciﬁ -cation of the system and its interface provide an indication of the amount 
+of learning required by users of the system.     
+ 2.  The number of user tasks speciﬁ ed and the average number of actions per 
+task provide an indication of interaction time and the overall efﬁ ciency of 
+the system.     
+ 3.  The number of actions, tasks, and system states indicated by the design model imply the memory load on users of the system.  List of user objectivesObjective #1Objective #2
+Objective #3
+Objective #4
+Objective #5Objective #nNavigationmenuMenu barmajor functionsGraphic, logo, and company nameGraphicHome page text copy FIGURE 15.4 
+The  interface 
+design 
+ evaluation cycle  
+9  Some software engineers prefer to develop a low-ﬁ
+ delity mockup of the user interface (UI) 
+called a paper prototype to allow stakeholder to test the UI concept before committing any 
+programming resources. The process is described here http://www.paperprototyping.com/
+
+what_examples.html pre22126_ch15_317-346.indd   343pre22126_ch15_317-346.indd   34313/12/13   10:01 PM13/12/13   10:01 PM

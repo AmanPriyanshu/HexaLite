@@ -1,0 +1,111 @@
+280 PART TWO  
+MODELINGtechnical difﬁ culties, deadline pressures) cause deviations from a deﬁ
+ ned ar-
+architecture is not checked for conformance periodically, uncon-
+
+trolled deviations can cause  architecture erosion
+ 
+ and affect the quality of the 
+system [Pas10]. 
+  
+ 
+ 
+ 
+ 
+ 
+Static architecture-conformance analysis
+ 
+ (SACA) assesses whether an imple-
+mented software system is consistent with its architectural model. The formalism 
+(e.g., UML) used to model the system architecture presents the static organiza-
+tion of system components and how the components interact. Often the architec-
+tural model is used by a project manager to plan and allocate work tasks, as well 
+as to assess implementation progress.  WebRef 
+ A discussion of the role 
+of architecture in agile 
+software processes 
+  http://msdn.
+
+microsoft.
+com/enus/ 
+architecture/
+ff476940.aspx   
+  
+Architectural-Conformance Tools 
+ 
+ 
+Lattix Dependency Manager 
+ (  
+http://www.lattix.com/ 
+ 
+). This tool includes a simple language to declare design rules that the 
+implementation must follow, detects violations in 
+
+design rules, and visually represents them as a 
+dependency-structure matrix.   
+Source Code Query Languages
+ 
+ (  
+http://www.
+semmle.com/  
+). This tool can be used to automate software development tasks such deﬁ ning and 
+checking architectural constraints and makes use of a Prolog-like to deﬁ ne recursive queries on the 
+inheritance hierarchy of object-oriented systems.   
+Reﬂ exion Models 
+ ( http://www.iese.fraunhofer.de/
+en/competencies/architecture/tools_architecture.
+html#contentPar_textblockwithpics ). The SAVE tool can 
+be used to allow software engineers to build a high-
+level model that captures the architecture of a system 
+
+and then deﬁ ne the relations between this model and 
+the source code. SAVE will then identify missing or 
+
+erroneous relations between the model and the code. 
+  
+SOFTWARE
+ TOOLS  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 13.11 A
+GILITY AND ARCHITECTURE  
+ 
+In the view of some proponents of agile development, architectural design is equated with “big design upfront.” In their view, this leads to unnecessary docu-
+
+mentation and the implementation of unnecessary features. However, most agile 
+
+developers do agree [Fal10] that it is important to focus on software architecture 
+when a system is complex (i.e., when a product has a large number of require-
+ments, many stakeholders, or wide geographic distribution). For this reason, 
+there is a need to integrate new architectural design practices into agile process 
+models.  In order to make early architectural decisions and avoid the rework required and/or the quality problems encountered required when the wrong architecture 
+is chosen, agile developers should anticipate architectural elements  18 
+ 
+ and struc-
+ture based on an emerging collection of user stories ( Chapter 5 ). By creating an  
+ 
+18  An excellent discussion of architectural agility can be found in [Bro10a]. 
+ 
+WebRef 
+ An overview of archi-
+tecture conformance 
+
+checking appears at 
+  http://www.cin.
+ufpe.br/~fcf3/
+Arquitetura%20
+de%20Software/
+arquitetura/
+getPDF3.pdf   
+pre22126_ch13_252-284.indd   280pre22126_ch13_252-284.indd   28013/12/13   6:12 PM13/12/13   6:12 PM

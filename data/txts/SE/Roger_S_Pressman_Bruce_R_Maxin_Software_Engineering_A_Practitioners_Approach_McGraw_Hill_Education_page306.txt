@@ -1,0 +1,186 @@
+276 PART TWO  
+MODELINGthe remaining architectures may be modiﬁ ed and represented in more detail, 
+and then the ATAM steps are reapplied. 
+ 10  
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10  The  
+software architecture analysis method
+ 
+ (SAAM) is an alternative to ATAM and is well worth 
+examining by those readers interested in architectural analysis. A paper on SAAM can be 
+downloaded from  www.sei.cmu.edu/publications/articles/saam-metho-propert-sas.html 
+.  
+ 
+Architecture Assessment  
+ 
+Architecture Assessment 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The scene:  Doug Miller’s ofﬁ
+ ce 
+as architectural design modeling proceeds.    
+ 
+ 
+ 
+ 
+ 
+The players:  Vinod, Jamie, and Ed—members of the 
+ SafeHome 
+ software engineering team and Doug Miller, 
+manager of the software engineering group.    
+ 
+ 
+ 
+ 
+ 
+The conversation:  
+   
+ 
+ 
+ 
+ 
+ 
+Doug:  I know you guys are deriving a couple of differ-
+ent architectures for the  SafeHome  product, and that’s a 
+good thing. I guess my question is, how are we going 
+to choose the one that’s best? 
+   
+ 
+ 
+ 
+ 
+ 
+Ed:  I’m working on a call and return style and then ei-
+ther Jamie or I are going to derive an OO architecture.    
+ 
+ 
+ 
+ 
+ 
+Doug:  Okay, and how do we choose? 
+   
+ 
+ 
+ 
+ 
+ 
+Jamie:  I took a CS course in design in my senior year, 
+and I remember that there are a number of ways to do it. 
+   
+ 
+ 
+ 
+ 
+ 
+Vinod:  There are, but they’re a bit academic. Look, I 
+think we can do our assessment and choose the right 
+one using use cases and scenarios.    
+ 
+ 
+ 
+ 
+ 
+Doug:  Isn’t that the same thing? 
+   
+ 
+ 
+ 
+ 
+ 
+Vinod:  Not when you’re talking about architectural 
+assessment. We already have a complete set of use 
+
+cases. So we apply each to both architectures and see how the system reacts, how components and connectors work in the use case context.    
+ 
+ 
+ 
+ 
+ 
+Ed:  That’s a good idea. Make sure we didn’t leave 
+anything out.    
+ 
+ 
+ 
+ 
+ 
+Vinod:  True, but it also tells us whether the architec-
+tural design is convoluted, whether the system has to 
+twist itself into a pretzel to get the job done.    
+ 
+ 
+ 
+ 
+ 
+Jamie:  Aren’t scenarios just another name for use 
+cases?    
+ 
+ 
+ 
+ 
+ 
+Vinod:  No, in this case a scenario implies something 
+different.    
+ 
+ 
+ 
+ 
+ 
+Doug:  You’re talking about a quality scenario or a 
+change scenario, right?    
+ 
+ 
+ 
+ 
+ 
+Vinod:  Yes. What we do is go back to the stakehold-
+ers and ask them how  
+SafeHome  is likely to change over the next, say, three years. You know, new versions, 
+
+features, that sort of thing. We build a set of change 
+
+scenarios. We also develop a set of quality scenarios 
+
+that deﬁ ne the attributes we’d like to see in the software 
+architecture.    
+ 
+ 
+ 
+ 
+ 
+Jamie:  And we apply them to the alternatives. 
+   
+ 
+ 
+ 
+ 
+ 
+Vinod:  Exactly. The style that handles the use cases 
+and scenarios best is the one we choose.  
+ 
+  
+SAFEHOME  
+ 
+ 
+13.7.1  Architectural Description Languages 
+ 
+ 
+Architectural description language
+ 
+ (ADL) provides a semantics and syntax for 
+describing a software architecture. Hofmann and his colleagues [Hof01] suggest 
+that an ADL should provide the designer with the ability to decompose archi-
+tectural components, compose individual components into larger architectural 
+blocks, and represent interfaces (connection mechanisms) between components. 
+Once descriptive, language-based techniques for architectural design have been pre22126_ch13_252-284.indd   276pre22126_ch13_252-284.indd   27613/12/13   6:12 PM13/12/13   6:12 PM

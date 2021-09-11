@@ -1,0 +1,60 @@
+ Section 4.2  Web Attacks Targeting Users 
+247  The case of computer artifacts is similar. An incoherent message, a web page riddled 
+with grammatical errors, or a peculiar political position can all alert you that something 
+is suspicious, but a well-crafted forgery may pass without question. The falsehoods that 
+
+follow include both obvious and subtle forgeries.
+Defaced Web Site 
+The simplest attack, a website defacement, occurs when an attacker replaces or modi-
+fies the content of a legitimate web site. For example, in January 2010, BBC reported 
+
+that the web site of the incoming president of the European Union was defaced to present 
+
+a picture of British comic actor Rowan Atkinson (Mr. Bean) instead of the president. 
+The nature of these attacks varies. Often the attacker just writes a message like “You 
+have been had” over the web-page content to prove that the site has been hacked. In 
+
+other cases, the attacker posts a message opposing the message of the original web site, 
+
+such as an animal rights group protesting mistreatment of animals at the site of a dog-
+racing group. Other changes are more subtle. For example, recent political attacks have 
+
+subtly replaced the content of a candidate’s own site to imply falsely that a candidate 
+
+had said or done something unpopular. Or using website modification as a first step, the 
+
+attacker can redirect a link on the page to a malicious location, for example, to present a 
+
+fake login box and obtain the victim’s login ID and password. All these attacks attempt 
+
+to defeat the integrity of the web page.
+The objectives of website defacements also vary. Sometimes the goal is just to 
+prove a point or embarrass the victim. Some attackers seek to make a political or ideo-
+
+logical statement, whereas others seek only attention or respect. In some cases the 
+
+attacker is showing a point, proving that it was possible to defeat integrity. Sites such 
+
+as those of the New York Times
+, the U.S. Defense Department or FBI, and political 
+parties were frequently targeted this way. Sidebar 4-5 describes defacing an antivirus 
+
+firm’s web site.
+SIDEBAR 4-5 Antivirus Maker’s Web Site Hit
+Website modifications are hardly new. But when a security firm’s web site is 
+attacked, people take notice. For several hours on 17 October 2010, visi-
+
+tors to a download site of security research and antivirus product company 
+
+Kaspersky were redirected to sites serving fake antivirus software. 
+After discovering the redirection, Kaspersky took the affected server 
+offline, blaming the incident on “a faulty third-party application.” [
+ITPro, 
+19 October 2010]Bank robber Willy Sutton is reported to have said when asked why he 
+robbed banks, “That’s where the money is.” What better way to hide mali-
+
+cious code than by co-opting the web site of a firm whose customers are 
+
+ready to install software, thinking they are protecting themselves against 
+
+malicious code?

@@ -1,0 +1,49 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜
+˜ˇ
+˜employees of the customer company and the equipment prices that have been 
+agreed to with that company.
+2. The catalog shall allow a customer employee to download a version of the catalog 
+
+for offline browsing.
+3. The catalog shall allow users to compare the specifications and prices of up to 
+
+six catalog items.4. The catalog shall provide browsing and search facilities for users.
+5. Users of the catalog shall be able to discover the predicted delivery date for a 
+
+given number of specific catalog items.
+6.
+ Users of the catalog shall be able to place ﬁvirtual ordersﬂ where the items 
+
+required will be reserved for them for 48 hours. Virtual orders must be con
+-
+firmed by a real order placed by a procurement system. The real order must be 
+
+received within 48 hours of the virtual order.
+In addition to these functional requirements, the catalog has a number of non-functional requirements:1.
+ Access to the catalog service shall be restricted to employees of accredited 
+organizations.
+2.
+ The prices and configurations offered to each customer shall be confidential, 
+
+and access to these shall only be provided to employees of that customer.
+3. The catalog shall be available without disruption of service from 0700 GMT to 
+
+1100 GMT.
+4. The catalog service shall be able to process up to 100 requests per second peak load.
+There is no non-functional requirement related to the response time of the catalog service. This depends on the size of the catalog and the expected number of simulta
+-
+neous users. As this is not a time-critical service, there is no need to specify the 
+
+required performance at this stage.˜˚˛
+Once you have identified candidate services, the next stage in the service engineer
+-ing process is to design the service interfaces. This involves defining the operations 
+
+associated with the service and their parameters. If SOAP-based services are used, 
+
+you have to design the input and output messages. If RESTful services are used, you 
+
+have to think about the resources required and how the standard operations should be 
+
+used to implement the service operations.The starting point for service interface design is abstract interface design. where 
+you identify the entities and the operations associated with the service, their inputs and 

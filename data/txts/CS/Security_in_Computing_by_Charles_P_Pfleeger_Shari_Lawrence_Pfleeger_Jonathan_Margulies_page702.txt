@@ -1,0 +1,63 @@
+668 Chapter 10  
+Management and Incidents10.4 RISK ANALYSIS
+Next we turn to a management activity at the heart of security planning. 
+Risk analysis is an organized process for identifying the most significant risks in a computing envi-
+
+ronment, determining the impact of those risks, and weighing the desirability of apply-
+ing various controls against those risks.
+Good, effective security planning includes a careful risk analysis. A 
+risk is a poten-
+tial problem that the system or its users may experience. We distinguish a risk from 
+
+other project events by looking for three things, as suggested by Rook [ROO93]:
+• A loss associated with an event
+. The event must generate a negative effect: com-
+promised security, lost time, diminished quality, lost money, lost control, lost 
+
+understanding, and so on. This loss is called the 
+risk impact.• The likelihood that the event will occur
+. The probability of occurrence associ-
+ated with each risk is measured from 0 (impossible) to 1 (certain). When the risk 
+
+probability is 1, we say we have a problem.
+• The degree to which we can change the outcome
+. We must determine what, if 
+anything, we can do to avoid the impact or at least reduce its effects. 
+Risk control
+ involves a set of actions to 
+
+reduce or eliminate the risk. 
+Many of the security controls 
+
+we describe in this book are 
+examples of risk control.
+SIDEBAR 10-3 Continuedhad created an extra account being charged against Stoll’s projects, but 
+the monthly bill was not being delivered to Stoll (or to anyone else, because 
+
+the account had no billing address). Coincidentally, Stoll received a report 
+
+that someone from his site had been breaking into military computers, but 
+
+he didn’t initially connect these two data points.
+Stoll removed the unauthorized account but found that the attacker 
+remained, having acquired system administrator privileges. Thinking the 
+
+attacker was a student at a nearby university, Stoll and his colleagues 
+
+wanted to catch the attacker in the act. They soon found the flaw the 
+
+attacker exploited but decided to keep the culprit engaged so they could 
+investigate his actions, using an elaborate masquerade in which Stoll con-
+trolled everything the attacker could see and do [STO88, STO89]. Stoll’s 
+
+trap was one of the first examples of a honeypot (introduced in Chapter 5).
+After months of activity Stoll and authorities identified the attacker as a German agent named Markus Hess, recruited by the Soviet KGB. German 
+
+authorities arrested Hess, who was convicted of espionage and sentenced 
+
+to one to three years in prison.
+Accounting records that did not balance—off by just $0.75—led to 
+investigation and conviction of an international spy. When you begin to 
+
+investigate an incident, you seldom know what its scope will be.Risk control is a set of actions to reduce 
+or manage risk.

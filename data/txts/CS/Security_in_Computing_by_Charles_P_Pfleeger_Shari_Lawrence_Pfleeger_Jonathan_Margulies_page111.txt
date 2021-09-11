@@ -1,0 +1,45 @@
+ Section 2.2  Access Control 
+77  request to delete the right of B to access F, because that action involves deleting one 
+entry from a specific directory. But if A wants to remove the rights of everyone to 
+
+access F, the operating system must search each individual directory for the entry F, 
+
+an activity that can be time consuming on a large system. For example, large systems 
+
+or networks of smaller systems can easily have 5,000 to 10,000 active accounts. More-
+
+over, B may have passed the access right for F to another user C, a situation known as 
+
+propagation of access rights
+, so A may not know that C’s access exists and should be 
+revoked. This problem is particularly serious in a network.
+A third difficulty involves pseudonyms. Owners A and B may have two different 
+files named F, and they may both want to allow access by S. Clearly, the directory for 
+
+S cannot contain two entries under the same name for different files. Therefore, S has 
+
+to be able to uniquely identify the F for A (or B). One approach is to include the origi-
+
+nal owner’s designation as if it were part of the file name, with a notation such as A:F 
+
+(or B:F).Suppose, however, that S would like to use a name other than F to make the file’s 
+contents more apparent. The system could allow S to name F with any name unique to 
+
+the directory of S. Then, F from A could be called Q to S. As shown in Figure 2-10, S 
+
+may have forgotten that Q is F from A, and so S requests access again from A for F. But 
+
+by now A may have more trust in S, so A transfers F with greater rights than before. 
+FIGURE 2-9 Directory Access Rights
+PROG1.C
+PROG1.EXE
+BIBLIOGHELP.TXT
+TEMPORW
+ORW
+ORW
+OXRBIBLIOGTEST.TMP
+PRIVATE
+HELP.TXT
+RORW
+OXRFile NameFile NameAccessRightsAccessRightsFilePointerFilePointerUser A Directory
+User B DirectoryFiles

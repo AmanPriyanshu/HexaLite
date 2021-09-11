@@ -1,0 +1,130 @@
+814 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+A cost-beneﬁ t analysis model for reengineering has been proposed by Sneed 
+[Sne95]. Nine parameters are deﬁ ned: 
+  
+ 
+ 
+ 
+ 
+P 
+ 1 
+ 5 Current annual maintenance cost for an application    
+ 
+ 
+ 
+P 
+ 2 
+ 5 Current annual operations cost for an application    
+ 
+ 
+ 
+P 
+ 3  
+5 Current annual business value of an application    
+ 
+ 
+ 
+P 
+ 4 
+ 5 Predicted annual maintenance cost after reengineering    
+ 
+ 
+ 
+P 
+ 5 
+ 5 Predicted annual operations cost after reengineering    
+ 
+ 
+ 
+P 
+ 6 
+ 5 Predicted annual business value after reengineering    
+ 
+ 
+ 
+P 
+ 7 
+ 5 Estimated reengineering costs    
+ 
+ 
+ 
+P 
+ 8 
+ 5 Estimated reengineering calendar time    
+ 
+ 
+ 
+P 
+ 9 
+ 5 Reengineering risk factor ( P 
+ 9 
+ 5 1.0 is nominal)    
+ 
+ 
+ 
+L 
+  5  Expected life of the system  
+ 
+  The cost associated with continuing maintenance of a candidate application (i.e., reengineering is not performed) can be deﬁ ned as 
+  
+ 
+C 
+ maint 
+ 5 [ P 
+ 3 
+ 2 ( P 
+ 1 
+ 1  P 
+ 2 
+)] 3 L (36.1) 
+ 
+  The costs associated with reengineering are deﬁ ned using the following 
+relationship:  
+ 
+C 
+ reeng 
+ 5  P 
+ 6 
+ 2 ( P 
+ 4 
+ 1  P 
+ 5 
+) 3 ( L 
+ 2  P 
+ 8 
+) 2 ( P 
+ 7 
+ 3  P 
+ 9 
+) (36.2)  
+  Using the costs presented in Equations (36.1) and (36.2), the overall beneﬁ t of re-
+engineering can be computed as   
+Cost beneﬁ t 
+5  C 
+ reeng  
+2  C 
+ maint 
+ (36.3) 
+ 
+  The cost-beneﬁ t analysis presented in these equations can be performed for all 
+high-priority applications identiﬁ ed during inventory analysis (Section 36.4.2). 
+Those applications that show the highest cost-beneﬁ t can be targeted for reengi-
+neering, while work on others can be postponed until resources are available.   
+ 
+ 
+ 
+ 
+ 36.10 S
+UMMARY  
+Software maintenance and support are ongoing activities that occur throughout the life cycle of an application. During these activities, defects are corrected, 
+applications are adapted to a changing operational or business environment, en-
+hancements are implemented at the request of stakeholders, and users are sup-
+ported as they integrate an application into their personal or business workﬂ ow. 
+ Reengineering occurs at two different levels of abstraction. At the business level, reengineering focuses on the business process with the intent of making 
+changes to improve competitiveness in some area of the business. At the soft-
+ware level, reengineering examines information systems and applications with 
+the intent of restructuring or reconstructing them so that they exhibit higher 
+quality. 
+pre22126_ch36_795-816.indd   814pre22126_ch36_795-816.indd   81413/12/13   6:17 PM13/12/13   6:17 PM

@@ -1,0 +1,54 @@
+354 PART TWO  
+MODELING 
+ 
+ 
+ 
+ 
+ 
+ 16.2  
+PATTERN
+-BASED SOFTWARE
+ DESIGN  
+ 
+The best designers in any ﬁ eld have an uncanny ability to see patterns that char-
+acterize a problem and corresponding patterns that can be combined to create 
+a solution. Throughout the design process, you should look for every opportunity 
+to apply existing design patterns (when they meet the needs of the design) rather 
+than creating new ones.   
+16.2.1  Pattern-Based Design in Context 
+ 
+Pattern-based design is not used in a vacuum. The concepts and techniques discussed for architectural, component-level, and user interface design (Chap-
+ In Chapter 12, we noted that a set of quality guidelines and attributes serve as the basis for all software design decisions. The decisions themselves are in-
+ﬂ uenced by a set of fundamental design concepts (e.g., separation of concerns, 
+stepwise reﬁ nement, functional independence) that are achieved using heuris-
+tics that have evolved over many decades, and best practices (e.g., techniques, 
+modeling notation) that have been proposed to make design easier to perform 
+and more effective as a basis for construction.  The role of pattern-based design in all of this is illustrated in  Figure 16.1 . A software designer begins with a requirements model (either explicit or implied) 
+that presents an abstract representation of the system. The requirements model 
+describes the problem set, establishes the context, and identiﬁ es the system of 
+forces that hold sway. It may imply the design in an abstract manner, but the re-
+
+quirements model does little to represent the design explicitly. 
+ 
+ 
+ 
+ 
+  As you begin your work as a designer, it’s always important to keep quality at-
+tributes (Chapter 12) in mind. These attributes establish a way to assess software 
+quality but do little to help you actually achieve it. Therefore, you should apply 
+proven techniques for translating the abstractions contained in the require-
+ments model into a more concrete form that is the software design. To accom-
+
+plish this, you’ll use the methods and modeling tools available for architectural, 
+component-level, and interface design. But only when you’re faced with a prob-
+lem, context, and system of forces that have not been solved before. If a solution 
+already exists, use it! And that means applying a pattern-based design approach.   
+ 
+16.2.2  Thinking in Patterns 
+ 
+Pattern-based design implies with a “new way of thinking” [Sha05] that begins by considering context—the big picture. As context is evaluated, you extract a hier-
+
+archy of problems that must be solved. Some of these problems will be global in 
+nature, while others will address speciﬁ c features and functions of the software. 
+All will be affected by a system of forces that will inﬂ uence the nature of the solu-
+tion that is proposed. pre22126_ch16_347-370.indd   354pre22126_ch16_347-370.indd   35416/12/13   6:22 PM16/12/13   6:22 PM

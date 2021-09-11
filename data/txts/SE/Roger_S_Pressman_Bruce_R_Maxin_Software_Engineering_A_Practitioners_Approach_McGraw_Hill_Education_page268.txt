@@ -1,0 +1,87 @@
+238 PART TWO  
+MODELINGis applicable for all functions that are available to registered  SafeHome 
+ users. As 
+design reﬁ nement occurs,  
+A* 
+ is a design representation for requirement  
+A 
+ and 
+ B* 
+ is a design representation for requirement  
+B 
+. Therefore,  A* 
+ and  
+B* 
+ are repre-
+sentations of concerns, and  B* crosscuts A*
+ 
+.  An  aspect 
+ is a representation of a crosscutting concern. Therefore, the design 
+representation,  B* 
+, of the requirement  a registered user must be validated prior 
+to using 
+  www.safehomeassured.com,
+ 
+ is an aspect of the  
+SafeHome 
+ WebApp. It 
+is important to identify aspects so that the design can properly accommodate 
+them as reﬁ nement and modularization occur. In an ideal context, an aspect is 
+implemented as a separate module (component) rather than as software frag-
+ments that are “scattered” or “tangled” throughout many components [Ban06a]. 
+To accomplish this, the design architecture should support a mechanism for de-
+
+ﬁ ning an aspect—a module that enables the concern to be implemented across 
+all other concerns that it crosscuts.   
+ 
+ 
+ 
+ 
+12.3.10 Refactoring  
+  
+An important design activity suggested for many agile methods (Chapter 5),  re-
+factoring 
+ is a reorganization technique that simpliﬁ
+ es the design (or code) of a 
+component without changing its function or behavior. Fowler [Fow00] deﬁ
+ nes re-
+factoring in the following manner: “Refactoring is the process of changing a soft-
+ware system in such a way that it does not alter the external behavior of the code 
+[design] yet improves its internal structure.”   
+When software is refactored, the existing design is examined for redundancy, 
+unused design elements, inefﬁ cient or unnecessary algorithms, poorly con-
+structed or inappropriate data structures, or any other design failure that can 
+be corrected to yield a better design. For example, a ﬁ rst design iteration might 
+yield a component that exhibits low cohesion (i.e., it performs three functions 
+that have only limited relationship to one another). After careful consideration, 
+you may decide that the component should be refactored into three separate 
+components, each exhibiting high cohesion. The result will be software that is 
+easier to integrate, easier to test, and easier to maintain.  Although the intent of refactoring is to modify the code in a manner that does not alter its external behavior, inadvertent side effects can and do occur. As a 
+
+consequence, refactoring tools [Soa10] are used to analyze changes automati-
+cally and to “generate a test suite suitable for detecting behavioral changes.”   
+ 
+ 
+ 
+ 
+12.3.11 Object-Oriented Design Concepts 
+ 
+  
+The object-oriented (OO) paradigm is widely used in modern software engineer-
+ing. Appendix 2 has been provided for those readers who may be unfamiliar with 
+OO design concepts such as classes and objects, inheritance, messages, and 
+polymorphism, among others.  WebRef 
+ Excellent resources 
+for refactoring can 
+be found at   
+www . refactoring.com.   
+ 
+WebRef 
+ A variety of refactoring 
+patterns can be found 
+
+at   
+http://c2.com/cgi/wiki?
+Refactoring
+Patterns.   
+pre22126_ch12_224-251.indd   238pre22126_ch12_224-251.indd   23813/12/13   6:12 PM13/12/13   6:12 PM

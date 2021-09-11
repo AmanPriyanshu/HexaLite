@@ -1,0 +1,41 @@
+˜˜˚˛˝˜˜˜˜˜˜
+3. Design a system so that diverse types of barriers are included. This means that the ﬁholesﬂ will probably be in different places, and so there is less chance of the 
+holes lining up and failing to trap an error.4.
+ Minimize the number of latent conditions in a system. Effectively, this means 
+
+reducing the number and size of system ﬁholes.ﬂ However, this may significantly 
+
+increase systems engineering costs. Reducing the number of bugs in the system 
+
+increases testing and V & V costs. Therefore, this option may not be cost-effective.
+In designing a system, you need to consider all of these options and make choices about what might be the most cost-effective ways to improve the system™s defenses. 
+If you are building custom software, then using software checking to increase the 
+
+number and diversity of layers may be the best option. However, if you are using 
+
+off-the-shelf software, then you may have to consider how sociotechnical defenses 
+
+may be added. You may decide to change training procedures to reduce the chances 
+of problems occurring and to make it easier to deal with incidents when they arise.˘˘All software systems have associated operational processes that reflect the assump-
+tions of the designers about how these systems will be used. Some software systems, 
+particularly those that control or are interfaced to special equipment, have trained 
+
+operators who are an intrinsic part of the control system. Decisions are made during 
+the design stage about which functions should be part of the technical system and 
+
+which functions should be the operator™s responsibility. For example, in an imaging 
+system in a hospital, the operator may have the responsibility of checking the quality 
+of the images immediately after they have been processed. This check allows the 
+
+imaging procedure to be repeated if there is a problem.Operational processes are the processes that are involved in using the system for its defined purpose. For example, operators of an air traffic control system follow 
+
+specific processes when aircraft enter and leave airspace, when they have to change 
+height or speed, when an emergency occurs, and so on. For new systems, these oper-
+ational processes have to be defined and documented during the system develop-
+ment process. Operators may have to be trained and other work processes adapted to 
+make effective use of the new system.System failure
+Active failure(Human error)Latent conditions in defensive layersFigure 14.6
+ Reason™s 
+Swiss cheese model of 
+
+system failure 

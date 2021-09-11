@@ -1,0 +1,48 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜that an account has been compromised and that the user accessing the records is not actually the authorized user. To limit the damage, the user™s access rights should be 
+
+removed and a check then made with the authorized user to see if the accesses were 
+actually illegal. However, the security procedures limiting the rights of system man-
+agers to change users™ permissions make this impossible.Resilience planning should take such situations into account. One way of doing so is to include an ﬁemergencyﬂ mode in systems where normal checks are ignored. 
+
+Rather than forbidding operations, the system logs what has been done and who was 
+responsible. Therefore, the audit trail of emergency actions can be used to check that 
+a system manager™s actions were justified. Of course, there is scope for misuse here, 
+and the existence of an emergency mode is itself a potential vulnerability. Therefore, 
+organizations have to trade off possible losses against the benefits of adding more 
+
+features to a system to support resilience.
+Fundamentally, resilience engineering is a sociotechnical rather than a technical 
+
+activity. As I explained in Chapter 10, a sociotechnical system includes hardware, software, and people and is influenced by the culture, policies, and procedures of the 
+organization that owns and uses the system. To design a resilient system, you have to 
+think about sociotechnical systems design and not exclusively focus on software. 
+
+Resilience engineering is concerned with adverse external events that can lead to 
+
+system failure. Dealing with these events is often easier and more effective in the 
+broader sociotechnical system.For example, the Mentcare system maintains confidential patient data, and a possible 
+external cyberattack may aim to steal that data. Technical safeguards such as authentica-tion and encryption may be used to protect the data, but these are not effective if an 
+
+attacker has access to the credentials of a genuine system user. You could try to solve 
+
+this problem at the technical level by using more complex authentication procedures. 
+
+However, these procedures annoy users and may lead to vulnerabilities as they write 
+
+down authentication information. A better strategy may be to introduce organizational 
+
+policies and procedures that emphasize the importance of not sharing login credentials 
+
+and that tell users about easy ways to create and maintain strong passwords.Resilient systems are flexible and adaptable so that they can cope with the unex-pected. It is very difficult to create software that can adapt to cope with problems 
+that have not been anticipated. However, as we saw from the Apollo 13 accident, 
+
+people are very good at this. Therefore, to achieve resilience, you should take advan-
+tage of the fact that people are an inherent part of sociotechnical systems. Rather 
+
+than try to anticipate and deal with all problems in software, you should leave some 
+types of problem solving to the people responsible for operating and managing the 
+software system.To understand why you should leave some types of problem solving to people, 
+you have to consider the hierarchy of sociotechnical systems that includes technical, 
+
+software-intensive systems. Figure 14.3 shows that technical systems S1 and S2 are 

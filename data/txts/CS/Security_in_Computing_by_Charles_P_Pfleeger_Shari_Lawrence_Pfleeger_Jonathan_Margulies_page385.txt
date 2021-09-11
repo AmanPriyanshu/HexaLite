@@ -1,0 +1,64 @@
+ Section 6.1  Network Concepts 
+351  from the actual medium of communication. Independence is possible because we have 
+defined 
+protocols
+ that allow a user to view the network at a high, abstract level of com-
+munication (viewing it in terms of user and data); the details of 
+how the communication 
+is accomplished are hidden within software and hardware at both ends. The software 
+
+and hardware enable us to implement a network according to a 
+protocol stack
+, a lay-ered architecture for communications; we described the OSI protocol model earlier in 
+this chapter. Each layer in the stack is much like a language for communicating infor-
+
+mation relevant at that layer.
+A protocol is a language or set of conventions for how two computers will interact. A 
+simple protocol accomplishes email transfer. Essentially the sender’s computer contacts 
+
+the recipient’s and says “I have email for your user Dmitri.” The receiving computer 
+
+replies to accept the transfer, the sender sends it and then sends a completion notifica-
+
+tion to indicate the end of the transfer. Of course, this overview omits critical details.
+Addressing
+But how does the sender contact the receiver? Suppose your message is addressed to 
+yourfriend@somewhere.net. This notation means that “somewhere.net” is the name of 
+
+a destination host (or more accurately, a destination network). At the network layer, 
+
+a hardware device called a 
+router
+ actually sends the message from your network to 
+a router on the network somewhere.net. The network layer adds two headers to show 
+
+your computer’s address as the source and somewhere.net’s address as the destination. 
+
+Logically, your message is prepared to move from your machine to your router to your 
+
+friend’s router to your friend’s computer. (In fact, between the two routers there may be 
+
+many other routers in a path through the networks from you to your friend.) Together, 
+
+the network layer structure with 
+
+destination address, source address, 
+and data is called a packet
+. The 
+basic network layer protocol trans-
+
+formation is shown in Figure 6-5.
+The message must travel from your computer to your router. Every computer con-
+nected to a network has a 
+network interface card (NIC) 
+with a unique physical address, 
+called a MAC address
+ (for Media Access Control). At the data-link level, two more head-
+ers are added, one for your computer’s NIC address (the source MAC) and one for your 
+
+router’s NIC address. A data-link layer structure with destination MAC, source MAC, and 
+Packet: Smallest individually addressable 
+
+data unit transmittedFIGURE 6-5 Network Layer Transformation
+MessageTransport
+LayerNetwork LayerMessageSourceAddressDestinationAddress

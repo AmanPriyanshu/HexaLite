@@ -1,0 +1,147 @@
+488 PART THREE  
+QUALITY MANAGEMENTspecialized installation software (e.g., “installers”) that will be used by customers, 
+and all documentation that will be used to introduce the software to end users. 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ uote:  “As soon as 
+we started 
+
+programming, 
+
+we found to our 
+
+surprise that it 
+
+wasn't as easy to 
+
+get programs right 
+
+as we had thought. 
+
+Debugging had to 
+
+be discovered. I 
+
+can remember the 
+
+exact instant when 
+
+I realized that a 
+
+large part of my life 
+
+from then on was 
+
+going to be spent in 
+
+ﬁ nding mistakes in 
+
+my own programs.” 
+ Maurice Wilkes, 
+discovers 
+debugging, 1949 
+  
+Test Planning and Management 
+ 
+ Objective: 
+ These tools assist a software team 
+in planning the testing strategy that is chosen 
+and managing the testing process as it is conducted. 
+  Mechanics: 
+ Tools in this category address test 
+planning, test storage, management and control, 
+requirements traceability, integration, error tracking, 
+
+and report generation. Project managers use them to 
+
+supplement project scheduling tools. Testers use these 
+
+tools to plan testing activities and to control the ﬂ ow of 
+information as the testing process proceeds. 
+  
+Representative Tools: 
+ 
+ 
+5 
+  
+   
+QaTraq Test Case Management Tool,
+ 
+ developed by Traq Software ( 
+ 
+www.testmanagement.
+com 
+ 
+), “encourages a structured approach to test management.”   
+QAComplete, 
+ developed by SmartBear ( 
+http://smartbear.com/products/qa-tools/test-management 
+), provides a single point of control for managing all 
+phases of the agile testing process.   
+TestWorks,
+ 
+ developed by Software Research ( http://www.testworks.com/ 
+), contains a fully integrated suite of testing tools including tools for test 
+management and reporting. 
+  
+OpensourceTesting.org
+ 
+ (  
+www.opensourcetesting.
+org/testmgt.php
+ 
+ 
+) lists a variety of open-source test management and planning tools.   
+OpensourceTestManagement.com
+ 
+ (  
+http://www.
+opensourcetestmanagement.com/ 
+ 
+) lists a variety of open-source test management and planning 
+tools.   SOFTWARE
+ TOOLS  
+ 
+5  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+  
+6  In making the statement, we take the broadest possible view of testing. Not only does the devel-
+oper test software prior to release, but the customer/user tests the software every time it is used! 
+  
+ 
+ 
+ 
+ 
+ 22.9  
+THE ART OF DEBUGGING  
+ 
+Software testing is a process that can be systematically planned and speciﬁ ed. 
+Test-case design can be conducted, a strategy can be deﬁ
+ ned, and results can be 
+evaluated against prescribed expectations.   
+Debugging 
+ occurs as a consequence of successful testing. That is, when a test 
+case uncovers an error, debugging is the process that results in the removal of 
+
+the error. Although debugging can and should be an orderly process, it is still 
+
+very much an art. As a software engineer, you are often confronted with a “symp-
+
+tomatic” indication of a software problem as you evaluate the results of a test. 
+That is, the external manifestation of the error and its internal cause may have 
+no obvious relationship to one another. The poorly understood mental process 
+
+that connects a symptom to a cause is debugging.   
+ 
+22.9.1   
+The Debugging Process 
+ 
+Debugging is not testing but often occurs as a consequence of testing.  6 
+ 
+ Referring to  Figure 22.7 , the debugging process begins with the execution of a test case. pre22126_ch22_466-495.indd   488pre22126_ch22_466-495.indd   48813/12/13   6:14 PM13/12/13   6:14 PM

@@ -1,0 +1,31 @@
+ Section 6.8  Intrusion Detection and Prevention Systems 
+475  Intrusion detection systems complement these preventive controls as the next line 
+of defense. An intrusion detection system (IDS) is a device, typically another sepa-
+
+rate computer, that monitors activity to identify malicious or suspicious events. Richard 
+
+Kemmerer and Giovanni Vigna [KEM02] recount the history of IDSs. An IDS is a sen-
+
+sor, like a smoke detector, that raises an alarm if specific things occur.
+As with smoke alarms, detecting danger necessitates action. Whether the response is 
+calling the fire department, activating a sprinkler system, sounding an evacuation alarm, 
+
+or alerting the control team (or all of these) depends on what advance plans have been 
+
+made to handle the incident. IDSs likewise have a response function. In many cases the 
+
+response is to alert a human team that will then decide what further action is warranted. 
+
+Sometimes, however, the IDS goes into protection mode to isolate a suspected intruder 
+
+and constrain access. Such a system is called an Intrusion Protection System (IPS). We 
+
+describe both IDS and IPS technology in this section.A model of an IDS is shown in Figure 6-64. The components in the figure are the 
+four basic elements of an intrusion detection system, based on the Common Intrusion 
+Detection Framework of [STA96]. An IDS receives raw inputs from sensors. It saves 
+
+those inputs, analyzes them, and takes some controlling action.
+IDSs perform a variety of functions:
+• monitoring users and system activity
+• auditing system configuration for vulnerabilities and misconfigurations
+FIGURE 6-64 Model of an Intrusion Detection SystemRaw event source(E)Events(S)Storage(C)CountermeasuresReactions toeventsHigh-levelinterpreted eventsRaw or low-levelevent data(A)Analysis

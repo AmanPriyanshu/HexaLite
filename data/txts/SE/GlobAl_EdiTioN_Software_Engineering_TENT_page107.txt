@@ -1,0 +1,50 @@
+˜˜˚˛˜˜˜
+˜˜˜˜
+A medical staff member specifying a search requirement may expect ﬁsearchﬂ to 
+mean that, given a patient name, the system looks for that name in all appointments at all 
+clinics. However, this is not explicit in the requirement. System developers may interpret 
+
+the requirement so that it is easier to implement. Their search function may require the 
+
+user to choose a clinic and then carry out the search of the patients who attended that 
+
+clinic. This involves more user input and so takes longer to complete the search.Ideally, the functional requirements specification of a system should be both 
+complete and consistent. Completeness means that all services and information 
+
+required by the user should be defined. Consistency means that requirements should 
+not be contradictory.In practice, it is only possible to achieve requirements consistency and complete
+-ness for very small software systems. One reason is that it is easy to make mistakes 
+and omissions when writing specifications for large, complex systems. Another rea-
+son is that large systems have many stakeholders, with different backgrounds and 
+
+expectations. Stakeholders are likely to have differentŠand often inconsistentŠ
+needs. These inconsistencies may not be obvious when the requirements are origi-
+nally specified, and the inconsistent requirements may only be discovered after 
+
+deeper analysis or during system development.
+
+Non-functional requirements, as the name suggests, are requirements that are not 
+
+directly concerned with the specific services delivered by the system to its users. 
+
+These non-functional requirements usually specify or constrain characteristics of the 
+system as a whole. They may relate to emergent system properties such as reliability, 
+response time, and memory use. Alternatively, they may define constraints on the 
+system implementation, such as the capabilities of I/O devices or the data represen-
+tations used in interfaces with other systems.Non-functional requirements are often more critical than individual functional 
+requirements. System users can usually find ways to work around a system function 
+that doesn™t really meet their needs. However, failing to meet a non-functional 
+
+requirement can mean that the whole system is unusable. For example, if an aircraft 
+system does not meet its reliability requirements, it will not be certified as safe for 
+operation; if an embedded control system fails to meet its performance requirements, 
+the control functions will not operate correctly.While it is often possible to identify which system components implement spe-cific functional requirements (e.g., there may be formatting components that imple-
+ment reporting requirements), this is often more difficult with non-functional 
+
+requirements. The implementation of these requirements may be spread throughout 
+the system, for two reasons:1.
+ Non-functional requirements may affect the overall architecture of a system 
+rather than the individual components. For example, to ensure that performance 
+requirements are met in an embedded system, you may have to organize the 
+
+system to minimize communications between components.

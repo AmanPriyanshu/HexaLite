@@ -1,0 +1,44 @@
+408 PART TWO  
+MODELING 
+The most important architectural design decision is often whether to build a thin or fat client. The model-view-controller (MVC) architecture (Chapter 17) is 
+commonly used in MobileApps.. Because the MobileApp architecture may have 
+a strong inﬂ uence on navigation, the decisions made during this design action 
+will inﬂ uence work conducted during navigation design. The architectural de-
+sign must take device resources in to account (storage, processor speed, and 
+network connectivity). The design should include provisions for discoverable 
+services and movable devices.  Usability testing and deployment testing take place during each prototype de-velopment cycle. Code reviews that focus on security issues should be included 
+as part of the implementation activities. These code reviews should be based on 
+the appropriate security objectives and threats identiﬁ ed in the system design 
+activities. Security testing is a routine part of system testing (Chapter 22).   
+ 
+ 
+ 
+ 
+ 18.7 S
+UMMARY  
+The quality of a MobileApp—deﬁ ned in terms of functionality, reliability, usabil-
+ity, efﬁ
+ ciency, security, maintainability, scalability, and portability—is introduced 
+during design. A good MobileApp should be based on the following design goals: 
+simplicity, ubiquity, personalization, ﬂ
+ exibility, and localization. 
+ Interface design describes the structure and organization of the user inter-
+face and includes a representation of screen layout, a deﬁ nition of the modes 
+of interaction, and a description of navigation mechanisms. In addition, the in-
+terface for a good MobileApp will promote the brand signature and focus on its 
+targeted device platform(s). A set of core user stories is used to trim unnecessary 
+features from the app to manage its resources requirements. Context-aware de-
+vices make use of discoverable services to help personalize the user experience.  Content design is critically important and takes the screen and other limita-tions of mobile devices into account. Aesthetic design, also called graphic de-
+sign, describes the “look and feel” of the MobileApp and includes color schemes; 
+graphic layout; the use of graphics; and related aesthetic decisions. Aesthetic 
+design must also take device limitations into account.  Architecture design identiﬁ es the overall hypermedia structure for the Mo-
+bileApp and encompasses both content architecture and MobileApp architec-
+ture. It is critical to determine how much of the MobileApp functionality will 
+reside on the mobile device and how much will be provided by Web or cloud 
+
+services.  Navigation design represents the navigational ﬂ ow between content objects 
+and for all MobileApp functions. Navigation syntax is deﬁ ned by the widgets 
+available on the targeted mobile device(s) and the semantics are often deter-
+
+mined by the mobile platform. Content chunking must take intermittent service 
+interruptions into account and user demands for fast performance. pre22126_ch18_391-410.indd   408pre22126_ch18_391-410.indd   40816/12/13   6:23 PM16/12/13   6:23 PM

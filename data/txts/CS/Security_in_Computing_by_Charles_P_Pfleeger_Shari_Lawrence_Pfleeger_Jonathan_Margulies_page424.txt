@@ -1,0 +1,72 @@
+390 Chapter 6  
+NetworksAn interested attacker can test for all 16 million possible initialization vectors in a 
+few hours, and weaknesses such as unchanging (so-called weak) initialization vectors 
+
+reduce the number of tests even further, thus speeding up the search.
+Faulty Integrity Check As if encryption problems were not enough, WEP was not designed for strong integrity. 
+
+As you already know, wireless communications are subject to data loss and interfer-
+
+ence. Thus, the protocol designers included a check value to demonstrate whether a 
+
+frame arrived intact or some bits had been lost or accidentally changed in transmission. 
+
+The receiver recomputes the check value and if it does not match, signals a transmission 
+
+error and asks for another copy to be sent.
+The integrity check uses a well-known algorithm. If a malicious attacker wants to 
+change part of a communication, the attacker simply changes the data, computes a new 
+
+integrity check value, and replaces the original check with the new one. Thus, when the 
+
+frame arrives, the new check value will match the modified data, and the receiver will 
+
+not be aware the data value has been modified maliciously.
+No Authentication A final flaw in the WEP protocol is that it has no authentication. Any device that can 
+
+name the correct SSID and present the correct MAC address is assumed to be legiti-
+
+mate. As we saw, even if the SSID is not broadcast, it is available in other frames, as 
+
+is the MAC address, so an attacker 
+
+can easily present the SSID and 
+
+reconfigure the NIC to indicate the 
+
+necessary MAC address. Thus, the 
+
+attacker is not seriously deterred 
+
+from faking a valid network node.
+Bottom Line: WEP Security Is UnacceptableAll these flaws of WEP are limitations of the basic WEP protocol. Within a few years 
+of introduction of the WEP standard, researchers (see [FLU01] and [ARB02]) produced 
+
+actual demonstration programs showing the ability to deduce an RC4 key in minutes. 
+
+As Sidebar 6-13 describes, these weaknesses are not just theoretical; attackers actually 
+
+exploited these vulnerabilities and compromised wireless systems, causing loss of large 
+
+amounts of sensitive data. The WEP protocol design does not use cryptography effec-
+
+tively, fails to perform authentication, lacks effective control over intentional modifica-
+
+tion, and cannot assure availability to authorized users. With these flaws in the protocol 
+
+itself, no improved implementation or secure mode of use can compensate.
+Stronger Protocol Suite: WPA (WiFi Protected Access)
+The WEP protocol suite was published in 1997 and ratified in 1999, which means that 
+
+products implementing WEP began to appear around 1999. In 1995 sci.crypt postings, 
+
+Wagner [WAG95] and Roos [ROO95] independently discovered problems in the key 
+
+structure of RC4 but, because RC4 was not widely used before its incorporation in the 
+
+WEP standard, these problems had not been widely studied.WEP uses short, infrequently changed 
+
+encryption keys, it requires no 
+
+authentication, and its integrity is easily 
+compromised.

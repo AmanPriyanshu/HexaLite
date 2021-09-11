@@ -1,0 +1,52 @@
+ Section 3.3  Countermeasures 
+213  The objective of unit and integration testing is to ensure that the code implemented 
+the design properly; that is, that the programmers have written code to do what the 
+
+designers intended. System testing has a very different objective: to ensure that the sys-
+
+tem does what the customer wants it to do. Regression testing, an aspect of system test-
+
+ing, is particularly important for security purposes. After a change is made to enhance 
+
+the system or fix a problem, 
+regression testing
+ ensures that all remaining functions are 
+still working and that performance has not been degraded by the change. As we point 
+
+out in Sidebar 3-12, regression testing is difficult because it essentially entails recon-
+
+firming all functionality.
+SIDEBAR 3-12 The GOTO Fail Bug
+In February 2014 Apple released a maintenance patch to its iOS operat-
+ing system. The problem involved code to implement SSL, the encryption 
+
+that protects secure web communications, such as between a user’s web 
+
+browser and a bank’s web site, for example. The code problem, which has 
+
+been called the “GOTO Fail” bug, is shown in the following code fragment.if ((err = SSLHashSHA1.update(&hashCtx, &serverRandom))                    != 0)
+            goto fail;
+      if ((err = SSLHashSHA1.update(&hashCtx,  
+                  &signedParams)) != 0)
+            goto fail;
+            goto fail;
+      if ((err = SSLHashSHA1.final(&hashCtx, &hashOut))  
+                  != 0)
+            goto fail;
+      ...fail:      SSLFreeBuffer(&signedHashes);
+      SSLFreeBuffer(&hashCtx);
+      return err;The problem is in the seventh line. If the first two conditional state-
+ments are false, execution drops directly to the duplicate goto fail line, and 
+
+exits the routine. The impact of this flaw is that even insecure web connec-
+
+tions are treated as secure.
+The origin of this error is unknown, but it appears either that another 
+conditional statement was removed during maintenance (but not the cor-
+
+responding conditional action of goto fail), or an extra goto fail statement 
+
+was inadvertently pasted into the routine. Either of those possibilities is an 
+
+understandable, nonmalicious programming oversight.
+(continues)

@@ -1,0 +1,59 @@
+ Section 6.4  Denial of Service 
+415  Denial-of-service attacks are often second-level attacks. First, the attacker lodges 
+attack code in a target system and then, after the code is in place, the attacker triggers 
+
+that code to implement a denial-of-service attack. Next we consider how the attacker 
+
+can infiltrate the target system from which to initiate a denial-of-service attack.
+Session HijackIn a session hijack attack, the attacker allows an interchange to begin between two par-
+ties but then diverts the communication, much as would a man in the middle. Think, for 
+
+example, of logging in to a financial site, completing the authentication, and then losing 
+
+the session to an attacker. Financial sites are typically well protected with encryption, 
+
+but other sites may be vulnerable, for example, ones that communicate medical records 
+
+or support interaction between students and teachers.Session hijacking is facilitated by elements of the TCP/IP protocol design. First, 
+consider the IP protocol header, as shown in Figure 6-29. The important part is bytes 
+
+12–19, which contain the source and destination IP addresses. The purpose for the des-
+
+tination is obvious; the source is necessary so that the receiver can generate a response 
+
+message to the sender. At any point 
+
+along the journey from source to 
+
+destination, an attacker can change 
+
+that source address, thereby redi-
+
+recting the response to the attacker, 
+
+not the original sender.
+FIGURE 6-29 IP Header00bytes4812
+16
+2024+123
+LengthFlagsFlagsIdentificationFragment Offset
+Header ChecksumProtocolTime to Live
+Source IP Address
+Destination IP Address
+IP OptionsPadding
+Data ...Now consider the TCP protocol header, as shown in Figure 6-30. The entire TCP 
+packet is contained within an IP datagram of Figure 6-29; thus all of Figure 6-29 is 
+
+contained within the Data field (bytes 20 and beyond) of Figure 6-30. 
+If packets arrive out of order, the protocol handlers use the TCP sequence and 
+acknowledgment numbers, bytes 4–11 in Figure 6-30, to reconstruct a data item. The 
+
+TCP protocol was designed with unstable networks in mind, so it contains features for 
+
+recognizing and correcting errors, not just damage to the message data but also corrup-
+
+tion of the control data shown in these headers.
+In a session hijack the attacker literally 
+steals an established TCP connection 
+by rewriting source and destination 
+
+addresses.

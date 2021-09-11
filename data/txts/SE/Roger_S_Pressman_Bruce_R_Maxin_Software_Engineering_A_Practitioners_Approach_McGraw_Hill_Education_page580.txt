@@ -1,0 +1,100 @@
+550 PART THREE  
+QUALITY MANAGEMENTapplication-speciﬁ c interface mechanisms (e.g., a shopping cart for an 
+e-commerce application).   
+ 
+ 
+•   
+Each interface mechanism is tested within the context of a use case or NSU (Chapter 17) for a speciﬁ c user category
+ 
+ 
+  
+ 
+ 
+•   
+The complete interface is tested against selected use cases and NSUs to uncover errors in the semantics of the interface.
+ 
+ It is at this stage that a se-ries of usability tests are conducted.   
+ 
+ 
+•   
+The interface is tested within a variety of environments (e.g., browsers) to 
+ensure that it will be compatible
+ 
+ 
+  
+ 
+ 
+ 
+ 
+25.4.2   
+Testing Interface Mechanisms 
+ 
+When a user interacts with a WebApp, the interaction occurs through one or 
+more interface mechanisms. A brief overview of testing considerations for each 
+interface mechanism is presented in the paragraphs that follow [Spl01].  
+ 
+ 
+  
+ 
+ 
+Links.   
+Each navigation link is tested to ensure that the proper content object or function is reached.  6 
+ 
+ Testing includes links associated with the interface layout 
+(e.g., menu bars, index items, links within each content object, and links to ex-
+ternal WebApps). 
+  
+ 
+ 
+Forms.   
+ At a macroscopic level, tests are performed to ensure that (1) labels 
+correctly identify ﬁ elds within the form and that mandatory ﬁ
+ elds are identiﬁ
+ ed 
+visually for the user, (2) the server receives all information contained within the 
+
+form and that no data are lost in the transmission between client and server, 
+
+appropriate defaults are used when the user does not select from a pull-down 
+
+menu or set of buttons, (4) browser functions (e.g., the “back” arrow) do not cor-
+
+rupt data entered in a form, and (5) scripts that perform error checking on data 
+entered work properly and provide meaningful error messages.  At a more targeted level, tests should ensure that (1) form ﬁ elds have proper 
+width and data types, (2) the form establishes appropriate safeguards that pre-
+clude the user from entering text strings longer than some predeﬁ ned maxi-
+mum, (3) all appropriate options for pull-down menus are speciﬁ ed and ordered 
+in a way that is meaningful to the end user, (4) browser “auto-ﬁ
+ ll” features do not 
+lead to data input errors, and (5) tab key (or some other key) initiates proper 
+movement between form ﬁ elds. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Client-side scripting.   
+Black-box tests are conducted to uncover any errors in processing as the script is executed. These tests are often coupled with forms 
+testing, because script input is often derived from data provided as part of forms 
+processing.    External link testing 
+should occur through-
+out the life of the 
+WebApp. Part of a 
+
+support strategy should 
+
+be regularly scheduled 
+link tests.    Client-side scripting 
+
+tests and tests asso-
+ciated with dynamic 
+HTML should be 
+repeated whenever 
+a new version of a 
+popular browser is 
+released.   
+6  These tests can be performed as part of either interface or navigation testing. 
+pre22126_ch25_540-566.indd   550pre22126_ch25_540-566.indd   55013/12/13   6:15 PM13/12/13   6:15 PM

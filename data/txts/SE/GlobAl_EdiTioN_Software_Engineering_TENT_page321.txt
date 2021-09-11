@@ -1,0 +1,36 @@
+˜˜˜˚˝˜˜˜˜˜˜
+from each channel differ, the system shuts down. For many medical treatment and diagnostic systems, reliability is more important than availability because an incor-
+rect system response could lead to the patient receiving incorrect treatment. However, 
+
+if the system shuts down in the event of an error, this is an inconvenience but the 
+patient will not usually be harmed.In situations that require high availability, you have to use several self-checking 
+systems in parallel. You need a switching unit that detects faults and selects a 
+
+result from one of the systems, where both channels are producing a consistent 
+
+response. This approach is used in the flight control system for the Airbus 340 
+
+series of aircraft, which uses five self-checking computers. Figure 11.8 is a simpli-
+fied diagram of the Airbus flight control system that shows the organization of the 
+
+self-monitoring systems.In the Airbus flight control system, each of the flight control computers carries out 
+the computations in parallel, using the same inputs. The outputs are connected to 
+
+hardware filters that detect if the status indicates a fault and, if so, that the output from 
+
+that computer is switched off. The output is then taken from an alternative system. 
+
+Therefore, it is possible for four computers to fail and for the aircraft operation to 
+
+continue. In more than 15 years of operation, there have been no reports of situations 
+
+where control of the aircraft has been lost due to total flight control system failure.SplitterChannel 1Channel 2
+ComparatorOutputStatusPrimary flight control system 1
+Primary flight control system 2
+Primary flight control system 3
+SplitterChannel 1
+Channel 2
+ComparatorOutputStatusSecondary flight control system 1
+Secondary flight control system 2
+InputFilterFilterFilterFilterFilterStatusStatusStatusOutputOutputOutputOutputFigure 11.8 The Airbus˜flight control 
+system architecture 

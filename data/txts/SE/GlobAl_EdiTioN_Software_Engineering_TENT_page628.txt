@@ -1,0 +1,39 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜power to a battery backup. Figure 21.15 presents a timeline showing the events in 
+the system:1. Assume that, after a mains power failure event, it takes 50 milliseconds (ms) 
+for the supplied voltage to drop to a level where the equipment may be dam-aged. The battery backup must therefore be activated and in operation within 
+
+50 ms. Usually, you allow for a margin of error, so you should set a shorter 
+
+deadline of 40 ms because of physical variations in the equipment. This 
+
+means that all equipment must be running on the battery backup power sup-ply within 40 ms.2.
+ However, the battery backup system cannot be instantaneously activated. It 
+
+takes 16 ms from starting the backup power supply to the supply being fully 
+
+operational. This means that the time available to detect the power failure and 
+
+start the battery backup system is 24 ms.3.
+ There is a process that is scheduled to run 250 times per second, that is, every 4 ms. 
+
+This process assumes that there is a power supply problem if a significant drop 
+in voltage occurs between readings and is sustained for three readings. This time 
+is allowed so that temporary fluctuations do not cause a switch to the battery 
+
+backup system.4.
+ In the above timeline, the power fails immediately after a reading has been 
+
+taken. Therefore, reading R1 is the start reading for the power fail check. The 
+voltage continues to drop for readings R2ŒR4, so a power failure is assumed. 
+This is the worst possible case, where a power failure event occurs immediately 
+after a sensor check, so 16 ms have elapsed since that event.5. At this stage, the process that switches to the battery backup is started. Because 
+the battery backup takes 16 ms to become operational, the worst-case execution 
+
+time for this process is 8 ms, so that the 40 ms deadline can be reached.4ms8ms12ms16ms20ms24ms28ms32ms36ms40ms
+R1R2R3R4
+Battery startup
+Power switcherNormal voltagelevelCritical voltagelevelTime
+Voltage
+Figure 21.15  Power failure timing 
+analysis 

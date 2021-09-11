@@ -1,0 +1,48 @@
+CHAPTER 13  
+ARCHITECTURAL DESIGN 281architectural prototype (e.g., a walking skeleton) and developing explicit archi-tectural work products to communicate to the necessary stakeholders, an agile 
+team can satisfy the need for architectural design.   
+Agile development gives software architects repeated opportunities to work closely with the business and technical teams to guide the direction of a good ar-
+
+chitectural design. Madison [Mad10] suggests the use of a hybrid framework that 
+contains elements of Scrum, XP, and sequential project management. 
+ 19 
+ 
+ In this 
+framework up-front planning sets the architectural direction, but moves quickly 
+into storyboarding [Bro10b].   
+During storyboarding the architect contributes architectural user stories to the project and works with the product owner to prioritize the architectural 
+stories with the business user stories as “sprints” (work units) are planned. The 
+architect works with the team during the sprint to ensure that the evolving soft-
+ware continues to show high architectural quality. If quality is high, the team is 
+
+left alone to continue development on its own. If not, the architect joins the team 
+for the duration of the sprint. After the sprint is completed, the architect reviews 
+the working prototype for quality before the team presents it to the stakeholders 
+in a formal sprint review. Well-run agile projects require the iterative delivery 
+
+of work products (including architectural documentation) with each sprint. Re-
+viewing the work products and code as it emerges from each sprint is a useful 
+form of architectural review. 
+  
+Responsibility-driven architecture
+ 
+ (RDA) is a process that focuses on archi-
+tectural decision-making. It addresses when and how architectural decisions 
+should be made and who on the project team makes them. This approach also 
+emphasizes the role of architect as being a servant-leader rather than an auto-
+cratic decision maker and is consistent with the agile philosophy. The architect 
+
+acts as facilitator and focuses on how the development team works with stake-
+holder concerns from outside the team (e.g., business, security, infrastructure). 
+ Agile teams insist on the freedom to make changes as new requirements emerge. Architects want to make sure that the important parts of the architec-
+ture were carefully considered and that developers have consulted the appro-
+priate stakeholders. Both concerns may be satisﬁ ed by making use of a practice 
+called  progressive sign-off
+ 
+ in which the evolving product is documented and ap-
+proved as each successive prototype is completed [Bla10].  Using a process that is compatible with the agile philosophy provides veriﬁ -able sign-off for regulators and auditors, without preventing agile teams from 
+making decisions as needed. At the end of the project the team has a complete 
+set of work products, and the architecture has been reviewed for quality as it 
+evolves.   
+19  Scrum and XP are agile process models and are discussed in  
+Chapter 5 . pre22126_ch13_252-284.indd   281pre22126_ch13_252-284.indd   28113/12/13   6:12 PM13/12/13   6:12 PM

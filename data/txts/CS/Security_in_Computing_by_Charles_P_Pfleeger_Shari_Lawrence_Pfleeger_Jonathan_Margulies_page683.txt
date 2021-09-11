@@ -1,0 +1,63 @@
+ Section 10.1  Security Planning 
+649  the important items or help you choose something you can complete if you have a few 
+free minutes.A good security plan is an official record of current security practices, plus a blue-
+print for orderly change to improve those practices. By following the plan, developers 
+
+and users can measure the effect of proposed changes, leading eventually to further 
+
+improvements. The impact of the security plan is important, too. A carefully written 
+
+plan, supported by management, notifies employees that security is important to man-
+
+agement (and therefore to everyone). Thus, the security plan has to have appropriate 
+
+content and has to produce desired effects.
+In this section we study how to define and implement a security plan. We focus on 
+three aspects of writing a security plan: what it should contain, who writes it, and how 
+
+to obtain support for it. Then, we address two specific cases of security plans: business 
+
+continuity plans, to ensure that an organization continues to function in spite of a com-
+
+puter security incident, and incident response plans, to organize activity to deal with the 
+
+crisis of an incident.Contents of a Security PlanA security plan identifies and organizes the security activities for a computing system. 
+
+The plan is both a description of the current situation and a map for improvement. 
+
+Every security plan must address seven issues:
+• policy,
+ indicating the goals of a computer security effort and the willingness of 
+the people involved to work to achieve those goals 
+• current state
+, describing the status of security at the time of the plan• requirements
+, recommending ways to meet the security goals
+• recommended
+ controls
+, mapping controls to the vulnerabilities identified in the 
+policy and requirements
+• accountability, documenting who is responsible for each security activity
+• timetable, identifying when different security functions are to be done
+• maintenance,
+ specifying a structure for periodically updating the security planThere are many approaches to creating and updating a security plan. Some orga-
+nizations have a formal, defined security-planning process, much as they might have 
+
+a defined and accepted development or software maintenance process. Others look to 
+
+security professionals for guidance on how to perform security planning. But every 
+
+security plan contains the same basic material, no matter the format. The following sec-
+
+tions expand on the seven parts of a security plan.
+PolicyA security plan states the organiza-
+tion’s security needs and priorities. 
+
+A security policy is a high-level 
+
+statement of purpose and intent. 
+
+Initially, you might think that all 
+A security policy documents an 
+organization’s security needs and 
+
+priorities.

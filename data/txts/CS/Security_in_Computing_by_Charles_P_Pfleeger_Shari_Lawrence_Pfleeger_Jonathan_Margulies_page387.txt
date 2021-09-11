@@ -1,0 +1,71 @@
+ Section 6.1  Network Concepts 
+353  Many common services are bound to agreed-on 
+ports, which are essentially just num-bers to identify different services; the destination port number is given in the header of 
+
+each packet or data unit. Ports 0 to 4095 are called 
+well-known ports
+ and are by conven-
+tion associated with specific services. For example, incoming email is often transmitted 
+
+with the Post Office Protocol (POP), and the POP server is typically bound to port 110. A 
+
+POP server is a program that receives and holds incoming email and waits for a client to 
+
+request email that has been received 
+
+and queued. The client contacts the 
+
+server, sending to port 110 a packet 
+
+requesting establishment of a ses-
+sion; with the server’s response, the 
+
+client and server negotiate to transfer 
+
+mail from the server. 
+This overview or review of networking necessarily omits vital details. Our purpose is 
+only to ensure you know some of the elementary terms and concepts of networks so we 
+
+can examine security issues in networks.
+PART I—WAR ON NETWORKS: NETWORK SECURITY ATTACKS
+In this part we cover three types of security threats and vulnerabilities: First, we con-
+
+sider the network versions of confidentiality and integrity failures. In a network, loss 
+
+of confidentiality is often called wiretapping (even when there is no physical wire 
+
+involved), and loss of integrity goes under the broad title of data corruption. Although 
+
+the methods of attack may be new, loss of confidentiality or integrity should be familiar 
+
+from previous chapters in which we explore these failings in programs, browsers, and 
+
+operating systems. The second threat we address involves wireless networks. Here, too, the primary 
+harm is to the confidentiality or integrity of a user’s data. In contrast to shared, wide-
+
+area networks, wireless networks are something over which the user has some control. 
+
+In large, centrally-managed, shared networks, users have little control over the kind of 
+
+security services available. By contrast, a wireless network is smaller, there may be no 
+
+active management or monitoring, and the parties sharing the network are quite local. 
+
+Consequently, users have a more direct role in security.
+For the third topic of this part we explore availability, or its loss, in a class of attacks 
+known as denial of service. Because connectivity or access is a critical aspect of net-
+
+worked computing, anything that severely limits use of a network negates the whole 
+
+purpose of networking. Thus, attackers who can deny service to users cause serious 
+
+harm. Denial-of-service attacks are the first instance in this book for which availability, 
+
+not confidentiality or integrity, is the dominant security feature.
+As we present these three types of threats we also hint at their controls and counter-
+measures. However, Part II of this chapter is the place where we present these controls 
+
+and countermeasures in depth.Port: number associated with an 
+application program that serves or 
+
+monitors for a network service

@@ -1,0 +1,112 @@
+CHAPTER 17  
+WEBAPP DESIGN 377should ﬁ rst use aesthetic design (Section 17.5) to establish a coherent “look.” This 
+encompasses many characteristics, but must emphasize the layout and form of 
+navigation mechanisms. To guide user interaction, you may draw on an appro-
+
+priate metaphor  4 
+ 
+ that enables the user to gain an intuitive understanding of the 
+interface. To implement navigation options, you can select  
+navigation menus 
+ po-
+sitioned consistently on Web pages,  
+graphic icons 
+ represented in a manner that 
+enable a user to recognize that the icon is a navigation element, and/or  graphic images 
+ that provide a link to a content object or WebApp functionality. 
+ 
+ It is im-
+portant to note that one or more of these navigation mechanisms should be pro-
+vided at every level of the content hierarchy. 
+  
+ 
+ 
+ 
+ 
+ 
+ 17.5 A
+ESTHETIC DESIGN  
+ 
+ 
+ 
+ 
+ 
+ 
+Aesthetic design, also called  graphic design, 
+ is an artistic endeavor that com-
+plements the technical aspects of WebApp design. Without it, a WebApp may be 
+
+functional, but unappealing. With it, a WebApp draws its users into a world that 
+
+embraces them on a visceral, as well as an intellectual level.  But what is aesthetic? There is an old saying, “beauty exists in the eye of the beholder.” This is particularly appropriate when aesthetic design for WebApps is 
+
+considered. To perform effective aesthetic design, return to the user hierarchy 
+
+developed as part of the requirements model (Chapter 8) and ask,  
+ “Who are the 
+WebApp’s users and what “look” do they desire?” 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  What 
+interaction mechanisms 
+are available 
+to WebApp 
+
+designers? ?  
+4  In this context, a  
+metaphor 
+ is a representation (drawn from the user’s real-world experience) 
+that can be modeled within the context of the interface. A simple example might be a slider 
+switch that is used to control the auditory volume of an .mpg ﬁ le. 
+ Not every Web 
+engineer (or software 
+engineer) has artistic 
+
+(aesthetic) talent. 
+If you fall into this 
+category, hire an 
+
+experienced graphic 
+designer for aesthetic 
+design work.   
+Graphic Design   
+Graphic Design  
+ 
+The scene:  Doug Miller’s ofﬁ
+ ce after 
+the ﬁ rst web interface prototype review. 
+  
+The players:  Doug Miller (SafeHome software engi-
+neering project manager) and Vinod Raman member of 
+the  SafeHome 
+ software engineering team.   
+The conversation:    
+Doug:  What’s your impression of new Web page design? 
+  
+Vinod:  I like it, but more importantly, our customers 
+like it.   
+Doug:  How much help did you get from the graphic 
+designer we borrowed from marketing?   
+Vinod:  A lot, actually. She has a great eye for page 
+layout and suggested an awesome graphic theme for the pages. Much better than what we came up with on our own.   
+Doug:  That’s good. Any issues? 
+  
+Vinod:  We still have to create alternate pages to take 
+accessibility issues into account for some of our visually 
+impaired users. But we would have had to do that for 
+any Web page design we had. 
+  
+Doug:  Do we need graphic design help on the alterna-
+tive pages as well?   
+Vinod:  Sure. The designer has a good understanding 
+of usability and accessibility issues.   
+Doug:  OK, I‘ll ask marketing if we can borrow her a 
+little longer. 
+  
+SAFEHOME pre22126_ch17_371-390.indd   377pre22126_ch17_371-390.indd   37713/12/13   6:13 PM13/12/13   6:13 PM

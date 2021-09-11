@@ -1,0 +1,53 @@
+˜˜˚˛˙˜˜˜
+˜˜
+to iteration planning. Another approach to agile planning, which was developed as 
+part of Extreme Programming, is based on user stories. The so-called planning game 
+
+can be used in both release planning and iteration planning.The basis of the planning game (Figure 
+23.8) is a set of user stories (see Chapter 3) 
+that cover all of the functionality to be included in the final system. The development 
+
+team and the software customer work together to develop these stories. The team 
+
+members read and discuss the stories and rank them based on the amount of time they 
+
+think it will take to implement the story. Some stories may be too large to implement 
+
+in a single iteration, and these are broken down into smaller stories.The problem with ranking stories is that people often find it difficult to estimate how 
+much effort or time is needed to do something. To make this easier, relative ranking 
+
+may be used. The team compares stories in pairs and decides which will take the most 
+
+time and effort, without assessing exactly how much effort will be required. At the end 
+
+of this process, the list of stories has been ordered, with the stories at the top of the list 
+
+taking the most effort to implement. The team then allocates notional effort points to all 
+
+of the stories in the list. A complex story may have 8 points and a simple story 2 points.Once the stories have been estimated, the relative effort is translated into the first estimate of the total effort required by using the idea of ﬁvelocity.ﬂ Velocity is the 
+number of effort points implemented by the team, per day. This can be estimated 
+
+either from previous experience or by developing one or two stories to see how 
+
+much time is required. The velocity estimate is approximate but is refined during the 
+development process. Once you have a velocity estimate, you can calculate the total 
+effort in person-days to implement the system.Release planning involves selecting and refining the stories that will reflect the features to be implemented in a release of a system and the order in which the stories 
+
+should be implemented. The customer has to be involved in this process. A release 
+date is then chosen, and the stories are examined to see if the effort estimate is con-
+sistent with that date. If not, stories are added or removed from the list.Iteration planning is the first stage in developing a deliverable system increment. 
+Stories to be implemented during that iteration are chosen, with the number of stories 
+
+reflecting the time to deliver an workable system (usually 2 or 3 weeks) and the team™s 
+
+velocity. When the delivery date is reached, the development iteration is complete, 
+
+even if all of the stories have not been implemented. The team considers the stories 
+
+that have been implemented and adds up their effort points. The velocity can then be 
+
+recalculated, and this measure is used in planning the next version of the system.At the start of each development iteration, there is a task planning stage where the 
+developers break down stories into development tasks. A development task should 
+take 4Œ16 hours. All of the tasks that must be completed to implement all of the sto-
+ries in that iteration are listed. The individual developers then sign up for the specific ReleaseplanningInitialestimationStoryidentificationIterationplanningTask
+planningFigure 23.8 The ﬁplanning gameﬂ

@@ -1,0 +1,64 @@
+628 Chapter 9  
+Privacybut only by the server that set the cookie. Thus, the cookie reveals your actions only 
+while at one site. Cookies are passive tracking objects, acting as little notes that show 
+
+where you have been or what you have done. The only information they can gather is 
+
+what you give them by entering data or selecting an object on a web page. Because 
+
+cookies are stored on your machine, you can delete cookies at will to reduce the amount 
+
+of data returned to a web host on a subsequent visit.By contrast, a web bug can invoke a process that can derive from any location, and 
+any bug can invoke more bugs and hence more code. A typical advertising web page 
+
+might have 20 web bugs, inviting 20 other sites to drop images, scripts, or other web 
+
+bugs onto the user’s machine. As we explain in Chapter 4, executable code can perform 
+
+any action the invoking user permits, such as perusing data and sending interesting 
+
+items offsite. All this activity occurs without your direct knowledge or control.
+Unfortunately, extermination is not so simple as prohibiting images smaller than the 
+eye can see, because many web pages use such images innocently to help align content. 
+
+Or some specialized visual applications may actually use collections of minute images 
+for a valid purpose. The answer is not to restrict the image but to restrict the action the 
+
+bug can invoke. However, restricting web bugs also restricts the richness of content 
+
+display (think of moving images, music, a slideshow, even dynamic drop-down menus). 
+
+Websites, and especially advertisers, are unwilling to give up this capability, so web bug 
+
+actions are not likely to be significantly restricted.
+As we see in the next section, spyware is far more powerful than either bugs or  
+cookies—and potentially more dangerous.Spyware
+Cookies are passive files and the data they can capture is limited. They cannot, for exam-
+
+ple, read a computer’s registry, peruse an email outbox, or capture the file directory struc-
+
+ture. Spyware is active code that can do all these things that cookies cannot. Generally, 
+
+spyware can do anything a program can do, because that is what they are: programs.
+Spyware is code designed to spy on a user, collecting data (including anything the 
+user types). In this section we describe different types of spyware.
+Keystroke Loggers and Spyware
+In Chapter 4 we described keystroke loggers, programs that reside in a computer and 
+record every key pressed. Sophisticated loggers discriminate, recording only websites 
+
+visited or, even more serious, only the keystrokes entered at a particular website (for 
+
+example, the login ID and password to a banking site).
+A keystroke logger is the computer equivalent of a telephone wiretap. It is a program 
+that records every key typed. As you can imagine, keystroke loggers can seriously com-
+
+promise privacy by obtaining passwords, bank account numbers, contact names, and 
+
+web-search arguments.
+Spyware
+ is the more general term that includes keystroke loggers and also programs 
+that surreptitiously record user activity and system data, although not necessarily at the 
+
+level of each individual keystroke. The Center for Democracy and Technology [CDT09] 
+
+has investigated spyware’s threats to privacy. CDT points out that, “The term ‘spyware’ 

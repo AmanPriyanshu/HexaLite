@@ -1,0 +1,31 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜design are developed concurrently. Constraints posed by existing systems may limit design choices, and these choices may be specified in the requirements. You may 
+
+have to do some initial design to structure and organize the requirements engineering 
+process. As the design process continues, you may discover problems with existing 
+
+requirements and new requirements may emerge. Consequently, you can think of 
+
+these linked processes as a spiral, as shown in Figure 19.11.The spiral reflects the reality that requirements affect design decisions and vice versa, and so it makes sense to interleave these processes. Starting in the center, each 
+round of the spiral may add detail to the requirements and the design. As subsystems 
+are identified in the architecture, decisions are made on the responsibilities of these 
+subsystems for providing the system requirements. Some rounds of the spiral may 
+focus on requirements, others on design. Sometimes new knowledge collected dur-
+ing the requirements and design process means that the problem statement itself has 
+to be changed.For almost all systems, many possible designs meet the requirements. These 
+cover a range of solutions that combine hardware, software, and human operations. 
+
+The solution that you choose for further development may be the most appropriate 
+technical solution that meets the requirements. However, wider organizational and 
+political considerations may influence the choice of solution. For example, a govern-
+ment client may prefer to use national rather than foreign suppliers for its system, 
+even if national products are technically inferior.These influences usually take effect in the review and assessment phase of the 
+spiral model where designs and requirements may be accepted or rejected. The pro-
+cess ends when a review decides that the requirements and high-level design are 
+
+sufficiently detailed for subsystems to be specified and designed.System requirements and
+design documentationReview andassessmentArchitecturaldesignStart
+Requirementselicitation andanalysisDomain and problemunderstandingRequirements partitioning
+Figure 19.11  Requirements and 
+design spiral

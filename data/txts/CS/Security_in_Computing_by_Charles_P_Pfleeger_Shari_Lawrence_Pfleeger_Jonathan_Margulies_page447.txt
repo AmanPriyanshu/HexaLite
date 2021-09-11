@@ -1,0 +1,68 @@
+ Section 6.4  Denial of Service 
+413  the protocol depend on a device’s being at the “edge” of a subnetwork, that is, directly 
+connected to two different subnetworks. Although an attacker can represent being on 
+
+the edge of a local subnetwork, for example, a wireless network in a hotel or laboratory, 
+
+it is harder to represent being on the edge of a larger subnetwork, for example, imper-
+
+sonating an ISP in direct connection to the Internet. A successful attacker, however, can 
+
+redirect, read, copy, modify, or delete all traffic of the network under attack.
+Source Routing and Address Spoofing
+Internet traffic usually travels by the best available route; that is, each router determines 
+the best next path (called the 
+next hop) to which to direct a data unit. However, a 
+sender, using a process called 
+source routing
+, can specify some or all of the intermedi-ate points by which a data unit is transferred. With 
+strict source routing
+, the complete path from source to destination is specified; with 
+loose source routing
+, certain (some or all) required intermediate points are specified. 
+One use of source routing is to test or troubleshoot routers by forcing traffic to follow 
+a specific path that an engineer can then trace. A more vicious use of source routing is to 
+
+force data to flow through a malicious router or network link. Obviously, adding source 
+
+routing to a data stream allows the man in the middle to force traffic to flow through 
+
+his router. Because of its potential for misuse, loose source routing is blocked by many 
+
+Internet routers.Traffic Redirection
+As we saw earlier, at the network layer, a router is a device that forwards traffic on its 
+
+way through intermediate networks between a source host’s network and a destination’s 
+
+network. So if an attacker can corrupt the routing, traffic can disappear.
+Routers use complex algorithms to decide how to route traffic. No matter the algo-
+rithm, they essentially seek the best path (where “best” is measured in some combina-
+
+tion of distance, time, cost, quality, and the like). Routers are aware only of the routers 
+
+with which they share a direct network connection, and they use gateway protocols to 
+
+share information about their capabilities. Each router advises its neighbors about how 
+
+well it can reach other network addresses. This characteristic allows an attacker to dis-
+
+rupt the network.
+To see how, keep in mind that in spite of its sophistication, a router is simply a com-
+puter with two or more network interfaces. Suppose a router advertises to its neighbors 
+
+that it has the best path to every other address in the whole network. Soon all routers 
+
+will direct all traffic to that one router. The one router may become flooded, or it may 
+
+simply drop much of its traffic. In either case, a lot of traffic never makes it to the 
+
+intended destination.As we mentioned earlier, routers trust each other to provide accurate data. Occasion-
+ally, due to nonmalicious corruption a router will send faulty data, but these sporadic 
+
+failures have localized effect and heal themselves over time thanks to network reliabil-
+
+ity. However, an intentionally misleading router (or a device maliciously impersonating 
+
+a router) can persist because of implicit trust. As you know, a standard countermea-
+
+sure to exclude impostors is identification and authentication. But for efficiency, router 

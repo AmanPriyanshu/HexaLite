@@ -1,0 +1,107 @@
+CHAPTER 2  
+SOFTWARE ENGINEERING
+ 17 
+ 
+ 
+2.2.1  The Process Framework 
+ 
+A  process framework
+ 
+ establishes the foundation for a complete software engi-
+neering process by identifying a small number of  framework activities 
+ that are 
+applicable to all software projects, regardless of their size or complexity. In ad-
+
+dition, the process framework encompasses a set of  umbrella activities
+ 
+ that are 
+applicable across the entire software process. A generic process framework for 
+software engineering encompasses ﬁ ve activities: 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+Communication.  
+ 
+Before any technical work can commence, it is critically im-portant to communicate and collaborate with the customer (and other stake-
+holders).  3 
+ 
+ The intent is to understand stakeholders’ objectives for the project and 
+to gather requirements that help deﬁ ne software features and functions. 
+ 
+  
+ 
+ 
+Planning.  
+ 
+Any complicated journey can be simpliﬁ ed if a map exists. A software 
+project is a complicated journey, and the planning activity creates a “map” that 
+
+helps guide the team as it makes the journey. The map—called a software project 
+
+plan—deﬁ nes the software engineering work by describing the technical tasks to 
+be conducted, the risks that are likely, the resources that will be required, the 
+
+work products to be produced, and a work schedule.   
+ 
+Modeling.  
+ 
+Whether you’re a landscaper, a bridge builder, an aeronautical engi-
+neer, a carpenter, or an architect, you work with models every day. You create a 
+
+“sketch” of the thing so that you’ll understand the big picture—what it will look 
+like architecturally, how the constituent parts ﬁ
+ t together, and many other char-
+acteristics. If required, you reﬁ ne the sketch into greater and greater detail in 
+an effort to better understand the problem and how you’re going to solve it. A 
+software engineer does the same thing by creating models to better understand 
+software requirements and the design that will achieve those requirements.   
+ 
+Construction.  
+ 
+What you design must be built. This activity combines code gen-eration (either manual or automated) and the testing that is required to uncover 
+errors in the code.   
+ 
+Deployment.  
+ 
+The software (as a complete entity or as a partially completed in-crement) is delivered to the customer who evaluates the delivered product and 
+provides feedback based on the evaluation.  These ﬁ ve generic  
+ 
+framework activities  
+ can be used during the development of 
+small, simple programs, the creation of Web applications, and for the engineering 
+   What are 
+the ﬁ ve 
+generic process 
+framework 
+activities? ?  
+3  A  stakeholder 
+ is anyone who has a stake in the successful outcome of the project—business 
+managers, end users, software engineers, support people, etc. Rob Thomsett jokes that, “a 
+ 
+. 
+If you don’t look after your stake-
+holders, you know where the stake will end up.”   uote:  “Einstein argued 
+that there must 
+be a simpliﬁ ed 
+
+explanation of 
+nature, because 
+God is not 
+capricious or 
+arbitrary. No such 
+
+faith comforts 
+the software 
+engineer. Much 
+
+of the complexity 
+that he must 
+master is arbitrary 
+
+complexity.” 
+ Fred Brooks 
+pre22126_ch02_014-028.indd   17pre22126_ch02_014-028.indd   1713/12/13   6:10 PM13/12/13   6:10 PM

@@ -1,0 +1,59 @@
+158 Chapter 3  
+Programs and ProgrammingBackdoorAn undocumented access point is called a backdoor or 
+trapdoor. Such an entry can transfer control to any point with any privileges the programmer wanted.
+Few things remain secret on the 
+web for long; someone finds an 
+
+opening and exploits it. Thus, cod-
+
+ing a supposedly secret entry point 
+
+is an opening for unannounced 
+
+visitors.Another example of backdoors is used once an outsider has compromised a machine. 
+In many cases an intruder who obtains access to a machine wants to return later, either 
+
+to extend the raid on the one machine or to use the machine as a jumping-off point for 
+
+strikes against other machines to which the first machine has access. Sometimes the first 
+
+machine has privileged access to other machines so the intruder can get enhanced rights 
+
+when exploring capabilities on these new machines. To facilitate return, the attacker can 
+
+create a new account on the compromised machine, under a user name and password 
+
+that only the attacker knows.
+Protecting Against Unauthorized Entry
+Undocumented entry points are a poor programming practice (but they will still be 
+used). They should be found during rigorous code reviews in a software development 
+
+process. Unfortunately, two factors work against that ideal.
+First, being undocumented, these entry points will not be clearly labeled in source code or any of the development documentation. Thus, code reviewers might fail to rec-
+
+ognize them during review.
+Second, such backdoors are often added after ordinary code development, during 
+testing or even maintenance, so even the scrutiny of skilled reviewers will not find 
+
+them. Maintenance people who add such code are seldom security engineers, so they 
+
+are not used to thinking of vulnerabilities and failure modes. For example, as reported 
+SIDEBAR 3-4 Continuedkeystrokes the user’s screen seemed to follow down a corridor with panels 
+on the sides, and on the panels were inscribed the names of the develop-
+
+ers of that version of Excel.Such a piece of code is called an Easter egg
+, for chocolate candy 
+eggs filled with toys for children. This is not the only product with an Easter 
+
+egg. An old version of Internet Explorer had something similar, and other 
+
+examples can be found with an Internet search. Although most Easter eggs 
+
+do not appear to be harmful, they raise a serious question: If such complex 
+
+functionality can be embedded in commercial software products without 
+
+being stopped by a company’s quality control group, are there other holes, 
+
+potentially with security vulnerabilities?Secret backdoors are eventually found. 
+Security cannot depend on such secrecy.

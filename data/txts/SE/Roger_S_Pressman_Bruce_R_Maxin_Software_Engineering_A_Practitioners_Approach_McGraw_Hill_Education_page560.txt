@@ -1,0 +1,78 @@
+530 PART THREE  
+QUALITY MANAGEMENTrequirements. It is necessary to test an OO system at a variety of different levels in an effort to uncover errors that may occur as classes collaborate with one 
+another and subsystems communicate across architectural layers.  Test-case design methods for object-oriented software continue to evolve. 
+However, an overall approach to OO test-case design has been suggested by 
+
+Berard [Ber93]:  
+ 
+ 
+ 1.
+  Each test case should be uniquely identiﬁ ed and explicitly associated with 
+the class to be tested.   
+ 
+ 
+ 2.
+  The purpose of the test should be stated.   
+ 
+ 
+ 3.
+  A list of testing steps should be developed for each test and should con-tain: a list of speciﬁ ed states for the class that is to be tested, a list of mes-
+sages and operations that will be exercised as a consequence of the test, 
+a list of exceptions that may occur as the class is tested, a list of external 
+conditions (i.e., changes in the environment external to the software that 
+must exist in order to properly conduct the test), and supplementary in-
+formation that will aid in understanding or implementing the test.  
+ 
+  Unlike conventional test-case design, which is driven by an input-process-output view of software or the algorithmic detail of individual modules, object-
+oriented testing focuses on designing appropriate sequences of operations to 
+exercise the states of a class.   
+ 
+24.4.1   
+The Test-Case Design Implications of OO Concepts 
+ 
+As a class evolves through the analysis and design models, it becomes a target for test-case design. Because attributes and operations are encapsulated, testing 
+operations outside of the class is generally unproductive. Although encapsulation 
+is an essential design concept for OO, it can create a minor obstacle when test-
+ing. As Binder [Bin94a] notes, “Testing requires reporting on the concrete and ab-
+
+stract state of an object.” Yet, encapsulation can make this information somewhat 
+
+difﬁ cult to obtain. Unless built-in operations are provided to report the values for 
+class attributes, a snapshot of the state of an object may be difﬁ cult to acquire. 
+  
+ 
+ 
+ 
+ 
+Inheritance may also present you with additional challenges during test-case design. We have already noted that each new usage context requires retesting, 
+
+even though reuse has been achieved. In addition, multiple inheritance  4 
+ 
+ com-
+plicates testing further by increasing the number of contexts for which testing 
+is required [Bin94a]. If subclasses instantiated from a superclass are used within 
+the same problem domain, it is likely that the set of test cases derived for the su-
+perclass can be used when testing the subclass. However, if the subclass is used 
+
+in an entirely different context, the superclass test cases will have little applica-
+bility and a new set of tests must be designed.   
+ uote:  “I see testers as the 
+bodyguards of the 
+project. We defend 
+
+our developer’s 
+
+ﬂ ank from failure, 
+
+while they focus on 
+creating success.”  James Bach 
+ WebRef 
+ An excellent collection 
+of papers and resources 
+on OO testing can be 
+found by searching the 
+site   
+https://www.thecsiac.com/  . 
+  
+4  An OO concept that should be used with extreme care. 
+pre22126_ch24_523-539.indd   530pre22126_ch24_523-539.indd   53013/12/13   10:02 PM13/12/13   10:02 PM

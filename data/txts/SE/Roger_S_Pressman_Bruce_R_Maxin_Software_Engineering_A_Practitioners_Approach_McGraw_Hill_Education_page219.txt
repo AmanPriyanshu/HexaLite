@@ -1,0 +1,68 @@
+CHAPTER 10  
+REQUIREMENTS MODELING: CLASS-BASED METHODS 189 
+To illustrate, we consider the 
+ System
+ 
+ class deﬁ
+ ned for  
+SafeHome. 
+ A homeowner 
+can conﬁ gure the security function to reﬂ
+ ect sensor information, alarm response 
+information, activation/deactivation information, identiﬁ cation information, and 
+so forth. We can represent these composite data items in the following manner:
+  
+identiﬁ cation information 
+5 system ID 1 veriﬁ cation phone number 
+1 system status  alarm response information 5 delay time 1 telephone number  activation/deactivation information 5 master password 1 number of allowable tries 1 temporary password    Each of the data items to the right of the equal sign could be further deﬁ ned 
+to an elementary level, but for our purposes, they constitute a reasonable list of 
+attributes for the  System 
+ class (shaded portion of  Figure 10.1 ).   Sensors are part of the overall  SafeHome 
+ system, and yet they are not listed 
+as data items or as attributes in  Figure 10.1 .  Sensor 
+ has already been deﬁ
+ ned as 
+a class, and multiple  Sensor 
+ objects will be associated with the  
+System 
+ class. In 
+general, we avoid deﬁ ning an item as an attribute if more than one of the items 
+is to be associated with the class.   
+ 
+ 
+ 10.3 D
+EFINING   
+OPERATIONS
+    
+ 
+ 
+Operations 
+ deﬁ
+ ne the behavior of an object. Although many different types of 
+op-
+
+erations that manipulate data in some way (e.g., adding, deleting, reformat-
+ting, selecting), (2) operations that perform a computation, (3) operations that 
+inquire about the state of an object, and (4) operations that monitor an object 
+for the  occurrence of a controlling event. These functions are accomplished by Systemprogram( )display( ) 
+reset( ) 
+query( ) 
+
+arm( ) 
+
+disarm( ) 
+systemID
+verificationPhoneNumber
+systemStatus
+delayTime
+
+telephoneNumber
+masterPassword
+temporaryPassword
+
+numberTries       
+  
+FIGURE 10.1 
+Class diagram for the system 
+class  
+ pre22126_ch10_184-201.indd   189pre22126_ch10_184-201.indd   18913/12/13   6:11 PM13/12/13   6:11 PM

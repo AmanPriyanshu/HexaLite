@@ -1,0 +1,49 @@
+904 APPENDIX 3  FORMAL METHODS OCL can also be used to specify preconditions and postconditions of operations. 
+For example, the following describes operations that remove and add sets of 
+blocks to the queue. Note that the notation   x@pre  
+ indicates the object   x  
+ as it ex-isted  prior  to the operation; this is opposite to mathematical notation discussed earlier, where it is the   
+x    
+after  the operation that is specially designated (as   
+x  
+9).    context BlockHandler::removeBlocks( )  
+
+   pre: blockQueue–>size( ) >0  
+
+  
+ post: used 
+5 used@pre-blockQueue@pre–>ﬁ rst( ) and  
+  
+  free 5 free@pre–>union(blockQueue@pre–>ﬁ rst( )) and  
+  
+  blockQueue 5 blockQueue@pre–>excluding(blockQueue@pre–>ﬁ rst)   
+   context BlockHandler::addBlocks(aBlockSet :BlockSet)  
+
+  
+ pre: used–>includesAll(aBlockSet.elements) 
+   
+ post: (blockQueue.elements 
+5 blockQueue.elements@pre  
+    –> append (aBlockSet.elements) and  
+
+  
+  used 5 used@pre and  
+  
+  free 5 free@pre   
+ OCL is a modeling language, but it has all of the attributes of a formal language. 
+OCL allows the expression of various constraints, pre- and postconditions, 
+guards, and other characteristics that relate to the objects represented in vari-
+ous UML models.    The Z Specification Language 
+ Z (properly pronounced as “zed”) is a speciﬁ cation language that is widely used 
+
+within the formal methods community. The Z language applies typed sets, re-
+lations, and functions within the context of ﬁ rst-order predicate logic to build 
+ schemas —a means for structuring the formal speciﬁ
+ cation.  Z speciﬁ cations are organized as a set of schemas. Schemas are used to struc-
+ture a formal speciﬁ cation in the same way that components are used to struc-ture a system.  A schema describes the stored data that a system accesses and alters. In the context of Z, this is called the “state.” This usage of the term  state  in Z is slightly different from the use of the word in the rest of this book.  3 The generic structure of a schema takes the form: 
+ schemaName   declarations 
+    invariant 
+   
+  3 
+ Recall that in other chapters  
+state  has been used to identify an externally observable mode of behavior for a system. 

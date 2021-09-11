@@ -1,0 +1,37 @@
+˜˜˚˝˜˜˜
+˜˜
+3. The station maintenance system This system can communicate by satellite with all wilderness weather stations to monitor the health of these systems and pro-
+vide reports of problems. It can update the embedded software in these systems. 
+In the event of system problems, this system can also be used to remotely con-
+trol the weather station.In Figure 1.7, I have used the UML package symbol to indicate that each system is 
+a collection of components and the separate systems are identified using the UML 
+ stereotype «system». The associations between the packages indicate there is an exchange 
+
+of˜information but, at this stage, there is no need to define them in any more detail.The weather stations include instruments that measure weather parameters such as wind speed and direction, ground and air temperatures, barometric pressure, and 
+rainfall over a 24-hour period. Each of these instruments is controlled by a software 
+system that takes parameter readings periodically and manages the data collected 
+
+from the instruments.The weather station system operates by collecting weather observations at fre-quent intervals; for example, temperatures are measured every minute. However, 
+
+because the bandwidth to the satellite is relatively narrow, the weather station carries 
+
+out some local processing and aggregation of the data. It then transmits this aggre
+-
+gated data when requested by the data collection system. If it is impossible to make 
+a connection, then the weather station maintains the data locally until communica-
+tion can be resumed.Each weather station is battery-powered and must be entirely self-contained; there 
+are no external power or network cables. All communications are through a relatively 
+
+slow satellite link, and the weather station must include some mechanism (solar or 
+
+wind power) to charge its batteries. As they are deployed in wilderness areas, they are 
+
+exposed to severe environmental conditions and may be damaged by animals. The 
+
+station software is therefore not just concerned with data collection. It must also:1. Monitor the instruments, power. and communication hardware and report faults to the management system.2.
+ Manage the system power, ensuring that batteries are charged whenever the 
+
+environmental conditions permit but also that generators are shut down in 
+
+potentially damaging weather conditions, such as high wind.«system»Data managementand archiving«system»Station maintenance«system»Weather station
+Figure 1.7 The weather station™s environment

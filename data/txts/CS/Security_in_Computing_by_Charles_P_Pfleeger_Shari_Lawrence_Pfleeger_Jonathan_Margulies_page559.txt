@@ -1,0 +1,40 @@
+ Section 7.4  Database Disclosure 
+525  is of the formq = count(a ^ b ^ c)By using the rules of logic and algebra, we can transform this query toq = count(a ^ b ^ c) = count(a) - count(a ^ ¬ (b ^ c))Thus, the original query is equivalent to
+count (SEX=F)minuscount ((SEX=F) ^ ((RACE=C) ^ (DORM=Holmes)))Because count(a)  6 and 
+count(a ^ ¬(b ^ c))  5, we can determine the sup-
+pressed value easily: 6 
+ 5  1. Furthermore, neither 6 nor 5 is a sensitive count.
+Linear System Vulnerability 
+A tracker is a specific case of a more general vulnerability. With a little logic, algebra 
+
+and luck in the distribution of the database contents, it may be possible to construct 
+
+an algebraic linear system of equations that returns results relating to several differ-
+ent sets. For example, the following system of five queries does not overtly reveal any 
+
+single c value from the database. However, the queries’ equations can be solved for each 
+of the unknown 
+c values, revealing them all.
+q1  c1 c2  c3  c4  c5 q2  c1 c2  c4 q3  c3  c4 q4  c4  c5 q5  c2  c5To see how, use basic algebra to note that 
+q1  q2  c3  c5, and q3  q4  c3  c5. Then, subtracting these two equations, we obtain 
+c5  ((
+q1  q2)  (q3  q4))/2. Once we know 
+c5, we can derive the others.
+In fact, this attack can also be used to obtain results 
+other than numerical ones. 
+Recall that we can apply logical rules to and (^) and or (^), typical operators for data-base queries, to derive values from 
+
+a series of logical expressions. For 
+
+example, each expression might 
+
+represent a query asking for precise 
+data instead of counts, such as the 
+
+equationq1  s1 ^ s2 ^ s3 ^ s4 ^ s5The result of the query is a set of records. Using logic and set algebra in a manner similar to our numerical example, we can carefully determine the actual values for each 
+
+of the si.Inference is difficult to control because 
+it can occur from algebraic calculations 
+
+beyond the scope of database 
+management systems.

@@ -1,0 +1,43 @@
+˜˜˚˛ˆ˜˜˜
+˜˜˜
+users work, and these assumptions may cause problems in specific situations. For exam-ple, a system to support student registration in a university may assume that students will 
+
+be registered for one degree at one university. However, if universities collaborate to offer 
+
+joint degrees, then it may be practically impossible to represent this detail in the system.Enterprise Resource Planning (ERP) systems, such as those produced by SAP and 
+Oracle, are large-scale, integrated systems designed to support business practices 
+
+such as ordering and invoicing, inventory management, and manufacturing schedul-
+ing (Monk and Wagner 2013). The configuration process for these systems involves 
+
+gathering detailed information about the customer™s business and business pro-
+cesses, and embedding this information in a configuration database. This often 
+
+requires detailed knowledge of configuration notations and tools and is usually car-
+ried out by consultants working alongside system customers.A generic ERP system includes a number of modules that may be composed in different ways to create a system for a customer. The configuration process involves 
+choosing which modules are to be included, configuring these individual modules, 
+defining business processes and business rules, and defining the structure and organ-
+ization of the system database. A model of the overall architecture of an ERP system 
+that supports a range of business functions is shown in Figure 15.13.The key features of this architecture are as follows:1. A number of modules to support different business functions. These are large grain 
+
+modules that may support entire departments or divisions of the business. In the 
+
+example shown in Figure 15.13, the modules that have been selected for inclusion 
+
+in the system are a module to support purchasing; a module to support supply chain 
+
+management; a logistics module to support the delivery of goods; and a customer 
+
+relationship management (CRM) module to maintain customer information.2. A defined set of business process models, associated with each module, which 
+relate to activities in that module. For example, the ordering process model may 
+define how orders are created and approved. This will specify the roles and 
+
+activities involved in placing an order.3. A common database that maintains information about all related business func-
+tions. Thus, it should not be necessary to replicate information, such as cus
+-
+tomer details, in different parts of the business.System database
+Business rulesPurchasingSupply chain
+Logistics
+CRM
+ProcessesProcessesProcessesProcessesFigure 15.13 The architecture of an 
+ERP system 

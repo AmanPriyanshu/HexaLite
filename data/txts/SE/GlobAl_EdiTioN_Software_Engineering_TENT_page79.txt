@@ -1,0 +1,34 @@
+˘˜˚˝˙˘˜˘˘˘
+I am not convinced that XP on its own is a practical agile method for most com-panies, but its most significant contribution is probably the set of agile development 
+practices that it introduced to the community. I discuss the most important of these 
+practices in this section.ˆˆSoftware requirements always change. To handle these changes, agile methods do not 
+
+have a separate requirements engineering activity. Rather, they integrate requirements 
+
+elicitation with development. To make this easier, the idea of ﬁuser storiesﬂ was devel-oped where a user story is a scenario of use that might be experienced by a system user.As far as possible, the system customer works closely with the development team 
+and discusses these scenarios with other team members. Together, they develop a 
+
+ﬁstory cardﬂ that briefly describes a story that encapsulates the customer needs. The 
+development team then aims to implement that scenario in a future release of the 
+
+software. An example of a story card for the Mentcare system is shown in Figure 3.5. 
+This is a short description of a scenario for prescribing medication for a patient.User stories may be used in planning system iterations. Once the story cards have been developed, the development team breaks these down into tasks (Figure 3.6) and 
+estimates the effort and resources required for implementing each task. This usually 
+involves discussions with the customer to refine the requirements. The customer 
+
+then prioritizes the stories for implementation, choosing those stories that can be 
+Kate is a doctor who wishes to prescribe medication for a patient attending a clinic.The patient record is already displayed on her computer so she clicks on the
+medication ˜eld and can select ‚current medication™, ‚new medication™ or ‚formulary™.
+If she selects ‚current medication™, the system asks her to check the dose; If she
+wants to change the dose, she enters the new dose then con˜rms the prescription.If she chooses ‚new medication™, the system assumes that she knows which
+medication to prescribe. She types the ˜rst few letters of the drug name. The system
+
+displays a list of possible drugs starting with these letters. She chooses the required
+
+medication and the system responds by asking her to check that the medication
+selected is correct. She enters the dose then con˜rms the prescription.If she chooses ‚formulary™, the system displays a search box for the approved
+formulary. She can then search for the drug required. She selects a drug and is asked
+to check that the medication is correct. She enters the dose then con˜rms theprescription.The system always checks that the dose is within the approved range. If it isn™t, Kate
+is asked to change the dose.After Kate has con˜rmed the prescription, it will be displayed for checking. She eitherclicks ‚OK™ or ‚Change™. If she clicks ‚OK™, the prescription is recorded on the audit
+database. If she clicks on ‚Change™, she reenters the ‚Prescribing medication™ process.
+Prescribing medicationFigure 3.5 A  ﬁprescribing medicationﬂ story

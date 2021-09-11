@@ -1,0 +1,51 @@
+902 APPENDIX 3  FORMAL METHODSx.yObtain the property y of object x. A property can be an attribute, the set of objects at 
+the end of an association, the result of evaluating an operation, or other things 
+depending on the type of UML diagram. If x is a Set, then y is applied to every 
+
+element of x; the results are collected into a new Set.c–>f()Apply the built-in OCL operation f to Collection c itself (as opposed to each of the 
+objects in c). Examples of built-in operations are listed below.
+and, or, 
+5, <>Logical and, logical or, equals, not-equals.
+p implies qTrue if either q is true or p is false.
+Sample of Operations on Collections (including Sets and Sequences)C–>size()The number of elements in Collection c.
+
+C–>isEmpty()True if c has no elements, false otherwise.
+
+c1–>includesAll(c2)True if every element of c2 is found in c1.
+
+c1–>excludesAll(c2)True if no element of c2 is found in c1.
+
+C–>forAll(elem | boolexpr)True if boolexpr is true when applied to every element of c. As an element is being 
+evaluated, it is bound to the variable elem, which can be used in boolexpr. This 
+
+implements universal quantification, discussed earlier.
+C–>forAll(elem1, elem2 | boolexpr)Same as above, except that boolexpr is evaluated for every possible 
+pair of elements taken from c, including cases where the pair consists of the same element. C–>isUnique(elem |expr)True if expr evaluates to a different value when applied to every element of c.
+Sample of Operations Specific to Setss1–>intersection(s2)The set of those elements found s1 and also in s2.
+
+s1–>union(s2)The set of those elements found in either s1 or s2.
+
+s1–>excluding(x)The set s1 with object x omitted.
+Sample Operation Specific to SequencesSeq–>first()The object that is the first element in the sequence seq.
+TABLE A3.1  
+SUMMARY OF KEY OCL NOTATION
+   To illustrate the use of OCL in speciﬁ cation, we reexamine the block handler 
+example, introduced in Chapter 28. The ﬁ rst step is to develop a UML model 
+(  
+Figure A3.1). This class diagram speciﬁ es many relationships among the objects 
+involved. However, OCL expressions are added to allow implementers of the sys-
+tem to know more precisely what must remain true as the system runs.  
+ The OCL expressions that supplement the class diagram correspond to the six 
+parts of the invariant discussed in Section 28.6. In the example that follows, the in-
+variant is repeated in English and then the corresponding OCL expression is written. 
+
+It is considered good practice to provide natural language text along with the formal 
+
+logic; doing so helps you to understand the logic, and also helps reviewers to uncover 
+
+mistakes, for example, situations where English and the logic do not correspond. 
+   
+ 1.  No block will be marked as both unused and used.  
+   context BlockHandler inv: 
+
+    (self.used–>intersection(self.free)) –>isEmpty()   

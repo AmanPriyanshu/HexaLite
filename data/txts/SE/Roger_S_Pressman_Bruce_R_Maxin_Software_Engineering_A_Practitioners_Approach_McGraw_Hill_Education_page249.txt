@@ -1,0 +1,72 @@
+CHAPTER 11  
+REQUIREMENTS MODELING: BEHAVIOR, PATTERNS, AND WEB/MOBILE APPS
+ 219 
+Regardless of the level of procedural abstraction, the UML activity diagram can be used to represent processing details. At the analysis level, activity dia-
+grams should be used only where the functionality is relatively complex. Much 
+of the complexity of WebApps and mobile apps occurs not in the functionality 
+
+provided, but rather with the nature of the information that can be accessed and 
+the ways in which this can be manipulated.  An example of relatively complex functionality for  www.safehomeassured
+.com 
+ is addressed by a use case entitled  
+Get recommendations for sensor layout 
+for my space. 
+ The user has already developed a layout for the space to be moni-
+tored, and in this use case, selects that layout and requests recommended loca-
+tions for sensors within the layout.  www.safehomeassured.com
+ 
+ responds with 
+a graphical representation of the layout with additional information on the rec-
+ommended locations for sensors. The interaction is quite simple, the content is 
+somewhat more complex, but the underlying functionality it very sophisticated. 
+The system must undertake a relatively complex analysis of the ﬂ oor layout in 
+order to determine the optimal set of sensors. It must examine room dimensions, 
+the location of doors and windows, and coordinate these with sensor capabilities 
+and speciﬁ cations. No small task! A set of activity diagrams can be used to de-
+scribe processing for this use case.  The second example is the use case  Control cameras.
+ 
+ In this use case, the in-
+teraction is relatively simple, but there is the potential for complex functionality, 
+
+given that this “simple” operation requires complex communication with devices 
+located remotely and accessible across the Internet. A further possible compli-
+cation relates to negotiation of control when multiple authorized people attempt 
+to monitor and/or control a single sensor at the same time.   
+Figure 11.6  depicts an activity diagram for the  
+takeControlOfCamera()
+ 
+ oper-
+ation that is part of the  Camera 
+ analysis class used within the  
+Control cameras
+ 
+ use case. It should be noted that two additional operations are invoked with the 
+procedural ﬂ ow:  
+requestCameraLock(),
+ 
+ which tries to lock the camera for this 
+user, and  
+getCurrentCameraUser(),
+ 
+ which retrieves the name of the user who is 
+currently controlling the camera. The construction details indicating how these 
+operations are invoked and the interface details for each operation are not con-
+sidered until WebApp design commences. 
+  An extension of  SafeHome 
+ WebApp functionality might occur with the devel-
+opment of a mobile app that provides access to the  SafeHome 
+ system from a 
+smart phone or tablet. The content and functional requirements for a  SafeHome 
+ mobile app might be similar to a subset of those provided by the WebApp, but 
+
+speciﬁ c interface and security requirements would have to be established. 
+ 
+ 
+ 
+11.5.7  Conﬁ
+ guration Models for WebApps 
+ 
+In some cases, the conﬁ guration model is nothing more than a list of server-side and 
+client-side attributes. However, for more complex apps, a variety of conﬁ
+ guration 
+pre22126_ch11_202-223.indd   219pre22126_ch11_202-223.indd   21913/12/13   6:12 PM13/12/13   6:12 PM

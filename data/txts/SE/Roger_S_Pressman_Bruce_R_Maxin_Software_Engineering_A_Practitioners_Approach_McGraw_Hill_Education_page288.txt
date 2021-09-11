@@ -1,0 +1,75 @@
+258 PART TWO  
+MODELING 
+ 
+ 
+ 
+ 13.3 A
+RCHITECTURAL STYLES  
+ 
+When a builder uses the phrase “center hall colonial” to describe a house, most people familiar with houses in the United States will be able to conjure a general 
+image of what the house will look like and what the ﬂ oor plan is likely to be. The 
+builder has used an  architectural style
+ 
+ as a descriptive mechanism to differenti-
+ate the house from other styles (e.g., A-frame, raised ranch, Cape Cod). But more 
+important, the architectural style is also a template for construction. Further 
+ details of the house must be deﬁ ned, its ﬁ
+ nal dimensions must be speciﬁ
+ ed, cus-
+tomized features may be added, building materials are to be determined, but the 
+style—a “center hall colonial”—guides the builder in his work.   
+The software that is built for computer-based systems also exhibits one of many 
+architectural styles. Each style describes a system category that encompasses 
+(1) a set of components (e.g., a database, computational modules) that perform 
+a function required by a system, (2) a set of connectors that enable “communi-
+cation, coordination and cooperation” among components, (3) constraints that 
+deﬁ semantic 
+models that enable a designer to understand the overall properties of a system by 
+analyzing the known properties of its constituent parts [Bas03].  
+ 
+ 
+   
+An architectural style is a transformation that is imposed on the design of an  entire system. The intent is to establish a structure for all components of the system. In the case where an existing architecture is to be reengineered ( Chap-36 
+), the  imposition of an architectural style will result in fundamental changes to the structure of the software including a reassignment of the functionality of 
+components [Bos00].  
+ 
+ 
+   
+An architectural pattern, like an architectural style, imposes a transforma-tion on the design of an architecture. However, a pattern differs from a style in a 
+
+number of fundamental ways: (1) the scope of a pattern is less broad, focusing on 
+one aspect of the architecture rather than the architecture in its entirety, (2) a 
+
+pattern imposes a rule on the architecture, describing how the software will han-
+dle some aspect of its functionality at the infrastructure level (e.g., concurrency) 
+[Bos00], (3) architectural patterns (Section 13.3.2) tend to address speciﬁ c behav-
+ioral issues within the context of the architecture (e.g., how real-time applica-
+tions handle synchronization or interrupts). Patterns can be used in conjunction 
+with an architectural style to shape the overall structure of a system.   
+13.3.1  A Brief Taxonomy of Architectural Styles 
+ 
+Although millions of computer-based systems have been created over the past 60 
+years, the vast majority can be categorized into one of a relatively small number 
+of architectural styles:   
+Data-Centered Architectures.   A data store (e.g., a ﬁ le or database) resides at 
+the center of this architecture and is accessed frequently by other components  WebRef 
+ Attribute-based archi-
+tectural styles (ABAS) 
+can be used as building 
+blocks for software 
+architectures. Informa-
+
+tion can be obtained 
+at   
+www.sei.cmu.
+edu/architecture/
+abas.html.   
+ What is an 
+architectural style? ?  uote:  “There is at the 
+back of every 
+
+artist’s mind, a 
+
+pattern or type of 
+architecture.”  G. K. Chesterton 
+pre22126_ch13_252-284.indd   258pre22126_ch13_252-284.indd   25813/12/13   6:12 PM13/12/13   6:12 PM

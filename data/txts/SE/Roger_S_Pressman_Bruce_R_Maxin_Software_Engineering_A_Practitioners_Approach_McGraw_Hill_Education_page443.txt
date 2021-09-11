@@ -1,0 +1,82 @@
+CHAPTER 19  
+QUALITY CONCEPTS 413 
+ 
+ 
+ 
+ 
+ 19.1  
+WHAT
+ IS QUALITY?  
+ 
+In his mystical book  Zen and the Art of Motorcycle Maintenance,
+ 
+ Robert Persig 
+[Per74] commented on the thing we call  quality 
+: 
+ 
+ 
+. you know what it is, yet you don’t know what it is. But that’s self- 
+contradictory. But some things are better than others; that is, they have more quality. 
+
+But when you try to say what the quality is, apart from the things that have it, it all 
+goes poof! There’s nothing to talk about. But if you can’t say what Quality is, how do 
+
+you know what it is, or how do you know that it even exists? If no one knows what it 
+is, then for all practical purposes it doesn’t exist at all. But for all practical purposes 
+it really does exist. What else are the grades based on? Why else would people pay 
+fortunes for some things and throw others in the trash pile? Obviously some things 
+. but what’. So round and round you go, 
+
+spinning mental wheels and nowhere ﬁ nding anyplace to get traction. What the hell 
+is Quality? What is it?   
+ 
+Indeed—what is it?   
+ 
+At a somewhat more pragmatic level, David Garvin [Gar84] of the Harvard 
+Business School suggests that “quality is a complex and multifaceted concept” that 
+
+can be described from ﬁ ve different points of view. The  
+transcendental view 
+ argues 
+(like Persig) that quality is something you immediately recognize, but cannot ex-
+plicitly deﬁ ne. The  
+user view 
+ sees quality in terms of an end user’s speciﬁ
+ c goals. If 
+a product meets those goals, it exhibits quality. The  
+manufacturer’s view
+ 
+ deﬁ
+ nes 
+quality in terms of the original speciﬁ cation of the product. If the product conforms 
+ What are 
+the different ways in which 
+quality can be 
+viewed? ?they write, multiply that by the millions of lines of code in many commercial products, then ﬁ gure it costs software vendors at least half their development budgets to ﬁ
+ x 
+errors while testing. Get the picture?  
+  
+In 2005,  ComputerWorld
+ 
+ [Hil05] lamented that “bad software plagues nearly 
+every organization that uses computers, causing lost work hours during com-
+puter downtime, lost or corrupted data, missed sales opportunities, high IT 
+support and maintenance costs, and low customer satisfaction. A year later, 
+
+  
+InfoWorld
+ 
+ [Fos06] wrote about the “the sorry state of software quality” reporting 
+that the quality problem had not gotten any better. As the emphasis on software 
+
+quality grew, a survey of 100,000 white-collar professionals [Rog12] indicated that 
+
+software quality engineers were “the happiest workers in America”!  Today, software quality remains an issue, but who is to blame? Customers blame 
+developers, arguing that sloppy practices lead to low-quality software. Develop-
+ers blame customers (and other stakeholders), arguing that irrational delivery 
+dates and a continuing stream of changes force them to deliver software before 
+it has been fully validated. Who’s right?  
+Both 
+—and that’s the problem. In this 
+ chapter, we consider software quality as a concept and examine why it’s worthy 
+of serious consideration whenever software engineering practices are applied. pre22126_ch19_411-430.indd   413pre22126_ch19_411-430.indd   41313/12/13   6:13 PM13/12/13   6:13 PM

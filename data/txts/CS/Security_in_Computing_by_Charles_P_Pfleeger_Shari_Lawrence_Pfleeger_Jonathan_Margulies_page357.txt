@@ -1,0 +1,69 @@
+ Section 5.2  Security in the Design of Operating Systems 
+323  A more sensible approach is to design the security kernel first and then design the 
+operating system around it. This technique was used by Honeywell in the design of a 
+
+prototype for its secure operating system, Scomp. That system contained only twenty 
+
+modules to perform the primitive security functions, and these modules consisted of 
+
+fewer than 1,000 lines of higher-level-language source code. Once the actual security 
+
+kernel of Scomp was built, its functions grew to contain approximately 10,000 lines 
+
+of code.In a security-based design, the security kernel forms an interface layer, just atop 
+system hardware. The security kernel monitors all operating system hardware accesses 
+
+and performs all protection functions. The security kernel, which relies on support from 
+
+hardware, allows the operating system itself to handle most functions not related to 
+
+security. In this way, the security kernel can be small and efficient. As a byproduct of 
+
+this partitioning, computing systems have at least three execution domains: security 
+
+kernel, operating system, and user. This situation was depicted in Figure 5-1 at the start 
+
+of this chapter.
+Secure Startup
+Startup is a known weak point in system design. Before the operating system is fully 
+functional, its protection capabilities are limited. As more pieces become operational, 
+
+they exercise more complete control over the resources. During startup, the nature of 
+
+the threats is also lowered because users are not yet active and network connections 
+
+have not yet been established.
+Designers of trusted systems recognized the vulnerability at system startup, espe-cially if it was a restart from a previous failure. Thus, trusted system design documents 
+
+such as the Orange Book [DOD85] 
+require developers to demonstrate 
+
+that when the system starts, all secu-
+
+rity functions are working properly 
+
+and no effects remain from any pre-
+
+vious system session. Trusted Path
+Critical to security is the association of a human user to an operating system’s internal 
+construct of a subject. In Chapter 2 we detailed authentication techniques by which a 
+user could prove an identity to the operating system.
+But what about the other direction: A user cannot be expected to expose unique 
+validating data to any software that requests it. (You would not—or at least should 
+
+not—enter your password on any screen that prompts you.) As you well know, any 
+
+moderately competent programmer can write code to pop up a box with fields for user 
+
+name and password. How can you be assured the box comes from and passes entered 
+
+data to the password manager?
+How do you know that box is legitimate? This question is really just the other side 
+of authentication: the application wants to ensure that you are who you say you are, but 
+
+you also need to know that the application is what it says it is.
+Secure startup ensures no malicious 
+
+code can block or interfere with security 
+
+enforcement.

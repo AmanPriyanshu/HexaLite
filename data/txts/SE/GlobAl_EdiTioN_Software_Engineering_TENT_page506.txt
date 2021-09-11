@@ -1,0 +1,34 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜˜˜The three-tier clientŒserver model can be extended to a multi-tier variant, where additional servers are added to the system. This may involve using a web server for 
+data management and separate servers for application processing and database ser-
+vices. Multi-tier systems may also be used when applications need to access and use 
+data from different databases. In this case, you may need to add an integration server 
+to the system. The integration server collects the distributed data and presents it to 
+the application server as if it were from a single database. As I discuss in the follow
+-
+ing section, distributed component architectures may be used to implement multi-
+
+tier clientŒserver systems.Multi-tier clientŒserver systems that distribute application processing across sev-eral servers are more scalable than two-tier architectures. The tiers in the system can 
+be independently managed, with additional servers added as the load increases. 
+
+Processing may be distributed between the application logic and the data-handling 
+servers, thus leading to more rapid response to client requests.Designers of clientŒserver architectures must take a number of factors into account 
+when choosing the most appropriate distribution architecture. Situations in which the 
+
+clientŒserver architectures discussed here may be used are described in Figure 17.11.By organizing processing into layers, as shown in Figure 17.6, each layer of a system 
+
+can be implemented as a separate logical server. This model works well for many 
+
+types of application. However, it limits the flexibility of system designers in that they 
+Figure 17.11 Use of clientŒserver 
+architectural patternsArchitectureApplicationsTwo-tier clientŒserver 
+architecture with thin clientsLegacy system applications that are used when separating application 
+processing and data handling is impractical. Clients may access these as 
+services, as discussed in Section 17.4.Computationally intensive applications such as compilers with little or no requirements for data handling.Data-intensive applications (browsing and querying) with non-intensive application processing. Simple web browsing is the most common 
+example of a situation where this architecture is used.Two-tier clientŒserver 
+architecture with fat clientsApplications where application processing is provided by off-the-shelf 
+software (e.g., Microsoft Excel) on the client.Applications where computationally intensive processing of data (e.g., data visualization) is required.Mobile applications where internet connectivity cannot be guaranteed. Local processing using cached information from the database is therefore 
+
+possible.Multi-tier clientŒserver 
+architectureLarge-scale applications with hundreds or thousands of clients.Applications where both the data and the application are volatile.
+Applications where data from multiple sources are integrated.

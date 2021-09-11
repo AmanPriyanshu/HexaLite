@@ -1,0 +1,87 @@
+CHAPTER 4  
+PROCESS MODELS 49 
+ 
+ 
+The ﬁ rst circuit around the spiral might result in the development of a prod-
+uct speciﬁ cation; subsequent passes around the spiral might be used to develop 
+a prototype and then progressively more sophisticated versions of the software. 
+Each pass through the planning region results in adjustments to the project plan. 
+Cost and schedule are adjusted based on feedback derived from the customer 
+after delivery. In addition, the project manager adjusts the planned number of 
+
+iterations required to complete the software.  Unlike other process models that end when software is delivered, the spiral model can be adapted to apply throughout the life of the computer software. 
+Therefore, the ﬁ rst circuit around the spiral might represent a “concept develop-
+ment project” that starts at the core of the spiral and continues for multiple iter-
+
+ations  5 
+ 
+ until concept development is complete. If the concept is to be developed 
+into an actual product, the process proceeds outward on the spiral and a “new 
+product development project” commences. The new product will evolve through 
+a number of iterations around the spiral. Later, a circuit around the spiral might 
+
+be used to represent a “product enhancement project.” In essence, the spiral, 
+when characterized in this way, remains operative until the software is retired. 
+
+There are times when the process is dormant, but whenever a change is initiated, 
+the process starts at the appropriate entry point (e.g., product enhancement).   
+ 
+The spiral model is a realistic approach to the development of large-scale systems and software. Because software evolves as the process progresses, the 
+developer and customer better understand and react to risks at each evolution-
+ary level. The spiral model uses prototyping as a risk reduction mechanism but, 
+more important, enables you to apply the prototyping approach at any stage in 
+the evolution of the product. It maintains the systematic stepwise approach sug-
+gested by the classic life cycle but incorporates it into an iterative framework 
+that more realistically reﬂ ects the real world. The spiral model demands a direct 
+consideration of technical risks at all stages of the project and, if properly ap-
+plied, should reduce risks before they become problematic.   But like other paradigms, the spiral model is not a panacea. It may be difﬁ cult 
+to convince customers (particularly in contract situations) that the evolutionary 
+approach is controllable. It demands considerable risk assessment expertise 
+and relies on this expertise for success. If a major risk is not uncovered and man-
+aged, problems will undoubtedly occur. 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+4.1.4 Concurrent Models 
+ 
+  
+The  concurrent development model,
+ 
+ sometimes called  
+concurrent engineering,
+ 
+ allows a software team to represent iterative and concurrent elements of any of 
+the process models described in this chapter. For example, the modeling activity 
+ WebRef 
+ Useful information 
+about the spiral model 
+can be obtained at: 
+  www.sei.cmu.
+edu/publications/
+documents/00.
+reports/00sr008.
+html  . 
+ 
+ 
+5  The arrows pointing inward along the axis separating the  
+deployment 
+ region from the  
+commu-nication 
+ region indicate a potential for local iteration along the same spiral path.    If your management 
+demands ﬁ xed-budget 
+
+development (gen-
+erally a bad idea), 
+the spiral can be a 
+problem. As each 
+circuit is completed, 
+project cost is revisited 
+and revised.   uote:  “I’m only this far 
+and only tomorrow 
+leads my way.” 
+ Dave 
+Matthews Band pre22126_ch04_040-065.indd   49pre22126_ch04_040-065.indd   4913/12/13   6:10 PM13/12/13   6:10 PM

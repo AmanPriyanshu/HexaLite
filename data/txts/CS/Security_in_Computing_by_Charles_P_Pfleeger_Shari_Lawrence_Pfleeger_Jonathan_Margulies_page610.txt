@@ -1,0 +1,79 @@
+576 Chapter 8  
+Cloud Computingnative applications, and their code can be reverse engineered. A mildly skilled mali-
+cious user can easily steal keys from a Public Client. Public Clients are therefore not as 
+
+trustworthy as Confidential Clients.
+To build an OAuth Client, you must first register with the service you want to 
+access. Registration generally means you give the Authorization Server your applica-
+
+tion’s URL, and the Authorization Server gives you a unique identifier (“Client ID”) 
+
+and a Client Secret to use for authentication (note that this authenticates the OAuth Cli-
+
+ent, not a user). The application URL plays an important security role for Confidential 
+
+Clients: The Authorization Server will send tokens only to that URL. An attacker trying 
+
+to use a rogue Client to impersonate your Client will need to hijack your URL to suc-
+
+ceed. Unfortunately, as Sidebar 8-5 shows, not all Authorization Servers enforce this 
+
+requirement.A user will typically access an OAuth Client either through a browser or by down-
+loading an application. When the user first registers with the Client, the Client sends a 
+
+Request Token to the authorization server. The Request Token includes the Client ID, 
+
+the application URL, and the requested access rights. In response to the Request Token, 
+
+the Authorization Server should ask the user to log in. Ideally, the Client will not act as 
+
+a go-between for this login, because sharing the user’s password with the Client defeats 
+
+the purpose of using OAuth; in practice, unfortunately, OAuth Clients often do see user 
+
+login information during this step.Once the Authorization Server has authenticated the user, it should display the 
+access rights the Client requested, offering an opportunity for their revocation. What 
+
+happens once this is complete depends on whether the Client is Confidential or Public. 
+
+In the case of a Public Client—imagine a native application through which the user 
+
+has just logged in to the Authorization Server—the Authorization Server just sends an 
+
+Access Token directly to the Client. In the case of a Confidential Client, the user’s 
+
+browser will act as a man in the middle for this next exchange, thereby creating a small 
+
+window of vulnerability. To address this vulnerability, the Authorization Server sends 
+
+the Client, through the user’s browser, an intermediate credential called an Authoriza-
+
+tion Code. The Client must then send the Authorization Code and the Client Secret 
+
+directly to the Authorization Server, in exchange for which the Authorization Server 
+
+sends the longer-lived Access Token. As the Confidential Client is presumably the only 
+
+entity that has the Client Secret, this method provides reasonable assurance that only 
+
+the real Client will get an Access Token. One more note on Authorization Codes: If an 
+
+Authorization Server receives the same Authorization Code twice, it should immedi-
+
+ately revoke it along with any tokens that resulted from it: The Authorization Code has 
+
+likely been compromised.
+The Access Token is the credential that OAuth Clients use to log in to Resource 
+Servers and make API calls on a user’s behalf. A good security practice is to have Access 
+
+Tokens expire after the length of a typical session (usually on the order of an hour or 
+
+two) in order to limit risk if the tokens become compromised. Authorization Servers 
+
+may give Confidential Clients more persistent access through Refresh Tokens. Clients 
+
+can send Refresh Tokens to Authorization Servers whenever they need new Access 
+
+Tokens. Confidential Clients typically store Refresh Tokens permanently, and those 
+
+tokens continue to function until the user or service provider deauthorizes the client.

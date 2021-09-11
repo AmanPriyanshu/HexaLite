@@ -1,0 +1,48 @@
+ Section 6.2  Threats to Network Communications 
+365  breaking the encryption. Suppose a merchant has a credit card terminal with built-in 
+encryption, such that the user’s card number, perhaps a PIN, the transaction amount, 
+
+and merchant’s identifier are bound into a single message, encrypted, and transmitted to 
+
+the credit processing center. Even without breaking the encryption, a merchant who taps 
+
+the communications line can repeat that same transaction message for a second transfer 
+of the same amount. Of course, two identical transactions to one merchant would be 
+
+noticeable and natural for the client to dispute, and the net gain from repeating a single 
+credit purchase would be relatively small. Nevertheless, possible repetition of a transac-
+
+tion would be a vulnerability.
+Replay attacks can also be used with authentication credentials. Transmitting an 
+identity and password in the clear is an obvious weakness, but transmitting an identity 
+
+in the clear but with an encrypted password is similarly weak, as shown in Figure 6-10. 
+
+If the attacker can interject the encrypted password into the communications line, then 
+
+the attacker can impersonate a valid user without knowing the password.
+A similar example involves cookies for authentication. Email programs that run 
+within a browser (such as Gmail, Yahoo mail, and Hotmail) sometimes identify and 
+
+authenticate with a cookie so a user need not repeatedly type an identifier and password 
+
+to open email. If the attacker can intercept cookies being sent to (or extract cookies 
+
+stored by) the victim’s browser, then returning that same cookie can let the attacker open 
+
+an email session under the identity of the victim. The login and password exchange can 
+
+be securely encrypted and so can the content of the cookie. For this attack to succeed, 
+
+the remote email service need only accept a copy of its own cookie as a valid login 
+
+credential.Replay attacks are countered with a sequencing number. The sender assigns each 
+communication a sequence number, which can be unique to a single recipient (mes-
+
+sage 1 to James, message 2 to James, and so forth) or one numbering sequence for all 
+messages (message 1, message 2, message 3, where 1 went to James, 2 to Klara, and 3 to 
+Lars). Each recipient keeps the last message number received and checks each incoming 
+
+message to ensure that its number is greater than the previous message received.
+FIGURE 6-10 Encrypted Password Failure
+InterceptionEncryptionIDIDIDPWPassword (encrypted)Password (encrypted)ReplayServer

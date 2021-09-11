@@ -1,0 +1,37 @@
+˜˜˚˛ˆ˜˜˜
+˜˜˜
+
+An application system product is a software system that can be adapted to the needs 
+of different customers without changing the source code of the system. Application 
+systems are developed by a system vendor for a general market; they are not spe-
+cially developed for an individual customer. These system products are sometimes 
+known as COTS (Commercial Off-the Shelf System) products. However, the term 
+
+ﬁCOTSﬂ is mostly used in military systems, and I prefer to call these system prod-
+ucts application systems.Virtually all desktop software for business and many server-based systems are 
+application systems. This software is designed for general use, so it includes many 
+features and functions. It therefore has the potential to be reused in different environ
+-
+ments and as part of different applications. Torchiano and Morisio (Torchiano and 
+Morisio 2004) also discovered that open-source products were often used without 
+
+change and without looking at the source code.Application system products are adapted by using built-in configuration mecha-nisms that allow the functionality of the system to be tailored to specific customer 
+needs. For example, in a hospital patient record system, separate input forms and 
+
+output reports might be defined for different types of patients. Other configuration 
+features may allow the system to accept plug-ins that extend functionality or check 
+
+user inputs to ensure that they are valid.This approach to software reuse has been very widely adopted by large com-panies since the late 1990s, as it offers significant benefits over customized soft-
+ware development:1. As with other types of reuse, more rapid deployment of a reliable system may 
+be possible.2. It is possible to see what functionality is provided by the applications, and so it 
+
+is easier to judge whether or not they are likely to be suitable. Other companies 
+may already use the applications, so experience of the systems is available.3. Some development risks are avoided by using existing software. However, this 
+approach has its own risks, as I discuss below.4.
+ Businesses can focus on their core activity without having to devote a lot of 
+
+resources to IT systems development.5. As operating platforms evolve, technology updates may be simplified as these 
+are the responsibility of the application system vendor rather than the customer.Of course, this approach to software engineering has its own problems:1. Requirements usually have to be adapted to reflect the functionality and mode 
+
+of operation of the off-the-shelf application system. This can lead to disruptive 
+changes to existing business processes.

@@ -1,0 +1,39 @@
+˜˜˚˛˜˜˜˜
+˜˜˜
+DesignpatternsArchitecturalpatternsApplicationframeworksSoftware productlinesApplicationsystem integration
+ERP systems
+Systems of
+systemsConfigurableapplication systemsLegacy systemwrappingComponent-basedsoftware engineering
+Model-drivenengineering
+Service-orientedsystemsAspect-orientedsoftware engineering
+Program
+generatorsProgram
+librariesFigure 15.3 The reuse landscape and reusable assets available, and the expertise of the development team. Key factors that you should consider when planning reuse are:1. The development schedule for the software If the software has to be developed quickly, you should try to reuse complete systems rather than individual compo-
+nents. Although the fit to requirements may be imperfect, this approach mini
+-
+mizes the amount of development required.2. The expected software lifetime If you are developing a long-lifetime system, 
+
+you should focus on the maintainability of the system. You should not just think 
+about the immediate benefits of reuse but also of the long-term implications. Over its lifetime, you will have to adapt the system to new requirements, which 
+will mean making changes to parts of the system. If you do not have access to 
+
+the source code of the reusable components, you may prefer to avoid off-the-
+shelf components and systems from external suppliers. These suppliers may not 
+be able to continue support for the reused software. You may decide that it is 
+safer to reuse open-source systems and components (Chapter 7) as this means 
+you can access and keep copies of the source code.3. The background, skills and experience of the development team All reuse tech-
+nologies are fairly complex, and you need quite a lot of time to understand and 
+use them effectively. Therefore, you should focus your reuse effort in areas 
+
+where your development team has expertise.4. The criticality of the software and its non-functional requirements 
+For a critical 
+system that has to be certified by an external regulator you may have to create a 
+safety or security case for the system (discussed in Chapter 12). This is difficult 
+
+if you don™t have access to the source code of the software. If your software has 
+stringent performance requirements, it may be impossible to use strategies such 
+as model-driven engineering (MDE) (Chapter 5). MDE relies on generating 
+
+code from a reusable domain-specific model of a system. However, the code 
+
+generators used in MDE often generate relatively inefficient code.

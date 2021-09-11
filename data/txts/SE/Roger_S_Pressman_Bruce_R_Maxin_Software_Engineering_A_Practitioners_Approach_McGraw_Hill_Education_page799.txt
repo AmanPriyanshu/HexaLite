@@ -1,0 +1,117 @@
+CHAPTER 34  
+PROJECT SCHEDULING 769 
+ 
+ 
+•  A behavioral model (Chapter 11) has been created and reviewed.   
+ 
+ 
+•  Reusable classes have been noted.  
+ 
+  
+ 
+ 
+ 
+ 
+Technical milestone: OO design completed 
+ 
+ 
+ 
+•  The set of subsystems has been deﬁ ned and reviewed. 
+  
+ 
+ 
+•  Classes are allocated to subsystems and reviewed.   
+ 
+ 
+•  Task allocation has been established and reviewed. 
+  
+ 
+ 
+•  Responsibilities and collaborations have been identiﬁ ed. 
+  
+ 
+ 
+•  Attributes and operations have been designed and reviewed.   
+ 
+ 
+•  The communication model has been created and reviewed.  
+ 
+  
+ 
+ 
+ 
+ 
+Technical milestone: OO programming completed 
+ 
+ 
+ 
+•  Each new class has been implemented in code from the design model.   
+ 
+ 
+•  Extracted classes (from a reuse library) have been implemented.   
+ 
+ 
+•  Prototype or increment has been built.  
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+Technical milestone: OO testing 
+ 
+ 
+ 
+•  The correctness and completeness of OO analysis and design models have been reviewed.   
+ 
+ 
+•  A class-responsibility-collaboration network (Chapter 10) has been devel-oped and reviewed.   
+ 
+ 
+•  Test cases are designed, and class-level tests (Chapter 24) have been con-
+ducted for each class.   
+ 
+ 
+•  Test cases are designed, and cluster testing (Chapter 24) is completed and 
+the classes are integrated.   
+ 
+ 
+•  System-level tests have been completed.  
+ 
+  Recalling that the OO process model is iterative, each of these milestones may be revisited as different increments are delivered to the customer. 
+  
+ 
+ 
+34.5.4   
+Scheduling for WebApp and Mobile Projects 
+ 
+ 
+Web and MobileApp project scheduling
+ 
+ distributes estimated effort across the 
+planned time line (duration) for building each increment. This is accomplished 
+by allocating the effort to speciﬁ c tasks. It is important to note, however, that 
+the overall schedule evolves over time. During the ﬁ rst iteration, a macroscopic 
+schedule is developed. This type of schedule identiﬁ es all Web or MobileApp 
+increments and projects the dates on which each will be deployed. As the de-
+velopment of an increment gets under way, the entry for the increment on the 
+
+macroscopic schedule is reﬁ ned into a detailed schedule. Here, speciﬁ
+ c devel-
+opment tasks (required to accomplish an activity) are identiﬁ ed and scheduled. 
+   Debugging and testing 
+occur in concert with 
+
+one another. The 
+
+status of debugging 
+is often assessed by 
+considering the type 
+and number of “open” 
+errors (bugs). 
+pre22126_ch34_754-776.indd   769pre22126_ch34_754-776.indd   76913/12/13   10:02 PM13/12/13   10:02 PM

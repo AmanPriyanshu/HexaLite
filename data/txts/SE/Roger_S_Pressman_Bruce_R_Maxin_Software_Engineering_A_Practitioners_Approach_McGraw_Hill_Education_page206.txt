@@ -1,0 +1,96 @@
+176 PART TWO  
+MODELING 
+ 
+ 
+10.   
+The system displays a viewing window that is identiﬁ ed by the camera ID. 
+   
+ 
+11.   
+The system displays video output within the viewing window at one frame  
+ 
+  
+It is important to note that this sequential presentation does not consider any alternative interactions (the narrative is more free ﬂ owing and did represent a 
+few alternatives). Use cases of this type are sometimes referred to as  primary scenarios 
+ [Sch98a].  
+  
+ 
+ 
+ 
+9.2.2 Reﬁ ning a Preliminary Use Case 
+ 
+ 
+ 
+  
+ 
+A description of alternative interactions is essential for a complete understand-ing of the function that is being described by a use case. Therefore, each step in 
+the primary scenario is evaluated by asking the following questions [Sch98a]:  
+ 
+ 
+•   
+Can the actor take some other action at this point? 
+ 
+  
+ 
+ 
+•   
+Is it possible that the actor will encounter some error condition at this 
+point? 
+ If so, what might it be?   
+ 
+ 
+•   
+Is it possible that the actor will encounter some other behavior at this point (e.g., behavior that is invoked by some event outside the actor’s control)?
+ 
+ If so, what might it be?  
+ 
+  Answers to these questions result in the creation of a set of  secondary scenar-
+ios 
+ that are part of the original use case but represent alternative behavior. For 
+example, consider steps 6 and 7 in the primary scenario presented earlier:   
+ 
+ 
+6.  The homeowner selects “pick a camera.”     
+ 
+7.  The system displays the ﬂ oor plan of the house. 
+ 
+ 
+   
+Can the actor take some other action at this point? 
+ The answer is yes 
+. 
+ Re-
+ferring to the free-ﬂ owing narrative, the actor may choose to view thumbnail 
+snapshots of all cameras simultaneously. Hence, one secondary scenario might 
+
+be “View thumbnail snapshots for all cameras.” 
+  
+Is it possible that the actor will encounter some error condition at this point?
+ 
+ Any number of error conditions can occur as a computer-based system oper-
+
+ates. In this context, we consider only error conditions that are likely as a di-
+rect result of the action described in step 6 or step 7. Again the answer to the 
+
+question is yes. A ﬂ oor plan with camera icons may have never been conﬁ
+ g-
+ured. Hence, selecting “pick a camera” results in an error condition: “No ﬂ oor 
+plan conﬁ gured for this house.” 
+ 10 
+ 
+ This error condition becomes a secondary 
+scenario. 
+ How do I 
+examine alternative 
+courses of action 
+when I develop a 
+use case? ?  
+10  In this case, another actor, the  
+system administrator,
+ 
+ would have to conﬁ
+ gure the ﬂ
+ oor plan, 
+install and initialize (e.g., assign an equipment ID) all cameras, and test each camera to be 
+certain that it is accessible via the system and through the ﬂ oor plan. 
+pre22126_ch09_166-183.indd   176pre22126_ch09_166-183.indd   17613/12/13   6:11 PM13/12/13   6:11 PM

@@ -1,0 +1,42 @@
+434 PART THREE  
+QUALITY MANAGEMENTexist. The relative costs associated with the discovery and correction of errors, overall cost (with and without review for our hypothetical example) can be es-
+tablished. The number of errors uncovered during each of the steps noted in 
+20.2 and 20.3 is multiplied by the cost to remove an error (1.5 cost units 
+
+for design, 6.5 cost units before test, 15 cost units during test, and 67 cost units 
+after release).  2 
+ 
+ 
+ Using these data, the total cost for development and maintenance 
+when reviews are conducted is 783 cost units. When no reviews are conducted, 
+total cost is 2177 units—nearly three times more costly. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Preliminary design 
+0100Detail design25Code/unit test25To integration
+Integration test0050%Validation test
+0050%System test0050%Latent errors(defects)32170%50%21   1.5
+24632460%510  3††155
+1012 FIGURE 20.3 
+Defect ampliﬁ cation—
+reviews 
+
+conducted6Preliminary design
+01000%1064Detail design4 × 1.5   x = 1.5250%3710
+27Code/unit test102527 × 3     x = 320%94To integration
+94Integration test0050%47Validation test
+0050%24System test0050%12Latent errors(defects) FIGURE 20.2 
+Defect ampliﬁ cation—
+no reviews
+  
+2  These multipliers are somewhat different from the data presented in Figure 19.2, which is more 
+current. However, they serve to illustrate the costs of defect ampliﬁ
+ cation nicely. 
+pre22126_ch20_431-447.indd   434pre22126_ch20_431-447.indd   43413/12/13   10:01 PM13/12/13   10:01 PM

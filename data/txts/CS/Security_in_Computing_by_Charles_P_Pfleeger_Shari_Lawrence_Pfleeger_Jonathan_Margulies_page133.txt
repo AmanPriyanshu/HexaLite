@@ -1,0 +1,28 @@
+ Section 2.3  Cryptography 
+99  Strength of the Algorithm
+The characteristics and apparent strength of DES and AES are compared in Table 2-12. 
+Remember, of course, that these strength figures apply only if the implementation and 
+
+use are robust; a strong algorithm loses strength if used with a weakness that lets outsid-
+
+ers determine key properties of the encrypted data.
+Moreover, the number of cycles can be extended in a natural way. With DES the 
+algorithm was defined for precisely 16 cycles; to extend that number would require 
+
+substantial redefinition of the algorithm. The internal structure of AES has no a priori 
+
+limitation on the number of cycles. If a cryptanalyst ever concluded that 10 or 12 or 
+
+14 rounds were too low, the only change needed to improve the algorithm would be to 
+
+change the limit on a repeat loop.A mark of confidence is that the U.S. government has approved AES for protecting 
+Secret and Top Secret classified documents. This is the first time the United States has 
+
+ever approved the use of a commercial algorithm derived outside the government (and 
+
+furthermore, outside the United States) to encrypt classified data.
+SSSSkkkk1.Byte Sub
+2. Shift Row
+3.Mix Columns
+4.Add Round Key
+Repeatn TimesFIGURE 2-22 AES Encryption Algorithm

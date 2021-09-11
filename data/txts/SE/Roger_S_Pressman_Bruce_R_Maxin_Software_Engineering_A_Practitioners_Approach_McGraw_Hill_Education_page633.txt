@@ -1,0 +1,67 @@
+CHAPTER 28  
+FORMAL MODELING AND VERIFICATION
+ 603 
+ 
+Box structure speciﬁ cation.
+ 
+ A speciﬁ cation method that makes use of  
+box structures
+ 
+ is used to describe the functional speciﬁ cation. Box structures 
+“isolate and separate the creative deﬁ nition of behavior, data, and proce-
+dures at each level of reﬁ nement” [Hev93].
+    
+Formal design. 
+ Using the box structure approach, cleanroom design is a natural and seamless extension of speciﬁ cation. Although it is possible to 
+make a clear distinction between the two activities, speciﬁ cations (called 
+ black boxes 
+) are iteratively reﬁ ned (within an increment) to become anal-
+ogous to architectural and component-level designs (called  state boxes 
+ and  clear boxes, 
+ respectively).   
+Correctness veriﬁ cation.
+ 
+ The cleanroom team conducts a series of rigor-
+ous correctness veriﬁ cation activities on the design and then the code. 
+Veriﬁ
+ cation (Section 28.3.2) begins with the highest-level box structure 
+(speciﬁ cation) and moves toward design detail and code. The ﬁ
+ rst level 
+of correctness veriﬁ cation occurs by applying a set of “correctness ques-
+tions” [Lin88]. If these do not demonstrate that the speciﬁ cation is correct, 
+more formal (mathematical) methods for veriﬁ cation are used. 
+  
+Code generation, inspection, and veriﬁ cation.
+ 
+ The box structure speci-ﬁ cations, represented in a specialized language, are translated into the 
+appropriate programming language. Technical reviews (Chapter 20) are 
+
+then used to ensure semantic conformance of the code and box structures   
+ 
+ uote:   “The only way for 
+errors to occur in 
+a program is by 
+being put there 
+by the author. No 
+
+other mechanism 
+
+practice aims 
+at presenting 
+insertion of errors 
+and, failing that, 
+removing them 
+before testing or 
+any other running 
+of the program.”  
+  Harlan Mills  
+ FIGURE 28.1 
+The cleanroom 
+process model
+BSSRGIncrement 1SEFDCVTPCGCISUTCBSSRGIncrement 2FDCVTPCGCISUTCBSSRGIncrement 3SE Š system engineeringRG Š requirements gathering
+BSS Š box structure specification
+FD Š formal design
+CV Š correctness verificationCG Š code generationCI Š code inspection
+SUT Š statistical use testing
+C Š certification
+TP Š test planningFDCVTPCGCISUTCpre22126_ch28_601-622.indd   603pre22126_ch28_601-622.indd   60313/12/13   6:15 PM13/12/13   6:15 PM

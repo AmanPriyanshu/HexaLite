@@ -1,0 +1,101 @@
+CHAPTER 33  
+ESTIMATION FOR SOFTWARE PROJECTS
+ 747within the context of project planning for each software increment. Estimation for agile projects uses a decomposition approach that encompasses the following 
+steps:  
+ 
+ 
+ 1.
+  Each user scenario (the equivalent of a mini use case created at the very start of a project by end users or other stakeholders) is considered sepa-
+rately for estimation purposes.   
+ 
+ 
+ 2.
+  The scenario is decomposed into the set of software engineering tasks that will be required to develop it.   
+ 
+ 
+ 3a.
+  Each task is estimated separately. Note: Estimation can be based on his-
+torical data, an empirical model, or “experience.”   
+ 
+ 
+ 3b.
+  Alternatively, the “volume” of the scenario can be estimated in LOC, FP, or 
+some other volume-oriented measure (e.g., use case count).   
+ 
+ 
+ 4a.
+  Estimates for each task are summed to create an estimate for the scenario.   
+ 
+ 
+ 4b.
+  Alternatively, the volume estimate for the scenario is translated into effort 
+using historical data.   
+ 
+ 
+ 5.
+  The effort estimates for all scenarios that are to be implemented for a given software increment are summed to develop the effort estimate for 
+the increment.  
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Because the project duration required for the development of a software incre-ment is quite short (typically three to six weeks), this estimation approach serves 
+two purposes: (1) to be certain that the number of scenarios to be included in the 
+increment conforms to the available resources, and (2) to establish a basis for 
+allocating effort as the increment is developed.   
+ 
+ 
+33.9.2   
+Estimation for WebApp Projects 
+ 
+WebApp projects often adopt the agile process model. A modiﬁ
+ ed function point 
+measure, coupled with the steps outlined in Section 33.9.1, can be used to de-
+velop an estimate for the WebApp. Roetzheim [Roe00] suggests the following ap-
+
+proach when adapting function points for WebApp estimation:
+  
+ 
+ 
+•   
+Inputs 
+ are each input screen or form (for example, CGI or Java), each maintenance 
+screen, and if you use a tab notebook metaphor anywhere, each tab.    
+ 
+•   
+Outputs 
+ are each static Web page, each dynamic Web page script (for example, 
+ASP, ISAPI, or other DHTML script), and each report (whether Web based or ad-
+
+ministrative in nature).    
+ 
+•   
+Tables
+ 
+ are each logical table in the database plus, if you are using XML to store 
+data in a ﬁ le, each XML object (or collection of XML attributes). 
+   
+ 
+•   
+Interfaces 
+ retain their deﬁ
+ nition as logical ﬁ
+ les (for example, unique record for-
+mats) into our out-of-the-system boundaries.   How are 
+estimates developed when 
+an agile process is 
+applied? ?   In the context of 
+
+estimation for agile 
+projects, “volume” 
+is an estimate of the 
+overall size of a user 
+scenario in LOC or FP. 
+pre22126_ch33_727-753.indd   747pre22126_ch33_727-753.indd   74713/12/13   6:17 PM13/12/13   6:17 PM

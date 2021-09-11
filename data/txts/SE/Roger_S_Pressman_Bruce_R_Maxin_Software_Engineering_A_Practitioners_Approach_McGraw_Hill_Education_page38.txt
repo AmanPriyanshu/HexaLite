@@ -1,0 +1,86 @@
+8 CHAPTER 1  
+THE NATURE OF SOFTWARE
+ 
+These older programs—often referred to as  legacy software
+ 
+—have been the focus of continuous attention and concern since the 1960s. Dayani-Fard and his 
+colleagues [Day99] describe legacy software in the following way:  
+ 
+.
+ 
+were developed decades ago and have been continually 
+modiﬁ ed to meet changes in business requirements and computing platforms. The 
+proliferation of such systems is causing headaches for large organizations who ﬁ nd 
+them costly to maintain and risky to evolve.  
+  
+Liu and his colleagues [Liu98] extend this description by noting that “many legacy systems remain supportive to core business functions and are ‘indispens-
+able’ to the business.” Hence, legacy software is characterized by longevity and 
+business criticality. 
+  
+ 
+ 
+Unfortunately, there is sometimes one additional characteristic that is pres-
+ent in legacy software— poor quality 
+.  4 
+ 
+ Legacy systems sometimes have inextensi-
+ble designs, convoluted code, poor or nonexistent documentation, test cases and 
+results that were never archived, a poorly managed change history—the list can 
+be quite long. And yet, these systems support “core business functions and are 
+indispensable to the business.” What to do?   
+ 
+ 
+ 
+The only reasonable answer may be:  Do nothing, 
+ at least until the legacy sys-
+tem must undergo some signiﬁ cant change. If the legacy software meets the 
+needs of its users and runs reliably, it isn’t broken and does not need to be ﬁ
+ xed. 
+However, as time passes, legacy systems often evolve for one or more of the fol-
+
+lowing reasons:  
+ 
+ 
+• 
+ 
+  The software must be adapted to meet the needs of new computing envi-ronments or technology. 
+  
+ 
+ 
+• 
+ 
+  The software must be enhanced to implement new business requirements.   
+ 
+ 
+• 
+ 
+  The software must be extended to make it interoperable with other more modern systems or databases.   
+ 
+ 
+• 
+ 
+  The software must be re-architected to make it viable within a evolving computing environment.    
+ 
+ 
+ 
+ 
+When these modes of evolution occur, a legacy system must be reengineered 
+( Chapter 36 ) so that it remains viable into the future. The goal of modern soft-ware engineering is to “devise methodologies that are founded on the notion 
+of evolution;” that is, the notion that software systems continually change, new 
+ 
+.
+ all must interoperate and 
+cooperate with each other.” [Day99] 
+ What do I do 
+if I encounter a legacy system 
+that exhibits poor 
+quality? ?  
+4  In this case, quality is judged based on modern software engineering thinking—a somewhat unfair criterion since some modern software engineering concepts and principles may not 
+have been well understood at the time that the legacy software was developed.    Every software engi-
+neer must recognize 
+that change is natural. 
+Don’t try to ﬁ ght it. 
+ What types 
+
+of changes are made to 
+legacy systems? ?pre22126_ch01_001-013.indd   8pre22126_ch01_001-013.indd   813/12/13   10:00 PM13/12/13   10:00 PM

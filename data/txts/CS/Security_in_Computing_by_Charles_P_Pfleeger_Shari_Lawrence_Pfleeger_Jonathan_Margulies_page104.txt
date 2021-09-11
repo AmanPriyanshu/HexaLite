@@ -1,0 +1,75 @@
+70 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+The difference between these two approaches is that federated identity management 
+involves a single identity management module that replaces identification and authenti-
+
+cation in all other systems. Thus all these systems invoke the identity management mod-
+
+ule. With single sign-on, systems 
+
+still call for individual identification 
+
+and authentication, but the umbrella 
+
+task performs those interactions on 
+behalf of the user.
+Multifactor AuthenticationThe single-factor authentication approaches discussed in this chapter offer advantages 
+
+and disadvantages. For example, a token works only as long as you do not give it away 
+
+(or lose it or have it stolen), and password use fails if someone can see you enter your 
+
+password by peering over your shoulder. We can compensate for the limitation of one 
+
+form of authentication by combining it with another form.Identity cards, such as a driver’s license, often contain a picture and signature. The 
+card itself is a token, but anyone seeing that card can compare your face to the picture 
+
+and confirm that the card belongs to you. Or the person can ask you to write your name 
+
+and can compare signatures. In that way, the authentication is both token based and bio-
+
+metric (because your appearance and the way you sign your name are innate properties 
+
+of you). Notice that your credit card has a space for your signature on the back, but in 
+
+the United States few merchants compare that signature to the sales slip you sign. Hav-
+
+ing authentication factors available does not necessarily mean we use them.
+As long as the process does not become too onerous, authentication can use two, 
+three, four, or more factors. For example, to access something, you must type a secret 
+
+code, slide your badge, and hold your hand on a plate. Combining authentication information is called multifactor authentication. Two 
+forms of authentication (which is, not surprisingly, known as 
+two-factor authentica-
+tion) are presumed to be better than one, assuming of course that the two forms are 
+strong. But as the number of forms increases, so also does the user’s inconvenience. 
+
+Each authentication factor requires the system and its administrators and the users to 
+
+manage more security information. We assume that more factors imply higher confi-
+
+dence, although few studies support that assumption. And two kinds of authentication 
+
+imply two pieces of software and perhaps two kinds of readers, as well as the time to 
+
+perform two authentications. Indeed, even if multifactor authentication is superior to 
+
+single factor, we do not know which value of 
+n makes 
+n-factor authentication opti-
+mal. From a usability point of view, large values of 
+n may lead to user frustration and 
+reduced security, as shown in Sidebar 2-13.
+Secure Authentication
+Passwords, biometrics, and tokens can all participate in secure authentication. Of 
+
+course, simply using any or all of them is no guarantee that an authentication approach 
+
+will be secure. To achieve true security, we need to think carefully about the problem we 
+
+are trying to solve and the tools we have; we also need to think about blocking possible 
+
+attacks and attackers.
+Single sign-on takes over sign-on and 
+authentication to several independent 
+systems for a user.

@@ -1,0 +1,33 @@
+˜˜˚˛˜˜˜˜
+˜˜
+3. Risk analysis Describes possible project risks, the likelihood of these risks aris-ing, and the risk reduction strategies (discussed in Chapter 22) that are proposed.4. Hardware and software resource requirements Specifies the hardware and support 
+
+software required to carry out the development. If hardware has to be purchased, 
+
+estimates of the prices and the delivery schedule may be included.5. Work breakdown Sets out the breakdown of the project into activities and iden-
+tifies the inputs to and the outputs from each project activity.6. Project schedule Shows the dependencies between activities, the estimated time 
+required to reach each milestone, and the allocation of people to activities. The 
+ways in which the schedule may be presented are discussed in the next section 
+of the chapter.7. Monitoring and reporting mechanisms 
+Defines the management reports that 
+
+should be produced, when these should be produced, and the project monitoring 
+mechanisms to be used.The main project plan should always include a project risk assessment and a 
+schedule for the project. In addition, you may develop a number of supplementary 
+plans for activities such as testing and configuration management. Figure 
+23.2 shows 
+
+some supplementary plans that may be developed. These are all usually needed in 
+large projects developing large, complex systems.˘˘Project planning is an iterative process that starts when you create an initial project 
+plan during the project startup phase. Figure 23.3 is a UML activity diagram that 
+
+shows a typical workflow for a project planning process. Plan changes are inevita-
+ble. As more information about the system and the project team becomes available 
+PlanDescriptionConfiguration management planDescribes the configuration management procedures and 
+structures to be used.Deployment planDescribes how the software and associated hardware (if required) 
+
+will be deployed in the customer™s environment. This should 
+
+include a plan for migrating data from existing systems.Maintenance planPredicts the maintenance requirements, costs, and effort.Quality planDescribes the quality procedures and standards that will be 
+used in a project.Validation planDescribes the approach, resources, and schedule used for 
+system validation.Figure 23.2 Project plan supplements

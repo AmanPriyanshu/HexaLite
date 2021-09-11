@@ -1,0 +1,45 @@
+ Section 10.4  Risk Analysis 
+683  To supplement this tabular analysis, we can use a graphical depiction to contrast the 
+economics involved in choosing among several strategies. For example, suppose we are 
+
+considering the use of regression testing after making an upgrade to fix a security flaw. 
+
+Regression testing means applying tests to verify that all remaining functions are unaf-
+
+fected by the change. It can be an expensive process, especially for large systems that 
+
+implement many functions. (This example is taken from Shari Lawrence Pfleeger and 
+
+Joanne Atlee [PFL10a].) 
+To help us decide, we draw a diagram such as that in Figure 10-2. We want to com-
+pare the risk impact of doing regression testing with not doing it. Thus, the upper part 
+
+of the diagram shows the risks in doing regression testing, and the lower part the risks 
+
+of not doing regression testing. In each of the two cases, one of three things can hap-
+
+pen: We find a critical fault, there is a critical fault but we miss finding it, or there are 
+
+no critical faults to be found. For each possibility, we first calculate the probability of 
+
+an unwanted outcome, P(UO). Then, we associate a loss with that unwanted outcome, 
+
+L(UO). Thus, in our example, if we do regression testing and miss a critical fault lurk-
+
+ing in the system (a probability of 0.05), the loss could be $30 million. Multiplying the 
+two, we find the risk exposure for that strategy to be $1.5 million. As you can see from 
+
+the calculations in the figure, doing the regression testing is safer than skipping it.
+As shown in these examples, risk analysis can be used to evaluate the true costs 
+of proposed controls. In this way, risk analysis can be used as a planning tool. The 
+FIGURE 10-2 Risk Calculation for Regression Testing
+Doregression
+testing? Risk ExposureCombined
+RiskExposure$1.975M$16.725MyesDon’t find critical fault 
+Don’t find critical fault 
+No critical fault No critical fault P(UO) = 0.75
+P(UO) = 0.05
+L(UO) = $0.5ML(UO) = $30ML(UO) = $0.5MP(UO) = 0.20
+noFind critical fault Find critical fault P(UO) = 0.25
+P(UO) = 0.55
+L(UO) = $0.5ML(UO) = $30ML(UO) = $0.5M$0.375M$1.500M$0.100M$0.125M$16.500M$0.100MP(UO) = 0.20

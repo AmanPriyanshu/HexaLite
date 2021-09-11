@@ -1,0 +1,76 @@
+422 Chapter 6  
+NetworksSIDEBAR 6-19  
+Denial of Service: What a Difference 
+a Decade MakesHow much denial-of-service activity is there? As with most computer secu-
+rity incidents, reliable, representative statistics are hard to obtain because 
+
+there is no central data collection, sampling approaches vary so there is 
+
+little way to compare values, and no one knows the population the results 
+
+describe. Some results on denial of service from the early 2000s and 2010s 
+
+do show an indisputable change, however.
+Researchers at the University of California, San Diego (UCSD) studied 
+the amount of denial-of-service activity on the Internet [UCS01]. Because 
+
+many DoS attacks use a fictitious return address, the researchers asserted 
+
+that traffic to nonexistent addresses was indicative of the amount of denial-
+
+of-service attacking. They monitored a large, unused address space on the 
+
+Internet for a period of three weeks in 2001. Their discoveries:
+• More than 12,000 attacks were aimed at more than 5,000 targets dur-
+ing the three-week period.
+• SYN floods apparently accounted for more than half of the attacks.
+
+• Half the attacks lasted less than ten minutes, and 90 percent of 
+attacks lasted less than an hour.
+Steve Gibson of Gibson Research Corporation (GRC) experienced 
+several denial-of-service attacks in mid-2001. He collected data for his own 
+forensic purposes [GIB01]. The first attack lasted 17 hours, at which point 
+
+he managed to reconfigure the router connecting him to the Internet so as 
+
+to block the attack. During those 17 hours he found his site was attacked by 
+
+474 Windows-based PCs. A later attack lasted 6.5 hours before it stopped 
+
+by itself. These attacks were later found to have been launched by a 
+
+13-year old from Kenosha, Wisconsin.
+By the end of the decade things had changed considerably. 
+
+Networking firm Arbor Networks specializes in providing network 
+security products to assist ISPs in maintaining the security of their network 
+
+backbone. Because of their activity with ISPs, they are positioned to mea-
+
+sure a significant amount of denial-of-service traffic. In an analysis covering 
+
+the year 2009, they counted over 350,000 denial-of-service attacks, which 
+translates to one attack every 90 seconds, of which over 20,000 exceeded 
+
+1 Gbps (gigabits per second), a measure of the volume of traffic being 
+
+directed at the attacked target. Many organizations’ Internet connection 
+
+links handle at most 1 Gbps, so an attack of more than 1 Gbps overwhelms 
+
+not just the website but the target’s entire organization and starts to back 
+
+up, overwhelming the ISP’s network infrastructure. For comparison, current 
+
+residential DSL service reaches a peak of about 3 megabits (1/1000 of a 
+
+gigabit) per second, and cable modems for residential customers are usu-
+
+ally no faster than 30 Mbps. In 2010 [ARB10], Arbor Networks found at 
+
+least one attack that hit 100 Gbps.Arbor Networks observed that attacks greater than 1 Gbps also tend 
+to be of long duration. They found that almost 4,000 attacks of more than 
+
+1 Gbps lasted for more than 8 hours, and approximately 3,500 of those 
+
+more than 4 Gbps and 2,000 of those more than 10 Gbps went on that long.

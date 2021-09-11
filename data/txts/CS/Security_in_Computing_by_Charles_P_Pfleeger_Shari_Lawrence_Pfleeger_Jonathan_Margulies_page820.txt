@@ -1,0 +1,47 @@
+786 Chapter 12  
+Details of CryptographyIn Figure 12-6 you can see the effect of chaining. In the previous figure Annie’s 
+account number encrypted twice as w2z%pr. But in this figure Annie’s account num-
+
+ber is first combined with the encryption of the date block using the exclusive OR (
+) function, producing the result C4UI6H. That C4UI6H is then encrypted, producing the 
+
+result bl3tfr. Comparing the top and bottom of the figure, you can see that the first field, 
+
+the date, encrypts the same in both halves, but the next fields differ, so all subsequent 
+
+blocks are influenced by this difference. The encrypted value of each block feeds into 
+
+the plaintext of the next block, and so each encrypted block depends on the values of all 
+
+preceding blocks. Thus, no attacker can reorder or substitute encrypted blocks without 
+
+destroying this chain of encryption. If we had shown results for the last two lines from 
+
+the original figure, you would see that the two Zelda blocks would be different, because 
+
+each depends on different preceding data.
+FIGURE 12-6 Chained Encryption1 AugAnnieBrian0001100.00
+apqrwx  apqrwxC4UI6Hbl3tfr    bl3tfrRMX22Albl9idetc.1 AugCaroleDrew0002500.00
+ciphertext
+apqrwx  apqrwxABCDEF3fhosb    3fhosbOBX34Hh4e5oeciphertext
+Initialization Vector
+You may have detected one final difficulty with the chaining example. Although data 
+blocks along the chain are distinct, the first block (the date) has no prior context on 
+
+which to depend, and thus it would always encrypt the same. The solution to this dif-
+
+ficulty is a slight extension to the chaining approach.
+To start the encryption of a data stream, you first create one extra block containing 
+any value. The exact value is insignificant as long as it changes for each encryption; a 
+
+random number generator is useful. Then, as shown in Figure 12-7 you apply chained 
+
+encryption, starting with the first block (the random number), and linking subsequent 
+
+blocks together as in the previous example. In this way, the first real data block (actually 
+
+the second block encrypted) is different from one time to the next because the random 
+
+initialization vector is different.
+These two chaining techniques are similarly applicable with most symmetric  
+ciphers.

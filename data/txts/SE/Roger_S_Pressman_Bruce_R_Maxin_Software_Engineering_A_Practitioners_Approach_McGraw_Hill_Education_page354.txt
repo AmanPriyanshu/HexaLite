@@ -1,0 +1,54 @@
+324 PART TWO  
+MODELING 
+ 
+Interface analysis 
+ focuses on the proﬁ
+ le of the users who will interact with 
+the system. Skill level, business understanding, and general receptiveness to the 
+new system are recorded; and different user categories are deﬁ ned. For each 
+user category, requirements are elicited. In essence, you work to understand the 
+
+system perception (Section 15.2.1) for each class of users.  Once general requirements have been deﬁ ned, a more detailed 
+ task  
+analysis 
+ is conducted. Those tasks that the user performs to accomplish the goals of the 
+
+ system are identiﬁ ed, described, and elaborated (over a number of iterative passes 
+through the spiral). T15.3.  
+Finally, 
+analysis of the user environment focuses on the characteristics of the physical 
+
+work environment (e.g., location, lighting, position constraints). 
+ The information gathered as part of the analysis action is used to create an analysis model for the interface. Using this model as a basis, the design activity 
+commences.  The goal of  interface design 
+ is to deﬁ
+ ne a set of interface objects and actions 
+(and their screen representations) that enable a user to perform all deﬁ ned tasks 
+in a manner that meets every usability goal deﬁ ned for the system. Interface de-
+sign is discussed in more detail in Section 15.4.   
+Interface construction 
+ normally begins with the creation of a prototype that 
+enables usage scenarios to be evaluated. As the iterative design process contin-
+ues, a user interface tool kit (Section 15.5) may be used to complete the construc-
+tion of the interface.   
+Interface validation 
+ focuses on (1) the ability of the interface to implement 
+every user task correctly, to accommodate all task variations, and to achieve all 
+
+general user requirements; (2) the degree to which the interface is easy to use 
+and easy to learn, and (3) the user’s acceptance of the interface as a useful tool 
+
+in his or her work.  As we have already noted, the activities described in this section occur itera-tively. Therefore, there is no need to attempt to specify every detail (for the analysis 
+  uote:  “It’s better to 
+design the user 
+experience than 
+rectify it.”  Jon Meads 
+Interface design
+Interface construction
+Interface analysis and modeling
+Interface validation
+ FIGURE 15.1 
+The user in-terface design 
+
+process
+pre22126_ch15_317-346.indd   324pre22126_ch15_317-346.indd   32413/12/13   10:01 PM13/12/13   10:01 PM

@@ -1,0 +1,44 @@
+APPENDIX 2  
+OBJECT-ORIENTED CONCEPTS
+ 895levels in the hierarchy. In fact, whenever a new class is to be created, you have a number of options:   
+ • The class can be designed and built from scratch. That is, inheritance is 
+not used.    • The class hierarchy can be searched to determine if a class higher in the 
+hierarchy contains most of the required attributes and operations. The 
+new class inherits from the higher class and additions may then be added, 
+as required.    • The class hierarchy can be restructured so that the required attributes 
+and operations can be inherited by the new class.    • Characteristics of an existing class can be overridden, and different ver-
+sions of attributes or operations are implemented for the new class.  
+  Like all fundamental design concepts, inheritance can provide signiﬁ cant beneﬁ
+ t 
+for the design, but if it is used inappropriately,  3 it can complicate a design unnec-
+essarily and lead to error-prone software that is difﬁ cult to maintain. 
+ 
+ 
+ 
+ 
+Messages.   
+Classes must interact with one another to achieve design goals. A message stimulates some behavior to occur in the receiving object. The behavior 
+is accomplished when an operation is executed.  The interaction between objects is illustrated schematically in   
+Figure A2.2. 
+An operation within  SenderObject 
+ generates a message of the form  
+message 
+ (<parameters>) where the parameters identify  ReceiverObject 
+ as the object 
+to be stimulated by the message, the operation within  ReceiverObject 
+ that is 
+to receive the message, and the data items that provide information that is 
+
+required for the operation to be successful. The collaboration deﬁ ned between 
+classes as part of the analysis model provides useful guidance in the design of 
+
+messages. 
+  
+ 
+3  For example, designing a subclass that inherits attributes and operations from more than one 
+superclass (sometimes called “multiple inheritance”) is frowned upon by most designers.  FIGURE A2.2Message pass-ing between 
+objects  
+ :SenderObject
+Message (<parameters>)
+:ReceiverObject
+pre22126_app2_891-898.indd   895pre22126_app2_891-898.indd   89513/12/13   6:18 PM13/12/13   6:18 PM

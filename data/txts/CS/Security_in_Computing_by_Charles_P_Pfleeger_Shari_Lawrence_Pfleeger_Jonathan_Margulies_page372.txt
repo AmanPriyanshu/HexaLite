@@ -1,0 +1,64 @@
+338 Chapter 5  
+Operating Systemsis to be loaded (ordinarily at system boot time). TDL-4 changes a system configuration 
+value LoadIntegrityCheckPolicy so that the unsigned rootkit is loaded without checking 
+
+[FIS10a]. TDL-4 infects the master boot record (MBR) and replaces the kernel debug-
+
+ger (kdcom.dll) that would ordinarily be available to debug kernel-level activity. The 
+
+replaced debugger returns only safe values (meaning those that do not reveal TDL-4), 
+
+making it difficult for analysts to investigate the form and function of this rootkit.
+The sophistication of the TDSS family is amazing, as is its ability to adapt to system 
+changes such as code integrity checking. The authors have invested a great amount of 
+
+time in maintaining and extending this rootkit family, and they are likely to continue to 
+
+do so to preserve the value of their investment.
+Other RootkitsNot every rootkit is malicious. Suppose you are a manager of a company that handles very 
+
+sensitive information: It may be intellectual property, in the form of the design and imple-
+
+mentation of new programs, or perhaps it is the medical records of some high-profile 
+
+patients who would not want their medical conditions to appear on the front page of a 
+
+newspaper. Your employees need this information internally for ordinary business func-
+
+tions, but there is almost no reason such information should ever leave your company.
+Because the value of this information is so high, you want to be sure nothing sensitive 
+is included in email sent by your employees or by a malicious process acting under the 
+
+name of an employee. Several products, with names like eBlaster and Spector, are rootkits 
+
+that parents can install on children’s computers, to monitor the nature of email, messag-
+
+ing, and web searches. As rootkits, these products are invisible to the children and, even if 
+
+detected, the products are difficult to disable or remove. Managers worried about illicit or 
+
+unintentional exfiltration of sensitive information could use similar products.
+Law enforcement authorities also install rootkits on machines of suspects so that 
+agents can trace and even control what users of the affected machines do, but the sus-
+
+pects remain oblivious.
+Thus, not every rootkit is malicious. In fact, security tools, such as antivirus soft-
+ware and intrusion detection and prevention systems, sometimes operate in a stealthy 
+
+and hard-to-disable manner, just like rootkits. However, because this is a book about 
+
+computer security, we now return to rootkits of a malicious nature as we examine sys-
+
+tem vulnerabilities that permit introduction of rootkits. The two vulnerabilities that 
+
+contribute to installation of rootkits are that the operating system is complex and not 
+
+transparent.Having described the threat of a rootkit to an operating system, we now turn 
+to another source of threats involving operating systems: mobile devices such as 
+
+smartphones.5.4 CONCLUSION
+In this chapter we have surveyed the field of operating systems to develop several 
+
+important security concepts. Operating systems are the first place we have seen detailed 
+
+analysis of access control, and the first use of the reference monitor.

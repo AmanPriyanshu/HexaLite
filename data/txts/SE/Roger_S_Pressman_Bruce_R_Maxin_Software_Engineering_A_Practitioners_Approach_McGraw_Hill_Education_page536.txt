@@ -1,0 +1,137 @@
+506 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 3.
+   
+Determine a basis set of linearly independent paths. 
+ The value of  V 
+( G 
+) provides the number of linearly independent paths through the program 
+control structure. In the case of procedure  average, 
+ we expect to specify six paths:  
+ 
+ 
+ 
+ 
+ 
+Path 1: 1-2-10-11-13 
+   
+ 
+ 
+ 
+ 
+Path 2: 1-2-10-12-13 
+   
+ 
+ 
+ 
+ 
+Path 3: 1-2-3-10-11-13 
+   
+ 
+ 
+ 
+ 
+Path 4: 
+   
+ 
+ 
+ 
+ 
+Path 5: 
+   
+ 
+ 
+ 
+ 
+Path 6: 
+ 
+ 
+  
+ 
+   
+the remainder of the control structure is acceptable. It is often worthwhile 
+to identify predicate nodes as an aid in the derivation of test cases. In this 
+case, nodes 2, 3, 5, 6, and 10 are predicate nodes.   
+ 
+ 
+ 4.
+   
+Prepare test cases that will force execution of each path in the basis set. 
+ Data should be chosen so that conditions at the predicate nodes are 
+appropriately set as each path is tested. Each test case is executed and 
+compared to expected results. Once all test cases have been completed, 
+the tester can be sure that all statements in the program have been exe-
+cuted at least once.  
+ 
+  It is important to note that some independent paths (e.g., path 1 in our ex-ample) cannot be tested in stand-alone fashion. That is, the combination of data 
+required to traverse the path cannot be achieved in the normal ﬂ ow of the pro-
+gram. In such cases, these paths are tested as part of another path test.   
+ 
+ 
+23.4.4   
+Graph Matrices  
+The procedure for deriving the ﬂ ow graph and even determining a set of basis 
+paths is amenable to mechanization. A data structure, called a  graph matrix, 
+ can 
+be quite useful for developing a software tool that assists in basis path testing.  A graph matrix is a square matrix whose size (i.e., number of rows and col-umns) is equal to the number of nodes on the ﬂ ow graph. Each row and column 
+corresponds to an identiﬁ ed node, and matrix entries correspond to connections 
+(an edge) between nodes. A simple example of a ﬂ ow graph and its correspond-
+ing graph matrix [Bei90] is shown in  Figure 23.6 .   Referring to the ﬁ gure, each node on the ﬂ
+ ow graph is identiﬁ
+ ed by numbers, 
+while each edge is identiﬁ ed by letters. A letter entry is made in the matrix to 
+correspond to a connection between two nodes. For example, node 3 is connected 
+to node 4 by edge  b 
+.   
+ 
+To this point, the graph matrix is nothing more than a tabular representation 
+of a ﬂ ow graph. However, by adding a  
+link weight 
+ to each matrix entry, the graph 
+ 
+ 
+ 
+ uote:  “The Ariane 5 
+rocket blew up on 
+
+lift-off due solely to 
+
+a software defect 
+
+(a bug) involving 
+
+the conversion of 
+
+a 64-bit ﬂ oating 
+
+point value into 
+
+a 16-bit integer. 
+
+The rocket and 
+
+its four satellites 
+
+were  uninsured  and worth $500 
+
+million. [Path tests 
+
+that exercised 
+
+the conversion 
+
+path] would have 
+
+found the bug but 
+
+were vetoed for 
+
+budgetary reasons.” 
+ A news report 
+ What is a 
+
+graph matrix and how do we 
+extend it for use 
+in testing? ?pre22126_ch23_496-522.indd   506pre22126_ch23_496-522.indd   50613/12/13   6:14 PM13/12/13   6:14 PM

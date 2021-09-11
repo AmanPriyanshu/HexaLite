@@ -1,0 +1,41 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜2. Component management 
+is concerned with managing a company™s reusable 
+components, ensuring that they are properly catalogued, stored, and made avail-
+able for reuse.3. Component certification is the process of checking a component and certifying 
+that it meets its specification.Components maintained by an organization may be stored in a component repos-itory that includes both the components and information about their use.CBSE for reuse is the process of developing reusable components and making them 
+available for reuse through a component management system. The vision of early 
+
+supporters of CBSE (Szyperski 2002) was that a thriving component marketplace 
+
+would develop. There would be specialist component providers and component ven-
+dors who would organize the sale of components from different developers. Software 
+developers would buy components to include in a system or pay for services as they 
+
+were used. However, this vision has not been realized. There are relatively few com
+-
+ponent suppliers, and buying off-the-shelf components is uncommon.Consequently, CBSE for reuse is mostly used within organizations that have 
+made a commitment to reuse-driven software engineering. These companies have a 
+base of internally developed components that can be reused. However, these inter-
+nally developed components may not be reusable without change. They often include 
+application-specific features and interfaces that are unlikely to be required in other 
+programs where the component is reused.CBSE for
+reuseCBSE with
+reuseComponentacquisitionComponentcertification
+ComponentrepositoryCBSE processes
+Specifier,
+Designer,
+
+Integrator,
+
+MaintainerLibrarian,
+Vendor,
+BrokerComponentmanagementLibrarianLocal orexternalcertifier
+ExternalsourceDomain analyst,
+Designer,
+
+Implementor,
+
+Maintainer,
+
+Market analystFigure 16.6  CBSE processes 

@@ -1,0 +1,47 @@
+˜˜˚ˆ˜˜ ˜˜˜
+Open-source development is an approach to software development in which the 
+source code of a software system is published and volunteers are invited to partici-
+pate in the development process (Raymond 2001). Its roots are in the Free Software 
+Foundation (www.fsf.org), which advocates that source code should not be proprie-
+tary but rather should always be available for users to examine and modify as they 
+wish. There was an assumption that the code would be controlled and developed by 
+a small core group, rather than users of the code.Open-source software extended this idea by using the Internet to recruit a much larger 
+population of volunteer developers. Many of them are also users of the code. In principle 
+
+at least, any contributor to an open-source project may report and fix bugs and propose 
+
+new features and functionality. However, in practice, successful open-source systems still 
+
+rely on a core group of developers who control changes to the software.Open-source software is the backbone of the Internet and software engineering. The 
+Linux operating system is the most widely used server system, as is the open-source 
+
+Apache web server. Other important and universally used open-source products are 
+
+Java, the Eclipse IDE, and the mySQL database management system. The Android 
+
+operating system is installed on millions of mobile devices. Major players in the com-puter industry such as IBM and Oracle, support the open-source movement and base 
+
+their software on open-source products. Thousands of other, lesser-known open-source 
+
+systems and components may also be used.It is usually cheap or even free to acquire open-source software. You can normally 
+download open-source software without charge. However, if you want documenta-
+tion and support, then you may have to pay for this, but costs are usually fairly low. 
+
+The other key benefit of using open-source products is that widely used open-source 
+
+systems are very reliable. They have a large population of users who are willing to 
+
+fix problems themselves rather than report these problems to the developer and wait 
+
+for a new release of the system. Bugs are discovered and repaired more quickly than 
+
+is usually possible with proprietary software.For a company involved in software development, there are two open-source 
+issues that have to be considered:1. Should the product that is being developed make use of open-source components?2. Should an open-source approach be used for its own software development?The answers to these questions depend on the type of software that is being devel
+-oped and the background and experience of the development team.If you are developing a software product for sale, then time to market and reduced 
+costs are critical. If you are developing software in a domain in which there are high-quality 
+open-source systems available, you can save time and money by using these systems. 
+
+However, if you are developing software to a specific set of organizational require-
+ments, then using open-source components may not be an option. You may have to 
+
+integrate your software with existing systems that are incompatible with available 

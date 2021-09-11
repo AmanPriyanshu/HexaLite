@@ -1,0 +1,68 @@
+386 Chapter 6  
+NetworksChanging the NIC’s MAC address not only undermines MAC-based authentication 
+on an access point, it can lead to a 
+
+larger attack called 
+MAC spoofing
+, in which one device impersonates 
+
+another, thereby assuming another 
+
+device’s communication session.
+Stealing the AssociationUnfortunately, if a rogue process has intercepted an SSID and spoofed a MAC address, 
+the two best points of access control have been lost. Looked at from the other perspec-
+
+tive, however, you might assume that a device that has successfully passed the SSID and 
+
+authentication tests will now associate with the identified access point. Wrong again!
+Even though frames all contain the SSID of the intended recipient access point, noth-
+ing prevents any access point from accepting and replying to any frame. In fact, some 
+
+access point hardware and firmware is known to be flawed and will accept any asso-
+
+ciation it can receive [AND04a]. These are known as 
+promiscuous access points
+. For 
+an example of vulnerable associations, see Sidebar 6-12. Think of them next time you 
+
+consider connecting to free WiFi service hot spots in a bar or an airport.
+Preferred Associations
+Common WiFi situations involve residents connecting to their home networks, students 
+connecting to school networks, business workers connecting to corporate networks, and 
+
+patrons connecting to coffee shop or bookstore networks. A typical user might con-
+
+nect frequently to a handful of networks, with the occasional one-time connection to a  
+
+hotel or an airport network when traveling, or a museum during a day’s visit. To simplify 
+An operating system can send any 
+address as if it were the MAC address  
+
+of a NIC.SIDEBAR 6-12 Keeping the Sheep from the Foxes
+Firefox is a popular browser, in part because users have written and con-
+tributed add-ons, an astonishing two billion at last count, to do a wide range 
+of things from managing appointments and displaying the weather forecast 
+
+to downloading video and translating text from one language to another.
+A recent contribution, Firesheep, lets a user join into another user’s 
+established WiFi connection with the click of a mouse. To use Firesheep, 
+
+all you need to do is join an open public network, such as the free WiFi net-
+
+work at your local coffee spot. While you are connected, Firesheep silently 
+
+scans all the rest of the traffic on the network, selecting messages that 
+
+show an established association with some service, such as web-based 
+
+email or a social networking site. As we describe in Chapter 4, many of 
+
+these sites manage their active associations by using cookies that are sent 
+
+from the site to the user’s browser and back to the site again. The problem 
+
+is that often those cookies are communicated unencrypted, completely in 
+
+the clear, meaning that anyone who intercepts and transmits the cookie 
+
+joins the session of the original user.

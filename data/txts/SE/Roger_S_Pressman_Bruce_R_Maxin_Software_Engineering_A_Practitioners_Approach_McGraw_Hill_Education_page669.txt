@@ -1,0 +1,86 @@
+CHAPTER 29  
+SOFTWARE CONFIGURATION MANAGEMENT
+ 639of your own changes on the members of the impact network and then informs members of the impact of those changes. Finally,  
+backward impact management
+ 
+ examines changes that are made by other team members and their impact on 
+your work and incorporates mechanisms to mitigate the impact.   
+ 
+ 
+29.3.5   
+Conﬁ guration Audit 
+ 
+Identiﬁ cation, version control, and change control help you to maintain order in 
+what would otherwise be a chaotic and ﬂ uid situation. However, even the most suc-
+cessful control mechanisms track a change only until an ECO is generated. How 
+
+can a software team ensure that the change has been properly implemented? The 
+
+answer is twofold: (1) technical reviews and (2) the software conﬁ guration audit. 
+ The technical review (Chapter 20) focuses on the technical correctness of the conﬁ guration object that has been modiﬁ
+ ed. The reviewers assess the SCI to de-
+termine consistency with other SCIs, omissions, or potential side effects. A tech-
+nical review should be conducted for all but the most trivial changes.  A  software conﬁ
+ guration audit
+ 
+ complements the technical review by assess-
+ing a conﬁ guration object for characteristics that are generally not considered 
+during review. The audit asks and answers the following questions: 
+  
+ 
+ 
+ 
+ 
+ 1.
+  Has the change speciﬁ ed in the ECO been made? Have any additional 
+modiﬁ cations been incorporated? 
+  
+ 
+ 
+ 2.
+  Has a technical review been conducted to assess technical correctness?   
+ 
+ 
+ 3.
+  Has the software process been followed and have software engineering standards been properly applied?   
+ 
+ 
+ 4.
+  Has the change been “highlighted” in the SCI? Have the change date and change author been speciﬁ ed? Do the attributes of the conﬁ
+ guration ob-
+ject reﬂ ect the change? 
+  
+ 
+ 
+ 5.
+  Have SCM procedures for noting the change, recording it, and reporting it been followed?   
+ 
+ 
+ 6.
+  Have all related SCIs been properly updated?   
+ 
+In some cases, the audit questions are asked as part of a technical review. How-
+ever, when SCM is a formal activity, the conﬁ
+ guration audit is conducted sep-
+arately by the quality assurance group. Such formal conﬁ guration audits also 
+ensure that the correct SCIs (by version) have been incorporated into a speciﬁ c 
+build and that all documentation is up to date and consistent with the version 
+that has been built.   
+ 
+ 
+ 
+ 
+29.3.6   
+Status Reporting  
+ 
+Conﬁ guration status reporting
+ 
+ (sometimes called  
+status accounting 
+) is an SCM task that answers the following questions: (1) What happened? (2) Who did it? 
+ What are 
+the primary 
+questions that 
+we ask during 
+a conﬁ guration 
+audit? ?pre22126_ch29_623-652.indd   639pre22126_ch29_623-652.indd   63913/12/13   6:16 PM13/12/13   6:16 PM

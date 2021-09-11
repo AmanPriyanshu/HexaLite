@@ -1,0 +1,131 @@
+ Index 901  Process, 286, 320Process activation, in operating system, 320
+
+Processor, controlled access to, 283
+
+Product cipher, encryption, 782
+
+Product failure, redress for, 728
+
+Profile, 
+online, 627
+protection, see Protection profile
+user, 68
+Profit, motive for attack, 19
+
+Program assurance myth, penetrate-and-patch, 224
+penetration testing, 218
+security through (by) obscurity, 185, 226, 356, 836
+Program assurance technique, code review, 221
+
+formal methods, 220
+penetration testing, 218
+proof of correctness, 219
+testing, 211
+validation, 221
+Program complexity, 149
+
+Program counter, 
+modification of, 136, 148, 149
+
+protection of, 150
+vulnerability of, 147Program designcomplete mediation, 217, 316
+defense in depth, 218
+defensive programming, 222
+
+Design by contract, 223
+ease of use, 217, 317
+economy of mechanism, 217, 316
+least common mechanism, 217, 317
+least privilege, 216, 218, 316
+
+open design, 217, 316
+permission-based, 217, 218, 317
+separation of privilege, 217, 317
+
+simplicity, 217
+
+validate input, 217
+Program development practices, 216
+cohesion, 206
+encapsulation, 204, 206
+information hiding, 204, 206
+isolation, 203
+modularity, 203, 204
+
+mutual suspicion, 207Program equivalence, 189, 218, 219
+
+Program file, modification of, 177
+
+Program flaw, 184
+
+Program implementation, 150. See also Program development practices
+Program use, responsibility for use, 758
+Program verification, 219
+Program, resident, 188Program, shared access to, 287
+Program, terminate-and-stay-resident, 188
+Programmer, responsibility for program use, 758
+
+Programming error, 
+buffer overflow, 134, 139, 145
+
+faulty serialization, 163
+
+input validation failure, 152
+
+off-by-one, 159
+
+race condition, 163
+synchronization, 163
+time-of-check to time-of-use, 159
+unchecked data, 153
+Programming language, 150
+Programming practice, poor 158
+Project, database operation, 504
+Promiscuous access point, 386
+Proof of correctness, program assurance technique, 219
+Propagation, access right, 77, 83
+encryption error, 778
+
+malicious code, 180Property, as asset, 3
+
+Property, legal rules of, 734
+
+Proprietary software, 756
+
+Prosecution, 426
+Protected speech, 595
+Protection, 3, 6, 75, 87consumer financial, 621
+
+cookie data, 625
+copyright, 704
+
+critical data, 281
+data, 11
+differentiated, 305
+
+for computer objects, 716, 717, 721
+inadequate, 608
+layered, 471
+memory, 284, 321
+
+mobile agent, 430
+of critical data, 281
+of data, 11
+of implanted medical device, 817
+Protection profile, 328
+
+Protocol, 351
+Protocol, cryptographic key exchange, 105, 107
+
+Protocol, WiFi, 376
+
+Protocol analysis, stateful, 479
+Proxy, application, 
+see Application proxy firewall
+Pseudonym
+and privacy, 606, 613
+
+for email, 634
+of an object, 77PSOS (Provably Secure Operating System), 311, 326
+
+Psychology, of attacker, 16–17

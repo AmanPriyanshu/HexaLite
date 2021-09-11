@@ -1,0 +1,52 @@
+CHAPTER 28  
+FORMAL MODELING AND VERIFICATION
+ 617only if the name that is to be added is not contained in the table and also if there are fewer than  MaxIds 
+ staff identiﬁ
+ ers in the table. The  
+postcondition 
+ of an op-
+eration deﬁ nes what is guaranteed to be true upon completion of an operation. 
+This is deﬁ ned by its effect on the data. For the  
+add() 
+ operation, the postcondition 
+would specify mathematically that the table has been augmented with the new 
+identiﬁ er. 
+ 
+ 
+ 
+Example 2: A block handler.   
+One of the more important parts of a simple oper-
+ating system is the subsystem that maintains ﬁ les created by users. Part of the ﬁ
+ l-
+ing subsystem is the  block handler.
+ 
+ Files in the ﬁ
+ le store are composed of blocks 
+of storage that are held on a ﬁ le storage device. During the operation of the com-
+puter, ﬁ
+ les will be created and deleted, requiring the acquisition and release of 
+blocks of storage. In order to cope with this, the ﬁ ling subsystem will maintain a 
+reservoir of unused (free) blocks and keep track of blocks that are currently in 
+use. When blocks are released from a deleted ﬁ le, they are normally added to 
+a queue of blocks waiting to be added to the reservoir of unused blocks. This is 
+shown in  Figure 28.8 . In this ﬁ gure, a number of components are shown: the res-
+ervoir of unused blocks, the blocks that currently make up the ﬁ les administered 
+by the operating system, and those blocks that are waiting to be added to the 
+reservoir. The waiting blocks are held in a queue, with each element of the queue 
+
+containing a set of blocks from a deleted ﬁ le. 
+ 
+ 
+ 
+ 
+  For this subsystem the state is the collection of free blocks, the collection of used blocks, and the queue of returned blocks. The data invariant, expressed in 
+natural language, is  
+ 
+ 
+•  No block will be marked as both unused and used.   
+ 
+ 
+•  All the sets of blocks held in the queue will be subsets of the collection of currently used blocks.  1  3  4  6  9File #15  8  11File #27File #3Block queue containing blocks from deleted filesUnused blocks2Queued for entry into unused blocks
+2  5  7  8  1011  12Used blocksBlocks are releasedto queue when files
+are deleted FIGURE 28.8 
+A block handlerpre22126_ch28_601-622.indd   617pre22126_ch28_601-622.indd   61713/12/13   6:15 PM13/12/13   6:15 PM

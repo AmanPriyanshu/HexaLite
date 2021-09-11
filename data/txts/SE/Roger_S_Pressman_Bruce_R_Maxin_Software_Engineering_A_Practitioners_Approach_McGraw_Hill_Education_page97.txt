@@ -1,0 +1,89 @@
+CHAPTER 5  
+AGILE DEVELOPMENT 67    Extreme Programming 
+(XP). . . . . . . . . . . . 72  
+
+    Industrial XP. . . . . . 72  
+
+    pair 
+
+programming  . . . . . 75  
+
+    politics of agile 
+
+development. . . . . . 71  
+
+    project velocity. . . . 73  
+
+    refactoring  . . . . . . . 74  
+
+    Scrum. . . . . . . . . . . 78  
+
+    spike solution. . . . . 74  
+
+    XP story. . . . . . . . . 72  
+  
+ 
+A manifesto is normally associated with an emerging political movement—one that attacks the old guard and suggests revolutionary change (hopefully for 
+the better). In some ways, that’s exactly what agile development is all about. 
+ 
+ 
+ 
+   
+Although the underlying ideas that guide agile development have been with us for many years, it has been less than two decades since these ideas have crys-
+tallized into a “movement.” In essence, agile  1 
+ 
+ methods were developed in an 
+effort to overcome perceived and actual weaknesses in conventional software 
+engineering. Agile development can provide important beneﬁ ts, but it is not ap-
+plicable to all projects, all products, all people, and all situations. It is also  not 
+ antithetical to solid software engineering practice and can be applied as an over-
+
+riding philosophy for all software work.   
+In the modern economy, it is often difﬁ
+ cult or impossible to predict how a 
+ computer-based system (e.g., a mobile application) will evolve as time passes. 
+Market conditions change rapidly, end-user needs evolve, and new competi-
+
+tive threats emerge without warning. In many situations, you won’t be able to 
+ deﬁ ne requirements fully before the project begins. You must be agile enough to 
+ respond to a ﬂ uid business environment. 
+ Fluidity implies change, and change is expensive—particularly if it is uncon-trolled or poorly managed. One of the most compelling characteristics of the agile 
+
+approach is its ability to reduce the costs of change through the software process. 
+  Does this mean that a recognition of challenges posed by modern realities causes you to discard valuable software engineering principles, concepts, meth-
+ods, and tools? Absolutely not! Like all engineering disciplines, software en-
+gineering continues to evolve. It can be adapted easily to meet the challenges 
+posed by a demand for agility. 
+ In a thought-provoking book on agile software development, Alistair  Cockburn 4 
+
+have a major failing:  they forget the frailties of the people who build computer 
+software.
+ 
+ Software engineers are not robots. They exhibit great variation in 
+working styles; signiﬁ cant differences in skill level, creativity, orderliness, con-
+sistency, and spontaneity. Some communicate well in written form, others do not. 
+
+ Cockburn argues that process models can “deal with people’s common weak-
+nesses with [either] discipline or tolerance” and that most prescriptive process 
+models choose discipline. He states: “Because consistency in action is a human 
+weakness, high discipline methodologies are fragile.”  If process models are to work, they must provide a realistic mechanism for encouraging the discipline that is necessary, or they must be characterized in 
+
+a manner that shows “tolerance” for the people who do software engineering 
+work. Invariably, tolerant practices are easier for software people to adopt and 
+
+sustain, but (as Cockburn admits) they may be less productive. Like most things 
+in life, trade-offs must be considered.   uote:  "Agility: 1, 
+everything else: 0." 
+ Tom DeMarco 
+  
+1  Agile methods are sometimes referred to as  
+light methods 
+ or  lean methods. 
+    Agile development 
+does not mean no 
+documents are created, 
+it means only creating 
+documents that will be 
+referred to later in the 
+
+development process. pre22126_ch05_066-086.indd   67pre22126_ch05_066-086.indd   6713/12/13   6:10 PM13/12/13   6:10 PM

@@ -1,0 +1,43 @@
+˜˜˚˙˜˜˜
+˜˜
+systems. A system that follows the ClientŒServer pattern is organized as a set of ser
+-vices and associated servers, and clients that access and use the services. The major 
+
+components of this model are:1.
+ A set of servers that offer services to other components. Examples of servers 
+include print servers that offer printing services, file servers that offer file man-
+agement services, and a compile server that offers programming language com-
+pilation services. Servers are software components, and several servers may run 
+on the same computer.2. A set of clients that call on the services offered by servers. There will normally 
+be several instances of a client program executing concurrently on different 
+
+computers. 3.
+ A network that allows the clients to access these services. ClientŒserver sys-
+tems are usually implemented as distributed systems, connected using Internet 
+
+protocols.ClientŒserver architectures are usually thought of as distributed systems architec
+-tures, but the logical model of independent services running on separate servers can 
+be implemented on a single computer. Again, an important benefit is separation and 
+independence. Services and servers can be changed without affecting other parts of 
+the system.Clients may have to know the names of the available servers and the services 
+they provide. However, servers do not need to know the identity of clients or how 
+
+many clients are accessing their services. Clients access the services provided by a 
+
+server through remote procedure calls using a requestŒreply protocol (such as http), 
+
+where a client makes a request to a server and waits until it receives a reply from 
+
+that server.Figure 6.12 The ClientŒServer patternNameClientŒserverDescriptionIn a clientŒserver architecture, the system is presented as a set of services, with each service 
+delivered by a separate server. Clients are users of these services and access servers to make 
+use of them.ExampleFigure 6.
+13 is an example of a film and video/DVD library organized as a clientŒserver system.When usedUsed when data in a shared database has to be accessed from a range of locations. Because 
+servers can be replicated, may also be used when the load on a system is variable.AdvantagesThe principal advantage of this model is that servers can be distributed across a network. 
+General functionality (e.g., a printing service) can be available to all clients and does not 
+need to be implemented by all services.DisadvantagesEach service is a single point of failure and so is susceptible to denial-of-service attacks 
+
+or˜server failure. Performance may be unpredictable because it depends on the network 
+
+as˜well as the system. Management problems may arise if servers are owned by 
+
+different˜organizations.

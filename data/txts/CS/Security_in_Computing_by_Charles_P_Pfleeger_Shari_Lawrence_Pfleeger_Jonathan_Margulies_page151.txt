@@ -1,0 +1,65 @@
+ Section 2.3  Cryptography 
+117  component. Our signer S can certainly perform the protocol to produce a digital sig-
+nature, and anyone who has 
+S’s public key can determine that the signature did come 
+from S. But who is S? We have no reliable way to associate a particular human with that 
+public key. Even if someone says “this public key belongs to 
+S,” on what basis do we 
+believe that assertion? Remember the man-in-the-middle attack earlier in this chapter 
+
+when Amy and Bill wanted to establish a shared secret key? Next we explore how to 
+
+create a trustworthy binding between a public key and an identity.
+Trust
+A central issue of digital commerce is trust: How do you know that a Microsoft web 
+
+page really belongs to Microsoft, for example? This section is less about technology 
+
+and more about the human aspects of trust, because that confidence underpins the whole 
+
+concept of a digital signature.In real life you may trust a close friend in ways you would not trust a new acquain-
+tance. Over time your trust in someone may grow with your experience but can plum-
+
+met if the person betrays you. You try out a person, and, depending on the outcome, 
+
+you increase or decrease your degree of trust. These experiences build a personal trust 
+
+framework.
+Web pages can be replaced and faked without warning. To some extent, you assume 
+a page is authentic if nothing seems unusual, if the content on the site seems credible or 
+at least plausible, and if you are not using the site for critical decisions. If the site is that 
+of your bank, you may verify that the URL looks authentic. Some sites, especially those 
+
+of financial institutions, have started letting each customer pick a security image, for 
+
+example, a hot red sports car or an iconic landmark; users are warned to enter sensitive 
+
+information only if they see the personal image they previously chose.
+In a commercial setting, certain kinds of institutions connote trust. You may trust (the 
+officials at) certain educational, religious, or social organizations. Big, well-established 
+
+companies such as banks, insurance companies, hospitals, and major manufacturers 
+
+have developed a measure of trust. Age of an institution also inspires trust. Indeed, trust 
+
+is the basis for the notion of branding, in which you trust something’s quality because 
+
+you know the brand. As you will see shortly, trust in such recognized entities is an 
+
+important component in digital signatures. Establishing Trust Between People
+As humans we establish trust all the time in our daily interactions with people. We 
+identify people we know by recognizing their voices, faces, or handwriting. At other 
+
+times, we use an affiliation to convey trust. For instance, if a stranger telephones us and 
+
+we hear, “I represent the local government . . .” or “I am calling on behalf of this char-
+
+ity . . .” or “I am calling from the school/hospital/police about your mother/father/son/
+daughter/brother/sister . . . ,” we may decide to trust the caller even if we do not know 
+him or her. Depending on the nature of the call, we may decide to believe the caller’s 
+
+affiliation or to seek independent verification. For example, we may obtain the affili-
+
+ation’s number from the telephone directory and call the party back. Or we may seek 
+
+additional information from the caller, such as “What color jacket was she wearing?” or 

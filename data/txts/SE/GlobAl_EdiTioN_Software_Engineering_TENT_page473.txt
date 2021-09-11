@@ -1,0 +1,36 @@
+˜˜˚˛˝˜˜˜˜˜˜
+not need all of the facilities offered by the supporting middleware. The approach 
+taken in web services to common service provision is therefore rather different. For 
+web services, standards have been defined for common services such as transaction 
+management and security, and these standards have been implemented as program 
+
+libraries. If you are implementing a service component, you only use the common 
+services that you need.The services associated with a component model have much in common with 
+the facilities provided by object-oriented frameworks, which I discussed in 
+
+Chapter 15. Although the services provided may not be as comprehensive, frame-
+work services are often more efficient than container-based services. As a conse-
+quence, some people think that it is best to use frameworks such as SPRING 
+
+(Wheeler and White 2013) for Java development rather than the fully-featured 
+
+component model in EJB.
+CBSE processes are software processes that support component-based software 
+
+engineering. They take into account the possibilities of reuse and the different pro
+-
+cess activities involved in developing and using reusable components. Figure 16.6 
+(Kotonya 2003) presents an overview of the processes in CBSE. At the highest level, 
+
+there are two types of CBSE processes:1. Development for reuse This process is concerned with developing components or services that will be reused in other applications. It usually involves general
+-
+izing existing components.2. Development with reuse This process is the process of developing new applica-
+tions using existing components and services.These processes have different objectives and therefore include different activi-ties. In the development for reuse process, the objective is to produce one or more 
+reusable components. You know the components that you will be working with, and 
+you have access to their source code to generalize them. In development with reuse, 
+you don™t know what components are available, so you need to discover these com-
+ponents and design your system to make the most effective use of them. You may 
+not have access to the component source code.You can see from Figure 16.6 that the basic processes of CBSE with and for reuse have supporting processes that are concerned with component acquisition, compo-
+nent management, and component certification:1. Component acquisition is the process of acquiring components for reuse or devel-opment into a reusable component. It may involve accessing locally developed 
+
+components or services or finding these components from an external source.

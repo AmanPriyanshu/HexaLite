@@ -1,0 +1,40 @@
+˘˜˚˝˙˘˜˘˘˘
+them immediately. When team members see code that can be improved, they make 
+these improvements even in situations where there is no immediate need for them.A fundamental problem of incremental development is that local changes tend to 
+degrade the software structure. Consequently, further changes to the software become 
+
+harder and harder to implement. Essentially, the development proceeds by finding 
+
+workarounds to problems, with the result that code is often duplicated, parts of the 
+
+software are reused in inappropriate ways, and the overall structure degrades as code is 
+
+added to the system. Refactoring improves the software structure and readability and 
+
+so avoids the structural deterioration that naturally occurs when software is changed.Examples of refactoring include the reorganization of a class hierarchy to remove duplicate code, the tidying up and renaming of attributes and methods, and the 
+
+replacement of similar code sections, with calls to methods defined in a program 
+
+library. Program development environments usually include tools for refactoring. 
+
+These simplify the process of finding dependencies between code sections and mak-
+ing global code modifications.In principle, when refactoring is part of the development process, the software 
+should always be easy to understand and change as new requirements are proposed. 
+In practice, this is not always the case. Sometimes development pressure means that 
+
+refactoring is delayed because the time is devoted to the implementation of new 
+
+functionality. Some new features and changes cannot readily be accommodated by 
+code-level refactoring and require that the architecture of the system be modified.ˆˆAs I discussed in the introduction to this chapter, one of the important differences 
+between incremental development and plan-driven development is in the way that 
+
+the system is tested. With incremental development, there is no system specification 
+that can be used by an external testing team to develop system tests. As a conse-
+quence, some approaches to incremental development have a very informal testing 
+process, in comparison with plan-driven testing.Extreme Programming developed a new approach to program testing to address the difficulties of testing without a specification. Testing is automated and is central 
+to the development process, and development cannot proceed until all tests have 
+
+been successfully executed. The key features of testing in XP are:1. test-first development,2. incremental test development from scenarios,3. user involvement in the test development and validation, and4. the use of automated testing frameworks.XP™s test-first philosophy has now evolved into more general test-driven develop-ment techniques (Jeffries and Melnik 2007). I believe that test-driven development is 
+one of the most important innovations in software engineering. Instead of writing code 
+
+and then writing tests for that code, you write the tests before you write the code. This 

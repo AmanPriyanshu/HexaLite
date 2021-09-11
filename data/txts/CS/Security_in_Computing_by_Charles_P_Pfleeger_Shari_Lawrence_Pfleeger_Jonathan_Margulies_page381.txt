@@ -1,0 +1,35 @@
+ Section 6.1  Network Concepts 
+347  Transmission to the satellite can cover a wide area around the satellite because noth-
+ing else is nearby to pick up the signal. On return to earth, however, the wide dissemina-
+
+tion radius, called the broadcast’s footprint, allows any antenna within range to obtain 
+
+the signal without detection, as shown in Figure 6-2. Different satellites have different 
+
+characteristics, but some signals can be intercepted in an area several hundred miles 
+
+wide and a thousand miles long. Therefore, the potential for interception by being in the 
+
+signal’s path is even greater than with microwave signals. However, because satellite 
+
+communications are generally heavily multiplexed, the risk is small that any one com-
+
+munication will be intercepted.In summary, network traffic is available to an interceptor at many points. Figure 6-3 
+illustrates how communications are exposed from their origin to their destination. We 
+
+summarize strengths and weaknesses of different communications media in Table 6-1.
+From a security standpoint, you 
+should assume that all communica-
+tion links between network nodes 
+
+can be broken. As Sidebar 6-2 indi-
+
+cates, even eyeballs can pass data 
+
+unintentionally. For this reason, 
+FIGURE 6-2 Satellite CommunicationAll network communications are 
+
+potentially exposed to interception; 
+
+thus, sensitive signals must be 
+protected.

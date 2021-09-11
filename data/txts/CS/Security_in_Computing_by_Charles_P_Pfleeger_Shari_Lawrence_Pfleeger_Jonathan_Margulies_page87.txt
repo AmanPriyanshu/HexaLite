@@ -1,0 +1,59 @@
+ Section 2.1  Authentication 
+53  did a detailed survey of website authentication methods and found little uniformity, 
+many weaknesses, and no apparent correlation between the value of a site’s data and its 
+
+authentication requirements.Passwords are becoming oppressive as many websites now ask users to log in. But 
+when faced with a system that is difficult to handle, users often take the easy route: 
+
+choosing an easy password and reusing it on many sites. To overcome that weakness, 
+
+some systems use a form of authentication that cannot be stolen, duplicated, forgotten, 
+
+lent, or lost: properties of the user, as we discuss in the next section. The technology for 
+
+passing personal characteristics to a remote server requires more than a keyboard and 
+
+pointing device, but such approaches are becoming more feasible, especially as pass-
+
+word table breaches increase.
+Authentication Based on Biometrics: Something You Are
+Biometrics are biological properties, based on some physical characteristic of the 
+human body. The list of biometric authentication technologies is still growing. Now 
+
+devices can recognize the following biometrics: 
+• fingerprint
+• hand geometry (shape and size of fingers)
+
+• retina and iris (parts of the eye)
+
+• voice
+
+• handwriting, signature, hand motion
+
+• typing characteristics
+
+• blood vessels in the finger or hand
+
+• face
+
+• facial features, such as nose shape or eye spacing
+Authentication with biometrics has advantages over passwords because a biometric 
+cannot be lost, stolen, forgotten, or shared and is always available, always at hand, so to 
+
+speak. These characteristics are difficult, if not impossible, to forge.
+Examples of Biometric AuthenticatorsMany physical characteristics are possibilities as authenticators. In this section we pre- 
+sent examples of two of them, one for the size and shape of the hand, and one for the 
+
+patterns of veins in the hand.
+Figure 2-2 shows a hand geometry reader. The user places a hand on the sensors, 
+which detect lengths and widths of fingers, curvature, and other characteristics.
+An authentication device from Fujitsu reads the pattern of veins in the hand. This 
+device does not require physical contact between the hand and the reader, which is an 
+
+advantage for hygiene. The manufacturer claims a false acceptance rate of 0.00008 per-
+
+cent and false rejection rate of 0.01 percent, with a response time of less than one 
+
+second. Figure 2-3 shows this device embedded in a computer mouse, so the user is 
+
+automatically authenticated.

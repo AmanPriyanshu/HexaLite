@@ -1,0 +1,33 @@
+˜˚˛˝˙ˆˇ˘˜˜˚˜˜˜
+˜˜
+I am prepared to tolerate occasional failure. However, to reflect my lack of trust in 
+the system, I save my work frequently and keep multiple backup copies of it. I com-
+pensate for the lack of system dependability by actions that limit the damage that 
+
+could result from system failure.Building dependable software is part of the more general process of dependable systems engineering. As I discuss in Section 10.2, software is always part of a 
+
+broader system. It executes in an operational environment that includes the hardware 
+on which the software executes, the human users of that software and the organiza
+-
+tional or business processes where the software is used. When designing a  dependable system, you therefore have to consider:1. Hardware failure System hardware may fail because of mistakes in its design, because components fail as a result of manufacturing errors, because of envi-
+ronmental factors such as dampness or high temperatures, or because compo-
+nents have reached the end of their natural life.2. Software failure System software may fail because of mistakes in its specifica-
+tion, design, or implementation.3. Operational failure Human users may fail to use or operate the system as 
+
+intended by its designers. As hardware and software have become more reliable, 
+
+failures in operation are now, perhaps, the largest single cause of system failures.These failures are often interrelated. A failed hardware component may mean 
+system operators have to cope with an unexpected situation and additional workload. 
+This puts them under stress, and people under stress often make mistakes. These 
+
+mistakes can cause the software to fail, which means more work for operators, even 
+more stress, and so on.As a result, it is particularly important that designers of dependable, software-intensive systems take a holistic sociotechnical systems perspective rather than focus 
+
+on a single aspect of the system such as its software or hardware. If hardware, soft-
+ware, and operational processes are designed separately, without taking into account 
+the potential weaknesses of other parts of the system, then it is more likely that errors 
+
+will occur at the interfaces between the different parts of the system.Critical systemsSome classes of system are ﬁcritical systemsﬂ where system failure may result in injury to people, damage to the 
+environment, or extensive economic losses. Examples of critical systems include embedded systems in medical 
+devices, such as an insulin pump (safety-critical), spacecraft navigation systems (mission-critical), and online 
+money transfer systems (business critical).Critical systems are very expensive to develop. Not only must they be developed so that failures are very rare, but they must also include recovery mechanisms to be used if and when failures occur.http://software-engineering-book.com/web/critical-systems/

@@ -1,0 +1,105 @@
+146 PART TWO  
+MODELINGof the system to be built. Among the questions that must be answered [Lag10] are as follows:  
+ 
+ 
+•  Can we build the system?   
+ 
+ 
+•  Will this development process allow us to beat our competitors to market? 
+  
+ 
+ 
+•  Do adequate resources exist to build and maintain the proposed system?   
+ 
+ 
+•  Will the system performance meet the needs of our customers? 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+The answers to these and other questions will evolve over time.  
+ 
+ 
+8.3.2  Quality Function Deployment 
+ 
+ 
+Quality function deployment 
+ (QFD) is a quality management technique that 
+translates the needs of the customer into technical requirements for software. 
+QFD “concentrates on maximizing customer satisfaction from the software engi-
+neering process” [Zul92]. To accomplish this, QFD emphasizes an understanding 
+
+of what is valuable to the customer and then deploys these values throughout the 
+engineering process.  Within the context of QFD 
+, normal requirements
+ 
+ identify the objectives and 
+goals that are stated for a product or system during meetings with the customer. 
+
+If these requirements are present, the customer is satisﬁ ed.  
+Expected require-
+ments 
+ are implicit to the product or system and may be so fundamental that the 
+customer does not explicitly state them. Their absence will be a cause for signif-
+icant dissatisfaction.  Exciting requirements
+ 
+ go beyond the customer’s expecta-
+tions and prove to be very satisfying when present.  
+ 
+ 
+   
+Although QFD concepts can be applied across the entire software process 
+[Par96a]; speciﬁ c QFD techniques are applicable to the requirements elicitation 
+activity. QFD uses customer interviews and observation, surveys, and examination 
+
+of historical data (e.g., problem reports) as raw data for the requirements gather-
+
+ing activity. These data are then translated into a table of requirements—called the 
+
+ customer voice table 
+—that is reviewed with the customer and other stakeholders. 
+A variety of diagrams, matrices, and evaluation methods are then used to extract 
+
+expected requirements and to attempt to derive exciting requirements [Aka04]. 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+8.3.3  Usage Scenarios 
+ 
+As requirements are gathered, an overall vision of system functions and features begin to materialize. However, it is difﬁ
+ cult to move into more technical software 
+engineering activities until you understand how these functions and features will 
+be used by different classes of end users. To accomplish this, developers and 
+
+users can create a set of scenarios that identify a thread of usage for the sys-
+tem to be constructed. The scenarios, often called  use cases 
+ [Jac92], provide a 
+description of how the system will be used. Use cases are discussed in greater 
+detail in Section 8.4.  
+ 
+ 
+    QFD deﬁ nes require-
+ments in a way that 
+maximizes customer 
+satisfaction.    Everyone wants to 
+
+implement lots of 
+exciting requirements, 
+but be careful. That’s 
+
+how “requirements 
+creep” sets in. On the 
+other hand, exciting 
+requirements lead to a 
+breakthrough product!  WebRef 
+ Useful information on 
+QFD can be obtained at 
+  www.qfdi.org  . 
+pre22126_ch08_131-165.indd   146pre22126_ch08_131-165.indd   14613/12/13   6:11 PM13/12/13   6:11 PM

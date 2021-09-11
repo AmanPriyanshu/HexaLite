@@ -1,0 +1,37 @@
+260 PART TWO  
+MODELING 
+ 
+ 
+ 
+Call and Return Architectures.   This architectural style enables you to achieve a program structure that is relatively easy to modify and scale. A number of sub-
+styles [Bas03] exist within this category:  
+ 
+ 
+•   
+Main program/subprogram architectures.
+ 
+ This classic program structure decomposes function into a control hierarchy where a “main” program 
+invokes a number of program components, which in turn may invoke still 
+other components.  Figure 13.3  illustrates an architecture of this type.   
+ 
+ 
+•   
+Remote procedure call architectures.
+ 
+ The components of a main program/subprogram architecture are distributed across multiple computers on a 
+network.  
+ 
+ 
+ FilterPipesFilterFilterFilterFilterFilterFilterFilterPipes and filtersFilterFilter  
+FIGURE 13.2 
+Data-ﬂ ow 
+architecture 
+ 
+ Main programController subprogramController subprogramController subprogramApplication subprogramApplication subprogramApplication subprogramApplication subprogramApplication subprogramApplication subprogramApplication subprogram  
+FIGURE 13.3 
+Main  program/
+subprogram 
+
+architecture 
+ 
+ pre22126_ch13_252-284.indd   260pre22126_ch13_252-284.indd   26013/12/13   6:12 PM13/12/13   6:12 PM

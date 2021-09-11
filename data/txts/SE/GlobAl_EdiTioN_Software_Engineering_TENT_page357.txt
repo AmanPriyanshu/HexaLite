@@ -1,0 +1,44 @@
+˜˜˚˛˝˜˜˜
+˜˜˜
+consistent with its specification. Work on program verification is now mostly based on 
+transformational development. In a transformational development process, a formal 
+
+specification is systematically transformed through a series of representations to pro-
+gram code. Software tools support the development of the transformations and help 
+
+verify that corresponding representations of the system are consistent. The B method is 
+
+probably the most widely used formal transformational method (Abrial 2010). It has 
+
+been used for the development of train control systems and avionics software.Advocates of formal methods claim that the use of these methods leads to more reliable and safer systems. Formal verification demonstrates that the developed pro-
+gram meets its specification and that implementation errors will not compromise the 
+dependability of the system. If you develop a formal model of concurrent systems 
+using a specification written in a language such as CSP (Schneider 1999), you can 
+discover conditions that might result in deadlock in the final program, and you will 
+be able to address these problems. This is very difficult to do by testing alone.However, formal specification and proof do not guarantee that the software will be safe in practical use:1. The specification may not reflect the real requirements of users and other system 
+stakeholders. As I discussed in Chapter 10, system system stakeholders rarely 
+understand formal notations, so they cannot directly read the formal specification 
+
+to find errors and omissions. This means that there it is likely that the formal 
+specification is not an accurate representation of the system requirements.2. The proof may contain errors. Program proofs are large and complex, so, like 
+
+large and complex programs, they usually contain errors.3.
+ The proof may make incorrect assumptions about the way that the system is 
+
+used. If the system is not used as anticipated, then the system™s behavior lies 
+
+outside the scope of the proof.Verifying a nontrivial software system takes a great deal of time. It requires math-ematical expertise and specialized software tools, such as theorem provers. It is an 
+expensive process, and, as the system size increases, the costs of formal verification 
+increase disproportionately.Many software engineers therefore think that formal verification is not 
+ cost-effective. They believe that the same level of confidence in the system can be 
+achieved more cheaply by using other validation techniques, such as inspections and 
+system testing. However, companies such as Airbus that make use of formal verifi-
+cation claim that unit testing of components is not required, which leads to signifi-
+cant cost savings (Moy et al. 2013).I am convinced that that formal methods and formal verification have an 
+important role to play in the development of critical software systems. Formal 
+
+specifications are very effective in discovering some types of specification prob-lems that may lead to system failure. Although formal verification remains 
+
+impractical for large systems, it can be used to verify critical safety and security 
+
+critical core components.

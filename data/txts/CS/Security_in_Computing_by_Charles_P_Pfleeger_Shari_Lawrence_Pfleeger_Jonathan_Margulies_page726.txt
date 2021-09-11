@@ -1,0 +1,64 @@
+692 Chapter 10  
+Management and IncidentsDetecting TheftFor some devices, protection is more important than detection. We want to keep some-
+
+one from stealing certain systems or information at all costs. But for other devices, it 
+
+may be enough to detect that an attempt has been made to access or steal hardware 
+
+or software. For example, chaining down a disk makes it unusable. Instead, we try to 
+
+detect when someone tries to leave a protected area with the disk or other protected 
+
+object. In these cases, the protection mechanism should be small and unobtrusive.
+One such mechanism is similar to the protection used by many libraries, bookstores, 
+or department stores. Each sensitive object is marked with a special label. Although 
+
+the label looks like a normal pressure-sensitive one, its presence can be detected by 
+
+a machine at the exit door if the label has not been disabled by an authorized party, 
+
+such as a librarian or sales clerk. Similar security code tags are available for vehicles, 
+
+people, machinery, and documents. Some tags are enabled by radio transmitters. When 
+
+the detector sounds an alarm, someone must apprehend the person trying to leave with 
+
+the marked object.
+Interception of Sensitive Information
+When disposing of a draft copy of a confidential report containing its sales strategies for 
+
+the next five years, a company wants to be especially sure that the report is not recon-
+
+structable by one of its competitors. When the report exists only as hard copy, destroy-
+
+ing the report is straightforward, usually accomplished by shredding or burning. But 
+
+when the report exists digitally, destruction is more problematic. There may be many 
+
+copies of the report in digital and paper form and in many locations (including on the 
+
+computer and on storage media). There may also be copies in backups and archived in 
+
+email files. In this section, we look at several ways to dispose of sensitive information.
+Shredding
+Shredders have existed for a long time, as devices used by banks, government agencies, 
+and others organizations to dispose of large amounts of confidential data. Although 
+
+most of the shredded data is on paper, shredders can also be used for destroying printer 
+
+ribbons and some types of disks and tapes. Shredders work by converting their input to 
+
+thin strips or pulp, with enough volume to make it infeasible for most people to try to 
+
+reconstruct the original from its many pieces. When data are extremely sensitive, some 
+
+organizations burn the shredded output for added protection.
+For small, inexpensive devices such as flash drives, simply breaking the object in 
+half is another effective means of destruction. The internal circuitry is so small that reat-
+
+taching all the broken connections is most unlikely.
+Overwriting Magnetic DataMagnetic media present a special problem for those trying to protect the contents. 
+When data are stored on magnetic disks, the ERASE or DELETE functions often sim-
+ply change a directory pointer to free up space on the disk. As a result, the sensitive data 
+
+are still recorded on the medium, and they can be recovered by analysis of the directory. 

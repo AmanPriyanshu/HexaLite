@@ -1,0 +1,65 @@
+514 Chapter 7  
+DatabasesTwo-Phase Update
+A serious problem for a database manager is the failure of the computing system in the 
+middle of data modification. If the data item to be modified was a long field or a record 
+
+consisting of several attributes, only some of the new data might have been written to 
+
+permanent storage. Therefore, the database file would contain incorrect data that had 
+
+not been updated. Even if errors of this type were spotted easily (which they are not), a 
+
+more subtle problem occurs when several fields are updated and no single field appears 
+
+to be in obvious error. The solution to this problem, proposed first by Lampson and 
+
+Sturgis [LAM76] and adopted by most DBMSs, uses a two-phase update.
+Update Technique
+During the first phase, called the 
+intent phase, the DBMS gathers the resources it needs to perform the update. It may gather data, create dummy records, open files, lock out 
+
+other users, and calculate final answers; in short, it does everything to prepare for the 
+
+update, but it makes no changes to the database. The first phase is repeatable an unlim-
+
+ited number of times because it takes no permanent action. If the system fails during 
+
+execution of the first phase, no harm is done because all these steps can be restarted and 
+
+repeated after the system resumes processing.The last event of the first phase, called 
+committing, involves the writing of a 
+com-mit flag to the database. The commit flag means that the DBMS has passed the point of 
+no return: After committing, the DBMS begins making permanent changes.
+The second phase makes the permanent changes. During the second phase, no 
+actions from before the commit can be repeated, but the update activities of phase two 
+
+can also be repeated as often as needed. If the system fails during the second phase, the 
+
+database may contain incomplete data, but the system can repair these data by perform-
+
+ing all activities of the second phase. After the second phase has been completed, the 
+
+database is again complete.Two-Phase Update Example
+Consider a database that contains the inventory of a company’s office supplies. The 
+company’s central stockroom stores paper, pens, paper clips, and the like, and the dif-
+
+ferent departments requisition items as they need them. The company buys in bulk to 
+
+obtain the best prices. Each department has a budget for office supplies, so there is a 
+
+charging mechanism by which the cost of supplies is recovered from the department. 
+
+Also, the central stockroom monitors quantities of supplies on hand so as to order new 
+
+supplies when the stock becomes low.
+Suppose the process begins with a requisition from the accounting department for 
+50 boxes of paper clips. Assume that there are 107 boxes in stock and a new order is 
+
+placed if the quantity in stock ever falls below 100. Here are the steps followed after the 
+
+stockroom receives the requisition.
+1. The stockroom checks the database to determine that 50 boxes of paper clips are 
+on hand. If not, the requisition is rejected and the transaction is finished.
+2. If enough paper clips are in stock, the stockroom deducts 50 from the inventory 
+figure in the database (107 
+ 50  57).

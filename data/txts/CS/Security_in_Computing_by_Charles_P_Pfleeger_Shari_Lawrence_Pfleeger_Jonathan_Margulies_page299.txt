@@ -1,0 +1,57 @@
+ Section 4.3  Obtaining User or Website Data 
+265  Microsoft Index Server. For example, passing the following URL causes the server to 
+return the requested file, autoexec.nt, enabling an attacker to modify or delete it.
+http://yoursite.com/webhits.htw?CiWebHits &File=../../../../../winnt/system32/autoexec.ntServer-Side Include
+A potentially more serious problem is called a server-side include
+. The problem takes 
+advantage of the fact that web pages can be organized to invoke a particular function 
+
+automatically. For example, many pages use web commands to send an email message 
+
+in the “contact us” part of the displayed page. The commands are placed in a field that 
+
+is interpreted in HTML.One of the server-side include commands is exec, to execute an arbitrary file on the 
+server. For instance, the server-side include command
+<!--#exec cmd="/usr/bin/telnet &"-->opens a Telnet session from the server running in the name of (that is, with the privi-
+
+leges of) the server. An attacker may find it interesting to execute commands such as 
+
+chmod
+ (change access rights to an object), sh (establish a command shell), or cat (copy 
+to a file).
+Website Data: A User’s Problem, Too
+You might wonder why we raise a website owner’s data in this chapter. After all, 
+
+shouldn’t the site’s owner be responsible for protecting that data? The answer is yes, 
+
+but with a qualification.
+First, you should recognize that this book is about protecting security in all aspects of computing, including networks, programs, databases, the cloud, devices, and operat-
+
+ing systems. True, no single reader of this book is likely to need to implement security 
+
+in all those places, and some readers may never be in a position to actually implement 
+
+security anywhere, although some readers may go on to design, develop, or maintain 
+
+such things. More importantly, however, everyone who reads this book will use those 
+
+components. All readers need to understand both what can go wrong and to what degree 
+
+website owners and other engineers and administrators can protect against such harm. 
+
+Thus, everyone needs to know range of potential threats, including those against distant 
+
+web sites.But more importantly, some website data affect users significantly. Consider one 
+of the most common data items that web sites maintain: user IDs and passwords. As 
+
+we describe in Chapter 2, people have difficulty remembering many different IDs and 
+
+passwords. Making it easier for users, many web sites use an email address as a user’s 
+
+identification, which means user will have the same ID at many web sites. This repeti-
+
+tion is not necessarily a problem, as we explain, because IDs are often public; if not an 
+
+email address, an ID may be some obvious variation of the user’s name. What protects 
+
+the user is the pair of the public ID and private authentication, typically a password. 

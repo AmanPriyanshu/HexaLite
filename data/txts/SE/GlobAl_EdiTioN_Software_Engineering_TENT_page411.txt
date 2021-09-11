@@ -1,0 +1,27 @@
+˜˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜˜
+proactive resistance where defenses are included in a system to trap problems and 
+reactive resistance where actions are taken when a problem is discovered.3. Recovery If a failure occurs, the aim of the recovery activity is to ensure that critical system services are restored quickly so that system users are not seri-ously affected by the failure.4. Reinstatement In this final activity, all of the system services are restored, and 
+normal system operation can continue.These activities lead to changes to the system state as shown in Figure 14.1, 
+which shows the state changes in the system in the event of a cyberattack. In parallel 
+with normal system operation, the system monitors network traffic for possible 
+
+cyberattacks. In the event of a cyberattack, the system moves to a resistance state in 
+which normal services may be restricted.If resistance successfully repels the attack, normal service is resumed. Otherwise, the 
+system moves to a recovery state where only critical services are available. Repairs to the 
+
+damage caused by the cyberattack are carried out. Finally, when repairs are complete, 
+
+the system moves to a reinstatement state. In this state, the system™s services are incre-
+mentally restored. Finally, when all restoration is complete, normal service is resumed.As the Apollo 13 example illustrates, resilience cannot be ﬁprogrammed inﬂ to a system. It is impossible to anticipate everything that might go wrong and every con-
+text where problems might arise. The key to resilience, therefore, is flexibility and 
+adaptability. As I discuss in Section 14.2, it should be possible for system operators 
+and managers to take actions to protect and repair the system, even if these actions 
+are abnormal or are normally disallowed.Increasing the resilience of a system of course has significant costs. Software 
+may have to be purchased or modified, and additional investments made in hardware 
+
+or cloud services to provide backup systems that can be used in the event of a system 
+failure. The benefits from these costs are impossible to calculate because the losses 
+from a failure or attack can only be calculated after the event.Companies may therefore be reluctant to invest in resilience if they have never 
+suffered a serious attack or associated loss. However, the increasing number of 
+RecognitionNormal operatingstateAttackrecognitionResistanceRecoveryReinstatementCritical servicedeliveryCritical servicedeliveryAttackresistanceSystem
+repairSoftware and datarestorationRestricted servicedeliveryReinstatement completeAttackdetectedAttacksuccessfulRepaircompleteAttack repelledFigure 14.1 Resilience activities 

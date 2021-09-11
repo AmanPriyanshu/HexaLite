@@ -1,0 +1,62 @@
+ Section 3.3  Countermeasures 
+201  looking for signs of the Code Red worm can look for a pattern containing the following 
+characters:/default.ida?NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+%u9090%u6858%ucbd3
+%u7801%u9090%u6858%ucdb3%u7801%u9090%u6858
+%ucbd3%u7801%u9090
+%u9090%u8190%u00c3%u0003%ub00%u531b%u53ff
+%u0078%u0000%u00=a HTTP/1.0When the scanner recognizes a known virus’s pattern, it can then block the virus, 
+inform the user, and deactivate or 
+
+remove the virus. However, a virus 
+
+scanner is effective only if it has 
+
+been kept up-to-date with the latest 
+
+information on current viruses.Code Analysis Another approach to detecting an infection is to analyze the code to determine what it does, 
+
+how it propagates and perhaps even where it originated. That task is difficult, however.
+The first difficulty with analyzing code is that the researcher normally has only the 
+end product to look at. As Figure 3-24 shows, a programmer writes code in some high-
+
+level language, such as C, Java, or C#. That code is converted by a compiler or inter-
+
+preter into intermediate object code; a linker adds code of standard library routines and 
+
+packages the result into machine code that is executable. The higher-level language 
+
+code uses meaningful variable names, comments, and documentation techniques to 
+
+make the code meaningful, at least to the programmer.
+During compilation, all the structure and documentation are lost; only the raw 
+instructions are preserved. To load a program for execution, a linker merges called 
+
+library routines and performs address translation. If the code is intended for propaga-
+
+tion, the attacker may also invoke a packager, a routine that strips out other identifying 
+
+information and minimizes the size of the combined code block.In case of an infestation, an analyst may be called in. The analyst starts with code 
+that was actually executing, active in computer memory, but that may represent only a 
+
+portion of the actual malicious package. Writers interested in stealth clean up, purging 
+
+memory or disk of unnecessary instructions that were needed once, only to install the 
+infectious code. In any event, analysis starts from machine instructions. Using a tool 
+
+called a disassembler, the analyst can convert machine-language binary instructions to 
+
+their assembly language equivalents, but the trail stops there. These assembly language 
+
+instructions have none of the informative documentation, variable names, structure, 
+
+labels or comments, and the assembler language representation of a program is much 
+less easily understood than its higher-level language counterpart. Thus, although the 
+Virus writers and antivirus tool makers 
+
+engage in a battle to conceal patterns 
+
+and find those regularities.

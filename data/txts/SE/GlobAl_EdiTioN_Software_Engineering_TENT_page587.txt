@@ -1,0 +1,32 @@
+˜˜˚˛˜˜˜˜˜˜˜˜˜
+parts of the systems may be located in different jurisdictions and so are subject to different laws and regulations.6.
+ Data-intensive systems are technically complex because of the relationships 
+
+between the data items. The technical complexity is also likely to be increased 
+to cope with data errors and incompleteness. Governance complexity may be 
+
+increased because of different laws governing the use of data.7. The heterogeneity of a system contributes to its technical complexity because of 
+the difficulties of ensuring that different technologies used in different parts of 
+the system are compatible.Large-scale systems of systems are now unimaginably complex entities that can-not be understood or analyzed as a whole. As I discuss in Section 20.3, the large 
+
+number of interactions between the parts and the dynamic nature of these interac-
+tions means that conventional engineering approaches do not work well for complex 
+systems. It is complexity that is the root cause of problems in projects to develop 
+
+large software-intensive systems, not poor management or technical failings.Earlier, I suggested that the distinguishing feature of a system of systems was that 
+
+two or more of its elements were independently managed. Different people with 
+
+different priorities have the authority to take day-to-day operational decisions about 
+
+changes to the system. As their work is not necessarily aligned, conflicts can arise 
+
+that require a significant amount of time and effort to resolve. Systems of systems, 
+
+therefore, always have some degree of managerial complexity.However, this broad definition of SoS covers a very wide range of system types. It 
+includes systems that are owned by a single organization but are managed by different 
+Figure 20.3 SoS characteristics and 
+system complexitySoS characteristicTechnical 
+complexityManagerial 
+complexityGovernance 
+complexityOperational independenceXXManagerial independenceXXEvolutionary developmentXEmergenceXGeographical distributionXXXData-intensiveXXHeterogeneityX

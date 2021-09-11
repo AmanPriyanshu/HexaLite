@@ -1,0 +1,58 @@
+˜˜˚˛˙˜˜˜˜˜˜
+are processed and all system responses are produced in a timely way. The results of 
+the timing analysis are used to decide how frequently each process should execute 
+
+and how these processes should be scheduled by the real-time operating system.Timing analysis for real-time systems is particularly difficult when the system 
+has to deal with a mixture of periodic and aperiodic stimuli and responses. 
+
+Because aperiodic stimuli are unpredictable, you have to make assumptions about 
+
+the probability of these stimuli occurring and therefore requiring service at any 
+
+particular time. These assumptions may be incorrect, and system performance 
+
+after delivery may not be adequate. Cooling™s book (Cooling 2003) discusses 
+
+techniques for real-time system performance analysis that takes aperiodic events 
+
+into account.As computers have become faster, it has become possible in many systems to 
+design using only periodic stimuli. When processors were slow, aperiodic stimuli 
+
+had to be used to ensure that critical events were processed before their deadline, 
+
+as delays in processing usually involved some loss to the system. For example, 
+
+the failure of a power supply in an embedded system may mean that the system 
+
+has to shut down attached equipment in a controlled way, within a very short 
+
+time (say 50 milliseconds). This could be implemented as a ﬁpower failﬂ inter-
+rupt. However, it can also be implemented using a periodic process that runs 
+
+frequently and checks the power. As long as the time between process invoca-
+tions is short, there is still time to perform a controlled shutdown of the system 
+
+before the lack of power causes damage. For this reason, I only discuss timing 
+
+issues for periodic processes.When you are analyzing the timing requirements of embedded real-time systems and 
+designing systems to meet these requirements, you have to consider three key factors:1. Deadlines The times by which stimuli must be processed and some response 
+produced by the system. If the system does not meet a deadline, then, if it is a 
+hard real-time system, this is a system failure; in a soft real-time system, it 
+
+results in degraded system service.2. Frequency The number of times per second that a process must execute so that 
+you are confident that it can always meet its deadlines.3. Execution time The time required to process a stimulus and produce a response. 
+
+Execution time is not always the same because of the conditional execution of 
+
+code, delays waiting for other processes, and so on. Therefore, you may have to 
+
+consider both the average execution time of a process and the worst-case execu
+-
+tion time for that process. The worst-case execution time is the maximum time 
+
+that the process takes to execute. In a hard real-time system, you may have to 
+
+make assumptions based on the worst-case execution time to ensure that dead-
+lines are not missed. In soft real-time systems, you can base your calculations on 
+
+the average execution time.To continue the example of a power supply failure, let™s calculate the worst-case execution time for a process that switches equipment power from mains 

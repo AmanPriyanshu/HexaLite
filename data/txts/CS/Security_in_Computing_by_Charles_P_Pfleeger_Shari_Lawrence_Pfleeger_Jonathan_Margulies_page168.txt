@@ -1,0 +1,75 @@
+134 Chapter 3  
+Programs and Programmingof the C-I-A triad. Integrity involves not only correctness but also accuracy, 
+precision, and consistency. A faulty program can also inappropriately modify 
+
+previously correct data, sometimes by overwriting or deleting the original data. 
+
+Even though the flaw may not have been inserted maliciously, the outcomes of a 
+
+flawed program can lead to serious harm.
+• On the other hand, even a flaw from a benign cause can be exploited by some-
+one malicious. If an attacker learns of a flaw and can use it to manipulate the 
+
+program’s behavior, a sim-
+
+ple and nonmalicious flaw 
+
+can become part of a mali-
+
+cious attack. Thus, in both ways, program correctness becomes a security issue as well as a gen-
+eral quality problem. In this chapter we examine several programming flaws that have 
+
+security implications. We also show what activities during program design, develop-
+
+ment, and deployment can improve program security.
+Buffer Overflow
+We start with a particularly well known flaw, the buffer overflow. Although the basic 
+
+problem is easy to describe, locating and preventing such difficulties is challenging. 
+
+Furthermore, the impact of an overflow can be subtle and disproportionate to the 
+
+underlying oversight. This outsized effect is due in part to the exploits that people have 
+
+achieved using overflows. Indeed, a 
+
+buffer overflow is often the initial 
+
+toehold for mounting a more dam-
+
+aging strike. Most buffer overflows 
+
+are simple programming oversights, 
+
+but they can be used for malicious 
+
+ends. See Sidebar 3-2 for the story 
+
+of a search for a buffer overflow.
+This example was not the first buffer overflow, and in the intervening time—
+approaching two decades—far more buffer overflows have been discovered. However, 
+
+this example shows clearly the mind of an attacker. In this case, David was trying to 
+
+improve security—he happened to be working for one of this book’s authors at the 
+
+time—but attackers work to defeat security for reasons such as those listed in Chapter 1. 
+
+We now investigate sources of buffer overflow attacks, their consequences, and some 
+
+countermeasures.Anatomy of Buffer Overflows
+A string overruns its assigned space or one extra element is shoved into an array; what’s 
+the big deal, you ask? To understand why buffer overflows are a major security issue, 
+
+you need to understand how an operating system stores code and data.
+As noted above, buffer overflows have existed almost as long as higher-level pro-
+gramming languages with arrays. Early overflows were simply a minor annoyance to 
+Benign flaws can be—often are—
+
+exploited for malicious impact.Buffer overflows often come from 
+
+innocent programmer oversights or 
+
+failures to document and check for 
+
+excessive data.

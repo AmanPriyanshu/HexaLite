@@ -1,0 +1,57 @@
+CHAPTER 27  
+SECURITY ENGINEERING 585developing software for the military, government, or health agencies. Today, se-
+curity must be the concern of every software engineer who has client resources 
+to protect.   
+In the simplest sense, software security provides the mechanisms that en-able a software system to protect its assets from attack.  Assets 
+ are system re-
+sources that have value to one or more stakeholders. Assets include database 
+information, ﬁ les, programs, hard-drive storage space, system memory, or even 
+processor capacity. 
+Attacks often take advantage of software weaknesses or vul-nerabilities that allow unauthorized access to a system. For example, a common 
+vulnerability might come from failing to authenticate users before allowing them 
+to access valuable system resources.  Software security is an aspect of software quality assurance (Chapter 21). Ear-
+lier in this book, you learned that quality cannot be added to a system by re-
+sponding to bug reports. In a similar manner, it is very difﬁ
+ cult to add security to 
+an existing system by responding to reports of system vulnerabilities that have 
+been exploited [Gho01]. Security concerns must be considered at the beginning 
+of the software process, built into the software design, implemented as part of 
+coding, and veriﬁ ed during testing and deployment. 
+ In this chapter we present a survey of important issues in software security engineering. A complete discussion of this topic is beyond the scope of this book. 
+Additional information may be found in [All08], [Lip10], and [Sin08].   
+ 
+ 
+ 
+ 27.1  
+ANALYZING
+ SECURITY REQUIREMENTS  
+ 
+Requirements for software security are determined by working with the cus-tomer to identify the assets that must be protected and the cost associated with 
+the loss of those assets should a security breach occur. The value of the loss of 
+
+an asset is known as its  exposure
+ 
+. Losses might be measured in time or cost to recover or recreate an asset. Assets with insigniﬁ cant value do not need to be 
+secured.  An important part of building secure systems is anticipating conditions or threats that may be used to damage system resources or render them inacces-
+sible to authorized users. This process is called  threat analysis
+ 
+. Once the system assets, vulnerabilities, and threats have been identiﬁ ed, controls can be created 
+to either avoid attacks or mitigate their damage.  Software security is an essential prerequisite for software integrity, avail-
+ability, reliability, and safety (Chapter 19). It may not be possible to create 
+
+a system that can defend its assets against all possible threats, and for that 
+
+reason, it may be necessary to encourage users to maintain backup copies of 
+
+critical data, redundant system components, and ensure privacy controls are 
+
+in place. 
+  uote:  Security is always 
+excessive until it’s 
+
+not enough.    Robbie Sinclair 
+   Focus on assets that 
+
+have the highest 
+value and the greatest 
+exposure. pre22126_ch27_584-600.indd   585pre22126_ch27_584-600.indd   58516/12/13   6:23 PM16/12/13   6:23 PM

@@ -1,0 +1,46 @@
+˜˜˚˜˜˜˜
+˜˜
+Use the requirements todevelop validation tests for
+the system.Use the requirements
+document to plan a bid for
+the system and to plan the
+system development process.Use the requirements to
+understand what system is
+to be developed.System test
+engineers
+ManagersSystem
+engineers
+Specify the requirements and
+read them to check that they
+meet their needs. Customers
+specify changes to the
+requirements.System
+customersUse the requirements to
+understand the system and
+the relationships between its
+parts.
+System
+maintenanceengineers
+Figure 4.16 Users of a requirements documentThe diversity of possible users means that the requirements document has to be a compromise. It has to describe the requirements for customers, define the require-
+ments in precise detail for developers and testers, as well as include information 
+
+about future system evolution. Information on anticipated changes helps system 
+
+designers to avoid restrictive design decisions and maintenance engineers to adapt 
+the system to new requirements.The level of detail that you should include in a requirements document depends 
+on the type of system that is being developed and the development process used. 
+
+Critical systems need detailed requirements because safety and security have to be 
+analyzed in detail to find possible requirements errors. When the system is to be 
+
+developed by a separate company (e.g., through outsourcing), the system specifica-
+tions need to be detailed and precise. If an in-house, iterative development process is 
+used, the requirements document can be less detailed. Details can be added to the 
+
+requirements and ambiguities resolved during development of the system.Figure 4.
+17 shows one possible organization for a requirements document that is 
+based on an IEEE standard for requirements documents (IEEE 1998). This standard 
+is a generic one that can be adapted to specific uses. In this case, the standard has 
+been extended to include information about predicted system evolution. This infor-
+mation helps the maintainers of the system and allows designers to include support 
+for future system features.

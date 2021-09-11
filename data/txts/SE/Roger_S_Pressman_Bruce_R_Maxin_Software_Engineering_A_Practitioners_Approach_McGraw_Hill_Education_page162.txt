@@ -1,0 +1,100 @@
+132 PART TWO  
+MODELING 
+All of us who have worked in the systems and software business for more than a few years have lived this nightmare, and yet, few of us have learned to make it go 
+away. We struggle when we try to elicit requirements from our customers. We have 
+
+trouble understanding the information that we do acquire. We often record require-
+
+ments in a disorganized manner, and we spend far too little time verifying what we do 
+
+record. We allow change to control us, rather than establishing mechanisms to con-
+
+trol change. In short, we fail to establish a solid foundation for the system or software. 
+Each of these problems is challenging. When they are combined, the outlook is daunt-
+ing for even the most experienced managers and practitioners. But solutions do exist.  
+  
+It’s reasonable to argue that the techniques we’ll discuss in this chapter are 
+not a true “solution” to the challenges just noted. But they do provide a solid ap-
+proach for addressing these challenges.   
+ 
+ 
+ 8.1 R
+EQUIREMENTS ENGINEERING  
+ 
+ 
+Designing and building computer software is challenging, creative, and just plain fun. In fact, building software is so compelling that many software developers 
+want to jump right in before they have a clear understanding of what is needed. 
+They argue that things will become clear as they build, that project stakeholders 
+will be able to understand need only after examining early iterations of the soft-
+ware, that things change so rapidly that any attempt to understand requirements 
+in detail is a waste of time, that the bottom line is producing a working program, 
+and that all else is secondary. What makes these arguments seductive is that they 
+
+contain elements of truth.  1 
+ 
+ But each argument is ﬂ
+ awed and can lead to a failed 
+software project.  
+ 
+ 
+ 
+   
+The broad spectrum of tasks and techniques that lead to an understanding of requirements is called  requirements engineering.
+ 
+ From a software process per-
+spective, requirements engineering is a major software engineering action that 
+begins during the communication activity and continues into the modeling activ-
+ity. It must be adapted to the needs of the process, the project, the product, and 
+
+the people doing the work.  Requirements engineering builds a bridge to design and construction. But where does the bridge originate? One could argue that it begins at the feet of 
+the project stakeholders (e.g., managers, customers, and end users), where busi-
+ness need is deﬁ ned, user scenarios are described, functions and features are 
+delineated, and project constraints are identiﬁ ed. Others might suggest that it 
+   Requirements 
+engineering 
+establishes a solid 
+base for design and 
+construction. Without 
+it, the resulting 
+software has a high 
+probability of not 
+meeting customer’s 
+
+needs.     stakeholders. . . . . 139  
+    use cases  . . . . . . . 149  
+
+    validating 
+
+requirements  . . . . 161  
+
+    validation. . . . . . . 136  
+
+    viewpoints. . . . . . 139  
+
+    work products  . . . 147         
+  uote:  “The hardest single 
+part of building a 
+
+software system is 
+
+deciding what to 
+
+build. No part of 
+
+the work so cripples 
+
+the resulting system 
+
+if done wrong. No 
+
+other part is more 
+
+difﬁ cult to rectify 
+
+later.” 
+ Fred Brooks 
+  
+1  This is particularly true for small projects (less than one month) and smaller, relatively simple 
+software efforts. As software grows in size and complexity, these arguments begin to break 
+
+down. pre22126_ch08_131-165.indd   132pre22126_ch08_131-165.indd   13213/12/13   6:11 PM13/12/13   6:11 PM

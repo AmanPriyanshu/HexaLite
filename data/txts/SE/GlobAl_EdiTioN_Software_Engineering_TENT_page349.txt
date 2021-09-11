@@ -1,0 +1,54 @@
+˜˜˚˛˚˜˜˜
+˜˜
+be detected before it causes an accident. Examples of hazards that might be detected are 
+power failure, which is detected by monitoring the battery, and incorrect fitting of the 
+
+machine, which may be detected by monitoring signals from the blood sugar sensor.The monitoring software in the system is, of course, safety-related. Failure to detect a 
+hazard could result in an accident. If the monitoring system fails but the hardware is work-ing correctly, then this is not a serious failure. However, if the monitoring system fails and 
+
+hardware failure cannot then be detected, then this could have more serious consequences.Hazard assessment involves estimating the hazard probability and risk severity. 
+This is difficult as hazards and accidents are uncommon. Consequently, the engineers 
+
+involved may not have direct experience of previous incidents or accidents. In estimat
+-ing probabilities and accident severity, it makes sense to use relative terms such as 
+
+probable, unlikely, rare, high, medium, and low. Quantifying these terms is practically 
+impossible because not enough statistical data is available for most types of accident.ˇˇHazard analysis is the process of discovering the root causes of hazards in a safety-critical 
+
+system. Your aim is to find out what events or combination of events could cause a system 
+
+failure that results in a hazard. To do this, you can use either a top-down or a bottom-up 
+
+approach. Deductive, top-down techniques, which are easier to use, start with the hazard 
+
+and work from that to the possible system failure. Inductive, bottom-up techniques start 
+
+with a proposed system failure and identify what hazards might result from that failure.Various techniques have been proposed as possible approaches to hazard decom-position or analysis (Storey 1996). One of the most commonly used techniques is 
+
+fault tree analysis, a top-down technique that was developed for the analysis of both 
+hardware and software hazards (Leveson, Cha, and Shimeall 1991). This technique 
+is fairly easy to understand without specialist domain knowledge.To do a fault tree analysis, you start with the hazards that have been identified. 
+For each hazard, you then work backwards to discover the possible causes of that 
+hazard. You put the hazard at the root of the tree and identify the system states that 
+
+can lead to that hazard. For each of these states, you then identify further system 
+
+states that can lead to them. You continue this decomposition until you reach the root 
+
+cause(s) of the risk. Hazards that can only arise from a combination of root causes 
+
+are usually less likely to lead to an accident than hazards with a single root cause.Figure 12.
+5 is a fault tree for the software-related hazards in the insulin delivery sys
+-tem that could lead to an incorrect dose of insulin being delivered. In this case, I have 
+
+merged insulin underdose and insulin overdose into a single hazard, namely, ﬁincorrect 
+
+insulin dose administered.ﬂ This reduces the number of fault trees that are required. Of 
+
+course, when you specify how the software should react to this hazard, you have to 
+
+distinguish between an insulin underdose and an insulin overdose. As I have said, they 
+
+are not equally seriousŠin the short term, an overdose is the more serious hazard.From Figure 12.5, you can see that:1. Three conditions could lead to the administration of an incorrect dose of insulin. 
+(1) The level of blood sugar may have been incorrectly measured, so the insulin 
+requirement has been computed with an incorrect input. (2) The delivery system 

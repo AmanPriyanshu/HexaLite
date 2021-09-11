@@ -1,0 +1,51 @@
+520 PART THREE  
+QUALITY MANAGEMENT 
+ 
+Pattern name: 
+  ScenarioTesting
+ 
+   
+Abstract: 
+ Once unit and integration tests have been conducted, there is a need to 
+determine whether the software will perform in a manner that satisﬁ es users. The 
+ ScenarioTesting
+ 
+ pattern describes a technique for exercising the software from the 
+user’s point of view. A failure at this level indicates that the software has failed to 
+
+meet a user visible requirement [Kan01].  
+  
+A comprehensive discussion of testing patterns is beyond the scope of this book. If you have further interest, see [Bin99], [Mar02], and [Tho04] for additional 
+information on this important topic.   
+ 
+ 
+ 
+ 
+ 23.11 S
+UMMARY  
+The primary objective for test-case design is to derive a set of tests that have the highest likelihood for uncovering errors in software. To accomplish this objec-
+
+tive, two different categories of test-case design techniques are used: white-box 
+testing and black-box testing.  White-box tests focus on the program control structure. Test cases are derived 
+to ensure that all statements in the program have been executed at least once 
+during testing and that all logical conditions have been exercised. Basis path 
+testing, a white-box technique, makes use of program graphs (or graph matrices) 
+to derive the set of linearly independent tests that will ensure coverage. Condi-
+tion and data ﬂ ow testing further exercise program logic, and loop testing com-
+plements other white-box techniques by providing a procedure for exercising 
+loops of varying degrees of complexity. 
+ Hetzel [Het84] describes white-box testing as “testing in the small.” His impli-cation is that the white-box tests that have been considered in this chapter are 
+typically applied to small program components (e.g., modules or small groups of 
+modules). Black-box testing, on the other hand, broadens your focus and might 
+be called “testing in the large.”  Black-box tests are designed to validate functional requirements without re-gard to the internal workings of a program. Black-box testing techniques focus 
+on the information domain of the software, deriving test cases by partitioning the 
+input and output domain of a program in a manner that provides thorough test 
+coverage. Equivalence partitioning divides the input domain into classes of data 
+that are likely to exercise a speciﬁ c software function. Boundary value analysis 
+probes the program’s ability to handle data at the limits of acceptability. Orthog-
+
+onal array testing provides an efﬁ cient, systematic method for testing systems 
+with small numbers of input parameters. Model-based testing uses elements of 
+the requirements model to test the behavior of an application.  Experienced software developers often say, “Testing never ends, it just gets 
+transferred from you [the software engineer] to your customer. Every time your 
+pre22126_ch23_496-522.indd   520pre22126_ch23_496-522.indd   52013/12/13   6:14 PM13/12/13   6:14 PM

@@ -1,0 +1,72 @@
+728 Chapter 11  
+Legal Issues and Ethicsfollow directly from one’s job. For example, suppose an employee is hired as an accoun-
+tant for an automobile company. While on the job, the employee invents a more efficient 
+
+way to burn fuel in an automobile engine. The employer would argue that the employee 
+
+used company time to think about the problem, and therefore the company was entitled 
+
+to this product. An employment contract transferring all rights of all inventions to the 
+
+employer would strengthen the case even more.
+An agreement not to compete is sometimes included in a contract. The employer 
+states that simply having worked for one employer will make the employee very valu-
+
+able to a competitor. The employee agrees not to compete by working in the same field 
+
+for a set period of time after termination. For example, a programmer who has a very 
+
+high position involving the design of operating systems would understandably be famil-
+
+iar with a large body of operating system design techniques. The employee might mem-
+
+orize the major parts of a proprietary operating system and be able to write a similar one 
+
+for a competitor in a very short time. To prevent this, the employer might require the 
+
+employee not to work for a competitor (including working as an independent contrac-
+
+tor). Agreements not to compete are not always enforceable in law; in some states the 
+
+employee’s right to earn a living takes precedence over the employer’s rights.
+11.4 REDRESS FOR SOFTWARE FAILURES
+So far, we have considered programs, algorithms, and data as objects of ownership. But 
+
+these objects vary in quality, and some of the legal issues involved with them concern 
+
+the degree to which they function properly or well. In fact, people have legitimate dif-
+
+ferences of opinion on what constitutes “fair,” “good,” and “prudent” as these terms 
+
+relate to computer software and programmers and vendors. The law applies most easily 
+
+when there is broad consensus. In this section we look closely at the role that quality 
+plays in various legal disputes. At the same time, we also look at the ethical side of soft-
+
+ware quality, foreshadowing a broader discussion on ethics later in this chapter.
+Program development is a human process of design, creation, and testing, involving 
+a great deal of communication and interaction. For these reasons, there will always be 
+
+errors in the software we produce. We sometimes expect perfect consumer products, 
+
+such as automobiles or lawn mowers. At other times, we expect products to be “good 
+
+enough” for use, in that most instances will be acceptable. Usually we do not mind 
+
+variation in the amount of cheese on our pizza or a slight irregularity in the color of a 
+
+ceramic tile. If an instance of a product is not usable, we expect the seller to provide 
+
+some appropriate remedy, such as repair or replacement. In fact, the way in which these 
+
+problems are handled can contribute to a vendor’s reputation for quality service; on the 
+
+rare occasions when there is a problem, a good vendor will promptly and courteously 
+
+make amends.
+But the situation with software is very different. To be fair, an operating system is 
+a great deal more complex than a pizza or a ceramic tile, and more opportunities for 
+
+failure exist. For this reason, this section addresses three questions:
+• What are the legal issues in selling correct and usable software?
+• What are the moral or ethical issues in producing correct and usable software?

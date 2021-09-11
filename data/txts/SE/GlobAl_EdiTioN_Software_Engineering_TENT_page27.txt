@@ -1,0 +1,53 @@
+˜˜˚˜˜˜˜˘
+˜ˇ
+˜˜
+These fundamentals are independent of the program language used for software development. I don™t cover specific programming techniques in this book because these vary dramatically from one type of system to another. For example, a dynamic 
+language, such as Ruby, is the right type of language for interactive system develop-
+ment but is inappropriate for embedded systems engineering.
+
+The development of the Internet and the World Wide Web has had a profound 
+
+effect on all of our lives. Initially, the web was primarily a universally accessible 
+
+information store, and it had little effect on software systems. These systems ran 
+
+on local computers and were only accessible from within an organization. Around 
+
+2000, the web started to evolve, and more and more functionality was added to 
+
+browsers. This meant that web-based systems could be developed where, instead 
+
+of a special-purpose user interface, these systems could be accessed using a web 
+
+browser. This led to the development of a vast range of new system products that 
+
+delivered innovative services, accessed over the web. These are often funded by 
+
+adverts that are displayed on the user™s screen and do not involve direct payment 
+
+from users.As well as these system products, the development of web browsers that could run small programs and do some local processing led to an evolution in business and 
+
+organizational software. Instead of writing software and deploying it on users™ PCs, 
+the software was deployed on a web server. This made it much cheaper to change 
+and upgrade the software, as there was no need to install the software on every PC. 
+
+It also reduced costs, as user interface development is particularly expensive. 
+
+Wherever it has been possible to do so, businesses have moved to web-based inter
+-
+action with company software systems.The notion of software as a service (Chapter 17) was proposed early in the 21st century This has now become the standard approach to the delivery of web-based 
+system products such as Google Apps, Microsoft Office 365, and Adobe Creative 
+
+Suite. More and more software runs on remote ﬁcloudsﬂ instead of local servers and 
+is accessed over the Internet. A computing cloud is a huge number of linked com-
+puter systems that is shared by many users. Users do not buy software but pay 
+
+according to how much the software is used or are given free access in return for 
+
+watching adverts that are displayed on their screen. If you use services such as web-
+based mail, storage, or video, you are using a cloud-based system.The advent of the web has led to a dramatic change in the way that business soft-ware is organized. Before the web, business applications were mostly monolithic, 
+
+single programs running on single computers or computer clusters. Communications 
+were local, within an organization. Now, software is highly distributed, sometimes 
+across the world. Business applications are not programmed from scratch but involve 
+extensive reuse of components and programs.This change in software organization has had a major effect on software engi-neering for web-based systems. For example:

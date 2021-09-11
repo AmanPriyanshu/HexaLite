@@ -1,0 +1,91 @@
+CHAPTER 17  
+WEBAPP DESIGN 389Design techniques described in Chapter 14 are applicable for the engineering of WebApp components. 
+  
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+17.1.  Why is the “artistic ideal” an insufﬁ cient design philosophy when modern WebApps 
+are built? Is there ever a case in which the artistic ideal is the philosophy to follow?    
+ 
+17.2.  In this chapter we select a broad array of quality attributes for WebApps. Select the 
+three that you believe are most important, and make an argument that explains why each 
+should be emphasized in WebApp design work. 
+   
+ 
+17.3.  Add at least ﬁ ve additional questions to the WebApp Design—Quality Checklist pre-
+sented in Section 17.1.    
+ 
+17.4.  You are a WebApp designer for FutureLearning Corporation, a distance learning com-
+pany. You intend to implement an Internet-based “learning engine” that will enable you to 
+
+deliver course content to a student. The learning engine provides the basic infrastructure 
+for delivering learning content on any subject (content designers will prepare appropriate 
+content). Develop a prototype interface design for the learning engine.    
+ 
+17.5.  What is the most aesthetically pleasing website you have ever visited and why?    
+ 
+17.6.  Consider the content object  Order,
+ 
+ generated once a user of  
+ 
+SafeHomeAssured.com 
+ 
+ has completed the selection of all components and is ready to ﬁ nalize his purchase. Develop 
+a UML description for  Order 
+ along with all appropriate design representations.    
+ 
+17.7.  What is the difference between content architecture and WebApp architecture? 
+   
+ 
+17.8.  Reconsidering the FutureLearning “learning engine” described in Problem 17.4, select a content architecture that would be appropriate for the WebApp. Discuss why you made 
+
+the choice.    
+ 
+17.9.  Use UML to develop three or four design representations for content objects that would be encountered while the “learning engine” described in Problem 17.4 is designed.    
+ 
+17.10.  Do a bit of additional research on the MVC architecture and decide whether it would be an appropriate WebApp architecture for the “learning engine” discussed in Problem 17.4. 
+   
+ 
+17.11.  What is the difference between navigation syntax and navigation semantics?    
+ 
+17.12.  Deﬁ ne two or three NSUs for the  
+ 
+SafeHomeAssured.com 
+ 
+ WebApp. Describe each in 
+some detail.   
+ 
+ 
+ 
+  F
+URTHER
+ READINGS AND INFORMATION
+ SOURCES  
+ 
+Van Duyne and his colleagues ( 
+The Design of Sites, 
+ 2nd ed., Prentice Hall, 2007) have writ-
+ten a comprehensive book that covers most important aspects of the WebApp design pro-
+
+cess. Design process models and design patterns are covered in detail. Johnson ( Designing with the Mind in Mind: Simple Guide to Understanding User Interface Design Rules, 
+ Morgan 
+Kaufman, 2010) has written a book on user interaction design with many examples appli-
+cable to web design. Wodtke and Gavella ( 
+Information Architecture: Blueprints for the Web,
+ 
+ 2nd ed., New Riders Publishing, 2009), Rosenfeld and Morville ( Information Architecture for 
+the World Wide Web,
+ 
+ 3rd ed., 
+ 
+ O’Reilly & Associates, 2006), and Reiss ( 
+Practical Information Architecture,
+ 
+ Addison-Wesley, 2000) address content architecture and other topics. 
+  
+ 
+Although hundreds of books have been written on “Web design,” very few of these dis-
+cuss any meaningful technical methods for doing design work. At best, a variety of useful pre22126_ch17_371-390.indd   389pre22126_ch17_371-390.indd   38913/12/13   6:13 PM13/12/13   6:13 PM

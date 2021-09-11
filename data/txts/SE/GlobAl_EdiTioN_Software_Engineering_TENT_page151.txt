@@ -1,0 +1,33 @@
+˜˜˚˙˜˜˜˜˜˜
+At this level of detail, class diagrams look like semantic data models. Semantic data models are used in database design. They show the data entities, their associated attributes, and the relations between these entities (Hull and King 1987). The UML 
+does not include a diagram type for database modeling, as it models data using 
+
+objects and their relationships. However, you can use the UML to represent a seman
+-
+tic data model. You can think of entities in a semantic data model as simplified 
+
+object classes (they have no operations), attributes as object class attributes, and rela-
+tions as named associations between object classes.When showing the associations between classes, it is best to represent these classes 
+in the simplest possible way, without attributes or operations. To define objects in 
+
+more detail, you add information about their attributes (the object™s characteristics) 
+
+and operations (the object™s functions). For example, a Patient object has the attribute 
+
+Address, and you may include an operation called ChangeAddress, which is called 
+
+when a patient indicates that he or she has moved from one address to another.In the UML, you show attributes and operations by extending the simple  rectangle that represents a class. I illustrate this in Figure 5.10 that shows an object represent-
+ing a consultation between doctor and patient:1. The name of the object class is in the top section.2. The class attributes are in the middle section. This includes the attribute names and, optionally, their types. I don™t show the types in Figure 5.10.3. The operations (called methods in Java and other OO programming languages) 
+associated with the object class are in the lower section of the rectangle. I show 
+some but not all operations in Figure 5.10.In the example shown in Figure 5.10, it is assumed that doctors record voice notes 
+that are transcribed later to record details of the consultation. To prescribe  medication, 
+the doctor involved must use the Prescribe method to generate an electronic prescription.ConsultationDoctorsDateTimeClinic
+ReasonMedication prescribedTreatment prescribed
+Voice notes
+Transcript
+...
+New ( )
+Prescribe ( )
+RecordNotes ( )
+Transcribe ( )
+...Figure 5.10 A Consultation class

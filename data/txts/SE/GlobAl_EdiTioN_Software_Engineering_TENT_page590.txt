@@ -1,0 +1,44 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜problem early in the process and take actions to ensure that appropriate governance is in place. It may be the case that you need to adopt a governance model that moves 
+a system from one class to another. Moving the governance model to the left in 
+
+Figure 20.4 usually reduces complexity.As I have suggested, the school digital learning environment (iLearn) is a system of systems. As well as the digital learning system itself, it is connected to school 
+
+administration systems and to network management systems. These network man-
+agement systems are used for Internet filtering, which stops students from accessing 
+
+undesirable material on the Internet.iLearn is a relatively simple technical system, but it has a high level of govern-ance complexity. This complexity arises because of the way that education is funded 
+and managed. In many countries pre-university education is funded and organized at 
+
+a local level rather than at a national level. States, cities, or counties are responsible 
+
+for schools in their area and have autonomy in deciding school funding and policies. 
+Each local authority maintains its own school administration system and network 
+
+management system.In Scotland, there are 32 local authorities with responsibility for education in 
+their area. School administration is outsourced to one of three providers and iLearn 
+must connect to their systems. However, each local authority has its own network 
+management policies with separate network management systems involved.The development of a digital learning system is a national initiative, but to cre
+-ate a digital learning environment, it has to be integrated with network manage-
+ment and school administration systems. It is therefore a system of systems with 
+
+administration and network management systems, as well as the systems within 
+
+iLearn such as Office 365 and Wordpress. There is no common governance pro-
+cess across authorities, so, according to the classification scheme, this is a coali-
+tion of systems. In practice, this means that it cannot be guaranteed that students 
+
+in different places can access the same tools and content, because of different 
+
+Internet filtering policies.When we produced the conceptual model for the system, we made a strong rec-ommendation that common policies should be established across local authorities on 
+administrative information provision and Internet filtering. In essence, we suggested 
+that the system should be a federated system rather than a coalition of systems. This 
+
+suggestion requires a new governance body to be established to agree on common 
+policies and standards for the system.I have already suggested that our current software engineering methods and tech-
+nologies cannot cope with the complexity that is inherent in modern systems of sys
+-
+tems. Of course, this idea is not new: Progress in all engineering disciplines has 
+
+always been driven by challenging and difficult problems. New methods and tools 
+are developed in response to failures and difficulties with existing approaches.

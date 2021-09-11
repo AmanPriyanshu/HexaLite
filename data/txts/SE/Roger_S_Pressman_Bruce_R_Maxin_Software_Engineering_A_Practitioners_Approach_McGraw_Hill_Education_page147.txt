@@ -1,0 +1,91 @@
+CHAPTER 7  
+PRINCIPLES THAT GUIDE PRACTICE
+ 117internal support for those features that are user visible. Some functions transform data that ﬂ ow into the system. In other cases, functions effect 
+some level of control over internal software processing or external system 
+elements. Functions can be described at many different levels of abstrac-
+tion, ranging from a general statement of purpose to a detailed descrip-
+tion of the processing elements that must be invoked.  
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Principle 3. 
+  The behavior of the software (as a consequence of external The behavior of the software (as a consequence of external 
+events) must be represented.events) must be represented.
+ 
+ The behavior of computer software is driven by its interaction with the external environment. Input provided by end 
+users, control data provided by an external system, or monitoring data 
+collected over a network all cause the software to behave in a speciﬁ c way. 
+   
+ 
+ 
+ 
+ 
+ 
+Principle 4. 
+  The models that depict information, function, and behavior The models that depict information, function, and behavior must be partitioned in a manner that uncovers detail in a layered (or hi-must be partitioned in a manner that uncovers detail in a layered (or hi-
+erarchical) fashion.erarchical) fashion.
+ 
+ Requirements modeling is the ﬁ rst step in software 
+engineering problem solving. It allows you to better understand the prob-
+lem and establishes a basis for the solution (design). Complex problems 
+are difﬁ cult to solve in their entirety. For this reason, you should use a 
+divide-and-conquer strategy. A large, complex problem is divided into 
+
+subproblems until each subproblem is relatively easy to understand. This 
+concept is called  partitioning 
+ or  separation of concerns, 
+ and it is a key strategy in requirements modeling.    
+ 
+ 
+ 
+ 
+ 
+Principle 5. 
+  The analysis task should move from essential information to-The analysis task should move from essential information to-
+ward implementation detail.ward implementation detail.
+ 
+ Analysis modeling begins by describing the problem from the end user’s perspective. The “essence” of the problem 
+
+is described without any consideration of how a solution will be imple-
+mented. For example, a video game requires that the player “instruct” its 
+protagonist on what direction to proceed as she moves into a dangerous 
+maze. That is the essence of the problem. Implementation detail (nor-
+
+mally described as part of the design model) indicates how the essence 
+will be implemented. For the video game, voice input might be used. Al-
+ternatively, a keyboard command might be typed, a game pad joystick (or 
+
+mouse) might be pointed in a speciﬁ c direction, a motion-sensitive device 
+might be waved in the air, or a device that reads the player’s body move-
+
+ments directly can be used.    
+By applying these principles, a software engineer approaches a problem sys-tematically. But how are these principles applied in practice? This question will 
+
+be answered in Chapters 8 through 11.   
+ 
+ 
+ 
+Design modeling principles.  
+ 
+  The software design model is the equivalent of an 
+architect’s plans for a house. It begins by representing the totality of the thing to 
+
+be built (e.g., a three-dimensional rendering of the house) and slowly reﬁ nes the 
+Try to build useful models, but forget about building perfect models.Don’t become dogmatic about the syntax of the model. If it communicates content successfully, representation is secondary.If your instincts tell you a model isn’t right even though it seems okay on paper, you probably have reason to be concerned.Get feedback as soon as you can.The information domain of a problem must be represented and understood. 
+The functions that the software performs must be deﬁ ned.    Analysis modeling 
+focuses on three 
+attributes of software: 
+information to be pro-
+
+cessed, function to be 
+delivered, and behavior 
+to be exhibited. pre22126_ch07_103-130.indd   117pre22126_ch07_103-130.indd   11713/12/13   6:11 PM13/12/13   6:11 PM

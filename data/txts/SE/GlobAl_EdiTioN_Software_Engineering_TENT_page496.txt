@@ -1,0 +1,37 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜˜˜recover from the failure. One important benefit of cloud computing is that it has 
+dramatically reduced the cost of providing redundant system components.Two fundamental types of interaction may take place between the computers in a dis-
+tributed computing system: procedural interaction and message-based interaction. 
+
+Procedural interaction involves one computer calling on a known service offered by 
+
+some other computer and waiting for that service to be delivered. Message-based 
+
+interaction involves the ﬁsendingﬂ computer defining information about what is 
+
+required in a message, which is then sent to another computer. Messages usually trans-
+mit more information in a single interaction than a procedure call to another machine.To illustrate the difference between procedural and message-based interaction, 
+consider a situation where you are ordering a meal in a restaurant. When you have a 
+conversation with the waiter, you are involved in a series of synchronous, procedural 
+interactions that define your order. You make a request, the waiter acknowledges 
+
+that request, you make another request, which is acknowledged, and so on. This is 
+comparable to components interacting in a software system where one component 
+calls methods from other components. The waiter writes down your order along with 
+the order of other people with you. He or she then passes this order, which includes 
+details of everything that has been ordered, to the kitchen to prepare the food. 
+
+Essentially, the waiter is passing a message to the kitchen staff, defining the food to 
+
+be prepared. This is message-based interaction.I have illustrated this kind of interaction in Figure 17.1, which shows the synchronous 
+ordering process as a series of calls, and in Figure 17.2, which shows a hypothetical XML 
+
+message that defines an order made by the table of three people. The difference between 
+
+these forms of information exchange is clear. The waiter takes the order as a series of 
+Tomato soup please
+Waiter
+DinerWhat would you like?
+And to follow?Fillet steakHow would you like it cooked?Rare pleaseWith salad or french fries?
+Salad pleaseetc.Figure 17.1  Procedural interaction between a 
+diner and a waiter 

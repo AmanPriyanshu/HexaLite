@@ -1,0 +1,115 @@
+839 EMERGING TRENDS IN SOFTWARE
+ ENGINEERING   
+ 
+ 
+ Throughout the relatively brief history of software engineering, practi-tioners and researchers have developed an array of process models, 
+technical methods, and automated tools in an effort to foster fundamen-tal change in the way we build computer software. Even though past experi-
+ence indicates otherwise, there is a tacit desire to ﬁ nd the “silver bullet”—the 
+magic process or transcendent technology that will allow us to build large, 
+complex, software-based systems easily, without confusion, without mistakes, 
+
+without delay—without the many problems that continue to plague software 
+work.  But history indicates that our quest for the silver bullet appears doomed to failure. New technologies are introduced regularly, hyped as a “solution” 
+
+to many of the problems software engineers face, and incorporated into proj-
+ects large and small. Industry pundits stress the importance of these “new” 
+software technologies, the cognoscenti of the software community adopt them 
+with enthusiasm, and ultimately, they do play a role in the software engineer-
+
+ing world. But they tend not to meet their promise, and as a consequence, the 
+quest continues.  In past editions of this book (over the past 35 years), we have discussed emerging technologies and their projected impact on software engineering. KEY CONCEPTS     building blocks  . . . 847  
+    collaborative 
+
+development. . . . . 852  
+
+    complexity  . . . . . . 845  
+
+    emergent 
+
+requirements  . . . . 846  
+
+    hype cycle. . . . . . . 842  
+
+    innovation life 
+
+cycle. . . . . . . . . . . 840  
+
+    model-driven 
+
+development. . . . . 853  
+
+    open source  . . . . . 848  
+
+    open-world 
+
+software  . . . . . . . 846  
+
+    postmodern design  . 
+854      requirements 
+
+engineering. . . . . . 852  
+
+    soft trends . . . . . . 843  
+
+    technology 
+
+directions . . . . . . . 849  
+
+    technology 
+
+evolution  . . . . . . . 840  
+  
+ 
+CHAPTER38  
+QUICK LOOK   
+What is it?   No one can predict the future with absolute certainty. 
+
+But it is possible to assess trends in 
+the software engineering area and from those trends to suggest possible directions 
+for the technology. That’s what we attempt to 
+
+do in this chapter. 
+  
+ 
+Who does it?   Anyone who is willing to spend the time to stay abreast of software engineer-
+
+ing issues can try to predict the future direction 
+
+of the technology. 
+  
+ 
+Why is it important? 
+  Why did ancient kings hire soothsayers? Why do major multinational 
+corporations hire consulting ﬁ rms and think 
+tanks to prepare forecasts? Why does a sub-
+stantial percentage of the public read horo-
+scopes? We want to know what’s coming so 
+
+we can ready ourselves.   
+ 
+What are the steps?   There is no formula for 
+predicting the road ahead. We attempt to do 
+
+this by collecting data, organizing it to pro-
+vide useful information, examining subtle as-
+
+sociations to extract knowledge, and from this 
+knowledge to suggest probable trends that 
+predict how things will be at some future time.   
+ 
+What is the work product? 
+  A view of the near-term future that may or may not be correct. 
+  
+ 
+How do I ensure that I’ve done it right?   Predicting the road ahead is an art, 
+not a science. In fact, it’s quite rare when a 
+
+serious prediction about the future is absolutely 
+right or unequivocally wrong (with the excep-
+tion, thankfully, of predictions of the end of the 
+
+world). We look for trends and try to extrapo-
+
+late them. We can assess the correctness of the 
+
+extrapolation only as time passes.  pre22126_ch38_839-859.indd   839pre22126_ch38_839-859.indd   83913/12/13   6:17 PM13/12/13   6:17 PM

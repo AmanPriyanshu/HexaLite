@@ -1,0 +1,184 @@
+26 CHAPTER 2  
+SOFTWARE ENGINEERING
+ 
+ 
+ 
+ 
+ 
+ 2.5 H
+OW IT ALL STARTS
+  
+ 
+Every software project is precipitated by some business need—the need to cor-
+rect a defect in an existing application; the need to adapt a “legacy system” to a 
+changing business environment; the need to extend the functions and features of 
+an existing application; or the need to create a new product, service, or system.  At the beginning of a software project, the business need is often expressed informally as part of a simple conversation. The conversation presented in the 
+sidebar is typical.  
+ 
+ 
+ 
+  
+ 
+9  The  
+SafeHome 
+ project will be used throughout this book to illustrate the inner workings of 
+a project team as it builds a software product. The company, the project, and the people are 
+
+ﬁ ctitious, but the situations and problems are real. 
+ 
+ 
+ 
+How a Project Starts 
+  
+ 
+ 
+How a Project Starts 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The scene:  Meeting room at CPI 
+Corporation, a (ﬁ ctional) company that 
+makes consumer products for home and commercial use. 
+   
+ 
+ 
+ 
+ 
+ 
+The players:  Mal Golden, senior manager, product 
+development; Lisa Perez, marketing manager; Lee 
+Warren, engineering manager; Joe Camalleri, execu-
+
+tive vice president, business development    
+ 
+ 
+ 
+ 
+ 
+The conversation:  
+   
+ 
+ 
+ 
+ 
+ 
+Joe:  Okay, Lee, what’s this I hear about your folks de-
+veloping a what? A generic universal wireless box?    
+ 
+ 
+ 
+ 
+ 
+Lee:  It’
+digital camera, just about anything. Using the 802.11n 
+wireless protocol. It allows us to access the device’s 
+
+output without wires. We think it’ll lead to a whole new 
+
+generation of products.    
+ 
+ 
+ 
+ 
+ 
+Joe:  You agree, Mal? 
+   
+ 
+ 
+ 
+ 
+ 
+Mal:  I do. In fact, with sales as ﬂ
+ at as they’ve been 
+this year, we need something new. Lisa and I have been 
+
+doing a little market research, and we think we’ve got a 
+line of products that could be big.    
+ 
+ 
+ 
+ 
+ 
+Joe:  How 
+   
+ 
+ 
+ 
+ 
+ 
+Mal   (avoiding a direct commitment): 
+ Tell him 
+about our idea, Lisa.    
+ 
+ 
+ 
+ 
+ 
+Lisa:  It’s a whole new generation of what we call 
+“home management products.” We call ‘em 
+ 
+SafeHome.  They use the new wireless interface, provide homeown-
+
+ers or small-businesspeople with a system that’s con-
+
+trolled by their PC—home security, home surveillance, 
+
+appliance and device control—you know, turn down the 
+
+home air conditioner while you’re driving home, that 
+sort of thing. 
+   
+ 
+ 
+ 
+ 
+ 
+Lee (jumping in):  Engineering’s done a technical 
+feasibility study of this idea, Joe. It’s doable at low man-
+
+ufacturing cost. Most hardware is off the shelf. Software 
+is an issue, but it’s nothing that we can’t do. 
+   
+ 
+ 
+ 
+ 
+ 
+Joe:  Interesting. Now, I asked about the bottom line. 
+   
+ 
+ 
+ 
+ 
+ 
+Mal:  PCs and tablets have penetrated over 70 percent 
+of all households in the USA. If we could price this thing 
+right, it could be a killer app. Nobody else has our 
+s proprietary. We’ll have a 2-year 
+jump on the competition. Revenue? Maybe as much as 
+$30 to $40 million in the second year. 
+   
+ 
+ 
+ 
+ 
+ 
+Joe (smiling):  Let’s take this to the next level. I’m 
+interested.  
+ 
+  
+SAFEHOME 
+ 9  
+  
+ 
+With the exception of a passing reference, software was hardly mentioned as 
+part of the conversation. And yet, software will make or break the  SafeHome 
+ prod-
+uct line. The engineering effort will succeed only if  SafeHome 
+ software succeeds. 
+pre22126_ch02_014-028.indd   26pre22126_ch02_014-028.indd   2613/12/13   6:10 PM13/12/13   6:10 PM

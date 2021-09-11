@@ -1,0 +1,29 @@
+ Section 6.6  Cryptography in Network Security 
+435  H1H2MEncryptedT3T2H3T1
+T3MFIGURE 6-37 Link EncryptionLink encryption is especially appropriate when the transmission line is the point of greatest vulnerability. If all hosts on a network are reasonably secure but the commu-
+
+nications medium is shared with other users or is not secure, link encryption is an easy 
+control to use. Link encryption is also desirable when all communication on a single 
+line should be protected, for example, if the link is between two offices of one company, 
+
+where all internal communications would be protected.
+End-to-End Encryption As its name implies, end-to-end encryption provides security from one end of a trans-
+mission to the other. The encryption can be applied between the user and the host by a 
+
+hardware device. Alternatively, the encryption can be done by software running on the 
+
+host computer. In either case, the encryption is performed at the highest levels, usually 
+
+by an application at OSI level 7, but sometimes 5 or 6. A model of end-to-end encryp-
+
+tion is shown in Figure 6-38.
+FIGURE 6-38 Application-Level (End-to-End) Encryption
+M7M
+M65
+4M
+M323232MMM11MSenderReceiver
+Intermediate nodeMEncrypted
+PlaintextMMMMM1M7M
+M65
+4M
+M32M1M

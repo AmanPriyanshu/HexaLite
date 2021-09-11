@@ -1,0 +1,40 @@
+768In this chapter:• Cryptology, cryptanalysis
+• Symmetric encryption: DES, AES, and RC2, RC4, RC5, 
+and RC6• Asymmetric encryption: RSA
+
+• Message digests: SHA
+
+• Digital signatures: Elliptic curve cryptosystems, El Gamal, 
+and DSA/DSS• Quantum cryptography
+A user’s manual describes the interface to and functions of a software product. If 
+you really want to know how a piece of software is built, how it works, how to 
+
+embed it in another piece of software, or what its detailed specifications are, 
+you need a different kind of documentation. You do not normally need any of these 
+
+advanced topics to use the software, however.
+This chapter complements the discussion of encryption presented in Chapter 2. In that earlier chapter we introduced cryptography as a tool we then used many times in 
+
+later chapters. For many people the user’s manual to cryptography will be sufficient. 
+
+But for people who want or need more details on the topic, we expand on cryptography 
+
+in this chapter.
+We begin with an introduction to cryptanalysis. Although throughout this book we 
+have shown how technology fails or can be made to fail, we have not yet delved deeply 
+
+into the rich topic of overcoming the protections of cryptography. After describing types 
+
+of failings, we consider potential and real shortcomings of well-known cryptographic 
+
+algorithms and implementations. We conclude this chapter with some applications in 
+
+which cryptography is embedded: hash codes and digital signatures.You should not expect this chapter to prepare you to appreciate the nuances of cryp-
+tography, much less to design your own cryptographic algorithms. Cryptography is a 
+
+specialized topic that depends on several areas of mathematics and theoretical computer 
+
+science, including number theory, finite field algebra, computational complexity, and 
+
+logic. After reading this overview, you would need to develop a significant background 
+12Details of Cryptography

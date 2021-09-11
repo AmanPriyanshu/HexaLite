@@ -1,0 +1,124 @@
+623 SOFTWARE
+ CONFIGURATION
+MANAGEMENT   
+ 
+ 
+ 
+ 
+ Change is inevitable when computer software is built and can lead to confusion when you and other members of a software team are work-
+ing on a project. Confusion arises when changes are not analyzed be-fore they are made, recorded before they are implemented, reported to those 
+with a need to know, or controlled in a manner that will improve quality and 
+
+reduce error. Babich [Bab86] discusses this when he states:
+  
+confusion is called 
+conﬁ guration management. Conﬁ
+ guration management is the art of identifying, 
+organizing, and controlling modiﬁ cations to the software being built by a pro-
+gramming team. The goal is to maximize productivity by minimizing mistakes.  
+  
+Software conﬁ guration management (SCM) is an umbrella activity that is 
+applied throughout the software process. Because change can occur at any 
+time, SCM activities are developed to (1) identify change, (2) control change,  
+What is it?   When you build com-puter software, change happens. 
+
+And because it happens, you need to 
+
+manage it effectively. Software conﬁ
+ g-
+uration management (SCM), also called change 
+
+management, is a set of activities designed to 
+
+manage change by identifying the work prod-
+ucts that are likely to change, establishing rela-
+tionships among them, deﬁ ning mechanisms for 
+managing different versions of these work prod-
+ucts, controlling the changes imposed, and audit-
+ing and reporting on the changes made. 
+  
+ 
+Who does it?   Everyone involved in the soft-
+ware process is involved with change manage-
+ment to some extent, but specialized support 
+
+positions are sometimes created to manage 
+the SCM process.   
+ 
+Why is it important? 
+  If you don’t control 
+change, it controls you. And that’s never good. 
+
+It’s very easy for a stream of uncontrolled 
+
+changes to turn a well-run software project into 
+
+chaos. As a consequence, software quality suf-
+fers and delivery is delayed. For that reason, 
+change management is an essential part of 
+quality management.   
+ 
+What are the steps?   Because many work products are produced when software is built, 
+each must be uniquely identiﬁ ed. Once this is 
+accomplished, mechanisms for version and 
+change control can be established. To ensure 
+
+that quality is maintained as changes are 
+made, the process is audited; and to ensure 
+that those with a need to know are informed 
+
+about changes, reporting is conducted. 
+  
+ 
+What is the work product? 
+  A Software Con-ﬁ guration Management Plan deﬁ
+ nes the project 
+strategy for change management. In addition, 
+
+when formal SCM is invoked, the change con-
+
+trol process produces software change requests, 
+
+reports, and engineering change orders. 
+  
+ 
+How do I ensure that I’ve done it right?   When every work product can be accounted 
+for, traced, and controlled; when every change 
+
+can be tracked and analyzed; when everyone 
+
+who needs to know about a change has been 
+informed—you’ve done it right. 
+  
+QUICK LOOK  KEY CONCEPTS     baselines  . . . . . . . 626  
+    change control. . . . 635  
+
+    conﬁ
+ guration 
+audit  . . . . . . . . . . 639  
+
+    conﬁ
+ guration 
+management, 
+elements of. . . . . . 626  
+
+    conﬁ
+ guration 
+objects. . . . . . . . . 642  
+
+    content 
+
+management. . . . . 643  
+
+    identiﬁ
+ cation. . . . . 633  
+impact 
+management. . . . . 638
+
+    repository  . . . . . . 630  
+
+    SCM process. . . . . 632  
+  
+ 
+ 
+CHAPTER29 pre22126_ch29_623-652.indd   623pre22126_ch29_623-652.indd   62313/12/13   6:16 PM13/12/13   6:16 PM

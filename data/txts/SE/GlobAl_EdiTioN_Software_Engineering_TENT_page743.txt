@@ -1,0 +1,32 @@
+˜˜˚˛˜˜˜˜˜˜˜
+5. Once the system has passed its tests, check it into the build system server but do not commit it as a new system baseline in the VC system.6. Build the system on the build server and run the tests. Alternatively, if you are 
+
+using Git, you can pull recent changes from the server to your private work-
+space. You need to do this in case others have modified components since you 
+checked out the system. If this is the case, check out the components that have 
+failed and edit these so that tests pass on your private workspace.7. If the system passes its tests on the build system, then commit the changes you 
+
+have made as a new baseline in the system mainline.Tools such as Jenkins (Smart 2011) are used to support continuous integration. These tools can be set up to build a system as soon as a developer has completed a 
+repository update.The advantage of continuous integration is that it allows problems caused by the interactions between different developers to be discovered and repaired as soon as 
+possible. The most recent system in the mainline is the definitive working system. 
+However, although continuous integration is a good idea, it is not always possible to 
+implement this approach to system building:1. If the system is very large, it may take a long time to build and test, especially if 
+integration with other application systems is involved. It may be impractical to 
+
+build the system being developed several times per day.2. If the development platform is different from the target platform, it may not be 
+
+possible to run system tests in the developer™s private workspace. There may be 
+differences in hardware, operating system, or installed software. Therefore, 
+
+more time is required for testing the system.For large systems or for systems where the execution platform is not the same as 
+the development platform, continuous integration is usually impossible. In those 
+
+circumstances, frequent system building is supported using a daily build system:Check-outmainlineBuild andtest system
+Build andtest system
+MakechangesCheck-in tobuild serverBuild andtest system
+Commitchanges to VMVersion
+managementsystemVersion
+managementsystemBuild serverPrivateworkspaceTests fail
+Tests OK
+OKTests fail
+Figure 25.12  Continuous integration

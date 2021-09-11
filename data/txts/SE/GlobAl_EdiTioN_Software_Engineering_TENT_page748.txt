@@ -1,0 +1,41 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜change required, with less emphasis on implementation issues. System developers 
+decide how to implement the change and estimate the time required to complete 
+
+the change implementation.After a change request has been submitted, it is checked to ensure that it is valid. The checker may be from a customer or application support team or, for internal 
+
+requests, may be a member of the development team. The change request may be 
+rejected at this stage. If the change request is a bug report, the bug may have already 
+
+been reported and repaired. Sometimes, what people believe to be problems are actu-
+ally misunderstandings of what the system is expected to do. On occasions, people 
+request features that have already been implemented but that they don™t know about. 
+If any of these features are true, the issue is closed and the form is updated with the 
+reason for closure. If it is a valid change request, it is then logged as an outstanding 
+request for subsequent analysis.For valid change requests, the next stage of the process is change assessment and costing. This function is usually the responsibility of the development or mainte
+-nance team as they can work out what is involved in implementing the change. The 
+
+impact of the change on the rest of the system must be checked. To do this, you have 
+to identify all of the components affected by the change. If making the change means 
+that further changes elsewhere in the system are needed, this will obviously increase 
+the cost of change implementation. Next, the required changes to the system mod-
+ules are assessed. Finally, the cost of making the change is estimated, taking into 
+
+account the costs of changing related components.Following this analysis, a separate group decides if it is cost-effective for the 
+business to make the change to the software. For military and government systems, 
+this group is often called the change control board (CCB). In industry, it may be 
+
+called something like a ﬁproduct development groupﬂ responsible for making deci-
+sions about how a software system should evolve. This group should review and 
+
+approve all change requests, unless the changes simply involve correcting minor 
+
+errors on screen displays, web pages, or documents. These small requests should be 
+passed to the development team for immediate implementation.The CCB or product development group considers the impact of the change from a strategic and organizational rather than a technical point of view. It decides whether 
+
+the change in question is economically justified, and it prioritizes accepted changes 
+for implementation. Accepted changes are passed back to the development group; Customers and changesAgile methods emphasize the importance of involving customers in the change prioritization process. The  customer representative helps the team decide on the changes that should be implemented in the next devel-
+
+opment iteration. While this can be effective for systems that are in development for a single customer, it can be 
+a problem in product development where no real customer is working with the team. In those cases, the team 
+has to make its own decisions on change prioritization.http://software-engineering-book.com/web/agile-changes/

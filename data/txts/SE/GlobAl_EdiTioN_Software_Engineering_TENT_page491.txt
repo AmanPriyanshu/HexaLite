@@ -1,0 +1,50 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜˜˜˜˜
+Most computer-based systems are now distributed systems. A distributed system is one 
+involving several computers rather than a single application running on a single machine. 
+
+Even apparently self-contained applications on a PC or laptop, such as image editors, are 
+
+distributed systems. They execute on a single computer system but often rely on remote 
+
+cloud systems for update, storage, and other services. Tanenbaum and Van Steen 
+
+(Tanenbaum and Van Steen 2007) define a distributed system to be ﬁa collection of 
+
+independent computers that appears to the user as a single coherent system.ﬂƒWhen you are designing a distributed system, there are specific issues that have to be taken into account simply because the system is distributed. These issues arise 
+
+because different parts of the system are running on independently managed com-
+puters and because the characteristics of the network, such as latency and reliability, 
+
+may have to be considered in your design.Coulouris et al. (Coulouris et al. 2011) identify the five benefits of developing 
+systems as distributed systems:1. Resource sharing A distributed system allows the sharing of hardware and soft-ware resourcesŠsuch as disks, printers, files, and compilersŠthat are associated 
+
+with computers on a network.2. Openness Distributed systems are normally open systemsŠsystems designed 
+around standard Internet protocols so that equipment and software from different 
+
+vendors can be combined.3. Concurrency In a distributed system, several processes may operate at the same 
+time on separate computers on the network. These processes may (but need not) 
+
+communicate with each other during their normal operation.4. Scalability In principle at least, distributed systems are scalable in that the capa
+-bilities of the system can be increased by adding new resources to cope with 
+
+new demands on the system. In practice, the network linking the individual 
+
+computers in the system may limit the system scalability.5. Fault tolerance The availability of several computers and the potential for replicat-ing information means that distributed systems can be tolerant of some hardware 
+
+and software failures (see Chapter 11). In most distributed systems, a degraded 
+
+service can be provided when failures occur; complete loss of service only occurs 
+
+when there is a network failure.⁄Distributed systems are inherently more complex than centralized systems. This 
+makes them more difficult to design, implement, and test. It is harder to understand 
+
+the emergent properties of distributed systems because of the complexity of the inter
+-
+actions between system components and system infrastructure. For example, rather 
+
+than being dependent on the execution speed of one processor, system performance 
+ƒTanenbaum, A. S., and M. Van Steen. 2007. Distributed Systems: Principles and Paradigms, 2nd Ed. 
+Upper Saddle River, NJ: Prentice-Hall.
+⁄Coulouris, G., J. Dollimore, T. Kindberg, and G. Blair. 2011. Distributed Systems: Concepts and  
+Design, 5th Edition. Harlow, UK.: Addison Wesley.

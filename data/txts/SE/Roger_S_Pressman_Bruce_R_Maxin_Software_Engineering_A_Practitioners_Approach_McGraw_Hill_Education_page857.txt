@@ -1,0 +1,67 @@
+CHAPTER 37  
+SOFTWARE PROCESS IMPROVEMENT
+ 827 
+ 
+ 
+ 
+37.2.5   
+Evaluation  
+Although it is listed as the last activity in the SPI road map,  evaluation 
+ occurs 
+throughout SPI. The evaluation activity assesses the degree to which changes 
+have been instantiated and adopted, the degree to which such changes result in 
+better software quality or other tangible process beneﬁ ts, and the overall status 
+of the process and the organizational culture as SPI activities proceed.  Both qualitative factors and quantitative metrics are considered during the evaluation activity. From a qualitative point of view, past management and prac-
+
+titioner attitudes about the software process can be compared to attitudes polled 
+after installation of process changes. Quantitative metrics (Chapter 32) are col-
+lected from projects that have used the transitional or “to be” process and com-
+pared with similar metrics that were collected for projects that were conducted 
+under the “as is” process.   
+ 
+ 
+37.2.6   
+Risk Management for SPI  
+ 
+ 
+ 
+ 
+ 
+SPI is a risky undertaking. In fact, more than half of all SPI efforts end in failure. The reasons for failure vary greatly and are organizationally speciﬁ c. Among the 
+most common risks are: a lack of management support, cultural resistance by 
+technical staff, a poorly planned SPI strategy, an overly formal approach to SPI, 
+
+selection of an inappropriate process, a lack of buy-in by key stakeholders, an in-
+adequate budget, a lack of staff training, organizational instability, and a myriad 
+
+of other factors. The role of those chartered with the responsibility for SPI is to 
+analyze likely risks and develop an internal strategy for mitigating them.  A software organization should manage risk at three key points in the SPI process [Sta97b]: prior to the initiation of the SPI road map, during the execution 
+of SPI activities (assessment, education, selection, installation), and during the 
+evaluation activity that follows the instantiation of some process characteristic. 
+In general, the following categories [Sta97b] can be identiﬁ ed for SPI risk factors: 
+budget and cost, content and deliverables, culture, maintenance of SPI deliver-
+
+ables, mission and goals, organizational management, organizational stability, 
+
+process stakeholders, schedule for SPI development, SPI development environ-
+ment, SPI development process, SPI project management, and SPI staff.  Within each category, a number of generic risk factors can be identiﬁ
+ ed. For 
+example, the organizational culture has a strong bearing on risk. The following 
+generic risk factors  
+6   can be deﬁ ned for the culture category [Sta97b]:
+ 
+ 
+ 
+ 
+ 
+•  Attitude toward change, based on prior efforts to change   
+ 
+ 
+•  Experience with quality programs, level of success     SPI often fails because 
+risks were not properly 
+considered and no 
+contingency planning 
+occurred. 
+  
+6  Risk factors for each of the risk categories noted in this section can be found in [Sta97b]. 
+pre22126_ch37_817-838.indd   827pre22126_ch37_817-838.indd   82713/12/13   6:17 PM13/12/13   6:17 PM

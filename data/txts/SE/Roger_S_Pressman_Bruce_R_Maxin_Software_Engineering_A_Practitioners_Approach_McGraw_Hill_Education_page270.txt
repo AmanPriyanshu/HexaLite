@@ -1,0 +1,63 @@
+240 PART TWO  
+MODELINGmore analysis classes.  Process classes
+ 
+ implement lower-level business abstrac-
+tions required to fully manage the business domain classes.  Persistent classes 
+ represent data stores (e.g., a database) that will persist beyond the execution of 
+the software.  System classes 
+ implement software management and control func-
+tions that enable the system to operate and communicate within its computing 
+environment and with the outside world.  As the architecture forms, the level of abstraction is reduced as each analysis class (Chapter 10) is transformed into a design representation. That is, analysis 
+classes represent data objects (and associated services that are applied to them) 
+using the jargon of the business domain. Design classes present signiﬁ cantly 
+more technical detail as a guide for implementation.  Arlow and Neustadt [Arl02] suggest that each design class be reviewed to en-sure that it is “well-formed.” They deﬁ ne four characteristics of a well-formed 
+design class:   
+ 
+ 
+ 
+ 
+ 
+Complete and sufﬁ cient.
+ 
+ A design class should be the complete encapsu-lation of all attributes and methods that can reasonably be expected 
+(based on a knowledgeable interpretation of the class name) to exist for 
+the class. For example, the class  Scene 
+ deﬁ ned for video-editing software 
+is complete only if it contains all attributes and methods that can reason-
+ably be associated with the creation of a video scene. Sufﬁ ciency ensures 
+that the design class contains only those methods that are sufﬁ cient to 
+achieve the intent of the class, no more and no less.    
+ 
+ 
+ 
+Primitiveness. 
+ Methods associated with a design class should be focused on accomplishing one service for the class. Once the service has been 
+implemented with a method, the class should not provide another way to 
+accomplish the same thing. For example, the class  VideoClip
+ 
+ for video- editing software might have attributes    and  to indicate the start and end points of the clip (note that the raw video loaded into the 
+system may be longer than the clip that is used). The methods,  setStart-Point() 
+ and  setEndPoint(), 
+ provide the only means for establishing start and end points for the clip.    
+ 
+ 
+ 
+High cohesion. 
+ A cohesive design class has a small, focused set of re-sponsibilities and single-mindedly applies attributes and methods to 
+implement those responsibilities. For example, the class  VideoClip
+ 
+ might contain a set of methods for editing the video clip. As long as each method 
+focuses solely on attributes associated with the video clip, cohesion is 
+maintained.    
+ 
+ 
+ 
+Low coupling. 
+ Within the design model, it is necessary for design classes 
+to collaborate with one another. However, collaboration should be kept to 
+
+an acceptable minimum. If a design model is highly coupled (all design 
+classes collaborate with all other design classes), the system is difﬁ cult to 
+ What is 
+a “well-formed” design 
+class? ?pre22126_ch12_224-251.indd   240pre22126_ch12_224-251.indd   24013/12/13   6:12 PM13/12/13   6:12 PM

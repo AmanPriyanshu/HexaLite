@@ -1,0 +1,59 @@
+outputs, and the exceptions associated with these operations. You then need to think 
+about how this abstract interface is realized as SOAP-based or RESTful services.
+If you choose a SOAP-based approach, you have to design the structure of the XML 
+messages that are sent and received by the service. The operations and messages are the 
+
+basis of an interface description written in WSDL. If you choose a RESTful approach, 
+
+you have to design how the service operations map onto the RESTful operations.
+Abstract interface design starts with the service requirements and defines the 
+operation names and parameters. At this stage, you should also define the exceptions 
+
+that may arise when a service operation is invoked. Figure 
+18.10 shows the catalog 
+
+operations that implement the requirements. There is no need for these to be speci
+-
+fied in detail; you add detail at the next stage of the design process.
+Once you have established an informal description of what the service should do, 
+the next stage is to add more detail of the service inputs and outputs. I have shown 
+
+this for the catalog service in Figure 18.11, which extends the functional description 
+
+in Figure 18.10.Defining exceptions and how these exceptions can be communicated to service 
+users is particularly important. Service engineers do not know how their services 
+
+will be used. It is usually unwise to make assumptions that service users will have 
+
+completely understood the service specification. Input messages may be incorrect, 
+
+so you should define exceptions that report incorrect inputs to the service client. It is 
+
+generally good practice in reusable component development to leave all exception 
+
+handling to the user of the component. Service developers should not impose their 
+
+views on how exceptions should be handled.
+In some cases, a textual description of the operations and their inputs and outputs 
+is all that is required. The detailed realization of the service is left as an implementa
+-
+tion decision. Sometimes, however, you need to have a more detailed design, and a 
+
+detailed interface description can be specified in a graphical notation such as the 
+
+UML or in a readable description format such as JSON. Figure 
+18.12, which 
+describes the inputs and outputs for the getDelivery operation, shows how you can 
+use the UML to describe the interface in detail.
+Figure 18.10 Catalog operationsOperationDescriptionMakeCatalogCreates a version of the catalog tailored for a specific customer. Includes an 
+
+optional parameter to create a downloadable PDF version of the catalog.
+LookupDisplays all of the data associated with a specified catalog item.SearchTakes a logical expression and searches the catalog according to that 
+
+expression. It displays a list of all items that match the search expression.CompareProvides a comparison of up to six characteristics (e.g., price, dimensions, 
+processor speed, etc.) of up to four catalog items.CheckDeliveryReturns the predicted delivery date for an item if ordered that day.
+MakeVirtualOrder
+Reserves the number of items to be ordered by a customer and provides item 
+information for the customer™s own procurement system.
+˜˚˛˝ˆ˜˜˜
+˜˜˜

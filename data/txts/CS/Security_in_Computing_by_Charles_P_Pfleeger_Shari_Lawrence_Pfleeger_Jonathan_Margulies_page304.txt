@@ -1,0 +1,65 @@
+270 Chapter 4  
+The Web—User Side
+Advertising The largest proportion of spam offers pharmaceuticals. Why are these so popular? First, 
+
+some of the drugs are for adult products that patients would be embarrassed to request 
+
+from their doctors. Second, the ads offer drugs at prices well under local retail prices. 
+
+Third, the ads offer prescription drugs that would ordinarily require a doctor’s visit, 
+
+which costs money and takes time. For all these reasons people realize they are trading 
+
+outside the normal, legal, commercial pharmaceutical market, so they do not expect to 
+
+find ads in the daily newspaper or on the public billboards. Thus, email messages, not 
+
+necessarily recognized as spam, are acceptable sources of ads for such products.Pump and Dump One popular spam topic is stocks, usually ones of which you have never heard—with 
+
+good reason. Stocks of large companies, like IBM, Google, Nike, and Disney, move 
+
+slowly because many shares are outstanding and many traders are willing to buy or sell 
+
+at a price slightly above or below the current price. News, or even rumors, affecting 
+
+one of these issues may raise or depress the price, but the price tends to stabilize when 
+
+the news has been digested or the rumor has been confirmed or refuted. It is difficult to 
+
+move the price by any significant amount.
+Stocks of small issuers are often called “penny stocks,” because their prices are 
+denominated in pennies, not in dollars, euros, or pounds. Penny stocks are quite vola-
+
+tile. Because volume is low, strong demand can cause a large percentage increase in the 
+
+price. A negative rumor can likewise cause a major drop in the price. 
+The classic game is called pump and dump: A trader pumps—artificially inflates—
+the stock price by rumors and a surge in activity. The trader then dumps it when it gets 
+
+high enough. The trader makes money as it goes up; the spam recipients lose money 
+
+when the trader dumps holdings at the inflated prices, prices fall, and the buyers cannot 
+
+find other willing buyers. Spam lets the trader pump up the stock price.
+Advertising Some people claim there is no bad publicity. Even negative news about a company 
+
+brings the company and its name to peoples’ attention. Thus, spam advertising a product 
+
+or firm still fixes a name in recipients’ minds. Small, new companies need to get their 
+
+name out; they can associate quality with that name later.
+Thus advertising spam serves a purpose. Months after having received the spam you 
+will have forgotten where you heard the company’s name. But having encountered it 
+
+before in a spam message will make it familiar enough to reinforce the name recogni-
+
+tion when you hear the name again later in a positive context.
+Malicious Payload In Chapter 6 we describe botnets, armies of compromised computers that can be com-
+
+mandeered to participate in any of a number of kinds of attacks: causing denial of service, 
+
+sending spam, increasing advertising counts, even solving cryptographic puzzles. The 
+
+bots are compromised computers with some unused computing cycles that can be rented.
+How are these computers conscripted? Some are brought in by malware toolkit 
+probes, as we describe in Chapter 3. Others are signed up when users click a link in an 

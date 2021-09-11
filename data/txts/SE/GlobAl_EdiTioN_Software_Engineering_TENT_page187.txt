@@ -1,0 +1,20 @@
+˜˜˚ˆ˜˜˜
+˜˜
+example, consider a banking system that allows customers to query their accounts and withdraw cash from an ATM. The system is composed of two cooperating soft-
+ware componentsŠthe ATM software and the account processing software in the 
+
+bank™s database server. The input and output components are implemented as soft-
+ware in the ATM, and the processing component is part of the bank™s database 
+
+server. Figure 6.17 shows the architecture of this system, illustrating the functions of 
+the input, process, and output components.All systems that involve interaction with a shared database can be considered to be 
+transaction-based information systems. An information system allows controlled 
+
+access to a large base of information, such as a library catalog, a flight timetable, or 
+the records of patients in a hospital. Information systems are almost always web-
+based systems, where the user interface is implemented in a web browser.Figure 6.
+18 presents a very general model of an information system. The system is modeled using a layered approach (discussed in Section 6.3) where the top layer InputProcessOutputATMDatabaseATMGet customeraccount idQuery accountPrint detailsReturn cardDispense cashUpdate accountValidate cardSelect serviceFigure 6.17 The software architecture 
+of an ATM systemUser interface
+User communicationsInformation retrieval and modificationTransaction management
+DatabaseAuthentication andauthorizationFigure 6.18 Layered information system 
+architecture 

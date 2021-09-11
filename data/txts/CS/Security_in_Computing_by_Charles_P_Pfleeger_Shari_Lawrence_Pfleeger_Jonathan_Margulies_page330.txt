@@ -1,0 +1,61 @@
+296 Chapter 5  
+Operating SystemsThese examples of types of virtual machines show how they can be used to imple-
+ment a controlled security environment. Next we consider how an operating system can 
+
+control sharing by separating classes of subjects and objects.Separation and SharingThe basis of protection is separation: keeping one user’s objects separate from other 
+users. John Rushby and Brian Randell [RUS83] note that separation in an operating 
+
+system can occur in several ways:
+• physical separation
+, by which different processes use different physical objects, 
+such as separate printers for output requiring different levels of security
+• temporal separation
+, by which processes having different security requirements 
+are executed at different times
+• logical separation
+, by which users operate under the illusion that no other pro-
+cesses exist, as when an operating system constrains a program’s accesses so 
+
+that the program cannot access objects outside its permitted domain• cryptographic separation
+, by which processes conceal their data and computa-
+tions in such a way that they are unintelligible to outside processes
+Of course, combinations of two 
+or more of these forms of separation 
+are also possible.The categories of separation are 
+listed roughly in increasing order of complexity to implement, and, for the first three, 
+
+in decreasing order of the security provided. However, the first two approaches are very 
+
+stringent and can lead to poor resource utilization. Therefore, we would like to shift the 
+
+burden of protection to the operating system to allow concurrent execution of processes 
+
+having different security needs.
+But separation is only half the answer. We generally want to separate one user from 
+another user’s objects, but we also want to be able to provide sharing for some of those 
+
+objects. For example, two users with two bodies of sensitive data may want to invoke 
+
+the same search algorithm or function call. We would like the users to be able to share 
+
+the algorithms and functions without compromising their individual data. An operating 
+
+system can support separation and sharing in several ways, offering protection at any of 
+
+several levels.
+• Do not protect
+. Operating systems with no protection are appropriate when sen-sitive procedures are being run at separate times.
+• Isolate. When an operating system provides isolation, different processes run-
+ning concurrently are unaware of the presence of each other. Each process has 
+
+its own address space, files, and other objects. The operating system must con-
+
+fine each process somehow so that the objects of the other processes are com-
+
+pletely concealed.• Share all or share nothing
+. With this form of protection, the owner of an object 
+declares it to be public or private. A public object is available to all users, 
+
+whereas a private object is available only to its owner.
+Separation occurs by space, time, access 
+control, or cryptography.

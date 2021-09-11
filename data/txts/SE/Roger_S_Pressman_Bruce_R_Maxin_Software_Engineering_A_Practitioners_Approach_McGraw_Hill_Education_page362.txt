@@ -1,0 +1,67 @@
+332 PART TWO  
+MODELINGshare information before an input can be provided? How will support be pro-vided to users of the system? These and many related questions should be an-
+swered before the interface design commences.   
+ 
+ 
+ 
+ 15.4 I
+NTERFACE
+ DESIGN STEPS    
+Once interface analysis has been completed, all tasks (or objects and actions) required by the end user have been identiﬁ ed in detail and the interface design 
+activity commences. Interface design, like all software engineering design, is an 
+iterative process. Each user interface design step occurs a number of times, elab-
+orating and reﬁ ning information developed in the preceding step. 
+ Although many different user interface design models (e.g., [Nor86], [Nie00]) have been proposed, all suggest some combination of the following steps: (1) de-
+ﬁ ne interface objects and actions (operations), (2) identify events (user actions) 
+that will cause the state of the user interface to change, (3) depict the repre-
+sentation of each state, and (4) indicate how the user interprets each state from 
+information provided through the interface.   
+15.4.1 Applying Interface Design Steps 
+ 
+The deﬁ nition of interface objects and the actions that are applied to them is an 
+important step in interface design. To accomplish this, user scenarios are parsed in 
+
+much the same way as described in Chapter 9. That is, a use case is written. Nouns 
+
+(objects) and verbs (actions) are isolated to create a list of objects and actions. 
+ Once the objects and actions have been deﬁ ned and elaborated iteratively, they 
+are categorized by type. Target, source, and application objects are identiﬁ
+ ed. A 
+ source object
+ 
+ (e.g., a report icon) is dragged and dropped onto a  
+target object
+ 
+ (e.g., 
+a printer icon). The implication of this action is to create a hard-copy report. An 
+ application object 
+ represents application-speciﬁ
+ c data that are not directly ma-
+nipulated as part of screen interaction. For example, a mailing list is used to store 
+names for a mailing. The list itself might be sorted, merged, or purged (menu-
+based actions), but it is not dragged and dropped via user interaction.  When you are satisﬁ ed that all important objects and actions have been deﬁ
+ ned 
+(for one design iteration), screen layout is performed. Like other interface design 
+activities, screen layout is an interactive process in which graphical design and 
+placement of icons, deﬁ nition of descriptive screen text, speciﬁ
+ cation and titling 
+for windows, and deﬁ nition of major and minor menu items are conducted. If a 
+real-world metaphor is appropriate for the application, it is speciﬁ ed at this time, 
+and the layout is organized in a manner that complements the metaphor. 
+ To provide a brief illustration of the design steps noted previously, consider a 
+user scenario for the  SafeHome 
+ system (discussed in earlier chapters). A prelim-
+inary use case (written by the homeowner) for the interface follows:  
+ 
+Preliminary use case: 
+ I want to gain access to my  
+SafeHome 
+ system from any re-
+mote location via the Internet. Using browser software operating on my notebook   uote:  “Interactive design 
+[is] a seamless 
+blend of graphic 
+arts, technology, 
+
+and psychology.” 
+ Brad Wieners 
+pre22126_ch15_317-346.indd   332pre22126_ch15_317-346.indd   33213/12/13   10:01 PM13/12/13   10:01 PM

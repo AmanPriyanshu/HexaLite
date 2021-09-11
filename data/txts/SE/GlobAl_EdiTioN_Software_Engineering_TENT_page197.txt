@@ -1,0 +1,54 @@
+˜˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜˜˜Software design and implementation is the stage in the software engineering process at which an executable software system is developed. For some simple systems, 
+
+software engineering means software design and implementation and all other soft-
+ware engineering activities are merged with this process. However, for large sys
+-
+tems, software design and implementation is only one of a number of software 
+
+engineering processes (requirements engineering, verification and validation, etc.).Software design and implementation activities are invariably interleaved. Software 
+design is a creative activity in which you identify software components and their 
+ relationships, based on a customer™s requirements. Implementation is the process of 
+
+realizing the design as a program. Sometimes there is a separate design stage, and this 
+
+design is modeled and documented. At other times, a design is in the programmer™s 
+
+head or roughly sketched on a whiteboard or sheets of paper. Design is about how 
+
+to˜solve a problem, so there is always a design process. However, it isn™t always neces
+-sary or appropriate to describe the design in detail using the UML or other design 
+
+description language.Design and implementation are closely linked, and you should normally take 
+implementation issues into account when developing a design. For example, using 
+the UML to document a design may be the right thing to do if you are programming 
+
+in an object-oriented language such as Java or C#. It is less useful, I think, if you are 
+developing using a dynamically typed language like Python. There is no point in 
+
+using the UML if you are implementing your system by configuring an off-the-shelf 
+package. As I discussed in Chapter 3, agile methods usually work from informal 
+sketches of the design and leave design decisions to programmers.One of the most important implementation decisions that has to be made at an 
+early stage of a software project is whether to build or to buy the application soft
+-
+ware. For many types of application, it is now possible to buy off-the-shelf applica
+-
+tion systems that can be adapted and tailored to the users™ requirements. For example, 
+if you want to implement a medical records system, you can buy a package that is 
+already used in hospitals. It is usually cheaper and faster to use this approach rather 
+
+than developing a new system in a conventional programming language.When you develop an application system by reusing an off-the-shelf product, the 
+design process focuses on how to configure the system product to meet the applica
+-
+tion requirements. You don™t develop design models of the system, such as models 
+of the system objects and their interactions. I discuss this reuse-based approach to 
+development in Chapter 15.I assume that most readers of this book have had experience of program design 
+and implementation. This is something that you acquire as you learn to program 
+
+and master the elements of a programming language like Java or Python. You will 
+
+have probably learned about good programming practice in the programming lan-
+guages that you have studied, as well as how to debug programs that you have 
+
+developed. Therefore, I don™t cover programming topics here. Instead, this chapter 
+ has two aims:1.
+ To show how system modeling and architectural design (covered in Chapters 5 and 6) are put into practice in developing an object-oriented software design.

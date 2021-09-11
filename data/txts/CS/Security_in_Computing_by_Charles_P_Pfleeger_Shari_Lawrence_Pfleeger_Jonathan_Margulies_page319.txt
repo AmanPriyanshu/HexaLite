@@ -1,0 +1,82 @@
+ Section 5.1  Security in Operating Systems 
+285  The first operating systems were simple utilities, called 
+executives
+, designed to assist individual programmers and to smooth the transition from one user to another. The 
+
+early executives provided linkers and loaders for relocation, easy access to compilers 
+
+and assemblers, and automatic loading of subprograms from libraries. The executives 
+
+handled the tedious aspects of programmer support, focusing on a single programmer 
+during execution.
+Multiprogramming and Shared Use
+Factors such as faster processors, increased uses and demand, larger capacity, and 
+higher cost led to shared computing. The time for a single user to set up a computer, 
+
+load a program, and unload or shut down at the end was an inefficient waste of expen-
+
+sive machines and labor.
+Operating systems took on a much broader role (and a different name) as the notion 
+of multiprogramming was implemented. Realizing that two users could interleave 
+
+access to the resources of a single computing system, researchers developed con-
+
+cepts such as scheduling, sharing, and concurrent use. Multiprogrammed operat-
+ing systems, also known as 
+monitors, oversaw each program’s execution. Monitors 
+took an active role, whereas executives were passive. That is, an executive stayed in 
+
+the background, waiting to be called into service by a requesting user. But a monitor 
+
+actively asserted control of the computing system and gave resources to the user only 
+
+when the request was consistent with general good use of the system. Similarly, the 
+
+executive waited for a request and 
+
+provided service on demand; the 
+
+monitor maintained control over all 
+
+resources, permitting or denying all 
+
+computing and loaning resources to 
+users as they needed them.
+Multiprogramming brought another important change to computing. When a single 
+person was using a system, the only force to be protected against was that user. Making 
+
+an error may have made the user feel foolish, but that user could not adversely affect 
+
+the computation of any other user. However, multiple concurrent users introduced more 
+
+complexity and risk. User A might rightly be angry if User B’s programs or data had a 
+
+negative effect on A’s program’s execution. Thus, protecting one user’s programs and 
+
+data from other users’ programs became an important issue in multiprogrammed operat-
+
+ing systems.Paradoxically, the next major shift in operating system capabilities involved not growth 
+and complexity but shrinkage and simplicity. The 1980s saw the changeover from mul-
+
+tiuser mainframes to personal computers: one computer for one person. With that shift, 
+
+operating system design went backwards by two decades, forsaking many aspects of 
+
+controlled sharing and other security 
+
+features. Those concepts were not 
+
+lost, however, as the same notions 
+
+ultimately reappeared, not between 
+two users but between independent 
+
+activities for the single user.
+The transition of operating system from 
+
+executive to monitor was also a shift 
+from supporting to controlling the user.
+Controlled sharing also implied security, 
+
+much of which was lost when the 
+personal computer became dominant.

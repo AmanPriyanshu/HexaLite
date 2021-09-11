@@ -1,0 +1,72 @@
+CHAPTER 35  
+RISK MANAGEMENT 783 
+ 
+ 
+ 3.
+  Estimate the impact of the risk on the project and the product.   
+ 
+ 
+ 4.
+  Assess the overall accuracy of the risk projection so that there will be no misunderstandings.  
+ 
+  The intent of these steps is to consider risks in a manner that leads to priori-tization. No software team has the resources to address every possible risk with 
+the same degree of rigor. By prioritizing risks, you can allocate resources where 
+
+they will have the most impact.   
+ 
+35.4.1   
+Developing a Risk Table 
+ 
+A risk table provides you with a simple technique for risk projection. 
+ 
+2   A sample 
+risk table is illustrated in   
+Figure 35.2  
+.  
+ 
+FIGURE 35.1 
+Impact assessment  
+ 
+ 
+Source: [Boe89]. ComponentsCategory
+Catastrophic
+CriticalMarginal
+NegligiblePerformanceSupportCostSchedule
+Failure to meet the requirementwould result in mission failureSignificantdegradation to
+nonachievement
+of technical
+performance
+Nonresponsive orunsupportable
+
+softwareSignificant financialshortages, budget
+
+overrun likelyUnachievable IOCFailure results in increased costsand schedule delays with expected 
+values in excess of $500K12Failure to meet the requirement woulddegrade system performance to a point
+
+where mission success is questionableSome reductionin technical 
+performance
+Minor delays insoftware
+modificationsSome shortage of
+financial resources,
+possible overrunsPossible slippage
+in IOCFailure results in operational delays and/or increased costs with expected 
+value of $100K to $500K12Failure to meet the requirement wouldresult in degradation of secondary 
+
+missionMinimal to smallreduction in
+technical
+performance
+Responsive software
+support
+Sufficient financialresourcesRealistic, achievable
+scheduleCosts, impacts, and/or recoverable schedule slips with expected value 
+of $1K to $100K12Failure to meet the requirement wouldcreate inconvenience or nonoperational
+impactNo reduction intechnical
+performance
+Easily supportable
+softwarePossible budgetunderrunEarly achievable 
+IOCError results in minor cost and/or schedule impact with expected value 
+of less than $1K12Note: (1) The potential consequence of undetected software errors or faults.
+ (2) The potential consequence if the desired outcome is not achieved.
+  
+2  The risk table can be implemented as a spreadsheet model. This enables easy manipulation 
+and sorting of the entries. pre22126_ch35_777-794.indd   783pre22126_ch35_777-794.indd   78313/12/13   6:17 PM13/12/13   6:17 PM

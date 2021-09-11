@@ -1,0 +1,47 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜ghosting. Their solution may be to enhance the image-processing capabilities of the software to remove the ghost images. This may slow down the software so that its 
+performance becomes unacceptable. The problem may then be characterized as a 
+
+software failure, whereas, in fact, it is a failure in the design process for the system 
+
+as a whole.This sort of situation, in which software engineers are left with the problem of 
+enhancing software capabilities without increasing hardware cost, is very common. 
+Many so-called software failures are not a consequence of inherent software prob-
+lems but rather are the result of trying to change the software to accommodate mod-
+ified system engineering requirements. A good example was the failure of the 
+
+Denver airport baggage system (Swartz 1996), where the controlling software was 
+expected to deal with limitations of the equipment used.The general model of economic organization that is now almost universal in the 
+
+world is that privately owned companies offer goods and services and make a profit 
+on these. We have a competitive environment so that these companies may compete 
+on cost, on quality, on delivery time, and so on. However, to ensure the safety of 
+
+their citizens, most governments limit the freedom of privately owned companies so 
+that they must follow certain standards to ensure that their products are safe and 
+
+secure. A company therefore cannot offer products for sale more cheaply because 
+
+they have reduced their costs by reducing the safety of their products.Governments have created a set of rules and regulations in different areas that 
+define standards for safety and security. They have also established regulators or 
+
+regulatory bodies whose job is to ensure that companies offering products in an area 
+comply with these rules. Regulators have wide powers. They can fine companies and 
+even imprison directors if regulations are breached. They may have a licensing role 
+(e.g., in the aviation and nuclear industries) where they must issue a license before a 
+new system may be used. Therefore, aircraft manufacturers have to have a certificate 
+of airworthiness from the regulator in each country where the aircraft is used.To achieve certification, companies that are developing safety-critical systems 
+have to produce an extensive safety case (discussed in Chapter 13) that shows that 
+rules and regulations have been followed. The case must convince a regulator that 
+the system can operate safely. Developing such a safety case is very costly. It can be 
+as expensive to develop the documentation for certification as it is to develop the 
+
+system itself.Regulation and compliance (following the rules) applies to the sociotechnical 
+system as a whole and not simply the software element of that system. For example, 
+a regulator in the nuclear industry is concerned that in the event of overheating, a 
+nuclear reactor will not release radioactivity into the environment. Arguments to 
+
+convince the regulator that this is the case may be based on software protection sys-
+tems, the operational process used to monitor the reactor core and the integrity of 
+structures that contain any release of radioactivity.

@@ -1,0 +1,44 @@
+CHAPTER 38  
+EMERGING TRENDS IN SOFTWARE ENGINEERING
+ 855 
+The TDD process follows the simple procedural ﬂ ow illustrated in  
+ 
+Figure 38.3  
+. Before the ﬁ rst small segment of code is created, a software engineer creates a 
+test to exercise the code (to try to make the code fail). The code is then written to 
+satisfy the test. If it passes, a new test is created for the next segment of code to 
+be developed. The process continues until the component is fully coded and all 
+tests execute without error. However, if any test succeeds in ﬁ
+ nding an error, the 
+existing code is refactored (corrected) and all tests created to that point are re-
+executed. This iterative ﬂ ow continues until there are no tests left to be created, 
+implying that the component meets all requirements deﬁ ned for it. 
+ 
+ 
+ 
+ 
+  During TDD, code is developed in very small increments (one subfunction at a time), and no code is written until a test exists to exercise it. You should note that 
+
+each iteration results in one or more new tests that are added to a regression test 
+suite that is run with every change. This is done to ensure that the new code has 
+not generated side effects that cause errors in the older code. If you have further 
+interest in TDD, see [Bec04b], [Ste10], or [Whi12].   
+ 
+ 
+ 
+ 
+ 38.6  
+TOOLS-RELATED
+ TRENDS  
+ 
+Hundreds of industry-grade software engineering tools are introduced each year. The majority are provided by tools vendors who claim that their tool will 
+
+improve project management, or requirements analysis, or design modeling, or Tests remain to
+be createdCreate atest caseWrite a new
+code segmentRun thetest(s)Refactor (correct)thecode segmentNo tests remain tobe createdFinds errorDoes not find error
+ FIGURE 38.3 
+Test-driven 
+development 
+process ﬂ
+ ow
+pre22126_ch38_839-859.indd   855pre22126_ch38_839-859.indd   85513/12/13   6:17 PM13/12/13   6:17 PM

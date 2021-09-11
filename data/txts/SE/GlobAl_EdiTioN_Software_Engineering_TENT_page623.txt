@@ -1,0 +1,27 @@
+˜˜˚˛˜˜˜˜˜˜˜˜˜˜
+the presence of people rather than high-speed events, so they only need to be polled 2 or 
+3 times per second. I cover the timing requirements for this system in Section 21.3.I have already introduced the stimuli and responses in this alarm system in Figure 21.1. These responses are used as a starting point for the system design. The Observe 
+and React pattern is used in this design. There are observer processes associated with 
+
+each type of sensor and reactor processes for each type of reaction. A single analysis 
+process checks the data from all of the sensors. The display processes in the pattern 
+
+are combined into a single display process.The most widespread use of real-time embedded software is in control systems. In 
+these systems, the software controls the operation of equipment, based on stimuli 
+NameEnvironmental ControlDescriptionThe system analyzes information from a set of sensors that 
+collect data from the system™s environment. Further 
+information may also be collected on the state of the 
+actuators that are connected to the system. Based on the 
+data from the sensors and actuators, control signals are 
+sent to the actuators, which then cause changes to the 
+system™s environment. Information about the sensor values 
+and the state of the actuators may be displayed.StimuliValues from sensors attached to the system and the state 
+of the system actuators.ResponsesControl signals to actuators display information.ProcessesMonitor, Control, Display, Actuator driver, Actuator monitor.Used inControl systems.Figure 21.9 The Environmental  
+Control patternControlprocess
+MonitorprocessActuator monitorprocessActuatordriver process
+Sensorvalues
+Displayprocess
+Displayvalues
+DisplaySensorsActuatorControlinstructionsActuatorstateFigure 21.10  The Environmental 
+Control process 
+structure 

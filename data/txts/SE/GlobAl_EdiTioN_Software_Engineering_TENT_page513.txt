@@ -1,0 +1,44 @@
+˜˚˛˝ˇ˜˜˜˜˜˝˜˜˜
+thought of as a remote service, which can be accessed from any device that can run a 
+standard browser. Widely used examples of SaaS include web-based mail systems, 
+
+such as Yahoo and Gmail, and office applications, such as Google Docs and Office 365.This idea of software as a service (SaaS) involves hosting the software remotely and 
+providing access to it over the Internet. The key elements of SaaS are as follows:1.
+ Software is deployed on a server (or more commonly in the cloud) and is 
+accessed through a web browser. It is not deployed on a local PC.2.
+ The software is owned and managed by a software provider rather than the 
+
+organizations using the software.3. Users may pay for the software according to how much use they make of it or 
+
+through an annual or monthly subscription. Sometimes the software is free for 
+anyone to use, but users must then agree to accept advertisements, which fund 
+the software service.The development of SaaS has accelerated over the past few years as cloud com-puting has become widely used. When a service is deployed in the cloud, the number 
+of servers can quickly change to match the user demands for that service. There is no 
+need for service providers to provision for peak loads; as a result, the costs for these 
+providers have been dramatically reduced.For software purchasers, the benefit of SaaS is that the costs of management of 
+software are transferred to the provider. The provider is responsible for fixing 
+
+bugs and installing software upgrades, dealing with changes to the operating sys-
+tem platform, and ensuring that hardware capacity can meet demand. Software 
+
+license management costs are zero. If someone has several computers, there is no 
+
+need to license software for all of these. If a software application is only used 
+
+occasionally, the pay-per-use model may be cheaper than buying an application. 
+
+The software may be accessed from mobile devices, such as smartphones, from 
+
+anywhere in the˜world.The main problem that inhibits the use of SaaS is data transfer with the remote 
+service. Data transfer takes place at network speeds, and so transferring a large 
+
+amount of data, such as video or high-quality images takes a lot of time. You may 
+also have to pay the service provider according to the amount transferred. Other 
+
+problems are lack of control over software evolution (the provider may change the 
+software when it wishes) and problems with laws and regulations. Many countries 
+have laws governing the storage, management, preservation, and accessibility of 
+
+data, and moving data to a remote service may breach these laws.The notion of software as a service and service-oriented architectures (SOA), discussed in Chapter 18, are related, but they are not the same:1. Software as a service is a way of providing functionality on a remote server with client access through a web browser. The server maintains the user™s data and 
+state during an interaction session. Transactions are usually long transactions, 
+for example, editing a document.

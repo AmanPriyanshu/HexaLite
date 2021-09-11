@@ -1,0 +1,89 @@
+154 PART TWO  
+MODELING 
+ 
+ 
+ 
+ 
+ 8.5 B
+UILDING THE ANALYSIS
+ MODEL 
+ 16    
+ 
+The intent of the analysis model is to provide a description of the required infor-
+mational, functional, and behavioral domains for a computer-based system. The 
+
+model changes dynamically as you learn more about the system to be built, and 
+other stakeholders understand more about what they really require. For that 
+reason, the analysis model is a snapshot of requirements at any given time. You 
+
+should expect it to change.  As the analysis model evolves, certain elements will become relatively stable, providing a solid foundation for the design tasks that follow. However, other el-
+
+ements of the model may be more volatile, indicating that stakeholders do not 
+yet fully understand requirements for the system. The analysis model and the 
+methods that are used to build it are presented in detail in Chapters 9 to 11. We 
+
+present a brief overview in the sections that follow. 
+  
+8.5.1  Elements of the Analysis Model 
+ 
+There are many different ways to look at the requirements for a computer-based 
+system. Some software people argue that it’s best to select one mode of represen-
+
+tation (e.g., the use case) and apply it to the exclusion of all other modes. Other 
+practitioners believe that it’s worthwhile to use a number of different modes of 
+
+representation to depict the analysis model. Different modes of representation 
+force you to consider requirements from different viewpoints—an approach that 
+has a higher probability of uncovering omissions, inconsistencies, and ambiguity. 
+
+A set of generic elements is common to most analysis models.    It is always a good 
+idea to get stakehold-
+ers involved. One of 
+the best ways to do 
+this is to have each 
+stakeholder write use 
+cases that describe 
+how the software will 
+be used.   
+Use Case Development  
+ 
+  
+ 
+Objective:   Assist in the development of use cases by providing automated templates and mechanisms for assessing clarity and consistency. 
+  
+ 
+Mechanics:   Tool mechanics vary. In general, use case 
+tools provide ﬁ ll-in-the-blank templates for creating effec-
+tive use cases. Most use case functionality is embedded 
+into a set of broader requirements engineering functions.   
+ 
+ 
+Representative Tools:  15 
+ 
+  
+ 
+The vast majority of UML-based analysis modeling tools provide both text and graphical support for use case 
+
+development and modeling. 
+  
+Objects by Design  (  
+www.objectsbydesign.com/tools/umltools_
+byCompany.html
+ 
+ 
+) provides comprehensive links to tools of this type.  
+  
+SOFTWARE
+ TOOLS  
+ 
+15  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+  
+16  Throughout this book, we use the terms  
+analysis model 
+ and  
+requirements model
+ 
+ synonymously. 
+Both refer to representations of the information, functional, and behavioral domains that 
+ describe problem requirements. pre22126_ch08_131-165.indd   154pre22126_ch08_131-165.indd   15413/12/13   6:11 PM13/12/13   6:11 PM

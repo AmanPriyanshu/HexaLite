@@ -1,0 +1,67 @@
+ Section 7.4  Database Disclosure 
+527  Recent interest in data mining has raised concern again about aggregation. 
+Data 
+mining is the process of sifting through multiple databases and correlating multiple 
+data elements to find useful information. Marketing companies use data mining exten-
+
+sively to find consumers likely to buy a product. 
+Aggregation was of interest to 
+database security researchers at the 
+same time as was inference. As we 
+
+have seen, some approaches to infer-
+
+ence have proved useful and are cur-
+
+rently being used. But there have 
+
+been few proposals for countering 
+
+aggregation.
+Analysis on DataAs we just described, the attacker has time and computing power to analyze data. Cor-
+relating seemingly unrelated bits of information can, as we showed, help build a larger 
+
+picture. Even supposedly anonymized data can be revealing, as described in Sidebar 7-4.
+Hidden Data AttributesA picture is just a picture and a document is just a document, right? Not quite, in the digital age. Objects such as pictures, music files, and documents are actually complex 
+SIDEBAR 7-4 Who Is Number 4417749?
+In a move to allow researchers a large, actual database of queries to 
+analyze, AOL decided in 2006 to release three months’ worth of search 
+
+queries from over 650,000 users. Although the searchers’ identities were 
+
+not revealed, AOL did assign each searcher a unique numeric ID so that 
+
+researchers could relate multiple queries from the same person.
+As reported in the 
+New York Times 
+[BAR06], in a short time, bloggers 
+inferred that number 4417749 was a woman, Thelma Arnold, who lived in 
+
+a small town in Georgia. From her queries researchers inferred that she 
+
+was looking for a landscaper, kept a dog, and was interested in travelling 
+
+to Italy. What gave away her full identity was that she searched for several 
+
+people with the surname Arnold and businesses in the Shadow Lake subdi-
+
+vision of Gwinett County, Georgia. Official records showed only one person 
+
+with the surname Arnold in that county.
+Researchers also identified several other individuals from the 
+searches before AOL took the database offline. As this example shows, 
+
+even anonymized data can reveal true identities.
+Using a different form of correlation, Sweeney [SWE04] reports on a 
+project to find lists of people’s names. Correlating names across lists gener-
+
+ated a profile of the names that match: places they live, work, or go to school, 
+
+organizations to which they belong, and causes they support. Combinations of 
+
+individual data items can yield complex, multifaceted biographical sketches.Aggregation is nearly impossible for a 
+database management system to control 
+
+because combining the data can occur 
+outside the system, even by multiple 
+colluding users.

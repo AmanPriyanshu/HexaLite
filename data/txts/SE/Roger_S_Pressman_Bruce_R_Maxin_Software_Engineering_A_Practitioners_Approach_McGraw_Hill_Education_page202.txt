@@ -1,0 +1,63 @@
+172 PART TWO  
+MODELINGmanipulate data objects are modeled in a manner that shows how they trans-form data as data objects ﬂ ow through the system. 
+ A second approach to analysis modeling, called  object-oriented analysis, 
+ focuses on the deﬁ nition of classes and the manner in which they collaborate 
+with one another to effect customer requirements. UML and the Uniﬁ ed Process 
+(Chapter 4) are predominantly object oriented.  In this edition of the book, we have chosen to emphasize elements of object- oriented analysis as it is modeled using UML. Our goal is to suggest a combina-
+tion of representations will provide stakeholders with the best model of software 
+requirements and the most effective bridge to software design.  
+ 
+ 
+   
+ 
+Each element of the requirements model ( Figure 9.3 ) presents the problem from a different point of view. Scenario-based elements depict how the user in-
+
+teracts with the system and the speciﬁ c sequence of activities that occur as the 
+software is used. Class-based elements model the objects that the system will 
+manipulate, the operations that will be applied to the objects to effect the manip-
+ulation, relationships (some hierarchical) between the objects, and the collabora-
+tions that occur between the classes that are deﬁ ned. Behavioral elements depict 
+how external events change the state of the system or the classes that reside 
+within it. Finally, ﬂ
+ ow-oriented elements represent the system as an information 
+transform, depicting how data objects are transformed as they ﬂ ow through var-
+ious system functions.  
+ 
+ 
+ 
+   
+Analysis modeling leads to the derivation of one or more of these modeling el-ements. However, the speciﬁ
+ c content of each element (i.e., the diagrams that are 
+used to construct the element and the model) may differ from project to project. 
+As we have noted a number of times in this book, the software team must work to 
+keep it simple. Only those modeling elements that add value to the model should 
+be used.  What 
+different points of view 
+can be used to 
+describe the 
+requirements 
+model? ?  uote:  “[A]nalysis is 
+frustrating, 
+full of complex 
+interpersonal 
+relationships, 
+indeﬁ nite, and 
+
+difﬁ cult. In a word, 
+
+it is fascinating. 
+Once you’re 
+hooked, the old 
+easy pleasures of 
+system building 
+are never again 
+enough to satisfy 
+you.”  Tom DeMarco 
+SoftwareRequirementsClass
+modelse.g.,class diagrams
+collaboration diagramsFlowmodelse.g.,DFDsdata modelsScenario-basedmodelse.g.,use cases
+user storiesBehavioralmodelse.g.,state diagramssequence diagrams  
+FIGURE 9.3 
+Elements of the analysis 
+model  
+ pre22126_ch09_166-183.indd   172pre22126_ch09_166-183.indd   17213/12/13   6:11 PM13/12/13   6:11 PM

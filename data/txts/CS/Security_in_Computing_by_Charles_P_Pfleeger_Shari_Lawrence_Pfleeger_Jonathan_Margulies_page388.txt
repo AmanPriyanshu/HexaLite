@@ -1,0 +1,28 @@
+354 Chapter 6  
+Networks6.2 THREATS TO NETWORK COMMUNICATIONS
+Now we look at security threats in networks. From our description of threats in Chapter 
+1 you may remember four potential types of harm:• interception
+, or unauthorized viewing
+• modification
+, or unauthorized change• fabrication, or unauthorized creation• interruption, or preventing authorized access
+These four types apply to networks, although the terminology is slightly different. Inter-
+ception is sometimes called eavesdropping or wiretapping, modification and fabrication 
+
+are usually known by the more general term integrity failures, and interruption in a 
+
+network is denial of service. Next we consider these network security issues. We also 
+
+discuss port scanning: reconnaissance before an attack.Interception: Eavesdropping and Wiretapping
+Security analysts sometimes use the concept of a security perimeter, a virtual line that 
+
+encircles a protected set of computing resources. You might think of a security perim-
+
+eter as encompassing a physical location, such as a home, school, office, or store, as 
+
+shown in Figure 6-6. Of course, these lines do not really exist, and for much network 
+
+use you need to extend your access outside your protected zone. But because you lose 
+
+control of equipment (cables, network devices, servers) outside your zone, your ability 
+
+to secure your data is limited.SecurityperimeterFIGURE 6-6 Security Perimeters

@@ -1,0 +1,44 @@
+˜˜˚˛˝˜˜˜˜˜˜
+(check-out) these from the repository into their workspace and work on these copies. When they have completed their changes, the changed components are returned 
+
+(checked-in) to the repository. However, centralized and distributed VC systems 
+
+support independent development of shared components in different ways.In centralized systems, developers check out components or directories of com-ponents from the project repository into their private workspace and work on these 
+copies in their private workspace. When their changes are complete, they check-in 
+the components back to the repository. This creates a new component version that 
+may then be shared. For an illustration, see Figure 25.5.Here, Alice has checked out versions A1.0, B1.0, and C1.0. She has worked on these 
+versions and has created new versions A1.1, B1.1, and C1.1. She checks these new ver-sions into the repository. Bob checks out X1.0, Y1.0, and C1.0. He creates new versions 
+
+of these components and checks them back in to the repository. However, Alice has 
+
+already created a new version of C, while Bob has been working on it. His check-in 
+
+therefore creates another version C1.2, so that Alice™s changes are not overwritten.If two or more people are working on a component at the same time, each must 
+check out the component from the repository. If a component has been checked out, 
+
+the version control system warns other users wanting to check out that component that 
+
+it has been checked out by someone else. The system will also ensure that when the 
+
+modified components are checked in, the different versions are assigned different 
+ version identifiers and are stored separately.In a distributed VC system, such as Git, a different approach is used. A ﬁmasterﬂ 
+repository is created on a server that maintains the code produced by the development 
+
+team. Instead of simply checking out the files that they need, a developer creates a 
+
+clone of the project repository that is downloaded and installed on his or her computer.Developers work on the files required and maintain the new versions on their 
+private repository on their own computer. When they have finished making 
+
+changes, they ﬁcommitﬂ these changes and update their private server repository. 
+
+They may then ﬁpushﬂ these changes to the project repository or tell the integra-
+tion manager that changed versions are available. He or she may then ﬁpullﬂ these 
+
+files to the project repository (see Figure 25.6). In this example, both Bob and 
+
+Alice have cloned the project repository and have updated files. They have not yet 
+
+pushed these back to the project repository.Version management systemAliceBobWorkspace (Alice)Workspace (Bob)
+check_incheck_outA1.0A1.1B1.1B1.0C1.0C1.1X1.1X1.0Y1.0Y1.1Q1.0P1.0C1.2Z1.0R1.0A1.0A1.1B1.1B1.0C1.0C1.1X1.0X1.1Y1.1Y1.0C1.0C1.1check_incheck_outFigure 25.5 Check-in and check-out from a 
+centralized version 
+repository

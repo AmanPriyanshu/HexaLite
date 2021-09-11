@@ -1,0 +1,48 @@
+ Section 7.3  Reliability and Integrity 
+515  3. The stockroom charges accounting’s supplies budget (also in the database) for 
+50 boxes of paper clips.
+4. The stockroom checks its remaining quantity on hand (57) to determine whether the remaining quantity is below the reorder point. Because it is, a notice to 
+
+order more paper clips is generated, and the item is flagged as “on order” in the 
+database.5. A delivery order is prepared, enabling 50 boxes of paper clips to be sent to 
+accounting.All five of these steps must be completed in the order listed for the database to be accu-
+rate and for the transaction to be processed correctly.
+Suppose a failure occurs while these steps are being processed. If the failure occurs 
+before step 1 is complete, no harm ensues, because the entire transaction can be 
+
+restarted. However, during steps 2, 3, and 4, changes are made to elements in the data-
+
+base. If a failure occurs then, the values in the database are inconsistent. Worse, the 
+
+transaction cannot be reprocessed because a requisition would be deducted twice or a 
+
+department would be charged twice or two delivery orders would be prepared.
+When a two-phase commit is used, 
+shadow values 
+are maintained for key data 
+points. A shadow data value is computed and stored locally during the intent phase, 
+
+and it is copied to the actual database during the commit phase. The operations on the 
+
+database would be performed as follows for a two-phase commit.
+Intent:1. Check the value of COMMIT-FLAG in the database. If it is set, this phase can-
+not be performed. Halt or loop, checking COMMIT-FLAG until it is not set.
+2. Compare number of boxes of paper clips on hand to number requisitioned; if 
+more are requisitioned than are on hand, halt.3. Compute TCLIPS  ONHAND  REQUISITION.
+4. Obtain BUDGET, the current supplies budget remaining for accounting depart-
+ment. Compute TBUDGET 
+ BUDGET 
+ COST, where COST is the cost of 
+50 boxes of clips.
+5. Check whether TCLIPS is below reorder point; if so, set TREORDER 
+ TRUE; 
+else set TREORDER 
+ FALSE.
+Commit:1. Set COMMIT-FLAG in database.
+2. Copy TCLIPS to CLIPS in database.
+3. Copy TBUDGET to BUDGET in database.
+4. Copy TREORDER to REORDER in database.
+5. Prepare notice to deliver paper clips to accounting department. Indicate transac-
+tion completed in log.6. Unset COMMIT-FLAG.
+With this example, each step of the intent phase depends only on unmodified values 
+from the database and the previous results of the intent phase. Each variable beginning 

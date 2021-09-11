@@ -1,0 +1,89 @@
+CHAPTER 35  
+RISK MANAGEMENT 791Risk information sheetDate:  5/9/09Prob:  80%Impact: high
+Risk ID:  P02-4-32Description:Only 70 percent of the software components scheduled for reuse will, in fact, beintegrated into the application.  The remaining functionality will have to be custom 
+developed.Refinement/context:Subcondition 1: Certain reusable components were developed by a third party 
+
+with no knowledge of internal design standards. 
+
+Subcondition 2: The design standard for component interfaces has not been 
+
+solidified and may not conform to certain existing reusable components.
+
+Subcondition 3:  Certain reusable components have been implemented in a 
+
+language that is not supported on the target environment.
+Mitigation/monitoring:1.  Contact third party to determine conformance with design standards.
+
+2.  Press for interface standards completion; consider component structure when 
+
+deciding on interface protocol.
+
+3.  Check to determine number of components in subcondition 3 category; check 
+
+to determine if language support can be acquired.
+Management/contingency plan/trigger:RE computed to be $20,200. Allocate this amount within project contingency cost. Develop revised schedule assuming that 18 additional components will have to be 
+custom built; allocate staff accordingly.
+
+Trigger:  Mitigation steps unproductive as of 7/1/09.
+Current status:5/12/09: Mitigation steps initiated.Originator: D. Gagne  Assigned: B. Laster
+  
+FIGURE 35.4 
+Risk informa-
+tion sheet  
+  Source: [Wil97].  
+ 
+5  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+  
+Risk Management  
+ 
+ 
+ 
+ Objective: 
+  The objective of risk management tools is to assist a project team in deﬁ ning risks, assessing their impact and probability, 
+and tracking risks throughout a software project.   
+ 
+Mechanics:   
+In general, risk management tools assist in generic risk identiﬁ cation by providing a list of typical 
+project and business risks, provide checklists or other 
+“interview” techniques that assist in identifying project 
+
+speciﬁ c risks, assign probability and impact to each risk, 
+support risk mitigation strategies, and generate many 
+
+different risk-related reports. 
+  
+ 
+ 
+Representative Tools:  5 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+@risk, 
+ developed by Palisade Corporation (  
+www.palisade.com
+ 
+ 
+), is a generic risk analysis tool that uses Monte Carlo simulation to drive its 
+analytical engine.    
+ 
+ 
+ 
+Riskman, 
+ distributed by ABS Consulting (  
+www.absconsulting.com/riskmansoftware/
+index.html 
+ 
+), is a risk evaluation expert system that 
+identiﬁ es project-related risks. 
+  
+SOFTWARE
+ TOOLS pre22126_ch35_777-794.indd   791pre22126_ch35_777-794.indd   79113/12/13   6:17 PM13/12/13   6:17 PM

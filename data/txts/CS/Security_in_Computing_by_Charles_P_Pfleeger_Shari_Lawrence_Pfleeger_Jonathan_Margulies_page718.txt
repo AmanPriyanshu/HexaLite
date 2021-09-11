@@ -1,0 +1,67 @@
+684 Chapter 10  
+Management and Incidentseffectiveness of different controls can be compared on paper before actual invest-
+ments are made. Risk analysis can thus be used repeatedly, to select an optimum set 
+
+of controls.Arguments For and Against Risk AnalysisRisk analysis is a well-known planning tool, used often by auditors, accountants, and 
+
+managers. In many situations, such as obtaining approval for new drugs, new power 
+
+plants, and new medical devices, a risk analysis is required by law in many countries. 
+
+There are many good reasons to perform a risk analysis in preparation for creating a 
+
+security plan. • Improve awareness. 
+Discussing issues of security can raise the general level 
+of interest and concern among developers and users. Especially when the user 
+
+population has little expertise in computing, the risk analysis can educate users 
+
+about the role security plays in protecting functions and data that are essential to 
+user operations and products.• Relate security mission to management objectives
+. Security is often perceived 
+as a financial drain for no gain. Management does not always see that security 
+
+helps balance harm and control costs.• Identify assets, vulnerabilities, and controls. 
+Some organizations are unaware 
+of their computing assets, their value to the organization, and the vulnerabilities 
+
+associated with those assets. A systematic analysis produces a comprehensive 
+
+list of assets, valuations, and risks.
+• Improve basis for decisions. 
+A security manager can present an argument such 
+as “I think we need a firewall here” or “I think we should use token-based 
+
+authentication instead of passwords.” Risk analysis augments the manager’s 
+
+judgment as a basis for the decision.• Justify expenditures for security. 
+Some security mechanisms appear to be 
+very expensive and without obvious benefit. A risk analysis can help identify 
+
+instances where it is worth 
+
+the expense to implement 
+
+a major security mecha-
+nism. Managers can show 
+
+the much larger risks of 
+not spending for security. 
+However, despite the advantages of risk analysis, there are several arguments against 
+using it to support decision making.• False sense of precision and confidence. 
+The heart of risk analysis is the use 
+of empirical data to generate estimates of risk impact, risk probability, and risk 
+
+exposure. The danger is that these numbers will give us a false sense of preci-
+
+sion, thereby giving rise to an undeserved confidence in the numbers. How-
+
+ever, in many cases the numbers themselves are much less important than their 
+
+relative sizes. Whether an expected loss is $100,000 or $150,000 is relatively 
+Risk analysis provides a rational basis 
+
+for spending for security, justifying both 
+
+the things to spend on and the amounts 
+to spend.

@@ -1,0 +1,58 @@
+ Section 3.2  Malicious Code—Malware 
+193  to an executable file or traveling within data files. The travel itself occurs during execu-
+tion of an already infected program. Since a virus can execute any instructions a pro-
+
+gram can, virus travel is not confined to any single medium or execution pattern. For 
+
+example, a virus can arrive on a diskette or from a network connection, travel during 
+
+its host’s execution to a hard disk boot sector, reemerge next time the host computer is 
+
+booted, and remain in memory to infect other diskettes as they are accessed.
+Polymorphic Viruses 
+The virus signature may be the most reliable way for a virus scanner to identify a 
+
+virus. If a particular virus always begins with the string 0x47F0F00E08 and has string 
+
+0x00113FFF located at word 12, other programs or data files are not likely to have these 
+
+exact characteristics. For longer signatures, the probability of a correct match increases.
+If the virus scanner will always look for those strings, then the clever virus writer can 
+cause something other than those strings to be in those positions. Certain instructions 
+cause no effect, such as adding 0 to a number, comparing a number to itself, or jump-
+
+ing to the next instruction. These instructions, sometimes called 
+no-ops (for “no opera-tion”), can be sprinkled into a piece of code to distort any pattern. For example, the 
+
+virus could have two alternative but equivalent beginning words; after being installed, 
+
+the virus will choose one of the two words for its initial word. Then, a virus scanner 
+TABLE 3-4 
+Virus Effects and What They Cause
+Virus EffectHow It Is Caused
+Attach to executable program• Modify file directory
+• Write to executable program file
+Attach to data or control file• Modify directory
+• Rewrite data
+
+• Append to data
+
+• Append data to self
+Remain in memory• Intercept interrupt by modifying interrupt handler address table
+• Load self in nontransient memory area
+Infect disks• Intercept interrupt
+• Intercept operating system call (to format disk, for example)
+
+• Modify system file
+
+• Modify ordinary executable program
+Conceal self• Intercept system calls that would reveal self and falsify result
+• Classify self as “hidden” file
+Spread infection• Infect boot sector
+• Infect system program
+
+• Infect ordinary program
+
+• Infect data ordinary program reads to control its execution
+Prevent deactivation• Activate before deactivating program and block deactivation
+• Store copy to reinfect after deactivation

@@ -1,0 +1,118 @@
+CHAPTER 2  
+SOFTWARE ENGINEERING
+ 25has been started), the cost impact is relatively small.  8 
+ 
+ However, as 
+time passes, the cost impact grows rapidly— resources have been 
+committed, a design framework has been established, and change 
+can cause upheaval that requires additional resources and major 
+design modiﬁ cation. 
+  
+ 
+ 
+ 
+ 
+Practitioner’s myths.   Myths that are still believed by software practitioners have been fostered by over 60 years of programming culture. During the early 
+days, programming was viewed as an art form. Old ways and attitudes die hard.  
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Myth: 
+   
+Once we write the program and get it to work, our job is done.
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Reality: 
+  Someone once said that “the sooner you begin ‘writing code,’ the longer it’ll take you to get done.” Industry data indicate that 
+between 60 and 80 percent of all effort expended on software 
+ rst 
+time.    
+ 
+ 
+ 
+ 
+ 
+Myth: 
+   
+Until I get the program “running” I have no way of assessing its 
+quality.
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Reality: 
+  One of the most effective software quality assurance mechanisms can be applied from the inception of a project— the technical review.
+ 
+ Software reviews (described in Chapter 20) are a “quality ﬁ lter” that have been found to be more effective than testing for 
+ﬁ nding certain classes of software defects. 
+   
+ 
+ 
+ 
+ 
+ 
+Myth: 
+   
+The only deliverable work product for a successful project is the 
+working program.
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Reality: 
+  A working program is only one part of a software conﬁ guration 
+that includes many elements. A variety of work products (e.g., 
+models, documents, plans) provide a foundation for successful en-
+gineering and, more important, guidance for software support.    
+ 
+ 
+ 
+ 
+ 
+Myth: 
+   
+Software engineering will make us create voluminous and unnec-
+essary documentation and will invariably slow us down. 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Reality: 
+  Software engineering is not about creating documents. It is about creating a quality product. Better quality leads to reduced rework. 
+And reduced rework results in faster delivery times.    
+Today, most software professionals recognize the fallacy of the myths just de-
+scribed. Recognition of software realities is the ﬁ rst step toward formulation of 
+practical solutions for software engineering.   
+8  Many software engineers have adopted an “agile” approach that accommodates change incre-
+mentally, thereby controlling its impact and cost. Agile methods are discussed in Chapter 5. 
+   Whenever you think, 
+we don’t have time for 
+software engineering, 
+ask yourself, “Will we 
+
+have time to do it over 
+again?” pre22126_ch02_014-028.indd   25pre22126_ch02_014-028.indd   2513/12/13   6:10 PM13/12/13   6:10 PM

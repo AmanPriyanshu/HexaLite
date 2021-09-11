@@ -1,0 +1,31 @@
+ Section 12.3  Asymmetric Encryption with RSA 
+797  our final result mod 143, we can reduce any term, such as 7
+9, which is 8 mod 143. Then, 
+8  72 mod 143  392 mod 143  106.)This answer is correct since D(106)  10611 mod 143  7.Strength of the RSA Algorithm
+The RSA algorithm derives strength from the fact that it is based on the problem of 
+efficiently factoring numbers in a finite field, a long-standing open problem in number 
+
+theory. The problem is, of course, solvable, using the brute-force technique of trying all 
+
+possible factors, but in a large field, that is, for large values of 
+n, the brute force tech-nique is infeasible. The trick that makes RSA encryption workable depends on a hidden 
+
+technique for picking n. Mathematical Foundations of the RSA AlgorithmThe Euler totient function j(n) is the number of positive integers less than 
+n that are 
+relatively prime to 
+n. If p is prime, thenj(p)  p − 1Furthermore, if n  p  q, where p and q are both prime, thenj(n)  j(p) * j(q)  (p − 1) * (q − 1)Euler and Fermat proved that
+xj(n)  1 mod nfor any integer 
+x if n and x are relatively prime.
+Suppose we encrypt a plaintext message 
+P by the RSA algorithm so that E(P)  Pe. We need to be sure we can recover the message. The value 
+e is selected, so we can eas-ily find its inverse 
+d. Because e and d are inverses mod 
+j(n), e  d  1 mod 
+j(n)or
+ e  d    k  j(n)  1   ()for some integer 
+k.Because of the Euler–Fermat result, assuming P and p are relatively prime,
+ Pp − 1  1 mod 
+pand, since (p−1) is a factor of 
+j(n), Pkj(n)  1 mod 
+pMultiplying by P produces Pkj(n)1  P mod pThe same argument holds for 
+q, so Pkj(n)1  P mod q

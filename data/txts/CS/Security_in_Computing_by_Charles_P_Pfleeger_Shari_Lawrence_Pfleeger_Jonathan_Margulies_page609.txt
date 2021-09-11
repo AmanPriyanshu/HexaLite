@@ -1,0 +1,34 @@
+OAuth Authorization FlowClient (App or Website)
+Resource Owner (User)Authorization
+ServerResource
+ServerInstall Client App or 
+Register with Client 
+Website
+Prepare Request to 
+Access Resource Owner’s Data/Functions on 
+Resource Server
+RequestToken
+Login to
+Authorization
+ServerAuthenticateResource OwnerLogin CredentialsAccept Token and RequestResource Owner
+AuthenticationAllow Resource
+Owner to Limit 
+
+Scope of Client 
+AccessChoose Client 
+Access RightsScope RequestedBy ClientRedirectResource Owner
+to ClientSelected
+AccessRightsPass AuthorizationCode to ClientRedirection URI/
+Authorization CodePass Authorization Code to Authorization Server
+Auth. CodeAuth.Code,
+ClientSecret
+Accept Tokens
+AccessToken/
+RefreshTokenAttempt to Access 
+Resources on 
+Resource Owner’s BehalfAuthenticate Access Token ThroughAuthorization Server
+AccessTokenAuthenticateAccess
+TokenAccessTokenAuthorization
+ResponseGrant/DenyResourceAccessReceive Resource Server Response
+RequestedResource orDenied RequestAuthenticate Client and Auth. CodeFIGURE 8-6 OAuth Authorization
+575

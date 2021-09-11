@@ -1,0 +1,63 @@
+266 PART TWO  
+MODELING 
+The architectural description for a software product is not explicitly visible in the source code used to implement it. As a consequence, code modiﬁ cations 
+made over time (e.g., software maintenance activities) can cause slow erosion of 
+the software architecture. The challenge for a designer is to ﬁ nd suitable abstrac-
+tions for the architectural information. These abstractions have the potential to 
+add structuring that improves readability and maintainability of the source code 
+[Bro10b].  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 13.5 A
+RCHITECTURAL DECISIONS  
+ 
+Decisions associated with system architecture capture key design issues and the rationale behind chosen architectural solutions. Some of these decisions 
+include software system organization, selection of structural elements and 
+their interfaces as deﬁ ned by their intended collaborations, and the composi-
+tion of these elements into increasingly larger subsystems [Kru09]. In addition, 
+choices of  architectural patterns, application technologies, middleware assets, and  programming language can also be made. The outcome of the architec-tural  decisions inﬂ uences the system’s nonfunctional characteristics and many 
+of its quality attributes [Zim11] and can be documented with  developer notes 
+. These notes document key design decisions along with their justiﬁ cation, pro-
+vide a reference for new project team members, and serve as a repository for 
+lessons-learned.   
+In general, software architectural practice focuses on architectural views that represent and document the needs of various stakeholders. It is possible, how-
+ever, to deﬁ
+ ne a  
+decision view 
+ that cuts across several views of information con-
+tained in traditional architectural representations. The decision view captures 
+both the architecture design decisions and their rationale.   
+Service-oriented architecture decision
+ 
+ (SOAD) 
+ 5 
+ 
+ modeling [Zim11] is a knowl-
+edge management framework that provides support for capturing architectural 
+decision dependencies in a manner that allows them to guide future develop-
+ment activities.   
+A  guidance model 
+ contains knowledge about architectural decisions required 
+when applying an architectural style in a particular application genre. It is based 
+architectural information obtained from completed projects that employed the 
+architectural style in that genre. The guidance model documents places where 
+design problems exist and architectural decisions must be made, along with 
+quality attributes that should be considered in selecting from among potential   uote:  “A doctor can 
+bury his mistakes, 
+
+but an architect 
+can only advise 
+his client to plant 
+vines.”  Frank Lloyd 
+Wright 
+  
+5  SOAD is analogous to the use of architecture patterns discussed in  
+Chapter 16 . Further infor-
+mation can be obtained at:   
+http://soadecisions.org/soad.htm  
+ pre22126_ch13_252-284.indd   266pre22126_ch13_252-284.indd   26613/12/13   6:12 PM13/12/13   6:12 PM

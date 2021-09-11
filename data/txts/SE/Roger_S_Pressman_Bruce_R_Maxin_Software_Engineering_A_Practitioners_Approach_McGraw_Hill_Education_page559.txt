@@ -1,0 +1,74 @@
+CHAPTER 24  
+TESTING OBJECT-ORIENTED APPLICATIONS
+ 529interface, class testing for OO software is driven by the operations encapsulated by the class and the state behavior of the class.   
+ 
+ 
+ 
+24.3.2   
+Integration Testing in the OO Context 
+ 
+Because object-oriented software does not have a hierarchical control structure, conventional top-down and bottom-up integration strategies have little meaning. 
+In addition, integrating operations one at a time into a class (the conventional 
+incremental integration approach) is often impossible because of the “direct and 
+indirect interactions of the components that make up the class” [Ber93].   
+ 
+ 
+ 
+ 
+There are two different strategies for integration testing of OO systems [Bin94a]. 
+The ﬁ rst,  
+thread-based testing,
+ 
+ integrates the set of classes required to respond to 
+one input or event for the system. Each thread is integrated and tested individu-
+ally. Regression testing is applied to ensure that no side effects occur. The second 
+
+integration approach,  use-based testing, 
+ begins the construction of the system 
+by testing those classes (called  independent classes 
+) that use very few (if any) of 
+server classes. After the independent classes are tested, the next layer of classes, 
+
+called  dependent classes, 
+ that use the independent classes are tested. This se-
+quence of testing layers of dependent classes continues until the entire system is 
+
+constructed. Unlike conventional integration, the use of driver and stubs (Chap-
+ter 23) as replacement operations is to be avoided, when possible. 
+  
+Cluster testing 
+ [McG94] is one step in the integration testing of OO software. 
+Here, a cluster of collaborating classes (determined by examining the CRC and 
+object-relationship model) is exercised by designing test cases that attempt to 
+uncover errors in the collaborations.   
+ 
+ 
+24.3.3   
+Validation Testing in an OO Context 
+ 
+At the validation or system level, the details of class connections disappear. Like 
+conventional validation, the validation of OO software focuses on user-visible ac-
+
+tions and user-recognizable outputs from the system. To assist in the derivation 
+
+of validation tests, the tester should draw upon use cases (Chapters 9 and 10) that 
+are part of the requirements model. The use case provides a scenario that has a 
+high likelihood of uncovered errors in user-interaction requirements. 
+ Conventional black-box testing methods (Chapter 23) can be used to drive validation tests. In addition, you may choose to derive test cases from the object-
+behavior model and from an event ﬂ ow diagram created as part of OOA. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 24.4  
+OBJECT-ORIENTED TESTING METHODS  
+ 
+ 
+The architecture of object-oriented software results in a series of layered sub-systems that encapsulate collaborating classes. Each of these system ele-
+ments (subsystems and classes) performs functions that help to achieve system    Integration testing for 
+OO software tests a 
+set of classes that are 
+required to respond to 
+a given event. pre22126_ch24_523-539.indd   529pre22126_ch24_523-539.indd   52913/12/13   10:02 PM13/12/13   10:02 PM

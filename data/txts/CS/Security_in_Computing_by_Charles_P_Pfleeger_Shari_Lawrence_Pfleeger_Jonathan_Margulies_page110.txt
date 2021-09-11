@@ -1,0 +1,68 @@
+76 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+valuables in safes with impregnable doors to which only a select few trusted people had 
+the combinations. Fairy tale villains locked damsels away in towers. All these examples 
+
+show strong access control because of fail-safe designs.
+In Anderson’s formulation for computers, access control depends on a combination 
+of hardware and software that is
+• always invoked; validates  
+every access attempt
+• immune from tampering
+
+• assuredly correct
+Anderson called this construct a reference monitor
+. It should be obvious why these 
+three properties are essential.A reference monitor is a notion, not a tool you can buy to plug into a port. It could be 
+embedded in an application (to control the application’s objects), part of the operating 
+
+system (for system-managed objects) or part of an appliance. Still, you will see these 
+same three properties appear repeatedly in this book. To have an effective reference 
+
+monitor, we need to consider effective and efficient means to translate policies, the basis 
+
+for validation, into action. How we represent a policy in binary data has implications for 
+
+how efficient and even how effective the mediation will be.
+In the next sections we present several models of how access rights can be main-
+tained and implemented by the reference monitor.
+Access Control Directory
+One simple way to protect an object is to use a mechanism that works like a file direc-
+tory. Imagine we are trying to protect files (the set of objects) from users of a computing 
+
+system (the set of subjects). Every file has a unique owner who possesses “control” 
+
+access rights (including the rights to declare who has what access) and to revoke access 
+
+of any person at any time. Each user has a file directory, which lists all the files to which 
+
+that user has access.Clearly, no user can be allowed to write in the file directory, because that would be 
+a way to forge access to a file. Therefore, the operating system must maintain all file 
+
+directories, under commands from the owners of files. The obvious rights to files are 
+
+the common read, write, and execute that are familiar on many shared systems. Further-
+
+more, another right, owner, is possessed by the owner, permitting that user to grant and 
+
+revoke access rights. Figure 2-9 shows an example of a file directory.
+This approach is easy to implement because it uses one list per user, naming all the 
+objects that a user is allowed to access. However, several difficulties can arise. First, 
+
+the list becomes too large if many shared objects, such as libraries of subprograms or a 
+
+common table of users, are accessible to all users. The directory of each user must have 
+
+one entry for each such shared object, even if the user has no intention of accessing the 
+
+object. Deletion must be reflected in all directories. A second difficulty is revocation of access. If owner A has passed to user B the right 
+to read file F, an entry for F is made in the directory for B. This granting of access 
+
+implies a level of trust between A and B. If A later questions that trust, A may want 
+
+to revoke the access right of B. The operating system can respond easily to the single 
+Reference monitor: access control that 
+
+is always invoked, tamperproof, and 
+
+verifiable

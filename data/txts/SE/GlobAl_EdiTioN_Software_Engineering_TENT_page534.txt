@@ -1,0 +1,60 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜
+˜ˇ
+˜understanding and analyzing the organization™s business processes to decide which 
+reusable services could be implemented to support these processes.Erl (Erl 2005) suggests that there are three fundamental types of service:1. Utility services. These services implement some general functionality that may 
+be used by different business processes. An example of a utility service is a cur
+-rency conversion service that can be accessed to compute the conversion of one 
+
+currency (e.g., dollars) to another (e.g., euros).
+2. Business services. These services are associated with a specific business func
+-
+tion. An example of a business function in a university would be the registration 
+
+of students for a course.3. Coordination or process services. These services support a more general busi
+-
+ness process that usually involves different actors and activities. An example of 
+
+a coordination service in a company is an ordering service that allows orders to 
+
+be placed with suppliers, goods accepted, and payments made.Erl also suggests that services can be thought of as task-oriented or entity- oriented. Task-oriented services are associated with some activity, whereas entity-
+
+oriented services are associated with a system resource. The resource is a business 
+
+entity such as a job application form. Figure 18.9 shows examples of services that 
+
+are task-oriented or entity-oriented. Utility or business services may be entity-
+
+oriented or task-oriented. Coordination services are always task-oriented.
+Your goal in service candidate identification should be to identify services that 
+are logically coherent, independent, and reusable. Erl™s classification is helpful in 
+
+this respect, as it suggests how to discover reusable services by looking at business 
+
+entities as resources and business activities. However, identifying service candidates 
+
+is sometimes difficult because you have to envisage how the services could be used. 
+
+You have to think of possible candidates and then ask a series of questions about 
+
+them to see if they are likely to be useful services. Possible questions that you might 
+
+ask to identify potentially reusable services are:1.
+ For an entity-oriented service, is the service associated with a single logical 
+resource that is used in different business processes? What operations are nor
+-mally performed on that entity that must be supported? Do these fit with the 
+
+RESTful service operations PUT, CREATE, POST, and DELETE?
+2. For a task-oriented service, is the task one that is carried out by different people 
+
+in the organization? Will they be willing to accept the inevitable standardization 
+Figure 18.9 Service classificationUtilityBusinessCoordinationTaskCurrency converter
+
+Employee locatorValidate claim form
+
+Check credit ratingProcess expense claim
+Pay external supplier
+EntityDocument translator
+Web form to XML converter
+Expenses form
+Student application form

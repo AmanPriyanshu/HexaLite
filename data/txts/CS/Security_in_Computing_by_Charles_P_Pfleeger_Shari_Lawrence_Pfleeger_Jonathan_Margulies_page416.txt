@@ -1,0 +1,73 @@
+382 Chapter 6  
+Networksmight try to forge data appearing to come from the host or client. Because the client and 
+server can receive each other’s signals, the attacker cannot readily receive something 
+
+from the client, modify it, and transmit the modified version before the client’s original 
+
+signal gets to the server. However, the attacker can try to take over a communication 
+
+stream by force. WiFi radio receivers that receive two signals prefer the stronger one. So 
+
+if a rogue access point intercepts a signal from a client and sends a strong signal back, 
+appearing to come from the server’s access point, the rogue may be able to commandeer 
+
+the communications stream.Availability
+Availability involves three potential problems. First, the most obvious, occurs when a 
+component of a wireless communication stops working because hardware fails, power 
+
+is lost, or some other catastrophe strikes. A second problem of availability is loss of 
+
+some but not all access, typically manifested as slow or degraded service. Service can 
+
+be slow because of interference, for example, if tree leaves in a wind interfere with 
+
+frame transmission, so the receiving end recognizes loss of some data and must request 
+
+and wait for retransmission. Service can also be slow if the demand for service exceeds 
+
+the capacity of the receiving end, so either some service requests are dropped or the 
+
+receiver handles all requests slowly.
+Wireless communication also admits a third problem: the possibility of 
+rogue net-
+work connection
+. Some WiFi access points are known as public hot spots and are 
+intentionally available to anyone who wants to connect. But other private owners do 
+
+not want to share their access with anybody in range. Although shared service may not 
+
+be noticed, it is still inappropriate. A user wanting free Internet access can often get it 
+
+simply by finding a wireless LAN offering DHCP service. Free does not necessarily 
+
+imply secure, as described in Sidebar 6-11. In this case, although service is available, 
+
+the security of that service may be limited. As the adage tells us, sometimes you get 
+
+what you pay for.
+SIDEBAR 6-11 A Network Dating Service?
+Searching for open wireless networks within range is called 
+war driving. To 
+find open networks you need only a computer equipped with a wireless net-
+
+work receiver. Similar to bird sighting events, four World Wide War Driving 
+
+events were held (see http://www.worldwidewardrive.org/), two in 2002, and 
+
+one each in 2003 and 2004. The goal was to identify as many different open 
+
+wireless access points as possible in one week: For the first search, 9,374 
+
+were found; for the last, the number had grown to 228,537. The counts are 
+
+not comparable because as word spread, more people became involved 
+
+in searching for sites. For each of the four events, approximately two-thirds 
+
+of the sites found did not support encrypted communication. Also approxi-
+
+mately 30 percent of access points in each event used the default SSID 
+
+(identifier by which the access point is accessed). Typically (in 2002–2004), 
+
+the default SSID was something like “wireless.” A wireless base station with 

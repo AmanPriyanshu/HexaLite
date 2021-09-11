@@ -1,0 +1,76 @@
+720 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+ 
+ 
+32.4.1   
+Arguments for Software Metrics 
+ 
+Why is it so important to measure the process of software engineering and the product (software) that it produces? The answer is relatively obvious. If you do 
+not measure, there no real way of determining whether you are improving. And 
+if you are not improving, you are lost.   
+By requesting and evaluating productivity and quality measures, a software team (and its management) can establish meaningful goals for improvement of 
+the software process. Early in this book, we noted that software is a strategic 
+business issue for many companies. If the process through which it is developed 
+can be improved, a direct impact on the bottom line can result. But to estab-
+lish goals for improvement, the current status of software development must be 
+understood. Hence, measurement is used to establish a process baseline from 
+which improvements can be assessed.  The day-to-day rigors of software project work leave little time for strategic thinking. Software project managers are concerned with more mundane (but 
+equally important) issues: developing meaningful project estimates, producing 
+higher quality systems, getting product out the door on time. By using measure-
+ment to establish a project baseline, each of these issues becomes more manage-
+able. We have already noted that the baseline serves as a basis for estimation. 
+
+Additionally, the collection of quality metrics enables an organization to “tune” 
+
+its software process to remove the “vital few” causes of defects that have the 
+greatest impact on software development.  9 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+32.4.2   
+Establishing a Baseline  
+By establishing a metrics baseline, beneﬁ ts can be obtained at the process, 
+ project, and product (technical) levels. Yet the information that is collected 
+need not be fundamentally different. The same metrics can serve many masters. 
+The metrics baseline consists of data collected from past software development 
+ projects and can be as simple as the table presented in   
+Figure 32.2  
+ or as complex 
+as a comprehensive database containing dozens of project measures and the 
+metrics derived from them.  
+ 
+ 
+   
+To be an effective aid in process improvement and/or cost and effort estima-
+tion, baseline data must have the following attributes: (1) data must be reason-
+ably accurate—“guestimates” about past projects are to be avoided, (2) data 
+should be collected for as many projects as possible, (3) measures must be con-
+sistent (for example, a line of code must be interpreted consistently across all 
+projects for which data are collected), (4) applications should be similar to work 
+that is to be estimated—it makes little sense to use a baseline for batch informa-
+tion systems work to estimate a real-time, embedded application.   
+ 
+ uote:  “We manage things 
+by the numbers in 
+many aspects of 
+
+numbers give us 
+insight and help 
+steer our actions.”  Michael Mah 
+and Larry 
+Putnam  What is 
+a metrics baseline and 
+what beneﬁ t 
+does it provide 
+to a software 
+engineer? ?  
+9  These ideas have been formalized into an approach called  
+statistical software quality assurance
+ 
+. pre22126_ch32_703-726.indd   720pre22126_ch32_703-726.indd   72013/12/13   6:17 PM13/12/13   6:17 PM

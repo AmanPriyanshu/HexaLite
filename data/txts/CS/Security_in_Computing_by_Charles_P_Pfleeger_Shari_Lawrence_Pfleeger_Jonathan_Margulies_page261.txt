@@ -1,0 +1,57 @@
+ Section 3.3  Countermeasures 
+227  Auguste Kerckhoffs, a Dutch cryptologist of the 19th century, laid out several princi-
+ples of solid cryptographic systems [KER83]. His second principle3 applies to security 
+of computer systems, as well: The system must not depend on secrecy, and security should not suffer if the system 
+falls into enemy hands. 
+Note that Kerckhoffs did not advise giving the enemy the system, but rather he said that 
+if the enemy should happen to obtain it by whatever means, security should not fail. 
+
+There is no need to give the enemy an even break; just be sure that when (not if) the 
+
+enemy learns of the security mechanism, that knowledge will not harm security. Johans-
+
+son and Grimes [JOH08a] discuss the fallacy of security by obscurity in greater detail.
+The term work factor
+ means the amount of effort necessary for an adversary to defeat 
+a security control. In some cases, such as password guessing, we can estimate the work 
+
+factor by determining how much time it would take to test a single password, and multi-
+
+plying by the total number of possible passwords. If the attacker can take a shortcut, for 
+
+example, if the attacker knows the password begins with an uppercase letter, the work fac-
+
+tor is reduced correspondingly. If the amount of effort is prohibitively high, for example, 
+
+if it would take over a century to deduce a password, we can conclude that the security 
+
+mechanism is adequate. (Note that some materials, such as diplomatic messages, may be 
+
+so sensitive that even after a century they should not be revealed, and so we would need to 
+
+find a protection mechanism strong enough that it had a longer work factor.)
+We cannot assume the attacker will take the slowest route for defeating security; in 
+fact, we have to assume a dedicated attacker will take whatever approach seems to be 
+
+fastest. So, in the case of passwords, the attacker might have several approaches:
+• Try all passwords, exhaustively enumerating them in some order, for example, 
+shortest to longest.• Guess common passwords.
+
+• Watch as someone types a password.
+3. “Il faut qu’il n’exige pas le secret, et qu’il puisse sans inconvénient tomber entre les mains de l’ennemi.”
+That does remove the change-tracking data. But it preserves even invisible 
+output. Some people create a white box to paste over data to be hidden, for 
+
+example, to cut out part of a map or hide a profit column in a table. When 
+
+you print the file, the box hides your sensitive information. But the PDF for-
+
+mat preserves all layers in a document, so your recipient can effectively 
+
+peel off the white box to reveal the hidden content. The NSA issued a report 
+
+detailing steps to ensure that deletions are truly deleted [NSA05].
+Or if you want to show that something was there and has been 
+deleted, you can do that with the Microsoft Redaction Tool, which, presum-
+
+ably, deletes the underlying text and replaces it with a thick black line.

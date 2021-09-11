@@ -1,0 +1,65 @@
+426 Chapter 6  
+NetworksBotsWhen force is required, call in the army. In this situation, the army to which we refer is 
+a network of compromised machines ready, willing, and able to assist with the attack. 
+
+Unlike real soldiers, however, neither the machines nor their owners are aware they are 
+
+part of an attack.Zombies (or bots
+, hackerese for robots) are machines running pieces of malicious 
+code under remote control. These code objects are Trojan horses that are distributed 
+
+to large numbers of victims’ machines. Because they may not interfere with or harm 
+
+a user’s computer (other than consuming computing and network resources), they are 
+
+often undetected.BotnetsBotnets, networks of bots, are used for massive denial-of-service attacks, implemented 
+from many sites working in parallel against a victim. They are also used for spam and 
+
+other bulk email attacks, in which an extremely large volume of email from any one 
+
+point might be blocked by the sending service provider. An example of a botnet opera-
+
+tion is described in Sidebar 6-21.SIDEBAR 6-21 Botnet Operation and Takedown
+The Koobface bot network generated over $2 million U.S. from June 2009 
+to June 2010 by selling fake antivirus code (as described in Chapter 4). 
+
+Koobface (which is an anagram of the word Facebook) consists of compro-
+
+mised systems, many of which were infected through Facebook connec-
+
+tions. Once a machine became infected, it would send its user’s Facebook 
+
+friends messages advising them of (fake) antivirus code to buy and install, 
+thereby expanding the botnet through a social network. It would also 
+
+become a host of pay-per-click and pay-per-install pages.
+Security researcher Villeneuve [VIL10] studied the Koobface command- 
+and-control structure. It used the pull model of operation, in which indi-
+
+vidual bots periodically contact the command server to look for more work. 
+
+The command server would convert some of the bots into proxies that other 
+
+bots would contact, so few bots—only the proxies—had the address of 
+
+the real server. The command server also had the IP addresses of most 
+
+antivirus manufacturers and commercial security research firms, and it 
+
+would block any connection from those addresses, to thwart researchers’ 
+
+attempts to interact with the server.
+Villeneuve describes the difficulties of investigating Koobface with the 
+intention of criminal prosecution. Botnets tend to be multinational entities 
+
+with pieces in many countries, thus complicating prosecution because of 
+
+different laws, standards of evidence, investigative practices, and judicial 
+
+structures. The key elements of botnets use crime-friendly hosting services 
+
+that protect their clients from abuse complaints and takedown requests. 
+
+Thus, both law enforcement officials and network security administrators 
+
+have difficulty taking action against major botnets.

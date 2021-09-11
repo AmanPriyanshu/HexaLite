@@ -1,0 +1,24 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜This model of development has a number of advantages:1. It provides a backup mechanism for the repository. If the repository is corrupted, work can continue and the project repository can be restored from local copies.2. It allows for offline working so that developers can commit changes if they do 
+not have a network connection.3. Project support is the default way of working. Developers can compile and test 
+
+the entire system on their local machines and test the changes they have made.Distributed version control is essential for open-source development where several 
+people may be working simultaneously on the same system without any central coordina-tion. There is no way for the open-source system ﬁmanagerﬂ to know when changes will 
+
+be made. In this case, as well as a private repository on their own computer, developers 
+
+also maintain a public server repository to which they push new versions of components 
+
+that they have changed. It is then up to the open-source system ﬁmanagerﬂ to decide when 
+
+to pull these changes into the definitive system. This organization is shown in Figure 25.7.In this example, Charlie is the integration manager for the open-source system. 
+Alice and Bob work independently on system development and clone the definitive 
+
+project repository (1). As well as their private repositories, both Alice and Bob 
+
+maintain a public repository on a server than can be accessed by Charlie. When 
+
+they have made and tested changes, they push the changed versions from their pri-vate repositories to their personal public repositories and tell Charlie that these 
+
+repositories are available (2). Charlie pulls these from their repositories into his 
+Master repositoryAliceBobA1.0B1.0C1.0X1.0Y1.0Q1.0P1.0Z1.0R1.0Alice™s repositoryA1.0B1.0C1.0X1.0Y1.0Q1.0P1.0Z1.0R1.0Bob™s repositoryA1.0B1.0C1.0X1.0Y1.0Q1.0P1.0Z1.0R1.0A1.1B1.1C1.1C1.1X1.1Y1.1clonecloneFigure 25.6 Repository cloning

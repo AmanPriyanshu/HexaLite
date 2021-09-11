@@ -1,0 +1,43 @@
+˘˜˚ˆ˙˘˜˘˘˘
+ˆˆA fundamental requirement of scaling agile methods is to integrate them with plan-
+driven approaches. Small startup companies can work with informal and short-term 
+planning, but larger companies have to have longer-term plans and budgets for 
+
+investment, staffing, and business development. Their software development must 
+support these plans, so longer-term software planning is essential.Early adopters of agile methods in the first decade of the 21st century were enthu
+-siasts and deeply committed to the agile manifesto. They deliberately rejected the 
+
+plan-driven approach to software engineering and were reluctant to change the ini-
+tial vision of agile methods in any way. However, as organizations saw the value and 
+benefits of an agile approach, they adapted these methods to suit their own culture 
+and ways of working. They had to do this because the principles underlying agile 
+methods are sometimes difficult to realize in practice (Figure 3.11).To address these problems, most large ﬁagileﬂ software development projects com-bine practices from plan-driven and agile approaches. Some are mostly agile, and others 
+
+are mostly plan-driven but with some agile practices. To decide on the balance between 
+
+a plan-based and an agile approach, you have to answer a range of technical, human and 
+
+organizational questions. These relate to the system being developed, the development 
+
+team, and the organizations that are developing and procuring the system (Figure 3.12).Agile methods were developed and refined in projects to develop small to medium-sized business systems and software products, where the software developer controls 
+
+the specification of the system. Other types of system have attributes such as size, com-
+plexity, real-time response, and external regulation that mean a ﬁpureﬂ agile approach is 
+PrinciplePracticeCustomer involvementThis depends on having a customer who is willing and able to spend time with 
+
+the development team and who can represent all system stakeholders. Often, 
+
+customer representatives have other demands on their time and cannot play a 
+
+full part in the software development. Where there are external stakeholders, 
+
+such as regulators, it is difficult to represent their views to the agile team.Embrace changePrioritizing changes can be extremely difficult, especially in systems for which 
+there are many stakeholders. Typically, each stakeholder gives different 
+priorities to different changes.Incremental deliveryRapid iterations and short-term planning for development does not always fit 
+in with the longer-term planning cycles of business planning and marketing. 
+Marketing managers may need to know product features several months in 
+advance to prepare an effective marketing campaign.Maintain simplicityUnder pressure from delivery schedules, team members may not have time to 
+carry out desirable system simplifications.People, not processIndividual team members may not have suitable personalities for the intense 
+involvement that is typical of agile methods and therefore may not interact 
+well with other team members.Figure 3.11 Agile principles and 
+organizational practice

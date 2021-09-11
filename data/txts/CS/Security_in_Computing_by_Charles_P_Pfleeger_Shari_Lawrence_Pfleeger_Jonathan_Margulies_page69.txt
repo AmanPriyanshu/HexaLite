@@ -1,0 +1,48 @@
+ Section 1.8  Exercises 
+35  13. Describe an example (other than the ones mentioned in this chapter) of data whose confiden-
+tiality has a short timeliness, say, a day or less. Describe an example of data whose confidential-
+
+ity has a timeliness of more than a year.
+14. Do you currently use any computer security control measures? If so, what? Against what 
+attacks are you trying to protect?15. Describe an example in which absolute denial of service to a user (that is, the user gets no 
+response from the computer) is a serious problem to that user. Describe another example 
+
+where 10 percent denial of service to a user (that is, the user’s computation progresses, but 
+
+at a rate 10 percent slower than normal) is a serious problem to that user. Could access by 
+
+unauthorized people to a computing system result in a 10 percent denial of service to the 
+
+legitimate users? How?
+16. When you say that software is of high quality, what do you mean? How does security fit in 
+your definition of quality? For example, can an application be insecure and still be “good”?
+17. Developers often think of software quality in terms of faults and failures. Faults are problems 
+(for example, loops that never terminate or misplaced commas in statements) that developers 
+
+can see by looking at the code. Failures are problems, such as a system crash or the invoca-
+
+tion of the wrong function, that are visible to the user. Thus, faults can exist in programs 
+
+but never become failures, because the conditions under which a fault becomes a failure are 
+
+never reached. How do software vulnerabilities fit into this scheme of faults and failures? Is 
+
+every fault a vulnerability? Is every vulnerability a fault?
+18. Consider a program to display on your website your city’s current time and temperature. 
+Who might want to attack your program? What types of harm might they want to cause? 
+
+What kinds of vulnerabilities might they exploit to cause harm?
+19. Consider a program that allows consumers to order products from the web. Who might want 
+to attack the program? What types of harm might they want to cause? What kinds of vulner-
+
+abilities might they exploit to cause harm?
+20. Consider a program to accept and tabulate votes in an election. Who might want to attack the 
+program? What types of harm might they want to cause? What kinds of vulnerabilities might 
+
+they exploit to cause harm?
+21. Consider a program that allows a surgeon in one city to assist in an operation on a patient 
+in another city via an Internet connection. Who might want to attack the program? What 
+
+types of harm might they want to cause? What kinds of vulnerabilities might they exploit to 
+
+cause harm?

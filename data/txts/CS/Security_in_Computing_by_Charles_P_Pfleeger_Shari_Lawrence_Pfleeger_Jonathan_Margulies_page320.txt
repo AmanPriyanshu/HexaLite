@@ -1,0 +1,70 @@
+286 Chapter 5  
+Operating SystemsMultitaskingA user runs a program that generally consists of one process
+.1 A process is assigned 
+system resources: files, access to devices and communications, memory, and execution 
+
+time. The resources of a process are called its 
+domain. The operating system switches 
+control back and forth between processes, allocating, deallocating, and reallocating 
+
+resources each time a different process is activated. As you can well imagine, significant 
+
+bookkeeping accompanies each process switch.
+A process consists of one or more threads
+, separate streams of execution. A thread 
+executes in the same domain as all other threads of the process. That is, threads of one 
+
+process share a global memory space, files, and so forth. Because resources are shared, 
+
+the operating system performs far less overhead in switching from one thread to another. 
+
+Thus, the operating system may change rapidly from one thread to another, giving an 
+
+effect similar to simultaneous, par-
+
+allel execution. A thread executes 
+
+serially (that is, from beginning to 
+
+end), although execution of one 
+
+thread may be suspended when a 
+
+thread of higher priority becomes 
+
+ready to execute.
+A server, such as a print server, spawns a new thread for each work package to do. 
+Thus, one print job may be in progress on the printer when the print server receives 
+
+another print request (perhaps for another user). The server creates a new thread for this 
+
+second request; the thread prepares the print package to go to the printer and waits for 
+
+the printer to become ready. In this way, each print server thread is responsible for one 
+
+print activity, and these separate threads execute the same code to prepare, submit, and 
+
+monitor one print job.
+Finally, a thread may spawn one or more 
+tasks, which is the smallest executable unit 
+of code. Tasks can be interrupted or they can voluntarily relinquish control when they 
+
+must wait for completion of a parallel task. If there is more than one processor, separate 
+
+tasks can execute on individual processors, thus giving true parallelism.
+Protected Objects
+The rise of multiprogramming meant that several aspects of a computing system 
+
+required protection:• memory• sharable I/O devices, such as disks
+1. Alas, terminology for programs, processes, threads, and tasks is not standardized. The concepts of process 
+and thread presented here are rather widely accepted because they are directly implemented in modern 
+
+languages, such as C#, and modern operating systems, such as Linux and Windows .NET. But some 
+
+systems use the term task where others use process. Fortunately, inconsistent terminology is not a serious 
+
+problem once you grasp how a particular system refers to concepts.
+Processes have different resources, 
+implying controlled access; threads share 
+
+resources with less access control.

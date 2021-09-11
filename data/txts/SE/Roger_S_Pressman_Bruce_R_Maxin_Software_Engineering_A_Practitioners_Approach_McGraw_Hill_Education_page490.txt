@@ -1,0 +1,91 @@
+460 PART THREE  
+QUALITY MANAGEMENT 
+ 
+If we consider a computer-based system, a simple measure of reliability is 
+ mean-time-between-failure
+ 
+ (MTBF):MTBF 5 MTTF 1 MTTR  where the acronyms MTTF and MTTR are  mean-time-to-failure
+ 
+ and  
+mean-time-to-repair
+ 
+,  3 
+ 
+ respectively. 
+  Many researchers argue that MTBF is a far more useful measure than other 
+quality-related software metrics discussed in Chapter 30. Stated simply, an end 
+
+user is concerned with failures, not with the total defect count. Because each defect 
+
+contained within a program does not have the same failure rate, the total defect 
+
+count provides little indication of the reliability of a system. For example, consider a 
+
+program that has been in operation for 3000 processor hours without failure. Many 
+
+defects in this program may remain undetected for tens of thousands of hours be-
+fore they are discovered. The MTBF of such obscure errors might be 30,000 or even 
+
+60,000 processor hours. Other defects, as yet undiscovered, might have a failure 
+
+rate of 4000 or 5000 hours. Even if every one of the ﬁ rst category of errors (those with 
+long MTBF) is removed, the impact on software reliability is negligible. 
+ 
+ 
+ 
+   
+However, MTBF can be problematic for two reasons: (1) it projects a time 
+span between failures, but does not provide us with a projected failure rate, and 
+MTBF can be misinterpreted to mean average life span even though this is  
+not 
+ what it implies.  An alternative measure of reliability is  failures-in-time
+ 
+ (FIT)—a statistical mea-
+sure of how many failures a component will have over 1 billion hours of operation. 
+
+Therefore, 1 FIT is equivalent to one failure in every billion hours of operation. 
+ In addition to a reliability measure, you should also develop a measure of availability.  
+Software availability
+ 
+ is the probability that a program is operating 
+according to requirements at a given point in time and is deﬁ ned as
+Availability 
+5   MTTF  _________________  (MTTF 1 MTTR)   3 100%  The MTBF reliability measure is equally sensitive to MTTF and MTTR. The avail-ability measure is somewhat more sensitive to MTTR, an indirect measure of the 
+maintainability of software. For a comprehensive discussion of software reliabil-
+ity measures, see [Laz11].   
+ 
+ 
+21.7.2   
+Software Safety 
+ 
+ 
+ 
+Software safety
+ 
+ is a software quality assurance activity that focuses on the identi-
+ﬁ cation and assessment of potential hazards that may affect software negatively 
+and cause an entire system to fail. If hazards can be identiﬁ ed early in the soft-
+ware process, software design features can be speciﬁ ed that will either eliminate 
+or control potential hazards.    It is important to note 
+that MTBF and related 
+measures are based 
+on CPU time, not wall 
+clock time.    Some aspects of avail-
+
+ability (not discussed 
+here) have nothing 
+to do with failure. For 
+example, scheduling 
+downtime (for support 
+
+functions) causes 
+the software to be 
+unavailable.   
+ 
+ uote:  “The safety of the 
+people shall be the 
+highest law.” 
+ Cicero 
+  
+3  Although debugging (and related corrections) may be required as a consequence of failure, in 
+many cases the software will work properly after a restart with no other change. pre22126_ch21_448-465.indd   460pre22126_ch21_448-465.indd   46013/12/13   10:02 PM13/12/13   10:02 PM

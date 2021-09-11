@@ -1,0 +1,43 @@
+˜˜˚˜˜˜˜˜˜˜
+(Brambilla, Cabot, and Wimmer 2012). The programs that execute on a hardware/software platform are generated automatically from the models. Proponents of MDE 
+argue that this raises the level of abstraction in software engineering so that 
+ engineers no longer have to be concerned with programming language details or the specifics 
+of execution platforms.Model-driven engineering was developed from the idea of model-driven archi-tecture (MDA). This was proposed by the Object Management Group (OMG) as a 
+
+new software development paradigm (Mellor, Scott, and Weise 2004). MDA 
+
+focuses on the design and implementation stages of software development, whereas 
+
+MDE is  concerned with all aspects of the software engineering process. Therefore, 
+topics such as model-based requirements engineering, software processes for 
+
+model-based development, and model-based testing are part of MDE but are not 
+
+considered in MDA.MDA as an approach to system engineering has been adopted by a number of 
+large companies to support their development processes. This section focuses on the 
+use of MDA for software implementation rather than discuss more general aspects of 
+MDE. The take-up of more general model-driven engineering has been slow, and 
+
+few companies have adopted this approach throughout their software development 
+
+life cycle. In his blog, den Haan discusses possible reasons why MDE has not been 
+widely adopted (den Haan 2011).Model-driven architecture (Mellor, Scott, and Weise 2004; Stahl and Voelter 
+
+2006) is a model-focused approach to software design and implementation that 
+
+uses a subset of UML models to describe a system. Here, models at different 
+
+levels of abstraction are created. From a high-level, platform independent model, 
+
+it is possible, in principle, to generate a working program without manual 
+ intervention.The MDA method recommends that three types of abstract system model should be produced:1. A computation independent model (CIM) CIMs model the important domain 
+abstractions used in a system and so are sometimes called domain models. You 
+may develop several different CIMs, reflecting different views of the system. 
+
+For example, there may be a security CIM in which you identify important secu-
+rity abstractions such as an asset, and a role and a patient record CIM, in which 
+you describe abstractions such as patients and consultations.2. A platform-independent model (PIM) PIMs model the operation of the system 
+without reference to its implementation. A PIM is usually described using UML 
+models that show the static system structure and how it responds to external and 
+
+internal events.

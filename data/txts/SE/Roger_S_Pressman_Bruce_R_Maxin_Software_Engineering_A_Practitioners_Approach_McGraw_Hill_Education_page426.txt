@@ -1,0 +1,86 @@
+396 PART TWO  
+MODELING 
+ 
+Engineering. 
+ Involves architectural design, navigation design, interface de-sign, content design, and content production. Software engineers examine the 
+constraints imposed by the targeted mobile devices, including considerations 
+imposed by the wireless network technologies chosen and the nature of the 
+Web services required to implement the MobileApp. 
+  
+Implementation and Testing.
+ 
+ During this activity, the MobileApp is coded 
+and tested. Among the issues that can make testing a challenge are: (1) high 
+loss rates due to radio interference and frequent disconnection due to network 
+coverage issues, (2) frequent data transmission delays due to relatively low 
+bandwidth, and (3) security concerns because mobile devices are less secure 
+and relatively easy to attack.   
+User Evaluation. 
+ The MobileApp is assessed for usability and accessibility then the formulation process begins for the next increment.   
+ 
+Andreou [And05] suggests that ubiquity, personalization, ﬂ
+ exibility, and localiza-
+tion should be overriding design goals for every MobileApp. Mobile users expect to 
+
+have the ability to receive information and conduct transactions in real time regard-
+less of their physical location or the number of concurrent users. Mobile applications 
+
+should present services and applications that are customized according to the pref-
+erences of the user. Users of mobile devices should be able to engage in activities 
+
+such as receiving information or conducting transactions with ease. Mobile users 
+
+should have access to local information and services. This implies recognizing the 
+
+importance or context when designing the MobileApp user experience. 
+ What should 
+we consider when assessing 
+MobileApp 
+quality? ?  
+Formulating MobileApp Requirements   
+Formulating MobileApp Requirements 
+ 
+ 
+The scene:  A meeting room. The 
+ﬁ rst meeting to identify requirements 
+for a mobile version of the  SafeHome 
+ WebApp. 
+  
+The players:  Jamie Lazar, software team member; 
+Vinod Raman, software team member; Ed Robbins, soft-
+ware team member; Doug Miller, software engineering 
+
+manager; three members of marketing; a product engi-
+neering representative; and a facilitator. 
+  
+The conversation:    
+Facilitator (pointing at whiteboard):  So that’s the 
+current list of objects and services for the home security 
+
+function present in the WebApp. 
+  
+Vinod (interrupting):  My understanding is that people 
+want  SafeHome 
+ functionality to be accessible from mobile 
+ 
+  
+Marketing person:  Yes, that’
+add that functionality and try to make it context aware 
+
+to help personalize the user experience.   
+Facilitator:  Context aware in what sense? 
+  
+Marketing person:  People might want to use a 
+smartphone instead of the control panel and avoid 
+
+logging on to a website when they are in the driveway 
+at home. Or they might not want all family members 
+to have access to the master control dashboard for the 
+system from their phones.   
+Facilitator:  Do you have speciﬁ
+ c mobile devices in 
+mind?   
+Marketing person:  Well, all smartphones would be 
+nice. We will have a Web version done, so won’t the 
+
+MobileApp run on all of them?  SAFEHOME pre22126_ch18_391-410.indd   396pre22126_ch18_391-410.indd   39616/12/13   6:23 PM16/12/13   6:23 PM

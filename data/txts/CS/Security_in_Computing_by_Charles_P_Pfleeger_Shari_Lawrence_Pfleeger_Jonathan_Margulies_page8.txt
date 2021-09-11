@@ -1,0 +1,56 @@
+viii ContentsChapter 2 Toolbox: Authentication, Access Control,  
+and Cryptography 36
+2.1 Authentication 38
+Identification Versus Authentication 38
+Authentication Based on Phrases and Facts:  Something You Know 40
+Authentication Based on Biometrics: Something You Are 53
+
+Authentication Based on Tokens: Something You Have 65
+
+Federated Identity Management 68
+
+Multifactor Authentication 70
+
+Secure Authentication 70
+2.2 Access Control 72
+Access Policies 72
+
+Implementing Access Control 75
+
+Procedure-Oriented Access Control 85
+
+Role-Based Access Control 85
+2.3 Cryptography 86
+Problems Addressed by Encryption 87
+
+Terminology 87
+
+DES: The Data Encryption Standard 95
+
+AES: Advanced Encryption System 98
+
+Public Key Cryptography 100
+
+Public Key Cryptography to Exchange Secret Keys 103
+
+Error Detecting Codes 109
+
+Trust 117
+
+Certificates: Trustable Identities and Public Keys 121
+
+Digital Signatures—All the Pieces 124
+2.4 Exercises 127
+Chapter 3 Programs and Programming 131
+3.1 Unintentional (Nonmalicious) Programming Oversights 133
+Buffer Overflow 134
+
+Incomplete Mediation 152
+
+Time-of-Check to Time-of-Use 155
+
+Undocumented Access Point 157
+
+Off-by-One Error 159
+
+Integer Overflow 160

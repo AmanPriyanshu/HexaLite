@@ -1,0 +1,67 @@
+804 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+It is important to note that the inventory should be revisited on a regular basis. The status of applications (e.g., business criticality) can change as a function of 
+time, and as a result, priorities for reengineering will shift.   
+ 
+Document restructuring.   
+Weak documentation is the trademark of many legacy 
+systems. But what can you do about it? What are your options? In some cases, 
+creating documentation when none exists is simply too costly. If the software 
+
+works, let it be! In other cases, some documentation must be created, but only 
+when changes are made. If a modiﬁ cation occurs, document it. Finally, there are 
+situations in which a critical system must be fully documented, but even here, 
+documents should achieve an essential minimum. Your software organization 
+
+must choose the documentation option that is most appropriate for each case.   
+ 
+Reverse engineering.   
+Reverse engineering for software is the process of an-alyzing a program in an effort to create a representation of the program at a 
+higher level of abstraction than source code. Reverse engineering is a process of 
+ design recovery
+ 
+. Reverse engineering tools extract data, architectural, and pro-cedural design information from an existing program.   
+ 
+Code restructuring.   
+The most common type of reengineering (actually, the use 
+of the term  reengineering
+ 
+ is questionable in this case) is  
+code restructuring.
+ 
+ 
+ 
+4 
+ 
+ Some 
+legacy systems have a relatively solid program architecture, but individual mod-
+ules were coded in a way that makes them difﬁ cult to understand, test, and main-
+tain. In such cases, the code within the suspect modules can be restructured.  
+ 
+  To accomplish this activity, the source code is analyzed using a restructuring 
+tool. Violations of structured programming constructs are noted and code is then 
+
+restructured (this can be done automatically) or even rewritten in a more mod-
+ern programming language. The resultant restructured code is reviewed and 
+tested to ensure that no anomalies have been introduced. Internal code docu-
+mentation is updated.   
+ 
+Data restructuring.   
+A program with weak data architecture will be difﬁ cult to 
+adapt and enhance. In fact, for many applications, information architecture has 
+more to do with the long-term viability of a program than the source code itself.  Unlike code restructuring, which occurs at a relatively low level of abstrac-tion, data restructuring is a full-scale reengineering activity. In most cases, data 
+
+restructuring begins with a reverse engineering activity. Current data architec-
+
+ture is dissected, and necessary data models are deﬁ ned. Data objects and attri-
+butes are identiﬁ ed, and existing data structures are reviewed for quality. 
+ When data structure is weak (e.g., ﬂ at ﬁ
+ les are currently implemented, 
+when a relational approach would greatly simplify processing), the data are 
+reengineered.   
+4  Code restructuring has some of the elements of “refactoring,” a redesign concept introduced 
+in Chapter 12 and discussed elsewhere in this book. Create only as much documentation as you 
+need to understand the 
+software, not one page 
+more.pre22126_ch36_795-816.indd   804pre22126_ch36_795-816.indd   80413/12/13   6:17 PM13/12/13   6:17 PM

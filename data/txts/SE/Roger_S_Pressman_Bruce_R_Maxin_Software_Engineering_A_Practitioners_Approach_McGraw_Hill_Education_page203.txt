@@ -1,0 +1,88 @@
+CHAPTER 9  
+REQUIREMENTS MODELING: SCENARIO-BASED METHODS 173 
+ 
+ 
+ 
+ 
+ 9.2 S
+CENARIO-BASED MODELING  
+ 
+Although the success of a computer-based system or product is measured in 
+many ways, user satisfaction resides at the top of the list. If you understand how 
+end users (and other actors) want to interact with a system, your software team 
+will be better able to properly characterize requirements and build meaningful 
+analysis and design models. Hence, requirements modeling with UML  7 
+ 
+ begins 
+with the creation of scenarios in the form of use cases, activity diagrams, and 
+swimlane diagrams.   
+ 
+9.2.1 Creating a Preliminary Use Case 
+  
+Alistair Cockburn characterizes a use case as a “contract for behavior” [Coc01b]. As we discussed in Chapter 8, the “contract” deﬁ nes the way in which an actor 
+ 8 
+ 
+ uses a computer-based system to accomplish some goal. In essence, a use case 
+
+captures the interactions that occur between producers and consumers of in-
+formation and the system itself. In this section, we examine how use cases are 
+developed as part of the analysis modeling activity. 
+ 9 
+ 
+   
+ 
+In Chapter 8, we noted that a use case describes a speciﬁ c usage scenario in 
+straightforward language from the point of view of a deﬁ ned actor. But how do 
+you know (1) what to write about, (2) how much to write about it, (3) how detailed 
+to make your description, and (4) how to organize the description? These are the 
+questions that must be answered if use cases are to provide value as a require-
+ments modeling tool.  
+ 
+ 
+  
+ 
+ 
+What to Write About?   The ﬁ
+ rst two requirements engineering tasks—inception 
+and elicitation—provide you with the information you’ll need to begin writing use 
+cases. Requirements-gathering meetings, quality function deployment (QFD), 
+and other requirements engineering mechanisms are used to identify stakehold-
+ers, deﬁ ne the scope of the problem, specify overall operational goals, establish 
+priorities, outline all known functional requirements, and describe the things 
+(objects) that will be manipulated by the system.  To begin developing a set of use cases, list the functions or activities per-
+formed by a speciﬁ c actor. You can obtain these from a list of required system 
+functions, through conversations with stakeholders, or by an evaluation of activ-
+ity diagrams (Section 9.3.1) developed as part of requirements modeling.  
+ 
+ 
+  
+ uote:  “[Use cases] are 
+simply an aid to 
+deﬁ ning what 
+
+exists outside the 
+system (actors) 
+and what should 
+be performed by 
+the system (use 
+cases).”  Ivar Jacobson 
+   In some situations, 
+
+use cases become the 
+dominant requirements 
+engineering mecha-
+nism. However, this 
+
+does not mean that 
+you should discard 
+other modeling 
+methods when they 
+are appropriate.   
+7  UML will be used as the modeling notation throughout this book. Appendix 1 provides a brief 
+tutorial for those readers who may be unfamiliar with basic UML notation.   
+8  An actor is not a speciﬁ
+ c person, but rather a role that a person (or a device) plays within a 
+speciﬁ c context. An actor “calls on the system to deliver one of its services ” [Coc01b]. 
+  
+9  Use cases are a particularly important part of analysis modeling for user interfaces. Interface 
+analysis and design is discussed in detail in Chapter 15. pre22126_ch09_166-183.indd   173pre22126_ch09_166-183.indd   17313/12/13   6:11 PM13/12/13   6:11 PM

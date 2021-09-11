@@ -1,0 +1,130 @@
+CHAPTER 33  
+ESTIMATION FOR SOFTWARE PROJECTS
+ 743of the project is not adequately understood or has been misinterpreted by the planner, or (2) productivity data used for problem-based estimation techniques is 
+
+inappropriate for the application, obsolete (in that it no longer accurately reﬂ ects 
+the software engineering organization), or has been misapplied. You should de-
+
+termine the cause of divergence and then reconcile the estimates.  
+ 
+ 
+  
+ 
+Automated Estimation Techniques for Software Projects 
+ 
+Automated estimation tools allow the planner to estimate cost and effort and to perform 
+what-if analyses for important project variables such as 
+
+delivery date or stafﬁ
+ ng. Although many automated es-
+timation tools exist (see sidebar later in this chapter), all 
+exhibit the same general characteristics and all perform 
+
+the following six generic functions [Jon96]:  
+ 
+ 
+ 1.  
+ 
+Sizing of project deliverables. 
+ The “size” of one or more software work products is estimated. Work 
+
+products include the external representation of 
+
+software (e.g., screen, reports), the software 
+
+itself (e.g., KLOC), functionality delivered 
+mation 
+
+(e.g., documents).    
+ 
+ 2.  
+ 
+Selecting project activities. 
+ The appropriate process framework is selected, and the software 
+engineering task set is speciﬁ ed. 
+   
+ 
+ 3.  
+ 
+Predicting stafﬁ ng levels.
+ 
+ The number of people who will be available to do the work is speciﬁ ed. 
+Because the relationship between people available 
+and work (predicted effort) is highly nonlinear, this 
+
+is an important input. 
+   
+ 
+ 4.  
+ 
+Predicting software effort.
+ 
+ Estimation tools use one or more models (Section 33.7) that relate the size 
+of the project deliverables to the effort required to 
+
+produce them.    
+ 
+ 5.  
+ 
+Predicting software cost. 
+ Given the results of 
+rates to the project activities noted in step 2.    
+ 
+ 6.  
+ 
+Predicting software schedules. 
+ When effort, 
+stafﬁ ng level, and project activities are known, 
+a draft schedule can be produced by allocating 
+labor across software engineering activities based 
+on recommended models for effort distribution 
+
+discussed later in this chapter. 
+ 
+ 
+  When different estimation tools are applied to the same project data, a relatively large variation in estimated 
+results can be encountered. More important, predicted 
+
+values sometimes are signiﬁ cantly different than actual 
+values. This reinforces the notion that the output of esti-
+mation tools should be used as one “data point” from 
+which estimates are derived—not as the only source for 
+an estimate.   
+INFO  
+ 
+ 
+ 
+ 
+ 
+ 
+ 33.7  
+EMPIRICAL ESTIMATION
+ MODELS  
+ 
+An estimation model for computer software uses empirically derived formulas to predict effort as a function of LOC or FP.
+  
+9 
+ 
+ Values for LOC or FP are estimated 
+using the approach described in Sections 33.6.3 and 33.6.4. But instead of using 
+the tables described in those sections, the resultant values for LOC or FP are 
+plugged into the estimation model.  
+ 
+   
+ 
+ 
+ 
+ 
+The empirical data that support most estimation models are derived from a limited sample of projects. For this reason, no estimation model is appropriate 
+for all classes of software and in all development environments. Therefore, you 
+should use the results obtained from such models judiciously. 
+   An estimation model 
+reﬂ ects the population 
+
+of projects from which 
+it has been derived. 
+Therefore, the model is 
+domain sensitive.   
+9  An empirical model using use cases as the independent variable is suggested in Section 33.6.6. 
+However, relatively few have appeared in the literature to date. 
+pre22126_ch33_727-753.indd   743pre22126_ch33_727-753.indd   74313/12/13   6:17 PM13/12/13   6:17 PM

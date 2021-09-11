@@ -1,0 +1,60 @@
+CHAPTER 30  
+PRODUCT METRICS 659       
+ 30.2  METRICS FOR THE REQUIREMENTS MODEL   
+Technical work in software engineering begins with the creation of the require-
+
+ments model. It is at this stage that requirements are derived and a foundation 
+for design is established. Therefore, product metrics that provide insight into the 
+quality of the analysis model are desirable.  Although relatively few analysis and speciﬁ cation metrics have appeared in 
+the literature, it is possible to adapt metrics that are often used for project es-
+timation and apply them in this context. These metrics examine the require-
+ments model with the intent of predicting the “size” of the resultant system. Size 
+is sometimes (but not always) an indicator of design complexity and is almost 
+always an indicator of increased coding, integration, and testing effort.    
+30.2.1   Function-Based Metrics       
+The  function point  (FP)  metric  can be used effectively as a means for measuring the functionality delivered by a system.  4  
+ Using historical data, the FP metric can then be used to (1) estimate the cost or effort required to design, code, and test 
+the software; (2) predict the number of errors that will be encountered during 
+testing; and (3) forecast the number of components and/or the number of pro-
+jected source lines in the implemented system.  
+ Function points are derived using an empirical relationship based on count-able (direct) measures of software’s information domain and qualitative assess-
+
+ments of software complexity. Information domain values are deﬁ
+ ned in the 
+following manner:  5
+  
+         
+Number of external inputs (EIs).  Each  
+external input  originates from a 
+user or is transmitted from another application and provides distinct ap-
+plication-oriented data or control information. Inputs are often used to 
+update  internal logical ﬁ les  (ILFs). Inputs should be distinguished from 
+inquiries, which are counted separately.  
+
+        
+Number of external outputs (EOs).  Each  
+external output  is derived data 
+within the application that provides information to the user. In this con-
+
+text external output refers to reports, screens, error messages, and the 
+like. Individual data items within a report are not counted separately.  
+
+        
+Number of external inquiries (EQs).  An  
+external inquiry  is deﬁ ned as an 
+online input that results in the generation of some immediate software 
+ response in the form of an online output (often retrieved from an ILF).  
+ WebRef 
+ Much useful informa-
+
+tion about function 
+points can be obtained 
+at   www.ifpug.org   
+and   http://www
+
+.functionpoint
+.com/  .   4 
+ Hundreds of books, papers, and articles have been written on FP metrics. A worthwhile bibli-
+ography can be found at [IFP05].   5 
+ In actuality, the deﬁ nition of information domain values and the manner in which they are 
+counted are a bit more complex. The interested reader should see [IFP01] for more details. 

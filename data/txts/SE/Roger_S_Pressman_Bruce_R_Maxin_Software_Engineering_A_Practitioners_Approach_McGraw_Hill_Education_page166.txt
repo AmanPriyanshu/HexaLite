@@ -1,0 +1,237 @@
+136 PART TWO  
+MODELING 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Validation.   The work products produced as a consequence of requirements en-gineering are assessed for quality during a validation step. Requirements valida-
+tion examines the speciﬁ cation 
+ 5 
+ 
+ to ensure that all software requirements have 
+been stated unambiguously; that inconsistencies, omissions, and errors have 
+been detected and corrected; and that the work products conform to the stan-
+dards established for the process, the project, and the product.   
+The primary requirements validation mechanism is the technical review 20). The review team that validates requirements includes software 
+
+engineers, customers, users, and other stakeholders who examine the speciﬁ -cation looking for errors in content or interpretation, areas where clariﬁ cation 
+may be required, missing information, inconsistencies (a major problem when   
+Software Requirements 
+Speciﬁ cation Template 
+ 
+A  software requirements speciﬁ cation
+ 
+ (SRS) is a work product that is created when a detailed de-
+scription of all aspects of the software to be built must 
+be speciﬁ ed before the project is to commence. It is im-
+portant to note that a formal SRS is not always written. In 
+
+fact, there are many instances in which effort expended 
+
+on an SRS might be better spent in other software en-
+gineering activities. However, when software is to be 
+
+developed by a third party, when a lack of speciﬁ
+ cation 
+would create severe business issues, or when a system is 
+extremely complex or business critical, an SRS may be 
+justiﬁ ed. 
+ Karl Wiegers [Wie03] of Process Impact Inc. has 
+developed a worthwhile template (available at 
+
+  
+www.processimpact.com/process_assets/
+srs_template.doc 
+ 
+) that can serve as a guideline for 
+those who must create a complete SRS. A topic outline 
+follows:  
+ 
+ 
+ 
+ 
+ 
+ 
+Table of Contents
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Revision History 
+ 
+   
+ 
+ 
+ 
+   
+1. Introduction
+ 
+   
+ 
+ 
+  1.1  
+Purpose    
+ 
+  1.2  
+Document Conventions    
+ 
+  1.3  
+Intended Audience and Reading Suggestions    
+ 
+  1.4  
+Project Scope    
+ 
+  1.5  
+References  
+ 
+   
+ 
+ 2.  
+ 
+Overall Description  
+ 
+ 
+ 
+ 
+  2.1  
+Product Perspective    
+ 
+  2.2  
+Product Features    
+ 
+  2.3  
+User Classes and Characteristics    
+ 
+  2.4  
+Operating Environment    
+ 
+  2.5  
+Design and Implementation Constraints    
+ 
+  2.6  
+User Documentation    
+ 
+  2.7  
+Assumptions and Dependencies  
+ 
+   
+ 
+ 3.  
+ 
+System Features 
+   
+ 
+ 
+  3.1  
+System Feature 1    
+ 
+  3.2  
+System Feature 2 (and so on)  
+ 
+   
+ 
+ 4.  
+ 
+External Interface Requirements
+ 
+   
+ 
+ 
+  4.1  
+User Interfaces 
+    
+  4.2  
+Hardware Interfaces 
+   
+ 
+  4.3  
+Software Interfaces 
+   
+ 
+  4.4  
+Communications Interfaces 
+ 
+ 
+   
+ 
+ 5.  
+ 
+Other Nonfunctional Requirements 
+   
+ 
+ 
+  5.1  
+Performance Requirements 
+   
+ 
+  5.2  
+Safety Requirements    
+ 
+  5.3  
+Security Requirements    
+ 
+  5.4  
+Software Quality Attributes  
+ 
+   
+ 
+ 6.  
+ 
+Other Requirements 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Appendix A: Glossary
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Appendix B: Analysis Models 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Appendix C: Issues List 
+ 
+   
+ 
+A detailed description of each SRS topic can be ob-tained by downloading the SRS template at the URL 
+noted in this sidebar. 
+  
+INFO  
+ 
+5  Recall that the nature of the speciﬁ
+ cation will vary with each project. In some cases, the “spec-
+iﬁ cation” is a collection of user scenarios and little else. In others, the speciﬁ
+ cation may be a 
+document that contains scenarios, models, and written descriptions.    A key concern during 
+requirements validation 
+is consistency. Use the 
+
+analysis model to en-
+sure that requirements 
+have been consistently 
+stated. pre22126_ch08_131-165.indd   136pre22126_ch08_131-165.indd   13613/12/13   6:11 PM13/12/13   6:11 PM

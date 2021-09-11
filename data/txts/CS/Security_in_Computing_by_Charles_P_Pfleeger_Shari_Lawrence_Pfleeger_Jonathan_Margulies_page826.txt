@@ -1,0 +1,64 @@
+792 Chapter 12  
+Details of CryptographyNevertheless, cryptanalysts have continued to explore AES. From its introduction in 
+2001 there have been minor exposures of an academic interest, but nothing threatening 
+
+the security of AES. One researcher described one of these attacks: “While these com-
+
+plexities are much faster than exhaustive search, they are completely non-practical, and 
+
+do not seem to pose any real threat to the security of AES-based systems.” [BIR10b] 
+
+That research effort went on to demonstrate an attack that reduced from 2
+256 to 2
+45 the 
+effort to deduce a single key, 
+but this attack used a 10-round version of AES, not the 
+standard 14 rounds.
+ Such an attack is a noticeable reduction in time, but the attack 
+is rather like fighting a man who has one hand tied behind his back. A fairer attack 
+
+is presented by Andrey Bogdanov and colleagues [BOG11], in which they reduce the 
+
+complexity of deriving a key by a multiple of four, that is, from 2
+256 to 2
+252, with simi-lar results for 128- and 192-bit key versions. Reducing the work by a factor of four is 
+
+hardly any change at all.
+No attack to date has raised serious question as to the overall strength of AES.
+RC2, RC4, RC5, and RC6The RC2, RC4, RC5, and RC6 ciphers all come from Ronald Rivest, one of the inven-
+
+tors of the RSA algorithm and founder of RSA Laboratories. (The RC in the names may 
+mean either “Rivest cipher” or “Ron’s code,” depending on which source you believe.) 
+
+The ciphers are structurally different, but all have some degree of common use, so we 
+
+explore them briefly here.
+RC2RC2 is a block cipher designed as a simple and fast algorithm [KNU02]. Although 
+Rivest originally intended the algorithm to be proprietary, someone released its design 
+
+description on the Internet in 1996. The algorithm’s most significant characteristic is its small key length: 40 bits. When 
+it was designed, the U.S. government restricted the strength (measured by key length) of 
+
+cryptographic applications for export to no more than 40 bits. (Note that a 56-bit DES 
+
+key was recovered in a short time just a year later, so a 40-bit key was certain to be eas-
+
+ily recovered by any organization wanting to crack encryption.) The algorithm was first 
+
+intended for international use by the Lotus Notes office application suite; it would use a 
+
+short enough key to satisfy U.S. export restrictions to most countries, thereby assuring 
+
+Lotus of international marketability. 
+In fact, RC2 could support key sizes from 8 to 128 bits, conferring strength exceed-
+ing that of DES against exhaustive key search. Its operation is similar enough to DES 
+
+that it can be substituted for DES in applications, creating an international edition with 
+no difficulty. With relaxation of export restrictions in 2000, the need for a shorter-key 
+
+DES replacement has fallen.
+RC2 consists of two operations: mixing and mashing. In mixing, a bit stream under-
+goes some transposition in the form of bit shifting with concurrent substitution through 
+binary (AND, OR, NOT) operations on parts of the bits. During each round of mixing, 
+
+a complete shuffle of bits occurs from right, moving left, and cycling around to the right 

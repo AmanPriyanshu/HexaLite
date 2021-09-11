@@ -1,0 +1,31 @@
+ Section 6.2  Threats to Network Communications 
+359  Unknown Perimeter A network’s expandability also implies uncertainty about the network boundary. One host 
+
+may be a node on two different networks, so resources on one network are accessible to 
+
+the users of the other network as well. Although wide accessibility is an advantage, this 
+
+unknown or uncontrolled group of possibly malicious users is a security disadvantage. 
+A similar problem occurs when new hosts can be added to the network. Every net-
+work node must be able to react to the possible presence of new, untrustable hosts. 
+
+Figure 6-7 points out the problems in defining the boundaries of a network. Notice, for 
+
+example, that a user on a host in network D may be unaware of the potential connec-
+
+tions from users of networks A and B. And the host in the middle of networks A and B 
+
+in fact belongs to A, B, C, and E. If these networks have different security rules, to what 
+
+rules is that host subject?Unknown Path Figure 6-8 illustrates that there may be many paths from one host to another. Suppose 
+
+that a user on host A1 wants to send a message to a user on host B3. That message might 
+
+be routed through hosts C or D before arriving at host B3. Host C may provide accept-
+
+able security, but D does not. Network users seldom have control over the routing of 
+
+their messages. Inability to control routing figures in the interception of mobile phone 
+
+signals, as described in Sidebar 6-5.Network E Network D Network A Network  B
+Network C FIGURE 6-7 Unclear Network Boundaries 

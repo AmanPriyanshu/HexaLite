@@ -1,0 +1,63 @@
+ Section 2.1  Authentication 
+65  third factor of authentication, something you 
+have, offers strengths and weaknesses 
+different from the other two factors.
+Authentication Based on Tokens: Something You Have
+Something you have means that you have a physical object in your possession. One 
+
+physical authenticator with which you are probably familiar is a key. When you put 
+
+your key in your lock, the ridges in the key interact with pins in the lock to let the 
+
+mechanism turn. In a sense the lock authenticates you for authorized entry because you 
+possess an appropriate key. Of course, you can lose your key or duplicate it and give the 
+
+duplicate to someone else, so the authentication is not perfect. But it is precise: Only 
+your key works, and your key works only your lock. (For this example, we intentionally 
+
+ignore master keys.)
+SIDEBAR 2-12 Using Cookies for Authentication
+On the web, cookies are often used for authentication. A cookie is a pair of 
+data items sent to the web browser by the visited website. The data items 
+
+consist of a key and a value, designed to represent the current state of a 
+
+session between a visiting user and the visited website. Once the cookie is 
+placed on the user’s system (usually in a directory with other cookies), the 
+
+browser continues to use it for subsequent interaction between the user and 
+
+that website. Each cookie is supposed to have an expiration date, but that 
+date can be far in the future, and it can be modified later or even ignored.
+For example, The Wall Street Journal
+’s website, wsj.com, creates a 
+cookie when a user first logs in. In subsequent transactions, the cookie acts 
+as an identifier; the user no longer needs a password to access that site. 
+
+(Other sites use the same or a similar approach.)
+Users must be protected from exposure and forgery. That is, users 
+may not want the rest of the world to know what sites they have visited. 
+
+Neither will they want someone to examine information or buy merchandise 
+
+online by impersonation and fraud. And furthermore, on a shared computer, 
+
+one user can act as someone else if the receiving site uses a cookie to per-
+
+form automatic authentication.
+Sit and Fu [SIT01] point out that cookies were not designed for protec-
+tion. There is no way to establish or confirm a cookie’s integrity, and not all 
+
+sites encrypt the information in their cookies. 
+Sit and Fu also point out that a server’s operating system must be 
+particularly vigilant to protect against eavesdropping: “Most [web traffic] 
+
+exchanges do not use [encryption] to protect against eavesdropping; any-
+
+one on the network between the two computers can overhear the traffic. 
+
+Unless a server takes strong precautions, an eavesdropper can steal and 
+
+reuse a cookie, impersonating a user indefinitely.” (In Chapter 6 we describe 
+
+how encryption can be used to protect against such eavesdropping.)

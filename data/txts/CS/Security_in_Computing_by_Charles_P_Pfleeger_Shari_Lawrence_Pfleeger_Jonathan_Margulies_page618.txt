@@ -1,0 +1,52 @@
+584 Chapter 8  
+Cloud ComputingWhere the Field Is Headed
+Much of the research on cloud computing security focuses on attacks via shared infra-structure. The research by Zhang, et al., on cross-VM side-channel attacks [ZHA12] is 
+
+a strong example of this trend. On the other side of that trend, researchers led by Shafi 
+
+Goldwasser of MIT [GOL13] are studying homomorphic encryption, a technique that 
+
+someday may allow users to process data on shared infrastructure without ever having 
+
+to decrypt it. Researchers at UCLA are spearheading an effort toward cryptographic 
+
+obfuscation [GAR13], which may someday allow users to run software on shared infra-
+
+structure without risk that any other user of that infrastructure could even identify what 
+
+the software does.
+A Boston University research team is creating what they call a Modular Approach to 
+Cloud Security (MACS). The goal of MACS is to build cloud infrastructure from small, 
+
+modular components, each with its own security guarantees. Their aim is to assemble 
+
+these components into systems with stronger and more analyzable security than exists 
+
+in cloud environments today.
+To Learn More
+The security guidance white paper by the CSA [CSA11] presents a comprehensive 
+
+overview of cloud security concerns. NIST SPs 800-144 [JAN11], 800-145 [MEL11], 
+
+and 800-146 [BAD12] add further cloud security guidance.
+For more detailed guidelines on forensic evidence collection, see RFC 3227 
+[BRE02b].For a more complete understanding of SAML, see the SAML protocol standard 
+[OAS05a] and the SAML security concerns standard [OAS05b]. For developers inter-
+
+ested in building OAuth-enabled services, RFC 6819 [LOD13] gives a detailed list-
+
+ing of threats and suggested countermeasures associated with OAuth 2.0. Other typical 
+
+OAuth information flows and use cases are defined in RFC 6749 [HAR12].
+The white paper by Todorov and Ozkan [TOD13] offers a strong overview of IaaS 
+best practices.8.7 EXERCISES
+1. Explain the differences between public, private, and community clouds. What are some of 
+the factors to consider when choosing which of the three to use?
+2. How do cloud threats differ from traditional threats? Against what threats are cloud services 
+typically more effective than local ones?
+3. You are opening an online store in a cloud environment. What are three security controls you 
+might use to protect customers’ credit card information? Assume that the information will 
+
+need to be stored.4. Define TNO. Name three types of data for which one should want TNO encryption.
+5. How do cloud services make DLP more difficult? How can customers wishing to enforce 
+DLP mitigate this issue?

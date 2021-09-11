@@ -1,0 +1,63 @@
+112 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+lack of binding means that changing one value affects the integrity of the file but that 
+one change can easily go undetected.What we would like to do is somehow put a seal or shield around the file so that 
+we can detect when the seal has been broken and thus know that something has been 
+
+changed. This notion is similar to the use of wax seals on letters in medieval days; if the 
+
+wax was broken, the recipient would know that someone had broken the seal and read 
+
+the message inside. In the same way, cryptography can be used to 
+seal a file, encasing 
+it so that any change becomes apparent. One technique for providing the seal is to com-
+
+pute a function, sometimes called a hash or checksum or message digest of the file.
+The code between Sam and Theresa is a hash code. Hash codes are often used in 
+communications where transmission errors might affect the integrity of the transmit-
+
+ted data. In those cases the code value is transmitted with the data. Whether the data 
+
+or the code value was marred, the receiver detects some problem and simply requests a 
+
+retransmission of the data block.Such a protocol is adequate in cases of unintentional errors but is not intended to 
+deal with a dedicated adversary. If Fagin knows the error detection function algorithm, 
+
+then he can change content and fix the detection value to match. Thus, when a mali-
+
+cious adversary might be involved, secure communication requires a stronger form of 
+
+message digest.One-Way Hash Functions
+As a first step in defeating Fagin, we have to prevent him from working backward from 
+the digest value to see what possible inputs could have led to that result. For instance, 
+
+some encryptions depend on a function that is easy to understand but difficult to com-
+
+pute. For a simple example, consider the cube function, 
+y  x3. Computing x3 by hand, with pencil and paper, or with a calculator is not hard. But the inverse function, 
+y3, is much more difficult to compute. And the function 
+y  x2 has no inverse function since 
+there are two possibilities for 
+y2:x and
+x. Functions like these, which are much 
+easier to compute than their inverses, are called 
+one-way functions.File Change DetectionA one-way function can be useful in creating a change detection algorithm. The func-
+tion must depend on all bits of the file being sealed, so any change to even a single bit 
+
+will alter the checksum result. The checksum value is stored with the file. Then, each 
+
+time someone accesses or uses the file, the system recomputes the checksum. If the 
+
+computed checksum matches the stored value, the file is likely to be intact.
+The one-way property guards against malicious modification: An attacker cannot 
+“undo” the function to see what the original file was, so there is no simple way to find a 
+
+set of changes that produce the same function value. (Otherwise, the attacker could find 
+
+undetectable modifications that also have malicious impact.)
+Tripwire [KIM98] is a utility program that performs integrity checking on files. With 
+Tripwire a system administrator computes a hash of each file and stores these hash 
+
+values somewhere secure, typically offline. Later the administrator reruns Tripwire and 
+
+compares the new hash values with the earlier ones.

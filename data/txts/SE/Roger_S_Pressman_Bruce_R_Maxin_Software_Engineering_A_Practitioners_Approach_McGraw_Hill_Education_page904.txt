@@ -1,0 +1,41 @@
+874 APPENDIX 1  AN INTRODUCTION TO UML  
+  DEPLOYMENT DIAGRAMS   
+A UML  deployment diagram  focuses on the structure of the software system and is 
+useful for showing the physical distribution of a software system among hardware 
+
+platforms and execution environments. Suppose, for example, you are developing 
+
+a Web-based graphics-rendering package. Users of your package will use their 
+
+Web browser to go to your website and enter rendering information. Your website 
+
+would render a graphical image according to the user’s speciﬁ cation and send it 
+
+back to the user. Because graphics rendering can be computationally expensive, 
+
+you decide to move the rendering itself off the Web server and onto a separate 
+
+platform. Therefore, there will be three hardware devices involved in your sys-
+tem: the Web client (the users’ computer running a browser), the computer host-
+ing the Web server, and the computer hosting the rendering engine. 
+   
+Figure A1.4 shows the deployment diagram for such a package. In such a dia-gram, hardware components are drawn in boxes labeled with “«device»”. Com-
+munication paths between hardware components are drawn with lines with 
+optional labels. In   Figure A1.4, the paths are labeled with the communication protocol and the type of network used to connect the devices.  
+ Each node in a deployment diagram can also be annotated with details about the device. For example, in   Figure A1.4, the browser client is depicted to show that it contains an artifact consisting of the Web browser software. An artifact 
+is typically a ﬁ le containing software running on a device. You can also specify 
+tagged values, as is shown in   Figure A1.4 in the Web server node. These values deﬁ ne the vendor of the Web server and the operating system used by the server. 
+ Deployment diagrams can also display execution environment nodes, which are 
+drawn as boxes containing the label “«execution environment»”. These nodes rep-
+resent systems, such as operating systems, that can host other software programs. 
+  
+ F
+IGURE A1.4A deployment 
+diagram   
+{web server = apache}
+
+{OS = linux}<<device>>Web Server
+http/LANhttp/Internet
+<<device>>Render Engine<<artifact>>
+Web Browser
+<<device>>Browser Client

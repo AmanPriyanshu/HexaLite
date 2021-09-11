@@ -1,0 +1,60 @@
+308 Chapter 5  
+Operating Systemspaging on top of segmentation. In both cases, the programmer could divide a program 
+into logical segments. Each segment was then broken into fixed-size pages. In Multics, 
+
+the segment name portion of an address was an 18-bit number with a 16-bit offset. The 
+
+addresses were then broken into 1024-byte pages. The translation process is shown in 
+
+Figure 5-14. This approach retained the logical unity of a segment and permitted dif-
+
+ferentiated protection for the segments, but it added an additional layer of translation 
+
+for each address. Additional hardware improved the efficiency of the implementation.
+These hardware mechanisms provide good memory protection, even though their orig-
+inal purpose was something else indeed: efficient memory allocation and data relocation, 
+
+with security a fortuitous side effect. In operating systems, security has been a central 
+
+requirement and design element since the beginning, as we explore in the next section.
+5.2 SECURITY IN THE DESIGN OF OPERATING SYSTEMS
+As we just discussed, operating systems are complex pieces of software. The compo-
+
+nents come from many sources, some pieces are legacy code to support old functions; 
+MemoryDATA_SEG Page 1
+MAIN Page 
+0SEG_A Page 
+1MAIN Page 
+1SEG_A Page 
+2SUB Page 
+0DATA_SEG Page 
+0SEG_A Page 
+0Address0a
+bcd
+efg
+hi
+jklmn
+oSegment DATA_SEG Word  20
+Logical ProgramMAINSEG_ASUBDATA_SEG
+Segment Translation 
+Table
+MAINSEG_A
+SUBDATA_SEG
+Segment
+Page 
+Table
+01c
+fPage Translation Tables
+      For Segment MAIN
+Page   Address
+012neg      
+For Segment SEG_A
+Page  Address
+01lb0i      For Segment SUB
+Page  Address
+      
+Page  Address
++20 = Page 0
+FETCH<DATA_SEG,20>
+For Segment DATA_SEG
+FIGURE 5-14 Address Translation with Paged Segmentation

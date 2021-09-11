@@ -1,0 +1,36 @@
+106 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+ 3a. 
+Malvolio intercepts this message and obtains and holds the symmetric key Amy 
+has generated. 3b. 
+Malvolio generates a new symmetric key and sends it to Bill, with a message 
+purportedly from Amy: Thanks. I have generated a symmetric key for us to use 
+
+for this interchange. I am sending you the symmetric key encrypted under your 
+
+public key.
+In summary, Malvolio now holds two symmetric encryption keys, one each shared 
+with Amy and Bill. Not only can Malvolio stealthily obtain all their interchanges, but 
+
+Amy and Bill cannot communicate securely with each other because neither shares a 
+
+key with the other.
+From this point on, all communications pass through Malvolio. Having both sym-
+metric keys, Malvolio can decrypt anything received, modify it, encrypt it under the 
+
+other key, and transmit the modified version to the other party. Neither Amy nor Bill is 
+
+aware of the switch. This attack is a type of 
+man-in-the-middle4 failure, in which an 
+unauthorized third party intercedes in an activity presumed to be exclusively between 
+
+two people. See Sidebar 2-15 for an example of a real-world man-in-the-middle attack.
+Bill, give 
+meyour public key1Here is my key, Amy23aHere is another symmetric keyNo, give it to 
+me1aHere is the middle’s key2aHere is the symmetric key34.,5abc6def9wxyz8tuv7pqrs6mno5jkl1., 2abc3def9wxyz8tuv7pqrs4ghiFIGURE 2-25 Key Exchange Protocol with a Man in the Middle
+4. Alas, this terminology is hopelessly sexist. Even if we called these attacks person-in-the-middle or intrud-
+er-in-the-middle in this book, you would find only the term man-in-the-middle used by other writers, who 
+
+also use terms like man-in-the-browser and man-in-the-phone, which arise in Chapter 4 of this book. Thus, 
+
+we are regrettably stuck with the conventional term.

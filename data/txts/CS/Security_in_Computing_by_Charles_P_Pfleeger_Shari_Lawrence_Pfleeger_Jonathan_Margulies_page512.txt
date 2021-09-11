@@ -1,0 +1,74 @@
+478 Chapter 6  
+Networksuser does not seem to use many administrator utilities. If that person tried to access 
+sensitive system management utilities, this new behavior might be a clue that someone 
+
+else was acting under the user’s identity.
+If we think of a compromised system in use, it started clean, with no intrusion, and it ended dirty, fully compromised. There may be no point in an administrator’s tracing 
+
+the use in which the system changed from clean to dirty; it was more likely that little 
+
+dirty events occurred, occasionally at first and then increasing as the system became 
+
+more deeply compromised. Any one of those events might be acceptable by itself, but 
+
+the accumulation of them and the order and speed at which they occurred could have 
+
+been signals that something unacceptable was happening. The inference engine of an 
+
+intrusion detection system continuously analyzes the system, raising an alert when the 
+system’s dirtiness exceeds a threshold or when a combination of factors signals likely 
+
+malicious behavior.
+Let’s consider an example. A network computer belonging to Ana starts to inspect 
+other network computers, looking at which ones have storage areas (files) available to 
+
+other network users. When Ana probes Boris’s computer the IDS may classify that act 
+
+as unusual, but Boris’s computer denies her access and the IDS simply notes the denied 
+
+access request. Then when Ana probes Chen’s machine the second attempt becomes 
+
+more unusual. It turns out that Chen’s machine has a file structure open to the network, 
+
+and Ana obtains a directory listing of all accessible files on Chen’s machine, which 
+
+the IDS flags as suspicious. When Ana then tries to copy all of Chen’s files the IDS 
+
+recognizes a likely attack and triggers an alarm to an administrator. Any of the actions 
+
+Ana (or someone using Ana’s access credentials) took is not significant by itself, but the 
+
+accumulation leads to greater suspicion and finally an alarm.
+Inference engines work in two ways. Some, called 
+state-based intrusion detection 
+systems, see the system going through changes of overall state or configuration. They 
+
+try to detect when the system has veered into unsafe modes. So, in our example the 
+
+states would be probing, probing again, listing contents, copying contents.
+Alternatively, intrusion detection can work from a model of known bad activity 
+whereby the intrusion detection system raises an alarm when current activity matches 
+
+the model to a certain degree. These are called 
+model-based intrusion detection sys-
+tems. This approach has been extended to networks in [MUK94]. Later work (for exam-
+
+ple, [FOR96, LIN99]) sought to build a dynamic model of behavior to accommodate 
+
+variation and evolution in a person’s actions over time. The technique compares real 
+
+activity with a known representation of normality. For example, except for a few utili-
+
+ties (log in, change password, create user), any other attempt to access a password file 
+
+is suspect. This form of intrusion detection is known as 
+misuse intrusion detection. In this work, the real activity is compared against a known suspicious area. Returning 
+
+to our example, Ana’s searching for open files and then copying a large number is a 
+
+misuse.To a heuristic intrusion detection system, all activity is classified in one of three cat-
+egories: good/benign, suspicious, or unknown. Over time, specific kinds of actions can 
+
+move from one of these categories to another, corresponding to the IDS’s inference of 
+
+whether certain actions are acceptable or not.

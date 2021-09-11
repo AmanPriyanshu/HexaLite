@@ -1,0 +1,70 @@
+ Section 11.5  Computer Crime 
+741  The most widely reported application of the law was in February 2005 when Choice-
+point disclosed that some California residents had been affected by loss of 145,000 
+
+pieces of personal identity information. Initially only affected California residents were 
+
+informed, but after news of that disclosure was made public, Choicepoint revealed how 
+
+many people total were involved and began notifying them.
+International Dimensions
+So far we have explored laws in the United States. But many people outside the United 
+
+States will read this book, perhaps wondering why they should learn about laws from a 
+
+foreign country. This question has two answers.
+Technically, computer security laws in the United States are similar to those in many 
+other countries: Lawmakers in each country learn about subtle legal points and inter-
+
+pretation or enforcement difficulties from laws passed in other countries. Many other 
+
+countries, such as Australia, Canada, Brazil, Japan, the Czech Republic, and India, have 
+
+recently enacted computer crime laws. These laws cover offenses such as fraud, unau-
+
+thorized computer access, data privacy, and computer misuse. The International Think 
+
+Tank on Justice, Peace and Security in Cyberspace (http://www.cybercrimelaw.net/
+
+Cybercrimelaw.html) maintains a splendid repository of national laws on cybercrime, 
+
+from over 70 countries from Albania to Zambia.
+The second reason to study laws from a foreign country is that the Internet is an 
+international entity. Citizens in one country are affected by users in other countries, and 
+
+users in one country may be subject to the laws in other countries. Therefore, you need 
+
+to know which laws may affect you. The international nature of computer crime makes 
+
+life much more complicated. For example, a citizen of country A may sit in country 
+
+B, connect to an ISP in country C, use a compromised host in country D, and attack 
+
+machines in country E (not to mention traveling on communications lines through doz-
+
+ens of other countries). To prosecute this crime may require cooperation of all five 
+
+countries. The attacker may need to be extradited from B to E to be prosecuted there, 
+
+but there may be no extradition treaty for computer crimes between B and E. And the 
+
+evidence obtained in D may be inadmissible in E because of the manner in which it was 
+
+obtained or stored. And the crime in E may not be a crime in B, so the law enforcement 
+
+authorities, even if sympathetic, may be unable to act.
+Although computer crime is truly international, differing statutes in different juris-
+dictions inhibit prosecution of international computer crime. In the remainder of this 
+section we briefly discuss laws around the world that differ from U.S. laws and that 
+
+should be of interest to computer security students.Council of Europe Agreement on Cybercrime
+In November 2001, the United States, Canada, Japan, and 22 European countries signed 
+the Council of Europe Agreement on Cybercrime to define cybercrime activities and 
+
+support their investigation and prosecution across national boundaries. The signifi-
+
+cance of this treaty is not so much that these activities are illegal but that the countries 
+
+acknowledged them as crimes across their borders, making it easier for law enforce-
+
+ment agencies to cooperate and for criminals to be extradited for offenses against one 

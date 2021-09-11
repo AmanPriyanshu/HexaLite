@@ -1,0 +1,62 @@
+ Section 4.3  Obtaining User or Website Data 
+261  Code Within DataIn this section we examine several examples of attacks in which executable
+1 code is 
+contained within what might seem to be ordinary data.Cross-Site Scripting
+To a user (client) it seems as if interaction with a server is a direct link, so it is easy to 
+ignore the possibility of falsification along the way. However, many web interactions 
+
+involve several parties, not just the simple case of one client to one server. In an attack 
+
+called cross-site scripting
+, executable code is included in the interaction between client 
+and server and executed by the client or server.
+As an example, consider a simple command to the search engine Google. The user 
+enters a simple text query, but handlers add commands along the way to the server, so 
+
+what starts as a simple string becomes a structure that Google can use to interpret or 
+refine the search, or that the user’s browser can use to help display the results. So, for 
+
+example, a Google search on the string “cross site scripting” becomes 
+http://www.google.com/search?q=cross+site+scripting &ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official 
+&client=firefox-a&lr=lang_enThe query term became “cross+site+scripting,” and the other parameters (fields sepa-
+rated by the character &) are added by the search engine. In the example, ie (input 
+
+encoding) and oe (output encoding) inform Google and the browser that the input 
+
+is encoded as UTF-8 characters, and the output will be rendered in UTF-8, as well; 
+
+lr=lang_en directs Google to return 
+only results written in English. For 
+
+efficiency, the browser and Google 
+
+pass these control parameters back 
+
+and forth with each interaction so 
+
+neither side has to maintain exten-
+
+sive information about the other.
+Sometimes, however, the interaction is not directly between the user’s browser 
+and one web site. Many web sites offer access to outside services without leaving the 
+
+site. For example, television station KCTV in Kansas City has a website with a search 
+
+engine box so that a user can search within the site or on the web. In this case, the 
+
+Google search result is displayed within a KCTV web page, a convenience to the user 
+1. In many cases this process is properly called “interpreting” instead of “executing.” Execution applies 
+to a language, such as C, that is compiled and executed directly. Other action occurs with interpretative 
+
+languages, such as SQL, in which a program, called an interpreter, accepts a limited set of commands 
+
+and then does things to accomplish the meaning of those commands. Consider, for example, a database 
+
+management system accepting a command to display all records for names beginning AD and born after 
+
+1990, sorted by salary; clearly many machine instructions are executed to implement this one command. 
+
+For simplicity we continue to use the term execute to mean interpret, as well.
+Scripting attack: forcing the server to 
+execute commands (a script) in a normal 
+data fetch request

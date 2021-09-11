@@ -1,0 +1,75 @@
+ Section 8.5  Securing IaaS 
+579  OAuth Resource Server, OIDC has a UserInfo Endpoint that delivers only one kind of 
+resource: user identity information. Instead of allowing an OAuth Client to access APIs 
+
+on a Resource Owner’s behalf, OIDC allows OAuth Clients only to authenticate users 
+
+and make UserInfo requests.
+While being built on top of OAuth 2.0 provides some valuable features, it also means 
+OIDC inherits some of OAuth’s security issues. As in OAuth, for instance, digital sig-
+
+natures to protect token integrity are optional (although, unlike OAuth, the OIDC speci-
+
+fication does recommend them). Unlike OAuth, however, OIDC requires TLS for most 
+
+communication flows, and the ID Token adds hash values for Authorization Codes and 
+
+Access Tokens that makes them more difficult to misuse.
+8.5 SECURING IaaS
+Imagine you’re developing a video game. You’d like this game to be a massive mul-
+
+tiplayer online (MMO) game, which means that all the players log in to a common 
+
+universe and can interact with one another. For this to work, you develop a server that 
+
+accepts network connections, and then monitors and responds to all the players’ activi-
+
+ties so that each player’s actions can be reflected in the broader universe. Unfortunately, 
+
+you have only a little money for server infrastructure and no way of knowing how many 
+
+players your game will attract. If the game doesn’t take off, the money you spent on 
+
+server infrastructure will be wasted. If the game is too successful, the number of players 
+
+will quickly overwhelm your servers, and you won’t be able to grow your server infra-
+
+structure quickly enough to keep up with demand.
+This is exactly the kind of problem IaaS evolved to address. IaaS supports rapid 
+elasticity at an infrastructure level, allowing you to quickly stand up as many or as 
+
+few servers as you need to meet demand, paying only for the servers you actually use. 
+
+IaaS is almost always built on virtualization: Service providers have large networks 
+
+of servers, each of which has a hypervisor that manages its VMs (see Chapter 5 for a 
+
+discussion on VMs and hypervisors). Those hypervisors, in turn, are controlled by a 
+
+cloud computing platform
+—a software system that provisions, monitors, and manages 
+workload on a shared computing infrastructure. The cloud platform communicates with 
+
+hypervisors, operating systems, networking equipment, and storage devices. It tracks 
+
+performance and utilization, starts and stops virtual machines, moves virtual machines 
+
+from one server to another, reconfigures virtual networks, and allocates storage. When a 
+
+user asks an IaaS provider for ten new VMs to meet traffic demand, the cloud platform 
+
+finds servers that have processor cores and memory to spare, points the servers at the 
+
+storage devices containing the requested VMs, reconfigures the virtual network, and 
+
+asks the hypervisors to boot the VMs.
+To host your MMO server on IaaS, you would start by specifying your server needs. 
+You would choose an OS—most IaaS providers support a variety of Windows and 
+
+Linux options—and request appropriate processing power, memory, networking capa-
+
+bility, and storage to suit your server’s performance requirements. The provider would 
+
+then give you a template VM—a basic configuration of the requested OS for you to 
+
+build on. You would then run this VM and begin changing it by installing additional 

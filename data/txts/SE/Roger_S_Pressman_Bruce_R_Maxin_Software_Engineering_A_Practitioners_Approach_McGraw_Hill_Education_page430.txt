@@ -1,0 +1,64 @@
+400 PART TWO  
+MODELINGof heterogeneous sources. Extracting relevant context information by combing data from several sensors proves challenging because of problems with noise, 
+miscalibration, wear and tear, and weather. Event-based communication is pref-
+
+erable to the management of continuous streams of high-abstraction-level data 
+in  context-aware applications [Kor03].  In ubiquitous computing environments, multiple users work with a wide range 
+of different devices. The conﬁ guration of the devices should be ﬂ
+ exible enough to 
+change frequently because of the demands of mobile work practices. It is import-
+ant for the software infrastructure to support different styles of interaction (e.g., 
+
+gestures, voice, and pen) and store them in abstractions that can be shared easily. 
+ There are times when one user may desire to work with more than one device simultaneously on the same product (e.g., use a touch-screen device to edit a 
+document image and a personal keyboard to edit document text). It is challeng-
+ing to integrate mobile devices that are not always connected to the network 
+and have a variety of device constraints [Tan01]. Networked, multiplayer games 
+
+have had to deal with these problems by storing the game state on each device 
+and sharing change information among other game players’ devices in real time.   
+ 
+18.2.4  Lessons Learned 
+ 
+Earlier in this chapter we noted a number of important differences between Mobile-Apps and conventional software. As a consequence of these differences, software 
+
+engineers should modify and extend conventional techniques in order to analyze, 
+
+design, build, and test mobile applications. de Sá and Carrico [Des08] suggest a 
+
+number of lessons learned. 
+  
+ 
+Usage scenarios (Chapter 15) for MobileApps must consider context variables (location, user, and device) and transitions between contextual scenarios (e.g., 
+
+user moves from bedroom to kitchen or switches from stylus to a ﬁ nger). de Sá 
+and Carriço have identiﬁ ed a set of scenario-variable types that should be con-
+sidered in developing the user scenarios—locations and settings, movement and 
+posture, devices and usages, workloads and distractions, user preferences.   
+Ethnographic observation 
+ 
+ 14 
+ 
+ is a widely used method for gathering informa-
+tion about representative users of a software product as it is being designed. It 
+is often difﬁ cult to observe users as they change contexts, because the observer 
+must follow users for long periods of time, something that could raise privacy 
+concerns.  15 
+ 
+ A complicating factor is that users sometimes complete tasks  dif-
+ferently in private settings than in social settings. The same users may need to 
+be observed performing tasks in multiple contexts while monitoring transitions, 
+  
+ 
+14   Ethnographic observation 
+ is a means determining the nature of user tasks by watching users in 
+their work environment.   
+15  Asking users to ﬁ
+ ll out anonymous questionnaires may have to sufﬁ
+ ce when direct observation 
+is not possible.    Use cases can work 
+well in the develop-
+ment of MobilApps, but 
+context variables must 
+be considered when 
+developing them. pre22126_ch18_391-410.indd   400pre22126_ch18_391-410.indd   40016/12/13   6:23 PM16/12/13   6:23 PM

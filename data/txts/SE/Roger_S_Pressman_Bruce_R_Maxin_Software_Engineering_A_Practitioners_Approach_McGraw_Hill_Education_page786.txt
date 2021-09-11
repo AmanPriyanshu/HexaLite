@@ -1,0 +1,103 @@
+756 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+The estimation methods discussed in Chapter 33 and the scheduling tech-niques described in this chapter are often implemented under the constraint of 
+a deﬁ ned deadline. If best estimates indicate that the deadline is unrealistic, a 
+competent project manager should “protect his or her team from undue [sched-
+ ect the pressure back to its originators” [Pag85]. 
+  
+To illustrate, assume that your software team has been asked to build a 
+real-time controller for a medical diagnostic instrument that is to be introduced 
+to the market in nine months. After careful estimation and risk analysis (Chapter 
+35), you come to the conclusion that the software, as requested, will require 14 
+calendar months to create with available staff. How should you proceed?  It is unrealistic to march into the customer’s ofﬁ
+ ce (in this case the likely cus-
+tomer is marketing/sales) and demand that the delivery date be changed. Exter-
+
+nal market pressures have dictated the date, and the product must be released. 
+It is equally foolhardy to refuse to undertake the work (from a career standpoint). 
+So, what to do? we recommend the following steps in this situation:  
+ 
+ 
+ 1.
+  Perform a detailed estimate using historical data from past projects. Determine the estimated effort and duration for the project.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2.
+  Using an incremental process model (Chapter 4), develop a software engi-neering strategy that will deliver critical functionality by the imposed 
+deadline, but delay other functionality until later. Document the plan. 
+  
+ 
+ 
+ 3.
+  Meet with the customer and (using the detailed estimate), explain why the imposed deadline is unrealistic. Be certain to note that all estimates 
+are based on performance on past projects. Also be certain to indicate the 
+percent improvement that would be required to achieve the deadline as it 
+currently exists.  2 
+ 
+ The following comment is appropriate:  
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ I think we may have a problem with the delivery date for the XYZ controller soft-
+ware. I’ve given each of you an abbreviated breakdown of development rates for 
+
+past software projects and an estimate that we’ve done a number of different ways. 
+
+You’ll note that I’ve assumed a 20 percent improvement in past development rates, 
+
+but we still get a delivery date that’s 14 calendar months rather than 9 months away. 
+ 
+ 
+  
+ 
+ 
+ 4.
+  Offer the incremental development strategy as an alternative:  
+ 
+   
+ 
+We have a few options, and I’d like you to make a decision based on them. First, we 
+can increase the budget and bring on additional resources so that we’ll have a shot 
+at getting this job done in nine months. But understand that this will increase the 
+risk of poor quality due to the tight time line.  
+3 
+ 
+ Second, we can remove a number of 
+ 
+ uote:  “I love deadlines. I 
+like the whooshing 
+sound they make 
+as they ﬂ y by.” 
+ Douglas Adams 
+ What should 
+
+we do when management 
+demands that 
+we make a 
+deadline that is 
+impossible? ?  
+ 
+ 
+ 
+ 
+2.  If the required improvement is 10 to 25 percent, it may actually be possible to get the job done. 
+But, more likely, the required improvement in team performance will be greater than 50 per-
+
+cent. This is an unrealistic expectation.   
+3.  You might also add that increasing the number of people does not reduce calendar time 
+proportionally. 
+pre22126_ch34_754-776.indd   756pre22126_ch34_754-776.indd   75613/12/13   10:02 PM13/12/13   10:02 PM

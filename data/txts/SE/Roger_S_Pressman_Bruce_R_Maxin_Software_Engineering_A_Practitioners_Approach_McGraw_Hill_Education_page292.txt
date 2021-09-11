@@ -1,0 +1,161 @@
+262 PART TWO  
+MODELINGreﬂ ect the domain and the domain logic of the business problem you want to 
+solve with your application ( Chapter 8 ).  A  problem frame
+ 
+ is a generalization of a class of problems that might be used 
+to solve the problem at hand. There are ﬁ ve fundamental problem frames, and 
+these are often associated with architectural styles: simple work pieces (tools), 
+required behavior (data centered), commanded behavior (command processor), 
+information display (observer), and transformation (pipe and ﬁ lter variants). 
+ Real-world problems often follow more than one problem frame, and as a con-sequence an architectural model may be a combination of different frames. For 
+example, the model-view-controller (MVC) architecture used in WebApp design 
+ 4 
+ 
+ might be viewed as combining two problem frames (command behavior and in-
+formation display). In MVC the end user’s command is sent from the browser win-
+
+dow to a command processor (controller) which manages access to the content 
+(model) and instructs the information rendering model (view) to translate it for 
+display by the browser software.   
+Choosing an Architectural Style   
+Choosing an Architectural Style 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The scene:  Jamie’s cubicle, as 
+ design modeling begins.    
+ 
+ 
+ 
+ 
+ 
+The players:  Jamie and Ed—members of the 
+  
+SafeHome 
+ software engineering team.    
+ 
+ 
+ 
+ 
+ 
+The conversation:  
+   
+ 
+ 
+ 
+ 
+ 
+Ed (frowning):  We’ve been modeling the security 
+function using UML . . . you know classes, relation-
+ships, that sort of stuff. So I guess the object-oriented 
+
+ architecture  3 
+ 
+ is the right way to go.  
+   
+ 
+ 
+ 
+ 
+ 
+Jamie:  But . . .? 
+   
+ 
+ 
+ 
+ 
+ 
+Ed:  
+oriented architecture is. I get the call and return archi-
+
+tecture, sort of a conventional process hierarchy, but 
+
+t know, it seems sort of amorphous. 
+   
+ 
+ 
+ 
+ 
+ 
+Jamie (smiling):  Amorphous, huh? 
+   
+ 
+ 
+ 
+ 
+ 
+Ed:  Yt visualize a real 
+structure, just design classes ﬂ oating in space. 
+   
+ 
+ 
+ 
+ 
+ 
+Jamie:  Well, that’s not true. There are class hier-
+
+did for the   
+FloorPlan 
+ object [Figure 12.3]. An OO architecture is a combination of that structure and the 
+interconnections—you know, collaborations—between 
+
+the classes. We can show it by fully describing the attri-
+
+butes and operations, the messaging that goes on, and 
+the structure of the classes.    
+ 
+ 
+ 
+ 
+ 
+Ed:  I’m going to spend an hour mapping out a call and 
+retur 
+
+architecture. 
+   
+ 
+ 
+ 
+ 
+ 
+Jamie:  Doug’ll have no problem with that. He said 
+that we should consider architectural alternatives. By 
+
+the way, there’s absolutely no reason why both of these 
+
+architectures couldn’t be used in combination with one 
+
+another. 
+   
+ 
+ 
+ 
+ 
+ 
+Ed:  Good. I’m on it. 
+ 
+ 
+  
+SAFEHOME  
+ 
+ 
+ 
+ 
+ 
+3  It can be argued that the  
+SafeHome 
+ architecture should be considered at a higher level than 
+the architecture noted.  SafeHome 
+ has a variety of subsystems—home monitoring functionality, 
+the company’s monitoring site, and the subsystem running in the owner’s PC. Within subsys-
+
+tems, concurrent processes (e.g., those monitoring sensors) and event handling are prevalent. 
+Some architectural decisions at this level are made during product engineering, but architec-
+tural design within software engineering may very well have to consider these issues.   
+4  The MVC architecture is considered in more detail in  
+Chapter 17 . pre22126_ch13_252-284.indd   262pre22126_ch13_252-284.indd   26213/12/13   6:12 PM13/12/13   6:12 PM

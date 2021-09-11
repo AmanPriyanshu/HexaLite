@@ -1,0 +1,61 @@
+ Section 2.1  Authentication 
+63  SIDEBAR 2-10 Are There Unremarkable People?
+Are there people for whom a biometric system simply does not work? That 
+is, are there people, for example, whose features are so indistinguishable 
+
+they will always pass as someone else?Doddington et al. [DOD98] examined systems and users to find spe-cific examples of people who tend to be falsely rejected unusually often, 
+
+those against whose profiles other subjects tend to match unusually often, 
+
+and those who tend to match unusually many profiles.
+To these classes Yager and Dunstone [YAG10] added people who 
+are likely to match and cause high rates of false positives and those people 
+
+who are unlikely to match themselves or anyone else. The authors then 
+
+studied different biometric analysis algorithms in relation to these difficult 
+
+cases.Yager and Dunstone cited a popular belief that 2 percent of the popu-
+lation have fingerprints that are inherently hard to match. After analyzing a 
+
+large database of fingerprints (the US-VISIT collection of fingerprints from 
+
+foreign visitors to the United States) they concluded that few, if any, people 
+
+are intrinsically hard to match, and certainly not 2 percent.
+They examined specific biometric technologies and found that some 
+of the errors related to the technology, not to people. For example, they 
+
+looked at a database of people iris recognition systems failed to match, 
+
+but they found that many of those people were wearing glasses when they 
+
+enrolled in the system; they speculate that the glasses made it more dif-
+
+ficult for the system to extract the features of an individual’s iris pattern. In 
+
+another case, they looked at a face recognition system. They found that 
+
+people the system failed to match came from one particular ethnic group 
+
+and speculated that the analysis algorithm had been tuned to distinctions 
+of faces of another ethnic group. Thus, they concluded that matching errors 
+
+are more likely the results of enrollment issues and algorithm weaknesses 
+
+than of any inherent property of the people’s features.
+Still, for the biometric systems they studied, they found that for a 
+specific characteristic and analysis algorithm, some users’ characteristics 
+perform better than other users’ characteristics. This research reinforces 
+
+the need to implement such systems carefully so that inherent limitations 
+
+of the algorithm, computation, or use do not disproportionately affect the 
+
+outcome.SIDEBAR 2-11 Fingerprint Examiners Make Mistakes
+A study supported by the U.S. Federal Bureau of investigation [ULE11] 
+
+addressed the validity of expert evaluation of fingerprints. Experimenters 
+
+presented 169 professional examiners with pairs of fingerprints from a pool 
+(continues)

@@ -1,0 +1,51 @@
+ Section 8.3  Cloud Security Tools and Techniques 
+565  file a customer uploads to the cloud. It then encrypts the file key by using the customer’s 
+unique RSA public key, and stores the encrypted file key with the encrypted file. When a 
+
+customer wants to retrieve and decrypt a file from cloud storage, the client uses the cus-
+
+tomer’s RSA private key to decrypt the file key, and the file key to decrypt the file. The 
+
+nice feature of this approach is that it naturally lends itself to file sharing: If a customer 
+
+wants to share a file with a friend, the Boxcryptor client can encrypt a second copy of 
+
+the file key by using the friend’s RSA public key. This can be repeated with minimal 
+
+storage cost for more users or groups. Interestingly, but perhaps not surprisingly, the 
+
+malware known as Cryptolocker, which encrypts victims’ files and holds them hostage in 
+
+exchange for a ransom, uses essentially the same encryption scheme.
+Data Loss Prevention
+Data Loss Prevention, or DLP, as described in Chapter 6, can be difficult to accomplish 
+with cloud storage. Part of the way DLP products protect companies from losing sensi-
+
+tive data is by providing appliances that monitor and block traffic at network boundar-
+
+ies. When a company moves data and services to a public cloud, users can access them 
+
+from outside the company network, completely bypassing those network boundaries.
+One way to maintain DLP capability when moving to a public cloud is to force users 
+to go through the company network to get there. Many cloud services give customer 
+
+companies options to restrict users by source IP address. If a user attempts to log in to 
+the cloud service from home or elsewhere without having an open VPN connection to 
+
+the company network (that is, without having a company-owned source IP address), the 
+Boxcryptor File Encryption and Decryption 
+Boxcryptor ClientUserCloud Storage ProviderAdds a File to 
+Boxcryptor for 
+Encryption and Cloud StorageGenerates a Random “File Key” for This FileEncrypts the File 
+Key with User’s 
+RSA Public KeyStores the Encrypted File 
+and Encrypted 
+File KeyEncrypted File,Encrypted File Key
+Requests a File 
+From Boxcryptor
+Requests the Encrypted File and File Key from Cloud ProviderFile DescriptorRetrieves the Encrypted File and File KeyDecrypts File 
+Key Using User’s 
+RSA Private Key; 
+Decrypts File 
+Using File KeyReturns Decrypted File 
+to UserAdd/Encrypt a FileRetrieve/Decrypt a FileFIGURE 8-3 Boxcryptor TNO Implementation

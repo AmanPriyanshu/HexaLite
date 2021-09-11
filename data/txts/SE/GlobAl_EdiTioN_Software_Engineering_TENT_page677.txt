@@ -1,0 +1,18 @@
+˜˜˚˛˚˜˜˜
+˜˜
+2. Activity networks show the dependencies between the different activities mak-ing up a project. These networks are described in an associated web section.Project activities are the basic planning element. Each activity has:˜ a duration in calendar days or months;˜ an effort estimate, which shows the number of person-days or person-months to 
+complete the work;˜ a deadline by which the activity should be complete; and˜ a defined endpoint, which might be a document, the holding of a review meeting, 
+the successful execution of all tests, or the like.When planning a project, you may decide to define project milestones. A mile
+-stone is a logical end to a stage of the project where the progress of the work can 
+be reviewed. Each milestone should be documented by a brief report (often sim
+-ply an email) that summarizes the work done and whether or not the work has 
+
+been completed as planned. Milestones may be associated with a single task or 
+
+with groups of related activities. For example, in Figure 23.5, milestone M1 is 
+
+associated with task T1 and marks the end of that activity. Milestone M3 is asso-ciated with a pair of tasks T2 and T4; there is no individual milestone at the end 
+
+of these tasks.TaskEffort (person-days)Duration (days)
+DependenciesT11510T2815T32015T1 (M1)T4510T5510T2, T4 (M3)T6105T1, T2 (M4)T72520T1 (M1)T87525T4 (M2)T91015T3, T6 (M5)T102015T7, T8 (M6)T111010T9 (M7)T122010T10, T11 (M8)Figure 23.5 Tasks, durations, and 
+dependencies

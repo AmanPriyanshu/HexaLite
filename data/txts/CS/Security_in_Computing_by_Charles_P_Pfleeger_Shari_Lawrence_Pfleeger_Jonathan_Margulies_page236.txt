@@ -1,0 +1,48 @@
+202 Chapter 3  
+Programs and Programminganalyst can determine literally what instructions a piece of code performs, the analyst has a harder time determining the broader intent and impact of those statements.Security research labs do an excellent job of tracking and analyzing malicious code, 
+but such analysis is necessarily an operation of small steps with microscope and twee-
+
+zers. (The phrase microscope and 
+
+tweezers is attributed to Jerome 
+
+Saltzer in [EIC89].) Even with 
+
+analysis tools, the process depends 
+
+heavily on human ingenuity. In 
+
+Chapter 10 we expand on teams that 
+
+do incident response and analysis.Storage Patterns Most viruses attach to programs that are stored on media such as disks. The attached 
+
+virus piece is invariant, so the start of the virus code becomes a detectable signature. 
+
+The attached piece is always located at the same position relative to its attached file. 
+
+For example, the virus might always be at the beginning, 400 bytes from the top, 
+ or at the bottom of the infected file. Most likely, the virus will be at the beginning of 
+
+the file because the virus writer wants to control execution before the bona fide code 
+ of the infected program is in charge. In the simplest case, the virus code sits at the top 
+
+of the program, and the entire virus does its malicious duty before the normal code is 
+invoked. In other cases, the virus infection consists of only a handful of instructions that 
+
+point or jump to other, more detailed, instructions elsewhere. For example, the infected 
+
+code may consist of condition testing and a jump or call to a separate virus module. In 
+either case, the code to which control is transferred will also have a recognizable pat-
+
+tern. Both of these situations are shown in Figure 3-25.
+A virus may attach itself to a file, in which case the file’s size grows. Or the virus 
+may obliterate all or part of the underlying program, in which case the program’s size 
+
+does not change but the program’s functioning will be impaired. The virus writer has to 
+
+choose one of these detectable effects.
+SourceCodeObjectCodeExecutableMachineCodeCompilerDisassemblerExecutableMachineCodeAssemblyLanguageCodeLinker(a) Compilation(b) DecompilationFIGURE 3-24 The Compilation Process: (a) Compilation. (b) DecompilationThoughtful analysis with “microscope 
+and tweezers” after an attack must 
+complement preventive tools such as 
+
+virus detectors.

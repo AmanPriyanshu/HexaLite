@@ -1,0 +1,117 @@
+CHAPTER 6  
+HUMAN ASPECTS OF SOFTWARE ENGINEERING
+ 99 
+ 
+ 
+•   
+Communication analysis 
+ that tracks communication across the team and 
+isolates patterns that may imply problems or issues that need to be resolved. 
+  
+ 
+ 
+•   
+Artifact-clustering 
+ that organizes work products and other project  artifacts in a manner that answers questions such as: “ What triggered a particular change ,  who has discussed a speciﬁ c artifact that should poten-
+tially be consulted about changes to it,  and  how might a [team] member’s 
+own work affect other people’s work?” [Fok10]. 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Collaborative Development Environments 
+  
+Objective: 
+ As software development becomes global, software teams need more than 
+development tools. They need a set of services that 
+
+enable members of the team to collaborate locally 
+and over long distances.   
+Mechanics: 
+ Tools and services in this category allow a 
+team to establish mechanisms for collaborative work. 
+A CDE will implement many or all of the services 
+
+described in Section 6.6, while at the same time 
+provide access to process management (Chapter 4) conventional software engineering tools discussed throughout this book.   
+Representative tools:7 
+   
+ 
+GForge 
+—a collaborative environment that contains both project and code management facilities  (http://gforge.com/gf/)
+ 
+   
+OneDesk 
+—provides a collaborative environment that 
+creates and manages a project workspace for 
+
+developers and stakeholders  (www.onedesk.com)
+ 
+   
+Rational Team Concert 
+—an in-depth, collaborative life-cycle management system  (http://www-01.ibm.com/software/rational/products/rtc/)
+ 
+ 
+  
+SOFTWARE
+ TOOLS  
+ 
+7  Tools noted here do not represent an endorsement, but rather, a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+  
+ 
+ 
+ 
+ 
+ 
+ 6.9 G
+LOBAL TEAMS   
+ 
+  
+In the software domain, globalization implies more than the transfer of goods and 
+services across international boundaries. For the past few decades, an increasing 
+
+number of major software products have been built by software teams that are often 
+
+located in different countries. These global software development (GSD) teams 
+
+have many of the characteristics of a conventional software team (Section 6.4), but 
+
+a GSD team has other unique challenges that include coordination, collaboration, 
+
+communication, and specialized decision making. Approaches to coordination, 
+
+collaboration, and communication have been discussed earlier in this chapter. De-
+
+cision making on all software teams is complicated by four factors [Gar10]: 
+  
+ 
+•  Complexity of the problem.   
+ 
+ 
+•  Uncertainty and risk associated with the decision.   
+ 
+ 
+•  The law of unintended consequences (i.e., work-associated decision has an unintended effect on another project objective).   
+ 
+ 
+•  Different views of the problem that lead to different conclusions about the way forward.  
+ 
+  
+ uote:  “More and more, 
+in any company, 
+
+managers are 
+dealing with 
+different cultures. 
+Companies are 
+going global, but 
+the teams are 
+being divided and 
+scattered all over 
+the planet.”  Carlos Ghosn, 
+Nissan pre22126_ch06_087-102.indd   99pre22126_ch06_087-102.indd   9913/12/13   6:10 PM13/12/13   6:10 PM

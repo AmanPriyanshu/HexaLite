@@ -1,0 +1,112 @@
+CHAPTER 7  
+PRINCIPLES THAT GUIDE PRACTICE
+ 123 
+ 
+More books have been written about programming (coding) and the princi-ples and concepts that guide it than about any other topic in the software pro-
+cess. Books on the subject include early works on programming style [Ker78], 
+practical software construction [McC04], programming pearls [Ben99], the art of 
+programming [Knu98], pragmatic programming issues [Hun99], and many, many 
+
+other subjects. A comprehensive discussion of these principles and concepts is 
+beyond the scope of this book. If you have further interest, examine one or more 
+of the references noted.  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+Testing principles.  
+   In a classic book on software testing, Glen Myers [Mye79] states a number of rules that can serve well as testing objectives:  
+ 
+ 
+• 
+ 
+  Testing is a process of executing a program with the intent of ﬁ
+ nding an 
+error. 
+  
+ 
+ 
+• 
+ 
+  A good test case is one that has a high probability of ﬁ nding an as-yet un-
+discovered error. 
+  
+ 
+ 
+• 
+ 
+  A successful test is one that uncovers an as-yet-undiscovered error. 
+ 
+ 
+  These objectives imply a dramatic change in viewpoint for some software de-velopers. They move counter to the commonly held view that a successful test is 
+one in which no errors are found. Your objective is to design tests that systemat-
+
+ically uncover different classes of errors and to do so with a minimum amount of 
+time and effort.  
+ 
+ 
+   
+If testing is conducted successfully (according to the objectives stated pre-viously), it will uncover errors in the software. As a secondary beneﬁ t, testing 
+demonstrates that software functions appear to be working according to speciﬁ -cation, and that behavioral and performance requirements appear to have been 
+met. In addition, the data collected as testing is conducted provide a good indica-
+tion of software reliability and some indication of software quality as a whole. But 
+testing cannot show the absence of errors and defects; it can show only that soft-
+ware errors and defects are present. It is important to keep this (rather gloomy) 
+statement in mind as testing is being conducted.  Davis [Dav95b] suggests a set of testing principles  10 
+ 
+ that have been adapted 
+for use in this book. In addition, Everett and Meyer [Eve09] suggest additional 
+principles:   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Principle 1. 
+  All tests should be traceable to customer requirements.All tests should be traceable to customer requirements.
+ 
+ 
+ 11 
+ 
+ 
+ 
+ The objective of software testing is to uncover errors. It follows that the most    In a broader software 
+design context, recall 
+that we begin “in the 
+large” by focusing on 
+software architecture 
+and end “in the small” 
+focusing on compo-
+nents. For testing, 
+we simply reverse 
+the focus and test our 
+way out.  WebRef 
+ A wide variety of links 
+to coding standards 
+be found at 
+
+  http://www
+
+.literateprogramming
+
+.com/links.html  . 
+ What are the 
+objectives of software testing? ?  
+10  Only a small subset of Davis’s testing principles are noted here. For more information, see 
+[Dav95b].   
+ 
+ 
+ 
+ 
+11  This principle refers to  
+functional tests 
+, that is, tests that focus on requirements.  Structural tests 
+ (tests that focus on architectural or logical detail) may not address speciﬁ c requirements 
+directly. 
+pre22126_ch07_103-130.indd   123pre22126_ch07_103-130.indd   12313/12/13   6:11 PM13/12/13   6:11 PM

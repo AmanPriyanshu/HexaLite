@@ -1,0 +1,116 @@
+684  
+CHAPTER 
+ 
+ 
+KEY CONCEPTS     agile teams. . . . . . 691  
+    coordination and 
+
+communication  . . . 692  
+
+    critical practices  . . 699  
+
+    people  . . . . . . . . . 687  
+
+    problem 
+
+decomposition. . . . 694  
+
+    product. . . . . . . . . 693  
+
+    project  . . . . . . . . . 697  
+
+    software scope. . . 694  
+
+    software team  . . . 689  
+
+    stakeholders. . . . . 687  
+
+    team leaders. . . . . 688  
+
+    W 
+5 HH principle . . . 698         
+  
+ 
+ In the preface to his book on software project management, Meiler Page-Jones [Pag85] makes a statement that can be echoed by many software 
+engineering consultants:  
+I’ve visited dozens of commercial shops, both good and bad, and I’ve observed scores of [IT] managers, again, both good and bad. Too often, I’ve watched in hor-
+
+ror as these managers futilely struggled through nightmarish projects, squirmed 
+under impossible deadlines, or delivered systems that outraged their users and 
+went on to devour huge chunks of maintenance time.  
+  
+What Page-Jones describes are symptoms that result from an array of man-agement and technical problems. However, if a post mortem were to be
+ PROJECT MANAGEMENTCONCEPTS 31  
+QUICK LOOK   
+What is it?   Although many of us 
+(in our darker moments) take Dilbert’s 
+
+view of “management,” it remains 
+
+a very necessary activity when 
+computer-based systems and products are built. 
+
+Project management involves the planning, mon-
+itoring, and control of the people, process, and 
+
+events that occur as software evolves from a pre-
+liminary concept to full operational deployment. 
+  
+ 
+Who does it?   Everyone “manages” to some 
+extent, but the scope of management activities 
+varies among people involved in a software 
+project. A software engineer manages her 
+day-to-day activities, planning, monitoring, 
+and controlling technical tasks. Project manag-
+ers plan, monitor, and control the work of a 
+
+team of software engineers. Senior managers 
+coordinate the interface between the business 
+
+and software professionals.   
+ 
+Why is it important? 
+  Building computer soft-ware is a complex undertaking, particularly if 
+
+it involves many people working over a rela-
+tively long time. That’s why software projects 
+
+need to be managed.   
+ 
+What are the steps?   Understand the four Ps—people, product, process, and project. People must be organized to perform software work 
+effectively. Communication with the customer 
+
+and other stakeholders must occur so that prod-
+uct scope and requirements are understood. 
+A process that is appropriate for the people 
+and the product should be selected. The proj-
+ect must be planned by estimating effort and 
+
+calendar time to accomplish work tasks: deﬁ n-
+ing work products, establishing quality check-
+points, and identifying mechanisms to monitor 
+and control work deﬁ ned by the plan. 
+  
+ 
+What is the work product? 
+  A project plan 
+is produced as management activities com-
+mence. The plan deﬁ nes the process and 
+tasks to be conducted, the people who will 
+
+do the work, and the mechanisms for assess-
+ing risks, controlling change, and evaluating 
+
+quality. 
+  
+ 
+How do I ensure that I’ve done it right?   You’re never completely sure that the project 
+plan is right until you’ve delivered a high-quality 
+product on time and within budget. However, 
+
+a project manager does it right when he en-
+courages software people to work together as 
+an effective team, focusing their attention on 
+customer needs and product quality. 
+ pre22126_ch31_683-702.indd   684pre22126_ch31_683-702.indd   68413/12/13   6:16 PM13/12/13   6:16 PM

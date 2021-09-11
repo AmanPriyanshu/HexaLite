@@ -1,0 +1,51 @@
+12 Chapter 1  
+Introduction• The service or system involved follows a philosophy of fault tolerance, whereby 
+hardware or software faults lead to graceful cessation of service or to work-
+
+arounds rather than to crashes and abrupt loss of information. (Cessation does 
+mean end; whether it is graceful or not, ultimately the system is unavailable. 
+
+However, with fair warning of the system’s stopping, the user may be able to 
+
+move to another system and continue work.)
+• The service or system can be used easily and in the way it was intended to 
+be used. (This is a characteristic of usability, but an unusable system may also 
+
+cause an availability failure.)
+As you can see, expectations of availability are far-reaching. In Figure 1-7 we depict 
+some of the properties with which availability overlaps. Indeed, the security community 
+
+is just beginning to understand what availability implies and how to ensure it.
+A person or system can do three basic things with a data item: view 
+
+it, modify it, or use it. Thus, viewing 
+
+(confidentiality), modifying (integ-
+
+rity), and using (availability) are the 
+
+basic modes of access that computer 
+security seeks to preserve.
+A paradigm of computer security is access control
+: To implement a policy, com-
+puter security controls all accesses by all subjects to all protected objects in all modes 
+of access. A small, centralized control of access is fundamental to preserving confi-
+
+dentiality and integrity, but it is not clear that a single access control point can enforce 
+
+availability. Indeed, experts on dependability will note that single points of control can 
+
+become single points of failure, making it easy for an attacker to destroy availability by 
+
+disabling the single control point. Much of computer security’s past success has focused 
+
+on confidentiality and integrity; there are models of confidentiality and integrity, for 
+PerformanceCapacityUsabilityFault
+Tolerance
+Availability
+FIGURE 1-7 Availability and Related Aspects
+Computer security seeks to prevent 
+
+unauthorized viewing (confidentiality) 
+or modification (integrity) of data while 
+preserving access (availability).

@@ -1,0 +1,74 @@
+532 PART THREE  
+QUALITY MANAGEMENTcode. The operation call is used as a clue, a way to ﬁ nd test requirements that 
+exercise the calling code.   
+ 
+ 
+24.4.4   
+Scenario-Based Test Design 
+ 
+Fault-based testing misses two main types of errors: (1) incorrect speciﬁ cations 
+and (2) interactions among subsystems. When errors associated with an incorrect 
+speciﬁ cation occur, the product doesn’t do what the customer wants. It might 
+do the wrong thing or omit important functionality. But in either circumstance, 
+
+quality (conformance to requirements) suffers. Errors associated with subsystem 
+interaction occur when the behavior of one subsystem creates circumstances 
+(e.g., events, data ﬂ ow) that cause another subsystem to fail. 
+ Scenario-based testing concentrates on what the user does, not what the product does. This means capturing the tasks (via use cases) that the user has to 
+perform and then applying them and their variants as tests.  Scenarios uncover interaction errors. But to accomplish this, test cases must be more complex and more realistic than fault-based tests. Scenario-based 
+testing tends to exercise multiple subsystems in a single test (users do not limit 
+themselves to the use of one subsystem at a time).   
+ 
+ 
+ 
+ 
+ 24.5  
+TESTING METHODS APPLICABLE AT THE CLASS LEVEL  
+ 
+Testing “in the small” focuses on a single class and the methods that are encapsu-
+lated by the class. Random testing and partitioning are methods that can be used 
+to exercise a class during OO testing.   
+ 
+24.5.1   
+Random Testing for OO Classes 
+ 
+ 
+ 
+ 
+ 
+ 
+To provide brief illustrations of these methods, consider a banking application 
+in which an  Account 
+ class has the following operations:  open(), setup(), deposit(), withdraw(), balance(), summarize(), creditLimit(),
+ 
+ and  
+close() 
+ [Kir94]. Each of 
+these operations may be applied for  Account, 
+ but certain constraints (e.g., the 
+account must be opened before other operations can be applied and closed after 
+all operations are completed) are implied by the nature of the problem. Even 
+with these constraints, there are many permutations of the operations. The min-
+imum behavioral life history of an instance of  Account 
+ includes the following 
+operations:open•setup•deposit•withdraw•close  This represents the minimum test sequence for account. However, a wide va-
+riety of other behaviors may occur within this sequence:open•setup•deposit•[deposit | withdraw | balance | summarize | creditLimit]  n 
+ 
+•withdraw•close    Scenario-based testing 
+will uncover errors 
+
+that occur when any 
+actor interacts with the 
+software.    The number of possible 
+
+permutations for ran-
+
+dom testing can grow 
+quite large. A strategy 
+similar to orthogonal 
+
+array testing can be 
+
+used to improve test-
+ing efﬁ ciency. 
+pre22126_ch24_523-539.indd   532pre22126_ch24_523-539.indd   53213/12/13   10:02 PM13/12/13   10:02 PM

@@ -1,0 +1,34 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜As I discussed in Chapter 2, software development processes have to be adapted to take reuse into account. In particular, there has to be a requirements refinement stage where the requirements for the system are modified to reflect the reusable soft-
+ware that is available. The design and implementation stages of the system may also 
+include explicit activities to look for and evaluate candidate components for reuse.
+Over the past 20 years, many techniques have been developed to support software 
+reuse. These techniques exploit the facts that systems in the same application domain 
+are similar and have potential for reuse, that reuse is possible at different levels from 
+simple functions to complete applications, and that standards for reusable compo
+-nents facilitate reuse. Figure 
+15.3 shows the ﬁreuse landscapeﬂŠdifferent ways of 
+implementing software reuse. Each of these approaches to reuse is briefly described 
+in Figure 15.4.Given this array of techniques for reuse, the key question is ﬁwhich is the most appropriate technique to use in a particular situation?ﬂ Obviously, the answer to this 
+question depends on the requirements for the system being developed, the  technology 
+ProblemExplanationCreating, maintaining, and using a 
+component libraryPopulating a reusable component library and ensuring the software 
+developers can use this library can be expensive. Development 
+processes have to be adapted to ensure that the library is used.Finding, understanding, and 
+adapting reusable componentsSoftware components have to be discovered in a library, understood, 
+and sometimes adapted to work in a new environment. Engineers 
+must be reasonably confident of finding a component in the library 
+before they include a component search as part of their normal 
+development process.Increased maintenance costsIf the source code of a reused software system or component is not 
+available, then maintenance costs may be higher because the reused 
+elements of the system may become incompatible with changes 
+made to the system.Lack of tool supportSome software tools do not support development with reuse. It may 
+be difficult or impossible to integrate these tools with a component 
+library system. The software process assumed by these tools may not 
+take reuse into account. This is more likely to be the case for tools 
+that support embedded systems engineering than for object-oriented 
+development tools.ﬁNot-invented-hereﬂ syndromeSome software engineers prefer to rewrite components because they 
+believe they can improve on them. This is partly to do with trust and 
+partly to do with the fact that writing original software is seen as 
+more challenging than reusing other people™s software.Figure 15.2 Problems with software reuse

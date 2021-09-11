@@ -1,0 +1,75 @@
+ Section 6.4  Denial of Service 
+401  SIDEBAR 6-17  
+Beth Israel-Deaconess Hospital Systems DownIn 2002, Boston’s Beth Israel-Deaconess Medical Center was recognized 
+by Information Week 
+as 16th of the 500 top innovative IT groups in the 
+United States. In the same year the hospital suffered a denial-of-service 
+
+incident that sent the entire hospital back to using the paper forms they had 
+
+abandoned years earlier [BER03].On Wednesday, 13 November 2002, the first symptom noticed was 
+that ordinarily instantaneous email was taking ten seconds to transmit. The 
+
+network engineers observed that one core network switch was saturated by 
+
+a sudden surge in traffic from an unknown source. To cope with this volume 
+
+from an unknown cause, the engineers began disintegrating the network, 
+
+closing connections to simplify traffic flow in the network and also to help 
+
+identify the source of the problem. Later the engineers would learn that 
+
+closing portions of the network actually exacerbated the problem.
+It turned out the network was thrashing because of something called 
+a spanning tree protocol loop. The hospital’s network architecture included 
+
+many switches, each of which used a spanning tree algorithm, essentially a map of the shortest route to each known destination in the network. Each 
+
+switch was responsible for testing its connections and communicating with 
+
+neighboring switches to build its own spanning tree. But to avoid endless 
+
+loops (node A determines that the way to node C is to go first to node B, but 
+
+node B thinks the better path is to go through node A, so the communica-
+
+tion loops endlessly between nodes A and B), the algorithm capped the 
+
+path length computation at seven. At Beth Israel, one very large data trans-
+
+fer got caught in a longer loop that slowed traffic considerably. But when 
+
+the engineers started cutting circuits, those actions caused all the switches 
+
+to try to recalculate their spanning tree paths, which in turn slowed traffic 
+
+and caused the engineers to sever even more links, leading in turn to even 
+
+more switch recalculations.
+A significant part of the problem was that the network design was 
+appropriate for 1996, when it was initially installed, but the network archi-
+
+tecture had not been upgraded to account either for major expansion, as 
+
+Beth Israel brought in several regional hospitals to join its IT network, or 
+
+for advances in technology, as routers replaced switches in large network 
+
+segments with complex connectivity. The 1996 network was functioning 
+
+adequately in 2002 at times of low stress, but a major burst of network traf-
+
+fic flooded the network, denying prompt access to all users.
+Lab test requests, patient record charts, prescription orders, digi-
+tal x-ray results, billing records, all data that would normally have been 
+
+handled easily electronically suddenly ceased working. On Thursday 
+
+14 November the administrators decided to give up on the entire elec-
+tronic system to allow network engineers full access to the network. The 
+
+hospital reverted to using paper forms, obviously slower and more cumber-
+
+some. But even then, the network was so congested that it was difficult to 
+(continues)

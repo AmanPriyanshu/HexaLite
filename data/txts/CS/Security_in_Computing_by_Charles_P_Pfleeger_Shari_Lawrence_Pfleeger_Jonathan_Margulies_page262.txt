@@ -1,0 +1,67 @@
+228 Chapter 3  
+Programs and Programming• Bribe someone to divulge the password.
+• Intercept the password between its being typed and used (as was done at 
+Churchill High School).• Pretend to have forgotten the password and guess the answers to the supposedly 
+secret recovery.
+• Override the password request in the application.
+If we did a simple work factor calculation on passwords, we might conclude that it 
+would take 
+x time units times 
+y passwords, for a work factor of 
+x*y/2 assuming, on aver-
+age, half the passwords have to be tried to guess the correct one. But if the attacker uses 
+
+any but the first technique, the time could be significantly different. Thus, in determin-
+
+ing work factor, we have to assume the attacker uses the easiest way possible, which 
+
+might take minutes, not decades.
+Security by obscurity is a faulty countermeasure because it assumes the attacker will 
+always take the hard approach and never the easy one. Attackers are lazy, like most of 
+
+us; they will find the labor-saving way if it exists. And that way may involve looking 
+
+under the doormat to find a key instead of battering down the door. We remind you in 
+
+later chapters when a countermeasure may be an instance of security by obscurity.
+A Perfect Good–Bad Code SeparatorPrograms can send a man to the moon, restart a failing heart, and defeat a former cham-
+pion of the television program Jeopardy. Surely they can separate good programs from 
+
+bad, can’t they? Unfortunately, not.
+First, we have to be careful what we mean when we say a program is good. (We 
+use the simple terms good and bad instead of even more nuanced terms such as secure, 
+
+safe, or nonmalicious.) As Sidebar 3-11 explains, every program has side effects: It uses 
+
+memory, activates certain machine hardware, takes a particular amount of time, not to 
+
+mention additional activities such as reordering a list or even presenting an output in 
+
+a particular color. We may see but not notice some of these. If a designer prescribes 
+
+that output is to be presented in a particular shade of red, we can check that the pro-
+
+gram actually does that. However, in most cases, the output color is unspecified, so 
+
+the designer or a tester cannot say a program is nonconforming or bad if the output 
+
+appears in red instead of black. But if we cannot even decide whether such an effect 
+
+is acceptable or not, how can a program do that? And the hidden effects (computes for 
+
+0.379 microseconds, uses register 2 but not register 4) are even worse to think about 
+
+judging. Thus, we cannot now, and probably will never be able to, define precisely what 
+
+we mean by good or bad well enough that a computer program could reliably judge 
+
+whether other programs are good or bad.Even if we could define “good” satisfactorily, a fundamental limitation of logic will 
+get in our way. Although well beyond the scope of this book, the field of decidability 
+
+or computability looks at whether some things can ever be programmed, not just today 
+
+or using today’s languages and machinery, but ever. The crux of computability is the 
+
+so-called halting problem
+, which asks whether a computer program stops execution or 
+runs forever. We can certainly answer that question for many programs. But the British 

@@ -1,0 +1,57 @@
+150 Chapter 3  
+Programs and Programmingobjectives for each of our programming projects. If our basic tool, the language in which 
+we design and code our programs, is also complicated, the language itself becomes part 
+of the problem rather than part of its solution.Some programming languages have features that preclude overflows. For example, 
+languages such as Java, .NET, Perl, and Python generate code to check bounds before 
+
+storing data. The unchecked languages C, C++, and assembler language allow largely 
+
+unlimited program access. To counter the openness of these languages, compiler writers 
+
+have developed extensions and libraries that generate code to keep programs in check.
+Code Analyzers Software developers hope for a simple tool to find security errors in programs. Such a 
+
+tool, called a static code analyzer, analyzes source code to detect unsafe conditions. Although such tools are not, and can never be, perfect, several good ones exist. Kendra 
+
+Kratkiewicz and Richard Lippmann [KRA05] and the US-CERT Build Security In web-
+
+site at https://buildsecurityin.us-cert.gov/ contain lists of static code analyzers.
+Separation Another direction for protecting against buffer overflows is to enforce containment: 
+
+separating sensitive areas from the running code and its buffers and data space. To a 
+
+certain degree, hardware can separate code from data areas and the operating system.
+Stumbling Blocks Because overwriting the stack is such a common and powerful point of attack, protect-
+
+ing it becomes a priority.
+Refer again to Figure 3-8, and notice that each procedure call adds a new stack frame 
+that becomes a distinct slice of the stack. If our goal is to protect the stack, we can 
+
+do that by wrapping each stack frame in a protective layer. Such a layer is sometimes 
+
+called a canary, in reference to canary birds that were formerly taken into underground 
+mines; the canary was more sensitive to limited oxygen, so the miners could notice the 
+
+canary reacting before they were affected, giving the miners time to leave safely.
+In this section we show how some manufacturers have developed cushions to guard 
+against benign or malicious damage to the stack.In a common buffer overflow stack modification, the program counter is reset to 
+point into the stack to the attack code that has overwritten stack data. In Figure 3-10, 
+
+the two parameters P1 and P2 have been overwritten with code to which the program 
+
+counter has been redirected. (Two instructions is too short a set for many stack overflow 
+
+attacks, so a real buffer overflow attack would involve more data in the stack, but the 
+
+concept is easier to see with a small stack.)StackGuard is an approach proposed by Crispin Cowan et al. [COW98] The attacker 
+usually cannot tell exactly where the saved program counter is in the stack, only that 
+
+there is one at an approximate address. Thus, the attacker has to rewrite not just the 
+
+stack pointer but also some words around it to be sure of changing the true stack pointer, 
+
+but this uncertainty to the attacker allows StackGuard to detect likely changes to the 
+
+program counter. Each procedure includes a prolog code to push values on the stack, set 
+
+the remainder of the stack frame, and pass control to the called return; then on return, 

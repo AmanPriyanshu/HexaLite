@@ -1,0 +1,44 @@
+˜˜˚˛ˆ˜˜˜˜˜˜
+However, we are still a long way from this ideal situation, and automated quality 
+assessment is unlikely to become a reality in the near future.A software metric is a characteristic of a software system, system documentation, or development process that can be objectively measured. Examples of metrics 
+
+include the size of a product in lines of code, the Fog index, which is a measure of 
+
+the readability of narrative text, the number of reported faults in a delivered software 
+product, and the number of person-days required to develop a system component.Software metrics may be either control metrics or predictor metrics. As the names 
+imply, control metrics support process management, and predictor metrics help you 
+
+predict characteristics of the software. Control metrics are usually associated with soft-ware processes. Examples of control or process metrics are the average effort and the 
+
+time required to repair reported defects. Three kinds of process metrics can be used:1. The time taken for a particular process to be completed 
+This can be the total 
+time devoted to the process, calendar time, the time spent on the process by 
+
+particular engineers, and so on.2. The resources required for a particular process Resources might include total 
+effort in person-days, travel costs, or computer resources.3. The number of occurrences of a particular event Examples of events that might 
+
+be monitored include the number of defects discovered during code inspection, 
+
+the number of requirements changes requested, the number of bug reports in a 
+
+delivered system, and the average number of lines of code modified in response 
+
+to a requirements change.Predictor metrics (sometimes called product metrics) are associated with the soft-ware itself. Examples of predictor metrics are the cyclomatic complexity of a module, 
+
+the average length of identifiers in a program, and the number of attributes and opera-
+tions associated with object classes in a design. Both control and predictor metrics 
+
+may influence management decision making as shown in Figure 24.9. Managers use 
+
+process measurements to decide if process changes should be made and predictor met-
+rics to decide if software changes are necessary and if the software is ready for release.Management
+decisionsControl metric
+measurements
+Software
+process
+Predictor metric
+measurements
+Software
+product
+Figure 24.9 Predictor and control 
+measurements

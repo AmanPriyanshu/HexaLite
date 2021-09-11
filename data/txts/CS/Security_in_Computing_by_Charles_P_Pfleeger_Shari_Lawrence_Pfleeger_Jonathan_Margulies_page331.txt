@@ -1,0 +1,74 @@
+ Section 5.1  Security in Operating Systems 
+297  • Share but limit access
+. With protection by access limitation, the operating sys-
+tem checks the allowability of each user’s potential access to an object. That is, 
+
+access control is implemented for a specific user and a specific object. Lists of 
+
+acceptable actions guide the operating system in determining whether a particu-
+lar user should have access to a particular object. In some sense, the operating 
+
+system acts as a guard between users and objects, ensuring that only authorized 
+accesses occur.
+• Limit use of an object
+. This form of protection limits not just the access to an 
+object but the use made of that object after it has been accessed. For example, a 
+
+user may be allowed to view a sensitive document but not to print a copy of it. 
+
+More powerfully, a user may be allowed access to data in a database to derive 
+
+statistical summaries (such as average salary at a particular grade level), but not 
+
+to determine specific data values (salaries of individuals).
+Again, these modes of sharing are arranged in increasing order of difficulty to imple-
+ment, but also in increasing order of fineness (which we also describe as granularity) 
+
+of protection they provide. A given operating system may provide different levels of 
+
+protection for different objects, users, or situations. As we described earlier in this chap-
+
+ter, the granularity of control an operating system implements may not be ideal for the 
+
+kinds of objects a user needs.Hardware Protection of Memory
+In this section we describe several ways of protecting a memory space. We want a pro-
+gram to be able to share selected parts of memory with other programs and even other 
+
+users, and especially we want the operating system and a user to coexist in memory 
+
+without the user’s being able to interfere with the operating system. Even in single-user 
+
+systems, as you have seen, it may be desirable to protect a user from potentially com-
+
+promisable system utilities and applications. Although the mechanisms for achieving 
+
+this kind of sharing are somewhat 
+
+complicated, much of the imple-
+
+mentation can be reduced to hard-
+
+ware, thus making sharing efficient 
+
+and highly resistant to tampering.Fence The simplest form of memory protection was introduced in single-user operating sys-
+
+tems, to prevent a faulty user program from destroying part of the resident portion of 
+
+the operating system. As its name implies, a 
+fence is a method to confine users to one 
+side of a boundary.
+In one implementation, the fence was a predefined memory address, enabling the 
+operating system to reside on one side and the user to stay on the other. An example of 
+
+this situation is shown in Figure 5-6. Unfortunately, this kind of implementation was 
+
+very restrictive because a predefined amount of space was always reserved for the oper-
+
+ating system, whether the space was needed or not. If less than the predefined space was 
+
+required, the excess space was wasted. Conversely, if the operating system needed more 
+
+space, it could not grow beyond the fence boundary.
+Memory protection implements both 
+
+separation and sharing.

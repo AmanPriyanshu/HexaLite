@@ -1,0 +1,80 @@
+CHAPTER 13  
+ARCHITECTURAL DESIGN 275 
+The Software Engineering Institute (SEI) has developed an  architecture trade-
+off analysis method 
+ (ATAM) [Kaz98] that establishes an iterative evaluation pro-
+cess for software architectures. The design analysis activities that follow are 
+performed iteratively:   
+ 
+ 1.   
+Collect scenarios. 
+ A set of use cases ( Chapters 8  and  9 ) is developed to represent the system from the user’s point of view. 
+    
+ 2.   
+Elicit requirements, constraints, and environment description.
+ 
+ This infor-
+mation is required as part of requirements engineering and is used to be 
+certain that all stakeholder concerns have been addressed.     
+ 3.   
+Describe the architectural styles/patterns that have been chosen to ad-
+dress the scenarios and requirements.
+ 
+ The architectural style(s) should be described using one of the following architectural views:  
+ 
+  •   
+ 
+Module view 
+ for analysis of work assignments with components and the degree to which information hiding has been achieved.    
+ •   
+Process view
+ 
+ for analysis of system performance.    
+ •   
+ 
+Data ﬂ ow view
+ 
+ for analysis of the degree to which the architecture meets functional requirements.  
+ 
+    
+ 4.   
+Evaluate quality attributes by considering each attribute in isolation. 
+ The number of quality attributes chosen for analysis is a function of the time 
+available for review and the degree to which quality attributes are rel-
+evant to the system at hand. Quality attributes for architectural design 
+assessment include reliability, performance, security, maintainability, 
+
+ ﬂ exibility, testability, portability, reusability, and interoperability. 
+    
+ 5.   
+Identify the sensitivity of quality attributes to various architectural attributes 
+for a speciﬁ c architectural style.
+ 
+ This can be accomplished by making small 
+changes in the architecture and determining how sensitive a quality attri-
+bute, say performance, is to the change. Any attributes that are signiﬁ cantly 
+affected by variation in the architecture are termed  sensitivity points.  
+    
+ 6.   
+Critique candidate architectures (developed in step 3) using the sensitivity 
+analysis conducted in step 5. 
+ The SEI describes this approach in the fol-lowing manner [Kaz98]:  
+ 
+ 
+ 
+ 
+ 
+Once the architectural sensitivity points have been determined, ﬁ nding trade-off 
+points is simply the identiﬁ cation of architectural elements to which multiple at-
+tributes are sensitive. For example, the performance of a client-server architec-
+ture might be highly sensitive to the number of servers (performance increases, 
+. The number of serv-
+
+ers, then, is a trade-off point with respect to this architecture.   
+ 
+ 
+ 
+ 
+These six steps represent the ﬁ rst ATAM iteration. Based on the results of 
+5 and 6, some architecture alternatives may be eliminated, one or more of 
+pre22126_ch13_252-284.indd   275pre22126_ch13_252-284.indd   27513/12/13   6:12 PM13/12/13   6:12 PM

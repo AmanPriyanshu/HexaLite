@@ -1,0 +1,84 @@
+310 PART TWO  
+MODELING 
+ 
+ 
+• 
+ 
+  Service requirements, including operating system interfaces and support from other components.   
+ 
+ 
+• 
+ 
+  Security features, including access controls and authentication protocol.   
+ 
+ 
+• 
+ 
+  Embedded design assumptions, including the use of speciﬁ c numerical or 
+nonnumeric algorithms.   
+ 
+ 
+• 
+ 
+  Exception handling.    
+Each of these factors is relatively easy to assess when proposing reusable components that have been developed in-house. If good software engineering 
+practices were applied during the development of a component, answers to the 
+questions implied by the list can be developed. However, it is much more difﬁ
+ cult 
+to determine the internal workings of commercial off-the-shelf (COTS) or third-
+party components because the only available information may be the interface 
+speciﬁ cation itself. 
+ 
+ 
+ 
+Component Adaptation.   In an ideal setting, domain engineering creates a li-brary of components that can be easily integrated into an application architec-
+ture. The implication of “easy integration” is that consistent methods of resource 
+management have been implemented for all components in the library, common 
+
+activities such as data management exist for all components, and interfaces 
+within the architecture and with the external environment have been imple-
+mented in a consistent manner. 
+ 
+ 
+ 
+   
+In reality, even after a component has been qualiﬁ
+ ed for use within an appli-
+cation architecture, conﬂ icts may occur in one or more of the areas just noted. 
+To avoid these conﬂ
+ icts, an adaptation technique called  
+component wrapping 
+ [Bro96] is sometimes used. When a software team has full access to the internal 
+design and code for a component (often not the case unless open-source COTS 
+components are used),  white-box wrapping 
+ is applied. Like its counterpart in 
+software testing (Chapter 23), white-box wrapping examines the internal pro-
+cessing details of the component and makes code-level modiﬁ cations to remove 
+any conﬂ ict.  
+Gray-box wrapping 
+ is applied when the component library provides 
+a component extension language or API that enables conﬂ icts to be removed or 
+masked.  Black-box wrapping 
+ requires the introduction of pre- and postprocess-
+ing at the component interface to remove or mask conﬂ icts. You must deter-
+mine whether the effort required to adequately wrap a component is justiﬁ ed or 
+whether a custom component (designed to eliminate the conﬂ icts encountered) 
+should be engineered instead.   
+ 
+Component Composition.   The component composition task assembles qualiﬁ ed, 
+adapted, and engineered components to populate the architecture established 
+for an application. To accomplish this, an infrastructure must be established to 
+
+bind the components into an operational system. The infrastructure (usually 
+a library of specialized components) provides a model for the coordination of    In addition to assessing 
+whether the cost of 
+adaptation for reuse 
+is justiﬁ ed, you should 
+
+also assess whether 
+achieving required 
+functionality and per-
+formance can be done 
+
+cost effectively. 
+pre22126_ch14_285-316.indd   310pre22126_ch14_285-316.indd   31013/12/13   6:12 PM13/12/13   6:12 PM

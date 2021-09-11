@@ -1,0 +1,69 @@
+CHAPTER 26  
+TESTING MOBILEAPPS 579travels between your server and the test client. Some proxies may strip vital information from http headers your application needs to provide functionality 
+or device adaptation. Network signal strength can be an issue. Emulators often 
+cannot emulate the effects and timing of network services, and you may not see 
+problems that users will have when the MobileApp runs on an actual device.  A remote mobile device is a useful piece of test equipment that can be used to 
+overcome some of the limitations of using emulators. A  remote mobile device
+ 
+ is a 
+physical mobile handset that is mounted in a box with a remote control unit and 
+
+remote antenna. The remote control unit is connected to the device screen and 
+
+keyboard control circuits. When connected to the Internet, this solution allows a 
+
+user on a local PC or Web client to press buttons and collect data on what is hap-
+
+pening on the remote device. Some remote devices have the ability to record test 
+
+cases for subsequent replay to assist the process of automating regression testing. 
+ Last, it is important to monitor power consumption speciﬁ cally associated 
+with the use of the MobileApp on a mobile device. Transmitting information from 
+
+mobile devices consumes more power than monitoring a network for a signal. 
+Processing streaming media consumes more power than loading a Web page or 
+
+sending a text message. Assessing power consumption accurately must be done 
+in real time on the actual device and in the wild.   
+ 
+ 
+ 
+ 26.6  
+TESTING TOOLS AND ENVIRONMENTS  
+ 
+In Section 26.3.2 we discussed the reasons for automating some aspects of Mo-bileApp testing in order to reduce testing time and improve the quality and cov-
+erage of the testing process. Likewise, we discussed the importance of testing in 
+the production environment in Section 26.2.5. There are times, however, when 
+
+manual testing is required, but even in those cases, tools can be used to monitor 
+the behavior of MobileApps and users on devices across networks.  Khode [Kho12b] suggests several criteria to use when selecting mobile test automation tools. These criteria might also be applicable to mobile testing tools 
+in general.   
+ 
+ 
+•   
+Object identiﬁ cation
+ 
+—The tool can recognize device objects using a vari-ety of methods (e.g., object ID, image processing, text recognition, HTML5/
+DOM objects).   
+ 
+ 
+•   
+Security 
+—The tool should not require the use of an unprotected device connected to the public Internet.   
+ 
+ 
+•   
+Devices 
+—The tool makes use of actual user devices without requiring the use of special developer modes.   
+ 
+ 
+•   
+Functionality 
+—All device functionality is supported including multitouch gestures, virtual keyboard input, incoming calls and text messaging, alert 
+processing, and others.  What criteria 
+should I 
+use to select 
+
+automation tools 
+
+for mobile testing??pre22126_ch26_567-583.indd   579pre22126_ch26_567-583.indd   57913/12/13   6:15 PM13/12/13   6:15 PM

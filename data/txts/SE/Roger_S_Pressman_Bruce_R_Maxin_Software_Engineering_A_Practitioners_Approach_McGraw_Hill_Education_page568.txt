@@ -1,0 +1,78 @@
+538 PART THREE  
+QUALITY MANAGEMENTtest-case design methods can also make use of random and partition tests. In addition, scenario-based testing and tests derived from behavioral models can 
+be used to test a class and its collaborators. A test sequence tracks the ﬂ ow of 
+operations across class collaborations.  OO system validation testing is black-box oriented and can be accomplished by applying the same black-box methods discussed for conventional software. 
+However, scenario-based testing dominates the validation of OO systems, mak-
+
+ing the use case a primary driver for validation testing.   
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+24.1.  In your own words, describe why the class is the smallest reasonable unit for testing within an OO system.    
+ 
+24.2.  Why do we have to retest subclasses that are instantiated from an existing class, if the existing class has already been thoroughly tested? Can we use the test-case design for the 
+existing class?    
+ 
+24.3.  Why should “testing” begin with object-oriented analysis and design?    
+ 
+24.4.  Derive a set of CRC index cards for  SafeHome, 
+ and conduct the steps noted in Sec-
+   
+ 
+24.5.  What is the difference between thread-based and use-based strategies for integration testing? How does cluster testing ﬁ t in? 
+   
+ 
+24.6.  Apply random testing and partitioning to three classes deﬁ ned in the design for the 
+ SafeHome 
+ system. Produce test cases that indicate the operation sequences that will be 
+invoked.    
+ 
+24.7.  Apply multiple class testing and tests derived from the behavioral model for the  Safe-Home 
+ design.    
+ 
+24.8.  Derive four additional tests using random testing and partitioning methods as well as multiple class testing and tests derived from the behavioral model for the banking applica-
+tion presented in Sections 24.5 and 24.6.   
+ 
+ 
+ 
+  F
+URTHER
+ READINGS AND INFORMATION
+ SOURCES  
+ 
+Many books on testing noted in the  Further Readings 
+ sections of Chapters 22 and 23 dis-
+cuss testing of OO systems to some extent. Bashir and Goel ( Testing Object-Oriented 
+Software,
+ 
+ Springer, 2012), Schach ( 
+Object-Oriented and Classical Software Engineering,
+ 
+ McGraw-Hill, 8th ed., 2010) and Bruege and Dutoit ( Object-Oriented Software Engineering 
+Using UML, Patterns, and Java 
+, Prentice Hall, 3rd ed., 2009) consider OO testing within the context of broader software engineering practice. Jorgensen ( Software Testing: A Crafts-
+man’s Approach,
+ 
+ Auerbach, 3rd ed., 2008) discusses formal techniques and object-oriented 
+techniques. Yurga ( 
+Testing and Testability of Object-Oriented Software Systems via Metrics: 
+A Metrics-Based Approach to the Testing Process and Testability of Object-Oriented Soft-
+
+ware Systems,
+ 
+ LAP Lambert, 2011), Sykes and McGregor ( 
+Practical Guide to Testing 
+Object-Oriented Software,
+ 
+ Addison-Wesley, 2001), Binder ( 
+Testing Object-Oriented Systems,
+ 
+ Addison-Wesley, 1999), and Kung and his colleagues ( 
+Testing Object-Oriented Software,
+ 
+ Wiley-IEEE Computer Society Press, 1998), treat OO testing in signiﬁ
+ cant detail. Freeman 
+pre22126_ch24_523-539.indd   538pre22126_ch24_523-539.indd   53813/12/13   10:02 PM13/12/13   10:02 PM

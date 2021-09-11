@@ -1,0 +1,34 @@
+˘˜˚˝˙˘˜˘˘˘
+ systems can be developed by co-located teams, so informal communications among team members work well.
+The ideas underlying agile methods were developed around the same time by a number 
+
+of different people in the 1990s. However, perhaps the most significant approach to 
+
+changing software development culture was the development of Extreme Programming 
+
+(XP). The name was coined by Kent Beck (Beck 1998) because the approach was 
+
+developed by pushing recognized good practice, such as iterative development, to 
+ﬁextremeﬂ levels. For example, in XP, several new versions of a system may be devel
+-
+oped by different programmers, integrated, and tested in a day. Figure 3.3 illustrates 
+
+the XP process to produce an increment of the system that is being developed.In XP, requirements are expressed as scenarios (called user stories), which are 
+implemented directly as a series of tasks. Programmers work in pairs and develop 
+tests for each task before writing the code. All tests must be successfully executed 
+
+when new code is integrated into the system. There is a short time gap between 
+
+releases of the system.Extreme programming was controversial as it introduced a number of agile prac-tices that were quite different from the development practice of that time. These prac-
+tices are summarized in Figure 3.4 and reflect the principles of the agile manifesto:1. Incremental development is supported through small, frequent releases of the sys-tem. Requirements are based on simple customer stories or scenarios that are used 
+as a basis for deciding what functionality should be included in a system increment.2. Customer involvement is supported through the continuous engagement of the 
+customer in the development team. The customer representative takes part in 
+
+the development and is responsible for defining acceptance tests for the system.
+3. People, not process, are supported through pair programming, collective owner
+-
+ship of the system code, and a sustainable development process that does not 
+
+involve excessively long working hours.Break down
+stories to tasksSelect userstories for thisreleasePlan releaseReleasesoftwareEvaluatesystemDevelop/integrate/
+test softwareFigure 3.3 The XP release cycle

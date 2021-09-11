@@ -1,0 +1,97 @@
+CHAPTER 14  
+COMPONENT-LEVEL DESIGN
+ 309requirements model for the classes. It is important to note that domain analysis is 
+applicable to any software engineering paradigm and may be applied for conven-
+tional as well as object-oriented development. 
+  
+ 
+14.7.2 Component Qualiﬁ
+ cation, Adaptation, and Composition 
+ 
+Domain engineering provides the library of reusable components that are re-quired for CBSE. Some of these reusable components are developed in-house, 
+others can be extracted from existing applications, and still others may be ac-
+quired from third parties.  Unfortunately, the existence of reusable components does not guarantee that 
+these components can be integrated easily or effectively into the architecture cho-
+sen for a new application. It is for this reason that a sequence of component-based 
+development actions is applied when a component is proposed for use.   
+Component Qualification.   Component qualiﬁ cation ensures that a candidate com-
+ponent will perform the function required, will properly “ﬁ t” into the architectural 
+style (Chapter 13) speciﬁ ed for the system, and will exhibit the quality characteris-
+tics (e.g., performance, reliability, usability) that are required for the application. 
+  
+Design by contract 
+ is a technique that focuses on deﬁ
+ ning clear and veriﬁ
+ able 
+component interface speciﬁ cations, thereby allowing potential users of the com-
+ponent to understand its intent quickly. Assertions, known as  
+preconditions
+ 
+,  post conditions 
+, and  invariants, 
+ are added to the component speciﬁ
+ cation. 
+ 9 
+ 
+ Assertions 
+let developers know what to expect from the component and how it behaves 
+under certain conditions. Assertions make it easier for developers to identify 
+qualiﬁ ed components, and as a consequence, be more willing to trust using the 
+component in their designs. Design by contract is enhanced when components 
+have an “economical interface,” that is, the component interface has the smallest 
+set of operations necessary to allow it to fulﬁ ll its responsibilities (contract). 
+  
+An interface speciﬁ cation provides useful information about the operation 
+and use of a software component, but it does not provide all of the information 
+required to determine if a proposed component can, in fact, be reused effectively 
+in a new application. Among the many factors considered during component 
+qualiﬁ cation are [Bro96]: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+• 
+ 
+  Application programming interface (API).   
+ 
+ 
+• 
+ 
+  Development and integration tools required by the component.   
+ 
+ 
+• 
+ 
+  Run-time requirements, including resource usage (e.g., memory or  storage), timing or speed, and network protocol.   What 
+factors are considered during 
+component 
+qualiﬁ cation? 
+?   The analysis process 
+we discuss in this 
+section focuses on 
+reusable components. 
+However, the analysis 
+
+of complete COTS 
+systems (e.g., 
+ e-commerce Apps, 
+
+sales force automation 
+Apps) can also be 
+a part of domain 
+
+analysis.   
+9   Preconditions
+ 
+ are statements about assumptions that must be veriﬁ
+ ed before using a compo-
+nent,  post conditions 
+ statements about guaranteed services a component will deliver, and  
+in-variants 
+ are statements about system attributes that will not be changed by components. These 
+concepts will be discussed in Chapter 28. pre22126_ch14_285-316.indd   309pre22126_ch14_285-316.indd   30913/12/13   6:12 PM13/12/13   6:12 PM

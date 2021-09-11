@@ -1,0 +1,101 @@
+CHAPTER 27  
+SECURITY ENGINEERING 597 
+ 
+ 
+ 
+ 
+ 27.7  
+VERIFICATION
+ OF TRUSTWORTHY
+ SYSTEMS  
+ 
+ 
+ 
+When considered in the context of software security,  
+trust 
+ indicates the level of con-
+ﬁ dence that one system entity (or organization) can rely on another.  
+System entities 
+ encompass entire systems, subsystems, and software components. Trust has a psy-
+
+chological dimension as well as a technical dimension. In general, one entity can 
+
+be said to trust another when it makes the assumption that the second entity will 
+
+behave exactly as the ﬁ rst entity expects. Demonstrating that this assumption is 
+correct is the task of verifying the trustworthiness of a system. Although a variety of 
+
+trust models have been proposed [Sin08], our focus will be on ensuring that the sys-
+tem conforms to the mitigation practices created within the system threat model. 
+ The veriﬁ cation task ensures that the requirements for trustworthy systems are 
+assessed using speciﬁ c, quantiﬁ
+ able metrics based on testing, inspection, and analysis 
+techniques [She10]. Testing metrics might include the ratio of the number of detected 
+
+faults to the number of predicted faults or the ratio of security test cases passed to the 
+
+total number run. Other metrics might include defect removal efﬁ ciency (Chapter 32) 
+of the formal inspection activities. Ensuring the traceability of security test cases back 
+
+to security use cases developed during analysis activities is also useful. 
+ The evidence used to prove the security case must be acceptable and convinc-ing to all collaborators of the trusted entity. Users of trustworthy systems should 
+
+be convinced that the system has no exploitable vulnerabilities or malicious 
+logic. As a consequence of the veriﬁ cation task, users should have conﬁ
+ dence 
+in the dependability of the system and its survivability when compromised. This 
+implies that damage to software will be minimized and that the system can re-
+cover quickly to an acceptable operating capacity. Speciﬁ
+ c security test cases 
+and procedures are an important part of the veriﬁ cation process as well [Mea10]. 
+    
+Trust
+  indicates the level 
+of conﬁ dence that 
+
+one system entity (or 
+organization) can rely 
+on another. 
+  
+ 
+Security Test Case Creation 
+   
+ 
+Security Test Case Creation 
+  
+ 
+The scene:  Vinod’s cubical. 
+  
+The players:  Vinod Raman, software team member, 
+and Ed Robbins, software team member. 
+  
+The conversation:    
+Vinod:  We need to create a security test case for 
+accessing the  SafeHome 
+ video offsite.   
+Ed:  We should start by reviewing the security use case 
+that Doug and Bridget [software quality group leader] 
+developed.   
+Vinod:  I suppose we could let the ITG contractors do 
+this, but this seems like a pretty straightforward test 
+
+case. It should be added to the set of test cases we use 
+for regression testing, too.   
+Ed:  Okay, the password use case calls for the user to 
+log on to a website using a secure connection with a 
+valid user ID, two levels of passwords, and the user to 
+enter a four-digit pin after requesting the video feed 
+
+request.   
+Vinod:  That gives us several logic paths to test. There 
+are four pieces of data for the user to enter. Each input 
+
+needs to be tested with a good value, an incorrect value, 
+
+a null value, and an incorrectly formatted data value. 
+  
+Ed:  To cover all logic paths requires 256 distinct test 
+cases.   
+Vinod:  Yes, it does. We also need to deﬁ
+ ne the re-
+sponse for each.  SAFEHOME pre22126_ch27_584-600.indd   597pre22126_ch27_584-600.indd   59716/12/13   6:23 PM16/12/13   6:23 PM

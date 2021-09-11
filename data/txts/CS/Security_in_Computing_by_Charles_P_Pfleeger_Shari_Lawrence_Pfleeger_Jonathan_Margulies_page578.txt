@@ -1,0 +1,31 @@
+544 Chapter 7  
+DatabasesBig data raises security issues because of the amount of data being considered: Pro-tecting tens or hundreds of data items generally involves less risk and difficulty than 
+
+billions or trillions. However, many of the protection issues are the same as in other 
+
+domains: Securing data, protecting privacy, and ensuring integrity are concerns for 
+
+single-user computers, multiuser computing systems, networks, cloud providers, and 
+
+distributed applications, as well as big data processors.
+In this section we list the security issues in big data, many times just pointing out that 
+the issue is an instance of a more general security problem that appears elsewhere in 
+
+this book. And because big data is an emerging field, we list problems and not solutions. 
+
+From the examples of authorization, access control, and the like shown elsewhere in 
+
+this book, you can propose tools and techniques applicable to these problems.PrivacyOne can argue that big data is unrelated to privacy: Data processors do not collect data 
+but only sift through existing data. So, for example, big data users are not responsible 
+
+for the fact that a store tracks customers’ purchases through customer loyalty cards or 
+
+that the store then sells the tracking data to people interested in learning trends. On the 
+other hand, big data’s collecting and correlating capabilities have made such use pos-
+
+sible and even lucrative. Regardless, privacy issues arise. We study privacy in general 
+
+in Chapter 9.FIGURE 7-7 Hadoop ArchitectureUserb1b2b3b4b1b4b2b4b1b2b3
+ProcessorProcessor
+NameNodeDateNode2DateNode1DateNode3DateNode4
+ProcessorUserUserUserUser

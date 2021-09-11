@@ -1,0 +1,71 @@
+ Section 11.1  Protecting Programs and Data 
+709  Copyright InfringementThe holder of the copyright must go to court to prove that someone has infringed on the 
+copyright. The infringement must be substantial, and it must be copying, not indepen-
+
+dent work. In theory, two people might write identically the same song independently, 
+
+neither knowing the other. These two people would 
+both be entitled to copyright protec-
+tion for their work. Neither would have infringed on the other, and both would have the 
+
+right to distribute their work for a fee. Again, copyright is most easily understood for 
+
+written works of fiction because it is extremely unlikely that two people would express 
+
+an idea with the same or highly similar wording.
+The independence of nonfiction works is not nearly so clear. Consider, for example, 
+an arithmetic book. Long division can be explained in only so many ways, so two inde-
+
+pendent books could use similar wording for that explanation. The number of possible 
+
+alternative examples is limited, so that two authors might independently choose to write 
+
+the same simple example. However, it is far less likely that two textbook authors would 
+
+have the same pattern of presentation and all the same examples from beginning to end.
+Copyrights for Computer Software
+The original copyright law envisioned protection for things such as books, songs, and 
+photographs. People can rather easily detect when these items are copied. The separation 
+
+between public domain and creativity is fairly clear. And the distinction between an idea 
+
+(feeling, emotion) and its expression is pretty obvious. Works of nonfiction understand-
+
+ably have less leeway for independent expression. Because of programming language 
+
+constraints and speed and size efficiency, computer programs have less leeway still.
+Can a computer program be copyrighted? Yes. The 1976 copyright law was amended 
+in 1980 to include an explicit definition of computer software. However, copyright pro-
+
+tection may not be an especially desirable form of protection for computer works. To 
+
+see why, consider the algorithm used in a given program. The algorithm is the idea, and 
+
+the statements of the programming language are the expression of the idea. Therefore, 
+
+protection is allowed for the program statements themselves, but not for the algorithmic 
+
+concept: copying the code intact is prohibited, but reimplementing the algorithm is per-
+
+mitted. Remember that one purpose 
+of copyright is to promote the dis-
+
+semination of ideas The algorithm, 
+
+which is the idea embodied in the 
+
+computer program, is to be shared.A second problem with copyright protection for computer works is the requirement 
+that the work be published. A program may be published by distribution of copies of 
+
+its object code, for example, on a disk. However, if the source code is not distributed, it 
+
+has not been published. An alleged infringer cannot have violated a copyright on source 
+
+code if the source code was never published.
+Copyrights for Digital ObjectsThe Digital Millennium Copyright Act 
+(DMCA) of 1998 clarified some issues of 
+digital objects (such as music files, graphics images, data in a database, and also com-
+
+puter programs), but it left others unclear.
+The idea embodied in a copyrighted 
+work must be made public.

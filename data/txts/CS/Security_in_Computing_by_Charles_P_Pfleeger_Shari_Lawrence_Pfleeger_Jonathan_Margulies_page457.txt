@@ -1,0 +1,69 @@
+ Section 6.5  Distributed Denial-of-Service 
+423  To mount a 
+distributed denial-of-service
+ (or 
+DDoS) attack, an attacker does two 
+things, as illustrated in Figure 6-34. In the first stage, the attacker wants to conscript an 
+
+army of compromised machines to attack a victim. Using any convenient attack (such 
+
+as exploiting a buffer overflow or tricking the user to open and install unknown code 
+
+from an email attachment), the mastermind plants a Trojan horse on a remote machine. 
+
+That Trojan horse does not necessarily cause any obvious harm to the infected machine; 
+
+in fact, the machine needs to remain healthy (and infected) so it can participate in the 
+
+attack against the real victim. The foreign code file may be named for a popular editor 
+
+or utility, bound to a standard operating system service, or entered into the list of pro-
+
+cesses (daemons) activated at startup. No matter how it is situated within the system, it 
+
+will probably not attract any attention.
+The attacker repeats this process with many target computers. Each of these com-
+promised systems then becomes what is known as a 
+zombie. The target systems’ users 
+carry out their normal work, unaware of the resident zombie. Many current vulnerabil-
+
+ity attacks download code to the compromised machine to turn it into a zombie.
+At some point the attacker chooses a victim and sends a signal to all the zombies 
+to launch the attack. Then, instead of the victim’s trying to defend against a denial-
+
+of-service attack from one malicious host, the victim must try to counter attacks from 
+many
+ zombies all acting at once. Not all the zombies need to use the same attack; for instance, some could use smurf attacks, and others could use SYN floods to address 
+
+different potential weaknesses.
+Scripted Denial-of-Service AttacksIn addition to their tremendous multiplying effect, distributed denial-of-service attacks 
+
+are a serious problem because they are easily launched from scripts. Given a collection 
+
+of denial-of-service attacks and a propagation method, one can easily write a procedure 
+to plant a Trojan horse that can launch any or all of the denial-of-service attacks. DDoS 
+Amazingly, the volume continues to mount. According to a report by 
+Incapsula [INC14] by 2014 10 Gbps attacks, at the upper end in 2009, 
+
+were puny; 33 percent of DDoS exceeded 20 Gbps, and in February 2014 
+
+they noted one attack of an astounding 180 Gbps. Volume at the network 
+
+level is not the only measure of growth in severity of DDoS attacks. The 
+
+same report described websites attacked by 6 to 8 million requests per 
+
+minute, which few sites are prepared to handle.
+In late 2012, U.S. banks J.P Morgan Chase, SunTrust, Wells Fargo, 
+and PNC were hit by several days of DDoS attacks, as financial institutions 
+
+and news media sites became targets.Denial-of-service attacks are also starting to target specific network 
+activity. A classic denial-of-service attack attempts to consume the entire 
+
+bandwidth of a link, but recent attacks target firewalls, DNS servers, the 
+
+infrastructure for VoIP services, load balancers, and the like. Because these 
+
+services entail computation, they are slower and are overwhelmed by a 
+
+smaller volume of traffic than a simple bandwidth exhaustion attack.

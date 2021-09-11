@@ -1,0 +1,103 @@
+CHAPTER 22  
+SOFTWARE TESTING STRATEGIES
+ 483 
+ 
+ 
+ 9.
+  Performance tests are conducted.   
+ 
+ 
+ 10.
+  The WebApp is tested by a controlled and monitored population of end 
+users. The results of their interaction with the system are evaluated for 
+errors.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+Because many WebApps evolve continuously, the testing process is an ongo-
+ing activity, conducted by support staff who use regression tests derived from the 
+
+tests developed when the WebApp was ﬁ
+ rst engineered. Methods for WebApp 
+testing are considered in Chapter 25.   
+ 
+ 
+ 
+ 22.6  
+TEST STRATEGIES
+ FOR MOBILEAPPS  
+ 
+The strategy for testing mobile applications adopts the basic principles for all software testing. However, the unique nature of MobileApps demands the con-
+
+sideration of a number of specialized testing approaches:  
+ 
+ 
+•   
+User-experience testing.
+ 
+ Users are involved early in the development pro-cess to ensure that the MobileApp lives up to the usability and accessibil-
+ity expectations of the stakeholders on all supported devices.   
+ 
+ 
+•   
+Device compatibility testing 
+. Testers verify that the MobileApp works cor-
+rectly on all required hardware and software combinations.   
+ 
+ 
+•   
+Performance testing. 
+ Testers check nonfunctional requirements unique to 
+mobile devices (e.g., download times, processor speed, storage capacity, 
+
+power availability).   
+ 
+ 
+•   
+Connectivity testing. 
+ Testers ensure that the MobileApp can access any 
+needed networks or Web services and can tolerate weak or interrupted 
+
+network access.   
+ 
+ 
+•   
+Security testing 
+. Testers ensure that the MobileApp does not compromise 
+the privacy or security requirements of its users.   
+ 
+ 
+•   
+Testing-in-the-wild
+ 
+. The app is tested under realistic conditions on actual user devices in a variety of networking environments around the globe.   
+ 
+ 
+•  Certiﬁ cation testing. Testers ensure that the MobileApp meets the stan-
+dards established by the app stores that will distribute it.  
+ 
+  Methods for MobileApp testing are considered in Chapter 26.  
+ 
+ 
+ 
+ 
+ 22.7  
+VALIDATION
+ TESTING  
+ 
+ 
+ 
+ 
+ 
+ 
+Validation testing begins at the culmination of integration testing, when individ-
+ual components have been exercised, the software is completely assembled as 
+a package, and interfacing errors have been uncovered and corrected. At the pre22126_ch22_466-495.indd   483pre22126_ch22_466-495.indd   48313/12/13   6:14 PM13/12/13   6:14 PM

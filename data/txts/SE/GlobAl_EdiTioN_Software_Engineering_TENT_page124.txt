@@ -1,0 +1,31 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜more effectively. However, it is still sometimes difficult to write requirements in a 
+clear and unambiguous way, particularly when complex computations (e.g., how to 
+
+calculate the insulin dose) are to be specified.To address this problem, you can add extra information to natural language 
+requirements, for example, by using tables or graphical models of the system. These 
+
+can show how computations proceed, how the system state changes, how users inter-
+act with the system, and how sequences of actions are performed.Tables are particularly useful when there are a number of possible alternative 
+situations and you need to describe the actions to be taken for each of these. The 
+
+insulin pump bases its computations of the insulin requirement on the rate of change 
+of blood sugar levels. The rates of change are computed using the current and previ-
+ous readings. Figure 4.14 is a tabular description of how the rate of change of blood 
+sugar is used to calculate the amount of insulin to be delivered.Figure 4.14 The  tabular specification  
+of computation in an 
+insulin pumpConditionActionSugar level falling (r2 6 r1)CompDose = 0Sugar level stable (r2 = r1)CompDose = 0Sugar level increasing and rate of increase 
+decreasing ((r2 - r1)<(r1 - r0))CompDose = 0Sugar level increasing and rate of increase stable 
+or increasing r2 7 r1 & ((r2 - r1) Ú (r1 ˚ r0))CompDose = round ((r2 - r1)/4)
+If rounded result = 0 then
+CompDose = MinimumDoseFigure 4.13 The structured specification 
+
+of a requirement for  
+an insulin pumpInsulin Pump/Control Software/SRS/3.3.2Function Compute insulin dose: Safe sugar level.Description  
+Computes the dose of insulin to be delivered when the current measured sugar level is in the safe zone between 3 and 7 units.Inputs Current sugar reading (r2), the previous two readings (r0 and r1).Source Current sugar reading from sensor. Other readings from memory.Outputs CompDoseŠthe dose in insulin to be delivered.Destination Main control loop.Action:  
+CompDose is zero if the sugar level is stable or falling or if the level is increasing but the rate of 
+increase is decreasing. If the level is increasing and the rate of increase is increasing, then 
+CompDose is computed by dividing the difference between the current sugar level and the 
+previous level by 4 and rounding the result. If the result, is rounded to zero then CompDose is 
+set to the minimum dose that can be delivered. (see Figure 4.14)Requires Two previous readings so that the rate of change of sugar level can be computed.Precondition The insulin reservoir contains at least the maximum allowed single dose of insulin.Postcondition r0 is replaced by r1 then r1 is replaced by r2.Side effects None.

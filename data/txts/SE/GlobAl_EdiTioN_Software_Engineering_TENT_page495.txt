@@ -1,0 +1,43 @@
+˜˚˛˝˚˜˜˜˜˜˜
+The major difficulty in distributed systems is establishing a security policy that 
+can be reliably applied to all of the components in a system. As I discussed in Chapter 
+13, a security policy sets out the level of security to be achieved by a system. Security 
+
+mechanisms, such as encryption and authentication, are used to enforce the security 
+
+policy. The difficulties in a distributed system arise because different organizations 
+
+may own parts of the system. These organizations may have mutually incompatible 
+
+security policies and security mechanisms. Security compromises may have to be 
+
+made in order to allow the systems to work together.The quality of service (QoS) offered by a distributed system reflects the system™s ability to deliver its services dependably and with a response time and throughput 
+that are acceptable to its users. Ideally, the QoS requirements should be specified in 
+advance and the system designed and configured to deliver that QoS. Unfortunately, 
+this is not always practicable for two reasons:1. It may not be cost-effective to design and configure the system to deliver a high quality of service under peak load. The peak demands may mean that you need 
+many extra servers than normal to ensure that response times are maintained. 
+
+This problem has been lessened by the advent of cloud computing where cloud 
+servers may be rented from a cloud provider for as long as they are required. As 
+demand increases, extra servers can be automatically added.2. The quality-of-service parameters may be mutually contradictory. For example, 
+increased reliability may mean reduced throughput, as checking procedures are 
+introduced to ensure that all system inputs are valid.Quality of service is particularly important when the system is dealing with time-critical data such as sound or video streams. In these circumstances, if the quality of 
+service falls below a threshold value then the sound or video may become so 
+
+degraded that it is impossible to understand. Systems dealing with sound and video 
+should include quality of service negotiation and management components. These 
+should evaluate the QoS requirements against the available resources and, if these 
+are insufficient, negotiate for more resources or for a reduced QoS target.In a distributed system, it is inevitable that failures will occur, so the system has to 
+be designed to be resilient to these failures. Failure is so ubiquitous that one flippant 
+
+definition of a distributed system suggested by Leslie Lamport, a prominent distrib-
+uted systems researcher, is:You know that you have a distributed system when the crash of a system that 
+you™ve never heard of stops you getting any work done.ƒThis is even truer now that more and more systems are executing in the cloud. 
+Failure management involves applying the fault-tolerance techniques discussed in 
+
+Chapter 11. Distributed systems should therefore include mechanisms for discover-
+ing whether a component of the system has failed, should continue to deliver as˜many 
+
+services as possible in spite of that failure, and, as far as possible, should automatically 
+ƒLeslie Lamport, in Ross J. Anderson, Security Engineering: A Guide to Building Dependable Distributed 
+Systems (2nd ed.), Wiley (April 14, 2008).

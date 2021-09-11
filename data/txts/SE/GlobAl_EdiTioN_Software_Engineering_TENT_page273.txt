@@ -1,0 +1,47 @@
+˜˜˚˙˜˜˜
+˜˜
+and is often allocated to the least experienced staff. Furthermore, old systems may be written in obsolete programming languages. The developers working on 
+maintenance may not have much experience of these languages and must learn 
+
+these languages to maintain the system.4. As programs age, their structure degrades and they become harder to change. 
+As changes are made to programs, their structure tends to degrade. Consequently, 
+
+they become harder to understand and change. Some systems have been  developed 
+without modern software engineering techniques. They may never have been 
+
+well structured and were perhaps optimized for efficiency rather than understand-
+ability. System documentation may be lost or inconsistent. Old systems may not 
+
+have been subject to stringent configuration management, so developers have to 
+
+spend time finding the right versions of system components to change.The first three of these problems stem from the fact that many organizations still consider software development and maintenance to be separate activities. 
+
+Maintenance is seen as a second-class activity, and there is no incentive to spend 
+
+money during development to reduce the costs of system change. The only long-
+
+term solution to this problem is to think of systems as evolving throughout their 
+
+lifetime through a continual development process. Maintenance should have as high 
+
+a status as new software development.The fourth issue, the problem of degraded system structure, is, in some ways, the easiest problem to address. Software reengineering techniques (described later in 
+
+this chapter
+) may be applied to improve the system structure and understandability. 
+Architectural transformations can adapt the system to new hardware. Refactoring 
+
+can improve the quality of the system code and make it easier to change.In principle, it is almost always cost-effective to invest effort in designing and 
+implementing a system to reduce the costs of future changes. Adding new function-
+ality after delivery is expensive because you have to spend time learning the system 
+and analyzing the impact of the proposed changes. Work done during development 
+to structure the software and to make it easier to understand and change will reduce 
+evolution costs. Good software engineering techniques such as precise specification, 
+test-first development, the use of object-oriented development, and configuration 
+
+management all help reduce maintenance cost.These principled arguments for lifetime cost savings by investing in making 
+ systems more maintainable are, unfortunately, impossible to substantiate with real 
+DocumentationSystem documentation can help the maintenance process by providing maintainers with information about the 
+
+structure and organization of the system and the features that it offers to system users. While proponents of agile 
+
+approaches suggest that the code should be the principal documentation, higher level design models and infor-mation about dependencies and constraints can make it easier to understand and make changes to that code.http://software-engineering-book.com/web/documentation/ (web chapter)

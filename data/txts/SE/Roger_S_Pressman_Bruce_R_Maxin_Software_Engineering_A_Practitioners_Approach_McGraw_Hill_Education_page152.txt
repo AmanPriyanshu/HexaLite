@@ -1,0 +1,141 @@
+122 PART TWO  
+MODELING 
+ 
+The initial focus of testing is at the component level, often called  unit testing. 
+ Other levels of testing include (1)  integration testing
+ 
+ (conducted as the system 
+is constructed), (2)  validation testing 
+ that assesses whether requirements have 
+been met for the complete system (or software increment), and (3)  acceptance testing 
+ that is conducted by the customer in an effort to exercise all required 
+features and functions. The following set of fundamental principles and concepts 
+are applicable to coding and testing.  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+Coding principles.  
+ 
+  The principles that guide the coding task are closely aligned 
+with programming style, programming languages, and programming methods. 
+However, there are a number of fundamental principles that can be stated: 
+  
+Preparation Principles:    
+Before you write one line of code, be sure you 
+  
+ 
+ 
+• 
+ 
+  Understand of the problem you’re trying to solve.   
+ 
+ 
+• 
+ 
+  Understand basic design principles and concepts.   
+ 
+ 
+• 
+ 
+  Pick a programming language that meets the needs of the software to be built and the environment in which it will operate.   
+ 
+ 
+• 
+ 
+  Select a programming environment that provides tools that will make your work easier. 
+  
+ 
+ 
+• 
+ 
+  Create a set of unit tests that will be applied once the component you code is completed.  
+ 
+  
+ 
+Coding Principles:    
+As you begin writing code, be sure you 
+  
+ 
+ 
+• 
+ 
+  Constrain your algorithms by following structured programming [Boh00] practice.   
+ 
+ 
+• 
+ 
+  Consider the use of pair programming.   
+ 
+ 
+• 
+ 
+  Select data structures that will meet the needs of the design.   
+ 
+ 
+• 
+ 
+  Understand the software architecture and create interfaces that are  consistent with it.   
+ 
+ 
+• 
+ 
+  Keep conditional logic as simple as possible.   
+ 
+ 
+• 
+ 
+  Create nested loops in a way that makes them easily testable.   
+ 
+ 
+• 
+ 
+  Select meaningful variable names and follow other local coding standards.   
+ 
+ 
+• 
+ 
+  Write code that is self-documenting. 
+  
+ 
+ 
+• 
+ 
+  Create a visual layout (e.g., indentation and blank lines) that aids understanding.   
+ 
+ 
+Validation Principles: 
+  
+ 
+After you’ve completed your ﬁ rst coding pass, be sure you 
+  
+ 
+ 
+• 
+ 
+  Conduct a code walkthrough when appropriate.   
+ 
+ 
+• 
+ 
+  Perform unit tests and correct errors you’ve uncovered.   
+ 
+ 
+• 
+ 
+  Refactor the code.  
+ 
+ 
+ 
+ 
+    Avoid developing an 
+elegant program that 
+solves the wrong 
+problem. Pay particular 
+
+attention to the ﬁ rst 
+
+preparation principle. pre22126_ch07_103-130.indd   122pre22126_ch07_103-130.indd   12213/12/13   6:11 PM13/12/13   6:11 PM

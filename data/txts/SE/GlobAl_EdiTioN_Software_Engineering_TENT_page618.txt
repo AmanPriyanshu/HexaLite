@@ -1,0 +1,22 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜The names chosen in the state machine diagram are descriptive. The associated 
+information indicates actions taken by the system actuators or information that is 
+
+displayed. Notice that this system never terminates but idles in a waiting state when 
+
+the pump is not operating.The fuel delivery system is designed to allow unattended operation, with the fol-lowing sequence of actions:1. The buyer inserts a credit card into a card reader built into the pump. This causes a transition to a Reading state where the card details are read and the buyer is then asked to remove the card.2. Removal of the card triggers a transition to a Validating state where the card is validated.3. If the card is valid, the system initializes the pump and, when the fuel hose is 
+
+removed from its holster, transitions to the Delivering state, where is ready to 
+deliver fuel. Activating the trigger on the nozzle causes fuel to be pumped; this 
+stops when the trigger is released (for simplicity, I have ignored the pressure 
+
+switch that is designed to stop fuel spillage).Cardinserted
+into readerTimeout
+Resettingdo: display CCerrorInitializingdo: initializedisplayPaying
+StoppedReadingdo: get CCdetailsWaiting
+do: display     welcomedo:
+deliver fueldo: debitCC accountPayment ack.
+ReadyDeliveringupdate displayNozzletrigger onNozzle trigger offNozzle trigger onHose inholsterdo: validatecredit cardValidating
+Invalid cardCard removedCard OKHose out of holsterHose inholsterTimeout
+Figure 21.5 State machine model of a 
+petrol (gas) pump 

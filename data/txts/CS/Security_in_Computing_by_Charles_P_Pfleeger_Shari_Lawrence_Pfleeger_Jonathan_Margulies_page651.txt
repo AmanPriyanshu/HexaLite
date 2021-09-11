@@ -1,0 +1,64 @@
+ Section 9.4  Data Mining 
+617  Government Data Mining
+Especially troubling to some people is the prospect of government data mining. We 
+believe we can stop excesses and intrusive behavior of private companies by using the 
+
+courts, unwanted publicity, or other forms of pressure. It is much more difficult to stop 
+
+the government from acting. People fear governments or rulers who have taken retribution 
+
+against citizens deemed to be enemies, and even presumably responsible democracies can 
+
+make mistakes in handling data. Much government data collection and analysis occurs 
+
+without publicity; some programs are just not announced and others are intentionally kept 
+
+secret. Thus, citizens are uncomfortable with what unchecked government can do. And 
+
+because data mining is neither per-
+
+fect nor exact, correcting erroneous 
+
+data held by the government and the 
+
+erroneous conclusions drawn from 
+
+data mining is next to impossible.
+Privacy-Preserving Data Mining
+Because data mining can threaten privacy, researchers have looked into ways to protect 
+
+privacy during data-mining operations. A naïve and ineffective approach is trying to 
+
+remove all identifying information from databases being mined. Sometimes, however, 
+
+the identifying information is necessary for the mining and may even be the goal of data 
+
+mining. More importantly, identification may be possible even when the overt identify-
+
+ing information is removed from a database.
+Data mining usually employs two approaches—correlation and aggregation. We 
+examine techniques to preserve privacy with each of those approaches.
+Privacy for Correlation
+Correlation involves joining databases on common fields. As with protecting the sensi-
+tive link between Erin and diabetes, privacy preservation for correlation attempts to 
+
+control that linkage.John Vaidya and Chris Clifton [VAI04] discuss data perturbation as a way to pre-
+vent privacy-endangering correlation. As a simplistic example, assume two databases 
+
+contain only three records, as shown in Table 9-1. The ID field linking these databases 
+
+makes it easy to see that Erin has diabetes.
+Data mining is neither perfect nor 
+exact, so correcting erroneous data and 
+
+conclusions is next to impossible.TABLE 9-1 
+Example for Data PerturbationNameID
+Erin1
+Aarti2
+
+Geoff3
+IDCondition
+1diabetes
+2none
+
+3measles

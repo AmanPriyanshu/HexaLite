@@ -1,0 +1,40 @@
+ Section 8.4  Cloud Identity Management 
+571  authenticate. Once the student authenticates, the identity server sends the student back 
+to the LMS, this time with a signed message. The message gives the student’s name, 
+
+lists the classes the student is enrolled in, and includes any other identity attributes the 
+
+LMS might need. The SAML standard [OAS05a] specifies XML messages that parties can use to 
+exchange identity information, as well as protocols and rules for those exchanges. 
+
+SAML messages are usually transmitted over HTTP, and work best in the context of 
+
+web-based applications. HTTP offers the added benefit of compatibility with TLS, the 
+
+use of which we highly recommend for protection of SAML communications.SAML defines three parties who participate in identity exchanges (see Figure 8-5):
+• The Service Provider (SP)
+ or 
+Relying Party
+: A SAML-enabled service, such 
+as the LMS, that needs to obtain identity information from a third party• The Subject: The entity, be it user or system, that is attempting to log in to the SP
+• The Identity Provider (IdP) 
+or Asserting Party
+: A SAML-enabled system that 
+can authenticate the Subject and make assertions about the Subject’s identity
+When a user tries to access an SP, the first thing the SP needs to do is figure out 
+which IdP to reach, a problem called realm discovery
+. A cloud provider can have 
+thousands of customer IdPs, but it must redirect the user to the only one that has the 
+
+needed information. Different SPs solve this problem in different ways. One solution 
+
+is to give each customer a dedicated subdomain that users can connect to: for example,  
+
+harvard.example.com or cornell.example.com. Another option is just to let users select 
+
+from a dropdown box.
+Customer NetworkIdentity Provider(IdP)User(Subject)Service Provider(SP)1234561. Subject navigates to the SP site for login2. SP sends the subject’s browser an authentication request
+3. Browser relays the authentication request to the IdP
+4. IdP attempts to authenticate the subject, then returns the authentication response to the browser
+5. Browser relays the authentication response to the SP6. SP reads the authentication response and, if the user is authorized, logs the user in with the privileges the IdP specifiedSAML Authentication Process
+FIGURE 8-5 SAML Authentication

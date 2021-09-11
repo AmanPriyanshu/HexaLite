@@ -1,0 +1,78 @@
+290 PART TWO  
+MODELINGprovided by the customer. Data required to perform this function are:
+ number of pages 
+in the document, total number of documents to be produced, one- or two-side printing, color require-
+ments, and size requirements. These data are passed to  
+ComputePageCost 
+ via the mod-
+ule’s interface.  
+ComputePageCost 
+ uses these data to determine a page cost that is 
+based on the size and complexity of the job—a function of all data passed to the 
+
+module via the interface. Page cost is inversely proportional to the size of the job 
+
+and directly proportional to the complexity of the job. 
+ 
+ 
+ 
+        
+ 
+Figure 14.3  represents the component-level design using a modiﬁ
+ ed UML 
+notation. The  ComputePageCost 
+ module accesses data by invoking the module 
+ getJobData, 
+ which allows all relevant data to be passed to the component, and 
+a database interface,  accessCostsDB, 
+ which enables the module to access a data-
+base that contains all printing costs. As design continues, the  ComputePageCost 
+ module is elaborated to provide algorithm detail and interface detail ( Fig-). Algorithm detail can be represented using the pseudocode text shown in the ﬁ gure or with a UML activity diagram. The interfaces are represented as 
+   As the design for each 
+
+software component is 
+elaborated, the focus 
+shifts to the design 
+of speciﬁ c data struc-
+
+tures and procedural 
+design to manipulate 
+the data structures. 
+
+However, don’t forget 
+
+the architecture that 
+must house the 
+components or the 
+global data structures 
+
+that may serve many 
+
+components.   
+FIGURE 14.3 
+Component-level design for  ComputePageCost  
+ 
+ ComputePageCostDesign componentaccessCostsDBgetJobDataElaborated modulePageCostin: numberPages in: numberDocs 
+in: sides= 1, 2 
+in: color=1, 2, 3, 4 
+in: page size = A, B, C, D 
+out: page cost 
+in:  job size 
+in:  color=1, 2, 3, 4 
+in:  pageSize = A, B, C, D 
+out:  BPC 
+out:  SF  job size (JS) =
+    numberPages * numberDocs;
+ lookup base page cost (BPC) -->
+    accessCostsDB (JS, color);
+ lookup size factor (SF) -->
+    accessCostDB (JS, color, size)
+
+ job complexity factor (JCF) = 
+   1 + [(sides-1)*sideCost + SF]
+ pagecost = BPC * JCF  getJobData (numberPages, numberDocs, sides, color, pageSize, pageCost) 
+
+accessCostsDB(jobSize, color, pageSize, 
+
+BPC, SF) 
+computePageCost( )pre22126_ch14_285-316.indd   290pre22126_ch14_285-316.indd   29013/12/13   6:12 PM13/12/13   6:12 PM

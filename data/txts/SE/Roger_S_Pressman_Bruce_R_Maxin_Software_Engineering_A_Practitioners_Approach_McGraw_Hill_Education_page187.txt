@@ -1,0 +1,174 @@
+CHAPTER 8  
+UNDERSTANDING REQUIREMENTS
+ 157 
+ 
+ 
+ 
+ 
+8.5.2  Analysis Patterns 
+ 
+Anyone who has done requirements engineering on more than a few software projects begins to notice that certain problems reoccur across all projects within 
+a speciﬁ c application domain. 
+ 18 
+ 
+ These  
+analysis patterns 
+ [Fow97] suggest solutions 
+(e.g., a class, a function, a behavior) within the application domain that can be 
+reused when modeling many applications.   
+Geyer-Schulz and Hahsler [Gey01] suggest two beneﬁ
+ ts that can be associated 
+with the use of analysis patterns:  
+First, analysis patterns speed up the development of abstract analysis models that capture the main requirements of the concrete problem by providing reusable analy-
+sis models with examples as well as a description of advantages and limitations. Sec-
+ond, analysis patterns facilitate the transformation of the analysis model into a design model by suggesting design patterns and reliable solutions for common problems.  
+  
+Analysis patterns are integrated into the analysis model by reference to the pattern name. They are also stored in a repository so that requirements    If you want to obtain 
+solutions to customer 
+requirements more 
+rapidly  and  provide 
+your team with proven 
+approaches, use analy-
+sis patterns. 
+  
+Preliminary Behavioral Modeling   
+Preliminary Behavioral Modeling 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The scene:  A meeting room, con-
+tinuing the requirements meeting.    
+ 
+ 
+ 
+ 
+ 
+The players:  Jamie Lazar, software team member; 
+Vinod Raman, software team member; Ed Robbins, soft-
+ware team member; Doug Miller, software engineering 
+
+manager; three members of marketing; a product engi-
+neering representative; and a facilitator. 
+   
+ 
+ 
+ 
+ 
+ 
+The conversation:  
+   
+ 
+ 
+ 
+ 
+ 
+Facilitator:  We’ve just about ﬁ
+ nished talking about 
+ SafeHome 
+ home security functionality. But before we 
+do, I want to discuss the behavior of the function.    
+ 
+ 
+ 
+ 
+ 
+Marketing person:  I don’t understand what you 
+mean by behavior. 
+   
+ 
+ 
+ 
+ 
+ 
+Ed (smiling):  That’s when you give the product a 
+ “timeout” if it misbehaves.    
+ 
+ 
+ 
+ 
+ 
+Facilitator:  Not exactly. Let me explain. 
+   
+ 
+(The facilitator explains the basics of behavioral model-ing to the requirements gathering team.)   
+ 
+ 
+ 
+ 
+ 
+ 
+Marketing person:  This seems a little technical. I’m 
+not sure I can help here.    
+ 
+ 
+ 
+ 
+ 
+Facilitator:  Sure you can. What behavior do you ob-
+serve from the user’s point of view? 
+   
+ 
+ 
+ 
+ 
+ 
+Marketing person:  
+ monitoring 
+ the sensors. It’ll be  reading commands 
+ from the homeowner. It’ll be  
+displaying 
+ its status.    
+ 
+ 
+ 
+ 
+ 
+Facilitator:  See, you can do it. 
+   
+ 
+ 
+ 
+ 
+ 
+Jamie:  It’ll also be  
+polling 
+ the PC to determine if there 
+is any input from it, for example, Internet-based access 
+
+or conﬁ guration information. 
+   
+ 
+ 
+ 
+ 
+ 
+Vinod:  Yeah, in fact,  
+conﬁ guring the system
+ 
+ is a state in its own right.    
+ 
+ 
+ 
+ 
+ 
+Doug:  You guys are rolling. Let’s give this a bit more 
+   
+ 
+ 
+ 
+ 
+ 
+Facilitator:  There is, but let’s postpone that until after 
+the meeting.  
+ 
+  
+SAFEHOME  
+ 
+18  In some cases, problems reoccur regardless of the application domain. For example, the fea-
+tures and functions used to solve user interface problems are common regardless of the appli-
+cation domain under consideration. pre22126_ch08_131-165.indd   157pre22126_ch08_131-165.indd   15713/12/13   6:11 PM13/12/13   6:11 PM

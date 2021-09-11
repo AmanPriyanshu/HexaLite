@@ -1,0 +1,61 @@
+CHAPTER 37  
+SOFTWARE PROCESS IMPROVEMENT
+ 821 
+ 
+Formalists.    This group wants to understand (and when possible, opti-
+mize) process workﬂ ow. To accomplish this, they use process modeling 
+languages (PMLs) to create a model of the existing process and then 
+design extensions or modiﬁ cations that will make the process more 
+effective.   
+Tool advocates.   This group insists on a tool-assisted approach to SPI that 
+models workﬂ ow and other process characteristics in a manner that can 
+be analyzed for improvement.   
+Practitioners.   This constituency uses a pragmatic approach, “empha-
+sizing mainstream project-, quality- and product management, applying 
+project-level planning and metrics, but with little formal process modeling 
+or enactment support” [Con96].   
+Reformers.   The goal of this group is organizational change that might 
+lead to a better software process. They tend to focus more on human 
+issues (Section 37.5) and emphasize measures of human capability and 
+structure.   
+Ideologists.   This group focuses on the suitability of a particular pro-
+cess model for a speciﬁ c application domain or organizational structure. 
+Rather than typical software process models (e.g., iterative models), ideol-
+ogists would have a greater interest in a process that would, say, support 
+
+reuse or reengineering.  As an SPI framework is applied, the sponsoring constituency (regardless of its overall focus) must establish mechanisms to: (1) support technology transition, 
+(2) determine the degree to which an organization is ready to absorb process 
+changes that are proposed, and (3) measure the degree to which changes have 
+been adopted.   
+ 
+ 
+37.1.2   
+Maturity Models  
+A  maturity model 
+ is applied within the context of an SPI framework. The intent 
+of the maturity model is to provide an overall indication of the “process maturity” 
+exhibited by a software organization. That is, an indication of the quality of the 
+software process, the degree to which practitioners understand and apply the 
+process, and the general state of software engineering practice. This is accom-
+plished using some type of ordinal scale.   
+ 
+ 
+ 
+ 
+For example, the Software Engineering Institute’s original  
+Capability Maturity Model 
+ (Section 37.3) suggests ﬁ
+ ve levels of maturity ranging from  
+initial 
+ (rudimentary software process) to  optimized 
+ (a process that leads to best prac-
+tices.  2 
+ 
+ Unfortunately, some software organizations exhibit levels of “process 
+immaturity” that undermine any rational attempt at improving software    A maturity model de-
+ﬁ nes levels of software 
+
+process competence 
+and implementation.   
+2  The original CMM has been updated and is discussed in Section 37.3. 
+pre22126_ch37_817-838.indd   821pre22126_ch37_817-838.indd   82113/12/13   6:17 PM13/12/13   6:17 PM

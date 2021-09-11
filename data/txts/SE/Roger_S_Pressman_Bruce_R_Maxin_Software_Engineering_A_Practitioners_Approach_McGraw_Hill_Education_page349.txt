@@ -1,0 +1,81 @@
+CHAPTER 15  
+USER INTERFACE DESIGN
+ 319that is easy to build, but frustrating to use. Mandel [Man97] deﬁ nes a number of 
+design principles that allow the user to maintain control:   
+ 
+ 
+ 
+ 
+Deﬁ ne interaction modes in a way that does not force a user into unnec-
+essary or undesired actions. 
+ An interaction mode is the current state of the interface. For example, if  spell check 
+ is selected in a word-processor menu, the software moves to a spell-checking mode. There is no reason 
+to force the user to remain in spell-checking mode if the user desires to 
+make a small text edit along the way. The user should be able to enter and 
+
+exit the mode with little or no effort.    
+ 
+ 
+ 
+Provide for ﬂ exible interaction.
+ 
+ Because different users have different in-teraction preferences, choices should be provided. For example, software 
+might allow a user to interact via keyboard commands, mouse movement, 
+a digitizer pen, a multitouch screen, or voice recognition commands. But 
+every action is not amenable to every interaction mechanism. Consider, 
+
+for example, the difﬁ culty of using keyboard command (or voice input) to 
+draw a complex shape.    
+ 
+ 
+ 
+Allow user interaction to be interruptible and undoable. 
+ Even when in-volved in a sequence of actions, the user should be able to interrupt the 
+sequence to do something else (without losing the work that had been 
+done). The user should also be able to “undo” any action.    
+ 
+ 
+ 
+Streamline interaction as skill levels advance and allow the interaction to be customized. 
+ Users often ﬁ nd that they perform the same sequence of 
+interactions repeatedly. It is worthwhile to design a “macro” mechanism 
+
+that enables an advanced user to customize the interface to facilitate 
+interaction.    
+ 
+ 
+ 
+Hide technical internals from the casual user.
+ 
+ The user interface should move the user into the virtual world of the application. The user should 
+not be aware of the operating system, ﬁ le management functions, or other 
+arcane computing technology. 
+   
+ 
+ 
+ 
+Design for direct interaction with objects that appear on the screen. 
+ The user feels a sense of control when able to manipulate the objects that are 
+necessary to perform a task in a manner similar to what would occur if the 
+object were a physical thing. For example, an application interface that 
+allows a user to drag a document into the “trash” is an implementation of 
+direct manipulation.  
+ 
+  
+ 
+ 
+15.1.2 Reduce the User’s Memory Load 
+ 
+A well-designed user interface does not tax a user’s memory because the more 
+a user has to remember, the more error-prone the interaction will be. When-
+
+ever possible, the system should “remember” pertinent information and assist   uote:  “I have always 
+wished that my 
+computer would 
+be as easy to use 
+as my telephone. 
+My wish has come 
+true. I no longer 
+know how to use 
+my telephone.”  Bjarne 
+Stronstrup (originator pre22126_ch15_317-346.indd   319pre22126_ch15_317-346.indd   31913/12/13   10:01 PM13/12/13   10:01 PM

@@ -1,0 +1,127 @@
+104  
+CHAPTER 
+ 
+ 
+ 
+KEY CONCEPTS     coding principles  . . 122  
+    communication 
+
+principles  . . . . . . . 110  
+
+    core principles. . . . 106  
+
+    deployment 
+
+principles  . . . . . . . 125  
+
+    design modeling 
+
+principles  . . . . . . . 117  
+
+    living modeling 
+
+principles  . . . . . . . 120  
+
+    modeling 
+
+principles  . . . . . . . 114  
+
+    planning 
+
+principles  . . . . . . . 112  
+
+    practice   . . . . . . . . 105 
+
+    process. . . . . . . . . 106  
+
+    requirements modeling 
+
+principles  . . . . . . . 116  
+
+    testing principles. . 123  
+  
+ In a book that explores the lives and thoughts of software engineers, Ellen Ullman [Ull97] depicts a slice of life as she relates the thoughts of a practi-
+tioner under pressure:  I have no idea what time it is. There are no windows in this ofﬁ ce and no clock, only 
+the blinking red LED display of a microwave, which ﬂ ashes 12:00, 12:00, 12:00, 12:00. 
+Joel and I have been programming for days. We have a bug, a stubborn demon of a 
+
+bug. So the red pulse no-time feels right, like a read-out of our brains, which have 
+ What are we working on? . . . The details escape me just now. We may be helping 
+poor sick people or tuning a set of low-level routines to verify bits on a distributed 
+database protocol—I don’t care. I should care; in another part of my being—later, 
+
+perhaps when we emerge from this room full of computers—I will care very much 
+why and for whom and for what purpose I am writing software. But just now: no. 
+I have passed through a membrane where the real world and its uses no longer 
+matter
+ PRINCIPLES THAT
+ GUIDE PRACTICE 7   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+QUICK LOOK   
+What is it?   
+Software engineering practice is a broad array of princi-
+ples, concepts, methods, and tools 
+that you must consider as software is planned and developed. Principles that 
+guide practice establish a foundation from 
+which software engineering is conducted.   
+ 
+Who does it?   
+Practitioners (software engi-neers) and their managers conduct a variety of 
+software engineering tasks.   
+ 
+Why is it important?
+   
+The software process provides everyone involved in the creation of a 
+
+computer-based system or product with a road 
+
+map for getting to a successful destination. 
+Practice provides you with the detail you’ll 
+need to drive along the road. It tells you where 
+the bridges, the roadblocks, and the forks are 
+located. It helps you understand the concepts 
+and principles that must be understood and 
+followed to drive safely and rapidly. It instructs 
+
+you on how to drive, where to slow down, and 
+where to speed up. In the context of software engineering, practice is what you do day in and day out as software evolves from an idea 
+to a reality. 
+  
+ 
+What are the steps?   
+Three elements of prac-tice apply regardless of the process model that 
+is chosen. They are: principles, concepts, and 
+methods. A fourth element of practice—tools—
+
+supports the application of methods. 
+  
+ 
+What is the work product?
+   
+Practice encom-passes the technical activities that produce all 
+work products that are deﬁ ned by the software 
+process model that has been chosen.   
+ 
+How do I ensure that I’ve done it right?   
+First, have a ﬁ rm understanding of the princi-
+ples that apply to the work (e.g., design) that 
+
+you’re doing at the moment. Then, be certain 
+
+that you’ve chosen an appropriate method for 
+
+the work, be sure that you understand how to 
+
+apply the method, use automated tools when 
+
+they’re appropriate for the task, and be ada-
+mant about the need for techniques to ensure 
+
+the quality of work products that are produced. 
+pre22126_ch07_103-130.indd   104pre22126_ch07_103-130.indd   10413/12/13   6:11 PM13/12/13   6:11 PM

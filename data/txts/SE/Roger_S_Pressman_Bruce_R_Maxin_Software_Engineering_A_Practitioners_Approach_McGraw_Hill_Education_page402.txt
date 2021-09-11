@@ -1,0 +1,83 @@
+372 PART TWO  
+MODELINGhundreds or thousands of content objects, functions, and analysis classes; and when the success of the WebApp will have a direct impact on the success of the 
+
+business, design cannot and should not be taken lightly. 
+ This reality leads us to Nielsen’s second approach—“the engineering ideal 
+of solving a problem for a customer.” Web engineering 
+ 1 
+ 
+ adopts this philoso-
+phy, and a more rigorous approach to WebApp design enables developers to 
+
+achieve it. 
+  
+ 
+ 
+ 
+ 
+ 17.1  
+WEBAPP DESIGN QUALITY  
+ 
+Every person who has surfed the Web has an opinion about what makes a “good” 
+WebApp. Individual viewpoints vary widely. Some users enjoy ﬂ
+ ashy graphics; 
+others want simple text. Some demand copious information; others desire an 
+abbreviated presentation. Some like sophisticated analytical tools or database 
+access; others like to keep it simple. In fact, the user’s perception of “goodness” 
+
+(and the resultant acceptance or rejection of the WebApp as a consequence) 
+
+might be more important than any technical discussion of WebApp quality. 
+ But how is WebApp quality perceived? What attributes must be exhibited to 
+achieve goodness in the eyes of end users and at the same time exhibit the tech-
+nical characteristics of quality that will enable you to correct, adapt, enhance, 
+and support the WebApp over the long term? 
+ In reality, all of the technical characteristics of design quality discussed in 
+Chapter 12 and the generic quality attributes presented in Chapter 19 apply 
+to WebApps. However, the most relevant of these generic attributes—usability, 
+
+functionality, reliability, efﬁ
+ ciency, and maintainability—provide a useful basis 
+for assessing the quality of Web-based systems. 
+ Olsina and his colleagues [Ols99] have prepared a “quality requirement tree” that identiﬁ es a set of technical attributes—usability, functionality, reliability, 
+efﬁ ciency, and maintainability—that lead to high-quality WebApps. 
+ 2 
+ 
+  Figure 17.1  summarizes their work. The criteria noted in the ﬁ gure are of particular interest 
+if you design, build, and maintain WebApps over the long term. 
+ 
+ 
+ 
+ 
+   
+Offutt [Off02] extends the ﬁ ve major quality attributes noted in  
+Figure 17.1  by 
+adding the following attributes:  
+ 
+ 
+ 
+ 
+ 
+ 
+Security. 
+  WebApps have become heavily integrated with critical cor-
+porate and government databases. E-commerce applications extract 
+ What are 
+the major attributes of 
+quality for 
+WebApps? 
+?    design quality. . . . 372
+      graphic design. . . . 378
+      model-view-controller. . 384
+      navigation design. . . . 385
+      quality checklist. . . 374
+      webApp architecture  384      
+1  
+ Web engineering
+ 
+ [Pre08] is an adapted version of the software engineering approach that is 
+presented throughout this book. It proposes an agile, yet disciplined framework for building 
+industry-quality Web-based systems and applications. 
+  
+2  These quality attributes are quite similar to those presented in Chapters 12 and 19. The impli-
+cation: quality characteristics are universal for all software. pre22126_ch17_371-390.indd   372pre22126_ch17_371-390.indd   37213/12/13   6:13 PM13/12/13   6:13 PM

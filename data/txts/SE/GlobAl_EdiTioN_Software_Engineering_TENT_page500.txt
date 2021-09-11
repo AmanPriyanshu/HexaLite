@@ -1,0 +1,14 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜˜˜between these layers. This allows each layer to be distributed to a different computer. 
+Figure 17.
+6 illustrates this model, showing an application structured into four layers:1. A presentation layer that is concerned with presenting information to the user 
+and managing all user interaction.2. A data-handling layer that manages the data that is passed to and from the  client. This layer may implement checks on the data, generate web pages, and so on.3. An application processing layer that is concerned with implementing the logic of the application and so providing the required functionality to end-users.4. A database layer that stores the data and provides transaction management and 
+query services.The following section explains how different clientŒserver architectures distrib-ute these logical layers in different ways. The clientŒserver model also underlies the 
+notion of software as a service (SaaS), an important way of deploying software and 
+accessing it over the Internet. I cover this topic in Section 17.4.s1s2s3s4c1c2c3c4c5c6c7c8c9c10
+c11
+c12
+Client processServer processFigure 17.4
+  ClientŒserver interaction 
+NetworkSC1SC2CC1CC2CC3CC5CC6CC4ServercomputerClientcomputers1, s2s3, s4c5, c6, c7c1c2c3, c4c8, c9c10, c11, c12
+Figure 17.5  Mapping  of clients and servers  to networked computers 

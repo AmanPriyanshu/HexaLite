@@ -1,0 +1,65 @@
+336 Chapter 5  
+Operating Systemsmalicious code. Second, Sony installs that code without the user’s knowledge, much 
+less consent, and it employs strategies to prevent the code’s removal.
+Patching the PenetrationThe story of XCP became widely known in November 2005 when Russinovich 
+described what he found, and several news services picked up the story. Faced with 
+
+serious negative publicity, Sony decided to release an uninstaller for the XCP rootkit. 
+
+However, do you remember from Chapter 3 why “penetrate and patch” was abandoned 
+
+as a security strategy? Among other reasons, the pressure for a quick repair sometimes 
+
+leads to shortsighted solutions that address the immediate situation and not the underly-
+ing cause: Fixing one fault often causes a failure somewhere else.
+Sony’s uninstaller itself opened serious security holes. It was presented as a web 
+page that downloaded and executed the uninstaller. But the programmers did not check 
+
+what code they were executing, and so the web page would run any code from any 
+
+source, not just the intended uninstaller. And worse, the code to perform downloads 
+
+and installations remained on the system even after XCP was uninstalled, meaning that 
+
+the vulnerability persisted. (In fact, Sony used two different rootkits from two different 
+
+sources and, remarkably, the uninstallers for both rootkits had this same vulnerability.)
+How many computers were infected by this rootkit? Nobody knows for sure. Secu-
+rity researcher Dan Kaminsky [KAM06] found 500,000 references in DNS tables to the 
+
+site the rootkit contacts, but some of those DNS entries could support accesses by hun-
+
+dreds or thousands of computers. How many users of computers on which the rootkit 
+
+was installed are aware of it? Again nobody knows, nor does anybody know how many 
+
+of those installations might not yet have been removed.
+Felten and Halderman [FEL06] present an interesting analysis of this situation, 
+examining how digital rights management (copy protection for digital media such as 
+
+music CDs) leads to requirements similar to those for a malicious code developer. 
+
+Levine et al. [LEV06] consider the full potential range of rootkit behavior as a way of 
+
+determining how to defend against them.
+Automatic software updates, antivirus tools, spyware, even applications all do things 
+without the user’s express permission or even knowledge. They also sometimes con-
+
+spire against the user: Sony worked with major antivirus vendors so its rootkit would 
+
+not be detected, because keeping the user uninformed was better for all of them, or so 
+
+Sony and the vendors thought.
+TDSS RootkitsTDSS is the name of a family of rootkits, TDL-1 through (currently) TDL-4, based on 
+
+the Alureon rootkit, code discovered by Symantec in September 2008. You may remem-
+
+ber Alureon from Sidebar 5-7 earlier in this chapter describing how a rootkit prevented 
+
+a legitimate Microsoft patch from being installed. The TDSS group originated in 2008 
+
+with TDL-1, a relatively basic rootkit whose main function seemed to be collecting and 
+
+exfiltrating personal data.
+TDL-1 seemed to have stealth as its major objective, which it accomplished by sev-
+eral changes to the Windows operating system. First, it installed filter code in the stack 

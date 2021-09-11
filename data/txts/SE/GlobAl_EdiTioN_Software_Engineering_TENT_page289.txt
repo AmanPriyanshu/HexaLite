@@ -1,0 +1,41 @@
+˜˜˚˛˜˜˜˜
+˜˜
+the wilderness weather system, availability and reliability are the most important 
+properties because the costs of repair may be very high. For the Mentcare patient 
+
+information system, security and resilience are particularly important because of the 
+sensitive private data that is maintained and the need for the system to be available 
+for patient consultations.Other system properties are closely related to these five dependability properties and influence a system™s dependability:1. Repairability System failures are inevitable, but the disruption caused by failure 
+can be minimized if the system can be repaired quickly. It must be possible to 
+diagnose the problem, access the component that has failed, and make changes 
+to fix that component. Repairability in software is enhanced when the organiza
+-
+tion using the system has access to the source code and has the skills to make 
+changes to it. Open-source software makes this easier, but the reuse of compo-
+nents can make it more difficult.2. Maintainability As systems are used, new requirements emerge, and it is impor-tant to maintain the value of a system by changing it to include these new 
+
+requirements. Maintainable software is software that can be adapted economi-
+cally to cope with new requirements, and where there is a low probability that 
+making changes will introduce new errors into the system.3. Error tolerance 
+This property can be considered as part of usability and reflects 
+
+the extent to which the system has been designed, so that user input errors are 
+
+avoided and tolerated. When user errors occur, the system should, as far as pos-
+sible, detect these errors and either fix them automatically or request the user to 
+re-input their data.The notion of system dependability as an encompassing property was introduced 
+because the dependability properties of availability, security, reliability, safety, and 
+
+resilience are closely related. Safe system operation usually depends on the system 
+
+being available and operating reliably. A system may become unreliable because an 
+
+intruder has corrupted its data. Denial-of-service attacks on a system are intended to 
+DependabilityAvailability
+ReliabilitySecuritySafetyResilienceThe ability of the system 
+to protect itself against deliberate or accidental intrusionThe ability of the system to resist and recover from damaging events
+The ability of the system 
+to operate without catastrophic failureThe ability of the system 
+to deliver services as specifiedThe ability of the system 
+to deliver services when requestedFigure 10.1 Principal dependability  
+properties 

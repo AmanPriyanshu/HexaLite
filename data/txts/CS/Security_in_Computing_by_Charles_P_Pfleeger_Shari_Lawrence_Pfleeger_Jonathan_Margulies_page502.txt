@@ -1,0 +1,113 @@
+468 Chapter 6  
+NetworksTABLE 6-6 
+Comparison of Firewall Types
+Packet FilterStateful InspectionApplication Proxy
+Circuit 
+GatewayGuard
+Personal Firewall
+Simplest decision-making 
+rules, packet by 
+
+packet
+Correlates data across packets
+Simulates effect 
+of an application 
+programJoins two 
+subnetworks
+Implements any conditions 
+
+that can be 
+programmedSimilar to packet filter, but 
+
+getting more 
+complex
+Sees only addresses and 
+service protocol 
+typeCan see addresses and 
+dataSees and analyzes full 
+data portion of 
+packSees addresses and dataSees and analyzes full 
+content of dataCan see full data portionAuditing limited because of speed 
+limitationsAuditing possibleAuditing likelyAuditing likelyAuditing likelyAuditing likely
+Screens based on connection 
+rulesScreens based on information 
+across multiple 
+packets—in 
+
+either headers 
+or dataScreens based on behavior of 
+
+applicationScreens based on addressScreens based on interpretation 
+of contentTypically, 
+screens based 
+on content of 
+each packet 
+
+individually, 
+
+based on address 
+or contentComplex 
+addressing 
+rules can make 
+
+configuration 
+
+tricky
+Usually preconfigured 
+
+to detect certain 
+attack signaturesSimple proxies can substitute 
+for complex 
+
+decision rules, 
+but proxies 
+
+must be aware 
+
+of application’s 
+
+behavior
+Relatively 
+simple 
+addressing 
+rules; make 
+
+configuration 
+
+straightforward
+Complex guard 
+functionality; 
+can be difficult 
+
+to define 
+
+and program 
+accuratelyUsually starts in mode to deny all 
+
+inbound traffic; 
+
+adds addresses 
+and functions 
+to trust as they 
+
+ariseProxying leads to a slightly different configuration. The proxy host–firewall com-
+municates with both internal systems and the outside because it looks like an internal 
+
+host to the outside.Examples of proxied applications include email, web page service, and file transfer. 
+A common situation provides a more-detailed example—a proxy application for web 
+
+page servers: A company has an internal web structure, with pages describing products, 
+
+customers, and perhaps internal contact information. The company maintains a pro-
+
+tected database of products, including stock on hand, but the company does not want to 
+
+release exactly how many units of a product are on hand. Thus, each time the system is 
+
+ready to display a product’s page, the firewall queries the database and, according to the 
+
+result obtained, adds a line saying “available now,” “a few left,” or “out of stock.” The 
+
+firewall serves as a user’s proxy to access the database on behalf of the outside user but 
+
+limits the information returned from the query.

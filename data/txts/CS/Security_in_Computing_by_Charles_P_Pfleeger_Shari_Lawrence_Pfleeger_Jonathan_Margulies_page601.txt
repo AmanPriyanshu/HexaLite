@@ -1,0 +1,77 @@
+ Section 8.3  Cloud Security Tools and Techniques 
+567  Unfortunately, short of extensive security testing of your cloud providers and part-
+ners, there is not much you can do to protect yourself from these issues. The best way 
+
+to prepare is to recognize that a product you rely on will have a major vulnerability at 
+
+some point and to make sure you’re ready to respond when that time comes. That could 
+
+mean being able to patch quickly; being prepared to switch cloud providers; or having 
+
+redundant systems that rely on different sets of products and cloud services.
+Logging and Incident Response The need to detect and respond to security incidents that take place in public clouds 
+
+creates interesting challenges. The primary way that SOC analysts identify and investi-
+
+gate security incidents is with system log data. In a normal enterprise, security-relevant 
+
+logs come from a number of sources, including OSs, malware scanners, vulnerability 
+
+scanners, IDSs, firewalls, and business applications. Some of the log data will consist 
+
+of alerts to potential malicious behavior, while other log data will help analysts build a 
+
+sense of context around a potential security incident—who was logged in, what applica-
+
+tions were running, and other such useful information.If a security incident is particularly interesting—perhaps because it had significant 
+consequences or was novel in some way—the victim may wish to investigate more 
+
+deeply with computer forensics. A primary goal of a forensic investigation is to pre-
+
+serve as much relevant evidence as reliably as possible, and to do so in a way that is 
+
+convincing to a court of law. This may mean taking snapshots of memory and hard disks 
+
+before powering systems down or removing them from the network, carefully preserv-
+
+ing physical drives, and safeguarding log files from devices that lack storage. 
+As you may have guessed by now, the problem with doing all of this when you are 
+attacked in a public cloud is that you may not have access to a lot of the necessary data 
+
+and functionality. SaaS offerings will generally be the least helpful in these scenarios, 
+
+as they typically only provide users with limited application-layer logs and no insight 
+
+into or control over underlying systems and networks. PaaS is slightly better because 
+
+customers can have complete control over the logs their applications generate and can 
+
+sometimes configure runtime environment logging. As with SaaS, however, PaaS cus-
+
+tomers have no control over the underlying systems [BIR11]. IaaS services provide the 
+
+most flexible options for logging and forensics because they give customers complete 
+
+control over operating systems, applications, and virtual networks. The customer can 
+
+enable any desired logging within those spheres of control and can use VM snapshots—
+
+the ability to save and restore the exact state of a VM at a moment in time—to achieve 
+
+a powerful forensic analysis and evidence preservation capability. Even with IaaS, how-
+
+ever, a number of logs will likely be unavailable to customers, including those generated 
+
+by hypervisors, underlying physical systems, and provider networks. 
+The most important thing a public cloud customer can do to prepare for incident 
+detection and response is to address logging and forensics when writing SLAs with pro-
+
+viders. SLAs can include requirements for incident notification, evidence preservation, 
+
+and access to evidence; they can also specify available log types and other potential evi-
+
+dence sources [CSA13]. Relevant data may include logs from web servers, applications, 
+
+databases, OSs, hypervisors, network devices, security appliances, and cloud computing 
+
+platforms, as well as network traffic captures.

@@ -1,0 +1,62 @@
+ Section 7.3  Reliability and Integrity 
+513  (you request a record and the database provides it) or indirect (you request some 
+records and from those results infer or intuit other data). Controlling direct access 
+
+employs the access control techniques we describe in Chapters 2 and 5. Indirect 
+
+access, however, is more difficult to control, and we explore it in more depth later in 
+
+this chapter.
+Finally, availability is important because of the shared access motivation underly-
+ing database development. However, availability conflicts with confidentiality. The last 
+
+sections of the chapter address availability in an environment in which confidentiality 
+
+is also important.7.3 RELIABILITY AND INTEGRITY
+Databases amalgamate data from many sources, and users expect a DBMS to provide 
+
+access to the data in a reliable way. When software engineers say that software has 
+reli-
+ability, they mean that the software runs for very long periods of time without failing. 
+Users certainly expect a DBMS to be reliable, since the data usually are key to busi-
+
+ness or organizational needs. Moreover, users entrust their data to a DBMS and rightly 
+
+expect it to protect the data from loss or damage. Concerns for reliability and integrity 
+
+are general security issues, but they are more apparent with databases.
+A DBMS guards against loss or damage in several ways, which we study in this 
+section. However, the controls we consider are not absolute: No control can prevent an 
+
+authorized user from inadvertently entering an acceptable but incorrect value.
+Database concerns about reliability and integrity can be viewed from three 
+dimensions:• Database integrity: 
+concern that the database as a whole is protected against 
+damage, as from the failure of a disk drive or the corruption of the master data-
+
+base index. These concerns are addressed by operating system integrity controls 
+
+and recovery procedures.
+• Element integrity: 
+concern that the value of a specific data element is written 
+or changed only by authorized users. Proper access controls protect a database 
+
+from corruption by unauthorized users.• Element accuracy: 
+concern that only correct values are written into the elements 
+of a database. Checks on the values of elements can help prevent insertion of 
+
+improper values. Also, constraint conditions can detect incorrect values.
+Protection Features from the Operating System
+In Chapter 5 we discuss the protection an operating system provides for its users. A 
+
+responsible system administrator backs up the files of a database periodically along 
+
+with other user files. During normal execution, the operating system’s standard access 
+
+control facilities protect the files against outside access. Finally, the operating system 
+
+performs certain integrity checks for all data as a part of normal read and write opera-
+
+tions for I/O devices. These controls provide basic security for databases, but the data-
+
+base manager must enhance them.

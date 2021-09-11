@@ -1,0 +1,66 @@
+CHAPTER 11  
+REQUIREMENTS MODELING: BEHAVIOR, PATTERNS, AND WEB/MOBILE APPS
+ 217 
+The content model must be capable of describing the content object  Component. 
+ In many instances, a simple list of content objects, coupled with 
+a brief description of each object, is sufﬁ cient to deﬁ
+ ne the requirements for 
+content that must be designed and implemented. However, in some cases, the 
+
+content model may beneﬁ t from a richer analysis that graphically illustrates 
+the relationships among content objects and/or the hierarchy of content main-
+tained by a WebApp. 
+  For example, consider the  data tree
+ 
+ [Sri01] created for a  
+www.safehomeassured
+.com 
+ component shown in  
+Figure 11.5 . The tree represents a hierarchy of informa-tion that is used to describe a component. Simple or composite data items (one or 
+
+more data values) are represented as unshaded rectangles. Content objects are 
+
+represented as shaded rectangles. In the ﬁ gure, description is deﬁ
+ ned by ﬁ
+ ve con-
+tent objects (the shaded rectangles). In some cases, one or more of these objects 
+
+would be further reﬁ ned as the data tree expands. 
+ A data tree can be created for any content that is composed of multiple con-tent objects and data items. The data tree is developed in an effort to deﬁ ne 
+hierarchical relationships among content objects and to provide a means for re-
+viewing content so that omissions and inconsistencies are uncovered before de-
+sign commences. In addition, the data tree serves as the basis for content design.   
+ 
+11.5.5  Interaction Model for Web and Mobile Apps 
+ 
+The vast majority of Web and mobile apps enable a “conversation” between an 
+end user and application functionality, content, and behavior. This conversation 
+
+can be described using an  interaction 
+ model that can be composed of one or 
+more of the following elements: (1) use cases, (2) sequence diagrams, (3) state 
+diagrams,  10 
+ 
+ and/or (4) user interface prototypes.   
+In many instances, a set of use cases  11 
+ 
+ is sufﬁ
+ cient to describe the interaction 
+at an analysis level (further reﬁ nement and detail is introduced during design). 
+Marketing descriptionPhotographTech description
+SchematicVideo
+Wholesale pricePart number
+Part name
+Part type
+ComponentDescriptionPriceRetail price 
+ 
+FIGURE 11.5 
+ 
+10  Sequence diagrams and state diagrams are modeled using UML notation. 
+  
+11  Use cases are described in detail in Chapter 9. 
+ 
+Data tree for a 
+www.safehomeassured.com 
+component  
+ pre22126_ch11_202-223.indd   217pre22126_ch11_202-223.indd   21713/12/13   6:12 PM13/12/13   6:12 PM

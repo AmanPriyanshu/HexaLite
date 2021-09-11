@@ -1,0 +1,45 @@
+design the controller workstations and software engineers, and user interface design-ers are responsible for the software in the system.The involvement of a range of professional disciplines is essential because of the 
+different types of components in complex systems. However, differences and mis-understandings between disciplines can lead to inappropriate design decisions. 
+These poor decisions can delay the system™s development or make it less suitable for 
+its intended purpose. There are three reasons why there may be misunderstandings 
+or other differences between engineers with different backgrounds:1. D
+ifferent professional disciplines often use the same words, but these words 
+do not always mean the same thing. Consequently, misunderstandings are 
+common in discussions between engineers from different backgrounds. If 
+
+these are not discovered and resolved during system development, they can 
+
+lead to errors in delivered systems. For example, an electronic engineer may 
+
+know a bit about C programming but may not understand that a method in 
+
+Java is like a function in C.2. Each discipline makes assumptions about what other disciplines can or cannot 
+do. These assumptions are often based on an inadequate understanding of what 
+is possible. For example, an electronic engineer may decide that all signal pro-cessing (a computationally intensive task) should be done by software to sim
+-
+plify the hardware design. However, this may mean significantly greater 
+
+software effort to ensure that the system processor can cope with the amount of 
+computation that is resolved.3. D
+isciplines try to protect their professional boundaries and may argue for certain 
+design decisions because these decisions will call for their professional expertise. 
+
+Therefore, a software engineer may argue for a software-based door locking sys-tem in a building, although a mechanical, key-based system may be more reliable.My experience is that interdisciplinary working can be successful only if enough time is available for these issues to be discussed and resolved. This requires regular 
+face-to-face discussions and a flexible approach from everyone involved in the sys
+-
+tems engineering process.Systems
+engineering
+Electricalengineering
+ErgonomicsSoftware
+engineering
+Civil
+engineering
+Architecture
+User interface
+designElectronic engineering
+Mechanical engineering
+Figure 19.2 Professional 
+disciplines involved in 
+
+ATC systems engineering˜˚˛˝˙ˆˇ˘˜˜˚˜˜˜
+˜˜

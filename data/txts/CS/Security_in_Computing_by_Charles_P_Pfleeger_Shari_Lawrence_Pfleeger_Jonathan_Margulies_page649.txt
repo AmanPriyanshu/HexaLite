@@ -1,0 +1,70 @@
+ Section 9.3  Authentication and Privacy 
+615  specific records to individual people [AND98a, JON00]. Although there were signifi-
+cant privacy difficulties, Iceland went ahead with plans to build the combined database.
+In one of the most stunning analyses on deriving identities, Latanya Sweeney 
+[SWE01] reports that 87 percent of the population of the United States is likely to 
+
+be identified by the combination of 5-digit postal code (called zip code in the United 
+
+States), gender, and date of birth. That statistic is amazing when you consider that close 
+
+to 8,000 U.S. residents must share any birthday
+2 or that the average population in any 
+5-digit zip code area is 10,0003. Sweeney backs up her statistical analysis with a real-
+life study. In 1997 she analyzed the voter rolls of Cambridge, Massachusetts, a city 
+
+of about 50,000 people, one of whom was the then current governor. She took him as 
+
+an example and found that only six people had his birth date, only three of those were 
+
+men, and he was the only one of those three living in his zip code. As a public figure, he 
+
+had published his date of birth in his campaign literature, but birth dates are sometimes 
+
+available from public records. Simi-
+
+lar work on deriving identities 
+
+from anonymized records [SWE04, 
+
+MAL02] showed how likely one 
+
+is to deduce an identity from other 
+
+easily obtained data.Sweeney’s work demonstrates compellingly how difficult it is to anonymize data 
+effectively. Many medical records are coded with at least gender and date of birth, 
+
+and those records are often thought to be releasable for anonymous research purposes. 
+
+Furthermore, medical researchers may want a zip code to relate medical conditions to 
+
+geography and demography; for instance, the researchers may want to track the spread 
+
+of disease across geographic areas or by personal characteristics. Few people would 
+
+think adding zip code would lead to such high rates of breach of privacy.
+ConclusionsAs we have seen, identification and authentication are two different activities that are 
+
+easily confused. Part of the confusion arises because people do not clearly distinguish 
+
+the underlying concepts. The confusion is amplified when a data item is used for more 
+
+than one purpose.Authentication depends on something that confirms a property. In life, few sound 
+authenticators exist, so we tend to overuse the ones we have: an identification number, 
+
+birth date, or family name. But, as we described, those authenticators are also some-
+
+times used as database keys, with negative consequences to privacy.
+2. Assuming, unrealistically, that the population is evenly distributed by age over a life span of 100 years, 
+36,600 birthdays (day–month–year) are reflected in the over 300 million person population of the United 
+
+States. An average of about 8,000 people have the same birthdate.
+3. The United States Postal Service, which assigns zip codes, has issued about 45,000 of the 99,999 possible 
+zip code values. Some zip codes, however, have no residents, such as a code assigned to a single large office 
+
+building. The United States Census Bureau compiles statistics on nearly 32,000 regions it calls Zip Code 
+
+Tabulation Areas, distinct areas approximating the boundary of a geographic postal zip code. With a total 
+
+U.S. population of over 300 million, each tabulation area thus contains an average of roughly 10,000 people.
+Readily available data can be linked to impinge on privacy.

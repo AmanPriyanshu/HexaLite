@@ -1,0 +1,64 @@
+906 APPENDIX 3  FORMAL METHODS The following example of a schema describes the state of the block handler and the data invariant: 
+  
+BlockHandler  
+  
+used, free  : 
+P  BLOCKS  
+  
+BlockQueue  :  
+seq  
+P  BLOCKS  
+  
+used  
+>  free  
+5 [`   
+used  
+<  free  
+5  AllBlocks  
+`  ; i : 
+dom  BlockQueue  •  
+BlockQueue i  
+#  used  
+`  ; i, j : dom  
+BlockQueue  •  
+i  
+Þ  j  
+5.  BlockQueue i  
+>  BlockQueue j  
+5 [   
+  
+ As we have noted, the schema consists of two parts. The part above the cen-
+tral line represents the variables of the state, while the part below the central 
+line describes the data invariant. Whenever the schema speciﬁ es operations 
+that change the state, it is preceded by the D symbol. The following example of a schema describes the operation that removes an element from the block queue: 
+ RemoveBlocks D    
+BlockHandler  
+   #BlockQueue 
+. 0,   
+used9  
+5  used  \  
+head BlockQueue  
+`  free
+9 5  free  
+<  head BlockQueue  
+`   
+BlockQueue9  
+5  tail BlockQueue  
+   The inclusion of D  BlockHandler  results in all variables that make up the state being available for the  RemoveBlocks  schema and ensures that the data invari-ant will hold before and after the operation has been executed.  The second operation, which adds a collection of blocks to the end of the queue, is represented as 
+ AddBlocks  D BlockHandler  Ablocks? : BLOCKS 
+
+    
+Ablocks?  
+#  used  
+  
+BlockQueue9  
+5  BlockQueue  
+C KAblocks?L `   
+used9  
+5  used  
+`   
+free9  
+5  free  
+   By convention in Z, an input variable that is read, but does not form part of the 
+state, is terminated by a question mark. Thus, Ablocks?, which acts as an input 
+parameter, is terminated by a question mark. 

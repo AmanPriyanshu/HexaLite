@@ -1,0 +1,29 @@
+˜˜˚˙˜˜˜
+˜˜
+2. The number of inherently volatile system requirements As I discussed in Chapter 4, 
+requirements that reflect organizational policies and procedures are likely to be 
+more volatile than requirements that are based on stable domain characteristics.3. The business processes in which the system is used 
+As business processes 
+evolve, they generate system change requests. As a system is integrated with 
+
+more and more business processes, there are increased demands for changes.In early work on software maintenance, researchers looked at the relationships 
+between program complexity and maintainability (Banker et al. 1993; Coleman et al. 
+
+1994; Kozlov et al. 2008). These studies found that the more complex a system or 
+component, the more expensive it is to maintain. Complexity measurements are par-
+ticularly useful in identifying program components that are likely to be expensive to 
+maintain. Therefore, to reduce maintenance costs you should try to replace complex 
+system components with simpler alternatives.After a system has been put into service, you may be able to use process data to help predict maintainability. Examples of process metrics that can be used for assess
+-
+ing maintainability are:1. Number of requests for corrective maintenance An increase in the number of 
+bug and failure reports may indicate that more errors are being introduced into 
+the program than are being repaired during the maintenance process. This may 
+indicate a decline in maintainability.2. Average time required for impact analysis This is related to the number of pro-
+gram components that are affected by the change request. If the time required 
+for impact analysis increases, it implies that more and more components are 
+
+affected and maintainability is decreasing.PredictingmaintainabilityPredicting systemchangesPredictingmaintenancecostsWhat will be the lifetime
+maintenance costs of thissystem?What will be the costs of
+maintaining this systemover the next year?What parts of the system
+will be the most expensiveto maintain?How many changerequests can beexpected?What parts of the system are
+most likely to be affected bychange requests?Figure 9.13  Maintenance prediction 

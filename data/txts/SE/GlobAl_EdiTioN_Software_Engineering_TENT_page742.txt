@@ -1,0 +1,39 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜a private workspace before making changes to the system. They may wish to build a 
+version of a system for testing in their development environment before committing 
+
+changes that they have made to the version control system. This involves using local 
+
+build tools that use checked-out versions of components in the private workspace.2. The build server, which is used to build definitive, executable versions of the 
+system. This server maintains the definitive versions of a system. All of the 
+
+system developers check in code to the version control system on the build 
+
+server for system building.3. The target environment, which is the platform on which the system executes. This 
+
+may be the same type of computer that is used for the development and build sys-
+tems. However, for real-time and embedded systems, the target environment is often 
+
+smaller and simpler than the development environment (e.g., a cell phone). For large 
+
+systems, the target environment may include databases and other application systems 
+
+that cannot be installed on development machines. In these situations, it is not possi-
+ble to build and test the system on the development computer or on the build server.Agile methods recommend that very frequent system builds should be carried 
+out, with automated testing used to discover software problems. Frequent builds are 
+part of a process of continuous integration as shown in Figure 25.12. In keeping with 
+the agile methods notion of making many small changes, continuous integration 
+
+involves rebuilding the mainline frequently, after small source code changes have 
+
+been made. The steps in continuous integration are:1.
+ Extract the mainline system from the VC system into the developer™s private 
+workspace.2. Build the system and run automated tests to ensure that the built system passes 
+all tests. If not, the build is broken, and you should inform whoever checked in 
+the last baseline system. He or she is responsible for repairing the problem.3. Make the changes to the system components.4. Build the system in a private workspace and rerun system tests. If the tests fail, 
+continue editing.Development systemDevelopmenttoolsPrivate workspaceBuild serverVersion
+managementsystemcoVersion management and build server
+Target system
+Executable systemTarget platform
+Check-out(co)Check-inFigure 25.11  Development, build, and 
+target platforms

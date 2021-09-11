@@ -1,0 +1,52 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜Incremental development in some form is now the most common approach for 
+the development of application systems and software products. This approach can 
+be either plan-driven, agile or, more usually, a mixture of these approaches. In a 
+
+plan-driven approach, the system increments are identified in advance; if an agile 
+
+approach is adopted, the early increments are identified, but the development of 
+
+later increments depends on progress and customer priorities.Incremental software development, which is a fundamental part of agile 
+development methods, is better than a waterfall approach for systems whose 
+
+requirements are likely to change during the development process. This is the 
+
+case for most business systems and software products. Incremental development 
+
+reflects the way that we solve problems. We rarely work out a complete prob-
+lem solution in advance but move toward a solution in a series of steps, back
+-
+tracking when we realize that we have made a mistake. By developing the 
+
+software incrementally, it is cheaper and easier to make changes in the software 
+
+as it is being developed.Each increment or version of the system incorporates some of the functional
+-ity that is needed by the customer. Generally, the early increments of the system 
+
+include the most important or most urgently required functionality. This means 
+
+that the customer or user can evaluate the system at a relatively early stage in 
+
+the development to see if it delivers what is required. If not, then only the cur-
+rent increment has to be changed and, possibly, new functionality defined for 
+
+later increments.Incremental development has three major advantages over the waterfall model:1.
+ The cost of implementing requirements changes is reduced. The amount of 
+
+analysis and documentation that has to be redone is significantly less than is 
+
+required with the waterfall model.2.
+ It is easier to get customer feedback on the development work that has been 
+
+done. Customers can comment on demonstrations of the software and see how Concurrent
+activities
+Validation
+Finalversion
+Development
+Intermediate
+versions
+Specification
+Initialversion
+OutlinedescriptionFigure 2.2 Incremental development

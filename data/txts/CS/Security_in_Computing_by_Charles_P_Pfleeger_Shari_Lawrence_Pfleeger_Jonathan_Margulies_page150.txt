@@ -1,0 +1,58 @@
+116 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+We have just described the pieces for a digital signature: public key cryptography 
+and secure message digests. These two pieces together are technically enough to make 
+
+a digital signature, but they do not address authenticity. For that, we need a structure 
+
+that binds a user’s identity and public key in a trustworthy way. Such a structure is 
+
+called a certificate. Finally, we present an infrastructure for transmitting and validating 
+
+certificates.
+Public Keys for Signatures
+Public key encryption systems are ideally suited to signing. For simple notation, let us 
+assume that the public key encryption for user 
+U is accessed through 
+E(M,KU) and that the private key transformation for 
+U is written as 
+D(M,KU). We can think of 
+E as the 
+privacy transformation (since only 
+U can decrypt it) and 
+D as the authenticity transfor-
+mation (since only U can produce it). Remember, however, that under some asymmetric 
+algorithms such as RSA, D and 
+E are commutative and either one can be applied to any 
+message. Thus,D(E(M, KU), KU)  M  E(D(M, KU), KU)If S wishes to send 
+M to 
+R, S uses the authenticity transformation to produce 
+D(M, KS). S then sends 
+D(M, K
+S) to R. R decodes the message with the public key trans-
+formation of S, computing E(D(M, KS), KS)  M. Since only S can create a message that 
+makes sense under 
+E(,KS), the message must genuinely have come from 
+S. This test 
+satisfies the authenticity requirement.
+R will save 
+D(M, K
+S). If S should later allege that the message is a forgery (not really 
+from S), R can simply show 
+M and 
+D(M, KS). Anyone can verify that since 
+D(M, KS) is transformed to 
+M with the public key transformation of 
+S—but only 
+S could have 
+produced D(M, KS)—then D(M, KS) must be from S. This test satisfies the unforgeable 
+requirement.There are other approaches to signing; some use symmetric encryption, others use asymmetric. The approach shown here illustrates how the protocol can address the 
+
+requirements for unforgeability and authenticity. To add secrecy, 
+S applies 
+E(M, K
+R) as shown in Figure 2-27.
+These pieces, a hash function, public key cryptography, and a protocol, give us 
+the technical pieces of a digital signature. However, we also need one nontechnical 
+SignedD(M, KS)Encrypted forconfidentiality
+E(M, KR)MSignatureFIGURE 2-27 Use of Two Keys in an Asymmetric Digital Signature

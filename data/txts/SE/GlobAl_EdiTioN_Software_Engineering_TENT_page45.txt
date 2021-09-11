@@ -1,0 +1,51 @@
+˜˜˚˛˜˜˜
+˜˜˜
+development processes. Processes have evolved to take advantage of the capabilities 
+of the software developers in an organization and the characteristics of the systems 
+
+that are being developed. For safety-critical systems, a very structured development 
+
+process is required where detailed records are maintained. For business systems, with 
+
+rapidly changing requirements, a more flexible, agile process is likely to be better.As I discussed in Chapter 1, professional Professional software development is a 
+managed activity, so planning is an inherent part of all processes. Plan-driven pro
+-
+cesses are processes where all of the process activities are planned in advance and 
+
+progress is measured against this plan. In agile processes, which I discuss in Chapter 3, 
+
+planning is incremental and continual as the software is developed. It is therefore eas-ier to change the process to reflect changing customer or product requirements. As 
+
+Boehm and Turner (Boehm and Turner 2004) explain, each approach is suitable for 
+
+different types of software. Generally, for large systems, you need to find a balance 
+
+between plan-driven and agile processes.Although there is no universal software process, there is scope for process improve
+-ment in many organizations. Processes may include outdated techniques or may not 
+
+take advantage of the best practice in industrial software engineering. Indeed, many 
+
+organizations still do not take advantage of software engineering methods in their 
+
+software development. They can improve their process by introducing techniques 
+
+such as UML modeling and test-driven development. I discuss software process 
+
+improvement briefly later in thischapter text
+ and in more detail in web Chapter 26.As I explained in Chapter 1, a software process model (sometimes called a Software 
+Development Life Cycle or SDLC model) is a simplified representation of a soft-ware process. Each process model represents a process from a particular perspective 
+and thus only provides partial information about that process. For example, a pro
+-
+cess activity model shows the activities and their sequence but may not show the 
+
+roles of the people involved in these activities. In this section, I introduce a number 
+of very general process models (sometimes called process paradigms) and present 
+these from an architectural perspective. That is, we see the framework of the process 
+but not the details of process activities.These generic models are high-level, abstract descriptions of software processes that can be used to explain different approaches to software development. You can 
+think of them as process frameworks that may be extended and adapted to create 
+
+more specific software engineering processes.The general process models that I cover here are:1. The waterfall model This takes the fundamental process activities of specifica-
+tion, development, validation, and evolution and represents them as separate 
+
+process phases such as requirements specification, software design, implemen-
+tation, and testing.

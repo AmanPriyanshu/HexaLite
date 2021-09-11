@@ -1,0 +1,72 @@
+ Section 6.5  Distributed Denial-of-Service 
+421  attack that can and does severely affect major users. In the next section we study these 
+distributed denial-of-service attacks.
+6.5 DISTRIBUTED DENIAL-OF-SERVICE
+The denial-of-service attacks we just described are powerful by themselves, and Side-
+
+bar 6-19 shows us that many are 
+
+launched. But an assailant can con-
+
+struct a two-stage attack that mul-
+
+tiplies the effect many times. This 
+
+multiplicative effect gives power to 
+
+distributed denial of service.
+SIDEBAR 6-18  
+State of Virginia Halted Because 
+of IT Failure
+On 25 August 2010, computer services for 26 of the 89 agencies of the 
+State of Virginia failed, affecting 13 percent of the state’s file servers. State 
+
+agencies could not access data needed to serve customers. Perhaps most 
+noticeably affected was the state’s Department of Motor Vehicles, which 
+
+could not issue driver licenses or identification cards. The State Depart-
+
+ment of Taxation and State Board of Elections were also severely affected, 
+
+being without access to databases for almost a week; other state agencies 
+were affected for up to three days. During the outage, the Department of 
+
+Taxation could not access taxpayers’ accounts, the state could not issue 
+
+unemployment checks, and welfare benefits were paid only because of a 
+
+major effort by employees working over the weekend.
+The cause of the loss of service was ultimately found to be a failed hardware component, specifically an EMC storage area network (SAN) 
+
+device. Ironically, that hardware is intended to 
+improve
+ reliability of data stor-
+age by supporting redundancy and common backup and allowing data to 
+
+be aggregated from a variety of different kinds of storage devices. Within the 
+
+SAN two circuit boards failed, leading to the widespread loss of access; one 
+
+board was found to be defective and, when it was replaced, the storage net-
+
+work failed so catastrophically that the entire system had to be shut down for 
+
+over two days. The manufacturer said such a massive failure was unprec-
+
+edented and the technology has a reliability rate of 99.999 percent [NIX10].
+When the hardware was working again, state officials and technicians 
+from Northrop Grumman, the state’s contractor running the entire system, 
+
+found that major databases had been corrupted and the only course of 
+
+action was to rebuild the databases from backup copies on tape. Most 
+
+recently entered data—representing 3 percent of the databases—was irre-
+
+trievably lost [SOM10].Not every denial of service problem is the result of a malicious attack, 
+but the consequences of denial of service can be equally severe from mali-
+
+cious or nonmalicious causes.Distributed denial-of-service attacks change the balance between adversary 
+and victim by marshalling many forces 
+
+on the attack side.

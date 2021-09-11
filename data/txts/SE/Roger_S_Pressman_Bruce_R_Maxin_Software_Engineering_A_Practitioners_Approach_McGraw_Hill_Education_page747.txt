@@ -1,0 +1,93 @@
+CHAPTER 32  
+PROCESS AND PROJECT METRICS 717 
+Metrics such as work product errors per function point, errors uncovered per review hour, and errors uncovered per testing hour provide insight into the efﬁ
+ -cacy of each of the activities implied by the metric. Error data can also be used to 
+compute the  defect removal efﬁ
+ ciency
+ 
+ (DRE) for each process framework activity. 
+DRE is discussed in Section 32.3.3.   
+ 
+32.3.1   
+Measuring Quality  
+ 
+ 
+ 
+ 
+ 
+Although there are many measures of software quality, 
+ 8 
+ 
+ correctness, maintain-
+ability, integrity, and usability provide useful indicators for the project team. Gilb 
+
+[Gil88] suggests deﬁ nitions and measures for each. 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Correctness. 
+ Correctness is the degree to which the software performs 
+its required function. Defects (lack of correctness) are those problems re-
+ported by a user of the program after the program has been released for 
+general use. For quality assessment purposes, defects are counted over 
+a standard period of time, typically one year. The most common measure 
+
+for correctness is defects per KLOC, where a defect is deﬁ ned as a veriﬁ
+ ed 
+lack of conformance to requirements.    
+ 
+ 
+ 
+ 
+ 
+Maintainability. 
+ Maintainability is the ease with which a program can be 
+corrected if an error is encountered, adapted if its environment changes, 
+or enhanced if the customer desires a change in requirements. There is 
+no way to measure maintainability directly; therefore, we must use indi-
+rect measures. A simple time-oriented metric is  mean-time-to-change 
+ (MTTC), the time it takes to analyze the change request, design an ap-
+propriate modiﬁ cation, implement the change, test it, and distribute the 
+change to all users.    
+ 
+ 
+ 
+ 
+ 
+Integrity. 
+ This attribute measures a system’s ability to withstand attacks 
+(both accidental and intentional) to its security. To measure integrity, two 
+
+additional attributes must be deﬁ ned: threat and security.  
+Threat
+ 
+ is the probability (which can be estimated or derived from empirical evidence) 
+that an attack of a speciﬁ c type will occur within a given time.  
+Security 
+ is the probability (which can be estimated or derived from empirical evi-
+dence) that the attack of a speciﬁ c type will be repelled. The integrity of a 
+system can then be deﬁ ned as:
+Integrity 5 S [1 – (threat 3 (1 2 security))]   
+ 
+For example, if threat (the probability that an attack will occur) is 0.25 and security (the likelihood of repelling an attack) is 0.95, the integrity of the 
+system is 0.99 (very high). If, on the other hand, the threat probability is  WebRef 
+ An excellent source 
+of information on 
+
+software quality and re-
+lated topics (including 
+metrics) can be found 
+at   
+http://searchsoftwarequality
+.techtarget.com/
+resources  . 
+  
+8  A detailed discussion of the factors that inﬂ
+ uence software quality and the metrics that can be 
+used to assess software quality has been presented in Chapter 30. pre22126_ch32_703-726.indd   717pre22126_ch32_703-726.indd   71713/12/13   6:17 PM13/12/13   6:17 PM

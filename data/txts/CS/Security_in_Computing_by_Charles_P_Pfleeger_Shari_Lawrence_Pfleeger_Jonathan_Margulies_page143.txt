@@ -1,0 +1,72 @@
+ Section 2.3  Cryptography 
+109  If Amy wants to send something protected to Bill (such as a credit card number or 
+a set of medical records), then the exchange works something like this. Amy seals the 
+
+protected information with her private key so that it can be opened only with Amy’s 
+
+public key. This step ensures authenticity: only Amy can have applied the encryption 
+
+that is reversed with Amy’s public key. Amy then locks the information with Bill’s 
+
+public key. This step adds confidentiality because only Bill’s private key can decrypt 
+
+data encrypted with Bill’s public key. Bill can use his private key to open the letter box 
+
+(something only he can do) and use Amy’s public key to verify the inner seal (proving 
+
+that the package came from Amy). 
+Thus, as we have seen, asymmetric cryptographic functions are a powerful means for 
+exchanging cryptographic keys between people who have no prior relationship. Asym-
+
+metric cryptographic functions are slow, but they are used only once, to exchange sym-
+
+metric keys. Furthermore, if the keys being exchanged are for a symmetric encryption 
+
+system such as AES or DES, the key length is relatively short, up to 256 bits for AES 
+
+or 64 for DES. Even if we were to use an expanded form of AES with a key length of 
+
+1000 bits, the slow speed of public key cryptography would not be a significant problem 
+
+because it is performed only once, to establish shared keys.
+Asymmetric cryptography is also useful for another important security construct: 
+a digital signature. A human signature on a paper document is a strong attestation: 
+
+it signifies both agreement (you agree to the terms in the document you signed) and 
+
+understanding (you know what you are signing). People accept written signatures as a 
+
+surrogate for an in-person confirmation. We would like a similarly powerful construct 
+
+for confirming electronic documents. To build a digital signature we introduce integrity 
+
+codes, key certificates, and, finally, signatures themselves.
+Error Detecting Codes
+Communications are notoriously prone to errors in transmission. You may have noticed 
+
+that occasionally a mobile phone conversation will skip or distort a small segment of the 
+
+conversation, and television signals sometimes show problems commonly called noise. 
+
+In these cases, complete and accurate reception is not important as long as the noise is 
+relatively slight or infrequent. You can always ask your phone partner to repeat a sen-
+
+tence, and a winning goal on television is always rebroadcast numerous times.
+With important data, however, we need some way to determine that the transmission 
+is complete and intact. Mathematicians and engineers have designed formulas called 
+
+error detection and correction codes to make transmission errors apparent and to per-
+
+form minor repairs.Error detecting codes come under many names, such as hash codes, message digests,  
+checksums, integrity checks, error detection and correction codes, and redundancy tests. 
+
+Although these terms have fine differences of meaning, the basic purpose of all is to 
+
+demonstrate that a block of data has been modified. That sentence is worded carefully: 
+
+A message digest will (sometimes) signal that content has changed, but it is less solid 
+at demonstrating no modification, even though that is what we really want. We want 
+
+something to show no tampering—malicious or not; we get something that usually 
+
+shows tampering.

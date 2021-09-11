@@ -1,0 +1,50 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜Most software systems, however, do not have trained operators but have system users, who use the system as part of their work or to support their personal interests. For personal systems, the designers may describe the expected use of the system but 
+have no control over how users will actually behave. For enterprise IT systems, how-
+ever, training may be provided for users to teach them how to use the system. 
+
+Although user behavior cannot be controlled, it is reasonable to expect that they will 
+normally follow the defined process.Enterprise IT systems will also usually have system administrators or managers who are responsible for maintaining that system. While they are not part of the busi-
+ness process supported by the system, their job is to monitor the software system for 
+
+errors and problems. If problems arise, system managers take action to resolve them 
+and restore the system to its normal operational state.In the previous section, I discussed the importance of defense in depth and the use 
+of diverse mechanisms to check for adverse events that could lead to system failure. 
+Operational and management processes are an important defense mechanism, and, 
+in designing a process, you need to find a balance between efficient operation and 
+problem management. These are often in conflict as shown in Figure 14.7 as increas-
+ing efficiency removes redundancy and diversity from a system.Over the past 25 years, businesses have focused on so-called process improve-ment. To improve the efficiency of operational and management processes, compa-
+nies study how their processes are enacted and look for particularly efficient and 
+
+inefficient practice. Efficient practice is codified and documented, and software may 
+
+be developed to support this ﬁoptimumﬂ process. Inefficient practice is replaced by 
+more efficient ways of doing things. Sometimes process control mechanisms are 
+
+introduced to ensure that system operators and managers follow this ﬁbest practice.ﬂ
+The problem with process improvement is that it often makes it harder for people to 
+cope with problems. What seems to be ﬁinefficientﬂ practice often arises because people 
+
+maintain redundant information or share information because they know this makes it 
+
+easier to deal with problems when things go wrong. For example, air traffic controllers 
+
+may print flight details as well as rely on the flight database because they will then have 
+
+information about flights in the air if the system database becomes unavailable.People have a unique capability to respond effectively to unexpected situations, even when they have never had direct experience of these situations. Therefore, 
+
+when things go wrong, operators and system managers can often recover the situa-
+tion, although they may sometimes have to break rules and ﬁwork aroundﬂ the 
+
+defined process. You should therefore design operational processes to be flexible 
+
+and adaptable. The operational processes should not be too constraining; they should 
+not require operations to be done in a particular order; and the system software 
+
+should not rely on a specific process being followed.For example, an emergency service control room system is used to manage emer-gency calls and to initiate a response to these calls. The ﬁnormalﬂ process of han-
+dling a call is to log the caller™s details and then send a message to the appropriate 
+emergency service giving details of the incident and the address. This procedure 
+
+provides an audit trail of the actions taken. A subsequent investigation can check 
+
+that the emergency call has been properly handled.

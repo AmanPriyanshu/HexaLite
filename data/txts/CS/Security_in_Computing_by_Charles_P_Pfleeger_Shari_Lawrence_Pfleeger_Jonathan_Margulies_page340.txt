@@ -1,0 +1,80 @@
+306 Chapter 5  
+Operating SystemsThis problem cannot be stopped during compilation or even when a program is 
+loaded, because effective use of segments requires that they be allowed to grow in size 
+
+during execution. For example, a segment might contain a dynamic data structure such 
+
+as a stack. Therefore, secure implementation of segmentation requires the checking of 
+
+a generated address to verify that it is not beyond the current end of the segment refer-
+
+enced. Although this checking results in extra expense (in terms of time and resources), 
+
+segmentation systems must perform this check; the segmentation process must maintain 
+
+the current segment length in the translation table and compare every address generated.
+Thus, we need to balance protection with efficiency, finding ways to keep segmen-
+tation as efficient as possible. However, efficient implementation of segmentation pre- 
+
+sents two problems: Segment names are inconvenient to encode in instructions, and the 
+
+operating system’s lookup of the name in a table can be slow. To overcome these diffi-
+
+culties, segment names are often converted to numbers by the compiler when a program 
+
+is translated; the compiler also appends a linkage table that matches numbers to true 
+segment names. Unfortunately, this scheme presents an implementation difficulty when 
+
+two procedures need to share the same segment, because the assigned segment numbers 
+
+of data accessed by that segment must be the same.
+Paging An alternative to segmentation is 
+paging. The program is divided into equal-sized 
+pieces called pages, and memory is divided into equal-sized units called page frames. 
+
+(For implementation reasons, the page size is usually chosen to be a power of 2 between 
+
+512 and 4096 bytes.) As with segmentation, each address in a paging scheme is a two-
+
+part object, this time consisting of page, offset
+.Each address is again translated by a process similar to that of segmentation: The 
+operating system maintains a table of user page numbers and their true addresses in 
+
+memory. The page portion of every 
+page, offset
+ reference is converted to a page frame 
+address by a table lookup; the offset portion is added to the page frame address to pro-
+
+duce the real memory address of the object referred to as page, offset
+. This process is 
+illustrated in Figure 5-13.Unlike segmentation, all pages in the paging approach are of the same fixed size, 
+so fragmentation is not a problem. Each page can fit in any available page in memory, 
+
+thus obviating the problem of addressing beyond the end of a page. The binary form of 
+
+a page, offset
+ address is designed 
+so that the offset values fill a range 
+
+of bits in the address. Therefore, an 
+
+offset beyond the end of a particu-
+
+lar page results in a carry into the 
+
+page portion of the address, which 
+
+changes the address.To see how this idea works, consider a page size of 1024 bytes (1024 
+ 210), where 10 bits are allocated for the offset portion of each address. A program cannot generate 
+
+an offset value larger than 1023 in 10 bits. Moving to the next location after 
+x,1023 causes a carry into the page portion, thereby moving translation to the next page. During 
+
+the translation, the paging process checks to verify that a 
+page, offset
+ reference does 
+not exceed the maximum number of pages the process has defined.
+Paging allows the security advantages 
+of segmentation with more efficient 
+
+memory management.

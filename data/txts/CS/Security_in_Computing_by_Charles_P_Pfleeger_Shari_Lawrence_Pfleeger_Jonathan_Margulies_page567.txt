@@ -1,0 +1,68 @@
+ Section 7.4  Database Disclosure 
+533  When one cell is suppressed in a table with totals for rows and columns, it is neces-
+sary to suppress at least one additional cell on the row and one on the column to confuse 
+
+a snooper. Using this logic, all cells (except totals) would have to be suppressed in this 
+
+small sample table. When totals are not presented, single cells in a row or column can 
+
+be suppressed.Combined Results Another control combines rows or columns to protect sensitive values. For example, 
+
+Table 7-13 shows several sensitive results that identify single individuals. (Even though 
+
+these counts may not seem sensitive, someone could use them to infer sensitive data 
+
+such as NAME; therefore, we consider them to be sensitive.)
+These counts, combined with other results such as sum, permit us to infer individual 
+drug-use values for the three males, as well as to infer that no female was rated 3 for 
+
+drug use. To suppress such sensitive information, one can combine the attribute val-
+
+ues for 0 and 1, and also for 2 and 3, producing the less sensitive results shown in 
+
+Table 7-14. In this instance, it is impossible to identify any single value.
+Another way of combining results is to present values in 
+ranges. For example, 
+instead of exact financial aid figures being released, results can be released for the 
+
+ranges $0–1999, $2000–3999, and $4000 and above. Even if only one record is rep-
+
+resented by a single result, the exact value of that record is not known. Similarly, the 
+
+highest and lowest financial aid values are concealed.
+Yet another method of combining is by 
+rounding
+. This technique is actually a fairly 
+well known example of combining by range. If numbers are rounded to the nearest 
+
+multiple of 10, the effective ranges are 0–5, 6–15, 16–25, and so on. Actual values are 
+
+rounded up or down to the nearest multiple of some base.
+TABLE 7-11  
+Count of Students by Dorm and Sex
+SexHolmesGreyWestTotal
+M1315
+F2136
+
+Total34411
+TABLE 7-12  
+Using Subtraction to Derive 
+Suppressed CellsSexHolmesGreyWestTotal
+M–3–5
+F2–36
+
+Total34411
+TABLE 7-13  
+Combining Values to Derive 
+Sensitive Results
+Drug UseSex0123
+M1112
+
+F2220
+TABLE 7-14  
+Combining Values to 
+Suppress Sensitive Data
+Drug UseSex0 or 12 or 3
+M23
+
+F42

@@ -1,0 +1,97 @@
+698 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+incentives to keep turnover of personnel to an absolute minimum, the team should emphasize quality in every task it performs, and senior man-
+agement should do everything possible to stay out of the team’s way.
+  
+7 
+  
+ 
+ 
+ 
+ 
+ 
+ 3.
+   
+Track progress.
+ 
+ For a software project, progress is tracked as work prod-ucts (e.g., models, source code, sets of test cases) are produced and ap-
+proved (using technical reviews) as part of a quality assurance activity. 
+
+In addition, software process and project measures (Chapter 32) can be 
+collected and used to assess progress against averages developed for the 
+software development organization.   
+ 
+ 
+ 4.
+   
+Make smart decisions. 
+ In essence, the decisions of the project manager and the software team should be to “keep it simple.” Whenever possible, 
+decide to use commercial off-the-shelf software or existing software com-
+ponents or patterns, decide to avoid custom interfaces when standard 
+approaches are available, decide to identify and then avoid obvious risks, 
+and decide to allocate more time than you think is needed to complex or 
+risky tasks (you’ll need every minute).   
+ 
+ 
+ 5.
+   
+Conduct a postmortem analysis. 
+ Establish a consistent mechanism for ex-tracting lessons learned for each project. Evaluate the planned and actual 
+schedules, collect and analyze software project metrics, get feedback from 
+team members and customers, and record ﬁ ndings in written form. 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 31.6  
+THE W 5 
+HH PRINCIPLE  
+ 
+In an excellent paper on software process and projects, Barry Boehm [Boe96] states: “[Y]ou need an organizing principle that scales down to provide simple 
+[project] plans for simple projects.” Boehm suggests an approach that addresses 
+project objectives, milestones and schedules, responsibilities, management and 
+technical approaches, and required resources. He calls it the  W 5 
+HH Principle, 
+ after a series of questions that lead to a deﬁ nition of key project characteristics 
+and the resultant project plan:  
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Why is the system being developed? 
+ All stakeholders should assess the valid-ity of business reasons for the software work. Does the business purpose justify 
+the expenditure of people, time, and money?    
+ 
+ 
+ 
+ 
+ 
+What will be done? 
+ The task set required for the project is deﬁ ned. 
+   
+ 
+ 
+ 
+ 
+ 
+When will it be done? 
+ The team establishes a project schedule by identifying when project tasks are to be conducted and when milestones are to be reached.   How do 
+we deﬁ ne 
+key project 
+characteristics? ?  
+ 
+ 
+ 
+ 
+7  The implication of this statement is that bureaucracy is reduced to a minimum, extraneous 
+meetings are eliminated, and dogmatic adherence to process and project rules is deempha-
+sized. The team should be self-organizing and autonomous. pre22126_ch31_683-702.indd   698pre22126_ch31_683-702.indd   69813/12/13   6:16 PM13/12/13   6:16 PM

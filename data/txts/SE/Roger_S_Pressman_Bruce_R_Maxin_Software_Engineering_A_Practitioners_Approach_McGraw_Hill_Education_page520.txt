@@ -1,0 +1,111 @@
+490 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 5.
+  The symptom may be a result of timing problems, rather than processing problems.   
+ 
+ 
+ 6.
+  It may be difﬁ cult to accurately reproduce input conditions (e.g., a re-
+al-time application in which input ordering is indeterminate).   
+ 
+ 
+ 7.
+  The symptom may be intermittent. This is particularly common in embed-ded systems that couple hardware and software inextricably. 
+  
+ 
+ 
+ 8.
+  The symptom may be due to causes that are distributed across a number of tasks running on different processors.  
+ 
+ 
+  During debugging, we encounter errors that range from mildly annoying (e.g., an incorrect output format) to catastrophic (e.g., the system fails, causing seri-
+ous economic or physical damage). As the consequences of an error increase, 
+the amount of pressure to ﬁ nd the cause also increases. Often, pressure forces 
+a software developer to ﬁ x one error and at the same time introduce two more. 
+ 
+ 
+ 
+ 
+22.9.2   
+Psychological Considerations  
+Unfortunately, there appears to be some evidence that debugging prowess is an 
+innate human trait. Some people are good at it and others aren’t. Although ex-
+perimental evidence on debugging is open to many interpretations, large vari-
+ances in debugging ability have been reported for programmers with the same 
+education and experience. Although it may be difﬁ cult to “learn” debugging, a 
+number of approaches to the problem can be proposed. We examine them in 
+
+Section 22.9.3.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ uote:  “Everyone knows 
+that debugging is 
+twice as hard as 
+writing a program 
+in the ﬁ rst place. 
+
+So if you are as 
+clever as you can 
+be when you write 
+it, how will you 
+ever debug it?”  Brian Kernighan 
+   Set a time limit, say 
+
+two hours, on the 
+amount of time you 
+spend trying to debug 
+
+a problem on your 
+own. After that, get 
+help!   
+Debugging   
+Debugging  
+ 
+The scene:  Ed’s cubical as code 
+and unit testing is conducted.   
+The players:  Ed and Shakira—members of the  
+Safe-Home 
+ software engineering team.   
+The conversation:    
+Shakira (looking in through the entrance to the cubical):  
+  
+Ed:  Right 
+  
+Shakira:  Ys the matter? 
+  
+Ed (sighing audibly):  I’ve been working on this bug 
+since I discovered it at 9:30 this morning and it’s what, 
+
+  
+Shakira:  I thought we all agreed to spend no more 
+than one hour debugging stuff on our own; then we get 
+help, right?   
+Ed:  Yeah, 
+  
+Shakira (walking into the cubical):  So what’s the 
+problem?   
+Ed:  It’s complicated, and besides, I’ve been looking 
+at this for, what, 5 hours. You’re not going to see it in 
+
+  
+Shakira:  s the problem? 
+ [Ed explains the problem to Shakira, who looks at it   
+Shakira (a smile is gathering on her face):  Uh, 
+right there, the variable named  setAlarmCondition.
+  Shouldn’t it be set to “false” before the loop gets started? 
+ [Ed stares at the screen in disbelief, bends forward, 
+and begins to bang his head gently against the monitor. 
+
+Shakira, smiling broadly now, stands and walks out.] 
+  
+SAFEHOME pre22126_ch22_466-495.indd   490pre22126_ch22_466-495.indd   49013/12/13   6:14 PM13/12/13   6:14 PM

@@ -1,0 +1,164 @@
+CHAPTER 14  
+COMPONENT-LEVEL DESIGN
+ 293      
+ 
+ 
+ 
+The Liskov Substitution Principle (LSP).   
+“ Subclasses should be substitutable for their base classes” 
+ [Mar00]. This design principle, originally proposed by Barbara 
+Liskov [Lis88], suggests that a component that uses a base class should continue 
+to function properly if a class derived from the base class is passed to the compo-
+nent instead. LSP demands that any class derived from a base class must honor 
+any implied contract between the base class and the components that use it. In 
+the context of this discussion, a “contract” is a  precondition
+ 
+ that must be true 
+before the component uses a base class and a  postcondition 
+ that should be true 
+after the component uses a base class. When you create derived classes, be sure 
+they conform to the pre- and postconditions.   
+ 
+Dependency Inversion Principle (DIP).   “ Depend on abstractions. Do not depend on concretions”
+ 
+ [Mar00]. As we have seen in the discussion of the OCP, abstrac-
+tions are the place where a design can be extended without great complication. 
+The more a component depends on other concrete components (rather than on 
+abstractions such as an interface), the more difﬁ cult it will be to extend. 
+   If you dispense with 
+design and hack out 
+code, just remember 
+that code is the 
+ultimate “concretion.” 
+You’re violating DIP. 
+  
+The OCP in Action   
+The OCP in Action  
+ 
+ 
+ 
+ 
+ 
+The scene:  Vinod’s cubicle. 
+   
+ 
+ 
+ 
+The players:  
+Vinod and Shakira—members of the  SafeHome 
+ software engineering team.     
+ 
+ 
+ 
+The conversation:      
+ 
+ 
+ 
+Vinod:  
+I just got a call from Doug [the team manager]. He says marketing wants to add a new sensor. 
+   
+ 
+ 
+ 
+Shakira (smirking):  
+Not again, jeez!    
+ 
+ 
+ 
+Vinod:  
+Y
+these guys have come up with.    
+ 
+ 
+ 
+Shakira:  
+Amaze me.    
+ 
+ 
+ 
+Vinod (laughing):  
+They call it a doggie angst sensor. 
+   
+ 
+ 
+ 
+Shakira:  
+Say what?    
+ 
+ 
+ 
+Vinod:  
+It’s for people who leave their pets home in 
+apartments or condos or houses that are close to one 
+
+another. The dog starts to bark. The neighbor gets angry 
+
+and complains. With this sensor, if the dog barks for 
+
+more than, say, a minute, the sensor sets a special alarm 
+
+mode that calls the owner on his or her cell phone.    
+ 
+ 
+ 
+Shakira:  
+You’re kidding me, right? 
+   
+ 
+ 
+ 
+Vinod:  
+Nope. Doug wants to know how much time it’s 
+going to take to add it to the security function.    
+ 
+ 
+ 
+Shakira (thinking a moment):  
+look. [She shows Vinod  Figure 14.4 ] We’ve isolated the 
+actual sensor classes behind the sensor interface. As 
+long as we have specs for the doggie sensor, adding it 
+
+should be a piece of cake. Only thing I’ll have to do is 
+
+No change to the Detector component at all.    
+ 
+ 
+ 
+Vinod:  
+So I’ll tell Doug it’s no big deal. 
+   
+ 
+ 
+ 
+Shakira:  
+Knowing Doug, he’ll keep us focused and not deliver the doggie thing until the next release.    
+ 
+ 
+ 
+Vinod:  
+That’s not a bad thing, but you can implement 
+now if he wants you to?    
+ 
+ 
+ 
+Shakira:  
+Yeah, the way we designed the interface lets 
+me do it with no hassle.    
+ 
+ 
+ 
+Vinod (thinking a moment):  
+Have you ever heard of the open-closed principle?    
+ 
+ 
+ 
+Shakira (shrugging):  
+Never heard of it.    
+ 
+ 
+ 
+Vinod (smiling):  
+Not a problem.  
+ 
+  
+SAFEHOME pre22126_ch14_285-316.indd   293pre22126_ch14_285-316.indd   29313/12/13   6:12 PM13/12/13   6:12 PM

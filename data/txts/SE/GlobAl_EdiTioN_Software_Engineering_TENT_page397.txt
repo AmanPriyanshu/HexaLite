@@ -1,0 +1,37 @@
+In any critical system, it is good design practice to try to avoid a single point of fail-
+ure. That is, a single failure in part of the system should not result in an overall sys-
+tems failure. In security terms, this means that you should not rely on a single 
+
+mechanism to ensure security; rather, you should employ several different tech
+-niques. This concept is sometimes called ﬁdefense in depth.ﬂAn example of defense in depth is multifactor authentication. For example, if you use a password to authenticate users to a system, you may also include a challenge/
+
+response authentication mechanism where users have to pre-register questions and 
+
+answers with the system. After they have input their login credentials, they must 
+
+then answer questions correctly before being allowed access.System failures are inevitable in all systems, and, in the same way that safety-critical 
+systems should always fail-safe; security-critical systems should always ﬁfail-secure.ﬂ 
+
+When the system fails, you should not use fallback procedures that are less secure 
+than the system itself. Nor should system failure mean that an attacker can access 
+data that would not normally be allowed.For example, in the Mentcare system, I suggested a requirement that patient data should be downloaded to a system client at the beginning of a clinic session. This 
+speeds up access and means that access is possible if the server is unavailable. 
+
+Normally, the server deletes this data at the end of the clinic session. However, if the 
+
+server has failed, then it is possible that the information on the client will be main-
+tained. A fail-secure approach in those circumstances is to encrypt all patient data 
+stored on the client. This means that an unauthorized user cannot read the data.The demands of security and usability are often contradictory. To make a system 
+
+secure, you have to introduce checks that users are authorized to use the system and Figure 13.15 Design guidelines for secure 
+systems engineeringDesign guidelines for security   
+1Base security decisions on an explicit security policy   
+2Use defense in depth   
+3Fail securely   
+4Balance security and usability   
+5Log user actions   
+6Use redundancy and diversity to reduce risk   
+7Specify the format of system inputs   
+8Compartmentalize your assets   
+9Design for deployment10Design for recovery˜˜˚˛˙˜˜˜
+˜˜˜

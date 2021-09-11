@@ -1,0 +1,32 @@
+272 PART TWO  
+MODELINGcomponent polls sensors to detect an alarm condition, and the  alarm processing
+ 
+ component produces output when an alarm is detected.   
+ 
+ 
+13.6.4  Describing Instantiations of the System 
+ 
+The architectural design that has been modeled to this point is still relatively high level. The context of the system has been represented, archetypes that indi-
+cate the important abstractions within the problem domain have been deﬁ ned, 
+the overall structure of the system is apparent, and the major software compo-
+nents have been identiﬁ ed. However, further reﬁ
+ nement (recall that all design is 
+iterative) is still necessary. 
+ To accomplish this, an actual instantiation of the architecture is developed. By 
+this we mean that the architecture is applied to a speciﬁ c problem with the intent 
+of demonstrating that the structure and components are appropriate.   
+Figure 13.9  illustrates an instantiation of the  
+SafeHome 
+ architecture for the 
+security system. Components shown in  Figure 13.8  are elaborated to show addi-
+tional detail. For example, the  detector management 
+ component interacts with 
+External
+communicationmanagementGUI Internet
+interface
+SecurityControlpanel processingDetectormanagementAlarm
+processingKeypadprocessingCP displayfunctionsSchedulerPhonecommunicationAlarm
+SafeHomeexecutiveSensor  
+FIGURE 13.9 
+An instantiation of the security function with component elaboration  
+ pre22126_ch13_252-284.indd   272pre22126_ch13_252-284.indd   27213/12/13   6:12 PM13/12/13   6:12 PM

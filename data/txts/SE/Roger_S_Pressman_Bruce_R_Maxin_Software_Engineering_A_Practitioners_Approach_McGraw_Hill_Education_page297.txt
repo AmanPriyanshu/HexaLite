@@ -1,0 +1,47 @@
+CHAPTER 13  
+ARCHITECTURAL DESIGN 267alternatives. Potential alternative solutions (with their pros and cons) from pre-vious software applications are included to assist the architect in making the 
+best decision possible.  The  decision model 
+ documents both the architectural decisions required and 
+records the decisions actually made on previous projects with their justiﬁ ca-
+tions. The guidance model feeds the architectural decision model in a  tailoring 
+ step that allows the architect to delete irrelevant issues, enhance important is-
+sues, or add new issues. A decision model can make use of more than one guid-
+ance model and provides feedback to the guidance model after the project is 
+completed. This feedback may be accomplished by  harvesting 
+ lessons learned 
+from project postmortem reviews.   
+ 
+ 
+ 13.6 A
+RCHITECTURAL DESIGN  
+ 
+As architectural design begins, context must be established. To accomplish this, 
+the external entities (e.g., other systems, devices, people) that interact with the 
+software and the nature of their interaction are described. This information can 
+generally be acquired from the requirements model. Once context is modeled 
+and all external software interfaces have been described, you can identify a set 
+of architectural archetypes.  An  archetype
+ 
+ is an abstraction (similar to a class) that represents one element 
+of system behavior. The set of archetypes provides a collection of abstractions 
+
+that must be modeled architecturally if the system is to be constructed, but the 
+archetypes themselves do not provide enough implementation detail. Therefore, 
+the designer speciﬁ es the structure of the system by deﬁ
+ ning and reﬁ
+ ning soft-
+ware components that implement each archetype. This process continues itera-
+tively until a complete architectural structure has been derived.  A number of questions [Boo11b] must be asked and answered as a software en-gineer creates meaningful architectural diagrams. Does the diagram show how 
+the system responds to inputs or events? What visualizations might there be to 
+help emphasize areas of risk? How can hidden system design patterns be made 
+more obvious to other developers? Can multiple viewpoints show the best way to 
+refactor speciﬁ c parts of the system? Can design trade-offs be represented in a 
+meaningful way? If a diagrammatic representation of software architecture an-
+swers these questions, it will have value to software engineers that use it.   
+13.6.1  Representing the System in Context 
+ 
+At the architectural design level, a software architect uses an  architectural con-
+text diagram 
+ (ACD) to model the manner in which software interacts with enti-
+ties external to its boundaries. The generic structure of the architectural context 
+diagram is illustrated in  Figure 13.5 . What is an archetype??pre22126_ch13_252-284.indd   267pre22126_ch13_252-284.indd   26713/12/13   6:12 PM13/12/13   6:12 PM

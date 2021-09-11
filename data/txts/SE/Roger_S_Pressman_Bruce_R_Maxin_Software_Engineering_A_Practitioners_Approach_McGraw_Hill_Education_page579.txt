@@ -1,0 +1,77 @@
+CHAPTER 25  
+TESTING WEB APPLICATIONS
+ 549been validated separately and as a package. If this is the case, WebApp testing 
+focuses on the design of test cases to exercise the interactions between the client 
+layer and the ﬁ rst two server layers (WebApp and data transformation) shown in 
+the ﬁ gure. 
+ The user interface layer is tested to ensure that scripts are properly con-structed for each user query and properly transmitted to the server side. The 
+WebApp layer on the server side is tested to ensure that user data are prop-
+
+erly extracted from scripts and properly transmitted to the data transformation 
+layer on the server side. The data transformation functions are tested to ensure 
+that the correct SQL is created and passed to appropriate data management 
+components.  A detailed discussion of the underlying technology that must be understood to adequately design these database tests is beyond the scope of this book. If you 
+have additional interest, see [Sce02], [Ngu01], and [Bro01].   
+ 
+ 
+ 
+ 
+ 25.4  
+USER INTERFACE
+ TESTING  
+ 
+Veriﬁ
+ cation and validation of a WebApp user interface occurs at three distinct 
+points. During requirements analysis, the interface model is reviewed to ensure 
+
+that it conforms to stakeholder requirements and to other elements of the require-
+ments model. During design the interface design model is reviewed to ensure that 
+
+generic quality criteria established for all user interfaces (Chapter 15) have been 
+
+achieved and that application-speciﬁ c interface design issues have been properly 
+addressed. During testing, the focus shifts to the execution of application-speciﬁ c 
+aspects of user interaction as they are manifested by interface syntax and seman-
+tics. In addition, testing provides a ﬁ nal assessment of usability. 
+ 
+ 
+ 
+25.4.1   
+Interface Testing Strategy 
+ 
+ 
+Interface testing 
+ exercises interaction mechanisms and validates aesthetic as-
+pects of the user interface. The overall strategy for interface testing is to (1) un-
+cover errors related to speciﬁ c interface mechanisms (e.g., errors in the proper 
+execution of a menu link or the way data are entered in a form) and (2) uncover 
+errors in the way the interface implements the semantics of navigation, WebApp 
+
+functionality, or content display. To accomplish this strategy, a number of tactical 
+
+steps are initiated:   
+ 
+    
+ 
+ 
+•   
+Interface features are tested to ensure that design rules, aesthetics, and 
+related visual content are available for the user without error.
+ 
+ 
+  
+ 
+ 
+•   
+Individual interface mechanisms are tested in a manner that is analo-
+gous to unit testing. 
+ For example, tests are designed to exercise all forms, client-side scripting, dynamic HTML, scripts, streaming content, and    With the exception 
+of WebApp-oriented 
+
+speciﬁ cs, the interface 
+
+strategy noted here 
+is applicable to all 
+types of client-server 
+
+software. pre22126_ch25_540-566.indd   549pre22126_ch25_540-566.indd   54913/12/13   6:15 PM13/12/13   6:15 PM

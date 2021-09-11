@@ -1,0 +1,49 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜˜˜Peer-to-peer (p2p) systems (Oram 2001) are decentralized systems in which com
+-putations may be carried out by any node on the network. In principle at least, no 
+distinctions are made between clients and servers. In peer-to-peer applications, the 
+overall system is designed to take advantage of the computational power and storage 
+available across a potentially huge network of computers. The standards and proto-
+cols that enable communications across the nodes are embedded in the application 
+itself, and each node must run a copy of that application.Peer-to-peer technologies have mostly been used for personal rather than busi-ness systems. The fact that there are no central servers means that these systems are 
+harder to monitor; therefore, a higher level of communication privacy is possible.For example, file-sharing systems based on the BitTorrent protocol are widely used 
+to exchange files on users™ PCs. Private instant messaging systems, such as ICQ and 
+
+Jabber, provide direct communications between users without an intermediate server. 
+
+Bitcoin is a peer-to-peer payments system using the Bitcoin electronic currency. Freenet 
+
+is a decentralized database that has been designed to make it easier to publish informa-tion anonymously and to make it difficult for authorities to suppress this information.Other p2p systems have been developed where privacy is not the principal 
+requirement. Voice over IP (VoIP) phone services, such as Viber, rely on peer-to-
+
+peer communication between the parties involved in the phone call or conference. 
+
+SETI@home is a long-running project that processes data from radio telescopes on 
+
+home PCs in order to search for indications of extraterrestrial life. In these systems, 
+
+the advantage of the p2p model is that a central server is not a processing bottleneck.
+Peer-to-peer systems have also been used by businesses to harness the power in their PC networks (McDougall 2000). Intel and Boeing have both implemented p2p 
+systems for computationally intensive applications. Such systems take advantage of 
+
+unused processing capacity on local computers. Instead of buying expensive high-
+performance hardware, engineering computations can be run overnight when desk-
+top computers are unused. Businesses also make extensive use of commercial p2p 
+systems, such as messaging and VoIP systems.In principle, every node in a p2p network could be aware of every other node. 
+Nodes could connect to and exchange data directly with any other node in the network. 
+
+In practice, this is impossible unless the network has only a few members. Consequently, 
+
+nodes are usually organized into ﬁlocalities,ﬂ with some nodes acting as bridges to 
+
+other node localities. Figure 17.14 shows this decentralized p2p architecture.In a decentralized architecture, the nodes in the network are not simply functional elements but are also communications switches that can route data and control sig-
+nals from one node to another. For example, assume that Figure 17.14 represents a 
+decentralized, document-management system. A consortium of researchers uses this 
+system to share documents. Each member of the consortium maintains his or her 
+
+own document store. However, when a document is retrieved, the node retrieving 
+
+that document also makes it available to other nodes.If someone needs a document that is stored somewhere on the network, they issue a search command, which is sent to nodes in their ﬁlocality.ﬂ These nodes check 
+
+whether they have the document and, if so, return it to the requestor. If they do not 
+have it, they route the search to other nodes. Therefore if n1 issues a search for a 

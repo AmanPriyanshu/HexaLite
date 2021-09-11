@@ -1,0 +1,47 @@
+CHAPTER 13  
+ARCHITECTURAL DESIGN 259that update, add, delete, or otherwise modify data within the store.  Figure 13.1  illustrates a typical data-centered style. Client software accesses a central re-
+pository. In some cases the data repository is passive. That is, client software 
+
+accesses the data independent of any changes to the data or the actions of other 
+client software. A variation on this approach transforms the repository into a 
+“blackboard” that sends notiﬁ cations to client software when data of interest to 
+the client changes.   
+ 
+Data-centered architectures promote  integrability 
+ [Bas03]. That is, exist-
+ing components can be changed and new client components added to the 
+ architecture without concern about other clients (because the client components  operate independently). In addition, data can be passed among clients using the blackboard mechanism (i.e., the blackboard component serves to coordinate 
+the transfer of information between clients). Client components independently 
+ execute processes.  
+ 
+ 
+Data-Flow Architectures.   This architecture is applied when input data are to be transformed through a series of computational or manipulative components 
+into output data. A pipe-and-ﬁ lter pattern ( 
+Figure 13.2 ) has a set of components, called  ﬁ lters
+ 
+, connected by  pipes 
+ that transmit data from one component to the 
+next. Each ﬁ lter works independently of those components upstream and down-
+stream, is designed to expect data input of a certain form, and produces data 
+output (to the next ﬁ lter) of a speciﬁ
+ ed form. However, the ﬁ
+ lter does not require 
+knowledge of the workings of its neighboring ﬁ lters. 
+ If the data ﬂ ow degenerates into a single line of transforms, it is termed  
+batch sequential 
+. This structure accepts a batch of data and then applies a series of sequential components (ﬁ lters) to transform it. 
+ClientsoftwareClientsoftwareClientsoftwareClientsoftwareClientsoftwareClientsoftwareClientsoftwareClientsoftwareData store(repository or
+blackboard)  
+FIGURE 13.1 
+Data-centered 
+architecture 
+ 
+  
+ uote:  “The use of 
+patterns and 
+styles of design 
+is pervasive in 
+
+engineering 
+disciplines.”  Mary Shaw and 
+David Garlan pre22126_ch13_252-284.indd   259pre22126_ch13_252-284.indd   25913/12/13   6:12 PM13/12/13   6:12 PM

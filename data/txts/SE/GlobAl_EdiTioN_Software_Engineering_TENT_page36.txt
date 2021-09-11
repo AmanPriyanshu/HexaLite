@@ -1,0 +1,47 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+3. Administrative reporting The system generates monthly management reports 
+showing the number of patients treated at each clinic, the number of patients 
+
+who have entered and left the care system, the number of patients sectioned, the 
+drugs prescribed and their costs, etc.Two different laws affect the system: laws on data protection that govern the con-fidentiality of personal information and mental health laws that govern the compul-
+sory detention of patients deemed to be a danger to themselves or others. Mental 
+
+health is unique in this respect as it is the only medical speciality that can recommend 
+
+the detention of patients against their will. This is subject to strict legislative safe-
+guards. One aim of the Mentcare system is to ensure that staff always act in accord-
+ance with the law and that their decisions are recorded for judicial review if necessary.As in all medical systems, privacy is a critical system requirement. It is essential that patient information is confidential and is never disclosed to anyone apart from 
+authorized medical staff and the patient themselves. The Mentcare system is also a 
+
+safety-critical system. Some mental illnesses cause patients to become suicidal or a 
+danger to other people. Wherever possible, the system should warn medical staff 
+
+about potentially suicidal or dangerous patients.The overall design of the system has to take into account privacy and safety 
+requirements. The system must be available when needed; otherwise safety may be 
+
+compromised, and it may be impossible to prescribe the correct medication to patients. 
+
+There is a potential conflict here. Privacy is easiest to maintain when there is only a 
+
+single copy of the system data. However, to ensure availability in the event of server 
+
+failure or when disconnected from a network, multiple copies of the data should be 
+
+maintained. I discuss the trade-offs between these requirements in later chapters.
+
+To help monitor climate change and to improve the accuracy of weather forecasts in 
+remote areas, the government of a country with large areas of wilderness decides to 
+deploy several hundred weather stations in remote areas. These weather stations col
+-
+lect data from a set of instruments that measure temperature and pressure, sunshine, 
+rainfall, wind speed and wind direction.Wilderness weather stations are part of a larger system (Figure 1.7), which is a weather information system that collects data from weather stations and makes it 
+
+available to other systems for processing. The systems in Figure 1.7 are:1. The weather station system This system is responsible for collecting weather 
+data, carrying out some initial data processing, and transmitting it to the data 
+
+management system.2. The data management and archiving system This system collects the data from 
+all of the wilderness weather stations, carries out data processing and analysis, 
+
+and archives the data in a form that can be retrieved by other systems, such as 
+weather forecasting systems.

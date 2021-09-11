@@ -1,0 +1,41 @@
+Sometimes, the development platform and execution platform are the same, mak-ing it possible to develop the software and test it on the same machine. Therefore, if 
+you develop in Java, the target environment is the Java Virtual Machine. In princi
+-
+ple, this is the same on every computer, so programs should be portable from one 
+machine to another. However, particularly for embedded systems and mobile 
+ systems, the development and the execution platforms are different. You need to 
+
+either move your developed software to the execution platform for testing or run a 
+simulator on your development machine.Simulators are often used when developing embedded systems. You simulate 
+hardware devices, such as sensors, and the events in the environment in which the 
+
+system will be deployed. Simulators speed up the development process for embed
+-
+ded systems as each developer can have his or her own execution platform with no 
+
+need to download the software to the target hardware. However, simulators are 
+
+expensive to develop and so are usually available only for the most popular 
+ hardware architectures.
+If the target system has installed middleware or other software that you need 
+to use, then you need to be able to test the system using that software. It may be 
+
+impractical to install that software on your development machine, even if it is 
+
+the same as the target platform, because of license restrictions. If this is the 
+
+case, you need to transfer your developed code to the execution platform to test 
+
+the system.A software development platform should provide a range of tools to support soft-ware engineering processes. These may include:1.
+ An integrated compiler and syntax-directed editing system that allows you to 
+create, edit, and compile code.2. A language debugging system.3. Graphical editing tools, such as tools to edit UML models.4. Testing tools, such as JUnit, that can automatically run a set of tests on a new 
+version of a program.5. Tools to support refactoring and program visualization.6. Configuration management tools to manage source code versions and to integrate 
+
+and build systems.In addition to these standard tools, your development system may include more  specialized tools such as static analyzers (discussed in Chapter 12). Normally, devel-
+opment environments for teams also include a shared server that runs a change and 
+configuration management system and, perhaps, a system to support requirements 
+
+management.Software development tools are now usually installed within an integrated devel-opment environment (IDE). An IDE is a set of software tools that supports different 
+aspects of software development within some common framework and user inter
+-
+face. Generally, IDEs are created to support development in a specific programming ˜˜˚˙˜˜˜˜˜˜

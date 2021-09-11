@@ -1,0 +1,119 @@
+18 CHAPTER 2  
+SOFTWARE ENGINEERING
+of large, complex computer-based systems. The details of the software process will 
+be quite different in each case, but the framework activities remain the same. 
+ For many software projects, framework activities are applied iteratively as a project progresses. That is, communication, planning, modeling, construction, 
+and deployment are applied repeatedly through a number of project iterations. 
+Each iteration produces a  software increment
+ 
+ that provides stakeholders with a 
+subset of overall software features and functionality. As each increment is pro-
+
+duced, the software becomes more and more complete.   
+ 
+ 
+2.2.2  Umbrella Activities 
+ 
+Software engineering process framework activities are complemented by a num-ber of   
+ 
+umbrella activities.
+ 
+ 
+ 
+ In general, umbrella activities are applied throughout 
+a software project and help a software team manage and control progress, qual-
+ity, change, and risk. Typical umbrella activities include: 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Software project tracking and control 
+—allows the software team to assess progress against the project plan and take any necessary action to maintain the 
+schedule.    
+ 
+ 
+ 
+ 
+ 
+Risk management 
+—assesses risks that may affect the outcome of the project or the quality of the product.    
+ 
+ 
+ 
+ 
+ 
+Software quality assurance 
+—deﬁ nes and conducts the activities required to 
+ensure software quality. 
+   
+ 
+ 
+ 
+ 
+ 
+Technical reviews
+ 
+—assess software engineering work products in an effort to uncover and remove errors before they are propagated to the next activity. 
+   
+ 
+ 
+ 
+ 
+ 
+Measurement 
+—deﬁ nes and collects process, project, and product measures 
+that assist the team in delivering software that meets stakeholders’ needs; can 
+be used in conjunction with all other framework and umbrella activities.    
+ 
+ 
+ 
+ 
+ 
+Software conﬁ guration management
+ 
+—manages the effects of change throughout the software process.    
+ 
+ 
+ 
+ 
+ 
+Reusability management 
+—deﬁ nes criteria for work product reuse (includ-
+ing software components) and establishes mechanisms to achieve reusable 
+components.    
+ 
+ 
+ 
+ 
+ 
+Work product preparation and production
+ 
+—encompass the activities re-quired to create work products such as models, documents, logs, forms, and 
+lists.    
+Each of these umbrella activities is discussed in detail later in this book.  
+ 
+ 
+  
+ 
+ 
+ 
+2.2.3  Process Adaptation 
+ 
+Previously in this section, we noted that the software engineering process is not a rigid prescription that must be followed dogmatically by a software team. Rather, 
+
+it should be agile and adaptable (to the problem, to the project, to the team,    Umbrella activities 
+occur throughout the 
+software process and 
+focus primarily on 
+project management, 
+tracking, and control.    Software process 
+
+adaptation is essential 
+for project success. pre22126_ch02_014-028.indd   18pre22126_ch02_014-028.indd   1813/12/13   6:10 PM13/12/13   6:10 PM

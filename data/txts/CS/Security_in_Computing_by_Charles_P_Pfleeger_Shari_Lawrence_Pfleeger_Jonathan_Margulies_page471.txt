@@ -1,0 +1,65 @@
+ Section 6.6  Cryptography in Network Security 
+437  adequate protection, considering the likelihood of the interceptor’s breaking the encryp-
+tion and the timeliness of the message. As with many aspects of security, we must bal-
+
+ance the strength of protection with the likelihood of attack.
+With link mode, all transmissions are protected along a particular link. Typically, a 
+given host has only one link into a network, meaning that all network traffic initiated on 
+
+that host will be encrypted for that host. But this encryption scheme implies that every 
+
+other host receiving these communications must also have a cryptographic facility to 
+
+decrypt the messages. Furthermore, all hosts must share keys. A message may pass 
+
+through one or more intermediate hosts on the way to its final destination. If the mes-
+
+sage is encrypted along some links of a network but not others, then part of the advan-
+
+tage of encryption is lost. Therefore, link encryption is usually performed on all links of 
+
+a network if it is performed at all.
+By contrast, end-to-end encryption is applied to “logical links,” which are virtual 
+channels between two processes, at a level well above the physical path. Since the inter-
+
+mediate hosts along a transmission path do not need to encrypt or decrypt a message, 
+they have no need for cryptographic facilities. Thus, encryption is used only for those 
+
+messages and applications for which it is needed. Furthermore, the encryption can be 
+done with software, so we can apply it selectively, one application at a time or even to 
+
+one message within a given application.
+The selective advantage of end-to-end encryption is also a disadvantage regarding 
+encryption keys. Under end-to-end encryption, a virtual cryptographic channel exists 
+
+between each pair of users. To provide proper security, each pair of users should share 
+
+a unique cryptographic key. The number of keys required is thus equal to the number of 
+
+pairs of users, which is n * (n  1)/2 for 
+n users. This number increases rapidly as the 
+number of users increases. As shown in Table 6-3, link encryption is faster, easier for the user, and uses fewer 
+keys. End-to-end encryption is more flexible, can be used selectively, is done at the user 
+
+level, and can be integrated with the application. Neither form is right for all situations.
+In some cases, both forms of encryption can be applied. A user who does not trust 
+the quality of the link encryption provided by a system can apply end-to-end encryption 
+
+as well. A system administrator who is concerned about the security of an end-to-end 
+
+encryption scheme applied by an application program can also install a link-encryption 
+device. If both encryptions are relatively fast, this duplication of security has little nega-
+
+tive effect.
+Link-level encryption is especially well suited to implementing a private network 
+by using public resources. A virtual private network, described in the next section, is a 
+
+technique that provides privacy in a public network.
+Browser Encryption
+Browsers can encrypt data for protection during transmission. The browser and the 
+
+server negotiate a common encryption key, so even if an attacker does hijack a session 
+
+at the TCP or IP protocol level, the attacker, not having the proper key, cannot join the 
+
+application data exchange.

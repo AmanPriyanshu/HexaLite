@@ -1,0 +1,82 @@
+328 PART TWO  
+MODELINGcomputer-aided design system for interior designers discussed earlier. By ob-
+serving an interior designer at work, you notice that interior design comprises 
+a number of major activities: furniture layout (note the use case discussed ear-
+
+lier), fabric and material selection, wall and window coverings selection, pre-
+sentation (to the customer), costing, and shopping. Each of these major tasks 
+can be elaborated into subtasks. For example, using information contained in 
+the use case, furniture layout can be reﬁ ned into the following tasks: (1) draw 
+a ﬂ place windows and doors at appro-
+priate locations, (3a) use furniture templates to draw scaled furniture outlines 
+on the ﬂ oor plan, (3b) use accents templates to draw scaled accents on the ﬂ
+ oor 
+move furniture outlines and accent outlines to get the best placement, 
+
+label all furniture and accent outlines, (6) draw dimensions to show location, 
+
+draw a perspective-rendering view for the customer. A similar approach 
+
+could be used for each of the other major tasks.  Subtasks 1 to 7 can each be reﬁ ned further. Subtasks 1 to 6 will be performed 
+by manipulating information and performing actions within the user interface. 
+On the other hand, subtask 7 can be performed automatically in software and 
+will result in little direct user interaction.  2 
+ 
+ The design model of the interface 
+should accommodate each of these tasks in a way that is consistent with the user 
+model (the proﬁ le of a “typical” interior designer) and system perception (what 
+the interior designer expects from an automated system).  
+ 
+ 
+ 
+  
+ 
+ 
+ 
+Object Elaboration.   
+Rather than focusing on the tasks that a user must per-
+form, you can examine the use case and other information obtained from the 
+user and extract the physical objects that are used by the interior designer. These 
+
+objects can be categorized into classes. Attributes of each class are deﬁ ned, and 
+an evaluation of the actions applied to each object provides a list of operations. 
+For example, the furniture template might translate into a class called  Furniture 
+ with attributes that might include size, shape, location and others. The interior 
+designer would  select 
+ the object from the  
+Furniture 
+ class,  
+move 
+ it to a position on 
+the ﬂ oor plan (another object in this context),  
+draw 
+ the furniture outline, and so 
+forth. The tasks  select, move, 
+ and 
+ draw
+ 
+ are operations. The user interface analysis 
+model would not provide a literal implementation for each of these operations. 
+However, as the design is elaborated, the details of each operation are deﬁ
+ ned. 
+ 
+ 
+ 
+Workflow Analysis.   
+When a number of different users, each playing different roles, makes use of a user interface, it is sometimes necessary to go beyond task 
+analysis and object elaboration and apply  workﬂ ow analysis.
+ 
+ This technique 
+ allows you to understand how a work process is completed when several people    Although object 
+elaboration is useful, 
+it should not be used 
+as a stand-alone 
+approach. The user’s 
+
+voice  must  be con-
+sidered during task 
+analysis.   
+2  However, this may not be the case. The interior designer might want to specify the perspective 
+to be drawn, the scaling, the use of color, and other information. The use case related to draw-
+
+ing perspective renderings would provide the information you need to address this task. pre22126_ch15_317-346.indd   328pre22126_ch15_317-346.indd   32813/12/13   10:01 PM13/12/13   10:01 PM

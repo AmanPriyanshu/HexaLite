@@ -1,0 +1,25 @@
+CHAPTER 14  
+COMPONENT-LEVEL DESIGN
+ 303 
+ 
+ 
+Step 5. Develop and elaborate behavioral representations for a class or  component.   UML state diagrams were used as part of the requirements model to represent the externally observable behavior of the system and the more lo-
+calized behavior of individual analysis classes. During component-level design, it 
+is sometimes necessary to model the behavior of a design class.  The dynamic behavior of an object (an instantiation of a design class as the program executes) is affected by events that are external to it and the current 
+state (mode of behavior) of the object. To understand the dynamic behavior of 
+
+an object, you should examine all use cases that are relevant to the design class 
+throughout its life. These use cases provide information that helps you to delin-
+eate the events that affect the object and the states in which the object resides as 
+time passes and events occur. The transitions between states (driven by events) is 
+
+represented using a UML statechart [Ben02] as illustrated in  Figure 14.9 .   
+ 
+FIGURE 14.8 
+UML activity diagram for 
+ compute-PaperCost()  
+ 
+ Validate attributes
+inputaccessPaperDB(weight)returns baseCostperPage
+Size = BpaperCostperPage =paperCostperPage*1.2Size = CpaperCostperPage = paperCostperPage*1.4Size = DpaperCostperPage = paperCostperPage*1.6Color is custompaperCostperPage =   paperCostperPage*1.14Color is standardpaperCostperPage =    baseCostperPageReturns 
+(paperCostperPage)pre22126_ch14_285-316.indd   303pre22126_ch14_285-316.indd   30313/12/13   6:12 PM13/12/13   6:12 PM

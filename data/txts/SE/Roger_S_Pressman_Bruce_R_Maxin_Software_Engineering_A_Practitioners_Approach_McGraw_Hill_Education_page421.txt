@@ -1,0 +1,112 @@
+391 MOBILEAPP DESIGN   
+ 
+ 
+ Mobile devices—smartphones, tablets, wearable devices, and other specialized products—have become the next wave of computing. 
+The Los Angeles Times
+ 
+ [Rod12] reported: 
+ 
+For the ﬁ rst time ever more Americans own smartphones than regular phones or 
+feature phones, a new report says.  The report, put out by Chetan Sharma Consulting  1 
+ 
+, shows smartphone penetra-tion has crossed the 50% mark for the ﬁ rst time in the U.S.  
+  
+KEY CONCEPTS     challenges. . . . . . . 392  
+    cloud computing  . . .405 
+     context-aware 
+
+apps. . . . . . . . . . . 399  
+
+    design  
+    best practices. . 401  
+
+    goals. . . . . . . . 396  
+
+    mistakes  . . . . . 401  
+  
+ 
+ 
+CHAPTER18  
+QUICK LOOK   
+What is it?   MobileApp design encompasses technical and non-
+technical activities that include: 
+establishing the look and feel of the mobile application, creating the aesthetic 
+layout of the user interface, establishing the 
+
+rhythm of user interaction, deﬁ ning the overall 
+architectural structure, developing the content 
+and functionality that reside within the architec-
+ture, and planning the navigation that occurs 
+within the MobileApp. Special attention needs 
+to be given to the elements that add context 
+awareness to the MobileApp.   
+ 
+Who does it?   Software engineers, graphic  designers, content developers, security spe-cialists, and other stakeholders all participate 
+
+in the creation of a MobileApp design model.   
+ 
+Why is it important? 
+  Design allows you to 
+create a model that can be assessed for quality 
+
+and improved before content and code are gen-
+erated, tests are conducted, and end users be-
+come involved in large numbers. Design is the 
+
+place where MobileApp quality is established. 
+  
+ 
+What are the steps?   MobileApp design is sim-ilar to WebApp design and encompasses six 
+
+major steps that are driven by information ob-
+
+tained during requirements modeling. Content 
+design addresses the same issues for both 
+ WebApp and MobileApp design. During archi-
+tectural design, MobileApp developers deter-
+
+mine which functions will be implemented in the 
+
+native app running on the mobile device and 
+
+which will be implemented as Web or cloud 
+
+services. Interface design establishes the lay-
+
+out and interaction mechanisms that deﬁ ne the 
+user experience. Ensuring that the MobileApp 
+
+makes appropriate use of context affects both 
+
+interface design and content design. Naviga-
+
+tion design deﬁ nes how the end user navigates 
+through the content structure, and component 
+
+design represents the detailed internal structure 
+
+of functional elements of the MobileApp. 
+  
+ 
+What is the work product? 
+  A design model 
+that encompasses content, aesthetics, architec-
+ture, interface, navigation, and component-level 
+
+design issues is the primary work product that 
+
+is produced during MobileApp design. 
+  
+ 
+How do I ensure that I’ve done it right?   Each element of the design model is reviewed in an effort to uncover errors, incon-
+
+sistencies, or omissions. In addition, alterna-
+
+tive solutions are considered, and the degree 
+to which the current design model will lead to 
+an effective implementation is also assessed.   
+ 
+1  See  
+http://www.chetansharma.com/USmarketupdateQ22012.htm
+ 
+ pre22126_ch18_391-410.indd   391pre22126_ch18_391-410.indd   39116/12/13   6:23 PM16/12/13   6:23 PM

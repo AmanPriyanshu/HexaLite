@@ -1,0 +1,74 @@
+ Section 6.8  Intrusion Detection and Prevention Systems 
+477  some implementations of the protocol stack fail if they receive an ICMP packet with 
+a data length of 65535 bytes, so such a packet would be a pattern for which to watch.
+The problem with signature-based detection is the signatures themselves. An attacker 
+will try to modify a basic attack in such a way that it will not match the known signature 
+
+of that attack. For example, the attacker may convert lowercase to uppercase letters or 
+
+convert a symbol such as “blank space” to its character code equivalent %20. The IDS 
+
+must necessarily work from a canonical form of the data stream to recognize that %20 
+
+matches a pattern with a blank space. The attacker may insert spurious packets that the 
+
+IDS will see, or shuffle the order of reconnaissance probes, to intentionally cause a 
+
+pattern mismatch. Each of these variations could be detected by an IDS, but more signa-
+
+tures require additional work for the IDS, thereby reducing performance.
+Of course, a signature-based IDS cannot detect a new attack for which no signature 
+has yet been installed in the database. Every attack type starts as a new pattern at some 
+
+time, and the IDS is helpless to warn of its existence. Attackers also try to change their 
+
+signature.Signature-based intrusion detection systems tend to use statistical analysis. This 
+approach uses tools both to obtain sample measurements of key indicators (such as 
+
+amount of external activity, number 
+
+of active processes, number of trans-
+
+actions) and to determine whether 
+
+the collected measurements fit the 
+
+predetermined attack signatures.Ideally, signatures should match every instance of an attack, match subtle variations 
+of the attack, but not match traffic that is not part of an attack. However, this goal is 
+
+grand but unreachable.
+Signature-based intrusion detection works well on certain types of denial-of-service 
+attacks. For example, ping and echo-chargen attacks are relatively easy to spot from 
+
+their distinctive packet types. On the other hand, some attacks are hard for an intrusion 
+
+detection system to identify. Because a teardrop attack depends on many packets that 
+
+do not fit together properly, an IDS can notice that attack only after collecting infor-
+
+mation about all or a significant number of the packet fragments. And because packet 
+
+fragmentation is a characteristic of most traffic, the IDS would need to maintain data 
+
+on virtually all traffic, a task that would be prohibitive. Similarly, a SYN flood is recog-
+
+nized only by a profusion of unmatched SYN–ACK responses; but because SYN–ACK 
+
+is part of the three-way TCP handshake, it is a part of every communication session 
+
+established, which makes it difficult for the IDS to classify the behavior as an attack.
+Heuristic Intrusion DetectionBecause signatures are limited to specific, known attack patterns, another form of intru-
+sion detection becomes useful. Instead of looking for matches, heuristic intrusion detec-
+
+tion looks for behavior that is out of the ordinary. The original work in this area (for 
+
+example, [TEN90]) focused on the individual, trying to find characteristics of that per-
+
+son that might be helpful in understanding normal and abnormal behavior. For example, 
+
+one user might always start the day by reading email, write many documents using a 
+
+word processor, and occasionally back up files. These actions would be normal. This 
+Signature-based IDSs are limited to 
+
+known patterns.

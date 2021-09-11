@@ -1,0 +1,95 @@
+CHAPTER 15  
+USER INTERFACE DESIGN
+ 339random fashion. 
+ In every case, it should enable the user to understand where 
+he is and provide the user with functionality that can undo mistakes and retrace 
+poorly chosen navigation paths.   
+ 
+ 
+Focus.    
+The interface (and the content it presents) should stay focused on the user 
+task(s) at hand. 
+ This concept is particularly important for mobile apps which can 
+become very cluttered in the designer attempts to do too much.   
+ 
+Human Interface Objects.    
+A vast library of reusable human interface objects has 
+been developed for both Web and mobileApps. Use them.
+ 
+ Any interface object that 
+can be “seen, heard, touched or otherwise perceived” [Tog01] by an end user can 
+
+be acquired from any one of a number of object libraries.   
+ 
+Latency Reduction.    
+Rather than making the user wait for some internal opera-tion to complete (e.g., downloading a complex graphical image), the application 
+should use multitasking in a way that lets the user proceed with work as if the 
+
+operation has been completed. 
+ In addition to reducing latency, delays must be 
+acknowledged so that the user understands what is happening. This includes 
+(1) providing audio feedback when a selection does not result in an immediate 
+action by the application, (2) displaying an animated clock or progress bar to in-
+dicate that processing is under way, and (3) providing some entertainment (e.g., 
+
+an animation or text presentation) while lengthy processing occurs.   
+ 
+Learnability.    
+An application interface should be designed to minimize learning time and, once learned, to minimize relearning required when the app is revisited.
+ 
+ In general the interface should emphasize a simple, intuitive design that orga-
+nizes content and functionality into categories that are obvious to the user. 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+Metaphors.    
+An interface that uses an interaction metaphor is easier to learn and easier to use, as long as the metaphor is appropriate for the application and 
+
+the user.
+ 
+ A metaphor should call on images and concepts from the user’s experi-
+ence, but it does not need to be an exact reproduction of a real-world experience.   
+ 
+Readability.    
+All information presented through the interface should be readable 
+by young and old. 
+ The interface designer should emphasize readable type styles, 
+user-controllable font sizes, and color background choices that enhance contrast. 
+  
+ 
+Track State.    
+When appropriate, the state of the user interaction should be 
+tracked and stored so that a user can logoff and return later to pick up where she 
+
+left off. 
+ In general, cookies can be designed to store state information. However, 
+cookies are a controversial technology, and other design solutions may be more 
+
+palatable for some users.   
+ 
+Visible Navigation.    
+A well-designed interface provides “the illusion that users are 
+in the same place, with the work brought to them”
+ 
+ [Tog01]. When this approach is 
+used, navigation is not a user concern. Rather, the user retrieves content object 
+
+and selects functions that are displayed and executed through the interface.    Metaphors are an 
+excellent idea because 
+they mirror real-world 
+
+experience. Just be 
+sure that the metaphor 
+you choose is well 
+known to end users.  Quote:  “The best journey 
+is the one with 
+the fewest steps. 
+Shorten the 
+distance between 
+the user and their 
+goal.”  Author unknown 
+pre22126_ch15_317-346.indd   339pre22126_ch15_317-346.indd   33913/12/13   10:01 PM13/12/13   10:01 PM

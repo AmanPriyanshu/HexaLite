@@ -1,0 +1,49 @@
+264 Chapter 4  
+The Web—User Side
+http://www.mybank.com ?QUERY=SELECT%20*%20FROM%20trans%20WHERE%20acct='2468'In this command, the space character has been replaced by its numeric equivalent 
+%20 (because URLs cannot contain spaces), and the browser has substituted ‘2468’ 
+
+for the account number variable. The DBMS will parse the string and return records 
+
+appropriately.
+If the user can inject a string into this interchange, the user can force the DBMS to return a set of records. The DBMS evaluates the WHERE clause as a logical expression. 
+
+If the user enters the account number as “‘2468’ OR ‘1’=‘1’” the resulting query becomes
+QUERY = "SELECT * FROM trans WHERE acct='"  + acctNum + "';"and after account number expansion it becomes
+QUERY = "SELECT * FROM trans WHERE acct='2468'  
+OR '1'='1'"Because ‘1’=‘1’ is always TRUE, the OR of the two parts of the WHERE clause is 
+always TRUE, every record satisfies the value of the WHERE clause and so the DBMS 
+
+will return all records in the database.The trick here, as with cross-site scripting, is that the browser application includes 
+direct user input into the command, and the user can force the server to execute arbi-
+
+trary SQL commands.Dot-Dot-SlashWeb-server code should always run in a constrained environment. Ideally, the web 
+server should never have editors, xterm and Telnet programs, or even most system utili-
+
+ties loaded. By constraining the environment in this way, even if an attacker escapes 
+
+from the web-server application, no other executable programs will help the attacker 
+
+use the web server’s computer and operating system to extend the attack. The code and 
+
+data for web applications can be transferred manually to a web server or pushed as a 
+
+raw image.
+But many web applications programmers are naïve. They expect to need to edit a 
+web application in place, so they install editors and system utilities on the server to give 
+
+them a complete environment in which to program.
+A second, less desirable, condition for preventing an attack is to create a fence con-
+fining the web-server application. With such a fence, the server application cannot 
+
+escape from its area and access other potentially dangerous system areas (such as edi-
+
+tors and utilities). The server begins in a particular directory subtree, and everything the 
+
+server needs is in that same subtree.
+Enter the dot-dot. In both Unix and Windows, ‘..’ is the directory indicator for “pre-
+decessor.” And ‘../..’ is the grandparent of the current location. So someone who can 
+
+enter file names can travel back up the directory tree one .. at a time. Cerberus Informa-
+
+tion Security analysts found just that vulnerability in the webhits.dll extension for the 

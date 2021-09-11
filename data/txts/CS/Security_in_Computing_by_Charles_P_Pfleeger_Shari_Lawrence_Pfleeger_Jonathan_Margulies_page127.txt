@@ -1,0 +1,51 @@
+ Section 2.3  Cryptography 
+93  keys is the major difficulty in using symmetric encryption. In general, 
+n users who want 
+to communicate in pairs need n * (n  1)/2 keys. In other words, the number of keys 
+needed increases at a rate proportional to the square
+ of the number of users! So a prop-erty of symmetric encryption systems is that they require a means of 
+key distribution
+.Asymmetric or public key systems, on the other hand, typically have precisely 
+matched pairs of keys. The keys are produced together or one is derived mathematically 
+
+from the other. Thus, a process computes both keys as a set.
+But for both kinds of encryption, a key must be kept well secured. Once the sym-
+metric or private key is known by an outsider, all messages written previously or in the 
+
+future can be decrypted (and hence read or modified) by the outsider. So, for all encryp-
+
+tion algorithms, key management
+ is a major issue. It involves storing, safeguarding, 
+and activating keys.
+Asymmetric systems excel at key management. By the nature of the public key 
+approach, you can send a public key in an email message or post it in a public directory. 
+
+Only the corresponding private key, which presumably is not disclosed, can decrypt 
+
+what has been encrypted with the public key.
+Stream and Block Ciphers
+One final characterization of encryption algorithms relates to the nature of the data to 
+be concealed. Suppose you are streaming video, perhaps a movie, from a satellite. The 
+
+stream may come in bursts, depending on such things as the load on the satellite and the 
+
+speed at which the sender and receiver can operate. For such application you may use 
+
+what is called stream encryption
+, in which each bit, or perhaps each byte, of the data stream is encrypted separately. A model of stream enciphering is shown in Figure 2-20. 
+
+Notice that the input symbols are transformed one at a time. The advantage of a stream 
+
+cipher is that it can be applied immediately to whatever data items are ready to transmit. 
+
+But most encryption algorithms involve complex transformations; to do these transfor-
+
+mations on one or a few bits at a time is expensive.
+To address this problem and make it harder for a cryptanalyst to break the code, we 
+can use block ciphers. A 
+block cipher encrypts a group of plaintext symbols as a single 
+block. A block cipher algorithm performs its work on a quantity of plaintext data all at 
+
+once. Like a machine that cuts out 24 cookies at a time, these algorithms capitalize on 
+EncryptionKey(Optional)PlaintextCiphertext…ISSOPMIw
+dhuw…FIGURE 2-20 Stream Enciphering

@@ -1,0 +1,19 @@
+146 Chapter 3  
+Programs and Programmingresume when B exits, as well as calling parameter values. Such a sequence is shown in 
+Figure 3-6.StackP3P2
+P1Prog CtrDirection ofgrowthFIGURE 3-6 Parameters and Return Address
+To help unwind stack data tangled because of a program that fails during execution, 
+the stack also contains the pointer to the logical bottom of this program’s section of the 
+
+stack, that is, to the point just before where this procedure pushed values onto the stack. 
+
+This data group of parameters, return address, and stack pointer is called a stack frame, as shown in Figure 3-7.
+StackP3P2
+P1Prog CtrStack PtrDirection ofgrowthFIGURE 3-7 A Stack FrameWhen one procedure calls another, the stack frame is pushed onto the stack to allow 
+the two procedures to exchange data and transfer control; an example of the stack after 
+
+procedure A calls B is shown in Figure 3-8.
+FIGURE 3-8 The Stack after a Procedure CallStackP3Procedure AP2P1Prog CtrStack Ptrcall BProcedure BNow let us consider a slightly deeper example: Suppose procedure A calls B that in 
+turn calls C. After these two calls the stack will look as shown in Figure 3-7, with the 
+
+return address to A on the bottom, then parameters from A to B, the return address from 

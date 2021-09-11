@@ -1,0 +1,60 @@
+128 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+• per-object access control list (that is, one list for each object tells all the subjects who 
+have access to that object)
+• access control matrix• capability2. Suppose a per-subject access control list is used. Deleting an object in such a system is incon-
+venient because all changes must be made to the control lists of all subjects who did have 
+
+access to the object. Suggest an alternative, less costly means of handling deletion.
+3. File access control relates largely to the secrecy dimension of security. What is the relation-
+ship between an access control matrix and the integrity of the objects to which access is 
+
+being controlled?4. One feature of a capability-based protection system is the ability of one process to transfer a copy of a capability to another process. Describe a situation in which one process should be 
+
+able to transfer a capability to another.
+5. Suggest an efficient scheme for maintaining a per-user protection scheme. That is, the system 
+maintains one directory per user, and that directory lists all the objects to which the user is 
+
+allowed access. Your design should address the needs of a system with 1000 users, of whom 
+
+no more than 20 are active at any time. Each user has an average of 200 permitted objects; 
+
+there are 50,000 total objects in the system.6. Calculate the timing of password-guessing attacks:
+(a) If passw
+ords are three uppercase alphabetic characters long, how much time would it 
+take to determine a particular password, assuming that testing an individual password 
+
+requires 5 seconds? How much time if testing requires 0.001 seconds?
+(b) Argue for a particular amount of time as the starting point for “secure.” That is, suppose 
+an attacker plans to use a brute-force attack to determine a password. For what value of 
+x (the total amount of time to try as many passwords as necessary) would the attacker find 
+
+this attack prohibitively long?
+(c) If the cutoff between “insecure” and “secure” were 
+x amount of time, how long would a 
+secure password have to be? State and justify your assumptions regarding the character 
+
+set from which the password is selected and the amount of time required to test a single 
+
+password.
+7. Design a protocol by which two mutually suspicious parties can authenticate each other. Your 
+protocol should be usable the first time these parties try to authenticate each other.
+8. List three reasons people might be reluctant to use biometrics for authentication. Can you think of ways to counter those objections?
+9. False positive and false negative rates can be adjusted, and they are often complementary: 
+Lowering one raises the other. List two situations in which false negatives are significantly 
+
+more serious than false positives.
+10. In a typical office, biometric authentication might be used to control access to employees and 
+registered visitors only. We know the system will have some false negatives, some employees 
+
+falsely denied access, so we need a human override, someone who can examine the employee 
+
+and allow access in spite of the failed authentication. Thus, we need a human guard at the 
+
+door to handle problems, as well as the authentication device; without biometrics we would 
+
+have had just the guard. Consequently, we have the same number of personnel with or with-
+
+out biometrics, plus we have the added cost to acquire and maintain the biometrics system. 
+
+Explain the security advantage in this situation that justifies the extra expense.

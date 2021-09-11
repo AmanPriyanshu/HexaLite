@@ -1,0 +1,71 @@
+xxviii Preface
+We introduced cryptography in Chapter 2. But the field of cryptography involves 
+entire books, courses, conferences, journals, and postgraduate programs of study. And 
+
+this book needs to cover many important topics in addition to cryptography. Thus, we 
+
+made two critical decisions: First, we treat cryptography as a tool, not as a field of 
+
+study. An automobile mechanic does not study the design of cars, weighing such fac-
+
+tors as aerodynamics, fuel consumption, interior appointment, and crash resistance; a 
+mechanic accepts a car as a given and learns how to find and fix faults with the engine 
+
+and other mechanical parts. Similarly, we want our readers to be able to use cryptog-
+
+raphy to quickly address security problems; hence we briefly visit popular uses of 
+
+cryptography in Chapter 2. Our second critical decision was to explore the breadth of 
+
+cryptography slightly more in a later chapter, Chapter 12. But as we point out, entire 
+
+books have been written on cryptography, so our later chapter gives an overview of 
+
+more detailed work that interested readers can find elsewhere.
+Our final chapter detours to four areas having significant computer security hazards. 
+These are rapidly advancing topics for which the computer security issues are much in 
+
+progress right now. The so-called Internet of Things, the concept of connecting many 
+
+devices to the Internet, raises potential security threats waiting to be explored. Econom-
+
+ics govern many security decisions, so security professionals need to understand how 
+
+economics and security relate. Convenience is raising interest in using computers to 
+
+implement elections; the easy steps of collecting vote totals have been done by many 
+
+jurisdictions, but the hard part of organizing fair online registration and ballot-casting 
+
+have been done in only a small number of demonstration elections. And the use of com-
+
+puters in warfare is a growing threat. Again, a small number of modest-sized attacks 
+
+on computing devices have shown the feasibility of this type of campaign, but security 
+
+professionals and ordinary citizens need to understand the potential—both good and 
+
+bad—of this type of attack.HOW TO READ THIS BOOKWhat background should you have to appreciate this book? The only assumption is an 
+
+understanding of programming and computer systems. Someone who is an advanced 
+
+undergraduate or graduate student in computing certainly has that background, as does 
+
+a professional designer or developer of computer systems. A user who wants to under-
+
+stand more about how programs work can learn from this book, too; we provide the 
+
+necessary background on concepts of operating systems or networks, for example, 
+
+before we address the related security concerns.This book can be used as a textbook in a one- or two-semester course in computer 
+security. The book functions equally well as a reference for a computer professional or 
+
+as a supplement to an intensive training course. And the index and extensive bibliogra-
+
+phy make it useful as a handbook to explain significant topics and point to key articles 
+
+in the literature. The book has been used in classes throughout the world; instructors 
+
+often design one-semester courses that focus on topics of particular interest to the stu-
+
+dents or that relate well to the rest of a curriculum.

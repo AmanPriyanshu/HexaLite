@@ -1,0 +1,108 @@
+317  We live in a world of high-technology products, and virtually all of them—consumer electronics, industrial equipment, automobiles, 
+corporate systems, military systems, personal computer software, mobile apps, and WebApps—require human interaction. If a product is to be 
+
+successful, it must exhibit good  usability 
+—a qualitative measure of the ease and efﬁ ciency with which a human can employ the functions and features 
+ offered by the high-technology product.  For the ﬁ rst three decades of the computing era, usability was not a dom-
+inant concern among those who built software. In his classic book on design, 
+Donald Norman [Nor88] argued that it was time for a change in attitude:  To make technology that ﬁ
+ ts human beings, it is necessary to study human beings. 
+But now we tend to study only the technology. As a result, people are required to 
+
+conform to technology. It is time to reverse this trend, time to make technology 
+
+that conforms to people.  As technologists studied human interaction, two dominant issues arose. 
+First, a set of  golden rules 
+ (discussed in Section 15.1) were identiﬁ
+ ed. These 
+applied to all human interaction with technology products. Second, a set 
+
+of  interaction mechanisms 
+ were deﬁ
+ ned to enable software designers to 
+build systems that properly implemented the golden rules. These inter-
+
+action mechanisms, collectively called the user interface, have eliminated 
+
+some of the most egregious problems associated with human interfaces. 
+
+But even today, we all encounter user interfaces that are difﬁ
+ cult to learn, 
+difﬁ cult to use, confusing, counterintuitive, unforgiving, and in many cases, 
+totally frustrating. Yet, someone spent time and energy building each of 
+
+these interfaces, and it is not likely that the builder created these problems 
+
+purposely. 
+  
+ 
+KEY CONCEPTS     accessibility  . . . . . 336  
+    command labeling  . 335  
+
+    control  . . . . . . . . . 318  
+
+    design evaluation. . 342  
+
+    error handling. . . . 335  
+
+    golden rules  . . . . . 318  
+
+    help facilities  . . . . 335  
+
+    interface analysis  . 325  
+
+    interface 
+
+consistent. . . . . . . 321  
+
+    interface design  . . 332  
+
+    interface design 
+
+models. . . . . . . . . 322  
+
+    international ization. 
+336      memory load  . . . . 319  
+
+    principles and 
+
+guidelines. . . . . . . 337  
+
+    process. . . . . . . . . 323  
+
+    response time. . . . 335  
+
+    task analysis  . . . . 326  
+
+    task elaboration  . . 327  
+
+    usability. . . . . . . . 322  
+
+    user analysis  . . . . 325  
+
+    webApp and mobile 
+
+interface design  . . 337         
+ USER INTERFACE
+ DESIGN 15   
+ 
+ 
+CHAPTER 
+QUICK LOOK   
+What is it?   
+User interface design 
+creates an effective communication 
+medium between a human and a 
+computer. Following a set of inter-
+face design principles, design identiﬁ es inter-
+face objects and actions and then creates a screen layout that forms the basis for a user 
+interface prototype. 
+  
+ 
+Who does it?   
+A software engineer designs 
+the user interface by applying an iterative 
+
+process that draws on predeﬁ ned design 
+principles. 
+pre22126_ch15_317-346.indd   317pre22126_ch15_317-346.indd   31713/12/13   10:01 PM13/12/13   10:01 PM

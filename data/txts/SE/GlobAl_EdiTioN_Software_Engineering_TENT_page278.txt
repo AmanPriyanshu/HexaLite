@@ -1,0 +1,55 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜To make the reengineered system interoperate with the new software, you may 
+have to develop adaptor services, as discussed in Chapter 18. These hide the original interfaces of the software system and present new, better-structured interfaces that 
+can be used by other components. This process of legacy system wrapping is an 
+
+important technique for developing large-scale reusable services.The costs of reengineering obviously depend on the extent of the work that is 
+carried out. There is a spectrum of possible approaches to reengineering, as shown 
+
+in Figure 
+9.15. Costs increase from left to right so that source code translation is 
+
+the cheapest option, and reengineering, as part of architectural migration, is the 
+
+most expensive.The problem with software reengineering is that there are practical limits to how 
+much you can improve a system by reengineering. It isn™t possible, for example, to 
+
+convert a system written using a functional approach to an object-oriented system. 
+
+Major architectural changes or radical reorganizing of the system data management 
+
+cannot be carried out automatically, so they are very expensive. Although reengineer-ing can improve maintainability, the reengineered system will probably not be as 
+
+maintainable as a new system developed using modern  software engineering methods.Refactoring is the process of making improvements to a program to slow down deg-
+radation through change. It means modifying a program to improve its structure, 
+
+reduce its complexity, or make it easier to understand. Refactoring is sometimes 
+
+considered to be limited to object-oriented development, but the principles can in 
+
+fact be applied to any development approach. When you refactor a program, you 
+
+should not add functionality but rather should concentrate on program improvement. 
+You can therefore think of refactoring as ﬁpreventative maintenanceﬂ that reduces 
+the problems of future change.Refactoring is an inherent part of agile methods because these methods are based 
+on change. Program quality is liable to degrade quickly, so agile developers  frequently 
+refactor their programs to avoid this degradation. The emphasis on regression testing 
+
+in agile methods lowers the risk of introducing new errors through refactoring. Any 
+
+errors that are introduced should be detectable, as previously successful tests should 
+
+then fail. However, refactoring is not dependent on other ﬁagile activities.ﬂAutomated restructuring
+with manual changes
+Automated source
+code conversion
+Restructuring plus
+architectural changes
+Automated pr
+ogramrestructuring
+Program and data
+restructuring
+Increased cost
+Figure 9.15  Reengineering 
+approaches 

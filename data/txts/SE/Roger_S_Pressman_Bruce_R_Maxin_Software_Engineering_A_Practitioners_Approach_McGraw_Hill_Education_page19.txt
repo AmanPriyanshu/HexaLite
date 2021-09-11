@@ -1,0 +1,68 @@
+TABLE OF CONTENTS
+ xix23.7 Model-Based Testing  516
+
+23.8 Testing Documentation and Help Facilities  516
+
+23.9 Testing for Real-Time Systems  517
+
+23.10 Patterns for Software Testing  519
+
+23.11 Summary  520
+
+PROBLEMS AND POINTS TO PONDER  521FURTHER READINGS AND INFORMATION SOURCES  521CHAPTER 24 TESTING OBJECT-ORIENTED APPLICATIONS  523
+24.1 Broadening the View of Testing  524
+
+24.2 Testing OOA and OOD Models  525
+24.2.1 Correctness of OOA and OOD Models  525
+
+24.2.2 Consistency of Object-Oriented Models  526
+24.3 Object-Oriented Testing Strategies  528
+24.3.1 Unit Testing in the OO Context  528
+
+24.3.2 Integration Testing in the OO Context  529
+
+24.3.3 Validation Testing in an OO Context  529
+24.4 Object-Oriented Testing Methods  529
+24.4.1 The Test-Case Design Implications of OO Concepts  530
+
+24.4.2 Applicability of Conventional Test-Case Design Methods  531
+
+24.4.3 Fault-Based Testing  531
+
+24.4.4 Scenario-Based Test Design  532
+24.5 Testing Methods Applicable at the Class Level  532
+24.5.1 Random Testing for OO Classes  532
+
+24.5.2 Partition Testing at the Class Level  533
+24.6 Interclass Test-Case Design  534
+24.6.1 Multiple Class Testing  534
+
+24.6.2 Tests Derived from Behavior Models  536
+24.7 Summary  537
+
+PROBLEMS AND POINTS TO PONDER  538FURTHER READINGS AND INFORMATION SOURCES  538CHAPTER 25 TESTING WEB APPLICATIONS  540
+25.1 Testing Concepts for WebApps  541
+25.1.1 Dimensions of Quality  541
+
+25.1.2 Errors within a WebApp Environment  542
+
+25.1.3 Testing Strategy  543
+
+25.1.4 Test Planning  543
+25.2 The Testing Process—An Overview  544
+
+25.3 Content Testing  545
+25.3.1 Content Testing Objectives  545
+
+25.3.2 Database Testing  547
+25.4 User Interface Testing  549
+25.4.1 Interface Testing Strategy  549
+
+25.4.2 Testing Interface Mechanisms  550
+
+25.4.3 Testing Interface Semantics  552
+
+25.4.4 Usability Tests  552
+
+25.4.5 Compatibility Tests  554
+25.5 Component-Level Testing  555

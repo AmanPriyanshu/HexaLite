@@ -1,0 +1,62 @@
+xxvi Preface
+a condition that could exercise a vulnerability. An incident occurs when a threat does 
+exploit a vulnerability, causing harm. Finally, people add controls or countermeasures 
+
+to prevent, deflect, diminish, detect, diagnose, and respond to threats. All of computer 
+
+security is built from that simple framework. This book is about bad things that can hap-
+
+pen with computers and ways to protect our computing. 
+WHY READ THIS BOOK?Admit it. You know computing entails serious risks to the privacy of your personal 
+
+data, the integrity of your data, or the operation of your computer. Risk is a fact of life: 
+
+Crossing the street is risky, perhaps more so in some places than others, but you still 
+
+cross the street. As a child you learned to stop and look both ways before crossing. As 
+
+you became older you learned to gauge the speed of oncoming traffic and determine 
+
+whether you had the time to cross. At some point you developed a sense of whether an 
+
+oncoming car would slow down or yield. We hope you never had to practice this, but 
+
+sometimes you have to decide whether darting into the street without looking is the 
+
+best means of escaping danger. The point is all these matters depend on knowledge and 
+
+experience. We want to help you develop comparable knowledge and experience with 
+
+respect to the risks of secure computing.The same thing can be said about computer security in everything from personal 
+devices to complex commercial systems: You start with a few basic terms, principles, 
+
+and concepts. Then you learn the discipline by seeing those basics reappear in numer-
+
+ous situations, including programs, operating systems, networks, and cloud comput-
+
+ing. You pick up a few fundamental tools, such as authentication, access control, and 
+
+encryption, and you understand how they apply in defense strategies. You start to think 
+
+like an attacker, predicting the weaknesses that could be exploited, and then you shift to 
+
+selecting defenses to counter those attacks. This last stage of playing both offense and 
+
+defense makes computer security a creative and challenging activity.
+USES FOR AND USERS OF THIS BOOKThis book is intended for people who want to learn about computer security; if you have 
+
+read this far you may well be such a person. This book is intended for three groups of 
+
+people: college and university students, computing professionals and managers, and 
+
+users of all kinds of computer-based systems. All want to know the same thing: how to 
+
+control the risk of computer security. But you may differ in how much information you 
+
+need about particular topics: Some readers want a broad survey, while others want to 
+
+focus on particular topics, such as networks or program development.
+This book should provide the breadth and depth that most readers want. The book 
+is organized by general area of computing, so that readers with particular interests can 
+
+find information easily. 

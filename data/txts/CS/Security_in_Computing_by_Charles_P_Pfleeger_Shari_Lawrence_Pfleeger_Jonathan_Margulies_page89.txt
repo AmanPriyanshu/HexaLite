@@ -1,0 +1,87 @@
+ Section 2.1  Authentication 
+55  Problems with Use of Biometrics
+Biometrics come with several problems:
+• Biometrics are relatively 
+new
+, and some people find their use 
+intrusive. For 
+example, people in some cultures are insulted by having to submit to finger-
+
+printing, because they think that only criminals are fingerprinted. Hand geome-
+
+try and face recognition (which can be done from a camera across the room) are 
+
+scarcely invasive, but people have real concerns about peering into a laser beam 
+
+or sticking a finger into a slot. (See [SCH06a] for some examples of people 
+
+resisting biometrics.)• Biometric recognition devices are 
+costly, although as the devices become more 
+popular, their cost per device should go down. Still, outfitting every user’s 
+
+workstation with a reader can be expensive for a large company with many 
+
+employees.
+• Biometric readers and comparisons can become a 
+single point of failure
+. Con-sider a retail application in which a biometric recognition is linked to a payment 
+
+scheme: As one user puts it, “If my credit card fails to register, I can always pull 
+
+out a second card, but if my fingerprint is not recognized, I have only that one 
+
+finger.” (Fingerprint recognition is specific to a single finger; the pattern of one 
+
+finger is not the same as another.) Manual laborers can actually rub off their 
+
+fingerprints over time, and a sore or irritation may confound a fingerprint reader. 
+
+Forgetting a password is a user’s fault; failing biometric authentication is not.
+• All biometric readers use 
+sampling and establish a 
+threshold
+ for acceptance of 
+a close match. The device has to sample the biometric, measure often hundreds 
+
+of key points, and compare that set of measurements with a template. Features 
+
+vary slightly from one reading to the next, for example, if your face is tilted, if 
+
+you press one side of a finger more than another, or if your voice is affected by 
+
+a sinus infection. Variation reduces accuracy.
+• Although equipment accuracy is improving, 
+false readings 
+still occur. We label 
+a false positive
+ or 
+false accept a reading that is accepted when it should be 
+rejected (that is, the authenticator does not match) and a false negative
+ or 
+false reject 
+one that rejects when it should accept. Often, reducing a false positive 
+rate increases false negatives, and vice versa. Sidebar 2-6 explains why we 
+
+can never eliminate all false positives and negatives. The consequences for a 
+
+false negative are usually less than for a false positive, so an acceptable system 
+
+may have a false positive 
+
+rate of 0.001 percent but a 
+
+false negative rate of 1 per-
+
+cent. However, if the popu-
+
+lation is large and the asset 
+
+extremely valuable, even 
+
+these small percentages can 
+
+lead to catastrophic results.False positive: incorrectly confirming an 
+
+identity. 
+False negative: incorrectly denying an 
+identity.

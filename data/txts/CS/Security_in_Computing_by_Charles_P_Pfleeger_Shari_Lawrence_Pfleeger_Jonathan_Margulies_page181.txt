@@ -1,0 +1,50 @@
+ Section 3.1  Unintentional (Nonmalicious) Programming Oversights 
+147  C to B, and parameters from B to C, in that order. After procedure C returns to B, the 
+second stack frame is popped off the stack and it looks again like Figure 3-9.
+The important thing to notice in these figures is the program counter: If the attacker 
+can overwrite the program counter, 
+
+doing so will redirect program exe-
+
+cution after the procedure returns, 
+
+and that redirection is, in fact, a 
+
+frequently seen step in exploiting a 
+
+buffer overflow.
+Refer again to Figure 3-1 and notice that the stack is at the top of memory, grow-
+ing downward, and something else, called the heap, is at the bottom growing up. As 
+
+you have just seen, the stack is mainly used for nested calls to procedures. The 
+heap provides space for dynamic data, that is, data items whose size is not known when a 
+
+program is compiled. If you declare an array of ten elements in the source code of a routine, the compiler allocates enough space for those ten elements, as well as space for constants and indi-
+
+vidual variables. But suppose you are writing a general-purpose sort routine that works 
+
+on any data, for example, tables with arbitrarily many rows and columns of any kind of 
+
+data. You might process an array of 100 integers, a table of 20,000 telephone numbers, 
+
+or a structure of 2,000 bibliographic references with names, titles, and sources. Even if 
+
+the table itself is passed as a parameter so that you do not need space to store it within 
+your program, you will need some temporary space, for example, for variables to hold 
+
+the values of two rows as you compare them and perhaps exchange their positions. 
+
+Because you cannot know when you write your code how large a row will be, modern 
+
+programming languages let you defer declaring the size of these variables until the 
+
+program executes. During execution, code inserted by the compiler into your program 
+
+determines the sizes and asks the operating system to allocate dynamic memory, which 
+
+the operating system gets from the heap. The heap grows and shrinks as memory is 
+
+allocated and freed for dynamic data structures.FIGURE 3-9 The Stack after Nested Procedure CallsStackP3Procedure AP2P1Prog CtrStack PtrP2P1Prog CtrStack Ptrcall Bcall CProcedure CProcedure BOverflow into system space can redirect 
+execution immediately or on exit from 
+
+the current called procedure.

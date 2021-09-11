@@ -1,0 +1,48 @@
+CHAPTER 7  
+PRINCIPLES THAT GUIDE PRACTICE
+ 105 
+ 
+A dark image of software engineering practice to be sure, but upon reﬂ ection, 
+many of the readers of this book will be able to relate to it.  People who create computer software practice the art or craft or discipline  1 
+ 
+ that is software engineering. But what is software engineering “  
+practice  
+”? In a generic sense,  practice 
+ is a collection of concepts, principles, methods, and tools 
+that a software engineer calls upon on a daily basis. Practice allows managers to 
+manage software projects and software engineers to build computer programs. 
+Practice populates a software process model with the necessary technical and 
+management how-to’s to get the job done. Practice transforms a haphazard unfo-
+
+cused approach into something that is more organized, more effective, and more 
+likely to achieve success.   
+Various aspects of software engineering practice will be examined throughout 
+the remainder of this book. In this chapter, our focus is on principles and con-
+
+cepts that guide software engineering practice in general.   
+ 
+ 
+ 7.1 S
+OFTWARE
+ ENGINEERING KNOWLEDGE  
+ 
+In an editorial published in  IEEE Software
+ 
+, Steve McConnell [McC99] made the following comment:  Many software practitioners think of software engineering knowledge almost exclu-sively as knowledge of speciﬁ c technologies: Java, Perl, html, C++, Linux, Windows 
+NT, and so on. Knowledge of speciﬁ
+ c technology details is necessary to perform com-
+puter programming. If someone assigns you to write a program in C++, you have to 
+know something about C++ to get your program to work.  You often hear people say that software development knowledge has a 3-year half-
+life: half of what you need to know today will be obsolete within 3 years. In the domain 
+of technology-related knowledge, that’s probably about right. But there is another 
+
+kind of software development knowledge—a kind that I think of as “software engi-
+neering principles”—that does not have a three-year half-life. These software engi-
+neering principles are likely to serve a professional programmer throughout his or 
+her career. 
+  McConnell goes on to argue that the body of software engineering knowledge (circa the year 2000) had evolved to a “stable core” that he estimated represented 
+about “75 percent of the knowledge needed to develop a complex system.” But 
+what resides within this stable core?  Over the intervening years, we have seen the evolution of new operat-ing systems like iOS or Android and languages like Java, Python, and C#. 
+  
+1  Some writers argue for one of these terms to the exclusion of the others. In reality, software 
+engineering is all three. pre22126_ch07_103-130.indd   105pre22126_ch07_103-130.indd   10513/12/13   6:11 PM13/12/13   6:11 PM

@@ -1,0 +1,78 @@
+98 PART ONE  
+THE SOFTWARE PROCESS
+ 
+But from the human perspective, the cloud offers far more beneﬁ ts than risks 
+for software engineers. Dana Gardner [Gar09] summarizes the beneﬁ ts (with a 
+warning):  
+Anything having to do with the social or collaboration aspects of software develop-ment lent themselves well to the cloud. Project management, scheduling, task lists, 
+requirements, and defect management all suit themselves well as these are at core 
+group functions where communications is essential to keeping projects in sync and 
+all members of the team – wherever they are located — on literally the same page. 
+Of course, there is a huge caveat here – if your company designs embedded software 
+that goes into products, it is not a good candidate for the cloud: imagine getting a hold 
+of Apple’s project plans for the next version of the iPhone. 
+ 
+  
+As Gardner states, one of the key beneﬁ ts of the cloud is its ability to enhance 
+the “social and collaborative aspects of software development.” In the next sec-
+tion, you’ll learn a bit more about collaborative tools.   
+ 
+ 
+ 6.8 C
+OLLABORATION
+ TOOLS  
+ 
+Fillipo Lanubile and his colleagues [Lan10] suggest that the software develop-ment environments (SDEs) of the last century have morphed into   
+ 
+collaborative development environments
+ 
+ (CDEs)  
+.  6 
+ 
+ They state:  
+ 
+Tools are essential to collaboration among team members, enabling the facilitation, 
+automation, and control of the entire development process. Adequate tool support is 
+especially needed in global software engineering because distance aggravates coor-
+
+dination and control problems, directly or indirectly, through its negative effects on 
+communication.   
+ 
+ 
+ 
+   
+Many of the tools used in a CDE are no different from the tools that are used to assist in the software engineering activities discussed in Parts 2, 3, and 4 of this 
+book. But a worthwhile CDE also provides a set of services that are speciﬁ cally 
+designed to enhance collaborative work [Fok10]. These services include:   
+ 
+ 
+•  A  namespace 
+ that allows a project team to store all work products and other information in a manner that enhances security and privacy, allow-
+
+ing access only to authorized individuals.   
+ 
+ 
+•  A  calendar 
+ for coordinating meeting and other project events.   
+ 
+ 
+•   
+Templates
+ 
+ that enable team members to create work products that have a consistent look and structure.   
+ 
+ 
+•   
+Metrics support 
+ that tracks each team member’s contributions in a quanti-
+tative manner. 
+    What generic 
+services 
+are found in 
+collaborative 
+development 
+environments? ?  
+6  The term  
+collaborative development environment
+ 
+ (CDE) was coined by Grady Booch [Boo02]. pre22126_ch06_087-102.indd   98pre22126_ch06_087-102.indd   9813/12/13   6:10 PM13/12/13   6:10 PM

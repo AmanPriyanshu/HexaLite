@@ -1,0 +1,31 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜ Validation: Are we building the right product?˜ Verification: Are we building the product right?Verification and validation processes are concerned with checking that software 
+being developed meets its specification and delivers the functionality expected by 
+the people paying for the software. These checking processes start as soon as require-
+ments become available and continue through all stages of the development process.Software verification is the process of checking that the software meets its stated functional and non-functional requirements. Validation is a more general process. 
+
+The aim of software validation is to ensure that the software meets the customer™s 
+expectations. It goes beyond checking conformance with the specification to demon-
+strating that the software does what the customer expects it to do. Validation is 
+
+essential because, as I discussed in Chapter 4, statements of requirements do not 
+
+always reflect the real wishes or needs of system customers and users.The goal of verification and validation processes is to establish confidence that 
+the software system is ﬁfit for purpose.ﬂ This means that the system must be good 
+
+enough for its intended use. The level of required confidence depends on the sys-
+tem™s purpose, the expectations of the system users, and the current marketing 
+
+environment for the system:1. Software purpose The more critical the software, the more important it is that it is reliable. For example, the level of confidence required for software used to 
+control a safety-critical system is much higher than that required for a demon-
+strator system that prototypes new product ideas.2. User expectations Because of their previous experiences with buggy, unreliable 
+software, users sometimes have low expectations of software quality. They are 
+not surprised when their software fails. When a new system is installed, users IeInput test data
+OeOutput test resultsSystem
+Inputs causing
+anomalous
+behaviorOutputs which 
+revealthe presence of
+
+defectsFigure 8.1 An inputŒoutput model of 
+program testing

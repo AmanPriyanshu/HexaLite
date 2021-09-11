@@ -1,0 +1,123 @@
+795  
+ 
+ 
+ 
+ 
+ 
+ 
+Regardless of its application domain, its size, or its complexity, computer 
+software will evolve over time. Change drives this process. For computer 
+software, change occurs when errors are corrected, when the software is adapted to a new environment, when the customer requests new features 
+or functions, and when the application is reengineered to provide beneﬁ t in 
+a modern context. Over the past 40 years, Manny Lehman [e.g., Leh97a] and 
+his colleagues have performed detailed analyses of industry-grade software 
+and systems in an effort to develop a  uniﬁ ed theory for software evolution.
+ 
+ The
+ 
+MAINTENANCE AND REENGINEERING   
+ 
+CHAPTER36  
+KEY CONCEPTS     business process 
+reengineering 
+(BPR). . . . . . . . . . 799  
+
+    document 
+
+restructuring. . . . . 804  
+
+    forward 
+
+engineering. . . . . . 811  
+
+    inventory analysis  .803 
+     maintainability  . . . 797  
+ QUICK LOOK   
+What is it?   Consider any tech-nology product that has served you 
+
+well. You use it regularly, but it’s get-
+
+ting old. It breaks too often, takes 
+longer to repair than you’d like, and no longer 
+
+represents the newest technology. What to do? 
+
+For a time, you try to ﬁ
+ x it, patch it, even extend 
+its functionality. That’s called maintenance. But 
+
+maintenance becomes increasingly difﬁ cult as 
+the years pass. There comes a time when you’ll 
+
+need to rebuild it. You’ll create a product with 
+
+added functionality, better performance and 
+
+reliability, and improved maintainability. That’s 
+
+what we call reengineering. 
+  
+ 
+Who does it?   At an organizational level, main-tenance is performed by support staff that are 
+
+part of the software engineering organization. 
+
+Reengineering is performed by business spe-
+
+cialists (often consulting companies), and at 
+the software level, reengineering is performed 
+
+by software engineers.   
+ 
+Why is it important? 
+  We live in a rapidly 
+changing world. The demands on business 
+functions and the information technology that 
+
+supports them are changing at a pace that 
+
+puts enormous competitive pressure on every 
+
+commercial organization. That’s why software 
+
+must be maintained continually, and at the ap-
+
+propriate time, reengineered to keep pace.   
+ 
+What are the steps?   Maintenance corrects defects, adapts the software to meet a chang-
+ing environment, and enhances functionality 
+to meet the evolving needs of customers. At 
+a strategic level, business process reengineer-
+
+ing (BPR) deﬁ nes business goals, identiﬁ
+ es and 
+evaluates existing business processes, and 
+creates revised business processes that better 
+meet current goals. Software reengineering 
+encompasses inventory analysis, document re-
+
+structuring, reverse engineering, program and 
+data restructuring, and forward engineering. 
+
+The intent of these activities is to create ver-
+
+sions of existing programs that exhibit higher 
+quality and better maintainability. 
+  
+ 
+What is the work product? 
+  A variety of maintenance and reengineering work products 
+(e.g., use cases, analysis and design models, 
+test procedures) are produced. The ﬁ nal output 
+is upgraded software.   
+ 
+How do I ensure that I’ve done it right?  
+ Use the same SQA practices that are applied 
+in every software engineering process— 
+
+technical reviews assess the analysis and 
+design models; specialized reviews consider 
+business applicability and compatibility; and 
+testing is applied to uncover errors in content, 
+functionality, and interoperability.  
+ pre22126_ch36_795-816.indd   795pre22126_ch36_795-816.indd   79513/12/13   6:17 PM13/12/13   6:17 PM

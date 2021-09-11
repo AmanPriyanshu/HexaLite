@@ -1,0 +1,50 @@
+CHAPTER 38  
+EMERGING TRENDS IN SOFTWARE ENGINEERING
+ 857 
+Novotny argues that a new generation of tools will work in conjunction with a re-pository to create models at all necessary levels of abstraction, establish relation-
+ships between the various models, translate models at one level of abstraction to 
+another level (e.g., translate a design model into source code), manage changes 
+and versions, and coordinate quality control and assurance actions against the 
+software models.  In addition to complete software engineering environments, point-solution tools that address everything from requirements gathering to design/code refac-
+toring to testing will continue to evolve and become more functionally capable. In 
+some instances, modeling and testing tools targeted at a speciﬁ c application do-
+main will provide enhanced beneﬁ t when compared to their generic equivalents. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 38.7 S
+UMMARY  
+The trends that have an effect on software engineering technology often come from the business, organizational, market, and cultural arenas. These “soft 
+trends” can guide the direction of research and the technology that is derived as 
+a consequence of research.  As a new technology is introduced, it moves through a life cycle that does not always lead to widespread adoption, even though original expectations are high. 
+The degree to which any software engineering technology gains widespread 
+adoption is tied to its ability to address the problems posed by both soft and hard 
+trends.  Soft trends—the growing need for connectivity and collaboration, global proj-ects, knowledge transfer, the impact of emerging economies, and the inﬂ
+ uence of 
+human culture itself—lead to a set of challenges that spans managing complexity 
+and emergent requirements to juggling an ever-changing talent mix among geo-
+
+graphically dispersed software teams.  Hard trends—the ever-accelerating pace of technology change—ﬂ
+ ow out of 
+soft trends and affect the structure of the software and scope of the process and 
+the manner in which a process framework is characterized. Collaborative devel-
+opment, new forms of requirements engineering, model-based and test-driven 
+development, and postmodern design will change the methods landscape. Tools 
+
+environments will respond to a growing need for communication and collabo-
+ration and at the same time integrate domain-speciﬁ c point solutions that may 
+change the nature of current software engineering tasks.   
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+38.1.  Get a copy of the best-selling book  The Tipping Point
+ 
+ by Malcolm Gladwell (available 
+via Google Book Search), and discuss how his theories apply to the adoption of new software 
+engineering technologies.  pre22126_ch38_839-859.indd   857pre22126_ch38_839-859.indd   85713/12/13   6:17 PM13/12/13   6:17 PM

@@ -1,0 +1,63 @@
+492 Chapter 6  
+NetworksNetwork appliances such as firewalls, routers, switches, and load balancers often 
+provide data for people to analyze and manage the network. Too much information can 
+
+overwhelm a human network administrator, especially someone whose security skills 
+
+are limited. Thus, management countermeasures are more appropriate for networks 
+
+large or important enough to have an experienced security staff with adequate resources.
+For all networks, with or without capable security teams, part of the burden of moni-
+toring and detecting denial-of-service attacks can be handled by software. In the next 
+
+section we describe intrusion detection and prevention systems, computer devices that 
+
+do that kind of monitoring.Security Information and Event Management (SIEM)In this chapter, we’ve discussed networking and security products, including routers, 
+
+switches, VPNs, and many varieties of firewalls, IDSs, and IPSs. A large enterprise 
+
+can have hundreds or even thousands of such products, often of different brands and 
+
+models, as well as tens of thousands of servers and workstations, all of which need to be 
+
+monitored by security personnel. In this section, we discuss the tools that make it pos-
+
+sible for a small security team to monitor and respond to security issues from all over 
+
+such an enterprise.A Security Operations CenterAs an example, let’s imagine a retail grocery store chain named SiC Groceries, with 
+headquarters in New York City and 1,000 stores all over the United States. All of SiC’s 
+
+stores need to maintain network communication with headquarters in order to coordi-
+
+nate store inventory, sales, employees, and other logistical issues, so each store needs 
+
+an Internet connection as well as an always-on VPN connection to the home office. 
+
+Internet connections at the retail stores are essentially the same as the ones you get from 
+a local ISP, and they are vulnerable to attack like any other. Worse, an attacker who 
+
+penetrates the retail store’s network will have insider access to corporate headquarters 
+
+through the VPN. That means that every store in the chain is a potential attack vector 
+
+for breaking into the primary corporate network and must be protected as such. Instead 
+
+of having one firewall and one IDS protecting the corporate Internet connection, SiC 
+
+Groceries needs 1,000 firewalls and IDSs protecting 1,000 Internet connections.
+But who will monitor those firewalls and IDSs to make sure they’re working prop-
+erly, respond to their alerts, and investigate possible security incidents at the retail 
+
+stores? It certainly isn’t economical to have security staff at every store, as that kind of 
+
+expertise is expensive, and each store will only rarely have a security issue that requires 
+
+manual intervention. 
+Instead, SiC Groceries will create a Security Operations Center (SOC) at a single location, perhaps their headquarters. A SOC is a team of security personnel dedicated 
+
+to monitoring a network for security incidents and investigating and remediating those 
+
+incidents.To make its SOC effective, SiC Groceries will have to allow the SOC team remote 
+access to monitor all of the network and security products throughout its enterprise, 
+
+including all of its stores. The security personnel can manually log in to every device to 

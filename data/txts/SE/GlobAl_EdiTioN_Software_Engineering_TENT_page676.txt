@@ -1,0 +1,38 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜unnecessary dependencies between the tasks. It is important to avoid a situation 
+where the whole project is delayed because a critical task is unfinished.If a project is technically advanced, initial estimates will almost certainly be opti-mistic even when you try to consider all eventualities. In this respect, software 
+
+scheduling is no different from scheduling any other type of large advanced project. 
+New aircraft, bridges, and even new models of cars are frequently late because of 
+unanticipated problems. Schedules, therefore, must be continually updated as better 
+progress information becomes available. If the project being scheduled is similar to 
+a previous project, previous estimates may be reused. However, projects may use 
+
+different design methods and implementation languages, so experience from previ-
+ous projects may not be applicable in the planning of a new project.When you are estimating schedules, you must take into account the possibility 
+that things will go wrong. People working on a project may fall ill or leave, hardware 
+may fail, and essential support software or hardware may be delivered late. If the 
+
+project is new and technically advanced, parts of it may turn out to be more difficult 
+and take longer than originally anticipated.A good rule of thumb is to estimate as if nothing will go wrong and then increase 
+your estimate to cover anticipated problems. A further contingency factor to cover 
+
+unanticipated problems may also be added to the estimate. This extra contingency factor 
+
+depends on the type of project, the process parameters (deadline, standards, etc.), and 
+
+the quality and experience of the software engineers working on the project. Contingency 
+
+estimates may add 30 to 50% to the effort and time required for the project.˘˘Project schedules may simply be documented in a table or spreadsheet showing the 
+tasks, estimated effort, duration, and task dependencies (Figure 23.5). However, this 
+style of presentation makes it difficult to see the relationships and dependencies 
+
+between the different activities. For this reason, alternative graphical visualizations 
+
+of project schedules have been developed that are often easier to read and under-stand. Two types of visualization are commonly used:1.
+ Calendar-based bar charts show who is responsible for each activity, the 
+expected elapsed time, and when the activity is scheduled to begin and end. Bar 
+
+charts are also called Gantt charts, after their inventor, Henry Gantt.Estimate resourcesfor activitiesIdentify activitydependenciesIdentifyactivitiesAllocate peopleto activitiesSoftware requirementsand design informationBar charts describing theproject scheduleCreate projectcharts
+Figure 23.4 The project scheduling process

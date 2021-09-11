@@ -1,0 +1,55 @@
+778 Chapter 12  
+Details of Cryptographybe difficult to select keys such that the sum of the values of the letters of the key is a 
+prime number. Restrictions such as these make the use of the encipherment prohibi-
+
+tively complex. If the process is too complex, it will not be used. Furthermore, the key 
+
+must be transmitted, stored, and remembered, so it must be short (for hand implementa-
+tion, at least).3. The implementation of the process should be as simple as possible.Manual implementation motivated principle 3: A complicated algorithm is prone to 
+error or likely to be forgotten. With the development and popularity of digital comput-
+
+ers, algorithms far too complex for hand implementation became feasible. Still, the 
+
+issue of complexity is important. People will avoid an encryption algorithm whose 
+
+implementation process severely hinders message transmission, thereby undermining 
+
+security. And a complex algorithm is more likely to be programmed incorrectly.
+4. Errors in ciphering should not propagate and cause corruption of further infor-
+mation in the message.Principle 4 acknowledges that humans make errors in their use of enciphering algo-
+rithms. One error early in the process should not throw off the entire remaining cipher-
+
+text. For example, dropping one letter in a transposition throws off the entire remaining 
+
+encipherment. Unless the receiver can determine where the letter was dropped, the 
+
+remainder of the message will be unintelligible. By contrast, reading the wrong row or 
+
+column for a table-driven substitution affects only one character—remaining characters 
+
+are unaffected.
+5. The size of the enciphered text should be no larger than the text of the original 
+message.Behind principle 5 is the idea that a ciphertext that expands dramatically in size 
+cannot possibly carry more information than the plaintext, yet it gives the cryptanalyst 
+
+more data from which to infer a pattern. Furthermore, a longer ciphertext implies more 
+
+space for storage and more time to communicate.These principles were developed before the ready availability of digital computers, 
+even though Shannon was aware of computers and the computational power they rep-
+
+resented. Thus, some of the concerns he expressed about hand implementation are not 
+
+really limitations on computer-based implementation. For example, a cipher’s imple-
+
+mentation on a computer need not be simple, as long as the time complexity of the 
+
+implementation is tolerable. Nevertheless, the rationale implied by these principles is to 
+
+a large degree still valid.
+Properties of “Trustworthy” Encryption Systems
+Commercial users have several requirements that must be satisfied when they select 
+an encryption algorithm. Thus, when we say that encryption is “commercial grade,” or 
+
+“trustworthy” we mean that it meets these constraints:
+• It is based on sound mathematics. Good cryptographic algorithms are not just 
+invented; they are derived from solid principles.

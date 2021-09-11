@@ -1,0 +1,62 @@
+632 Chapter 9  
+PrivacyThe Internet has few such rules, however. Loss of Internet privacy can cause the balance 
+of knowledge power to shift strongly to the merchant’s side.
+9.6 EMAIL SECURITY
+We briefly introduced email threats in Chapter 4, focusing there on how email can be 
+
+used as a vector to communicate an attack. In this chapter we return to email, this time 
+
+analyzing privacy, and its lack, in email correspondence.
+Email is usually exposed as it travels from node to node along the Internet. Further-
+more, the privacy of an email message can be compromised on the sender’s or receiver’s 
+
+side, without warning. 
+Consider the differences between email and regular letters. Regular mail is handled 
+by a surface-based postal system that by law (in most countries and in most situations) 
+
+is forbidden to look inside letters. A letter is sealed inside an opaque envelope, mak-
+
+ing it almost impossible for an outsider to see the contents. The physical envelope is 
+
+tamper-evident, meaning the envelope shows damage if someone opens it. A sender 
+
+can drop a letter in any mailbox, making the sending of a letter anonymous; there is no 
+
+requirement for a return address or a signature on the letter. For these reasons, we have a 
+
+high expectation of privacy with surface mail. (At certain times in history, for example, 
+
+during a war or under an autocratic ruler, mail was inspected regularly. In those cases, 
+
+most citizens knew their mail was not private.)
+But these expectations for privacy are different with email. In this section we look at 
+the reality of privacy for email.
+Where Does Email Go, and Who Can Access It?
+We discussed security threats against email in Chapter 4. In this section, we look only at 
+
+the mechanics of transmitting email with attention to privacy impacts.
+Email is conceptually a point-to-point communication. If Janet sends email to Scott, Janet’s computer establishes a virtual connection with Scott, the computers synchronize, 
+
+and the message is transferred by some well-defined protocol, such as SMTP (simple 
+
+mail transfer protocol). However, Scott may not be online at the moment Janet wants to 
+
+send her message, so the message to Scott is stored for him on a server (called a POP or 
+
+post office protocol server). The next time Scott is online, he downloads that message 
+
+from the server. In the point-to-point communication, Janet’s message is private; in the 
+
+server version, it is potentially exposed while sitting on the server.
+Janet may be part of a large organization (such as a company or university), so she 
+may not have a direct outbound connection herself; instead, her mail is routed through 
+
+her organization’s server, too, where the message’s privacy could be in jeopardy. For 
+
+instance, some organizations make clear to employees that all content on their servers is 
+
+subject to scanning or scrutiny. 
+A further email complication is the use of aliases and forwarding agents, which add 
+more midpoints to this description. Also, Internet routing can create many hops in an 
+
+inherently conceptual point-to-point model.

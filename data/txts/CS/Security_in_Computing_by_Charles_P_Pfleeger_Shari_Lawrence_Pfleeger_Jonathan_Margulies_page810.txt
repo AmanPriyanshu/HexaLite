@@ -1,0 +1,42 @@
+776 Chapter 12  
+Details of Cryptographyto identical objects. For example, a possible one-time pad can be based on a telephone 
+book. The sender and receiver might agree to start at page 35 and use two middle 
+
+digits (ddd-DDdd) of each seven-digit phone number, mod 26, as a key letter for a 
+substitution cipher. They use an already agreed-on table (a Vigenère tableau) that has 
+
+all 26 letters.Any book can provide a key. The key is formed from the letters of the text, in order. 
+This type of encryption was the basis for Ken Follett’s novel, 
+The Key to Rebecca
+, in which Daphne du Maurier’s famous thriller 
+Rebecca acted as the source of keys for 
+spies in World War II. Were the sender and receiver known to be using a popular book, 
+
+such as The Key to Rebecca
+, the bible, or Security in Computing, it would be easier for 
+the cryptanalyst to try books against the ciphertext, rather than look for patterns and use 
+
+sophisticated tools. Of course, the analyst has to deduce the correct book.We want to stress that these one-time pads and pseudo-one-time pads cannot repeat. 
+If there is any repetition, the interceptor gets two streams of ciphertext: one for one 
+
+block of plaintext, the other for a different plaintext, but both encrypted with the same 
+
+key. The interceptor combines the two ciphertexts in such a way that the keys cancel 
+
+each other out, leaving a combination of the two plaintexts. The interceptor can then 
+
+do other analyses to expose patterns in the underlying plaintexts and give some likely 
+
+plaintext elements. The worst case is that the user simply starts the pad over for a new 
+
+message, for the interceptor may then be able to determine how to split the plaintexts 
+
+and unzip the two plaintexts intact.
+Statistical AnalysisText in any natural language has patterns. First are the frequencies of the letters them-
+
+selves. The letters A, E, O, and T account for approximately 40 percent of all letters 
+
+used in standard English text, and those letters plus N and I account for 50 percent. 
+
+Furthermore, certain letter pairs, such as EN, RE, ER, and NT, and triples, such as ENT, 
+ExclusiveOR or othercombiningfunctionOriginalPlaintextPlaintextCiphertextLongnonrepeatingseries ofnumbersExclusiveOR or othercombiningfunctionFIGURE 12-1 Vernam Cipher

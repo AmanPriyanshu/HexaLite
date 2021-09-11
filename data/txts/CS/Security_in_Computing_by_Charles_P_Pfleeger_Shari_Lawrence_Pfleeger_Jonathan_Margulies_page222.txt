@@ -1,0 +1,39 @@
+188 Chapter 3  
+Programs and ProgrammingMemory-Resident Viruses 
+Some parts of the operating system and most user programs execute, terminate, and dis-
+
+appear, with their space in memory then being available for anything executed later. For 
+
+frequently used parts of the operating system and for a few specialized user programs, 
+
+it would take too long to reload the program each time it is needed. Instead, such code 
+
+remains in memory and is called “resident” code. Examples of resident code are the 
+
+routine that interprets keys pressed on the keyboard, the code that handles error condi-
+
+tions that arise during a program’s execution, or a program that acts like an alarm clock, 
+
+sounding a signal at a time the user determines. Resident routines are sometimes called 
+TSRs or “terminate and stay resident” routines.Virus writers also like to attach viruses to resident code because the resident code is 
+activated many times while the machine is running. Each time the resident code runs, 
+
+the virus does too. Once activated, the virus can look for and infect uninfected carriers. 
+
+For example, after activation, a boot sector virus might attach itself to a piece of resi-
+
+dent code. Then, each time the virus was activated, it might check whether any remov-
+
+able disk in a disk drive was infected and, if not, infect it. In this way the virus could 
+
+spread its infection to all removable disks used during the computing session.
+A virus can also modify the operating system’s table of programs to run. Once the 
+virus gains control, it can insert a registry entry so that it will be reinvoked each time 
+
+the system restarts. In this way, even if the user notices and deletes the executing copy 
+
+of the virus from memory, the system will resurrect the virus on the next system restart.
+For general malware, executing just once from memory has the obvious disadvan-
+tage of only one opportunity to cause malicious behavior, but on the other hand, if the 
+BootstrapLoaderSystemInitializationVirus
+CodeSystemInitializationBootstrapLoader(a)  Before infection(b)  After infectionBoot SectorBoot SectorchainchainchainOther SectorsOther SectorsFIGURE 3-23 Boot or Initialization Time Virus

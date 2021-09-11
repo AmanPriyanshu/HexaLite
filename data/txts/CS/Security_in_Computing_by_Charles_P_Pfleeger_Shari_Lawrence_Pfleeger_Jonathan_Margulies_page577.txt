@@ -1,0 +1,78 @@
+ Section 7.5  Data Mining and Big Data 
+543  The Apache Hadoop framework
+1 (see http://hadoop.apache.org) is a software envi-
+ronment for running big data projects. Users such as Yahoo!, LinkedIn, and Twitter 
+
+use Hadoop clusters to manage the data they collect. (To give you a sense of the size 
+
+of some big data applications, according to 
+InformationWeek
+ 15 June 2012, Yahoo! 
+had 42,000 Hadoop servers, and Bloomberg 
+BusinessWeek
+ of 23 August 2012 said 
+Facebook’s cluster could handle 100 petabytes (
+ 100,000,000 gigabytes.) Although 
+Hadoop is not the only way to implement big data projects, it is perhaps the most com-
+
+mon one, and it is like its alternatives—Google uses a similar framework internally to 
+
+organize web links for its search capability. We briefly describe Hadoop as a way to 
+
+explore security in big data environments. Simply put, instead of using the largest or 
+
+fastest processing or storage (for which there will always be a maximum with current 
+
+technology), Hadoop uses an unbounded array of smaller (and generally cheaper) com-
+ponents ganged into a network.
+Hadoop supports distributed data storage and processing, multiple computing plat-
+forms of different types, redundancy, and concurrent access. It was originally built for a 
+
+project involving web crawlers, autonomous agents that traverse the Internet and build 
+
+indices for web search engines. As you can imagine, the number of web pages and 
+
+descriptors of content on those pages is huge. In contrast to a highly structured rela-
+
+tional database, data on web content tend to have few interconnections and a simple 
+
+structure that some people call flat. In such a situation, providing some result quickly is 
+
+more important than providing the most comprehensive answer slowly.
+A graphic model of the Hadoop architecture is shown in Figure 7-7. In that fig-
+ure, data blocks (labelled b1, b2, and so forth) are on storage devices connected to 
+
+DataNodes that can be anywhere—on the same cluster of machines, in a different array, 
+
+or even halfway around the world. The NameNode is responsible for replicating the 
+
+data and tracking where data items are stored. Data replication supports fault tolerance 
+
+and integrity.
+Hadoop involves a stage called map–reduce, in which data are first mapped to find 
+common data and then reduced according to the common parts. Hadoop then supports 
+distributed use of that reduced data. Computation costs nothing when a machine is idle; 
+
+that is, a machine used 85 percent of the time has 15 percent unused time that could be 
+used for no extra cost. A Hadoop approach moves computation around in a distributed 
+
+environment to take advantage of underutilized computing resources.
+The Hadoop model was developed for an environment of open data shared by all. 
+As such, it has no mechanism for access control, correctness checking, privacy, user 
+
+identification or authentication, logging of actions, or limited privileges—all primitives 
+
+you might expect in any secure environment. The early security model was total separa-
+
+tion: Big data was processed in a separated, trusted environment by only trusted users 
+
+on dedicated machines. This model of use is similar to the earliest (1940s–50s) main-
+
+frame computing installations and to the original (1960s–70s) intentions for the Unix 
+operating system: A closed environment where all users knew and trusted all others and 
+
+there was no need to exclude some users from some data. Over time, designers imple-
+
+mented security for both mainframe computers and Unix, although adding on security 
+was challenging.
+1. Named after the toy of the son of one of the product’s founders.

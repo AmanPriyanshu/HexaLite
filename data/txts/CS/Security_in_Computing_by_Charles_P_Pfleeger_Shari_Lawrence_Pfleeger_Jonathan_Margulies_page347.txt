@@ -1,0 +1,42 @@
+ Section 5.2  Security in the Design of Operating Systems 
+313  On the other hand, implementing a security kernel may degrade system performance 
+because the kernel adds yet another layer of interface between user programs and oper-
+
+ating system resources. Moreover, the presence of a kernel does not guarantee that it 
+
+contains all security functions or that it has been implemented correctly. And in some 
+cases a security kernel can be quite large.
+How do we balance these positive and negative aspects of using a security ker-
+nel? The design and usefulness of a security kernel depend somewhat on the overall 
+
+approach to the operating system’s design. There are many design choices, each of 
+
+which falls into one of two types: Either the security kernel is designed as an addition to 
+
+the operating system or it is the basis of the entire operating system. Let us look more 
+closely at each design choice.Reference Monitor
+The most important part of a security kernel is the 
+reference monitor
+, the portion that controls accesses to objects [AND72, LAM71]. We introduced reference monitors in 
+
+Chapter 2. The reference monitor separates subjects and objects, enforcing that a sub-
+
+ject can access only those objects expressly allowed by security policy. A reference 
+
+monitor is not necessarily a single piece of code; rather, it is the collection of access 
+
+controls for devices, files, memory, interprocess communication, and other kinds of 
+
+objects. As shown in Figure 5-15, a reference monitor acts like a brick wall around the 
+
+operating system or trusted software to mediate accesses by subjects (S) to objects (O). 
+As stated in Chapter 2, a reference monitor must be• tamperproof
+, that is, impossible to weaken or disable
+• unbypassable, that is, always invoked when access to any object is required
+• analyzable, that is, small enough to be subjected to analysis and testing, the 
+completeness of which can be ensuredThe reference monitor is not the only security mechanism of a trusted operating sys-tem. Other parts of the security suite include auditing and identification and authentica-
+
+tion processing, as well as setting enforcement parameters, such as who are allowable 
+Operating SystemorTrusted Software
+Operating SystemorTrusted Software
+ReferenceMonitorSSSOOOOFIGURE 5-15 Reference Monitor

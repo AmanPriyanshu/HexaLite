@@ -1,0 +1,75 @@
+342 Chapter 6  
+NetworksThis chapter covers the two sides of network security: threats and countermeasures. 
+Thus, we have divided the chapter into two parts to help you to find and digest topics 
+
+and to highlight the distinction between these areas. Of course, the two halves reinforce 
+
+each other, and both are necessary for a true understanding of security in networks.
+In this chapter we start with a brief review of network terms and concepts. After that 
+background we open the first part of the chapter: threats. As you see, the threats against 
+
+networks derive from the four basic threat types we introduced in Chapter 1: intercep-
+
+tion, modification, fabrication or insertion, and interruption. We examine these threats 
+
+in the context of wireless networking, a technology that has become popular through 
+
+WiFi hotspots at coffee shops, university campuses, airports, and corporate environ-
+
+ments; many of these access points are free. But when you connect to a free access 
+
+point, what security do you have? (A similar question arises with cloud computing, as 
+
+we examine in Chapter 8 on that topic.) Next we discuss denial-of-service attacks, in 
+
+which legitimate users’ network use is severely constrained or even cut off; this kind of 
+
+attack is unique to networks. 
+The second part of the chapter presents three important ways to counter threats to 
+networking. We revisit our workhorse, cryptography, showing how it can protect con-
+
+fidentiality and integrity in networked communications. Then, we introduce two pieces 
+
+of technology that can help protect users against harm from networks: firewalls and 
+
+intrusion detection and protection systems. We conclude the chapter with techniques 
+
+and technologies for managing network security.
+6.1 NETWORK CONCEPTS
+A network is a little more complicated than a local computing installation. To trivial-
+
+ize, we can think of a local environment as a set of components—computers, printers, 
+
+storage devices, and so forth—and wires. A wire is point to point, with essentially no 
+
+leakage between end points, although wiretapping does allow anyone with access to the 
+
+wire to intercept, modify, or even block the transmission. In a local environment, the 
+
+physical wires are frequently secured physically or perhaps visually so wiretapping is 
+not a major issue. With remote communication, the same notion of wires applies, but 
+
+the wires are outside the control and protection of the user, so tampering with the trans-
+
+mission is a serious threat. The nature of that threat depends in part on the medium of 
+
+these “wires,” which can actually be metal wire, glass fibers, or electromagnetic signals 
+
+such as radio communications. In a moment we look at different kinds of communica-
+
+tions media.Returning our attention to the local environment with a wire for each pair of devices, 
+to send data from one device to another the sender simply uses the one wire to the des-
+
+tination. With a remote network, ordinarily the sender does not have one wire for each 
+
+possible recipient, because the number of wires would become unmanageable. Instead, 
+
+as you probably know, the sender precedes data with what is essentially a mailing label, 
+
+a tag showing to where (and often from where) to transmit data. At various points along 
+
+the transmission path devices inspect the label 
+to determine if that device is the intended 
+recipient and, if not, how to forward the data to get nearer to the destination. This pro-
+
+cessing of a label is called routing. Routing is implemented by computers and, as you 

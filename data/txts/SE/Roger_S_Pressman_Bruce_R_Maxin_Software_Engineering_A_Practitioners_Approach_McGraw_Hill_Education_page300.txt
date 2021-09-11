@@ -1,0 +1,60 @@
+270 PART TWO  
+MODELING 
+ 
+ 
+Each of these archetypes is depicted using UML notation as shown in   
+13.7 
+. Recall that the archetypes form the basis for the architecture but are abstractions that must be further reﬁ ned as architectural design proceeds. For 
+example,  Detector 
+ might be reﬁ ned into a class hierarchy of sensors. 
+  
+ 
+ 
+13.6.3  Reﬁ
+ ning the Architecture into Components 
+ 
+As the software architecture is reﬁ ned into components, the structure of the sys-
+tem begins to emerge. But how are these components chosen? In order to answer 
+this question, you begin with the classes that were described as part of the re-
+quirements model.  6 
+ 
+ These analysis classes represent entities within the applica-tion (business) domain that must be addressed within the software architecture. 
+Hence, the application domain is one source for the derivation and reﬁ nement 
+of components. Another source is the infrastructure domain. The architecture 
+must accommodate many infrastructure components that enable application 
+components but have no business connection to the application domain. For ex-
+ample, memory management components, communication components, data-
+base components, and task management components are often integrated into 
+the software architecture.   
+ 
+The interfaces depicted in the architecture context diagram (Section 13.6.1) imply one or more specialized components that process the data that ﬂ ows 
+across the interface. In some cases (e.g., a graphical user interface), a complete 
+subsystem architecture with many components must be designed. Controller
+NodeCommunicates withDetectorIndicator  
+FIGURE 13.7 
+UML rela-
+tionships for 
+  
+SafeHome 
+  security function 
+archetypes 
+ 
+   
+Source:  Adapted from 
+[Bos00].   
+6  If a conventional (non-object-oriented) approach is chosen, components may be derived from 
+the subprogram calling hierarchy (see  Figure 13.3 ).  
+ uote:  “The structure 
+of a software 
+system provides 
+the ecology in 
+which code is born, 
+matures, and dies. 
+A well-designed 
+habitat allows 
+for the successful 
+evolution of all 
+the components 
+needed in a 
+software system.”  R. Pattis 
+pre22126_ch13_252-284.indd   270pre22126_ch13_252-284.indd   27013/12/13   6:12 PM13/12/13   6:12 PM

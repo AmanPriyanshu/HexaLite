@@ -1,0 +1,95 @@
+678 PART 
+THREE  QUALITY MANAGEMENT  Number of children (NOC) and depth of the inheritance tree (DIT).   
+17   
+   As we mentioned in Chapter 24, superclass methods will have to be retested 
+for each subclass.        
+ 30.7  METRICS FOR MAINTENANCE   
+All of the software metrics introduced in this chapter can be used for the de-
+velopment of new software and the maintenance of existing software. However, 
+
+metrics designed explicitly for maintenance activities have been proposed.  IEEE Std. 982.1-2005 [IEE05] suggests a  software maturity index
+  (SMI) that pro-vides an indication of the stability of a software product (based on changes that 
+occur for each release of the product). The following information is determined:        
+MT  
+5 number of modules in the current release  
+       
+Fc  
+5 number of modules in the current release that have been changed  
+       
+Fa  
+5 number of modules in the current release that have been added  
+       
+Fd  
+5  number of modules from the preceding release that were deleted in 
+the current release    
+ The software maturity index is computed in the following manner:
+SMI 5   
+[ M  
+
+T  
+2 ( F  
+
+a  
+1  F  
+
+c  
+1  F  
+
+d )]
+  
+_________________  M  
+
+T  
+   As SMI approaches 1.0, the product begins to stabilize. SMI may also be used as a 
+metric for planning software maintenance activities. The mean time to produce 
+a release of a software product can be correlated with SMI, and empirical models 
+for maintenance effort can be developed.     
+  17  See Section 30.3.3 for a description of NOC and DIT. 
+
+  18 
+ Tools noted here do not represent an endorsement, but rather a sampling of tools in this category. 
+   Product Metrics  
+  
+Objective:  To assist software engineers in 
+developing meaningful metrics that assess the work products produced during analysis and design 
+modeling, source code generation, and testing. 
+  Mechanics:  
+Tools in this category span a broad array 
+of metrics and are implemented either as a stand-alone 
+
+application or (more commonly) as functionality that exists 
+
+within tools for analysis and design, coding, or testing. 
+
+In most cases, the metrics tool analyzes a representation 
+
+of the software (e.g., a UML model or source code) and 
+
+develops one or more metrics as a result. 
+  Representative Tools:   
+18   
+  
+Krakatau Metrics,  developed by Power Software 
+(  www.powersoftware.com/products 
+ ), 
+computes complexity, Halstead, and related metrics 
+
+for C/C11 and Java.   
+Rational Rose,  distributed by IBM ( 
+ http://www-01 
+.ibm.com/software/awdtools/developer/
+rose/ 
+ ), is a comprehensive tool set for UML 
+modeling that incorporates a number of metrics 
+analysis features.   
+RSM , developed by M-Squared Technologies ( 
+ http://
+msquaredtechnologies.com/Resource-
+Standard-Metrics.html  ), computes a wide variety 
+of code-oriented metrics for C, C11, and Java.   
+Understand,  developed by Scientiﬁ c Toolworks, Inc. 
+(  www.scitools.com 
+ ), calculates code-oriented 
+metrics for a variety of programming languages.   S
+OFTWARE
+ TOOLS 

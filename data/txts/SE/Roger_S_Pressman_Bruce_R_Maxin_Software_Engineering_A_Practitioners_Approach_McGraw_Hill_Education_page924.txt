@@ -1,0 +1,49 @@
+894 APPENDIX 2  
+OBJECT-ORIENTED CONCEPTS
+been designed to receive a stimulus (we call the stimulus a  message 
+) that re-quests the color of the particular instance of a class. Whenever an object receives 
+a stimulus, it initiates some behavior. This can be as simple as retrieving the 
+color of automobile or as complex as the initiation of a chain of stimuli that are 
+passed among a variety of different objects. In the latter case, consider an exam-
+ple in which the initial stimulus received by  Object 1 
+ results in the generation of two other stimuli that are sent to  Object 2 
+ and  
+Object 3 
+. Operations encapsulated by the second and third objects act on the stimuli, returning necessary informa-
+tion to the ﬁ rst object.  
+Object 1 
+ then uses the returned information to satisfy the 
+behavior demanded by the initial stimulus.   
+ 
+ 
+  O
+BJECT-ORIENTED ANALYSIS
+ AND DESIGN CONCEPTS  
+ 
+Requirements modeling (also called analysis modeling) focuses primarily on classes that are extracted directly from the statement of the problem. These 
+ entity classes 
+ typically represent things that are to be stored in a database and 
+persist throughout the duration of the application (unless they are speciﬁ cally 
+deleted).  Design reﬁ nes and extends the set of entity classes. Boundary and controller 
+classes are developed and/or reﬁ ned during design.  
+Boundary classes 
+ create 
+the interface (e.g., interactive screen and printed reports) that the user sees and 
+interacts with as the software is used. Boundary classes are designed with the 
+responsibility of managing the way entity objects are represented to users.   
+Controller classes 
+ are designed to manage (1) the creation or update of en-
+tity objects, (2) the instantiation of boundary objects as they obtain information 
+from entity objects, (3) complex communication between sets of objects, and 
+validation of data communicated between objects or between the user and 
+
+the application.  The concepts discussed in the paragraphs that follow can be useful in analysis and design work.   
+Inheritance.   Inheritance is one of the key differentiators between conventional and object-oriented systems. A subclass  Y 
+ inherits all of the attributes and op-
+erations associated with its superclass  X 
+. This means that all data structures and algorithms originally designed and implemented for  X 
+ are immediately available 
+for  Y 
+—no further work need be done. Reuse has been accomplished directly.  Any change to the attributes or operations contained within a superclass is immediately inherited by all subclasses. Therefore, the class hierarchy becomes 
+a mechanism through which changes (at high levels) can be immediately propa-
+gated through a system.  It is important to note that at each level of the class hierarchy new attributes and operations may be added to those that have been inherited from higher pre22126_app2_891-898.indd   894pre22126_app2_891-898.indd   89413/12/13   6:18 PM13/12/13   6:18 PM

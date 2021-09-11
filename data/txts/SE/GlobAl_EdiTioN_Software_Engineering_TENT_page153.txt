@@ -1,0 +1,36 @@
+˜˜˚˙˜˜˜˜˜˜
+For example, all doctors have a name and phone number, and all hospital doc-tors have a staff number and carry a pager. General practitioners don™t have these 
+attributes, as they work independently, but they have an individual practice name 
+
+and address. Figure 5.12 shows part of the generalization hierarchy, which I have 
+
+extended with class attributes, for the class Doctor. The operations associated with 
+
+the class Doctor are intended to register and de-register that doctor with the 
+
+Mentcare system.ˇˇObjects in the real world are often made up of different parts. For example, a study 
+
+pack for a course may be composed of a book, PowerPoint slides, quizzes, and rec
+-
+ommendations for further reading. Sometimes in a system model, you need to illus-
+trate this. The UML provides a special type of association between classes called 
+
+aggregation, which means that one object (the whole) is composed of other objects 
+(the parts). To define aggregation, a diamond shape is added to the link next to the 
+class that represents the whole.Figure 5.
+13 shows that a patient record is an aggregate of Patient and an indefinite 
+number of Consultations. That is, the record maintains personal patient information 
+as well as an individual record for each consultation with a doctor.DoctorGeneral practitionerHospital doctorName
+Phone #
+
+Emailregister ( )
+
+de-register ( )
+Staff #
+Pager #
+Practice
+AddressFigure 5.12 A generalization hierarchy 
+with added detailPatient record
+Patient
+Consultation1111..*
+Figure 5.13 The aggregation association

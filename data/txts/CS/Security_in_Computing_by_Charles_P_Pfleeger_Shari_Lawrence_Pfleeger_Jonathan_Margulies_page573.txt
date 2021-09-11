@@ -1,0 +1,63 @@
+ Section 7.5  Data Mining and Big Data 
+539  by other agencies. Even if the ana-
+lyst could get to the originals, the 
+
+analyst would probably never learn 
+
+where else these original databases 
+had already been copied.One important goal of databases is to have a record in one place so that one correc-
+tion serves all uses. With data mining, a result is an aggregate from multiple data bases. 
+
+There is no natural way to work backward from the result to the amalgamated databases 
+
+to find and correct errors. 
+Using Comparable Data Data semantics is another important consideration when mining for data. Consider two 
+
+geographical databases with data on family income. Except one database has income 
+
+by dollar, and the other has the data in thousands of euros. Even if the field names are 
+
+the same, combining the raw data would result in badly distorted statistics. Consider 
+
+another attribute rated high/medium/low in one database and on a numerical scale of 
+
+1–5 in another. Should high/medium/low be treated as 1/3/5? Even if analysts use that 
+
+transformation, computing with some 3-point and some 5-point precision reduces the 
+quality of the results. Or how can you meaningfully combine one database that has a 
+
+particular attribute with another that does not?
+Eliminating False Matches As we described earlier, coincidence is not correlation or causation; because two things 
+
+occur together does not mean either causes the other. Data mining tries to highlight 
+SIDEBAR 7-6 Close, But No Cigar
+Database management systems are excellent at finding matches: All 
+people named Bfstplk or everyone whose age is under 125. They have 
+
+limited capabilities to find “almost” matches: people whose names begin 
+Hgw or have any four of five attributes. DBMSs have trouble finding names 
+similar to d’Estaing or given a set of symptoms to determine a disease. 
+DBMS vendors add domain-specific comparison engines to define “close,” 
+for pronunciation, orthography, features, or other pattern-matching opera-
+
+tions. Dealing in imprecision, these engines can produce some spectacular 
+
+failures.
+Airport security databases are in the news in the United States. 
+The plight of the late Senator Edward Kennedy and former Representa-
+
+tive John Lewis, both repeatedly caught for secondary screening presum-
+
+ably because their names resemble those of terrorists, would be worrying, 
+
+except that their status in the government gave them clout to suggest the 
+
+situation be fixed. Many other sound-alikes are not so well placed. And 
+
+people with names like Michelle Green and David Nelson have no idea why 
+
+their names trigger more scrutiny.
+Databases and aggregations have 
+no backward link, no way to correct 
+
+mistakes at their source.

@@ -1,0 +1,119 @@
+CHAPTER 34  
+PROJECT SCHEDULING 765 
+ 
+ 
+ 
+ 
+ 34.5  
+SCHEDULING    
+Scheduling of a software project does not differ greatly from scheduling of any multitask engineering effort. Therefore, generalized project scheduling tools 
+and techniques can be applied with little modiﬁ cation for software projects. 
+  
+Program evaluation and review technique
+ 
+ (PERT) and the  
+critical path method 
+ (CPM) are two project scheduling methods that can be applied to software devel-
+opment. Both techniques are driven by information already developed in earlier 
+project planning activities: estimates of effort, a decomposition of the product 
+function, the selection of the appropriate process model and task set, and de-
+composition of the tasks that are selected.  Interdependencies among tasks may be deﬁ ned using a task network. Tasks, 
+sometimes called the project  work breakdown structure
+ 
+ (WBS), are deﬁ
+ ned for 
+the product as a whole or for individual functions.  Both PERT and CPM provide quantitative tools that allow you to (1) determine 
+the critical path—the chain of tasks that determines the duration of the project, 
+(2) establish “most likely” time estimates for individual tasks by applying statis-
+tical models, and (3) calculate “boundary times” that deﬁ ne a time “window” for 
+a particular task.   uote:  “ 
+All  we have to 
+decide is what to 
+do with the time 
+that is given to us.”  Gandalf in 
+ The Lord of the Rings: Fellowship of the Rings   
+ 
+Project Scheduling 
+ 
+ 
+ 
+ 
+ 
+Objective:   
+The objective of project scheduling tools is to enable a project manager to deﬁ ne work tasks; establish their 
+dependencies; assign human resources to tasks; and 
+develop a variety of graphs, charts, and tables that aid 
+
+in tracking and control of the software project.   
+ 
+Mechanics:   
+In general, project scheduling tools require the speciﬁ cation of a work breakdown structure of tasks 
+or the generation of a task network. Once the task 
+breakdown (an outline) or network is deﬁ ned, start and 
+end dates, human resources, hard deadlines, and other 
+data are attached to each. The tool then generates a 
+variety of time-line charts and other tables that enable a 
+
+manager to assess the task ﬂ ow of a project. These data 
+can be updated continually as the project is under way. 
+  
+ 
+ 
+Representative Tools:  8 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AMS Realtime, 
+ developed by Advanced Management Systems (  
+www.amsusa.com
+ 
+ 
+), provides scheduling capabilities for projects of all sizes and types.    
+ 
+ 
+ 
+ 
+ 
+Microsoft Project, 
+ developed by Microsoft (  
+www.
+microsoft.com
+ 
+ 
+), is the most widely used PC-based project scheduling tool.    
+ 
+ 
+ 
+ 
+ 
+4C, 
+ developed by  4C Systems 
+ (  
+www.4csys.com
+ 
+ 
+), supports all aspects of project planning including 
+
+scheduling.    
+A comprehensive list of project management software vendors and products can be found at   
+www.infogoal.
+com/pmc/pmcswr.htm
+ 
+ 
+.  
+  
+SOFTWARE
+ TOOLS  
+ 
+8.  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+pre22126_ch34_754-776.indd   765pre22126_ch34_754-776.indd   76513/12/13   10:02 PM13/12/13   10:02 PM

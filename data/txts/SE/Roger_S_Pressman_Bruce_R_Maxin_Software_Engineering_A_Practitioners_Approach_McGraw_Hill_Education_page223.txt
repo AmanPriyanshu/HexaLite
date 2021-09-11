@@ -1,0 +1,112 @@
+CHAPTER 10  
+REQUIREMENTS MODELING: CLASS-BASED METHODS 193These classes typically represent things that are to be stored in a 
+ database and persist throughout the duration of the application (unless 
+they are speciﬁ cally deleted). 
+ 
+  
+ 
+ 
+ •   
+Boundary classes 
+ are used to create the interface (e.g., interactive 
+screen or printed reports) that the user sees and interacts with as the 
+
+software is used. Entity objects contain information that is important 
+
+to users, but they do not display themselves. Boundary classes are 
+
+ designed with the responsibility of managing the way entity  objects 
+are represented to users. For example, a boundary class called 
+
+  
+CameraWindow
+ 
+ would have the responsibility of displaying surveil-lance camera output for the  SafeHome 
+ system. 
+  
+ 
+ 
+ •   
+Controller classes
+ 
+ manage a “unit of work” from start to ﬁ nish. That is, 
+controller classes can be designed to manage (1) the creation or update 
+
+of entity objects, (2) the instantiation of boundary objects as they obtain 
+
+information from entity objects, (3) complex communication between 
+
+sets of objects, (4) validation of data communicated between objects or 
+
+between the user and the application. In general, controller classes are 
+
+not considered until the design activity has begun. 
+ 
+ 
+   
+ 
+ 
+Responsibilities. 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+Basic guidelines for identifying responsibilities (attri-butes and operations) have been presented in Sections 10.2 and 10.3. 
+Wirfs-Brock and her colleagues [Wir90] suggest ﬁ
+ ve guidelines for allocat-
+ing responsibilities to classes:  
+ 
+ 
+ 1.
+   
+System intelligence should be distributed across classes to best 
+ address the needs of the problem. 
+ Every application encompasses 
+a certain degree of intelligence; that is, what the system knows and 
+
+what it can do. This intelligence can be distributed across classes in a 
+
+ number of different ways. “Dumb” classes (those that have few respon-sibilities) can be modeled to act as servants to a few “smart” classes 
+
+(those having many responsibilities). Although this approach makes 
+
+the ﬂ ow of control in a system straightforward, it has a few disadvan-
+tages: it concentrates all intelligence within a few classes, making 
+
+changes more difﬁ cult, and it tends to require more classes, hence 
+more  development effort. 
+ 
+ 
+   If system intelligence is more evenly distributed across the classes 
+in an application, each object knows about and does only a few things 
+
+(that are generally well focused), the cohesiveness of the system is 
+
+ improved.  3 
+ 
+ This enhances the maintainability of the software and 
+ reduces the impact of side effects due to change. 
+ What 
+guidelines can be applied 
+for allocating 
+responsibilities to 
+classes? ?  uote:    
+  “Objects can 
+be classiﬁ ed 
+
+scientiﬁ cally 
+
+into three major 
+categories: those 
+that don’t work, 
+those that break 
+down, and those 
+that get lost.”  Russell Baker 
+  
+ 
+ 
+3  Cohesiveness is a design concept that is discussed in Chapter 12. 
+pre22126_ch10_184-201.indd   193pre22126_ch10_184-201.indd   19313/12/13   6:11 PM13/12/13   6:11 PM

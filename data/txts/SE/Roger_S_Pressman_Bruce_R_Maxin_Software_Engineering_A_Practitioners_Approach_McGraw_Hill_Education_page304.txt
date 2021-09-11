@@ -1,0 +1,58 @@
+274 PART TWO  
+MODELING 
+ 
+ 
+13.6.6  Architectural Design for Mobile Apps 
+ 
+Mobile apps  9 
+ 
+ are typically structured using multilayered architectures, including 
+a user interface layer, a business layer, and a data layer. With mobile apps you 
+
+have the choice of building a thin Web-based client or a rich client. With a thin 
+
+client, only the user interface resides on the mobile device, whereas the business 
+and data layers reside on a server. With a rich client all three layers may reside 
+
+on the mobile device itself.   
+Mobile devices differ from one another in terms of their physical characteris-tics (e.g., screen sizes, input devices), software (e.g., operating systems, language 
+support), and hardware (e.g., memory, network connections). Each of these attri-
+
+butes shapes the direction of the architectural alternatives that can be selected. 
+Meier and his colleagues [Mei09] suggest a number of considerations that can 
+inﬂ uence the architectural design of a mobile app: (1) the type of web client (thin 
+or rich) to be built, (2) the categories of devices (e.g., smartphones, tablets) that 
+are supported, (3) the degree of connectivity (occasional or persistent) required, 
+(4) the bandwidth required, (5) the constraints imposed by the mobile platform, 
+(6) the degree to which reuse and maintainability are important, and (7) device 
+resource constraints (e.g., battery life, memory size, processor speed).   
+ 
+ 
+ 
+ 13.7 A
+SSESSING ALTERNATIVE
+ ARCHITECTURAL DESIGNS  
+ 
+In their book on the evaluation of software architectures, Clements and his  colleagues [Cle03] state: 
+ 
+To put it bluntly, an architecture is a bet, a wager on the success of a system. Wouldn’t 
+it be nice to know in advance if you’ve placed your bet on a winner, as opposed to wait-
+
+ing until the system is mostly completed before knowing whether it will meet its re-
+quirements or not? If you’re buying a system or paying for its development, wouldn’t 
+you like to have some assurance that it’s started off down the right path? If you’re the 
+
+architect yourself, wouldn’t you like to have a good way to validate your intuitions 
+and experience, so that you can sleep at night knowing that the trust placed in your 
+design is well founded?   
+ 
+Indeed, answers to these questions would have value. Design results in a num-ber of architectural alternatives that are each assessed to determine which is 
+the most appropriate for the problem to be solved. In the sections that follow, we 
+
+present two different approaches for the assessment of alternative  architectural designs. The ﬁ rst method uses an iterative method to assess design trade-offs. 
+The second approach applies a pseudo-quantitative technique for assessing 
+ design quality. 
+ 
+ 
+9  Mobile app design is discussed in more detail in  
+Chapter 18 . pre22126_ch13_252-284.indd   274pre22126_ch13_252-284.indd   27413/12/13   6:12 PM13/12/13   6:12 PM

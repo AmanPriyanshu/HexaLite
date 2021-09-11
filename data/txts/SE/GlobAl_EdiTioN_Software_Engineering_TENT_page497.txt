@@ -1,0 +1,48 @@
+˜˚˛˝˚˜˜˜˜˜˜
+interactions, with each interaction defining part of the order. However, the waiter has a 
+single interaction with the kitchen where the message defines the complete order.Procedural communication in a distributed system is usually implemented using 
+remote procedure calls (RPCs). In an RPC, components have globally unique names 
+(such as a URL). Using that name, a component can call on the services offered by 
+another component as if it was a local procedure or method. System middleware 
+
+intercepts this call and passes it on to a remote component. This carries out the 
+
+required computation and, via the middleware, returns the result to the calling 
+ component. In Java, remote method invocations (RMIs) are remote procedure calls.Remote procedure calls require a ﬁstubﬂ for the called procedure to be accessible on 
+the computer that is initiating the call. This stub defines the interface of the remote 
+
+procedure. The stub is called, and it translates the procedure parameters into a standard 
+
+representation for transmission to the remote procedure. Through the middleware, it 
+
+then sends the request for execution to the remote procedure. The remote procedure 
+
+uses library functions to convert the parameters into the required format, carries out the 
+
+computation, and then returns the results via the ﬁstubﬂ that is representing the caller.Message-based interaction normally involves one component creating a message that 
+details the services required from another component. This message is sent to the receiv-
+ing component via the system middleware. The receiver parses the message, carries out 
+
+the computations, and creates a message for the sending component with the required 
+
+results. This is then passed to the middleware for transmission to the sending component.A problem with the RPC approach to interaction is that both the caller and the callee need to be available at the time of the communication, and they must know 
+how to refer to each other. In essence, an RPC has the same requirements as a local 
+procedure or method call. By contrast, in a message-based approach, unavailability 
+can be tolerated. If the system component that is processing the message is unavail-
+able, the message simply stays in a queue until the receiver comes back online. 
+
+Furthermore, it is not necessary for the sender to know the name of the message 
+
+receiver and vice versa. They simply communicate with the middleware, which is 
+
+responsible for ensuring that messages are passed to the appropriate system.Figure 17.2  Message-based 
+interaction between a  
+waiter and the kitchen 
+staff<starter><dish name = ﬁsoupﬂ type = ﬁtomatoﬂ />
+<dish name = ﬁsoupﬂ type = ﬁfishﬂ />
+<dish name = ﬁpigeon saladﬂ /></starter>
+<main course><dish name = ﬁsteakﬂ type = ﬁsirloinﬂ cooking = ﬁmediumﬂ />
+<dish name = ﬁsteakﬂ type = ﬁfilletﬂ cooking = ﬁrareﬂ />
+<dish name = ﬁsea bassﬂ></main>
+<accompaniment><dish name = ﬁfrench friesﬂ portions = ﬁ2ﬂ />
+<dish name = ﬁsaladﬂ portions = ﬁ1ﬂ /></accompaniment>

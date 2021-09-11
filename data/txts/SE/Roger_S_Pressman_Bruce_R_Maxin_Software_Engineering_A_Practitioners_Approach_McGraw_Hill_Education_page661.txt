@@ -1,0 +1,78 @@
+CHAPTER 29  
+SOFTWARE CONFIGURATION MANAGEMENT
+ 631 
+ 
+ 
+A robust repository provides two different classes of services: (1) the same types of services that might be expected from any sophisticated database man-
+agement system and (2) services that are speciﬁ c to the software engineering 
+environment.  A repository that serves a software engineering team should also (1) integrate with or directly support process management functions, (2) support speciﬁ c rules 
+that govern the SCM function and the data maintained within the repository, 
+
+provide an interface to other software engineering tools, and (4) accommo-
+
+date storage of sophisticated data objects (e.g., text, graphics, video, audio).   
+ 
+ 
+29.2.2   
+SCM Features 
+ 
+ 
+ 
+To support SCM, the repository must have a tool set that provides support for the 
+following features:   
+Versioning.   
+As a project progresses, many versions (Section 29.3.2) of individ-ual work products will be created. The repository must be able to save all of these 
+versions to enable effective management of product releases and to permit de-
+velopers to go back to previous versions during testing and debugging.  The repository must be able to control a wide variety of object types, including text, graphics, bit maps, complex documents, and unique objects such as screen 
+and report deﬁ nitions, object ﬁ
+ les, test data, and results. A mature repository 
+tracks versions of objects with arbitrary levels of granularity; for example, a sin-
+gle data deﬁ nition or a cluster of modules can be tracked. 
+ 
+ 
+ 
+Dependency tracking and change management.   
+The repository manages a wide variety of relationships among the data elements stored in it. These include 
+relationships between enterprise entities and processes, among the parts of an 
+application design, between design components and the enterprise informa-
+tion architecture, between design elements and deliverables, and so on. Some 
+of these relationships are merely associations, and some are dependencies or 
+mandatory relationships.  The ability to keep track of all of these relationships is crucial to the integrity of the information stored in the repository and to the generation of deliverables 
+based on it, and it is one of the most important contributions of the repository 
+concept to the improvement of the software development process. For example, 
+if a UML class diagram is modiﬁ ed, the repository can detect whether related 
+classes, interface descriptions, and code components also require modiﬁ cation 
+and can bring affected SCIs to the developer’s attention. 
+  
+ 
+Requirements tracing.   
+This special function depends on link management and provides the ability to track all the design and construction components and de-
+liverables that result from a speciﬁ c requirements speciﬁ
+ cation (forward trac-
+ing). In addition, it provides the ability to identify which requirement generated 
+any given work product (backward tracing).  WebRef 
+ An example of a 
+commercially available 
+repository can be 
+
+obtained at   
+www.oracle.com/
+technology/
+products/
+repository/
+
+index.html  .
+    The repository must be 
+capable of maintaining 
+SCIs related to many 
+different versions 
+of the software. 
+More important, it 
+
+must provide the 
+mechanisms for 
+assembling these SCIs 
+into a version-speciﬁ c 
+
+conﬁ guration. 
+pre22126_ch29_623-652.indd   631pre22126_ch29_623-652.indd   63113/12/13   6:16 PM13/12/13   6:16 PM

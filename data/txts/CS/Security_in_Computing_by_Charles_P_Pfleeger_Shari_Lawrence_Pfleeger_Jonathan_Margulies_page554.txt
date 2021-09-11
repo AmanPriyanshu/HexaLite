@@ -1,0 +1,66 @@
+520 Chapter 7  
+DatabasesBoundsAnother exposure is disclosing 
+bounds on a sensitive value, that is, indicating that a 
+sensitive value, 
+y, is between two values, 
+L and 
+H. Sometimes, by using a narrowing 
+technique not unlike the binary search, the user may first determine that 
+L  y  H and 
+then see whether L  y  H/2, and so forth, thereby permitting the user to determine y to any desired precision. In another case, merely revealing that a value such as the 
+athletic scholarship budget or the number of CIA agents exceeds a certain amount may 
+
+be a serious breach of security.
+Sometimes, however, bounds are a useful way to present sensitive data. It is com-
+mon to release upper and lower bounds for data without identifying the specific records. 
+
+For example, a company may announce that its salaries for programmers range from 
+
+$50,000 to $82,000. If you are a programmer earning $79,700, you would suppose you 
+
+are fairly well off, so you have the information you want; however, the announcement 
+
+does not disclose who are the highest- and lowest-paid programmers.
+Negative ResultSometimes we can word a query to determine a 
+negative result
+. That is, we can learn 
+that z is 
+not the value of 
+y. For example, knowing that 0 is not the total number of 
+felony convictions for a person reveals that the person was convicted of a felony. The 
+
+distinction between 1 and 2 or 46 and 47 felonies is not as sensitive as the distinction 
+
+between 0 and 1. Therefore, disclosing that a value is not 0 can be a significant disclo-
+
+sure. Similarly, if a student does not appear on the honors list, you can infer that the per-
+
+son’s grade point average is below 3.50. This information is not too revealing, however, 
+
+because the range of grade point averages from 0.0 to 3.49 is rather wide.
+ExistenceIn some cases, the existence of data is itself a sensitive piece of data, regardless of the 
+actual value. For example, an employer may not want employees to know that their tele-
+
+phone use is being monitored. In this case, discovering a NUMBER OF PERSONAL 
+
+TELEPHONE CALLS field in a personnel file would reveal sensitive data.
+Probable Value
+Finally, it may be possible to determine the probability that a certain element has a certain 
+value. To see how, suppose you want 
+
+to find out whether the president of 
+
+the United States is registered in the 
+
+Tory party. Knowing that the presi-
+
+dent is in the database, you submit 
+
+two queries to the database:
+Count(Residence="1600 Pennsylvania Avenue") = 4Count(Residence="1600 Pennsylvania Avenue" AND Tory=TRUE) 
+= 1A database manager can control access 
+by direct queries; disclosure can occur 
+
+in more subtle ways that are harder to 
+
+control.

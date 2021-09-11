@@ -1,0 +1,95 @@
+286 PART TWO  
+MODELING 
+ 
+ 
+ 
+ 14.1 W
+HAT
+ IS A COMPONENT?  
+ 
+ 
+A  component 
+ is a modular building block for computer software. More formally, 
+the  OMG Uniﬁ ed Modeling Language Speciﬁ
+ cation
+ 
+ [OMG03a] deﬁ
+ nes a compo-
+nent as “a modular, deployable, and replaceable part of a system that encapsu-
+
+lates implementation and exposes a set of interfaces.”  As we discussed in Chapter 13, components populate the software architec-ture and, as a consequence, play a role in achieving the objectives and require-
+ments of the system to be built. Because components reside within the software 
+architecture, they must communicate and collaborate with other components 
+and with entities (e.g., other systems, devices, people) that exist outside the 
+boundaries of the software.  The true meaning of the term  component 
+ will differ depending on the point of 
+view of the software engineer who uses it. In the sections that follow, we examine 
+
+three important views of what a component is and how it is used as design mod-
+eling proceeds.  
+ 
+ 
+  
+ 
+ 
+14.1.1 An Object-Oriented View 
+ 
+In the context of object-oriented software engineering, a component contains a set of collaborating classes.  1 
+ 
+ Each class within a component has been fully elabo-
+rated to include all attributes and operations that are relevant to its implemen-
+tation. As part of the design elaboration, all interfaces that enable the classes to 
+communicate and collaborate with other design classes must also be deﬁ ned. To 
+   From an object-
+oriented viewpoint, a 
+component is a set of 
+collaborating classes. assessing whether data structures, interfaces, 
+
+and algorithms will work.   
+ 
+What are the steps?  
+ Design representations 
+of data, architecture, and interfaces form the 
+
+foundation for component-level design. The 
+class deﬁ nition or processing narrative for each 
+component is translated into a detailed design 
+that makes use of diagrammatic or text-based 
+forms that specify internal data structures, 
+
+local interface detail, and processing logic. 
+
+Design notation encompasses UML diagrams 
+and supplementary forms. Procedural design 
+
+is speciﬁ ed using a set of structured program-
+ming constructs. It is often possible to acquire 
+existing reusable software components rather 
+than building new ones.   
+ 
+What is the work product? 
+ 
+ The design for 
+each component, represented in graphical, 
+tabular, or text-based notation, is the primary 
+
+work product produced during  component-level design.   
+ 
+How do I ensure that I’ve done it right?  
+ A 
+design review is conducted. The design is ex-
+amined to determine whether data structures, 
+
+interfaces, processing sequences, and logical 
+
+conditions are correct and will produce the 
+appropriate data or control transformation al-
+
+located to the component during earlier design 
+steps.   uote:   “The details are not 
+
+the details. They 
+make the design.”  Charles Eames 
+  
+1  In some cases, a component may contain a single class. 
+pre22126_ch14_285-316.indd   286pre22126_ch14_285-316.indd   28613/12/13   6:12 PM13/12/13   6:12 PM

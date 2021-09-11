@@ -1,0 +1,50 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜Fayad and Schmidt (Fayad and Schmidt 1997) discuss three other classes of 
+framework:1. System infrastructure frameworks support the development of system infra-structures such as communications, user interfaces, and compilers.2. Middleware integration frameworks consist of a set of standards and associated 
+object classes that support component communication and information 
+
+exchange. Examples of this type of framework include Microsoft™s .NET and 
+
+Enterprise Java Beans (EJB). These frameworks provide support for standard-
+ized component models, as discussed in Chapter 16.3. Enterprise application frameworks 
+are concerned with specific application 
+
+domains such as telecommunications or financial systems (Baumer et al. 1997). 
+
+These embed application domain knowledge and support the development of 
+
+end-user applications. These are not now widely used and have been largely 
+
+superseded by software product lines.ƒApplications that are constructed using frameworks can be the basis for further reuse through the concept of software product lines or application families. Because 
+these applications are constructed using a framework, modifying family members to 
+create instances of the system is often a straightforward process. It involves rewrit-
+ing concrete classes and methods that you have added to the framework.Frameworks are a very effective approach to reuse. However, they are expensive to 
+introduce into software development processes as they are inherently complex and it can 
+
+take several months to learn to use them. It can be difficult and expensive to evaluate 
+
+available frameworks to choose the most appropriate one. Debugging framework-based 
+
+applications is more difficult than debugging original code because you may not under-
+stand how the framework methods interact. Debugging tools may provide information 
+
+about the reused framework components, which the developer does not understand.
+When a company has to support a number of similar but not identical systems, one of the 
+
+most effective approaches to reuse is to create a software product line. Hardware control 
+
+systems are often developed using this approach to reuse as are domain-specific applica
+-
+tions in areas such as logistics or medical systems. For example, a printer manufacturer 
+
+has to develop printer control software, where there is a specific version of the product 
+
+for each type of printer. These software versions have much in common, so it makes 
+
+sense to create a core product (the product line) and adapt this for each printer type.A software product line is a set of applications with a common architecture and 
+shared components, with each application specialized to reflect specific customer 
+
+requirements. The core system is designed so that it can be configured and adapted to 
+ƒFayad, M. E., and D. C. Schmidt. 1997. ﬁObject-Oriented Application Frameworks.ﬂ Comm. ACM 40 (10): 
+32Œ38. doi:10.1145/262793.262798.

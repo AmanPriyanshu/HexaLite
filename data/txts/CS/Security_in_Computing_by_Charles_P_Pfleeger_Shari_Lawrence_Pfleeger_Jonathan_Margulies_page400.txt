@@ -1,0 +1,55 @@
+366 Chapter 6  
+NetworksPhysical ReplayFinally, for a physical example, think of security cameras monitoring a space, for exam-
+ple, the door to a bank vault. Guards in a remote control room watch video monitors 
+
+to detect unauthorized access to the door. An attacker can feed an innocent image to 
+
+the monitors. The guards are left looking at the innocent image, during which time the 
+
+attacker has unmonitored access to the bank vault. This ruse was featured in the film 
+
+Ocean’s 11
+. Similar attacks can be used against biometric authentication (for example, 
+the rubber fingerprint attack described in Chapter 2). A similar attack would involve 
+
+training the camera on a picture of the room under surveillance, then replaying a picture 
+
+while the thief moves undetected throughout the vault.
+As these examples show, replay attacks can circumvent ordinary identification, 
+authentication, and confidentiality defenses, and thereby allow the attacker to initiate 
+
+and carry on an interchange under the guise of the victim. Sequence numbers help coun-
+
+ter replay attacks.Modification Attacks in GeneralAll these attacks have involved some aspect of integrity. Remember the range of prop-
+erties covered by the general concept of integrity; we repeat them from Chapter 1 for 
+
+reference:• precise• accurate
+• unmodified
+
+• modified only in acceptable ways
+
+• modified only by authorized people
+
+• modified only by authorized processes
+
+• consistent
+• internally consistent
+
+• meaningful and usable
+Protecting these different properties requires different countermeasures, including 
+tools, protocols, and cryptography. In previous chapters we presented some of these 
+
+approaches, and now we build on those earlier methods.
+Interruption: Loss of ServiceThe final class of network attacks we consider involves availability, the third leg of the 
+
+C-I-A triad. We are all familiar with how frustrating it is to lose access to an important 
+
+service, as when the electricity fails or a telephone connection is cut. Suddenly we 
+
+notice all the ways we depended on that service as we wait anxiously for the repair crew.
+Networks, and especially the Internet, have solidly assured service. From the earli-
+est designs for the Internet, redundancy and fault tolerance were important character-
+
+istics, and the robustness remains. In part this strength is due to the mesh architecture 
+
+of the Internet. The so-called last mile, the final connection between a host and the 

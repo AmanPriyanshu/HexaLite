@@ -1,0 +1,26 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜methods here. Rather, I simply show the methods that are needed to illustrate the com-ponent documentation problem. The methods in the interface of Photo Library are:public void addItem (Identifier pid ; Photograph p; CatalogEntry photodesc) ;public Photograph retrieve (Identifier pid) ;
+public CatalogEntry catEntry (Identifier pid) ;Assume that the documentation for the addItem method in Photo Library is:This method adds a photograph to the library and associates the photograph identifier and catalog descriptor with the photograph.This description appears to explain what the component does, but consider the 
+following questions:˜ What happens if the photograph identifier is already associated with a photograph in the library?˜ Is the photograph descriptor associated with the catalog entry as well as the 
+ photograph? That is, if you delete the photograph, do you also delete the catalog 
+
+information?There is not enough information in the informal description of addItem to answer these questions. Of course, it is possible to add more information to the natural lan-guage description of the method, but in general, the best way to resolve ambiguities 
+is to use a formal language to describe the interface. The specification shown in 
+
+Figure 16.
+14 is part of the description of the interface of Photo Library
+ that adds 
+information to the informal description.Š The context keyword names the component to which the conditions applycontext addItem
+Š The preconditions specify what must be true before execution of addItempre:      PhotoLibrary.libSize() > 0
+            
+PhotoLibrary.retrieve(pid) = null
+Š The postconditions specify what is true after execution
+post:    
+libSize () = libSize()@pre + 1          PhotoLibrary.retrieve(pid) = p
+          PhotoLibrary.catEntry(pid) = photodesc
+context deletepre:      PhotoLibrary.retrieve(pid) <> null ;
+post:    PhotoLibrary.retrieve(pid) = null
+          PhotoLibrary.catEntry(pid) = PhotoLibrary.catEntry(pid)@pre
+          PhotoLibrary.libSize() = libSize()@preŠ1
+Figure 16.14 The OCL˜description of the˜Photo˜Library 
+interface

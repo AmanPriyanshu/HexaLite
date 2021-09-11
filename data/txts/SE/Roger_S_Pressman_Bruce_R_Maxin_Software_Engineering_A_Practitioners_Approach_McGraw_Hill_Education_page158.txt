@@ -1,0 +1,43 @@
+128 PART TWO  
+MODELINGlevel, core principles establish a philosophical foundation that guides a software team as it navigates through the software process. At the level of practice, core 
+principles establish a collection of values and rules that serve as a guide as you 
+analyze a problem, design a solution, implement and test the solution, and ulti-
+mately deploy the software in the user community. 
+ Communication principles focus on the need to reduce noise and improve bandwidth as the conversation between developer and customer progresses. 
+Both parties must collaborate for the best communication to occur. 
+ Planning principles provide guidelines for constructing the best map for the journey to a completed system or product. The plan may be designed solely for 
+a single software increment, or it may be deﬁ ned for the entire project. Regard-
+less, it must address what will be done, who will do it, and when the work will be 
+completed.  Modeling encompasses both analysis and design, describing representations of the software that progressively become more detailed. The intent of the mod-
+els is to solidify understanding of the work to be done and to provide technical 
+guidance to those who will implement the software. Modeling principles serve 
+as a foundation for the methods and notation that are used to create representa-
+tions of the software.  Construction incorporates a coding and testing cycle in which source code for a 
+component is generated and tested. Coding principles deﬁ ne generic actions that 
+should occur before code is written, while it is being created, and after it has been 
+
+completed. Although there are many testing principles, only one is dominant: 
+
+testing is a process of executing a program with the intent of ﬁ nding an error. 
+ Deployment occurs as each software increment is presented to the customer and encompasses delivery, support, and feedback. Key principles for delivery 
+
+consider managing customer expectations and providing the customer with 
+appropriate support information for the software. Support demands advance 
+preparation. Feedback allows the customer to suggest changes that have busi-
+ness value and provide the developer with input for the next iterative software 
+engineering cycle.   
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+7.1.  Since a focus on quality demands resources and time, is it possible to be agile and still maintain a quality focus?    
+ 
+7.2.  Of the eight core principles that guide process (discussed in Section 7.2.1), which do you believe is most important?    
+ 
+7.3.  Describe the concept of  separation of concerns 
+ in your own words.    
+ 
+7.4.  An important communication principle states, “Prepare before you communicate.” How should this preparation manifest itself in the early work that you do? What work prod-
+ucts might result as a consequence of early preparation?  pre22126_ch07_103-130.indd   128pre22126_ch07_103-130.indd   12813/12/13   6:11 PM13/12/13   6:11 PM

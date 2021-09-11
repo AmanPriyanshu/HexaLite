@@ -1,0 +1,92 @@
+891  
+APPENDIX2 
+ 
+ 
+ 
+ What is an object-oriented (OO) viewpoint? Why is a method con-sidered to be object oriented? What is an object? As OO concepts 
+gained widespread adherents during the 1980s and 1990s, there were many different opinions about the correct answers to these questions, 
+but today a coherent view of OO concepts has emerged. This appendix is de-
+signed to provide you with a brief overview of this important topic and to in-
+troduce basic concepts and terminology.  To understand the object-oriented point of view, consider an example of a real-world object—the thing you are sitting in right now—a chair.  Chair 
+ is a 
+subclass of a much larger class that we can call  PieceOfFurniture. 
+ Individual 
+chairs are members (usually called instances) of the class  Chair 
+. A set of ge-neric attributes can be associated with every object in the class  PieceOfFurni-ture 
+. For example, all furniture has a cost, dimensions, weight, location, and color, among many possible attributes. These apply whether we are talking 
+about a table or a chair, a sofa or an armoire. Because  Chair 
+ is a member of 
+ PieceOfFurniture 
+,  Chair 
+ inherits all attributes deﬁ ned for the class. 
+ We have attempted an anecdotal deﬁ nition of a class by describing its at-
+tributes, but something is missing. Every object in the class  PieceOfFurniture 
+ can be manipulated in a variety of ways. It can be bought and sold, physically 
+modiﬁ ed (e.g., you can saw off a leg or paint the object purple), or moved from 
+one place to another. Each of these  operations 
+ (other terms are  
+services 
+ or 
+ methods 
+) will modify one or more attributes of the object. For example, if the attribute  location 
+ is a composite data item deﬁ ned as 
+ 
+ 
+location  = building + ﬂ oor + room 
+  
+then an operation named  move() 
+ would modify one or more of the data items 
+( building, ﬂ oor,
+ 
+ or  
+room 
+) that form the attribute  location 
+. To do this,  move 
+ must 
+have “knowledge” of these data items. The operation  move() 
+ could be used for 
+a chair or a table, as long as both are instances of the class  PieceOfFurniture 
+. Valid operations for the class  PieceOfFurniture 
+— buy(), sell(), weigh() 
+—are speciﬁ ed as part of the class deﬁ
+ nition and are inherited by all instances of 
+the class.  The class  Chair 
+ (and all objects in general) encapsulates data (the attribute 
+values that deﬁ ne the chair), operations (the actions that are applied to change 
+the attributes of chair), other objects, constants (set values), and other related 
+
+information.  Encapsulation 
+ means that all of this information is packaged under 
+one name and can be reused as one speciﬁ cation or program component. 
+OBJECT-ORIENTEDCONCEPTS  
+KEY CONCEPTS    attributes. . . . . . . 893  
+  classes. . . . . . . . . 892  
+  boundary. . . . . 894  
+
+  characteristics 
+
+of  . . . . . . . . . . 897  
+
+  controller. . . . . 894  
+
+  deﬁ
+ nition of. . . 892  
+  entity  . . . . . . . 894  
+  encapsulation  . . . . 891  
+
+  inheritance  . . . . . . 894  
+
+  messages. . . . . . . 895  
+
+  methods. . . . . . . . 893  
+
+  operations  . . . . . . 893  
+
+  polymorphism. . . . 896  
+
+  services  . . . . . . . . 893  
+
+  subclass . . . . . . . . 893  
+
+  superclass. . . . . . . 893   
+pre22126_app2_891-898.indd   891pre22126_app2_891-898.indd   89113/12/13   6:18 PM13/12/13   6:18 PM

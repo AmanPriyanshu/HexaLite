@@ -1,0 +1,90 @@
+CHAPTER 29  
+SOFTWARE CONFIGURATION MANAGEMENT
+ 651should be streamlined to make it as lean as possible, and special provisions for content management must be implemented.   
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+29.1.  Why is the First Law of System Engineering true? Provide speciﬁ c examples for each 
+of the four fundamental reasons for change.    
+ 
+29.2.  What are the four elements that exist when an effective SCM system is implemented? Discuss each brieﬂ y. 
+   
+ 
+29.3.  Discuss the reasons for baselines in your own words.    
+ 
+29.4.  Assume that you’re the manager of a small project. What baselines would you deﬁ ne 
+for the project and how would you control them?    
+ 
+29.5.  Design a project database (repository) system that would enable a software engineer to store, cross-reference, trace, update, change, and so forth all important software con-
+ﬁ guration items. How would the database handle different versions of the same program? 
+Would source code be handled differently than documentation? How will two developers be 
+
+precluded from making different changes to the same SCI at the same time?    
+ 
+29.6.  Research an existing SCM tool and describe how it implements control for versions, variants, and conﬁ guration objects in general. 
+   
+ 
+29.7.  The relations <part-of> and <interrelated> represent simple relationships between conﬁ guration objects. Describe ﬁ
+ ve additional relationships that might be useful in the con-
+text of an SCM repository. 
+   
+ 
+29.8.  Research an existing SCM tool and describe how it implements the mechanics of ver-
+sion control. Alternatively, read two or three papers on SCM and describe the different data 
+
+structures and referencing mechanisms that are used for version control.    
+ 
+29.9.  Develop a checklist for use during conﬁ guration audits. 
+   
+ 
+29.10.  What is the difference between an SCM audit and a technical review? Can their func-tion be folded into one review? What are the pros and cons?    
+ 
+29.11.  Brieﬂ y describe the differences between SCM for conventional software and SCM for 
+Web or MobileApps. 
+   
+ 
+29.12.  What is content management? Use the Web to research the features of a content 
+management tool and provide a brief summary. 
+  
+ 
+ 
+ 
+  F
+URTHER
+ READINGS AND INFORMATION
+ SOURCES  
+ 
+Among the more recent SCM offerings are Aiello and his colleagues ( Conﬁ guration Man-
+agement Best Practices: Practical Methods That Work in the Real World,
+ 
+ Addison-Wesley, 
+2010), Moreira ( Adapting Conﬁ guration Management for Agile Teams: Balancing Sustain-
+ability and Speed, 
+ Wiley, 2009), Duvall and his colleagues ( 
+Continuous Integration: Improving 
+Software Quality and Reducing Risk,
+ 
+ Addison-Wesley, 2007), Leon ( 
+Software Conﬁ
+ guration 
+Management Handbook, 
+ 2nd ed., Artech House Publishers, 2005), Maraia ( 
+The Build Mas-ter: Microsoft’s Software Conﬁ
+ guration Management Best Practices,
+ 
+ Addison-Wesley, 2005), 
+Keyes ( Software Conﬁ
+ guration Management,
+ 
+ Auerbach, 2004), and Hass ( 
+Conﬁ guration 
+Management Principles and Practice, 
+ Addison-Wesley, 2002). Each of these books presents 
+the entire SCM process in substantial detail. Moreira ( Software Conﬁ
+ guration Management 
+Implementation Roadmap, 
+ Wiley, 2004) presents a unique how-to guide for those who must 
+pre22126_ch29_623-652.indd   651pre22126_ch29_623-652.indd   65113/12/13   6:16 PM13/12/13   6:16 PM

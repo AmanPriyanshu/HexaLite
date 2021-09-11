@@ -1,0 +1,60 @@
+306 PART TWO  
+MODELING 
+ 
+14.4.1 Content Design at the Component Level 
+ 
+Content design at the component level focuses on content objects and the man-ner in which they may be packaged for presentation to a WebApp end user. The 
+
+formality of content design at the component level should be tuned to the char-
+
+acteristics of the WebApp to be built. In many cases, content objects need not 
+
+be organized as components and can be manipulated individually. However, as 
+
+the size and complexity (of the WebApp, content objects, and their interrelation-
+
+ships) grows, it may be necessary to organize content in a way that allows eas-
+ier reference and design manipulation.  6 
+ 
+ In addition, if content is highly dynamic 
+(e.g., the content for an online auction site), it becomes important to establish a 
+clear structural model that incorporates content components.   
+ 
+ 
+14.4.2 Functional Design at the Component Level 
+ 
+WebApp functionality is delivered as a series of components developed in paral-
+lel with the information architecture to ensure consistency. In essence you begin 
+
+by considering both the requirements model and the initial information archi-
+tecture and then examining how functionality affects the user’s interaction with 
+
+the application, the information that is presented, and the user tasks that are 
+conducted.  During architectural design, WebApp content and functionality are combined 
+to create a functional architecture. A  functional architecture
+ 
+ is a representation 
+of the functional domain of the WebApp and describes the key functional compo-
+
+nents in the WebApp and how these components interact with each other. 
+  
+ 
+ 
+ 
+ 14.5 C
+OMPONENT-LEVEL DESIGN FOR MOBILE APPS  
+ 
+In Chapter 13 we noted that mobile apps are typically structured using multi-layered architectures, including a user interface layer, a business layer, and a 
+
+data layer. If you are building a mobile app as a thin Web-based client, the only 
+
+components residing on a mobile device are those required to implement the 
+user interface. Some mobile apps may incorporate the components required to 
+implement the business and/or data layers on the mobile device subjecting these 
+layers to the limitations of the physical characteristics of the device.  Considering the user interface layer ﬁ rst, it is important to recognize that a 
+small display area requires the designer to be more selective in choosing the 
+content (text and graphics) to be displayed. It may be helpful to tailor the content 
+to a speciﬁ c user group(s) and display only what each group needs. The busi-
+ness and data layers are often implemented by composing web or cloud service   
+6  Content components can also be reused in other WebApps. 
+pre22126_ch14_285-316.indd   306pre22126_ch14_285-316.indd   30613/12/13   6:12 PM13/12/13   6:12 PM

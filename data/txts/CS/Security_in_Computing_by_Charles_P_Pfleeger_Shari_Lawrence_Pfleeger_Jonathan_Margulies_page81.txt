@@ -1,0 +1,82 @@
+ Section 2.1  Authentication 
+47  system to block the account.) However, if the attacker obtains an encrypted password 
+table and learns the concealment algorithm, a computer program can easily test hun-
+
+dreds of thousands of guesses in a matter of minutes.As numerous studies in this chapter confirmed, people often use one of a few pre-
+dictable passwords. The interceptor can create what is called a rainbow table, a list of 
+
+the concealed forms of the common passwords, as shown in Table 2-4. Searching for 
+
+matching entries in an intercepted 
+
+password table, the intruder can 
+
+learn that Jan’s password is 123456 
+
+and Mike’s is qwerty. The attacker 
+
+sorts the table to make lookup fast.
+Scrambled passwords have yet another vulnerability. Notice in Table 2-2 that Pat and 
+Roz both chose the same password. Both copies will have the same concealed value, 
+
+so someone who intercepts the table can learn that users Pat and Roz have the same 
+
+password. Knowing that, the interceptor can also guess that Pat and Roz both chose 
+
+common passwords, and start trying the usual ones; when one works, the other will, too.
+To counter both these threats, some systems use an extra piece called the 
+salt. A salt 
+is an extra data field different for each user, perhaps the date the account was created or 
+
+a part of the user’s name. The salt value is joined to the password before the combination 
+
+is transformed by concealment. In this way, Pat
+aaaaaa has a different concealment 
+value from Roz
+aaaaaa, as shown 
+in Table 2-5. Also, an attacker can-
+
+not build a rainbow table because 
+
+the common passwords now all 
+
+have a unique component, too.
+TABLE 2-4  
+Sample Rainbow Table 
+for Common Passwords
+Original Password
+Encrypted Password
+asdfg0x023c94fc
+p@55w0rd0x04ff38d9
+
+aaaaaa0x13b9c32f
+
+password0x2129f30d
+
+qwerty0x471aa2d2
+
+123456780x4f2c4dd8
+
+1234560x5903c34d
+
+aaaaa0x8384a8c8
+etc.TABLE 2-5  
+Sample Password Table with Personalized 
+Concealed Password Values
+IdentityID+password  
+(not stored  
+in table)Stored 
+Authentication Value
+JaneJan+qwerty0x1d46e346
+PatPat+aaaaaa0x2d5d3e44
+PhillipPhi+oct31witch0xc23c04d8
+RozRoz+aaaaaa0xe30f4d27
+HermanHer+guessme0x8127f48d
+ClaireCla+aq3wm$oto!40x5209d942
+Rainbow table: precomputed list of 
+popular values, such as passwords
+Salt: user-specific component joined to 
+
+an encrypted password to distinguish 
+
+identical passwords

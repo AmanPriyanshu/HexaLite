@@ -1,0 +1,72 @@
+899  
+APPENDIX3  A
+PPLYING
+ MATHEMATICAL
+ NOTATION
+  
+1 FOR FORMAL SPECIFICATION
+    
+To illustrate the use of mathematical notation in the formal speciﬁ cation of 
+a software component, we revisit the block handler example presented in 
+Chapter 28. The system for managing blocks is depicted schematically in Fig-
+ure 28.8 and should be reviewed before continuing here.  A set named  BLOCKS  will consist of every block number.  AllBlocks  is a set of blocks that lie between 1 and  MaxBlocks.  The state will be modeled by two sets and a sequence. The two sets are  used  and  free . Both contain blocks—the  used  set contains the blocks that are currently used in ﬁ les, and the  
+free  set contains blocks that are available for new ﬁ les. The sequence will contain sets 
+
+of blocks that are ready to be released from ﬁ les that have been deleted. The 
+state can be described as     
+used, free
+ : 
+P  BLOCKS   
+   
+BlockQueue :  
+seq  
+P  BLOCKS    
+ This is very much like the declaration of program variables. It states that  used  
+and  free  will be sets of blocks and that  BlockQueue  will be a sequence, each element of which will be a set of blocks. The data invariant can be written as     
+used  
+>  free
+  
+5 [ `  
+   
+used  
+<  free
+  
+5  AllBlocks  
+`  
+  
+;  i : dom  
+BlockQueue  •  
+BlockQueue i  
+#  used  
+`  
+  
+;  i, j  : dom  
+BlockQueue  •  
+i  
+Þ  j  
+5.
+  BlockQueue i  
+>  BlockQueue j  
+5 [   
+ The ﬁ rst line of the data invariant states that there will be no common blocks 
+
+in the used collection and free collections of blocks. The second line states 
+that the collection of used blocks and free blocks will always be equal to the 
+whole collection of blocks in the system. The third line indicates the  i th ele-ment in the block queue will always be a subset of the used blocks. The ﬁ nal line states that, for any two elements of the block queue that are not the same, 
+there will be no common blocks in these two elements. FORMAL METHODS  
+  1 
+ We have written this section of Appendix 3 making the assumption that you are familiar with 
+the mathematical notation associated with sets and sequences and the logical notation used 
+in predicate calculus. If you need a review, a brief overview is presented as a supplementary 
+
+resource at the 8th edition website. For more detailed information, see [Jec06] or [Pot04]. KEY CONCEPTSformal speciﬁ cation language  . . . . . . . 900
+
+Object Constraint 
+Language (OLC). . . 901
+notation. . . . . . 902
+
+example of  . . . 903
+Z-speciﬁ cation language  . . . . . . . 904
+notation. . . . . . 905
+
+example of. . . . 906

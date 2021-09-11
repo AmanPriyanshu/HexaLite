@@ -1,0 +1,116 @@
+CHAPTER 13  
+ARCHITECTURAL DESIGN 283 
+ 
+ 
+13.4.  The terms  architectural style, architectural pattern,
+ 
+ and  
+framework 
+ (not discussed in 
+this book) are often encountered in discussions of software architecture. Do some research 
+and describe how each of these terms differs for its counterparts.    
+ 
+13.5.  Select an application with which you are familiar. Answer each of the questions posed 
+for control and data in Section 13.3.3.    
+ 
+13.6.  Research the ATAM (using [Kaz98]) and present a detailed discussion of the six steps 
+presented in Section 13.7.1.    
+ 
+13.7.  If you haven’t done so, complete Problem 9.5. Use the design approach described in this chapter to develop a software architecture for the PHTRS.    
+ 
+13.8.  Use the architectural decision template from Section 13.1.4 to document one of the architectural decisions for PHTRS architecture developed in Problem 13.7.    
+ 
+13.9.  Select a mobile application you are familiar with, assess it using the architecture con-siderations (economy, visibility, spacing, symmetry, emergence) from Section 13.4. 
+   
+ 
+13.10.  List the strengths and weakness of the PHTRS architecture you created for    
+ 
+13.11.  Create a dependency structure matrix  20 
+ 
+ for the software PHTRS architecture created 
+for Problem 13.7.  
+   
+ 
+13.12.  Pick an agile process model from  Chapter 5  and identify the architectural design 
+activities that are included.   
+ 
+ 
+ 
+  F
+URTHER
+ READINGS AND INFORMATION
+ SOURCES  
+ 
+The literature on software architecture has exploded over the past decade. Varma  
+( Software 
+Architecture: A Case Based Approach,
+ 
+ Pearson, 2013) presents architecture in the context of 
+a series of case studies. Books by Bass and his colleagues ( Software Architecture in Practice,
+ 
+ 3rd ed., Addison-Wesley, 2012), Gorton ( 
+Essential Software Architecture,
+ 
+ 2nd ed., Springer, 
+2011), Rozanski and Woods ( 
+Software Systems Architecture,
+ 
+ 2nd ed., Addison- 
+Wesley, 2011), 
+Eeles and Cripps ( The Process of Software Architecting,
+ 
+ Addison-Wesley, 2009), Taylor and 
+his colleagues ( Software Architecture,
+ 
+ Wiley, 2009), Reekie and McAdam ( 
+A Software Archi-
+tecture Primer,
+ 
+ 2nd ed., Angophora Press, 2006), and Albin ( 
+The Art of Software Architecture,
+ 
+ Wiley, 2003), present worthwhile treatments of an intellectually challenging topic area. 
+  
+ 
+Buschman and his colleagues ( Pattern-Oriented Software Architecture,
+ 
+ Wiley, 2007) 
+and Kuchana ( Software Architecture Design Patterns in Java,
+ 
+ Auerbach, 2004) discuss 
+ pattern-oriented aspects of architectural design. Knoernschilf ( Java Application Archi-
+tecture: Modularity Patterns with Examples Using OSGi
+ 
+, Prentice Hall, 2012), Rozanski and Woods ( 
+Software Systems Architecture
+ 
+, 2nd ed., Addison-Wesley, 2011), Henderikson 
+ ( Essential Skills for Software Architects,
+ 
+ Addison-Wesley, 2011), Clements and his col-
+leagues ( Documenting Software Architecture: View and Beyond,
+ 
+ 2nd ed., Addison- 
+Wesley, 
+2010), Microsoft ( Microsoft Application Guide
+ 
+, Microsoft Press, 2nd ed., 2009), Fowler  ( Patterns of Enterprise Application Architecture,
+ 
+ Addison-Wesley, 2003), Bosch [Bos00], and 
+Hofmeister and his colleagues [Hof00] provide in-depth treatments of software architecture.   
+ 
+Hennesey and Patterson ( Computer Architecture,
+ 
+ 5th ed., Morgan-Kaufmann, 2011) take 
+a distinctly quantitative view of software architectural design issues. Clements and his 
+colleagues ( Evaluating Software Architectures,
+ 
+ Addison-Wesley, 2002) consider the issues 
+associated with the assessment of architectural alternatives and the selection of the best 
+architecture for a given problem domain.   
+ 
+ 
+ 
+ 
+20  Use Wikipedia as a starting point to obtain further information about the DSM at:  
+http://en.wikipedia.org/wiki/Design_structure_matrix.  pre22126_ch13_252-284.indd   283pre22126_ch13_252-284.indd   28313/12/13   6:12 PM13/12/13   6:12 PM

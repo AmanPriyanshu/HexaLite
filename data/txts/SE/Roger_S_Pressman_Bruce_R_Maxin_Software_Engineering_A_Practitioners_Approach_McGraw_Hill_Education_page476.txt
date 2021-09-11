@@ -1,0 +1,53 @@
+446 PART THREE  
+QUALITY MANAGEMENTand positive experiences) and  challenges 
+ (problems and negative experiences)” 
+[Baa10]. Often conducted in a workshop format, a PME is attended by members 
+of the software team and stakeholders. The intent is to identify excellences and 
+challenges and to extract lessons learned from both. The objective is to suggest 
+improvements to both process and practice going forward.   
+ 
+ 
+ 
+ 
+ 20.8 S
+UMMARY  
+The intent of every technical review is to ﬁ nd errors and uncover issues that 
+would have a negative impact on the software to be deployed. The sooner an 
+error is uncovered and corrected, the less likely that error will propagate to 
+other software engineering work products and amplify itself, resulting in signiﬁ -cantly more effort to correct it.  To determine whether quality control activities are working, a set of metrics 
+should be collected. Review metrics focus on the effort required to conduct the 
+review and the types and severity of errors uncovered during the review. Once 
+
+metrics data are collected, they can be used to assess the efﬁ cacy of the reviews 
+you do conduct. Industry data indicates that reviews provide a signiﬁ cant return 
+on investment.  A reference model for review formality identiﬁ es the roles people play, plan-
+ning and preparation, meeting structure, correction approach, and veriﬁ cation 
+as the characteristics that indicate the degree of formality with which a review is 
+conducted. Informal reviews are casual in nature, but can still be used effectively 
+to uncover errors. Formal reviews are more structured and have the highest 
+probability of leading to high-quality software.  Informal reviews are characterized by minimal planning and preparation and little record keeping. Desk checks and pair programming fall into the informal 
+review category. 
+ A formal technical review is a stylized meeting that has been shown to be ex-tremely effective in uncovering errors. Walkthroughs and inspections establish 
+
+deﬁ ned roles for each reviewer, encourage planning and advance preparation, 
+require the application of deﬁ ned review guidelines, and mandate record keep-
+ing and status reporting. Sample-driven reviews can be used when it is not pos-
+sible to conduct formal technical reviews for all work products.   
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+20.1  Explain the difference between an  error
+ 
+ and a  defect. 
+ 
+   
+ 
+20.2  Why can’t we just wait until testing to ﬁ nd and correct all software errors? 
+   
+ 
+20.3  Assume that 10 errors have been introduced in the requirements model and that each error will be ampliﬁ ed by a factor of 2:1 into design and an addition 20 design errors are 
+introduced and then ampliﬁ ed 1.5:1 into code where an additional 30 errors are introduced. 
+pre22126_ch20_431-447.indd   446pre22126_ch20_431-447.indd   44613/12/13   10:01 PM13/12/13   10:01 PM

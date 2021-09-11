@@ -1,0 +1,16 @@
+ Section 5.3  Rootkit 
+333  Will call’s
+result revealrootkit?Pass call tooperating systemfunctionInterceptedfunction callNoExecute call butmonitor result andadjust as necessaryYesFIGURE 5-22 Rootkit Filtering File Description Resultaddition to more familiar malicious effects, such as deleting files, sending sensitive data 
+to remote systems, and forwarding harmful code to email contacts. 
+A rootkit runs with privileges and position of an operating system component. It is 
+loaded automatically as part of operating system startup and because of its position, 
+
+it can intercept and modify operating system calls and return values, as shown in Fig-
+
+ure 5-23. The operating system performs audit logging, but the rootkit can fail to pass 
+
+on its own activities to be logged. A rootkit is in prime position to remain undiscovered 
+
+and undiscoverable and to perform any action unconstrained. 
+Inspect all filesFindFirstFile()check fileFindNextFile()
+repeatNTQueryDirectoryObjectWindows APIKernel Native InterfaceDevice driver functionsDeviceRootkit filterscall and resultFIGURE 5-23 Rootkit Intercepts and Modifies Basic Operating System Functions

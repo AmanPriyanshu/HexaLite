@@ -1,0 +1,51 @@
+APPENDIX 3  
+FORMAL METHODS 901 The syntactic domain of a formal speciﬁ cation language is often based on a 
+syntax that is derived from standard set theory notation and predicate calculus. 
+The  semantic domain  of a speciﬁ cation language indicates how the language 
+represents system requirements.  A variety of formal speciﬁ cation languages are in use today. OCL [OMG03b], Z [ISO02], LARCH [Gut93], and VDM [Jon91] are representative formal speciﬁ ca-tion languages that exhibit the characteristics noted previously. In this appen-
+dix, we present a brief discussion of OCL and Z.   Object Constraint Language (OCL)  
+2  
+  
+Object Constraint Language  (OCL) is a formal notation developed so that users of UML can add more precision to their speciﬁ cations. All of the power of logic 
+
+and discrete mathematics is available in the language. However, the designers of 
+OCL decided that only ASCII characters (rather than conventional mathemati-
+cal notation) should be used in OCL statements.  To use OCL, you start with one or more UML diagrams—most commonly class, state, or activity diagrams (Appendix 1). OCL expressions are added and state 
+facts about elements of the diagrams. These expressions are called  constraints ; 
+any implementation derived from the model must ensure each of the constraints 
+always remains true.  Like an object-oriented programming language, an OCL expression involves operators operating on objects. However, the result of a complete expression 
+must always be a Boolean, that is, true or false. The objects can be instances of 
+the OCL  Collection  class, of which  
+Set  and  
+Sequence  are two subclasses. 
+ The object  self  is the element of the UML diagram in the context of which the OCL expression is being evaluated. Other objects can be obtained by  navigating  
+using the . (dot) symbol from the  self  object. For example: 
+   
+• If  
+self  is class  
+C , with attribute  
+a , then  
+self.a  evaluates to the object stored 
+in  a .  
+  
+• If  
+C  has a one-to-many association called  
+assoc  to another class  
+D , then  
+ self.assoc  evaluates to a  
+Set  whose elements are of type  
+D .  
+  
+• Finally (and a little more subtly), if  
+D  has attribute  
+b , then the expression 
+ self.assoc.b  evaluates to the set of all the  
+b s belonging to all  
+D s.   
+ OCL provides built-in operations implementing set and logic operators, con-
+structive speciﬁ cation, and related mathematics. A small sample of these is pre-
+
+sented in   Table A3.1. 
+ 2  
+ This section has been contributed by Professor Timothy Lethbridge of the University of Ottawa 
+and is presented here with permission. 

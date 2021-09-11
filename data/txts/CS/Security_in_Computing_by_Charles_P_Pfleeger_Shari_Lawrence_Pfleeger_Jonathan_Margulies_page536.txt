@@ -1,0 +1,52 @@
+502 Chapter 7  
+Databasesat big data collection and data mining, a technology for deriving patterns from one or 
+more databases. Data mining involves many of the security issues we raise in this chapter.
+7.1 INTRODUCTION TO DATABASES
+We begin by describing a database and defining terminology related to its use. We draw 
+
+on examples from what is called the relational database because it is one of the most 
+
+widely used types. However, the concepts described here apply to any type of database. 
+
+We first define the basic concepts and then use them to discuss security concerns.
+Concept of a DatabaseA database is a collection of data and a set of rules that organize the data by specifying 
+certain relationships among the data. Through these rules, the user describes a 
+logical 
+format for the data. The data items are stored in a file, but the precise 
+physical format of the file is of no concern to the user. A 
+database administrator is a person who defines 
+the rules that organize the data and also controls who should have access to what parts of 
+
+the data. The user interacts with the database through a program called a 
+database man-ager or a database management system (DBMS), informally known as a 
+front end.
+Components of DatabasesThe database file consists of 
+records, 
+each of which contains one related group of data. As 
+shown in the example in Table 7-1, a record in a name and address file consists of one name 
+
+and address. Each record contains fields 
+or elements, the elementary data items them-selves. The fields in the name and address record are NAME, ADDRESS, CITY, STATE, 
+
+and ZIP (where ZIP is the U.S. postal 
+
+code). This database can be viewed 
+
+as a two-dimensional table, where 
+
+a record is a row and each field of a 
+
+record is an element of the table.Not every database is easily represented as a single, compact table. The database in 
+Figure 7-1 logically consists of three files with possibly different uses. These three files 
+
+could be represented as one large table, but that depiction may not improve the utility 
+
+of or access to the data.The logical structure of a database is called a schema. A particular user may have 
+access to only part of the database, called a subschema. The overall schema of the 
+A database is a collection of tables, each containing records having one or more 
+
+fields or elements.TABLE 7-1 
+Example of a DatabaseADAMS212 Market St.ColumbusOH43210
+BENCHLY501 Union St.ChicagoIL60603
+
+CARTER411 Elm St.ColumbusOH43210

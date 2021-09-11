@@ -1,0 +1,13 @@
+330 PART TWO  
+MODELINGPatientPharmacistPhysician
+Requests that a prescription be refilledNo refills remainingChecks patientrecordsDetermines status of 
+prescriptionRefills remainingRefill not allowedApproves refill Evaluates alternative
+medicationNoneReceives request tocontact physicianAlternative
+availableChecks inventory for
+refill or alternative
+Out of stockReceives out of stocknotificationReceives time/dateto pick upIn stockPicks upprescriptionFillsprescription  
+FIGURE 15.2 
+Swimlane diagram for prescription reﬁ
+ ll function 
+ 
+ pre22126_ch15_317-346.indd   330pre22126_ch15_317-346.indd   33013/12/13   10:01 PM13/12/13   10:01 PM

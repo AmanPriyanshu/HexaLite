@@ -1,0 +1,174 @@
+772 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+ 
+ 
+•  Develop procedural details for the graphical layout of security system components.   
+ 
+ 
+•  Conduct pair walkthroughs as required.  
+ 
+  These tasks become part of the increment schedule for the fourth WebApp incre-
+ment and are allocated over the increment development schedule. They can be input 
+
+to scheduling software (e.g., Microsoft  Project
+ 
+) and used for tracking and control. 
+ 
+ 
+ 
+  
+ 
+Tracking the Schedule  
+ 
+Tracking the Schedule 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The scene:  Doug Miller’s ofﬁ
+ ce 
+prior to the initiation of the  SafeHome 
+ software project.    
+ 
+ 
+ 
+ 
+ 
+The players:  Doug Miller (manager of the  
+SafeHome 
+ software engineering team) and Vinod Raman, Jamie 
+Lazar, and other members of the product software 
+
+engineering team.    
+ 
+ 
+ 
+ 
+ 
+The conversation:  
+   
+ 
+ 
+ 
+ 
+ 
+Doug (glancing at a PowerPoint slide):  The 
+schedule for the ﬁ rst  
+SafeHome 
+ increment seems reason-able, but we’re going to have trouble tracking progress.    
+ 
+ 
+ 
+ 
+ 
+Vinod (a concerned look on his face):  Why? We 
+have tasks scheduled on a daily basis, plenty of work 
+products, and we’ve been sure that we’re not overallo-
+cating resources.    
+ 
+ 
+ 
+ 
+ 
+Doug:  All good, but how do we know when the re-
+quirements model for the ﬁ rst increment is complete? 
+   
+ 
+ 
+ 
+ 
+ 
+Jamie:  Things are iterative, so that’s difﬁ
+ cult. 
+   
+ 
+ 
+ 
+ 
+ 
+Doug:  
+take “analysis classes deﬁ ned.” You indicated that as a 
+milestone.    
+ 
+ 
+ 
+ 
+ 
+Vinod:  We have. 
+   
+ 
+ 
+ 
+ 
+ 
+Doug:  Who makes that determination? 
+   
+ 
+ 
+ 
+ 
+ 
+Jamie (aggravated):  They’re done when they’re done. 
+   
+ 
+ 
+ 
+ 
+ 
+Doug:  That’s not good enough, Jamie. We have to 
+schedule TRs [technical reviews, Chapter 20], and you 
+haven’t done that. The successful completion of a review 
+
+on the analysis model, for instance, is a reasonable 
+milestone. Understand?    
+ 
+ 
+ 
+ 
+ 
+Jamie (frowning):  Okay, back to the drawing 
+board.    
+ 
+ 
+ 
+ 
+ 
+Doug:  It shouldn’t take more than an hour to make the 
+yone else can get started now. 
+  
+  
+SAFEHOME  
+ 
+ 
+ 
+ 
+ 
+  34.6  EARNED VALUE ANALYSIS
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ We discussed a number of qualitative approaches to project tracking in Sec-
+34.5. Each provides the project manager with an indication of progress, but 
+
+an assessment of the information provided is somewhat subjective. It is reason-
+able to ask whether there is a quantitative technique for assessing progress as 
+the software team progresses through the work tasks allocated to the project 
+schedule. In fact, a technique for performing quantitative analysis of progress 
+does exist. It is called  earned value analysis 
+ (EVA). Humphrey [Hum95] discusses 
+earned value in the following manner:  
+The earned value system provides a common value scale for every [software project] task, regardless of the type of work being performed. The total hours to do the whole 
+project are estimated, and every task is given an earned value based on its estimated 
+percentage of the total.  
+    Earned value provides 
+a quantitative indica-
+tion of progress. pre22126_ch34_754-776.indd   772pre22126_ch34_754-776.indd   77213/12/13   10:02 PM13/12/13   10:02 PM

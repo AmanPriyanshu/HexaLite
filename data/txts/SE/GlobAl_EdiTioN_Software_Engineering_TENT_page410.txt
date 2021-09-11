@@ -1,0 +1,39 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜Obviously, resilience engineering is closely related to reliability and security 
+engineering. The aim of reliability engineering is to ensure that systems do not fail. A system failure is an externally observable event, which is often a consequence of 
+a fault in the system. Therefore, techniques such as fault avoidance and fault toler-
+ance, as discussed in Chapter 11, have been developed to reduce the number of sys-
+tem faults and to trap faults before they lead to system failure.In spite of our best efforts, faults will always be present in a large, complex sys-tem, and they may lead to system failure. Delivery schedules are short, and testing 
+budgets are limited. Development teams are working under pressure, and it is practi-
+cally impossible to detect all of the faults and security vulnerabilities in a software 
+system. We are building systems that are so complex (see Chapter 19) that we cannot 
+
+possibly understand all of the interactions between the system components. Some of 
+these interactions may be a trigger for overall system failure.Resilience engineering does not focus on avoiding failure but rather on accepting the reality that failures will occur. It makes two important assumptions:1. Resilience engineering assumes that it is impossible to avoid system failures and 
+so is concerned with limiting the costs of these failures and recovering from them.2. Resilience engineering assumes that good reliability engineering practices have 
+
+been used to minimize the number of technical faults in a system. It therefore 
+places more emphasis on limiting the number of system failures that arise from 
+external events such as operator errors or cyberattacks.In practice, technical system failures are often triggered by events that are 
+ external 
+to˜the system. These events may involve operator actions or user errors that are unex
+-
+pected. Over the last few years, however, as the number of networked systems has 
+
+increased, these events have often been cyberattacks. In a cyberattack, a  malicious 
+ person or group tries to damage the system or to steal confidential information. These are 
+
+now more significant than user or operator errors as a potential source of system failure.Because of the assumption that failures will inevitably occur, resilience engineer-ing is concerned with both the immediate recovery from failure to maintain critical 
+ services and the longer-term reinstatement of all system services. As I discuss in 
+
+Section 14.
+3, this means that system designers have to include system features to 
+
+maintain the state of the system™s software and data. In the event of a failure,  essential information may then be restored.Four related resilience activities are involved in the detection of and recovery 
+from system problems:1. Recognition The system or its operators should be able to recognize the symp-toms of a problem that may lead to system failure. Ideally, this recognition 
+should be possible before the failure occurs.2. Resistance If the symptoms of a problem or signs of a cyberattack are detected 
+early, then resistance strategies may be invoked that reduce the probability that the 
+
+system will fail. These resistance strategies may focus on isolating critical parts of 
+
+the system so that they are unaffected by problems elsewhere. Resistance includes 

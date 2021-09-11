@@ -1,0 +1,30 @@
+˜˜˚˜˜˜˜
+˜˜
+Problems with using natural language for requirements specificationThe flexibility of natural language, which is so useful for specification, often causes problems. There is scope for writing unclear requirements, and readers (the designers) may misinterpret requirements because they have a 
+different background to the user. It is easy to amalgamate several requirements into a single sentence, and 
+structuring natural language requirements can be difficult.http://software-engineering-book.com/web/natural-language/ensures that some uniformity is imposed on the specification. Structured language 
+notations use templates to specify system requirements. The specification may use 
+programming language constructs to show alternatives and iteration, and may high-
+light key elements using shading or different fonts.The Robertsons (Robertson and Robertson 2013), in their book on the VOLERE 
+requirements engineering method, recommend that user requirements be initially 
+
+written on cards, one requirement per card. They suggest a number of fields on each 
+card, such as the requirements rationale, the dependencies on other requirements, the 
+
+source of the requirements, and supporting materials. This is similar to the approach 
+used in the example of a structured specification shown in Figure 4.13.To use a structured approach to specifying system requirements, you define one or more standard templates for requirements and represent these templates as struc
+-
+tured forms. The specification may be structured around the objects manipulated by 
+the system, the functions performed by the system, or the events processed by the 
+system. An example of a form-based specification, in this case, one that defines how 
+
+to calculate the dose of insulin to be delivered when the blood sugar is within a safe 
+
+band, is shown in Figure 4.13.When a standard format is used for specifying functional requirements, the fol-lowing information should be included:1. A description of the function or entity being specified.2. A description of its inputs and the origin of these inputs.3. A description of its outputs and the destination of these outputs.4. Information about the information needed for the computation or other entities in the system that are required (the ﬁrequiresﬂ part).5. A description of the action to be taken.6.
+ If a functional approach is used, a precondition setting out what must be true 
+
+before the function is called, and a postcondition specifying what is true after 
+the function is called.7. A description of the side effects (if any) of the operation.Using structured specifications removes some of the problems of natural 
+ language 
+specification. Variability in the specification is reduced, and requirements are 
+ organized 

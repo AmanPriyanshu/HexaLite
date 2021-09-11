@@ -1,0 +1,56 @@
+CHAPTER 34  
+PROJECT SCHEDULING 761development. A recommended distribution of effort across the software process is often referred to as the  40220240 rule. 
+ Forty percent of all effort is allocated to 
+front-end analysis and design. A similar percentage is applied to back-end test-
+ing. You can correctly infer that coding (20 percent of effort) is deemphasized.  
+ This effort distribution should be used as a guideline only. 
+ 6 
+ 
+ The characteris-
+tics of each project dictate the distribution of effort. Work expended on project 
+
+planning rarely accounts for more than 2 to 3 percent of effort, unless the plan 
+commits an organization to large expenditures with high risk. Customer com-
+munication and requirements analysis may comprise 10 to 25 percent of project 
+effort. Effort expended on analysis or prototyping should increase in direct pro-
+portion with project size and complexity. A range of 20 to 25 percent of effort is 
+
+normally applied to software design. Time expended for design review and sub-
+
+sequent iteration must also be considered.  
+ 
+  Because of the effort applied to software design, code should follow with rela-tively little difﬁ culty. A range of 15 to 20 percent of overall effort can be achieved. 
+Testing and subsequent debugging can account for 30 to 40 percent of software 
+
+development effort. The criticality of the software often dictates the amount of 
+testing that is required. If software is human rated (i.e., software failure can re-
+sult in loss of life), even higher percentages are typical.   
+ 
+ 
+ 
+ 
+ 34.3  
+DEFINING A TASK SET FOR THE SOFTWARE
+ PROJECT  
+ 
+Regardless of the process model that is chosen, the work that a software team performs is achieved through a set of tasks that enable you to deﬁ ne, develop, 
+and ultimately support computer software. No single task set is appropriate for 
+all projects. The set of tasks that would be appropriate for a large, complex sys-
+tem would likely be perceived as overkill for a small, relatively simple software 
+product. Therefore, an effective software process should deﬁ ne a collection of 
+task sets, each designed to meet the needs of different types of projects.  As we noted in Chapter 3, a task set is a collection of software engineering work tasks, milestones, work products, and quality assurance ﬁ lters that must 
+be accomplished to complete a particular project. The task set must provide 
+enough discipline to achieve high software quality. But, at the same time, it must 
+
+not burden the project team with unnecessary work.  In order to develop a project schedule, a task set must be distributed on the project time line. The task set will vary depending upon the project type and the 
+degree of rigor with which the software team decides to do its work. Although it  How should 
+effort be distributed 
+across the 
+software process 
+workﬂ ow? 
+? 
+ 
+6.  Today, the 40-20-40 rule is under attack. Some believe that more than 40 percent of overall 
+effort should be expended during analysis and design. On the other hand, some proponents of 
+agile development (Chapter 5) argue that less time should be expended “up front” and that a 
+team should move quickly to construction. pre22126_ch34_754-776.indd   761pre22126_ch34_754-776.indd   76113/12/13   10:02 PM13/12/13   10:02 PM

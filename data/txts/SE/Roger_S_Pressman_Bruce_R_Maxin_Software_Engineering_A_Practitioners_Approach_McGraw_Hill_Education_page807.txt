@@ -1,0 +1,116 @@
+777 RISKMANAGEMENT  
+ 
+ 
+ 
+ 
+ 
+ 
+ In his book on risk analysis and management, Robert Charette [Cha89] presents a conceptual deﬁ nition of risk: 
+ 
+ 
+First, risk concerns future happenings. Today and yesterday are beyond active 
+concern, as we are already reaping what was previously sowed by our past ac-
+tions. The question is, can we, therefore, by changing our actions today, create an 
+
+opportunity for a different and hopefully better situation for ourselves tomorrow. 
+
+This means, second, that risk involves change, such as in changes of mind, opin-
+[Third,] risk involves choice, and the uncertainty that 
+
+choice itself entails. Thus paradoxically, risk, like death and taxes, is one of the 
+
+few certainties of life.  
+  
+When you consider risk in the context of software engineering, Charette’s 
+three conceptual underpinnings are always in evidence. The future is your 
+concern—what risks might cause the software project to go awry? Change 
+is your concern—how will changes in customer requirements, development KEY CONCEPTS     assessment. . . . . . 781  
+    identiﬁ
+ cation. . . . . 780  
+    projection. . . . . . . 782  
+
+    reﬁ
+ nement  . . . . . . 787  
+    risk categories  . . . 779  
+
+    risk exposure  . . . . 786  
+
+    risk item 
+
+checklist. . . . . . . . 781  
+
+    risk table  . . . . . . . 783  
+
+    RMMM. . . . . . . . . 790  
+
+    safety and 
+
+hazards  . . . . . . . . 790  
+
+    strategies. . . . . . . 778  
+    proactive. . . . . 778  
+
+    reactive. . . . . . 778  
+    
+ 
+CHAPTER35  
+ 
+What is it?   Risk analysis and man-agement are a series of steps that 
+
+help a software team understand and 
+
+manage uncertainty. Many problems 
+can plague a software project. A risk is a poten-
+tial problem—it might happen, it might not. But, 
+
+regardless of the outcome, it’s a really good idea 
+
+to identify it, assess its probability of occurrence, 
+
+estimate its impact, and establish a contingency 
+
+plan should the problem actually occur. 
+  
+ 
+Who does it?   Everyone involved in the soft-
+ware process—managers, software engineers, 
+and other stakeholders—participate in risk 
+
+analysis and management.   
+ 
+Why is it important? 
+  Think about the Boy Scout motto: “Be prepared.” Software is a dif-
+ﬁ cult undertaking. Lots of things can go wrong, 
+and frankly, many often do. It’s for this rea-
+
+son that being prepared—understanding the 
+risks and taking proactive measures to avoid 
+or manage them—is a key element of good 
+software project management.   
+ 
+What are the steps?   Recognizing what can go wrong is the ﬁ rst step, called “risk identi-
+ﬁ cation.” Next, each risk is analyzed to de-
+termine the likelihood that it will occur and 
+
+the damage that it will do if it does occur. 
+
+Once this information is established, risks are 
+
+ranked, by probability and impact. Finally, a 
+
+plan is developed to manage those risks that 
+have high probability and high impact.   
+ 
+What is the work product? 
+  A risk mitiga-tion, monitoring, and management (RMMM) 
+plan or a set of risk information sheets is 
+
+produced.   
+ 
+How do I ensure that I’ve done it right?   The risks that are analyzed and managed should be derived from a thorough study of 
+the people, the product, the process, and the 
+project. The RMMM should be revisited as the 
+project proceeds to ensure that risks are kept 
+up to date. Contingency plans for risk manage-
+ment should be realistic.   
+QUICK LOOK pre22126_ch35_777-794.indd   777pre22126_ch35_777-794.indd   77713/12/13   6:17 PM13/12/13   6:17 PM

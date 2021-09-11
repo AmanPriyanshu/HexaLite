@@ -1,0 +1,46 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜that they are acting in accordance with security policies. All of these inevitably make 
+demands on usersŠthey may have to remember login names and passwords, only 
+use the system from certain computers, and so on. These mean that it takes users 
+
+more time to get started with the system and use it effectively. As you add security 
+features to a system, it usually becomes more difficult to use. I recommend Cranor 
+and Garfinkel™s book (Cranor and Garfinkel 2005), which discusses a wide range of 
+issues in the general area of security and usability.There comes a point when it is counterproductive to keep adding on new security 
+features at the expense of usability. For example, if you require users to input multi
+-
+ple passwords or to change their passwords to impossible to remember character 
+
+strings at frequent intervals, they will simply write down these passwords. An 
+
+attacker (especially an insider) may then be able to find the passwords that have been 
+written down and gain access to the system.If it is practically possible to do so, you should always maintain a log of user actions. 
+
+This log should, at least, record who did what, the assets used and the time and date of 
+
+the action. If you maintain this as a list of executable commands, you can replay the log 
+
+to recover from failures. You also need tools that allow you to analyze the log and detect 
+
+potentially anomalous actions. These tools can scan the log and find anomalous actions, 
+
+and thus help detect attacks and trace how the attacker gained access to the system.Apart from helping recover from failure, a log of user actions is useful because it acts as a deterrent to insider attacks. If people know that their actions are being 
+
+logged, then they are less likely to do unauthorized things. This is most effective for 
+
+casual attacks, such as a nurse looking up patient records of neighbors, or for detect-
+ing attacks where legitimate user credentials have been stolen through social engi-
+neering. Of course, this approach is not foolproof, as technically skilled insiders may 
+also be able to access and change the log.Redundancy means that you maintain more than one version of software or data in a 
+system. Diversity, when applied to software, means that the different versions should 
+not rely on the same platform or be implemented using the same technologies. 
+
+Therefore, platform or technology vulnerabilities will not affect all versions and so 
+will lead to a common failure.I have already discussed examples of redundancyŠmaintaining patient informa-tion on both the server and the client, first in the Mentcare system and then in the 
+distributed equity trading system shown in Figure 13.14. In the patient records sys-
+tem, you could use diverse operating systems on the client and the server (e.g., Linux 
+on the server, Windows on the client). This ensures that an attack based on an oper-
+ating system vulnerability will not affect both the server and the client. Of course, 
+running multiple operating systems leads to higher systems management costs. You 
+have to trade off security benefits against this increased cost.

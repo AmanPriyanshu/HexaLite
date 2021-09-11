@@ -1,0 +1,21 @@
+APPENDIX 1  
+AN INTRODUCTION TO UML 877that task. One might use a sequence diagram to show the interactions in one use 
+case or in one scenario of the software system.  In   Figure A1.7, you see a sequence diagram for a drawing program. The dia-gram shows the steps involved in highlighting a ﬁ gure in the drawing when it has 
+
+been clicked. Each box in the row at the top of the diagram usually corresponds 
+to an object, although it is possible to have the boxes model other things, such 
+as classes. If the box represents an object (as is the case in all our examples), 
+then inside the box you can optionally state the type of the object preceded by 
+the colon. You can also precede the colon and type by a name for the object, 
+as shown in the third box in   Figure A1.7. Below each box there is a dashed line called the  lifeline  of the object. The vertical axis in the sequence diagram corre-sponds to time, with time increasing as you move downward.  
+ A sequence diagram shows method calls using horizontal arrows from the  caller  to the  callee , labeled with the method name and optionally including its parameters, their types, and the return type. For example, in   Figure A1.7, the  MouseListener  calls the  Drawing ’s  getFigureAt()  method. When an object is ex-ecuting a method (that is, when it has an activation frame on the stack), you can  F
+IGURE A1.6A use-case 
+diagram with 
+included use 
+cases   
+UserConvert music file to new format
+Download music file & save to library
+Capture streaming music & save to library
+Organize the library
+<< Include >><< Include >><< Include >>Edit song listBurn a list of songs to CD
+Load a list of songs to iPod

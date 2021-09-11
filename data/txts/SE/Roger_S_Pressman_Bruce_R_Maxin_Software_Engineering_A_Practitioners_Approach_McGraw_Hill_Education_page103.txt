@@ -1,0 +1,91 @@
+CHAPTER 5  
+AGILE DEVELOPMENT 73of the XP team to understand the business context for the software and to get a broad feel for required output and major features and functionality. Listening 
+
+leads to the creation of a set of “  
+stories  
+” (also called  user stories 
+) that describe required output, features, and functionality for software to be built. Each  story 
+ (similar to use cases described in Chapter 8) is written by the customer and is 
+placed on an index card. The customer assigns a  value 
+ (i.e., a priority) to the 
+story based on the overall business value of the feature or function.  2 
+ 
+ Members of the XP team then assess each story and assign a  cost 
+—measured in development weeks—to it. If the story is estimated to require more than three development 
+weeks, the customer is asked to split the story into smaller stories and the as-
+signment of value and cost occurs again. It is important to note that new stories 
+can be written at any time.   
+ 
+ 
+ 
+ 
+ 
+Customers and developers work together to decide how to group stories into the next release (the next software increment) to be developed by the XP team. 
+Once a basic  commitment  
+(agreement on stories to be included, delivery date, and other project matters) is made for a release, the XP team orders the stories 
+that will be developed in one of three ways: (1) all stories will be implemented 
+immediately (within a few weeks), (2) the stories with highest value will be moved 
+up in the schedule and implemented ﬁ rst, or (3) the riskiest stories will be moved 
+up in the schedule and implemented ﬁ rst. 
+  
+ 
+ 
+ 
+ 
+After the ﬁ rst project release (also called a software increment) has been de-
+livered, the XP team computes   
+project velocity 
+ 
+. Stated simply,  
+project velocity
+ 
+ is 
+the number of customer stories implemented during the ﬁ rst release. Project 
+velocity can then be used to (1) help estimate delivery dates and schedule for 
+subsequent releases and (2) determine whether an overcommitment has been 
+made for all stories across the entire development project. If an overcommitment 
+occurs, the content of releases is modiﬁ ed or end delivery dates are changed. 
+  
+ 
+ 
+ 
+ 
+As development work proceeds, the customer can add stories, change the value of an existing story, split stories, or eliminate them. The XP team then re-
+
+considers all remaining releases and modiﬁ es its plans accordingly. 
+ 
+ 
+ 
+Design.   
+XP design rigorously follows the KIS (keep it simple) principle. A sim-ple design is always preferred over a more complex representation. In addition, 
+the design provides implementation guidance for a story as it is written—nothing 
+less, nothing more. The design of extra functionality (because the developer as-
+sumes it will be required later) is discouraged.  3 
+ 
+   
+XP encourages the use of CRC cards (Chapter 10) as an effective mech-anism for thinking about the software in an object-oriented context. CRC    XP deemphasizes the 
+importance of design. 
+
+Not everyone agrees. 
+
+In fact, there are times 
+when design should be 
+emphasized.  WebRef 
+ A worthwhile XP 
+“planning game” 
+can be found at: 
+  http://csis.pace.
+
+edu/~bergin/xp/
+planninggame
+.html  . 
+   Project velocity is a 
+subtle measure of 
+team productivity. 
+  
+2  The value of a story may also be dependent on the presence of another story. 
+  
+3  These design guidelines should be followed in every software engineering method, although 
+there are times when sophisticated design notation and terminology may get in the way of 
+simplicity. 
+pre22126_ch05_066-086.indd   73pre22126_ch05_066-086.indd   7313/12/13   6:10 PM13/12/13   6:10 PM

@@ -1,0 +1,48 @@
+˜˜˚˙˜˜˜
+˜˜
+the system will be used. The day-to-day work is observed, and notes are made of the actual tasks in which participants are involved. The value of ethnography is that it 
+helps discover implicit system requirements that reflect the actual ways that people 
+work, rather than the formal processes defined by the organization.People often find it very difficult to articulate details of their work because it is second nature to them. They understand their own work but may not understand its 
+relationship to other work in the organization. Social and organizational factors that 
+
+affect the work, but that are not obvious to individuals, may only become clear when 
+noticed by an unbiased observer. For example, a workgroup may self-organize so 
+
+that members know of each other™s work and can cover for each other if someone is 
+absent. This may not be mentioned during an interview as the group might not see it 
+as an integral part of their work.Suchman (Suchman 1983) pioneered the use of ethnography to study office work. She found that actual work practices were far richer, more complex, and more 
+
+dynamic than the simple models assumed by office automation systems. The differ
+-
+ence between the assumed and the actual work was the most important reason why 
+these office systems had no significant effect on productivity. Crabtree (Crabtree 
+
+2003) discusses a wide range of studies since then and describes, in general, the use 
+of ethnography in systems design. In my own research, I have investigated methods 
+of integrating ethnography into the software engineering process by linking it with 
+requirements engineering methods (Viller and Sommerville 2000) and documenting 
+patterns of interaction in cooperative systems (Martin and Sommerville 2004).Ethnography is particularly effective for discovering two types of requirements:1. Requirements derived from the way in which people actually work, rather than 
+the way in which business process definitions say they ought to work. In prac-
+tice, people never follow formal processes. For example, air traffic controllers 
+may switch off a conflict alert system that detects aircraft with intersecting 
+
+flight paths, even though normal control procedures specify that it should be 
+
+used. The conflict alert system is sensitive and issues audible warnings even 
+
+when planes are far apart. Controllers may find these distracting and prefer to 
+use other strategies to ensure that planes are not on conflicting flight paths.2. Requirements derived from cooperation and awareness of other people™s activi-
+ties. For example, air traffic controllers (ATCs) may use an awareness of other 
+controlles™ work to predict the number of aircraft that will be entering their con-
+trol sector. They then modify their control strategies depending on that pre-
+dicted workload. Therefore, an automated ATC system should allow controllers 
+
+in a sector to have some visibility of the work in adjacent sectors.Ethnography can be combined with the development of a system prototype 
+(Figure 4.
+8). The ethnography informs the development of the prototype so that 
+
+fewer prototype refinement cycles are required. Furthermore, the prototyping 
+
+focuses the ethnography by identifying problems and questions that can then be dis-
+cussed with the ethnographer. He or she should then look for the answers to these 
+questions during the next phase of the system study (Sommerville et al. 1993).

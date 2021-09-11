@@ -1,0 +1,67 @@
+508 Chapter 7  
+DatabasesSometimes an administrator needs to be able to reconstruct the database at the point of a failure. For instance, when the power fails suddenly, a bank’s clients may be in the 
+
+middle of making transactions or students may be registering online for their classes. 
+
+In these cases, owners want to be able to restore the systems to a stable point without 
+
+forcing users to redo their recently completed transactions.To handle these situations, the DBMS must maintain a log of transactions. For exam-
+ple, suppose the banking system is designed so that a message is generated in a log 
+
+(electronic or paper or both) each time a transaction is processed. In the event of a sys-
+
+tem failure, the system can obtain accurate account balances by reverting to a backup 
+
+copy of the database and reprocessing all later transactions from the log.
+Element IntegrityThe integrity of database elements is their correctness or accuracy. Ultimately, authorized 
+users are responsible for entering correct data in databases. However, users and programs 
+
+make mistakes collecting data, com-
+
+puting results, and entering values. 
+
+Therefore, DBMSs sometimes take 
+
+special action to help catch errors as 
+
+they are made and to correct errors 
+
+after they are inserted.
+This corrective action can be taken in three ways: by field checks, through access 
+control, and with change log.First, the DBMS can apply field checks
+, activities that test for appropriate values in a 
+position. A field might be required to be numeric, an uppercase letter, or one of a set of 
+
+acceptable characters. The check ensures that a value falls within specified bounds or is not 
+
+greater than the sum of the values in two other fields. These checks prevent simple errors as 
+
+the data are entered. (Sidebar 7-1 demonstrates the importance of element integrity.)
+Databases achieve integrity of the 
+database, its structure, and its individual 
+
+elements.SIDEBAR 7-1 Element Integrity Failure Crashes Network
+Crocker and Bernstein [CRO89] studied catastrophic failures of what was 
+then known as the ARPANET, the predecessor of today’s Internet. Several 
+
+failures came from problems with the routing tables used to direct traffic 
+
+through the network.
+A 1971 error was called the “black hole.” A hardware failure caused 
+one node to declare that it was the best path to every other node in the 
+
+network. This node sent this declaration to other nodes, which soon propa-
+
+gated the erroneous posting throughout the network. This node immedi-
+
+ately became the black hole of the network because all traffic was routed to 
+
+it but never made it to the real destination.
+The ARPANET used simple tables, not a full-featured database man-
+agement system, so there was no checking of new values before they were 
+
+installed in the distributed routing tables. Had there been a database, 
+
+integrity-checking software could have checked for errors in the newly dis-
+
+tributed values and raised a flag for human review.

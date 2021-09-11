@@ -1,0 +1,59 @@
+706 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+Grady [Gra92] argues that there are “private and public” uses for different types of process data. Because it is natural that individual software engineers 
+might be sensitive to the use of metrics collected on an individual basis, these 
+data should be private to the individual and serve as an indicator for the individ-
+ual only. Examples of  
+private metrics 
+ include defect rates (by individual), defect 
+rates (by component), and errors found during development.  The “private process data” philosophy conforms well with the Personal Soft-ware Process approach (Chapter 4) proposed by Humphrey [Hum05]. Humphrey 
+recognized that software process improvement can and should begin at the indi-
+vidual level. Private process data can serve as an important driver as you work 
+to improve your software engineering approach.  Some process metrics are private to the software project team but public to all team members. Examples include defects reported for major software functions 
+(that have been developed by a number of practitioners), errors found during 
+technical reviews, and lines of code or function points per component or func-
+tion.  1 
+ 
+ The team reviews these data to uncover indicators that can improve team 
+performance.  
+ 
+  Public metrics generally assimilate information that originally was private to individuals and teams. Project-level defect rates (absolutely not attributed to an 
+individual), effort, calendar times, and related data are collected and evaluated 
+in an attempt to uncover indicators that can improve organizational process 
+performance.  Software process metrics can provide signiﬁ cant beneﬁ
+ ts as an organization 
+works to improve its overall level of process maturity. However, like all metrics, 
+
+these can be misused, creating more problems than they solve. Grady [Gra92] 
+suggests a “software metrics etiquette” that is appropriate for both managers 
+and practitioners as they institute a process metrics program:   
+ 
+ 
+•  Use common sense and organizational sensitivity when interpreting met-rics data.   
+ 
+ 
+•  Provide regular feedback to the individuals and teams who collect measures and metrics.   
+ 
+ 
+•  Don’t use metrics to appraise individuals.   
+ 
+ 
+•  Work with practitioners and teams to set clear goals and metrics that will 
+be used to achieve them.   
+ 
+ 
+•  Never use metrics to threaten individuals or teams.   
+ 
+ 
+•  Metrics data that indicate a problem area should not be considered “negative.” These data are merely an indicator for process improvement.   What is the 
+difference between private 
+and public uses 
+for software 
+metrics? ? What 
+
+guidelines should be applied 
+when we collect 
+software metrics? ?  
+1  Lines of code and function point metrics are discussed in Sections 32.2.1 and 32.2.2. 
+pre22126_ch32_703-726.indd   706pre22126_ch32_703-726.indd   70613/12/13   6:16 PM13/12/13   6:16 PM

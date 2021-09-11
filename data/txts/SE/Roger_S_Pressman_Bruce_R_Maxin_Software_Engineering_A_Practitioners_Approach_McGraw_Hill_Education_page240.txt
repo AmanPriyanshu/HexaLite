@@ -1,0 +1,92 @@
+210 PART TWO  
+MODELING 
+ 
+ 
+Motivation.   
+Embedded systems usually have various kinds of sensors and actu-ators. These sensors and actuators are all either directly or indirectly connected 
+to a control unit. Although many of the sensors and actuators look quite different, 
+their behavior is similar enough to structure them into a pattern. The pattern 
+shows how to specify the sensors and actuators for a system, including attributes 
+and operations. The  Actuator-Sensor
+ 
+ pattern uses a  
+pull 
+ mechanism (explicit re-
+quest for information) for  PassiveSensors 
+ and a  
+push 
+ mechanism (broadcast of 
+information) for the  ActiveSensors .  
+ 
+ 
+Constraints  
+ 
+ 
+ 
+•  Each passive sensor must have some method to read sensor input and at-tributes that represent the sensor value.   
+ 
+ 
+•  Each active sensor must have capabilities to broadcast update messages when its value changes.   
+ 
+ 
+•  Each active sensor should send a  life tick 
+, a status message issued within a speciﬁ ed time frame, to detect malfunctions. 
+  
+ 
+ 
+•  Each actuator must have some method to invoke the appropriate re-sponse determined by the  ComputingComponent 
+. 
+  
+ 
+ 
+•  Each sensor and actuator should have a function implemented to check its own operation state.   
+ 
+ 
+•  Each sensor and actuator should be able to test the validity of the values received or sent and set its operation state if the values are outside of the 
+speciﬁ cations. 
+  
+ 
+ 
+ 
+Applicability.   
+Useful in any system in which multiple sensors and actuators are present.   
+ 
+Structure.   
+UML class diagram for the  Actuator-Sensor
+ 
+ pattern is shown in 
+ Figure 11.3 .  Actuator, PassiveSensor,
+ 
+ and  
+ActiveSensor 
+ are abstract classes and 
+denoted in italics. There are four different types of sensors and actuators in this 
+pattern. The  Boolean 
+, 
+ Integer 
+, and  
+Real 
+ classes represent the most common types 
+of sensors and actuators. The complex classes are sensors or actuators that use 
+values that cannot be easily represented in terms of primitive data types, such as 
+a radar device. Nonetheless, these devices should still inherit the interface from 
+the abstract classes since they should have basic functionalities such as querying 
+the operation states.   
+ 
+ 
+Behavior.   
+ 
+Figure 11.4  presents a UML sequence diagram for an example of 
+the  Actuator-Sensor
+ 
+ pattern as it might be applied for the  
+SafeHome 
+ function 
+that controls the positioning (e.g., pan, zoom) of a security camera. Here, the 
+ ControlPanel6 
+ queries a sensor (a passive position sensor) and an actuator (pan 
+ 
+ 
+6  The original pattern uses the generic phrase  
+ComputingComponent. 
+ pre22126_ch11_202-223.indd   210pre22126_ch11_202-223.indd   21013/12/13   6:12 PM13/12/13   6:12 PM

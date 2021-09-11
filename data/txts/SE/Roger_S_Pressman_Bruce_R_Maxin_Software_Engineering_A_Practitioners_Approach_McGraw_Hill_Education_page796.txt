@@ -1,0 +1,89 @@
+766 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+34.5.1   
+Time-Line Charts 
+ 
+When creating a software project schedule, you begin with a set of tasks (the work breakdown structure). If automated tools are used, the work breakdown is 
+input as a task network or task outline. Effort, duration, and start date are then 
+input for each task. In addition, tasks may be assigned to speciﬁ c individuals. 
+  
+ 
+ 
+ 
+ 
+As a consequence of this input, a  time-line chart, 
+ also called a  
+Gantt chart, 
+ is generated. A time-line chart can be developed for the entire project. Alter-
+
+natively, separate charts can be developed for each project function or for each 
+
+individual working on the project.   
+ 
+Figure 34.3  
+ illustrates the format of a time-line chart. It depicts a part of a 
+software project schedule that emphasizes the  concept scoping 
+ task for a 
+word-processing (WP) software product. All project tasks (for concept scoping) 
+are listed in the left-hand column. The horizontal bars indicate the duration of 
+each task. When multiple bars occur at the same time on the calendar, task con-
+
+currency is implied. The diamonds indicate milestones.  
+ 
+ 
+ 
+  Once the information necessary for the generation of a time-line chart has been input, the majority of software project scheduling tools produce  project 
+   A time-line chart 
+enables you to 
+determine what tasks 
+
+will be conducted at a 
+given point in time. Identify needs and benefitsMeet with customers
+Identify needs and project constraints
+Establish product statement
+Milestone: Product statement defined
+Define desired output/control/input (OCI)
+Scope keyboard functions
+Scope voice input functions
+Scope modes of interaction
+Scope document diagnosis
+Scope other WP functions
+Document OCI
+FTR: Review OCI with customer
+Revise OCI as required 
+Milestone: OCI defined
+Define the function/behavior
+Define keyboard functions
+Define voice input functions
+Describe modes of interaction
+Describe spell/grammar check
+Describe other WP functions
+FTR: Review OCI definition with customer
+Revise as required
+Milestone: OCI definition complete
+Isolation software elements
+Milestone: Software elements defined
+Research availability of existing software
+Research text editing components
+Research voice input components
+Research file management components
+Research spell/grammar check components
+Milestone: Reusable components identifiedDefine technical feasibilityEvaluate voice input
+Evaluate grammar checking
+Milestone: Technical feasibility assessed
+
+Make quick estimate of size
+Create a scope definition
+Review scope document with customer
+Revise document as required
+Milestone: Scope document completeI.1.1I.1.2I.1.3I.1.4I.1.5I.1.6I.1.7I.1.8Work tasksWeek 1Week 2Week 3Week 4Week 5
+ FIGURE 34.3 
+An example time-line chartpre22126_ch34_754-776.indd   766pre22126_ch34_754-776.indd   76613/12/13   10:02 PM13/12/13   10:02 PM

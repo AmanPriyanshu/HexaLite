@@ -1,0 +1,58 @@
+590 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+27.3.2   
+Security Modeling  
+ 
+Modeling 
+ is an important process for specifying and analyzing requirements. A 
+ security model 
+ is a formal description of software system  
+security policy.
+ 
+A secu-rity policy provides a deﬁ nition of system security that captures its key security 
+requirements and also contains rules describing how security is to be enforced 
+during system operation.  The security model can provide precise guidance during the design, coding, and review processes. Once the system is built, the security model provides a 
+basis to aid in verifying the correctness of the security implementation [Dan09]. 
+The security model is also a valuable security reference as the system evolves or 
+requires repair during maintenance activities.   
+ 
+A security model may be represented using text or graphical formalisms. Regardless of their representation a security model needs to capture the follow-
+ing items: (1) security policy objectives, (2) external interface requirements, 
+software security requirements, (4) rules of operation, and (5) speciﬁ
+ cations 
+describing model-system correspondence.  Some security models are represented on state machines.  3 
+ 
+ Each state must 
+include information on the relevant security aspects of the system. As a software 
+engineer who is concerned with security, you must be certain that any state tran-
+
+sitions allowed in the system start in a secure state and end in a secure state. 
+You must also verify that the initial system state is a secure state. To be complete, 
+
+the model needs to have an interpretation that shows how it relates to the actual 
+system.   Executable modeling formalisms allow developers to verify a security model and its behavior before accepting it. Once accepted, the model forms a good basis 
+for design. Two languages used for modeling security requirements are  
+UML.sec 
+ (an extension to UML using stereotypes and constraints) and  GRL 
+ (goal-oriented 
+requirements language for capturing nonfunctional requirements). The use of 
+formal modeling languages may help increase the trustworthiness of the system 
+as it is developed [Sal11].  Formal methods (Chapter 28) have been proposed as a means of augmenting the security analysis and veriﬁ cation of systems. Use of formal speciﬁ
+ cations for 
+the security requirements has the potential to assist in the creation of test cases 
+for model-based security testing. The use of formal correctness proofs for criti-
+cal system components can add to the developers’ conﬁ dence that the system 
+does indeed conform to its speciﬁ cation. Of course care must be taken that the 
+assumptions underlying the proofs are satisﬁ ed. 
+ What 
+information is contained in a 
+security model? ?  
+3  A  
+ﬁ nite state machine
+ 
+ is deﬁ
+ ned by a list of the possible transition states from each current 
+state, and the triggering condition for each transition. pre22126_ch27_584-600.indd   590pre22126_ch27_584-600.indd   59016/12/13   6:23 PM16/12/13   6:23 PM

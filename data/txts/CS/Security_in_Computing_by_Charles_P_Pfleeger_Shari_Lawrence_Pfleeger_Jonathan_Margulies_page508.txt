@@ -1,0 +1,69 @@
+474 Chapter 6  
+NetworksDLP can be implemented in a number of ways: Agent-based systems might be 
+installed as OS rootkits that monitor user behavior, including network connections, 
+
+file accesses, and applications run. Network-based solutions monitor network connec-
+
+tions, especially file transfers. Other solutions may be application-specific, such as soft-
+
+ware agents for monitoring email. DLP solutions will generally look for a variety of 
+
+indicators:• Keywords. 
+Certain words or phrases, such as “secret,” “classified,” or “propri-
+etary,” are strong indicators of sensitive data. DLP solutions may also allow 
+
+customers to search for keywords that have specific meaning for a particular 
+
+business, such as a codename for a new product.
+• Traffic patterns. 
+Some traffic patterns that may indicate suspicious behavior are 
+bulk file transfers, connections to outside email or file sharing services, emails 
+
+to unknown recipients, and connections to unknown network services.
+• Encoding/encryption. DLP can be easily defeated by strong encryption, because no DLP solution can determine the sensitivity of a file it cannot read. To 
+
+address this issue, DLP solutions commonly block outgoing files that they can-
+
+not decode or decrypt. Many malware scanners treat incoming files, such as 
+
+encrypted email attachments, the same way.
+While DLP solutions are useful for preventing accidental data leakage, they are more 
+fragile than other security solutions we discuss in this book. A determined attacker can 
+
+frequently find a way to transfer data into a system, although an effective DLP solution 
+
+may slow the process down or alert security personnel in time to prevent it.
+DLP systems provide a good transition to our next topic. Firewalls are sometimes 
+called edge devices, meaning that they are positioned at the boundary of a subnetwork. 
+
+DLP approaches can be integrated into a firewall, installed in an operating system, or 
+
+joined to another application program that manipulates sensitive date. Thus, DLP tech-
+
+nologies are not restricted to the edge of a protected subnetwork. Next we study intru-
+
+sion detection and protection systems, monitoring products that are also placed inside 
+a subnetwork.
+6.8 INTRUSION DETECTION AND PREVENTION SYSTEMS
+After the perimeter controls, firewall, and authentication and access controls block cer-
+
+tain actions, some users are admitted to use a computing system. Most of these con-
+
+trols are preventive: They block known bad things from happening. Many studies (for 
+
+example, see [DUR99]) have shown that most computer security incidents are caused 
+
+by insiders or people impersonating them, people who would not be blocked by a fire-
+
+wall. And insiders require access with significant privileges to do their daily jobs. The 
+
+vast majority of harm from insiders is not malicious; it is honest people making hon-
+
+est mistakes. Then, too, there are the potential malicious outsiders who have somehow 
+
+passed the screens of firewalls and access controls. Prevention, although necessary, is 
+
+not a complete computer security control; detection during an incident copes with harm 
+that cannot be prevented in advance. Larry Halme and Ken Bauer [HAL95] survey the 
+
+range of controls to deal with intrusions.

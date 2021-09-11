@@ -1,0 +1,94 @@
+294 PART TWO  
+MODELING 
+ 
+ 
+The Interface Segregation Principle (ISP).    
+“Many client-speciﬁ c interfaces are 
+better than one general purpose interface” 
+ [Mar00]. There are many instances 
+in which multiple client components use the operations provided by a server 
+class. ISP suggests that you should create a specialized interface to serve each 
+major category of clients. Only those operations that are relevant to a particular 
+category of clients should be speciﬁ ed in the interface for that client. If multiple 
+clients require the same operations, it should be speciﬁ ed in each of the special-
+ized interfaces.  
+ 
+ 
+   
+As an example, consider the FloorPlan class that is used for the  
+SafeHome 
+ security and surveillance functions (Chapter 10). For the security functions, 
+FloorPlan is used only during conﬁ
+ guration activities and uses the operations 
+ placeDevice(), showDevice(), groupDevice(),
+ 
+ and  
+removeDevice()
+ 
+ to place, show, 
+group, and remove sensors from the ﬂ oor plan. The  
+SafeHome 
+ surveillance 
+function uses the four operations noted for security, but also requires special 
+
+operations to manage cameras:  showFOV() 
+ and  
+showDeviceID(). 
+ Hence, the ISP 
+suggests that client components from the two  SafeHome 
+ functions have special-
+ized interfaces deﬁ ned for them. The interface for security would encompass only 
+the operations  placeDevice(), showDevice(), groupDevice(),
+ 
+ and  
+removeDevice().
+ 
+ The interface for surveillance would incorporate the operations  placeDevice(), showDevice(), groupDevice(),
+ 
+ and  
+removeDevice(),
+ 
+ along with  
+showFOV() 
+ and 
+ showDeviceID().   Although component-level design principles provide useful guidance, compo-nents themselves do not exist in a vacuum. In many cases, individual components 
+
+or classes are organized into subsystems or packages. It is reasonable to ask how 
+
+this packaging activity should occur. Exactly how should components be organized 
+
+as the design proceeds? Martin [Mar00] suggests additional packaging principles 
+
+that are applicable to component-level design. These principles follow. 
+  
+ 
+The Release Reuse Equivalency Principle (REP).   “ 
+The granule of reuse is the 
+granule of release”
+ 
+ [Mar00]. When classes or components are designed for reuse, 
+an implicit contract is established between the developer of the reusable entity 
+and the people who will use it. The developer commits to establish a release 
+control system that supports and maintains older versions of the entity while the 
+users slowly upgrade to the most current version. Rather than addressing each 
+class individually, it is often advisable to group reusable classes into packages 
+
+that can be managed and controlled as newer versions evolve.   
+ 
+The Common Closure Principle (CCP).   “ 
+Classes that change together belong to-gether.”
+ 
+ [Mar00] 
+ 
+ Classes should be packaged cohesively. That is, when classes 
+are packaged as part of a design, they should address the same functional or 
+behavioral area. When some characteristic of that area must change, it is likely 
+that only those classes within the package will require modiﬁ cation. This leads to 
+more effective change control and release management.    Designing components 
+for reuse requires more 
+than good technical 
+design. It also requires 
+effective conﬁ guration 
+
+control mechanisms 
+(Chapter 29). pre22126_ch14_285-316.indd   294pre22126_ch14_285-316.indd   29413/12/13   6:12 PM13/12/13   6:12 PM

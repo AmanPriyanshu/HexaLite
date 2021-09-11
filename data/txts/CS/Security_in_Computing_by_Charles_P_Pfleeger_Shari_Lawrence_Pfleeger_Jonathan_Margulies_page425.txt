@@ -1,0 +1,66 @@
+ Section 6.3  Wireless Network Security 
+391  The first indications of serious WEP weaknesses were published in 2001, only two 
+years after the WEP protocol’s formal acceptance. Such a brief period could be the 
+
+result of numerous causes. Certainly the constraint on cryptographic strength in place in 
+1997 limited the security options of protocol developers. Furthermore, underestimating 
+
+the seriousness of the threat against a new and hence unused technology likely led the 
+
+protocol designers to take an easy approach. When WEP’s shortcomings were published 
+SIDEBAR 6-13 TJ Maxx Data Theft
+In 2005, a crew of 11 hackers stole over 45 million credit and debit card 
+numbers from the clothing stores TJ Maxx and Marshalls and their business 
+
+partners; the criminals did so without ever setting foot inside the store.
+The thieves set up an antenna outside one TJ Maxx store and inter-
+cepted wireless communications among handheld scanner devices, cash 
+
+registers, and computers on the store’s wireless network. With an antenna 
+
+shaped like a telescope, someone with a simple laptop computer can inter-
+
+cept a WiFi signal miles away from the access point. These thieves worked 
+
+from the parking lot.
+The network was secured with the easily compromised WEP protocol, 
+even though serious security vulnerabilities in WEP had been demonstrated 
+and documented years earlier.
+Data obtained from wireless interception included not just transaction 
+details but also more important account login IDs and passwords that let 
+
+the crew install sniffers in the network and hack into the central database of 
+
+the parent company that owns TJ Maxx and Marshalls.
+Albert Gonzales of Miami was convicted in March 2010 of being the 
+ringleader of the group that included two other U.S. citizens, three Rus-
+
+sians, two Chinese, and one each from Estonia and Belarus. Gonzales was 
+
+sentenced to 20 years in prison.TJ Maxx is not the only vulnerable retailer, however. In 2009, Motoro-
+la’s Air Defense unit surveyed retailers in major cities throughout the world, 
+
+including Atlanta, Boston, New York City, Paris, Seoul, and Sydney. Accord-
+
+ing to their press release of 28 January 2009, they found that 44 percent of 
+
+retailers’ wireless networks and devices could be compromised. Wireless 
+
+networks in stores did not employ encryption 32 percent of the time, and 25 
+
+percent of the networks used the weak WEP security technology.
+Notice from these cities and the nationalities of the Gonzales group 
+that computer security is an international problem. The targets are indeed 
+
+widespread, and the abundance of vulnerable networks draws capable 
+
+attackers from many backgrounds.
+Unfortunately, some retailers start using wireless technology only to 
+communicate low-sensitivity information, such as inventory data. However, 
+
+when they expand their networking applications and begin to communicate 
+more sensitive data, they forget about or overlook the exposure of using 
+
+weak security. For this reason, security must be reviewed any time there is 
+
+a change to a system’s use, architecture, or implementation.

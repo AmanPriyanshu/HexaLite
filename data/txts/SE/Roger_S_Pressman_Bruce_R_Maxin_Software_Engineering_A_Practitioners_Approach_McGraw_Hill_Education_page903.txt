@@ -1,0 +1,30 @@
+APPENDIX 1  
+AN INTRODUCTION TO UML 873that there are 0 or 1 objects on that end of the association. For example, each per-
+son in the world has either a Social Security number or no such number (espe-
+cially if they are not U.S. citizens), and so a multiplicity of 0..1 could be used in an 
+association between a  Person  class and a  SocialSecurityNumber  class in a class diagram. A multiplicity speciﬁ ed by “1..*” means one or more, and a multiplicity 
+speciﬁ ed by “0..*” or just “ * “ means zero or more. An * was used as the multiplic-
+ity on the  OwnedObject  end of the association with class  Person  in   Figure A1.2 because a  Person  can own zero or more objects. 
+ If one end of an association has multiplicity greater than 1, then the objects of the class referred to at that end of the association are probably stored in a col-
+lection, such as a set or ordered list. One could also include that collection class 
+itself in the UML diagram, but such a class is usually left out and is implicitly as-
+sumed to be there due to the multiplicity of the association.  An  aggregation  is a special kind of association indicated by a hollow diamond on one end of the icon. It indicates a “whole/part” relationship, in that the class 
+to which the arrow points is considered a “part” of the class at the diamond end 
+of the association. A  composition  is an aggregation indicating strong ownership of the parts. In a composition, the parts live and die with the owner because they 
+have no role in the software system independent of the owner. See   Figure A1.3 for examples of aggregation and composition.  
+ A  College  has an aggregation of  Building  objects, which represent the build-ings making up the campus. The college also has a collection of courses. If the 
+college were to fold, the buildings would still exist (assuming the college wasn’t 
+physically destroyed) and could be used for other things, but a  Course  object has no use outside of the college at which it is being offered. If the college were to 
+cease to exist as a business entity, the  Course  object would no longer be useful and so it would also cease to exist.  Another common element of a class diagram is a  note , which is represented by a box with a dog-eared corner and is connected to other icons by a dashed 
+line. It can have arbitrary content (text and graphics) and is similar to a pro-
+gramming language comment. It might contain information about the role of a 
+class or constraints that all objects of that class must satisfy. If the contents are 
+a constraint, braces surround the contents. Note the constraint attached to the 
+ Course  class in   Figure A1.3.   
+ F
+IGURE A1.3The relation-
+ship between 
+Colleges, 
+Courses, and 
+Buildings   
+ {must take place in a Building}CourseCollegeBuilding**

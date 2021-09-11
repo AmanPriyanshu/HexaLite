@@ -1,0 +1,61 @@
+ Section 3.1  Unintentional (Nonmalicious) Programming Oversights 
+143  • data or code belonging to another program 
+• data or code belonging to the operating system
+We consider each of these cases separately.
+Affecting Your Own Data 
+Modifying your own data, especially with an unintended value, will obviously affect 
+
+your computing. Perhaps a loop will repeat too many or too few times, a sum will be 
+
+compromised, or a date will become garbled. You can imagine these possibilities for 
+
+yourself. The error may be so egregious that you will easily recognize something is 
+
+wrong, but a more subtle failure may escape your notice, perhaps forever.
+From a security standpoint, few system controls protect you from this kind of error: 
+You own your data space and anything you want to store there is your business. Some, 
+
+but not all, programming languages generate checking code for things like arrays to 
+
+ensure that you store elements only within the space allocated. For this reason, the 
+
+defensive programming technique (discussed later in this chapter) recommends that you 
+
+always check to ensure that array elements and strings are within their boundaries. As 
+
+Sidebar 3-3 demonstrates, sometimes such an error lies dormant for a long time.Affecting an Instruction of Yours 
+Again, the failure of one of your instructions affects you, and systems give wide latitude 
+
+to what you can do to yourself. If you store a string that does not represent a valid or 
+
+permitted instruction, your program may generate a fault and halt, returning control to 
+SIDEBAR 3-3 Too Many Computers
+The ARPANET, precursor to today’s Internet, began operation in 1969. Ste-
+phen Crocker and Mary Bernstein [CRO89] exhaustively studied the root 
+
+causes of 17 catastrophic failures of the ARPANET, failures that brought 
+
+down the entire network or a significant portion of it.
+As you might expect, many of these failures occurred during the early 
+1970s as use of the network caused flaws to surface. The final one of their 
+
+17 causes appeared only in 1988, nearly 20 years after the inception of the 
+
+network. This disruption was caused by an overflow.
+The original ARPANET network comprised hosts that connected 
+to specialized communications processors called IMPs. Each interface 
+
+message processor (IMP) controlled an individual subnetwork, much like 
+
+today’s routers; the IMPs connected to other IMPs through dedicated com-
+
+munications lines. For reliability, each IMP had at least two distinct paths to 
+
+each other IMP. The IMP connections were added to a table dynamically as 
+
+communication between two IMPs was required by network traffic.
+In 1988, one subnetwork added a connection to a 348th IMP. The 
+table for IMP connections had been hard-coded in 1969 to only 347 entries, 
+
+which seemed wildly excessive at the time, and in the intervening years 
+(continues)

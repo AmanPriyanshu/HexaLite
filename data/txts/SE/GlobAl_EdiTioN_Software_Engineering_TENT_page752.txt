@@ -1,0 +1,46 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜different variants of the individual systems may have to be created. For example, in 
+specialized fire-fighting vehicles, each type of vehicle may have its own version of 
+
+a software system that is adapted to the equipment in that vehicle.A software company may have to manage tens or even hundreds of different 
+releases of their software. Their configuration management systems and processes 
+have to be designed to provide information about which customers have which 
+
+releases of the system and the relationship between releases and system versions. In 
+
+the event of a problem with a delivered system, you have to be able to recover all of 
+the component versions used in that specific system.Therefore, when a system release is produced, it must be documented to ensure that it can be re-created exactly in the future. This is particularly important for cus
+-
+tomized, long-lifetime embedded systems, such as military systems and those that 
+control complex machines. These systems may have a long lifetimeŠ30 years in 
+
+some cases. Customers may use a single release of these systems for many years and 
+may require specific changes to that release long after it has been superseded.To document a release, you have to record the specific versions of the source 
+code components that were used to create the executable code. You must keep cop-
+ies of the source code files, corresponding executables, and all data and configura-
+tion files. It may be necessary to keep copies of older operating systems and other 
+support software because they may still be in operational use. Fortunately, this no 
+longer means that old hardware always has to be maintained. The older operating 
+
+systems can run in a virtual machine.You should also record the versions of the operating system, libraries, compilers, and other tools used to build the software. These tools may be required in order to 
+build exactly the same system at some later date. Accordingly, you may have to store 
+copies of the platform software and the tools used to create the system in the version 
+control system, along with the source code of the target system.When planning the installation of new system releases, you cannot assume that cus-tomers will always install new system releases. Some system users may be happy with 
+FactorDescriptionCompetitionFor mass-market software, a new system release may be necessary because a 
+competing product has introduced new features and market share may be lost if 
+these are not provided to existing customers.Marketing requirementsThe marketing department of an organization may have made a commitment for 
+
+releases to be available at a particular date. For marketing reasons, it may be 
+
+necessary to include new features in a system so that users can be persuaded to 
+
+upgrade from a previous release.Platform changesYou may have to create a new release of a software application when a new 
+version of the operating system platform is released.Technical quality of the 
+systemIf serious system faults are reported that affect the way in which many customers 
+
+use the system, it may be necessary to correct them in a new system release. 
+
+Minor system faults may be repaired by issuing patches, distributed over the 
+
+Internet, which can be applied to the current release of the system.Figure 25.17 Factors influencing system 
+release planning

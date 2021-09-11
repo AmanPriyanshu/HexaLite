@@ -1,0 +1,124 @@
+322 PART TWO  
+MODELING 
+ 
+ 
+ 
+ 
+ 
+ 15.2 U
+SER INTERFACE
+ ANALYSIS
+ AND DESIGN  
+ 
+ 
+The overall process for analyzing and designing a user interface begins with the creation of different models of system function (as perceived from the outside). 
+You begin by delineating the human- and computer-oriented tasks that are re-
+
+quired to achieve system function and then considering the design issues that 
+apply to all interface designs. Tools are used to prototype and ultimately imple-
+
+ment the design model, and the result is evaluated by end users for quality. 
+  
+15.2.1 Interface Analysis and Design Models 
+ 
+Four different models come into play when a user interface is to be analyzed and 
+designed. A human engineer (or the software engineer) establishes a  user model, 
+ the software engineer creates a  design model, 
+ the end user develops a mental 
+image that is often called the user’s  
+mental model 
+ or the  
+system perception,
+ 
+ and the 
+ 
+WebRef 
+ An excellent source of 
+UI design information 
+
+can be found at   
+www.nngroup.com    
+ 
+Usability  
+In an insightful paper on usability, Larry 
+Constantine [Con95] asks a question that has signiﬁ cant bearing on the subject: “What do users want, 
+anyway?” He answers this way:  “What users really want are good tools. All software systems, from operating systems and languages to 
+data entry and decision support applications, are just 
+
+tools. End users want from the tools we engineer for 
+them much the same as we expect from the tools we 
+use. They want systems that are easy to learn and 
+
+that help them do their work. They want software that 
+doesn’t slow them down, that doesn’t trick or confuse 
+
+them, that does make it easier to make mistakes or 
+harder to ﬁ nish the job.” 
+ Constantine argues that usability is not derived from aesthetics, state-of-the-art interaction mechanisms, or 
+
+built-in interface intelligence. Rather, it occurs when the 
+
+architecture of the interface ﬁ
+ ts the needs of the people 
+who will be using it.  A formal deﬁ
+ nition of usability is somewhat illusive. 
+Donahue and his colleagues [Don99] deﬁ ne it in the 
+following manner: “Usability is a measure of how well 
+a computer system … facilitates learning; helps learners 
+
+remember what they’ve learned; reduces the likelihood 
+
+of errors; enables them to be efﬁ cient, and makes them 
+satisﬁ ed with the system.” 
+ The only way to determine whether “usability” 
+exists within a system you are building is to conduct 
+
+usability assessment or testing. Watch users interact 
+with the  system and answer the following questions 
+[Con95]:  
+ 
+ 
+•  Is the system usable without continual help or instruction?   
+ 
+ 
+•  Do the rules of interaction help a knowledgeable user to work efﬁ ciently? 
+  
+ 
+ 
+•  Do interaction mechanisms become more ﬂ exible as 
+users become more knowledgeable?   
+ 
+ 
+•  Has the system been tuned to the physical and social environment in which it will be used?   
+ 
+ 
+•  Is the user aware of the state of the system? Does the user know where she is at all times?   
+ 
+ 
+•  Is the interface structured in a logical and consistent 
+manner?   
+ 
+ 
+•  Are interaction mechanisms, icons, and procedures consistent across the interface? 
+  
+ 
+ 
+•  Does the interaction anticipate errors and help the user correct them?   
+ 
+ 
+•  Is the interface tolerant of errors that are made? 
+  
+ 
+ 
+•  Is the interaction simple?  
+ 
+  If each of these questions is answered yes, it is likely that usability has been achieved.   Among the many measurable beneﬁ ts derived from 
+a usable system are [Don99]: increased sales and cus-
+tomer satisfaction, competitive advantage, better reviews 
+in the media, better word of mouth, reduced support 
+
+costs, improved end-user productivity, reduced training 
+
+costs, reduced documentation costs, reduced likelihood 
+of litigation from unhappy customers.   
+INFO pre22126_ch15_317-346.indd   322pre22126_ch15_317-346.indd   32213/12/13   10:01 PM13/12/13   10:01 PM

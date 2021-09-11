@@ -1,0 +1,70 @@
+ Section 9.5  Privacy on the Web 
+627  page before, and also sees that you clicked on broker B5’s advertisement or link some-
+time in the past. Based on that history, DoubleClick will probably arrange for B5 to be 
+
+one of the four brokers displayed to you this time. If the cookie also indicates that you 
+
+have previously looked at ads for very expensive cars and jewelry, then DoubleClick 
+
+may also place advertising for full-priced brokers, not discount brokerages, in the other 
+
+three slots. The goal of this service is to present ads that are most likely to interest the 
+
+customer, which is in everybody’s best interest.
+But this strategy also lets DoubleClick build a rich dossier of your web-surfing hab-
+its. If you visit online gambling sites and then visit a money-lending site, DoubleClick 
+
+knows. If you purchase herbal remedies for high blood pressure and then visit a health 
+
+insurance site, DoubleClick knows. DoubleClick knows what personal information you 
+
+have previously supplied on web forms, such as political affiliation, sexual matters, reli-
+
+gion, financial or medical status, or identity information. Even without your supplying 
+
+private data, merely opening a web page for one political party could put you on that 
+
+party’s solicitation list and other parties’ enemies lists. This type of activity is known 
+
+as online profiling
+. Each piece of data is available to the individual firm presenting the 
+web page; DoubleClick collects and redistributes these separate data items as a package.
+Presumably all browsing is anonymous. But as we have shown previously, login 
+IDs, email addresses, and retained shipping or billing details can all lead to matching 
+a person with this dossier, so it is no longer an unnamed string of cookies. In 1999, 
+
+DoubleClick bought Abacus, another company maintaining a marketing database. 
+ Abacus collects personal shopping data from catalog merchants; with that acquisition, 
+DoubleClick gained a way to link personal names and addresses that had previously 
+
+been only patterns of a machine, not a person. These associations represent linkages that are highly likely but not certain, for 
+two reasons. First, cookies usually associate activity with a machine, not a user. If all 
+
+members of a family share one machine or if a guest borrows the machine, the appar-
+
+ent connections will be specious. Second, because the cookies associate actions on a 
+browser, their results are incomplete if a person uses two or more browsers or accounts 
+
+or machines. You can use these drawbacks to inform your avoidance techniques. But, 
+
+as in many other aspects of privacy, when users do not know what data have been col-
+
+lected, they cannot know the data’s validity.
+Web Bugs: Is There an Exterminator?
+Cookies are text files stored on your computer. They store and return data for the cook-
+ie’s owner, but they cause no action themselves. But web bugs, described in Chapter 
+
+4, are more insidious: they are invisible graphics embedded in an image that resides 
+
+on a web page. Sometimes called a clear GIF or 1  GIF, a web bug is one pixel by 
+one pixel, far too small to detect with normal eyesight. To the web browser, the bug’s 
+
+size doesn’t matter. An image is an image, regardless of size; the browser will ask for a 
+
+file, ostensibly to display that image, from the given address. The file, however, is not 
+
+limited to a picture; it can include music or video or more importantly, it can contain an 
+
+executable script, for example, to animate the image downloaded. 
+The distinction between a cookie and a bug is enormous. A cookie is a tracking 
+device, storing information on your machine that can be read later by the web server, 

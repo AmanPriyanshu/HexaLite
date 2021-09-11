@@ -1,0 +1,48 @@
+˜˚˛˝˚˜˜˜˜˜˜
+In an ideal world, the fact that a system is distributed would be transparent to users. 
+Users would see the system as a single system whose behavior is not affected by the 
+way that the system is distributed. In practice, this is impossible to achieve because 
+
+there is no central control over the system as a whole. As a result, individual comput-
+ers in a system may behave differently at different times. Furthermore, because it 
+
+always takes a finite length of time for signals to travel across a network, network 
+
+delays are unavoidable. The length of these delays depends on the location of resources 
+
+in the system, the quality of the user™s network connection, and the  network load.To make a distributed system transparent (i.e., conceal its distributed nature), you have to hide the underlying distribution. You create abstractions that hide the system 
+resources so that the location and implementation of these resources can be changed 
+without having to change the distributed application. Middleware (discussed in 
+
+Section 17.
+1.2) is used to map the logical resources referenced by a program onto the 
+actual physical resources and to manage resource interactions.In practice, it is impossible to make a system completely transparent, and users, gener-ally, are aware that they are dealing with a distributed system. You may therefore decide 
+
+that it is best to expose the distribution to users. They can then be prepared for some of 
+
+the consequences of distribution such as network delays and remote node failures.Open distributed systems are built according to generally accepted standards. 
+Components from any supplier can therefore be integrated into the system and can 
+
+interoperate with the other system components. At the networking level, openness is 
+now taken for granted, with systems conforming to Internet protocols, but at the 
+
+component level, openness is still not universal. Openness implies that system com-
+ponents can be independently developed in any programming language and, if these 
+
+conform to standards, they will work with other components.The CORBA standard (Pope 1997), developed in the 1990s, was intended to be 
+the universal standard for open distributed systems, However, the CORBA standard 
+
+never achieved a critical mass of adopters. Rather, many companies preferred to 
+
+develop systems using proprietary standards for components from companies such as 
+
+Sun (now Oracle) and Microsoft. These provided better implementations and support 
+
+software and better long-term support for industrial protocols.Web service standards (discussed in Chapter 18) for service-oriented architec-tures were developed to be open standards. However, these standards have met with 
+significant resistance because of their perceived inefficiency. Many developers of 
+
+service-based systems have opted instead for so-called RESTful protocols because CORBAŠCommon Object Request Broker ArchitectureCORBA was proposed as a specification for a middleware system in the 1990s by the Object Management 
+Group. It was intended as an open standard that would allow the development of middleware to support dis-
+
+tributed component communications and execution, as well as provide a set of standard services that could be 
+used by these components.Several implementations of CORBA were produced, but the system was not widely adopted. Users preferred proprietary systems such as those from Microsoft or Oracle, or they moved to service-oriented architectures.http://software-engineering-book.com/web/corba/

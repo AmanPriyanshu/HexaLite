@@ -1,0 +1,69 @@
+264 PART TWO  
+MODELING 
+ 
+ 
+ 
+ 
+Data. 
+  How are data communicated between components? Is the ﬂ
+ ow of 
+data continuous, or are data objects passed to the system sporadically? 
+What is the mode of data transfer (i.e., are data passed from one compo-
+nent to another or are data available globally to be shared among system 
+components)? Do data components (e.g., a blackboard or repository) exist, 
+and if so, what is their role? How do functional components interact with 
+data components? Are data components passive or active (i.e., does the 
+data component actively interact with other components in the system)? 
+How do data and control interact within the system?    
+ 
+These questions provide the designer with an early assessment of design quality and lay the foundation for more detailed analysis of the architecture.  Evolutionary process models ( Chapter 4 ) have become very popular. This im-
+plies the software architectures may need to evolve as each product increment 
+is planned and implemented. In  Chapter 12  we described this process as refac-
+toring—improving the internal structure of the system without changing its ex-
+ternal behavior. 
+  
+ 
+ 
+ 
+ 13.4 A
+RCHITECTURAL CONSIDERATIONS
+  
+ 
+ 
+ 
+ 
+ 
+ 
+Buschmann and Henny [Bus10b, Bus10c] suggest several architectural consider-
+ations that can provide software engineers with guidance as architecture deci-
+sions are made.   
+ 
+ •   
+Economy 
+—Many software architectures suffer from unnecessary complex-ity driven by the inclusion of unnecessary features or nonfunctional re-
+quirements (e.g., reusability when it serves no purpose). The best software 
+is uncluttered and relies on abstraction to reduce unnecessary detail.     
+ •   
+Visibility
+ 
+—As the design model is created, architectural decisions and the reasons for them should be obvious to software engineers who examine 
+the model at a later time. Poor visibility arises when important design and 
+domain concepts are poorly communicated to those who must complete 
+the design and implement the system.     
+ •   
+Spacing— 
+Separation of concerns in a design without introducing hidden dependencies is a desirable design concept ( Chapter 12 ) that is sometimes referred to as  spacing. 
+ Sufﬁ cient spacing leads to modular designs, but too 
+much spacing leads to fragmentation and loss of visibility. Methods like 
+
+domain-driven design can help to identify what to separate in a design 
+and what to treat as a coherent unit.     
+ •   
+Symmetry 
+—Architectural symmetry implies that a system is consistent and balanced in its attributes. Symmetric designs are easier to under-
+
+stand, comprehend, and communicate. As an example of architectural  What issues 
+should I consider 
+as I develop 
+a software 
+architecture? ?pre22126_ch13_252-284.indd   264pre22126_ch13_252-284.indd   26413/12/13   6:12 PM13/12/13   6:12 PM

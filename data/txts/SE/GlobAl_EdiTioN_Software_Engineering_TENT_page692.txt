@@ -1,0 +1,26 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜˘˘The post-architecture model is the most detailed of the COCOMO II models. It is used when you have an initial architectural design for the system. The starting point 
+for estimates produced at the post-architecture level is the same basic formula used 
+in the early design estimates:PM 5 A 3 SizeB 3 MBy this stage in the process, you should be able to make a more accurate estimate of the project size, as you know how the system will be decomposed into subsystems 
+and components. You make this estimate of the overall code size by adding three 
+
+code size estimates:1. An estimate of the total number of lines of new code to be developed (SLOC).2. An estimate of the reuse costs based on an equivalent number of source lines of code (ESLOC), calculated using the reuse model.3.
+ An estimate of the number of lines of code that may be changed because of 
+
+changes to the system requirements.The final component in the estimateŠthe number of lines of modified codeŠreflects the fact that software requirements always change. This leads to rework and 
+development of extra code, which you have to take into account. Of course there will 
+often be even more uncertainty in this figure than in the estimates of new code to be 
+developed.The exponent term (B) in the effort computation formula is related to the lev-els of project complexity. As projects become more complex, the effects of 
+
+increasing system size become more significant. The value of the exponent B is 
+based on five factors, as shown in Figure 
+23.12. These factors are rated on a six-
+
+point scale from 0 to 5, where 0 means ﬁextra highﬂ and 5 means ﬁvery low.ﬂ To 
+
+calculate B, you add the ratings, divide them by 100, and add the result to 1.01 to 
+get the exponent that should be used.COCOMO cost driversCOCOMO II cost drivers are attributes that reflect some of the product, team, process, and organizational factors 
+that affect the amount of effort needed to develop a software system. For example, if a high level of reliability is 
+required, extra effort will be needed; if there is a need for rapid delivery, extra effort will be required; if the team 
+members change, extra effort will be required.There are 17 of these attributes in the COCOMO II model, which have been assigned estimated values by the model developers.http://software-engineering-book.com/web/cost-drivers/

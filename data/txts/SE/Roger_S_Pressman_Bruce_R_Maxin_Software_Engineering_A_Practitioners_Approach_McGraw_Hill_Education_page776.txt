@@ -1,0 +1,76 @@
+746 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+ 
+ 
+ 
+ 
+ 
+ 33.8  
+ESTIMATION
+ FOR OBJECT-ORIENTED PROJECTS  
+ 
+It is worthwhile to supplement conventional software cost estimation methods with a technique that has been designed explicitly for OO software. Lorenz and 
+Kidd [Lor94] suggest the following approach:  
+ 
+ 
+ 1.
+  Develop estimates using effort decomposition, FP analysis, and any other method that is applicable for conventional applications.   
+ 
+ 
+ 2.
+  Using the requirements model (Chapter 10), develop use cases and deter-
+mine a count. Recognize that the number of use cases may change as the 
+project progresses.   
+ 
+ 
+ 3.
+  From the requirements model, determine the number of key classes (called analysis classes in Chapter 10).   
+ 
+ 
+ 4.
+  Categorize the type of interface for the application and develop a multi-plier for support classes, where the multipliers for no GUI, a text-based 
+user interface, a conventional GUI, and a complex GUI are: 2.0, 2.25, 2.5, 
+and 3.0, respectively. Multiply the number of key classes (step 3) by the 
+
+multiplier to obtain an estimate for the number of support classes.   
+ 
+ 
+ 5.
+  Multiply the total number of classes (key 1 support) by the average num-ber of work units per class. Lorenz and Kidd suggest 15 to 20 person-days 
+per class.   
+ 
+ 
+ 6.
+  Cross-check the class-based estimate by multiplying the average number of work units per use case.  
+ 
+  
+ 
+ 
+ 
+ 
+ 33.9  
+SPECIALIZED ESTIMATION
+ TECHNIQUES  
+ 
+The estimation techniques discussed in Sections 33.6 through 33.8 can be used for any software project. However, when a software team encounters an ex-
+
+tremely short project duration (weeks rather than months) that is likely to have 
+a continuing stream of changes, project planning in general, and estimation in 
+particular should be abbreviated.  12 
+ 
+ In the sections that follow, I examine two spe-
+cialized estimation techniques.  
+ 
+  
+ 
+ 
+33.9.1   
+Estimation for Agile Development  
+Because the requirements for an agile project (Chapter 5) are deﬁ ned by a set of 
+user scenarios (e.g., “stories” in Extreme Programming), it is possible to develop 
+an estimation approach that is informal, reasonably disciplined, and meaningful   
+12  “Abbreviated” does  
+not 
+ mean eliminated. Even short-duration projects must be planned, and 
+estimation is the foundation of solid planning. pre22126_ch33_727-753.indd   746pre22126_ch33_727-753.indd   74613/12/13   6:17 PM13/12/13   6:17 PM

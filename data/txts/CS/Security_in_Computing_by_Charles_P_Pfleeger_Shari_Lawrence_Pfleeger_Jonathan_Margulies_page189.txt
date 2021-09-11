@@ -1,0 +1,61 @@
+ Section 3.1  Unintentional (Nonmalicious) Programming Oversights 
+155  This web program design flaw is easy to imagine in other settings. Those of us inter-
+ested in security must ask ourselves, How many similar problems are in running code 
+
+today? And how will those vulnerabilities ever be found? And if found, by whom?
+Complete MediationBecause the problem here is incomplete mediation, the solution is complete mediation. Remember from Chapter 2 that one of our standard security tools is access control, 
+
+sometimes implemented according to the reference monitor concept. The three proper-
+
+ties of a reference monitor are (1) small and simple enough to give confidence of cor-
+
+rectness, (2) unbypassable, and (3) always invoked. These three properties combine to 
+
+give us solid, complete mediation.
+Time-of-Check to Time-of-UseThe third programming flaw we describe also involves synchronization. To improve 
+
+efficiency, modern processors and operating systems usually change the order in which 
+
+instructions and procedures are executed. In particular, instructions that appear to be 
+
+adjacent may not actually be executed immediately after each other, either because of 
+
+intentionally changed order or because of the effects of other processes in concurrent 
+
+execution.
+DefinitionAccess control is a fundamental part of computer security; we want to make sure that 
+only those subjects who should access an object are allowed that access. Every requested 
+
+access must be governed by an access policy stating who is allowed access to what; then 
+
+the request must be mediated by an access-policy-enforcement agent. But an incom-
+
+plete mediation problem occurs 
+
+when access is not checked univer-
+
+sally. The 
+time-of-check to time-
+of-use (TOCTTOU
+) flaw concerns 
+mediation that is performed with a 
+
+“bait and switch” in the middle.To understand the nature of this flaw, consider a person’s buying a sculpture that 
+costs $100. The buyer takes out five $20 bills, carefully counts them in front of the 
+
+seller, and lays them on the table. Then the seller turns around to write a receipt. While 
+
+the seller’s back is turned, the buyer takes back one $20 bill. When the seller turns 
+
+around, the buyer hands over the stack of bills, takes the receipt, and leaves with the 
+
+sculpture. Between the time the security was checked (counting the bills) and the 
+
+access occurred (exchanging the sculpture for the bills), a condition changed: What was 
+
+checked is no longer valid when the object (that is, the sculpture) is accessed.
+A similar situation can occur with computing systems. Suppose a request to access a file were presented as a data structure, with the name of the file and the mode of access 
+
+presented in the structure. An example of such a structure is shown in Figure 3-12. 
+Between access check and use, data 
+must be protected against change.

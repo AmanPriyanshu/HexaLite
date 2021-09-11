@@ -1,0 +1,59 @@
+826 PART FIVE  
+ADVANCED TOPICS
+should also consider the software engineering methods that can be applied to achieve these tasks. As choices are made, education and training should be co-
+ordinated to ensure that understanding is reinforced.  Ideally, everyone works together to select various process and technology el-
+ements and moves smoothly toward the installation or migration activity (Sec-
+37.2.4). In reality, selection can be a rocky road. It is often difﬁ
+ cult to achieve 
+consensus among different constituencies. If the criteria for selection are es-
+tablished by committee, people may argue endlessly about whether the criteria 
+are appropriate and whether a choice truly meets the criteria that have been 
+established.  It is true that a bad choice can do more harm than good, but “paralysis by analysis” means that little if any progress occurs and process problems remain. 
+As long as the process characteristic or technology element has a good chance 
+at meeting an organization’s needs, it’s sometimes better to pull the trigger and 
+
+make a choice, rather than waiting for the perfect solution.   
+ 
+ 
+37.2.4   
+Installation/Migration  
+ 
+Installation 
+ is the ﬁ
+ rst point at which a software organization feels the effects of 
+changes implemented as a consequence of the SPI road map. In some cases, an 
+entirely new process is recommended for an organization. Framework activities, 
+software engineering actions, and individual work tasks must be deﬁ ned and 
+installed as part of a new software engineering culture. Such changes represent 
+a substantial organizational and technological transition and must be managed 
+very carefully. 
+ In other cases, changes associated with SPI are relatively minor, representing 
+small, but meaningful modiﬁ cations to an existing process model. Such changes 
+are often referred to as  process migration.
+ 
+ Today, many software organizations 
+have a “process” in place. The problem is that it doesn’t work in an effective man-
+ner. Therefore, an incremental  
+migration 
+ from one process (that doesn’t work as 
+well as desired) to another process is a more effective strategy. 
+ Installation and migration are actually  software process redesign
+ 
+ (SPR) ac-
+tivities. Scacchi [Sca00] states that “SPR is concerned with identiﬁ cation, ap-
+plication, and reﬁ nement of new ways to dramatically improve and transform 
+software processes.” When a formal approach to SPR is initiated, three different 
+
+process models are considered: (1) the existing (“as is”) process, (2) a transitional 
+
+(“here to there”) process, and the target (“to be”) process. If the target process 
+
+is signiﬁ cantly different from the existing process, the only rational approach 
+to installation is an incremental strategy in which the transitional process is 
+
+implemented in steps. The transitional process provides a series of way-points 
+
+that enable the software organization’s culture to adapt to small changes over 
+
+a period of time. 
+pre22126_ch37_817-838.indd   826pre22126_ch37_817-838.indd   82613/12/13   6:17 PM13/12/13   6:17 PM

@@ -1,0 +1,116 @@
+818  
+CHAPTER37  
+SOFTWARE
+PROCESS IMPROVEMENT  
+ 
+ 
+ 
+ 
+ 
+ 
+ Long before the phrase “software process improvement” was widely used, RSP worked with major corporations in an attempt to improve the state 
+of their software engineering practices. As a consequence of his experi-ences, he wrote a book entitled  Making Software Engineering Happen
+ 
+ [Pre88]. 
+In the preface of that book he made the following comment:  
+For the past ten years I have had the opportunity to help a number of large compa-nies implement software engineering practices. The job is difﬁ cult and rarely goes 
+as smoothly as one might like—but when it succeeds, the results are profound. 
+Software projects are more likely to be completed on time. Communication be-
+tween all constituencies involved in software development is improved. The level 
+of confusion and chaos that is often prevalent for large software projects is re-
+duced substantially. The number of errors encountered by the customer drops 
+
+substantially. The credibility of the software organization increases. And manage-
+
+ment has one less problem to worry about. 
+  But all is not sweetness and light. Many companies attempt to implement soft-ware engineering practice and give up in frustration. Others do it half-way and never 
+
+see the beneﬁ ts noted above. Still others do it in a heavy-handed fashion that results 
+in open rebellion among technical staff and managers and subsequent loss of morale. 
+ KEY CONCEPTS     assessment. . . . . . 823  
+    CMMI. . . . . . . . . . 828  
+
+    education and 
+
+training  . . . . . . . . 825  
+
+    evaluation  . . . . . . 826  
+
+    installation/
+
+migration  . . . . . . . 826  
+
+    justiﬁ
+ cation  . . . . . 825  
+    maturity models  . . 821  
+
+    people CMM. . . . . 832  
+
+    return on 
+
+investment. . . . . . 834  
+
+    risk management  . 827  
+
+    selection. . . . . . . . 825  
+
+    software process 
+
+improvement (SPI)  
+    applicability. . . 822  
+
+    deﬁ
+ nition of. . . 819  
+    frameworks. . . 819  
+
+    process  . . . . . . 823    
+ QUICK LOOK   
+What is it?   Software process im-provement encompasses a set of 
+activities that will lead to a better 
+software process and, as a conse-quence, higher quality software delivered in a 
+more timely manner. 
+  
+ 
+Who does it?   The people who champion SPI come from three groups: technical managers, 
+software engineers, and individuals who have 
+quality assurance responsibility. 
+  
+ 
+Why is it important? 
+  Some software organi-zations have little more than an ad hoc software 
+
+process. As they work to improve their software 
+
+engineering practices, they must address weak-
+nesses in their existing process and work to 
+
+ improve their approach to software work. 
+  
+ 
+What are the steps?   The approach to SPI is 
+iterative and continuous, but it can be viewed 
+in ﬁ assessment of the current soft-
+education and training of 
+
+selection and 
+
+justiﬁ cation of process elements, software en-
+implemen-
+
+evaluation and 
+
+tuning based on the results of the plan. 
+  
+ 
+What is the work product? 
+  Although there are many intermediate SPI work products, the 
+
+end result is an improved software process that 
+leads to higher quality software.   
+ 
+How do I ensure that I’ve done it right?   The software your organization produces will be delivered with fewer defects, rework at 
+each stage of the software process will be re-
+duced, and on-time delivery will become much 
+
+more likely. 
+ pre22126_ch37_817-838.indd   818pre22126_ch37_817-838.indd   81813/12/13   6:17 PM13/12/13   6:17 PM

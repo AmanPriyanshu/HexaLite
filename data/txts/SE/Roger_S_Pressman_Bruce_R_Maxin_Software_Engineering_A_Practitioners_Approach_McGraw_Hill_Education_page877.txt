@@ -1,0 +1,59 @@
+CHAPTER 38  
+EMERGING TRENDS IN SOFTWARE ENGINEERING
+ 847Finally, tools that support both process and methods must make adaptation and 
+change easy. 
+ But there is another aspect to emergent requirements. The vast majority of soft-ware developed to date assumes that the boundary between the software-based 
+system and its external environment is stable. The boundary may change, but it 
+will do so in a controlled manner, allowing the software to be adapted as part of 
+
+a regular software maintenance cycle. This assumption is beginning to change. 
+Open-world software (Section 38.4.2) demands that software “adapt and react to 
+changes dynamically, even if they’re unanticipated” [Bar06b]. 
+ By their nature, emergent requirements lead to change. How do we control the evolution of a widely used application or system over its lifetime, and what 
+effect does this have on the way we design software?  As the number of changes grows, the likelihood of unintended side effects also grows. This should be a cause for concern as complex systems with emergent 
+requirements become the norm. The software engineering community must de-
+velop methods that help software teams predict the impact of change across an 
+entire system, thereby mitigating unintended side effects. Today, our ability to 
+
+accomplish this is severely limited.   
+ 
+ 
+38.4.4   
+The Talent Mix 
+ 
+As software-based systems become more complex, as communication and collab-oration among global teams becomes commonplace, as emergent requirements 
+(with the resultant ﬂ ow of changes) become the norm, the very nature of a soft-
+ware engineering team may change. Each software team must bring a variety of 
+creative talent and technical skills to its part of a complex system, and the overall 
+process must allow the output of these islands of talent to merge effectively. 
+ Alexandra Weber-Morales [Mor05] suggests the talent mix of a “software dream 
+team.” The  Brain 
+ is a chief architect who is able to navigate the demands of stake-
+holders and map them into a technology framework that is both extensible and 
+
+implementable. The  Data Grrl 
+ is a database and data structures guru who “blasts 
+through rows and columns with profound understanding of predicate logic and 
+
+set theory as it pertains to the relational model.” The  Blocker 
+ is a technical leader 
+(manager) who allows the team to work free of interference from other teams 
+
+while at the same time ensuring that collaboration is occurring. The  Hacker 
+ is 
+a consummate programmer who is at home with patterns and languages and 
+
+can use both effectively. The  
+Gatherer
+ 
+ “deftly discovers system requirements 
+. 
+  
+ 
+ 
+38.4.5   
+Software Building Blocks 
+ 
+All of us who have fostered a software engineering philosophy have em-phasized the need for reuse—of source code, object-oriented classes, com-
+ponents, patterns, and COTS software. Although the software engineering 
+pre22126_ch38_839-859.indd   847pre22126_ch38_839-859.indd   84713/12/13   6:17 PM13/12/13   6:17 PM

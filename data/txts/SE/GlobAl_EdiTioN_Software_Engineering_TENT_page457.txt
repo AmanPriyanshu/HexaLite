@@ -1,0 +1,46 @@
+˜˜˚˛ˆ˜˜˜
+˜˜˜
+Once the configuration settings are completed, the new system is then ready for 
+testing. Testing is a major problem when systems are configured rather than pro-grammed using a conventional language. There are two reasons for this:1. Test automation may be difficult or impossible. There may be no easy access to 
+an API that can be used by testing frameworks such as JUnit, so the system has 
+
+to be tested manually by testers inputting test data to the system. Furthermore, 
+systems are often specified informally, so defining test cases may be difficult 
+without a lot of help from end-users.2.
+ Systems errors are often subtle and specific to business processes. The 
+
+application system or ERP system is a reliable platform, so technical system 
+
+failures are rare. The problems that occur are often due to misunderstand-
+ings between those configuring the system and user stakeholders. System 
+
+testers without detailed knowledge of the end-user processes cannot detect 
+
+these errors.Integrated application systems include two or more application systems or, some-
+times, legacy systems. You may use this approach when no single application sys-
+tem meets all of your needs or when you wish to integrate a new application system 
+with systems that you are already using. The component systems may interact 
+
+through their APIs or service interfaces if these are defined. Alternatively, they may 
+be composed by connecting the output of one system to the input of another or by 
+
+updating the databases used by the applications.To develop integrated application systems, you have to make a number of 
+design choices:1. Which individual application systems offer the most appropriate functionality? 
+Typically, several system products will be available, which can be combined in 
+different ways. If you don™t already have experience with a particular applica
+-
+tion system, it can be difficult to decide which product is the most suitable.2. How will data be exchanged? Different systems normally use unique data 
+
+structures and formats. You have to write adaptors that convert from one repre-
+sentation to another. These adaptors are runtime systems that operate alongside 
+
+the constituent application systems.3. What features of a product will actually be used? Individual application sys-
+tems may include more functionality than you need, and functionality may be 
+
+duplicated across different products. You have to decide which features in what 
+
+product are most appropriate for your requirements. If possible, you should 
+
+also deny access to unused functionality because this can interfere with normal 
+
+system operation.

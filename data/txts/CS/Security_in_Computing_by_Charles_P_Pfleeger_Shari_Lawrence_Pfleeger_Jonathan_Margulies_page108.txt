@@ -1,0 +1,59 @@
+74 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+kinds of questions on occasion to determine whether the policy and implementation are 
+doing what they should. We explore the management side of defining security policies 
+
+in Chapter 10, but we preview some issues here because they have a technical bearing 
+
+on access control.Granularity By granularity we mean the fineness or specificity of access control. It is a spectrum: 
+At one end you can control access to each individual bit or byte, each word in a docu-
+
+ment, each number on a spreadsheet, each photograph in a collection. That level of 
+
+specificity is generally excessive and cumbersome to implement. The finer the granu-
+
+larity, the larger number of access control decisions that must be made, so there is a 
+
+performance penalty. At the other extreme you simply say Adam has complete access to 
+
+computer C1. That approach may work if the computer is for Adam’s use alone, but if 
+
+computer C1 is shared, then the system has no basis to control or orchestrate that shar-
+
+ing. Thus, a reasonable midpoint must apply.
+Typically a file, a program, or a data space is the smallest unit to which access is con-
+trolled. However, note that applications can implement their own access control. So, for 
+
+example, as we describe in Chapter 7, a database management system can have access 
+
+to a complete database, but it then carves the database into smaller units and parcels out 
+
+access: This user can see names but not salaries, that user can see only data on employ-
+
+ees in the western office.
+Hardware devices, blocks of memory, the space on disk where program code is 
+stored, specific applications, all these are likely objects over which access is controlled.
+Access Log After making an access decision, the system acts to allow that access and leaves the user 
+
+and the object to complete the transaction. Systems also record which accesses have 
+
+been permitted, creating what is called an audit log. This log is created and maintained 
+by the system, and it is preserved for later analysis. Several reasons for logging access 
+
+include the following:
+• Records of accesses can help plan for new or upgraded equipment, by showing 
+which items have had heavy use.
+• If the system fails, these records can show what accesses were in progress and 
+perhaps help identify the cause of failure.
+• If a user misuses objects, the access log shows exactly which objects the user 
+did access.• In the event of an external compromise, the audit log may help identify how 
+the assailant gained access and which data items were accessed (and therefore 
+revealed or compromised). These data for after-the-fact forensic analysis have 
+
+been extremely helpful in handling major incidents.
+As part of the access control activity, the system builds and protects this audit log. 
+Obviously, granularity matters: A log that records each memory byte accessed is too 
+
+lengthy to be of much practical value, but a log that says “8:01 user turned on system; 
+
+17:21 user turned off system” probably contains too little detail to be helpful.

@@ -1,0 +1,78 @@
+CHAPTER 21  
+SOFTWARE QUALITY ASSURANCE
+ 459 
+ 
+ 
+•   
+Verify
+ 
+ that the process model will, in fact, avoid defects and meet cus-tomer requirements.  
+ 
+  This variation is sometimes called the DMADV (deﬁ ne, measure, analyze, design, 
+and verify) method.  A comprehensive discussion of Six Sigma is best left to resources dedicated to the subject. If you have further interest, see [ISI08], [Pyz03], and [Sne03].   
+ 
+ 
+ 
+ 
+ 21.7  
+SOFTWARE
+ RELIABILITY  
+ 
+ 
+There is no doubt that the reliability of a computer program is an important el-ement of its overall quality. If a program repeatedly and frequently fails to per-
+
+form, it matters little whether other software quality factors are acceptable.  Software reliability, unlike many other quality factors, can be measured di-
+rectly and estimated using historical and developmental data.  Software reliabil-
+ity 
+ is deﬁ
+ ned in statistical terms as “the probability of failure-free operation of a 
+computer program in a speciﬁ ed environment for a speciﬁ
+ ed time” [Mus87]. To 
+illustrate, program  X 
+ is estimated to have a reliability of 0.999 over eight elapsed 
+processing hours. In other words, if program  X 
+ were to be executed 1000 times 
+and require a total of eight hours of elapsed processing time (execution time), it 
+is likely to operate correctly (without failure) 999 times.  Whenever software reliability is discussed, a pivotal question arises: What is meant by the term  failure
+ 
+? In the context of any discussion of software quality and reliability, failure is nonconformance to software requirements. Yet, even 
+
+within this deﬁ nition, there are gradations. Failures can be only annoying or cat-
+astrophic. One failure can be corrected within seconds, while another requires 
+weeks or even months to correct. Complicating the issue even further, the cor-
+
+rection of one failure may in fact result in the introduction of other errors that 
+ultimately result in other failures.   
+ 
+21.7.1   
+Measures of Reliability and Availability 
+ 
+ 
+ 
+ 
+ 
+ 
+Early work in software reliability attempted to extrapolate the mathematics of hard-ware reliability theory to the prediction of software reliability. Most hardware-related 
+
+reliability models are predicated on failure due to wear rather than failure due to de-
+sign defects. In hardware, failures due to physical wear (e.g., the effects of tempera-
+ture, corrosion, shock) are more likely than a design-related failure. Unfortunately, 
+
+the opposite is true for software. In fact, all software failures can be traced to design 
+
+ 
+ There has been an ongoing debate over the relationship between key con-cepts in hardware reliability and their applicability to software. Although an ir-
+
+refutable link has yet to be established, it is worthwhile to consider a few simple 
+concepts that apply to both system elements.  
+ 
+ 
+    Software reliability 
+problems can almost 
+always be traced to 
+defects in design or 
+implementation.   uote:  “The unavoidable 
+price of reliability 
+is simplicity.” 
+ C. A. R. Hoare 
+pre22126_ch21_448-465.indd   459pre22126_ch21_448-465.indd   45913/12/13   10:02 PM13/12/13   10:02 PM

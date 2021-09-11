@@ -1,0 +1,31 @@
+˜˜˚˝˜˜˜
+˜˜
+ultimately, unconsciousness and death. In the long term, however, continual high 
+levels of blood glucose can lead to eye damage, kidney damage, and heart problems.Advances in developing miniaturized sensors have meant that it is now possible to develop automated insulin delivery systems. These systems monitor blood sugar 
+levels and deliver an appropriate dose of insulin when required. Insulin delivery 
+
+systems like this one are now available and are used by patients who find it difficult 
+to control their insulin levels. In future, it may be possible for diabetics to have such 
+systems permanently attached to their bodies.A software-controlled insulin delivery system uses a microsensor embedded in 
+the patient to measure some blood parameter that is proportional to the sugar level. 
+This is then sent to the pump controller. This controller computes the sugar level and 
+the amount of insulin that is needed. It then sends signals to a miniaturized pump to 
+
+deliver the insulin via a permanently attached needle.Figure 1.
+4 shows the hardware components and organization of the insulin pump. 
+To understand the examples in this book, all you need to know is that the blood sensor 
+
+measures the electrical conductivity of the blood under different conditions and that 
+
+these values can be related to the blood sugar level. The insulin pump delivers one unit 
+
+of insulin in response to a single pulse from a controller. Therefore, to deliver 10 units 
+
+of insulin, the controller sends 10 pulses to the pump. Figure 1.5 is a Unified Modeling 
+NeedleassemblySensorDisplay1Display2
+AlarmPumpClockControllerPower supply
+Insulin reservoirFigure 1.4 Insulin pump hardware architectureAnalyze sensorreadingBloodsensorInsulinpump
+BloodsugarComputeinsulinInsulindoseInsulinlogLog doseCompute pumpcommandsPump
+dataControl insulinpump
+Figure 1.5 Activity model of the 
+insulin pump

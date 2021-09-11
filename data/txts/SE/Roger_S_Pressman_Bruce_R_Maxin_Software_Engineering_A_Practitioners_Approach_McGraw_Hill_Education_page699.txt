@@ -1,0 +1,95 @@
+CHAPTER 30  
+PRODUCT METRICS 669(Chapter 24) grows. It also follows that, as RFC increases, the overall design com-
+plexity of the class increases.    
+Lack of cohesion in methods (LCOM).   Each method within a class  C  accesses 
+one or more attributes (also called instance variables). LCOM is the number of 
+
+methods that access one or more of the same attributes.  10  
+ If no methods access 
+the same attributes, then LCOM 5 0. To illustrate the case where LCOM 
+± 0, con-sider a class with six methods. Four of the methods have one or more attributes 
+
+in common (i.e., they access common attributes). Therefore, LCOM 5 4. If LCOM 
+is high, methods may be coupled to one another via attributes. This increases the 
+
+complexity of the class design. Although there are cases in which a high value for 
+
+LCOM is justiﬁ able, it is desirable to keep cohesion high; that is, keep LCOM low.
+  
+11        
+  10  The formal deﬁ nition is a bit more complex. See [Chi94] for details. 
+
+  11 
+ The LCOM metric provides useful insight in some situations, but it can be misleading in others. 
+For example, keeping coupling encapsulated within a class increases the cohesion of the sys-
+tem as a whole. Therefore in at least one important sense, higher LCOM actually suggests that 
+a class may have higher cohesion, not lower. 
+  Applying CK Metrics    Applying CK Metrics  
+  The scene: 
+ Vinod’s cubicle. 
+  The players: 
+ Vinod, Jamie, Shakira, and Ed—
+members of the  SafeHome  software engineering team 
+who are continuing to work on component-level design 
+and test-case design. 
+  The conversation:  
+
+  Vinod: 
+ Did you guys get a chance to read the 
+description of the CK metrics suite I sent you on 
+Wednesday and make those measurements? 
+
+  Shakira: 
+ Wasn’t too complicated. I went back to my 
+UML class and sequence diagrams, like you suggested, 
+and got rough counts for DIT, RFC, and LCOM. I 
+
+couldn’t ﬁ nd the CRC model, so I didn’t count CBO. 
+
+  Jamie (smiling): 
+ You couldn’t ﬁ nd the CRC model 
+because I had it. 
+  Shakira: 
+ That’s what I love about this team, superb 
+communication. 
+  Vinod: 
+ 
+bers for the CK metrics? 
+ [Jamie and Ed nod in the afﬁ
+ rmative.] 
+  Jamie: 
+ Since I had the CRC cards, I took a look at 
+CBO and it looked pretty uniform across most of the 
+
+classes. There was one exception, which I noted. 
+  Ed: 
+ There are a few classes where RFC is pretty high, 
+
+a look at simplifying them. 
+  Jamie: 
+ Maybe yes, maybe no. I’m still concerned about 
+time, and I don’t want to ﬁ x stuff that isn’t really broken. 
+
+  Vinod: 
+ I agree with that. Maybe we should look 
+for classes that have bad numbers in at least two or 
+more of the CK metrics. Kind of two strikes and you’re 
+modiﬁ ed.   Shakira (looking over Ed’s list of classes with 
+
+high RFC):  Look, see this class, it’s got a high LCOM 
+as well as a high RFC. Two strikes? 
+
+  Vinod: 
+ Y cult to implement 
+because of complexity and difﬁ cult to test for the same 
+
+reason. Probably worth designing two separate classes 
+
+to achieve the same behavior. 
+
+  Jamie: 
+ You think modifying it’ll save us time? 
+  Vinod: 
+ Over the long haul, yes.  
+ S
+AFEHOME 

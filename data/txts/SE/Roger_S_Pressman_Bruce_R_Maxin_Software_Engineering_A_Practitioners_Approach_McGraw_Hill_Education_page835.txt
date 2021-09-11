@@ -1,0 +1,54 @@
+CHAPTER 36  
+MAINTENANCE AND REENGINEERING 805 
+Because data architecture has a strong inﬂ uence on program architecture 
+and the algorithms that populate it, changes to the data will invariably result in 
+either architectural or code-level changes.   
+ 
+Forward engineering.   
+In an ideal world, applications would be rebuilt using an automated “reengineering engine.” The old program would be fed into the en-
+gine, analyzed, restructured, and then regenerated in a form that exhibited the 
+best aspects of software quality. In the short term, it is unlikely that such an “en-
+
+gine” will appear, but vendors have introduced tools that provide a limited subset 
+
+of these capabilities that addresses speciﬁ c application domains (e.g., applica-
+tions that are implemented using a speciﬁ c database system). More important, 
+these reengineering tools are becoming increasingly more sophisticated.  Forward engineering not only recovers design information from existing soft-ware but uses this information to alter or reconstitute the existing system in an 
+effort to improve its overall quality. In most cases, reengineered software rec-
+
+reates the function of the existing system and also adds new functions and/or 
+improves overall performance.   
+ 
+ 
+ 
+ 
+ 
+ 36.6  
+REVERSE ENGINEERING  
+ 
+Reverse engineering conjures an image of the “magic slot.” You feed a haphaz-
+ardly designed, undocumented source ﬁ le into the slot and out the other end 
+comes a complete design description (and full documentation) for the computer 
+program. Unfortunately, the magic slot doesn’t exist. Reverse engineering can 
+
+extract design information from source code, but the abstraction level, the com-
+pleteness of the documentation, the degree to which tools and a human analyst 
+work together, and the directionality of the process are highly variable. 
+ The  abstraction level 
+ of a reverse engineering process and the tools used to 
+effect it refers to the sophistication of the design information that can be ex-
+tracted from source code. Ideally, the abstraction level should be as high as 
+
+possible. That is, the reverse engineering process should be capable of deriving 
+procedural design representations (a low-level abstraction), program and data 
+structure information (a somewhat higher level of abstraction), object models, 
+data and/or control ﬂ ow models (a relatively high level of abstraction), and data 
+models (a high level of abstraction). As the abstraction level increases, you are 
+provided with information that will allow easier understanding of the program.  The  completeness 
+ of a reverse engineering process refers to the level of de-
+tail that is provided at an abstraction level. In most cases, the completeness 
+decreases as the abstraction level increases. For example, given a source code 
+listing, it is relatively easy to develop a complete procedural design representa-
+tion. Simple architectural design representations may also be derived, but it is 
+far more difﬁ cult to develop a complete set of UML diagrams or models. 
+pre22126_ch36_795-816.indd   805pre22126_ch36_795-816.indd   80513/12/13   6:17 PM13/12/13   6:17 PM

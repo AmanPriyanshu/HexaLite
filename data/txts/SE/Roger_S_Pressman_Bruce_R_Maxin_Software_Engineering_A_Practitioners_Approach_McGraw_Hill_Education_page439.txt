@@ -1,0 +1,69 @@
+CHAPTER 18  
+MOBILEAPP DESIGN 409 
+Component design develops the detailed processing logic required to imple-ment the components that are used to build a complete MobileApp function. De-
+sign techniques described in Chapter 14 may be applicable for the engineering 
+of MobileApp components.   
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+18.1  Explain why deciding to develop MobileApp for several devices can be a costly design decision. Is there a way to mitigate the risks of supporting the wrong platform?    
+ 
+18.2  In this chapter we listed many quality attributes for MobileApps. Select the three that you believe are most important, and make an argument that explains why each should be 
+emphasized in MobileApp design work.    
+ 
+18.3  Add at least ﬁ ve additional questions to the MobileApp Design—Quality Checklist pre-
+sented in Section 18.2.    
+ 
+18.4  You are a MobileApp designer for  
+Project Planning
+ 
+  Corporation 
+, a company that builds productivity software. You want to implement the equivalent of a digital three-ring binder 
+
+that allows tablet users to organize and categorize electronic documents of several types 
+under user-deﬁ
+ ned tabs. For example, a kitchen remodeling project might require a pdf 
+catalog, a jpg or dfx layout drawing, an MS Word proposal, and an Excel spreadsheet stored 
+
+under a Cabinetry tab. Once deﬁ ned, the binder and its tab content can be stored either 
+on the tablet or on some cloud storage. The application needs to provide ﬁ ve key func-
+tions: binder and tab deﬁ nition, digital document acquisition from a Web location or the 
+device, binder management functions, page display functions, and a notes function to allow 
+a Post-it note to be added to any page. Develop an interface design for the three-ring appli-
+cation and implement it as a paper prototype.    
+ 
+18.5  What is the most aesthetically pleasing MobileApp you have ever used and why?    
+ 
+18.6  Create user stories for the three-ring application described in Problem 18.4.    
+ 
+18.7  What might be considered to make the three-ring application a context-aware MobileApp?    
+ 
+18.8  Reconsidering the  ProjectPlanning
+ 
+ three-ring application described in Problem 18.4, 
+select a development platform for the ﬁ rst working prototype. Discuss why you made the 
+choice.    
+ 
+18.9  Use UML to develop design representations for the interface objects that would be  encountered as the three-ring application described in Problem 18.4 is designed.    
+ 
+18.10  Do a bit of additional research on the MVC architecture and decide whether it would be an appropriate MobileApp architecture for the three-ring discussed in Problem 18.4.    
+ 
+18.11  Describe three context-aware features that would be desirable to add to a  SafeHome 
+ MobileApp.    
+ 
+18.12  Do some Internet research to identify a middleware product designed to support  MobileApps. Describe the middleware features and the platform(s) it supports.   
+ 
+ 
+ 
+  F
+URTHER
+ READINGS AND INFORMATION
+ SOURCES  
+ 
+Kumar and Xie ( Handbook of Mobile Systems Applications and Services, 
+ Auerbach Pub-
+lications, 2012) have edited a book that covers mobile services and the role of service-
+oriented architectures in mobile computing. Books on pervasive computing by Adelstein pre22126_ch18_391-410.indd   409pre22126_ch18_391-410.indd   40916/12/13   6:23 PM16/12/13   6:23 PM

@@ -1,0 +1,43 @@
+298 Chapter 5  
+Operating SystemsAnother implementation used a hardware register, often called a 
+fence register
+, con-taining the address of the end of the operating system. In contrast to a fixed fence, 
+
+in this scheme the location of the fence could be changed. Each time a user program 
+generated an address for data modification, the address was automatically compared 
+
+with the fence address. If the address was greater than the fence address (that is, in the 
+
+user area), the instruction was executed; if it was less than the fence address (that is, in 
+
+the operating system area), an error condition was raised. The use of fence registers is 
+
+shown in Figure 5-7.
+A fence register protects in only one direction. In other words, an operating system 
+can be protected from a single user, but the fence cannot protect one user from another 
+
+user. Similarly, a user cannot identify certain areas of the program as inviolable (such as 
+
+the code of the program itself or a read-only data area).Base/Bounds Registers A major advantage of an operating system with fence registers is the ability to relo-
+
+cate; this characteristic is especially important in a multiuser environment, although it is 
+
+also useful with multiple concurrent processes loaded dynamically (that is, only when 
+called). With two or more users, none can know in advance where a program will be 
+
+loaded for execution. The relocation register solves the problem by providing a base or 
+
+starting address. All addresses inside a program are offsets from that base address. A 
+
+variable fence register is generally known as a 
+base register
+.Fence registers designate a lower bound (a starting address) but not an upper one. 
+An upper bound can be useful in knowing how much space is allotted and in checking 
+
+for overflows into “forbidden” areas. To overcome this difficulty, a second register is 
+
+often added, as shown in Figure 5-8. The second register, called a 
+bounds register
+, is an upper address limit, in the same way that a base or fence register is a lower address 
+MemoryOperating SystemUser Program Space
+Addresses 0nn + 1HighHardwareAddressLimitationAddressingRangeFIGURE 5-6 Fence Protection

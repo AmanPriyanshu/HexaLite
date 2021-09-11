@@ -1,0 +1,123 @@
+362 PART TWO  
+MODELING 
+ 
+The pattern goes on to describe how the search results are accessed, pre-sented, matched, and so on. Based on this, the  SafeHomeAssured.com 
+ team can 
+design the components required to implement the search or (more likely) ac-
+quire existing reusable components.   
+ 
+Applying Patterns    
+ 
+Applying Patterns   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The scene:  Informal discussion 
+during the design of a software incre-ment that implements sensor control via the Internet for 
+
+ SafeHomeAssured.com 
+.    
+ 
+The players:  Jamie (responsible for design) and Vinod 
+( SafeHomeAssured.com 
+ chief system architect). 
+  
+The conversation:    
+Vinod:  So how is the design of the camera control 
+interface coming along? 
+  
+Jamie:  Not too bad. I’ve designed most of the capabil-
+ity to connect to the actual sensors without too many prob-
+lems. I’ve also started thinking about the interface for the 
+
+users to actually move, pan, and zoom the cameras from 
+
+a remote Web page, but I’m not sure I’ve got it right yet. 
+  
+Vinod:  What have you come up with? 
+  
+Jamie:  Well, the requirements are that the camera 
+control needs to be highly interactive—as the user 
+moves the control, the camera should move as soon as 
+possible. So, I was thinking of having a set of buttons 
+laid out like a normal camera, but when the user clicks 
+
+them, it controls the camera.   
+Vinod:  Hmmm. Yeah, that would work, but I’m not 
+sure it’s right—for each click of a control you need to 
+
+wait for the whole client-server communication to occur, 
+
+and so you won’t get a good sense of quick feedback. 
+  
+Jamie:  That’s what I thought—and why I wasn’t very 
+happy with the approach, but I’m not sure how else 
+I might do it.   
+Vinod:  Well, why not just use the  
+InteractiveDevice-Control
+ 
+ pattern? 
+  
+Jamie:  Uhmmm—what’s that? I haven’t heard of it. 
+  
+Vinod:  It’s basically a pattern for exactly the problem 
+you are describing. The solution it proposes is basically 
+to create a control connection to the server with the 
+
+device, through which control commands can be sent. 
+That way you don’t need to send normal HTTP requests. 
+
+And the pattern even shows how you can implement 
+
+this using some simple AJAX techniques. You have some 
+
+simple client-side JavaScript that communicates directly 
+with the server and sends the commands as soon as the 
+
+user does anything.   
+Jamie:  Cool! That’s just what I needed to solve this 
+thing. Where do I ﬁ nd it? 
+  
+Vinod:  It’s available in an online repository. Here’s 
+the URL.   
+Jamie:  I’ll go check it out. 
+  
+Vinod:  Yep—but remember to check the consequences 
+ﬁ eld for the pattern. I seem to remember that there was 
+something in there about needing to be careful about 
+issues of security. I think it might be because you are 
+
+creating a separate control channel and so bypassing 
+the normal Web security mechanisms. 
+  
+Jamie:  Good point. I probably wouldn’t have thought 
+of that! Thanks.   
+SAFEHOME  
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 16.5  
+USER INTERFACE
+ DESIGN PATTERNS
+  
+ 
+Hundreds of user interface (UI) patterns have been proposed in recent years. Most fall within one of 10 categories of patterns as described by Tidwell [Tid02] 
+
+and vanWelie [Wel01]. A few representative categories (discussed with a simple 
+
+example  7 
+ 
+) follow:  
+ 
+7  An abbreviated pattern template is used here. Full pattern descriptions (along with dozens of 
+other patterns) can be found at [Tid02] and [Wel01]. 
+pre22126_ch16_347-370.indd   362pre22126_ch16_347-370.indd   36216/12/13   6:22 PM16/12/13   6:22 PM

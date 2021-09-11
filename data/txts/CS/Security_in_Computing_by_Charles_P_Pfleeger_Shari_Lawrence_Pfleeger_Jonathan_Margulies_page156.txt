@@ -1,0 +1,83 @@
+122 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+A public key and user’s identity are bound together in a 
+certificate
+, which is then signed by someone called a certificate authority
+, certifying the accuracy of the bind-
+ing. In our example, the company might set up a certificate scheme in the following 
+
+way. First, Edward selects a public key pair, posts the public part where everyone in the 
+
+company can retrieve it, and retains the private part. Then, each division manager, such 
+
+as Diana, creates her public key pair, puts the public key in a message together with her 
+
+identity, and passes the message securely to Edward. Edward signs it by creating a hash 
+
+value of the message and then encrypting the hash with his private key. By signing the 
+
+message, Edward affirms that the public key (Diana’s) and the identity (also Diana’s) in 
+
+the message are for the same person. This message is called Diana’s certificate.
+All of Diana’s department managers create messages with their public keys, Diana 
+hashes and signs each, and returns them. She also appends to each a copy of the certifi-
+
+cate she received from Edward. In this way, anyone can verify a manager’s certificate by 
+
+starting with Edward’s well-known public key, decrypting Diana’s certificate to retrieve 
+
+her public key (and identity), and using Diana’s public key to decrypt the manager’s 
+
+certificate. Figure 2-31 shows how certificates are created for Diana and one of her 
+
+managers, Delwyn. This process continues down the hierarchy to Ann and Andrew. As 
+
+shown in Figure 2-32, Andrew’s certificate is really his individual certificate combined 
+
+with all certificates for those above him in the line to the president.
+Name: DianaPosition: Division Manager
+Public key: 17EF83CA ...
+Diana creates and delivers to Edward:
+Edward adds:Edward signs with his private key:
+Name: DianaPosition: Division Manager
+
+Public key: 17EF83CA ...
+hash value
+128C4Name: DianaPosition: Division Manager
+
+Public key: 17EF83CA ...
+hash value
+
+128C4Which is Diana’s certificate.
+Name: Delwyn
+Position: Dept Manager
+Public key: 3AB3882C ...
+Delwyn creates and delivers to Diana:
+Diana adds:Diana signs with her private key:
+Name: Delwyn
+Position: Dept Manager
+Public key: 3AB3882C ...
+hash value
+
+48CFA
+And appends her certificate:
+Which is Delwyn’s 
+certificate.
+Name: DianaPosition: Division Manager
+
+Public key: 17EF83CA ...
+hash value
+
+128C4To create Diana’s certificate:To create Delwyn’s certificate:
+Name: Delwyn
+Position: Dept Manager
+Public key: 3AB3882C ...
+hash value
+
+48CFA
+Name: Delwyn
+Position: Dept Manager
+Public key: 3AB3882C ...
+hash value
+48CFA
+FIGURE 2-31 Creating Certificates

@@ -1,0 +1,47 @@
+742 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+ 
+ 
+ 
+33.6.8   
+An Example of Estimation Using Use Case Points  
+The CAD software introduced in Section 33.6.3 is composed of three subsystem groups: user interface subsystem (includes UICF), engineering subsystem group 
+(includes the 2DGA, 3DGA, and DAM subsystems), and infrastructure subsystem 
+group (includes CGDF and PCF subsystems). Sixteen complex use cases describe 
+the user interface subsystem. The engineering subsystem group is described by 
+14 average use cases and 8 simple use cases. And the infrastructure subsystem is 
+
+described with 10 simple use cases. Therefore,UUCW 5  (16 use cases 3 15) 1 [(14 use cases 3 10) 1 (8 use cases 3 5)] 1 (10 use cases 3 5) 5 470  Analysis of the use cases indicates that there are 8 simple actors, 12 average actors, and 4 complex actors. Therefore,UAW 
+5 (8 actors 3 1) 1 (12 actors 3 2) 1 4 actors 3 3) 5 44  After evaluation of the technology and the environment,TCF 5 1.04ECF 5 0.96  Using relationship 33.2,UCP 5 (470 1 44) 3 1.04 3 0.96 5 513  Using past project data as a guide, the development group has produced 85 LOC per UCP. Therefore, an estimate of the overall size of the CAD project is 43,600 
+
+LOC. Similar computations can be made for applied effort or project duration.  Using 620 LOC/pm as the average productivity for systems of this type and a burdened labor rate of $8,000 per month, the cost per line of code is approxi-
+mately $13. Based on the use-case estimate and the historical productivity data, 
+the total estimated project cost is $552,000 and the estimated effort is about 70 
+person-months.   
+ 
+ 
+33.6.9   
+Reconciling Estimates  
+The estimation techniques discussed in the preceding sections result in multiple es-timates that must be reconciled to produce a single estimate of effort, project dura-
+tion, or cost. The total estimated effort for the CAD software (section 33.6.3) ranges 
+
+from a low of 46 person-months (derived using a process-based estimation approach) 
+
+to a high of 68 person-months (derived with use-case estimation). The average esti-
+mate (using all four approaches) is 56 person-months. The variation from the average 
+estimate is approximately 18 percent on the low side and 21 percent on the high side. 
+  What happens when agreement between estimates is poor? The answer to this question requires a reevaluation of information used to make the estimates. 
+Widely divergent estimates can often be traced to one of two causes: (1) the scope 
+  
+ 
+ uote:  “Complicated 
+methods might 
+not yield a more 
+accurate estimate, 
+particularly when 
+developers can 
+incorporate their 
+own intuition into 
+the estimate.”  Philip Johnson 
+et al. pre22126_ch33_727-753.indd   742pre22126_ch33_727-753.indd   74213/12/13   6:17 PM13/12/13   6:17 PM

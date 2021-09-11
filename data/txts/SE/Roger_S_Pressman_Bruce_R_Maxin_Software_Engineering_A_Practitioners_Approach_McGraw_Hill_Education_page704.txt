@@ -1,0 +1,36 @@
+674 PART 
+THREE  QUALITY MANAGEMENTHowever, Ivory and her colleagues [Ivo01] propose a set of measures that may be 
+
+useful in assessing the impact of aesthetic design:Suggested MetricDescriptionWord countTotal number of words that appear on a page
+
+Body text percentagePercentage of words that are body versus display text (e.g., headers)
+
+Emphasized body text percentagePor
+tion of body text that is emphasized (e.g., bold, capitalized)Text positioning countChanges in text position from flush left
+
+Text cluster countText areas highlighted with color, bordered regions, rules, or lists
+
+Link countTotal links on a page
+
+Page sizeTotal bytes for the page as well as elements, graphics, and style 
+sheetsGraphic percentagePercentage of page bytes that are for graphics
+
+Graphics countTotal graphics on a page (not including graphics specified in scripts, 
+applets, and objects)Color countTotal colors employed
+Font countTotal fonts employed (i.e., face 
+1 size 1 bold 1 italic)     
+Content metrics.   Metrics in this category focus on content complexity and on clusters of content objects that are organized into pages [Men01]. Suggested MetricDescriptionPage waitAverage time required for a page to download at different connection 
+speedsPage complexityAverage number of different types of media used on page, not 
+including textGraphic complexityAverage number of graphics media per page
+
+Audio complexityAverage number of audio media per page
+
+Video complexityAverage number of video media per page
+
+Animation complexityAverage number of animations per page
+Scanned image complexityAverage number of scanned images per page
+     
+Navigation metrics.   Metrics in this category address the complexity of the navi-gational ﬂ ow [Men01]. In general, they are applicable only for static Web applica-
+tions, which don’t include dynamically generated links and pages. Suggested MetricDescriptionPage-linking complexity Number of links per page
+
+Connectivity Total number of internal links, not including dynamically generated linksConnectivity densityConnectivity divided by page count

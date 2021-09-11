@@ -1,0 +1,27 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜This results in an effort computation as follows:PM 5 2.94 3 Size(1.1 to 1.24) 3 MM 5 PERS 3 PREX 3 RCPX 3 RUSE 3 PDIF 3 SCED 3 FSILPERS: personnel capabilityPREX: personnel experienceRCPX: product reliability and complexityRUSE: reuse requiredPDIF: platform difficultySCED: scheduleFSIL: support facilitiesThe multiplier 
+M is based on seven project and process attributes that increase or decrease the estimate. I explain these attributes on the book™s web pages. You esti-mate values for these attributes using a six-point scale, where 1 corresponds to ﬁvery 
+lowﬂ and 6 corresponds to ﬁvery highﬂ; for example, 
+PERS
+ = 
+6 means that expert 
+staff are available to work on the project.˘˘The COCOMO reuse model is used to estimate the effort required to integrate reus-
+able or generated code. As I have discussed in Chapter 15, software reuse is now the 
+norm in all software development. Most large systems include a significant amount 
+
+of code that has been reused from previous development projects.COCOMO II considers two types of reused code. Black-box code is code that can be 
+reused without understanding the code or making changes to it. Examples of black-box 
+
+code are components that are automatically generated from UML models or application 
+
+libraries such as graphics libraries. It is assumed that the development effort for black-
+
+box code is zero. Its size is not taken into account in the overall effort computation.White-box code is reusable code that has to be adapted to integrate it with new code or other reused components. Development effort is required for reuse because 
+the code has to be understood and modified before it can work correctly in the sys-
+tem. White-box code could be automatically generated code that needs manual 
+
+changes or additions. Alternatively, it can be reused components from other systems 
+that have to be modified in the system that is being developed.Three factors contribute to the effort involved in reusing white-box code components:1. The effort involved in assessing whether or not a component could be reused in 
+a system that is being developed.2. The effort required to understand the code that is being reused.3. The effort required to modify the reused code to adapt it and integrate it with the 
+system being developed.

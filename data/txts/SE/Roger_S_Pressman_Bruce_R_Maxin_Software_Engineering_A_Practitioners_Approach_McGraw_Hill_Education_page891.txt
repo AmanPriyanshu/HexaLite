@@ -1,0 +1,80 @@
+CHAPTER 39  
+CONCLUDING COMMENTS 861 
+One thing we’ve learned over our years in this ﬁ eld is that software engineer-
+ing practitioners are “fashion conscious.” The road ahead will be littered with 
+the carcasses of exciting new technologies (the latest fashion) that never really 
+made it (despite the hype). It will be shaped by more modest technologies that 
+somehow modify the direction and width of the thoroughfare. We discussed a few 
+
+of those in Chapter 38.  In this concluding chapter we’ll take a broader view and consider where we’ve been and where we’re going from a more philosophical perspective.   
+ 
+ 
+ 
+ 39.1  
+THE IMPORTANCE
+ OF SOFTWARE
+—REVISITED  
+ 
+The importance of computer software can be stated in many ways. In Chapter 1, software was characterized as a differentiator. The function delivered by software 
+
+differentiates products, systems, and services and provides competitive advan-
+tage in the marketplace. But software is more than a differentiator. When taken as 
+
+a whole, software engineering work products generate the most important com-
+modity that any individual, business, or government can acquire—information.  In Chapter 38, we brieﬂ y discussed open-world computing—a technology that is 
+fundamentally changing our perception of computers, the things that we do with 
+
+them (and they do for us), and our perception of information as a guide, a commod-
+ity, and a necessity. We also noted that software required to support open-world 
+
+computing will present dramatic new challenges for software engineers. But far 
+
+more important, the growing pervasiveness of computer software will present even 
+
+more dramatic challenges for society as a whole. Whenever a technology has a broad 
+
+impact—an impact that can save lives or endanger them, build businesses or destroy 
+
+them, inform government leaders or mislead them—it must be “handled with care.” 
+  
+ 
+ 
+ 
+ 39.2  
+PEOPLE AND THE WAY THEY BUILD SYSTEMS  
+ 
+The software required for high-technology systems becomes more and more com-plex with each passing year, and the size of resultant programs increases pro-
+
+portionally. The rapid growth in the size of the “average” program would present 
+
+us with few problems if it wasn’t for one simple fact: As program size increases, 
+the number of people who must work on the program must also increase.  
+   
+Experience indicates that as the number of people on a software project team increases, the overall productivity of the group may suffer. One way around this 
+
+problem is to create a number of software engineering teams, thereby compart-
+mentalizing people into individual working groups. However, as the number of 
+
+software engineering teams grows, communication between them becomes as 
+difﬁ cult and time consuming as communication between individuals. Worse, 
+communication (between individuals or teams) tends to be inefﬁ cient—that is, 
+ 
+ uote:  “Future shock [is] 
+the shattering stress 
+
+and disorientation 
+
+that we induce 
+
+in individuals by 
+
+subjecting them to 
+
+too much change in 
+
+too short a period 
+
+of time.” 
+ Alvin Tofﬂ
+ er 
+pre22126_ch39_860-868.indd   861pre22126_ch39_860-868.indd   86113/12/13   6:18 PM13/12/13   6:18 PM

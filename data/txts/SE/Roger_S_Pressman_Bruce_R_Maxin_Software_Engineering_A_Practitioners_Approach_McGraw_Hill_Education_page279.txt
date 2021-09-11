@@ -1,0 +1,57 @@
+CHAPTER 12  
+DESIGN CONCEPTS 249identiﬁ ed. It could be a Mac, a Windows-based PC, a Linux-box or a mobile plat-
+form with its associated operating system. These details are provided when the 
+deployment diagram is revisited in  instance form 
+ during the latter stages of 
+design or as construction begins. Each instance of the deployment (a speciﬁ c, 
+named hardware conﬁ guration) is identiﬁ
+ ed. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 12.5 S
+UMMARY  
+Software design commences as the ﬁ rst iteration of requirements engineering 
+comes to a conclusion. The intent of software design is to apply a set of principles, 
+concepts, and practices that lead to the development of a high-quality system or 
+product. The goal of design is to create a model of software that will implement 
+all customer requirements correctly and bring delight to those who use it. Soft-
+ware designers must sift through many design alternatives and converge on a 
+solution that best suits the needs of project stakeholders.  The design process moves from a “big picture” view of software to a more narrow view that deﬁ nes the detail required to implement a system. The pro-
+cess begins by focusing on architecture. Subsystems are deﬁ ned; communication 
+mechanisms among subsystems are established; components are identiﬁ ed, and 
+a detailed description of each component is developed. In addition, external, 
+internal, and user interfaces are designed.  Design concepts have evolved over the ﬁ rst 60 years of software engineering 
+work. They describe attributes of computer software that should be present re-
+gardless of the software engineering process that is chosen, the design methods 
+
+that are applied, or the programming languages that are used. In essence, de-
+sign concepts emphasize the need for abstraction as a mechanism for creating 
+
+reusable software components; the importance of architecture as a way to better 
+
+understand the overall structure of a system; the beneﬁ ts of pattern-based engi-
+neering as a technique for designing software with proven capabilities; the value 
+
+of separation of concerns and effective modularity as a way to make software more 
+
+understandable, more testable, and more maintainable; the consequences of infor-
+
+mation hiding as a mechanism for reducing the propagation of side effects when 
+
+errors do occur; the impact of functional independence as a criterion for building 
+
+effective modules; the use of reﬁ nement as a design mechanism; a consideration 
+of aspects that crosscut system requirements; the application of refactoring for op-
+timizing the design that is derived; the importance of object-oriented classes and 
+
+the characteristics that are related to them; the need to use abstraction to reduce 
+
+coupling between components, and the importance of design for testing. 
+ The design model encompasses four different elements. As each of these el-ements is developed, a more complete view of the design evolves. The archi-
+tectural element uses information derived from the application domain, the 
+requirements model, and available catalogs for patterns and styles to derive a pre22126_ch12_224-251.indd   249pre22126_ch12_224-251.indd   24913/12/13   6:12 PM13/12/13   6:12 PM

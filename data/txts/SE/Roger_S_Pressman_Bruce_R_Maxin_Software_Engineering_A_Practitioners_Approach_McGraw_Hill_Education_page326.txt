@@ -1,0 +1,87 @@
+296 PART TWO  
+MODELINGleft-hand side of the component box; (3) only those interfaces that are relevant to the component under consideration should be shown, even if other interfaces 
+are available. These recommendations are intended to simplify the visual nature 
+of UML component diagrams.   
+ 
+Dependencies and Inheritance.   For improved readability, it is a good idea to model 
+dependencies from left to right and inheritance from bottom (derived classes) to 
+
+top (base classes). In addition, components’ interdependencies should be repre-
+sented via interfaces, rather than by representation of a  component-to-component 
+dependency. Following the philosophy of the OCP, this will help to make the sys-
+
+tem more maintainable. 
+  
+ 
+ 
+14.2.3 Cohesion  
+In Chapter 12, we described cohesion as the “single-mindedness” of a compo-nent. Within the context of component-level design for object-oriented systems, 
+
+ cohesion 
+ implies that a component or class encapsulates only attributes and op-erations that are closely related to one another and to the class or component 
+itself. Lethbridge and Laganiére [Let01] deﬁ ne a number of different types of co-
+hesion (listed in order of the level of the cohesion):  4 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Functional. 
+ Exhibited primarily by operations, this level of cohesion occurs when a module performs one and only one computation and then returns a 
+result.    
+ 
+ 
+ 
+ 
+ 
+Layer.
+ 
+ Exhibited by packages, components, and classes, this type of cohesion occurs when a higher layer accesses the services of a lower layer, but lower 
+
+layers do not access higher layers. Consider, for example, the  
+SafeHome 
+ security function requirement to make an outgoing phone call if an alarm is 
+sensed. It might be possible to deﬁ ne a set of layered packages as shown in 
+ Figure 14.5 . The shaded packages contain infrastructure components. Access is from the control panel package downward.  
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+Communicational. 
+ All operations that access the same data are deﬁ ned 
+within one class. In general, such classes focus solely on the data in question, 
+accessing and storing it.    
+Classes and components that exhibit functional, layer, and communicational 
+ cohesion are relatively easy to implement, test, and maintain. You should strive 
+to achieve these levels of cohesion whenever possible. It is important to note, 
+however, that pragmatic design and implementation issues sometimes force you 
+
+to opt for lower levels of cohesion.  
+ 
+ 
+    Although an under-
+standing of the various 
+levels of cohesion is 
+instructive, it is more 
+
+important to be aware 
+
+of the general concept 
+as you design compo-
+nents. Keep cohesion 
+as high as is possible.   
+4  In general, the higher the level of cohesion, the easier the component is to implement, test, and 
+maintain. pre22126_ch14_285-316.indd   296pre22126_ch14_285-316.indd   29613/12/13   6:12 PM13/12/13   6:12 PM

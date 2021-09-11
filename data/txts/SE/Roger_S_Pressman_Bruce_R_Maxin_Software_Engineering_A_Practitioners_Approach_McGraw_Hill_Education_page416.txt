@@ -1,0 +1,93 @@
+386 PART TWO  
+MODELINGcontent objects or WebApp functions. As each user interacts with the WebApp, 
+she encounters a series of  navigation semantic units 
+ (NSUs)—“a set of informa-
+tion and related navigation structures that collaborate in the fulﬁ llment of a sub-
+set of related user requirements” [Cac02].  An NSU is composed of a set of navigation elements called  ways of navigat-ing 
+ (WoN) [Gna99]. A WoN represents the best navigation pathway to achieve a 
+navigational goal for a speciﬁ c type of user. Each WoN is organized as a set of 
+ navigational nodes 
+ (NN) that are connected by navigational links. In some cases, 
+a navigational link may be another NSU. Therefore, the overall navigation struc-
+ture for a WebApp may be organized as a hierarchy of NSUs. 
+ To illustrate the development of an NSU, consider the use case  
+Select Safe-Home Components 
+: 
+ 
+Use Case: Select SafeHome Components  
+ 
+ 
+ 
+ 
+ 
+The WebApp will recommend  
+product components  (e.g., control panels, sen-sors, cameras) and other features (e.g., PC-based functionality implemented in 
+software) for each  room  and  exterior entrance . If I request alternatives, the WebApp will provide them, if they exist. I will be able to get  
+descriptive andpricing information  for each product component. The WebApp will create and 
+display a  bill-of-materials  as I select various components. I’ll be able to give the bill-of-materials a name and save it for future reference (see use case  Save Conﬁ guration
+ 
+).    
+ 
+The underlined items in the use-case description represent classes and con-tent objects that will be incorporated into one or more NSUs that will enable a 
+new customer to perform the scenario described in the  Select SafeHome Com-ponents 
+ use case.   
+Figure 17.9  depicts a partial semantic analysis of the navigation implied 
+by the  Select SafeHome Components 
+ 
+ 
+ use case. Using the terminology in-
+troduced earlier, the ﬁ
+ gure also represents a way of navigating (WoN) for the 
+   
+SafeHomeAssured.com 
+ 
+ WebApp. Important problem domain classes are shown 
+along with selected content objects (in this case the package of content objects 
+named CompDescription, an attribute of the  
+ProductComponent 
+ class). These items 
+are navigation nodes. Each of the arrows represents a navigation link  9 
+ 
+ and is 
+labeled with the user-initiated action that causes the link to occur. 
+ 
+ 
+  You can create an NSU for each use case associated with each user role. For 
+example, a  new customer 
+ for   
+ 
+SafeHomeAssured.com 
+ 
+ may have three different 
+use cases, all resulting in access to different information and WebApp functions. 
+
+An NSU is created for each goal.  During the initial stages of navigation design, the WebApp content archi-
+tecture is assessed to determine one or more WoN for each use case. As noted 
+   An NSU describes 
+the navigation 
+requirements for each 
+use case. In essence, 
+the NSU shows how an 
+actor moves between 
+content objects or 
+WebApp functions. 
+  uote:  ”The problem of 
+website navigation 
+is conceptual, 
+technical, spatial, 
+philosophical 
+and logistic. 
+Consequently, 
+
+solutions tend to 
+call for complex 
+improvisational 
+combinations of 
+art, science and 
+organizational 
+psychology.” 
+ Tim Horgan 
+  
+9  These are sometimes referred to as  
+navigation semantic links 
+ (NSL) [Cac02]. pre22126_ch17_371-390.indd   386pre22126_ch17_371-390.indd   38613/12/13   6:13 PM13/12/13   6:13 PM

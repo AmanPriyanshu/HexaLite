@@ -1,0 +1,59 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜
+˜ˇ
+˜For SOAP-based services, the realization process, in this case, is simpler as the 
+logical interface design can be translated automatically into WSDL. Most program
+-ming environments that support service-oriented development (e.g., the ECLIPSE 
+
+environment) include tools that can translate a logical interface description into its 
+
+corresponding WSDL representation.
+˜˚˛
+Once you have identified candidate services and designed their interfaces, the final 
+
+stage of the service engineering process is service implementation. This implemen
+-
+tation may involve programming the service using a language such as Java or C#. 
+
+Both of these languages include libraries with extensive support for developing 
+
+SOAP-based and RESTful services.
+Alternatively, you can implement services by creating service interfaces to existing 
+components or legacy systems. Software assets that have already proved to be useful 
+
+can therefore be made available for reuse. In the case of legacy systems, it may mean 
+
+that the system functionality can be accessed by new applications. You can also develop 
+
+new services by defining compositions of existing services, as I explain in Section 
+18.4.Once a service has been implemented, it then has to be tested before it is deployed. 
+This involves examining and partitioning the service inputs (as explained in Chapter 8)
+, creating input messages that reflect these input combinations, and then checking that 
+
+the outputs are expected. You should always try to generate exceptions during the test 
+
+to check that the service can cope with invalid inputs. For SOAP-based services, testing 
+
+tools are available that allow services to be examined and tested, and that generate tests 
+
+from a WSDL specification. However, these tools can only test the conformity of the 
+
+service interface to the WSDL. They cannot test the service™s functional behavior.
+Service deployment, the final stage of the process, involves making the service 
+available for use on a web server. Most server software makes this operation straight
+-
+forward. You install the file containing the executable service in a specific directory. 
+
+It then automatically becomes available for use.
+If the service is intended to be available within a large organization or as a pub
+-licly available service, you then have to provide documentation for external service 
+
+users. Potential users can then decide if the service is likely to meet their needs and 
+Legacy system services
+Legacy systems are old software systems that are used by an organization. It may not be cost-effective to rewrite 
+or replace these systems, and many organizations would like to use them in conjunction with more modern 
+systems. One of the most important uses of services is to implement ﬁwrappersﬂ for legacy systems that provide 
+
+access to a system™s functions and data. These systems can then be accessed over the web and integrated with 
+
+other applications.http://software-engineering-book.com/web/legacy-services

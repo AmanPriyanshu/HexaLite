@@ -1,0 +1,38 @@
+412 Chapter 6  
+NetworksIn Figure 6-28 we complicated the scene a bit by adding more routers; for simplicity we do not show their subnetworks. These routers will all advertise their connectivity, 
+
+from which they can determine the shortest path between any pair of points. Notice that 
+
+A is rather isolated from T; its shortest path is B-N-P-Q-T.
+Routers operate on implicit trust; what a router reports is believed to be true. Rout-
+ers do, however, sometimes malfunction or their administrators enter inaccurate data, so 
+
+routing tables can become corrupted from nonmalicious (and malicious) causes. In our 
+example, if router A advertised it was distance 1 from the 90.0.0.0 subnetwork, most traf-
+
+fic to that subnetwork would be routed to A, because that distance would beat any path 
+
+except T itself. If A received that traffic, it could easily intercept and modify any traffic 
+
+to that network, so a rogue router in 
+
+a network could instigate a man-in-
+
+the-middle attack in this way.
+Router Takes Over a Network
+At the 2008 Defcon conference, most attendees were unaware that two researchers had 
+rerouted the conference’s wireless network through their equipment. The research-
+
+ers, Pilosov and Kapela [PIL08] described and demonstrated their attack. Although 
+
+the attack is more detailed than we want to present here, it extends the approach just 
+
+described. Other papers (such as [HEP09, KUH07, and BEL89]) have discussed similar 
+
+vulnerabilities.Routers communicate available paths by the BGP (Border Gateway) protocol, which 
+is complex, so attacks against it are sophisticated but certainly feasible. Details such as 
+
+timing and sequence numbers must be captured and used correctly in order for a BGP 
+update to be recognized and accepted by the rest of the network. Furthermore, attacks on 
+10.0.0.090.0.0.020.0.0.030.0.0.0ATDBCMNPQFIGURE 6-28 More Complex Router Connectivity Diagram
+Routers implicitly trust each other.

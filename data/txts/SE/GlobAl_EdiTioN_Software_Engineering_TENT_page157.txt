@@ -1,0 +1,31 @@
+˜˜˚ˆ˜˜˜˜˜˜
+Cookdo:run
+generatorDonedo:buzzer on
+for 5 secs.Waiting
+Alarmdo:display
+eventdo:check
+statusCheckingTurntable
+faultEmitter
+faultDisabledOKTimeout
+Time
+Door openCancelOperationFigure 5.17 A state model of the 
+Operation stateI have assumed that the sequence of actions in using the microwave is as follows:1. Select the power level (either half power or full power).2. Input the cooking time using a numeric keypad.3. Press Start and the food is cooked for the given time.For safety reasons, the oven should not operate when the door is open, and, on 
+completion of cooking, a buzzer is sounded. The oven has a simple display that is 
+used to display various alerts and warning messages.In UML state diagrams, rounded rectangles represent system states. They may 
+include a brief description (following ﬁdoﬂ) of the actions taken in that state. The 
+
+labeled arrows represent stimuli that force a transition from one state to another. You 
+
+can indicate start and end states using filled circles, as in activity diagrams.From Figure 5.16, you can see that the system starts in a waiting state and 
+responds initially to either the full-power or the half-power button. Users can change 
+their minds after selecting one of these and may press the other button. The time is 
+
+set and, if the door is closed, the Start button is enabled. Pushing this button starts the 
+oven operation, and cooking takes place for the specified time. This is the end of the 
+cooking cycle, and the system returns to the waiting state.The problem with state-based modeling is that the number of possible states 
+increases rapidly. For large system models, therefore, you need to hide detail in the 
+models. One way to do this is by using the notion of a ﬁsuperstateﬂ that encapsulates 
+a number of separate states. This superstate looks like a single state on a high-level 
+model but is then expanded to show more detail on a separate diagram. To illustrate 
+
+this concept, consider the Operation state in Figure 5.16. This is a superstate that can be expanded, as shown in Figure 5.17.

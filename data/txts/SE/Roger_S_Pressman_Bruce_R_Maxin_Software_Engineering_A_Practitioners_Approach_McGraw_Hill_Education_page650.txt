@@ -1,0 +1,65 @@
+620 PART THREE  
+QUALITY MANAGEMENT 
+Formal methods use the descriptive facilities of set theory and logic notation to enable a software engineer to create a clear statement of facts (requirements). 
+The underlying concepts that govern formal methods are: (1) the data invariant, 
+a condition true throughout the execution of the system that contains a collec-
+tion of data; (2) the state, a representation of a system’s externally observable 
+
+mode of behavior, or (in Z and related languages) the stored data that a system 
+
+accesses and alters; and (3) the operation, an action that takes place in a system 
+and reads or writes data to a state. An operation is associated with two condi-
+tions: a precondition and a postcondition.  Will cleanroom software engineering or formal methods ever be widely used? 
+The answer is probably not. They are more difﬁ cult to learn than conventional 
+software engineering methods and represent signiﬁ cant “culture shock” for 
+some software practitioners. But the next time you hear someone lament, “Why 
+can’t we get this software right the ﬁ rst time?” you’ll know that there are tech-
+niques that can help you to do exactly that.   
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+28.1.  If you had to pick one aspect of cleanroom software engineering that makes it radi-cally different from conventional or object-oriented software engineering approaches, what 
+would it be?    
+ 
+28.2.  How do an incremental process model and certiﬁ cation work together to produce 
+high-quality software?    
+ 
+28.3.  Using box structure speciﬁ cation, develop “ﬁ
+ rst-pass” analysis and design models for 
+the  SafeHome 
+ system.    
+ 
+28.4.  A bubble-sort algorithm is deﬁ ned in the following manner:
+procedure bubblesort;var i, t, integer;
+begin
+repeat until t=a[1]
+ t:=a[1];
+
+ for j:= 2 to n do
+
+  if a[j-1] > a[j] then begin
+
+   t:=a[j-1];
+
+   a[j-1]:=a[j];
+
+   a[j]:=t;
+
+   end
+
+endrep
+end    
+ 
+Partition the design into subfunctions, and deﬁ ne a set of conditions that would enable you 
+to prove that this algorithm is correct.    
+ 
+28.5.  Document a correctness veriﬁ cation proof for the bubble sort discussed in Problem 28.4. 
+   
+ 
+28.6.  Select a program that you use regularly (e.g., an e-mail handler, a word processor, a 
+spreadsheet program). Create a set of usage scenarios for the program. Deﬁ ne the proba-
+bility of use for each scenario, and then develop a program stimuli and probability distribu-
+tion table similar to the one shown in Section 28.4.1.  pre22126_ch28_601-622.indd   620pre22126_ch28_601-622.indd   62013/12/13   6:15 PM13/12/13   6:15 PM

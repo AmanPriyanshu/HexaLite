@@ -1,0 +1,75 @@
+212 Chapter 3  
+Programs and ProgrammingSIDEBAR 3-11 Absence vs. Presence
+Charles Pfleeger [PFL97] points out that security requirements resemble 
+those for any other computing task, with one seemingly insignificant dif-
+ference. Whereas most requirements say “the system will do this,” security 
+
+requirements add the phrase “and nothing more.” As we pointed out in 
+
+Chapter 1, security awareness calls for more than a little caution when a 
+
+creative developer takes liberties with the system’s specification. Ordinar-
+
+ily, we do not worry if a programmer or designer adds a little something 
+
+extra. For instance, if the requirement calls for generating a file list on a 
+
+disk, the “something more” might be sorting the list in alphabetical order 
+
+or displaying the date it was created. But we would never expect someone 
+
+to meet the requirement by displaying the list and then erasing all the files 
+
+on the disk!If we could easily determine whether an addition were harmful, we 
+could just disallow harmful additions. But unfortunately we cannot. For 
+
+security reasons, we must state explicitly the phrase “and nothing more” 
+
+and leave room for negotiation in the requirements definition on any pro-
+
+posed extensions.Programmers naturally want to exercise their creativity in extending 
+and expanding the requirements. But apparently benign choices, such as 
+
+storing a value in a global variable or writing to a temporary file, can have 
+
+serious security implications. And sometimes the best design approach 
+
+for security is the counterintuitive one. For example, one attack on a cryp-
+
+tographic system depends on measuring the time it takes the system to 
+
+perform an encryption. With one encryption technique, the time to encrypt 
+
+depends on the key, a parameter that allows someone to “unlock” or 
+
+decode the encryption; encryption time specifically depends on the size 
+
+or the number of bits in the key. The time measurement helps attackers 
+
+know the approximate key length, so they can narrow their search space 
+
+accordingly (as described in Chapter 2). Thus, an efficient implementation 
+
+can actually undermine the system’s security. The solution, oddly enough, 
+
+is to artificially pad the encryption process with unnecessary computation 
+
+so that short computations complete as slowly as long ones.
+In another instance, an enthusiastic programmer added parity check-
+ing to a cryptographic procedure. But the routine generating the keys did 
+
+not supply a check bit, only the keys themselves. Because the keys were 
+
+generated randomly, the result was that 255 of the 256 encryption keys 
+
+failed the parity check, leading to the substitution of a fixed key—so that 
+
+without warning, all encryptions were being performed under the same key!
+No technology can automatically distinguish malicious extensions 
+from benign code. For this reason, we have to rely on a combination of 
+
+approaches, including human-intensive ones, to help us detect when we 
+
+are going beyond the scope of the requirements and threatening the sys-
+
+tem’s security.

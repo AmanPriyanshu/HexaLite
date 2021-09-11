@@ -1,0 +1,44 @@
+You therefore have to design your system to deny access to everyone until they 
+have changed their password and to email all users asking them to make the 
+change. You need an alternative mechanism to authenticate real users for password 
+
+change, assuming that their chosen passwords may not be secure. One way of 
+
+doing this is to use a challenge/response mechanism, where users have to answer 
+
+questions for which they have pre-registered answers. This is only invoked when 
+
+passwords are changed, allowing for recovery from the attack with relatively little 
+
+user disruption.Designing for recoverability is an essential element of building resilience into 
+systems. I cover this topic in more detail in Chapter 14.Secure system design means designing security into an application system. However, 
+
+as well as focusing on security at the design level, it is also important to consider security 
+
+when programming a software system. Many successful attacks on software rely on 
+
+program vulnerabilities that were introduced when the program was developed.The first widely known attack on Internet-based systems happened in 1988 when a worm was introduced into Unix systems across the network (Spafford 1989). This 
+took advantage of a well-known programming vulnerability. If systems are pro
+-
+grammed in C, there is no automatic array bound checking. An attacker can include 
+a long string with program commands as an input, and this overwrites the program 
+stack and can cause control to be transferred to malicious code. This vulnerability 
+has been exploited in many other systems programmed in C or C++ since then.This example illustrates two important aspects of secure systems programming:1. Vulnerabilities are often language-specific. Array bound checking is automatic 
+in languages such as Java, so this is not a vulnerability that can be exploited in 
+Java programs. However, millions of programs are written in C and C++ as 
+
+these allow for the development of more efficient software. Thus. simply avoid-
+ing the use of these languages is not a realistic option.2.
+ Security vulnerabilities are closely related to program reliability. The above 
+
+example caused the program concerned to crash, so actions taken to improve 
+
+program reliability can also improve system security.In Chapter 11, I introduced programming guidelines for dependable system pro-gramming. These  are shown in Figure 13.16. These guidelines also help improve 
+the security of a program as attackers focus on program vulnerabilities to gain access 
+to a system. For example, an SQL poisoning attack is based on the attacker filling in 
+a form with SQL commands rather than the text expected by the system. These can 
+corrupt the database or release confidential information. You can completely avoid 
+this problem if you implement input checks (Guideline 2) based on the expected 
+
+format and structure of the inputs.˜˜˚˛˙˜˜˜
+˜˜˜

@@ -1,0 +1,59 @@
+CHAPTER 18  
+MOBILEAPP DESIGN 395of conﬁ dence in the security and privacy of a MobileApp often reduce the 
+usability of the app and the spontaneity of the communication among users 
+
+[Rot02].  
+  
+Computational and storage limitations. 
+  There is great interest in using 
+mobile devices to control home environmental and security services. When 
+MobileApps are allowed to interact with devices and services in their en-
+vironment, it is easy to overwhelm the mobile device (storage, processing 
+speed, power consumed) with the sheer volume of information [Spa11]. 
+Developers may need to look for programming shortcuts and means of 
+ reducing the demands made on processor and memory resources.   
+Applications that depend on external services. 
+  Building thin 
+  mobile  clients suggests the need to rely on Web service providers and cloud stor-
+age facilities. This increases concerns for both data or service accessibility 
+and security [Rot02].   
+Testing complexity.
+ 
+  Thin-client MobileApps are particularly challeng-
+ing to test.  12 
+ 
+ They exhibit many of the same testing challenges found in  WebApps (Chapter 25), but they have the additional concerns associated 
+with transmission of data through Internet gateways and telephone net-
+works [Was10]. Testing of MobileApps will be discussed in Chapter 26. 
+  
+ 
+ 
+ 
+ 
+ 
+ 18.2  
+DEVELOPING MOBILEAPPS  
+ 
+Andreu [And05] describes a spiral engineering process model for MobileApp de-sign containing six activities:   
+ 
+ 
+Formulation. 
+ Involves architectural design, navigation design, the goals, fea-tures, and functions of the MobileApp are identiﬁ ed to determine the scope and 
+the size of the ﬁ rst increment. Developers must be conscious of human, social, 
+cultural, and organizational activities that may reveal hidden aspects of the 
+users’ needs and affect the business targets and functionality of the proposed 
+MobileApp.   
+Planning. 
+ The total project costs and risks are determined. The detailed schedule is set and the process for the next increments is documented.   
+Analysis. 
+ All mobile user requirements are speciﬁ ed and the content items 
+that will be needed are identiﬁ ed. Actions include content analysis, interaction 
+analysis, functional analysis, and conﬁ guration analysis. It is at this stage that 
+developers identify whether they will build a thin or fat client. Identifying the 
+nature of the user goals (informational or transactional) will help to determine 
+the type of MobileApp that needs to be developed.    WebApp development 
+makes use of an agile, 
+spiral engineering 
+process model.   
+12  MobileApps that run entirely on the device can be tested using traditional software testing 
+methods (Chapter 23) or using emulators running on personal computers. pre22126_ch18_391-410.indd   395pre22126_ch18_391-410.indd   39516/12/13   6:23 PM16/12/13   6:23 PM

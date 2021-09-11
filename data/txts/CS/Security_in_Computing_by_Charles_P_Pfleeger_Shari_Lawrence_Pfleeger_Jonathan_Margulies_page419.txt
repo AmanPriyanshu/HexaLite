@@ -1,0 +1,24 @@
+ Section 6.3  Wireless Network Security 
+385  A better protocol design would have been for the access point and the associating 
+device to establish a shared data value to be used during this one association only. In 
+
+that way, intercepting the initial authentication request would reveal the SSID, but inter-
+
+cepting any later frame would not.
+Authentication in Wireless Networks
+Access points can manage lists of MAC addresses of devices with which they will 
+accept connections. Thus, authentication in step 2 could be accomplished by accepting 
+
+only devices on the positive accept list.
+Changeable MAC Addresses
+The operating system doesn’t actually always obtain the hardware MAC address of a 
+NIC card, but instead it consults internal data, so changing the MAC address requires 
+
+changing only the network card address table. Instructions for doing that are easy to 
+
+find on the Internet.
+Access point(a) Open ModeRoguereceiver
+Intendedreceiver
+SSIDRoguereceiver
+(b) Closed ModeSSIDRoguereceiver
+Access pointFIGURE 6-17 Connecting in Open and Closed Mode

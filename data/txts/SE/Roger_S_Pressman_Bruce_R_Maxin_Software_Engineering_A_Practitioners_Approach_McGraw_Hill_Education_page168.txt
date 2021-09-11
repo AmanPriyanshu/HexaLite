@@ -1,0 +1,109 @@
+138 PART TWO  
+MODELING 
+ 
+ 
+ 
+Requirements management.   Requirements for computerchange, 
+and the desire to change requirements persists throughout the life of the system. 
+
+Requirements management is a set of activities that help the project team identify, 
+
+control, and track requirements and changes to requirements at any time as the 
+
+project proceeds.  6 
+ 
+ Many of these activities are identical to the software conﬁ
+ gura-
+tion management (SCM) techniques discussed in Chapter 29. 
+  
+6  Formal requirements management is initiated only for large projects that have hundreds of 
+identiﬁ able requirements. For small projects, this requirements engineering function is con-
+siderably less formal.   
+7  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+  
+8  This approach is strongly recommended for projects that adopt an agile software development 
+philosophy. 
+  
+Requirements Engineering 
+ 
+ 
+ 
+ 
+ Objective:   Requirements engineering tools assist in requirements gathering, requirements modeling, requirements management, and requirements 
+validation.   
+ 
+Mechanics:   
+Tool mechanics vary. In general, 
+requirements engineering tools build a variety 
+of graphical (e.g., UML) models that depict the 
+informational, functional, and behavioral aspects of 
+
+a system. These models form the basis for all other 
+
+activities in the software process.   
+ 
+ 
+Representative Tools:  7 
+ 
+  
+A reasonably comprehensive (and up-to-date) listing of requirements engineering tools can be found at the 
+Volvere Requirements resources site at  
+ 
+www.volere.
+co.uk/tools.htm 
+ 
+. Requirements modeling tools are discussed in Chapters 9 and 10. Tools noted below 
+focus on requirement management.   
+EasyRM, 
+ developed by Cybernetic Intelligence GmbH 
+( http://www.visuresolutions.com/visure-
+requirements-software 
+), Visure Requirements is a ﬂ exible and complete requirements engineering 
+life-cycle solution, supporting requirements capture, 
+
+analysis, speciﬁ cation, validation and veriﬁ
+ cation, 
+management, and reuse.   
+Rational RequisitePro,  developed by Rational Software 
+(  
+www-03.ibm.com/software/products/us/
+en/reqpro
+ 
+ 
+), allows users to build a requirements 
+database; represent relationships among requirements; 
+
+and organize, prioritize, and trace requirements. 
+ Many additional requirements management tools can be found at the Volvere site noted earlier and at  
+ 
+www.jiludwig.com/Requirements_Management_
+Tools.html
+ 
+ 
+.  
+  
+SOFTWARE
+ TOOLS  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 8.2 E
+STABLISHING
+ THE GROUNDWORK  
+ 
+In an ideal setting, stakeholders and software engineers work together on the same team.  8 
+ 
+ In such cases, requirements engineering is simply a matter of con-
+ducting meaningful conversations with colleagues who are well-known members 
+of the team. But reality is often quite different.  Customer(s) or end users may be located in a different city or country, may 
+have only a vague idea of what is required, may have conﬂ icting opinions about 
+the system to be built, may have limited technical knowledge, and may have pre22126_ch08_131-165.indd   138pre22126_ch08_131-165.indd   13813/12/13   6:11 PM13/12/13   6:11 PM

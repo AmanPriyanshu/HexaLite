@@ -1,0 +1,59 @@
+ Section 6.11  Exercises 
+497  3. Telecommunications network providers and users are concerned about the single point of 
+failure in “the last mile,” which is the single cable from the network provider’s last switching 
+
+station to the customer’s premises. How can a customer protect against that single point of 
+
+failure? Comment on whether your approach presents a good cost-benefit trade-off.
+4. You are designing a business in which you will host companies’ websites. What issues can 
+you see as single points of failure? List the resources that could be involved. State ways to 
+
+overcome each resource’s being a single point of failure.
+5. The human body exhibits remarkable resilience. State three examples in which the body 
+compensates for failure of single body parts.
+6. How can hardware be designed for fault tolerance? Are these methods applicable to soft-
+ware? Why or why not?
+7. The old human telephone “switches” were quaint but very slow. You would signal the opera-
+tor and say you wanted to speak to Jill, but the operator, knowing Jill was visiting Sally, 
+
+would connect you there. Other than slowness or inefficiency, what are two other disadvan-
+
+tages of this scheme?8. An (analog) telephone call is “circuit based,” meaning that the system chooses a wire path 
+from sender to receiver and that path or circuit is dedicated to the call until it is complete. 
+
+What are two disadvantages of circuit switching?
+9. The OSI model is inefficient; each layer must take the work of higher layers, add some result, 
+and pass the work to lower layers. This process ends with the equivalent of a gift inside seven 
+
+nested boxes, each one wrapped and sealed. Surely this wrapping (and unwrapping) is inef-
+
+ficient. (Proof of this slowness is that the protocols that implement the Internet—TCP, UDP, 
+
+and IP—are represented by a four-layer architecture.) From reading earlier chapters of this 
+
+book, cite a security advantage of the layered approach.
+10. Obviously, the physical layer has to be at the bottom of the OSI stack, with applications at the 
+top. Justify the order of the other five layers as moving from low to high abstraction.
+11. List the major security issues dealt with at each level of the OSI protocol stack.
+12. What security advantage occurs from a packet’s containing the source NIC address and not 
+just the destination NIC address?13. TCP is a robust protocol: Sequencing and error correction are ensured, but there is a penalty 
+in overhead (for example, if no resequencing or error correction is needed). UDP does not 
+
+provide these services but is correspondingly simpler. Cite specific situations in which the 
+
+lightweight UDP protocol could be acceptable, that is, when error correction or sequencing 
+is not needed.14. Assume no FTP protocol exists. You are asked to define a function analogous to the FTP 
+PUT for exchange of files. List three security features or mechanisms you would include in 
+
+your protocol.15. A 32-bit IP addressing scheme affords approximately 4 billion addresses. Compare this num-
+ber to the world’s population. Every additional bit doubles the number of potential addresses. 
+
+Although 32 bits is becoming too small, 128 bits seems excessive, even allowing for signifi-
+
+cant growth. But not all bits have to be dedicated to specifying an address. Cite a security use 
+
+for a few bits in an address.
+16. When a new domain is created, for example, yourdomain.com, a table in the .com domain 
+has to receive an entry for yourdomain. What security attack might someone try against the 
+
+registrar of .com (the administrator of the .com table) during the creation of yourdomain.com?

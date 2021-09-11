@@ -1,0 +1,82 @@
+ Section 2.1  Authentication 
+45  Two friends we know told us their passwords as we helped them administer their 
+systems, and their passwords would both have been among the first we would have 
+
+guessed. But, you say, these are amateurs unaware of the security risk of a weak pass-
+
+word. At a recent meeting, a security expert related this experience: He thought he had 
+
+chosen a solid password, so he invited a class of students to ask him questions and offer 
+
+guesses as to his password. He was amazed that they asked only a few questions before 
+
+they had deduced the password. And this was a security expert!
+The conclusion we draw from these incidents is that people choose weak and easily 
+guessed passwords more frequently than some might expect. Clearly, people find some-
+
+thing in the password process that is difficult or unpleasant: Either people are unable 
+
+to choose good passwords, perhaps because of the pressure of the situation, or they 
+
+fear they will forget solid passwords. In either case, passwords are not always good 
+
+authenticators.Guessing Probable Passwords Think of a word. Is the word you thought of long? Is it uncommon? Is it hard to spell or 
+
+to pronounce? The answer to all three of these questions is probably no.
+Penetrators searching for passwords realize these very human characteristics and use 
+them to their advantage. Therefore, penetrators try techniques that are likely to lead to 
+
+rapid success. If people prefer short passwords to long ones, the penetrator will plan to 
+
+try all passwords but to try them in order by length. There are only 26
+1  26
+2  26
+3  18,278 (not case sensitive) passwords of length 3 or less. Testing that many passwords 
+
+would be difficult but possible for a human, but repetitive password testing is an easy 
+
+computer application. At an assumed rate of one password per millisecond, all of these 
+
+passwords can be checked in 18.278 seconds, hardly a challenge with a computer. Even 
+
+expanding the tries to 4 or 5 characters raises the count only to 475 seconds (about 
+
+8 minutes) or 12,356 seconds (about 3.5 hours), respectively.
+This analysis assumes that people choose passwords such as vxlag and msms as 
+often as they pick enter and beer. However, people tend to choose names or words they 
+
+can remember. Many computing systems have spelling checkers that can be used to 
+
+check for spelling errors and typographic mistakes in documents. These spelling check-
+
+ers sometimes carry online dictionaries of the most common English words. One con-
+
+tains a dictionary of 80,000 words. Trying all of these words as passwords takes only 80 
+
+seconds at the unrealistically generous estimate of one guess per millisecond.Nobody knows what the most popular password is, although some conjecture it 
+is “password.” Other common ones are user, abc123, aaaaaa (or aaaaa or aaaaaaa), 
+
+123456, and asdfg or qwerty (the arrangement of keys on a keyboard). Lists of com-
+
+mon passwords are easy to find (for example, http://blog.jimmyr.com/Password_ 
+
+analysis_of_databases_that_were_hacked_28_2009.php). See also http://threatpost.
+
+com/password-is-no-longer-the-worst-password/103746 for a list of the most common 
+
+passwords, obtained in a data breach from Adobe, Inc. From these examples you can 
+
+tell that people often use anything 
+
+simple that comes to mind as a pass-
+
+word, so human attackers might 
+
+succeed by trying a few popular 
+
+passwords.
+Common passwords—such as 
+
+qwerty, password, 123456—are used 
+
+astonishingly often.

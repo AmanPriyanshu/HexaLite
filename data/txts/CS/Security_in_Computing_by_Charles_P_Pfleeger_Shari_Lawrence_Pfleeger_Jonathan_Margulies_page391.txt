@@ -1,0 +1,76 @@
+ Section 6.2  Threats to Network Communications 
+357  an error message in the real switch software was not delivered successfully, 
+which triggered an alert condition. While investigating the source of the 
+
+alert, Ericsson engineers found the addition.
+The lesson from that compromise is that backdoors, even undocu-
+mented, can be found and exploited. Security through obscurity is not an 
+
+effective countermeasure.
+SIDEBAR 6-4 Distributed Authentication Failures
+Authentication must be handled carefully and correctly in a network because 
+
+a network involves authentication not just of people but also of processes, 
+
+servers, and services only loosely associated with a person. And for a net-
+
+work, the authentication process and database are often distributed for 
+
+performance and reliability. Consider the authentication scheme Microsoft 
+
+implemented for its Windows operating systems in 2000. In Windows NT 4.0, 
+
+the first Microsoft system to support large-scale distributed computing, the 
+
+authentication database was distributed among several domain controllers. 
+
+Each domain controller was designated as a primary or backup controller. All 
+
+changes to the authentication database had to be made to the (single) pri-
+mary domain controller; the changes were then replicated from the primary to 
+
+the backup domain controllers. This approach meant changes were consis-
+
+tently controlled and implemented at the single point of the primary controller. 
+
+Of course, this single controller also became a single point of failure and a 
+
+potential performance bottleneck for the domain.
+In Windows 2000, the concept of primary and backup domain con-
+trollers was abandoned. Instead, the network viewed controllers as equal 
+
+trees in a forest, in which any domain controller could update the authenti-
+
+cation database. This scheme reflected Microsoft’s notion that the system 
+
+was “multimaster”: Only one controller could be master at a given time, but 
+
+any controller could be a master. Once changes were made to a master, 
+
+they were automatically replicated to the remaining domain controllers in 
+
+the forest.
+This approach was more flexible and robust than the primary–sec-
+ondary approach because it allowed any controller to take charge—espe-
+
+cially useful if one or more controllers failed or were out of service for 
+
+some reason. But the multimaster approach introduced a new problem: 
+
+Because any domain controller could initiate changes to the authentication 
+
+database, any hacker able to dominate a single domain controller could 
+
+alter the authentication database. And, what’s worse, the faulty changes 
+
+were then replicated throughout the remaining forest. Theoretically, the 
+
+hacker could access anything in the forest that relied on Windows 2000 for 
+
+authentication.When we think of attackers, we usually think of threats from outside 
+the system. But in fact the multimaster approach could tempt people inside 
+
+the system, too. A domain administrator in any domain in the forest could 
+
+access domain controllers within that domain. Thanks to multimaster, the 
+(continues)

@@ -1,0 +1,122 @@
+600 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+27.10.  Compute the annual loss expectancy (ALE) for the loss of a data server whose re-placement value is $30,000, the occurrence of loss of data due to hacking is 5 percent annu-
+ally, and the potential loss is $20,000. 
+  
+ 
+ 
+ 
+  F
+URTHER
+ READINGS AND INFORMATION
+ SOURCES  
+ 
+Books by Vacca ( 
+Computer and Information Security Handbook, 
+ 2nd ed., Morgan Kaufman, 
+2013), Goodrich and Tamassia ( 
+Introduction to Computer Security,
+ 
+ Addison-Wesley, 2010), 
+Anderson ( Security Engineering, 
+ 2nd ed., 2008), Kern et al. ( 
+Foundations of Security,
+ 
+ Apress, 
+2007), McGraw ( Software Security,
+ 
+ Addison-Wesley, 2006), and Dowd and his colleagues 
+( The Art of Software Assessment: Identifying and Preventing Software Vulnerabilities,
+ 
+ Addison-Wesley, 2006) address important security issues. Zalewski ( 
+The Tangled Web: A 
+Guide to Securing Modern Web Applications,
+ 
+ No Starch Press, 2011) and Howard and LeBlanc 
+( Writing Secure Code,
+ 
+ 2nd ed., Microsoft Press, 2003) discuss how to construct secure sys-
+tems. A project manager’s view is presented by Allen et al. ( 
+Software Security Engineering,
+ 
+ Addison-Wesley, 2008). Howard and Lipner ( 
+The Security Development Lifecycle, 
+ Microsoft 
+Press, 2006) discuss the security engineering process. Schumacher et al. ( Security Patterns, 
+ Wiley, 2006) provide insight into the use of patterns as one element of effective security 
+
+engineering.   
+ 
+Others focus on the “break-in” side. Books by Barnett and Grossan ( Web Application 
+Defender’s Cookbook: Battling Hackers and Protecting Users,
+ 
+ Wiley, 2012), Ottenheimer and 
+Wallace ( 
+Securing the Virtual Environment: How to Defend Against Enterprise Attack
+ 
+ , Wiley, 
+2012), Studdard and Pinto ( The Web Application Hacker’s Handbook,
+ 
+ Wiley, 2011), Howard 
+and his colleagues ( 24 Deadly Sins of Software Security,
+ 
+ McGraw-Hill, 2009), Erickson 
+( Hacking: The Art of Exploration, 
+ No Starch Press, 2008), Andrews and Whittaker ( 
+How to Break Web Software,
+ 
+ Addison-Wesley, 2006), Whittaker ( 
+How to Break Software Security,
+ 
+ Addison-Wesley, 2003), provide useful insight for software engineers who need to under-
+
+stand how to attack systems and applications.   
+ 
+Sikorski and Honig ( Practical Malware Analysis,
+ 
+ No Starch Press, 2012) and Ligh et al. 
+( Malware Analyst’s Cookbook,
+ 
+ Wiley, 2010) provide excellent insight into the inner working 
+of malware. Swiderski ( Threat Modeling,
+ 
+ Microsoft Press, 2004) presents a detailed discus-
+sion of threat modeling.   
+ 
+Guidelines for those who must conduct security testing are provided in books by Allen ( Advanced Penetration Testing for Highly Secured Environments,
+ 
+ Packt Publishing, 2012), 
+O’Gorman ( Metaspoit: The Penetration Tester’s Guide,
+ 
+ No Starch Press, 2011), Faircloth 
+( Penetration Tester’s Open Source Tool Kit,
+ 
+ Syngress, 2011), Engebretson ( 
+The Basics of Hacking and Penetration Testing,
+ 
+ Syngress, 2011), Faircloth  
+(Penetration Tester’s Open 
+Source Tool Kit,
+ 
+ Syngress, 2011), Hope and Walther ( 
+Web Security Testing Cookbook,
+ 
+ O’Reilly 
+Media, 2008), and Wysopal et al. ( 
+The Art of Software Security Testing,
+ 
+ Addison-Wesley, 2006). 
+  
+ 
+A wide variety of information sources on security engineering are available on the Internet. An up-to-date list of World Wide Web references that are relevant to pattern-based 
+
+design can be found at the SEPA website:  
+www.mhhe.com/pressman
+ 
+.  
+ 
+ 
+ 
+ pre22126_ch27_584-600.indd   600pre22126_ch27_584-600.indd   60016/12/13   6:23 PM16/12/13   6:23 PM

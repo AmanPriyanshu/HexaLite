@@ -1,0 +1,75 @@
+846 PART FIVE  
+ADVANCED TOPICS
+ 
+ 
+ 
+ 
+38.4.2   
+Open-World Software 
+ 
+Concepts such as ambient intelligence,  6 
+ 
+ context-aware applications, and per-
+vasive/ubiquitous computing—all focus on integrating software-based systems 
+into an environment far broader that a PC, a mobile computing device, or any 
+other digital device. These separate visions of the near-term future of computing 
+
+collectively suggest “open-world software”—software that is designed to adapt 
+to a continually changing environment “by self-organizing its structure and 
+self-adapting its behavior” [Bar06b].    
+ 
+To help illustrate the challenges that software engineers will face in the fore-
+seeable future, consider the notion of  ambient intelligence 
+ (amI). Ducatel [Duc01] 
+deﬁ nes amI in the following way: “People are surrounded by intelligent, intuitive 
+interfaces that are embedded in all kinds of objects. The ambient intelligence en-
+vironment is capable of recognizing and responding to the presence of different 
+individuals [while working] in a seamless, unobtrusive way.” 
+ With the widespread use of low-cost, yet increasingly powerful smartphones, 
+we are well on our way to ubiquitous amI systems. The challenge for software 
+engineers is to develop apps that provide ever-increasing functionality in prod-
+
+ucts of all types—functionality that adapts to user needs while at the same time 
+protecting privacy and providing security. 
+  
+ 
+ 
+38.4.3   
+Emergent Requirements 
+ 
+At the beginning of a software project, there’s a truism that applies equally to 
+every stakeholder involved: “You don’t know what you don’t know.” That means 
+
+that customers rarely deﬁ ne “stable” requirements. It also means that software 
+engineers cannot always foresee where ambiguities and inconsistencies lie. 
+Requirements change—but that’s nothing new. 
+  
+ 
+As systems become more complex, it follows that even a rudimentary at-tempt to state comprehensive requirements is doomed to failure. A statement of 
+overall goals may be possible, delineation of intermediate objectives can be ac-
+complished, but stable requirements—not a chance! Requirements will emerge 
+as everyone involved in the engineering and construction of a complex system 
+learns more about it, the environment in which it is to reside, and the users who 
+will interact with it.  This reality implies a number of software engineering trends. First, process models must be designed to embrace change and adopt the basic tenets of the 
+agile philosophy (Chapter 5). Next, methods that yield engineering models (e.g., 
+requirements and design models) must be used judiciously because those mod-
+els will change repeatedly as more knowledge about the system is acquired.    Open-world software 
+encompasses ambient 
+intelligence, context-
+aware apps, and 
+pervasive computing. 
+   Because emergent 
+
+requirements are 
+already a reality, your 
+
+organization should 
+consider adopting an 
+incremental process 
+model.   
+6  A worthwhile and quite detailed introduction to  
+ambient intelligence 
+ can be found at 
+www.
+emergingcommunication.com/volume6.html. More information can be obtained at www. 
+ambientintelligence.org/. pre22126_ch38_839-859.indd   846pre22126_ch38_839-859.indd   84613/12/13   6:17 PM13/12/13   6:17 PM

@@ -1,0 +1,64 @@
+498 Chapter 6  
+Networks17. A port scanner is a tool useful to an attacker to identify possible vulnerabilities in a potential 
+victim’s system. Cite a situation in which someone who is not an attacker could use a port 
+
+scanner for a nonmalicious purpose.18. One argument in the security community is that lack of diversity is itself a vulnerability. For 
+example, the two dominant browsers, Mozilla Firefox and Microsoft Internet Explorer, are 
+
+used by approximately 95 percent of Internet users. What security risk does this control of 
+
+the market introduce? Suppose there were three (each with a significant share of the market). 
+
+Would three negate that security risk? If not, would four? Five? Explain your answers.
+19. Compare copper wire, microwave, optical fiber, infrared, and (radio frequency) wireless in 
+their resistance to passive and active wiretapping.
+20. Explain why the onion router prevents any intermediate node from knowing the true source 
+and destination of a communication.21. Onion routing depends on intermediate nodes. Is it adequate for there to be only one interme-
+diate node? Justify your answer.
+22. Suppose an intermediate node for onion routing were malicious, exposing the source and 
+destination of communications it forwarded. Clearly this disclosure would damage the con-
+
+fidentiality onion routing was designed to achieve. If the malicious node were one of two in 
+
+the middle, what would be exposed. If it were one of three, what would be lost. Explain your 
+
+answer in terms of the malicious node in each of the first, second, and third positions. How 
+
+many nonmalicious nodes are necessary to preserve privacy?
+23. A problem with pattern matching is synonyms. If the current directory is bin, and . denotes 
+the current directory and .. its parent, then bin, ../bin, ../bin/., .././bin/../bin all denote the same 
+directory. If you are trying to block access to the bin directory in a command script, you need 
+
+to consider all these variants (and an infinite number more). Cite a means by which a pattern-
+
+matching algorithm copes with synonyms.
+24. The HTTP protocol is by definition stateless, meaning that it has no mechanism for “remem-
+bering” data from one interaction to the next. (a) Suggest a means by which you can preserve 
+
+state between two HTTP calls. For example, you may send the user a page of books and 
+
+prices matching a user’s query, and you want to avoid having to look up the price of each 
+
+book again once the user chooses one to purchase. (b) Suggest a means by which you can 
+preserve some notion of state between two web accesses many days apart. For example, the 
+
+user may prefer prices quoted in euros instead of dollars, and you want to present prices in 
+
+the preferred currency next time without asking the user.
+25. How can a website distinguish between lack of capacity and a denial-of-service attack? For 
+example, websites often experience a tremendous increase in volume of traffic right after 
+
+an advertisement displaying the site’s URL is shown on television during the broadcast of 
+
+a popular sporting event. That spike in usage is the result of normal access that happens to 
+
+occur at the same time. How can a site determine when high traffic is reasonable?
+26. Syn flood is the result of some incomplete protocol exchange: The client initiates an exchange 
+but does not complete it. Unfortunately, these situations can also occur normally. Describe a 
+
+benign situation that could cause a protocol exchange to be incomplete.
+27. A distributed denial-of-service attack requires zombies running on numerous machines to 
+perform part of the attack simultaneously. If you were a system administrator looking for 
+
+zombies on your network, what would you look for?
+28. Signing of mobile code is a suggested approach for addressing the vulnerability of hostile code. Outline what a code-signing scheme would have to do.

@@ -1,0 +1,58 @@
+CHAPTER 21  
+SOFTWARE QUALITY ASSURANCE
+ 451better understand how errors are introduced and what software engineer-
+ing activities are best suited to eliminating them.   
+Change management.   Change is one of the most disruptive aspects of 
+any software project. If it is not properly managed, change can lead to 
+confusion, and confusion almost always leads to poor quality. SQA ensures 
+
+that adequate change management practices (Chapter 29) have been 
+instituted.   
+Education. 
+  Every software organization wants to improve its software 
+engineering practices. A key contributor to improvement is education of 
+software engineers, their managers, and other stakeholders. The SQA 
+organization takes the lead in software process improvement (Chapter 37) 
+and is a key proponent and sponsor of educational programs.    
+Vendor management. 
+  Three categories of software are acquired from 
+external software vendors— shrink-wrapped packages 
+ (e.g., Microsoft Of-ﬁ ce), a  
+tailored shell
+ 
+ [Hor03] that provides a basic skeletal structure that is custom tailored to the needs of a purchaser, and  
+contracted software
+ 
+ that is custom designed and constructed from speciﬁ cations provided by the 
+customer organization. The job of the SQA organization is to ensure that 
+high-quality software results by suggesting speciﬁ c quality practices that 
+the vendor should follow (when possible), and incorporating quality man-
+dates as part of any contract with an external vendor. 
+  
+Security management.   With the increase in cyber crime and new govern-
+ment regulations regarding privacy, every software organization should 
+
+institute policies that protect data at all levels, establish ﬁ rewall protec-
+tion for WebApps, and ensure that software has not been tampered with 
+
+internally. SQA ensures that appropriate process and technology are used 
+
+to achieve software security (Chapter 27).   
+Safety. 
+  Because software is almost always a pivotal component of 
+human-rated systems (e.g., automotive or aircraft applications), the 
+impact of hidden defects can be catastrophic. SQA may be responsible 
+for assessing the impact of software failure and for initiating those steps 
+required to reduce risk.   
+Risk management. 
+  Although the analysis and mitigation of risk (Chap-
+ter 35) is the concern of software engineers, the SQA organization en-
+sures that risk management activities are properly conducted and that 
+risk-related contingency plans have been established.  In addition to each of these concerns and activities, SQA works to ensure that software support activities (e.g., maintenance, help lines, documentation, and 
+manuals) are conducted or produced with quality as a dominant concern.   uote:  “Excellence is the 
+unlimited ability to 
+improve the quality 
+of what you have 
+to offer.” 
+ Rick Petin 
+pre22126_ch21_448-465.indd   451pre22126_ch21_448-465.indd   45113/12/13   10:02 PM13/12/13   10:02 PM

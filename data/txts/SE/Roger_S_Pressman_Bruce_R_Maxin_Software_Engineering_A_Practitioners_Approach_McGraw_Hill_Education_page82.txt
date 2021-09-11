@@ -1,0 +1,58 @@
+52 PART ONE  
+THE SOFTWARE PROCESS
+requirement. If a market window is missed, the software project itself may be meaningless.  8 
+ 
+   
+Evolutionary process models were conceived to address these issues, and yet, as a general class of process models, they too have weaknesses. These are sum-
+marized by Nogueira and his colleagues [Nog00]:   
+Despite the unquestionable beneﬁ ts of evolutionary software processes, we have 
+some concerns. The ﬁ rst concern is that prototyping [and other more sophisticated 
+evolutionary processes] poses a problem to project planning because of the uncertain 
+number of cycles required to construct the product . . .   Second, evolutionary software processes do not establish the maximum speed of the evolution. If the evolutions occur too fast, without a period of relaxation, it is cer-
+
+tain that the process will fall into chaos. On the other hand if the speed is too slow 
+then productivity could be affected . . .  Third, [evolutionary] software processes should be focused on ﬂ exibility and 
+ extensibility rather than on high quality. This assertion sounds scary. 
+ 
+Indeed, a software process that focuses on ﬂ exibility, extensibility, and speed of 
+development over high quality does sound scary. And yet, this idea has been pro-
+
+posed by a number of well-respected software engineering experts (e.g., [You95], 
+
+[Bac97]).   The intent of evolutionary models is to develop high-quality software  9 
+ 
+ in an 
+iterative or incremental manner. However, it is possible to use an evolutionary 
+
+process to emphasize ﬂ exibility, extensibility, and speed of development. The 
+challenge for software teams and their managers is to establish a proper balance 
+between these critical project and product parameters and customer satisfac-
+tion (the ultimate arbiter of software quality).   
+ 
+ 
+ 
+ 
+ 4.2 S
+PECIALIZED PROCESS MODELS  
+ 
+Specialized process models take on many of the characteristics of one or more of the traditional models presented in the preceding sections. However, these 
+
+models tend to be applied when a specialized or narrowly deﬁ ned software engi-
+neering approach is chosen.  10 
+ 
+  
+ 
+8  It is important to note, however, that being the ﬁ
+ rst to reach a market is no guarantee of suc-
+cess. In fact, many very successful software products have been second or even third to reach 
+the market (learning from the mistakes of their predecessors).   
+9  In this context software quality is deﬁ
+ ned quite broadly to encompass not only customer satis-
+faction, but also a variety of technical criteria discussed in Part 2 of this book.   
+10  In some cases, these specialized process models might better be characterized as a collec-
+tion of techniques or a “methodology” for accomplishing a speciﬁ c software development goal. 
+However, they do imply a process. 
+What are the potential weaknesses of 
+evolutionary 
+
+process models??pre22126_ch04_040-065.indd   52pre22126_ch04_040-065.indd   5213/12/13   6:10 PM13/12/13   6:10 PM

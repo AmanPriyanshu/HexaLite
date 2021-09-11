@@ -1,0 +1,64 @@
+CHAPTER 16  
+PATTERN-BASED DESIGN
+ 357digital video management problems) and search for appropriate pat-tern languages.  
+  
+ 
+ 3.
+   
+Beginning with a broad problem, determine whether one or more archi-tectural patterns are available for it. 
+ If an architectural pattern is avail-able, be certain to examine all collaborating patterns. If the pattern is 
+appropriate, adapt the design solution proposed and build a design model 
+element that adequately represents it. For example, a broad problem for 
+the  SafeHomeAssured.com 
+ WebApp is addressed with an  
+E-commerce 
+ pattern (Section 16.2.2). This pattern will suggest a speciﬁ c architecture 
+for addressing e-commerce requirements.   
+ 
+ 
+ 4.
+   
+Using the collaborations provided for the architectural pattern, exam-ine subsystem or component-level problems and search for appropriate 
+patterns to address them. 
+ It may be necessary to search through other pattern repositories as well as the list of patterns that corresponds to the 
+architectural solution. If an appropriate pattern is found, adapt the design 
+solution proposed and build a design model element that adequately rep-
+resents it. Be certain to apply step 7.   
+ 
+ 
+ 5.
+   
+Repeat steps 2 through 4 until all broad problems have been addressed. 
+ The implication is to begin with the big picture and elaborate to solve 
+problems at increasingly more detailed levels.   
+ 
+ 
+ 6.
+   
+If user interface design problems have been isolated (this is almost always the case), search the many user interface design pattern repositories for 
+appropriate patterns. 
+ Proceed in a manner similar to steps 3, 4, and 5.   
+ 
+ 
+ 7.
+   
+Regardless of its level of abstraction, if a pattern language and/or patterns repository or individual pattern shows promise, compare the 
+problem to be solved against the existing pattern(s) presented. 
+ Be certain to examine context and forces to ensure that the pattern does, in fact, 
+provide a solution that is amenable to the problem.   
+ 
+ 
+ 8.
+   
+Be certain to reﬁ ne the design as it is derived from patterns using design 
+quality criteria as a guide. 
+ 
+ 
+ 
+  Although this design approach is top-down, real-life design solutions are some-times more complex. Gillis [Gil06] comments on this when he writes:   
+Design patterns in software engineering are meant to be used in a deductive, ration-alistic fashion. So you have this general problem or requirement, X, design pattern Y 
+solves X, therefore use Y. Now, when I reﬂ
+ ect on my own process—and I’ve got reason 
+to believe that I’m not alone here—I ﬁ nd that it’s more organic than that, more induc-
+tive than deductive, more bottom-up than top-down.   
+In addition, the pattern-based approach must be used in conjunction with other software design concepts and techniques. pre22126_ch16_347-370.indd   357pre22126_ch16_347-370.indd   35716/12/13   6:22 PM16/12/13   6:22 PM

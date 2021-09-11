@@ -1,0 +1,38 @@
+˜˜˚˛˜˜˜
+˜˜˜˜
+programming language; the development environment or process standards to be used; and environmental requirements that specify the operating environ-
+ment of the system.3. External requirements This broad heading covers all requirements that are 
+
+derived from factors external to the system and its development process. These 
+may include regulatory requirements that set out what must be done for the sys-
+tem to be approved for use by a regulator, such as a nuclear safety authority; 
+
+legislative requirements that must be followed to ensure that the system oper
+-
+ates within the law; and ethical requirements that ensure that the system will be 
+acceptable to its users and the general public.Figure 4.
+4 shows examples of product, organizational, and external requirements that could be included in the Mentcare system specification. The product require-
+ment is an availability requirement that defines when the system has to be available 
+
+and the allowed downtime each day. It says nothing about the functionality of the 
+Mentcare system and clearly identifies a constraint that has to be considered by 
+
+the˜system designers.The organizational requirement specifies how users authenticate themselves to 
+the system. The health authority that operates the system is moving to a standard 
+
+authentication procedure for all software where, instead of users having a login 
+
+name, they swipe their identity card through a reader to identify themselves. The 
+
+external requirement is derived from the need for the system to conform to privacy 
+legislation. Privacy is obviously a very important issue in health care systems, and 
+the requirement specifies that the system should be developed in accordance with a 
+national privacy standard.A common problem with non-functional requirements is that stakeholders pro-pose requirements as general goals, such as ease of use, the ability of the system to 
+recover from failure, or rapid user response. Goals set out good intentions but cause 
+problems for system developers as they leave scope for interpretation and subse-
+quent dispute once the system is delivered. For example, the following system goal 
+is typical of how a manager might express usability requirements:The system should be easy to use by medical staff and should be organized in 
+such a way that user errors are minimized.Figure 4.4 Examples of possible non-functional 
+requirements for the 
+Mentcare systemPRODUCT REQUIREMENTThe Mentcare system shall be available to all clinics during normal working hours (MonŒFri, 08:30Œ17:30). 
+Downtime within normal working hours shall not exceed 5 seconds in any one day.ORGANIZATIONAL REQUIREMENTUsers of the Mentcare system shall identify themselves using their health authority identity card.EXTERNAL REQUIREMENTThe system shall implement patient privacy provisions as set out in HStan-03-2006-priv.

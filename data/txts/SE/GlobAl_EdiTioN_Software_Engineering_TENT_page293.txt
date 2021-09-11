@@ -1,0 +1,43 @@
+˜˜˚˛˝˜˜˜
+˜˜
+Notice that there is no separate ﬁsoftware layer.ﬂ Software of one kind or another is an important part of all of the layers in the sociotechnical system. Equipment is controlled by embedded software; the operating system and applications are soft
+-
+ware. Business processes, organizations, and society rely on the Internet (software) 
+and other global software systems.In principle, most interactions should be between neighboring layers in the 
+stack, with each layer hiding the detail of the layer below from the layer above. In 
+
+practice, however, there can be unexpected interactions between layers, which 
+
+result in 
+ problems for the system as a whole. For example, say there is a change in 
+the law governing access to personal information. This comes from the social layer. 
+
+It leads to new organizational procedures and changes to the business processes. 
+
+The application system itself may not be able to provide the required level of pri-
+vacy, so changes may have to be implemented in the communications and data 
+
+management layer.Thinking holistically about systems, rather than simply considering software in isolation, is essential when considering software security and dependability. 
+
+Software itself is intangible and, even when damaged, is easily and cheaply restored. 
+However, when these software failures ripple through other parts of the system, they 
+affect the software™s physical and human environment. Here, the consequences of 
+
+failure are more significant. Important data may be lost or corrupted. People may 
+
+have to do extra work to contain or recover from the failure; for example, equipment 
+may be damaged, data may be lost or corrupted, or confidentiality may be breached, 
+
+with unknown consequences.You must, therefore, take a system-level view when you are designing software that has to be dependable and secure. You have to take into account the consequences 
+of software failures for other elements in the system. You also need to understand 
+how these other system elements may be the cause of software failure and how they 
+can help to protect against and recover from software failures.It is important to ensure that, wherever possible, software failure does not lead to overall system failure. You must therefore examine how the software interacts with 
+its immediate environment to ensure that:1. Software failures are, as far as possible, contained within the enclosing layer of the system stack and do not seriously affect the operation of other layers in the 
+system.2. You understand how faults and failures in the other layers of the systems stack 
+may affect the software. You may also consider how checks may be built into 
+
+the software to help detect these failures, and how support can be provided for 
+
+recovering from failure.As software is inherently flexible, unexpected system problems are often left to software engineers to solve. Say a radar installation has been sited so that ghosting 
+of the radar image occurs. It is impractical to move the radar to a site with less 
+ interference, so the systems engineers have to find another way of removing this 

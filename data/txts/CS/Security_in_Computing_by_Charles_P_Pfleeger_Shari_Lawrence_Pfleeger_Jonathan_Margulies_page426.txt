@@ -1,0 +1,59 @@
+392 Chapter 6  
+Networksin 2001, it became clear that WEP was not an adequate protocol for WiFi. (Alas, as 
+described in Sidebar 6-14, even experts fail to practice strong security.)
+For these reasons, in 2001 the IEEE began design of a new authentication and 
+encryption scheme for wireless, as we explain in the next section.
+The alternative to WEP is 
+WiFi Protected Access
+ or 
+WPA
+, designed in 2003. The 
+IEEE standard 802.11i, known as WPA2, was approved in 2004, and is an extension of 
+
+WPA. Although the name WPA2 is correct, the standard is informally known as WPA.
+1 How does WPA improve upon WEP?
+Strengths of WPA over WEP
+WPA set out to overcome the then known shortcomings in WEP, and thus many features 
+of WPA directly address WEP weaknesses. Following are some of the ways in which 
+
+WPA is superior to WEP.
+Non-Static Encryption Key First, WEP uses an encryption key that is unchanged until the user enters a new key at 
+
+the client and the access point. Cryptologists deplore static encryption keys because a 
+
+fixed key gives the attacker a large amount of ciphertext to try to analyze and plenty 
+
+of time in which to analyze it. WPA has a key change approach, called 
+Temporal Key 
+1. Strictly speaking, there is a difference between these: WPA was the original replacement for WEP; WPA2 
+goes beyond WPA by requiring support for the strong AES encryption algorithm. Furthermore, to use the 
+
+trademarked “WiFi Certified” designation, a device must be certified by the WiFi alliance. In practice, all 
+
+WiFi devices sold now meet the WPA2 standard. In this book we follow common usage and use WPA to 
+
+refer to both the WPA and WPA2 protocols.
+SIDEBAR 6-14 Do As I Say, Not As I Do
+You would expect a conference of computer security professionals to follow 
+best security practices. No, that is only what they counsel, not what they do.At the 2010 RSA Security Conference, which attracts many computer 
+security practitioners and industry leaders, Motorola’s Air Defense divi-
+
+sion scanned the wireless waves to see who was connected to what. They 
+
+observed over 2,000 connections. They found [WIL10] that 116 clients had 
+connected point-to-point to such risky SSIDs as “Free Public WiFi” and 
+
+“Free Internet Access.” A point-to-point connection (called ad hoc) is to 
+
+another computer, not necessarily to an access point and server.
+Worse, 62 percent of the networks located were running the WEP pro-
+tocol or the stronger but still flawed TKIP protocol, nearly ten years after 
+
+WEP’s lack of security had been demonstrated convincingly, and almost 
+
+five years after a vulnerability (described later in this chapter) in TKIP was 
+publicized.Motorola did not track down the devices employing weak security, so 
+no one knows how many were users’ machines as opposed to demonstra-
+
+tion machines in the exhibition hall. Still, one wonders what these statistics 
+say of the general public’s use of best security practices.

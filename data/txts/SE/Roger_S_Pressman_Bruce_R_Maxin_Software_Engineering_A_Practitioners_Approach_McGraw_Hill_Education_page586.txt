@@ -1,0 +1,93 @@
+556 PART THREE  
+QUALITY MANAGEMENTduring error handling (e.g., incorrect or nonexistent error messages, WebApp 
+failure as a consequence of the error, erroneous output driven by erroneous 
+
+input, side effects that are related to component processing).  Each component-level test case speciﬁ es all input values and the expected out-
+put to be provided by the component. The actual output produced as a consequence 
+
+of the test is recorded for future reference during support and maintenance. 
+  
+ 
+ 
+ 
+ 25.6  
+NAVIGATION
+ TESTING  
+ 
+A user travels through a WebApp in much the same way as a visitor walks through 
+a store or museum. There are many pathways that can be taken, many stops that 
+
+can be made, many things to learn and look at, activities to initiate, and decisions 
+
+to make. This navigation process is predictable in the sense that every visitor has a 
+
+set of objectives when he arrives. At the same time, the navigation process can be 
+
+unpredictable because the visitor, inﬂ
+ uenced by something he sees or learns, may 
+choose a path or initiate an action that is not typical for the original objective. The 
+
+job of navigation testing is (1) to ensure that the mechanisms that allow the WebApp 
+
+user to travel through the WebApp are all functional and (2) to validate that each 
+
+navigation semantic unit (NSU) can be achieved by the appropriate user category. 
+  
+ 
+25.6.1   
+Testing Navigation Syntax 
+ 
+ 
+The ﬁ rst phase of navigation testing actually begins during interface testing. Nav-
+igation mechanisms are tested to ensure that each performs its intended func-
+tion. Splaine and Jaskiel [Spl01] suggest that each of the following navigation 
+mechanisms should be tested: links and anchors of all types, redirects (when a 
+user request a nonexistent URL), bookmarks, frames and frame sets, site maps, 
+and the accuracy of internal search facilities.  Some of the tests noted can be performed by automated tools (e.g., link checking), 
+while others are designed and executed manually. The intent throughout is to en-
+
+sure that errors in navigation mechanics are found before the WebApp goes online. 
+  
+ 
+ 
+25.6.2   
+Testing Navigation Semantics 
+ 
+ 
+ 
+ 
+ 
+ 
+In Chapter 17 a navigation semantic unit (NSU) is deﬁ ned as “a set of information 
+and related navigation structures that collaborate in the fulﬁ llment of a subset of 
+related user requirements” [Cac02]. Each NSU is deﬁ ned by a set of navigation 
+paths (called “ways of navigating”) that connect navigation nodes (e.g., Web pages, 
+
+content objects, or functionality). Taken as a whole, each NSU allows a user to 
+
+achieve speciﬁ c requirements deﬁ
+ ned by one or more use cases for a user cate-
+gory. Navigation testing exercises each NSU to ensure that these requirements can 
+
+be achieved. You should answer the following questions as each NSU is tested:
+  
+ 
+ 
+•  Is the NSU achieved in its entirety without error?   
+ 
+ 
+•  Is every navigation node (deﬁ ned for an NSU) reachable within the con-
+text of the navigation paths deﬁ ned for the NSU? 
+  
+ 
+ 
+ uote:  “We’re not lost. 
+We’re locationally 
+
+challenged.”  John M. Ford 
+ What 
+
+questions must be asked 
+and answered 
+as each NSU is 
+tested? ?pre22126_ch25_540-566.indd   556pre22126_ch25_540-566.indd   55613/12/13   6:15 PM13/12/13   6:15 PM

@@ -1,0 +1,40 @@
+˜˜˜˚˙˜˜˜˜˜˜˜
+another from a state-based system model, and a third from a natural language specifica-tion. This approach helps avoid some errors of specification interpretation, but does not 
+get around the problem of requirements errors. It also introduces the possibility of 
+
+errors in the translation of the requirements, leading to inconsistent specifications.In an analysis of the experiments, Hatton (Hatton 1997) concluded that a three-channel 
+system was somewhere between 5 and 9 times more reliable than a single-channel 
+
+system. He concluded that improvements in reliability that could be obtained by devot-ing more resources to a single version could not match this and so N-version approaches 
+were more likely to lead to more reliable systems than single-version approaches.What is unclear, however, is whether the improvements in reliability from a mul-tiversion system are worth the extra development costs. For many systems, the extra 
+costs may not be justifiable, as a well-engineered single-version system may be good 
+enough. It is only in safety- and mission-critical systems, where the costs of failure 
+
+are very high, that multiversion software may be required. Even in such situations 
+(e.g., a spacecraft system), it may be enough to provide a simple backup with limited 
+functionality until the principal system can be repaired and restarted.
+I have deliberately focused in this 
+book on programming-language independent 
+
+aspects of software engineering. It is almost impossible to discuss programming 
+
+without getting into the details of a specific programming language. However, when 
+considering reliability engineering, there are a set of accepted good programming 
+
+practices that are fairly universal and that help reduce faults in delivered systems.A list of eight good practice guidelines is shown in Figure 11.11. They can be 
+applied regardless of the particular programming language used for systems devel-
+opment, although the way they are used depends on the specific languages and nota-
+tions that are used for system development. Following these guidelines also reduces 
+the chances of introducing security-related vulnerabilities into programs.A security principle that is adopted by military organizations is the ﬁneed to knowﬂ 
+principle. Only those individuals who need to know a particular piece of information 
+in order to carry out their duties are given that information. Information that is not 
+directly relevant to their work is withheld.When programming, you should adopt an analogous principle to control access to the 
+variables and data structures that you use. Program components should only be allowed 
+
+access to data that they need for their implementation. Other program data should be 
+
+inaccessible and hidden from them. If you hide information, it cannot be corrupted by 
+
+program components that are not supposed to use it. If the interface remains the same, the 
+
+data representation may be changed without affecting other components in the system.

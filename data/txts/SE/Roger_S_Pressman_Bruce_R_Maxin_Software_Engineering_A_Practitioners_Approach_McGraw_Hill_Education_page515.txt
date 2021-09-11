@@ -1,0 +1,94 @@
+CHAPTER 22  
+SOFTWARE TESTING STRATEGIES
+ 485product builders use a process called alpha and beta testing to uncover errors that only the end user seems able to ﬁ nd. 
+  
+ 
+ 
+ 
+ 
+The  alpha test 
+ is conducted at the developer’s site by a representative group 
+of end users. The software is used in a natural setting with the developer “looking 
+over the shoulder” of the users and recording errors and usage problems. Alpha 
+tests are conducted in a controlled environment.  The  beta test 
+ is conducted at one or more end-user sites. Unlike alpha testing, 
+the developer generally is not present. Therefore, the beta test is a “live” appli-
+cation of the software in an environment that cannot be controlled by the devel-
+oper. The customer records all problems (real or imagined) that are encountered 
+
+during beta testing and reports these to the developer at regular intervals. As a 
+result of problems reported during beta tests, you make modiﬁ cations and then 
+prepare for release of the software product to the entire customer base.  A variation on beta testing, called  customer acceptance testing 
+, is sometimes performed when custom software is delivered to a customer under contract. 
+The customer performs a series of speciﬁ c tests in an attempt to uncover errors 
+before accepting the software from the developer. In some cases (e.g., a major 
+
+corporate or governmental system) acceptance testing can be very formal and 
+encompass many days or even weeks of testing.  
+ 
+ 
+  What is the 
+difference between an alpha 
+test and a beta 
+test? ?  
+Preparing for Validation   
+Preparing for Validation 
+ 
+ 
+The scene:  Doug Miller’s ofﬁ
+ ce, as 
+component-level design continues and construction of certain components continues. 
+  
+The players:  Doug Miller, software engineering man-
+ager, Vinod, Jamie, Ed, and Shakira—members of the 
+
+ SafeHome 
+ software engineering team.   
+The conversation:    
+Doug:  The ﬁ
+ rst increment will be ready for validation 
+  
+Vinod:  That’s about right. Integration is going well. 
+We’re smoke testing daily, ﬁ
+ nding some bugs, but noth-
+ing we can’t handle. So far, so good. 
+  
+Doug:  Talk to me about validation. 
+  
+Shakira:  Well, we’ll use all of the use cases as the 
+basis for our test design. I haven’t started yet, but I’ll be 
+
+developing tests for all of the use cases that I’ve been 
+responsible for. 
+  
+Ed:  Same here. 
+  
+Jamie:  Me too, but we’ve got to get our act together for 
+acceptance test and also for alpha and beta testing, no? 
+  
+Doug:  Yes. In fact I’ve been thinking; we could bring 
+in an outside contractor to help us with validation. I 
+
+new point of view. 
+  
+Vinod:  I think we’ve got it under control. 
+  
+Doug:  I’m sure you do, but an ITG gives us an inde-
+pendent look at the software.   
+Jamie:  We’re tight on time here, Doug. I for one don’t 
+have the time to baby-sit anybody you bring in to do 
+the job.   
+Doug:  I know, I know. But if an ITG works from re-
+quirements and use cases, not too much babysitting will 
+be required.   
+Vinod:  I still think we’ve got it under control. 
+  
+Doug:  I hear you, Vinod, but I am going to overrule 
+on this one. Let’s plan to meet with the ITG rep later 
+
+this week. Get ‘em started and see what they come up 
+
+with.   
+Vinod:  Okay, maybe it’ll lighten the load a bit. 
+  
+SAFEHOME pre22126_ch22_466-495.indd   485pre22126_ch22_466-495.indd   48513/12/13   6:14 PM13/12/13   6:14 PM

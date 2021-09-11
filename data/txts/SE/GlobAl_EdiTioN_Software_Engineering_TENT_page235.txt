@@ -1,0 +1,32 @@
+˜˜˚˛˜˜˜˜˜˜
+The input data and output results of a program can be thought of as members of sets with common characteristics. Examples of these sets are positive numbers, negative 
+numbers, and menu selections. Programs normally behave in a comparable way for 
+all members of a set. That is, if you test a program that does a computation and 
+
+requires two positive numbers, then you would expect the program to behave in the 
+same way for all positive numbers.Because of this equivalent behavior, these classes are sometimes called equiva-lence partitions or domains (Bezier 1990). One systematic approach to test-case 
+
+design is based on identifying all input and output partitions for a system or compo-
+nent. Test cases are designed so that the inputs or outputs lie within these partitions. 
+Partition testing can be used to design test cases for both systems and components.In Figure 8.5, the large shaded ellipse on the left represents the set of all possible inputs to the program that is being tested. The smaller unshaded ellipses represent 
+equivalence partitions. A program being tested should process all of the members of 
+
+an input equivalence partition in the same way.Output equivalence partitions are partitions within which all of the outputs have something in common. Sometimes there is a 1:1 mapping between input and output 
+equivalence partitions. However, this is not always the case; you may need to define 
+a separate input equivalence partition, where the only common characteristic of the 
+inputs is that they generate outputs within the same output partition. The shaded area 
+in the left ellipse represents inputs that are invalid. The shaded area in the right 
+
+ellipse represents exceptions that may occur, that is, responses to invalid inputs.Once you have identified a set of partitions, you choose test cases from each of these partitions. A good rule of thumb for test-case selection is to choose test cases 
+on the boundaries of the partitions, plus cases close to the midpoint of the partition. 
+The reason for this is that designers and programmers tend to consider typical values 
+of inputs when developing a system. You test these by choosing the midpoint of the 
+partition. Boundary values are often atypical (e.g., zero may behave differently from 
+other non-negative numbers) and so are sometimes overlooked by developers. 
+
+Program failures often occur when processing these atypical values.System
+Possible inputs
+Input equivalence partitions
+Possible outputs
+Correct outputsOutput partitions
+Figure 8.5 Equivalence partitioning 

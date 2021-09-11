@@ -1,0 +1,63 @@
+ Section 6.8  Intrusion Detection and Prevention Systems 
+481  network or some set of specific sensitive resources, such as a collection of servers hold-
+ing critical data. The detection software can also monitor the content of packets com-
+
+municated across the network, to detect, for example, unusual actions by one host (that 
+
+might have been compromised) against another. A network IDS is better able to protect 
+
+itself against detection or compromise than a host-based one because the network IDS 
+
+can operate in so-called stealth mode, observing but never sending data onto the net-
+
+work. Its network interface card can even be restricted to receive data only, never doing 
+
+anything to reveal its connection to the network.
+Another advantage of an NIDS 
+is that it can send alarms on a sepa-
+rate network from the one being 
+
+monitored. That way an attacker 
+
+will not know the attack has been 
+
+recognized.Protocol-Level Inspection Technology
+We have described attacks that require different kinds of inspection, for example:
+• Ping and echo commands require the IDS to inspect the individual packets to 
+determine packet type.
+• Malformed packets require the IDS to detect an error in the general structure of 
+the packet.
+• Fragmentation requires the IDS to recognize over time that the separate pieces 
+of the data unit cannot be reassembled correctly.
+• Buffer overflow attacks require the IDS to monitor applications.
+An IDS is said to operate at a particular network level or layer. For example, an 
+IDS that detects malformed packets will not likely also be able to monitor application 
+
+data, because that would require the IDS to do all the work of reassembling packets to 
+
+extract the application-level data. Thus, different IDSs, or different components of an 
+
+IDS package, monitor a network at different levels.
+Other Intrusion Detection Technology
+Intrusion detection systems were first investigated as research projects (see, for example, 
+
+[DEN86] and [ALL99]) and began to appear as commercial products in the mid-1990s. 
+
+Since that time, research and development have continued steadily, as has marketing. 
+
+Now, intrusion detection capabilities are sometimes embedded in other devices (such 
+
+as routers and firewalls), and marketing efforts have blurred what were clearly dis-
+
+tinct capabilities. Thus, companies now claim that many tools or products are intrusion 
+
+detection devices, and new terms have been introduced with which vendors seek to gain 
+
+a competitive edge by highlighting fine distinctions.
+In the next sections we present some of the other tools and concepts involved in 
+intrusion detection.A HIDS monitors host traffic; a NIDS 
+
+analyzes activity across a whole 
+
+network to detect attacks on any 
+network host.

@@ -1,0 +1,95 @@
+204 PART TWO  
+MODELINGdoes not explicitly change the ﬂ ow of control of the use case, but the results of the 
+event  password
+ 
+  compared
+ 
+ (derived from the interaction “password is compared 
+with the valid password stored in the system”) will have an explicit impact on the 
+information and control ﬂ ow of the  
+SafeHome 
+ software.   
+Once all events have been identiﬁ ed, they are allocated to the objects involved. 
+Objects can be responsible for generating events (e.g.,  Homeowner 
+ generates 
+the  password entered
+ 
+ event) or recognizing events that have occurred elsewhere 
+(e.g.,  ControlPanel 
+ recognizes the binary result of the  
+password
+ 
+  compared
+ 
+ event). 
+ 
+ 
+ 
+ 
+ 11.3 S
+TATE
+ REPRESENTATIONS
+  
+ 
+ 
+ 
+ 
+ 
+ 
+In the context of behavioral modeling, two different characterizations of states must be considered: (1) the state of each class as the system performs its function 
+and (2) the state of the system as observed from the outside as the system per-
+
+forms its function.  The state of a class takes on both passive and active characteristics [Cha93]. A  passive state 
+ is simply the current status of all of an object’s attributes. For exam-
+ple, the passive state of the class  Player 
+ (in the video game application discussed 
+in Chapter 10) would include the current position and orientation attributes of 
+ Player 
+ as well as other features of  
+Player 
+ that are relevant to the game (e.g., an 
+attribute that indicates magic wishes remaining). The  active state 
+ of an object 
+indicates the current status of the object as it undergoes a continuing transfor-
+
+mation or processing. The class  Player 
+ might have the following active states: 
+ moving, at rest, injured, being cured, trapped, lost,
+ 
+ and so forth. An  
+event 
+ (some-
+times called a  trigger 
+) must occur to force an object to make a transition from one active state to another. 
+ Two different behavioral representations are discussed in the paragraphs that 
+follow. The ﬁ
+ rst indicates how an individual class changes state based on external 
+events and the second shows the behavior of the software as a function of time.   
+ 
+ 
+ 
+State Diagrams for Analysis Classes.   
+One component of a behavioral model is a UML state diagram  2 
+ 
+ that represents active states for each class and the events 
+(triggers) that cause changes between these active states.  Figure 11.1  illustrates 
+a state diagram for the  ControlPanel 
+ object in the  SafeHome 
+ security function.  
+  Each arrow shown in  Figure 11.1  represents a transition from one active state of an object to another. The labels shown for each arrow represent the event that 
+
+triggers the transition. Although the active state model provides useful insight 
+into the “life history” of an object, it is possible to specify additional information 
+to provide more depth in understanding the behavior of an object. In addition to    The system has states 
+that represent speciﬁ c 
+
+externally observable 
+
+behavior; a class has 
+states that represent 
+its behavior as the 
+system performs its 
+
+functions.   
+2  If you are unfamiliar with UML, a brief introduction to this important modeling notation is pre-
+sented in Appendix 1. pre22126_ch11_202-223.indd   204pre22126_ch11_202-223.indd   20413/12/13   6:12 PM13/12/13   6:12 PM

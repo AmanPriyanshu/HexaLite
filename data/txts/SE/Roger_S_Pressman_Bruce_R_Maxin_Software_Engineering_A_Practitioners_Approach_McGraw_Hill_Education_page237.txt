@@ -1,0 +1,160 @@
+CHAPTER 11  
+REQUIREMENTS MODELING: BEHAVIOR, PATTERNS, AND WEB/MOBILE APPS
+ 207 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 11.4 P
+ATTERNS
+ FOR REQUIREMENTS MODELING  
+ 
+Software patterns are a mechanism for capturing domain knowledge in a way that allows it to be reapplied when a new problem is encountered. In some cases, 
+the domain knowledge is applied to a new problem within the same application 
+domain. In other cases, the domain knowledge captured by a pattern can be ap-
+plied by analogy to a completely different application domain.  The original author of an analysis pattern does not “create” the pattern, but, rather,  
+discovers 
+ it as requirements engineering work is being conducted. Once 
+the pattern has been discovered, it is documented by describing “explicitly the 
+general problem to which the pattern is applicable, the prescribed solution, 
+assumptions and constraints of using the pattern in practice, and often some 
+other information about the pattern, such as the motivation and driving forces 
+for using the pattern, discussion of the pattern’s advantages and disadvantages, 
+
+and references to some known examples of using that pattern in practical appli-
+cations” [Dev01].  In Chapter 8, we introduced the concept of analysis patterns and indicated that these patterns represent something (e.g., a class, a function, a behavior)   
+Generalized Analysis Modeling in UML   
+Objective:   
+Analysis modeling tools provide the capability to develop scenario-based models, 
+class-based models, and behavioral models using UML 
+notation.   
+ Mechanics: 
+  Tools in this category support the full 
+range of UML diagrams required to build an analysis 
+model (these tools also support design modeling). In 
+
+addition to diagramming, tools in this category (1) 
+
+perform consistency and correctness checks for all 
+
+UML diagrams, (2) provide links for design and code 
+generation, (3) build a database that enables the 
+management and assessment of large UML models 
+required for complex systems.   
+ 
+Representative Tools: 3 
+  
+ 
+The following tools support a full range of UML diagrams 
+required for analysis modeling:  
+ 
+ 
+ 
+ 
+ 
+ 
+ArgoUML 
+ is an open source tool available at   
+argouml.
+tigris.org
+ 
+ 
+.    
+ 
+ 
+ 
+ 
+ 
+Enterprise Architect, 
+ developed by Sparx Systems 
+   
+ 
+ 
+ 
+ 
+(  
+www.sparxsystems.com.au
+ 
+ 
+).    
+ 
+ 
+ 
+ 
+ 
+PowerDesigner,
+ 
+ developed by Sybase (  
+www.sybase.
+com 
+ 
+).    
+ 
+ 
+ 
+ 
+ 
+Rational Rose, 
+ developed by IBM (Rational) (  
+http://
+www-01.ibm.com/software/rational/ 
+ 
+).    
+ 
+ 
+ 
+ 
+ 
+Rational System Architect, 
+ developed by Popkin Software now owned by IBM (  
+http://www-01.ibm.com/
+software/awdtools/systemarchitect/ 
+ 
+).    
+ 
+ 
+ 
+ 
+ 
+UML Studio, 
+ developed by Pragsoft Corporation (  
+www.
+pragsoft.com 
+ 
+).    
+ 
+ 
+ 
+ 
+ 
+Visio, 
+ developed by Microsoft ( http://ofﬁ
+ ce.microsoft.com/en-gb/visio/
+ 
+).    
+ 
+ 
+ 
+ 
+ 
+Visual UML, 
+ developed by Visual Object Modelers (  
+www.visualuml.com
+ 
+ 
+).  
+ 
+ 
+ 
+  
+SOFTWARE
+ TOOLS  
+ 
+3  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+pre22126_ch11_202-223.indd   207pre22126_ch11_202-223.indd   20713/12/13   6:12 PM13/12/13   6:12 PM

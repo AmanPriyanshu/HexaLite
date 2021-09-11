@@ -1,0 +1,149 @@
+CHAPTER 4  
+PROCESS MODELS 47available and known; an inefﬁ cient algorithm may be implemented simply 
+to demonstrate capability. After a time, you may become comfortable with 
+
+these choices and forget all the reasons why they were inappropriate. The 
+less-than-ideal choice has now become an integral part of the system.  
+ 
+  Although problems can occur, prototyping can be an effective paradigm for 
+software engineering. The key is to deﬁ ne the rules of the game at the beginning; 
+that is, all stakeholders should agree that the prototype is built to serve as a 
+mechanism for deﬁ ning requirements. It is then discarded (at least in part), and 
+the actual software is engineered with an eye toward quality. 
+  
+ 
+ 
+ 
+The   
+Spiral Model.   
+ 
+ 
+Originally proposed by Barry Boehm [Boe88], the  spiral 
+model 
+ is an evolutionary software process model that couples the iterative na-
+ture of prototyping with the controlled and systematic aspects of the waterfall 
+model. It provides the potential for rapid development of increasingly more   
+Selecting a Process Model, Part 1   
+Selecting a Process Model, Part 1 
+ 
+ 
+ 
+ 
+ 
+ 
+The scene:  Meeting room for the 
+software engineering group at CPI Corporation, a (ﬁ ctional) company that makes consumer 
+products for home and commercial use.    
+ 
+ 
+ 
+The players:  Lee Warren, engineering manager; 
+Doug Miller, software engineering manager; Jamie 
+
+Lazar, software team member; Vinod Raman, software 
+
+team member; and Ed Robbins, software team member. 
+   
+ 
+The conversation:   
+ 
+ 
+ 
+ 
+Lee:  So let’s recapitulate. I’ve spent some time dis-
+cussing the  SafeHome 
+ product line as we see it at the  moment. No doubt, we’ve got a lot of work to do to simply deﬁ ne the thing, but I’d like you guys to begin 
+thinking about how you’re going to approach the 
+ software part of this project. 
+   
+ 
+ 
+ 
+Doug:  Seems like we’ve been pretty disorganized in 
+our approach to software in the past.    
+ 
+ 
+ 
+Ed:  I don’t know, Doug, we always got product out 
+. 
+   
+ 
+ 
+ 
+Doug:  True, but not without a lot of grief, and this 
+project looks like it’s bigger and more complex than 
+
+anything we’ve done in the past.    
+ 
+ 
+ 
+Jamie:  Doesn’
+hoc approach to past projects won’t work here, particu-
+
+larly if we have a very tight time line. 
+   
+ 
+ 
+ 
+Doug   (smiling):  I want to be a bit more professional 
+in our approach. I went to a short course last week and 
+
+lear
+
+stuff. We need a process here. 
+   
+ 
+ 
+ 
+Jamie (with a frown):  My job is to build computer 
+programs, not push paper around.    
+ 
+ 
+ 
+Doug:  Give it a chance before you go negative on 
+me. Here’s what I mean. (Doug proceeds to describe 
+
+the process framework described in Chapter 3 and the 
+prescriptive process models presented to this point.)    
+ 
+ 
+ 
+Doug:  So anyway, it seems to me that a linear model 
+is not for us . . . assumes we have all requirements up 
+front and, knowing this place, that’s not likely. 
+   
+ 
+ 
+ 
+Vinod:  Yeah, and it sounds way too IT
+probably good for building an inventory control system 
+
+or something, but it’s just not right for  
+SafeHome 
+.    
+ 
+ 
+ 
+Doug:  I agree. 
+   
+ 
+ 
+ 
+Ed:  That prototyping approach seems okay. A lot like 
+what we do here anyway. 
+   
+ 
+ 
+ 
+Vinod:  That’s a problem. I’m worried that it doesn’t 
+provide us with enough structure.    
+ 
+ 
+ 
+Doug:  Not to worry. We’ve got plenty of other 
+ options, and I want you guys to pick what’s best for the 
+team and best for the project.  
+ 
+ 
+  
+SAFEHOME pre22126_ch04_040-065.indd   47pre22126_ch04_040-065.indd   4713/12/13   6:10 PM13/12/13   6:10 PM

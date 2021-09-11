@@ -1,0 +1,64 @@
+CHAPTER 30  
+PRODUCT METRICS 671     
+30.3.5   OO Metrics Proposed by Lorenz and Kidd 
+ In their book on OO metrics, Lorenz and Kidd [Lor94] divide class-based metrics 
+into four broad categories that each have a bearing on component-level design: 
+size, inheritance, internals, and externals. Size-oriented metrics for an OO de-
+sign class focus on counts of attributes and operations for an individual class and 
+average values for the OO system as a whole. Inheritance-based metrics focus 
+on the manner in which operations are reused through the class hierarchy. Met-
+
+rics for class internals look at cohesion (Section 30.3.3) and code-oriented issues, 
+and external metrics examine coupling and reuse. One example of the metrics 
+ proposed by Lorenz and Kidd is as follows: 
+       
+Class size (CS).   The overall size of a class can be determined using the following measures:    •
+  The total number of operations (both inherited and private instance oper-
+
+ations) that are encapsulated within the class  
+   •
+  The number of attributes (both inherited and private instance attributes) 
+that are encapsulated by the class    
+ The WMC metric proposed by Chidamber and Kemerer (Section 30.3.3) is also a 
+weighted measure of class size. As we noted earlier, large values for CS indicate 
+
+that a class may have too much responsibility. This will reduce the reusability of 
+
+the class and complicate implementation and testing. In general, inherited or 
+public operations and attributes should be weighted more heavily in determin-
+ing class size [Lor94]. Private operations and attributes enable specialization and 
+are more localized in the design. Averages for the number of class attributes 
+
+and operations may also be computed. The lower the average values for size, the 
+more likely that classes within the system can be reused widely. 
+     
+30.3.6   Component-Level Design Metrics       
+Component-level design metrics for conventional software components focus on 
+internal characteristics of a software component and include measures of the 
+“three Cs”—module cohesion [Bie94], coupling [Dha95], and complexity [Zus97]. 
+These measures can help you judge the quality of a component-level design.  Component-level design metrics may be applied once a procedural design has been developed and are “glass box” in the sense that they require knowledge 
+of the inner workings of the module under consideration. Alternatively, they may 
+
+be delayed until source code is available.     
+30.3.7   Operation-Oriented Metrics  Because the class is the dominant unit in OO systems, fewer metrics have been 
+proposed for operations that reside within a class. Churcher and Shepperd    During review of the 
+
+analysis model, CRC 
+index cards will provide 
+a reasonable indication 
+of expected values for 
+CS. If you encounter a 
+class with a large num-
+ber of responsibilities, 
+consider partitioning it. 
+   It is possible to 
+
+compute measures 
+of the functional 
+ independence—
+coupling and 
+ cohesion—of a 
+
+component and to use 
+these to assess the 
+quality of a design. 

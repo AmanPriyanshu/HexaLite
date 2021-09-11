@@ -1,0 +1,62 @@
+ Section 6.4  Denial of Service 
+403  students, but not one against thirty. Similarly with computing systems, the attacker can 
+try to consume a critical amount of a scarce resource.Flooding a victim is basically an unsophisticated attack, although the means of per-
+forming the flooding can become sophisticated. Another way to deny service is to block 
+
+access to a resource, which we consider next.
+Insufficient Capacity
+If the attacker’s bandwidth is greater than that of the victim, the attacker can overwhelm 
+the victim with the asymmetry. A victim is always potentially vulnerable to an attacker 
+
+with more resources. Examples of insufficient resources may be slots in a table of net-
+
+work connections, room in a buffer, 
+
+or cycles of a processor.
+Denial of service is especially 
+noticeable in network attacks, in 
+
+which the attacker can consume 
+
+too much of the available network 
+
+bandwidth. We consider network 
+
+capacity exhaustion next.
+Network Flooding Caused by Malicious CodeThe most primitive denial-of-service attack is flooding a connection. If an attacker 
+
+sends you as much data as your communications system can handle, you are prevented 
+
+from receiving any other data. Even if an occasional packet reaches you from someone 
+
+else, communication to you will be seriously degraded. Ironically, this problem is exac-
+
+erbated by the robustness of the TCP protocol: If, because of congestion, packets 1 and 
+
+2 are delayed but packet 3 manages to slip through first, the protocol handler will notice 
+
+that 1 and 2 are missing. The receiver accepts and holds packet 3, but the sender may 
+
+retransmit packets 1 and 2, which adds to the congestion.
+More sophisticated attacks use or misuse elements of Internet protocols. In addition to TCP and UDP, there is a third class of protocols, called ICMP or Internet Control 
+
+Message Protocols. Normally used for system diagnostics, these protocols do not have 
+
+associated user applications. ICMP protocols include• ping, which requests a destination to return a reply, intended to show that the 
+destination system is reachable and functioning• echo
+, which requests a destination to return the data sent to it, intended to show 
+that the connection link is reliable (ping is actually a version of echo)
+• destination unreachable
+, which indicates that a destination address cannot be 
+accessed• source quench
+, which means that the destination is becoming saturated and the source should suspend sending packets for a while
+These protocols have important uses for network management. But they can also 
+be used to attack a system. The protocols are handled within the network stack, so the 
+Flooding occurs because the incoming 
+bandwidth is insufficient or resources—
+
+hardware devices, computing power, 
+
+software, or table capacity—are 
+
+inadequate.

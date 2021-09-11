@@ -1,0 +1,68 @@
+ Section 12.6  Quantum Cryptography 
+807  algorithm, NIST is proposing the removal of the Dual Elliptic Curve Deterministic Ran-
+dom Bit Generator (Dual_EC_DRBG).” NIST has since rewritten its random number 
+
+generator recommendations to remove Dual-EC.
+Compounding the severity of this issue, Joseph Menn reports in 
+Reuters
+ that NSA 
+paid RSA $10 million ostensibly so that Dual-EC would be the default random number 
+
+generator distributed in RSA’s cryptographic toolkit BSAFE. RSA has since removed 
+
+Dual-EC from the BSAFE library.
+We describe this issue to show how effectively an attacker can plan and implement an 
+attack. The subtlety of the flaw apparently inserted reinforces what we have said other 
+
+places in this book: developing cryptography is not something for amateurs, because 
+
+even the professionals have trouble seeing possible flaws.
+12.6 QUANTUM CRYPTOGRAPHY
+We turn now to an emerging form of cryptography based on advances in physics. Some 
+
+analysts say this cryptography has the potential to revolutionize both encryption and 
+
+cryptanalysis, although others are skeptical it will become practical soon.
+We have seen how researchers have relied on aspects of mathematics to generate 
+hard problems and to devise algorithms. In this section, we look at an alternative view 
+
+of how cryptography may be done in the future. The approach we describe is not now 
+
+on the market, nor is it likely to be so in the next few years. But it illustrates the need for 
+
+creative thinking in inventing new encryption techniques. Although the science behind 
+
+this approach is difficult, the approach itself is really quite simple.
+The novel approach, quantum cryptography, is in a way a variant of the idea behind 
+a one-time pad. Remember from earlier in this chapter that the one-time pad is the 
+
+only provably unbreakable encryption scheme. The one-time pad requires two copies 
+
+of a long string of unpredictable numbers, one copy each for the sender and receiver. 
+
+The sender combines a number with a unit of plaintext to produce the ciphertext. If the 
+
+numbers are truly unpredictable (that is, they have absolutely no discernible pattern), 
+the attacker cannot separate the numbers from the ciphertext.
+The difficulty with this approach is that there are few sources of sharable strings of 
+random numbers. There are many natural phenomena that could yield a string of unpre-
+
+dictable numbers, but then we face the problem of communicating that string to the 
+
+receiver in such a way that an interceptor cannot obtain them. Quantum cryptography 
+
+addresses both problems, generating and communicating numbers. It was first explored 
+
+by Wiesner [WIE83] in the 1980s; then the idea was developed by Bennett a decade 
+
+later [BEN92a, BEN92b].Quantum PhysicsUnlike other cryptographic approaches, quantum cryptography is based on physics, not 
+
+mathematics. It uses what we know about the behavior of light particles. Light particles 
+
+are known as photons. They travel through space, vibrating in all directions; we say they 
+
+have the directional orientation of their primary vibration. Although photons can have 
+
+any directional orientation from 0
+° to 360
+°, for purposes of this explanation, we can 

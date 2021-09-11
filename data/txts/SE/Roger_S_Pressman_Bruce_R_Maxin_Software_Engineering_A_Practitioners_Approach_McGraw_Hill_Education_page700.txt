@@ -1,0 +1,118 @@
+670 PART 
+THREE  QUALITY MANAGEMENT      
+30.3.4   Class-Oriented Metrics—The MOOD Metrics Suite   
+Harrison, Counsell, and Nithi [Har98b] propose a set of metrics for object- 
+oriented design that provides quantitative indicators for OO design characteris-
+tics. A sampling of MOOD metrics follows.   
+Method inheritance factor (MIF).   The degree to which the class architecture of an OO system makes use of inheritance for both methods (operations) and attri-
+butes is deﬁ ned as 
+MIF 5   
+S M  
+
+i ( 
+C  
+
+i )
+ _______ S M  
+
+a ( 
+C  
+
+i )
+   
+ where the summation occurs over  i  
+5 1 to TC. TC is deﬁ ned as the total number 
+of classes in the architecture,  Ci  is a class within the architecture, and
+ M  
+
+a ( 
+C  
+
+i ) 
+5  M  
+
+d ( 
+C  
+
+i ) 
+1  M  
+
+i ( 
+C  
+
+i ) 
+ where
+        
+M  
+
+a ( 
+C  
+
+i ) 
+5 number of methods that can be invoked in association with  C  
+
+i   
+       
+Md ( 
+Ci ) 
+5 number of methods declared in the class  Ci   
+       
+Mi ( 
+Ci ) 
+5 number of methods inherited (and not overridden) in  Ci     
+ The value of MIF [the attribute inheritance factor (AIF) is deﬁ ned in an anal-
+
+ogous manner] provides an indication of the impact of inheritance on the OO 
+
+software. 
+   
+Coupling factor (CF).   Earlier in this chapter I noted that coupling is an indica-tion of the connections between elements of the OO design. The MOOD metrics 
+suite deﬁ nes coupling in the following way:
+CF 5 S 
+i  
+S 
+j   
+is_client    
+( C  
+
+i ,  
+C  
+
+j )
+ _________ TC 2  
+2 TC  where the summations occur over  i  
+5 1 to TC and  j  
+5 1 to TC. The function is client  
+5  1, if and only if a relationship exists between the client class  C  
+c  
+and the server class  C  
+
+s , and  
+C  
+
+c  
+Þ  C  
+
+s 5 0, otherwise  Although many factors affect software complexity, understandability, and main-
+
+tainability, it is reasonable to conclude that as the value for CF increases, the 
+
+complexity of the OO software will also increase and understandability, main-
+
+tainability, and the potential for reuse may suffer as a result. 
+ Harrison and her colleagues [Har98b] present a detailed analysis of MIF and CF along with other metrics and examine their validity for use in the assessment 
+of design quality. 
+    uote: 
+ “Analyzing OO 
+
+software in order 
+to evaluate its 
+quality is becoming 
+increasingly 
+important as the 
+[OO] paradigm 
+continues to 
+increase in 
+popularity.” 
+ Rachel Harrison 
+et al. 

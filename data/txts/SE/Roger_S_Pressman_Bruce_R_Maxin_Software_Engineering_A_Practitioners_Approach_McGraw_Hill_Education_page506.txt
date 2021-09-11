@@ -1,0 +1,78 @@
+476 PART THREE  
+QUALITY MANAGEMENTimprecision may be magniﬁ ed to unacceptable levels; global data structures can 
+present problems. Sadly, the list goes on and on. 
+ Integration testing is a systematic technique for constructing the software ar-
+chitecture while at the same time conducting tests to uncover errors associated 
+with interfacing. The objective is to take unit-tested components and build a pro-
+gram structure that has been dictated by design.  There is often a tendency to attempt nonincremental integration; that is, to construct the program using a “big bang” approach. All components are com-
+bined in advance and the entire program is tested as a whole. Chaos usually 
+results! Errors are encountered, but correction is difﬁ cult because isolation of 
+causes is complicated by the vast expanse of the entire program.  Incremental integration is the antithesis of the big bang approach. The pro-gram is constructed and tested in small increments, where errors are easier to 
+isolate and correct; interfaces are more likely to be tested completely; and a sys-
+tematic test approach may be applied. In the paragraphs that follow, a number of 
+
+different incremental integration strategies are discussed.   
+ 
+ 
+ 
+ 
+ 
+Top-Down Integration.   
+ 
+Top-down integration testing
+ 
+ is an incremental ap-
+proach to construction of the software architecture. Modules are integrated by 
+moving downward through the control hierarchy, beginning with the main con-
+
+trol module (main program). Modules subordinate (and ultimately subordinate) 
+to the main control module are incorporated into the structure in either a depth-
+ﬁ rst or breadth-ﬁ
+ rst manner. 
+ Referring to  Figure 22.5 ,  depth-ﬁ rst integration
+ 
+ integrates all components on a 
+major control path of the program structure. Selection of a major path is some-
+what arbitrary and depends on application-speciﬁ c characteristics. For example, 
+selecting the left-hand path, components M1, M2 , M5 would be integrated ﬁ rst. 
+Next, M8 or (if necessary for proper functioning of M2) M6 would be integrated. 
+Then, the central and right-hand control paths are built.  Breadth-ﬁ
+ rst integration
+ 
+ incorporates all components directly subordinate at each level, moving across 
+the structure horizontally. From the ﬁ
+ gure, components M2, M3, and M4 would 
+be integrated ﬁ rst. The next control level, M5, M6, and so on, follows. The integra-
+tion process is performed in a series of ﬁ ve steps: 
+ 
+ 
+ 
+    
+ 
+ 
+ 
+1.  The main control module is used as a test driver and stubs are substituted for all components directly subordinate to the main control module.   
+ 
+ 
+ 2.
+  Depending on the integration approach selected (i.e., depth or breadth ﬁ rst), subordinate stubs are replaced one at a time with actual 
+components.   
+ 
+ 
+ 3.
+  Tests are conducted as each component is integrated. 
+  
+ 
+ 
+ 4.
+  On completion of each set of tests, another stub is replaced with the real component.     When you develop 
+a project schedule, 
+you’ll have to consider 
+the manner in which 
+integration will occur 
+so that components 
+will be available when 
+needed.  What are 
+
+the steps for top-down 
+integration? ?pre22126_ch22_466-495.indd   476pre22126_ch22_466-495.indd   47613/12/13   6:14 PM13/12/13   6:14 PM

@@ -1,0 +1,41 @@
+A common attack on a system involves providing the system with unexpected inputs 
+that cause it to behave in an unanticipated way. These inputs may simply cause a sys-
+tem crash, resulting in a loss of service, or the inputs could be made up of malicious 
+
+code that is executed by the system. Buffer overflow vulnerabilities, first demonstrated 
+
+in the Internet worm (Spafford 1989) and commonly used by attackers, may be trig-
+gered using long input strings. So-called SQL poisoning, where a malicious user inputs 
+
+an SQL fragment that is interpreted by a server, is another fairly common attack.You can avoid many of these problems if you specify the format and structure of the system inputs that are expected. This specification should be based on your 
+
+knowledge of the expected system inputs. For example, if a surname is to be input, 
+you might specify that all characters must be alphabetic with no numbers or punc-
+tuation (apart from a hyphen) allowed. You might also limit the length of the name. 
+For example, no one has a family name with more than 40 characters, and no 
+
+addresses are more than 100 characters long. If a numeric value is expected, no 
+
+alphabetic characters should be allowed. This information is then used in input 
+
+checks when the system is implemented.Compartmentalizing means that you should not provide users with access to all 
+
+information in a system. Based on a general ﬁneed to knowﬂ security principle, you 
+should organize the information in a system into compartments. Users should only 
+have access to the information that they need for their work, rather than to all of the 
+
+information in a system. This means that the effects of an attack that compromises 
+an individual user account may be contained. Some information may be lost or dam-
+aged, but it is unlikely that all of the information in the system will be affected.For example, the Mentcare system could be designed so that clinic staff will nor-mally only have access to the records of patients who have an appointment at their 
+clinic. They should not normally have access to all patient records in the system. Not 
+only does this limit the potential loss from insider attacks, but it also means that if an 
+intruder steals their credentials, then they cannot damage all patient records.Having said this, you also may have to have mechanisms in the system to grant 
+unexpected accessŠsay to a patient who is seriously ill and requires urgent treat-ment without an appointment. In those circumstances, you might use some alterna-
+tive secure mechanism to override the compartmentalization in the system. In such 
+situations, where security is relaxed to maintain system availability, it is essential 
+
+that you use a logging mechanism to record system usage. You can then check the 
+logs to trace any unauthorized use.Many security problems arise because the system is not configured correctly when it 
+is deployed in its operational environment. Deployment means installing the software 
+˜˜˚˛˙˜˜˜
+˜˜˜

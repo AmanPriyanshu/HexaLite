@@ -1,0 +1,95 @@
+CHAPTER 29  
+SOFTWARE CONFIGURATION MANAGEMENT
+ 649 
+ 
+ 
+ 
+29.4.6   
+Auditing and Reporting  
+In the interest of agility, the auditing and reporting functions are deemphasized 
+during the development of Web or MobileApps. 
+ 12 
+ 
+ 
+ 
+ However, they are not elimi-
+nated altogether. All objects that are checked into or out of the repository are 
+
+recorded in a log that can be reviewed at any point in time. A complete log report 
+can be created so that all members of the team have a chronology of changes 
+over a deﬁ ned period of time. In addition, an automated e-mail notiﬁ
+ cation (ad-
+dressed to those developers and stakeholders who have interest) can be sent 
+every time an object is checked in or out of the repository. 
+  
+ 
+12  This is beginning to change. There is an increasing emphasis on SCM as one element of ap-
+plication security [Sar06]. By providing a mechanism for tracking and reporting every change 
+made to every application object, a change management tool can provide valuable protection 
+against malicious changes.   
+ 
+SCM Standards 
+  
+The following list of SCM standards (ex-tracted in part from  
+www.12207.com
+ 
+) is reasonably comprehensive:   
+IEEE Standards 
+   
+standards.ieee.org/catalog/
+olis/  
+  IEEE 828 Software Conﬁ
+ guration 
+Management Plans  IEEE 1042 Software Conﬁ guration Management 
+  
+ISO Standards 
+   
+http://www.iso.org/iso/
+home 
+ 
+  ISO 10007-1995 Quality Management, Guidance 
+for CM  ISO/IEC 12207 Information Technology-Software 
+Life Cycle Processes  ISO/IEC TR 15271 Guide for ISO/IEC 12207 
+ ISO/IEC TR 15846  Software Engineering-Software 
+Life Cycle Process-Conﬁ guration 
+Management for Software Order   
+EIA Standards 
+   
+www.eia.org/ 
+ 
+  EIA 649 National Consensus Standard for 
+Conﬁ guration Management 
+ EIA CMB4-1A Conﬁ
+ guration Management 
+Deﬁ nitions for Digital Computer 
+Programs  EIA CMB4-2 Conﬁ
+ guration Identiﬁ
+ cation for 
+Digital Computer Programs  EIA CMB4-3 Computer Software Libraries 
+ EIA CMB4-4 Conﬁ
+ guration Change Control for 
+Digital Computer Programs  EIA CMB6-1C Conﬁ guration and Data 
+Management References Order 
+ EIA CMB6-3 Conﬁ
+ guration Identiﬁ
+ cation 
+ EIA CMB6-4 Conﬁ
+ guration Control 
+ EIA CMB6-5 Textbook for Conﬁ
+ guration Status 
+Accounting  EIA CMB7-1 Electronic Interchange of 
+Conﬁ guration Management Data 
+  
+U.S. Military Standards
+ 
+  DoD MIL STD-973 Conﬁ
+ guration Management 
+ MIL-HDBK-61 Conﬁ guration Management Guidance 
+  
+Other Standards 
+  DO-178B Guidelines for the Development of 
+Aviation Software 
+ ESA PSS-05-09 Guide to Software Conﬁ
+ guration 
+Management  AECL CE-1001-STD   Standard for Software Engineering rev.1  of Safety Critical Software 
+ INFO pre22126_ch29_623-652.indd   649pre22126_ch29_623-652.indd   64913/12/13   6:16 PM13/12/13   6:16 PM

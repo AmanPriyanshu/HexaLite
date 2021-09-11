@@ -1,0 +1,57 @@
+380 Chapter 6  
+NetworksManagement FramesOf the three frame types, management frames are the most important now because they 
+control the establishment and handling of a series of data flows. The most significant 
+
+management frame types are these:• Beacon. Each access point periodically sends a beacon frame to announce its 
+presence and relay information, such as timestamp, identifier, and other param-
+
+eters regarding the access point. Any NICs that are within range receive this bea-
+
+con. When you connect to a 
+
+WiFi service, for example, at 
+
+a coffee shop, your computer 
+
+receives the beacon signal 
+
+from the shop to be able to 
+initiate communications.• Authentication
+. A NIC initiates a request to interact with an access point by 
+sending its identity in an authentication frame. The access point may request 
+additional authentication data and finally either accepts or rejects the request. 
+
+Either party sends a deauthentication frame to terminate an established inter-
+action. Thus, for example, 
+
+your computer responds to 
+
+the coffee shop’s beacon 
+
+signal by returning its iden-
+tity (MAC address) in an 
+
+authentication frame.• Association request and response
+. Following authentication, a NIC requests 
+an access point to establish a session, meaning that the NIC and access point 
+
+exchange information about their capabilities and agree on parameters of their 
+
+interaction. An important part of establishing the association is agreeing on 
+
+encryption. For example, an access point may be able to handle three differ-
+
+ent encryption algorithms, call them A, B, and C, and the requesting NIC can 
+
+handle only two algorithms, call them B and D. In the association these two 
+
+would determine that they share algorithm B and thus agree to use that form of 
+
+encryption to communicate. A 
+deassociation request 
+is a request to terminate a session.FIGURE 6-16 Format of a WiFi Frame
+HeaderDataFrame control
+Frame typeSequencingDirectionWEPDestination MACSource MAC
+A beacon signal advertises a network accepting connections.A NIC requests a connection by sending 
+
+an authentication frame.

@@ -1,0 +1,32 @@
+˜˜˚˙˜˜˜
+˜˜
+2. Stakeholders in a system naturally express requirements in their own terms and with implicit knowledge of their own work. Requirements engineers, without 
+
+experience in the customer™s domain, may not understand these requirements.3.
+ Different stakeholders, with diverse requirements, may express their require-
+ments in different ways. Requirements engineers have to discover all potential 
+sources of requirements and discover commonalities and conflict.4.
+ Political factors may influence the requirements of a system. Managers may 
+
+demand specific system requirements because these will allow them to increase 
+their influence in the organization.5.
+ The economic and business environment in which the analysis takes place is 
+
+dynamic. It inevitably changes during the analysis process. The importance of 
+particular requirements may change. New requirements may emerge from new 
+stakeholders who were not originally consulted.A process model of the elicitation and analysis process is shown in Figure 4.7. Each organization will have its own version or instantiation of this general model, 
+
+depending on local factors such as the expertise of the staff, the type of system being 
+
+developed, and the standards used.The process activities are:1. Requirements discovery and understanding This is the process of interacting with 
+
+stakeholders of the system to discover their requirements. Domain requirements 
+
+from stakeholders and documentation are also discovered during this activity.2. Requirements classification and organization This activity takes the unstruc-
+tured collection of requirements, groups related requirements and organizes 
+
+them into coherent clusters.3. Requirements prioritization and negotiation Inevitably, when multiple stake-
+holders are involved, requirements will conflict. This activity is concerned with 
+prioritizing requirements and finding and resolving requirements conflicts 
+2. Requirementsclassification andorganization3. Requirementsprioritization andnegotiation4. Requirementsdocumentation1. Requirements discovery and understanding Figure 4.7 The requirements elicitation 
+and analysis process

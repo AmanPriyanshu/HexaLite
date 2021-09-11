@@ -1,0 +1,38 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜The activities that are used in dependable processes obviously depend on the type of software that is being developed. In general, however, these activities should be geared toward avoiding the introduction of errors into a system, detecting and 
+
+removing errors, and maintaining information about the process itself.Examples of activities that might be included in a dependable process include:1.
+ Requirements reviews to check that the requirements are, as far as possible, 
+
+complete and consistent.2. Requirements management to ensure that changes to the requirements are con-
+trolled and that the impact of proposed requirements changes is understood by 
+all developers affected by the change.3.
+ Formal specification, where a mathematical model of the software is created 
+
+and analyzed. (I discussed the benefits of formal specification in Section 10.5.) 
+Perhaps its most important benefit is that it forces a very detailed analysis of the 
+system requirements. This analysis itself is likely to discover requirements 
+
+problems that may have been missed in requirements reviews.4. System modeling, where the software design is explicitly documented as a set of 
+graphical models and the links between the requirements and these models are 
+
+explicitly documented. If a model-driven engineering approach is used (see 
+
+Chapter 5), code may be generated automatically from these models.5. Design and program inspections, where the different descriptions of the system 
+are inspected and checked by different people. A checklist of common design 
+and programming errors may be used to focus the inspection process.6. Static analysis, where automated checks are carried out on the source code of 
+the program. These look for anomalies that could indicate programming errors 
+or omissions. (I cover static analysis in Chapter 12.)7. Test planning and management, where a comprehensive set of system tests is 
+designed. The testing process has to be carefully managed to demonstrate that 
+these tests provide coverage of the system requirements and have been correctly 
+applied in the testing process.Figure 10.4 Attributes of dependable 
+processesProcess characteristicDescription
+AuditableThe process should be understandable by people apart from process participants, who can check that process standards are being followed and 
+make suggestions for process improvement.DiverseThe process should include redundant and diverse verification and 
+
+validation˜activities.DocumentableThe process should have a defined process model that sets out the activities in 
+
+the process and the documentation that is to be produced during these activities.RobustThe process should be able to recover from failures of individual process 
+activities.StandardizedA comprehensive set of software development standards covering software 
+production and documentation should be available.

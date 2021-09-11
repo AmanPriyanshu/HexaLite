@@ -1,0 +1,41 @@
+408 Chapter 6  
+NetworksAs shown in Figure 6-22, in the teardrop attack, the attacker sends a series of data-
+grams that cannot fit together properly. One datagram might say it is position 0 for 
+
+length 60 bytes, another position 30 for 90 bytes, and another position 41 for 173 bytes. 
+These three pieces overlap, so they cannot be reassembled properly. In an extreme case, 
+
+the operating system locks up with these partial data units it cannot reassemble, thus 
+leading to denial of service.Another cause of denial of service is based in network routing: If routing tables 
+no longer point at a site, that site is effectively unreachable. We describe routing 
+
+attacks next.
+Denial of Service by Addressing Failures
+As we described earlier, another way the attacker can deny service is by preventing 
+
+access, physically or logically. In this section we consider ways to prevent data from 
+
+getting to the victim. You can see that anyone who can sever, interrupt, or overload a 
+
+system’s capacity can deny service. The physical threats are rather obvious and are 
+
+described later in this chapter. We consider instead several electronic attacks that can 
+
+cause a denial of service. In this section we look at ways service can be denied inten-
+
+tionally or accidentally.
+Misrouting is an attack that achieves two goals. Suppose your neighbor’s home 
+address is 217 Main Street, but you take down the numbers on her house and put 217 
+
+above your own house instead. Then, all of your neighbor’s mail would be delivered 
+
+to your house and your neighbor would get none. You would be ideally positioned to 
+Fragment start = 10 len = 50010
+20
+30
+40
+50
+60
+70
+80
+90100...Fragment start = 20 len = 60Packet FragmentsFragment start = 40 len = 30Reassembly BufferFIGURE 6-22 Teardrop Attack

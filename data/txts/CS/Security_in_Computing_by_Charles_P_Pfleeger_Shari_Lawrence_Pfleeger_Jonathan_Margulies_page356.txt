@@ -1,0 +1,45 @@
+322 Chapter 5  
+Operating SystemsHowever, once this structuring has been done, code outside the TCB can be changed 
+at will, without affecting the TCB’s ability to enforce security. This ability to change 
+
+helps developers because it means that major sections of the operating system— 
+
+utilities, device drivers, user interface managers, and the like—can be revised or replaced 
+
+any time; only the TCB code must be controlled more carefully. Finally, for anyone evalu-
+
+ating the security of a trusted oper-
+
+ating system, a division into TCB 
+
+and non-TCB simplifies evaluation 
+
+substantially because non-TCB code 
+
+need not be considered.TCB Implementation Security-related activities are likely to be performed in different places. Security is 
+
+potentially related to every memory access, every I/O operation, every file or program 
+
+access, every activation or termination of a user, every creation of a new execution 
+
+thread, and every interprocess communication. In modular operating systems, these 
+
+separate activities can be handled in independent modules. Each of these separate mod-
+
+ules, then, has both security-related and other functions.Collecting all security functions into the TCB may destroy the modularity of an exist-
+ing operating system. A unified TCB may also be too large to be analyzed easily. Never-
+
+theless, a designer may decide to separate the security functions of an existing operating 
+
+system, creating a security kernel
+. This form of kernel is depicted in Figure 5-18.
+The TCB is separated to achieve self-protection and independence.
+Level
+1:  Hardware
+2:  Operating System Kernel:
+       - Hardware interactions       - Access control
+3:  Operating System:       - Resource allocation       - Sharing       - Access control
+       - Authentication functions
+4:  User Tasks
+= Security activities
+FIGURE 5-18 Security Kernel 

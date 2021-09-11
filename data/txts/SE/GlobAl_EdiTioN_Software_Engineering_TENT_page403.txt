@@ -1,0 +1,42 @@
+attackers can get access to kits that help them easily develop malware such as worms and keystroke loggers.Attackers may try to discover the assumptions made by system developers and then challenge these assumptions to see what happens. They are in a position to use 
+and explore a system over a period of time and analyze it using software tools to 
+
+discover vulnerabilities that they may be able to exploit. They may, in fact, have 
+
+more time to spend on looking for vulnerabilities than system test engineers, as test-
+ers must also focus on testing the system.You may use a combination of testing, tool-based analysis, and formal verifica
+-tion to check and analyze the security of an application system:1. Experience-based testing In this case, the system is analyzed against types of 
+attack that are known to the validation team. This may involve developing test 
+cases or examining the source code of a system. For example, to check that the 
+system is not susceptible to the well-known SQL poisoning attack, you might 
+test the system using inputs that include SQL commands. To check that buffer 
+overflow errors will not occur, you can examine all input buffers to see if the 
+
+program is checking that assignments to buffer elements are within bounds. Checklists of known security problems may be created to assist with the process. 
+
+Figure 13.
+17 gives some examples of questions that might be used to drive 
+
+experience-based testing. Checks on whether design and programming 
+ guidelines for security have been followed may also be included in a security 
+ problem checklist.
+2. Penetration testing This is a form of experience-based testing where it is possible 
+
+to draw on experience from outside the development team to test an application 
+system. The penetration testing teams are given the objective of breaching the 
+system security. They simulate attacks on the system and use their ingenuity to 
+discover new ways to compromise the system security. Penetration testing team Figure 13.17 Examples of entries in a security 
+checklistSecurity checklist1.   
+Do all files that are created in the application have appropriate access permissions? The wrong access permis
+-sions may lead to these files being accessed by unauthorized users.2.   
+Does the system automatically terminate user sessions after a period of inactivity? Sessions that are left active may allow unauthorized access through an unattended computer.3.    
+If the system is written in a programming language without array bound checking, are there situations 
+where buffer overflow may be exploited? Buffer overflow may allow attackers to send code strings to the 
+system and then execute them.4.    
+If passwords are set, does the system check that passwords are ﬁstrongﬂ? Strong passwords consist of 
+mixed letters, numbers, and punctuation, and are not normal dictionary entries. They are more difficult to 
+break than simple passwords.5.    
+Are inputs from the system™s environment always checked against an input specification? Incorrect process-
+
+ing of badly formed inputs is a common cause of security vulnerabilities.˜˜˚˛ˆ˜˜˜
+˜˜˜˜

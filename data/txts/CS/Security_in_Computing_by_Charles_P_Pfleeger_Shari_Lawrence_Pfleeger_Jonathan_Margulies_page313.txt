@@ -1,0 +1,18 @@
+ Section 4.6  Exercises 
+279  10. Explain why spam senders frequently change from one email address and one domain to 
+another. Explain why changing the address does not prevent their victims from responding 
+
+to their messages.11. Why does a web server need to know the address, browser type, and cookies for a requesting 
+client?12. Suggest a technique by which a browser could detect and block clickjacking attacks.
+13. The issue of cross-site scripting is not just that scripts execute, for they do in many sites. The 
+issue is that the script is included in the URL communicated between sites, and therefore the 
+user or a malicious process can rewrite the URL before it goes to its intended destination. 
+
+Suggest a way by which scripts can be communicated more securely.
+14. What security principles are violated in the Greek cell phone interception example?
+15. Is the cost, processing time, or complexity of cryptography a good justification for not using 
+it? Why or why not?
+16. What attack is a financial institution seeking to counter by asking its customers to confirm 
+that they see their expected security picture (a hot red sports car or a plate of cookies) before 
+
+entering sensitive data?

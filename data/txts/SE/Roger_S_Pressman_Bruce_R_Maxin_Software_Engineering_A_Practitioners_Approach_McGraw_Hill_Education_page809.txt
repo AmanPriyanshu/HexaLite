@@ -1,0 +1,84 @@
+CHAPTER 35  
+RISK MANAGEMENT 779percent probable risks 
+ 1 
+ 
+—and  loss 
+—if the risk becomes a reality, unwanted 
+consequences or losses will occur [Hig95]. When risks are analyzed, it is import-
+ant to quantify the level of uncertainty and the degree of loss associated with 
+each risk. To accomplish this, different categories of risks are considered. 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Project risks
+ 
+ threaten the project plan. That is, if project risks become real, 
+it is likely that the project schedule will slip and that costs will increase. Project 
+
+risks identify potential budgetary, schedule, personnel (stafﬁ
+ ng and organiza-
+tion), resource, stakeholder, and requirements problems and their impact on a 
+
+software project. In Chapter 33, project complexity, size, and the degree of 
+
+structural uncertainty were also deﬁ ned as project (and estimation) risk 
+factors. 
+  
+Technical risks
+ 
+ threaten the quality and timeliness of the software to be pro-
+duced. If a technical risk becomes a reality, implementation may become difﬁ
+ cult 
+or impossible. Technical risks identify potential design, implementation, inter-
+
+face, veriﬁ cation, and maintenance problems. In addition, speciﬁ
+ cation ambigu-
+ity, technical uncertainty, technical obsolescence, and “leading-edge” technology 
+
+are also risk factors. Technical risks occur because the problem is harder to solve 
+
+than you thought it would be.   
+Business risks 
+ threaten the viability of the software to be built and often jeop-
+ardize the project or the product. Candidates for the top ﬁ ve business risks are 
+(1) building an excellent product or system that no one really wants (market 
+risk), (2) building a product that no longer ﬁ ts into the overall business strategy 
+for the company (strategic risk), (3) building a product that the sales force doesn’t 
+understand how to sell (sales risk), (4) losing the support of senior management 
+due to a change in focus or a change in people (management risk), and (5) losing 
+budgetary or personnel commitment (budget risks).  It is extremely important to note that simple risk categorization won’t always work. Some risks are simply unpredictable in advance.   Another general categorization of risks has been proposed by Charette [Cha89].  Known risks 
+ are those that can be uncovered after careful evaluation of the project plan, the business and technical environment in which the project is 
+being developed, and other reliable information sources (e.g., unrealistic deliv-
+ery date, lack of documented requirements or software scope, poor development 
+environment).  Predictable risks
+ 
+ are extrapolated from past project experience 
+(e.g., staff turnover, poor communication with the customer, dilution of staff ef-
+
+fort as ongoing maintenance requests are serviced).  Unpredictable risks
+ 
+ are the 
+joker in the deck. They can and do occur, but they are extremely difﬁ
+ cult to iden-
+tify in advance.  What types 
+of risks are we likely 
+to encounter as 
+software is built? ?  uote:  “Projects with 
+no real risks are 
+losers. They are 
+almost always 
+devoid of beneﬁ t; 
+
+that’s why they 
+
+weren’t done years 
+ago.”  Tom DeMarco 
+and Tim Lister 
+  
+1  A risk that is 100 percent probable is a constraint on the software project. 
+pre22126_ch35_777-794.indd   779pre22126_ch35_777-794.indd   77913/12/13   6:17 PM13/12/13   6:17 PM

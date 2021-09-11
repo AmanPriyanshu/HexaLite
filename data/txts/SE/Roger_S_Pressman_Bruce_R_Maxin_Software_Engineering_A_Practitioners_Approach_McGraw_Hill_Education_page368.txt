@@ -1,0 +1,80 @@
+338 PART TWO  
+MODELINGsmart phones), the mobile interface designer must compress interaction 
+in a  focused manner. However, the basic principles discussed in this section con-
+tinue to apply. 
+ Bruce Tognozzi [Tog01] deﬁ
+ nes a set of fundamental design principles that 
+lead to better usability:  6 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+Anticipation.    
+An application should be designed so that it anticipates the user’s 
+next move. 
+ For example, a user has requested a content object that presents 
+information about a printer driver for a new version of an operating system. The 
+designer of the WebApp should anticipate that the user might request a down-
+
+load of the driver and should provide navigation facilities that allow this to hap-
+pen directly. 
+  
+ 
+Communication.    
+The interface should communicate the status of any activity initiated by the user.
+ 
+ Communication can be obvious (e.g., a text message) or sub-
+tle (e.g., an image of a sheet of paper moving through a printer to indicate that 
+printing is under way).   
+ 
+Consistency.    
+The use of navigation controls, menus, icons, and aesthetics (e.g., 
+color, shape, layout) should be consistent throughout.
+ 
+ For example, if a mobile 
+app uses a set of four icons (to represent major functions) across the bottom of 
+the display, these icons should appear on every screen and should not be moved 
+
+to the top of the display. The meaning of the icons should be self-evident within 
+
+the context of the app.   
+ 
+Controlled Autonomy.    
+The interface should facilitate user movement through-
+out the application, but it should do so in a manner that enforces navigation con-
+
+ventions that have been established for the application. 
+ For example, navigation 
+to content requiring controlled access should be controlled by userID and pass-
+word, and there should be no navigation mechanism that enables a user to cir-
+
+cumvent these controls.   
+ 
+Efficiency.    
+The design of the application and its interface should optimize the user’s work efﬁ
+ ciency, not the efﬁ
+ ciency of the developer who designs and builds it 
+or the client-server environment that executes it.
+ 
+ Tognozzi [Tog01] discusses this 
+when he writes: “This simple truth is why it is so important for everyone … to ap-
+preciate the importance of making user productivity goal one and to understand 
+the vital difference between building an efﬁ cient [application] and empowering 
+an efﬁ cient user.” 
+ 
+ 
+ 
+Flexibility.    
+The interface should be ﬂ exible enough to enable some users to 
+accomplish tasks directly and others to explore the application in a somewhat 
+ Is there a 
+set of basic principles that can 
+be applied as you 
+design a GUI? ?  
+6  Tognozzi’s original principles have been adapted and extended for use this book. See [Tog01] 
+for further discussion of these principles. pre22126_ch15_317-346.indd   338pre22126_ch15_317-346.indd   33813/12/13   10:01 PM13/12/13   10:01 PM

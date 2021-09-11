@@ -1,0 +1,87 @@
+CHAPTER 13  
+ARCHITECTURAL DESIGN 253 
+As we noted in  Chapter 12 , design is information driven. Software design methods are derived from consideration of each of the three domains of the anal-
+ysis model. The data, functional, and behavioral domains serve as a guide for the 
+creation of the software design.  Methods required to create “coherent, well-planned representations” of 
+the data and architectural layers of the design model are presented in this 
+
+chapter. The objective is to provide a systematic approach for the derivation 
+
+of the architectural design—the preliminary blueprint from which software is 
+
+constructed. 
+ 13.1  
+ 
+ 
+ 
+SOFTWARE
+ ARCHITECTURE  
+ 
+In their landmark book on the subject, Shaw and Garlan [Sha96] discuss software architecture in the following manner:  
+ 
+Ever since the ﬁ rst program was divided into modules, software systems have had 
+architectures, and programmers have been responsible for the interactions among 
+the modules and the global properties of the assemblage. Historically, architectures 
+
+have been implicit—accidents of implementation, or legacy systems of the past. Good 
+software developers have often adopted one or several architectural patterns as 
+strategies for system organization, but they use these patterns informally and have 
+no means to make them explicit in the resulting system.  
+  
+Today, effective software architecture and its explicit representation and 
+ design have become dominant themes in software engineering.  
+ 
+13.1.1  What Is Architecture? 
+ 
+When you consider the architecture of a building, many different attributes come to mind. At the most simplistic level, you think about the overall shape of the 
+physical structure. But in reality, architecture is much more. It is the manner in 
+
+which the various components of the building are integrated to form a cohesive 
+whole. It is the way in which the building ﬁ ts into its environment and meshes 
+with other buildings in its vicinity. It is the degree to which the building meets its 
+
+stated purpose and satisﬁ es the needs of its owner. It is the aesthetic feel of the 
+structure—the visual impact of the building—and the way textures, colors, and 
+materials are combined to create the external facade and the internal “living en-
+vironment.” It is small details—the design of lighting ﬁ xtures, the type of ﬂ
+ ooring, 
+the placement of wall hangings, the list is almost endless. And ﬁ nally, it is art. 
+  
+Architecture is also something else. It is “thousands of decisions, both big and small” [Tyr05]. Some of these decisions are made early in design and can have 
+
+a profound impact on all other design actions. Others are delayed until later, 
+
+thereby eliminating overly restrictive constraints that would lead to a poor im-
+plementation of the architectural style.     architectural 
+genres . . . . . . . . . 257  
+
+    architectural 
+
+patterns   . . . . . . . 263  
+
+    architectural 
+
+styles   . . . . . . . . . 258  
+
+    architecture . . . . . 253  
+
+    architecture 
+
+conformance 
+checking   . . . . . . . 279  
+
+    reﬁ
+ ning the 
+architecture . . . . . 270         
+  uote:  “The architecture 
+of a system is a 
+comprehensive 
+framework that 
+describes its form 
+and structure—its 
+components and 
+how they ﬁ t 
+
+together.” 
+ Jerrold Grochow 
+pre22126_ch13_252-284.indd   253pre22126_ch13_252-284.indd   25313/12/13   6:12 PM13/12/13   6:12 PM

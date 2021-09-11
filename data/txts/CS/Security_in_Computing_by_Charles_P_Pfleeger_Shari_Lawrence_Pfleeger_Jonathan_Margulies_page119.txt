@@ -1,0 +1,71 @@
+ Section 2.2  Access Control 
+85  During execution, only the capabilities of objects that have been accessed by the cur-
+rent process are kept readily available. This restriction improves the speed with which 
+
+access to an object can be checked. This approach is essentially the one used in Multics, 
+
+as described in [FAB74].
+Capabilities can be revoked. When an issuing subject revokes a capability, no further 
+access under the revoked capability should be permitted. A capability table can contain 
+
+pointers to the active capabilities spawned under it so that the operating system can 
+
+trace what access rights should be deleted if a capability is revoked. A similar problem 
+
+is deleting capabilities for users who are no longer active.
+These three basic structures, the directory, access control matrix and its subsets, and 
+capability, are the basis of access control systems implemented today. Quite apart from 
+
+the mechanical implementation of the access control matrix or its substructures, two 
+
+access models relate more specifically to the objective of access control: relating access 
+
+to a subject’s role or the context of the access. We present those models next.
+Procedure-Oriented Access Control
+One goal of access control is restricting not just what subjects have access to an object, 
+
+but also what they can 
+do to that object. Read versus write access can be controlled 
+rather readily by most applications and operating systems, but more complex control is 
+
+not so easy to achieve.
+By procedure-oriented
+ protection, we imply the existence of a procedure that 
+controls access to objects (for example, by performing its own user authentication to 
+
+strengthen the basic protection 
+
+provided by the basic operating 
+
+system). In essence, the procedure 
+
+forms a capsule around the object, 
+
+permitting only certain specified 
+
+accesses.Procedures can ensure that accesses to an object be made through a trusted inter-face. For example, neither users nor general operating system routines might be allowed 
+
+direct access to the table of valid users. Instead, the only accesses allowed might be 
+
+through three procedures: one to add a user, one to delete a user, and one to check 
+
+whether a particular name corresponds to a valid user. These procedures, especially add 
+
+and delete, could use their own checks to make sure that calls to them are legitimate.
+Procedure-oriented protection implements the principle of information hiding 
+because the means of implementing an object are known only to the object’s control 
+
+procedure. Of course, this degree of protection carries a penalty of inefficiency. With 
+
+procedure-oriented protection, there can be no simple, fast access checking, even if the 
+
+object is frequently used.Role-Based Access Control
+We have not yet distinguished among kinds of users, but we want some users (such as 
+
+administrators) to have significant privileges, and we want others (such as regular users 
+
+or guests) to have lower privileges. In companies and educational institutions, this can 
+Procedures can perform actions specific 
+
+to a particular object in implementing 
+access control.

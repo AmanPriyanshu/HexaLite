@@ -1,0 +1,50 @@
+346 Chapter 6  
+NetworksMicrowave
+Microwave signals are not carried along a wire; they are broadcast through the air, 
+making them more accessible to outsiders. Microwave is a line-of-sight technology; the 
+
+receiver needs to be on an unblocked line with the sender’s signal. Typically, a trans-
+
+mitter’s signal is focused on its corresponding receiver because microwave reception 
+
+requires a clear space between sender and receiver. The signal path is fairly wide, to 
+
+be sure of hitting the receiver, as shown in Figure 6-1. From a security standpoint, the 
+
+wide swath is an invitation to mischief. Not only can someone intercept a microwave 
+
+transmission by interfering with the line of sight between sender and receiver, someone 
+
+can also pick up an entire transmission from an antenna located close to but slightly off 
+
+the direct focus point.A microwave signal is usually not shielded or isolated to prevent interception. 
+Microwave is, therefore, an insecure medium because the signal is so exposed. How-
+
+ever, because of the large volume of traffic carried by microwave links, an interceptor is 
+
+unlikely to separate an individual transmission from all the others interleaved with it. A 
+
+privately owned microwave link, carrying only communications for one organization, is 
+
+not so well protected by volume.
+Microwave signals require true visible alignment, so they are of limited use in hilly 
+terrain. Plus, because the curvature of the earth interferes with transmission, microwave 
+
+signals must be picked up and repeated to span long distances, which complicates long 
+
+distance communications, for example, over oceans. The solution to these limitations is, 
+
+surprisingly, satellites.
+Satellite CommunicationSignals can be bounced off a satellite: from earth to the satellite and back to earth again. 
+The sender and receiver are fixed points; the sender beams a signal over a wide area in 
+
+which the satellite is located, and the satellite rebroadcasts that signal to a certain radius 
+around the receiver. Satellites are in orbit at a level synchronized to the earth’s orbit, so 
+
+they appear to be in a fixed point relative to the earth.
+SenderReceiver
+Intended Signal Path 
+Actual Signal Path
+
+(to account for 
+errors in aim) InterceptorInterceptorFIGURE 6-1 Microwave Transmission Interception

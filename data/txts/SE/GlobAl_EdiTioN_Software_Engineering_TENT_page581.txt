@@ -1,0 +1,48 @@
+We need software engineering because we create large and complex software 
+ systems. The discipline emerged in the 1960s because the first attempts to build 
+large software systems mostly went wrong. Creating software was much more 
+
+expensive than expected, took longer than planned, and the software itself was often 
+unreliable. To address these problems, we have developed a range of software engi
+-
+neering techniques and technologies, which have been remarkably successful. We 
+
+can now build systems that are much larger, more complex, much more reliable, and 
+
+more effective than the software systems of the 1970s.However, we have not ﬁsolvedﬂ the problems of large system engineering. 
+Software project failures are still common. For example, there have been serious 
+
+problems and delays in the implementation of government health care systems in 
+
+both the United States and the UK. The root cause of these problems is, as it was in 
+the 1960s, that we are trying to build systems that are larger and more complex than 
+
+before. We are attempting to build these ﬁmega-systemsﬂ using methods and tech-
+nology that were never designed for this purpose. As I discuss later in the chapter, I 
+believe that current software engineering technology cannot scale up to cope with 
+
+the complexity that is inherent in many of the systems now being proposed.The increase in size of software systems since the introduction of software engi-neering has been remarkable. Today™s large systems may be a hundred or even a 
+
+thousand times larger than the ﬁlargeﬂ systems of the 1960s. Northrop and her col-
+leagues (Northrop et al. 2006) suggested in 2006 that we would shortly see the 
+
+development of systems with a billion lines of code. Almost 10 years after this pre-
+diction, I suspect such systems are already in use.Of course, we do not start with nothing and then write a billion lines of code. As I discussed in Chapter 15, the real success story of software engineering has been 
+software reuse. It is only because we have developed ways of reusing software 
+
+across applications and systems that large-scale development is possible. Very large-
+scale systems now and in the future will be built by integrating existing systems 
+
+from different providers to create systems of systems (SoS).What do we mean when we talk about a system of systems? As Hitchens says 
+(Hitchins 2009), from a general systems perspective, there is no difference between 
+
+a system and a system of systems. Both have emergent properties and can be com-
+posed from subsystems. However, from a software engineering perspective, I think 
+there is a useful distinction between these terms. This distinction is sociotechnical 
+rather than technical:A system of systems is a system that contains two or more independently 
+
+managed elements.This means that there is no single manager for all of the parts of the system of systems and that different parts of a system are subject to different management and 
+
+control policies and rules. As we shall see, distributed management and control has 
+a profound effect on the overall complexity of the system.This definition of systems of systems says nothing about the size of systems of systems. A relatively small system that includes services from different providers is 
+˜˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜˜˜

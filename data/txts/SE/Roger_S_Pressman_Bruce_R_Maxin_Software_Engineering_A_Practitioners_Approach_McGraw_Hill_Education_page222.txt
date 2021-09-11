@@ -1,0 +1,109 @@
+192 PART TWO  
+MODELING 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 10.4 C
+LASS-RESPONSIBILITY-COLLABORATOR
+ MODELING    
+ 
+Class-responsibility-collaborator (CRC) modeling
+ 
+ [Wir90] provides a simple means 
+for identifying and organizing the classes that are relevant to system or product 
+
+requirements. Ambler [Amb95] describes   
+CRC modeling  
+ in the following way: 
+ 
+A CRC model is really a collection of standard index cards that represent classes. The cards are divided into three sections. Along the top of the card you write the 
+name of the class. In the body of the card you list the class responsibilities on the left 
+and the collaborators on the right.  
+  
+In reality, the CRC model may make use of actual or virtual index cards. The 
+intent is to develop an organized representation of classes.  Responsibilities 
+ are 
+the attributes and operations that are relevant for the class. Stated simply, a 
+
+responsibility is “anything the class knows or does” [Amb95].  Collaborators 
+ are 
+those classes that are required to provide a class with the information needed to 
+complete a responsibility. In general, a  
+collaboration 
+ implies either a request for 
+information or a request for some action.  
+ 
+ 
+   
+A simple CRC index card for the  FloorPlan 
+ class is illustrated in  
+Figure 10.3 . The list of responsibilities shown on the CRC card is preliminary and subject to 
+additions or modiﬁ cation. The classes  
+Wall
+ 
+ and  
+Camera 
+ are noted next to the 
+responsibility that will require their collaboration.    
+Classes. 
+  Basic guidelines for identifying classes and objects were pre-
+sented earlier in this chapter. The taxonomy of class types presented in 
+
+Section 10.1 can be extended by considering the following categories:  
+ 
+ 
+ •   
+Entity classes 
+ 
+, 
+ also called  model 
+ or  business 
+ classes, are extracted 
+ directly from the statement of the problem (e.g.,  FloorPlan 
+ and  Sensor 
+). 
+ 
+WebRef 
+ An excellent discussion 
+of these class types can 
+be found at   http://
+www.oracle.com/ 
+
+technetwork/ 
+developer-tools/
+jdev/gettingstarted 
+
+withumlclass 
+modeling-130316 
+.pdf  . 
+  uote:  “One purpose of 
+CRC cards is to 
+fail early, to fail 
+
+often, and to fail 
+inexpensively. It 
+
+is a lot cheaper to 
+tear up a bunch of 
+cards than it would 
+be to reorganize 
+a large amount of 
+source code.”  C. Horstmann 
+Class:Des
+Res
+Collaaborator:
+Class:DeCoollaborator:
+Class:DCCollaborator:
+Class: FloorPlanDescriptionResponsibility:Collaborator:Incorporates walls, doors, and windowsShows position of video camerasDefines floor plan name/typeManages floor plan positioning
+Scales floor plan for displayScales floor plan for displayWall
+Camera  
+FIGURE 10.3 
+A CRC model index card 
+ 
+ pre22126_ch10_184-201.indd   192pre22126_ch10_184-201.indd   19213/12/13   6:11 PM13/12/13   6:11 PM

@@ -1,0 +1,64 @@
+ Section 10.4  Risk Analysis 
+669  We usually want to weigh the pros and cons of different actions we can take to 
+address each risk. To that end, we can quantify the effects of a risk by multiplying 
+
+the risk impact by the risk probability, yielding the 
+risk exposure
+. For example, if the 
+likelihood of virus attack is 0.3 and the cost to clean up the affected files is $10,000, 
+
+then the risk exposure is $3,000. So we can use a calculation like this one to decide 
+
+that a virus checker is worth an investment of $100, since it will prevent a much larger 
+
+expected potential loss. Clearly, risk probabilities can change over time, so a risk analy-
+
+sis activity should track them and plan for events accordingly.
+Risk is inevitable in life: Crossing the street is risky but that does not keep us from 
+doing it. We can identify, limit, avoid, or transfer risk but we can seldom eliminate it. In 
+
+general, we have three strategies for dealing with risk:
+• avoid the risk by changing requirements for security or other system 
+characteristics• transfer
+ the risk by allocating the risk to other systems, people, organizations, or 
+assets; or by buying insurance to cover any financial loss should the risk become 
+
+a reality• assume the risk by accepting it, controlling it with available resources and pre-
+paring to deal with the loss if it occursThus, costs are associated not only with the risk’s potential impact but also with 
+reducing it. Risk leverage
+ is the difference in risk exposure divided by the cost of 
+reducing the risk. In other words, risk leverage is
+(risk exposure before reduction) 
+ (risk exposure after reduction)
+(cost of risk reduction)The leverage measures value for money spent: A risk reduction of $100 for a cost 
+of $10, a 10:1 reduction, is quite 
+
+a favorable result. If the lever-
+
+age value of a proposed action is 
+
+not high enough, then we look for 
+
+alternative but less costly actions or 
+
+more effective reduction techniques.
+Risk analysis is the process of examining a system and its operational context to deter-
+mine possible exposures and the potential harm they can cause. Thus, the first step in a 
+
+risk analysis is to identify and list all exposures in the computing system of interest. Then, 
+
+for each exposure, we identify possible controls and their costs. The last step is a cost–
+
+benefit analysis: Does it cost less to implement a control or to accept the expected cost 
+
+of the loss? In the remainder of this section, we describe risk analysis, present examples 
+
+of risk analysis methods, and discuss some of the drawbacks to performing risk analysis.
+The Nature of Risk
+In our everyday lives, we take risks. In riding a bike, eating oysters, or playing the lot-
+
+tery, we take the chance that our actions may result in some negative result—such as 
+
+being injured, getting sick, or losing money. Consciously or unconsciously, we weigh 
+Risk leverage is the amount of benefit 
+per unit spent.

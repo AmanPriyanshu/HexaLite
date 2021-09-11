@@ -1,0 +1,51 @@
+6 CHAPTER 1  
+THE NATURE OF SOFTWARE
+made, it is likely that errors will be introduced, causing the failure rate curve to spike as shown in the “actual curve” ( Figure 1.2 ). Before the curve can return to the original steady-state failure rate, another change is requested, causing the 
+curve to spike again. Slowly, the minimum failure rate level begins to rise—the 
+
+software is deteriorating due to change.   
+ 
+ 
+ 
+Another aspect of wear illustrates the difference between hardware and soft-ware. When a hardware component wears out, it is replaced by a spare part. There 
+are no software spare parts. Every software failure indicates an error in design 
+or in the process through which design was translated into machine executable 
+code. Therefore, the software maintenance tasks that accommodate requests for 
+change involve considerably more complexity than hardware maintenance.   
+ 
+1.1.2  Software  
+ 
+Application Domains  
+  
+Today, seven broad categories of computer software present continuing chal-
+lenges for software engineers:   
+ 
+ 
+ 
+ 
+ 
+ 
+System software— a collection of programs written to service other programs. Some system software (e.g., compilers, editors, and ﬁ le man-
+agement utilities) processes complex, but determinate,  3 
+ 
+ information struc-tures. Other systems applications (e.g., operating system components, 
+drivers, networking software, telecommunications processors) process 
+largely indeterminate data.  Increased failurerate due to sideeffectsTimeFailure rateChangeActual curve
+Idealized curve
+  
+FIGURE 1.2 
+Failure curves 
+for software 
+ 
+    Software engineering 
+methods strive to 
+reduce the magnitude 
+of the spikes and the 
+slope of the actual 
+curve in  Figure 1.2 . 
+  
+3  Software is  determinate 
+ if the order and timing of inputs, processing, and outputs is predict-
+able. Software is  indeterminate 
+ if the order and timing of inputs, processing, and outputs can-
+not be predicted in advance. pre22126_ch01_001-013.indd   6pre22126_ch01_001-013.indd   613/12/13   10:00 PM13/12/13   10:00 PM

@@ -1,0 +1,41 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜You identify partitions by using the program specification or user documentation and 
+from experience where you predict the classes of input value that are likely to detect 
+errors. For example, say a program specification states that the program accepts four to 
+
+eight inputs which are five-digit integers greater than 10,000. You use this information to 
+
+identify the input partitions and possible test input values. These are shown in Figure 
+8.6.When you use the specification of a system to identify equivalence partitions, this is called black-box testing. You don™t need any knowledge of how the system works. 
+
+It is sometimes useful to supplement the black-box tests with ﬁwhite-box testing,ﬂ 
+where you look at the code of the program to find other possible tests. For example, 
+your code may include exceptions to handle incorrect inputs. You can use this 
+
+knowledge to identify ﬁexception partitionsﬂŠdifferent ranges where the same 
+
+exception handling should be applied.Equivalence partitioning is an effective approach to testing because it helps 
+account for errors that programmers often make when processing inputs at the edges 
+of partitions. You can also use testing guidelines to help choose test cases. Guidelines 
+encapsulate knowledge of what kinds of test cases are effective for discovering 
+
+errors. For example, when you are testing programs with sequences, arrays, or lists, 
+guidelines that could help reveal defects include:1. Test software with sequences that have only a single value. Programmers natu-rally think of sequences as made up of several values, and sometimes they 
+
+embed this assumption in their programs. Consequently, if presented with a 
+
+single-value sequence, a program may not work properly.2. Use different sequences of different sizes in different tests. This decreases the 
+
+chances that a program with defects will accidentally produce a correct output 
+because of some accidental characteristics of the input.3.
+ Derive tests so that the first, middle, and last elements of the sequence are 
+
+accessed. This approach reveals problems at partition boundaries.Between 10000 and 99999
+Less than 10000
+More than 9999999991000050000
+100000
+99999Input values
+Between 4 and 
+10Less than 4More than 
+103471110Number of input values
+Figure 8.6 Equivalence partitions 

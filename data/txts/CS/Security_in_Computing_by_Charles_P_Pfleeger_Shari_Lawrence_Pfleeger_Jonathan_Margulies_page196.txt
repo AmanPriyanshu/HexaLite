@@ -1,0 +1,63 @@
+162 Chapter 3  
+Programs and Programmingstring. This format is prone to misinterpretation. Suppose an erroneous process happens 
+to overwrite the end of the string and its terminating null character; in that case, the 
+
+application reading the string will continue reading memory until a null byte happens to 
+appear (from some other data value), at any distance beyond the end of the string. Thus, 
+
+the application can read 1, 100 to 100,000 extra bytes or more until it encounters a null.
+The problem of buffer overflow arises in computation, as well. Functions to move 
+and copy a string may cause overflows in the stack or heap as parameters are passed to 
+
+these functions.Parameter Length, Type, and Number
+Another source of data-length errors is procedure parameters, from web or conventional 
+
+applications. Among the sources of problems are these:
+• Too many parameters
+. Even though an application receives only three incom-
+ing parameters, for example, that application can incorrectly write four outgo-
+
+ing result parameters by using stray data adjacent to the legitimate parameters 
+
+passed in the calling stack frame. (The opposite problem, more inputs than the 
+application expects, is less of a problem because the called applications’ outputs 
+
+will stay within the caller’s allotted space.)
+• Wrong output type or size.
+ A calling and called procedure need to agree on 
+the type and size of data values exchanged. If the caller provides space for a 
+
+two-byte integer but the called routine produces a four-byte result, those extra 
+
+two bytes will go somewhere. Or a caller may expect a date result as a number 
+
+of days after 1 January 1970 but the result produced is a string of the form 
+
+“dd-mmm-yyyy.”
+• Too-long string.
+ A procedure can receive as input a string longer than it can 
+handle, or it can produce a too-long string on output, each of which will also 
+cause an overflow condition.
+Procedures often have or allocate temporary space in which to manipulate param-
+eters, so temporary space has to be large enough to contain the parameter’s value. If 
+
+the parameter being passed is a null-terminated string, the procedure cannot know how 
+
+long the string will be until it finds the trailing null, so a very long string will exhaust 
+
+the buffer.
+Unsafe Utility Program
+Programming languages, especially C, provide a library of utility routines to 
+
+assist with common activities, such as moving and copying strings. In C the func-
+
+tion strcpy(dest,src)
+ copies a string from 
+src to 
+dest, stopping on a null, 
+with the potential to overrun allocated memory. A safer function is 
+strncpy(dest,src,max)
+, which copies up to the null delimiter or max characters, 
+whichever comes first.
+Although there are other sources of overflow problems, from these descriptions you 
+can readily see why so many problems with buffer overflows occur. Next, we describe 

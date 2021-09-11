@@ -1,0 +1,114 @@
+CHAPTER 18  
+MOBILEAPP DESIGN 397 
+ 
+ 
+ 
+18.2.1  MobileApp Quality 
+ 
+In reality, almost every quality dimension and factor discussed in Chapter 19 ap-
+plies to MobileApps. However, Andreou [And05] suggests that end-user satisfac-
+
+tion with a MobileApp is dictated by six important quality factors: functionality, 
+
+reliability, usability, efﬁ
+ ciency, maintainability, and portability. 
+ 
+ 
+Jamie:  Not quite. If we took a mobile phone browser 
+approach we might be able to reuse a lot of our 
+
+ WebApps. But remember, smartphone screen sizes vary 
+and they may or may not all have the same touch capa-
+bilities. So at the very least we would have to create a 
+
+mobile website that takes the device features into account. 
+  
+Ed:  Perhaps we should build the mobile version of the 
+website ﬁ rst. 
+  
+Marketing person:  OK, but a mobile website solu-
+tion wasn’t what we had in mind. 
+  
+Vinod:  Each mobile platform seems to have its own 
+unique development environment too.   
+Production rep:  Can we restrict MobileApp develop-
+ment to only one or two types of smartphones? 
+  
+Marketing person:  I think that might work. Unless 
+I’m mistaken, the smartphone market is dominated by 
+
+two smartphone platforms right now. 
+  
+Jamie:  There’s also security to worry about. We bet-
+ter make sure an outsider can’t hack into the system, 
+disarm it, and rob the place or worse. Also a phone 
+could get lost or stolen more easily than a laptop.   
+Doug:  Very true. 
+  
+Marketing:  But we still need the same level of secu-
+
+in with a stolen phone.   
+Ed:  That’
+  
+Facilitator (interrupting):  Let’s not worry about 
+those details yet. 
+ (Doug, serving as the recorder for the meeting, makes 
+an appropriate note.)   
+Facilitator:  As a starting point, can we identify which 
+elements of WebApp security function are needed in the 
+
+MobileApp and which will need to be newly created? 
+Then we can decide how many mobile platforms we 
+
+can support and when we can move forward on this 
+
+project.  (The group spends the next 20 minutes reﬁ ning and 
+expanding the details of the home security function.)   
+ 
+MobileApp —Quality Checklist  
+The following checklist provides a set of ques-tions that will help both software engineers and end users assess overall MobileApp quality:  
+ 
+ 
+•  Can content and/or function and/or navigation options be tailored to the user’s preferences? 
+  
+ 
+ 
+•  Can content and/or functionality be customized to the bandwidth at which the user communicates? 
+Does the app account for weak or lost signals in an 
+acceptable manner?   
+ 
+ 
+•  Can content and/or function and/or navigation options be made context aware according to the 
+user’s preferences? 
+  
+ 
+ 
+•  Has adequate consideration been given to the power availability on the target device(s)?   
+ 
+ 
+•  Have graphics, media (audio, video), and other Web 
+or cloud services been used appropriately? 
+  
+ 
+ 
+•  Is the overall page design easy to read and navigate? 
+Does the app take screen-size differences into account? 
+  
+ 
+ 
+•  Does the user interface conform to the display and 
+interaction standards adopted for the targeted mobile 
+device(s)?   
+ 
+ 
+•  Does the app conform to the reliability, security, and 
+privacy expectations of its users?   
+ 
+ 
+•  What provisions have been made to ensure an app remains current?   
+ 
+ 
+•  Has the MobileApp been tested in all targeted user environments and for all targeted devices?  
+ 
+   
+INFO pre22126_ch18_391-410.indd   397pre22126_ch18_391-410.indd   39716/12/13   6:23 PM16/12/13   6:23 PM

@@ -1,0 +1,93 @@
+CHAPTER 9  
+REQUIREMENTS MODELING: SCENARIO-BASED METHODS 167particularly to the Target Document [software requirements speciﬁ
+ cation]. Prob-
+lems of size must be dealt with using an effective method of partitioning. The Vic-
+
+torian novel speciﬁ cation is out. Graphics have to be used whenever possible. We 
+have to differentiate between logical [essential] and physical [implementation] con-
+Something to help us partition our re-
+
+quirements and document that partitioning before speciﬁ Some means of 
+New tools to describe logic and policy, 
+
+something better than narrative text  
+  
+Although DeMarco wrote about the attributes of analysis modeling more than three decades ago, his comments still apply to modern requirements modeling 
+methods and notation.     uml models. . . . . . 179  
+    use cases. . . . . . . . 
+173      use case 
+
+exception . . . . . . . 177         
+  
+ 
+ 
+ 9.1 R
+EQUIREMENTS ANALYSIS
+  
+ 
+Requirements analysis results in the speciﬁ cation of software’s operational 
+characteristics, indicates software’s interface with other system elements, and 
+
+establishes constraints that software must meet. Requirements analysis allows 
+you (regardless of whether you’re called a  software engineer,
+ 
+ an  
+analyst, 
+ or a 
+ modeler 
+) to elaborate on basic requirements established during the inception, elicitation, and negotiation tasks that are part of requirements engineering 
+(Chapter 8).   The requirements modeling action results in one or more of the following types of models:  
+ 
+ 
+•   
+Scenario-based models 
+ of requirements from the point of view of various system “actors.”   
+ 
+ 
+•   
+Class-oriented models 
+ that represent object-oriented classes (attributes and operations) and the manner in which classes collaborate to achieve 
+system requirements.   
+ 
+ 
+•   
+Behavioral and patterns-based models 
+ that depict how the software be-haves as a consequence of external “events.”   
+ 
+ 
+•   
+Data models 
+ that depict the information domain for the problem.   
+ 
+ 
+•   
+Flow-oriented models 
+ that represent the functional elements of the system and how they transform data as they move through the system.  
+ 
+ 
+ 
+ 
+ 
+   
+These models provide a software designer with information that can be trans-lated to architectural-, interface-, and component-level designs. Finally, the 
+
+ requirements model (and the software requirements speciﬁ cation) provides 
+the developer and the customer with the means to assess quality once software 
+
+ 
+  uote:  “Any one ‘view’ 
+of requirements 
+is insufﬁ cient 
+
+to understand 
+or describe the 
+desired behavior of 
+a complex system.”  Alan M. Davis 
+   The analysis model 
+
+and requirements 
+speciﬁ cation provide 
+
+a means for assessing 
+quality once the soft-
+ware is built. pre22126_ch09_166-183.indd   167pre22126_ch09_166-183.indd   16713/12/13   6:11 PM13/12/13   6:11 PM

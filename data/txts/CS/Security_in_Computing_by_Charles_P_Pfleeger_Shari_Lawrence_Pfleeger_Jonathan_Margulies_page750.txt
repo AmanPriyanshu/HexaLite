@@ -1,0 +1,56 @@
+716 Chapter 11  
+Legal Issues and EthicsSpecial CasesIn this section we consider some special cases of computer objects warranting legal 
+protection of some sort.Computer Source or Object Code
+Source code, probably the thing most important to secure with legal protection, is prob-
+ably the murkiest. Source code can be protected by patent as long as the developer 
+
+can present a convincing case that the underlying algorithm is novel. So a simple sort 
+
+procedure would not be novel because the technique is well known. Computer source 
+
+or object code can also be protected as intellectual property under copyright. However, 
+
+that protection applies only to the reproductions of the code, not to a variation of the 
+
+concept. In text, copying and reselling an entire article violates copyright, extracting a 
+
+small amount verbatim is acceptable use, and paraphrasing an idea is perfectly accept-
+
+able. Extending those notions to computer code, however, leads to the conclusion that 
+
+reselling a copy of a piece of software is a violation, but rewriting a piece of code, that 
+
+is, reimplementing the same algorithm, is within the limits of copyright law. Such a 
+
+conclusion does not provide satisfactory protection for software.
+Web Content
+Content on the web is media, much the same as a book or photograph, so the most 
+appropriate protection for it is copyright. This copyright would also protect software 
+TABLE 11-1 
+Comparing Copyrights, Patents, and Trade Secrets
+CopyrightPatentTrade Secret
+Protects
+Expression of idea, not idea itselfInvention—the way 
+something works
+A secret, competitive 
+advantage
+Protected object 
+made publicYes; intention is to 
+promote publicationDesign filed at Patent 
+Office
+NoRequirement to 
+distribute
+YesNoNo
+Ease of filing
+Very easy, do-it-
+yourselfVery complicated; 
+specialist lawyer 
+
+suggestedNo filing
+DurationVaries by country; 
+approximately 75–100 
+years is typical19 yearsIndefinite
+Legal protection
+Sue if unauthorized copy sold
+Sue if invention copiedSue if secret 
+improperly obtained

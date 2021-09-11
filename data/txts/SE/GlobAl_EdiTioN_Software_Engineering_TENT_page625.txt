@@ -1,0 +1,31 @@
+˜˜˚˛˜˜˜˜˜˜˜˜˜˜
+wheels. This monitors the state of each wheel to check if the wheel is turning or locked. 
+A separate process monitors the pressure on the brake pedal exerted by the car driver.The system includes an anti-skid feature, which is triggered if the sensors indicate that a wheel is locked when the brake has been applied. This means that there is 
+
+insufficient friction between the road and the tire; in other words, the car is skidding. 
+If the wheel is locked, the driver cannot steer that wheel. To counteract this effect, 
+
+the system sends a rapid sequence of on/off signals to the brake on that wheel, which 
+allows the wheel to turn and control to be regained.The Wheel monitor process monitors whether or not each wheel is turning. If a wheel is skidding (not turning), it informs the Analysis process. This then signals the processes associated with the wheels that are skidding to initiate anti-skid braking.Many real-time systems are concerned with collecting analog data from the system™s 
+environment. They then digitize that data for analysis and processing by the system. 
+The system may also convert digital data to analog data, which it then sends to its 
+environment. For example, a software radio accepts incoming packets of digital data 
+representing the radio transmission and transforms the data into a sound signal that 
+people can listen to.The data processing involved in many of these systems has to be carried out very 
+quickly. Otherwise, incoming data may be lost and outgoing signals may be broken 
+
+up because essential information is missing. The Process Pipeline pattern makes 
+
+this rapid processing possible by breaking down the required data processing into a 
+
+sequence of separate transformations. Each of these transformations is implemented 
+NameProcess PipelineDescriptionA pipeline of processes is set up with data moving in sequence 
+from one end of the pipeline to another. The processes are often 
+linked by synchronized buffers to allow the producer and 
+consumer processes to run at different speeds. The culmination 
+of a pipeline may be display or data storage, or the pipeline may 
+terminate in an actuator.StimuliInput values from the environment or some other processResponsesOutput values to the environment or a shared bufferProcessesProducer, Buffer, ConsumerUsed inData acquisition systems, multi-media systemsFigure 21.12  The Process  
+Pipeline patternBufferprocess
+ProducerprocessProduceddataConsumerprocess
+Consumeddata...Figure 21.13 Process Pipeline process 
+structure 

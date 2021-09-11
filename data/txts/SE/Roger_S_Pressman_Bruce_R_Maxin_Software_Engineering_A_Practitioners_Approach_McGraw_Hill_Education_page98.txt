@@ -1,0 +1,70 @@
+68 PART ONE  
+THE SOFTWARE PROCESS
+ 
+ 
+ 
+ 
+ 5.1 W
+HAT
+ IS   
+AGILITY 
+ 
+?  
+ 
+Just what is agility in the context of software engineering work? Ivar Jacobson [Jac02a] provides a useful discussion:  
+ 
+Agility 
+ has become today’s buzzword when describing a modern software process. 
+Everyone is agile. An agile team is a nimble team able to appropriately respond to 
+changes. Change is what software development is very much about. Changes in the 
+software being built, changes to the team members, changes because of new technol-
+ogy, changes of all kinds that may have an impact on the product they build or the 
+
+project that creates the product. Support for changes should be built-in everything 
+we do in software, something we embrace because it is the heart and soul of software. 
+An agile team recognizes that software is developed by individuals working in teams 
+and that the skills of these people, their ability to collaborate is at the core for the 
+success of the project.  
+ 
+ 
+ 
+ 
+  
+ 
+In Jacobson’s view, the pervasiveness of change is the primary driver for agil-
+ity. Software engineers must be quick on their feet if they are to accommodate 
+
+the rapid changes that Jacobson describes.  But agility is more than an effective response to change. It also encompasses the philosophy espoused in the manifesto noted at the beginning of this chapter. 
+
+It encourages team structures and attitudes that make communication (among 
+team members, between technologists and business people, between software 
+engineers and their managers) more facile. It emphasizes rapid delivery of 
+operational software and deemphasizes the importance of intermediate work 
+products (not always a good thing); it adopts the customer as a part of the devel-
+opment team and works to eliminate the “us and them” attitude that continues 
+to pervade many software projects; it recognizes that planning in an uncertain 
+world has its limits and that a project plan must be ﬂ exible. 
+ Agility can be applied to any software process. However, to accomplish this, it 
+is essential that the process be designed in a way that allows the project team to 
+adapt tasks and to streamline them, conduct planning in a way that understands 
+the ﬂ uidity of an agile development approach, eliminate all but the most essen-
+tial work products and keep them lean, and emphasize an incremental delivery 
+strategy that gets working software to the customer as rapidly as feasible for the 
+product type and operational environment.   
+ 
+ 
+ 5.2 A
+GILITY AND THE   
+COST OF CHANGE   
+ 
+  
+The conventional wisdom in software development (supported by decades of ex-perience) is that the cost of change increases nonlinearly as a project progresses 
+( Figure 5.1 , solid black curve). It is relatively easy to accommodate a change when a software team is gathering requirements (early in a project). A usage sce-
+nario might have to be modiﬁ ed, a list of functions may be extended, or a written 
+   Don’t make the 
+mistake of assuming 
+that agility gives you 
+license to hack out 
+solutions. A process is 
+required and discipline 
+is essential. pre22126_ch05_066-086.indd   68pre22126_ch05_066-086.indd   6813/12/13   6:10 PM13/12/13   6:10 PM

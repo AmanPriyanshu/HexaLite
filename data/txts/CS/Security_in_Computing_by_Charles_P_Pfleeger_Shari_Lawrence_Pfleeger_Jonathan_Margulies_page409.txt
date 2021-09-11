@@ -1,0 +1,76 @@
+ Section 6.3  Wireless Network Security 
+375  predefined radio frequencies, you can expect an eavesdropping attacker to try to intercept 
+and impersonate. Pieces to protect are 
+
+finding the access point, authenticat-
+
+ing the remote computer to the access 
+
+point, and vice versa, and protecting 
+
+the communication stream.Wireless communication has other vulnerabilities, as related in Sidebar 6-8.
+Wireless communication will never be 
+
+as secure as wired, because the exposed 
+
+signal is more vulnerable.
+SIDEBAR 6-8 Wireless Interceptions
+The New Zealand Herald [GRI02] reports that a major telecommunications 
+company was forced to shut down its mobile email service because of a 
+
+security flaw in its wireless network software. The flaw affected users on the 
+
+company’s network who were sending email on their WAP-enabled (wire-
+
+less applications protocol) mobile phones.
+The vulnerability occurred when the user finished an email session. 
+In fact, the software did not end the WAP session for 60 more seconds. If 
+
+a second network customer were to initiate an email session within those 
+
+60 seconds and be connected to the same port as the first customer, the 
+
+second customer could then view the first customer’s message.
+The company blamed third-party software provided by a mobile por-
+tal. Nevertheless, the telecommunications company was highly embar-
+
+rassed, especially because it “perceived security issues with wireless 
+
+networks” to be “a major factor threatening to hold the [wireless] technol-
+
+ogy’s development back.” [GRI02]
+Anyone with a wireless network card can search for an available net-
+work. Security consultant Chris O’Ferrell has been able to connect to wire-
+
+less networks in Washington D.C. from outside a Senate office building, 
+
+the Supreme Court, and the Pentagon [NOG02]; others join networks in 
+
+airports, on planes, and at coffee shops. Both the Observer product from 
+
+Network Instruments and IBM’s Wireless Security Analyzer can locate open 
+
+wireless connections on a network so that a security administrator can 
+
+know a network is accessible for wireless access.
+And then some wireless LAN users refuse to shut off or protect their 
+service. Retailer BestBuy was embarrassed by a customer who bought a 
+wireless product; while in the parking lot, he installed it in his laptop com-
+
+puter. Much to his surprise, he found he could connect to the store’s wire-
+
+less network. BestBuy subsequently took all its wireless cash registers 
+
+offline. But the CVS pharmacy chain announced plans to continue use of 
+
+wireless networks in all 4100 of its stores, arguing “We use wireless technol-
+
+ogy strictly for internal item management. If we were to ever move in the 
+
+direction of transmitting [customer] information via in-store wireless LANs, 
+
+we would encrypt the data” [BRE02a]. In too many cases nobody remem-
+
+bers the initial intentions to protect data when someone changes an appli-
+
+cation years later.

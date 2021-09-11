@@ -1,0 +1,79 @@
+CHAPTER 23  
+TESTING CONVENTIONAL APPLICATIONS
+ 521customer uses the program, a test is being conducted.” By applying test-case design, you can achieve more complete testing and thereby uncover and correct 
+the highest number of errors before the “customer’s tests” begin. 
+  
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+23.1.  Myers [Mye79] uses the following program as a self-assessment for your ability to spec-ify adequate testing: A program reads three integer values. The three values are inter-
+
+preted as representing the lengths of the sides of a triangle. The program prints a message 
+that states whether the triangle is scalene, isosceles, or equilateral. Develop a set of test 
+cases that you feel will adequately test this program.    
+ 
+23.2.  Design and implement the program (with error handling where appropriate) speciﬁ ed 
+in Problem 23.1. Derive a ﬂ ow graph for the program and apply basis path testing to develop 
+test cases that will guarantee that all statements in the program have been tested. Execute 
+the cases and show your results.    
+ 
+23.3.  Can you think of any additional testing objectives that are not discussed in    
+ 
+23.4.  Select a software component that you have designed and implemented recently. De-
+sign a set of test cases that will ensure that all statements have been executed using basis 
+path testing.    
+ 
+23.5.  Specify, design, and implement a software tool that will compute the cyclomatic com-
+plexity for the programming language of your choice. Use the graph matrix as the operative 
+data structure in your design.    
+ 
+23.6.  Read Beizer [Bei95] or a related Web-based source (e.g.,  
+ 
+www.laynetworks.com/
+Discrete%20Mathematics_1g.htm 
+ 
+) and determine how the program you have developed in Problem 23.5 can be extended to accommodate various link weights. Extend your tool to 
+process execution probabilities or link processing times.    
+ 
+23.7.  Design an automated tool that will recognize loops and categorize them as indicated in Section 23.5.3.    
+ 
+23.8.  Extend the tool described in Problem 23.7 to generate test cases for each loop cate-gory, once encountered. It will be necessary to perform this function interactively with the 
+
+tester. 
+   
+ 
+23.9.  Give at least three examples in which black-box testing might give the impression that “everything’s OK,” while white-box tests might uncover an error. Give at least three ex-
+
+amples in which white-box testing might give the impression that “everything’s OK,” while 
+
+black-box tests might uncover an error. 
+   
+ 
+23.10.  Will exhaustive testing (even if it is possible for very small programs) guarantee that 
+the program is 100 percent correct?    
+ 
+23.11.  Test a user manual (or help facility) for an application that you use frequently. Find at 
+least one error in the documentation.   
+ 
+ 
+ 
+  F
+URTHER
+ READINGS AND INFORMATION
+ SOURCES  
+ 
+Virtually all books dedicated to software testing consider both strategy and tactics. There-
+fore, further readings noted for Chapter 22 are equally applicable for this chapter. Burn-
+
+stein ( Practical Software Testing,
+ 
+ Springer, 2010), Crispin and Gregory ( 
+Agile Testing: A 
+Practical Guide for Testers and Agile Teams,
+ 
+ Addison-Wesley, 2009), Lewis ( 
+Software Testing 
+pre22126_ch23_496-522.indd   521pre22126_ch23_496-522.indd   52113/12/13   6:14 PM13/12/13   6:14 PM

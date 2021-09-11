@@ -1,0 +1,37 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜members should have  previous experience with security testing and finding 
+security weaknesses in systems.3. Tool-based analysis In this approach, security tools such as password checkers are used to analyze the system. Password checkers detect insecure passwords 
+
+such as common names or strings of consecutive letters. This approach is really 
+an extension of experience-based validation, where experience of security flaws 
+is embodied in the tools used. Static analysis is, of course, another type of tool-
+based analysis, which has become increasingly used. Tool-based static analysis (Chapter 12) is a particularly useful approach to secu-
+rity checking. A static analysis of a program can quickly guide the testing team 
+to areas of a program that may include errors and vulnerabilities. Anomalies 
+
+revealed in the static analysis can be directly fixed or can help identify tests that 
+need to be done to reveal whether or not these anomalies actually represent a 
+risk to the system. Microsoft uses static analysis routinely to check its software 
+for possible security vulnerabilities (Jenney 2013). Hewlett-Packard offers a 
+
+tool called Fortify (Hewlett-Packard 2012) specifically designed for checking 
+
+Java programs for security vulnerabilities.4. Formal verification 
+I have discussed the use of formal program verification in 
+
+Chapters 10 and 12. Essentially, this involves making formal, mathematical 
+
+arguments that demonstrate that a program conforms to its specification. Hall 
+and Chapman (Hall and Chapman 2002) demonstrated the feasibility of proving 
+that a system met its formal security requirements more than 10 years ago, and 
+
+there have been a number of other experiments since then. However, as in other 
+areas, formal verification for security is not widely used. It requires specialist 
+expertise and is unlikely to be as cost-effective as static analysis.Security testing takes a long time, and, usually, the time available to the testing 
+team is limited. This means that you should adopt a risk-based approach to security 
+testing and focus on what you think are the most significant risks faced by the sys-
+tem. If you have an analysis of the security risks to the system, these can be used to 
+drive the testing process. As well as testing the system against the security require-
+ments derived from these risks, the test team should also try to break the system by 
+adopting alternative approaches that threaten the system assets.˜˝˜˝˝

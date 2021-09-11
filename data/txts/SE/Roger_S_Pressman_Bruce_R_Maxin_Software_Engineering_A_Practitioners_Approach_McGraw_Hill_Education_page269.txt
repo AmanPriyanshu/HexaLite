@@ -1,0 +1,155 @@
+CHAPTER 12  
+DESIGN CONCEPTS 239 
+ 
+ 
+12.3.12 Design Classes 
+ 
+The analysis model deﬁ nes a set of analysis classes (Chapter 10). Each of these 
+classes describes some element of the problem domain, focusing on aspects of 
+the problem that are user visible. The level of abstraction of an analysis class is 
+relatively high.   
+As the design model evolves, you will deﬁ ne a set of  
+design classes 
+ that re-
+ﬁ ne the analysis classes by providing design detail that will enable the classes 
+to be implemented, and implement a software infrastructure that supports the 
+business solution. Five different types of design classes, each representing a dif-
+ferent layer of the design architecture, can be developed [Amb01].  User interface classes 
+ deﬁ
+ ne all abstractions that are necessary for human-computer interac-
+tion (HCI) and often implement the HCI in the context of a metaphor.  
+Business domain classes 
+ identify the attributes and services (methods) that are required 
+to implement some element of the business domain that was deﬁ ned by one or 
+ What types 
+of classes does the designer 
+create? ?  
+Design Concepts   
+Design Concepts  
+ 
+ 
+ 
+ 
+ 
+The scene:  Vinod’s cubicle, as 
+ design modeling begins.    
+ 
+ 
+ 
+The players:  Vinod, Jamie, and Ed—members of the 
+ SafeHome 
+ software engineering team. Also, Shakira, a new member of the team.    
+ 
+ 
+ 
+The conversation:  
+   
+ 
+ 
+ 
+[All four team members have just returned from a morn-
+ing seminar entitled “Applying Basic Design Concepts,” 
+offered by a local computer science professor.] 
+   
+ 
+ 
+ 
+Vinod:  Did you get anything out of the seminar? 
+   
+ 
+ 
+ 
+Ed:  Knew most of the stuff, but it’s not a bad idea to 
+hear it again, I suppose.    
+ 
+ 
+ 
+Jamie:  When I was an undergrad CS major, I never 
+really understood why information hiding was as im-
+
+portant as they say it is. 
+   
+ 
+ 
+ 
+Vinod:  s a technique for 
+reducing error propagation in a program. Actually, func-
+
+tional independence also accomplishes the same thing.    
+ 
+ 
+ 
+Shakira:  I wasn’t a CS grad, so a lot of the stuff the 
+instructor mentioned is new to me. I can generate good 
+code and fast. I don’t see why this stuff is so important. 
+   
+ 
+ 
+ 
+Jamie:  I’ve seen your work, Shak, and you know 
+s why 
+
+your designs and code work.    
+ 
+ 
+ 
+Shakira (smiling):  Well, I always do try to partition 
+the code, keep it focused on one thing, keep interfaces 
+
+
+that sort of thing. 
+   
+ 
+ 
+ 
+Ed:  Modularity, functional independence, hiding, 
+ patter
+   
+ 
+ 
+ 
+Jamie:  I still remember the very ﬁ
+ rst programming 
+ ne the code 
+iteratively. 
+   
+ 
+ 
+ 
+Vinod:  Same thing can be applied to design, you 
+know. 
+   
+ 
+ 
+ 
+Jamie:  The only concepts I hadn’t heard of before 
+were “aspects” and “refactoring.”    
+ 
+ 
+ 
+Shakira:  That’s used in Extreme Programming, I think 
+she said.    
+ 
+ 
+ 
+Ed:  Yep. It’s not a whole lot different than reﬁ
+ nement, 
+only you do it after the design or code is completed. 
+Kind of an optimization pass through the software, if 
+you ask me.    
+ 
+ 
+ 
+Jamie:  Let’s get back to  
+SafeHome 
+ design. I think we should put these concepts on our review checklist as we 
+develop the design model for  SafeHome 
+.    
+ 
+ 
+ 
+Vinod:  I agree. But as important, let’s all commit to 
+think about them as we develop the design.  
+ 
+  
+SAFEHOME pre22126_ch12_224-251.indd   239pre22126_ch12_224-251.indd   23913/12/13   6:12 PM13/12/13   6:12 PM

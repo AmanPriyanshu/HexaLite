@@ -1,0 +1,57 @@
+ The Web—User Side 
+233  • Data display involves a rich command set that controls rendering, positioning, 
+motion, layering, and even invisibility.
+• The browser can access any data on a user’s computer (subject to access control 
+restrictions); generally the browser runs with the same privileges as the user.
+• Data transfers to and from the user are invisible, meaning they occur without the 
+user’s knowledge or explicit permission.
+On a local computer you might constrain a spreadsheet program so it can access 
+files in only certain directories. Photo-editing software can be run offline to ensure 
+
+that photos are not released to the 
+
+outside. Users can even inspect 
+
+the binary or text content of word-
+
+processing files to at least partially 
+
+confirm that a document does not 
+
+contain certain text.
+Unfortunately, none of these limitations are applicable to browsers. By their very 
+nature, browsers interact with the outside network, and for most users and uses, it is 
+
+infeasible to monitor the destination or content of those network interactions. Many 
+
+web interactions start at site A but then connect automatically to sites B, C, and D, often 
+
+without the user’s knowledge, much less permission. Worse, once data arrive at site A, 
+
+the user has no control over what A does. 
+A browser’s effect is immediate and transitory: pressing a key or clicking a link sends 
+a signal, and there is seldom a complete log to show what a browser communicated. In 
+
+short, browsers are standard, straightforward pieces of software that expose users to 
+
+significantly greater security threats than most other kinds of software. Not surprisingly, 
+
+attacking the browser is popular and effective. Not only are browsers a popular target, 
+
+they present many vulnerabilities for attack, as shown in Figure 4-1, which shows the 
+
+number of vulnerabilities discovered in the major browsers (Google Chrome, Mozilla 
+
+Firefox, Microsoft Internet Explorer, Opera, and Safari), as reported by Secunia.
+With this list of potential vulnerabilities involving web sites and browsers, it is no 
+wonder attacks on web users happen with alarming frequency. Notice, also, that when 
+
+major vendors release patches to code, browsers are often involved. In this chapter we 
+Browsers connect users to outside 
+
+networks, but few users can monitor 
+the actual data transmitted1000900800700600
+500400
+3002001000200820092010201120122013
+208207
+441731897727FIGURE 4-1 Number of Vulnerabilities Discovered in Browsers

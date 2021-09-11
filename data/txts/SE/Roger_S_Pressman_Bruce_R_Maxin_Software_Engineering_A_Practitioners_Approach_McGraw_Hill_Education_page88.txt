@@ -1,0 +1,69 @@
+58 PART ONE  
+THE SOFTWARE PROCESS
+architecture but does not provide all features and functions required to use the system. In addition, the plan is carefully reviewed at the culmination of the elab-
+oration phase to ensure that scope, risks, and delivery dates remain reasonable. 
+Modiﬁ cations to the plan are often made at this time. 
+  
+ 
+The  construction phase 
+ of the UP is identical to the construction activity de-
+ﬁ ned for the generic software process. Using the architectural model as input, 
+the construction phase develops or acquires the software components that will 
+make each use case operational for end users. To accomplish this, analysis and 
+
+design models that were started during the elaboration phase are completed to 
+reﬂ ect the ﬁ
+ nal version of the software increment. All necessary and required 
+features and functions for the software increment (i.e., the release) are then im-
+plemented in source code. As components are being implemented, unit tests  16 
+ 
+ are designed and executed for each. In addition, integration activities (compo-
+nent assembly and integration testing) are conducted. Use cases are used to de-
+rive a suite of acceptance tests that are executed prior to the initiation of the 
+next UP phase.   
+The  transition phase 
+ of the UP encompasses the latter stages of the generic 
+construction activity and the ﬁ rst part of the generic deployment (delivery and 
+feedback) activity. Software is given to end users for beta testing, and user feed-
+
+back reports both defects and necessary changes. In addition, the software team 
+creates the necessary support information (e.g., user manuals, troubleshooting 
+guides, installation procedures) that is required for the release. At the conclu-
+sion of the transition phase, the software increment becomes a usable software 
+release.  The  production phase
+ 
+ of the UP coincides with the deployment activity of the 
+generic process. During this phase, the ongoing use of the software is monitored, 
+support for the operating environment (infrastructure) is provided, and defect 
+reports and requests for changes are submitted and evaluated.  It is likely that at the same time the construction, transition, and production phases are being conducted, work may have already begun on the next software 
+increment. This means that the ﬁ ve UP phases do not occur in a sequence, but 
+rather with staggered concurrency. 
+ A software engineering workﬂ ow is distributed across all UP phases. In the 
+context of UP, a  
+workﬂ ow
+ 
+ is analogous to a task set (described in Chapter 3). That 
+is, a workﬂ ow identiﬁ
+ es the tasks required to accomplish an important software 
+engineering action and the work products that are produced as a consequence 
+of successfully completing the tasks. It should be noted that not every task iden-
+tiﬁ ed for a UP workﬂ
+ ow is conducted for every software project. The team adapts 
+the process (actions, tasks, subtasks, and work products) to meet its needs.   
+WebRef 
+ An interesting dis-
+cussion of the UP in 
+the context of agile 
+development can be 
+found at   
+www.
+ambysoft.com/
+uniﬁ edprocess/
+agileUP.html
+  . 
+ 
+ 
+16  A comprehensive discussion of software testing (including  
+unit tests 
+) is presented in  22 
+through 26). pre22126_ch04_040-065.indd   58pre22126_ch04_040-065.indd   5813/12/13   6:10 PM13/12/13   6:10 PM

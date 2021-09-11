@@ -1,0 +1,49 @@
+˜˜˚˛˙˜˜˜˜˜˜˜
+and user manuals may all be reviewed. The review should check the consistency and completeness of the documents or code under review and, if standards have been 
+
+defined, make sure that these quality standards have been followed.Reviews are not just about checking conformance to standards. They are also 
+used to help discover problems and omissions in the software or project documenta-
+tion. The conclusions of the review should be formally recorded as part of the qual
+-
+ity management process. If problems have been discovered, the reviewers™ comments 
+should be passed to the author of the software or whoever is responsible for correct-
+ing errors or omissions.The purpose of reviews and inspections is to improve software quality, not to assess 
+the performance of people in the development team. Reviewing is a public process of 
+
+error detection, compared with the more private component-testing process. Inevitably, 
+
+mistakes that are made by individuals are revealed to the whole programming team. To 
+
+ensure that all developers engage constructively with the review process, project man-agers have to be sensitive to individual concerns. They must develop a working culture 
+
+that provides support without blame when errors are discovered.Quality reviews are not management progress reviews, although information about 
+the software quality may be used in making management decisions. Progress reviews 
+
+compare the actual progress in a software project against the planned progress. Their 
+
+prime concern is whether or not the project will deliver useful software on time and 
+
+on budget. Progress reviews take external factors into account, and changed circum-
+stances may mean that software under development is no longer required or has to be 
+
+radically changed. Projects that have developed high-quality software may have to be 
+
+canceled because of changes to the business or its operating environment.˘˘Although there are many variations in the details of reviews, review processes 
+
+(Figure 24.7) are structured into three phases:1. Pre-review activities 
+These are preparatory activities that are essential for the 
+review to be effective. Typically, pre-review activities are concerned with 
+
+review planning and review preparation. Review planning involves setting up 
+
+a˜review team, arranging a time and place for the review, and distributing 
+
+the˜documents to be reviewed. During review preparation, the team may meet to 
+
+get an overview of the software to be reviewed. Individual review team mem-bers read and understand the software or documents and relevant standards. 
+ReviewmeetingIndividual
+preparation
+GrouppreparationPlanningFollow-up
+checksImprovementErrorcorrection  Pre-review activities  Post-review activities
+Figure 24.7 The software review  
+process

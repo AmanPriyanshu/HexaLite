@@ -1,0 +1,51 @@
+504 Chapter 7  
+DatabasesThe rules of a database identify the columns with names. The name of each column is 
+called an attribute 
+of the database. A 
+relation 
+is a set of columns. For example, using the 
+database in Table 7-2, we see that NAME–ZIP is a relation formed by taking the NAME 
+
+and ZIP columns, as shown in Table 7-3. The relation specifies clusters of related data 
+
+values, in much the same way that the relation “mother of” specifies a relationship among 
+
+pairs of humans. In this example, each cluster contains a pair of elements, a NAME and 
+
+a ZIP. Other relations can have more 
+
+columns, so each cluster may be a 
+triple, a 4-tuple, or an n-tuple (for some value 
+n) of elements.TABLE 7-3 
+Relation in a DatabaseNameZip
+ADAMS43210
+BENCHLY60603
+CARTER43210
+Relations in a database show some connection among data in tables.QueriesUsers interact with database managers through commands to the DBMS that retrieve, 
+modify, add, or delete fields and records of the database. A command is called a 
+query. Database management systems have precise rules of syntax for queries. Most query 
+
+languages use an English-like notation, and many are based on SQL, a structured query 
+
+language originally developed by IBM. We have written the example queries in this 
+
+chapter to resemble English sentences so that they are easy to understand. For example, 
+
+the querySELECT NAME = 'ADAMS'retrieves all records having the value 
+ADAMS 
+in the NAME field.
+The result of executing a query is a subschema. One way to form a subschema of 
+a database is by selecting records meeting certain conditions. For example, we might 
+
+select records in which ZIP=43210, producing the result shown in Table 7-4.
+Other, more complex, selection criteria are possible, with logical operators such as 
+and (^) and or (^), and comparisons such as less than (<). An example of a select 
+query isSELECT (ZIP='43210') ^ (NAME='ADAMS')After having selected records, we may 
+project 
+these records onto one or more attri-butes. The select operation identifies certain rows from the database, and a project 
+
+operation extracts the values from certain fields (columns) of those records. The result 
+
+of a select-project operation is the set of values of specified attributes for the selected 
+
+records. For example, we might select records meeting the condition ZIP=43210 and 

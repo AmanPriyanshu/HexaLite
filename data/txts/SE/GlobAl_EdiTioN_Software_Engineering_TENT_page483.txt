@@ -1,0 +1,40 @@
+˜˜˚˛˙˜˜˜˜˜˜
+between the ﬁprovidesﬂ interface and ﬁrequiresﬂ interface of the components in the 
+composition. I have illustrated the use of an adaptor in Figure 16.12 where an adaptor 
+
+is used to link a data collector and a sensor component. These could be used in the 
+
+implementation of a wilderness weather station system, as discussed in Chapter 7.The sensor and data collector components are composed using an adaptor that 
+reconciles the ﬁrequiresﬂ interface of the data collection component with the ﬁpro-
+videsﬂ interface of the sensor component. The data collector component has been 
+
+designed with a generic ﬁrequiresﬂ interface that supports sensor data collection and 
+sensor management. For each of these operations, the parameter is a text string rep-
+resenting the specific sensor commands. For example, to issue a collect command, 
+you would say 
+sensorData(ﬁcollectﬂ)
+. As I have shown in Figure 
+16.
+12, the sensor 
+itself has separate operations such as start, stop, and getdata.The adaptor parses the input string, identifies the command (e.g., collect), and then calls 
+Sensor.getdata to collect the sensor value. It then returns the result (as a character string) 
+to the data collector component. This interface style means that the data collector can interact˜
+ with different types of sensor. A separate adaptor, which converts the sensor commands 
+
+from Data collector to the sensor interface, is implemented for each type of sensor.The above discussion of component composition assumes you can tell from the 
+component documentation whether or not interfaces are compatible. Of course, the 
+
+interface definition includes the operation name and parameter types, so you can make 
+
+some assessment of the compatibility from this. However, you depend on the compo-
+nent documentation to decide whether the interfaces are semantically compatible.To illustrate this problem, consider the composition shown in Figure 16.13. These 
+components are used to implement a system that downloads images from a camera and 
+
+stores them in a photograph library. The system user can provide additional information 
+
+to describe and catalog the photograph. To avoid clutter, I have not shown all interface 
+Data collectoraddSensorremoveSensorstartSensor
+stopSensortestSensorlistAllreport
+initializesensorManagementsensorDataAdaptorsensorstart
+getdatastopFigure 16.12  An adaptor linking a data collector and a sensor PhotoLibraryadaptorImageManagergetImageUserInterface
+getCatalogEntryaddItemretrievecatEntryFigure 16.13  Photo library composition 

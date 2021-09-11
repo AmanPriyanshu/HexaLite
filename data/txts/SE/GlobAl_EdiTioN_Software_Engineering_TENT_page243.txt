@@ -1,0 +1,32 @@
+˜˜˚˝˜˜˜˜˜˜
+The fundamental TDD process is shown in Figure 8.9. The steps in the process are as follows:1.
+ You start by identifying the increment of functionality that is required. This 
+should normally be small and implementable in a few lines of code.2.
+ You write a test for this functionality and implement it as an automated test. 
+
+This means that the test can be executed and will report whether or not it has 
+passed or failed.3.
+ You then run the test, along with all other tests that have been implemented. 
+
+Initially, you have not implemented the functionality so the new test will fail. 
+This is deliberate as it shows that the test adds something to the test set.4.
+ You then implement the functionality and re-run the test. This may involve 
+
+refactoring existing code to improve it and add new code to what™s already there.
+5. Once all tests run successfully, you move on to implementing the next chunk of 
+functionality.An automated testing environment, such as the JUnit environment that supports Java program testing (Tahchiev et al. 2010) is essential for TDD. As the code is 
+
+developed in very small increments, you have to be able to run every test each time 
+that you add functionality or refactor the program. Therefore, the tests are embedded 
+in a separate program that runs the tests and invokes the system that is being tested. 
+Using this approach, you can run hundreds of separate tests in a few seconds.Test-driven development helps programmers clarify their ideas of what a code 
+segment is actually supposed to do. To write a test, you need to understand what is 
+intended, as this understanding makes it easier to write the required code. Of course, 
+if you have incomplete knowledge or understanding, then TDD won™t help.If you don™t know enough to write the tests, you won™t develop the required code. For example, if your computation involves division, you should check that you are 
+
+not dividing the numbers by zero. If you forget to write a test for this, then the check-
+ing code will never be included in the program.As well as better problem understanding, other benefits of test-driven development are:
+1. Code coverage In principle, every code segment that you write should have at 
+least one associated test. Therefore, you can be confident that all of the code in Identify newfunctionalityWrite test
+Run test
+Implementfunctionality andrefactorfailpassFigure 8.9 Test-driven development 

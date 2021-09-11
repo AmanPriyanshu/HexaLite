@@ -1,0 +1,38 @@
+182 Chapter 3  
+Programs and Programmingthe virus from being detected. If the virus is stored on disk, its presence will be given 
+away by its file name, or its size will affect the amount of space used on the disk. The 
+
+virus writer might arrange for the virus to attach itself to the program that constructs 
+the listing of files on the disk. If the virus regains control after the listing program has 
+
+generated the listing but before the listing is displayed or printed, the virus could elimi-
+
+nate its entry from the listing and falsify space counts so that it appears not to exist. A 
+
+surrounding virus is shown in Figure 3-20.
+Integrated Viruses and Replacements 
+A third situation occurs when the virus replaces some of its target, integrating itself into 
+
+the original code of the target. Such a situation is shown in Figure 3-21. Clearly, the 
+
+virus writer has to know the exact structure of the original program to know where to 
+
+insert which pieces of the virus.Finally, the malicious code can replace an entire target, either mimicking the effect 
+of the target or ignoring its expected effect and performing only the virus effect. In this 
+
+case, the user may perceive the loss of the original program.
+ActivationEarly malware writers used document macros and scripts as the vector for introducing 
+malware into an environment. Correspondingly, users and designers tightened controls 
+
+on macros and scripts to guard in general against malicious code, so malware writers 
+
+had to find other means of transferring their code.
+Malware now often exploits one or more existing vulnerabilities in a commonly used 
+program. For example, the Code Red worm of 2001 exploited an older buffer over-
+
+flow program flaw in Microsoft’s Internet Information Server (IIS), and Conficker.A 
+
+exploited a flaw involving a specially constructed remote procedure call (RPC) request. 
++                                   =OriginalProgramVirus Code
+OriginalProgramVirus Code
+FIGURE 3-19 Virus Attachment

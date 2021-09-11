@@ -1,0 +1,46 @@
+ Section 5.2  Security in the Design of Operating Systems 
+311  Peter Neumann [NEU86] describes the layered structure used for the Provably 
+Secure Operating System (PSOS). Some lower-level layers present some or all of their 
+
+functionality to higher levels, but each layer properly encapsulates those things below 
+
+itself.A layered approach is another way to achieve encapsulation, presented in Chapter 3. 
+Layering is recognized as a good operating system design. Each layer uses the more 
+
+central layers as services, and each layer provides a certain level of functionality to the 
+
+layers farther out. In this way, we can “peel off” each layer and still have a logically 
+
+complete system with less functionality. Layering presents a good example of how to 
+
+trade off and balance design characteristics.
+Another justification for layering is damage control. To see why, consider Neumann’s 
+two examples of risk. In a conventional, nonhierarchically designed system (shown in 
+
+Table 5-1), any problem—hardware failure, software flaw, or unexpected condition, 
+
+even in a supposedly irrelevant nonsecurity portion—can cause disaster because the 
+
+effect of the problem is unbounded and because the system’s design means that we can-
+
+not be confident that any given function has no (indirect) security effect.
+TABLE 5-1 
+Conventional (Nonhierarchical) Design
+LevelFunctionsRisk
+allNoncritical functionsDisaster possible
+allLess critical functionsDisaster possible
+
+allMore critical functionsDisaster possible
+TABLE 5-2 
+Hierarchically Designed SystemLevelFunctionsRisk
+2Noncritical functionsFew disasters likely from noncritical software
+1Less critical functionsSome failures possible from less critical functions, but because of 
+separation, impact limited0More critical functionsDisasters possible, but unlikely if system simple enough for more 
+critical functions to be analyzed extensively
+By contrast, as shown in Table 5-2, hierarchical structuring has two benefits:
+• Hierarchical structuring permits identification of the most critical parts, which 
+can then be analyzed intensely for correctness, so the number of problems 
+
+should be smaller.
+• Isolation limits effects of problems to the hierarchical levels at and above the point 
+of the problem, so the harmful effects of many problems should be confined.

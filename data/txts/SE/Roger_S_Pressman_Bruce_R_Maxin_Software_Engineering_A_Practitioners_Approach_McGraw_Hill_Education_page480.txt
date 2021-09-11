@@ -1,0 +1,69 @@
+450 PART THREE  
+QUALITY MANAGEMENTactions” [Sch98c] that are required to ensure high quality in software. The scope of quality assurance responsibility might best be characterized by paraphrasing 
+a once-popular automobile commercial: “Quality Is Job #1.” The implication for 
+software is that many different constituencies have software quality assurance 
+responsibility — software engineers, project managers, customers, salespeople, 
+and the individuals who serve within an SQA group.  The SQA group serves as the customer’s in-house representative. That is, the 
+people who perform SQA must look at the software from the customer’s point 
+
+of view. Does the software adequately meet the quality factors noted in Chap-
+
+19? Have software engineering practices been conducted according to prees-
+
+tablished standards? Have technical disciplines properly performed their roles 
+as part of the SQA activity? The SQA group attempts to answer these and other 
+questions to ensure that software quality is maintained.   
+ 
+ 
+ 
+ 21.2  
+ELEMENTS OF SOFTWARE
+ QUALITY ASSURANCE  
+ 
+ 
+ 
+ 
+ 
+ 
+Software quality assurance encompasses a broad range of concerns and activi-ties that focus on the management of software quality. These can be summarized 
+
+in the following manner [Hor03]:   
+Standards.   The IEEE, ISO, and other standards organizations have pro-
+duced a broad array of software engineering standards and related doc-
+uments. Standards may be adopted voluntarily by a software engineering 
+organization or imposed by the customer or other stakeholders. The job of 
+SQA is to ensure that standards that have been adopted are followed and 
+that all work products conform to them.   
+Reviews and audits.   Technical reviews are a quality control activity per-
+formed by software engineers for software engineers (Chapter 20). Their 
+
+intent is to uncover errors. Audits are a type of review performed by SQA 
+
+personnel with the intent of ensuring that quality guidelines are being 
+
+followed for software engineering work. For example, an audit of the 
+
+review process might be conducted to ensure that reviews are being per-
+
+formed in a manner that will lead to the highest likelihood of uncovering 
+
+errors. 
+  
+Testing.   Software testing (Chapters 22 through 26) is a quality control 
+function that has one primary goal—to ﬁ nd errors. The job of SQA is to 
+ensure that testing is properly planned and efﬁ ciently conducted so that it 
+has the highest likelihood of achieving its primary goal.   
+Error/defect collection and analysis.   The only way to improve is to mea-
+sure how you’re doing. SQA collects and analyzes error and defect data to  WebRef 
+ An in-depth discussion 
+of SQA, including a 
+wide array of deﬁ ni-
+
+tions, can be 
+obtained at   
+http://www.swqual
+
+.com/images/
+FoodforThought_
+Jan2011.pdf  . 
+pre22126_ch21_448-465.indd   450pre22126_ch21_448-465.indd   45013/12/13   10:02 PM13/12/13   10:02 PM

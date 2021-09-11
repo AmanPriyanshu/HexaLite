@@ -1,0 +1,43 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜System testing during development involves integrating components to create a ver
+-sion of the system and then testing the integrated system. System testing checks that 
+
+components are compatible, interact correctly, and transfer the right data at the right 
+time across their interfaces. It obviously overlaps with component testing, but there 
+are two important differences:1. During system testing, reusable components that have been separately developed 
+and off-the-shelf systems may be integrated with newly developed components. 
+
+The complete system is then tested.2. Components developed by different team members or subteams may be integrated 
+
+at this stage. System testing is a collective rather than an individual process. In 
+some companies, system testing may involve a separate testing team with no 
+
+involvement from designers and programmers.All systems have emergent behavior. This means that some system functionality and characteristics only become obvious when you put the components together. 
+
+This may be planned emergent behavior, which has to be tested. For example, you 
+
+may integrate an authentication component with a component that updates the sys-
+tem database. You then have a system feature that restricts information updating to 
+
+authorized users. Sometimes, however, the emergent behavior is unplanned and 
+
+unwanted. You have to develop tests that check that the system is only doing what it 
+is supposed to do.System testing should focus on testing the interactions between the components and objects that make up a system. You may also test reusable components or sys-
+tems to check that they work as expected when they are integrated with new compo-
+nents. This interaction testing should discover those component bugs that are only 
+revealed when a component is used by other components in the system. Interaction 
+
+testing also helps find misunderstandings, made by component developers, about 
+
+other components in the system.Because of its focus on interactions, use case-based testing is an effective 
+approach to system testing. Several components or objects normally implement each 
+use case in the system. Testing the use case forces these interactions to occur. If you 
+have developed a sequence diagram to model the use case implementation, you can 
+see the objects or components that are involved in the interaction.In the wilderness weather station example, the system software reports summa-rized weather data to a remote computeras described in Figure 7.3. Figure 8.8 shows 
+
+the sequence of operations in the weather station when it responds to a request to col-
+lect data for the mapping system. You can use this diagram to identify operations that 
+
+will be tested and to help design the test cases to execute the tests. Therefore issuing 
+
+a request for a report will result in the execution of the following thread of methods:SatComms:request ˜ WeatherStation:reportWeather ˜ Commslink:Get(summary) ˜ WeatherData:summarize

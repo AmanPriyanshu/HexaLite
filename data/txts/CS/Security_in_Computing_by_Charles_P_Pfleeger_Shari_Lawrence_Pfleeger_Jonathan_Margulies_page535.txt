@@ -1,0 +1,44 @@
+501In this chapter:• database terms and concepts
+• security requirements: C-I–A; reliability, types of integrity
+
+• access control; sensitive data, disclosure, inference, 
+aggregation• data mining and big data
+Protecting data is at the heart of many secure systems, and many users (people, 
+
+programs, or systems) rely on a database management system (DBMS) to man-
+
+age the protection of structured data. For this reason, we devote this chapter to the 
+security of databases and database management systems, as an example of how applica-
+
+tion security can be designed and implemented for a specific task. 
+Databases are essential to many business and government organizations, holding 
+data that reflect the organization’s core activities. Often, when business processes are 
+
+reengineered to make them more effective and more in tune with new or revised goals, 
+
+one of the first systems to receive careful scrutiny is the set of databases supporting the 
+
+business processes. Thus, databases are more than software-related repositories. Their 
+
+organization and contents are considered valuable corporate assets that must be care-
+
+fully protected.However, the protection provided by database management systems has had mixed 
+results. Over time, we have improved our understanding of database security problems, 
+
+and several good controls have been developed. But there are still more security con-
+
+cerns for which no controls are available.
+We begin this chapter with a brief summary of database terminology. We then con-
+sider the security requirements for database management systems. Two major security 
+
+problems—integrity and secrecy—are explained in a database context. We continue the 
+
+chapter by studying two important (but related) database security problems, the inference 
+
+problem and the multilevel problem. Both problems are complex, and there are no imme-
+
+diate solutions. However, by understanding the problems, we become more sensitive to 
+
+ways of
+ reducing potential threats to the data. Finally, we conclude the chapter by looking 
+7Databases

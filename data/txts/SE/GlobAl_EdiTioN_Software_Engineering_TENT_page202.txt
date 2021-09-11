@@ -1,0 +1,32 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜by broadcasting messages on a common infrastructure, shown as Communication link in 
+Figure 7.
+4. Each subsystem listens for messages on that infrastructure and picks up the 
+messages that are intended for them. This ﬁlistener modelﬂ is a commonly used architec-
+tural style for distributed systems.When the communications subsystem receives a control command, such as shut-down, the command is picked up by each of the other subsystems, which then shut 
+themselves down in the correct way. The key benefit of this architecture is that it is 
+easy to support different configurations of subsystems because the sender of a mes-
+sage does not need to address the message to a particular subsystem.Figure 7.
+5 shows the architecture of the data collection subsystem, which is included 
+in Figure 7.4. The Transmitter and Receiver objects are concerned with managing 
+communications, and the 
+WeatherData object encapsulates the information that is col-lected from the instruments and transmitted to the weather information system. This 
+
+arrangement follows the producerŒconsumer pattern, discussed in Chapter 21.ˇˇBy this stage in the design process, you should have some ideas about the essential 
+objects in the system that you are designing. As your understanding of the design 
+develops, you refine these ideas about the system objects. The use case description 
+helps to identify objects and operations in the system. From the description of the 
+Report weather use case, it is obvious that you will need to implement objects repre-
+senting the instruments that collect weather data and an object representing the 
+ summary of the weather data. You also usually need a high-level system object or 
+objects that encapsulate the system interactions defined in the use cases. With these 
+objects in mind, you can start to identify the general object classes in the system.As object-oriented design evolved in the 1980s, various ways of identifying 
+object classes in object-oriented systems were suggested:1. Use a grammatical analysis of a natural language description of the system to be constructed. Objects and attributes are nouns; operations or services are verbs 
+(Abbott 1983).2.
+ Use tangible entities (things) in the application domain such as aircraft, roles 
+
+such as manager, events such as request, interactions such as meetings, locations 
+Data collectionTransmitter
+ReceiverWeatherData
+Figure 7.5 Architecture of data collection  
+system

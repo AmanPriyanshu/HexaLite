@@ -1,0 +1,47 @@
+˜˜˚ˆ˜˜˜˜˜˜
+User or customer testing is a stage in the testing process in which users or customers 
+provide input and advice on system testing. This may involve formally testing a sys
+-
+tem that has been commissioned from an external supplier. Alternatively, it may be 
+
+an informal process where users experiment with a new software product to see if 
+they like it and to check that it does what they need. User testing is essential, even 
+when comprehensive system and release testing have been carried out. Influences 
+
+from the user™s working environment can have a major effect on the reliability, per-
+formance, usability, and robustness of a system.It is practically impossible for a system developer to replicate the system™s work-ing environment, as tests in the developer™s environment are inevitably artificial. For 
+example, a system that is intended for use in a hospital is used in a clinical environ-
+ment where other things are going on, such as patient emergencies and conversations 
+with relatives. These all affect the use of a system, but developers cannot include 
+
+them in their testing environment.There are three different types of user testing:1. Alpha testing
+, where a selected group of software users work closely with the 
+
+development team to test early releases of the software.2. Beta testing, where a release of the software is made available to a larger group 
+of users to allow them to experiment and to raise problems that they discover 
+
+with the system developers.3. Acceptance testing, where customers test a system to decide whether or not it is ready 
+
+to be accepted from the system developers and deployed in the customer environment.In alpha testing, users and developers work together to test a system as it is being 
+developed. This means that the users can identify problems and issues that are not 
+readily apparent to the development testing team. Developers can only really work 
+from the requirements, but these often do not reflect other factors that affect the 
+
+practical use of the software. Users can therefore provide information about practice 
+that helps with the design of more realistic tests.Alpha testing is often used when developing software products or apps. Experienced 
+users of these products may be willing to get involved in the alpha testing process 
+
+because this gives them early information about new system features that they can 
+
+exploit. It also reduces the risk that unanticipated changes to the software will have 
+
+disruptive effects on their business. However, alpha testing may also be used when 
+
+custom software is being developed. Agile development methods advocate user 
+
+involvement in the development process, and that users should play a key role in 
+
+designing tests for the system.Beta testing takes place when an early, sometimes unfinished, release of a  software 
+system is made available to a larger group of customers and users for 
+ evaluation. 
+Beta testers may be a selected group of customers who are early adopters of the system. 

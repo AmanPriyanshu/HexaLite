@@ -1,0 +1,62 @@
+40 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+(public knowledge, especially because she had gotten public attention for not using the official governor’s mansion), and where she met her husband 
+
+(part of her unofficial biography circulating during the campaign: she and 
+
+her husband met in high school). With those three answers, Kernell was 
+
+able to change her password (to “popcorn,” something appealing to most 
+
+college students). From that point on, not only was Kernell effectively Palin, 
+
+the real Palin could not access her own email account because did she not 
+
+know the new password.
+Authentication mechanisms use any of three qualities to confirm a user’s identity:
+• Something the user 
+knows. Passwords, PIN numbers, passphrases, a secret 
+handshake, and mother’s maiden name are examples of what a user may know.
+• Something the user 
+is. These authenticators, called biometrics, are based on a 
+physical characteristic of the user, such as a fingerprint, the pattern of a person’s 
+
+voice, or a face (picture). These authentication methods are old (we recognize 
+
+friends in person by their faces or on a telephone by their voices) but are just 
+
+starting to be used in computer authentications.• Something the user 
+has. Identity badges, physical keys, a driver’s license, 
+or a uniform are common examples of things people have that make them 
+
+recognizable.Two or more forms can be com-
+bined; for example, a bank card and 
+
+a PIN combine something the user 
+
+has (the card) with something the 
+
+user knows (the PIN). 
+Although passwords were the first form of computer authentication and remain pop-
+ular, these other forms are becoming easier to use, less expensive, and more common. In 
+
+the following sections we examine each of these forms of authentication.
+Authentication Based on Phrases and Facts: Something You Know
+Password protection seems to offer a relatively secure system for confirming identity-
+
+related information, but human practice sometimes degrades its quality. Let us explore 
+
+vulnerabilities in authentication, focusing on the most common authentication param-
+
+eter, the password. In this section we consider the nature of passwords, criteria for 
+
+selecting them, and ways of using them for authentication. As you read the follow-
+
+ing discussion of password vulnerabilities, think about how well these identity attacks 
+
+would work against security questions and other authentication schemes with which 
+
+you may be familiar. And remember how much information about us is known—some-
+
+times because we reveal it ourselves—as described in Sidebar 2-2.
+SIDEBAR 2-1 ContinuedAuthentication is based on something you know, are, or have.

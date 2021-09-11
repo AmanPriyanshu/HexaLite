@@ -1,0 +1,85 @@
+582 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+26.1.  Are there any situations in which MobileApp testing on actual devices can be disregarded?    
+ 
+26.2.  In your own words, discuss the objectives for testing a MobileApp.    
+ 
+26.3.  Compatibility is an important quality dimension. What must be tested to ensure that compatibility exists for a MobileApp?    
+ 
+26.4.  Locate a free MobileApp testing tool. Critique the performance of the tool relative to the MobileApp with which you are familiar. 
+   
+ 
+26.5.  What elements of the MobileApp can be “unit tested”? What types of tests must be conducted only after the MobileApp elements are integrated?    
+ 
+26.6.  Is it always necessary to develop a formal written-test plan? Explain.    
+ 
+26.7.  Is it fair to say that the overall MobileApp-testing strategy begins with user-visible 
+elements and moves toward technology elements? Are there exceptions to this strategy?    
+ 
+26.8.  Is certiﬁ cation testing  
+really
+ 
+ testing in a conventional sense? Explain.    
+ 
+26.9.  Describe the steps associated with user experience testing for a MobileApp.    
+ 
+26.10.  Assume that you are developing a MobileApp to access an online pharmacy that  caters to senior citizens. The pharmacy provides typical functions, but also maintains a 
+ database for each customer so that it can provide drug information and warn of potential 
+drug interactions. Discuss any special usability tests for this MobileApp. 
+   
+ 
+26.11.  Assume that you have implemented a Web service that provides a drug interaction–
+checking function for  YourCornerPharmacy.com
+ 
+ (see Problem 26.10). Discuss the types of 
+component-level tests that would have to be conducted on the mobile device to ensure that 
+the MobileApp accesses this function properly. 
+   
+ 
+26.12.  How can a MobileApp’s ability to take context into account be tested? 
+   
+ 
+26.13.  Is it possible to test every conﬁ guration that a MobileApp is likely to encounter in the 
+production environment? If it is not, how do you select a meaningful set of conﬁ guration 
+tests?    
+ 
+26.14.  Describe a security test that might need to be conducted for the   
+ 
+YourCornerPhar-
+macy  (Problem 26.10) MobileApp. Who should perform this test?    
+ 
+26.15.  What is the difference between stress-testing a MobileApp and stress-testing a WebApp? 
+  
+ 
+ 
+ 
+  F
+URTHER
+ READINGS AND INFORMATION
+ SOURCES  
+ 
+There are many books that describe mobile computing and these often contain discus-sions of MobileApp testing. Kumar and Xie ( Handbook of Mobile Systems Applications and Services, 
+ Auerbach Publications, 2012) have edited a book that covers mobile ser-
+vices and the role of service-oriented architectures in mobile computing. Books on per-
+
+vasive computing by Chalmers ( Sensing and Systems in Pervasive Computing: Engineering Context Aware Systems
+ 
+ Springer, 2011)), Adelstein ( 
+Fundamentals of Mobile and Pervasive Computing 
+, McGraw-Hill, 2004  
+) and Hansmann ( Pervasive Computing: The Mobile World
+ 
+, 2nd ed., Springer, 2003) deﬁ
+ ne the principles of context in mobile computing. The book by 
+Nguyen, et al. ( Testing Applications on the Web: Test Planning for Mobile and Internet-Based 
+Systems, 
+ 2nd ed., Wiley, 2003) discusses testing of MobileApps with an emphasis on testing 
+accessibility, reliability, and security. 
+pre22126_ch26_567-583.indd   582pre22126_ch26_567-583.indd   58213/12/13   6:15 PM13/12/13   6:15 PM

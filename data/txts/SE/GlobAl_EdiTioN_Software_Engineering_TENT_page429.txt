@@ -1,0 +1,31 @@
+˜˜˚˛˙˜˜˜˜˜˜˜
+so clinical care is not seriously affected if a full record is not available. Therefore, it is possible to deliver effective care using a summary record that only includes infor-
+mation about the patient and recent treatment.The assets required to deliver these services in normal system operations are:1. The patient record database that maintains all patient information.2. A database server that provides access to the database for local client computers.
+3. A network for client/server communications.4. Local laptop or desktop computers used by clinicians to access patient information.5. A set of rules that identify patients who are potentially dangerous and that can˜flag 
+
+patient records. Client software highlights dangerous patients to  system users.To plan recognition, resistance, and recovery strategies, you need to develop a set of scenarios that anticipate adverse events that might compromise the critical ser-vices offered by the system. Examples of these adverse events are:1.
+ The unavailability of the database server either through a system failure, a 
+ network failure, or a denial-of-service cyberattack.2.
+ The deliberate or accidental corruption of the patient record database or the 
+rules that define what is meant by a ﬁdangerous patient.ﬂ3. Infection of client computers with malware.4. Access to client computers by unauthorized people who gain access to patient records.Figure 14.
+11 shows possible recognition and resistance strategies for these 
+adverse events. Notice that these are not just technical approaches but also include 
+
+workshops to inform system users about security issues. We know that many secu-
+rity breaches arise because users inadvertently reveal privileged information to an 
+
+attacker and these workshops reduce the chances of this happening. I don™t have 
+
+space here to discuss all of the options that I identified in Figure 14.11. Instead, I 
+
+focus on how the system architecture can be modified to be more resilient.In Figure 14.11, I suggested that maintaining patient information on client com-puters was a possible redundancy strategy that could help maintain critical services. 
+This leads to the modified software architecture shown in Figure 
+14.
+12. The key 
+features of this architecture are:1. Summary patient records that are maintained on local client computers The 
+local computers can communicate directly with each other and exchange infor-
+mation using either the system network or, if necessary, an ad hoc network cre-
+ated using mobile phones. Therefore, if the database is unavailable, doctors and 
+
+nurses can still access essential patient information. (resistance and recovery)2. A backup server to allow for main server failure This server is responsible for 
+taking regular snapshots of the database as backups. In the event the main server 

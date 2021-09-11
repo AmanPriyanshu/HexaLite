@@ -1,0 +1,41 @@
+ Section 6.7  Firewalls 
+461  • A government agency wants to respond to queries through a database manage-
+ment system. However, the agency wants to screen results so that no names or 
+
+identification are returned in results—only counts in categories.
+• A company with multiple offices wants to encrypt the data portion of all email 
+to addresses at its other offices. (A corresponding proxy at the remote end will 
+
+remove the encryption.)
+Each of these requirements can be met with a proxy. In the first case, the proxy 
+would monitor the file transfer protocol data to ensure that only the price list file was 
+
+accessed and that the file could only be read, not modified. The school’s requirement 
+
+could be met by a logging procedure as part of the web browser. The agency’s need 
+
+could be satisfied by a special-purpose proxy that interacted with the database manage-
+
+ment system, performing queries but filtering the output. A firewall application could 
+
+encrypt and decrypt specific email messages for the last situation. These functions are 
+
+shown in Figure 6-56.
+The proxies on the firewall can be tailored to specific requirements, such as logging 
+details about accesses. They can even present a common user interface to what may be 
+
+dissimilar internal functions. Suppose the internal network has a mixture of operating 
+
+system types, none of which support strong authentication through a challenge–response 
+token. The proxy can demand strong authentication (name, password, and challenge–
+
+response), validate the challenge–response itself, and then pass on only simple name 
+
+and password authentication details in the form required by a specific internal host’s 
+
+operating system. (This proxy action is similar to the single sign-on process described 
+in Chapter 2.)The distinction between a proxy and a screening router is that the proxy interprets the protocol stream as an application would, to control actions through the firewall on 
+
+the basis of things visible within the protocol, not just on external header data.
+FIGURE 6-56 Proxy Firewall Functions
+FilecacheLoggingResultsFilteredcommands

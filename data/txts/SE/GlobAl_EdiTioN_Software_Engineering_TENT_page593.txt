@@ -1,0 +1,57 @@
+˜˜˚˛ˆ˜˜˜˜˜˜˜˜
+These reductionist assumptions break down for all complex systems, but when 
+these systems are software-intensive, the difficulties are compounded:1.
+ Relationships in software systems are not governed by physical laws. We cannot 
+produce mathematical models of software systems that will predict their behavior and 
+
+attributes. We therefore have no scientific basis for decision making. Political factors 
+
+are usually the driver of decision making for large and complex software systems.2.
+ Software has no physical limitations; hence there are no limits on where the 
+
+boundaries of a system should be drawn. Different stakeholders will argue for the 
+
+boundaries to be placed in such a way that is best for them. Furthermore, it is 
+
+much easier to change software requirements than hardware requirements. The 
+
+boundaries and the scope of a system are likely to change during its development.3. Linking software systems from different owners is relatively easy; hence we are more 
+
+likely to try and create a SoS where there is no single governing body. The manage-
+ment and evolution of the different systems involved cannot be completely controlled.
+For these reasons, I believe that the problems and difficulties that are commonplace 
+in large software systems engineering are inevitable. Failures of large government 
+
+projects such as the health automation projects in the UK and the United States are a 
+
+consequence of complexity rather than technical or project management failures.Reductionist approaches such as object-oriented development have been very suc-cessful in improving our ability to engineer many types of software system. They will 
+
+continue to be useful and effective in developing small and medium-sized systems 
+
+whose complexity can be controlled and which may be parts of a software SoS. 
+
+However, because of the fundamental assumptions underlying reductionism, ﬁimprov-
+ingﬂ these methods will not lead to an improvement in our ability to engineer complex 
+
+systems of systems. Rather, we need new abstractions, methods, and tools that recog-
+nize the technical, human, social, and political complexities of SoS engineering. I 
+
+believe that these new methods will be probabilistic and statistical and that tools will 
+
+rely on system simulation to support decision making. Developing these new approaches 
+
+is a major challenge for software and systems engineering in the 21st century.Systems of systems engineering is the process of integrating existing systems to create 
+
+new functionality and capabilities. Systems of systems are not designed in a top-down 
+
+way. Rather, they are created when an organization recognizes that they can add value 
+
+to existing systems by integrating these into a SoS. For example, a city government 
+
+might wish to reduce air pollution at particular hot-spots in the city. To do so, it might 
+
+integrate its traffic management system with a national real-time pollution monitoring 
+
+systems. This then allows for the traffic management system to alter its strategy to 
+
+reduce pollution by changing traffic light sequences, speed limits and so on.

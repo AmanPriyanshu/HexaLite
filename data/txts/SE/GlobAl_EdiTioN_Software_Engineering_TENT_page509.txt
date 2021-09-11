@@ -1,0 +1,43 @@
+˜˚˛˝ˆ˜˜˜˜˜˜˜˜˜˜
+In this example, each sales database can be encapsulated as a distributed compo-nent with an interface that provides read-only access to its data. Integrator components 
+are each concerned with specific types of relationships, and they collect information 
+
+from all of the databases to try to deduce the relationships. There might be an integra-
+tor component that is concerned with seasonal variations in goods sold, and another 
+
+integrator that is concerned with relationships between different types of goods.Visualizer components interact with integrator components to create a visualization 
+or a report on the relationships that have been discovered. Because of the large vol-
+umes of data that are handled, visualizer components normally present their results 
+
+graphically. Finally, a display component may be responsible for delivering the 
+
+graphical models to clients for final presentation in their web browser.A distributed component architecture rather than a layered architecture is appro-priate for this type of application because you can add new databases to the system 
+
+without major disruption. Each new database is simply accessed by adding another 
+distributed component. The database access components provide a simplified inter-
+face that controls access to the data. The databases that are accessed may reside on 
+different machines. The architecture also makes it easy to mine new types of rela-
+tionships by adding new integrator objects.Distributed component architectures suffer from two major disadvantages:1. They are more complex to design than clientŒserver systems. Multilayer clientŒ
+server systems appear to be a fairly intuitive way to think about systems. They 
+reflect many human transactions where people request and receive services 
+
+from other people who specialize in providing these services. The complexity of 
+distributed component architectures increases the costs of implementation.2. There are no universal standards for distributed component models or middle-
+ware. Rather, different vendors, such as Microsoft and Sun, developed different, 
+incompatible middleware. This middleware is complex, and reliance on it sig-
+nificantly increases the complexity of distributed component systems.As a result of these problems, distributed component architectures are being replaced 
+by service-oriented systems (discussed in Chapter 18). However, distributed compo-nent systems have performance benefits over service-oriented systems. RPC communi
+-cations are usually faster than the message-based interaction used in service-oriented 
+
+systems. Distributed component architectures are therefore still used for high-throughput 
+
+systems in which large numbers of transactions have to be processed quickly.The clientŒserver model of computing that I have discussed in previous sections of the 
+
+chapter makes a clear distinction between servers, which are providers of services, and 
+
+clients, which are receivers of services. This model usually leads to an uneven distribution 
+
+of load on the system, where servers do more work than clients. This may lead to organi-
+zations spending a lot on server capacity while there is unused processing capacity on the 
+
+hundreds or thousands of PCs and mobile devices used to access the system servers.

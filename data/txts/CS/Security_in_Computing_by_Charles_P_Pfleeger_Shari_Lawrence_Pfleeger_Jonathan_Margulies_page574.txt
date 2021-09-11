@@ -1,0 +1,68 @@
+540 Chapter 7  
+Databasesnonobvious connections in data, but data-mining applications often use fuzzy logic 
+to find these connections. These approaches will generate both false positives (false 
+
+matches) and missed connections (false negatives). We need to be sensitive to the inher-
+
+ent inaccuracy of data-mining approaches and guard against putting too much trust in 
+
+the output of a data-mining application just because “the computer said so.”
+Correct results and correct interpretation of those results are major security issues for data mining.Availability of Data
+Interoperability among distinct databases is a third security issue for data mining. As 
+we just described, databases must have compatible structure and semantics to make data 
+
+mining possible. Missing or incomparable data can make data mining results incorrect, 
+
+so perhaps a better alternative is not to produce a result. But no result is not the same 
+
+as a result of no correlation. As 
+
+with single databases, data-mining 
+
+applications must deal with multi-
+ple sensitivities. Trying to combine 
+
+databases on an attribute with more 
+
+sensitive values can lead to no data 
+
+and hence no matches.Big DataThe term big data means analysis of massive amounts of data, often collected from 
+different sources. Traditionally, a grocery might guess it could sell 100 heads of lettuce 
+
+in a week; if the guess was too low, some shoppers left the store with no lettuce, but if 
+
+the guess was too high, the grocer might have to mark down the price of lettuce at the 
+
+end of the week to move out stock before it spoiled. Looking at long-range weather 
+
+forecasts, the grocer might notice a predicted heat wave and order additional lettuce, as 
+
+people would want light food such as salads in hot weather. Or the grocer might reduce 
+
+the order during certain times when many customers would leave town on holiday. All 
+
+this analysis was ad hoc, depending on a grocer’s sense and knowledge of the market. 
+
+Big companies applied similar logic to decide how many cars or shirts to manufacture, 
+
+or whether to invest in new plants and equipment, although with more expensive deci-
+
+sions the penalty for guessing wrong was more severe.
+The grocer’s analysis was limited by the data available. Opening a second store in 
+a more health-conscious region might lead the grocer to stock more lettuce and fewer 
+
+doughnuts. The grocer might hypothesize a relationship between the number of auto-
+
+mobiles of a particular model that drove past the store and the amount of expensive 
+
+cheese sold, but counting cars was infeasible. Knowing that the number of cases of flu 
+
+reported to local doctors was going up might influence how many boxes of tissues to 
+
+stock, but the grocer had no access to physicians’ data. Worst, the grocer could not know 
+
+what the customers were thinking.Data on customers is readily available if only someone has the ability to collect, 
+store, and analyze it. Computing power, measured by computations per second, has 
+Combining data tables with no natural 
+and accurate common field (key) leads 
+to many faulty results.

@@ -1,0 +1,103 @@
+230 PART TWO  
+MODELING 
+ 
+ 
+ 
+ 
+Quality Attributes  
+.   Hewlett-Packard [Gra87] developed a set of software quality 
+attributes that has been given the acronym FURPS—functionality, usability, reli-
+
+ability, performance, and supportability. The FURPS quality attributes represent 
+
+a target for all software design:  
+ 
+ 
+•   
+Functionality 
+ is assessed by evaluating the feature set and capabilities of the program, the generality of the functions that are delivered, and the 
+security of the overall system.   
+ 
+ 
+•   
+Usability 
+ is assessed by considering human factors (Chapters 6 and 15), overall aesthetics, consistency, and documentation. 
+  
+ 
+ 
+•   
+Reliability 
+ is evaluated by measuring the frequency and severity of failure, the accuracy of output results, the mean-time-to-failure (MTTF), the ability 
+to recover from failure, and the predictability of the program.   
+ 
+ 
+•   
+Performance 
+ is measured using processing speed, response time, re-source consumption, throughput, and efﬁ ciency. 
+  
+ 
+ 
+•   
+Supportability 
+ combines extensibility, adaptability, and serviceability. 
+These three attributes represent a more common term,   
+maintainability 
+—and in addition, testability, compatibility, conﬁ
+ gurability (the ability to 
+organize and control elements of the software conﬁ guration, 
+the ease with which a system can be installed, and the ease with which 
+problems can be localized.  
+ 
+   
+Not every software quality attribute is weighted equally as the software design is developed. One application may stress functionality with a special emphasis on 
+security. Another may demand performance with particular emphasis on pro-
+
+cessing speed. A third might focus on reliability. Regardless of the weighting, it 
+
+is important to note that these quality attributes must be considered as design 
+commences,  not 
+ after the design is complete and construction has begun.  
+ 
+ 
+ 
+12.2.2 The Evolution of  
+ 
+Software Design 
+ 
+ 
+  
+The evolution of software design is a continuing process that has now spanned more than six decades. Early design work concentrated on criteria for the de-
+velopment of modular programs [Den73] and methods for reﬁ ning software 
+structures in a top-down “structured” manner ([Wir71], [Dah72], [Mil72]). Newer 
+
+design approaches (e.g., [Jac92], [Gam95]) proposed an object-oriented approach 
+to design derivation. More recent emphasis in software design has been on soft-
+ware architecture [Kru06] and the design patterns that can be used to imple-
+ment software architectures and lower levels of design abstractions (e.g., [Hol06], 
+[Sha05]). Growing emphasis on aspect-oriented methods (e.g., [Cla05], [Jac04]), 
+model-driven development [Sch06], and test-driven development [Ast04] empha-
+size techniques for achieving more effective modularity and architectural struc-
+ture in the designs that are created.    Software designers 
+tend to focus on the 
+problem to be solved. 
+Just don’t forget that 
+the FURPS attributes 
+are always part of the 
+
+problem. They must be 
+considered.   uote:  “A designer 
+knows that he has 
+achieved perfection 
+not when there is 
+nothing left to add, 
+but when there is 
+nothing left to take 
+away.” 
+ Antoine de 
+St-Expurey   uote:  “Quality isn’t 
+something you 
+lay on top of 
+subjects and objects 
+like tinsel on a 
+Christmas tree.”  Robert Pirsig 
+pre22126_ch12_224-251.indd   230pre22126_ch12_224-251.indd   23013/12/13   6:12 PM13/12/13   6:12 PM

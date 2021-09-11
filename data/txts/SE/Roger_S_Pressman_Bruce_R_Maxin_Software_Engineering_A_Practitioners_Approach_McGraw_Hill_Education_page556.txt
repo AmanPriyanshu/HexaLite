@@ -1,0 +1,70 @@
+526 PART THREE  
+QUALITY MANAGEMENTproblem domain experts who will examine the class deﬁ nitions and hierarchy for 
+omissions and ambiguity. Class relationships (instance connections) are evaluated to 
+
+determine whether they accurately reﬂ ect real-world object connections. 
+ 2  
+ 
+  
+ 
+ 
+ 
+24.2.2   
+Consistency of Object-Oriented Models  
+The consistency of object-oriented models may be judged by “considering the relationships among entities in the model. An inconsistent analysis or design 
+model has representations in one part that are not correctly reﬂ ected in other 
+portions of the model” [McG94].  To assess consistency, you should examine each class and its connections 
+to other classes. The class-responsibility-collaborator (CRC) model and an 
+object-relationship diagram can be used to facilitate this activity. As you learned 
+
+in Chapter 10, the CRC model is composed on CRC index cards. Each CRC card 
+lists the class name, its responsibilities (operations), and its collaborators (other 
+classes to which it sends messages and on which it depends for the accomplish-
+ment of its responsibilities). The collaborations imply a series of relationships 
+(i.e., connections) between classes of the OO system. The object relationship 
+model provides a graphic representation of the connections between classes. All 
+of this information can be obtained from the analysis model (Chapter 10).  To evaluate the class model the following steps have been recommended 
+[McG94]:  
+ 
+ 
+ 1.
+   
+Revisit the CRC model and the object-relationship model. 
+ Cross-check to ensure that all collaborations implied by the requirements model are 
+properly reﬂ ected in the both. 
+  
+ 
+ 
+ 2.
+   
+Inspect the description of each CRC index card to determine if a dele-gated responsibility is part of the collaborator’s deﬁ
+ nition.
+ 
+ For example, consider a class deﬁ ned for a point-of-sale checkout system and called 
+ CreditSale. 
+ This class has a CRC index card as illustrated in  Figure 24.1 .  
+ 
+ 
+ 
+  
+ 
+    For this collection of classes and collaborations, ask whether a respon-
+sibility (e.g.,  read credit card
+ 
+) is accomplished if delegated to the named collaborator ( CreditCard 
+). That is, does the class  CreditCard 
+ have an op-eration that enables it to be read? In this case the answer is “yes.” The ob-
+ject-relationship is traversed to ensure that all such connections are valid.   
+ 
+ 
+ 3.
+   
+Invert the connection to ensure that each collaborator that is asked for service is receiving requests from a reasonable source. 
+ For example, if the  CreditCard 
+ class receives a request for  purchase amount 
+ from the  CreditSale 
+ class, there would be a problem.  CreditCard 
+ does not know the purchase amount.   
+ 
+2  Use cases can be invaluable in tracking analysis and design models against real-world usage 
+scenarios for the OO system. pre22126_ch24_523-539.indd   526pre22126_ch24_523-539.indd   52613/12/13   10:02 PM13/12/13   10:02 PM

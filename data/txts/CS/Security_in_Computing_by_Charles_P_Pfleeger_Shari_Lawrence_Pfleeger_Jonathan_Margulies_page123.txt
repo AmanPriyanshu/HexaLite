@@ -1,0 +1,47 @@
+ Section 2.3  Cryptography 
+89  are mirror-image processes. As a trivial example, the encryption algorithm might be to 
+shift each plaintext letter forward 
+n positions in the alphabet. For 
+n  1, A is changed to 
+b, B to c, . . . P to q, . . . and Z to a, so we say the key value is 
+n, moving 
+n positions for-
+ward for encryption and backward for decryption. (You might notice that we have writ-
+
+ten the plaintext in uppercase letters 
+
+and the corresponding ciphertext in 
+
+lowercase; cryptographers some-
+
+times use that convention to help 
+
+them distinguish the two.)
+At other times, encryption and decryption keys come in pairs. Then, a decryption 
+key, 
+KD, inverts the encryption of key 
+KE, so that P  D(KD, E(KE,P)). Encryption 
+algorithms of this form are called asymmetric or 
+public key because converting 
+C back to P involves a series of steps 
+and a key that are different from the 
+
+steps and key of 
+E. The difference 
+between symmetric and asymmetric 
+encryption is shown in Figure 2-19. 
+A key gives us flexibility in using an encryption scheme. We can create different 
+encryptions of one plaintext message just by changing the key. Moreover, using a key 
+
+provides additional security. If the encryption algorithm should fall into the intercep-
+
+tor’s hands, future messages can still be kept secret because the interceptor will not 
+
+know the key value. Sidebar 2-14 describes how the British dealt with written keys and 
+
+codes in World War II. An encryption scheme that does not require the use of a key is 
+
+called a keyless cipher
+.Symmetric encryption: one key encrypts and decrypts.Asymmetric encryption: one key 
+encrypts, a different key decrypts.
+EncryptionDecryptionOriginalPlaintextPlaintextCiphertext(a) Symmetric CryptosystemDecryptionKeyEncryptionDecryptionOriginalPlaintextPlaintextCiphertextEncryptionKey(b) Asymmetric CryptosystemKeyFIGURE 2-19 Symmetric and Asymmetric Encryption

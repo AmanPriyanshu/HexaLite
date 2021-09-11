@@ -1,0 +1,38 @@
+˜˜˚˛˙˜˜˜˜˜˜
+Figure 16.
+14 shows pre- and postconditions that are defined in a notation based on 
+the object constraint language (OCL), which is part of the UML (Warmer and Kleppe 
+2003). OCL is designed to describe constraints in UML object models; it allows you 
+
+to express predicates that must always be true, that must be true before a method has 
+
+executed; and that must be true after a method has executed. These are invariants, 
+
+preconditions, and postconditions. To access the value of a variable before an opera-
+tion, you add @pre after its name. Therefore, using age as an  example:age = age@pre + 1This statement means that the value of age after an operation is one more than it was before that operation.OCL-based approaches are primarily used in model-based software engineering to add semantic information to UML models. The OCL descriptions may be used to 
+
+drive code generators in model-driven engineering. The general approach has been 
+derived from Meyer™s Design by Contract approach (Meyer 1992), in which the 
+
+interfaces and obligations of communicating objects are formally specified and 
+
+enforced by the runtime system. Meyer suggests that using Design by Contract is 
+
+essential if we are to develop trusted components (Meyer 2003).Figure 16.
+14 shows the specification for the addItem and delete methods in Photo 
+Library. The method being specified is indicated by the keyword context and the pre- and 
+postconditions by the keywords pre and post. The preconditions for addItem state that:1.
+ There must not be a photograph in the library with the same identifier as the 
+
+photograph to be entered.2. The library must existŠassume that creating a library adds a single item to it so 
+that the size of a library is always greater than zero.3. The postconditions for addItem state that: The size of the library has increased by 1 (so only a single entry has been made). If you retrieve using the same identifier, then you get back the photograph that 
+
+you added. If you look up the catalog using that identifier, you get back the catalog entry 
+
+that you made.The specification of delete provides further information. The precondition states that to delete an item, it must be in the library, and, after deletion, the photo can no 
+longer be retrieved and the size of the library is reduced by 1. However, delete does not delete the catalog entryŠyou can still retrieve it after the photo has been deleted. 
+The reason for this is that you may wish to maintain information in the catalog about 
+why a photo was deleted, its new location, and so on.When you create a system by composing components, you may find that there 
+are potential conflicts between functional and non-functional requirements, the 
+
+need to deliver˜a system as quickly as possible, and the need to create a system that 

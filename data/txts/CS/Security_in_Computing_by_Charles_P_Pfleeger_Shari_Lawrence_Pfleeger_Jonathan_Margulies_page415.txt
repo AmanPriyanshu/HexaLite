@@ -1,0 +1,64 @@
+ Section 6.3  Wireless Network Security 
+381  SSIDOne other important data value in WiFi communication is the designation of an access 
+point so that a wireless device can distinguish among access points if it receives more 
+
+than one signal. A 
+Service Set Identifier
+, or SSID, is the identification of an access 
+point; it is a string of up to 32 characters chosen by the access point’s administrator. The 
+
+SSID is the identifier the access point broadcasts in its beacon, and the ongoing link 
+
+ties an associated NIC’s commu-
+
+nications to the given access point. 
+
+For example, your computer’s wire-
+
+less antenna might pick up three 
+
+beacons: CoffeeShop, Apt203, and 
+
+Quicksand.Obviously SSIDs need to be unique in a given area to distinguish one wireless net-
+work from another. For early versions of wireless access point, the factory-installed 
+
+default, such as “wireless,” “tsunami,” or “Linksys” (a brand name), was not unique; 
+
+now most factory defaults are a serial number unique to the device.
+With this background on how wireless communication occurs, we can begin to 
+explore some of the vulnerabilities.
+Vulnerabilities in Wireless Networks
+Wireless networks are subject to threats to confidentiality, integrity, and availability 
+
+just like other computer applications and technologies. The attacker can either join the 
+
+network of the target and participate in data exchanges, or merely observe the traffic as 
+
+a bystander.
+ConfidentialityCertainly, if data signals are transmitted in the open, unintended recipients may be able 
+to get the data. The data values themselves are the most sensitive, but A’s communi-
+
+cating with access point B or the duration or volume of communication may also be 
+
+sensitive. The nature of the traffic, whether web page access, peer-to-peer networking, 
+
+email, or network management, can also be confidential. Finally, the mode in which two 
+
+units communicate—encrypted or not and if encrypted, by what algorithm—is poten-
+
+tially sensitive. Thus, the confidentiality of many aspects of a communication can be 
+
+sensitive.
+IntegrityAs for integrity, we must consider both malicious and nonmalicious sources of prob-
+lems. Numerous nonmalicious sources of harm include interference from other devices, 
+
+loss or corruption of signal due to distance or intervening objects, reception problems 
+
+caused by weather, and sporadic communication failures within the hardware and soft-
+
+ware that implement protocol communication.
+The more interesting class of integrity violations involves direct, malicious attacks to 
+change the content of a communication. For unencrypted communications, the attacker 
+An SSID is a string to identify a wireless 
+
+access point.

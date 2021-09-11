@@ -1,0 +1,45 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜2. Incremental development This approach interleaves the activities of specifica
+-tion, development, and validation. The system is developed as a series of versions 
+
+(increments), with each version adding functionality to the previous version.3. Integration and configuration This approach relies on the availability of reus-
+able components or systems. The system development process focuses on 
+
+configuring these components for use in a new setting and integrating them 
+
+into a system.As I have said, there is no universal process model that is right for all kinds of software development. The right process depends on the customer and regulatory 
+
+requirements, the environment where the software will be used, and the type of soft-
+ware being developed. For example, safety-critical software is usually developed 
+
+using a waterfall process as lots of analysis and documentation is required before 
+
+implementation begins. Software products are now always developed using an incre-
+mental process model. Business systems are increasingly being developed by con-
+figuring existing systems and integrating these to create a new system with the 
+
+functionality that is required.The majority of practical software processes are based on a general model but 
+often incorporate features of other models. This is particularly true for large systems 
+engineering. For large systems, it makes sense to combine some of the best features 
+of all of the general processes. You need to have information about the essential 
+
+system requirements to design a software architecture to support these requirements. 
+You cannot develop this incrementally. Subsystems within a larger system may be 
+developed using different approaches. Parts of the system that are well understood 
+can be specified and developed using a waterfall-based process or may be bought in 
+as off-the-shelf systems for configuration. Other parts of the system, which are dif-
+ficult to specify in advance, should always be developed using an incremental 
+
+approach. In both cases, software components are likely to be reused.Various attempts have been made to develop ﬁuniversalﬂ process models that 
+draw on all of these general models. One of the best known of these universal  models is the Rational Unified Process (RUP) (Krutchen 2003), which was developed by 
+
+Rational, a U.S. software engineering company. The RUP is a flexible model that 
+The Rational Unified ProcessThe Rational Unified Process (RUP) brings together elements of all of the general process models discussed 
+here and supports prototyping and incremental delivery of software (Krutchen 2003). The RUP is normally 
+described from three perspectives: a dynamic perspective that shows the phases of the model in time, a static 
+perspective that shows process activities, and a practice perspective that suggests good practices to be used in 
+the process. Phases of the RUP are inception, where a business case for the system is established; elaboration, 
+where requirements and architecture are developed; construction where the software is implemented; and  
+
+transition, where the system is deployed.http://software-engineering-book.com/web/rup/

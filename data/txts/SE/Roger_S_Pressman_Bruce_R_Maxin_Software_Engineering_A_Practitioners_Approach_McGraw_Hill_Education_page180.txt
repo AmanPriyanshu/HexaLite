@@ -1,0 +1,104 @@
+150 PART TWO  
+MODELING 
+ 
+Once actors have been identiﬁ ed, use cases can be developed. Jacobson 
+[Jac92] suggests a number of questions  12 
+ 
+ that should be answered by a use 
+case: 
+  
+ 
+ 
+•  Who is the primary actor, the secondary actor(s)? 
+  
+ 
+ 
+•  What are the actor’s goals? 
+  
+ 
+ 
+•  What preconditions should exist before the story begins?   
+ 
+ 
+•  What main tasks or functions are performed by the actor?   
+ 
+ 
+•  What exceptions might be considered as the story is described?   
+ 
+ 
+•  What variations in the actor’s interaction are possible? 
+  
+ 
+ 
+•  What system information will the actor acquire, produce, or change?   
+ 
+ 
+•  Will the actor have to inform the system about changes in the external 
+environment?   
+ 
+ 
+•  What information does the actor desire from the system?   
+ 
+ 
+•  Does the actor wish to be informed about unexpected changes?  
+ 
+ 
+  Recalling basic  SafeHome 
+ requirements, we deﬁ
+ ne four actors:  
+homeowner 
+ (a user),  setup manager 
+ (likely the same person as  
+homeowner,
+ 
+ but playing a 
+different role),  sensors 
+ (devices attached to the system), and the  
+monitoring and 
+response subsystem 
+ (the central station that monitors the  
+SafeHome 
+ home se-
+curity function). For the purposes of this example, we consider only the  home-owner 
+ actor. The  
+homeowner 
+ actor interacts with the home security function in 
+a number of different ways using either the alarm control panel or a PC. The 
+
+homeowner (1) enters a password to allow all other interactions, (2) inquires 
+
+about the status of a security zone, (3) inquires about the status of a sensor, 
+
+(4) presses the panic button in an emergency, and (5) activates/deactivates the 
+
+security system. 
+ Considering the situation in which the homeowner uses the control panel, the basic use case for system activation follows:  13 
+ 
+  
+ 
+ 
+ 
+1.  The homeowner observes the  SafeHome 
+ control panel ( 
+Figure 8.1 ) to determine if the system is ready for input. If the system is not ready, a  
+not ready
+ 
+ message is 
+displayed on the LCD display, and the homeowner must physically close windows 
+
+or doors so that the  not ready
+ 
+ message disappears. [A  
+not ready
+ 
+ message implies 
+that a sensor is open; i.e., that a door or window is open.]   What do 
+I need to know in order 
+to develop an 
+effective use 
+case? ?  
+12  Jacobson’s questions have been extended to provide a more complete view of use case content. 
+  
+13  Note that this use case differs from the situation in which the system is accessed via the Inter-
+net. In this case, interaction occurs via the control panel, not the GUI provided when a PC or 
+mobile device is used. pre22126_ch08_131-165.indd   150pre22126_ch08_131-165.indd   15013/12/13   6:11 PM13/12/13   6:11 PM

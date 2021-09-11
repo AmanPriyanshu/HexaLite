@@ -1,0 +1,61 @@
+222 Chapter 3  
+Programs and ProgrammingOther authors, notably James Whittaker and Herbert Thompson [WHI03a], Michael 
+Andrews and James Whittaker [AND06], and Paco Hope and Ben Walther [HOP08], 
+
+have described security-testing approaches.
+Defensive Programming
+The aphorism “offense sells tickets; defense wins championships” has been attributed 
+to legendary University of Alabama football coach Paul “Bear” Bryant, Jr., Minnesota 
+
+high school basketball coach Dave Thorson, and others. Regardless of its origin, the 
+
+aphorism has a certain relevance to computer security as well. As we have already 
+
+shown, the world is generally hostile: Defenders have to counter all possible attacks, 
+
+whereas attackers have only to find one weakness to exploit. Thus, a strong defense is 
+
+not only helpful, it is essential.Program designers and implementers need not only write correct code but must also 
+anticipate what could go wrong. As we pointed out earlier in this chapter, a program 
+
+expecting a date as an input must also be able to handle incorrectly formed inputs such 
+
+as 31-Nov-1929 and 42-Mpb-2030. Kinds of incorrect inputs include
+• value inappropriate for data type
+, such as letters in a numeric field or M for a 
+true/false item
+• value out of range for given use
+, such as a negative value for age or
+ the date 30 February• value unreasonable,
+ such as 250 kilograms of salt in a recipe• value out of scale or proportion,
+ for example, a house description with 4 bed-
+rooms and 300 bathrooms.• incorrect number of parameters
+, because the system does not always protect a 
+program from this fault
+• incorrect order of param-
+eters
+, for example, a routine 
+that expects age, sex, date, 
+
+but the calling program pro-
+
+vides sex, age, date
+As Microsoft says, secure software must be able to withstand attack itself:
+Software security is different. It is the property of software that allows it to continue to 
+operate as expected even when under attack. Software security is not a specific library 
+
+or function call, nor is it an add-on that magically transforms existing code. It is the 
+
+holistic result of a thoughtful approach applied by all stakeholders throughout the soft-
+
+ware development life cycle. [MIC10a]
+Trustworthy Computing Initiative
+Microsoft had a serious problem with code quality in 2002. Flaws in its products 
+appeared frequently, and it released patches as quickly as it could. But the sporadic 
+
+nature of patch releases confused users and made the problem seem worse than it was.
+Program designers must not only write 
+
+correct code but must also anticipate 
+
+what could go wrong.

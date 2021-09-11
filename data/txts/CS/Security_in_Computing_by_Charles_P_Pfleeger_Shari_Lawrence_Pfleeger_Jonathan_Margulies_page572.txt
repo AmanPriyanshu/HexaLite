@@ -1,0 +1,73 @@
+538 Chapter 7  
+DatabasesAs we describe in Chapter 9, data about an entity (a person, company, organization, 
+government body) may not be under that entity’s control. Supermarkets collect product 
+
+data from their shoppers, either from single visits or, more usefully, across all purchases 
+
+for a customer who uses a “customer loyalty” card. In aggregate the data show market-
+
+ing results useful to the manufacturers, advertising agencies, health researchers, gov-
+
+ernment food agencies, financial institutions, researchers, and others. But these results 
+
+were collected by the supermarket that can now do anything with the results, including 
+
+sell them to manufacturers’ competitors, for example.
+Little research and consideration has been done on sensitivity of data obtained from 
+data mining. Chris Clifton [CLI03, KAN04] has investigated the problem and proposed 
+
+approaches that would produce close but not exact aggregate results that would preclude 
+
+revealing sensitive information.
+Data Correctness and Integrity
+“Connecting the dots” is a phrase currently in vogue: It refers to drawing conclusions 
+from relationships between discrete bits of data. But before we can connect dots, we 
+need to do two other important things: collect and correct them. Data storage and com-
+
+puter technology is making it possible to collect more dots than ever before. But if your 
+
+name or address has ever appeared incorrectly on a mailing list, you know that not all 
+
+collected dots are accurate.Correcting Mistakes in Data Let’s take the mailing list as an example. Your neighbor at 510 Thames Street brought 
+
+a catalog for kitchen supplies to you at 519 Thames Street with your name but address 
+
+510 instead of 519; clearly someone made a mistake entering your address. You contact 
+
+the kitchen supply place, and they are pleased to change your address on their records 
+
+because it is in their interest to make sure catalogs get to people who are interested in 
+
+them. But they bought your name and address along with others from a mailing list, and 
+
+they have no incentive to contact the list owner to correct your master record. So addi-
+
+tional catalogs continue to show up with your neighbor. You can see where this story 
+
+leads—mistaken addresses never die.
+Data mining exacerbates this situation. Databases need unique keys to help with 
+structure and searches. But different databases may not have shared keys, so they use 
+
+some data field as if it were a key. In our example case, this shared data field might be 
+
+the address, so now your neighbor’s address is associated with cooking (even if your 
+
+neighbor needs a recipe to make tea). Fortunately, this example is of little consequence.
+Consider terrorists, however. A government’s intelligence service collects data on 
+suspicious activities. But the names of suspicious persons are foreign, written in a dif-
+
+ferent alphabet. When transformed into the government’s alphabet, the transformation 
+
+is irregular: One agent writes “Doe,” another “Do,” and another “Dho.” Trying to use 
+
+these names as common keys is difficult at best. One approach is phonetic. You clus-
+
+ter terms that sound similar. In this case, however, you might bring in “Jo,” “Cho,” 
+
+“Toe,” and “Tsiao,” too, thereby implicating innocent people in the terrorist search. 
+
+(In fact, this has happened: See Sidebar 7-6.) Assuming a human analyst could cor-
+
+rectly separate all these and wanted to correct the Doe/Do/Doh databases, there are still 
+
+two problems. First, the analyst might not have access to the original databases held 

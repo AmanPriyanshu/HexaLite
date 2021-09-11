@@ -1,0 +1,69 @@
+ Section 13.2  Economics 
+825  A business case is an argument for doing something: investing in new technology, 
+training people, adding a security capability to a product, or maintaining the status quo. 
+As we have seen, because many management arguments are made in terms of money, 
+
+computer security business cases are often framed in economic terms: amount saved, 
+
+return for taking an action, or cost avoided. However, it is often difficult to separate the 
+
+security effects from the more general effects, such as improved functionality or better 
+
+access to assets. And, if after taking some preventive security action, a company expe-
+
+rienced fewer attacks than in previous years, evidence that the security action actually 
+
+caused the decline in attacks is often sparse. This separation problem makes it harder to 
+
+answer the question, “How much more security does that investment buy me?” More-
+
+over, these arguments beg the question of how to derive sound numbers in computer 
+
+security. In the next section we analyze sources of quantitative data.
+Quantifying SecurityCybersecurity threats and risks are notoriously hard to quantify and estimate. Some 
+
+vulnerabilities, such as buffer overflows, are well understood, and we can scrutinize 
+
+our systems to find and fix them. But other vulnerabilities are less understood or not 
+
+yet apparent. For example, how do you predict the likelihood that a hacker will attack a 
+
+network, and how do you know the precise value of the assets the hacker will compro-
+
+mise? Even for events that have happened (such as widespread virus attacks), estimates 
+
+of the damage vary widely, so how can we be expected to estimate the costs of events 
+
+that have not happened?
+Unfortunately, quantification and estimation are exactly what security officers must 
+do to justify spending on security. Every security officer can describe a worst case sce-
+
+nario under which losses are horrific. But such arguments tend to have a diminishing 
+
+impact: After management has spent money to counter one possible serious threat that 
+
+did not occur (perhaps blocked by the countermeasure but perhaps not), companies are 
+
+reluctant to spend again to cover another possible serious threat.
+• Risk: There are consequences to not implementing the proposed 
+security. They can involve loss of market share or productivity, legal 
+
+exposure, or loss of productivity.
+To build the argument, Cafésoft recommends establishing a baseline 
+set of costs for current operations of a web application and then using a 
+
+set of measurements to determine how security might change the base-
+
+line. For example, the number of help-desk requests could be measured 
+
+currently. Then, the proposer could estimate the reduction in help-desk 
+
+requests as a result of eliminating user self-registration and password man-
+
+agement. These guidelines can act as a more general framework for cal-
+
+culating return on investment for any security technology. Revenue, cost, 
+
+compliance, and risk are the four elements that characterize the costs and 
+
+benefits to any organization.

@@ -1,0 +1,47 @@
+774 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+It is also possible to compute the  actual cost of work performed 
+ (ACWP). The 
+value for ACWP is the sum of the effort actually expended on work tasks that 
+have been completed by a point in time on the project schedule. It is then possi-
+ble to computeCost performance index, CPI 5   BCWP _______ ACWP  Cost variance, CV 5 BCWP 2 ACWP  A CPI value close to 1.0 provides a strong indication that the project is within its deﬁ ned budget. CV is an absolute indication of cost savings (against planned 
+costs) or shortfall at a particular stage of a project.  Like over-the-horizon radar, earned value analysis illuminates scheduling dif-
+ﬁ culties before they might otherwise be apparent. This enables you to take cor-
+rective action before a project crisis develops.  34.7  
+ 
+ 
+ 
+ 
+ 
+SUMMARY  
+Scheduling is the culmination of a planning activity that is a primary component of software project management. When combined with estimation methods and 
+risk analysis, scheduling establishes a road map for the project manager. 
+ Scheduling begins with process decomposition. The characteristics of the project are used to adapt an appropriate task set for the work to be done. A 
+task network depicts each engineering task, its dependency on other tasks, and 
+its projected duration. The task network is used to compute the critical path, 
+a time-line chart, and a variety of project information. Using the schedule as a 
+guide, you can track and control each step in the software process.   
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+34.1.  “Unreasonable” deadlines are a fact of life in the software business. How should you proceed if you’re faced with one?    
+ 
+34.2.  What is the difference between a macroscopic schedule and a detailed schedule? Is it possible to manage a project if only a macroscopic schedule is developed? Why?    
+ 
+34.3.  Is there ever a case where a software project milestone is not tied to a review? If so, provide one or more examples.    
+ 
+34.4.  “Communication overhead” can occur when multiple people work on a software proj-ect. The time spent communicating with others reduces individual productively (LOC/
+month), and the result can be less productivity for the team. Illustrate (quantitatively) how 
+engineers who are well versed in good software engineering practices and use technical 
+reviews can increase the production rate of a team (when compared to the sum of individual 
+production rates). Hint: You can assume that reviews reduce rework and that rework can 
+
+account for 20 to 40 percent of a person’s time. 
+   
+ 
+34.5.  Although adding people to a late software project can make it later, there are circum-
+stances in which this is not true. Describe them.  pre22126_ch34_754-776.indd   774pre22126_ch34_754-776.indd   77413/12/13   10:02 PM13/12/13   10:02 PM

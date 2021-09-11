@@ -1,0 +1,59 @@
+588 PART THREE  
+QUALITY MANAGEMENTand to take responsible steps to prevent its loss. Online data repositories are very attractive sources for data mining (e.g., to collect demographic or market-
+ing information). The problem is that the originator of the data has not given his 
+explicit consent [Rya11a]. Policy makers should create policies and regulations 
+to ensure that service providers do not abuse the trust of their users.  The boundary between the “trusted inside” and “untrusted outside” blurs when 
+a company adopts cloud computing. With the organization’s applications and data 
+
+no longer on site, a new type of malicious insider is possible. Conﬁ dential data are 
+only a few commands away from access by a malicious or incompetent system ad-
+ministrator. Most cloud service providers have strict procedures in place for mon-
+
+itoring employee access to customer data. Policies preventing physical access to 
+
+data are not effective against remote attacks, and monitoring often only detects an 
+
+attack after it happens. To foster user trust in a cloud system, it may be important 
+
+to provide users with the ability to assess whether the necessary mechanisms for 
+
+protecting conﬁ dentiality and privacy are in place [Roc11]. 
+ The ubiquity of Web access and the advent of cloud computing has enabled 
+new forms of business collaborations. Sharing information and protecting con-
+ﬁ dentiality is a difﬁ
+ cult task. Secure multiparty computing raises the risks of 
+selﬁ sh behavior unless all parties are conﬁ
+ dent no one can take advantage of the 
+systems. This situation highlights a psychological dimension of system trust and 
+security that cannot be solved by software engineering alone [Ker11].   
+ 
+ 
+27.2.4   
+The Internet of Things 
+ 
+Some visionaries describe an “Internet of Things” [Rom11] in which everything real has a virtual counterpart on the Internet. These virtual entities can produce 
+and consume services and collaborate toward a common goal. For example, a us-
+er’s phone knows about the user’s physical and mental state through a network 
+
+of surrounding devices that can act on the user’s behalf. Automotive engineers 
+
+envision cars that communicate autonomously with other vehicles, data sources, 
+and devices and do not require direct driver control.  However, security is one of the major obstacles that stand in the way of this vision. 
+Without strong security foundations, attacks and malfunctions will outweigh any of 
+
+the beneﬁ ts realized by an Internet of things. Policy makers must consider the bal-
+ance between governance and innovation. Excessive governance can easily hinder 
+
+innovation, and in turn, innovation can inadvertently ignore human rights [Rom11]. 
+  
+ 
+ 
+ 
+ 
+ 27.3  
+SECURITY ENGINEERING ANALYSIS
+  
+ 
+Security analysis tasks include requirements elicitation, threats modeling, risk analysis, measures design, and correctness checks. These tasks include consid-
+eration of both the functional and nonfunctional details of the system along with 
+its business case [Bre03]. pre22126_ch27_584-600.indd   588pre22126_ch27_584-600.indd   58816/12/13   6:23 PM16/12/13   6:23 PM

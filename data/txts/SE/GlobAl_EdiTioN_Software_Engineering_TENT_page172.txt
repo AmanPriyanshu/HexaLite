@@ -1,0 +1,39 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜key decision that affects the performance and reliability of the system. This is a 
+major topic in its own right that I cover in Chapter 17.The architecture of a software system may be based on a particular Architectural pattern or style (these terms have come to mean the same thing). An Architectural 
+pattern is a description of a system organization (Garlan and Shaw 1993), such as a 
+
+clientŒserver organization or a layered architecture. Architectural patterns capture 
+
+the essence of an architecture that has been used in different software systems. You 
+should be aware of common patterns, where they can be used, and their strengths 
+
+and weaknesses when making decisions about the architecture of a system. I cover 
+several frequently used patterns in Section 6.3.Garlan and Shaw™s notion of an architectural style covers questions 4 to 6 in the list of fundamental architectural questions shown in Figure 6.2. You have to choose 
+the most appropriate structure, such as clientŒserver or layered structuring, that will 
+enable you to meet the system requirements. To decompose structural system units, 
+you decide on a strategy for decomposing components into subcomponents. Finally, 
+in the control modeling process, you develop a general model of the control relation-
+ships between the various parts of the system and make decisions about how the 
+
+execution of components is controlled.Because of the close relationship between non-functional system characteristics and software architecture, the choice of architectural style and structure should 
+
+depend on the non-functional requirements of the system:1. Performance If performance is a critical requirement, the architecture should be designed to localize critical operations within a small number of components, 
+with these components deployed on the same computer rather than distributed 
+across the network. This may mean using a few relatively large components 
+
+rather than small, finer-grain components. Using large components reduces the 
+number of component communications, as most of the interactions between 
+
+related system features take place within a component. You may also consider 
+runtime system organizations that allow the system to be replicated and exe-
+cuted on different processors.2. Security If security is a critical requirement, a layered structure for the architec-ture should be used, with the most critical assets protected in the innermost lay-
+ers and a high level of security validation applied to these layers.3. Safety If safety is a critical requirement, the architecture should be designed so that safety-related operations are co-located in a single component or in a small 
+number of components. This reduces the costs and problems of safety validation 
+and may make it possible to provide related protection systems that can safely 
+
+shut down the system in the event of failure.4. Availability 
+If availability is a critical requirement, the architecture should be 
+designed to include redundant components so that it is possible to replace and 
+update components without stopping the system. I describe fault-tolerant sys-tem architectures for high-availability systems in Chapter 11.

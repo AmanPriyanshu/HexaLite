@@ -1,0 +1,40 @@
+˜˜˚˛˝˜˜˜˜˜˜
+Now imagine that this system is subject to a denial-of-service attack, which makes 
+the messaging system unavailable. Rather than simply not responding to calls, the oper
+-ators may use their personal mobile phones and their knowledge of call responders to 
+call the emergency service units directly so that they can respond to serious incidents.Management and provision of information are also important for resilient operation. 
+To make a process more efficient, it may make sense to present operators with the 
+
+information they need, when they need it. From a security perspective, information 
+
+should not be accessible unless the operator or manager needs that information. 
+
+However, a more liberal approach to information access can improve system resilience.If operators are only presented with information that the process designer thinks they ﬁneed to know,ﬂ then they may be unable to detect problems that do not directly 
+affect their immediate tasks. When things go wrong, the system operators do not 
+
+have a broad picture of what is happening in the system, so it is more difficult for 
+them to formulate strategies for dealing with problems. If they cannot access some 
+information in the system for security reasons, then they may be unable to stop 
+
+attacks and repair the damage that has been caused.Automating the system management process means that a single manager may be able to manage a large number of systems. Automated systems can detect common 
+problems and take actions to recover from these problems. Fewer people are needed 
+
+for system operations and management, and so costs are reduced. However, process 
+automation has two disadvantages:1. Automated management systems may go wrong and take incorrect actions. As problems develop, the system may take unexpected actions that make the situa
+-
+tion worse and that cannot be understood by the system managers.2.
+ Problem solving is a collaborative process. If fewer managers are available, it is 
+
+likely to take longer to work out a strategy to recover from a problem or cyberattack.Therefore, process automation can have both positive and negative effects on 
+system resilience. If the automated system works properly, it can detect problems, 
+invoke cyberattack resistance if necessary, and start automated recovery procedures. 
+
+However, if the automated system can™t handle the problem, fewer people will be 
+
+available to tackle the problem and the system may have been damaged by the pro
+-
+cess automation doing the wrong thing.In an environment where there are different types of system and equipment, it 
+may be impractical to expect all operators and managers to be able to deal with all of 
+Efficient process operationProblem managementProcess optimization and controlProcess flexibility and adaptabilityInformation hiding and securityInformation sharing and visibilityAutomation to reduce operator workload with fewer 
+operators and managersManual processes and spare operator/manager 
+capacity to deal with problemsRole specializationRole sharingFigure 14.7 Efficiency and resilience

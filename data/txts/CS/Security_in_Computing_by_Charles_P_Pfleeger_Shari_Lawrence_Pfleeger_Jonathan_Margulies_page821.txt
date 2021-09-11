@@ -1,0 +1,44 @@
+ Section 12.2  Symmetric Encryption Algorithms 
+787  Questions About the Security of DESSince its first announcement, there has been controversy concerning the security pro-
+vided by DES. Although much of this controversy has appeared in the open literature, 
+
+certain features of DES have neither been revealed by the designers nor inferred by 
+
+outside analysts.Design of the AlgorithmInitially, there was concern with the basic algorithm itself. During development of the 
+
+algorithm, the National Security Agency (NSA) indicated that key elements of the algo-
+
+rithm design were “sensitive” and would not be made public. These elements include 
+
+the rationale behind transformations by the S-boxes, the P-boxes, and the key changes. 
+
+There are many possibilities for the S-box substitutions, but one particular set was cho-
+
+sen for DES.Two issues arose about the design’s secrecy. The first involved a fear that certain 
+“trapdoors” had been imbedded in the DES algorithm so that a covert, easy means was 
+
+available to decrypt any DES-encrypted message. For instance, such trapdoors would 
+
+give the NSA the ability to inspect private communications.
+After a Congressional inquiry, the results of which are classified, an unclassified 
+summary exonerated the NSA from any improper involvement in the DES design. (For 
+
+a good discussion on the design of DES, see [SMI88a].)The second issue addressed the possibility that a design flaw would be (or perhaps 
+has been) discovered by a cryptanalyst, this time giving an interceptor the ability to 
+
+access private communications.
+Both Bell Laboratories [MOR77] and the Lexan Corporation [LEX76]
+ scrutinized the operation (not the design) of the S-boxes. Neither analysis revealed any weakness 
+
+that impairs the proper functioning of the S-boxes. The DES algorithm has been studied 
+
+extensively and, to date, no serious flaws have been published.
+In response to criticism, the NSA released certain information on the selection of the S-boxes ([KON81, BRA77]).
+• No S-box is a linear or affine function of its input; that is, the four output bits 
+cannot be expressed as a system of linear equations of the six input bits.
+Init. Vect. 11 AugAnnieBrian0001100.00
+sst501   sst5014R6YHHsmd21xsmd21xDHP5W30xkpr9ciphertext
+ 0xkpr9RJE32As360xpetc.Init. Vect. 2
+1 AugCaroleDrew0002500.00
+qfu444  qfu444FLP5P5wd40rt wd40rtGT457Ukp7p7pciphertext
+ kp7p7pOR1F8Eh4e5oeFIGURE 12-7 Chained Encryption with an Initialization Vector

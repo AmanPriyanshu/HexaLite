@@ -1,0 +1,42 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜a system of systems. Some of the problems of SoS engineering apply to such small systems, but the real challenges emerge when the constituent systems are themselves 
+large-scale systems.Much of the work in the area of systems of systems has come from the defense community. As the capability of software systems increased in the late 20th century, 
+
+it became possible to coordinate and control previously independent military 
+ systems, such as naval and ground-based air and ship defense systems. The system 
+might include tens or hundreds of separate elements, with software systems keeping 
+
+track of these elements and providing controllers with information that allows them 
+to be deployed most effectively.This type of system of systems is outside the scope of a software engineering 
+book. Instead, I focus here on systems of systems where the system elements are 
+
+software systems rather than hardware such as aircraft, military vehicles, or radars. 
+Systems of software systems are created by integrating separate software systems, 
+and, at the time of writing, most software SoS include a relatively small number of 
+separate systems. Each constituent system is usually a complex system in its own 
+
+right. However, it is predicted that, over the next few years, the size of software SoS 
+
+is likely to grow significantly as more and more systems are integrated to make use 
+of the capabilities that they offer.Examples of systems of systems of software systems are:1. A cloud management system that handles local private cloud management and 
+
+management of servers on public clouds such as Amazon and Microsoft.2.
+ An online banking system that handles loan requests and that connects to a 
+
+credit reference system provided by credit reference agencies to check the credit 
+of applicants.3.
+ An emergency information system that integrates information from police, 
+
+ambulance, fire, and coast guard services about the assets available to deal with 
+civil emergencies such as flooding and large-scale accidents.4.
+ The digital learning environment (iLearn) that I introduced in Chapter 1. This system provides a range of learning support by integrating separate 
+
+software systems such as Microsoft Office 365, virtual learning environ-
+ments such as Moodle, simulation modeling tools, and content such as 
+
+newspaper archives.Maier (Maier 1998) identified five essential characteristics of systems of systems:1. Operational independence of elements Parts of the system are not simply com-
+ponents but can operate as useful systems in their own right. The systems within 
+the SoS evolve independently.2. Managerial independence of elements Parts of the system are ﬁownedﬂ and man-
+aged by different organizations or by different parts of a larger organization. 
+
+Therefore different rules and policies apply to the management and evolution of 

@@ -1,0 +1,26 @@
+In designing a system architecture that maintains security, you need to consider two fundamental issues:1. ProtectionŠhow should the system be organized so that critical assets can be 
+protected against external attack?2. DistributionŠhow should system assets be distributed so that the consequences 
+of a successful attack are minimized?These issues are potentially conflicting. If you put all your assets in one place, then you can build layers of protection around them. As you only have to build a 
+
+single protection system, you may be able to afford a strong system with several pro-
+tection layers. However, if that protection fails, then all your assets are compromised. 
+
+Adding several layers of protection also affects the usability of a system, so it may 
+
+mean that it is more difficult to meet system usability and performance requirements.On the other hand, if you distribute assets, they are more expensive to protect 
+because protection systems have to be implemented for each distributed asset. 
+
+Typically, then, you cannot afford to implement as many protection layers. The 
+
+chances are greater that the protection will be breached. However, if this happens, 
+you don™t suffer a total loss. It may be possible to duplicate and distribute informa-
+tion assets so that if one copy is corrupted or inaccessible, then the other copy can be 
+used. However, if the information is confidential, keeping additional copies increases 
+the risk that an intruder will gain access to this information.For the Mentcare system, a clientŒserver architecture with a shared central data-base is used. To provide protection, the system has a layered architecture with the Platform-level protectionApplication-level protection Record-level protectionPatient records
+System
+authenticationSystem
+authorizationFile integrity
+managementDatabaseloginDatabaseauthorizationTransaction
+managementDatabaserecoveryRecord accessauthorizationRecordencryptionRecord integrity
+managementFigure 13.13 A layered protection architecture˜˜˚˛˙˜˜˜
+˜˜˜

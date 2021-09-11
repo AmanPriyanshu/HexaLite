@@ -1,0 +1,175 @@
+CHAPTER 35  
+RISK MANAGEMENT 787determine when new circumstances cause its probability and impact to change. As a consequence of this activity, it may be necessary to add new risks to the 
+
+table, remove some risks that are no longer relevant, and change the relative 
+positions of still others.  
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Risk Analysis  
+ 
+Risk Analysis  
+ 
+ 
+ 
+ 
+ 
+ 
+The scene:  Doug Miller’s ofﬁ
+ ce 
+prior to the initiation of the  SafeHome 
+ software project.    
+ 
+ 
+ 
+The players:  Doug Miller (manager of the  
+SafeHome 
+ software engineering team) and Vinod Raman, Jamie 
+Lazar, and other members of the product software engi-
+
+neering team.    
+ 
+ 
+ 
+The conversation:  
+   
+ 
+ 
+ 
+Doug:  I’d like to spend some time brainstorming risks 
+for the  SafeHome 
+ project.    
+ 
+ 
+ 
+Jamie:  As in what can go wrong? 
+   
+ 
+ 
+ 
+Doug:  Yep. Here are a few categories where things 
+can go wrong.    
+ 
+ 
+[He shows everyone the categories noted in the in-
+troduction to Section 35.3.]    
+ 
+ 
+ 
+Vinod:  
+   
+ 
+ 
+ 
+Doug:  No here’s what I thought we’d do. Everyone 
+   
+ 
+[Ten minutes pass, everyone is writing.] 
+  
+ 
+ 
+ 
+ 
+ 
+Doug:  Okay, stop. 
+   
+ 
+ 
+ 
+Jamie:  But I’m not done! 
+   
+ 
+ 
+ 
+Doug:  That’s okay. We’ll revisit the list again. Now, for 
+each item on your list, assign a percent likelihood that the risk will occur. Then, assign an impact to the project 
+on a scale of 1 (minor) to 5 (catastrophic).    
+ 
+ 
+ 
+Vinod:  So if I think that the risk is a coin ﬂ
+ ip, I specify 
+a 50 percent likelihood, and if I think it’ll have a 
+moderate project impact, I specify a 3, right?    
+ 
+ 
+ 
+Doug:  Exactly. 
+   
+ 
+[Five minutes pass, everyone is writing.] 
+  
+ 
+ 
+ 
+ 
+ 
+Doug:  Okay, stop. Now we’ll make a group list on the 
+whiteboard. I’ll do the writing; we’ll call out one entry 
+
+from your list in round-robin format. 
+   
+ 
+[Fifteen minutes pass; the list is created.]   
+ 
+ 
+ 
+ 
+ 
+Jamie (pointing at the board and laughing):  Vinod, that risk (pointing toward an entry on the board) 
+
+is ridiculous. There’s a higher likelihood that we’ll all get 
+
+hit by lightning. We should remove it. 
+   
+ 
+ 
+ 
+Doug:  No, let’s leave it for now. We consider all risks, 
+no matter how weird. Later we’ll winnow the list.    
+ 
+ 
+ 
+Jamie:  
+earth can we manage them all? 
+    
+ 
+ 
+Doug:  We can’t. That’s why we’ll deﬁ
+ ne a cut-off after 
+we sort these guys. I’ll do that off-line and we’ll meet 
+
+again tomorrow. For now
+
+in your spare time, think about any risks that we’ve 
+missed.  
+ 
+ 
+  
+SAFEHOME  
+ 
+ 
+ 
+ 
+ 
+ 
+ 35.5  
+RISK REFINEMENT  
+ 
+During early stages of project planning, a risk may be stated quite generally. As 
+time passes and more is learned about the project and the risk, it may be possi-
+ble to reﬁ ne the risk into a set of more detailed risks, each somewhat easier to 
+mitigate, monitor, and manage. 
+ 
+ 
+ 
+   
+One way to do this is to represent the risk in  condition-transition-consequence 
+ (CTC) format [Glu94]. That is, the risk is stated in the following form:  
+Given that <condition> then there is concern that (possibly) <consequence>.  
+  What’s a 
+good way to describe a risk? ?pre22126_ch35_777-794.indd   787pre22126_ch35_777-794.indd   78713/12/13   6:17 PM13/12/13   6:17 PM

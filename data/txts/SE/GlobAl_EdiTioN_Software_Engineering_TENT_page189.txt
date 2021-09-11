@@ -1,0 +1,30 @@
+˜˜˚ˆ˜˜˜
+˜˜
+ system, the application-specific layer includes additional functionality supporting a ﬁshopping cartﬂ in which users can place a number of items in separate transactions, 
+
+then pay for them all together in a single transaction.The organization of servers in these systems usually reflects the four-layer generic model presented in Figure 6.18. These systems are often implemented as distributed 
+systems with a multitier client server/architecture1. The web server is responsible for all user communications, with the user inter-face implemented using a web browser;2.
+ The application server is responsible for implementing application-specific 
+
+logic as well as information storage and retrieval requests;3.
+ The database server moves information to and from the database and handles 
+
+transaction management.Using multiple servers allows high throughput and makes it possible to handle thou-
+sands of transactions per minute. As demand increases, servers can be added at each 
+
+level to cope with the extra processing involved.Language processing systems translate one language into an alternative representation 
+
+of that language and, for programming languages, may also execute the  resulting code. 
+Compilers translate a programming language into machine code. Other language pro-
+cessing systems may translate an XML data description into commands to query a 
+
+database or to an alternative XML representation. Natural language processing sys-
+tems may translate one natural language to another, for example, French to Norwegian.A possible architecture for a language processing system for a programming 
+ language is illustrated in Figure 6.20. The source language instructions define the 
+SourcelanguageinstructionsDataResultsTranslator
+InterpreterAbstract m/c
+instructionsCheck syntaxCheck semantics
+GenerateFetch
+
+ExecuteFigure 6.20 The architecture of a language 
+processing system

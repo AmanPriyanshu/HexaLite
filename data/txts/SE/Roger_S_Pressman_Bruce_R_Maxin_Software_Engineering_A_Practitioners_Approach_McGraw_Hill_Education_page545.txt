@@ -1,0 +1,122 @@
+CHAPTER 23  
+TESTING CONVENTIONAL APPLICATIONS
+ 515 
+ 
+Phadke [Pha97] assesses the result of tests using the L9 orthogonal array in the following manner:  
+ 
+Detect and isolate all single mode faults. 
+ A single mode fault is a consistent problem 
+with any level of any single parameter. For example, if all test cases of factor P1 
+5 1 
+cause an error condition, it is a single mode failure. In this example tests 1, 2 and 3 
+[ Figure 23.10 ] will show errors. By analyzing the information about which tests show errors, one can identify which parameter values cause the fault. In this example, by 
+noting that tests 1, 2, and 3 cause an error, one can isolate [logical processing associ-
+
+ated with “send it now” (P1 5 1)] as the source of the error. Such an isolation of fault 
+is important to ﬁ x the fault. 
+  
+Detect all double mode faults. 
+ If there exists a consistent problem when speciﬁ
+ c 
+levels of two parameters occur together, it is called a  
+double mode fault. 
+ Indeed, a 
+double mode fault is an indication of pairwise incompatibility or harmful interactions 
+between two test parameters.   
+Multimode faults. 
+ Orthogonal arrays [of the type shown] can assure the detection 
+of only single and double mode faults. However, many multi-mode faults are also de-
+
+tected by these tests.  
+  
+You can ﬁ
+ nd a detailed discussion of orthogonal array testing in [Pha89]. 
+ 
+ 
+ 
+Test-Case Design 
+  
+ 
+Objective:  To assist the software team in 
+developing a complete set of test cases for both black-box and white-box testing.   
+Mechanics:  These tools fall into two broad categories: 
+static testing tools and dynamic testing tools. Three 
+
+different types of static testing tools are used in the 
+
+industry: code-based testing tools, specialized testing 
+
+languages, and requirements-based testing tools. 
+
+Code-based testing tools accept source code as input 
+
+and perform a number of analyses that result in the 
+
+generation of test cases. Specialized testing languages 
+
+(e.g., ATLAS) enable a software engineer to write detailed 
+
+test speciﬁ cations that describe each test case and the 
+logistics for its execution. Requirements-based testing tools 
+
+isolate speciﬁ c user requirements and suggest test cases 
+(or classes of tests) that will exercise the requirements. 
+
+Dynamic testing tools interact with an executing program, 
+
+checking path coverage, testing assertions about the 
+
+value of speciﬁ c variables, and otherwise instrumenting 
+the execution ﬂ ow of the program. 
+ 
+ 
+ 
+Representative Tools:  6 
+ 
+  
+ 
+ 
+McCabeTest,
+ 
+ developed by McCabe & Associates (  
+www.mccabe.com 
+ 
+), implements a variety of path testing techniques derived from an assessment of 
+cyclomatic complexity and other software metrics.   
+TestWorks,
+ 
+ developed by Software Research ( http://www.testworks.com/stwhome.htm
+l ), is a 
+complete set of automated testing tools that assists in the 
+
+design of tests cases for software developed in C/C++ 
+
+and Java and provides support for regression testing. 
+  
+T-VEC Test Generation System,
+ 
+ developed by T-VEC 
+Technologies ( 
+ 
+www.t-vec.com
+ 
+ 
+), is a tool set that supports unit, integration, and validation testing by 
+
+assisting in the design of test cases using information 
+
+contained in an OO requirements speciﬁ cation. 
+  
+e-TEST Suite, 
+ developed by Empirix (  
+www.empirix
+.com 
+ 
+), encompasses a complete set of tools for testing WebApps, including tools that assist test-case 
+
+design and test planning.   SOFTWARE
+ TOOLS  
+ 
+6  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+pre22126_ch23_496-522.indd   515pre22126_ch23_496-522.indd   51513/12/13   6:14 PM13/12/13   6:14 PM

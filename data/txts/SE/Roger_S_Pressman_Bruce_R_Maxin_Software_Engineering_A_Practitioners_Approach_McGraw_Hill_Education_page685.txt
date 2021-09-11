@@ -1,0 +1,79 @@
+CHAPTER 30  
+PRODUCT METRICS 655a number of component reviews and unit tests are investigated to collect mea-
+sures of the number of errors for each). A software metric relates the individual 
+measures in some way (e.g., the average number of errors found per review or 
+the average number of errors found per unit test).     
+  
+A software engineer collects measures and develops metrics so that indica-tors will be obtained. An  indicator  is a metric or combination of metrics that 
+provides insight into the software process, a software project, or the product 
+
+itself. An indicator provides insight that enables the project manager or soft-
+ware engineers to adjust the process, the project, or the product to make things 
+
+better. 
+    
+30.1.2   The Challenge of Product Metrics     
+  
+Over the past four decades, many researchers have attempted to develop a 
+
+single metric that provides a comprehensive measure of software complexity. 
+
+Fenton [Fen94] characterizes this research as a search for “the impossible holy 
+
+grail.” Although dozens of complexity measures have been proposed [Zus90], 
+
+each takes a somewhat different view of what complexity is and what attributes 
+
+of a system lead to complexity. By analogy, consider a metric for evaluating an 
+
+attractive car. Some observers might emphasize body design; others might con-
+
+sider mechanical characteristics; still others might tout cost, or performance, 
+
+or the use of alternative fuels, or the ability to recycle when the car is junked. 
+
+Since any one of these characteristics may be at odds with others, it is difﬁ -cult to derive a single value for “attractiveness.” The same problem occurs with 
+
+computer software. 
+ Yet there is a need to measure and control software complexity. And if a single 
+value of this quality metric is difﬁ cult to derive, it should be possible to develop 
+measures of different internal program attributes (e.g., effective modularity, 
+
+functional independence, and other attributes discussed in Chapter 12). These 
+measures and the metrics derived from them can be used as independent indi-
+cators of the quality of requirements and design models. But here again, prob-
+lems arise. Fenton [Fen94] notes this when he states: “The danger of attempting 
+to ﬁ nd measures which characterize so many different attributes is that inevita-
+
+bly the measures have to satisfy conﬂ icting aims. This is counter to the represen-
+
+tational theory of measurement.” Although Fenton’s statement is correct, many 
+
+people argue that product measurement conducted during the early stages of 
+the software process provides software engineers with a consistent and objective 
+mechanism for assessing quality.  
+1    
+   An indicator is a 
+
+metric or metrics that 
+provide insight into the 
+process, the product, 
+or the project.  WebRef 
+ Voluminous information 
+
+on product metrics has 
+been compiled by the 
+U.S. Department of 
+
+Homeland Security at 
+  https://
+buildsecurityin
+.us-cert.gov/
+bsi/articles/
+best-practices/
+measurement
+.html  .   1 
+ Although criticism of speciﬁ c metrics is common in the literature, many critiques focus on 
+esoteric issues and miss the primary objective of metrics in the real world: to help the software 
+engineer establish a systematic and objective way to gain insight into his or her work and to 
+improve product quality as a result. 

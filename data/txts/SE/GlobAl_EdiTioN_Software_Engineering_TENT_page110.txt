@@ -1,0 +1,39 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜I have rewritten this to show how the goal could be expressed as a ﬁtestableﬂ non-functional requirement. It is impossible to objectively verify the system goal, but in the following description you can at least include software instrumentation to count 
+the errors made by users when they are testing the system.Medical staff shall be able to use all the system functions after two hours of 
+training. After this training, the average number of errors made by experienced 
+
+users shall not exceed two per hour of system use.Whenever possible, you should write non-functional requirements quantitatively so that they can be objectively tested. Figure 4.5 shows metrics that you can use to specify non-functional system properties. You can measure these characteristics 
+
+when the system is being tested to check whether or not the system has met its non-
+functional requirements.In practice, customers for a system often find it difficult to translate their goals into 
+measurable requirements. For some goals, such as maintainability, there are no sim-
+ple metrics that can be used. In other cases, even when quantitative specification is 
+
+possible, customers may not be able to relate their needs to these specifications. They 
+
+don™t understand what some number defining the reliability (for example) means in 
+
+terms of their everyday experience with computer systems. Furthermore, the cost of 
+
+objectively verifying measurable, non-functional requirements can be very high, and 
+
+the customers paying for the system may not think these costs are justified.Non-functional requirements often conflict and interact with other functional or 
+non-functional requirements. For example, the identification requirement in 
+
+Figure˜4.
+4 requires a card reader to be installed with each computer that connects to 
+the system. However, there may be another requirement that requests mobile access 
+to the system from doctors™ or nurses™ tablets or smartphones. These are not normally 
+Figure 4.5 Metrics for specifying non-
+functional requirementsPropertyMeasureSpeedProcessed transactions/second
+User/event response time
+Screen refresh timeSizeMegabytes/Number of ROM chipsEase of useTraining time
+Number of help framesReliabilityMean time to failure
+Probability of unavailability
+Rate of failure occurrence
+AvailabilityRobustnessTime to restart after failure
+Percentage of events causing failure
+Probability of data corruption on failurePortabilityPercentage of target dependent statements
+Number of target systems

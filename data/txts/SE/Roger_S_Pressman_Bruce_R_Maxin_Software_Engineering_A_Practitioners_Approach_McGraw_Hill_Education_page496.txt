@@ -1,0 +1,133 @@
+466  
+ 
+ 
+CHAPTER22  SOFTWARE
+ TESTINGSTRATEGIES
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ A strategy for software testing provides a road map that describes the steps to be conducted as part of testing, when these steps are planned 
+and then undertaken, and how much effort, time, and resources will be required. Therefore, any testing strategy must incorporate test planning, 
+test-case design, test execution, and resultant data collection and evaluation.  A software testing strategy should be ﬂ exible enough to promote a custom-
+ized testing approach. At the same time, it must be rigid enough to encour-
+
+age reasonable planning and management tracking as the project progresses. 
+Shooman [Sho83] discusses these issues:  
+In many ways, testing is an individualistic process, and the number of different types of tests varies as much as the different development approaches. For many 
+years, our only defense against programming errors was careful design and the 
+native intelligence of the programmer. We are now in an era in which modern 
+
+design techniques [and technical reviews] are helping us to reduce the number of 
+initial errors that are inherent in the code. Similarly, different test methods are 
+
+beginning to cluster themselves into several distinct approaches and philosophies.   
+ 
+These “approaches and philosophies” are what we call  strategy 
+—the topic to be presented in this chapter. In Chapters 23 through 26, the testing methods 
+
+and techniques that implement the strategy are presented.   
+ 
+22.1  A STRATEGIC
+ APPROACH TO SOFTWARE
+ TESTING  
+ 
+Testing is a set of activities that can be planned in advance and conducted 
+systematically. For this reason a template for software testing—a set of steps 
+
+into which we can place speciﬁ c test-case design techniques and testing meth-
+ods—should be deﬁ ned for the software process. 
+ 
+KEY CONCEPTS     alpha test. . . . . . . 485  
+    beta test  . . . . . . . 485  
+
+    bottom-up 
+
+integration  . . . . . . 477  
+
+    class testing. . . . . 481  
+
+    cluster testing. . . . 482  
+
+    completion  . . . . . . 472  
+
+    conﬁ
+ guration 
+review. . . . . . . . . 484  
+
+    debugging. . . . . . . 488  
+
+    deployment 
+
+testing. . . . . . . . . 487  
+
+    drivers. . . . . . . . . 475  
+
+    independent test 
+
+group. . . . . . . . . . 469  
+
+    integration 
+
+testing. . . . . . . . . 475  
+
+    object-oriented 
+
+software  . . . . . . . 481  
+
+    performance 
+
+testing. . . . . . . . . 487  
+
+    recovery testing  . . 486  
+
+    regression testing. 478  
+
+    security testing. . . 486  
+
+    smoke testing. . . . 479  
+
+    stress testing  . . . . 487  
+
+    stubs  . . . . . . . . . . 475  
+
+    system testing  . . . 486  
+
+    test strategies for 
+
+MobileApps  . . . . . 483  
+
+    test strategies for 
+
+WebApps  . . . . . . . 482  
+  
+What is it?   Software is tested to 
+uncover errors that were made in-
+advertently as it was designed and 
+
+constructed. But how do you conduct 
+the tests? Should you develop a formal plan for 
+
+your tests? Should you test the entire program 
+
+as a whole or run tests only on a small part 
+
+of it? Should you rerun tests you’ve already 
+conducted as you add new components to a 
+large system? When should you involve the 
+
+customer? These and many other questions are 
+
+answered when you develop a software testing 
+
+strategy. 
+  
+ 
+Who does it?   A strategy for software testing is developed by the project manager, software 
+
+engineers, and testing specialists.  QUICK LOOK pre22126_ch22_466-495.indd   466pre22126_ch22_466-495.indd   46613/12/13   6:14 PM13/12/13   6:14 PM

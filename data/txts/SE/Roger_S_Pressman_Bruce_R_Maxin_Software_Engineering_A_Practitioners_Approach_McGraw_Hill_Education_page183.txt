@@ -1,0 +1,134 @@
+CHAPTER 8  
+UNDERSTANDING REQUIREMENTS
+ 153 
+ 
+Developing a High-Level Use Case Diagram  
+ 
+Developing a High-Level Use Case Diagram  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The scene:  A meeting room, continu-
+ing the requirements-gathering meeting 
+   
+ 
+ 
+ 
+ 
+ 
+The players:  Jamie Lazar, software team member; 
+Vinod Raman, software team member; Ed Robbins, soft-
+ware team member; Doug Miller, software engineering 
+
+manager; three members of marketing; a product engi-
+neering representative; and a facilitator. 
+   
+ 
+ 
+ 
+ 
+ 
+The conversation:  
+   
+ 
+ 
+ 
+ 
+ 
+Facilitator:   We’ve spent a fair amount of time talking 
+about  SafeHome 
+ home security functionality. During the 
+break I sketched a use case diagram to summarize the im-
+portant scenarios that are part of this function. Take a look. 
+   
+ 
+(All attendees look at  Figure 8.2 .)   
+ 
+ 
+ 
+ 
+ 
+ 
+Jamie:  I’m just beginning to learn UML notation. 
+ 14 
+ 
+ So the home security function is represented by the big box 
+with the ovals inside it? And the ovals represent use 
+cases that we’ve written in text?  
+   
+ 
+ 
+ 
+ 
+ 
+Facilitator:  Yep. And the stick ﬁ
+ gures represent 
+ actors—the people or things that interact with the labeled square to represent an actor that’s not a per-
+
+   
+ 
+ 
+ 
+ 
+ 
+Doug:  Is that legal in UML? 
+   
+ 
+ 
+ 
+ 
+ 
+Facilitator:  Legality isn’t the issue. The point is to com-
+municate information. I view the use of a humanlike stick 
+
+ﬁ gure for representing a device to be misleading. So I’ve 
+adapted things a bit. I don’t think it creates a problem. 
+   
+ 
+ 
+ 
+ 
+ 
+Vinod:  Okay, so we have use case narratives for each 
+of the ovals. Do we need to develop the more detailed 
+template-based narratives I’ve read about?    
+ 
+ 
+ 
+ 
+ 
+Facilitator:  Probably, but that can wait until we’ve 
+considered other  SafeHome 
+ functions.    
+ 
+ 
+ 
+ 
+ 
+Marketing person:  Wait, I’ve been looking at 
+this diagram and all of a sudden I realize we missed 
+something.   
+Facilitator:  Oh really. Tell me what we’ve missed. 
+   
+ 
+ (The meeting continues.)   
+SAFEHOME HomeownerSystem administratorArms/disarms
+systemResponds to alarm event
+Accessessystemvia Internet
+Encountersan errorconditionReconfiguressensors andrelated system featuresSensors  
+FIGURE 8.2 
+UML use case diagram for 
+ SafeHome  home security 
+function  
+  
+ 
+ 
+ 
+ 
+ 
+14  A brief UML tutorial is presented in Appendix 1 for those who are unfamiliar with the notation. 
+pre22126_ch08_131-165.indd   153pre22126_ch08_131-165.indd   15313/12/13   6:11 PM13/12/13   6:11 PM

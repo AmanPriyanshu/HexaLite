@@ -1,0 +1,54 @@
+790 Chapter 12  
+Details of Cryptographyonly of security but also of cost or efficiency of operation and ease of implementation 
+in software. NIST described the four not chosen as also having adequate security for 
+
+AES—no cryptographic flaws were identified in any of the five. Thus, the selection was 
+
+based on efficiency and implementation characteristics. The winning algorithm, sub-
+
+mitted by two Dutch cryptographers, was Rijndael (pronounced RINE dahl); the algo-
+
+rithm’s name is derived from the creators’ names, Vincent Rijmen and Joan Daemen.
+The algorithm is based on arithmetic in the finite field GF(2
+8), but most encryp-
+tion operations can be done by table lookup, thereby simplifying the implementation 
+of AES.The algorithm consists of 10, 12 or 14 cycles, for a 128-, 192-, or 256-bit key, respec-
+tively. Each cycle (called a “round” in the algorithm) consists of four steps.
+• Byte substitution. This step uses a substitution substituting each byte of a 128-bit block according to a substitution table. This is a straight diffusion operation.
+• Shift row.
+ Certain bits are shifted to other positions. This is a straight confusion 
+operation.• Mix column. This step involves shifting left and XORing bits with themselves. 
+These operations implement both confusion and diffusion.
+• Add subkey.
+ Here, a portion of the key unique to this cycle is XORed with the 
+cycle result. This operation delivers confusion and incorporates the key.
+Each round performs both confusion and diffusion, as well as blending the key into 
+the result. The structure of AES is shown in Figure 12-8.
+Strength of Rijndael
+The Rijndael algorithm is relatively new, but between its submission as a candidate for 
+AES in 1997 and its selection in 2001, it underwent extensive cryptanalysis by both 
+
+government and independent cryptographers. Its Dutch inventors have no relationship 
+
+to the NSA or any other part of the U.S. government, so there is no suspicion that the 
+
+government somehow weakened the algorithm or added a trapdoor. Although the steps 
+
+of a cycle are simple to describe and seem to be rather random transformations of bits, 
+
+these transformations have a sound mathematical origin. 
+When Rijndael’s predecessor, DES, was adopted, two questions quickly arose:
+1. How strong is it, and in particular, are there any backdoors?
+2. How long would it be until the encrypted code could be routinely cracked?
+With approximately 40 years of use, suspicions of weakness of DES (intentional 
+or not) and backdoors have pretty much been quashed. Not only have analysts failed 
+
+to find any significant flaws, but in fact research described earlier in this chapter has 
+
+shown that seemingly insignificant changes weaken the strength of the algorithm—that 
+
+is, the algorithm is the best it can be. The second question, about how long DES would 
+
+last, went unanswered for a long time but then was answered very quickly by two exper-
+
+iments in 1997 and 1998, in which DES was cracked in days. Thus, more than 20 years 

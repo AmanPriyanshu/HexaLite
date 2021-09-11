@@ -1,0 +1,64 @@
+160 Chapter 3  
+Programs and ProgrammingIn this simple example, the program may run correctly for a long time, as long as 
+no more than 99 issues are open at any time, but adding the 100th issue will cause the 
+
+program to fail. A similar problem occurs when a procedure edits or reformats input, 
+
+perhaps changing a one-character sequence into two or more characters (as for example, 
+
+when the one-character ellipsis symbol “…” available in some fonts is converted by a 
+
+word processor into three successive periods to account for more limited fonts.) These 
+
+unanticipated changes in size can cause changed data to no longer fit in the space where 
+
+it was originally stored. Worse, the error will appear to be sporadic, occurring only 
+
+when the amount of data exceeds the size of the allocated space.
+Alas, the only control against these errors is correct programming: always checking 
+to ensure that a container is large enough for the amount of data it is to contain.
+Integer OverflowAn integer overflow is a peculiar type of overflow, in that its outcome is somewhat dif-
+
+ferent from that of the other types of overflows. An 
+integer overflow
+ occurs because 
+a storage location is of fixed, finite size and therefore can contain only integers up to 
+
+a certain limit. The overflow depends on whether the data values are signed (that is, 
+
+whether one bit is reserved for indicating whether the number is positive or negative). 
+
+Table 3-1 gives the range of signed and unsigned values for several memory location 
+
+(word) sizes.
+When a computation causes a value to exceed one of the limits in Table 3-1, the 
+extra data does not spill over to affect adjacent data items. That’s because the arithmetic 
+
+is performed in a hardware register of the processor, not in memory. Instead, either a 
+
+hardware program exception or fault condition is signaled, which causes transfer to 
+
+an error handling routine, or the excess digits on the most significant end of the data 
+
+item are lost. Thus, with 8-bit unsigned integers, 255 
+ 1 
+ 0. If a program uses an 
+8-bit unsigned integer for a loop counter and the stopping condition for the loop is 
+
+count  256, then the condition will never be true.
+Checking for this type of overflow is difficult, because only when a result overflows 
+can the program determine an overflow occurs. Using 8-bit unsigned values, for exam-
+
+ple, a program could determine that the first operand was 147 and then check whether 
+
+the second was greater than 108. Such a test requires double work: First determine the 
+
+maximum second operand that will be in range and then compute the sum. Some com-
+pilers generate code to test for an integer overflow and raise an exception.
+TABLE 3-1 
+Value Range by Word Size
+Word SizeSigned ValuesUnsigned Values
+8 bits128 to 1270 to 255 (2
+8  1)16 bits32,768 to 32,7670 to 65,535 (2
+16  1)32 bits2,147,483,648 to 2,147,483,6470 to 4,294,967,296 (2
+32  1)

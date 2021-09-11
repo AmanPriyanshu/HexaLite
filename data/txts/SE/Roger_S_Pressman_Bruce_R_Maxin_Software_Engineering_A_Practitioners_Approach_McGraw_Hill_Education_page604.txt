@@ -1,0 +1,113 @@
+574 PART THREE  
+QUALITY MANAGEMENT 
+Cloud-based testing is not without potential problems: lack of standards, po-tential security issues, data location and integrity issues, incomplete infrastruc-
+ture support, improper usages of services, and performance issues are only 
+some of the common challenges that face development teams that use the cloud 
+approach.   
+ 
+MobileApp Testing in the Production Environment 
+   
+ 
+MobileApp Testing in the Production Environment 
+  
+ 
+The scene:  Doug Miller’s ofﬁ
+ ce. 
+  
+The players:  Doug Miller (manager of the  
+SafeHome 
+ software engineering group) and Vinod Raman (a mem-
+ber of the product software engineering team).   
+The conversation:    
+Doug:  What do you think of the e-commerce portion 
+of our   
+SafeHomeAssured  
+ MobileApp V0.0?   
+Vinod:  The outsourcing vendor has done a good job 
+of adapting the WebApp  
+ 
+SafeHomeAssured.com  
+ to the mobile environment. Sharon [development manager 
+for the vendor] tells me they’re testing the prototype as 
+we speak.   
+Doug:  I heard they were doing testing for the 
+e-commerce site using device emulators. I think we 
+should do a little testing on actual devices.   
+Vinod (grimacing):  I thought we were going to hire 
+a third-party testing company to validate the Mobile-
+
+App. We’re still killing ourselves trying to get the prod-
+
+uct software out the door. 
+  
+Doug:  We’re going to hire a testing vendor for perfor-
+mance, security testing, and conﬁ guration testing. Our 
+outsourcing vendor is already doing some testing. I just thought another point of view would be helpful, and   
+Vinod (sighs):  What are you looking for? 
+  
+Doug:  I want to be sure that the user experience is 
+solid.   
+Vinod:  I suppose we can start with the use cases for 
+each of the major interface functions. 
+  
+Doug:  Good. But follow the logic paths from their be-
+ginning to their conclusion. Take a look at the weighted 
+
+device platform matrix. I’d like you to check its perfor-
+
+mance on the top six most important devices, and while 
+
+you’re there, check out the content that appears at each 
+navigation node. Make sure it takes the device charac-
+teristics into account as each screen display is rendered.   
+Vinod:  
+well. Who’s testing usability? 
+  
+Doug:  
+ability testing. We’ve hired a market research ﬁ
+ rm to 
+line up 20 typical users for the usability study, but if you 
+
+  
+Vinod:  I know, pass them along. 
+  
+Doug (smiling):  Thanks, Vinod. 
+  
+SAFEHOME  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 26.3  
+CONSIDERING THE SPECTRUM OF USER INTERACTION  
+ 
+ 
+ 
+ 
+ 
+ 
+In a crowded marketplace in which products provide the same functionality, 
+users will choose the MobileApp that is easiest to use. The user interface and its 
+interaction mechanisms are visible to the MobileApp users. It is important to test 
+the quality of the user experience provided by the MobileApp to ensure that it 
+meets the expectations of its users.  Many of the procedures for assessing the usability of software user interfaces discussed in Chapter 15 can be used to assess MobileApps. Similarly many of the 
+strategies used to assess the quality of WebApps (Chapter 25) may be used to test 
+ What 
+characteristics 
+of MobileApp 
+
+usability become 
+
+the focus of testing 
+
+and what speciﬁ c 
+objectives are 
+
+addressed? 
+?pre22126_ch26_567-583.indd   574pre22126_ch26_567-583.indd   57413/12/13   6:15 PM13/12/13   6:15 PM

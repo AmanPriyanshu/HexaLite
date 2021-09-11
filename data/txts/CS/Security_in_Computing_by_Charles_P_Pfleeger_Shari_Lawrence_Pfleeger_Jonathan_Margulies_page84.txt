@@ -1,0 +1,77 @@
+50 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+150,000 words in a good collegiate dictionary, ignoring length. By picking one 
+of the 99.95 percent nonwords, you force the attacker to use a longer brute-force 
+
+search instead of the abbreviated dictionary search.
+• Use a string you can remember. 
+Password choice is a double bind. To remember 
+the password easily, you want one that has special meaning to you. However, 
+
+you don’t want someone else to be able to guess this special meaning. One 
+
+easy-to-remember password is UcnB2s. That unlikely looking jumble is a sim-
+
+ple transformation of “you can never be too secure.” The first letters of words 
+
+from a song, a few letters from different words of a private phrase, or something 
+
+involving a memorable basketball score are examples of reasonable passwords. 
+
+But don’t be too obvious. Password-cracking tools also test replacements like 
+
+0 (zero) for o or O (letter “oh”) and 1 (one) for l (letter “ell”) or $ for S (letter 
+“ess”). So I10v3U is already in the search file.
+• Use variants for multiple passwords. 
+With accounts, websites, and subscrip-
+tions, an individual can easily amass 50 or 100 passwords, which is clearly too 
+
+many to remember. Unless you use a trick. Start with a phrase as in the previous 
+
+suggestion: Ih1b2s (I have one brother, two sisters). Then append some patterns 
+
+involving the first few vowels and consonants of the entity for the password: 
+
+Ih1b2sIvs for vIsa, Ih1b2sAfc for fAcebook, and so forth.• Change the password regularly. 
+Even if you have no reason to suspect that 
+someone has compromised the password, you should change it from time to 
+
+time. A penetrator may break a password system by obtaining an old list or 
+
+working exhaustively on an encrypted list.
+• Don’t write it down. 
+Note: This time-honored advice is relevant only if physi-
+cal security is a serious risk. People who have accounts on many machines and 
+
+servers, and with many applications or sites, may have trouble remembering 
+
+all the access codes. Setting all codes the same or using insecure but easy-to-
+
+remember passwords may be more risky than writing passwords on a reasonably 
+
+well-protected list. (Obviously, you should not tape your PIN to your bank card 
+
+or post your password on your computer screen.)
+• Don’t tell anyone else. 
+The easiest attack is social engineering, in which the 
+attacker contacts the system’s administrator or a user to elicit the password in 
+
+some way. For example, the attacker may phone a user, claim to be “system 
+
+administration,” and ask the user to verify the user’s password. Under no cir-
+
+cumstances should you ever give out your private password; legitimate admin-
+
+istrators can circumvent your password if need be, and others are merely trying 
+
+to deceive you.
+These principles lead to solid password selection, but they lead to a different prob-
+lem: People choose simple passwords because they have to create and remember so 
+
+many passwords. Bank accounts, email access, library services, numerous websites, 
+
+and other applications all seem to require a password. We cannot blame users for being 
+
+tempted to use one simple password for all of them when the alternative is trying to 
+
+remember dozens if not hundreds of strong passwords, as discussed in Sidebar 2-4.

@@ -1,0 +1,89 @@
+ Section 2.3  Cryptography 
+95  DES: The Data Encryption Standard
+The Data Encryption Standard (DES) [NBS77], a system developed for the U.S. gov-
+ernment, was intended for use by the general public. Standards organizations have offi-
+
+cially accepted it as a cryptographic standard both in the United States and abroad. 
+
+Moreover, many hardware and software systems have been designed with DES. For 
+
+many years it was the algorithm of choice for protecting financial, personal, and corpo-
+
+rate data; however, researchers increasingly questioned its adequacy as it aged.
+Overview of the DES AlgorithmThe DES algorithm [NBS77] was developed in the 1970s by IBM for the U.S. National 
+Institute of Standards and Technology (NIST), then called the National Bureau of Stan-
+
+dards (NBS). DES is a careful and complex combination of two fundamental building 
+
+blocks of encryption: substitution and transposition. The algorithm derives its strength 
+
+from repeated application of these two techniques, one on top of the other, for a total of 
+
+16 cycles. The sheer complexity of tracing a single bit through 16 iterations of substitu-
+
+tions and transpositions has so far stopped researchers in the public from identifying 
+
+more than a handful of general properties of the algorithm.TABLE 2-10 
+Stream and Block Encryption Algorithms
+StreamBlock
+Advantages
+•  Speed of transformation. 
+Because each symbol is encrypted without 
+regard for any other plaintext symbols, 
+
+each symbol can be encrypted as 
+soon as it is read. Thus, the time to 
+
+encrypt a symbol depends only on the 
+encryption algorithm itself, not on the 
+time it takes to receive more plaintext.
+•  Low error propagation. 
+Because each symbol is separately encoded, an error 
+in the encryption process affects only 
+
+that character.
+•  High diffusion.
+ Information from the plaintext is diffused into several 
+
+ciphertext symbols. One ciphertext 
+
+block may depend on several plaintext 
+
+letters.•  Immunity to insertion of symbol. 
+Because blocks of symbols are 
+enciphered, it is impossible to insert 
+a single symbol into one block. The 
+
+length of the block would then be 
+
+incorrect, and the decipherment would 
+
+quickly reveal the insertion.
+Disadvantages
+•  Low diffusion. 
+Each symbol is separately enciphered. Therefore, 
+
+all the information of that symbol is 
+contained in one symbol of ciphertext.
+•  Susceptibility to malicious insertions and modifications. 
+Because each symbol is separately enciphered, an 
+active interceptor who has broken the 
+
+code can splice pieces of previous 
+
+messages and transmit a spurious new 
+
+message that may look authentic.•  Slowness of encryption. 
+The person or machine doing the block ciphering 
+must wait until an entire block of 
+
+plaintext symbols has been received 
+
+before starting the encryption process.•  Padding. 
+A final short block must be 
+filled with irrelevant data to make a 
+
+full-sized block.•  Error propagation. 
+An error will affect the transformation of all other 
+
+characters in the same block.

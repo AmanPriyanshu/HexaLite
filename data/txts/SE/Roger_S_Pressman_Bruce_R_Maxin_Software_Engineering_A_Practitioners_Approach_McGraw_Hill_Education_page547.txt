@@ -1,0 +1,84 @@
+CHAPTER 23  
+TESTING CONVENTIONAL APPLICATIONS
+ 517frustrating than following a user guide or an online help facility exactly and get-ting results or behaviors that do not coincide with those predicted by the docu-
+mentation. It is for this reason that documentation testing should be a meaningful 
+part of every software test plan.  Documentation testing can be approached in two phases. The ﬁ rst phase, 
+technical review (Chapter 20), examines the document for editorial clarity. The 
+
+second phase, live test, uses the documentation in conjunction with the actual 
+program.  Surprisingly, a live test for documentation can be approached using tech-
+niques that are analogous to many of the black-box testing methods discussed 
+earlier. Graph-based testing can be used to describe the use of the program; 
+
+equivalence partitioning and boundary value analysis can be used to deﬁ ne var-
+ious classes of input and associated interactions. MBT can be used to ensure 
+that documented behavior and actual behavior coincide. Program usage is then 
+tracked through the documentation.   
+Documentation Testing 
+ 
+ 
+The following questions should be answered during documentation and/or help facility testing:   
+ 
+ 
+•  Does the documentation accurately describe how to accomplish each mode of use?   
+ 
+ 
+•  Is the description of each interaction sequence accurate? 
+  
+ 
+ 
+•  Are examples accurate?   
+ 
+ 
+•  Are terminology, menu descriptions, and system 
+responses consistent with the actual program?   
+ 
+ 
+•  Is it relatively easy to locate guidance within the documentation?   
+ 
+ 
+•  Can troubleshooting be accomplished easily with the documentation?   
+ 
+ 
+•  Are the document’s table of contents and index 
+robust, accurate, and complete?   
+ 
+ 
+•  Is the design of the document (layout, typefaces, indentation, graphics) conducive to understanding 
+and quick assimilation of information? 
+  
+ 
+ 
+•  Are all software error messages displayed for the user described in more detail in the document? Are 
+actions to be taken as a consequence of an error 
+message clearly delineated?   
+ 
+ 
+•  If hypertext links are used, are they accurate and 
+complete?   
+ 
+ 
+•  If hypertext is used, is the navigation design 
+appropriate for the information required? 
+ 
+ 
+  The only viable way to answer these questions is to have an independent third party (e.g., selected users) 
+
+test the documentation in the context of program usage. 
+All discrepancies are noted and areas of document am-
+biguity or weakness are deﬁ ned for potential rewrite. 
+  
+INFO  
+ 
+ 
+ 
+ 
+ 
+ 
+ 23.9  
+TESTING FOR REAL-TIME SYSTEMS  
+ 
+The time-dependent, asynchronous nature of many real-time applications adds a new and potentially difﬁ cult element to the testing mix—time. Not only does 
+the test-case designer have to consider conventional test cases but also event 
+handling (i.e., interrupt processing), the timing of the data, and the parallelism of 
+the tasks (processes) that handle the data. In many situations, test data provided pre22126_ch23_496-522.indd   517pre22126_ch23_496-522.indd   51713/12/13   6:14 PM13/12/13   6:14 PM

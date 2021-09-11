@@ -1,0 +1,51 @@
+ Section 12.2  Symmetric Encryption Algorithms 
+793  again. There are sixteen rounds of mixing. The mashing round is pure substitution. Two 
+mashing rounds are performed after mixing rounds 5 and 11.Invented in 1987, RC2 is old as cryptosystems go. No serious weaknesses have been 
+discovered in the design, but the 40-bit key makes brute-force key searches trivial.
+RC4RC4 is a stream cipher, widely used in wireless networks (WEP and WPA, described 
+in Chapter 6), as well as in SSL (also explained in Chapter 6) and various products. It 
+
+was especially popular before 2000 because, like RC2, it employs a variable length key 
+
+and so could be configured to use a 40-bit key, short enough to pass export restrictions.
+RC4 is essentially a keyed pseudorandom number generator (PRNG); it generates a 
+stream of bits in no predictable order. For encryption, the stream of bits is XORed with 
+
+the plaintext bits.
+The algorithm is ingeniously simple. It uses a 256-element array A containing each 
+of the 256 possible values of an 8-bit byte. Pointers 
+i and 
+j identify bytes from the 
+array to be swapped. At each step, 
+i is incremented by 1, 
+j is replaced by 
+j  A[
+i], 
+A[i] and A[
+j] are swapped, and the byte A[A[
+i]A[j]] is produced as output. (All addi-tions are carried out mod 256.) The algorithm is very efficient, especially for a software 
+
+implementation.No serious cryptanalytic weaknesses have been found in the algorithm itself. How-
+ever the random number sequence of an XOR stream cipher must never repeat. That 
+
+is, the same key must never be used for two different plaintexts. To see why, consider 
+
+plaintexts 
+p1 and p2, encrypted with a common key 
+k.c1  p1  kc2  p2  kThe attacker takes the two ciphertexts and computes
+
+ c1  c2  (p1  k)  (p2  k) p1  p2  (k  k) p1  p2from which p1 and 
+p2 may be recoverable with frequency analysis, probable plaintext, 
+or other techniques.Many implementations of RC4 have exactly that weakness. To initialize array A, the 
+algorithm starts with the values 1 to 256 in numerical order. Then it works through the 
+
+256 bytes, swapping each byte with a byte whose location depends, in part, on a byte 
+
+from the key: for each 
+i,j : j  A[
+i]  key[
+i]and A[i] and A[
+j] are swapped. So the up-to-256-byte key controls how the random 
+number array is initialized. To protect against identical plaintext attacks, ciphers and especially XOR stream 
+ciphers are used with an initialization vector, also called a 
+nonce; this value works like 

@@ -1,0 +1,129 @@
+14  
+ 
+ 
+ 
+CHAPTER 
+ 
+ 
+KEY CONCEPTS     framework 
+activities  . . . . . . . . 17  
+
+    general principles  . . 21  
+
+    principles  . . . . . . . . 21  
+
+    problem solving  . . . 19  
+
+    SafeHome      . . . . . . . . 26  
+    software engineering, 
+
+  deﬁ nition  . . . . . . . 15  
+       layers  . . . . . . . . . 15  
+
+       practice. . . . . . . . 19  
+
+    software 
+
+myths      . . . . . . . . . . . 23  
+
+    software process  . . 16  
+
+    umbrella activities. . 17  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ In order to build software that is ready to meet the challenges of the twenty-ﬁ rst century, you must recognize a few simple realities:
+ 
+ 
+ 
+ 
+• 
+ 
+  Software has become deeply embedded in virtually every aspect of our lives, and as a consequence, the number of people who have an inter-
+
+est in the features and functions provided by a speciﬁ c application 
+ 1 
+ 
+ has 
+grown dramatically.  
+It follows that a concerted effort should be made to understand the problem before a software solution is developed.
+ 
+ 
+  
+ 
+ 
+• 
+ 
+  The information technology requirements demanded by individuals, businesses, and governments grow increasing complex with each pass-
+ing year. Large teams of people now create computer programs that 
+
+were once built by a single individual. Sophisticated software that was 
+once implemented in a predictable, self-contained, computing environ-
+ment is now embedded inside everything from consumer electronics to 
+medical devices to weapons systems.  It follows that design becomes a pivotal activity.
+ 
+ 
+  
+ 
+SOFTWARE
+ ENGINEERING 2 QUICK LOOK   
+What is it?   
+Software engineering encompasses a process, a collec-
+tion of methods (practice) and an 
+array of tools that allow profession-als to build high-quality computer software.   
+ 
+Who does it?   
+Software engineers apply the software engineering process.   
+ 
+Why is it important? 
+  
+Software engineering is 
+important because it enables us to build com-
+
+plex systems in a timely manner and with high 
+
+quality. It imposes discipline to work that can be-
+
+come quite chaotic, but it also allows the people 
+
+who build computer software to adapt their ap-
+proach in a manner that best suits their needs. 
+  
+ 
+What are the steps?   
+You build computer soft-
+ware like you build any successful product, by applying an agile, adaptable process that leads to a high-quality result that meets the 
+needs of the people who will use the product. 
+You apply a software engineering approach. 
+  
+ 
+What is the work product? 
+  
+From the point of view of a software engineer, the work prod-
+
+uct is the set of programs, content (data), and 
+other work products that are computer soft-
+ware. But from the user’s viewpoint, the work 
+
+product is the resultant information that some-
+
+how makes the user’s world better. 
+  
+ 
+How do I ensure that I’ve done it right?   
+Read the remainder of this book, se-lect those ideas that are applicable to the soft-
+ware that you build, and apply them to your 
+work.   
+ 
+1  We will call these people “stakeholders” later in this book. 
+pre22126_ch02_014-028.indd   14pre22126_ch02_014-028.indd   1413/12/13   6:10 PM13/12/13   6:10 PM

@@ -1,0 +1,68 @@
+672 Chapter 10  
+Management and Incidentsvaluable to another. For example, if a project has one key designer, then that designer is 
+an essential asset; on the other hand, if a similar project has ten designers, any of whom 
+
+could do the project’s design, then each designer is not as essential because there are 
+
+nine easily available replacements. 
+
+Thus, you must add to the list of 
+
+assets the other people, processes, 
+
+and things that must be protected.In a sense, the list of assets is an inventory of the system, including intangibles and 
+human resource items. For security purposes, this inventory is more comprehensive 
+
+than the traditional inventory of hardware and software often performed for configura-
+
+tion management or accounting purposes. The point is to identify all assets necessary 
+
+for the system to be usable.Step 2: Determine Vulnerabilities
+The next step in risk analysis is to determine the vulnerabilities of these assets. This step 
+requires imagination; we want to predict what damage might occur to the assets and 
+
+from what sources. We can enhance our imaginative skills by developing a clear idea of 
+
+the nature of vulnerabilities. This nature derives from the need to ensure the three basic 
+
+goals of computer security: confidentiality, integrity, and availability. Thus, a vulner-
+
+ability is any situation that could cause loss of confidentiality, integrity, and availability. 
+
+We want to use an organized approach to considering situations that could cause these 
+
+losses for a particular object.Software engineering offers us several techniques for investigating possible prob-
+lems. Hazard analysis, described in Sidebar 10-5, explores failures that may occur and 
+
+faults that may cause them. These techniques have been used successfully in analyzing 
+
+safety-critical systems. However, additional techniques are tailored specifically to secu-
+
+rity concerns; we address those techniques in this and following sections.
+Not all business assets are tangible, and 
+
+not all are easy to value.
+SIDEBAR 10-5  Hazard Analysis Techniques
+Hazard analysis is a set of systematic but informal techniques intended to 
+expose potentially hazardous system states. Using hazard analysis helps 
+
+us find strategies to prevent or mitigate harm once we understand what 
+
+problems can occur. That is, hazard analysis ferrets out not only the effects 
+
+of problems but also their likely causes so that we can then apply an appro-
+
+priate technique for preventing a problem or softening its consequences. 
+
+Hazard analysis usually involves creating hazard lists as well as procedures 
+
+for exploring “what if” scenarios to trigger consideration of nonobvious haz-
+ards. The problems’ sources can be lurking in any artifacts of the develop-
+
+ment or maintenance process, not just in the code. There are many kinds 
+
+of problems, ranging from incorrect information or code, to unclear conse-
+
+quences of a particular action. A good hazard analysis takes all of them 
+
+into account.

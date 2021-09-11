@@ -1,0 +1,69 @@
+ Section 2.3  Cryptography 
+97  strength roughly equivalent to a 112-bit key (because the double DES attack defeats the 
+strength of one of the three keys, but it has no effect on the third key).
+A minor variation of triple DES, which some people also confusingly call triple 
+DES, is C  E(k1, D(k2, E(k1,m))). That is, you encrypt with one key, decrypt with 
+a second, and encrypt with the first again. This version requires only two keys. (The 
+
+second decrypt step also makes this process work for single encryptions with one key: 
+
+The decryption cancels the first encryption, so the net result is one encryption. The 
+
+encrypt–decrypt–encrypt form is handy because one algorithm can produce results for 
+both conventional single-key DES and the more secure two-key method.) This two-key, 
+
+three-step version is subject to another tricky attack, so its strength is rated at only about 
+
+80 bits. Still, 80 bits is beyond reasonable cracking capability for current hardware.
+In summary, ordinary DES has a key space of 56 bits, double DES is scarcely better, 
+but two-key triple DES gives an effective length of 80 bits, and three-key triple DES 
+
+gives a strength of 112 bits. Remember why we are so fixated on key size: If no other 
+
+way succeeds, the attacker can always try all possible keys. A longer key means signifi-
+
+cantly more work for this attack to bear fruit, with the work factor doubling for each 
+
+additional bit in key length. Now, roughly a half century after DES was created, a 56-bit 
+
+key is inadequate for any serious confidentiality, but 80- and 112-bit effective key sizes 
+
+afford reasonable security. We summarize these forms of DES in Table 2-11.
+Security of DESSince it was first announced, DES has been controversial. Many researchers have ques-
+tioned the security it provides. Because of its association with the U.S. government, 
+
+specifically the U.S. National Security Agency (NSA) that made certain unexplained 
+
+changes between what IBM proposed and what the NBS actually published, some peo-
+ple have suspected that the algorithm was somehow weakened, to allow the government 
+TABLE 2-11 
+Forms of DES
+FormOperationPropertiesStrength
+DESEncrypt with one key56-bit keyInadequate for high-security 
+applications by today’s 
+
+computing capabilitiesDouble DESEncrypt with first key; then 
+encrypt result with second key
+Two 56-bit keysOnly doubles strength of  
+56-bit key version
+Two-key 
+triple DESEncrypt with first key, then 
+encrypt (or decrypt) result 
+with second key, then encrypt 
+
+result with first key (E-D-E)
+Two 56-bit keysGives strength equivalent 
+to about 80-bit key (about 
+
+16 million times as strong as 
+56-bit version)
+Three-key 
+triple DESEncrypt with first key, then 
+encrypt or decrypt result with 
+second key, then encrypt result 
+
+with third key (E-E-E)
+Three 56-bit keysGives strength equivalent to 
+about 112-bit key about 72 
+
+quintillion (72*1015) times as strong as 56-bit version

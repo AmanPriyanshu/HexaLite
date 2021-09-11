@@ -1,0 +1,69 @@
+558 Chapter 8  
+Cloud Computingeven allow customers to choose from a list of data centers to house their func-
+tions and data; if you have this option, make sure to choose a secondary data 
+
+center that is far enough away from your primary one that it is exposed to dif-
+
+ferent risks.• Platform diversity
+. Many of the cyber attacks we discuss in this book are targeted 
+at specific applications, OSs, or protocols. Your cloud providers will likely run 
+
+OSs, applications, and protocols somewhat different from your own, plus those 
+
+providers will have them deployed and configured differently. This means they 
+
+will have a different set of vulnerabilities from yours, decreasing the likelihood 
+
+that both your systems and your cloud providers’ will succumb to the same attack.
+• Infrastructure diversity
+. In addition to the software stack, many other potential 
+points of vulnerability will likely differ between you and your cloud provider, 
+
+including hardware, network configuration, security controls, quality of security 
+
+staff, IP addresses, and suppliers.
+Many companies that move to cloud services will not properly take the risk of sin-
+gle point of failure into account. Instead of using cloud services to mitigate that risk, 
+
+they will make the cloud services their single points of failure (see Sidebar 8-2 for an 
+
+example of how dangerous this can be). Even if a cloud provider replicates your service 
+SIDEBAR 8-1 Cloud RAID
+In 2010, three researchers at Cornell University devised a clever way to 
+combat vendor lock-in for cloud storage: engaging with multiple cloud stor-
+
+age providers and treating each as a single hard drive in a giant RAID 
+
+array. In a paper they presented to the ACM Symposium on Cloud Com-
+
+puting [ABU10], Hussam Abu-Libdeh, Lonnie Princehouse, and Hakim 
+
+Weatherspoon described a method for striping data across a variety of 
+
+cloud providers, while maintaining sufficient redundancy across providers 
+
+to recreate all the data in case one provider became unavailable—a similar 
+
+approach to the one used on a much smaller scale in RAID 5.
+The researchers’ prototype tool, Redundant Array of Cloud Stor-
+age (RACS), acts as a proxy for cloud storage requests, then intelligently 
+
+farms out users’ requests to a number of different providers. To help miti-
+
+gate concerns about the tool becoming a single point of failure, multiple 
+
+RACS instances can coordinate and act on a single customer’s behalf. The 
+
+researchers estimate that this approach would cost about 11 percent more 
+
+than traditional cloud storage—mostly owing to the extra data needed for 
+redundancy—but is much cheaper than maintaining two complete copies 
+
+of data with separate storage providers. Moreover, it greatly reduces the 
+
+vendor lock-in concern because migrating away from one provider would 
+
+mean moving only a fraction of your data.While this research is probably not ready for commercial deployment, 
+it points in an interesting and potentially fruitful direction for managing a 
+
+variety of cloud migration risks.

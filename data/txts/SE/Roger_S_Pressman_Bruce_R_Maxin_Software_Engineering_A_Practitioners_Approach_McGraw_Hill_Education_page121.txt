@@ -1,0 +1,75 @@
+CHAPTER 6  
+HUMAN ASPECTS OF SOFTWARE ENGINEERING
+ 91 
+ 
+An effective team should foster a  
+sense of trust. 
+ Software engineers on the 
+team should trust the skills and competence of their peers and their managers. 
+The team should encourage a  sense of improvement,
+ 
+ by periodically reﬂ
+ ecting on 
+its approach to software engineering and looking for ways to improve their work.  The most effective software teams are diverse in the sense that they combine a variety of different skill sets. Highly skilled technologists are complemented by 
+members who may have less technical background but are more empathetic to 
+the needs of stakeholders.  But not all teams are effective and not all teams jell. In fact, many teams suffer from what Jackman [Jac98] calls “  
+team toxicity 
+ 
+.” She deﬁ nes ﬁ
+ ve factors that 
+“foster a potentially toxic team environment”: (1) a frenzied work atmosphere, 
+high frustration that causes friction among team members, (3) a “fragmented 
+
+or poorly coordinated” software process, (4) an unclear deﬁ nition of roles on the 
+software team, and (5) “continuous and repeated exposure to failure.”  
+ 
+ 
+   
+To avoid a frenzied work environment, the team should have access to all 
+information required to do the job. Major goals and objectives, once deﬁ ned, 
+should not be modiﬁ ed unless absolutely necessary. A software team can avoid 
+frustration if it is given as much responsibility for decision making as possible. 
+An inappropriate process (e.g., unnecessary or burdensome work tasks or poorly 
+chosen work products) can be avoided by understanding the product to be built, 
+the people doing the work, and by allowing the team to select the process model. 
+The team itself should establish its own mechanisms for accountability (technical 
+reviews  2 
+ 
+ are an excellent way to accomplish this) and deﬁ
+ ne a series of corrective 
+approaches when a member of the team fails to perform. And ﬁ nally, the key to 
+avoiding an atmosphere of failure is to establish team-based techniques for feed-
+back and problem solving.  
+  In addition to the ﬁ ve toxins described by Jackman, a software team often 
+struggles with the differing human traits of its members. Some team members 
+are extroverts; others are introverts. Some people gather information intuitively, 
+
+distilling broad concepts from disparate facts. Others process information lin-
+early, collecting and organizing minute details from the data provided. Some 
+
+team members are comfortable making decisions only when a logical, orderly 
+argument is presented. Others are intuitive, willing to make a decision based on 
+“feel.” Some practitioners want a detailed schedule populated by organized tasks 
+that enable them to achieve closure for some element of a project. Others prefer 
+a more spontaneous environment in which open issues are okay. Some work hard 
+
+to get things done long before a milestone date, thereby avoiding stress as the 
+date approaches, while others are energized by the rush to make a last- minute deadline. Recognition of human differences, along with other guidelines pre-
+sented in this section, provide a higher likelihood of creating teams that jell.    An effective software 
+team is diverse, 
+populated by people 
+who have a sense 
+of purpose, involve-
+ment, trust, and 
+
+improvement.    Why is it 
+
+that teams fail to jell? ?  
+2  Technical reviews are discussed in detail in Chapter 20. 
+ 
+ uote:  “Not every group 
+is a team, and 
+not every team is 
+
+effective.”  Glenn Parker 
+pre22126_ch06_087-102.indd   91pre22126_ch06_087-102.indd   9113/12/13   6:10 PM13/12/13   6:10 PM

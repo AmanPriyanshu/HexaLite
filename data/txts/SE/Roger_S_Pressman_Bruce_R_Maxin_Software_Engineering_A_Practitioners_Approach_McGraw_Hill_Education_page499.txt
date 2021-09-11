@@ -1,0 +1,75 @@
+CHAPTER 22  
+SOFTWARE TESTING STRATEGIES
+ 469 
+From a psychological point of view, software analysis and design (along with 
+coding) are constructive tasks. The software engineer analyzes, models, and 
+then creates a computer program and its documentation. Like any builder, the 
+
+software engineer is proud of the ediﬁ ce that has been built and looks askance at 
+anyone who attempts to tear it down. When testing commences, there is a subtle, 
+yet deﬁ nite, attempt to “break” the thing that the software engineer has built. 
+From the point of view of the builder, testing can be considered to be (psycholog-
+
+ically) destructive. So the builder treads lightly, designing and executing tests 
+
+that will demonstrate that the program works, rather than to uncover errors. 
+Unfortunately, errors will be nevertheless present. And, if the software engineer 
+
+doesn’t ﬁ nd them, the customer will! 
+ There are often a number of misconceptions that you might infer from the preceding discussion: (1) that the developer of software should do no testing at 
+all, (2) that the software should be “tossed over the wall” to strangers who will test 
+it mercilessly, (3) that testers get involved with the project only when the testing 
+
+steps are about to begin. Each of these statements is incorrect.   
+ 
+ 
+ 
+ 
+The software developer is always responsible for testing the individual units (components) of the program, ensuring that each performs the function or ex-
+hibits the behavior for which it was designed. In many cases, the developer also 
+conducts integration testing—a testing step that leads to the construction (and 
+test) of the complete software architecture. Only after the software architecture 
+is complete does an independent test group become involved.  The role of an  independent test group
+ 
+ (ITG) is to remove the inherent problems 
+associated with letting the builder test the thing that has been built. Independent 
+testing removes the conﬂ ict of interest that may otherwise be present. After all, 
+ITG personnel are paid to ﬁ nd errors. 
+  
+However, you don’t turn the program over to ITG and walk away. The devel-
+oper and the ITG work closely throughout a software project to ensure that thor-
+
+ough tests will be conducted. While testing is conducted, the developer must be 
+available to correct errors that are uncovered.  The ITG is part of the software development project team in the sense that it becomes involved during analysis and design and stays involved (planning and 
+specifying test procedures) throughout a large project. However, in many cases 
+
+the ITG reports to the software quality assurance organization, thereby achiev-
+ing a degree of independence that might not be possible if it were a part of the 
+software engineering team.   
+ 
+ 
+22.1.3   
+Software Testing Strategy—The Big Picture 
+ 
+The software process may be viewed as the spiral illustrated in  Figure 22.1 . Initially, system engineering deﬁ
+ nes the role of software and leads to software 
+requirements analysis, where the information domain, function, behavior, per-
+
+formance, constraints, and validation criteria for software are established. Mov-
+ing inward along the spiral, you come to design and ﬁ nally to coding. To develop 
+   An independent 
+test group does not 
+have the “conﬂ ict of 
+
+interest” that builders 
+of the software might 
+experience.   
+ 
+ uote:  “The ﬁ rst mistake 
+that people make 
+is thinking that 
+the testing team 
+is responsible for 
+assuring quality.” 
+ Brian Marick 
+pre22126_ch22_466-495.indd   469pre22126_ch22_466-495.indd   46913/12/13   6:14 PM13/12/13   6:14 PM

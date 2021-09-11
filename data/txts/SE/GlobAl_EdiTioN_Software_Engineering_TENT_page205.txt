@@ -1,0 +1,40 @@
+˜˜˚˛˜˜˜˜˜˜ˆ˛ˇ˜˜˜However, if a plan-based development process is used, you may need more 
+detailed models. When the links between requirements engineers, designers, and pro-grammers are indirect (e.g., where a system is being designed in one part of an organ-
+ization but implemented elsewhere), then precise design descriptions are needed for 
+
+communication. Detailed models, derived from the high-level abstract models, are 
+
+used so that all team members have a common understanding of the design.An important step in the design process, therefore, is to decide on the design models 
+that you need and the level of detail required in these models. This depends on the type 
+
+of system that is being developed. A sequential data-processing system is quite different 
+
+from an embedded real-time system, so you need to use different types of design models. 
+
+The UML supports 13 different types of models, but, as I discussed in Chapter 5, many 
+
+of these models are not widely used. Minimizing the number of models that are produced 
+
+reduces the costs of the design and the time required to complete the design process.When you use the UML to develop a design, you should develop two kinds of design model:1. Structural models, which describe the static structure of the system using object classes and their relationships. Important relationships that may be documented 
+at this stage are generalization (inheritance) relationships, uses/used-by 
+ relationships, and composition relationships.2. Dynamic models, 
+which describe the dynamic structure of the system and show 
+
+the expected runtime interactions between the system objects. Interactions that 
+may be documented include the sequence of service requests made by objects 
+and the state changes triggered by these object interactions.I think three UML model types are particularly useful for adding detail to use 
+case and architectural models:1. Subsystem models, which show logical groupings of objects into coherent subsys-tems. These are represented using a form of class diagram with each subsystem 
+
+shown as a package with enclosed objects. Subsystem models are structural models.2. Sequence models, which show the sequence of object interactions. These are 
+
+represented using a UML sequence or a collaboration diagram. Sequence models 
+
+are dynamic models.3. State machine models, which show how objects change their state in response to 
+events. These are represented in the UML using state diagrams. State machine 
+
+models are dynamic models.A subsystem model is a useful static model that shows how a design is organized into 
+logically related groups of objects. I have already shown this type of model in Figure 7.4 
+to present the subsystems in the weather mapping system. As well as  subsystem models, 
+you may also design detailed object models, showing the objects in the systems and their 
+
+associations (inheritance, generalization, aggregation, etc.). However, there is a danger 

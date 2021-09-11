@@ -1,0 +1,43 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜˜˜depends on network bandwidth, network load, and the speed of other computers that 
+are part of the system. Moving resources from one part of the system to another can 
+
+significantly affect the system™s performance.Furthermore, as all users of the WWW know, distributed systems are unpredictable in 
+their response. Response time depends on the overall load on the system, its  architecture, 
+and the network load. As all of these factors may change over a short time, the time taken 
+
+to respond to a user request may change significantly from one request to another.The most important developments that have affected distributed software systems in 
+the past few years are service-oriented systems and the advent of cloud computing, 
+
+delivering infrastructure, platforms, and software as a service. In this chapter, I focus on 
+
+general issues of distributed systems, and in Section 17.4 I cover the idea of software as 
+
+a service. In Chapter 18, I discuss other aspects of service-oriented software engineering.
+As I discussed in the introduction to this chapter, distributed systems are more complex 
+
+than systems that run on a single processor. This complexity arises because it is practi-cally impossible to have a top-down model of control of these systems. The nodes in the 
+
+system that deliver functionality are often independent systems that are managed and 
+
+controlled by their owners. There is no single authority in charge of the entire distributed 
+
+system. The network connecting these nodes is also a separately managed system. It is a 
+
+complex system in its own right and cannot be controlled by the owners of systems 
+
+using the network. There is, therefore, an inherent unpredictability in the operation of 
+
+distributed systems that has to be taken into account when you are designing a system.Some of the most important design issues that have to be considered in distrib-uted systems engineering are:1. Transparency To what extent should the distributed system appear to the user as a 
+single system? When is it useful for users to understand that the system is distributed?2. Openness 
+Should a system be designed using standard protocols that support 
+interoperability, or should more specialized protocols be used? Although stand-ard network protocols are now universally used, this is not the case for higher 
+levels of interaction, such as service communication.3. Scalability How can the system be constructed so that it is scalable? That is, 
+how can the overall system be designed so that its capacity can be increased in 
+response to increasing demands made on the system?4. Security How can usable security policies be defined and implemented that 
+apply across a set of independently managed systems?5. Quality of service How should the quality of service that is delivered to system 
+users be specified, and how should the system be implemented to deliver an 
+
+acceptable quality of service to all users.6. Failure management How can system failures be detected, contained (so that 
+
+they have minimal effects on other components in the system), and repaired?

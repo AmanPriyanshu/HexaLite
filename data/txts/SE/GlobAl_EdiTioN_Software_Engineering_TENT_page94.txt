@@ -1,0 +1,42 @@
+˘˘
+˜˚˛˝˙ˆˇ˘˜˘˜˘1.
+ Large systems are usually systems of systemsŠcollections of separate, com-municating systems, where separate teams develop each system. Frequently, 
+
+these teams are working in different places, sometimes in different time zones. 
+It is practically impossible for each team to have a view of the whole system. 
+Consequently, their priorities are usually to complete their part of the system 
+
+without regard for wider systems issues.2.
+ Large systems are brownfield systems (Hopkins and Jenkins 2008); that is, they 
+
+include and interact with a number of existing systems. Many of the system require-
+ments are concerned with this interaction and so don™t really lend themselves to 
+
+flexibility and incremental development. Political issues can also be significant 
+
+hereŠoften the easiest solution to a problem is to change an existing system. 
+
+However, this requires negotiation with the managers of that system to convince 
+
+them that the changes can be implemented without risk to the system™s operation.3. Where several systems are integrated to create a system, a significant fraction of 
+
+the development is concerned with system configuration rather than original 
+
+code development. This is not necessarily compatible with incremental devel-
+opment and frequent system integration.4. Large systems and their development processes are often constrained by exter-
+nal rules and regulations limiting the way that they can be developed, that 
+
+require certain types of system documentation to be produced, and so on. 
+
+Customers may have specific compliance requirements that may have to be fol-
+lowed, and these may require process documentation to be completed.5. Large systems have a long procurement and development time. It is difficult to 
+maintain coherent teams who know about the system over that period as, inevi-
+tably, people move on to other jobs and projects.6. Large systems usually have a diverse set of stakeholders with different perspec-
+tives and objectives. For example, nurses and administrators may be the end-users 
+
+of a medical system, but senior medical staff, hospital managers, and others, are 
+also stakeholders in the system. It is practically impossible to involve all of 
+
+these different stakeholders in the development process.Large software systemSystem of
+systemsBrownfielddevelopmentDiversestakeholdersProlongedprocurementSystem
+configurationRegulatoryconstraintsFigure 3.13 Large project characteristics

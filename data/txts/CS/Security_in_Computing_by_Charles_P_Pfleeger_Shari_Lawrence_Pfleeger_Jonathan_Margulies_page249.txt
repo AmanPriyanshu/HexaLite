@@ -1,0 +1,62 @@
+ Section 3.3  Countermeasures 
+215  testers need to be able to share patterns and techniques with one another, and to 
+do that, testers need some common understanding of the larger process.
+6. Variation
+. Testing is not a checklist exercise; if it were, we would automate the 
+whole process, let a machine do it, and never have product failures. Testers need 
+
+to vary their routine, test different things in different ways, and adapt to suc-
+
+cesses and failures.
+7. Boundaries. Because testing can continue indefinitely, some concept of com-
+pleteness and sufficiency is necessary. Sometimes, finite resources of time or 
+
+money dictate how much testing is done. A better approach is a rational plan that 
+
+determines what degree of testing is adequate.
+Effectiveness of Testing 
+The mix of techniques appropriate for testing a given system depends on the system’s 
+
+size, application domain, amount of risk, and many other factors. But understanding the 
+
+effectiveness of each technique helps us know what is right for each particular system. 
+
+For example, Olsen [OLS93] describes the development at Contel IPC of a system con-
+
+taining 184,000 lines of code. He tracked faults discovered during various activities and 
+
+found these differences:
+• 17.3 percent of the faults were found during inspections of the system design
+• 19.1 percent during component design inspection
+
+• 15.1 percent during code inspection
+
+• 29.4 percent during integration testing
+
+• 16.6 percent during system and regression testing
+Only 0.1 percent of the faults were revealed after the system was placed in the field. 
+Thus, Olsen’s work shows the importance of using different techniques to uncover dif-
+
+ferent kinds of faults during development; we must not rely on a single method applied 
+
+at one time to catch all problems.Who does the testing? From a security standpoint, independent testing is highly 
+desirable; it may prevent a developer from attempting to hide something in a routine or 
+
+keep a subsystem from controlling the tests that will be applied to it. Thus, independent 
+
+testing increases the likelihood that a test will expose the effect of a hidden feature.
+Limitations of Testing 
+Testing is the most widely accepted assurance technique. As Earl Boebert [BOE92] 
+
+observes, conclusions from testing are based on the actual product being evaluated, not 
+
+on some abstraction or precursor of the product. This realism is a security advantage. 
+
+However, conclusions based on testing are necessarily limited, for the following reasons:
+• Testing can demonstrate the 
+existence
+ of a problem, but passing tests does not 
+demonstrate the absence of problems.• Testing adequately within reasonable time or effort is difficult because the com-
+binatorial explosion of inputs and internal states makes complete testing com-
+
+plex and time consuming.

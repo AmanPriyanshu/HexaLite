@@ -1,0 +1,36 @@
+406 Chapter 6  
+Networksexchange to demonstrate a clear and complete communication channel by sending a 
+packet with the ACK bit on, as shown in Figure 6-21.
+Occasionally packets get lost or damaged in transmission. The destination (which 
+we call the recipient) maintains a queue called the SYN_RECV connections, tracking 
+those items for which a SYN–ACK has been sent but no corresponding ACK has yet 
+
+been received. Normally, these connections are completed in a short time. If the SYN–
+
+ACK (2) or the ACK (3) packet is lost, eventually the destination host will time out the 
+
+incomplete connection and discard it from its waiting queue.
+The attacker can deny service to the target by sending many SYN requests, to which 
+the target properly responds with SYN-ACK; however, the attacker never replies with 
+
+ACKs to complete the connections, thereby filling the victim’s SYN_RECV queue. 
+
+Typically, the SYN_RECV queue is quite small, holding 10 or 20 entries. Because of 
+
+potential routing delays in the Internet, typical holding times for the SYN_RECV queue 
+can be minutes. So the attacker need only send a new SYN request every few seconds, 
+
+and the queue will fill.
+Attackers using this approach usually do one more thing: They spoof a nonexistent 
+return address in the initial SYN packet. Why? For two reasons. First, the attacker does 
+
+not want to disclose the real source address in case someone should inspect the packets 
+FIGURE 6-20 Echo–Chargen Attack
+Victim A
+Victim B
+Chargen packet with echo bit on
+Echoing what you just sent meChargen another packet with echo bit on
+Echoing that againChargen another packet with echo bit on
+FIGURE 6-21 Three-way TCP Handshake
+SourceDestination1. SYN3. ACK
+2. SYN + ACK

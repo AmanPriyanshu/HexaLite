@@ -1,0 +1,115 @@
+1  A s he ﬁ nished showing me the latest build of one of the world’s 
+most popular ﬁ rst-person shooter video games, the young developer 
+laughed. 
+  
+“You’re not a gamer, are you?” he asked. 
+ I smiled. “How’d you guess?”   
+The young man was dressed in shorts and a tee shirt. His leg bounced up and down like a piston, burning the nervous energy that seemed to be com-
+monplace among his co-workers.   
+“Because if you were,” he said, “you’d be a lot more excited. You’ve gotten a 
+peek at our next generation product and that’s something that our customers 
+
+ 
+ no pun intended.”   
+We sat in a development area at one of the most successful game develop-
+ers on the planet. Over the years, earlier generations of the game he demoed 
+sold over 50 million copies and generated billions of dollars in revenue.   
+“So, when will this version be on the market?” I asked.  He shrugged. “In about ﬁ ve months, and we’ve still got a lot of work to do.” 
+  
+He had responsibility for game play and artiﬁ cial intelligence functionality 
+in an application that encompassed more than three million lines of code.   
+“Do you guys use any software engineering techniques?” I asked, half-expecting that he’d laugh and shake his head.   
+ 
+KEY CONCEPTS     application 
+domains . . . . . . . . . . 6  
+
+    cloud computing  . . . 10  
+
+    failure curves  . . . . . . 5  
+
+    legacy software  . . . . 8  
+
+    mobile apps  . . . . . . 10  
+
+    product line. . . . . . . 11  
+
+    software, 
+
+deﬁ nition  . . . . . . . . . 4  
+    software, questions 
+
+about. . . . . . . . . . . . 4  
+
+    software, 
+
+nature of  . . . . . . . . . 3  
+
+    wear  . . . . . . . . . . . . 5  
+
+    Webapps  . . . . . . . . . 9         
+ THE NATURE
+ OF SOFTWARE
+ 1  
+ 
+ 
+CHAPTER 
+ 
+What is it?   
+Computer software is the product that software profession-
+als build and then support over the 
+
+long term. It encompasses programs 
+that execute within a computer of any size and 
+architecture, content that is presented as the 
+computer programs execute, and descriptive 
+information in both hard copy and virtual forms 
+
+that encompass virtually any electronic media. 
+  
+ 
+Who does it?   
+Software engineers build and support software, and virtually everyone in 
+
+the industrialized world uses it either directly 
+or indirectly. 
+  
+ 
+Why is it important? 
+  
+Software is important 
+because it affects nearly every aspect of our 
+
+lives and has become pervasive in our com-
+
+merce, our culture, and our everyday activities. 
+  
+ 
+What are the steps?   
+Customers and other stakeholders express the need for computer 
+software, engineers build the software prod-
+uct, and end users apply the software to solve 
+a speciﬁ c problem or to address a speciﬁ
+ c 
+need.   
+ 
+What is the work product? 
+  
+A computer pro-gram that runs in one or more speciﬁ c environ-
+ments and services the needs of one or more 
+
+end users.   
+ 
+How do I ensure that I’ve done it 
+right?   
+If you’re a software engineer, apply 
+the ideas contained in the remainder of this 
+
+book. If you’re an end user, be sure you un-
+
+derstand your need and your environment 
+
+and then select an application that best 
+
+meets them both. 
+  
+QUICK LOOK pre22126_ch01_001-013.indd   1pre22126_ch01_001-013.indd   113/12/13   10:00 PM13/12/13   10:00 PM

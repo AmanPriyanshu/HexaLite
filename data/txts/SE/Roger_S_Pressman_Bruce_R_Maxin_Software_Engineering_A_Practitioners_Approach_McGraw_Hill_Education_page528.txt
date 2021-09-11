@@ -1,0 +1,124 @@
+498 PART THREE  
+QUALITY MANAGEMENThardware states and variables can be controlled directly by the test engineer. 
+Tests can be conveniently speciﬁ
+ ed, automated, and reproduced. 
+   
+ 
+ 
+ 
+ 
+ 
+Decomposability.
+ 
+ “By controlling the scope of testing, we can more quickly isolate problems and perform smarter retesting.” The software system is built 
+from independent modules that can be tested independently. 
+   
+ 
+ 
+ 
+ 
+ 
+Simplicity.
+ 
+ “The less there is to test, the more quickly we can test it.” 
+The program should exhibit  functional simplicity 
+ (e.g., the feature set is 
+the minimum necessary to meet requirements);  structural simplicity 
+ (e.g., 
+architecture is modularized to limit the propagation of faults), and  code 
+simplicity 
+ (e.g., a coding standard is adopted for ease of inspection and 
+maintenance).  
+  
+ 
+ 
+ 
+ 
+ 
+Stability.
+ 
+ “The fewer the changes, the fewer the disruptions to testing.” 
+Changes to the software are infrequent, controlled when they do occur, 
+
+and do not invalidate existing tests. The software recovers well from 
+
+failures.  
+  
+ 
+ 
+ 
+ 
+ 
+Understandability.
+ 
+ “The more information we have, the smarter we will test.” The architectural design and the dependencies between internal, external, and 
+shared components are well understood. Technical documentation is instantly 
+
+accessible, well organized, speciﬁ c and detailed, and accurate. Changes to the 
+design are communicated to testers.  
+ 
+  You can use the attributes suggested by Bach to develop software work products 
+that are amenable to testing.   
+ 
+Test Characteristics.   
+And what about the tests themselves? Kaner, Falk, and 
+Nguyen [Kan93] suggest the following attributes of a “good” test:   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A good test has a high probability of ﬁ
+ nding an error.
+ 
+ To achieve this goal, the 
+tester must understand the software and attempt to develop a mental picture of 
+how the software might fail.    
+ 
+ 
+ 
+ 
+ 
+A good test is not redundant.
+ 
+ Testing time and resources are limited. There 
+is no point in conducting a test that has the same purpose as another test. Every 
+test should have a different purpose (even if it is subtly different).    
+ 
+ 
+ 
+ 
+ 
+A good test should be “best of breed”
+ 
+ [Kan93]. In a group of tests that have 
+a similar intent, time and resource limitations may dictate the execution of 
+
+only those tests that has the highest likelihood of uncovering a whole class of 
+
+errors. 
+   
+ 
+ 
+ 
+ 
+ 
+A good test should be neither too simple nor too complex. 
+ Although it is some-times possible to combine a series of tests into one test case, the possible side 
+effects associated with this approach may mask errors. In general, each test 
+should be executed separately. 
+  
+ uote:  “Errors are more 
+common, more 
+pervasive, and 
+
+more troublesome 
+in software 
+than with other 
+technologies.”  David Parnas 
+ What is 
+
+a “good” test? ?pre22126_ch23_496-522.indd   498pre22126_ch23_496-522.indd   49813/12/13   6:14 PM13/12/13   6:14 PM

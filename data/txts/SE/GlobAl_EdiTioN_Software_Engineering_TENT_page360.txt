@@ -1,0 +1,43 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜and highlights these to the programmer. Though relatively simple, analysis based 
+on common errors can be very cost-effective. Zheng and his collaborators (Zheng 
+
+et al. 2006) analyzed a large code base in C and C++. They discovered that 90% 
+
+of the errors in the programs resulted from 10 types of characteristic error.2. User-defined error checking 
+In this approach, the users of the static analyzer 
+
+define error patterns to be detected. These may relate to the application domain 
+or may be based on knowledge of the specific system that is being developed. 
+An example of an error pattern is ﬁmaintain orderingﬂ; for example, method A 
+must always be called before method B. Over time, an organization can collect 
+information about common bugs that occur in their programs and extend the 
+
+static analysis tools with error patterns to highlight these errors.3. Assertion checking 
+This is the most general and most powerful approach to 
+
+static analysis. Developers include formal assertions (often written as stylized 
+comments) in their program that state relationships that must hold at that point 
+in a program. For example, the program might include an assertion stating that 
+the value of some variable must lie in the range x..y. The analyzer symbolically 
+executes the code and highlights statements where the assertion may not hold.Static analysis is effective in finding errors in programs but, commonly, generates a 
+large number of false positives. These are code sections where there are no errors but 
+
+where the static analyzer™s rules have detected a potential for error. The number of false 
+
+positives can be reduced by adding more information to the program in the form of asser-
+tions, but this requires additional work by the developer of the code. Work has to be done 
+
+in screening out these false positives before the code itself can be checked for errors.Many organizations now routinely use static analysis in their software develop-ment processes. Microsoft introduced static analysis in the development of device Fault classStatic analysis checkData faultsVariables used before initialization
+Variables declared but never used
+Variables assigned twice but never used between assignments
+Possible array bound violations
+Undeclared variablesControl faultsUnreachable code
+Unconditional branches into loopsInput/output faultsVariables output twice with no intervening assignmentInterface faultsParameter type mismatches
+Parameter number mismatches
+Nonusage of the results of functions
+Uncalled functions and proceduresStorage management faultsUnassigned pointers
+Pointer arithmetic
+Memory leaksFigure 12.9  Automated static 
+analysis checks

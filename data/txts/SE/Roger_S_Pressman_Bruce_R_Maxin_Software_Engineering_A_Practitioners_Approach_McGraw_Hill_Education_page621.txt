@@ -1,0 +1,85 @@
+CHAPTER 27  
+SECURITY ENGINEERING 591 
+ 
+ 
+ 
+27.3.3   
+Measures Design 
+ 
+ 
+ 
+To be secure, software must exhibit three properties:  
+dependability 
+ (operates 
+under hostile conditions),  trustworthiness 
+ (system will not behave in a malicious 
+manner), and  survivability 
+ (continues to operate when compromised). 
+ 4 
+ 
+ Security 
+metrics  5 
+ 
+ and measures need to focus on assessing these properties.   Useful security metrics must be based on measures that allow developers to assess the degrees to which data conﬁ dentiality or system integrity may be at 
+risk. Three measurements that are needed to create such metrics are measures 
+of  asset value, threat likelihood,
+ 
+ and  
+system vulnerability 
+. These properties are not easy to measure directly. The cost of losing an asset may be more than the 
+
+cost of recreating it.  The best measures are those that are readily available during the devel-opment or operation of the software. The number of desk security complaints 
+
+or number of security test cases failed can provide some measures (e.g., the 
+
+number of identity theft incidents reported each month). Vulnerabilities may 
+
+not be known until attacks occur, but the number of successful attacks can be 
+
+counted. 
+  
+ 
+ 
+27.3.4   
+Correctness Checks 
+ 
+Security correctness checks need to take place throughout the software devel-opment cycle. The exposure to stakeholder assets from attacks on system vul-
+nerabilities should be determined early in the development process.   The software team then ensures that the threat model derived from the sys-tem use cases has been accounted for in the security portions of the risk mitiga-
+tion, monitoring, and management plan. Quality assurance activities include the 
+identiﬁ cation of security standards and the development of security guidelines 
+for use during modeling and construction activities. Software veriﬁ cation activi-
+ties ensure that the security test cases are complete and traceable to the system 
+security requirements.  Many of these security checks should be included in the audits, inspections, and testing activities built into the conventional software engineering tasks (Sec-
+tion 27.6). Data collected during these checks is analyzed and summarized as 
+part of the system  security case 
+ as described in Section 27.4. The  
+trust veriﬁ cation
+ 
+ process is discussed in Section 27.7.    Secure software must 
+exhibit three proper-
+ties: dependability, 
+
+trustworthiness, and 
+
+survivability. 
+  
+ 
+ uote:  “In theory, one 
+can build provably 
+secure systems. 
+In theory, theory 
+
+can be applied 
+to practice but in 
+practice, it can’t.”  M. Dacie 
+  
+4   https://buildsecurityin.us-cert.gov 
+   
+5  
+ Metrics 
+ are a quantitative indicator of the degree to which a system component or processes 
+possess a given attribute. Good metrics meet the SMART (i.e., speciﬁ
+ c, measurable, attainable, 
+repeatable, and time-dependent) criteria. Metrics are typically derived from measurements 
+using statistical techniques to uncover the relationships. Additional discussion on metrics and 
+measurements appears in Chapter 30.  pre22126_ch27_584-600.indd   591pre22126_ch27_584-600.indd   59116/12/13   6:23 PM16/12/13   6:23 PM

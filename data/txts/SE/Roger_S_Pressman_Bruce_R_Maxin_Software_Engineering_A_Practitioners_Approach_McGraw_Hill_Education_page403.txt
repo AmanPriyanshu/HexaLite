@@ -1,0 +1,71 @@
+CHAPTER 17  
+WEBAPP DESIGN 373and then store sensitive customer information. For these and many 
+other reasons, WebApp security is paramount in many situations. The 
+
+key measure of security is the ability of the WebApp and its server en-
+
+vironment to rebuff unauthorized access and/or thwart an outright 
+
+malevolent attack. Security engineering is discussed in Chapter 27. 
+
+For additional information on WebApp see [Web13], [Pri10], [Vac06], 
+
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Availability. 
+  Even the best WebApp will not meet users’ needs if it is un-
+available. In a technical sense, availability is the measure of the percent-
+age of time that a WebApp is available for use. But Offutt [Off02] suggests 
+
+that “using features available on only one browser or one platform” makes 
+the WebApp unavailable to those with a different browser/platform conﬁ
+ g-
+uration. The user will invariably go elsewhere.    
+ 
+ 
+ 
+ 
+ 
+Scalability. 
+  Can the WebApp and its server environment be scaled 
+to handle 100, 1,000, 10,000, or 100,000 users? Will the WebApp and 
+
+the systems with which it is interfaced handle signiﬁ cant variation in 
+volume or will responsiveness drop dramatically (or cease altogether)? 
+
+It is important to design a WebApp that can accommodate the burden 
+
+of success (i.e., signiﬁ cantly more end users) and become even more 
+successful. 
+   
+ 
+ 
+ 
+ 
+ 
+Time-to-Market. 
+  Although time-to-market is not a true quality attribute 
+in the technical sense, it is a measure of quality from a business point of 
+view. The ﬁ
+ rst WebApp to address a speciﬁ
+ c market segment often cap-
+tures a disproportionate number of end users.  Web
+applicationqualityUsabilityGlobal site understandabilityOnline feedback and help featuresInterface and aesthetic features
+
+Special featuresSearching and retrieving capabilityNavigation and browsing featuresApplication domain-related featuresCorrect link processingError recovery
+User input validation and recovery
+Ease of correctionAdaptabilityExtensibilityResponse time performance
+Page generation speedGraphics generation speedFunctionalityReliabilityEfficiencyMaintainability  
+FIGURE 17.1 
+Quality requirements 
+
+tree. 
+ 
+ 
+   
+Source: [Ols99].  pre22126_ch17_371-390.indd   373pre22126_ch17_371-390.indd   37313/12/13   6:13 PM13/12/13   6:13 PM

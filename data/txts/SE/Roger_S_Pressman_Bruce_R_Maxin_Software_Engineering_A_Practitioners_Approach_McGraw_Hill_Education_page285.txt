@@ -1,0 +1,71 @@
+CHAPTER 13  
+ARCHITECTURAL DESIGN 255 
+ 
+ 
+•  The architecture highlights early design decisions that will have a pro-found impact on all software engineering work that follows.   
+ 
+ 
+•  Architecture “constitutes a relatively small, intellectually graspable model of how the system is structured and how its components work together” 
+[Bas03].  
+ 
+  The architectural design model and the architectural patterns contained within it are transferable. That is, architecture genres, styles, and patterns 
+ (Sections 13.2 through 13.6) can be applied to the design of other systems and represent a set of abstractions that enable software engineers to describe archi-
+tecture in predictable ways.  
+ 
+ 
+  
+ 
+ 
+ 
+13.1.3  Architectural Descriptions 
+ 
+Each of us has a mental image of what the word  architecture
+ 
+ means. The im-
+plication is that different stakeholders will see an architecture from different 
+viewpoints that are driven by different sets of concerns. This implies that an 
+ architectural description is actually a set of work products that reﬂ ect different 
+views of the system.  Smolander, Rossi, and Purao [Smo08] have identiﬁ
+ ed multiple metaphors, 
+representing different views of the same architecture, that stakeholders use to 
+understand the term  software architecture
+ 
+. The  blueprint metaphor 
+ seems to be 
+most familiar to the stakeholders who write programs to implement a system. 
+Developers regard architecture descriptions as a means of transferring explicit 
+information from architects to designers to software engineers charged with 
+producing the system components. The  language metaphor 
+ views architecture 
+as a facilitator of communication across stakeholder groups. This view is pre-
+ferred by stakeholders with a high customer focus (e.g., managers or marketing 
+experts). The architectural description needs to be concise and easy to under-
+
+stand since it forms the basis for negotiation particularly in determining system 
+boundaries.  The  decision metaphor 
+ represents architecture as the product of decisions 
+involving trade-offs among properties such as cost, usability, maintainability, 
+
+and performance. Each of these properties can have a signiﬁ cant impact on 
+the system design. Stakeholders (e.g., project managers) view architectural 
+
+decisions as the basis for allocating project resources and work tasks. These 
+
+decisions may affect the sequence of tasks and the structure of the software 
+
+team. The  literature metaphor
+ 
+ is used to document architectural solutions 
+constructed in the past. This view supports the construction of artifacts and 
+
+the transfer of knowledge between designers and software maintenance staff. 
+
+It also supports stakeholders whose concern is reuse of components and 
+
+designs. 
+   The architectural model 
+provides a Gestalt 
+view of the system, 
+allowing the software 
+engineer to examine it 
+as a whole. pre22126_ch13_252-284.indd   255pre22126_ch13_252-284.indd   25513/12/13   6:12 PM13/12/13   6:12 PM

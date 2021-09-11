@@ -1,0 +1,55 @@
+750 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+cost $450,000. A “simple” development effort is estimated to cost $380,000. The expected value for cost, computed along any branch of the decision tree, isExpected cost 5 S (path probability) i 
+ 3 (estimated path cost) i 
+  where  i 
+ is the decision tree path. For the build path,Expected costbuild 5 0.30 ($380K) 1 0.70 ($450K) 5 $429K  Following other paths of the decision tree, the projected costs for reuse, purchase, and contract, under a variety of circumstances, are also shown. The 
+expected costs for these paths areExpected costreuse 5 0.40 ($275K) 1 0.60 [0.20 ($310K) 1 0.80 ($490K)] 5 $382KExpected costbuy 5 0.70 ($210K) 1 0.30 ($400K) 5 $267KExpected costcontract 5 0.60 ($350K) 1 0.40 ($500K) 5 $410K  Based on the probability and projected costs that have been noted in   
+Figure 33.5  
+, the lowest expected cost is the “buy” option.  It is important to note, however, that many criteria—not just cost— must be 
+considered during the decision-making process. Availability, experience of the 
+
+developer/vendor/contractor, conformance to requirements, local “politics,” 
+
+and the likelihood of change are but a few of the criteria that may affect the ulti-
+mate decision to build, reuse, buy, or contract. 
+  
+ 
+ 
+33.10.2   
+Outsourcing 
+ 
+Sooner or later, every company that develops computer software asks a funda-
+mental question: “Is there a way that we can get the software and systems we 
+need at a lower price?” The answer to this question is not a simple one, and the 
+emotional discussions that occur in response to the question always lead to a 
+single word:  outsourcing.
+ 
+  In concept, outsourcing is extremely simple. Software engineering activities are contracted to a third party who does the work at lower cost and, hopefully, 
+
+higher quality. Software work conducted within a company is reduced to a con-
+
+tract management activity.
+  
+15 
+ 
+ 
+ 
+ 
+ 
+  The decision to outsource can be either strategic or tactical. At the strategic level, business managers consider whether a signiﬁ cant portion of all software 
+work can be contracted to others. At the tactical level, a project manager deter-
+
+mines whether part or all of a project can be best accomplished by subcontract-
+ing the software work.   
+ 
+ uote:  “As a rule 
+outsourcing 
+requires even 
+more skillful 
+management 
+than in-house 
+development.”  Steve McConnell 
+  
+15  Outsourcing can be viewed more generally as any activity that leads to the acquisition of soft-
+ware or software components from a source outside the software engineering organization. pre22126_ch33_727-753.indd   750pre22126_ch33_727-753.indd   75013/12/13   6:17 PM13/12/13   6:17 PM

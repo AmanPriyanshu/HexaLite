@@ -1,0 +1,47 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜Once a system has been completely integrated, it is possible to test for emergent 
+properties, such as performance and reliability. Performance tests have to be 
+
+designed to ensure that the system can process its intended load. This usually 
+
+involves running a series of tests where you increase the load until the system perfor-
+mance becomes unacceptable.As with other types of testing, performance testing is concerned both with dem-onstrating that the system meets its requirements and discovering problems and 
+
+defects in the system. To test whether performance requirements are being achieved, 
+you may have to construct an operational profile. An operational profile (see Chapter 11) 
+is a set of tests that reflect the actual mix of work that will be handled by the system. 
+Therefore, if 90% of the transactions in a system are of type A, 5% of type B, and the 
+remainder of types C, D, and E, then you have to design the operational profile so 
+that the vast majority of tests are of type A. Otherwise, you will not get an accurate 
+
+test of the operational performance of the system.This approach, of course, is not necessarily the best approach for defect testing. Experience has shown that an effective way to discover defects is to design tests 
+
+around the limits of the system. In performance testing, this means stressing the sys-
+tem by making demands that are outside the design limits of the software. This is 
+known as stress testing.Say you are testing a transaction processing system that is designed to process up 
+to 300 transactions per second. You start by testing this system with fewer than 
+
+300˜transactions per second. You then gradually increase the load on the system 
+
+beyond 300 transactions per second until it is well beyond the maximum design load 
+of the system and the system fails.Stress testing helps you do two things:1.
+ Test the failure behavior of the system. Circumstances may arise through an 
+
+unexpected combination of events where the load placed on the system exceeds 
+the maximum anticipated load. In these circumstances, system failure should 
+
+not cause data corruption or unexpected loss of user services. Stress testing 
+
+checks that overloading the system causes it to ﬁfail-softﬂ rather than collapse 
+under its load.2. Reveal defects that only show up when the system is fully loaded. Although it can 
+
+be argued that these defects are unlikely to cause system failures in normal use, there 
+
+may be unusual combinations of circumstances that the stress testing replicates.Stress testing is particularly relevant to distributed systems based on a network of processors. These systems often exhibit severe degradation when they are heavily 
+
+loaded. The network becomes swamped with coordination data that the different 
+
+processes must exchange. The processes become slower and slower as they wait for 
+the required data from other processes. Stress testing helps you discover when the 
+degradation begins so that you can add checks to the system to reject transactions 
+beyond this point.

@@ -1,0 +1,69 @@
+844 Chapter 13  
+Emerging Topics
+Israel and SyriaMissiles fired in 2007 by Israeli planes did not show up on Syrian radar screens because 
+software had replaced live images with fake, benign ones. But attribution is tenta-
+
+tive; here is an example of how the attack is described: “From what journalists have 
+
+discerned, Israel jammed Syrian radar and other defenses, allowing sufficient time 
+
+to launch the strike undetected. During the attack, cyber tactics appeared to involve 
+
+remote air-to-ground electronic attack and network penetration of Syria’s command-
+
+and-control systems.” [MIL10]
+But the network was not just disabled. “[Analysts] contend that network penetration 
+involved both remote air-to-ground electronic attack and penetration through computer-
+
+to-computer links.” Fulghum et al. [FUL07b] refer to an analyst describing spoofs of 
+
+the Syrian command and control capability, done through a network attack. Fulghum 
+
+[FUL07c] then described a technology likely used in this attack: “The technology 
+
+allows users to invade communications networks, see what enemy sensors see and even 
+
+take over as systems administrator so sensors can be manipulated into positions so that 
+
+approaching aircraft can’t be seen, they say. The process involves locating enemy emit-
+
+ters with great precision and then directing data streams into them that can include 
+
+false targets and misleading messages [and] algorithms that allow a number of activities 
+
+including control.” 
+In short, not only did the Israelis presumably intercept or block signals, but they also 
+inserted signals of their own into the air defense network. Envision an air defense screen 
+
+that shows an empty sky while enemy jets are racing through the air.
+CanadaIn January 2011, the Canadian government revealed that several of its national depart-
+ments had been the victims of a cyber attack: the Treasury Board, the Finance Depart-
+
+ment, and Defence Research and Development Canada. Ian Austen [AUS11] reported 
+
+that the departments had little or no Internet access for two months. “The breaches were 
+
+traced back to computer servers in China although there is no way of knowing whether 
+
+those who perpetrated the attacks were actually in China or simply routing the attacks 
+through China to cover their tracks.” (http://www.cbc.ca/news/world/story/2011/02/17/
+
+f-cyberattack-pradeep-khosla.html) 
+It was suspected that the target of the attacks was the confidentiality of the Canadian 
+budget. In Canada, the federal budget is proposed by the prime minister; after it is pre-
+
+sented to the Parliament, it is accepted as is—no debates, no changes. For this reason, 
+
+the proposed budget is kept under wraps, and it is thought that the attackers were trying 
+
+to reveal its details.
+The perpetrators appear to have used two kinds of attacks, both involving social 
+engineering. First, using “executive spear phishing,” they took control of computers 
+
+belonging to senior officials in the affected departments. Then, they generated messages 
+
+to the departments’ IT support system, appearing to be from the officials, so that they 
+
+could obtain passwords to key systems.
+Second, the attackers sent email messages, purportedly from the officials, with PDF 
+files attached. When the recipients opened these files, hidden programs were launched 

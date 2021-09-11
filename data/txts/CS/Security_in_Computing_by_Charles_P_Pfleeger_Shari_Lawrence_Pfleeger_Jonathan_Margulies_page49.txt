@@ -1,0 +1,44 @@
+ Section 1.2  Threats 
+15  Advanced Persistent Threat
+Security experts are becoming increasingly concerned about a type of threat called 
+advanced persistent threat
+. A lone attacker might create a random attack that snares a 
+few, or a few million, individuals, but the resulting impact is limited to what that single 
+
+attacker can organize and manage. A collection of attackers—think, for example, of the 
+
+cyber equivalent of a street gang or an organized crime squad—might work together to 
+
+purloin credit card numbers or similar financial assets to fund other illegal activity. Such 
+
+attackers tend to be opportunistic, picking unlucky victims’ pockets and moving on to 
+
+other activities.
+Advanced persistent threat attacks come from organized, well financed, patient 
+assailants. Often affiliated with governments or quasi-governmental groups, these 
+
+attackers engage in long term campaigns. They carefully select their targets, crafting 
+
+attacks that appeal to specifically those targets; email messages called spear phishing 
+
+(described in Chapter 4) are intended to seduce their recipients. Typically the attacks 
+
+are silent, avoiding any obvious impact that would alert a victim, thereby allowing the 
+
+attacker to exploit the victim’s access rights over a long time.
+The motive of such attacks is sometimes unclear. One popular objective is economic 
+espionage. A series of attacks, apparently organized and supported by the Chinese gov-
+
+ernment, was used in 2012 and 2013 to obtain product designs from aerospace com-
+
+panies in the United States. There is evidence the stub of the attack code was loaded 
+
+into victim machines long in advance of the attack; then, the attackers installed the 
+
+more complex code and extracted the desired data. In May 2014 the Justice Department 
+
+indicted five Chinese hackers in absentia for these attacks.
+ThreatsNaturalcausesBenignintentMaliciousintentRandomExamples: Fire,power failureHumancausesExample:
+Impersonation DirectedExample: Maliciouscode on a general
+web site Example:
+Human error FIGURE 1-9 Kinds of Threats

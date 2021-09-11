@@ -1,0 +1,66 @@
+230 Chapter 3  
+Programs and Programming4. A program is written to compute the sum of the integers from 1 to 10. The programmer, well 
+trained in reusability and maintainability, writes the program so that it computes the sum of 
+
+the numbers from k to n. However, a team of security specialists scrutinizes the code. The 
+
+team certifies that this program properly sets k to 1 and n to 10; therefore, the program is 
+
+certified as being properly restricted in that it always operates on precisely the range 1 to 10. 
+
+List different ways that this program can be sabotaged so that during execution it computes a 
+
+different sum, such as 3 to 20.
+5. One way to limit the effect of an untrusted program is confinement: controlling what pro-
+cesses have access to the untrusted program and what access the program has to other pro-
+
+cesses and data. Explain how confinement would apply to the earlier example of the program 
+
+that computes the sum of the integers 1 to 10.
+6. List three controls that could be applied to detect or prevent off-by-one errors.
+7. The distinction between a covert storage channel and a covert timing channel is not clearcut. 
+Every timing channel can be transformed into an equivalent storage channel. Explain how 
+
+this transformation could be done.8. List the limitations on the amount of information leaked per second through a covert channel 
+in a multiaccess computing system.9. An electronic mail system could be used to leak information. First, explain how the leakage 
+could occur. Then, identify controls that could be applied to detect or prevent the leakage.
+10. Modularity can have a negative as well as a positive effect. A program that is overmodular-
+ized performs its operations in very small modules, so a reader has trouble acquiring an 
+
+overall perspective on what the system is trying to do. That is, although it may be easy to 
+
+determine what individual modules do and what small groups of modules do, it is not easy to 
+
+understand what they do in their entirety as a system. Suggest an approach that can be used 
+
+during program development to provide this perspective.
+11. You are given a program that purportedly manages a list of items through hash coding. The 
+program is supposed to return the location of an item if the item is present or to return 
+
+the location where the item should be inserted if the item is not in the list. Accompanying 
+
+the program is a manual describing parameters such as the expected format of items in the 
+
+table, the table size, and the specific calling sequence. You have only the object code of this 
+
+program, not the source code. List the cases you would apply to test the correctness of the 
+
+program’s function.
+12. You are writing a procedure to add a node to a doubly linked list. The system on which this 
+procedure is to be run is subject to periodic hardware failures. The list your program is to 
+
+maintain is of great importance. Your program must ensure the integrity of the list, even if the 
+
+machine fails in the middle of executing your procedure. Supply the individual statements 
+
+you would use in your procedure to update the list. (Your list should be fewer than a dozen 
+
+statements long.) Explain the effect of a machine failure after each instruction. Describe how 
+
+you would revise this procedure so that it would restore the integrity of the basic list after a 
+
+machine failure.
+13. Explain how information in an access log could be used to identify the true identity of an 
+impostor who has acquired unauthorized access to a computing system. Describe several 
+
+different pieces of information in the log that could be combined to identify the impostor.

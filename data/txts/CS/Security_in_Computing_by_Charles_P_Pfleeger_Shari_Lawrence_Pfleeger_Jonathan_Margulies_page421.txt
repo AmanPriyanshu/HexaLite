@@ -1,0 +1,74 @@
+ Section 6.3  Wireless Network Security 
+387  connecting, the wireless interface software builds a list of favorite connection points 
+(home, school, office) to which it will try to connect automatically. There is usually 
+
+no confusion, because these networks will have distinct names (actually SSIDs): Your 
+
+computer will connect automatically to the WestHallDorm network. 
+Consider, however, free WiFi access. Coffee shops, bookstores, airports, and munici-
+palities offer this service, and some network administrators want to make it easy for 
+
+patrons by naming the service FreeWiFi. If you instruct your software (or in some cases 
+
+if you don’t instruct your software not to), it will save FreeWiFi as an access point to 
+
+which it will connect automatically any time it sees that SSID in the future. Unfortu-
+
+nately, the name of an SSID is not bound to any physical characteristic: Your computer 
+
+does not distinguish between FreeWiFi as an access point at your coffee shop or a rogue 
+
+point in a strange city intended to lure unsuspecting visitors to that region. Your com-
+
+puter will continue to search for an access point with SSID FreeWiFi and connect to any 
+
+such point it finds. Although the main weakness here is the software that maintains the 
+
+list of preferred access points for automatic connection, the protocol is also at fault for 
+
+not ensuring a unique connection point identification.
+This list of vulnerabilities in wireless networks is long, which should tell you that 
+wireless communication is difficult to secure. Alas, WiFi security has been problematic 
+
+almost from its inception, as you can see as we move from vulnerabilities to counter-
+
+measures. In this chapter we consider two instances of the same kind of countermea-
+
+sure: protocols. The first protocol suite was introduced along with the other protocols 
+
+defining wireless communication; the second protocol suite was a replacement for what 
+
+was almost from the beginning found to be marginally effective at best. Thus, we denote 
+
+these as one failed countermeasure and one improved but not perfect countermeasure. 
+
+We describe the failure first.
+Firesheep makes the process user friendly. As it is scanning the net-
+work, it picks out popular social sites, for example, Facebook, picks up 
+
+user names and even pictures and displays those on the screen. Click on a 
+
+photo and you are logged in as that user. The countermeasure, encryption, 
+
+is infrequently applied by these sites (although most financial institutions do 
+
+encrypt the entire session, so your banking transactions are probably not 
+
+exposed by Firesheep). Says the extension’s author, Eric Butler [BUT10]: 
+Websites have a responsibility to protect the people who depend on their ser-
+vices. [Sites] have been ignoring that responsibility for too long, and it’s time for 
+
+everyone to demand a more secure web. My hope is that Firesheep will help 
+
+the users win.Indeed, three weeks after Butler released Firesheep in October 2010 
+with a demonstration in San Diego at the ToorCon security conference, 
+
+Microsoft announced that it was adding full session encryption (SSL, which 
+
+we explain later in this chapter) to its Hotmail web-based email program. 
+
+After years of prodding, the popular web-based email and social network-
+
+ing sites now use full session encryption. Still, new, unprotected sites are 
+
+brought online every day.

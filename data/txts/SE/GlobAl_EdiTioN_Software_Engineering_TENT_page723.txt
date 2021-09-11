@@ -1,0 +1,51 @@
+˜˜˚˛ˆ˜˜˜˜˜˜
+answer these questions defined. Measurements that are not directly relevant to these questions need not be collected.2. Select components to be assessed 
+You may not need to assess metric values for 
+
+all of the components in a software system. Sometimes you can select a repre-
+sentative selection of components for measurement, allowing you to make an 
+
+overall assessment of system quality. At other times, you may wish to focus on 
+
+the core components of the system that are in almost constant use. The quality 
+
+of these components is more important than the quality of components that are 
+infrequently executed.3. Measure component characteristics The selected components are measured, 
+
+and the associated metric values are computed. This step normally involves pro-
+cessing the component representation (design, code, etc.) using an automated 
+
+data collection tool. This tool may be specially written or may be a feature of 
+design tools that are already in use.4. Identify anomalous measurements After the component measurements have 
+
+been made, you then compare them with each other and to previous measure
+-
+ments that have been recorded in a measurement database. You should look for 
+unusually high or low values for each metric, as these suggest that there could 
+be problems with the component exhibiting these values.5. Analyze anomalous components When you have identified components that 
+
+have anomalous values for your chosen metrics, you should examine them to 
+
+decide whether or not these anomalous metric values mean that the quality of 
+
+the component is compromised. An anomalous metric value for complexity 
+
+(say) does not necessarily mean a poor-quality component. There may be 
+
+some other reason for the high value, so there may not be any component 
+
+quality problems.If possible, you should maintain all collected data as an organizational 
+resource and keep historical records of all projects even when data has not been 
+
+used during a particular project. Once a sufficiently large measurement database 
+
+has been established, you can then make comparisons of software quality across 
+
+projects and validate the relations between internal component attributes and 
+
+quality characteristics.Measure
+componentcharacteristicsIdentifyanomalousmeasurements
+Analyze
+anomalouscomponentsSelectcomponents tobe assessedChoosemeasurements
+to be madeFigure 24.13 The process of product 
+measurement

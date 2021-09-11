@@ -1,0 +1,76 @@
+CHAPTER 28  
+FORMAL MODELING AND VERIFICATION
+ 615 
+ 
+ 
+ 
+ 
+ 
+ 
+ 28.6  
+FORMAL METHODS CONCEPTS  
+ 
+ 
+The Encyclopedia of Software Engineering
+ 
+ [Mar01] deﬁ
+ nes formal methods in the 
+following manner:  
+Formal methods used in developing computer systems are mathematically based techniques for describing system properties. Such formal methods provide frame-
+works within which people can specify, develop, and verify systems in a systematic, 
+
+rather than ad hoc manner. 
+ 
+  
+ 
+ 
+The desired properties of a formal speciﬁ cation are the objectives of all spec-
+iﬁ cation methods. However, the mathematically based speciﬁ
+ cation language 
+used for formal methods results in a much higher likelihood of achieving these 
+properties. The formal syntax of a speciﬁ cation language (Appendix 3) enables 
+requirements or design to be interpreted in only one way, eliminating ambiguity 
+
+that often occurs when a natural language (e.g., English) or a graphical notation 
+(e.g., UML) must be interpreted by a reader. The descriptive facilities of set the-
+
+ory and logic notation enable a clear statement of requirements. To be consistent, 
+
+requirements stated in one place in a speciﬁ cation should not be contradicted in 
+another place. Consistency is achieved  10 
+ 
+ by mathematically proving that initial 
+facts can be formally mapped (using inference rules) into later statements within 
+the speciﬁ cation. 
+  To introduce basic formal methods concepts, let’s consider a few simple exam-
+ples to illustrate the use of mathematical speciﬁ cation, without getting bogged 
+down in too much mathematical detail.   
+ 
+ 
+  
+ 
+Example 1: A symbol table.   A program is used to maintain a symbol table. Such a table is used frequently in many different types of applications. It consists of a 
+collection of items without any duplication. An example of a typical symbol table 
+is shown in  Figure 28.7 . It represents the table used by an operating system to hold the names of the users of the system. Other examples of tables include the 
+collection of names of staff in a payroll system, the collection of names of comput-
+ers in a network communications system, and the collection of destinations in a 
+system for producing transportation timetables.  
+ 
+ 
+ 
+  Assume that the table presented in this example consists of no more than  MaxIds 
+ names. This statement, which places a constraint on the table, is a com-
+ponent of a condition known as a  data invariant 
+. A data invariant is a condition that is true throughout the execution of the system that contains a collection     A formal speciﬁ cation 
+should have consis-
+tency, completeness, 
+
+and lack of ambiguity.  
+  
+10  In reality, completeness is difﬁ
+ cult to ensure, even when formal methods are used. Some 
+aspects of a system may be left undeﬁ ned as the speciﬁ
+ cation is being created; other char-
+acteristics may be purposely omitted to allow designers some freedom in choosing an imple-
+mentation approach; and ﬁ nally, it is impossible to consider every operational scenario in a 
+large, complex system. Things may simply be omitted by mistake. pre22126_ch28_601-622.indd   615pre22126_ch28_601-622.indd   61513/12/13   6:15 PM13/12/13   6:15 PM

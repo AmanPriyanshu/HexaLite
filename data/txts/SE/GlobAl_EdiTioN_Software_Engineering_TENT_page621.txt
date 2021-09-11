@@ -1,0 +1,27 @@
+˜˜˚˛˜˜˜˜˜˜˜˜˜˜
+These architectural patterns should be the starting point for an embedded systems design; however, they are not design templates. If you use them as such, you will probably end up with an inefficient process architecture. You have to optimize the 
+
+process structure to ensure that you do not have too many processes. You also should 
+ensure that there is a clear correspondence between the processes and the sensors 
+
+and actuators in the system.Monitoring systems are an important class of embedded real-time systems. A moni-
+toring system examines its environment through a set of sensors and usually displays 
+the state of the environment in some way. This could be on a built-in screen, on 
+
+special-purpose instrument displays, or on a remote display. If the system detects 
+
+some exceptional event or sensor state, the monitoring system takes some action. 
+NameObserve and ReactDescriptionThe input values of a set of sensors of the same types are 
+collected and analyzed. These values are displayed in some 
+way. If the sensor values indicate that some exceptional 
+condition has arisen, then actions are initiated to draw the 
+operator™s attention to that value and, if necessary, take actions 
+in response to the exceptional value.StimuliValues from sensors attached to the system.ResponsesOutputs to display, alarm triggers, signals to reacting systems.ProcessesObserver, Analysis, Display, Alarm, Reactor.Used inMonitoring systems, alarm systems.Figure 21.6 The Observe and React 
+patternAnalysisprocess
+ObserverprocessReactor process
+Alarmprocess
+Sensorvalues
+Displayprocess
+Displayvalues
+DisplaySensorsAlarmOther equipmentFigure 21.7 The Observe and React 
+process structure 

@@ -1,0 +1,66 @@
+432 Chapter 6  
+NetworksThis attack is also the final piece in our analysis of security threats and vulnerabili-
+ties to computer networks. This part has touched all three elements of the C-I-A triad, 
+
+with eavesdropping and masquerading (attacks on confidentiality), data corruption and 
+
+replay (integrity), and denial of service (availability). The section on WiFi networking 
+
+showed vulnerabilities that can lead to failures of each of the three. That section also 
+
+demonstrated that even carefully-developed standards can exhibit serious security flaws.
+You may have concluded at this point that the number, breadth, and severity of net-
+work security threats and vulnerabilities make a hopeless situation: Coping with all the 
+
+problems is impossible. Keep in mind that Part I of this chapter raises threats, whereas 
+
+the upcoming Part II shows the defender’s arsenal of countermeasures. Do not dispair; 
+
+reinforcements are available.
+However, your concern is well placed. As in many other aspects of security, offense 
+and defense play a cat-and-mouse game: The offensive side creates a new attack (which 
+
+might be a variation on an old attack), to which the defense responds. Defense often 
+
+plays a catch-up game, meaning that many defensive actions are in response to an offen-
+
+sive move. Fortunately, researchers and developers continue to seek new ways to thwart 
+
+attackers.
+We now investigate safeguards for computer networks.
+PART II—STRATEGIC DEFENSES: SECURITY COUNTERMEASURES
+In the rest of this chapter we consider three categories of controls: First, as you can 
+
+well imagine, the familiar control of encryption is a strong tool for preserving both 
+
+confidentiality and integrity in networks. We describe architecturally how encryption 
+
+can be used and then introduce two specific applications of cryptography to networking: 
+
+encrypted communication between a browser and its websites, called SSL encryption, 
+
+and encrypted links within a network, called a virtual private network or VPN. Then we 
+
+introduce a network-protection tool called a firewall, which is really just an instantia-
+
+tion of the familiar reference monitor. We end the study of controls with another device, 
+
+called an intrusion detection or protection system, that monitors network traffic to iden-
+
+tify and counter specific malicious network threats.
+6.6 CRYPTOGRAPHY IN NETWORK SECURITY
+Recall from Chapter 2 that there are two broad classes of encryption: symmetric (secret 
+
+key) and asymmetric (public key) systems. The first of those is the cryptographic work-
+
+horse, used for bulk encryption of large quantities of data. That description perfectly 
+
+fits network traffic, and that is exactly how it is used. The second class of cryptographic 
+
+algorithms excels at establishing a trustworthy relationship between two parties who 
+
+may not previously have had one, which also applies naturally in a networking situa-
+
+tion. In this section we describe how those two approaches can provide security strength 
+
+in a network.

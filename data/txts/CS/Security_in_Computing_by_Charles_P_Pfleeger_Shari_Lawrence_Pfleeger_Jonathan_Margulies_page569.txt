@@ -1,0 +1,60 @@
+ Section 7.5  Data Mining and Big Data 
+535  that given the distribution of data after perturbation and given the distribution of added 
+errors, a researcher can determine the distribution (
+not the values) of the underlying data. 
+The underlying distribution is often what researchers want. This result demonstrates that 
+
+data perturbation can help protect privacy without sacrificing the accuracy of results.
+Swapping Correlation involves joining databases on common fields. Thus, the ID number in the 
+
+AOL queries of Sidebar 7-4 lets researchers combine queries to derive one user’s name 
+
+and hometown. That act of joining or linking permits researchers to draw conclusions 
+
+by inference.To counter this kind of linking, some database administrators randomly perturb the 
+data. The sex for Bailey and Chin might be interchanged, as might the race of Dewitt 
+
+and Earhart. The count of individuals with these values would still be correct. Total aid 
+
+for all males would be off by a bit. In this tiny example, these changes could affect the 
+
+results significantly. However, if we had a larger database and performed just a few 
+
+interchanges, most statistics would be close, probably close enough for most analytic 
+
+purposes. Researchers could be warned that to protect confidentiality some exact data 
+
+might be compromised. A researcher might conclude that Adams was receiving 5000 in 
+
+aid, but could not be sure that conclusion was accurate because of the data swapping.
+Thus, swapping, like perturbation, might be a reasonable compromise between data 
+accuracy and disclosure. We examine this subject as a privacy consideration  in more 
+
+detail in Chapter 9.Query AnalysisA more complex form of security uses query analysis. Here, a query and its implications 
+are analyzed to determine whether a result should be provided. As noted earlier, query anal-
+
+ysis can be quite difficult. One approach involves maintaining a query history for each user 
+
+and judging a query in the context of what inferences are possible, given previous results.
+We have presented some of the techniques by which a database management sys-
+tem balances use and access control. In other areas, such as operating systems, access 
+control is binary: Access is either granted to or denied to an object. However, database 
+
+management systems try to take a more nuanced approach; a strict yes/no approach 
+
+would lead either to extreme limitation of access (if there is one sensitive record out of 
+
+a million, access to the entire database could be blocked) or extreme laxness of access 
+
+(access is allowed in spite of the potential for inference or aggregation). Thus, database 
+
+management systems and their administrators try to find a reasonable middle ground.
+Next we turn to use of databases in what are called data mining and big data.
+7.5 DATA MINING AND BIG DATA
+In this final section we consider two related topics. The first, data mining, involves 
+
+people and programs that search and sift datasets to derive data. Yes, you counter, that 
+
+is what databases are for and what we have considered throughout the rest of this chap-
+
+ter. Data mining, however, implies searching for patterns and connections that were 

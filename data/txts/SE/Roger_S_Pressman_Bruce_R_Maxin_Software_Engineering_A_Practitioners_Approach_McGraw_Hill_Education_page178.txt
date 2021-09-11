@@ -1,0 +1,84 @@
+148 PART TWO  
+MODELINGdeﬁ ne requirements. Each of these work products is reviewed by all people who 
+have participated in requirements elicitation.   
+ 
+8.3.5  Agile Requirements Elicitation 
+ 
+ 
+ 
+  
+ 
+Within the context of an agile process, requirements are elicited by asking all 
+stakeholders to create  user stories 
+. Each user story describes a simple system requirement written from the user’s perspective. User stories can be written on 
+
+small note cards, making it easy for developers to select and manage a subset of 
+requirements to implement for the next product increment. Proponents claim 
+that using note cards written in the user’s own language allows developers to 
+
+shift their focus to communication with stakeholders on the selected require-
+ments rather than their own agenda [Mai10a].  Although the agile approach to requirements elicitation is attractive for many software teams, critics argue that a consideration of overall business goals and 
+nonfunctional requirements is often lacking. In some cases, rework is required 
+to accommodate performance and security issues. In addition, user stories may 
+not provide a sufﬁ cient basis for system evolution over time 
+ 
+ 
+ 
+ 8.3.6  Service-Oriented Methods 
+ 
+Service-oriented development views a system as an aggregation of services. A  service 
+ can be “as simple as providing a single function, for example, a request/
+response-based mechanism that provides a series of random numbers, or can be 
+an aggregation of complex elements, such as the Web service API” [Mic12]. 
+ 
+ 
+ 
+   
+Requirements elicitation in service-oriented development focuses on the deﬁ nition of services to be rendered by an application. As a metaphor, consider 
+the service provided when you visit a ﬁ ne hotel. A doorperson greets guests. A 
+valet parks their cars. The desk clerk checks the guests in. A bellhop manages 
+the bags. The concierge assists guest with local arrangements. Each contact or 
+ touchpoint 
+ between a guest and a hotel employee is designed to enhance the 
+hotel visit and represents a service offered.  
+ 
+ 
+   
+Most service design methods emphasize understanding the customer, think-
+ing creatively, and building solutions quickly [Mai10b]. To achieve these goals, 
+
+requirements elicitation can include ethnographic studies,  
+11 
+ 
+ innovation work-
+shops, and early low-ﬁ delity prototypes. Techniques for eliciting requirements 
+must also acquire information about the brand and the stakeholders’ percep-
+tions of it. In addition to studying how the brand is used by customers, analysts 
+need strategies to discover and document requirements about the desired quali-
+ties of new user experiences. User stories are helpful in this regard.    User stories are the 
+way to document 
+requirements elicited 
+from customers in agile 
+process models.  What is a 
+
+ service
+  in 
+the context of 
+service-oriented 
+
+methods? ?   Requirements elicita-
+
+tion for service-oriented 
+
+methods ﬁ nes services 
+
+render by an app. A 
+ touchpoint  represents 
+an opportunity for the 
+
+user to interact with 
+the system to receive a 
+desired service. 
+  
+11  Studying user behavior in the environment where the proposed software product will be used. 
+pre22126_ch08_131-165.indd   148pre22126_ch08_131-165.indd   14813/12/13   6:11 PM13/12/13   6:11 PM

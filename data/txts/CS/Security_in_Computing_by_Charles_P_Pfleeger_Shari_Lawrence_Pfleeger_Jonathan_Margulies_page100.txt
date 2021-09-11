@@ -1,0 +1,72 @@
+66 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+Other familiar examples of tokens are badges and identity cards. You may have an 
+“affinity card”: a card with a code that gets you a discount at a store. Many students and 
+
+employees have identity badges that permit them access to buildings. You must have an 
+
+identity card or passport to board an airplane or enter a foreign country. In these cases 
+
+you possess an object that other people recognize to allow you access or privileges. 
+Another kind of authentication token has data to communicate invisibly. Examples 
+of this kind of token include credit cards with a magnetic stripe, credit cards with an 
+
+embedded computer chip, or access cards with passive or active wireless technology. 
+
+You introduce the token into an appropriate reader, and the reader senses values from 
+
+the card. If your identity and values from your token match, this correspondence adds 
+
+confidence that you are who you say you are.
+We describe different kinds of tokens next.
+Active and Passive Tokens
+As the names imply, 
+passive tokens
+ do nothing, and active ones take some action. A 
+photo or key is an example of a passive token in that the contents of the token never 
+
+change. (And, of course, with photos permanence can be a problem, as people change 
+hair style or color and their faces change over time.)
+An active token
+ can have some variability or interaction with its surroundings. For 
+example, some public transportation systems use cards with a magnetic strip. When 
+
+you insert the card into a reader, the machine reads the current balance, subtracts the 
+
+price of the trip and rewrites a new balance for the next use. In this case, the token is 
+
+just a repository to hold the current value. Another form of active token initiates a two-
+
+way communication with its reader, 
+
+often by wireless or radio signaling. 
+These tokens lead to the next dis-
+
+tinction among tokens, static and 
+
+dynamic interaction.Static and Dynamic Tokens
+The value of a 
+static token
+ remains fixed. Keys, identity cards, passports, credit and 
+other magnetic-stripe cards, and radio transmitter cards (called RFID devices) are 
+
+examples of static tokens. Static tokens are most useful for onsite authentication: When 
+
+a guard looks at your picture badge, the fact that you possess such a badge and that your 
+
+face looks (at least vaguely) like the picture 
+causes the guard to pass your authentication 
+and allow you access.
+We are also interested in remote authentication, that is, in your being able to prove 
+your identity to a person or computer somewhere else. With the example of the picture 
+
+badge, it may not be easy to transmit the image of the badge and the appearance of 
+
+your face for a remote computer to compare. Worse, distance increases the possibility 
+
+of forgery: A local guard could tell if you were wearing a mask, but a guard might not 
+
+detect it from a remote image. Remote authentication is susceptible to the problem of 
+the token having been forged. 
+Passive tokens do not change. Active 
+tokens communicate with a sensor.

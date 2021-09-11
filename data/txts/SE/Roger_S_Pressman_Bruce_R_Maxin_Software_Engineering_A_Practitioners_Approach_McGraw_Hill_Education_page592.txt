@@ -1,0 +1,116 @@
+562 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+25.9.2   
+Load Testing 
+ 
+ 
+ 
+ 
+ 
+ 
+The intent of load testing is to determine how the WebApp and its server-side en-
+vironment will respond to various loading conditions. As testing proceeds, per-
+
+mutations to the following variables deﬁ ne a set of test conditions:
+  
+ 
+ 
+ 
+ 
+ 
+ 
+N, 
+ number of concurrent users    
+ 
+ 
+ 
+ 
+ 
+T, 
+ number of online transactions per unit of time    
+ 
+ 
+ 
+ 
+ 
+D, 
+ data load processed by the server per transaction  
+ 
+  In every case, these variables are deﬁ ned within normal operating bounds of 
+the system. As each test condition is run, one or more of the following measures 
+are collected: average user response, average time to download a standardized 
+unit of data, or average time to process a transaction. You should examine these 
+
+measures to determine whether a precipitous decrease in performance can be 
+traced to a speciﬁ c combination of  
+N, T,
+ 
+ and  D. 
+  Load testing can also be used to assess recommended connection speeds for users of the WebApp. Overall throughput,  
+P, 
+ is computed in the following manner:
+ P 5 N 
+ 3  T 
+ 3  D 
+  As an example, consider a popular sports news site. At a given moment, 20,000 concurrent users submit a request (a transaction,  T 
+) once every 2 minutes on average. Each transaction requires the WebApp to download a new article that 
+
+averages 3K bytes in length. Therefore, throughput can be calculated as: P 
+ 5 [20,000 3 0.5 3 3Kb]/60 5 500 Kbytes/sec 5 4 megabits per second  The network connection for the server would therefore have to support this data rate and should be tested to ensure that it does.   
+ 
+ 
+25.9.3   
+Stress Testing 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Stress testing
+ 
+ is a continuation of load testing, but in this instance the variables, 
+ N, T,
+ 
+ and  
+D 
+ are forced to meet and then exceed operational limits. The intent of 
+these tests is to answer each of the following questions:  
+ 
+ 
+•  Does the system degrade “gently,” or does the server shut down as capac-
+ity is exceeded?   
+ 
+ 
+•  Does server software generate “server not available” messages? More generally, are users aware that they cannot reach the server? 
+  
+ 
+ 
+•  Does the server queue resource requests and empty the queue once ca-pacity demands diminish?   
+ 
+ 
+•  Are transactions lost as capacity is exceeded?   
+ 
+ 
+•  Is data integrity affected as capacity is exceeded?     If a WebApp uses 
+multiple servers to 
+
+provide signiﬁ cant 
+
+capacity, load testing 
+
+must be performed 
+
+in a multiserver 
+
+environment.    The intent of stress 
+
+testing is to better 
+understand how a 
+system fails as it is 
+stressed beyond its 
+operational limits. pre22126_ch25_540-566.indd   562pre22126_ch25_540-566.indd   56213/12/13   6:15 PM13/12/13   6:15 PM

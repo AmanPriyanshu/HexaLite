@@ -1,0 +1,73 @@
+72 PART ONE  
+THE SOFTWARE PROCESS
+ 
+If you have further interest, see [Hig01], [Hig02a], and [DeM02] for an enter-
+taining summary of other important technical and political issues.   
+ 
+ 
+ 
+ 
+ 
+ 5.4 E
+XTREME PROGRAMMING   
+ 
+ 
+ 
+ 
+  
+ 
+In order to illustrate an agile process in a bit more detail, we’ll provide you with an overview of  Extreme Programming
+ 
+ (XP), the most widely used approach to 
+agile software development. Although early work on the ideas and methods as-
+sociated with XP   
+occurred during the late 1980s, the seminal work on the subject has been written by Kent Beck [Bec04a]. A variant of XP, called  
+Industrial XP 
+ (IXP), reﬁ nes XP and targets the agile process speciﬁ
+ cally for use within large 
+organizations [Ker05].   
+5.4.1 The XP Process 
+ 
+Extreme Programming uses an object-oriented approach (Appendix 2) as its pre-ferred development paradigm and encompasses a set of rules and practices that 
+occur within the context of four framework activities: planning, design, coding, 
+and testing.  Figure 5.2  illustrates the XP process and notes some of the key ideas 
+and tasks that are associated with each framework activity. Key XP activities are 
+
+summarized in the paragraphs that follow. 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+Planning.   
+The planning activity (also called  the planning game 
+) begins with   
+listening 
+—a requirements gathering activity that enables the technical members  
+WebRef 
+ An award-winnng 
+ “process simulation 
+
+game” that includes 
+
+can be found at 
+  http://www.ics
+.uci.edu/~emilyo/
+SimSE/downloads
+.html  . 
+ What is an 
+XP “story”? 
+?user stories values
+
+ acceptance test criteria
+
+iteration plansimple design CRC cardsunit test continuous integrationsoftware increment project velocity computedspike solutions prototypesrefactoringpair programmingacceptance testingReleasedesigncodingplanningtest  
+FIGURE 5.2 
+The Extreme 
+Programming 
+
+process 
+ 
+ pre22126_ch05_066-086.indd   72pre22126_ch05_066-086.indd   7213/12/13   6:10 PM13/12/13   6:10 PM

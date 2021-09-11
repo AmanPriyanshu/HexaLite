@@ -1,0 +1,37 @@
+˜˜˚˝˜˜˜
+˜˜
+In the process of environmental assessment, if possible, you should ideally collect 
+data about the system and system changes. Examples of data that may be useful include 
+the costs of maintaining the system hardware and support software, the number of 
+
+hardware faults that occur over some time period and the frequency of patches and 
+
+fixes applied to the system support software.To assess the technical quality of an application system, you have to assess those factors (Figure 9.11) that are primarily related to the system dependability, the dif-
+ficulties of maintaining the system, and the system documentation. You may also 
+
+collect data that will help you judge the quality of the system such as:1. The number of system change requests System changes usually corrupt the system 
+structure and make further changes more difficult. The higher this accumulated 
+
+value, the lower the quality of the system.2. The number of user interfaces 
+This is an important factor in forms-based sys
+-
+tems where each form can be considered as a separate user interface. The more 
+
+interfaces, the more likely it is that there will be inconsistencies and redundan-
+cies in these interfaces.3. The volume of data used by the system As the volume of data (number of files, 
+size of database, etc.) processed by the system increases, so too do the inconsist-
+encies and errors in that data. When data has been collected over a long period 
+of time, errors and inconsistencies are inevitable. Cleaning up old data is a very 
+expensive and time-consuming process.FactorQuestionsSupplier stabilityIs the supplier still in existence? Is the supplier financially stable and likely to 
+continue in existence? If the supplier is no longer in business, does someone else 
+maintain the systems?Failure rateDoes the hardware have a high rate of reported failures? Does the support software 
+crash and force system restarts?AgeHow old is the hardware and software? The older the hardware and support 
+software, the more obsolete it will be. It may still function correctly, but there could 
+be significant economic and business benefits to moving to a more modern system.PerformanceIs the performance of the system adequate? Do performance problems have a 
+significant effect on system users?Support 
+requirementsWhat local support is required by the hardware and software? If high costs are 
+associated with this support, it may be worth considering system replacement.Maintenance costsWhat are the costs of hardware maintenance and support software licences? Older 
+hardware may have higher maintenance costs than modern systems. Support 
+software may have high annual licensing costs.InteroperabilityAre there problems interfacing the system to other systems? Can compilers, for 
+example, be used with current versions of the operating system?Figure 9.10 Factors used in environment 
+assessment

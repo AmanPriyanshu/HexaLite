@@ -1,0 +1,56 @@
+that occurs when a single support service is provided? Can this fit into the 
+RESTful model, or should it be redesigned as an entity-oriented service.3. Is the service independent? That is, to what extent does it rely on the availability 
+
+of other services?4.
+ Does the service have to maintain state? If state information is required, this 
+
+must either be maintained in a database or passed as a parameter to the service. 
+Using a database affects service reusability as there is a dependency between the 
+
+service and the required database. In general, services where the state is passed 
+
+to the service are easier to reuse, as no database binding is required.5. Might this service be used by external clients? For example, an entity-oriented 
+
+service associated with a catalog could be made available to both internal and 
+
+external users.
+6. Are different users of the service likely to have different non-functional require
+-
+ments? If they do, then more than one version of a service should perhaps be 
+
+implemented.The answers to these questions help you select and refine abstractions that can be 
+implemented as services. However, there is no formulaic way of deciding which are 
+
+the best services. You need to use your experience and business knowledge to decide 
+
+on what are the most appropriate services.The output of the service selection process is a set of identified services and asso
+-ciated requirements for these services. The functional service requirements should 
+
+define what the service should do. The non-functional requirements should define 
+
+the security, performance, and availability requirements of the service.
+To help you understand the process of service candidate identification and 
+ implementation, consider the following example:
+A company, which sells computer equipment, has arranged special prices for 
+
+approved configurations for some large customers. To facilitate automated 
+
+ordering, the company wishes to produce a catalog service that will allow 
+
+customers to select the equipment that they need. Unlike a consumer catalog, 
+
+orders are not placed directly through a catalog interface. Instead, goods are 
+
+ordered through the web-based procurement system of each company that 
+
+accesses the catalog as a web service. The reason for this is that large compa
+-
+nies usually have their own budgeting and approval procedures for orders that 
+
+must be followed when an order is placed.
+The catalog service is an example of an entity-oriented service, where the underlying 
+resource is the catalog. The functional catalog service requirements are as follows:
+1. A specific version of the catalog shall be provided for each user company. This 
+shall include the approved configurations and equipment that may be ordered by 
+˜˚˛˝ˆ˜˜˜
+˜˜˜

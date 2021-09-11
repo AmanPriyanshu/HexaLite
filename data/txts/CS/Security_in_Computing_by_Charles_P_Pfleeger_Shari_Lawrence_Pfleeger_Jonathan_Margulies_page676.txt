@@ -1,0 +1,69 @@
+642 Chapter 9  
+PrivacyVoIP and Skype
+Privacy aspects of traditional telephony were fairly well understood: Telephone com-
+panies were regulated monopolies that needed to preserve the confidentiality of their 
+
+clients’ communications. Exceptions occurred under statutorily defined circumstances 
+
+for law enforcement purposes and in emergencies. Furthermore, the technology was 
+
+relatively resistant to eavesdropping, with the greatest exposure at the end points.
+Cellular telephony and Internet-based phone service have significantly changed that 
+situation. Voice over IP
+ (VoIP
+) is a protocol for transmission of voice traffic over the 
+Internet. Major VoIP carriers include Skype, Google Talk, and Vonage. The service con-
+
+verts your analog voice to digital signals sent over the Internet; you use a telephone 
+
+handset or microphone and speaker connected to your computer. To call from London 
+
+to Rio, for example, you would invoke the VoIP application, giving it the telephone 
+
+number in Rio. A local office in Rio would call the number in Rio and patch that call to 
+
+its Internet servers. (The process is even easier if both end points use VoIP.)
+The advantage of VoIP is cost: For people who already have a fixed-price broadband 
+Internet connection, adding VoIP need only cover the costs of the local connection on 
+
+the remote end and a fee for software. But as we have seen in other Internet applica-
+
+tions, privacy can be sacrificed. Even if the voice traffic is solidly encrypted, the source 
+
+and destination of the phone call will be somewhat exposed through packet headers.
+Privacy in the CloudCloud computing is becoming the basis for many business models, from linking com-
+
+puter products to providing backup storage. In Chapter 8 we examine the cloud’s secu-
+
+rity concerns; here, we turn to its privacy issues.
+In 2009, Robert Gellman produced a report [GEL09] for the World Privacy Forum 
+that examined the privacy implications of using the cloud. He discusses the various 
+
+ways that, for some information and for some business and government users, sharing 
+
+information in the cloud can be at worst illegal, more likely limited, or can even affect 
+
+the status of or protections for the information being shared. Roland Trope and Claudia 
+
+Ray [TRO10] provide extensive examples of these problems for lawyers and judges. 
+
+They describe how the terms of use for many cloud providers can destroy the protec-
+
+tions of lawyer–client confidentiality normally found in the American legal system. For 
+
+example, by putting some legal documents in the cloud, a lawyer can lose control of 
+
+their content; in fact, some cloud providers consider themselves the owners of the con-
+
+tent once it arrives in the cloud.
+Gellman describes how, even when no laws keep a user from disclosing information 
+to a cloud provider, the disclosure can still have consequences. For instance, the stored 
+
+information may have weaker privacy protections than the original information in its 
+
+creator’s hands. In fact, “both government agencies and private litigants may be able to 
+
+obtain information from a third party more easily than from the creator of the informa-
+tion.” Moreover, because privacy laws differ from country to country, the location of the 
+
+cloud servers can affect a cloud user’s data privacy and confidentiality.

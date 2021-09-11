@@ -1,0 +1,82 @@
+228 PART TWO  
+MODELING 
+ 
+ 
+ 
+ 
+ 12.2 T
+HE   
+DESIGN PROCESS    
+ 
+Software design is an iterative process through which requirements are trans-lated into a “blueprint” for constructing the software. Initially, the blueprint de-
+
+picts a holistic view of software. That is, the design is represented at a high level 
+of abstraction—a level that can be directly traced to the speciﬁ c system objective 
+and more detailed data, functional, and behavioral requirements. As design it-
+erations occur, subsequent reﬁ
+ nement leads to design representations at much 
+lower levels of abstraction. These can still be traced to requirements, but the 
+connection is more subtle.   
+12.2.1 Software Quality Guidelines and Attributes 
+  
+Throughout the design process, the quality of the evolving design is assessed with a series of technical reviews discussed in Chapter 20. McGlaughlin [McG91] 
+suggests three characteristics that serve as a guide for the evaluation of a   
+good design  
+: 
+ 
+ 
+ 
+•  The design should implement all of the explicit requirements contained in the requirements model, and it must accommodate all of the implicit 
+requirements desired by stakeholders.   
+ 
+ 
+•  The design should be a readable, understandable guide for those who 
+generate code and for those who test and subsequently support the 
+
+software. 
+  
+ 
+ 
+•  The design should provide a complete picture of the software, addressing the data, functional, and behavioral domains from an implementation 
+perspective.  
+ 
+  Each of these characteristics is actually a goal of the design process. But how is each of these goals achieved?   
+ 
+ 
+Quality Guidelines  
+.   In order to evaluate the quality of a design representa-
+tion, you and other members of the software team must establish technical 
+
+criteria for good design. In Section 12.3, we discuss design concepts that also 
+
+serve as software quality criteria. For the time being, consider the following 
+
+guidelines: 
+  
+ 
+ 
+ 
+ 
+ 1.  A design should exhibit an architecture that (1) has been created using recognizable architectural styles or patterns, (2) is composed of compo-
+nents that exhibit good design characteristics (these are discussed later in 
+this chapter), and (3) can be implemented in an evolutionary fashion,  2 
+ 
+ thereby facilitating implementation and testing.  
+  What 
+are the characteristics of 
+a good design? ?  uote:  “[W]riting a clever 
+piece of code 
+that works is one 
+thing; designing 
+something that can 
+support a long-
+lasting business is 
+quite another.” 
+ C. Ferguson 
+  
+ 
+ 
+ 
+ 
+2  For smaller systems, design can sometimes be developed linearly. 
+pre22126_ch12_224-251.indd   228pre22126_ch12_224-251.indd   22813/12/13   6:12 PM13/12/13   6:12 PM

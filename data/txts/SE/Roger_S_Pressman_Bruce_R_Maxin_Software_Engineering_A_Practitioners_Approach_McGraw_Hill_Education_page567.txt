@@ -1,0 +1,66 @@
+CHAPTER 24  
+TESTING OBJECT-ORIENTED APPLICATIONS
+ 537 
+ 
+Still more test cases could be derived to ensure that all behaviors for the class have been adequately exercised. In situations in which the class behavior results 
+in a collaboration with one or more classes, multiple state diagrams are used to 
+track the behavioral ﬂ ow of the system. 
+ The state model can be traversed in a “breadth-ﬁ rst” [McG94] manner. In 
+this context, breadth-ﬁ rst implies that a test case exercises a single transition 
+and that when a new transition is to be tested, only previously tested transitions 
+are used.  Consider a  CreditCard 
+ object that is part of the banking system. The initial 
+state of  CreditCard 
+ is  undeﬁ ned
+ 
+ (i.e., no credit card number has been provided). Upon reading the credit card during a sale, the object takes on a  deﬁ ned
+ 
+ state; 
+that is, the attributes card number and 
+expiration date, along with bank-speciﬁ c iden-
+tiﬁ ers are deﬁ
+ ned. The credit card is  
+submitted 
+ when it is sent for authorization, and it is  approved
+ 
+ when authorization is received. The transition of  
+CreditCard 
+ from one state to another can be tested by deriving test cases that cause the tran-
+sition to occur. A breadth-ﬁ
+ rst approach to this type of testing would not exercise 
+ submitted 
+ before it exercised  
+undeﬁ ned
+ 
+ and  
+deﬁ ned.
+ 
+If it did, it would make use of transitions that had not been previously tested and would therefore violate the 
+breadth-ﬁ rst criterion. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 24.7 S
+UMMARY  
+The overall objective of object-oriented testing—to ﬁ nd the maximum num-
+ber of errors with a minimum amount of effort is identical to the objective of 
+conventional software testing. But the strategy and tactics for OO testing differ 
+signiﬁ cantly. The view of testing broadens to include the review of both the re-
+quirements and design model. In addition, the focus of testing moves away from 
+the procedural component (the module) and toward the class.  Because the OO requirements and design models and the resulting source code are semantically coupled, testing (in the form of technical reviews) begins during 
+the modeling activity. For this reason, the review of CRC, object-relationship, 
+
+and object-behavior models can be viewed as ﬁ rst-stage testing. 
+ Once code is available, unit testing is applied for each class. The design of tests for a class uses a variety of methods: fault-based testing, random testing, and 
+partition testing. Each of these methods exercise the operations encapsulated 
+by the class. Test sequences are designed to ensure that relevant operations are 
+
+exercised. The state of the class, represented by the values of its attributes, is 
+examined to determine if errors exist.  Integration testing can be accomplished using a thread-based or use-based strategy. Thread-based testing integrates the set of classes that collaborate to 
+
+respond to one input or event. Use-based testing constructs the system in layers, 
+beginning with those classes that do not make use of server classes. Integration pre22126_ch24_523-539.indd   537pre22126_ch24_523-539.indd   53713/12/13   10:02 PM13/12/13   10:02 PM

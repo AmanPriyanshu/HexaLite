@@ -1,0 +1,65 @@
+CHAPTER 14  
+COMPONENT-LEVEL DESIGN
+ 307components. If the components providing business and data services reside en-tirely on the mobile device, connectivity issues are not a signiﬁ cant concern. In-
+termittent (or missing) Internet connectivity must be considered when designing 
+components that require access to current application data that reside on a net-
+worked server. 
+ If a desktop application is being ported to a mobile device, the business-layer components may need to be reviewed to see if they meet nonfunctional require-
+ments (e.g., security, performance, accessibility) required by the new platform. 
+
+The target mobile device may lack the necessary processor speed, memory, or 
+
+display real estate. The design of mobile applications is considered in greater 
+detail in Chapter 18.   
+ 
+ 
+ 14.6 D
+ESIGNING TRADITIONAL COMPONENTS  
+ 
+ 
+ 
+ 
+ 
+ 
+The foundations of component-level design for traditional software components  7 
+ 
+ were formed in the early 1960s and were solidiﬁ ed with the work of Edsger 
+ Dijkstra ([Dij65], [Dij76b]) and others (e.g., [Boh66]. In the late 1960s, Dijkstra and others proposed the use of a set of constrained logical constructs from which 
+any program could be formed. The constructs emphasized “maintenance of func-
+tional domain.” That is, each construct had a predictable logical structure and 
+was entered at the top and exited at the bottom, enabling a reader to follow pro-
+cedural ﬂ ow more easily. 
+  
+The constructs are sequence, condition, and repetition.  Sequence 
+ implements 
+processing steps that are essential in the speciﬁ cation of any algorithm.  
+Condi-tion 
+ provides the facility for selected processing based on some logical occur-
+rence, and  repetition
+ 
+ allows for looping. These three constructs are fundamental 
+to  structured programming
+ 
+—an important component-level design technique.  The structured constructs were proposed to limit the procedural design of software to a small number of predictable logical structures. Complexity metrics 
+(Chapter 30) indicate that the use of the structured constructs reduces program 
+complexity and thereby enhances readability, testability, and maintainability. 
+
+The use of a limited number of logical constructs also contributes to a human 
+understanding process that psychologists call  chunking. 
+ To understand this pro-
+cess, consider the way in which you are reading this page. You do not read indi-
+
+vidual letters but rather recognize patterns or chunks of letters that form words 
+or phrases. The structured constructs are logical chunks that allow a reader to    Structured 
+programming is a 
+design technique that 
+constrains logic ﬂ ow 
+
+to three constructs: 
+
+sequence, condition, 
+and repetition.   
+7  A traditional software component implements an element of processing that addresses a func-
+tion or subfunction in the problem domain or some capability in the infrastructure domain. 
+Often called modules, procedures, or subroutines, traditional components do not encapsulate 
+data in the same way that object-oriented components do. pre22126_ch14_285-316.indd   307pre22126_ch14_285-316.indd   30713/12/13   6:12 PM13/12/13   6:12 PM

@@ -1,0 +1,83 @@
+546 PART THREE  
+QUALITY MANAGEMENT 
+To accomplish the ﬁ
+ rst objective, automated spelling and grammar checkers 
+may be used. However, many syntactic errors evade detection by such tools and 
+
+must be discovered by a human reviewer (tester). In fact, a large website might 
+enlist the services of a professional copy editor to uncover typographical errors, 
+grammatical mistakes, errors in content consistency, errors in graphical repre-
+
+sentations, and cross-referencing errors.   
+ 
+ 
+ 
+ 
+Semantic testing focuses on the information presented within each content object. The reviewer (tester) must answer the following questions:  
+ 
+ 
+•  Is the information factually accurate?   
+ 
+ 
+•  Is the information concise and to the point?   
+ 
+ 
+•  Is the layout of the content object easy for the user to understand?   
+ 
+ 
+•  Can information embedded within a content object be found easily?   
+ 
+ 
+•  Have proper references been provided for all information derived from other sources?   
+ 
+ 
+•  Is the information presented consistent internally and consistent with information presented in other content objects?   
+ 
+ 
+•  Is the content offensive, misleading, or does it open the door to litigation?   
+ 
+ 
+•  Does the content infringe on existing copyrights or trademarks?   
+ 
+ 
+•  Does the content contain internal links that supplement existing content? Are the links correct?   
+ 
+ 
+•  Does the aesthetic style of the content conﬂ ict with the aesthetic style of 
+the interface?  
+ 
+  Obtaining answers to each of these questions for a large WebApp (containing 
+hundreds of content objects) can be a daunting task. However, failure to uncover 
+
+semantic errors will shake the user’s faith in the WebApp and can lead to failure 
+
+of the Web-based application. 
+ Content objects exist within an architecture that has a specific style 
+(Chapter 17). During content testing, the structure and organization of 
+
+the content architecture is tested to ensure that required content is pre-
+sented to the end user in the proper order and relationships. For exam-
+ple, the   
+SafeHomeAssured.com 
+ 
+ WebApp presents a variety of information 
+about sensors that are used as part of security and surveillance products. 
+
+Content objects provide descriptive information, technical specifica-
+tions, a photographic representation, and related information. Tests of the 
+
+  
+SafeHomeAssured.com 
+ 
+ content architecture strive to uncover errors in the 
+presentation of this information (e.g., a description of Sensor  X 
+ is presented 
+with a photo of Sensor  Y 
+).  
+ 
+ 
+  What 
+questions should be asked 
+and answered to 
+uncover semantic 
+errors in content? ?pre22126_ch25_540-566.indd   546pre22126_ch25_540-566.indd   54613/12/13   6:15 PM13/12/13   6:15 PM

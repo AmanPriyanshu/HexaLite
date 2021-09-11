@@ -1,0 +1,56 @@
+82 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+The last entry on an access list could be *-*-*, specifying rights allowable to any user 
+not explicitly on the access list. With this wildcard device, a shared public object can 
+
+have a very short access list, explicitly naming the few subjects that should have access 
+
+rights different from the default.
+Privilege ListA privilege list
+, sometimes called a directory
+, is a row of the access matrix, showing 
+all those privileges or access rights for a given subject (shown in Figure 2-14). One 
+
+advantage of a privilege list is ease of revocation: If a user is removed from the system, 
+
+the privilege list shows all objects to which the user has access so that those rights can 
+
+be removed from the object.
+CapabilitySo far, we have examined protection schemes in which the operating system must keep 
+track of all the protection objects and rights. But other approaches put some of the 
+
+burden on the user. For example, a user may be required to have a ticket or pass that 
+
+enables access, much like a ticket or identification card that cannot be duplicated.
+More formally, we say that a 
+capability is an unforgeable token that gives the pos-
+sessor certain rights to an object. The Multics [SAL74], CAL [LAM76], and Hydra 
+
+[WUL74] systems used capabilities for access control. As shown in Figure 2-15, a capa-
+
+bility is just one access control triple of a subject, object, and right. In theory, a subject 
+
+can create new objects and can specify the operations allowed on those objects. For 
+
+example, users can create objects such as files, data segments, or subprocesses and can 
+
+also specify the acceptable kinds of operations, such as read, write, and execute. But a 
+
+user can also create completely new 
+
+objects, such as new data structures, 
+
+and can define types of accesses 
+
+previously unknown to the system.
+Think of capability as a ticket 
+giving permission to a subject to have a certain type of access to an object. For the 
+
+capability to offer solid protection, the ticket must be unforgeable. One way to make 
+
+it unforgeable is to not give the ticket directly to the user. Instead, the operating sys-
+
+tem holds all tickets on behalf of the users. The operating system returns to the user a 
+FIGURE 2-14 Privilege Control List
+User WFile AAdminReadWrite
+OwnWriteWriteControlControlPrinterSystemClockReadCapability: Single- or multi-use ticket to access an object or service

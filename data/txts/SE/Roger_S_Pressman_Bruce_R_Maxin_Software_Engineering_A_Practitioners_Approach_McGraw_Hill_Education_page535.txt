@@ -1,0 +1,48 @@
+CHAPTER 23  
+TESTING CONVENTIONAL APPLICATIONS
+ 505without developing a ﬂ ow graph by counting all conditional statements in 
+the PDL (for the procedure  average, 
+ compound conditions count as two) and adding 1. Referring to  Figure 23.5 , V 
+( G 
+) 5 6 regions V 
+( G 
+) 5 17 edges 2 13 nodes 1 2 5 6 V 
+( G 
+) 5 5 predicate nodes 1 1 5 6  PROCEDURE average;
+INTERFACE RETURNS average, total.input, total.valid;
+INTERFACE ACCEPTS value, minimum, maximum;
+TYPE value[1:100] IS SCALAR ARRAY;
+TYPE average, total.input, total.valid;
+
+ minimum, maximum, sum IS SCALAR;
+
+TYPE i IS INTEGER;
+* This procedure computes the average of 100 or fewer
+ numbers that lie between bounding values; it also computes the
+
+ sum and the total number valid.
+i = 1;total.input = total.valid = 0;
+
+sum = 0;
+DO WHILE value[i] <> Œ999 AND total.input < 100
+ENDDOIF total.valid > 0
+ENDIFEND average
+increment total.input by 1;
+IF value[i] > = minimum AND value[i] < = maximumENDIFincrement i by 1;
+THEN average = sum / total.valid;
+ELSE average = Œ999;
+THEN increment total.valid by 1;
+ sum = s sum + value[i]
+
+ELSE skip
+13645789101112132  
+FIGURE 23.4 
+PDL with nodes 
+identiﬁ ed 
+ 
+ 12345678910111213  
+FIGURE 23.5 
+Flow graph for the procedure 
+
+average  
+ pre22126_ch23_496-522.indd   505pre22126_ch23_496-522.indd   50513/12/13   6:14 PM13/12/13   6:14 PM

@@ -1,0 +1,37 @@
+˜˜˚˝˜˜˜
+˜˜
+this is shown in Figure 9.9. From this diagram, you can see that there are four 
+ clusters of systems:1. Low quality, low business value 
+Keeping these systems in operation will be 
+expensive, and the rate of the return to the business will be fairly small. These 
+systems should be scrapped.2. Low quality, high business value These systems are making an important business 
+
+contribution, so they cannot be scrapped. However, their low quality means that 
+
+they are expensive to maintain. These systems should be reengineered to improve 
+
+their quality. They may be replaced, if suitable off-the-shelf systems are available.3. High quality, low business value These systems don™t contribute much to the 
+
+business but may not be very expensive to maintain. It is not worth replacing 
+these systems, so normal system maintenance may be continued if expensive 
+
+changes are not required and the system hardware remains in use. If expensive 
+changes become necessary, the software should be scrapped.4. High quality, high business value These systems have to be kept in operation. 
+However, their high quality means that you don™t have to invest in transforma-
+tion or system replacement. Normal system maintenance should be continued.The business value of a system is a measure of how much time and effort the 
+system saves compared to manual processes or the use of other systems. To assess 
+the business value of a system, you have to identify system stakeholders, such as the 
+
+end-users of a system and their managers, and ask a series of questions about the 
+
+system. There are four basic issues that you have to discuss:1. The use of the system If a system is only used occasionally or by a small number of 
+people, this may mean that it has a low business value. A legacy system may have 
+
+been developed to meet a business need that has either changed or can now be met 
+12345678910System quality
+Business valueHigh business value
+Low qualityHigh business value
+High qualityLow business value
+Low qualityLow business value
+High qualityFigure 9.9 An example of a legacy system 
+assessment 

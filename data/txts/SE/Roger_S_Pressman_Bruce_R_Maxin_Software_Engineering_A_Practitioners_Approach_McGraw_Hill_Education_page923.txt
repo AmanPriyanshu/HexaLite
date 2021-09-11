@@ -1,0 +1,93 @@
+APPENDIX 2  
+OBJECT-ORIENTED CONCEPTS
+ 893 
+Stated another way, a class is a generalized description (e.g., a template or blueprint) that describes a collection of similar objects. By deﬁ nition, objects are 
+instances of a speciﬁ c class and inherit its attributes and the operations that are 
+available to manipulate the attributes. A  superclass 
+ (often called a  
+base class 
+) is a generalization of a set of classes that are related to it. A  subclass 
+ is a specializa-
+tion of the superclass. For example, the superclass  MotorVehicle 
+ is a generaliza-
+tion of the classes  Truck, SUV, Automobile, 
+ and  
+Van. 
+ The subclass  
+Automobile 
+ inherits all attributes of  MotorVehicle, 
+ but in addition, incorporates other attri-
+butes that are speciﬁ c only to automobiles. 
+  
+These deﬁ nitions imply the existence of a class hierarchy in which the attri-
+butes and operations of the superclass are inherited by subclasses that may each 
+add additional “private” attributes and methods. For example, the operations 
+ sitOn() 
+ and  turn() 
+ might be private to the  Chair 
+ subclass.  
+  
+ 
+  A
+TTRIBUTES   
+ 
+You have learned that attributes are attached to classes and that they describe the class in some way. An attribute can take on a value deﬁ ned by an enumerated 
+ domain. 
+ In most cases, a domain is simply a set of speciﬁ
+ c values. For example, 
+assume that a class  Automobile 
+ has an attribute  
+color 
+. The domain of values for  color 
+ is { 
+ 
+white, black, silver, gray, blue, red, yellow, green} 
+ 
+. In more complex situ-ations, the domain can be a class. Continuing the example, the class  Automobile 
+ also has an attribute  powerTrain 
+ that is itself a class. The class  
+PowerTrain 
+ would 
+contain attributes that describe the speciﬁ c engine and transmission for the car. 
+ The  features 
+ (values of the domain) can be augmented by assigning a default 
+value (feature) to an attribute. For example, the  color 
+ attribute defaults to  
+ 
+white 
+ 
+. It 
+may also be useful to associate a probability with a particular feature by assigning 
+
+{value, probability} pairs. Consider the  color 
+ attribute for automobile. In some appli-cations (e.g., manufacturing planning) it might be necessary to assign a probability 
+
+to each of the colors (e.g., white and black are highly probable as automobile colors). 
+ 
+  
+ 
+  O
+PERATIONS
+, METHODS, AND SERVICES  
+ 
+An object encapsulates data (represented as a collection of attributes) and the al-gorithms that process the data. These algorithms are called  operations, methods, 
+ or  services 
+ 
+ 2 and can be viewed as processing components.   Each of the operations that is encapsulated by an object provides a represen-tation of one of the behaviors of the object. For example, the operation  GetColor() 
+ for the object  Automobile 
+ will extract the color stored in the  
+color 
+ attribute. The 
+implication of the existence of this operation is that the class  Automobile 
+ has 
+ 
+ 
+2  In the context of this discussion, the term  
+operations 
+ is used, but the terms  
+methods 
+ and  
+ser-
+vices 
+ are equally popular. 
+pre22126_app2_891-898.indd   893pre22126_app2_891-898.indd   89313/12/13   6:18 PM13/12/13   6:18 PM

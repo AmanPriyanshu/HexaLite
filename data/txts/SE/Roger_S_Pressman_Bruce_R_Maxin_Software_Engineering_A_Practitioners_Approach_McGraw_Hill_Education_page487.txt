@@ -1,0 +1,95 @@
+CHAPTER 21  
+SOFTWARE QUALITY ASSURANCE
+ 457 
+ 
+ 
+21.6.1   
+A Generic Example  
+To illustrate the use of statistical methods for software engineering work, assume 
+that a software engineering organization collects information on errors and de-
+fects for a period of one year. Some of the errors are uncovered as software is 
+
+being developed. Other defects are encountered after the software has been re-
+leased to its end users. Although hundreds of different problems are uncovered, 
+all can be tracked to one (or more) of the following causes:  
+ 
+ 
+•  Incomplete or erroneous speciﬁ cations (IES). 
+  
+ 
+ 
+•  Misinterpretation of customer communication (MCC).   
+ 
+ 
+•  Intentional deviation from speciﬁ cations (IDS). 
+  
+ 
+ 
+•  Violation of programming standards (VPS). 
+  
+ 
+ 
+•  Error in data representation (EDR).   
+ 
+ 
+•  Inconsistent component interface (ICI).   
+ 
+ 
+•  Error in design logic (EDL).   
+ 
+ 
+•  Incomplete or erroneous testing (IET).   
+ 
+ 
+•  Inaccurate or incomplete documentation (IID).   
+ 
+ 
+•  Error in programming language translation of design (PLT). 
+  
+ 
+ 
+•  Ambiguous or inconsistent human/computer interface (HCI).   
+ 
+ 
+•  Miscellaneous (MIS).  
+ 
+  To apply statistical SQA, the table in  
+Figure 21.2  is built. The table indicates 
+that IES, MCC, and EDR are the vital few causes that account for 53 percent 
+of all errors. It should be noted, however, that IES, EDR, PLT, and EDL would 
+
+be selected as the vital few causes if only serious errors are considered. Once   uote:  “A statistical 
+analysis, properly 
+conducted, is a 
+delicate dissection 
+of uncertainties, 
+a surgery of 
+
+suppositions.”  M. J. Moroney 
+  
+FIGURE 21.2 Data collection for statistical 
+SQA   TotalSeriousModerateMinor
+ErrorNo.%No.%No.%No.%
+IES20522%3427%6818%10324%
+MCC15617%129%6818%7617%
+
+IDS485%11%246%235%
+
+VPS253%00%154%102%
+
+EDR13014%2620%6818%368%
+
+ICI586%97%185%317%
+
+EDL455%1411%123%194%
+
+IET9510%129%359%4811%
+
+IID364%22%205%143%
+
+PLT606%1512%195%266%
+
+HCI283%32%174%82%
+MIS566%00%154%419%
+Totals942100%128100%379100%435100%
+pre22126_ch21_448-465.indd   457pre22126_ch21_448-465.indd   45713/12/13   10:02 PM13/12/13   10:02 PM

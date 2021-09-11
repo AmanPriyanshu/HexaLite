@@ -1,0 +1,64 @@
+722 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+improvement. For example, “reduce the time to evaluate and implement change requests.” A small organization might select the following set of easily collected 
+measures:   
+ 
+ 
+•  Time (hours or days) elapsed from the time a request is made until evalua-
+tion is complete,  t queue 
+.  
+ 
+ 
+•  Effort (person-hours) to perform the evaluation,  W eval 
+.  
+ 
+ 
+•  Time (hours or days) elapsed from completion of evaluation to assignment 
+of change order to personnel,  t eval 
+.  
+ 
+ 
+•  Effort (person-hours) required to make the change,  W change 
+.  
+ 
+ 
+•  Time required (hours or days) to make the change,  
+t change 
+.  
+ 
+ 
+•  Errors uncovered during work to make change,  E change 
+.  
+ 
+ 
+•  Defects uncovered after change is released to the customer base,  D change 
+.  
+  Once these measures have been collected for a number of change requests, it is possible to compute the total elapsed time from change request to imple-
+mentation of the change and the percentage of elapsed time absorbed by ini-
+tial queuing, evaluation and change assignment, and change implementation. 
+Similarly, the percentage of effort required for evaluation and implementation 
+
+can be determined. These metrics can be assessed in the context of quality data, 
+ E change and  D change. The percentages provide insight into where the change request process slows down and may lead to process improvement steps to reduce  t queue,  W eval,  t eval,  W change, and/or  E change. In addition, the defect removal efﬁ ciency can be 
+computed asDRE 5    
+E change _____________   
+E change 1  D change    DRE can be compared to elapsed time and total effort to determine the impact of quality assurance activities on the time and effort required to make a change.   
+ 
+ 
+ 
+ 32.6  
+ESTABLISHING
+ A SOFTWARE
+ METRICS PROGRAM  
+ 
+The Software Engineering Institute has developed a comprehensive guidebook [Par96b] for establishing a “goal-driven” software metrics program. The guide-
+book suggests the following steps: (1) identify your business goals; (2) identify 
+what you want to know or learn; (3) identify your subgoals; (4) identify the en-
+tities and attributes related to your subgoals; (5) formalize your measurement 
+goals; (6) identify quantiﬁ able questions and the related indicators that you will 
+use to help you achieve your measurement goals; (7) identify the data elements 
+that you will collect to construct the indicators; (8) identify the measures to be 
+used, and make these deﬁ nitions operational; (9) identify the actions that you will 
+take to implement the measures, and (10) prepare a plan for implementing the  How should 
+we derive a set of “simple” 
+software metrics? ?pre22126_ch32_703-726.indd   722pre22126_ch32_703-726.indd   72213/12/13   6:17 PM13/12/13   6:17 PM

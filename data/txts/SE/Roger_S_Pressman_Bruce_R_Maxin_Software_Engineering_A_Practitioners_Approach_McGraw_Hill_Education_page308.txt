@@ -1,0 +1,137 @@
+278 PART TWO  
+MODELING 
+ 
+ 
+ 
+ 
+ 
+ 
+ 13.8 L
+ESSONS LEARNED  
+ 
+Software-based systems are built by people with a variety of different needs and points of view. Therefore, a software architect should build consensus among 
+
+members of the software team (and other stakeholders) in order to achieve the 
+architectural vision for the ﬁ nal software product [Wri11]. 
+  
+ 
+ 
+ 
+ 
+Architects often focus on the long-term impact of the system’s nonfunctional 
+requirements as the architecture is created. Senior managers assess the archi-
+tecture within the context of business goals and objectives. Project managers are 
+
+often driven by short-term considerations of delivery dates and budget. Software 
+
+engineers are often focused on their own technology interests and feature delivery. 
+
+Each of these (and other) constituencies should work to achieve consensus that the 
+
+software architecture chosen has distinct advantages over any other alternatives. 
+ Wright [Wri11] suggests the use of several  
+decision analysis and resolution
+ 
+ (DAR) methods that may help to counteract some hindrances to collaboration. 
+These methods can help increase active team member participation and in-
+crease the likelihood of their buy-in to the ﬁ nal decision. DAR methods help 
+team members to consider several viable architectural alternatives in an objec-
+tive manner. Three representative examples of DAR methods are:
+  
+ 
+ 
+•   
+Chain of causes. 
+ This technique is a form of root cause  13 
+ 
+ analysis in which the team deﬁ nes an architectural goal or effect and then enunciates the 
+related actions that will cause the goal to be achieved.  
+  
+ 
+ 
+•   
+Ishikawa ﬁ shbone.
+ 
+ 
+ 14 
+ 
+ This is a graphical technique that identiﬁ es the many 
+possible actions or causes required to achieve a desired architectural goal.  
+  
+ 
+ 
+•   
+Mind mapping or spider diagrams. 
+ 
+ 15 
+ 
+ This diagram is used to represent words, concepts, tasks, or software engineering artifacts arranged around 
+a central key word, constraint, or requirement.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 13.9 P
+ATTERN
+-BASED ARCHITECTURE REVIEW  
+ 
+Formal technical reviews ( Chapter 20 ) can be applied to software architecture and provide a means for managing system quality attributes, uncovering errors, 
+and avoiding unnecessary rework. However, in situations in which short build 
+
+cycles, tight deadlines, volatile requirements, and/or small teams are the norm,  WebRef 
+ A discussion of 
+ pattern-based 
+
+ architecture reviews 
+
+appears at  
+ 
+http://www.infoq.com/
+
+articles/ieee- 
+pattern-based-
+architecture-
+reviews   
+ WebRef 
+ Examples of software 
+architectural design 
+lessons learned can 
+
+be found at   http://
+www.sei.cmu.
+
+edu/library/
+
+abstracts/
+news-at-sei/
+01feature200707.
+cfm   
+  
+ 
+ 
+ 
+ 
+13  Further information can be obtained at:  
+http://www.thinkreliability.com/Root-Cause-Analysis-
+CM-Basics.aspx    
+ 
+ 
+ 
+ 
+14  Further information can be obtained at:  
+http://asq.org/learn-about-quality/cause-analysis-tools/overview/ﬁ shbone.html 
+   
+ 
+ 
+ 
+ 
+15  Further information can be obtained at:  
+http://mindmappingsoftwareblog.com/5-best-mind-mapping-programs-for-brainstorming/ 
+ pre22126_ch13_252-284.indd   278pre22126_ch13_252-284.indd   27813/12/13   6:12 PM13/12/13   6:12 PM

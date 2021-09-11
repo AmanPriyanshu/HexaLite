@@ -1,0 +1,85 @@
+172 Chapter 3  
+Programs and Programmingcredited with the discovery of viruses, but Cohen only gave a name to a phenome-
+non known long before. For example, Shoch and Hupp [SHO82] published a paper on 
+
+worms, and Ken Thompson, in his 1984 Turing Award lecture, “Reflections on Trusting 
+
+Trust” [THO84], described malicious code that can be passed by a compiler. In that 
+
+lecture, he refers to an earlier Air Force document, the Multics security evaluation by 
+
+Paul Karger and Roger Schell [KAR74, KAR02]. In fact, references to malicious code 
+
+go back at least to 1970. Willis Ware’s 1970 study (publicly released in 1979 [WAR70]) 
+
+and James P. Anderson’s planning study for the U.S. Air Force [AND72] 
+still, decades later,
+ accurately describe threats, vulnerabilities, and program security flaws, especially 
+intentional ones.Perhaps the progenitor of today’s malicious code is the game Darwin, developed 
+by Vic Vyssotsky, Doug McIlroy, and Robert Morris of AT&T Bell Labs in 1962 
+
+(described in [ALE72]). This program was not necessarily malicious but it certainly 
+
+was malevolent: It represented a battle among computer programs, the objective of 
+
+which was to kill opponents’ pro-
+
+grams. The battling programs had 
+
+a number of interesting properties, 
+
+including the ability to reproduce 
+
+and propagate, as well as hide to 
+
+evade detection and extermination, 
+
+all of which sound like properties of 
+
+current malicious code.Through the 1980s and early 1990s, malicious code was communicated largely 
+person-to-person by means of infected media (such as removable disks) or documents 
+
+(such as macros attached to documents and spreadsheets) transmitted through email. 
+
+The principal exception to individual communication was the Morris worm [ROC89, 
+
+SPA89, ORM03], which spread through the young and small Internet, then known as 
+
+the ARPANET. (We discuss the Morris worm in more detail later in this chapter.)
+During the late 1990s, as the Internet exploded in popularity, so too did its use for 
+communicating malicious code. Network transmission became widespread, leading to 
+
+Melissa (1999), ILoveYou (2000), and Code Red and NIMDA (2001), all programs that 
+
+infected hundreds of thousands—and possibly millions—of systems. Malware continues to become more sophisticated. For example, one characteristic 
+of Code Red, its successors SoBig and Slammer (2003), as well as most other malware 
+
+that followed, was exploitation of known system vulnerabilities, for which patches had 
+
+long been distributed but for which system owners had failed to apply the protective 
+
+patches. In 2012 security firm Solutionary looked at 26 popular toolkits used by hack-
+
+ers and found that 58 percent of vulnerabilities exploited were over two years old, with 
+
+some dating back to 2004.A more recent phenomenon is 
+called a zero-day attack
+, mean-ing use of malware that exploits a 
+
+previously unknown vulnerability 
+
+or a known vulnerability for which 
+
+no countermeasure has yet been 
+Malicious code dates certainly to the 
+1970s, and likely earlier. Its growth has 
+
+been explosive, but it is certainly not a 
+recent phenomenon.
+Zero day attack: Active malware 
+
+exploiting a product vulnerability 
+
+for which the manufacturer has no 
+
+countermeasure available.

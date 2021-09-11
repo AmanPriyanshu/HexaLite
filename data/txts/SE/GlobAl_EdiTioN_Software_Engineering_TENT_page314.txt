@@ -1,0 +1,38 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜might seem to be risky. However, if there are only two or three demands on the system 
+in its entire lifetime, then the system is unlikely to ever fail.ROCOF should be used when demands on systems are made regularly rather than 
+intermittently. For example, in a system that handles a large number of transactions, 
+you may specify a ROCOF of 10 failures per day. This means that you are willing to 
+accept that an average of 10 transactions per day will not complete successfully and 
+will have to be canceled and resubmitted. Alternatively, you may specify ROCOF as 
+the number of failures per 1000 transactions.If the absolute time between failures is important, you may specify the reliability 
+as the mean time to failures (MTTF). For example, if you are specifying the required 
+
+reliability for a system with long transactions (such as a computer-aided design sys-
+tem), you should use this metric. The MTTF should be much longer than the average 
+
+time that a user works on his or her models without saving the user™s results. This 
+
+means that users are unlikely to lose work through a system failure in any one session.Non-functional reliability requirements are specifications of the required reliability 
+and availability of a system using one of the reliability metrics (POFOD, ROCOF, or 
+AVAIL) described in the previous section. Quantitative reliability and availability 
+specification has been used for many years in safety-critical systems but is uncom-
+mon for business critical systems. However, as more and more companies demand 
+
+24/7 service from their systems, it makes sense for them to be precise about their 
+
+reliability and availability expectations.Quantitative reliability specification is useful in a number of ways:1. The process of deciding the required level of the reliability helps to clarify what 
+stakeholders really need. It helps stakeholders understand that there are  different 
+types of system failure, and it makes clear to them that high levels of reliability 
+are expensive to achieve.2. It provides a basis for assessing when to stop testing a system. You stop when 
+the system has reached its required reliability level.3.
+ It is a means of assessing different design strategies intended to improve the relia-
+bility of a system. You can make a judgment about how each strategy might lead 
+
+to the required levels of reliability.4. If a regulator has to approve a system before it goes into service (e.g., all systems 
+
+that are critical to flight safety on an aircraft are regulated), then evidence that a 
+
+required reliability target has been met is important for system certification.To avoid incurring excessive and unnecessary costs, it is important that you spec
+-ify the reliability that you really need rather than simply choose a very high level of 
+reliability for the whole system. You may have different requirements for different 

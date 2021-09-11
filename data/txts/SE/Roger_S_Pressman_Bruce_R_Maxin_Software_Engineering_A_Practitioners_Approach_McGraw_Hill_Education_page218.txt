@@ -1,0 +1,81 @@
+188 PART TWO  
+MODELINGHowever, the ﬁ
+ rst step of class-based modeling is the deﬁ
+ nition of classes, and 
+decisions (even subjective ones) must be made. With this in mind, you should 
+
+apply the selection characteristics to the list of potential  SafeHome 
+ classes:Potential ClassCharacteristic Number That Applieshomeownerrejected: 1, 2 fail even though 6 applies
+sensoraccepted: all apply
+
+control panelaccepted: all apply
+
+installationrejected
+
+system (alias security function)accepted: all apply
+
+number, typerejected: 3 fails, attributes of sensor
+
+master passwordrejected: 3 fails
+
+telephone numberrejected: 3 fails
+
+sensor eventaccepted: all apply
+
+audible alarmaccepted: 2, 3, 4, 5, 6 apply
+monitoring service
+rejected: 1, 2 fail even though 6 applies It should be noted that (1) the preceding list is not all inclusive, additional classes 
+would have to be added to complete the model; (2) some of the rejected potential 
+
+classes will become attributes for those classes that were accepted (e.g., number 
+
+and type are attributes of  Sensor
+ 
+, and master password and telephone number 
+may become attributes of  System 
+); (3) different statements of the problem might 
+cause different “accept or reject” decisions to be made (e.g., if each homeowner 
+
+had an individual password or was identiﬁ ed by voice print, the  
+Homeowner 
+ class 
+would satisfy characteristics 1 and 2 and would have been accepted). 
+  
+ 
+ 
+ 10.2 S
+PECIFYING   
+ATTRIBUTES   
+ 
+ 
+ 
+ 
+  
+ 
+ 
+Attributes 
+ describe a class that has been selected for inclusion in the analysis 
+model. In essence, it is the attributes that deﬁ ne the class—that clarify what is 
+meant by the class in the context of the problem space. For example, if we were 
+to build a system that tracks baseball statistics for professional baseball players, 
+the attributes of the class  Player 
+ would be quite different than the attributes of 
+the same class when it is used in the context of the professional baseball pension 
+system. In the former, attributes such as name, position, batting average, ﬁ
+ elding 
+percentage, years played, and games played might be relevant. For the latter, 
+
+some of these attributes would be meaningful, but others would be replaced (or 
+augmented) by attributes like average salary, credit toward full vesting, pension 
+
+plan options chosen, mailing address, and the like.  To develop a meaningful set of attributes for an analysis class, you should 
+study each use case and select those “things” that reasonably “belong” to the 
+class. In addition, the following question should be answered for each class:  What data items (composite and/or elementary) fully deﬁ ne this class in the context of 
+the problem at hand?
+ 
+    Attributes are the set 
+of data objects that 
+fully deﬁ ne the class 
+
+within the context of 
+the problem. pre22126_ch10_184-201.indd   188pre22126_ch10_184-201.indd   18813/12/13   6:11 PM13/12/13   6:11 PM

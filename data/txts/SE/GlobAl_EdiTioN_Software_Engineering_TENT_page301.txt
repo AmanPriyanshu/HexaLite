@@ -1,0 +1,35 @@
+˜˜˚˛ˇ˜˜˜
+˜˜˜˜
+2. Inconsistencies between a specification and a program. If a refinement method is used, mistakes made by developers that make the software inconsistent with 
+the specification are avoided. Program proving discovers inconsistencies 
+
+between a program and its specification.The starting point for all formal methods is a mathematical system model, which acts as a system specification. To create this model, you translate the system™s user 
+requirements, which are expressed in natural language, diagrams, and tables, into a 
+
+mathematical language that has formally defined semantics. The formal specifica-
+tion is an unambiguous description of what the system should do.Formal specifications are the most precise way of specifying systems, and so 
+reduce the scope for misunderstanding. Many supporters of formal methods believe 
+that creating formal specification, even without refinement or program proof, is 
+
+worthwhile. Constructing a formal specification forces a detailed analysis of the 
+
+requirements and this is an effective way of discovering requirements problems. In a 
+natural language specification, errors can be concealed by the imprecision of the 
+
+language. This is not the case if the system is formally specified.The advantages of developing a formal specification and using it in a formal 
+development process are:1. As you develop a formal specification in detail, you develop a deep and detailed 
+understanding of the system requirements. Requirements problems that are dis-
+covered early are usually much cheaper to correct than if they are found at later 
+stages in the development process.2.
+ As the specification is expressed in a language with formally defined semantics, 
+
+you can analyze it automatically to discover inconsistencies and incompleteness.3. If you use a method such as the B method, you can transform the formal speci-
+fication into a program through a sequence of correctness-preserving transfor-
+mations. The resulting program is therefore guaranteed to meet its specification.4. Program testing costs may be reduced because you have verified the program 
+against its specification. For example, in the development of the software for the 
+Paris Metro systems, the use of refinement meant that there was no need for 
+
+software component testing and only system testing was required.Formal specification techniquesFormal system specifications may be expressed using two fundamental approaches, either as models of the 
+ system interfaces (algebraic specifications) or as models of the system state. An extra web chapter on this topic 
+shows examples of both of these approaches. The chapter includes a formal specification of part of the insulin 
+pump system. http://software-engineering-book.com/web/formal-methods/ (web chapter)

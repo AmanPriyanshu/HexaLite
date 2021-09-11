@@ -1,0 +1,25 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜
+Agile methods of software engineering focus on the development of code. They 
+minimize documentation and processes that are not directly concerned with code 
+
+development and emphasize the importance of informal communications among 
+
+team members rather than communications based on project documents. Quality, in 
+agile development, means code quality and practices such as refactoring, and test-
+driven development are used to ensure that high-quality code is produced.Quality management in agile development is informal rather than document-based. It 
+relies on establishing a quality culture, where all team members feel responsible for soft-
+ware quality and take actions to ensure that quality is maintained. The agile community 
+
+is fundamentally opposed to what it sees as the bureaucratic overhead of standards-based 
+
+approaches and quality processes as embodied in ISO 9001. Companies that use agile 
+
+development methods are rarely concerned with ISO 9001 certification.In agile development, quality management is based on shared good practice rather than formal documentation. Some examples of this good practice are:1. Check before check-in Programmers are responsible for organizing their own code 
+reviews with other team members before the code is checked in to the build system.Fault classInspection checkData faults˜˚˚Are all program variables initialized before their values are used?˜˚˚Have all constants been named?˜˚
+˚˚Should the upper bound of arrays be equal to the size of the array or Size 21?˜˚˚If character strings are used, is a delimiter explicitly assigned?˜˚˚Is there any possibility of buffer overflow?Control faults˜˚˚For each conditional statement, is the condition correct?˜˚˚Is each loop certain to terminate?˜˚˚Are compound statements correctly bracketed?˜˚˚In case statements, are all possible cases accounted for?˜˚
+˚˚If a break is required after each case in case statements, has it been included?
+Input/output faults˜˚˚Are all input variables used?˜˚˚Are all output variables assigned a value before they are output?˜˚˚Can unexpected inputs cause corruption?Interface faults˜˚
+˚˚Do all function and method calls have the correct number of parameters?˜˚˚Do formal and actual parameter types match?˜˚˚Are the parameters in the right order?˜˚
+˚˚If components access shared memory, do they have the same model of the shared memory structure?Storage management faults˜˚
+˚˚If a linked structure is modified, have all links been correctly reassigned?˜˚˚If dynamic storage is used, has space been allocated correctly?˜˚˚Is space explicitly de-allocated after it is no longer required?Exception management faults˜˚˚Have all possible error conditions been taken into account?Figure 24.8 An inspection checklist

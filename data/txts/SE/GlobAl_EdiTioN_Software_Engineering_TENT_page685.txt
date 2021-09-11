@@ -1,0 +1,39 @@
+˜˜˚˛ˆ˜˜˜
+˜˜
+The number of lines of source code (SLOC) in the delivered system is the funda-mental size metric that is used in many algorithmic cost models. To estimate the 
+number of lines of code in a system, you may use a combination of approaches:1.
+ Compare the system to be developed with similar systems and use their code 
+size as the basis for your estimate.2. Estimate the number of function or application points in the system (see the fol-
+lowing section) and formulaically convert these to lines of code in the program-
+ming language used.3.
+ Rank the system components using judgment of their relative sizes and use a 
+
+known reference component to translate this ranking to code sizes.Most algorithmic estimation models have an exponential component (
+B in the 
+above equation) that increases with the size and complexity of the system. This 
+
+reflects the fact that costs do not usually increase linearly with project size. As the 
+size and complexity of the software increase, extra costs are incurred because of the 
+communication overhead of larger teams, more complex configuration management, 
+more difficult system integration, and so on. The more complex the system, the more 
+these factors affect the cost.The idea of using a scientific and objective approach to cost estimation is an 
+attractive one, but all algorithmic cost models suffer from two key problems:1. It is practically impossible to estimate Size accurately at an early stage in a pro-ject, when only the specification is available. Function-point and application-point estimates (see later) are easier to produce than estimates of code size but 
+are also usually inaccurate.2. The estimates of the complexity and process factors contributing to B and M are subjective. Estimates vary from one person to another, depending on their back-
+ground and experience of the type of system that is being developed.Accurate code size estimation is difficult at an early stage in a project because the 
+size of the final program depends on design decisions that may not have been made 
+
+when the estimate is required. For example, an application that requires 
+ high-performance 
+data management may either implement its own data management system or use a 
+commercial database system. In the initial cost estimation, you are unlikely to know 
+if there is a commercial database system that performs well enough to meet the per-
+formance requirements. You therefore don™t know how much data management 
+
+code will be included in the system.The programming language used for system development also affects the number 
+of lines of code to be developed. A language like Java might mean that more lines of 
+
+code are necessary than if C (say) was used. However, this extra code allows more 
+
+compile-time checking, so validation costs are likely to be reduced. It is not clear 
+
+how this should be taken into account in the estimation process. Code reuse also 

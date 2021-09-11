@@ -1,0 +1,39 @@
+˜˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜˜
+may tolerate failures because the benefits of use outweigh the costs of failure recovery. However, as a software product becomes more established, users 
+
+expect it to become more reliable. Consequently, more thorough testing of later 
+versions of the system may be required.3. Marketing environment When a software company brings a system to market, it 
+must take into account competing products, the price that customers are willing 
+to pay for a system, and the required schedule for delivering that system. In a 
+
+competitive environment, the company may decide to release a program before 
+it has been fully tested and debugged because it wants to be the first into the 
+
+market. If a software product or app is very cheap, users may be willing to toler-
+ate a lower level of reliability.As well as software testing, the verification and validation process may involve software inspections and reviews. Inspections and reviews analyze and check the 
+
+system requirements, design models, the program source code, and even proposed 
+
+system tests. These are ﬁstaticﬂ V & V techniques in which you don™t need to execute 
+
+the software to verify it. Figure 8.2 shows that software inspections and testing sup-
+port V & V at different stages in the software process. The arrows indicate the stages 
+in the process where the techniques may be used.Inspections mostly focus on the source code of a system, but any readable repre-sentation of the software, such as its requirements or a design model, can be 
+
+inspected. When you inspect a system, you use knowledge of the system, its  application 
+domain, and the programming or modeling language to discover errors.Software inspection has three advantages over testing:1.
+ During testing, errors can mask (hide) other errors. When an error leads to 
+
+unexpected outputs, you can never be sure if later output anomalies are due to 
+
+a new error or are side effects of the original error. Because inspection doesn™t 
+
+involve executing the system, you don™t have to worry about interactions 
+
+between errors. Consequently, a single inspection session can discover many 
+
+errors in a system.UML designmodelsSoftwarearchitectureRequirements
+specification
+DatabaseschemasProgramSystem
+prototypeTesting
+InspectionsFigure 8.2 Inspections and testing 

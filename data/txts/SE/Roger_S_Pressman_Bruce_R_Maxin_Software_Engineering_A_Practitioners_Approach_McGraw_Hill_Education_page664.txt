@@ -1,0 +1,64 @@
+634 PART THREE  
+QUALITY MANAGEMENTdata items that identify the SCI type (e.g., model element, program, data) repre-sented by the object, a project identiﬁ er, and change and/or version information. 
+Resources are “entities that are provided, processed, referenced or otherwise 
+required by the object” [Cho89]. For example, data types, speciﬁ c functions, or 
+even variable names may be considered to be object resources. The realization 
+is a pointer to the “unit of text” for a basic object and null for an aggregate object.  Conﬁ guration object identiﬁ
+ cation can also consider the relationships that 
+exist between named objects. For example, using the simple notation Class diagram <part-of> requirements model;  Requirements model <part-of> requirements speciﬁ cation; 
+  
+we create a hierarchy of SCIs.  In many cases, objects are interrelated across branches of the object hier-
+archy. These cross-structural relationships can be represented in the following 
+
+manner:   
+ 
+data model <interrelated> data ﬂ ow model; 
+ data model  <interrelated>  test case class m;  
+In the ﬁ rst case, the interrelationship is between a composite object, while the 
+second relationship is between an aggregate object ( DataModel 
+) and a basic object ( TestCaseClassM
+ 
+).  The identiﬁ cation scheme for software objects must recognize that objects 
+evolve throughout the software process. Before an object is baselined, it may 
+change many times, and even after a baseline has been established, changes may 
+be quite frequent.   
+ 
+ 
+29.3.2   
+Version Control 
+ 
+Version control combines procedures and tools to manage different versions of 
+conﬁ guration objects that are created during the software process. A version 
+control system implements or is directly integrated with four major capabilities: 
+(1) a project database (repository) that stores all relevant conﬁ guration objects, 
+(2) a  version management 
+ capability that stores all versions of a conﬁ
+ guration 
+object (or enables any version to be constructed using differences from past ver-
+
+sions), (3) a  make facility 
+ that enables you to collect all relevant conﬁ
+ guration ob-
+jects and construct a speciﬁ c version of the software. In addition, version control 
+and change control systems often implement an  issues tracking 
+ (also called  
+bug tracking 
+) capability that enables the team to record and track the status of all outstanding issues associated with each conﬁ guration object. 
+ A number of version control systems establish a  change set 
+—a collection of all changes (to some baseline conﬁ guration) that are required to create a spe-
+ciﬁ c version of the software. Dart [Dar91] notes that a change set “captures all 
+   Even if the project 
+database provides 
+the ability to 
+establish these 
+relationships, they are 
+time-consuming to 
+establish and difﬁ cult 
+
+to keep up to date. 
+Although very useful 
+
+for impact analysis, 
+they are not essential 
+for overall change 
+management. pre22126_ch29_623-652.indd   634pre22126_ch29_623-652.indd   63413/12/13   6:16 PM13/12/13   6:16 PM

@@ -1,0 +1,317 @@
+934 INDEX  diagrams of,   156, 191, 870  
+
+  operations (see also, 
+ Methods),   189  
+  persistent,   897  
+
+  process,   897  
+
+  testing,   481, 528  
+
+  user interface,   897   
+   Classic life cycle,   42   
+
+   Cleanroom  
+  design,   607  
+
+  process model,   603  
+
+  testing (see also, Statistical 
+use testing),   610   
+   Clear box,   605  
+  speciﬁ
+ cation,   607   
+   Closed paradigm team,   689   
+
+   Cloud computing,   10, 97, 405   
+
+   Cluster testing,   482, 529   
+
+   CMM,   38   
+
+   CMMI,   38, 828   
+
+   COCOMO II Model,   744   
+
+   Code quality,   454   
+
+   Code restructuring,   809   
+
+   Code reviews,   433   
+
+   Coding principles,   122   
+
+   Cohesion,   296, 898   
+
+   Collaboration,   140, 195  
+  diagram,   880  
+
+  tools,   98   
+   Collaborative development,   852   
+
+   Communication activity,   17  
+  principles of,   110  
+
+  diagram,   880  
+
+  team,   692  
+
+  work tasks,   696   
+   Compatibility tests,   554   
+
+   Completion,   484   
+
+   Complexity,  
+  management of,   845  
+
+  elements,   626   
+   Component model,   612   
+
+   Component-based 
+development,   53, 308   
+   Component-based software 
+engineering (CBSE),  
+
+ 308   
+   Component-based standards,  
+ 291   
+   Component-level metrics,   671   
+
+   Component-level testing,   555   
+
+   Components,  
+  adaptation,   310  
+
+  class-based,   291  
+
+  classiﬁ
+ cation,   312  
+  composition,   310  
+
+  deﬁ
+ nition of, 
+  286  
+  design guidelines,   295  
+
+  design of,   290, 299  
+
+  elaboration,   287  
+
+  object-oriented view,   286  
+
+  process-related view,   291  
+  retrieval,   312  
+
+  traditional view,   288  
+
+  WebApp design,   387   
+   Composition,   873   
+
+   Concurrent models,   49   
+   Condition testing,   507   
+
+   Conﬁ
+ guration audit, 
+  639   
+   Conﬁ
+ guration management, 
+  626   
+   Conﬁ
+ guration models, 
+  220   
+   Conﬁ
+ guration objects, 
+  642   
+   Conﬁ
+ guration review, 
+  484   
+   Conﬁ
+ guration testing, 
+  558   
+   Connectivity testing,   483   
+
+   Consistency,   526   
+
+   Construction activity,   17  
+  principles,   121   
+   Content  
+  model,   216  
+
+  objects,   379  
+
+  management,   643  
+
+  repository,   630  
+
+  testing,   545  
+
+  testing tools,   547, 645   
+   Context,   694   
+
+   Context aware apps,   399   
+
+   Contingency planning,   789   
+
+   Continuous process 
+improvement,   449   
+   Control structure testing,   507   
+
+   Controller class,   894   
+
+   Conventional software test 
+strategies,   475   
+   Coordination and 
+communication,   692   
+   Coordination, team,   692   
+
+   Correctness checks,  
+  OOA model,   525  
+
+  security,   591   
+   Correctness proof,   609   
+
+   Correctness veriﬁ
+ cation (see also, Design 
+veriﬁ cation),   608   
+   Cost estimation tools,   748   
+
+   Cost-effectiveness,   436   
+
+   Coupling,   298  
+  class,   898   
+   CRC model review,   527   
+
+   Critical practices,   699   
+
+   Cross-cutting concerns,   54, 237, 
+589   
+   Customer voice table,   146   
+
+   Customers,   111  
+  Myths about,   24   
+   Cyclomatic complexity,   503   
+
+       Data design,   244   
+
+   Data ﬂ
+ ow modeling, 
+  511   
+   Data ﬂ
+ ow testing, 
+  507   
+   Data restructuring,   810   
+
+   Data tree,   217   
+
+   Database testing,   547   
+
+   Debugging,   488  
+  automated,   492  
+
+  
+psychological considerations,   491    strategies,   491  
+
+  tactics,   491   
+   Decision tree,   749   
+
+   Decomposition,  
+  problem,   694   
+   Decomposition techniques, 
+estimation,   734   
+   Defect ampliﬁ
+ cation,   433   
+   Defect analysis,   450   
+
+   Defect removal efﬁ
+ ciency (DRE), 718   
+   
+Defects  (also see bug, faults),   432 
+  
+   Dependability,   591   
+
+   Dependencies,   198, 872  
+  inversion,   241  
+
+  management,   628  
+
+  tracking,   631   
+   Deployment  
+  activity,   17, 125  
+
+  diagram,   874  
+
+  testing,   487   
+   Deployment-level design,   248   
+
+   Depth-ﬁ
+ rst integration, 
+  480   
+   Design  
+  aesthetic,   377  
+
+  architectural,   267  
+
+  architectural elements,   244  
+
+  classes,   239  
+
+  cleanroom,   607  
+
+  component level,   247, 290, 
+299  
+  concepts,   231  
+
+  content,   379  
+
+  data,   244  
+
+  deployment level,   248  
+
+  evolution of,   230  
+
+  formal,   603  
+
+  granularity,   365  
+
+  interfaces,   245, 317  
+
+  metrics,   663  
+
+  model,   226  
+
+  navigation,   385  
+
+  object-oriented concepts,   238  
+
+  pattern-based,   347, 354  
+
+  postmodern,   854  
+
+  process,   228  
+
+  quality guidelines,   228, 454  
+
+  refactoring,   74  
+
+  reﬁ
+ nement,   237, 608  
+  reuse,   312  
+
+  scenario-based design,   532  
+
+  task set,   231  
+
+  technical reviews,   229  
+
+  test case,   242, 515  
+
+  traditional components,   307  
+
+  veriﬁ
+ cation,   608  
+  WebApps,   371   
+   Desk check,   439   
+
+   
+Device compatibility testing,   483   
+Classes (also see, object) (Cont.)

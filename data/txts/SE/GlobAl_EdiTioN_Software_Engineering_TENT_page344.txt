@@ -1,0 +1,35 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜ing that accidents will always be a possibility. It is impossible to make a system 100% 
+safe, and society has to decide whether or not the consequences of an occasional 
+ accident are worth the benefits that come from the use of advanced technologies.
+In the introduction to this chapter, I described an air accident at Warsaw Airport 
+
+where the braking system on an Airbus failed. The inquiry into this accident showed 
+that the braking system software had operated according to its specification. There 
+were no errors in the program. However, the software specification was incomplete 
+
+and had not taken into account a rare situation, which arose in this case. The soft-
+ware worked, but the system failed.This episode illustrates that system safety does not just depend on good engineer-ing. It requires attention to detail when the system requirements are derived and the 
+inclusion of special software requirements that are geared to ensuring the safety of a 
+system. Safety requirements are functional requirements, which define checking and 
+recovery facilities that should be included in the system and features that provide 
+
+protection against system failures and external attacks.The starting point for generating functional safety requirements is usually domain 
+knowledge, safety standards, and regulations. These lead to high-level requirements 
+
+that are perhaps best described as ﬁshall notﬂ requirements. By contrast with normal 
+
+functional requirements that define what the system shall do, ﬁshall notﬂ requirements 
+
+define system behavior that is unacceptable. Examples of ﬁshall notﬂ requirements are:ﬁThe system shall not allow reverse thrust mode to be selected when the aircraft 
+is in flight.ﬂﬁThe system shall not allow the simultaneous activation of more than three alarm signals.ﬂﬁThe navigation system shall not allow users to set the required destination when 
+the car is moving.ﬂThese ﬁshall notﬂ requirements cannot be implemented directly but have to be 
+decomposed into more specific software functional requirements. Alternatively, 
+they may be implemented through system design decisions such as a decision to use 
+particular types of equipment in the system.Risk-based requirements specificationRisk-based specification is an approach that has been widely used by safety and security-critical systems developers. 
+
+It˜focuses on those events that could cause the most damage or that are likely to occur frequently. Events that have only 
+
+minor consequences or that are extremely rare may be ignored. The risk-based specification process involves under-
+standing the risks faced by the system, discovering their root causes, and generating requirements to manage these risks.http://software-engineering-book.com/web/risk-based-specification/

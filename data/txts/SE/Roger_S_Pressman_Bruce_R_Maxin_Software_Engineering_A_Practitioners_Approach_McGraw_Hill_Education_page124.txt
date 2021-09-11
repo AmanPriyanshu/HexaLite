@@ -1,0 +1,90 @@
+94 PART ONE  
+THE SOFTWARE PROCESS
+preceding section and avoids many of the toxins that create problems. However, 
+the agile philosophy stresses individual (team member) competency coupled 
+with group collaboration as critical success factors for the team. Cockburn and 
+Highsmith [Coc01a] note this when they write:  
+If the people on the project are good enough, they can use almost any process and accomplish their assignment. If they are not good enough, no process will repair their 
+inadequacy—“people trump process” is one way to say this. However, lack of user and 
+
+executive support can kill a project—“politics trump people.” Inadequate support 
+can keep even good people from accomplishing the job.  
+ 
+ 
+ 
+ 
+  
+ 
+To make effective use of the competencies of each team member and to 
+foster effective collaboration through a software project, agile teams are  self- organizing.
+ 
+ A self-organizing team does not necessarily maintain a single team 
+structure, but instead, uses elements of Constantine’s random, open, and syn-
+
+chronous paradigms discussed in Section 6.2.   Many agile process models (e.g., Scrum) give the agile team signiﬁ cant au-
+tonomy to make the project management and technical decisions required to 
+get the job done. Planning is kept to a minimum, and the team is allowed to se-
+lect its own approach (e.g., process, methods, tools), constrained only by business 
+requirements and organizational standards. As the project proceeds, the team 
+self-organizes to focus individual competency in a way that is most beneﬁ cial to 
+the project at a given point in time. To accomplish this, an agile team might con-
+
+duct daily team meetings to coordinate and synchronize the work that must be 
+accomplished for that day. 
+ Based on information obtained during these meetings, the team adapts its approach in a way that accomplishes an increment of work. As each day passes, 
+continual self-organization and collaboration move the team toward a completed 
+software increment.   
+ 
+6.5.2 The  
+ 
+XP Team 
+ 
+  
+Beck [Bec04a] deﬁ nes a set of ﬁ
+ ve  
+values 
+ that establish a foundation for all work 
+performed as part of extreme programming (XP)—communication, simplicity, 
+
+feedback, courage, and respect. Each of these values is used as a driver for spe-
+ciﬁ c XP activities, actions, and tasks. 
+ 
+ 
+ 
+   
+In order to achieve effective  communication 
+ between the agile team and other 
+stakeholders (e.g., to establish required features and functions for the software), 
+XP emphasizes close, yet informal (verbal) collaboration between customers 
+and developers, the establishment of effective metaphors  4 
+ 
+ for communicating 
+   An agile team is a 
+self-organizing team 
+that has autonomy to 
+plan and make techni-
+cal decisions. 
+   Keep it simple 
+
+whenever you can, 
+but recognize that 
+continual “refactoring” 
+can absorb signiﬁ cant 
+
+time and resources. 
+  uote:  “Collective 
+ownership is 
+nothing more than 
+an instantiation 
+of the idea that 
+products should 
+be attributable to 
+the [agile] team, 
+not individuals 
+who make up the 
+team.”  Jim Highsmith 
+  
+4  In the XP context, a  
+metaphor 
+ is “a story that everyone—customers, programmers, and 
+ managers—can tell about how the system works” [Bec04a]. pre22126_ch06_087-102.indd   94pre22126_ch06_087-102.indd   9413/12/13   6:10 PM13/12/13   6:10 PM

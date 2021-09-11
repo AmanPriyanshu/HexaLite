@@ -1,0 +1,92 @@
+398 PART TWO  
+MODELING 
+ 
+ 
+ 
+ 
+18.2.2  User Interface Design 
+ 
+Mobile device users expect that minimal learning time will be required to master a MobileApp. To achieve this, MobileApp designers use consistent icon repre-
+
+sentations and placement across multiple platforms. In addition, designers must 
+be sensitive to the user’s expectation of privacy with regard to the display of 
+
+personal information on the screen of the mobile device. Touch and gesture in-
+
+terfaces, along with sophisticated voice input, are maturing rapidly [Shu12] and 
+have already become part of the user interface designer’s toolbox. 
+  
+ 
+Legal and ethical pressure to provide for access by all persons suggest that 
+mobile device interfaces need to account for brand differences, cultural differ-
+
+ences, differences in computing experience, elderly users, and users with dis-
+abilities (e.g., visual, aural, mobility). The effects of poor usability may mean that 
+
+users cannot complete their tasks or will not be satisﬁ ed with the results. This 
+suggests the importance of user-centered design activities in each of the usabil-
+
+ity areas (user interface, external accessory interface, and service interface). 
+
+In trying to meet stakeholder usability expectations, MobileApp developers 
+
+should attempt to answer these questions to assess the out-of-the-box readiness 
+
+of the device:  
+ 
+ 
+•  Is the user interface consistent across applications?   
+ 
+ 
+•  Is the device interoperable with different network services?   
+ 
+ 
+•  Is the device acceptable in terms of stakeholder values  13 
+ 
+ in the target  market area?  
+ 
+ 
+  Eisenstein [Eis01] claims that the use of abstract, platform-neutral models 
+to describe a user interface greatly facilitates the development of consistent, 
+
+usable multiplatform user interfaces for mobile devices. Called  model based 
+design,  this approach uses three different models. A  
+platform model 
+ describes 
+the constraints imposed by each platform to be supported. A  presentation 
+model 
+ describes the appearance of the user interface. The  
+task model 
+ is a 
+structured representation of the tasks a user needs to perform to meet her task 
+
+12) involves the creation 
+
+of databases that contain the models and has tool support for generating user 
+
+interfaces for multiple devices automatically. Utilizing model-based design 
+
+techniques can also help designers recognize and accommodate the unique 
+
+contexts and context changes that are present in mobile computing. Without 
+
+an abstract description of a user interface, the development of mobile user in-
+terfaces can be error-prone and time-consuming. 
+   Accessibility is an 
+important design 
+
+issue and must be 
+considered when 
+user-centered design is 
+applied.   
+13  Brand, ethical preferences, moral preferences, cognitive beliefs. 
+ 
+ uote:  “Mobile apps 
+force designers to 
+deeply understand 
+user needs so as 
+to provide just the 
+right functions in 
+a learnable and 
+useable interface.”  Ben 
+Schneiderman pre22126_ch18_391-410.indd   398pre22126_ch18_391-410.indd   39816/12/13   6:23 PM16/12/13   6:23 PM

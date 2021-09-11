@@ -1,0 +1,53 @@
+224 Chapter 3  
+Programs and Programminginconclusive value for sex, the system could compute results for both male and 
+female and report both.• Do nothing, if the error is minor, superficial, and is certain not to cause further 
+harm.For more guidance on defensive programming, consult Pfleeger et al. [PFL02].
+In this section we presented several characteristics of good, secure software. Of 
+course, a programmer can write secure code that has none of these characteristics, and 
+faulty software can exhibit all of them. These qualities are not magic; they cannot turn 
+
+bad code into good. Rather, they are properties that many examples of good code reflect 
+
+and practices that good code developers use; the properties are not a cause of good code 
+
+but are paradigms that tend to go along with it. Following these principles affects the 
+
+mindset of a designer or developer, encouraging a focus on quality and security; this 
+
+attention is ultimately good for the resulting product.Countermeasures that Don’t Work
+Unfortunately, a lot of good or good-sounding ideas turn out to be not so good on fur-
+
+ther reflection. Worse, humans have a tendency to fix on ideas or opinions, so dislodg-
+
+ing a faulty opinion is often more difficult than concluding the opinion the first time.
+In the security field, several myths remain, no matter how forcefully critics denounce 
+or disprove them. The penetrate-and-patch myth is actually two problems: People 
+
+assume that the way to really test a computer system is to have a crack team of brilliant 
+
+penetration magicians come in, try to make it behave insecurely and if they fail (that is, 
+
+if no faults are exposed) pronounce the system good. 
+The second myth we want to debunk is called security by obscurity, the belief that if 
+a programmer just doesn’t tell anyone about a secret, nobody will discover it. This myth 
+
+has about as much value as hiding a key under a door mat.
+Finally, we reject an outsider’s conjecture that programmers are so smart they can 
+write a program to identify all malicious programs. Sadly, as smart as programmers are, 
+
+that feat can be proven to be impossible.
+Penetrate-and-PatchBecause programmers make mistakes of many kinds, we can never be sure all programs 
+are without flaws. We know of many practices that can be used during software devel-
+
+opment to lead to high assurance of correctness. Let us start with one technique that 
+
+seems appealing but in fact does 
+not lead to solid code.Early work in computer security was based on the paradigm of 
+penetrate-and-patch, in which analysts searched for and repaired flaws. Often, a top-quality tiger team 
+(so called because of its ferocious dedication to finding flaws) would be convened to 
+
+test a system’s security by attempting to cause it to fail. The test was considered to be a 
+
+proof of security; if the system withstood the tiger team’s attacks, it must be secure, or 
+
+so the thinking went.

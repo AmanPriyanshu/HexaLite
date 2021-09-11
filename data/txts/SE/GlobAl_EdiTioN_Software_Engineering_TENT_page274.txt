@@ -1,0 +1,43 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜data. Collecting data is expensive, and the value of that data is difficult to judge; 
+therefore, the vast majority of companies do not think it is worthwhile to gather and 
+
+analyze software engineering data.In reality, most businesses are reluctant to spend more on software develop-ment to reduce longer-term maintenance costs. There are two main reasons for 
+
+their reluctance:1. Companies set out quarterly or annual spending plans, and managers are incen-tivized to reduce short-term costs. Investing in maintainability leads to short-
+term cost increases, which are measurable. However, the long-term gains can™t 
+be measured at the same time, so companies are reluctant to spend money on 
+something with an unknown future return.2.
+ Developers are not usually responsible for maintaining the system they have 
+
+developed. Consequently, they don™t see the point of doing additional work that 
+might reduce maintenance costs, as they will not get any benefit from it.The only way around this problem is to integrate development and maintenance 
+so that the original development team remains responsible for software throughout 
+
+its lifetime. This is possible for software products and for companies such as 
+
+Amazon, which develop and maintain their own software (O™Hanlon 2006). 
+
+However, for custom software developed by a software company for a client, this is 
+
+unlikely to happen.Maintenance prediction is concerned with trying to assess the changes that may be 
+
+required in a software system and with identifying those parts of the system that are 
+
+likely to be the most expensive to change. If you understand this, you can design the 
+software components that are most likely to change to make them more adaptable. 
+You can also invest effort in improving those components to reduce their lifetime 
+
+maintenance costs. By predicting changes, you can also assess the overall mainte-
+nance costs for a system in a given time period and so set a budget for maintaining 
+the software. Figure 
+9.13 shows possible predictions and the questions that these 
+predictions may answer.Predicting the number of change requests for a system requires an understanding of the relationship between the system and its external environment. Some systems 
+have a very complex relationship with their external environment, and changes to 
+
+that environment inevitably result in changes to the system. To evaluate the relation
+-
+ships between a system and its environment, you should look at:1. The number and complexity of system interfaces 
+The larger the number of inter
+-faces and the more complex these interfaces, the more likely it is that interface changes will be required as new requirements are proposed.

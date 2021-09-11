@@ -1,0 +1,35 @@
+˜˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜˜˜
+these systems. As I have suggested, this is the key factor that distinguishes a 
+system of systems from a system.3. Evolutionary development SoS are not developed in a single project but evolve 
+over time from their constituent systems.4. Emergence SoS have emergent characteristics that only become apparent after the SoS has been created. Of course, as I have discussed in Chapter 19, emer-
+gence is a characteristic of all systems, but it is particularly important in SoS.5. Geographical distribution of elements The elements of a SoS are often geograph-
+ically distributed across different organizations. This is important technically 
+
+because it means that an externally-managed network is an integral part of the 
+
+SoS. It is also important managerially as it increases the difficulties of communi-
+cation between those involved in making system management decisions and adds 
+
+to the difficulties of maintaining system security.ƒI would like to add two further characteristics to Maier™s list that are particularly relevant to systems of software systems:1. Data intensive A software SoS typically relies on and manages a very large 
+volume of data. In terms of size, this may be tens or even hundreds of times 
+
+larger than the code of the constituent systems itself.2. Heterogeneity The different systems in a software SoS are unlikely to have been 
+developed using the same programming languages and design methods. This is 
+a consequence of the very rapid pace of evolution of software technologies. 
+
+Companies frequently update their development methods and tools as new, 
+
+improved versions become available. In a 20-year lifetime of a large SoS, tech-
+nologies may change four or five times.As I discuss in Section 20.1, these characteristics mean that SoS can be much 
+more complex than systems with a single owner and manager. I believe that our cur-
+rent software engineering methods and techniques cannot scale to cope with this 
+
+complexity. Consequently, problems with the very large and complex systems that 
+we are now developing are inevitable. We need a completely new set of abstractions, 
+methods, and technologies for software systems of systems engineering.This need has been recognized independently by a number of different authori-ties. In the UK, a report published in 2004 (Royal Academy of Engineering 2004) 
+led to the establishment of a national research and training initiative in large-scale 
+complex IT systems (Sommerville et al. 2012). In the United States, the Software 
+Engineering Institute reported on Ultra-Large Scale Systems in 2006 (Northrop et al. 
+2006). From the systems engineering community, Stevens (Stevens 2010) discusses 
+the problems of constructing ﬁmega-systemsﬂ in transport, health care, and defense.ƒMaier, M. W. 1998. ﬁArchitecting Principles for Systems-of-Systems.ﬂ Systems Engineering 1 (4): 
+267Œ284. doi:10.1002/(SICI)1520-6858(1998)1:4<267::AID-SYS3>3.0.CO;2-D.

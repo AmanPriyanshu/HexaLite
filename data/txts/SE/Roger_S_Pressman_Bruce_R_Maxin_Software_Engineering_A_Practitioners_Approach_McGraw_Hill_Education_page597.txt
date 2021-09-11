@@ -1,0 +1,106 @@
+567 TESTINGMOBILEAPPS   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ The same sense of urgency that drives WebApp projects also pervades 
+MobileApp projects. Stakeholders are worried that they will miss a 
+market window and press to get the MobileApp into the store. Technical 
+activities that often occur late in the process, such as performance and secu-
+rity testing, are sometimes given short shrift. Usability testing that should 
+occur during the design phase may end up being deferred until just before 
+delivery. These can be catastrophic mistakes. To avoid this situation, you and 
+
+other team members must ensure that each work product exhibits high qual-
+ity. A white paper posted by Soasta [Soa11] summarizes this:
+  
+Mobile technology is simply ramping up faster than other technologies in the past—it may be the fastest adoption curve in history. And this has important impli-
+
+cations for your business model. You’ve got to be fast to market but also prepared 
+
+for rapid adoption. If your application performs poorly, or fails under load, many 
+
+competitors are ready to take your place—the barriers to entry are low. 
+  
+ 
+MobileApp requirements and design models cannot be tested solely with executable test cases. You and your team should conduct technical reviews
+  
+What is it?   MobileApp testing is a collection of related activities with 
+a single goal: to uncover errors in 
+MobileApp content, function, us-ability, navigability, performance, capacity, 
+
+and security. To accomplish this, a testing strat-
+
+egy that encompasses both reviews and exe-
+cutable testing is applied.   
+ 
+Who does it?   Software engineers and other project stakeholders (managers, customers, 
+end users) all participate in MobileApp testing. 
+  
+ 
+Why is it important? 
+  If end users encounter errors or difﬁ culties within the MobileApp, they 
+will go elsewhere for the personalized content 
+and function they need. For this reason, you 
+must work to ﬁ nd and correct as many errors 
+as possible before the MobileApp is placed in 
+an app store or repository. 
+  
+ 
+What are the steps?   The MobileApp testing 
+process begins by focusing on user-visible 
+aspects of the MobileApp and proceeds 
+to testing of technology and infrastructure. 
+
+Several testing steps are performed: content 
+
+testing, interface testing, navigation testing, 
+
+component testing, conﬁ guration testing, 
+ performance testing, and security testing. 
+  
+ 
+What is the work product? 
+  A MobileApp test plan is often produced. A suite of test 
+cases is developed for each testing step and 
+an  archive of test results is maintained for  future use.   
+ 
+How do I ensure that I’ve done it right?   Al-though you can never be sure that you’ve per-
+
+formed every test that is needed, you can be 
+
+certain that testing has uncovered errors (and 
+
+that those errors have been corrected). In ad-
+dition, if you’ve established a test plan, you 
+can check to ensure that all planned tests have 
+been conducted.   
+QUICK LOOK  KEY CONCEPTS     automation. . . . . . 571  
+    checklist. . . . . . . . 570  
+
+    guidelines. . . . . . . 568  
+
+    internationalization. 578  
+
+    real-time testing. . 578  
+
+    strategies. . . . . . . 569  
+
+    stress testing  . . . . 573  
+
+    testing-in-the-wild  .573  
+
+    test matrix. . . . . . 572  
+
+    tools and 
+
+environments  . . . . 579  
+
+          usability testing  . . 575    
+  
+ 
+ 
+CHAPTER26 pre22126_ch26_567-583.indd   567pre22126_ch26_567-583.indd   56713/12/13   6:15 PM13/12/13   6:15 PM

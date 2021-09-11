@@ -1,0 +1,30 @@
+ Section 4.2  Web Attacks Targeting Users 
+249  Fake CodeIn Chapter 3 we considered malicious code—its sources, effects, and countermeasures. 
+We described how opening a document or clicking a link can lead to a surreptitious 
+
+download of code that does nothing obvious but installs a hidden infection. One trans-
+
+mission route we did not note was an explicit download: programs intentionally installed 
+
+that may advertise one purpose but do something entirely different. Figure 4-8 shows 
+a seemingly authentic ad for a replacement or update to the popular Adobe Reader. 
+
+The link from which it came (www.pdf-new-2010-download.com) was redirected from 
+
+www.adobe-download-center.com; both addresses seem like the kinds of URLs Adobe 
+
+might use to distribute legitimate software.
+Whether this attack is meant just to deceive or to harm depends on what code is 
+actually delivered. This example shows how malicious software can masquerade as 
+
+legitimate. The charade can continue unnoticed for some time if the malware at least 
+
+seems to implement its ostensible function, in this case, displaying and creating PDF 
+documents. Perhaps the easiest way for a malicious code writer to install code on a 
+
+target machine is to create an application that a user willingly downloads and installs. 
+
+As we describe in Chapter 13, smartphone apps are well suited for distributing false or 
+
+misleading code because of the large number of young, trusting smartphone users.
+FIGURE 4-8 Advertisement of Fake Software

@@ -1,0 +1,70 @@
+CHAPTER 14  
+COMPONENT-LEVEL DESIGN
+ 295 
+ 
+ 
+The Common Reuse Principle (CRP).   “ 
+Classes that aren’t reused together should 
+not be grouped together”
+ 
+ [Mar00]. When one or more classes with a package 
+changes, the release number of the package changes. All other classes or pack-
+ages that rely on the package that has been changed must now update to the 
+most recent release of the package and be tested to ensure that the new release 
+operated without incident. If classes are not grouped cohesively, it is possible that 
+
+a class with no relationship to other classes within a package is changed. This will 
+precipitate unnecessary integration and testing. For this reason, only classes that 
+are reused together should be included within a package.   
+ 
+ 
+14.2.2 Component-Level Design Guidelines 
+ 
+In addition to the principles discussed in Section 14.2.1, a set of pragmatic design guidelines can be applied as component-level design proceeds. These guidelines 
+apply to components, their interfaces, and the dependencies and inheritance 
+characteristics that have an impact on the resultant design. Ambler [Amb02b] 
+suggests the following guidelines:   
+ 
+ 
+ 
+ 
+ 
+Components.   
+Naming conventions should be established for components 
+that are speciﬁ ed as part of the architectural model and then reﬁ
+ ned and 
+elaborated as part of the component-level model. Architectural component 
+
+names should be drawn from the problem domain and should have meaning 
+
+to all stakeholders who view the architectural model. For example, the class 
+
+name  FloorPlan 
+ is meaningful to everyone reading it regardless of technical 
+background. On the other hand, infrastructure components or elaborated 
+
+component-level classes should be named to reﬂ ect implementation-speciﬁ
+ c 
+meaning. If a linked list is to be managed as part of the  FloorPlan 
+ implementa-
+tion, the operation  manageList() 
+ is appropriate, even if a nontechnical person 
+might misinterpret it.  3  
+   
+You can choose to use stereotypes to help identify the nature of components at 
+the detailed design level. For example, <<infrastructure>> might be used to identify an infrastructure component, <<database>> could be used to identify a database 
+that services one or more design classes or the entire system; <<table>> can be 
+used to identify a table within a database.   
+ 
+Interfaces.   Interfaces provide important information about communication and collaboration (as well as helping us to achieve the OPC). However, unfet-
+
+tered representation of interfaces tends to complicate component diagrams. 
+Ambler [Amb02c] recommends that (1) lollipop representation of an interface 
+should be used in lieu of the more formal UML box and dashed arrow approach, 
+when diagrams grow complex; (2) for consistency, interfaces should ﬂ
+ ow from the 
+ What should 
+we consider when we name 
+components?  ?  
+3  It is unlikely that someone from marketing or the customer organization (a nontechnical type) 
+would examine detailed design information. pre22126_ch14_285-316.indd   295pre22126_ch14_285-316.indd   29513/12/13   6:12 PM13/12/13   6:12 PM

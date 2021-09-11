@@ -1,0 +1,56 @@
+ Section 2.3  Cryptography 
+115  Properties of Digital Signatures Suppose Sheila sends her bank a message authorizing it to transfer $100 to Rob. Sheila’s 
+
+bank must be able to verify and prove that the message really came from Sheila if she 
+
+should later disavow sending the message. (This property is called 
+non-repudiation
+.) The bank also wants to know that the message is entirely Sheila’s, that it has not been 
+
+altered along the way. For her part, Sheila wants to be certain that her bank cannot forge 
+
+such messages. (This property is called authenticity.) Both parties want to be sure that 
+the message is new, not a reuse of a previous message, and that it has not been altered 
+
+during transmission. Using electronic signals instead of paper complicates this process.But we have ways to make the process work. A 
+digital signature
+ is a protocol that 
+produces the same effect as a real signature: It is a mark that only the sender can make 
+
+but that other people can easily recognize as belonging to the sender. Just like a real 
+
+signature, a digital signature confirms agreement to a message.
+A digital signature must meet two primary conditions:
+• It must be 
+unforgeable
+. If person S signs message 
+M with signature 
+Sig(S,M), no one else can produce the pair [M,Sig(S,M)].• It must be 
+authentic. If a person R receives the pair [
+M, Sig
+(S,M)] purportedly 
+from S, R can check that the signature is really from 
+S. Only S could have cre-
+ated this signature, and the signature is firmly attached to 
+M.These two requirements, shown in Figure 2-26, are the major hurdles in computer 
+transactions. Two more properties, also drawn from parallels with the paper-based envi-
+
+ronment, are desirable for transactions completed with the aid of digital signatures:• It is 
+not alterable. 
+After being transmitted, 
+M cannot be changed by 
+S, R, or an 
+interceptor.
+• It is 
+not reusable. 
+A previous message presented again will be instantly detected 
+by R.To see how digital signatures work, we first present a mechanism that meets the first 
+two requirements. We then add to that solution to satisfy the other requirements. We 
+
+develop digital signatures in pieces: first building a piece to address alterations, then 
+
+describing a way to ensure authenticity, and finally developing a structure to establish 
+
+identity. Eventually all these parts tie together in a conceptually simple framework.
+Mark onlythe sendercan makeAuthenticUnforgeable
+Mark fixedtodocumentFIGURE 2-26 Digital Signature Requirements

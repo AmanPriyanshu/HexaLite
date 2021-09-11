@@ -1,0 +1,68 @@
+ Section 2.1  Authentication 
+39  Some account IDs are not hard to guess. Some places assign user IDs as the user’s 
+last name followed by first initial. Others use three initials or some other scheme that 
+
+outsiders can easily predict. Often for online transactions your account ID is your email 
+address, to make it easy for you to remember. Other accounts identify you by telephone, 
+
+social security, or some other identity number. With too many accounts to remember, 
+
+you may welcome places that identify you by something you know well because you 
+
+use it often. But using it often also 
+
+means other people can know or 
+
+guess it as well. For these reasons, 
+
+many people could easily, although 
+
+falsely, claim to be you by present-
+
+ing one of your known identifiers.
+Authentication, on the other hand, should be reliable. If identification asserts your 
+identity, authentication confirms that you are who you purport to be. Although identi-
+
+fiers may be widely known or easily determined, authentication should be private. How-
+
+ever, if the authentication process is not strong enough, it will not be secure. Consider, 
+
+for example, how one political candidate’s email was compromised by a not-private-
+
+enough authentication process as described in Sidebar 2-1.SIDEBAR 2-1  
+Vice Presidential Candidate Sarah Palin’s 
+Email ExposedDuring the 2008 U.S. presidential campaign, vice presidential candidate 
+Sarah Palin’s personal email account was hacked. Contents of email mes-
+
+sages and Palin’s contacts list were posted on a public bulletin board. A 
+
+20-year-old University of Tennessee student, David Kernell, was subse-
+
+quently convicted of unauthorized access to obtain information from her 
+
+computer and sentenced to a year and a day.
+How could a college student have accessed the computer of a high-profile public official who at the time was governor of Alaska and a U.S. vice 
+
+presidential candidate under protection of the U.S. Secret Service? Easy: 
+
+He simply pretended to be her. But surely nobody (other than, perhaps, 
+
+comedian Tina Fey) could successfully impersonate her. Here is how easy 
+
+the attack was.Governor Palin’s email account was gov.palin@yahoo.com. The 
+account ID was well known because of news reports of an earlier incident 
+
+involving Palin’s using her personal account for official state communica-
+
+tions; even without the publicity the account name would not have been 
+
+hard to guess. 
+But the password? No, the student didn’t guess the password. All 
+he had to do was pretend to be Palin and claim she had forgotten her 
+
+password. Yahoo asked Kernell the security questions Palin had filed with 
+
+Yahoo on opening the account: birth date (found from Wikipedia), postcode 
+Identities are typically public or well 
+known. Authentication should be 
+private.(continues)

@@ -1,0 +1,71 @@
+ Section 3.1  Unintentional (Nonmalicious) Programming Oversights 
+145  Affecting the Operating System or a Critical Application 
+The same basic scenarios occur for operating system code or data as for users, although 
+again there are important variations. Exploring these differences also leads us to con-
+
+sider motive, and so we shift from thinking of what are essentially accidents to inten-
+
+tional malicious acts by an attacker. 
+Because the mix of programs changes continually on a computing system, there is little opportunity to affect any one particular use. We now consider the case in which 
+
+an attacker who has already overtaken an ordinary user now wants to overtake the oper-
+
+ating system. Such an attack can let the attacker plant permanent code that is reacti-
+
+vated each time a machine is restarted, for example. Or the attack may expose data, 
+
+for example, passwords or cryptographic keys that the operating system is entrusted 
+
+to safeguard. So now let us consider the impact a (compromised) user can have on the 
+
+operating system.Users’ code and data are placed essentially at random: wherever there is free memory 
+of an appropriate size. Only by tracing through system memory allocation tables can 
+you learn where your program and data appear in memory. However, certain portions of 
+
+the operating system are placed at particular fixed locations, and other data are located 
+
+at places that can easily be determined during execution. Fixed or easily determined 
+
+location distinguishes operating system routines, especially the most critical ones, from 
+a user’s code and data.
+A second distinction between ordinary users and the operating system is that a user 
+runs without operating system privileges. The operating system invokes a user’s program 
+
+as if it were a subprocedure, and the operating system receives control back when the 
+
+user’s program exits. If the user can alter what the operating system does when it regains 
+
+control, the user can force the operating system to execute code the user wants to run, 
+
+but with elevated privileges (those 
+
+of the operating system). Being able 
+
+to modify operating system code 
+
+or data allows the user (that is, an 
+
+attacker acting as the user) to obtain 
+
+effective privileged status.
+The call and return sequence operates under a well-defined protocol using a data 
+structure called the stack. Aleph One (Elias Levy) describes how to use buffer overflows 
+
+to overwrite the call stack [ALE96]. In the next section we show how a programmer can 
+
+use an overflow to compromise a computer’s operation.
+The Stack and the HeapThe stack is a key data structure necessary for interchange of data between procedures, 
+as we described earlier in this chapter. Executable code resides at one end of memory, 
+
+which we depict as the low end; above it are constants and data items whose size is 
+
+known at compile time; above that is the heap for data items whose size can change dur-
+
+ing execution; and finally, the stack. Actually, as shown earlier in Figure 3-1, the heap 
+
+and stack are at opposite ends of the memory left over after code and local data.
+When procedure A calls procedure B, A pushes onto the stack its return address (that 
+is, the current value of the program counter), the address at which execution should 
+Privilege escalation, executing attack 
+code with higher system permissions, is 
+a bonus for the attacker.

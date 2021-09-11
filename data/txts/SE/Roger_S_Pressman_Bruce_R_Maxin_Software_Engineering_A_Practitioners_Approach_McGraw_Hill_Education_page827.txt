@@ -1,0 +1,66 @@
+CHAPTER 36  
+MAINTENANCE AND REENGINEERING 797grown long, and the work it implies threatens to overwhelm the available re-sources. As time passes, your organization ﬁ nds that it’s spending more money 
+and time maintaining existing programs than it is engineering new applications. 
+In fact, it’s not unusual for a software organization to expend as much as 60 to 
+
+ You may ask why so much maintenance is required and why so much effort is 
+expended. Osborne and Chikofsky [Osb90] provide a partial answer:   
+Much of the software we depend on today is on average 10 to 15 years old. Even when these programs were created using the best design and coding techniques known 
+at the time [and most were not], they were created when program size and storage 
+space were principle concerns. They were then migrated to new platforms, adjusted 
+for changes in machine and operating system technology and enhanced to meet 
+new user needs—all without enough regard to overall architecture. The result is the 
+poorly designed structures, poor coding, poor logic, and poor documentation of the 
+ 
+  
+Another reason for the software maintenance problem is the mobility of software people. It is likely that the software team (or person) that did the original work 
+is no longer around. Worse, other generations of software people have modiﬁ
+ ed 
+the system and moved on. And today, there may be no one left who has any direct 
+
+knowledge of the legacy system.  
+   
+As we noted in Chapter 29, the ubiquitous nature of change underlies all soft-ware work. Change is inevitable when computer-based systems are built; there-
+
+fore, you must develop mechanisms for evaluating, controlling, and making 
+modiﬁ cations. 
+ Throughout this book, we’ve emphasized the importance of understanding the 
+2 
+
+of the book is dedicated to the mechanics of these software engineering actions, and 
+
+Part 3 focuses on the techniques required to be sure you’ve done them correctly. 
+
+Both analysis and design lead to an important software characteristic that we call 
+
+maintainability. In essence,  
+maintainability 
+ is a qualitative indication 
+ 1 
+ 
+ of the ease 
+with which existing software can be corrected, adapted, or enhanced. Much of what 
+
+software engineering is about is building systems that exhibit high maintainability. 
+ 
+ 
+  But what is maintainability? Maintainable software exhibits effective modu-larity (Chapter 12). It makes use of design patterns (Chapter 16) that allow ease of 
+understanding. It has been constructed using well-deﬁ ned coding standards and 
+conventions, leading to source code that is self-documenting and understand-
+able. It has undergone a variety of quality assurance techniques (Part 3 of this 
+book) that have uncovered potential maintenance problems before the software 
+is released. It has been created by software engineers who recognize that they   uote:  “Program 
+maintainability 
+and program 
+understandability 
+are parallel 
+concepts: the more 
+difﬁ cult a program 
+
+is to understand, 
+the more difﬁ cult it 
+
+is to maintain.  Gerald Berns 
+  
+1  There are many quantitative measures that provide an indirect indication of maintainability 
+(e.g., [Sch99], [SEI02]). pre22126_ch36_795-816.indd   797pre22126_ch36_795-816.indd   79713/12/13   6:17 PM13/12/13   6:17 PM

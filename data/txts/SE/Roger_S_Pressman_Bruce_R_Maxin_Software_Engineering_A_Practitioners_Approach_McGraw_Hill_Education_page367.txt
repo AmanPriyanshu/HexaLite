@@ -1,0 +1,118 @@
+CHAPTER 15  
+USER INTERFACE DESIGN
+ 337 
+ 
+ 
+ 
+ 
+ 
+ 
+ 15.5 W
+EBAPP AND MOBILE INTERFACE
+ DESIGN  
+ 
+Every user interface—whether it is designed for a WebApp, a mobile device, a 
+traditional software application, a consumer product, or an industrial device—
+should exhibit the usability characteristics that were discussed earlier in this 
+chapter. Dix [Dix99] argues that WebApp and mobile interfaces should answer 
+
+three primary questions:  Where am I? What can I do now? Where have I been and 
+where can I go?
+ 
+ Answers to these questions allow a user to understand context 
+and navigate more effectively through the app.   
+15.5.1  Interface Design Principles and Guidelines 
+ 
+ 
+The user interface of a Web or mobile app is its “ﬁ
+ rst impression.” Regardless of 
+the value of its content, the sophistication of its processing capabilities and ser-
+
+vices, and the overall beneﬁ t of the application itself, a poorly designed interface 
+will disappoint the potential user and may, in fact, cause the user to go elsewhere. 
+
+Because of the sheer volume of competing WebApps and mobile apps in virtually 
+
+every subject area, the interface must “grab” a potential user immediately. 
+ There are, of course, important differences between WebApps and mobile 
+apps. By virtue of the physical constraints imposed by small mobile devices   
+User Interface Development              
+ 
+ Objective:   These tools enable a software engineer to create a sophisticated GUI with relatively little custom software development. The tools 
+provide access to reusable components and make 
+the creation of an interface a matter of selecting from 
+
+predeﬁ ned capabilities that are assembled using the 
+tool.   
+ Mechanics: 
+ 
+ Modern user interfaces are constructed 
+using a set of reusable components that are coupled 
+
+with some custom components developed to provide 
+
+specialized features. Most user interface development 
+
+tools enable a software engineer to create an 
+
+interface using “drag and drop” capability. That 
+
+is, the developer selects from many predeﬁ ned 
+
+capabilities (e.g., forms builders, interaction 
+
+mechanisms, command processing capability) and 
+
+places these capabilities within the content of the 
+
+interface to be created. 
+  
+ 
+ 
+Representative Tools:  5 
+ 
+  
+ 
+ 
+LegaSuite GUI, 
+ developed by Seagull Software (  
+http://www-304.ibm.com/partnerworld/gsd/
+
+solutiondetails.do?solution=1020&expand=true&lc=en 
+ 
+), enables the creation of browser-
+based GUIs and provides facilities for reengineering 
+
+antiquated interfaces. 
+  
+Motif Common Desktop Environment, 
+ developed by  
+www.osf.org/tech/desktop/
+cde/ 
+ 
+), is an integrated graphical user interface for 
+open systems desktop computing. It delivers a single, 
+standard graphical interface for the management 
+
+of data and ﬁ les (the graphical desktop) and 
+applications.   
+Altia Design 8.0, 
+ developed by Altia (  
+www.altia.
+com 
+ 
+), is a tool for creating GUIs on a variety of different platforms (e.g., automotive, handheld, 
+
+industrial).   
+SOFTWARE
+ TOOLS  
+ 
+5  Tools noted here do not represent an endorsement, but rather a sampling of tools in this 
+category. 
+  uote:  “If a site is 
+perfectly usable 
+but it lacks an 
+elegant and 
+appropriate design 
+style, it will fail.”  Curt Cloninger 
+pre22126_ch15_317-346.indd   337pre22126_ch15_317-346.indd   33713/12/13   10:01 PM13/12/13   10:01 PM

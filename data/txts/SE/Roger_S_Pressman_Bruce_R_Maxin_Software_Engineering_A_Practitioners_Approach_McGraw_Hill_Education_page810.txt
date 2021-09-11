@@ -1,0 +1,143 @@
+780 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 35.3  
+RISK IDENTIFICATION
+  
+ 
+Risk identiﬁ cation is a systematic attempt to specify threats to the project plan 
+(estimates, schedule, resource loading, etc.). By identifying known and predict-
+able risks, the project manager takes a ﬁ rst step toward avoiding them when 
+possible and controlling them when necessary. 
+  
+ 
+ 
+ 
+ 
+There are two distinct types of risks for each of the categories that have been presented in Section 35.2.  Generic risks 
+ are a potential threat to every software 
+project.  Product-speciﬁ
+ c risks
+ 
+ can be identiﬁ
+ ed only by those with a clear under-
+standing of the technology, the people, and the environment that is speciﬁ
+ c to the 
+software that is to be built. To identify product-speciﬁ
+ c risks, the project plan and 
+the software statement of scope are examined, and an answer to the following 
+question is developed: “What special characteristics of this product may threaten 
+our project plan?”  One method for identifying risks is to create a risk item checklist. The check-
+list can be used for risk identiﬁ cation and focuses on some subset of known and 
+predictable risks in the following generic subcategories:   
+ 
+ 
+•   
+Product size
+ 
+—Risks associated with the overall size of the software to be built or modiﬁ ed. 
+  
+ 
+ 
+•   
+Business impact 
+—Risks associated with constraints imposed by manage-ment or the marketplace.   
+ 
+ 
+•   
+Stakeholder characteristics 
+—Risks associated with the sophistication of the stakeholders and the developer’s ability to communicate with stake-
+
+holders in a timely manner. 
+    Although generic 
+risks are important 
+
+to consider, it’s the 
+
+product-speciﬁ c risks 
+
+that cause the most 
+headaches. Be certain 
+
+to spend the time 
+to identify as many 
+product-speciﬁ c risks as 
+
+possible.   
+Seven Principles of Risk Management  
+The Software Engineering Institute (SEI) (  
+www.sei.cmu.edu
+ 
+ 
+) identiﬁ es seven prin-
+ciples that “provide a framework to accomplish effective 
+risk management.” They are:   
+ 
+ 
+ 
+ 
+Maintain a global perspective 
+—view software risks within the context of a system in which it is 
+a component and the business problem that it is 
+intended to solve.    
+ 
+ 
+ 
+Take a forward-looking view
+ 
+—think about the risks that may arise in the future (e.g., due to changes 
+in the software); establish contingency plans so that 
+future events are manageable.    
+ 
+ 
+ 
+Encourage open communication 
+—if someone states 
+a potential risk, don’t discount it. If a risk is proposed 
+in an informal manner, consider it. Encourage all 
+stakeholders and users to suggest risks at any time. 
+   
+ 
+ 
+ 
+Integrate 
+—a consideration of risk must be integrated into the software process.    
+ 
+ 
+ 
+Emphasize a continuous process
+ 
+—the team must 
+be vigilant throughout the software process, modifying 
+
+identiﬁ ed risks as more information is known and 
+adding new ones as better insight is achieved. 
+   
+ 
+ 
+ 
+Develop a shared product vision
+ 
+—if all stakeholders 
+share the same vision of the software, it is likely that 
+
+better risk identiﬁ cation and assessment will occur. 
+   
+ 
+ 
+ 
+Encourage teamwork 
+—the talents, skills, and knowledge of all stakeholders should be pooled 
+when risk management activities are conducted.  
+ 
+  
+INFO pre22126_ch35_777-794.indd   780pre22126_ch35_777-794.indd   78013/12/13   6:17 PM13/12/13   6:17 PM

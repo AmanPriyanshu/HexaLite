@@ -1,0 +1,26 @@
+872 APPENDIX 1  AN INTRODUCTION TO UML An  association  between two classes means that there is a structural relation-ship between them. Associations are represented by solid lines. An association 
+has many optional parts. It can be labeled, as can each of its ends, to indicate the 
+role of each class in the association. For example, in   Figure A1.2, there is an as-sociation between  OwnedObject  and  Person  in which the  Person  plays the role of owner. Arrows on either or both ends of an association line indicate navigabil-
+ity. Also, each end of the association line can have a multiplicity value displayed. 
+Navigability and multiplicity are explained in more detail later in this section. 
+An association might also connect a class with itself, using a loop. Such an as-
+sociation indicates the connection of an object of the class with other objects of 
+the same class.  An association with an arrow at one end indicates one-way navigability. The arrow means that from one class you can easily access the second associated 
+class to which the association points, but from the second class, you cannot nec-
+essarily easily access the ﬁ rst class. Another way to think about this is that the 
+ﬁ rst class is aware of the second class, but the second class object is not nec-
+essarily directly aware of the ﬁ rst class. An association with no arrows usually 
+indicates a two-way association, which is what was intended in   Figure A1.2, but it could also just mean that the navigability is not important and so was left off.  It should be noted that an attribute of a class is very much the same thing as an association of the class with the class type of the attribute. That is, to indi-
+cate that a class has a property called “name” of type String, one could display 
+that property as an attribute, as in the  Horse  class in   Figure A1.2. Alternatively, one could create a one-way association from the  Horse  class to the  String  class with the role of the  String  class being “name.” The attribute approach is better for primitive data types, whereas the association approach is often better if the 
+property’s class plays a major role in the design, in which case it is valuable to 
+have a class box for that type.  A  dependency  relationship represents another connection between classes and is indicated by a dashed line (with optional arrows at the ends and with op-
+tional labels). One class depends on another if changes to the second class might 
+require changes to the ﬁ rst class. An association from one class to another auto-
+matically indicates a dependency. No dashed line is needed between classes if 
+there is already an association between them. However, for a transient relation-
+ship (i.e., a class that does not maintain any long-term connection to another 
+class but does use that class occasionally) we should draw a dashed line from 
+the ﬁ rst class to the second. For example, in  
+ Figure A1.2, the  Thoroughbred  class uses the  Date  class whenever its  getCurrentAge()  method is invoked, and so the dependency is labeled “uses.”  The  multiplicity  of one end of an association means the number of objects of that class associated with the other class. A multiplicity is speciﬁ ed by a non-
+negative integer or by a range of integers. A multiplicity speciﬁ ed by “0..1” means 

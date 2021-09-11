@@ -1,0 +1,81 @@
+ Section 5.3  Rootkit 
+337  of drivers associated with access to each disk device. These filters drop all references 
+to files whose names begin with “tdl,” the file name prefix TDL uses for all its files. 
+
+With these filters, TDL-1 can install as many files as it requires, anywhere on any disk 
+
+volume. Furthermore, the filters block direct access to any disk volume, and other filters 
+
+limit access to network ports, all by installation of malicious drivers, the operating sys-
+
+tem routines that handle communication with devices.
+The Windows registry, the database of critical system information, is loaded with 
+entries to cause these malicious drivers to reload on every system startup. The TDL-1 
+
+rootkit hides these registry values by modifying the system function NTEnumerateKey, 
+
+used to list data items (keys) in the registry. The modification replaces the first few 
+
+bytes of the system function with a jump instruction to transfer to the rootkit func-
+
+tion, which skips over any rootkit 
+
+keys before returning control to the 
+
+normal system function. Modify-
+
+ing code by inserting a jump to an 
+
+extension is called 
+splicing, and a 
+driver infected this way is said to 
+
+have been 
+hooked
+.In early 2009, the second version, TDL-2 appeared. Functionality and operation 
+were similar to those of TDL-1, the principal difference being that the code itself 
+ was obscured by scrambling, encrypted, and padded with nonsense data such as words 
+
+from Hamlet. Later that year, the TDSS developers unleashed TDL-3. Becoming even more 
+sophisticated, TDL-3 implemented its own file system so that it could be completely 
+
+independent of the regular Windows functions for managing files using FAT (file allo-
+
+cation table) or NTFS (NT file system) technology [DRW09]. The rootkit hooked to a 
+
+convenient driver, typically atapi.sys, the driver for IDE hard disk drives, although it 
+
+could also hook to the kernel, according to Microsoft’s Johnson [JOH10]. At this point, 
+
+TDSS developers introduced command-and-control servers with which the rootkit com-
+
+municates to receive work assignments and to return data collected or other results. (We 
+
+explore in detail distributed denial of service, another application of command-and-
+
+control servers, in Chapter 6.) 
+TDL-3 also began to communicate by using an encrypted communications stream, 
+effectively preventing analysts from interpreting the data stream. All these changes 
+
+made the TDSS family increasingly difficult to detect. 
+NetworkWorld
+ estimated that 
+in 2009, 3 million computers were controlled by TDSS, more than half of which were 
+
+located in the United States. These controlled computers are sold or rented for various 
+
+tasks, such as sending spam, stealing data, or defrauding users with fake antivirus tools.
+But TDL-3 is not the end of the line. A fourth generation, TDL-4, appeared in 
+Autumn 2010. This version circumvented the latest Microsoft security techniques.
+TDL-4 follows the path of other TDSS rootkits by hooking system drivers to install 
+itself and remain undetected. But during this time, Microsoft’s 64-bit Windows software 
+
+implemented a cryptographic technique by which a portion of each driver is encrypted, 
+
+using a digital signature, as we explained in Chapter 2. Basically, Microsoft’s digital 
+
+signatures let it verify the source and integrity of kernel-level code each time the code 
+Splicing: a technique allowing third-
+
+party code to be invoked to service 
+interrupts and device driver calls

@@ -1,0 +1,50 @@
+˜˜˚ˆ˜˜˜
+˜˜
+In other types of language processing system, such as a natural language translator, there will be additional components such as a dictionary. The output of the system is 
+
+translation of the input text.Figure 6.
+21 illustrates how a language processing system can be part of an inte-grated set of programming support tools. In this example, the symbol table and syn-
+tax tree act as a central information repository. Tools or tool fragments communicate 
+
+through it. Other information that is sometimes embedded in tools, such as the gram
+-
+mar definition and the definition of the output format for the program, have been 
+
+taken out of the tools and put into the repository. Therefore, a syntax-directed editor 
+
+can check that the syntax of a program is correct as it is being typed. A program 
+
+formatter can create listings of the program that highlight different syntactic ele
+-
+ments and are therefore easier to read and understand.Alternative Architectural patterns may be used in a language processing system (Garlan and Shaw 1993). Compilers can be implemented using a composite of a 
+
+repository and a pipe and filter model. In a compiler architecture, the symbol table is 
+a repository for shared data. The phases of lexical, syntactic, and semantic analysis 
+are organized sequentially, as shown in Figure 6.22, and communicate through the 
+shared symbol table.This pipe and filter model of language compilation is effective in batch environ-ments where programs are compiled and executed without user interaction; for 
+
+example, in the translation of one XML document to another. It is less effective when 
+
+a compiler is integrated with other language processing tools such as a structured 
+
+editing system, an interactive debugger, or a program formatter. In this situation, 
+
+changes from one component need to be reflected immediately in other components. 
+
+It is better to organize the system around a repository, as shown in Figure 6.21 if you 
+
+are implementing a general, language-oriented programming environment.Lexical
+analysis
+Syntactic
+analysis
+Semanticanalysis
+Codegeneration
+Symbol ta
+bleSyntax tree
+Figure 6.22 A pipe  and filter compiler 
+architecture Reference architecturesReference architectures capture important features of system architectures in a domain. Essentially, they include 
+everything that might be in an application architecture, although, in reality, it is very unlikely that any individual 
+application would include all the features shown in a reference architecture. The main purpose of reference 
+architectures is to evaluate and compare design proposals, and to educate people about architectural character-
+
+istics in that domain.http://software-engineering-book.com/web/refarch/

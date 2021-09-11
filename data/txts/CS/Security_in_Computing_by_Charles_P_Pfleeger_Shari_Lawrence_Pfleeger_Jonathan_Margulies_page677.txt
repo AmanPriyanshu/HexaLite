@@ -1,0 +1,59 @@
+ Section 9.7  Privacy Impacts of Emerging Technologies 
+643  Gellman lists several other findings that are important for you to consider before you 
+store sensitive information in the cloud:
+• The location of information in the cloud may have significant effects on the 
+privacy and confidentiality protections of information and on the privacy obliga-
+
+tions of those who process or store the information.• Information in the cloud may have more than one legal location at the same 
+time, with differing legal consequences.
+• Laws could oblige a cloud provider to examine user records for evidence of 
+criminal activity and other matters.
+• Legal uncertainties make it difficult to assess the status of information in the 
+cloud as well as the privacy and confidentiality protections available to users. 
+• Responses to the privacy and confidentiality risks of cloud computing include 
+better policies and practices by cloud providers, changes to laws, and more vigi-
+
+lance by users. Many cloud providers offer convincing arguments that the cloud is more secure than 
+conventional computing and storage. But as Gellman and Trope and Ray suggest, caveat 
+
+emptor applies to the cloud, too. Before you put anything in the cloud, read the terms 
+
+of service and the privacy policy, remembering that the vendor can change those agree-
+
+ments at any time. Indeed, Trope and Ray point out that, even if you terminate your 
+
+agreement with a cloud vendor, the vendor may be able to keep your backup copies 
+
+anyway, based on the terms of service.
+Conclusions on Emerging Technologies
+Technologies continue to emerge and mature, and we have provided only a few exam-
+
+ples of great technological promise but considerable privacy risks. Should you be think-
+
+ing of adopting such technology, be sure to evaluate the privacy implications and then 
+
+follow them carefully as the technology evolves.
+Our experience with security has shown that if we consider security early in a sys-
+tem’s life, wider options are available for security. The other thing experience has 
+
+repeatedly shown is that adding security to a nearly complete system is difficult, if not 
+
+impossible. For both reasons, privacy and security analysis should occur along with the 
+
+technology and application development.
+Unfortunately, for all emerging technologies, there seems to be a financial pressure 
+to create devices or services first and then deal with use and privacy issues later. This 
+
+approach is exactly the wrong way to design any system. Unfortunately, people seem 
+
+to be starting with the technology and working backwards to systems that would use it. 
+
+The development approach should work forward (specify the necessary requirements, 
+
+including privacy considerations, and develop a system to implement those require-
+
+ments reliably) to build in privacy design features and controls, and also work back-
+
+wards, to investigate what might go wrong with privacy and then add design features to 
+
+prevent these lapses.

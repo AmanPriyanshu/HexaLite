@@ -1,0 +1,39 @@
+much has been implemented. Customers find it difficult to judge progress from software design documents.3.
+ Early delivery and deployment of useful software to the customer is possible, 
+
+even if all of the functionality has not been included. Customers are able to use 
+
+and gain value from the software earlier than is possible with a waterfall process.From a management perspective, the incremental approach has two problems:1. The process is not visible. Managers need regular deliverables to measure pro-
+gress. If systems are developed quickly, it is not cost effective to produce docu-
+ments that reflect every version of the system.2. System structure tends to degrade as new increments are added
+. Regular change 
+
+leads to messy code as new functionality is added in whatever way is possible. 
+It becomes increasingly difficult and costly to add new features to a system. To 
+reduce structural degradation and general code messiness, agile methods sug-gest that you should regularly refactor (improve and restructure) the software.The problems of incremental development become particularly acute for large, 
+complex, long-lifetime systems, where different teams develop different parts of the 
+
+system. Large systems need a stable framework or architecture, and the responsi-bilities of the different teams working on parts of the system need to be clearly 
+
+defined with respect to that architecture. This has to be planned in advance rather 
+
+than developed incrementally.Incremental development does not mean that you have to deliver each increment 
+to the system customer. You can develop a system incrementally and expose it to 
+
+customers and other stakeholders for comment, without necessarily delivering it 
+
+and deploying it in the customer™s environment. Incremental delivery (covered in 
+
+Section 2.
+3.2) means that the software is used in real, operational processes, so user 
+
+feedback is likely to be realistic. However, providing feedback is not always possi-ble as experimenting with new software can disrupt normal business processes.Problems with incremental developmentAlthough incremental development has many advantages, it is not problem free. The primary cause of the 
+difficulty is the fact that large organizations have bureaucratic procedures that have evolved over time and  
+
+there may be a mismatch between these procedures and a more informal iterative or agile process.Sometimes these procedures are there for good reasons. For example, there may be procedures to ensure 
+that the software meets properly implements external regulations (e.g., in the United States, the Sarbanes 
+
+Oxley accounting regulations). Changing these procedures may not be possible, so process conflicts may 
+
+be˜unavoidable.http://software-engineering-book.com/web/incremental-development /˜˜˚˛˜˜˜
+˜˜˜

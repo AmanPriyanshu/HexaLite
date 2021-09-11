@@ -1,0 +1,80 @@
+ Section 11.5  Computer Crime 
+735  Under the rules of evidence, courts prefer the best version of a piece of evidence 
+(called the best evidence rule). An original document is preferable to a copy, but the 
+
+original may be unavailable. As long as the original is unavailable for some reason 
+
+other than the fault of the party presenting the evidence, a copy is acceptable. A copy is 
+
+strengthened if someone testifies, for example, to having heard the parties agreeing to 
+
+the terms of the contract the day before, or someone recognizes and attests to the sig-
+
+natures on the copy. Business records are perfectly acceptable as evidence. A computer 
+
+printout showing activity around a 
+
+time period of interest is solid evi-
+
+dence, especially if a system admin-
+istrator or other person in charge 
+
+can testify that the system generates 
+this log data continually, and this 
+
+printout is an accurate depiction of 
+
+the contents of the log file.
+The biggest difficulty with computer-based evidence in court is demonstrating the 
+authenticity of the evidence. Law enforcement officials operate under a chain of cus-
+
+tody requirement: From the moment a piece of evidence is taken until it is presented in 
+
+court, they track clearly and completely the order and identities of the people who had 
+
+personal custody of that object. The reason for the chain of custody is to ensure that 
+
+nobody has had the opportunity to alter the evidence in any way before its presentation 
+
+in court. With computer-based evidence, it can be difficult to establish a chain of custody. If a 
+crime occurred on Monday but was not discovered until Wednesday, who can verify that 
+
+the log file was not altered? In fact, it probably was altered many times as different pro-
+
+cesses generated log entries. The issue is to demonstrate convincingly that the log entry 
+
+for 2:37 on Monday does in fact correspond to the event that took place at that time on 
+
+Monday, not some attempt on Thursday to plant a false clue long after the crime took 
+
+place. Both system administrators and expert witnesses can testify as to their opinion of 
+
+the accuracy of the log’s contents.
+Forensic analysis
+ is a field in which computer security experts examine artifacts 
+such as disk drives, log files, program code, even volatile memory, to discern facts about 
+
+data contained. The term “microscope and tweezers” that we introduced in Chapter 3 
+
+(courtesy of Jerome Saltzer) well characterizes the painstaking effort these analysts 
+
+must do to satisfy themselves and then the court what the retained data are and mean.
+Threats to Integrity and Confidentiality
+The integrity and secrecy of data are also issues in many court cases. Parker and Nycom 
+[PAR84] describe a case in which a trespasser gained remote access to a computing sys-
+
+tem. The computing system contained confidential records about people, and the integ-
+
+rity of the data was important. The prosecuti
+on of this case had to be phrased in terms of 
+theft of computer time and valued as such, even though that was insignificant compared 
+
+with loss of privacy and integrity. Why? Because the law as written recognized theft of 
+
+computer time as a loss, but not loss of privacy or destruction of data.
+All pieces of evidence contribute to a 
+judge’s or jury’s weighing the evidence. 
+
+Credible evidence carries more weight in 
+
+reaching a conclusion.

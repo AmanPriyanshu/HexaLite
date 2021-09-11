@@ -1,0 +1,84 @@
+254 PART TWO  
+MODELING 
+ 
+ 
+ 
+ 
+ 
+But what about software architecture? Bass, Clements, and Kazman [Bas03] deﬁ ne this elusive term in the following way:
+ 
+ 
+ 
+The software architecture of a program or computing system is the structure or structures of the system, which comprise software components, the externally visible 
+properties of those components, and the relationships among them.   
+ 
+The architecture is not the operational software. Rather, it is a representa-
+tion that enables you to (1) analyze the effectiveness of the design in meeting 
+its stated requirements, (2) consider architectural alternatives at a stage when 
+making design changes is still relatively easy, and (3) reduce the risks associated 
+
+with the construction of the software.  This deﬁ nition emphasizes the role of “software components” in any archi-
+tectural representation. In the context of architectural design, a software com-
+ponent can be something as simple as a program module or an object- oriented class, but it can also be extended to include databases and “middleware” that 
+enable the conﬁ guration of a network of clients and servers. The properties of 
+components are those characteristics that are necessary to an understanding of 
+how the components interact with other components. At the architectural level, 
+internal properties (e.g., details of an algorithm) are not speciﬁ ed. The relation-
+ships between components can be as simple as a procedure call from one mod-
+ule to another or as complex as a database access protocol.   
+Some members of the software engineering community (e.g., [Kaz03]) make a distinction between the actions associated with the derivation of a software 
+ architecture (what we call “architectural design”) and the actions that are  applied to derive the software design. As one reviewer of a past edition noted:  
+ 
+There is a distinct difference between the terms  architecture
+ 
+ and  
+design 
+. A  design 
+ is an 
+instance of an  architecture
+ 
+ similar to an object being an instance of a class. For exam-
+ple, consider the client-server architecture. I can design a network- centric  software system in many different ways from this architecture using either the Java platform 
+(Java EE) or Microsoft platform (.NET framework). So, there is one  architecture, but many designs can be created based on that architecture. Therefore, you cannot mix 
+“architecture” and “design” with each other. 
+  
+ 
+Although we agree that a software design is an instance of a speciﬁ c software 
+ architecture, the elements and structures that are deﬁ ned as part of an architec-
+ture are the root of every design. Design begins with a consideration of architecture. 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+13.1.2  Why Is Architecture Important? 
+ 
+In a book dedicated to software architecture, Bass and his colleagues [Bas03] identify three key reasons that software architecture is important:  
+ 
+ 
+•  Software architecture provides a representation that facilitates communi-cation among all stakeholders.     Software architecture 
+must model the 
+ structure of a system 
+
+and the manner 
+in which data and 
+procedural components 
+collaborate with one 
+another. 
+ WebRef 
+ Useful pointers to 
+many software 
+ architecture sites 
+
+can be obtained at 
+  http://www.
+ewita.com/links/
+softwareArchitec-
+tureLinks.htm.   
+  uote:  “Marry your 
+architecture in 
+haste, repent at 
+your leisure."  Barry Boehm 
+pre22126_ch13_252-284.indd   254pre22126_ch13_252-284.indd   25413/12/13   6:12 PM13/12/13   6:12 PM

@@ -1,0 +1,68 @@
+CHAPTER 34  
+PROJECT SCHEDULING 773 
+Stated even more simply, earned value is a measure of progress. It enables 
+you to assess the “percent of completeness” of a project using quantitative anal-
+ysis rather than rely on a gut feeling. In fact, Fleming and Koppleman [Fle98] 
+argue that earned value analysis “provides accurate and reliable readings of per-
+
+formance from as early as 15 percent into the project.” To determine the earned 
+
+value, the following steps are performed:  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 1.
+  The  budgeted cost of work scheduled 
+ (BCWS) is determined for each work task represented in the schedule. During estimation, the work (in 
+person-hours or person-days) of each software engineering task is 
+planned. Hence, BCWS i  is the effort planned for work task  i. 
+ To determine 
+progress at a given point along the project schedule, the value of BCWS is 
+the sum of the BCWS i  values for all work tasks that should have been completed by that point in time on the project schedule.   
+ 
+ 
+ 2.
+  The BCWS values for all work tasks are summed to derive the  budget at completion 
+ (BAC). Hence,   
+ 
+BAC 5 S (BCWS k 
+) for all tasks  k 
+ 
+  
+ 
+ 
+ 3.
+  Next, the value for  budgeted cost of work performed 
+ (BCWP) is computed. The value for BCWP is the sum of the BCWS values for all work tasks that 
+have actually been completed by a point in time on the project schedule.  
+ 
+   
+ 
+ 
+ 
+ 
+Wilkens [Wil99] notes that “the distinction between the BCWS and the BCWP 
+is that the former represents the budget of the activities that were planned to 
+be completed and the latter represents the budget of the activities that actually 
+were completed.” Given values for BCWS, BAC, and BCWP, important progress 
+
+indicators can be computed:Schedule performance index, SPI 5   BCWP _______ BCWS  Schedule variance, SV 5 BCWP 2 BCWS  SPI is an indication of the efﬁ ciency with which the project is utilizing sched-
+uled resources. An SPI value close to 1.0 indicates efﬁ cient execution of the proj-
+ect schedule. SV is simply an absolute indication of variance from the planned 
+schedule.Percent scheduled for completion 5   BCWS _______ BAC    provides an indication of the percentage of work that should have been com-pleted by time  t. Percent complete 5   BCWP _______ BAC    provides a quantitative indication of the percent of completeness of the project at a given point in time  t. 
+  How do I 
+compute earned value and 
+use it to assess 
+progress? ? WebRef 
+ A wide array of 
+earned value analysis 
+
+resources can be found 
+at   
+http://www.acq.osd.mil/evm/  . 
+pre22126_ch34_754-776.indd   773pre22126_ch34_754-776.indd   77313/12/13   10:02 PM13/12/13   10:02 PM

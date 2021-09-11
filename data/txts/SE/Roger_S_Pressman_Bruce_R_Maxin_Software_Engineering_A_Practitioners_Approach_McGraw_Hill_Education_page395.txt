@@ -1,0 +1,74 @@
+CHAPTER 16  
+PATTERN-BASED DESIGN
+ 365the pattern apply to the entire WebApp, to a single Web page, to a subsystem, or 
+an individual WebApp component?). 
+  
+16.6.1  Design Focus 
+ 
+In earlier chapters we emphasized a design progression that begins by consid-ering architecture, component-level issues, and user interface representations. 
+Design focus becomes “narrower” as you move further into design. The problems 
+(and solutions) you will encounter when designing an information architecture 
+for a WebApp are different from the problems (and solutions) that are encoun-
+
+tered when performing interface design. Therefore, it should come as no sur-
+
+prise that patterns for WebApp design can be developed for different levels of 
+
+design focus, so that you can address the unique problems (and related solutions) 
+that are encountered at each level. WebApp patterns can be categorized using 
+
+the following levels of design focus:  
+ 
+ 
+•   
+Information architecture patterns 
+ 
+ 
+ relate to the overall structure of the information space, and the ways in which users will interact with the 
+information.   
+ 
+ 
+•   
+Navigation patterns 
+ deﬁ ne navigation link structures, such as hierarchies, 
+rings, tours, and so on.   
+ 
+ 
+•   
+Interaction patterns 
+ address how the interface informs the user of the consequences of a speciﬁ c action. 
+  
+ 
+ 
+•   
+Presentation patterns 
+ address how to organize user interface control functions for better usability, how to show the relationship between an in-
+
+terface action and the content objects it affects, and how to establish effec-
+tive content hierarchies.   
+ 
+ 
+•   
+Functional patterns 
+ deﬁ ne the workﬂ
+ ows, behaviors, processing, commu-
+nications, and other algorithmic elements within a WebApp. 
+ 
+ 
+  In most cases, it would be fruitless to explore the collection of  information ar-
+chitecture patterns 
+ when a problem in interaction design is encountered. You 
+would examine  interaction patterns, 
+ because that is the design focus that is rele-
+vant to the work being performed.   
+ 
+16.6.2  Design Granularity 
+ 
+When a problem involves “big picture” issues, you should attempt to develop solutions (and use relevant patterns) that focus on the big picture. Conversely, 
+
+when the focus is very narrow (e.g., uniquely selecting one item from a small set 
+of ﬁ ve or fewer items), the solution (and the corresponding pattern) is targeted 
+quite narrowly. In terms of the level of granularity, WebApp patterns follow the 
+
+same levels of abstraction that were discussed earlier in this chapter. 
+pre22126_ch16_347-370.indd   365pre22126_ch16_347-370.indd   36516/12/13   6:22 PM16/12/13   6:22 PM

@@ -1,0 +1,62 @@
+698 Chapter 10  
+Management and IncidentsCloud computing carries risks; for example, if the cloud provider goes out of busi-
+ness or the user defaults on the contract with the provider, access to the user’s data may 
+
+be in jeopardy. And the user gives up significant control over data, which has implica-
+
+tions for highly sensitive data. Nevertheless, cloud computing can provide automatic 
+
+redundancy that overcomes failing to perform backups at critical times.
+Cold SiteDepending on the nature of the computation, it may be important to be able to quickly 
+recover from a crisis and resume computation. A bank, for example, might be able to tol-
+
+erate a four-hour loss of computing facilities during a fire, but it could not tolerate a ten-
+
+month period to rebuild a destroyed facility, acquire new equipment, and resume operation.
+Most computer manufacturers have several spare machines of most models that can 
+be delivered to any location within 24 hours in the event of a real crisis. Sometimes the 
+
+machine will come straight from assembly; other times the system will have been in use 
+
+at a local office. Machinery is seldom the hard part of the problem. Rather, the hard part 
+
+is deciding where to put the equipment in order to begin a temporary operation.
+A cold site or 
+shell is a facility with power and cooling available, in which a comput-
+ing system can be installed to begin immediate operation. Some companies maintain 
+
+their own cold sites, and other cold sites can be leased from disaster recovery compa-
+
+nies. These sites usually come with cabling, fire prevention equipment, separate office 
+
+space, telephone access, and other features. Typically, a computing center can have 
+
+equipment installed and resume operation from a cold site within a week of a disaster.
+Hot SiteIf the application is critical or if the equipment needs are highly specialized, a hot 
+site may be more appropriate than a cold site. A hot site is a computer facility with an 
+installed and ready-to-run computing system. The system has peripherals, telecommuni-
+
+cations lines, power supply, and even personnel ready to operate on short notice. Some 
+
+companies maintain their own replacements; other companies subscribe to a service that 
+
+has available one or more locations with installed and running computers. To activate a 
+
+hot site, the team has only to load software and data from offsite backup copies.
+Numerous services offer hot sites equipped with every popular brand and model of 
+system. They provide diagnostic and system technicians, connected communications 
+
+lines, and an operations staff. The hot site staff also assists with relocation by arranging 
+
+transportation and housing, obtaining needed blank forms, and acquiring office space.
+Because these hot sites serve as backups for many customers, most of whom will not 
+need the service, the annual cost to any one customer is fairly low. The cost structure is like 
+
+insurance: The likelihood of an auto accident is low, so the premium is reasonable, even for 
+
+a policy that covers the complete replacement cost of an expensive car. Notice, however, 
+
+that the first step in being able to use a service of this type is a complete and timely backup.
+Physical Security RecapBy no means have we covered all of physical security in this brief introduction. Profes-
+
+sionals become experts at individual aspects, such as fire control or power provision. 

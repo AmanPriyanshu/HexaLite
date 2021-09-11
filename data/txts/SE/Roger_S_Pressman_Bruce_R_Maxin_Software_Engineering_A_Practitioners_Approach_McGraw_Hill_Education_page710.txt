@@ -1,0 +1,73 @@
+680 PART 
+THREE  QUALITY MANAGEMENT   30.3.
+  A system has 12 external inputs, 24 external outputs, ﬁ elds 30 different external que-
+ries, manages 4 internal logical ﬁ les, and interfaces with 6 different legacy systems (6 EIFs). 
+
+All of these data are of average complexity and the overall system is relatively simple. Com-
+pute FP for the system.  
+
+   30.4.
+  Software for System X has 24 individual functional requirements and 14 nonfunctional requirements. What is the speciﬁ city of the requirements? The completeness?  
+
+   
+30.5.  A major information system has 1140 modules. There are 96 modules that perform 
+control and coordination functions and 490 modules whose function depends on prior pro-
+cessing. The system processes approximately 220 data objects that each have an average 
+
+of three attributes. There are 140 unique database items and 90 different database seg-
+ments. Finally, 600 modules have single entry and exit points. Compute the DSQI for this 
+
+system. 
+    30.6.
+  A class  X  has 12 operations. Cyclomatic complexity has been computed for all oper-
+ations in the OO system, and the average value of module complexity is 4. For class  X , the complexity for operations 1 to 12 is 5, 4, 3, 3, 6, 8, 2, 2, 5, 5, 4, 4, respectively. Compute the 
+
+weighted methods per class.  
+
+   30.7.
+  Develop a software tool that will compute cyclomatic complexity for a programming language module. You may choose the language.  
+
+   30.8.
+  Develop a small software tool that will perform a Halstead analysis on programming language source code of your choosing.  
+
+   30.9.
+  A legacy system has 940 modules. The latest release required that 90 of these modules be changed. In addition, 40 new modules were added and 12 old modules were removed. 
+Compute the software maturity index for the system.  
+    
+  FURTHER
+ READINGS AND INFORMATION
+ SOURCES   
+There is a surprisingly large number of books dedicated to software metrics, although the 
+majority focus on process and project metrics to the exclusion of product metrics. Jones 
+and Bonsignour ( The Economics of Software Quality,
+  Addison-Wesley, 2011), Lanza and her 
+colleagues ( Object-Oriented Metrics in Practice,  Springer, 2010) and Jones ( 
+Applied Software 
+Measurement: Global Analysis of Productivity and Quality,
+  McGraw-Hill, 2008) discuss OO metrics and their use for assessing the quality of a design. Genero ( Metrics for Software 
+Conceptual Models,  Imperial College Press, 2005) and Ejiogu ( Software Metrics,
+  BookSurge Publishing, 2005) present a wide variety of technical metrics for use cases, UML models, and 
+other modeling representations. Hutcheson ( Software Testing Fundamentals: Methods and 
+Metrics,  Wiley, 2003) presents a set of metrics for testing. Abran ( 
+Software Metrics and Soft-
+ware Metrology,
+  Wiley-IEEE Computer Society, 2010), Kan ( 
+Metrics and Models in Software 
+Quality Engineering,  Addison-Wesley, 2nd ed., 2002), Fenton and Pﬂ
+ eeger ( 
+Software Metrics: 
+A Rigorous and Practical Approach,
+  Brooks-Cole Publishing, 1998), and Zuse [Zus97] have written thorough treatments of product metrics.    
+Books by Card and Glass [Car90], Zuse [Zus90], Fenton [Fen91], Ejiogu [Eji91], Moeller and Paulish ( Software Metrics,
+  Chapman and Hall, 1993), and Hetzel [Het93] all address product metrics in some detail. Oman and Pﬂ eeger ( 
+Applying Software Metrics,
+  IEEE Computer So-ciety Press, 1997) have edited an anthology of important papers on software metrics.    
+The International Function Point Users group has published a book on using function metrics ( The IFPUG Guide or OT and Software Measurement,
+  Auerbach Publications, 2012). Methods for establishing a metrics program and the underlying principles for software 
+measurement are considered by Ebert and his colleagues ( Best Practices in Software Mea-
+surement,
+  Springer, 2004). Shepperd ( 
+Foundations of Software Measurement,
+  Prentice Hall, 1996) also addresses measurement theory in some detail. Current research is presented in 
+the  Proceedings of the Symposium on Software Metrics
+  (IEEE, published annually). 

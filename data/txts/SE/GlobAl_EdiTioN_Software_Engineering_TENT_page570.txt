@@ -1,0 +1,46 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜required level of dependability as well as acceptable system performance is to be 
+achieved, then the development time may have to be extended and the budget increased.
+Many bad procurement decisions stem from political rather than technical causes. 
+Senior management may wish to have more control and so demand that a single system 
+
+is used across an organization. Suppliers may be chosen because they have a long-
+standing relationship with a company rather than because they offer the best technology. 
+
+Managers may wish to maintain compatibility with existing systems because they feel 
+
+threatened by new technologies. As I discuss in Chapter 20, people  who do not under-
+stand the required system are often responsible for procurement decisions. Engineering 
+
+issues do not necessarily play a major part in their decision-making process.System development is a complex process in which the elements that are part of the 
+system are developed or purchased and then integrated to create the final system. 
+
+The system requirements are the bridge between the conceptual design and the 
+
+development processes. During conceptual design, business and high-level func-tional and non-functional system requirements are defined. You can think of this as 
+the start of development, hence the overlapping processes shown in Figure 19.1. 
+
+Once contracts for the system elements have been agreed, more detailed require-
+ments engineering takes place.Figure 19.
+10 is a model of the systems development process. Systems engineer-ing processes usually follow a ﬁwaterfallﬂ process model similar to the one that I 
+
+discussed in Chapter 2. Although the waterfall model is inappropriate for most types 
+of software development, higher-level systems engineering processes are plan-driven 
+processes that still follow this model.Plan-driven processes are used in systems engineering because different elements of the system are independently developed. 
+Different contractors are working con
+-currently on separate subsystems. Therefore, the interfaces to these elements have to 
+be designed before development begins. For systems that include hardware and other 
+equipment, changes during development can be very expensive or, sometimes, prac-
+tically impossible. It is essential therefore, that the system requirements are fully 
+
+understood before hardware development or building work begins.One of the most confusing aspects of systems engineering is that companies use 
+different terminology for each stage of the process. Sometimes, requirements engi-
+neering is part of the development process, and sometimes it is a separate activity. 
+
+However, after conceptual design, there are seven fundamental development activities:1. Requirements engineering is the process of refining, analyzing, and documenting 
+the high-level and business requirements identified in the conceptual design. 
+I 
+have covered the most important requirements engineering activities in Chapter 4.2. Architectural design overlaps significantly with the requirements engineering 
+
+process. The process involves establishing the overall architecture of the system, 

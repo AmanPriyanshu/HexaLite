@@ -1,0 +1,73 @@
+CHAPTER 22  
+SOFTWARE TESTING STRATEGIES
+ 471 
+The last high-order testing step falls outside the boundary of software engi-neering and into the broader context of computer system engineering. Software, 
+once validated, must be combined with other system elements (e.g., hardware, 
+people, databases).  System testing 
+ veriﬁ
+ es that all elements mesh properly and 
+that overall system function/performance is achieved.  
+ 
+ 
+  
+FIGURE 22.2 
+Software test-
+ing stepsUnittestCodeDesignRequirementsTesting
+ﬁdirectionﬂIntegration testHigh-ordertests  
+ 
+Preparing for Testing    
+ 
+Preparing for Testing 
+  
+ 
+The scene:  Doug Miller’s ofﬁ
+ ce, as 
+component-level design continues and construction of certain components begins. 
+  
+The players:  Doug Miller, software engineering man-
+ager, Vinod, Jamie, Ed, and Shakira—members of the 
+
+ SafeHome 
+ software engineering team.   
+The conversation:    
+Doug:  It seems to me that we haven’t spent enough 
+time talking about testing.   
+Vinod:  True, but we’ve all been just a little busy. And 
+
+more than thinking.   
+Doug (smiling):  
+we’ve still got to think down the line.   
+Shakira:  I like the idea of designing unit tests before I 
+begin coding any of my components, so that’s what I’ve 
+
+been trying to do. I have a pretty big ﬁ
+ le of tests to run 
+once code for my components is complete.   
+Doug:  That’s an Extreme Programming [an agile soft-
+ware development process, see Chapter 5] concept, no?   
+Ed:  It is. Even though we’re not using Extreme Program-
+ming per se, we decided that it’d be a good idea to 
+design unit tests before we build the component—the 
+design gives us all of the information we need. 
+  
+Jamie:  I’ve been doing the same thing. 
+  
+Vinod:  And I’ve taken on the role of the integrator, so 
+every time one of the guys passes a component to me, 
+
+I’ll integrate it and run a series of regression tests on the 
+
+partially integrated program. I’ve been working to design 
+
+a set of appropriate tests for each function in the system. 
+  
+Doug (to Vinod):  How often will you run the tests? 
+  
+Vinod:  Ever
+
+plan to deliver is integrated.   
+Doug:  You guys are way ahead of me! 
+  
+Vinod (laughing):  Anticipation is everything in the 
+software biz, Boss.   
+SAFEHOME pre22126_ch22_466-495.indd   471pre22126_ch22_466-495.indd   47113/12/13   6:14 PM13/12/13   6:14 PM

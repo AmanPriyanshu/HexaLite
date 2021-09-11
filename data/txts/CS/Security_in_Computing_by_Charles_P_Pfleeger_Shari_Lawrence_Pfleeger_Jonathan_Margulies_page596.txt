@@ -1,0 +1,87 @@
+562 Chapter 8  
+Cloud Computingdesirable feature. For creating a common space that teammates can use to share 
+files for a project, the ability to share access with a specific list of users is a 
+
+necessity.
+• Are the data subject to export controls or other regulations?
+ Cloud offerings can 
+make compliance with regulations like export control difficult. Export controls 
+
+are regulations that restrict the flow of certain sensitive data outside of its native 
+
+country. Many cloud providers maintain user data in multiple countries, and still 
+
+more employ citizens of various countries in positions that enable them to view 
+
+user data. Whatever regulations you need to comply with, you may find it dif-
+
+ficult to identify cloud providers who meet your needs, and even more difficult 
+
+to audit them to ensure they are doing as they claim.
+When you use a public cloud service, your data are stored on the same set of storage 
+devices as that of countless other customers. Those other customers pose a threat, and 
+
+you need to ensure that adequate access controls are in place to protect your data from 
+that threat. While almost any cloud provider will use logical access controls to prevent 
+
+customers from accessing one another’s data, that one layer of security is generally not 
+
+enough. If that access control fails or 
+
+an attacker breaches it, your data will 
+
+be left unprotected. Sidebar 8-3 is an 
+
+excellent example.
+The minimum requirement for protecting data confidentiality in a public cloud sce-
+nario is to use an industry-standard symmetric encryption algorithm such as AES-256, 
+
+with an individual encryption key for each user. One practical problem for a provider to 
+
+consider when encrypting large quantities of data using a single key is this: Re-encrypting 
+ gigabytes of data with a new key is a time- and resource-intensive process. As a result, 
+
+the cloud provider should strive to never need to rekey any user’s data. Instead, cloud 
+
+providers might consider the method used for encrypting local hard drives: Generate 
+
+a strong, random “master” key that is used to encrypt and decrypt the data, and use a 
+
+different, changeable “user” key to encrypt and decrypt the master key. The user key 
+
+should be tied directly to the user’s 
+
+password with a password-based 
+
+key derivation function (KDF), such 
+
+as PBKDF2 [KAL00]. When a user wants a password-change, the cloud 
+
+provider can use the KDF to gener-
+
+ate a new user key and simply re-
+
+encrypt the master key.
+Of course, if the storage provider maintains users’ keys, then the provider’s employ-
+ees, as well as anyone who successfully attacks their servers, can still access users’ 
+
+private data. Users who truly need 
+
+confidentiality should seek out pro-
+
+viders who embrace a “trust no one” 
+(TNO) philosophy and do not main-
+tain keys to access user data.
+Shared storage involves a threat of 
+
+access from sharing neighbors.
+Changing cryptographic keys for large 
+amounts of encrypted data is time 
+consuming. A protocol using master and 
+
+user keys makes changing efficient in 
+
+use of time.Sharing cryptographic keys with cloud 
+storage providers potentially exposes 
+
+sensitive data.

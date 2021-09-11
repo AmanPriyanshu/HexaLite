@@ -1,0 +1,87 @@
+4 CHAPTER 1  
+THE NATURE OF SOFTWARE
+ 
+The role of computer software has undergone signiﬁ cant change over the 
+last half-century. Dramatic improvements in hardware performance, profound 
+
+changes in computing architectures, vast increases in memory and storage ca-
+pacity, and a wide variety of exotic input and output options have all precipitated 
+
+more sophisticated and complex computer-based systems. Sophistication and 
+
+complexity can produce dazzling results when a system succeeds, but they can 
+also pose huge problems for those who must build and protect complex systems.   
+Today, a huge software industry has become a dominant factor in the econ-
+omies of the industrialized world. Teams of software specialists, each focusing 
+
+on one part of the technology required to deliver a complex application, have 
+replaced the lone programmer of an earlier era. And yet, the questions that were 
+asked of the lone programmer are the same questions that are asked when mod-
+ern computer-based systems are built: 
+ 1 
+ 
+  
+ 
+ 
+ 
+ 
+•  Why does it take so long to get software ﬁ nished? 
+  
+ 
+ 
+•  Why are development costs so high?   
+ 
+ 
+•  Why can’t we ﬁ nd all errors before we give the software to our customers? 
+  
+ 
+ 
+•  Why do we spend so much time and effort maintaining existing programs?   
+ 
+ 
+•  Why do we continue to have difﬁ culty in measuring progress as software is 
+being developed and maintained?    
+These, and many other questions, are a manifestation of the concern about software and the manner in which it is developed—a concern that has led to the 
+adoption of software engineering practice.   
+1.1.1  Deﬁ
+ ning Software 
+ 
+Today, most professionals and many members of the public at large feel that they 
+understand software. But do they?  A textbook description of software might take the following form: 
+ 
+Software is: (1) instructions (computer programs) that when executed provide de-sired features, function, and performance; (2) data structures that enable the pro-
+grams to adequately manipulate information, and (3) descriptive information in both 
+hard copy and virtual forms that describes the operation and use of the programs.  
+  
+ 
+ 
+ 
+There is no question that other more complete deﬁ nitions could be offered. But a 
+more formal deﬁ nition probably won’t measurably improve your understanding. 
+ 
+ uote:  “Software is 
+a place where 
+dreams are planted 
+and nightmares 
+harvested, an 
+
+abstract, mystical 
+swamp where 
+terrible demons 
+compete with 
+magical panaceas, 
+a world of 
+werewolves and 
+silver bullets.”  Brad J. Cox 
+  
+1  
+In an excellent book of essays on the software business, Tom DeMarco [DeM95] argues the 
+counterpoint. He states: “Instead of asking why software costs so much, we need to begin ask-
+ing ‘What have we done to make it possible for today’s software to cost so little?’ The answer 
+
+to that question will help us continue the extraordinary level of achievement that has always 
+distinguished the software industry.” 
+ How should 
+we deﬁ ne 
+ software ? 
+?pre22126_ch01_001-013.indd   4pre22126_ch01_001-013.indd   413/12/13   10:00 PM13/12/13   10:00 PM

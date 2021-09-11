@@ -1,0 +1,59 @@
+688 Chapter 10  
+Management and IncidentsBut we know these catastrophes will occur. Security managers cope with them in 
+several ways:
+• developing contingency plans so that people know how to react in emergencies 
+and business can continue
+• insuring physical assets—computers, buildings, devices, supplies—against harm
+
+• preserving sensitive data by maintaining copies in physically separated locations
+Power LossComputers need their food—electricity—and they require a constant, pure supply of it. 
+With a direct power loss, all computation ceases immediately. Because of possible dam-
+
+age to media by sudden loss of power, many disk drives monitor the power level and 
+
+quickly retract the recording head if power fails. For certain time-critical applications, 
+
+loss of service from the system is intolerable; in these cases, alternative complete power 
+
+supplies must be instantly available.
+Uninterruptible Power SupplyOne protection against power loss is an uninterruptible power supply. This device stores 
+energy during normal operation so that it can return the backup energy if power fails. 
+
+One form of uninterruptible power supply uses batteries that are continually charged 
+
+when the power is on but which then provide power when electricity fails. However, 
+
+size, heat, flammability, and low output can be problems with batteries.
+Some uninterruptible power supplies use massive wheels that are kept in continuous 
+motion when electricity is available. When the power fails, the inertia in the wheels 
+
+operates generators to produce more power. Size and limited duration of energy out-
+
+put are problems with this variety of power supply. Both forms of power supplies are 
+
+intended to provide power for a limited time, just long enough to allow the current state 
+
+of the computation to be saved so that no computation is lost.
+Surge Suppressor
+Another problem with power is its “cleanness.” Although most people are unaware of it, 
+a variation of 10 percent from the stated voltage of a line is considered acceptable, and 
+
+some power lines vary even more. A particular power line may consistently be up to 10 
+
+percent high or low.
+In many places, lights dim momentarily when a large appliance, such as an air con-
+ditioner, begins operation. When a large motor starts, it draws an exceptionally large 
+
+amount of current, which reduces the flow to other devices on the line. When a motor 
+
+stops, the sudden termination of draw can send a temporary surge along the line. Simi-
+
+larly, lightning strikes may send a momentary large pulse. Thus, instead of being con-
+
+stant, the power delivered along any electric line shows many brief fluctuations, called 
+
+drops, spikes, and surges. A drop is a momentary reduction in voltage, and a spike or 
+
+surge is a rise. For computing equipment, a drop is less serious than a surge. Most elec-
+
+trical equipment is tolerant of rather large fluctuations of current.

@@ -1,0 +1,26 @@
+APPENDIX 1  
+AN INTRODUCTION TO UML 871respectively,  private, protected, package,  or  public  visibility. In   Figure A1.1, all attributes have private visibility, as indicated by the leading minus sign (2). You can also specify that an attribute is a static or class attribute by underlining it. 
+Each operation can also be displayed with a level of visibility, parameters with 
+names and types, and a return type.  An abstract class or abstract method is indicated by the use of italics for the name in the class diagram. See the  Horse  class in   Figure A1.2 for an example. An interface is indicated by adding the phrase “«interface»” (called a  stereotype ) 
+above the name. See the  OwnedObject  interface in   Figure A1.2. An interface can also be represented graphically by a hollow circle.  It is worth mentioning that the icon representing a class can have other op-tional parts. For example, a fourth section at the bottom of the class box can be 
+used to list the responsibilities of the class. This section is particularly useful 
+when transitioning from CRC cards (Chapter 10) to class diagrams in that the 
+responsibilities listed on the CRC cards can be added to this fourth section in 
+the class box in the UML diagram before creating the attributes and operations 
+that carry out these responsibilities. This fourth section is not shown in any of the 
+ﬁ gures in this appendix.  
+ Class diagrams can also show relationships between classes. A class that is a subclass of another class is connected to it by an arrow with a solid line for its 
+shaft and with a triangular hollow arrowhead. The arrow points from the sub-
+class to the superclass. In UML, such a relationship is called a  generalization . For example, in   Figure A1.2, the  Thoroughbred  and  QuarterHorse  classes are shown to be subclasses of the  Horse  abstract class. An arrow with a dashed line for the arrow shaft indicates implementation of an interface. In UML, such a relation-
+ship is called a  realization . For example, in   Figure A1.2, the  Horse  class imple-ments or realizes the  OwnedObject  interface. 
+ F
+IGURE A1.2A class 
+diagram 
+regarding 
+horses   
+Horse-name:String
++getName():String+getOwner().Person<< interface >>
+
+OwnedObjectThoroughbred
+QuarterHorse
+Person*   ownerDateuses

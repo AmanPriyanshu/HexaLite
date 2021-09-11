@@ -1,0 +1,44 @@
+˜˜˚˛˜˜˜˜˜˜
+It˜has a single attribute, which is its identifier. This is a constant that is set when the 
+weather station is installed. You therefore only need a test that checks if it has been 
+
+properly set up. You need to define test cases for all of the methods associated with the 
+
+object such as reportWeather and reportStatus. Ideally, you should test methods in 
+isolation, but, in some cases, test sequences are necessary. For example, to test the 
+
+method that shuts down the weather station instruments (shutdown), you need to have 
+executed the restart method.Generalization or inheritance makes object class testing more complicated. You can™t simply test an operation in the class where it is defined and assume that it will 
+work as expected in all of the subclasses that inherit the operation. The operation that 
+is inherited may make assumptions about other operations and attributes. These 
+
+assumptions may not be valid in some subclasses that inherit the operation. You 
+
+therefore have to test the inherited operation everywhere that it is used.To test the states of the weather station, you can use a state model as discussed in 
+Chapter 7 (Figure 7.8). Using this model, you identify sequences of state transitions 
+
+that have to be tested and define event sequences to force these transitions. In princi-
+ple, you should test every possible state transition sequence, although in practice this 
+may be too expensive. Examples of state sequences that should be tested in the 
+
+weather station include:Shutdown ˜ Running ˜ ShutdownConfiguring ˜ Running ˜ Testing ˜ Transmitting ˜ RunningRunning ˜ Collecting ˜ Running ˜ Summarizing ˜ Transmitting ˜ RunningWhenever possible, you should automate unit testing. In automated unit testing, you 
+make use of a test automation framework, such as JUnit (Tahchiev et al. 2010) to write 
+
+and run your program tests. Unit testing frameworks provide generic test classes that 
+
+you extend to create specific test cases. They can then run all of the tests that you have 
+
+implemented and report, often through some graphical unit interface (GUI), on the suc
+-cess or otherwise of the tests. An entire test suite can often be run in a few seconds, so it 
+
+is possible to execute all tests every time you make a change to the program.An automated test has three parts:1. A setup part
+, where you initialize the system with the test case, namely, the 
+inputs and expected outputs.identifierreportWeather ( )
+reportStatus ( )
+powerSave (instruments)
+remoteControl (commands)
+reconfigure (commands)
+restart (instruments)
+
+shutdown (instruments)WeatherStation
+Figure 8.4 The weather station object interface

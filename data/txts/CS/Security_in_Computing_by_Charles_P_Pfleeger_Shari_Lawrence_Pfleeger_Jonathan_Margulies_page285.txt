@@ -1,0 +1,71 @@
+ Section 4.2  Web Attacks Targeting Users 
+251  Protecting Web Sites Against Change
+A web site is meant to be accessed by clients. Although some web sites are intended for 
+authorized clients only and restricted by passwords or other access controls, other sites 
+
+are intended for the general public. Thus, any controls on content have to be unobtru-
+
+sive, not limiting proper use by the vast majority of users.
+Our favorite integrity control, encryption, is often inappropriate: Distributing decryp-
+tion keys to all users defeats the effectiveness of encryption. However, two uses of 
+
+encryption can help keep a site’s content intact.
+Integrity Checksums As we present in Chapter 2, a checksum, hash code, or error detection code is a math-
+
+ematical function that reduces a block of data (including an executable program) to a 
+
+small number of bits. Changing the data affects the function’s result in mostly unpre-
+
+dictable ways, meaning that it is difficult—although not impossible—to change the data 
+
+in such a way that the resulting function value is not changed. Using a checksum, you 
+
+trust or hope that significant changes will invalidate the checksum value.
+Recall from Chapter 1 that some security controls can prevent attacks whereas other 
+controls detect that an attack has succeeded only after it has happened. With detection con-
+
+trols we expect to be able to detect attacks soon enough that the damage is not too great. 
+
+Amount of harm depends on the value of the data, even though that value can be hard to 
+
+measure. Changes to a web site listing tomorrow’s television schedule or the weather fore-
+
+cast might inconvenience a number of people, but the impact would not be catastrophic. 
+
+And a web archive of the review of a performance years ago might be accessed by only 
+
+one person a month. For these kinds of web sites, detecting a change is adequate hours or 
+
+even days after the change. Detecting 
+
+changes to other web sites, of course, 
+
+has more urgency. At a frequency of 
+
+seconds, hours, or weeks, the site’s 
+
+administrator needs to inspect for 
+
+and repair changes.To detect data modification, administrators use integrity-checking tools, of which 
+the Tripwire program [K
+IM98] (described in Chapter 2) is the most well known. When 
+placing code or data on a server an administrator runs Tripwire to generate a hash value 
+
+for each file or other data item. These hash values must be saved in a secure place, 
+
+generally offline or on a network separate from the protected data, so that no intruder 
+
+can modify them while modifying the sensitive data. The administrator reruns Tripwire 
+
+as often as appropriate and compares the new and original hash values to determine if 
+
+changes have occurred.
+Signed Code or Data Using an integrity checker helps the server-side administrator know that data are intact; 
+
+it provides no assurance to the client. A similar, but more complicated approach works 
+
+for clients, as well.The problem of downloading faulty code or other data because of its being supplied 
+by a malicious intruder can also be handled by an outside attestation. As described in 
+Integrity checksums can detect altered 
+
+content on a web site.

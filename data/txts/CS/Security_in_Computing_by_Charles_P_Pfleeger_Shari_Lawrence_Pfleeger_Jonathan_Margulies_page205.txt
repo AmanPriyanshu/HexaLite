@@ -1,0 +1,65 @@
+ Section 3.2  Malicious Code—Malware 
+171  Trojan horses, one Trojan horse transmitter, eight varieties of adware, two viruses, two 
+worms, and one JavaScript attack. So all attack types are important, and, as Sidebar 3-5 
+
+illustrates, general malicious code has a significant impact on computing. 
+We preface our discussion of the details of these types of malware with a brief report 
+on the long history of malicious code. Over time, malicious code types have evolved 
+
+as the mode of computing itself has changed from multiuser mainframes to single-user 
+personal computers to networked systems to the Internet. From this background you 
+
+will be able to understand not only where today’s malicious code came from but also 
+
+how it might evolve.
+History of Malicious CodeThe popular literature and press continue to highlight the effects of malicious code as 
+if it were a relatively recent phenomenon. It is not. Fred Cohen [COH87] is sometimes 
+SIDEBAR 3-5 The Real Impact of Malware
+Measuring the real impact of malware, especially in financial terms, is 
+challenging if not impossible. Organizations are loath to report breaches 
+
+except when required by law, for fear of damage to reputation, credit rating, 
+
+and more. Many surveys report number of incidents, financial impact, and 
+
+types of attacks, but by and large they are convenience surveys that do not 
+
+necessarily represent the real situation. Shari Lawrence Pfleeger [PFL08], 
+
+Rachel Rue [RUE09], and Ian Cook [COO10] describe in more detail why 
+
+these reports are interesting but not necessarily trustworthy.
+For the last several years, Verizon has been studying breaches expe-
+rienced by many customers willing to collaborate and provide data; the 
+
+Verizon reports are among the few credible and comparable studies avail-
+
+able today. Although you should remember that the results are particular to 
+
+the type of customer Verizon supports, the results are nonetheless interest-
+
+ing for illustrating that malware has had severe impacts in a wide variety of 
+
+situations. The 2014 Verizon Breach Report [VER14] shows that, from 2010 to 
+2013, the percentage of data breaches motivated by financial gain fell from 
+
+about 90 percent to 55 percent, while the number of breaches for purpose 
+
+of espionage rose from near zero percent to almost 25 percent. Although 
+
+the figures show some swings from year to year, the overall trend is down-
+
+ward for financial gain and upward for espionage. (Verizon acknowledges 
+
+part of the increase is no doubt due to more comprehensive reporting from 
+
+a larger number of its reporting partners; thus the data may reflect better 
+
+data collection from more sources.)
+Do not be misled, however. Espionage certainly has a financial aspect 
+as well. The cost of a data breach at a point of sale (fraud at the checkout 
+
+desk) is much easier to calculate than the value of an invention or a pricing 
+strategy. Knowing these things, however, can help a competitor win sales 
+
+away from the target of the espionage.

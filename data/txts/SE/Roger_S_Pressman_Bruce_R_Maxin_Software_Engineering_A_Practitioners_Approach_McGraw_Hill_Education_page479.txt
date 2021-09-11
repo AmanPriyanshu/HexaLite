@@ -1,0 +1,49 @@
+CHAPTER 21  
+SOFTWARE QUALITY ASSURANCE
+ 449 
+Indeed, quality is a challenging concept—one that we addressed in some de-tail in Chapter 19.  1 
+ 
+ 
+  Some software developers continue to believe that software quality is some-thing you begin to worry about after code has been generated. Nothing could be 
+further from the truth!  Software quality assurance
+ 
+ (often called  quality manage-ment 
+) is an umbrella activity (Chapter 3) that is applied throughout the software process.  Software quality assurance (SQA) encompasses: (1) an SQA process, (2) spe-ciﬁ c quality assurance and quality control tasks (including technical reviews 
+and a multi-tiered testing strategy), (3) effective software engineering practice 
+(methods and tools), (4) control of all software work products and the changes 
+made to them (Chapter 29), (5) a procedure to ensure compliance with software 
+development standards (when applicable), and (6) measurement and reporting 
+mechanisms.  In this chapter, we focus on the management issues and the process-speciﬁ
+ c 
+activities that enable a software organization to ensure that it does “the right 
+things at the right time in the right way.” 
+  
+ 
+ 
+ 
+ 21.1  
+BACKGROUND ISSUES  
+ 
+Quality control and assurance are essential activities for any business that pro-duces products to be used by others. Prior to the twentieth century, quality con-
+
+trol was the sole responsibility of the craftsperson who built a product. As time 
+passed and mass production techniques became commonplace, quality con-
+trol became an activity performed by people other than the ones who built the 
+product.   The ﬁ rst formal quality assurance and control function was introduced at Bell 
+Labs in 1916 and spread rapidly throughout the manufacturing world. During the 
+1940s, more formal approaches to quality control were suggested. These relied 
+on measurement and continuous process improvement [Dem86] as key elements 
+of quality management.  The history of quality assurance in software development parallels the his-tory of quality in hardware manufacturing. During the early days of computing 
+(1950s and 1960s), quality was the sole responsibility of the programmer. Stan-
+
+dards for quality assurance for software were introduced in military contract 
+software development during the 1970s and have spread rapidly into software 
+development in the commercial world [IEE93a]. Extending the deﬁ nition pre-
+sented earlier, software quality assurance is a “planned and systematic pattern of 
+  
+1  If you have not read Chapter 19, you should do so now. 
+ 
+ uote:  “You made too 
+many wrong 
+mistakes.”  Yogi Berra 
+pre22126_ch21_448-465.indd   449pre22126_ch21_448-465.indd   44913/12/13   10:02 PM13/12/13   10:02 PM

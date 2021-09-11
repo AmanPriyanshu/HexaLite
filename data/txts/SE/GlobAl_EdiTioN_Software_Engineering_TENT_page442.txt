@@ -1,0 +1,34 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜5. The application domain In many application domains, such as manufacturing 
+and medical information systems, there are generic products that may be reused 
+
+by configuring them to a local situation. This is one of the most effective 
+
+approaches to reuse, and it is almost always cheaper to buy rather than build a 
+new system.ApproachDescriptionApplication frameworksCollections of abstract and concrete classes are adapted and 
+extended to create application systems.Application system integrationTwo or more application systems are integrated to provide extended 
+functionality.Architectural patternsStandard software architectures that support common types of 
+application system are used as the basis of applications. Described in 
+Chapters 6, 11, and 17.Aspect-oriented software  
+developmentShared components are woven into an application at different places 
+when the program is compiled. Described in web Chapter 31.Component-based software 
+engineeringSystems are developed by integrating components (collections of 
+objects) that conform to component-model standards. Described in 
+Chapter 16.Configurable application systemsDomain-specific systems are designed so that they can be configured 
+to the needs of specific system customers.Design patternsGeneric abstractions that occur across applications are represented 
+as design patterns showing abstract and concrete objects and 
+interactions. Described in Chapter 7.ERP systemsLarge-scale systems that encapsulate generic business functionality 
+and rules are configured for an organization.Legacy system wrappingLegacy systems (Chapter 9) are ﬁwrappedﬂ by defining a set of 
+interfaces and providing access to these legacy systems through 
+these interfaces.Model-driven engineeringSoftware is represented as domain models and implementation 
+independent models, and code is generated from these models. 
+Described in Chapter 5.Program generatorsA generator system embeds knowledge of a type of application and 
+is used to generate systems in that domain from a user-supplied 
+system model.Program librariesClass and function libraries that implement commonly used 
+abstractions are available for reuse.Service-oriented systemsSystems are developed by linking shared services, which may be 
+externally provided. Described in Chapter 18.Software product linesAn application type is generalized around a common architecture so 
+that it can be adapted for different customers.Systems of systemsTwo or more distributed systems are integrated to create a new 
+system. Described in Chapter 20.Figure 15.4  Approaches˜that 
+support˜software  
+reuse

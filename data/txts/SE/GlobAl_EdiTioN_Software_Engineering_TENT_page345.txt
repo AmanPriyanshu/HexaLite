@@ -1,0 +1,38 @@
+˜˜˚˛˚˜˜˜
+˜˜
+Safety requirements are primarily protection requirements and are not concerned 
+with normal system operation. They may specify that the system should be shut down 
+so that safety is maintained. In deriving safety requirements, you therefore need to find 
+
+an acceptable balance between safety and functionality and avoid overprotection. There 
+
+is no point in building a very safe system if it does not operate in a cost-effective way.Risk-based requirements specification is a general approach used in critical  systems 
+engineering where risks faced by the system are identified and requirements to avoid 
+
+or mitigate these risks are identified. It may be used for all types of dependability 
+
+requirements. For safety-critical systems, it translates into a process driven by identi
+-
+fied hazards. As I discussed in the previous section, a hazard is something that could 
+
+(but need not) result in death or injury to a person.There are four activities in a hazard-driven safety specification process:1. Hazard identification The hazard identification process identifies hazards that 
+may threaten the system. These hazards may be recorded in a hazard register. 
+This is a formal document that records the safety analyses and assessments and 
+
+that may be submitted to a regulator as part of a safety case.2. Hazard assessment The hazard assessment process decides which hazards are 
+the most dangerous and/or the most likely to occur. These should be prioritized 
+when deriving safety requirements.3. Hazard analysis This is a process of root-cause analysis that identifies the 
+
+events that can lead to the occurrence of a hazard.4. Risk reduction This process is based on the outcome of hazard analysis and 
+
+leads to identification of safety requirements. These requirements may be con-
+cerned with ensuring that a hazard does not arise or lead to an accident or that if 
+an accident does occur, the associated damage is minimized.Figure 12.
+2 illustrates this hazard-driven safety requirements specification process.
+ˇˇIn safety-critical systems, hazard identification starts by identifying different classes of 
+
+hazards, such as physical, electrical, biological, radiation, and service failure hazards. 
+
+Each of these classes can then be analyzed to discover specific hazards that could occur. 
+
+Possible combinations of hazards that are potentially dangerous must also be identified.Hazard probability and acceptabilitySafety requirementsRoot cause analysesHazard registerHazard identificationHazard assessmentHazard analysisRisk reductionFigure 12.2 Hazard-driven requirements specification 

@@ -1,0 +1,23 @@
+880 APPENDIX 1  AN INTRODUCTION TO UML     
+  COMMUNICATION
+ DIAGRAMS   
+The UML  communication diagram  (known as a “collaboration diagram” in UML 1.X) provides another indication of the temporal order of the communications 
+but emphasizes the relationships among the objects and classes instead of the 
+temporal order. A communication diagram is illustrated in   Figure A1.10, which displays the same actions shown in the sequence diagram in   Figure A1.7. 
+  
+In a communication diagram the interacting objects are represented by rect-angles. Associations between objects are represented by lines connecting the 
+rectangles. There is typically an incoming arrow to one object in the diagram 
+that starts the sequence of message passing. That arrow is labeled with a number 
+and a message name. If the incoming message is labeled with the number 1 and 
+if it causes the receiving object to invoke other messages on other objects, then  F
+IGURE A1.9Creation, 
+destruction, 
+and loops 
+in sequence 
+diagrams   
+:Thing1:Thing2.Thing2().destroy().foo()x<< create >> F
+IGURE A1.10A UML com-
+munication 
+diagram   
+1.1: getFigureAt(point)1: mouseClicked(point)1.2: highlight(graphics)1.2.2: drawRect(x,y,w,h)
+1.2.1: setColor(red)1.2.3: drawString(s)MouseListenerGraphicsFigureDrawing

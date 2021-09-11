@@ -1,0 +1,59 @@
+658 Chapter 10  
+Management and Incidentssales or improve product quality, so these planning activities should be a natural part of 
+management. Next we turn to two particular kinds of business plans that address specific security 
+problems: coping with and controlling activity during security incidents and ensuring 
+
+that business activity continues in spite of an incident.
+10.2 BUSINESS CONTINUITY PLANNING
+Small companies working on a low profit margin can be put out of business by a com-
+
+puter incident (although how many do fail is in dispute, as Sidebar 10-2 reports). Large, 
+
+financially sound businesses can weather a modest incident that interrupts their use of 
+
+computers for a while, although it is painful to them. But even rich companies do not 
+
+want to spend money unnecessarily. The analysis is sometimes as simple as 
+no comput-ers means no customers means no sales means no profit.
+Government agencies, educational institutions, and nonprofit organizations also have 
+limited budgets, which they want to use to further their needs. They may not have a 
+SIDEBAR 10-2  
+Do Businesses Fail from Security 
+Incidents?If you search the web you can easily find references to the statistic that 
+80 percent of organizations affected by a significant computer incident 
+
+close within 18 months. Or sometimes 40 percent. Or sometimes 2 years. 
+
+Or sometimes businesses that have no continuity plan. With so many peo-
+ple citing this statistic, it must be true.Or is it?
+Mel Gosling, a business continuity planner, wrote an opinion piece on 
+the Internet [GOS07] in which he argues that 80 percent, or even 40 per-
+
+cent, is not believable. To support his opinion, he cites several major natural 
+
+disasters (flood, disease outbreak, bombing) in which he can approximate 
+
+the number of business failures and comes up with numbers well below 
+
+even 40 percent.
+Later, he and colleague Andrew Hiles [GOS09] searched for and ana-
+lyzed 29 references to the number of businesses failing after a computer 
+
+incident. In all 29 cases they found (a) no supporting justification, (b) a 
+
+vague reference (“according to an [unspecified] IDC report. . . ”), (c) refer-
+
+ence to a report from a source with a vested interest (such as a consulting 
+
+company that guides clients on disaster planning), or (d) reference to a 
+
+source that has no supporting data, or some similar elusive justification 
+
+(reference to the U.S. National Archives and Records Administration, which 
+
+referred to a book it wrote in 1997 that quotes a television broadcast). Thus, 
+
+the 80 percent (or 40, 60, 70, 43, or 27 percent, pick your favorite number) 
+
+figure seems without verifiable justification.
+Be skeptical next time you hear such an assertion.

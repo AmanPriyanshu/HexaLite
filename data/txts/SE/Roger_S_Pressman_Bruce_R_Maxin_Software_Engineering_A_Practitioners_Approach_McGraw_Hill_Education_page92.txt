@@ -1,0 +1,100 @@
+62 PART ONE  
+THE SOFTWARE PROCESS
+ 
+Process technology tools allow a software organization to build an automated model of the process framework, task sets, and umbrella activities discussed in 
+Chapter 3. The model, normally represented as a network, can then be analyzed 
+to determine typical workﬂ ow and examine alternative process structures that 
+might lead to reduced development time or cost.  Once an acceptable process has been created, other process technology tools can be used to allocate, monitor, and even control all software engineering ac-
+
+tivities, actions, and tasks deﬁ ned as part of the process model. Each member 
+of a software team can use such tools to develop a checklist of work tasks to be 
+performed, work products to be produced, and quality assurance activities to be 
+conducted. The process technology tool can also be used to coordinate the use of 
+other software engineering tools that are appropriate for a particular work task.   
+ 
+ 
+Process Modeling Tools 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+If an organization works to improve a business (or software) process, it must ﬁ rst understand it. Process modeling tools (also 
+called  process technology 
+ or  process management 
+ tools) are used to represent the key elements of a process so 
+that it can be better understood. Such tools can also 
+provide links to process descriptions that help those 
+involved in the process to understand the actions and 
+work tasks that are required to perform it. Process 
+
+modeling tools provide links to other tools that provide 
+support to deﬁ
+ ned process activities. 
+ 
+ 
+ 
+ 
+ 
+Tools in this category allow a team 
+to deﬁ ne the elements of a unique process model 
+(actions, tasks, work products, QA points), provide detailed guidance on the content or description of each process element, and then manage the process as it is 
+conducted. In some cases, the process technology tools 
+incorporate standard project management tasks such as 
+estimating, scheduling, tracking, and control.   
+ 
+ 
+Representative tools:20  
+ 
+ 
+ 
+ 
+ 
+ 
+Igrafx Process Tools
+ 
+—tools that enable a team to map, measure, and model the software process ( http://
+www.igrafx.com/
+ 
+)    
+ 
+ 
+ 
+Adeptia BPM Server
+ 
+—designed to manage, automate, and optimize business processes ( www.adeptia
+.com 
+)    
+ 
+ 
+ 
+ALM Studio Suite 
+—a collection of tools with a heavy emphasis on the management of communication and 
+modeling activities ( http://www.kovair.com/
+ 
+)  
+ 
+ 
+  
+SOFTWARE
+ TOOLS  
+ 
+20  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+  
+ 
+ 
+ 
+ 4.6 P
+RODUCT AND PROCESS  
+ 
+If the process is weak, the end product will undoubtedly suffer. But an obsessive 
+overreliance on process is also dangerous. In a brief essay written many years 
+ago, Margaret Davis [Dav95a] makes timeless comments on the duality of prod-
+uct and process:  
+About every ten years give or take ﬁ ve, the software community redeﬁ
+ nes “the 
+problem” by shifting its focus from product issues to process issues. Thus, we have pre22126_ch04_040-065.indd   62pre22126_ch04_040-065.indd   6213/12/13   6:10 PM13/12/13   6:10 PM

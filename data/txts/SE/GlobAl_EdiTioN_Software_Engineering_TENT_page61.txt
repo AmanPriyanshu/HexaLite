@@ -1,0 +1,40 @@
+sense to see development and maintenance as a continuum. Rather than two separate processes, it is more realistic to think of software engineering as an evolutionary 
+
+process (Figure 2.8) where software is continually changed over its lifetime in 
+
+response to changing requirements and customer needs.†Change is inevitable in all large software projects. The system requirements 
+
+change as businesses respond to external pressures, competition, and changed 
+
+management priorities. As new technologies become available, new approaches to 
+
+design and implementation become possible. Therefore whatever software pro-
+cess model is used, it is essential that it can accommodate changes to the software 
+
+being developed.Change adds to the costs of software development because it usually means 
+that work that has been completed has to be redone. This is called rework. For 
+
+example, if the relationships between the requirements in a system have been ana
+-
+lyzed and new requirements are then identified, some or all of the requirements 
+
+analysis has to be repeated. It may then be necessary to redesign the system to 
+
+deliver the new requirements, change any programs that have been developed, 
+
+and retest the system.Two related approaches may be used to reduce the costs of rework:1. Change anticipation, 
+where the software process includes activities that can 
+
+anticipate or predict possible changes before significant rework is required. For 
+example, a prototype system may be developed to show some key features of 
+the system to customers. They can experiment with the prototype and refine 
+
+their requirements before committing to high software production costs.2. Change tolerance, where the process and software are designed so that changes 
+can be easily made to the system. This normally involves some form of incre-
+mental development. Proposed changes may be implemented in increments that 
+
+have not yet been developed. If this is impossible, then only a single increment 
+(a small part of the system) may have to be altered to incorporate the change.Assess existingsystems
+Define systemrequirementsPropose systemchangesModifysystems
+NewsystemExistingsystemsFigure 2.8 Software system evolution˜˜˚˝˜˜˜
+˜˜˜

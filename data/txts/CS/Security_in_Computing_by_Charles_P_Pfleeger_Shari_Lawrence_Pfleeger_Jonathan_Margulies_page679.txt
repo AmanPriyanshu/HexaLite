@@ -1,0 +1,62 @@
+ Section 9.10  Exercises 
+645  activity including researchers at North Carolina State University and Carnegie Mellon 
+University.
+Bob Gellman is a well-respected consultant on privacy issues. His website,  
+www.bobgellman.com, contains a large number of excellent privacy resources, includ-
+
+ing comparisons of privacy protections across different countries.
+IEEE Security & Privacy magazine has at least one article about privacy in every 
+issue, in its Privacy Interests department. There, leading privacy practitioners, research-
+
+ers, and policy-makers discuss what is new on the privacy horizon. In addition, Susan 
+
+Landau wrote two articles about a series of U.S. national security leaks; they can be 
+
+found in the July/August 2013 issue and online on the magazine’s website. The July/
+
+August 2014 issue was a special issue devoted to exploring how intelligence agencies 
+
+use technology to perform surveillance, and what that means for our privacy. Landau’s 
+
+books [DIF07, LAN11] on surveillance explore in depth the effects of government sur-
+
+veillance on privacy and security.
+9.9 CONCLUSION
+In this chapter on privacy we have examined how security, privacy, technology, and 
+
+information interact. On one side are new capabilities made available only because of 
+
+the power and capacity of computers. On the other side are human rights and expecta-
+
+tions of privacy. As we have shown, these two sides do not have to be in conflict: Pri-
+
+vacy and technology are not necessarily antithetical.
+The first step in establishing privacy is the same as the other areas of computer secu-
+rity: We must first define a privacy 
+policy that documents what privacy we require. 
+The early work by Ware’s committee laid out very important fundamental principles of 
+
+information privacy.
+Next, we looked at the interplay among individuals, identities, attributes, and authen-
+tication, similar to how we studied subjects, objects, and access rights in Chapter 5. 
+
+Specific examples of privacy in email and the web showed how privacy is and is not 
+
+currently upheld in computerized information handling. Finally, emerging topics like 
+
+computerized voting, Internet telephony, RFIDs and the cloud show us that in rapidly 
+
+changing technology, we need to ensure that privacy interests are upheld.
+Privacy rights have both a political and technological dimension. The technology 
+is perhaps the easier part: Once we decide politically what privacy rights we want to 
+
+retain, we can usually make the technology conform. But our study of security has 
+
+shown us that security—or privacy—is unlikely to happen unless we demand it, plan for 
+
+it, and design it into our products and processes.9.10 EXERCISES
+1. You have been asked to participate in developing the requirements for an RFID-based identi-
+fication card for students, faculty, and affiliates at a university. First, list five to ten different 
+
+uses of the card. Second, from that list of uses, detail what data the card needs to broadcast 
+to receivers that will accomplish those uses. Third, identify uses that could be made of that 

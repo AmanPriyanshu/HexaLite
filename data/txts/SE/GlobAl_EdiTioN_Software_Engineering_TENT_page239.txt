@@ -1,0 +1,35 @@
+˜˜˚˛˜˜˜˜˜˜
+operate at different speeds. Unless particular care is taken in the interface design, the consumer can access out-of-date information because the producer of the 
+
+information has not updated the shared interface information.Testing for interface defects is difficult because some interface faults may only manifest themselves under unusual conditions. For example, say an object imple-ments a queue as a fixed-length data structure. A calling object may assume that the queue is implemented as an infinite data structure, and so it does not check for queue 
+overflow when an item is entered.This condition can only be detected during testing by designing a sequence of test cases that force the queue to overflow. The tests should check how calling objects 
+handle that overflow. However, as this is a rare condition, testers may think that this 
+
+isn™t worth checking when writing the test set for the queue object.A further problem may arise because of interactions between faults in different modules or objects. Faults in one object may only be detected when some other 
+
+object behaves in an unexpected way. Say an object calls another object to receive 
+some service and the calling object assumes that the response is correct. If the called 
+service is faulty in some way, the returned value may be valid but incorrect. The 
+
+problem is therefore not immediately detectable but only becomes obvious when 
+
+some later computation, using the returned value, goes wrong.Some general guidelines for interface testing are:1. Examine the code to be tested and identify each call to an external component. 
+Design a set of tests in which the values of the parameters to the external com-
+ponents are at the extreme ends of their ranges. These extreme values are most 
+likely to reveal interface inconsistencies.2. Where pointers are passed across an interface, always test the interface with null 
+pointer parameters.3.
+ Where a component is called through a procedural interface, design tests that 
+
+deliberately cause the component to fail. Differing failure assumptions are one 
+of the most common specification misunderstandings.4.
+ Use stress testing in message passing systems. This means that you should 
+
+design tests that generate many more messages than are likely to occur in prac-
+tice. This is an effective way of revealing timing problems.5.
+ Where several components interact through shared memory, design tests that 
+
+vary the order in which these components are activated. These tests may reveal 
+implicit assumptions made by the programmer about the order in which the 
+
+shared data is produced and consumed.Sometimes it is better to use inspections and reviews rather than testing to look for interface errors. Inspections can concentrate on component interfaces and ques-
+tions about the assumed interface behavior asked during the inspection process.

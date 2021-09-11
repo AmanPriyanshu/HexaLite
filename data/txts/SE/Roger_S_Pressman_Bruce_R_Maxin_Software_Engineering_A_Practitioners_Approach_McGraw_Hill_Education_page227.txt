@@ -1,0 +1,104 @@
+CHAPTER 10  
+REQUIREMENTS MODELING: CLASS-BASED METHODS 197 
+ 
+ 
+ 4.
+  When the token is passed, the holder of the class card is asked to describe the responsibilities noted on the card. The group determines whether one 
+(or more) of the responsibilities satisﬁ es the use-case requirement. 
+  
+ 
+ 
+ 5.
+  If the responsibilities and collaborations noted on the index cards cannot accommodate the use case, modiﬁ cations are made to the cards. This 
+may include the deﬁ nition of new classes (and corresponding CRC index 
+cards) or the speciﬁ cation of new or revised responsibilities or collabora-
+tions on existing cards.  
+ 
+  This modus operandi continues until the use case is ﬁ nished. When all use cases 
+(or use case diagrams) have been reviewed, requirements modeling continues.  
+ 
+ 
+  
+ 
+CRC Models  
+ 
+CRC Models  
+ 
+The scene:  Ed’s cubicle, as require-
+ments modeling begins.   
+The players:  Vinod and Ed—members of the 
+ SafeHome 
+ software engineering team.   
+The conversation:   [Vinod has decided to show Ed how to develop CRC cards by showing him an example.]   
+Vinod:  While you’ve been working on surveillance 
+and Jamie has been tied up with security, I’ve been 
+
+working on the home management function.   
+Ed:  What’s the status of that? Marketing kept changing 
+its mind.   
+Vinod:  Here’s the ﬁ
+ rst-cut use case for the whole 
+  ned it a bit, but it should give you 
+  
+Use case:   SafeHome 
+ home management function.   
+Narrative:  We want to use the home management 
+interface on a PC or an Internet connection to control 
+
+electronic devices that have wireless interface control-
+
+lers. The system should allow me to turn speciﬁ
+ c lights 
+on and off, to control appliances that are connected to a 
+wireless interface, to set my heating and air-conditioning 
+
+system to temperatures that I deﬁ ne. To do this, I want to 
+select the devices from a ﬂ oor plan of the house. Each 
+device must be identiﬁ ed on the ﬂ
+ oor plan. As an op-
+tional feature, I want to control all audiovisual devices—
+audio, television, DVD, digital recorders, and so forth. 
+ With a single selection, I want to be able to set the 
+entire house for various situations. One is home, another 
+
+is away, a third is overnight travel, and a fourth is ex-
+
+tended travel. All of these situations will have settings 
+that will be applied to all devices. In the overnight travel 
+and extended travel states, the system should turn lights 
+
+on and off at random intervals (to make it look like some-
+
+one is home) and control the heating and air-condition-
+
+ing system. I should be able to override these setting via 
+
+the Inter 
+  
+Ed:  The hardware guys have got all the wireless inter-
+facing ﬁ gured out? 
+  
+Vinod (smiling):  They’re working on it; say it’s no 
+problem. Anyway, I extracted a bunch of classes for 
+
+home management and we can use one as an example. 
+Let’s use the  
+HomeManagementInterface
+ 
+ class.   
+Ed:  
+attributes and operations for the class and the collabo-
+rations are the classes that the responsibilities point to.   
+Vinod:  I thought you didn’t understand CRC. 
+  
+Ed:  Maybe a little, but go ahead. 
+  
+Vinod:  So here’s my class deﬁ
+ nition for 
+ HomeManagementInterface.
+ 
+   
+Attributes:   optionsPanel—contains info on buttons that enable user to select functionality. 
+ situationPanel—contains info on buttons that enable user to select situation.  ﬂ oorplan—same as surveillance object but this one dis-
+plays devices.  deviceIcons—info on icons representing lights, appli-ances, HVAC, etc. 
+ devicePanels—simulation of appliance or device control panel; allows control.  SAFEHOME pre22126_ch10_184-201.indd   197pre22126_ch10_184-201.indd   19713/12/13   6:11 PM13/12/13   6:11 PM

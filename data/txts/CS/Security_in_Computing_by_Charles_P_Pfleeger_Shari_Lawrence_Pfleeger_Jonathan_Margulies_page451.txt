@@ -1,0 +1,34 @@
+ Section 6.4  Denial of Service 
+417  slid into the session, taking the place of the original sender. This inserted packet is a 
+replay carefully constructed by a man in the middle. This attack was discovered by 
+
+Robert Morris, Sr. [MOR85] and expanded by Steven Bellovin [BEL89].
+Meanwhile, as shown in Figure 6-33, the attacker sends an RST (reset) command to 
+the original sender, convincing the sender that the receiver has closed the original con-
+
+nection. The sender can attempt to open a new connection with the recipient, unaware 
+
+that the attacker is continuing the previous session. Depending on the application that 
+
+was running, the attacker can accept the sender as a new user (possibly requiring the 
+
+user to reauthenticate) or reject the user for duplicating a connection already in progress.Thus, with a session hijack attack, an attacker can slide into an ongoing communica-
+tion stream without being obvious to either of the two original parties; the communica-
+
+tion continues with the attacker substituting for the original sender, while that sender is 
+
+stopped. Because momentary loss of connection occurs for many benign reasons, users 
+
+tend not to suspect an attack in this situation; the session is often reestablished by the 
+network protocol handlers without the user’s knowledge.
+The attacker simply blends into the communications stream, taking over the inter-
+action from the original sender. The attack succeeds because the attacker can see and 
+
+manipulate the TCP and IP headers, but of course these need to be visible throughout 
+
+the network because they are what allows traffic to be delivered. We show in the next 
+
+section, however, a way to protect against hijacking, both by concealing connecting data 
+
+within the application and by hiding the header data.Receiver
+AttackerSenderData (len 5)Seq=10Data (len 20)Seq=15Data (len 100)Seq=35Data (len 30)Seq=35Data (len 25)Seq=135Ack=35Ack=135Ack=15HijackFIGURE 6-32 TCP Hijack

@@ -1,0 +1,74 @@
+CHAPTER 32  
+PROCESS AND PROJECT METRICS 707 
+ 
+ 
+•  Don’t obsess on a single metric to the exclusion of other important metrics.  
+ 
+ 
+ 
+ 
+ 
+   
+As an organization becomes more comfortable with the collection and use of 
+process metrics, the derivation of simple indicators gives way to a more rig-
+orous approach called  statistical software process improvement
+ 
+ (SSPI). In es-
+sence, SSPI uses software failure analysis to collect information about all errors 
+
+and defects  2 
+ 
+ encountered as an application, system, or product is developed 
+and used. 
+ 
+ 
+  
+ 
+ 
+ 
+32.1.2   
+Project Metrics 
+ 
+Unlike software process metrics that are used for strategic purposes, software project measures are tactical. That is, project metrics and the indicators derived 
+from them are used by a project manager and a software team to adapt project 
+work ﬂ ow and technical activities. 
+ The ﬁ rst application of project metrics on most software projects occurs 
+during estimation. Metrics collected from past projects are used as a basis from 
+which effort and time estimates are made for current software work. As a project 
+proceeds, measures of effort and calendar time expended are compared to orig-
+inal estimates (and the project schedule). The project manager uses these data 
+to monitor and control progress.  As technical work commences, other project metrics begin to have signiﬁ -cance. Production rates represented in terms of models created, review hours, 
+function points, and delivered source lines are measured. In addition, errors 
+uncovered during each software engineering task are tracked. As the software 
+evolves from requirements into design, technical metrics (Chapter 30) are col-
+lected to assess design quality and to provide indicators that will inﬂ uence the 
+approach taken to code generation and testing.  
+ 
+ 
+   
+The intent of project metrics is twofold. First, these metrics are used to mini-mize the development schedule by making the adjustments necessary to avoid 
+delays and mitigate potential problems and risks. Second, project metrics are 
+used to assess product quality on an ongoing basis and, when necessary, modify 
+
+the technical approach to improve quality. 
+ As quality improves, defects are minimized, and as the defect count goes down, the amount of rework required during the project is also reduced. This 
+leads to a reduction in overall project cost.  
+ 
+ 
+  How should 
+we use metrics during the 
+project itself? ?  
+2  In this book, an  
+error 
+ 
+is deﬁ ned as some ﬂ
+ aw in a software engineering work product that 
+is uncovered  before
+ 
+ the software is delivered to the end user. A  
+defect  
+is a ﬂ aw that is 
+uncovered  after 
+ delivery to the end user. It should be noted that others do not make this 
+distinction.  
+pre22126_ch32_703-726.indd   707pre22126_ch32_703-726.indd   70713/12/13   6:16 PM13/12/13   6:16 PM

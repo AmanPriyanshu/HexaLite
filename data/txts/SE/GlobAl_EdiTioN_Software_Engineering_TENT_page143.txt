@@ -1,0 +1,34 @@
+˜˜˚˛˜˜˜˜˜˜
+ConfirmdetentiondecisionFind secureplaceAdmit tohospitalTransfer to
+police station
+Transfer to
+secure hospitalInform next
+of kinInformsocial careInformpatient ofrightsUpdateregister
+«system»
+Admissionssystem«system»Mentcare«system»MentcareRecorddetentiondecision[dangerous][not available][notdangerous][available]Figure 5.2 A process model of involuntary detentionthese relations may affect the requirements and design of the system being defined 
+
+and so must be taken into account. Therefore, simple context models are used along 
+with other models, such as business process models. These describe human and auto
+-
+mated processes in which particular software systems are used.UML activity diagrams may be used to show the business processes in which 
+systems are used. Figure 5.2 is a UML activity diagram that shows where the 
+
+Mentcare system is used in an important mental health care processŠinvoluntary 
+
+detention.Sometimes, patients who are suffering from mental health problems may be a 
+danger to others or to themselves. They may therefore have to be detained against 
+their will in a hospital so that treatment can be administered. Such detention is sub-
+ject to strict legal safeguardsŠfor example, the decision to detain a patient must be 
+regularly reviewed so that people are not held indefinitely without good reason. One 
+critical function of the Mentcare system is to ensure that such safeguards are imple
+-
+mented and that the rights of patients are respected.UML activity diagrams show the activities in a process and the flow of control from one activity to another. The start of a process is indicated by a filled circle, the 
+end by a filled circle inside another circle. Rectangles with round corners represent 
+activities, that is, the specific subprocesses that must be carried out. You may include 
+objects in activity charts. Figure 5.2 shows the systems that are used to support dif-
+ferent subprocesses within the involuntary detection process. I have shown that these 
+
+are separate systems by using the UML stereotype feature where the type of entity in 
+
+the box between chevrons is shown.Arrows represent the flow of work from one activity to another, and a solid bar 
+indicates activity coordination. When the flow from more than one activity leads to a 

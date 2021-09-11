@@ -1,0 +1,85 @@
+456 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+ 
+ 
+ 21.5  
+FORMAL APPROACHES TO SQA 
+ 
+ 
+In the preceding sections, we have argued that software quality is everyone’s 
+job and that it can be achieved through competent software engineering prac-
+tice as well as through the application of technical reviews, a multi-tiered test-
+ing strategy, better control of software work products and the changes made 
+
+to them, and the application of accepted software engineering standards and 
+
+process frameworks. In addition, quality can be deﬁ ned in terms of a broad 
+array of quality attributes and measured (indirectly) using a variety of indices 
+
+and metrics. 
+ Over the past three decades, a small, but vocal, segment of the software engi-neering community has argued that a more formal approach to software quality 
+assurance is required. It can be argued that a computer program is a mathe-
+matical object. A rigorous syntax and semantics can be deﬁ ned for every pro-
+gramming language, and a rigorous approach to the speciﬁ cation of software 
+requirements (Chapter 28) is available. If the requirements model (speciﬁ cation) 
+and the programming language can be represented in a rigorous manner, it 
+
+should be possible to apply mathematic proof of correctness to demonstrate that 
+a program conforms exactly to its speciﬁ cations. 
+ Attempts to prove programs correct are not new. Dijkstra [Dij76a] and Linger, 
+Mills, and Witt [Lin79], among others, advocated proofs of program correctness 
+
+and tied these to the use of structured programming concepts (Chapter 14).   
+ 
+ 
+ 
+ 21.6  
+STATISTICAL
+ SOFTWARE
+ QUALITY ASSURANCE  
+ 
+ 
+Statistical quality assurance reﬂ ects a growing trend throughout the industry to 
+become more quantitative about quality. For software, statistical quality assur-
+
+ance implies the following steps:  
+ 
+ 
+ 1.
+  Information about software errors and defects is collected and categorized.   
+ 
+ 
+ 2.
+  An attempt is made to trace each error and defect to its underlying cause (e.g., nonconformance to speciﬁ cations, design error, violation of stan-
+dards, poor communication with the customer).   
+ 
+ 
+ 3.
+  Using the Pareto principle (80 percent of the defects can be traced to vital few 
+).   
+ 
+ 
+ 4.
+  Once the vital few causes have been identiﬁ ed, move to correct the prob-
+lems that have caused the errors and defects.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  This relatively simple concept represents an important step toward the cre-ation of an adaptive software process in which changes are made to improve 
+those elements of the process that introduce error. 
+ What steps 
+are required to perform 
+statistical SQA? ?  uote:  “20 percent of 
+the code has 
+
+errors. Find them, 
+ﬁ x them!” 
+ Lowell Arthur 
+pre22126_ch21_448-465.indd   456pre22126_ch21_448-465.indd   45613/12/13   10:02 PM13/12/13   10:02 PM

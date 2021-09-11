@@ -1,0 +1,65 @@
+ Section 5.3  Rootkit 
+335  Rootkits interfere with normal system functions to remain hidden. As we described, 
+a common rootkit trick is to intercept file directory enumeration functions to conceal 
+
+the rootkit’s presence. Ah, two can play that game. Suppose you suspect code is inter-
+
+fering with your file display program. You then write a program that displays files, 
+
+examines the disk and file system directly to enumerate files, and compares these two 
+
+results. A rootkit revealer is just such a program.
+Sony XCP RootkitA computer security expert named Mark Russinovich developed a 
+rootkit revealer
+, which he ran on one of his systems. Instead of using a high-level utility program  
+
+like the file manager to inventory all files, Russinovich wrote code that called the 
+
+NTQueryDirectoryObject function directly. Summing the file sizes in his program, he 
+
+compared the directory size against what the file manager reported; a discrepancy led 
+
+him to look further. He was surprised to find a rootkit [RUS05]. On further investigation 
+
+he determined the rootkit had been installed when he loaded and played a Sony music 
+
+CD on his computer. Princeton University researchers Edward Felten and Alex Halder-
+
+man [FEL06] extensively examined this rootkit, named XCP (short for extended copy 
+
+protection). What XCP DoesThe XCP rootkit was installed (automatically and without the user’s knowledge) from 
+the Sony music CD to prevent a user from copying the tunes, while allowing the CD to 
+
+be played as audio. To do this, it includes its own special music player that is allowed 
+
+to play the CD. But XCP interferes with any other access to the protected music CD by 
+
+garbling the result any other process would obtain in trying to read from the CD. That 
+
+is, it intercepts any functional call to read from the CD drive. If the call originated from 
+
+a music player for a Sony CD, XCP redirects the result to Sony’s special music player. 
+
+If the call was from any other application for a Sony CD, the rootkit scrambled the 
+
+result so that it was meaningless as music and passed that uninterpretable result to the 
+
+calling application.The rootkit has to install itself when the CD is first inserted in the PC’s drive. To 
+do this, XCP depends on a “helpful” feature of Windows: With the “autorun” feature, 
+
+Windows looks on each newly inserted CD for a file with a specific name, and if it finds 
+
+that, it opens and executes the file without the user’s involvement. (The file name can 
+
+be configured in Windows, although it is autorun.exe by default.) You can disable the 
+
+autorun feature; see [FEL06] for details.XCP has to hide from the user so that the user cannot just remove or disable it. So the 
+rootkit does as we just described: It blocks display of any program whose name begins 
+
+with $sys$ (which is how it is named). Unfortunately for Sony, this feature concealed 
+
+not just XCP but any program beginning with $sys$ from any source, malicious or not. 
+
+So any virus writer could conceal a virus just by naming it $sys$virus-1, for example.
+Sony did two things wrong: First, as we just observed, it distributed code that inad-
+vertently opens an unsuspecting user’s system to possible infection by other writers of 

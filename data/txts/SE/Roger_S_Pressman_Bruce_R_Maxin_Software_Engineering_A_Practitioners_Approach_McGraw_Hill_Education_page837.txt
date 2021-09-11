@@ -1,0 +1,91 @@
+CHAPTER 36  
+MAINTENANCE AND REENGINEERING 807 
+ 
+ 
+36.6.1   
+Reverse Engineering to Understand Data  
+ 
+ 
+ 
+ 
+ 
+Reverse engineering of data occurs at different levels of abstraction and is often the ﬁ rst reengineering task. At the program level, internal program data struc-
+tures must often be reverse engineered as part of an overall reengineering ef-
+fort. At the system level, global data structures (e.g., ﬁ les, databases) are often 
+reengineered to accommodate new database management paradigms (e.g., the 
+move from ﬂ at ﬁ
+ le to relational or object-oriented database systems). Reverse 
+engineering of the current global data structures sets the stage for the introduc-
+tion of a new systemwide database.   
+ 
+ 
+ 
+ 
+ 
+Internal data structures.   
+Reverse engineering techniques for internal program data focus on the deﬁ nition of classes of objects. This is accomplished by exam-
+ining the program code with the intent of grouping related program variables. In 
+many cases, the data organization within the code identiﬁ es abstract data types. 
+For example, record structures, ﬁ les, lists, and other data structures often pro-
+vide an initial indicator of classes.   
+ 
+Database structure.   
+ Regardless of its logical organization and physical struc-
+ture, a database allows the deﬁ nition of data objects and supports some method 
+for establishing relationships among the objects. Therefore, reengineering one 
+database schema into another requires an understanding of existing objects and 
+their relationships.  The following steps [Pre94] may be used to deﬁ ne the existing data model as 
+a precursor to reengineering a new database model: (1) build an initial object 
+model, (2) determine candidate keys (the attributes are examined to determine 
+whether they are used to point to another record or table; those that serve as 
+pointers become candidate keys), (3) reﬁ ne the tentative classes, (4) deﬁ
+ ne gen-
+eralizations, and (5) discover associations using techniques that are analogous to 
+the CRC approach. Once information deﬁ ned in the preceding steps is known, a 
+series of transformations [Pre94] can be applied to map the old database struc-
+ture into a new database structure.   
+ 
+ 
+ 
+36.6.2   
+Reverse Engineering to Understand Processing 
+ 
+ 
+ 
+ 
+Reverse engineering to understand processing begins with an attempt to under-
+stand and then extract procedural abstractions represented by the source code. 
+To understand procedural abstractions, the code is analyzed at varying levels of 
+
+abstraction: system, program, component, pattern, and statement.  The overall functionality of the entire application must be understood before more detailed reverse engineering work occurs. This establishes a context for 
+further analysis and provides insight into interoperability issues among appli-
+cations within a larger system. Each of the programs that make up the system 
+represents a functional abstraction at a high level of detail. A block diagram, rep-
+resenting the interaction between these functional abstractions, is created. Each    In some cases, the ﬁ rst 
+reengineering activity 
+attempts to construct a 
+
+UML class diagram.    The approach to 
+
+reverse engineering for 
+data for conventional 
+software follows 
+an analogous path: 
+(1) build a data 
+model, (2) identify 
+attributes of data 
+objects, and (3) deﬁ ne 
+
+relationships.   
+ 
+ uote:  “There exists 
+a passion for 
+comprehension, 
+just as there exists 
+a passion for 
+music. That passion 
+is rather common 
+in children, but 
+gets lost in most 
+people later on.”  Albert Einstein 
+pre22126_ch36_795-816.indd   807pre22126_ch36_795-816.indd   80713/12/13   6:17 PM13/12/13   6:17 PM

@@ -1,0 +1,84 @@
+638 PART THREE  
+QUALITY MANAGEMENTCCA may be composed of one person—the project manager—or a number of people (e.g., representatives from software, hardware, database engineering, 
+support, marketing). The role of the CCA is to take a global view, that is, to as-
+
+sess the impact of change beyond the SCI in question. How will the change affect 
+hardware? How will the change affect performance? How will the change modify 
+customers’ perception of the product? How will the change affect product quality 
+and reliability? These and many other questions are addressed by the CCA.   
+ 
+SCM Issues    
+ 
+SCM Issues   
+ 
+The scene:  Doug Miller’s ofﬁ
+ ce 
+as the  SafeHome 
+ software project begins.   
+The players:  Doug Miller (manager of the  
+SafeHome 
+ software engineering team) and Vinod Raman, Jamie 
+Lazar, and other members of the product software engi-
+
+neering team.   
+The conversation:    
+Doug:  I know it’s early, but we’ve got to talk about 
+change management.   
+Vinod (laughing):  Hardly. Marketing called this 
+morning with a few “second thoughts.” Nothing major, 
+
+but it’s just the beginning. 
+  
+Jamie:  We’ve been pretty informal about change 
+management on past projects.   
+Doug:  I know, but this is bigger and more visible, and 
+  
+Vinod (nodding):  We got killed by uncontrolled 
+
+  
+Doug (frowning):  A nightmare that I’d prefer not to 
+relive.   
+Jamie:  So what do we do? 
+  
+Doug:  As I see it, three things. First we have to 
+develop—or borrow—a change control process.   
+Jamie:  You mean how people request changes? 
+  
+Vinod:  Yeah, but also how we evaluate the change, 
+decide when to do it (if that’s what we decide), and 
+
+how we keep records of what’s affected by the change. 
+  
+Doug:  Second, we’ve got to get a really good SCM 
+tool for change and version control.   
+Jamie:  We can build a database for all of our work 
+products.   
+Vinod:  They’re called SCIs in this context, and most 
+good tools provide some support for that. 
+  
+Doug:  That’s a good star
+  
+Jamie:  
+  
+Doug (smiling):  Third—we’ve all got to commit to 
+follow the change management process and use the 
+tools—no matter what, okay?   SAFEHOME  
+ 
+ 
+ 
+ 
+ 
+29.3.4   
+Impact Management  
+A web of software work product interdependencies must be considered every time a change is made.  Impact management 
+ encompasses the work required to 
+properly understand these interdependencies and control their effects on other 
+SCIs (and the people who are responsible for them).  Impact management is accomplished with three actions [Sou08]. First, an  im-pact network 
+ identiﬁ
+ es the members of a software team (and other stakeholders) 
+who might effect or be affected by changes that are made to the software. A clear 
+deﬁ nition of the software architecture (Chapter 13) assists greatly in the creation 
+of an impact network. Next,  forward impact management
+ 
+ assesses the 
+  impact pre22126_ch29_623-652.indd   638pre22126_ch29_623-652.indd   63813/12/13   6:16 PM13/12/13   6:16 PM

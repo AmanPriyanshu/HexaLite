@@ -1,0 +1,26 @@
+˜˜˚˛ˇ˜˜˜˜˜˜˜˜
+There are two problems with this type of SoS architecture:1. A separate interface must be developed for each approved system so that com-mon services can be used with these systems. This means that only a relatively 
+small number of approved systems can be supported.2. The owners of the container system have no influence on the functionality and 
+behavior of the included systems. Systems may stop working, or they may be 
+
+withdrawn at any time.However, the main benefit of this architecture is that it allows for incremental 
+development. An early version of the container system can be based on ﬁunap
+-
+provedﬂ systems. Interfaces to these can be developed in later versions so that they 
+are more closely integrated with the container services.Trading systems are systems of systems where there is no single principal system but 
+processing may take place in any of the constituent systems. The systems involved 
+
+trade information among themselves. There may be one-to-one or one-to-many inter-
+actions between these systems. Each system publishes its own interface, but there may 
+
+not be any interface standards that are followed by all systems. This  system is shown 
+in Figure 20.14. Trading systems may be federated systems or system coalitions.An example of a trading SoS is a system of systems for algorithmic trading of 
+stocks and shares. Brokers all have their own separate systems that can automati
+-
+cally buy and sell stock from other systems. They set prices and negotiate individu-
+ally with these systems. Another example of a trading system is a travel aggregator 
+
+that shows price comparisons and allows travel to be booked directly by a user.The Digital Learning Environment
+External interactionConfigurationStorageAuthenticationYouTube
+ScienceencyclopediaMS Office 365PhysicssimulatorMoodleLab dataanalyzerInterfaces
+Figure 20.13 The DLE as a container system 

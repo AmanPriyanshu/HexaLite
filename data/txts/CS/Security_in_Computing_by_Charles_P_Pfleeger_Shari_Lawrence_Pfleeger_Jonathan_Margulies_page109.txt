@@ -1,0 +1,65 @@
+ Section 2.2  Access Control 
+75  In the next section we consider protection mechanisms appropriate for general 
+objects of unspecified types, such as the kinds of objects listed above. To make the 
+
+explanations easier to understand, we sometimes use an example of a specific object, 
+
+such as a file. Note, however, that a general mechanism can be used to protect any of the 
+
+types of objects listed.Limited Privilege Limited privilege
+ is the act of restraining users and processes so that any harm they can 
+do is not catastrophic. A system that prohibits all accesses to anything by anyone cer-
+
+tainly achieves both confidentiality and integrity, but it completely fails availability and 
+
+usefulness. Thus, we seek a midpoint that balances the need for some access against the 
+
+risk of harmful, inappropriate access. Certainly, we do not expect users or processes to 
+
+cause harm. But recognizing that not all users are ethical or even competent and that not 
+
+all processes function as intended, we want to limit exposure from misbehaving users or 
+
+malfunctioning processes. Limited privilege is a way to constrain that exposure.
+Limited privilege is a management concept, not a technical control. The process of 
+analyzing users and determining the privileges they require is a necessary first step to 
+
+authorizing within those limits. After establishing the limits, we turn to access control 
+
+technology to enforce those limits. In Chapter 3 we again raise the concept of lim-
+
+ited privilege when we describe program design and implementation that ensures secu-
+
+rity. Security design principles first written by Jerome Saltzer and Michael Schroeder 
+
+[SAL75] explain the advantage of limiting the privilege with which users and their 
+
+programs run.Implementing Access Control
+Access control is often performed by the operating system. Only the operating sys-
+tem can access primitive objects, such as files, to exercise control over them, and the 
+
+operating system creates and terminates the programs that represent users (subjects). 
+However, current hardware design does not always support the operating system in 
+
+implementing well-differentiated or fine-grained access control. The operating system 
+
+does not usually see inside files or data objects, for example, so it cannot perform row- 
+
+or element-level access control within a database. Also, the operating system cannot 
+
+easily differentiate among kinds of network traffic. In these cases, the operating system 
+
+defers to a database manager or a network appliance in implementing some access con-
+
+trol aspects. With limited kinds of privileges to allocate, the operating system cannot 
+
+easily both control a database manager and allow the database manager to control users. 
+
+Thus, current hardware design limits some operating system designs.
+Reference Monitor
+James Anderson and his study committee [AND72] gave name and structure to the 
+digital version of a concept that has existed for millennia. To protect their medieval for-
+
+tresses, rulers had one heavily protected gate as the sole means of ingress. Generals sur-
+
+rounded troop emplacements with forts and sentry guards. Bankers kept cash and other 

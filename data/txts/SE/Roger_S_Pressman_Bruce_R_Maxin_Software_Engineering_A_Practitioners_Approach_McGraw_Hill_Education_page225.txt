@@ -1,0 +1,105 @@
+CHAPTER 10  
+REQUIREMENTS MODELING: CLASS-BASED METHODS 195 
+ 
+ 
+ 
+ 
+ 
+ 
+Collaborations.    
+ 
+ 
+Classes fulﬁ ll their responsibilities in one of two ways: 
+(1) A class can use its own operations to manipulate its own attributes, 
+thereby fulﬁ lling a particular responsibility, or (2) a class can collaborate 
+with other classes. Wirfs-Brock and her colleagues [Wir90] deﬁ
+ ne collabo-
+rations in the following way:  
+Collaborations represent requests from a client to a server in fulﬁ llment of a client 
+responsibility. A collaboration is the embodiment of the contract between the client 
+
+and the server. We say that an object collaborates with another object if, to fulﬁ
+ ll a 
+responsibility, it needs to send the other object any messages. A single collaboration 
+
+ﬂ ows in one direction—representing a request from the client to the server. From the 
+client’s point of view, each of its collaborations is associated with a particular respon-
+
+sibility implemented by the server. 
+  
+ 
+Collaborations are identiﬁ ed by determining whether a class can fulﬁ
+ ll each 
+responsibility itself. If it cannot, then it needs to interact with another class. 
+Hence, a collaboration.  As an example, consider the  SafeHome 
+ security function. As part of the acti-
+vation procedure, the  ControlPanel 
+ object must determine whether any sensors 
+are open. A responsibility named  determine-sensor-status()
+ 
+ is deﬁ
+ ned. If sensors 
+are open,  ControlPanel 
+ must set a status attribute to “not ready.” Sensor infor-
+mation can be acquired from each  Sensor 
+ object. Therefore, the responsibility 
+ determine-sensor-status()
+ 
+ can be fulﬁ
+ lled only if  
+ControlPanel 
+ works in collabo-
+ration with  Sensor.
+ 
+  To help in the identiﬁ
+ cation of collaborators, you can examine three different 
+generic relationships between classes [Wir90]: (1) the  
+is-part-of 
+ relationship, (2) the 
+ has-knowledge-of 
+ relationship, and (3) the  
+depends-upon 
+ relationship. Each of the 
+three generic relationships is considered brieﬂ y in the paragraphs that follow. 
+ All classes that are part of an aggregate class are connected to the aggregate class via an  is-part-of 
+ relationship. Consider the classes deﬁ
+ ned for the video 
+game noted earlier, the class  
+PlayerBody 
+  is-part-of 
+  Player 
+, as are  PlayerArms, PlayerLegs, 
+ and  
+PlayerHead. 
+ In UML, these relationships are represented as the 
+aggregation shown in  Figure 10.4 .   
+When one class must acquire information from another class, the  has- 
+knowledge-of 
+ relationship is established. The  
+determine-sensor-status()
+ 
+ respon-
+sibility noted earlier is an example of a  has-knowledge-of 
+ relationship.  The  depends-upon 
+ relationship implies that two classes have a dependency that 
+is not achieved by  has-knowledge-of 
+ or  
+is-part-of. 
+ For example,  
+PlayerHead 
+ must 
+always be connected to  PlayerBody 
+ (unless the video game is particularly violent), 
+yet each object could exist without direct knowledge of the other. An attribute of 
+
+the  PlayerHead 
+ object called center-position is determined from the center po-
+sition of  PlayerBody 
+. This information is obtained via a third object,  
+Player,
+ 
+ that 
+acquires it from  PlayerBody . Hence,  PlayerHead 
+  depends-upon 
+  PlayerBody 
+. pre22126_ch10_184-201.indd   195pre22126_ch10_184-201.indd   19513/12/13   6:11 PM13/12/13   6:11 PM

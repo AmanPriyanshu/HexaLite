@@ -1,0 +1,53 @@
+ Section 5.2  Security in the Design of Operating Systems 
+319  (as well as work in other countries), 
+engendering a truly international 
+
+approach to trusted computer sys-
+tems, depicted in the timeline of 
+
+Figure 5-16.The 1980s and 1990s saw several candidates for evaluating the degree of a system’s 
+trustedness, and these approaches converged between 1995 and 2003 in an international 
+
+process for evaluation, called the Common Criteria for Information Technology Secu-
+
+rity Evaluation. Today, thanks to that standard, the market has many products whose 
+
+trustworthiness has been independently confirmed. 
+In the next section we examine the functions important to a trusted system. Then, 
+in the following section, we briefly describe the current trusted system evaluation and 
+
+certification process.
+Trusted System Functions
+Trusted systems contain certain functions to ensure security. In this section we look 
+
+over several aspects of a trusted system, starting with the trusted computing base.
+Trusted Computing Base (TCB)
+The trusted computing base, or TCB, is the name we give to everything in the trusted 
+operating system that is necessary to 
+enforce the security policy. Alterna-
+
+tively, we say that the TCB consists 
+
+of the parts of the trusted operating 
+system on which we depend for cor-
+
+rect enforcement of policy.
+Orange Book (TCSEC): First attempt to 
+codify principles and requirements for 
+
+secure computing systems
+Trusted Computer
+System Evaluation
+CriteriaSecurityTechnology
+Planning
+StudyBritish,German,
+French
+CriteriaCombinedFederal
+CriteriaE.C. InformationTechnology
+Security
+Evaluation
+CriteriaCommonCriteriaSecurity Controlsfor Computer
+Systems1970198319911994197219881992FIGURE 5-16 Trusted Systems Design and Evaluation Criteria
+Trusted computing base (TCB): 
+everything necessary for a system  
+to enforce its security policy

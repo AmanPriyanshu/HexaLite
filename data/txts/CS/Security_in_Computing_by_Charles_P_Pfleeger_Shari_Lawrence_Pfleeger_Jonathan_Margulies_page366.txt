@@ -1,0 +1,38 @@
+332 Chapter 5  
+Operating SystemsA rootkit effectively becomes part of the operating system kernel. In this example, 
+the rootkit interferes with enumerating files on a disk, so it does not pass its own files’ 
+
+names to a virus checker for examination. But, because a rootkit is integrated with the 
+
+operating system, it can perform any function the operating system can, usually without 
+
+being detectable. For example, it can replace other parts of the operating system, rewrite 
+
+pointers to routines that handle interrupts, or remove programs (such as malicious code 
+
+checkers) from the list of code to be invoked at system startup. These actions are in 
+Volume in drive C has no label. Volume Serial Number is E4C5-A911 Directory of C:\WINNT\APPS
+01-09-14  13:34         <DIR>          .01-09-14  13:34         <DIR>          ..
+24-07-12  15:00                 82,944 CLOCK.AVI
+24-07-12  15:00                 17,062 Coffee Bean.bmp
+24-07-12  15:00                     80 EXPLORER.SCF
+06-08-14  15:00                256,192 mal_code.exe
+22-08-08  01:00                373,744 PTDOS.EXE
+21-02-08  01:00                    766 PTDOS.ICO
+19-06-10  15:05                 73,488 regedit.exe
+24-07-12  15:00                 35,600 TASKMAN.EXE
+14-10-12  17:23                126,976 UNINST32.EXE
+               9 File(s)        966,852 bytes
+               2 Dir(s)  13,853,132,800 bytes freeFIGURE 5-20 Unmodified Directory Listing
+Volume in drive C has no label. Volume Serial Number is E4C5-A911 Directory of C:\WINNT\APPS
+01-09-14  13:34         <DIR>          .01-09-14  13:34         <DIR>          ..
+24-07-12  15:00                 82,944 CLOCK.AVI
+24-07-12  15:00                 17,062 Coffee Bean.bmp
+24-07-12  15:00                     80 EXPLORER.SCF
+22-08-08  01:00                373,744 PTDOS.EXE
+21-02-08  01:00                    766 PTDOS.ICO
+19-06-10  15:05                 73,488 regedit.exe
+24-07-12  15:00                 35,600 TASKMAN.EXE
+14-10-12  17:23                126,976 UNINST32.EXE
+               8 File(s)        710,660 bytes
+               2 Dir(s)  13,853,472,768 bytes freeFIGURE 5-21 Modified Directory Listing

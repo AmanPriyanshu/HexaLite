@@ -1,0 +1,28 @@
+˜˜˜˚˛˜˜˜˜˜˜
+parts of the system if some parts are more critical than others. You should follow these three guidelines when specifying reliability requirements:1. Specify the availability and reliability requirements for different types of fail-ure. There should be a lower probability of high-cost failures than failures that 
+don™t have serious consequences.2. Specify the availability and reliability requirements for different types of system 
+service. Critical system services should have the highest reliability but you may 
+be willing to tolerate more failures in less critical services. You may decide that 
+it is only cost-effective to use quantitative reliability specification for the most 
+critical system services.3. Think about whether high reliability is really required. For example, you may 
+
+use error-detection mechanisms to check the outputs of a system and have error-
+correction processes in place to correct errors. There may then be no need for a 
+high level of reliability in the system that generates the outputs as errors can be 
+detected and corrected.To illustrate these guidelines, think about the reliability and availability require
+-ments for a bank ATM system that dispenses cash and provides other services to 
+
+customers. Banks have two concerns with such systems:1.
+ To ensure that they carry out customer services as requested and that they 
+ properly record customer transactions in the account database.2. To ensure that these systems are available for use when required.Banks have many years of experience with identifying and correcting incorrect account transactions. They use accounting methods to detect when things have gone 
+wrong. Most transactions that fail can simply be canceled, resulting in no loss to the 
+bank and minor customer inconvenience. Banks that run ATM networks therefore 
+accept that ATM failures may mean that a small number of transactions are incor-
+rect, but they think it more cost-effective to fix these errors later rather than incur 
+high costs in avoiding faulty transactions. Therefore, the absolute reliability required 
+
+of an ATM may be relatively low. Several failures per day may be acceptable.Overspecification of reliabilityOverspecification of reliability means defining a level of required reliability that is higher than really necessary 
+for the practical operation of the software. Overspecification of reliability increases development costs dispro-
+
+portionately. The reason for this is that the costs of reducing faults and verifying reliability increase exponentially 
+as reliability increaseshttp://software-engineering-book.com/web/over-specifying-reliability/

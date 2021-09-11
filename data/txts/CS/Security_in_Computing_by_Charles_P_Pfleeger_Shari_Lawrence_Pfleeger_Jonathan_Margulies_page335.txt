@@ -1,0 +1,75 @@
+ Section 5.1  Security in Operating Systems 
+301  The pairs of registers offer another more important advantage: the ability to split a pro-
+gram into two pieces that can be relocated separately.
+These two features seem to call for the use of three or more pairs of registers: one 
+for code, one for read-only data, and one for modifiable data values. Although in theory 
+
+this concept can be extended, two pairs of registers are the limit for practical computer 
+
+design. For each additional pair of registers (beyond two), something in the machine 
+
+code or state of each instruction must indicate which relocation pair is to be used to 
+
+address the instruction’s operands. That is, with more than two pairs, each instruction 
+
+specifies one of two or more data spaces. But with only two pairs, the decision can be 
+
+automatic: data operations (add, bit shift, compare) with the data pair, execution opera-
+
+tions (jump) with the code area pair.
+Tagged Architecture 
+Another problem with using base/bounds registers for protection or relocation is their 
+
+contiguous nature. Each pair of registers confines accesses to a consecutive range of 
+
+addresses. A compiler or loader can easily rearrange a program so that all code sections 
+
+are adjacent and all data sections are adjacent.However, in some cases you may want to protect some data values but not all. For 
+example, a personnel record may require protecting the field for salary but not office 
+
+location and phone number. Moreover, a programmer may want to ensure the integrity 
+
+of certain data values by allowing them to be written when the program is initialized 
+
+but prohibiting the program from modifying them later. This scheme protects against 
+
+errors in the programmer’s own code. A programmer may also want to invoke a shared 
+
+subprogram from a common library. We can address some of these issues by using good 
+
+design, both in the operating system and in the other programs being run. Recall that 
+in Chapter 3 we studied good design characteristics such as information hiding and 
+
+modularity in program design. These characteristics dictate that one program module 
+
+must share with another module only the minimum amount of data necessary for both 
+of them to do their work.
+Additional, operating-system-specific design features can help, too. Base/bounds 
+registers create an all-or-nothing situation for sharing: Either a program makes all its 
+
+data available to be accessed and modified or it prohibits access to all. Even if there 
+
+were a third set of registers for shared data, all shared data would need to be located 
+
+together. A procedure could not effectively share data items A, B, and C with one mod-
+
+ule, A, C, and D with a second, and A, B, and D with a third. The only way to accom-
+
+plish the kind of sharing we want would be to move each appropriate set of data values 
+
+to some contiguous space. However, this solution would not be acceptable if the data 
+
+items were large records, arrays, or structures.
+An alternative is 
+tagged architecture
+, in which every word of machine memory has 
+one or more extra bits to identify the access rights to that word. These access bits can be 
+
+set only by privileged (operating system) instructions. The bits are tested every time an 
+
+instruction accesses that location.For example, as shown in Figure 5-10, one memory location may be protected as 
+execute-only (for example, the object code of instructions), whereas another is pro-
+
+tected for fetch-only (for example, read) data access, and another accessible for modi-
+
+fication (for example, write). In this way, two adjacent locations can have different 

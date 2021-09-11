@@ -1,0 +1,33 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜Experienced engineers, working with domain experts and professional safety 
+advisers, identify hazards from previous experience and from an analysis of the appli-cation domain. Group working techniques such as brainstorming may be used, where 
+
+a group meets to exchange ideas. For the insulin pump system, people who may be 
+
+involved include doctors, medical physicists and engineers, and software designers.The insulin pump system that I introduced in Chapter 1 is a safety-critical system, because failure can cause injury or even death to the system user. Accidents that may 
+occur when using this machine include the user suffering from long-term conse
+-
+quences of poor blood sugar control (eye, heart, and kidney problems), cognitive 
+
+dysfunction as a result of low blood sugar levels, or the occurrence of some other 
+medical conditions, such as an allergic reaction.Some of the hazards that may arise in the insulin pump system are:˜ insulin overdose computation (service failure);˜ insulin underdose computation (service failure);˜ failure of the hardware monitoring system (service failure);˜ power failure due to exhausted battery (electrical);˜ electrical interference with other medical equipment such as a heart pacemaker 
+
+(electrical);˜ poor sensor and actuator contact caused by incorrect fitting (physical);˜ parts of machine breaking off in patient™s body (physical);˜ infection caused by introduction of machine (biological); and˜ allergic reaction to the materials or insulin used in the machine (biological).Software-related hazards are normally concerned with failure to deliver a system 
+service or with the failure of monitoring and protection systems. Monitoring and 
+protection systems may be included in a device to detect conditions, such as a low 
+battery level, which could lead to device failure.A hazard register may be used to record the identified hazards with an explanation of 
+why the hazard has been included. The hazard register is an important legal document 
+
+that records all safety-related decisions about each hazard. It can be used to show that 
+
+the requirements engineers have paid due care and attention in considering all foresee-
+able hazards and that these hazards have been analyzed. In the event of an accident, the 
+
+hazard register may be used in a subsequent inquiry or legal proceedings to show that 
+
+the system developers have not been negligent in their system safety analysis.ˇˇThe hazard assessment process focuses on understanding the factors that lead to the 
+
+occurrence of a hazard and the consequences if an accident or incident associated 
+
+with that hazard should occur. You need to carry out this analysis to understand 

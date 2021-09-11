@@ -1,0 +1,73 @@
+ Section 2.3  Cryptography 
+123  Certificate Signing Without a Single Hierarchy
+In our examples, certificates were issued on the basis of the managerial structure. But 
+we do not require such a structure nor do we have to follow such a convoluted process in 
+
+order to use certificate signing for authentication. Anyone who is considered acceptable as 
+
+an authority can sign a certificate. For example, if you want to determine whether a person 
+
+received a degree from a university, you would not contact the president or chancellor but 
+
+would instead go to the office of records or the registrar. To verify someone’s employ-
+
+ment, you might ask the personnel office or the director of human resources. And to check 
+
+if someone lives at a particular address, you might consult the office of public records.
+Sometimes, a particular person is designated to attest to the authenticity or validity 
+of a document or person. For example, a notary public attests to the validity of a (writ-
+
+ten) signature on a document. Some companies have a security officer to verify that 
+
+an employee has appropriate security clearances to read a document or attend a meet-
+
+ing. Many companies have a separate personnel office for each site or each plant loca-
+
+tion; the personnel officer vouches for the employment status of the employees at that 
+
+site. Any of these officers or heads of offices could credibly sign certificates for people 
+
+under their purview. Natural hierarchies exist in society, and these same hierarchies can 
+
+be used to validate certificates.
+The only problem with a hierarchy is the need for trust of the top level. The entire chain 
+of authenticity is secure because each certificate contains the key that decrypts the next 
+
+certificate, except for the top. Within a company, employees naturally trust the person at 
+
+the top. But if certificates are to become widely used in electronic commerce, people must 
+
+be able to exchange certificates securely across companies, organizations, and countries.
+Name: DianaPosition: Division Manager
+
+Public key: 17EF83CA ...
+hash value
+128C4Name: DelwynPosition: Dept Manager
+
+Public key: 3AB3882C ...
+hash value
+48CFA
+Name: MukeshPosition: Project Manager
+
+Public key: 47F0F008 ...
+hash value
+16802Name: Camilla
+Position: Group LeaderPublic key: 44082CCA ...
+hash value
+12346Name: BettyPosition: Task Leader
+
+Public key: 2468ACE0 ...
+hash value
+00002Name: Andrew
+Position: Worker
+
+Public key: 7013F82A ...
+hash value
+60206Encrypted under Betty’s private key
+Encrypted under Edward’s private key
+Encrypted under Camilla’s private key
+Encrypted under Mukesh’s private key
+Encrypted under Delwyn’s private key
+Encrypted under Diana’s private key
+Key to encryptions
+FIGURE 2-32 Certificate Hierarchy

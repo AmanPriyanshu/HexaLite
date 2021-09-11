@@ -1,0 +1,50 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜2. Errors are transient. A state variable may have an incorrect value caused by the execution of faulty code. However, before this is accessed and causes a system 
+failure, some other system input may be processed that resets the state to a valid 
+value. The wrong value has no practical effect.3.
+ The system may include fault detection and protection mechanisms. These 
+
+ensure that the erroneous behavior is discovered and corrected before the sys-
+tem services are affected.Another reason why the faults in a system may not lead to system failures is that 
+users adapt their behavior to avoid using inputs that they know cause program  failures. 
+Experienced users ﬁwork aroundﬂ software features that they have found to be unrelia-
+ble. For example, I avoid some features, such as automatic numbering, in the word 
+
+processing system that I use because my experience is that it often goes wrong. Repairing 
+
+faults in such unused features makes no practical difference to the system reliability.The distinction between faults, errors, and failures leads to three complementary approaches that are used to improve the reliability of a system:1. Fault avoidance The software design and implementation process should use 
+approaches to software development that help avoid design and programming 
+errors and so minimize the number of faults introduced into the system. Fewer 
+faults means less chance of runtime failures. Fault-avoidance techniques include 
+the use of strongly typed programming language to allow extensive compiler 
+
+checking and minimizing the use of error-prone programming language con-
+structs, such as pointers.2. Fault detection and correction Verification and validation processes are designed 
+
+to discover and remove faults in a program, before it is deployed for operational 
+
+use. Critical systems require extensive verification and validation to˜discover as 
+
+many faults as possible before deployment and to convince the system stake-
+holders and regulators that the system is dependable. Systematic testing and 
+
+debugging and static analysis are examples of fault-detection techniques.3. Fault tolerance The system is designed so that faults or unexpected system 
+
+behavior during execution are detected at runtime and are managed in such a 
+
+way that system failure does not occur. Simple approaches to fault tolerance 
+
+based on built-in runtime checking may be included in all systems. More spe-
+cialized fault-tolerance techniques, such as the use of fault-tolerant system 
+
+architectures, discussed in Section 11.3, may be used when a very high level of 
+system availability and reliability is required.Unfortunately, applying fault-avoidance, fault-detection, and fault-tolerance 
+techniques is not always cost-effective. The cost of finding and removing the remain-
+ing faults in a software system rises exponentially as program faults are discovered 
+and removed (Figure 
+11.
+1). As the software becomes more reliable, you need to 
+
+spend more and more time and effort to find fewer and fewer faults. At some stage, 
+
+even for critical systems, the costs of this additional effort become unjustifiable.

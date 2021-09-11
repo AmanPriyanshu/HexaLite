@@ -1,0 +1,39 @@
+˜˜˚˜˜˜˜
+˜˜
+System requirements are expanded versions of the user requirements that soft-ware engineers use as the starting point for the system design. They add detail and explain how the system should provide the user requirements. They may be used as 
+
+part of the contract for the implementation of the system and should therefore be a 
+complete and detailed specification of the whole system.Ideally, the system requirements should only describe the external behavior of the system and its operational constraints. They should not be concerned with how the 
+system should be designed or implemented. However, at the level of detail required 
+to completely specify a complex software system, it is neither possible nor desirable 
+
+to exclude all design information. There are several reasons for this:1. You may have to design an initial architecture of the system to help structure the requirements specification. The system requirements are organized according to 
+
+the different subsystems that make up the system. We did this when we were 
+defining the requirements for the iLearn system, where we proposed the archi-
+tecture shown in Figure 1.8.2. In most cases, systems must interoperate with existing systems, which constrain 
+the design and impose requirements on the new system.3. The use of a specific architecture to satisfy non-functional requirements, such as 
+
+N-version programming to achieve reliability, discussed in Chapter 11, may be 
+
+necessary. An external regulator who needs to certify that the system is safe may 
+
+specify that an architectural design that has already been certified should be used.
+
+Natural language has been used to write requirements for software since the 1950s. 
+It is expressive, intuitive, and universal. It is also potentially vague and ambiguous, 
+and its interpretation depends on the background of the reader. As a result, there 
+Figure 4.11 Notations for writing system 
+requirementsNotationDescriptionNatural language 
+sentencesThe requirements are written using numbered sentences in natural language. 
+Each sentence should express one requirement.Structured natural 
+languageThe requirements are written in natural language on a standard form or 
+template. Each field provides information about an aspect of the requirement.Graphical notationsGraphical models, supplemented by text annotations, are used to define the 
+functional requirements for the system. UML (unified modeling language) use 
+case and sequence diagrams are commonly used.Mathematical 
+specificationsThese notations are based on mathematical concepts such as finite-state 
+machines or sets. Although these unambiguous specifications can reduce the 
+ambiguity in a requirements document, most customers don™t understand a 
+formal specification. They cannot check that it represents what they want, and 
+they are reluctant to accept it as a system contract. (I discuss this approach, in 
+Chapter 10, which covers system dependability.)

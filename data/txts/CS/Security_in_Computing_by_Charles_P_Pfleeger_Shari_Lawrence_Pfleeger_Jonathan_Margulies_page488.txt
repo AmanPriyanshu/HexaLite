@@ -1,0 +1,72 @@
+454 Chapter 6  
+Networksport 25 (mail transfer) or port 69 (so-called trivial file transfer) is allowed to or from any 
+host on the 192.168.1 subnetwork. By rule 3 any inside host is allowed outbound traffic 
+
+anywhere on port 80 (web page fetches). Furthermore, by rule 4 outside traffic to the 
+
+internal host at destination address 192.168.1.18 (presumably a web server) is allowed. 
+
+All other traffic to the 192.168.1 network is denied.
+Trust
+A firewall is an example of the reference monitor, a fundamental computer security con-
+cept. Remember from Chapters 2 and 5 that a reference monitor has three characteristics:• always invoked
+• tamperproof
+• small and simple enough for rigorous analysis
+A firewall is a special form of reference monitor. By carefully positioning a firewall 
+in a network’s architecture, we can ensure that all network accesses that we want to 
+
+control must pass through the firewall. A firewall is positioned as the single physical 
+
+connection between a protected (internal) network and an uncontrolled (external) one. 
+
+This placement ensures the “always invoked” condition.
+A firewall is typically well isolated, making it highly immune to modification. Usu-
+ally a firewall is implemented on a separate computer, with direct connections only to 
+
+the outside and inside networks. This isolation is expected to meet the “tamperproof” 
+
+requirement. Furthermore, the firewall platform runs a stripped-down operating system 
+
+running minimal services that could allow compromise of the operating system or the 
+
+firewall application. For example, the firewall probably generates a log of traffic denied, 
+
+but it may not have installed tools by which to view and edit that log; modifications, if 
+
+necessary, can be done on a different machine in a protected environment. In this way, 
+
+even if an attacker should compromise the firewall’s system, there are no tools with 
+
+which to disguise or delete the log entries that might show the incident.
+Finally, firewall designers strongly recommend keeping the functionality of the fire-
+wall simple. Over time, unfortunately, demands on firewall functionality have increased 
+
+(such as traffic auditing, a graphical user interface, a language for expressing and imple-
+
+menting complex policy rules, and capabilities for analyzing highly structured traffic), 
+
+so most current firewalls cannot be considered either small or simple. Nevertheless, 
+
+firewall manufacturers have with-
+
+stood most marketing attempts to 
+
+add irrelevant functionality whose 
+
+net effect is only to reduce the basis 
+
+for confidence that a firewall oper-
+
+ates as expected.
+Types of Firewalls
+Firewalls have a wide range of capabilities, but in general, firewalls fall into one of a 
+
+small number of types. Each type does different things; no one type is necessarily right 
+
+or better and the others wrong. In this section, we first motivate the need for different 
+A firewall is a reference monitor, 
+
+positioned to monitor all traffic, not 
+
+accessible to outside attacks, and 
+implementing only access control.

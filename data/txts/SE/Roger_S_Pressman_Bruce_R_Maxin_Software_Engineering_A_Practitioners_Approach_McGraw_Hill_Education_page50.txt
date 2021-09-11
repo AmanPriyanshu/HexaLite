@@ -1,0 +1,127 @@
+20 CHAPTER 2  
+SOFTWARE ENGINEERING
+ 
+ 
+In the context of software engineering, these commonsense steps lead to a series of essential questions [adapted from Pol45]:   
+Understand the problem.   
+It’s sometimes difﬁ
+ cult to admit, but most of us suffer 
+from hubris when we’re presented with a problem. We listen for a few seconds 
+
+and then think,  Oh yeah, I understand, let’s get on with solving this thing.
+ 
+ Unfor-
+tunately, understanding isn’t always that easy. It’s worth spending a little time 
+
+answering a few simple questions:  
+ 
+ 
+• 
+ 
+   
+Who has a stake in the solution to the problem?
+ 
+ That is, who are the stakeholders?   
+ 
+ 
+• 
+ 
+   
+What are the unknowns?
+ 
+ What data, functions, and features are required to properly solve the problem?   
+ 
+ 
+• 
+ 
+   
+Can the problem be compartmentalized?
+ 
+ Is it possible to represent smaller problems that may be easier to understand?   
+ 
+ 
+• 
+ 
+   
+Can the problem be represented graphically?
+ 
+ Can an analysis model be created?  
+ 
+  
+ 
+ 
+Plan the solution.   
+Now you understand the problem (or so you think), and you can’t wait to begin coding. Before you do, slow down just a bit and do a little 
+design:  
+ 
+ 
+• 
+ 
+   
+Have you seen similar problems before?
+ 
+ Are there patterns that are recog-nizable in a potential solution? Is there existing software that implements 
+the data, functions, and features that are required?   
+ 
+ 
+• 
+ 
+   
+Has a similar problem been solved?
+ 
+ If so, are elements of the solution reusable?   
+ 
+ 
+• 
+ 
+   
+Can subproblems be deﬁ
+ ned?
+ 
+ If so, are solutions readily apparent for the subproblems?   
+ 
+ 
+• 
+ 
+   
+Can you represent a solution in a manner that leads to effective implemen-
+tation? 
+ Can a design model be created?  
+ 
+ 
+  
+ 
+ 
+Carry out the plan.  
+ 
+The design you’ve created serves as a road map for the sys-tem you want to build. There may be unexpected detours, and it’s possible that 
+
+you’ll discover an even better route as you go, but the “plan” will allow you to 
+proceed without getting lost.   
+ 
+ 
+• 
+ 
+   
+Does the solution conform to the plan? 
+ Is source code traceable to the de-sign model?   
+ 
+ 
+• 
+ 
+   
+Is each component part of the solution provably correct?
+ 
+ Has the design and code been reviewed, or better, have correctness proofs been applied 
+
+to the algorithm?   
+ uote:  “There is a grain 
+of discovery in the 
+
+solution of any 
+problem.”   George Polya 
+   The most important 
+
+element of problem 
+understanding is 
+listening. pre22126_ch02_014-028.indd   20pre22126_ch02_014-028.indd   2013/12/13   6:10 PM13/12/13   6:10 PM

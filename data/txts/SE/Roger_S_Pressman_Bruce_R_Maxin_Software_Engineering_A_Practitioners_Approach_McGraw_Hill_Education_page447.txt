@@ -1,0 +1,80 @@
+CHAPTER 19  
+QUALITY CONCEPTS 417 
+ 
+Reliability.
+ 
+ The extent to which a program can be expected to perform its intended 
+function with required precision. [It should be noted that other, more complete deﬁ
+ -nitions of reliability have been proposed (see Chapter 21).]   
+Efﬁ ciency.
+ 
+ The amount of computing resources and code required by a program to 
+perform its function.   
+Integrity.
+ 
+ Extent to which access to software or data by unauthorized persons can be 
+controlled.   
+Usability.
+ 
+ Effort required to learn, operate, prepare input for, and interpret output of 
+a program.   
+Maintainability.
+ 
+ Effort required to locate and ﬁ
+ x an error in a program. [This is a very 
+limited deﬁ nition.] 
+  
+Flexibility.
+ 
+ Effort required to modify an operational program.   
+Testability.
+ 
+ Effort required to test a program to ensure that it performs its intended 
+function.   
+Portability.
+ 
+ Effort required to transfer the program from one hardware and/or soft-
+ware system environment to another. 
+  
+Reusability.
+ 
+ Extent to which a program [or parts of a program] can be reused in other 
+applications—related to the packaging and scope of the functions that the program 
+performs.   
+Interoperability.
+ 
+ Effort required to couple one system to another. 
+ 
+It is difﬁ cult, and in some cases impossible, to develop direct measures 
+ 2 
+ 
+ of these 
+quality factors. In fact, many of the metrics deﬁ ned by McCall and  
+colleagues can be measured only indirectly. However, assessing the quality of an application 
+
+using these factors will provide you with a solid indication of software quality.
+PRODUCT OPERATION
+PRODUCT TRANSITIONPRODUCT REVISIONCorrectness                              Usability                              EfficiencyReliability                              IntegrityMaintainabilityFlexibility
+Testability
+Portability
+Reusability
+Interoperability  
+FIGURE 19.1 
+McCall’s  software 
+ quality factors  
+  
+2 A  
+direct measure
+ 
+ implies that there is a single countable value that provides a direct indication 
+of the attribute being examined. For example, the “size” of a program can be measured directly 
+by counting the number of lines of code.   
+ 
+ uote:  “The bitterness 
+of poor quality 
+remains long after 
+the sweetness 
+of meeting the 
+schedule has been 
+forgotten.”  Karl Weigers 
+(unattributed quote) pre22126_ch19_411-430.indd   417pre22126_ch19_411-430.indd   41713/12/13   6:13 PM13/12/13   6:13 PM

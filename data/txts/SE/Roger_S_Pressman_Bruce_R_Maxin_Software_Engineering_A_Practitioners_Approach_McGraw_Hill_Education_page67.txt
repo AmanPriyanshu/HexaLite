@@ -1,0 +1,128 @@
+CHAPTER 3  
+SOFTWARE PROCESS STRUCTURE
+ 37 
+ 
+ 
+ 
+Process patterns provide an effective mechanism for addressing problems  associated with any software process. The patterns enable you to develop a hier-
+archical process description that begins at a high level of abstraction (a phase 
+pattern). The description is then reﬁ ned into a set of stage patterns that describe 
+framework activities and are further reﬁ ned in a hierarchical fashion into more 
+detailed task patterns for each stage pattern. Once process patterns have been 
+developed, they can be reused for the deﬁ nition of process variants—that is, a 
+customized process model can be deﬁ ned by a software team using the patterns 
+as building blocks for the process model.  WebRef 
+ Comprehensive 
+resources on process 
+patterns can be 
+
+found at 
+  www.ambysoft.com/ 
+processPatternsPage 
+.html  . 
+ 
+ 
+An Example Process Pattern 
+ 
+The following abbreviated process pattern de-
+scribes an approach that may be applicable when stakeholders have a general idea of what must be 
+done but are unsure of speciﬁ c software requirements. 
+ 
+ 
+  
+ 
+Pattern Name.  
+ 
+ 
+RequirementsUnclear 
+  
+ 
+ 
+Intent.  
+ 
+This pattern describes an approach for building 
+a model (a prototype) that can be assessed iteratively by 
+stakeholders in an effort to identify or solidify software 
+
+requirements.   
+ 
+Type.  
+ 
+Phase pattern. 
+ 
+ 
+ 
+Initial Context.  
+ 
+The following conditions must be met 
+prior to the initiation of this pattern: (1) stakeholders have 
+
+been identiﬁ ed; (2) a mode of communication between 
+stakeholders and the software team has been established; 
+
+(3) the overriding software problem to be solved has been 
+
+identiﬁ ed by stakeholders; (4) an initial understanding of 
+project scope, basic business requirements, and project 
+
+constraints has been developed. 
+  
+ 
+Problem.  
+ 
+Requirements are hazy or nonexistent, yet there is clear recognition that there is a problem to be solved, and the problem must be addressed with a software solution. Stakeholders are unsure of what they 
+want; that is, they cannot describe software requirements 
+in any detail.   
+ 
+Solution.  
+ 
+A description of the prototyping process would be presented here and is described later in 
+Section 4.1.3.   
+ 
+Resulting Context.  
+ 
+A software prototype that identiﬁ es basic requirements (e.g., modes of interaction, 
+computational features, processing functions) is 
+approved by stakeholders. Following this, (1) the 
+prototype may evolve through a series of increments to 
+become the production software or (2) the prototype 
+may be discarded and the production software built 
+using some other process pattern. 
+  
+ 
+Related Patterns.  
+ 
+The following patterns are 
+related to this pattern:  
+CustomerCommunication 
+,  IterativeDesign, 
+  IterativeDevelopment,   CustomerAssessment, RequirementExtraction. 
+  
+ 
+ 
+Known Uses and Examples.  
+ 
+Prototyping is recommended when requirements are uncertain. 
+ 
+ 
+  
+INFO  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 3.5 P
+ROCESS ASSESSMENT AND IMPROVEMENT  
+ 
+The existence of a software process is no guarantee that software will be de-livered on time, that it will meet the customer’s needs, or that it will exhibit 
+
+the technical characteristics that will lead to long-term quality characteristics 
+19). Process patterns must be coupled with solid software engineering 
+
+2 of this book). In addition, the process itself can be assessed to 
+pre22126_ch03_029-039.indd   37pre22126_ch03_029-039.indd   3713/12/13   6:10 PM13/12/13   6:10 PM

@@ -1,0 +1,76 @@
+490 Chapter 6  
+NetworksThe public is unaware of these multiple servers, for example, when using the URL 
+www.nytimes.com, which may become serv
+er1.nytimes.com or 
+www3.nytimes.com. 
+In fact, on successive visits to the website 
+a user’s activity may be handled by dif-
+ferent servers. A 
+load balancer is 
+an appliance that redirects traffic to 
+
+different servers while working to 
+
+ensure that all servers have roughly 
+
+equivalent workloads.
+Network Tuning
+Similarly, network engineers can adjust traffic on individual network segments. If two 
+clients on one segment are responsible for a large proportion of the traffic, it may be 
+
+better to place them on separate segments to even the traffic load. Engineers can install 
+
+new links, restructure network segments, or upgrade connectivity to ensure good net-
+
+work performance. Network tuning depends on solid data obtained by monitoring net-
+
+work traffic over time.
+In a real attack, network administrators can adjust bandwidth allocation to segments, 
+and they can monitor incoming traffic, selectively dropping packets that seem to be 
+
+malicious. (Note: Overzealously dropping packets risks little harm; the TCP proto-
+
+col detects missing packets and seeks retransmission, and the UDP protocol does not 
+
+guarantee delivery. Losing a small percentage of legitimate traffic while fending off a 
+
+denial-of-service attack is an acceptable trade-off.)
+Rate limiting is a countermeasure that reduces the impact of an attack. With rate 
+limiting, the volume of traffic allowed to a particular address is reduced. Routers can 
+
+send a quench signal back to another router that is forwarding traffic; such a signal 
+
+informs the sending router that the receiving router is overloaded and cannot keep up, 
+
+therefore asking the sender to hold up on transmitting data. A quench can work its 
+
+way back through a network to a source of attack, as long as the attack comes from a 
+
+single point.Network Addressing
+A problem inherent in Internet (IPv4) addressing is that any packet can claim to come 
+from any address: A system at address A can send a packet that shows address B as 
+
+its source. That statement requires a bit of elaboration because address spoofing is not 
+
+simply a matter of filling in a blank on a web page. Most users interact with the Inter-
+
+net through higher-level applications, such as browsers and mail handlers, that craft 
+
+communications streams and pass them to protocol handlers, such as bind and 
+socks
+. The protocol handlers perform the network interaction, supplying accurate data in the 
+
+communication stream. Thus, someone can spoof an address only by overriding these 
+
+protocol handlers, which requires privilege in an operating system. Hacker tools can do 
+
+that interaction, and researchers Beverly and Bauer [BEV05] report on an experiment in 
+
+which they spoofed transmissions from a quarter of Internet addresses.
+Internet service providers, ISPs, could do more to ensure the validity of addresses 
+in packets. With difficulty, providers can distinguish between traffic from their own 
+Network load balancing directs 
+
+incoming traffic to resources with 
+
+available capacity.

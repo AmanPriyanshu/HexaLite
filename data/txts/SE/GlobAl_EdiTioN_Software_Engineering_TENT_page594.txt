@@ -1,0 +1,19 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜The problems of software SoS engineering have much in common with the prob-lems of integrating large-scale application systems that I discussed in Chapter 15 
+(Boehm and Abts 1999). To recap, these were:1. Lack of control over system functionality and performance.2. Differing and incompatible assumptions made by the developers of the different systems.3. Different evolution strategies and timetables for the different systems.4. Lack of support from system owners when problems arise.Much of the effort in building systems of software systems comes from address-ing these problems. It involves deciding on the system architecture, developing soft-
+ware interfaces that reconcile differences between the participating systems, and 
+
+making the system resilient to unforeseen changes that may occur.Software systems of systems are large and complex entities, and the processes 
+used for their development vary widely depending on the type of systems involved, 
+the application domain, and the needs of the organizations involved in developing 
+the SoS. However, as shown in Figure 20.6, five general activities are involved in 
+SoS development processes:1. Conceptual design I introduced the idea of conceptual design in Chapter 19, which 
+covers systems engineering. Conceptual design is the activity of creating a high-
+level vision for a system, defining essential requirements, and identifying constraints 
+
+on the overall system. In SoS engineering, an important input to the conceptual 
+
+design process is knowledge of the existing systems that may participate in the SoS.2. System selection During this activity, a set of systems for inclusion in the SoS 
+
+is chosen. This process is comparable to the process of choosing application 
+Conceptualdesign SystemselectionArchitecturaldesign Interfacedevelopment Integration anddeployment Systemsknowledge Governance and management policy settingFigure 20.6 An SoS engineering process 

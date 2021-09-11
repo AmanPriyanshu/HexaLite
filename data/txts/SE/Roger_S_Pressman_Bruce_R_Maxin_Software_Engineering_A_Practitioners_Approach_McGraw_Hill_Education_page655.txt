@@ -1,0 +1,76 @@
+CHAPTER 29  
+SOFTWARE CONFIGURATION MANAGEMENT
+ 625 
+ 
+Software conﬁ guration management is a set of activities that have been devel-
+oped to manage change throughout the life cycle of computer software. SCM can 
+be viewed as a software quality assurance activity that is applied throughout the 
+software process. In the sections that follow, we describe major SCM tasks and 
+
+important concepts that help us to manage change.   
+ 
+29.1.1   
+An SCM Scenario  1 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+A typical conﬁ guration management (CM) operational scenario involves a proj-
+ect manager who is in charge of a software group, a conﬁ guration manager who 
+is in charge of the CM procedures and policies, the software engineers who are 
+responsible for developing and maintaining the software product, and the cus-
+tomer who uses the product. In the scenario, assume that the product is a small 
+one involving about 15,000 lines of code being developed by a team of four people. 
+(Note that other scenarios of smaller or larger teams are possible, but, in es-
+sence, there are generic issues that each of these projects face concerning CM.)  At the operational level, the scenario involves various roles and tasks. For the 
+project manager, the goal is to ensure that the product is developed within a certain 
+
+time frame. Hence, the manager monitors the progress of development and rec-
+ognizes and reacts to problems. This is done by generating and analyzing reports 
+
+about the status of the software system and by performing reviews on the system. 
+  
+ 
+The goals of the conﬁ guration manager are to ensure that procedures and 
+policies for creating, changing, and testing of code are followed, as well as to 
+make information about the project accessible. To implement techniques for 
+
+maintaining control over code changes, this manager introduces mechanisms 
+for making ofﬁ cial requests for changes, for evaluating them (via a Change Con-
+trol Board that is responsible for approving changes to the software system), and 
+for authorizing changes. The manager creates and disseminates task lists for the 
+engineers and basically creates the project context. Also, the manager collects 
+statistics about components in the software system, such as information deter-
+
+mining which components in the system are problematic.   
+ 
+For the software engineers, the goal is to work effectively. This means engi-
+neers do not unnecessarily interfere with each other in the creation and test-
+ing of code and in the production of supporting work products. But, at the same 
+time, they try to communicate and coordinate efﬁ ciently. Speciﬁ
+ cally, engineers 
+use tools that help build a consistent software product. They communicate and 
+coordinate by notifying one another about tasks required and tasks completed. 
+Changes are propagated across each other’s work by merging ﬁ
+ les. Mechanisms 
+exist to ensure that, for components that undergo simultaneous changes, there is  What are 
+the goals of and the activities 
+performed by 
+each of the 
+constituencies 
+involved in change 
+management? ?   There must be a 
+
+mechanism to ensure 
+that simultaneous 
+changes to the same 
+component are 
+properly tracked, 
+managed and 
+executed.   
+1  This section is extracted from [Dar01]. Special permission to reproduce “Spectrum of Function-
+ality in CM System” by Susan Dart [Dar01], © 2001 by Carnegie Mellon University is granted by 
+the Software Engineering Institute. pre22126_ch29_623-652.indd   625pre22126_ch29_623-652.indd   62513/12/13   6:16 PM13/12/13   6:16 PM

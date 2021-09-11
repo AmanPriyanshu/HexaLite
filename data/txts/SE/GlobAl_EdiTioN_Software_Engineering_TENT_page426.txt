@@ -1,0 +1,26 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜Identify business resilience requirementsIdentify criticalservicesPlan backupstrategy
+Test system
+reinstatementPlan systemreinstatementIdentify assets that deliver critical servicesIdentify eventsthat compromise assetsPlan eventrecognition and resistancePropose software changesBuy new softwarerequiredPlan criticalservice recoveryPlan criticalasset recoveryDevelop software to support 
+asset recoveryDesign assetredundancystrategy
+Resilience testplanningIdentify attackand failure scenariosTest service 
+recoveryTest system
+resistanceDevelop softwareto support
+reinstatementReinstatementRecognition andresistanceRecoveryTesting
+Figure 14.9  Resilience engineering 2. It assumes that there is a detailed requirements statement for a system. In fact, resilience may have to be ﬁretrofittedﬂ to a system where there is no complete or 
+up-to-date requirements document. For new systems, resilience may itself be a 
+requirement, or systems may be developed using an agile approach. The system 
+architecture may be designed to take resilience into account.A more general resilience engineering method, as shown in Figure 
+14.9, takes the lack of detailed requirements into account as well as explicitly designing recovery 
+and reinstatement into the system. For the majority of components in a system, you 
+will not have access to their source code and will not be able to make changes to 
+
+them. Your strategy for resilience has to be designed with this limitation in mind.There are five interrelated streams of work in this approach to resilience engineering:1. You identify business resilience requirements. These requirements set out how 
+the business as a whole must maintain the services that it delivers to customers 
+and, from this, resilience requirements for individual systems are developed. 
+
+Providing resilience is expensive, and it is important not to overengineer sys
+-
+tems with unnecessary resilience support.2. You plan how to reinstate a system or a set of systems to their normal operating 
+
+state after an adverse event. This plan has to be integrated with the business™s 

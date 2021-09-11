@@ -1,0 +1,39 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜rather than reuse these components. Underlying CBSE are sound design principles that support the construction of understandable and maintainable software:1. Components are independent, so they do not interfere with each other™s opera-tion. Implementation details are hidden. The component™s implementation can 
+be changed without affecting the rest of the system.2.
+ Components communicate through well-defined interfaces. If these interfaces 
+
+are maintained, one component can be replaced by another component provid-
+ing additional or enhanced functionality.3.
+ Component infrastructures offer a range of standard services that can be used in 
+
+application systems. This reduces the amount of new code that has to be developed.
+The initial motivation for CBSE was the need to support both reuse and distributed 
+software engineering. A component was seen as an element of a software system that 
+
+could be accessed, using a remote procedure call mechanism, by other components run-
+ning on separate computers. Each system that reused a component had to incorporate its 
+
+own copy of that component. This idea of a component extended the notion of distrib-
+uted objects, as defined in distributed systems models such as the CORBA specification 
+
+(Pope 1997). Several different protocols and technology-specific ﬁstandardsﬂ were 
+
+introduced to support this view of a component, including Sun™s Enterprise Java Beans 
+
+(EJB), Microsoft™s COM and .NET, and CORBA™s CCM (Lau and Wang 2007).Unfortunately, the companies involved in proposing standards could not agree on 
+a single standard for components, thereby limiting the impact of this approach to soft-
+ware reuse. It is impossible for components developed using different approaches to 
+
+work together. Components that are developed for different platforms, such as .NET 
+
+or J2EE, cannot interoperate. Furthermore, the standards and protocols proposed 
+
+were complex and difficult to understand. This was also a  barrier to their adoption.In response to these problems, the notion of a component as a service was devel-oped, and standards were proposed to support service-oriented software engineering. 
+The most significant difference between a component as a service and the original 
+notion of a component is that services are stand-alone entities that are external to a 
+program using them. When you build a service-oriented system, you reference the 
+external service rather than including a copy of that service in your system.Service-oriented software engineering is a type of component-based software engi-neering. It uses a simpler notion of a component than that originally proposed in CBSE, 
+Problems with CBSECBSE is now a mainstream approach to software engineering and is widely used when creating new systems. 
+However, when used as an approach to reuse, problems include component trustworthiness, component  certification, requirements compromises, and prediction of the properties of components, especially when they 
+are integrated with other components.http://software-engineering-book.com/web/cbse-problems/

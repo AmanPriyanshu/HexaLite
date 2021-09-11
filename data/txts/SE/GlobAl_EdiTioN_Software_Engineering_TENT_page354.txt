@@ -1,0 +1,37 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜Examples of safety assurance activities are:1. Hazard analysis and monitoring, where hazards are traced from preliminary 
+hazard analysis through to testing and system validation.2. Safety reviews, which are used throughout the development process.3. Safety certification, where the safety of critical components is formally certi-
+fied. This involves a group external to the system development team examining 
+the available evidence and deciding whether or not a system or component 
+
+should be considered to be safe before it is made available for use.To support these safety assurance processes, project safety engineers should be 
+appointed who have explicit responsibility for the safety aspects of a system. These 
+
+individuals will be accountable if a safety-related system failure occurs. They must be 
+
+able to demonstrate that the safety assurance activities have been properly carried out.Safety engineers work with quality managers to ensure that a detailed configura-tion management system is used to track all safety-related documentation and keep it 
+in step with the associated technical documentation. There is little point in having 
+stringent validation procedures if a failure of configuration management means that 
+the wrong system is delivered to the customer. Quality and configuration manage-
+ment are covered in Chapters 24 and 25.Hazard analysis is an essential part of safety-critical systems development. It 
+involves identifying hazards, their probability of occurrence, and the probability of a 
+hazard leading to an accident. If there is program code that checks for and handles 
+
+each hazard, then you can argue that these hazards will not result in accidents. Where 
+external certification is required before a system is used (e.g., in an aircraft), it is 
+
+usually a condition of certification that this traceability can be demonstrated.The central safety document that should be produced is the hazard register. This docu-ment provides evidence of how identified hazards have been taken into account during 
+
+software development. This hazard register is used at each stage of the software develop-
+ment process to document how that development stage has taken the hazards into account.A simplified example of a hazard register entry for the insulin delivery system is shown in Figure 
+12.
+7. This register documents the process of hazard analysis and 
+shows design requirements that have been generated during this process. These 
+
+design requirements are intended to ensure that the control system can never deliver 
+an insulin overdose to a user of the insulin pump.Individuals who have safety responsibilities should be explicitly identified in the hazard register. Personal identification is important for two reasons:1. When people are identified, they can be held accountable for their actions. They 
+are likely to take more care because any problems can be traced back to their work.2. In the event of an accident, there may be legal proceedings or an inquiry. It is 
+important to be able to identify those responsible for safety assurance so that 
+
+they can defend their actions as part of the legal process.

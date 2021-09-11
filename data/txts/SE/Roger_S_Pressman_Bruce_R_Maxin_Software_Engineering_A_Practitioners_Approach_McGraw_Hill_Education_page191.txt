@@ -1,0 +1,77 @@
+CHAPTER 8  
+UNDERSTANDING REQUIREMENTS
+ 161monitoring 
+ can be extremely useful when incremental development is used. It 
+encompasses ﬁ ve tasks: (1)  
+distributed debugging 
+ uncovers errors and deter-
+mines their cause, (2)  run-time veriﬁ cation
+ 
+ determines whether software matches 
+its speciﬁ cation, (3)  
+run-time validation 
+ assesses whether the evolving software 
+meets user goals, (4)  business activity monitoring 
+ evaluates whether a system 
+satisﬁ es business goals, and (5)  
+evolution and codesign 
+ provides information to 
+stakeholders as the system evolves.  Incremental development implies the need for incremental validation. Re-quirements monitoring supports continuous validation by analyzing user goal 
+models against the system in use. For example, a monitoring system might con-
+tinuously assess user satisfaction and use feedback to guide incremental im-
+provements [Rob10].   
+ 
+ 
+ 8.8 V
+ALIDATING
+ REQUIREMENTS  
+ 
+As each element of the requirements model is created, it is examined for incon-sistency, omissions, and ambiguity. The requirements represented by the model 
+
+are prioritized by stakeholders and grouped within requirements packages that 
+will be implemented as software increments. A review of the requirements model 
+addresses the following questions:  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+•  Is each requirement consistent with the overall objectives for the system or product?   
+ 
+ 
+•  Have all requirements been speciﬁ ed at the proper level of abstraction? 
+That is, do some requirements provide a level of technical detail that is 
+inappropriate at this stage?   
+ 
+ 
+•  Is the requirement really necessary or does it represent an add-on feature that may not be essential to the objective of the system?   
+ 
+ 
+•  Is each requirement bounded and unambiguous?   
+ 
+ 
+•  Does each requirement have attribution? That is, is a source (generally, a 
+speciﬁ c individual) noted for each requirement? 
+  
+ 
+ 
+•  Do any requirements conﬂ ict with other requirements? 
+  
+ 
+ 
+•  Is each requirement achievable in the technical environment that will house the system or product?   
+ 
+ 
+•  Is each requirement testable, once implemented?   
+ 
+ 
+•  Does the requirements model properly reﬂ ect the information, function, 
+and behavior of the system to be built?   
+ 
+ 
+•  Has the requirements model been “partitioned” in a way that exposes pro-gressively more detailed information about the system?   When I 
+review requirements, 
+what questions 
+should I ask? ?pre22126_ch08_131-165.indd   161pre22126_ch08_131-165.indd   16113/12/13   6:11 PM13/12/13   6:11 PM

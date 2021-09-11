@@ -1,0 +1,34 @@
+ Section 5.1  Security in Operating Systems 
+283  • Interface to hardware.
+ All users access hardware functionality. Fair access and 
+controlled sharing are hallmarks of multitask operating systems (those run-
+
+ning more than one task concurrently), but a more elementary need is that users 
+
+require access to devices, communications lines, hardware clocks, and proces-
+
+sors. Few users access these hardware resources directly, but all users employ 
+
+such things through programs and utility functions. Hardware interface used to 
+
+be more tightly bound into an operating system’s design; now, however, oper-
+
+ating systems are designed to run on a range of hardware platforms, both to 
+
+maximize the size of the potential market and to position the operating system 
+
+for hardware design enhancements.
+• User authentication. The operating system must identify each user who requests 
+access and must ascertain that the user is actually who he or she purports to be. 
+The most common authentication mechanism is password comparison.
+• Memory protection. 
+Each user’s program must run in a portion of memory pro-
+tected against unauthorized accesses. The protection will certainly prevent out-
+
+siders’ accesses, and it may also control a user’s own access to restricted parts of 
+
+the program space. Differential security, such as read, write, and execute, may 
+OperatingSystemMemoryI/O Devices
+UsersUser Interface
+Resource AllocationCPUDataProgramLibrariesSynchronization,Concurrency
+Control,DeadlockManagement,Communication,AccountingServicesFIGURE 5-1 Operating System Functions

@@ -1,0 +1,89 @@
+CHAPTER 27  
+SECURITY ENGINEERING 593 
+ 
+ 
+ 
+ 
+ 
+27.4.2   
+Organization and Management 
+ 
+The rush to get software out the door quickly often forces project managers to 
+be more concerned with features and functions than security. Software engi-
+
+neers should focus on robustness in software design and architecture, but, in 
+
+addition, secure practices should be adopted as software-based systems are 
+
+built [Sob10]. 
+ Security assurance and risk identiﬁ cation activities are planned, managed, 
+and tracked in the same way as other software engineering activities. The soft-
+ware team collects data (e.g., number of access violations, number of system fail-
+ures, number of data records lost) to determine what works and what does not. 
+This requires developers to analyze each reported failure (to determine whether 
+its cause is related to a system vulnerability) and then assess the asset exposure 
+that resulted.   
+ 
+Building the Security Case    
+ 
+Building the Security Case   
+ 
+The scene:  Software engineering 
+team workspace.   
+The players:  Jamie Lazar, software team member; 
+Vinod Raman, software team member; Ed Robbins, 
+software team member, Bridget Thornton, software 
+
+quality group leader. 
+  
+The conversation:    
+Ed:  Thanks for joining us Bridget, we need to build the 
+security case for  SafeHome 
+ project.   
+Vinod:  How should we get started? 
+  
+Bridget:  We might start by picking one security 
+concern and see what evidence we can ﬁ
+ nd to support 
+the case for it.   
+Ed:  What kind of evidence? 
+  
+Bridget:  Let’s pick one of the security concerns ﬁ
+ rst. 
+  
+Vinod:  Let’s focus on security concerns related to the 
+customer database.   
+Bridget:  OK, let’s start by listing the security claims 
+made for accessing the database.   
+Jamie:  Do you mean the security model elements that 
+refer to the database?   
+Bridget:  Yes. Next, we take a look at the completed 
+inspection checklists and the summaries of the formal 
+
+technical reviews that have been happening as each 
+project milestone is completed.   
+Ed:  What about the process audits and change request 
+documents produced by your group?   
+Bridget:  Those are important to include as well. 
+  
+Vinod:  We used an ITG to create and run most of the 
+system test cases.   
+Bridget:  A summary of the behavior of the security test 
+cases comparing expected and actual output is a very 
+
+important part of the security case. 
+  
+Jamie:  That seems like a lot of information to get a 
+handle on.   
+Bridget:  It is. That’s why the next step is to take each 
+claim made for database security and summarize the 
+evidence supporting or refuting the claim of adequate 
+
+asset protection.   
+Ed:  Can you help us review our security case when it’s 
+assembled?   
+Bridget:  Of course. My group needs to have an 
+ongoing dialog with your team as this project moves 
+forward, both pre- and post-launch. 
+  
+SAFEHOME pre22126_ch27_584-600.indd   593pre22126_ch27_584-600.indd   59316/12/13   6:23 PM16/12/13   6:23 PM

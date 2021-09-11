@@ -1,0 +1,47 @@
+ Section 10.4  Risk Analysis 
+671  Step 1: Identify AssetsBefore we can identify vulnerabilities, we must first decide what we need to protect. 
+Thus, the first step of a risk analysis is to identify the assets of the computing system. 
+
+The assets can be considered in categories, as listed below. The first three categories 
+
+are the assets identified in Chapter 1 and described throughout this book. The remain-
+
+ing items are not strictly a part of a computing system but are important to its proper 
+
+functioning.• hardware:
+ processors, boards, keyboards, monitors, terminals, microcomputers, 
+workstations, tape drives, printers, disks, disk drives, cables, connections, com-
+
+munications controllers, and communications media • software:
+ source programs, object programs, purchased programs, in-house pro-
+grams, utility programs, operating systems, systems programs (such as compil-
+ers), and maintenance diagnostic programs • data: data used during execution, stored data on various media, printed data, 
+archival data, update logs, and audit records 
+• people: skilled staff needed to run the computing system or specific programs, 
+as well as support personnel such as guards• documentation: on programs, hardware, systems, administrative procedures, 
+and the entire system• supplies: paper, forms, laser cartridges, recordable media, and printer ink, as 
+well as power, heating and cooling, and necessary buildings or shelter
+• reputation
+: company image
+• availability: ability to do business, ability to resume business rapidly and effi-
+ciently after an incidentYou have to tailor this list to your own situation. No two organizations will have the 
+same assets to protect, and something that is valuable in one organization may not be as 
+3. Analyze the vulnerabilities.
+4. Assess the risks.
+
+5. Apply countermeasures.
+Similarly, the U.S. Air Force uses an Operational Risk Management 
+procedure to support its decision making. [AIR00] The steps are
+1. Identify hazards.
+2. Assess hazards.
+
+3. Make risk decisions.
+
+4. Implement controls.
+
+5. Supervise.As you can see, the steps are similar, but their details are always 
+tailored to the particular situation at hand. For this reason, you may use 
+
+someone else’s risk analysis process as a framework, but then change it to 
+
+match your own situation.

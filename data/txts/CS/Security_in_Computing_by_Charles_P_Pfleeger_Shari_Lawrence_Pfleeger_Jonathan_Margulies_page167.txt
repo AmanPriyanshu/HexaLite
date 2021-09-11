@@ -1,0 +1,67 @@
+ Section 3.1  Unintentional (Nonmalicious) Programming Oversights 
+133  3.1 UNINTENTIONAL (NONMALICIOUS) PROGRAMMING OVERSIGHTS
+Programs and their computer code are the basis of computing. Without a program to 
+guide its activity, a computer is pretty useless. Because the early days of computing 
+
+offered few programs for general use, early computer users had to be programmers 
+
+too—they wrote the code and then ran it to accomplish some task. Today’s computer 
+
+users sometimes write their own code, but more often they buy programs off the shelf; 
+
+they even buy or share code components and then modify them for their own uses. And 
+
+all users gladly run programs all the time: spreadsheets, music players, word proces-
+
+sors, browsers, email handlers, games, simulators, and more. Indeed, code is initiated in 
+
+myriad ways, from turning on a mobile phone to pressing “start” on a coffee-maker or 
+
+microwave oven. But as the programs have become more numerous and complex, users 
+
+are more frequently unable to know what the program is really doing or how. 
+More importantly, users seldom know whether the program they are using is produc-
+ing correct results. If a program stops abruptly, text disappears from a document, or 
+
+music suddenly skips passages, code may not be working properly. (Sometimes these 
+
+interruptions are intentional, as when a CD player skips because the disk is damaged 
+
+or a medical device program stops in order to prevent an injury.) But if a spreadsheet 
+
+produces a result that is off by a small amount or an automated drawing package doesn’t 
+
+align objects exactly, you might not notice—or you notice but blame yourself instead of 
+
+the program for the discrepancy.
+These flaws, seen and unseen, can be cause for concern in several ways. As we all 
+know, programs are written by fallible humans, and program flaws can range from 
+
+insignificant to catastrophic. Despite significant testing, the flaws may appear regularly 
+
+or sporadically, perhaps depending on many unknown and unanticipated conditions. 
+Program flaws can have two kinds of security implications: They can cause integrity 
+problems leading to harmful output or action, and they offer an opportunity for exploita-
+
+tion by a malicious actor. We discuss each one in turn.
+• A program flaw can be a fault affecting the correctness of the program’s result—
+that is, a fault can lead to a failure. Incorrect operation is an integrity failing. As 
+
+we saw in Chapter 1, integrity is one of the three fundamental security properties 
+faults, a failure indicates that the system is not performing as required, even 
+though it may be performing as specified.
+Thus, a fault is an inside view of the system, as seen by the eyes of the developers, whereas a failure is an outside view: a problem that the user 
+
+sees. Every failure has at least one fault as its root cause. But not every fault 
+
+corresponds to a failure; for example, if faulty code is never executed or a 
+
+particular state is never entered, the fault will never cause the code to fail. 
+Although software engineers usually pay careful attention to the dis-
+tinction between faults and failures, security engineers rarely do. Instead, 
+
+security engineers use flaw
+ to describe both faults and failures. In this 
+book, we use the security terminology; we try to provide enough context so 
+
+that you can understand whether we mean fault or failure.

@@ -1,0 +1,112 @@
+CHAPTER 9  
+REQUIREMENTS MODELING: SCENARIO-BASED METHODS 183 
+ 
+ 
+9.3.  What is the purpose of domain analysis? How is it related to the concept of require-ments patterns?    
+ 
+9.4.  Is it possible to develop an effective analysis model without developing all four ele-ments shown in  Figure 9.3 ? Explain.    
+ 
+9.5.  The department of public works for a large city has decided to develop a Web-based 
+pothole tracking and repair system (PHTRS). A description follows:  
+ 
+ 
+ 
+ 
+ 
+Citizens can log onto a website and report the location and severity of potholes. As potholes are reported they are logged within a “public works department repair 
+system” and are assigned an identifying number, stored by street address, size (on 
+
+a scale of 1 to 10), location (middle, curb, etc.), district (determined from street ad-
+dress), and repair priority (determined from the size of the pothole). Work order data 
+
+are associated with each pothole and include pothole location and size, repair crew 
+identifying number, number of people on crew, equipment assigned, hours applied 
+
+to repair, hole status (work in progress, repaired, temporary repair, not repaired), 
+
+amount of ﬁ ller material used, and cost of repair (computed from hours applied, 
+number of people, material and equipment used). Finally, a damage ﬁ
+ le is created 
+to hold information about reported damage due to the pothole and includes citizen’s 
+
+name, address, phone number, type of damage, and dollar amount of damage. PHTRS 
+
+is an online system; all queries are to be made interactively. 
+  
+ 
+ 
+Draw a UML use case diagram PHTRS system. You’ll have to make a number of assumptions 
+about the manner in which a user interacts with this system.  
+ 
+   
+ 
+9.6.  Write two or three use cases that describe the roles of various actors in the PHTRS 
+described in Problem 9.5.    
+ 
+9.7.  Develop an activity diagram for one aspect of PHTRS.    
+ 
+9.8.  Develop a swimlane diagram for one or more aspects of PHTRS.     
+ 
+ 
+ 
+FURTHER
+ READINGS AND INFORMATION
+ SOURCES  
+ 
+Use cases can serve as the foundation for all requirements modeling approaches. The sub-ject is discussed at length by Gomaa ( Software Modeling: UML, Use Case, Patterns, and Ar-
+chitecture,
+ 
+ Cambridge University Press, 2011), Rosenberg and Stephens ( 
+Use Case Driven Object Modeling with UML: Theory and Practice, 
+ Apress, 2007), Denny ( Succeeding with Use Cases: Working Smart to Deliver Quality,
+ 
+ Addison-Wesley, 2005), Alexander and Maiden 
+(Eds.) ( Scenarios, Stories, Use Cases: Through the Systems Development Life-Cycle,
+ 
+ Wiley, 
+2004), Bittner and Spence ( Use Case Modeling, 
+ Addison-Wesley, 2002), Cockburn [Coc01b], 
+and other references noted in Chapter 8.   
+ 
+UML modeling techniques that can be applied for both analysis and design are discussed by Dennis and his colleagues ( Systems Analysis and Design with UML Version 2.0,
+ 
+ 4th ed., 
+Wiley, 2012), O’Docherty ( 
+Object-Oriented Analysis and Design: Understanding System De-velopment with UML 2.0, 
+ Wiley, 2005), Arlow and Neustadt ( 
+UML 2 and the Uniﬁ ed Process,
+ 
+ 2nd ed., Addison-Wesley, 2005), Roques ( 
+UML in Practice, 
+ Wiley, 2004), Larman ( 
+Applying UML and Patterns, 
+ 2nd ed., Prentice Hall, 2001), and Rosenberg and Scott ( 
+Use Case Driven Object Modeling with UML, 
+ Addison-Wesley, 1999). 
+  
+ 
+Some books on requirements include Robertson and Robertson ( Mastering the Require-
+ments Process: Getting Requirements Right,
+ 
+ 3rd ed., 
+ 
+ Addison-Wesley, 2012), Hull, Jackson, 
+and Dick ( Requirements Engineering,
+ 
+ 3rd ed., Springer, 2010), and Alexander and Beus- 
+Dukic ( Discovering Requirements: How to Specify Products and Services,
+ 
+ Wiley, 2009). A wide 
+variety of information sources on requirements modeling are available on the Internet.   
+ 
+An up-to-date list of World Wide Web references that are relevant to analysis modeling 
+can be found at the SEPA website: 
+   
+ 
+ 
+www.mhhe.com/pressman
+ 
+.  
+ 
+ 
+ pre22126_ch09_166-183.indd   183pre22126_ch09_166-183.indd   18313/12/13   6:11 PM13/12/13   6:11 PM

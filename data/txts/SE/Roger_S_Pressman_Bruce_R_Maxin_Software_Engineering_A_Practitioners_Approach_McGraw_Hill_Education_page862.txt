@@ -1,0 +1,80 @@
+832 PART FIVE  
+ADVANCED TOPICS
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 37.4  
+THE PEOPLE CMM 
+ 
+ 
+A software process, no matter how well conceived, will not succeed without tal-ented, motivated software people. The  People Capability Maturity Model 
+ “is a 
+road map for implementing workforce practices that continuously improve the 
+capability of an organization’s workforce” [Cur01]. Developed in the mid-1990s 
+
+and reﬁ ned over the intervening years, the goal of the People CMM is to encour-
+age continuous improvement of generic workforce knowledge (called “core com-
+petencies”), speciﬁ c software engineering and project management skills (called 
+“workforce competencies”), and process-related abilities.  Like the CMM, CMMI, and related SPI frameworks, the People CMM deﬁ nes 
+a set of ﬁ ve organizational maturity levels that provide an indication of the rel-
+ative sophistication of workforce practices and processes. These maturity levels 
+[CMM08] are tied to the existence (within an organization) of a set of key process 
+areas (KPAs). An overview of organizational levels and related KPAs is shown in 
+
+  
+Figure 37.4  
+.  
+ 
+ 
+ 
+  The People CMM complements any SPI framework by encouraging an orga-nization to nurture and improve its most important asset—its people. As import-
+ant, it establishes a workforce atmosphere that enables a software organization 
+to “attract, develop, and retain outstanding talent” [CMM08].   
+ 
+ 
+ 
+ 37.5  
+OTHER SPI FRAMEWORKS  
+ 
+Although the SEI’s CMM and CMMI are the most widely applied SPI frameworks, 
+a number of alternatives  8   have been proposed and are in use. We provide a brief 
+overview of these frameworks in the paragraphs that follow.
+  
+9 
+ 
+ 
+    The People CMM 
+suggests practices that 
+improve the workforce 
+competence and 
+culture. that what is right for one organizational culture may not be right for another. 
+ The CMMI is a signiﬁ cant achievement in software 
+engineering. It provides a comprehensive discussion of 
+
+the activities and actions that should be present when 
+an organization builds computer software. Even if a soft-ware organization chooses not to adopt its details, every 
+
+software team should embrace its spirit and gain insight 
+
+from its discussion of software engineering process and 
+
+practice. 
+  
+ 
+8  It’s reasonable to argue that some of these frameworks are not so much “alternatives” as they are 
+complementary approaches to SPI. A comprehensive table of many more SPI frameworks can be 
+
+found at  http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.13.4787&rep=rep1&type=pdf    
+9  If you have further interest, a wide array of print and Web-based resources is available for each. 
+pre22126_ch37_817-838.indd   832pre22126_ch37_817-838.indd   83213/12/13   6:17 PM13/12/13   6:17 PM

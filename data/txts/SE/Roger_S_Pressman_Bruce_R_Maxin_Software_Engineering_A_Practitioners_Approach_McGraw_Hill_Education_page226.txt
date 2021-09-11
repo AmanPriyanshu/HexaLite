@@ -1,0 +1,47 @@
+196 PART TWO  
+MODELING 
+In all cases, the collaborator class name is recorded on the CRC model index card next to the responsibility that has spawned the collaboration. Therefore, 
+the index card contains a list of responsibilities and the corresponding collabo-
+rations that enable the responsibilities to be fulﬁ lled ( 
+Figure 10.3 ).  When a complete CRC model has been developed, the representatives from the stakeholders can review the model using the following approach [Amb95]:  
+ 
+ 
+ 1.
+  All participants in the review (of the CRC model) are given a subset of the CRC model index cards. Cards that collaborate should be separated (i.e., 
+no reviewer should have two cards that collaborate).   
+ 
+ 
+ 2.
+  All use-case scenarios (and corresponding use-case diagrams) should be organized into categories.   
+ 
+ 
+ 3.
+  The review leader reads the use case deliberately. As the review leader 
+comes to a named object, she passes a token to the person holding the 
+corresponding class index card. For example, a use case for  SafeHome 
+ contains the following narrative:  
+ 
+ 
+The homeowner observes the  SafeHome 
+ control panel to determine if the system 
+is ready for input. If the system is not ready, the homeowner must physically close 
+
+ windows/doors so that the ready indicator is present. [A not-ready indicator implies that a sensor is open, i.e., that a door or window is open.]    
+ 
+   When the review leader comes to “control panel,” in the use case narra-
+tive, the token is passed to the person. holding the  ControlPanel 
+ index card. The phrase “implies that a sensor is open” requires that the index 
+card contains a responsibility that will validate this implication (the 
+ responsibility  determine-sensor-status()
+ 
+ accomplishes this). Next to the  responsibility on the index card is the collaborator  Sensor.
+ 
+ The token is then passed to the  Sensor 
+ object.  PlayerPlayerHeadPlayerBodyPlayerArmsPlayerLegs
+ 
+ 
+FIGURE 10.4 
+A composite aggregate 
+
+class  
+ pre22126_ch10_184-201.indd   196pre22126_ch10_184-201.indd   19613/12/13   6:11 PM13/12/13   6:11 PM

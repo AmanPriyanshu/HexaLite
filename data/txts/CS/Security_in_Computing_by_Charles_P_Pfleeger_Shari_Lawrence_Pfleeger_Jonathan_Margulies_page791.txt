@@ -1,0 +1,48 @@
+ Section 11.7  Incident Analysis with Ethics 
+757  • Suzie copies the disk for Luis to use; Luis uses it for some period of time and 
+then buys a copy for himself.
+• Suzie copies the disk for Luis to try out overnight, under the restriction that he 
+must bring the disk back to her tomorrow and must not copy it for himself. Luis 
+
+does so.• Suzie copies the disk with the same restrictions, but Luis makes a copy for him-
+self before returning it to Suzie.• Suzie copies the disk with the same restrictions, and Luis makes a copy for him-
+self, but he then purchases a copy.
+• Suzie copies the disk with the same restrictions, but Luis does not return it.
+For each of these extensions, describe who is affected, which ethical issues are 
+involved, and which principles override which others.
+Situation VI: FraudIn previous problems, we have dealt with people acting in situations that were legal or, 
+
+at worst, debatable. In this case, we consider outright fraud, which is illegal. However, 
+
+the story really concerns the actions of people who are asked to do fraudulent things.
+The IncidentAlicia works as a programmer in a corporation. Ed, her supervisor, tells her to write a 
+program to allow people to post entries directly to the company’s accounting files (“the 
+
+books”). Alicia knows that ordinarily programs that affect the books involve several 
+
+steps, all of which have to balance. Alicia realizes that with the new program, it will be 
+
+possible for one person to make changes to crucial amounts, and there will be no way to 
+
+trace who made these changes, with what justification, or when.
+Alicia raises these concerns to Ed, who tells her not to be concerned, that her job is simply to write the programs as he specifies. He says that he is aware of the potential 
+
+misuse of these programs, but he justifies his request by noting that periodically a figure 
+
+is mistakenly entered in the books and the company needs a way to correct the inac-
+
+curate figure.
+ExtensionsFirst, let us explore the options Alicia has. If Alicia writes this program, she might be an 
+accomplice to fraud. If she complains to Ed’s superior, Ed or the superior might reprimand 
+
+or fire her as a troublemaker. If she refuses to write the program, Ed can clearly fire her for 
+
+failing to carry out an assigned task. We do not even know that the program is desired for 
+
+fraudulent purposes; Ed suggests an explanation that is not fraudulent.
+She might write the program but insert extra code that creates a secret log of when 
+the program was run, by whom, and what changes were made. This extra file could 
+
+provide evidence of fraud, or it might cause trouble for Alicia if there is no fraud but Ed 
+
+discovers the secret log.

@@ -1,0 +1,59 @@
+ Section 9.5  Privacy on the Web 
+621  Payments on the Web
+Customers of online merchants must be able to pay online for purchases. There are two 
+basic approaches: Customers give their credit card information to the merchant or they 
+
+arrange payment through an online payment system such as PayPal.
+Credit Card Payments
+With a credit card, the user enters the credit card number, a special number printed 
+on the card (presumably to demonstrate that the user actually possesses the card), the 
+expiration date of the card (to ensure that the card is currently active), and the billing 
+
+address of the credit card (presumably to protect against theft of the credit card). These 
+
+protections are all on the side of the merchant: They demonstrate that the merchant 
+
+made a best effort to determine that the credit card use was legitimate. There is no 
+
+protection to the customer that the merchant will secure these data. Once the customer 
+has given this information to one merchant, that same information is all that would be 
+
+required for another merchant to accept a sale charged to the same card.
+Furthermore, these pieces of information provide numerous static keys by which to 
+correlate databases. As we have seen, names can be difficult to work with because of 
+
+the risk of misspelling, variation in presentation, truncation, and the like. Credit card 
+
+numbers make excellent keys because they can be presented in only one way and there 
+
+is even a trivial check digit to ensure that the card number is a valid sequence.
+Debit cards can also be used for online payment. Although they work the same way 
+as credit cards, they are usually not afforded the same protections as credit cards; there 
+
+is far more risk to the payer to use debit than credit.
+Because of problems with stolen credit card numbers, some banks are experiment-
+ing with disposable credit cards: cards you could use for one transaction or for a fixed 
+
+short period of time. That way, if a card number is stolen or intercepted, it could not be 
+
+reused. Furthermore, having multiple card numbers limits the ability to use a credit card 
+
+number as a key to compromise privacy through data mining.
+Payment SchemesThe other way to make web payments is with an online payment scheme, such as Pay-
+Pal. You pay PayPal a sum of money and receive an account number and a PIN. You 
+
+can then log in to the PayPal central site, give an email address and amount to be paid, 
+
+and PayPal transfers that amount. Because in the United States, PayPal is not regulated 
+
+under the same banking laws as credit cards, it offers less consumer protection than 
+
+does a credit card. However, the privacy advantage is that the user’s credit card or finan-
+
+cial details are known only to PayPal, thus reducing the risk of their being stolen. Simi-
+
+lar schemes, such as Square, use mobile phones to make payments. Other systems, like 
+
+Bitcoin, are being established as virtual currency, independent of government issuance. 
+
+The value and viability of virtual currencies are yet to be demonstrated.

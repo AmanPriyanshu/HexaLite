@@ -1,0 +1,55 @@
+ Section 3.1  Unintentional (Nonmalicious) Programming Oversights 
+161  Unterminated Null-Terminated String
+Long strings are the source of many buffer overflows. Sometimes an attacker intention-
+ally feeds an overly long string into a processing program to see if and how the program 
+
+will fail, as was true with the Dialer program. Other times the vulnerability has an acci-
+
+dental cause: A program mistakenly overwrites part of a string, causing the string to be 
+
+interpreted as longer than it really is. How these errors actually occur depends on how 
+
+the strings are stored, which is a function of the programming language, application 
+
+program, and operating system involved. 
+Variable-length character (text) strings are delimited in three ways, as shown in Fig-
+ure 3-15. The easiest way, used by Basic and Java, is to allocate space for the declared 
+
+maximum string length and store the current length in a table separate from the string’s 
+
+data, as shown in Figure 3-15(a).
+Some systems and languages, particularly Pascal, precede a string with an integer 
+that tells the string’s length, as shown in Figure 3-15(b). In this representation, the string 
+
+“Hello” would be represented as 0x0548656c6c6f because 0x48, 0x65, 0x6c, and 0x6f 
+
+are the internal representation of the characters “H,” “e,” “l,” and “o,” respectively. The 
+
+length of the string is the first byte, 0x05. With this representation, string buffer over-
+
+flows are uncommon because the processing program receives the length first and can 
+
+verify that adequate space exists for the string. (This representation is vulnerable to the 
+
+problem we described earlier of failing to include the length element when planning 
+
+space for a string.) Even if the length field is accidentally overwritten, the application 
+
+reading the string will read only as many characters as written into the length field. But 
+
+the limit for a string’s length thus becomes the maximum number that will fit in the 
+
+length field, which can reach 255 for a 1-byte length and 65,535 for a 2-byte length.
+The last mode of representing a string, typically used in C, is called null terminated, meaning that the end of the string is denoted by a null byte, or 0x00, as shown in Fig-
+
+ure 3-15(c). In this form the string “Hello” would be 0x48656c6c6f00. Representing 
+
+strings this way can lead to buffer overflows because the processing program deter-
+
+mines the end of the string, and hence its length, only after having received the entire 
+(b) Length precedes string(c) String ends with null(a) Separate lengthHLELO
+5HLELOØ
+Max. len.Curr. len.
+205
+HELLO
+LFIGURE 3-15 Variable-Length String Representations

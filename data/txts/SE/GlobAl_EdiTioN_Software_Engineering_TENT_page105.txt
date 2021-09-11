@@ -1,0 +1,43 @@
+˜˜˚˛˜˜˜
+˜˜˜˜
+more detailed system requirements. Sometimes an agile approach of concurrently 
+eliciting the requirements as the system is developed may be used to add detail and 
+to refine the user requirements.Software system requirements are often classified as functional or non-functional 
+
+requirements:1. Functional requirements These are statements of services the system should 
+provide, how the system should react to particular inputs, and how the system should behave in particular situations. In some cases, the functional require
+-
+ments may also explicitly state what the system should not do.2. Non-functional requirements These are constraints on the services or functions 
+offered by the system. They include timing constraints, constraints on the devel
+-
+opment process, and constraints imposed by standards. Non-functional require-
+ments often apply to the system as a whole rather than individual system features 
+
+or services.In reality, the distinction between different types of requirements is not as clear-cut as these simple definitions suggest. A user requirement concerned with security, 
+such as a statement limiting access to authorized users, may appear to be a non-
+
+functional requirement. However, when developed in more detail, this requirement 
+may generate other requirements that are clearly functional, such as the need to 
+
+include user authentication facilities in the system.This shows that requirements are not independent and that one requirement often 
+generates or constrains other requirements. The system requirements therefore do not 
+
+just specify the services or the features of the system that are required; they also specify 
+
+the necessary functionality to ensure that these services/features are delivered effectively.
+
+
+The functional requirements for a system describe what the system should do. These 
+
+requirements depend on the type of software being developed, the expected users of the 
+
+software, and the general approach taken by the organization when writing requirements. 
+
+When expressed as user requirements, functional requirements should be written in natu-
+ral language so that system users and managers can understand them. Functional system 
+
+requirements expand the user requirements and are written for system developers. They 
+
+should describe the system functions, their inputs and outputs, and exceptions in detail.Functional system requirements vary from general requirements covering what 
+the system should do to very specific requirements reflecting local ways of working 
+or an organization™s existing systems. For example, here are examples of functional 

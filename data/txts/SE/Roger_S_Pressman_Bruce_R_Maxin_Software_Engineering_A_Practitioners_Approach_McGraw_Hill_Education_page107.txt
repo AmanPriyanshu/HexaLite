@@ -1,0 +1,180 @@
+CHAPTER 5  
+AGILE DEVELOPMENT 77 
+ 
+ 
+ 
+ 
+ 5.5 O
+THER AGILE PROCESS MODELS  
+ 
+The history of software engineering is littered with dozens of obsolete process descriptions and methodologies, modeling methods and notations, tools, and 
+technology. Each ﬂ
+ ared in notoriety and was then eclipsed by something new 
+and (purportedly) better. With the introduction of a wide array of agile process 
+
+models—each contending for acceptance within the software development 
+ community—the agile movement is following the same historical path.  8 
+ 
+   
+As we noted in the last section, the most widely used of all agile process mod-els is Extreme Programming (XP). But many other agile process models have 
+been proposed and are in use across the industry. In this section, we present 
+
+a brief overview of four common agile methods: Scrum, DSSD, Agile Modeling 
+(AM), and Agile Uniﬁ ed Process (AUP). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Doug:  Yeah, some good, some bad. 
+   
+ 
+ 
+ 
+ 
+ 
+Jamie:  Well, it sounds pretty good to us. Lets you 
+develop software really fast, uses something called pair 
+s 
+
+pretty cool, I think.    
+ 
+ 
+ 
+ 
+ 
+Doug:  It does have a lot of really good ideas. I like the 
+pair-programming concept, for instance, and the idea 
+
+that stakeholders should be part of the team. 
+   
+ 
+ 
+ 
+ 
+ 
+Jamie:  Huh? You mean that marketing will work on 
+the project team with us?    
+ 
+ 
+ 
+ 
+ 
+Doug (nodding):  They’re a stakeholder, aren’t they? 
+   
+ 
+ 
+ 
+ 
+ 
+Jamie:  
+y 
+ﬁ ve minutes. 
+   
+ 
+ 
+ 
+ 
+ 
+Vinod:  Not necessarily. My friend said that there are 
+ways to “embrace” changes during an XP project.    
+ 
+ 
+ 
+ 
+ 
+Doug:  So you guys think we should use XP? 
+   
+ 
+ 
+ 
+ 
+ 
+Jamie:  It’s deﬁ
+ nitely worth considering. 
+   
+ 
+ 
+ 
+ 
+ 
+Doug:  I agree. And even if we choose an incremental 
+model as our approach, there’s no reason why we can’t 
+
+incorporate much of what XP has to offer. 
+   
+ 
+ 
+ 
+ 
+ 
+Vinod:  
+Doug, before you said “some good, some bad.” What was the bad?    
+ 
+ 
+ 
+ 
+ 
+Doug:  The thing I don’t like is the way XP downplays 
+t of says that writing code is 
+
+   
+ 
+ 
+ 
+ 
+ 
+(The team members look at one another and smile.)    
+ 
+ 
+ 
+ 
+ 
+Doug:  So you agree with the XP approach? 
+   
+ 
+ 
+ 
+ 
+ 
+Jamie (speaking for both):  Writing code is what 
+we do, Boss!    
+ 
+ 
+ 
+ 
+ 
+Doug (laughing):  True, but I’d like to see you spend 
+a little less time coding and then recoding and a little 
+more time analyzing what has to be done and design-
+ing a solution that works.    
+ 
+ 
+ 
+ 
+ 
+Vinod:  Maybe we can have it both ways, agility with 
+a little discipline.    
+ 
+ 
+ 
+ 
+ 
+Doug:  I think we can, Vinod. In fact, I’m sure of it. 
+ 
+ 
+ 
+ 
+  
+ uote:  “Our profession 
+goes through 
+methodologies like 
+a 14-year-old goes 
+
+through clothing.”  Stephen 
+Hawrysh and 
+Jim Ruprecht   
+8  This is not a bad thing. Before one or more models or methods are accepted as a de facto 
+ standard, all must contend for the hearts and minds of software engineers. The “winners” evolve into best practice, while the “losers” either disappear or merge with the winning models. pre22126_ch05_066-086.indd   77pre22126_ch05_066-086.indd   7713/12/13   6:10 PM13/12/13   6:10 PM

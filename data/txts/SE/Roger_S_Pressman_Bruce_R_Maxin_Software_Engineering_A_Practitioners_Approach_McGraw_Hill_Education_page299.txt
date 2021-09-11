@@ -1,0 +1,71 @@
+CHAPTER 13  
+ARCHITECTURAL DESIGN 269 
+ 
+As part of the architectural design, the details of each interface shown in   
+Figure 13.6  would have to be speciﬁ
+ ed. All data that ﬂ
+ ow into and out of the target 
+system must be identiﬁ ed at this stage. 
+ 
+ 
+ 
+13.6.2  Deﬁ
+ ning Archetypes 
+ 
+An  archetype
+ 
+ is a class or pattern that represents a core abstraction that is criti-cal to the design of an architecture for the target system. In general, a relatively 
+small set of archetypes is required to design even relatively complex systems. 
+The target system architecture is composed of these archetypes, which repre-
+sent stable elements of the architecture but may be instantiated many different 
+ways based on the behavior of the system.   
+ 
+ 
+ 
+ 
+In many cases, archetypes can be derived by examining the analysis classes deﬁ ned as part of the requirements model. Continuing the discussion of the 
+ SafeHome 
+ home security function, you might deﬁ ne the following archetypes:
+ 
+ 
+ 
+ 
+•   
+Node. 
+ Represents a cohesive collection of input and output elements of the home security function. For example, a node might be composed of 
+  
+ 
+ 
+•   
+Detector.
+ 
+ An abstraction that encompasses all sensing equipment that feeds information into the target system.   
+ 
+ 
+•   
+Indicator.
+ 
+ An abstraction that represents all mechanisms (e.g., alarm siren, ﬂ ashing lights, bell) for indicating that an alarm condition is occurring. 
+  
+ 
+ 
+•   
+Controller.
+ 
+ An abstraction that depicts the mechanism that allows the arming or disarming of a node. If controllers reside on a network, they 
+have the ability to communicate with one another. 
+    Archetypes are the 
+abstract building blocks 
+of an architectural 
+design. Target system: 
+security functionUses Uses PeersHomeownerSafeHomeproductInternet-based
+systemSurveillance
+functionSensorsControl panelSensors Uses  
+FIGURE 13.6 
+ 
+Architectural 
+context 
+ diagram for the  SafeHome 
+ security 
+function  
+ pre22126_ch13_252-284.indd   269pre22126_ch13_252-284.indd   26913/12/13   6:12 PM13/12/13   6:12 PM

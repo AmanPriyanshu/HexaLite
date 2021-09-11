@@ -1,0 +1,62 @@
+396 Chapter 6  
+NetworksThis attack is significant because it demonstrates a previously unknown vulnerabil-
+ity. However, it results only in successfully certain packets in a WPA stream. It does not 
+
+undermine WPA or TKIP in general and, more importantly, it is not effective against 
+
+WPA2 using the AES algorithm. 
+Conclusion: WPA Is Adequately Secure
+The vulnerabilities identified occur in restricted cases and do not affect most users or 
+WPA. Care in choosing an encryption key can ensure that it is long and random enough 
+
+to be immune from guessing attacks.More serious than any weaknesses in the WPA algorithm suite is the amount of data 
+people communicate without protection. Protection of user data is an application issue, 
+not a networking one, and thus it is something for users and programs to solve.
+So far in this book, we have focused almost exclusively on confidentiality and integ-
+rity attacks, both in conventional computing and in networks. Our toolkit of counter-
+
+measures relies heavily on the trio of authentication, access control, and encryption, 
+
+as well as special-purpose tools such as defensive programming, separation, and least 
+
+privilege. Now we turn to a security vulnerability especially potent in networks: denial 
+
+of service, or loss of availability. To counter such threats we find we need a radically 
+
+different set of countermeasures.
+6.4 DENIAL OF SERVICE
+Denial of service is devastating to a commercial firm that depends on computing for 
+
+customer interaction, as well as back-end functions like inventory management and 
+
+scheduling. Governments continue to move service to the web, so failed access means 
+
+the citizens cannot handle ordinary government interactions. Recent advances in elec-
+
+tronic medical records have brought advantages, but as reliance on that mode of data 
+
+management grows, treating patients will become dangerous without data access. And 
+
+computerized control of devices from traffic lights to satellites means that a service fail-
+
+ure can lead to serious complications in the physical world, as well. For these reasons, 
+
+we explore causes and countermeasures for denial of service.
+Example: Massive Estonian Web Failure 
+We begin this section with an example of a large service attack. And although perpe-
+
+trators of this attack are still unknown, it is fairly clear that this attack was politically 
+
+motivated.
+Officials in the Republic of Estonia decided in 2007 to move a monument called the 
+“Bronze Soldier,” which commemorated Russian involvement in World War II. Taking 
+
+the move as an affront to Russia, people blockaded the Estonian embassy in Moscow, 
+
+and protests erupted in Estonia, which has a large ethnic Russian minority population.
+Almost immediately after the demonstrations began, Estonian websites were bom-
+barded with traffic, at rates of 100–200 megabits per second. Although more recently 
+
+attacks have reached 1,000 times that volume, in 2007, 100 megabit per second traffic 
+
+was unheard of.

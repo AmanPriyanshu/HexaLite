@@ -1,0 +1,125 @@
+810 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+Other restructuring techniques have also been proposed for use with reengi-neering tools. A resource exchange diagram maps each program module and the 
+resources (data types, procedures, and variables) that are exchanged between it 
+and other modules. By creating representations of resource ﬂ ow, the program 
+architecture can be restructured to achieve minimum coupling among modules.   
+ 
+ 
+36.7.2   
+Data Restructuring  
+Before data restructuring can begin, a reverse engineering activity called  anal-ysis of source code
+ 
+ should be conducted. All programming language statements 
+that contain data deﬁ nitions, ﬁ
+ le descriptions, I/O, and interface descriptions 
+are evaluated. The intent is to extract data items and objects, to get information 
+on data ﬂ ow, and to understand the existing data structures that have been im-
+plemented. This activity is sometimes called  data analysis 
+.  Once data analysis has been completed,  data redesign
+ 
+ commences. In its 
+simplest form, a  data record standardization
+ 
+ step clariﬁ
+ es data deﬁ
+ nitions to 
+achieve consistency among data item names or physical record formats within 
+an existing data structure or ﬁ le format. Another form of redesign, called  
+data name rationalization, 
+ ensures that all data naming conventions conform to local 
+standards and that aliases are eliminated as data ﬂ ow through the system. 
+ When restructuring moves beyond standardization and rationalization, phys-ical modiﬁ cations to existing data structures are made to make the data design 
+more effective. This may mean a translation from one ﬁ le format to another, or in 
+some cases, translation from one type of database to another. 
+ 
+ 
+ 
+  
+ 
+Software Restructuring 
+ 
+ 
+ 
+ 
+ Objective:   
+The objective of restructuring tools is to transform older unstructured 
+computer software into modern programming languages 
+
+and design structures.   
+ 
+Mechanics:   
+In general, source code is input and transformed into a better structured program. In some 
+
+cases, the transformation occurs within the same 
+
+programming language. In other cases, an older 
+programming language is transformed into a more 
+
+modern language. 
+  
+ 
+ 
+Representative Tools  9 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DMS Software Reengineering Toolkit,
+ 
+ developed by Semantic Design (  
+www.semdesigns.com 
+ 
+), provide a variety of restructuring capabilities for 
+COBOL, C/C11, Java, Fortran 90, and VHDL. 
+   
+ 
+ 
+ 
+Clone Doctor,
+ 
+ developed by Semantic Designs (  
+www.semdesigns.com 
+ 
+), analyzes and transforms programs written in C, C
+11, Java, or COBOL or any other text-based computer language.    
+ 
+ 
+ 
+plusFORT,
+ 
+ developed by Polyhedron (  
+www.polyhedron.com 
+ 
+), is a suite of FORTRAN 
+tools that contains capabilities for restructuring poorly 
+designed FORTRAN programs into the modern 
+
+FORTRAN or C standard. 
+   
+ 
+Pointers to a variety of reengineering and reverse engi-neering tools can be found at    
+http://www.comp
+.lancs.ac.uk/projects/renaissance/
+
+RenaissanceWeb/Reengineering/Tools.html  
+ 
+ and   
+http://www.fujaba.de/projects.html 
+ 
+.  
+  
+SOFTWARE
+ TOOLS  
+ 
+9  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+pre22126_ch36_795-816.indd   810pre22126_ch36_795-816.indd   81013/12/13   6:17 PM13/12/13   6:17 PM

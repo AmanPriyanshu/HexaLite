@@ -1,0 +1,68 @@
+ Section 4.2  Web Attacks Targeting Users 
+245  Continuous Authentication In several places in this book we argue the need for a continuous authentication mech-
+
+anism. Although not perfect in those regards, strong encryption does go a long way 
+
+toward a solution.
+If two parties carry on an encrypted communication, an interloper wanting to enter 
+into the communication must break the encryption or cause it to be reset with a new 
+
+key exchange between the interceptor and one end. (This latter technique is known as a 
+
+session hijack, which we study in Chapter 6.) Both of these attacks are complicated but 
+
+not impossible. However, this countermeasure is foiled if the attacker can intrude in the 
+
+communication pre-encryption or post-decryption. These problems do not detract from 
+
+the general strength of encryption to 
+
+maintain authentication between two 
+
+parties. But be aware that encryption 
+
+by itself is not a magic fairy dust that 
+
+counters all security failings and that 
+
+misused cryptography can impart a 
+false sense of security.
+These mechanisms—signatures, shared secrets, one-time passwords and out-of-band 
+communications—are all ways of establishing a context that includes authentic parties 
+
+and excludes imposters.
+4.2 WEB ATTACKS TARGETING USERS
+We next consider two classes of situations involving web content. The first kind involves 
+
+false content, most likely because the content was modified by someone unauthorized; 
+
+with these the intent is to mislead the viewer. The second, more dangerous, kind seeks 
+
+to harm the viewer.
+SIDEBAR 4-3 Man-in-the-Mobile Attack
+The Zeus Trojan horse is one of the most prolific pieces of malicious code. 
+It is configurable, easy for an attacker to use, and effective. Its owners con-
+
+tinually update and modify it, to the extent that security firm Symantec has 
+
+counted over 70,000 variations of the basic code. Because of the num-
+
+ber of strains, malicious code detectors must update their definitions con-
+stantly. Zeus sells on the hacker market for a few hundred dollars. Targeting 
+
+financial site interactions, it can pay for itself with a single exploit.Zeus has taken on the mobile phone messaging market, too. Accord-
+ing to security firm S21Sec, Zeus now has an application that can be 
+
+unintentionally downloaded to smartphones; using SMS messaging, Zeus 
+
+communicates with its command and control center. But because it is 
+
+installed in the mobile, it can also block or alter text messages sent by a 
+
+financial institution to a customer’s mobile phone.
+Encryption can provide continuous 
+authentication, but care must be taken 
+
+to set it up properly and guard the end 
+
+points.

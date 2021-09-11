@@ -1,0 +1,53 @@
+712 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+LOC per Function PointProgramming 
+LanguageAvg.
+MedianLowHighMantis22250
+Natural34
+
+.NET60
+
+Oracle12217
+
+OracleDev2K23100
+
+PeopleSoft34
+
+Perl45
+
+PL/127
+
+Powerbuilder105
+
+RPG II/III24155
+
+SAS33
+
+Smalltalk10
+
+SQL13
+
+VBScript29
+Visual Basic14276
+ A review of these data indicates that one LOC of C11 provides approximately 
+2.4 times the “functionality” (on average) as one LOC of C. Furthermore, one LOC 
+of a Smalltalk provides at least four times the functionality of an LOC for a con-
+ventional programming language such as Ada, COBOL, or C. Using the informa-
+tion contained in the table, it is possible to “backﬁ re” [Jon98] existing software to 
+estimate the number of function points, once the total number of programming 
+language statements are known.  LOC and FP measures are often used to derive productivity metrics.
+ This 
+ invariably leads to a debate about the use of such data. Should the LOC/ person-month (or FP/person-month) of one group be compared to similar 
+data from another? Should managers appraise the performance of individuals 
+by using these metrics? The answer to these questions is an emphatic no! The 
+reason for this response is that many factors inﬂ uence productivity, making for 
+“ apples and oranges” comparisons that can be easily misinterpreted.  Function points and LOC-based metrics have been found to be relatively ac-
+curate predictors of software development effort and cost. However, in order to 
+
+use LOC and FP for estimation (Chapter 33), an historical baseline of information 
+must be established.  Within the context of process and project metrics, you should be concerned 
+primarily with productivity and quality—measures of software development 
+“output” as a function of effort and time applied and measures of the “ﬁ tness 
+for use” of the work products that are produced. For process improvement and 
+project planning purposes, your interest is historical. What was software devel-
+opment productivity on past projects? What was the quality of the software that pre22126_ch32_703-726.indd   712pre22126_ch32_703-726.indd   71213/12/13   6:17 PM13/12/13   6:17 PM

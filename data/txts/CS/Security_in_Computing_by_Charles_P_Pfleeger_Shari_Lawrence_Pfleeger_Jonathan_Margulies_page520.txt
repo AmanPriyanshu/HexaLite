@@ -1,0 +1,61 @@
+486 Chapter 6  
+NetworksGoals for Intrusion Detection SystemsThe two styles of intrusion detection—pattern matching and heuristic—represent differ-
+ent approaches, each of which has advantages and disadvantages. Actual IDS products 
+
+often blend the two approaches.
+Ideally, an IDS should be fast, simple, and accurate, while at the same time being 
+complete. It should detect all attacks with negligible performance penalty. An IDS could 
+
+use some—or all—of the following design approaches:
+• Filter on packet headers.
+• Filter on packet content.
+
+• Maintain connection state.
+
+• Use complex, multipacket signatures.
+announced its website was under a serious denial-of-service attack, even before the first release of diplomatic messages, but WikiLeaks continued to 
+
+release the messages.
+Unknown people, presumably angered by WikiLeaks’ breaching 
+security in releasing these cables, apparently launched a denial-of-service 
+
+attack against WikiLeaks. The severity of the attack was great enough that 
+
+on 2 December WikiLeaks’ hosting provider, Amazon Web Services, a  
+
+division of online bookseller Amazon.com, canceled its contract with 
+
+WikiLeaks, forcing the site to find a new provider. Next, unknown people 
+
+launched a denial-of-service attack against the DNS provider serving 
+
+WikiLeaks, EveryDNS. WikiLeaks switched to a Swiss hosting provider, 
+
+using a network architecture supported by 14 different DNS providers and 
+
+over 350 mirror sites [BRA10]. Thus, the anti-WikiLeaks forces and their 
+
+denial-of-service attack caused WikiLeaks to move content and to arrange 
+hosting contracts abruptly.
+Meanwhile, the anti- anti-WikiLeaks forces took action. A leaderless 
+group, named Anonymous, on 8 December 2010 launched a series of 
+
+denial-of-service attacks of their own, called Operation Payback. The tar-
+
+gets were MasterCard, which had been accepting donations to transfer to 
+
+WikiLeaks but had stopped that practice; Amazon, the web hosting com-
+
+pany that canceled service for WikiLeaks; PayPal, which had also stopped 
+accepting payments for WikiLeaks; and other smaller targets. Anonymous 
+involved a group of about 1,500 activist hackers who were organizing in 
+
+online forums and chats. The attack disabled MasterCard’s online services 
+
+for about six hours.John Perry Barlow, co-founder of the Electronic Freedom Foundation 
+(EFF) and Fellow at Harvard University’s Berkman Center for Internet and 
+
+Society, tweeted: “The first serious infowar is now engaged. The field of 
+
+battle is WikiLeaks. You are the troops.”
+SIDEBAR 6-26 Continued

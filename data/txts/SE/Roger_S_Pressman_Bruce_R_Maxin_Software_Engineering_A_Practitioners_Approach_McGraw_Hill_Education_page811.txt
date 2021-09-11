@@ -1,0 +1,106 @@
+CHAPTER 35  
+RISK MANAGEMENT 781 
+ 
+ 
+•   
+Process deﬁ
+ nition
+ 
+—Risks associated with the degree to which the soft-ware process has been deﬁ ned and is followed by the development 
+organization.   
+ 
+ 
+•   
+Development environment
+ 
+—Risks associated with the availability and quality of the tools to be used to build the product.   
+ 
+ 
+•   
+Technology to be built
+ 
+—Risks associated with the complexity of the system to 
+be built and the “newness” of the technology that is packaged by the system. 
+  
+ 
+ 
+•   
+Staff size and experience 
+—Risks associated with the overall technical and project experience of the software engineers who will do the work.  
+ 
+  The risk item checklist can be organized in different ways. Questions relevant to each of the topics can be answered for each software project. The answers to 
+these questions allow you to estimate the impact of risk. A different risk item 
+checklist format simply lists characteristics that are relevant to each generic 
+subcategory. Finally, a set of “risk components and drivers” [AFC88] are listed 
+
+along with their probability of occurrence. Drivers for performance, support, 
+cost, and schedule are discussed in answer to later questions.  A number of comprehensive checklists for software project risk are available on the Web (e.g., [Baa07], [NAS07], [Wor04]). You can use these checklists to gain 
+
+insight into generic risks for software projects. In addition to the use of check-
+lists,  risk patterns 
+ [Mil04] have been proposed as a systematic approach to risk 
+identiﬁ cation. 
+ 
+ 
+ 
+35.3.1   
+Assessing Overall Project Risk 
+ 
+The following questions have been derived from risk data obtained by surveying experienced software project managers in different parts of the world [Kei98]. 
+The questions are ordered by their relative importance to the success of a project.  
+ 
+ 
+       1.  Have top software and customer managers formally committed to support the project?   
+ 
+ 
+ 2.
+  Are end users enthusiastically committed to the project and the system/product to be built?   
+ 
+ 
+ 3.
+  Are requirements fully understood by the software engineering team and its customers?   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 4.
+  Have customers been involved fully in the deﬁ nition of requirements? 
+  
+ 
+ 
+ 5.
+  Do end users have realistic expectations?   
+ 
+ 
+ 6.
+  Is the project scope stable?   
+ 
+ 
+ 7.
+  Does the software engineering team have the right mix of skills?   
+ 
+ 
+ 8.
+  Are project requirements stable?   
+ 
+ 
+ 9.
+  Does the project team have experience with the technology to be implemented?   Is the 
+software project we’re 
+working on at 
+serious risk? ? WebRef 
+  
+Risk radar  is a 
+database and tools that 
+help managers identify, 
+
+rank, and communicate 
+project risks. It can be 
+found at 
+  www.spmn.com  . 
+pre22126_ch35_777-794.indd   781pre22126_ch35_777-794.indd   78113/12/13   6:17 PM13/12/13   6:17 PM

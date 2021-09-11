@@ -1,0 +1,120 @@
+CHAPTER 7  
+PRINCIPLES THAT GUIDE PRACTICE
+ 119no matter how well designed its architecture, a poor interface design often leads to the perception that the software is “bad.”    
+ 
+ 
+ 
+ 
+ 
+Principle 6. 
+  Component-level design should be functionally independent 
+ 
+. 
+ Component-level design should be functionally independent  
+.  Functional independence is a measure of the “single-mindedness” of a 
+software component. The functionality that is delivered by a component 
+should be cohesive—that is, it should focus on one and only one function 
+or subfunction.  6 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Principle 7. 
+  Components should be loosely coupled to one another and to Components should be loosely coupled to one another and to the external environment  
+.the external environment 
+ 
+. 
+ Coupling is achieved in many ways—via a com-ponent interface, by messaging, through global data. As the level of cou-
+pling increases, the likelihood of error propagation also increases and the 
+overall maintainability of the software decreases. Therefore, component 
+coupling should be kept as low as is reasonable.    
+ 
+ 
+ 
+ 
+ 
+Principle 8. 
+  Design representations (models) should be easily understand-Design representations (models) should be easily understand-
+able.able. 
+ The purpose of design is to communicate information to practitioners who will generate code, to those who will test the software, and to others 
+who may maintain the software in the future. If the design is difﬁ cult to un-
+derstand, it will not serve as an effective communication medium.    
+ 
+ 
+ 
+ 
+ 
+Principle 9. 
+  
+The design should be developed iteratively 
+ 
+. 
+The design should be developed iteratively 
+ 
+. 
+ With each iteration, 
+the designer should strive for greater simplicity. Like almost all creative 
+
+activities, design occurs iteratively. The ﬁ
+ rst iterations work to reﬁ
+ ne the 
+design and correct errors, but later iterations should strive to make the 
+design as simple as is possible.    
+ 
+ 
+ 
+ 
+ 
+Principle 10. 
+  Creation of a design model does not preclude an agile Creation of a design model does not preclude an agile 
+ 
+approach 
+ 
+. 
+approach 
+ 
+. 
+ Some proponents of agile software development (Chapter 5) insist that the code is the only design documentation that is needed. Yet 
+
+the purpose of a design model is to help others who must maintain and 
+evolve the system. It is extremely difﬁ cult to understand either the higher 
+level purpose of a code fragment or its interactions with other modules in 
+a modern multithreaded run-time environment.  
+ 
+  Although in-line code documentation can be useful, it is often difﬁ cult to keep 
+code and code descriptions consistent. The design model provides beneﬁ t because 
+it is created at a level of abstraction that is stripped of unnecessary technical  detail 
+and is closely coupled to the application concepts and requirements. 
+ Complementary design information can incorporate a design rationale in-cluding the descriptions of rejected architectural design alternatives. This in-
+formation may be needed to help you see through the code forest. In addition, it 
+can help maintain consistency when ﬁ ner-grained design decisions are required. 
+ 
+ uote:  “The differences 
+are not minor—
+they are rather 
+like the differences 
+between Salieri 
+and Mozart. Study 
+after study shows 
+that the very best 
+
+designers produce 
+structures that are 
+faster, smaller, 
+
+simpler, clearer, 
+
+and produced with 
+less effort.”  Frederick P. 
+Brooks   
+ 
+ 
+ 
+ 
+6  Additional discussion of cohesion can be found in Chapter 12. 
+pre22126_ch07_103-130.indd   119pre22126_ch07_103-130.indd   11913/12/13   6:11 PM13/12/13   6:11 PM

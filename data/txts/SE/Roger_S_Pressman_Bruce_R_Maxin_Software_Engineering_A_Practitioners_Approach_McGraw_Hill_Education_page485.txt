@@ -1,0 +1,141 @@
+CHAPTER 21  
+SOFTWARE QUALITY ASSURANCE
+ 455result. SQA analyzes the allocation of resources for reviews and testing to assess whether they are being allocated in the most effective manner. 
+  
+Figure 21.1  (adapted from [Hya96]) identiﬁ es the attributes that are indicators 
+for the existence of quality for each of the goals discussed. Metrics that can be 
+used to indicate the relative strength of an attribute are also shown.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Goal  
+   
+Attribute  
+   
+Metric   
+ 
+ 
+ 
+ 
+ 
+Requirement quality  
+  Ambiguity    
+Number of ambiguous modifiers (e.g., many, large,
+human-friendly)  
+   
+  Completeness   Number of TBA, TBD   
+ 
+ 
+  Understandability   Number of sections/subsections   
+ 
+ 
+  Volatility 
+  Number of changes per requirement   
+ 
+ 
+   
+   
+Time (by activity) when change is requested 
+ 
+   
+  Traceability 
+   
+Number of requirements not traceable to design/code  
+   
+  Model clarity   Number of UML models   
+ 
+ 
+   
+  Number of descriptive pages per model   
+ 
+ 
+   
+  Number of UML errors   
+ 
+ 
+Design quality  
+  Architectural integrity   Existence of architectural model   
+ 
+ 
+  Component completeness    
+Number of components that trace to architectural model   
+ 
+ 
+   
+  Complexity of procedural design   
+ 
+ 
+  Interface complexity 
+   
+Average number of pick to get to a typical function or content 
+  
+ 
+ 
+   
+  Layout appropriateness   
+ 
+ 
+  Patterns 
+  Number of patterns used 
+  
+ 
+ 
+Code quality  
+  Complexity   Cyclomatic complexity   
+ 
+ 
+  Maintainability   Design factors (Chapter 8)   
+ 
+ 
+  Understandability   Percent internal comments 
+  
+ 
+ 
+   
+  Variable naming conventions 
+  
+ 
+ 
+  Reusability   Percent reused components    
+ 
+  Documentation   Readability index   
+ 
+ 
+QC effectiveness  
+  Resource allocation   Staff hour percentage per activity 
+  
+ 
+ 
+  Completion rate   Actual vs. budgeted completion time   
+ 
+ 
+  Review effectiveness 
+  See review metrics (Chapter 14)   
+ 
+ 
+  Testing effectiveness 
+  Number of errors found and criticality   
+ 
+ 
+   
+  Effort required to correct an error 
+  
+ 
+ 
+   
+  Origin of error  
+ 
+ 
+ 
+   
+ 
+FIGURE 21.1 
+Software quality goals, attributes, and metrics 
+ 
+ 
+ Source: Adapted from [Hya96]. pre22126_ch21_448-465.indd   455pre22126_ch21_448-465.indd   45513/12/13   10:02 PM13/12/13   10:02 PM

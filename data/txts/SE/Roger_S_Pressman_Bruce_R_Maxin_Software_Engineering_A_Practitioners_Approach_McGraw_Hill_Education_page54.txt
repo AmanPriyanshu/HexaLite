@@ -1,0 +1,139 @@
+24 CHAPTER 2  
+SOFTWARE ENGINEERING
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reality: 
+  The book of standards may very well exist, but is it used? Are soft-ware practitioners aware of its existence? Does it reﬂ ect modern 
+software engineering practice? Is it complete? Is it adaptable? Is 
+it streamlined to improve time-to-delivery while still maintaining 
+a focus on quality? In many cases, the answer to all of these ques-
+tions is no.    
+ 
+ 
+ 
+ 
+ 
+Myth: 
+   
+If we get behind schedule, we can add more programmers and 
+catch up (sometimes called the “Mongolian horde” concept).
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Reality: 
+  Software development is not a mechanistic process like man-ufacturing. In the words of Brooks [Bro95]: “adding people to a 
+late software project makes it later.” At ﬁ
+ rst, this statement may 
+seem counterintuitive. However, as new people are added, people 
+
+who were working must spend time educating the newcomers, 
+thereby reducing the amount of time spent on productive devel-
+opment effort. People can be added but only in a planned and 
+well-coordinated manner. 
+   
+ 
+ 
+ 
+ 
+ 
+Myth: 
+   
+If I decide to outsource the software project to a third party, I can 
+just relax and let that ﬁ
+ rm build it.
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Reality: 
+  If an organization does not understand how to manage and control software projects internally, it will invariably struggle when it out-
+
+sources software projects.   
+ 
+ 
+ 
+Customer myths.   
+A customer who requests computer software may be a per-
+son at the next desk, a technical group down the hall, the marketing/sales de-
+partment, or an outside company that has requested software under contract. 
+In many cases, the customer believes myths about software because software 
+managers and practitioners do little to correct misinformation. Myths lead to 
+false expectations (by the customer) and, ultimately, dissatisfaction with the 
+
+developer. 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Myth: 
+   
+A general statement of objectives is sufﬁ cient to begin writing 
+programs—we can ﬁ
+ ll in the details later.
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Reality: 
+  Although a comprehensive and stable statement of requirements is not always possible, an ambiguous “statement of objectives” is a 
+recipe for disaster. Unambiguous requirements (usually derived 
+
+iteratively) are developed only through effective and continuous 
+communication between customer and developer. 
+   
+ 
+ 
+ 
+ 
+ 
+Myth: 
+   
+Software requirements continually change, but change can be eas-
+ily accommodated because software is ﬂ
+ exible.
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Reality: 
+  It is true that software requirements change, but the impact of change varies with the time at which it is introduced. When re-
+quirements changes are requested early (before design or code    Work very hard to 
+understand what you 
+have to do before you 
+start. You may not be 
+
+able to develop every 
+
+detail, but the more 
+you know, the less risk 
+
+you take. pre22126_ch02_014-028.indd   24pre22126_ch02_014-028.indd   2413/12/13   6:10 PM13/12/13   6:10 PM

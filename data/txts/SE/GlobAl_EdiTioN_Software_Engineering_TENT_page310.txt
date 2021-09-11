@@ -1,0 +1,29 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜System reliability is not an absolute valueŠit depends on where and how that 
+system is used. For example, let™s say that you measure the reliability of an applica-tion in an office environment where most users are uninterested in the operation of 
+
+the software. They follow the instructions for its use and do not try to experiment 
+
+with the system. If you then measure the reliability of the same system in a university 
+
+environment, then the reliability may be quite different. Here, students may explore 
+
+the boundaries of the system and use it in unexpected ways. This may result in system 
+
+failures that did not occur in the more constrained office environment. Therefore, the 
+
+perceptions of the system™s reliability in each of these environments are different.The above definition of reliability is based on the idea of failure-free operation, where failures are external events that affect the users of a system. But what consti-
+tutes ﬁfailureﬂ? A technical definition of failure is behavior that does not conform to 
+the system™s specification. However, there are two problems with this definition:1. Software specifications are often incomplete or incorrect, and it is left to soft-ware engineers to interpret how the system should behave. As they are not 
+
+domain experts, they may not implement the behavior that users expect. The 
+
+software may behave as specified, but, for users, it is still failing.2. No one except system developers reads software specification documents. Users 
+may therefore anticipate that the software should behave in one way when the 
+specification says something completely different.Failure is therefore not something that can be objectively defined. Rather, it is a 
+judgment made by users of a system. This is one reason why users do not all have the 
+same impression of a system™s reliability.To understand why reliability is different in different environments, we need to˜think 
+about a system as an input/output mapping. Figure 11.2 shows a software system that 
+IeInput setOeOutput setProgramInputs causing
+erroneous outputsErroneous
+outputsFigure 11.2 A system as˜an input/output mapping 

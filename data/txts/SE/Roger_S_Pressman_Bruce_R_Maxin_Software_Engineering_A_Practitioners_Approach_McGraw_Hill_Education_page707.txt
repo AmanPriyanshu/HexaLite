@@ -1,0 +1,70 @@
+CHAPTER 30  
+PRODUCT METRICS 677 The percentage of overall testing effort to be allocated to a module  k  can be esti-mated using the following relationship:Percentage of testing effort ( k ) 
+5    
+e ( 
+k )
+ ____  Se ( 
+i )
+   (30.7)where  e ( 
+k ) is computed for module  k  using Equations (30.6) and the summation in the denominator of Equation (30.7) is the sum of Halstead effort across all mod-
+ules of the system.     
+30.6.2   Metrics for Object-Oriented Testing 
+ The OO design metrics noted in Section 30.3 provide an indication of design 
+quality. They also provide a general indication of the amount of testing effort 
+
+required to exercise an OO system. Binder [Bin94b] suggests a broad array of 
+design metrics that have a direct inﬂ uence on the “testability” of an OO system. 
+
+The metrics consider aspects of encapsulation and inheritance.   
+Lack of cohesion in methods (LCOM).   
+15    The higher the value of LCOM, 
+the more states must be tested to ensure that methods do not generate 
+side effects.  
+
+  
+Percent public and protected (PAP).     Public attributes are inherited 
+from other classes and therefore are visible to those classes. Protected 
+
+attributes are accessible to methods in subclasses. This metric indicates 
+
+the percentage of class attributes that are public or protected. High 
+
+values for PAP increase the likelihood of side effects among classes 
+
+because public and protected attributes lead to high potential for cou-
+pling.  16  
+ Tests must be designed to ensure that such side effects are 
+uncovered. 
+    
+   Public access to data members (PAD).  
+   This metric indicates the number of classes (or methods) that can access another class’s attributes, a viola-
+
+tion of encapsulation. High values for PAD lead to the potential for side 
+
+effects among classes. Tests must be designed to ensure that such side 
+
+effects are uncovered. 
+  Number of root classes (NOR).  
+   This metric is a count of the distinct class hierarchies that are described in the design model. Test suites for each 
+
+root class and the corresponding class hierarchy must be developed. As 
+NOR increases, testing effort also increases. 
+  Fan-in (FIN).  
+   When used in the OO context, fan-in in the inheritance  hierarchy is an indication of multiple inheritance. FIN 
+. 1 indicates that a class inherits its attributes and operations from more than one root class. 
+FIN . 1 should be avoided when possible.   15  See Section 30.3.3 for a description of LCOM. 
+
+  16 
+ Some people promote designs with none of the attributes being public or private, that is, 
+P
+5   OO testing can be 
+
+quite complex. 
+Metrics can assist you 
+in targeting testing 
+resources at threads, 
+scenarios, and pack-
+ages of classes that 
+are “suspect” based 
+on measured character-
+istics. Use them. 

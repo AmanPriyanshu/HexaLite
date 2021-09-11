@@ -1,0 +1,95 @@
+CHAPTER 32  
+PROCESS AND PROJECT METRICS 715measures derived over a number of projects. Among the measures that can be collected are the following:   
+ 
+ 
+ 
+ 
+ 
+ 
+Number of static Web pages.
+ 
+ These pages represent low relative com-
+plexity and generally require less effort to construct than dynamic pages. 
+This measure provides an indication of the overall size of the application 
+and the effort required to develop it.    
+ 
+ 
+ 
+ 
+ 
+Number of dynamic Web pages.
+ 
+ These pages represent higher relative 
+complexity and require more effort to construct than static pages. This 
+measure provides an indication of the overall size of the application and 
+the effort required to develop it.    
+ 
+ 
+ 
+ 
+ 
+Number of internal page links. 
+ This measure provides an indication of 
+the degree of architectural coupling within the WebApp. As the number of 
+
+page links increases, the effort expended on navigational design and con-
+struction also increases.    
+ 
+ 
+ 
+ 
+ 
+Number of persistent data objects. 
+ As the number of persistent data 
+objects (e.g., a database or data ﬁ le) grows, the complexity of the WebApp 
+also grows and the effort to implement it increases proportionally. 
+   
+ 
+ 
+ 
+ 
+ 
+Number of external systems interfaced. 
+ As the requirement for interfac-
+ing grows, system complexity and development effort also increase.    
+ 
+ 
+ 
+ 
+ 
+Number of static content objects. 
+ These objects represent low relative com-
+plexity and generally require less effort to construct than dynamic pages. 
+   
+ 
+ 
+ 
+ 
+ 
+Number of dynamic content objects. 
+ These objects represent higher rela-
+tive complexity and require more effort to construct than static pages.    
+ 
+ 
+ 
+ 
+Number of executable functions. 
+ As the number of executable functions 
+(e.g., a script or applet) increases, modeling and construction effort also 
+increase.    
+Each of the preceding measures can be determined at a relatively early stage. For example, you can deﬁ ne a metric that reﬂ
+ ects the degree of end-user customi-
+zation that is required for the WebApp and correlate it to the effort expended on 
+
+the project and/or the errors uncovered as reviews and testing are conducted. 
+To accomplish this, you deﬁ
+ ne
+ N sp 5 number of static Web pages
+ N dp  5 number of dynamic Web pages 
+ Then,Customization index,  C 
+ 5    
+N dp _________ (  N dp 1  N sp)  
+  The value of  C 
+ ranges from 0 to 1. As C grows larger, the level of WebApp custom-
+ization becomes a signiﬁ cant technical issue. 
+pre22126_ch32_703-726.indd   715pre22126_ch32_703-726.indd   71513/12/13   6:17 PM13/12/13   6:17 PM

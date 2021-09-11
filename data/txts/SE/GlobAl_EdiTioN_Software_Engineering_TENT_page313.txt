@@ -1,0 +1,39 @@
+˜˜˜˚˛˜˜˜˜˜˜
+Reliability can be specified as a probability that a system failure will occur when a system is in use within a specified operating environment. If you are willing to 
+
+accept, for example, that 1 in any 1000 transactions may fail, then you can specify 
+the failure probability as 0.001. This doesn™t mean that there will be exactly 1 failure 
+in every 1000 transactions. It means that if you observe N thousand transactions, the 
+number of failures that you observe should be about N.Three metrics may be used to specify reliability and availability:1. Probability of failure on demand (POFOD) If you use this metric, you define 
+the probability that a demand for service from a system will result in a system 
+
+failure. So, POFOD = 0.001 means that there is a 1/1000 chance that a failure 
+will occur when a demand is made.2. Rate of occurrence of failures (ROCOF) This metric sets out the probable num-
+ber of system failures that are likely to be observed relative to a certain time 
+
+period (e.g., an hour), or to the number of system executions. In the example 
+
+above, the ROCOF is 1/1000. The reciprocal of ROCOF is the 
+mean time to 
+
+failure (MTTF), which is sometimes used as a reliability metric. MTTF is the 
+average number of time units between observed system failures. A ROCOF of 
+two failures per hour implies that the mean time to failure is 30 minutes.3. Availability (AVAIL) AVAIL is the probability that a system will be operational 
+when a demand is made for service. Therefore, an availability of 0.9999 means 
+that, on average, the system will be available for 99.99% of the operating time. 
+Figure 11.4 shows what different levels of availability mean in practice.POFOD should be used in situations where a failure on demand can lead to a serious 
+system failure. This applies irrespective of the frequency of the demands. For example, 
+
+a protection system that monitors a chemical reactor and shuts down the reaction if it is 
+
+overheating should have its reliability specified using POFOD. Generally, demands on 
+
+a protection system are infrequent as the system is a last line of defense, after all other 
+
+recovery strategies have failed. Therefore a POFOD of 0.001 (1 failure in 1000 demands) 
+AvailabilityExplanation0.9The system is available for 90% of the time. This means 
+that, in a 24-hour period (1440 minutes), the system 
+will be unavailable for 144 minutes.0.99In a 24-hour period, the system is unavailable for 14.4 
+minutes.0.999The system is unavailable for 84 seconds in a 24-hour 
+period.0.9999The system is unavailable for 8.4 seconds in a 24-hour 
+periodŠroughly, one minute per week.Figure 11.4 Availability specification

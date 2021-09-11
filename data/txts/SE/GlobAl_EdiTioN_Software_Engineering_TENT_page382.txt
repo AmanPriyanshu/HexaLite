@@ -1,0 +1,42 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜2. Design risk assessment This risk assessment takes place during the system devel-opment life cycle and is informed by the technical system design and implementa-tion decisions. The results of the assessment may lead to changes to the security 
+
+requirements and the addition of new requirements. Known and potential vulnera-bilities are identified, and this knowledge is used to inform decision making about 
+
+the system functionality and how it is to be implemented, tested, and deployed.3. Operational risk assessment This risk assessment process focuses on the use of 
+the system and the possible risks that can arise. For example, when a system is 
+used in an environment where interruptions are common, a security risk is that a 
+
+logged-in user leaves his or her computer unattended to deal with a problem. To 
+counter this risk, a timeout requirement may be specified so that a user is auto-
+matically logged out after a period of inactivity.Operational risk assessment should continue after a system has been installed to 
+take account of how the system is used and proposals for new and changed require-
+ments. Assumptions about the operating requirement made when the system was 
+
+specified may be incorrect. Organizational changes may mean that the system is 
+
+used in different ways from those originally planned. These changes lead to new 
+
+security requirements that have to be implemented as the system evolves.The specification of security requirements for systems has much in common with 
+
+the specification of safety requirements. You cannot specify safety or security 
+
+requirements as probabilities. Like safety requirements, security requirements are 
+
+often ﬁshall notﬂ requirements that define unacceptable system behavior rather than 
+required system functionality.However, security is a more challenging problem than safety, for a number of 
+reasons:1.
+ When considering safety, you can assume that the environment in which the 
+system is installed is not hostile. No one is trying to cause a safety-related inci-
+dent. When considering security, you have to assume that attacks on the system 
+
+are deliberate and that the attacker may have knowledge of system weaknesses.2. When system failures occur that pose a risk to safety, you look for the errors or 
+omissions that have caused the failure. When deliberate attacks cause system 
+
+failure, finding the root cause may be more difficult as the attacker may try to 
+conceal the cause of the failure.3. It is usually acceptable to shut down a system or to degrade system services to 
+avoid a safety-related failure. However, attacks on a system may be denial-of-
+service attacks, which are intended to compromise system availability. Shutting 
+
+down the system means that the attack has been successful.

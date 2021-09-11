@@ -1,0 +1,65 @@
+778 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+technologies, target environments, and all other entities connected to the proj-ect affect timeliness and overall success? Last, you must grapple with choices—
+what methods and tools should you use, how many people should be involved, 
+how much emphasis on quality is “enough”?  Peter Drucker [Dru75] once said, “While it is futile to try to eliminate risk, and questionable to try to minimize it, it is essential that the risks taken be the right 
+risks.” Before you can identify the “right risks” to be taken during a software 
+project, it is important to identify all risks that are obvious to both managers and 
+practitioners.   
+ 
+ 
+ 
+ 35.1  
+REACTIVE VERSUS PROACTIVE RISK STRATEGIES
+    
+ 
+Reactive 
+ risk strategies have been laughingly called the “Indiana Jones school of 
+risk management” [Tho92]. In the movies that carried his name, Indiana Jones, 
+when faced with overwhelming difﬁ culty, would invariably say, “Don’t worry, I’ll 
+think of something!” Never worrying about problems until they happened, Indy 
+would react in some heroic way. 
+ Sadly, the average software project manager is not Indiana Jones and the 
+members of the software project team are not his trusty sidekicks. Yet, the ma-
+
+jority of software teams rely solely on reactive risk strategies. At best, a reactive 
+strategy monitors the project for likely risks. Resources are set aside to deal 
+with them, should they become actual problems. More commonly, the software 
+
+team does nothing about risks until something goes wrong. Then, the team ﬂ ies 
+into action in an attempt to correct the problem rapidly. This is often called a 
+
+ ﬁ re-ﬁ
+ ghting mode.
+ 
+ When this fails, “crisis management” [Cha92] takes over and 
+the project is in real jeopardy. 
+ A considerably more intelligent strategy for risk management is to be pro-active. A  proactive
+ 
+ strategy begins long before technical work is initiated. Po-
+tential risks are identiﬁ ed, their probability and impact are assessed, and they 
+are ranked by importance. Then, the software team establishes a plan for man-
+aging risk. The primary objective is to avoid risk, but because not all risks can 
+be avoided, the team works to develop a contingency plan that will enable it to 
+respond in a controlled and effective manner. Throughout the remainder of this 
+
+chapter, we discuss a proactive strategy for risk management. 
+  
+ 
+ 
+ 
+ 35.2  
+SOFTWARE
+ RISKS  
+ 
+Although there has been considerable debate about the proper deﬁ nition for 
+software risk, there is general agreement that risk always involves two char-
+
+acteristics:  uncertainty 
+—the risk may or may not happen; that is, there are no  
+ uote:  “If you don’t 
+actively attack 
+the risks, they will 
+actively attack 
+you.”  Tom Gilb 
+pre22126_ch35_777-794.indd   778pre22126_ch35_777-794.indd   77813/12/13   6:17 PM13/12/13   6:17 PM

@@ -1,0 +1,41 @@
+˜˜˚˛˚˝˜˜˜˜˜˜˜
+Real-time
+control system
+Actuator
+Actuator
+Actuator
+Actuator
+SensorSensorSensorSensorSensorSensorStimuliResponsesFigure 21.2 A general model of an embedded real-time system 3. Timing analysis For each stimulus and associated response, you identify the 
+
+timing constraints that apply to both stimulus and response processing. These 
+
+constraints are used to establish the deadlines for the processes in the system.4. Process design Process design involves aggregating the stimulus and response 
+processing into a number of concurrent processes. A good starting point for 
+
+designing the process architecture is the architectural patterns that I describe in 
+Section 20.2. You then optimize the process architecture to reflect the specific 
+
+requirements that you have to implement.5. Algorithm design 
+For each stimulus and response, you design algorithms to 
+carry out the required computations. Algorithm designs may have to be devel-
+oped relatively early in the design process to indicate the amount of processing 
+required and the time needed to complete that processing. This is especially 
+
+important for computationally intensive tasks, such as signal processing.6. Data design 
+You specify the information that is exchanged by processes and the 
+
+events that coordinate information exchange, and design data structures to man-
+age this information exchange. Several concurrent processes may share these 
+
+data structures.7. Process scheduling 
+You design a scheduling system that will ensure that pro
+-
+cesses are started in time to meet their deadlines.The specific activities and the activity sequence in a real-time system design pro
+-cess depend on the type of system being developed, its novelty, and its environment. 
+ Data
+processor
+Actuator
+control
+Actuator
+Sensorcontrol
+SensorStimulusResponseFigure 21.3 Sensor and actuator processes 

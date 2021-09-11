@@ -1,0 +1,80 @@
+ Section 6.7  Firewalls 
+465  Personal Firewalls
+Firewalls typically protect a (sub)network of multiple hosts. University students and 
+employees in offices are behind a real firewall. Increasingly, home users, individual 
+
+workers, and small businesses use cable modems or DSL connections with unlimited, 
+
+always-on access. These people need a firewall, but a separate firewall computer to 
+
+protect a single workstation can seem too complex and expensive. These people need a 
+
+firewall’s capabilities at a lower price.
+A personal firewall is an application program that runs on the workstation it protects. 
+A personal firewall can complement 
+
+the work of a conventional firewall 
+
+by screening the kind of data a single 
+
+host will accept, or it can compen-
+sate for the lack of a regular firewall, 
+
+as in a private DSL or cable modem 
+
+connection.Just as a network firewall screens 
+incoming and outgoing traffic for that network, a personal firewall screens traffic on 
+
+a single workstation. A workstation could be vulnerable to malicious code or mali-
+
+cious active agents (ActiveX controls or Java applets), leakage of personal data stored 
+
+on the workstation, and vulnerability scans to identify potential weaknesses. Com-
+
+mercial implementations of personal firewalls include SaaS Endpoint Protection from 
+
+McAfee, F-Secure Internet Security, Microsoft Windows Firewall, and Zone Alarm 
+
+from CheckPoint.The personal firewall is configured to enforce some policy. For example, the user 
+may decide that certain sites, such as computers on the company network, are highly 
+
+trustworthy, but most other sites are not. Vendors sometimes supply and maintain lists 
+
+of unsafe sites to which their products block access by default. The user defines a policy 
+
+permitting download of code, unrestricted data sharing, and management access from 
+
+the corporate segment but not from other sites. Personal firewalls can also generate 
+
+logs of accesses, which can be useful to examine in case something harmful does slip 
+
+through the firewall.
+Combining a malware scanner with a personal firewall is both effective and effi-
+cient. Typically, users forget to run scanners regularly, but they do remember to run 
+
+them occasionally, such as sometime during the week. However, leaving the scanner 
+
+execution to the user’s memory means that the scanner detects a problem only after 
+
+the fact—such as when a virus has been downloaded in an email attachment. With the 
+
+combination of a virus scanner and a personal firewall, the firewall directs all incoming 
+
+email to the virus scanner, which examines every attachment the moment it reaches the 
+
+target host and before it is opened.
+A personal firewall runs on the very computer it is trying to protect. Thus, a clever 
+attacker is likely to attempt an undetected attack that would disable or reconfigure the 
+
+firewall for the future. As described in Sidebar 6-24, users can defeat the security policy 
+
+of their own firewall. You learned in Chapter 4 that code that hooks into an operating 
+
+system can be a rootkit itself, a potential threat, while on the other hand, such code can A personal firewall is a program that 
+
+runs on a single host to monitor and 
+control traffic to that host. It can only 
+
+work in conjunction with support from 
+
+the operating system.

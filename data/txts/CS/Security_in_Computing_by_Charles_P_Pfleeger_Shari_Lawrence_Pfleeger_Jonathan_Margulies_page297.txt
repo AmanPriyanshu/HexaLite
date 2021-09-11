@@ -1,0 +1,41 @@
+ Section 4.3  Obtaining User or Website Data 
+263  but their browser would execute the malicious script. As described in Sidebar 4-8, one 
+attacker even tried (without success) to use this same approach by hand on paper.
+SQL InjectionCross-site scripting attacks are one example of the category of injection attacks, in 
+which malicious content is inserted into a valid client–server exchange. Another injec-
+
+tion attack, called SQL injection, operates by inserting code into an exchange between 
+a client and database server.
+To understand this attack, you need to know that database management systems 
+(DBMSs) use a language called SQL (which, in this context, stands for structured query 
+language) to represent queries to the DBMS. The queries follow a standard syntax that 
+
+is not too difficult to understand, at least for simple queries. For example, the query
+SELECT * FROM users WHERE name = 'Williams';will return all database records having “Williams” in the name field. 
+Often these queries are composed through a browser and transmitted to the database 
+server supporting the web page. A bank might have an application that allows a user to 
+
+download all transactions involving the user’s account. After the application identifies 
+
+and authenticates the user, it might compose a query for the user on the order of
+QUERY = "SELECT * FROM trans WHERE acct='"  + acctNum + "';"and submit that query to the DBMS. Because the communication is between an appli-
+cation running on a browser and the web server, the query is encoded within a long 
+
+URL stringSIDEBAR 4-8 Scripting Votes
+In Swedish elections anyone can write in any candidate. The Swedish 
+election authority publishes all write-in candidate votes, listing them on a 
+
+web site (http://www.val.se/val/val2010/handskrivna/handskrivna.skv). One 
+
+write-in vote was recorded as the following:
+[Voting location: R;14;Västra Götalands län;80;Göteborg;03;Göteborg, Centrum;  
+0722;Centrum, Övre Johanneberg;] 
+(Script src=http://hittepa.webs.com/x.txt);1This is perhaps the first example of a pen-and-paper script attack. 
+Not only did it fail because the paper ballot was incapable of executing 
+
+code, but without the HTML indicators <script> and </script>, this “code” 
+would not execute even if the underlying web page were displayed by a 
+
+browser. But within a few elections someone may figure out how to encode 
+
+a valid script on a paper ballot, or worse, on an electronic one.

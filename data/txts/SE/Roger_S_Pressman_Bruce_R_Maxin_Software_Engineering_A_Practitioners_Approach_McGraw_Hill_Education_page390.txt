@@ -1,0 +1,259 @@
+360 PART TWO  
+MODELING 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 16.4  
+COMPONENT-LEVEL DESIGN PATTERNS
+  
+ 
+Component-level design patterns provide you with proven solutions that address one or more subproblems extracted from the requirements model. In many 
+cases, design patterns of this type focus on some functional element of a system. 
+For example, the  SafeHomeAssured.com  application must address the following design subproblem:  How do I get product speciﬁ
+ cations and related information 
+for any SafeHome device? 
+  Having enunciated the subproblem that must be solved, you should now con-sider context and the system of forces that affect the solution. Examining the 
+appropriate requirements model use case, you learn that the consumer uses the 
+speciﬁ cation for a  
+SafeHome 
+ device (e.g., a security sensor or camera) for infor-
+mational purposes. However, other information that is related to the speciﬁ
+ ca-
+tion (e.g., pricing) may be used when e-commerce functionality is selected.  The solution to the subproblem involves a search. Since searching is a very com-mon problem, it should come as no surprise that there are many search-related   
+Design Pattern Repositories 
+ 
+There are many sources for design patterns 
+available on the Web. Some patterns can be 
+obtained from individually published pattern languages, 
+
+while others are available as part of a patterns portal 
+
+or patterns repository. The following Web sources are 
+
+worth a look: 
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+Hillside.net  
+   
+http://hillside.net/patterns/ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+One of the Web’s most comprehensive collections of patterns 
+
+and pattern languages 
+   
+ 
+ 
+ 
+ 
+ 
+Portland Pattern Repository 
+   
+http://c2.com/ppr/index.html 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+Contains pointers to a wide variety of patterns resources and 
+
+collections    
+ 
+ 
+ 
+ 
+ 
+Pattern Index
+ 
+ 
+   
+http://c2.com/cgi/wiki?PatternIndex 
+ 
+   
+ 
+ 
+ 
+ 
+An “eclectic collection of patterns” 
+   
+ 
+ 
+ 
+ 
+ 
+Handbook of Software Architecture    
+http://researcher.watson.ibm.com/
+researcher/view_project.php?id=3206/
+ 
+ 
+   
+ 
+ 
+ 
+ 
+Bibliographic reference to hundreds of architectural and component design patterns 
+  
+ 
+ 
+ 
+UI Patterns Collections  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+UI/HCI Patterns 
+   
+http://www.hcipatterns.org/patterns/
+borchers/patternIndex.html 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Jennifer Tidwell’s UI patterns 
+   
+http://designinginterfaces.com/patterns/
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Mobile UI Design Patterns 
+   
+http://profs.info.uaic.ro/~evalica/patterns/
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Pattern Language for UI Design 
+   
+www.mapleﬁ
+ sh.com/todd/papers/Experiences.html 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Interaction Design Library for Games 
+   
+http://www.eelke.com/ﬁ
+ les/pubs/usabilitypatternsingames.pdf 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+UI Design Patterns 
+   
+www.cs.helsinki.ﬁ
+ /u/salaakso/patterns/ 
+ 
+  
+ 
+ 
+ 
+Specialized Design Patterns:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Aircraft Avionics 
+   
+http://g.oswego.edu/dl/acs/acs/acs.html 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Business Information Systems 
+   
+www.objectarchitects.de/arcus/cookbook/
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Distributed Processing    
+www.cs.wustl.edu/~schmidt/
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+IBM Patterns for e-Business 
+   
+www-128.ibm.com/developerworks/patterns/
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Yahoo! Design Pattern Library 
+   
+http://developer.yahoo.com/ypatterns/
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+WebPatterns.org 
+   
+http://www.welie.com/index.php
+ 
+ 
+ 
+ 
+  
+INFO pre22126_ch16_347-370.indd   360pre22126_ch16_347-370.indd   36016/12/13   6:22 PM16/12/13   6:22 PM

@@ -1,0 +1,73 @@
+CHAPTER 20  
+REVIEW TECHNIQUES 435 
+To conduct reviews, you must expend time and effort, and your development 
+organization must spend money. However, the results of the preceding example 
+
+leave little doubt that you can pay now or pay much more later. 
+  
+ 
+ 
+ 
+ 
+ 20.3 R
+EVIEW METRICS AND THEIR USE  
+ 
+Technical reviews are one of many actions that are required as part of good soft-
+ware engineering practice. Each action requires dedicated human effort. Since 
+available project effort is ﬁ nite, it is important for a software engineering organi-
+zation to understand the effectiveness of each action by deﬁ ning a set of metrics 
+(Chapter 30) that can be used to assess their efﬁ cacy. 
+ Although many metrics can be deﬁ ned for technical reviews, a relatively small 
+subset can provide useful insight. The following review metrics can be collected 
+for each review that is conducted:  
+ 
+ 
+•   
+Preparation effort, E
+p 
+—the effort (in person-hours) required to review a work product prior to the actual review meeting   
+ 
+ 
+•   
+Assessment effort, Ea 
+— the effort (in person-hours) that is expended during the actual review   
+ 
+ 
+•   
+Rework effort, Er 
+— the effort (in person-hours) that is dedicated to the correction of those errors uncovered during the review   
+ 
+ 
+•   
+Work product size, WPS
+ 
+—a measure of the size of the work product that has been reviewed (e.g., the number of UML models, or the number of 
+document pages, or the number of lines of code)   
+ 
+ 
+•   
+Minor errors found, Err
+minor 
+—the number of errors found that can be cate-gorized as minor (requiring less than some prespeciﬁ ed effort to correct) 
+  
+ 
+ 
+•   
+Major errors found, Err
+major 
+—the number of errors found that can be cate-gorized as major (requiring more than some prespeciﬁ ed effort to correct) 
+ 
+ 
+  These metrics can be further reﬁ ned by associating the type of work product that 
+was reviewed for the metrics collected.   
+ 
+20.3.1   Analyzing Metrics 
+ 
+Before analysis can begin, a few simple computations must occur. The total re-
+view effort and the total number of errors discovered are deﬁ ned as:
+ E review 5  Ep 
+ 1  Ea 
+ 1  Er Errtot 5 Errminor 1 Errmajor   
+Error density
+ 
+ represents the errors found per unit of work product reviewed.  Error density 5   Errtot ______ WPS   pre22126_ch20_431-447.indd   435pre22126_ch20_431-447.indd   43513/12/13   10:01 PM13/12/13   10:01 PM

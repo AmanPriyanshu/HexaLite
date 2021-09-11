@@ -1,0 +1,42 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜respond very quickly to external events. The wilderness weather station software is also 
+an embedded system, but, again, it does not require a fast response to external events.As well as the need for real-time response, there are other important differences between embedded systems and other types of software system:1. Embedded systems generally run continuously and do not terminate. They start when the hardware is switched on, and execute until the hardware is switched 
+off. Techniques for reliable software engineering, as discussed in Chapter 11, 
+may therefore have to be used to ensure continuous operation. The real-time 
+
+system may include update mechanisms that support dynamic reconfiguration 
+so that the system can be updated while it is in service.2. Interactions with the system™s environment are unpredictable. In interactive sys-
+tems, the pace of the interaction is controlled by the system. By limiting user 
+options, the events and commands to be processed are known in advance. By 
+contrast, real-time embedded systems must be able to respond to expected and 
+unexpected events at any time. This leads to a design for real-time systems 
+
+based on concurrency, with several processes executing in parallel.3.
+ Physical limitations may affect the design of a system. Examples of limitations 
+
+include restrictions on the power available to the system and the physical space 
+
+taken up by the hardware. These limitations may generate requirements for the 
+
+embedded software, such as the need to conserve power and so prolong battery life. 
+
+Size and weight limitations may mean that the software has to take over some hard-
+ware functions because of the need to limit the number of chips used in the system.4. Direct hardware interaction may be necessary. In interactive systems and infor-
+mation systems, a layer of software (the device drivers) hides the hardware from 
+the operating system. This is possible because you can only connect a few types 
+of device to these systems, such as keyboards, mice, and displays. By contrast, 
+embedded systems may have to interact with a wide range of hardware devices 
+that do not have separate device drivers.5. Issues of safety and reliability may dominate the system design. Many embed-
+ded systems control devices whose failure may have high human or economic 
+
+costs. Therefore, dependability is critical, and the system design has to ensure 
+safety-critical behavior at all times. This often leads to a conservative approach 
+to design where tried and tested techniques are used instead of newer techniques 
+that may introduce new failure modes.Real-time embedded systems can be thought of as reactive systems; that is, they must react to events in their environment (Berry 1989; Lee 2002). Response times 
+are often governed by the laws of physics rather than chosen for human conveni-
+ence. This is in contrast to other types of software where the system controls the 
+
+speed of the interaction. For example, the word processor that I am using to write 
+this book
+ can check spelling and grammar, and there are no practical limits on the 
+time taken to do so.

@@ -1,0 +1,37 @@
+341In this chapter:Vulnerabilities
+• Threats in networks: wiretapping, modification, 
+addressing• Wireless networks: interception, association, WEP, WPA
+
+• Denial of service and distributed denial of service
+Protections• Cryptography for networks: SSL, IPsec, virtual private 
+networks• Firewalls
+• Intrusion detection and protection systems
+
+• Managing network security, security information, and 
+event managementAs we all know, much of computing today involves interacting remotely with 
+
+people, computers, processes, and even wrongdoers. You could hide in your 
+
+room and never pass anything to or receive anything from outside, but that 
+would severely limit what you could do. Thus, some degree of external connectivity is 
+
+almost inevitable for most computer users, and so the question becomes how to do that 
+
+with reasonable security.
+But as soon as you decide to connect to points outside your security perimeter, that 
+connection leaves your zone of protection, and you are at risk that others will read, 
+
+modify, and even obliterate your communication. In this chapter we consider security 
+
+in remote networks. In Chapter 4 we examined the impact of a network on a local user, 
+
+focusing extensively on the browser, the most obvious connection between a user and a 
+
+network. Running on users’ machines, browsers are under the user’s control, although 
+
+we explored numerous situations in which the browser seems to be acting against, not 
+
+for, the user. But in this chapter we move to remote networks, where the user has little 
+
+if any expectation of control, and thus the security risks are great.
+6Networks

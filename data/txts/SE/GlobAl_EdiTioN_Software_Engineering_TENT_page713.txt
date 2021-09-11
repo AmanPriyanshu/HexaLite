@@ -1,0 +1,52 @@
+˜˜˚˛˙˜˜˜˜˜˜˜
+because of work schedules or the fact that people work in different time zones. The review chair is responsible for coordinating comments and for discussing changes 
+
+individually with the review team members.˘˘Program inspections are peer reviews where team members collaborate to find bugs 
+in the program that is being developed. As I discussed in Chapter 8, inspections may 
+
+be part of the software verification and validation processes. They complement test-
+ing as they do not require the program to be executed. Incomplete versions of the 
+system can be verified, and representations such as UML models can be checked. 
+
+Program tests may be reviewed. Test reviews often find problems with tests and so 
+improve their effectiveness in detecting program bugs.Program inspections involve team members from different backgrounds who 
+make a careful, line-by-line review of the program source code. They look for 
+
+defects and problems and describe them at an inspection meeting. Defects may be 
+
+logical errors, anomalies in the code that might indicate an erroneous condition or 
+
+features that have been omitted from the code. The review team examines the 
+
+design models or the program code in detail and highlights anomalies and problems 
+
+for repair.During an inspection, a checklist of common programming errors is often used to focus the search for bugs. This checklist may be based on examples from books or 
+from knowledge of defects that are common in a particular application domain. You 
+use different checklists for different programming languages because each language 
+has its own characteristic errors. Humphrey (Humphrey, 1989), in a comprehensive 
+discussion of inspections, gives a number of examples of inspection checklists.Possible checks that might be made during the inspection process are shown in Figure 24.
+8. Organizations should develop their own inspection checklists based on 
+local standards and practices. These checklists should be regularly updated, as new 
+
+types of defects are found. The items in the checklist vary according to programming 
+
+language because of the different levels of checking that are possible at compile-
+
+time. For example, a Java compiler checks that functions have the correct number of 
+parameters; a C compiler does not.Companies that use inspections have found that they are effective in finding bugs. In 
+early work, Fagan (Fagan 1986) reported that more than 60% of the errors in a program 
+
+were detected using informal program inspections. McConnell (McConnell 2004) 
+
+compares unit testing, where the defect detection rate is about 25%, with inspections, 
+
+where the defect detection rate was 60%. These comparisons were made before wide-
+spread automated testing. We don™t know how inspections compare to this approach.In spite of their well-publicized cost-effectiveness, many software development com-panies are reluctant to use inspections or peer reviews. Software engineers with experi
+-
+ence in program testing are sometimes unwilling to accept the fact that inspections can 
+
+be more effective for defect detection than testing. Managers may be suspicious because 
+
+inspections require additional costs during design and development. They may not want 
+
+to take the risk that there will be no corresponding savings in program testing costs.

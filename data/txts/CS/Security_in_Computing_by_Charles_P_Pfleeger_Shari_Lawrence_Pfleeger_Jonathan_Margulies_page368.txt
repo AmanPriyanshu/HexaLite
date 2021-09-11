@@ -1,0 +1,68 @@
+334 Chapter 5  
+Operating SystemsRootkit Operates UncheckedIn Chapter 3 we introduced the concept of malicious code, such as a virus or Trojan 
+horse that is propagated from system to system and that operates under the authority of 
+the current user. As we said in that chapter, one objective of malicious code authors is to 
+
+escalate privilege, that is, to run with the greater privileges of an administrator or more 
+
+powerful user; obviously, the more privileges code has, the more harm it can cause. 
+
+The ultimate privilege level is the operating system, so to replace some or all operating 
+
+system functions amounts to achieving the highest power.
+Because they want to remain undiscovered, rootkits can be difficult to detect and 
+eradicate, or even to count. By one estimate, rootkits comprise 7 percent of all mali-
+
+cious code [TRE10]. As Sidebar 5-7 describes, rootkits can also interfere with computer 
+
+maintenance because their functionality can become intertwined with other operating 
+system functions being modified.
+SIDEBAR 5-7 Rootkit Kills Kernel Modification
+In February 2010, Microsoft issued its usual monthly set of operating sys-
+tem updates, including one patch called MS10-015, rated “important.” The 
+
+patch was to fix one previously publicized vulnerability and one unpubli-
+
+cized one. Microsoft advises users to install patches as soon as possible.
+Unfortunately, this patch apparently interfered with the operation of a 
+malicious rootkit in a rather dramatic way. After releasing the patch, Micro-
+
+soft was inundated with complaints from users who installed the patch and 
+
+suddenly found that their computers went into an unending loop of reboot-
+
+ing. Microsoft issued this advice: “After you install this update on a 32-bit 
+
+version of Microsoft Windows, you may receive a Stop error message on a 
+
+blue screen that causes the computer to restart repeatedly. This problem 
+
+may be caused by a conflict between the security update and malware 
+
+that is resident on the system. This problem is not a quality issue with the 
+
+security update, and the issue is not specific to any OEM.” [MIC10] Any-
+
+one whose machine was already stuck continually rebooting could not, of 
+
+course, read the message Microsoft posted.
+Apparently on system startup the TDL-3 or Alureon rootkit built a 
+table, using the fixed addresses of specific Windows kernel functions. 
+
+In the Microsoft patch, these addresses were changed, so when TDL-3 
+
+received control and tried to invoke a (real) kernel function, it transferred 
+
+to the wrong address and the system shut down with what is known as the 
+
+“blue screen of death” (the monitor displays a text error message against a 
+
+blue background and reboots).
+It is impossible to know the prevalence of Alureon or any rootkit in the 
+computer population at large. Microsoft receives reports of the infections 
+
+its Malicious Software Removal Tool removes from users’ machines. During 
+
+April 2010, the tool removed 262,969 instances of one Alureon variant, so 
+
+the interaction with MS10-015 was likely to be serious.

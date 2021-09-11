@@ -1,0 +1,34 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜compromise the system™s availability. If a system is infected with a virus, you cannot 
+then be confident in its reliability or safety because the virus may change its behavior.To develop dependable software, you therefore need to ensure that:1. You avoid the introduction of accidental errors into the system during software 
+specification and development.2. You design verification and validation processes that are effective in discover-
+ing residual errors that affect the dependability of the system.3. You design the system to be fault tolerant so that it can continue working when 
+things go wrong.4. You design protection mechanisms that guard against external attacks that can 
+compromise the availability or security of the system.5. You configure the deployed system and its supporting software correctly for its 
+operating environment.6. You include system capabilities to recognize external cyberattacks and to resist 
+these attacks.7. You design systems so that they can quickly recover from system failures and 
+cyberattacks without the loss of critical data.The need for fault tolerance means that dependable systems have to include 
+redundant code to help them monitor themselves, detect erroneous states, and 
+
+recover from faults before failures occur. This affects the performance of systems, as 
+
+additional checking is required each time the system executes. Therefore, designers 
+usually have to trade off performance and dependability. You may need to leave 
+
+checks out of the system because these slow the system down. However, the conse-
+quential risk here is that the system fails because a fault has not been detected.Building dependable systems is expensive. Increasing the dependability of a 
+ system means that you incur extra costs for system design, implementation, and val-
+idation. Verification and validation costs are particularly high for systems that must 
+
+be ultra-dependable such as safety-critical control systems. As well as validating that 
+the system meets its requirements, the validation process may have to prove to an 
+external regulator that the system is safe. For example, aircraft systems have to dem-
+onstrate to regulators, such as the Federal Aviation Authority, that the probability of 
+a catastrophic system failure that affects aircraft safety is extremely low.Figure 10.
+2 shows the relationship between costs and incremental improvements in dependability. If your software is not very dependable, you can get significant 
+
+improvements fairly cheaply by using better software engineering. However, if you 
+are already using good practice, the costs of improvement are much greater, and the 
+benefits from that improvement are less.There is also the problem of testing software to demonstrate that it is dependable. Solving this problem relies on running many tests and looking at the number of fail-
+ures that occur. As your software becomes more dependable, you see fewer and 

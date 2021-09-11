@@ -1,0 +1,40 @@
+ Section 7.4  Database Disclosure 
+521  From these queries you conclude there is a 25 percent likelihood that the president 
+is a registered Tory.
+Direct Inference
+Inference
+ is a way to infer or derive sensitive data from nonsensitive data. The infer-
+ence problem is a subtle vulnerability in database security.
+The database in Table 7-7 illustrates the inference problem; this database has the same 
+form as the one introduced in Table 7-6, but we have added more data to make some 
+
+points related to multiple data items. Recall that AID is the amount of financial aid a stu-
+
+dent is receiving. FINES is the amount of parking fines still owed. DRUGS is the result 
+
+of a drug-use survey: 0 means never used and 3 means frequent user. Obviously this 
+
+information should be kept confidential. We assume that AID, FINES, and DRUGS are 
+
+sensitive fields, although only when the values are related to a specific individual. In this 
+
+section, we look at ways to determine sensitive data values from the database.
+Direct Attack In a direct attack
+, a user tries to determine values of sensitive fields by seeking them 
+directly with queries that yield few records. The most successful technique is to form a 
+
+query so specific that it matches exactly one data item.
+In Table 7-7, a sensitive query might be
+List NAME where       SEX=M ^ DRUGS=1TABLE 7-7 
+Database to Illustrate InferencesNameSexRaceAidFinesDrugsDorm
+AdamsMC500045.1Holmes
+BaileyMB00.0Grey
+ChinFA300020.0West
+DewittMB100035.3Grey
+EarhartFC200095.1Holmes
+FeinFC100015.0West
+GroffMC40000.3West
+HillFB500010.2Holmes
+KochFC00.1West
+LiuFA010.2Grey
+MajorsMC20000.2Grey

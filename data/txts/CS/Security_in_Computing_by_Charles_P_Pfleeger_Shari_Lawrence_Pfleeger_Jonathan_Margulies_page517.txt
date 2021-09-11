@@ -1,0 +1,54 @@
+ Section 6.8  Intrusion Detection and Prevention Systems 
+483  program. Everything already said of intrusion detection systems is also true of intrusion 
+prevention systems. In the next section we consider some of the actions IPSs can take 
+
+after having detected a probable attack.
+Intrusion ResponseIntrusion detection is probabilistic. Even in the face of a clear pattern, such as an enor-
+
+mous number of ping packets, perhaps thousands of people just happened to want to 
+
+test whether a server was alive at the same time, although that possibility is highly 
+
+unlikely. In taking action, especially if a tool causes the action automatically, a network 
+
+administrator has to weigh the consequences of action against the possibility that there 
+is no attack.Responding to AlarmsWhatever the type, an intrusion detection system raises an alarm when it finds a match. 
+The alarm can range from something modest, such as writing a note in an audit log, 
+
+to something significant, such as paging the system security administrator. Particular 
+
+implementations allow the user to determine what action the system should take on 
+
+what events.
+What are possible responses? The range is unlimited and can be anything the admin-
+istrator can imagine (and program). In general, responses fall into three major catego-
+
+ries (any or all of which can be used in a single response):
+• Monitor, collect data, perhaps increase amount of data collected.
+• Protect, act to reduce exposure.
+
+• Signal an alert to other protection components.
+
+• Call a human.
+Monitoring is appropriate for an attack of modest (initial) impact. Perhaps the real goal is to watch the intruder to see what resources are being accessed or what attempted 
+
+attacks are tried. Another monitoring possibility is to record all traffic from a given 
+
+source for future analysis. This approach should be invisible to the attacker. Protect-
+
+ing can mean increasing access controls and even making a resource unavailable (for 
+
+example, shutting off a network connection or making a file unavailable). The system 
+
+can even sever the network connection the attacker is using. In contrast to monitoring, 
+
+protecting may be very visible to the attacker. Finally, calling a human allows individ-
+
+ual discrimination. The IDS can take an initial, perhaps overly strong, defensive action 
+
+immediately while also generating an alert to a human, who may take seconds, minutes, 
+
+or longer to respond but then applies a more detailed and specific counteraction.
+AlarmThe simplest and safest action for an IDS is simply to generate an alarm to an adminis-trator who will then determine the next steps. Humans are most appropriate to judge the 
+
+severity of a situation and choose among countermeasures. Furthermore, humans can 

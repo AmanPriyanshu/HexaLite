@@ -1,0 +1,111 @@
+716 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+Similar WebApp metrics can be computed and correlated with project mea-
+sures such as effort expended, errors and defects uncovered, and models or doc-
+umentation pages produced. As the database grows (after a number of projects 
+have been completed), relationships between the WebApp measures and project 
+
+measures will provide indicators that can aid in project estimation.  
+ 
+ 
+  
+ 
+Project and Process Metrics 
+ 
+ 
+Objective:  To assist in the deﬁ
+ nition, 
+collection, evaluation, and reporting of 
+software measures and metrics.   
+Mechanics:  Each tool varies in its application, but all provide mechanisms for collecting and evaluating data 
+that lead to the computation of software metrics.   
+Representative Tools:   
+7 
+ 
+ 
+ 
+ 
+  
+ 
+Function Point WORKBENCH, 
+ developed by Charismatek (  
+www.charismatek.com.au 
+ 
+), offers a wide array of FP-oriented metrics. 
+ DataDrill, 
+ developed by Distributive Software (  
+www.distributive.com 
+ 
+), supports automating 
+data collection, analysis, chart formatting, report 
+
+generation, and other measurement tasks.   
+PSM Insight, 
+ developed by Practical Software and Systems Measurement (  
+www.psmsc.com 
+ 
+), assists in the creation and subsequent analysis of a project 
+measurement database.   
+SLIM tool set, 
+ developed by QSM (  
+www.qsm.com 
+ 
+), provides a comprehensive set of metrics and 
+estimation tools.   
+SPR tool set, 
+ developed by Software Productivity Research (  
+www.spr.com 
+ 
+), offers a comprehensive collection of FP-oriented tools.   
+TychoMetrics,
+ 
+ developed by Predicate Logic (  
+www.predicate.com 
+ 
+), is a tool suite for management metrics collection and reporting. 
+  SOFTWARE
+ TOOLS  
+ 
+7   Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+  
+ 
+ 
+ 
+ 
+ 
+ 32.3  
+METRICS FOR SOFTWARE
+ QUALITY  
+ 
+ 
+ 
+ 
+ 
+ 
+The quality of a system, application, or product is only as good as the require-ments that describe the problem, the design that models the solution, the code 
+that leads to an executable program, and the tests that exercise the software to 
+uncover errors. You can use measurement to assess the quality of the require-
+
+ments and design models, the source code, and the test cases that have been 
+created as the software is engineered. To accomplish this real-time assessment, 
+
+you apply product metrics (Chapter 30) to evaluate the quality of software engi-
+neering work products in objective, rather than subjective ways.  A project manager must also evaluate quality as the project progresses. Pri-vate metrics collected by individual software engineers are combined to provide 
+project-level results. Although many quality measures can be collected, the pri-
+mary thrust at the project level is to measure errors and defects. Metrics derived 
+from these measures provide an indication of the effectiveness of individual and 
+group software quality assurance and control activities.    Software is a complex 
+entity. Therefore, errors 
+
+are to be expected 
+as work products are 
+developed. Process 
+metrics are intended to 
+improve the software 
+process so that errors 
+
+are uncovered in the 
+most effective manner. 
+pre22126_ch32_703-726.indd   716pre22126_ch32_703-726.indd   71613/12/13   6:17 PM13/12/13   6:17 PM

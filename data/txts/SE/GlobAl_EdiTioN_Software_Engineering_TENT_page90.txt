@@ -1,0 +1,44 @@
+˘˘
+˜˚˛˝˙ˆˇ˘˜˘˜˘As I explain in Chapter 9, a  huge amount of software engineering effort goes into the 
+maintenance and evolution of existing software systems. Agile practices, such as incre-mental delivery, design for change, and maintaining simplicity all make sense when soft
+-
+ware is being changed. In fact, you can think of an agile development process as a process 
+
+that supports continual change. If agile methods are used for software product develop-
+ment, new releases of the product or app simply involve continuing the agile approach.However, where maintenance involves a custom system that must be changed in response to new business requirements, there is no clear consensus on the suitability 
+
+of agile methods for software maintenance (Bird 2011; Kilner 2012). Three types of 
+problems can arise:˜ lack of product documentation˜ keeping customers involved˜ development team continuityFormal documentation is supposed to describe the system and so make it easier for people changing the system to understand. In practice, however, formal docu-mentation is rarely updated and so does not accurately reflect the program code. For 
+
+this reason, agile methods enthusiasts argue that it is a waste of time to write this 
+documentation and that the key to implementing maintainable software is to produce 
+
+high-quality, readable code. The lack of documentation should not be a problem in 
+maintaining systems developed using an agile approach.However, my experience of system maintenance is that the most important docu
+-ment is the system requirements document, which tells the software engineer what the 
+
+system is supposed to do. Without such knowledge, it is difficult to assess the impact of 
+
+proposed system changes. Many agile methods collect requirements informally and 
+
+incrementally and do not create a coherent requirements document. The use of agile 
+
+methods may therefore make subsequent system maintenance more difficult and expen-
+sive. This is a particular problem if development team continuity cannot be maintained.A key challenge in using an agile approach to maintenance is keeping customers 
+involved in the process. While a customer may be able to justify the full-time involve-
+ment of a representative during system development, this is less likely during mainte-
+nance where changes are not continuous. Customer representatives are likely to lose 
+
+interest in the system. Therefore, it is likely that alternative mechanisms, such as change 
+
+proposals, discussed in Chapter 25, will have to be adapted to fit in with an agile approach.Another potential problem that may arise is maintaining continuity of the devel-opment team. Agile methods rely on team members understanding aspects of the 
+
+system without having to consult documentation. If an agile development team is 
+
+broken up, then this implicit knowledge is lost and it is difficult for new team mem-
+bers to build up the same understanding of the system and its components. Many 
+
+programmers prefer to work on new development to software maintenance, and so 
+they are unwilling to continue to work on a software system after the first release has 
+been delivered. Therefore, even when the intention is to keep the development team 
+together, people leave if they are assigned maintenance tasks.

@@ -1,0 +1,135 @@
+CHAPTER 26  
+TESTING MOBILEAPPS 575the user interface portion of the MobileApp. There is more to building a good MobileApp user interface than simply shrinking the size of a user interface from 
+an existing personal computer application.  
+ 
+ 
+  
+ 
+ 
+MobileApp Usability Testing Components 
+  
+A number of recommendations for key com-ponents MobileApp usability testing have been presented in the MobileApp Testing Blog. 
+ 3 
+ 
+ 
+  
+ 
+ 
+ 
+•   
+Functionality 
+—Ensure that core functionality is supported by the user stories and takes stakeholder 
+
+goals and expectations into account.   
+ 
+ 
+•   
+Information architecture 
+.—Make sure that content and links have been structured and 
+presented in a logical manner, taking chunking 
+ 4 
+ 
+ and perspectives into account.   
+ 
+ 
+•   
+Content 
+—Use text, video, images, and multimedia only when it supports the user task in a mobile 
+
+context, give user control over whether to start media 
+
+or not, make sure the content is presented in mobile 
+device format. 
+  
+ 
+ 
+•   
+Design 
+—Design for quick visual scanning of screen, consider both portrait and landscape display 
+
+orientations, rethink the screen layout, do not just 
+shrink it.   
+ 
+ 
+•   
+User input 
+—Make it easy for users to enter data, offer auto completion and spell checking, display default values, offer alternate input mechanisms 
+based on individual device capabilities.   
+ 
+ 
+•   
+Mobile context 
+—Account for changes in context (time of day, location, networks) and use device 
+
+features and capabilities to anticipate and support 
+
+the user’s context of use. 
+  
+ 
+ 
+•   
+Usability 
+—Ensure that interaction devices (touch 
+screens, keyboards, audio) and widgets (buttons, links, 
+
+scrollbar) work well together on all targeted devices, 
+
+follow conventions, and reduce the learning curve. 
+  
+ 
+ 
+•   
+Trustworthiness
+ 
+—Be sensitive to privacy and security, do not collect personal information without 
+
+explicit user permission, allow user to control how 
+
+personal info is shared and state your business 
+practices.   
+ 
+ 
+•   
+Feedback 
+—Get important information to your 
+users, minimize number of alerts, make alerts brief 
+
+and informative, provide conﬁ
+ rmation of user actions 
+without disrupting user’s workﬂ
+ ow. 
+  
+ 
+ 
+•   
+Help 
+—Make it easy for users to access help and support options, offer contextual help. 
+  
+  
+INFO  
+ 
+3  The blog can be found at  
+http://www.mobileapptesting.com/10-key-components-of-successful-
+mobile-app-usability/2012/09/ 
+   
+ 
+ 
+ 
+ 
+4   Chunking 
+ is the practice of breaking up hypermedia documents into smaller groupings of re-
+lated information to allow faster assimilation by the reader. 
+   
+ 
+26.3.1   
+Gesture Testing  
+Touch screens are very popular on mobile devices and, as a consequence, de-
+velopers have added multitouch gestures (e.g., swiping, zooming, scrolling, se-
+lection) as a means augmenting the user interaction possibilities without losing 
+screen real estate. Unfortunately, gesture-intensive interfaces present a number 
+
+of testing challenges.  It is difﬁ cult to use automated tools to test touch or gesture interface actions. 
+Gestures are hard to log accurately for replay. The location of screen objects is 
+
+affected by screen size and resolution, as well as previous user actions. Paper 
+prototypes, sometimes developed as part of design, cannot be used to adequately pre22126_ch26_567-583.indd   575pre22126_ch26_567-583.indd   57513/12/13   6:15 PM13/12/13   6:15 PM

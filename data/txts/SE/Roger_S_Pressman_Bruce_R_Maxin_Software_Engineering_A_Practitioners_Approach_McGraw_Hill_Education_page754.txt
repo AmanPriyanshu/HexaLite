@@ -1,0 +1,47 @@
+724 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+The SEI [Par96b] provides detailed guidance for steps 6 through 10 of its goal-driven measurement approach. In essence, you reﬁ ne measurement goals into 
+questions that are further reﬁ ned into entities and attributes that are then re-
+ﬁ ned into metrics. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 32.7 S
+UMMARY  
+Measurement enables managers and practitioners to improve the software pro-cess; assist in the planning, tracking, and control of software projects; and assess 
+the quality of the product (software) that is produced. Measures of speciﬁ c attri-
+butes of the process, project, and product are used to compute software metrics. 
+These metrics can be analyzed to provide indicators that guide management and 
+technical actions.  Process metrics enable an organization to take a strategic view by provid-ing insight into the effectiveness of a software process. Project metrics are tac-
+tical. They enable a project manager to adapt project work ﬂ ow and technical 
+approach in a real-time manner. 
+ Both size- and function-oriented metrics are used throughout the industry. 
+Size-oriented metrics use the line of code as a normalizing factor for other 
+measures such as person-months or defects. The function point is derived from 
+measures of the information domain and a subjective assessment of problem 
+complexity. In addition, object-oriented metrics and Web application metrics can 
+
+be used.  Software quality metrics, like productivity metrics, focus on the process, the project, and the product. By developing and analyzing a metrics baseline for 
+quality, an organization can correct those areas of the software process that are 
+
+the cause of software defects.  Measurement results in cultural change. Data collection, metrics computa-tion, and metrics analysis are the three steps that must be implemented to begin 
+a metrics program. In general, a goal-driven approach helps an organization 
+focus on the right metrics for its business. By creating a metrics baseline—a da-
+tabase containing process and product measurements—software engineers and 
+their managers can gain better insight into the work that they do and the product 
+that they produce.   
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+32.1.  Describe the difference between process and project metrics in your own words.    
+ 
+32.2.  Why should some software metrics be kept “private”? Provide examples of three met-rics that should be private. Provide examples of three metrics that should be public.    
+ 
+32.3.  What is an indirect measure, and why are such measures common in software metrics work?  pre22126_ch32_703-726.indd   724pre22126_ch32_703-726.indd   72413/12/13   6:17 PM13/12/13   6:17 PM

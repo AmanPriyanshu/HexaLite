@@ -1,0 +1,32 @@
+˜˚˛˝ˆ˜˜˜˜˜˜˜˜˜˜
+
+As I explained in the introduction to this 
+chapter, designers of distributed systems 
+have to organize their system designs to find a balance between performance, depend-
+ability, security, and manageability of the system. Because no universal model of 
+
+system organization is appropriate for all circumstances, various distributed architec
+-
+tural styles have emerged. When designing a distributed application, you should 
+
+choose an architectural style that supports the critical non-functional requirements of 
+
+your system.In this section, I discuss five architectural styles:1. Master-slave architecture, which is used in real-time systems in which guaran-
+teed interaction response times are required.2. Two-tier clientŒserver architecture, which is used for simple clientŒserver systems 
+
+and in situations where it is important to centralize the system for security reasons.3. Multi-tier clientŒserver architecture, which is used when the server has to pro-
+cess a high volume of transactions.4. Distributed component architecture, which is used when resources from differ-
+ent systems and databases need to be combined, or as an implementation model 
+for multi-tier clientŒserver systems.5. Peer-to-peer architecture, which is used when clients exchange locally stored 
+
+information and the role of the server is to introduce clients to each other. It 
+
+may also be used when a large number of independent computations may have 
+
+to be made.MasterŒslave architectures for distributed systems are commonly used in real-
+time systems. In those systems, there may be separate processors associated with 
+
+data acquisition from the system™s environment, data processing and 
+ computation, 
+Presentation Application processing Data handlingDatabase Figure 17.6 Layered architectural model for 
+clientŒserver application 

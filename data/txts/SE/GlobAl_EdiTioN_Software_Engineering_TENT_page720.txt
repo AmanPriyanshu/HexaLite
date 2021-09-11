@@ -1,0 +1,38 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜systems, or by using agile methods. We don™t know how previous research on 
+metrics applies to these software development techniques.6. Introducing measurement adds overhead to processes. This contradicts the aims 
+of agile methods, which recommend the elimination of process activities that 
+
+are not directly related to program development. Companies that have adopted 
+agile methods are therefore not likely to adopt a metrics program.Software measurement and metrics are the basis of empirical software engineer-ing. In this research area, experiments on software systems and the collection of data 
+about real projects have been used to form and validate hypotheses about software 
+engineering methods and techniques. Researchers working in this area argue that we 
+
+can be confident of the value of software engineering methods and techniques only 
+if we can provide concrete evidence that they actually provide the benefits their 
+
+inventors suggest.However, research on empirical software engineering has not had a significant 
+impact on software engineering practice. It is difficult to relate generic research to an 
+individual project that differs from the research study. Many local factors are likely 
+
+to be more important than general empirical results. For this reason, researchers in 
+software analytics argue that analysts should not try to draw general conclusions but 
+should provide analyses of the data for specific systems.˘˘Product metrics are predictor metrics used to quantify internal attributes of a soft-
+ware system. Examples of product metrics include the system size, measured in lines 
+of code, or the number of methods associated with each object class. Unfortunately, 
+
+as I have explained earlier in this section, software characteristics that can be easily 
+measured, such as size and cyclomatic complexity, do not have a clear and consist
+-
+ent relationship with quality attributes such as understandability and maintainability. 
+The relationships vary depending on the development processes and technology 
+
+used and the type of system that is being developed.Product metrics fall into two classes:1. Dynamic metrics, which are collected by measurements made of a program in 
+execution. These metrics can be collected during system testing or after the sys-
+tem has gone into use. An example might be the number of bug reports or the 
+time taken to complete a computation.2. Static metrics, which are collected by measurements made of representations of 
+
+the system, such as the design, program, or documentation. Examples of static 
+metrics are shown in Figure 24.11.These types of metrics are related to different quality attributes. Dynamic metrics 
+help to assess the efficiency and reliability of a system. Static metrics help assess the 
+complexity, understandability, and maintainability of a system or its components.

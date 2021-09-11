@@ -1,0 +1,129 @@
+152 PART TWO  
+MODELING 
+ 
+ 
+ 
+Scenario :   
+ 
+1.  Homeowner: observes control panel    
+ 
+2.  Homeowner: enters password    
+ 
+3.  Homeowner: selects “stay” or “away”    
+ 
+4.  Homeowner: observes read alarm light to indicate that  SafeHome 
+ has been armed 
+   
+ 
+ 
+Exceptions:    
+ 
+1.  Control panel is  not ready:
+ 
+ homeowner checks all sensors to determine which are open; closes them.    
+ 
+2.  Password is incorrect (control panel beeps once): homeowner reenters correct password.    
+ 
+3.  Password not recognized: monitoring and response subsystem must be contacted to reprogram password.    
+ 
+4.   
+Stay 
+ is selected: control panel beeps twice and a 
+ stay
+ 
+ light is lit; perimeter sensors 
+are activated.    
+ 
+5.   
+Away
+ 
+ is selected: control panel beeps three times and an  
+away 
+ light is lit; all 
+ sensors are activated.    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Priority: 
+ Essential, must be implemented 
+   
+ 
+ 
+ 
+ 
+ 
+When available: 
+ First increment 
+   
+ 
+ 
+ 
+ 
+ 
+Frequency of use: 
+ Many times per day 
+   
+ 
+ 
+ 
+ 
+ 
+Channel to actor: 
+ Via control panel interface 
+   
+ 
+ 
+ 
+ 
+ 
+Secondary actors: 
+ Support technician, sensors 
+   
+ 
+ 
+Channels to secondary actors:    
+ 
+ 
+ 
+ 
+ Support technician: phone line 
+   
+ 
+ 
+ 
+ 
+ Sensors: hardwired and radio frequency interfaces 
+   
+ 
+ 
+ 
+Open issues:   
+ 
+1.  Should there be a way to activate the system without the use of a password or with an abbreviated password?    
+ 
+2.  Should the control panel display additional text messages?    
+ 
+3.  How much time does the homeowner have to enter the password from the time the ﬁ rst key is pressed? 
+   
+ 
+4.  Is there a way to deactivate the system before it actually activates?   
+ 
+Use cases for other  homeowner 
+ interactions would be developed in a similar 
+manner. It is important to review each use case with care. If some element of the 
+
+interaction is ambiguous, it is likely that a review of the use case will indicate a 
+problem.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ pre22126_ch08_131-165.indd   152pre22126_ch08_131-165.indd   15213/12/13   6:11 PM13/12/13   6:11 PM

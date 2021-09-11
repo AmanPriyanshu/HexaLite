@@ -1,0 +1,66 @@
+ Section 3.2  Malicious Code—Malware 
+195  As we saw in Sidebar 3-8, there may be no better way to entice a security-conscious 
+user than to offer a free security scanning tool. Several legitimate antivirus scanners, 
+
+including ones from the Anti-Virus Group (AVG) and Microsoft, are free. However, 
+
+other scanner offers provide malware, with effects ranging from locking up a computer 
+
+to demanding money to clean up nonexistent infections. As with all software, be careful 
+
+acquiring software from unknown sources.
+Natural ImmunityIn their interesting paper comparing computer virus transmission with human disease transmission, Kephart et al. [KEP93] observe that individuals’ efforts to keep their 
+
+computers free from viruses lead to communities that are generally free from viruses 
+because members of the community have little (electronic) contact with the outside 
+
+world. In this case, transmission is contained not because of limited contact but because 
+
+of limited contact outside the community, much as isolated human communities seldom 
+
+experience outbreaks of communicable diseases such as measles.
+For this reason, governments often run disconnected network communities for 
+handling top military or diplomatic secrets. The key to success seems to be choosing 
+
+one’s community prudently. However, as use of the Internet and the World Wide Web 
+
+increases, such separation is almost impossible to maintain. Furthermore, in both human in price from approximately $30 to $70, that the web sites claimed would 
+rid the victims’ computers of the infection, but actually did little or nothing 
+
+to improve or repair computer performance. The U.S. Federal Bureau of 
+
+Investigation (FBI) estimated that the sites generated over $100 million for 
+the perpetrators of the fraud.The perpetrators allegedly enabled the fraud by establishing adver-
+tising agencies that sought legitimate client web sites on which to host 
+
+advertisements. When a victim user went to the client’s site, code in the 
+
+malicious web advertisement hijacked the user’s browser and generated 
+
+the false error messages. The user was then redirected to what is called a 
+
+scareware
+ web site, to scare users about a computer security weakness. 
+The site then displayed a graphic purporting to monitor the scanning of the 
+
+victim’s computer for malware, of which (not surprisingly) it found a signifi-
+
+cant amount. The user was then invited to click to download a free malware 
+
+eradicator, which would appear to fix only a few vulnerabilities and would 
+
+then request the user to upgrade to a paid version to repair the rest.
+Two of the three indicted are U.S. citizens, although one was believed 
+to be living in Ukraine; the third was Swedish and believed to be living in 
+
+Sweden. All were charged with wire fraud and computer fraud. The three 
+
+ran a company called Innovative Marketing that was closed under action 
+by the U.S. Federal Trade Commission (FTC), alleging the sale of fraudulent 
+
+anti-malware software, between 2003 and 2008.
+The advice for innocent users seems to be both “trust but verify” and “if it ain’t broke; don’t fix it.” That is, if you are being lured into buying secu-
+
+rity products, your skeptical self should first run your own trusted malware 
+
+scanner to verify that there is indeed malicious code lurking on your system.

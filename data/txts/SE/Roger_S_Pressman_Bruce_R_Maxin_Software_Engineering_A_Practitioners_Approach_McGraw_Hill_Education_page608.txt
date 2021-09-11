@@ -1,0 +1,91 @@
+578 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 26.4  
+TEST ACROSS BORDERS  
+ 
+ 
+Internationalization 
+ is the process of creating a software product so that it can be 
+used in several countries and with various languages without requiring any engi-
+neering changes.  Localization 
+ is the process of adapting a software application for 
+use in targeted global regions by adding locale-speciﬁ c requirements and translat-
+ing text elements to appropriate languages. Localization effort may involve taking 
+
+each country’s currency, culture, taxes, and standards (both technical and legal) 
+
+into account in addition to differences in languages [Sla12]. Launching a Mobile-
+App in many parts of the world without testing it there would be very foolish. 
+ Because it can be very costly to build an in-house testing facility in each coun-try for which localization is planned, outsourcing testing to local vendors in each 
+country is often more cost effective [Reu12]. However, using an outsourcing ap-
+
+proach risks a degradation of communication between the MobileApp develop-
+ment team and those who are performing localization tests.   
+Crowdsourcing
+ 
+ has become popular in many online communities. 
+ 5 
+ 
+ Revenui 
+[Reu12] suggests that crowdsourcing could be used to engage localization testers 
+dispersed around the globe outside of the development environment. To accom-
+
+plish this, it is important to ﬁ nd a community that prides itself on its reputation 
+and has a track record of successes. An easy-to-use real-time platform allows 
+community members to communicate with the project decision makers. To pro-
+
+tect intellectual property, only trustworthy community members who are willing 
+
+to sign nondisclosure agreements are allowed to participate.   
+ 
+ 
+ 
+ 
+ 26.5  
+REAL-TIME TESTING ISSUES  
+ 
+Actual mobile devices have inherent limitations precipitated by the combination of hardware and ﬁ rmware delivered in the device. If the range of potential de-
+vice platforms is large, it is expensive and time-consuming to perform Mobile-
+App testing.  Mobile devices are not designed with testing in mind. Limited processing power and storage capacity may not allow loading of the diagnostic software 
+needed to record the test-case performance. Emulated devices are often easier 
+to manage and allow easier acquisition of test data.  Each mobile network (there are hundreds, worldwide) uses its own unique infrastructure to support the mobile Web. The Web proxies implemented by mo-
+
+bile Web operators dictate how, when, and whether you can connect to speciﬁ
+ c 
+Web resources using their network. This can restrict the ﬂ
+ ow of information that 
+ 
+ 
+ uote:  ”The world is being 
+re-shaped by the 
+convergence of 
+social, mobile, 
+cloud, big data, 
+community and 
+other powerful 
+forces. The 
+combination of 
+these technologies 
+unlocks an 
+incredible 
+opportunity to 
+connect everything 
+
+together in a 
+new way and 
+is dramatically 
+transforming the 
+way we live and 
+work.  Marc Benioff 
+  5 
+ 
+ Crowdsourcing
+ 
+ is a distributed problem solving model where community members work on 
+solutions to problems posted to the group. pre22126_ch26_567-583.indd   578pre22126_ch26_567-583.indd   57813/12/13   6:15 PM13/12/13   6:15 PM

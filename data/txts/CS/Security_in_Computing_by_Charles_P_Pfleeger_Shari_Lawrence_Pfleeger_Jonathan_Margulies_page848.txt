@@ -1,0 +1,67 @@
+814 Chapter 13  
+Emerging Topics
+far more difficult than building in security from the beginning. In other words, past 
+experience with securing emerging technologies does not inspire confidence. We hope 
+
+this pattern will change, and that you, as current and future security professionals, can 
+work to see that security is addressed as technology evolves.
+13.1 THE INTERNET OF THINGS
+The Internet of things
+ refers to the connection of everyday devices to the Internet, 
+making a world of so-called smart devices. The cost of processors is low, and engineers 
+
+envision being able to offer new 
+
+products and services by embed-
+
+ding these processors in everyday 
+
+devices. Consider these possibilities 
+
+for Internet-enabled products:• smart appliances. Your refrigerator can sense when you are running low on milk 
+and add that to your electronic shopping list. Your dishwasher chooses a time to 
+
+run when electrical demand is low, for example, in the middle of the night, to 
+
+shift use away from times of peak demand.
+• smart home. Your home security system reports to you when it senses an intru-
+sion or anomaly. Your heating system coordinates with your calendar to reduce 
+
+your thermostat when your calendar says you will be away.
+• smart health. Your exercise monitor interacts with your treadmill to make your 
+workouts more strenuous as your physical condition improves. Your glucose 
+
+monitor sends reports to your doctor.
+• smart transportation
+. Cars, trains, buses, and airplanes operate without human 
+drivers, sensing adverse traffic conditions and rerouting public transportation 
+
+(while simultaneously sending reports to waiting passengers advising them of 
+
+revised arrival times and alternative pickup points). 
+• smart entertainment
+. Your video recorder predicts and records programs you 
+will (or are likely to) want to watch. Your virtual concierge books tickets (and 
+
+arranges a date for you) to attend a performance it infers you will like.
+• smart computer. Your computer manages local and Internet-based data stor-
+age to optimize retrieval time and use of local resources. Your computer uses 
+
+spare execution cycles to contribute to solving computation-intensive problems 
+
+throughout the world.
+Each of these applications seems to be a noble activity that at least some users would 
+embrace. But with your security hat on, you might detect a negative side to each, for 
+
+example:
+• loss of privacy.
+ Learning that you are not exercising as frequently or vigorously 
+as it would like, your insurance company raises your premium.
+• loss of control.
+ You keep sensitive data on your computer. Your agreement for 
+automatic backups initially involves only domestic storage of your data, but the 
+Internet of Things: A world of 
+
+interconnected smart devices not 
+
+ordinarily thought of as computers.

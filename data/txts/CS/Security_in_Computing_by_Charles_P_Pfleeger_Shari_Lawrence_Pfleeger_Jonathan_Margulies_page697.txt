@@ -1,0 +1,63 @@
+ Section 10.3  Handling Incidents 
+663  Advance PlanningAs with all planning functions, advance planning works best because people can think 
+logically, unhurried, and without pressure or emotion. What constitutes an incident may 
+
+be vague. We cannot know the details of an incident in advance. Typical characteristics 
+
+include harm or risk of harm to computer systems, data, processing, or people; ini-
+
+tial uncertainty as to the extent of damage; and similar uncertainty as to the source or 
+
+method of the incident. For example, you can see that the file is missing or the home 
+
+page has been defaced, but you do not know how or by whom or what other damage 
+
+there may be.In organizations that have not done incident planning, chaos may develop at this 
+point. Someone runs to the network manager. Someone sends email to the help desk. 
+
+Someone calls the FBI, the CERT, the newspapers, or the fire department. People start 
+
+to investigate on their own, without coordinating with the relevant staff in other depart-
+
+ments, agencies, or businesses. And conversation, rumor, and misinformation ensue: 
+
+often more noise than substance.With an incident response plan in place, everybody is trained in advance to contact 
+the designated leader. The plan establishes a list of people to alert, in order, in case 
+
+the first person is unavailable. The leader decides what to do next, beginning by deter-
+
+mining if this is a real incident or a 
+false alarm. Indeed, natural events 
+
+sometimes look like incidents, and 
+
+the facts of the situation should 
+
+be established first. If the leader 
+
+decides this may be a real incident, 
+he or she invokes the response team.
+RespondingThe response team
+ is the set of people charged with responding to the incident. The 
+response team may include• director
+: person in charge of the incident, who decides what actions to take 
+and when to terminate the response. The director is typically a management 
+
+employee.
+• technician(s)
+: people who perform the technical part of the response. The lead 
+technician decides where to focus attention, analyzes situation data, documents 
+the incident and how it was handled, and calls for other technical people to assist 
+
+with the analysis.• advisor(s): legal, human resources, or public relations staff members as 
+appropriate.In a small incident a single person can handle more than one of these roles. Never-
+theless, a single person should be in charge, someone who directs the response work, a 
+
+single point of contact for “insiders” (employees, users), and a single official represen-
+
+tative for “the public.”
+An incident response plan tells whom 
+
+to contact in the event of an incident, 
+which may be just an unconfirmed, 
+unusual situation.

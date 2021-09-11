@@ -1,0 +1,32 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜TermExplanationBaselineA collection of component versions that make up a system. Baselines are controlled, which means that the component versions used in the 
+baseline cannot be changed. It is always possible to re-create a baseline 
+from its constituent components.BranchingThe creation of a new codeline from a version in an existing codeline. 
+The new codeline and the existing codeline may then develop 
+independently.CodelineA set of versions of a software component and other configuration items 
+on which that component depends.Configuration (version) controlThe process of ensuring that versions of systems and components are 
+recorded and maintained so that changes are managed and all versions 
+of components are identified and stored for the lifetime of the system.Configuration item or software 
+configuration item (SCI)Anything associated with a software project (design, code, test data, 
+document, etc.) that has been placed under configuration control. 
+Configuration items always have a unique identifier.MainlineA sequence of baselines representing different versions of a system.MergingThe creation of a new version of a software component by merging 
+separate versions in different codelines. These codelines may have been 
+created by a previous branch of one of the codelines involved.ReleaseA version of a system that has been released to customers (or other 
+users in an organization) for use.RepositoryA shared database of versions of software components and meta-
+information about changes to these components.System buildingThe creation of an executable system version by compiling and linking 
+the appropriate versions of the components and libraries making up the 
+system.VersionAn instance of a configuration item that differs, in some way, from other 
+instances of that item. Versions should always have a unique identifier.WorkspaceA private work area where software can be modified without affecting 
+other developers who may be using or modifying that software.Figure 25.3 CM terminologyThe definition and use of configuration management standards are essential for 
+quality certification in both ISO 9000 and the SEI™s capability maturity model (Bamford 
+
+and Deibler 2003; Chrissis, Konrad, and Shrum 2011). CM standards in a company 
+
+may be based on generic standards such as IEEE 828-2012, an IEEE standard for  configuration management. These standards focus on CM processes and the docu-
+ments produced during the CM process (IEEE 2012). Using the external standards as a 
+
+starting point, companies may then develop more detailed, company-specific standards 
+
+that are tailored to their specific needs. However, agile methods rarely use these stand
+-
+ards because of the documentation overhead involved.

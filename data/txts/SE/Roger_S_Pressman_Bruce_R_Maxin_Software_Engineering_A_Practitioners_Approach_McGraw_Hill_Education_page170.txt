@@ -1,0 +1,72 @@
+140 PART TWO  
+MODELINGverify [Ale11]. The goal of effective requirements engineering is to eliminate or 
+at least reduce these problems. 
+  
+ 
+8.2.3  Working toward Collaboration 
+ 
+If ﬁ ve stakeholders are involved in a software project, you may have ﬁ
+ ve (or 
+more) different opinions about the proper set of requirements. Throughout ear-
+
+lier chapters, we have noted that customers (and other stakeholders) should 
+collaborate among themselves (avoiding petty turf battles) and with software en-
+gineering practitioners if a successful system is to result. But how is this collab-
+oration accomplished?  The job of a requirements engineer is to identify areas of commonality (i.e., requirements on which all stakeholders agree) and areas of conﬂ ict or inconsis-
+tency (i.e., requirements that are desired by one stakeholder but conﬂ ict with the 
+needs of another stakeholder). It is, of course, the latter category that presents 
+a challenge.   
+Using “Priority Points”  
+One way of resolving conﬂ icting require-
+ments and at the same time better under-
+standing the relative importance of all requirements is 
+
+to use a “voting” scheme based on  priority points. 
+ All stakeholders are provided with some number of priority 
+points  
+ that can be “spent” on any number of require-ments. A list of requirements is presented, and each stakeholder indicates the relative importance of each 
+(from his or her viewpoint) by spending one or more 
+priority points on it. Points spent cannot be reused. Once 
+a stakeholder’s priority points are exhausted, no further 
+
+action on requirements can be taken by that person. 
+Overall points spent on each requirement by all stake-
+holders provide an indication of the overall importance 
+
+of each requirement.   
+INFO  
+ 
+ 
+ 
+ 
+ 
+Collaboration does not necessarily mean that requirements are deﬁ ned by 
+committee. In many cases, stakeholders collaborate by providing their view of 
+requirements, but a strong “project champion” (e.g., a business manager or a se-
+nior technologist) may make the ﬁ nal decision about which requirements make 
+the cut.   
+ 
+8.2.4  Asking the First Questions 
+  
+Questions asked at the inception of the project should be “context free” [Gau89]. The ﬁ rst set of context-free questions focuses on the customer and other stake-
+holders, the overall project goals and beneﬁ ts. For example, you might ask:
+ 
+ 
+ 
+ 
+•  Who is behind the request for this work?   
+ 
+ 
+•  Who will use the solution?   
+ 
+ 
+•  What will be the economic beneﬁ t of a successful solution? 
+  
+ 
+ 
+•  Is there another source for the solution that you need?   
+ uote:  “It is better to 
+know some of the 
+questions than all 
+of the answers.”  James Thurber 
+pre22126_ch08_131-165.indd   140pre22126_ch08_131-165.indd   14013/12/13   6:11 PM13/12/13   6:11 PM

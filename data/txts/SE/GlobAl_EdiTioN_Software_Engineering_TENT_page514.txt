@@ -1,0 +1,38 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜˜˜2. Service-oriented architecture is an approach to structuring a software system as 
+a set of separate, stateless services. These services may be provided by multiple 
+providers and may be distributed. Typically, transactions are short transactions 
+where a service is called, does something, and then returns a result.SaaS is a way of delivering application functionality to users, whereas SOA is an implementation technology for application systems. Systems that are implemented 
+using SOA do not have to be accessed by users as web services. SaaS applications 
+for business may be implemented using components rather than services. However, 
+if SaaS is implemented using SOA, it becomes possible for applications to use 
+ service APIs to access the functionality of other applications. They can then be 
+ integrated into more complex systems. These systems are called mashups and are 
+
+another approach to software reuse and rapid software development.From a software development perspective, the process of service development 
+has much in common with other types of software development. However, service 
+construction is not usually driven by user requirements, but by the service provider™s 
+assumptions about what users need. Accordingly, the software needs to be able to 
+evolve quickly after the provider gets feedback from users on their requirements. 
+
+Agile development with incremental delivery is therefore an effective approach for 
+software that is to be deployed as a service.Some software that is implemented as a service, such as Google Docs for web users, 
+offers a generic experience to all users. However, businesses may wish to have specific 
+
+services that are tailored to their own requirements. If you are implementing SaaS for 
+
+business, you may base your software service on a generic service that is tailored to the 
+
+needs of each business customer. Three important factors have to be considered:1. Configurability 
+How do you configure the software for the specific require
+-ments of each organization?2. Multi-tenancy How do you present each user of the software with the impres-sion that they are working with their own copy of the system while, at the same time, making efficient use of system resources?3. Scalability How do you design the system so that it can be scaled to accommo-date an unpredictably large number of users?The notion of product-line architectures, discussed in Chapter 16, is one way of config-uring software for users who have overlapping but not identical requirements. You start 
+
+with a generic system and adapt it according to the specific requirements of each user.This does not work for SaaS, however, for it would mean deploying a different copy 
+of the service for each organization that uses the software. Rather, you need to design 
+
+configurability into the system and provide a configuration interface that allows users 
+
+to specify their preferences. You then use these preferences to adjust the behavior of 
+
+the software dynamically as it is used. Configuration facilities may allow for:1. Branding, where users from each organization are presented with an interface 
+that reflects their own organization.

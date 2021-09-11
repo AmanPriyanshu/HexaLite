@@ -1,0 +1,33 @@
+˜˜˚˙˜˜˜˜˜˜2. Configuration management 
+During the development process, many different 
+versions of each software component are created. If you don™t keep track of 
+
+these versions in a configuration management system, you are liable to include 
+the wrong versions of these components in your system.3. Host-target development 
+Production software does not usually execute on the 
+
+same computer as the software development environment. Rather, you develop 
+
+it on one computer (the host system) and execute it on a separate computer (the 
+target system). The host and target systems are sometimes of the same type, but 
+often they are completely different.ˇˇFrom the 1960s to the 1990s, most new software was developed from scratch, by 
+
+writing all code in a high-level programming language. The only significant reuse or 
+software was the reuse of functions and objects in programming language libraries. 
+However, costs and schedule pressure meant that this approach became increasingly 
+unviable, especially for commercial and Internet-based systems. Consequently, an 
+
+approach to development based on the reuse of existing software is now the norm for 
+many types of system development. A reuse-based approach is now widely used for 
+web-based systems of all kinds, scientific software, and, increasingly, in embedded 
+systems engineering.Software reuse is possible at a number of different levels, as shown in Figure 7.13:1. The abstraction level 
+At this level, you don™t reuse software directly but rather 
+
+use knowledge of successful abstractions in the design of your software. Design 
+
+patterns and architectural patterns (covered in Chapter 6) are ways of representing 
+
+abstract knowledge for reuse.Software reuseAbstraction Architectural and design patternsSystem
+Application systems (COTS)
+ComponentComponentframeworksObjectProgramming 
+language librariesFigure 7.13 Software reuse

@@ -1,0 +1,30 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜quality of their software, reducing costs, or accelerating their development pro
+-cesses. Process improvement means understanding existing processes and changing 
+these processes to increase product quality and/or reduce costs and development 
+
+time. I cover general issues of process measurement and process improvement in 
+detail in web Chapter 26.Two quite different approaches to process improvement and change are used:1.
+ The process maturity approach, which has focused on improving process and 
+
+project management and introducing good software engineering practice into an 
+
+organization. The level of process maturity reflects the extent to which good 
+
+technical and management practice has been adopted in organizational software 
+development processes. The primary goals of this approach are improved prod-
+uct quality and process predictability.2. The agile approach, which has focused on iterative development and the reduc-
+tion of overheads in the software process. The primary characteristics of agile 
+methods are rapid delivery of functionality and responsiveness to changing cus-
+tomer requirements. The improvement philosophy here is that the best processes 
+are those with the lowest overheads and agile approaches can achieve this. 
+
+I˜describe agile approaches in Chapter 3.People who are enthusiastic about and committed to each of these approaches are generally skeptical of the benefits of the other. The process maturity approach is 
+
+rooted in plan-driven development and usually requires increased ﬁoverhead,ﬂ in the 
+sense that activities are introduced that are not directly relevant to program develop-
+ment. Agile approaches focus on the code being developed and deliberately mini-
+mize formality and documentation.The general process improvement process underlying the process maturity 
+approach is a cyclical process, as shown in Figure 2.11. The stages in this process are:1. Process measurement You measure one or more attributes of the software pro-cess or product. These measurements form a baseline that helps you decide if 
+AnalyzeMeasureChangeFigure 2.11 The process improvement cycle

@@ -1,0 +1,57 @@
+ Section 10.3  Handling Incidents 
+665  After the Incident Is ResolvedEventually, the incident response team closes the case. At this point the team will hold 
+a review after the incident to consider two things:
+• Is any security control action to be taken? 
+Did an intruder compromise a system because security patches were not up to date; if so, should there be a proce-
+
+dure to ensure that patches are applied when they become available? Was access 
+
+obtained because of a poorly chosen password; if so, should there be a campaign 
+
+to educate users on how to construct strong passwords? If there were control 
+
+failures, what should be done to prevent similar attacks in the future?
+• Did the incident response plan work? 
+Did everyone know whom to notify? Did 
+the team have needed resources? Was the response fast enough? Were certain criti-
+
+cal resources unnecessarily affected? What should be done differently next time?
+The incident response plan ensures that incidents are handled promptly, efficiently, 
+and with minimal harm.Incident Response Teams
+Many organizations name and maintain a team of people trained and authorized to 
+
+handle a security incident. Such teams, called computer security incident response 
+teams (CSIRTs
+) or computer emergency response teams
+ (CERTs
+) are standard at large private and government organizations, as well as many smaller ones. A CSIRT can 
+
+consist of one person or it can be a flexible team of dozens of people on call for special 
+
+skills they can contribute.
+The September–October 2014 issue of IEEE Security & Privacy magazine is devoted 
+to CSIRTs. Papers include a case study of a national CSIRT and its coordination with 
+
+other CSIRTs, how CSIRTs can (and must) automate the evaluation of millions of data 
+
+items received hourly, and a study of CSIRT personnel from a psychological perspec-
+
+tive to help teams be more effective.
+Types of CSIRTs
+A single person, the computer or network administrator of a small organization, may 
+constitute the full and permanent incident response team. Responding to a major inci-
+
+dent may overtake other ordinary responsibilities. For this reason, as an organization’s 
+
+information technology operation becomes larger or more complex, the nature of its 
+
+response capability often changes.But one person or one in-house response organization is not the full layout of inci-
+dent response throughout the world. Although some incidents are confined to one orga-
+
+nization, others involve multiple targets, sometimes across organizational, political, and 
+
+geographic boundaries. Here are some models for CSIRTs:
+• a full organizational response team to cover all incidents; such a team may 
+include separate staff to deal with situations in different organizational units, 
+
+such as plants in separate locations or distinct business units of a larger company

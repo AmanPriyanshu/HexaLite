@@ -1,0 +1,93 @@
+CHAPTER 21  
+SOFTWARE QUALITY ASSURANCE
+ 461 
+ 
+A modeling and analysis process is conducted as part of software safety. Initially, 
+hazards are identiﬁ ed and categorized by criticality and risk. For example, some 
+of the hazards associated with a computer-based cruise control for an automobile 
+
+might be: (1) causes uncontrolled acceleration that cannot be stopped, (2) does not 
+
+respond to depression of brake pedal (by turning off), (3) does not engage when 
+
+switch is activated, and (4) slowly loses or gains speed. Once these system-level 
+
+hazards are identiﬁ ed, analysis techniques are used to assign severity and proba-
+bility of occurrence.  4 
+ 
+ To be effective, software must be analyzed in the context of the 
+entire system. For example, a subtle user input error (people are system compo-
+nents) may be magniﬁ ed by a software fault to produce control data that improperly 
+positions a mechanical device. If and only if a set of external environmental condi-
+tions is met, the improper position of the mechanical device will cause a disastrous 
+
+failure. Analysis techniques [Eri05] such as fault tree analysis, real-time logic, and 
+
+Petri net models can be used to predict the chain of events that can cause hazards 
+
+and the probability that each of the events will occur to create the chain. 
+  Once hazards are identiﬁ ed and analyzed, safety-related requirements can 
+be speciﬁ ed for the software. That is, the speciﬁ
+ cation can contain a list of un-
+desirable events and the desired system responses to these events. The role of 
+software in managing undesirable events is then indicated.  
+ 
+ 
+   
+Although software reliability and software safety are closely related to one another, 
+it is important to understand the subtle difference between them. Software reliability 
+
+uses statistical analysis to determine the likelihood that a software failure will occur. 
+
+However, the occurrence of a failure does not necessarily result in a hazard or mis-
+
+hap. Software safety examines the ways in which failures result in conditions that can 
+
+lead to a mishap. That is, failures are not considered in a vacuum, but are evaluated 
+
+in the context of an entire computer-based system and its environment. 
+ A comprehensive discussion of software safety is beyond the scope of this book. If you have further interest in software safety and related system issues, 
+see [Fir12], [Har12], [Smi05], and [Lev95].   
+ 
+ 
+ 
+ 
+ 21.8  
+THE ISO 9000 QUALITY STANDARDS
+ 
+ 5    
+ 
+A  quality assurance system 
+ may be deﬁ
+ ned as the organizational structure, respon-
+sibilities, procedures, processes, and resources for implementing quality manage-
+ment [ANS87]. Quality assurance systems are created to help organizations ensure 
+
+their products and services satisfy customer expectations by meeting their speciﬁ -cations. These systems cover a wide variety of activities encompassing a product’s 
+ WebRef 
+ A worthwhile collection 
+of papers on software 
+safety can be found at 
+  
+www.safeware-
+eng.com/  . 
+  
+ 
+ uote:  “I cannot imagine 
+any condition 
+which would 
+cause this ship to 
+founder. Modern 
+
+shipbuilding has 
+gone beyond that.”   E. I. Smith, 
+captain of the  Titanic  
+  
+4  This approach is similar to the risk analysis methods described in Chapter 35. The primary 
+difference is the emphasis on technology issues rather than project-related topics.   
+5  This section, written by Michael Stovsky, has been adapted from  
+Fundamentals of ISO 9000 
+, a workbook developed for  Essential Software Engineering,
+ 
+ a video curriculum developed by 
+R. S. Pressman & Associates, Inc. Reprinted with permission. pre22126_ch21_448-465.indd   461pre22126_ch21_448-465.indd   46113/12/13   10:02 PM13/12/13   10:02 PM

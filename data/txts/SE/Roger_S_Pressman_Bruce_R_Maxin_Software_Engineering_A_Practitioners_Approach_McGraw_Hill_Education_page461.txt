@@ -1,0 +1,135 @@
+431 REVIEW TECHNIQUES   
+ 
+ 
+ 
+ 
+ 
+ Software reviews are a “ﬁ lter” for the software process. That is, reviews 
+are applied at various points during software engineering and serve to 
+uncover errors and defects that can then be removed. Software reviews “purify” software engineering work products, including requirements and de-
+sign models, code, and testing data. Freedman and Weinberg [Fre90] discuss 
+
+the need for reviews this way:  
+Technical work needs reviewing for the same reason that pencils need erasers:  
+To 
+err is human. 
+ The second reason we need technical reviews is that although peo-
+ple are good at catching some of their own errors, large classes of errors escape 
+the originator more easily than they escape anyone else. The review process is, 
+therefore, the answer to the prayer of Robert Burns:   
+ 
+ 
+ 
+ 
+ 
+ 
+O wad some power the giftie give us 
+ 
+    
+ 
+ 
+ 
+ 
+ 
+to see ourselves as other see us 
+ 
+ 
+ 
+  A review—any review—is a way of using the diversity of a group of people to:   
+ 
+ 
+1.  Point out needed improvements in the product of a single person or team;     
+ 
+2.   
+Conﬁ rm those parts of a product in which improvement is either not de-
+sired or not needed;   
+KEY CONCEPTS     bugs. . . . . . . . . . . 432  
+    cost-effectiveness. 436  
+
+    defect 
+
+ampliﬁ cation. . . . . 433  
+    defects. . . . . . . . . 432  
+
+    error density. . . . . 435  
+
+    errors. . . . . . . . . . 432  
+
+    informal reviews. . 439  
+
+    record keeping  . . . 442  
+
+    review reporting. . 442  
+
+    sample-driven 
+
+reviews  . . . . . . . . 444  
+
+    technical reviews  . 441    
+  
+ 
+ 
+CHAPTER20  
+ 
+What is it?   You’ll make mistakes 
+as you develop software engineer-
+
+ing work products. There’s no shame 
+
+in that—as long as you try hard, 
+very hard, to ﬁ
+ nd and correct the mistakes be-
+fore they are delivered to end users. Technical 
+
+reviews are the most effective mechanism for 
+
+ﬁ nding mistakes early in the software process. 
+  
+ 
+Who does it?   Software engineers perform 
+technical reviews, also called peer reviews, 
+with their colleagues.   
+ 
+Why is it important? 
+  If you ﬁ
+ nd an error early 
+in the process, it is less expensive to correct. In 
+
+addition, errors have a way of amplifying as the 
+
+process proceeds. So a relatively minor error left 
+
+untreated early in the process can be ampliﬁ ed 
+into a major set of errors later in the project. 
+
+Finally, reviews save time by reducing the amount 
+
+of rework that will be required late in the project. 
+  
+ 
+What are the steps?   Your approach to re-
+views will vary depending on the degree 
+
+of formality you select. In general, six steps 
+
+are employed, although not all are used for 
+every type of review: planning, preparation, 
+
+structuring the meeting, noting errors, making 
+corrections (done outside the review), and ver-
+
+ifying that corrections have been performed 
+
+properly. 
+  
+ 
+What is the work product? 
+  The output of a review is a list of issues and/or errors that 
+have been uncovered. In addition, the techni-
+cal status of the work product is also indicated.   
+ 
+How do I ensure that I’ve done it right?   First, select the type of review that is appropriate for your development culture. Fol-
+low the guidelines that lead to successful re-
+views. If the reviews that you conduct lead to 
+higher quality software, you’ve done it right.   
+QUICK LOOK pre22126_ch20_431-447.indd   431pre22126_ch20_431-447.indd   43113/12/13   10:01 PM13/12/13   10:01 PM

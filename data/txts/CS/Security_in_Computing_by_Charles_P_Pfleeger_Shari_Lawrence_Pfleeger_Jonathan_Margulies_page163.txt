@@ -1,0 +1,55 @@
+ Section 2.4  Exercises 
+129  11. Outline the design of an authentication scheme that “learns.” The authentication scheme 
+would start with certain primitive information about a user, such as name and password. As 
+
+the use of the computing system continued, the authentication system would gather such 
+
+information as commonly used programming languages; dates, times, and lengths of comput-
+
+ing sessions; and use of distinctive resources. The authentication challenges would become 
+
+more individualized as the system learned more information about the user.
+• Your design should include a list of many pieces of information about a user that the 
+
+system could collect. It is permissible for the system to ask an authenticated user for 
+certain additional information, such as a favorite book, to use in subsequent challenges.
+• Your design should also consider the problem of presenting and validating these chal-
+
+lenges: Does the would-be user answer a true-false or a multiple-choice question? 
+
+Does the system interpret natural language prose?12. How are passwords stored on your personal computer?
+13. Describe a situation in which a weak but easy-to-use password may be adequate.
+14. List three authentication questions (but not the answers) your credit card company could 
+ask to authenticate you over the phone. Your questions should be ones to which an imposter 
+
+could not readily obtain the answers. How difficult would it be for you to provide the correct 
+
+answer (for example, you would have to look something up or you would have to do a quick 
+
+arithmetical calculation)? 15. If you forget your password for a website and you click [Forgot my password], sometimes 
+the company sends you a new password by email but sometimes it sends you your old pass-
+
+word by email. Compare these two cases in terms of vulnerability of the website owner.
+16. Defeating authentication follows the method–opportunity–motive paradigm described in 
+Chapter 1. Discuss how these three factors apply to an attack on authentication.
+17. Suggest a source of some very long unpredictable numbers. Your source must be something 
+that both the sender and receiver can readily access but that is not obvious to outsiders and 
+
+not transmitted directly from sender to receiver.
+18. What are the risks of having the United States government select a cryptosystem for wide-
+spread commercial use (both inside and outside the United States). How could users from 
+
+outside the United States overcome some or all of these risks?
+19. If the useful life of DES was about 20 years (1977–1999), how long do you predict the useful 
+life of AES will be? Justify your answer.
+20. Humans are said to be the weakest link in any security system. Give an example for each of 
+the following:
+(a) a situation in which human failure could lead to a compromise of encrypted data
+(b) a situation in which human failure could lead to a compromise of identification and 
+authentication(c) a situation in which human failure could lead to a compromise of access control
+21. Why do cryptologists recommend changing the encryption key from time to time? Is it the 
+same reason security experts recommend changing a password from time to time? How can 
+
+one determine how frequently to change keys or passwords?
+22. Explain why hash collisions occur. That is, why must there always be two different plaintexts 
+that have the same hash value?

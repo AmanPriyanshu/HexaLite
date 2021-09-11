@@ -1,0 +1,36 @@
+˜˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜˜
+In April 1970, the Apollo 13 manned mission to the moon suffered a catastrophic 
+failure. An oxygen tank exploded in space, resulting in a serious loss of atmospheric 
+oxygen and oxygen for the fuel cells that powered the spacecraft. The situation was 
+life threatening, with no possibility of rescue. There were no contingency plans for 
+this situation. However, by using equipment in unintended ways and by adapting 
+
+standard procedures, the combined efforts of the spacecraft crew and ground staff 
+
+worked around the problems. The spacecraft was brought back to earth safely, and 
+all the crew survived. The overall system (people, equipment, and processes) was 
+
+resilient. It adapted to cope with and recover from the failure.I introduced the idea of resilience in Chapter 10, as one of the fundamental 
+ attributes of system dependability. I defined resilience in Chapter 10 as: The resilience of a system is a judgment of how well that system can maintain 
+the continuity of its critical services in the presence of disruptive events, such 
+as equipment failure and cyberattacks.This is not a ﬁstandardﬂ definition of resilienceŠdifferent authors such as Laprie (Laprie 2008) and Hollnagel (Hollnagel 2006) propose general definitions based on the ability of a system to withstand change. That is, a resilient system is one that can 
+operate successfully when some of the fundamental assumptions made by the 
+ system designers no longer hold.For example, an initial design assumption may be that users will make mistakes but will not deliberately seek out system vulnerabilities to be exploited. If the system 
+is used in an environment where it may be subject to cyberattacks, this is no longer 
+
+true. A resilient system can cope with the environmental change and can continue to 
+operate successfully.While these definitions are more general, my definition of resilience is closer to how the term is now used in practice by governments and industry. It embeds three 
+essential ideas:1.
+ The idea that some of the services offered by a system are critical services 
+whose failure could have serious human, social, or economic effects.2. The idea that some events are disruptive and can affect the ability of a system to 
+
+deliver its critical services.3.
+ The idea that resilience is a judgmentŠthere are no resilience metrics, and 
+ resilience cannot be measured. The resilience of a system can only be assessed 
+by experts, who can examine the system and its operational processes.Fundamental work on system resilience started in the safety-critical systems 
+ community, where the aim was to understand what factors led to accidents being avoided 
+
+and survived. However, the increasing number of cyberattacks on  networked systems has 
+meant that resilience is now often seen as a security issue. It is essential to build systems 
+
+that can withstand malicious cyberattacks and continue to deliver services to their users.

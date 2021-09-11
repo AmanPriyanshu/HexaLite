@@ -1,0 +1,41 @@
+44 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+Lest you dismiss these results as dated (they were reported in 1979), Klein repeated 
+the experiment in 1990 [KLE90] and Spafford in 1992 [SPA92a]. Each collected 
+
+approximately 15,000 passwords. Klein reported that 2.7 percent of the passwords 
+
+were guessed in only 15 minutes of machine time (at the speed of 1990s computers), 
+and 21 percent were guessed within a week! Spafford found that the average password 
+
+length was 6.8 characters and that 28.9 percent consisted of only lowercase alphabetic 
+
+characters. Then, in 2002 the British online bank Egg found its users still choosing weak pass-
+words [BUX02]. A full 50 percent of passwords for their online banking service were 
+
+family members’ names: 23 percent children’s names, 19 percent a spouse or partner, 
+
+and 9 percent their own. Alas, pets came in at only 8 percent, while celebrities and 
+
+football (soccer) stars tied at 9 percent each. And in 1998, Knight and Hartley [KNI98] 
+
+reported that approximately 35 percent of passwords are deduced from syllables and 
+
+initials of the account owner’s name. In December 2009 the computer security firm 
+
+Imperva analyzed 34 million Facebook passwords that had previously been disclosed 
+
+accidentally, reporting that 
+• about 30 per cent of users chose passwords of fewer than seven characters.
+• nearly 50 per cent of people used names, slang words, dictionary words or trivial 
+passwords—consecutive digits, adjacent keyboard keys and so on.
+• most popular passwords included 12345, 123456, 1234567, password, and 
+iloveyou, in the top ten.
+FIGURE 2-1 Distribution of Password Types
+One character0%Two characters
+2%Three characters14%Four characters,
+all letters14%Five letters,
+all same case
+22%Six letters,lowercase
+19%Words in
+dictionaries orlists of names15%Other goodpasswords14%

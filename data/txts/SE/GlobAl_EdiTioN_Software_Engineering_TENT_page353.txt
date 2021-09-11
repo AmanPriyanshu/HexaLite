@@ -1,0 +1,49 @@
+˜˜˚˛˝˜˜˜
+˜˜˜
+safety reviews, where engineers and system stakeholders examine the work done 
+and explicitly look for potential issues that could affect the safety of the system.Some types of safety-critical systems are regulated, as I explained in Chapter 10. National and international regulators require detailed evidence that the system is 
+
+safe. This evidence might include:1.
+ The specification of the system that has been developed and records of the 
+checks made on that specification.2. Evidence of the verification and validation processes that have been carried out 
+and the results of the system verification and validation.3. Evidence that the organizations developing the system have defined and depend-
+able software processes that include safety assurance reviews. There must also 
+be records showing that these processes have been properly enacted.Not all safety-critical systems are regulated. For example, there is no regulator for 
+automobiles, although cars now have many embedded computer systems. The safety 
+of car-based systems is the responsibility of the car manufacturer. However, because 
+of the possibility of legal action in the event of an accident, developers of unregu-
+lated systems have to maintain the same detailed safety information. If a case is 
+
+brought against them, they have to be able to show that they have not been negligent 
+in the development of the car™s software.The need for this extensive process and product documentation is another reason 
+why agile processes cannot be used, without significant change, for safety-critical 
+
+systems development. Agile processes focus on the software itself and (rightly) 
+
+argue that a great deal of process documentation is never actually used after it has 
+
+been produced. However, where you have to keep records for legal or regulatory 
+
+reasons, you must maintain documentation about both the processes used and the 
+
+system itself.Safety-critical systems, like other types of system that have high dependability 
+requirements, need to be based on dependable processes (see Chapter 10). A 
+
+dependable process will normally include activities such as requirements man-
+agement, change management and configuration control, system modeling, 
+
+reviews and inspections, test planning, and test coverage analysis. When a system 
+
+is safety-critical, there may be additional safety assurance and verification and 
+
+analyses processes.ˇˇSafety assurance is a set of activities that check that a system will operate safely. Specific 
+
+safety assurance activities should be included at all stages in the software development 
+
+process. These activities record the safety analyses that have been carried out and the 
+
+person or persons responsible for these analyses. Safety assurance activities have to be 
+
+thoroughly documented. This documentation may be part of the evidence that is used to 
+
+convince a regulator or system owner that a system will operate safely.

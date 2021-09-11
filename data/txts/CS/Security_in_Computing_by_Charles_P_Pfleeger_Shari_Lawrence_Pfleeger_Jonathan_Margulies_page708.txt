@@ -1,0 +1,56 @@
+674 Chapter 10  
+Management and IncidentsIn thinking about the contents of each matrix entry, we can ask the following 
+questions.• What are the effects of unintentional errors? Consider typing the wrong com-
+mand, entering the wrong data, using the wrong data item, discarding the wrong 
+listing, and disposing of output insecurely. 
+• What are the effects of willfully malicious insiders? Consider disgruntled 
+employees, bribery, and curious browsers. 
+• What are the effects of outsiders? Consider network access, remote access, 
+hackers, people walking through the building, people snooping at coffee shops, 
+
+and people sifting through the trash.• What are the effects of natural and physical disasters? Consider fires, storms, 
+floods, power outages, and component failures. 
+Table 10-3 is a version of the previous table with some of the entries filled in. It 
+shows that certain general problems can affect the assets of a computing system. Plan-
+
+ners at a given installation will determine what can happen to specific hardware, soft-
+
+ware, data items, and other assets.
+TABLE 10-3 
+Assets and Attacks
+AssetSecrecyIntegrityAvailability
+Hardwareoverloaded 
+destroyed 
+
+tampered withfailed 
+stolen 
+destroyed 
+
+unavailable
+Softwarestolen
+copied
+piratedimpaired byTrojan horse
+
+modified
+
+tampered withdeleted misplaced 
+usage expired
+Datadisclosed
+accessed by
+outsider
+inferreddamaged– software error
+
+– hardware error
+
+– user errordeletedmisplaced
+destroyed
+Peoplequit
+retired
+terminated
+on vacation
+Documentationlost
+stolen
+destroyed
+Supplieslost
+stolen
+damaged

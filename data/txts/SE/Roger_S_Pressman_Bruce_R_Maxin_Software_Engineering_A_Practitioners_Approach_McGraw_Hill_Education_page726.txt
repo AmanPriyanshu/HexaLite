@@ -1,0 +1,90 @@
+696 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+tasks associated with each cell, and work products to be produced as a conse-quence of each task. These activities are considered in Chapter 26.        
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+31.4.2   
+Process Decomposition 
+ 
+A software team should have a signiﬁ cant degree of ﬂ
+ exibility in choosing the 
+software process model that is best for the project and the software engineering 
+
+tasks that populate the process model once it is chosen. A relatively small project 
+
+that is similar to past efforts might be best accomplished using the linear sequen-
+tial approach. If the deadline is so tight that full functionality cannot reasonably be 
+
+delivered, an incremental strategy might be best. Similarly, projects with other char-
+
+acteristics (e.g., uncertain requirements, breakthrough technology, difﬁ
+ cult custom-
+ers, signiﬁ cant reuse potential) will lead to the selection of other process models. 
+ 6   
+  Once the process model has been chosen, the process framework is adapted to it. In every case, the generic process framework discussed earlier can be used. 
+It will work for linear models, for iterative and incremental models, for evolu-
+tionary models, and even for concurrent or component assembly models. The 
+process framework is invariant and serves as the basis for all work performed by 
+a software organization.  But actual work tasks do vary. Process decomposition commences when the 
+project manager asks, “How do we accomplish this framework activity?” For ex-
+ample, a small, relatively simple project might require the following work tasks 
+for the communication activity:  
+ 
+ 
+ 1.
+  Develop list of clariﬁ cation issues. 
+  
+ 
+ 
+ 2.
+  Meet with stakeholders to address clariﬁ cation issues. 
+  
+ 
+ 
+ 3.
+  Jointly develop a statement of scope.   
+ 
+ 
+ 4.
+  Review the statement of scope with all concerned.   
+ 
+ 
+ 5.
+  Modify the statement of scope as required.  
+ 
+  These events might occur over a period of less than 48 hours. They represent a process decomposition that is appropriate for the small, relatively simple project.  Now, consider a more complex project, which has a broader scope and more 
+signiﬁ cant business impact. Such a project might require the following work 
+tasks for the  communication 
+: 
+ 
+ 
+ 
+ 1.
+  Review the customer request.   
+ 
+ 
+ 2.
+  Plan and schedule a formal, facilitated meeting with all stakeholders.   
+ 
+ 
+ 3.
+  Conduct research to specify the proposed solution and existing approaches. 
+  
+ 
+ 
+ 4.
+  Prepare a “working document” and an agenda for the formal meeting.     The process framework 
+establishes a skeleton 
+for project planning. 
+It is adapted by allo-
+cating a task set that 
+is appropriate to the 
+project.   
+6  Recall that project characteristics also have a strong bearing on the structure of the software 
+team (Section 31.2.3). pre22126_ch31_683-702.indd   696pre22126_ch31_683-702.indd   69613/12/13   6:16 PM13/12/13   6:16 PM

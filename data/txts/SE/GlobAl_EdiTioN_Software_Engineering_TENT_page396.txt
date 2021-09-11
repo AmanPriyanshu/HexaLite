@@ -1,0 +1,46 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜There are no easy ways to ensure system security. Different types of systems require 
+different technical measures to achieve a level of security that is acceptable to the sys-tem owner. The attitudes and requirements of different groups of users profoundly affect 
+
+what is and is not acceptable. For example, in a bank, users are likely to accept a higher 
+
+level of security, and hence more intrusive security procedures than, say, in a university.However, some general guidelines have wide applicability when designing sys
+-tem security solutions. These guidelines encapsulate good design practice for secure 
+systems engineering. General design guidelines for security, such as those discussed, 
+below, have two principal uses:1.
+ They help raise awareness of security issues in a software engineering team. 
+Software engineers often focus on the short-term goal of getting the software 
+
+working and delivered to customers. It is easy for them to overlook security 
+
+issues. Knowledge of these guidelines can mean that security issues are consid
+-
+ered when software design decisions are made.2. They can be used as a review checklist that can be used in the system validation 
+process. From the high-level guidelines discussed here, more specific questions 
+can be derived that explore how security has been engineered into a system.Security guidelines are sometimes very general principles such as ﬁSecure the 
+weakest link in a system,ﬂ ﬁKeep it simple,ﬂ and ﬁAvoid security through obscurity.ﬂ 
+I think these general guidelines are too vague to be of real use in the design process. 
+Consequently, I have focused here on more specific design guidelines. The 10 design 
+guidelines, summarized in Figure 13.15, have been taken from different sources 
+
+(Schneier 2000; Viega and McGraw 2001; Wheeler 2004).An organizational security policy is a high-level statement that sets out fundamental secu
+-
+rity conditions for an organization. It defines the ﬁwhatﬂ of security rather than the ﬁhow.ﬂ 
+
+so the policy should not define the mechanisms to be used to provide and enforce security. 
+
+In principle, all aspects of the security policy should be reflected in the system require-
+ments. In practice, especially if agile development is used, this is unlikely to happen.Designers should use the security policy as a framework for making and evaluat
+-ing design decisions. For example, say you are designing an access control system 
+for the Mentcare system. The hospital security policy may state that only accredited 
+
+clinical staff may modify electronic patient records. This leads to requirements to 
+
+check the accreditation of anyone attempting to modify the system and to reject 
+
+modifications from unaccredited people.The problem that you may face is that many organizations do not have an explicit systems security policy. Over time, changes may have been made to systems in 
+
+response to identified problems, but with no overarching policy document to guide 
+the evolution of a system. In such situations, you need to work out and document the 
+policy from examples and confirm it with managers in the company.

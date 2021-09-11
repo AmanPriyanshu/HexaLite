@@ -1,0 +1,66 @@
+CHAPTER 16  
+PATTERN-BASED DESIGN
+ 349ﬁ rst principles. The best patterns  
+generate 
+ a solution to a problem indirectly—a necessary approach for the most difﬁ cult problems of design. 
+  
+ 
+ 
+•   
+It describes a relationship
+ 
+: Patterns don’t just describe modules, but de-scribe deeper system structures and mechanisms.   
+ 
+ 
+•   
+The pattern has a signiﬁ cant human component (minimize human inter-
+vention). 
+ All software serves human comfort or quality of life; the best pat-terns explicitly appeal to aesthetics and utility. 
+ 
+ 
+  A design pattern saves you from “reinventing the wheel,” or worse, inventing a “new wheel” that is slightly out of round, too small for its intended use, and too 
+narrow for the ground it will roll over. Design patterns, if used effectively, will 
+
+invariably make you a better software designer. 
+  
+16.1.1  Kinds of Patterns 
+ 
+One of the reasons that software engineers are interested in (and intrigued by) design patterns is that human beings are inherently good at pattern recogni-
+tion. If we weren’t, we’d be frozen in space and time—unable to learn from past 
+experience, unwilling to venture forward because of our inability to recognize 
+situations that might lead to high risk, unhinged by a world that seems to have 
+no regularity or logical consistency. Luckily, none of this occurs because we do 
+
+recognize patterns in virtually every aspect of our lives.  In the real world, the patterns we recognize are learned over a lifetime of experience. We recognize them instantly and inherently understand what they 
+
+mean and how they might be used. Some of these patterns provide us with in-
+sight into recurring phenomenon. For example, you’re on your way home from 
+work on the interstate when your navigation system (or car radio) informs you 
+that a serious accident has occurred on the interstate in the opposing direction. 
+You’re 4 miles from the accident, but already you begin to see trafﬁ
+ c slowing, 
+recognizing a pattern that we’ll call  RubberNecking. 
+ People in the travel lanes 
+moving in your direction are slowing at the sight of the accident to get a better 
+view of what happened on the opposite side of the highway. The  
+RubberNecking 
+ pattern yields remarkably predictable results (a trafﬁ c jam), but it does nothing 
+more than describe a phenomenon. In patterns jargon, it might be called a  non-generative 
+ pattern because it describes a context and a problem but it does not 
+provide any clear-cut solution. 
+ When software design patterns are considered, we strive to identify and doc-ument  generative 
+ patterns. That is, we identify a pattern that describes an im-
+portant and repeatable aspect of a system and that provides us with a way to 
+build that aspect within a system of forces that are unique to a given context. In 
+an ideal setting, a collection of generative design patterns could be used to “gen-
+erate” an application or computer-based system whose architecture enables it 
+
+to adapt to change. Sometimes called  generativity,
+ 
+ “the successive application of 
+   A “generative” pattern 
+describes the problem, 
+a context, and forces, 
+but it also describes a 
+pragmatic solution to 
+the problem. pre22126_ch16_347-370.indd   349pre22126_ch16_347-370.indd   34916/12/13   6:22 PM16/12/13   6:22 PM

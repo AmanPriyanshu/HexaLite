@@ -1,0 +1,73 @@
+180 Chapter 3  
+Programs and ProgrammingTransmission and Propagation
+A printed copy of code does nothing and threatens no one. Even executable code sitting 
+on a disk does nothing. What triggers code to start? For malware to do its malicious 
+
+work and spread itself, it must be executed to be activated. Fortunately for malware 
+
+writers but unfortunately for the rest of us, there are many ways to ensure that programs 
+
+will be executed on a running computer.
+Setup and Installer Program Transmission 
+Recall the SETUP program that you run to load and install a new program on your com-
+
+puter. It may call dozens or hundreds of other programs, some on the distribution medium, 
+
+some already residing on the computer, some in memory. If any one of these programs 
+
+contains a virus, the virus code could be activated. Let us see how. Suppose the virus 
+
+code were in a program on the distribution medium, such as a CD, or downloaded in the 
+
+installation package; when executed, the virus could install itself on a permanent storage 
+
+medium (typically, a hard disk) and also in any and all executing programs in memory. 
+
+Human intervention is necessary to start the process; a human being puts the virus on the 
+
+distribution medium, and perhaps another person initiates the execution of the program 
+
+to which the virus is attached. (Execution can occur without human intervention, though, 
+
+such as when execution is triggered by a date or the passage of a certain amount of time.) 
+
+After that, no human intervention is needed; the virus can spread by itself.
+Attached File A more common means of virus activation is in a file attached to an email message 
+
+or embedded in a file. In this attack, the virus writer tries to convince the victim (the 
+
+recipient of the message or file) to open the object. Once the viral object is opened (and 
+
+thereby executed), the activated virus can do its work. Some modern email handlers, 
+
+in a drive to “help” the receiver (victim), automatically open attachments as soon as 
+
+the receiver opens the body of the email message. The virus can be executable code 
+
+embedded in an executable attachment, but other types of files are equally dangerous. 
+
+For example, objects such as graphics or photo images can contain code to be executed 
+
+by an editor, so they can be transmission agents for viruses. In general, forcing users to 
+
+open files on their own rather than having an application do it automatically is a best 
+
+practice; programs should not perform potentially security-relevant actions without a 
+
+user’s consent. However, ease-of-use often trumps security, so programs such as brows-
+
+ers, email handlers, and viewers often “helpfully” open files without first asking the user.
+Document Viruses 
+A virus type that used to be quite popular is what we call the document virus, which is 
+implemented within a formatted document, such as a written document, a database, a 
+slide presentation, a picture, or a spreadsheet. These documents are highly structured 
+
+files that contain both data (words or numbers) and commands (such as formulas, 
+
+formatting controls, links). The commands are part of a rich programming language, 
+
+including macros, variables and procedures, file accesses, and even system calls. The 
+
+writer of a document virus uses any of the features of the programming language to 
+
+perform malicious actions.

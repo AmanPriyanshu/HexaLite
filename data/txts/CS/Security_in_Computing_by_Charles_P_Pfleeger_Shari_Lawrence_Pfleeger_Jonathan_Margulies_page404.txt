@@ -1,0 +1,55 @@
+370 Chapter 6  
+NetworksPort Scanning ResultsAs described previously in this chapter, a port is simply a numeric designation for rout-
+ing data to a particular program that is waiting for it. The waiting program, called a dae-
+
+mon or demon, is said to listen to a particular port; in fact, it registers with the network 
+
+management software so it receives data addressed to that port. For example, by con-
+
+vention port 110 is the port number associated with Post Office Protocol for email, 80 is 
+
+dedicated to HTTP (web page) traffic, and 123 is assigned to the Network Time Proto-
+
+col for clock synchronization. Over time the number of services has exceeded the range 
+
+of available numbers, so there are collisions, reuses, informal uses, and reallocations.
+Let us continue with our earlier discussion of a data request coming in on port 110, the Post Office Protocol. The client initiates a request to connect with a POP server by 
+
+a defined protocol implemented in ASCII text commands. The server responds, typi-
+
+cally identifying itself and sometimes its version number (so that client and server can 
+
+synchronize on capabilities and expectations). We show a sample of that exchange in 
+
+Figure 6-11. Lines from the client are labeled CL and responses from the POP server 
+
+are labeled SV. Anyone can initiate such an exchange by using Telnet, the terminal 
+
+emulator program.A scanner such as Nmap probes a range of ports, testing to see what services respond. An example output from Nmap is shown in Figure 6-12. (The site name and address 
+
+have been changed.) Notice that the entire scan took only 34 seconds.
+Port scanning tells an attacker three things: which standard ports or services are 
+running and responding on the target system, what operating system is installed on 
+
+the target system, and what applications and versions of applications are present. This 
+
+information is readily available for the asking from a networked system; it can be 
+
+obtained quietly, anonymously, without identification or authentication, drawing little 
+
+or no attention to the scan.It might seem that the operating system name or versions of system applications 
+would not be significant, but knowing that a particular host runs a given version—that 
+
+may contain a known or even undisclosed flaw—of a service, an attacker can devise an 
+
+attack to exploit precisely that vulnerability. Thus, a port scan can be a first step in a 
+
+more serious attack.CL:   telnet incoming.server.net 110SV:   +OK Messaging Multiplexor (Sun Java(tm) System Messaging Server
+6.2-6.01 (built Apr  3 2006))             
+<4d3897ff.11ec04f8@vms108.mailsrvcs.net>
+CL:   user v1
+SV:   +OK password required for user v1@server.net
+CL:   pass p1
+SV:   -ERR [AUTH] Authentication failed
+CL:   quit
+SV:   +OK goodbyeFIGURE 6-11 POP Server Session Creation

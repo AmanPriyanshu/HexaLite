@@ -1,0 +1,59 @@
+178 Chapter 3  
+Programs and ProgrammingHarm to the User’s System 
+Malware writers usually intend that their code persist, so they write the code in a way 
+
+that resists attempts to eradicate it. Few writers are so obvious as to plant a file named 
+
+“malware” at the top-level directory of a user’s disk. Here are some maneuvers by 
+
+which malware writers conceal their infection; these techniques also complicate detec-
+
+tion and eradication.• Hide the file in a lower-level directory, often a subdirectory created or used by 
+another legitimate program. For example, the Windows operating system main-
+
+tains subdirectories for some installed programs in a folder named “registered 
+
+packages.” Inside that folder are subfolders with unintelligible names such as 
+
+{982FB688-E76B-4246-987B-9218318B90A}. Could you tell to what package 
+that directory belongs or what files properly belong there?
+• Attach, using the techniques described earlier in this chapter, to a critical system 
+file, especially one that is invoked during system startup (to ensure the malware 
+
+is reactivated).
+• Replace (retaining the name of) a noncritical system file. Some system func-
+tionality will be lost, but a cursory look at the system files will not highlight any 
+
+names that do not belong.• Hide copies of the executable code in more than one location.
+
+• Hide copies of the executable in different locations on different systems so no 
+single eradication procedure can work.
+• Modify the system registry so that the malware is always executed or malware 
+detection is disabled.As these examples show, ridding a system of malware can be difficult because the 
+infection can be in the system area, installed programs, the user’s data or undocumented 
+
+free space. Copies can move back and forth between memory and a disk drive so that 
+
+after one location is cleaned, the infection is reinserted from the other location.For straightforward infections, simply removing the offending file eradicates the 
+problem. Viruses sometimes have a 
+multipartite form, meaning they install themselves 
+in several pieces in distinct locations, sometimes to carry out different objectives. In 
+
+these cases, if only one piece is removed, the remaining pieces can reconstitute and rein-
+
+stall the deleted piece; eradication requires destroying all pieces of the infection. But for 
+
+more deeply established infections, users may have to erase and reformat an entire disk, 
+
+and then reinstall the operating system, applications, and user data. (Of course, users 
+can reinstall these things only if they have intact copies from which to begin.)
+Thus, the harm to the user is not just in the time and effort of replacing data directly 
+lost or damaged but also in handling the secondary effects to the system and in cleaning 
+
+up any resulting corruption.
+Harm to the World 
+An essential character of most malicious code is its spread to other systems. Except for 
+
+specifically targeted attacks, malware writers usually want their code to infect many peo-
+
+ple, and they employ techniques that enable the infection to spread at a geometric rate.

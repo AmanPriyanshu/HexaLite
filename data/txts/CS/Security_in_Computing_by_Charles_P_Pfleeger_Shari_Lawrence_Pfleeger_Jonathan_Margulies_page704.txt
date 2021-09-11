@@ -1,0 +1,49 @@
+670 Chapter 10  
+Management and Incidentsthe benefits of taking the action with the possible losses that might result. Just because a 
+certain act carries a risk, we do not necessarily avoid it; we may look both ways before 
+
+crossing the street, but we do cross it. In building and using computing systems, we 
+
+must take a more organized and careful approach to assessing our risks. Many of the 
+
+systems we build and use can have a dramatic impact on life and health if they fail. For 
+
+this reason, risk analysis is an essential part of security planning.We cannot guarantee that our systems will be risk free; that is why our security plans 
+must address actions needed should an unexpected risk become a problem. And some 
+
+risks are simply part of doing business; for example, as we have seen, we must plan for 
+
+disaster recovery, even though we take many steps to avoid disasters in the first place.
+When we acknowledge that a significant problem cannot be prevented, we can use 
+controls to reduce the seriousness of a threat. For example, you can back up files on 
+
+your computer as a defense against the possible failure of a file storage device. But 
+
+as our computing systems become more complex and more distributed, complete risk 
+
+analysis becomes more difficult and time consuming—and more essential.
+Steps of a Risk AnalysisRisk analysis is performed in many different contexts; for example, environmental 
+
+and health risks are analyzed for activities such as building dams, disposing of nuclear 
+
+waste, or changing a manufacturing process. Risk analysis for security is adapted from 
+
+more general management practices, placing special emphasis on the kinds of problems 
+likely to arise from security issues. By following well-defined steps, we can analyze the 
+
+security risks in a computing system.The basic steps of risk analysis are listed below. 
+1. Identify assets. 2. Determine vulnerabilities. 3. Estimate likelihood of exploitation. 
+4. Compute expected annual loss. 
+5. Survey applicable controls and their costs. 
+6. Project annual savings of control. 
+Sidebar 10-4 illustrates how different organizations take slightly different 
+approaches, but the basic activities are still the same. These steps are described in detail 
+
+in the following sections.
+SIDEBAR 10-4 Alternative Steps in Risk Analysis
+There are many formal approaches to performing risk analysis. For exam-
+ple, the U.S. Army used its Operations Security (OPSEC) guidelines during 
+
+the Vietnam War [SEC99]. The guidelines involve five steps:
+1. Identify the critical information to be protected.
+2. Analyze the threats.

@@ -1,0 +1,94 @@
+CHAPTER 20  
+REVIEW TECHNIQUES 441 
+ 
+ 
+ 
+ 
+ 
+ 
+ 20.6 F
+ORMAL TECHNICAL REVIEWS  
+ 
+A  formal technical review
+ 
+ (FTR) is a software quality control activity performed by 
+software engineers (and others). The objectives of an FTR are: (1) to uncover er-
+
+rors in function, logic, or implementation for any representation of the software; 
+(2) to verify that the software under review meets its requirements; (3) to ensure 
+that the software has been represented according to predeﬁ ned standards; (4) to 
+achieve software that is developed in a uniform manner; and (5) to make projects 
+more manageable. In addition, the FTR serves as a training ground, enabling ju-
+nior engineers to observe different approaches to software analysis, design, and 
+implementation. The FTR also serves to promote backup and continuity because 
+a number of people become familiar with parts of the software that they may not 
+have otherwise seen.   The FTR is actually a class of reviews that includes  walkthroughs
+ 
+ and  
+inspec-tions. 
+ Each FTR is conducted as a meeting and will be successful only if it is prop-
+erly planned, controlled, and attended. In the sections that follow, guidelines 
+
+similar to those for a walkthrough are presented as a representative formal tech-
+nical review. If you have interest in software inspections, as well as additional 
+
+information on walkthroughs, see [Rad02], [Wie02], or [Fre90]. 
+  
+ 
+20.6.1   
+The Review Meeting  
+Regardless of the FTR format that is chosen, every review meeting should abide by the following constraints:  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+•  Between three and ﬁ ve people (typically) should be involved in the review. 
+  
+ 
+ 
+•  Advance preparation should occur but should require no more than two hours of work for each person.   
+ 
+ 
+•  The duration of the review meeting should be less than two hours.    
+Given these constraints, it should be obvious that an FTR focuses on a speciﬁ c 
+(and small) part of the overall software. For example, rather than attempting 
+to review an entire design, walkthroughs are conducted for each component or 
+small group of components. By narrowing the focus, the FTR has a higher likeli-
+hood of uncovering errors.  
+ 
+ 
+   
+The focus of the FTR is on a work product (e.g., a portion of a requirements model, a detailed component design, source code for a component). The indi-
+vidual who has developed the work product—the  producer
+ 
+—informs the proj-ect leader that the work product is complete and that a review is required. The 
+project leader contacts a  review leader,
+ 
+ who evaluates the product for readiness, 
+generates copies of product materials, and distributes them to two or three  re-
+viewers 
+ for advance preparation. Each reviewer is expected to spend between 
+one and two hours reviewing the product, making notes, and otherwise becoming  WebRef 
+ The NASA SATC  
+Formal 
+Inspection Guidebook  
+
+can be downloaded 
+from   
+http://www.everyspec.com/
+
+NASA/NASA-
+General/NASA-
+GB-A302_2418/  .
+    An FTR focuses on a 
+relatively small portion 
+
+of a work product.   uote:  “There is no urge 
+so great as for 
+one man to edit 
+another man's 
+work.”  Mark Twain 
+pre22126_ch20_431-447.indd   441pre22126_ch20_431-447.indd   44113/12/13   10:01 PM13/12/13   10:01 PM

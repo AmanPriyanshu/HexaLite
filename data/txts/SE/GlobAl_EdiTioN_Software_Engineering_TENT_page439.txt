@@ -1,0 +1,41 @@
+˜˚˛˝˙ˆˇ˘˜˜˚˜˜˜
+˜˜
+ specific that it is very expensive to modify them for a new situation. Rather than 
+reuse the code, however, you can reuse the ideas that are the basis of the software. 
+This is called concept reuse.In concept reuse you do not reuse a software component; rather, you reuse an 
+idea, a way of working, or an algorithm. The concept that you reuse is represented in 
+
+an abstract notation, such as a system model, which does not include implementation 
+detail. It can, therefore, be configured and adapted for a range of situations. Concept 
+reuse is embodied in approaches such as design patterns (Chapter 7), configurable 
+system products, and program generators. When concepts are reused, the reuse pro-
+cess must include an activity where the abstract concepts are instantiated to create 
+executable components.An obvious advantage of software reuse is that overall development costs are 
+lower. Fewer software components need to be specified, designed, implemented, 
+
+and validated. However, cost reduction is only one benefit of software reuse. I have 
+listed other advantages of reusing software in Figure 15.1.However, there are costs and difficulties associated with reuse (Figure 
+15.2). 
+There is a significant cost associated with understanding whether or not a compo-
+nent is suitable for reuse in a particular situation, and in testing that component to 
+
+ensure its dependability. These additional costs mean that the savings in develop-
+ment costs may not be less than anticipated. However, the other benefits of reuse 
+
+still apply.Figure 15.1 Benefits of software reuseBenefitExplanationAccelerated developmentBringing a system to market as early as possible is often more important 
+than overall development costs. Reusing software can speed up system 
+production because both development and validation time may be reduced.Effective use of specialistsInstead of doing the same work over and over again, application specialists 
+can develop reusable software that encapsulates their knowledge.Increased dependabilityReused software, which has been tried and tested in working systems, 
+should be more dependable than new software. Its design and 
+implementation faults should have been found and fixed.Lower development costsDevelopment costs are proportional to the size of the software being 
+
+developed. Reusing software means that fewer lines of code have to be written.Reduced process riskThe cost of existing software is already known, while the costs of 
+development are always a matter of judgment. This is an important factor for 
+project management because it reduces the margin of error in project cost 
+estimation. This is especially true when large software components such as 
+subsystems are reused.Standards complianceSome standards, such as user interface standards, can be implemented as a 
+set of reusable components. For example, if menus in a user interface are 
+implemented using reusable components, all applications present the same 
+menu formats to users. The use of standard user interfaces improves 
+dependability because users make fewer mistakes when presented with a 
+familiar interface.

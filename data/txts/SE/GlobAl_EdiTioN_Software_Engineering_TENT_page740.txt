@@ -1,0 +1,47 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜minimize the disk space used by the different copies of components. Instead of keeping 
+a complete copy of each version, the system stores a list of differences (deltas) between 
+
+one version and another. By applying these to a master version (usually the most recent 
+
+version), a target version can be re-created. This is illustrated in Figure 25.9.When a new version is created, the system simply stores a delta, a list of differ-ences, between the new version and the older version used to create that new ver-
+sion. In Figure 25.9, the shaded boxes represent earlier versions of a component that 
+are automatically re-created from the most recent component version. Deltas are 
+
+usually stored as lists of changed lines, and, by applying these automatically, one 
+
+version of a component can be created from another. As the most recent version of a 
+component will most likely be the one used, most systems store that version in full. 
+The deltas then define how to re-create earlier system versions.One of the problems with a delta-based approach to storage management is that it can 
+take a long time to apply all of the deltas. As disk storage is now relatively cheap, Git 
+
+uses an alternative, faster approach. Git does not use deltas but applies a standard com-
+pression algorithm to stored files and their associated meta-information. It does not store 
+
+duplicate copies of files. Retrieving a file simply involves decompressing it, with no need 
+
+to apply a chain of operations. Git also uses the notion of packfiles where several smaller 
+
+files are combined into an indexed single file. This reduces the overhead associated with 
+
+lots of small files. Deltas are used within packfiles to further reduce their size.System building is the process of creating a complete, executable system by compiling 
+
+and linking the system components, external libraries, configuration files, and other 
+
+information. System-building tools and version control tools must be integrated as the 
+
+build process takes component versions from the repository managed by the version 
+
+control system.System building involves assembling a large amount of information about the soft-ware and its operating environment. Therefore, it always makes sense to use an auto-mated build tool to create a system build (Figure 25.10). Notice that you don™t just need 
+
+the source code files that are involved in the build. You may have to link these with 
+
+externally provided libraries, data files (such as a file of error messages), and configu-ration files that define the target installation. You may have to specify the versions of 
+Version
+1.0Version
+1.1Version
+1.2Version
+1.3D1D2D3Creation date
+Version sequence
+Most recentV1.3 sourcecodeStorage structureFigure 25.9 Storage management using 
+deltas

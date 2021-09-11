@@ -1,0 +1,85 @@
+CHAPTER 22  
+SOFTWARE TESTING STRATEGIES
+ 487than the value of the information that will be obtained. Security testing and secu-rity engineering are discussed in more detail in Chapter 27.   
+ 
+ 
+22.8.3   
+Stress Testing 
+ 
+Earlier software testing steps result in thorough evaluation of normal program functions and performance. Stress tests are designed to confront programs with 
+abnormal situations. In essence, the tester who performs stress testing asks: 
+“How high can we crank this up before it fails?”   
+ 
+Stress testing
+ 
+ executes a system in a manner that demands resources in abnor-
+mal quantity, frequency, or volume. For example, (1) special tests may be designed 
+
+that generate 10 interrupts per second, when one or two is the average rate, (2) 
+
+input data rates may be increased by an order of magnitude to determine how input 
+
+functions will respond, (3) test cases that require maximum memory or other re-
+sources are executed, (4) test cases that may cause thrashing in a virtual operating 
+
+system are designed, (5) test cases that may cause excessive hunting for disk-resi-
+dent data are created. Essentially, the tester attempts to break the program. 
+ A variation of stress testing is a technique called  sensitivity testing. 
+ In some 
+situations (the most common occur in mathematical algorithms), a very small 
+range of data contained within the bounds of valid data for a program may cause 
+extreme and even erroneous processing or profound performance degradation. 
+Sensitivity testing attempts to uncover data combinations within valid input 
+classes that may cause instability or improper processing.   
+ 
+ 
+22.8.4   
+Performance Testing 
+ 
+For real-time and embedded systems, software that provides required function 
+but does not conform to performance requirements is unacceptable. Performance 
+
+testing is designed to test the run-time performance of software within the context 
+
+of an integrated system. Performance testing occurs throughout all steps in the 
+
+testing process. Even at the unit level, the performance of an individual module 
+
+may be assessed as tests are conducted. However, it is not until all system elements 
+
+are fully integrated that the true performance of a system can be ascertained. 
+ Performance tests are often coupled with stress testing and usually require both 
+hardware and software instrumentation. That is, it is often necessary to measure 
+
+resource utilization (e.g., processor cycles) in an exacting fashion. External instru-
+mentation can monitor execution intervals, log events (e.g., interrupts) as they 
+
+occur, and sample machine states on a regular basis. By instrumenting a system, the 
+
+tester can uncover situations that lead to degradation and possible system failure. 
+  
+ 
+ 
+22.8.5   
+Deployment Testing 
+ 
+In many cases, software must execute on a variety of platforms and under more 
+than one operating system environment.  Deployment testing, 
+ sometimes called 
+ conﬁ guration testing,
+ 
+ exercises the software in each environment in which it is to 
+operate. In addition, deployment testing examines all installation procedures and 
+  
+ 
+ uote:  “If you’re trying 
+to ﬁ nd true system 
+
+bugs and you 
+haven’t subjected 
+your software to 
+a real stress test, 
+then it’s high time 
+
+you started.”  Boris Beizer 
+pre22126_ch22_466-495.indd   487pre22126_ch22_466-495.indd   48713/12/13   6:14 PM13/12/13   6:14 PM

@@ -1,0 +1,280 @@
+340 PART TWO  
+MODELING 
+ 
+ 
+ 
+ 
+ 
+Nielsen and Wagner [Nie96] suggest a few pragmatic “don’ts” for interface 
+ design (based on their redesign of a major WebApp). These provide a nice com-
+plement to the principles suggested earlier in this section.   
+ 
+ 
+ 
+•  Don’t force the user to read voluminous amounts of text, particularly when the text explains the operation of the WebApp or assists in navigation. 
+  
+ 
+ 
+•  Don’t make users scroll unless it is absolutely unavoidable.   
+ 
+ 
+•  Don’t rely on browser functions to assist in navigation.   
+ 
+ 
+•  Don’t allow aesthetics to supersede functionality. 
+  
+ 
+Interface Design Review  
+ 
+Interface Design Review  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The scene:  Doug Miller’s ofﬁ
+ ce. 
+   
+ 
+ 
+ 
+ 
+ 
+The players:  Doug Miller (manager of the  
+SafeHome 
+ software engineering group) and Vinod Raman, a 
+member of the  SafeHome 
+ product software engineering team.    
+ 
+ 
+ 
+ 
+ 
+The conversation:  
+   
+ 
+ 
+ 
+ 
+ 
+Doug:  Vinod, have you and the team had a chance 
+to review the   
+SafeHomeAssured.com 
+ 
+ e-commerce interface prototype? 
+   
+ 
+ 
+ 
+ 
+ 
+Vinod:  Y
+technical point of view, and I have a bunch of notes. 
+
+ebApp 
+
+team for the outsourcing vendor for the  SafeHome  e-commerce website] yesterday. 
+   
+ 
+ 
+ 
+ 
+ 
+Doug:  You and Sharon can get together and discuss 
+y of the important 
+
+issues.    
+ 
+ 
+ 
+ 
+ 
+Vinod:  Overall, they’ve done a good job, nothing 
+ground breaking, but it’s a typical e-commerce inter-
+
+face, decent aesthetics, reasonable layout, they’ve hit 
+all the impor
+   
+ 
+ 
+ 
+ 
+ 
+Doug (smiling ruefully):  But? 
+   
+ 
+ 
+ 
+ 
+ 
+Vinod:  W
+   
+ 
+ 
+ 
+ 
+ 
+Doug:  Such 
+   
+ 
+ 
+ 
+ 
+ 
+Vinod (showing Doug a sequence of story-boards for the interface prototype):  Here’s the 
+major functions menu that’s displayed on the home 
+
+page:   
+ 
+ 
+ 
+ 
+Learn about   SafeHome. 
+ 
+   
+ 
+ 
+ 
+Describe your home.  
+   
+ 
+ 
+ 
+Get   SafeHome 
+ 
+ component recommendations. 
+ 
+   
+ 
+ 
+ 
+Purchase a   SafeHome 
+ 
+ system.  
+   
+ 
+ 
+ 
+Get technical support.  
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+The problem isn’t with these functions. They’re all okay, 
+but the level of abstraction isn’t right. 
+   
+ 
+ 
+ 
+ 
+ 
+Doug:  They’re all major functions, aren’t they? 
+   
+ 
+ 
+ 
+ 
+ 
+Vinod:  They are, but here’-
+
+real need to describe the house if you don’t want to. I’d 
+
+suggest only four menu options on the home page:   
+ 
+ 
+ 
+ 
+Learn about   
+SafeHome. 
+ 
+    
+ 
+ 
+Specify the   SafeHome 
+ 
+ system you need.  
+   
+ 
+ 
+ 
+Purchase a   SafeHome 
+ 
+ system.  
+   
+ 
+ 
+ 
+Get technical support.  
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+When you select  Specify the 
+  SafeHome 
+ 
+ system you need 
+, you’ll then have the following options:   
+ 
+ 
+ 
+ 
+Select   SafeHome 
+ 
+ components.  
+   
+ 
+ 
+ 
+Get   SafeHome 
+ 
+ component recommendations. 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+If you’re a knowledgeable user, you’ll select compo-
+nents from a set of categorized pull-down menus for 
+sensors, cameras, control panels, and more. If you need 
+help, you’ll ask for a recommendation and that will 
+require that you describe your house. I think it’s a bit 
+
+more logical.    
+ 
+ 
+ 
+ 
+ 
+Doug:  I agree. Have you talked with Sharon about 
+this?    
+ 
+ 
+ 
+ 
+ 
+Vinod:  No, I want to discuss this with marketing ﬁ
+ rst; 
+then I’ll give her a call.  
+ 
+  
+SAFEHOME  
+ uote:  “People have very 
+little patience for 
+poorly designed 
+WWW sites.”  Jakob Nielsen 
+and Annette Wagner 
+pre22126_ch15_317-346.indd   340pre22126_ch15_317-346.indd   34013/12/13   10:01 PM13/12/13   10:01 PM

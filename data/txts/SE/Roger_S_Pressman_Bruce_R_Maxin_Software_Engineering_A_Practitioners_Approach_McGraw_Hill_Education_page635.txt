@@ -1,0 +1,75 @@
+CHAPTER 28  
+FORMAL MODELING AND VERIFICATION
+ 605the data encapsulated in the state box that must be retained between the transitions implied.   
+Clear box. 
+ The transition functions that are implied by the state box are deﬁ ned in the clear box. Stated simply, a clear box contains the proce-
+dural design for the state box.   
+Figure 28.2  illustrates the reﬁ nement approach using box structure speciﬁ
+ ca-
+tion. A black box (BB1) deﬁ nes responses for a complete set of stimuli. BB
+1 can be 
+reﬁ ned into a set of black boxes, BB
+1.1 to BB
+1. n , each of which addresses a class of behavior. Reﬁ
+ nement continues until a cohesive class of behavior is identiﬁ
+ ed 
+(e.g., BB1.1.1). A state box (SB1.1.1) is then deﬁ ned for the black box (BB
+1.1.1). In this case, SB1.1.1 contains all data and services required to implement the behavior 
+deﬁ ned by BB
+1.1.1. Finally, SB
+1.1.1 is reﬁ
+ ned into clear boxes (CB
+1.1.1. n ) and procedural design details are speciﬁ ed. 
+ 
+ 
+ 
+ 
+  As each of these reﬁ nement steps occurs, veriﬁ
+ cation of correctness also oc-
+curs. State-box speciﬁ cations are veriﬁ
+ ed to ensure that each conforms to the 
+behavior deﬁ ned by the parent black-box speciﬁ
+ cation. Similarly, clear-box spec-
+iﬁ cations are veriﬁ
+ ed against the parent state box. 
+ 
+ 
+ 
+28.2.1   
+Black-Box Speciﬁ cation 
+ 
+ 
+A  black-box 
+ speciﬁ
+ cation describes an abstraction, stimuli, and response using 
+the notation shown in  Figure 28.3  [Mil88]. The function  
+f 
+ is applied to a sequence 
+ S* 
+ of inputs (stimuli)  
+S 
+ and transforms them into an output (response)  
+R. 
+ For sim-
+ple software components,  f 
+ may be a mathematical function, but in general,  
+f 
+ is 
+described using natural language (or a formal speciﬁ cation language). 
+ 
+ 
+ 
+ uote:   “Every solution 
+to every problem 
+
+is simple. It’s the 
+
+distance between 
+the two where the 
+mystery lies.”  
+  Derek Landy  
+ FIGURE 28.2 
+Box structure 
+reﬁ
+ nement
+BB1CB1.1.1.1CB1.1.1.2CB1.1.1.3SB1.1.1BB1.1.1BB1.1.2BB1.1.3BB1.1BB1.2BB1.npre22126_ch28_601-622.indd   605pre22126_ch28_601-622.indd   60513/12/13   6:15 PM13/12/13   6:15 PM

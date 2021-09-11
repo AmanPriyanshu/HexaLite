@@ -1,0 +1,77 @@
+198 Chapter 3  
+Programs and Programmingnear the top of the list for highest proportion of web sites containing malicious code. A web site could be located anywhere, although a .cn or .ru at the end of 
+
+a URL associates the domain with China or Russia, respectively. However, the 
+
+United States is also often high on such lists because of the large number of 
+
+web-hosting providers located there. 
+• Make a recoverable system image and store it safely
+. If your system does 
+become infected, this clean version will let you reboot securely because it over-
+
+writes the corrupted system files with clean copies. For this reason, you must 
+
+keep the image write-protected during reboot. Prepare this image now, before 
+
+infection; after infection is too late. For safety, prepare an extra copy of the safe 
+
+boot image.• Make and retain backup copies of executable system files
+. This way, in the event 
+of a virus infection, you can remove infected files and reinstall from the clean 
+
+backup copies (stored in a secure, offline location, of course). Also make and 
+
+retain backups of important data files that might contain infectable code; such 
+
+files include word-processor documents, spreadsheets, slide presentations, pic-
+
+tures, sound files, and databases. Keep these backups on inexpensive media, 
+
+such as CDs or DVDs, a flash memory device, or a removable disk so that you 
+
+can keep old backups for a long time. In case you find an infection, you want to 
+
+be able to start from a clean backup, that is, one taken before the infection.
+As for blocking system vulnerabilities, the recommendation is clear but problem-
+atic. As new vulnerabilities become known you should apply patches. However, finding 
+
+flaws and fixing them under time pressure is often less than perfectly effective. Zero-
+
+day attacks are especially problematic, because a vulnerability presumably unknown to 
+
+the software writers is now being exploited, so the manufacturer will press the develop-
+
+ment and maintenance team hard to develop and disseminate a fix. Furthermore, sys-
+
+tems run many different software products from different vendors, but a vendor’s patch 
+
+cannot and does not consider possible interactions with other software. Thus, not only 
+
+may a patch not repair the flaw for which it was intended, but it may fail or cause fail-
+
+ure in conjunction with other software. Indeed, cases have arisen where a patch to one 
+
+software application has been “recognized” incorrectly by an antivirus checker to be 
+
+malicious code—and the system has ground to a halt. Thus, we recommend that you 
+
+should apply all patches promptly except when doing so would cause more harm than 
+
+good, which of course you seldom know in advance.
+Still, good hygiene and self-defense are important controls users can take against 
+malicious code. Most users rely 
+
+on tools, called virus scanners or 
+
+malicious code detectors, to guard 
+
+against malicious code that some-
+
+how makes it onto a system.
+Virus Detectors
+Virus scanners are tools that look for signs of malicious code infection. Most such tools 
+look for a signature or fingerprint, a telltale pattern in program files or memory. As we 
+Virus detectors are powerful but not all-
+
+powerful.

@@ -1,0 +1,64 @@
+824 Chapter 13  
+Emerging Topics
+Preparing a Business Case
+Mary Ann Davidson [DAV05] describes how Oracle evaluated two different intrusion 
+detection systems. The value and accuracy of each system were assessed as contribu-
+
+tions to how well the company could do its job. 
+The old system had a ridiculously high number of alarms every week, and an extraor-
+dinary amount of them—70 to 80 percent—were false positives [i.e., they indicated a 
+
+problem when in fact nothing was wrong]. We looked at what it was costing us to track 
+
+down the alarms that we really needed to do something about, including the costs for 
+
+people to sort through the alarms and analyze them. The new product had a much lower 
+
+alarm rate as well as a lower false positive rate. The information provided by the new 
+
+product was better, at a lower cost. Economic analysis, specifically return on invest-
+
+ment, helped us choose the new supplier over the old one.
+In this example Davidson tries to put a value on the time it takes her staff to investi-
+gate alarms. Although there were false alarms, the time invested still represents a cost 
+
+associated with using the old system.In general, businesses need to know whether and how investing one more unit of 
+money or time buys them more security. The effects on security depend on various per-
+
+spectives, such as effects on the global economy, the national economy, and corporate 
+
+supply chains. Sidebar 13-1 illustrates how an organization can generate a business case 
+
+for a security technology.
+SIDEBAR 13-1  
+A Business Case for Web Applications 
+SecurityCafésoft, a web access and identity management company, presents 
+a business case for web applications security on its corporate website 
+
+[GWI03]. The business case explains the return on investment for an orga-
+
+nization that secures its web applications. The argument has four thrusts:
+• Revenue: Increases in revenue can occur because the security 
+increases trust in the website or the company.
+• Costs: The cost argument is broader than simply the installation, oper-
+ation, and maintenance of the security application. It includes cost 
+
+savings (for example, from fewer security breaches), cost avoidance 
+
+(for example, from fewer calls to the help desk), efficiency (for exam-
+
+ple, from the ability to handle more customer requests) and effective-
+
+ness (for example, from the ability to provide more services).
+• Compliance: Security practices can derive from the organization, a 
+standards body, a regulatory body, best practice, or simply agree-
+
+ment with other organizations. Failure to implement regulatory security 
+
+practices can lead to fines, imprisonment, or bad publicity that can 
+
+affect current and future revenues. Failure to comply with agreed-on 
+
+standards with other organizations or with customers can lead to lost 
+
+business or lost competitive advantage.

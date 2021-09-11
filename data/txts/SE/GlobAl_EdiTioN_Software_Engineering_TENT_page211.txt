@@ -1,0 +1,13 @@
+˜˜˚˝˜˜˜˜˜˜A: 40B: 25C: 15D: 20Observer 1
+ABCDObserver 2
+Subject05025ABCDFigure 7.11 Multiple displays four essential description elements and also include a brief statement of what the 
+ pattern can do. This pattern can be used in situations where different presentations of an object™s state are required. It separates the object that must be displayed from the 
+different forms of presentation. This is illustrated in Figure 7.11, which shows two 
+different graphical presentations of the same dataset.Graphical representations are normally used to illustrate the object classes in 
+ patterns and their relationships. These supplement the pattern description and add 
+detail to the solution description. Figure 7.12 is the representation in UML of the 
+Observer pattern.To use patterns in your design, you need to recognize that any design problem 
+you are facing may have an associated pattern that can be applied. Examples of such 
+problems, documented in the Gang of Four™s original patterns book, include:1. Tell several objects that the state of some other object has changed (Observer pattern).2. Tidy up the interfaces to a number of related objects that have often been devel-oped incrementally (Façade pattern).SubjectObserverAttach (Observer)Detach (Observer)Notify ()Update ()ConcreteSubjectGetState ()subjectStateConcreteObserverUpdate ()observerStateobserverState =
+   subject -> GetState ()return subjectStatefor all o in observers
+   o -> Update ()Figure 7.12 A UML model of the  Observer pattern

@@ -1,0 +1,47 @@
+ Section 12.4  Message Digests 
+799  was not prime is at most 1/2. You repeat the process with a new value for 
+r chosen at 
+random. If this second r passes, the likelihood that a nonprime 
+p could pass both tests is 
+at most 1/4. In general, after the process is repeated k times without either test failing, 
+the likelihood that 
+p is not a prime is at most 1/2k.Cryptanalysis of the RSA AlgorithmThe RSA method has been scrutinized intensely by professionals in computer security and cryptanalysis. Several minor problems have been identified with it, none of signifi-
+
+cant concern; Boneh [BON99] catalogs known attacks on RSA. He notes no successful 
+
+attacks on RSA itself, but several serious but improbable attacks on implementation and 
+
+use of RSA.RSA is by far the most popular public key encryption algorithm in use. Now we 
+turn to two applications of cryptography: message digests and digital signatures, 
+
+both of which we introduce in Chapter 2. In this chapter we explore the algorithms in 
+
+more detail.12.4 MESSAGE DIGESTS
+In Chapter 2 we introduce the concept of error detection and correction codes. In 
+
+particular, we describe one-way and cryptographic hash functions, both of which are 
+
+designed to protect against malicious attempts to modify data and also adjust the code 
+value to match the modified data.
+Hash FunctionsAs presented in Chapter 2, hash or message digest functions are ways to detect possible 
+
+changes to a block of data. These functions signal unintentional changes as well as 
+
+intentional (malicious) ones.For unintentional changes, the signal function can be open, for example, parity bits 
+or more complicated error detection and correction codes, such as Hamming codes 
+
+[HAM50] and Reed Solomon codes [REE60]. In this book we are more interested in 
+schemes for detecting malicious change and preventing the attacker from subverting the 
+
+detection technique.One-Way Hash Functions
+One-way hash functions are a cryptographic construct with multiple uses. They are used 
+
+in conjunction with public-key algorithms for both encryption and digital signatures. 
+
+They are used in integrity checking. They are used in authentication. They are used in 
+
+communications protocols. Much more than encryption algorithms, one-way hash func-
+
+tions are the workhorses of modern cryptography.
+One-way functions prevent an outsider from taking an existing hash result and deter-
+mining other data values that match that hash result. Thus, Hector might have received 

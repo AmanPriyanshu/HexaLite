@@ -1,0 +1,56 @@
+CHAPTER 14  
+COMPONENT-LEVEL DESIGN
+ 305 
+It is important to note that the behavioral model often contains information that is not immediately obvious in other design models. For example, careful 
+examination of the statechart in  Figure 14.9  indicates that the dynamic behavior of the  PrintJob 
+ class is contingent upon two customer approvals as costs and 
+schedule data for the print job are derived. Without approvals (the guard condi-
+
+tion ensures that the customer is authorized to approve) the print job cannot be 
+submitted because there is no way to reach the  submittingJob 
+ state.  
+ 
+ 
+Step 6. Elaborate deployment diagrams to provide additional implementation detail.   Deployment diagrams (Chapter 12) are used as part of architectural de-sign and are represented in descriptor form. In this form, major system func-
+tions (often represented as subsystems) are represented within the context of the 
+computing environment that will house them.  During component-level design, deployment diagrams can be elaborated to 
+represent the location of key packages of components. However, components gen-
+
+erally are not represented individually within a component diagram. The reason 
+
+for this is to avoid diagrammatic complexity. In some cases, deployment diagrams 
+
+are elaborated into instance form at this time. This means that the speciﬁ c hard-
+ware and operating system environment(s) that will be used is (are) speciﬁ ed and 
+the location of component packages within this environment is indicated. 
+  
+ 
+Step 7. Refactor every component-level design representation and always con-sider alternatives.   Throughout this book, we emphasize that design is an itera-tive process. The ﬁ rst component-level model you create will not be as complete, 
+consistent, or accurate as the  n 
+th iteration you apply to the model. It is essential to refactor as design work is conducted.  In addition, you should not suffer from tunnel vision. There are always alter-
+native design solutions, and the best designers consider all (or most) of them 
+before settling on the ﬁ nal design model. Develop alternatives and consider each 
+carefully, using the design principles and concepts presented in Chapter 12 and 
+
+in this chapter. 
+  
+ 
+ 
+ 
+ 
+ 14.4 C
+OMPONENT-LEVEL DESIGN FOR WEBAPPS  
+ 
+The boundary between content and function is often blurred when Web-based 
+systems and applications (WebApps) are considered. Therefore, it is reasonable 
+
+to ask: What is a WebApp component? 
+ In the context of this chapter, a WebApp component is (1) a well-deﬁ
+ ned co-
+hesive function that manipulates content or provides computational or data pro-
+cessing for an end user or (2) a cohesive package of content and functionality 
+that provides the end user with some required capability. Therefore, compo-
+
+nent-level design for WebApps often incorporates elements of content design 
+
+and functional design. pre22126_ch14_285-316.indd   305pre22126_ch14_285-316.indd   30513/12/13   6:12 PM13/12/13   6:12 PM

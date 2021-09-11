@@ -1,0 +1,85 @@
+CHAPTER 19  
+QUALITY CONCEPTS 429work products to determine their quality. Failure costs encompass the internal 
+price of failure and the external effects that poor quality precipitates.  Software quality is achieved through the application of software engineering methods, solid management practices, and comprehensive quality control—all 
+supported by a software quality assurance infrastructure. In the chapters that 
+follow, quality control and assurance are discussed in some detail. 
+  
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+19.1   Describe how you would assess the quality of a university before applying to it. What factors would be important? Which would be critical?    
+ 
+19.2   Garvin [Gar84] describes ﬁ ve different views of quality. Provide an example of each 
+using one or more well-known electronic products with which you are familiar. 
+   
+ 
+19.3   Using the deﬁ nition of software quality proposed in Section 19.2, do you think it’s pos-
+sible to create a useful product that provides measurable value without using an effective 
+process? Explain your answer. 
+   
+ 
+19.4   Add two additional questions to each of Garvin’s quality dimensions presented in Sec-
+tion 19.2.1.    
+ 
+19.5   McCall’s quality factors were developed during the 1970s. Almost every aspect of com-
+puting has changed dramatically since the time that they were developed, and yet, McCall’s 
+
+factors continue to apply to modern software. Can you draw any conclusions based on this 
+fact?    
+ 
+19.6   Using the subattributes noted for the ISO 9126 quality factor “maintainability” in Sec-tion 19.2.3, develop a set of questions that explore whether or not these attributes are pres-
+ent. Follow the example shown in Section 19.2.4.    
+ 
+19.7   Describe the software quality dilemma in your own words.    
+ 
+19.8   What is “good enough” software? Name a speciﬁ c company and speciﬁ
+ c products that 
+you believe were developed using the good enough philosophy. 
+   
+ 
+19.9   Considering each of the four aspects of the cost of quality, which do you think is the 
+most expensive and why?    
+ 
+19.10   Do a Web search and ﬁ
+ nd three other examples of “risks” to the public that can be 
+directly traced to poor software quality. Consider beginning your search at  
+ 
+http://catless.ncl.ac.uk/risks 
+ 
+.    
+ 
+19.11   Are  quality 
+ and  
+security 
+ the same thing? Explain.    
+ 
+19.12   Explain why it is that many of us continue to live by Meskimen’s law. What is it about 
+the software business that causes this?   
+ 
+ 
+ 
+  F
+URTHER
+ READINGS AND INFORMATION
+ SOURCES  
+ 
+Basic software quality concepts are considered in books by Chemutri ( Master Software 
+ Quality Assurance: Best Practices, Tools and Techniques for Software Developers
+ 
+, Ross 
+ Publishing, 2010), Henry and Hanlon ( Software Quality Assurance,
+ 
+ Prentice Hall, 2008), Khan 
+and his colleagues ( Software Quality: Concepts and Practice,
+ 
+ Alpha Science International, 
+Ltd., 2006), O’Regan ( A Practical Approach to Software Quality,
+ 
+ Springer, 2002), and Daughtrey 
+ ( Fundamental Concepts for the Software Quality Engineer,
+ 
+ ASQ Quality Press, 2001). 
+pre22126_ch19_411-430.indd   429pre22126_ch19_411-430.indd   42913/12/13   6:13 PM13/12/13   6:13 PM

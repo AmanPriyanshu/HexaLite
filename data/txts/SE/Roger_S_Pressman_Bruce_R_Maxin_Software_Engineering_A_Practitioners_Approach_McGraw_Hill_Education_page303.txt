@@ -1,0 +1,96 @@
+CHAPTER 13  
+ARCHITECTURAL DESIGN 273a  scheduler 
+ infrastructure component that implements polling of each  
+sensor 
+ object used by the security system. Similar elaboration is performed for each of 
+the components represented in  Figure 13.8 .  
+ 
+Architectural Design 
+ 
+ Objective: 
+  Architectural design tools model the overall software structure by representing component interface, dependencies and relationships, 
+
+and interactions.   
+ 
+Mechanics: 
+  Tool mechanics vary. In most cases, 
+architectural design capability is part of the functionality 
+
+provided by automated tools for analysis and design 
+modeling.   
+ 
+ 
+Representative Tools: 
+ 7 
+ 
+   
+ 
+Adalon, 
+ developed by Synthis Corp. (  
+www.synthis
+.com 
+ 
+), is a specialized design tool for the design and construction of speciﬁ c Web-based component 
+architectures.   
+ObjectiF,
+ 
+ developed by microTOOL GmbH (  
+www.microtool.de/objectiF/en/
+ 
+ 
+), is a UML-based design tool that leads to architectures 
+(e.g., Coldfusion, J2EE, Fusebox) amenable to 
+component-based software engineering 
+( Chapter 14 ).   
+Rational Rose, 
+ developed by Rational (  
+http://www-01.ibm.com/software/rational/ 
+ 
+), ts all 
+
+aspects of architectural design.   
+SOFTWARE
+ TOOLS  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+13.6.5  Architectural Design for Web Apps 
+ 
+WebApps 
+ 8 
+ 
+ are client-server applications typically structured using multilayered 
+architectures, including a user interface or view layer, a controller layer which 
+
+directs the ﬂ ow of information to and from the client browser based on a set of 
+business rules, and a content or model layer that may also contain the business 
+rules for the WebApp. 
+  
+The user interface for a WebApp is designed around the characteristics of the 
+web browser running on the client machine (usually a personal computer or mobile 
+
+device). Data layers reside on a server. Business rules can be implemented using a 
+
+server-based scripting language such as PHP or a client-based scripting language 
+
+such as javascript. An architect will examine requirements for security and usabil-
+ity to determine which features should be allocated to the client or server. 
+ The architectural design of a WebApp is also inﬂ
+ uenced by the structure (lin-
+ear or nonlinear) of the content that needs to be accessed by the client. The ar-
+
+chitectural components (Web pages) of a WebApp are designed to allow control 
+
+to be passed to other system components, allowing very ﬂ exible navigation struc-
+tures. The physical location of media and other content resources also inﬂ uences 
+the architectural choices made by software engineers.   
+7  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+  
+8  WebApp design is discussed in more detail in  
+Chapter 17 . pre22126_ch13_252-284.indd   273pre22126_ch13_252-284.indd   27313/12/13   6:12 PM13/12/13   6:12 PM

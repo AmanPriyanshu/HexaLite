@@ -1,0 +1,56 @@
+436 PART THREE  
+QUALITY MANAGEMENT 
+For example, if a requirements model is reviewed to uncover errors, incon-sistencies, and omissions, it would be possible to compute the error density 
+
+in a number of different ways. The requirements model contains 18 UML 
+
+diagrams as part of 32 overall pages of descriptive materials. The review un-
+covers 18 minor errors and 4 major errors. Therefore, Errtot 5 22. Error den-
+sity is 1.2 errors per UML diagram or 0.68 errors per requirements model 
+
+page. 
+ If reviews are conducted for a number of different types of work products (e.g., requirements model, design model, code, test cases), the percentage of errors 
+uncovered for each review can be computed against the total number of errors 
+found for all reviews. In addition, the error density for each work product can be 
+computed.  Once data are collected for many reviews conducted across many proj-ects, average values for error density enable you to estimate the number of 
+
+errors to be found in a new (as yet unreviewed document). For example, if 
+
+the average error density for a requirements model is 0.6 errors per page, 
+
+and a new requirement model is 32 pages long, a rough estimate suggests 
+
+that your software team will find about 19 or 20 errors during the review of 
+
+the document. If you find only 6 errors, you’ve done an extremely good job in 
+
+developing the requirements model or your review approach was not thor-
+
+ough enough. 
+ Once testing has been conducted (Chapters 22 through 26), it is possible to collect additional error data, including the effort required to ﬁ nd and correct 
+errors uncovered during testing and the error density of the software. The costs 
+associated with ﬁ nding and correcting an error during testing can be compared 
+to those for reviews. This is discussed in Section 20.3.2.   
+ 
+ 
+20.3.2   Cost-Effectiveness of Reviews 
+ 
+It is difﬁ cult to measure the cost-effectiveness of any technical review in real time. 
+A software engineering organization can assess the effectiveness of reviews and 
+their cost beneﬁ t only after reviews have been completed, review metrics have 
+been collected, average data have been computed, and then the downstream 
+quality of the software is measured (via testing).  Returning to the example presented in Section 20.3.1, the average error 
+density for requirements models was determined to be 0.6 per page. The 
+
+effort required to correct a minor model error (immediately after the re-
+view) was found to require 4 person-hours. The effort required for a major 
+
+requirement error was found to be 18 person-hours. Examining the review 
+
+data collected, you find that minor errors occur about 6 times more fre-
+quently than major errors. Therefore, you can estimate that the average 
+
+effort to find and correct a requirements error during review is about 
+
+ 
+pre22126_ch20_431-447.indd   436pre22126_ch20_431-447.indd   43613/12/13   10:01 PM13/12/13   10:01 PM

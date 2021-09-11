@@ -1,0 +1,74 @@
+ Section 7.5  Data Mining and Big Data 
+537  be involved in data mining to interpret the output: Only humans can discern that more 
+variables are involved (for example, time of year or places where cones are sold).
+Computer security gains from data mining. Data mining is widely used to analyze system data, for example, audit logs, to identify patterns related to attacks. Finding the 
+
+precursors to an attack can help develop good prevention tools and techniques, and seeing 
+
+the actions associated with an attack can help pinpoint vulnerabilities to control any dam-
+
+age that may have occurred. (One of 
+
+the early works in this area is by Lee 
+
+and Stolfo [LEE98], and entire con-
+
+ferences have been devoted to this 
+
+important and maturing topic.)In this section, however, we want to examine security problems involving data mining. 
+Our now-familiar triad of confidentiality, integrity, and availability gives us clues to what 
+
+these security issues are. Confidentiality concerns start with privacy but also include pro-
+
+prietary and commercially sensitive data and protecting the value of intellectual property: 
+
+How do we control what is disclosed or derived? For integrity the important issue is cor-
+
+rectness—incorrect data are both useless and potentially damaging, but we need to inves-
+
+tigate how to gauge and ensure correctness. The availability consideration relates to both 
+
+performance and structure: Combining databases not originally designed to be combined 
+
+affects whether results can be obtained in a timely manner or even at all.
+Privacy and SensitivityBecause the goal of data mining is summary results, not individual data items, you 
+would not expect a problem with sensitivity of individual data items. Unfortunately, that 
+
+is not true.Individual privacy can suffer from the same kinds of inference and aggregation 
+issues we studied for databases. Because privacy, specifically protecting what a person 
+
+considers private information, is an important topic that relates to many areas of com-
+
+puter security, we study it in depth in Chapter 9.
+Not only individual privacy is affected, however: Correlation by aggregation and 
+inference can affect companies, organizations, and governments, too. Take, for exam-
+
+ple, a problem involving Firestone tires and the Ford Explorer vehicle. In May 2000, the 
+
+U.S. National Highway Traffic Safety Administration (NHTSA) found a high incidence 
+
+of tire failure on Ford Explorers fitted with Firestone tires. In certain conditions the 
+
+Firestone tire tread separated; in certain conditions the Ford Explorer tipped over, and 
+
+when the tread separated, the Ford was more likely to tip over [PUB01]. Consumers had 
+
+complained to both Ford and Firestone since shortly after the tire and vehicle combina-
+
+tion was placed on the market in 1990, but problems began to rise after a design change 
+
+in 1995. Both companies had some evidence of the problem, but the NHTSA review of 
+
+combined data better showed the correlation. Maintaining data on products’ quality is a 
+
+standard management practice. But the sensitivity of data in these databases would pre-
+
+clude much sharing. Even if a trustworthy neutral party could be found to mine the data, 
+
+the owners would be reasonably concerned for what might be revealed. A large number 
+
+of failures of one product could show a potential market weakness, or a series of small 
+
+amounts of data could reveal test marketing activities to outsiders.
+Data mining can support analysis 
+of security data.

@@ -1,0 +1,107 @@
+CHAPTER 7  
+PRINCIPLES THAT GUIDE PRACTICE
+ 115 
+In their book on agile modeling, Scott Ambler and Ron Jeffries [Amb02b] de-ﬁ ne a set of modeling principles 
+ 5 
+ 
+ that are intended for those who use the agile 
+process model (Chapter 5) but are appropriate for all software engineers who 
+perform modeling action and tasks:   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Principle 1. 
+  The primary goal of the software team is to build software, not The primary goal of the software team is to build software, not 
+create models.create models.
+ 
+ Agility means getting software to the customer in the fast-est possible time. Models that make this happen are worth creating, but 
+models that slow the process down or provide little new insight should be 
+avoided.    
+ 
+ 
+ 
+ 
+ 
+Principle 2. 
+  Travel light—don’t create more models than you need.Travel light—don’t create more models than you need.
+ 
+ Every model that is created must be kept up-to-date as changes occur. More 
+
+importantly, every new model takes time that might otherwise be spent 
+
+on construction (coding and testing). Therefore, create only those models 
+that make it easier and faster to construct the software.  
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Principle 3. 
+  Strive to produce the simplest model that will describe the Strive to produce the simplest model that will describe the 
+problem or the software.problem or the software.
+ 
+ Don’t overbuild the software [Amb02b]. By keep-ing models simple, the resultant software will also be simple. The result is 
+software that is easier to integrate, easier to test, and easier to maintain 
+(to change). In addition, simple models are easier for members of the 
+software team to understand and critique, resulting in an ongoing form 
+   
+ 
+ 
+ 
+ 
+ 
+Principle 4. 
+  Build models in a way that makes them amenable to change. Build models in a way that makes them amenable to change.  Assume that your models will change, but in making this assumption don’t 
+get sloppy. For example, since requirements will change, there is a ten-
+
+dency to give requirements models short shrift. Why? Because you know 
+that they’ll change anyway. The problem with this attitude is that without 
+
+a reasonably complete requirements model, you’ll create a design (design 
+model) that will invariably miss important functions and features.    
+ 
+ 
+ 
+ 
+ 
+Principle 5. 
+  Be able to state an explicit purpose for each model that is Be able to state an explicit purpose for each model that is  
+created. 
+created.
+ 
+ Every time you create a model, ask yourself why you’re doing so. If you can’t provide solid justiﬁ cation for the existence of the model, don’t 
+spend time on it.    
+ 
+ 
+ 
+ 
+ 
+Principle 6. 
+  Adapt the models you develop to the system at hand.Adapt the models you develop to the system at hand. 
+ It may be necessary to adapt model notation or rules to the application; for 
+example, a video game application might require a different modeling 
+technique than real-time, embedded software that controls an automobile 
+engine.  Deﬁ ne how you intend to ensure quality.Describe how you intend to accommodate change.Track the plan frequently and make adjustments as  required.   The intent of any 
+model is to communi-
+cate information. To 
+
+accomplish this, use 
+a consistent format. 
+
+Assume that you won’t 
+be there to explain the 
+model. It should stand 
+on its own.   
+5  The principles noted in this section have been abbreviated and rephrased for the purposes of 
+this book. pre22126_ch07_103-130.indd   115pre22126_ch07_103-130.indd   11513/12/13   6:11 PM13/12/13   6:11 PM

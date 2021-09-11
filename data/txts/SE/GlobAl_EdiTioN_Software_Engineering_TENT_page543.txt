@@ -1,0 +1,59 @@
+I have shown the six key stages in the process of system construction by composi
+-tion in Figure 18.14:1. Formulate outline workflow In this initial stage of service design, you use the requirements for the composite service as a basis for creating an ﬁidealﬂ service 
+design. You should create a fairly abstract design at this stage, with the intention 
+
+of adding details once you know more about available services.
+2. Discover services 
+During this stage of the process, you look for existing ser
+-vices to include in the composition. Most service reuse is within enterprises, so 
+this may involve searching local service catalogs. Alternatively, you may search 
+
+the services offered by trusted service providers, such as Oracle and Microsoft.
+3. Select possible services From the set of possible service candidates that you 
+
+have discovered, you then select possible services that can implement workflow 
+
+activities. Your selection criteria will obviously include the functionality of the 
+
+services offered. They may also include the cost of the services and the quality 
+
+of service (responsiveness, availability, etc.) offered.
+4. Refine workflow On the basis of information about the services that you have selected, 
+
+you then refine the workflow. This involves adding detail to the abstract description 
+
+and perhaps adding or removing workflow activities. You may then repeat the ser
+-vice˜discovery and selection stages. Once a stable set of services has been chosen and 
+
+the final workflow design established, you move on to the next stage in the process.
+5. Create workflow program During this stage, the abstract workflow design is 
+
+transformed to an executable program and the service interface is defined. You 
+
+can implement workflow programs using a programming language, such as Java 
+
+or C#, or by using a workflow language, such as BPMN (explained below). This 
+
+stage may also involve the creation of web-based user interfaces to allow the 
+
+new service to be accessed from a web browser.
+6. Test completed service or application The process of testing the completed, 
+
+composite service is more complex than component testing in situations where 
+
+external services are used. I discuss testing issues in Section 18.4.2.
+This process assumes that existing services are available for composition. If you 
+rely on external information that is not available through a service interface, you 
+
+may have to implement these services yourself. This usually involves a ﬁscreen 
+Formulate
+outlineworkflowDiscoverservicesWorkflow
+designService listServicespecificationsWorkflow
+designSelectservicesRefineworkflowCreateworkflowprogram
+ExecutableworkflowTest
+serviceDeployableserviceFigure 18.14 Service 
+construction by 
+
+composition 
+˜˚˛˝ˇ˜˜˜
+˜˜˜

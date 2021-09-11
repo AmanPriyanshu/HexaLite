@@ -1,0 +1,45 @@
+304 PART TWO  
+MODELING 
+The transition from one state (represented by a rectangle with rounded c orners) to another occurs as a consequence of an event that takes the form:  
+Event-name (parameter-list) [guard-condition] / action expression 
+ 
+where event-name identiﬁ
+ es the event, 
+parameter-list
+ incorporates data that are asso-ciated with the event, guard-condition is written in Object Constraint Language (OCL) 
+and speciﬁ es a condition that must be met before the event can occur, and 
+action expression deﬁ nes an action that occurs as the transition takes place. 
+ Referring to  Figure 14.9 , each state may deﬁ ne  
+entry/ 
+ and  
+exit/ 
+ actions that 
+occur as transition into the state occurs and as transition out of the state occurs, 
+respectively. In most cases, these actions correspond to operations that are rele-
+
+vant to the class that is being modeled. The  do/ 
+ indicator provides a mechanism for indicating activities that occur while in the state, and the  include/ 
+ indicator 
+provides a means for elaborating the behavior by embedding more statechart 
+detail within the deﬁ nition of a state. 
+ 
+ 
+FIGURE 14.9 
+Statechart fragment for 
+PrintJob class  
+ buildingJobDataentry/readJobData( )
+exit/displayJobData( ) 
+do/checkConsistency( ) 
+include/dataInputentry/computeJob 
+
+exit/save totalJobCost  formingJob
+entry/buildJob 
+exit/save WOnumber 
+do/ computingJobCostsubmittingJobentry/submitJob 
+exit/initiateJob 
+do/place on JobQueue Behavior within the 
+state buildingJobDatadataInputCompleted [all data 
+items consistent]/displayUserOptions dataInputIncomplete 
+deliveryDateAccepted [customer is authorized]/ 
+printJobEstimate jobCostAccepted [customer is authorized]/ getElectronicSignature jobSubmitted [all authorizations acquired]/printWorkOrder 
+pre22126_ch14_285-316.indd   304pre22126_ch14_285-316.indd   30413/12/13   6:12 PM13/12/13   6:12 PM

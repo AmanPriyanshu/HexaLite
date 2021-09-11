@@ -1,0 +1,47 @@
+ Section 3.2  Malicious Code—Malware 
+175  TABLE 3-3 
+Notable Malicious Code InfectionsYearNameCharacteristics
+1982Elk ClonerFirst virus; targets Apple II computers
+1985BrainFirst virus to attack IBM PC
+
+1988Morris wormAllegedly accidental infection disabled large portion of the ARPANET, precursor to 
+today’s Internet
+1989GhostballsFirst multipartite (has more than one executable piece) virus
+
+1990Chameleon First polymorphic (changes form to avoid detection) virus
+
+1995ConceptFirst virus spread via Microsoft Word document macro
+
+1998Back OrificeTool allows remote execution and monitoring of infected computer
+
+1999MelissaVirus spreads through email address book
+
+2000IloveYouWorm propagates by email containing malicious script. Retrieves victim’s address book to 
+expand infection. Estimated 50 million computers affected.
+2000TimofonicaFirst virus targeting mobile phones (through SMS text messaging)
+
+2001Code RedVirus propagates from 1st to 20th of month, attacks whitehouse.gov web site from 20th 
+to 28th, rests until end of month, and restarts at beginning of next month; resides only in 
+
+memory, making it undetected by file-searching antivirus products
+2001Code Red IILike Code Red, but also installing code to permit remote access to compromised 
+machines2001NimdaExploits known vulnerabilities; reported to have spread through 2 million machines in a 
+24-hour period2003Slammer wormAttacks SQL database servers; has unintended denial-of-service impact due to massive 
+amount of traffic it generates
+2003SoBig wormPropagates by sending itself to all email addresses it finds; can fake From: field; can 
+retrieve stored passwords
+2004MyDoom wormMass-mailing worm with remote-access capability
+
+2004Bagle or Beagle 
+worm
+Gathers email addresses to be used for subsequent spam mailings; SoBig, MyDoom, and Bagle seemed to enter a war to determine who could capture the most email addresses
+2008Rustock.CSpam bot and rootkit virus
+
+2008ConfickerVirus believed to have infected as many as 10 million machines; has gone through five 
+major code versions
+2010StuxnetWorm attacks SCADA automated processing systems; zero-day attack
+
+2011DuquBelieved to be variant on Stuxnet
+
+2013CryptoLockerRansomware Trojan that encrypts victim’s data storage and demands a ransom for the 
+decryption key

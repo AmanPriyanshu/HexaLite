@@ -1,0 +1,37 @@
+382 PART TWO  
+MODELING 
+ 
+ 
+Grid structures
+ 
+ ( 
+Figure 17.5 ) are an architectural option that you can apply when WebApp content can be organized categorically in two (or more) dimen-
+
+sions. For example, consider a situation in which an e-commerce site sells golf 
+clubs. The horizontal dimension of the grid represents the type of club to be sold 
+(e.g., woods, irons, wedges, putters). The vertical dimension represents the offer-
+
+ings provided by various golf club manufacturers. Hence, a user might navigate 
+the grid horizontally to ﬁ nd the putters column and then vertically to examine 
+the offerings provided by those manufacturers that sell putters. This WebApp 
+
+architecture is useful only when highly regular content is encountered [Pow02].   
+ 
+Hierarchical structures
+ 
+ ( 
+Figure 17.6 ) are undoubtedly the most common WebApp architecture. Unlike the partitioned software hierarchies discussed in 
+
+Chapter 13 that encourage ﬂ ow of control only along vertical branches of the 
+LinearLinear
+withoptional flowLinearwithdiversions  
+FIGURE 17.4 
+Linear structures 
+ 
+ 
+ 
+ 
+FIGURE 17.5 
+Grid structure 
+ 
+ pre22126_ch17_371-390.indd   382pre22126_ch17_371-390.indd   38213/12/13   6:13 PM13/12/13   6:13 PM

@@ -1,0 +1,48 @@
+˜˜˚˛˜˜˜˜˜˜ˆ˛ˇ˜˜˜such as offices, organizational units such as companies, and so on (Wirfs-Brock, 
+Wilkerson, and Weiner 1990).3. Use a scenario-based analysis where various scenarios of system use are identi-
+fied and analyzed in turn. As each scenario is analyzed, the team responsible for 
+the analysis must identify the required objects, attributes, and operations (Beck 
+and Cunningham 1989).In practice, you have to use several knowledge sources to discover object classes. 
+Object classes, attributes, and operations that are initially identified from the informal 
+
+system description can be a starting point for the design. Information from application 
+
+domain knowledge or scenario analysis may then be used to refine and extend the ini-tial objects. This information can be collected from requirements documents, discus-
+sions with users, or analyses of existing systems. As well as the objects representing 
+
+entities external to the system, you may also have to design ﬁimplementation objectsﬂ 
+
+that are used to provide general services such as searching and validity checking.In the wilderness weather station, object identification is based on the tangible 
+hardware in the system. I don™t have space to include all the system objects here, but 
+I have shown five object classes in Figure 7.6. The Ground thermometer
+, Anemometer, and Barometer objects are application domain objects, and the 
+WeatherStation and WeatherData objects have been identified from the system 
+description and the scenario (use case) description:1. The WeatherStation object class provides the basic interface of the weather sta-tion with its environment. Its operations are based on the interactions shown in Figure 7.
+3. I use a single object class, and it includes all of these interactions. 
+Alternatively, you could design the system interface as several different classes, 
+with one class per interaction.identifierreportWeather ( )
+reportStatus ( )
+powerSave (instruments)remoteControl (commands)reconfigure (commands)restart (instruments)
+shutdown (instruments)WeatherStation
+get ( )
+test ( )Ground
+thermometer
+temperatureAnemometer
+windSpeed
+windDirectionget ( )
+test ( )
+Barometer
+pressureheightget ( )test ( )
+WeatherData
+airTemperatures
+
+groundTemperatures
+
+windSpeeds
+windDirections
+pressures
+rainfall
+collect ( )
+summarize ( )
+gt_Ident
+an_Identbar_IdentFigure 7.6 Weather station objects

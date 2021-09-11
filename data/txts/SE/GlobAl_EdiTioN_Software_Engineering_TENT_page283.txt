@@ -1,0 +1,29 @@
+PART As software systems are now part of all aspects of our lives, I believe that the most significant challenge that we face in software engineering is 
+
+ensuring that we can trust these systems. To trust a system, we must have  confidence that it will be available when required and perform as expected. 
+It must be secure so that our computers or data are not threatened by it and 
+it has to recover quickly in the event of failure or cyberattack. This part of 
+the book has therefore focuses on the important topics of software system 
+dependability and security.Chapter 10 introduces the basic concepts of dependability and security 
+
+namely reliability, availability, safety, security and resilience. I explain 
+
+why building secure, dependable systems is not simply a technical 
+
+problem. I introduce redundancy and diversity as the fundamental 
+
+mechanisms used to create dependable and secure systems. The indi
+-vidual dependability attributes are covered in more detail in the fol
+-
+lowing chapters.
+Chapter 11 focuses on reliability and availability and I explain how these 
+attributes can be specified as probabilities of failure or downtime. I dis
+-
+cuss a number of architectural patterns for fault-tolerant system architec
+-
+tures and development techniques that can be used to reduce the number 
+
+of faults in a system. In the final section, I explain how the reliability of a 
+
+system may be tested and measured.
+2

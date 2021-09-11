@@ -1,0 +1,59 @@
+88 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+The original form of a message is known as 
+plaintext, and the encrypted form is 
+called ciphertext. This relationship is shown in Figure 2-18. Think of encryption as a 
+form of opaque paint that obscures 
+
+or obliterates the plaintext, prevent-
+
+ing it from being seen or interpreted 
+accurately. Then, decryption is the 
+
+process of peeling away the paint to 
+
+reveal the original plaintext again.
+We use a formal notation to describe the transformations between plaintext and 
+ciphertext. For example, we write 
+C  E(P) and P  D(C), where C represents the 
+ciphertext, 
+E is the encryption rule, 
+P is the plaintext, and 
+D is the decryption rule. What 
+we seek is a cryptosystem for which P  D(E(P)). In other words, we want to be able 
+to convert the plaintext message to ciphertext to protect it from an intruder, but we also 
+
+want to be able to get the original message back so that the receiver can read it properly.
+Encryption KeysA cryptosystem involves a set of rules for how to encrypt the plaintext and decrypt 
+the ciphertext. The encryption and decryption rules, called 
+algorithms, often use a 
+device called a 
+key
+, denoted by K, so that the resulting ciphertext depends on the origi-
+nal plaintext message, the algorithm, and the key value. We write this dependence as 
+
+C  E(K, P). Essentially, 
+E is a set of encryption algorithms, and the key 
+K selects one specific algorithm from the set.
+This process is similar to using mass-produced locks in houses. As a homeowner, 
+you would pay dearly to contract with someone to invent and make a lock just for your 
+
+house. In addition, you would not know whether a particular inventor’s lock was really 
+
+solid or how it compared with those of other inventors. A better solution is to have a few 
+
+well-known, well-respected companies producing standard locks that differ according 
+
+to the (physical) key. Then, you and your neighbor might have the same brand and style 
+
+of lock, but your key will open only your lock. In the same way, it is useful to have a 
+
+few well-examined encryption algorithms for everyone to use, but differing keys would 
+
+prevent someone from breaking into data you are trying to protect.
+Sometimes the encryption and decryption keys are the same, so 
+P  D(K,E(K,P)), meaning that the same key, 
+K, is used both to encrypt a message and later to decrypt it. This form is called symmetric or single-key
+ or secret
+ key encryption because 
+D and E Ciphertext: encrypted material; plaintext: material in intelligible formKey(Optional)OriginalPlaintextPlaintextCiphertextKey(Optional)EncryptionDecryptionFIGURE 2-18 Plaintext and Ciphertext

@@ -1,0 +1,67 @@
+understand the examples here. You only need to know that names may be prefixed with a 
+namespace identifier and that the 
+namespace:name pair should be unique.In Figure 18.5, the first part of the description shows part of the element and type 
+definition that is used in the service specification. This defines the elements 
+PlaceAndDate, MaxMinTemp
+, and InDataFault
+. I have only included the specification 
+of PlaceAndDate, which you can think of as a record with three fieldsŠtown, country 
+and date. A similar approach would be used to define 
+MaxMinTemp
+ and InDataFault
+.The second part of the description shows how the service interface is defined. In this 
+example, the service 
+weatherInfo has a single operation, although there are no restrictions 
+on the number of operations that may be defined. The 
+weatherInfo operation has an asso-ciated in-out pattern meaning that it takes one input message and generates one output 
+
+message. The WSDL 2.0 specification allows for a number of message exchange patterns 
+
+such as in-only, in-out, out-only, in-optional-out, and 
+out-in. The input and output mes
+-sages, which refer to the definitions made earlier in the types section, are then defined.
+A service interface that is defined in WSDL is simply a description of the service 
+signature, that is, the operations and their parameters. It does not include any infor
+-mation about the semantics of the service or its non-functional characteristics, such 
+as performance and dependability. If you plan to use the service, you have to work 
+
+out what the service actually does and the meaning of the input and output messages. 
+You have to experiment to discover the service™s performance and dependability. 
+
+While meaningful names and documentation help with understanding the service 
+
+functionality, it is still possible to misunderstand what the service actually does.
+XML-based service descriptions are long, detailed, and tedious to read. WSDL 
+specifications are not normally written by hand, and most of the information in a 
+
+specification is automatically generated.
+
+
+The initial developments of web services and service-oriented software engineering 
+
+were standards-based, with XML-based messages exchanged between services. This 
+
+is a general approach that allows for the development of complex services, dynamic 
+
+service binding, and control over quality of service and service dependability. 
+
+However, as services were developed, it emerged that most of these were single-
+
+function services with relatively simple input and output interfaces. Service users 
+
+were not really interested in dynamic binding and the use of multiple service provid
+-
+ers. They rarely use web service standards for quality of service, reliability, and so forth.
+The problem is that web services standards are ﬁheavyweightﬂ standards that are 
+sometimes overly general and inefficient. Implementing these standards requires a con
+-
+siderable amount of processing to create, transmit, and interpret the associated XML 
+
+messages. This slows down communications between services, and, for high-throughput 
+
+systems, additional hardware may be required to deliver the quality of service required.
+In response to this situation, an alternative ﬁlightweightﬂ approach to web service 
+architecture has been developed. This approach is based on the REST architectural 
+˜˚˛˝˙˜˜˜
+˜
+˜˜

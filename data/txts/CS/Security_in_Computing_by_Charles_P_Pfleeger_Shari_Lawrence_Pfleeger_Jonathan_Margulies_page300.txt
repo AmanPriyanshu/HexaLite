@@ -1,0 +1,61 @@
+266 Chapter 4  
+The Web—User Side
+Having your ID is no help to an attacker as long as your password is extremely difficult 
+to guess or derive. Alas, that is where users often go wrong.
+Faced with many passwords to remember, users skimp by reusing the same password 
+on multiple sites. Even that reuse would be of only minor consequence if web sites pro-
+
+tected IDs and corresponding passwords. But, as Sidebar 4-9 demonstrates, websites’ 
+
+ID and password tables are both valuable to attackers and frequently obtained. The 
+
+attack described is just one (the largest) of many such incidents described over time. 
+
+Combine some users’ propensity for using the same password on numerous web sites 
+
+with websites’ exposure to password leaking attacks, and you have the potential for 
+
+authentication disaster.
+Even if it is the web site that is attacked, it is the users who suffer the loss. Thus, 
+understanding threats, vulnerabilities, and countermeasures is ultimately the web site 
+owners’ responsibility. However, knowing that some web sites fail to protect their data 
+
+adequately, you should be especially careful with your sensitive data: Choose strong 
+
+passwords and do not repeat them across web sites.
+Foiling Data AttacksThe attacks in this section all depend on passing commands disguised as input. As noted 
+
+in Chapter 3, a programmer cannot assume that input is well formed.SIDEBAR 4-9  
+Massive Compromise of a Password 
+Database The New York Times 
+(5 Aug 2014) reported that a group of Russian crimi-
+nals had stolen over 1.2 billion ID and password pairs, and 500 million email 
+
+addresses, as well as other sensitive data. These data items came from 
+
+420,000 web sites. To put those numbers in perspective, the U.S. Census 
+
+Bureau (2013) estimated the total population of the world at slightly more 
+
+than 7 billion people, which of course includes many who are not Internet 
+
+users. Internet World Stats (http://www.internetworldstats.com/stats.htm) 
+
+estimated that in 2012 there were approximately 2.4 billion Internet users 
+
+in the world.The attack results were reported by security consultant Alex Holden 
+of Hold Security.
+The attack group started work in 2011 but only began to exfiltrate 
+authentication data in April 2014. Holden stated that the group consists of 
+
+fewer than a dozen men in their 20s, operating from a base in Russia. The 
+
+group first infects computers with reconnaissance software that examines 
+
+web sites visited by the unsuspecting users of infected browsers. A vulner-
+
+able web site is reported back to the group, which later tests the site for 
+
+compromise potential and finally mounts an attack (using SQL injection, 
+
+which we just described) to obtain the full credentials database.

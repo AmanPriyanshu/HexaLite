@@ -1,0 +1,44 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜ˇˇFormally verifying programs using a deductive approach is difficult and expensive, 
+but alternative approaches to formal analysis have been developed that are based on a 
+
+more restricted notion of correctness. The most successful of these approaches is called 
+
+model checking (Jhala and Majumdar 2009). Model checking involves creating a for-
+mal state model of a system and checking the correctness of that model using special-
+ized software tools. The stages involved in model checking are shown in Figure 12.8.Model checking has been widely used to check hardware systems designs. It is increasingly being used in critical software systems such as the control software in 
+NASA™s Mars exploration vehicles (Regan and Hamilton 2004; Holzmann 2014) 
+
+and by Airbus in avionics software development (Bochot et al. 2009).Many different model-checking tools have been developed. SPIN was an early 
+example of a software model checker (Holzmann, 2003). More recent systems 
+
+include SLAM from Microsoft (Ball, Levin, and Rajamani 2011) and PRISM 
+
+(Kwiatkowska, Norman, and Parker 2011).The models used by model-checking systems are extended finite-state models of the software. Models are expressed in the language of whatever model-checking 
+
+system is usedŠfor example, the SPIN model checker uses a language called 
+
+Promela. A set of desirable system properties are identified and written in a formal 
+notation, usually based on temporal logic. For example, in the wilderness weather 
+system, a property to be checked might be that the system will always reach the 
+
+ﬁtransmittingﬂ state from the ﬁrecordingﬂ state.The model checker then explores all paths through the model (i.e., all possible 
+state transitions), checking that the property holds for each path. If it does, then the 
+model checker confirms that the model is correct with respect to that property. If it 
+does not hold for a particular path, the model checker outputs a counterexample 
+
+illustrating where the property is not true. Model checking is particularly useful in 
+the validation of concurrent systems, which are notoriously difficult to test because 
+of their sensitivity to time. The checker can explore interleaved, concurrent transi-
+tions and discover potential problems.A key issue in model checking is the creation of the system model. If the model has to 
+be created manually (from a requirements or design document), it is an expensive pro-
+cess as model creation takes a great deal of time. In addition, there is the possibility that 
+
+the model created will not be an accurate model of the requirements or design. It is therefore 
+ModelbuildingRequirements,design orprogram
+Property
+specificationExtended finite-
+state model ofsystemDesired systemproperties
+ModelcheckerConfirmation or
+counter-examplesFigure 12.8 Model checking 

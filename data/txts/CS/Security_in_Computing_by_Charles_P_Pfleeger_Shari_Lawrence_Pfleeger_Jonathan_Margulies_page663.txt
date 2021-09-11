@@ -1,0 +1,71 @@
+ Section 9.5  Privacy on the Web 
+629  has been applied to everything from keystroke loggers, to advertising applications 
+that track users’ web browsing, to web cookies, to programs designed to help provide 
+
+security patches directly to users. More recently, there has been particular attention 
+
+paid to a variety of applications that piggyback on peer-to-peer file-sharing software 
+
+and other free downloads as a way to gain access to people’s computers.” The CDT 
+
+report discusses in detail “other similar applications, which have increasingly been the 
+
+focus of legislative and regulatory proposals. Many of these applications represent a 
+
+significant privacy threat, but in our view the larger concerns raised by these programs 
+
+are transparency and user control, 
+
+problems sometimes overlooked in 
+
+discussions about the issue and to a 
+certain extent obscured by the term 
+
+‘spyware’ itself.”
+The objectives of general spyware can extend to identity theft and other criminal 
+activity. In addition to the privacy impact, keystroke loggers and spyware sometimes 
+
+adversely affect a computing system. Not always written or tested carefully, spyware 
+
+can interfere with other legitimate programs. Also, machines infected with spyware 
+
+often have several different pieces of spyware that can conflict with each other, causing 
+
+a serious impact on performance.Another common characteristic of many kinds of spyware is the difficulty of remov-
+ing it. For one spyware product, Altnet, removal involves at least twelve steps, including 
+
+locating files in numerous system folders [CDT09].
+HijackersAnother category of spyware is software that hijacks a program installed for a different 
+purpose. For example, file-sharing software is typically used to share copies of music 
+
+or movie files. An ABC News program in 2006 [ABC06] reported that taxpayers dis-
+
+covered their tax returns on the Internet after the taxpayers used a file-sharing pro-
+
+gram. Music-sharing services such as KaZaa (no longer in business) and Morpheus 
+
+allowed users to offer part of their stored files to other users. According to the Center for 
+
+Democracy and Technology [CDT03], when a user installed KaZaa, a second program, 
+
+Altnet, was also installed. The documentation for Altnet said it would make available 
+
+unused computing power on the user’s machine to unspecified business partners. The 
+
+license for Altnet grants Altnet the right to access and use unused computing power and 
+
+storage. Searching for “Altnet spyware” in a search engine reveals offers for dozens of 
+
+products that claim to remove Altnet, as well as dozens of blog entries describing the 
+
+difficulty of doing so.
+The privacy issue for a service such as Altnet is that even if a user authorizes use of 
+spare computing power or sharing or files or other resources, there may be no control 
+
+over access to other sensitive data on the user’s computer.
+Adware
+Adware displays selected advertisements in pop-up windows or in the main browser 
+window. The ad’s topics and characteristics are selected according to the user’s 
+Spyware collects and reports activity by 
+
+web users.

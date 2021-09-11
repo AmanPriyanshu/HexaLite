@@ -1,0 +1,48 @@
+368 PART TWO  
+MODELINGwithin its context and how the solution can be applied. In software engineering work, we identify and document generative patterns. These patterns describe an 
+important and repeatable aspect of a system and then provide us with a way to 
+build that aspect within a system of forces that is unique to a given context.  Architectural patterns describe broad-based design problems that are solved using a structural approach. Data patterns describe recurring data-oriented 
+problems and the data modeling solutions that can be used to solve them. Com-
+ponent patterns (also referred to as design patterns) address problems associ-
+ated with the development of subsystems and components, the manner in which 
+they communicate with one another, and their placement within a larger archi-
+
+tecture. Interface design patterns describe common user interface problems and 
+their solution with a system of forces that includes the speciﬁ c characteristics 
+of end users. WebApp patterns address a problem set that is encountered when 
+
+building WebApps and often incorporates many of the other patterns categories 
+
+just mentioned. Mobile patterns address the unique nature of the mobile inter-
+
+face and functionality and control elements that are speciﬁ c to mobile platforms. 
+ A framework provides an infrastructure in which patterns may reside and idioms describe programming language–speciﬁ c implementation detail for all 
+or part of a speciﬁ c algorithm or data structure. A standard form or template is 
+used for pattern descriptions. A pattern language encompasses a collection of 
+patterns, each described using a standardized template and interrelated to show 
+how these patterns collaborate to solve problems across an application domain.  Pattern-based design is used in conjunction with architectural, compo-nent-level, and user interface design methods. The design approach begins with 
+an examination of the requirements model to isolate problems, deﬁ ne context, 
+and describe the system of forces. Next, pattern languages for the problem do-
+main are searched to determine if patterns exist for the problems that have been 
+isolated. Once appropriate patterns have been found, they are used as a design 
+guide.   
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+16.1.  Discuss the three “parts” of a design pattern and provide a concrete example of each from some ﬁ eld other than software. 
+   
+ 
+16.2.  What is the difference between a nongenerative and a generative pattern?    
+ 
+16.3.  How do architectural patterns differ from component patterns?    
+ 
+16.4.  What is a framework and how does it differ from a pattern? What is an idiom and how does it differ from a pattern?    
+ 
+16.5.  Using the design pattern template presented in Section 16.1.3, develop a complete pattern description for a pattern suggested by your instructor. 
+   
+ 
+16.6.  Develop a skeletal pattern language for a sport with which you are familiar. You can 
+begin by addressing the context, the system of forces, and the broad problems that a coach pre22126_ch16_347-370.indd   368pre22126_ch16_347-370.indd   36816/12/13   6:22 PM16/12/13   6:22 PM

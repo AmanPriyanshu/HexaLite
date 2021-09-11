@@ -1,0 +1,48 @@
+302 Chapter 5  
+Operating Systemsaccess rights. Furthermore, with a few extra tag bits, different classes of data (numeric, 
+character, address, or pointer, and undefined) can be separated, and data fields can be 
+
+protected for privileged (operating system) access only.
+This protection technique has been used on a few systems, although the number of 
+tag bits has been rather small. The Burroughs B6500-7500 system used three tag bits 
+
+to separate data words (three types), descriptors (pointers), and control words (stack 
+
+pointers and addressing control words). The IBM System/38 used a tag to control both 
+
+integrity and access.
+A machine architecture called BiiN, designed by Siemens and Intel together, used 
+one tag that applied to a group of consecutive locations, such as 128 or 256 bytes. 
+
+With one tag for a block of addresses, the added cost for implementing tags was not as 
+
+high as with one tag per location. The Intel I960 extended-architecture processor used 
+
+a tagged architecture with a bit on each memory word that marked the word as a “capa-
+
+bility,” not as an ordinary location for data or instructions. A capability controlled the 
+
+access to a variable-sized memory block or segment. This large number of possible tag 
+
+values supported memory segments that ranged in size from 64 to 4 billion bytes, with 
+
+a potential 2256 different protection domains.
+Compatibility of code presented a problem with the acceptance of a tagged architec-ture. A tagged architecture may not be as useful as more modern approaches, as we see 
+
+shortly. Some of the major computer vendors are still working with operating systems 
+
+that were designed and implemented many years ago for architectures of that era: Unix 
+
+dates to the 1970s; Mach, the heart of Apple’s iOS, was a 1980s derivative of Unix; 
+
+and parts of modern Windows are from the 1980s DOS, early 1990s Windows, and late 
+
+1990s NT. Indeed, most manufacturers are locked into a more conventional memory 
+
+architecture because of the wide availability of components and a desire to maintain 
+Tag          Memory Word
+R            0001RW        0137
+R            0099XXR            4091RW        0002
+XXXXCode:  R = Read-only      RW = Read/Write     
+           X = Execute-only
+FIGURE 5-10 Tagged Architecture

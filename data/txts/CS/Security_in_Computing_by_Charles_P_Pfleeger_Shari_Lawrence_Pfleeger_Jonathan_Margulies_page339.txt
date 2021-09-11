@@ -1,0 +1,35 @@
+ Section 5.1  Security in Operating Systems 
+305  that user or of any other user. In a straightforward way we can allow a user to have dif-
+ferent protection classes for different segments of a program. For example, one segment 
+
+might be read-only data, a second might be execute-only code, and a third might be 
+
+writeable data. In a situation like this one, segmentation can approximate the goal of 
+
+separate protection of different pieces of a program, as outlined in the previous section 
+
+on tagged architecture.Segmentation offers these security benefits:
+• Each address reference is checked—neither too high nor too low—for protection.
+• Many different classes of data items can be assigned different levels of protection.
+
+• Two or more users can share access to a segment, with potentially different 
+access rights.• A user cannot generate an address or access to an unpermitted segment.
+One protection difficulty inherent in segmentation concerns segment size. Each seg-
+ment has a particular size. However, a program can generate a reference to a valid seg-
+
+ment name, but with an offset beyond the end of the segment. For example, reference 
+
+A,9999 looks perfectly valid, but in reality segment A may be only 200 bytes long. If 
+left unplugged, this security hole could allow a program to access any memory address 
+
+beyond the end of a segment just by using large values of offset in an address.
+Logical Program
+MAINSEG_ASUBDATA_SEG
+MAINSEG_A
+SUB
+DATA_SEG
+acghSegment Translation Table
+Address
+0abcdefghiFETCH<DATA_SEG,20>
+Location 20 within Segment DATA_SEG
++FIGURE 5-12 Segment Address Translation

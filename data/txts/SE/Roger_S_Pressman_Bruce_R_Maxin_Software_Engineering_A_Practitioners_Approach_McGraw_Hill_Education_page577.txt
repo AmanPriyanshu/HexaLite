@@ -1,0 +1,102 @@
+CHAPTER 25  
+TESTING WEB APPLICATIONS
+ 547 
+ 
+ 
+ 
+ 
+25.3.2   
+Database Testing 
+ 
+Modern WebApps do much more than present static content objects. In many ap-
+plication domains, WebApps interface with sophisticated database management 
+
+systems and build dynamic content objects that are created in real time using 
+the data acquired from a database.  For example, a ﬁ nancial services WebApp can produce complex text-based, 
+tabular, and graphical information about a speciﬁ
+ c equity (e.g., a stock or mutual 
+fund). The composite content object that presents this information is created dy-
+namically after the user has made a request for information about a speciﬁ c eq-
+uity. To accomplish this, the following steps are required: (1) an equities database 
+
+is queried, (2) relevant data are extracted from the database, (3) the extracted 
+data must be organized as a content object, and (4) this content object (repre-
+senting customized information requested by an end user) is transmitted to the 
+client environment for display. Errors can and do occur as a consequence of each 
+
+of these steps. The objective of database testing is to uncover these errors, but 
+database testing is complicated by a variety of factors:   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1.
+   
+The original client-side request for information is rarely presented in the 
+form [e.g., structured query language (SQL)] that can be input to a data-
+
+base management system (DBMS). 
+Therefore, tests should be designed to uncover errors made in translating the user’s request into a form that can 
+
+be processed by these DBMS.   
+ 
+ 
+ 2.
+   
+The database may be remote to the server that houses the WebApp.
+ 
+There-fore, tests that uncover errors in communication between the WebApp 
+
+and the remote database must be developed.  4 
+ 
+ 
+  What issues 
+complicate database testing 
+for WebApps? 
+?  
+ 
+Web Content Testing Tools 
+  
+ Objective: 
+ The objective of Web content 
+testing tools is to identify errors that prevent a Web page from displaying web content in a readable 
+
+and organized manner. 
+  Mechanics: 
+ These tools typically prompt you to enter the URL of a web resource to test. Each tool then 
+provides a list of errors (e.g., failure to follow the markup 
+language standard) with suggestions on how to correct 
+the errors.   Representative Tools:  
+ 3 
+  
+ 
+ 
+ 
+ 
+http://validator.w3.org/ 
+ 
+—Online WC3 tool checks Web pages for markup language validity (HTM, 
+
+XHTML, SMIL, MathML).   
+ 
+http://jigsaw.w3.org/css-validator/ 
+ 
+—Online WC3 tool that checks CSS style sheets and 
+documents using CSS stylesheets.   
+ 
+http://validator.w3.org/feed/ 
+ 
+—Online WC3 tool that checks syntax of Atom or RSS feeds.   
+INFO  
+ 
+3  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+  
+ 
+ 
+ 
+ 
+4  These tests can become complex when distributed databases are encountered or when access to a data warehouse (Chapter 1) is required. pre22126_ch25_540-566.indd   547pre22126_ch25_540-566.indd   54713/12/13   6:15 PM13/12/13   6:15 PM

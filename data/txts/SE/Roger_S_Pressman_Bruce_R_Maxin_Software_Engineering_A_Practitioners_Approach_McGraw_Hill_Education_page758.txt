@@ -1,0 +1,96 @@
+728 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+.
+effective planning is needed to resolve problems upstream [early in the project] at 
+low cost, rather than downstream [late in the project] at high cost. The average proj-
+ect spends  80 percent
+ 
+ of its time on rework—ﬁ
+ xing mistakes that were made earlier 
+in the project.  
+  
+McConnell argues that every project can ﬁ nd the time to plan (and to adapt the 
+plan throughout the project) simply by taking a small percentage of the time 
+that would have been spent on rework that occurs because planning was not 
+conducted.   
+ 
+ 
+ 
+ 33.1  
+OBSERVATIONS
+ ON ESTIMATION
+  
+ 
+Planning requires you to make an initial commitment, even though it’s likely 
+that this “commitment” will be proven wrong. Whenever estimates are made, you 
+look into the future and accept some degree of uncertainty as a matter of course. 
+To quote Frederick Brooks [Bro95]:
+  
+our techniques of estimating are poorly developed. More seriously, they reﬂ
+ ect an 
+. because we are 
+
+uncertain of our estimates, software managers often lack the courteous stubbornness 
+to make people wait for a good product.  
+ 
+  
+Although estimating is as much art as it is science, this important action need not be conducted in a haphazard manner. Useful techniques for time and effort esti-
+
+mation do exist. Process and project metrics can provide historical perspective 
+and powerful input for the generation of quantitative estimates. Past experience 
+(of all people involved) can aid immeasurably as estimates are developed and 
+reviewed. Because estimation lays a foundation for all other project planning 
+actions, and project planning provides the road map for successful software en-
+gineering, we would be ill advised to embark without it.  Estimation of resources, cost, and schedule for a software engineering effort requires experience, access to good historical information (metrics), and the 
+courage to commit to quantitative predictions when qualitative information is all 
+that exists. Estimation carries inherent risk,  1 
+ 
+ and this risk leads to uncertainty. 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Project complexity
+ 
+ has a strong effect on the uncertainty inherent in plan-
+ning. Complexity, however, is a relative measure that is affected by familiarity 
+
+with past effort. The ﬁ rst-time developer of a sophisticated e-commerce appli-
+cation might consider it to be exceedingly complex. However, a Web engineering 
+
+team developing its tenth e-commerce WebApp would consider such work run 
+
+of the mill. A number of quantitative software complexity measures have been 
+proposed [Zus97]. Such measures are applied at the design or code level and   uote:  “Good estimating 
+approaches and 
+solid historical data 
+offer the best hope 
+that reality will win 
+out over impossible 
+demands.”  Caper Jones 
+    use cases. . . . . 740  
+    WebApps. . . . . 747  
+    project planning  . . 729  
+
+    resources  . . . . . . . 731  
+
+    software 
+
+equation. . . . . . . . 744  
+
+    software scope. . . 730  
+
+    software sizing. . . 734  
+
+    use case points 
+
+(UCPs) . . . . . . . . . 742  
+
+    
+1  Systematic techniques for risk analysis are presented in Chapter 35. 
+pre22126_ch33_727-753.indd   728pre22126_ch33_727-753.indd   72813/12/13   6:17 PM13/12/13   6:17 PM

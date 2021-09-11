@@ -1,0 +1,46 @@
+ Section 6.6  Cryptography in Network Security 
+447  IPsec have been published and extensively scrutinized. Work on the protocols began 
+in 1992. They were first published in 1995, and they were finalized in 1998 (RFCs 
+
+2401–2409) [KEN98]. A second version of IKE was standardized in 2005 [KAU05] 
+
+and extensions were documented in 2008 [BLA08], although the basic IKE structure 
+
+from 1995 remains. IKE and IPsec include an encrypted nonce specifically to thwart 
+
+hijacking.Virtual Private Networks
+Link encryption can give a network’s users the sense that they are on a private net-
+
+work, even when it is part of a pub-
+
+lic network. Furthermore, applied 
+
+at the link level, the encrypting and 
+
+decrypting are invisible to users. For 
+
+this reason, the approach is called a 
+virtual private network
+ (or VPN). Typically, physical security and administrative security are strong enough to protect 
+transmission inside the perimeter of a site (an office, building, plant, or campus, for 
+
+example). Thus, the greatest exposure for a user occurs when communications leave 
+
+the protected environment. Link encryption between two secured endpoints can achieve 
+
+this result.For virtual private networks we consider two cases. In the first, a company has two 
+physically separated offices, and the employees want to work as a single unit, exchang-
+
+ing sensitive data as if they were in one protected office. Each office maintains its own 
+
+network. The two offices could implement a private network by acquiring, managing, 
+IPHeaderTCPHeaderData(a) Original Packet
+(b) Transport Mode
+authenticatedencryptedTCPHeaderESPHeaderESPTrailer
+IPHeaderData(c) Tunnel Mode
+authenticatedencryptedTCPHeaderESPHeaderESPTrailer
+IPHeader New IP
+HeaderDataFIGURE 6-47 IPsec Modes of OperationA virtual private network simulates 
+the security of a dedicated, protected 
+
+communication line on a shared network.

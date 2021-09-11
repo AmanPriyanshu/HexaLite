@@ -1,0 +1,40 @@
+668 PART 
+THREE  QUALITY MANAGEMENTalso leads to greater design complexity. On the positive side, large DIT values 
+
+imply that many methods may be reused.  
+        
+Number of children (NOC).   The subclasses that are immediately subordinate to a class in the class hierarchy are termed its children. Referring to   Figure 30.5  , 
+class  C2  has three children—subclasses  C21, C22,  and  C30.  As the number of children grows, reuse increases, but also, as NOC increases, the abstraction represented 
+by the parent class can be diluted if some of the children are not appropriate 
+members of the parent class. As NOC increases, the amount of testing (required 
+to exercise each child in its operational context) will also increase.    
+Coupling between object classes (CBO).   The CRC model (Chapter 10) may be 
+used to determine the value for CBO. In essence, CBO is the number of collab-
+orations listed for a class on its CRC index card.  9  
+ As CBO increases, it is likely 
+that the reusability of a class will decrease. High values of CBO also compli-
+cate modiﬁ cations and the testing that ensues when modiﬁ cations are made. In 
+
+general, the CBO values for each class should be kept as low as is reasonable. 
+
+This is consistent with the general guideline to reduce coupling in conventional 
+
+software. 
+    
+Response for a class (RFC).   The response set of a class is “a set of methods that can potentially be executed in response to a message received by an object of 
+that class” [Chi94]. RFC is the number of methods in the response set. As RFC in-
+creases, the effort required for testing also increases because the test sequence    The concepts of 
+
+coupling and cohe-
+sion apply to both 
+conventional and OO 
+software. Keep class 
+coupling low and class 
+and operation cohesion 
+high.   F
+IGURE 30.5 A class 
+
+hierarchy   
+CC1C11C211C21C22C23C2  9 
+ If CRC index cards are developed manually, completeness and consistency must be assessed 
+before CBO can be determined reliably. 

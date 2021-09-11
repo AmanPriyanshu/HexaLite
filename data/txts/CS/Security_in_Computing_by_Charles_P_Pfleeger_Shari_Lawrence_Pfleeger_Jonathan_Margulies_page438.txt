@@ -1,0 +1,43 @@
+404 Chapter 6  
+Networksattacks may be difficult to detect or block on the receiving host. But peculiarities or 
+oversights in the protocols or their implementations can open the way for an attacker to 
+
+exploit a weakness to overwhelm the code supporting the protocol function. We exam-
+
+ine how these protocols can be used to attack a victim. And we stress that packets are 
+
+unauthenticated: An attacker can use ping or echo packets to saturate a network just as 
+
+readily as an administrator uses them to manage network performance.
+Ping of DeathA ping of death
+ is a simple attack, using the ping command that is ordinarily used 
+to test response time from a host. Since ping requires the recipient to respond to the 
+
+packet, all the attacker needs to do is send a flood of pings to the intended victim. 
+
+The attack is limited by the smallest bandwidth on the attack route, as shown in Fig-
+
+ure 6-18. If the attacker is on a 10-megabyte (MB) connection and the path to the victim 
+
+is 100 MB or more, mathematically the attacker alone cannot flood the victim. But the 
+
+attack succeeds if the numbers are reversed: The attacker on a 100-MB connection can 
+
+certainly flood a 10-MB victim. The ping packets will saturate the victim’s bandwidth.
+SmurfThe smurf attack is a variation of a ping attack. It uses the same vehicle, a ping packet, 
+with two extra twists. First, the attacker chooses a network of unwitting victims that 
+
+become accomplices. The attacker spoofs the source address in the ping packet so that 
+
+it appears to come from the victim, which means a recipient will respond to the victim. 
+Then, the attacker sends this request to the network in broadcast mode by setting the last 
+
+byte of the address to all 1s; broadcast mode packets are distributed to all hosts on the 
+AttackerAttackerPingPing
+PingPingPingPingPingPing
+(a) Attacker has greater bandwidth
+(b) Victim has greater bandwidth
+ReplyVVictim
+Victim
+VPingPingPingReplyReplyReplyReplyReplyPingPingPingPingPingFIGURE 6-18 Ping Attack. (a) Attacker Has Greater Bandwidth. (b) Victim Has Greater 
+Bandwidth

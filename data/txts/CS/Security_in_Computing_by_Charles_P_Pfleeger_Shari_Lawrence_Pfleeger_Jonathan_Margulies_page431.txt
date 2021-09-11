@@ -1,0 +1,76 @@
+ Section 6.4  Denial of Service 
+397  Among the sites under attack were those of• the president 
+• parliament
+• many government departments
+
+• political parties
+
+• major news organizations
+
+• major banks
+
+• telecommunications firms
+Attacks began on 27 April after the statue was moved, and they continued for several 
+days. On 8–9 May, a period when Russia celebrates its victory over the Nazis in World 
+
+War II, the attacks surged again, and they rose again in the middle of May before even-
+
+tually subsiding. Estonia is one of the most heavily computerized countries in the world and has pio-
+neered e-government; the slowdown on major government and commercial sites for 
+
+almost a month had a serious impact on their citizens’ ability to do business.
+The Estonian computer emergency response team determined that the attacks were 
+coming largely from outside Estonia. Experts acted quickly to close down sites under 
+
+attack and to apply other controls to limit inbound traffic. Emergency response teams 
+
+from the European Union and the United States were called in to help manage the attack 
+[VAM07].
+Pinpointing the source of the attack was not possible, The source of such attacks is 
+often unclear, because determining where the traffic was routed from most recently is 
+
+not the same as identifying the original source of the attack. Although the Estonian For-
+
+eign Minister accused the Kremlin of involvement, the Defense Minister acknowledged 
+
+there was no definitive evidence of 
+
+that. One Russian was convicted in 
+
+Estonia of a minor role in the attack. 
+Responsibility for planning, coordi-
+nating, and mounting the attack has 
+
+not been and probably never will be 
+
+established [EVR09].Isolated action? No. In January 2013, the New York Times
+ website was bombarded by 
+a massive denial-of-service attack, as were the sites of the 
+Washington Post
+ and the 
+Wall 
+Street Journal
+. Allegedly, these websites were attacked by hackers with ties to China. 
+In August 2013, a group identified as the Syrian Electronic Army allegedly shut off 
+
+access to the New York Times
+ website for 20 hours. In June 2014 the same group alleg-
+edly redirected readers of Reuters
+ from a story describing a Syrian attack to a message 
+reporting the site had been hacked. Denial of service for political purposes is a potent 
+
+tool. Financial institutions have also been targeted with attacks from unknown sources.
+A denial-of-service,
+ or 
+DoS, attack is an attempt to defeat availability, the third of 
+the three basic properties to be preserved in computer security. Denial of service means 
+
+just what its name implies: a user is denied access to authorized services or data. Confi-
+
+dentiality and integrity are concerned with preventing unauthorized access; availability 
+
+is concerned with preserving authorized access.The source of a denial-of-service attack 
+
+is typically difficult or impossible to 
+
+determine with certainty.

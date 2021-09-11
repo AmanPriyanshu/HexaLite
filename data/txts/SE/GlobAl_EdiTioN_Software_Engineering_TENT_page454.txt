@@ -1,0 +1,42 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜2. The application system may be based on assumptions that are practically impos
+-sible to change. The customer must therefore adapt its business to reflect these 
+assumptions.3. Choosing the right application system for an enterprise can be a difficult process, 
+
+especially as many of these systems are not well documented. Making the wrong 
+
+choice means that it may be impossible to make the new system work as required.4.
+ There may be a lack of local expertise to support systems development. 
+
+Consequently, the customer has to rely on the vendor and external consultants 
+for development advice. This advice may be geared to selling products and ser-
+vices, with insufficient time taken to understand the real needs of the customer.5. The system vendor controls system support and evolution. It may go out of busi-
+ness, be taken over, or make changes that cause difficulties for customers.Application systems may be used as individual systems or in combination, where 
+two or more systems are integrated. Individual systems consist of a generic application 
+
+from a single vendor that is configured to customer requirements. Integrated systems 
+
+involve integrating the functionality of individual systems, often from different vendors, 
+
+to create a new application system. Figure 
+15.12 summarizes the differences between 
+these different approaches. I discuss application system integration in Section 15.4.2.Configurable application systems are generic application systems that may be 
+
+designed to support a particular business type, business activity, or, sometimes, a 
+
+complete business enterprise. For example, a system produced for dentists may han-
+dle appointments, reminders, dental records, patient recall, and billing. At a larger 
+scale, an Enterprise Resource Planning (ERP) system may support the manufactur-
+ing, ordering, and customer relationship management processes in a large company.Domain-specific application systems, such as systems to support a business function 
+(e.g., document management), provide functionality that is likely to be required by a 
+
+range of potential users. However, they also incorporate built-in assumptions about how 
+Configurable application systemsApplication system integrationSingle product that provides the functionality 
+required by a customerSeveral different application systems are 
+integrated˜to provide customized functionalityBased on a generic solution and standardized 
+processesFlexible solutions may be developed for customer 
+processesDevelopment focus is on system configurationDevelopment focus is on system integrationSystem vendor is responsible for maintenanceSystem owner is responsible for maintenanceSystem vendor provides the platform for the systemSystem owner provides the platform for the system
+Figure 15.12  Individual and 
+integrated˜application 
+systems

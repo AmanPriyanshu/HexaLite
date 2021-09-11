@@ -1,0 +1,71 @@
+736 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+values discussed in Chapter 30—are estimated. The resultant estimates can then be used to derive an FP value that can be tied to past data and used to generate 
+an estimate.  
+ 
+ 
+   
+Regardless of the estimation variable that is used, you should begin by esti-mating a range of values for each function or information domain value. Using 
+historical data or (when all else fails) intuition, estimate an optimistic, most 
+likely, and pessimistic size value for each function or count for each information 
+
+domain value. An implicit indication of the degree of uncertainty is provided 
+when a range of values is speciﬁ ed. 
+ A three-point or expected value can then be computed. The  expected value 
+ for the estimation variable (size)  S 
+ can be computed as a weighted average of the 
+optimistic ( s opt), most likely ( s 
+ m 
+), and pessimistic ( s pess) estimates. For example,  S 
+ 5    s opt 1 4 s 
+ m 
+ 1  s pess  ________________ 6   (33.1)
+ gives heaviest credence to the “most likely” estimate and follows a beta probabil-ity distribution. We assume that there is a very small probability the actual size 
+
+result will fall outside the optimistic or pessimistic values.  Once the expected value for the estimation variable has been determined, historical LOC or FP productivity data are applied. Are the estimates correct? 
+The only reasonable answer to this question is, we can’t be sure. Any estimation 
+technique, no matter how sophisticated, must be cross-checked with another ap-
+proach. Even then, common sense and experience must prevail.   
+ 
+ 
+33.6.3   
+An Example of LOC-Based Estimation  
+As an example of LOC and FP problem-based estimation techniques, we consider a software package to be developed for a computer-aided design application for 
+
+mechanical components. The software is to execute on a desktop workstation 
+and must interface with various computer graphics peripherals including a 
+mouse, digitizer, high-resolution color display, and laser printer. A preliminary 
+
+statement of software scope can be developed:   
+ 
+ 
+ 
+ 
+ 
+The mechanical CAD software will accept two- and three-dimensional geometric data from a designer. The designer will interact and control the CAD system through 
+
+a user interface that will exhibit characteristics of good human/machine interface 
+design. All geometric data and other supporting information will be maintained in a 
+CAD database. Design analysis modules will be developed to produce the required 
+output, which will be displayed on a variety of devices. The software will be designed 
+to control and interact with peripheral devices that include a mouse, scanner, laser 
+
+printer, and plotter. 
+  
+This statement of scope is preliminary—it is not bounded. Every sentence would have to be expanded to provide concrete detail and quantitative bounding. 
+For example, before estimation can begin, the planner must determine what  How do we 
+compute the “expected value“ 
+for software size? ?   Many modern 
+
+applications reside 
+on a network or are 
+part of a client-server 
+
+architecture. Therefore, 
+be sure that your 
+estimates include the 
+effort required to de-
+
+velop “infrastructure” 
+
+software. pre22126_ch33_727-753.indd   736pre22126_ch33_727-753.indd   73613/12/13   6:17 PM13/12/13   6:17 PM

@@ -1,0 +1,102 @@
+CHAPTER 24  
+TESTING OBJECT-ORIENTED APPLICATIONS
+ 535 
+ 
+ 
+ 3.
+  For each operation in the server object (that has been invoked by messages 
+sent from the client object), determine the messages that it transmits. 
+  
+ 
+ 
+ 4.
+  For each of the messages, determine the next level of operations that are invoked and incorporate these into the test sequence.  
+ 
+  To illustrate [Kir94], consider a sequence of operations for the  
+Bank 
+ class rel-
+ative to an  ATM
+ 
+ class ( Figure 24.2 ):verifyAcct•verifyPIN•[[verifyPolicy•withdrawReq]|depositReq|acctInfoREQ]  n 
+ 
+  
+A random test case for the  Bank 
+ class might be  
+ 
+ 
+ 
+ 
+ 
+Test case r
+3 
+ 5 verifyAcct•verifyPIN•depositReq 
+ 
+ 
+  In order to consider the collaborators involved in this test, the messages asso-ciated with each of the operations noted in test case  r3 
+ are considered.  
+Bank 
+ must 
+collaborate with  ValidationInfo
+ 
+ to execute the  
+verifyAcct() 
+ and  
+verifyPIN(). 
+ 
+ Bank 
+ must collaborate with  Account 
+ to execute  
+depositReq(). 
+ Hence, a new test case 
+that exercises these collaborations is   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Test case r
+4 
+ = verifyAcct [Bank:validAcctValidationInfo]•verifyPIN
+[Bank: validPinValidationInfo]•depositReq [Bank: depositaccount] 
+  
+ 
+The approach for multiple class partition testing is similar to the approach used for partition testing of individual classes. A single class is partitioned as dis-
+cussed in Section 24.5.2. However, the test sequence is expanded to include those 
+
+operations that are invoked via messages to collaborating classes. An alternative ATM
+ATM
+UserInterface
+  cardInserted
+password
+deposit
+withdraw
+accntStatus
+terminate
+    verifyStatusdepositStatus 
+dispenseCash 
+printAccntStat 
+readCardInfo 
+getCashAmnt BankverifyAcctverifyPIN
+verifyPolicy
+withdrawReq
+depositReq
+acctInfo creditLimitaccntType 
+
+balance 
+withdraw 
+deposit 
+closeAccountValidation
+Info validPIN
+validAcctCashieropenAcctinitialDeposit 
+authorizeCard 
+deauthorize 
+closeAcct  
+FIGURE 24.2 
+Class collabo-ration diagram 
+for banking 
+application. 
+  
+ 
+Source: Adapted from [Kir94]. pre22126_ch24_523-539.indd   535pre22126_ch24_523-539.indd   53513/12/13   10:02 PM13/12/13   10:02 PM

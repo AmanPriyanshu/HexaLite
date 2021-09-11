@@ -1,0 +1,43 @@
+CHAPTER 33  
+ESTIMATION FOR SOFTWARE PROJECTS
+ 731 
+Putnam and Myers [Put97a] suggest that scoping is not enough. Once scope is understood, you must work to determine if it can be accomplished within the 
+dimensions of available technology, dollars, time, and resources. This is a crucial, 
+
+although often overlooked, part of the estimation process.   
+ 
+ 
+ 
+ 33.4  
+RESOURCES  
+ 
+The second planning task is estimation of the resources required to accomplish the software development effort.   
+Figure 33.1  
+ depicts the three major categories 
+of software engineering resources—people, reusable software components, and 
+the development environment (hardware and software tools). Each resource is 
+speciﬁ ed with four characteristics: description of the resource, a statement of 
+availability, time when the resource will be required, and duration of time that 
+
+the resource will be applied. The last two characteristics can be viewed as a  time window 
+. Availability of the resource for a speciﬁ
+ ed window must be established 
+at the earliest practical time.  
+ 
+ 
+ 
+  
+ 
+ 
+33.4.1   
+Human Resources 
+ 
+The planner begins by evaluating software scope and selecting the skills re-quired to complete development. Both organizational position (e.g., manager, 
+
+senior software engineer) and specialty (e.g., telecommunications, database, 
+client-server) are speciﬁ ed. For relatively small projects (a few person-months), 
+ProjectPeopleEnvironmentReusablesoftwareNumberSkillsLocationNetworkresourcesHardwareSoftwaretoolsCOTScomponentsNewcomponentsFull-experiencecomponentsPart-experience
+components FIGURE 33.1 
+Project 
+resources
+pre22126_ch33_727-753.indd   731pre22126_ch33_727-753.indd   73113/12/13   6:17 PM13/12/13   6:17 PM

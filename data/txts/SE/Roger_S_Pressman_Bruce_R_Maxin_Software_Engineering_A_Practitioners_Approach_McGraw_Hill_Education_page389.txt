@@ -1,0 +1,85 @@
+CHAPTER 16  
+PATTERN-BASED DESIGN
+ 359 
+ 
+ 
+16.2.5  Common Design Mistakes 
+ 
+ 
+ 
+  
+ 
+A number of common mistakes occur when pattern-based design is used. In 
+some cases, not enough time has been spent to understand the underlying 
+
+problem and its context and forces, and as a consequence, you select a pat-
+tern that looks right but is inappropriate for the solution required. Once the 
+
+wrong pattern is selected, you refuse to see your error and force-ﬁ t the pattern. 
+In other cases, the problem has forces that are not considered by the pattern 
+
+you’ve chosen, resulting in a poor or erroneous ﬁ t. Sometimes a pattern is ap-
+plied too literally and the required adaptations for your problem space are not 
+
+implemented. 
+ Can these mistakes be avoided? In most cases the answer is yes. Every good designer looks for a second opinion and welcomes review of her work. The review 
+techniques discussed in Chapter 20 can help to ensure that the pattern-based 
+design you’ve developed will result in a high-quality solution for the software 
+problem to be solved.   
+ 
+ 
+ 
+ 
+ 16.3  
+ARCHITECTURAL PATTERNS
+  
+ 
+ 
+ 
+ 
+ 
+ 
+If a house builder decides to construct a center-hall colonial, there is a single 
+architectural style that can be applied. The details of the style (e.g., number of 
+ﬁ replaces, façade of the house, placement of doors and windows) can vary con-
+siderably, but once the decision on the overall architecture of the house is made, 
+
+the style is imposed on the design.  6 
+ 
+   
+Architectural patterns are a bit different. For example, every house (and every architectural style for houses) employs a  Kitchen 
+ pattern. The  
+Kitchen 
+ pattern and patterns it collaborates with address problems associated with the 
+storage and preparation of food, the tools required to accomplish these tasks, 
+and rules for placement of these tools relative to workﬂ ow in the room. In addi-
+tion, the pattern might address problems associated with countertops, lighting, 
+wall switches, a central island, ﬂ ooring, and so on. Obviously, there is more than 
+a single design for a kitchen, often dictated by the context and system of forces. 
+But every design can be conceived within the context of the “solution” suggested 
+by the  Kitchen 
+ pattern.  Before a representative architectural pattern can be chosen in a particular do-main, it must be assessed for its appropriateness for the application and the overall 
+
+architectural style, as well as the context and system of forces that it speciﬁ es. 
+   Don’t force a pattern, 
+even if it addresses the 
+problem at hand. If 
+the context and forces 
+are wrong, look for 
+another pattern. 
+   A software architecture 
+
+may have a number of 
+architectural patterns 
+
+that address issues 
+such as concurrency, 
+
+persistence, and 
+distribution.   
+6  This implies that there will be a central foyer and hallway, that rooms will be placed to the left 
+and right of the foyer, that the house will have two (or more) stories, that the bedrooms of the 
+
+house will be upstairs, and so on. These “rules” are imposed once the decision is made to use 
+the center-hall colonial style. 
+pre22126_ch16_347-370.indd   359pre22126_ch16_347-370.indd   35916/12/13   6:22 PM16/12/13   6:22 PM

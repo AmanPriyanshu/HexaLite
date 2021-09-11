@@ -1,0 +1,76 @@
+812 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+In most cases, forward engineering does not simply create a modern equiv-alent of an older program. Rather, new user and technology requirements are 
+
+integrated into the reengineering effort. The redeveloped program extends the 
+capabilities of the older application.   
+ 
+36.8.1   
+Forward Engineering for Client-Server Architectures 
+ 
+ 
+ 
+ 
+ 
+ 
+Over the past few decades, centralized computing resources (including soft-ware) have been distributed among many client platforms. Although a variety 
+
+of different distributed environments can be designed, the typical central-
+ized application that has been reengineered into a client-server architecture 
+
+has the following features: application functionality migrates to each client 
+
+computer, new GUI interfaces are implemented at the client sites, database 
+
+functions are allocated to the server, specialized functionality (e.g., com-
+
+pute-intensive analysis) may remain at the server site, and new communica-
+tions, security, archiving, and control requirements must be established at 
+
+both the client and server sites. It is important to note that the migration from 
+
+centralized computing to client-server computing requires both business and 
+
+software reengineering. 
+ Reengineering for client-server applications begins with a thorough analysis of the business environment that encompasses the existing mainframe. Three 
+layers of abstraction can be identiﬁ ed. The  
+database sits 
+ at the foundation of 
+a client-server architecture and manages transactions and queries from server 
+applications. Yet these transactions and queries must be controlled within the 
+
+context of a set of business rules (deﬁ ned by an existing or reengineered busi-
+ness process). Client applications provide targeted functionality to the user 
+community. 
+ The functions of the existing database management system and the data ar-
+chitecture of the existing database must be reverse engineered as a precursor 
+to the redesign of the database foundation layer. The client-server database is 
+
+reengineered to ensure that transactions are executed in a consistent manner, 
+
+that all updates are performed only by authorized users, that core business rules 
+are enforced (e.g., before a vendor record is deleted, the server ensures that no 
+related accounts payable, contracts, or communications exist for that vendor), 
+that queries can be accommodated efﬁ ciently, and that full archiving capability 
+has been established.  The business rules layer represents software resident at both the client and the server. This software performs control and coordination tasks to ensure that 
+
+transactions and queries between the client application and the database con-
+form to the established business process.  The client applications layer implements business functions that are required by speciﬁ c groups of end users. In many instances, an older centralized applica-
+tion is segmented into a number of smaller, reengineered desktop applications. 
+   In some cases, migra-
+tion to a client-server 
+
+architecture should 
+be approached not as 
+reengineering, but as 
+a new development 
+effort. Reengineering 
+
+enters the picture 
+only when speciﬁ c 
+
+functionality from the 
+old system is to be 
+integrated into the 
+new architecture. pre22126_ch36_795-816.indd   812pre22126_ch36_795-816.indd   81213/12/13   6:17 PM13/12/13   6:17 PM

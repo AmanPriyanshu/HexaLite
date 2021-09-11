@@ -1,0 +1,50 @@
+ Section 3.2  Malicious Code—Malware 
+177  plans (as was reported for an infection of computers of five petroleum industry 
+companies in February 2011), or serving as a compromised agent for sending 
+spam email or mounting a denial-of-service attack, as described in Chapter 6.As we point out in Chapter 1, without our knowing the mind of the attacker, motive 
+can be hard to determine. However, this third category has an obvious commercial 
+
+motive. Organized crime has taken an interest in using malicious code to raise money 
+
+[WIL01, BRA06, MEN10].Harm to Users Most malicious code harm occurs to the infected computer’s data. Here are some real-
+
+world examples of malice.
+• Hiding the cursor.
+• Displaying text or an image on the screen.
+
+• Opening a browser window to web sites related to current activity (for example, 
+opening an airline web page when the current site is a foreign city’s tourist 
+
+board).• Sending email to some or all entries in the user’s contacts or alias list. Note that 
+the email would be delivered as having come from the user, leading the recipi-
+
+ent to think it authentic. The Melissa virus did this, sending copies of itself as 
+
+an attachment that unsuspecting recipients would open, which then infected the 
+
+recipients and allowed the infection to spread to their contacts.
+• Opening text documents and changing some instances of “is” to “is not,” and 
+vice versa. Thus, “Raul is my friend” becomes “Raul is not my friend.” The 
+
+malware changed only a few instances in random locations, so the change would 
+
+not be readily apparent. Imagine the effect these changes would have on a term 
+
+paper, proposal, contract, or news story.
+• Deleting all files. The Jerusalem virus did this every Friday that was a 13th day 
+of the month.• Modifying system program files. Many strains of malware do this to ensure 
+subsequent reactivation and avoid detection.
+• Modifying system information, such as the Windows registry (the table of all 
+critical system information).• Stealing and forwarding sensitive information such as passwords and login 
+details.In addition to these direct forms of harm, the user can be harmed indirectly. For 
+example, a company’s public image can be harmed if the company’s web site is hijacked 
+
+to spread malicious code. Or if the attack makes some web files or functions unavail-
+
+able, people may switch to a competitor’s site permanently (or until the competitor’s 
+
+site is attacked).
+Although the user is most directly harmed by malware, there is secondary harm as 
+the user tries to clean up a system after infection. Next we consider the impact on the 
+
+user’s system.

@@ -1,0 +1,37 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜The assessment of system security is increasingly important so that we can be confi-dent that the systems we use are secure. The verification and validation processes for 
+
+web-based systems should therefore focus on security assessment, where the ability of 
+
+the system to resist different types of attack is tested. However, as Anderson explains 
+
+(Anderson 2008), this type of security assessment is very difficult to carry out. 
+
+Consequently, systems are often deployed with security loopholes. Attackers use these 
+
+vulnerabilities to gain access to the system or to cause damage to the system or its data.
+Fundamentally, security testing is difficult for two reasons:1.
+ Security requirements, like some safety requirements, are ﬁshall notﬂ require-ments. That is, they specify what should not happen rather than system func-
+tionality or required behavior. It is not usually possible to define this unwanted 
+behavior as simple constraints to be checked by the system. If resources are available, you can demonstrate, in principle at least, that a sys-
+tem meets its functional requirements. However, it is impossible to prove that a 
+system does not do something. Irrespective of the amount of testing, security 
+
+vulnerabilities may remain in a system after it has been deployed. You may, of course, generate functional requirements that are designed to guard 
+the system against some known types of attack. However, you cannot derive 
+
+requirements for unknown or unanticipated types of attack. Even in systems that 
+have been in use for many years, an ingenious attacker can discover a new 
+
+attack and can penetrate what was thought to be a secure system.2. The people attacking a system are intelligent and are actively looking for vul
+-
+nerabilities that they can exploit. They are willing to experiment with the system 
+and to try things that are far outside normal activity and system use. For exam-
+ple, in a surname field they may enter 1000 characters with a mixture of letters, 
+punctuation, and numbers simply to see how the system responds. Once they find a vulnerability, they publicize it and so increase the number of 
+possible attackers. Internet forums have been set up to exchange information 
+
+about system vulnerabilities. There is also a thriving market in malware where Figure 13.16  Dependable 
+programming  
+guidelinesDependable programming guidelines1. Limit the visibility of information in a program.2. Check all inputs for validity.3. Provide a handler for all exceptions.4. Minimize the use of error-prone constructs.5. Provide restart capabilities.6. Check array bounds.7. Include timeouts when calling external components.8. Name all constants that represent real-world values.

@@ -1,0 +1,57 @@
+142 PART TWO  
+MODELINGneeds or goals into system requirements. Nonfunctional requirements are often listed separately in a software requirements speciﬁ cation. 
+ As an adjunct to QFD, it is possible to deﬁ ne a two-phase approach [Hne11] 
+that can assist a software team and other stakeholders in identifying nonfunc-
+tional requirements. During the ﬁ rst phase, a set of software engineering guide-
+lines is established for the system to be built. These include guidelines for best 
+practice, but also address architectural style (Chapter 13) and the use of design 
+patterns (Chapter 16). A list of NFRs (e.g., requirements that address usability, 
+
+testability, security or maintainability) is then developed. A simple table lists 
+
+NFRs as  column labels 
+ and software engineering guidelines as  
+row labels
+ 
+. A rela-tionship matrix compares each guideline to all others, helping the team to assess 
+whether each pair of guidelines is  complementary 
+,  overlapping 
+,  conﬂ icting
+ 
+, or  independent 
+.  In the second phase, the team prioritizes each nonfunctional requirement by 
+creating a homogeneous set of nonfunctional requirements using a set of decision 
+
+rules [Hne11] that establish which guidelines to implement and which to reject. 
+  
+ 
+8.2.6  Traceability 
+ 
+ 
+Traceability
+ 
+ is a software engineering term that refers to documented links be-
+tween software engineering work products (e.g., requirements and test cases). A 
+ traceability matrix 
+ allows a requirements engineer to represent the relationship 
+between requirements and other software engineering work products. Rows of 
+the traceability matrix are labeled using requirement names and columns can 
+be labeled with the name of a software engineering work product (e.g., a design 
+element or a test case). A matrix cell is marked to indicate the presence of a link 
+between the two.  The traceability matrices can support a variety of engineering development activities. They can provide continuity for developers as a project moves from 
+one project phase to another, regardless of the process model being used. Trace-
+
+ability matrices often can be used to ensure the engineering work products have 
+taken all requirements into account.  As the number of requirements and the number of work products grows, it be-comes increasingly difﬁ cult to keep the traceability matrix up to date. Nonethe-
+less, it is important to create some means for tracking the impact and evolution 
+of the product requirements [Got11].   
+ 
+ 
+ 
+ 8.3 E
+LICITING REQUIREMENTS  
+ 
+Requirements elicitation (also called  requirements gathering
+ 
+) combines ele-ments of problem solving, elaboration, negotiation, and speciﬁ cation. In order to 
+encourage a collaborative, team-oriented approach to requirements gathering, pre22126_ch08_131-165.indd   142pre22126_ch08_131-165.indd   14213/12/13   6:11 PM13/12/13   6:11 PM

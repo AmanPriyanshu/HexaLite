@@ -1,0 +1,27 @@
+˜˜˚˛ˇ˜˜˜
+˜˜˜
+The development effort in the reuse model is calculated using the COCOMO 
+early design model and is based on the total number of lines of code in the system. The code size includes new code developed for components that are not reused plus 
+an additional factor that allows for the effort involved in reusing and integrating 
+
+existing code. This additional factor is called ESLOC, the equivalent number of lines of new source code. That is, you express the reuse effort as the effort that would be 
+involved in developing some additional source code.The formula used to calculate the source code equivalence is:ESLOC 5 (ASLOC 3 (1-AT/100) 3 AAM)
+ESLOC: the equivalent number of lines of new source code.ASLOC: an estimate of the number of lines of code in the reused components that have to be changed.AT: the percentage of reused code that can be modified automatically.AAM: an Adaptation Adjustment Multiplier that reflects the additional effort 
+required to reuse components.In some cases, the adjustments required to reuse code are syntactic and can be 
+implemented by an automated tool. These do not involve significant effort, so you 
+should estimate what fraction of the changes made to reused code can be automated 
+(AT). This reduces the total number of lines of code that have to be adapted.The Adaptation Adjustment Multiplier (AAM
+) adjusts the estimate to reflect the additional effort required to reuse code. The COCOMO model documentation (Abts 
+et al. 2000) discusses in detail how AAM
+ should be calculated. Simplistically, AAM
+ is the sum of three components:1. An assessment factor (referred to as AA)  that represents the effort involved in deciding whether or not to reuse components. AA varies from 0 to 8 depending on the amount of time you need to spend looking for and assessing potential 
+candidates for reuse.2.
+ An understanding component (referred to as SU) that represents the costs of 
+understanding the code to be reused and the familiarity of the engineer with the 
+code that is being reused. 
+SU ranges from 50 for complex, unstructured code to 
+10 for well-written, object-oriented code.3. An adaptation component (referred to as AAF
+) that represents the costs of making 
+changes to the reused code. These include design, code, and integration changes.Once you have calculated a value for 
+ESLOC, you apply the standard estimation 
+formula to calculate the total effort required, where the Size parameter = ESLOC. Therefore, the formula to estimate the reuse effort is:Effort 5 A 3 ESLOCB 3 Mwhere A, B, and M have the same values as used in the early design model.

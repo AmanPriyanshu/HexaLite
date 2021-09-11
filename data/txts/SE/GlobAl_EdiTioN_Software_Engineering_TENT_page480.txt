@@ -1,0 +1,48 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜The problem in the Ariane 5 launcher arose because the assumptions made about 
+the software for Ariane 4 were invalid for Ariane 5. This is a general problem with reusable components. They are originally implemented for a specific application 
+
+environment and, naturally, embed assumptions about that environment. These 
+
+assumptions are rarely documented, so when the component is reused, it is impossi-
+ble to develop tests to check if the assumptions are still valid. If you are reusing a 
+component in a new environment, you may not discover the embedded environmen-
+tal assumptions until you use the component in an operational system.
+Component composition is the process of integrating components with each other, 
+and with specially written ﬁglue codeﬂ to create a system or another component. You 
+can compose components in several different ways, as shown in Figure 16.10. From 
+left to right these diagrams illustrate sequential composition, hierarchical composi
+-
+tion, and additive composition. In the discussion below, I assume that you are com
+-
+posing two components (A and B) to create a new component:1. Sequential composition In a sequential composition, you create a new compo-nent from two existing components by calling the existing components in 
+
+sequence. You can think of the composition as a composition of the ﬁprovides 
+interfaces.ﬂ That is, the services offered by component A are called, and the 
+
+results returned by A are then used in the call to the services offered by compo-
+nent B. The components do not call each other in sequential composition but are 
+called by the external application. This type of composition may be used with 
+embedded or service components. Some extra glue code may be required to call the component services in the right 
+
+order and to ensure that the results delivered by component A are compatible 
+
+with the inputs expected by component B. The ﬁglue codeﬂ transforms these 
+
+outputs to be of the form expected by component B.2. Hierarchical composition This type of composition occurs when one component 
+
+calls directly on the services provided by another component. That is,  component 
+A calls component B. The called component provides the services that are required 
+
+by the calling component. Therefore, the ﬁprovidesﬂ interface of the called com-
+ponent must be compatible with the ﬁrequiresﬂ interface of the calling component.
+ Component A calls on component B directly, and, if their interfaces match, 
+
+there may be no need for additional code. However, if there is a mismatch 
+
+between the ﬁrequiresﬂ interface of A and the ﬁprovidesﬂ interface of B, then 
+
+some conversion code may be required. As services do not have a ﬁrequiresﬂ 
+
+interface, this mode of composition is not used when components are imple-
+mented as services accessed over the web.

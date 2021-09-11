@@ -1,0 +1,71 @@
+ Section 6.5  Distributed Denial-of-Service 
+429  Rent-A-BotPeople who infect machines to turn them into bots are called botmasters. A botmaster 
+may own (in the sense of control) hundreds or thousands of bots. Because the infected 
+
+machines belong to unsuspecting users who do use them for real computing, these bots 
+are not always available. Sometimes the real owners turn off their machines, disconnect 
+
+them from the Internet, or are using them so intensively that little capacity is left to 
+
+serve as a bot. Much of the time, however, these machines are quiet, readily available 
+
+for malicious work.
+A botmaster often has two uses for the botnet: First, the botnet should be available 
+for attacks when the botmaster wants to go after a victim. As noted in a previous sidebar 
+
+in this chapter, attacks can go on for hours. However, denial-of-service activity tends 
+
+to be targeted, not random, so one botmaster is unlikely to have an unlimited number 
+
+of victims against which to direct the bots. Thus, to bring in a little income, botmasters 
+
+also sometimes rent out their botnets to others. Researcher Dancho Danchev [DAN13] 
+The updated Conficker randomly selected 500 domain names, but 
+appended to the name one of 116 suffixes or top-level domains, like .com, 
+
+.edu, .org, as well as country codes such as .us, .fr, .cz, .br, .ru. These 
+
+country-code domain suffixes are under control of individual countries, so 
+
+getting permission to close down one of those domains is administratively 
+
+more difficult than a .com address. It seems, however, as if those domain 
+
+names were a red herring, to delude and perhaps occupy analysts.
+Shortly after the 15 March 2009 code update, Conficker entirely 
+changed its model for code updates: Instead of each bot fetching its 
+
+updates from a central command-and-control server, the bots communi-
+
+cated updates among themselves by a peer-to-peer networking strategy. 
+
+Finding which of millions of communicating Conficker bots have the latest 
+code release is a hopeless task for researchers.
+The version that appeared in late December 2008 uses a new hash 
+function, MD6, that had just been published on Ron Rivest’s M.I.T. website 
+
+in October 2008, as a candidate for the U.S. National Institute of Standards 
+
+and Technology (NIST) new secure-hash standard. Thus, in roughly two 
+
+months’ time, Conficker’s authors noticed this new algorithm’s publication 
+
+and incorporated it into the evolving development of Conficker. Even when 
+
+analysts can reverse-engineer the code to determine how it operates, they 
+
+cannot craft a so-called inoculation package, modified code that would 
+
+cause systems infected by Conficker to remove the infection, because they 
+
+cannot make the code have the correct cryptographic checksum.
+Since 2008 three more major versions have appeared. The authors 
+of Conficker have been resilient and resourceful, countering various 
+
+attempts to exterminate it. Its primary objective seems to have been stay-
+
+ing power, remaining active so it can propagate and spread its payload. 
+
+Its latest version (E) carries the Waladec spam bot, and also an antivirus 
+
+scareware agent.

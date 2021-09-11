@@ -1,0 +1,81 @@
+86 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+get complicated when an ordinary user becomes an administrator or a baker moves to 
+the candlestick makers’ group. 
+Role-based access control
+ lets us associate privileges 
+with groups, such as all administrators can do this or candlestick makers are forbidden 
+
+to do that. Administering security is easier if we can control access by job demands, not 
+
+by person. Access control keeps up with a person who changes responsibilities, and the 
+
+system administrator does not have 
+
+to choose the appropriate access 
+
+control settings for someone. For 
+
+more details on the nuances of role-
+based access control, see [FER03].In conclusion, our study of access control mechanisms has intentionally progressed from simple to complex. Historically, as the mechanisms have provided greater flexibil-
+
+ity, they have done so with a price of increased overhead. For example, implementing 
+
+capabilities that must be checked on each access is far more difficult than implementing 
+
+a simple directory structure that is checked only on a subject’s first access to an object. 
+
+This complexity is apparent to both the user and implementer. The user is aware of 
+
+additional protection features, but the naïve user may be frustrated or intimidated at 
+
+having to select protection options with little understanding of their usefulness. The 
+
+implementation complexity becomes apparent in slow response to users. The balance 
+
+between simplicity and functionality is a continuing struggle in security.
+2.3 CRYPTOGRAPHY
+Next we introduce the third of our basic security tools, cryptography. In this chapter 
+
+we present only the rudiments of the topic, just enough so you can see how it can be 
+
+used and what it can achieve. We leave the internals for Chapter 12 at the end of this 
+
+book. We do that because most computer security practitioners would be hard-pressed 
+
+to explain or implement good cryptography from scratch, which makes our point that 
+
+you do not need to understand the internals of cryptography just to use it successfully. 
+
+As you read this chapter you may well ask why something is done in a particular way 
+
+or how something really works. We invite you to jump to Chapter 12 for the details. But 
+
+this chapter focuses on the tool and its uses, leaving the internal workings for the future.
+Encryption or cryptography—the name means secret writing—is probably the stron-gest defense in the arsenal of computer security protection. Well-disguised data cannot 
+
+easily be read, modified, or fabricated. Simply put, encryption is like a machine: you put 
+
+data in one end, gears spin and lights flash, and you receive modified data out the other 
+
+end. In fact, some encryption devices used during World War II operated with actual 
+
+gears and rotors, and these devices were effective at deterring (although not always 
+
+preventing) the opposite side from reading the protected messages. Now the machin-
+
+ery has been replaced by computer 
+
+algorithms, but the principle is the 
+
+same: A transformation makes data 
+
+difficult for an outsider to interpret.
+We begin by examining what 
+encryption does and how it works. We introduce the basic principles of encryption algo-
+
+rithms, introducing two types of encryption with distinct uses. Because weak or flawed 
+Cryptography conceals data against 
+unauthorized access.Access control by role recognizes common 
+
+needs of all members of a set of subjects.

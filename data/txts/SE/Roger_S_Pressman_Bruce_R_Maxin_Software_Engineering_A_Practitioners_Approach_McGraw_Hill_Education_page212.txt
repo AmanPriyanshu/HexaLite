@@ -1,0 +1,57 @@
+182 PART TWO  
+MODELINGactivities associated with a particular analysis class fall inside the swimlane for that class. For example, the  Interface 
+ class represents the user interface as seen 
+by the homeowner. The activity diagram notes two prompts that are the respon-
+
+sibility of the interface—“prompt for reentry” and “prompt for another view.” 
+ 
+ These prompts and the decisions associated with them fall within the  Interface 
+ swimlane. However, arrows lead from that swimlane back to the  
+Homeowner 
+ swimlane, where homeowner actions occur. 
+ 
+  Use cases, along with the activity and swimlane diagrams, are procedurally oriented. They represent the manner in which various actors invoke speciﬁ c 
+functions (or other procedural steps) to meet the requirements of the system. 
+But a procedural view of requirements represents only a single dimension of a 
+system In Chapters 10 and 11, we examine other dimensions of requirements 
+modeling.   uote:  “A good model 
+guides your 
+thinking, a bad one 
+warps it.”  Brian Marick 
+ 9.4  
+ 
+ 
+ 
+ 
+ 
+ 
+SUMMARY  
+The objective of requirements modeling is to create a variety of representations that describe what the customer requires, establish a basis for the creation of a 
+software design, and deﬁ ne a set of requirements that can be validated once the 
+software is built. The requirements model bridges the gap between a  system-level description that describes overall system and business functionality and a soft-
+ware design that describes the software’s application architecture, user inter-
+
+face, and component-level structure.  Scenario-based models depict software requirements from the user’s point of 
+view. The use case—a narrative or template-driven description of an interaction 
+
+between an actor and the software—is the primary modeling element. Derived 
+during requirements elicitation, the use case deﬁ nes the keys steps for a speciﬁ
+ c 
+function or interaction. The degree of use case formality and detail varies, but 
+the end result provides necessary input to all other analysis modeling activi-
+ties. Scenarios can also be described using an activity diagram—a ﬂ owchart-like 
+graphical representation that depicts the processing ﬂ ow within a speciﬁ
+ c sce-
+nario. Swimlane diagrams illustrate how the processing ﬂ ow is allocated to var-
+ious actors or classes.    
+ 
+ 
+PROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+9.1.  Is it possible to begin coding immediately after a requirements model has been  created? Explain your answer and then argue the counterpoint.    
+ 
+9.2.  An analysis rule of thumb is that the model “should focus on requirements that are  visible within the problem or business domain.” What types of requirements are  not 
+ visible 
+in these domains? Provide a few examples.  pre22126_ch09_166-183.indd   182pre22126_ch09_166-183.indd   18213/12/13   6:11 PM13/12/13   6:11 PM

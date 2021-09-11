@@ -1,0 +1,77 @@
+242 Chapter 4  
+The Web—User Side
+be spoofed, that is a reliable authenticator, but spoofing or impersonation attacks can 
+be subtle. Computers do not innately “know” anything, but they can remember (store) 
+
+many things and derive many more. The problem, as you have seen with topics such as 
+
+cryptographic key exchange, is how to develop a secret shared by only two computers.
+In addition to obtaining solid authentication data, you must also consider how 
+authentication is implemented. Essentially every output of a computer is controlled by 
+
+software that might be malicious. If a computer responds to a prompt with a user’s 
+
+password, software can direct that computer to save the password and later reuse or 
+
+repeat it to another process, as was the case with the SilentBanker man-in-the-browser 
+
+attack. If authentication involves computing a cryptographic result, the encryption key 
+
+has to be placed somewhere during the computing, and it might be susceptible to copy-
+
+ing by another malicious process. Or on the other end, if software can interfere with 
+
+the authentication-checking code to make any value succeed, authentication is compro-
+
+mised. Thus, vulnerabilities in authentication include not just the authentication data but 
+
+also the processes used to implement authentication. Halperin et al. [HAL08a] present 
+a chilling description of this vulner-
+
+ability in their analysis of radio con-
+trol of implantable medical devices 
+
+such as pacemakers. We explore 
+
+those exposures in Chapter 13 when 
+
+we consider security implications of 
+the “Internet of things.”
+Even if we put aside for a moment the problem of initial authentication, we also need 
+to consider the problem of continuous authentication: After one computer has authen-
+
+ticated another and is ready to engage in some kind of data exchange, each computer 
+
+has to monitor for a wiretapping or hijacking attack by which a new computer would 
+
+enter into the communication, falsely alleging to be the authenticated one, as depicted 
+
+in Figure 4-6.Sometimes overlooked in the authentication discussion is that credibility is a two-
+sided issue: The system needs assurance that the user is authentic, but the user needs 
+
+that same assurance about the system. This second issue has led to a new class of com-
+
+puter fraud called phishing, in which an unsuspecting user submits sensitive informa-
+
+tion to a malicious system impersonating a trustworthy one. (We explore phishing later 
+
+in this chapter.) Common targets of phishing attacks are banks and other financial insti-
+
+tutions: Fraudsters use the sensitive data they obtain from customers to take customers’ 
+
+money from the real institutions. Other phishing attacks are used to plant malicious 
+
+code on the victim’s computer.
+Thus, authentication is vulnerable at several points:
+• Usability and accuracy can conflict for identification and authentication: A more 
+usable system may be less accurate. But users demand usability, and at least 
+
+some system designers pay attention to these user demands.• Computer-to-computer interaction allows limited bases for authentication. Com-
+puter authentication is mainly based on what the computer knows, that is, stored 
+
+or computable data. But stored data can be located by unauthorized processes, 
+and what one computer can compute so can another.
+Your bank takes steps to authenticate 
+
+you, but how can you authenticate your 
+bank?

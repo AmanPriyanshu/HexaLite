@@ -1,0 +1,52 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜
+˜ˇ
+˜passed between services. Services in a service-oriented architecture are some
+-times called SOAP-based services.
+2. WSDL The Web Service Description Language (WSDL) is a standard for ser
+-vice interface definition. It sets out how the service operations (operation names, 
+
+parameters, and their types) and service bindings should be defined.
+3. WS-BPEL This is a standard for a workflow language that is used to define pro
+-cess programs involving several different services. I explain what process pro
+-
+grams are in Section 18.3.The UDDI (Universal Description, Discovery, and Integration) discovery standard 
+defines the components of a service specification intended to help potential users 
+
+discover the existence of a service. This standard was meant to allow companies to set 
+
+up registries, with UDDI descriptions defining the services they offered. Some com
+-
+panies set up UDDI registries in the early years of the 21st century, but users preferred 
+
+standard search engines to find services. All public UDDI registries have now closed.
+The principal SOA standards are supported by a range of supporting standards 
+that focus on more specialized aspects of SOA. There are many supporting standards 
+
+because they are intended to support SOA in different types of enterprise applica
+-
+tion. Some examples of these standards include:
+1. WS-Reliable Messaging, 
+a standard for message exchange that ensures mes
+-sages will be delivered once and once only.
+2. WS-Security, a set of standards supporting web service security, including stand
+-ards that specify the definition of security policies and standards that cover the 
+use of digital signatures.3. WS-Addressing, which defines how address information should be represented 
+in a SOAP message.
+4. WS-Transactions, which defines how transactions across distributed services 
+should be coordinated.Web service standards are a huge topic, and I don™t have space to discuss them in 
+detail here. I recommend Erl™s books (Erl 2004, 2005) for an overview of these 
+
+standards. Their detailed descriptions are also available as public documents on the 
+
+Web (W3C 2013).
+˜˚˛
+Message exchange, as I explained in Section 17.1, is an important mechanism for 
+
+coordinating actions in a distributed computing system. Services in a SOA commu
+-
+nicate by exchanging messages, expressed in XML, and these messages are distrib
+-
+uted using standard Internet transport protocols such as HTTP and TCP/IP.
+A service defines what it needs from another service by setting out its require
+-ments in a message, which is sent to that service. The receiving service parses the 

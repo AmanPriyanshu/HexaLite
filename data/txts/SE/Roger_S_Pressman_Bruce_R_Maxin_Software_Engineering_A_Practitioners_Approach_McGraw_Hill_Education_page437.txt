@@ -1,0 +1,54 @@
+CHAPTER 18  
+MOBILEAPP DESIGN 407 
+ 
+ 
+ 
+ 
+ 18.6  
+THE APPLICABILITY OF CONVENTIONAL SOFTWARE
+ ENGINEERING  
+ 
+There are no guarantees that a desktop program or a WebApp can be easily 
+adapted for implementation as a MobileApp. However, many of the agile soft-
+
+ware engineering practices (Chapter 5) used to create desktop computer appli-
+cations can be used to create standalone MobileApps or mobile client software, 
+and many of the practices used to create quality WebApps apply to the creation 
+
+of Web services used by MobileApps. 
+ During formulation a set of goals and user stories are assembled following practices used in many agile process models. These will deﬁ ne the required user 
+experience and determine stakeholder needs that must be satisﬁ ed and the con-
+textual variables that must be taken into account by the MobileApp. The role of 
+context and location awareness is not likely to be considered when establishing 
+goals for a desktop or Web application. 
+ During the planning activity, the difﬁ
+ culties of developing for more than one 
+device or platform must be factored into the project budget and timeline so that 
+the resources needed to satisfy all stakeholder concerns are appropriately al-
+located. The difﬁ culties of conducting meaningful usability testing and ade-
+quate ﬁ eld testing add to the development costs of MobileApps. Risk analysis 
+should consider the impact of losses if security incidents or privacy violations 
+occur. Planning for a security review of the requirements might also be desirable 
+
+(Chapter 27).  In MobileApp development, time to market is critical. In addition,  new 
+technology elements and changing user requirements are often introduced as 
+development proceeds. As we noted earlier, an iterative agile process model 
+
+(Chapters 4 and 5) provides opportunities for developers to make adjustments to 
+requirements based on assessments of the evolving product prototype.  During product engineering, content analysis and design are similar to ac-tions applied when a WebApp (Chapter 17) is built. The content to be included in 
+
+the MobileApp needs to be selected and chunked subject to the limitations of the 
+targeted devices and platforms.  Design of the MobileApp can be expedited by using rapidly expanding set de-sign patterns (Chapter 13) and component-based design (Chapter 14) oriented 
+toward MobileApps [Mes08].  A composition strategy using component-based 
+
+and object-oriented design is applied when existing services are incorporated 
+into a MobileApp. Reuse without compromising the quality of services is a core 
+objective in MobileApp development [Zha05].  User interface design draws heavily on the lessons learned in the graphic 
+and aesthetic design for Web pages (Chapter 17) to support the branding goals 
+
+for the MobileApp. User-centered design, with its emphasis on usability and 
+
+accessibility is important to creating quality user interfaces for MobileApps 
+
+(Chapter 15). 
+pre22126_ch18_391-410.indd   407pre22126_ch18_391-410.indd   40716/12/13   6:23 PM16/12/13   6:23 PM

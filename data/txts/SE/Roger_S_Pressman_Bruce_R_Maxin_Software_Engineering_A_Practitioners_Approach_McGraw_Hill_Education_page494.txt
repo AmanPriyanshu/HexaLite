@@ -1,0 +1,67 @@
+464 PART THREE  
+QUALITY MANAGEMENTmanagement, procedures for assuring compliance to standards, and measure-ment and reporting mechanisms.  To properly conduct software quality assurance, data about the software en-
+gineering process should be collected, evaluated, and disseminated. Statistical 
+SQA helps to improve the quality of the product and the software process it-
+self. Software reliability models extend measurements, enabling collected defect 
+data to be extrapolated into projected failure rates and reliability predictions.  In summary, you should note the words of Dunn and Ullman [Dun82]: “Soft-
+ware quality assurance is the mapping of the managerial precepts and design 
+disciplines of quality assurance onto the applicable managerial and technolog-
+ical space of software engineering.” The ability to ensure quality is the measure 
+of a mature engineering discipline. When the mapping is successfully accom-
+plished, mature software engineering is the result.   
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+21.1.  Some people say that “variation control is the heart of quality control.” Since every program that is created is different from every other program, what are the variations that 
+we look for and how do we control them?    
+ 
+21.2.  Is it possible to assess the quality of software if the customer keeps changing what it is supposed to do?    
+ 
+21.3.  Quality and reliability are related concepts but are fundamentally different in a num-ber of ways. Discuss the differences.    
+ 
+21.4.  Can a program be correct and still not be reliable? Explain.    
+ 
+21.5.  Can a program be correct and still not exhibit good quality? Explain.    
+ 
+21.6.  Why is there often tension between a software engineering group and an independent software quality assurance group? Is this healthy?    
+ 
+21.7.  You have been given the responsibility for improving the quality of software across 
+your organization. What is the ﬁ rst thing that you should do? What’s next? 
+   
+ 
+21.8.  Besides counting errors and defects, are there other countable characteristics of soft-ware that imply quality? What are they and can they be measured directly?    
+ 
+21.9.  The MTBF concept for software is open to criticism. Explain why. 
+   
+ 
+21.10.  Consider two safety-critical systems that are controlled by computer. List at least 
+three hazards for each that can be directly linked to software failures.    
+ 
+21.11.  Acquire a copy of ISO 9001:2000 and ISO 9000-3. Prepare a presentation that dis-cusses three ISO 9001 requirements and how they apply in a software context.   
+ 
+ 
+ 
+  F
+URTHER
+ READINGS AND INFORMATION
+ SOURCES  
+ 
+Books by Chemuturi ( Mastering Software Quality Assurance,
+ 
+ J. Ross Publishing, 2010), Hoyle 
+( Quality Management Essentials, 
+ Butterworth-Heinemann, 2007), Tian ( 
+Software Quality 
+Engineering, 
+ Wiley-IEEE Computer Society Press, 2005), El Emam ( 
+The ROI from Software 
+Quality,
+ 
+ Auerbach, 2005), Horch ( 
+Practical Guide to Software Quality Management,
+ 
+ Artech 
+pre22126_ch21_448-465.indd   464pre22126_ch21_448-465.indd   46413/12/13   10:02 PM13/12/13   10:02 PM

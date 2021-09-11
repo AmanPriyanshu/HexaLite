@@ -1,0 +1,35 @@
+˜˜˚˜˜˜˜˘
+˜ˇ
+˜˜
+a personal programming project. Failure to use software engineering method 
+leads to higher costs for testing, quality assurance, and long-term maintenance.The systematic approach that is used in software engineering is sometimes called a software process. A software process is a sequence of activities that leads to the 
+production of a software product. Four fundamental activities are common to all 
+
+software processes.1. Software specification, where customers and engineers define the software that is to be produced and the constraints on its operation.2. Software development, where the software is designed and programmed.3. Software validation, where the software is checked to ensure that it is what the 
+customer requires.4. Software evolution, where the software is modified to reflect changing customer 
+and market requirements.Different types of systems need different development processes, as I explain in Chapter 2. For example, real-time software in an aircraft has to be completely speci-
+fied before development begins. In e-commerce systems, the specification and the 
+program are usually developed together. Consequently, these generic activities may 
+be organized in different ways and described at different levels of detail, depending 
+on the type of software being developed.Software engineering is related to both computer science and systems engineering.1.
+ Computer science is concerned with the theories and methods that underlie 
+
+computers and software systems, whereas software engineering is concerned 
+
+with the practical problems of producing software. Some knowledge of com-
+puter science is essential for software engineers in the same way that some 
+
+knowledge of physics is essential for electrical engineers. Computer science 
+
+theory, however, is often most applicable to relatively small programs. Elegant 
+theories of computer science are rarely relevant to large, complex problems that 
+require a software solution.2. System engineering is concerned with all aspects of the development and evolu-
+tion of complex systems where software plays a major role. System engineering 
+is therefore concerned with hardware development, policy and process design, 
+and system deployment, as well as software engineering. System engineers are 
+involved in specifying the system, defining its overall architecture, and then 
+
+integrating the different parts to create the finished system.As I discuss in the next section, there are many different types of software. There are 
+no universal software engineering methods or techniques that may be used. However, 
+
+there are four related issues that affect many different types of software:

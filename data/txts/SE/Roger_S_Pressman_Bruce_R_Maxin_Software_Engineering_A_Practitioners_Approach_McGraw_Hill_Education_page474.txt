@@ -1,0 +1,103 @@
+444 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+ 9.
+   
+Conduct meaningful training for all reviewers.
+ 
+ To be effective all re-
+view participants should receive some formal training. The training 
+
+should stress both process-related issues and the human psychological 
+
+side of reviews. Freedman and Weinberg [Fre90] estimate a one-month 
+
+learning curve for every 20 people who are to participate effectively in 
+
+reviews. 
+  
+ 
+ 
+ 10.
+   
+Review your early reviews.
+ 
+ Debrieﬁ ng can be beneﬁ
+ cial in uncovering 
+problems with the review process itself. The very ﬁ rst product to be 
+reviewed should be the review guidelines themselves.  
+ 
+  Because many variables (e.g., number of participants, type of work products, timing and length, speciﬁ c review approach) have an impact on a successful re-
+view, a software organization should experiment to determine what approach 
+
+works best in a local context.   
+ 
+ 
+20.6.4   
+Sample-Driven Reviews  
+In an ideal setting, every software-engineering work product would undergo a formal technical review. In the real word of software projects, resources are lim-
+
+ited and time is short. As a consequence, reviews are often skipped, even though 
+their value as a quality control mechanism is recognized.  Thelin and his colleagues [The01] suggest a sample-driven review process in which samples of all software engineering work products are inspected to deter-
+
+mine which work products are most error prone. Full FTR resources are then fo-
+cused only on those work products that are likely (based on data collected during 
+sampling) to be error prone.  
+ 
+ 
+   
+To be effective, the sample-driven review process must attempt to quantify 
+those work products that are primary targets for full FTRs. To accomplish this, 
+
+the following steps are suggested [The01]:  
+ 
+ 
+ 1.
+  Inspect a fraction  ai 
+ of each software work product  i. 
+ Record the number of faults  fi 
+ found within  ai 
+.   
+ 
+  2.  Develop a gross estimate of the number of faults within work product  i 
+ by multiplying  fi 
+ by 1/ ai 
+.   
+ 
+ 
+ 3.
+  Sort the work products in descending order according to the gross esti-mate of the number of faults in each.   
+ 
+ 
+ 4.
+  Focus available review resources on those work products that have the highest estimated number of faults.  
+ 
+  The fraction of the work product that is sampled must be representative of the work product as a whole and large enough to be meaningful to the reviewers who 
+do the sampling. As  ai 
+ increases, the likelihood that the sample is a valid repre-
+sentation of the work product also increases. However, the resources required to 
+  
+ 
+ uote:  “It is one of the 
+most beautiful 
+compensations of 
+life, that no man 
+can sincerely try 
+
+to help another 
+without helping 
+himself.”  Ralph Waldo 
+Emerson    Reviews take time, but 
+it’s time well spent. 
+
+However, if time is 
+
+short and you have no 
+
+other option, do not 
+dispense with reviews. 
+Rather, use 
+
+sample-driven reviews. pre22126_ch20_431-447.indd   444pre22126_ch20_431-447.indd   44413/12/13   10:01 PM13/12/13   10:01 PM

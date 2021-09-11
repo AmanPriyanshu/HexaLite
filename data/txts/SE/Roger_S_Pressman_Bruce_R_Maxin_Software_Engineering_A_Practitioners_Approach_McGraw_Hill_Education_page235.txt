@@ -1,0 +1,60 @@
+CHAPTER 11  
+REQUIREMENTS MODELING: BEHAVIOR, PATTERNS, AND WEB/MOBILE APPS
+ 205specifying the event that causes the transition to occur, you can specify a guard 
+and an action [Cha93]. A  guard
+ 
+ is a Boolean condition that must be satisﬁ
+ ed in 
+order for the transition to occur. For example, the guard for the transition from 
+
+the “reading” state to the “comparing” state in  Figure 11.1  can be determined by 
+examining the use case: if (password input 5 4 digits) then 
+  compare 
+ 
+ to stored password 
+  
+In general, the guard for a transition usually depends upon the value of one or more attributes of an object. In other words, the guard depends on the passive 
+state of the object.  An  action 
+ occurs concurrently with the state transition or as a consequence of 
+it and generally involves one or more operations (responsibilities) of the object. 
+For example, the action connected to the  password entered
+ 
+ event ( 
+Figure 11.1 ) is an operation named  validatePassword()
+ 
+ that accesses a  
+password 
+ object and 
+performs a digit-by-digit comparison to validate the entered password.  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+Sequence Diagrams.   The second type of behavioral representation, called a   
+sequence diagram 
+ in UML, indicates how events cause transitions from object to object. Once events have been identiﬁ ed by examining a use case, the modeler 
+creates a sequence diagram—a representation of how events cause ﬂ ow from 
+one object to another as a function of time. In essence, the sequence diagram is    Unlike a state diagram 
+that represents 
+behavior without 
+noting the classes 
+involved, a sequence 
+diagram represents 
+behavior, by describing 
+
+how classes move 
+from state to state. ReadingLockedSelectingPasswordentered ComparingPassword = incorrect& numberOfTries < maxTries 
+Password = correctActivation successfulKey hitDo: validatePasswordnumberOfTries > maxTries
+Timer 
+ lockedTime
+Timer > lockedTime
+  
+FIGURE 11.1 
+State diagram for the 
+ControlPanel 
+
+class  
+ pre22126_ch11_202-223.indd   205pre22126_ch11_202-223.indd   20513/12/13   6:12 PM13/12/13   6:12 PM

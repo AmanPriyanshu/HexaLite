@@ -1,0 +1,26 @@
+ Section 6.5  Distributed Denial-of-Service 
+427  Botnet Command and Control Update
+Just like a conventional army, a network of bots requires a command hierarchy; the 
+bots require officers to tell them when to attack, against whom, and with what weapon. 
+
+The bot headquarters is called a command-and-control center
+. The basic structure 
+of such an army is shown in Figure 6-35. The mastermind wants to be isolated from 
+
+the actual configuration, to reduce the likelihood of detection. Also, in case part of the 
+
+army is isolated and taken down, the attacker wants redundancy to be able to regroup, 
+In this instance, Villeneuve and his colleagues at the Toronto-based 
+security firm SecDev worked with British ISP Coreix and others to take 
+
+down three of Koobface’s main command-and-control servers in November 
+
+2010. Villeneuve infiltrated one of those servers by monitoring its messag-
+
+ing to four phone numbers in Moscow.
+Even if this action does not completely disable Koobface, it certainly 
+slows the operation. Furthermore, the analysis revealed other servers that 
+
+experts can monitor to see where else Koobface’s handlers try to establish 
+
+bases.AttackerAttackerMasterMasterMasterC&CC&CC&CBotBotBotBotBotBotVictimFIGURE 6-35 Botnet Command-and-Control Structure

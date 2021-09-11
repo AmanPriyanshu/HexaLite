@@ -1,0 +1,23 @@
+OpenID Connect Flow
+Relying Party (Client)UserAuthorization
+ServerUserInfoEndpointRequest Access to 
+Service (OpenID 
+Connect Client)
+Prepare Request to 
+Authenticate UserRequest
+TokenLogin to
+Authorization
+ServerAuthenticateUserLogin CredentialsAccept Token and RequestResource Owner
+AuthenticationRequest User’s Consent for Client AccessMake Consent
+DecisionScope RequestedBy ClientRedirectResource Owner
+to ClientConsentDecisionPass AuthorizationCode to ClientRedirection URI/Authorization CodePassAuthorization 
+Code to Authorization
+Server
+Auth. CodeAuth.Code,ClientSecret
+Accept Tokens
+Access Token/ID TokenRequest User’s Identity InformationAuthenticateAccess Token ThroughAuthorizationServer
+AccessTokenAuthenticateAccessTokenAccessTokenAuthorization
+ResponseGrant/DenyIdentity
+AccessAuthenticate/Authorize
+UserUserInfoResponseAuthenticate Client and Auth. CodeFIGURE 8-7 OpenID Connect Authentication
+578

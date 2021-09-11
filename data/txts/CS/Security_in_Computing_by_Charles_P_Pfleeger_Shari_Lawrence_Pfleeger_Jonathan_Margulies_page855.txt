@@ -1,0 +1,70 @@
+ Section 13.2  Economics 
+821  13.2 ECONOMICS
+Security professionals must make a variety of security decisions about the computers, 
+systems, or networks they design, build, use, and maintain. In this section, we focus on 
+
+decisions involved in allocating scarce financial resources to cybersecurity. That is, you 
+
+must decide what kinds of security controls to invest in, based on need, cost, and the 
+
+trade-offs with other investments (that may not be security related). 
+For example, the chief executive officer may announce that because the company has 
+done well, there is a sum of money to invest for the benefit of the company. She solicits 
+
+proposals that describe not only the way in which the money can be used but also the 
+
+likely benefits to be received (and by whom) as a result. You prepare a proposal that 
+
+suggests installation of a firewall, a spam filter, an encryption scheme to create a virtual 
+
+private network, and the use of secure authentication tokens for remote network access. 
+
+You describe the threats addressed by these products and the degree (in terms of cost 
+
+and company profit) to which the proposed actions will benefit the company. The CEO 
+
+compares your proposal with other possible investments: buying a subsidiary to enable 
+
+the company to provide a new product or service, acquiring new office space that will 
+
+include a larger library and more computer labs, or simply holding the money for a few 
+
+years to generate a return that will profit the company. The choices, and the trade-offs 
+
+among them, can be analyzed by understanding the economics of cybersecurity. But this 
+
+understanding is easier said than done.To see why, we begin by describing what we mean by a business case: the framework 
+for presenting information about why we think a particular security investment is needed. 
+
+Then we examine the elements needed in the business case: data and relationships that 
+
+show that there is a problem and that the proposed solution will be good for the com-
+
+pany. Presenting the business case involves not just economics but also the need for con-
+
+sistent terminology, measurement, and a context in which to make informed decisions. 
+
+The business case is informed by 
+
+our understanding of technology but 
+
+must be framed in business language 
+
+and concepts so that it can be easily 
+compared with nonsecurity choices. To make a convincing business case for security investment, we need data on the 
+risks and costs of security incidents. Unfortunately, as our discussion shows, reliable 
+
+data are hard to find, so we outline the kind of data collection that would help security 
+
+professionals. Once we have good data, we can build models and make projections. Building and 
+using a model involves understanding key factors and relationships; we discuss exam-
+
+ples of each. Finally, we explore the possibilities for future research in this rich, inter-
+
+disciplinary area.Making a Business CaseThere are many reasons why companies look carefully at their investments in cyber-
+
+security. Table 13-1 shows the results of a series of in-depth interviews with organiza-
+
+tions in the U.S. manufacturing industry, healthcare companies, universities, Internet 
+Business case: Compelling justification 
+for taking some action.

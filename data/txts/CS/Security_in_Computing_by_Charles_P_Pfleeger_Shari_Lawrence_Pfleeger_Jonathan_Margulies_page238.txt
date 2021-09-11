@@ -1,0 +1,25 @@
+204 Chapter 3  
+Programs and ProgrammingIf a component is isolated from the effects of other components, then the system is 
+designed in a way that limits the damage any fault causes. Maintaining the system is 
+
+easier because any problem that arises connects with the fault that caused it. Testing 
+
+(especially regression testing—making sure that everything else still works when you 
+
+make a corrective change) is simpler, since changes to an isolated component do not 
+
+affect other components. And developers can readily see where vulnerabilities may lie 
+
+if the component is isolated. We call this isolation 
+encapsulation.Information hiding
+ is another characteristic of modular software. When informa-
+tion is hidden, each component hides its precise implementation or some other design 
+decision from the others. Thus, when a change is needed, the overall design can remain 
+
+intact while only the necessary changes are made to particular components.Let us look at these characteristics in more detail.Modularity Modularization is the process of dividing a task into subtasks, as depicted in Fig-
+
+ure 3-26. This division is usually done on a logical or functional basis, so that each 
+
+component performs a separate, independent part of the task. The goal is for each com-
+
+ponent to meet four conditions:• single-purpose, performs one function• small, consists of an amount of information for which a human can readily grasp both structure and contentSingleMonolithicStructureSmallSingle-PurposeSimpleIndependentUnderstandableHierarchical ModularityFIGURE 3-26 Modularity

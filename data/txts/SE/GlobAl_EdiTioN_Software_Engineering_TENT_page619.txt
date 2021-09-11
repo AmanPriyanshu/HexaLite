@@ -1,0 +1,36 @@
+˜˜˚˛˚˝˜˜˜˜˜˜˜
+4.
+ After the fuel delivery is complete and the buyer has replaced the hose in its 
+holster, the system moves to a Paying state where the user™s account is debited.5. After payment, the pump software returns to the Waiting state.State models are used in model-driven engineering, which I discussed in Chapter 5, 
+to define the operation of a system. They can be transformed automatically or semiau
+-
+tomatically to an executable program.Programming languages for real-time systems development have to include facilities 
+to access system hardware, and it should be possible to predict the timing of particu-
+lar operations in these languages. Hard real-time systems, running on limited hard-
+ware, are still sometimes programmed in assembly language so that tight deadlines 
+can be met. Systems programming languages, such as C, which allow efficient code 
+to be generated, are widely used.The advantage of using a systems programming language like C is that it allows the development of efficient programs. However, these languages do not include 
+
+constructs to support concurrency or the management of shared resources. 
+
+Concurrency and resource management are implemented through calls to primitives 
+
+provided by the real-time operating system for mutual exclusion. Because the com-
+piler cannot check these calls, programming errors are more likely. Programs are 
+
+also often more difficult to understand because the language does not include real-
+
+time features. As well as understanding the program, the reader also has to know 
+
+how real-time support is provided using system calls.Because real-time systems must meet their timing constraints, you may not be 
+able to use object-oriented development for hard real-time systems. Object-oriented 
+development involves hiding data representations and accessing attribute values 
+
+through operations defined with the object. There is a significant performance over-
+head in object-oriented systems because extra code is required to mediate access to 
+attributes and handle calls to operations. The consequent loss of performance may 
+make it impossible to meet real-time deadlines.A version of Java has been developed for embedded systems development (Burns and Wellings 2009; Bruno and Bollella 2009). This language includes a modified 
+
+thread mechanism, which allows threads to be specified that will not be interrupted 
+Real-time JavaThe Java programming language has been modified to make it suitable for real-time systems development. 
+These modifications include asynchronous communications, the addition of time, including absolute and  relative time, a new thread model where threads cannot be interrupted by garbage collection, and a new  memory management model that avoids the unpredictable delays that can result from garbage collection.http://software-engineering-book.com/web/real-time-java/

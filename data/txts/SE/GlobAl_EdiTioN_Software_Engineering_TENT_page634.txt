@@ -1,0 +1,25 @@
+˜˚˛˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜˜At any one time several processes, all with different priorities, could be executed. The process scheduler implements system-scheduling policies that determine the 
+order of process execution. There are two commonly used scheduling strategies:1. Nonpreemptive scheduling After a process has been scheduled for execution, it runs to completion or until it is blocked for some reason, such as waiting for 
+
+input. This can cause problems if there are processes with different priorities 
+
+and a high-priority process has to wait for a low-priority process to finish.2. Preemptive scheduling The execution of an executing process may be stopped if 
+a higher-priority process requires service. The higher-priority process preempts 
+the execution of the lower-priority process and is allocated to a processor.Within these strategies, different scheduling algorithms have been developed. 
+These include round-robin scheduling, where each process is executed in turn; rate 
+monotonic scheduling, where the process with the shortest period (highest fre-quency) is given priority; and shortest deadline first scheduling, where the process in 
+the queue with the shortest deadline is scheduled (Burns and Wellings 2009).Information about the process to be executed is passed to the resource manager. 
+The resource manager allocates memory and, in a multiprocessor system, also adds 
+
+a processor to this process. The process is then placed on the ﬁready list,ﬂ a list of 
+
+processes that are ready for execution. When a processor finishes executing a pro-cess and becomes available, the dispatcher is invoked. It scans the ready list to find 
+
+a process that can be executed on the available processor and starts its execution.˜˜˚˛
+˜˝˙ˆ˝ˇˇ˝ˇ˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˚
+˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜
+˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜
+˜˜˜˜˜˜˜˜˝˙ˆ˝ˇˇ˝ˇ˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜
+˜˜˜˜ˆ˝˜˜˜˜˜˜˝˙ˆ˝ˇˇ˝ˇ˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜

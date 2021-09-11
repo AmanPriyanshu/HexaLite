@@ -1,0 +1,29 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜in which the actor ﬁMedical Receptionistﬂ is involved. Each of these should be 
+accompanied by a more detailed description.The UML includes a number of constructs for sharing all or part of a use case in 
+other use case diagrams. While these constructs can sometimes be helpful for system 
+
+designers, my experience is that many people, especially end-users, find them diffi-cult to understand. For this reason, these constructs are not described˜here.ˇˇSequence diagrams in the UML are primarily used to model the interactions between 
+the actors and the objects in a system and the interactions between the objects them-
+selves. The UML has a rich syntax for sequence diagrams, which allows many dif-
+ferent kinds of interaction to be modeled. As space does not allow covering all 
+
+possibilities here, the focus will be on the basics of this diagram type.As the name implies, a sequence diagram shows the sequence of interactions that 
+take place during a particular use case or use case instance. Figure 5.6 is an example 
+of a sequence diagram that illustrates the basics of the notation. This diagram models 
+the interactions involved in the View patient information use case, where a medical 
+receptionist can see some patient information.The objects and actors involved are listed along the top of the diagram, with a 
+dotted line drawn vertically from these. Annotated arrows indicate interactions 
+
+between objects. The rectangle on the dotted lines indicates the lifeline of the object 
+concerned (i.e., the time that object instance is involved in the computation). You 
+
+read the sequence of interactions from top to bottom. The annotations on the arrows 
+indicate the calls to the objects, their parameters, and the return values. This example 
+
+also shows the notation used to denote alternatives. A box named alt is used with the MedicalreceptionistRegister
+patientTransfer data
+ContactpatientView patient
+info.Unregister
+patientFigure 5.5 Use cases involving the role 
+ﬁMedical receptionistﬂ

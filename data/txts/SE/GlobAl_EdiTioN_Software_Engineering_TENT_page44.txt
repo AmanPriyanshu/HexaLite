@@ -1,0 +1,30 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜A software process is a set of related activities that leads to the production of a soft-ware system. As I discussed in Chapter 1, there are many different types of software 
+systems, and there is no universal software engineering method that is applicable to 
+all of them. Consequently, there is no universally applicable software process. The 
+process used in different companies depends on the type of software being devel-oped, the requirements of the software customer, and the skills of the people writing 
+the software.However, although there are many different software processes, they all must 
+include, in some form, the four fundamental software engineering activities that I 
+introduced in Chapter 1:1. Software specification The functionality of the software and constraints on its operation must be defined.2. Software development The software to meet the specification must be produced.3. Software validation 
+The software must be validated to ensure that it does what 
+
+the customer wants.4. Software evolution The software must evolve to meet changing customer needs.These activities are complex activities in themselves, and they include subactivi-ties such as requirements validation, architectural design, and unit testing. Processes 
+also include other activities, such as software configuration management and project 
+planning that support production activities.When we describe and discuss processes, we usually talk about the activities in these processes, such as specifying a data model and designing a user interface, and 
+
+the ordering of these activities. We can all relate to what people do to develop soft-
+ware. However, when describing processes, it is also important to describe who is 
+involved, what is produced, and conditions that influence the sequence of activities:1. Products or deliverables are the outcomes of a process activity. For example, the outcome of the activity of architectural design may be a model of the software 
+
+architecture.2. Roles reflect the responsibilities of the people involved in the process. Examples 
+of roles are project manager, configuration manager, and programmer.3. Pre- and postconditions are conditions that must hold before and after a process 
+activity has been enacted or a product produced. For example, before architec-
+tural design begins, a precondition may be that the consumer has approved all 
+
+requirements; after this activity is finished, a postcondition might be that the 
+
+UML models describing the architecture have been reviewed.Software processes are complex and, like all intellectual and creative processes, 
+rely on people making decisions and judgments. As there is no universal process that 
+
+is right for all kinds of software, most software companies have developed their own 

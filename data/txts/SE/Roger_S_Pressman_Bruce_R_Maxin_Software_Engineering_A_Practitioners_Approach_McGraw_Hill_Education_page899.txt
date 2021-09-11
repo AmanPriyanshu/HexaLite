@@ -1,0 +1,64 @@
+869  
+APPENDIX1      T
+he  Uniﬁ ed Modeling Language
+  (UML) is “a standard language for writing software blueprints. UML may be used to visualize, specify, construct, 
+and document the artifacts of a software-intensive system” [Boo05]. In other words, just as building architects create blueprints to be used by a con-
+struction company, software architects create UML diagrams to help software 
+developers build the software. If you understand the vocabulary of UML (the 
+diagrams’ pictorial elements and their meanings), you can much more eas-
+ily understand and specify a system and explain the design of that system to 
+others.  Grady Booch, Jim Rumbaugh, and Ivar Jacobson developed UML in the mid-1990s with much feedback from the software development community. 
+UML merged a number of competing modeling notations that were in use by 
+the software industry at the time. In 1997, UML 1.0 was submitted to the Object 
+Management Group, a nonproﬁ t consortium involved in maintaining speci-
+ﬁ cations for use by the computer industry. UML 1.0 was revised to UML 1.1 
+and adopted later that year. The current standard is UML 2.3  2 and is now an ISO standard. Because this standard is new, many older references, such as 
+[Gam95] do not use UML notation.  UML 2.3 provides 13 different diagrams for use in software modeling. In this appendix, we will discuss only  class, deployment, use case, sequence, commu-nication, activity,  and  state  diagrams. These diagrams are used in this edition of  Software Engineering: A Practitioner’s Approach.  
+ You should note that there are many optional features in UML diagrams. The UML language provides these (sometimes arcane) options so that you can 
+express all the important aspects of a system. At the same time, you have the 
+ﬂ exibility to suppress those parts of the diagram that are not relevant to the aspect being modeled in order to avoid cluttering the diagram with irrelevant 
+details. Therefore, the omission of a particular feature does not mean that 
+the feature is absent; it may mean that the feature was suppressed. In this ap-
+pendix, we will not present exhaustive coverage of all the features of the UML 
+diagrams. Instead, we focus on the standard options, especially those options 
+that have been used in this book. AN INTRODUCTIONTO UML  1   1 
+ This appendix has been contributed by Dale Skrien and has been adapted from his book, 
+ An Introduction to Object-Oriented Design and Design Patterns in Java
+  (McGraw-Hill, 2008). All content is used with permission.   2  
+http://www.omg.org/spec/UML/2.3/Infrastructure/PDF/
+ and http://www.omg.org/spec/UML/
+2.3/Superstructure/PDF/. These two complementary speciﬁ cations constitute a complete 
+speciﬁ cation for the UML 2 modeling language 
+ K
+EY CONCEPTS    activity diagram  . . 881  
+
+  class diagram  . . . . 870  
+
+  communication 
+diagram  . . . . . . . . 880  
+
+  dependency. . . . . . 872  
+
+  deployment 
+diagram  . . . . . . . . 874  
+
+  generalization. . . . 871  
+
+  interaction 
+frames. . . . . . . . . 878  
+
+  multiplicity . . . . . . 872  
+
+  object constraint 
+
+language  . . . . . . . 887  
+
+  sequence diagram  . 876  
+
+  state diagram. . . . 884  
+
+  stereotype  . . . . . . 871  
+
+  swimlanes  . . . . . . 883  
+
+  use-case diagram  . 875   

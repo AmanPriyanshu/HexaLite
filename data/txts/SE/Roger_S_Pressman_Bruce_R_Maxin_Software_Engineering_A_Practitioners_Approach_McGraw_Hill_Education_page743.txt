@@ -1,0 +1,91 @@
+CHAPTER 32  
+PROCESS AND PROJECT METRICS 713was produced? How can past productivity and quality data be extrapolated to the present? How can it help us improve the process and plan new projects more 
+accurately?   
+ 
+ 
+32.2.4   
+Object-Oriented Metrics  
+Conventional software project metrics (LOC or FP) can be used to estimate  object-oriented software projects. However, these metrics do not provide enough 
+granularity for the schedule and effort adjustments that are required as you it-
+erate through an evolutionary or incremental process. Lorenz and Kidd [Lor94] 
+suggest the following set of metrics for OO projects:   
+ 
+ 
+ 
+ 
+ 
+Number of scenario scripts.   
+A scenario script (analogous to a use case) is a de-tailed sequence of steps that describes the interaction between the user and the 
+application. Each script is organized into triplets of the form { initiator,
+ 
+  action, 
+  participant 
+}  where  initiator 
+ is the object that requests some service (that initiates a message), 
+ action 
+ is the result of the request, and  
+participant 
+ is the server object that sat-
+isﬁ es the request. The number of scenario scripts is directly correlated to the 
+size of the application and to the number of test cases that must be developed to 
+exercise the system once it is constructed.   
+ 
+ 
+ 
+ 
+ 
+ 
+Number of key classes.   
+ 
+Key classes 
+ are the “highly independent components” 
+[Lor94] that are deﬁ ned early in object-oriented analysis (Chapter 10). 
+ 5 
+ 
+ Because 
+key classes are central to the problem domain, the number of such classes is 
+an indication of the amount of effort required to develop the software and also 
+an indication of the potential amount of reuse to be applied during system 
+development.  
+ 
+  
+ 
+ 
+Number of support classes.   
+ 
+Support classes 
+ are required to implement the sys-tem but are not immediately related to the problem domain. Examples might be 
+user interface (UI) classes, database access and manipulation classes, and com-
+putation classes. In addition, support classes can be developed for each of the 
+key classes. Support classes are deﬁ ned iteratively throughout an evolutionary 
+process. The number of support classes is an indication of the amount of effort 
+required to develop the software and also an indication of the potential amount 
+of reuse to be applied during system development.   
+ 
+Average number of support classes per key class.   
+In general, key classes are known early in the project. Support classes are deﬁ ned throughout. If the aver-
+age number of support classes per key class were known for a given problem do-
+main, estimating (based on total number of classes) would be greatly simpliﬁ ed. 
+   It is not uncommon 
+for multiple-scenario 
+scripts to mention the 
+same functionality or 
+data objects. There-
+fore, be careful when 
+using script counts. 
+Many scripts can 
+sometimes be reduced 
+to a single class or set 
+of code.    Classes can vary in 
+
+size and complexity. 
+
+Therefore, it’s worth 
+
+considering classifying 
+class counts by size 
+and complexity. 
+  
+5   We referred to key classes as  
+analysis classes 
+ in Chapter 10. pre22126_ch32_703-726.indd   713pre22126_ch32_703-726.indd   71313/12/13   6:17 PM13/12/13   6:17 PM

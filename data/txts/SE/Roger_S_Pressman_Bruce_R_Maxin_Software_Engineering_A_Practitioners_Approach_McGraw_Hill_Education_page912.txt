@@ -1,0 +1,20 @@
+882 APPENDIX 1  AN INTRODUCTION TO UMLpreheated. The mixing of the dry ingredients can be done in parallel with the 
+mixing of the wet ingredients and the preheating of the oven.  
+ A  join  is a way of synchronizing concurrent ﬂ ows of control. It is represented 
+by a horizontal black bar with two or more incoming arrows and one outgoing 
+arrow. The ﬂ ow of control represented by the outgoing arrow cannot begin ex-
+
+ecution until all ﬂ ows represented by incoming arrows have been completed. In 
+  
+Figure A1.11, we have a join before the action of mixing together the wet and dry 
+ingredients. This join indicates that all dry ingredients must be mixed and all wet 
+ingredients must be mixed before the two mixtures can be combined. The second 
+join in the ﬁ gure indicates that, before the baking of the cake can begin, all ingre-
+
+dients must be mixed together, and the oven must be at the right temperature.  A  decision  node corresponds to a branch in the ﬂ ow of control based on a 
+condition. Such a node is displayed as a white triangle with an incoming arrow Find recipeMix dry
+ingredientsMix wetingredientsHeat ovenBakeRemove from ovenMix together(not done)(done) F
+IGURE A1.11A UML activity 
+diagram show-
+ing how to 
+bake a cake   

@@ -1,0 +1,60 @@
+ Section 10.4  Risk Analysis 
+675  Some organizations use other approaches to determining vulnerabilities and assess-
+ing their importance. For example, Sidebar 10-6 describes the U.S. Navy’s approach to 
+
+vulnerability evaluation.
+Alas, there is no simple checklist or easy procedure to list all vulnerabilities. But 
+from the earlier chapters of this book you have seen many examples of vulnerabilities to 
+
+assets, and your mind has been trained to think of harm that can occur. Tools can help us 
+
+conceive of vulnerabilities by providing a structured way to think. For example, assets 
+
+have certain properties that make them vulnerable. The properties exist in three catego-
+
+ries: aspects of the design or architecture, aspects of behavior, and general attributes. 
+
+Table 10-4 lists these properties in more detail. Notice that the properties apply to many 
+
+kinds of systems and at various places within a given system.
+Step 3: Estimate Likelihood of ExploitationThe third step in conducting a risk analysis is determining how often each exposure is 
+likely to be exploited. Likelihood of occurrence relates to the stringency of the existing 
+
+controls and the likelihood that someone or something will evade the existing controls. 
+
+Sidebar 10-7 describes several approaches to computing the probability that an event 
+
+will occur: classical, frequency, and subjective. Each approach has its advantages and 
+
+disadvantages, and we must choose the approach that best suits the situation (and its 
+
+available information).
+SIDEBAR 10-6  
+Integrated Vulnerability Assessments 
+and CARVER
+The U.S. Navy (see http://www.safetycenter.navy.mil/orm/generalorm/
+introduction/default.htm
+) performs Integrated Vulnerability Assessments 
+(IVAs) as part of its risk analysis process. An IVA uses checklists to review 
+
+system vulnerabilities and suggest appropriate mitigative strategies. The 
+
+steps in an IVA include
+1. identifying vulnerabilities
+2. assigning priorities to the vulnerabilities
+
+3. brainstorming countermeasures
+
+4. assessing the risks
+The Criticality, Accessibility, Recuperability, Vulnerability, Effect, and 
+Recognizability (CARVER) method is employed to assign priorities to the 
+
+vulnerabilities. Numeric ratings are applied to each vulnerability, and the 
+
+sum represents a vulnerability score. However, the summation procedure 
+
+blurs the distinctions among different types of risks, so the value of the 
+
+overall score is questionable. Nevertheless, IVAs and CARVER may be use-
+
+ful in making security planning issues more visible.

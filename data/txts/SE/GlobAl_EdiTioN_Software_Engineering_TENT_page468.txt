@@ -1,0 +1,36 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜A useful way of thinking about a component is as a provider of one or more 
+ services, even if the component is embedded rather than implemented as a  service. When a system needs something to be done, it calls on a component to provide that service without caring about where that component is executing or the programming 
+language used to develop the component. For example, a component in a system 
+
+used in a public library might provide a search service that allows users to search the 
+library catalog. A component that converts from one graphical format to another 
+
+(e.g., TIFF to JPEG) provides a data conversion  service and so on.Viewing a component as a service provider emphasizes two critical characteris-tics of a reusable component:1. The component is an independent executable entity that is defined by its inter-faces. You don™t need any knowledge of its source code to use it. It can either be 
+referenced as an external service or included directly in a program.2.
+ The services offered by a component are made available through an interface, and 
+
+all interactions are through that interface. The component interface is expressed 
+
+in terms of parameterized operations, and its internal state is never exposed.In principle, all components have two related interfaces, as shown in Figure 
+16.2. These interfaces reflect the services that the component provides and the services 
+
+that the component requires to operate correctly:1.
+ The ﬁprovidesﬂ interface defines the services provided by the component. This 
+interface is the component API. It defines the methods that can be called by a user 
+Figure 16.1 Component characteristicsComponent 
+characteristicDescription
+ComposableFor a component to be composable, all external interactions must take place through publicly defined interfaces. In addition, it must provide external access to information 
+about itself, such as its methods and attributes.DeployableTo be deployable, a component has to be self-contained. It must be able to operate 
+as a stand-alone entity on a component platform that provides an implementation of 
+the component model. This usually means that the component is binary and does 
+not have to be compiled before it is deployed. If a component is implemented as a 
+service, it does not have to be deployed by a user of that component. Rather, it is 
+deployed by the service provider.DocumentedComponents have to be fully documented so that potential users can decide 
+whether or not the components meet their needs. The syntax and, ideally, the 
+semantics of all component interfaces should be specified.IndependentA component should be independentŠit should be possible to compose and deploy 
+it without having to use other specific components. In situations where the 
+component needs externally provided services, these should be explicitly set out in a 
+ﬁrequiresﬂ interface specification.StandardizedComponent standardization means that a component used in a CBSE process has to 
+conform to a standard component model. This model may define component 
+interfaces, component metadata, documentation, composition, and deployment.

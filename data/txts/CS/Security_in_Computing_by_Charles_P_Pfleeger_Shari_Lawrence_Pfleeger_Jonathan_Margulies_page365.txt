@@ -1,0 +1,40 @@
+ Section 5.3  Rootkit 
+331  represent the specific system function to perform, and execute a call instruction to the 
+operating system kernel. The operating system returns descriptive information, and the 
+
+higher-level functions format and present that information. These steps reflect the lay-
+
+ered functioning of the operating system depicted in the figures earlier in this chapter.
+What if malicious code intruded on that sequence of calls? For example, consider the 
+directory listing shown in Figure 5-20, which depicts the true contents of a subdirectory. 
+
+An attacker could intercept that listing to change it to the one shown in Figure 5-21, in 
+
+which the file 
+mal_code.exe does not appear. 
+What happened? Remember that the operating system functions are implemented 
+by tasks placed throughout the operating system. The utility to present a file listing 
+
+uses primitives such as FindNextFile() and NTQueryDirectoryObject. To remain invis-
+
+ible, the rootkit intercepts these calls so that if the result from FindNextFile() points to 
+mal_code.exe, the rootkit skips that file and executes FindNextFile() again to find the 
+next file 
+after mal_code.exe. The higher-level utility to produce the listing keeps 
+the running total of file sizes for the files of which it receives information, so the total in 
+
+the listing correctly reports all files except 
+mal_code.exe. The stealthy operation of this 
+rootkit is shown in Figure 5-22.
+These listings were produced with the simple DOS dir command to represent the 
+kind of output produced by these system APIs. If the attacker intercepts and modifies 
+
+either the input going into the API or the output coming from the API, the effect is to 
+
+make the file 
+mal_code.exe invisible to higher-level callers. Thus, if an antivirus tool 
+is scanning by obtaining a list of files and inspecting each one, the tool will miss the 
+
+malicious file.
+Inspect all filesFindFirstFile()check fileFindNextFile()
+repeatNTQueryDirectoryObjectWindows APIKernel Native InterfaceDevice driver functionsDeviceFIGURE 5-19 Using APIs and Function Calls to Inspect Files 

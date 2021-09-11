@@ -1,0 +1,71 @@
+CHAPTER 8  
+UNDERSTANDING REQUIREMENTS
+ 137large products or systems are engineered), conﬂ icting requirements, or unreal-
+istic (unachievable) requirements.  To illustrate some of the problems that occur during requirements validation, 
+consider two seemingly innocuous requirements:  
+ 
+ 
+• 
+ 
+  The software should be user friendly. 
+  
+ 
+ 
+• 
+ 
+  The probability of a successful unauthorized database intrusion should be less than 0.0001.  
+ 
+  The ﬁ rst requirement is too vague for developers to test or assess. What ex-
+actly does “user friendly” mean? To validate it, it must be quantiﬁ
+ ed or qualiﬁ
+ ed 
+in some manner. 
+ The second requirement has a quantitative element (“less than 0.0001”), but intrusion testing will be difﬁ cult and time consuming. Is this level of security even 
+warranted for the application? Can other complementary requirements associ-
+ated with security (e.g., password protection, specialized handshaking) replace 
+the quantitative requirement noted?  Glinz [Gli09] writes that quality requirements need to be represented in a manner that delivers optimal value. This means assessing the risk (Chapter 35) of 
+delivering a system that fails to meet the stakeholders’ quality requirements and 
+attempting to mitigate this risk at minimum cost. The more critical the quality 
+requirement is, the greater the need to state it in quantiﬁ able terms. Less-critical 
+quality requirements can be stated in general terms. In some cases, a general 
+quality requirement can be veriﬁ ed using a qualitative technique (e.g., user sur-
+vey or check list). In other situations, quality requirements can be veriﬁ ed using 
+a combination of qualitative and quantitative assessment.  
+ 
+ 
+  
+ 
+Requirements Validation 
+Checklist  It is often useful to examine each requirement against a set of checklist questions. Here is a small sub-
+set of those that might be asked:  
+ 
+ 
+•  Are requirements stated clearly? Can they be misinterpreted?   
+ 
+ 
+•  Is the source (e.g., a person, a regulation, a document) of the requirement identiﬁ ed? Has the ﬁ
+ nal 
+statement of the requirement been examined by or 
+against the original source?    
+ •  Is the requirement bounded in quantitative terms? 
+   
+ •  What other requirements relate to this requirement? Are they clearly noted via a cross-reference matrix or 
+other mechanism?    
+ •  Does the requirement violate any system domain constraints?    
+ •  Is the requirement testable? If so, can we specify tests (sometimes called validation criteria) to exercise the 
+requirement?    
+ •  Is the requirement traceable to any system model that has been created?     
+•  Is the requirement traceable to overall system/product objectives?    
+ •  Is the speciﬁ 
+to easy understanding, easy reference, and easy 
+translation into more technical work products?    
+ •  Has an index for the speciﬁ cation been created? 
+   
+ •  Have requirements associated with performance, 
+behavior, and operational characteristics been clearly 
+
+stated? What requirements appear to be implicit?  
+ 
+ 
+  
+INFO pre22126_ch08_131-165.indd   137pre22126_ch08_131-165.indd   13713/12/13   6:11 PM13/12/13   6:11 PM

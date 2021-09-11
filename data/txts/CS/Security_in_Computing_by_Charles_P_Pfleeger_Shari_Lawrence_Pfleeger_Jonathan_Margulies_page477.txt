@@ -1,0 +1,76 @@
+ Section 6.6  Cryptography in Network Security 
+443  data from the time it has been typed 
+until the operating system delivers it 
+
+to the client’s browser, thus thwart-
+
+ing any keylogging Trojan horse that 
+
+has become implanted in the user’s 
+
+computer to reveal everything the 
+
+user types.Onion RoutingAs we described both link and end-to-end encryption, the data portion of the commu-
+nication was secured for confidentiality. However, the addressing data were exposed. 
+
+Thus, someone monitoring traffic between points A and B would know the volume of 
+
+traffic communicated.
+Paul Syverson and colleagues [SYV97] introduced the concept of 
+onion routing
+. That model uses a collection of forwarding hosts, each of whom knows only from where 
+
+a communication was received and to where to send it next. Thus, to send untraceable 
+
+data from A to B, A picks some number of forwarding hosts, call them X, Y, and Z. A 
+
+begins by encrypting the communication under B’s public key. A then appends a header 
+
+from Z to B, and encrypts the result under Z’s public key. A then puts a header on that 
+
+from Y to Z and encrypts that under Y’s public key. A then puts a header on that com-
+
+munication from X to Y and encrypts that under X’s public key. Finally, A puts on a 
+
+header to send the package to X.Upon receiving the package, X decrypts it and finds instructions to forward the inner 
+package to Y. Y then decrypts it and finds instructions to forward the inner package to Z. 
+
+Z then decrypts it and finds instructions to forward the inner package to B. The package 
+
+is deconstructed like peeling the layers from an onion, which is why this technique is 
+
+called onion routing.No intermediate host can know who the ultimate recipient is. Even Z cannot tell that 
+B is the final destination, because what Z delivers to B is encrypted under B’s public 
+
+key. Thus, X, Y, and Z know only that they are intermediaries, but they do not know 
+
+which other intermediaries there are, how many of them there are, or where they are in 
+
+the chain. Any intermediate recipients—those other than the original sender and ulti-
+
+mate recipient—know neither where the package originated nor where it will end. This 
+
+scheme provides confidentiality of content, source, destination, and routing.
+Packages for onion routing can be any network transmissions. The most popular 
+uses, however, are covert email (in which the recipient cannot determine who was the 
+
+original sender), and private web browsing (in which neither the destination host nor 
+
+an eavesdropper monitoring the sender’s outgoing communication can determine the 
+
+destination host or traffic content).
+The Tor project (https://www.torproject.org/) distributes free software and enlists 
+an open network that uses onion routing to defend against traffic analysis. Tor (which 
+
+stands for The Onion Router) protects by transferring communications around a dis-
+
+tributed network of over 5,000 relays run by volunteers all around the world: It pre-
+
+vents outsiders watching Internet connections from learning what sites a user visits, 
+SSL encryption protects only from the 
+
+browser to the destination decryption 
+
+point. Vulnerabilities before encryption 
+
+or after decryption are unaffected.

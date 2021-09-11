@@ -1,0 +1,84 @@
+36 PART ONE  
+THE SOFTWARE PROCESS
+ 
+ 
+ 
+ 2.   Task pattern
+ 
+—deﬁ nes a problem associated with a software engineer-
+ing action or work task and relevant to successful software engineering 
+practice (e.g.,  RequirementsGathering 
+ is a task pattern).    
+ 
+ 3.   Phase pattern 
+—deﬁ ne the sequence of framework activities that occurs 
+within the process, even when the overall ﬂ ow of activities is iterative 
+in nature. An example of a phase pattern might be  SpiralModel 
+ or  Prototyping 
+.  3 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+Initial Context. 
+ Describes the conditions under which the pattern applies. Prior to the initiation of the pattern: (1) What organizational or team-related 
+activities have already occurred? (2) What is the entry state for the process? 
+ For example, the  Planning 
+ pattern (a stage pattern) requires that (1) custom-ers and software engineers have established a collaborative communication; 
+ ed] for the 
+ Communication 
+ pattern has occurred; and (3) the project scope, basic business requirements, and project constraints are known.   
+Problem. 
+ The speciﬁ c problem to be solved by the pattern. 
+  
+Solution. 
+ Describes how to implement the pattern successfully. This section 
+describes how the initial state of the process (that exists before the pattern 
+is implemented) is modiﬁ ed as a consequence of the initiation of the pattern. 
+It also describes how software engineering information or project informa-
+tion that is available before the initiation of the pattern is transformed as a 
+ consequence of the successful execution of the pattern.   
+Resulting Context. 
+ Describes the conditions that will result once the pattern has been successfully implemented. Upon completion of the pattern: (1) What 
+organizational or team-related activities must have occurred? (2) What is the 
+exit state for the process? (3) What software engineering information or project 
+information has been developed?   
+Related Patterns. 
+ Provide a list of all process patterns that are directly  related to this one. This may be represented as a hierarchy or in some other  diagrammatic form. For example, the stage pattern  Communication 
+ encom-passes the task patterns:  ProjectTeam
+ 
+,  CollaborativeGuidelines 
+,  ScopeIsolation 
+,  RequirementsGathering, ConstraintDescription, 
+ and  ScenarioCreation. 
+   
+Known Uses and Examples. 
+ Indicate the speciﬁ c instances in which the 
+ pattern is applicable. For example,  Communication 
+ is mandatory at the  beginning of every software project, is recommended throughout the software project, and is mandatory once the  Deployment 
+ activity is under way. 
+ 
+ uote:  “We think 
+that software 
+developers are 
+missing a vital 
+truth: most 
+organizations don't 
+know what they 
+do. They think they 
+know, but they 
+
+don't know.” 
+ Tom DeMarco 
+  
+ 
+ 
+ 
+ 
+3  These phase patterns are discussed in Chapter 4. 
+pre22126_ch03_029-039.indd   36pre22126_ch03_029-039.indd   3613/12/13   6:10 PM13/12/13   6:10 PM

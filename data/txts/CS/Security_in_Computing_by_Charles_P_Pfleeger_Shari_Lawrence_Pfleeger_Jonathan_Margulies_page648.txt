@@ -1,0 +1,64 @@
+614 Chapter 9  
+PrivacyIf those records can be reconnected to the identifying information, privacy suffers. If, 
+for example, names have been removed from records but telephone numbers remain, a 
+
+researcher can use a different database of telephone numbers to determine the patient, 
+
+or at least the name assigned to the telephone. Removing enough information to prevent 
+
+identification or re-identification is difficult and can also limit research possibilities.
+As described in Sidebar 9-5, Ross Anderson was asked to study a major database 
+being prepared for citizens of Iceland. The database would have joined several health-
+
+care databases for use by researchers and healthcare professionals. Anderson demon-
+
+strated that even though the records had been anonymized, it was still possible to relate 
+SIDEBAR 9-5  
+Iceland Weighs Anonymity Against Public 
+BenefitIn 1998, Iceland authorized the building of a database of citizens’ medi-cal records, genealogy, and genetic information. Ostensibly, this database 
+
+would provide data on genetic diseases to researchers—medical profes-
+
+sionals and drug companies. Iceland is especially interesting for genetic 
+
+disease research because the gene pool has remained stable for a long 
+
+time; few outsiders have moved to Iceland, and few Icelanders have emi-
+
+grated. For privacy, all identifying names or numbers would be replaced 
+
+by a unique pseudonym. The Iceland health department asked computer 
+
+security expert Ross Anderson to analyze the security aspects of this 
+
+approach.
+Anderson found several flaws with the proposed approach [AND98]:
+• Inclusion in the genealogical database complicates the task of main-
+taining individuals’ anonymity because of distinctive family features. 
+
+Moreover, parts of the genealogical database are already public 
+
+because information about individuals is published in their birth and 
+
+death records. For example, it would be rather easy to identify some-
+
+one in a family of three children born, respectively, in 1910, 1911, and 
+
+1929.• Even a life’s history of medical events may identify an individual. Many 
+people might know the identity of a person who broke her leg ski-
+
+ing one winter and contracted a skin disease the following summer, 
+
+if those two events happened to exactly one person in the database.• Even small sample set restrictions on queries would fail to protect 
+against algebraic attacks.• To analyze the genetic data, which by its nature is necessarily of very 
+fine detail, researchers would need to make complex and specific 
+
+queries. This same powerful query capability could lead to arbitrary 
+
+selection of combinations of results.
+For these reasons (and others), Anderson recommended against con-
+tinuing to develop the public database. In spite of these problems, the Ice-
+
+land Parliament voted to proceed with its construction and public release 
+
+[JON00].

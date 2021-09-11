@@ -1,0 +1,69 @@
+900 APPENDIX 3  FORMAL METHODS The ﬁ rst operation to be deﬁ ned is one that removes an element from the 
+head of the block queue. The precondition is that there must be at least one item 
+in the queue:    #BlockQueue 
+. 0,   
+ The postcondition is that the head of the queue must be removed and placed in 
+the collection of free blocks and the queue adjusted to show the removal:     
+used9  
+5  used  \  
+head BlockQueue  
+`  
+  
+free
+9 5  free
+  
+<  head BlockQueue  
+`  
+   
+BlockQueue9  
+5  tail BlockQueue    
+ A convention used in many formal methods is that the value of a variable after 
+
+an operation is primed. Hence, the ﬁ rst component of the preceding expres-
+
+sion states that the new used blocks ( used9 ) will be equal to the old used blocks 
+minus the blocks that have been removed. The second component states that 
+
+the new free blocks ( free9 ) will be the old free blocks with the head of the block 
+queue added to it. The third component states that the new block queue will be 
+
+equal to the tail of the old value of the block queue, that is, all elements in the 
+
+queue apart from the ﬁ rst one. A second operation adds a collection of blocks, 
+
+ Ablocks,  to the block queue. The precondition is that  Ablocks  is currently a set 
+of used blocks: 
+  
+Ablocks  
+#  used    
+ The postcondition is that the set of blocks is added to the end of the block queue 
+and the set of used and free blocks remains unchanged:     
+BlockQueue9  
+5  BlockQueue  
+C KAblocksL `  
+   
+used9  
+5  used  
+`  
+   
+free
+9  
+5  free
+    
+ There is no question that the mathematical speciﬁ cation of the block queue is con-
+
+siderably more rigorous than a natural language narrative or a graphical model. 
+The additional rigor requires effort, but the beneﬁ ts gained from improved con-
+sistency and completeness can be justiﬁ ed for some application domains. 
+    
+  FORMAL SPECIFICATION
+ LANGUAGES   
+A formal speciﬁ cation language is usually composed of three primary compo-
+nents: (1) a syntax that deﬁ nes the speciﬁ c notation with which the speciﬁ
+ cation is represented, (2) semantic domain to help deﬁ ne a ”universe of objects” [Win90] 
+
+that will be used to describe the system, and (3) a set of relations that deﬁ ne the semantic rules that indicate how objects may be manipulated properly and 
+satisfy the speciﬁ cation.  How do I 
+
+represent pre- and 
+postconditions? ?

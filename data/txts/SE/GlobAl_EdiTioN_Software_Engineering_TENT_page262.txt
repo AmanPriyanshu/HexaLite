@@ -1,0 +1,41 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜Legacy systems are older systems that rely on languages and technology that are no longer used for new systems development. Typically, they have been maintained over a long period, and their structure may have been degraded by the changes that 
+
+have been made. Legacy software may be dependent on older hardware, such as 
+
+mainframe computers and may have associated legacy processes and procedures. It 
+may be impossible to change to more effective business processes because the leg-
+acy software cannot be modified to support new processes.Legacy systems are not just software systems but are broader sociotechnical systems 
+that include hardware, software, libraries, and other supporting software and business 
+
+processes. Figure 9.7 shows the logical parts of a legacy system and their relationships.1. System hardware Legacy systems may have been written for hardware that is no longer available, that is expensive to maintain, and that may not be compatible 
+with current organizational IT purchasing policies.2. Support software 
+The legacy system may rely on a range of support software 
+
+from the operating system and utilities provided by the hardware manufacturer 
+
+through to the compilers used for system development. Again, these may be 
+
+obsolete and no longer supported by their original providers.3. Application software The application system that provides the business services 
+is usually made up of a number of application programs that have been devel-
+oped at different times. Some of these programs will also be part of other appli-
+cation software systems.4. Application data These data are processed by the application system. In many 
+legacy systems, an immense volume of data has accumulated over the lifetime 
+of the system. This data may be inconsistent, may be duplicated in several files, 
+
+and may be spread over a number of different databases.5. Business processes 
+These processes are used in the business to achieve some 
+
+business objective. An example of a business process in an insurance company 
+would be issuing an insurance policy; in a manufacturing company, a business 
+process would be accepting an order for products and setting up the associated 
+manufacturing process. Business processes may be designed around a legacy 
+
+system and constrained by the functionality that it provides.6. Business policies and rules These are definitions of how the business should be 
+carried out and constraints on the business. Use of the legacy application system 
+may be embedded in these policies and rules.An alternative way of looking at these components of a legacy system is as a 
+series of layers, as shown in Figure 9.8.Each layer depends on the layer immediately below it and interfaces with that 
+layer. If interfaces are maintained, then you should be able to make changes within a 
+layer without affecting either of the adjacent layers. In practice, however, this simple 
+encapsulation is an oversimplification, and changes to one layer of the system may 

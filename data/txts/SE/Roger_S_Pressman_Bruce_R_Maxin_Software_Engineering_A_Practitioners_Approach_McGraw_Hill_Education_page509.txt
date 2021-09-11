@@ -1,0 +1,98 @@
+CHAPTER 22  
+SOFTWARE TESTING STRATEGIES
+ 479playback and comparison. The  regression test suite
+ 
+ (the subset of tests to be exe-cuted) contains three different classes of test cases:  
+ 
+ 
+•  A representative sample of tests that will exercise all software functions.   
+ 
+ 
+•  Additional tests that focus on software functions that are likely to be af-fected by the change.   
+ 
+ 
+•  Tests that focus on the software components that have been changed. 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+As integration testing proceeds, the number of regression tests can grow quite large. Therefore, the regression test suite should be designed to include only 
+those tests that address one or more classes of errors in each of the major pro-
+gram functions.   
+ 
+Smoke Testing.   
+ 
+Smoke testing 
+ is an integration testing approach that is commonly 
+used when product software is developed. It is designed as a pacing mechanism for 
+
+time-critical projects, allowing the software team to assess the project on a frequent 
+
+basis. In essence, the smoke-testing approach encompasses the following activities:  
+ 
+ 
+ 1.
+  Software components that have been translated into code are integrated into a  build. 
+ A build includes all data ﬁ les, libraries, reusable modules, 
+and engineered components that are required to implement one or more 
+product functions.   
+ 
+ 
+ 2.
+  A series of tests is designed to expose errors that will keep the build from properly performing its function. The intent should be to uncover 
+“show-stopper” errors that have the highest likelihood of throwing the 
+software project behind schedule.   
+ 
+ 
+ 3.
+  The build is integrated with other builds, and the entire product (in its current form) is smoke tested daily. The integration approach may be top 
+
+down or bottom up.  
+ 
+ 
+  The daily frequency of testing gives both managers and practitioners a realis-tic assessment of integration testing progress. McConnell [McC96] describes the 
+smoke test in the following manner:  
+The smoke test should exercise the entire system from end to end. It does not have to be exhaustive, but it should be capable of exposing major problems. The smoke test 
+should be thorough enough that if the build passes, you can assume that it is stable 
+enough to be tested more thoroughly. 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Smoke testing provides a number of beneﬁ ts when it is applied on complex, 
+time-critical software projects:  
+ 
+ 
+•   
+Integration risk is minimized. 
+ Because smoke tests are conducted daily, 
+incompatibilities and other show-stopper errors are uncovered early, 
+
+thereby reducing the likelihood of serious schedule impact when errors 
+are uncovered.     Smoke testing might 
+be characterized as 
+a rolling integration 
+strategy. The software 
+
+is rebuilt (with new 
+components added) 
+and smoke tested 
+every day. 
+  uote:  “Treat the daily 
+build as the 
+heartbeat of the 
+project. If there’s 
+
+no heartbeat, the 
+project is dead.”  Jim McCarthy 
+ What 
+
+beneﬁ ts can 
+be derived from 
+smoke testing? ?pre22126_ch22_466-495.indd   479pre22126_ch22_466-495.indd   47913/12/13   6:14 PM13/12/13   6:14 PM

@@ -1,0 +1,70 @@
+596 PART THREE  
+QUALITY MANAGEMENTdesign decisions later in the software process can affect security vulnerabilities in the ﬁ nal system [Mei06]. 
+ An effective software process includes a reasonable set of review and adjust-ment opportunities. Many security activities complement one another and have 
+a synergistic effect on software quality. For example, code reviews are known to 
+
+reduce the number of product defects prior to testing, which in turn eliminates 
+potential security holes and improves software quality. 
+ During  planning 
+ the project budget and timeline must take security into ac-
+count so that the resources needed to satisfy the security objectives  8 
+ 
+ of the system 
+are appropriately allocated. As part of the security and privacy risk assessment, 
+each functional requirement needs to be examined to see if it can affect an asset 
+that is associated with a system security objective. During risk analysis, the cost 
+associated with each loss should be determined or estimated.  
+ 
+ 
+ 
+The identiﬁ cation of mechanisms for dealing with speciﬁ
+ c threats to the system 
+is often delayed until the requirements for a software increment are translated 
+to its  design 
+ requirements. This is where the attack surface should be identiﬁ ed. 
+The  attack surface 
+ is deﬁ
+ ned as the set of reachable and exploitable vulnerabil-
+ities present in a software product. Many security vulnerabilities will be found 
+at the intersections of the system layers. For example, information entered via a 
+form in the user interface may be intercepted as it travels across a network to a 
+database server. Design guidelines that include security provisions that directly 
+
+address the attack surface can be developed.   
+ 
+It may be helpful to separate the security reviews from the general design reviews. Code reviews that focus on security issues should be included as part of 
+the  implementation 
+ activities. These code reviews should be based on the appro-
+priate security objectives and threats identiﬁ ed in the system design activities. 
+ Security testing is a routine part of system testing (Chapter 22). Security risk assessment can be a source of test cases that enable security testing to become 
+more focused. An incident response plan (IRP) spells out the actions to be carried 
+out by each system stakeholder in response to speciﬁ c attacks [Pra07]. A thor-
+ough review of the IRP should also be part of the security veriﬁ cation process. 
+  In addition, veriﬁ cation should include separate reviews of security opera-
+tions and asset archiving procedures. The security risk management plan should 
+be reviewed periodically as part of the maintenance process.  When security incidents are reported after an application has been deployed, developers should evaluate the effectiveness of the security risk management 
+procedures as part of the system maintenance (Chapter 36). If the system change 
+procedures (Chapter 29) include root cause analysis, this may help uncover 
+ vulnerabilities in the overall system design.    An  
+attack surface
+  is 
+deﬁ ned as the set of 
+
+reachable and exploit-
+able vulnerabilities 
+present in a software 
+product.  What is 
+
+an incident response plan? ?  uote:  “When you know 
+that you’re capable 
+of dealing with 
+whatever comes, 
+you have the only 
+security the world 
+has to offer.” 
+ Harry Browne 
+  
+8  For example, protection of customer data or recognition of legal or regulatory compliance 
+requirements associated with the conﬁ dentiality, integrity, or availability of the system infor-
+mation or other intellectual property.  
+pre22126_ch27_584-600.indd   596pre22126_ch27_584-600.indd   59616/12/13   6:23 PM16/12/13   6:23 PM

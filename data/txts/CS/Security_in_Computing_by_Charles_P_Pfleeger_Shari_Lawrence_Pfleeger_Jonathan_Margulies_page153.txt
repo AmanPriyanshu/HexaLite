@@ -1,0 +1,56 @@
+ Section 2.3  Cryptography 
+119  employee in the company, but a task group leader knows all members of the task group, 
+the project leader knows all task group leaders, and so on. This hierarchy can become 
+
+the basis for trust throughout the organization.
+To see how, suppose two people meet: Ann and Andrew. Andrew says he works for 
+the same company as Ann. Ann wants independent verification that he does. She finds 
+
+out that Bill and Betty are two task group leaders for the same project (led by Camilla); 
+
+Ann works for Bill and Andrew for Betty. (The organizational relationships are shown 
+
+in Figure 2-28.) These facts give Ann and Andrew a basis for trusting each other’s iden-
+
+tity. The chain of verification might be something like this:
+• Ann asks Bill who Andrew is.
+• Bill either asks Betty, if he knows her directly, and if not, he asks Camilla.
+
+• (If asked, Camilla then asks Betty.)
+
+• Betty replies to Camilla or Bill that Andrew works for her.
+
+• (Camilla tells Bill, if she was involved.)
+
+• Bill tells Ann.
+If Andrew is in a different task group, it may be necessary to go higher in the organi-
+zational tree before a common point is found.We can use a similar process for cryptographic key exchange, as shown in Fig-
+ure 2-29. If Andrew and Ann want to communicate, Andrew can give his public key to 
+
+Betty, who passes it to Camilla, then Bill, or directly to Bill, who gives it to Ann. But 
+
+this sequence is not exactly the way it would work in real life. The key would probably 
+
+be accompanied by a note saying it is from Andrew, ranging from a bit of yellow paper 
+
+to a form 947 Statement of Identity. And if a form 947 is used, then Betty would also 
+
+have to attach a form 632a Transmittal of Identity, Camilla would attach another 632a, 
+
+and Bill would attach a final one, as shown in Figure 2-29. This chain of forms 632a 
+
+would say, in essence, “I am Betty and I received this key and the attached statement of 
+
+identity personally from a person I know to be Andrew,” “I am Camilla and I received 
+
+this key and the attached statement of identity and the attached transmittal of identity 
+
+personally from a person I know to be Betty,” and so forth. When Ann receives the key, 
+
+she can review the chain of evidence and conclude with reasonable assurance that the 
+
+key really did come from Andrew. This protocol is a way of obtaining authenticated 
+
+public keys, a binding of a key and a reliable identity.
+AnnBillAndrew
+BettyCamilla FIGURE 2-28 Trust Relationships

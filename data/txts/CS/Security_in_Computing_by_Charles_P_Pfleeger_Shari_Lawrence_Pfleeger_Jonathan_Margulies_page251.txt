@@ -1,0 +1,61 @@
+ Section 3.3  Countermeasures 
+217  design elements, such as a hierarchical file structure, dynamically invoked modules, and 
+virtual memory.
+The chief security architects for Multics, Jerome Saltzer and Michael Schroeder, 
+documented several design principles intended to improve the security of the code they 
+
+were developing. Several of their design principles are essential for building a solid, 
+
+trusted operating system. These principles, well articulated in Saltzer [SAL74] and 
+
+Saltzer and Schroeder [SAL75], include the following:
+• Least privilege. 
+Each user and each program should operate using the fewest 
+privileges possible. In this way, damage from an inadvertent or malicious attack 
+
+is minimized.• Economy of mechanism
+. The design of the protection system should be small, 
+simple, and straightforward. Such a protection system can be carefully analyzed, 
+
+exhaustively tested, perhaps verified, and relied on.
+• Open design. The protection mechanism must not depend on the ignorance of 
+potential attackers; the mechanism should be public, depending on secrecy of 
+
+relatively few key items, such as a password table. An open design is also avail-
+
+able for extensive public scrutiny, thereby providing independent confirmation 
+
+of the design security.
+• Complete mediation. Every access attempt must be checked. Both direct access 
+attempts (requests) and attempts to circumvent the access-checking mechanism 
+
+should be considered, and the mechanism should be positioned so that it cannot 
+be circumvented.
+• Permission based
+. The default condition should be denial of access. A conserva-
+tive designer identifies the items that should be accessible, rather than those that 
+
+should not.• Separation of privilege
+. Ideally, access to objects should depend on more than 
+one condition, such as user authentication plus a cryptographic key. In this way, 
+
+someone who defeats one protection system will not have complete access.
+• Least common mechanism
+. Shared objects provide potential channels for infor-
+mation flow. Systems employing physical or logical separation reduce the risk 
+
+from sharing.• Ease of use. 
+If a protection mechanism is easy to use, it is unlikely to be avoided.
+These principles have been generally accepted by the security community as con-
+tributing to the security of software and system design. Even though they date from 
+
+the stone age of computing, the 1970s, they are at least as important today. As a mark 
+
+of how fundamental and valid these precepts are, consider the recently issued “Top 10 
+
+Secure Coding Practices” from the Computer Emergency Response Team (CERT) of 
+
+the Software Engineering Institute at Carnegie Mellon University [CER10].
+1. Validate input.
+2. Heed compiler warnings.
+3. Architect and design for security policies.4. Keep it simple.

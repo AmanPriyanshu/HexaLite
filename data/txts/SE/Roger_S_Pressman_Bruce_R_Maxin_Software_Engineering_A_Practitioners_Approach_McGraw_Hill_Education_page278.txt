@@ -1,0 +1,52 @@
+248 PART TWO  
+MODELING 
+ 
+ 
+12.4.5 Deployment-Level Design Elements 
+ 
+Deployment-level design elements indicate how software functionality and sub-systems will be allocated within the physical computing environment that will 
+support the software. For example, the elements of the  SafeHome 
+ product are 
+conﬁ gured to operate within three primary computing environments—a home-
+based PC, the  SafeHome 
+ control panel, and a server housed at CPI Corp. (provid-
+ing Internet-based access to the system). In addition, limited functionality may 
+be provided with mobile platforms.    
+During design, a UML deployment diagram is developed and then reﬁ ned as 
+shown in  Figure 12.7 . In the ﬁ gure, three computing environments are shown (in 
+actuality, there would be more including sensors, cameras, and functionality de-
+
+livered by mobile platforms). The subsystems (functionality) housed within each 
+computing element are indicated. For example, the personal computer houses 
+subsystems that implement security, surveillance, home management, and com-
+
+munications features. In addition, an external access subsystem has been de-
+signed to manage all attempts to access the  SafeHome 
+ system from an external 
+source. Each subsystem would be elaborated to indicate the components that it 
+implements.  The diagram shown in  Figure 12.7  is in  
+descriptor form. 
+ This means that the de-
+ployment diagram shows the computing environment but does not explicitly in-
+dicate conﬁ guration details. For example, the “personal computer” is not further 
+   Deployment diagrams 
+begin in descriptor 
+form, where the de-
+
+ployment environment 
+is described in general 
+terms. Later, instance 
+
+form is used and 
+
+elements of the con-
+ﬁ guration are explicitly 
+
+described. CPI server
+Control panel
+Personal computerSecurityHomeManagementSurveillance
+CommunicationSecurityHomeownerAccessExternalAccess
+  
+FIGURE 12.7 
+A UML deploy-ment diagram  
+ pre22126_ch12_224-251.indd   248pre22126_ch12_224-251.indd   24813/12/13   6:12 PM13/12/13   6:12 PM

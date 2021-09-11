@@ -1,0 +1,144 @@
+CHAPTER 8  
+UNDERSTANDING REQUIREMENTS
+ 159 
+ 
+ 
+ 
+ 
+ 
+ 8.6 N
+EGOTIATING
+ REQUIREMENTS  
+ 
+In an ideal requirements engineering context, the inception, elicitation, and elab-oration tasks determine customer requirements in sufﬁ cient detail to proceed to 
+subsequent software engineering activities. Unfortunately, this rarely happens. 
+
+In reality, you may have to enter into a  
+negotiation 
+ with one or more stakehold-
+ers. In most cases, stakeholders are asked to balance functionality, performance, 
+
+and other product or system characteristics against cost and time-to-market. 
+The intent of this negotiation is to develop a project plan that meets stakeholder 
+needs while at the same time reﬂ ecting the real-world constraints (e.g., time, 
+people, budget) that have been placed on the software team.  The best negotiations strive for a “win-win” result.  21 
+ 
+ That is, stakeholders win 
+by getting the system or product that satisﬁ es the majority of their needs and you 
+(as a member of the software team) win by working to realistic and achievable 
+budgets and deadlines.   
+ 
+ 
+ 
+ 
+ 
+Boehm [Boe98] deﬁ nes a set of negotiation activities at the beginning of each 
+software process iteration. Rather than a single customer communication activ-
+ity, the following activities are deﬁ
+ ned:
+ 
+ 
+ 
+ 
+ 1.
+  Identiﬁ cation of the system or subsystem’s key stakeholders. 
+  
+ 
+ 
+ 2.
+  Determination of the stakeholders’ “win conditions.”   
+ 
+ 
+ 3.
+  Negotiation of the stakeholders’ win conditions to reconcile them into a set of win-win conditions for all concerned (including the software team).    
+ 
+Successful completion of these initial steps achieves a win-win result, which be-comes the key criterion for proceeding to subsequent software engineering activities. 
+ 
+ 
+ 
+  
+WebRef 
+ A brief paper on ne-
+gotiation for software 
+requirements can be 
+downloaded from 
+  www.alexander-
+egyed.com/
+publications/
+Software_
+Requirements_
+Negotiation-
+Some_Lessons_
+Learned.html  . 
+  uote:  “A compromise is 
+the art of dividing 
+a cake in such a 
+way that everyone 
+
+believes he has the 
+biggest piece.”  Ludwig Erhard 
+  
+21  Dozens of books have been written on negotiating skills (e.g., [Fis11], [Lew09], [Rai06]). It is one 
+of the more important skills that you can learn. Read one.   
+The Art of Negotiation   
+The Art of Negotiation  
+Learning how to negotiate effectively can serve 
+you well throughout your personal and technical 
+life. The following guidelines are well worth considering:
+  
+   
+1.   
+Recognize that it’s not a competition.
+ 
+ To be suc-
+cessful, both parties have to feel they’ve won or 
+
+achieved something. Both will have to compromise.    
+ 
+ 2.  
+ 
+Map out a strategy.
+ 
+ Decide what you’d like to achieve, what the other party wants to achieve, 
+
+and how you’ll go about making both happen.    
+ 
+ 3.  
+ 
+Listen actively.
+ 
+ Don’t work on formulating your 
+response while the other party is talking. Listen to 
+her. It’s likely you’ll gain knowledge that will help 
+you to better negotiate your position.    
+ 
+ 4.  
+ 
+Focus on the other party’s interests.
+ 
+ Don’t take hard 
+positions if you want to avoid conﬂ ict. 
+   
+ 
+ 5.  
+ 
+Don’t let it get personal.
+ 
+ Focus on the problem that needs to be solved.    
+ 
+ 6.  
+ 
+Be creative. 
+ Don’t be afraid to think out of the box 
+if you’re at an impasse.    
+ 
+ 7.  
+ 
+Be ready to commit. 
+ Once an agreement has been reached, don’t wafﬂ
+ e; commit to it and move on. 
+ 
+ 
+ 
+  
+INFO pre22126_ch08_131-165.indd   159pre22126_ch08_131-165.indd   15913/12/13   6:11 PM13/12/13   6:11 PM

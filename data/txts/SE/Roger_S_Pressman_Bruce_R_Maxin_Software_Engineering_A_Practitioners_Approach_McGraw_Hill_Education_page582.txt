@@ -1,0 +1,106 @@
+552 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+ 
+25.4.3   
+Testing Interface Semantics 
+ 
+Once each interface mechanism has been “unit” tested, the focus of interface testing changes to a consideration of interface semantics. Interface semantics 
+testing “evaluates how well the design takes care of users, offers clear direc-
+tion, delivers feedback, and maintains consistency of language and approach” 
+[Ngu00].  A thorough review of the interface design model can provide partial an-swers to the questions implied by the preceding paragraph. However, each 
+
+use-case scenario (for each user category) should be tested once the WebApp 
+
+has been implemented. In essence, a use case becomes the input for the de-
+sign of a testing sequence. The intent of the testing sequence is to uncover 
+
+errors that will preclude a user from achieving the objective associated with 
+
+the use case. 
+  
+ 
+ 
+25.4.4   
+Usability Tests 
+ 
+ 
+ 
+ 
+ 
+ 
+Usability testing is similar to interface semantics testing (Section 25.4.3) in the sense that it also evaluates the degree to which users can interact effectively with 
+the WebApp and the degree to which the WebApp guides users’ actions, provides 
+
+meaningful feedback, and enforces a consistent interaction approach. Rather 
+than focusing intently on the semantics of some interactive objective, usability 
+reviews and tests are designed to determine the degree to which the WebApp 
+
+interface makes the user’s life easy. 
+ 7 
+ 
+ 
+  You will invariably contribute to the design of usability tests, but the tests 
+themselves are conducted by end users. Usability testing can occur at a va-
+riety of different levels of abstraction: (1) the usability of a speciﬁ c interface 
+mechanism (e.g., a form) can be assessed, (2) the usability of a complete Web 
+
+page (encompassing interface mechanisms, data objects, and related func-
+tions) can be evaluated, or (3) the usability of the complete WebApp can be 
+
+considered. 
+ 
+ 
+ 
+   
+The ﬁ rst step in usability testing is to identify a set of usability categories and 
+establish testing objectives for each category. The following test categories and 
+
+objectives (written in the form of a question) illustrate this approach:  8 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+Interactivity— 
+Are interaction mechanisms (e.g., pull-down menus, buttons, pointers) easy to understand and use?    
+ 
+ 
+ 
+ 
+ 
+Layout 
+—Are navigation mechanisms, content, and functions placed in a manner that allows the user to ﬁ nd them quickly? 
+  
+WebRef 
+ A worthwhile guidance 
+to usability testing can 
+be found at   
+http://www.keyrelevance
+
+.com/articles/
+usability-tips.htm  . 
+ What 
+characteristics 
+of usability become 
+
+the focus of testing 
+
+and what speciﬁ c 
+objectives are 
+
+addressed? 
+?  
+7  The term  
+user-friendliness
+ 
+ has been used in this context. The problem, of course, is that one 
+user’s perception of a “friendly” interface may be radically different from another’s. 
+  
+8  For additional information on usability, see Chapter 15. 
+ pre22126_ch25_540-566.indd   552pre22126_ch25_540-566.indd   55213/12/13   6:15 PM13/12/13   6:15 PM

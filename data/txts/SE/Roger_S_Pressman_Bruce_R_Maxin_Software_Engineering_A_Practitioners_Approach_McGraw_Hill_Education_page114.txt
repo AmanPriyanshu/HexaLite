@@ -1,0 +1,44 @@
+84 PART ONE  
+THE SOFTWARE PROCESS
+passive communication is achieved by “information radiators” (e.g., a ﬂ at panel 
+display that presents the overall status of different components of an increment). 
+Project management tools deemphasize the Gantt chart and replace it with 
+. other agile tools 
+
+are using to optimize the environment in which the agile team works (e.g., more 
+efﬁ cient meeting areas), improve the team culture by nurturing social interac-
+tions (e.g., collocated teams), physical devices (e.g., electronic whiteboards), and 
+process enhancement (e.g., pair programming or time-boxing)” [Coc04].  Are any of these things really tools? They are, if they facilitate the work per-
+formed by an agile team member and enhance the quality of the end product.   
+ 
+ 
+ 
+ 
+ 5.7 S
+UMMARY  
+In a modern economy, market conditions change rapidly, customer and end-
+user needs evolve, and new competitive threats emerge without warning. Prac-
+titioners must approach software engineering in a manner that allows them to 
+remain agile—to deﬁ ne maneuverable, adaptive, lean processes that can accom-
+modate the needs of modern business.  An agile philosophy for software engineering stresses four key issues: the im-portance of self-organizing teams that have control over the work they perform, 
+communication and collaboration between team members and between practi-
+tioners and their customers, a recognition that change represents an opportu-
+nity, and an emphasis on rapid delivery of software that satisﬁ
+ es the customer. 
+Agile process models have been designed to address each of these issues.  Extreme programming (XP) is the most widely used agile process. Organized as four framework activities—planning, design, coding, and testing—XP suggests 
+a number of innovative and powerful techniques that allow an agile team to cre-
+ate frequent software releases that deliver features and functionality that have 
+been described and then prioritized by stakeholders.  Other agile process models also stress human collaboration and team self- organization, but deﬁ ne their own framework activities and select different 
+points of emphasis. For example, Scrum emphasizes the use of a set of software 
+process patterns that have proven effective for projects with tight time lines, 
+changing requirements, and business criticality. Each process pattern deﬁ
+ nes 
+a set of development tasks and allows the Scrum team to construct a process 
+that is adapted to the needs of the project. The Dynamic Systems Development 
+Method (DSDM) advocates the use of time-box scheduling and suggests that only 
+enough work is required for each software increment to facilitate movement to 
+the next increment. Agile modeling (AM) suggests that modeling is essential for 
+all systems, but that the complexity, type, and size of the model must be tuned to 
+
+the software to be built. The Agile Uniﬁ ed Process (AUP) adopts a “serial in the 
+large” and “iterative in the small” philosophy for building software. pre22126_ch05_066-086.indd   84pre22126_ch05_066-086.indd   8413/12/13   6:10 PM13/12/13   6:10 PM

@@ -1,0 +1,32 @@
+˜˜˚˛˜˜˜˜
+˜˜˜
+Figure 13.2 Security terminologyTermDefinitionAssetSomething of value that has to be protected. The asset may be the software system itself or the data used by that system.AttackAn exploitation of a system™s vulnerability where an attacker has the goal of causing 
+some damage to a system asset or assets. Attacks may be from outside the system 
+(external attacks) or from authorized insiders (insider attacks).ControlA protective measure that reduces a system™s vulnerability. Encryption is an example of 
+a control that reduces a vulnerability of a weak access control system.ExposurePossible loss or harm to a computing system. This can be loss or damage to data or 
+can be a loss of time and effort if recovery is necessary after a security breach.ThreatCircumstances that have potential to cause loss or harm. You can think of a threat as a 
+system vulnerability that is subjected to an attack.VulnerabilityA weakness in a computer-based system that may be exploited to cause loss or harm.
+they achieve a high level of security. If an airline reservation system is unavailable, 
+for example, this causes inconvenience and some delays in issuing tickets. However, 
+if the system is insecure, then an attacker could delete all bookings and it would be 
+practically impossible for normal airline operations to continue.As with other aspects of dependability, a specialized terminology is associated 
+with security (Pfleeger and Pfleeger 2007). This terminology is explained in Figure 
+13.2. Figure 13.3 is a security story from the Mentcare system that I use to illustrate 
+some of these terms. Figure 13.4 takes the security concepts defined in Figure 13.2 
+and shows how they apply to this security story.System vulnerabilities may arise because of requirements, design, or  implementation 
+problems, or they may stem from human, social, or organizational failings. People may 
+
+choose easy-to-guess passwords or write down their passwords in places where they 
+
+can be found. System administrators make errors in setting up access control or con-
+figuration files, and users don™t install or use protection 
+ software. However, we cannot 
+simply class these problems as human errors. User  mistakes or omissions often reflect 
+poor systems design decisions that require, for example, frequent password changes 
+
+(so that users write down their passwords) or complex configuration mechanisms.Unauthorized access to the Mentcare systemClinic staff log on to the Mentcare system using a username and password. The system requires passwords to be at least eight letters long but allows any password to be set without further checking. A criminal finds out 
+that a well-paid sports star is receiving treatment for mental health problems. He would like to gain illegal 
+access to information in this system so that he can blackmail the star.By posing as a concerned relative and talking with the nurses in the mental health clinic, he discovers how to access the system and personal information about the nurses and their families. By checking name badges, 
+he discovers the names of some of the people allowed access. He then attempts to log on to the system by 
+using these names and systematically guessing possible passwords, such as the names of the nurses™ children.Figure 13.3 A security story for the Mentcare 
+system

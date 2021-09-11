@@ -1,0 +1,87 @@
+CHAPTER 32  
+PROCESS AND PROJECT METRICS 719 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 32.4  
+INTEGRATING
+ METRICS WITHIN THE SOFTWARE
+ PROCESS  
+ 
+The majority of software developers still do not measure, and sadly, most have 
+little desire to begin. As we noted previously in this chapter, the problem is cul-
+
+tural. Attempting to collect measures where none have been collected in the 
+past often precipitates resistance. “Why do we need to do this?” asks a harried 
+project manager. “I don’t see the point,” complains an overworked practitioner. 
+ In this section, we consider some arguments for software metrics and present an approach for instituting a metrics collection program within a software engi-
+neering organization. But before we begin, some words of wisdom (now almost 
+three decades old) are offered by Grady and Caswell [Gra87]:   
+Some of the things we describe here will sound quite easy. Realistically, though, es-
+tablishing a successful company-wide software metrics program is hard work. When 
+we say that you must wait at least three years before broad organizational trends are 
+available, you get some idea of the scope of such an effort.  
+  
+The caveat suggested by the authors is well worth heeding, but the beneﬁ ts of 
+measurement are so compelling that the hard work is worth it.   
+Establishing a Metrics Approach   
+Establishing a Metrics Approach 
+ 
+ 
+The scene:  Doug Miller’s ofﬁ
+ ce two 
+days after initial meeting on software metrics.   
+The players:  Doug Miller (manager of the  
+ 
+SafeHome 
+ software engineering team) and Vinod Raman 
+and Jamie Lazar, members of the product software 
+
+ engineering team.   
+The conversation:    
+Doug:  You both had a chance to learn a little about 
+process and project metrics?   
+Vinod and Jamie:  [Both nod.] 
+  
+Doug:  It’s always a good idea to establish goals when 
+you adopt any metrics. What are yours?   
+Vinod:  Our metrics should focus on quality. In fact, our 
+overall goal is to keep the number of errors we pass on 
+from one software engineering activity to the next to an 
+absolute minimum.   
+Doug:  And be very sure you keep the number of de-
+fects released with the product to as close to zero as 
+possible.   
+Vinod (nodding):  Of course. 
+  
+Jamie:  I like DRE as a metric, and I think we can use 
+it for the entire project, but also as we move from one 
+framework activity to the next. It’ll encourage us to ﬁ nd 
+errors at each step.   
+Vinod:  I’d also like to collect the number of hours we 
+spend on reviews.   
+Jamie:  And the overall effort we spend on each soft-
+ware engineering task.   
+Doug:  You can compute a review-to-development 
+  
+Jamie:  I’d like to track some use-case data as well. 
+Like the amount of effort required to develop a use 
+
+case, the amount of effort required to build software to 
+
+  
+Doug (smiling):  I thought we were going to keep this 
+simple.   
+Vinod:  We should, but once you get into this metrics 
+stuff, there’s a lot of interesting things to look at. 
+  
+Doug:  I agree, but let’s walk before we run and stick 
+to our goal. Limit data to be collected to ﬁ ve or six 
+items, and we’re ready to go.   SAFEHOME pre22126_ch32_703-726.indd   719pre22126_ch32_703-726.indd   71913/12/13   6:17 PM13/12/13   6:17 PM

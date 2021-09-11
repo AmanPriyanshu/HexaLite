@@ -1,0 +1,60 @@
+ Section 6.6  Cryptography in Network Security 
+433  Network EncryptionEncryption is probably the most important and versatile tool for a network security 
+expert. We have seen in earlier chapters that encryption is powerful for providing pri-
+
+vacy, authenticity, integrity, and separation. Because networks involve even greater risks, 
+
+they often secure data with encryption, perhaps in combination with other controls.
+Before we begin to study the use of encryption to counter network security threats, 
+let us stress four points. • Encryption protects only what is encrypted (which should be obvious but isn’t). 
+Recognize that data are exposed between a user’s fingertips and the encryption 
+
+process before they are transmitted, and they are exposed again once they have 
+
+been decrypted on the remote end. The best encryption cannot protect against a 
+
+malicious Trojan horse that intercepts data before the point of encryption. 
+• Designing encryption algorithms is best left to professionals. Cryptography is 
+filled with subtlety, and a seemingly minor change can have a major impact on 
+
+security. 
+• Encryption is no more secure than its key management. If an attacker can guess 
+or deduce a weak encryption key, the game is over.
+• Encryption is not a panacea or silver bullet. A flawed system design with encryp-
+tion is still a flawed system design. People who do not understand encryption 
+
+sometimes mistake it for fairy dust to sprinkle on a system for magical protec-
+
+tion. This book would not be needed if such fairy dust existed.
+In network applications, encryption can be applied either between two hosts (called 
+link encryption) or between two applications (called end-to-end encryption). We consider 
+
+both below. With either form of encryption, key distribution is always a problem. Encryp-
+
+tion keys must be delivered to the sender and receiver in a secure manner. In a later sec-
+
+tion of this chapter, we also investigate techniques for safe key distribution in networks. 
+
+Finally, we study a cryptographic facility for a network computing environment.
+Modes of Network EncryptionEncryption can be employed in a network through two general modes: link and end-to-
+end. They perform different functions and have different strengths and weaknesses. And 
+
+they can even be used together, even if somewhat redundantly.
+Link Encryption In link encryption, data are encrypted just before the system places them on the physi-cal communications link. In this case, encryption occurs at layer 1 or 2 in the OSI 
+
+model. (A similar situation occurs with TCP/IP protocols, which have a similar but 
+
+shorter layered model.) Similarly, decryption occurs just as the communication arrives 
+
+at and enters the receiving com-
+
+puter. A model of link encryption 
+
+is shown in Figure 6-36. As you 
+
+can see, the data travel in plaintext 
+
+through the top layers of the model Link encryption covers a communication 
+from one node to the next on the path 
+
+to the destination.

@@ -1,0 +1,31 @@
+˜˚˛˝˙ˆˇ˘˜˜˚˜˜˜
+˜˜
+They are sociotechnical systems that are influenced by the ways that the organization 
+works and by national and international rules and regulations. They may be made up 
+of a number of separate systems and are distributed systems with large-scale data-
+bases. They have a long lifetime and are critical for the operation of the enterprise.I believe that it is important for software engineers to know about systems engi-neering and to be active participants in systems engineering processes for two reasons:1.
+ Software is now the dominant element in all enterprise systems, yet many senior 
+decision makers in organizations have a limited understanding of software. Software 
+
+engineers have to play a more active part in high-level systems decision making if 
+
+the system software is to be dependable and developed on time and to budget.2. As a software engineer, it helps if you have a broader awareness of how software 
+
+interacts with other hardware and software systems, and the human, social, and 
+
+organizational factors that affect the ways in which software is used. This knowledge 
+
+helps you understand the limits of software and to design better software systems.There are four overlapping stages (Figure 
+19.1) in the lifetime of large, complex 
+systems:1. Conceptual design This initial systems engineering activity develops the con-cept of the type of system that is required. It sets out, in nontechnical language, 
+
+the purpose of the system, why it is needed, and the high-level features that 
+
+users might expect to see in the system. It may also describe broad constraints, 
+such as the need for interoperability with other systems. These limit the freedom 
+of systems engineers in designing and developing the system.2. Procurement or acquisition During this stage, the conceptual design is further devel-oped so that information is available to make decisions about the contract for the 
+
+system development. This may involve making decisions about the distribution of 
+ProcurementDevelopmentOperationDeploymentEquipment andsoftware updatesSystem
+evolutionConceptual designUser informationOutlinerequirementsSystem vision 
+and featuresFigure 19.1 Stages of systems engineering

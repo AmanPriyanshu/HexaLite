@@ -1,0 +1,56 @@
+CHAPTER 16  
+PATTERN-BASED DESIGN
+ 355 
+Shalloway and Trott [Sha05] suggest the following approach 
+ 5 
+ 
+ that enables a 
+designer to think in patterns:  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 1.
+  Be sure you understand the big picture—the context in which the software to be built resides. The requirements model should communicate this 
+  
+ 
+ 
+ 2.
+  Examining the big picture, extract the patterns that are present at that level of abstraction.   
+ 
+ 
+ 3.
+  Begin your design with “big picture” patterns that establish a context or skeleton for further design work.   
+ 
+ 
+ 4.
+  “Work inward from the context” [Sha05] looking for patterns at lower 
+levels of abstraction that contribute to the design solution.   
+ 
+ 
+ 5.
+  Repeat steps 1 to 4 until the complete design is ﬂ eshed out. 
+  
+ 
+ 
+ 6.
+  Reﬁ ne the design by adapting each pattern to the speciﬁ
+ cs of the software 
+you’re trying to build.   
+ 
+5  Based on the work of Christopher Alexander [Ale79]. 
+ Pattern-
+based design looks interesting 
+for the problem 
+I have to solve. 
+How do I get 
+started? ? FIGURE 16.1 
+Pattern-based 
+design in 
+contextDesign beginsConsiderdesign conceptsExtractproblem, contextforcesRequirementsmodelConsiderdesign qualityattributesBeginpattern-based
+design tasksApply otherdesign methodsand notationyesno
+Addressed bypattern?
+Designmodelpre22126_ch16_347-370.indd   355pre22126_ch16_347-370.indd   35516/12/13   6:22 PM16/12/13   6:22 PM

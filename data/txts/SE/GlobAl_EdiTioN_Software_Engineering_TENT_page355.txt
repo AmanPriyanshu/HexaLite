@@ -1,0 +1,38 @@
+˜˜˚˛˝˜˜˜
+˜˜˜
+Safety reviews are reviews of the software specification, design, and source code whose aim is to discover potentially hazardous conditions. These are not automated 
+processes but involve people carefully checking for errors that have been made and 
+for assumptions or omissions that may affect the safety of a system. For example, in 
+
+the aircraft accident that I introduced earlier, a safety review might have questioned 
+the assumption that an aircraft is on the ground when there is weight on both wheels 
+and the wheels are rotating.Safety reviews should be driven by the hazard register. For each of the identified 
+hazards, a review team examines the system and judges whether or not it would cope 
+
+with that hazard in a safe way. Any doubts raised are flagged in the review team™s 
+
+report and have to be addressed by the system development team. I discuss reviews of 
+
+different types in more detail in Chapter 24, which covers software  quality assurance.Software safety certification is used when external components are incorporated into a safety-critical system. When all parts of a system have been locally developed, 
+complete information about the development processes used can be maintained. 
+
+However, it is not cost-effective to develop components that are readily available 
+
+from other vendors. The problem for safety-critical systems development is that 
+
+these external components may have been developed to different standards than 
+
+locally developed components. Their safety is unknown.Consequently, it may be a requirement that all external components must be certified 
+before they can be integrated with a system. The safety certification team, which is 
+
+separate from the development team, carries out extensive verification and validation of 
+Figure 12.7  A simplified hazard 
+register entryHazard Register. Page 4: Printed 20.02.2012System: Insulin Pump System File: InsulinPump/Safety/HazardLog Safety Engineer: James Brown Log version: 1/3Identified Hazard Insulin overdose delivered to patientIdentified by Jane WilliamsCriticality class 1Identified risk HighFault tree identified YES Date 24.01.11 Location Hazard register,     
+ Page 5Fault tree creators Jane Williams and Bill SmithFault tree checked YES Date 28.01.11 Checker James BrownSystem safety design requirements1.  The system shall include self-testing software that will test the sensor system, the clock, and the insulin delivery system.2. The self-checking software shall be executed once per minute.
+3.  In the event of the self-checking software discovering a fault in any of the system 
+components, an audible warning shall be issued and the pump display shall indi-
+cate the name of the component where the fault has been discovered. The deliv-
+
+ery of insulin shall be suspended.4.  The system shall incorporate an override system that allows the system user to 
+modify the computed dose of insulin that is to be delivered by the system.5.  The amount of override shall be no greater than a pre-set value (maxOverride), 
+which is set when the system is configured by medical staff.

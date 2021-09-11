@@ -1,0 +1,56 @@
+660 Chapter 10  
+Management and IncidentsThe key to coping with such disasters is advance planning and preparation, iden-
+tifying activities that will keep a business viable when the computing technology is 
+
+disabled. The steps in business continuity planning are these:
+• Assess the business impact of a crisis.
+• Develop a strategy to control impact.
+
+• Develop and implement a plan for the strategy
+Assess Business ImpactTo assess the impact of a failure on your business, you begin by asking two key  
+questions:• What are the 
+essential assets? What are the things that if lost will prevent the 
+business from doing business? Answers are typically of the form “the network,” 
+
+“the customer reservations database,” or “the system controlling traffic lights.”
+• What could 
+disrupt use of these assets? The vulnerability is more important 
+than the threat agent. For example, whether destroyed by a fire or zapped in an 
+
+electrical storm, the network is nevertheless down. Answers might be “failure,” 
+
+“corrupted,” or “loss of power.”
+You probably will find only a handful of key assets when doing this analysis.
+Do not overlook people and the things they need for support, such as documen-
+tation and communications equipment. Another way to think about your assets is to 
+
+ask yourself, “What is the minimum set of things or activities needed to keep business 
+
+operational, at least to some degree?” If a manual system would compensate for a failed 
+
+computer system, albeit inefficiently, you may want to consider building such a manual 
+
+system as a potential critical asset. Think of the airline unable to assign seats manually 
+
+from a chart of the cabin.Later in this chapter we study risk analysis, a comprehensive way to examine assets, 
+vulnerabilities, and controls. For business continuity planning we do not need a full risk 
+
+analysis. Instead, we focus on only those things that are critical to continued operation. 
+We also look at larger classes of objects, such as “the network,” whose loss or compro-
+
+mise can have catastrophic effect.
+Develop StrategyThe continuity strategy investigates how the key assets can be safeguarded. In some 
+
+cases, a backup copy of data or redundant hardware or an alternative manual process is 
+
+good enough. Sometimes, the most reasonable answer is reduced capacity. For example, 
+
+a planner might conclude that if the call center in London fails, the business can divert 
+
+all calls to Tokyo. Perhaps the staff in Tokyo cannot handle the full load of the London 
+
+traffic; this situation may result in irritated or even lost customers, but at least some 
+
+business can be transacted.
+Ideally, you would like to continue business with no loss. But with catastrophic fail-
+ures, usually only a portion of the business function can be preserved. In this case, you 

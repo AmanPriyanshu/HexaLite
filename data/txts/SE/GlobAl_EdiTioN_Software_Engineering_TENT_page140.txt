@@ -1,0 +1,34 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜When developing system models, you can often be flexible in the way that the graphical notation is used. You do not always need to stick rigidly to the details of a notation. The detail and rigor of a model depend on how you intend to use it. There 
+are three ways in which graphical models are commonly used:1. As a way to stimulate and focus discussion about an existing or proposed sys-tem. The purpose of the model is to stimulate and focus discussion among the 
+software engineers involved in developing the system. The models may be 
+
+incomplete (as long as they cover the key points of the discussion), and they 
+
+may use the modeling notation informally. This is how models are normally 
+
+used in agile modeling (Ambler and Jeffries 2002).2. As a way of documenting an existing system. When models are used as docu-
+mentation, they do not have to be complete, as you may only need to use models 
+to document some parts of a system. However, these models have to be  correctŠthey should use the notation correctly and be an accurate description of the 
+ system.3. As a detailed system description that can be used to generate a system imple-
+mentation. Where models are used as part of a model-based development pro-
+cess, the system models have to be both complete and correct. They are used as 
+a basis for generating the source code of the system, and you therefore have to 
+be very careful not to confuse similar symbols, such as stick and block arrow-
+heads, that may have different meanings.In this chapter, I use diagrams defined in the Unified Modeling Language 
+(UML) (Rumbaugh, Jacobson, and Booch 2004; Booch, Rumbaugh, and 
+
+Jacobson 2005), which has become a standard language for object-oriented mod-
+eling. The UML has 13 diagram types and so supports the creation of many 
+ different types of system model. However, a survey (Erickson and Siau 2007) 
+
+showed that most users of the UML thought that five diagram types could repre-
+sent the essentials of a system. I therefore concentrate on these five UML 
+ diagram 
+types here:The Unified Modeling LanguageThe Unified Modeling Language (UML) is a set of 13 different diagram types that may be used to model soft-
+
+ware systems. It emerged from work in the 1990s on object-oriented modeling, where similar object-oriented 
+notations were integrated to create the UML. A major revision (UML 2) was finalized in 2004. The UML is uni-
+
+versally accepted as the standard approach for developing models of software systems. Variants, such as SysML, 
+have been proposed for more general system modeling.http://software-engineering-book.com/web/uml/

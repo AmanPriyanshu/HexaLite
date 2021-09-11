@@ -1,0 +1,59 @@
+564 PART THREE  
+QUALITY MANAGEMENTIt incorporates reviews that occur as the WebApp is designed, and tests that are 
+conducted once the WebApp has been implemented. 
+ The WebApp testing strategy exercises each quality dimension by initially 
+examining “units” of content, functionality, or navigation. Once individual units 
+
+have been validated, the focus shifts to tests that exercise the WebApp as a whole. 
+
+To accomplish this, many tests are derived from the user’s perspective and are 
+
+driven by information contained in use cases. A WebApp test plan is developed 
+
+and identiﬁ es testing steps, work products (e.g., test cases), and mechanisms for 
+the evaluation of test results. The testing process encompasses seven different 
+types of testing.  Content testing (and reviews) focus on various categories of content. The in-tent is to uncover both semantic and syntactic errors that affect the accuracy of 
+content or the manner in which it is presented to the end user. Interface testin 
+g 
+ exercises the interaction mechanisms that enable a user to communicate with 
+the WebApp and validates aesthetic aspects of the interface. The intent is to un-
+
+cover errors that result from poorly implemented interaction mechanisms or 
+from omissions, inconsistencies, or ambiguities in interface semantics.  Navigation testing applies use cases, derived as part of the modeling activity, 
+in the design of test cases that exercise each usage scenario against the naviga-
+tion design. Navigation mechanisms are tested to ensure that any errors imped-
+ing completion of a use case are identiﬁ ed and corrected. Component testing 
+exercises content and functional units within the WebApp. 
+ Conﬁ guration testing attempts to uncover errors and/or compatibility prob-
+lems that are speciﬁ c to a particular client or server environment. Tests are then 
+conducted to uncover errors associated with each possible conﬁ guration. Secu-
+rity testing incorporates a series of tests designed to exploit vulnerabilities in the 
+WebApp and its environment. The intent is ﬁ
+ nd security holes. Performance test-
+ing encompasses a series of tests that are designed to assess WebApp response 
+
+time and reliability as demands on server-side resource capacity increase. 
+  
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+25.1.  Are there any situations in which WebApp testing should be totally disregarded? 
+   
+ 
+25.2.  In your own words, discuss the objectives of testing in a WebApp context. 
+   
+ 
+25.3.  Compatibility is an important quality dimension. What must be tested to ensure that compatibility exists for a WebApp? 
+   
+ 
+25.4.  Which errors tend to be more serious—client-side errors or server-side errors? Why? 
+   
+ 
+25.5.  What elements of the WebApp can be “unit tested”? What types of tests must be con-
+ducted only after the WebApp elements are integrated? 
+   
+ 
+25.6.  Is it always necessary to develop a formal written test plan? Explain.  pre22126_ch25_540-566.indd   564pre22126_ch25_540-566.indd   56413/12/13   6:15 PM13/12/13   6:15 PM

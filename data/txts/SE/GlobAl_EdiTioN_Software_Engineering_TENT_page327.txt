@@ -1,0 +1,46 @@
+˜˜˜˚˙˜˜˜˜˜˜˜
+2. Size checks You may expect inputs to be a given number of characters, for 
+example, 8 characters to represent a bank account. In other cases, the size may 
+not be fixed, but there may be a realistic upper limit. For example, it is unlikely 
+that a person™s name will have more than 40 characters.3. Representation checks You may expect an input to be of a particular type, which 
+is represented in a standard way. For example, people™s names do not include 
+numeric characters, email addresses are made up of two parts, separated by a @ 
+sign, and so on.4. Reasonableness checks Where an input is one of a series and you know some-
+thing about the relationships between the members of the series, then you can 
+check that an input value is reasonable. For example, if the input value repre
+-
+sents the readings of a household electricity meter, then you would expect the 
+amount of electricity used to be approximately the same as in the corresponding 
+period in the previous year. Of course, there will be variations. but order of 
+
+magnitude differences suggest that something has gone wrong.The actions that you take if an input validation check fails depend on the type 
+of system being implemented. In some cases, you report the problem to the user 
+
+and request that the value is re-input. Where a value comes from a sensor, you 
+
+might use the most recent valid value. In embedded real-time systems, you might 
+
+have to estimate the value based on previous data, so that the system can continue 
+
+in operation.During program execution, errors or unexpected events inevitably occur. These may 
+
+arise because of a program fault, or they may be a result of unpredictable external 
+circumstances. An error or an unexpected event that occurs during the execution of a 
+program is called an exception. Examples of exceptions might be a system power 
+failure, an attempt to access nonexistent data, or numeric overflow or underflow.Exceptions may be caused by hardware or software conditions. When an excep-tion occurs, it must be managed by the system. This can be done within the program 
+itself, or it may involve transferring control to a system exception-handling mecha-
+nism. Typically, the system™s exception management mechanism reports the error 
+
+and shuts down execution. Therefore, to ensure that program exceptions do not 
+
+cause system failure, you should define an exception handler for all possible excep-
+tions that may arise; you should also make sure that all exceptions are detected and 
+explicitly handled.Languages such as Java, C++, and Python have built-in exception-handling 
+ constructs. When an exceptional situation occurs, the exception is signaled and the 
+
+language runtime system transfers control to an exception handler. This is a code 
+
+section that states exception names and appropriate actions to handle each exception 
+(Figure 11.
+12). The exception handler is outside the normal flow of control, and this 
+normal control flow does not resume after the exception has been handled.

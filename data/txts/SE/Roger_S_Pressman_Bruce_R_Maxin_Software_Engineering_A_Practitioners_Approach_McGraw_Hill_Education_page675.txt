@@ -1,0 +1,118 @@
+CHAPTER 29  
+SOFTWARE CONFIGURATION MANAGEMENT
+ 645 
+ 
+ 
+In addition to these elements, the management subsystem implements an ad-ministration function that encompasses the metadata and rules that control the 
+overall structure of the content and the manner in which it is supported.   
+ 
+ 
+ 
+The publishing subsystem.   
+Content must be extracted from the repository, con-
+verted to a form that is amenable to publication, and formatted so that it can 
+be transmitted to client-side browsers. The publishing subsystem accomplishes 
+these tasks using a series of templates. Each  template 
+ is a function that builds a 
+publication using one of three different components [Boi04]:  
+ 
+ 
+•   
+Static elements 
+—Text, graphics, media, and scripts that require no further 
+processing are transmitted directly to the client side.   
+ 
+ 
+•   
+Publication services 
+—Function calls to speciﬁ c retrieval and formatting 
+services that personalize content (using predeﬁ ned rules), perform data 
+conversion, and build appropriate navigation links.   
+ 
+ 
+•   
+External services 
+—Access to external corporate information infrastruc-ture such as enterprise data or “back-room” applications.  
+ 
+  A content management system that encompasses each of these subsystems is applicable for major Web and mobile projects. However, the basic philosophy and 
+
+functionality associated with a CMS are applicable to all dynamic applications.    The publishing subsys-
+tem extracts content 
+from the repository 
+
+and delivers it to 
+client-side browsers.   
+ 
+Content Management   
+ Objective: 
+ To assist software engineers and 
+content developers in managing content that is incorporated into WebApps. 
+  Mechanics: 
+ Tools in this category enable Web engineers 
+and content providers to update WebApp content 
+
+in a controlled manner. Most establish a simple ﬁ
+ le 
+management system that assigns page-by-page update and 
+
+editing permissions for various types of WebApp content. 
+
+Some maintain a versioning system so that a previous 
+
+version of content can be archived for historical purposes. 
+  
+Representative Tools:  
+ 10 
+ 
+ 
+ 
+ 
+  
+ 
+Open Text Web Experience Management,
+ 
+ developed by Vignette (  
+http://www.opentext.com/global/
+products/web-content-management/web-
+
+experience-management/opentext-web-
+experience-management.htm  
+), is a suite of enterprise content management tools.   
+ektron-CMS300 
+, developed by ektron (  
+www.ektron.com 
+ 
+), is a suite of tools that provide content management capabilities as well as Web 
+
+development tools.   
+OmniUpdate 
+, developed by WebsiteASP, Inc. 
+(  
+www.omniupdate.com 
+ 
+), is a tool that allows authorized content providers to develop controlled 
+updates to speciﬁ ed WebApp content. 
+ Additional information on SCM and content management 
+tools for Web engineering can be found at one 
+
+or more of the following websites:  WebDeveloper
+  (  
+www.webdeveloper.com 
+ 
+),  Developer Shed  ( www.devshed.com
+ 
+),  webknowhow.net
+  (  
+www.webknowhow.net 
+ 
+), or  WebReference
+  (  
+www.webreference.com 
+ 
+).   
+SOFTWARE
+ TOOLS  
+ 
+10  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+pre22126_ch29_623-652.indd   645pre22126_ch29_623-652.indd   64513/12/13   6:16 PM13/12/13   6:16 PM

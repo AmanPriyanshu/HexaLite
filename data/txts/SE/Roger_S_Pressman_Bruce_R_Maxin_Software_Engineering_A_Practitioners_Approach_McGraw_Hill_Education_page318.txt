@@ -1,0 +1,93 @@
+288 PART TWO  
+MODELINGthe ﬁ gure. Note that  
+PrintJob 
+ has two interfaces,  
+computeJob, 
+ which provides job 
+costing capability, and  
+initiateJob, 
+ which passes the job along to the production 
+facility. These are represented using the “lollipop” symbols shown to the left of 
+
+the component box.     
+ 
+        
+Component-level design begins at this point. The details of the component  PrintJob 
+ must be elaborated to provide sufﬁ
+ cient information to guide imple-
+mentation. The original analysis class is elaborated to ﬂ esh out all attributes and 
+operations required to implement the class as the component  PrintJob. 
+ Refer-
+ring to the lower right portion of  Figure 14.1 , the elaborated design class  PrintJob 
+ contains more detailed attribute information as well as an expanded description 
+of operations required to implement the component. The interfaces  compute-Job 
+ and  
+initiateJob 
+ imply communication and collaboration with other compo-
+nents (not shown here). For example, the operation  computePageCost() 
+ (part of 
+the  computeJob 
+ interface) might collaborate with a  
+PricingTable
+ 
+ component that 
+contains job pricing information. The  checkPriority() 
+ operation (part of the  
+ini-tiateJob 
+ interface) might collaborate with a  
+JobQueue 
+ component to determine 
+the types and priorities of jobs currently awaiting production.  This elaboration activity is applied to every component deﬁ ned as part of the 
+architectural design. Once it is completed, further elaboration is applied to each 
+attribute, operation, and interface. The data structures appropriate for each 
+attribute must be speciﬁ ed. In addition, the algorithmic detail required to im-
+plement the processing logic associated with each operation is designed. This 
+procedural design activity is discussed later in this chapter. Finally, the mech-
+
+anisms required to implement the interface are designed. For object-oriented 
+software, this may encompass the description of all messaging that is required to 
+effect communication between objects within the system.   
+ 
+14.1.2 The Traditional View 
+ 
+In the context of traditional software engineering, a component is a functional element of a program that incorporates processing logic, the internal data struc-
+tures that are required to implement the processing logic, and an interface that 
+enables the component to be invoked and data to be passed to it. A traditional 
+component, also called a  module, 
+ resides within the software architecture and 
+serves one of three important roles: (1) a  control component
+ 
+ that coordinates 
+the invocation of all other problem domain components, (2) a  problem domain 
+component 
+ that implements a complete or partial function that is required by the 
+customer, or (3) an  
+infrastructure component
+ 
+ that is responsible for functions that 
+support the processing required in the problem domain.   Like object-oriented components, traditional software components are derived 
+from the analysis model. In this case, however, the component elaboration element 
+
+of the analysis model serves as the basis for the derivation. Each component repre-
+sented the component hierarchy is mapped (Section 13.6) into a module hierarchy. 
+   Recall that analysis 
+
+modeling and design 
+modeling are both 
+iterative actions. 
+Elaborating the original 
+analysis class may 
+require additional 
+analysis steps, which 
+are then followed 
+with design modeling 
+steps to represent the 
+elaborated design class 
+(the details of the 
+component).  uote:  “A complex system 
+that works is 
+invariably found to 
+have evolved from 
+a simple system 
+that worked.”  John Gall 
+pre22126_ch14_285-316.indd   288pre22126_ch14_285-316.indd   28813/12/13   6:12 PM13/12/13   6:12 PM

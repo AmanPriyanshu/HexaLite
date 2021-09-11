@@ -1,0 +1,43 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜Some activities create project deliverablesŠoutputs that are delivered to the 
+software customer. Usually, the deliverables that are required are specified in the 
+project contract, and the customer™s view of the project™s progress depends on 
+
+these deliverables. Milestones and deliverables are not the same thing. Milestones 
+
+are short reports that are used for progress reporting, whereas deliverables are 
+
+more substantial project outputs such as a requirements document or the initial 
+
+implementation of a system. Figure 23.5 shows a hypothetical set of tasks, their estimated effort and duration, and task dependencies. From this table, you can see that task T3 is dependent on task 
+T1. This means that task T1 has to be completed before T3 starts. For example, T1 
+might be the selection of a system for reuse and T3, the configuration of the selected 
+system. You can™t start system configuration until you have chosen and installed the 
+application system to be modified.Notice that the estimated duration for some tasks is more than the effort required and vice versa. If the effort is less than the duration, the people allocated to that task 
+are not working full time on it. If the effort exceeds the duration, this means that 
+
+several team members are working on the task at the same time. Figure 23.6 takes the information in Figure 23.5 and presents the project sched-ule as a bar chart showing a project calendar and the start and finish dates of tasks. 
+Reading from left to right, the bar chart clearly shows when tasks start and end. The 
+
+milestones (M1, M2, etc.) are also shown on the bar chart. Notice that tasks that are 
+independent may be carried out in parallel. For example, tasks T1, T2, and T4 all 
+
+start at the beginning of the project.As well as planning the delivery schedule for the software, project managers have 
+to allocate resources to tasks. The key resource is, of course, the software engineers 
+
+who will do the work. They have to be assigned to project activities. The resource 
+
+allocation can be analyzed by project management tools, and a bar chart can be gener
+-
+ated showing when staff are working on the project (Figure 23.7). People may be 
+
+working on more than one task at the same time, and sometimes they are not working 
+
+on the project. They may be on holiday, working on other projects, or attending train-
+ing courses. I show part-time assignments using a diagonal line crossing the bar.Large organizations usually employ a number of specialists who work on a pro-ject when needed. In Figure 23.7, you can see that Mary is a specialist who works on Activity chartsAn activity chart is a project schedule representation that presents the project plan as a directed graph. It shows 
+which tasks can be carried out in parallel and those that must be executed in sequence due to their dependen-
+
+cies on earlier activities. If a task is dependent on several other tasks, then all of these tasks must be completed 
+before it can start. The ﬁcritical pathﬂ through the activity chart is the longest sequence of dependent tasks. This 
+defines the project duration.http://software-engineering-book.com/web/planning-activities/

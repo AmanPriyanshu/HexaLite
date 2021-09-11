@@ -1,0 +1,58 @@
+ Section 4.4  Email Attacks 
+269  71 percent of all email, and Symantec [SYM14] reported that the percentage of spam 
+to all email traffic held steady between 60 percent and 70 percent throughout 2012 
+
+and 2013. The top countries originating spam are China (22.93 percent), the United States 
+(19.05 percent), and South Korea (12.81 percent); all other countries are less than 8 per-
+
+cent each. According to Symantec’s analysis, 69.7 percent of spam messages had a sexual 
+or dating content, 17.7 percent pharmaceuticals, and 6.2 percent jobs. Sidebar 4-10 
+
+describes a combined legal and technical approach to eliminating spam.
+Why Send Spam?Spam is an annoyance to its recipients, it is usually easy to spot, and sending it takes 
+time and effort. Why bother? The 
+
+answer, as with many things, is 
+
+because there is money to be made.
+We have already presented the 
+statistics on volume of spam. The 
+
+current estimates are that spam con-
+stitutes around 70 percent of all email traffic. There must be a profit for there to be that 
+
+much spam in circulation.SIDEBAR 4-10 Cutting Off Spammer Waledac/Storm
+On 24 February 2010, Microsoft obtained a court order to cause top-level 
+domain manager VeriSign to cease routing 277 .com domains, all belong-
+
+ing to Waledac, formerly known as Storm. At the same time, Microsoft 
+
+disrupted Waledac’s ability to communicate with its network of 60,000 to 
+
+80,000 nodes that disseminated spam.Spammers frequently use many nodes to send spam, so email receiv-
+ers cannot build a short list of spam senders to block. These large numbers 
+
+of nodes periodically “call home” to a command-and-control network to 
+
+obtain next instructions of spam to send or other work to perform.
+A year earlier, researchers from Microsoft, the University of Mannheim 
+in Germany, and the Technical University of Vienna had infiltrated the Wale-
+
+dac command and control network. Later, when the .com domains were 
+
+shut down, the researchers used their position in the network to redirect 
+
+command and update queries to harmless sites, thereby rendering the 
+
+network nodes inoperable. Within hours of taking the offensive action, the 
+
+researchers believed they had cut out 90 percent of the network.
+When operational, the Waledac network was estimated to be able 
+to generate and send 1.5 billion spam messages per day. This combined 
+
+legal and technical counteroffensive was effective because it eliminated 
+
+direct access through the blocked domain names and indirect access 
+
+through the disabled command-and-control network.
+Spammers make enough money to make the work worthwhile.

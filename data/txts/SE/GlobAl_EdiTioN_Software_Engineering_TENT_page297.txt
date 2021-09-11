@@ -1,0 +1,39 @@
+˜˜˚˛ˆ˜˜˜
+˜˜
+†
+Dependable software processes are software processes that are designed to pro-duce dependable software. The rationale for investing in dependable processes is 
+
+that a good software process is likely to lead to delivered software that contains 
+
+fewer errors and is therefore less likely to fail in execution. A company using a 
+ dependable process can be sure that the process has been properly enacted and 
+
+documented and that appropriate development techniques have been used for crit-
+ical systems  development. Figure 10.4 shows some of the attributes of dependable 
+software  processes.The evidence that a dependable process has been used is often important in con-vincing a regulator that the most effective software engineering practice has been 
+
+applied in developing the software. System developers will normally present a model 
+of the process to a regulator, along with evidence that the process has been followed. 
+The regulator also has to be convinced that the process is used consistently by all of 
+the process participants and that it can be used in different development projects. 
+
+This means that the process must be explicitly defined and repeatable:1.
+ An explicitly defined process is one that has a defined process model that is 
+used to drive the software production process. Data must be collected during the 
+process that proves that the development team has followed the process as 
+
+defined in the process model.2. A repeatable process is one that does not rely on individual interpretation and 
+judgment. Rather, the process can be repeated across projects and with different 
+team members, irrespective of who is involved in the development. This is par-
+ticularly important for critical systems, which often have a long development 
+
+cycle during which there are often significant changes in the development team.
+Dependable processes make use of redundancy and diversity to achieve reliabil-ity. They often include different activities that have the same aim. For example, 
+
+program inspections and testing aim to discover errors in a program. The approaches 
+can be used together so that they are likely to find more errors than would be found 
+using one technique on its own.Dependable operational processesThis chapter discusses dependable development processes, but system operational processes are equally 
+important contributors for system dependability. In designing these operational processes, you have to take into 
+account human factors and always bear in mind that people are liable to make mistakes when using a system. 
+A dependable process should be designed to avoid human errors, and, when mistakes are made, the software 
+should detect the mistakes and allow them to be corrected.http://software-engineering-book.com/web/human-error/

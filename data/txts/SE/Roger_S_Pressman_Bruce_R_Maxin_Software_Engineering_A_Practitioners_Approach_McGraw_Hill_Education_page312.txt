@@ -1,0 +1,55 @@
+282 PART TWO  
+MODELING 
+ 
+ 
+ 
+ 
+ 
+ 13.12 S
+UMMARY  
+Software architecture provides a holistic view of the system to be built. It depicts the structure and organization of software components, their properties, and the 
+connections between them. Software components include program modules and 
+the various data representations that are manipulated by the program. There-
+fore, data design is an integral part of the derivation of the software architec-
+ture. Architecture highlights early design decisions and provides a mechanism 
+for considering the beneﬁ ts of alternative system structures. 
+ A number of different architectural styles and patterns are available to the 
+software engineer and may be applied within a given architectural genre. Each 
+
+style describes a system category that encompasses a set of components that 
+
+perform a function required by a system; a set of connectors that enable com-
+munication, coordination, and cooperation among components; constraints 
+
+that  deﬁ ne how components can be integrated to form the system; and seman-
+tic models that enable a designer to understand the overall properties of a 
+
+system. 
+ In a general sense, architectural design is accomplished using four distinct steps. First, the system must be represented in context. That is, the designer 
+should deﬁ ne the external entities that the software interacts with and the na-
+ture of the interaction. Once context has been speciﬁ ed, the designer should 
+identify a set of top-level abstractions, called archetypes, that represent pivotal 
+elements of the system’s behavior or function. After abstractions have been de-
+
+ﬁ ned, the design begins to move closer to the implementation domain. Compo-
+nents are identiﬁ ed and represented within the context of an architecture that 
+supports them. Finally, speciﬁ
+ c instantiations of the architecture are developed 
+to “prove” the design in a real-world context.  Architectural design can coexist with agile methods by applying a hybrid architectural design framework that makes use of existing techniques derived 
+from popular agile methods. Once an architecture is developed, it can be as-
+sessed to ensure conformance with business goals, software requirements, and 
+quality attributes.   
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+13.1.  Using the architecture of a house or building as a metaphor, draw comparisons with 
+software architecture. How are the disciplines of classical architecture and the software 
+architecture similar? How do they differ?    
+ 
+13.2.  Present two or three examples of applications for each of the architectural styles noted in Section 13.3.1.    
+ 
+13.3.  Some of the architectural styles noted in Section 13.3.1 are hierarchical in nature and others are not. Make a list of each type. How would the architectural styles that are not 
+hierarchical be implemented?  pre22126_ch13_252-284.indd   282pre22126_ch13_252-284.indd   28213/12/13   6:12 PM13/12/13   6:12 PM

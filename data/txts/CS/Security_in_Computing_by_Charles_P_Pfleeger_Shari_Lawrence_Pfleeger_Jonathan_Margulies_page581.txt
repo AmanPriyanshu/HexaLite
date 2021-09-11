@@ -1,0 +1,68 @@
+ Section 7.5  Data Mining and Big Data 
+547  IntegrityFinally, integrity deserves its own consideration separate from confidentiality and avail-
+ability, because correctness, accuracy, and reliability are so important for data users. In 
+
+this section we identify some integrity problems relevant for big data.
+Data Accuracy You may have experienced some piece of personal data being incorrectly entered into a 
+
+database. We presented the example earlier in this chapter of 510 Thames Street instead 
+
+of 519. The frustrating part is that, try as you will, you often can never trace the ultimate 
+
+place where the number is incorrect. So 510s keep popping up for years. We used the 
+
+earlier example as an aspect of element integrity.
+Big datasets have problems with integrity, as we just described. However, another 
+characteristic of big data use complicates the situation. Big data often uses many data 
+
+streams collected from many sources, for example, photo recognition of auto license 
+
+plates, human transcription from written public records, voice recognition from record-
+
+ings, and input from handwritten forms, all of which are prone to error.
+Rich, structured databases often have one or more identifying keys, such as tele-
+phone number, national insurance number, account number, date of birth, or some other 
+
+solid data item on which to join two 
+
+datasets. Big data collections tend 
+
+not to have such strong keys, so they 
+
+are joined on weaker attributes, such 
+
+as name (which can be presented 
+
+in several forms and misspelled in 
+
+even more ways). The accuracy of 
+
+results from such joins is lower.
+For many uses, high accuracy of big data is not important: Whether 90, 100, or 110 
+people of 500 in a neighborhood have pets is less important than that ownership of pets 
+
+is in the range of 15 percent to 25 percent. However, users need to appreciate this lim-
+
+ited degree of accuracy.
+Source Provenance Big data usually involves collecting and analyzing data from several sources. As we just 
+
+pointed out, datasets will have differing degrees of quality depending in part on where 
+
+the data come from. Big data applications must control for such variability, although big 
+
+data models do not always give applications a way to learn the exact source of data, or 
+
+even the nature of the source. Thus, application writers cannot readily account for data 
+
+provenance in results they generate.
+End-Point Filtering and Validation 
+Finally, after an application has processed data from a big data collection, the applica-
+
+tion might want to filter and validate the results. Current big data frameworks do not 
+
+support that kind of data revision and manipulation.
+Need for data accuracy depends on the 
+intended use; users need to consider 
+their accuracy requirements when acting 
+
+on results from big data operations.

@@ -1,0 +1,73 @@
+414 PART THREE  
+QUALITY MANAGEMENTto the spec, it exhibits quality. The  
+product view
+ 
+ suggests that quality can be tied to 
+inherent characteristics (e.g., functions and features) of a product. Finally, the 
+
+  
+value-based view 
+ measures quality based on how much a customer is willing to pay 
+for a product. In reality, quality encompasses all of these views and more. 
+  
+Quality of design 
+ refers to the characteristics that designers specify for a 
+product. The grade of materials, tolerances, and performance speciﬁ cations all 
+contribute to the quality of design. As higher-grade materials are used, tighter 
+
+tolerances and greater levels of performance are speciﬁ ed, the design quality of 
+a product increases if the product is manufactured according to speciﬁ cations. 
+  In software development, quality of design encompasses the degree to which the design meets the functions and features speciﬁ ed in the requirements 
+model.  Quality of conformance 
+ focuses on the degree to which the implemen-
+tation  follows the design and the resulting system meets its requirements and performance goals.  But are quality of design and quality of conformance the only issues that  software engineers must consider? Robert Glass [Gla98] argues that a more  “intuitive” relationship is in order:user satisfaction 5 compliant product 1 good quality 1 delivery within budget and schedule 
+ 
+At the bottom line, Glass contends that quality is important, but if the user isn’t satisﬁ ed, nothing else really matters. DeMarco [DeM98] reinforces this view 
+when he states: “A product’s quality is a function of how much it changes the 
+
+world for the better.” This view of quality contends that if a software product 
+
+provides substantial beneﬁ t to its end users, they may be willing to tolerate occa-
+sional reliability or performance problems.   
+ 
+ 
+ 
+ 
+ 
+ 19.2  
+SOFTWARE
+ QUALITY  
+ 
+Even the most jaded software developers will agree that high-quality software is an important goal. But how do we deﬁ ne  
+software
+ 
+ quality? In the most general 
+sense, software quality can be deﬁ ned as:  
+An effective software process applied in 
+a manner that creates a useful product that provides measurable value for those 
+
+who produce it and those who use it.
+ 
+ 
+ 1 
+ 
+ 
+  There is little question that the preceding deﬁ nition could be modiﬁ
+ ed or 
+extended and debated endlessly. For the purposes of this book, the deﬁ
+ nition 
+serves to emphasize three important points:   
+ 
+ 1.  An  effective software process
+ 
+ establishes the infrastructure that supports any effort at building a high-quality software product. The management  How can I 
+best deﬁ ne 
+software quality? ?  uote:  “People forget 
+how fast you did 
+a job—but they 
+always remember 
+how well you 
+did it.”  Howard Newton 
+ 1 This deﬁ
+ nition has been adapted from [Bes04] and replaces a more manufacturing-oriented 
+view presented in earlier editions of this book. pre22126_ch19_411-430.indd   414pre22126_ch19_411-430.indd   41413/12/13   6:13 PM13/12/13   6:13 PM

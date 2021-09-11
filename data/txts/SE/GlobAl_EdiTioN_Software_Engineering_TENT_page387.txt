@@ -1,0 +1,11 @@
+MedicalreceptionistRegister
+patientTransfer data
+ContactpatientView patient
+info.Unregister
+patientImpersonatereceptionistIntercepttransferAttackerFigure 13.8 Misuse cases Figure 13.9 Misuse case descriptionsMentcare system: Intercept transfer (Misuse case)ActorsMedical receptionist, Patient records system (PRS), AttackerDescriptionA receptionist transfers data from his or her PC to the Mentcare system on the server.An attacker intercepts the data transfer and takes a copy of that data.Data (assets)Patient™s personal information, treatment summaryAttacksA network monitor is added to the system, and packets from the receptionist to the server are intercepted.A spoof server is set up between the receptionist and the database server so that receptionist believes they are interacting with the real system.MitigationsAll networking equipment must be maintained in a locked room. Engineers accessing 
+the equipment must be accredited.All data transfers between the client and server must be encrypted.Certificate-based clientŒserver communication must be used.RequirementsAll communications between the client and the server must use the Secure Socket 
+Layer (SSL). The https protocol uses certificate-based authentication and encryption.Mentcare system: Transfer dataActorsMedical receptionist, Patient records system (PRS)DescriptionA receptionist may transfer data from the Mentcare system to a general patient record database that is maintained by a health authority. The information transferred 
+may either be updated personal information (address, phone number, etc.) or a 
+summary of the patient™s diagnosis and treatmentDataPatient™s personal information, treatment summaryStimulusUser command issued by medical receptionistResponseConfirmation that PRS has been updatedCommentsThe receptionist must have appropriate security permissions to access the patient 
+information and the PRS.˜˜˚˛˚˜˜˜
+˜˜

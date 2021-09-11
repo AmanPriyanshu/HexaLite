@@ -1,0 +1,62 @@
+176 Chapter 3  
+Programs and ProgrammingTechnical Details: Malicious Code
+The number of strains of malicious code is unknown. According to a testing service 
+[AVC10], malicious code detectors (such as familiar antivirus tools) that look for mal-
+
+ware “signatures” cover over 1 million definitions, although because of mutation, one 
+
+strain may involve several definitions. Infection vectors include operating systems, 
+
+document applications (primarily word processors and spreadsheets), media players, 
+
+browsers, document-rendering engines (such as Adobe PDF reader) and photo-editing 
+
+programs. Transmission media include documents, photographs, and music files, on 
+
+networks, disks, flash media (such as USB memory devices), and even digital photo 
+
+frames. Infections involving other programmable devices with embedded computers, 
+
+such as mobile phones, automobiles, digital video recorders, and cash registers, are 
+
+becoming targets for malicious code.
+In this section we explore four aspects of malicious code infections: 
+• harm—how they affect users and systems
+• transmission and propagation
+—how they are transmitted and replicate, and how 
+they cause further transmission
+• activation—how they gain control and install themselves so that they can 
+reactivate
+• stealth—how they hide to avoid detection
+We begin our study of malware by looking at some aspects of harm caused by mali-
+cious code.Harm from Malicious Code
+Viruses and other malicious code can cause essentially unlimited harm. Because mal-
+ware runs under the authority of the user, it can do anything the user can do. In this 
+
+section we give some examples of harm malware can cause. Some examples are trivial, 
+
+more in the vein of a comical prank. But other examples are deadly serious with obvi-
+
+ous critical consequences.We can divide the payload from malicious code into three categories:
+• Nondestructive.
+ Examples of behavior are sending a funny message or flashing 
+an image on the screen, often simply to show the author’s capability. This cat-
+
+egory would also include 
+virus hoaxes, messages falsely warning of a piece of 
+malicious code, apparently to cause receivers to panic and forward the message 
+
+to contacts, thus spreading the panic.• Destructive.
+ This type of code corrupts files, deletes files, damages software, 
+or executes commands to cause hardware stress or breakage with no apparent 
+
+motive other than to harm the recipient.
+• Commercial or criminal intent
+. An infection of this type tries to take over the 
+recipient’s computer, installing code to allow a remote agent to cause the com-
+
+puter to perform actions on the agent’s signal or to forward sensitive data to the 
+
+agent. Examples of actions include collecting personal data, for example, login 
+
+credentials to a banking web site, collecting proprietary data, such as corporate 

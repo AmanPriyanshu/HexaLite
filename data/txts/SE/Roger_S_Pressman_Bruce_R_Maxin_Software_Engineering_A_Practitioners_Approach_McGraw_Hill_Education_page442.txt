@@ -1,0 +1,109 @@
+412  
+ The drumbeat for improved software quality began in earnest as software became increasingly integrated in every facet of our lives. By the 1990s, 
+major corporations recognized that billions of dollars each year were being wasted on software that didn’t deliver the features and functionality that 
+were promised. Worse, both government and industry became increasingly 
+
+concerned that a major software fault might cripple important infrastructure, 
+costing tens of billions more. By the turn of the century,  
+CIO Magazine 
+ trum-
+peted the headline, “Let’s Stop Wasting $78 Billion a Year,” lamenting the fact 
+
+that “American businesses spend billions for software that doesn’t do what it’s 
+
+supposed to do” [Lev01].  InformationWeek
+ 
+ [Ric01] echoed the same concern: 
+ 
+ 
+Despite good intentions, defective code remains the hobgoblin of the software indus try, accounting for as much as 45% of computer-system downtime and cost-
+ing U.S. companies about $100 billion last year in lost productivity and repairs, says 
+the Standish Group, a market research ﬁ rm. That doesn’t include the cost of losing 
+angry customers. Because IT shops write applications that rely on packaged infra-
+ Just how bad is bad software? Deﬁ nitions vary, but experts say it takes only 
+three or four defects per 1,000 lines of code to make a program perform poorly. 
+
+lines of code 
+  
+ 
+KEY CONCEPTS     cost of quality. . . . 422  
+    good enough. . . . . 421  
+
+    liability. . . . . . . . . 425  
+
+    management 
+
+actions. . . . . . . . . 426  
+
+    quality. . . . . . . . . 413  
+
+    quality 
+
+dilemma. . . . . . . . 420  
+
+    quality 
+
+dimensions. . . . . . 415  
+
+    quality factors  . . . 416  
+
+    quantitative 
+
+view  . . . . . . . . . . 420  
+
+    risks. . . . . . . . . . . 424  
+
+    security  . . . . . . . . 425  
+ QUALITY CONCEPTS 19   
+CHAPTER 
+ 
+ 
+ 
+ 
+ 
+ 
+QUICK LOOK   
+What is it?   The answer isn’t as 
+easy as you might think. You know 
+
+quality when you see it, and yet, it 
+can be an elusive thing to deﬁ ne. 
+But for computer software, quality is something 
+that we must deﬁ ne, and that’s what we’ll do 
+in this chapter. 
+  
+ 
+Who does it?   Everyone—software engineers, 
+managers, all stakeholders—involved in the 
+software process is responsible for quality. 
+  
+ 
+Why is it important? 
+  You can do it right, or 
+you can do it over again. If a software team 
+stresses quality in all software engineering ac-
+tivities, it reduces the amount of rework that it 
+must do. That results in lower costs, and more 
+importantly, improved time to market. 
+  
+ 
+What are the steps?   To achieve high-quality 
+software, four activities must occur: proven 
+software engineering process and practice, 
+solid project management, comprehensive 
+quality control, and the presence of a quality 
+assurance infrastructure.   
+ 
+What is the work product? 
+  Software that meets its customer’s needs, performs accu-
+
+rately and reliably, and provides value to all 
+
+who use it.   
+ 
+How do I ensure that I’ve done it right?   Track quality by examining the results of all 
+quality control activities, and measure quality 
+by examining errors before delivery and de-
+
+fects released to the ﬁ eld. 
+pre22126_ch19_411-430.indd   412pre22126_ch19_411-430.indd   41213/12/13   6:13 PM13/12/13   6:13 PM

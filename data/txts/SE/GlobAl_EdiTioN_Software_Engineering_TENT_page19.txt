@@ -1,0 +1,35 @@
+˜˜˚˜˜˜˜˘
+˜ˇ
+˜˜
+resources, changing demographics, and an expanding world population. We will rely 
+on software engineering to develop the systems that we need to cope with these issues.Lots of people write programs. People in business write spreadsheet programs to 
+
+simplify their jobs; scientists and engineers write programs to process their experi-
+mental data; hobbyists write programs for their own interest and enjoyment. 
+
+However, most software development is a professional activity in which software is 
+
+developed for business purposes, for inclusion in other devices, or as software prod-
+ucts such as information systems and computer-aided design systems. The key dis-
+tinctions are that professional software is intended for use by someone apart from its 
+
+developer and that teams rather than individuals usually develop the software. It is 
+maintained and changed throughout its life.Software engineering is intended to support professional software development rather than individual programming. It includes techniques that support program 
+
+specification, design, and evolution, none of which are normally relevant for per
+-sonal software development. To help you to get a broad view of software engineer-
+ing, I have summarized frequently asked questions about the subject in Figure 1.1.Many people think that software is simply another word for computer programs. However, when we are talking about software engineering, software is not just the 
+programs themselves but also all associated documentation, libraries, support web
+-
+sites, and configuration data that are needed to make these programs useful. A pro-
+fessionally developed software system is often more than a single program. A system 
+
+may consist of several separate programs and configuration files that are used to set 
+up these programs. It may include system documentation, which describes the struc-
+ture of the system, user documentation, which explains how to use the system, and 
+websites for users to download recent product information.This is one of the important differences between professional and amateur soft-ware development. If you are writing a program for yourself, no one else will use it History of software engineeringThe notion of software engineering was first proposed in 1968 at a conference held to discuss what was then 
+called the software crisis (Naur and Randell 1969). It became clear that individual approaches to program devel-
+
+opment did not scale up to large and complex software systems. These were unreliable, cost more than 
+expected, and were delivered late.Throughout the 1970s and 1980s, a variety of new software engineering techniques and methods were developed, such as structured programming, information hiding, and object-oriented development. Tools and 
+standard notations were developed which are the basis of today™s software engineering.http://software-engineering-book.com/web/history/

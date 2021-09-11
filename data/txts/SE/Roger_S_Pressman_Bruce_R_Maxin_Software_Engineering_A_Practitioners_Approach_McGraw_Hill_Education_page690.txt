@@ -1,0 +1,76 @@
+660 PART 
+THREE  QUALITY MANAGEMENT        
+Number of internal logical ﬁ les (ILFs).
+  Each  
+internal logical ﬁ le  is a logi-
+cal grouping of data that resides within the application’s boundary and is 
+
+maintained via external inputs.  
+
+        
+Number of external interface ﬁ les (EIFs).
+  Each  
+external interface ﬁ le  is a 
+logical grouping of data that resides external to the application but pro-
+vides data that may be of use to the application.    
+ Once these data have been collected, the table in   Figure 30.1   is completed and a complexity value is associated with each count. Organizations that use func-
+tion point methods develop criteria for determining whether a particular entry 
+is simple, average, or complex. Nonetheless, the determination of complexity is 
+somewhat subjective.  
+ To compute function points (FP), the following relationship is used:
+FP 5 count total 3 [0.65 1 0.01 3 S( F  
+
+i )] (30.1)where count total is the sum of all FP entries obtained from   Figure 30.1  . 
+ The  F  
+
+i  ( i  
+5 1 to 14) are  value adjustment factors  (VAF) based on responses to the 
+following questions [Lon02]:     
+     
+ 1.  Does the system require reliable backup and recovery?  
+   
+ 2.  Are specialized data communications required to transfer information to 
+or from the application?  
+   
+ 3.  Are there distributed processing functions?  
+   
+ 4.  Is performance critical?  
+   
+ 5.  Will the system run in an existing, heavily utilized operational 
+
+environment?  
+   
+ 6.  Does the system require online data entry?  
+   
+ 7.  Does the online data entry require the input transaction to be built over 
+multiple screens or operations?  
+   
+ 8.  Are the ILFs updated online?  
+   Value adjustment 
+
+factors are used to 
+provide an indication of 
+problem complexity. 
+  F
+IGURE 30.1 Computing 
+
+function points   
+External Inputs (EIs)
+3External Outputs (EOs)
+3External Inquiries (EQs)
+3External Interface Files (EIFs)
+3Count totalInternal Logical Files (ILFs)
+33
+4
+3
+57=
+=
+=
+==4
+5
+4
+7106
+7
+61015InformationDomain Value
+Weighting factor
+CountSimpleAverageComplex

@@ -1,0 +1,41 @@
+CHAPTER 4  
+PROCESS MODELS 43 
+ 
+ 
+ 3.  The customer must have patience. A working version of the program(s) will not be available until late in the project time span. A major blunder, if 
+
+undetected until the working program is reviewed, can be disastrous.  
+ 
+ 
+  In an interesting analysis of actual projects, Bradac [Bra94] found that the linear nature of the classic life cycle leads to “blocking states” in which some 
+project team members must wait for other members of the team to complete 
+dependent tasks. In fact, the time spent waiting can exceed the time spent on 
+productive work! The blocking state tends to be more prevalent at the beginning 
+and end of a linear sequential process.  Today, software work is fast paced and subject to a never-ending stream of 
+changes (to features, functions, and information content). The waterfall model 
+is often inappropriate for such work. However, it can serve as a useful process 
+
+model in situations where requirements are ﬁ xed and work is to proceed to com-
+pletion in a linear manner. 
+  
+ 
+ 
+ 
+4.1.2 Incremental Process Models 
+ 
+  
+There are many situations in which initial software requirements are reasonably well deﬁ ned, but the overall scope of the development effort precludes a purely 
+CodegenerationArchitecturaldesignComponentdesignRequirementsmodelingAcceptancetestingSystemtestingIntegrationtestingUnittestingExecutablesoftware FIGURE 4.2 
+The V-model
+ 
+ uote:  “Too often, 
+software work 
+follows the ﬁ rst 
+
+law of bicycling: 
+No matter where 
+you’re going, it’s 
+
+uphill and against 
+the wind.”  Author unknown 
+pre22126_ch04_040-065.indd   43pre22126_ch04_040-065.indd   4313/12/13   6:10 PM13/12/13   6:10 PM

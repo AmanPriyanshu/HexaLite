@@ -1,0 +1,61 @@
+ Preface
+ xxvii  ORGANIZATION OF THIS BOOK
+The chapters of this book progress in an orderly manner, from general security concerns 
+to the particular needs of specialized applications, and then to overarching management 
+
+and legal issues. Thus, this book progresses through six key areas of interest: 
+1. Introduction: threats, vulnerabilities, and controls2. The security practitioner’s “toolbox”: identification and authentication, access 
+control, and encryption3. Application areas of computer security practice: programs, user–Internet inter-
+action, operating systems, networks, data and databases, and cloud computing
+4. Cross-cutting disciplines: privacy, management, law and ethics
+5. Details of cryptography6. Emerging application domains
+The first chapter begins like many other expositions: by laying groundwork. In 
+Chapter 1 we introduce terms and definitions, and give some examples to justify how 
+
+these terms are used. In Chapter 2 we begin the real depth of the field by introducing 
+
+three concepts that form the basis of many defenses in computer security: identifica-
+
+tion and authentication, access control, and encryption. We describe different ways of 
+
+implementing each of these, explore strengths and weaknesses, and tell of some recent 
+
+advances in these technologies.
+Then we advance through computing domains, from the individual user outward. 
+In Chapter 3 we begin with individual programs, ones you might write and those you 
+
+only use. Both kinds are subject to potential attacks, and we examine the nature of some 
+
+of those attacks and how they could have been prevented. In Chapter 4 we move on 
+
+to a type of program with which most users today are quite familiar: the browser, as a 
+
+gateway to the Internet. The majority of attacks today are remote, carried from a distant 
+
+attacker across a network, usually the Internet. Thus, it makes sense to study Internet-
+
+borne malicious code. But this chapter’s focus is on the harm launched remotely, not on 
+
+the network infrastructure by which it travels; we defer the network concepts to Chapter 
+
+6. In Chapter 5 we consider operating systems, a strong line of defense between a user 
+and attackers. We also consider ways to undermine the strength of the operating sys-
+
+tem itself. Chapter 6 returns to networks, but this time we do look at architecture and 
+
+technology, including denial-of-service attacks that can happen only in a network. Data, 
+
+their collection and protection, form the topic of Chapter 7, in which we look at data-
+base management systems and big data applications. Finally, in Chapter 8 we explore 
+
+cloud computing, a relatively recent addition to the computing landscape, but one that 
+
+brings its own vulnerabilities and protections.
+In Chapters 9 through 11 we address what we have termed the intersecting disciplines: 
+First, in Chapter 9 we explore privacy, a familiar topic that relates to most of the six 
+
+domains from programs to clouds. Then Chapter 10 takes us to the management side of 
+
+computer security: how management plans for and addresses computer security problems. 
+
+Finally, Chapter 11 explores how laws and ethics help us control computer behavior.

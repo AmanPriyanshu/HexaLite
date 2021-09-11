@@ -1,0 +1,28 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜Evidence: A static analysis report for the insulin pump control program. The static 
+analysis of the control software revealed no anomalies that affected the value of 
+currentDose, the program variable that holds the dose of insulin to be delivered.Argument: The evidence presented demonstrates that the maximum dose of insu-lin that can be computed is equal to maxDose.It is therefore reasonable to assume, with a high level of confidence, that the evi-dence justifies the claim that the insulin pump will not compute a dose of insulin 
+to be delivered that exceeds the maximum single safe dose.The evidence presented is both redundant and diverse. The software is checked using 
+several different mechanisms with significant overlap between them. As I discussed 
+in Chapter 10, using redundant and diverse processes increases confidence. If omis-
+sions and mistakes are not detected by one validation process, there is a good chance 
+that they will be found by one of the other processes.There will normally be many claims about the safety of a system, with the validity of 
+one claim often depending on whether or not other claims are valid. Therefore, claims may 
+
+be organized in a hierarchy. Figure 12.12 shows part of this claim hierarchy for the insulin 
+
+pump. To demonstrate that a high-level claim is valid, you first have to work through the 
+
+arguments for lower-level claims. If you can show that each of these lower-level claims is 
+
+justified, then you may be able to infer that the higher-level claims are justified.ˇˇA general assumption that underlies work in system safety is that the number of sys
+-
+tem faults that can lead to safety hazards is significantly less than the total number of 
+faults that may exist in the system. Safety assurance can therefore concentrate on 
+The maximum singledose computed bythe pump softwarewill not exceedmaxDosemaxDose is set upcorrectly when thepump is configuredmaxDose is a safedose for the user ofthe insulin pump
+The insulin pump 
+willnot deliver a singledose of 
+insulin that is
+unsafeIn normaloperation, themaximum dosecomputed will notexceed maxDoseIf the software fails,
+the maximum dosecomputed will notexceed maxDoseFigure 12.12 A safety claim hierarchy for the insulin pump 

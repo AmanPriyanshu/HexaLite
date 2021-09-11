@@ -1,0 +1,130 @@
+580 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+•   
+Emulators and plug-ins 
+—The same test can be executed on different de-vices and different mobile operating systems using the existing testing 
+environment.   
+ 
+ 
+•   
+Connectivity 
+—Simultaneous connection of multiple devices using USB, Wi-Fi, private cloud, and phone carrier to test connection stability and 
+
+recovery. 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+Selected Tools for MobileApp Testing 
+  
+Here is a list of several tools that might be useful in MobileApp testing. This is a very 
+volatile ﬁ eld. This list of representative tools was recently 
+recommended by Brown [Bro11] and Vinson [Vin11].  6 
+ 
+ 
+   
+Mobile Web page tools
+ 
+ try to determine the degree 
+to which a Web page is mobile device friendly. User 
+
+enters a Web URL and the tool provides a list of 
+
+defects.   
+Representative Tool 
+  
+WC3mobileOKChecker  http://validator.w3.org/
+mobile/ 
+)   
+Mobile browser emulators
+ 
+ show the appearance of a Web page on mobile browsers. User enters a 
+
+Web URL and tool shows how it would appear on a 
+
+mobile browser. 
+  
+Representative Tools 
+  
+Mobile Phone Emulator  http://www.
+mobilephoneemulator.com/
+ 
+)  iPhoney  http://www.marketcircle.com/iphoney/
+ 
+)   
+Device emulators 
+ are virtual devices that typically run 
+on a personal computer and allow you to develop and 
+
+test MobileApps without access to physical devices. 
+  
+Representative Tools 
+  
+Android Emulators ( http://developer.android
+.com/sdk/index.html 
+)  iPad Peek ( http://ipadpeek.com/ 
+)  Adobe Edge Inspect  http://html.adobe.com/edge/inspect/ 
+)  Blackberry Simulators ( 
+http://us.blackberry.com/
+sites/developers/resources/simulators.html 
+)   
+Automated tools 
+ record interactions on IOS or Android and allows their play back as test scripts. 
+Typically these run on a personal computer with a 
+
+device emulator. 
+  
+Representative Tools 
+  
+MonkeyTalk ( 
+http://www.gorillalogic.com/
+testing-tools/monkeytalk 
+)  Eggplant Mobile ( http://www.testplant.com/
+ 
+)  Device Anywhere ( http://www.
+keynotedeviceanywhere.com/ 
+   
+Network monitoring tools 
+ add, modify, and ﬁ
+ lter 
+HTTP request headers sent to Web servers. Installs as 
+
+a browser plug-in.   
+Representative Tool 
+  
+Modify headers ( https://addons.mozilla.org/en-
+us/ﬁ refox/addon/modify-headers/ 
+)   
+Mobile analytics testing 
+ collects data to allow analysis of how users interact with the MobileApp 
+which is important to assess ROI (return on 
+
+investment). Typically requires a Web or cloud 
+
+service to assist in data collection and storage. 
+  
+Representative Tools 
+  
+Flurry ( 
+http://www.ﬂ
+ urry.com/ﬂ
+ urry-analytics.html
+ 
+)  Google Mobile Analytics ( 
+http://www.google.com/
+analytics/mobile/ 
+)  Distimo Monitor ( http://monitor.distimo.com/
+ 
+)   
+SOFTWARE
+ TOOLS  
+ 6 
+ Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In addition, tool names are registered trademarks of the companies noted. 
+pre22126_ch26_567-583.indd   580pre22126_ch26_567-583.indd   58013/12/13   6:15 PM13/12/13   6:15 PM

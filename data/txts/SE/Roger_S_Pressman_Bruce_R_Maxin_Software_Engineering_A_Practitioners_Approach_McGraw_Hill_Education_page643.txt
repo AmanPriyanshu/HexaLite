@@ -1,0 +1,75 @@
+CHAPTER 28  
+FORMAL MODELING AND VERIFICATION
+ 613entity whose correctness can be proved using logical operations. It turns out that 
+this is easier to do for programs implemented in imperative programming lan-
+guages  5 
+ 
+ than event-driven applications implemented in object-oriented languages. 
+  There are a number of potential beneﬁ ts [Abr09] of using formal methods in 
+trying to develop fault-free systems. Requirements written using natural lan-
+guages are often ambiguous or incomplete. Formal methods model a system as 
+a series of state transitions to represent what the developers of the system will 
+observe as the program executes. The act of modeling the system may uncover 
+several defects in the system. The modeling of a large software application re-
+quires several iterations.   
+Horizontal reﬁ
+ nement
+ 
+ elaborates software states from the abstract to the con-
+crete by adding detail. This horizontal reﬁ nement is the basis for allowing trace-
+ability of software requirements. The assertions used to prohibit the software from 
+
+reaching an invalid state can be deﬁ ned and their placement veriﬁ
+ ed. Once hori-
+zontal reﬁ nement of this discrete model is complete,  
+vertical reﬁ
+ nement
+ 
+ is used to 
+transform the states and transitions so that they can be implemented in the target 
+
+programming language. Vertical reﬁ
+ nement is the process that attempts to “glue” 
+the abstract to the concrete, without allowing communication weaknesses in a 
+
+poorly chosen target language to affect the requirement speciﬁ cations. 
+ The integration of legacy code complicates the use of formal methods since the legacy requirements may not be a good ﬁ t for the new system. In many in-
+stances, it is best to capture the legacy code behavior in the speciﬁ cation, and 
+then implement the behavior in new code.  Some opponents of formal methods argue that many of its practices are contrary 
+to the tenets of agile process models. However, Black and her colleagues [Bla09] 
+
+suggest that elements of both formal methods and agile processes can be com-
+bined to create better software products. Both have the same basic goal of trying 
+
+to create reliable software. Formal methods can add value to agile development 
+
+by forcing developers to make sure the system safety property axioms  6 
+ 
+ are valid.Formal methods techniques (e.g., static analysis and theorem-proving tools) can be used to automatically generate test cases from system models and indi-
+cate where assertions should be placed in the evolving program code. Informal 
+requirements can be translated into formal notation that is embedded into the 
+source code. Assertions written in formal notation may be machine-checked for 
+inconsistencies. Code often needs to be refactored  7 
+ 
+ as it evolves. Formal meth-
+ods can provide the basis for deﬁ ning correctness-preserving transformations to 
+ensure the refactored code still meets it requirements.   uote:   “Formal methods 
+will never have a 
+signiﬁ cant impact 
+
+until they can be 
+used by people that 
+don’t understand 
+them.”   Tom Melham 
+  
+5  An  
+imperative language programming language
+ 
+ achieves its primary affect by assigning the 
+values of algebraic expressions.   
+6  Safety property axioms are statements about what software may not allow. Safety was dis-
+cussed as part of security in Chapter 27.   
+7  
+ Refactoring
+ 
+ (Chapter 5) improves the code without changing its meaning. pre22126_ch28_601-622.indd   613pre22126_ch28_601-622.indd   61313/12/13   6:15 PM13/12/13   6:15 PM

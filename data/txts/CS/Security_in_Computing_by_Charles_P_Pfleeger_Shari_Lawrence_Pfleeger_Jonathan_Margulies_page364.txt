@@ -1,0 +1,68 @@
+330 Chapter 5  
+Operating SystemsIn another demonstration, these same researchers displayed a rootkit that responds to a text query by relaying the phone’s location as furnished by its GPS receiver. This 
+
+would enable an attacker to track the owner’s whereabouts.
+In a third test, the researchers showed a rootkit that could turn on power-hungry 
+capabilities—such as the Bluetooth radio and GPS receiver—to quickly drain the 
+
+battery. People depend on cell phones for emergencies. Imagine a scenario in which 
+
+the attacker wants to prevent the victim from calling for help, for example, when the 
+
+attacker is chasing the victim in a car. If the phone’s battery is dead, the cell phone can-
+
+not summon help.The worst part of these three attacks is that they are effectively undetectable: The cell 
+phone’s interface seems no different to the user who is unaware of danger. The rootkit 
+
+can thus perform actions normally reserved for the operating system but does so without 
+
+the user’s knowledge.
+A rootkit is a variation on the virus theme. A rootkit is a piece of malicious code that 
+goes to great lengths not to be discovered or, if discovered and removed, to reestablish 
+
+itself whenever possible. The name rootkit refers to the code’s attempt to operate as 
+
+root, the ultraprivileged user of a Unix system, so-named because the most critical and 
+
+fundamental parts of the Unix operating system are called root functions.Put yourself in the mind of an attacker. If you want persistency, you want an attack 
+that is really difficult to detect so your victim cannot find and try to eradicate your code. 
+
+Two conditions can help you remain undiscovered: your code executing before other 
+
+programs that might block your execution and your not being detected as a file or pro-
+
+cess. You can achieve these two goals together. Being in control early in the system boot 
+
+cycle would allow you to control the other system defenses instead of their controlling 
+
+you. If your code is introduced early enough, it can override other normal system func-
+
+tions that would detect its presence. Let us look at a simple example. 
+Rootkit Evades DetectionMalicious code consists of executable files, just like all other code. To be able to 
+
+execute, malicious code must locate and invoke its pieces, which usually implies that 
+
+some of these pieces are predictable: They are of a certain name, size, location, or 
+
+form, but that same predictability makes them targets for tools that search for mali-
+
+cious code (such as virus checkers). An attack might involve the file 
+mal_code.exe stored in c:/winnt/apps. When you run a file explorer program on that directory, 
+mal_code.exe will appear in the listing, and you might recognize and eradicate 
+the file.
+Antivirus tools (and most programs) do not contain code to query the disk, determine 
+the disk format, identify files and where they are stored, find the file names and proper-
+
+ties from an index table, or structure the results for use and display. Instead the tools 
+
+call built-in functions through an application programming interface (API) to get this 
+
+information. For example, as shown in Figure 5-19, the Windows API functions Find-
+
+FirstFile() and FindNextFile() return the file name of the first or next file that matches 
+
+certain criteria. The criteria may be null, implying to select all files. These functions in 
+
+turn call NT Kernel “native mode” system functions, such as NTQueryDirectoryObject. 
+
+At the end of this call chain is a simple function call: Load a number into a register to 

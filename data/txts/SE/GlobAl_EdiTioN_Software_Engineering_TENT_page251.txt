@@ -1,0 +1,48 @@
+˜˜˚ˆ˜˜˜˜˜˜
+environment may have to be set up to run these tests. It is difficult to automate this process as part of the acceptance tests may involve testing the interactions 
+between end-users and the system. Some training of end-users may be required.
+5. Negotiate test results It is very unlikely that all of the defined acceptance tests 
+will pass and that there will be no problems with the system. If this is the case, 
+then acceptance testing is complete and the system can be handed over. More 
+commonly, some problems will be discovered. In such cases, the developer and 
+the customer have to negotiate to decide if the system is good enough to be used. 
+
+They must also agree on how the developer will fix the identified  problems.6. Reject/accept system This stage involves a meeting between the developers and 
+the customer to decide on whether or not the system should be accepted. If the 
+
+system is not good enough for use, then further development is required to fix 
+the identified problems. Once complete, the acceptance testing phase is repeated.
+You might think that acceptance testing is a clear-cut contractual issue. If a system 
+does not pass its acceptance tests, then it should not be accepted and payment should 
+
+not be made. However, the reality is more complex. Customers want to use the soft-
+ware as soon as they can because of the benefits of its immediate deployment. They 
+
+may have bought new hardware, trained staff, and changed their  processes. They may 
+be willing to accept the software, irrespective of problems, because the costs of not 
+
+using the software are greater than the costs of working around the problems.Therefore, the outcome of negotiations may be conditional acceptance of the sys-tem. The customer may accept the system so that deployment can begin. The system 
+provider agrees to repair urgent problems and deliver a new version to the customer 
+as quickly as possible.In agile methods such as Extreme Programming, there may be no separate accept-ance testing activity. The end-user is part of the development team (i.e., he or she is 
+an alpha tester) and provides the system requirements in terms of user stories. He or 
+she is also responsible for defining the tests, which decide whether or not the devel-
+oped software supports the user stories. These tests are therefore equivalent to 
+
+acceptance tests. The tests are automated, and development does not proceed until 
+the story acceptance tests have successfully been executed.When users are embedded in a software development team, they should ideally be 
+ﬁtypicalﬂ users with general knowledge of how the system will be used. However, it 
+
+can be difficult to find such users, and so the acceptance tests may actually not be a 
+
+true reflection of how a system is used in practice. Furthermore, the requirement for 
+
+automated testing limits the flexibility of testing interactive systems. For such sys
+-
+tems, acceptance testing may require groups of end-users to use the system as if it 
+
+was part of their everyday work. Therefore, while an ﬁembedded userﬂ is an attrac-
+tive notion in principle, it does not necessarily lead to high-quality tests of the  system.The problem of user involvement in agile teams is one reason why many compa
+-nies use a mix of agile and more traditional testing. The system may be developed 
+using agile techniques, but, after completion of a major release, separate acceptance 
+
+testing is used to decide if the system should be accepted.

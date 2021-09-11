@@ -1,0 +1,83 @@
+CHAPTER 9  
+REQUIREMENTS MODELING: SCENARIO-BASED METHODS 169 
+ 
+ 
+9.1.2 Analysis Rules of Thumb 
+ 
+ 
+ 
+  
+ 
+Arlow and Neustadt [Arl02] suggest a number of worthwhile rules of thumb that should be followed when creating the analysis model:  
+ 
+ 
+•   
+The model should focus on requirements that are visible within the prob-
+lem or business domain. The level of abstraction should be relatively high.
+ 
+ “Don’t get bogged down in details” [Arl02] that try to explain how the 
+ system will work.   
+ 
+ 
+•   
+Each element of the requirements model should add to an overall under-
+standing of software requirements and provide insight into the information 
+
+domain, function, and behavior of the system. 
+ 
+  
+ 
+ 
+•   
+Delay consideration of infrastructure and other nonfunctional models until 
+design. 
+ That is, a database may be required, but the classes necessary to implement it, the functions required to access it, and the behavior that 
+will be exhibited as it is used should be considered only after problem 
+ domain analysis has been completed.   
+ 
+ 
+•   
+Minimize coupling throughout the system.
+ 
+ It is important to represent re-lationships between classes and functions. However, if the level of “inter-
+
+connectedness” is extremely high, efforts should be made to reduce it.  
+  
+ 
+ 
+•   
+Be certain that the requirements model provides value to all stakeholders.
+ 
+ Each constituency has its own use for the model. For example, business 
+stakeholders should use the model to validate requirements; designers 
+should use the model as a basis for design; QA people should use the 
+model to help plan acceptance tests.   
+ 
+ 
+•   
+Keep the model as simple as it can be. 
+ Don’t add additional diagrams when they add no new information. Don’t use complex notational forms 
+when a simple list will do.  
+ 
+ 
+ 
+ 
+ 
+  Are there 
+some basic guidelines that can 
+guide us as we 
+do requirements 
+analysis work? ?  uote:      “Problems worthy 
+of attack, prove 
+their worth by 
+hitting back.”  Piet Hein 
+SystemdescriptionAnalysismodelDesignmodel  
+FIGURE 9.1 
+The require-
+ments model 
+as a bridge 
+between 
+the system 
+ description and the design 
+model  
+ pre22126_ch09_166-183.indd   169pre22126_ch09_166-183.indd   16913/12/13   6:11 PM13/12/13   6:11 PM

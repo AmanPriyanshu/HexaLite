@@ -1,0 +1,110 @@
+166  At a technical level, software engineering begins with a series of mod-eling tasks that lead to a speciﬁ cation of requirements and a design 
+ representation for the software to be built. The requirements model 
+ 1 
+ 
+—actually a set of models—is the ﬁ rst technical representation of a system. 
+  
+In a seminal book on requirements modeling methods, Tom DeMarco 
+[DeM79] describes the process in this way:  
+Looking back over the recognized problems and failings of the analysis phase, I suggest that we need to make the following additions to our set of analysis 
+phase goals. The products of analysis must be highly maintainable. This applies   
+ 
+KEY CONCEPTS     activity diagram  . . 180  
+    domain analysis  . . 170  
+
+    formal use case. . . 177  
+
+    requirements 
+
+analysis  . . . . . . . . 167  
+
+    requirements 
+
+modeling  . . . . . . . . 171  
+
+    scenario-based 
+
+modeling  . . . . . . . . 173  
+
+    swimlane diagram. 181  
+ REQUIREMENTS MODELING: SCENARIO-BASED METHODS 9   
+ 
+ 
+ 
+CHAPTER 
+ 
+What is it?   The written word is a wonderful vehicle for communica-
+
+tion, but it is not necessarily the best 
+way to represent the requirements for computer software. Requirements modeling 
+uses a combination of text and diagrammatic 
+forms to depict requirements in a way that is 
+
+relatively easy to understand, and more im-
+portant, straightforward to review for correct-
+
+ness, completeness, and consistency. 
+  
+ 
+Who does it?   A software engineer (sometimes called an analyst) builds the model using re-
+quirements elicited from the customer. 
+  
+ 
+Why is it important? 
+  To validate software re-
+quirements, you need to examine them from 
+a number of different points of view. In this 
+
+chapter you’ll consider requirements modeling 
+from a scenario-based perspective and exam-
+ine how UML can be used to supplement the 
+scenarios. In Chapters 10 and 11, you’ll learn 
+
+about other “dimensions” of the requirements 
+model. By examining a number of different 
+ dimensions, you’ll increase the probability that errors will be found, that inconsistency will sur-
+face, and that omissions will be uncovered.   
+ 
+What are the steps?   Scenario-based model-ing represents the system from the user’s point 
+
+of view. By building a scenario-based model, 
+
+you will be able to better understand how the 
+user interacts with the software, uncovering the 
+major functions and features that stakeholder 
+require of the system.   
+ 
+What is the work product? 
+  Scenario-based 
+modeling produces a text-oriented representation 
+
+call a “use case.” The use case describes a spe-
+ciﬁ c interaction in a manner that can be informal 
+(a simple narrative) or more structured and formal 
+
+in nature. The use case can be supplemented with 
+
+a number of different UML diagrams that overlay 
+
+a more procedural view of the interaction. 
+  
+ 
+How do I ensure that I’ve done it right?   Re-quirements modeling work products must be 
+reviewed for correctness, completeness, and 
+consistency. They must reﬂ
+ ect the needs of all 
+stakeholders and establish a foundation from 
+which design can be conducted.   
+QUICK LOOK   
+1  In earlier editions of this book, the term  
+analysis model 
+ was used, rather than  
+requirements 
+model. 
+ In this edition, we’ve decided to use both phrases to represent the modeling activity 
+that deﬁ nes various aspects of the problem to be solved.  
+Analysis 
+ is the action that occurs as 
+ requirements
+ 
+ are derived. pre22126_ch09_166-183.indd   166pre22126_ch09_166-183.indd   16613/12/13   6:11 PM13/12/13   6:11 PM

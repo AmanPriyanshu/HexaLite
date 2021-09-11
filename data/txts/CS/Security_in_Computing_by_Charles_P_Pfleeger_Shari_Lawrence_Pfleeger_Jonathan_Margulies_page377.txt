@@ -1,0 +1,72 @@
+ Section 6.1  Network Concepts 
+343  already know, computer programs are vulnerable to unintentional and malicious fail-
+ures. In this section we also consider some of the threats to which routing is susceptible.Background: Network Transmission Media
+When data items leave a protected environment, others along the way can view or 
+
+intercept
+ the data; other terms used are 
+eavesdrop
+, wiretap
+, or sniff. If you shout 
+something at a friend some distance away, you are aware that people around you can 
+
+hear what you say. The same is true with data, which can be intercepted both remotely, 
+
+across a wide area network, and locally, in a local area network (LAN). Data commu-
+
+nications travel either on wire or wirelessly, both of which are vulnerable, with varying 
+
+degrees of ease of attack. The nature of interception depends on the medium, which we 
+
+describe next. As you read this explanation, think also of modification and blocking 
+
+attacks, which we describe shortly.
+CableAt the most local level, all signals in 
+an Ethernet or other LAN are avail-
+
+able on the cable for anyone to inter-
+
+cept. Each LAN connector (such as a computer board) has a unique address, called the 
+
+MAC (for Media Access Control) address; each board and its drivers are programmed to 
+
+label all packets from its host with its unique address (as a sender’s “return address”) and 
+
+to take from the net only those packets addressed to its host.
+Packet Sniffing 
+Removing only those packets addressed to a given host is mostly a matter of polite-
+
+ness; there is little to stop a program from examining each packet as it goes by. A 
+
+device called a 
+packet sniffer
+ retrieves all packets on its LAN. Alternatively, one of 
+the interface cards can be reprogrammed to have the supposedly unique MAC address 
+
+of another existing card on the LAN so that two different cards will both fetch packets 
+
+for one address. (To avoid detection, the rogue card will have to put back on the net 
+
+copies of the packets it has intercepted.) Fortunately (for now), wired LANs are usu-
+
+ally used only in environments that are fairly friendly, so these kinds of attacks occur 
+
+infrequently.
+Radiation Clever attackers can take advantage of a wire’s properties and can read packets with-
+
+out any physical manipulation. Ordinary wire (and many other electronic components) 
+
+emits radiation. By a process called inductance an intruder can tap a wire and read 
+radiated signals without making physical contact with the cable; essentially, the intruder 
+
+puts an antenna close to the cable and picks up the electromagnetic radiation of the sig-
+nals passing through the wire. (Read Sidebar 6-1 for some examples of interception of 
+
+such radiation.) A cable’s inductance signals travel only short distances, and they can be 
+
+blocked by other conductive materials, so an attacker can foil inductance by wrapping a 
+
+cable in more wire and perhaps sending other, confounding signals through the wrapped 
+Signal interception is a serious potential 
+
+network vulnerability.

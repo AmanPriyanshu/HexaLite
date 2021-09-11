@@ -1,0 +1,45 @@
+APPENDIX 1  
+AN INTRODUCTION TO UML 875  
+  USE-CASE DIAGRAMS   
+Use cases (Chapters 8 and 9) and the UML  use-case diagram  help you determine the functionality and features of the software from the user’s perspective. To give 
+you a feeling for how use cases and use-case diagrams work, we’ll create some 
+for a software application for managing an online digital music store. Some of the 
+things the software might do include:    
+• Download an MP3 music ﬁ le and store it in the application’s library.  
+  
+• Capture streaming music and store it in the application’s library.  
+  
+• Manage the application’s library (e.g., delete songs or organize them in 
+playlists).  
+  
+• Burn a list of the songs in the library onto a CD.  
+  
+• Load a list of the songs in the library onto an iPod or MP3 player.  
+  
+• Convert a song from MP3 format to AAC format and vice versa.   
+ This is not an exhaustive list, but it is sufﬁ cient to understand the role of use 
+
+cases and use-case diagrams.  A  use case  describes how a user interacts with the system by deﬁ ning the 
+steps required to accomplish a speciﬁ c goal (e.g., burning a list of songs onto a 
+CD). Variations in the sequence of steps describe various scenarios (e.g., what if 
+all the songs in the list don’t ﬁ t on one CD?). 
+ A UML use-case diagram is an overview of all the use cases and how they are related. It provides a big picture of the functionality of the system. A use-case 
+diagram for the digital music application is shown in   Figure A1.5.  
+ In this diagram, the stick ﬁ gure represents an  
+actor  (Chapter 8) that is associ-ated with one category of user (or other interaction element).  C omplex systems typically have more than one actor. For example, a vending machine application 
+might have three actors representing customers, repair personnel, and vendors 
+who reﬁ ll the machine. 
+ In the use-case diagram, the use cases are displayed as ovals. The actors are connected by lines to the use cases that they carry out. Note that none of the de-
+tails of the use cases are included in the diagram and instead need to be stored 
+separately. Note also that the use cases are placed in a rectangle but the actors 
+are not. This rectangle is a visual reminder of the system boundaries and that the 
+actors are outside the system.  Some use cases in a system might be related to each other. For example, there 
+are similar steps in burning a list of songs to a CD and in loading a list of songs 
+
+to an iPod or smartphone. In both cases, the user ﬁ rst creates an empty list and 
+
+then adds songs from the library to the list. To avoid duplication in use cases, it 
+
+is usually better to create a new use case representing the duplicated activity, 
+
+and then let the other uses cases include this new use case as one of their steps. 

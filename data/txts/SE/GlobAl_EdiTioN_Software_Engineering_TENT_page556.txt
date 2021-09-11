@@ -1,0 +1,44 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜The term system is universally used. We talk about computer systems, operating systems, 
+payment systems, the education system, the system of government, and so on. These are 
+
+all obviously quite different uses of the word ﬁsystem,ﬂ although they share the essential 
+
+characteristic that, somehow, the system is more than simply the sum of its parts.Abstract systems, such as the system of government, are outside the scope of this 
+book. I focus here on systems that include computers and software and that have some 
+
+specific purpose such as to enable communication, support navigation, or maintain 
+
+medical records. A useful working definition of these types of system is as follows:A system is a purposeful collection of interrelated components of different kinds that work together to deliver a set of services to the system owner and its users.
+This general definition can cover a very wide range of systems. For example, a 
+simple system, such as a laser pointer, delivers an indication service. It may include a 
+
+few hardware components with a tiny control program in read-only memory (ROM). 
+
+By contrast, an air traffic control system includes thousands of hardware and soft-ware components as well as human users who make decisions based on information 
+
+from that computer system. It delivers a range of services, including providing infor-
+mation to pilots, maintaining safe separation of planes, utilizing airspace, and so on.In all complex systems, the properties and behavior of the system components are inextricably intermingled. The successful functioning of each system component 
+
+depends on the functioning of other components. Software can only operate if the 
+
+processor is operational. The processor can only carry out computations if the soft-
+ware system defining these computations has been successfully installed.Large-scale systems are often ﬁsystems of systems.ﬂ That is, they are made up of several separate systems. For example, a police command and control system may 
+include a geographical information system to provide details of the location of inci-
+dents. The same geographical information system may be used in systems for trans-
+port logistics and emergency command and control. Engineering systems of systems 
+is an increasingly important topic in software engineering that I cover in Chapter 20. Large-scale systems are, with a few exceptions, sociotechnical systems, which I 
+explained in Chapter 10. That is, they do not just include software and hardware but 
+
+also people, processes, and organizational policies. Sociotechnical systems are 
+ enterprise systems that are intended to help deliver a business purpose. This purpose 
+
+might be to increase sales, reduce material used in manufacturing, collect taxes, main-
+tain a safe airspace, and so on. Because they are embedded in an organizational envi-
+ronment, the procurement, development, and use of these systems are influenced by 
+
+the organization™s policies and procedures, as well as by its working culture. The 
+
+users of the system are people who are influenced by the way the organization is man-
+aged and by their interactions with other people inside and outside of the organization.The close relationships between sociotechnical systems and the organizations that use these systems means that it is often difficult to establish system boundaries. 

@@ -1,0 +1,108 @@
+116 PART TWO  
+MODELING 
+ 
+ 
+ 
+ 
+ 
+ 
+Principle 7. 
+  Try to build useful models, but forget about building perfect Try to build useful models, but forget about building perfect 
+models.models. 
+ When building requirements and design models, a software en-gineer reaches a point of diminishing returns. That is, the effort required 
+to make the model absolutely complete and internally consistent is not 
+worth the beneﬁ ts of these properties. Are we suggesting that modeling 
+should be sloppy or low quality? The answer is no. But modeling should be 
+conducted with an eye to the next software engineering steps. Iterating 
+endlessly to make a model “perfect” does not serve the need for agility. 
+   
+ 
+ 
+ 
+ 
+ 
+Principle 8. 
+  Don’t become dogmatic about the syntax of the model. If it Don’t become dogmatic about the syntax of the model. If it 
+communicates content successfully, representation is secondary.communicates content successfully, representation is secondary.
+ 
+ Although everyone on a software team should try to use consistent notation during 
+modeling, the most important characteristic of the model is to commu-
+nicate information that enables the next software engineering task. If a 
+model does this successfully, incorrect syntax can be forgiven. 
+   
+ 
+ 
+ 
+ 
+ 
+Principle 9. 
+  If your instincts tell you a model isn’t right even though it If your instincts tell you a model isn’t right even though it 
+seems okay on paper, you probably have reason to be concerned.seems okay on paper, you probably have reason to be concerned.
+ 
+ If you are an experienced software engineer, trust your instincts. Software work 
+
+teaches many lessons—some of them on a subconscious level. If something 
+tells you that a design model is doomed to fail (even though you can’t 
+prove it explicitly), you have reason to spend additional time examining 
+the model or developing a different one.    
+ 
+ 
+ 
+ 
+ 
+Principle 10. 
+  Get feedback as soon as you can.Get feedback as soon as you can. 
+ Every model should be re-viewed by members of the software team. The intent of these reviews is to 
+provide feedback that can be used to correct modeling mistakes, change 
+misinterpretations, and add features or functions that were inadvertently 
+omitted.   
+ 
+ 
+ 
+ 
+Requirements modeling principles.   
+ 
+ 
+Over the past three decades, a large num-ber of requirements modeling methods have been developed. Investigators have 
+identiﬁ ed requirements analysis problems and their causes and have developed 
+a variety of modeling notations and corresponding sets of heuristics to overcome 
+them. Each analysis method has a unique point of view. However, all analysis 
+
+methods are related by a set of operational principles:    
+ 
+ 
+ 
+ 
+ 
+ 
+Principle 1. 
+  The information domain of a problem must be represented and The information domain of a problem must be represented and 
+understood.understood. 
+ The  information domain 
+ encompasses the data that ﬂ ow into 
+the system (from end users, other systems, or external devices), the data that 
+
+ﬂ ow out of the system (via the user interface, network interfaces, reports, 
+graphics, and other means), and the data stores that collect and  organize 
+persistent data objects (i.e., data that are maintained permanently). 
+   
+ 
+ 
+ 
+ 
+ 
+Principle 2. 
+  
+The functions that the software performs must be deﬁ ned.  
+The functions that the software performs must be deﬁ
+ ned. 
+ Software functions provide direct beneﬁ t to end users and also provide 
+ 
+ uote:  “The engineer's 
+ﬁ rst problem 
+
+in any design 
+situation is to 
+discover what the 
+problem really is.”  Author unknown 
+pre22126_ch07_103-130.indd   116pre22126_ch07_103-130.indd   11613/12/13   6:11 PM13/12/13   6:11 PM

@@ -1,0 +1,72 @@
+276 Chapter 4  
+The Web—User Side
+A team of researchers looked into whether user training and education are effective 
+against spear phishing attacks. Deanna Caputo and colleagues [CAP14] ran an experi-
+
+ment in which they sent three spear-phishing emails, several months apart, to approxi-
+
+mately 1500 employees of a large company. Those who took the spear-phishing bait and 
+
+clicked the included link were soon sent anti-phishing security educational materials 
+
+(ostensibly as part of the company’s ongoing security education program). The study 
+
+seemed to show that the training had little effect on employees’ future behavior: people 
+
+who clicked the link in the first email were more likely to click in the second and third; 
+
+people who did not click were less likely. They also found that most recipients were 
+
+unlikely to have read the full security training materials sent them, based on the time the 
+
+training pages were open on the users’ screens.
+Next we introduce two products that protect email in a different way: We know not 
+to trust the content of email from a malicious or unknown sender, and we know source 
+
+email addresses can be spoofed so any message can appear to come from a trusted 
+
+source. We need a way to ensure the authenticity of email from supposedly reliable 
+
+sources. Solving that problem provides a bonus: Not only are we assured of the authen-
+
+ticity and integrity of the content of the email, but we can also ensure that its contents 
+
+are not readily available anywhere along the path between sender and recipient. Cryp-
+
+tography can provide these protections.
+PGPPGP stands for Pretty Good Privacy. It was invented by Phil Zimmerman in 1991. Orig-
+inally a free package, it became a commercial product after being bought by Network 
+
+Associates in 1996. A freeware version is still available. PGP is widely available, both 
+
+in commercial versions and freeware.
+The problem we have frequently found with using cryptography is generating a 
+common cryptographic key both sender and receiver can have, but nobody else. PGP 
+
+addresses the key distribution problem with what is called a “ring of trust” or a user’s 
+
+“keyring.” One user directly gives a public key to another, or the second user fetches the 
+
+first’s public key from a server. Some people include their PGP public keys at the bot-
+
+tom of email messages. And one person can give a second person’s key to a third (and a 
+
+fourth, and so on). Thus, the key association problem becomes one of caveat emptor (let 
+
+the buyer beware): If I trust you, I may also trust the keys you give me for other people. 
+
+The model breaks down intellectually when you give me all the keys you received from 
+
+people, who in turn gave you all the keys they got from still other people, who gave 
+
+them all their keys, and so forth.
+You sign each key you give me. The keys you give me may also have been signed by 
+other people. I decide to trust the veracity of a key-and-identity combination, based on 
+
+who signed the key. PGP does not mandate a policy for establishing trust. Rather, each 
+
+user is free to decide how much to trust each key received.
+The PGP processing performs some or all of the following actions, depending on 
+whether confidentiality, integrity, authenticity, or some combination of these is selected:
+• Create a random session key for a symmetric algorithm.
+• Encrypt the message, using the session key (for message confidentiality).

@@ -1,0 +1,82 @@
+402 PART TWO  
+MODELING 
+considerations when designing mobile touch-screen applications listed by Schumacher include:   
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+•   
+Identify your audience. 
+ The application must be written with the expecta-tions and backgrounds of its users in mind. Experienced users want to do 
+things quickly. Less experienced users will appreciate a handholding 
+
+ approach when they are ﬁ rst using the app. 
+  
+ 
+ 
+•   
+Design for context of use. 
+ It is important to consider how the user will  interact with the real world while using the MobileApp. Watching a movie 
+on an airplane calls for a different user interface than checking the 
+weather before you leave the ofﬁ ce. 
+  
+ 
+ 
+•   
+There is a ﬁ ne line between simplicity and laziness.
+ 
+ Creating an intuitive user interface on a mobile device is much harder than simply removing 
+features found in the user interface for the application running on a larger 
+device. The user interface should provide all the information that enables 
+a user to make her next decision.   
+ 
+ 
+•   
+Use the platform as an advantage. 
+ Touch-screen navigation is not intuitive 
+and must be learned by all new users. This learning task will be easier if 
+the user interface designers adhere to standards that have been set for 
+the platform.   
+ 
+ 
+•   
+Make scrollbars and selection highlighting more salient. 
+ Scrollbars are often hard to locate on touch devices because they are too small. Make 
+sure that menu or icon borders are wide enough for color changes to 
+catch the users’ attention. When color coding is used, make sure there is 
+sufﬁ cient contrast between foreground and background colors to allow 
+them to be distinguishable by any colorblind users.   
+ 
+ 
+•   
+Increase discoverability of advanced functionality.
+ 
+ Hot keys and other shortcuts are sometimes included in MobileApps to allow experienced 
+users to complete their tasks more quickly. You can increase the discov-
+
+erability of features like these by including visual design clues in the user 
+interface.   
+ 
+ 
+•   
+Use clear and consistent labels. 
+ Widget labels should be recognized by all 
+app users, regardless of standards used by speciﬁ c platforms. Use abbre-
+viations cautiously and avoid them if possible.   
+ 
+ 
+•   
+Clever icons should never be developed at the expense of user under-
+standing. 
+ Icons sometimes only make sense to their designers. Users must be able to learn their meaning quickly. It is hard to guarantee that icons 
+
+are meaningful across all languages and user groups. A good strategy to 
+ enhance recognition is to add a text label beneath a novel icon.   What are 
+the things I should think about 
+when designing 
+mobile touch-
+screen apps? ?pre22126_ch18_391-410.indd   402pre22126_ch18_391-410.indd   40216/12/13   6:23 PM16/12/13   6:23 PM

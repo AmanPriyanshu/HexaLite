@@ -1,0 +1,150 @@
+CHAPTER 25  
+TESTING WEB APPLICATIONS
+ 555 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 25.5  
+COMPONENT-LEVEL TESTING  
+ 
+ 
+Component-level testing, 
+ also called  
+function testing, 
+ focuses on a set of tests 
+that attempt to uncover errors in WebApp functions. Each WebApp function is 
+
+a software module (implemented in one of a variety of programming or script-
+ing languages) and can be tested using black-box (and in some cases, white-box) 
+techniques as discussed in Chapter 23.  Component-level test cases are often driven by forms-level input. Once forms data are deﬁ ned, the user selects a button or other control mechanism to initiate 
+execution. Equivalence partitioning, boundary value analysis, and path testing 
+(Chapter 23) can be adapted for use in testing forms-based input and the func-
+tionality that is applied to it.  In addition to these test-case design methods, a technique called  forced error 
+testing 
+ [Ngu01] is used to derive test cases that purposely drive the WebApp 
+component into an error condition. The purpose is to uncover errors that occur   
+ 
+WebApp Testing    
+ 
+WebApp Testing 
+  
+ 
+The scene:  Doug Miller’s ofﬁ
+ ce. 
+  
+The players:  Doug Miller, manager of the  
+SafeHome 
+ software engineering group, and Vinod Raman, a 
+member of the product software engineering team.   
+The conversation:    
+Doug:  What do you think of the  
+ 
+SafeHomeAssured.com  
+ e-commerce WebApp V0.0? 
+  
+Vinod:  The outsourcing vendor has done a good job. 
+Sharon (development manager for the vendor) tells me 
+they’re testing as we speak.   
+Doug:  I’d like you and the rest of the team to do a little 
+informal testing on the e-commerce site. 
+  
+Vinod (grimacing):  I thought we were going to hire 
+a third-party testing company to validate the WebApp. 
+
+We’re still killing ourselves trying to get the product 
+
+software out the door. 
+  
+Doug:  We’re going to hire a testing vendor for perfor-
+mance and security testing, and our outsourcing vendor is 
+
+already testing. Just thought another point of view would be 
+
+ 
+  
+Vinod (sighs):  What are you looking for? 
+  
+Doug:  I want to be sure that the interface and all navi-
+gation are solid.   
+Vinod:  I suppose we can start with the use cases for 
+each of the major interface functions:
+  
+ 
+ 
+ 
+ 
+ 
+ 
+Learn about   SafeHome.  
+   
+ 
+ 
+ 
+ 
+ 
+Specify the   SafeHome 
+  system you need.  
+   
+ 
+ 
+ 
+ 
+ 
+Purchase a   SafeHome 
+  system.  
+   
+ 
+ 
+ 
+ 
+ 
+Get technical support.  
+ 
+ 
+   
+Doug:  Good. But take the navigation paths all the way 
+to their conclusion.   
+Vinod (looking through a notebook of use cases):  Yeah, when you select  
+Specify the Safe-Home system you need 
+, that’ll take you to:  
+ 
+ 
+ 
+ 
+ 
+ 
+Select SafeHome components.  
+   
+ 
+ 
+ 
+ 
+ 
+Get   SafeHome 
+  component recommendations.  
+ 
+ 
+  We can exercise the semantics of each path. 
+  
+Doug:  While you’re there, check out the content that 
+appears at each navigation node.   Vinod:  
+well. Who’s testing usability? 
+  
+Doug:  
+ability testing. We’ve hired a market research ﬁ
+ rm to 
+line up 20 typical users for the usability study, but if you 
+
+  
+Vinod:  I know, pass them along. 
+  
+Doug:  Thanks, Vinod. 
+  
+SAFEHOME pre22126_ch25_540-566.indd   555pre22126_ch25_540-566.indd   55513/12/13   6:15 PM13/12/13   6:15 PM

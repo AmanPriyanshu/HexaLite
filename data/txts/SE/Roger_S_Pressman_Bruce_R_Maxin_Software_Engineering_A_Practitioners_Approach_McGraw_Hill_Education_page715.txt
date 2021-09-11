@@ -1,0 +1,43 @@
+CHAPTER 31  
+PROJECT MANAGEMENT CONCEPTS 685conducted for every project, it is very likely that a consistent theme would be encountered: project management was weak.  In this chapter and Chapters 32 through 37, we’ll present the key concepts that lead to effective software project management. This chapter considers basic 
+software project management concepts and principles. Chapter 32 presents 
+process and project metrics, the basis for effective management decision mak-
+ing. The techniques that are used to estimate cost are discussed in Chapter 33. 
+Chapter 34 will help you to deﬁ ne a realistic project schedule. The management 
+activities that lead to effective risk monitoring, mitigation, and management are 
+presented in Chapter 35. Chapter 36 considers maintenance and reengineering 
+and discusses the management issues that you’ll encounter when you must deal 
+with legacy systems. Finally, Chapter 37 discussed techniques for studying and 
+
+improving your team’s software engineering processes. 
+  
+ 
+ 31.1  
+THE MANAGEMENT SPECTRUM  
+ 
+Effective software project management focuses on the four Ps: people, product, process, and project. The order is not arbitrary. The manager who forgets that 
+
+software engineering work is an intensely human endeavor will never have suc-
+cess in project management. A manager who fails to encourage comprehensive 
+stakeholder communication early in the evolution of a product risks building an 
+elegant solution for the wrong problem. The manager who pays little attention to 
+the process runs the risk of inserting competent technical methods and tools into 
+a vacuum. The manager who embarks without a solid project plan jeopardizes 
+the success of the project.   
+ 
+31.1.1   
+The People  
+The cultivation of motivated, highly skilled software people has been discussed since the 1960s. In fact, the “people factor” is so important that the Software 
+Engineering Institute has developed a  People Capability Maturity Model 
+ (People-CMM), in recognition of the fact that “every organization needs to con-
+tinually improve its ability to attract, develop, motivate, organize, and retain the 
+workforce needed to accomplish its strategic business objectives” [Cur01].  The people capability maturity model deﬁ nes the following key practice areas 
+for software people: stafﬁ ng, communication and coordination, work environ-
+ment, performance management, training, compensation, competency analysis 
+and development, career development, workgroup development, and team/
+culture development, and others. Organizations that achieve high levels of 
+People-CMM maturity have a higher likelihood of implementing effective soft-
+ware project management practices.  The People-CMM is a companion to the  Software Capability Maturity Model–
+Integration 
+ (Chapter 37) that guides organizations in the creation of a mature 
+pre22126_ch31_683-702.indd   685pre22126_ch31_683-702.indd   68513/12/13   6:16 PM13/12/13   6:16 PM

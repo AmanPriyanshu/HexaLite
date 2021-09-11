@@ -1,0 +1,62 @@
+CHAPTER 29  
+SOFTWARE CONFIGURATION MANAGEMENT
+ 633task may or may not be applicable. For example, when a new SCI is created, it must be identiﬁ ed. However, if no changes are requested for the SCI, the change 
+control layer does not apply. The SCI is assigned to a speciﬁ
+ c version of the soft-
+ware (version control mechanisms come into play). A record of the SCI (its name, 
+creation date, version designation, etc.) is maintained for conﬁ guration auditing 
+purposes and reported to those with a need to know. In the sections that follow, 
+
+we examine each of these SCM process layers in more detail.   
+ 
+29.3.1   
+Identiﬁ cation of Objects in the Software Conﬁ
+ guration 
+ 
+To control and manage software conﬁ
+ guration items, each should be separately 
+named and then organized using an object-oriented approach. Two types of ob-
+
+jects can be identiﬁ ed [Cho89]: basic objects and aggregate objects. 
+ 4 
+ 
+ 
+ 
+ A  
+basic ob-ject 
+ is a unit of information that you create during analysis, design, code, or test. 
+For example, a basic object might be a section of a requirements speciﬁ cation, 
+part of a design model, source code for a component, or a suite of test cases that 
+are used to exercise the code. An  aggregate object
+ 
+ is a collection of basic objects and other aggregate objects. For example, a  DesignSpeciﬁ cation
+ 
+ is an aggregate 
+object. Conceptually, it can be viewed as a named (identiﬁ
+ ed) list of pointers that 
+specify aggregate objects such as  ArchitecturalModel 
+ and  
+DataModel, 
+ and   
+basic objects 
+ such as  ComponentN 
+ and  UMLDiagramN 
+.  
+ 
+ 
+ 
+Each object has a set of distinct features that identify it uniquely: a name, a de-scription, a list of resources, and a “realization.” The object name is a character 
+string that identiﬁ es the object unambiguously. The object description is a list of 
+   The interrelationships 
+established for 
+conﬁ guration objects 
+
+allow you to assess the 
+impact of change.  FIGURE 29.4 
+Layers of the SCM process
+SoftwareVm.nReporting
+Version control
+Change controlIdentificationConfiguration auditingSCIs  
+4  The concept of an aggregate object [Gus89] has been proposed as a mechanism for represent-
+ing a complete version of a software conﬁ guration. 
+pre22126_ch29_623-652.indd   633pre22126_ch29_623-652.indd   63313/12/13   6:16 PM13/12/13   6:16 PM

@@ -1,0 +1,28 @@
+˜˜˚˛˜˜˜˜˜˜ˆ˛ˇ˜˜˜5. The weather data summary is computed and returned to WeatherStation via the Commslink object.6. WeatherStation then calls the SatComms object to transmit the summarized data 
+to the weather information system, through the satellite communications system.The 
+SatComms and 
+WeatherStation objects may be implemented as concurrent 
+processes, whose execution can be suspended and resumed. The 
+SatComms object 
+instance listens for messages from the external system, decodes these messages, and initiates weather station operations.Sequence diagrams are used to model the combined behavior of a group of objects, 
+but you may also want to summarize the behavior of an object or a subsystem in response 
+
+to messages and events. To do this, you can use a state machine model that shows how 
+
+the object instance changes state depending on the messages that it receives. As I discuss 
+
+in Chapter 5, the UML includes state diagrams to describe state machine models.Figure 7.
+8 is a state diagram for the weather station system that shows how it 
+responds to requests for various services.You can read this diagram as follows:1.
+ If the system state is Shutdown, then it can respond to a restart(), a reconfigure() 
+or a powerSave() message. The unlabeled arrow with the black blob indicates 
+that the Shutdown state is the initial state. A restart() message causes a transition 
+to normal operation. Both the powerSave() and reconfigure() messages cause a 
+transition to a state in which the system reconfigures itself. The state diagram 
+
+shows that reconfiguration is allowed only if the system has been shut down.transmission doneremoteControl()reportStatus()
+restart()
+shutdown()test completeweather summarycompleteclockcollectiondoneOperationreportWeather()
+ShutdownRunningTesting
+Transmitting
+CollectingSummarizingControlledConfiguringreconfigure()configuration donepowerSave()Figure 7.8 Weather station state diagram

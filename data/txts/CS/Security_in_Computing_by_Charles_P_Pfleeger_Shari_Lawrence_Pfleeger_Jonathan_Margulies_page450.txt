@@ -1,0 +1,38 @@
+416 Chapter 6  
+NetworksA sender creates and sends packet 1, then 2, then 3, and so forth, and the recipi-
+ent returns packets with acknowledgment numbers as packets are received, as shown 
+
+in Figure 6-31. We simplify the explanation slightly by showing only the sequencing 
+
+from the client’s perspective. The client sends its current buffer pointer, and the server 
+
+acknowledges that same pointer. (For the full protocol, each acknowledges the other’s 
+
+last pointer and sends its current pointer accounting for the latest receipt of data.) If 
+
+the client sends a packet with an erroneous sequence and acknowledgement–number 
+
+pair, this disrupts synchronization and the receiver discards packets until receiving one 
+
+that matches the previous acknowledgment number. If they do not resynchronize, they 
+
+terminate and reestablish the session. The protocol is thus self-healing because once the 
+
+two ends resynchronize, they can determine the last successful exchange and retransmit 
+
+from that point forward. 
+00bytes481216
+2024+123Padding
+Data ...IP OptionsChecksumUrgency
+Window
+Acknowledgment Number
+Sequence NumberData Offset, Reserved, Flags
+Sender PortReceiver Port
+FIGURE 6-30 TCP HeaderData (len 5)Seq=10Data (len 20)Seq=15Ack=35Ack=15Receiver
+SenderFIGURE 6-31 Normal TCP Exchange
+The attacker can take advantage of this correction by inserting a packet that maintains 
+synchronization with the receiver but destroys synchronization with the real sender. The 
+
+attacker and the recipient are now resynchronized and continue the exchange begun by 
+
+the original sender. In this way, as shown in Figure 6-32, the attacker has surreptitiously 

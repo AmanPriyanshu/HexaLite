@@ -1,0 +1,26 @@
+130 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+23. What property of a hash function means that collisions are not a security problem? That 
+is, why can an attacker not capitalize on collisions and change the underlying plaintext to 
+
+another form whose value collides with the hash value of the original plaintext?
+24. Does a PKI perform encryption? Explain your answer.
+25. Does a PKI use symmetric or asymmetric encryption? Explain your answer.
+26. Should a PKI be supported on a firewall (meaning that the certificates would be stored on 
+the firewall and the firewall would distribute certificates on demand)? Explain your answer.
+27. Why does a PKI need a means to cancel or invalidate certificates? Why is it not sufficient for 
+the PKI to stop distributing a certificate after it becomes invalid?
+28. Some people think the certificate authority for a PKI should be the government, but others 
+think certificate authorities should be private entities, such as banks, corporations, or schools. 
+
+What are the advantages and disadvantages of each approach?
+29. If you live in country A and receive a certificate signed by a government certificate authority 
+in country B, what conditions would cause you to trust that signature as authentic?
+30. A certificate contains an identity, a public key, and signatures attesting that the public key 
+belongs to the identity. Other fields that may be present include the organization (for exam-
+
+ple, university, company, or government) to which that identity belongs and perhaps subor-
+
+ganizations (college, department, program, branch, office). What security purpose do these 
+
+other fields serve, if any? Explain your answer.

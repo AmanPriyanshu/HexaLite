@@ -1,0 +1,61 @@
+496 Chapter 6  
+Networksdeployed in your organization. Be prepared to have each user spend about a 
+week training to learn to use the SIEM, and expect a temporary decrease in pro-
+
+ductivity while learning to migrate old habits and workflows to the new system.
+The functions of a SOC are like those of an air traffic control center or nuclear reactor 
+control room: Large amounts of data accumulate from a variety of sources. The control 
+
+staff has to use both experience and intuition to ensure that the system runs properly, so 
+
+any technological help to organize and digest the data helps the staff be more effective. 
+
+As long as the system runs properly, monitoring is mostly passive. However, when an 
+
+anomaly occurs, the control staff need plenty of background data to determine what is 
+
+happening and decide what to do next. We explore this active system management role, 
+
+called incident response, in Chapter 10.6.10 CONCLUSION
+In this chapter we have covered many details of network communications and security. 
+
+Some of the material has expanded on previous topics (such as interception and modifi-
+
+cation) in a new context, while some has been unlike topics we have previously explored 
+
+(such as distributed denial-of-service). We have explored technology (WiFi commu-
+
+nications and security protocols, DNS, firewalls, and intrusion detection devices) and 
+
+policy and practice (network management). Network security is extraordinarily impor-
+
+tant in the larger field of computer security, but it builds on many of the building blocks 
+
+we have already established (encryption, identification and authentication, access con-
+
+trol, resilient design, least privilege, trust, threat modeling). Thus, although this chapter 
+
+has presented new terms and concepts, much of the material may seem like reasonable 
+
+extensions and expansions of what you already know.
+As we laid out in Chapter 1, our order of topics in Chapters 2 through 6 has intention-ally been from things closest to the user (programs) to those most remote (networks). 
+
+In the next chapter we take yet one more step away by looking at data and how it is 
+
+collected, aggregated, and analyzed. With networks the user has some control of one 
+
+end of the connection. When we consider data, however, the user gives up data almost 
+
+imperceptibly and has little if any control over how it is used, by whom, and when.
+6.11 EXERCISES
+1. In this chapter we have described sequence numbers between a sender and receiver as a way 
+to protect a communication stream against substitution and replay attacks. Describe a situ-
+
+ation in which an attacker can substitute or replay in spite of sequence numbers. For which 
+
+type of sequence numbering—one general stream of sequence numbers or a separate stream 
+for each pair of communicators—is this attack effective?
+2. Does a gasoline engine have a single point of failure? Does a motorized fire engine? Does a 
+fire department? How does each of the last two compensate for single points of failure in the 
+
+previous one(s)? Explain your answers.

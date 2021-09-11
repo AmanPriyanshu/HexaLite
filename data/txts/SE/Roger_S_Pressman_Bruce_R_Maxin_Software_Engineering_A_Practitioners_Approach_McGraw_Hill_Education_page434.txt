@@ -1,0 +1,102 @@
+404 PART TWO  
+MODELING 
+ 
+ 
+•   
+Third-party SDK integration 
+. Each network or cloud service is likely to require the use of a speciﬁ c API or SDK. It is easier to continue working in 
+the one IDE, rather than several.   
+ 
+ 
+•   
+Post-compilation tools 
+. An effective MIDE contains tools that allow the source code for a completed app to be optimized for a speciﬁ c mobile 
+ device or service.   
+ 
+ 
+•   
+Over-the-air deployment support
+ 
+. A good MIDE should allow the testing of the deployed app within the development environment. This can be tricky 
+when the MobileApp needs to access Web services or other applications. 
+  
+ 
+ 
+•   
+End-to-end mobile application development 
+. Mobile devices are often not powerful enough to process or store large amounts of information locally. 
+
+It is important to allow developers to create, test, and deploy entire mo-
+bile projects using a desktop MIDE.   
+ 
+ 
+•   
+Documentation and tutorials 
+. Even free development tools need to be easy to learn and easy to use. Having adequate support materials is essential.   
+ 
+ 
+•   
+Graphical user interface builders 
+. If the MIDE supports visual construc-tion of user screens, prototypes can be constructed and tested quickly. 
+ 
+ 
+  As we have already noted, it is difﬁ cult to design and implement one 
+ MobileApp that runs seamlessly on multiple platforms. This is especially true for  
+ 
+MobileApp Development Tools 
+ 
+Many of the tools to develop MobileApps for popular devices are available as free down-loads from the World Wide Web: 
+ 22 
+ 
+ 
+   
+ 
+https://developer.apple.com/resources 
+ 
+—Apple’s 
+iOS Dev Center contains tools that can be used to 
+develop apps for the iPod, iPad, and iPhone.   
+ 
+http://developer.android.com/index.html 
+ 
+—This site provides a plug-in to allow Android development 
+using the Eclipse programming environment.   
+ 
+https://developer.blackberry.com/java/
+download/eclipse/  
+—This site provides a plug-in to allow BlackBerry development using the Eclipse 
+
+programming environment.   
+ 
+http://eclipse.org/ 
+ 
+—Download site for the Eclipse Programming Environment.   
+ 
+http://create.msdn.com/en-US/  
+—Microsoft tools to develop Windows Phone apps and Xbox games. 
+  
+ 
+http://www.developer.nokia.com/Develop/
+Java/Tools/Series_40_platform_SDKs/ 
+ 
+—Download site for several Java-based Nokia 
+development tools.   
+ 
+https://developer.palm.com/content/
+resources/  
+—Download site for HP webOS development environment.   
+ 
+http://enyojs.com/  
+—Download site for the Enyo cross platform development environment. 
+  
+ 
+http://www.scirra.com/construct2 
+ 
+—Download site for the Construct2 cross platform game 
+
+development environment.   
+INFO  
+ 
+22  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+pre22126_ch18_391-410.indd   404pre22126_ch18_391-410.indd   40416/12/13   6:23 PM16/12/13   6:23 PM

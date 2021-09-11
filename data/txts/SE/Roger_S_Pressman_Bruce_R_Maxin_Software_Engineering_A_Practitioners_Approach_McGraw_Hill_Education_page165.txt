@@ -1,0 +1,103 @@
+CHAPTER 8  
+UNDERSTANDING REQUIREMENTS
+ 135overcome these problems, you must approach the requirements-gathering activ-ity in an organized manner. 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+Elaboration.   The information obtained from the customer during inception and elicitation is expanded and reﬁ ned during elaboration. This task focuses on de-
+veloping a reﬁ ned requirements model (Chapters 9 through 11) that identiﬁ
+ es 
+various aspects of software function, behavior, and information. 
+ Elaboration is driven by the creation and reﬁ nement of user scenarios that 
+describe how the end user (and other actors) will interact with the system. Each 
+user scenario is parsed to extract analysis classes—business domain entities that 
+are visible to the end user. The attributes of each analysis class are deﬁ
+ ned, and 
+the services  4 
+ 
+ that are required by each class are identiﬁ
+ ed. The relationships 
+and collaboration between classes are identiﬁ ed, and a variety of supplementary 
+diagrams are produced.  
+ 
+ 
+ 
+  
+ 
+ 
+ 
+Negotiation.   It isn’t unusual for customers and users to ask for more than can be achieved, given limited business resources. It’s also relatively common for 
+
+different customers or users to propose conﬂ icting requirements, arguing that 
+their version is “essential for our special needs.”  You have to reconcile these conﬂ
+ icts through a process of negotiation. Cus-
+tomers, users, and other stakeholders are asked to rank requirements and then 
+discuss conﬂ icts in priority. Using an iterative approach that prioritizes require-
+ments, assesses their cost and risk, and addresses internal conﬂ icts, require-
+ments are eliminated, combined, and/or modiﬁ ed so that each party achieves 
+some measure of satisfaction.   
+ 
+Specification.   In the context of computer-based systems (and software), the 
+term  speciﬁ cation
+ 
+ means different things to different people. A speciﬁ
+ cation can 
+be a written document, a set of graphical models, a formal mathematical model, 
+a collection of usage scenarios, a prototype, or any combination of these.  
+ 
+ 
+   
+Some suggest that a “standard template” [Som97] should be developed and used for a speciﬁ cation, arguing that this leads to requirements that are pre-
+sented in a consistent and therefore more understandable manner. However, it is 
+
+sometimes necessary to remain ﬂ exible when a speciﬁ
+ cation is to be developed. 
+For large systems, a written document, combining natural language descrip-
+tions and graphical models may be the best approach. However, usage scenarios 
+
+may be all that are required for smaller products or systems that reside within 
+well-understood technical environments.    Elaboration is a good 
+thing, but you have to 
+
+know when to stop. 
+
+The key is to describe 
+
+the problem in a way 
+
+that establishes a ﬁ rm 
+
+base for design. If you 
+
+work beyond that point, 
+
+you’re doing design. 
+   There should be no 
+
+winner and no loser in 
+an effective negotia-
+tion. Both sides win, 
+because a “deal” that 
+both can live with is 
+solidiﬁ ed. 
+   The formality and for-
+
+mat of a speciﬁ cation 
+
+varies with the size 
+and the complexity 
+of the software to be 
+built.   
+4  A  
+service 
+ manipulates the data encapsulated by the class. The terms  
+operation 
+ and  
+method 
+ are 
+also used. If you are unfamiliar with object-oriented concepts, a basic introduction is presented 
+in Appendix 2. pre22126_ch08_131-165.indd   135pre22126_ch08_131-165.indd   13513/12/13   6:11 PM13/12/13   6:11 PM

@@ -1,0 +1,20 @@
+876 APPENDIX 1  AN INTRODUCTION TO UMLSuch inclusion is indicated in use-case diagrams, as in   Figure A1.6, by means of a 
+dashed arrow labeled «include» connecting a use case with an included use case. 
+  A use-case diagram, because it displays all use cases, is a helpful aid for en-suring that you have covered all the functionality of the system. In our digital 
+music organizer, we would surely want more use cases, such as a use case for 
+playing a song in the library. But keep in mind that the most valuable contribu-
+tion of use cases to the software development process is the textual description 
+of each use case, not the overall use-case diagram [Fow04]. It is through the de-
+scriptions that you are able to form a clear understanding of the goals of the 
+system you are developing.     
+  SEQUENCE DIAGRAMS   In contrast to class diagrams and deployment diagrams, which show the static 
+structure of a software component, a  sequence diagram  is used to show the dy-namic communications between objects during execution of a task. It shows the 
+temporal order in which messages are sent between the objects to accomplish  F
+IGURE A1.5A use-case di-
+agram for the 
+music system   
+UserDownload music file & save to library
+Capture streaming music & save to library
+Burn a list of songs to CD
+Load a list of songs to iPodConvert music file to new format
+Organize the library

@@ -1,0 +1,36 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜through negotiation. Usually, stakeholders have to meet to resolve differences and agree on compromise requirements.4. Requirements documentation The requirements are documented and input into 
+the next round of the spiral. An early draft of the software requirements docu-
+ments may be produced at this stage, or the requirements may simply be main-
+tained informally on whiteboards, wikis, or other shared spaces.Figure 4.
+7 shows that requirements elicitation and analysis is an iterative process with continual feedback from each activity to other activities. The process cycle 
+
+starts with requirements discovery and ends with the requirements documentation. 
+The analyst™s understanding of the requirements improves with each round of the 
+
+cycle. The cycle ends when the requirements document has been produced.To simplify the analysis of requirements, it is helpful to organize and group the stakeholder information. One way of doing so is to consider each stakeholder group 
+
+to be a viewpoint and to collect all requirements from that group into the viewpoint. 
+
+You may also include viewpoints to represent domain requirements and constraints 
+from other systems. Alternatively, you can use a model of the system architecture to 
+identify subsystems and to associate requirements with each subsystem.Inevitably, different stakeholders have different views on the importance and pri-ority of requirements, and sometimes these views are conflicting. If some stakehold-
+ers feel that their views have not been properly considered, then they may deliberately 
+attempt to undermine the RE process. Therefore, it is important that you organize 
+
+regular stakeholder meetings. Stakeholders should have the opportunity to express 
+their concerns and agree on requirements compromises.At the requirements documentation stage, it is important that you use simple lan-guage and diagrams to describe the requirements. This makes it possible for stake-
+holders to understand and comment on these requirements. To make information 
+
+sharing easier, it is best to use a shared document (e.g., on Google Docs or Office 365) 
+
+or a wiki that is accessible to all interested stakeholders.
+
+Requirements elicitation involves meeting with stakeholders of different kinds to 
+
+discover information about the proposed system. You may supplement this information 
+ViewpointsA viewpoint is a way of collecting and organizing a set of requirements from a group of stakeholders who have 
+something in common. Each viewpoint therefore includes a set of system requirements. Viewpoints might come 
+from end-users, managers, or others. They help identify the people who can provide information about their 
+requirements and structure the requirements for analysis.http://www.software-engineering-book.com/web/viewpoints/

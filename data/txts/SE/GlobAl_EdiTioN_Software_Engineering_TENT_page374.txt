@@ -1,0 +1,33 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜The widespread adoption of the Internet in the 1990s introduced a new challenge for 
+software engineersŠdesigning and implementing systems that were secure. As more 
+
+and more systems were connected to the Internet, a variety of different external attacks 
+
+were devised to threaten these systems. The problems of producing  dependable systems 
+were hugely increased. Systems engineers had to consider threats from  malicious and 
+technically skilled attackers as well as problems resulting from  accidental mistakes in 
+the development process.It is now essential to design systems to withstand external attacks and to recover from such attacks. Without security precautions, attackers will inevitably  compromise a networked system. They may misuse the system hardware, steal confidential data, 
+or disrupt the services offered by the system.You have to take three security dimensions into account in secure systems  engineering:1. Confidentiality Information in a system may be disclosed or made accessible to people or programs that are not authorized to have access to that information. 
+
+For example, the theft of credit card data from an e-commerce system is a 
+ confidentiality problem.
+2. Integrity Information in a system may be damaged or corrupted, making it 
+ unusual or unreliable. For example, a worm that deletes data in a system is an 
+
+integrity problem.3. Availability Access to a system or its data that is normally available may not be possible. A denial-of-service attack that overloads a server is an example of a 
+situation where the system availability is compromised.These dimensions are closely related. If an attack makes the system unavailable, then you will not be able to update information that changes with time. This means 
+that the integrity of the system may be compromised. If an attack succeeds and the 
+integrity of the system is compromised, then it may have to be taken down to repair 
+the problem. Therefore, the availability of the system is reduced.From an organizational perspective, security has to be considered at three levels:1. Infrastructure security, which is concerned with maintaining the security of all 
+
+systems and networks that provide an infrastructure and a set of shared services 
+to the organization.2. Application security, which is concerned with the security of individual 
+ application systems or related groups of systems.3. Operational security, which is concerned with the secure operation and use of 
+the organization™s systems.Figure 13.
+1 is a diagram of an application system stack that shows how an 
+ application system relies on an infrastructure of other systems in its operation. The 
+lower levels of the infrastructure are hardware, but the software infrastructure for 
+
+application systems may include:

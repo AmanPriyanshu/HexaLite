@@ -1,0 +1,66 @@
+98 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+to snoop on encrypted data. Much of this controversy has appeared in the open litera-
+ture, but certain DES features have neither been revealed by the designers nor inferred 
+
+by outside analysts.Whitfield Diffie and Martin Hellman [DIF77] argued in 1977 that a 56-bit key is too 
+short. In 1977, it was prohibitive to test all 256 (approximately 10
+15) keys on then cur-
+rent computers. But they argued that over time, computers would become more power-
+
+ful and the DES algorithm would remain unchanged; eventually, the speed of computers 
+
+would exceed the strength of DES. Exactly that happened about 20 years later. In 1997, 
+
+researchers using a network of over 3,500 machines in parallel were able to infer a DES 
+
+key in four months’ work. And in 1998 for approximately $200,000 U.S. researchers 
+
+built a special “DES cracker” machine that could find a DES key in approximately four 
+
+days, a result later improved to a few hours [EFF98].
+Does this mean DES is insecure? No, not exactly. No one has yet shown serious 
+flaws in the DES algorithm itself. The 1997 attack required a great deal of coopera-
+
+tion, and the 1998 machine is rather expensive. But even if conventional DES can be 
+
+attacked, triple DES is still well beyond the power of these attacks. Remember the 
+
+impact of exponential growth: Let us say, for simplicity, that single-key DES can be 
+
+broken in one hour. The simple double-key version could then be broken in two hours. 
+
+But 280/256  224, which is over 16,700,000, meaning it would take 16 million hours, 
+nearly 2,000 years, to defeat a two-key triple DES encryption, and considerably longer 
+
+for the three-key version.
+Nevertheless, the basic structure of DES with its fixed-length 56-bit key and fixed 
+number of iterations makes evident the need for a new, stronger, and more flexible algo-
+
+rithm. In 1995, the NIST began the search for a new, strong encryption algorithm. The 
+
+response to that search has become the Advanced Encryption Standard, or AES.
+AES: Advanced Encryption SystemAfter a public competition and review, NIST selected an algorithm named Rijndael 
+
+as the new advanced encryption system; Rijndael is now known more widely as AES. 
+
+AES was adopted for use by the U.S. government in December 2001 and became Fed-
+
+eral Information Processing Standard 197 [NIS01]. AES is likely to be the commer-
+
+cial-grade symmetric algorithm of choice for years, if not decades. Let us look at it 
+
+more closely.
+Overview of RijndaelRijndael is a fast algorithm that can easily be implemented on simple processors. 
+Although it has a strong mathematical foundation, it primarily uses substitution, trans-
+position, the shift, exclusive OR, and addition operations. Like DES, AES uses repeat 
+
+cycles. 
+There are 10, 12, or 14 cycles for keys of 128, 192, and 256 bits, respectively. In 
+Rijndael, the cycles are called “rounds.” Each round consists of four steps that substitute 
+
+and scramble bits. Bits from the key are frequently combined with intermediate result 
+
+bits, so key bits are also well diffused throughout the result. Furthermore, these four 
+
+steps are extremely fast. The AES algorithm is depicted in Figure 2-22.

@@ -1,0 +1,111 @@
+694 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+31.3.1   
+Software Scope 
+ 
+The ﬁ rst software project management activity is the determination of  
+software 
+scope. 
+ Scope is deﬁ ned by answering the following questions:
+  
+ 
+ 
+ 
+ 
+ 
+ 
+Context. 
+  How does the software to be built ﬁ
+ t into a larger system, prod-
+uct, or business context, and what constraints are imposed as a result of 
+the context?    
+ 
+ 
+ 
+ 
+ 
+Information objectives.   What customer-visible data objects are produced 
+as output from the software? What data objects are required for input?    
+ 
+ 
+ 
+ 
+ 
+Function and performance. 
+  What function does the software perform to 
+transform input data into output? Are any special performance character-
+
+istics to be addressed?  
+ 
+  Software project scope must be unambiguous and understandable at the man-agement and technical levels. A statement of software scope must be bounded. 
+
+That is, quantitative data (e.g., number of simultaneous users, size of mailing list, 
+
+maximum allowable response time) are stated explicitly, constraints and/or lim-
+
+itations (e.g., product cost restricts memory size) are noted, and mitigating factors 
+
+(e.g., desired algorithms are well understood and available in Java) are described. 
+  
+ 
+ 
+31.3.2   
+Problem Decomposition 
+ 
+ 
+ 
+ 
+ 
+ 
+Problem decomposition, sometimes called  partitioning 
+ or  
+problem elaboration,
+ 
+ is 
+8–11). 
+
+During the scoping activity no attempt is made to fully decompose the problem. 
+Rather, decomposition is applied in two major areas: (1) the functionality and 
+
+content (information) that must be delivered and (2) the process that will be used 
+to deliver it.  Human beings tend to apply a divide-and-conquer strategy when they are con-fronted with a complex problem. Stated simply, a complex problem is partitioned 
+
+into smaller problems that are more manageable. This is the strategy that ap-
+plies as project planning begins. Software functions, described in the statement 
+of scope, are evaluated and reﬁ ned to provide more detail prior to the beginning 
+of estimation (Chapter 33). Because both cost and schedule estimates are func-
+tionally oriented, some degree of decomposition is often useful. Similarly, major 
+
+content or data objects are decomposed into their constituent parts, providing 
+a reasonable understanding of the information to be produced by the software.   
+ 
+ 
+ 
+ 
+ 31.4  
+THE PROCESS  
+ 
+The framework activities (Chapter 2) that characterize the software process are applicable to all software projects. The problem is to select the process model 
+that is appropriate for the software to be engineered by your project team.    If you can’t bound a 
+characteristic of the 
+software you intend to 
+build, list the charac-
+teristic as a project risk 
+(Chapter 35).    In order to develop 
+
+a reasonable project 
+plan, you must decom-
+pose the problem. This 
+can be accomplished 
+using a list of functions 
+or with use cases or 
+for agile work, user 
+stories. pre22126_ch31_683-702.indd   694pre22126_ch31_683-702.indd   69413/12/13   6:16 PM13/12/13   6:16 PM

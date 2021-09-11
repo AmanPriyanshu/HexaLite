@@ -1,0 +1,100 @@
+516 PART THREE  
+QUALITY MANAGEMENT 
+   
+ 
+ 
+ 
+ 
+ 
+ 23.7  
+MODEL-BASED TESTING  
+ 
+ 
+Model-based testing 
+ (MBT) is a black-box testing technique that uses informa-
+tion contained in the requirements model as the basis for the generation of test 
+cases [DAC03]. In many cases, the model-based testing technique uses UML state 
+diagrams, an element of the behavioral model (Chapter 11), as the basis for the 
+design of test cases.  7 
+ 
+ The MBT technique requires ﬁ ve steps:
+ 
+ 
+ 
+ 
+ 
+ 1.
+   
+Analyze an existing behavioral model for the software or create one. 
+  Recall that a  behavioral model 
+ indicates how software will respond to external events or stimuli. To create the model, you should perform the 
+
+steps discussed in Chapter 11: (1) evaluate all use cases to fully under-
+
+stand the sequence of interaction within the system, (2) identify events 
+that drive the interaction sequence and understand how these events re-
+late to speciﬁ c objects, (3) create a sequence for each use case, (4) build a 
+UML state diagram for the system (e.g., see Figure 11.1), and (5) review the 
+behavioral model to verify accuracy and consistency. 
+  
+ 
+ 
+ 2.
+   
+Traverse the behavioral model and specify the inputs that will force the 
+software to make the transition from state to state. 
+ The inputs will trigger events that will cause the transition to occur. 
+  
+ 
+ 
+ 3.
+   
+Review the behavioral model and note the expected outputs as the soft-ware makes the transition from state to state. 
+ Recall that each state tran-sition is triggered by an event and that as a consequence of the transition, 
+some function is invoked and outputs are created. For each set of inputs 
+(test cases) you speciﬁ ed in step 2, specify the expected outputs as they 
+are characterized in the behavioral model.   
+ 
+ 
+ 4.
+   
+Execute the test cases. 
+ Tests can be executed manually or a test script can 
+be created and executed using a testing tool.   
+ 
+ 
+ 5.
+   
+Compare actual and expected results and take corrective action as required. 
+ 
+ 
+ 
+  MBT helps to uncover errors in software behavior, and as a consequence, it is 
+extremely useful when testing event-driven applications.   
+ 
+ 
+ 
+ 23.8  
+TESTING DOCUMENTATION
+ AND HELP FACILITIES  
+ 
+The term  software testing
+ 
+ conjures images of large numbers of test cases pre-
+pared to exercise computer programs and the data that they manipulate. But 
+errors in help facilities or program documentation can be as devastating to the 
+acceptance of the program as errors in data or source code. Nothing is more   
+ 
+ uote:  “It's hard enough 
+to ﬁ nd an error in 
+
+your code when 
+you're looking for 
+it; it's even harder 
+when you've 
+assumed your code 
+is error-free.” 
+ Steve McConnell 
+  
+7  Model-based testing can also be used when software requirements are represented with 
+decision tables, grammars, or Markov chains [DAC03]. pre22126_ch23_496-522.indd   516pre22126_ch23_496-522.indd   51613/12/13   6:14 PM13/12/13   6:14 PM

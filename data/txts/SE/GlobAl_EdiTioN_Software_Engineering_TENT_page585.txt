@@ -1,0 +1,28 @@
+˜˜˚˛˝˜˜˜˜˜˜
+As systems grow in size, they need more complex production and management pro-cesses. Complex processes are themselves complex systems. They are difficult to under
+-stand and may have undesirable emergent properties. They are more time consuming 
+
+than simpler processes, and they require more documentation and coordination between 
+
+the people and the organizations involved in the system development. The complexity of 
+
+the production process is one of the main reasons why projects go wrong, with software 
+
+delivered late and overbudget. Therefore, large systems are always at risk of cost and 
+
+time overruns.Complexity is important for software engineering because it is the main influence 
+on the understandability and the changeability of a system. The more complex a sys-
+tem, the more difficult it is to understand and analyze. Given that complexity is a func-
+tion of the number of relationships between elements of a system, it is inevitable that 
+
+large systems are more complex than small systems. As complexity increases, there 
+
+are more and more relationships between elements of the system and an increased 
+
+likelihood that changing one part of a system will have undesirable effects elsewhere.Several different types of complexity are relevant to sociotechnical systems:1. The technical complexity
+ of the system is derived from the relationships between 
+the different components of the system itself.2. The managerial complexity of the system is derived from the complexity of the relationships between the system and its managers (i.e., what can managers 
+
+change in the system) and the relationships between the managers of different 
+parts of the system.Production processManagement processComplex systemProducesManagesFigure 20.2 Production and management 
+processes 

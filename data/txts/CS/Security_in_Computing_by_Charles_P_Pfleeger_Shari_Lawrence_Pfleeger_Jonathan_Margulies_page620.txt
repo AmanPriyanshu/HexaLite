@@ -1,0 +1,50 @@
+586In this chapter:•  Privacy as an aspect of security; confidentiality
+•  Authentication effects on privacy
+
+•  Privacy and the Internet
+Computers did not invent or even cause privacy issues; we had those long before 
+
+computers and probably even before written language. But computers’ high-
+
+speed processing and data storage and transmission capabilities made possible both the data collection and correlation that affect privacy. Because privacy is part of 
+
+confidentiality, it is an aspect of computer security.
+Privacy is a human right, although people can legitimately disagree over when or 
+to what extent privacy is deserved; this disagreement may have cultural, historical, or 
+
+personal roots. Laws and ethics, which we study in Chapter 12, can set the baseline for 
+
+and enforce expectations of privacy. And economics, which we address in Chapter 13, 
+
+can determine how much privacy we are able or willing to provide. But at its root, the 
+
+right to privacy depends on the situation in which privacy is desired, the ownership 
+
+and persistence of data, and the legal rights and responsibilities of the affected parties. 
+
+Moreover, just as confidentiality, integrity, and availability can conflict, so too can pri-
+
+vacy and other aspects of security. We don’t take a position on when a right to privacy 
+
+should be enforceable, because that is outside the scope of this book. You might charac-
+
+terize the presentation of this chapter this way: “Assuming a particular right to privacy 
+
+exists, what are its implications in computing and information technology?” As citizens, 
+
+we help our policy-makers decide the contours of privacy rights; as computer security 
+
+experts, we design and implement those decisions in computer systems.
+Because privacy as a topic is broader than its implications for security, we restrict 
+ourselves in this chapter only to those privacy issues inextricably linked to computer 
+
+security. Thus, in this chapter we look at the meaning of information privacy. We revisit 
+
+identification and authentication, two familiar aspects of computing that have signifi-
+
+cant privacy implications. We study how privacy relates to the Internet, specifically in 
+
+email and web access. Finally, we investigate some emerging computer-based technolo-
+
+gies for which privacy is important.
+9Privacy

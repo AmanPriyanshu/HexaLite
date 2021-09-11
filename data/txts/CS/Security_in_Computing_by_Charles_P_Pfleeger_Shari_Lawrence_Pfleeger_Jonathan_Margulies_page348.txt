@@ -1,0 +1,77 @@
+314 Chapter 5  
+Operating Systemssubjects and what objects they are allowed to access. These other security parts interact 
+with the reference monitor, receiving data from the reference monitor or providing it 
+
+with the data it needs to operate.The reference monitor concept has been used for many trusted operating systems and 
+also for smaller pieces of trusted software. The validity of this concept is well supported 
+
+both in research and in practice. Paul Karger [KAR90, KAR91] and Morrie Gasser 
+
+[GAS88] describe the design and construction of the kernelized DEC VAX operating 
+
+system that adhered strictly to use of a reference monitor to control access.Correctness and Completeness
+That security considerations pervade the design and structure of operating systems 
+
+requires correctness and completeness. Correctness
+ implies that because an operating 
+system controls the interaction between subjects and objects, security must be consid-
+
+ered in every aspect of its design. That is, the operating system design must include 
+
+definitions of which objects will be protected in what ways, what subjects will have 
+
+access and at what levels, and so on. There must be a clear mapping from the security 
+
+requirements to the design so that all developers can see how the two relate.
+Moreover, after designers have structured a section of the operating system, they 
+must check to see that the design actually implements the degree of security that it 
+
+is supposed to enforce. This checking can be done in many ways, including formal 
+
+reviews or simulations. Again, a mapping is necessary, this time from the requirements 
+
+to design to tests, so that developers can affirm that each aspect of operating system 
+
+security has been tested and shown to work correctly. Because security appears in every 
+
+part of an operating system, security design and implementation cannot be left fuzzy or 
+vague until the rest of the system is working and being tested.
+Completeness requires that security functionality be included in all places necessary. 
+Although this requirement seems self-evident, not all developers are necessarily think-
+
+ing of security as they design and write code, so security completeness is challenging. 
+
+It is extremely hard to retrofit secu-
+
+rity features to an operating system 
+designed with inadequate security. 
+
+Leaving an operating system’s secu-
+
+rity to the last minute is much like 
+
+trying to install plumbing or electrical wiring in a house whose foundation is set, floors 
+
+laid, and walls already up and painted; not only must you destroy most of what you have 
+
+built, but you may also find that the general structure can no longer accommodate all that 
+
+is needed (and so some has to be left out or compromised). And last-minute additions are 
+
+often done hastily under time pressure, which does not encourage completeness.Thus, security must be an essen-
+tial part of the initial design of a 
+
+trusted operating system. Indeed, 
+
+the security considerations may 
+
+shape many of the other design 
+
+decisions, especially for a system 
+Security enforcement must be correct 
+
+and complete.Security seldom succeeds as an add-
+on; it must be part of the initial 
+philosophy, requirements, design, and 
+
+implementation.

@@ -1,0 +1,36 @@
+˜˜˚˛ˆ˜˜˜
+˜˜
+stages of a project. Nevertheless, organizations need to make software effort and cost 
+estimates. Two types of techniques can be used for making estimates:1. Experience-based techniques The estimate of future effort requirements is based on the manager™s experience of past projects and the application domain. 
+
+Essentially, the manager makes an informed judgment of what the effort require-
+ments are likely to be.2. Algorithmic cost modeling In this approach, a formulaic approach is used to 
+
+compute the project effort based on estimates of product attributes, such as size, 
+process characteristics, and experience of staff involved.In both cases, you need to use your judgment to estimate either the effort directly or the project and product characteristics. In the startup phase of a project, these 
+
+estimates have a wide margin of error. Based on data collected from a large number 
+of projects, Boehm et al. (B. Boehm et al. 1995) discovered that startup estimates 
+
+vary significantly. If the initial estimate of effort required is 
+x months of effort, they 
+
+found that the range may be from 0.25x to 4x of the actual effort as measured when 
+the system was delivered. During development planning, estimates become more 
+
+and more accurate as the project progresses (Figure 23.9).Experience-based techniques rely on the manager™s experience of past projects 
+and the actual effort expended in these projects on activities that are related to soft-
+ware development. Typically, you identify the deliverables to be produced in a pro-
+ject and the different software components or systems that are to be developed. You 
+
+document these in a spreadsheet, estimate them individually, and compute the total 
+
+effort required. It usually helps to get a group of people involved in the effort esti-
+mation and to ask each member of the group to explain their estimate. This often 
+
+reveals factors that others have not considered, and you then iterate toward an 
+
+agreed group estimate.x2x4x0.5x0.25
+xFeasibilityRequirements
+DesignCode
+DeliveryFigure 23.9 Estimate uncertainty

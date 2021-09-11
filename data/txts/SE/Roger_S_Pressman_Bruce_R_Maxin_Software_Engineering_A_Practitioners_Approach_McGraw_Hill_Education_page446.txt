@@ -1,0 +1,57 @@
+416 PART THREE  
+QUALITY MANAGEMENTdesign and coding conventions? For example, does the user interface con-form to accepted design rules for menu selection or data input?   
+Durability.
+ 
+ Can the software be maintained (changed) or corrected  (debugged) without the inadvertent generation of unintended side effects? Will changes cause the error rate or reliability to degrade with time? 
+  
+Serviceability.
+ 
+ Can the software be maintained (changed) or corrected (debugged) in an acceptably short time period? Can support staff acquire 
+all information they need to make changes or correct defects? Douglas 
+Adams [Ada93] makes a wry comment that seems appropriate here: “The 
+difference between something that can go wrong and something that can’t 
+possibly go wrong is that when something that can’t possibly go wrong 
+goes wrong it usually turns out to be impossible to get at or repair.” 
+  
+Aesthetics. 
+ There’s no question that each of us has a different and very 
+subjective vision of what is aesthetic. And yet, most of us would agree that 
+an aesthetic entity has a certain elegance, a unique ﬂ ow, and an obvious 
+“presence” that are hard to quantify but are evident nonetheless. Aes-
+thetic software has these characteristics.   
+Perception. 
+ In some situations, you have a set of prejudices that will in-ﬂ uence your perception of quality. For example, if you are introduced 
+to a software product that was built by a vendor who has produced poor 
+quality in the past, your guard will be raised and your perception of the 
+current software product quality might be inﬂ uenced negatively. Similarly, 
+if a vendor has an excellent reputation, you may perceive quality, even 
+
+when it does not really exist.  Garvin’s quality dimensions provide you with a “soft” look at software quality. 
+Many (but not all) of these dimensions can only be considered subjectively. For 
+
+this reason, you also need a set of “hard” quality factors that can be categorized 
+in two broad groups: (1) factors that can be directly measured (e.g., defects un-
+covered during testing) and (2) factors that can be measured only indirectly (e.g., 
+usability or maintainability). In each case measurement must occur. You should 
+
+compare the software to some datum and arrive at an indication of quality. 
+  
+ 
+ 
+19.2.2   
+McCall’s Quality Factors  
+McCall, Richards, and Walters [McC77] propose a useful categorization of factors 
+that affect software quality. These software quality factors, shown in  
+Figure 19.1 , focus on three important aspects of a software product: its operational charac-
+teristics, its ability to undergo change, and its adaptability to new environments.   
+Referring to the factors noted in  Figure 19.1 , McCall and his colleagues pro-vide the following descriptions:  
+ 
+ 
+Correctness.
+ 
+ The extent to which a program satisﬁ
+ es its speciﬁ
+ cation and fulﬁ
+ lls the 
+customer’s mission objectives. 
+pre22126_ch19_411-430.indd   416pre22126_ch19_411-430.indd   41613/12/13   6:13 PM13/12/13   6:13 PM

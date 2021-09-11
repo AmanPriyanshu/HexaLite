@@ -1,0 +1,108 @@
+CHAPTER 27  
+SECURITY ENGINEERING 595 
+ 
+ 
+ 
+ 
+ 
+ 
+ 27.6  
+THE ROLE OF CONVENTIONAL SOFTWARE
+ ENGINEERING ACTIVITIES  
+ 
+ 
+Building a system and making it secure  after the fact 
+ is highly inefﬁ cient and prone 
+to failure. Yet, some software developers argue t
+hat threats to a system cannot be predicted until it is built. As a consequence, they ignore security issues until the 
+testing phase and then ”back-ﬁ ll” to eliminate security mistakes that were made 
+earlier in the software process. Adding security patches to an existing system in 
+an ad hoc manner may not be possible without major changes to the design or 
+architecture of the system. Hence, the back-ﬁ ll approach is both inefﬁ
+ cient and 
+costly. 
+ The nature of an iterative and incremental process (Chapter 4) makes it dif-ﬁ cult to address all security concerns before doing any development work. Soft-
+ware requirements often change during the development process. In addition, 
+architectural design decisions can have a direct impact on security concerns. 
+For these reasons, it is difﬁ cult to address all security issues at the beginning of 
+a project. Even when the majority of security concerns are addressed up front,   uote:  In a world in 
+which the total of 
+human knowledge 
+is doubling about 
+every 10 years, 
+
+our security can 
+rest only on our 
+ability to learn.  Nathaniel 
+Branden   
+ 
+Security Steps    
+ 
+Security Steps   
+ 
+The scene:  Software quality assur-
+ance group workspace.   
+The players:  Jamie Lazar, software team member; 
+Vinod Raman, software team member; Bridget Thornton, 
+
+software quality group leader. 
+  
+The conversation:    
+Vinod:  Hi Bridget. Doug wants us to work on security 
+risk analysis.   
+Bridget:  Is this to help set the security priorities for 
+development?   
+Jamie:  I think so. 
+  
+Vinod:  Can we look at database security concerns? 
+  
+Bridget:  Sure. We know what the costs are to back 
+up and repair the data records using historical data. 
+We may not know the liability damages that might be 
+
+awarded if customer data is stolen, but we have indus-
+try data on those costs. 
+  
+Jamie:  Is that all we need? 
+  
+Bridget:  Well, you already have the system archi-
+tectural diagrams. It’s easier to verify that all data ex-
+
+changed among the components have been validated. 
+We’ll also need to determine the threats to each asset. 
+  
+Vinod:  How do we do that? 
+  
+Bridget:  We might create an attack tree. We would 
+start by setting an attack goal at the root. For exam-
+
+ple, an attacker’s goal might be to steal customer 
+
+information. 
+  
+Vinod: 
+  
+Bridget:  You then look at your database attack pattern 
+catalog to see which apply and list each as subgoals in 
+the tree.   
+Jamie:  Then what? 
+  
+Bridget:  You need to reﬁ
+ ne the threats and create 
+risk information sheets for each, describing impact of 
+
+the threat and any monitoring or mitigation steps that 
+should be in place to address it.   
+Vinod:  How does this help set development priorities? 
+  
+Bridget:  You determine the cost of each threat by com-
+puting the annual loss expectancy (ALE) for each threat 
+using historical data. We can help you with that part of 
+
+the process.   
+Jamie:  Thanks, Bridget. We’ll be back to get your 
+input on that ALE computation once we have the threats 
+identiﬁ ed and reﬁ
+ ned. 
+  
+SAFEHOME pre22126_ch27_584-600.indd   595pre22126_ch27_584-600.indd   59516/12/13   6:23 PM16/12/13   6:23 PM

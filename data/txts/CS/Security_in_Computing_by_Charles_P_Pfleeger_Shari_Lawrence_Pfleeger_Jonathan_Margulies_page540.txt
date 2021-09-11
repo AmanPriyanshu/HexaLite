@@ -1,0 +1,48 @@
+506 Chapter 7  
+DatabasesAdvantages of Using DatabasesThe logical idea behind a database is this: A database is a single collection of data, 
+stored and maintained at one central location, to which many people have access as 
+
+needed. However, the actual implementation may involve some other physical storage 
+
+arrangement or access. The essence of a good database is that the users are unaware of 
+
+the physical arrangements; the unified logical arrangement is all they see. As a result, a 
+
+database offers many advantages over a simple file system:
+• shared access, 
+so that many users can use one common, centralized set of data
+• controlled access, 
+so that only authorized users are allowed to view or to modify 
+data values
+• minimal redundancy, 
+so that individual users do not have to collect and maintain 
+their own sets of data
+• data consistency, 
+so that a change to a data value affects all users of the 
+data value
+• data integrity, 
+so that data values are protected against accidental or malicious 
+undesirable changesYou should notice many familiar security concepts in this list. Although security 
+is only one of several motivations 
+
+for using a database, some users 
+
+appreciate having a degree of secure 
+
+access.A DBMS is designed to provide 
+these advantages efficiently. However, as often happens, the objectives can conflict with 
+
+each other. In particular, as we shall see, security interests can conflict with perfor-
+
+mance. This clash is not surprising, because measures taken to enforce security often 
+FIGURE 7-2 Result of a Select–Project–Join QueryBENCHLY
+ADAMS
+CARTER
+4321060603
+43210BENCHLY
+ADAMS
+CARTER
+CMHORDCMH606034321020015CMHORD
+CMH1.  Project NAME-ZIP2.  Join on ZIP3.  Project ZIP-AIRPORT
+4.  ResultDatabases support controlled, shared 
+access to a single repository of data.

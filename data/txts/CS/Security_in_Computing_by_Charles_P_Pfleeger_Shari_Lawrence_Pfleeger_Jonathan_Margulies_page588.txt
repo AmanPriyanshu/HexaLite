@@ -1,0 +1,71 @@
+554 Chapter 8  
+Cloud Computing2. Determine vulnerabilities
+. When considering cloud services, be sure to consider cloud-specific vulnerabilities. These will generally stem from having to access 
+
+the system through an Internet connection, sharing hardware and networks with 
+
+potential adversaries, and trusting a cloud provider. Be sure to consider the flip-
+
+side as well: Not moving to the cloud may mean decreased availability, lower-
+
+quality staff that administers systems, and worse patch management.
+3. Estimate likelihood of exploitation.
+ Many vulnerabilities will be either more 
+or less difficult to exploit in a cloud environment, as well as across different 
+
+cloud service models and providers. Be sure to consider these differences when 
+
+weighing your options.4. Compute expected loss
+. Your expected loss will depend on a variety of factors, 
+including the consequences of successful attacks and your ability to respond 
+
+to attacks. Consider how the move to the cloud might influence those factors: 
+
+Will a typical cloud provider be able to respond to the attack better than your 
+
+company could? In the case of DDoS, for instance, there’s a good chance the 
+
+answer is yes.5. Survey and select new controls
+. What matters most in this step is determining 
+what controls the cloud service would need to have in place for your risk to be 
+
+adequately managed. These may also be controls that you put in place to aug-
+
+ment a cloud offering. Do your data need to be encrypted? What logging capa-
+
+bilities will you need from the cloud provider? What about authentication and 
+
+access control options?6. Project savings
+. A move to cloud services is often justified by cost savings, but 
+sometimes those savings don’t materialize. A company might estimate that they 
+
+will save $1M per year on data center costs, but not realize that side effects of 
+
+the migration will cost them $1.5M in new security controls. When weighing 
+
+your options, try to understand all the costs you can expect to incur.
+Whether you are for or against moving to a cloud service, a thorough risk analysis 
+will help you carefully consider all options and make a sound, thoughtful argument. Too 
+
+many companies and government agencies have wasted large sums of money or, worse, 
+
+experienced catastrophic security 
+
+breaches because they could not 
+
+find time for this exercise.
+Cloud Provider Assessment
+Assessing cloud providers is a two-step task: The first step is determining your cloud 
+
+service needs. From a security standpoint, most of your needs will derive directly from 
+
+the risk analysis we discussed in the previous section. The risk analysis results in a list 
+
+of necessary security controls, and those controls will make up the bulk of your cloud 
+
+provider security requirements. While many of the security controls you will need will 
+
+be specific to your system, here are a few categories that commonly appear:
+• Authentication, authorization, and access control options
+• Encryption capabilities
+Moving to a cloud model entails risks that must be accounted for.

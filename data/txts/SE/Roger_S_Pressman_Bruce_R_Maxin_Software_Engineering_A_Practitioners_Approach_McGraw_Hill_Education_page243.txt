@@ -1,0 +1,63 @@
+CHAPTER 11  
+REQUIREMENTS MODELING: BEHAVIOR, PATTERNS, AND WEB/MOBILE APPS
+ 213 
+ 
+ 
+•  When the  ComputingComponent 
+ needs to set the value of an actuator, it 
+sends the value to the actuator. 
+  
+ 
+ 
+•  The  ComputingComponent 
+ can query and set the operation state of the sensors and actuators using the appropriate methods. If an operation 
+state is found to be zero, then the error is sent to the  FaultHandler 
+, a class that contains methods for handling error messages, such as starting a 
+more elaborate recovery mechanism or a backup device. If no recovery is 
+possible, then the system can only use the last known value for the sensor 
+or the default value.   
+ 
+ 
+•  The  ActiveSensors 
+ offer methods to add or remove the addresses or address ranges of the components that want to receive the messages in 
+case of a value change.  
+ 
+  
+ 
+ 
+Consequences   
+ 
+ 
+ 1.
+  Sensor and actuator classes have a common interface.   
+ 
+ 
+ 2.
+  Class attributes can only be accessed through messages, and the class decides whether or not to accept the message. For example, if a value of 
+an actuator is set above a maximum value, then the actuator class may not 
+accept the message, or it might use a default maximum value.   
+ 
+ 
+ 3.
+  The complexity of the system is potentially reduced because of the unifor-
+mity of interfaces for actuators and sensors.    
+The requirements pattern description might also provide references to other related requirements and design patterns.   
+ 
+ 
+ 
+ 
+ 11.5 R
+EQUIREMENTS MODELING FOR WEB AND MOBILE APPS 7   
+ 
+ 
+Developers of Web and mobile applications are often skeptical when the idea 
+of requirements analysis is suggested. “After all,” they argue, “our development 
+process must be agile, and analysis is time consuming. It’ll slow us down just 
+when we need to be designing and building the application.”  Requirements analysis does take time, but solving the wrong problem takes even more time. The question for every WebApp and mobile developer is 
+
+simple—are you sure you understand the requirements of the problem or prod-
+uct? If the answer is an unequivocal yes, then it may be possible to skip require-
+ments modeling, but if the answer is no, then requirements modeling should be 
+performed.   
+7  Portions of this section has been adapted from Pressman and Lowe [Pre08] with permission. 
+pre22126_ch11_202-223.indd   213pre22126_ch11_202-223.indd   21313/12/13   6:12 PM13/12/13   6:12 PM

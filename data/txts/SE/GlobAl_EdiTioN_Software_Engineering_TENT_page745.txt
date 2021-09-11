@@ -1,0 +1,54 @@
+˜˜˚˛˙˜˜˜˜˜˜
+2. Source code checksums The signature on the source code file is a checksum calcu-lated from data in the file. A checksum function calculates a unique number using 
+
+the source text as input. If you change the source code (even by one character), this 
+
+will generate a different checksum. You can therefore be confident that source code 
+
+files with different checksums are actually different. The checksum is assigned to 
+
+the source code just before compilation and uniquely identifies the source file. The 
+
+build system then tags the generated object code file with the checksum signature. 
+
+If there is no object code file with the same signature as the source code file to be 
+
+included in a system, then recompilation of the source code is necessary.As object code files are not normally versioned, the first approach means that only 
+the most recently compiled object code file is maintained in the system. This is nor-
+mally related to the source code file by name; that is, it has the same name as the 
+
+source code file but with a different suffix. Therefore, the source file Comp.Java may 
+
+generate the object file Comp.class. Because source and object files are linked by 
+
+name, it is not usually possible to build different versions of a source code component 
+
+into the same directory at the same time. The compiler would generate object files 
+
+with the same name, so only the most recently compiled version would be available.The checksum approach has the advantage of allowing many different versions of the object code of a component to be maintained at the same time. The signature 
+
+rather than the filename is the link between source and object code. The source code 
+and object code files have the same signature. Therefore, when you recompile a 
+
+component, it does not overwrite the object code, as would normally be the case 
+
+when the timestamp is used. Rather, it generates a new object code file and tags it 
+with the source code signature. Parallel compilation is possible, and different ver
+-
+sions of a component may be compiled at the same time.Change is a fact of life for large software systems. Organizational needs and require-
+ments change during the lifetime of a system, bugs have to be repaired, and systems 
+
+have to adapt to changes in their environment. To ensure that the changes are applied 
+Comp.java(V1.0)165831
+02142014Timestamp
+Comp.java(V1.1)Comp.class170305021
+4201416584302
+142014Timestamp
+Timestamp
+CompileComp.java(V1.0)Comp.class243745
+09887231
+24374509887231ChecksumChecksumComp.java(V1.1)Comp.class37650812555734
+3765081255573
+4ChecksumChecksumCompileCompileTime-based identification
+Checksum-based identificationFigure 25.13 Linking source and object  
+code

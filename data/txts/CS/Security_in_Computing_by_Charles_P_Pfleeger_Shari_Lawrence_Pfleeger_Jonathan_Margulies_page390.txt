@@ -1,0 +1,78 @@
+356 Chapter 6  
+NetworksAt the Black Hat security conference in February 2010, IBM security 
+researcher Tom Cross presented a paper in which he revealed technical 
+
+and procedural issues with Cisco’s routers that affect lawful interception. 
+
+Cisco routers have been vulnerable to a security flaw first announced in 
+
+2008: The flaw could allow unauthenticated access to a router. Even though 
+
+a patch has been released, not all telecommunications networks’ routers 
+
+have been updated. Furthermore, Cross said the Cisco equipment does 
+
+not track failed login attempts or notify an administrator, leaving the devices 
+
+vulnerable to automated password-guessing attacks, and no audit is gen-
+
+erated of the use of the intercept function.
+As it is, an ISP employee could potentially monitor installed lawful 
+intercept wiretaps and alert the subjects that they are under surveillance, 
+
+according to Cross [GRE10]. Similarly, an employee could establish an 
+
+unauthorized interception against any customer, and the ISP would have no 
+
+audit trail by which to detect the intercept.
+Cross pointed out that Cisco is the only major hardware vendor to 
+release for public scrutiny its product designs for the lawful intercept func-
+
+tion; he then said that because other companies have not publicized their 
+designs, nobody can be sure whether their products are secure.
+The vulnerability in this sidebar is phrased tentatively: “could poten-
+tially . . .” and “could establish . . .” That word choice indicates we do not 
+know if the Cisco equipment has been compromised in that manner. 
+However, equipment of Vodafone Greece, another telecommunica-
+tions provider, 
+was compromised with a similar attack, involving commu-
+nications of high-ranking Greek officials, as reported by Vassilis Pervalakis 
+
+and Diomidis Spinellis [PRE07].Vodafone uses equipment manufactured by 
+
+Ericsson, a Swedish manufacturer. Understandably, Ericsson wants to man-
+
+ufacture one hardware and software model that it can sell in many markets, 
+
+so it includes code to implement lawful intercept but deactivates the code 
+
+for a customer that does not buy that package. Vodafone did not obtain that 
+
+add-on. In 2003, Ericsson upgraded the software and inadvertently acti-
+
+vated the intercept code in the version delivered to Vodafone. Although the 
+
+code was there, it did not appear on the user-level interface, so Vodafone 
+
+employees had no way to access it, much less know they had it. This situ-
+ation is a perfect example of the trapdoor described in Chapter 3, with all 
+the warnings we raised there, as well. And in that same chapter we argued 
+
+against security through obscurity—hoping that nobody would find some-
+
+thing if you just don’t publicize it.
+Unknown agents installed a patch in the Ericsson switch software that 
+activated the dormant interception code. Furthermore, the agents did so 
+
+in a way that did not generate an audit log, even though interception and 
+
+copying of a call usually creates an audit entry for law enforcement records. 
+
+This code modification was carefully crafted to be undiscovered.
+With this code, unknown outsiders were able to listen in on all mobile 
+phone conversations of about 100 political officials, including the prime 
+
+minister, his wife, and several cabinet ministers.
+The scheme finally came to light in 2004 only when Ericsson distrib-
+uted another software patch; because of interaction with the rogue software, 
+SIDEBAR 6-3 Continued

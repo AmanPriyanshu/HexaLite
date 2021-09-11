@@ -1,0 +1,73 @@
+ Section 3.3  Countermeasures 
+225  Unfortunately, far too often the attempted proof instead became a process for gener-
+ating counterexamples, in which not just one but several serious security problems were 
+
+uncovered. The problem discovery in turn led to a rapid effort to “patch” the system to 
+
+repair or restore the security. However, the patch efforts were largely useless, generally 
+
+making the system less secure, rather than more, because they frequently introduced 
+new faults even as they tried to correct old ones. (For more discussion on the futility of 
+
+penetrating and patching, see Roger Schell’s analysis in [SCH79].) There are at least 
+
+four reasons why penetrate-and-patch is a misguided strategy.
+• The pressure to repair a specific problem encourages developers to take a nar-
+row focus on the fault itself and not on its context. In particular, the analysts 
+
+often pay attention to the immediate cause of the failure and not to the underly-
+
+ing design or requirements faults.
+• The fault often has nonobvious side effects in places other than the immediate 
+area of the fault. For example, the faulty code might have created and never 
+
+released a buffer that was then used by unrelated code elsewhere. The corrected 
+
+version releases that buffer. However, code elsewhere now fails because it needs 
+
+the buffer left around by the faulty code, but the buffer is no longer present in 
+
+the corrected version.
+• Fixing one problem often causes a failure somewhere else. The patch may have 
+addressed the problem in only one place, not in other related places. Routine 
+
+A is called by B, C, and D, but the maintenance developer knows only of the 
+
+failure when B calls A. The problem appears to be in that interface, so the devel-
+
+oper patches B and A to fix the issue, tests, B, A, and B and A together with 
+
+inputs that invoke the B–A interaction. All appear to work. Only much later does 
+
+another failure surface, that is traced to the C–A interface. A different program-
+
+mer, unaware of B and D, addresses the problem in the C–A interface that, not 
+
+surprisingly generates latent faults. In maintenance, few people see the big pic-
+
+ture, especially not when working under time pressure.
+• The fault cannot be fixed 
+properly because system 
+
+functionality or performance 
+would suffer as a conse-
+
+quence. Only some instances 
+of the fault may be fixed or 
+
+the damage may be reduced 
+
+but not prevented.
+In some people’s minds penetration testers are geniuses who can find flaws mere 
+mortals cannot see; therefore, if code passes review by such a genius, it must be per-
+
+fect. Good testers certainly have a depth and breadth of experience that lets them think 
+
+quickly of potential weaknesses, such as similar flaws they have seen before. This wis-
+
+dom of experience—useful as it is—is no guarantee of correctness.
+Penetrate-and-patch fails because it is 
+hurried, misses the context of the fault, 
+and focuses on one failure, not the 
+
+complete system.

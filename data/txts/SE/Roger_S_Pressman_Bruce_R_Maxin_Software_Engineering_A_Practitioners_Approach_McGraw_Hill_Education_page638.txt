@@ -1,0 +1,141 @@
+608 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+28.3.1   
+Design Reﬁ nement 
+ 
+Each clear-box speciﬁ
+ cation represents the design of a procedure (subfunction) 
+required to accomplish a state-box transition. Within the clear box, structured 
+
+programming constructs and stepwise reﬁ nement are used to represent pro-
+cedural detail. For example, a program function  f 
+ is reﬁ
+ ned into a sequence of 
+subfunctions  g 
+ and  
+h. 
+ These in turn are reﬁ
+ ned into conditional constructs (e.g., 
+if-then-else and do-while). Further reﬁ nement continues until there is enough 
+procedural detail to create the component in question.   
+ 
+At each level of reﬁ nement, the cleanroom team 
+ 1 
+ 
+ performs a  
+formal correct-
+ness veriﬁ cation.
+ 
+ To accomplish this, a set of generic correctness conditions are 
+attached to the structured programming constructs. If a function  f 
+ is expanded 
+into a sequence  g 
+ and  h, 
+ the correctness condition for all input to  f 
+ is 
+ 
+ 
+ 
+ 
+•   
+Does   g 
+  followed by   h 
+  do   f 
+ 
+  ? 
+ 
+   
+ 
+When a function  p 
+ is reﬁ
+ ned into a conditional of the form, if < 
+c 
+> then  q 
+, else  r 
+, the correctness condition for all input to  p 
+ is 
+ 
+ 
+ 
+•   
+Whenever condition  < c 
+>  is true, does   q 
+  do   p 
+;  and whenever  < c 
+>  is false, does   r 
+  do   
+p 
+ 
+?  
+ 
+ 
+  When function  m 
+ is reﬁ
+ ned as a loop, the correctness conditions for all input to 
+ m 
+ are 
+ 
+ 
+ 
+•   
+Is termination guaranteed?  
+  
+ 
+ 
+•   
+Whenever  < c 
+>  is true, does   n 
+  followed by   m 
+  do   m 
+;  and whenever  < c 
+>  is false, does skipping the loop still do   m 
+ 
+?  
+ 
+ 
+  Each time a clear box is reﬁ ned to the next level of detail, these correctness con-
+ditions are applied.   
+ 
+ 
+28.3.2   
+Design Veriﬁ
+ cation 
+ 
+You should note that the use of the structured programming constructs con-
+strains the number of correctness tests that must be conducted. A single con-
+dition is checked for sequences; two conditions are tested for if-then-else, and 
+three conditions are veriﬁ ed for loops. 
+ To illustrate correctness veriﬁ
+ cation for a procedural design, we use a simple 
+example ﬁ rst introduced by Linger, Mills, and Witt [Lin79]. The intent is to de-
+sign and verify a small program that ﬁ nds the integer part  
+y 
+ of a square root of 
+a given integer  x. 
+ The procedural design is represented using the ﬂ
+ owchart in 
+ .  2 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+1  Because the entire team is involved in the veriﬁ
+ cation process, it is less likely that an error will 
+be made in conducting the veriﬁ cation itself. 
+  
+2  
+ Figure 28.6 
+ has been adapted from [Lin94]. Used with permission.     If you use structured 
+programming con-
+structs, a set of simple 
+
+questions allows you 
+to prove your code to 
+be correct.  
+pre22126_ch28_601-622.indd   608pre22126_ch28_601-622.indd   60813/12/13   6:15 PM13/12/13   6:15 PM

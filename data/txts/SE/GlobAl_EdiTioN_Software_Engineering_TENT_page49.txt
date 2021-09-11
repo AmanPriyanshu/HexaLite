@@ -1,0 +1,38 @@
+Program and design errors emerge, and the need for new functionality is identified. The system must therefore evolve to remain useful. Making these changes (software 
+
+maintenance) may involve repeating previous process stages.In reality, software has to be flexible and accommodate change as it is being 
+developed. The need for early commitment and system rework when changes are 
+
+made means that the waterfall model is only appropriate for some types of system:1. Embedded systems where the software has to interface with hardware systems. Because of the inflexibility of hardware, it is not usually possible to delay deci-
+sions on the software™s functionality until it is being implemented.2. Critical systems where there is a need for extensive safety and security analysis 
+of the software specification and design. In these systems, the specification and 
+design documents must be complete so that this analysis is possible. Safety-
+related problems in the specification and design are usually very expensive to 
+correct at the implementation stage.3. Large software systems that are part of broader engineering systems developed 
+by several partner companies. The hardware in the systems may be developed 
+using a similar model, and companies find it easier to use a common model for 
+hardware and software. Furthermore, where several companies are involved, 
+
+complete specifications may be needed to allow for the independent develop
+-ment of different subsystems.The waterfall model is not the right process model in situations where informal team communication is possible and software requirements change quickly. Iterative 
+
+development and agile methods are better for these systems.An important variant of the waterfall model is formal system development, where a mathematical model of a system specification is created. This model is then refined, 
+using mathematical transformations that preserve its consistency, into executable 
+
+code. Formal development processes, such as that based on the B method (Abrial 
+
+2005, 2010), are mostly used in the development of software systems that have strin-
+gent safety, reliability, or security requirements. The formal approach simplifies the 
+production of a safety or security case. This demonstrates to customers or regulators 
+that the system actually meets its safety or security requirements. However, because 
+of the high costs of developing a formal specification, this development model is 
+
+rarely used except for critical systems engineering.Incremental development is based on the idea of developing an initial implementa
+-
+tion, getting feedback from users and others, and evolving the software through 
+
+several versions until the required system has been developed (Figure 2.2). 
+
+Specification, development, and validation activities are interleaved rather than 
+ separate, with rapid feedback across activities.˜˜˚˛˜˜˜
+˜˜˜

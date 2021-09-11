@@ -1,0 +1,78 @@
+CHAPTER 12  
+DESIGN CONCEPTS 229 
+ 
+ 
+ 2.  A design should be modular; that is, the software should be logically parti-tioned into elements or subsystems.    
+ 
+ 
+ 3.  A design should contain distinct representations of data, architecture, in-terfaces, and components.    
+ 
+ 4.  A design should lead to data structures that are appropriate for the classes to be implemented and are drawn from recognizable data 
+patterns.    
+ 
+ 5.  A design should lead to components that exhibit independent functional characteristics.    
+ 
+ 6.  A design should lead to interfaces that reduce the complexity of connec-tions between components and with the external environment.    
+ 
+ 7.  A design should be derived using a repeatable method that is driven by information obtained during software requirements analysis.    
+ 
+ 8.  A design should be represented using a notation that effectively commu-nicates its meaning.  
+ 
+  These design guidelines are not achieved by chance. They are achieved through the application of fundamental design principles, systematic methodology, and 
+
+thorough review. 
+ 
+  
+ uote:  “Design is not just 
+what it looks like 
+and feels like. 
+Design is how it 
+works.”  Steve Jobs 
+  
+echnical Review 
+ 
+Design is important because it allows a soft-
+ware team to assess the quality  3 
+ 
+ of the soft-ware before it is implemented—at a time when errors, 
+omissions, or inconsistencies are easy and inexpensive 
+to correct. But how do we assess quality during design? 
+The software can’t be tested, because there is no execut-
+
+able software to test. What to do?   During design, quality is assessed by conducting a series of technical reviews (TRs). TRs are discussed in de-
+tail in Chapter 20,  4 
+ 
+ but it’s worth providing a summary 
+of the technique at this point. A technical review is a 
+meeting conducted by members of the software team. 
+Usually two, three, or four people participate depending 
+
+on the scope of the design information to be reviewed. 
+
+Each person plays a role: the  review leader 
+ plans the meeting, sets an agenda, and runs the  meeting; the  recorder 
+ takes notes so that nothing is missed; the   
+producer 
+ is the person whose work product (e.g., the design of a software component) is being reviewed. 
+Prior to the meeting, each person on the review team is 
+given a copy of the design work product and is asked 
+to read it, looking for errors, omissions, or ambiguity. 
+
+When the meeting commences, the intent is to note all 
+problems with the work product so that they can be 
+corrected before implementation begins. The TR  typically lasts between 60 to 90 minutes. At the conclusion of the 
+TR, the review team determines whether further actions 
+
+are required on the part of the producer before the 
+
+ design work product can be approved as part of the 
+ﬁ nal  
+design model.  
+  
+INFO  
+ 
+3  The quality factors discussed in Chapter 30 can assist the review team as it assesses quality.  
+  
+4  You might consider looking ahead to Chapter 20 at this time. Technical reviews are a critical 
+part of the design process and are an importance mechanism for achieving design quality. 
+pre22126_ch12_224-251.indd   229pre22126_ch12_224-251.indd   22913/12/13   6:12 PM13/12/13   6:12 PM

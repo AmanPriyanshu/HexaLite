@@ -1,0 +1,88 @@
+760 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+of schedule and available resources. Although it is possible to accelerate deliv-ery, the curve rises very sharply to the left of  
+t 
+ d 
+. In fact, the PNR curve indicates the project delivery time cannot be compressed much beyond 0.75 t 
+ d 
+. If we at-tempt further compression, the project moves into “the impossible region” and 
+risk of failure becomes very high. The PNR curve also indicates that the lowest 
+cost delivery option,  t 
+ o 
+ 5 2 
+t 
+ d 
+. The implication here is that delaying project deliv-ery can reduce costs signiﬁ cantly. Of course, this must be weighed against the 
+business cost associated with the delay. 
+ The software equation [Put92] introduced in Chapter 33 is derived from the PNR curve and demonstrates the highly nonlinear relationship between chrono-
+logical time to complete a project and human effort applied to the project. The 
+number of delivered lines of code (source statements),  L, 
+ is related to effort and 
+development time by the equation:   
+ 
+ 
+ 
+ 
+ 
+L 
+ 5  P 
+ 3  E 
+ 1/3 
+ 
+t 
+ 4/3 
+  where  E 
+ is development effort in person-months,  
+P 
+ is a productivity parameter 
+that reﬂ ects a variety of factors that leads to high-quality software engineering 
+work (typical values for  P 
+ range between 2000 and 12,000), and  
+t 
+ is the project 
+duration in calendar months.  Rearranging this software equation, we can arrive at an expression for devel-opment effort E: E 
+ 5   L3 ____ P3t4   (34.1) 
+ where  E 
+ is the effort expended (in person-years) over the entire life cycle for 
+software development and maintenance and  t 
+ is the development time in years. 
+The equation for development effort can be related to development cost by the 
+inclusion of a burdened labor rate factor ($/person-year).  This leads to some interesting results. Consider a complex, real-time software project estimated at 33,000 LOC, 12 person-years of effort. If eight people are 
+assigned to the project team, the project can be completed in approximately 
+1.3 years. If, however, we extend the end date to 1.75 years, the highly nonlinear 
+
+nature of the model described in Equation (34.1) yields: E 
+ 5   L3 ____ P3t4   ~ 3.8 person-years  This implies that, by extending the end date by six months, we can reduce the number of people from eight to four! The validity of such results is open to de-
+bate, but the implication is clear: beneﬁ t can be gained by using fewer people 
+over a somewhat longer time span to accomplish the same objective.   
+ 
+ 
+34.2.3   
+Effort Distribution 
+ 
+ 
+ 
+ 
+ 
+ 
+Each of the software project estimation techniques discussed in Chapter 33 leads to estimates of work units (e.g., person-months) required to complete software    If delivery can be 
+delayed, the PNR curve 
+
+indicates that project 
+costs can be reduced 
+substantially. 
+   As the project deadline 
+
+becomes tighter and 
+tighter, you reach 
+
+a point at which 
+the work cannot 
+be completed on 
+schedule, regardless of 
+the number of people 
+doing the work. Face 
+reality and deﬁ ne a 
+
+new delivery date. 
+pre22126_ch34_754-776.indd   760pre22126_ch34_754-776.indd   76013/12/13   10:02 PM13/12/13   10:02 PM

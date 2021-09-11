@@ -1,0 +1,30 @@
+ Section 2.2  Access Control 
+83  pointer to an operating system data structure, which also links to the user. A capability 
+can be created only by a specific request from a user to the operating system. Each 
+
+capability also identifies the allowable accesses.
+Alternatively, capabilities can be encrypted under a key available only to the access 
+control mechanism. If the encrypted capability contains the identity of its rightful 
+
+owner, user A cannot copy the capability and give it to user B.
+One possible access right to an object is transfer or propagate
+. A subject having this 
+right can pass copies of capabilities to other subjects. In turn, each of these capabilities 
+also has a list of permitted types of accesses, one of which might also be transfer. In 
+
+this instance, process A can pass a copy of a capability to B, who can then pass a copy 
+
+to C. B can prevent further distribution of the capability (and therefore prevent further 
+
+dissemination of the access right) by omitting the transfer right from the rights passed 
+in the capability to C. B might still pass certain access rights to C, but not the right to 
+
+propagate access rights to other subjects.As a process executes, it operates in a domain or local name space. The 
+domain is 
+the collection of objects to which the process has access. A domain for a user at a given 
+
+time might include some programs, files, data segments, and I/O devices such as a 
+
+printer and a terminal. An example of a domain is shown in Figure 2-16.
+User WFile AAdminReadWrite
+OwnWriteWriteControlControlPrinterSystemClockReadFIGURE 2-15 CapabilityFilesCode ofMAIN DevicesStored dataobjectsFIGURE 2-16 Example of a Domain

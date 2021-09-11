@@ -1,0 +1,24 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜Pattern name: ObserverDescription: Separates the display of the state of an object from the object itself and allows alternative displays to be provided. When the object state changes, all displays are automatically notified and updated to reflect the change.Problem description: In many situations, you have to provide multiple displays of state information, such as a 
+graphical display and a tabular display. Not all of these may be known when the information is specified. All alter-native presentations should support interaction and, when the state is changed, all displays must be updated.This pattern may be used in situations where more than one display format for state information is required and where it is not necessary for the object that maintains the state information to know about the specific 
+display formats used.Solution description: This involves two abstract objects, Subject and Observer, and two concrete objects,  ConcreteSubject and ConcreteObject, which inherit the attributes of the related abstract objects. The abstract 
+objects include general operations that are applicable in all situations. The state to be displayed is main-
+
+tained in ConcreteSubject, which inherits operations from Subject allowing it to add and remove Observers 
+(each observer corresponds to a display) and to issue a notification when the state has changed.The ConcreteObserver maintains a copy of the state of ConcreteSubject and implements the Update()  interface of Observer that allows these copies to be kept in step. The ConcreteObserver automatically  displays the state and reflects changes whenever the state is updated.
+The UML model of the pattern is shown in Figure 7.12.Consequences: The subject only knows the abstract Observer and does not know details of the concrete class. Therefore there is minimal coupling between these objects. Because of this lack of knowledge, optimizations that enhance display performance are impractical. Changes to the subject may cause a set of linked updates 
+to observers to be generated, some of which may not be necessary.Figure 7.10 The Observer patternone that is equally applicable to any kind of software design. For instance, you could 
+
+have configuration patterns for instantiating reusable application systems.The Gang of Four defined the four essential elements of design patterns in their book on patterns:1. A name that is a meaningful reference to the pattern.2. A description of the problem area that explains when the pattern may be applied.
+3. A solution description of the parts of the design solution, their relationships and their 
+responsibilities. This is not a concrete design description. It is a template for a design 
+
+solution that can be instantiated in different ways. This is often expressed graphically 
+
+and shows the relationships between the objects and object classes in the solution.4. A statement of the consequencesŠthe results and trade-offsŠof applying the 
+pattern. This can help designers understand whether or not a pattern can be used 
+in a particular situation.Gamma and his co-authors break down the problem description into motivation 
+(a description of why the pattern is useful) and applicability (a description of situa-
+tions in which the pattern may be used). Under the description of the solution, they 
+
+describe the pattern structure, participants, collaborations, and implementation.To illustrate pattern description, I use the Observer pattern, taken from the Gang of Four™s patterns book. This is shown in Figure 7.10. In my description, I use the 

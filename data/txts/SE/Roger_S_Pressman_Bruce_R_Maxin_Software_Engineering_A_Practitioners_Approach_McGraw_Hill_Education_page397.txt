@@ -1,0 +1,153 @@
+CHAPTER 16  
+PATTERN-BASED DESIGN
+ 
+367
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Sign-up Flows.
+ 
+ How do I provide a simple way to sign in or register for 
+information or functionality? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Custom Tab Navigation.
+ 
+ How do I represent a variety of different content 
+objects in a manner that enables the user to select the one she wants? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Invitations.
+ 
+ How do I inform the user that he must participate in some 
+action or dialog? Typical examples are illustrated in  
+Figure 16.3 
+. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Additional information about mobile UI patterns can be found in [Nei12] and 
+[Hoo12]. In addition to UI patterns, Meier and his colleagues [Mei12] propose a 
+variety of more general pattern descriptions for mobile apps. Further informa-
+tion on mobile patterns, including an extensive pattern library 
+ 
+8
+ 
+ 
+ has been devel-
+oped by Nokia [Nok13]. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 16.8 S
+UMMARY
+ 
+ 
+Design patterns provide a codiﬁ
+ ed mechanism for describing problems and their 
+solution in a way that allows the software engineering community to capture de-
+sign knowledge for reuse. A pattern describes a problem, indicates the context 
+enabling the user to understand the environment in which the problem resides, 
+and lists a system of forces that indicate how the problem can be interpreted 
+ 
+ 
+8 
+  Pointers to a variety of mobile pattern libraries can also be found at:  
+http://4ourth.com/wiki/
+Other%20Mobile%20Pattern%20Libraries
+ 
+ 
+ 
+F
+IGURE
+ 16.3
+ 
+Examples of 
+mobile invita-
+tion patterns 
+[Nei11]
+DialogTipTourDemo
+TransparencyEmbeddedPersistentDiscoverable
+Add a
+cord
+OK
+0.00/459
+Pvt to refresh
+p
+r
+e
+2
+2
+1
+2
+6
+_
+c
+h
+1
+6
+_
+3
+4
+7
+-
+3
+7
+0
+.
+i
+n
+d
+d
+ 
+ 
+ 
+3
+6
+7
+pre22126_ch16_347-370.indd   367
+1
+6
+/
+1
+2
+/
+1
+3
+ 
+ 
+ 
+6
+:
+2
+2
+ 
+P
+M
+16/12/13   6:22 PM

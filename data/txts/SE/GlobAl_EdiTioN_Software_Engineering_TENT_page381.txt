@@ -1,0 +1,47 @@
+a company may require the use of a login name/password for authentication, 
+simply because other approaches are likely to be rejected by users.Security policies often set out general information access strategies that should apply across the organization. For example, an access strategy may be based on the 
+clearance or seniority of the person accessing the information. Therefore, a military 
+
+security policy may state: ﬁReaders may only examine documents whose classifica-
+tion is the same as or below the reader™s vetting level.ﬂ This means that if a reader 
+has been vetted to a ﬁsecretﬂ level, he or she may access documents that are classed 
+as secret, confidential, or open but not documents classed as top secret.The point of security policies is to inform everyone in an organization about secu-rity, so these should not be long and detailed technical documents. From a security 
+engineering perspective, the security policy defines, in broad terms, the security 
+
+goals of the organization. The security engineering process is concerned with imple
+-
+menting these goals.Security risk assessment and management are organizational activities that focus on iden-
+tifying and understanding the risks to information assets (systems and data) in the organi-zation. In principle, an individual risk assessment should be carried out for all assets; in 
+
+practice, however, this may be impractical if a large number of existing systems and 
+
+databases need to be assessed. In those situations, a generic assessment may be applied to 
+
+all of them. However, individual risk assessments should be carried out for new systems.
+Risk assessment and management is an organizational activity rather than a tech-nical activity that is part of the software development life cycle. The reason for this 
+
+is that some types of attack are not technology-based but rather rely on weaknesses 
+
+in more general organizational security. For example, an attacker may gain access to 
+equipment by pretending to be an accredited engineer. If an organization has a pro
+-
+cess to check with the equipment supplier that an engineer™s visit is planned, this can 
+deter this type of attack. This approach is much simpler than trying to address the 
+problem using a technological solution.When a new system is to be developed, security risk assessment and management should be a continuing process throughout the development life cycle from initial 
+
+specification to operational use. The stages of risk assessment are:1. Preliminary risk assessment The aim of this initial risk assessment is to identify 
+generic risks that are applicable to the system and to decide if an adequate level 
+
+of security can be achieved at a reasonable cost. At this stage, decisions on the 
+
+detailed system requirements, the system design, or the implementation technol-
+ogy have not been made. You don™t know of potential technology vulnerabilities 
+
+or the controls that are included in reused system components or middleware. 
+
+The risk assessment should therefore focus on the identification and analysis of 
+
+high-level risks to the system. The outcomes of the risk assessment process are 
+
+used to help identify security requirements.˜˜˚˛˝˜˜˜
+˜˜˜

@@ -1,0 +1,80 @@
+ Section 6.4  Denial of Service 
+419  Kaminsky noticed a flaw in this progression: namely, that these queries remain 
+open until answered and that a response matching the ID number for the query will be 
+cached. If an attacker can guess the sequence of query ID numbers, the attacker can 
+
+forge a response that satisfies an open query’s ID; that forged reply can provide any 
+
+address as a response. Until the response is removed from the cache, all traffic for the 
+
+requested address will be directed 
+
+to the address given in the forged 
+
+reply. Thus, by predicting sequence 
+
+numbers correctly and generating 
+
+network traffic to a specific name 
+
+server, the attacker can redirect traf-
+
+fic silently to a selected address.
+This example shows the vulnerability of predictable sequence numbers. A counter-
+measure for this type of attack is an unpredictable
+ series of sequence numbers, prefer-
+ably drawn from a large range of possibilities.
+For years, the Internet governing bodies have been working to implement a protec-
+tion against such replay and hijack attacks. This objective is addressed with 
+DNSSEC, the DNS security extension (RFC 4033 [ARE05]). In June 2010, the first root DNS 
+
+server was assigned a private key for signing DNS records; other root servers will be 
+
+assigned keys. Every DNS record at the root level will be signed and published, along 
+
+with the root administrator’s public key, in the DNS itself. As root name servers’ records 
+
+are signed, other name servers will gradually acquire public keys and sign their records. 
+
+Ultimately, a client’s address request will also entail obtaining and checking the signa-
+
+tures of all records that were part of the name resolution path.Exploiting Known Vulnerabilities
+Assailants have no shortage of tools with which to begin an attack. Hacker tools often 
+
+begin with a known vulnerability, sometimes a well-known one for which a patch has 
+
+long been available; people have a habit of failing to apply patches to older systems 
+
+or ones in remote locations. Failure to patch systems is becoming a serious problem 
+
+because of the time between publicity concerning a vulnerability and its first exploita-
+
+tion. Symantec [SYM10] reported that in 2009, the window between disclosure and 
+
+exploitation was less than one day on average for the 28 vulnerabilities Microsoft 
+
+patched in Internet Explorer; exploits emerged on average two days after the vulner-
+
+ability was made known. The window between the day a patch is available and the day 
+
+the vulnerability is first exploited is very short indeed. Furthermore, in 2009, Symantec 
+
+identified 12 zero-day exploits. A 
+zero-day exploit
+ is one for which an exploitation 
+occurs before the vulnerability is publicly known and hence before a patch is available.
+Some tools, such as R-U-Dead-Yet and EvilGrade, check for many vulnerabilities. 
+Trojan horses, viruses, and other kinds of malware can form a base for a denial-of- 
+
+service attack. One popular but especially effective attack toolkit is Zeus, which costs 
+
+less than $700 but also circulates for free in the hacker underground. Security firm 
+
+Symantec has documented over 90,000 variants of Zeus [SYM10]. In tools such as 
+
+these, denial of service is sometimes a by-product; the tool exploits a vulnerability that 
+In cache poisoning an incorrect name-to-
+
+address DNS conversion is placed in and 
+
+remains in a translation cache.

@@ -1,0 +1,125 @@
+492 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The People Factor.   
+Any discussion of debugging approaches and tools is incom-plete without mention of a powerful ally—other people! A fresh viewpoint, un-
+clouded by hours of frustration, can do wonders.  8 
+ 
+ A ﬁ
+ nal maxim for debugging 
+might be: “When all else fails, get help!”   
+ 
+ 
+ 
+22.9.4   
+Correcting the Error 
+ 
+ 
+Once a bug has been found, it must be corrected. But as we have already noted, the correction of a bug can introduce other errors and therefore do more harm 
+than good. Van Vleck [Van89] suggests three simple questions that you should 
+
+ask before making the “correction” that removes the cause of a bug:  
+ 
+ 
+ 1.   
+Is the cause of the bug reproduced in another part of the program?
+ 
+ In many situations, a program defect is caused by an erroneous pattern of logic 
+that may be reproduced elsewhere. Explicit consideration of the logical 
+pattern may result in the discovery of other errors.   
+ 
+ 
+ 2.
+   
+What “next bug” might be introduced by the ﬁ
+ x I'm about to make?
+ 
+ Before the correction is made, the source code (or, better, the design) should be 
+
+evaluated to assess coupling of logic and data structures. If the correction   
+ 
+ uote:  “The best tester 
+isn’t the one who 
+ﬁ nds the most 
+
+
+tester is the one 
+who gets the most 
+bugs ﬁ xed.” 
+ Cem Kaner et al. 
+  
+ 
+Debugging   
+ Objective:  These tools provide automated 
+assistance for those who must debug software 
+problems. The intent is to provide insight that may be difﬁ cult 
+to obtain if approaching the debugging process manually. 
+  Mechanics:  Most debugging tools are programming language and environment speciﬁ c. 
+  Representative Tools:   
+7 
+ 
+ 
+   
+Borland Silkt, 
+ distributed by Borland (  
+http://www.
+borland.com/products/
+ 
+ 
+), assists in both testing and debugging.   
+Coverty Development Testing Platform
+ 
+, developed by 
+Coverty ( 
+ 
+http://www.coverity.com/products/
+ 
+ 
+), 
+provides a means of introducing quality and security 
+
+testing into the early development process. 
+  
+C11Test,
+ 
+ developed by Parasoft (  
+www.parasoft.com 
+ 
+), is a unit-testing tool that supports a full range of tests on 
+
+C and C11 code. Debugging features assist in the diagnosis of errors that are found.   
+CodeMedic, 
+ developed by NewPlanet Software (  
+www.
+newplanetsoftware.com/medic/  
+), provides a graphical interface for the standard UNIX debugger, 
+
+ gdb, 
+ and implements its most important features.  
+gdb 
+ currently supports C/C
+11, Java, PalmOS, various embedded systems, assembly language, FORTRAN, 
+
+and Modula-2.   
+GNATS
+ 
+, a freeware application (  
+www.gnu.org/
+software/gnats/  
+), is a set of tools for tracking bug reports. 
+  
+SOFTWARE
+ TOOLS  
+ 
+7  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+  
+8  The concept of pair programming (recommended as part of the Extreme Programming model 
+discussed in Chapter 5) provides a mechanism for “debugging” as the software is designed and 
+coded. pre22126_ch22_466-495.indd   492pre22126_ch22_466-495.indd   49213/12/13   6:14 PM13/12/13   6:14 PM

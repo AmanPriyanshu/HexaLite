@@ -1,0 +1,52 @@
+APPENDIX 3  
+FORMAL METHODS 903  
+ Note that each expression starts with the keyword  
+contextcontext . This indicates 
+the element of the UML diagram that the expression constrains. The key-
+word   
+self   here refers to the instance of   
+BlockHandler;   in the following, as is 
+permissible in OCL, we will omit the   
+self  .  
+  
+ 2.  All the sets of blocks held in the queue will be subsets of the collection of 
+currently used blocks.  
+   context BlockHandler inv:
+
+     blockQueue–>forAll(aBlockSet | used–>includesAll(aBlockSet ))    
+  
+ 3.  No elements of the queue will contain the same block numbers.  
+   context BlockHandler inv:   
+
+ blockQueue–>forAll(blockSet1, blockSet2 |
+
+    blockSet1 <> blockSet2 implies  
+  blockSet1.elements.number–> excludesAll(blockSet2.elements.number))   
+  
+ The expression before   
+implies   is needed to ensure we ignore pairs where 
+both elements are the same block.  
+   4.
+  The collection of used blocks and blocks that are unused will be the total 
+collection of blocks that make up ﬁ les.  
+   context BlockHandler inv:
+
+    
+ allBlocks 5 used–>union(free)    
+  
+ 5.  The collection of unused blocks will have no duplicate block numbers.  
+   context BlockHandler inv:
+
+     free–>isUnique(aBlock | aBlock.number)    
+  
+ 6.  The collection of used blocks will have no duplicate block numbers.  
+   context BlockHandler inv:  
+
+   used–>isUnique(aBlock | aBlock.number)     
+ F
+IGURE A3.1Class diagram 
+for a block 
+handler   
+11BlockBlockSetBlockHandler*****111blockQueue
+{orderd}freeallBlocks{subset}{subset}usedelementsaddBlock( )
+removeBlock( )number

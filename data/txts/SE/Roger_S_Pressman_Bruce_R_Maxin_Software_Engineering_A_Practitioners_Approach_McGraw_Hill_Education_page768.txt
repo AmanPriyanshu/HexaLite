@@ -1,0 +1,90 @@
+738 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+33.6.4   
+An Example of FP-Based Estimation  
+Decomposition for FP-based estimation focuses on information domain values rather than software functions. Referring to the table presented in   
+Figure 33.3  
+, you would estimate inputs, outputs, inquiries, ﬁ les, and external interfaces for 
+the CAD software. An FP value is computed using the technique discussed in 
+Chapter 30. For the purposes of this estimate, the complexity weighting factor is 
+assumed to be average.   
+Figure 33.3  
+ presents the results of this estimate.  
+ 
+ 
+ 
+  Each of the complexity weighting factors is estimated, and the value adjust-ment factor is computed as described in Chapter 30: FactorValue
+Backup and recovery4
+Data communications2
+
+Distributed processing0
+
+Performance critical4
+
+Existing operating environment3
+
+Online data entry4
+
+Input transaction over multiple screens5
+
+Master files updated online3
+
+Information domain values complex5
+
+Internal processing complex5
+
+Code designed for reuse4
+
+Conversion/installation in design3
+
+Multiple installations5
+
+Application designed for change5
+Value adjustment factor
+1.17  
+Vinod (nodding):  Okay, but we haven’t deﬁ
+ ned any 
+increments yet.   
+Doug:  True, but that’s why we need to estimate. 
+  
+Jamie (frowning):  You want to know how long it’s 
+going to take us?   
+Doug:  Here’s what I need. First, we need to function-
+ally decompose the  SafeHome 
+
+  
+Jamie:  Whoa! How are we supposed to do that? 
+  
+Vinod:  I’ve done it on past projects. You begin with 
+use cases, determine the functionality required to im-
+
+plement each, then guesstimate the LOC count for each 
+piece of the function. The best approach is to have ev-
+eryone do it independently and then compare results. 
+  
+Doug:  Or you can do a functional decomposition for 
+the entire project.   
+Jamie:  But that’ll take forever and we’ve got to get 
+started. 
+  
+Vinod:  
+morning, in fact. 
+  
+Doug:  t expect exactitude, just a 
+ballpark idea of what the size of  SafeHome 
+ will be.   
+Jamie:  I think we should just estimate effors 
+all.   
+Doug:  We’ll do that too. Then use both estimates as a 
+cross-check.   
+Vinod:  Let’
+ pre22126_ch33_727-753.indd   738pre22126_ch33_727-753.indd   73813/12/13   6:17 PM13/12/13   6:17 PM

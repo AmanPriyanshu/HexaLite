@@ -1,0 +1,33 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜Reason (Reason 2000) draws on the idea of defensive layers in a theory of how human errors lead to system failures. He introduces the so-called Swiss cheese 
+model, which suggests that defensive layers are not solid barriers but are instead like 
+slices of Swiss cheese. Some types of Swiss cheese, such as Emmenthal, have holes 
+of varying sizes in them. Reason suggests that vulnerabilities, or what he calls latent 
+conditions in the layers, are analogous to these holes.These latent conditions are not staticŠthey change depending on the state of the system and the people involved in system operation. To continue with the analogy, 
+the holes change size and move around the defensive layers during  system operation. For example, if a system relies on operators checking each 
+ other™s work, a possible 
+vulnerability is that both make the same mistake. This is unlikely under normal con-
+ditions so, in the Swiss cheese model, the hole is small. However, when the system 
+is heavily loaded and the workload of both operators is high, then mistakes are more 
+
+likely. The size of the hole representing this vulnerability increases.Failure in a system with layered defenses occurs when there is some external trig
+-ger event that has the potential to cause damage. This event might be a human error 
+(which Reason calls an active failure) or it could be a cyberattack. If all of the defen-
+sive barriers fail, then the system as a whole will fail. Conceptually, this corresponds 
+to the holes in the Swiss cheese slices lining up, as shown in Figure 14.6.This model suggests that different strategies can be used to increase system resil-ience to adverse external events:1.
+ Reduce the probability of the occurrence of an external event that might trigger 
+ system failures. To reduce human errors, you may introduce improved training for 
+operators or give operators more control over their workload so that they are not 
+
+overloaded. To reduce cyberattacks, you may reduce the number of people who have 
+
+privileged system information and so reduce the chances of disclosure to an attacker.2. Increase the number of defensive layers. As a general rule, the more layers that 
+
+you have in a system, the less likely it is that the holes will line up and a system 
+
+failure will occur. However, if these layers are not independent, then they may 
+
+share a common vulnerability. Thus, the barriers are likely to have the same 
+
+ﬁholeﬂ in the same place, so there is only a limited benefit in adding a new layer.Sociotechnical defensesTechnical defenses
+Errors orattacksFigure 14.5 Defensive layers 

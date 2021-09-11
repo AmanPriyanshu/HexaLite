@@ -1,0 +1,41 @@
+ Section 6.4  Denial of Service 
+405  subnetwork. The attack is depicted in Figure 6-19, showing the single broadcast attack 
+being reflected back on the victim. In this way the attacker uses the entire subnetwork 
+
+to multiply the attack’s effect.
+Echo–ChargenThe echo–chargen
+ attack works between two hosts. Chargen is an ICMP protocol that 
+generates a stream of packets to test the network’s capacity. Echo is another ICMP 
+
+protocol used for testing; a host receiving an echo returns everything it receives to the 
+
+sender.
+The attacker picks two victims, A and B, and then sets up a chargen process on host 
+A that generates its packets as echo packets with a destination of host B. Thus, A floods 
+
+B with echo packets. But because these packets request the recipient to echo them back 
+
+to the sender, host B replies by returning them to host A. As shown in Figure 6-20, this 
+
+series puts the network infrastructures of A and B into an endless loop, as A generates a 
+
+string of echoes that B dutifully returns to A, just as in a game of tennis. Alternatively, 
+
+the attacker can make B both the source and destination address of the first packet, so B 
+
+hangs in a loop, constantly creating and replying to its own messages.
+SYN FloodAnother popular denial-of-service attack is the SYN flood. This attack uses the TCP 
+protocol suite, making the session-oriented nature of these protocols work against the 
+
+victim.For a protocol such as Telnet or SMTP, the protocol peers establish a virtual connec-
+tion, called a session, to synchronize the back-and-forth, command–response nature of 
+the interaction. A session is established with a three-way TCP handshake. Each TCP 
+
+packet has flag bits, one of which is denoted SYN (synchronize) and one denoted ACK 
+
+(acknowledge). First, to initiate a TCP connection, the originator sends a packet with 
+
+the SYN bit on. Second, if the recipient is ready to establish a connection, it replies 
+
+with a packet with both the SYN and ACK bits on. Finally, the first party completes the 
+FIGURE 6-19 Smurf AttackVictimAttackerAll network hostsreply to victimVictim is saturatedwith ECHO repliesfrom entire networkAttacker sendsbroadcast ECHOrequest to network,with victim’s return address 

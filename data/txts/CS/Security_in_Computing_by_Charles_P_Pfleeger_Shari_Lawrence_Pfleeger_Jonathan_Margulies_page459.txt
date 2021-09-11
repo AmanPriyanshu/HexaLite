@@ -1,0 +1,69 @@
+ Section 6.5  Distributed Denial-of-Service 
+425  Sidebar 6-20 describes an example of an attacker with greater firepower. The battle 
+was not one-on-one but many-against-one: The attacker called on an army of agents 
+
+to attack at once from all directions. The attacks encountered in the sidebar occurred 
+
+just as the attack community was advancing to a new mode of attack. The investigator 
+
+understood ordinary denial-of-service attacks; what he didn’t understand at first was a 
+
+distributed denial-of-service attack, in which the impact is multiplied by the force of 
+
+many attackers.
+SIDEBAR 6-20 Attacked by an Army
+Barrett Lyon was a college dropout hacker turned computer consultant who 
+had phenomenal focus and technical savvy. For helping one client expand 
+
+and stabilize a web application network, he got referrals that led to more 
+
+referrals.
+The online betting firm BetCRIS had been plagued with occasional 
+attacks that overwhelmed their website for up to a day, during which no 
+
+bettors could place bets and hence BetCRIS earned no money, losing as 
+
+much as $5 million of business in a day. During Spring 2003, the head of 
+
+BetCRIS got an email message from an anonymous hacker warning that 
+
+he would subject BetCRIS to a denial-of-service attack unless he was paid 
+$500. After paying, the manager of BetCRIS asked colleagues for referrals 
+
+and contacted Lyon for advice. Lyon recommended buying some hard-
+
+ware devices designed for repelling such attacks; the manager of BetCRIS 
+
+installed them and felt safe for the future.
+In late November BetCRIS got another demand: An email message 
+announced “Your site is under attack” and demanded $40,000 to leave Bet-
+
+CRIS alone for a year. Thinking the solution Lyon had recommended was 
+
+adequate, the manager of BetCRIS ignored the demand.
+A massive denial-of-service attack overwhelmed the special-purpose machines in ten minutes, causing the BetCRIS site to crash; the attack also 
+overwhelmed BetCRIS’s ISP, which dropped BetCRIS as a client to save its 
+
+other customers. As the attack progressed, the demands progressed to 
+
+$60,000 and ultimately $1 million dollars. During this time Lyon realized this 
+
+was no ordinary denial-of-service attack launched from a few machines, 
+
+but one involving hundreds, perhaps thousands, more.
+Lyon knew the attacks had to have some similarity. He looked for close 
+IP addresses so he could block an entire range, but found few. Some attacks 
+
+went after routers while others seemed like normal customers. Lyon quickly 
+
+wrote code to block things he could and bought equipment to become an 
+
+ISP himself to serve BetCRIS. Meanwhile, the attacker went after business 
+neighbors of BetCRIS in the online gambling community, as well as BetCRIS’s 
+
+former ISPs. After several days of back-and-forth combat, Lyon won: The 
+
+BetCRIS website was back up, stable, and performance was normal.
+All told, the battle cost about $1 million, just what the attacker had wanted as extortion. In the combat, Lyon learned a lot about a new form of 
+
+attack just emerging in 2003, the distributed denial-of-service attack [MEN10].

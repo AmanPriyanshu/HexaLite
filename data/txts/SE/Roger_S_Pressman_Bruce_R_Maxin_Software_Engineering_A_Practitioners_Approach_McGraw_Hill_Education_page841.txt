@@ -1,0 +1,106 @@
+CHAPTER 36  
+MAINTENANCE AND REENGINEERING 811 
+ 
+ 
+ 
+ 
+ 
+ 
+ 36.8  
+FORWARD
+ ENGINEERING  
+ 
+A program with control ﬂ ow that is the graphic equivalent of a bowl of spaghetti, 
+with “modules” that are 2,000 statements long, with few meaningful comment 
+lines in 290,000 source statements and no other documentation must be modiﬁ ed 
+to accommodate changing user requirements. You have the following options:  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1.
+  You can struggle through modiﬁ
+ cation after modiﬁ
+ cation, ﬁ
+ ghting the ad 
+hoc design and tangled source code to implement the necessary changes.   
+ 
+ 
+ 2.
+  You can attempt to understand the broader inner workings of the pro-
+gram in an effort to make modiﬁ cations more effectively. 
+  
+ 
+ 
+ 3.
+  You can redesign, recode, and test those portions of the software that 
+require modiﬁ cation, applying a software engineering approach to all 
+ revised segments.   
+ 
+ 
+ 4.
+  You can completely redesign, recode, and test the program, using reengi-
+neering tools to assist us in understanding the current design.  
+ 
+  There is no single “correct” option. Circumstances may dictate the ﬁ rst option 
+even if the others are more desirable.   
+ 
+ 
+ 
+ 
+Rather than waiting until a maintenance request is received, the development or support organization uses the results of inventory analysis to select a program 
+that (1) will remain in use for a preselected number of years, (2) is currently being 
+used successfully, and (3) is likely to undergo major modiﬁ
+ cation or enhance-
+ment in the near future. Then, option 2, 3, or 4 is applied.  At ﬁ rst glance, the suggestion that you redevelop a large program when 
+a working version already exists may seem quite extravagant. Before pass-
+ing judgment, consider the following arguments. The cost to maintain one line 
+
+of source code may be 20 to 40 times the cost of initial development of that 
+
+line. In addition, redesign of the software architecture (program and/or data 
+
+structure), using modern design concepts, can greatly facilitate future main-
+tenance. Because a prototype of the software already exists, development pro-
+ductivity should be much higher than average. The user now has experience 
+
+with the software. Therefore, new requirements and the direction of change 
+
+can be ascertained with greater ease. Automated tools for reengineering will 
+
+facilitate some parts of the job. And ﬁ nally, a complete software conﬁ
+ gura-
+tion (documents, programs, and data) will exist upon completion of preventive 
+
+maintenance. 
+ A large in-house software developer (e.g., a business systems software de-velopment group for a large consumer products company) may have 500 to 
+
+2,000 production programs within its domain of responsibility. These programs 
+
+can be ranked by importance and then reviewed as candidates for forward 
+
+engineering. 
+ What 
+options exist when we’re 
+faced with a 
+poorly designed 
+and implemented 
+program? ?   Reengineering is a lot 
+
+like getting your teeth 
+cleaned. You can think 
+
+of a thousand reasons 
+to delay it, and you’ll 
+get away with pro-
+crastinating for quite a 
+while. But eventually, 
+
+your delaying tactics 
+will come back to 
+cause pain. pre22126_ch36_795-816.indd   811pre22126_ch36_795-816.indd   81113/12/13   6:17 PM13/12/13   6:17 PM

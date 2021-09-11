@@ -1,0 +1,77 @@
+528 Chapter 7  
+Databasesdata structures having 
+properties
+ or 
+attributes
+ that add meaning to the data. These 
+properties, called metadata, are not displayed with the picture or document, but they 
+are not concealed; in fact, numerous applications support selecting, searching, sorting, 
+
+and editing based on metadata.File Tags 
+One use of attributes is tags for pictures. You might organize your photo collection with 
+
+tags telling who or what landmarks are in each photo. Thus, you could search for all 
+
+photos including Zane Wellman or from your trip to Stockholm. However, this tagging 
+
+can sometimes reveal more than intended. Suppose your photo with Zane was taken on 
+
+a rather embarrassing night out and shows him rather unflatteringly. If the photo were 
+
+posted without a narrative description, only people who knew Zane would see the image 
+
+and know it was he. But when Zane applies for a job and the company does a web search 
+
+to find out anything about him, the photo pops up because his name is in the metadata. 
+
+And the picture can lead to questions; Zane may not even know you posted the photo, so 
+
+he may be stunned to learn that a potential employer has seen him in that situation.
+Part of this problem, as we describe in Chapter 9, is that the distinction between 
+private and public is becoming less clear-cut. With photos printed on paper, you had a 
+
+copy, perhaps Zane had a copy, and maybe a few close friends did, too. All of you kept 
+
+your photos in an album, an old shoe box, or a drawer for memorabilia. Zane might 
+
+even have looked at the photo and laughed, before he hastily threw it away. Unless his 
+
+potential employer was awfully thorough, paper photos would never have become part 
+
+of their search. Now, however, with Facebook, Picasa, Dropbox, and hundreds of shar-
+
+ing sites, photos intended for a few close friends can turn up in anybody’s searches. 
+
+Users don’t restrict access tightly enough, and limited access is not in the interests of 
+
+the social networking sites (which derive significant revenue from advertising and thus 
+
+are more interested in supporting their client advertisers than their human users).
+A similar situation exists with documents. Each document has properties that include 
+the name of the author, author’s organization, data created, date last saved, and so forth. 
+
+If you are preparing a document for anonymous distribution, for example, a paper being 
+
+submitted anonymously for review for presentation at a conference, you do not want the 
+
+reviewers to be able to learn that you were the author.
+Geotagging On 11 August 2010 the 
+New York Times
+ published a story about 
+geotagging, the prac-tice of many cameras and smartphones of tagging each photo they take with the GPS 
+
+coordinates where the photo was taken. According to the story, Adam Savage, host of 
+
+the program Myth Busters
+, took a photo of his car in front of his house and posted it to his Twitter account. However, because the photo contained location coordinates, Savage 
+
+inadvertently disclosed the location of his house. With relatively little work, anyone can 
+
+extract this metadata for offline analysis.
+Friedland and Sommer [FRI10], who studied the problem of geotagging, note that many people are unaware that the phenomenon exists and, even among those who 
+
+are aware of geotagging, some do not realize when it has occurred. According to the 
+
+authors, between 1 percent and 5 percent of photos at sites such as Flickr, YouTube, 
+
+and Craigslist contain header data that gives the location where the picture was taken. 

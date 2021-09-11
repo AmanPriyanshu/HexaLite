@@ -1,0 +1,41 @@
+ Section 6.8  Intrusion Detection and Prevention Systems 
+485  Adaptive BehaviorBecause of these limitations of humans, an IDS can sometimes be configured to take 
+action to block the attack or reduce its impact. Here are some kinds of actions an IDS 
+can take:
+• Continue to monitor the network.
+• Block
+ the attack 
+by redirecting attack traffic to a monitoring host, discarding the 
+traffic, or terminating the session.
+• Reconfigure the network
+ by bringing other hosts online (to increase capacity) or 
+adjusting load balancers.• Adjust performance to slow the attack, for example, by dropping some of the 
+incoming traffic.
+• Deny access to particular network hosts or services.
+• Shut down part of the network.
+• Shut down the entire network.
+CounterattackA final action that can be taken on a detection of an attack is to mount an offense, to 
+strike back. An example of such an attack is described in Sidebar 6-26. Offensive action 
+
+must be taken with great caution for several reasons:
+• The apparent attacker may not be the real attacker. Determining the true source 
+and sender of Internet traffic is not foolproof. Taking action against the wrong 
+
+party only makes things worse.
+• A counterattack can lead to a real-time battle in which both the defenses and 
+offenses must be implemented with little time to assess the situation.
+• Retaliation in anger is not necessarily well thought out.
+
+• Legality can shift. Measured, necessary action to protect one’s resources is a 
+well-established legal principle. Taking offensive action opens one to legal jeop-
+
+ardy, comparable to that of the attacker.
+• Provoking the attacker can lead to escalation. The attacker can take the counter-
+attack as a challenge.SIDEBAR 6-26 Counter-Counter-Countermeasures?
+WikiLeaks, formed in December 2006, is a service that makes public 
+leaked sensitive data by posting the data on its website. On 22 Novem-
+
+ber 2010 it announced it was going to leak a massive number of internal 
+
+U.S. diplomatic messages beginning on 28 November. On 28 November, it 
+(continues)

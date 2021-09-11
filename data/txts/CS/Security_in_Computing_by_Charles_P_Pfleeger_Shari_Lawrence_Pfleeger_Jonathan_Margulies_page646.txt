@@ -1,0 +1,65 @@
+612 Chapter 9  
+Privacyverify. The stamp authenticator signifies only that the person possesses the attribute of 
+being 21 or over.
+In computing applications we frequently authenticate individuals, identities, and 
+attributes. Privacy issues can arise when we confuse these different authentications and 
+
+what they mean. For example, the U.S. social security number was never intended to be 
+
+an identifier, but now it often serves as an identifier, an authenticator, a database key, 
+
+or all three. When one data value serves two or more uses, a person acquiring it for one 
+
+purpose can use it for another.
+Relating an identity to a person is tricky. In Chapter 5 we tell the story of rootkits, 
+malicious software by which an unauthorized person can acquire supervisory control 
+
+of a computer. Suppose the police arrest Michel for a minor offense and seize his com-
+
+puter. By examining the computer, the police find evidence connecting that computer 
+
+to an espionage case. The police discover incriminating email messages from Michel 
+
+on Michel’s computer and charge him. In his defense, Michel points to a rootkit on 
+
+his computer. He acknowledges that his computer may have been used in the espio-
+
+nage, but he denies the he was personally involved. The police have, he says, drawn an 
+
+unjustifiable connection between Michel’s identity in the email and Michel the person. 
+
+The rootkit is a plausible explanation for how some other person acted using Michel’s 
+
+identity (his computer). This example shows why we must carefully distinguish among 
+
+individual, identity, and attribute authentication.
+We examine the privacy implications of authentication in the next section.
+Individual AuthenticationThere are relatively few ways of identifying an individual. When you are born, your 
+birth is registered at a government records office, and the office issues a birth certificate 
+
+to your parents. A few years later, your parents enroll you in school, presenting the birth 
+
+certificate so that the school can issue you a school identity card. Still later, you submit 
+
+the birth certificate and a photo to get a passport or a national identity card. In a similar 
+
+fashion, each of us receives many other authentication numbers and cards throughout 
+
+life.This life-long process starts with a baby’s birth certificate. But the baby’s physical 
+description (height, weight, even hair color) will change significantly in just months. 
+
+The birth certificate may contain the baby’s fingerprints, but matching a poorly taken 
+
+fingerprint of a newborn to that of an adult is challenging at best.
+Fortunately, in most settings it is acceptable to settle for weak authentication for 
+individuals: A friend who has known you since childhood, a schoolteacher, neighbors, 
+
+and coworkers can support a claim of identity.
+Identity AuthenticationWe all use many different identities. When you buy something with a credit card, you 
+do so under the identity of the credit card holder. In some places you can pay road tolls 
+
+with a radio frequency device in your car, so the sensor authenticates you as the holder 
+
+of a particular toll device. You may have a meal plan that you can access by means of a 
+
+card, so the cashier authenticates you as the card’s owner. You check into a hotel and get 

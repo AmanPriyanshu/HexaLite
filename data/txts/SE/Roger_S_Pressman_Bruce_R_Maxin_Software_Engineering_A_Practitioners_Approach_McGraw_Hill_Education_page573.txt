@@ -1,0 +1,109 @@
+CHAPTER 25  
+TESTING WEB APPLICATIONS
+ 543 
+ 
+These ﬁ ve error attributes suggest that environment plays an important role 
+in the diagnosis of all errors uncovered during the WebApp testing. In some sit-
+
+uations (e.g., content testing), the site of the error is obvious, but in many other 
+types of WebApp testing (e.g., navigation testing, performance testing, security 
+
+testing) the underlying cause of the error may be considerably more difﬁ cult to 
+determine.   
+ 
+ 
+25.1.3   
+Testing Strategy 
+ 
+The strategy for WebApp testing adopts the basic principles for all software test-
+ing (Chapter 22) and applies a strategy and tactics that have been recommended 
+for object-oriented systems (Chapter 24). The following steps summarize the 
+approach:   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1.
+  The content model for the WebApp is reviewed to uncover errors. 
+  
+ 
+ 
+ 2.
+  The interface model is reviewed to ensure that all use cases can be accommodated.   
+ 
+ 
+ 3.
+  The design model for the WebApp is reviewed to uncover navigation 
+errors.   
+ 
+ 
+ 4.
+  The user interface is tested to uncover errors in presentation and/or navigation mechanics.   
+ 
+ 
+ 5.
+  Selected functional components are unit tested.   
+ 
+ 
+ 6.
+  Navigation throughout the architecture is tested.   
+ 
+ 
+ 7.
+  The WebApp is implemented in a variety of different environmental 
+conﬁ gurations and is tested for compatibility with each conﬁ
+ guration. 
+  
+ 
+ 
+ 8.
+  Security tests are conducted in an attempt to exploit vulnerabilities in the WebApp or within its environment. 
+  
+ 
+ 
+ 9.
+  Performance tests are conducted.   
+ 
+ 
+ 10.
+  The WebApp is tested by a controlled and monitored population of 
+end users; the results of their interaction with the system are 
+evaluated for content and navigation errors, usability concerns, 
+compatibility concerns, and WebApp security, reliability, and 
+
+performance.  
+ 
+ 
+ 
+ 
+   
+Because many WebApps evolve continuously, the testing process is an ongoing 
+activity, conducted by Web support staff who use regression tests derived from 
+
+the tests developed when the WebApp was ﬁ
+ rst engineered. 
+ 
+ 
+ 
+ 
+25.1.4   
+Test Planning 
+ 
+The use of the word  planning 
+ (in any context) is anathema to some Web devel-
+opers. These developers don’t plan; they just start—hoping that a killer WebApp 
+   The overall strategy for 
+WebApp testing can be 
+
+summarized in the 10 
+steps noted here.  WebRef 
+ Excellent articles on 
+WebApp testing can 
+
+be found at   www
+.stickyminds.com/
+testing.asp  . 
+pre22126_ch25_540-566.indd   543pre22126_ch25_540-566.indd   54313/12/13   6:15 PM13/12/13   6:15 PM

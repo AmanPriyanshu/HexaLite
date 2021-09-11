@@ -1,0 +1,89 @@
+CHAPTER 29  
+SOFTWARE CONFIGURATION MANAGEMENT
+ 643Objects can be identiﬁ ed (assigned ﬁ
+ le names) in any manner that is appropriate 
+for the organization.  All content has format and structure. Internal ﬁ le formats are dictated by 
+the computing environment in which the content is stored. However,  
+rendering 
+format 
+ (often called  
+display format 
+) is deﬁ ned by the aesthetic style and design 
+rules established for the Web or MobileApp.  
+Content structure
+ 
+ deﬁ
+ nes a content 
+architecture; that is, it deﬁ nes the way in which content objects are assembled to 
+present meaningful information to an end user. Boiko [Boi04] deﬁ
+ nes structure 
+as “maps that you lay over a set of content chunks [objects] to organize them and 
+make them accessible to the people who need them.”   
+ 
+ 
+29.4.3   
+Content Management  
+ 
+ 
+Content management 
+ is related to conﬁ
+ guration management in the sense that 
+a content management system (CMS) establishes a process (supported by appro-
+priate tools) that acquires existing content (from a broad array of WebApp and/
+
+or MobileApp conﬁ guration objects), structures it in a way that enables it to be 
+presented to an end user, and then provides it to the client-side environment for 
+
+display. 
+ The most common use of a content management system occurs when a dy-namic application is built. Dynamic Web or MobileApps create pages “on the ﬂ
+ y.” 
+That is, the user typically queries the app requesting speciﬁ c information. The 
+app queries a server-side database, formats the information accordingly, and 
+
+presents it to the user. For example, a music store (e.g., Apple iTunes) provides 
+
+hundreds of thousands of tracks for sale. When a user requests a music track, a 
+database is queried and a variety of information about the artist, the CD (e.g., its 
+cover image or graphics), the musical content, and sample audio are all down-
+loaded and conﬁ gured into a standard content template. The resultant page is 
+built on the server side and passed to the client side for examination by the end 
+user. A generic representation for WebApps is shown in  
+Figure 29.6  
+ 
+.  
+ 
+ 
+ 
+  In the most general sense, a CMS “conﬁ gures” content for the end user by 
+invoking three integrated subsystems: a collection subsystem, a management 
+subsystem and a publishing subsystem [Boi04].   
+ 
+ 
+The collection subsystem.   
+Content is derived from data and information that must be created or acquired by a content developer. The  
+collection subsystem 
+ encompasses all actions required to create and/or acquire content, and the tech-
+nical functions that are necessary to (1) convert content into a form that can be 
+represented by a mark-up language (e.g., HTML, XML), and (2) organize content 
+into packets that can be displayed effectively on the client side.  Content creation and acquisition (often called  authoring 
+) commonly occurs in parallel with other development activities and is often conducted by nontechnical 
+content developers. This activity combines elements of creativity and research   
+ 
+ uote:  “Content 
+management is 
+an antidote to 
+today’s information 
+
+frenzy.” 
+ Bob Boiko 
+   The collection subsys-
+
+tem encompasses all 
+actions required to 
+create, acquire, and/
+or convert content 
+
+into a form that can 
+
+be presented on the 
+client side. pre22126_ch29_623-652.indd   643pre22126_ch29_623-652.indd   64313/12/13   6:16 PM13/12/13   6:16 PM

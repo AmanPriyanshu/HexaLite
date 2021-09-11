@@ -1,0 +1,73 @@
+530 Chapter 7  
+DatabasesIt is unlikely that research will reveal a simple, easy-to-apply measure that deter-
+mines exactly which data can be revealed without compromising sensitive data.
+Nevertheless, an effective control for the inference problem is just knowing that it 
+exists. As usual, recognizing a problem leads to understanding the need to control it 
+
+and to be aware of potential difficulties it can cause. However, just knowing of possible 
+
+database attacks does not necessarily mean people will protect against those attacks. It 
+is also noteworthy that much of the research on database inference was done in the early 
+
+1980s, but the privacy aspects of inference remain largely unchecked.
+Denning and Schlörer [DEN83] surveyed techniques for maintaining security in 
+databases. The controls for all statistical attacks are similar. Essentially, there are two 
+
+ways to protect against inference attacks: Either apply controls to the queries or apply 
+
+controls to individual items within the database. As we have seen, it is difficult to deter-
+
+mine whether a given query discloses sensitive data. Thus, query controls are effective 
+
+primarily against direct attacks.Suppression and concealing are 
+two controls applied to data items. 
+
+With 
+suppression, 
+sensitive data 
+values are not forthcoming; the 
+
+query is rejected without response. 
+With 
+concealing, the answer is close 
+to but not exactly the actual value.
+These two controls reflect the contrast between security and precision. With suppres-
+sion, any results given are correct, yet many responses must be withheld to maintain 
+
+security. With concealing, more results can be given, but their precision is lower. The 
+
+choice between suppression and concealing depends on the context of the database.
+Security Versus Precision
+Our examples have illustrated how difficult it is to determine what data are sensitive and 
+
+how to protect them. The situation is complicated by a desire to share nonsensitive data. 
+
+For reasons of confidentiality
+ we want to disclose only those data that are not sensitive. 
+Such an outlook encourages a conservative philosophy in determining what data to dis-
+
+close: less is better than more.On the other hand, consider the users of the data. The conservative philosophy sug-
+gests rejecting any query that mentions a sensitive field. We may thereby reject many 
+
+reasonable and nondisclosing queries. For example, a researcher may want a list of 
+
+grades for all students using drugs, or a statistician may request lists of salaries for all 
+men and for all women. These queries probably do not compromise the identity of any 
+
+individual. We want to disclose as much data as possible so that users of the database 
+
+have access to the data they need. This goal, called 
+precision, 
+aims to protect all sensi-tive data while revealing as much nonsensitive data as possible.
+We can depict the relationship between security and precision with concentric cir-
+cles. As Figure 7-4 shows, the sensitive data in the central circle should be carefully 
+
+concealed. The outside band represents data we willingly disclose in response to que-
+
+ries. But we know that the user may put together pieces of disclosed data and infer 
+Data suppression blocks release 
+
+of sensitive data; data concealing 
+releases part or an approximation of 
+
+sensitive data.

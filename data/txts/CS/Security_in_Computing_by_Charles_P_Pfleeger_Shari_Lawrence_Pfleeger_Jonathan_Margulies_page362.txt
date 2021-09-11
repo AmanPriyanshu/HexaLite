@@ -1,0 +1,78 @@
+328 Chapter 5  
+Operating Systemsrigor rising until at the higher levels the practices are more stringent and compliance is 
+verified by an independent testing laboratory.
+The second breakthrough of the Common Criteria was to leave functionality unlim-
+ited. With hindsight, the Orange Book writers should have realized that building a 
+
+design framework around multiuser, stand-alone mainframe computing was doomed if 
+
+ever the computing paradigm shifted. That shift occurred almost as soon as the Orange 
+
+Book was adopted as a Defense Department standard, unfortunately coinciding with the 
+
+rise of the personal computer and networking.
+Authors of the Common Criteria accepted that they could not foresee the kinds of 
+products to be created in the future. Thus, they allowed for an open-ended set of 
+protec-
+tion profiles
+ that could specify security features for particular new product types, such 
+as firewalls or intrusion detection devices, neither of which was commercially available 
+
+when the Orange Book was written.
+ As this book is written, the Common Criteria has only a single protection profile 
+for operating systems (those have remained relatively stable over time) but there are 
+
+50 profiles for integrated circuits 
+
+and smart card devices, showing the 
+
+blossoming of such products. Some 
+
+figures on Common Criteria-cer-
+
+tified products as of mid-2014 are 
+
+shown in Tables 5-3 and 5-4.
+This brief overview of trusted 
+systems has explored qualities of an operating system that let it enforce security reli-
+
+ably. As you have learned, operating systems are essential to secure computing because 
+
+they (and physical hardware) control access to all resources. The reference monitor 
+
+must be unbypassable: If someone can evade the access control mechanism, there is 
+
+no control.Next we turn to a fatal attack on operating systems, the rootkit. Figuratively, a root-
+kit is malicious code that gets beneath an operating system, in a layer between it and Common Criteria: Multinational 
+standard for security evaluation; 
+
+separates criteria into functionality  
+and effectiveness
+TABLE 5-3 
+Evaluated Products by Year
+ Year
+Number of Certified Products
+2011264
+2012302
+
+2013242
+
+2014 (partial year)a66All years: 1999–20141991
+a  Current data on products certified under the 
+Common Criteria scheme are available at  
+
+http://www.commoncriteriaportal.org/.
+TABLE 5-4 
+Evaluated Products by Type (partial list)
+ Product Type
+Number of  Certified Products
+Access control83
+Biometric authentication3
+
+Boundary protection122
+
+Database management system46
+
+Network and network device203
+
+Operating system104

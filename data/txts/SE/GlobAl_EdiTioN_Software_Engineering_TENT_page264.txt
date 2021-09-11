@@ -1,0 +1,37 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜develop the system. The system hardware may be obsolete and so increasingly 
+expensive to maintain.Why then do businesses not simply replace these systems with more modern 
+equivalents? The simple answer to this question is that it is too expensive and too 
+risky to do so. If a legacy system works effectively, the costs of replacement may 
+exceed the savings that come from the reduced support costs of a new system. 
+
+Scrapping legacy systems and replacing them with more modern software open up 
+
+the possibility of things going wrong and the new system failing to meet the needs 
+of˜the business. Managers try to minimize those risks and therefore do not want to 
+
+face the uncertainties of new software systems.I discovered some of the problems of legacy system replacement when I was 
+involved in analyzing a legacy system replacement project in a large organization. 
+This enterprise used more than 150 legacy systems to run its business. It decided to 
+replace all of these systems with a single, centrally maintained ERP system. For a 
+number of business and technology reasons, the new system development was a 
+
+failure, and it did not deliver the improvements promised. After spending more than 
+£10 million, only a part of the new system was operational, and it worked less effec-
+tively than the systems it replaced. Users continued to use the older systems but 
+
+could not integrate these with the part of the new system that had been implemented, 
+so additional manual processing was required.There are several reasons why it is expensive and risky to replace legacy systems with new systems:1. There is rarely a complete specification of the legacy system. The original spec-ification may have been lost. If a specification exists, it is unlikely that it has 
+been updated with all of the system changes that have been made. Therefore, 
+
+there is no straightforward way of specifying a new system that is functionally 
+identical to the system that is in use.2. Business processes and the ways in which legacy systems operate are often inex
+-
+tricably intertwined. These processes are likely to have evolved to take advantage 
+
+of the software™s services and to work around the software™s shortcomings. If the 
+
+system is replaced, these processes have to change with potentially unpredictable 
+
+costs and consequences.Socio-technical systemHardwarePlatform and infrastructure softwareApplication softwareBusiness processesFigure 9.8 Legacy system layers 

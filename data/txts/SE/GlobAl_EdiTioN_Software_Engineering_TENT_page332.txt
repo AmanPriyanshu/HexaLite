@@ -1,0 +1,42 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜2. The time or the number of transactions between system failures plus the total elapsed time or total number of transactions. This is used to measure ROCOF 
+
+and MTTF.3. The repair or restart time after a system failure that leads to loss of service. This 
+is used in the measurement of availability. Availability does not just depend on 
+
+the time between failures but also on the time required to get the system back 
+
+into operation.The time units that may be used in these metrics are calendar time or a discrete unit such as number of transactions. You should use calendar time for systems that 
+are in continuous operation. Monitoring systems, such as process control systems, 
+fall into this category. Therefore, the ROCOF might be the number of failures per 
+day. Systems that process transactions such as bank ATMs or airline reservation 
+
+systems have variable loads placed on them depending on the time of day. In these 
+cases, the unit of ﬁtimeﬂ used could be the number of transactions; that is, the 
+
+ROCOF would be number of failed transactions per N thousand transactions.Reliability testing is a statistical testing process that aims to measure the  reliability 
+of a system. Reliability metrics such as POFOD, the probability of failure on 
+
+demand, and ROCOF, the rate of occurrence of failure, may be used to quantita-
+tively specify the required software reliability. You can check on the reliability test-
+ing process if the system has achieved that required reliability level.The process of measuring the reliability of a system is sometimes called statistical 
+testing (Figure 11.13). The statistical testing process is explicitly geared to reliability 
+
+measurement rather than fault finding. Prowell et al
+. (Prowell et al. 1999) give a good 
+
+description of statistical testing in their book on Cleanroom software engineering.There are four stages in the statistical testing process:1. You start by studying existing systems of the same type to understand how these 
+
+are used in practice. This is important as you are trying to measure the reliability 
+as experienced by system users. Your aim is to define an operational profile. An 
+operational profile identifies classes of system inputs and the probability that 
+
+these inputs will occur in normal use.2.
+ You then construct a set of test data that reflect the operational profile. This 
+
+means that you create test data with the same probability distribution as the test 
+data for the systems that you have studied. Normally, you use a test data genera-
+tor to support this process.3. You test the system using these data and count the number and type of failures 
+that occur. The times of these failures are also logged. As I discussed in Chapter 
+10, the time units chosen should be appropriate for the reliability metric used.ComputeobservedreliabilityApply tests tosystemPrepare testdatasetIdentifyoperationalprofilesFigure 11.13 Statistical testing for reliability 
+measurement 

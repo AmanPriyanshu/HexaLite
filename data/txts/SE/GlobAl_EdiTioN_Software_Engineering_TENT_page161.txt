@@ -1,0 +1,39 @@
+˜˜˚˜˜˜˜˜˜˜
+The translation of platform-independent to platform-specific models is a simpler 
+technical problem. Commercial tools and open-source tools (Koegel 2012) are avail-able that provide translators from PIMS to common platforms such as Java and 
+
+J2EE. These use an extensive library of platform-specific rules and patterns to 
+ convert a PIM to a PSM. There may be several PSMs for each PIM in the system. If 
+a software system is intended to run on different platforms (e.g., J2EE and .NET), 
+then, in principle, you only have to maintain a single PIM. The PSMs for each 
+ platform are automatically generated (Figure 5.20).Although MDA support tools include platform-specific translators, these 
+ sometimes only offer partial support for translating PIMS to PSMs. The execution 
+environment for a system is more than the standard execution platform, such as J2EE 
+or Java. It also includes other application systems, specific application libraries that 
+
+may be created for a company, external services, and user interface libraries.These vary from one company to another, so off-the-shelf tool support is not 
+available that takes these into account. Therefore, when MDA is introduced into an 
+organization, special-purpose translators may have to be created to make use of the 
+
+facilities available in the local environment. This is one reason why many companies 
+
+have been reluctant to take on model-driven approaches to development. They do not 
+want to develop or maintain their own tools or to rely on small software companies, 
+who may go out of business, for tool development. Without these specialist tools, 
+
+model-based development requires additional manual coding which reduces the 
+
+cost-effectiveness of this approach.I believe that there are several other reasons why MDA has not become a main-stream approach to software development.1.
+ Models are a good way of facilitating discussions about a software design. 
+However, it does not always follow that the abstractions that are useful for dis-
+cussions are the right abstractions for implementation. You may decide to use a 
+
+completely different implementation approach that is based on the reuse of off-
+
+the-shelf application systems.2.
+ For most complex systems, implementation is not the major problemŠ requirements engineering, security and dependability, integration with legacy 
+PlatformindependentmodelJava program
+C# codegeneratorJava codegeneratorJ2EE Translator
+.Net Translator
+C# program
+J2EE specificmodel.NET specificmodelFigure 5.20 Multiple platform-specific models

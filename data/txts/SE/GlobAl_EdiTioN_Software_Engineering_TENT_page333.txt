@@ -1,0 +1,45 @@
+˜˜˜˚ˆ˜˜˜˜˜˜
+4. After you have observed a statistically significant number of failures, you 
+can compute the software reliability and work out the appropriate reliability 
+
+metric value.This conceptually attractive approach to reliability measurement is not easy to 
+apply in practice. The principal difficulties that arise are due to:1. Operational profile uncertainty The operational profiles based on experience 
+with other systems may not be an accurate reflection of the real use of the system.2. High costs of test data generation It can be very expensive to generate the large 
+volume of data required in an operational profile unless the process can be 
+
+totally automated.3. Statistical uncertainty when high reliability is specified You have to generate a 
+statistically significant number of failures to allow accurate reliability measure-
+ments. When the software is already reliable, relatively few failures occur and it 
+
+is difficult to generate new failures.4. Recognizing failure 
+It is not always obvious whether or not a system failure has 
+
+occurred. If you have a formal specification, you may be able to identify devia
+-
+tions from that specification, but, if the specification is in natural language, 
+
+there may be ambiguities that mean observers could disagree on whether the 
+
+system has failed.By far the best way to generate the large dataset required for reliability measure-ment is to use a test data generator, which can be set up to automatically generate 
+inputs matching the operational profile. However, it is not usually possible to auto-
+mate the production of all test data for interactive systems because the inputs are 
+
+often a response to system outputs. Datasets for these systems have to be generated 
+manually, with correspondingly higher costs. Even where complete automation is 
+
+possible, writing commands for the test data generator may take a significant amount 
+of time.Statistical testing may be used in conjunction with fault injection to gather data about how effective the process of defect testing has been. Fault injection (Voas and 
+McGraw 1997) is the deliberate injection of errors into a program. When the pro-
+gram is executed, these lead to program faults and associated failures. You then 
+
+analyze the failure to discover if the root cause is one of the errors that you have 
+
+added to the program. If you find that X% of the injected faults lead to failures, then 
+proponents of fault injection argue that this suggests that the defect testing process 
+will also have discovered X% of the actual faults in the program.This approach assumes that the distribution and type of injected faults reflect the 
+actual faults in the system. It is reasonable to think that this might be true for faults 
+
+due to programming errors, but it is less likely to be true for faults resulting from 
+requirements or design problems. Fault injection is ineffective in predicting the 
+
+number of faults that stem from anything but programming errors.

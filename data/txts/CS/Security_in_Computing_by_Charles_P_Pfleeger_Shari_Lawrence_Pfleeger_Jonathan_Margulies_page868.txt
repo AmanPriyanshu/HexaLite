@@ -1,0 +1,72 @@
+834 Chapter 13  
+Emerging Topics
+charges for each consumer but could stop cold the spammer who sends out millions of 
+messages a day.
+A similar economic concept is that of an externality
+. Here, two people or organiza-
+tions make a decision or enact a transaction, and a third party benefits—even though the 
+
+third party played no role. Howard Kunreuther and Geoffrey Heal [KUN03] are exam-
+
+ining security externalities, particularly where security problems have optimal solutions 
+
+(from a computing point of view) that are not socially optimal. They are investigating 
+
+the case in which there is a threat of an event that can happen only once, the threat’s risk 
+
+depends on actions taken by others, and any agent’s incentive to invest in reducing the 
+
+threat depends on the actions of others. Copyright and digital rights management are frequent topics for regulatory discus-
+sion. Marc Fetscherin and C. Vlietstra [FET05] examine the business models of online 
+
+music providers, particularly in how the price is determined for a given piece of music. 
+
+They show that the price is affected by buyer’s rights (to copy and move to portable 
+
+players) as well as by geographic location and music label. Felix Oberholzer and Kole-
+
+man Strumpf [OBE04] have examined records of downloads and music sales, showing 
+
+that the downloads do no harm to the music industry. This result is controversial, and 
+
+several conference papers have presented dissenting views. Hal Varian [VAR02] dis-
+
+cusses the broader problem of the effect of strict controls on innovation. He suggests 
+
+that as control increases, those who are uncomfortable with risk will stop innovating.
+In general, cybersecurity economics researchers are investigating how to use market 
+forces to encourage socially acceptable security behavior. So cybersecurity economics 
+
+will continue to emerge as companion controls to the technology-based controls we 
+
+continue to develop.
+13.3 ELECTRONIC VOTING
+Once again, we step back to examine a broad issue that cuts across several areas we 
+
+encounter as we live our lives. Each of us is a citizen, and in most of our countries, we 
+
+vote to express our views and choose people who represent us in our towns, states, and 
+
+countries. Traditionally, voting has taken place by means of paper ballots: We mark our 
+
+choices on a sheet of paper and then hand the paper to someone who will tally the votes.
+But even on paper, security looms large. A good security engineer investigating what 
+makes for good voting can point out the C-I-A requirements in the electoral process:
+• Confidentiality
+. We want to be able to cast a ballot without revealing our votes 
+to others.• Integrity
+. We want votes to represent our actual choices, and not be changed 
+between the time we mark the ballot and the time our vote is counted. We also 
+
+want every counted ballot to reflect one single vote of an authorized person. 
+
+That is, we want to be able to ensure that our votes are authentic and that the 
+
+reported totals accurately reflect the votes cast.
+• Availability
+. Usually, votes are cast during an approved pre-election period or 
+on a designated election day, so we must be able to vote when voting is allowed. 
+
+If we miss the chance to vote or if voting is suspended during the designated 
+
+period, we lose the opportunity to cast a vote in the given election.

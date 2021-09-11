@@ -1,0 +1,105 @@
+748 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+ 
+ 
+•   
+Queries 
+ are each externally published or use a message-oriented interface. A typ-ical example is DCOM or COM external references.  
+ 
+  
+Function points (interpreted in the manner noted) are a reasonable indicator of volume for a WebApp. 
+ 
+ 
+ 
+  
+ 
+Effort and Cost Estimation 
+ 
+ Objective: 
+ The objective of effort and 
+cost estimation tools is to provide a project team with estimates of effort required, project 
+
+duration, and cost in a manner that addresses the 
+speciﬁ c characteristics of the project at hand and the 
+environment in which the project is to be built.   Mechanics: 
+ In general, cost estimation tools make use of an historical database derived from local projects 
+and data collected across the industry, and an empirical 
+
+model (e.g., COCOMO II) that is used to derive effort, 
+
+duration, and cost estimates. Characteristics of the 
+project and the development environment are input and 
+the tool provides a range of estimation outputs.   
+Representative Tools:   
+13 
+ 
+ 
+ 
+ 
+  
+ 
+Costar,
+ 
+ developed by Softstar Systems ( www.softstarsystems.com
+ 
+), uses the COCOMO II model to develop software estimates.   
+Cost Xpert,
+ 
+ developed by Cost Xpert Group 
+( www.costxpert.com
+ 
+), integrates multiple estimation models and an historical project database.   
+Construx Professional, 
+ developed by Construx ( http://www.construx.com/Resources/
+Construx_Estimate/ 
+), is based on Putnam Model and COCOMO II.   
+Knowledge Plan, 
+ developed by Software Productivity Research ( www.spr.com
+ 
+), uses function point input as the primary driver for a complete estimation 
+
+package.   
+Price S, 
+ developed by Price Systems ( www.pricesystems.com
+ 
+), is one of the oldest and most widely used estimating tools for large-scale 
+software development projects.   
+SEER/SEM, 
+ developed by Galorath ( www.galorath.com
+ 
+), provides comprehensive estimation capability, sensitivity analysis, risk 
+
+assessment, and other features.   
+SLIM-Estimate, 
+ developed by QSM ( www.qsm.com
+ 
+), draws on comprehensive “industry knowledge bases” 
+
+to provide a “sanity check” for estimates derived 
+using local data.   
+SOFTWARE
+ TOOLS  
+ 
+13  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+  
+ 
+ 
+ 
+ 
+ 
+ 33.10  
+THE MAKE/BUY DECISION  
+ 
+In many software application areas, it is often more cost-effective to acquire than develop computer software. Software engineering managers are faced 
+with a make/buy decision that can be further complicated by a number of 
+acquisition options: (1) software may be purchased (or licensed) off-the-shelf, 
+(2) “full-experience” or “partial-experience” software components (see Sec-
+tion 33.4.2) may be acquired and then modiﬁ ed and integrated to meet speciﬁ
+ c 
+needs, or (3) software may be custom built by an outside contractor to meet the 
+purchaser’s speciﬁ
+ cations. 
+ The steps involved in the acquisition of software are deﬁ ned by the criticality 
+of the software to be purchased and the end cost. In some cases (e.g., low-cost pre22126_ch33_727-753.indd   748pre22126_ch33_727-753.indd   74813/12/13   6:17 PM13/12/13   6:17 PM

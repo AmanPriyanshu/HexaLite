@@ -1,0 +1,85 @@
+CHAPTER 32  
+PROCESS AND PROJECT METRICS 725 
+ 
+ 
+32.4.  Grady suggests an etiquette for software metrics. Can you add three more rules to those noted in Section 32.1.1?    
+ 
+32.5.  Team A found 342 errors during the software engineering process prior to release. 
+Team B found 184 errors. What additional measures would have to be made for projects A 
+
+and B to determine which of the teams eliminated errors more efﬁ ciently? What metrics 
+would you propose to help in making the determination? What historical data might be 
+useful?    
+ 
+32.6.  Present an argument against lines of code as a measure for software productivity. Will 
+your case hold up when dozens or hundreds of projects are considered?    
+ 
+32.7.  Compute the function point value for a project with the following information domain characteristics:   
+ 
+ 
+   
+  Number of user inputs: 32    
+ 
+   
+  Number of user outputs: 60    
+ 
+   
+  Number of user inquiries: 24    
+ 
+   
+  Number of ﬁ les: 8 
+   
+ 
+   
+  Number of external interfaces: 2  
+ 
+   
+  Assume that all complexity adjustment values are average. Use the algorithm noted in Chapter 30.    
+ 
+32.8.  Using the table presented in Section 32.2.3, make an argument against the use of as-sembler language based on the functionality delivered per statement of code. Again refer-
+
+ring to the table, discuss why C11 would present a better alternative than C.    
+ 
+32.9.  The software used to control a photocopier requires 32,000 lines of C and 4,200 lines of Smalltalk. Estimate the number of function points for the software inside the copier. 
+   
+ 
+32.10.  A Web engineering team has built an e-commerce WebApp that contains 145 individ-
+ual pages. Of these pages, 65 are dynamic; that is, they are internally generated based on 
+end-user input. What is the customization index for this application?    
+ 
+32.11.  A WebApp and its support environment have not been fully fortiﬁ
+ ed against attack. 
+Web engineers estimate that the likelihood of repelling an attack is only 30 percent. The 
+
+system does not contain sensitive or controversial information, so the threat probability is 
+25 percent. What is the integrity of the WebApp? 
+   
+ 
+32.12.  At the conclusion of a project, it has been determined that 30 errors were found during the modeling phase and 12 errors were found during the construction phase that 
+were traceable to errors that were not discovered in the modeling phase. What is the DRE 
+for these two phases?    
+ 
+32.13.  A software team delivers a software increment to end users. The users uncover eight defects during the ﬁ rst month of use. Prior to delivery, the software team found 242 errors 
+during formal technical reviews and all testing tasks. What is the overall DRE for the project 
+after one month’s usage? 
+  
+ 
+ 
+ 
+  F
+URTHER
+ READINGS AND INFORMATION
+ SOURCES  
+ 
+Software process improvement (SPI) has received a signiﬁ cant amount of attention over the 
+past two decades. Since measurement and software metrics are key to successfully improv-
+ing the software process, many books on SPI also discuss metrics. Books by Arban ( Soft-ware Metrics and Software Methodology,
+ 
+ Wiley-IEEE Computer Society, 2010), Rico ( 
+ROI of Software Process Improvement,
+ 
+ J. Ross Publishing, 2004) provides an in-depth discussion of 
+SPI and the metrics that can help an organization achieve it. Ebert and his colleagues ( Best Practices in Software Measurement,
+ 
+ Springer, 2004) address the use of measurement within 
+pre22126_ch32_703-726.indd   725pre22126_ch32_703-726.indd   72513/12/13   6:17 PM13/12/13   6:17 PM

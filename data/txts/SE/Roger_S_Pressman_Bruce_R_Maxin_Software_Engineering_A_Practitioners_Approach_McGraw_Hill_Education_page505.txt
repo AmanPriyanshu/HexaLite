@@ -1,0 +1,66 @@
+CHAPTER 22  
+SOFTWARE TESTING STRATEGIES
+ 475categories discussed earlier. Each test case should be coupled with a set of ex-
+pected results.  Because a component is not a stand-alone program, driver and/or stub soft-ware must often be developed for each unit test. The unit test environment is 
+illustrated in  Figure 22.4 . In most applications a  driver 
+ is nothing more than a 
+“main program” that accepts test-case data, passes such data to the component 
+(to be tested), and prints relevant results.  Stubs 
+ serve to replace modules that are 
+subordinate (invoked by) the component to be tested. A stub or “dummy subpro-
+gram” uses the subordinate module’s interface, may do minimal data manipula-
+
+tion, prints veriﬁ cation of entry, and returns control to the module undergoing 
+testing.  
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+Drivers and stubs represent testing “overhead.” That is, both are software that must be coded (formal design is not commonly applied) but that is not delivered 
+with the ﬁ nal software product. If drivers and stubs are kept simple, actual over-
+head is relatively low. Unfortunately, many components cannot be adequately 
+
+unit tested with “simple” overhead software. In such cases, complete testing can 
+be postponed until the integration test step (where drivers or stubs are also used).   
+ 
+ 
+ 
+22.3.2   
+Integration Testing 
+ 
+ 
+ 
+ 
+ 
+ 
+A neophyte in the software world might ask a seemingly legitimate question once all modules have been unit tested: “If they all work individually, why do you doubt 
+
+that they’ll work when we put them together?” The problem, of course, is “put-
+ting them together”—interfacing. Data can be lost across an interface; one com-
+ponent can have an inadvertent, adverse effect on another; subfunctions, when 
+combined, may not produce the desired major function; individually acceptable    There are some situa-
+tions in which you will 
+not have the resources 
+to do comprehensive 
+unit testing. Select crit-
+ical modules and those 
+with high cyclomatic 
+complexity and unit-
+test only those.    Taking the “big bang” 
+
+approach to integration 
+is a lazy strategy that 
+is doomed to failure. 
+Integrate incremen-
+tally, testing as you go. 
+TestcasesInterface
+Local data structures
+Boundary conditions
+Independent paths
+Error-handling pathsModuleto betestedStubStubDriverRESULTS FIGURE 22.4 
+Unit-test environment
+pre22126_ch22_466-495.indd   475pre22126_ch22_466-495.indd   47513/12/13   6:14 PM13/12/13   6:14 PM

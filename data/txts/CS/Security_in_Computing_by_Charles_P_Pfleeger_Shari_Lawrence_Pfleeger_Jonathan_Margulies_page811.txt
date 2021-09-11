@@ -1,0 +1,54 @@
+ Section 12.1  Cryptology 
+777  ION, AND, and ING, occur with high frequency.
+2 Alphabetic languages other than Eng-
+lish have similar results. 
+Even non-language plaintext often reveals irregularities in distribution: Machine lan-
+guage, for example, reflects the operation codes of popular instructions, and program 
+
+source code reflects the keywords of the language and programmers’ choices for vari-
+
+able names.To the cryptanalyst these frequency distributions are helpful because they reflect 
+certain irregularities of the underlying language that may be exhibited in the output 
+
+ciphertext.
+What Makes a “Secure” Encryption Algorithm?
+Encryption algorithms abound, including many techniques beyond those we discuss in 
+
+this book. Suppose you have text to encrypt. How do you choose an encryption algo-
+
+rithm for a particular application? To answer this question, reconsider what we have 
+
+learned so far about encryption. We looked at two broad classes of algorithms: substitu-
+
+tions and transpositions. Substitutions “hide” the letters of the plaintext, and multiple 
+
+substitutions dissipate high letter frequencies to make it harder to determine how the 
+
+substitution is done. By contrast, transpositions scramble text so that adjacent-character 
+
+analysis fails.
+For each type of encryption we considered, we described the advantages and disad-
+vantages. But there is a broader question: What does it mean for a cipher to be “good”? 
+
+The meaning of good depends on the intended use of the cipher. A cipher to be used by 
+military personnel in the field has different requirements from one to be used in a secure 
+
+installation with substantial computer support. In this section, we look more closely at 
+the different characteristics of ciphers.
+Shannon’s Characteristics of “Good” Ciphers
+In 1949, Claude Shannon [SHA49] proposed several characteristics that identify a 
+good cipher.
+1. The amount of secrecy needed should determine the amount of labor appropri-
+ate for the encryption and decryption.Principle 1 is a reiteration of the principle of timeliness from Chapter 1 and of the 
+earlier observation that even a simple cipher may be strong enough to deter the casual 
+
+interceptor or to hold off any interceptor for a short time.
+2. The set of keys and the enciphering algorithm should be free from complexity.
+This principle implies that we should restrict neither the choice of keys nor the types 
+of plaintext on which the algorithm can work. For instance, an algorithm that works 
+
+only on plaintext having an equal number of A’s and E’s is useless. Similarly, it would 
+2. Note that the exact frequencies vary depending on the text being considered: A count of letters in a dic-
+tionary would be slightly different from that of a newspaper, a technical report, or the King James Bible 
+
+because the words used are drawn from a skewed source in each case.

@@ -1,0 +1,89 @@
+CHAPTER 23  
+TESTING CONVENTIONAL APPLICATIONS
+ 509 
+ 
+ 
+Unstructured Loops.   
+Whenever possible, this class of loops should be rede-signed to reﬂ ect the use of the structured programming constructs (Chapter 14). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 23.6  
+BLACK-BOX TESTING  
+ 
+ 
+Black-box testing 
+, also called  behavioral testing 
+ or  
+functional testing, 
+ focuses on 
+the functional requirements of the software. That is, black-box testing techniques 
+enable you to derive sets of input conditions that will fully exercise all functional 
+requirements for a program. Black-box testing is not an alternative to white-box 
+techniques. Rather, it is a complementary approach that is likely to uncover a 
+
+different class of errors than white-box methods.  Black-box testing attempts to ﬁ nd errors in the following categories: (1) incor-
+rect or missing functions, (2) interface errors, (3) errors in data structures or ex-
+ternal database access, (4) behavior or performance errors, and (5) initialization 
+and termination errors.  Unlike white-box testing, which is performed early in the testing process, black-box testing tends to be applied during later stages of testing (see Chapter 22). Be-
+cause black-box testing purposely disregards control structure, attention is focused 
+
+on the information domain. Tests are designed to answer the following questions:
+  
+ 
+ 
+•  How is functional validity tested?   
+ 
+ 
+•  How are system behavior and performance tested?   
+ 
+ 
+•  What classes of input will make good test cases?   
+ 
+ 
+•  Is the system particularly sensitive to certain input values?   
+ 
+ 
+•  How are the boundaries of a data class isolated?   
+ 
+ 
+•  What data rates and data volume can the system tolerate?   
+ 
+ 
+•  What effect will speciﬁ c combinations of data have on system operation? 
+ 
+ 
+   
+ 
+By applying black-box techniques, you derive a set of test cases that satisfy the fol-lowing criteria [Mye79]: test cases that reduce, by a count that is greater than one, 
+
+the number of additional test cases that must be designed to achieve reasonable 
+
+testing, and test cases that tell you something about the presence or absence of 
+
+classes of errors, rather than an error associated only with the speciﬁ c test at hand. 
+ 
+ 
+ 
+23.6.1   
+Graph-Based Testing Methods 
+ 
+ 
+ 
+The ﬁ rst step in black-box testing is to understand the objects 
+ 5 
+ 
+ that are modeled in software and the relationships that connect these objects. Once this has been 
+accomplished, the next step is to deﬁ ne a series of tests that verify “all objects 
+ What 
+questions do black-box tests 
+answer? ?  
+5  In this context, you should consider the term  
+objects 
+ in the broadest possible context. It en-
+compasses data objects, traditional components (modules), and object-oriented elements of 
+computer software. pre22126_ch23_496-522.indd   509pre22126_ch23_496-522.indd   50913/12/13   6:14 PM13/12/13   6:14 PM

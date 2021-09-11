@@ -1,0 +1,60 @@
+ Section 11.7  Incident Analysis with Ethics 
+761  Searching for Vulnerabilities and Customers
+What are the ethical issues involved in searching for vulnerabilities? Again, the party 
+of greatest interest is the user community and the good or harm that can come from 
+
+the search.On the positive side, searching may find vulnerabilities. Clearly, it would be wrong 
+for Goli to report vulnerabilities that were not there simply to get work, and it would 
+
+also be wrong to report some but not all vulnerabilities to be able to use the additional 
+
+vulnerabilities as future leverage against the client.
+But suppose Goli does a diligent search for vulnerabilities and reports them to the potential client. Is that not similar to a service station owner’s advising you that a head-
+
+light is not operating when you take your car in for gasoline? Not quite, you might say. 
+
+The headlight flaw can be seen without any possible harm to your car; probing for vul-
+
+nerabilities might cause your system to fail.
+The ethical question seems to be which is greater: the potential for good or the poten-
+tial for harm? And if the potential for good is stronger, how much stronger does it need 
+
+to be to override the risk of harm?
+This problem is also related to the common practice of ostensible nonmalicious 
+probing for vulnerabilities: Hackers see if they can access your system without your 
+
+permission, perhaps by guessing a password. Eugene Spafford [SPA98] points out that 
+
+many crackers simply want to look around, without damaging anything. As discussed in 
+
+Sidebar 11-3, Spafford compares this seemingly innocent activity with entry into your 
+
+house when the door is unlocked. Even when done without malicious intent, crack-
+
+ing can be a serious offense; at its worst, it has caused millions of dollars in damage. 
+
+Although crackers are prosecuted severely with harsh penalties, cracking continues to 
+
+be an appealing crime, especially to juveniles.
+SIDEBAR 11-3 Is Cracking a Benign Practice?
+Many people argue that cracking is an acceptable practice because lack of protection means that the owners of systems or data do not really value 
+
+them. Eugene Spafford [SPA98] questions this logic by using the analogy 
+
+of entering a house.Consider the argument that an intruder who does no harm and makes 
+no changes is simply learning about how computer systems operate. “Most 
+
+of these people would never think to walk down a street, trying every door to 
+
+find one unlocked, then search through the drawers or the furniture inside. 
+
+Yet, these same people seem to give no second thought to making repeated 
+
+attempts at guessing passwords to accounts they do not own, and once onto 
+
+a system, browsing through the files on disk.” How would you feel if you knew 
+
+your home had been invaded, even if no harm was done?
+Spafford notes that breaking into a house or a computer system con-
+stitutes trespassing. To do so in an effort to make security vulnerabilities 
+(continues)

@@ -1,0 +1,57 @@
+ Section 13.4  Cyber Warfare 
+841  or all votes are recorded and then examined later, to make sure that no changes were 
+made from the time the vote was cast to the time it was recorded and tallied with other 
+
+votes. Sometimes, a printed version of the result is used so that the voting process can 
+
+be reconstructed. Indeed, some researchers argue that only with a printed copy and 
+
+voter verification can a voting process be fair.
+How could the audit log itself be the subject of an attack? And what about protecting 
+the privacy of votes in transmission to election headquarters?
+UsabilityVoting systems are to be used by all people, but we know that factors of age, physi-
+cal condition, mental acuity, and language and reading skills affect how people inter-
+
+act with technology. On one hand, computer technology may improve access by, for 
+
+example, providing a large-type ballot or one in a foreign language. On the other hand, 
+
+usability (or its lack) can harm accuracy if, for example, a critical instruction (“to cast 
+
+this ballot press [here]”) were displayed in small type or after a few seconds the pro-
+
+gram moved to the next screen even if the voter had not selected a choice. How could 
+
+you alter the outcome of an election by usability features? How can usability promote 
+
+or reduce availability?
+Cost and BenefitMany of the techniques we can devise for protecting the electronic voting process can 
+be complicated and expensive. How much is enough for protecting votes and providing 
+
+a fair election? How would we determine the return on investment, especially when a 
+
+small number of votes can make a big difference in an election? And can we always 
+
+assume that an electronic process is more efficient? Switzerland, a land of approxi-
+
+mately five million eligible voters, uses both paper and electronic ballots in its voting 
+
+process, with the electronic portion currently capped at 20 percent of the electorate. But 
+the results of a Swiss election are usually available within six hours of the polls’ closure. 
+
+This efficiency results from simple ballot design and simple elections (for example, 
+
+not very many candidates on the ballot). How can we determine the trade-offs between 
+
+technological risk and voting risk?
+13.4 CYBER WARFARE
+In recent years, many governments have turned their attention to the notion of cyber 
+
+warfare, asking several key questions:
+• When is an attack on the cyber infrastructure considered to be an act of warfare?
+• Is cyberspace different enough to be considered a separate domain for war, or is 
+it much like any other domain (such as land, sea, or air)?
+• What are the different ways of thinking about cyber war offense and defense?
+
+• What are the benefits and risks of strategic cyber warfare and tactical cyber 
+warfare?

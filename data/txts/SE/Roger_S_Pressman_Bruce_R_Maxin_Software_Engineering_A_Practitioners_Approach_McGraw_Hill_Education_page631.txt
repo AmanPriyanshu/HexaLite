@@ -1,0 +1,120 @@
+601 FORMAL MODELINGAND VERIFICATION
+   
+ 
+ 
+ 
+ 
+ Unlike reviews and testing that begin once software models and code have been developed, formal modeling and veriﬁ cation incorporate 
+specialized modeling methods that are integrated with prescribed ver-
+iﬁ cation approaches. Without the appropriate modeling approach, veriﬁ
+ ca-
+tion cannot be accomplished.  In this chapter and in Appendix 3 we discuss two formal modeling and ver-
+iﬁ cation methods— 
+cleanroom software engineering
+ 
+ and  
+formal methods 
+. Both demand a specialized speciﬁ cation approach and each applies a unique veri-
+ﬁ cation method. Both are quite rigorous and neither is used widely by the soft-
+ware engineering community. But if you intend to build bulletproof software, 
+
+these methods can help you immeasurably. They’re worth learning about. 
+  
+What is it?   How many times have 
+you heard someone say, “Do it right 
+
+the ﬁ rst time”? If we achieved that in 
+software, there’d be considerably 
+less effort expended on unnecessary software 
+
+rework. Two advanced software engineering 
+
+methods—cleanroom software engineering and 
+
+formal methods—help a software team to “do 
+
+it right the ﬁ rst time” by providing a mathemat-
+ically based approach to program modeling 
+
+and the ability to verify that the model is correct. 
+
+Cleanroom software engineering emphasizes 
+
+mathematical veriﬁ cation of correctness before 
+program construction commences and certiﬁ
+ ca-
+tion of software reliability as part of the testing 
+
+activity. Formal methods use set theory and logic 
+
+notation to create a clear statement of facts (re-
+quirements) that can be analyzed to improve (or 
+
+even prove) correctness and consistency. The 
+
+bottom line for both methods is the creation of 
+
+software with extremely low failure rates. 
+  
+ 
+Who does it?   A specially trained software engineer. 
+  
+ 
+Why is it important? 
+  Mistakes create re-work. Rework takes time and increases costs. 
+Wouldn’t it be nice if you could dramati-
+
+cally reduce the number of mistakes (bugs) introduced as the software is designed and built? That’s the premise of formal modeling 
+
+and veriﬁ cation. 
+  
+ 
+What are the steps?   Requirements and de-sign models are created using specialized 
+notation that is amenable to mathematical veri-
+ﬁ cation. Cleanroom software engineering uses 
+box structure representation that encapsulates 
+the system (or some aspect of the system) at a 
+speciﬁ c level of abstraction. Correctness veriﬁ
+ -cation is applied once the box structure design 
+is complete. Once correctness has been ver-
+
+iﬁ ed for each box structure, statistical usage 
+testing commences. Formal methods translate 
+
+software requirements into a more formal 
+
+representation by applying the notation and 
+heuristics of sets to deﬁ ne the data invariant, 
+states, and operations for a system function.   
+ 
+What is the work product? 
+  A specialized, formal model of requirements is developed. 
+
+The results of correctness proofs and statistical 
+use tests are recorded.   
+ 
+How do I ensure that I’ve done it right?   Formal proof of correctness is applied to the 
+requirements model. Statistical use testing ex-
+ercises usage scenarios to ensure that errors in 
+user functionality are uncovered and corrected.   
+QUICK LOOK  KEY CONCEPTS     box structure 
+speciﬁ cation  . . . . . 604  
+    certiﬁ
+ cation  . . . . . 612  
+    cleanroom design  . 607  
+
+    cleanroom process 
+
+model. . . . . . . . . . 603  
+
+    correctness 
+
+veriﬁ cation. . . . . . 608  
+    design 
+
+reﬁ nement  . . . . . . 608  
+ 
+ 
+ 
+ 
+CHAPTER28 pre22126_ch28_601-622.indd   601pre22126_ch28_601-622.indd   60113/12/13   6:15 PM13/12/13   6:15 PM

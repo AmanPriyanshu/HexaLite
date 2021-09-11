@@ -1,0 +1,76 @@
+CHAPTER 22  
+SOFTWARE TESTING STRATEGIES
+ 481 
+ 
+ 
+ 
+ 
+ 
+ 
+ 22.4  
+TEST STRATEGIES
+ FOR OBJECT-ORIENTED SOFTWARE
+ 
+ 4   
+  
+The objective of testing, stated simply, is to ﬁ
+ nd the greatest possible number of 
+errors with a manageable amount of effort applied over a realistic time span. Al-
+though this fundamental objective remains unchanged for object-oriented soft-
+ware, the nature of object-oriented software changes both testing strategy and 
+testing tactics (Chapter 24).   
+ 
+ 
+22.4.1   
+Unit Testing in the OO Context 
+ 
+When object-oriented software is considered, the concept of the unit changes. Encapsulation drives the deﬁ nition of classes and objects. This means that each 
+class and each instance of a class packages attributes (data) and the operations 
+that manipulate these data. An encapsulated class is usually the focus of unit 
+testing. However, operations (methods) within the class are the smallest testable 
+
+units. Because a class can contain a number of different operations, and a par-
+
+ticular operation may exist as part of a number of different classes, the tactics 
+applied to unit testing must change.   
+ 
+ 
+ 
+ 
+You can no longer test a single operation in isolation (the conventional view 
+of unit testing) but rather as part of a class. To illustrate, consider a class hier-
+
+archy in which an operation  X 
+ is deﬁ
+ ned for the superclass and is inherited by 
+a number of subclasses. Each subclass uses operation  X 
+, but it is applied within the context of the private attributes and operations that have been deﬁ ned for 
+the subclass. Because the context in which operation  X 
+ is used varies in subtle 
+ways, it is necessary to test operation  X 
+ in the context of each of the subclasses. 
+This means that testing operation  X 
+ in a stand-alone fashion (the conventional 
+unit-testing approach) is usually ineffective in the object-oriented context.  Class testing for OO software is the equivalent of unit testing for conventional software. Unlike unit testing of conventional software, which tends to focus on 
+the algorithmic detail of a module and the data that ﬂ ow across the module in-
+terface, class testing for OO software is driven by the operations encapsulated by 
+the class and the state behavior of the class.   
+ 
+ 
+22.4.2   
+Integration Testing in the OO Context 
+ 
+Because object-oriented software does not have an obvious hierarchical con-trol structure, traditional top-down and bottom-up integration strategies (Sec-
+22.3.2) have little meaning. In addition, integrating operations one at a time 
+
+into a class (the conventional incremental integration approach) is often impos-
+sible because of the “direct and indirect interactions of the components that 
+make up the class” [Ber93].   
+4  Basic object-oriented concepts are presented in Appendix 2. 
+   Class testing for OO 
+software is analogous 
+to module testing for 
+conventional software. 
+It is not advisable 
+to test operations in 
+isolation. pre22126_ch22_466-495.indd   481pre22126_ch22_466-495.indd   48113/12/13   6:14 PM13/12/13   6:14 PM

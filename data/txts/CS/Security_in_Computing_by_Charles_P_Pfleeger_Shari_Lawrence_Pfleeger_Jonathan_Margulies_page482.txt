@@ -1,0 +1,41 @@
+448 Chapter 6  
+Networksand maintaining their own network equipment to provide a private link between the 
+two sites. This solution is often costly, and the company assumes full responsibility 
+
+for maintaining the connection. Often such companies are not in the networking busi-
+
+ness, but maintaining that one link requires them to become or hire network administra-
+
+tors. However, the company may not like the risk of communicating sensitive company 
+
+information across a public, shared network.
+The alternative is a 
+virtual private network
+ between the offices. With link encryp-
+tion, all communications between the sites are encrypted. Most of the cost of this solu-
+tion is in acquiring and setting up the network. Some employee communications will 
+
+involve sensitive plans and confidential data; other communications will be mundane 
+
+office chatter about sports teams or lunch plans. There is almost no harm in encrypting 
+
+the chatter as well as the important traffic because the added time to encrypt and decrypt 
+
+all traffic is usually insignificant relative to the network transmission time.
+Firewalls (described in the next section) can implement a VPN. When a user first 
+establishes a communication with the firewall, the user can request a VPN session with 
+
+the firewall. The user’s client and the firewall negotiate a session encryption key, and the 
+
+firewall and the client subsequently use that key to encrypt all traffic between the two. 
+
+In this way, the larger network is restricted only to those given special access by the 
+
+VPN. In other words, it feels to the user as if the larger network is private, even though 
+
+it is not. With the VPN, we say that the communication passes through an encrypted 
+
+tunnel. Establishment of a VPN is shown in Figure 6-48.
+FIGURE 6-48 Establishment of a VPN
+Firewall AFirewall BOffice AOffice BA1A2A3A4B1B2B3B4EncryptedTo other
+sites

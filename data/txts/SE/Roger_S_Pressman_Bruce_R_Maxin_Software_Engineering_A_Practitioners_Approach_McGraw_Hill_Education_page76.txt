@@ -1,0 +1,44 @@
+46 PART ONE  
+THE SOFTWARE PROCESS
+ 
+But what do you do with the prototype when it has served the purpose de-scribed earlier? Brooks [Bro95] provides one answer:  
+In most projects, the ﬁ rst system built is barely usable. It may be too slow, too big, 
+awkward in use or all three. There is no alternative but to start again, smarting but 
+smarter, and build a redesigned version in which these problems are solved. 
+ 
+  
+The prototype can serve as “the ﬁ rst system.” The one that Brooks recom-
+mends you throw away. But this may be an idealized view. Although some pro-
+
+totypes are built as “throwaways,” others are evolutionary in the sense that the 
+prototype slowly evolves into the actual system.   
+Both stakeholders and software engineers like the prototyping paradigm. Users get a feel for the actual system, and developers get to build something im-
+mediately. Yet, prototyping can be problematic for the following reasons:
+  
+ 
+ 
+ 1.  Stakeholders see what appears to be a working version of the software, unaware that the prototype is held together haphazardly, unaware that in 
+
+the rush to get it working you haven't considered overall software quality 
+or long-term maintainability. When informed that the product must be re-
+
+built so that high levels of quality can be maintained, stakeholders cry foul 
+and demand that “a few ﬁ xes” be applied to make the prototype a working 
+product. Too often, software development management relents. 
+   
+ 
+ 2.  As a software engineer, you often make implementation compromises 
+in order to get a prototype working quickly. An inappropriate operat-
+
+ing system or programming language may be used simply because it is  FIGURE 4.4 
+The prototyp-
+ing paradigmCommunicationQuick planConstructionof
+prototypeModeling
+ Quick design  Deployment  Delivery 
+
+  & Feedback   Resist pressure to 
+extend a rough proto-
+type into a production 
+product. Quality almost 
+always suffers as a 
+result. pre22126_ch04_040-065.indd   46pre22126_ch04_040-065.indd   4613/12/13   6:10 PM13/12/13   6:10 PM

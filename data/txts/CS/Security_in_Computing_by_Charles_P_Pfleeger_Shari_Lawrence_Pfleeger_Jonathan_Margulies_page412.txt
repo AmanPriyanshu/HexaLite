@@ -1,0 +1,57 @@
+378 Chapter 6  
+NetworksOn the other hand, antennas can be tuned to the frequency of wireless communica-
+tion. Focusing directly on the source of a signal can also improve reception at great 
+
+distance. In Table 6-2 we estimate some reasonable ranges for different WiFi protocols. 
+
+Experimental results with 802.11n have demonstrated reception at distances of approxi-
+
+mately 5000 ft/1600 m in ideal conditions. Most WiFi-enabled computers now communicate on the 802.11n protocol (and for 
+compatibility on all earlier ones, as well), so the range is easily from one house to the 
+
+street, and even a few houses away in a conventional neighborhood. As described in 
+
+Sidebar 6-10, Google embarked on an adventurous project to map WiFi connectivity all 
+
+over the world. The objective of this mapping is not obvious, but the European Union 
+
+determined that Google was stepping over a line in collecting these data.
+TABLE 6-2  
+Typical 802.11 Protocol Access 
+RangeProtocolOrdinary Signal Range
+802.11a 100 ft / 35 m
+802.11b 300 ft / 100 m
+
+802.11g 300 ft / 100 m
+
+802.11n 1000 ft / 350 m
+SIDEBAR 6-10 Google’s Street View Project
+Google’s Street View project, launched in 2007, involved cars with cameras 
+driving the streets of various cities to capture photographs of street scenes. 
+
+These images were combined with GPS coordinates to fix each image to its 
+
+physical location.According to the Electronic Privacy Information Center [EPI10], while 
+photographing scenes along these streets, Google’s cars also operated 
+
+wireless network scanners and receivers, ran programs to select unen-
+
+crypted network traffic encountered, and wrote that content to computer 
+
+disks, along with the GPS coordinates at which the signal was received. 
+
+Some of that data included email account passwords and email mes-
+
+sages. Google also intercepted and saved network device identifiers 
+
+(MAC addresses) and wireless network station identifiers (SSIDs) from 
+
+wireless networks it detected from the streets. Wireless addresses com-
+
+bined with physical location could be used to deliver targeted advertising. 
+
+An independent audit of the programs, commissioned by Google, [STR10] 
+
+documents the syntactic analysis of collected data to be able to store 
+
+individual fields. 

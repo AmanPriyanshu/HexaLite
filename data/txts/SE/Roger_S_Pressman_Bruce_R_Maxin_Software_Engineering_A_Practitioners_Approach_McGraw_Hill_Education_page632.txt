@@ -1,0 +1,74 @@
+602 PART THREE  
+QUALITY MANAGEMENT 
+ 
+Cleanroom software engineering
+ 
+ is an approach that emphasizes the need to 
+build correctness into software as it is being developed. Instead of the classic 
+analysis, design, code, test, and debug cycle, the cleanroom approach suggests a 
+different point of view [Lin94]:  
+The philosophy behind cleanroom software engineering is to avoid dependence on costly defect removal processes by writing code increments right the ﬁ rst time and 
+verifying their correctness before testing. Its process model incorporates the statisti-
+cal quality certiﬁ cation of code increments as they accumulate into a system. 
+ 
+  
+In many ways, the cleanroom approach elevates software engineering to another level by emphasizing the need to  prove
+ 
+ correctness.  Models developed using  formal methods 
+ are described using a formal syn-
+tax and semantics that specify system function and behavior. The speciﬁ
+ cation 
+is mathematical in form (e.g., predicate calculus can be used as the basis for a 
+formal speciﬁ cation language). In his introduction to formal methods, Anthony 
+Hall [Hal90] makes a comment that applies equally to cleanroom methods:  
+Formal methods [and cleanroom software engineering] are controversial. Their ad-vocates claim that they can revolutionize [software] development. Their detractors 
+think they are impossibly difﬁ cult. Meanwhile, for most people, formal methods [and 
+cleanroom software engineering] are so unfamiliar that it is difﬁ cult to judge the 
+competing claims.  
+  
+We present an overview of formal modeling and veriﬁ
+ cation concepts in this 
+chapter. In Appendix 3 we explore some of the technical details of formal mod-
+
+eling and veriﬁ cation. 
+ 
+ 
+ 
+ 28.1  
+THE CLEANROOM STRATEGY
+  
+ 
+Cleanroom software engineering makes use of a specialized version of the in-cremental software model introduced in Chapter 4. A “pipeline of software in-
+crements” [Lin94] is developed by small independent software teams. As each 
+increment is certiﬁ ed, it is integrated into the whole. Hence, functionality of the 
+system grows with time.  The sequence of cleanroom tasks for each increment is illustrated in  Fig-28.1 
+. Within the pipeline for cleanroom increments, the following tasks occur: 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Increment planning.  A project plan that adopts the incremental strategy is developed. The functionality of each increment, its projected size, and a 
+cleanroom development schedule are created. Special care must be taken 
+to ensure that certiﬁ ed increments will be integrated in a timely manner. 
+  
+Requirements gathering. 
+ Using techniques similar to those introduced in Chapter 8, a more-detailed description of customer-level requirements 
+
+(for each increment) is developed.   What is 
+the process model that is used 
+for cleanroom 
+projects?  ?    design 
+veriﬁ cation. . . . . . 608  
+    formal methods. . . 615  
+
+    functional 
+
+speciﬁ cation  . . . . . 604  
+    statistical use 
+
+testing. . . . . . . . . 610    
+pre22126_ch28_601-622.indd   602pre22126_ch28_601-622.indd   60213/12/13   6:15 PM13/12/13   6:15 PM

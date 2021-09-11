@@ -1,0 +1,70 @@
+512 Chapter 7  
+DatabasesFinally, size or granularity is different between operating system objects and database 
+objects. An operating system can readily control access to files, as we explain in Chap-
+
+ter 5. However an access control list of several hundred files is much easier to imple-
+
+ment than an access control list for a 
+database with several hundred files 
+
+of perhaps a hundred fields each. 
+
+Size affects the efficiency of pro-
+
+cessing. Operating systems do not 
+
+usually “see into” a file to control 
+
+access to items within a file.
+User AuthenticationThe DBMS can require rigorous user authentication. For example, a DBMS might 
+
+insist that a user pass both specific password and time-of-day checks. This authentica-
+
+tion supplements the authentication performed by the operating system. Typically, the 
+
+DBMS runs as an application program on top of the operating system. This system 
+
+design means that there is no trusted path from the DBMS to the operating system, so 
+the DBMS must be suspicious of any data it receives, including a user identity from the 
+
+operating system. Thus, the DBMS is forced to do its own authentication.
+Availability
+A DBMS has aspects of both a program and a system. It is a program that uses other 
+hardware and software resources, yet to many users it is the only application run. Users 
+
+often take the DBMS for granted, employing it as an essential tool with which to per-
+
+form particular tasks. But when the system is not available—busy serving other users or 
+
+down to be repaired or upgraded—the users are very aware of a DBMS’s unavailability. 
+
+For example, two users may request the same record, and the DBMS must arbitrate; one 
+
+user is bound to be denied access for a while. Or the DBMS may withhold unprotected 
+data to avoid revealing protected data, leaving the requesting user unhappy. We examine 
+
+these problems in more detail later in this chapter. Problems like these result in high 
+
+availability requirements for a DBMS.
+Integrity/Confidentiality/Availability
+The three aspects of computer security—integrity, confidentiality, and availability—
+
+clearly relate to database management systems. As we have described, integrity applies 
+
+to the individual elements of a database as well as to the database as a whole. Integrity 
+
+is also a property of the structure of the database (elements in one table correspond one 
+to one with those of another) and of the relationships of the database (records having 
+
+the same unique identifier, called a key, are related). Thus, integrity is a major concern 
+
+in the design of database management systems. We look more closely at integrity issues 
+
+in the next section.
+Confidentiality is likewise a key issue with databases because databases are often 
+used to implement controlled sharing of sensitive data. Access to data can be direct 
+Database management systems 
+implement their own access control at 
+
+a level finer than what an operating 
+system handles.

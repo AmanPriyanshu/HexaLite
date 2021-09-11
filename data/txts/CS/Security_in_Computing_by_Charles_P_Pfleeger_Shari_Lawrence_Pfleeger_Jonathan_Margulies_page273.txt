@@ -1,0 +1,79 @@
+ Section 4.1  Browser Attacks 
+239  SIDEBAR 4-1 CAPTCHA? Gotcha!
+We have seen how CAPTCHAs were designed to take advantage of how 
+humans are much better at pattern recognition than are computers. But 
+
+CAPTCHAs, too, have their vulnerabilities, and they can be defeated with 
+the kinds of security engineering techniques we present in this book. As we 
+
+have seen in every chapter, a wily attacker looks for a vulnerability to exploit 
+
+and then designs an attack to take advantage of it. In the same way, Jeff Yan and Ahmad Salah El Ahmad [YAN11] 
+defeated CAPTCHAs by focusing on invariants—things that do not change 
+even when the CAPTCHAs distort them. They investigated CAPTCHAs 
+
+produced by major web services, including Google, Microsoft, and Yahoo 
+
+for their free email services such as Hotmail. A now-defunct service called 
+
+CAPTCHAservice.org provided CAPTCHAs to commercial web sites for 
+
+a fee. Each of the characters in that service’s CAPTCHAs had a different 
+
+number of pixels, but the number of pixels for a given character remained 
+
+constant when the character was distorted—an invariant that allowed Yan 
+
+and El Ahmad to differentiate one character from another without having to 
+
+recognize the character. Yahoo’s CAPTCHAs used a fixed angle for image 
+
+transformation. Yan and El Ahmad pointed out that “Exploiting invariants 
+
+is a classic cryptanalysis strategy. For example, differential cryptanalysis 
+
+works by observing that a subset of pairs of plaintexts has an invariant 
+
+relationship preserved through numerous cipher rounds. Our work dem-
+
+onstrates that exploiting invariants is also effective for studying CAPTCHA 
+
+robustness.”
+Yan and Ahmad successfully used simple techniques to defeat the 
+CAPTCHAs, such as pixel counts, color-filling segmentation, and histogram 
+
+analysis. And they defeated two kinds of invariants: pixel level and string 
+level. A pixel-level invariant can be exploited by processing the CAPTCHA 
+
+images at the pixel level, based on what does not change (such as num-
+
+ber of pixels or angle of character). String-level invariants do not change 
+across the entire length of the string. For example, Microsoft in 2007 used a  
+
+CAPTCHA with a constant length of text in the challenge string; this invari-
+ant enabled Yan and El Ahmad to identify and segment connected charac-
+
+ters. Reliance on dictionary words is another string-level invariant; as we 
+
+saw with dictionary-based passwords, the dictionary limits the number of 
+
+possible choices.So how can these vulnerabilities be eliminated? By introducing some 
+degree of randomness, such as an unpredictable number of characters in 
+
+a string of text. Yan and El Ahmad recommend “introduc[ing] more types of 
+
+global shape patterns and have them occur in random order, thus making 
+
+it harder for computers to differentiate each type.” Google’s CAPTCHAs 
+
+allow the characters to run together; it may be possible to remove the white 
+
+space between characters, as long as readability does not suffer. Yan and 
+
+El Ahmad point out that this kind of security engineering analysis leads 
+
+to more robust CAPTCHAs, a process that mirrors what we have already 
+
+seen in other security techniques, such as cryptography and software 
+
+development.

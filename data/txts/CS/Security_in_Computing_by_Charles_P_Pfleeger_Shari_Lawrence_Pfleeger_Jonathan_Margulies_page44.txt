@@ -1,0 +1,38 @@
+10 Chapter 1  
+IntroductionIntegrityExamples of integrity failures are easy to find. A number of years ago a malicious 
+macro in a Word document inserted the word “not” after some random instances of the 
+
+word “is;” you can imagine the havoc that ensued. Because the document was generally 
+
+syntactically correct, people did not immediately detect the change. In another case, a 
+model of the Pentium computer chip produced an incorrect result in certain circum-
+
+stances of floating-point arithmetic. Although the circumstances of failure were rare, 
+
+Intel decided to manufacture and replace the chips. Many of us receive mail that is 
+
+misaddressed because someone typed something wrong when transcribing from a writ-
+ten list. A worse situation occurs when that inaccuracy is propagated to other mailing 
+
+lists such that we can never seem to correct the root of the problem. Other times we find 
+
+that a spreadsheet seems to be wrong, only to find that someone typed “space 123” in a 
+
+cell, changing it from a numeric value to text, so the spreadsheet program misused that 
+
+cell in computation. Suppose someone converted numeric data to roman numerals: One 
+
+could argue that IV is the same as 4, but IV would not be useful in most applications, 
+
+nor would it be obviously meaningful to someone expecting 4 as an answer. These cases 
+
+show some of the breadth of examples of integrity failures. 
+Integrity is harder to pin down than confidentiality. As Stephen Welke and Terry 
+Mayfield [WEL90, MAY91, NCS91a] point out, integrity means different things in dif-
+
+ferent contexts. When we survey the way some people use the term, we find several 
+Policy:
+Who+What+How
+=Yes/No
+Subject(who) Object(what) Mode of access(how)
+FIGURE 1-6 Access Control

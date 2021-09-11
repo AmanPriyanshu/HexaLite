@@ -1,0 +1,92 @@
+144 PART TWO  
+MODELING 
+ 
+ 
+In reality, others would contribute to this narrative during the 
+ requirements-gathering meeting and considerably more information would be available. But even with additional information, ambiguity is present, omissions 
+are likely to exist, and errors might occur. For now, the preceding “functional 
+
+description” will sufﬁ ce. 
+ While reviewing the product request in the days before the meeting, each at-tendee is asked to make a list of objects that are part of the environment that 
+surrounds the system, other objects that are to be produced by the system, and 
+objects that are used by the system to perform its functions. In addition, each 
+attendee is asked to make another list of services (processes or functions) that 
+manipulate or interact with the objects. Finally, lists of constraints (e.g., cost, size, 
+
+business rules) and performance criteria (e.g., speed, accuracy) are also devel-
+oped. The attendees are informed that the lists are not expected to be exhaustive 
+but are expected to reﬂ ect each person’s perception of the system. 
+  Objects described for  SafeHome 
+ might include the control panel, smoke de-
+tectors, window and door sensors, motion detectors, an alarm, an event (a sen-
+sor has been activated), a display, a PC, telephone numbers, a telephone call, 
+
+and so on. The list of services might include  conﬁ guring
+ 
+ the system,  
+setting 
+ the 
+alarm,  monitoring 
+ the sensors,  
+dialing 
+ the phone,  
+programming
+ 
+ the control 
+panel, and  reading
+ 
+ the display (note that services act on objects). In a similar 
+fashion, each attendee will develop lists of constraints (e.g., the system must 
+recognize when sensors are not operating, must be user friendly, must interface 
+
+directly to a standard phone line) and performance criteria (e.g., a sensor event 
+should be recognized within one second, and an event priority scheme should 
+be implemented).   
+ 
+ 
+ 
+ 
+The lists of objects can be pinned to the walls of the room using large sheets of paper, stuck to the walls using adhesive-backed sheets, or written on a wall 
+
+board. Alternatively, the lists may have been posted on a group forum, at an in-
+
+ternal website, or posed in a social networking environment for review prior to 
+the meeting. Ideally, each listed entry should be capable of being manipulated 
+
+separately so that lists can be combined, entries can be deleted, and additions 
+can be made. At this stage, critique and debate are strictly prohibited.  After individual lists are presented in one topic area, the group creates a com-bined list by eliminating redundant entries, adding any new ideas that come up 
+during the discussion, but not deleting anything. After you create combined lists 
+for all topic areas, discussion—coordinated by the facilitator—ensues. The com-
+bined list is shortened, lengthened, or reworded to properly reﬂ ect the product 
+or system to be developed. The objective is to develop a consensus list of objects, 
+services, constraints, and performance for the system to be built.  In many cases, an object or service described on a list will require further explanation. To accomplish this, stakeholders develop  
+mini-speciﬁ cations
+ 
+ for 
+   Avoid the impulse to 
+shoot down a cus-
+tomer’s idea as “too 
+
+costly” or “impracti-
+cal.” The idea here is 
+to negotiate a list that 
+is acceptable to all. To 
+
+do this, you must keep 
+an open mind.   uote:  “Facts do not cease 
+to exist because 
+they are ignored.”  Aldous Huxley 
+   If a system or product 
+
+will serve many users, 
+
+be absolutely certain 
+
+that requirements are 
+elicited from a repre-
+sentative cross section 
+of users. If only one 
+user deﬁ nes all require-
+
+ments, acceptance risk 
+is high. pre22126_ch08_131-165.indd   144pre22126_ch08_131-165.indd   14413/12/13   6:11 PM13/12/13   6:11 PM

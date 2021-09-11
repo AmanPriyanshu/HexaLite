@@ -1,0 +1,34 @@
+248 Chapter 4  
+The Web—User Side
+A defacement is common not only because of its visibility but also because of the 
+ease with which one can be done. Web sites are designed so that their code is down-
+
+loaded, enabling an attacker to obtain the full hypertext document and all programs 
+
+directed to the client in the loading process. An attacker can even view programmers’ 
+
+comments left in as they built or maintained the code. The download process essentially 
+
+gives the attacker the blueprints to the web site.
+Fake Web Site
+A similar attack involves a fake web site. In Figure 4-7 we show a fake version of 
+the web site of Barclays Bank (England) at http://www.gb-bclayuk.com/. The real 
+ Barclays site is at http://group.barclays.com/Home. As you can see, the forger had some 
+
+trouble with the top image, but if that were fixed, the remainder of the site would look 
+
+convincing.
+Web sites are easy to fake because the attacker can obtain copies of the images the 
+real site uses to generate its web site. 
+
+All the attacker has to do is change 
+
+the values of links to redirect the 
+
+unsuspecting victim to points of the 
+attacker’s choosing.
+FIGURE 4-7 Fake Web Site for Barclays Bank
+The attacker can get all the images 
+a real site uses; fake sites can look 
+
+convincing.

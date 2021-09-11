@@ -1,0 +1,72 @@
+ Section 1.3  Harm 
+27  the Internet. Mass-market systems (such as the Microsoft or Apple or Unix operating 
+systems) are readily available for purchase, as are common software products, such as 
+
+word processors or database management systems, so potential attackers can even get 
+
+hardware and software on which to experiment and perfect an attack. Some manufac-
+
+turers release detailed specifications on how the system was designed or how it oper-
+
+ates, as guides for users and integrators who want to implement other complementary 
+
+products. Various attack tools—scripts, model programs, and tools to test for weak-
+
+nesses—are available from hackers’ sites on the Internet, to the degree that many attacks 
+
+require only the attacker’s ability to download and run a program. The term 
+script kid-die describes someone who downloads a complete attack code package and needs only 
+to enter a few details to identify the target and let the script perform the attack. Often, 
+
+only time and inclination limit an attacker.
+OpportunityOpportunity is the time and access to execute an attack. You hear that a fabulous apart-
+ment has just become available, so you rush to the rental agent, only to find someone 
+
+else rented it five minutes earlier. You missed your opportunity.
+Many computer systems present ample opportunity for attack. Systems available to 
+the public are, by definition, accessible; often their owners take special care to make 
+
+them fully available so that if one hardware component fails, the owner has spares 
+
+instantly ready to be pressed into service. Other people are oblivious to the need to 
+
+protect their computers, so unattended laptops and unsecured network connections give 
+
+ample opportunity for attack. Some systems have private or undocumented entry points 
+
+for administration or maintenance, but attackers can also find and use those entry points 
+
+to attack the systems.MotiveFinally, an attacker must have a 
+motive
+ or reason to want to attack. You probably have 
+ample opportunity and ability to throw a rock through your neighbor’s window, but you 
+
+do not. Why not? Because you have no reason to want to harm your neighbor: You lack 
+
+motive.
+We have already described some of the motives for computer crime: money, fame, 
+self-esteem, politics, terror. It is often difficult to determine motive for an attack. Some 
+
+places are “attractive targets,” meaning they are very appealing to attackers. Popular 
+
+targets include law enforcement and defense department computers, perhaps because 
+
+they are presumed to be well protected against attack (so they present a challenge 
+
+and a successful attack shows the 
+
+attacker’s prowess). Other systems 
+
+are attacked because they are easy 
+
+to attack. And some systems are 
+
+attacked at random simply because 
+
+they are there.
+Method, opportunity, and motive  
+
+are all necessary for an attack to 
+
+succeed; deny any of these and the 
+attack will fail.

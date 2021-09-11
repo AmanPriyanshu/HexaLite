@@ -1,0 +1,69 @@
+482 Chapter 6  
+NetworksCode Modification CheckersSome security engineers consider other devices to be IDSs as well. For instance, to 
+detect unacceptable code modification, programs can compare the active version of 
+
+software code with a saved version of a digest of that code. The Tripwire program 
+
+[KIM98] (described in Chapter 4) is a typical static data comparison program. It can 
+detect changes to executable programs and other data files that should never or seldom 
+
+change.Vulnerability Scanners
+System vulnerability scanners, such as ISS Scanner or Nessus [AND03], can be run 
+against a network. They check for known vulnerabilities and report flaws found.
+Intrusion Prevention Systems
+Intrusion detection systems work primarily to detect an attack after it has begun, and 
+
+naturally, system or network owners want to prevent the attack before it happens. Think 
+
+of house burglars. You install locks to prevent an intrusion, but those really do not stop a 
+
+truly dedicated burglar who will smash and enter through a window or cut a hole in the 
+
+roof if the motivation is strong enough. As the adage says, where there’s a will, there’s 
+
+a way. A second difficulty is that you never know when the attacker will strike, whether 
+
+the attacker will be alone or in a gang of thousands of people, whether the attacker 
+
+will be a person or an army of trained ants, or whether the brass band marching past 
+is part of an attack. You may install a house alarm that senses motion, pressure, body 
+
+heat, or some other characteristic of an attacker, so that regardless of how the attacker 
+
+entered, you or the police are informed of the intrusion, but even an alarm presupposes 
+
+the attacker will be a person, when in fact it might be a robot or drone. Furthermore, 
+
+such alarms are subject to false positives, since a household pet or a balloon moving in 
+
+the breeze can set off the alarm.
+Similarly, computer systems are subject to many possible attacks, and preventing all 
+of them is virtually impossible. Outguessing the attacker, actually 
+all attackers, is also 
+virtually impossible. Adding to these difficulties is distinguishing an attack from benign 
+
+but unusual behavior. Detecting the attack gets easier as the attack unfolds, when it 
+
+becomes clearer that the motive is malicious and that harm is either imminent or actu-
+
+ally underway. Thus, as evidence mounts, detection becomes more certain; being able to 
+
+detect bad things before they cause too much harm is the premise upon which intrusion 
+
+detection systems are based.By contrast, an intrusion prevention system
+, or IPS, tries to block or stop harm. In fact, it is an intrusion detection system with a built-in response capability. The response 
+
+is not just raising an alarm; the auto-
+
+matic responses include cutting off 
+
+a user’s access, rejecting all traffic 
+
+from address a.b.c.d, or blocking all 
+
+users’ access to a particular file or 
+Intrusion prevention systems extend 
+
+IDS technology with built-in protective 
+
+response.

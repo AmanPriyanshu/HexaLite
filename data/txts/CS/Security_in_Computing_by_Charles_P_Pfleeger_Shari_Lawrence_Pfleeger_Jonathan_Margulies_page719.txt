@@ -1,0 +1,72 @@
+ Section 10.4  Risk Analysis 
+685  unimportant. It is much more significant that the expected loss is far above the 
+$10,000 or $20,000 budget allocated for implementing a particular control. 
+
+Moreover, anytime a risk analysis generates a large potential loss, the system 
+
+deserves further scrutiny to see if the root cause of the risk can be addressed.
+• Hard to perform. 
+Enumerating assets, vulnerabilities, and controls requires cre-ative thinking. Assessing loss frequencies and impact can be difficult and sub-
+
+jective. A large risk analysis will have many things to consider. Risk analysis 
+
+can be restricted to certain assets or vulnerabilities, however.
+• Immutability. Many software project leaders view processes like risk analysis as 
+an irritating fact of life—a step to be taken in a hurry so that the developers can 
+
+get on with the more interesting jobs related to designing, building, and testing 
+
+the system. For this reason, risk analyses, like contingency plans and five-year 
+
+plans, have a tendency to be filed and promptly forgotten. But if an organiza-
+
+tion takes security seriously, it will view the risk analysis as a living document, 
+
+updating it at least annually or in conjunction with major system upgrades. • Lack of accuracy. 
+Risk analysis is not always accurate, for many reasons. First, 
+we may not be able to calculate the risk probability with any accuracy, espe-
+
+cially when we have no past history of similar situations. Second, even if we 
+
+know the likelihood, we cannot always estimate the risk impact very well. The 
+
+risk management literature is replete with papers about describing the scenario, 
+showing that presenting the same situation in two different ways to two equiva-
+
+lent groups of people can yield two radically different estimates of impact. And 
+
+third, we may not be able to anticipate all the possible risks. For example, bridge 
+
+builders did not know about the risks introduced by torque from high winds until 
+
+the Tacoma Narrows Bridge twisted in the wind and collapsed. After studying 
+
+the colossal failure of this bridge and discovering the cause, engineers made 
+
+mandatory the inclusion of torque in their simulation parameters. Similarly, we 
+
+may not know enough about software, security, or the context in which the sys-
+
+tem is to be used, so there may be gaps in our risk analysis that cause it to be 
+inaccurate.This lack of accuracy is often cited as a deficiency of risk analysis. But this lack is a 
+red herring. Risk analysis is useful as a planning tool, to compare options. We may not 
+
+be able to predict events accurately, but we can use risk analysis to weigh the trade-offs 
+
+between one action and another. When risk analysis is used in security planning, it high-
+
+lights which security expenditures are likely to be most cost effective. This investigative 
+
+basis is important for choosing among controls when money available for security is 
+
+limited. And our risk analysis should improve as we build more systems, evaluate their 
+
+security, and have a larger experience base from which to draw our estimates.
+A risk analysis has many advantages as part of a security plan or as a tool for less 
+formal security decision making. It ranges from very subjective and imprecise to highly 
+
+quantitative. It is useful for generating and documenting thoughts about likely threats 
+
+and possible countermeasures. Finally, it supports rational decision making about secu-
+
+rity controls. Next we turn to natural disasters with security implications.

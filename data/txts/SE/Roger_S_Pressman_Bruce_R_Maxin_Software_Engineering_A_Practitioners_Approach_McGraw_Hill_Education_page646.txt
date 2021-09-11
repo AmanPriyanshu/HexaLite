@@ -1,0 +1,65 @@
+616 PART THREE  
+QUALITY MANAGEMENTof data. The data invariant that holds for the symbol table just discussed has two components: (1) that the table will contain no more than  MaxIds 
+ names and 
+that there will be no duplicate names in the table. In the case of the sym-
+
+bol table program, this means that no matter when the symbol table is exam-
+ined during execution of the system, it will always contain no more than  MaxIds 
+ names and will contain no duplicates.  Another important concept is that of a  state. 
+ Many formal languages use the 
+notion of states as they were discussed in Chapter 11; that is, a system can be in 
+one of several states, each representing an externally observable mode of behav-
+ior. However, a different deﬁ
+ nition for the term  
+state 
+ is used in some speciﬁ
+ cation 
+languages. In these languages the state of a system is represented by the sys-
+tem’s stored data. Using the latter deﬁ
+ nition in the example of the symbol table 
+program, the state is the symbol table.  The ﬁ nal concept is that of an  
+operation. 
+ This is an action that takes place 
+within a system and reads or writes data. If the symbol table program is con-
+cerned with adding and removing names from the symbol table, then it will be 
+associated with two operations: an operation to  add 
+ a speciﬁ
+ ed name to the sym-
+bol table and an operation to  remove()
+ 
+ an existing name from the table. 
+ 11 
+ 
+ If the 
+program provides the facility to check whether a speciﬁ c name is contained in 
+the table, then there would be an operation that would return some indication of 
+whether the name is in the table.   Three types of conditions can be associated with operations: invariants, pre-conditions, and postconditions. An  invariant 
+ deﬁ
+ nes what is guaranteed not to 
+change. For example, the symbol table has an invariant that states that the num-
+ber of elements is always less than or equal to  MaxIds. 
+ A  
+precondition
+ 
+ deﬁ
+ nes the 
+circumstances in which a particular operation is valid. For example, the precon-
+dition for an operation that adds a name to a staff identiﬁ er symbol table is valid 
+1.2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.10.WilsonSimpson
+Abel
+Fernandez
+MaxIds = 10 FIGURE 28.7 
+A symbol table 
+ 
+11  It should be noted that adding a name cannot occur in the  
+full 
+ state and deleting a name is 
+impossible in the  empty 
+ state. pre22126_ch28_601-622.indd   616pre22126_ch28_601-622.indd   61613/12/13   6:15 PM13/12/13   6:15 PM

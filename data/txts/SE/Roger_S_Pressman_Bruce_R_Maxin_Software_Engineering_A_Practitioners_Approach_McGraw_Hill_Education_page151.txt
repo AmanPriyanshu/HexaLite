@@ -1,0 +1,114 @@
+CHAPTER 7  
+PRINCIPLES THAT GUIDE PRACTICE
+ 121made at the code level are reﬂ ected in the running system. It is also im-
+portant to have those code changes reﬂ ected in the model. 
+   
+ 
+ 
+ 
+ 
+ 
+Principle 4. 
+  A common system view should be created.A common system view should be created.
+ 
+ A system meta model deﬁ nes business processes and information objects in the IT man-
+agement layer, running services and physical nodes in the systems oper-
+
+ations layer, and a requirements view in the software engineering layer. 
+
+The associations in the system meta model describe dependencies from 
+business processes and business objects to the technology layer. 
+   
+ 
+ 
+ 
+ 
+ 
+Principle 5. 
+  The information in the model must be persistent to allow track-The information in the model must be persistent to allow track-ing of system changes.ing of system changes. 
+ The system model describes the current state of the system at all levels of abstraction. System evolution may be described 
+and documented as a sequence of system model snapshots.    
+ 
+ 
+ 
+ 
+ 
+Principle 6. 
+  Information consistency across all levels of the model must be Information consistency across all levels of the model must be 
+veriﬁ ed.veriﬁ ed.
+ 
+ Model constraint checking and state information retrieval are two important services required to support stakeholder decision making. 
+For example, a software architect may need to check to see that each ser-
+
+vice at the requirements level has a corresponding service at the architec-
+ture level.    
+ 
+ 
+ 
+ 
+ 
+Principle 7. 
+  
+Each model element has assigned stakeholder rights and  
+Each model element has assigned stakeholder rights and  
+responsibilities. 
+responsibilities.
+ 
+ Each stakeholder is responsible for an identiﬁ ed subset of 
+model elements. Each model subset is a stakeholder’s domain. This means 
+
+that each model element has access to information describing the actions 
+each stakeholder is able to perform on the element.    
+ 
+ 
+ 
+ 
+ 
+Principle 8. 
+  The states of various model elements should be represented. The states of various model elements should be represented. 
+ Just as the state of computation is deﬁ ned by the values held by key vari-
+ables during run time, the state of each model element can be deﬁ ned by 
+the values assigned to its attributes.  
+ 
+  
+ 
+ 
+ 
+7.3.4  Construction Principles 
+ 
+The construction activity encompasses a set of coding and testing tasks that lead to operational software that is ready for delivery to the customer or end user. 
+
+In modern software engineering work, coding may be (1) the direct creation of 
+programming language source code (e.g., Java), (2) the automatic generation of 
+source code using an intermediate designlike representation of the component to 
+be built (e.g., Enterprise Architect),  9 
+ 
+ or (3) the automatic generation of  
+executable code using a fourth-generation programming language (e.g., V
+Stakeholder-centric models should target speciﬁ c stakehold-ers and their tasks.Models and code should be closely coupled.Bidirectional information ﬂ ow should be established between models and code.  uote:  “For much of 
+my life, I have 
+been a software 
+voyeur, peeking 
+
+furtively at other 
+people's dirty code. 
+Occasionally, I 
+
+ﬁ nd a real jewel, 
+
+a well-structured 
+program written in 
+a consistent style, 
+free of kludges, 
+developed so that 
+each component 
+is simple and 
+organized, and 
+designed so that 
+the product is easy 
+to change.”  David Parnas 
+  
+9  Enterprise Architect is tool created by Sparx Systems  
+http://www.sparxsystems.com/products/
+ea/index.html 
+ pre22126_ch07_103-130.indd   121pre22126_ch07_103-130.indd   12113/12/13   6:11 PM13/12/13   6:11 PM

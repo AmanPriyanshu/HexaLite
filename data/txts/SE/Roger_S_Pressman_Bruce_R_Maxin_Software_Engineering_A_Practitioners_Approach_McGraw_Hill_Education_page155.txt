@@ -1,0 +1,103 @@
+CHAPTER 7  
+PRINCIPLES THAT GUIDE PRACTICE
+ 125 
+ 
+ 
+ 
+ 
+ 
+ 
+7.3.5  Deployment Principles 
+ 
+  
+As we noted in Part 1 of this book, the deployment activity encompasses three ac-tions: delivery, support, and feedback. Because modern software process models 
+
+are evolutionary or incremental in nature, deployment happens not once, but a 
+number of times as software moves toward completion. Each delivery cycle pro-
+vides the customer and end users with an operational software increment that 
+provides usable functions and features. Each support cycle provides documen-
+tation and human assistance for all functions and features introduced during all 
+deployment cycles to date. Each feedback cycle provides the software team with 
+important guidance that results in modiﬁ cations to the functions, features, and 
+approach taken for the next increment.   
+ 
+ 
+ 
+ 
+The delivery of a software increment represents an important milestone for any software project. A number of key principles should be followed as the team 
+prepares to deliver an increment:   
+ 
+ 
+ 
+ 
+ 
+ 
+Principle 1. 
+  Customer expectations for the software must be managed.Customer expectations for the software must be managed.
+ 
+ Too 
+often, the customer expects more than the team has promised to deliver, 
+
+and disappointment occurs immediately. This results in feedback that is 
+
+not productive and ruins team morale. In her book on managing expecta-
+tions, Naomi Karten [Kar94] states: “The starting point for managing ex-
+pectations is to become more conscientious about what you communicate 
+and how.” She suggests that a software engineer must be careful about 
+
+sending the customer conﬂ icting messages (e.g., promising more than 
+you can reasonably deliver in the time frame provided or delivering more 
+than you promise for one software increment and then less than promised 
+for the next).    
+ 
+ 
+ 
+ 
+ 
+Principle 2. 
+  A complete delivery package should be assembled and tested.A complete delivery package should be assembled and tested.  All executable software, support data ﬁ les, support documents, and other 
+relevant information should be assembled and thoroughly beta-tested with 
+
+actual users. All installation scripts and other operational features should 
+
+be thoroughly exercised in all possible computing conﬁ gurations (i.e., hard-
+ware, operating systems, peripheral devices, networking arrangements). 
+   
+ 
+ 
+ 
+ 
+ 
+Principle 3. 
+  A support regime must be established before the software is A support regime must be established before the software is 
+ 
+delivered. 
+delivered.
+ 
+ An end user expects responsiveness and accurate information 
+when a question or problem arises. If support is ad hoc, or worse, nonex-
+istent, the customer will become dissatisﬁ ed immediately. Support should 
+be planned, support materials should be prepared, and appropriate 
+
+ record-keeping mechanisms should be established so that the software team 
+can conduct a categorical assessment of the kinds of support requested. 
+   
+ 
+ 
+ 
+ 
+ 
+Principle 4. 
+  Appropriate instructional materials must be provided to Appropriate instructional materials must be provided to 
+end users.end users. 
+ The software team delivers more than the software itself.    Be sure that your 
+customer knows what 
+to expect before a 
+software increment is 
+ delivered. Otherwise, 
+
+you can bet the 
+ customer will expect 
+
+more than you deliver. 
+pre22126_ch07_103-130.indd   125pre22126_ch07_103-130.indd   12513/12/13   6:11 PM13/12/13   6:11 PM

@@ -1,0 +1,39 @@
+CHAPTER 4  
+PROCESS MODELS 63embraced structured programming languages (product) followed by structured analysis methods (process) followed by data encapsulation (product) followed by the 
+current emphasis on the Software Engineering Institute’s Software Development Ca-
+
+pability Maturity Model (process) [followed by object-oriented methods, followed by 
+agile software development].  While the natural tendency of a pendulum is to come to rest at a point midway between two extremes, the software community’s focus constantly shifts because new 
+
+force is applied when the last swing fails. These swings are harmful in and of them-
+selves because they confuse the average software practitioner by radically changing 
+what it means to perform the job let alone perform it well. The swings also do not 
+solve “the problem” for they are doomed to fail as long as product and process are 
+treated as forming a dichotomy instead of a duality. 
+ There is precedence in the scientiﬁ c community to advance notions of duality 
+when contradictions in observations cannot be fully explained by one competing the-
+ory or another. The dual nature of light, which seems to be simultaneously particle 
+
+and wave, has been accepted since the 1920s when Louis de Broglie proposed it. I 
+believe that the observations we can make on the artifacts of software and its devel-
+opment demonstrate a fundamental duality between product and process. You can 
+
+never derive or understand the full artifact, its context, use, meaning, and worth if 
+you view it as only a process or only a product.  All of human activity may be a process, but each of us derives a sense of self-worth from those activities that result in a representation or instance that can be used or 
+appreciated either by more than one person, used over and over, or used in some 
+
+other context not considered. That is, we derive feelings of satisfaction from reuse of 
+our products by ourselves or others.  Thus, while the rapid assimilation of reuse goals into software development  potentially increases the satisfaction software practitioners derive from their work, it also increases the urgency for acceptance of the duality of product and process. 
+Thinking of a reusable artifact as only product or only process either obscures the 
+context and ways to use it or obscures the fact that each use results in product that 
+will, in turn, be used as input to some other software development activity. Taking 
+
+one view over the other dramatically reduces the opportunities for reuse and, hence, 
+loses the opportunity for increasing job satisfaction.  
+  
+People derive as much (or more) satisfaction from the creative process as they do from the end product. An artist enjoys the brush strokes as much as the 
+framed result. A writer enjoys the search for the proper metaphor as much as 
+the ﬁ nished book. As creative software professional, you should also derive as 
+much satisfaction from the process as the end product. The duality of product 
+and process is one important element in keeping creative people engaged as 
+software engineering continues to evolve. pre22126_ch04_040-065.indd   63pre22126_ch04_040-065.indd   6313/12/13   6:10 PM13/12/13   6:10 PM

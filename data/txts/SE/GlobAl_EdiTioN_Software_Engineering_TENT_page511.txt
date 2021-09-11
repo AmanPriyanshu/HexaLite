@@ -1,0 +1,40 @@
+˜˚˛˝ˆ˜˜˜˜˜˜˜˜˜˜
+document that is stored at n10, this search is routed through nodes n3, n6, and n9 to n10. When the document is finally discovered, the node holding the document then 
+sends it to the requesting node directly by making a peer-to-peer connection.This decentralized architecture has the advantage of being highly redundant and hence both fault-tolerant and tolerant of nodes disconnecting from the network. 
+
+However, the disadvantages are that many different nodes may process the same 
+
+search, and there is also significant overhead in replicated peer communications.An alternative p2p architectural model, which departs from a pure p2p architec-ture, is a semicentralized architecture where, within the network, one or more nodes 
+act as servers to facilitate node communications. This reduces the amount of traffic 
+between nodes. Figure 
+17.15 illustrates how this semicentralized architectural model 
+
+differs from the completely decentralized model shown in Figure 17.14.In a semicentralized architecture, the role of the server (sometimes called a super-peer) is to help establish contact between peers in the network or to coordinate the 
+
+results of a computation. For example, if Figure 
+17.15 represents an instant messaging 
+
+system, then network nodes communicate with the server (indicated by dashed lines) 
+
+to find out what other nodes are available. Once these nodes are discovered, direct 
+
+communications can be established and the connection to the server becomes unnec
+-
+essary. Therefore, nodes n2, n3, n5, and n6 are in direct communication.In a computational p2p system, where a processor-intensive computation is distributed 
+across a large number of nodes, it is normal for some nodes to be superpeers. Their role is 
+
+to distribute work to other nodes and to collate and check the results of the computation.The peer-to-peer architectural model may be the best model for a distributed sys-tem in two circumstances:1. Where the system is computationally-intensive and it is possible to separate the 
+processing required into a large number of independent computations. For exam-
+ple, a peer-to-peer system that supports computational drug discovery distributes 
+
+computations that look for potential cancer treatments by analyzing a huge num-
+ber of molecules to see if they have the characteristics required to suppress the 
+
+growth of cancers. Each molecule can be considered separately, so there is no 
+
+need for the peers in the system to communicate.n4n2n3n6n7n10
+n8n12
+n11
+n14n13
+n9n1n5Figure 17.14   A decentralized  
+p2p architecture 

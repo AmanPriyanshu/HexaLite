@@ -1,0 +1,36 @@
+180 PART TWO  
+MODELING 
+ 
+9.3.1 Developing an Activity Diagram 
+ 
+The UML activity diagram supplements the use case by providing a graphical representation of the ﬂ ow of interaction within a speciﬁ
+ c scenario. Similar to the 
+ﬂ owchart, an activity diagram uses rounded rectangles to imply a speciﬁ
+ c system 
+function, arrows to represent ﬂ ow through the system, decision diamonds to de-
+pict a branching decision (each arrow emanating from the diamond is labeled), 
+and solid horizontal lines to indicate that parallel activities are occurring. An 
+activity diagram for the  ACS-DCV 
+ use case is shown in  
+Figure 9.5 . It should be noted that the activity diagram adds additional detail not directly mentioned 
+(but implied) by the use case. For example, a user may only attempt to enter 
+  
+userID 
+ and  
+password 
+ a limited number of times. This is represented by a deci-
+sion diamond below “Prompt for reentry.” 
+ Enter password and user IDSelect majorfunctionValid passwords/ID
+Prompt for reentry
+Invalid passwords/IDInput tries remainNo input tries remainSelect surveillance
+Other functionsmay also be selected Thumbnail viewsSelect a specific cameraSelect camera iconPrompt for another viewSelect specific camera - thumbnailsExit this functionSee another cameraView camera output 
+in labeled window  
+FIGURE 9.5 
+Activity diagram 
+for Access 
+camera sur-
+
+veillance via 
+the  Internet— 
+ display  camera views function.  
+ pre22126_ch09_166-183.indd   180pre22126_ch09_166-183.indd   18013/12/13   6:11 PM13/12/13   6:11 PM

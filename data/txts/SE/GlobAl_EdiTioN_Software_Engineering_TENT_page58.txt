@@ -1,0 +1,42 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜define and implement interfaces, and, in many cases, the developer need only add details of the operation of each program component.Programming is an individual activity, and there is no general process that is 
+usually followed. Some programmers start with components that they understand, 
+
+develop these, and then move on to less understood components. Others take the 
+
+opposite approach, leaving familiar components till last because they know how to 
+
+develop them. Some developers like to define data early in the process and then 
+
+use this to drive the program development; others leave data unspecified for as 
+
+long as possible.Normally, programmers carry out some testing of the code they have developed. This often reveals program defects (bugs) that must be removed from the program. 
+Finding and fixing program defects is called debugging. Defect testing and debug-
+ging are different processes. Testing establishes the existence of defects. Debugging 
+is concerned with locating and correcting these defects.When you are debugging, you have to generate hypotheses about the observa-ble behavior of the program and then test these hypotheses in the hope of finding 
+
+the fault that caused the output anomaly. Testing the hypotheses may involve trac-
+ing the program code manually. It may require new test cases to localize the prob
+-
+lem. Interactive debugging tools, which show the intermediate values of program 
+
+variables and a trace of the statements executed, are usually used to support the 
+
+debugging process.Software validation or, more generally, verification and validation (V & V) is 
+
+intended to show that a system both conforms to its specification and meets the 
+
+expectations of the system customer. Program testing, where the system is executed 
+using simulated test data, is the principal validation technique. Validation may also 
+involve checking processes, such as inspections and reviews, at each stage of the 
+
+software process from user requirements definition to program development. 
+
+However, most V & V time and effort is spent on program testing.Except for small programs, systems should not be tested as a single, monolithic unit. Figure 2.6 shows a three-stage testing process in which system components are 
+individually tested, then the integrated system is tested. For custom software, cus-
+tomer testing involves testing the system with real customer data. For products that 
+are sold as applications, customer testing is sometimes called beta testing where 
+
+selected users try out and comment on the software.System testing
+Component testingCustomertestingFigure 2.6 Stages of˜testing

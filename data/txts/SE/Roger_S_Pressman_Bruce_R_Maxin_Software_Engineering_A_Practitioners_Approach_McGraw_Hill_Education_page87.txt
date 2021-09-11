@@ -1,0 +1,47 @@
+CHAPTER 4  
+PROCESS MODELS 57is no exception.  Figure 4.7  depicts the “phases” of the UP and relates them to 
+the generic activities that have been discussed in Chapter 1 and earlier in this 
+chapter. 
+ 
+ 
+ 
+ 
+   
+The  inception phase 
+ of the UP encompasses both customer communication 
+and planning activities. By collaborating with stakeholders, business require-
+ments for the software are identiﬁ ed; a rough architecture for the system is pro-
+posed; and a plan for the iterative, incremental nature of the ensuing project is 
+developed. Fundamental business requirements are described through a set of 
+preliminary use cases (Chapter 8) that describe which features and functions 
+each major class of users desires. Architecture at this point is nothing more 
+than a tentative outline of major subsystems and the functions and features that 
+populate them. Later, the architecture will be reﬁ
+ ned and expanded into a set 
+of models that will represent different views of the system. Planning identiﬁ es 
+ resources, assesses major risks, deﬁ nes a schedule, and establishes a basis for 
+the phases that are to be applied as the software increment is developed.  The  elaboration phase 
+ encompasses the communication and modeling activ-
+ities of the generic process model ( Figure 4.7 ). Elaboration reﬁ nes and expands 
+the preliminary use cases that were developed as part of the inception phase 
+and expands the architectural representation to include ﬁ ve different views of 
+the software—the use case model, the analysis model, the design model, the im-
+plementation model, and the deployment model. In some cases, elaboration cre-
+ates an “executable architectural baseline” [Arl02] that represents a “ﬁ rst cut” 
+executable system.  15 
+ 
+ The architectural baseline demonstrates the viability of the    UP  
+phases  are similar 
+in intent to the generic 
+framework activities 
+deﬁ ned in this book. 
+Transition
+Production
+software incrementReleasemodelingconstructionplanningcommunicationdeploymentConstructionInceptionElaboration FIGURE 4.7 
+The Uniﬁ ed 
+Process
+  
+15  It is important to note that the architectural baseline is not a prototype in that it is not thrown 
+away. Rather, the baseline is ﬂ
+ eshed out during the next UP phase. 
+pre22126_ch04_040-065.indd   57pre22126_ch04_040-065.indd   5713/12/13   6:10 PM13/12/13   6:10 PM

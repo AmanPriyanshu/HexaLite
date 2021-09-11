@@ -1,0 +1,63 @@
+626 PART THREE  
+QUALITY MANAGEMENTsome way of resolving conﬂ icts and merging changes. A history is kept of the evo-
+lution of all components of the system along with a log with reasons for changes 
+and a record of what actually changed. The engineers have their own workspace 
+for creating, changing, testing, and integrating code. At a certain point, the code 
+is made into a baseline from which further development continues and from 
+which variants for other target machines are made.  The customer uses the product. Since the product is under CM control, the customer follows formal procedures for requesting changes and for indicating 
+bugs in the product.  Ideally, a CM system used in this scenario should support all these roles and 
+tasks; that is, the roles determine the functionality required of a CM system. The 
+project manager sees CM as an auditing mechanism; the conﬁ guration manager 
+sees it as a controlling, tracking, and policy-making mechanism; the software 
+engineer sees it as a changing, building, and access control mechanism; and the 
+customer sees it as a quality assurance mechanism.   
+ 
+ 
+29.1.2   
+Elements of a Conﬁ guration Management System 
+ 
+In her comprehensive white paper on software conﬁ guration management, 
+Susan Dart [Dar01] identiﬁ es four important elements that should exist when a 
+conﬁ guration management system is developed:
+ 
+ 
+ 
+ 
+•   
+Component elements 
+—A set of tools coupled within a ﬁ le management 
+system (e.g., a database) that enables access to and management of each 
+software conﬁ guration item. 
+  
+ 
+ 
+•   
+Process elements
+ 
+—A collection of procedures and tasks that deﬁ ne an 
+effective approach to change management (and related activities) for all 
+constituencies involved in the management, engineering, and use of com-
+puter software.   
+ 
+ 
+•   
+Construction elements 
+—A set of tools that automate the construction of software by ensuring that the proper set of validated components (i.e., the 
+correct version) have been assembled.   
+ 
+ 
+•   
+Human elements 
+—A set of tools and process features (encompassing other CM elements) used by the software team to implement effective SCM.  
+ 
+  These elements (to be discussed in more detail in later sections) are not mu-tually exclusive. For example, component elements work in conjunction with 
+construction elements as the software process evolves. Process elements guide 
+many human activities that are related to SCM and might therefore be consid-
+ered human elements as well.   
+ 
+ 
+29.1.3   
+Baselines  
+ 
+ 
+Change is a fact of life in software development. Customers want to modify re-quirements. Developers want to modify the technical approach. Managers want pre22126_ch29_623-652.indd   626pre22126_ch29_623-652.indd   62613/12/13   6:16 PM13/12/13   6:16 PM

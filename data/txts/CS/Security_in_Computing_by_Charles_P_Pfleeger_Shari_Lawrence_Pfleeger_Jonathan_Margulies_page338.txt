@@ -1,0 +1,45 @@
+304 Chapter 5  
+Operating Systemsthe operating system need only update the address in that one table when a seg-
+ment is moved.
+• A segment can be removed from main memory (and stored on an auxiliary 
+device) if it is not being used currently. (These first two advantages explain why 
+
+this technique is called virtual memory, with the same basis as the virtualization 
+
+described earlier in this chapter. The appearance of memory to the user is not 
+
+necessarily what actually exists.)
+• Every address reference passes through the operating system, so there is an 
+opportunity to check each one for protection.Because of this last characteristic, a process can access a segment only if that seg-
+ment appears in that process’s segment-translation table. The operating system controls 
+
+which programs have entries for a particular segment in their segment address tables. 
+
+This control provides strong pro-
+
+tection of segments from access by 
+
+unpermitted processes. For exam-
+
+ple, program A might have access 
+
+to segments BLUE and GREEN of 
+
+user X but not to other segments of 
+Logical Arrangement of
+Program
+Physical Placement of
+Program’s Segments
+MAINSEG_ASUBDATA_SEG
+MAINSUBSEG_ADATA_SEG
+Operating
+System
+Segments
+Segments for
+Other UsersFIGURE 5-11 Segmentation
+Segmentation allows hardware-
+supported controlled access to different 
+
+memory sections in different access 
+
+modes.

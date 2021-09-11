@@ -1,0 +1,65 @@
+ Section 3.2  Malicious Code—Malware 
+191  individual sale. Your delivered and installed code will then have sections of identical 
+instructions across all copies.Antivirus and other malicious code scanners look for patterns because malware writ-
+ers have the same considerations you would have in developing mass-market software: 
+
+They want to write one body of code and distribute it to all their victims. That identical 
+
+code becomes a pattern on disk for which a scanner can search quickly and efficiently.
+Knowing that scanners look for identical patterns, malicious code writers try to vary 
+the appearance of their code in several ways:
+• Rearrange the order of modules.
+• Rearrange the order of instructions (when order does not affect execution; for 
+example A :
+ 1; B : 2 can be rearranged with no detrimental  effect).
+• Insert instructions, (such as A :
+ A), that have no impact.
+• Insert random strings (perhaps as constants that are never used).
+
+• Replace instructions with others of equivalent effect, such as replacing 
+A : B 1 with A :
+ B  (1) or A :
+ B  2  1.• Insert instructions that are never executed (for example, in the 
+else part of a 
+conditional expression that is always true).
+These are relatively simple changes for which a malicious code writer can build a 
+tool, producing a unique copy for every user. Unfortunately (for the code writer), even 
+
+with a few of these changes on each copy, there will still be recognizable identical sec-
+
+tions. We discuss this problem for the malware writer later in this chapter as we con-
+
+sider virus scanners as countermeasures to malicious code.Now that we have explored the threat side of malicious code, we turn to vulner-
+abilities. As we showed in Chapter 1, a threat is harmless without a vulnerability it can 
+
+exploit. Unfortunately, exploitable vulnerabilities abound for malicious code.
+Introduction of Malicious Code
+The easiest way for malicious code to gain access to a system is to be introduced by a 
+user, a system owner, an administrator, or other authorized agent.
+The only way to prevent the infection of a virus is not to receive executable code 
+from an infected source. This philosophy used to be easy to follow because it was easy 
+
+to tell if a file was executable or not. For example, on PCs, a 
+.exe
+ extension was a clear 
+sign that the file was executable. However, as we have noted, today’s files are more 
+
+complex, and a seemingly nonexecutable file with a 
+.doc extension may have some exe-
+cutable code buried deep within it. For example, a word processor may have commands 
+
+within the document file. As we noted earlier, these commands, called macros, make it 
+
+easy for the user to do complex or repetitive things, but they are really executable code 
+
+embedded in the context of the document. Similarly, spreadsheets, presentation slides, 
+
+other office or business files, and even media files can contain code or scripts that can 
+
+be executed in various ways—and thereby harbor viruses. And, as we have seen, the 
+
+applications that run or use these files may try to be helpful by automatically invoking 
+
+the executable code, whether you want it to run or not! Against the principles of good 
+
+security, email handlers can be set to automatically open (without performing access 

@@ -1,0 +1,90 @@
+630 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+ 
+ 
+ 29.2  
+THE SCM REPOSITORY  
+ 
+The SCM repository is the set of mechanisms and data structures that allow a 
+software team to manage change in an effective manner. It provides the obvious 
+
+functions of a modern database management system by ensuring data integrity, 
+
+sharing, and integration. In addition, the SCM repository provides a hub for 
+
+the integration of software tools, is central to the ﬂ ow of the software process, 
+and can enforce uniform structure and format for software engineering work 
+
+products. 
+ To achieve these capabilities, the repository is deﬁ
+ ned in terms of a me-
+ta-model. The  meta-model 
+ determines how information is stored in the repos-
+itory, how data can be accessed by tools and viewed by software engineers, how 
+
+well data security and integrity can be maintained, and how easily the existing 
+model can be extended to accommodate new needs.   
+ 
+29.2.1   
+General Features and Content 
+ 
+The features and content of the repository are best understood by looking at it from two perspectives: what is to be stored in the repository and what speciﬁ c 
+services are provided by the repository. A detailed breakdown of types of repre-
+
+sentations, documents, and other work products that are stored in the repository 
+is presented in  Figure 29.3  
+ 
+.  
+ 
+ 
+ 
+ 
+Business rulesBusiness functions
+Organization structure
+Information architecture
+Project estimatesProject schedule
+SCM requirements
+ Change requests
+
+ Change reports
+
+SQA requirements
+Project reports/audit reports
+
+Project metricsUse casesAnalysis model
+ Scenario-based diagrams
+
+ Flow-oriented diagrams
+
+ Class-based diagrams
+
+ Behavioral diagrams
+
+Design model
+ Architectural diagrams
+
+ Interface diagrams
+
+ Component-level diagrams
+
+Technical metrics
+Source codeObject code
+System build instructionsTest cases
+Test scripts
+
+Test results
+
+Quality metricsProject planSCM/SQA plan
+System spec
+Requirements spec
+Design document
+Test plan and procedure
+
+Support documents
+
+User manualProjectmanagementcontentDocumentsModelcontentConstructioncontentV & VcontentBusinesscontent FIGURE 29.3 
+Content of the repository
+pre22126_ch29_623-652.indd   630pre22126_ch29_623-652.indd   63013/12/13   6:16 PM13/12/13   6:16 PM

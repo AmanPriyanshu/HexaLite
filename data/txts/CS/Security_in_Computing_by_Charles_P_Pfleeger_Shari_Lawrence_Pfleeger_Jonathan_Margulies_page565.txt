@@ -1,0 +1,33 @@
+ Section 7.4  Database Disclosure 
+531  other, more deeply hidden, data. The figure shows us that beneath the outer layer may 
+be yet more nonsensitive data that the user cannot infer.
+The ideal combination of security and precision allows us to maintain perfect con-
+fidentiality with maximum precision; in other words, we disclose all and only the non-
+
+sensitive data. But achieving this goal is not as easy as it might seem, as we show in the 
+
+next section. Sidebar 7-5 gives an example of using imprecise techniques to improve 
+
+accuracy. In the next section, we consider ways in which sensitive data can be obtained 
+
+from queries that appear harmless.FIGURE 7-4 Security versus Precision
+Freely Disclosed inResponse to QueriesMay Be Inferred fromQueriesCannot Be Inferredfrom Queries Concealed—Not DisclosedLeast Sensitive
+Most Sensitive
+Conceal for Maximum Security  Reveal for Maximum
+PrecisionSIDEBAR 7-5 Accuracy and Imprecision
+Article I of the U.S. Constitution charges Congress with determining the 
+“respective numbers . . . of free . . . and all other persons . . . within every . . . 
+
+term of ten years.” This count is used for many things, including apportion-
+
+ing the number of representatives to Congress and distributing funds fairly 
+
+to the states. Difficult enough in 1787, this task has become increasingly 
+
+challenging. The count cannot simply be based on residences because 
+
+some homeless people would be missed. A fair count cannot be obtained 
+solely by sending a questionnaire for each person to complete and return 
+
+because some people cannot read and, more significantly, many people 
+(continues)

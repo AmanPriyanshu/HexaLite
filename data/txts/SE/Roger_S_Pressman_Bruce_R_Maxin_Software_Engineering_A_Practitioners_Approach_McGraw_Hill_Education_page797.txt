@@ -1,0 +1,112 @@
+CHAPTER 34  
+PROJECT SCHEDULING 767tables 
+—a tabular listing of all project tasks, their planned and actual start and end dates, and a variety of related information (  
+Figure 34.4  
+). Used in conjunction with the time-line chart, project tables enable you to track progress.  
+ 
+ 
+ 
+  
+ 
+ 
+ 
+34.5.2   
+Tracking the Schedule 
+ 
+ 
+If it has been properly developed, the project schedule becomes a road map that deﬁ nes the tasks and milestones to be tracked and controlled as the project pro-
+ceeds. Tracking can be accomplished in a number of different ways:
+  
+ 
+ 
+•  Conducting periodic project status meetings in which each team member reports progress and problems.   
+ 
+ 
+•  Evaluating the results of all reviews conducted throughout the software engineering process.   
+ 
+ 
+•  Determining whether formal project milestones (the diamonds shown in   
+Figure 34.3  
+) have been accomplished by the scheduled date.   
+ 
+ 
+•  Comparing the actual start date to the planned start date for each project task listed in the resource table (  
+Figure 34.4  
+).   
+ 
+ 
+•  Meeting informally with practitioners to obtain their subjective assess-ment of progress to date and problems on the horizon.   
+ 
+ 
+•  Using earned value analysis (Section 34.6) to assess progress quantitatively. 
+   
+ 
+In reality, all of these tracking techniques are used by experienced project 
+managers.   
+ 
+ uote:  “The basic rule of 
+software status 
+reporting can be 
+summarized in a 
+single phrase: ‘No 
+surprises’.“  Capers Jones 
+Plannedstart
+Actualstart
+PlannedcompleteActualcompleteAssignedpersonEffort
+allocatedNoteswk1, d1wk1, d2
+wk1, d3
+wk1, d3wk1, d4wk1, d3
+wk2, d1
+wk2, d1
+wk1, d4
+wk2, d1
+wk2, d3
+wk2, d4
+wk2, d5wk1, d1wk1, d2
+wk1, d3
+wk1, d3wk1, d4wk1, d3wk1, d4wk1, d2wk1, d2
+wk1, d3
+wk1, d3wk2, d2wk2, d2
+wk2, d3
+wk2, d2
+wk2, d3
+wk2, d3
+wk2, d3
+wk2, d4
+wk2, d5wk1, d2wk1, d2
+wk1, d3
+wk1, d3BLSJPP
+BLS/JPPBLSJPP
+MLL
+BLS
+JPP
+MLL
+all
+all2 p-d1 p-d
+1 p-d1.5 p-d2 p-d
+1 p-d
+1.5 p-d
+2 p-d
+3 p-d
+3 p-d
+3 p-dScoping willrequire more
+effort/time
+Work tasks
+Identify needs and benefits
+Meet with customers
+Identify needs and project constraints
+Establish product statement
+Milestone: Product statement defined
+Define desired output/control/input (OCI)
+Scope keyboard functions
+Scope voice input functions
+Scope modes of interaction
+Scope document diagnostics
+Scope other WP functions
+Document OCI
+FTR: Review OCI with customer
+Revise OCI as required
+Milestone: OCI defined
+Define the function/behaviorI.1.1I.1.2I.1.3 FIGURE 34.4 
+An example project table
+pre22126_ch34_754-776.indd   767pre22126_ch34_754-776.indd   76713/12/13   10:02 PM13/12/13   10:02 PM

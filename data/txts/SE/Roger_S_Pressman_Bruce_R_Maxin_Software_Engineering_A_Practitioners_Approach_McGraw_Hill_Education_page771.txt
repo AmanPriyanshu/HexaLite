@@ -1,0 +1,63 @@
+CHAPTER 33  
+ESTIMATION FOR SOFTWARE PROJECTS
+ 741been developed they can be used to estimate the projected “size” of a software project. However, developing an estimation approach with use cases presents 
+
+challenges [Smi99]. Use cases are described using many different formats and 
+styles and represent an external view (the user’s view) of the software. Therefore, 
+
+they can be written at many different levels of abstraction. Use cases do not ad-
+dress the complexity of the functions and features that are described, and they 
+can describe complex behavior (e.g., interactions) that involve many functions 
+and features.  
+ 
+ 
+   
+Even with these constraints, it is possible to compute  use case points 
+ (UCPs) in 
+a manner that is analogous to the computation of functions points (Chapter 30).  Cohn (Coh05) indicates that the computation of use case points must take the following characteristics into account:  
+ 
+ 
+•  The number and complexity of the use cases in the system.   
+ 
+ 
+•  The number and complexity of the actors on the system.   
+ 
+ 
+•  Various nonfunctional requirements (such as portability, performance, 
+maintainability) that are not written as use cases.   
+ 
+ 
+•  The environment in which the project will be developed (e.g., the pro-gramming language, the software team’s motivation). 
+ 
+ 
+  To begin, each use case is assessed to determine its relative complexity. A sim-
+ple use case indicates a simple user interface, a single database, and three or 
+fewer transactions and ﬁ ve or fewer class implementations. An average use case 
+indicates a more complex UI, 2 or 3 databases, and 4 to 7 transactions with 5 to 
+10 classes. Finally, a complex use case implies a complex UI with multiple data-
+
+bases, using eight or more transactions and 11 or more classes. Each use case is 
+assessed using these criteria and the count of each type is weighted by a factor of 
+5, 10, and 15, respectively. A total  
+unadjusted use case weight 
+ (UUCW) is the sum of all weighted counts [Nun11].  Next, each actor is assessed. Simple actors are automatons (another system, a machine or device) that communicate through an API. Average actors are au-
+
+tomatons that communicate through a protocol or a data store, and complex 
+actors are humans who communicate through a GUI or other human interface. 
+Each actor is assessed using these criteria and the count of each type is weighted 
+by a factor of 1, 2, and 3, respectively. The total  
+unadjusted actor weight 
+ (UAW) is 
+the sum of all weighted counts.  These unadjusted values are modiﬁ ed by considering technical complexity 
+factors (TCFs) and environment complexity factors (ECFs). Thirteen factors con-
+tribute to an assessment of the ﬁ nal TCF, and eight factors contribute to the com-
+putation of the ﬁ nal ECF [Coh05]. Once these values have been determined, the 
+ﬁ nal UCP value is computed in the following manner:
+ UCP 5 (UUCW 1 UAW) 
+3 TCF 3 ECF  (33.2)
+ Why is it 
+difﬁ cult 
+to develop 
+an estimation 
+technique using 
+use cases? ?pre22126_ch33_727-753.indd   741pre22126_ch33_727-753.indd   74113/12/13   6:17 PM13/12/13   6:17 PM

@@ -1,0 +1,71 @@
+ Section 9.3  Authentication and Privacy 
+613  a magnetic stripe card instead of a key, and the door to your room authenticates you as 
+a valid resident for the next three nights. If you think about your day, you will probably 
+
+find dozens of ways some aspect of your identity has been authenticated.
+From a privacy standpoint, there may or may not be ways to connect all these dif-
+ferent identities. A credit card links to the name and address of the card payer, who 
+
+may be you, your spouse, or anyone else willing to pay your expenses. Your auto toll 
+
+device links to the name and perhaps address of whoever is paying the tolls: you, the 
+
+car’s owner, a rental agency, or an employer. When you make a telephone call, there is 
+
+authentication to the telephone’s account holder, and so forth.
+Sometimes we do not want an action associated with an identity. For example, an 
+anonymous tip or use of a “whistle blower’s” telephone line is a means of providing 
+
+anonymous information about illegal or inappropriate activity. If you know your boss 
+
+is cheating the company, confronting your boss might not be a good career-enhancing 
+
+move. You probably don’t even want a record to exist that would allow your boss to 
+
+determine who reported the fraud. So you report it anonymously. You might take the 
+
+precaution of calling from a public phone so there would be no way to trace the person 
+
+who called. In that case, you are purposely taking steps to keep a common identifier 
+
+from linking you to the report.Because of data accumulation over time, however, linking may still be possible. As 
+you leave your office to go to a public phone, there is a record of the badge you swiped 
+
+at the door. A surveillance camera shows you standing at the public phone. The cof-
+
+fee shop’s records include a timestamp showing when you bought your coffee (using 
+
+your customer loyalty card) before returning to your office. The time of these details 
+
+matches the time of the anonymous telephone tip. In the abstract these data items do 
+
+not stand out from millions of others. But someone probing the few minutes around the 
+
+time of the tip can construct those links. The linking could be done by hand. But ever-
+
+improving technology permits more parallels like these to be drawn by computers from 
+
+seemingly unrelated and uninteresting data points.Therefore, to preserve our privacy we may thwart attempts to link records. A friend 
+gives a fictitious name when signing up for customer loyalty cards at stores. Another 
+
+friend makes dinner reservations under a pseudonym. In a neighborhood store, the 
+
+clerks always ask you for your telephone number when you buy something, even if 
+ you pay cash. You can gladly give them one; it just doesn’t happen to be your real 
+
+number. Numerous sites (see http://www.dmoz.org/Computers/Internet/E-mail/Spam/
+
+Preventing/Temporary_Addresses/) offer temporary email addresses for one-time use, 
+
+for a limited period of validity (up to a few months), or until the address is deleted.
+Anonymized Records
+Sometimes, individual data elements are not sensitive, but the linkages among them 
+are. For instance, some person is named Erin, some person has the medical condition 
+
+diabetes; neither of those facts is sensitive. The linkage that Erin has diabetes becomes 
+
+sensitive.
+Medical researchers want to study populations to determine incidence of diseases, 
+common factors, trends, and patterns. To preserve privacy, researchers often deal with 
+
+anonymized records: records from which identifying information has been removed. 

@@ -1,0 +1,53 @@
+80 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+Access Control List
+An alternative representation is the 
+access control list
+; as shown in Figure 2-12, this 
+representation corresponds to columns of the access control matrix. There is one such 
+
+list for each object, and the list shows all subjects who should have access to the object 
+
+and what their access is. This approach differs from the directory list because there is 
+
+one access control list per object; a directory is created for each subject. Although this 
+
+difference seems small, there are some significant advantages to this approach.
+The access control list representation can include default rights. Consider subjects A 
+and S, both of whom have access to object F. The operating system will maintain just 
+
+one access list for F, showing the access rights for A and S, as shown in Figure 2-13. 
+
+The access control list can include general default entries for any users. In this way, 
+
+specific users can have explicit rights, and all other users can have a default set of rights. 
+
+With this organization, all possible users of the system can share a public file or pro-
+
+gram without the need for an entry for the object in the individual directory of each user.
+The Multics operating system used a form of access control list in which each user belonged to three protection classes: a user, a group, and a compartment. The user desig-
+
+nation identified a specific subject, and the group designation brought together subjects 
+
+who had a common interest, such as their being coworkers on a project. The compart-
+
+ment confined an untrusted object; a program executing in one compartment could not 
+
+access objects in another compartment without specific permission. The compartment 
+
+was also a way to collect objects that were related, such as all files for a single project.
+To see how this type of protection might work, suppose every user who initiates 
+access to the system identifies a group and a compartment with which to work. If 
+
+Adams logs in as user Adams in group Decl and compartment Art2, only objects having 
+
+Adams-Decl-Art2 in the access control list are accessible in the session.By itself, this kind of mechanism would be too restrictive to be usable. Adams can-
+not create general files to be used in any session. Worse yet, shared objects would not 
+
+only have to list Adams as a legitimate subject but also have to list Adams under all 
+
+acceptable groups and all acceptable compartments for each group.The solution is the use of wild cards, meaning placeholders that designate “any user” 
+(or “any group” or “any compartment”). An access control list might specify access 
+
+by Adams-Decl-Art1, giving specific rights to Adams if working in group Decl on 
+User WFile AAdminReadWriteOwnWriteWriteControlControlPrinterSystemClockReadFIGURE 2-12 Access Control List

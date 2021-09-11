@@ -1,0 +1,65 @@
+CHAPTER 32  
+PROCESS AND PROJECT METRICS 711 
+The function point, like the LOC measure, is controversial. Proponents claim that FP is programming language–independent, making it ideal for applications 
+using conventional and nonprocedural languages, and that it is based on data 
+that are more likely to be known early in the evolution of a project, making FP 
+more attractive as an estimation approach. Opponents claim that the method 
+requires some “sleight of hand” in that computation is based on subjective rather 
+than objective data, that counts of the information domain (and other dimen-
+sions) can be difﬁ cult to collect after the fact, and that FP has no direct physical 
+meaning—it’s just a number. 
+  
+ 
+ 
+32.2.3   
+Reconciling LOC and FP Metrics  
+The relationship between lines of code and function points depends upon the pro-gramming language that is used to implement the software and the quality of the 
+
+design. A number of studies have attempted to relate FP and LOC measures. The 
+
+following table  
+4 
+ 
+ [QSM02] provides rough estimates of the average number of lines 
+of code required to build one function point in various programming languages: 
+LOC per Function PointProgramming 
+LanguageAvg.
+MedianLowHighAda154—104205
+ASP56106
+
+Assembler337315694
+
+C148107704
+
+C11178
+C#704
+
+COBOL400
+
+ColdFusion105
+
+DBase IV———
+
+Easytrieve1
+Focus
+
+FORTRAN118__
+
+FoxPro
+
+HTML
+
+Informix
+
+J2EE
+Java214
+JavaScript
+
+JSP———
+
+Lotus Notes
+  
+4   The data presented in the table is an abbreviated version of data developed by Quantitative 
+Software Management ( www.qsm.com
+ 
+) and is used with their permission, copyright 2002. pre22126_ch32_703-726.indd   711pre22126_ch32_703-726.indd   71113/12/13   6:17 PM13/12/13   6:17 PM

@@ -1,0 +1,60 @@
+ Section 3.1  Unintentional (Nonmalicious) Programming Oversights 
+157  Countermeasures
+Fortunately, there are ways to prevent exploitation of the time lag, again depending on 
+our security tool, access control. Critical parameters are not exposed during any loss 
+
+of control. The access-checking software must own the request data until the requested 
+
+action is complete. Another protection technique is to ensure serial integrity, that is, to 
+
+allow no interruption (loss of control) during the validation. Or the validation routine 
+
+can initially copy data from the user’s space to the routine’s area—out of the user’s 
+
+reach—and perform validation checks on the copy. Finally, the validation routine can 
+
+seal the request data to detect modification. Really, all these protection methods are 
+
+expansions on the tamperproof criterion for a reference monitor: Data on which the 
+
+access control decision is based and the result of the decision must be outside the 
+
+domain of the program whose access is being controlled.Undocumented Access PointNext we describe a common programming situation. During program development and 
+
+testing, the programmer needs a way to access the internals of a module. Perhaps a 
+
+result is not being computed correctly so the programmer wants a way to interrogate 
+
+data values during execution. Maybe flow of control is not proceeding as it should and 
+
+the programmer needs to feed test values into a routine. It could be that the programmer 
+
+wants a special debug mode to test conditions. For whatever reason the programmer 
+
+creates an undocumented entry point or execution mode.
+These situations are understandable during program development. Sometimes, how-
+ever, the programmer forgets to remove these entry points when the program moves 
+
+from development to product. Or the programmer decides to leave them in to facilitate 
+
+program maintenance later; the programmer may believe that nobody will find the spe-
+
+cial entry. Programmers can be naïve, because if there is a hole, someone is likely to 
+
+find it. See Sidebar 3-4 for a description of an especially intricate backdoor.
+SIDEBAR 3-4 Oh Look: The Easter Bunny!
+Microsoft’s Excel spreadsheet program, in an old version, Excel 97, had the 
+following feature.
+• Open a new worksheet
+• Press F5
+
+• Type X97:L97 and press Enter
+
+• Press Tab
+
+• Hold <Ctrl-Shift> and click the Chart Wizard
+A user who did that suddenly found that the spreadsheet disappeared 
+and the screen filled with the image of an airplane cockpit! Using the arrow 
+
+keys, the user could fly a simulated plane through space. With a few more 
+(continues)

@@ -1,0 +1,66 @@
+ Section 12.2  Symmetric Encryption Algorithms 
+781  Encryption Algorithm-1) in other countries. Then, NBS called on the Department of 
+Defense through its National Security Agency (NSA) to analyze the strength of the 
+
+encryption algorithm, and IBM changed it slightly. Finally, the NBS released the algo-
+
+rithm for public scrutiny and discussion.
+DES was officially adopted as a U.S. federal standard [NBS77] in November 1976, 
+authorized by NBS for use on all public and private sector unclassified communication. 
+
+Eventually, DES was accepted as an international standard by the International Stan-
+
+dards Organization.
+DES AlgorithmThe algorithm leverages the two techniques Shannon identified to conceal information: 
+confusion and diffusion. That is, the algorithm accomplishes two things: ensuring that 
+
+the output bits have no obvious relationship to the input bits and spreading the effect 
+
+of one plaintext bit to other bits in the ciphertext. Substitution confuses, transposition 
+
+diffuses. In general, plaintext is affected by a series of cycles of a substitution followed 
+
+by a permutation.We do not detail the full DES algorithm here because it is fully documented in the 
+original definition document [NBS77]. However, we do want you to see the basic struc-
+
+ture of the algorithm so you can appreciate the origin of its cryptographic strength.The basis of DES is two different ciphers, applied alternately. Shannon noted that 
+two weak but complementary ciphers can be made more secure by being applied 
+
+together (called the “product” of the two ciphers) alternately, in a structure called a 
+
+product cipher
+.After initialization, the DES algorithm operates on blocks of data. It splits a data 
+block in half, scrambles each half independently, combines the key with one half, and 
+
+swaps the two halves. This process is repeated 16 times. It is an iterative algorithm 
+
+using just table lookups and simple bit operations. Although the bit-level manipula-
+
+tions of the algorithm are complex, the algorithm itself can be implemented quite effi-
+
+ciently. Data manipulations are on bit strings ranging from 32 to 64 bits, using only 
+
+table lookups, logical operations (AND, OR, exclusive OR, (XOR)), and bit shifts and 
+
+rotations, making these procedures ideal for implementation on computers with 32- or 
+64-bit word sizes.
+Input to DES is divided into blocks of 64 bits. The 64 data bits are permuted by a 
+so-called initial permutation. The data bits are transformed by a 64-bit key (of which 
+
+only 56 bits are used). The key is reduced from 64 bits to 56 bits by the dropping of bits 
+
+8, 16, 24, ... 64 (where the most significant bit is named bit “1”). The ignored bits are 
+
+assumed to be parity bits that carry no information in the key.
+Next begins the sequence of operations known as a 
+cycle. The 64 permuted data bits 
+are broken into a left half and a right half of 32 bits each. For a 32-bit right half to be 
+
+combined with a 64-bit key, two changes are needed. First, the algorithm expands the 
+
+32-bit half to 48 bits by repeating certain bits, while reducing the 56-bit key to 48 bits 
+
+by choosing only certain bits according to tables called S-boxes. These last two opera-
+
+tions are called expansion permutations and permuted choice.The key is shifted left by a number of bits and also permuted. The key is com-
+bined with the right half, which is then combined with the left half. The result of these 

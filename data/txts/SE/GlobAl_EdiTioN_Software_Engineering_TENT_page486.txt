@@ -1,0 +1,41 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜can evolve as requirements change. You may have to take trade-offs into account 
+for component decisions:1. What composition of components is most effective for delivering the functional 
+requirements for the system?2. What composition of the components will make it easier to adapt the composite 
+component when its requirements change?3. What will be the emergent properties of the composed system? These properties 
+include performance and dependability. You can only assess these properties 
+
+once the complete system is implemented.Unfortunately, in many situations the solutions to the composition problems may 
+conflict. For example, consider a situation such as that illustrated in Figure 16.15, 
+where a system can be created through two alternative compositions. The system is 
+
+a data collection and reporting system where data is collected from different sources, 
+
+stored in a database, and then different reports summarizing that data are produced.Here, there is a potential conflict between adaptability and performance. 
+Composition (a) is more adaptable, but composition (b) is likely to be faster and more 
+
+reliable. The advantages of composition (a) are that reporting and data management 
+
+are separate, so there is more flexibility for future change. The data management 
+
+system could be replaced, and, if reports are required that the current reporting com-
+ponent cannot produce, that component can also be replaced without having to 
+
+change the data management component.In composition (b), a database component with built-in reporting facilities (e.g., 
+Microsoft Access) is used. The key advantage of composition (b) is that there are fewer 
+
+components, so this will be a faster implementation because there are no component 
+
+communication overheads. Furthermore, data integrity rules that apply to the database 
+
+will also apply to reports. These reports will not be able to combine data in incorrect 
+
+ways. In composition (a), there are no such constraints, so errors in reports could occur.
+In general, a good composition principle to follow is the principle of separation of concerns. That is, you should try to design your system so that each component has 
+a clearly defined role. Ideally, component roles should not overlap. However, it may 
+be cheaper to buy one multifunctional component rather than two or three separate 
+components. Furthermore, dependability or performance penalties may be incurred 
+when multiple components are used.(a)Datacollection(b)DatamanagementReport
+generatorDatacollectionDatabaseReportReport
+Figure 16.15  Data collection and report 
+generation components 

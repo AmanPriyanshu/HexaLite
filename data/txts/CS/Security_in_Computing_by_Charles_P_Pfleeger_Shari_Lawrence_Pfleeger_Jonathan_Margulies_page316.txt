@@ -1,0 +1,57 @@
+282 Chapter 5  
+Operating Systems• a smartphone, tablet, or other web appliance
+• a network appliance, such as a firewall or intrusion detection and prevention 
+system (all covered in Chapter 6)
+• a controller for a bank of web servers
+
+• a (computer) network traffic management device
+In addition to this list, of course, computers—from microcomputers to laptops to huge mainframes—have operating systems. The nature of an operating system varies accord-
+
+ing to the complexity of the device on which it is installed, the degree of control it exer-
+
+cises, and the amount of interaction it supports, both with humans and other devices. 
+
+Thus, there is no one simple model of an operating system, and security functions and 
+features vary considerably.
+From a security standpoint, we are most interested in an operating system’s control 
+of resources: which users are allowed which accesses to which objects, as we explore 
+
+in the next section.
+Security Features of Ordinary Operating Systems
+A multiprogramming operating system performs several functions that relate to secu-
+
+rity. To see how, examine Figure 5-1, which illustrates how an operating system inter-
+
+acts with users, provides services, and allocates resources.
+We can see that the system addresses several particular functions that involve com-
+puter security:• Enforced sharing. 
+Resources should be made available to users as appropri-
+ate. Sharing brings about the need to guarantee integrity and consistency. Table 
+
+lookup, combined with integrity controls such as monitors or transaction proces-
+
+sors, is often used to support controlled sharing.• Interprocess communication and synchronization. 
+Executing processes some-
+times need to communicate with other processes or to synchronize their 
+
+accesses to shared resources. Operating systems provide these services by acting 
+
+as a bridge between processes, responding to process requests for asynchronous 
+communication with other processes or synchronization. Interprocess commu-
+
+nication is mediated by access control tables.• Protection of critical operating system data. 
+The operating system must main-tain data by which it can enforce security. Obviously, if these data are not pro-
+
+tected against unauthorized access (read, modify, and delete), the operating 
+
+system cannot provide enforcement. Various techniques (including encryp-
+
+tion, hardware control, and isolation) support protection of operating system 
+
+security data.• Guaranteed fair service
+. All users expect CPU usage and other service to be 
+provided so that no user is indefinitely starved from receiving service. Hardware 
+
+clocks combine with scheduling disciplines to provide fairness. Hardware facili-
+
+ties and data tables combine to provide control.

@@ -1,0 +1,77 @@
+676 PART 
+THREE  QUALITY MANAGEMENTother features such as development effort, development time, and even the pro-
+jected number of faults in the software.  Halstead shows that length  
+N  can be estimated
+ N  
+5  n 
+1 log2  n 
+1 1  n 
+2 log2  n 
+2and program volume may be deﬁ ned V  
+5  N  log
+2 ( n 
+1  1 n 
+2)  It should be noted that  V  will vary with programming language and represents the volume of information (in bits) required to specify a program.  Theoretically, a minimum volume must exist for a particular algorithm. 
+Halstead deﬁ nes a volume ratio  
+L  as the ratio of volume of the most compact form of a program to the volume of the actual program. In actuality,  
+L  must always be less than 1. In terms of primitive measures, the volume ratio may be expressed as L  
+5   
+2 __  n 
+1  
+ 3   
+  n 
+2  ___ N 
+2   
+ Halstead’s work is amenable to experimental veriﬁ cation and a large body 
+of research has been conducted to investigate software science. A discussion of 
+this work is beyond the scope of this book. For further information, see [Zus90], 
+[Fen91], and [Zus97].      
+ 30.6  METRICS FOR TESTING   
+The majority of metrics proposed for testing focus on the process of testing, not 
+the technical characteristics of the tests themselves. In general, testers must rely 
+on analysis, design, and code metrics to guide them in the design and execution 
+of test cases.       
+Architectural design metrics provide information on the ease or difﬁ culty as-
+sociated with integration testing (Section 30.3) and the need for specialized test-
+ing software (e.g., stubs and drivers). Cyclomatic complexity (a component-level 
+design metric) lies at the core of basis path testing, a test-case design method 
+presented in Chapter 23. In addition, cyclomatic complexity can be used to target 
+modules as candidates for extensive unit testing. Modules with high cyclomatic 
+complexity are more likely to be error prone than modules whose cyclomatic 
+complexity is lower. For this reason, you should expend above average effort to 
+
+uncover errors in such modules before they are integrated in a system.    
+30.6.1   Halstead Metrics Applied to Testing 
+ Testing effort can be estimated using metrics derived from Halstead measures 
+
+(Section 30.5). Using the deﬁ nitions for program volume  
+V  and program level  PL,  
+Halstead effort  e  can be computed as
+ PL  
+5   
+1 ______________  
+[( n 
+1/2) 3 ( N 
+2 /n 
+2)]   (30.6a) e 5   
+V ___ PL    
+ (30.6b)   Operators include all 
+
+ﬂ ow of control con-
+
+structs, conditionals, 
+
+and math operations. 
+Operands encompass 
+all program variables 
+and constants.    Testing metrics fall into 
+
+two broad categories: 
+(1) metrics that 
+attempt to predict the 
+likely number of tests 
+required at various 
+testing levels, and 
+
+on test coverage for a 
+given component. 

@@ -1,0 +1,72 @@
+ Section 3.3  Countermeasures 
+219  of the system. For instance, if the mechanic checks the fuel system, the cooling system, 
+and the brakes, there is no guarantee that the muffler is good.
+In the same way, an operating system that fails a penetration test is known to have 
+faults, but a system that does not fail is not guaranteed to be fault-free. All we can 
+
+say is that the system is likely to be 
+
+free only from the types of faults 
+
+checked by the tests exercised on 
+
+it. Nevertheless, penetration test-
+
+ing is useful and often finds faults 
+
+that might have been overlooked by 
+
+other forms of testing.One possible reason for the success of penetration testing is its use under real-life conditions. Users often exercise a system in ways that its designers never anticipated or 
+
+intended. So penetration testers can exploit this real-life environment and knowledge to 
+
+make certain kinds of problems visible.
+Penetration testing is popular with the commercial community that thinks skilled 
+hackers will test (attack) a site and find all its problems in days, if not hours. But find-
+
+ing flaws in complex code can take weeks if not months, so there is no guarantee that 
+
+penetration testing will be effective.
+Indeed, the original military “red teams” convened to test security in software sys-
+tems were involved in 4- to 6-month exercises—a very long time to find a flaw. Ander-
+
+son et al. [AND04] elaborate on this limitation of penetration testing. To find one flaw 
+
+in a space of 1 million inputs may require testing all 1 million possibilities; unless the 
+space is reasonably limited, the time needed to perform this search is prohibitive. To test 
+
+the testers, Paul Karger and Roger Schell inserted a security fault in the painstakingly 
+
+designed and developed Multics system, to see if the test teams would find it. Even after 
+
+Karger and Schell informed testers that they had inserted a piece of malicious code in 
+
+a system, the testers were unable to find it [KAR02]. Penetration testing is not a magic 
+
+technique for finding needles in haystacks.
+Proofs of Program Correctness
+A security specialist wants to be certain that a given program computes a particular 
+result, computes it correctly, and does nothing beyond what it is supposed to do. Unfor-
+
+tunately, results in computer science theory indicate that we cannot know with certainty 
+
+that two programs do exactly the same thing. That is, there can be no general procedure 
+
+which, given any two programs, determines if the two are equivalent. This difficulty 
+
+results from the “halting problem,” which states that there can never be a general tech-
+
+nique to determine whether an arbitrary program will halt when processing an arbitrary 
+input. (See [PFL85] for a discussion.)In spite of this disappointing general result, a technique called program verification
+ can demonstrate formally the “correctness” of certain specific programs. Program veri-
+
+fication involves making initial assertions about the program’s inputs and then checking 
+
+to see if the desired output is generated. Each program statement is translated into a 
+
+logical description about its contribution to the logical flow of the program. Then, the 
+
+terminal statement of the program is associated with the desired output. By applying a A system that fails penetration testing 
+is known to have faults; one that passes 
+is known only not to have the faults 
+tested for.

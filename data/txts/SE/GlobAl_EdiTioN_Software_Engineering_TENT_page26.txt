@@ -1,0 +1,39 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+Of course, the boundaries between these system types are blurred. If you develop a game for a phone, you have to take into account the same constraints (power, hard-ware interaction) as the developers of the phone software. Batch processing systems 
+are often used in conjunction with web-based transaction systems. For example, in a 
+company, travel expense claims may be submitted through a web application but 
+
+processed in a batch application for monthly payment.Each type of system requires specialized software engineering techniques because the software has different characteristics. For example, an embedded control system 
+in an automobile is safety-critical and is burned into ROM (read-only memory) 
+
+when installed in the vehicle. It is therefore very expensive to change. Such a system 
+needs extensive verification and validation so that the chances of having to recall 
+
+cars after sale to fix software problems are minimized. User interaction is minimal 
+(or perhaps nonexistent), so there is no need to use a development process that relies 
+on user interface prototyping.For an interactive web-based system or app, iterative development and delivery is the best approach, with the system being composed of reusable components. 
+
+However, such an approach may be impractical for a system of systems, where 
+
+detailed specifications of the system interactions have to be specified in advance so 
+that each system can be separately developed.Nevertheless, there are software engineering fundamentals that apply to all types of software systems:1. They should be developed using a managed and understood development pro-cess. The organization developing the software should plan the development 
+
+process and have clear ideas of what will be produced and when it will be com-
+pleted. Of course, the specific process that you should use depends on the type 
+of software that you are developing.2. Dependability and performance are important for all types of system. Software 
+should behave as expected, without failures, and should be available for use 
+
+when it is required. It should be safe in its operation and, as far as possible, 
+
+should be secure against external attack. The system should perform efficiently 
+and should not waste resources.3. Understanding and managing the software specification and requirements (what 
+the software should do) are important. You have to know what different custom-
+ers and users of the system expect from it, and you have to manage their expec-
+tations so that a useful system can be delivered within budget and to schedule.4.
+ You should make effective use of existing resources. This means that, where 
+
+appropriate, you should reuse software that has already been developed rather 
+than write new software.These fundamental notions of process, dependability, requirements, manage
+-ment, and reuse are important themes of this book. Different methods reflect them in 
+different ways, but they underlie all professional software development.

@@ -1,0 +1,56 @@
+ Section 7.4  Database Disclosure 
+519  Several factors can make data sensitive.
+• Inherently sensitive. 
+The value itself may be so revealing that it is sensitive. 
+Examples are the locations of defensive missiles or the median income of bar-
+
+bers in a town with only one barber.
+• From a sensitive source. 
+The source of the data may indicate a need for confi-
+dentiality. An example is information from an informer whose identity would be 
+
+compromised if the information were disclosed.• Declared sensitive. 
+The database administrator or the owner of the data may 
+have declared the data to be sensitive. Examples are classified military data or 
+
+the name of the anonymous donor of a piece of art.
+• Part of a 
+sensitive attribute 
+or record
+. In a database, an entire attribute or record 
+may be classified as sensitive. Examples are the salary attribute of a personnel 
+
+database or a record describing a secret space mission.• Sensitive 
+in relation to previously disclosed information
+. Some data become 
+sensitive in the presence of other data. For example, the longitude coordinate of 
+
+a secret gold mine reveals little, but the longitude coordinate in conjunction with 
+
+the latitude coordinate pinpoints the mine.All of these factors must be con-
+sidered when the sensitivity of the 
+
+data is being determined.Types of Disclosures
+We all know that some data are sensitive. However, sometimes even characteristics of 
+
+the data are sensitive. In this section, we see that even descriptive information about 
+
+data (such as their existence or whether they have an element that is nonzero) is a form 
+
+of disclosure.Exact DataThe most serious disclosure is the exact value
+ of a sensitive data item itself. The user 
+may know that sensitive data are being requested, or the user may request general data 
+
+without knowing that some of it is sensitive. A faulty database manager may even 
+
+deliver sensitive data by accident, without the user’s having requested it. In all these 
+
+cases, the result is the same: The security of the sensitive data has been breached.
+TABLE 7-6 
+Example DatabaseNameSexRaceAidFinesDrugsDorm
+AdamsMC500045.1Holmes
+BaileyMB0 0.0Grey
+Databases protect sensitive data by 
+controlling direct or indirect access to 
+
+the data.

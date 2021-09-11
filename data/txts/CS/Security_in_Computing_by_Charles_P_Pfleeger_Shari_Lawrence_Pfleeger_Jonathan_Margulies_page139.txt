@@ -1,0 +1,44 @@
+ Section 2.3  Cryptography 
+105  The problem we want to solve is for Amy and Bill to be able to establish a secret 
+(symmetric algorithm) encryption key that only they know. The simplest solution is for 
+
+Amy to choose any symmetric key 
+K, and send E(kPRIV-
+A, K) to Bill. Bill takes Amy’s 
+public key, removes the encryption, and obtains 
+K. This analysis is flawed, however. How does the sender know the public key really 
+belongs to the intended recipient? Consider, for example, the following scenario. Sup-
+
+pose Amy and Bill do not have a convenient bulletin board. So, Amy just asks Bill for 
+
+his key. Basically, the key exchange protocol, depicted in Figure 2-24, would work 
+
+like this:
+1. Amy says: Bill, please send me your public key.
+2. Bill replies: Here, Amy; this is my public key.
+3. Amy responds: Thanks. I have generated a symmetric key for us to use for 
+this interchange. I am sending you the symmetric key encrypted under your 
+
+public key.
+In the subversion shown in Figure 2-25, we insert an attacker, Malvolio, into this 
+communication.1. Amy says: Bill, please send me your public key.
+ 1a. 
+Malvolio intercepts the message and fashions a new message to Bill, purport-
+ing to come from Amy but with Malvolio’s return address, asking for Bill’s 
+
+public key.
+ 2. 
+Bill replies: Here, Amy; this is my public key. (Because of the return address in 
+step 1a, this reply goes to Malvolio.)
+ 2a. 
+Malvolio holds Bill’s public key and sends Malvolio’s own public key to Amy, 
+alleging it is from Bill.
+ 3. 
+Amy responds: Thanks. I have generated a symmetric key for us to use for 
+this interchange. I am sending you the symmetric key encrypted under your 
+
+public key.
+4.,5abc6def9wxyz8tuv7pqrs
+Bill, give me your public key
+Here is my key, Amy
+123Here is a symmetric key we can use6mno5jkl1., 2abc3def9wxyz8tuv7pqrs4ghiFIGURE 2-24 Key Exchange Protocol

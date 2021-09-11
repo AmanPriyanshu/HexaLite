@@ -1,0 +1,36 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜2. Some domain knowledge is so familiar to stakeholders that they either find it difficult to explain or they think it is so fundamental that it isn™t worth mention-
+ing. For example, for a librarian, it goes without saying that all acquisitions are 
+catalogued before they are added to the library. However, this may not be obvi-
+ous to the interviewer, and so it isn™t taken into account in the requirements.Interviews are not an effective technique for eliciting knowledge about organiza-tional requirements and constraints because there are subtle power relationships 
+
+between the different people in the organization. Published organizational structures 
+rarely match the reality of decision making in an organization, but interviewees may 
+not wish to reveal the actual rather than the theoretical structure to a stranger. In 
+
+general, most people are generally reluctant to discuss political and organizational 
+
+issues that may affect the requirements.To be an effective interviewer, you should bear two things in mind:1. You should be open-minded, avoid preconceived ideas about the requirements, 
+
+and willing to listen to stakeholders. If the stakeholder comes up with surprising 
+
+requirements, then you should be willing to change your mind about the system.2. You should prompt the interviewee to get discussions going by using a spring-
+board question or a requirements proposal, or by working together on a proto-
+type system. Saying to people ﬁtell me what you wantﬂ is unlikely to result in 
+useful information. They find it much easier to talk in a defined context rather 
+than in general terms.Information from interviews is used along with other information about the sys-tem from documentation describing business processes or existing systems, user 
+
+observations, and developer experience. Sometimes, apart from the information in 
+the system documents, the interview information may be the only source of informa-
+tion about the system requirements. However, interviewing on its own is liable to 
+
+miss essential information, and so it should be used in conjunction with other 
+
+requirements elicitation techniques.Software systems do not exist in isolation. They are used in a social and organiza-tional environment, and software system requirements may be generated or con
+-strained by that environment. One reason why many software systems are delivered 
+but never used is that their requirements do not take proper account of how social 
+and organizational factors affect the practical operation of the system. It is therefore 
+very important that, during the requirements engineering process, you try to under-
+stand the social and organizational issues that affect the use of the system.Ethnography is an observational technique that can be used to understand opera-tional processes and help derive requirements for software to support these pro-
+cesses. An analyst immerses himself or herself in the working environment where 

@@ -1,0 +1,33 @@
+PART This part of the book covers more advanced software engineering topics. 
+I assume in these chapters that readers understand the basics of the disci-
+pline, covered in Chapters 1Œ9.Chapters 15Œ18 focus on the dominant development paradigm for web-
+
+based information systems and enterprise systemsŠsoftware reuse. 
+
+Chapter 15 introduces the topic and explains the different types of reuse 
+
+that are possible. I then cover the most common approach to reuse, 
+
+which is the reuse of application systems. These are configured and 
+
+adapted to the specific needs of each business.
+Chapter 16 is concerned with the reuse of software components rather 
+than entire software systems. In this chapter, I explain what is meant by a 
+
+component and why standard component models are needed for effec-
+tive component reuse. I also discuss the general process of component-
+based software engineering and the problems of component composition.
+The majority of large systems are now distributed systems and Chapter 17 
+covers issues and problems of building distributed systems. I introduce 
+
+the client-server approach as a fundamental paradigm of distributed sys
+-
+tems engineering, and explain ways of implementing this architectural 
+
+style. The final section explains software as a serviceŒthe delivery of soft
+-
+ware functionality over the Internet, which has changed the market for 
+
+software products.3 ˜˚˛˝˙ˆˇ˚˘
+˘
+

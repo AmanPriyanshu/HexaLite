@@ -1,0 +1,53 @@
+ Section 12.1  Cryptology 
+769  to study cryptography in depth. And we caution you strongly against studying a little 
+cryptography and concluding that you can design your own secure cryptosystem. The 
+
+field of cryptography is littered with failed approaches designed even by experts, so 
+
+nonexperts are well advised to “leave the driving to the professionals.” See, for exam-
+
+ple, Sidebar 12-1 on the perils of inventing your own cryptography.
+12.1 CRYPTOLOGY
+In this section we study two related things: inventing codes and breaking them. Sports 
+
+players learn offensive moves by studying defensive maneuvers, and vice versa. There-
+
+fore, we present the primitive aspects of making and breaking codes together.
+CryptanalysisRemember from Chapter 2 that cryptanalysis is the act of studying a cryptographic 
+
+algorithm, its implementation, plaintext, ciphertext, and any other available information 
+
+to try to break the protection of encryption.A cryptanalyst can attempt to do any or all of six different things:
+• Break (decrypt) a single message.
+• Recognize patterns in encrypted messages, so as to break subsequent ones by 
+applying a straightforward decryption algorithm.
+• Infer some meaning without even breaking the encryption, such as noticing an 
+unusual frequency of communication or determining something by whether the 
+
+communication was short or long.
+SIDEBAR 12-1 Mafia Boss Uses Encryption
+Arrested in Sicily in April 2006, the reputed head of an Italian Mafia fam-
+ily, Bernardo Provenzano, made notes, 
+pizzini in the Sicilian dialect. When 
+arrested, he left approximately 350 of the notes behind. In the 
+pizzini he 
+gives instructions to his lieutenants regarding particular people.
+Instead of writing the name of a person, Provenzano used a variation 
+of the Caesar cipher in which letters were replaced by numbers: A by 4, 
+
+B by 5, . . . Z by 24 (there are only 21 letters in the Italian alphabet). So in 
+
+one of his notes the string “. . . I met 512151522 191212154 and we agreed 
+
+that we will see each other after the holidays . . .,” refers to Binnu Riina, an 
+
+associate arrested soon after Provenzano [LOR06]. Police decrypted notes 
+
+found before Provenzano’s arrest and used clues in them to find the boss, 
+
+wanted for 40 years.All notes appear to use the same encryption, making them trivial to 
+decrypt once police discerned the pattern.
+Suggestions we might make to Sig. Provenzano: use a strong encryp-
+tion algorithm, change the encryption key from time to time, and hire a 
+
+cryptologist.

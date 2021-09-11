@@ -1,0 +1,59 @@
+714 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+Lorenz and Kidd suggest that applications with a GUI have between two and three times the number of support classes as key classes. Non-GUI applications 
+have between one and two times the number of support classes as key classes.   
+ 
+Number of subsystems.   
+A  subsystem 
+ is an aggregation of classes that support 
+a function that is visible to the end user of a system. Once subsystems are identi-
+ﬁ ed, it is easier to lay out a reasonable schedule in which work on subsystems is 
+partitioned among project staff.  To be used effectively in an object-oriented software engineering environ-
+ment, metrics similar to those noted above must be collected along with project 
+measures such as effort expended, errors and defects uncovered, and models or 
+documentation pages produced. As the database grows (after a number of proj-
+ects have been completed), relationships between the object-oriented measures 
+and project measures will provide metrics that can aid in project estimation.   
+ 
+ 
+ 
+32.2.5   
+Use Case-Oriented Metrics  
+Use cases  6 
+ 
+ are used widely as a method for describing customer-level or busi-
+ness domain requirements that imply software features and functions. It would 
+seem reasonable to use the use case as a normalization measure similar to LOC 
+or FP. Like FP, the use case is deﬁ
+ ned early in the software process, allowing it 
+to be used for estimation before signiﬁ cant modeling and construction activities 
+are initiated. Use cases describe (indirectly, at least) user-visible functions and 
+
+features that are basic requirements for a system. The use case is independent of 
+programming language. In addition, the number of use cases is directly propor-
+
+tional to the size of the application in LOC and to the number of test cases that 
+will have to be designed to fully exercise the application.  
+ 
+  Because use cases can be created at vastly different levels of abstraction, there is no standard “size” for a use case. Without a standard “measure” of what 
+
+a use case is, its application as a normalization measure (e.g., effort expended 
+per use case) is suspect.  Researchers have suggested  use-case points 
+ (UCPs) as a mechanism for esti-
+mating project effort and other characteristics. The UCP is a function of the num-
+ber of actors and transactions implied by the use-case models and is analogous to 
+
+the FP in some ways. If you have further interest, see [Coh05], [Cle06], or [Col09]. 
+  
+ 
+ 
+32.2.6   
+WebApp Project Metrics 
+ 
+The objective of all WebApp projects is to deliver a combination of content and 
+functionality to the end user. Measures and metrics used for traditional software 
+
+engineering projects are difﬁ cult to translate directly to WebApps. Yet, it is pos-
+sible to develop a database that allows assess to internal productivity and quality   
+6   Use cases are introduced in Chapters 8 and 9.  
+pre22126_ch32_703-726.indd   714pre22126_ch32_703-726.indd   71413/12/13   6:17 PM13/12/13   6:17 PM

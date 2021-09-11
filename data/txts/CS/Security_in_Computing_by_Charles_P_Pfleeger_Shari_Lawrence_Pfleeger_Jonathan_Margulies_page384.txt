@@ -1,0 +1,68 @@
+350 Chapter 6  
+Networksadded in headers and trailers. Finally, the data are ready to travel on a physical medium, 
+such as a cable or through the air on a microwave or satellite link.
+On the receiving end, the data enter the bottom of the model and progress up through 
+the layers where control information is examined and removed, and the data are refor-
+
+matted. Finally, the data arrive at an application at the top layer of the model for the 
+
+receiver. This communication is shown in Figure 6-4.
+Interception can occur at any level of this model: For example, the application 
+can covertly leak data, as we presented in Chapter 3, the physical media can be wire-
+
+tapped, as we described in this chapter, or a session between two subnetworks can be 
+
+compromised.Background: Addressing and Routing
+If data are to go from point A to B, there must be some path between these two points. 
+
+One way, obviously, is a direct connection wire. And for frequent, high-volume trans-
+
+fers between two known points, a dedicated link is indeed used. A company with two 
+
+offices on opposite sides of town might procure its own private connection. This private 
+
+connection becomes a single point of failure, however, because if that line fails for any 
+
+reason the two offices lose connectivity, and a solid connection was the whole reason 
+
+for the private line.
+Obviously, direct connections work only for a small number of parties. It would be 
+infeasible for every Internet user to have a dedicated wire to every other user. For rea-
+
+sons of reliability and size, the Internet and most other networks resemble a mesh, with 
+
+data being boosted along paths from source to destination.Protocols
+When we use a network, the communications media are usually transparent to us. That 
+is, most of us do not know whether our communication is carried over copper wire, 
+
+optical fiber, satellite, microwave, or some combination. In fact, the communications 
+
+medium may change from one transmission to the next. This ambiguity is actually a 
+
+positive feature of a network: its 
+independence. That is, the communication is separated 
+7–Application
+6–Presentation
+
+5–Session
+
+4–Transport
+
+3–Network
+
+2–Data Link
+
+1–Physical
+7–Application
+6–Presentation
+
+5–Session
+
+4–Transport
+
+3–Network
+
+2–Data Link
+
+1–Physical
+FIGURE 6-4 OSI Model

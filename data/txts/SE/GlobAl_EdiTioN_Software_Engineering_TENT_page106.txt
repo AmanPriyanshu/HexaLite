@@ -1,0 +1,29 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜requirements for the Mentcare system, used to maintain information about patients receiving treatment for mental health problems:1. A user shall be able to search the appointments lists for all clinics.2. The system shall generate each day, for each clinic, a list of patients who are 
+expected to attend appointments that day.3. Each staff member using the system shall be uniquely identified by his or her 
+eight-digit employee number.These user requirements define specific functionality that should be included in the system. The requirements show that functional requirements may be written at 
+different levels of detail (contrast requirements 1 and 3).Functional requirements, as the name suggests, have traditionally focused on 
+what the system should do. However, if an organization decides that an existing off-
+the-shelf system software product can meet its needs, then there is very little point in 
+developing a detailed functional specification. In such cases, the focus should be on 
+the development of information requirements that specify the information needed 
+
+for people to do their work. Information requirements specify the information needed 
+and how it is to be delivered and organized. Therefore, an information requirement 
+for the Mentcare system might specify what information is to be included in the list 
+of patients expected for appointments that day.Imprecision in the requirements specification can lead to disputes between custom-ers and software developers. It is natural for a system developer to interpret an ambig-uous requirement in a way that simplifies its implementation. Often, however, this is 
+
+not what the customer wants. New requirements have to be established and changes 
+
+made to the system. Of course, this delays system delivery and increases costs.For example, the first Mentcare system requirement in the above list states that a 
+user shall be able to search the appointments lists for all clinics. The rationale for this 
+
+requirement is that patients with mental health problems are sometimes confused. 
+
+They may have an appointment at one clinic but actually go to a different clinic. If they 
+have an appointment, they will be recorded as having attended, regardless of the clinic.Domain requirementsDomain requirements are derived from the application domain of the system rather than from the specific 
+needs of system users. They may be new functional requirements in their own right, constrain existing func-
+
+tional requirements, or set out how particular computations must be carried out.The problem with domain requirements is that software engineers may not understand the characteristics of the domain in which the system operates. This means that these engineers may not know whether or not a 
+domain requirement has been missed out or conflicts with other requirements.http://software-engineering-book.com/web/domain-requirements/

@@ -1,0 +1,16 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜to be uploaded to a national PRS (patient records system). You can read this diagram as follows:1. The receptionist logs on to the PRS.2. Two options are available (as shown in the ﬁaltﬂ box). These allow the direct 
+transfer of updated patient information from the Mentcare database to the 
+
+PRS and the transfer of summary health data from the Mentcare database to 
+
+the PRS.3. In each case, the receptionist™s permissions are checked using the authorization 
+system.P: PatientInfo
+login ( )
+D: Mentcare-DB AS: Authorizationauthorization[sendInfo][sendSummary]Medical ReceptionistPRSokupdateInfo( )
+updatePRS (UID )update (PID)update OKMessage (OK)summarize (UID )
+authorize (TF, 
+UID)authorizationauthorize (TF, 
+UID):summaryupdate (PID)UpdateSummary( )
+logout ()altupdate OKMessage (OK)Figure 5.7 Sequence diagram for 
+Transfer Data 

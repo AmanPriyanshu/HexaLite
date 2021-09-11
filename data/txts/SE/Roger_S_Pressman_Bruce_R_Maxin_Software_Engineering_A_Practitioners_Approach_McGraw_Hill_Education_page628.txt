@@ -1,0 +1,74 @@
+598 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+Today, software quality measurement does not adequately address trust assur-
+ance and security. Existing measures (e.g., reliability measures like mean time 
+
+between failure or dependability measures such as defect density) often overlook 
+
+numerous factors that may compromise software and leave it vulnerable to attack. 
+
+In part, this is because many of these metrics do not take into account the fact that 
+
+there are active agents continually probing the software for vulnerabilities. 
+ Effective security metrics maintain historical data based on an entity’s past be-
+havior in situations involving trust. As an example, consider the trust established 
+when an e-commerce site allows rating of their sellers and buyers. Of course, this 
+type of rating system must ensure that entities being rated are correctly identi-
+ﬁ ed and do not have inaccurate data recorded about the entity. Problems like 
+these sometimes plague credit reporting systems.  The U.S. Department of Homeland Security advocates the adoption of secure software design practices that employ reliable, standardized measurement tools. 
+Ideally these tools (when they exist) can help developers reduce the number of 
+vulnerabilities introduced into a system during development [Mea10]. This might 
+allow users of trusted systems to make informed decisions about the trustworthi-
+ness of a system. But like system reliability, the user may base this judgment on 
+
+the extent of losses experienced using the system.   
+Ed:  Based on the security policy, the user has three 
+attempts for each piece of information. 
+  
+Vinod:  Right, and the user is prompted to enter the 
+data after each bad attempt.   
+Ed:  And if any one of them fails on the third attempt 
+the system is supposed to send an e-mail alert to the 
+
+company and the user. 
+  
+Vinod:  It would probably be good to randomize the 
+order the test cases are presented to the password checker. We might need to run our test cases more than 
+once to be conﬁ dent the password checker is not history 
+sensitive.   
+Ed:  We should write a small program to run through 
+these test cases and log the results.   
+Vinod:  Yeah, this is a lot of work. Maybe we should 
+let the ITG work with Bridget’s SQA team to develop the 
+
+security tests.   
+ 
+9  Tools noted here do not represent an endorsement, but rather are a sampling of tools in this 
+category. In most cases, tool names are trademarked by their respective developers. 
+  
+Security Engineering  
+ Objective:  Security engineering tools assist in 
+identifying security vulnerabilities in source code. 
+  
+Mechanics:  In general the software source code is processed by allowing the tool to read the source code 
+and ﬂ ag programming constructs for developers to 
+examine carefully. 
+  
+Representative Tools:  
+ 9 
+ 
+ 
+  
+ 
+RATS (Rough Auditing Tool for Security),
+ 
+ developed by Secure Software (  
+http://code.google.com/p/rough-auditing-tool-for-security/ 
+ 
+), is a scanning tool that provides a security analyst with 
+a list of potential trouble spots on which to focus, 
+along with describing the problem, and potentially 
+suggesting remedies.  SOFTWARE
+ TOOLS pre22126_ch27_584-600.indd   598pre22126_ch27_584-600.indd   59816/12/13   6:23 PM16/12/13   6:23 PM

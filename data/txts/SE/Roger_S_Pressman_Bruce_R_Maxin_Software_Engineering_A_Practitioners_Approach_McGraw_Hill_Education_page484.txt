@@ -1,0 +1,86 @@
+454 PART THREE  
+QUALITY MANAGEMENT 
+ 
+Software Quality Assurance  
+ 
+Software Quality Assurance 
+ 
+ 
+The scene:  Doug Miller’s ofﬁ
+ ce as 
+the  SafeHome 
+ software project begins. 
+  
+The players:  Doug Miller (manager of the  
+SafeHome 
+ software engineering team) and other members of the 
+product software engineering team.   
+The conversation:    
+Doug:  How are things going with the informal reviews? 
+  
+Jamie:  We’re conducting informal reviews of the 
+critical project elements in pairs as we code but before 
+testing. It’s going faster than I thought. 
+  
+Doug:  That’s good, but I want to have Bridget Thor-
+ton’s SQA group conduct audits of our work products to 
+
+ensure that we’re following our processes and meeting 
+our quality goals.   
+Venod:  Aren’t they already doing the bulk of the 
+testing?   
+Doug:  Yes, they are. But QA is more than testing. We 
+need to be sure that our documents are evolving along 
+with our code and that we’re making sure we don’t in-
+
+troduce errors as we integrate new components.   
+Jamie:  I really don’t want to be evaluated based on 
+their ﬁ ndings. 
+  
+Doug:  No worries. The audits are focused on confor-
+mance of our work products to the requirements and 
+process our activities. We’ll only be using audit results 
+
+to try to improve our processes as well as our software 
+
+products.   
+Vinod:  I have to believe it’s going to take more of our 
+time.   
+Doug:  In the long run it will save us time when we ﬁ
+ nd 
+defects earlier. It also costs less to ﬁ
+ x defects if they’re 
+caught early. 
+  
+Jamie:  That sounds like a good thing then. 
+  
+Doug:  It’s also important to identify the activities where 
+defects were introduced and add review tasks to catch 
+them in the future.   
+Vinod:  That’ll help us determine if we’re sampling 
+carefully enough with our review activities.   
+Doug:  I think SQA activities will make us a better team 
+in the long run.   
+SAFEHOME  
+ 
+ 
+ 
+ 
+21.4.2   
+Goals, Attributes, and Metrics  
+The SQA activities described in the preceding section are performed to achieve a set of pragmatic goals:   
+Requirements quality.  The correctness, completeness, and consistency 
+of the requirements model will have a strong inﬂ uence on the quality of all 
+work products that follow. SQA must ensure that the software team has 
+
+properly reviewed the requirements model to achieve a high level of quality. 
+  
+Design quality.  Every element of the design model should be assessed by the software team to ensure that it exhibits high quality and that the 
+design itself conforms to requirements. SQA looks for attributes of the de-
+sign that are indicators of quality. 
+  
+Code quality.  Source code and related work products (e.g., other de-scriptive information) must conform to local coding standards and exhibit 
+characteristics that will facilitate maintainability. SQA should isolate 
+
+those attributes that allow a reasonable analysis of the quality of code.   
+Quality control effectiveness.  A software team should apply limited re-sources in a way that has the highest likelihood of achieving a high-quality pre22126_ch21_448-465.indd   454pre22126_ch21_448-465.indd   45413/12/13   10:02 PM13/12/13   10:02 PM

@@ -1,0 +1,154 @@
+160 PART TWO  
+MODELING 
+ 
+Fricker [Fri10] and his colleagues suggest replacing the traditional handoff of requirements speciﬁ cations to software teams with a bidirectional communica-
+tion process called  handshaking. 
+ In handshaking, the software team proposes 
+solutions to requirements, describes their impact, and communicates their in-
+tentions to customer representatives. The customer representatives review the 
+proposed solutions, focusing on missing features and seeking clariﬁ cation of 
+novel requirements. Requirements are determined to be  good enough 
+ if the cus-
+tomers accept the proposed solution.  Handshaking allows detailed requirements to be delegated to software teams. The teams need to elicit requirements from customers (e.g., product users and 
+domain experts), thereby improving product acceptance. Handshaking tends to 
+improve identiﬁ cation, analysis, and selection of variants and promotes win-win 
+negotiation.  
+ 
+ 
+  
+ 
+The Start of a Negotiation  
+ 
+The Start of a Negotiation  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The scene:  Lisa Perez’s ofﬁ
+ ce, after 
+the ﬁ rst requirements gathering meeting. 
+   
+ 
+ 
+ 
+ 
+ 
+The players:  Doug Miller, software engineering man-
+ager and Lisa Perez, marketing manager. 
+   
+ 
+ 
+ 
+ 
+ 
+The conversation:  
+   
+ 
+ 
+ 
+ 
+ 
+Lisa:  So, I hear the ﬁ
+ rst meeting went really well. 
+   
+ 
+ 
+ 
+ 
+ 
+Doug:  Actually, it did. You sent some good people to 
+   
+ 
+ 
+ 
+ 
+ 
+Lisa (smiling):  Yeah, they actually told me they got 
+into it and it wasn’t a “propeller head activity.” 
+   
+ 
+ 
+ 
+ 
+ 
+Doug (laughing):  I’ll be sure to take off my techie 
+
+may have a problem with getting all of the functional-
+ity for the home security system out by the dates your 
+management is talking about. It’s early, I know, but I’ve 
+
+already been doing a little back-of-the-envelope plan-
+   
+ 
+ 
+ 
+ 
+ 
+Lisa (frowning):  We’ve got to have it by that date, 
+Doug. What functionality are you talking about?    
+ 
+ 
+ 
+ 
+ 
+Doug:  I ﬁ
+ gure we can get full home security function-
+ality out by the drop-dead date, but we’ll have to delay 
+Internet access ‘til the second release. 
+   
+ 
+ 
+ 
+ 
+ 
+Lisa:  Doug, it’s the Internet access that gives  
+SafeHome 
+ “gee whiz” appeal. We’re going to build our entire 
+
+marketing campaign around it. We’ve gotta have it! 
+   
+ 
+ 
+ 
+ 
+ 
+Doug:  I understand your situation, I really do. The 
+problem is that in order to give you Internet access, 
+
+we’ll have to have a fully secure website up and 
+running. That takes time and people. We’ll also have 
+
+to build a lot of additional functionality into the ﬁ rst 
+t think we can do it with the resources 
+
+we’ve got.    
+ 
+ 
+ 
+ 
+ 
+Lisa (still frowning):  I see, but you’ve got to ﬁ
+ gure 
+out a way to get it done. It’s pivotal to home security 
+
+
+   
+Lisa and Doug appear to be at an impasse, and yet they must negotiate a solution to this problem. Can they 
+both “win” here? Playing the role of a mediator, what 
+
+would you suggest?   
+SAFEHOME  
+ 
+ 
+ 
+ 
+ 8.7 R
+EQUIREMENTS MONITORING  
+ 
+Today, incremental development is commonplace. This means that use cases 
+evolve, new test cases are developed for each new software increment, and con-
+tinuous integration of source code occurs throughout a project.  Requirements 
+pre22126_ch08_131-165.indd   160pre22126_ch08_131-165.indd   16013/12/13   6:11 PM13/12/13   6:11 PM

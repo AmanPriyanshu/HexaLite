@@ -1,0 +1,33 @@
+˜˜˚˛˜˜˜˜˜˜
+Whittaker™s book (Whittaker 2009) includes many examples of guidelines that 
+can be used in test-case design. Some of the most general guidelines that he suggests are:
+˜ Choose inputs that force the system to generate all error messages:˜ Design inputs that cause input buffers to overflow.˜ Repeat the same input or series of inputs numerous times.˜ Force invalid outputs to be generated.˜ Force computation results to be too large or too small.As you gain experience with testing, you can develop your own guidelines about how to choose effective test cases. I give more examples of testing guidelines in the 
+next section.Software components are often made up of several interacting objects. For example, 
+
+in the weather station system, the reconfiguration component includes objects that 
+
+deal with each aspect of the reconfiguration. You access the functionality of these 
+
+objects through component interfaces (see Chapter 7). Testing composite components 
+
+should therefore focus on showing that the component interface or interfaces behave 
+
+according to its specification. You can assume that unit tests on the individual objects 
+
+within the component have been completed.Figure 8.
+7 illustrates the idea of component interface testing. Assume that compo-nents A, B, and C have been integrated to create a larger component or subsystem. 
+
+The test cases are not applied to the individual components but rather to the interface 
+
+of the composite component created by combining these components. Interface errors 
+
+in the composite component may not be detectable by testing the individual objects 
+
+because these errors result from interactions between the objects in the component.There are different types of interface between program components and, conse
+-quently, different types of interface error that can occur:1. Parameter interfaces These are interfaces in which data or sometimes function references are passed from one component to another. Methods in an object 
+
+have a parameter interface.Path testingPath testing is a testing strategy that aims to exercise every independent execution path through a component 
+or program. If every independent path is executed, then all statements in the component must have been exe-
+
+cuted at least once. All conditional statements are tested for both true and false cases. In an object-oriented 
+development process, path testing may be used to test the methods associated with objects.http://software-engineering-book.com/web/path-testing/

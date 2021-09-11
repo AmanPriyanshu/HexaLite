@@ -1,0 +1,23 @@
+782 Chapter 12  
+Details of Cryptographycombinations becomes the new right half; the old right half becomes the new left half. 
+This sequence of activities, which constitutes a cycle, is shown in Figure 12-2. The 
+
+cycles are repeated 16 times. After the last cycle is a final permutation, which is the 
+
+inverse of the initial permutation.
+These cycles are repeated 16 times for one 64-bit data block. This same process is 
+repeated separately for each plaintext data block.
+Complete DESNow we can put all the pieces back together, as shown in Figure 12-3. First, the key 
+is reduced to 56 bits. Then, a block of 64 data bits is permuted by the initial permuta-
+
+tion. Following are 16 cycles in which the key is shifted and permuted, half of the data 
+
+block is transformed with the substitution and permutation functions, and the result is 
+combined with the remaining half of the data block. After the last cycle, the data block 
+
+is permuted with the final permutation.
+Left Data Half  32 bitsRight Data Half  32 bitsNew Left Data Half   
+(Old Right Half)  New Right Data Half   
+Substitution, Permuted Choice PermutationKey
+PermutedExpansionPermutation48 bitsKey Shifted 
+56 bits48 bits32 bitsFIGURE 12-2 A Cycle in DES

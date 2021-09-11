@@ -1,0 +1,73 @@
+CHAPTER 2  
+SOFTWARE ENGINEERING
+ 27The market will accept the product only if the software embedded within it prop-erly meets the customer’s (as yet unstated) needs. We’ll follow the progression of 
+
+ SafeHome 
+ software engineering in many of the chapters that follow. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2.6 S
+UMMARY  
+Software engineering encompasses process, methods, and tools that enable complex computer-based systems to be built in a timely manner with quality. The 
+
+software process incorporates ﬁ ve framework activities—communication, plan-
+ning, modeling, construction, and deployment—that are applicable to all soft-
+ware projects. Software engineering practice is a problem-solving activity that 
+follows a set of core principles.  A wide array of software myths continue to lead managers and practitioners astray, even as our collective knowledge of software and the technologies re-
+
+quired to build it grows. As you learn more about software engineering, you’ll 
+begin to understand why these myths should be debunked whenever they are 
+encountered.   
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+2.1.   
+Figure 2.1  places the three software engineering layers on top of a layer entitled “A 
+quality focus.” This implies an organizational quality program such as total quality man-
+agement. Do a bit of research and develop an outline of the key tenets of a total quality 
+management program.    
+ 
+2.2.  Is software engineering applicable when WebApps are built? If so, how might it be mod-
+iﬁ ed to accommodate the unique characteristics of WebApps? 
+   
+ 
+2.3.  As software becomes more pervasive, risks to the public (due to faulty programs) be-come an increasingly signiﬁ cant concern. Develop a doomsday but realistic scenario in 
+which the failure of a computer program could do great harm, either economic or human.    
+ 
+2.4.  Describe a process framework in your own words. When we say that framework activ-ities are applicable to all projects, does this mean that the same work tasks are applied for 
+all projects, regardless of size and complexity? Explain.    
+ 
+2.5.  Umbrella activities occur throughout the software process. Do you think they are applied evenly across the process, or are some concentrated in one or more framework 
+activities?    
+ 
+2.6.  Add two additional myths to the list presented in Section 2.4. Also state the reality that accompanies the myth.   
+ 
+ 
+ 
+  F
+URTHER
+ READINGS AND INFORMATION
+ SOURCES  
+ 
+The current state of the software engineering and the software process can best be de-termined from publications such as  IEEE Software, IEEE Computer,
+ 
+  CrossTalk,
+ 
+ and  
+IEEE Transactions on Software Engineering.
+ 
+ Industry periodicals such as  
+Application Develop-ment Trends
+ 
+ and  
+Cutter IT Journal 
+ often contain articles on software engineering topics. 
+The discipline is “summarized” every year in the  Proceeding of the International Conference 
+pre22126_ch02_014-028.indd   27pre22126_ch02_014-028.indd   2713/12/13   6:10 PM13/12/13   6:10 PM

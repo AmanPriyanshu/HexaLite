@@ -1,0 +1,24 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜an interaction with the system. Each possible interaction is named in an ellipse, and the external entity involved in the interaction is represented by a stick figure.The use case model for the weather station is shown in Figure 
+7.2. This shows 
+that the weather station interacts with the weather information system to report 
+
+weather data and the status of the weather station hardware. Other interactions are 
+with a control system that can issue specific weather station control commands. The 
+stick figure is used in the UML to represent other systems as well as human users.Each of these use cases should be described in structured natural language. This helps designers identify objects in the system and gives them an understanding of 
+
+what the system is intended to do. I use a standard format for this description that 
+clearly identifies what information is exchanged, how the interaction is initiated, and 
+so on. As I explain in Chapter 21, embedded systems are often modeled by 
+ describing 
+ShutdownReport
+weatherRestart
+Report status
+ReconfigureWeather
+informationsystemControlsystemPowersave
+RemotecontrolFigure 7.2 Weather station use casesWeather station use casesReport weatherŒsend weather data to the weather information systemReport statusŒsend status information to the weather information system
+RestartŒif the weather station is shut down, restart the system
+ShutdownŒshut down the weather station
+ReconfigureŒreconfigure the weather station software
+PowersaveŒput the weather station into power-saving mode
+Remote controlŒsend control commands to any weather station subsystemhttp://software-engineering-book.com/web/ws-use-cases/

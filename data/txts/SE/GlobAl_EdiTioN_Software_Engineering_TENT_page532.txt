@@ -1,0 +1,53 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜
+˜ˇ
+˜these services may be included. The requesting service may then process the 
+requests in its own way. Therefore, a request for weather information given a place 
+
+name that is not unique may return the URLs of all of the places that match the request. 
+
+For example:
+http://weather-info-example.net/temperatures/edinburgh-scotland
+
+http://weather-info-example.net/temperatures/edinburgh-australia
+
+http://weather-info-example.net/temperatures/edinburgh-maryland
+A fundamental design principle for RESTful services is that they should be state
+-less. That is, in an interaction session, the resource itself should not include any state 
+information, such as the time of the last request. Instead, all necessary state informa-
+tion should be returned to the requestor. If state information is required in later 
+
+requests, it should be returned to the server by the requestor.
+RESTful services have become more widely used over the past few years because 
+of the widespread use of mobile devices. These devices have limited processing 
+
+capabilities, so the lower overhead of RESTful services allows better system perfor
+-mance. They are also easy to use with existing websitesŠimplementing a RESTful 
+
+API for a website is usually fairly straightforward.
+However, there are problems with the RESTful approach:
+1. When a service has a complex interface and is not a simple resource, it can be 
+
+difficult to design a set of RESTful services to represent this interface.
+2. There are no standards for RESTful interface description, so service users must 
+
+rely on informal documentation to understand the interface.
+3. When you use RESTful services, you have to implement your own infrastruc
+-
+ture for monitoring and managing the quality of service and the service reliabil-
+ity. SOAP-based services have additional infrastructure support standards such 
+
+as WS-Reliability and WS-Transactions.
+Pautasso et al. (Pautasso, Zimmermann, and Leymann 2008) discuss when 
+RESTful and SOAP-based should be used. However, it is often possible to provide 
+
+both SOAP-based and RESTful interfaces to the same service or resource (Figure 
+
+18.7). This dual approach is now common for cloud services from providers such as 
+
+Microsoft, Google, and Amazon. Service clients can then choose the service access 
+
+method that is best suited to their applications.ResourceRRestful API
+SOAP-basedAPI
+Servicerequestor 1Servicerequestor 2Figure 18.7 RESTful 
+and SOAP-based APIs 

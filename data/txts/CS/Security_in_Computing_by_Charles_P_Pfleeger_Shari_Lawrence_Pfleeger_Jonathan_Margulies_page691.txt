@@ -1,0 +1,69 @@
+ Section 10.1  Security Planning 
+657  simply a plan that collects dust on the shelf. Commitment to the plan means that secu-rity functions will be implemented and security activities carried out. Three groups of 
+
+people must contribute to making the plan a success.
+• The planning team must be sensitive to the needs of each group affected by 
+the plan.• Those affected by the security recommendations must understand what the plan 
+means for the way they will use the system and perform their business activities. 
+
+In particular, they must see how what they do can affect other users and other 
+
+systems.• Management must be committed to using and enforcing the security aspects of 
+the system.Education and publicity can help people understand and accept a security plan. 
+Acceptance involves not only the letter but also the spirit of the security controls. There 
+
+is a story of an employee who went through 24 password changes at a time to get back 
+
+to a favorite password, in a system that prevented use of any of the 23 most recently 
+
+used passwords. Clearly, the employee either did not understand or did not agree with 
+
+the reason for restrictions on passwords. If people understand the need for recom-
+
+mended controls and accept them as sensible, they will use the controls properly and 
+
+effectively. If people think the controls are bothersome, capricious, or counterproduc-
+
+tive, they will work to avoid or subvert them.
+Management commitment is obtained through understanding. But this understanding is 
+not just a function of what makes sense technologically; it also involves knowing the cause 
+
+and the potential effects of lack of security. Managers must also weigh trade-offs in terms 
+
+of convenience and cost. The plan must present a picture of how cost effective the controls 
+
+are, especially when compared to 
+
+potential losses if security is breached 
+
+without the controls. Thus, proper 
+
+presentation of the plan is essential, 
+
+in terms that relate to management as 
+
+well as technical concerns.Remember that some managers are not computing specialists. Instead, the system 
+supports a manager who is an expert in some other business function, such as banking, 
+
+medical technology, or sports. In such cases, the security plan must present security 
+
+risks in language the managers understand. A useful security plan should avoid techni-
+
+cal jargon and educate the readers about the nature of the perceived security risks in the 
+
+context of the business the system supports. Sometimes outside experts can bridge the 
+
+gap between the managers’ business and security.
+Management is often reticent to allocate funds for controls before understanding the value of those controls. As we note later in this chapter, the results of a risk analysis 
+
+can help communicate the financial trade-offs and benefits of implementing controls. 
+
+By describing vulnerabilities in financial terms and in the context of ordinary business 
+
+activities (such as leaking data to a competitor or an outsider), security planners can 
+
+help managers understand the need for controls.The plans we have just discussed are part of normal business. They address how a 
+business handles computer security needs. Similar plans might address how to increase 
+A security plan positions technical 
+issues in terms nontechnical people can 
+appreciate.

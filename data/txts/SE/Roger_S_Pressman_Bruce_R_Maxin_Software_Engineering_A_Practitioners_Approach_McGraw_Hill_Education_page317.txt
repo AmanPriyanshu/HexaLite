@@ -1,0 +1,66 @@
+CHAPTER 14  
+COMPONENT-LEVEL DESIGN
+ 287accomplish this, you begin with the analysis model and elaborate analysis classes (for components that relate to the problem domain) and infrastructure classes 
+(for components that provide support services for the problem domain).   
+To illustrate this process of design elaboration, consider software to be built 
+for a sophisticated print shop. The overall intent of the software is to collect the 
+customer’s requirements at the front counter, cost a print job, and then pass the 
+
+job on to an automated production facility. During requirements engineering, 
+
+an analysis class called  PrintJob 
+ was derived. The attributes and operations de-
+ﬁ ned during analysis are noted at the top of  
+Figure 14.1 . During architectural design,  PrintJob 
+ is deﬁ ned as a component within the software architecture and 
+is represented using the shorthand UML notation  2 
+ 
+ shown in the middle right of 
+ 
+ 
+2  Readers who are unfamiliar with UML notation should refer to Appendix 1.  
+ 
+FIGURE 14.1 
+Elaboration of a design 
+component  
+ PrintJobcomputeJobinitiateJobnumberOfPagesnumberOfSides
+paperType
+
+   paperWeight
+
+   paperSize
+   paperColor
+magnification
+colorRequirements
+productionFeatures
+   collationOptions
+   bindingOptions
+   coverStock
+   bleed
+   priority
+totalJobCost
+WOnumber PrintJobcomputePageCost( ) computePaperCost( ) 
+computeProdCost( ) 
+computeTotalJobCost( ) 
+
+buildWorkOrder( ) 
+
+checkPriority( ) 
+passJobto Production( ) Elaborated design class<<interface>> 
+
+computeJobcomputePageCost( ) 
+computePaperCost( ) 
+computeProdCost( ) 
+computeTotalJobCost( )
+<<interface>> 
+
+initiateJobbuildWorkOrder( ) 
+
+checkPriority( ) 
+passJobto Production( )Design
+componentnumberOfPages 
+numberOfSides 
+paperType 
+
+magnification 
+productionFeaturesPrintJobcomputeJobCost( ) passJobtoPrinter( ) Analysis classpre22126_ch14_285-316.indd   287pre22126_ch14_285-316.indd   28713/12/13   6:12 PM13/12/13   6:12 PM

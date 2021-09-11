@@ -1,0 +1,41 @@
+462 Chapter 6  
+NetworksCircuit-Level Gateway
+A circuit-level gateway
+ is a firewall that essentially allows one network to be an exten-
+sion of another. It operates at OSI level 5, the session level, and it functions as a virtual 
+
+gateway between two networks. A circuit is a logical connection that is maintained for 
+
+a period of time, then torn down or disconnected. The firewall verifies the circuit when 
+
+it is first created. After the circuit has been verified, subsequent data transferred over 
+
+the circuit are not checked. Circuit-level gateways can limit which connections can be 
+
+made through the gateway.
+One use for a circuit-level gateway is to implement a virtual private network, described 
+earlier in this chapter. Suppose a company has two offices, each with its own network, at 
+
+addresses 100.1.1.x and 200.1.1.x. Furthermore, the company wants to ensure that commu-
+
+nication between these two address spaces is private, so the network administrator installs 
+
+a pair of encryption devices. The circuit-level gateway separates all traffic to and from the 
+
+100 and 200 networks, as shown in Figure 6-57. (This figure shows only the 100 network; 
+a parallel structure exists on the 200 network.) The circuit gateway on the 100 network 
+
+routes all traffic to the 200 network through an encryption device. When traffic returns, 
+
+the firewall on the 100 subnetwork routes all traffic from the 200 network through the 
+
+encryption unit (for decryption) and back to the 100 gateway. In this way, traffic flow 
+
+between the 100 and 200 networks is automatically screened (so no other traffic can mas-
+
+querade as part of this pair of protected networks), and encrypted for confidentiality. Users 
+FIGURE 6-57 Circuit-Level Gateway
+Circuitgateway
+Mainfirewall
+NoYesEncryption100.1.1.x network
+To200.1.1.x?

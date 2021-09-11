@@ -1,0 +1,70 @@
+536 Chapter 7  
+Databasespreviously unknown and perhaps even unpredictable. Did you know that left-handed 
+people are more likely to prefer fried eggs to poached eggs? (We have no idea whether 
+
+that is true.) A team of researchers with a database containing hand dominance and egg 
+
+preferences could find that and other breathtaking statistical correlations, all through the 
+
+wonders of data mining. The data-mining community has grown without much consid-
+
+eration of security, so we list some security issues ripe for consideration.
+Data mining is closely related to the concept of big data, which involves the col-
+lection of massive amounts of data, often not intended to be databases or structured as 
+
+such. The emphasis is on the term “big,” for example, the set of all index entries for 
+
+search engines. When a search engine reports it has 17 million pages answering your 
+
+query, it probably does, although the usefulness of the 17 millionth link may not be 
+
+high. Most of us find what we want in the first few results or we conclude that the query 
+
+is not getting the results we want and ask a different question.
+In the next section we explore data mining and big data, pointing out security aspects 
+of both.Data MiningDatabases are great repositories of data. More data are being collected and saved (partly 
+
+because the cost per megabyte of storage has fallen from dollars a few years ago to 
+
+fractions of cents today). Networks and the Internet allow sharing of databases by peo-
+
+ple and in ways previously unimagined. But finding needles of information in those 
+
+vast fields of haystacks of data requires intelligent analyzing and querying of the data. 
+
+Indeed, a whole specialization, called data mining, has emerged. In a largely auto-
+mated way, data mining applications sort and search through data.
+Data mining uses statistics, machine learning, mathematical models, pattern recog-
+nition, and other techniques to discover patterns and relations on large datasets. (See, 
+
+for example, [SEI06].) Data-mining tools use association (one event often goes with 
+
+another), sequences (one event often leads to another), classification (events exhibit 
+
+patterns, for example, coincidence), clustering (some items have similar characteristics) 
+
+and forecasting (past events foretell future ones).
+The distinction between a database and a data-mining application is becoming 
+blurred; you can probably see how you could implement these techniques in ordinary 
+
+database queries. Generally, database queries are manual, whereas data mining is more 
+
+automatic. You could develop a database query to see what other products are bought 
+
+by people who buy digital cameras and you might notice a preponderance of MP3 play-
+
+ers in the result, but you would have to observe that relationship yourself. Data-mining 
+
+tools would present the significant relationships, not just between cameras and MP3 
+
+players, but also between bagels, airline tickets, and running shoes. (Again, we have 
+
+no idea if such a relationship exists.) Humans have to analyze these correlations and 
+
+determine what is significant.
+Data mining presents probable relationships, but these are not necessarily cause and 
+effect relationships. Suppose you analyzed data and found a correlation between sale of 
+
+ice cream cones and death by drowning. You would not conclude that selling ice cream 
+
+cones causes drowning (nor the converse). This distinction shows why humans must 

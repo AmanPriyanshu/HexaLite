@@ -1,0 +1,45 @@
+ Section 9.5  Privacy on the Web 
+623  discount coupon for a fast food chain. You click one of the links, and you either go 
+directly to a “buy here now” form or you get a special coupon worth something on 
+
+your purchase in person. Web advertising is much more connected to the vendor: You 
+
+see the ad, you click on it, and both the purchaser and web page owner know the ad 
+
+did its job by attracting your attention. (By contrast, advertisers rarely know if you are 
+
+watching their highway billboard or the traffic.) If you click through and buy, the ad has 
+
+really paid off. If you click through and later present a coupon, a tracking number on 
+
+the coupon lets both the vendor and web page owner link your purchase to advertising 
+
+on a particular website. From the vendor’s point of view, the immediate feedback and 
+
+traceability are great.But do you want these parties involved to know that you like basketball and are look-
+ing into a second mortgage? Remember that, from your having logged in to the portal 
+
+site, they already have an identity that may link to your actual name. Moreover, you are 
+
+likely dealing with more than the vendor and the website. Many kinds of third parties 
+
+can be involved, many of which use information to understand your habits and prefer-
+
+ences and then present you with targeted advertising. 
+Figure 9-3 is a screen shot of the home page of Pearson Higher Education, the pub-lisher of this book. Pearson uses trackers, cookies, and beacons to capture information 
+
+about your behavior online. As revealed by the Ghostery program and listed in the box 
+
+on the upper right, there are three trackers on Pearson’s home page: to collect and dis-
+
+play page visit data (Google Analytics), allow testing of different page presentations 
+
+(Optimizely), and orchestrate the insertion of tracking code on separate pages (Adobe 
+Tag Manager). Each of these single calls can invoke other functions from any sites, so 
+
+these three trackers can be just the tip of a much larger monitoring effort. Later in this 
+
+chapter, we examine the several kinds of devices used for tracking your behavior online, 
+
+as well as strategies for making them visible and controlling their activity.
+FIGURE 9-3 Notification of Data Tracking

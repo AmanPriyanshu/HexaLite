@@ -1,0 +1,29 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜2. Shared memory interfaces These are interfaces in which a block of memory is shared between components. Data is placed in the memory by one subsystem 
+and retrieved from there by other subsystems. This type of interface is used in 
+embedded systems, where sensors create data that is retrieved and processed by 
+other system components.3. Procedural interfaces These are interfaces in which one component encapsu
+-
+lates a set of procedures that can be called by other components. Objects and 
+reusable components have this form of interface.4. Message passing interfaces These are interfaces in which one component 
+
+requests a service from another component by passing a message to it. A return 
+
+message includes the results of executing the service. Some object-oriented sys-
+tems have this form of interface, as do clientŒserver systems.Interface errors are one of the most common forms of error in complex systems (Lutz 1993). These errors fall into three classes:˜ Interface misuse A calling component calls some other component and makes an 
+error in the use of its interface. This type of error is common in parameter inter-
+faces, where parameters may be of the wrong type or be passed in the wrong 
+
+order, or the wrong number of parameters may be passed.˜ Interface misunderstanding A calling component misunderstands the specification 
+
+of the interface of the called component and makes assumptions about its behavior. 
+
+The called component does not behave as expected, which then causes unexpected 
+
+behavior in the calling component. For example, a binary search method may be 
+
+called with a parameter that is an unordered array. The search would then fail.˜ Timing errors These occur in real-time systems that use a shared memory or a 
+
+message-passing interface. The producer of data and the consumer of data may 
+BCTest
+casesAFigure 8.7 Interface testing 

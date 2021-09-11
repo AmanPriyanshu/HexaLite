@@ -1,0 +1,47 @@
+564 Chapter 8  
+Cloud ComputingLastpass, a SaaS product, has a good technical approach for implementing TNO. 
+Lastpass is a password manager, which means it allows customers to store the login 
+
+information they use to access other websites. Password managers serve a valuable 
+
+security purpose—helping users create complex and varied passwords without having 
+
+to remember them all—but only if the login information (“password database”) users 
+
+store in them remains confidential.
+As depicted in Figure 8-2, Lastpass accomplishes this by never having users’ AES 
+decryption keys, or any information that might lead to those keys, sent to Lastpass serv-
+
+ers. Lastpass requires users to log in to a local client using a username and a “master 
+
+password.” To protect the master password, the client uses a form of PBKDF2, salting 
+
+the master password with random data and hashing it by using a large number (5001 by 
+
+default) of SHA-256 rounds. The resulting hash, which is the only remnant of a user’s 
+
+master password the Lastpass servers ever see, cannot be used to decrypt the user’s pass-
+
+word database, nor can it be used to derive the decryption key. The hash only allows the 
+
+client to log in to the server and download the encrypted password database. The client 
+
+derives the decryption key from the master password just as it did the login hash, but using 
+
+one fewer SHA-256 round (5000 rounds instead of 5001). This clever use of hashing gives 
+
+customers a strong degree of protection from attacks against the Lastpass service.
+But what if you need TNO on a cloud storage service that doesn’t offer TNO? A prod-
+uct called Boxcryptor offers an intriguing example solution. Boxcryptor is an encryption 
+
+client that augments generic cloud storage providers such as Dropbox. As shown in Fig-
+
+ure 8-3, the Boxcryptor client creates a unique AES encryption key (“file key”) for every 
+Lastpass Authentication and DecryptionLastpassClientUserLastpassServerEnters 
+Username and Master 
+Password in the Lastpass ClientHashes and Salts the Master Password Using PBKDF2 w/5001 Rounds of SHA256Authenticates 
+the UserUsername,Salted and HashedMaster PasswordRetrieves User’s 
+AES-256-Encrypted Password DatabaseDecrypts the Database Using Decryption Key
+EncryptedDatabase File
+Accesses Password Database Using 
+Lastpass ClientHashes and Salts the Master Password Using PBKDF2 w/5000 Rounds of SHA256DecryptionKeyFIGURE 8-2 Lastpass TNO Implementation

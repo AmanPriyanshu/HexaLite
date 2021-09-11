@@ -1,0 +1,10 @@
+ Section 12.2  Symmetric Encryption Algorithms 
+783  FIGURE 12-3 The Complete DESL2 = R1R2SubstitutionPermutationKey Permuted 
+Key Shifted 
+L15 = R14R15L16 = R15R16SubstitutionPermutationKey Shifted 
+L0R0L1 = R0R1SubstitutionPermutationKey Permuted 
+Key Shifted 
+Inverse Initial Permutation  
+OutputInitial PermutationInputCycle 1 Cycle 2 Cycle 16 ..
+...
+.Key Permuted 

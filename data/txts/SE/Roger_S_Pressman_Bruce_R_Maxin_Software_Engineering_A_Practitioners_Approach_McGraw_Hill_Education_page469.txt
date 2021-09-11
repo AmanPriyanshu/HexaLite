@@ -1,0 +1,63 @@
+CHAPTER 20  
+REVIEW TECHNIQUES 439 
+But what if the interface is pivotal to the success of the entire project? What if human lives depended on an interface that was ergonomically sound? You might 
+
+decide that a more rigorous approach was necessary. A review team would be 
+
+formed. Each person on the team would have a speciﬁ c role to play—leading 
+the team, recording ﬁ ndings, presenting the material, and so on. Each reviewer 
+would be given access to the work product (in this case, the interface prototype) 
+before the review and would spend time looking for errors, inconsistencies, and 
+omissions. A set of speciﬁ c tasks would be conducted based on an agenda that 
+was developed before the review occurred. The results of the review would be 
+formally recorded, and the team would decide on the status of the work product 
+based on the outcome of the review. Members of the review team might also ver-
+
+ify that the corrections made were done properly. 
+ In this book we consider two broad categories of technical reviews: informal 
+reviews and more formal technical reviews. Within each broad category, a number 
+
+of different approaches can be chosen. These are presented in the sections that 
+
+follow. 
+  
+ 
+ 
+ 
+ 
+ 20.5 I
+NFORMAL REVIEWS  
+ 
+Informal reviews include a simple desk check of a software engineering work product with a colleague, a casual meeting (involving more than two people) for 
+the purpose of reviewing a work product, or the review-oriented aspects of pair 
+programming (Chapter 5).  A simple  desk check 
+ or a  
+casual meeting 
+ conducted with a colleague is a re-
+view. However, because there is no advance planning or preparation, no agenda 
+
+or meeting structure, and no follow-up on the errors that are uncovered, the ef-
+fectiveness of such reviews is considerably lower than more formal approaches. 
+But a simple desk check can and does uncover errors that might otherwise prop-
+agate further into the software process.  One way to improve the efﬁ cacy of a desk check review is to develop a set 
+of simple review checklists for each major work product produced by the soft-
+ware team. The questions posed within the checklist are generic, but they will 
+serve to guide the reviewers as they check the work product. For example, let’s 
+
+reexamine a desk check of the interface prototype for  
+ 
+SafeHomeAssured.com 
+ 
+. Rather than simply playing with the prototype at the designer’s workstation, the 
+
+designer and a colleague examine the prototype using a checklist for interfaces:  
+ 
+ 
+•  Is the layout designed using standard conventions? Left to right? Top to 
+bottom?   
+ 
+ 
+•  Does the presentation need to be scrolled?   
+ 
+ 
+•  Are color and placement, typeface, and size used effectively?  pre22126_ch20_431-447.indd   439pre22126_ch20_431-447.indd   43913/12/13   10:01 PM13/12/13   10:01 PM

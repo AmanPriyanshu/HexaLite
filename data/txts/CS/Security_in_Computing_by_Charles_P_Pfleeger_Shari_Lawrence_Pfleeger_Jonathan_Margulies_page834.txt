@@ -1,0 +1,60 @@
+800 Chapter 12  
+Details of Cryptographya message saying “I willingly give to Hector my prized golden sponge cake recipe” 
+and some other things. Hector can certainly change “sponge cake recipe” to “bullion 
+
+collection” but then Hector is stuck: He needs to make other changes to the message, 
+
+but he needs to know other content that would produce the original hash value. With a 
+
+one-way function he can guess “recipe file,” “box of pieces of string too short to use,” 
+
+and so forth. But he has to invent each such phrase and test it. It would be easier if he 
+
+could run the hash function in reverse and get a list of inputs that would produce a given 
+
+hash result. Alas, with a one-way function Hector is going to have to keep trying until 
+
+he finds a match.
+Modern hash functions must meet two criteria: They are one-way, meaning that they 
+convert input to a digest, but it is infeasible to start with a digest value and infer an input 
+
+that could have produced that digest. Second, they do not have obvious collisions, mean-
+
+ing that it is infeasible to find a pair of different plaintexts that produce the same digest.
+3Message DigestsThe most widely used cryptographic hash functions are MD4, MD5 (where MD stands 
+for Message Digest), and SHA or 
+SHS (Secure Hash Algorithm or Standard). The MD4/5 
+algorithms were invented by Ronald Rivest and RSA Laboratories in 1990–1992. MD5 
+
+is an improved version of MD4. Both condense a message of any size to a 128-bit digest.
+SHA is actually a growing family of algorithms: SHA-0, the original SHA, based on 
+MD4/MD5, was published by NIST in 1993 but was withdrawn shortly thereafter because 
+
+of an undisclosed “significant flaw.” It was replaced by a slightly revised version, known 
+
+as SHA-1. SHA-1 produces a 160-bit message digest from any input up to 2
+64 bits.Wang et al. [WAN05] announced cryptanalytic attacks on SHA-1, MD4, and MD5. 
+For SHA-1, the attack is able to find two plaintexts that produce the same hash digest 
+
+in approximately 263 steps, far short of the 2
+80 steps that would be expected of a 160-bit 
+hash function, and very feasible for a moderately well financed attacker. Although this 
+
+attack does not mean SHA is useless (the attacker must collect and analyze a large num-
+
+ber of ciphertext samples), it does suggest use of long digests and long keys.
+SHA-2In 2008, NIST published a new hash standard, FIPS 180-3 [NIS08], that defines algo-
+rithms based on the SHA algorithm, but producing significantly longer digests, which 
+
+counteract the attack described by Wang. These new algorithms are known collectively 
+
+as SHA-2. 3. Note: Some authors refer to this second property as “collision free,” but that is a misleading term. Every 
+hash function will have collisions—many of them, because the function takes a relatively large input and 
+
+produces a relatively small digest. It is physically impossible to reduce 512 bits to a 128-bit digest and not 
+
+have collisions. The point is that the collisions are unpredictable. We know collisions will occur; it is just 
+
+infeasible to predict which pairs will collide or, given one input, to enumerate other inputs with which the 
+
+first will collide.

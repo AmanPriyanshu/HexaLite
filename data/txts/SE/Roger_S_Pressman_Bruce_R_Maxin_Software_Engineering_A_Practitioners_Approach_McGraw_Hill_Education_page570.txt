@@ -1,0 +1,134 @@
+540  
+ 
+ 
+CHAPTER25  TESTING WEBAPPLICATIONS
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ There is an urgency that always pervades a WebApp project. Stakehold-
+ers—concerned about competition from other WebApps, coerced by 
+
+customer demands, and worried that they’ll miss a market window—press to get the WebApp online. As a consequence, technical activities that 
+
+often occur late in the process, such as WebApp testing, are sometimes given 
+
+short shrift. This can be a catastrophic mistake. To avoid it, you and other team 
+
+members must ensure that each work product exhibits high quality. Wallace 
+
+and his colleagues {Wal03] note this when they state:
+  
+Testing shouldn’t wait until the project is ﬁ
+ nished. Start testing before you write 
+one line of code. Test constantly and effectively, and you will develop a much more 
+
+durable Web site. 
+ Since requirements and design models cannot be tested in the classical sense, you and your team should conduct technical reviews (Chapter 20) as 
+well as executable tests. The intent is to uncover and correct errors before the 
+WebApp is made available to its end users. 
+  
+What is it?   WebApp testing is a 
+collection of related activities with 
+a single goal: to uncover errors in 
+WebApp content, function, usabil-
+ity, navigability, performance, capacity, and 
+
+security. To accomplish this, a testing strategy 
+
+that encompasses both reviews and execut-
+able testing is applied.   
+ 
+Who does it?   Web engineers and other project 
+stakeholders (managers, customers, end users) 
+all participate in WebApp testing. 
+  
+ 
+Why is it important? 
+  If end users encounter errors that shake their faith in the WebApp, 
+
+they will go elsewhere for the content and 
+function they need, and the WebApp will fail. 
+
+For this reason, you must work to eliminate as 
+many errors as possible before the WebApp 
+
+goes online.   
+ 
+What are the steps?   The WebApp testing 
+process begins by focusing on user-visible 
+aspects of the WebApp and proceeds to tests 
+that exercise technology and infrastructure. 
+Seven testing steps are performed: content 
+
+testing, interface testing, navigation testing, 
+
+component testing, conﬁ guration testing, per-
+formance testing, and security testing. 
+  
+ 
+What is the work product? 
+  In some instances a WebApp test plan is produced. In every 
+
+instance, a suite of test cases is developed for 
+every testing step and an archive of test results 
+
+is maintained for future use.   
+ 
+How do I ensure that I’ve done it right?  
+ Although you can never be sure that you’ve 
+performed every test that is needed, you can 
+
+be certain that testing has uncovered errors 
+
+(and that those errors have been corrected). In 
+addition, if you’ve established a test plan, you 
+can check to ensure that all planned tests have 
+been conducted.   
+QUICK LOOK  KEY CONCEPTS     compatibility 
+tests  . . . . . . . . . . 554  
+
+    component-level 
+
+testing. . . . . . . . . 555  
+
+    conﬁ
+ guration 
+testing. . . . . . . . . 558  
+
+    content testing  . . . 545  
+
+    database testing. . 547  
+
+    load testing  . . . . . 562  
+
+    navigation testing. 556  
+
+    performance 
+
+testing. . . . . . . . . 560  
+
+    planning. . . . . . . . 543  
+
+    quality, dimensions 
+
+of. . . . . . . . . . . . . 541  
+
+    security testing. . . 559  
+
+    strategy. . . . . . . . 543  
+
+    stress testing  . . . . 562  
+
+    usability tests. . . . 552  
+
+    user interface 
+
+testing. . . . . . . . . 549  
+
+  pre22126_ch25_540-566.indd   540pre22126_ch25_540-566.indd   54013/12/13   6:15 PM13/12/13   6:15 PM

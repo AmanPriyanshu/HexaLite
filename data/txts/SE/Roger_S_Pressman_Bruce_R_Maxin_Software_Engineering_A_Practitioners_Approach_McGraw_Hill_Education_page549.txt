@@ -1,0 +1,89 @@
+CHAPTER 23  
+TESTING CONVENTIONAL APPLICATIONS
+ 519the interrupts. Tests are then designed to assess the following system 
+characteristics:  
+ 
+ 
+•  Are interrupt priorities properly assigned and properly handled?   
+ 
+ 
+•  Is processing for each interrupt handled correctly?   
+ 
+ 
+•  Does the performance (e.g., processing time) of each interrupt-handling procedure conform to requirements?   
+ 
+ 
+•  Does a high volume of interrupts arriving at critical times create prob-lems in function or performance?  
+ 
+ 
+ 
+ 
+  In addition, global data areas that are used to transfer information as part of interrupt processing should be tested to assess the potential for the generation 
+of side effects.   
+ 
+ 
+ 
+ 
+ 
+ 23.10  
+PATTERNS
+ FOR SOFTWARE
+ TESTING  
+ 
+The use of patterns as a mechanism for describing solutions to speciﬁ c design 
+problems was discussed in Chapter 16. But patterns can also be used to propose 
+solutions to other software engineering situations—in this case, software testing. 
+ Testing patterns
+ 
+ describe common testing problems and solutions that can assist 
+you in dealing with them.   
+ 
+Much of software testing, even during the past decade, has been an ad hoc activity. If testing patterns can help a software team to communicate about test-
+
+ing more effectively, to understand the motivating forces that lead to a speciﬁ
+ c 
+approach to testing, and to approach the design of tests as an evolutionary ac-
+tivity in which each iteration results in a more complete suite of test cases, then 
+patterns have accomplished much.  Testing patterns are described in much the same way as design patterns 
+(Chapter 16). Dozens of testing patterns have been proposed in the literature 
+(e.g., [Mar02]). The following three testing patterns (presented in abstract form 
+only) provide representative examples:  
+ 
+Pattern name: 
+  PairTesting
+ 
+   
+Abstract: 
+ A process-oriented pattern,  
+pair testing 
+ describes a technique that is 
+analogous to pair programming (Chapter 5) in which two testers work together to de-
+sign and execute a series of tests that can be applied to unit, integration or validation 
+testing activities.   
+Pattern name: 
+  SeparateTestInterface
+ 
+   
+Abstract: 
+ There is a need to test every class in an object-oriented system, includ-
+ing “internal classes” (i.e., classes that do not expose any interface outside of the com-
+ponent that used them). The  SeparateTestInterface
+ 
+ pattern describes how to create 
+“a test interface that can be used to describe speciﬁ c tests on classes that are visible 
+only internally to a component” [Lan01].  WebRef 
+ A software testing 
+patterns catalog can be 
+
+found at   http://c2
+.com/cgi-bin/wiki?
+TestingPatterns  . 
+   Testing patterns can 
+help a software team 
+communicate more 
+effectively about 
+testing and better 
+understand the forces 
+that lead to a speciﬁ c 
+
+testing approach. pre22126_ch23_496-522.indd   519pre22126_ch23_496-522.indd   51913/12/13   6:14 PM13/12/13   6:14 PM

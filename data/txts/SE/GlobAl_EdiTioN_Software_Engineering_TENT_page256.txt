@@ -1,0 +1,59 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜Large software systems usually have a long lifetime. For example, military or infra-structure systems, such as air traffic control systems, may have a lifetime of 30 years or 
+
+more. Business systems are often more than 10 years old. Enterprise software costs a lot 
+
+of money, so a company has to use a software system for many years to get a return on 
+
+its investment. Successful software products and apps may have been introduced many 
+
+years ago with new versions released every few years. For example, the first version of 
+
+Microsoft Word was introduced in 1983, so it has been around for more than 30 years.During their lifetime, operational software systems have to change if they are 
+to˜emain useful. Business changes and changes to user expectations generate new 
+
+requirements for the software. Parts of the software may have to be modified to cor-
+rect errors that are found in operation, to adapt it for changes to its hardware and 
+
+software platform, and to improve its performance or other non-functional character-
+istics. Software products and apps have to evolve to cope with platform changes and 
+new features introduced by their competitors. Software systems, therefore, adapt and 
+evolve during their lifetime from initial deployment to final retirement.Businesses have to change their software to ensure that they continue to get value 
+from it. Their systems are critical business assets, and they have to invest in change to 
+
+maintain the value of these assets. Consequently, most large companies spend more 
+
+on maintaining existing systems than on new systems development. Historical data 
+
+suggests that somewhere between 60% and 90% of software costs are evolution costs 
+
+(Lientz and Swanson 1980; Erlikh 2000). Jones (Jones 2006) found that about 75% of 
+
+development staff in the United States in 2006 were involved in software evolution 
+
+and suggested that this percentage was unlikely to fall in the foreseeable future.Software evolution is particularly expensive in enterprise systems when individ-ual software systems are part of a broader ﬁsystem of systems.ﬂ In such cases, you 
+
+cannot just consider the changes to one system; you also need to examine how these 
+
+changes affect the broader system of systems. Changing one system may mean that 
+
+other systems in its environment may also have to evolve to cope with that change.Therefore, as well as understanding and analyzing the impact of a proposed 
+change on the system itself, you also have to assess how this change may affect other 
+systems in the operational environment. Hopkins and Jenkins (Hopkins and Jenkins 
+2008) have coined the term brownfield software development to describe situations 
+in which software systems have to be developed and managed in an environment 
+
+where they are dependent on other software systems.The requirements of installed software systems change as the business and its 
+environment change, so new releases of the systems that incorporate changes and 
+
+updates are usually created at regular intervals. Software engineering is therefore a 
+spiral process with requirements, design, implementation, and testing going on 
+
+throughout the lifetime of the system (Figure 9.1). You start by creating release 1 of 
+
+the system. Once delivered, changes are proposed, and the development of release 2 
+
+starts almost immediately. In fact, the need for evolution may become obvious even 
+before the system is deployed, so later releases of the software may start develop-
+ment before the current version has even been released.In the last 10 years, the time between iterations of the spiral has reduced dramati-cally. Before the widespread use of the Internet, new versions of a software system 

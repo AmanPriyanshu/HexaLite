@@ -1,0 +1,97 @@
+CHAPTER 8  
+UNDERSTANDING REQUIREMENTS
+ 143stakeholders work together to identify the problem, propose elements of the solution, negotiate different approaches, and specify a preliminary set of solu-
+tion requirements [Zah90].  9 
+ 
+  
+ 
+ 
+8.3.1  Collaborative Requirements Gathering 
+ 
+ 
+ 
+  
+ 
+Many different approaches to collaborative requirements gathering have been proposed. Each makes use of a slightly different scenario, but all apply some 
+variation on the following basic guidelines:  
+ 
+ 
+•  Meetings (either real or virtual) are conducted and attended by both soft-ware engineers and other stakeholders.   
+ 
+ 
+•  Rules for preparation and participation are established.   
+ 
+ 
+•  An agenda is suggested that is formal enough to cover all important points but informal enough to encourage the free ﬂ ow of ideas. 
+  
+ 
+ 
+•  A “facilitator” (can be a customer, a developer, or an outsider) controls the 
+meeting.   
+ 
+ 
+•  A “deﬁ nition mechanism” (can be work sheets, ﬂ
+ ip charts, or wall stickers 
+or an electronic bulletin board, chat room, or virtual forum) is used.  
+ 
+   
+The goal is to identify the problem, propose elements of the solution, negotiate different approaches, and specify a preliminary set of solution requirements.  
+ 
+ 
+   
+A one- or two-page “product request” is generated during inception (Section 8.2). 
+A meeting place, time, and date are selected; a facilitator is chosen; and attendees 
+
+from the software team and other stakeholder organizations are invited to partic-
+ipate. The product request is distributed to all attendees before the meeting date. 
+ 
+ 
+ 
+   
+As an example,  10 
+ 
+ consider an excerpt from a product request written by a 
+marketing person involved in the  SafeHome 
+ project. This person writes the fol-
+lowing narrative about the home security function that is to be part of  SafeHome:  
+ 
+Our research indicates that the market for home management systems is growing at a rate of 40 percent per year. The ﬁ
+ rst  
+SafeHome 
+ function we bring to market should 
+be the home security function. Most people are familiar with “alarm systems” so this 
+would be an easy sell.  The home security function would protect against and/or recognize a variety of undesirable “situations” such as illegal entry, ﬁ
+ re, ﬂ
+ ooding, carbon monoxide levels, 
+and others. It’ll use our wireless sensors to detect each situation, can be programmed 
+by the homeowner, and will automatically telephone a monitoring agency when a 
+
+situation is detected.  What are 
+the basic 
+guidelines for 
+
+conducting a 
+
+collaborative 
+
+requirements 
+
+gathering meeting? 
+? WebRef 
+  
+Joint Application Development  (JAD) is a popular technique for 
+requirements gather-
+ing. A good description 
+can be found at 
+  www.carolla.com/
+wp-jad.htm  . 
+  
+9  This approach is sometimes called a  
+facilitated application speciﬁ cation technique
+ 
+ (FAST). 
+  
+10  This example (with extensions and variations) is used to illustrate important software engi-
+neering methods in many of the chapters that follow. As an exercise, it would be worthwhile to 
+
+conduct your own requirements-gathering meeting and develop a set of lists for it. pre22126_ch08_131-165.indd   143pre22126_ch08_131-165.indd   14313/12/13   6:11 PM13/12/13   6:11 PM

@@ -1,0 +1,37 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜2. Change history recording 
+The VC system keeps records of the changes that have 
+been made to create a new version of a component from an earlier version. In 
+
+some systems, these changes may be used to select a particular system version. 
+
+This involves tagging components with keywords describing the changes made. 
+
+You then use these tags to select the components to be included in a baseline.3. Independent development Different developers may be working on the same 
+
+component at the same time. The version control system keeps track of compo
+-
+nents that have been checked out for editing and ensures that changes made to a 
+component by different developers do not interfere.4. Project support A version control system may support the development of sev-
+eral projects, which share components. It is usually possible to check in and 
+
+check out all of the files associated with a project rather than having to work 
+
+with one file or directory at a time.5. Storage management Rather than maintain separate copies of all versions of a 
+
+component, the version control system may use efficient mechanisms to ensure 
+that duplicate copies of identical files are not maintained. Where there are only 
+small differences between files, the VC system may store these differences 
+
+rather than maintain multiple copies of files. A specific version may be auto-matically re-created by applying the differences to a master version.Most software development is a team activity, so several team members often 
+work on the same component at the same time. For example, let™s say Alice is mak-
+ing some changes to a system, which involves changing components A, B, and C. At 
+
+the same time, Bob is working on changes that require making changes to compo-
+nents X, Y, and C. Both Alice and Bob are therefore changing C. It™s important to 
+avoid situations where changes interfere with each otherŠBob™s changes to C over-
+writing Alice™s or vice versa.To support independent development without interference, all version control 
+systems use the concept of a project repository and a private workspace. The project 
+repository maintains the ﬁmasterﬂ version of all components, which is used to create 
+baselines for system building. When modifying components, developers copy 
+AL1L2A1.1Ex1Ex2A1.2A1.3Codeline (A)BB1.1B1.2B1.3Codeline (B)CC1.1C1.2C1.3Codeline (C)Libraries and external componentsBaseline - V1AB1.2C1.1L1L2Ex1Baseline - V2A1.3B1.2C1.2L1L2Ex2MainlineFigure 25.4 Codelines and baselines

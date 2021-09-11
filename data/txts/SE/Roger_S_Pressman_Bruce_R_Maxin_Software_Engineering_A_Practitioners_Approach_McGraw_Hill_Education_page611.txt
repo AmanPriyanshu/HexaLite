@@ -1,0 +1,53 @@
+CHAPTER 26  
+TESTING MOBILEAPPS 581 
+ 
+ 
+ 
+ 
+ 
+ 
+ 26.7 S
+UMMARY  
+The goal of MobileApp testing is to exercise each of the many dimensions of  MobileApp quality with the intent of ﬁ nding errors or uncovering issues that 
+may lead to quality failures. Testing focuses on quality elements such as content, 
+
+ function, structure, usability, use of context, navigability, performance, power 
+management, compatibility, interoperability, capacity, and security. It incorpo-
+
+rates reviews and usability assessments that occur as the MobileApp is designed, 
+and tests that are conducted once the MobileApp has been implemented and 
+deployed on an actual device.  The MobileApp testing strategy exercises each quality dimension by initially examining “units” of content, functionality, or navigation. Once individual units 
+
+have been validated, the focus shifts to tests that exercise the MobileApp as a 
+whole. To accomplish this, many tests are derived from the user’s perspective 
+
+and are driven by information contained in use cases. A MobileApp test plan 
+is developed and identiﬁ es testing steps, work products (e.g., test cases), and 
+mechanisms for the evaluation of test results. The testing process encompasses 
+several different types of testing.  Content testing (and reviews) focus on various categories of content. The in-tent is to examine errors that affect the presentation of the content to the end 
+user. The content needs to be examined for performance issues imposed by the 
+
+mobile device constraints. Interface testin g 
+ exercises the interaction mecha-
+nisms that deﬁ ne the user experience provided by the MobileApp. The intent is 
+to uncover errors that result when the MobileApp does not take device, user, or 
+
+location context into account.  Navigation testing is based on use cases, derived as part of the modeling activity. The test cases are designed to exercise each usage scenario against 
+
+the navigation design within architectural framework used to deploy the Mo-
+bileApp. Component testing exercises content and functional units within the 
+MobileApp.  Conﬁ guration testing attempts to uncover errors and/or compatibility prob-
+lems that are speciﬁ c to a particular device or network environment. Tests are 
+then conducted to uncover errors associated with each possible conﬁ guration. 
+This is complicated by the large number of mobile devices and network service 
+providers. Security testing incorporates a series of tests designed to exploit 
+vulnerabilities in the MobileApp or its environment. The intent is to ﬁ nd secu-
+rity holes in either the device operating environment or the Web services being 
+
+accessed. Performance testing encompasses a series of tests that are designed 
+to assess MobileApp response time and reliability as demands on server-side 
+
+resource capacity increase. Finally, MobileApp testing should address perfor-
+
+mance issues such as power usage, processing speed, memory limitations, ability 
+to recover from failures, and connectivity issues. pre22126_ch26_567-583.indd   581pre22126_ch26_567-583.indd   58113/12/13   6:15 PM13/12/13   6:15 PM

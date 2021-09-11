@@ -1,0 +1,39 @@
+ Section 1.6  Conclusion 
+31  1.6 CONCLUSION
+Computer security attempts to ensure the confidentiality, integrity, and availability of 
+computing systems and their components. Three principal parts of a computing system 
+
+are subject to attacks: hardware, software, and data. These three, and the communica-
+
+tions among them, are susceptible to computer security vulnerabilities. In turn, those 
+people and systems interested in compromising a system can devise attacks that exploit 
+
+the vulnerabilities.In this chapter we have explained the following computer security concepts:
+• Security situations arise in many everyday activities, although sometimes it can 
+be difficult to distinguish between a security attack and an ordinary human or 
+
+technological breakdown. Alas, clever attackers realize this confusion, so they 
+
+may make their attack seem like a simple, random failure.
+• A threat is an incident that could cause harm. A vulnerability is a weakness 
+through which harm could occur. These two problems combine: Either without 
+
+the other causes no harm, but a threat exercising a vulnerability means damage. 
+
+To control such a situation, we can either block or diminish the threat, or close 
+
+the vulnerability (or both).• Seldom can we achieve perfect security: no viable threats and no exercisable 
+vulnerabilities. Sometimes we fail to recognize a threat, or other times we may 
+
+be unable or unwilling to close a vulnerability. Incomplete security is not a bad 
+
+situation; rather, it demonstrates a balancing act: Control certain threats and vul-
+
+nerabilities, apply countermeasures that are reasonable, and accept the risk of 
+harm from uncountered cases.Confidentiality
+Integrity
+Availability
+Technical
+ProceduralPhysicalKind of Threat
+ProtectsControl Type
+Directed/notMalicious/notHuman/notFIGURE 1-13 Types of Countermeasures

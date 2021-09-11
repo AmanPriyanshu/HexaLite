@@ -1,0 +1,88 @@
+718 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+0.50 and the likelihood of repelling an attack is only 0.25, the integrity of the system is 0.63 (unacceptably low).    
+ 
+ 
+ 
+ 
+ 
+Usability.
+ 
+ Usability is an attempt to quantify ease of use and can be mea-
+sured in terms of the characteristics presented in Chapter 15.    
+These four factors are only a sampling of those that have been proposed as mea-sures for software quality. Chapter 30 considers this topic in additional detail. 
+  
+ 
+ 
+32.3.2   
+Defect Removal Efﬁ
+ ciency 
+ 
+A quality metric that provides beneﬁ t at both the project and process level is 
+  
+defect removal efﬁ
+ ciency
+ 
+ (DRE). In essence, DRE is a measure of the ﬁ
+ ltering 
+ ability of quality assurance and control actions as they are applied throughout all process framework activities.  When considered for a project as a whole, DRE is deﬁ ned in the following 
+manner: DRE 5    
+E  ______  
+E 
+ 1  D 
+    where  E 
+ is the number of errors found before delivery of the software to the end 
+user and  D 
+ is the number of defects found after delivery. 
+  
+ 
+ 
+ 
+ 
+The ideal value for DRE is 1. That is, no defects are found in the software. Re-alistically,  
+D 
+ will be greater than 0, but the value of DRE can still approach 1. As  
+E 
+ increases (for a given value of  D 
+1. 
+In fact, as  E 
+ increases, it is likely that the ﬁ
+ nal value of  
+D 
+ will decrease (errors 
+are ﬁ ltered out before they become defects). If used as a metric that provides an 
+indicator of the ﬁ ltering ability of quality control and assurance activities, DRE 
+encourages a software project team to institute techniques for ﬁ nding as many 
+errors as possible before delivery. 
+ DRE can also be used within the project to assess a team’s ability to ﬁ
+ nd er-
+rors before they are passed to the next framework activity or software engineer-
+
+ing task. For example, requirements analysis produces a requirements model 
+that can be reviewed to ﬁ nd and correct errors. Those errors that are not found 
+during the review of the requirements model are passed on to design (where 
+they may or may not be found). When used in this context, we redeﬁ ne DRE as 
+DRE i  5    
+E 
+ i  ________  
+E 
+ i 
+ 1  E 
+ i1 1    where  E 
+ i 
+ is the number of errors found during software engineering action  
+i 
+ and  E 
+ i1 1 is the number of errors found during software engineering action  i 1 
+ 
+that are traceable to errors that were not discovered in software engineering 
+i.   A quality objective for a software team (or an individual software engineer) is to achieve DRE i  that approaches 1. That is, errors should be ﬁ
+ ltered out before 
+they are passed on to the next activity or action.    If DRE is low as you 
+move through analysis 
+and design, spend 
+some time improving 
+the way you conduct 
+formal technical 
+
+reviews. pre22126_ch32_703-726.indd   718pre22126_ch32_703-726.indd   71813/12/13   6:17 PM13/12/13   6:17 PM

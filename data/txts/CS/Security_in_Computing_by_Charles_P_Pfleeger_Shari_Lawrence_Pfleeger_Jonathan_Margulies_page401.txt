@@ -1,0 +1,69 @@
+ Section 6.2  Threats to Network Communications 
+367  larger network infrastructure, is 
+a unique pathway, so any failure 
+
+there isolates the host. But once into 
+the network, routers have multiple 
+
+pathways so if one is unavailable 
+
+another can be used. As with the other vulnerabilities we have just discussed, loss of service can be mali-
+cious or nonmalicious, intentional or accidental. Unlike confidentiality and integrity 
+
+failures, however, denial of service is not binary: Yes, you do either have service or 
+
+not, but a critical question is how much? Service capacity can be reduced. Is a service 
+
+degradation of 0.1 percent or 1 percent or 10 percent catastrophic? The answer depends 
+
+on the particular network in question, its traffic load, and the criticality of its data. Thus, 
+
+we have to consider not only whether service is or is not present, but also whether the 
+
+amount present is adequate.RoutingAs we have just described, Internet routing protocols are complicated. Routers have to 
+trust each other for status updates on accessibility of other parts of the Internet. One 
+
+piece of bad information can poison the data pool of many routers, thus disrupting 
+
+flow for many paths. Although the 
+
+Internet routing protocols are self-
+healing, meaning they recover from 
+
+bad data by recalibrating when they 
+
+discover inaccuracies, it does take 
+
+some time for the effects of errors to 
+
+be flushed from the system.Although uncommon and highly sophisticated, attacks against the routing system are 
+possible. We describe some relatively simple attacks later in this chapter.
+Excessive DemandAlthough Mae West is reported to have said “too much of a good thing can be wonder-
+ful,” that sentiment hardly applies to networks. Network capacity is enormous but finite, 
+
+and capacity of any particular link or component is much smaller. Thus, with extreme 
+
+demand an attacker can overwhelm a critical part of a network, from a web page server 
+
+to a router or a communications line.How the swamped component responds varies. Some components shut down com-
+pletely, some provide degraded (slower) service to all requests, and others drop some 
+
+activity in an attempt to preserve service for some users.
+Malicious denial-of-service 
+attacks are usually effected through 
+
+excessive demand. The goal is to 
+
+overload the victim’s capacity or 
+
+reduce the ability to serve other legit-
+
+imate requesters.Network design incorporates 
+redundancy to counter hardware 
+
+failures.
+Routing supports efficient resource use 
+
+and quality of service. Misused, it can 
+cause denial of service.Denial-of-service attacks usually try to 
+flood a victim with excessive demand.

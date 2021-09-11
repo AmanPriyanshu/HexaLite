@@ -1,0 +1,60 @@
+ Section 6.2  Threats to Network Communications 
+361  Thus, a network differs significantly from a stand-alone, local environment. Network 
+characteristics significantly increase the security risk.
+Modification, Fabrication: Data Corruption Eavesdropping is certainly a significant threat, and it is at the heart of major incidents of 
+
+theft of trade secrets or espionage. But interception is a passive threat: Communication 
+
+goes on normally, except that a hidden third party has listened in, too.
+If you remember from Chapter 1, modification and fabrication are also computer 
+security concerns, and they apply to networking, as well. The threat is that a communi-
+
+cation will be changed during transmission. Sometimes the act involves modifying data 
+
+en route; other times it entails crafting new content or repeating an existing communi-
+
+cation. These three attacks are called modification, insertion, and replay, respectively. 
+
+Such attacks can be malicious or not, induced or from natural causes.People often receive incorrect or corrupted data: a minor misspelling of a name, an 
+obvious typographic error, a mistaken entry on a list. If you watch real-time closed-
+
+captioning on television, sometimes you see normal text degenerate to gibberish and 
+
+then return to normal after a short time. Mistakes like this happen, and we either contact 
+
+someone for a correction if the issue is serious or ignore it otherwise. Errors occur so 
+frequently that we sometimes fail even to notice them.
+In Figure 6-9 we remind you of some of the sources of data corruption; we have 
+previously described most of these causes. You should keep in mind that data corrup-
+
+tion can be intentional or unintentional, from a malicious or nonmalicious source, and Perhaps most interesting, his system forced connected phones to 
+use the older 2G protocol; Paget also said his system, in negotiating capa-
+
+bilities with the mobile phone, could force the phone not to use encryption 
+
+(which, of course, facilitated interception). 
+Paget’s purpose for the demonstration was to show how easily an 
+attacker could intercept communications in the mobile network. “The main 
+
+problem is that GSM is broken. You have 3G and all of these later protocols 
+
+with problems for GSM that have been known for decades. It’s about time 
+
+we move on,” Paget said [HIG10].People did move on . . . but not in the way Paget meant. In December 
+2010, two researchers at the Chaos Computer Club Congress in Berlin, 
+
+Germany, demonstrated their ability to intercept GSM calls. Karsten Nohl 
+
+and Sylvain Munaut used inexpensive Motorola mobile phones to intercept 
+
+calls in progress. The Motorola phones contained firmware that was easy to 
+
+replace, turning the phone into an interceptor that received all traffic within 
+
+range. From that universe they could isolate any single phone’s communi-
+
+cation. Using a huge prebuilt table of encryption keys, they determined the 
+
+specific key used for that communication stream and ultimately intercepted 
+
+plaintext of the entire conversation.

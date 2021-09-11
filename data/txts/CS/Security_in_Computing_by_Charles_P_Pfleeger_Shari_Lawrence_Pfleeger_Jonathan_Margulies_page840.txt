@@ -1,0 +1,65 @@
+806 Chapter 12  
+Details of CryptographyDual-EC-DRBGAgainst that background of NSA involvement in cryptography comes the case of a ran-
+dom number generator. An important use of random number generators is to obtain 
+
+cryptographic keys. For algorithms such as DES and AES, any appropriately sized 
+
+string of bits can be a key. For others such as RSA and ECC, the “key” consists of the 
+
+values of a set of parameters and perhaps one or more random numbers (such as RSA’s 
+
+p and 
+q). Random number generators are not truly random. They emit a series of num-
+bers in an unpredictable order. Thus, a good generator will produce a new key that an 
+
+attacker cannot readily infer, even knowing the previous one or even previous thousands 
+
+of keys. Most generators employ a complex series of arithmetic operations on a so-
+
+called seed, or starting point.The Dual-EC-DBRG generator was based on an elliptic curve cryptosystem, a novel 
+basis for a random number generator. Dual-EC was proposed as a standard by NIST 
+
+(with the technical support of NSA) in 2006, and became a U.S. standard (NIST Special Publication 800-90A) in 2007.Shortly after its introduction cryptographers began to question peculiarities in the 
+system. The ECC basis was one oddity, because that approach made generating random 
+
+numbers slower than other approaches, by two or three orders of magnitude. Such a 
+
+slowdown was not fatal, however, because most cryptographic applications generate 
+
+random numbers only rarely, so speed is not important.
+However, as we showed earlier in this chapter, ECCs depend on constants a and b in 
+the basic elliptic equation. When cryptologists need constants they typically use what 
+
+they call “nothing up my sleeve” numbers, taken from a neutral source such as digits in 
+
+the definition of 
+. The parameters for Dual-EC were specified as certain constants with 
+no explanation or justification for those numbers.
+Two Microsoft researchers in 2007 raised a concern about a possible predictability 
+in Dual-EC. They asserted that if someone knew characteristics of the two initial points 
+
+for the ECC equation, with little effort that person could intuit the internal state of the 
+
+generator and from that, derive the future series of keys. The researchers were careful 
+
+not to allege impropriety, but merely to point out this undesirable characteristic. So the 
+
+generator continued to be used.Dual-EC Found to Be Compromised
+In 2012 a former NSA employee with a high security clearance defected to Russia. 
+Before leaving NSA he downloaded a large quantity of classified documents that he has 
+
+passed to journalists. These documents appear to detail actions of the NSA that weaken 
+
+the design or implementation of popular cryptography [PER13]. The downloaded docu-
+
+ments allege NSA introduced weaknesses in the standard that would allow NSA (and 
+
+anyone else who knew of the weaknesses) to predict output values. 
+Cryptographer Prof. Matthew Green of Johns Hopkins University summarizes the 
+apparent weaknesses and explains the chain of flaws [GRE13], culminating in “Flaw 
+
+#4: If you know a certain property about the Dual_EC parameters, and can recover an 
+
+output point, you can predict all subsequent outputs of the generator.” Shortly after this 
+
+flaw was published, NIST advised “Based on public concerns and an evaluation of the 

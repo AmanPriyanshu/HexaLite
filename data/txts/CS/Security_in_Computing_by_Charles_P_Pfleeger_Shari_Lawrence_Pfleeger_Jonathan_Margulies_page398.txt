@@ -1,0 +1,62 @@
+364 Chapter 6  
+NetworksInsertionAn insertion attack, which is almost a form of substitution, is one in which data val-
+ues are inserted into a stream. An attacker does not even need to break an encryption 
+
+scheme in order to insert authentic-seeming data; as long as the attacker knows pre-
+
+cisely where to slip in the data, the new piece is encrypted under the same key as the 
+
+rest of the communication.ReplayIn a replay
+ attack, legitimate data are intercepted and reused, generally without modi-
+fication. A replay attack differs from both a wiretapping attack (in which the content of 
+
+the data is obtained but not reused) and a man-in-the-middle attack (in which the con-
+
+tent is modified to deceive two ends into believing they are communicating directly).
+In real life, a bank prevents someone from depositing the same check twice by mark-
+ing the physical check, but with electronic deposits, for which the depositor takes a 
+
+check’s picture with a smartphone, preventing reuse is more difficult. The classic exam-
+
+ple of a replay attack involves financial transactions in the following way. An unscru-
+
+pulous merchant processes a credit card or funds transfer on behalf of a user and then, 
+
+seeing that the transfer succeeded, resubmits another transaction on behalf of the user.
+With a replay attack, the interceptor need not know the content or format of a 
+transmission; in fact, replay attacks can succeed on encrypted data without altering or 
+SIDEBAR 6-6 Substitute Donors
+The British National Health Service (NHS) maintains a database of potential 
+organ donors in the United Kingdom. According to an article in 
+The Register 
+12 April 2010, the organ donor status field was incorrectly entered for people 
+
+who registered their organ donation preferences while applying for a driver’s 
+
+license. Some 400,000 data fields were corrected by the NHS and another 
+
+300,000 people had to be contacted to determine the correct value.
+According to a subsequent review [DUF10], the error arose in 1999 
+and went unnoticed from then until 2010. The NHS receives data from three 
+
+sources: hospitals, doctors, and the drivers’ license office. When applying 
+
+for a driver’s license or registering with a doctor or hospital, an applicant 
+
+can mark boxes specifying which organs, if any, the applicant wishes to 
+
+donate after death. The record transmitted to NHS from any source con-
+
+tains identification data and a seven-digit number coded as 1 for no and 2 
+for yes. However, the order of the organs listed on the license application 
+
+is different from the order the other two sources use, which was properly 
+
+handled by software before 1999. In a software upgrade in 1999, all inputs 
+
+were erroneously processed by the same order.
+The review after discovery of the error recommended enhanced test-
+ing procedures, notification of all affected parties whenever a program-
+
+ming change was to be implemented, and periodic auditing of the system, 
+including sample record validation.

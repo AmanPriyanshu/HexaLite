@@ -1,0 +1,38 @@
+ Section 6.7  Firewalls 
+473  The outside world sees only one external address, 173.203.129.90 for the whole 
+secured internal network, so outsiders cannot infer the structure of the internal network. 
+
+In fact, outsiders do not know if one communication at one time is from the same inter-
+
+nal host as a later communication, thus shielding individual internal users somewhat. 
+
+Finally, knowing the supposed address of an insider will not help an outsider later: If an 
+
+outsider crafts traffic to the same address at a later time, the firewall will reject the traf-
+
+fic because the sender’s address is no longer in the translation table. Although primarily 
+
+used because of another problem (limited public address numbers), network address 
+
+translation performs a significant security role.
+Data Loss Prevention
+We conclude this section with one more approach that is similar to a firewall or guard. 
+
+Data loss prevention
+ (DLP) refers to a set of technologies designed to detect and pos-
+sibly prevent attempts to send data where it is not allowed to go. Typical data of con-
+
+cern are classified documents, proprietary information, and private personal information 
+
+(e.g., social security numbers, credit card numbers). DLP solutions experienced an 
+
+increase in popularity in the wake of the Bradley/Chelsea Manning WikiLeaks scandal, 
+
+in which a member of the U.S. military leaked a trove of classified information to the 
+
+WikiLeaks website, and the Edward Snowden scandal, in which an NSA contractor 
+
+leaked a large number of classified documents to a variety of major news organizations.
+FIGURE 6-63 Network Address Translation
+User host(internal)Destinationhost (external)192.168.1.35173.203.129.90Src: 192.168.1.35:80Src: 173.203.129.90:80Src: 173.203.129.90:80packetpacketpacket65.216.161.24Table of translations performedSourceDest192.168.1.35:8065.216.161.24:80
+Firewall

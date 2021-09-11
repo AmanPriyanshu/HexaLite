@@ -1,0 +1,69 @@
+312 Chapter 5  
+Operating SystemsThese design properties—the kernel, separation, isolation, and hierarchical  
+structure—have been the basis for 
+
+many trustworthy system proto-
+
+types. They have stood the test of 
+
+time as best design and implementa-
+
+tion practices. Kernelized Design
+A kernel
+ is the part of an operating system that performs the lowest-level functions. In 
+standard operating system design, the kernel implements operations such as synchroni-
+
+zation, interprocess communication, message passing, and interrupt handling. The ker-
+
+nel is also called a nucleus or 
+core
+. The notion of designing an operating system around 
+a kernel is described by Butler Lampson and Howard Sturgis [LAM76] and by Gerald 
+
+Popek and Charles Kline [POP78].A security kernel
+ is responsible for enforcing the security mechanisms of the entire 
+operating system. The security kernel provides the security interfaces among the hard-
+
+ware, operating system, and other parts of the computing system. Typically, the oper-
+
+ating system is designed so that the 
+security kernel is contained within 
+
+the operating system kernel. Secu-
+
+rity kernels are discussed in detail 
+
+by Stan Ames [AME83].
+There are several good design reasons why security functions may be isolated in a 
+security kernel.
+• Coverage
+. Every access to a protected object must pass through the security ker-
+nel. In a system designed in this way, the operating system can use the security 
+
+kernel to ensure that every access is checked.
+• Separation
+. Isolating security mechanisms both from the rest of the operating system and from the user space makes it easier to protect those mechanisms 
+
+from penetration by the operating system or the users.• Unity. All security functions are performed by a single set of code, so it is easier 
+to trace the cause of any problems that arise with these functions.
+• Modifiability
+. Changes to the security mechanisms are easier to make and easier 
+to test. And because of unity, the effects of changes are localized so interfaces 
+
+are easier to understand and control.• Compactness. Because it performs only security functions, the security kernel is 
+likely to be relatively small.
+• Verifiability. 
+Being relatively small, the security kernel can be analyzed rigor-
+ously. For example, formal methods can be used to ensure that all security situa-
+
+tions (such as states and state changes) have been covered by the design.
+Notice the similarity between these advantages and the design goals of operating 
+systems that we described earlier. These characteristics also depend in many ways on 
+
+modularity, as described in Chapter 3.
+Layering ensures that a security problem 
+
+affects only less sensitive layers.
+Security kernel: locus of all security 
+
+enforcement

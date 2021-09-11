@@ -1,0 +1,46 @@
+CHAPTER 28  
+FORMAL MODELING AND VERIFICATION
+ 619 
+In formal methods work, the process of proving software correctness becomes the task of showing that a program can be reduced to a sequence of legal states  13 
+ 
+ or data transitions. This may not be sufﬁ cient for all programs. Predicates that 
+can verify correct run-time behavior of a program may be needed to check the 
+correctness of real-time or parallel algorithms.   Assertions help developers document and understand software more effec-tively but are only practical for small programs. The use of assertions does not 
+eliminate the need for external documentation which is often imprecise due to 
+ambiguities in the natural language used to describe the system. In addition, for-
+
+mal methods do not help software engineers select from among several correct 
+software designs.   
+ 
+ 
+ 
+ 
+ 28.8 S
+UMMARY  
+Cleanroom software engineering is a formal approach to software development that can lead to software that has remarkably high quality. It uses box structure 
+
+speciﬁ cation for analysis and design modeling and emphasizes correctness veri-
+ﬁ cation, rather than testing, as the primary mechanism for ﬁ
+ nding and removing 
+errors. Statistical use testing is applied to develop the failure rate information 
+necessary to certify the reliability of delivered software.  The cleanroom approach begins with analysis and design models that use a box structure representation. A “box” encapsulates the system (or some aspect 
+of the system) at a speciﬁ c level of abstraction. Black boxes are used to represent 
+the externally observable behavior of a system. State boxes encapsulate state 
+data and operations. A clear box is used to model the procedural design that is 
+implied by the data and operations of a state box.  Correctness veriﬁ cation is applied once the box structure design is complete. 
+The procedural design for a software component is partitioned into a series of 
+subfunctions. To prove the correctness of the subfunctions, exit conditions are 
+
+deﬁ ned for each subfunction and a set of subproofs is applied. If each exit condi-
+tion is satisﬁ ed, the design must be correct. 
+ Once correctness veriﬁ cation is complete, statistical use testing commences. 
+Unlike conventional testing, cleanroom software engineering does not empha-
+size unit or integration testing. Rather, the software is tested by deﬁ
+ ning a set 
+of usage scenarios, determining the probability of use for each scenario, and 
+then deﬁ ning random tests that conform to the probabilities. The error records 
+that result are combined with sampling, component, and certiﬁ cation models 
+to enable mathematical computation of projected reliability for the software 
+component.   
+13  A legal state is a set of program variables that were assigned values allowed by the processing 
+the program inputs. pre22126_ch28_601-622.indd   619pre22126_ch28_601-622.indd   61913/12/13   6:15 PM13/12/13   6:15 PM

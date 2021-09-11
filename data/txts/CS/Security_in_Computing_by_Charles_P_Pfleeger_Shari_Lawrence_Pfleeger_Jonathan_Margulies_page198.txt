@@ -1,0 +1,23 @@
+164 Chapter 3  
+Programs and Programmingthis particular overload condition to occur. Given these difficulties, programmers can 
+have trouble devising test cases for all the possible conditions under which races can 
+
+occur. Indeed, the problem may occur with two independent programs that happen to 
+
+access certain shared resources, something the programmers of each program never 
+
+envisioned. 
+Most of today’s computers are configured with applications selected by their owners, 
+tailored specifically for the owner’s activities and needs. These applications, as well as 
+
+the operating system and device drivers, are likely to be produced by different vendors 
+TimeABYesBook seatSeat available?
+Reservationsystem
+NoSeat available?
+FIGURE 3-16 Seat Request and Reservation Example
+Reservationsystem
+TimeAYes
+Seat available?
+Book seatBYes
+Seat available?
+Book seatFIGURE 3-17 Overbooking Example

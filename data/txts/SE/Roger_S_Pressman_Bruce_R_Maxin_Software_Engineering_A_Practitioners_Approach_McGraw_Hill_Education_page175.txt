@@ -1,0 +1,168 @@
+CHAPTER 8  
+UNDERSTANDING REQUIREMENTS
+ 145entries on the lists or by creating a use case (Section 8.4) that involves the object or service. For example, the mini-spec for the  SafeHome 
+ object  
+Control Panel 
+ might be:  
+The control panel is a wall-mounted unit that is approximately 230 x 130 mm in size. The control panel has wireless connectivity to sensors and a PC. User interaction oc-
+curs through a keypad containing 12 keys. A 75 x 75 mm OLED color display provides 
+user feedback. Software provides interactive prompts, echo, and similar functions.   
+ 
+The mini-specs are presented to all stakeholders for discussion. Additions, deletions, and further elaboration are made. In some cases, the development of 
+mini-specs will uncover new objects, services, constraints, or performance re-
+quirements that will be added to the original lists. During all discussions, the 
+team may raise an issue that cannot be resolved during the meeting. An  issues list 
+ is maintained so that these ideas will be acted on later. 
+ 
+ 
+ 
+  
+ 
+Conducting a Requirements-Gathering Meeting  
+ 
+Conducting a Requirements-Gathering Meeting 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The scene:  A meeting room. The 
+ﬁ rst requirements-gathering meeting is 
+in progress.    
+ 
+ 
+ 
+ 
+ 
+The players:  Jamie Lazar, software team member; 
+Vinod Raman, software team member; Ed Robbins, soft-
+ware team member; Doug Miller, software engineering 
+
+manager; three members of marketing; a product engi-
+neering representative; and a facilitator. 
+   
+ 
+ 
+ 
+ 
+ 
+The conversation:  
+   
+ 
+ 
+ 
+ 
+ 
+Facilitator (pointing at whiteboard):  So that’s the 
+current list of objects and services for the home security 
+
+function.    
+ 
+ 
+ 
+ 
+ 
+Marketing person:  That about covers it from our 
+point of view. 
+   
+ 
+ 
+ 
+ 
+ 
+Vinod:  Didn’t someone mention that they wanted all 
+ SafeHome 
+ functionality to be accessible via the Internet? 
+That would include the home security function, no?    
+ 
+ 
+ 
+ 
+ 
+Marketing person:  Yes, that’
+add that functionality and the appropriate objects.    
+ 
+ 
+ 
+ 
+ 
+Facilitator:  Does that also add some constraints? 
+   
+ 
+ 
+ 
+ 
+ 
+Jamie:  It does, both technical and legal. 
+   
+ 
+ 
+ 
+ 
+ 
+Production rep:  Meaning? 
+   
+ 
+ 
+ 
+ 
+ 
+Jamie:  We better make sure an outsider can’t hack 
+into the system, disarm it, and rob the place or worse. 
+
+Heavy liability on our part. 
+   
+ 
+ 
+ 
+ 
+ 
+Doug:  Very true. 
+   
+ 
+ 
+ 
+ 
+ 
+Marketing:  
+stop an outsider from getting in.    
+ 
+ 
+ 
+ 
+ 
+Ed:  That’
+   
+ 
+ 
+ 
+ 
+ 
+Facilitator (interrupting):  I don’t want to debate this 
+issue now. Let’s note it as an action item and proceed. 
+   
+ 
+ 
+ 
+ 
+ 
+(Doug, serving as the recorder for the meeting, makes 
+an appropriate note.)    
+ 
+ 
+ 
+ 
+ 
+Facilitator:  I have a feeling there’s still more to con-
+sider here.    
+ 
+(The group spends the next 20 minutes reﬁ ning and ex-
+panding the details of the home security function.)   
+SAFEHOME  
+ 
+Many stakeholder concerns (e.g., accuracy, data accessibility, security) are the 
+basis for nonfunctional system requirements (Section 8.2). As stakeholders enun-
+ciate these concerns, software engineers must consider them within the context pre22126_ch08_131-165.indd   145pre22126_ch08_131-165.indd   14513/12/13   6:11 PM13/12/13   6:11 PM

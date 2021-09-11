@@ -1,0 +1,67 @@
+CHAPTER 19  
+QUALITY CONCEPTS 427that nothing will go wrong. Worse, they don’t have a way of handling things that 
+do go wrong. As a consequence, when a risk becomes a reality, chaos reigns, and 
+
+as the degree of craziness rises, the level of quality invariably falls.  The software quality dilemma can best be summarized by stating Meskimen’s 
+law — There's never time to do it right, but always time to do it over again.
+ 
+ Our 
+advice: taking the time to do it right is almost never the wrong decision.   
+ 
+ 
+ 
+ 
+ 
+ 19.4  
+ACHIEVING SOFTWARE
+ QUALITY  
+ 
+Software quality doesn’t just appear. It is the result of good project management 
+and solid software engineering practice. Management and practice are applied 
+within the context of four broad activities that help a software team achieve 
+high software quality: software engineering methods, project management tech-
+niques, quality control actions, and software quality assurance.   
+ 
+19.4.1   
+Software Engineering Methods 
+ 
+If you expect to build high-quality software, you must understand the problem to be solved. You must also be capable of creating a design that conforms to the 
+
+problem while at the same time exhibiting characteristics that lead to software 
+that exhibits the quality dimensions and factors discussed in Section 19.2.  In Part 2 of this book, we presented a wide array of concepts and methods that can lead to a reasonably complete understanding of the problem and a compre-
+hensive design that establishes a solid foundation for the construction activity. If 
+
+you apply those concepts and adopt appropriate analysis and design methods, 
+the likelihood of creating high-quality software will increase substantially. 
+  
+ 
+ 
+19.4.2   
+Project Management Techniques 
+ 
+ 
+ 
+The impact of poor management decisions on software quality has been dis-cussed in Section 19.3.6. The implications are clear: if (1) a project manager uses 
+estimation to verify that delivery dates are achievable, (2) schedule dependen-
+cies are understood and the team resists the temptation to use shortcuts, (3) risk 
+planning is conducted so problems do not breed chaos, software quality will be 
+affected in a positive way. 
+ In addition, the project plan should include explicit techniques for quality and change management. Techniques that lead to good project management prac-
+
+tices are discussed in Part 4 of this book.   
+ 
+ 
+19.4.3   
+Quality Control 
+ 
+ 
+ 
+Quality control encompasses a set of software engineering actions that help ensure that each work product meets its quality goals. Models are reviewed to 
+
+ensure that they are complete and consistent. Code may be inspected in order 
+uncover and correct errors before testing commences. A series of testing steps 
+ What do I 
+need to do to affect quality in a 
+positive way? ? What is 
+
+software quality control? ?pre22126_ch19_411-430.indd   427pre22126_ch19_411-430.indd   42713/12/13   6:13 PM13/12/13   6:13 PM

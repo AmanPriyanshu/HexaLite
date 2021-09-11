@@ -1,0 +1,43 @@
+APPENDIX 2  
+OBJECT-ORIENTED CONCEPTS
+ 897aspects of the problem that are user or customer visible. The level of abstraction of an analysis class is relatively high.  As the design model evolves, the software team must deﬁ ne a set of  
+design classes 
+ that (1) reﬁ ne the analysis classes by providing design detail that will en-
+able the classes to be implemented and (2) create a new set of design classes that 
+implement a software infrastructure that supports the business solution. Five 
+different types of design classes, each representing a different layer of the design 
+architecture are suggested [Amb01]:   
+ 
+ • User interface classes 
+ deﬁ ne all abstractions that are necessary for 
+human-computer interaction (HCI).    
+ • Business domain classes 
+ are often reﬁ nements of the analysis classes de-
+ﬁ ned earlier. The classes identify the attributes and services (methods) 
+that are required to implement some element of the business domain.    
+ • Process classes 
+ implement lower-level business abstractions required to fully manage the business domain classes.    
+ • Persistent classes 
+ represent data stores (e.g., a database) that will persist beyond the execution of the software.    
+ • System classes 
+ implement software management and control functions that enable the system to operate and communicate within its computing 
+environment and with the outside world.  
+  As the architectural design evolves, the software team should develop a complete set of attributes and operations for each design class. The level of abstraction is 
+reduced as each analysis class is transformed into a design representation. That 
+is, analysis classes represent objects (and associated methods that are applied 
+to them) using the jargon of the business domain. Design classes present signiﬁ -cantly more technical detail as a guide for implementation.  Arlow and Neustadt [Arl02] suggest that each design class be reviewed to en-sure that it is “well formed.” They deﬁ ne four characteristics of a well-formed 
+design class:   
+ 
+Complete and sufficient.   A design class should be the complete encap-
+sulation of all attributes and methods that can reasonably be expected 
+(based on a knowledgeable interpretation of the class name) to exist for 
+the class. For example, the class  Scene 
+ deﬁ ned for video-editing software 
+is complete only if it contains all attributes and methods that can reason-
+ably be associated with the creation of a video scene. Sufﬁ ciency ensures 
+that the design class contains only those methods that are sufﬁ cient to 
+achieve the intent of the class, no more and no less.   
+Primitiveness. 
+  Methods associated with a design class should be focused 
+on accomplishing one speciﬁ c function for the class. Once the function has 
+pre22126_app2_891-898.indd   897pre22126_app2_891-898.indd   89713/12/13   6:18 PM13/12/13   6:18 PM

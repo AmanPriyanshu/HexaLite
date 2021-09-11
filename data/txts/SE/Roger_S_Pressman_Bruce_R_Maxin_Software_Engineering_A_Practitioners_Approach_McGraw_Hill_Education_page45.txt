@@ -1,0 +1,96 @@
+CHAPTER 2  
+SOFTWARE ENGINEERING
+ 15 
+ 
+ 
+• 
+ 
+  Individuals, businesses, and governments increasingly rely on software for strategic and tactical decision making as well as day-to-day operations and 
+control. If the software fails, people and major enterprises can experience 
+anything from minor inconvenience to catastrophic failures.  It follows that software should exhibit high quality.
+ 
+ 
+  
+ 
+ 
+• 
+ 
+  As the perceived value of a speciﬁ c application grows, the likelihood is that 
+its user base and longevity will also grow. As its user base and time-in-use 
+
+increase, demands for adaptation and enhancement will also grow.  
+It fol-lows that software should be maintainable.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+These simple realities lead to one conclusion:  software in all of its forms and 
+across all of its application domains should be engineered.
+ 
+ And that leads us to 
+the topic of this book— software engineering.
+ 
+    Understand the prob-
+lem before you build a 
+solution.    Both quality and 
+
+maintainability are 
+an outgrowth of good 
+design.   
+ 
+ 
+ 2.1 D
+EFINING THE DISCIPLINE  
+ 
+The IEEE [IEE93a] has developed the following deﬁ nition for software engineering:
+ 
+ 
+ 
+ 
+Software Engineering   : (1) The application of a systematic, disciplined, quantiﬁ able 
+approach to the development, operation, and maintenance of software; that is, the application of engineering to software. (2) The study of approaches as in (1).   
+ 
+ 
+ 
+   
+And yet, a “systematic, disciplined, and quantiﬁ able” approach applied by one 
+software team may be burdensome to another. We need discipline, but we also 
+
+need adaptability and agility. 
+ Software engineering is a layered technology. Referring to  
+Figure 2.1 , any en-gineering approach (including software engineering) must rest on an organiza-
+tional commitment to quality. Total quality management, Six Sigma, and similar 
+
+philosophies  2 
+ 
+ foster a continuous process improvement culture, and it is this 
+culture that ultimately leads to the development of increasingly more effective 
+approaches to software engineering. The bedrock that supports software engi-
+neering is a quality focus.  
+  The foundation for software engineering is the  process
+ 
+ layer. The software 
+engineering process is the glue that holds the technology layers together and 
+enables rational and timely development of computer software. Process deﬁ nes 
+a framework that must be established for effective delivery of software engineer-
+
+ing technology. The software process forms the basis for management control 
+
+of software projects and establishes the context in which technical methods are  How do 
+we deﬁ ne 
+software 
+engineering? ?  
+2  Quality management and related approaches are discussed throughout Part 3 of this book.    Software engineering 
+encompasses a pro-
+cess, methods for man-
+aging and engineering 
+software, and tools. pre22126_ch02_014-028.indd   15pre22126_ch02_014-028.indd   1513/12/13   6:10 PM13/12/13   6:10 PM

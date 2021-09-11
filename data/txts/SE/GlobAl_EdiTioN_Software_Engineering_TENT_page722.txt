@@ -1,0 +1,53 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜Object-oriented metricDescription
+Weighted methods per class (WMC)This is the number of methods in each class, weighted by the complexity of 
+each method. Therefore, a simple method may have a complexity of 1, and a 
+large and complex method a much higher value. The larger the value for this 
+metric, the more complex the object class. Complex objects are more likely to 
+be difficult to understand. They may not be logically cohesive, so they cannot 
+be reused effectively as superclasses in an inheritance tree.Depth of inheritance 
+tree˜(DIT)This represents the number of discrete levels in the inheritance tree where 
+
+subclasses inherit attributes and operations (methods) from superclasses. The 
+
+deeper the inheritance tree, the more complex the design. Many object classes may 
+
+have to be understood to understand the object classes at the leaves of the tree.Number of children (NOC)This is a measure of the number of immediate subclasses in a class. It 
+measures the breadth of a class hierarchy, whereas DIT measures its depth. 
+A˜high value for NOC may indicate greater reuse. It may mean that more effort 
+should be made in validating base classes because of the number of subclasses 
+that depend on them.Coupling between object 
+classes (CBO)Classes are coupled when methods in one class use methods or instance 
+
+variables defined in a different class. CBO is a measure of how much coupling 
+
+exists. A high value for CBO means that classes are highly dependent. Therefore, 
+
+it is more likely that changing one class will affect other classes in the program.Response for a class (RFC)RFC is a measure of the number of methods that could potentially be executed 
+in response to a message received by an object of that class. Again, RFC is 
+related to complexity. The higher the value for RFC, the more complex a class, 
+and hence the more likely it is that it will include errors.Lack of cohesion in 
+methods (LCOM)LCOM is calculated by considering pairs of methods in a class. LCOM is the 
+
+difference between the number of method pairs without shared attributes and the 
+
+number of method pairs with shared attributes. The value of this metric has been 
+
+widely debated, and it exists in several variations. It is not clear if it really adds any 
+
+additional, useful information over and above that provided by other metrics.Figure 24.12 The CK˜object-oriented 
+metrics suitequalities. This situation has not really changed since his analysis in 2001. We still 
+don™t know how to use measurements of object-oriented programs to draw reliable 
+
+conclusions about their quality.˘˘A measurement process that may be part of a software quality assessment process is 
+
+shown in Figure 24.13. Each system component can be analyzed separately using a 
+range of metrics. The values of these metrics may then be compared for different 
+
+components and, perhaps, with historical measurement data collected on previous 
+
+projects. Anomalous measurements, which deviate significantly from the norm, usu
+-
+ally indicate problems with the quality of these components.The key stages in this component measurement process are:1. Choose measurements to be made The questions that the measurement is 
+
+intended to answer should be formulated and the measurements required to 

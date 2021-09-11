@@ -1,0 +1,35 @@
+886 APPENDIX 1  AN INTRODUCTION TO UMLreads an end-of-line character. If instead the next character after the “/’”is a 
+“*”, then the object advances to the  block comment  state and stays there until it sees another “*” followed by a “/”, which indicates the end of the block comment. 
+Study the diagram to make sure you understand it. Note that, after advancing 
+past white space or a comment,  WhiteSpaceAndCommentEliminator  goes back to the  start  state and starts over. That behavior is necessary since there might be several successive comments or white-space characters before any other char-
+acters in the Java source code.  An object may transition to a ﬁ nal state, indicated by a black circle with a white 
+circle around it, which indicates there are no more transitions. In   Figure A1.13, the  WhiteSpaceAndCommentEliminator  object is ﬁ nished when the next char-
+acter is not white space or part of a comment. Note that all transitions except the 
+two transitions leading to the ﬁ nal state have activities consisting of advancing to 
+
+the next character. The two transitions to the ﬁ nal state do not advance over the 
+
+next character because the next character is part of a word or symbol of interest 
+to the compiler. Note that if the object is in the  saw ‘/’  state but the next character is not “/” or “*”, then the “/” is a division operator or part of the /= operator and 
+so we don’t want to advance. In fact, we want to back up one character to make 
+“/” into the next character, so that the “/” can be used by the compiler. In 
+
+  Figure A1.13, this activity of backing up is labeled as pushback ‘/’. 
+ A state diagram will help you to uncover missed or unexpected situations. That is, with a state diagram, it is relatively easy to ensure that all possible trig-
+ger events for all possible states have been accounted for. For example, in   Fig-
+A1.13, you can easily verify that every state has included transitions for all 
+
+possible characters.  UML state diagrams can contain many other features not included in   Fig-
+A1.13. For example, when an object is in a state, it usually does nothing but 
+
+sit and wait for a trigger event to occur. However, there is a special kind of state, 
+called an  activity state , in which the object performs some activity, called a  do-activity , while it is in that state. To indicate that a state is an activity state in the state diagram, you include in the bottom half of the state’s rounded rectangle the 
+phrase “do/” followed by the activity that is to be done while in that state. The 
+do-activity may ﬁ nish before any state transitions occur, after which the activity 
+state behaves like a normal waiting state. If a transition out of the activity state 
+occurs before the do-activity is ﬁ nished, then the do-activity is interrupted. 
+ Because a trigger event is optional when a transition occurs, it is possible that no trigger event may be listed as part of a transition’s label. In such cases for nor-
+mal waiting states, the object will immediately transition from that state to the 
+new state. For activity states, such a transition is taken as soon as the do-activity 
+ﬁ nishes.    
+Figure A1.14 illustrates this situation using the states for a business telephone. When a caller is placed on hold, the call goes into the  On hold with music  state 

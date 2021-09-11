@@ -1,0 +1,91 @@
+392 PART TWO  
+MODELING 
+And the trend is not exclusive to the United State’s top four carriers. As GigaOM 
+ 2 
+ 
+ points out, regional operators and other small carriers are also “tapping into the 
+trove of cheaper smartphones in the market.”  
+ 
+  
+The GartnerGroup [Gar12] reports that in that same business quarter, 419 mil-
+lion smartphones were sold globally and projected annual sales of 119 million 
+tablet computers, nearly a 100 percent increase over the previous year. Mobile 
+
+computing has become a dominant force.   
+ 
+ 
+ 
+ 18.1  
+THE CHALLENGES  
+ 
+While mobile devices have many features in common with each other, their users 
+often have very different perceptions of what features they expect to be bundled 
+in each. Some users expect the same features that are provided on their per-
+
+sonal computers. Others focus on the freedom that portable devices give them 
+and gladly accept the reduced functionality in the mobile version of a familiar 
+software product. Still others expect unique experiences not possible on tradi-
+tional computing or entertainment devices. The user’s perception of “goodness” 
+
+might be more important than any of the technical quality dimensions of the 
+MobileApp itself.   
+18.1.1  Development Considerations 
+ 
+Like all computing devices, mobile platforms are differentiated by the software they deliver—a combination of operating system (e.g., Android or iOS) and a 
+small subset of the hundreds of thousands of MobileApps that provide a very 
+wide range of functionality. New tools allow individuals with little formal training 
+
+to create and sell apps alongside other apps developed by large teams of soft-
+ware developers.   
+ 
+Even though apps can be developed by amateurs, many software engineers 
+think that MobileApps are among the most challenging software systems being 
+
+built today [Voa12]. Mobile platforms are very complex. Both the Android and iOS 
+
+operating systems contain over 12 million lines of code. Mobile devices often have 
+
+mini browsers that will not display the full set of content available on a Web page. 
+
+Different mobile devices use different operating systems and platform dependent 
+
+development environments. Mobile devices tend to have smaller and more varied 
+
+screen sizes than personal computers. This may require greater attention to user 
+
+interface design issues, including decisions to limit display of some content. In 
+
+addition, MobileApps must be designed to take into account intermittent connec-
+tivity outages, limitations on battery life, and other device constraints  3 
+ 
+ [Whi08].  
+ What makes 
+MobileApp development 
+different and 
+challenging? ?  
+2  See  
+http://gigaom.com/mobile/carrier-data-conﬁ
+ rms-it-half-of-us-now-owns-a-smartphone/
+ 
+   
+3  Available at  
+ 
+http://www.devx.com/SpecialReports/Article/37693 
+ 
+     developing 
+MobileApps  . . . . . 395  
+
+    mobility 
+
+environments  . . . . 403  
+
+    quality checklist  . . 397  
+
+    technical 
+
+considerations. . . . 393  
+
+    user interface 
+
+design  . . . . . . . . . 398    
+pre22126_ch18_391-410.indd   392pre22126_ch18_391-410.indd   39216/12/13   6:23 PM16/12/13   6:23 PM

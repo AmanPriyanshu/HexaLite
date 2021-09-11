@@ -1,0 +1,45 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜2. Language processing systems Language processing systems are systems in 
+which the user™s intentions are expressed in a formal language, such as a pro-
+gramming language. The language processing system processes this language 
+
+into an internal format and then interprets this internal representation. The best-
+
+known language processing systems are compilers, which translate high-level 
+
+language programs into machine code. However, language processing systems 
+are also used to interpret command languages for databases and information 
+
+systems, and markup languages such as XML.I have chosen these particular types of system because a large number of web-based business systems are transaction processing systems, and all software devel-
+opment relies on language processing systems.Transaction processing systems are designed to process user requests for information 
+
+from a database, or requests to update a database (Lewis, Bernstein, and Kifer 2003). 
+
+Technically, a database transaction is part of a sequence of operations and is treated 
+
+as a single unit (an atomic unit). All of the operations in a transaction have to be 
+
+completed before the database changes are made permanent. This ensures that failure 
+
+of operations within a transaction does not lead to inconsistencies in the database.From a user perspective, a transaction is any coherent sequence of operations that satisfies a goal, such as ﬁfind the times of flights from London to Paris.ﬂ If the user 
+transaction does not require the database to be changed, then it may not be necessary 
+to package this as a technical database transaction.An example of a database transaction is a customer request to withdraw money from a 
+bank account using an ATM. This involves checking the customer account balance to see 
+
+if sufficient funds are available, modifying the balance by the amount withdrawn and 
+
+sending commands to the ATM to deliver the cash. Until all of these steps have been com-
+pleted, the transaction is incomplete and the customer accounts database is not changed.Transaction processing systems are usually interactive systems in which users 
+make asynchronous requests for service. Figure 6.16 illustrates the conceptual archi-
+tectural structure of transaction processing applications. First, a user makes a request 
+to the system through an I/O processing component. The request is processed by 
+
+some application-specific logic. A transaction is created and passed to a transaction 
+manager, which is usually embedded in the database management system. After the 
+transaction manager has ensured that the transaction is properly completed, it signals 
+to the application that processing has finished.Transaction processing systems may be organized as a ﬁpipe and filterﬂ architec-ture, with system components responsible for input, processing, and output. For 
+I/OprocessingApplicationlogic
+Transaction
+managerDatabaseFigure 6.16 The structure of transaction 
+processing applications

@@ -1,0 +1,73 @@
+ Section 3.2  Malicious Code—Malware 
+189  infectious code disappears whenever the machine is shut down, the malicious code is 
+less likely to be analyzed by security teams.
+Other Homes for Viruses 
+A virus that does not take up residence in one of these cozy establishments has to fend 
+
+for itself. But that is not to say that the virus will go homeless.You might think that application programs—code—can do things, but that data 
+files—documents, spreadsheets, document image PDF files, or pictures—are passive 
+
+objects that cannot do harmful things. In fact, however, these structured data files con-
+
+tain commands to display and manipulate their data. Thus, a PDF file is displayed by a 
+
+program such as Adobe Reader that does many things in response to commands in the 
+
+PDF file. Although such a file is not executable as a program itself, it can cause activity 
+
+in the program that handles it. Such a file is called 
+interpretive data
+, and the handler program is also called an interpreter
+. The Adobe Reader program is an interpreter for 
+PDF files. If there is a flaw in the PDF interpreter or the semantics of the PDF interpre-
+
+tive language, opening a PDF file can cause the download and execution of malicious 
+
+code. So even an apparently passive object like a document image can lead to a mali-
+
+cious code infection.One popular home for a virus is an application program. Many applications, such as 
+word processors and spreadsheets, have a “macro” feature, by which a user can record 
+
+a series of commands and then repeat the entire series with one invocation. Such pro-
+
+grams also provide a “startup macro” that is executed every time the application is 
+
+executed. A virus writer can create a virus macro that adds itself to the startup directives 
+
+for the application. It also then embeds a copy of itself in data files so that the infection 
+
+spreads to anyone receiving one or more of those files. Thus, the virus writer effectively 
+
+adds malware to a trusted and commonly used application, thereby assuring repeated 
+
+activations of the harmful addition.
+Code libraries are also excellent places for malicious code to reside. Because librar-
+ies are used by many programs, the code in them will have a broad effect. Additionally, 
+
+libraries are often shared among users and transmitted from one user to another, a prac-
+
+tice that spreads the infection. Finally, executing code in a library can pass on the viral 
+
+infection to other transmission media. Compilers, loaders, linkers, runtime monitors, 
+
+runtime debuggers, and even virus control programs are good candidates for hosting 
+
+viruses because they are widely shared.
+StealthThe final objective for a malicious 
+code writer is stealth: avoiding 
+
+detection during installation, while 
+
+executing, or even at rest in storage.
+Detection Malicious code discovery could be aided with a procedure to determine if two programs 
+
+are equivalent: We could write a program with a known harmful effect, and then com-
+
+pare with any other suspect program to determine if the two have equivalent results. 
+
+However, this equivalence problem is complex, and theoretical results in computing 
+Most viruses maintain stealth by 
+concealing their action, not announcing 
+their presence, and disguising their 
+
+appearance.

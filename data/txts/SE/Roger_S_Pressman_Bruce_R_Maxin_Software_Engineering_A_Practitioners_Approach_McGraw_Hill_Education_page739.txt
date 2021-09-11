@@ -1,0 +1,60 @@
+CHAPTER 32  
+PROCESS AND PROJECT METRICS 709speciﬁ c conventions for measurement are established in advance. However, the 
+quality and functionality of software or its efﬁ ciency or maintainability are more 
+difﬁ cult to assess and can be measured only indirectly. 
+ We have partitioned the software metrics domain into process, project, and 
+product metrics and noted that product metrics that are private to an individual 
+are often combined to develop project metrics that are public to a software team. 
+Project metrics are then consolidated to create process metrics that are public 
+to the software organization as a whole. But how does an organization combine 
+metrics that come from different individuals or projects?   
+ 
+ 
+ 
+ 
+To illustrate, consider a simple example. Individuals on two different project 
+teams record and categorize all errors that they ﬁ nd during the software pro-
+cess. Individual measures are then combined to develop team measures. Team A 
+
+found 342 errors during the software process prior to release. Team B found 184 
+
+errors. All other things being equal, which team is more effective in uncovering 
+errors throughout the process? Because you do not know the size or complexity 
+of the projects, you cannot answer this question. However, if the measures are 
+
+normalized, it is possible to create software metrics that enable comparison to 
+broader organizational averages.   
+ 
+32.2.1   
+Size-Oriented Metrics  
+Size-oriented software metrics are derived by normalizing quality and/or productivity measures by considering the  size 
+ of the software that has been 
+produced. If a software organization maintains simple records, a table of 
+ size-oriented measures, such as the one shown in   
+Figure 32.2  
+, can be created. The table lists each software development project that has been completed over 
+the past few years and corresponding measures for that project. Referring to the 
+table entry (  
+32.2 
+ 
+) for project  alpha 
+: 12,100 lines of code were developed person-months of effort at a cost of $168,000. It should be noted that the 
+   Because many factors 
+affect software work, 
+don’t use metrics to 
+compare individuals or 
+teams. ProjectLOCEffort$(000)Pp. doc.ErrorsDefectsPeople
+alphabeta
+gamma††
+†12,10027,200
+20,200††
+†2462
+43††
+†168440
+314††
+†3651224
+1050††  †134321
+256††  †2986
+6435
+6 FIGURE 32.2 
+Size-oriented metricspre22126_ch32_703-726.indd   709pre22126_ch32_703-726.indd   70913/12/13   6:17 PM13/12/13   6:17 PM

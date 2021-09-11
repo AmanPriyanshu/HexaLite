@@ -1,0 +1,34 @@
+˜˜˚˙˜˜˜
+˜˜
+There are three different types of software maintenance:1. Fault repairs to fix bugs and vulnerabilities. Coding errors are usually relatively cheap to correct; design errors are more expensive because they may involve 
+
+rewriting several program components. Requirements errors are the most expen-
+sive to repair because extensive system redesign may be necessary.2. Environmental adaptation to adapt the software to new platforms and environ-
+ments. This type of maintenance is required when some aspect of a system™s 
+environment, such as the hardware, the platform operating system, or other sup-
+port software, changes. Application systems may have to be modified to cope 
+with these environmental changes.3. Functionality addition to add new features and to support new requirements. 
+
+This type of maintenance is necessary when system requirements change in 
+
+response to organizational or business change. The scale of the changes required 
+to the software is often much greater than for the other types of maintenance.In practice, there is no clear-cut distinction between these types of maintenance. 
+When you adapt a system to a new environment, you may add functionality to take 
+advantage of new environmental features. Software faults are often exposed because 
+
+users use the system in unanticipated ways. Changing the system to accommodate 
+their way of working is the best way to fix these faults.These types of maintenance are generally recognized, but different people some-times give them different names. ﬁCorrective maintenanceﬂ is universally used to 
+
+refer to maintenance for fault repair. However, ﬁadaptive maintenanceﬂ sometimes 
+
+means adapting to a new environment and sometimes means adapting the software to 
+
+new requirements. ﬁPerfective maintenanceﬂ sometimes means perfecting the soft-
+ware by implementing new requirements; in other cases, it means maintaining the 
+functionality of the system but improving its structure and its performance. Because 
+
+of this naming uncertainty, I have avoided the use of these terms in this book.Program evolution dynamicsProgram evolution dynamics is the study of evolving software systems, pioneered by Manny Lehman and Les Belady 
+
+in the 1970s. This led to so-called Lehman™s Laws, which are said to apply to all large-scale software systems. The 
+
+most important of these laws are:1. A program must continually change if it is to remain useful.2. As an evolving program changes, its structure is degraded.3. Over a program™s lifetime, the rate of change is roughly constant and independent of the resources available.4. The incremental change in each release of a system is roughly constant.5. New functionality must be added to systems to increase user satisfaction.http://software-engineering-book.com/web/program-evolution-dynamics/

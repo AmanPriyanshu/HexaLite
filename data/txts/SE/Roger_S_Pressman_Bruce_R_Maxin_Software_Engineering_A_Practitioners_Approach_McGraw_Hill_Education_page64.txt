@@ -1,0 +1,120 @@
+34 PART ONE  
+THE SOFTWARE PROCESS
+ 
+ 
+ 
+ 3.  Organize notes into a brief written statement of requirements.    
+ 
+ 4.  Email to stakeholder for review and approval.  
+ 
+  If the project was considerably more complex with many stakeholders, each with a different set of (sometime conﬂ icting) requirements, the communication 
+activity might have six distinct actions (described in Chapter 8):  inception, elici-tation, elaboration, negotiation, speciﬁ cation,
+ 
+ and 
+ validation.
+ 
+ Each of these soft-
+ware engineering actions would have many work tasks and a number of distinct 
+work products.   
+ 
+ 
+ 
+ 
+ 
+ 3.3 I
+DENTIFYING A TASK SET  
+ 
+Referring again to  Figure 3.1 , each software engineering action (e.g.,  elicitation, 
+ an action associated with the  communication 
+ activity) can be represented by a 
+number of different  task sets 
+—each a collection of software engineering work tasks, related work products, quality assurance points, and project milestones.    Different projects 
+demand different task 
+sets. The software 
+team chooses the 
+task set based on 
+problem and project 
+characteristics. Task Set 
+ A task set deﬁ nes the actual work to be done 
+to accomplish the objectives of a software engineering action. For example,  elicitation 
+ (more com-monly called “requirements gathering”) is an important 
+
+software engineering action that occurs during the 
+  
+communication 
+ activity. The goal of requirements 
+gathering is to understand what various stakeholders 
+want from the software that is to be built.  For a small, relatively simple project, the task set for requirements gathering might look like this:  
+ 
+ 
+ 1.  
+Make a list of stakeholders for the project.    
+ 
+ 2.  
+Invite all stakeholders to an informal meeting. 
+   
+ 
+ 3.  
+Ask each stakeholder to make a list of features and functions required.    
+ 
+ 4.  
+Discuss requirements and build a ﬁ nal list. 
+   
+ 
+ 5.  
+Prioritize requirements.    
+ 
+ 6.  
+Note areas of uncertainty. 
+ 
+ 
+  For a larger, more complex software project, a differ-
+ent task set would be required. It might encompass the 
+following work tasks:  
+ 
+ 
+ 1.  
+Make a list of stakeholders for the project.    
+ 
+ 2.  
+Interview each stakeholder separately to determine 
+overall wants and needs.    
+ 
+ 3.  
+Build a preliminary list of functions and features 
+based on stakeholder input.    
+ 
+ 4.  
+Schedule a series of facilitated application speciﬁ -cation meetings.    
+ 
+ 5.  
+Conduct meetings.    
+ 
+ 6.  
+Produce informal user scenarios as part of each 
+meeting.    
+ 
+ 7.  
+Reﬁ ne user scenarios based on stakeholder 
+feedback.    
+ 
+ 8.  
+Build a revised list of stakeholder requirements.    
+ 
+ 9.  
+Use quality function deployment techniques to  prioritize requirements.    
+ 
+ 
+10.  Package requirements so that they can be deliv-ered incrementally. 
+   
+ 
+11.  Note constraints and restrictions that will be placed on the system.    
+ 
+12.  Discuss methods for validating the system.  
+ 
+  Both of these task sets achieve “requirements gath-ering,” but they are quite different in their depth and 
+formality. The software team chooses the task set that will 
+
+allow it to achieve the goal of each action and still main-
+tain quality and agility. 
+INFO pre22126_ch03_029-039.indd   34pre22126_ch03_029-039.indd   3413/12/13   6:10 PM13/12/13   6:10 PM

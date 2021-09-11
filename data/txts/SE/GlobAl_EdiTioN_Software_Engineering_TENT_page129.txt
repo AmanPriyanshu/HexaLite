@@ -1,0 +1,30 @@
+˜˜˚ˆ˜˜˜
+˜˜
+Requirements validation is the process of checking that requirements define the sys-tem that the customer really wants. It overlaps with elicitation and analysis, as it is 
+concerned with finding problems with the requirements. Requirements validation is 
+critically important because errors in a requirements document can lead to extensive 
+rework costs when these problems are discovered during development or after the 
+system is in service.The cost of fixing a requirements problem by making a system change is usually much greater than repairing design or coding errors. A change to the requirements 
+usually means that the system design and implementation must also be changed. 
+
+Furthermore, the system must then be retested.During the requirements validation process, different types of checks should be carried out on the requirements in the requirements document. These checks include:1. Validity checks These check that the requirements reflect the real needs of sys-tem users. Because of changing circumstances, the user requirements may have 
+changed since they were originally elicited.2. Consistency checks Requirements in the document should not conflict. That is, 
+there should not be contradictory constraints or different descriptions of the 
+
+same system function.3. Completeness checks The requirements document should include requirements 
+that define all functions and the constraints intended by the system user.4. Realism checks 
+By using knowledge of existing technologies, the requirements 
+
+should be checked to ensure that they can be implemented within the proposed 
+budget for the system. These checks should also take account of the budget and 
+schedule for the system development.5. Verifiability To reduce the potential for dispute between customer and contrac
+-tor, system requirements should always be written so that they are verifiable. 
+
+This means that you should be able to write a set of tests that can demonstrate 
+that the delivered system meets each specified requirement.Requirements document standardsA number of large organizations, such as the U.S. Department of Defense and the IEEE, have defined standards 
+for requirements documents. These are usually very generic but are nevertheless useful as a basis for develop-
+
+ing more detailed organizational standards. The U.S. Institute of Electrical and Electronic Engineers (IEEE) is one 
+of the best-known standards providers, and they have developed a standard for the structure of requirements 
+documents. This standard is most appropriate for systems such as military command and control systems that 
+have a long lifetime and are usually developed by a group of organizations.http://software-engineering-book.com/web/requirements-standard/

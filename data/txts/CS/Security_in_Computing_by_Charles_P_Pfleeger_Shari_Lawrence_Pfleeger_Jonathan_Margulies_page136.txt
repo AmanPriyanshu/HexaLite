@@ -1,0 +1,63 @@
+102 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+problem is maintaining security for the keys already distributed—we cannot expect 
+users to memorize so many keys. Worse, loss or exposure of one user’s keys requires 
+
+setting up a new key pair with each of that user’s correspondents.
+CharacteristicsWe can reduce the problem of key proliferation by using a public key approach. In a 
+public key
+ or 
+asymmetric encryption system, each user has two keys: a 
+public key
+ and a private key
+. The user may freely publish the public key because each key does 
+only encryption or decryption, but not both. The keys operate as inverses, meaning that 
+
+one key undoes the encryption provided by the other key. But deducing one key from 
+
+the other is effectively impossible.
+To see how, let 
+kPRIV be a user’s private key, and let 
+kPUB be the corresponding public 
+key. Then, encrypted plaintext using the public key is decrypted by application of the 
+
+private key; we write the relationship as
+P  D(kPRIV, E(kPUB,P))That is, a user can decode with a private key what someone else has encrypted with the 
+corresponding public key. Furthermore, with some public key encryption algorithms, 
+
+including RSA, we have this relationship:
+P  D(kPUB, E(kPRIV,P))In other words, a user can encrypt a message with a private key, and the message can be 
+revealed only with the corresponding public key.
+These two properties tell us that public and private keys can be applied in either 
+order. In particular, the decryption function 
+D can be applied to any argument so that 
+we can decrypt before we encrypt. With conventional encryption, we seldom think of 
+
+decrypting before
+ encrypting. But the concept makes sense with public keys, where it 
+simply means applying the private transformation first and then the public one.
+We have noted that a major problem with symmetric encryption is the sheer number 
+of keys a single user has to store and track. With public keys, only two keys are needed 
+
+per user: one public and one private. Let us see what difference this makes in the num-
+
+ber of keys needed. Suppose we have three users, B, C, and D, who must pass protected 
+
+messages to user A as well as to each other. Since each distinct pair of users needs a key, 
+
+each user would need three different keys; for instance, A would need a key for B, a key 
+
+for C, and a key for D. But using public key encryption, each of B, C, and D can encrypt 
+
+messages for A by using A’s public key. If B has encrypted a message using A’s public 
+
+key, C 
+cannot decrypt it, even if C knew it was encrypted with A’s public key. Apply-
+ing A’s public key twice, for example, would not decrypt the message. (We assume, of 
+
+course, that A’s private key remains secret.) Thus, the number of keys needed in the 
+
+public key system is only two per user.
+The Rivest–Shamir–Adelman (RSA) AlgorithmThe Rivest–Shamir–Adelman (RSA) cryptosystem
+ is a public key system. Based 
+on an underlying hard problem and named after its three inventors (Ronald Rivest, 

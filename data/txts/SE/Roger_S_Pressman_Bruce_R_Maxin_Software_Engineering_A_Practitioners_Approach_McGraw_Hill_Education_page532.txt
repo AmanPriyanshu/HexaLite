@@ -1,0 +1,78 @@
+502 PART THREE  
+QUALITY MANAGEMENTany procedural statements (e.g., see the ﬂ ow graph symbol for the if-then-else 
+construct). Areas bounded by edges and nodes are called  regions.
+ 
+ When counting 
+regions, we include the area outside the graph as a region.  4 
+ 
+   
+When compound conditions are encountered in a procedural design, the gen-eration of a ﬂ ow graph becomes slightly more complicated. A compound con-
+dition occurs when one or more Boolean operators (logical OR, AND, NAND, 
+NOR) is present in a conditional statement. Referring to  Figure 23.3 , the program design language (PDL) segment translates into the ﬂ ow graph shown. Note that 
+a separate node is created for each of the conditions  a 
+ and  
+b 
+ in the statement 
+IF  a 
+ OR  
+b. 
+ Each node that contains a condition is called a  
+predicate node
+ 
+ and is 
+characterized by two or more edges emanating from it.   
+ 
+ 
+ 
+23.4.2   
+Independent Program Paths 
+ 
+An  independent path 
+ is any path through the program that introduces at least 
+one new set of processing statements or a new condition. When stated in terms 
+of a ﬂ ow graph, an independent path must move along at least one edge that has 
+not been traversed before the path is deﬁ ned. For example, a set of independent 
+paths for the ﬂ ow graph illustrated in  
+Figure 23.2b  is  
+ 
+ 
+ 
+ 
+ 
+Path 1: 1-11 
+   
+ 
+ 
+ 
+ 
+Path 2: 1-2-3-4-5-10-1-11 
+   
+ 
+ 
+ 
+ 
+Path 3: 1-2-3-6-8-9-10-1-11 
+   
+ 
+ 
+ 
+ 
+Path 4: 1-2-3-6-7-9-10-1-11 
+ 
+ 
+  Note that each new path introduces a new edge. The path  
+ 
+ 
+ 
+ 
+ 
+1-2-3-4-5-10-1-2-3-6-8-9-10-1-11  
+ 
+  
+ 
+4  A more detailed discussion of graphs and their uses is presented in Section 23.6.1. 
+Predicatenode..
+.IF a OR bthen procedure   xelse procedure   yENDIFybaxx  
+FIGURE 23.3 
+Compound logic  
+ pre22126_ch23_496-522.indd   502pre22126_ch23_496-522.indd   50213/12/13   6:14 PM13/12/13   6:14 PM

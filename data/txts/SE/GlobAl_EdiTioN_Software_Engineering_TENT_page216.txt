@@ -1,0 +1,34 @@
+description is then used to build a system automatically by compiling and link-ing the required components.3. Problem tracking, where support is provided to allow users to report bugs and 
+other problems, and to allow all developers to see who is working on these prob-
+lems and when they are fixed.4. Release management, where new versions of a software system are released to 
+customers. Release management is concerned with planning the functionality of 
+new releases and organizing the software for distribution.Software configuration management tools support each of the above activities. 
+These tools are usually installed in an integrated development environment, such as 
+
+Eclipse. Version management may be supported using a version management system 
+
+such as Subversion (Pilato, Collins-Sussman, and Fitzpatrick 2008) or Git (Loeliger 
+
+and McCullough 2012), which can support multi-site, multi-team development. 
+
+System integration support may be built into the language or rely on a separate tool
+-
+set such as the GNU build system. Bug tracking or issue tracking systems, such as 
+
+Bugzilla, are used to report bugs and other issues and to keep track of whether or not 
+
+these have been fixed. A comprehensive set of tools built around the Git system is 
+
+available at Github (http://github.com).Because of its importance in professional software engineering, I discuss change and configuration management in more detail in Chapter 25.ˇˇMost professional software development is based on a host-target model (Figure 7.15). 
+
+Software is developed on one computer (the host) but runs on a separate machine (the 
+
+target). More generally, we can talk about a development platform (host) and an 
+ execution platform (target). A platform is more than just hardware. It includes the 
+
+installed operating system plus other supporting software such as a database manage-
+ment system or, for development platforms, an interactive development environment.Development platformIDECompilersTesting tools
+ExecutionplatformLibrariesRelated systemsDatabasesDevelopment platformIDECompilersTesting tools
+Target
+HostDownloadsoftwareFigure 7.15 Host-target development˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜

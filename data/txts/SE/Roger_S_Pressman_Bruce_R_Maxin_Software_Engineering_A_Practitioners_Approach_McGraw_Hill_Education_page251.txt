@@ -1,0 +1,67 @@
+CHAPTER 11  
+REQUIREMENTS MODELING: BEHAVIOR, PATTERNS, AND WEB/MOBILE APPS
+ 221of navigation are deﬁ ned as part of design. At this stage, you should focus on overall 
+navigation requirements. The following questions should be considered:  
+ 
+ 
+•  Should certain elements be easier to reach (require fewer navigation steps) than others? What is the priority for presentation?   
+ 
+ 
+•  Should certain elements be emphasized to force users to navigate in their direction?   
+ 
+ 
+•  How should navigation errors be handled?   
+ 
+ 
+•  Should navigation to related groups of elements be given priority over navigation to a speciﬁ c element? 
+  
+ 
+ 
+•  Should navigation be accomplished via links, via search-based access, or by some other means?   
+ 
+ 
+•  Should certain elements be presented to users based on the context of previous navigation actions?   
+ 
+ 
+•  Should a navigation log be maintained for users?   
+ 
+ 
+•  Should a full navigation map or menu (as opposed to a single “back” link or directed pointer) be available at every point in a user’s interaction? 
+  
+ 
+ 
+•  Should navigation design be driven by the most commonly expected user behaviors or by the perceived importance of the deﬁ ned WebApp 
+elements?   
+ 
+ 
+•  Can a user “store” his previous navigation through the WebApp to expe-
+dite future usage?   
+ 
+ 
+•  For which user category should optimal navigation be designed?   
+ 
+ 
+•  How should links external to the WebApp be handled? Overlaying the 
+existing browser window? As a new browser window? As a separate frame? 
+ 
+ 
+  These and many other questions should be asked and answered as part of navigation analysis.  You and other stakeholders must also determine overall requirements for 
+navigation. For example, will a “site map” be provided to give users an overview 
+of the entire WebApp structure? Can a user take a “guided tour” that will high-
+
+light the most important elements (content objects and functions) that are avail-
+able? Will a user be able to access content objects or functions based on deﬁ
+ ned 
+attributes of those elements (e.g., a user might want to access all photographs of 
+a speciﬁ c building or all functions that allow computation of weight)? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 11.6 S
+UMMARY  
+Behavioral modeling during requirements analysis depicts dynamic behavior of the software. The behavioral model uses input from scenario-based or class-
+based elements to represent the states of analysis classes and the system as a pre22126_ch11_202-223.indd   221pre22126_ch11_202-223.indd   22113/12/13   6:12 PM13/12/13   6:12 PM

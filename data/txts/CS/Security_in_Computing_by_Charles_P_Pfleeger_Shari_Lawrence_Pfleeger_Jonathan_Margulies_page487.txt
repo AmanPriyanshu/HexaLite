@@ -1,0 +1,57 @@
+ Section 6.7  Firewalls 
+453  with a firewall is determining which 
+security policy meets the needs of 
+
+the installation.People in the firewall community 
+(users, developers, and security experts) disagree about how a firewall should work. 
+
+In particular, the community is divided about a firewall’s default behavior. We can 
+
+describe the two schools of thought as “that which is not expressly forbidden is permit-
+
+ted” (default permit) and “that which is not expressly permitted is forbidden” (
+default deny). Users, always interested in new features, prefer the former. Security experts, 
+relying on several decades of experience, strongly counsel the latter. An administrator 
+
+implementing or configuring a firewall must choose one of the two approaches, although 
+
+the administrator can often broaden the policy by setting the firewall’s parameters.
+Design of Firewalls
+As we have described them, firewalls are simple devices that rigorously and effectively 
+
+control the flow of data to and from a network. Two qualities lead to that effectiveness: 
+
+a well-understood traffic flow policy and a trustworthy design and implementation.
+PolicyA firewall implements a 
+security policy, that is, a set of rules that determine what traf-fic can or cannot pass through the firewall. As with many problems in computer secu-
+
+rity, we would ideally like a simple policy, such as “good” traffic can pass but “bad” 
+
+traffic is blocked. Unfortunately, defining “good” and “bad” is neither simple nor algo-
+
+rithmic. Firewalls come with example policies, but each network administrator needs to 
+
+determine what traffic to allow into a particular network.
+An example of a simple firewall configuration is shown in Table 6-5. The table is pro-
+cessed from the top down, and the first matching rule determines the firewall’s action. 
+
+The * character matches any value in that field. This policy says any inbound traffic to 
+Firewalls enforce predetermined rules 
+
+governing what traffic can flow.
+TABLE 6-5 
+Example Firewall Conﬁguration
+RuleType
+Source 
+Address
+Destination Address
+Destination PortAction
+1TCP*192.168.1.*25Permit
+2UDP*192.168.1.*69Permit
+
+3TCP192.168.1.**80Permit
+4TCP*192.168.1.1880Permit
+
+5TCP*192.168.1.**Deny
+
+6UDP*192.168.1.**Deny

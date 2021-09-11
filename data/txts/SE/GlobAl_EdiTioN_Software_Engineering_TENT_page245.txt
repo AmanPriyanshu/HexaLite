@@ -1,0 +1,34 @@
+and find it a more productive way to develop software. It is also claimed that use of TDD encourages better structuring of a program and improved code quality. 
+
+However, experiments to verify this claim have been inconclusive.Release testing is the process of testing a particular release of a system that is intended 
+
+for use outside of the development team. Normally, the system release is for customers 
+
+and users. In a complex project, however, the release could be for other teams that are 
+
+developing related systems. For software products, the release could be for product 
+
+management who then prepare it for sale.There are two important distinctions between release testing and system testing during the development process:1. The system development, team should not be responsible for release testing.2. Release testing is a process of validation checking to ensure that a system meets its requirements and is good enough for use by system customers. System test
+-
+ing by the development team should focus on discovering bugs in the system 
+
+(defect testing).The primary goal of the release testing process is to convince the supplier of the system that it is good enough for use. If so, it can be released as a product or deliv-
+ered to the customer. Release testing, therefore, has to show that the system delivers 
+its specified functionality, performance, and dependability, and that it does not fail 
+during normal use.Release testing is usually a black-box testing process whereby tests are derived from the system specification. The system is treated as a black box whose behavior 
+can only be determined by studying its inputs and the related outputs. Another name 
+for this is functional testing, so-called because the tester is only concerned with 
+
+functionality and not the implementation of the software.A general principle of good requirements engineering practice is that require-
+ments should be testable. That is, the requirement should be written so that a test 
+
+can be designed for that requirement. A tester can then check that the require-
+ment has been satisfied. Requirements-based testing, therefore, is a systematic 
+
+approach to test-case design where you consider each requirement and derive a 
+
+set of tests for it. Requirements-based testing is validation rather than defect 
+
+testingŠyou are trying to demonstrate that the system has properly implemented 
+
+its requirements.˜˜˚˙˜˜˜˜˜˜

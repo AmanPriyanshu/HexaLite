@@ -1,0 +1,38 @@
+˜˜˚˙˜˜˜
+˜˜
+name, a brief description, a graphical model, and an example of the type of system 
+where the pattern is used. You should also include information about when the 
+ pattern should be used and its advantages and disadvantages.Graphical models of the architecture associated with the MVC pattern are shown 
+in Figures 6.5 and 6.6. These present the architecture from different views: Figure 6.5 
+is a conceptual view, and Figure 
+6.6 shows a runtime system architecture when this 
+
+pattern is used for interaction management in a web-based system.In this short space, it is impossible to describe all of the generic patterns that 
+can˜be used in software development. Instead, I present some selected examples of 
+
+patterns that are widely used and that capture good architectural design principles.The notions of separation and independence are fundamental to architectural design 
+
+because they allow changes to be localized. The MVC pattern, shown in Figure 6.4, 
+
+separates elements of a system, allowing them to change independently. For example, 
+
+adding a new view or changing an existing view can be done without any changes to 
+
+the underlying data in the model. The Layered Architecture pattern is another way of 
+
+achieving separation and independence. This pattern is shown in Figure 6.7. Here, the 
+
+system functionality is organized into separate layers, and each layer only relies on 
+
+the facilities and services offered by the layer immediately beneath it.This layered approach supports the incremental development of systems. As a 
+layer is developed, some of the services provided by that layer may be made availa-
+ble to users. The architecture is also changeable and portable. If its interface is 
+
+unchanged, a new layer with extended functionality can replace an existing layer 
+ControllerView
+ModelForm to
+displayUpdaterequestChangenotificationRefresh requestUser eventsBrowserHTTP request processing
+Application-specific logic
+Data validationDynamic pagegenerationForms management
+Business logic
+DatabaseFigure 6.6 Web application architecture using the MVC pattern

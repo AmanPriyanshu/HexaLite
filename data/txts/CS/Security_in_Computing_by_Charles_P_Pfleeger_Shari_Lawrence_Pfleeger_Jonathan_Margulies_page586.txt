@@ -1,0 +1,83 @@
+552 Chapter 8  
+Cloud Computing• Rapid elasticity
+. Services can quickly and automatically be scaled up or down 
+to meet a customer’s need. To the customer, the system’s capabilities appear to 
+
+be unlimited.• Measured service
+. Like water, gas, or telephone service, use of cloud services 
+and resources can be monitored, controlled, and reported to both provider and 
+
+customer.
+Service ModelsA cloud can be configured in many ways, but there are three basic models with which clouds 
+
+provide services (Figure 8-1). In the first, called 
+software as a service
+ (SaaS), the cloud 
+provider gives a customer access to applications running in the cloud. Here, the customer 
+
+has no control over the infrastruc-
+
+ture or even most of the application 
+
+capabilities; like renting and driving 
+
+an automobile, the customer accesses 
+
+and uses the application.In the second service model, called platform as a service
+ (PaaS), the customer has 
+his or her own applications, but the cloud affords the languages and tools for creat-
+
+ing them. Again, the customer has 
+
+no control over the infrastructure 
+
+that underlies the tools but may 
+
+have some say in infrastructure 
+
+configuration.
+In the third service model, called infrastructure as a service
+ (IaaS), the cloud offers processing, storage, networks, and 
+other computing resources that enable customers to run any kind of software. Here, 
+
+customers can request operating 
+
+systems, storage, some applications, 
+and some network components.
+Deployment ModelsThere are many different definitions of clouds, and many ways of describing how 
+
+clouds are deployed. Often, four basic offerings are described by cloud providers: pri-
+
+vate clouds, community clouds, public clouds, and hybrid clouds.
+A private cloud
+ has infrastructure that is operated exclusively by and for the orga-
+nization that owns it, but cloud management may be contracted out to a third party. A 
+
+community cloud is shared by several organizations and is usually intended to accom-
+plish a shared goal. For instance, collaborators in a community cloud must agree on 
+
+its security requirements, policies, 
+
+and mission. It, too, may farm out 
+
+cloud management to another orga-
+
+nization. A public cloud, available 
+to the general public, is owned by 
+
+an organization that sells cloud 
+Software as a service: applications in 
+
+the cloudPlatform as a service: languages and 
+
+tools to support application development 
+
+in the cloudInfrastructure as a service: processing, 
+
+storage, network components in the 
+cloudCloud computing implies export of 
+processor, storage, applications, or other 
+
+resources. Sharing resources increases 
+
+security risk.

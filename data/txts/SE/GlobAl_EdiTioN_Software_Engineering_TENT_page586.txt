@@ -1,0 +1,50 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜3. The governance complexity of a system depends on the relationships between the laws, regulations, and policies that affect the system and the relationships 
+between the decision-making processes in the organizations responsible for the 
+
+system. As different parts of the system may be in different organizations and in 
+
+different countries, different laws, rules, and policies may apply to each system 
+within the SoS.Governance and managerial complexity are related, but they are not the same 
+thing. Managerial complexity is an operational issueŠwhat can and can™t actually be 
+
+done with the system. Governance complexity is associated with the higher level of 
+
+decision-making processes in organizations that affect the system. These decision-
+making processes are constrained by national and international laws and regulations.For example, say a company decides to allow its staff to access its systems using their own mobile devices rather than company-issued laptops. The decision to allow 
+this is a governance decision because it changes the policy of the company. As a 
+
+result of this decision, management of the system becomes more complex as manag-
+ers have to ensure that the mobile devices are configured properly so that company 
+data is secure. The technical complexity of the system also increases as there is no 
+longer a single implementation platform. Software may have to be modified to work 
+on laptops, tablets and phones.As well as technical complexity, the characteristics of systems of systems may also 
+lead to significantly increased managerial and governance complexity. Figure 20.3 
+summarizes how the different SoS characteristics primarily contribute to different 
+
+types of complexity:1. Operational independence 
+The constituent systems in the SoS are subject to dif
+-ferent policies and rules (governance complexity) and ways of managing the 
+
+system (managerial complexity).2. Managerial independence The constituent systems in the SoS are managed by 
+
+different people in different ways. They have to coordinate to ensure that manage
+-
+ment changes are consistent (managerial complexity). Special software may be 
+
+needed to support consistent management and evolution (technical complexity).3. Evolutionary development contributes to the technical complexity of a SoS because 
+
+different parts of the system are likely to be built using different technologies.4.
+ Emergence is a consequence of complexity. The more complex a system, the 
+
+more likely it is that it will have undesirable emergent properties. These proper-
+ties increase the technical complexity of the system as software has to be devel
+-
+oped or changed to compensate for them.5. Geographical distribution increases the technical, managerial, and governance 
+complexity in a SoS. Technical complexity is increased because software is 
+
+required to coordinate and synchronize remote systems; managerial complexity 
+
+is increased because it is more difficult for managers in different countries to 
+
+coordinate their actions; governance complexity is increased because different 

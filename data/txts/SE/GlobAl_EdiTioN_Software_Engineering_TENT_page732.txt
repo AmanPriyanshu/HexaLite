@@ -1,0 +1,37 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜ customers, and keep track of change proposals. CM tools range from simple tools that support a single configuration management task, such as bug tracking, to inte-
+grated environments that support all configuration management activities.Agile development, where components and systems are changed several times a day, is impossible without using CM tools. The definitive versions of components 
+are held in a shared project repository, and developers copy them into their own 
+
+workspace. They make changes to the code and then use system-building tools to 
+
+create a new system on their own computer for testing. Once they are happy with the 
+
+changes made, they return the modified components to the project repository. This 
+
+makes the modified components available to other team members.The development of a software product or custom software system takes place in 
+three distinct phases:1. A development phase 
+where the development team is responsible for managing 
+the software configuration and new functionality is being added to the software. 
+The development team decides on the changes to be made to the system.2. A system testing phase where a version of the system is released internally for 
+testing. This may be the responsibility of a quality management team or an indi
+-
+vidual or group within the development team. At this stage, no new functionality 
+is added to the system. The changes made at this stage are bug fixes, perfor-mance improvements, and security vulnerability repairs. There may be some 
+
+customer involvement as beta testers during this phase.3. A release phase where the software is released to customers for use. After 
+
+the release has been distributed, customers may submit bug reports and 
+
+change requests. New versions of the released system may be developed to 
+
+repair bugs and vulnerabilities and to include new features suggested by 
+
+customers.For large systems, there is never just one ﬁworkingﬂ version of a system; there are 
+always several versions of the system at different stages of development. Several 
+ComponentversionsReleasemanagementChangeproposalsSystem
+releasesChangemanagementSystem
+versionsVersion
+managementSystem
+buildingFigure 25.1  Configuration  
+management activities

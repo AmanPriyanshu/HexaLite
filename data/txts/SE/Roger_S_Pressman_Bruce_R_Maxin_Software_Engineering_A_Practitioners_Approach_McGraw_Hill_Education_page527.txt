@@ -1,0 +1,103 @@
+CHAPTER 23  
+TESTING CONVENTIONAL APPLICATIONS
+ 497of failure, which instills a goodly dose of guilt. And the tedium of testing is just pun-ishment for our errors. Punishment for what? For being human? Guilt for what? For 
+failing to achieve inhuman perfection? For not distinguishing between what another 
+programmer thinks and what he says? For failing to be telepathic? For not solv-
+for forty 
+
+centuries?  
+  
+Should testing instill guilt? Is testing really destructive? The answer to these questions is “No!”  In this chapter, we discuss techniques for software test-case design for con-
+ventional applications. Test-case design focuses on a set of techniques for the 
+
+creation of test cases that meet overall testing objectives and the testing strate-
+gies discussed in Chapter 22.   
+ 
+ 
+ 23.1  
+SOFTWARE
+ TESTING FUNDAMENTALS
+  
+ 
+The goal of testing is to ﬁ nd errors, and a good test is one that has a high prob-
+ability of ﬁ nding an error. Therefore, you should design and implement a 
+computer-based system or a product with “testability” in mind. At the same time, 
+
+the tests themselves must exhibit a set of characteristics that achieve the goal of 
+ﬁ nding the most errors with a minimum of effort. 
+ 
+ 
+ 
+ 
+  
+ 
+Testability.   James Bach  1 
+ 
+ provides the following deﬁ
+ nition for testability: “ 
+Soft-ware testability
+ 
+ is simply how easily [a computer program] can be tested.” The 
+following characteristics lead to testable software.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Operability.
+ 
+ “The better it works, the more efﬁ ciently it can be tested.” If a 
+system is designed and implemented with quality in mind, relatively few bugs 
+will block the execution of tests, allowing testing to progress without ﬁ ts and 
+starts.    
+ 
+ 
+ 
+ 
+ 
+Observability.
+ 
+ “What you see is what you test.” Inputs provided as part of testing produce distinct outputs. System states and variables are visible or que-
+riable during execution. Incorrect output is easily identiﬁ ed. Internal errors are 
+automatically detected and reported. Source code is accessible.    
+ 
+ 
+ 
+ 
+ 
+Controllability.
+ 
+ “The better we can control the software, the more the test-ing can be automated and optimized.” All possible outputs can be generated 
+through some combination of input, and I/O formats are consistent and struc-
+tured. All code is executable through some combination of input. Software and   uote:  “Every program 
+does something 
+right, it just may 
+not be the thing we 
+want it to do.”  Author unknown 
+ What are the 
+
+characteristics 
+of testability? 
+?    graph-based testing 
+methods. . . . . . . . 509  
+
+    model-based 
+
+testing. . . . . . . . . 516  
+
+    orthogonal array 
+
+testing. . . . . . . . . 513  
+
+    patterns. . . . . . . . 519  
+
+    white-box testing. 500  
+
+    
+1  The paragraphs that follow are used with permission of James Bach (copyright 1994) and 
+have been adapted from material that originally appeared in a posting in the newsgroup 
+comp.software-eng. pre22126_ch23_496-522.indd   497pre22126_ch23_496-522.indd   49713/12/13   6:14 PM13/12/13   6:14 PM

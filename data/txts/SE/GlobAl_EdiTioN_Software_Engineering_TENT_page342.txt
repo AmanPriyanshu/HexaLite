@@ -1,0 +1,49 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜whose malfunctioning might result in a design fault in the object being designed. 
+This fault may cause injury to people if the designed system malfunctions. Another 
+
+example of a secondary safety-critical system is the Mentcare system for mental 
+
+health patient management. Failure of this system, whereby an unstable patient may 
+
+not be treated properly, could lead to that patient injuring himself or others. Some control systems, such as those controlling critical national infrastructure (elec-
+tricity supply, telecommunications, sewage treatment, etc.), are secondary safety-
+critical systems. Failure of these systems is unlikely to have immediate human 
+
+consequences. However, a prolonged outage of the controlled systems could lead to 
+
+injury and death. For example, failure of a sewage treatment system could lead to a 
+
+higher level of infectious disease as raw sewage is released into the environment.I explained in Chapter 11 how software and system availability and reliability are 
+achieved through fault avoidance, fault detection and removal, and fault tolerance. 
+
+Safety-critical systems development uses these approaches and augments them with 
+
+hazard-driven techniques that consider the potential system accidents that may occur:1. Hazard avoidance The system is designed so that hazards are avoided. For 
+example, a paper-cutting system that requires an operator to use two hands to 
+press separate buttons simultaneously avoids the hazard of the operator™s hands 
+being in the blade™s pathway.2. Hazard detection and removal The system is designed so that hazards are 
+
+detected and removed before they result in an accident. For example, a chemical 
+plant system may detect excessive pressure and open a relief valve to reduce 
+
+pressure before an explosion occurs.3. Damage limitation 
+The system may include protection features that minimize 
+
+the damage that may result from an accident. For example, an aircraft engine 
+
+normally includes automatic fire extinguishers. If there is an engine fire, it can 
+often be controlled before it poses a threat to the aircraft.A hazard is a system state that could lead to an accident. Using the above example of the paper-cutting system, a hazard arises when the operator™s hand is in a position 
+where the cutting blade could injure it. Hazards are not accidentsŠwe often get our-
+selves into hazardous situations and get out of them without any problems. However, 
+accidents are always preceded by hazards, so reducing hazards reduces accidents.A hazard is one example of the specialized vocabulary that is used in  safety-critical sys-tems engineering. I explain other terminology used in safety-critical systems in Figure 
+12.1.We are now actually pretty good at building systems that can cope with one thing 
+going wrong. We can design mechanisms into the system that can detect and recover 
+
+from single problems. However, when several things go wrong at the same time, acci-
+dents are more likely. As systems become more and more complex, we don™t understand 
+
+the relationships between the different parts of the system. Consequently, we cannot 
+
+predict the consequences of a combination of unexpected system events or failures.In an analysis of serious accidents, Perrow (Perrow 1984) suggested that almost all of the accidents were due to a combination of failures in different parts of a system. 

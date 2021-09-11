@@ -1,0 +1,83 @@
+16 CHAPTER 2  
+SOFTWARE ENGINEERING
+applied, work products (models, documents, data, reports, forms, etc.) are pro-duced, milestones are established, quality is ensured, and change is properly 
+managed.  
+ 
+ 
+   
+Software engineering  methods 
+ provide the technical how-to’s for building 
+software. Methods encompass a broad array of tasks that include communica-
+tion, requirements analysis, design modeling, program construction, testing, 
+and support. Software engineering methods rely on a set of basic principles that 
+govern each area of the technology and include modeling activities and other 
+descriptive techniques.  
+ 
+ 
+   
+Software engineering  tools 
+ provide automated or semi-automated support 
+for the process and the methods. When tools are integrated so that information 
+created by one tool can be used by another, a system for the support of software 
+
+development, called  computer-aided software engineering
+ 
+, is established.  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 2.2 T
+HE SOFTWARE
+ PROCESS  
+ 
+A  process
+ 
+ is a collection of activities, actions, and tasks that are performed when 
+some work product is to be created. An  activity 
+ strives to achieve a broad objec-tive (e.g., communication with stakeholders) and is applied regardless of the ap-
+plication domain, size of the project, complexity of the effort, or degree of rigor 
+with which software engineering is to be applied. An  action 
+ (e.g., architectural 
+design) encompasses a set of tasks that produce a major work product (e.g., an 
+architectural model). A  task 
+ focuses on a small, but well-deﬁ
+ ned objective (e.g., 
+conducting a unit test) that produces a tangible outcome.   In the context of software engineering, a process is  not 
+ a rigid prescription for 
+how to build computer software. Rather, it is an adaptable approach that enables 
+
+the people doing the work (the software team) to pick and choose the appropri-
+ate set of work actions and tasks. The intent is always to deliver software in a 
+timely manner and with sufﬁ cient quality to satisfy those who have sponsored its 
+creation and those who will use it.  
+ 
+ 
+ Tools
+A quality focusMethodsProcess
+  
+FIGURE 2.1 
+Software engi-
+neering layers    
+WebRef 
+   
+CrossTalk
+  is a journal 
+that provides pragmatic 
+information on process, 
+
+methods, and tools. It 
+can be found at: 
+  
+www.stsc.hill.af.mil  ,
+  What are 
+the elements of a software 
+process? ?  uote:  “A process deﬁ nes 
+who is doing  what when  and  
+how  to 
+reach a certain 
+goal.”  Ivar Jacobson, 
+Grady Booch, and James Rumbaugh pre22126_ch02_014-028.indd   16pre22126_ch02_014-028.indd   1613/12/13   6:10 PM13/12/13   6:10 PM

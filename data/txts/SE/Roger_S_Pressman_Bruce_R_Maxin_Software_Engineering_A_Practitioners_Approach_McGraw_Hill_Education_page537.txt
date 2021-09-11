@@ -1,0 +1,59 @@
+CHAPTER 23  
+TESTING CONVENTIONAL APPLICATIONS
+ 507matrix can become a powerful tool for evaluating program control structure during testing. The link weight provides additional information about control 
+ﬂ ow. In its simplest form, the link weight is 1 (a connection exists) or 0 (a connec-
+tion does not exist). But link weights can be assigned other, more interesting 
+
+properties:  
+ 
+ 
+•  The probability that a link (edge) will be executed.   
+ 
+ 
+•  The processing time expended during traversal of a link   
+ 
+ 
+•  The memory required during traversal of a link   
+ 
+ 
+•  The resources required during traversal of a link.  
+ 
+  Beizer [Bei90] provides a thorough treatment of additional mathematical algorithms that can be applied to graph matrices. Using these techniques, the 
+analysis required to design test cases can be partially or fully automated.   
+ 
+ 
+ 
+ 
+ 
+ 23.5  
+CONTROL STRUCTURE TESTING  
+ 
+The basis path testing technique described in Section 23.4 is one of a number of techniques for control structure testing. Although basis path testing is simple 
+and highly effective, it is not sufﬁ cient in itself. In this section, other variations 
+on control structure testing are discussed. These broaden testing coverage and 
+improve the quality of white-box testing.   
+Condition testing 
+ [Tai89] is a test-case design method that exercises the logical 
+conditions contained in a program module.  Data ﬂ ow testing
+ 
+ [Fra93] selects test 
+paths of a program according to the locations of deﬁ nitions and uses of variables 
+in the program.   
+Loop testing 
+ is a white-box testing technique that focuses exclusively on the va-
+lidity of loop constructs. Four different classes of loops [Bei90] can be deﬁ ned: sim-
+ple loops, concatenated loops, nested loops, and unstructured loops ( Figure 23.7 ). 
+ 
+ 
+ 
+ uote:  “Paying more 
+attention to 
+running tests 
+than to designing 
+them is a classic 
+mistake.”  Brian Marick 
+  
+FIGURE 23.6 
+Graph matrix  
+ 13425abcdefgFlow graph134
+2513425aegcfdbConnected tonodeNodeGraph matrixpre22126_ch23_496-522.indd   507pre22126_ch23_496-522.indd   50713/12/13   6:14 PM13/12/13   6:14 PM

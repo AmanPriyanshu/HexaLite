@@ -1,0 +1,53 @@
+514 PART THREE  
+QUALITY MANAGEMENT 
+When orthogonal array testing occurs, an L9  orthogonal array 
+ of test cases is 
+created. The L9 orthogonal array has a “balancing property” [Pha97]. That is, test 
+cases (represented by dark dots in the ﬁ gure) are “dispersed uniformly through-
+out the test domain,” as illustrated in the right-hand cube in  Figure 23.9 . Test 
+coverage across the input domain is more complete.  To illustrate the use of the L9 orthogonal array, consider the  
+send 
+ function for 
+a fax application. Four parameters, P1, P2, P3, and P4, are passed to the  send 
+ function. Each takes on three discrete values. For example, P1 takes on values:  
+ 
+ 
+ 
+ 
+ 
+P1 5 1, send it now    
+ 
+ 
+ 
+ 
+P1 5 2, send it one hour later    
+ 
+ 
+ 
+ 
+P1 5 3, send it after midnight    
+ 
+ 
+ 
+ 
+P2, P3, and P4 would also take on values of 1, 2 and 3, signifying other send functions.  
+ 
+  If a “one input item at a time” testing strategy were chosen, the following se-quence of tests (P1, P2, P3, P4) would be speciﬁ ed: (1, 1, 1, 1), (2, 1, 1, 1), (3, 1, 1, 1), 
+(1, 2, 1, 1), (1, 3, 1, 1), (1, 1, 2, 1), (1, 1, 3, 1), (1, 1, 1, 2), and (1, 1, 1, 3). But these would 
+uncover only  single mode faults 
+ [Pha97], that is, faults that are triggered by a 
+single parameter. 
+ Given the relatively small number of input parameters and discrete values, exhaustive testing is possible. The number of tests required is 3 4  5 81, large but 
+manageable. All faults associated with data item permutation would be found, 
+but the effort required is relatively high.  The orthogonal array testing approach enables you to provide good test cover-
+age with far fewer test cases than the exhaustive strategy. An L9 orthogonal array 
+
+for the fax  send 
+ function is illustrated in  Figure 23.10 . Test
+caseTest parameters
+P1P2P3P4
+123312231123231312123123123111222333123456789  
+FIGURE 23.10 
+An L9 orthogonal 
+array  
+ pre22126_ch23_496-522.indd   514pre22126_ch23_496-522.indd   51413/12/13   6:14 PM13/12/13   6:14 PM

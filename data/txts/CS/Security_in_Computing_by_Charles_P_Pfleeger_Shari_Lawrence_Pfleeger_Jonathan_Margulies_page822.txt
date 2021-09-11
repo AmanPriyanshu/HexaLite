@@ -1,0 +1,72 @@
+788 Chapter 12  
+Details of Cryptography• Changing one bit in the input of an S-box results in changing at least two output 
+bits; that is, the S-boxes diffuse their information well throughout their outputs.
+• The S-boxes were chosen to minimize the difference between the number of 1s 
+and 0s when any single input bit is held constant; that is, holding a single bit 
+
+constant as a 0 or 1 and changing the bits around it should not lead to dispropor-
+
+tionately many 0s or 1s in the output.
+Number of IterationsMany analysts wonder whether 16 iterations are sufficient. Since each iteration diffuses 
+
+the information of the plaintext throughout the ciphertext, it is not clear that 16 cycles 
+
+diffuse the information sufficiently. For example, with only one cycle, a single cipher-
+
+text bit is affected by only a few bits of plaintext. With more cycles, the diffusion 
+
+becomes greater, so ideally no one ciphertext bit depends on any subset of plaintext bits.
+Experimentation with both DES and its IBM predecessor Lucifer was performed 
+by the NBS and by IBM as part of the certification process of the DES algorithm. 
+
+These experiments have shown [KON81] that 8 iterations are sufficient to eliminate any 
+
+observed dependence. Thus, the 16 iterations of the DES should surely be adequate.
+Differential Cryptanalysis
+In 1990 Eli Biham and Adi Shamir [BIH90, BIH91, and BIH93] announced a technique 
+
+they named 
+differential cryptanalysis
+. The technique applied to cryptographic algo-
+rithms that use substitution and permutation. This powerful technique was the first to 
+
+have impressive effects against a broad range of algorithms of this type.
+The technique uses carefully selected pairs of plaintext with subtle differences and 
+studies the effects of these differences on resulting ciphertexts. If particular combina-
+
+tions of input bits are modified simultaneously, particular intermediate bits are also 
+
+likely with a high probability to change in a particular way. The technique looks at the 
+
+exclusive OR (XOR) of a pair of inputs; the XOR will have a 0 in any bit in which the 
+
+inputs are identical and a 1 where they differ.
+The full analysis is rather complicated, but we present a sketch of it here. The S-boxes 
+transform six bits into four. If the S-boxes were perfectly uniform, one would expect all 
+
+4-bit outputs to be equally likely. However, as Biham and Shamir show, certain similar 
+
+texts are more likely to produce similar outputs than others. For example, examining all 
+
+pairs of 6-bit strings with an XOR pattern 35 in hexadecimal notation (that is, strings of 
+
+the form ddsdsd where 
+d means the bit value is different between the two strings and 
+s means the bit value is the same) for S-box 
+S1, the researchers found that the pairs have an 
+output pattern of dsss 14 times, 
+ddds 14 times, and all other patterns a frequency ranging 
+between 0 and 8. That says that an input of the form 
+ddsdsd has an output of the form 
+dsss 14 times out of 64, and ddds another 14 times out of 64; each of these results is almost 
+1/4, which continues to the next round. Biham and Shamir call each of these recognizable 
+
+effects a “characteristic”; they then extend their result by concatenating characteristics. 
+
+The attack lets them infer values in specific positions of the key. If 
+m bits of a 
+k-bit key 
+can be found, the remaining (k−m) bits can be found in an exhaustive search of all 2
+(k−m) possible keys; if 
+m is large enough, the 2
+(k−m) exhaustive search is feasible.

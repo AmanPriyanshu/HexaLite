@@ -1,0 +1,83 @@
+48 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+Exhaustive Attack In an exhaustive
+ or 
+brute force
+ attack, the attacker tries all possible passwords, 
+usually in some automated fashion. Of course, the number of possible passwords 
+
+depends on the implementation of the particular computing system. For example, if 
+
+passwords are words consisting of the 26 characters A–Z and can be of any length 
+
+from 1 to 8 characters, there are 261 passwords of 1 character, 26
+2 passwords of 2 
+characters, and 268 passwords of 8 characters. Therefore, the system as a whole has 
+261  26
+2  ... 
+ 26
+8  26
+9 1  5 
+* 10
+12 or five million million possible passwords. 
+That number seems intractable enough. If we were to use a computer to create and try 
+each password at a rate of checking one password per millisecond, it would take on the 
+
+order of 150 years to test all eight-letter passwords. But if we can speed up the search 
+
+to one password per microsecond, the work factor drops to about two months. This 
+
+amount of time is reasonable for an attacker to invest if the reward is large. For instance, 
+
+an intruder may try brute force to break the password on a file of credit card numbers or 
+
+bank account information.But the break-in time can be made even more tractable in a number of ways. Search-
+ing for a single particular password does not necessarily require all passwords to be 
+
+tried; an intruder need try only until the correct password is identified. If the set of 
+
+all possible passwords were evenly distributed, an intruder would likely need to try 
+
+only half of the password space: the expected number of searches to find any particular 
+
+password. However, an intruder can also use to advantage the uneven distribution of 
+
+passwords. Because a password has to be remembered, people tend to pick simple pass-
+
+words; therefore, the intruder should try short combinations of characters before trying 
+
+longer ones. This feature reduces the average time to find a match because it reduces 
+
+the subset of the password space searched before finding a match. And as we described 
+
+earlier, the attacker can build a rainbow table of the common passwords, which reduces 
+
+the attack effort to a simple table lookup.
+All these techniques to defeat passwords, combined with usability issues, indicate 
+that we need to look for other methods of authentication. In the next section we explore 
+
+how to implement strong authentication as a control against impersonation attacks. For 
+
+another example of an authentication problem, see Sidebar 2-3.
+Good Passwords
+Chosen carefully, passwords can be strong authenticators. The term “password” implies 
+a single word, but you can actually use a nonexistent word or a phrase. So 2Brn2Bti? 
+
+could be a password (derived from “to be or not to be, that is the question”) as could 
+
+“PayTaxesApril15th.” Note that these choices have several important characteristics: 
+
+The strings are long, they are chosen from a large set of characters, and they do not 
+
+appear in a dictionary. These properties make the password difficult (but, of course, not 
+
+impossible) to determine. If we do use passwords, we can improve their security by a 
+
+few simple practices: 
+• Use characters other than just a–z. 
+If passwords are chosen from the letters 
+a–z, there are only 26 possibilities for each character. Adding digits expands 
+
+the number of possibilities to 36. Using both uppercase and lowercase letters 
+
+plus digits expands the number of possible characters to 62. Although this 

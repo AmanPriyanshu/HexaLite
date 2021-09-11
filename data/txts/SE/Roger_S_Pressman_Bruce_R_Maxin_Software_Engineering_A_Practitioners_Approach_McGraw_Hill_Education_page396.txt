@@ -1,0 +1,155 @@
+366 PART TWO  
+MODELING 
+Architectural patterns deﬁ ne the overall structure of the WebApp, indicate 
+the relationships among different components or increments, and deﬁ ne the 
+rules for specifying relationships among the elements (pages, packages, com-
+ponents, subsystems) of the architecture. Design patterns address a speciﬁ c ele-
+ment of the WebApp design such as an aggregation of components to solve some 
+
+design problem, relationships among elements on a page, or the mechanisms for 
+effecting component-to-component communication. Component patterns relate 
+to small-scale elements of a WebApp. Examples include individual interaction 
+
+elements (e.g., radio buttons, textbooks), navigation items (e.g., how might you 
+format links?) or functional elements (e.g., speciﬁ c algorithms). 
+ 
+ 
+ 
+  
+ 
+Hypermedia Design Patterns 
+Repositories  There are a number of useful hypermedia pat-
+terns catalogs and repositories on the Internet. Hundreds of 
+
+design patterns are represented in these representative sites:
+  
+ 
+ 
+ 
+ 
+ 
+ 
+InteractionPatterns by Tom Erickson 
+   
+www.pliant.org/personal/Tom_Erickson/
+InteractionPatterns.html 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Web Design Patterns by Martijn vanWelie 
+   
+www.welie.com/patterns/
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Web Patterns for UI Design 
+   
+http://www.onextrapixel.
+com/2010/11/03/15-ui-design-patterns-
+web-designers-should-keep-handy/ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Improving Web Information Systems with Navigational 
+Patterns 
+ 
+   
+http://www8.org/w8-papers/5b-
+hypertext-media/improving/improving.html
+ 
+ 
+   
+ 
+ 
+ 
+ 
+UI and Related Patterns compiled at Uzilla.net 
+  
+http://uzilla.net/uzilla/blog/hci_directory/
+searchresultde45.html 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Common Ground—A Pattern Language for HCI Design 
+   
+www.mit.edu/~jtidwell/interaction_
+patterns.html 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Patterns for Personal Websites 
+   
+ www.rdrop.com/~half/Creations/Writings/
+Web.patterns/index.html
+ 
+ 
+ 
+ 
+ 
+  
+INFO  
+ 
+ 
+ 
+ 
+ 
+ 
+ 16.7  
+PATTERNS
+ FOR MOBILE APPS  
+ 
+By their nature, mobile applications are all about the interface. In many cases, mobile UI patterns [Mob12] are represented as a collection of “best of breed” 
+screen images for apps in a variety of different categories. Typical examples 
+
+might include:  
+ 
+ 
+ 
+ 
+ 
+ 
+Check-in screens. 
+ How do I check in from a speciﬁ
+ c location, make a 
+comment, and share comments with friends and followers on a social 
+network?    
+ 
+ 
+ 
+ 
+ 
+Maps. 
+ How do I display a map within the context of an app that ad-
+dresses some other subject? For example, review a restaurant and repre-
+sent its location within a city. 
+   
+ 
+ 
+ 
+ 
+ 
+Popovers. 
+ How do I represent a message or information (from the app or 
+another user) that arises in real time or as the consequence of a user action? 
+ pre22126_ch16_347-370.indd   366pre22126_ch16_347-370.indd   36616/12/13   6:22 PM16/12/13   6:22 PM

@@ -1,0 +1,29 @@
+˜˚˝ˆ˝˛˛
+˜˚˝ˇ˝˛˛
+
+
+˜˚˝˘˝˛˛ˆ
+
+ˆ
+
+ˆ
+
+ˆ
+
+
+ˆ
+
+˛
+
+
+ˆTrain protection system continually broadcasts the segment identifier and its speed limit. The same transmitter also broadcasts  
+information on the status of the signal controlling that track segment. The time required to broadcast track 
+segment and signal information is 50 ms.
+brake status (updated every 100 ms).driver™s cabin. If the train speed exceeds the current segment speed limit by more than 10 kph, the train™s 
+brakes are automatically applied until the speed falls to the segment speed limit. Train brakes should be 
+applied within 100 ms of the time when the excessive train speed has been detected.brakes and reduces the speed to zero. Train brakes should be applied within 100 ms of the time when the red 
+light signal is received.
+Figure 21.20  Requirements for  
+a train protection  
+system˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜

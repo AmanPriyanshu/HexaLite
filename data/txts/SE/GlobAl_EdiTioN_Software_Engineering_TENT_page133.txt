@@ -1,0 +1,41 @@
+˜˜˚ˇ˜˜˜
+˜˜
+2. Change management The process of change management (Figure 4.19) is sim-plified if active tool support is available. Tools can keep track of suggested 
+
+changes and responses to these suggestions.3. Traceability management As discussed above, tool support for traceability 
+
+allows related requirements to be discovered. Some tools are available which 
+
+use natural language processing techniques to help discover possible relation-ships between requirements.For small systems, you do not need to use specialized requirements management tools. Requirements management can be supported using shared web documents, 
+
+spreadsheets, and databases. However, for larger systems, more specialized tool sup-
+port, using systems such as DOORS (IBM 2013), makes it much easier to keep track 
+
+of a large number of changing requirements.
+
+Requirements change management (Figure 
+4.19) should be applied to all proposed 
+changes to a system™s requirements after the requirements document has been approved. 
+
+Change management is essential because you need to decide if the benefits of imple-
+menting new requirements are justified by the costs of implementation. The advantage 
+
+of using a formal process for change management is that all change proposals are treated 
+
+consistently and changes to the requirements document are made in a controlled way.There are three principal stages to a change management process:1. Problem analysis and change specification The process starts with an identi-
+fied requirements problem or, sometimes, with a specific change proposal. 
+
+During this stage, the problem or the change proposal is analyzed to check that 
+
+it is valid. This analysis is fed back to the change requestor who may respond 
+
+with a more specific requirements change proposal, or decide to withdraw 
+
+the˜request.2. Change analysis and costing The effect of the proposed change is assessed 
+
+using traceability information and general knowledge of the system require-
+ments. The cost of making the change is estimated in terms of modifications to 
+the requirements document and, if appropriate, to the system design and imple-
+mentation. Once this analysis is completed, a decision is made as to whether or 
+not to proceed with the requirements change.ChangeimplementationChange analysisand costingProblem analysis andchange specificationIdentifiedproblemRevisedrequirementsFigure 4.19  Requirements change 
+management

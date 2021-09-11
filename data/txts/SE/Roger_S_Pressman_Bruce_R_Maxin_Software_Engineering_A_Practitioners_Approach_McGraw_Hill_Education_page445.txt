@@ -1,0 +1,71 @@
+CHAPTER 19  
+QUALITY CONCEPTS 415aspects of process create the checks and balances that help avoid project chaos—a key contributor to poor quality. Software engineering practices 
+
+allow the developer to analyze the problem and design a solid solution—
+both critical to building high-quality software. Finally, umbrella activities 
+
+such as change management and technical reviews have as much to do 
+with quality as any other part of software engineering practice.      
+ 2.  A  useful product
+ 
+ delivers the content, functions, and features that the end user desires, but as important, it delivers these assets in a reliable, 
+error-free way. A useful product always satisﬁ
+ es those requirements that 
+have been explicitly stated by stakeholders. In addition, it satisﬁ es a set 
+of implicit requirements (e.g., ease of use) that are expected of all high- 
+quality software.     
+ 3.  By  adding value for both the producer and user
+ 
+ of a software product, high-quality software provides beneﬁ ts for the software organization and 
+the end-user community. The software organization gains added value 
+
+because high-quality software requires less maintenance effort, fewer bug 
+ﬁ xes, and reduced customer support. This enables software engineers to 
+spend more time creating new applications and less on rework. The user 
+community gains added value because the application provides a useful 
+capability in a way that expedites some business process. The end result 
+is (1) greater software product revenue, (2) better proﬁ tability when an 
+ application supports a business process, and/or (3) improved availability of information that is crucial for the business.  
+ 
+  
+ 
+ 
+19.2.1   
+Garvin’s Quality Dimensions  
+David Garvin [Gar87] suggests that quality should be considered by taking a multidimensional viewpoint that begins with an assessment of conformance 
+and terminates with a transcendental (aesthetic) view. Although Garvin’s eight 
+
+ dimensions of quality were not developed speciﬁ cally for software, they can be 
+applied when software quality is considered:   
+ 
+ 
+Performance Quality.
+ 
+ Does the software deliver all content, functions, and features that are speciﬁ ed as part of the requirements model in a way that 
+provides value to the end user?   
+Feature quality.
+ 
+ Does the software provide features that surprise and  delight ﬁ rst-time end users? 
+  
+Reliability.
+ 
+ Does the software deliver all features and capability without failure? Is it available when it is needed? Does it deliver functionality that 
+is error free?   
+Conformance. 
+ Does the software conform to local and external software standards that are relevant to the application? Does it conform to de facto   
+ 
+ uote:  “Be a yardstick 
+of quality. Some 
+
+people aren’t used 
+to an environment 
+where excellence is 
+expected.”  Steve Jobs 
+   You can use a radar 
+
+diagram to provide a 
+visual representation of 
+each of Garvin’s quality 
+
+dimensions as they are 
+applied to an app. pre22126_ch19_411-430.indd   415pre22126_ch19_411-430.indd   41513/12/13   6:13 PM13/12/13   6:13 PM

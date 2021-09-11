@@ -1,0 +1,69 @@
+494 Chapter 6  
+Networksregularly collect such log files from throughout an enterprise, updating SOC personnel 
+on the company’s security status every few seconds. 
+But SIEMs don’t just collect the information; they can do a lot to help SOC analysts 
+make sense of it. With all of that security event data in one place, analysts can look for 
+
+patterns across the enterprise and over time frames spanning months or even years. 
+
+Many SIEMs allow analysts to organize data in countless interesting ways. For instance, 
+
+a SOC analyst might notice a spike in login events in the middle of the night and want to 
+
+investigate. The SIEM would allow the analyst to search for all login events between the 
+
+hours of, say, 1:00–4:00 AM Eastern Time, and then continue to investigate based on 
+
+other factors, such as IP address, apparent source country, targeted systems, or targeted 
+
+usernames. The ability to run searches like these and quickly investigate hunches across 
+
+all of a company’s systems is a fundamental breakthrough for near real-time security 
+
+analysis.These search features lend themselves to an IDS-like capability for signature-based 
+detection. Most SIEMs allow users to create and share searches set to run at regular 
+
+intervals and generate responses based on the results. For example, an analyst might 
+
+create a rule that looks for three failed logon attempts against a single host within any 
+
+five-minute time frame. In case the rule ever finds any such behavior, the analyst can 
+
+have it alert on-screen, email him/her, or even run a custom script. This is not a replace-
+
+ment for IDS capability, but rather a complement: SIEMs can match more complex 
+
+rules against a wide variety of log sources across an enterprise, but their rule-matching 
+
+is slow compared to IDSs, and they are ill suited for analyzing network traffic.
+In addition to organizing log data and making it searchable, most SIEMs also have 
+features to enable SOC analyst workflows. One common feature among SIEMs is to 
+
+allow analysts to “claim” events for investigation, giving SOC teams a straightforward 
+
+way to divide workload. These SIEMs then allow the analysts to annotate an event with 
+
+notes from the investigation and either place the event in a queue for further analysis or 
+
+close the investigation.
+SIEM ChallengesAlthough SIEMs have evolved into essential security tools for any large enterprise, they 
+are complex systems that are difficult to deploy, maintain, and use. Here are some of the 
+
+issues to consider when choosing a SIEM:• Cost. A commercial SIEM solution for a large company can cost millions of 
+dollars, but some open-source SIEMs are free. An organization’s size, system 
+
+complexity, functional and performance requirements, and appetite for custom 
+
+development should all help inform its choice of SIEM. While millions of dol-
+
+lars for an off-the-shelf software product may seem exorbitant at first blush, its 
+
+purchase will depend on the needs of the organization. If a company needs to 
+
+create custom features and pay for expert support, maintenance, and training, 
+
+a free open-source solution may end up costing more than the supported com-
+
+mercial product.• Data portability.
+ Requirements evolve, and the SIEM that meets today’s needs 
+will someday need replacing. Before choosing a SIEM, ensure that you will 

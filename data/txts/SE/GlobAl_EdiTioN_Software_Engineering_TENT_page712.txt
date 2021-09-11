@@ -1,0 +1,46 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜They work independently to find errors, omissions, and departures from stand-ards. Reviewers may supply written comments on the software if they cannot 
+attend the review meeting.2. The review meeting During the review meeting, an author of the document or 
+program being reviewed should ﬁwalk throughﬂ the document with the review 
+team. The review itself should be relatively shortŠtwo hours at most. One team 
+member should chair the review, and another should formally record all review 
+decisions and actions to be taken. During the review, the chair is responsible for 
+ensuring that all submitted comments are considered. The review chair should 
+
+sign a record of comments and actions agreed during the review.3. Post-review activities After a review meeting has ended, the issues and prob-
+lems raised during the review must be addressed. Actions may involve fixing 
+software bugs, refactoring software so that it conforms to quality standards, or 
+
+rewriting documents. Sometimes the problems discovered in a quality review 
+
+are such that a management review is also necessary to decide if more resources 
+should be made available to correct them. After changes have been made, the 
+review chair may check that all the review comments have been taken into 
+
+account. Sometimes a further review will be required to check that the changes 
+made cover all of the previous review comments.Review teams should normally have a core of three to four people who are selected 
+as principal reviewers. One member should be an experienced designer who will take 
+
+the responsibility for making significant technical decisions. The principal reviewers 
+
+may invite other project members, such as the designers of related subsystems, to 
+
+contribute to the review. They may not be involved in reviewing the whole document 
+
+but should concentrate on those sections that affect their work. Alternatively, the 
+
+review team may circulate the document and ask for written comments from a broad 
+
+spectrum of project members. The project manager need not be involved in the 
+
+review, unless problems are anticipated that require changes to the project plan.The processes suggested for reviews assume that the review team has a face-to-face meeting to discuss the software or documents they are reviewing. However, 
+
+project teams are now often distributed, sometimes across countries or continents, so 
+it is impractical for team members to meet face to face. Remote reviewing can be 
+supported using shared documents where each review team member can annotate 
+
+the document with their comments. Face-to-face meetings may be impossible 
+Roles in the inspection processWhen program inspection was established at IBM (Fagan, 1986), a number of formal roles were defined for 
+members of the inspection team. These included moderator, code reader, and scribe. Other users of inspections 
+have modified these roles, but it is generally accepted that an inspection should involve the code author, an 
+inspector, and a scribe and should be chaired by a moderator.http://software-engineering-book.com/web/qm-roles

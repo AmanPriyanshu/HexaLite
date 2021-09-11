@@ -1,0 +1,32 @@
+652 Chapter 10  
+Management and IncidentsThe requirement might also indicate strength, for example, preventing access by 
+casual attempts (lightly restrictive) or protecting against concerted effort over weeks 
+
+(highly protective). This more flexible requirement allows the designers to select among 
+
+several controls (such as tokens or encryption) and to balance security requirements 
+
+with other system requirements, such as performance and reliability. Figure 10-1 illus-
+
+trates how different aspects of system analysis support the security planning process. 
+As with the general software development process, security planning must allow 
+customers or users to specify desired functions, independently of the implementation. TABLE 10-1 
+The Six “Requirements” of the TCSEC
+Security policyThere must be an explicit and well-defined security policy enforced by 
+the system.IdentificationEvery subject must be uniquely and convincingly identified. 
+Identification is necessary so that subject/object access can be checked.
+MarkingEvery object must be associated with a label that indicates its security 
+level. The association must be done so that the label is available for 
+
+comparison each time an access to the object is requested.AccountabilityThe system must maintain complete, secure records of actions that affect 
+security. Such actions include introducing new users to the system, 
+
+assigning or changing the security level of a subject or an object, and 
+
+denying access attempts.
+AssuranceThe computing system must contain mechanisms that enforce 
+security, and it must be possible to evaluate the effectiveness of these 
+
+mechanisms.Continuous protectionThe mechanisms that implement security must be protected against 
+unauthorized change.FIGURE 10-1 Inputs to the Security PlanSecurity Planning ProcessSecurity Policies (Constraints)RequirementsSecurity Techniques and Controls   
+(Mechanisms)Security Plan 

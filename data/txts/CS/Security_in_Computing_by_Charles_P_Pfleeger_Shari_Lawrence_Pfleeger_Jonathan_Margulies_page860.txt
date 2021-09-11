@@ -1,0 +1,56 @@
+826 Chapter 13  
+Emerging Topics
+Lawrence Gordon and Martin Loeb [GOR02] argue that for a given potential loss, a 
+firm should not necessarily match its amount of investment to the potential impact on 
+
+any resource. Because extremely vulnerable information may also be extremely costly 
+
+to protect, a firm may be better off concentrating its protection on information with 
+
+lower vulnerabilities.
+The model that Gordon and Loeb present suggests that to maximize the expected 
+benefit from investment to protect information, a firm should spend only a small frac-
+
+tion of the expected loss from a security breach. Spending $1 million to protect against 
+
+a loss of $1 million but with a low expected likelihood is less appropriate than spending 
+
+$10,000 to protect against a highly likely $100,000 breach.
+The Economic Impact of CybersecurityUnderstanding the economic impact of cybersecurity issues—prevention, detection, 
+mitigation, and recovery—requires models of economic relationships that support good 
+
+decision making. However, realistic models must be based on data derived both from 
+
+the realities of investment in cybersecurity and consequences of actual attacks. In this 
+
+section, we describe the nature of the data needed, the actual data available for use by 
+
+modelers and decision-makers, and the gap between ideal and real.
+For any organization, understanding the nature of the cybersecurity threat requires 
+knowing at least the following elements: 
+• number and types of assets needing protection
+• number and types of vulnerabilities that exist in a system 
+
+• number and types of likely threats to a system 
+Similarly, understanding the realities of cyber attack also requires knowing the num-
+ber and types of attacks that can and do occur, and the costs associated with restoring 
+
+the system to its pre-attack state and then taking action to prevent future attacks.
+Both the types of possible attacks and the vulnerabilities of systems to the potential cyber attacks are fairly well understood. However, the larger direct and indirect conse-
+
+quences of such attacks are still largely unknown. We may know that a system has been 
+
+slowed or stopped for a given number of days, but often we have no good sense of the 
+
+repercussions as other systems can no longer rely on the system for its information or 
+processing. For instance, an attack on a bank can have short- and long-term effects on 
+
+the travel and credit industries, which in turn can affect food supply. This lack of under-
+
+standing has consequences among interconnected computers.Data to Justify Security ActionInterest in society’s reliance on information technology has spawned a related inter-
+est in cybersecurity’s ability to protect our information assets. However, we lack high-
+
+quality descriptive data.
+Data are needed to support cybersecurity decision-making at several levels: 
+• National and global data address national and international concerns by helping 
+users assess how industry sectors interact within their country’s economy and 

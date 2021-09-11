@@ -1,0 +1,46 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜Consider the following scenario as an illustration of application system integration. 
+A large organization intends to develop a procurement system that allows staff to 
+place orders from their desk. By introducing this system across the organization, the 
+company estimates that it can save $5 million per year. By centralizing buying, the 
+new procurement system can ensure that orders are always made from suppliers who 
+offer the best prices and should reduce the administration associated with orders. 
+
+As˜with manual systems, the system involves choosing the goods available from a 
+
+supplier, creating an order, having the order approved, sending the order to a sup-
+plier, receiving the goods, and confirming that payment should be made.The company has a legacy ordering system that is used by a central procurement 
+office. This order processing software is integrated with an existing invoicing and 
+
+delivery system. To create the new ordering system, the legacy system is integrated 
+
+with a web-based e-commerce platform and an email system that handles commu-
+nications with users. The structure of the final procurement system is shown in 
+
+Figure 15.14.
+This procurement system should be a clientŒserver system with standard web 
+browsing and email systems used on the client. On the server, the e-commerce 
+
+platform has to integrate with the existing ordering system through an adaptor. The 
+
+e-commerce system has its own format for orders, confirmations of delivery, and 
+
+so forth, and these have to be converted into the format used by the ordering sys
+-
+tem. The e-commerce system uses the email system to send notifications to users, 
+
+but the ordering system was never designed for this purpose. Therefore, another 
+
+adaptor has to be written to convert the notifications from the ordering system into 
+
+email messages.Months, sometimes years, of implementation effort can be saved, and the time to 
+develop and deploy a system can be drastically reduced by integrating existing appli
+-
+cation systems. The procurement system described above was implemented and 
+
+deployed in a very large company in nine months. It had originally been estimated 
+that it would take three years to develop a procurement system in Java that could be 
+integrated with the legacy ordering system.ClientWeb browser
+Email systemServerE-commercesystemOrdering andinvoicing systemEmail systemAdaptorAdaptorFigure 15.14 An integrated procurement 
+system 

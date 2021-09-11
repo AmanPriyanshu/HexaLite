@@ -1,0 +1,107 @@
+CHAPTER 12  
+DESIGN CONCEPTS 237the interface. In software design, you should strive for the lowest possible cou-pling. Simple connectivity among modules results in software that is easier to 
+understand and less prone to a “ripple effect” [Ste74], caused when errors occur 
+at one location and propagate throughout a system.   
+ 
+ 
+12.3.8 Reﬁ nement 
+ 
+ 
+ 
+ 
+Stepwise reﬁ
+ nement
+ 
+ 
+ 
+ is a top-down design strategy originally proposed by Niklaus 
+Wirth [Wir71]. An application is developed by successively reﬁ
+ ning levels of 
+ procedural detail. A hierarchy is developed by decomposing a macroscopic statement of function (a procedural abstraction) in a stepwise fashion until pro-
+gramming language statements are reached.  Reﬁ nement is actually a process of  
+elaboration. 
+ You begin with a statement 
+of function (or description of information) that is deﬁ ned at a high level of ab-
+straction. That is, the statement describes function or information conceptually 
+
+but provides no indication of the internal workings of the function or the inter-
+
+nal structure of the information. You then elaborate on the original statement, 
+
+providing more and more detail as each successive reﬁ nement (elaboration) 
+occurs. 
+ Abstraction and reﬁ nement are complementary concepts. Abstraction en-
+ables you to specify procedure and data internally but suppress the need for 
+“outsiders” to have knowledge of low-level details. Reﬁ nement helps you to re-
+veal low-level details as design progresses. Both concepts allow you to create a 
+complete design model as the design evolves.   
+ 
+ 
+ 
+12.3.9 Aspects  
+ 
+  
+As requirements analysis occurs, a set of “concerns” is uncovered. These con-cerns “include requirements, use cases, features, data structures, quality-
+of- service issues, variants, intellectual property boundaries, collaborations, patterns and contracts” [AOS07]. Ideally, a requirements model can be organized 
+
+in a way that allows you to isolate each concern (requirement) so that it can be 
+considered independently. In practice, however, some of these concerns span 
+
+the entire  system and cannot be easily compartmentalized.  As design begins, requirements are reﬁ ned into a modular design representa-
+tion. Consider two requirements,  A 
+ and  
+B. 
+ Requirement  
+A crosscuts
+ 
+ requirement 
+ B 
+ “if a software decomposition [reﬁ
+ nement] has been chosen in which  
+B 
+ cannot 
+be satisﬁ ed without taking  
+A 
+ into account” [Ros04].   
+For example, consider two requirements for the  www.safehomeassured.com
+ 
+  WebApp. Requirement  
+A 
+ is described via the ACS-DCV use case discussed in 
+Chapter 9. A design reﬁ nement would focus on those modules that would enable 
+a registered user to access video from cameras placed throughout a space. Re-
+quirement  B 
+ is a generic security requirement that states that  
+a registered user 
+must be validated prior to using 
+  www.safehomeassured.com.
+ 
+ This requirement    There is a tendency 
+to move immediately 
+to full detail, skipping 
+reﬁ nement steps. This 
+
+leads to errors and 
+
+omissions and makes 
+the design much more 
+difﬁ cult to review. 
+
+Perform stepwise 
+
+reﬁ nement. 
+   A crosscutting concern 
+
+is some characteristic 
+of the system that 
+applies across many 
+different requirements.   uote:  “It’s hard to read 
+through a book 
+on the principles 
+of magic without 
+glancing at the 
+cover periodically 
+to make sure it 
+isn’t a book on 
+software design.”  Bruce Tognazzini 
+pre22126_ch12_224-251.indd   237pre22126_ch12_224-251.indd   23713/12/13   6:12 PM13/12/13   6:12 PM

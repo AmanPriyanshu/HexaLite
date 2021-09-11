@@ -1,0 +1,77 @@
+452 Chapter 6  
+Networksduration; they deter fire spread but are not guaranteed or intended to stop a particularly 
+intense fire.
+As computer security devices, network firewalls are similar, protecting one subnet 
+from harm from another subnet. The primary use of a firewall is to protect an internal 
+
+subnetwork from the many threats we have already described in the wild Internet. Fire-
+
+walls can also be used to separate segments of an internal network, for example, to pre-
+
+serve high confidentiality of a sensitive research network within a larger organization.
+What Is a Firewall?
+Firewalls are one of the most important security devices for networks. Firewalls were 
+
+officially invented in the early 1990s, but the concept really reflects the reference moni-
+
+tor (introduced in Chapter 2) from two decades earlier. The first reference to a firewall 
+
+by that name may be by Marcus Ranum [RAN92]; other early references to firewalls 
+
+are the Trusted Information Systems firewall toolkit [RAN94] and the 1994 book by 
+
+Bill Cheswick and Steve Bellovin [updated as CHE02].
+A firewall
+ is a device that filters all traffic between a protected or “inside” network 
+and a less trustworthy or “outside” network. Usually a firewall runs on a dedicated 
+
+device; because it is a single point through which traffic is channeled, performance is 
+
+important, which means that only firewall functions should run on the firewall machine.
+In practice, a firewall is a computer with memory, storage devices, interface cards for 
+network access, and other devices. 
+
+It runs an operating system and exe-
+
+cutes application programs. Often 
+
+the hardware, operating system, and 
+
+applications are sold as a package, 
+
+so the firewall application (a pro-
+
+gram) is sometimes also called a 
+
+firewall.
+A firewall system typically does not have compilers, linkers, loaders, general text 
+editors, debuggers, programming libraries, or other tools an attacker might use to extend 
+
+an attack from the firewall computer. Because a firewall is executable code, an attacker 
+
+could compromise that code and execute from the firewall’s device. For example, Cisco 
+
+runs a proprietary operating system IOS on its switches, routers, and firewalls. In the 
+
+year from July 2013 to June 2014 Cisco released 27 patches to IOS to deal with a range 
+of problems from vulnerabilities that could lead to denial of service, to address transla-
+tion and routing problems. For a long time proprietary software on network devices 
+
+was scarcely a target for attackers, but even these devices are now catching hackers’ 
+
+attention. The purpose of a firewall is to keep “bad” things outside a protected environment. 
+To accomplish that, firewalls implement a security policy that is specifically designed 
+
+to address what bad things might happen. For example, the policy might be to prevent 
+
+any access from outside (while still allowing traffic to pass from the inside to the out-
+
+side). Alternatively, the policy might permit accesses only from certain places, from 
+
+certain users, or for certain activities. Part of the challenge of protecting a network 
+A firewall is a computer traffic cop that 
+
+permits or blocks data flow between 
+two parts of a network architecture. It is 
+
+the only link between parts.

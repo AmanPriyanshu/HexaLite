@@ -1,0 +1,152 @@
+CHAPTER 12  
+DESIGN CONCEPTS 241implement, to test, and to maintain over time. In general, design classes within a subsystem should have only limited knowledge of other classes. 
+This restriction, called the  Law of Demeter 
+ [Lie03], suggests that a method should only send messages to methods in neighboring classes.  6 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+6  A less formal way of stating the Law of Demeter is “Each unit should only talk to its friends; 
+Don’t talk to strangers.”   
+Reﬁ ning an Analysis Class into a Design Class   
+Reﬁ ning an Analysis Class into a Design Class 
+ 
+ 
+ 
+ 
+ 
+ 
+The scene:  Ed’s cubicle, as design 
+modeling begins.    
+ 
+ 
+ 
+The players:  Vinod and Ed—members of the 
+  
+SafeHome 
+ software engineering team.    
+ 
+ 
+ 
+The conversation:  
+   
+ 
+ 
+ 
+[Ed is working on the  FloorPlan 
+ class (see sidebar discussion in Section 10.3 and  Figure 10.2 ) and has reﬁ ned it for the design model.] 
+   
+ 
+ 
+ 
+Ed:  So you remember the  
+FloorPlan 
+ class, right? It’s 
+used as part of the surveillance and home management 
+
+functions.    
+ 
+ 
+ 
+Vinod (nodding):  Yeah, I seem to recall that we 
+used it as part of our CRC discussions for home 
+
+management.    
+ 
+ 
+ 
+Ed:  We did. Anyway, I’m reﬁ
+ ning it for design. Want 
+to show how we’ll actually implement the  FloorPlan 
+ class. My idea is to implement it as a set of linked lists 
+[a speciﬁ 
+ ne the 
+analysis class  FloorPlan 
+ ( Figure 10.2 ) and actually, 
+sort of simplify it. 
+   
+ 
+ 
+ 
+Vinod:  The analysis class showed only things in the 
+problem domain, well, actually on the computer screen, 
+that were visible to the end user, right? 
+   
+ 
+ 
+ 
+Ed:  Yep, but for the  
+FloorPlan 
+ design class, I’ve got to add some things that are implementation speciﬁ c. I 
+needed to show that  FloorPlan 
+ is an aggregation of segments—hence the  Segment 
+ class—and that the  Segment 
+ class is composed of lists for wall segments, windows, doors, and so on. The class  Camera 
+ collab-orates with  FloorPlan, 
+ and obviously, there can be 
+many cameras in the ﬂ oor plan. 
+   
+ 
+ 
+ 
+Vinod:  Phew, let’s see a picture of this new 
+  
+FloorPlan 
+ design class.    
+ 
+ 
+ 
+[Ed shows Vinod the drawing shown in  Figure 12.3 .]    
+ 
+ 
+ 
+Vinod:  Okay, I see what you’re trying to do. This 
+allows you to modify the ﬂ oor plan easily because new 
+items can be added to or deleted from the list—the  aggregation—without any problems.    
+ 
+ 
+ 
+Ed (nodding):  Yeah, I think it’ll work. 
+   
+ 
+ 
+ 
+Vinod:  So do I. 
+ 
+ 
+  
+SAFEHOME  
+ 
+ 
+12.3.13 Dependency Inversion 
+ 
+The structure of many older software architectures is hierarchical. At the top of the architecture, “control” components rely on lower-level “worker” components 
+
+to perform various cohesive tasks. Consider a simple program with three com-
+ponents. The intent of the program is to read keyboard strokes and then print 
+the result to a printer. A control module,  
+C 
+, coordinates two other modules—a keystroke reader module,  R 
+, and a module that writes to a printer,  
+W 
+.   
+The design of the program is coupled because  C 
+ is highly dependent on  
+R 
+  
+W 
+. To remove the level of dependence that exists, the “worker” modules  
+R 
+ and  W 
+ should be invoked from the control module  
+S 
+ using abstractions. In 
+   What is the 
+“dependency inversion 
+principle”? ?pre22126_ch12_224-251.indd   241pre22126_ch12_224-251.indd   24113/12/13   6:12 PM13/12/13   6:12 PM

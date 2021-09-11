@@ -1,0 +1,65 @@
+62 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+Accuracy of BiometricsWe think of biometrics—or any authentication technology—as binary: A person either 
+passes or fails, and if we just set the parameters correctly, most of the right people will 
+
+pass and most of the wrong people will fail. That is, the mechanism does not discrimi-
+
+nate. In fact, the process is biased, caused by the balance between sensitivity and selec-
+
+tivity: Some people are more likely to pass and others more likely to fail. Sidebar 2-10 
+
+describes how this can happen. 
+Until recently police and the justice system assumed that fingerprints are unique. 
+However, there really is no mathematical or scientific basis for this assumption. In fact, 
+
+fingerprint identification has been shown to be fallible, and both human and computer-
+
+ized fingerprint comparison systems have also shown failures. Part of the comparison 
+
+problem relates to the fact that not 
+
+an entire fingerprint is compared, 
+
+only characteristics at significant 
+
+ridges on the print. Thus, humans 
+
+or machines examine only salient 
+
+features, called the template of 
+
+that print.Unless every template is unique, that is, no two people have the same values, the 
+system cannot uniquely identify subjects. However, as long as an imposter is unlikely 
+
+to have the same biometric template as the real user, the system can authenticate. In 
+
+authentication we do not look through all templates to see who might match a set of 
+measured features; we simply determine whether one person’s features match his stored 
+
+template. Biometric authentication is feasible today; biometric identification is largely 
+
+still a research topic.Measuring the accuracy of biometric authentication is difficult because the authen-
+tication is not unique. In an experimental setting, for any one subject or collection of 
+
+subjects we can compute the false negative and false positive rates because we know the 
+
+subjects and their true identities. But we cannot extrapolate those results to the world 
+
+and ask how many other people could be authenticated as some person. We are limited 
+
+because our research population and setting may not reflect the real world. Product 
+
+vendors make many claims about the accuracy of biometrics or a particular biometric 
+
+feature, but few independent researchers have actually tried to substantiate the claims. 
+
+In one experiment described in Sidebar 2-11, expert fingerprint examiners, the people 
+
+who testify about fingerprint evidence at trials, failed some of the time.
+general probability (1 in 1.1 million) by the number of samples in the data-
+base to derive the likelihood of a random—innocent—match.Although we do not know whether the person convicted in this case was guilty or innocent, the reasoning reminds us to be careful to distinguish 
+
+between identification and authentication.SIDEBAR 2-9 ContinuedBiometric authentication means a subject matches a template closely 
+enough. “Close” is a system parameter 
+that can be tuned.

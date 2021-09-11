@@ -1,0 +1,33 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜use the interfaces to access the functionality of each system. The systems involved can communicate directly with each other. System coalitions, where all of the sys-
+tems involved are peers, are likely to use this type of direct interaction as it does not 
+require prearranged agreements on system communication protocols.More commonly, however, the constituent systems in a SoS either have their own specialized API or only allow their functionality to be accessed through their user 
+interfaces. You therefore have to develop software that reconciles the differences 
+
+between these interfaces. It is best to implement these interfaces as service-based 
+
+interfaces, as shown in Figure 20.7 (Sillitto 2010).To develop service-based interfaces, you have to examine the functionality of exist
+-ing systems and define a set of services to reflect that functionality. The interface then 
+
+provides these services. The services are implemented either by calls to the underlying 
+
+system API or by mimicking user interaction with the system. One of the systems in 
+
+the SoS is usually a principal or coordinating system that manages the interactions 
+
+between the constituent systems. The principal system acts as a service broker, direct-
+ing service calls between the different systems in the SoS. Each system therefore does 
+
+not need to know which other system is providing a called service.User interfaces for each system in a SoS are likely to be different. The principal system must have some overall user interfaces that handle user authentication and 
+provide access to the features of the underlying system. However, it is usually 
+
+expensive and time consuming to implement a unified user interface to replace the 
+
+individual interfaces of the underlying systems.A unified user interface (UI) makes it easier for new users to learn to use the SoS and reduces the likelihood of user error. However, whether or not unified UI devel-
+opment is cost-effective depends on a number of factors:1. The interaction assumptions of the systems in the SoS Some systems may have a process-driven model of interaction where the system controls the interface and 
+prompts the user for inputs. Others may give control to the user, so that the user 
+
+chooses the sequence of interactions with the system. It is practically impossible 
+to unify different interaction models.System 3System 2System 1PrincipalsystemService interfaces
+Unified serviceinterface
+Figure 20.7 Systems with service interfaces 

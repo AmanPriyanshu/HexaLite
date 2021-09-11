@@ -1,0 +1,52 @@
+˜˜˚˛˙˜˜˜˜˜˜
+rejected change requests are closed and no further action is taken. The factors that influence the decision on whether or not to implement a change include:1. The consequences of not making the change When assessing a change request, you have to consider what will happen if the change is not implemented. If the 
+change is associated with a reported system failure, the seriousness of that fail
+-
+ure has to be taken into account. If the system failure causes the system to crash, 
+this is very serious, and failure to make the change may disrupt the operational 
+
+use of the system. On the other hand, if the failure has a minor effect, such as 
+incorrect colors on a display, then it is not important to fix the problem quickly. 
+The change should therefore have a low priority.2. The benefits of the change Will the change benefit many users of the system, or 
+will it only benefit the change proposer?3. The number of users affected by the change If only a few users are affected, then 
+the change may be assigned a low priority. In fact, making the change may be 
+inadvisable if it means that the majority of system users have to adapt to it.4. The costs of making the change If making the change affects many system com-
+ponents (hence increasing the chances of introducing new bugs) and/or takes a 
+
+lot of time to implement, then the change may be rejected.5. The product release cycle 
+If a new version of the software has just been released 
+to customers, it may make sense to delay implementation of the change until the 
+next planned release (see Section 25.4).Change management for software products (e.g., a CAD system product), rather than 
+custom systems specifically developed for a certain customer, are handled in a different 
+
+way. In software products, the customer is not directly involved in decisions about sys
+-
+tem evolution, so the relevance of the change to the customer™s business is not an issue. 
+
+Change requests for these products come from the customer support team, the company 
+
+marketing team, and the developers themselves. These requests may reflect suggestions 
+
+and feedback from customers or analyses of what is offered by competing products.The customer support team may submit change requests associated with bugs that 
+have been discovered and reported by customers after the software has been released. 
+
+Customers may use a web page or email to report bugs. A bug management team then 
+
+checks that the bug reports are valid and translates them into formal system change 
+
+requests. Marketing staff may meet with customers and investigate competitive products. 
+
+They may suggest changes that should be included to make it easier to sell a new version 
+
+of a system to new and existing customers. The system developers themselves may have 
+
+some good ideas about new features that can be added to the system.The change request process shown in Figure 25.14 is initiated after a system has been released to customers. During development, when new versions of the system 
+are created through daily (or more frequent) system builds, there is no need for a 
+
+formal change management process. Problems and requested changes are recorded 
+
+in an issue tracking system and discussed in daily meetings. Changes that only affect 
+individual components are passed directly to the system developer, who either 
+
+accepts them or makes a case for why they are not required. However, an 
+ independent 

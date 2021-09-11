@@ -1,0 +1,124 @@
+374 PART TWO  
+MODELING 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Billions of Web pages are available for those in search of information. Even 
+well-targeted Web searches result in an avalanche of content. With so many sources 
+
+of information to choose from, how does the user assess the quality (e.g., veracity, ac-
+
+curacy, completeness, timeliness) of the content that is presented within a WebApp? 
+  
+ 
+ 
+ 
+ 
+Tillman [Til00] suggests a useful set of criteria for assessing the quality of con-
+tent: Can the scope and depth of content be easily determined to ensure that it 
+meets the user’s needs? Can the background and authority of the content’s au-
+
+thors be easily identiﬁ ed? Is it possible to determine the currency of the content, 
+the last update, and what was updated? Are the content and its location stable 
+(i.e., will they remain at the referenced URL)? Is content credible? Is content 
+unique? That is, does the WebApp provide some unique beneﬁ
+ t to those who use 
+it? Is content valuable to the targeted user community? Is content well orga-
+nized? Indexed? Easily accessible? These questions represent only a small sam-
+pling of the issues that should be addressed as the design of a WebApp evolves. 
+  
+ 
+ 
+ 
+ 17.2  
+DESIGN GOALS  
+ 
+In her regular column on Web design, Jean Kaiser [Kai02] suggests a set of design 
+goals that are applicable to virtually every WebApp regardless of application 
+
+domain, size, or complexity:   
+ 
+ 
+ 
+ 
+ 
+ 
+Simplicity. 
+  Although it may seem old-fashioned, the aphorism “all things 
+in moderation” applies to WebApps. There is a tendency among some 
+
+designers to provide the end user with “too much”—exhaustive content, 
+extreme visuals, intrusive animation, enormous Web pages, complex navi-
+
+gation, the list is long. Better to strive for moderation and simplicity. 
+   
+ 
+ 
+ 
+ 
+ 
+Consistency. 
+  This design goal applies to virtually every element of the design 
+model. Content should be constructed consistently (e.g., text formatting and 
+ What should 
+we consider when assessing 
+content quality? ?  uote:  “Just because you 
+can doesn’t mean 
+you should.”  Jean Kaiser 
+  
+WebApp Design—Quality Checklist 
+ 
+The following checklist, adapted from infor-
+mation presented at   
+Webreference.com 
+ 
+, provides a set of questions that will help both Web engi-
+
+neers and end users assess overall WebApp quality:
+  
+ 
+ 
+•  Can content and/or function and/or navigation options be tailored to the user’s preferences? 
+  
+ 
+ 
+•  Can content and/or functionality be customized to the bandwidth at which the user communicates?   
+ 
+ 
+•  Have graphics and other nontext media been used appropriately? Are graphics ﬁ le sizes optimized for 
+display efﬁ ciency? 
+  
+ 
+ 
+•  Are tables organized and sized in a manner that 
+makes them understandable and displayed efﬁ ciently? 
+  
+ 
+ 
+•  Is HTML optimized to eliminate inefﬁ ciencies? 
+  
+ 
+ 
+•  Is the overall page design easy to read and navigate? 
+  
+ 
+ 
+•  Do all pointers provide links to information that is of 
+interest to users?   
+ 
+ 
+•  Is it likely that most links have persistence on the Web? 
+  
+ 
+ 
+•  Is the WebApp instrumented with site management 
+utilities that include tools for usage tracking, link 
+testing, local searching, and security?  
+ 
+ 
+  
+INFO pre22126_ch17_371-390.indd   374pre22126_ch17_371-390.indd   37413/12/13   6:13 PM13/12/13   6:13 PM

@@ -1,0 +1,75 @@
+710 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+effort and cost recorded in the table represent all software engineering activities (analysis, design, code, and test), not just coding. Further information for proj-
+ect  alpha 
+errors 
+were recorded before the software was released, and 29 defects were encoun-
+tered after release to the customer within the ﬁ rst year of operation. Three peo-
+ple worked on the development of software for project alpha.  
+ 
+ 
+ 
+  In order to develop metrics that can be assimilated with similar metrics from other projects, you can choose lines of code as a normalization value. From the 
+rudimentary data contained in the table, a set of simple size-oriented metrics 
+can be developed for each project:   
+ 
+ 
+•  Errors per KLOC (thousand lines of code)   
+ 
+ 
+•  Defects per KLOC   
+ 
+ 
+•  $ per KLOC   
+ 
+ 
+•  Pages of documentation per KLOC    
+ 
+In addition, other interesting metrics can be computed:  
+ 
+ 
+ 
+•  Errors per person-month   
+ 
+ 
+•  KLOC per person-month   
+ 
+ 
+•  $ per page of documentation  
+ 
+   
+ 
+ 
+ 
+ 
+Size-oriented metrics are not universally accepted as the best way to measure the software process. Most of the controversy swirls around the use of lines of 
+code as a key measure. Proponents of the LOC measure claim that LOC is an 
+“artifact” of all software development projects that can be easily counted, that 
+many existing software estimation models use LOC or KLOC as a key input, and 
+that a large body of literature and data predicated on LOC already exists. On the 
+other hand, opponents argue that LOC measures are programming language 
+dependent, that when productivity is considered, they penalize well-designed 
+but shorter programs; that they cannot easily accommodate nonprocedural lan-
+guages; and that their use in estimation requires a level of detail that may be 
+difﬁ cult to achieve (i.e., the planner must estimate the LOC to be produced long 
+before analysis and design have been completed).   
+ 
+ 
+32.2.2   
+Function-Oriented Metrics  
+Function-oriented software metrics use a measure of the functionality delivered by the application as a normalization value. The most widely used function- 
+oriented metric is the function point (FP). Computation of the function point is 
+based on characteristics of the software’s information domain and complexity. 
+
+The mechanics of FP computation have been discussed in Chapter 30.  3 
+ 
+ 
+ 
+ 
+    Size-oriented metrics 
+are widely used, but 
+debate about their va-
+lidity and applicability 
+continues.   
+3  See Section 30.2.1 for a detailed discussion of FP computation. 
+pre22126_ch32_703-726.indd   710pre22126_ch32_703-726.indd   71013/12/13   6:17 PM13/12/13   6:17 PM

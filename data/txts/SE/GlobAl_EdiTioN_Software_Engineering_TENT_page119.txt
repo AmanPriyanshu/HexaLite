@@ -1,0 +1,37 @@
+˜˜˚˙˜˜˜
+˜˜
+The advantage of stories is that everyone can easily relate to them. We found this approach to be particularly useful to get information from a wider community than we could realistically interview. We made the stories available on a wiki and invited 
+teachers and students from across the country to comment on them.These high-level stories do not go into detail about a system, but they can be 
+developed into more specific scenarios. Scenarios are descriptions of example user 
+interaction sessions. I think that it is best to present scenarios in a structured way 
+
+rather than as narrative text. User stories used in agile methods such as Extreme 
+
+Programming, are actually narrative scenarios rather than general stories to help 
+
+elicit requirements.A scenario starts with an outline of the interaction. During the elicitation process, 
+details are added to create a complete description of that interaction. At its most 
+
+general, a scenario may include:1. A description of what the system and users expect when the scenario starts.2. A description of the normal flow of events in the scenario.3. A description of what can go wrong and how resulting problems can be handled.4. Information about other activities that might be going on at the same time.5. A description of the system state when the scenario ends.As an example of a scenario, Figure 
+4.10 describes what happens when a student 
+uploads photos to the KidsTakePics system, as explained in Figure 4.9. The key dif-ference between this system and other systems is that a teacher moderates the 
+
+uploaded photos to check that they are suitable for sharing.You can see this is a much more detailed description than the story in Figure 4.9, and so it can be used to propose requirements for the iLearn system. Like stories, 
+
+scenarios can be used to facilitate discussions with stakeholders who sometimes may 
+
+have different ways of achieving the same result.Figure 4.9 A user story for the iLearn systemPhoto sharing in the classroomJack is a primary school teacher in Ullapool (a village in northern Scotland). He has decided that a class project should be focused on the fishing industry in the area, looking at the history, development, and economic impact 
+of fishing. As part of this project, pupils are asked to gather and share reminiscences from relatives, use newspa-
+
+per archives, and collect old photographs related to fishing and fishing communities in the area. Pupils use an 
+iLearn wiki to gather together fishing stories and SCRAN (a history resources site) to access newspaper archives 
+and photographs. However, Jack also needs a photo-sharing site because he wants pupils to take and comment 
+on each other™s photos and to upload scans of old photographs that they may have in their families.Jack sends an email to a primary school teachers™ group, which he is a member of, to see if anyone can rec-
+ommend an appropriate system. Two teachers reply, and both suggest that he use KidsTakePics, a photo-sharing 
+
+site that allows teachers to check and moderate content. As KidsTakePics is not integrated with the iLearn 
+authentication service, he sets up a teacher and a class account. He uses the iLearn setup service to add 
+
+KidsTakePics to the services seen by the pupils in his class so that when they log in, they can immediately use 
+
+the system to upload photos from their mobile devices and class computers.

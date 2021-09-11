@@ -1,0 +1,54 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜There are no simple rules for deriving functional reliability requirements. 
+Organizations that develop critical systems usually have organizational knowledge about possible reliability requirements and how these requirements reflect the actual 
+reliability of a system. These organizations may specialize in specific types of sys
+-
+tems, such as railway control systems, so the reliability requirements can be reused 
+across a range of systems.
+Fault tolerance is a runtime approach to dependability in which systems include 
+
+mechanisms to continue in operation, even after a software or hardware fault has 
+
+occurred and the system state is erroneous. Fault-tolerance mechanisms detect and 
+
+correct this erroneous state so that the occurrence of a fault does not lead to a system 
+
+failure. Fault tolerance is required in systems that are safety or security critical and 
+where the system cannot move to a safe state when an error is detected.To provide fault tolerance, the system architecture has to be designed to include 
+redundant and diverse hardware and software. Examples of systems that may need 
+
+fault-tolerant architectures are aircraft systems that must be available throughout 
+
+the duration of the flight, telecommunication systems, and critical command and 
+
+control systems.The simplest realization of a dependable architecture is in replicated servers, where 
+two or more servers carry out the same task. Requests for processing are channeled 
+
+through a server management component that routes each request to a particular 
+
+server. This component also keeps track of server responses. In the event of server 
+
+failure, which can be detected by a lack of response, the faulty server is switched out 
+
+of the system. Unprocessed requests are resubmitted to other servers for processing.This replicated server approach is widely used for transaction processing systems 
+where it is easy to maintain copies of transactions to be processed. Transaction 
+ processing systems are designed so that data is only updated once a transaction has 
+
+finished correctly. Delays in processing do not affect the integrity of the system. It can 
+
+be an efficient way of using hardware if the backup server is one that is normally used 
+
+for low-priority tasks. If a problem occurs with a primary server, its unprocessed trans
+-actions are transferred to the backup server, which gives that work the highest priority.Replicated servers provide redundancy but not usually diversity. The server 
+ hardware is usually identical, and the servers run the same version of the software. 
+Therefore, they can cope with hardware failures and software failures that are local
+-
+ized to a single machine. They cannot cope with software design problems that cause 
+
+all versions of the software to fail at the same time. To handle software design fail
+-
+ures, a system has to use diverse software and hardware.Torres-Pomales surveys a range of software fault-tolerance techniques 
+(Torres-Pomales 2000), and Pullum (Pullum 2001) describes different types of 
+
+fault-tolerant architecture. In the following sections, I describe three architec-
+tural patterns that have been used in fault-tolerant systems.

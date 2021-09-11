@@ -1,0 +1,73 @@
+CHAPTER 12  
+DESIGN CONCEPTS 245and out of the rooms. The ﬂ oor plan gives us an overall view of the house. Archi-
+tectural design elements give us an overall view of the software.  The architectural model [Sha96] is derived from three sources: (1) information about the application domain for the software to be built; (2) speciﬁ c require-
+ments model elements such as use cases or analysis classes, their relationships 
+and collaborations for the problem at hand; and (3) the availability of architec-
+tural styles (Chapter 13) and patterns (Chapter 16).  The architectural design element is usually depicted as a set of intercon-nected subsystems, often derived from analysis packages within the require-
+ments model. Each subsystem may have its own architecture (e.g., a graphical 
+user interface might be structured according to a preexisting architectural style 
+for user interfaces). Techniques for deriving speciﬁ
+ c elements of the architec-
+tural model are presented in Chapter 13.   
+ 
+12.4.3 Interface Design Elements 
+  
+The interface design for software is analogous to a set of detailed drawings (and speciﬁ cations) for the doors, windows, and external utilities of a house. In es-
+sence, the detailed drawings (and speciﬁ cations) for the doors, windows, and ex-
+ternal utilities tell us how things and information ﬂ ow into and out of the house 
+and within the rooms that are part of the ﬂ oor plan. The interface design ele-
+ments for software depict information ﬂ ows into and out of a system and how it is 
+communicated among the components deﬁ ned as part of the architecture. 
+  
+There are three important elements of interface design: (1) the user inter-
+face (UI), (2) external interfaces to other systems, devices, networks, or other 
+producers or consumers of information, and (3) internal interfaces between var-
+
+ious design components. These interface design elements allow the software to 
+communicate externally and enable internal communication and collaboration 
+among the components that populate the software architecture.  UI design (increasingly called  usability design 
+) is a major software engineer-
+ing action and is considered in detail in Chapter 15. Usability design incorpo-
+rates aesthetic elements (e.g., layout, color, graphics, interaction mechanisms), 
+
+ergonomic elements (e.g., information layout and placement, metaphors, UI 
+navigation), and technical elements (e.g., UI patterns, reusable components). In 
+general, the UI is a unique subsystem within the overall application architecture.   The design of external interfaces requires deﬁ nitive information about the 
+entity to which information is sent or received. In every case, this information 
+should be collected during requirements engineering (Chapter 8) and veriﬁ ed 
+once the interface design commences.  8 
+ 
+ The design of external interfaces should 
+incorporate error checking and appropriate security features.    There are three parts 
+to the interface design 
+
+element: the user 
+interface, interfaces to 
+
+system external to the 
+
+application, and inter-
+faces to components 
+within the application.   uote:  “You can use an 
+eraser on the 
+drafting table or 
+a sledge hammer 
+on the construction 
+site.”  Frank Lloyd 
+Wright 
+  uote:  “The public is 
+more familiar 
+with bad design 
+than good design. 
+It is, in effect, 
+conditioned to 
+prefer bad design, 
+because that is 
+what it lives with. 
+The new becomes 
+threatening, the 
+old reassuring.”  Paul Rand 
+  
+8  Interface characteristics can change with time. Therefore, a designer should ensure that the 
+speciﬁ cation for the interface is accurate and complete. 
+pre22126_ch12_224-251.indd   245pre22126_ch12_224-251.indd   24513/12/13   6:12 PM13/12/13   6:12 PM

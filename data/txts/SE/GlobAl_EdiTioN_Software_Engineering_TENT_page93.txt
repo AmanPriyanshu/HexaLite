@@ -1,0 +1,42 @@
+˘˜˚ˆ˙˘˜˘˘˘
+2. How is the development team organized? If the development team is distributed or if part of the development is being outsourced, then you may need to develop 
+design documents to communicate across the development teams.3. What technologies are available to support system development? Agile methods 
+often rely on good tools to keep track of an evolving design. If you are develop-
+ing a system using an IDE that does not have good tools for program visualiza-
+tion and analysis, then more design documentation may be required.Television and films have created a popular vision of software companies as 
+informal organizations run by young men (mostly) who provide a fashionable work-
+ing environment, with a minimum of bureaucracy and organizational procedures. 
+
+This is far from the truth. Most software is developed in large companies that have 
+established their own working practices and procedures. Management in these 
+ companies may be uncomfortable with the lack of documentation and the informal 
+
+decision making in agile methods. Key issues are:1. Is it important to have a very detailed specification and design before moving to implementation, perhaps for contractual reasons? If so, you probably need to 
+
+use a plan-driven approach for requirements engineering but may use agile 
+
+development practices during system implementation.2. Is an incremental delivery strategy, where you deliver the software to customers 
+
+or other system stakeholders and get rapid feedback from them, realistic? Will 
+customer representatives be available, and are they willing to participate in the 
+development team?3. Are there cultural issues that may affect system development? Traditional engi-
+neering organizations have a culture of plan-based development, as this is the 
+norm in engineering. This usually requires extensive design documentation 
+
+rather than the informal knowledge used in agile processes.In reality, the issue of whether a project can be labeled as plan-driven or agile 
+is˜not very important. Ultimately, the primary concern of buyers of a software 
+ system 
+is whether or not they have an executable software system that meets their needs and 
+
+does useful things for the individual user or the organization. Software developers 
+
+should be pragmatic and should choose those methods that are most effective for the 
+
+type of system being developed, whether or not these are labeled agile or plan-driven.ˆˆAgile methods have to evolve to be used for large-scale software development. 
+
+The fundamental reason for this is that large-scale software systems are much 
+
+more complex and difficult to understand and manage than small-scale systems 
+
+or software products. Six principal factors (Figure 3.13) contribute to this 
+ complexity:

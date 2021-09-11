@@ -1,0 +1,71 @@
+518 Chapter 7  
+Databases7.4 DATABASE DISCLOSURE
+As we describe in Chapter 9, more data are being collected about more people than 
+ever before. In the past a single company, organization, or government office knew 
+
+only about its clients or patrons; there was little sharing between organizations. And 
+
+the number or kinds of places that collected data were small. Yes, we expect offices to 
+
+keep records on us, but not to include every street, cash register, and web site we visit. 
+
+Computers, of course, have made feasible not only the collection but also the sharing of 
+
+these massive amounts of data.
+Databases contain thoughts, preferences, opinions, activities (or their descriptions), 
+fantasies, friends, and connections. From these databases people can draw inferences 
+
+that may be accurate or false: Jamie is your friend. Jamie likes frogs. Ergo, you like 
+
+frogs. Obviously, this is faulty logic, although it might also be true. In the next section 
+
+we explore how people and computers analyze such databases for data connections that 
+
+lead to unacceptable data disclosure.Sensitive DataSome databases contain what is called sensitive data. As a working definition, let us 
+
+say that sensitive data are data that should not be made public. Determining which data 
+
+items and fields are sensitive depends both on the individual database and the underly-
+
+ing meaning of the data. Obviously, some databases, such as a public library catalog, 
+
+contain no sensitive data; other databases, such as defense-related ones, are wholly sen-
+
+sitive. These two cases—nothing sensitive and everything sensitive—are the easiest to 
+
+handle, because they can be covered by access controls to the database as a whole. 
+
+Someone either is or is not an authorized user. These controls can be provided by the 
+
+operating system.The more difficult problem, which is also the more interesting one, is the case in 
+which some but not all 
+of the elements in the database are sensitive. There may be 
+varying degrees of sensitivity. For example, a university database might contain student 
+
+data consisting of name, financial aid, dorm, drug use, sex, parking fines, and race. An 
+
+example of this database is shown in Table 7-6. Name and dorm are probably the least 
+
+sensitive; financial aid, parking fines, and drug use the most; sex and race somewhere 
+
+in between. That is, many people may have legitimate access to name, some to sex and 
+
+race, and relatively few to financial aid, parking fines, or drug use. Indeed, knowledge 
+
+of the existence of some fields, such as drug use, may itself be sensitive. Thus, security 
+
+concerns not only the data elements but their context and meaning. 
+Furthermore, we must account for different degrees of sensitivity. For instance, 
+although all the fields are highly sensitive, the financial aid, parking fines, and drug-use 
+
+fields may not have the same kinds of access restrictions. Our security requirements 
+
+may demand that a few people be authorized to see each field, but no one be authorized 
+
+to see all three. The challenge of the access control problem is to limit users’ access so 
+
+that they can obtain only the data to which they have legitimate access. Alternatively, 
+
+the access control problem forces us to ensure that sensitive data are not released to 
+
+unauthorized people.

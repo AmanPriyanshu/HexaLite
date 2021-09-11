@@ -1,0 +1,112 @@
+504 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+ 
+ 
+ 
+23.4.3   
+Deriving Test Cases 
+ 
+The basis path testing method can be applied to a procedural design or to source code. In this section, we present basis path testing as a series of steps. The pro-
+cedure  average, 
+ depicted in PDL in  
+Figure 23.4 , will be used as an example to illustrate each step in the test-case design method. Note that  average, 
+ although 
+an extremely simple algorithm, contains compound conditions and loops. The 
+following steps can be applied to derive the basis set:  
+ 
+ 
+ 1.
+   
+Using the design or code as a foundation, draw a corresponding ﬂ ow 
+graph. 
+ A ﬂ ow graph is created using the symbols and construction rules 
+presented in Section 23.4.1. Referring to the PDL for  average 
+ in  Fig-, a ﬂ ow graph is created by numbering those PDL statements that 
+will be mapped into corresponding ﬂ ow graph nodes. The corresponding 
+ﬂ ow graph is in  
+Figure 23.5 .  
+    
+ 
+ 
+ 2.
+   
+Determine the cyclomatic complexity of the resultant ﬂ ow graph.
+ 
+ The cyclomatic complexity  V 
+( G 
+) is determined by applying the algorithms described in Section 23.4.2. It should be noted that  V 
+( G 
+) can be determined  
+ 
+ 
+ uote:  “To err is human, 
+to ﬁ nd a bug is 
+
+divine.”Robert Dunn   
+Using Cyclomatic Complexity   
+Using Cyclomatic Complexity  
+ 
+The scene:  Shakira’s cubicle. 
+  
+The players:  Vinod and Shakira—members of the 
+ SafeHome 
+ software engineering team who are working on test planning for the security function.   
+The conversation:    
+Shakira:  
+the components for the security function, but there are a 
+lot of ‘em and if you consider the number of operations 
+that have to be exercised, I don’
+
+should forget white-box testing, integrate everything, 
+
+and start running black-box tests. 
+  
+Vinod:  You ﬁ
+ gure we don’t have enough time to do com-
+ponent tests, exercise the operations, and then integrate? 
+  
+Shakira:  The deadline for the ﬁ
+ rst increment is getting 
+ned. 
+  
+Vinod:  Why don’t you at least run white-box tests on 
+the operations that are likely to be the most error prone?   
+Shakira (exasperated):  And exactly how do I 
+know which are the most error prone?   
+Vinod:   V  
+of  G 
+.   
+Shakira:  Huh? 
+  
+Vinod:  Cyclomatic complexity— 
+V 
+ of  G 
+. Just compute  V 
+( G 
+) for each of the operations within each of the components and see which have the highest values for 
+ V 
+( G 
+). They’re the ones that are most likely to be error prone.   
+Shakira:  And how do I compute  
+V 
+ of  G 
+?   
+Vinod:  It’s really easy. Here’s a book that describes 
+how to do it.   
+Shakira (leafing through the pages):  Okay, 
+it doesn’t look hard. I’ll give it a try. The ops with the 
+
+highest  V 
+( G 
+) will be the candidates for white-box tests.   
+Vinod:  Just remember that there are no guarantees. A 
+component with a low  V 
+( G 
+) can still be error prone.   
+Shakira:  Alright. But at least this’ll help me to narrow 
+down the number of components that have to undergo 
+white-box testing.   
+SAFEHOME pre22126_ch23_496-522.indd   504pre22126_ch23_496-522.indd   50413/12/13   6:14 PM13/12/13   6:14 PM

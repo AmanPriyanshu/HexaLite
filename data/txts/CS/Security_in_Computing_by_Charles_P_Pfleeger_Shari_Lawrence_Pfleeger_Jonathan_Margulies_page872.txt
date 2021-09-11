@@ -1,0 +1,71 @@
+838 Chapter 13  
+Emerging Topics
+recent elections in the United States have involved several contests that were decided by 
+well under one percent of the votes cast. When an election’s margin is slim, a recount is 
+
+common and in some cases mandatory. Election officials need adequate data to verify 
+
+and recount votes, but fully electronic systems may lack the means to satisfy skeptics. 
+
+In Sidebar 13-3 we show how Estonia developed electronic voting.
+In 2005, the U.S. Computer Science and Telecommunications Board (CSTB) of the 
+National Academy of Science [NRC05]
+ released its study of electronic voting. The 
+report raised questions that must be addressed in any thorough debate about electronic 
+
+voting. For example, the CSTB asked how an electronic voting process will assure 
+
+individual privacy in voter registration and in individual votes. In addition, the study 
+
+emphasized that the public must have confidence in the process; otherwise, the public 
+
+will not trust the outcome.Rubin [RUB02], Schneier [SCH04], and Bennet [BEN04], among others, have con-
+tinued to study electronic voting. And investigations, such as the one described in Side-
+
+bar 13-4, suggest that we are not close to having e-voting machines we can trust
+3. Even 
+e-voting without specialized hardware can present significant problems. For example, 
+
+Rubin notes that Internet voting, which has been used in several countries (for example, 
+
+astronauts in orbit have been allowed to vote by email since 1997), has an obvious ben-
+
+efit: easy access for those who cannot go to the polls. But it has a corresponding weak-
+
+ness: it is not available to people who have no Internet access or who are uncomfortable 
+
+with computing technology. 
+3. To be fair, noncomputerized voting has its defects, too. Ballot boxes have mysteriously disappeared, 
+people have been bribed not to vote, and false notices have been circulated advising of a change of 
+
+election day or polling place. The politics of some big city elections were so corrupt that the phrase 
+
+“vote early, vote often” was taken literally. Corruption and honest human errors affect accuracy in all 
+
+elections—electronic or not.SIDEBAR 13-3 Internet-Enabled Voting in Estonia
+Estonia has a relatively high proportion of Internet-enabled government 
+interaction, so it is natural for them to experiment with electronic voting. 
+
+Beginning in 2001 plans were laid for allowing electronic balloting as an 
+
+option. In 2005 they held the world’s first Internet-enabled election, in 
+
+which 1.9 percent of votes cast were done over the Internet. The figure has 
+
+steadily risen to 21 percent in 2013.
+A team of international observers monitored the 2013 election. The 
+Estonian officials cooperated fully, making the entire process, including 
+
+source code and test machinery, available to the inspectors. The team’s 
+
+report [HAL14] details weaknesses from poor oversight of and faulty pro-
+
+cedures in the voting system, potentially allowing introduction of malware 
+
+that could disrupt an entire election or replace one vote with another. The 
+
+positive interpretation of this thorough analysis is that it serves as a good 
+
+example of both positive and negative practices from which other political 
+
+entities can learn.

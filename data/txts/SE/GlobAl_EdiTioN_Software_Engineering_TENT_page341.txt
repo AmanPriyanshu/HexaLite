@@ -1,0 +1,41 @@
+˜˜˚˛˜˜˜˜
+˜˜
+More recent work by Veras et al. (Veras et al. 2010) in space systems confirms that requirements errors are still a major problem for embedded systems.3. Hardware malfunctions may cause sensors and actuators to behave in an unpre-
+dictable way. When components are close to physical failure, they may behave 
+
+erratically and generate signals that are outside the ranges that can be handled by 
+
+the software. The software may then either fail or wrongly  interpret these signals.4. The system operators may generate inputs that are not individually incorrect but 
+that, in some situations, can lead to a system malfunction. An anecdotal exam-
+ple of this occurred when an aircraft undercarriage collapsed while the aircraft 
+was on the ground. Apparently, a technician pressed a button that instructed the 
+utility management software to raise the undercarriage. The software carried out 
+the mechanic™s instruction perfectly. However, the system should have disal-
+lowed the command unless the plane was in the air.Therefore, safety has to be considered as well as reliability when developing 
+safety-critical systems. The reliability engineering techniques that I introduced in 
+
+Chapter 11 are obviously applicable for safety-critical systems engineering. I there-
+fore do not discuss system architectures and dependable programming here but 
+
+instead focus on techniques for improving and assuring system safety.
+Safety-critical systems are systems in which it is essential that system operation is 
+
+always safe. That is, the system should never damage people or the system™s environ-
+ment, irrespective of whether or not the system conforms to its specification. Examples 
+
+of safety-critical systems include control and monitoring systems in aircraft, process 
+
+control systems in chemical and pharmaceutical plants, and automobile control systems.Safety-critical software falls into two classes:1. Primary safety-critical software This is software that is embedded as a control-
+ler in a system. Malfunctioning of such software can cause a hardware malfunc-
+tion, which results in human injury or environmental damage. The insulin pump 
+
+software that I introduced in Chapter 1 is an example of a primary safety-critical system. System failure may lead to user injury. The insulin pump system is a simple system, but software control is also used in 
+very complex safety-critical systems. Software rather than hardware control is 
+essential because of the need to manage large numbers of sensors and actuators, 
+which have complex control laws. For example, advanced, aerodynamically 
+
+unstable, military aircraft require continual software-controlled adjustment of 
+
+their flight surfaces to ensure that they do not crash.2. Secondary safety-critical software This is software that can indirectly result in an 
+
+injury. An example of such software is a computer-aided engineering design system 

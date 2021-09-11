@@ -1,0 +1,69 @@
+518 PART THREE  
+QUALITY MANAGEMENTwhen a real-time system is in one state will result in proper processing, while the same data provided when the system is in a different state may lead to error. 
+ For example, the real-time software that controls a new photocopier accepts operator interrupts (i.e., the machine operator hits control keys such as R ESET  or D ARKEN ) with no error when the machine is making copies (in the  copying 
+ state). 
+These same operator interrupts, if input when the machine is in the  jammed 
+ state, cause a display of the diagnostic code indicating the location of the jam to 
+be lost (an error).  In addition, the intimate relationship that exists between real-time software and its hardware environment can also cause testing problems. Software tests 
+must consider the impact of hardware faults on software processing. Such faults 
+can be extremely difﬁ cult to simulate realistically. 
+  
+ 
+An overall four-step strategy for real-time software testing can be proposed:
+ 
+ 
+ 
+ 
+•   
+Task testing.
+ 
+ Test each task independently. That is, conventional tests 
+are designed for each task and executed independently during these 
+tests. Task testing uncovers errors in logic and function but not timing or 
+
+behavior. 
+  
+ 
+ 
+•   
+Behavioral testing. 
+ Using system models created with automated tools, it is possible to simulate the behavior of a real-time system and examine 
+its behavior as a consequence of external events. These analysis activities 
+can serve as the basis for the design of test cases that are conducted when 
+the real-time software has been built. Using a technique that is similar to 
+equivalence partitioning (Section 23.6.2), events (e.g., interrupts, control 
+signals) are categorized for testing. For example, events for the photo-
+copier might be user interrupts (e.g., reset counter), mechanical inter-
+
+rupts (e.g., paper jammed), system interrupts (e.g., toner low), and failure 
+modes (e.g., roller overheated). Each of these events is tested individually, 
+
+and the behavior of the executable system is examined to detect errors 
+that occur as a consequence of processing associated with these events.   
+ 
+ 
+•   
+Intertask testing. 
+ Once errors in individual tasks and in system behavior have 
+been isolated, testing shifts to time-related errors. Asynchronous tasks that 
+
+are known to communicate with one another are tested with different data 
+
+rates and processing load to determine if intertask synchronization errors 
+
+will occur. In addition, tasks that communicate via a message queue or data 
+
+store are tested to uncover errors in the sizing of these data storage areas. 
+  
+ 
+ 
+•   
+System testing. 
+ Software and hardware are integrated, and a full range of system tests are conducted in an attempt to uncover errors at the 
+software-hardware interface. Most real-time systems process interrupts. 
+Therefore, testing the handling of these Boolean events is essential. 
+Using the state diagram (Chapter 11), the tester develops a list of all 
+possible interrupts and the processing that occurs as a consequence of  What is an 
+effective strategy for 
+testing a real-time 
+system? ?pre22126_ch23_496-522.indd   518pre22126_ch23_496-522.indd   51813/12/13   6:14 PM13/12/13   6:14 PM

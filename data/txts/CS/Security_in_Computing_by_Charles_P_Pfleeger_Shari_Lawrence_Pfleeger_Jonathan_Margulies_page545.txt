@@ -1,0 +1,79 @@
+ Section 7.2  Security Requirements of Databases 
+511  As we note in Chapter 2, granularity can become an impediment in auditing. Audited 
+events in operating systems are actions like 
+open file
+ or 
+call procedure
+; they are seldom 
+as specific as 
+write record
+ 3 or 
+execute instruction
+ I. To be useful for maintaining integ-
+rity, database audit trails should include accesses at the record, field, and even element 
+
+levels. This detail is prohibitive for most database applications.
+Furthermore, the database management system may access a record but not report 
+the data to a user, as when the user performs a 
+select operation. For example, a residence 
+hall advisor might want a count of all students who have failed elementary French, and 
+
+the database management system reports 462. To get that number the system had to 
+
+inspect all student records and note those with failing grades, and it performed this 
+
+lookup on behalf of the advisor who is appropriately listed in the log as receiving the 
+
+data. Thus, in a sense, the advisor accessed all those student grades, although from the 
+
+number 462 the advisor cannot determine the grade of any individual student. (Access-
+
+ing a record or an element without transferring to the user the data received is called the 
+
+pass-through problem
+.) Thus, a log of all records accessed directly may both overstate 
+and understate what a user actually learns. The problem is even more nuanced than what 
+
+we describe here, and we consider some intricacies of disclosure later in this chapter.
+Access Control
+Databases are often separated logically by user access privileges. For example, all users 
+
+can be granted access to general data, but only the personnel department can obtain sal-
+
+ary data and only the marketing department can obtain sales data. Databases are useful 
+
+because they centralize the storage and maintenance of data. Limited access is both a 
+
+responsibility and a benefit of this centralization.
+The database administrator specifies who should be allowed access to which data, 
+at the view, relation, field, record, or even element level. The DBMS must enforce this 
+
+policy, granting access to all specified data or no access where prohibited. Furthermore, 
+
+the number of modes of access can be many. A user or program may have the right to 
+
+read, change, delete, or append to a value, add or delete entire fields or records, or reor-
+
+ganize the entire database.Superficially, access control for a database seems like access control for an operating 
+system or any other component of a computing system. However, the database problem 
+
+is more complicated, as we see throughout this chapter. Operating system objects, such 
+
+as files, are unrelated items, whereas records, fields, and elements are related. Although 
+
+a user probably cannot determine the contents of one file by reading others, a user might 
+
+be able to determine one data element just by reading others. The problem of obtain-
+
+ing data values from others is called 
+inference
+, and we consider it in depth later in this chapter.
+It is important to notice that you can access data by inference without needing direct access to the secure object itself. Restricting inference may mean prohibiting certain 
+
+paths to prevent possible inferences. However, restricting access to control inference 
+
+also limits queries from users who do not intend unauthorized access to values. More-
+
+over, attempts to check requested accesses for possible unacceptable inferences may 
+
+actually degrade the DBMS’s performance.

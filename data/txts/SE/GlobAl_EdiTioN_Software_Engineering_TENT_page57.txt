@@ -1,0 +1,45 @@
+Most software interfaces with other software systems. These other systems 
+include the operating system, database, middleware, and other application systems. 
+These make up the ﬁsoftware platform,™ the environment in which the software will 
+execute. Information about this platform is an essential input to the design process, 
+as designers must decide how best to integrate it with its environment. If the system 
+is to process existing data, then the description of that data may be included in the 
+platform specification. Otherwise, the data description must be an input to the design 
+process so that the system data organization can be defined.The activities in the design process vary, depending on the type of system being 
+developed. For example, real-time systems require an additional stage of timing design 
+
+but may not include a database, so there is no database design involved. Figure 2.5 
+shows four activities that may be part of the design process for information systems:1. Architectural design, where you identify the overall structure of the system, the principal components (sometimes called subsystems or modules), their relation-
+ships, and how they are distributed.2. Database design, where you design the system data structures and how these are 
+to be represented in a database. Again, the work here depends on whether an 
+
+existing database is to be reused or a new database is to be created.3. Interface design, where you define the interfaces between system components. 
+This interface specification must be unambiguous. With a precise interface, a 
+
+component may be used by other components without them having to know 
+
+how it is implemented. Once interface specifications are agreed, the compo-
+nents can be separately designed and developed.4. Component selection and design, where you search for reusable components 
+
+and, if no suitable components are available, design new software components. 
+The design at this stage may be a simple component description with the imple-
+mentation details left to the programmer. Alternatively, it may be a list of 
+
+changes to be made to a reusable component or a detailed design model 
+
+expressed in the UML. The design model may then be used to automatically 
+
+generate an implementation.These activities lead to the design outputs, which are also shown in Figure 
+2.5. For critical systems, the outputs of the design process are detailed design documents 
+setting out precise and accurate descriptions of the system. If a model-driven 
+
+approach is used (Chapter 5), the design outputs are design diagrams. Where agile 
+methods of development are used, the outputs of the design process may not be 
+
+separate specification documents but may be represented in the code of the program.The development of a program to implement a system follows naturally from 
+system design. Although some classes of program, such as safety-critical systems, 
+are usually designed in detail before any implementation begins, it is more common 
+for design and program development to be interleaved. Software development tools 
+may be used to generate a skeleton program from a design. This includes code to 
+˜˜˚˜˜˜˜
+˜˜

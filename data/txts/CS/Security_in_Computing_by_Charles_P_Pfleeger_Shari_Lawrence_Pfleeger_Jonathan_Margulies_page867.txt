@@ -1,0 +1,71 @@
+ Section 13.2  Economics 
+833  For example, they have examined the effects of basing price on the number and kind 
+of previous interactions with customers, as described in Chapter 9. They found that “if 
+
+consumer valuations change for subsequent purchases, perhaps due to the provision 
+
+of personalized enhanced services, the seller may find it profitable to condition prices 
+
+on purchase history.” [ACQ05] Many researchers are interested in the balance among 
+
+personal, business, and societal costs and benefits. On his website, Acquisti asks, “Is 
+
+there a sweet spot that satisfies the interests of all parties?” (http://www.heinz.cmu 
+
+.edu/~acquisti/economics-privacy.htm)
+Economics and IntegrityMany researchers are investigating the economic trade-offs involved in sharing infor-
+mation about vulnerabilities. Eric Rescorla [RES04] explains that because there are 
+
+so many flaws in large software products, the removal of a single flaw makes no real 
+
+difference; a malicious actor will simply find another flaw to exploit. He suggests that 
+
+disclosure of a flaw’s presence before it is patched encourages the malicious behavior 
+
+in the first place. However, Ashish Arora and Rahul Telang [ARO05] argue in favor of 
+
+disclosure. Their models suggest that without disclosure, there is no incentive for soft-
+
+ware vendors to find and patch the problems. Although disclosure increases the number 
+
+of attacks, the vendors respond rapidly to each disclosure, and the number of reported 
+
+flaws decreases over time. Interestingly, their analysis of real data reveals that open 
+
+source projects fix problems more quickly than do proprietary vendors, and large com-
+
+panies fix them more quickly than do small ones. 
+Economics and RegulationThere is always heated argument between those who think the marketplace will eventu-
+ally address and solve its own problems, and those who want a government entity to 
+
+step in and regulate in some way. In security, these arguments arise over issues like 
+
+spam, digital rights management, and securing the critical information infrastructure. 
+Many researchers are investigating aspects of the cyber marketplace to see whether 
+
+regulation is needed.
+Consider spam: If most people had a highly effective spam filter, almost all spam 
+would be filtered out before it appeared in the inbox, so the usefulness of spam would 
+
+be greatly reduced to the sender and the volume of spam would therefore drop. In a 
+
+marketplace, when some (but not all) members take an action that benefits everyone, 
+
+the ones who do not take the action are said to get a 
+free ride
+. For example, if most 
+people are vaccinated for an illness, then those who choose not to be vaccinated still 
+
+benefit from the slowed progress of the disease because the disease does not spread 
+
+rapidly through the vaccinated majority. In the same way, market regulation—requiring 
+
+all users to employ a spam filter—could rid the world of spam. But lack of regulation, 
+
+or some degree of free riding, might be good enough. Hal Varian has been investigating 
+
+the effects of free riding on overall system reliability.
+Many researchers investigating spam invoke economic models to suggest market-
+based solutions to reducing unwanted electronic mail. For example, paying a small 
+
+price for each email message—called a micropayment—would generate negligible 

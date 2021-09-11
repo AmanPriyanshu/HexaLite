@@ -1,0 +1,65 @@
+ Section 9.6  Email Security 
+633  What started as a simple case of mail from Janet to Scott can easily involve at least 
+six parties: (a) Janet and her computer, (b) Janet’s organization’s SMTP server, (c) 
+
+Janet’s organization’s ISP, (d) the ISP connecting to Scott’s POP server, (e) Scott’s POP 
+
+server, and (f) Scott and his computer. For now, we are most interested in the four 
+
+middle parties: (b), (c), (d), and (e). Any of them can log the fact it was sent or can even 
+
+keep a copy of the message.
+Interception of Email
+Email is subject to the same inter-
+
+ception risks as other web traffic: 
+
+While in transit on the Internet, 
+
+email is open for any interceptor 
+
+to read.In Chapter 4 we described techniques for encrypting email. In particular, S/MIME 
+and PGP are two widely used email protection programs. S/MIME and PGP are avail-
+
+able for popular mail handlers such as Outlook, Mail (from Apple), Thunderbird, and 
+
+others. These products protect email from the client’s workstation through mail agents, 
+
+across the Internet, and to the recipient’s workstation. That protection is considered end-
+
+to-end, meaning from the sender to the recipient. Encrypted email protection is subject 
+to the strength of the encryption and the security of the encryption protocol. A virtual private network, described in Chapter 6, can protect data on the connection 
+between a client’s workstation and some edge point, usually a router or firewall, at the 
+
+organization to which the client belongs. For a corporate or government employee or a 
+
+university student, communication is protected just up to the edge of the corporate, gov-
+
+ernment, or university network. Thus, with a virtual private network, email is protected 
+
+only from the sender to the sender’s office, not even up to the sender’s mail agent, and 
+
+certainly not to the recipient.Some organizations routinely copy all email sent from their computers. The many 
+purposes for these copies include using the email as evidence in legal affairs and moni-
+
+toring the email for inappropriate content.Monitoring EmailIn many countries, companies and government agencies can legitimately monitor their 
+
+employees’ email use. Similarly, schools and libraries can monitor their students’ or 
+
+patrons’ computer use. Network administrators and ISPs can monitor traffic for normal 
+
+business purposes, such as to measure traffic patterns or to detect spam. Organizations 
+
+usually must advise users of this monitoring, but the notice can be a small sidebar in 
+
+a personnel handbook or the fine print of a service contract. Organizations can use the 
+
+monitoring data for any legal purpose, for example, to investigate leaks, to manage 
+
+resources, or to track user behavior. 
+Network users should have no expectation of privacy in their email or general com-
+puter use.Email is subject to interception and 
+
+modification at many points from 
+
+sender to recipient.

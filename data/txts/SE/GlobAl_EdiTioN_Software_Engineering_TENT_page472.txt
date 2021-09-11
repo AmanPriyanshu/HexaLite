@@ -1,0 +1,37 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜For components that are executable routines rather than external services, the 
+component model defines the services to be provided by the middleware that 
+ supports the executing components. Weinreich and Sametinger use the analogy of an operating system to explain component models. An operating system provides a set 
+
+of generic services that can be used by applications. A component model implemen-
+tation provides comparable shared services for components. Figure 16.5 shows some 
+of the services that may be provided by an implementation of a component model.The services provided by a component model implementation fall into two 
+categories:1. Platform services
+, which enable components to communicate and interoperate 
+in a distributed environment. These are the fundamental services that must be 
+available in all component-based systems.2. Support services, which are common services that many different components 
+are likely to require. For example, many components require authentication to 
+ensure that the user of component services is authorized. It makes sense to 
+ provide a standard set of middleware services for use by all components. This 
+
+reduces the costs of component development, and potential component incom-
+patibilities can be avoided.Middleware implements the common component services and provides interfaces to 
+them. To make use of the services provided by a component model infrastructure, you 
+
+can think of the components as being deployed in a ﬁcontainer.ﬂ A container is an imple-mentation of the support services plus a definition of the interfaces that a component 
+
+must provide to integrate it with the container. Conceptually, when you add a com-ponent to the container, the component can access the support services and the container 
+
+can access the component interfaces. When in use, the component interfaces themselves 
+
+are not accessed directly by other components. They are accessed through a container 
+
+interface that invokes code to access the interface of the embedded component.Containers are large and complex and, when you deploy a component in a con-tainer, you get access to all middleware services. However, simple components may 
+Platform servicesAddressingInterface
+definitionComponentcommunicationsExceptionmanagementSupport services
+SecurityTransaction
+managementConcurrencyComponentmanagementPersistence
+ResourcemanagementFigure 16.5  Middleware 
+services defined in a 
+
+component model 

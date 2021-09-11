@@ -1,0 +1,58 @@
+ Section 13.3  Electronic Voting 
+839  Furthermore, as you are well aware by this point, Internet voting systems are open 
+to attacks impossible with paper systems. For example, J. Alex Halderman and his stu-
+
+dents were asked to review the Washington D.C. Internet voting system for casting 
+
+absentee ballots, which would be quite convenient for people stationed overseas, such 
+
+as soldiers on active duty. Within 36 hours of first access to a test version of the system, 
+
+the team was able to completely compromise the system: They could discard ballots 
+
+already cast and forge new ones at will, and they could associate any ballot with the 
+
+identity of the person who cast it [HAL10]. Their attack used a simple instance of the 
+
+classic script injection attack we describe in Chapter 4.In this book, we often encourage you to think like an attacker. What kinds of attacks 
+might one perpetrate on an electronic voting process?
+Secrecy
+How might an attacker reveal someone’s vote? Consider how program flaws could, 
+for example, print two copies of the vote recorded: one that the voter picks up and 
+SIDEBAR 13-4 California’s Top-to-Bottom Review
+Over the decade from the mid-1990s to the mid-2000s, many jurisdictions 
+migrated from a paper-based balloting process to some form of electronic 
+
+voting. But as they did so, a variety of malfunctions were reported both in 
+
+the voting machines and the process that incorporated them. As a con-
+
+sequence, in May 2007, California’s Secretary of State ordered a “top-to-
+
+bottom review” of the electronic voting process in California. Led by Matt 
+
+Bishop of the University of California Davis and Richard Kemmerer of the 
+
+University of California Santa Barbara, the teams analyzed electronic voting 
+
+in several ways:• They performed a security evaluation of all source code for the four 
+types of voting machines then in use in the state: Diebold (now Pre-
+
+mier) Election Systems, Hart InterCivic, Sequoia Voting Systems, and 
+
+Elections Systems and Software, Inc.
+• For each type of voting machine, they thoroughly reviewed the docu-
+mentation provided by the manufacturer.
+• They investigated the ability of each machine to meet requirements 
+for accessibility, including provision of the ballot in a variety of foreign 
+
+languages.• They formed “red teams” to perform penetration testing on each 
+machine and process. Acting as though it were election day, the 
+
+teams attempted to identify vulnerabilities that could allow tampering 
+with votes or lead to errors in the results.
+The teams found significant flaws in each of the systems—flaws that could be exploited by someone who need not have expertise in computer 
+
+security but who could compromise the result of an election. As a result, the 
+
+Secretary of State decertified usage of each machine being studied.

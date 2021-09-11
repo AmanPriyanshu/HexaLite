@@ -1,0 +1,64 @@
+ Section 12.2  Symmetric Encryption Algorithms 
+779  • It has been analyzed by competent experts and found to be sound.
+ Even the best 
+cryptographic experts can think of only so many possible attacks, and the devel-
+
+opers may become too convinced of the strength of their own algorithm. Thus, a 
+
+review by critical outside experts is essential.
+• It has stood the “test of time.”
+ As a new algorithm gains popularity, people con-
+tinue to review both its mathematical foundations and the way it builds upon 
+
+those foundations. Although a long period of successful use and analysis is not 
+
+a guarantee of a good algorithm, the flaws in many algorithms are discovered 
+
+relatively soon after their release.
+Three algorithms are popular in the commercial world: DES (data encryption stan-
+dard), RSA (Rivest–Shamir–Adelman, named after the inventors), and AES (advanced 
+
+encryption standard). These three (as well as others) meet our criteria for commercial-
+
+grade encryption. In the next sections we cover DES, AES, and RSA, three algorithms 
+
+outlined in Chapter 2. In this chapter we delve more deeply into the internal structures. 
+
+We do not go into complete detail on these algorithms because the referenced defining 
+
+documents do that well, as well as elaborating on design choices and rationale for any 
+
+interested readers.12.2 SYMMETRIC ENCRYPTION ALGORITHMS
+For centuries, national military and diplomatic services have used cryptography to pro-
+
+tect their secrets. In fact, the history of cryptography (beautifully told in David Kahn’s 
+
+book [KAH96] or the abbreviated version [KAH67], if you can find it) almost exclu-
+
+sively involves governments protecting things from other governments.
+As digital computers became popular, companies who used those computers found 
+they needed to protect data against exposure to competitors, as well as to ensure their 
+
+workers’ privacy. And, as networking became more popular, they needed to prevent 
+
+problems from faulty transmissions. So, for reasons of confidentiality and integrity, 
+
+businesses and even some individuals began to search for encryption. Recognizing that 
+
+lack of reliably high quality encryption would hold back commerce, the U.S. Depart-
+
+ment of Commerce, through its National Bureau of Standards, took steps to make solid 
+
+encryption available for industry.
+DESThe Data Encryption Standard grew out of a project developed by IBM, which was at 
+
+the time probably the largest supplier of mainframe computers to private industry. IBM 
+
+figured that many of its customers would find encryption useful.
+Background and History
+In the early 1970s, the U.S. National Bureau of Standards (NBS), later renamed the 
+National Institute for Standards and Technology (NIST), recognized that the general 
+
+public needed a secure encryption technique for protecting sensitive information. 
+
+Historically, the U.S. Department of Defense and the Department of State had had 

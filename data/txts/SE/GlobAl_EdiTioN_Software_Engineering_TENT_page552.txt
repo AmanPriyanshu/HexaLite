@@ -1,0 +1,52 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜A computer only becomes useful when it includes both software and hardware. 
+Without hardware, a software system is an abstractionŠsimply a representation of 
+some human knowledge and ideas. Without software, a hardware system is a set of 
+inert electronic devices. However, if you put them together to form a computer sys-
+tem, you create a machine that can carry out complex computations and deliver the 
+results of these computations to its environment.This illustrates one of the fundamental characteristics of a system: It is more than the 
+sum of its parts. Systems have properties that only become apparent when their compo
+-nents are integrated and operate together. Furthermore, systems are developed to sup-port human activitiesŠwork, entertainment, communication, protection of people and 
+
+the environment, and so on. They interact with people, and their design is influenced by 
+
+human and organizational concerns. Hardware, human, social, and organizational fac-tors have to be taken into account when developing all professional software systems.Systems that include software fall into two categories:1. Technical computer-based systems are systems that include hardware and soft-
+ware components but not procedures and processes. Examples of technical 
+ systems include televisions, mobile phones, and other equipment with embed-
+ded software. Applications for PCs, computer games, and mobile devices are 
+
+also technical systems. Individuals and organizations use technical systems for a 
+particular purpose, but knowledge of this purpose is not part of the technical 
+
+system. For example, the word processor I am using (Microsoft Word) is not 
+
+aware that it is being used to write a book.2 Sociotechnical systems: include one or more technical systems but, crucially, also 
+
+people, who understand the purpose of the system, within the system itself. 
+
+Sociotechnical systems have defined operational processes, and people (the opera
+-
+tors) are inherent parts of the system. They are governed by organizational policies 
+
+and rules and may be affected by external constraints such as national laws and regu-
+latory policies. For example, this book was created through a sociotechnical publish-
+ing system that includes various processes (creation, editing, layout, etc.) and 
+
+technical systems (Microsoft Word and Excel, Adobe Illustrator, InDesign, etc.).Systems engineering (White et al. 1993; Stevens et al. 1998; Thayer 2002) is the 
+activity of designing entire systems, taking into account the characteristics of hardware, 
+
+software, and human elements of these systems. Systems engineering includes every-
+thing to do with procuring, specifying, developing, deploying, operating, and maintain
+-
+ing both technical and sociotechnical systems. Systems engineers have to consider the 
+
+capabilities of hardware and software as well as the system™s interactions with users 
+
+and its environment. They must think about the system™s services, the constraints under 
+
+which the system must be built and operated, and the ways in which the system is used.In this chapter, my focus is on the engineering of large and complex software-intensive systems. These are ﬁenterprise systems,ﬂ that is, systems that are used to 
+
+support the goals of a large organization. Enterprise systems are used by govern
+-
+ment and the military services as well as large companies and other public bodies. 

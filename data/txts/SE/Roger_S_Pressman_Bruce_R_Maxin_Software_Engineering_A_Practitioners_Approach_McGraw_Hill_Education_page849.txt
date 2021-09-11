@@ -1,0 +1,78 @@
+CHAPTER 37  
+SOFTWARE PROCESS IMPROVEMENT
+ 819 
+ 
+ 
+Although those words were written almost three decades ago, they remain equally true today. 
+ 
+ 
+ 
+   
+Today, virtually every major software engineering organization has attempted 
+to “make software engineering happen.” Some have implemented individual 
+practices that have helped to improve the quality of the product they build and 
+the timeliness of their delivery. Others have established a “mature” software pro-
+
+cess that guides their technical and project management activities. But others 
+continue to struggle. Their practices are hit-and-miss, and their process is ad 
+hoc. Occasionally, their work is spectacular, but in the main, each project is an 
+
+adventure, and no one knows whether it will end badly or well.  So, which of these two cohorts needs software process improvement? The answer (which may surprise you) is  both. 
+ Those that have succeeded in mak-
+ing software engineering happen cannot become complacent. They must work 
+continually to improve their approach to software engineering. And those that 
+struggle must begin their journey down the road toward improvement.   
+ 
+ 
+ 
+ 37.1  
+WHAT
+ IS SPI?  
+ 
+  
+ 
+The term  software process improvement
+ 
+ (SPI) implies many things. First, it im-
+plies that elements of an effective software process can be deﬁ ned in an effective 
+manner; second, that an existing organizational approach to software develop-
+ment can be assessed against those elements; and third, that a meaningful strat-
+egy for improvement can be deﬁ ned. The SPI strategy transforms the existing 
+approach to software development into something that is more focused, more 
+repeatable, and more reliable (in terms of the quality of the product produced 
+and the timeliness of delivery).  Because SPI is not free, it must deliver a return on investment. The effort and time that is required to implement an SPI strategy must pay for itself in some 
+measurable way. To do this, the results of improved process and practice must 
+
+lead to a reduction in software “problems” that cost time and money. It must re-
+
+duce the number of defects that are delivered to end users, reduce the amount 
+of rework due to quality problems, reduce the costs associated with software 
+maintenance and support (Chapter 36), and reduce the indirect costs that occur 
+when software is delivered late.   
+ 
+37.1.1   
+Approaches to SPI 
+ 
+Although an organization can choose a relatively informal approach to SPI, the vast majority choose one of a number of SPI frameworks. An  SPI framework 
+ de-
+ﬁ nes (1) a set of characteristics that must be present if an effective software pro-
+cess is to be achieved, (2) a method for assessing whether those characteristics 
+are present, (3) a mechanism for summarizing the results of any assessment, and    SPI implies a deﬁ ned 
+software process, 
+an organizational 
+ approach, and 
+
+a  strategy for 
+
+improvement.   uote:  “Much of the 
+software crisis is 
+self-inﬂ icted, as 
+
+when a CIO says, 
+‘I’d rather have it 
+wrong than have it 
+late. We can always 
+
+ﬁ x it later.’” 
+ Mark Paulk 
+pre22126_ch37_817-838.indd   819pre22126_ch37_817-838.indd   81913/12/13   6:17 PM13/12/13   6:17 PM

@@ -1,0 +1,30 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜to the system in a controlled way, you need a set of tool-supported, change manage-ment processes. Change management is intended to ensure that the evolution of the 
+
+system is controlled and that the most urgent and cost-effective changes are prioritized.
+Change management is the process of analyzing the costs and benefits of pro
+-posed changes, approving those changes that are cost-effective, and tracking which 
+components in the system have been changed. Figure 25.14 is a model of a change 
+management process that shows the main change management activities. This pro-
+cess should come into effect when the software is handed over for release to custom-
+ers or for deployment within an organization.Many variants of this process are in use depending on whether the software is a cus-tom system, a product line, or an off-the-shelf product. The size of the company also 
+
+makes a differenceŠsmall companies use a less formal process than large companies 
+
+that are working with corporate or government customers. However, all change manage
+-
+ment processes should include some way of checking, costing, and approving changes.Tools to support change management may be relatively simple issue or bug track-ing systems or software that is integrated with a configuration management package 
+
+for large-scale systems, such as Rational Clearcase. Issue tracking systems allow any
+-
+one to report a bug or make a suggestion for a system change, and they keep track of 
+
+how the development team has responded to the issues. These systems do not impose 
+
+a process on the users and so can be used in many different settings. More complex 
+
+systems are built around a process model of the change management process. They 
+ChangerequestsSubmitCRCheck CRClose CRImplementationanalysisCost/impactanalysisAssess CRsSelect CRsModifysoftwareTest software
+Close CRClose CRsValidInvalidPassFailCustomerCustomer supportDevelopmentProduct development/CCBRegister CR
+Figure 25.14 The change management 
+process

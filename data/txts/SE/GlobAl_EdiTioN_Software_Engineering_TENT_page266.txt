@@ -1,0 +1,48 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜For new software systems developed using modern software engineering processes, 
+such as agile development and software product lines, it is possible to plan how to 
+
+integrate system development and evolution. More and more companies understand 
+
+that the system development process is a whole life-cycle process. Separating soft-
+ware development and software evolution is unhelpful and leads to higher costs. 
+
+However, as I have discussed, there is still a huge number of legacy systems that are 
+
+critical business systems. These have to be extended and adapted to changing 
+
+e-business practices.Most organizations have a limited budget for maintaining and upgrading their 
+portfolio of legacy systems. They have to decide how to get the best return on their 
+
+investment. This involves making a realistic assessment of their legacy systems and 
+then deciding on the most appropriate strategy for evolving these systems. There are 
+four strategic options:1. Scrap the system completely This option should be chosen when the system is not making an effective contribution to business processes. This usually occurs 
+
+when business processes have changed since the system was installed and are 
+no longer reliant on the legacy system.2. Leave the system unchanged and continue with regular maintenance 
+This option 
+should be chosen when the system is still required but is fairly stable and the 
+system users make relatively few change requests.3. Reengineer the system to improve its maintainability This option should be chosen 
+
+when the system quality has been degraded by change and where new change to 
+
+the system is still being proposed. This process may include developing new inter-face components so that the original system can work with other, newer systems.4. Replace all or part of the system with a new system This option should be chosen 
+
+when factors, such as new hardware, mean that the old system cannot continue 
+
+in operation, or where off-the-shelf systems would allow the new system to be 
+
+developed at a reasonable cost. In many cases, an evolutionary replacement 
+
+strategy can be adopted where major system components are replaced by off-
+the-shelf systems with other components reused wherever possible.When you are assessing a legacy system, you have to look at it from both a busi-ness perspective and a technical perspective (Warren 1998). From a business 
+ perspective, you have to decide whether or not the business really needs the system. 
+From a technical perspective, you have to assess the quality of the application soft
+-
+ware and the system™s support software and hardware. You then use a combination 
+of the business value and the system quality to inform your decision on what to do 
+with the legacy system.For example, assume that an organization has 10 legacy systems. You should 
+assess the quality and the business value of each of these systems. You may then 
+
+create a chart showing relative business value and system quality. An example of 

@@ -1,0 +1,26 @@
+˜˚˛˝ˆ˜˜˜˜˜˜˜˜˜˜
+In Section 17.2, I explained the general organization of clientŒserver systems in which 
+part of the application system runs on the user™s computer (the client), and part runs 
+
+on a remote computer (the server). I also presented a layered application model 
+
+(Figure 17.
+6) where the different layers in the system may execute on different 
+ computers.A two-tier clientŒserver architecture is the simplest form of clientŒserver archi-tecture. The system is implemented as a single logical server plus an indefinite num-
+ber of clients that use that server. This is illustrated in Figure 17.8, which shows two 
+forms of this architectural model:1. A thin-client model, where the presentation layer is implemented on the client and all other layers (data handling, application processing, and database) are 
+
+implemented on a server. The client presentation software is usually a web 
+
+browser, but apps for mobile devices may also be available.2. A fat-client model, where some or all of the application processing is carried out 
+on the client. Data management and database functions are implemented on the 
+server. In this case, the client software may be a specially written program that 
+is tightly integrated with the server application.The advantage of the thin-client model is that it is simple to manage the clients. This becomes a major issue when there are a large number of clients, as it may be 
+difficult and expensive to install new software on all of them. If a web browser is 
+used as the client, there is no need to install any software.The disadvantage of the thin-client approach, however, is that it places a heavy processing load on both the server and the network. The server is responsible for all 
+computation, which may lead to the generation of significant network traffic between 
+the client and the server. Implementing a system using this model may therefore 
+
+require additional investment in network and server capacity.The fat-client model makes use of available processing power on the computer running the client software, and distributes some or all of the application processing Thin-clientmodelFat-client
+modelClientClientServerDatabaseData managementApplication processingPresentationServerDatabaseData managementPresentationApplication processingFigure 17.8 Thin- and fat-client architectural 
+models 

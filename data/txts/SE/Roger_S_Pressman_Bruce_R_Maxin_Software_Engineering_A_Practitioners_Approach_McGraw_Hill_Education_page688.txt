@@ -1,0 +1,85 @@
+658 PART 
+THREE  QUALITY MANAGEMENTconsideration (e.g., a metric that measures module cohesion should increase in 
+value as the level of cohesion increases). The metric should always yield results 
+that are unambiguous. The mathematical computation of the metric should use 
+measures that do not lead to bizarre combinations of units. For example, multi-
+plying people on the project teams by programming language variables in the 
+program results in a suspicious mix of units that are not intuitively persuasive. 
+Metrics should be based on the requirements model, the design model, or the 
+structure of the program itself. They should not be dependent on the vagaries of 
+programming language syntax or semantics. Finally, the metric should provide 
+
+you with information that can lead to a higher-quality end product. 
+ Although many software metrics satisfy all of these attributes, some commonly used metrics may fail to satisfy one or two of them. One example is the function 
+point (discussed in Section 30.2.1)—a measure of the “functionality” delivered by 
+the software. It can be argued that an independent third party may not be able to 
+derive the same function point value as a colleague using the same information 
+about the software.  3  
+ Should we therefore reject the function point measure? The answer is of course not! FP provides useful insight and therefore provides dis-
+tinct value, even if it fails to satisfy one attribute perfectly.      
+  3  An equally vigorous counterargument can be made. Such is the nature of software metrics. 
+  Debating Product Metrics   Debating Product Metrics 
+  The scene: 
+ Vinod’s cubicle. 
+  The players: 
+ Vinod, Jamie, and Ed—members of the 
+ SafeHome  software engineering team who are continu-ing work of component-level design and test-case design. 
+
+  The conversation:  
+
+  Vinod: 
+ Doug [Doug Miller, software engineering man-
+ager] told me that we should all use product metrics, 
+but he was kind of vague. He also said that he wouldn’t 
+
+
+  Jamie: 
+ That’s good, ‘cause there’s no way I have time 
+to start measuring stuff. We’re ﬁ ghting to maintain the 
+
+schedule as it is. 
+  Ed: 
+ I agree with Jamie. We’re up against it, 
+
+  Vinod: 
+ Yeah, I know, but there’s probably some merit 
+to using them. 
+  Jamie: 
+ I’m not arguing that, Vinod, it’s a time 
+t have any to spare. 
+
+  Vinod: 
+ But what if measuring saves you time? 
+  Ed: 
+ W
+  Vinod: 
+ 
+  Jamie: 
+ How?   Vinod: 
+ s how. If a measure we use 
+helps us to avoid one major or even moderate problem, 
+and that saves us from having to rework a part of the 
+
+system, we save time. No? 
+  Ed: 
+ It’s possible, I suppose, but can you guarantee that 
+some product metric will help us ﬁ nd a problem? 
+
+  Vinod: 
+ Can you guarantee that it won’t? 
+  Jamie: 
+ So what are you proposing?” 
+  Vinod: 
+ I think we should select a few design metrics, 
+probably class-oriented, and use them as part of our 
+
+review process for every component we develop. 
+
+  Ed: 
+ I’m not real familiar with class-oriented metrics. 
+  Vinod: 
+ I’ll spend some time checking them out and 
+
+ [Ed and Jamie nod without much enthusiasm.]  
+ S
+AFEHOME 

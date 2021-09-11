@@ -1,0 +1,65 @@
+398 Chapter 6  
+NetworksConfidentiality and integrity tend to be binary: Data or objects either are or are not 
+kept private and unmodified; availability can be more nuanced, in that there may be 
+
+service but in insufficient quantity or at unacceptable responsiveness. You know that a 
+
+web page takes a few seconds to load, but as time passes you become more frustrated 
+
+or suspicious that it will never display; then, suddenly it appears and you wonder why it 
+
+took so long. Thus, denial of service ranges from complete loss of access to noticeable 
+
+and unacceptable slowing to inconvenience.
+How Service Is DeniedIn this section we describe what causes denial of service. Many causes are nonmalicious 
+
+and often sporadic and spontaneous, so little can be done about them. We focus on the 
+
+malicious causes because those are the ones that can be dealt with. Fortunately, several 
+
+classes of countermeasures are effective against malicious denial-of-service attacks. 
+
+First, we consider some of the causes.Think for a moment about how you might deny access in a computer network. 
+• One potential weakness is the capacity of the system. If demand is higher than 
+the system can handle, some data will not move properly through the network. 
+
+These attacks are also known as 
+volume-based
+ or volumetric 
+attacks.• Similarly to overwhelming basic network capacity, an attack can exhaust the 
+application that services a particular network, in what is called an 
+application-based attack.• Another way to deny service is to cut or disable the communications link 
+between two points. Many users will be unable to receive service, especially if 
+
+that link is a single point through which much traffic must pass.
+• A final cause of denied access is a hardware or software failure. Although simi-
+lar to a failure of a com-
+
+munications link, in this 
+
+case the problem relates to 
+
+machinery or programs, for 
+
+which protection can involve 
+
+concepts like fault tolerance.
+First we examine the issue of insufficient capacity.
+FloodingImagine a teacher in a classroom full of six-year-olds. Each child demands the teacher’s 
+attention. At first, the teacher hears one child and gives the child attention. Then a sec-
+
+ond child calls, and the teacher focuses on that child while trying to remember what the 
+first child needed. Seeing that calling out works, children three, four, and five cry out 
+
+for the teacher, but this frustrates other children who also demand attention. Of course, 
+
+each child who calls out does so more loudly than the previous ones, and soon the class-
+
+room is a cacophony of children’s shouts, making it impossible for the teacher to do 
+
+anything except tell them all to be quiet, wait their turn, and be patient (none of which 
+DOS can occur from excessive volume, 
+
+a failed application, a severed link, or 
+
+hardware or software failure.

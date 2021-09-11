@@ -1,0 +1,24 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜archives for history, simulation systems for science, and programming environ-ments for computing.3. Stage 3 adds features for user configuration and the ability of users to add new 
+systems to the iLearn environment. This stage allows different versions of the 
+system to be created for different age groups, further specialized tools, and 
+
+alternatives to the standard tools to be included.As in any large systems engineering project, the most time-consuming and expen-sive part of system integration is system testing. Testing systems of systems is difficult 
+
+and expensive for three reasons:1.
+ There may not be a detailed requirements specification that can be used as a 
+basis for system testing. It may not be cost-effective to develop a SoS require
+-
+ments document because the details of the system functionality are defined by 
+
+the systems that are included.2. The constituent systems may change in the course of the testing process, so tests 
+may not be repeatable.3. If problems are discovered, it may not be possible to fix the problems by requir-
+ing one or more of the constituent systems to be changed. Rather, some interme-
+diate software may have to be introduced to solve the problem.To help address some of these problems, I believe that SoS testing should take on board some of the testing techniques developed in agile methods:1. Agile methods do not rely on having a complete system specification for system 
+acceptance testing. Rather, stakeholders are closely engaged with the testing process 
+iLearn V1Authentication systemOffice 365Wordpress
+School admin systemsMoodle VLELearning portfolio system
+Conferencing systemiLearn V2Authentication systemProgramming
+environmentsDrawing and photo toolsScience simulation systemsStorage systemContent systems (history, languages, etc.)
+iLearn V1 toolsiLearn V3Authentication systemiLearn V2 toolsStorage systemConfiguration systemAge-specific toolsGoogle Appsibook toolsData analysis toolsRelease timelineFigure 20.8 Release sequence For the  
+iLearn SoS

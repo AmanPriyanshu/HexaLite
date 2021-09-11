@@ -1,0 +1,33 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜to make their functionality accessible to system users. Figure 
+20.12 illustrates a con
+-tainer system with three common services and six included systems. The systems 
+that are included may be selected from an approved list of systems and need not be 
+
+aware that they are included in the container. This pattern of SoS is most often 
+
+observed in federated systems or system coalitions.The iLearn environment is a system in a container. There are common services that support authentication, storage of user data, and system configuration. Other 
+
+functionality comes from choosing existing systems such as a newspaper archive or 
+a virtual learning environment and integrating these into the container.Of course, you don™t place systems into a real container to implement these systems 
+of systems. Rather, for each approved system, there is a separate interface that allows 
+
+it to be integrated with the common services. This interface manages the translation of 
+
+the common services provided by the container and the requirements of the integrated 
+
+system. It may also be possible to include systems that are not approved. However, 
+
+these will not have access to the common services provided by the container.Figure 20.
+13 illustrates this integration. This graphic is a simplified version of 
+iLearn that provides three common services:1. An authentication service that provides a single sign-in to all approved systems. Users do not have to maintain separate credentials for these systems.2. A storage service for user data. This service can be seamlessly transferred to and 
+from approved systems.3. A configuration service that is used to include or remove systems from the container.This example shows a version of iLearn for Physics. As well as an office productivity 
+system (Office 365) and a VLE (Moodle), this system includes simulation and data anal
+-
+ysis systems. Other systemsŠYouTube and a science encyclopediaŠare also part of this 
+
+system. However, these are not ﬁapproved,ﬂ and so no container interface is available. 
+
+Users must log on to these systems separately and organize their own data transfers.Included systemsContainer systemCommon service 1Common service 2Common service 3s1s2s3
+s4s5s6
+Figure 20.12 Systems in a container 

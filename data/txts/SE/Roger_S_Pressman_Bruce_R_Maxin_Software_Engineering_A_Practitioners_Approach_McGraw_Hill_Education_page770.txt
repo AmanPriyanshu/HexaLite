@@ -1,0 +1,58 @@
+740 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+compared and reconciled. If both sets of estimates show reasonable agreement, there is good reason to believe that the estimates are reliable. If, on the other 
+hand, the results of these decomposition techniques show little agreement, fur-
+
+ther investigation and analysis must be conducted.   
+ 
+ 
+33.6.6   
+An Example of Process-Based Estimation 
+ 
+To illustrate the use of process-based estimation, we again consider the CAD 
+software introduced in Section 33.6.3. The system conﬁ guration and all software 
+functions remain unchanged and are indicated by project scope.   Referring to the completed process-based table shown in   
+Figure 33.4  
+, esti-mates of effort (in person-months) for each software engineering activity are pro-
+vided for each CAD software function (abbreviated for brevity). The engineering 
+and construction release activities are subdivided into the major software engi-
+neering tasks shown. Gross estimates of effort are provided for customer com-
+munication, planning, and risk analysis. These are noted in the total row at the 
+bottom of the table. Horizontal and vertical totals provide an indication of esti-
+mated effort required for analysis, design, code, and test. It should be noted that 
+53 percent of all effort is expended on front-end engineering tasks (requirements 
+analysis and design), indicating the relative importance of this work.  Based on an average burdened labor rate of $8,000 per month, the total esti-mated project cost is $368,000 and the estimated effort is 46 person-months. If 
+desired, labor rates could be associated with each framework activity or software 
+engineering task and computed separately. 
+  
+ 
+ 
+33.6.7   
+Estimation with Use Cases  
+As we have noted throughout Part 2 of this book, use cases provide a software team with insight into software scope and requirements. Once use cases have   
+ 
+ uote:  “It’s best to 
+understand the 
+background of an 
+estimate before 
+you use it.”  Barry Boehm 
+and Richard Fairley ActivityTask
+FunctionUICF2DGA
+3DGADBMPCFCGDFDAMTotals
+% effort
+CCPlanning
+RiskanalysisEngineeringConstructionreleaseTotals
+CEAnalysisDesignCodeTest
+0.250.250.253.5020.504.5016.5046.00
+1%1%1%8%45%10%36%
+CC = customer communication   CE = customer evaluation0.500.750.50
+0.500.500.252.504.004.00
+3.003.002.000.400.601.00
+1.000.750.505.002.003.00
+1.501.501.508.407.358.50
+6.005.754.250.502.000.502.005.00
+n/an/an/a
+n/an/an/an/a FIGURE 33.4 
+Process-based 
+estimation 
+tablepre22126_ch33_727-753.indd   740pre22126_ch33_727-753.indd   74013/12/13   6:17 PM13/12/13   6:17 PM

@@ -1,0 +1,32 @@
+884 APPENDIX 1  AN INTRODUCTION TO UMLthe dry and wet ingredients together, Helen is responsible for heating the oven 
+and taking the cake out, and Mary is responsible for everything else.      
+  STATE
+ DIAGRAMS   The behavior of an object at a particular point in time often depends on the state 
+of the object, that is, the values of its variables at that time. As a trivial example, 
+consider an object with a Boolean instance variable. When asked to perform an 
+operation, the object might do one thing if that variable is  true  and do something else if it is  false.  
+ A UML  state diagram  models an object’s states, the actions that are performed depending on those states, and the transitions between the states of the object.  As an example, consider the state diagram for a part of a Java compiler. The input to the compiler is a text ﬁ le, which can be thought of as a long string of 
+characters. The compiler reads characters one at a time and from them deter-
+mines the structure of the program. One small part of this process of reading 
+the characters involves ignoring “white-space” characters (e.g., the  space, tab, newline,  and 
+ return  characters) and characters inside a comment. 
+ Suppose that the compiler delegates to a  WhiteSpaceAndCommentEliminator  
+the job of advancing over white-space characters and characters in comments. 
+That is, this object’s job is to read input characters until all white-space and com-
+ment characters have been read, at which point it returns control to the com-
+piler to read and process non-white-space and noncomment characters. Think 
+about how the  WhiteSpaceAndCommentEliminator  object reads in characters and determines whether the next character is white space or part of a comment. 
+The object can check for white space by testing the next character against “ ”, 
+“\t”, “\n”, and “\r”. But how does it determine whether the next character is part 
+of a comment? For example, when it sees a “/” for the ﬁ rst time, it doesn’t yet 
+
+know whether that character represents a division operator, part of the /= op-
+erator, or the beginning of a line or block comment. To make this determination, 
+ WhiteSpaceAndCommentEliminator  needs to make a note of the fact that it saw a “/” and then move on to the next character. If the character following the “/” 
+is another “/” or an “*”, then  WhiteSpaceAndCommentEliminator  knows that it is now reading a comment and can advance to the end of the comment without 
+processing or saving any characters. If the character following the ﬁ rst “/” is any-
+
+thing other than a “/” or an “*”, then  WhiteSpaceAndCommentEliminator  knows that the “/” represents the division operator or part of the /= operator and so it 
+stops advancing over characters.  In summary, as  WhiteSpaceAndCommentEliminator  reads in characters, it needs to keep track of several things, including whether the current character 
+is white space, whether the previous character it read was a “/”, whether it is 
+currently reading characters in a comment, whether it has reached the end of 

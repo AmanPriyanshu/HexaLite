@@ -1,0 +1,104 @@
+30  
+CHAPTER 
+ 
+ 
+KEY CONCEPTS     generic process 
+model. . . . . . . . . . . 31  
+
+    process 
+
+assessment. . . . . . . 37  
+
+    process ﬂ
+ ow. . . . . . 31  
+    process 
+
+improvement  . . . . . 38  
+
+    process 
+
+patterns. . . . . . . . . 35  
+
+    task set  . . . . . . . . . 34         
+ SOFTWARE
+ PROCESS STRUCTURE 3   
+QUICK LOOK   
+What is it?   
+When you work to build a product or system, it’s im-
+
+portant to go through a series of 
+
+predictable steps—a road map that helps you create a timely, high-quality result. 
+
+The road map that you follow is called a “soft-
+ware process.”   
+ 
+Who does it?   
+Software engineers and their 
+managers adapt the process to their needs and 
+
+then follow it. In addition, the people who have 
+
+requested the software have a role to play in 
+
+the process of deﬁ ning, building, and testing it. 
+  
+ 
+Why is it important?
+   
+Because it provides sta-bility, control, and organization to an activity 
+
+that can, if left uncontrolled, become quite cha-
+otic. However, a modern software engineering 
+
+approach must be “agile.” It must demand 
+only those activities, controls, and work prod-
+ucts that are appropriate for the project team 
+and the product that is to be produced.   
+ 
+What are the steps?   
+At a detailed level, the process that you adopt depends on the soft-
+ware that you’re building. One process might 
+be appropriate for creating software for an air-
+
+craft avionics system, while an entirely differ-
+
+ent process would be indicated for the creation 
+of a website.   
+ 
+What is the work product?
+   
+From the point of view of a software engineer, the work prod-
+
+ucts are the programs, documents, and data 
+that are produced as a consequence of the ac-
+tivities and tasks deﬁ ned by the process. 
+  
+ 
+How do I ensure that I’ve done it right? 
+ 
+  There are a number of software process assess-ment mechanisms that enable organizations 
+to determine the “maturity” of their software 
+
+process. However, the quality, timeliness, and 
+
+long-term viability of the product you build are 
+
+the best indicators of the efﬁ cacy of the pro-
+cess that you use.   
+ 
+ 
+ In a fascinating book that provides an economist’s view of software and soft-
+ware engineering, Howard Baetjer Jr. [Bae98] comments on the software 
+
+process:   
+Because software, like all capital, is embodied knowledge, and because that knowledge is initially dispersed, tacit, latent, and incomplete in large measure, 
+software development is a social learning process. The process is a dialogue in 
+which the knowledge that must become the software is brought together and 
+embodied in the software. The process provides interaction between users and 
+ designers, between users and evolving tools, and between designers and evolving tools [technology]. It is an iterative process in which the evolving tool itself serves 
+as the medium for communication, with each new round of the dialogue eliciting 
+more useful knowledge from the people involved.   
+Indeed, building computer software is an iterative social learning process, and the outcome, something that Baetjer would call “software capital,” is an 
+embodiment of knowledge collected, distilled, and organized as the process 
+is conducted. pre22126_ch03_029-039.indd   30pre22126_ch03_029-039.indd   3013/12/13   6:10 PM13/12/13   6:10 PM

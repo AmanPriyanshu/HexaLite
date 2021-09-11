@@ -1,0 +1,65 @@
+ Section 1.2  Threats 
+9  things you would ordinarily consider confidential, but they can reveal something that 
+someone wants to be kept confidential. 
+The definition of confidentiality is straightforward: Only authorized people or sys-
+tems can access protected data. However, as we see in later chapters, ensuring con-
+
+fidentiality can be difficult. For example, who determines which people or systems 
+
+are authorized to access the current system? By “accessing” data, do we mean that an 
+authorized party can access a single bit? the whole collection? pieces of data out of con-
+
+text? Can someone who is authorized disclose data to other parties? Sometimes there is 
+
+even a question of who owns the data: If you visit a web page, do you own the fact that 
+
+you clicked on a link, or does the web page owner, the Internet provider, someone else, 
+
+or all of you? In spite of these complicating examples, confidentiality is the security property we 
+understand best because its meaning is narrower than that of the other two. We also 
+
+understand confidentiality well because we can relate computing examples to those of 
+
+preserving confidentiality in the real world.
+Confidentiality relates most obviously to data, although we can think of the con-
+fidentiality of a piece of hardware (a novel invention) or a person (the whereabouts 
+
+of a wanted criminal). Here are some properties that could mean a failure of data 
+
+confidentiality:
+• An unauthorized person accesses a data item.
+• An unauthorized process or program accesses a data item.
+
+• A person authorized to access certain data accesses other data not authorized 
+(which is a specialized version of “an unauthorized person accesses a data item”).
+• An unauthorized person accesses an approximate data value (for example, not 
+knowing someone’s exact salary but knowing that the salary falls in a particular 
+
+range or exceeds a particular amount).
+• An unauthorized person learns the existence of a piece of data (for example, 
+knowing that a company is developing a certain new product or that talks are 
+
+underway about the merger of two companies).
+Notice the general pattern of these statements: A person, process, or program is (or 
+is not) authorized to access a data item in a particular way. We call the person, process, 
+
+or program a subject, the data item an object, the kind of access (such as read, write, or execute) an 
+access mode, and the authorization a policy, as shown in Figure 1-6. 
+These four terms reappear throughout this book because they are fundamental aspects 
+
+of computer security.
+One word that captures most aspects of confidentiality is 
+view
+, although you should not take that term literally. A failure of confidentiality does not necessarily mean that 
+
+someone sees an object and, in fact, it is virtually impossible to look at bits in any mean-
+
+ingful way (although you may look at their representation as characters or pictures). 
+
+The word view does connote another aspect of confidentiality in computer security, 
+
+through the association with viewing a movie or a painting in a museum: look but do 
+
+not touch. In computer security, confidentiality usually means obtaining but not modify-
+
+ing. Modification is the subject of integrity, which we consider in the next section.

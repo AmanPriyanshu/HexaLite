@@ -1,0 +1,65 @@
+808 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+component performs some subfunction and represents a deﬁ ned procedural 
+abstraction. A processing narrative for each component is developed. In some 
+situations, system, program, and component speciﬁ cations already exist. When 
+this is the case, the speciﬁ cations are reviewed for conformance to existing code
+.  
+6  
+  
+ 
+  Things become more complex when the code inside a component is consid-ered. You should look for sections of code that represent generic procedural 
+
+patterns. In almost every component, a section of code prepares data for pro-
+cessing (within the module), a different section of code does the processing, and 
+another section of code prepares the results of processing for export from the 
+component. Within each of these sections, you can encounter smaller patterns; 
+
+for example, data validation and bounds checking often occur within the section 
+of code that prepares data for processing.  For large systems, reverse engineering is generally accomplished using a semi-automated approach. Automated tools can be used to help you understand the 
+semantics of existing code. The output of this process is then passed to restruc-
+turing and forward engineering tools to complete the reengineering process.   
+ 
+ 
+36.6.3   
+Reverse Engineering User Interfaces 
+ 
+Sophisticated GUIs have become de rigueur for computer-based products and 
+systems of every type. Therefore, the redevelopment of user interfaces has be-
+come one of the most common types of reengineering activity. But before a user 
+
+interface can be rebuilt, reverse engineering should occur. 
+ To fully understand an existing user interface, the structure and behavior of the 
+interface must be speciﬁ ed. Merlo and his colleagues [Mer93] suggest three basic 
+questions that must be answered as reverse engineering of the UI commences:  
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+•  What are the basic actions (e.g., keystrokes and mouse clicks) that the in-terface must process?   
+ 
+ 
+•  What is a compact description of the behavioral response of the system to these actions?   
+ 
+ 
+•  What is meant by a “replacement,” or more precisely, what concept of 
+equivalence of interfaces is relevant here?  
+ 
+  Behavioral modeling notation (Chapter 11) can provide a means for developing answers to the ﬁ rst two questions. Much of the information necessary to create a 
+behavioral model can be obtained by observing the external manifestation of the 
+existing interface. But additional information necessary to create the behavioral 
+model must be extracted from the code.  It is important to note that a replacement GUI may not mirror the old in-terface exactly (in fact, it may be radically different). It is often worthwhile to 
+develop a new interaction metaphor. For example, an old UI requests that a user 
+ How do I 
+understand the working of 
+an existing user 
+interface? ?  
+6  Often, speciﬁ
+ cations written early in the life history of a program are never updated. As 
+changes are made, the code no longer conforms to the speciﬁ cation. 
+pre22126_ch36_795-816.indd   808pre22126_ch36_795-816.indd   80813/12/13   6:17 PM13/12/13   6:17 PM

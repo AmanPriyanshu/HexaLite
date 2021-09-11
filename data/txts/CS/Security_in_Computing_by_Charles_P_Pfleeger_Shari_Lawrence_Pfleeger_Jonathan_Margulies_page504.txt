@@ -1,0 +1,41 @@
+470 Chapter 6  
+NetworksA typical architecture for this situation is shown in Figure 6-61. The web page server, 
+also known as a bastion host, is on its own LAN, isolated from the main internal LAN 
+
+by a second firewall.
+The same architecture can be extended, as shown in Figure 6-62. In this figure, the 
+externally accessible services, such 
+
+as web pages, email, and file trans-
+
+fer, are on servers in the 
+demilita-rized zone or 
+DMZ, named after 
+the military buffer space, sometimes 
+
+called the “no man’s land,” between 
+
+the territories held by two compet-
+
+ing armies. In all these examples, the network architecture is critical. A firewall can protect only 
+what it can control, so if a subnetwork has external connections not screened by the 
+
+firewall, the firewall cannot control traffic on that unscreened connection. An example 
+
+is a device with its own direct Internet connection (perhaps a rogue wireless connec-
+
+tion). As we saw earlier in this chapter, visibility to one device, perhaps via the wireless 
+
+connection mentioned here, can give an attacker visibility and access to other devices. 
+
+For this reason, the only path to every protected network device must pass through the 
+
+network’s firewall.
+Although these examples are simplifications, they show the kinds of configurations 
+firewalls protect. Next, we review the kinds of attacks against which firewalls can and 
+
+cannot protect.FirewallWeb page serverDatabaseFirewallFIGURE 6-61 Application ProxyOutside users can access tools and data in a firewall’s demilitarized zone but 
+
+cannot get to more sensitive resources 
+
+on the more protected inside network.

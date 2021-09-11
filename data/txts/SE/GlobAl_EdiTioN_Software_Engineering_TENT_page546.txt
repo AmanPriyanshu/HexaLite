@@ -1,0 +1,40 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜
+˜ˇ
+˜Carry out the computationReturn the results to the client serviceIn BPMN terms, the workflow for each organization is represented in a separate 
+pool. It is shown graphically by enclosing the workflow for each participant in the 
+process in a rectangle, with the name written vertically on the left edge. The work
+-
+flows in each pool are coordinated by exchanging messages. In situations where 
+
+different parts of an organization are involved in a workflow, pools are divided into 
+
+named ﬁlanes.ﬂ Each lane shows the activities in that part of the organization.
+Once a business process model has been designed, it has to be refined depending 
+on the services that have been discovered. As I suggested in the discussion of Figure 
+
+18.14, the model may go through a number of iterations until a design that allows the 
+
+maximum possible reuse of available services has been created.
+Once the final design is available, you can then develop the final service-oriented 
+system. This involves implementing services that are not available for reuse and con
+-
+verting the workflow model into an executable program. As services are implementa
+-
+tion-language independent, new services can be written in any language. The workflow 
+
+model may be automatically processed to create an executable WS-BPEL model if 
+
+SOAP-based services are used. Alternatively, if RESTful services are used, the work
+-
+flow may be manually programmed, with the model acting as a program specification.
+
+Testing is important in all system development processes as it demonstrates that a 
+
+system meets its functional and non-functional requirements and detects defects that RequestprocessorSet up jobparametersDownloaddataStart
+computationStoreresultsReport
+completionRestart
+Fail
+SetupComputationCheckAvailability
+AllocateresourcesInitializeComputeReturnresultsOKNo processorOKVectorProcServiceFigure 18.16
+ Interacting workflows 

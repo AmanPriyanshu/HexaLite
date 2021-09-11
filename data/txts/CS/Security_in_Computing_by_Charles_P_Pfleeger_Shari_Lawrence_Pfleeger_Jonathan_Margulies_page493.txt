@@ -1,0 +1,36 @@
+ Section 6.7  Firewalls 
+459  attack. The firewall records that address 100.200.3.4 sent a connection packet to port 1 
+at 01:37.26. When the probe against port 2 arrives, the firewall may record the second 
+
+connection from 100.200.3.4, at 01:37.29. After two more connections at 01:37.34 and 
+
+01:37.36, the next connection at 01:37.39 meets the firewall’s rule for number of differ-
+
+ent ports in a short time, so it activates the rule to block connections from 100.200.3.4, 
+
+as shown in Figure 6-55. The firewall progresses through several states (the count of 
+
+connection requests from address 100.200.3.4) from different packets until the count 
+
+exceeds the threshold for acceptable behavior. The name stateful inspection refers to 
+
+accumulating threat evidence across multiple packets.
+One classic approach used by attackers is to break an attack into multiple packets 
+by forcing some packets to have very short lengths so that a firewall cannot detect the 
+
+characteristic of an attack split across two or more packets. A stateful inspection fire-
+
+wall would track the sequence of packets and conditions from one packet to another to 
+
+thwart such an attack.
+Application Proxy
+Packet filters look only at the headers of packets, not at the data inside the packets. 
+Therefore, a packet filter would pass anything to port 25, assuming its screening rules 
+
+allow inbound connections to that port. But applications are complex and sometimes 
+
+contain errors. Worse, applications (such as the email delivery agent) often act on behalf 
+
+of all users, so they require privileges of all users (for example, to store incoming mail 
+10.1.3.1:410.1.3.1:310.1.3.1:210.1.3.1:110.1.3.1Further10.1.3.1:xtraffic
+FIGURE 6-55 Stateful Inspection Blocking Multiple Probes

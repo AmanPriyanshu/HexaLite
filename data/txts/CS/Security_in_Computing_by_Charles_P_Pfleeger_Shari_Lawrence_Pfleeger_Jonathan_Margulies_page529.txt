@@ -1,0 +1,75 @@
+ Section 6.9  Network Management 
+495  have a way to export your saved data in a standard format that most other SIEMs 
+can read. Knowledge that you store in the SIEM, such as saved searches or data 
+
+visualizations, tends to be SIEM specific and you will likely need to rebuild 
+
+such knowledge bases when you switch products.
+• Log-source compatibility.
+ SIEMs are continually becoming more flexible in 
+terms of the types of data they can import and the ease with which they let users 
+
+define new data types, but some SIEMs are better than others in this regard. 
+
+Depending on the data type and the system that is generating a given set of 
+
+logs, SIEMs may require you to install agents or intermediary servers to collect 
+
+logs. Once you know the logs that are important to you, you can identify which 
+
+SIEMs already read those data logs, which could read those logs with a bit of 
+configuration, and which would require agents.
+• Deployment complexity.
+ Because SIEMs can touch thousands of systems in an 
+enterprise, deploying them is generally a complex undertaking. Deployment will 
+
+likely require a variety of configuration changes (for example, updating system 
+
+audit policies, and configuring devices to send logs to a new IP), some of which 
+
+will be unpredictable side effects of the intricacies of your environment. For an 
+
+enterprise with over 1,000 systems, a full deployment is likely to take months 
+
+and require coordination across a variety of teams.
+• Customization. SIEM vendors compete on the basis of depth of built-in func-
+tionality and ease of customization. Some SIEMs come with extensive user 
+
+interfaces and a number of major data sources working right out of the box; oth-
+
+ers offer only basic functions, but are easy to customize with scripts. Whichever 
+
+type of SIEM you choose, be sure to understand how much of the functional-
+
+ity you need is either built-in or easy to acquire, and how much you’ll have to 
+
+develop yourself.
+• Data storage.
+ SIEMs generally require vast quantities of storage, but the exact 
+amount varies greatly according to system architecture and activity to be moni-
+
+tored. Log files listing IDS alerts are relatively sparse, while full packet capture 
+
+can result in gigabytes of new data per second. SIEMs often manage 100 TB of 
+
+data or more.• Segregation and access control.
+ Although an important security capability, a 
+SIEM also carries large risk. Collecting all of your critical security data in one 
+
+system means placing great trust in the users and administrators of that system. 
+As the Roman poet Juvenal said, “Who watches the watchmen?” SIEMs gener-
+
+ally have robust segregation and role-based access control capabilities that allow 
+
+administrators to limit users’ access to data and functionality, but mitigating 
+
+insider risks posed by security personnel is a perpetual challenge.• Full-time maintenance.
+ Because they interact with so many different systems, 
+SIEMs are inherently complex, so deploying, maintaining, and customizing 
+
+them are expert skills in themselves. If you run a large organization, be prepared 
+
+to devote at least one full-time staff member exclusively to such tasks.
+• User training.
+ SOC analysts are generally trained in incident detection, inves-
+tigation, and response, but they may not know how to use the particular tools 

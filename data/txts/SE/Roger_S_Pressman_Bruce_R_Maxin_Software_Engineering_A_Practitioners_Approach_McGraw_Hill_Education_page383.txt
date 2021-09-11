@@ -1,0 +1,77 @@
+CHAPTER 16  
+PATTERN-BASED DESIGN
+ 353 
+A pattern template provides a standardized means for describing a design pattern. Each of the template entries represents characteristics of the design 
+pattern that can be searched (e.g., via a database) so that the appropriate pattern 
+can be found.   
+ 
+16.1.4  Pattern Languages and Repositories 
+ 
+When we use the term  language, 
+ the ﬁ
+ rst thing that comes to mind is either a 
+natural language (e.g., English, Spanish, Chinese) or a programming language 
+(e.g., C++, Java). In both cases the language has a syntax and semantics that are 
+used to communicate ideas or procedural instructions is an effective manner. 
+ 
+ 
+ 
+   
+When the term  language 
+ is used in the context of design patterns, it takes 
+on a slightly different meaning. A  pattern language 
+ encompasses a collection 
+of patterns, each described using a standardized template (Section 16.1.3) and 
+interrelated to show how these patterns collaborate to solve problems across an 
+application domain.  3 
+ 
+   
+In a natural language, words are organized into sentences that impart mean-ing. The structure of sentences is described by the language’s syntax. In a pattern 
+
+language, design patterns are organized in a way that provides a “structured 
+method of describing good design practices within a particular domain.”  4 
+ 
+ 
+ 
+ 
+ 
+   
+In a way, a pattern language is analogous to a hypertext instruction manual 
+for problem solving in a speciﬁ c application domain. The problem domain under 
+consideration is ﬁ rst described hierarchically, beginning with broad design prob-
+lems associated with the domain and then reﬁ ning each of the broad problems 
+into lower levels of abstraction. In a software context, broad design problems 
+tend to be architectural in nature and address the overall structure of the appli-
+cation and the data or content that serve it. Architectural problems are reﬁ ned 
+to lower levels of abstraction, leading to design patterns that solve subproblems 
+and collaborate with one another at the component (or class) level. Rather than 
+a sequential list of patterns, a pattern language represents an interconnected 
+collection in which the user can begin with a broad design problem and “burrow 
+down” to uncover speciﬁ c problems and their solutions. 
+ An extensive list of pattern languages have been proposed for software de-sign [Hil13] which contains pointers to design patterns that are part of pattern 
+languages in a Web-accessible patterns repositories. The repository provides an 
+
+index of all design patterns and contains hypermedia links that enable the user 
+to understand the collaborations between patterns.    If you can’t ﬁ nd a 
+pattern language that 
+
+addresses your prob-
+lem domain, look for 
+analogies in another 
+set of patterns. 
+ WebRef 
+ For a listing of useful 
+patterns languages 
+
+see  c2.com/ppr/
+titles.html .  
+Additional information can be 
+
+obtained at hillside.net/patterns/ .   
+3  Christopher Alexander originally proposed pattern languages for building architecture and 
+urban planning. Today, pattern languages have been developed for everything from the social 
+
+sciences to the software engineering process.   
+4  This Wikipedia description can be found at  
+http://en.wikipedia.org/wiki/Pattern_language 
+. pre22126_ch16_347-370.indd   353pre22126_ch16_347-370.indd   35316/12/13   6:22 PM16/12/13   6:22 PM

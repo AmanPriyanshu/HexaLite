@@ -1,0 +1,45 @@
+ Section 4.1  Browser Attacks 
+235  (including display that file on the screen), or connect to a site; this list includes pretty 
+much everything a browser does.
+SilentBanker started with a list of over 400 URLs of popular banks throughout the 
+world. Whenever it saw a user going to one of those sites, it redirected the user’s key-
+
+strokes through the Trojan horse and recorded customer details that it forwarded to 
+
+remote computers (presumably controlled by the code’s creators).
+Banking and other financial transactions are ordinarily protected in transit by an 
+encrypted session, using a protocol named SSL or HTTPS (which we explain in Chap-
+
+ter 6), and identified by a lock icon on the browser’s screen. This protocol means that 
+
+the user’s communications are encrypted during transit. But remember that cryptogra-
+
+phy, although powerful, can protect only what it can control. Because SilentBanker was 
+
+embedded within the browser, it intruded into the communication process as shown in 
+
+Figure 4-2. When the user typed data, the operating system passed the characters to the 
+
+browser. But before the browser could encrypt its data to transmit to the bank, Silent-
+
+Banker intervened, acting as part of the browser. Notice that this timing vulnerability 
+
+would not have been countered by any of the other security approaches banks use, such 
+
+as an image that only the customer will recognize or two-factor authentication. Further-
+
+more, the URL in the address bar 
+
+looked and was authentic, because 
+
+the browser actually did maintain 
+
+a connection with the legitimate 
+
+bank site.SSL encryption is applied in the browser; 
+
+data are vulnerable before being 
+
+encrypted.FIGURE 4-2 SilentBanker Operates in the Middle of the Browser
+User typesBrowser
+encryptsEncrypted datatransferred tobankSilentBankerinterceptsBANK

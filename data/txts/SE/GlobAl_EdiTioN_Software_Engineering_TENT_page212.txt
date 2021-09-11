@@ -1,0 +1,41 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜3. Provide a standard way of accessing the elements in a collection, irrespective of how that collection is implemented (Iterator pattern).4. Allow for the possibility of extending the functionality of an existing class at 
+runtime (Decorator pattern).Patterns support high-level, concept reuse. When you try to reuse executable 
+components you are inevitably constrained by detailed design decisions that have 
+
+been made by the implementers of these components. These range from the particu-
+lar algorithms that have been used to implement the components to the objects and 
+types in the component interfaces. When these design decisions conflict with your 
+requirements, reusing the component is either impossible or introduces inefficien
+-cies into your system. Using patterns means that you reuse the ideas but can adapt 
+the implementation to suit the system you are developing.When you start designing a system, it can be difficult to know, in advance, if you 
+will need a particular pattern. Therefore, using patterns in a design process often 
+
+involves developing a design, experiencing a problem, and then recognizing that a 
+pattern can be used. This is certainly possible if you focus on the 23 general-purpose 
+patterns documented in the original patterns book. However, if your problem is a 
+
+different one, you may find it difficult to find an appropriate pattern among the hun-
+dreds of different patterns that have been proposed.Patterns are a great idea, but you need experience of software design to use them 
+effectively. You have to recognize situations where a pattern can be applied. Inexperienced 
+
+programmers, even if they have read the pattern books, will always find it hard to decide 
+
+whether they can reuse a pattern or need to develop a special-purpose solution.Software engineering includes all of the activities involved in software development 
+
+from the initial requirements of the system through to maintenance and management 
+
+of the deployed system. A critical stage of this process is, of course, system imple-
+mentation, where you create an executable version of the software. Implementation 
+
+may involve developing programs in high- or low-level programming languages or 
+
+tailoring and adapting generic, off-the-shelf systems to meet the specific requirements 
+
+of an organization.I assume that most readers of this book will understand programming principles and will have some programming experience. As this chapter is intended to offer a 
+language-independent approach, I haven™t focused on issues of good programming 
+practice as language-specific examples need to be used. Instead, I introduce some 
+
+aspects of implementation that are particularly important to software engineering 
+
+and that are often not covered in programming texts. These are:1. Reuse Most modern software is constructed by reusing existing components or systems. When you are developing software, you should make as much use as possible of existing code.

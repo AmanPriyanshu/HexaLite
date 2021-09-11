@@ -1,0 +1,109 @@
+371  
+ 
+ 
+ 
+ 
+ 
+ In his authoritative book on Web design, Jakob Nielsen [Nie00] states: 
+“There are essentially two basic approaches to design: the artistic ideal of 
+expressing yourself and the engineering ideal of solving a problem for a customer.” During the ﬁ
+ rst decade of Web development, the artistic idea was 
+the approach that many developers chose. Design occurred in an ad hoc man-
+ner and was usually conducted as HTML was generated. Design evolved out of 
+an artistic vision that evolved as WebApp construction occurred. 
+  Even today, many Web developers use WebApps as poster children for 
+“limited design.” They argue that WebApp immediacy and volatility mitigate 
+
+against formal design; that design evolves as an application is built (coded), 
+and that relatively little time should be spent on creating a detailed design 
+model. This argument has merit, but only for relatively simple WebApps. When 
+
+content and function are complex; when the size of the WebApp encompasses
+ WEBAPP DESIGN  
+ 
+ 
+ 
+CHAPTER17  
+ 
+What is it?   Design for WebApps 
+encompasses technical and nontech-
+nical activities that include: establish-
+ing the look and feel of the WebApp, 
+creating the aesthetic layout of the user inter-
+
+face, deﬁ ning the overall architectural structure, 
+developing the content and functionality that 
+
+reside within the architecture, and planning the 
+
+navigation that occurs within the WebApp. 
+  
+ 
+Who does it?   Web engineers, graphic 
+designers, content developers, and other 
+stakeholders all participate in the creation of 
+
+a WebApp design model. 
+  
+ 
+Why is it important? 
+  Design allows you to 
+create a model that can be assessed for qual-
+ity and improved before content and code are 
+
+generated, tests are conducted, and end users 
+
+become involved in large numbers. Design is 
+
+the place where WebApp quality is established. 
+  
+ 
+What are the steps?   WebApp design en-
+compasses six major steps that are driven 
+by information obtained during requirements 
+
+modeling. Content design uses the content 
+model (developed during analysis) as the basis for establishing the design of content objects. Aesthetic design (also called graphic design) 
+establishes the look and feel that the end user 
+sees. Architectural design focuses on the over-
+
+all hypermedia structure of all content objects 
+
+and functions. Interface design establishes the 
+
+layout and interaction mechanisms that deﬁ ne 
+the user interface. Navigation design deﬁ
+ nes 
+how the end user navigates through the hy-
+permedia structure, and component design 
+
+represents the detailed internal structure of 
+
+functional elements of the WebApp. 
+  
+ 
+What is the work product? 
+  A design model 
+that encompasses content, aesthetics, architec-
+ture, interface, navigation, and component-level 
+
+design issues is the primary work product that 
+
+is produced during WebApp design. 
+  
+ 
+How do I ensure that I’ve done it right?   Each element of the design model is reviewed in an effort to uncover errors, incon-
+
+sistencies, or omissions. In addition, alterna-
+
+tive solutions are considered, and the degree 
+to which the current design model will lead to 
+an effective implementation is also assessed.   
+QUICK LOOK  KEY CONCEPTS     aesthetic design. . . . 377
+      architecture design. . . . 381
+      component-level design. . . . 387
+      content architecture  381      content design. . . . 379
+      content objects. . . . 379
+      design goals. . . . . 374
+      design pyramid. . . 375
+  pre22126_ch17_371-390.indd   371pre22126_ch17_371-390.indd   37113/12/13   6:13 PM13/12/13   6:13 PM

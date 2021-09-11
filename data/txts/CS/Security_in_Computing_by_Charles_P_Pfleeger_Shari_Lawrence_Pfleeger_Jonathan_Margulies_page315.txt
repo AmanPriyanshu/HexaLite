@@ -1,0 +1,75 @@
+ Section 5.1  Security in Operating Systems 
+281  The operating system is the first line of defense against all sorts of unwanted behav-
+ior. It protects one user from another, ensures that critical areas of memory or storage 
+
+are not overwritten by unauthorized processes, performs identification and authenti-
+
+cation of people and remote operations, and ensures fair sharing of critical hardware 
+
+resources. As the powerful traffic 
+
+cop of a computing system it is also 
+a tempting target for attack because 
+
+the prize for successfully compro-
+mising the operating system is com-
+plete control over the machine and 
+
+all its components.When the operating system initializes at system boot time, it initiates tasks in an 
+orderly sequence, such as, first, primitive functions and device drivers, then process 
+
+controllers, followed by file and memory management routines and finally, the user 
+
+interface. To establish security, early tasks establish a firm defense to constrain later 
+
+tasks. Primitive operating system functions, such as interprocess communication and 
+
+basic input and output, must precede more complex structures such as files, directo-
+
+ries, and memory segments, in part because these primitive functions are necessary to 
+
+implement the latter constructs, and also because basic communication is necessary so 
+that different operating system functions can communicate with each other. Antivirus 
+
+applications are usually initiated late because they are add-ons to the operating system; 
+
+still, antivirus code must be in control before the operating system allows access to new 
+
+objects that might contain viruses. Clearly, prevention software can protect only if it is 
+
+active before the malicious code.
+But what if the malware embeds itself 
+in the operating system, such that it is active 
+before operating system components that might detect or block it? Or what if the malware 
+
+can circumvent or take over other parts of the operating system? This sequencing leads to 
+
+an important vulnerability: Gaining control before the protector means that the protector’s 
+
+power is limited. In that case, the attacker has near-complete control of the system: The 
+
+malicious code is undetectable and unstoppable. Because the malware operates with the 
+
+privileges of the root of the operating system, it is called a rootkit. Although embedding a 
+
+rootkit within the operating system is difficult, a successful effort is certainly worth it. We 
+
+examine rootkits later in this chapter. Before we can study that class of malware, we must 
+
+first consider the components from which operating systems are composed.
+Background: Operating System Structure
+An operating system is an executive or supervisor for a piece of computing machinery. 
+
+Operating systems are not just for conventional computers. Some form of operating 
+
+system can be found on any of the following objects:
+• a dedicated device such as a home thermostat or a heart pacemaker
+• an automobile (especially the engine performance sensors and the automated 
+control functions such as antilock brakes); similarly, the avionics components of 
+
+an airplane or the control system of a streetcar or mass transit systemThe operating system is the 
+fundamental controller of all system 
+
+resources—which makes it a primary 
+
+target of attack, as well.

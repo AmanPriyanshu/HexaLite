@@ -1,0 +1,73 @@
+ Section 7.2  Security Requirements of Databases 
+509  A second integrity action is afforded by 
+access control
+. To see why, consider life 
+without databases. Data files may contain data from several sources, and redundant 
+
+data may be stored in several different places. For example, a student’s mailing address 
+
+may be stored in many different campus files: in the registrar’s office for formal corre-
+
+spondence, in the food service office for dining hall privileges, at the bookstore for pur-
+
+chases, and in the financial aid office for accounting. Indeed, the student may not even 
+
+be aware that each separate office has the address on file. If the student moves from one 
+
+residence to another, each of the separate files requires correction. 
+Without a database, you can imagine the risks to the data’s integrity. First, at a given 
+time, some data files could show the old address (they have not yet been updated) and 
+
+some simultaneously have the new address (they have already been updated). Second, 
+
+there is always the possibility that someone misentered a data field, again leading to 
+
+files with incorrect information. Third, the student may not even be aware of some files, 
+
+so he or she does not know to notify the file owner about updating the address informa-
+
+tion. These problems are solved by databases. They enable collection and control of this 
+
+data at one central source, ensuring the student and users of having the correct address.
+However, the centralization is easier said than done. Who owns this shared central 
+file? Who is authorized to update which elements? What if two people apply conflicting 
+
+modifications? What if modifications are applied out of sequence? How are duplicate 
+
+records detected? What action is taken when duplicates are found? These are policy 
+
+questions that must be resolved by the database administrator. Sidebar 7-2 describes 
+
+how these issues are addressed for managing the configuration of programs; similar 
+
+formal processes are needed for managing changes in databases.SIDEBAR 7-2  
+Configuration Management and Access Control
+Software engineers must address access control when they manage the 
+configurations of large computer systems. The code of a major system and 
+changes to the code over time are actually a database. In many instances 
+
+multiple programmers make changes to a system at the same time; the 
+
+configuration management database must help ensure that the correct and 
+
+most recent changes are stored.
+The proliferation of versions and releases can be controlled in three 
+primary ways. [PFL10a]
+• Separate files: A separate file can be kept for each different version 
+or release. For instance, version 1 may exist for machines that store 
+
+all data in main memory, and version 2 is for machines that must put 
+
+some data out to a disk. Suppose the common functions are the same 
+
+in both versions, residing in components C
+1 through C
+k, but memory 
+management is done by component M1 for version 1 and M
+2 for ver-
+sion 2. If new functionality is to be added to the memory management 
+
+routines, keeping both versions current and correct may be difficult; 
+
+the results must be the same from the user’s point of view.
+(continues)

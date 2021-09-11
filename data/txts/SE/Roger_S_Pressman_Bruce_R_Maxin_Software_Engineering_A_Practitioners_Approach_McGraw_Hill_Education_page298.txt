@@ -1,0 +1,68 @@
+268 PART TWO  
+MODELING 
+ 
+ 
+ 
+ 
+ 
+ 
+Referring to the ﬁ gure, systems that interoperate with the  
+target system
+ 
+ (the 
+system for which an architectural design is to be developed) are represented as:  
+ 
+ 
+•   
+Superordinate systems
+ 
+—those systems that use the target system as part of some higher-level processing scheme. 
+  
+ 
+ 
+•   
+Subordinate systems
+ 
+—those systems that are used by the target system and provide data or processing that are necessary to complete target sys-
+tem functionality. 
+  
+ 
+ 
+•   
+Peer-level systems
+ 
+—those systems that interact on a peer-to-peer basis 
+(i.e., information is either produced or consumed by the peers and the tar-
+
+get system.   
+ 
+ 
+•   
+Actors 
+—entities (people, devices) that interact with the target system by producing or consuming information that is necessary for requisite 
+processing.    
+ 
+Each of these external entities communicates with the target system through an interface (the small shaded rectangles).  To illustrate the use of the ACD, consider the home security function of the  
+Safe-Home 
+ product. The overall  SafeHome 
+ product controller and the  Internet-based system are both superordinate to the security function and are shown above the 
+function in  Figure 13.6 . The surveillance function is a  peer system 
+ and uses (is 
+used by) the home security function in later versions of the product. The home-
+owner and control panels are actors that producer and consume information 
+used/produced by the security software. Finally, sensors are used by the security 
+
+software and are shown as subordinate to it.   
+FIGURE 13.5 
+ 
+Architectural 
+context 
+diagram 
+  
+ 
+ 
+Source:  Adapted from 
+[Bos00]. Superordinate systemsSubordinate systemsDepends onUses Uses Used byPeersActorsTarget system
+ How do 
+systems interoperate with 
+one another? ?pre22126_ch13_252-284.indd   268pre22126_ch13_252-284.indd   26813/12/13   6:12 PM13/12/13   6:12 PM

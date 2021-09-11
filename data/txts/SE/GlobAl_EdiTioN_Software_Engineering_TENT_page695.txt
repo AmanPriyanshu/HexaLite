@@ -1,0 +1,34 @@
+˜˜˚˛ˇ˜˜˜
+˜˜˜
+The COCOMO model includes a formula to estimate the calendar time required to complete a project:TDEV 5 3 3 (PM)(0.33 1 0.2*(B 2 1.01))TDEV: the nominal schedule for the project, in calendar months, ignoring any mul-tiplier that is related to the project schedule.PM: the effort computed by the COCOMO model.B: a complexity-related exponent, as discussed in section 23.5.2.If B 5 1.17 and PM = 60 thenTDEV 5 3 3 (60)0.36 5 13 monthsThe nominal project schedule predicted by the COCOMO model does not neces-sarily correspond with the schedule required by the software customer. You may 
+have to deliver the software earlier or (more rarely) later than the date suggested by 
+the nominal schedule. If the schedule is to be compressed (i.e., software is to be 
+
+developed more quickly), this increases the effort required for the project. This is 
+
+taken into account by the SCED multiplier in the effort estimation computation.Assume that a project estimated 
+TDEV as 13 months, as suggested above, but the 
+actual schedule required was 10 months. This represents a schedule compression of 
+approximately 25%. Using the values for the 
+SCED multiplier as derived by Boehm™s 
+team, we see that the effort multiplier for this level of schedule compression is 1.43. 
+
+Therefore, the actual effort that will be required if this accelerated schedule is to be 
+met is almost 50% more than the effort required to deliver the software according to 
+the nominal schedule.There is a complex relationship between the number of people working on a pro-ject, the effort that will be devoted to the project. and the project delivery schedule. 
+
+If four people can complete a project in 13 months (i.e., 52 person-months of effort), 
+then you might think that by adding one more person, you could complete the work 
+in 11 months (55 person-months of effort). However, the COCOMO model suggests 
+that you will, in fact, need six people to finish the work in 11 months (66 person-
+months of effort).The reason for this is that adding people to a project reduces the productivity of existing team members. As the project team increases in size, team members spend 
+more time communicating and defining interfaces between the parts of the system 
+developed by other people. Doubling the number of staff (for example) therefore 
+
+does not mean that the duration of the project will be halved.Consequently, when you add an extra person, the actual increment of effort added is less than one person as others become less productive. If the development team is 
+
+large, adding more people to a project sometimes increases rather than reduces the 
+development schedule because of the overall effect on productivity.You cannot simply estimate the number of people required for a project team by 
+dividing the total effort by the required project schedule. Usually, a small number of 
+
+people are needed at the start of a project to carry out the initial design. The team then 

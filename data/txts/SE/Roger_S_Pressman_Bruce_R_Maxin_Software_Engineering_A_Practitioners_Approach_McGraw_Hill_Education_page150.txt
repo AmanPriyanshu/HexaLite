@@ -1,0 +1,86 @@
+120 PART TWO  
+MODELINGThis type of architectural speciﬁ cation can also help diverse system stakehold-
+ers communicate with the design team and each other. 
+ With the exception of relatively small systems that can be prototyped and ex-
+perimented with quickly, doing high-level design using only source code is un-
+
+wise. Agile design documentation keeps step with design and development. To 
+
+avoid waste, the effort expended on these documents should be proportional to 
+the stability of the design. In the early stages of design, descriptions must be ad-
+equate to communicate with stakeholders. The more stable the design the more 
+extensive the descriptions. One approach might be to use design modeling tools 
+that produce executable models that can be evaluated in the usual agile manner. 
+ When these design principles are properly applied, you create a design that exhibits both external and internal quality factors [Mye78].  External quality fac-tors 
+ are those properties of the software that can be readily observed by users 
+(e.g., speed, reliability, correctness, usability).  
+Internal quality factors 
+ are of 
+importance to software engineers. They lead to a high-quality design from the 
+technical perspective. To achieve internal quality factors, the designer must un-
+
+derstand basic design concepts (Chapter 12).   
+ 
+ 
+ 
+Living modeling principles.  
+ 
+  Breu [Bre10] describes  
+living models 
+ as a paradigm 
+that combines model-based development  7 
+ 
+ with the management and operation 
+of service-oriented systems.  8 
+ 
+ Living models support cooperation among all proj-
+ect stakeholders by providing appropriate model-based abstractions that de-
+scribe interdependencies among system elements. There are eight principles 
+that are crucial for establishing a living models environment:   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Principle 1. 
+  Stakeholder-centric models should target speciﬁ c stakehold-Stakeholder-centric models should target speciﬁ
+ c stakehold-
+ers and their tasks.ers and their tasks. 
+ This means that stakeholders are allowed to operate on the models at a level of abstraction that is appropriate, and that lower 
+levels are hidden from them. For example, the CIO is concerned with 
+business processes while a tester needs to formulate test cases at the 
+ requirements level.    
+ 
+ 
+ 
+ 
+ 
+Principle 2. 
+  Models and code should be closely coupled.Models and code should be closely coupled. 
+ If an operable system is the main target, any model that does not reﬂ ect the operable 
+system is useless. This means that the code and model need to be in con-
+sistent states. Tools can be used to support linking models and the code. 
+   
+ 
+ 
+ 
+ 
+ 
+Principle 3. 
+  Bidirectional information ﬂ ow should be established between Bidirectional information ﬂ
+ ow should be established between 
+models and code.models and code. 
+ Changes within the model, code, and operable system must be allowed to propagate when they occur. Traditionally, changes 
+  
+7   Model-based development 
+ (also called  
+model-driven engineering 
+) builds domain models that depict speciﬁ c aspects of an application domain. 
+  
+8  A  
+service-oriented system 
+ packages software functionality in the form of services that are ac-
+cessible through a networked infrastructure. pre22126_ch07_103-130.indd   120pre22126_ch07_103-130.indd   12013/12/13   6:11 PM13/12/13   6:11 PM

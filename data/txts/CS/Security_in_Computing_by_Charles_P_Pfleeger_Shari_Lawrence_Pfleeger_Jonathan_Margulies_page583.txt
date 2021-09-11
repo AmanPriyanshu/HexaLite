@@ -1,0 +1,55 @@
+ Exercises 549  Security enhancement to Hadoop is definitely a welcome step forward, but as with 
+too many security issues we have described in this book, solutions are limited if security 
+
+is added after the fact, is sacrificed to performance, and lacks a broad design and analy-
+
+sis before the security approach is codified.
+7.6 CONCLUSION
+In this chapter we have explored protection of data. Our interests have touched on issues 
+
+of privacy, which we explore in greater depth in Chapter 9. Also, we have previewed 
+
+some security issues of cloud computing, a new name for widely distributed data stor-
+
+age and processing. We address security for the cloud in Chapter 8.
+Protecting data is especially tricky because users can collect and pool data outside 
+the computing system. Thus, although we might set up a solid access control approach 
+
+and complete tracking of what data each individual did access, actions outside the sys-
+
+tem are completely beyond our control.
+EXERCISES1. (a) In an environment in which several users share access to a single database, 
+can one user ever block another’s access for an unlimited period of time? (This 
+
+situation is called indefinite postponement.) (b) Describe a scenario in which two 
+
+users could cause the indefinite postponement of each other. (c) Describe a sce-
+
+nario in which a single user could cause the indefinite postponement of all users.
+2. Using the two-step commit presented in the beginning of this chapter, describe 
+how to avoid assigning one seat to two people, as in the airline example. That 
+
+is, list precisely which steps the database manager should follow in assigning 
+
+passengers to seats.3. Suppose a database manager were to allow nesting of one transaction inside 
+another. That is, after having updated part of one record, the DBMS would allow 
+
+you to select another record, update it, and then perform further updates on the 
+first record. What effect would nesting have on the integrity of a database? Sug-
+
+gest a mechanism by which nesting could be allowed.
+4. Can a database contain two identical records without a negative effect on the 
+integrity of the database? Why or why not?
+5. Some operating systems perform buffered I/O. In this scheme, an output request 
+is accepted from a user and the user is informed of the normal I/O completion. 
+However, the actual physical write operation is performed later, at a time con-
+
+venient to the operating system. Discuss the effect of buffered I/O on integrity 
+
+in a DBMS.6. A database transaction implements the command “set STATUS to ‘CUR-
+RENT’ in all records where BALANCE-OWED 
+ 0.”
+ (a) Describe how that 
+transaction would be performed with the two-step commit described in this 
+
+chapter. (b) Suppose the relations from which that command was formed are 

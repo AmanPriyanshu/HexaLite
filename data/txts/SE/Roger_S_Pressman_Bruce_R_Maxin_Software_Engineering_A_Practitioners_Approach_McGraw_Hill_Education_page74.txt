@@ -1,0 +1,66 @@
+44 PART ONE  
+THE SOFTWARE PROCESS
+linear process. In addition, there may be a compelling need to provide a limited set of software functionality to users quickly and then reﬁ ne and expand on that 
+functionality in later software releases. In such cases, you can choose a process 
+model that is designed to produce the software in increments.   
+The incremental model combines the elements’ linear and parallel process 
+ﬂ ows discussed in Chapter 3. Referring to  
+Figure 4.3 , the incremental model 
+applies linear sequences in a staggered fashion as calendar time progresses. 
+
+Each linear sequence produces deliverable “increments” of the software 
+
+[McD93]. 
+ For example, word-processing software developed using the incremental par-
+adigm might deliver basic ﬁ le management, editing, and document production 
+functions in the ﬁ rst increment; more sophisticated editing and document pro-
+duction capabilities in the second increment; spelling and grammar checking 
+in the third increment; and advanced page layout capability in the fourth incre-
+ment. It should be noted that the process ﬂ ow for any increment can incorporate 
+the prototyping paradigm discussed in the next subsection.  
+ 
+ 
+ 
+ 
+  When an incremental model is used, the ﬁ rst increment is often a  
+core prod-
+uct. 
+ That is, basic requirements are addressed but many supplementary fea-
+tures (some known, others unknown) remain undelivered. The core product is 
+
+used by the customer (or undergoes detailed evaluation). As a result of use and/
+or evaluation, a plan is developed for the next increment. The plan addresses 
+
+the modiﬁ cation of the core product to better meet the needs of the customer 
+and the delivery of additional features and functionality. This process is re-
+
+peated following the delivery of each increment, until the complete product is 
+
+produced. 
+   The incremental 
+model delivers a 
+series of releases, 
+called increments, that 
+provide progressively 
+more functionality for 
+the customer as each 
+ increment is delivered. 
+increment # 1increment # 2delivery of
+1st incrementdelivery of
+2nd incrementdelivery of 
+nth incrementincrement # nProject Calendar Time
+Software Functionality and FeaturesCommunicationPlanningModeling (analysis, design)Construction (code, test)Deployment (delivery, feedback)
+ 
+FIGURE 4.3 
+The incremen-
+tal model   Your customer de-
+mands delivery by a 
+
+date that is impossible 
+to meet. Suggest deliv-
+ering one or more in-
+crements by that date 
+and the rest of the 
+software (additional 
+increments) later. 
+pre22126_ch04_040-065.indd   44pre22126_ch04_040-065.indd   4413/12/13   6:10 PM13/12/13   6:10 PM

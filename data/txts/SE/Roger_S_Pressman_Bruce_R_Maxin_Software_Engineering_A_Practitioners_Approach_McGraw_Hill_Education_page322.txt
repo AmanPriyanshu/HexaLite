@@ -1,0 +1,55 @@
+292 PART TWO  
+MODELING 
+ 
+14.2.1 Basic Design Principles 
+ 
+Four basic design principles are applicable to component-level design and have been widely adopted when object-oriented software engineering is applied. The 
+underlying motivation for the application of these principles is to create designs 
+that are more amenable to change and to reduce the propagation of side effects 
+when changes do occur. You can use these principles as a guide as each software 
+
+component is developed.   
+The Open-Closed Principle (OCP).   
+“ A module [component] should be open for 
+extension but closed for modiﬁ cation”
+ 
+ [Mar00]. This statement seems to be a con-
+tradiction, but it represents one of the most important characteristics of a good 
+
+component-level design. Stated simply, you should specify the component in a way 
+
+that allows it to be extended (within the functional domain that it addresses) with-
+out the need to make internal (code or logic-level) modiﬁ cations to the component 
+itself. To accomplish this, you create abstractions that serve as a buffer between 
+
+the functionality that is likely to be extended and the design class itself. 
+ For example, assume that the  SafeHome 
+ security function makes use of a 
+ Detector class that must check the status of each type of security sensor. It is 
+likely that as time passes, the number and types of security sensors will grow. 
+
+If internal processing logic is implemented as a sequence of if-then-else con-
+structs, each addressing a different sensor type, the addition of a new sensor 
+type will require additional internal processing logic (still another if-then-else). 
+This is a violation of OCP. 
+  One way to accomplish OCP for the Detector class is illustrated in  
+Figure 14.4 . The  sensor 
+ interface presents a consistent view of sensors to the detector compo-
+nent. If a new type of sensor is added no change is required for the Detector class 
+(component). The OCP is preserved.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+FIGURE 14.4 
+Following the OCP  
+ Detector<<interface>>
+Sensorread( ) enable( ) 
+disable( ) 
+test( )Window/ 
+doorSensorSmokeSensorMotionDetectorHeatSensorCO2Sensorpre22126_ch14_285-316.indd   292pre22126_ch14_285-316.indd   29213/12/13   6:12 PM13/12/13   6:12 PM

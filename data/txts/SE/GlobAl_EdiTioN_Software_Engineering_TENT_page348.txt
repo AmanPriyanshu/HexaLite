@@ -1,0 +1,47 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜costs are incurred by risks at the top of the diagram, the lowest costs by risks at the 
+apex of the triangle.The boundaries between the regions in Figure 12.3 are not fixed but depend on how acceptable risks are in the societies where the system will be deployed. This 
+
+varies from country to countryŠsome societies are more risk averse and litigious 
+
+than others. Over time, however, all societies have become more risk-averse, so the 
+boundaries have moved downward. For rare events, the financial costs of accepting 
+
+risks and paying for any resulting accidents may be less than the costs of accident 
+prevention. However, public opinion may demand that money be spent to reduce the 
+likelihood of a system accident irrespective of cost.For example, it may be cheaper for a company to clean up pollution on the rare occa-sion it occurs, rather than to install systems for pollution prevention. However, because 
+
+the public and the media will not tolerate such accidents, clearing up the damage rather 
+
+than preventing the accident is no longer acceptable. Events in other systems may also 
+
+lead to a reclassification of risk. For example, risks that were thought to be improbable 
+
+(and hence in the ALARP region) may be reclassified as intolerable because of external 
+
+events, such as terrorist attacks, or natural phenomena, such as tsunamis.Figure 12.
+4 shows a risk classification for the hazards identified in the previous section for the insulin delivery system. I have separated the hazards that relate to the 
+incorrect computation of insulin into an insulin overdose and an insulin underdose. 
+An insulin overdose is potentially more serious than an insulin underdose in the 
+
+short term. Insulin overdose can result in cognitive dysfunction, coma, and ulti-
+mately death. Insulin underdoses lead to high levels of blood sugar. In the short 
+
+term, these high levels cause tiredness but are not very serious; in the longer term, 
+however, they can lead to serious heart, kidney, and eye problems.Hazards 4Œ9 in Figure 12.4 are not software related, but software nevertheless has a 
+role to play in hazard detection. The hardware monitoring software should monitor the 
+
+system state and warn of potential problems. The warning will often allow the hazard to 
+Identified hazardHazard 
+probabilityAccident 
+severityEstimated 
+riskAcceptability1.  Insulin overdose computationMedium
+HighHighIntolerable2.  Insulin underdose 
+computationMediumLowLowAcceptable3.  Failure of hardware 
+monitoring systemMediumMediumLowALARP4. Power failureHighLowLowAcceptable5. Machine incorrectly fittedHighHighHighIntolerable6. Machine breaks in patientLow
+HighMediumALARP
+7. Machine causes infectionMediumMediumMediumALARP
+8. Electrical interferenceLowHighMediumALARP
+9. Allergic reactionLowLowLowAcceptableFigure 12.4 Risk classification for the 
+insulin pump

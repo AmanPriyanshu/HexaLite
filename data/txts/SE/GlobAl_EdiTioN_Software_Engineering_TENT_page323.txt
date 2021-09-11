@@ -1,0 +1,42 @@
+˜˜˜˚˝˜˜˜˜˜˜
+to fail independently. It assumes that, when fully operational, all hardware units per-form to specification. There is therefore a low probability of simultaneous compo-
+nent failure in all hardware units.Of course, the components could all have a common design fault and thus all 
+produce the same (wrong) answer. Using hardware units that have a common speci-
+fication but that are designed and built by different manufacturers reduces the 
+
+chances of such a common mode failure. It is assumed that the probability of differ-
+ent teams making the same design or manufacturing error is small.A similar approach can be used for fault-tolerant software where N diverse ver-sions of a software system execute in parallel (Avizienis 1995). This approach to 
+
+software fault tolerance, illustrated in Figure 11.10, has been used in railway signal-
+ing systems, aircraft systems, and reactor protection systems.Using a common specification, the same software system is implemented by a 
+number of teams. These versions are executed on separate computers. Their outputs 
+are compared using a voting system, and inconsistent outputs or outputs that are not 
+produced in time are rejected. At least three versions of the system should be avail
+-
+able so that two versions should be consistent in the event of a single failure. N-version programming may be less expensive than self-checking architectures in systems for which a high level of availability is required. However, it still requires 
+several different teams to develop different versions of the software. This leads to 
+very high software development costs. As a result, this approach is only used in sys
+-
+tems where it is impractical to provide a protection system that can guard against 
+
+safety-critical failures.All of the above fault-tolerant architectures rely on software diversity to achieve fault 
+
+tolerance. This is based on the assumption that diverse implementations of the same 
+
+specification (or a part of the specification, for protection systems) are independent. 
+
+They should not include common errors and so will not fail in the same way, at the 
+
+same time. The software should therefore be written by different teams who should 
+
+not communicate during the development process. This requirement reduces the 
+
+chances of common misunderstandings or misinterpretations of the specification.Version 2
+Version 1
+Version 3
+OutputselectorN software versions
+Agreed
+
+result
+Fault
+managerInputFigure 11.10  N-version programming 

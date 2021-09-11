@@ -1,0 +1,50 @@
+ Section 1.2  Threats 
+11  different meanings. For example, if we say that we have preserved the integrity of an 
+item, we may mean that the item is• precise• accurate
+• unmodified
+
+• modified only in acceptable ways
+
+• modified only by authorized people
+
+• modified only by authorized processes
+
+• consistent
+• internally consistent
+
+• meaningful and usable
+Integrity can also mean two or more of these properties. Welke and Mayfield recog-
+nize three particular aspects of integrity—authorized actions, separation and protection 
+
+of resources, and error detection and correction. Integrity can be enforced in much the 
+
+same way as can confidentiality: by rigorous control of who or what can access which 
+
+resources in what ways. 
+Availability
+A computer user’s worst nightmare: You turn on the switch and the computer does noth-
+
+ing. Your data and programs are presumably still there, but you cannot get at them. For-
+
+tunately, few of us experience that failure. Many of us do experience overload, however: 
+
+access gets slower and slower; the computer responds but not in a way we consider 
+
+normal or acceptable. Availability applies both to data and to services (that is, to information and to infor-
+mation processing), and it is similarly complex. As with the notion of confidentiality, 
+
+different people expect availability to mean different things. For example, an object or 
+
+service is thought to be available if the following are true:
+• It is present in a usable form.
+• It has enough capacity to meet the service’s needs.
+
+• It is making clear progress, and, if in wait mode, it has a bounded waiting time.
+
+• The service is completed in an acceptable period of time.
+We can construct an overall description of availability by combining these goals. 
+Following are some criteria to define availability.
+• There is a timely response to our request.
+• Resources are allocated fairly so that some requesters are not favored over 
+others.• Concurrency is controlled; that is, simultaneous access, deadlock management, 
+and exclusive access are supported as required.

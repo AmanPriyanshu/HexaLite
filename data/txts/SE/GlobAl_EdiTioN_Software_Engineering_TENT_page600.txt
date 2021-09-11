@@ -1,0 +1,47 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜important that these interfaces are not too restrictive so that the system elements can evolve and continue to be useful participants in the SoS.4.
+ Provide collaboration incentives. When the system elements are independently 
+
+owned and managed, it is important each system owner have incentives to continue 
+
+to participate in the system. These may be financial incentives (pay per use or reduced 
+
+operational costs), access incentives (you share your data and I™ll share mine), or 
+
+community incentives (participate in a SoS and you get a say in the community).Sillitto (Sillitto 2010) has added to these principles and suggests additional 
+important design guidelines. These include the following:1. Design a SoS as node and web architecture. Nodes are sociotechnical systems that include data, software, hardware, infrastructure (technical components), 
+
+and organizational policies, people, processes, and training (sociotechnical). 
+
+The web is not just the communications infrastructure between nodes, but it also 
+provides a mechanism for informal and formal social communications between 
+the people managing and running the systems at each node.2.
+ Specify behavior as services exchanged between nodes. The development of 
+
+service-oriented architectures now provides a standard mechanism for system 
+
+operability. If a system does not already provide a service interface, then this 
+
+interface should be implemented as part of the SoS development process.3. Understand and manage system vulnerabilities. In any SoS, there will be unex-
+pected failures and undesirable behavior. It is critically important to try to 
+
+understand vulnerabilities and design the system to be resilient to such failures.The key message that emerges from both Maier™s and Sillitto™s work is that SoS architects have to take a broad perspective. They need to look at the system as a 
+
+whole, taking into account both technical and sociotechnical considerations. 
+
+Sometimes the best solution to a problem is not more software but changes to the 
+rules and policies that govern the operation of the system.Architectural frameworks such as MODAF (MOD 2008) and TOGAF (TOGAF is a registered trademark of The Open Group 2011) have been suggested as a means 
+of supporting the architectural design of systems of systems. Architectural frame-
+works were originally developed to support enterprise systems architectures, which 
+are portfolios of separate systems. Enterprise systems may be organizational systems 
+of systems, or they may have a simpler management structure so that the system 
+
+portfolio can be managed as a whole. Architectural frameworks are intended for the 
+development of organizational systems of systems where there is a single govern
+-
+ance authority for the entire SoS.An architectural framework recognizes that a single model of an architecture does not present all of the information needed for architectural and business analysis. 
+
+Rather, frameworks propose a number of architectural views that should be created 
+and maintained to describe and document enterprise systems. Frameworks have 
+
+much in common and tend to reflect the language and history of the organizations 

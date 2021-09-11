@@ -1,0 +1,58 @@
+484 Chapter 6  
+Networksremember past situations and sometimes recognize connections or similarities that an IDS may not detect.Unfortunately, generating an alarm requires that a human be constantly available to 
+respond to that alarm and that the response be timely and appropriate. If multiple sen-
+
+sors generate alarms at the same time, the human can become overloaded and miss new 
+
+alarms or be so involved with one that the second alarm is not handled quickly enough. 
+
+Worse, the second alarm can so distract or confuse the human, that action on the first 
+
+alarm is jeopardized. In Sidebar 6-25 we discuss how too many alarms contributed to a 
+
+serious breach.SIDEBAR 6-25  
+Target Corp. Overwhelmed by Too Many 
+AlarmsIn late 2013 what now turns out to have been Russian hackers infiltrated 
+the network of Target, a major retailer in the United States. The attackers 
+
+planted code to collect shoppers’ credit and debit card numbers, includ-
+
+ing the verification number that would make those numbers quite valuable 
+on the black market. In all, 40 million numbers were stolen in a few weeks 
+
+leading up to Christmas, typically a retailer’s busiest shopping period of 
+
+the year.
+Target had invested in intrusion detection technology, which was 
+working and noticed suspicious activity. The software notified Target’s secu-
+
+rity monitoring center which analyzed the situation and raised an alert to the 
+
+firm’s security operations center on 30 November and again on 2 Decem-
+
+ber. The staff of the security operations center did nothing.
+“Like any large company, each week at Target there are a vast number of 
+technical events that take place and are logged. Through our investigation, 
+
+we learned that after these criminals entered our network, a small amount 
+
+of their activity was logged and surfaced to our team,” said Target spokes-
+
+woman Molly Snyder via email. “That activity was evaluated and acted upon.” 
+
+[SCH14]The threats received were classified as “malware.binary” meaning an 
+unidentified piece of malicious code of unknown type, source, or capability. 
+
+Some experts say they expect the Target security team received hundreds 
+
+of such threat alerts every day. 
+This story points out the difficulty of using IDS technology: Unless 
+someone acts on the alarms produced, raising the warning has no value. 
+
+But sometimes the number of alarms is so large the response team is 
+
+swamped. With too many alarms, responders can become complacent, 
+
+ignoring serious situations because investigation of previous alerts turned 
+
+up empty.

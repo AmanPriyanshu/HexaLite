@@ -1,0 +1,49 @@
+550 Chapter 7  
+Databases(CUSTOMER-ID,STATUS) and (CUSTOMER-ID,BALANCE-OWED). 
+How would the transaction be performed? (c) Suppose the relations from 
+
+which that command was formed are (CUSTOMER-ID,STATUS), (CREDIT-
+
+ID,CUSTOMER-ID), (CREDIT-ID, BALANCE-OWED). How would the 
+
+transaction be performed?7. Show that if longitudinal parity is used as an error detection code, values in a data-
+base can still be modified without detection. (Longitudinal parity is computed for 
+
+the nth bit of each byte; that is, one parity bit is computed and retained for all bits 
+in the 0th position, another parity bit for all bits in the 1st position, etc.)8. Suppose query Q1 obtains the median 
+ml of a set 
+S1 of values, and query 
+Q2 obtains the median m2 of a subset 
+S2 of 
+S1. If m1  m2, what can be inferred 
+about S1, S2, and the elements of S1 not in S2?9. Disclosure of the sum of all financial aid for students in Smith dorm is not sensi-
+tive because no individual student is associated with an amount. Similarly, a list 
+
+of names of students receiving financial aid is not sensitive because no amounts 
+
+are specified. However, the combination of these two lists reveals the amount 
+
+for an individual student if only one student in Smith dorm receives aid. What 
+
+computation would a database management system have to perform to deter-
+
+mine that the list of names might reveal sensitive data? What records would the 
+
+database management system have to maintain on what different users know in 
+
+order to determine that the list of names might reveal sensitive data?
+10. One approach suggested to ensure privacy is the small result rejection, in which 
+the system rejects (returns no result from) any query, the result of which is 
+
+derived from a small number, for example, five, of records. Show how to obtain 
+
+sensitive data by using only queries derived from six records.
+11. The response “sensitive value; response suppressed” is itself a disclosure. Sug-
+gest a manner in which a database management system could suppress responses 
+that reveal sensitive information without disclosing that the responses to certain 
+
+queries are sensitive.
+12. Cite a situation in which the sensitivity of an aggregate is greater than that of 
+its constituent values. Cite a situation in which the sensitivity of an aggregate is 
+
+less than that of its constituent values.

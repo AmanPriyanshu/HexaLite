@@ -1,0 +1,59 @@
+474 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+ 
+ 
+Selective testing of execution paths is an essential task during the unit test. Test cases should be designed to uncover errors due to erroneous computations, 
+
+incorrect comparisons, or improper control ﬂ ow. 
+  
+ 
+ 
+ 
+ 
+Boundary testing is one of the most important unit testing tasks. Software often fails at its boundaries. That is, errors often occur when the  n 
+th element of an  n 
+-dimensional array is processed, when the  i 
+th repetition of a loop with  i 
+ passes is invoked, when the maximum or minimum allowable value is encoun-
+tered. Test cases that exercise data structure, control ﬂ
+ ow, and data values just 
+below, at, and just above maxima and minima are very likely to uncover errors. 
+ A good design anticipates error conditions and establishes error-handling 
+paths to reroute or cleanly terminate processing when an error does occur. Your-
+
+don [You75] calls this approach  
+antibugging. 
+ Unfortunately, there is a tendency 
+to incorporate error handling into software and then never test the error han-
+dling. If error-handling paths are implemented, they must be tested. 
+ Among the potential errors that should be tested when error handling is eval-uated are: (1) error description is unintelligible, (2) error noted does not corre-
+spond to error encountered, (3) error condition causes system intervention prior 
+to error handling, (4) exception-condition processing is incorrect, or (5) error 
+description does not provide enough information to assist in the location of the 
+cause of the error. 
+  
+ 
+Unit-Test Procedures.   
+Unit testing is normally considered as an adjunct to the coding step. The design of unit tests can occur before coding begins or after 
+source code has been generated. A review of design information provides guid-
+ance for establishing test cases that are likely to uncover errors in each of the  What 
+errors are commonly found 
+during unit 
+testing? ?   Be sure that you 
+
+design tests to execute 
+every error-handling 
+
+path. If you don’t, the 
+path may fail when it 
+is invoked, exacerbat-
+ing an already dicey 
+situation. TestcasesModuleInterface
+Local data structures
+Boundary conditions
+Independent paths
+Error-handling paths FIGURE 22.3 
+Unit testpre22126_ch22_466-495.indd   474pre22126_ch22_466-495.indd   47413/12/13   6:14 PM13/12/13   6:14 PM

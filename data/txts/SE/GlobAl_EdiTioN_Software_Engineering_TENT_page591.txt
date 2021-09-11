@@ -1,0 +1,55 @@
+˜˜˚˛˙˜˜˜˜˜˜˜˜
+In software engineering, we have seen the incredibly rapid development of the 
+discipline to help manage the increasing size and complexity of software systems. This effort has been very successful indeed. We can now build systems that are 
+
+orders of magnitude larger and more complex than those of the 1960s and 1970s.As with other engineering disciplines, the approach that has been the basis 
+of˜complexity management in software engineering is called 
+reductionism. 
+Reductionism is a philosophical position based on the assumptions that any system 
+is made up of parts or subsystems. It assumes that the behavior and properties of the 
+system as a whole can be understood and predicted by understanding the individual 
+parts and the relationships between these parts. Therefore, to design a system, the 
+parts making up that system are identified, constructed separately, and then assem
+-
+bled into the complete system. Systems can be thought of as hierarchies, with the 
+
+important relationships between parent and child nodes in the hierarchy.Reductionism has been and continues to be the fundamental underpinning 
+approach to all kinds of engineering. We can identify common abstractions 
+
+across the same types of system and design and build these separately. They can 
+
+then be integrated to create the required system. For example, the abstractions in 
+
+an automobile might be a body shell, a drive train, an engine, a fuel system, and 
+
+so on. There are a relatively small number of relationships between these abstrac-
+tions, so it is possible to specify interfaces and design and build each part of the 
+
+system separately.The same reductionist approach has been the basis of software engineering for 
+almost 50 years. Top-down design, where you start with a very high-level model of 
+a system and break this down to its components is a reductionist approach. This is 
+the basis of all software design methods, such as object-oriented design. Programming 
+languages include abstractions, such as procedures and objects that directly reflect 
+reductionist system decomposition.Agile methods, although they may appear quite different from top-down systems design, are also reductionist. They rely on being able to decompose a system into 
+
+parts, implement these parts separately, and then integrate these to create the system. 
+The only real difference between agile methods and top-down design is that the sys-
+tem is decomposed into components incrementally rather than all at once.Reductionist methods are most successful when there are relatively few rela
+-tionships or interactions between the parts of a system and it is possible to model 
+
+these relationships in a scientific way. This is generally true for mechanical and 
+
+electrical systems where there are physical linkages between the system compo-
+nents. It is less true for electronic systems and certainly not the case for software 
+
+systems, where there may be many more static and dynamic relationships between 
+
+system components.The distinctions between software and hardware components was recognized in 
+the 1970s. Design methods emphasized the importance of limiting and controlling 
+
+the relationships between the parts of a system. These methods suggested that com-
+ponents should be tightly integrated with loose coupling between these components. 
+
+Tight integration meant that most of the relationships were internal to a component, 
+
+and loose coupling meant that there were relatively few componentŒcomponent 

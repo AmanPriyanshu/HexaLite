@@ -1,0 +1,46 @@
+438 Chapter 6  
+NetworksSSH EncryptionSSH (secure shell) is a pair of protocols (versions 1 and 2) originally defined for Unix 
+but now available under most operating systems. SSH provides an authenticated and 
+
+encrypted path to the shell or operating system command interpreter. Both SSH ver-
+
+sions replace Unix utilities such as Telnet, rlogin, and rsh for remote access. SSH pro-
+
+tects against spoofing attacks and modification of data in communication.
+The SSH protocol involves negotiation between local and remote sites for encryp-
+tion algorithm (for example, DES or AES) and authentication (including public key and 
+
+Kerberos).
+In 2008, a team of British researchers [ALB09] devised an attack by which they 
+could recover 32 bits of data from an SSH session in certain circumstances. Although 
+
+exposure of 32 bits of data is significant, the British Centre for the Protection of the 
+
+National Infrastructure rated the likelihood of successful attack as low because of the 
+
+conditions necessary for a successful attack. Nevertheless, you should note that the pro-
+
+tocol does have a known vulnerability.
+SSL and TLS EncryptionThe Secure Sockets Layer (SSL)
+ protocol was originally designed by Netscape in 
+the mid-1990s to protect communication between a web browser and server. It went 
+
+through three versions: SSL 1.0 (private), SSL 2.0 (1995), and SSL 3.0 (1996). In 1999, 
+
+the Internet Engineering Task Force upgraded SSL 3.0 and named the upgrade 
+TLS, TABLE 6-3 
+Comparison of Link and End-to-End EncryptionLink EncryptionEnd-to-End Encryption
+Security within hostsData partially exposed in sending hostData protected in sending host
+Data partially exposed in intermediate nodesData protected through intermediate nodes
+Role of userApplied by sending hostApplied by user application
+Invisible to userUser application encrypts
+
+Host administrators select encryptionUser selects algorithm
+
+One facility for all usersEach user selects
+
+Can be done in software or hardwareUsually software implementation; occasionally performed 
+by user add-on hardware
+All or no data encryptedUser can selectively encrypt individual data items
+Implementation considerationsRequires one key per pair of hostsRequires one key per pair of users
+Provides node authenticationProvides user authentication

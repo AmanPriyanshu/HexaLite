@@ -1,0 +1,59 @@
+CHAPTER 38  
+EMERGING TRENDS IN SOFTWARE ENGINEERING
+ 841 
+ 
+ 
+You should note that many research and technology trends never reach ma-
+turity. In fact, the vast majority of “promising” technologies in the software en-
+
+gineering domain receive widespread interest for a few years and then fall into 
+niche usage by a dedicated band of adherents. This is not to say that these tech-
+nologies lack merit, but rather to emphasize that the journey through the inno-
+vation life cycle is long and hard.  Kurzweil [Kur05] agrees that computing technologies evolve through an “S-curve” that exhibits relatively slow growth during the technology’s formative 
+
+years, rapid acceleration during its growth period, and then a leveling-off period 
+as the technology reaches its limits. Today, we a rapidly accelerating through 
+
+the knee of the S-curve for modern computing technologies—at the transition 
+between early growth and the explosive growth that is to follow. The implication 
+
+years, we will see dramatic (even mind-boggling) 
+
+changes in computing capability. He suggests that within 20 years, technology 
+
+evolution will accelerate at an increasingly rapid pace, ultimately leading to an 
+era of nonbiological intelligence that will merge with and extend human intelli-
+gence in ways that are fascinating to contemplate.  And all of this, no matter how it evolves, will require software and systems that make our current efforts look infantile by comparison. By the year 2040, a com-
+bination of extreme computation, nanotechnology, massively high bandwidth 
+
+ubiquitous networks, and robotics will lead us into a different world.  1 
+ 
+ Software, 
+possibly in forms we cannot yet comprehend, will continue to reside at the core 
+of this new world. Software engineering will not go away. 
+  
+ 
+ 
+ 
+ 
+ 38.2  
+PROSPECTS FOR A TRUE ENGINEERING DISCIPLINE  
+ 
+For almost 50 years, many academic researchers and industry professionals have clamored for a true engineering discipline for software. In an important 
+follow-on to her classic 1990 paper the subject, Mary Shaw [Sha09] comments on 
+this continuing quest:  
+Engineering disciplines typically evolve from craft practices of a technology, sufﬁ
+ -cient for local or ad hoc use. When the technology becomes economically signiﬁ cant, 
+it requires stable production techniques and management control. The resulting 
+commercial market is based on experience, rather than a deep understanding of the 
+science becomes sufﬁ
+ -ciently mature to support purposeful practice and design evolution with predictable 
+outcomes.  
+  
+ 
+1  Kurzweil [Kur05] presents a reasoned technical argument that predicts a strong artiﬁ
+ cial intel-
+ligence (that will pass the Turing Test) by 2029 and suggests that the evolution of humans and 
+
+machines will begin to merge by 2045. The vast majority of readers of this book will live to see 
+whether this, in fact, comes to pass. pre22126_ch38_839-859.indd   841pre22126_ch38_839-859.indd   84113/12/13   6:17 PM13/12/13   6:17 PM

@@ -1,0 +1,34 @@
+436 Chapter 6  
+NetworksBecause the encryption precedes all the routing and transmission processing of 
+the layer, the message is transmitted in encrypted form throughout the network. Of 
+
+course, only the data portion of the message is protected, but often the headers are not 
+
+as sensitive as the data. The encryption addresses potential flaws in lower layers in 
+
+the transfer model. If a lower layer should fail to preserve security and reveal data it 
+
+has received, the data’s confidenti-
+
+ality is not endangered. Figure 6-39 
+shows a typical message with end-
+
+to-end encryption, again with the 
+
+encrypted field shaded.
+FIGURE 6-39 End-to-End EncryptionH1H2MEncryptedT3T2H3T1
+T3MWhen end-to-end encryption is used, messages sent through several hosts are pro-
+tected. The data content of the message is still encrypted, as shown in Figure 6-40, and 
+
+the message is encrypted (protected against disclosure) while in transit. Therefore, even 
+
+though a message must pass through potentially insecure nodes (such as C through F) on 
+
+the path between A and B, the message is protected against disclosure while in transit.
+FIGURE 6-40 Message Protected in Transit
+ABDCFEEncryptedComparison of Encryption MethodsSimply encrypting a message is not absolute assurance that it will not be revealed dur-
+ing or after transmission. In many instances, however, the strength of encryption is 
+End-to-end encryption covers a 
+communication from origin to 
+
+destination.

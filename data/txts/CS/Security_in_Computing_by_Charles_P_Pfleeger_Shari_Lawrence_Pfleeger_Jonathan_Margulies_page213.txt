@@ -1,0 +1,80 @@
+ Section 3.2  Malicious Code—Malware 
+179  The Morris worm of 1988 infected only 3,000 computers, but those computers con-
+stituted a significant proportion, perhaps as much as half, of what was then the Internet. 
+
+The IloveYou worm (transmitted in an email message with the alluring subject line  
+
+“I Love You”) is estimated to have infected 100,000 servers; the security firm Message 
+
+Labs estimated that, at the attack’s height, 1 email of every 28 transmitted worldwide 
+
+was an infection from the worm. Code Red is believed to have affected close to 3 mil-
+
+lion hosts. By some estimates, the Conficker worms (several strains) control a network 
+
+of 1.5 million compromised and unrepaired hosts under the worms’ author’s control 
+
+[MAR09]. Costs of recovery from major infections like these typically exceed $1 mil-
+
+lion US. Thus, computer users and society in general bear a heavy cost for dealing with 
+
+malware.
+Damage Estimates How do you determine the cost or damage of any computer security incident? The prob-
+
+lem is similar to the question of determining the cost of a complex disaster such as a 
+
+building collapse, earthquake, oil spill, or personal injury. Unfortunately, translating 
+
+harm into money is difficult, in computer security and other domains.
+The first step is to enumerate the losses. Some will be tangibles, such as damaged 
+equipment. Other losses include lost or damaged data that must be re-created or repaired, 
+and degradation of service in which it takes an employee twice as long to perform a 
+
+task. Costs also arise in investigat-
+
+ing the extent of damage. (Which 
+
+programs and data are affected and 
+
+which archived versions are safe to 
+
+reload?) Then there are intangibles 
+
+and unmeasurables such as loss of 
+
+customers or damage to reputation.You must determine a fair value for each thing lost. Damaged hardware or software 
+is easy if there is a price to obtain a replacement. For damaged data, you must estimate 
+
+the cost of staff time to recover, re-create, or repair the data, including the time to deter-
+
+mine what is and is not damaged. Loss of customers can be estimated from the differ-
+
+ence between number of customers before and after an incident; you can price the loss 
+from the average profit per customer. Harm to reputation is a real loss, but extremely 
+
+difficult to price fairly. As we saw when exploring risk management, people’s percep-
+
+tions of risk affect the way they estimate the impact of an attack. So their estimates will 
+
+vary for the value of loss of a human’s life or damage to reputation.
+Knowing the losses and their approximate cost, you can compute the total cost of 
+an incident. But as you can easily see, determining what to include as losses and valu-
+
+ing them fairly can be subjective and imprecise. Subjective and imprecise do not mean 
+
+invalid; they just indicate significant room for variation. You can understand, therefore, 
+
+why there can be orders of magnitude differences in damage estimates for recovering 
+
+from a security incident. For example, estimates of damage from Code Red range from 
+
+$500 million to $2.6 billion, and one estimate of the damage from Conficker, for which 
+
+9 to 15 million systems were repaired (plus 1.5 million not yet cleaned of the infection), 
+was $9.2 billion, or roughly $1,000 per system [DAN09].
+Estimating the cost of an incident is 
+hard. That does not mean the cost 
+
+is zero or insignificant, just hard to 
+
+determine.

@@ -1,0 +1,49 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜redundancy, where similar functionality is provided in different ways. (I discuss 
+software diversity in more detail in Chapter 12.)Diversity and redundancy may also be also used in the design of dependable soft-ware development processes. Dependable development processes avoid the intro
+-
+duction of faults into a system. In a dependable process, activities such as software 
+validation do not rely on a single tool or technique. This improves software depend-
+
+ability because it reduces the chances of process failure, where human errors made 
+during the software development process lead to software errors.For example, validation activities may include program testing, manual program 
+inspections, and static analysis as fault-finding techniques. Any one of these techniques 
+
+might find faults that are missed by the other methods. Furthermore, different team 
+
+members may be responsible for the same process activity (e.g., a program inspection). 
+
+People tackle tasks in different ways depending on their personality, experience, and 
+
+education, so this kind of redundancy provides a diverse perspective on the system.However, as I discuss in Chapter 11, using software redundancy and diversity 
+can itself introduce bugs into software. Diversity and redundancy make systems 
+
+more complex and usually harder to understand. Not only is there more code to 
+
+write and check, but additional functionality must also be added to the system to 
+
+detect component failure and to switch control to alternative components. This addi-
+tional complexity means that it is more likely that programmers will make errors 
+
+and less likely that people checking the system will find these errors.Some engineers therefore think that, as software cannot wear out, it is best to 
+avoid software redundancy and diversity. Their view is that the best approach is to 
+design the software to be as simple as possible, with extremely rigorous software 
+
+verification and validation procedures (Parnas, van Schouwen, and Shu 1990). More 
+can be spent on verification and validation because of the savings that result from 
+not having to develop redundant software components.Both approaches are used in commercial, safety-critical software systems. For 
+example, the Airbus 340 flight control hardware and software is both diverse and 
+
+redundant. The flight control software on the Boeing 777 runs on redundant hard-
+ware, but each computer runs the same software, which has been very extensively 
+validated. The Boeing 777 flight control system designers have focused on simplic
+-
+ity rather than redundancy. Both of these aircraft are very reliable, so both the diverse 
+and the simple approach to dependability can clearly be successful.The Ariane 5 explosionIn 1996, the European Space Agency™s Ariane 5 rocket exploded 37 seconds after lift-off on its maiden flight. 
+
+The fault was caused by a software systems failure. There was a backup system but it was not diverse, and 
+
+so the software in the backup computer failed in exactly the same way. The rocket and its satellite payload 
+
+were destroyed.http://software-engineering-book.com/web/ariane/

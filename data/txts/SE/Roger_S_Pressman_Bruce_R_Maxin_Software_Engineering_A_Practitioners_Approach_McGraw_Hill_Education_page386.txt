@@ -1,0 +1,72 @@
+356 PART TWO  
+MODELING 
+ 
+It’s important to note that patterns are not independent entities. Design pat-
+terns that are present at a high level of abstraction will invariably inﬂ uence the 
+manner in which other patterns are applied at lower levels of abstraction. In ad-
+dition, patterns often collaborate with one another. The implication—when you 
+
+select an architectural pattern, it may very well inﬂ uence the component-level 
+design patterns you choose. Likewise, when you select a speciﬁ c interface de-
+sign pattern, you are sometimes forced to use other patterns that collaborate 
+
+with it. 
+ To illustrate, consider the  
+SafeHomeAssured.com  WebApp. If you consider 
+the big picture, the WebApp must address how to provide information about 
+
+ SafeHome 
+ products and services, how to sell  
+SafeHome 
+ products and services 
+to customers, and how to establish Internet-based monitoring and control of an 
+installed security system. Each of these fundamental problems can be further 
+reﬁ ned into a set of subproblems. 
+ For example,  How to sell 
+ via the Internet implies an  
+E-commerce 
+ pattern 
+that itself implies a large number of patterns at lower levels of abstraction. The  E-commerce 
+ pattern (likely, an architectural pattern) implies mechanisms for 
+setting up a customer account, displaying the products to be sold, selecting prod-
+ucts for purchase, and so forth. Hence, if you think in patterns, it is important to 
+determine whether a pattern for setting up an account exists. If  SetUpAccount 
+ is available as a viable pattern for the problem context, it may collaborate with 
+other patterns such as  BuildInputForm, ManageFormsInput, 
+ and  
+ValidateForms-
+Entry 
+. Each of these patterns delineates problems to be solved and solutions that may be applied.   
+ 
+16.2.3  Design Tasks 
+ 
+The following design tasks are applied when a pattern-based design philosophy is used:  
+ 
+ 
+ 1.
+   
+Examine the requirements model and develop a problem hierarchy.
+ 
+ Describe each problem and subproblem by isolating the problem, the 
+context, and the system of forces that apply. Work from broad problems 
+
+(high level of abstraction) to smaller subproblems (at lower levels of 
+abstraction).   
+ 
+ 
+ 2.
+   
+Determine if a reliable pattern language has been developed for the 
+problem domain. 
+ As we noted in Section 16.1.4, a pattern language 
+addresses problems associated with a specific application domain. 
+
+The  SafeHome 
+ software team would look for a pattern language de-veloped specifically for home security products. If that level of pattern 
+
+language specificity could not be found, the team would partition the 
+
+ SafeHome 
+ software problem into a series of generic problem domains 
+(e.g., digital device monitoring problems, user interface problems, 
+pre22126_ch16_347-370.indd   356pre22126_ch16_347-370.indd   35616/12/13   6:22 PM16/12/13   6:22 PM

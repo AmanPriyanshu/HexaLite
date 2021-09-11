@@ -1,0 +1,43 @@
+˜˜˚˛˝˜˜˜˜˜˜
+specific requirement or group of requirements. You therefore have to decide which of 
+these component compositions provide the best coverage of the requirements.Once you have selected components for possible inclusion in a system, you should 
+then validate them to check that they behave as advertised. The extent of the validation 
+
+required depends on the source of the components. If you are using a component that 
+
+has been developed by a known and trusted source, you may decide that component 
+
+testing is unnecessary. You simply test the component when it is integrated with other 
+
+components. On the other hand, if you are using a component from an unknown source, 
+
+you should always check and test that component before including it in your system.Component validation involves developing a set of test cases for a component 
+(or, possibly, extending test cases supplied with that component) and developing a 
+test harness to run component tests. The major problem with component validation 
+is that the component specification may not be sufficiently detailed to allow you to 
+develop a complete set of component tests. Components are usually specified infor
+-
+mally, with the only formal documentation being their interface specification. This 
+may not include enough information for you to develop a complete set of tests that 
+would convince you that the component™s advertised interface is what you require.As well as testing that a component for reuse does what you require, you may also have to check that the component does not include malicious code or functionality 
+that you don™t need. Professional developers rarely use components from untrusted 
+sources, especially if these sources do not provide source code. Therefore, the mali-
+cious code problem does not usually arise. However, reused components may often 
+contain functionality that you don™t need, and you have to check that this functional-
+ity will not interfere with your use of the component.The problem with unnecessary functionality is that it may be activated by the 
+component itself. While this may have no effect on the application reusing the com-
+
+ponent, it can slow down the component, cause it to produce surprising results or, in 
+
+exceptional cases, cause serious system failures. Figure 16.9 summarizes a situation 
+where the failure of a reused software system, which had unnecessary functionality, 
+led to catastrophic system failure.The Ariane 5 launcher failureWhile developing the Ariane 5 space launcher, the designers decided to reuse the inertial reference software that had performed successfully in the Ariane 4 launcher. The inertial reference software maintains the stability 
+of the rocket. The designers decided to reuse this without change (as you would do with components), 
+although it included additional functionality that was not required in Ariane 5.In the first launch of Ariane 5, the inertial navigation software failed, and the rocket could not be controlled. The rocket and its payload were destroyed. The cause of the problem was an unhandled exception when a con-
+
+version of a fixed-point number to an integer resulted in a numeric overflow. This caused the runtime system to 
+shut down the inertial reference system, and launcher stability could not be maintained. The fault had never 
+occurred in Ariane 4 because it had less powerful engines and the value that was converted could not be large 
+enough for the conversion to overflow.This illustrates an important problem with software reuse. Software may be based on assumptions about the context where the system will be used, and these assumptions may not be valid in a different situation.More information about this failure is available at: http://software-engineering-book.com/case-studies/ariane5/Figure 16.9 An example˜of validation 
+failure with reused 
+software

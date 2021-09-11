@@ -1,0 +1,95 @@
+CHAPTER 23  
+TESTING CONVENTIONAL APPLICATIONS
+ 511that are to be expected when the window is generated. The link weight indicates 
+that the window must be generated in less than 1.0 second. An undirected link 
+
+establishes a symmetric relationship between the  newFile 
+ menu selection and 
+ documentText,
+ 
+ and parallel links indicate relationships between  
+documentWindow
+ 
+ and  documentText.
+ 
+ In reality, a far more detailed graph would have to be gener-
+ated as a precursor to test-case design. You can then derive test cases by travers-
+
+ing the graph and covering each of the relationships shown. These test cases are 
+
+designed in an attempt to ﬁ nd errors in any of the relationships. Beizer [Bei95] 
+describes a number of behavioral testing methods that can make use of graphs:  
+ 
+ 
+ 
+ 
+ 
+ 
+Transaction ﬂ
+ ow modeling.
+ 
+ The nodes represent steps in some transaction (e.g., the steps required to make an airline reservation using an online 
+service), and the links represent the logical connection between steps. For 
+example, a data object  ﬂ ightInformationInput
+ 
+ is followed by the operation  validationAvailabilityProcessing
+ 
+().    
+ 
+ 
+ 
+ 
+ 
+Finite state modeling. 
+ The nodes represent different user-observable 
+states of the software (e.g., each of the “screens” that appear as an order 
+entry clerk takes a phone order), and the links represent the transitions 
+that occur to move from state to state (e.g.,  orderInformation 
+ is veriﬁ ed 
+during  inventoryAvailabilityLook-up()
+ 
+ and is followed by  customerBilling-Information 
+ input). The state diagram (Chapter 11) can be used to assist in creating graphs of this type.    
+ 
+ 
+ 
+ 
+ 
+Data ﬂ ow modeling.
+ 
+ The nodes are data objects, and the links are the transformations that occur to translate one data object into another. For 
+
+example, the node  FICATaxWithheld
+ 
+ ( FTW 
+) is computed from gross wages ( GW 
+) using the relationship,  FTW 5 0.62 3 GW.
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Timing modeling.
+ 
+ The nodes are program objects, and the links are the sequential connections between those objects. Link weights are used to 
+specify the required execution times as the program executes.    
+ 
+A detailed discussion of each of these graph-based testing methods is beyond the scope of this book. If you have further interest, see [Bei95] for a comprehen-
+sive coverage.   
+ 
+ 
+23.6.2   
+Equivalence Partitioning  
+ 
+Equivalence partitioning 
+ is a black-box testing method that divides the input do-
+main of a program into classes of data from which test cases can be derived. An 
+ideal test case single-handedly uncovers a class of errors (e.g., incorrect pro-
+cessing of all character data) that might otherwise require many test cases to be 
+executed before the general error is observed.  Test-case design for equivalence partitioning is based on an evaluation of 
+ equivalence classes 
+ for an input condition. Using concepts introduced in the 
+pre22126_ch23_496-522.indd   511pre22126_ch23_496-522.indd   51113/12/13   6:14 PM13/12/13   6:14 PM

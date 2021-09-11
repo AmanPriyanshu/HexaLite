@@ -1,0 +1,35 @@
+288 Chapter 5  
+Operating Systemstable could allow an unauthorized user access but displaying the box is merely an inter-
+face task. The functions listed would occur at different levels of the operating system. 
+
+Thus, the user authentication functions are implemented in several places, as shown in 
+
+Figure 5-3. A modern operating system has many different modules, as depicted in Figure 5-4. 
+Not all this code comes from one source. Hardware device drivers may come from the 
+
+device manufacturer or a third party, and users can install add-ons to implement a differ-
+
+ent file system or user interface, for example. As you can guess, replacing the file system 
+
+or user interface requires integration with several levels of the operating system. System 
+
+tools, such as antivirus code, are said to “
+hook” or be incorporated into the operating system; those tools are loaded along with the operating system so as to be active by the 
+
+time user programs execute. Even though they come from different sources, all these 
+
+modules, drivers, and add-ons may be collectively thought of as the operating system 
+
+because they perform critical functions and run with enhanced privileges.
+From a security standpoint these modules come from different sources, not all trust-
+worthy, and must all integrate successfully. Operating system designers and testers have 
+
+a nightmarish job to ensure correct functioning with all combinations of hundreds of 
+different add-ons from different sources. All these pieces are maintained separately, so 
+
+any module can change at any time, but such changes risk incompatibility.
+HardwareSecurity FunctionsSynchronization, AllocationScheduling, Sharing,Memory ManagementFile Systems, Device Allocation
+Utility FunctionsCompilers, Data base ManagersUser ProcessesSubprocesses of 
+User ProcessesSecurityKernel
+OperatingSystemKernel
+OperatingSystemFIGURE 5-2 Layered Operating System 

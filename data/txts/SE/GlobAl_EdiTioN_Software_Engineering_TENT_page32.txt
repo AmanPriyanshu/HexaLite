@@ -1,0 +1,47 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+being produced. I therefore choose an appropriate example when discussing con-cepts such as safety and dependability, system modeling, reuse, etc.The system types that I use as case studies are:1. An embedded system This is a system where the software controls some hard
+-ware device and is embedded in that device. Issues in embedded systems typi-
+cally include physical size, responsiveness, and power management, etc. The 
+
+example of an embedded system that I use is a software system to control an 
+
+insulin pump for people who have diabetes.2. An information system The primary purpose of this type of system is to manage 
+and provide access to a database of information. Issues in information systems 
+include security, usability, privacy, and maintaining data integrity. The example 
+of an information system used is a medical records system.3. A sensor-based data collection system This is a system whose primary purposes 
+are to collect data from a set of sensors and to process that data in some way. 
+
+The key requirements of such systems are reliability, even in hostile environ-
+mental conditions, and maintainability. The example of a data collection system 
+that I use is a wilderness weather station.4. A support environment. 
+This is an integrated collection of software tools that are 
+
+used to support some kind of activity. Programming environments, such as 
+
+Eclipse (Vogel 2012) will be the most familiar type of environment for readers 
+of this book. I describe an example here of a digital learning environment that 
+is˜used to support students™ learning in schools.I introduce each of these systems in this 
+chapter; more information about each of 
+them is available on the website (software-engineering-book.com).
+
+An insulin pump is a medical system that simulates the operation of the pancreas (an 
+internal organ). The software controlling this system is an embedded system that 
+
+collects information from a sensor and controls a pump that delivers a controlled 
+
+dose of insulin to a user.People who suffer from diabetes use the system. Diabetes is a relatively common 
+condition in which the human pancreas is unable to produce sufficient quantities of 
+a hormone called insulin. Insulin metabolizes glucose (sugar) in the blood. The con-
+ventional treatment of diabetes involves regular injections of genetically engineered 
+
+insulin. Diabetics measure their blood sugar levels periodically using an external 
+
+meter and then estimate the dose of insulin they should inject.The problem is that the level of insulin required does not just depend on the blood 
+glucose level but also on the time of the last insulin injection. Irregular checking can 
+
+lead to very low levels of blood glucose (if there is too much insulin) or very high 
+
+levels of blood sugar (if there is too little insulin). Low blood glucose is, in the short 
+
+term, a more serious condition as it can result in temporary brain malfunctioning and, 

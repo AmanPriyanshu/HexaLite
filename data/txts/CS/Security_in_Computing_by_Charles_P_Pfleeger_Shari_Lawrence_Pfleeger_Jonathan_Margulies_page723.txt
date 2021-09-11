@@ -1,0 +1,62 @@
+ Section 10.5  Dealing with Disaster 
+689  These variations can be destructive to sensitive electronic equipment, however. Sim-
+ple devices called “surge suppressors” filter spikes from an electric line, blocking fluc-
+
+tuations that would affect computers. These devices cost from $20 to $100; they should 
+
+be installed on every computer, printer, or other connected component. More sensitive 
+
+models are typically used on larger systems.
+As mentioned previously, a lightning strike can send a surge through a power line. To 
+increase protection, personal computer users usually unplug their machines when they 
+
+are not in use, as well as during electrical storms. Another possible source of destruc-
+
+tion is lightning striking a telephone line. Because the power surge can travel along the 
+
+phone line and into the computer or peripherals, the phone line should be disconnected 
+from the modem during storms. These simple measures may save much work as well as 
+
+valuable equipment.
+Human Vandals
+Because computers and their media are sensitive to a variety of disruptions, a vandal 
+
+can destroy hardware, software, and data. Human attackers may be disgruntled employ-
+
+ees, bored operators, saboteurs, people seeking excitement, or unwitting bumblers. If 
+
+physical access is easy to obtain, crude attacks using axes or bricks can be very effec-
+
+tive. One man recently shot a computer that he claimed had been in the shop for repairs 
+
+many times without success. 
+Physical attacks by unskilled vandals are often easy to prevent; a guard can stop 
+someone approaching a computer installation with a threatening or dangerous object. 
+When physical access is difficult, more subtle attacks can be tried, resulting in quite 
+
+serious damage. People with modest technical knowledge of a system can short-circuit 
+
+a computer with a car key or disable a disk drive with a paper clip. These items are not 
+
+likely to attract attention until the attack is completed.
+Unauthorized Access and UseFilms and newspaper reports exaggerate the ease of gaining access to a computing sys-
+tem. Still, as distributed computing systems become more prevalent, protecting the sys-
+
+tem from outside access becomes more difficult and more important. Interception is a 
+
+form of unauthorized access; the attacker intercepts data and either breaks confidential-
+
+ity or prevents the data from being read or used by others. In this context, interception 
+
+is a passive attack. But we must also be concerned about active interception, in the 
+
+sense that the attacker can change or insert data before allowing it to continue to its 
+
+destination.TheftStealing a large mainframe computer or a rack of servers is challenging. Not only is 
+carrying it away difficult, but finding a willing buyer and arranging installation and 
+
+maintenance also require special assistance. However, printed reports and removable 
+
+data devices can be carried easily. If the theft is done well, the loss may not be detected 
+
+for some time.

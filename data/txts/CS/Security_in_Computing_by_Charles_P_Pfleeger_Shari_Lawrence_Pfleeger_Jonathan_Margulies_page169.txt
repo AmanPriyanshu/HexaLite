@@ -1,0 +1,74 @@
+ Section 3.1  Unintentional (Nonmalicious) Programming Oversights 
+135  programmers and users, a cause of errors and sometimes even system crashes. More 
+recently, however, attackers have used them as vehicles to cause first a system crash 
+
+and then a controlled failure with a serious security implication. The large number of 
+
+security vulnerabilities based on buffer overflows shows that developers must pay more 
+
+attention now to what had previously been thought to be just a minor annoyance.
+SIDEBAR 3-2  
+My Phone Number is 5656 4545 7890 1234 2929 2929 2929 . . .
+In 1999, security analyst David Litchfield [LIT99] was intrigued by buffer 
+overflows. He had both an uncanny sense for the kind of program that 
+
+would contain overflows and the patience to search for them diligently. He 
+
+happened onto the Microsoft Dialer program, dialer.exe.
+Dialer was a program for dialing a telephone. Before cell phones, 
+WiFi, broadband, and DSL, computers were equipped with modems by 
+
+which they could connect to the land-based telephone network; a user 
+
+would dial an Internet service provider and establish a connection across 
+
+a standard voice telephone line. Many people shared one line between 
+
+voice and computer (data) communication. You could look up a contact’s 
+
+phone number, reach for the telephone, dial the number, and converse; 
+
+but the computer’s modem could dial the same line, so you could feed the 
+
+number to the modem from an electronic contacts list, let the modem dial 
+
+your number, and pick up the receiver when your called party answered. 
+
+Thus, Microsoft provided Dialer, a simple utility program to dial a num-
+
+ber with the modem. (As of 2014, dialer.exe was still part of Windows 10, 
+
+although the buffer overflow described here was patched shortly after 
+
+David reported it.)
+David reasoned that Dialer had to accept phone numbers of differ-
+ent lengths, given country variations, outgoing access codes, and remote 
+
+signals (for example, to enter an extension number). But he also suspected 
+there would be an upper limit. So he tried dialer.exe with a 20-digit phone 
+
+number and everything worked fine. He tried 25 and 50, and the program 
+
+still worked fine. When he tried a 100-digit phone number, the program 
+
+crashed. The programmer had probably made an undocumented and 
+
+untested decision that nobody would ever try to dial a 100-digit phone num-
+
+ber . . . except David.
+Having found a breaking point, David then began the interesting part 
+of his work: Crashing a program demonstrates a fault, but exploiting that 
+
+flaw shows how serious the fault is. By more experimentation, David found 
+
+that the number to dial was written into the stack, the data structure that 
+
+stores parameters and return addresses for embedded program calls. The 
+
+dialer.exe program is treated as a program call by the operating system, so 
+
+by controlling what dialer.exe overwrote, David could redirect execution to 
+
+continue anywhere with any instructions he wanted. The full details of his 
+
+exploitation are given in [LIT99].

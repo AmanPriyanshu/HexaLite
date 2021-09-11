@@ -1,0 +1,79 @@
+CHAPTER 22  
+SOFTWARE TESTING STRATEGIES
+ 473 
+ 
+ 
+ 22.3  
+TEST STRATEGIES
+ FOR CONVENTIONAL SOFTWARE
+ 
+ 3   
+  
+ 
+Many strategies can be used to test software. At one extreme, you can wait until the system is fully constructed and then conduct tests on the overall system in 
+the hope of ﬁ nding errors. This approach, although appealing, simply does not 
+work. It will result in buggy software that disappoints all stakeholders. At the 
+other extreme, you could conduct tests on a daily basis, whenever any part of the 
+system is constructed.  A testing strategy that is chosen by many software teams falls between the two extremes. It takes an incremental view of testing, beginning with the testing of 
+individual program units, moving to tests designed to facilitate the integration of 
+the units (sometimes on a daily basis), and culminating with tests that exercise 
+the constructed system. Each of these classes of tests is described in the sections 
+that follow. 
+  
+ 
+22.3.1   
+Unit Testing 
+ 
+ 
+Unit testing 
+ focuses veriﬁ
+ cation effort on the smallest unit of software design—
+the software component or module. Using the component-level design descrip-
+tion as a guide, important control paths are tested to uncover errors within the 
+boundary of the module. The relative complexity of tests and the errors those 
+tests uncover is limited by the constrained scope established for unit testing. The 
+unit test focuses on the internal processing logic and data structures within the 
+boundaries of a component. This type of testing can be conducted in parallel for 
+multiple components.  
+ 
+ 
+  
+ 
+ 
+Unit Test Considerations.   
+Unit tests are illustrated schematically in  Figure 22.3 . The module interface is tested to ensure that information properly ﬂ ows into 
+and out of the program unit under test. Local data structures are examined to 
+ensure that data stored temporarily maintains its integrity during all steps in 
+an algorithm’s execution. All independent paths through the control structure 
+
+are exercised to ensure that all statements in a module have been executed at 
+least once. Boundary conditions are tested to ensure that the module operates 
+properly at boundaries established to limit or restrict processing. And ﬁ nally, all 
+error-handling paths are tested. 
+ 
+ 
+ 
+ 
+  Data ﬂ ow across a component interface is tested before any other testing is 
+initiated. If data do not enter and exit properly, all other tests are moot. In ad-
+
+dition, local data structures should be exercised and the local impact on global 
+data should be ascertained (if possible) during unit testing.  It’s not a bad idea to 
+design unit test cases 
+ before  you develop 
+code for a component. 
+It helps ensure that 
+you’ll develop code 
+that will pass the tests.   
+3  Throughout this book, we use the terms  
+conventional software
+ 
+ or  
+traditional software
+ 
+ to refer 
+to common hierarchical or call-and-return software architectures that are frequently encoun-
+tered in a variety of application domains. Traditional software architectures are  
+not  object 
+oriented and do not encompass WebApps or MobileApps. 
+pre22126_ch22_466-495.indd   473pre22126_ch22_466-495.indd   47313/12/13   6:14 PM13/12/13   6:14 PM

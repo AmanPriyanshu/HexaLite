@@ -1,0 +1,41 @@
+458 Chapter 6  
+Networks(but, of course, it permits in any packets with destination 100.50.25.x). A packet filter 
+accepts or rejects solely according to the header information—address, size, protocol 
+type—of each packet by itself. Such processing is simple, efficient, and fast, so a packet 
+
+filtering firewall often serves as a sturdy doorkeeper to quickly eliminate obviously 
+
+unwanted traffic.
+The primary disadvantage of packet filtering routers is a combination of simplicity 
+and complexity. The router’s inspection is simplistic; to perform sophisticated filtering, 
+
+the rules set needs to be very detailed. A detailed rules set will be complex and therefore 
+
+prone to error. For example, blocking all port 23 traffic (Telnet) is simple and straight-
+
+forward. But if some Telnet traffic is to be allowed, each IP address from which it is 
+
+allowed must be specified in the rules; in this way, the rule set can become very long.
+Stateful Inspection Firewall
+Filtering firewalls work on packets one at a time, accepting or rejecting each packet and 
+moving on to the next. They have no 
+
+concept of “state” or “context” from 
+
+one packet to the next. A 
+stateful 
+inspection firewall
+ maintains state 
+information from one packet to 
+
+another in the input stream.Recall the description of observing probes against ports 1, 2, 3, 4, and so forth; that activity is an example of the use of a stateful inspection firewall. By itself, a probe 
+
+against port 1 is meaningless: It is most likely a legitimate attempt to connect to the 
+
+service of port 1 or a single mistake, but it could also signal the start of a port scan 
+FIGURE 6-54 Packet Filter Screening Outside Hosts
+100.50.25.x Network
+Src: other addressesSrc: 100.50.25.xStateful inspection firewalls judge 
+according to information from multiple 
+
+packets.

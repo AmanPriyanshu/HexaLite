@@ -1,0 +1,70 @@
+ Section 1.1  What Is Computer Security? 
+3  A computer device (including hardware, added components, and accessories) is cer-
+tainly an asset. Because most computer hardware is pretty useless without programs, 
+
+the software is also an asset. Software includes the operating system, utilities and device 
+
+handlers; applications such as word processing, media players or email handlers; and 
+
+even programs that you may have written yourself. Much hardware and software is 
+off-
+the-shelf, 
+meaning that it is commercially available (not custom-made for your purpose) 
+and that you can easily get a replacement. The thing that makes your computer unique 
+
+and important to you is its content: photos, tunes, papers, email messages, projects, cal-
+endar information, ebooks (with your annotations), contact information, code you cre-
+ated, and the like. Thus, data items on a computer are assets, too. Unlike most hardware 
+
+and software, data can be hard—if not impossible—to recreate or replace. These assets 
+
+are all shown in Figure 1-2.
+These three things—hardware, software, and data—contain or express things like 
+the design for your next new product, the photos from your recent vacation, the chap-
+
+ters of your new book, or the genome sequence resulting from your recent research. 
+
+All of these things represent intellectual endeavor or property, and they have value 
+
+that differs from one person or organization to another. It is that value that makes 
+
+them assets worthy of protection, and they are the elements we want to protect. Other 
+
+assets—such as access to data, quality of service, processes, human users, and net-
+
+work connectivity—deserve protection, too; they are affected or enabled by the hard-
+
+ware, software, and data. So in most cases, protecting hardware, software, and data 
+
+covers these other assets as well. 
+In this book, unless we specifi-
+cally distinguish between hardware, 
+
+software, and data, we refer to all 
+
+these assets as the computer system, FIGURE 1-2 Computer Objects of Value
+Hardware:Data:
+Software:•   Computer•   Devices (disk
+
+     drives, memory,
+
+    printer)
+
+•   Network gear •   Operating system•   Utilities (antivirus)
+
+•   Commercial
+    applications (word
+
+    processing, photo
+
+    editing)
+
+•  Individual applications
+•   Documents•   Photos
+•  Music, videos
+
+•   Email
+•   Class projectsComputer systems—hardware, software, 
+
+and data—have value and deserve 
+security protection.

@@ -1,0 +1,46 @@
+˜˜˚˛˝˜˜˜˜˜˜
+part of a broader sociotechnical system ST1. That sociotechnical system includes 
+operators who monitor the condition of S1 and S2 and who can take actions to 
+
+resolve problems in these systems. If system S1 (say) fails, then the operators in 
+
+ST1 may detect that failure and take recovery actions before the software failure 
+
+leads to failure in the broader sociotechnical system. Operators may also invoke 
+
+recovery and reinstatement procedures to get S1 back to its normal operating state.Operational and management processes are the interface between the organiza-tion and the technical systems that are used. If these processes are well designed, 
+
+they allow people to discover and to cope with technical system failures, as well as 
+ensuring that operator errors are minimized. As I discuss in Section 14.2.2, rigid 
+
+processes that are overautomated are not inherently resilient. They do not allow peo-
+ple to use their skills and knowledge to adapt and change processes to cope with the 
+
+unexpected and deal with unanticipated failures.The system ST1 is one of a number of sociotechnical systems in the organization. If the system operators cannot contain a technical system failure, then this may lead 
+to a failure in the sociotechnical system ST1. Managers at the organizational level 
+then must detect the problem and take steps to recover from it. Resilience is there-
+fore an organizational as well as a system characteristic.Hollnagel (Hollnagel 2010), who was an early advocate of resilience engineer-ing, argues that it is important for organizations to study and learn from successes as 
+
+well as failure. High-profile safety and security failures lead to inquiries and changes 
+
+in practice and procedures. However, rather than respond to these failures, it is 
+ better to avoid them by observing how people deal with problems and maintain 
+
+resilience. This good practice can then be disseminated throughout the organization. 
+
+Figure 14.
+4 shows four characteristics that Hollnagel suggests reflect the resilience 
+
+of an organization. These characteristics are:1. The ability to respond Organizations have to be able to adapt their processes and procedures in response to risks. These risks may be anticipated risks, or they 
+
+may be detected threats to the organization and its systems. For example, if a 
+new security threat is detected and publicized, a resilient organization can make 
+
+changes quickly so that this threat does not disrupt its operations.2. The ability to monitor 
+Organizations should monitor both their internal 
+ operations and their external environment for threats before they arise. For 
+
+example, a company should monitor how its employees follow security policies. S2S1ST1OrganizationFailure
+Failure
+OperatorsManagersFigure 14.3 Nested technical and 
+sociotechnical systems 

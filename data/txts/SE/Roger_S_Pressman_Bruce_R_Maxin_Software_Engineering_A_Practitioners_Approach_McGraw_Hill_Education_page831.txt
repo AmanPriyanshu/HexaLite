@@ -1,0 +1,157 @@
+CHAPTER 36  
+MAINTENANCE AND REENGINEERING 801by importance, by need for change, or in any other way that is appropriate for the reengineering activity. 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 3.
+   
+Process evaluation. 
+ The existing process is thoroughly analyzed and mea-sured. Process tasks are identiﬁ ed; the costs and time consumed by pro-
+cess tasks are noted; and quality/performance problems are isolated.   
+ 
+ 
+ 4.
+   
+Process speciﬁ cation and design.
+ 
+ Based on information obtained during the 
+ﬁ rst three BPR activities, use cases (Chapters 8 and 9) are prepared for each 
+process that is to be redesigned. Within the context of BPR, use cases identify 
+
+a scenario that delivers some outcome to a customer. With the use case as the 
+
+speciﬁ cation of the process, a new set of tasks are designed for the process. 
+  
+ 
+ 
+ 5.
+   
+Prototyping. 
+ A redesigned business process must be prototyped before it is fully integrated into the business. This activity “tests” the process so that 
+reﬁ nements can be made. 
+  
+ 
+ 
+ 6.
+   
+Reﬁ nement and instantiation.
+ 
+ Based on feedback from the prototype, the business process is reﬁ ned and then instantiated within a business system. 
+   
+ 
+These BPR activities are sometimes used in conjunction with workﬂ ow analysis 
+tools. The intent of these tools is to build a model of existing workﬂ ow in an effort 
+to better analyze existing processes.  
+ 
+ 
+  
+ 
+ 
+ uote:  “As soon as we are 
+shown something 
+old in a new thing, 
+we are paciﬁ ed.” 
+ F. W. Nietzsche 
+  
+Business Process Reengineering (BPR) 
+ 
+ 
+ 
+ 
+ Objective: 
+   The objective of BPR tools is to support the analysis and assessment of 
+existing business processes and the speciﬁ cation and 
+design of new ones.   
+ Mechanics: 
+  Tools mechanics vary. In general, BPR 
+tools allow a business analyst to model existing business 
+processes in an effort to assess workﬂ
+ ow inefﬁ
+ ciencies 
+or functional problems. Once existing problems are 
+identiﬁ ed, tools allow the analysis to prototype and/or 
+simulate revised business processes.   
+ 
+ 
+Representative Tools:  3 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ExtendSim, 
+ developed by ImagineThat (  
+www.imaginethatinc.com 
+ 
+), is a simulation tool for modeling existing processes and exploring 
+new ones. Extend provides comprehensive what-if 
+capability that enables a business analysis to explore 
+different process scenarios.    
+ 
+ 
+ 
+Metastrom BPM, 
+ developed by OpentText 
+( http://bps.opentext.com/ 
+), provides business process management support for both manual and 
+automated processes.    
+ 
+ 
+ 
+IceTools,
+ 
+ developed by Blue Ice ( http://www.icetools.com/home.html
+ 
+), is a collection of BPR templates for Microsoft Ofﬁ ce and 
+Microsoft Visio.    
+ 
+ 
+ 
+OMNIBUS, 
+ developed by Kovair (  
+http://www.kovair.com/ 
+ 
+), is one of many tools that enable an organization to model process 
+workﬂ ow (in this case, IT workﬂ
+ ow). 
+   
+ 
+ 
+ 
+ProcessMaker,
+ 
+ open-source workﬂ ow suite developed 
+by Colosa ( http://www.processmaker.com/
+ 
+), incorporates a suite of tools for workﬂ ow modeling, 
+simulation, and scheduling.    
+ 
+ 
+A useful list of BPR tool links can be found at   
+www.opfro.org/index.
+html?Components/Producers/Tools/
+
+BusinessProcessReengineeringTools.
+
+html~Contents  
+.   
+ 
+  
+SOFTWARE
+ TOOLS  
+ 
+3   Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+pre22126_ch36_795-816.indd   801pre22126_ch36_795-816.indd   80113/12/13   6:17 PM13/12/13   6:17 PM

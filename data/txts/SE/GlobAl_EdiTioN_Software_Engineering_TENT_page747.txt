@@ -1,0 +1,38 @@
+˜˜˚˛˙˜˜˜˜˜˜
+automate the entire process of handling change requests from the initial customer 
+proposal to final change approval and change submission to the development team.The change management process is initiated when a system stakeholder completes and 
+submits a change request describing the change required to the system. This could be a 
+
+bug report, where the symptoms of the bug are described, or a request for additional func-
+tionality to be added to the system. Some companies handle bug reports and new require-
+ments separately, but, in principle, both are simply change requests. Change requests may 
+
+be submitted using a change request form (CRF). Stakeholders may be system owners 
+
+and users, beta testers, developers, or the marketing department of a company.Electronic change request forms record information that is shared between all 
+groups involved in change management. As the change request is processed, infor
+-
+mation is added to the CRF to record decisions made at each stage of the process. At 
+any time, it therefore represents a snapshot of the state of the change request. In 
+
+addition to recording the change required, the CRF records the recommendations 
+
+regarding the change, the estimated costs of the change, and the dates when the 
+
+change was requested, approved, implemented, and validated. The CRF may also 
+
+include a section where a developer outlines how the change may be implemented. 
+Again, the degree of formality in the CRF varies depending on the size and type of 
+organization that is developing the system. Figure 25.15 is an example of a type of CRF that might be used in a large com-plex systems engineering project. For smaller projects, I recommend that change 
+
+requests should be formally recorded; the CRF should focus on describing the 
+Change Request FormProject: SICSA/AppProcessing Number: 23/02Change requester: I. Sommerville Date: 20/07/12Requested change: The status of applicants (rejected, accepted, etc.) should be shown 
+visually in the displayed list of applicants.Change analyzer: R. Looek Analysis date: 25/07/12Components affected: ApplicantListDisplay, StatusUpdater
+Associated components: StudentDatabase
+Change assessment: Relatively simple to implement by changing the display color according to status. A table must be added to relate status to colors. No changes to 
+associated components are required.Change priority: MediumChange implementation:
+Estimated effort: 2 hours
+Date to SGA app. team: 28/07/12 CCB decision date: 30/07/12Decision: Accept change. Change to be implemented in Release 1.2
+Change implementor: Date of change:Date submitted to QM: QM decision:Date submitted to CM:
+Comments:Figure 25.15 A partially completed change 
+request form

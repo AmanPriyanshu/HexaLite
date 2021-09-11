@@ -1,0 +1,55 @@
+ Section 12.5  Digital Signatures 
+805  The NSA participates in this game, but some people are distrustful of its motives. 
+In this section we address some of the cryptological issues in which NSA is involved. 
+
+These issues have both political and technical dimensions, and it is because of the tech-
+
+nical attributes that we discuss them here.
+The Role of NSAAs you have seen throughout this chapter, cryptologists have often questioned the 
+unseen hand of government, especially the NSA, in cryptographic processes. NSA has 
+
+three roles related to cryptography: • First, it develops codes and ciphers for U.S. military and diplomatic uses. These 
+techniques are seldom publicized.• Second, NSA supports NIST on matters of cryptography for public citizens and 
+businesses, as well as other government agencies. This support includes ana-
+
+lyzing and sometimes participating in the development of such public crypto-
+
+graphic tools and techniques.• Finally, NSA performs what it calls its signals intelligence mission: it “collects, 
+processes, and disseminates intelligence information from foreign signals for 
+
+intelligence and counterintelligence purposes and to support military opera-
+
+tions” [from the NSA web site].On the one hand, NSA wants to promote and ensure secure encryption systems for 
+U.S. citizens and businesses. However it doesn’t want those systems to be 
+too secure; 
+otherwise, they may complicate the signals intelligence mission. People suspect the 
+
+intelligence mission caused NSA to weaken cryptography.
+The fear surfaced during the design of DES in the 1970s. At that time NSA made 
+some unexplained minor changes to the algorithm, so outsiders naturally assumed NSA 
+
+had weakened the algorithm for its own purposes. In fact, as later emerged when Biham 
+
+and Shamir developed differential cryptanalysis (or rather, unknowingly reinvented it, 
+
+because NSA had invented it almost twenty years previously), the role of NSA was 
+
+probably to strengthen the algorithm, not weaken it.
+A more obvious weakening effect occurred during the 1990s when NSA managed to 
+restrict export of most cryptographic hardware and software to products using a 40-bit 
+
+or shorter key. People could calculate the effort for a brute-force key attack and con-
+
+cluded that such short keys were chosen to support the signals intelligence mission.
+Suspicion of NSA’s motives and practices also became apparent because of a cryp-
+tographic chip called Clipper, developed under NSA oversight in the 1990s. In that 
+
+program, strong (that is, long key length) cryptography could be implemented on a chip 
+
+that permitted so-called key recovery; the chips could even be exported. Basically, a 
+
+copy of every encryption key used would be stored (escrowed) with two government 
+
+agencies (each getting half of the key), and the government could retrieve those keys 
+
+with a court order. Public skepticism ran high, and this program was finally scuttled.

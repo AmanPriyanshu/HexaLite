@@ -1,0 +1,117 @@
+494 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+22.2  List some problems that might be associated with the creation of an independent test group. Are an ITG and an SQA group made up of the same people?    
+ 
+22.3  Is it always possible to develop a strategy for testing software that uses the sequence of testing steps described in Section 22.1.3? What possible complications might arise for 
+embedded systems?    
+ 
+22.4  Why is a highly coupled module difﬁ cult to unit test? 
+   
+ 
+22.5  The concept of “antibugging” (Section 22.2.1) is an extremely effective way to provide built-in debugging assistance when an error is uncovered:  
+ 
+ a. Develop a set of guidelines for antibugging. 
+   
+ b. Discuss advantages of using the technique. 
+   
+ c. Discuss disadvantages. 
+ 
+ 
+ 
+   
+ 
+22.6  How can project scheduling affect integration testing?    
+ 
+22.7  Is unit testing possible or even desirable in all circumstances? Provide examples to justify your answer. 
+   
+ 
+22.8  Who should perform the validation test—the software developer or the software user? Justify your answer. 
+   
+ 
+22.9  Develop a complete test strategy for the  SafeHome 
+ system discussed earlier in this 
+book. Document it in a  Test Speciﬁ
+ cation
+.  
+   
+ 
+22.10  As a class project, develop a  Debugging Guide 
+ for your installation. The guide should provide language and system-oriented hints that you have learned through the school of 
+hard knocks! Begin with an outline of topics that will be reviewed by the class and your 
+instructor. Publish the guide for others in your local environment. 
+  
+ 
+ 
+ 
+  F
+URTHER
+ READINGS AND INFORMATION
+ SOURCES  
+ 
+Virtually every book on software testing discusses strategies along with methods for test-
+case design. Whittaker ( How Google Tests Software,
+ 
+ Addison-Wesley, 2012) and ( 
+How to Break Software,
+ 
+ Addison-Wesley, 2002), Spiller and his colleagues ( 
+Software Testing Founda-
+tions, 
+ Rocky Nook, 2011), Black ( 
+Managing the Testing,
+ 
+ 3rd ed., Wiley, 2009) and ( 
+Pragmatic Software Testing,
+ 
+ Wiley, 2007), Page and his colleagues ( 
+How We Test Software at Microsoft,
+ 
+ Microsoft Press, 2008), Lewis ( Software Testing and Continuous Quality Improvement,
+ 
+ 3rd 
+ed., Auerbach, 2008), Everett and Raymond ( Software Testing,
+ 
+ Wiley-IEEE Computer Society 
+Press, 2007), Perry ( Effective Methods for Software Testing,
+ 
+ 3rd ed., Wiley, 2005), Loveland and 
+his colleagues ( Software Testing Techniques,
+ 
+ Charles River Media, 2004), Burnstein ( 
+Practi-cal Software Testing,
+ 
+ Springer, 2003), Dustin ( 
+Effective Software Testing,
+ 
+ Addison-Wesley, 
+2002), Craig and Kaskiel (Systematic Software Testing, Artech House, 2002), and Tamres ( 
+In-troducing Software Testing,
+ 
+ Addison-Wesley, 2002), are only a small sampling of many books 
+that discuss testing principles, concepts, strategies, and methods.   
+ 
+For those readers with an interest in agile software development methods, Gartner and Gartner ( ATDD by Example: A Practical Guide to Acceptance Test-Driven Development
+ 
+, Ad-dison-Wesley, 2012), Crispin and Gregory ( 
+Agile Testing: A Practical Guide for Testers and 
+Teams
+ 
+, Addison-Wesley, 2009), Crispin and House ( 
+Testing Extreme Programming,
+ 
+ Addi-
+son-Wesley, 2002) and Beck ( 
+Test Driven Development: By Example,
+ 
+ Addison-Wesley, 2002) 
+present testing strategies and tactics for Extreme Programming. Kamer and his colleagues 
+( Lessons Learned in Software Testing,
+ 
+ Wiley, 2001) present a collection of more than 300 
+pragmatic “lessons” (guidelines) that every software tester should learn. Watkins ( 
+Testing IT: 
+An Off-the-Shelf Testing Process
+ 
+, 2nd ed. Cambridge University Press, 2010) establishes an effective testing framework for all types of developed and acquired software. Manges and pre22126_ch22_466-495.indd   494pre22126_ch22_466-495.indd   49413/12/13   6:14 PM13/12/13   6:14 PM

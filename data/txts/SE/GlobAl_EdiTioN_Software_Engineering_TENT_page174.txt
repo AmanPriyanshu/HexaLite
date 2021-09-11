@@ -1,0 +1,25 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜be four fundamental architectural views, which can be linked through common use 
+cases or scenarios (Figure 6.3). He suggests the following views:1. A logical view, 
+which shows the key abstractions in the system as objects or 
+object classes. It should be possible to relate the system requirements to entities 
+in this logical view.2. A process view, which shows how, at runtime, the system is composed of inter-
+acting processes. This view is useful for making judgments about non-func
+-tional  system characteristics such as performance and availability.3. A development view, which shows how the software is decomposed for develop-
+ment; that is, it shows the breakdown of the software into components that are 
+
+implemented by a single developer or development team. This view is useful for 
+
+software managers and programmers.4. A physical view, which shows the system hardware and how software compo-
+nents are distributed across the processors in the system. This view is useful for  systems engineers planning a system deployment.Hofmeister et al. (Hofmeister, Nord, and Soni 2000) suggest the use of similar views 
+but add to this the notion of a conceptual view. This view is an abstract view of the system 
+
+that can be the basis for decomposing high-level requirements into more detailed specifi-cations, help engineers make decisions about components that can be reused, and repre-sent a product line (discussed in Chapter 15) rather than a single system. Figure 
+6.1, which 
+describes the architecture of a packing robot, is an example of a conceptual system view.In practice, conceptual views of a system™s architecture are almost always devel-oped during the design process. They are used to explain the system architecture to 
+stakeholders and to inform architectural decision making. During the design process, 
+some of the other views may also be developed when different aspects of the system 
+are discussed, but it is rarely necessary to develop a complete description from all 
+perspectives. It may also be possible to associate Architectural patterns, discussed in 
+the next section, with the different views of a system.SystemarchitectureLogicalviewPhysicalviewProcessviewDevelopmentviewFigure 6.3 Architectural views 

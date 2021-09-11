@@ -1,0 +1,53 @@
+626 Chapter 9  
+Privacycompanies in the network agree to share data with DoubleClick. Geary [GEA12] points 
+out that DoubleClick profits from three activities:
+• Ad serving. DoubleClick displays the advertisements on the customer’s website.
+• Ad delivery. DoubleClick enables advertisers to control how often an advertise-
+ment is shown and for how long each showing lasts.
+• Behavioral targeting
+. For one website owner, the publisher sets a cookie to find 
+out what parts of the site a customer is browsing. Then DoubleClick matches the 
+
+advertisements to the interests demonstrated by the customer’s browsing habits. 
+
+But DoubleClick has also formed a division called AdSense, which forms net-
+
+works of advertisers that pool the information they gather, enabling each mem-
+
+ber of the network to fine-tune targeting advertising.
+So, in essence, DoubleClick knows where you have been, where you are going, and 
+what other ads are placed. But because it gets to read and write its cookies, it can record 
+all this information for future use.Google’s privacy policy describes what a generic DoubleClick cookie looks like:
+• time: 01/Jan/2015 12:01:00
+• ad_placement_id: 103 (the ID of where the advertisement was viewed on the 
+website)• ad_id: 1234 (the unique ID of the advertisement)
+
+• userid: 0000000000000001 (the unique number the cookie has given your 
+browser)
+• client_ip: 123.45.67.89
+
+• referral_url: http://youtube.com/categories (the page where you saw the 
+advertisement)
+Geary points out, “because it records your IP address, DoubleClick can also make a 
+good guess of your country and town/city, too.”
+Here are examples of other things a third-party cookie can do:
+• Count the number of times this browser has viewed a particular web page.
+• Track the pages a visitor views within a site or across different sites.
+
+• Count the number of times a particular ad has appeared.
+
+• Match visits to a site with displays of an ad for that site.
+
+• Match a purchase to an ad a person viewed before making the purchase.
+
+• Record and report search strings from a search engine.
+Of course, all these counting and matching activities produce statistics that the cook-
+ie’s site can also send back to the central site any time the cookie is activated. And these 
+
+collected data are also available to send to any other partners of the cookie’s network. 
+To see in detail how third-party cookies work, assume you visit a personal-investing 
+page that, being financed by advertising, contains spaces for ads from four stockbro-
+
+kers. Let us also assume that eight possible brokers could fill these four ad slots. When 
+
+the page is loaded, DoubleClick retrieves its cookie, sees that you have been to that 

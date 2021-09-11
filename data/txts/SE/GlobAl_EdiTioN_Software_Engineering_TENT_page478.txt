@@ -1,0 +1,55 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜to be unsuitable or may not work properly with other chosen components. You 
+may have to find alternatives to these components. Further requirements changes 
+
+may therefore be necessary, depending on the functionality of these components.4.
+ Development is a composition process where the discovered components are 
+
+integrated. This involves integrating the components with the component model 
+infrastructure and, often, developing adaptors that reconcile the interfaces of 
+
+incompatible components. Of course, additional functionality may also be 
+
+required over and above that provided by reused components.The architectural design stage is particularly important. Jacobsen et al. (Jacobsen, Griss, and Jonsson 1997) found that defining a robust architecture is critical for suc-
+cessful reuse. During the architectural design activity, you may choose a component 
+model and implementation platform. However, many companies have a standard 
+
+development platform (e.g., .NET), so the component model is predetermined. As I 
+discussed in Chapter 6, you also establish the high-level architecture of the system at 
+this stage and make decisions about system distribution and control.An activity that is unique to the CBSE process is identifying candidate compo
+-nents or services for reuse. This involves a number of subactivities, as shown in 
+
+Figure 16.
+8. Initially, your focus should be on search and selection. You need to 
+
+convince yourself that components are available to meet your requirements. 
+
+Obviously, you should do some initial checking that the component is suitable, but 
+detailed testing may not be required. In the later stage, after the system architecture 
+has been designed, you should spend more time on component validation. You need 
+to be confident that the identified components are really suited to your application; if 
+not, then you have to repeat the search and selection processes.The first step in identifying components is to look for components that are  available 
+within your company or from trusted suppliers. There are few component vendors, so 
+
+you are most likely to be looking for components that have been developed in your own 
+
+organization or in the repositories of open-source software that are˜available. Software 
+
+development companies can build their own database of reusable components without 
+
+the risks inherent in using components from external suppliers. Alternatively, you may 
+
+decide to search code libraries available on the web, such as Sourceforge, GitHub, or 
+
+Google Code, to see if source code for the component that you need is available.Once the component search process has identified possible components, you have˜to 
+select candidate components for assessment. In some cases, this will be a straightforward 
+
+task. Components on the list will directly implement the user requirements, and there will 
+
+not be competing components that match these requirements. In other cases, however, 
+
+the selection process is more complex. There will not be a clear mapping of requirements 
+
+onto components. You may find that several components have to be integrated to meet a 
+ComponentselectionComponentsearchComponentvalidationFigure 16.8  The component 
+identification process 

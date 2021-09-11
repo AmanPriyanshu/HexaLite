@@ -1,0 +1,67 @@
+752 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 33.11 S
+UMMARY  
+A software project planner must estimate three things before a project begins: how long it will take, how much effort will be required, and how many people will 
+be involved. In addition, the planner must predict the resources (hardware and 
+software) that will be required and the risk involved.  The statement of scope helps the planner to develop estimates using one or more techniques that fall into two broad categories: decomposition and empiri-
+cal modeling. Decomposition techniques require a delineation of major software 
+functions, followed by estimates of either (1) the number of LOC, (2) selected val-
+ues within the information domain, (3) the number of use cases, (4) the num-
+ber of person-months required to implement each function, or (5) the number of 
+person-months required for each software engineering activity. Empirical tech-
+
+niques use empirically derived expressions for effort and time to predict these 
+project quantities. Automated tools can be used to implement a speciﬁ c empir-
+ical model.  Accurate project estimates generally use at least two of the three techniques just noted. By comparing and reconciling estimates developed using different 
+techniques, the planner is more likely to derive an accurate estimate. Software 
+project estimation can never be an exact science, but a combination of good his-
+torical data and systematic techniques can improve estimation accuracy. 
+  
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+33.1.  Assume that you are the project manager for a company that builds software for household robots. You have been contracted to build the software for a robot that mows the 
+
+lawn for a homeowner. Write a statement of scope that describes the software. Be sure your 
+
+statement of scope is bounded. If you’re unfamiliar with robots, do a bit of research before 
+you begin writing. Also, state your assumptions about the hardware that will be required. 
+Alternate: Replace the lawn-mowing robot with another problem that is of interest to you.    
+ 
+33.2.  Software project complexity is discussed brieﬂ y in Section 33.1. Develop a list of soft-
+ware characteristics (e.g., concurrent operation, graphical output) that affect the complex-
+ity of a project. Prioritize the list.   
+ 
+Doug:  
+you to take a day to reconsider. We’ll have far more 
+
+control if we do the work in-house. We have the ex-
+
+pertise, and I can guarantee that it won’t cost us much 
+
+, and I know you’re all 
+
+risk averse, as I am.   
+Joe (frowning):  You’ve made a few good points, 
+but you have a vested interest in keeping this project 
+in-house.   
+Doug:  That’s true, but it doesn’t change the facts. 
+  
+Joe (with a sigh):  Okay, let’s table this for a day or 
+two, give it some more thought, and meet again for a 
+ﬁ nal decision. Doug, can I speak with you privately? 
+  
+Doug:  
+right thing.  pre22126_ch33_727-753.indd   752pre22126_ch33_727-753.indd   75213/12/13   6:17 PM13/12/13   6:17 PM

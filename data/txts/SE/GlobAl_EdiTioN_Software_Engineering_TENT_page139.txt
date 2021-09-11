@@ -1,0 +1,45 @@
+˜˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜˜
+System modeling is the process of developing abstract models of a system, with each model presenting a different view or perspective of that system. System modeling 
+
+now usually means representing a system using some kind of graphical notation 
+
+based on diagram types in the Unified Modeling Language (UML). However, it is 
+also possible to develop formal (mathematical) models of a system, usually as a 
+
+detailed system specification. I cover graphical modeling using the UML here, and 
+formal modeling is briefly discussed in Chapter 10.Models are used during the requirements engineering process to help derive the detailed requirements for a system, during the design process to describe the system 
+
+to engineers implementing the system, and after implementation to document the 
+
+system™s structure and operation. You may develop models of both the existing sys-
+tem and the system to be developed:1. Models of the existing system are used during requirements engineering. They help clarify what the existing system does, and they can be used to focus a stake-
+holder discussion on its strengths and weaknesses.2.
+ Models of the new system are used during requirements engineering to help 
+
+explain the proposed requirements to other system stakeholders. Engineers use 
+these models to discuss design proposals and to document the system for imple-
+mentation. If you use a model-driven engineering process (Brambilla, Cabot, 
+
+and Wimmer 2012), you can generate a complete or partial system implementa-
+tion from system models.It is important to understand that a system model is not a complete representation of 
+system. It purposely leaves out detail to make it easier to understand. A model is an 
+
+abstraction of the system being studied rather than an alternative representation of that 
+
+system. A representation of a system should maintain all the information about the entity 
+
+being represented. An abstraction deliberately simplifies a system design and picks out 
+
+the most salient characteristics. For example, the PowerPoint slides that accompany this 
+
+book are an abstraction of the book™s key points. However, if the book were translated 
+from English into Italian, this would be an alternative 
+ representation
+. The translator™s 
+intention would be to maintain all the information as it is presented in English.You may develop different models to represent the system from different 
+ perspectives. For example:1.
+ An external perspective, where you model the context or environment of the 
+system.2. An interaction perspective, where you model the interactions between a system 
+and its environment, or between the components of a system.3. A structural perspective, where you model the organization of a system or the 
+structure of the data processed by the system.4. A behavioral perspective, where you model the dynamic behavior of the system 
+and how it responds to events.

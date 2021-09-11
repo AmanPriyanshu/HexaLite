@@ -1,0 +1,95 @@
+114 PART TWO  
+MODELING 
+ 
+ 
+ 
+ 
+ 
+ 
+Principle 8. 
+  Deﬁ ne how you intend to ensure quality.Deﬁ ne how you intend to ensure quality.
+ 
+ The plan should identify how the software team intends to ensure quality. If technical 
+
+reviews  4 
+ 
+ are to be conducted, they should be scheduled. If pair program-ming (Chapter 5) is to be used during construction, it should be explicitly 
+ deﬁ ned within the plan. 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Principle 9. 
+  Describe how you intend to accommodate change.Describe how you intend to accommodate change. 
+ Even the best planning can be obviated by uncontrolled change. You should iden-
+
+tify how changes are to be accommodated as software engineering work 
+proceeds. For example, can the customer request a change at any time? If 
+a change is requested, is the team obliged to implement it immediately? 
+How is the impact and cost of the change assessed?    
+ 
+ 
+ 
+ 
+ 
+Principle 10. 
+  Track the plan frequently and make adjustments as  required.Track the plan frequently and make adjustments as  
+required.
+ 
+ Software projects fall behind schedule one day at a time. Therefore, 
+it makes sense to track progress on a daily basis, looking for problem 
+areas and situations in which scheduled work does not conform to ac-
+tual work conducted. When slippage is encountered, the plan is adjusted 
+accordingly. 
+   
+To be most effective, everyone on the software team should participate in the 
+planning activity. Only then will team members “sign up” to the plan. 
+  
+ 
+ 
+ 
+7.3.3  Modeling Principles 
+ 
+  
+We create models to gain a better understanding of the actual entity to be built. 
+When the entity is a physical thing (e.g., a building, a plane, a machine), we can 
+build a model that is identical in form and shape but smaller in scale. However, 
+
+when the entity to be built is software, our model must take a different form. 
+It must be capable of representing the information that software transforms, 
+the architecture and functions that enable the transformation to occur, the fea-
+
+tures that users desire, and the behavior of the system as the transformation 
+is taking place. Models must accomplish these objectives at different levels of 
+ abstraction—ﬁ rst depicting the software from the customer’s viewpoint and later 
+representing the software at a more technical level.   
+ 
+ 
+ 
+ 
+In software engineering work, two classes of models can be created: require-ments models and design models.  Requirements models
+ 
+ (also called  
+analysis models 
+) represent customer requirements by depicting the software in three dif-ferent domains: the information domain, the functional domain, and the behav-
+ioral domain.  Design models 
+ represent characteristics of the software that help 
+practitioners to construct it effectively: the architecture, the user interface, and 
+component-level detail.    Analysis models 
+represent customer 
+requirements. Design 
+models provide a 
+concrete speciﬁ cation 
+
+for the construction of 
+
+the software.   
+ 
+ 
+ 
+ 
+4  Technical reviews are discussed in Chapter 20. 
+pre22126_ch07_103-130.indd   114pre22126_ch07_103-130.indd   11413/12/13   6:11 PM13/12/13   6:11 PM

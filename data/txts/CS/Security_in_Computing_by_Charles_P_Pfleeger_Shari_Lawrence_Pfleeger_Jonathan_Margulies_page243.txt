@@ -1,0 +1,77 @@
+ Section 3.3  Countermeasures 
+209  emphasizing that he was speaking 
+for RSA and not for the RSA con-
+ference web site, a separate entity 
+
+[KRE14].Genetic Diversity At your local electronics shop you can buy a combination printer–scanner–copier–fax 
+
+machine. It comes at a good price (compared to costs of buying the four components 
+
+separately) because there is considerable overlap in implementing the functionality 
+
+among those four. Moreover, the multifunction device is compact, and you need install 
+
+only one device on your system, not four. But if any part of it fails, you lose a lot of 
+
+capabilities all at once. So the multipurpose machine represents the kinds of trade-offs 
+
+among functionality, economy, and availability that we make in any system design. 
+An architectural decision about these types of devices is related to the arguments 
+above for modularity, information hiding, and reuse or interchangeability of software 
+
+components. For these reasons, some people recommend heterogeneity or “genetic 
+
+diversity” in system architecture: Having many components of a system come from one 
+
+source or relying on a single component is risky, they say.
+However, many systems are in fact quite homogeneous in this sense. For reasons 
+of convenience and cost, we often design systems with software or hardware (or both) 
+
+from a single vendor. For example, in the early days of computing, it was convenient to 
+
+buy “bundled” hardware and software from a single vendor. There were fewer decisions 
+
+for the buyer to make, and if something went wrong, only one phone call was required 
+
+to initiate trouble-shooting and maintenance. Daniel Geer et al. [GEE03a] examined 
+
+the monoculture of computing dominated by one manufacturer, often characterized by 
+
+Apple or Google today, Microsoft or IBM yesterday, unknown tomorrow. They looked 
+
+at the parallel situation in agriculture where an entire crop may be vulnerable to a single 
+pathogen. In computing, the pathogenic equivalent may be malicious code from the 
+
+Morris worm to the Code Red virus; these “infections” were especially harmful because 
+
+a significant proportion of the world’s computers were disabled because they ran ver-
+
+sions of the same operating systems (Unix for Morris, Windows for Code Red).
+Diversity creates a moving target for the adversary. As Per Larson and colleagues 
+explain [LAR14], introducing diversity automatically is possible but tricky. A com-
+
+piler can generate different but functionally equivalent object code from one source 
+
+file; reordering statements (where there is no functional dependence on the order), 
+
+using different storage layouts, and even adding useless but harmless instructions helps 
+
+protect one version from harm that 
+
+might affect another version. How-
+
+ever, different output object code 
+
+can create a nightmare for code 
+
+maintenance.In 2014 many computers and web sites were affected by the so-called Heartbleed 
+malware, which exploited a vulnerability in the widely used OpenSSL software. SSL 
+
+(secure socket layer) is a cryptographic technique by which browser web communica-
+
+tions are secured, for example, to protect the privacy of a banking transaction. (We 
+“Complexity is often the enemy of 
+security.”—Amit Yoran, RSA
+Diversity reduces the number of targets 
+
+susceptible to one attack type.

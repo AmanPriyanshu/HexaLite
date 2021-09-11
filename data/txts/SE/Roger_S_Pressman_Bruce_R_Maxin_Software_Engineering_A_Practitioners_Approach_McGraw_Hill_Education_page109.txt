@@ -1,0 +1,119 @@
+CHAPTER 5  
+AGILE DEVELOPMENT 79 
+ 
+ 
+ 
+ 
+ 
+ 
+Scrum emphasizes the use of a set of software process patterns [Noy02] that have proven effective for projects with tight timelines, changing requirements, 
+and business criticality. Each of these process patterns deﬁ
+ nes a set of develop-
+ment activities:   
+ 
+ 
+ 
+ 
+ 
+ 
+Backlog 
+—a prioritized list of project requirements or features that provide business value for the customer. Items can be added to the backlog at any time 
+
+(this is how changes are introduced). The product manager assesses the back-
+log and updates priorities as required.    
+ 
+ 
+ 
+ 
+Sprints 
+—consist of work units that are required to achieve a requirement deﬁ ned in the backlog that must be ﬁ
+ t into a predeﬁ
+ ned time-box 
+ 10 
+ 
+ (typically 
+sprint. Hence, the sprint allows team members to work in a short-term, but 
+ stable environment.  
+ 
+ 
+ 
+ 
+ 
+ 
+Scrum meetings 
+—are short (typically 15-minute) meetings held daily by the Scrum team. Three key questions are asked and answered by all team mem-
+bers [Noy02]:   
+ 
+ • 
+ 
+  What did you do since the last team meeting?    
+ • 
+ 
+  What obstacles are you encountering?    
+ • 
+ 
+  What do you plan to accomplish by the next team meeting?  
+ 
+   
+ 
+ 
+ 
+ 
+A team leader, called a  
+Scrum master,
+ 
+ leads the meeting and assesses the re-sponses from each person. The Scrum meeting helps the team to uncover poten-
+tial problems as early as possible. Also, these daily meetings lead to “knowledge 
+socialization” [Bee99] and thereby promote a self-organizing team structure.    
+ 
+ 
+ 
+ 
+ 
+Demos 
+—deliver the software increment to the customer so that functionality that has been implemented can be demonstrated and evaluated by the cus-
+tomer. It is important to note that the demo may not contain all planned func-
+
+tionality, but rather those functions that can be delivered within the time-box 
+
+that was established.    
+Beedle and his colleagues [Bee99] present a comprehensive discussion of these patterns in which they state: “Scrum assumes up-front the existence of 
+.” The Scrum process patterns enable a software team to work success-
+
+fully in a world where the elimination of uncertainty is impossible.   
+ 
+5.5.2 Dynamic Systems Development Method 
+ 
+ 
+ 
+ 
+ 
+ 
+The  Dynamic Systems Development Method 
+ ( 
+ 
+DSDM  
+) [Sta97] is an agile software development approach that “provides a framework for building and maintain-
+ing systems which meet tight time constraints through the use of incremental  WebRef 
+ Useful resources for 
+DSDM can be found at 
+  www.dsdm.org  . 
+ 
+ 
+ 
+ 
+ 
+ 
+10  A  
+time-box 
+ is a project management term (see Part 4 of this book) that indicates a period of 
+time that has been allocated to accomplish some task.    Scrum incorporates a 
+set of process patterns 
+
+that emphasize project 
+priorities, compart-
+
+mentalized work units, 
+communication, and 
+frequent customer 
+feedback. pre22126_ch05_066-086.indd   79pre22126_ch05_066-086.indd   7913/12/13   6:10 PM13/12/13   6:10 PM

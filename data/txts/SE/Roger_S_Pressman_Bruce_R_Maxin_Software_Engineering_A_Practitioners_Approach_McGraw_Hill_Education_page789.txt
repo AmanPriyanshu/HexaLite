@@ -1,0 +1,83 @@
+CHAPTER 34  
+PROJECT SCHEDULING 759 
+ 
+ 
+ 
+34.2.2   
+The Relationship between People and Effort 
+ 
+ 
+ 
+ 
+ 
+ 
+There is a common myth that is still believed by many managers who are respon-sible for software development work: “If we fall behind schedule, we can always 
+add more programmers and catch up later in the project.” Unfortunately, add-
+
+ing people late in a project often has a disruptive effect on the project, causing 
+schedules to slip even further. The people who are added must learn the system, 
+
+and the people who teach them are the same people who were doing the work. 
+While teaching, no work is done, and the project falls further behind.  In addition to the time it takes to learn the system, more people increase the number of communication paths and the complexity of communication through-
+out a project. Although communication is absolutely essential to successful soft-
+ware development, every new communication path requires additional effort 
+and therefore additional time.  Over the years, empirical data and theoretical analysis have demonstrated that project schedules are elastic. That is, it is possible to compress a desired 
+project completion date (by adding additional resources) to some extent. It is 
+also possible to extend a completion date (by reducing the number of resources).  The  Putnam-Norden-Rayleigh (PNR) Curve
+ 
+ 
+ 5 
+ 
+ provides an indication of the rela-
+tionship between effort applied and delivery time for a software project. A ver-
+
+sion of the curve, representing project effort as a function of delivery time, is 
+shown in   
+Figure 34.1  
+. The curve indicates a minimum value  t 
+ o 
+ that indicates the 
+least cost for delivery (i.e., the delivery time that will result in the least effort 
+expended). As we move left of  t 
+ o 
+ (i.e., as we try to accelerate delivery), the curve 
+rises nonlinearly. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+As an example, we assume that a project team has estimated a level of effort  E 
+ d 
+ will be required to achieve a nominal delivery time  
+t 
+ d 
+ that is optimal in terms 
+   If you must add 
+people to a late 
+project, be sure that 
+you’ve assigned them 
+work that is highly 
+compartmentalized. 
+  
+5.  Original research can be found in [Nor70] and [Put78]. 
+ 
+FIGURE 34.1 
+The relationship 
+
+between effort 
+
+and delivery 
+timeEffort
+costEdEa = m (td4/ta4)EotdtoDevelopment timeTmin = 0.75TdImpossibleregionEa = effort in person-months
+td = nominal delivery time for schedule
+to = optimal development time (in terms of cost)
+ta = actual delivery time desired
+pre22126_ch34_754-776.indd   759pre22126_ch34_754-776.indd   75913/12/13   10:02 PM13/12/13   10:02 PM

@@ -1,0 +1,62 @@
+ Section 11.1  Protecting Programs and Data 
+715  pulled out. Anyone can cut open the box and study the process. Therefore, the trade 
+secret is easily discovered. In 
+reverse engineering
+, one studies a finished object to 
+determine how it is manufactured or how it works.
+Through reverse engineering someone might discover how a telephone is built; the 
+design of the telephone is obvious from the components and how they are connected. 
+
+Therefore, a patent is the appropriate way to protect an invention such as a telephone. 
+
+However, something like a soft drink is not just the combination of its ingredients. Mak-
+
+ing a soft drink may involve time, temperature, presence of oxygen or other gases, and 
+
+similar factors that could not be learned from a straight chemical decomposition of the 
+
+product. The recipe of a soft drink is a closely guarded trade secret. Trade secret protec-
+
+tion works best when the secret is not apparent in the product.
+Applicability to Computer ObjectsTrade secret protection applies very well to computer software. The underlying algo-
+rithm of a computer program is novel, but its novelty depends on nobody else’s know-
+
+ing it. Trade secret protection allows distribution of the 
+result
+ of a secret (the executable 
+program) while still keeping the program design hidden. Trade secret protection does 
+
+not cover copying a product (specifically a computer program), so it cannot protect 
+
+against a pirate who sells copies of someone else’s program without permission. How-
+
+ever, trade secret protection makes it illegal to steal a secret algorithm and use it in 
+
+another product.The difficulty with computer programs is that reverse engineering works. Decom-
+piler and disassembler programs can produce a source version of an executable pro-
+
+gram. Of course, this source does not contain the descriptive variable names or the 
+
+comments to explain the code, but it is an accurate version that someone else can study, 
+
+reuse, or extend.
+Difficulty of Enforcement
+Trade secret protection is of no help when someone infers a program’s design by study-
+ing its output or, worse yet, decoding the object code. Both of these are legitimate (that 
+
+is, legal) activities, and both cause trade secret protection to disappear.
+The confidentiality of a trade secret must be ensured with adequate safeguards. If 
+source code is distributed loosely or if the owner fails to impress on people (such as 
+
+employees) the importance of keeping the secret, any prosecution of infringement will 
+
+be weakened. Employment contracts typically include a clause stating that the employee 
+
+will not divulge any trade secrets received from the company, even after leaving a job. 
+
+Additional protection, such as marking copies of sensitive documents or controlling 
+
+access to computer files of secret information, may be necessary to impress people with 
+
+the importance of secrecy.
+In Table 11-1 we compare these three kinds of protection.

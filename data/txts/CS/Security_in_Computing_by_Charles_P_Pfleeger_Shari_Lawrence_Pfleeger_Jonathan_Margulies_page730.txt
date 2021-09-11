@@ -1,0 +1,67 @@
+696 Chapter 10  
+Management and Incidentswhich only files that have been changed (or created) since the last backup are saved. In 
+this case, fewer files must be saved, so the backup can be done more quickly. A selective 
+
+backup combined with an earlier complete backup effects a complete backup in the time 
+
+needed for only a selective backup.
+For each type of backup, we need the means to move from the backup forward to 
+the point of failure. That is, we need a way to restore the system in the event of failure. 
+
+In critical transaction systems, we address this need by keeping a complete record of 
+
+changes since the last backup. Sometimes, the system state is captured by a combination 
+of computer- and paper-based recording media. For example, if a system handles bank 
+
+teller operations, the individual tellers duplicate their processing on paper records—the 
+
+deposit and withdrawal slips that accompany your bank transactions; if the system fails, 
+
+the staff restores the latest backup version and reapplies all changes from the collected 
+
+paper copies. Or the banking system creates a paper journal, which is a log of transac-
+tions printed just as each transaction completes.Personal computer users often do not appreciate the need for regular backups. Even 
+minor crises, such as a failed piece of hardware, can seriously affect personal computer 
+
+users. Sidebar 10-9 cited one estimate of the number of small-to-medium-sized businesses 
+
+that do not backup their data, but experts imagine the statistics are worse for private individ-
+
+uals. For one example of a personal 
+
+computer user who did not perform 
+
+any backups, see Sidebar 10-10. With 
+
+a backup, users can simply change to 
+
+a similar machine and continue work.
+Offsite Backup
+A backup copy is useless if it is destroyed in the crisis, too. Many major comput-
+ing installations rent warehouse space some distance from the computing system, far 
+
+enough away that a crisis is not likely to affect the offsite location at the same time. As 
+Individuals often fail to back up their 
+own data.SIDEBAR 10-10 One Computer 
+ A Lifetime of MoviesWashington Post
+ columnist Marc Fisher wrote in early December 2010 that 
+his house had been burglarized and his son’s iPod, laptop, and cash, as 
+
+well as a new jacket and other things were stolen. The thief took a picture of 
+
+himself wearing the jacket and flashing a handful of cash he had just taken; 
+then, the thief was so brazen as to post that picture to Fisher’s son’s Face-
+
+book page. This was just an ordinary crime with a criminal a bit cockier than 
+
+most. As Fisher wrote, nobody was hurt and most items were replaceable.
+The one irreplaceable item was data. On his laptop the son had a 
+log of every movie he had watched in his entire life—“hundreds and hun-
+
+dreds,” along with comments about each one. But he had never backed up 
+
+that file, let alone anything else on the laptop. “It’s gone—a reminder of the 
+
+new reality that computers . . . have created, a world in which a document 
+meant to last a lifetime can disappear in an instant . . .”
+And how long would it have taken to copy that file to a memory stick?

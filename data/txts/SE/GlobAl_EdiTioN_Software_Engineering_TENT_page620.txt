@@ -1,0 +1,42 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜by the language garbage collection mechanism. Asynchronous event handling and timing specification has also been included. However, at the time of writing, this 
+
+specification has mostly been used on platforms that have significant processor and 
+memory capacity (e.g., a cell phone) rather than simpler embedded systems, with 
+
+more limited resources. These systems are still usually implemented in C.
+Architectural patterns are abstract, stylized descriptions of good design practice. 
+
+They capture knowledge about the organization of system architectures, when these 
+architectures should be used, and their advantages and disadvantages. You use an 
+
+architectural pattern to understand an architecture and as starting point for creating 
+your own, specific architectural design.The difference between real-time and interactive software means that there are 
+distinct architectural patterns for real-time embedded systems. Real-time systems™ 
+
+patterns are process-oriented rather than object- or component-oriented. In this sec-
+tion, I discuss three real-time architectural patterns that are commonly used:1. Observe and React This pattern is used when a set of sensors are routinely monitored 
+and displayed. When the sensors show that some event has occurred (e.g., an incom-ing call on a cell phone), the system reacts by initiating a process to handle that event.
+2. Environmental Control This pattern is used when a system includes sensors, 
+
+which provide information about the environment and actuators that can change 
+the environment. In response to environmental changes detected by the sensor, 
+control signals are sent to the system actuators.3. Process Pipeline 
+This pattern is used when data has to be transformed from one 
+
+representation to another before it can be processed. The transformation is 
+
+implemented as a sequence of processing steps, which may be carried out con-
+currently. This allows for very fast data processing, because a separate core or 
+processor can execute each transformation.These patterns can of course be combined, and you will often see more than one of 
+them in a single system. For example, when the Environmental Control pattern is 
+
+used, it is very common for the actuators to be monitored using the Observe and React 
+
+pattern. In the event of an actuator failure, the system may react by displaying a warn-
+ing message, shutting down the actuator, switching in a backup system, and so forth.The patterns that I cover are architectural patterns that describe the overall struc-ture of an embedded system. Douglass (Douglass 2002) describes lower-level, real-
+time design patterns that support more detailed design decision making. These 
+
+patterns include design patterns for execution control, communications, resource 
+
+allocation, and safety and reliability.

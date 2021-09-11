@@ -1,0 +1,43 @@
+CHAPTER 22  
+SOFTWARE TESTING STRATEGIES
+ 489Results are assessed and a lack of correspondence between expected and actual performance is encountered. In many cases, the noncorresponding data are a 
+symptom of an underlying cause as yet hidden. The debugging process attempts 
+to match symptom with cause, thereby leading to error correction.  
+ 
+ 
+ 
+  The debugging process will usually have one of two outcomes: (1) the cause will be found and corrected or (2) the cause will not be found. In the latter case, 
+the person performing debugging may suspect a cause, design a test case to help 
+validate that suspicion, and work toward error correction in an iterative fashion.   
+ 
+ 
+ 
+ 
+Why is debugging so difﬁ cult? In all likelihood, human psychology (see Sec-
+22.9.2) has more to do with an answer than software technology. However, a 
+
+few characteristics of bugs provide some clues:  
+ 
+ 
+ 1.
+  The symptom and the cause may be geographically remote. That is, the symptom may appear in one part of a program, while the cause may ac-
+tually be located at a site that is far removed. Highly coupled components 
+(Chapter 12) exacerbate this situation.   
+ 
+ 
+ 2.
+  The symptom may disappear (temporarily) when another error is corrected.   
+ 
+ 
+ 3.
+  The symptom may actually be caused by nonerrors (e.g., round-off inaccuracies).   
+ 
+ 
+ 4.
+  The symptom may be caused by human error that is not easily traced.   Why is 
+debugging so difﬁ cult? 
+?RegressiontestsCorrectionsIdentifiedcausesAdditional testsSuspected causesResultsDebuggingTest
+Cases FIGURE 22.7 
+The debugging 
+process
+pre22126_ch22_466-495.indd   489pre22126_ch22_466-495.indd   48913/12/13   6:14 PM13/12/13   6:14 PM

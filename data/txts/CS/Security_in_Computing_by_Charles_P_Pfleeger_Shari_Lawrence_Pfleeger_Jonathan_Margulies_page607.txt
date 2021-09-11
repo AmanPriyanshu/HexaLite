@@ -1,0 +1,60 @@
+ Section 8.4  Cloud Identity Management 
+573  university credentials, and see a list of links to the classes they’re registered for. When 
+they change their passwords on the university system, the password effectively changes 
+
+on the cloud provider system, too. And when students graduate, they automatically lose 
+
+access to the LMS.OAuthWhereas SAML is designed to handle authentication, authorization, and single sign-on 
+for users and systems, OAuth
+ [HAR12] was built to handle a different aspect of FIdM: 
+SIDEBAR 8-4 Signing for Anyone
+In 2012, a group of German researchers announced that they had discov-
+ered a way to trick most SAML implementations into accepting fraudulent 
+
+Assertions. In a paper they delivered at Usenix Security ’12 [SOM12], 
+
+researchers Juraj Somorovsky, Andreas Mayer, Jorg Schwenk, Marco 
+
+Kampmann, and Meiko Jensen described their novel XML Signature wrap-
+
+ping attack. To start the attack, the attacker needs to obtain a signed SAML 
+
+message from an IdP; given the nature of SAML, this is not difficult. Once 
+
+the attackers obtain the signed message, their goal is to add Assertions to 
+
+the message in such a way that1.  The SP will process all of the Assertions and act on them; and
+2.  The SP will not include the new Assertions in the digital signature 
+verification, that is, the digital signature verification will pass because 
+
+it will only be verified against the original SAML message contents.The researchers tested different versions of the attack against 14 
+SAML implementations. Most of their effort was focused on moving both the 
+
+original SAML message content and the new Assertions into various per-
+
+mutations within a new SAML document. Their goal was to discover which 
+permutations allowed the signature verification to pass, which permuta-
+
+tions allowed the new Assertions to be processed, and which permutations 
+
+allowed both to happen simultaneously.
+Of the 14 implementations they tested—including the most prevalent 
+ones in use at the time—the researchers found that 12 were vulnerable to 
+
+some version of this attack, and could therefore be misled into allowing an 
+
+attacker to impersonate any legitimate user. The researchers did not argue 
+
+that this was a vulnerability in the SAML specification or XMLDSig, exactly, 
+
+but rather argued that the root cause of the vulnerability was the complexity 
+
+of the standards. There is a valuable lesson here: Just because the speci-
+
+fication is secure doesn’t mean that it lends itself to being implemented 
+
+securely.
+The story has a happy ending. The researchers worked closely 
+with the security teams at all 12 affected companies, and in August 2012 
+
+reported that all the vulnerabilities they had identified had been fixed.

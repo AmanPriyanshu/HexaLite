@@ -1,0 +1,35 @@
+˜˜˜˚˝˜˜˜˜˜˜
+A protection system is a specialized system that is associated with some other sys
+-tem. This is usually a control system for some process, such as a chemical manu
+-facturing process, or an equipment control system, such as the system on a 
+
+driverless train. An example of a protection system might be a system on a train 
+
+that detects if the train has gone through a red signal. If there is no indication that 
+
+the train control system is slowing down the train, then the protection system auto-
+matically applies the train brakes to bring it to a halt. Protection systems indepen-
+dently monitor their environment. If sensors indicate a problem that the controlled 
+
+system is not dealing with, then the protection system is activated to shut down the 
+
+process or equipment.Figure 11.
+6 illustrates the relationship between a protection system and a con
+-trolled system. The protection system monitors both the controlled equipment and 
+the environment. If a problem is detected, it issues commands to the actuators to shut 
+down the system or invoke other protection mechanisms such as opening a pressure-
+release valve. Notice that there are two sets of sensors. One set is used for normal 
+
+system monitoring and the other specifically for the protection system. In the event 
+
+of sensor failure, backups are in place that will allow the protection system to con-
+tinue in operation. The system may also have redundant actuators.A protection system only includes the critical functionality that is required to 
+move the system from a potentially unsafe state to a safe state (which could be sys-
+tem shutdown). It is an instance of a more general fault-tolerant architecture in which 
+a principal system is supported by a smaller and simpler backup system that only 
+
+includes essential functionality. For example, the control software for the U.S. Space 
+Shuttle had a backup system with ﬁget you homeﬂ functionality. That is, the backup 
+system could land the vehicle if the principal control system failed but had no other 
+control functions.ProtectionsensorsSystem environment
+ActuatorsControlledequipmentControl systemProtectionsystemSensorsFigure 11.6 Protection system architecture 

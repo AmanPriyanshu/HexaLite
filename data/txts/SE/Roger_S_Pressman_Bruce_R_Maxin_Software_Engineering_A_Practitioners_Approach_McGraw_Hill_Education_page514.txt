@@ -1,0 +1,99 @@
+484 PART THREE  
+QUALITY MANAGEMENTvalidation or system level, the distinction between different software categories disappears. Testing focuses on user-visible actions and user-recognizable output 
+
+from the system.  Validation can be deﬁ
+ ned in many ways, but a simple (albeit harsh) deﬁ
+ nition 
+is that validation succeeds when software functions in a manner that can be rea-
+sonably expected by the customer. At this point a battle-hardened software de-
+
+veloper might protest: “Who or what is the arbiter of reasonable expectations?” 
+If a  Software Requirements Speciﬁ
+ cation
+ 
+ has been developed, it describes all us-
+er-visible attributes of the software and contains a  
+Validation Criteria
+ 
+ section 
+that forms the basis for a validation-testing approach.   
+ 
+22.7.1   
+Validation-Test Criteria 
+ 
+Software validation is achieved through a series of tests that demonstrate confor-
+mity with requirements. A test plan outlines the classes of tests to be conducted, 
+
+and a test procedure deﬁ nes speciﬁ
+ c test cases that are designed to ensure that all 
+functional requirements are satisﬁ ed, all behavioral characteristics are achieved, 
+all content is accurate and properly presented, all performance requirements are 
+
+attained, documentation is correct, and usability and other requirements are met 
+
+(e.g., transportability, compatibility, error recovery, maintainability). If a deviation 
+
+from speciﬁ cation is uncovered, a  
+deﬁ ciency list
+ 
+ is created. A method for resolv-
+ing deﬁ ciencies (acceptable to stakeholders) must be established. 
+ 
+ 
+ 
+ 
+22.7.2   
+Conﬁ guration Review 
+ 
+An important element of the validation process is a  conﬁ guration review.
+ 
+ The 
+intent of the review is to ensure that all elements of the software conﬁ guration 
+have been properly developed, are cataloged, and have the necessary detail to 
+bolster the support activities. The conﬁ guration review, sometimes called an 
+audit, is discussed in more detail in Chapter 29.   
+ 
+ 
+22.7.3   
+Alpha and Beta Testing 
+ 
+ 
+It is virtually impossible for a software developer to foresee how the customer will really use a program. Instructions for use may be misinterpreted; strange 
+combinations of data may be used; output that seemed clear to the tester may be 
+unintelligible to a user in the ﬁ eld. 
+ When custom software is built for one customer, a series of acceptance tests 
+are conducted to enable the customer to validate all requirements. Conducted by 
+
+the end user rather than software engineers, an acceptance test can range from 
+
+an informal “test drive” to a planned and systematically executed series of tests. 
+
+In fact, acceptance testing can be conducted over a period of weeks or months, 
+
+thereby uncovering cumulative errors that might degrade the system over time. 
+ If software is developed as a product to be used by many customers, it is impractical to perform formal acceptance tests with each one. Most software    Like all other testing 
+steps, validation tries 
+to uncover errors, but 
+
+the focus is at the re-
+quirements level—on 
+things that will be 
+immediately apparent 
+to the end user. 
+  
+ 
+ uote:  “Given enough 
+eyeballs, all bugs 
+are shallow (e.g., 
+given a large 
+enough beta-tester 
+and co-developer 
+base, almost every 
+
+problem will be 
+characterized 
+quickly and the 
+ﬁ x obvious to 
+
+someone).”  E. Raymond 
+pre22126_ch22_466-495.indd   484pre22126_ch22_466-495.indd   48413/12/13   6:14 PM13/12/13   6:14 PM

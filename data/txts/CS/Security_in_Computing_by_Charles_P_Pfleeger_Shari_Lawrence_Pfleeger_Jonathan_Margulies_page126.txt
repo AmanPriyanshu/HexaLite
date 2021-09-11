@@ -1,0 +1,68 @@
+92 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+word lengths and repeated characters, so humans are solving an easier problem. As we 
+said, however, cryptanalysts also use every piece of information at their disposal.
+Some of the algorithms we study in this book are based on known “hard” problems 
+that take an unreasonably long time to solve. But the cryptanalyst does not necessar-
+
+ily have to solve the underlying problem to break the encryption of a single message. 
+
+Sloppy use of controls can reveal likely words or phrases, and an analyst can use edu-
+
+cated guesses combined with careful analysis to generate all or much of an important 
+message. Or the cryptanalyst might employ a spy to obtain the plaintext entirely outside 
+
+the system; analysts might then use 
+the pair of plaintext and correspond-
+
+ing ciphertext to infer the algorithm 
+
+or key used to apply to subsequent 
+
+messages.Second, estimates of breakability are based on current technology. An enormous 
+advance in computing technology has occurred since 1950. Things that were infeasible 
+
+in 1940 became possible by the 1950s, and every succeeding decade has brought greater 
+
+improvements. A conjecture known as “Moore’s Law” asserts that the speed of proces-
+
+sors doubles every 1.5 years, and this conjecture has been true for over three decades. 
+
+We dare not pronounce an algorithm secure just because it cannot be broken with 
+cur-
+rent
+ technology, or worse, that it has not been broken yet.
+In this book we write that something is impossible; for example, it is impossible to 
+obtain plaintext from ciphertext without the corresponding key and algorithm. Please 
+
+understand that in cryptography few things are truly impossible: infeasible or prohibi-
+
+tively difficult, perhaps, but impossible, no.
+Symmetric and Asymmetric Encryption SystemsRecall that the two basic kinds of encryptions are symmetric (also called “secret key”) 
+and asymmetric (also called “public key”). Symmetric algorithms use one key, which 
+
+works for both encryption and decryption. Usually, the decryption algorithm is closely 
+
+related to the encryption one, essentially running the encryption in reverse.
+The symmetric systems provide a two-way channel to their users: A and B share a 
+secret key, and they can both encrypt information to send to the other as well as decrypt 
+
+information from the other. As long as the key remains secret, the system also provides 
+
+authenticity, proof that a message received was not fabricated by someone other than 
+the declared sender.
+3 Authenticity is ensured because only the legitimate sender can 
+produce a message that will decrypt properly with the shared key.
+Symmetry is a major advantage of this type of encryption, but it also leads to a prob-
+lem: How do two users A and B obtain their shared secret key? And only A and B can 
+
+use that key for their encrypted communications. If A wants to share encrypted com-
+
+munication with another user C, A and C need a different shared secret key. Managing 
+In cryptanalysis there are no rules: Any 
+
+action is fair play.
+3. This being a security book, we point out that the proof is actually that the message was sent by someone 
+who had or could simulate the effect of the sender’s key. With many security threats there is a small, but 
+
+non-zero, risk that the message is not actually from the sender but is a complex forgery.

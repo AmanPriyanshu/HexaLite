@@ -1,0 +1,78 @@
+CHAPTER 15  
+USER INTERFACE DESIGN
+ 345 
+Like interface design for conventional software, the design of Web and mobile 
+app interfaces describes the structure and organization of the user interface and 
+includes a representation of screen layout, a deﬁ nition of the modes of interac-
+tion, and a description of navigation mechanisms. A set of interface design prin-
+ciples and an interface design workﬂ ow guide a WebApp or mobile app designer 
+when layout and interface control mechanisms are designed.  The user interface is the window into the software. In many cases, the inter-
+face molds a user’s perception of the quality of the system. If the “window” is 
+
+smudged, wavy, or broken, the user may reject an otherwise powerful computer- 
+
+based system.   
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+15.1.  Describe the worst interface that you have ever worked with and critique it relative to the concepts introduced in this chapter. Describe the best interface that you have ever 
+
+worked with and critique it relative to the concepts introduced in this chapter. 
+   
+ 
+15.2.  Develop two additional design principles that “place the user in control.”    
+ 
+15.3.  Develop two additional design principles that “reduce the user’s memory load.” 
+   
+ 
+15.4.  Develop two additional design principles that “make the interface consistent.”    
+ 
+15.5.  Consider one of the following interactive applications (or an application assigned by your instructor):    
+ 
+ 
+a.  A desktop publishing system     
+ 
+b.  A computer-aided design system 
+    
+ 
+c.  An interior design system (as described in Section 15.3.2)     
+ 
+d.  An automated course registration system for a university     
+ 
+e.  A library management system     
+ 
+f.  An Internet-based polling booth for public elections     
+ 
+g.  A home banking system     
+ 
+h.  An interactive application assigned by your instructor  
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Develop a user model, design model, mental model, and an implementation model, for any one of these systems.    
+ 
+15.6.  Perform a detailed task analysis for any one of the systems listed in Problem 15.5. Use either an elaborative or object-oriented approach.    
+ 
+15.7.  Add at least ﬁ ve additional questions to the list developed for content analysis in Sec-
+tion 15.3.3.    
+ 
+15.8.  Continuing Problem 15.5, deﬁ ne interface objects and actions for the application you 
+have chosen. Identify each object type.    
+ 
+15.9.  Develop a set of screen layouts with a deﬁ nition of major and minor menu items for the 
+system you chose in Problem 15.5.    
+ 
+15.10.  Develop a set of screen layouts with a deﬁ nition of major and minor menu items for 
+the  SafeHome 
+ system. You may elect to take a different approach than the one shown for 
+the screen layout in  Figure 15.3 .     
+15.11.  Describe your approach to user help facilities for the task analysis design model and task analysis you have performed as part of Problems 15.5, 15.7, and 15.8.    
+ 
+15.12.  Provide a few examples that illustrate why response time variability can be an issue.  pre22126_ch15_317-346.indd   345pre22126_ch15_317-346.indd   34513/12/13   10:01 PM13/12/13   10:01 PM

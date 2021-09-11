@@ -1,0 +1,40 @@
+551In this chapter:• What is a cloud service?
+• Risks to consider when choosing cloud services
+
+• Security tools for cloud environments
+Cloud computing is not a new technology. Rather, it is a new way of provid-
+
+ing services by using technology. The U.S. National Institute for Standards and 
+
+Technology has proposed defining cloud computing as a model “for enabling 
+convenient, on-demand network access to a shared pool of configurable computing 
+
+resources.” [MEL11] Thus, the cloud consists of networks, servers, storage, applica-
+
+tions, and services that are connected in a loose and easily reconfigurable way. If you 
+
+want to use the cloud, you contract with a cloud service provider, specify the configura-
+
+tion you want, et voilà! It is provided to you with very little exercise of your gray cells!
+8.1 CLOUD COMPUTING CONCEPTS
+The cloud has five defining characteristics:
+• On-demand self-service. If you are a cloud customer, you can automatically ask 
+for computing resources (such as server time and network storage) as you need 
+
+them.• Broad network access
+. You can access these services with a variety of technolo-
+gies, such as mobile phones, laptops, desktops, and mainframe computers.• Resource pooling
+. The cloud provider can put together a large number of mul-
+tiple and varied resources to provide your requested services. This “multitenant 
+
+model” permits a single resource (or collection of resources) to be accessed by 
+multiple customers, and a particular resource (such as storage, processing or 
+
+memory) can be assigned and reassigned dynamically, according to the custom-
+
+ers’ demands. This reconfiguration and reallocation are invisible to an individ-
+
+ual customer; from the customer’s point of view, services are provided without 
+
+knowledge of the underlying location or locations.
+8Cloud Computing

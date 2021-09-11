@@ -1,0 +1,85 @@
+898 APPENDIX 2  
+OBJECT-ORIENTED CONCEPTS
+been implemented with a method, the class should not provide another way to accomplish the same thing. For example, the class  VideoClip
+ 
+ of the video editing software might have attributes  start-point 
+ and  end-point  to in-dicate the start and end points of the clip (note that the raw video loaded 
+into the system may be longer than the clip that is used). The methods, 
+ setStartPoint() 
+ and  setEndPoint() 
+ provide the only means for establishing start and end points for the clip.   
+High cohesion. 
+  A cohesive design class is single minded. That is, it has 
+a small, focused set of responsibilities and single-mindedly applies attri-
+butes and methods to implement those responsibilities. For example, the 
+class  VideoClip
+ 
+ of the video-editing software might contain a set of meth-ods for editing the video clip. As long as each method focuses solely on at-
+tributes associated with the video clip, cohesion is maintained.   
+Low coupling. 
+  Within the design model, it is necessary for design classes 
+to collaborate with one another. However, collaboration should be kept to 
+
+an acceptable minimum. If a design model is highly coupled (all design 
+classes collaborate with all other design classes), the system is difﬁ cult to 
+implement, test, and maintain over time. In general, design classes within 
+a subsystem should have only limited knowledge of other classes. This re-
+striction, called the  law of Demeter 
+ [Lie03], suggests that a method should only send messages to methods in neighboring classes.  4 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  F
+URTHER
+ READINGS AND INFORMATION
+ SOURCES  
+ 
+Over the past three decades hundreds of books have been written on object-oriented pro-gramming, analysis, and design. Weisfeld ( 
+The Object-Oriented Thought Process,
+ 
+ 4th ed., 
+Addison-Wesley, 2013) presents a worthwhile treatment of general OO concepts and prin-
+
+ciples. Wong and Nguyen  
+(Principles of Object-Oriented Programming,
+ 
+ Amazon Digital Ser-
+vices, 2011) provide a practical tutorial on many important OO concepts. McLaughlin and 
+his colleagues ( Head First Object-Oriented Analysis and Design: A Brain Friendly Guide to OOA&D, 
+ O’Reilly Media, 2006) have written an accessible and enjoyable treatment of OO 
+analysis and design approaches. Keogh and Gianni ( OOP Demystiﬁ ed
+ 
+, McGraw-Hill, 2004) offer a useful guidebook on the subject.    
+A more in-depth treatment of OO analysis and design is presented by Booch and his col-leagues ( Object-Oriented Analysis and Design with Applications, 
+ 3rd ed., Addison-Wesley, 
+2007). Clark ( Beginning C# Object-Oriented Programming,
+ 
+ Apress, 2013), Kochen ( 
+Program-
+ming in Objective-C, 
+ 5th ed., Developer’s Library, 2012), Phillips ( 
+Python 3 Object Oriented Programming,
+ 
+ Packt Publishing, 2011), Khurana ( 
+Object-Oriented Programming with C++,
+ 
+ Vikas Publishing, 2010), and Wu ( 
+An Introduction to Object-Oriented Programming with 
+Java, 
+ 2d ed., McGraw-Hill, 2009) are representative of dozens of OO titles written for many 
+different programming languages.    
+A wide variety of information sources on object-oriented technologies is available on the Internet. An up-to-date list of World Wide Web references can be found under “analysis” and 
+
+“design” at the SEPA website: 
+www.mhhe.com/pressman. 
+ 
+ 
+ 
+  
+ 
+4  A less formal way of stating the law of Demeter is, “Each unit should only talk to its friends; don’t talk to strangers.” pre22126_app2_891-898.indd   898pre22126_app2_891-898.indd   89813/12/13   6:18 PM13/12/13   6:18 PM

@@ -1,0 +1,40 @@
+˜˜˚˛ˆ˜˜˜
+˜˜
+identifying the different system components, and understanding the relation
+-ships between them.3. Requirements partitioning 
+is concerned with deciding which subsystems (iden
+-
+tified in the system architecture) are responsible for implementing the system 
+
+requirements. Requirements may have to be allocated to hardware, software, or 
+operational processes and prioritized for implementation. Ideally, you should 
+
+allocate requirements to individual subsystems so that the implementation of a 
+
+critical requirement does not need subsystem collaboration. However, this is not 
+
+always possible. At this stage you also decide on the operational processes and 
+on how these are used in the requirements implementation.4. Subsystem engineering involves developing the software components of the sys-
+tem, configuring off-the-shelf hardware and software, designing, if necessary, 
+
+special-purpose hardware, defining the operational processes for the system, 
+
+and re-designing essential business processes.5. System integration is the process of putting together system elements to create a 
+new system. Only then do the emergent system properties become apparent.6. System testing is an extended activity where the whole system is tested and problems 
+
+are exposed. The subsystem engineering and system integration phases are reentered 
+
+to repair these problems, tune the performance of the system, and implement new 
+
+requirements. System testing may involve both testing by the system developer and 
+
+acceptance/user testing by the organization that has procured the system.7. System deployment is the process of making the system available to its users, 
+
+transferring data from existing systems, and establishing communications with 
+other systems in the environment. The process culminates with a ﬁgo live,ﬂ after 
+which users start to use the system to support their work.Although the overall process is plan-driven, the processes of requirements devel-opment and system design are inextricably linked. The requirements and the high-level 
+Subsystem engineeringArchitectural designRequi
+rementsengineeringSystem
+deploymentSystem
+testingSystem integrationRequirementspartitioningFigure 19.10 The systems development 
+process

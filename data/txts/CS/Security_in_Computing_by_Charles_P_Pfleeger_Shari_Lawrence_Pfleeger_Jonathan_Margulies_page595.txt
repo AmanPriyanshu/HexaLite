@@ -1,0 +1,67 @@
+ Section 8.3  Cloud Security Tools and Techniques 
+561  Data Protection in the Cloud
+Using a public cloud service—be it SaaS, PaaS, or IaaS—will likely mean sending 
+private data to the service provider via the Internet and storing private data on the cloud 
+
+provider’s servers. While different cloud service models accord you different degrees of 
+
+control over security, it is your responsibility to choose cloud offerings that ensure, or 
+
+allow you to ensure, that your data—as well as those of your partners and customers—
+
+are adequately protected from modification and disclosure.
+Protecting data in-transit is relatively straightforward, building on technologies you 
+learned about in Chapter 6. If the cloud service is a SaaS or PaaS, communication will 
+
+likely take place over HTTP, so you will want to choose a provider that requires TLS by 
+
+default and configures it well (that is, requires cipher suites that are not known to have 
+
+practical vulnerabilities and that uses a trustworthy CA). While well-configured TLS 
+
+will be important for IaaS, it is unlikely to be your only form of encrypted communica-
+
+tion. For services that communicate outside a protected enclave but do not support TLS, 
+
+SSH, and VPNs (for example, IPsec) are the standard protection mechanisms. As with 
+
+TLS, configuration, particularly your choice of cipher suite, can mean the difference 
+
+between strong and weak security. Like TLS, SSH and many VPN products also support 
+
+certificates, which, in addition to being a strong form of “something you have” authen-
+
+tication, can offer the added benefit of 
+mutual authentication, allowing the client and 
+server to authenticate each other.
+Cloud StorageWhile it is natural to mentally associate cloud storage with storage as a service (STaaS) 
+offerings such as Dropbox, the truth is that just about every cloud provider stores cus-
+
+tomer data. Storage is integral to SaaS offerings that allow customers to upload, share, 
+
+and sell photos, for instance, as well as to SaaS office suites that let customers create, 
+
+edit, and share documents. PaaS offerings generally include cloud-hosted databases for 
+
+storing application data. IaaS providers store customer VMs, network configuration 
+
+information, and any other data customers might upload.
+When considering a cloud solution from a data storage perspective, you should think 
+about a number of security-related issues:• How sensitive is the data I’ll be storing? Data sensitivity will be the key factor 
+in determining the encryption and access control capabilities you will require. 
+If you intend to create a publicly available document that anyone can edit, you 
+
+can use a service that offers no encryption or access control. If you are backing 
+
+up files that contain private personal information, encryption and access control 
+
+are critical concerns.• Will I need to share the data with anyone and, if so, what kinds of access con-
+trols will I require?
+ Access control options vary greatly across cloud storage 
+offerings. Some offerings allow data to be read by anyone who has a link to 
+
+it, while others offer an array of options for sharing with other users, and still 
+
+others allow only the user who created the data to access it. For storage of sen-
+
+sitive information, such as passwords and account numbers, sharing is rarely a 

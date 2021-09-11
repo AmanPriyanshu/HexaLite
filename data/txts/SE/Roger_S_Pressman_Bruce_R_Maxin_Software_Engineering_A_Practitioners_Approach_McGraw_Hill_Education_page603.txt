@@ -1,0 +1,88 @@
+CHAPTER 26  
+TESTING MOBILEAPPS 573 
+ 
+ 
+ 
+26.2.4   
+Stress Testing 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Stress testing
+ 
+ for mobile apps attempts to ﬁ
+ nd errors that will occur under ex-
+treme operating conditions. In addition, it provides a mechanism for deter-
+
+mining whether the MobileApp will degrade gracefully without compromising 
+security. Among the many actions that might create extreme conditions are: 
+
+running several mobile apps on the same device, (2) infecting system soft-
+
+ware with  viruses or malware, (3) attempting to take over a device and use it to spread spam, (4) forcing the mobile app to process inordinately large numbers of 
+transactions, and (5) storing inordinately large quantities of data on the device. 
+As these conditions are encountered, the MobileApp is checked to ensure that 
+resource intensive services (e.g., streaming media) are handled properly. 
+ Effective stress testing [Soa11] should be performed “in the wild,” where dif-ferent devices and different operating environments are common. Conditions 
+that exercise two to three times rated capacity should be tested. Tests should 
+
+reﬂ ect actual user behavior in real-life contexts and should reﬂ
+ ect users who 
+change location locally, as well as users in other countries with different network 
+
+conﬁ guration and standards. 
+ In the sections that follow, we consider some of these guidelines in greater detail. 
+ 
+ 
+ 
+ 
+26.2.5   
+Testing in a Production Environment 
+ 
+Many MobileApp developers advocate  testing-in-the-wild 
+, or testing in the users’ native environments with the production release versions of the MobileApp re-
+sources. Testing-in-the-wild is designed to be agile and respond to changes as 
+
+the MobileApp evolves [Ute12].   Some of the characteristics of in-the-wild testing include adverse and un-predictable environments, outdated browsers and plug-ins, unique hardware, 
+and imperfect connectivity (both Wi-Fi and mobile carrier). In order to mirror 
+
+real-world conditions, the demographic characteristics of testers should match 
+those of targeted users, as well as those of their devices. In addition, you should 
+include use cases involving small numbers of users, less-popular browsers, as 
+well as a diverse set of mobile devices. Testing-in-the-wild is always somewhat 
+
+unpredictable, and test plans must be adapted as testing progresses. For further 
+information, Rooksby and his colleagues have identiﬁ ed themes that are present 
+in successful strategies for testing-in-the-wild [Roo09].  Creating test environments in-house is an expensive and error-prone pro-
+cess. Cloud-based testing can offer a standardized infrastructure and preconﬁ g-
+ured software images, freeing the MobileApp team from the need to worry about 
+ﬁ nding servers or purchasing their own licenses for software and testing tools. 
+Cloud service providers give testers access to scalable and ready to user virtual 
+laboratories with a library of operating systems, test and execution management 
+tools, and storage necessary for creating a test environment that closely mirrors 
+the real world. [Myl11].    Graceful degradation is 
+an important property 
+
+of fault tolerant 
+systems. A system that 
+degrades gracefully 
+will attempt to get to 
+a known safe state in 
+the advent of an error 
+
+before shutting down 
+if it cannot repair the 
+damage and allow 
+execution to continue.   
+ 
+ uote:  ” The important 
+thing about mobile 
+is that everybody 
+
+has a computer in 
+their pocket.”  Ben Horowitz 
+pre22126_ch26_567-583.indd   573pre22126_ch26_567-583.indd   57313/12/13   6:15 PM13/12/13   6:15 PM

@@ -1,0 +1,91 @@
+CHAPTER 36  
+MAINTENANCE AND REENGINEERING 799redesign our business processes in order to achieve dramatic improvements in their performance.  
+ 
+ 
+  
+ 
+The hype associated with reengineering waned, but the process itself contin-ues in companies large and small. The nexus between business reengineering 
+and software engineering lies in a “system view.” 
+ As managers work to modify business rules to achieve greater effectiveness and competitiveness, software must keep pace. In some cases, this means the 
+creation of major new computer-based systems. 
+ 2 
+ 
+ But in many others, it means 
+the modiﬁ cation or rebuilding of existing applications. 
+ 
+ 
+  In the sections that follow, we examine reengineering in a top-down manner, 
+beginning with a brief overview of business process reengineering and proceed-
+ing to a more detailed discussion of the technical activities that occur when soft-
+ware is reengineered.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 36.4  
+BUSINESS PROCESS REENGINEERING  
+ 
+Business process reengineering (BPR) extends far beyond the scope of informa-tion technologies and software engineering. Among the many deﬁ nitions (most 
+somewhat abstract) that have been suggested for BPR is one published in  Fortune 
+ magazine [Ste93]: “[T]he search for, and the implementation of, radical change in 
+
+business process to achieve breakthrough results.” But how is the search con-
+ducted, and how is the implementation achieved? More important, how can we 
+ensure that the “radical change” suggested will in fact lead to “breakthrough 
+results” instead of organizational chaos?   
+ 
+36.4.1   
+Business Processes 
+ 
+ 
+ 
+ 
+ 
+ 
+A business process is “a set of logically related tasks performed to achieve a deﬁ ned business outcome” [Dav90]. Within the business process, people, equip-
+ment, material resources, and business procedures are combined to produce a 
+speciﬁ ed result. Examples of business processes include designing a new prod-
+uct, purchasing services and supplies, hiring a new employee, and paying sup-
+pliers. Each demands a set of tasks, and each draws on diverse resources within 
+the business.  Every business process has a deﬁ ned customer—a person or group that re-
+ceives the outcome (e.g., an idea, a report, a design, a service, a product). In 
+addition, business processes cross organizational boundaries. They require that 
+different organizational groups participate in the “logically related tasks” that 
+deﬁ ne the process. 
+ 
+ uote:  “To face tomorrow 
+with the thought of 
+using the methods 
+of yesterday is to 
+envision life at a 
+standstill.”  James Bell 
+   BPR often results in 
+
+new software function-
+ality, whereas software 
+
+reengineering works to 
+replace existing soft-
+ware functionality with 
+better, more maintain-
+
+able software.    As a software engi-
+
+neer, your work occurs 
+
+at the bottom of this 
+hierarchy. Be sure, 
+
+however, that some-
+
+one has given serious 
+thought to the level 
+above. If this hasn’t 
+been done, your work 
+is at risk.   
+2  The explosion of Web and mobile applications and systems is indicative of this trend. 
+pre22126_ch36_795-816.indd   799pre22126_ch36_795-816.indd   79913/12/13   6:17 PM13/12/13   6:17 PM

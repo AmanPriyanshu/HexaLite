@@ -1,0 +1,68 @@
+ Section 12.2  Symmetric Encryption Algorithms 
+789  In [BIH90] the authors present the conclusions of many results they have produced 
+by using differential cryptanalysis; they describe the details of these results in the suc-
+
+ceeding papers. The attack on Lucifer, the IBM-designed predecessor to DES, suc-
+
+ceeds with only 30 ciphertext pairs. FEAL is an algorithm similar to DES that uses any 
+
+number of rounds; the n-round version is called FEAL-
+n. FEAL-4 can be broken with 
+20 chosen plaintext items [MUR90], FEAL-8 [MIY89] with 10,000 pairs [GIL90]; and 
+
+FEAL-n for 
+n31 can be broken faster by differential cryptanalysis than by full exhaus-
+tive search [BIH91]. In short, FEAL is vulnerable to differential cryptanalysis.
+The results concerning DES are impressive. Shortening DES to fewer than its nor-
+mal 16 rounds allows a key to be determined from chosen ciphertexts in 
+fewer
+ than the 
+256 (actually, expected value of 2
+55) searches. For example, with 15 rounds, only 2
+52 tests are needed (which is still a large number of tests); with 10 rounds, the number 
+
+of tests falls to 2
+35, and with 6 rounds, only 2
+8 tests are needed. 
+However,
+ with the full 
+16 rounds, this technique requires 258 tests, or 22  4 times more
+ effort than exhaustive 
+search would require.
+Finally, the authors show that with randomly selected S-box values, DES is easy to 
+break. Indeed, even with a change of only one entry in one S-box, DES becomes easy 
+
+to break. One might conclude that the design of the S-boxes and the number of rounds 
+
+were chosen to be optimal.In fact, that is true. Don Coppersmith of IBM, one of the original team working on 
+Lucifer and DES, acknowledged [COP92] that the technique of differential cryptanaly-
+
+sis was known to the design team in 1974 when they were designing DES. The team 
+
+structured the S-boxes and permutations in such a way as to defeat that line of attack. 
+
+The differential cryptanalysis work shows that the basis of DES was indeed solid, and 
+
+NSA’s unexplained design changes only strengthened it.
+AESBecause of the concerns about the fixed-sized key of DES and the fact that computing 
+
+power was continually increasing against that stationary target, security analysts began 
+
+to search for a replacement for DES.The AES ContestIn January 1997, NIST called for cryptographers to develop a new encryption system. 
+As with the call for candidates from which DES was selected, NIST made several 
+
+important restrictions. The algorithm had to be unclassified and publicly disclosed, and, 
+
+to promote widespread use by businesses, NIST stipulated that the algorithm be offered 
+
+royalty free for use worldwide. The DES replacement would also have to be a symmet-
+
+ric block cipher that could operate on blocks of at least 128 bits. Finally, to overcome 
+
+the key-length limitation of DES, NIST required the new algorithm to be able to use 
+
+keys 128, 192, and 256 bits long.
+In August 1998, fifteen algorithms were chosen from among those submitted; in 
+August 1999, the field of candidates was narrowed to five finalists. The five then under-
+
+went extensive public and private scrutiny. The final selection was made on the basis not 

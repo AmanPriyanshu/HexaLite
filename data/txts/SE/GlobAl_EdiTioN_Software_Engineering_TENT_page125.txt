@@ -1,0 +1,39 @@
+˜˜˚˜˜˜˜
+˜˜
+
+
+Use cases are a way of describing interactions between users and a system using a graphical model and structured text. They were first introduced in the Objectory 
+
+method (Jacobsen et al. 1993) and have now become a fundamental feature of the 
+
+Unified Modeling Language (UML). In their simplest form, a use case identifies the 
+actors involved in an interaction and names the type of interaction. You then add 
+
+additional information describing the interaction with the system. The additional 
+
+information may be a textual description or one or more graphical models such as 
+the UML sequence or state charts (see Chapter 5).Use cases are documented using a high-level use case diagram. The set of use 
+cases represents all of the possible interactions that will be described in the system 
+requirements. Actors in the process, who may be human or other systems, are repre
+-
+sented as stick figures. Each class of interaction is represented as a named ellipse. 
+Lines link the actors with the interaction. Optionally, arrowheads may be added to 
+lines to show how the interaction is initiated. This is illustrated in Figure 
+4.15, which 
+
+shows some of the use cases for the Mentcare system.Use cases identify the individual interactions between the system and its users or other systems. Each use case should be documented with a textual description. These 
+
+can then be linked to other models in the UML that will develop the scenario in more 
+detail. For example, a brief description of the Setup Consultation use case from 
+
+Figure 4.15 might be:Setup consultation allows two or more doctors, working in different offices, to 
+view the same patient record at the same time. One doctor initiates the consul-
+tation by choosing the people involved from a dropdown menu of doctors who 
+are online. The patient record is then displayed on their screens, but only the 
+initiating doctor can edit the record. In addition, a text chat window is created NurseMedical receptionistManagerRegister
+patientView
+personal info.
+View record
+Generatereport
+Export
+statisticsDoctorEdit recordSetupconsultationFigure 4.15 Use cases for the Mentcare system

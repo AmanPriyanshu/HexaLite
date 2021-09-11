@@ -1,0 +1,74 @@
+ Section 11.5  Computer Crime 
+743  and down each year, which demonstrates that attackers can and do operate from many 
+different countries. Countries frequently attacked include places like the United States 
+
+and Europe because the proportion of computer users is high; countries frequently the 
+source of Internet attacks include Russia, Brazil, India, and the United States, again in 
+part because of the large number of proficient computer users in these countries.
+Complexity is an even more significant factor than country of origin. As we have 
+stated throughout this book, networked attacks are hard to trace and investigate because 
+
+they can involve so many steps. A smart attacker will “bounce” an attack through many 
+
+places to obscure the trail. Each step along the way makes the investigator complete 
+
+more legal steps. If the trail leads from server A to B to C, the law enforcement investiga-
+
+tors need a search warrant for data at A, and others for B and C. Even after obtaining the 
+
+search warrants, the investigator has 
+
+to find the right administrator and 
+
+serve the warrants to begin obtain-
+
+ing data. In the time the investigator 
+
+has to get and serve warrants, not to 
+
+mention follow leads and correlate 
+
+findings, the attacker has carefully 
+
+erased the digital evidence.
+In a CNET News
+ article, Sandoval [SAN02] says law enforcement agencies are 
+rarely able to track down hackers sophisticated enough to pull off complicated attacks. 
+
+Sandoval quotes Richard Power, editorial director of the Computer Security Institute: 
+
+“It’s a world class business.” Independent investigator Dan Clements says, “only about 
+
+10 percent of active hackers are savvy enough to work this way consistently, but they 
+
+are almost always successful.”
+What Computer Crime Does Not Address
+Even with the definitions included in the statutes, the courts must interpret what a computer 
+
+is. Legislators cannot define precisely what a computer is because computer technology 
+
+is used in many other devices, such as robots, calculators, watches, automobiles, micro-
+
+wave ovens, and medical instruments. More importantly, we cannot predict what kinds of 
+
+devices may be invented ten or fifty years from now. Therefore, the language in each of 
+
+these laws indicates the kinds of devices the legislature seeks to include as computers and 
+
+leaves it up to the court to rule on a specific case. Unfortunately, it takes a while for courts 
+
+to build up a pattern of cases, and different courts may rule differently in similar situations. 
+
+The interpretation of each of these terms will be unsettled for some time to come.Both the value of a person’s privacy and the confidentiality of data about a person are 
+even less settled. In a later section we consider how ethics and individual morality take 
+
+over where the law stops.
+Summary of Legal Issues in Computer SecurityThis section has described four aspects of the relationship between computing and the 
+law. First, we presented the legal mechanisms of copyright, patent, and trade secret 
+
+as means to protect the secrecy of computer hardware, software, and data. These 
+Computer attacks affecting many people 
+
+tend to be complex, involving people 
+and facilities in several countries, thus 
+complicating prosecution.

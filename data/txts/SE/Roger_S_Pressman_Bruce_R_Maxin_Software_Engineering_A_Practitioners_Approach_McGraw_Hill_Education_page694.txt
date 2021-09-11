@@ -1,0 +1,53 @@
+664 PART 
+THREE  QUALITY MANAGEMENTeffectiveness of modules or components within the architecture. These metrics 
+are “black box” in the sense that they do not require any knowledge of the inner 
+workings of a particular software component.  Card and Glass [Car90] deﬁ ne three software design complexity measures: 
+structural complexity, data complexity, and system complexity. 
+ For hierarchical architectures (e.g., call-and-return architectures),  structural complexity  of a module  
+i  is deﬁ ned in the following manner:
+ S ( 
+i ) 
+5  f   
+2 
+out( i ) (30.2)where  f 
+out( i ) is the fan-out  
+6   of module  
+i.   
+  
+Data complexity  provides an indication of the complexity in the internal inter-
+face for a module  i  and is deﬁ
+ ned as
+ D ( 
+i ) 
+5   
+ v ( 
+i )
+ _________ [ f 
+out( i ) 
+1 1]   (30.3)where  v ( 
+i ) is the number of input and output variables that are passed to and from module  i.  
+ Finally,  
+system complexity  is deﬁ ned as the sum of structural and data com-
+plexity, speciﬁ
+ ed as
+ C ( 
+i ) 
+5  S ( 
+i ) 
+1  D ( 
+i ) 
+ (30.4) As each of these complexity values increases, the overall architectural complex-
+ity of the system also increases. This leads to a greater likelihood that integration 
+and testing effort will also increase.  Fenton [Fen91] suggests a number of simple morphology (i.e., shape) met-rics that enable different program architectures to be compared using a set of 
+straightforward dimensions. Referring to the call-and-return architecture in   Fig-
+ure 30.4  , the following metrics can be deﬁ
+ ned:Size 5  n 1 a where  n  is the number of nodes and  a  is the number of arcs. For the architecture shown in   Figure 30.4  ,
+Size 5 17 1 18 5 35  Depth 
+5  longest path from the root (top) node to a leaf node. For the 
+architecture shown in   Figure 30.4  , depth 
+5 4.  Width 
+5  maximum number of nodes at any one level of the architecture. 
+For the architecture shown in   Figure 30.4  , width 
+5 6.   6   
+Fan-out  is deﬁ ned as the number of modules immediately subordinate to module  
+i;  that is, the number of modules that are directly invoked by module  i.  

@@ -1,0 +1,95 @@
+610 PART THREE  
+QUALITY MANAGEMENT 
+ 
+  4.  The  yes 
+ condition is tested in the conditional logic shown. Hence, the  yes 
+ condition must be true when control ﬂ ow moves along the path shown. 
+  
+ 
+ 
+ 5.
+  The  exit 
+ condition ﬁ rst demands that  
+x 
+ remain unchanged. An exam-ination of the design indicates that  x 
+ appears nowhere to the left of an assignment operator. There are no function calls that use  
+x. 
+ Hence, it is unchanged. Since the conditional test ( y 
+ 1 1) 2 
+ #  
+x 
+ must fail to reach the  exit 
+ condition, it follows that ( y 
+ 1 1) 2 
+ #  x 
+. In addition, the  loop 
+ condition must still be true (i.e.,  y 
+ 2 
+ #  x 
+). Therefore, ( y 
+ 1 1) 2 
+ .  x 
+ and  y 
+ 2 
+ #  x 
+ can be com-bined to satisfy the exit condition.    
+You must further ensure that the loop terminates. An examination of the  
+loop 
+ condition indicates that, because  y 
+ is incremented and  
+x 
+ $ 0, the loop must even-
+tually terminate.  The ﬁ ve steps just noted are a proof of the correctness of the design of the 
+algorithm noted in  Figure 28.6 . You are now certain that the design will, in fact, 
+compute the integer part of a square root.  A more rigorous mathematical approach to design veriﬁ cation is possible. 
+However, a discussion of this topic is beyond the scope of this book. If you have 
+
+interest, refer to [Lin79].   
+ 
+ 
+ 
+ 
+ 28.4  
+CLEANROOM TESTING  
+ 
+The strategy and tactics of cleanroom testing are fundamentally different from conventional testing approaches (Chapters 22 through 26). Conventional meth-
+ods derive a set of test cases to uncover design and coding errors. The goal of 
+cleanroom testing is to validate software requirements by demonstrating that a 
+statistical sample of use cases (Chapter 8) have been executed successfully.
+    
+ 
+28.4.1   
+Statistical Use Testing 
+ 
+The user of a computer program rarely needs to understand the technical details of the design. The user-visible behavior of the program is driven by inputs and 
+
+events that are often produced by the user. But in complex systems, the possible 
+
+spectrum of input and events (i.e., the use cases) can be extremely broad. What 
+subset of use cases will adequately verify the behavior of the program? This is the 
+ﬁ rst question addressed by statistical use testing.
+   Statistical use testing “amounts to testing software the way users intend to use it” 
+[Lin94]. To accomplish this, cleanroom testing teams (also called  
+certiﬁ cation teams
+ 
+) must determine a usage probability distribution for the software. The speciﬁ cation 
+(black box) for each increment of the software is analyzed to deﬁ ne a set of stimuli 
+(inputs or events) that causes the software to change its behavior. Based on inter-
+
+views with potential users, the creation of usage scenarios, and a general under-
+
+standing of the application domain, a probability of use is assigned to each stimuli. 
+  uote:   “Quality is not an 
+act, it is a habit.”  
+ Aristotle 
+   Even if you decide 
+
+against the cleanroom 
+approach, it's worth 
+
+considering statistical 
+use testing as an 
+integral part of your 
+
+test strategy. 
+pre22126_ch28_601-622.indd   610pre22126_ch28_601-622.indd   61013/12/13   6:15 PM13/12/13   6:15 PM

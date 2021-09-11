@@ -1,0 +1,77 @@
+380 PART TWO  
+MODELING 
+Photograph 
+ (a .jpg image) has the attributes 
+horizontal dimension, vertical dimension, and border style.  UML association and an aggregation  6 
+ 
+ may be used to represent relationships 
+between content objects. For example, the UML association shown in  Figure 17.3  indicates that one  CompDescription 
+ is used for each instance of the  
+ProductCom-ponent 
+ class.  
+CompDescription 
+ is composed on the ﬁ
+ ve content objects shown. 
+However, the multiplicity notation shown indicates that  
+Schematic 
+ and 
+ Video
+ 
+ are 
+optional (0 occurrences are possible), one  MarketingDescription 
+ and one  
+Tech-
+Description 
+ are required, and one or more instances of  Photograph 
+ are used.   
+ 
+ 
+17.6.2  Content Design Issues 
+ 
+Once all content objects are modeled, the information that each object is to deliver 
+must be authored and then formatted to best meet the customer’s needs. Content 
+
+authoring is the job of specialists in the relevant area who design the content ob-
+ject by providing an outline of information to be delivered and an indication of 
+
+the types of generic content objects (e.g., descriptive text, graphic images, photo-
+graphs) that will be used to deliver the information. Aesthetic design (Section 17.5) 
+
+may also be applied to represent the proper look and feel for the content. 
+ProductComponentpartNumber
+partName
+
+partType
+
+description
+pricecreateNewItem( )displayDescription( )
+display TechSpec
+MarketingDescriptiontext colorfont style
+font size
+line spacing
+text usage size
+background colorPhotographhorizontal dimensionvertical dimension
+
+border styleSchematichorizontal dimensionvertical dimension
+
+border styleTechDescription
+text colorfont style
+font size
+line spacing
+text image size
+background colorVideo
+horizontal dimensionvertical dimension
+
+border style
+audio volumeCompDescription1111Is part of
+0..10..10..1
+11..*
+SensorCameraControl PanelSoftFeature  
+FIGURE 17.3 
+Design representation 
+
+of content 
+objects    
+ 
+6  Both of these representations are discussed in Appendix 1. 
+pre22126_ch17_371-390.indd   380pre22126_ch17_371-390.indd   38013/12/13   6:13 PM13/12/13   6:13 PM

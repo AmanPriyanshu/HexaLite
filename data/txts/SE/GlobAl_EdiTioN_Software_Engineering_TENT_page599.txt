@@ -1,0 +1,44 @@
+˜˜˚˛ˇ˜˜˜˜˜˜˜˜
+and have the authority to decide when the overall system is acceptable. For SoS, a 
+range of stakeholders should be involved in the testing process if possible, and 
+
+they can comment on whether or not the system is ready for deployment.2.
+ Agile methods make extensive use of automated testing. This makes it much 
+
+easier to rerun tests to discover if unexpected system changes have caused prob-
+lems for the SoS as a whole.Depending on the type of system, you may have to plan the installation of equip-ment and user training as part of the deployment process. If the system is being 
+
+installed in a new environment, equipment installation is straightforward. However, 
+
+if it is intended to replace an existing system, there may be problems in installing new 
+
+equipment if it is not compatible with the equipment that is in use. There may not be 
+
+the physical space for the new equipment to be installed alongside the working sys-
+tem. There may be insufficient electrical power, or users may not have time to be 
+
+involved because they are busy using the current system. These nontechnical issues 
+
+can delay the deployment process and slow down the adoption and use of the SoS.Perhaps the most crucial activity of the systems of systems engineering process is 
+architectural design. Architectural design involves selecting the systems to be 
+
+included in the SoS, assessing how these systems will interoperate, and designing 
+
+mechanisms that facilitate interaction. Key decisions on data management, redun-dancy, and communications are made. In essence, the SoS architect is responsible 
+for realizing the vision set out in the conceptual design of the system. For organiza-
+tional and federated systems, in particular, decisions made at this stage are crucial to 
+the performance, resilience, and maintainability of the system of systems.Maier (Maier 1998) discusses four general principles for the architecting of com-plex systems of systems:1. Design systems so that they can deliver value if they are incomplete. Where a system is composed of several other systems, it should not just be useful if all of 
+its components are working properly. Rather, there should be several ﬁstable 
+
+intermediate formsﬂ so that a partial system works and can do useful things.2. Be realistic about what can be controlled. The best performance from a SoS may be 
+
+achieved when an individual or group exerts control over the overall system and its 
+
+constituents. If there is no control, then delivering value from the SoS is difficult. 
+
+However, attempts to overcontrol the SoS are likely to lead to resistance from the 
+
+individual system owners and consequent delays in system deployment and evolution.3.
+ Focus on the system interfaces. To build a successful system of systems, you 
+
+have to design interfaces so that the system elements can interoperate. It is 

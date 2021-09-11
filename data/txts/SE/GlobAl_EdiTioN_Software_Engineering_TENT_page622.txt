@@ -1,0 +1,53 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜This often involves raising an alarm to draw an operator™s attention to the event. 
+Sometimes the system may initiate some other preventative action, such as shutting 
+down the system to preserve it from damage.The Observe and React pattern (Figures 21.6 and 21.7) is commonly used in 
+monitoring systems. The values of sensors are observed, and the system initiates 
+
+actions that depend on these sensor values. Monitoring systems may be composed of 
+several instantiations of the Observe and React pattern, one for each type of sensor 
+in the system. Depending on the system requirements, you may then optimize the 
+
+design by combining processes (e.g., you may use a single display process to display 
+the information from all of the different types of sensor).As an example of the use of this pattern, consider the design of a burglar alarm system to be installed in an office building:A software system is to be implemented as part of a burglar alarm system for 
+commercial buildings. This uses several different types of sensors. These sen-
+sors include movement detectors in individual rooms, door sensors that detect 
+corridor doors opening, and window sensors on ground-floor windows that 
+
+can detect when a window has been opened.When a sensor detects the presence of an intruder, the system automatically calls 
+the local police and, using a
+  voice synthesizer, reports the location of the alarm. 
+It switches on lights in the rooms around the active sensor and sets off an audible 
+
+alarm. The sensor system is normally powered by mains power but is equipped 
+
+with a battery backup. Power loss is detected using a separate power circuit 
+
+monitor that monitors the mains voltage. If a voltage drop is detected, the system 
+
+assumes that intruders have interrupted the power supply, so an alarm is raised.A process architecture for the alarm system is shown in Figure 21.8. The arrows 
+represent signals sent from one process to another. This system is a ﬁsoftﬂ real-time 
+system that does not have stringent timing requirements. The sensors only need to detect 
+Lighting control
+process
+External alert
+process
+Voltage monitor
+process
+System
+controllerConsole displayprocess
+Door sensorprocess
+Movement
+detector process
+Window sensorprocess
+Audible alarm
+process
+Control panelprocess
+Testing process
+Power management
+process
+Figure 21.8
+ The process 
+structure of a burglar 
+
+alarm system 

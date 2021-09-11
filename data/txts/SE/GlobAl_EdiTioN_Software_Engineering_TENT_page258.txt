@@ -1,0 +1,49 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜the evolution phase. However, as the software is modified, its structure tends to 
+degrade, and system changes become more and more expensive. This often happens 
+after a few years of use when other environmental changes, such as hardware and 
+operating systems, are also required. At some stage in the life cycle, the software 
+
+reaches a transition point where significant changes and the implementation of new 
+requirements become less and less cost-effective. At this stage, the software moves 
+
+from evolution to servicing.During the servicing phase, the software is still useful, but only small tactical 
+changes are made to it. During this stage, the company is usually considering how the 
+
+software can be replaced. In the final stage, the software may still be used, but only 
+
+essential changes are made. Users have to work around problems that they discover. 
+
+Eventually, the software is retired and taken out of use. This often incurs further costs 
+
+as data is transferred from an old system to a newer replacement system.
+As with all software processes, there is no such thing as a standard software change 
+
+or evolution process. The most appropriate evolution process for a software system 
+
+depends on the type of software being maintained, the software development pro-
+cesses used in an organization, and the skills of the people involved. For some types 
+
+of system, such as mobile apps, evolution may be an informal process, where change 
+
+requests mostly come from conversations between system users and developers. For 
+
+other types of systems, such as embedded critical systems, software evolution may be 
+
+formalized, with structured documentation produced at each stage in the process.Formal or informal system change proposals are the driver for system evolution in all 
+organizations. In a change proposal, an individual or group suggests changes and updates 
+
+to an existing software system. These proposals may be based on existing requirements 
+
+that have not been implemented in the released system, requests for new requirements, 
+
+bug reports from system stakeholders, and new ideas for software improvement from the 
+
+system development team. The processes of change  identification and system evolution 
+are cyclical and continue throughout the lifetime of a system (Figure 9.3).Before a change proposal is accepted, there needs to be an analysis of the 
+ software to work out which components need to be changed. This analysis allows 
+
+the cost and the impact of the change to be assessed. This is part of the general pro-
+cess of change management, which should also ensure that the correct versions of SoftwaredevelopmentSoftwareevolutionSoftwareservicingSoftwareretirementTime
+Figure 9.2 Evolution and servicing 

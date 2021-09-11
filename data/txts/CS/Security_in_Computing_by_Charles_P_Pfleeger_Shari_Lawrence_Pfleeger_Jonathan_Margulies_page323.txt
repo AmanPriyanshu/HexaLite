@@ -1,0 +1,12 @@
+ Section 5.1  Security in Operating Systems 
+289  User Authentication Module
+UserInterfaceUser IDLookupAuthenticationData ComparisonAuthenticationData UpdatesMost Trusted 
+
+CodeLeast 
+Trusted 
+
+CodeFIGURE 5-3 Authentication Functions Spanning Layers in an Operating System UsersUsersUsersUsersUsers
+User ModeUser InterfaceSystem Services InterfacePrivileged ModeFileA/VNetBackupShell
+ObjectSecI/OSynchMemoryCommSec
+TimePrimitive ServicesHardware Interface and AbstractionMicrokernelKernel Mode Drivers
+HardwareFIGURE 5-4 Operating System Modules

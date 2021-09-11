@@ -1,0 +1,79 @@
+ Section 3.2  Malicious Code—Malware 
+167  2005, combined into a ready-to-run package. A kind of “click and run” application, the 
+$2000 kit has been around in different versions since 2009. Each kit sold is preconfig-
+
+ured for use against only one web site address (although customers can buy additional 
+
+addresses), so the attacker who bought the kit intended to dispatch the attack specifi-
+
+cally through the Treasury web site, perhaps because of its high credibility with users.
+As malicious code attacks go, this one was not the most sophisticated, complicated, 
+or devastating, but it illustrates several important features we explore as we analyze 
+
+malicious code, the topic of this chapter. We also describe some other malicious code 
+
+attacks that have had a far more serious impact.
+Malicious code comes in many forms under many names. In this chapter we explore 
+three of the most popular forms: viruses, Trojan horses, and worms. The distinctions 
+
+among them are small, and we do not need to classify any piece of code precisely. More 
+
+important is to learn about the nature of attacks from these three: how they can spread, 
+
+what harm they can cause, and how they can be controlled. We can then apply this 
+
+knowledge to other types of malicious code, including code forms that do not yet have 
+
+popular names.Malware—Viruses, Trojan Horses, and Worms
+Malicious code or 
+rogue programs 
+or malware 
+(short for MALicious softWARE) is 
+the general name for programs or program parts planted by an agent with malicious 
+
+intent to cause unanticipated or undesired effects. The agent is the program’s writer or 
+
+distributor. Malicious intent distinguishes this type of code from unintentional errors, 
+
+even though both kinds can certainly have similar and serious negative effects. This 
+
+definition also excludes coincidence, in which minor flaws in two benign programs 
+
+combine for a negative effect. Most faults found in software inspections, reviews, and 
+
+testing do not qualify as malicious 
+
+code; their cause is usually unin-
+
+tentional. However, unintentional 
+
+faults can in fact invoke the same 
+
+responses as intentional malevo-
+
+lence; a benign cause can still lead 
+
+to a disastrous effect.
+You may have been affected by malware at one time or another, either because your 
+computer was infected or because you could not access an infected system while its 
+
+administrators were cleaning up the mess caused by the infection. The malware may 
+
+have been caused by a worm or a virus or neither; the infection metaphor often seems 
+
+apt, but the terminology of malicious code is sometimes used imprecisely. Here we 
+
+distinguish names applied to certain types of malware, but you should focus on methods 
+
+and impacts, instead of names. That which we call a virus by any other name would 
+
+smell as vile.A virus is a program that can replicate itself and pass on malicious code to other 
+nonmalicious programs by modifying them. The term “virus” was coined because 
+
+the affected program acts like a biological virus: It infects other healthy subjects by 
+
+attaching itself to the program and either destroying the program or coexisting with it. 
+Malicious code can be directed at a 
+
+specific user or class of users, or it can 
+be for anyone.

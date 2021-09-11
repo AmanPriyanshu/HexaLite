@@ -1,0 +1,70 @@
+374 Chapter 6  
+Networksopenings they report are available with or without port scans. Should they be prohibited in 
+some way? It is probably too late for that action, especially because any competent pro-
+
+grammer with a rudimentary knowledge of network protocols could easily write a basic 
+
+one. Thus, at best we can say the port scanning technique exists, and network admin-
+
+istrators should use port scanners 
+
+themselves to determine how much 
+
+outsiders can learn of their network. 
+
+By themselves port scanners do not 
+
+cause denial of service or any other 
+
+network failure, but they do facilitate 
+
+and often precipitate it.Vulnerability Summary
+As the examples just presented show, numerous attacks against the infrastructure 
+
+of wide area networks can lead to interception, modification, and denial of service. 
+
+Because these attacks work against the large network, they are seldom used against one 
+
+specific user, who can be difficult to isolate in a universe of millions of concurrent com-
+
+munications. (As we describe later in this chapter, denial-of-service attacks can be, and 
+
+often are, directed against one specific victim.)
+In the next section we explore how similar tricks can be used in wireless, local net-
+works, where a mere handful of users makes it feasible to focus an attack on just one. 
+
+Notice that these networks can still connect to wider area networks such as the Internet. 
+
+So one user’s full activity is still open to interception and modification; the point of 
+
+intrusion is just immediately adjacent to the user.
+6.3 WIRELESS NETWORK SECURITY
+In this section we present the technology of wireless networking. We then describe two 
+
+approaches for securing these networks. The first is widely acknowledged as a security 
+
+failure. Studying this failed attempt should yield insight into why integrating security 
+
+is hard for an existing technology with nonsecurity constraints. Phrased differently, this 
+
+tale is a prime example of why security engineers beg to be included in designs from 
+
+the beginning: Adding security after the design is fixed rarely succeeds. Still, from this 
+
+story you can see what should have or could have been foreseen and addressed.
+The second approach is better, but it, too, has security limitations. In this example 
+you can see that even with a worked example of security pitfalls to avoid, crafting a suc-
+
+cessful approach requires careful consideration of possible points of failure.
+WiFi Background
+Wireless traffic uses a section of the radio spectrum, so the signals are available to any-
+
+one with an effective antenna within range. Because wireless computing is so exposed, it 
+
+requires measures to protect communications between a computer (called the client) and a 
+
+wireless base station or access point. Remembering that all these communications are on 
+Network and vulnerability scanners can 
+be used positively for management and 
+administration and negatively for attack 
+planning.

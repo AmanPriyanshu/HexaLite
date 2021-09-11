@@ -1,0 +1,137 @@
+22 CHAPTER 2  
+SOFTWARE ENGINEERING
+often takes a lot of thought and work over multiple iterations to simplify. The 
+payoff is software that is more maintainable and less error-prone. 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Third Principle:   Maintain the Vision  Maintain the Vision 
+  
+ 
+ 
+ 
+A clear vision is essential to the success of a software project
+ 
+. Without one, a 
+project almost unfailingly ends up being “of two [or more] minds” about itself. 
+
+Without conceptual integrity, a system threatens to become a patchwork of incom-
+
+ 
+architectural vision of a software system weakens and will eventually break even 
+
+the well-designed systems. Having an empowered architect who can hold the vi-
+sion and enforce compliance helps ensure a very successful software project. 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Fourth Principle:   What You Produce, Others Will Consume  What You Produce, Others Will Consume 
+  
+ 
+ 
+Seldom is an industrial-strength software system constructed and used in a vacuum. In some way or other, someone else will use, maintain, document, or 
+
+otherwise depend on being able to understand your system. So,  always specify, 
+design, and implement knowing someone else will have to understand what you 
+are doing
+ 
+. The audience for any product of software development is potentially large. Specify with an eye to the users. Design, keeping the implementers in 
+mind. Code with concern for those that must maintain and extend the system. 
+Someone may have to debug the code you write, and that makes them a user of 
+your code. Making their job easier adds value to the system.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Fifth Principle:   Be Open to the FutureBe Open to the Future
+ 
+  
+ 
+ 
+A system with a long lifetime has more value. In today's computing envi-ronments, where speciﬁ cations change on a moment’s notice and hardware 
+platforms are obsolete just a few months old, software lifetimes are typically 
+measured in months instead of years. However, true “industrial-strength” 
+
+software systems must endure far longer. To do this successfully, these sys-
+
+tems must be ready to adapt to these and other changes. Systems that do this 
+successfully are those that have been designed this way from the start.  Never design yourself into a corner 
+. Always ask “what if,” and prepare for all possible answers by creating systems that solve the general problem, not just the spe-
+ciﬁ c one. 
+ 6 
+ 
+ This could very possibly lead to the reuse of an entire system.  
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Sixth Principle:   Plan Ahead for Reuse  Plan Ahead for Reuse   
+ 
+ 
+Reuse saves time and effort.  7 
+ 
+ Achieving a high level of reuse is arguably the hardest goal to accomplish in developing a software system. The reuse of code    If software has value, 
+it will change over 
+its useful life. For 
+that reason, software 
+must be built to be 
+maintainable.   
+6  This advice can be dangerous if it is taken to extremes. Designing for the “general problem” 
+sometimes requires performance compromises and can make speciﬁ c solutions inefﬁ
+ cient. 
+  
+7  Although this is true for those who reuse the software on future projects, reuse can be expen-
+sive for those who must design and build reusable components. Studies indicate that designing 
+and building reusable components can cost between 25 to 200 percent more than targeted 
+software. In some cases, the cost differential cannot be justiﬁ ed. 
+pre22126_ch02_014-028.indd   22pre22126_ch02_014-028.indd   2213/12/13   6:10 PM13/12/13   6:10 PM

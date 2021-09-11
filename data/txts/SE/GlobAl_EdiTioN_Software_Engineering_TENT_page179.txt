@@ -1,0 +1,32 @@
+˜˜˚˙˜˜˜
+˜˜
+AuthenticationBrowser-based user interface
+Configuration servicesGroupmanagementApplicationmanagementIdentitymanagementUser storageLogging and monitoring
+Application storageInterfacing
+SearchUtility servicesApplication servicesiLearn appEmail   Messaging   Video conferencing  Newspaper archive
+Word processing   Simulation   Video storage   Resource finder
+Spreadsheet   Virtual learning environment   History archive
+Figure 6.9 The architecture of the iLearn systemFigure 6.
+9 shows that the iLearn digital learning system, introduced in Chapter 1, 
+has a four-layer architecture that follows this pattern. You can see another example 
+of the Layered Architecture pattern in Figure 6.19 (Section 6.4, which shows the 
+
+organization of the Mentcare system.The layered architecture and MVC patterns are examples of patterns where the view 
+
+presented is the conceptual organization of a system. My next example, the Repository 
+
+pattern (Figure 6.10), describes how a set of interacting components can share data.NameRepositoryDescriptionAll data in a system is managed in a central repository that is accessible to all system 
+components. Components do not interact directly, only through the repository.ExampleFigure 6.
+11 is an example of an IDE where the components use a repository of system design 
+
+infor mation. Each software tool generates information, which is then available for use by other tools.When usedYou should use this pattern when you have a system in which large volumes of information are 
+
+generated that has to be stored for a long time. You may also use it in data-driven systems where 
+
+the inclusion of data in the repository triggers an action or tool.AdvantagesComponents can be independent; they do not need to know of the existence of other 
+
+components. Changes made by one component can be propagated to all components. All data 
+
+can be managed consistently (e.g., backups done at the same time) as it is all in one place.DisadvantagesThe repository is a single point of failure so problems in the repository affect the whole 
+system. May be inefficiencies in organizing all communication through the repository. 
+Distributing the repository across several computers may be difficult.Figure 6.10 The Repository pattern

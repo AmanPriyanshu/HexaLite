@@ -1,0 +1,68 @@
+ Section 10.6  Conclusion 
+699  However, this section should have made you aware of the major issues in physical secu-
+rity. We have to protect the facility against many sorts of disasters, from weather to 
+
+chemical spills and vehicle crashes to explosions. No one can predict what will occur or 
+
+when. The physical security manager must consider all assets and a wide range of harm.
+Malicious humans seeking physical access are a different category of threat agent. 
+With them, you can consider motive or objective: Is it theft of equipment, disruption 
+
+of processing, interception of data, or access to service? Fences, guards, solid walls, 
+
+and locks will deter or prevent most human attacks. But you always need to ask where 
+
+weaknesses remain; a solid wall has a weakness in every door and window.
+The primary physical controls are strength and duplication. Strength means overlap-
+ping controls implementing a defense-in-depth approach so that if one control fails, the 
+
+next one will protect. People who built ancient castles practiced this philosophy with 
+
+moats, walls, drawbridges, and arrow slits. Duplication means eliminating single points 
+
+of failure. Redundant copies of data protect against harm to one copy from any cause. 
+
+Spare hardware components protect against failures.
+10.6 CONCLUSION
+In this chapter we have considered the management aspects of computing: how to plan 
+
+and prepare for emergencies. The most important step is considering the situation in 
+
+advance. Identifying who is in charge in advance gives everyone a sense of control.
+Risk analysis is a process that sounds more comprehensive and detailed than it is. A 
+large organization cannot possibly identify all assets, threats, and likelihoods of exploi-
+
+tation. Precision is not the point. Identifying the high items on these lists helps set pri-
+orities and justify decisions and expenditures.
+Incident response begins with an important first step: someone notices and reports 
+something. Organizations need a single point to which to report to keep the response 
+
+activity from becoming chaotic. People should be encouraged to report anything 
+
+unusual, because at first it can be difficult to determine the nature and severity of a 
+
+situation.Natural and physical disasters are as much a part of computer security as encryption and reference monitors. Because fire, flood, and loss of electricity occur in everyday 
+
+life, people sometimes overlook their impact.
+In this chapter we have described only the surface of managing security. Many read-
+ers of this book will be students or technology professionals. These readers may wonder 
+
+why we cover these nontechnological topics. First, not every computer security problem 
+
+has a technological answer: Firewalls and sandboxes do nothing if a disk fails and there 
+
+is no backup. Second, we think our readers should know briefly what the management 
+
+side of computer security involves. Some readers will work for, or perhaps become, 
+
+managers responsible not just for VPNs but also CSIRTs. Knowing the range of your 
+
+manager’s concerns helps you get the fairest support for your particular area or issue. 
+
+Finally, we want to expose our readers to the breadth of possibilities in computer secu-
+
+rity. Not everyone will become a network engineer or secure software developer. Some 
+
+will become incident response coordinators, capacity planners, risk officers, and foren-
+
+sic analysts. Everyone should know of other specializations in the field.

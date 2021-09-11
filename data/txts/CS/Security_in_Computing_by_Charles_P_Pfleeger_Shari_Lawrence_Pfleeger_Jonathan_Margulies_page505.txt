@@ -1,0 +1,30 @@
+ Section 6.7  Firewalls 
+471  What Firewalls Can—and Cannot—Block
+As we have seen, firewalls are not complete solutions to all computer security problems. 
+A firewall protects only the perimeter of its environment against attacks from outsiders 
+
+who want to execute code or access data on the machines in the protected environment. 
+
+Keep in mind these points about firewalls.
+• Firewalls can protect an environment only if the firewalls control the entire 
+perimeter. That is, firewalls are effective only if no unmediated connections 
+
+breach the perimeter. If even one inside host connects to an outside address, by 
+
+a wireless connection for example, the entire inside net is vulnerable through the 
+
+unprotected host.• Firewalls do not protect data outside the perimeter; data that have properly 
+passed (outbound) through the firewall are just as exposed as if there were no 
+
+firewall.
+• Firewalls are the most visible part of an installation to the outside, so they are 
+the most attractive target for attack. For this reason, several different layers of 
+
+protection, called defense in depth, are better than relying on the strength of just 
+a single firewall.
+• Firewalls must be correctly configured, that configuration must be updated as 
+the internal and external environment changes, and firewall activity reports must 
+
+be reviewed periodically for evidence of attempted or successful intrusion.
+FirewallDMZWeb page server Email server FTP server 
+FirewallDatabaseFIGURE 6-62 Demilitarized Zone

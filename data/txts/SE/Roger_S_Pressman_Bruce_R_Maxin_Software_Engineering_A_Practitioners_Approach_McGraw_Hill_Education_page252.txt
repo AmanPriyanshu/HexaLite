@@ -1,0 +1,66 @@
+222 PART TWO  
+MODELINGwhole. To accomplish this, states are identiﬁ
+ ed, the events that cause a class (or 
+the system) to make a transition from one state to another are deﬁ ned, and the 
+actions that occur as transition is accomplished are also identiﬁ ed. State dia-
+grams and sequence diagrams are the notation used for behavioral modeling.  Analysis patterns enable a software engineer to use existing domain knowl-edge to facilitate the creation of a requirements model. An analysis pattern 
+describes a speciﬁ c software feature or function that can be described by a co-
+herent set of use cases. It speciﬁ es the intent of the pattern, the motivation for 
+its use, constraints that limit its use, its applicability in various problem domains, 
+the overall structure of the pattern, its behavior and collaborations, and other 
+supplementary information.  Requirements modeling for mobile applications and WebApps can use most, 
+if not all, of the modeling elements discussed in this book. However, these ele-
+
+ments are applied within a set of specialized models that address content, in-
+teraction, function, navigation, and the conﬁ guration in which the mobile app or 
+WebApp resides. 
+  
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+11.1.  There are two different types of “states” that behavioral models can represent. What are they?    
+ 
+11.2.  How does a sequence diagram differ from a state diagram? How are they similar?    
+ 
+11.3.  Suggest three requirements patterns for a modern mobile phone and write a brief description of each. Could these patterns be used for other devices? Provide an example.    
+ 
+11.4.  Select one of the patterns you developed in Problem 11.3 and develop a reason-ably complete pattern description similar in content and style to the one presented in 
+   
+ 
+11.5.  How much analysis modeling do you think would be required for  www.safehomeassured
+.com 
+? Would each of the model types described in Section 11.5.3 be required? 
+   
+ 
+11.6.  What is the purpose of the interaction model for a WebApp? 
+   
+ 
+11.7.  It could be argued that a WebApp functional model should be delayed until design. 
+Present pros and cons for this argument.    
+ 
+11.8.  What is the purpose of a conﬁ guration model? 
+   
+ 
+11.9.  How does the navigation model differ from the interaction model?   
+ 
+ 
+ 
+  F
+URTHER
+ READINGS AND INFORMATION
+ SOURCES  
+ 
+Behavioral modeling presents an important dynamic view of system behavior. Books by 
+Samek ( Practical UML Statecharts in C/C++: Event Driven Programming for Embedded Sys-
+tems, 
+ CRC Press, 2008), Wagner and his colleagues ( 
+Modeling Software with Finite State 
+Machines: A Practical Approach,
+ 
+ Auerbach, 2006) and Boerger and Staerk ( 
+Abstract State Machines, 
+ Springer, 2003) present thorough discussions of state diagrams and other behav-
+ioral representations. Gomes and Fernandez ( Behavioral Modeling for Embedded Systems pre22126_ch11_202-223.indd   222pre22126_ch11_202-223.indd   22213/12/13   6:12 PM13/12/13   6:12 PM

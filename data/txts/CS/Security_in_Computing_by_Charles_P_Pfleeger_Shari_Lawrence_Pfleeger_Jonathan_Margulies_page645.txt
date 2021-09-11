@@ -1,0 +1,83 @@
+ Section 9.3  Authentication and Privacy 
+611  Two different purposes are at work here, although the two are sometimes confused. 
+For authentication, we have an identity and some authentication data, and we ask if the 
+
+authentication data match the pattern for the given identity. That is, someone claims to 
+
+be person X, and authentication verifies that the person really is X. For identification, 
+
+we have only the authentication data, and we ask which identity corresponds to the 
+
+authenticator. That is, we have no one claiming identity, but we have to figure out who 
+
+that person is from authentication data. This second question (who is this?) is much 
+
+harder to answer than the first (is this X?). 
+To answer the first, we have characteristics of X in our database, we compare the 
+person with X, and we declare a match or no match (or sometimes probability of 
+
+match). To answer the second question, we do not know if the subject is even in the 
+
+database. Thus, we must examine every possible person in the database to see if there is 
+
+a solid match. But even if we find several potential partial matches, we do not know if 
+
+there might be an even better match 
+
+to someone not in our database. 
+
+Moreover, in the first instance, we 
+
+do only one comparison: is this X? 
+In the second instance, we need n comparisons, where n is the number 
+of people in the database. What Authentication MeansWe actually use the term authentication to mean three different things [KEN03]. We 
+
+authenticate an individual, identity, or attribute. An 
+individual
+ is a unique person. 
+Authenticating an individual is what we do when we allow a person to enter a controlled 
+
+room: We want only that human being allowed to enter. An 
+identity is a character string 
+or similar descriptor, but it does not necessarily correspond to a single person, nor does 
+
+each person have only one name. The identity may describe a group or category of 
+
+people who meet the provided description. For example, a company’s sales division 
+
+might be defined as a multiple-person identity, allowing anyone in that group to respond 
+
+at sales@company.com
+. Similarly, we authenticate an 
+identity when we acknowledge 
+that whoever (or whatever) is trying to log in as 
+admin has presented an authenticator 
+valid for that account. Authenticating an identity in a chat room as SuzyQ does not say 
+
+anything about the person using that identifier: It might be a 16-year-old girl or a pair of 
+
+middle-aged male police detectives, who at other times use the identity FreresJacques.
+Finally, we authenticate an 
+attribute
+ if we verify that a person has that attribute. An 
+attribute
+ is a characteristic, such as a fingerprint or a DNA profile. Here’s an example 
+of authenticating an attribute. Some bars, restaurants, or pubs require a patron to be at 
+
+least 21 years old in order to drink alcohol. A club’s doorkeeper verifies a person’s age 
+
+and stamps the person’s hand to show that the patron is over 21. Note that to decide, 
+
+the doorkeeper may have looked at an identity card listing the person’s birth date, so 
+
+the doorkeeper knows the person’s exact age to be 24 years, 6 months, 3 days. Alter-
+
+natively, the doorkeeper might be authorized to look at someone’s face and decide if 
+
+the person with gray hair and wrinkles looks so far beyond 21 that there is no need to 
+Authentication is confirming an asserted 
+identity. Inferring an identity from 
+
+authentication data is far harder and 
+
+less certain.

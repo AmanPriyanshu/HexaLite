@@ -1,0 +1,72 @@
+114 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+cannot be forged, and demonstrates authenticity. We want a means by which one party 
+can sign something and, as on paper, have the signature remain valid for days, months, 
+
+years—indefinitely. Furthermore, the signature must convince all who access the file. 
+
+Of course, as with most conditions involving digital methods, the caveat is that the 
+
+assurance is limited by the assumed skill and energy of anyone who would try to defeat 
+
+the assurance.A digital signature often uses asymmetric or public key cryptography. As you just 
+saw, a public key protocol is useful for exchange of cryptographic keys between two 
+
+parties who have no other basis for trust. Unfortunately, the public key cryptographic 
+
+protocols involve several sequences of messages and replies, which can be time con-
+
+suming if either party is not immediately available to reply to the latest request. It would 
+
+be useful to have a technique by which one party could reliably precompute some pro-
+
+tocol steps and leave them in a safe place so that the protocol could be carried out even 
+
+if only one party were active. This situation is similar to the difference between a bank 
+
+teller and an ATM. You can obtain cash, make a deposit or payment, or check your 
+
+balance because the bank has pre-established steps for an ATM to handle those simple 
+
+activities 24 hours a day, even if the bank is not open. But if you need a certified check 
+
+or foreign currency, you may need to interact directly with a bank agent. 
+In this section we define digital signatures and compare their properties to those of 
+handwritten signatures on paper. We then describe the infrastructure surrounding digital 
+
+signatures that lets them be recognizable and valid indefinitely.
+Components and Characteristics of Signatures
+A digital signature is just a binary object associated with a file. But if we want that sig-
+nature to have the force of a paper-based signature, we need to understand the properties 
+
+of human signatures. Only then can we express requirements for our digital version.
+Properties of Secure Paper-Based Signatures 
+Consider a typical situation that parallels a common human need: an order to transfer 
+funds from one person to another. In other words, we want to be able to send the elec-
+
+tronic equivalent of a computerized check. We understand the properties of this transac-
+
+tion for a conventional paper check:
+• A check is a 
+tangible object authorizing a financial transaction.
+• The signature on the check 
+confirms authenticity
+ because (presumably) only the 
+legitimate signer can produce that signature.
+• In the case of an alleged forgery, a third party can be called in to 
+judge 
+authenticity.
+• Once a check is cashed, it is canceled so that it 
+cannot be reused.
+• The paper check is 
+not alterable. 
+Or, most forms of alteration are easily detected.
+Transacting business by check depends on 
+tangible objects in a 
+prescribed form.
+ But 
+tangible objects do not exist for transactions on computers. Therefore, authorizing pay-
+
+ments by computer requires a different model. Let us consider the requirements of such 
+
+a situation, from the standpoint both of a bank and of a user.

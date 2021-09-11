@@ -1,0 +1,82 @@
+CHAPTER 18  
+MOBILEAPP DESIGN 405applications in mobile game development (a multibillion-dollar industry). Most popular games are developed in parallel for several mobile devices. This type of 
+development fragmentation drives up costs and underscores the need for bet-
+ter standardization of development tools and APIs. Galavas [Gal11] notes that 
+portability, functionality, development speed, and performance are key selection 
+
+criteria when considering which mobile development platforms to use.  Mobile computing middleware can be used to facilitate the communication and coordination of distributed system components. This can allow mobile ap-
+plication developers to rely on abstractions that hide the details of some of the 
+complexities of mobile environments. For middleware to be useful in MobileApp 
+development, both the mobile client and the mobile service provider must allow 
+for asynchronous intermittent connections. The middleware components run-
+ning on the mobile client must not consume signiﬁ cant computational resources 
+on the mobile device. The middleware must also help the mobile application 
+achieve the level of context awareness required by its users [Mas02].   
+ 
+ 
+ 
+ 
+ 
+ 18.5  
+THE CLOUD  
+ 
+ 
+Services computing  23 
+ 
+ and cloud computing 
+ 24 
+ 
+ enable the rapid development of 
+large-scale distributed applications [Yau11]. These computing paradigms have 
+
+made it easier and more economical to create applications on many different 
+devices (personal computers, smartphones, and tablets). The two paradigms   
+MobileApp Middleware 
+ 
+The following middleware products are rep-resentative of those developed speciﬁ cally for 
+mobile applications:   
+ 
+http://www.infrae.com/products/mobi 
+ 
+—Mobi mobile middleware is a set of libraries and WSGI 
+components that interact between a Web server and 
+
+applications that make mobile data available.   
+ 
+http://smartsoftmobile.com/ 
+ 
+—SmartSoft Mobile 
+Solutions provides cloud-based and enterprise (e.g., 
+SAP) solutions for mobile device platforms. 
+  
+ 
+http://www.sybase.com/ 
+ 
+—Sybase provides a Mobile Enterprise Application Platform (MEAP) that 
+provide tools and client-server middleware for mobile 
+and enterprise application development. See also: 
+  
+http://scn.sap.com/community/mobile  
+   
+ 
+http://code.google.com/p/skeenzone/  
+—SkeenZone is lightweight and extensible Java 
+middleware that enables development of distributed 
+mobile applications.   
+ 
+http://modolabs.com/platform  
+—Kurogo is an open-source platform designed to power content-
+
+rich, multifaceted mobile websites and iPhone and 
+Android apps.   
+INFO  
+ 
+23  
+ Services computing 
+ focuses on architectural design and enables application development 
+through service discovery and composition.   
+24  
+ Cloud computing 
+ focuses on the effective delivery of services to users through ﬂ
+ exible and 
+scalable resource virtualization and load balancing, pre22126_ch18_391-410.indd   405pre22126_ch18_391-410.indd   40516/12/13   6:23 PM16/12/13   6:23 PM

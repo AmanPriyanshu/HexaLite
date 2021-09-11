@@ -1,0 +1,55 @@
+234 PART TWO  
+MODELINGStated in another way, a design pattern describes a design structure that solves 
+a particular design problem within a speciﬁ c context and amid “forces” that may 
+have an impact on the manner in which the pattern is applied and used.  The intent of each design pattern is to provide a description that enables a designer to determine (1) whether the pattern is applicable to the current work, 
+whether 
+
+the pattern can serve as a guide for developing a similar, but functionally or struc-
+
+  
+ 
+ 
+ 
+12.3.4 Separation of Concerns 
+ 
+  
+ 
+Separation of concerns 
+ is a design concept [Dij82] that suggests that any complex 
+problem can be more easily handled if it is subdivided into pieces that can each 
+be solved and/or optimized independently. A  
+concern 
+ is a feature or behavior 
+that is speciﬁ ed as part of the requirements model for the software. By separat-
+ing concerns into smaller, and therefore more manageable pieces, a problem 
+
+takes less effort and time to solve.  It follows that the perceived complexity of two problems when they are com-bined is often greater than the sum of the perceived complexity when each is 
+taken separately. This leads to a divide-and-conquer strategy—it’s easier to solve 
+
+a complex problem when you break it into manageable pieces. This has import-
+ant implications with regard to software modularity. 
+ Separation of concerns is manifested in other related design concepts: modu-larity, aspects, functional independence, and reﬁ
+ nement. Each will be discussed 
+in the subsections that follow. 
+  
+ 
+ 
+ 
+12.3.5 Modularity  
+  
+ 
+Modularity 
+ is the most common manifestation of separation of concerns. Soft-
+ware is divided into separately named and addressable components, sometimes 
+called  modules, 
+ that are integrated to satisfy problem requirements.  It has been stated that “modularity is the single attribute of software that al-lows a program to be intellectually manageable” [Mye78]. Monolithic software 
+(i.e., a large program composed of a single module) cannot be easily grasped by 
+a software engineer. The number of control paths, span of reference, number 
+
+of variables, and overall complexity would make understanding close to impos-
+sible. In almost all instances, you should break the design into many modules, 
+hoping to make understanding easier and, as a consequence, reduce the cost 
+required to build the software.   Recalling our discussion of separation of concerns, it is possible to conclude that if you subdivide software indeﬁ nitely the effort required to develop it will 
+become negligibly small! Unfortunately, other forces come into play, causing 
+
+this conclusion to be (sadly) invalid. Referring to  Figure 12.2 , the effort (cost) to develop an individual software module does decrease as the total number of pre22126_ch12_224-251.indd   234pre22126_ch12_224-251.indd   23413/12/13   6:12 PM13/12/13   6:12 PM

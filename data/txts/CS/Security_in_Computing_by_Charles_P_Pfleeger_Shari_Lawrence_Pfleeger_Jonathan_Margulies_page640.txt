@@ -1,0 +1,71 @@
+606 Chapter 9  
+PrivacyAnonymity, while having benefits, can also create problems. If you are trying to be 
+anonymous, how do you pay for something? You might use a trusted third party (for 
+
+example, a real estate agent or a lawyer) to complete the sale and preserve your ano-
+
+nymity. But then the third party knows who you are. David Chaum [CHA81, CHA82, 
+
+CHA85] studied this problem and devised a set of protocols by which such payments 
+
+could occur without revealing the buyer to the seller.
+Multiple Identities—Linked or NotMost people already have multiple identities. To your bank, you are your account num-
+ber. To your motor vehicles bureau, you are your driver’s license number. And to your 
+
+credit card company, you are your credit card number. For particular purposes, these 
+
+numbers are your identity; the fact that each may (or may not) be held in your name is 
+
+irrelevant. The name becomes important if it is used as a way to link these numbers and 
+
+their associated records. How many people share your name? Can (or should) there be a 
+
+key value to link these separate databases? And what complications arise when we con-
+
+sider misspellings and multiple valid forms of your name (with and without middle ini-
+
+tial, with full middle name, with one of two middle names if you have two, and so forth)?
+Moreover, what if you have a commonly used name, or your name changes at some 
+time? Suppose you change your name legally but never change the name on your credit 
+
+card. Then your name cannot easily be used as a key on which to link. You might try to 
+
+use a secondary characteristic as verifier, such as address. However, address presents 
+
+another risk: Perhaps a criminal lived in your house before you bought it. You should 
+
+not have to defend your reputation because of an unrelated previous occupant. We could 
+
+match on date, too, so we connect only people who actually lived in a house at the same 
+
+time. But then group houses or roommates of convenience present additional problems. 
+
+As computer scientists, we know that programming all these possibilities is possible 
+
+but requires careful and time-consuming consideration of the potential problems 
+before
+ designing the solution. Alas, we know that too frequently such unusual but critical pecu-
+
+liarities are not considered until after code is developed and installed, and then each 
+
+exceptional case is considered alone and often in haste. We can see the potential for 
+
+misuse and inaccuracy. 
+Linking identities correctly to create dossiers and break anonymity creates privacy 
+risks, but linking them incorrectly creates much more serious risks for the use of the 
+
+data and the privacy of affected people. If we think carefully, we can determine many of 
+
+the ways such a system would fail—an approach that may be effective but is potentially 
+
+expensive and time consuming. The temptation to act quickly but inaccurately will also 
+
+affect privacy.
+PseudonymitySometimes, we don’t want full anonymity. You may want to order flower bulbs but 
+not be placed on numerous mailing lists for gardening supplies. But you also want to 
+
+be able to place similar orders again, asking for the same color tulips as before. This 
+
+situation calls for pseudonyms, unique identifiers that can be used to link records in a 
+
+server’s database but that cannot be used to trace back to a real identity.

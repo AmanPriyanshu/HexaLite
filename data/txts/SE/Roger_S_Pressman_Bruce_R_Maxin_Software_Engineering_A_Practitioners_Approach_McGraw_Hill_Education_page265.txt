@@ -1,0 +1,61 @@
+CHAPTER 12  
+DESIGN CONCEPTS 235modules increases. Given the same set of requirements, more modules means smaller individual size. However, as the number of modules grows, the effort 
+
+(cost) associated with integrating the modules also grows. These characteristics 
+lead to a total cost or effort curve shown in the ﬁ gure. There is a number,  
+M, 
+ of 
+modules that would result in minimum development cost, but we do not have the 
+necessary sophistication to predict  M 
+ with assurance.   
+The curves shown in  Figure 12.2  do provide useful qualitative guidance when 
+modularity is considered. You should modularize, but care should be taken to 
+
+stay in the vicinity of  M. 
+ Undermodularity or overmodularity should be avoided. 
+But how do you know the vicinity of  M 
+? How modular should you make software? The answers to these questions require an understanding of other design con-
+cepts considered later in this chapter. 
+ You modularize a design (and the resulting program) so that development 
+can be more easily planned; software increments can be deﬁ ned and delivered; 
+changes can be more easily accommodated; testing and debugging can be con-
+ducted more efﬁ ciently, and long-term maintenance can be conducted without 
+serious side effects.   
+ 
+ 
+ 
+12.3.6 Information Hiding 
+ 
+  
+The concept of modularity leads you to a fundamental question: “How do I  decompose a software solution to obtain the best set of modules?” The principle of  information hiding 
+ [Par72] suggests that modules be “characterized by  
+design decisions that (each) hides from all others.” In other words, modules should 
+be speciﬁ ed and designed so that information (algorithms and data) contained 
+within a module is inaccessible to other modules that have no need for such 
+information.   
+Hiding implies that effective modularity can be achieved by deﬁ ning a set 
+of independent modules that communicate with one another only that infor-
+
+mation necessary to achieve software function. Abstraction helps to deﬁ ne the 
+ What is the 
+right number of modules for a 
+given system? ?   The intent of infor-
+
+mation hiding is to 
+hide the details of 
+data structures and 
+
+procedural processing 
+behind a module 
+interface. Knowledge 
+
+of the details need not 
+be known by users of 
+the module. MRegion of minimumcostNumber of modulesCost or effort
+Cost/moduleCost to integrateTotal software cos
+t  
+FIGURE 12.2 
+Modularity and software 
+
+cost  
+ pre22126_ch12_224-251.indd   235pre22126_ch12_224-251.indd   23513/12/13   6:12 PM13/12/13   6:12 PM

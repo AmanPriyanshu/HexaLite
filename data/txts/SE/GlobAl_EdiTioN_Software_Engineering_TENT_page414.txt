@@ -1,0 +1,41 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜ensure that only traffic from trusted sources is allowed to pass from the external Internet into the local organizational network.A set of controls in an organization provides a layered protection system. An 
+attacker has to get through all of the protection layers for the attack to succeed. 
+
+However, there is a trade-off between protection and efficiency. As the number of 
+layers of protection increases, the system slows down. The protection systems con-
+sume an increasing amount of memory and processor resources, leaving less availa-
+ble to do useful work. The more security, the more inconvenient it is for˜users and 
+
+the more likely that they will adopt insecure practices to increase system usability.As with other aspects of system dependability, the fundamental means of protect-ing against cyberattacks depends on redundancy and diversity. Recall that redun-
+dancy means having spare capacity and duplicated resources in a system. Diversity 
+means that different types of equipment, software, and procedures are used so that 
+common failures are less likely to occur across a number of systems. Examples of 
+where redundancy and diversity are valuable for cyber-resilience are:1. For each system, copies of data and software should be maintained on separate computer systems. Shared disks should be avoided if possible. This supports 
+
+recovery after a successful cyberattack (recovery and reinstatement).2. Multi-stage diverse authentication can protect against password attacks. As well 
+as login/password authentication, additional authentication steps may be 
+
+involved that require users to provide some personal information or a code gen-
+erated by their mobile device (resistance).3.
+ Critical servers may be overprovisioned; that is, they may be more powerful 
+
+than is required to handle their expected load. The spare capacity means that 
+
+attacks may be resisted without necessarily degrading the normal response of 
+
+the server. Furthermore, if other servers are damaged, spare capacity is available 
+
+to run their software while they are being repaired (resistance and recovery).Planning for cybersecurity has to be based on assets and controls and the 4 Rs of resil-ience engineeringŠrecognition, resistance, recovery, and reinstatement. Figure 
+14.
+2 shows a planning process that may be followed. The key stages in this process are:1. Asset classification The organization™s hardware, software, and human assets 
+are examined and classified depending on how essential they are to normal 
+
+operations. They may be classed as critical, important, or useful.2. Threat identification For each of the assets (or at least the critical and important 
+
+assets), you should identify and classify threats to that asset. In some cases, you 
+
+may try to estimate the probability that a threat will arise, but such estimates are 
+
+often inaccurate as you don™t have enough information about potential attackers.3. Threat recognition For each threat or, sometimes asset/threat pair, you should 
+identify how an attack based on that threat might be recognized. You may 

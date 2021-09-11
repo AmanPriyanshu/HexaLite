@@ -1,0 +1,28 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜3. Change implementation 
+The requirements document and, where necessary, the 
+system design and implementation, are modified. You should organize the 
+
+requirements document so that you can make changes to it without extensive 
+
+rewriting or reorganization. As with programs, changeability in documents is 
+
+achieved by minimizing external references and making the document sections 
+as modular as possible. Thus, individual sections can be changed and replaced 
+without affecting other parts of the document.If a new requirement has to be urgently implemented, there is always a tempta-tion to change the system and then retrospectively modify the requirements docu-ment. This almost inevitably leads to the requirements specification and the system 
+implementation getting out of step. Once system changes have been made, it is easy 
+to forget to include these changes in the requirements document. In some circum-
+stances, emergency changes to a system have to be made. In those cases, it is impor-
+tant that you update the requirements document as soon as possible in order to 
+
+include the revised requirements.˜˝˜˝
+˜˝
+
+
+˜˝
+˜˝ˆ˛˝
+
+
+Requirements traceabilityYou need to keep track of the relationships between requirements, their sources, and the system design so that you can analyze the reasons for proposed changes and the impact that these changes are likely to have on 
+other parts of the system. You need to be able to trace how a change ripples its way through the system. Why?http://software-engineering-book.com/web/traceability/

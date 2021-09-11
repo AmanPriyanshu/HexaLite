@@ -1,0 +1,45 @@
+Version management is the process of keeping track of different versions of software 
+components and the systems in which these components are used. It also involves 
+
+ensuring that changes made by different developers to these versions do not interfere 
+
+with each other. In other words, version management is the process of managing code-
+lines and baselines.Figure 25.
+4 illustrates the differences between codelines and baselines. A codeline is 
+a sequence of versions of source code, with later versions in the sequence derived from 
+
+earlier versions. Codelines normally apply to components of systems so that there are 
+
+different versions of each component. A baseline is a definition of a specific system. The 
+
+baseline specifies the component versions that are included in the system and identifies 
+
+the libraries used, configuration files, and other system information. In Figure 25.4, you 
+
+can see that different baselines use different versions of the components from each code-
+line. In the diagram, I have shaded the boxes representing components in the baseline 
+
+definition to indicate that these are actually references to components in a codeline. The 
+
+mainline is a sequence of system versions developed from an original baseline.Baselines may be specified using a configuration language in which you define 
+what components should be included in a specific version of a system. It is possible to 
+
+explicitly specify an individual component version (X.1.2, say) or simply to specify 
+
+the component identifier (X). If you simply include the component identifier in the 
+
+configuration description, the most recent version of the component should be used.Baselines are important because you often have to re-create an individual version of a system. For example, a product line may be instantiated so that there are specific 
+system versions for each system customer. You may have to re-create the version 
+delivered to a customer if they report bugs in their system that have to be repaired.Version control (VC) systems identify, store, and control access to the different 
+versions of components. There are two types of modern version control system:1. Centralized systems, where a single master repository maintains all versions of the 
+software components that are being developed. Subversion (Pilato, Collins-Sussman, 
+
+and Fitzpatrick 2008) is a widely used example of a centralized VC system.2. Distributed systems, where multiple versions of the component repository exist 
+at the same time. Git (Loeliger and McCullough 2012), is a widely used exam-
+ple of a distributed VC system.Centralized and distributed VC systems provide comparable functionality but 
+implement this functionality in different ways. Key features of these systems include:1. Version and release identification Managed versions of a component are 
+assigned unique identifiers when they are submitted to the system. These identi-
+fiers allow different versions of the same component to be managed, without 
+
+changing the component name. Versions may also be assigned attributes, with 
+the set of attributes used to uniquely identify each version.˜˜˚˛˝˜˜˜˜˜˜

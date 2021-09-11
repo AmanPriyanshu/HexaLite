@@ -1,0 +1,100 @@
+184  
+ 
+ 
+CHAPTER 
+ 
+ 
+KEY CONCEPTS     analysis classes  . . 185  
+    analysis packages. 199  
+
+    associations  . . . . . 198  
+
+    attributes. . . . . . . 188  
+
+    collaborations. . . . 195  
+
+    CRC modeling  . . . . 192  
+
+    dependencies  . . . . 198  
+
+    grammatical parse. 185  
+
+    operations  . . . . . . 189  
+
+    responsibilities  . . . 193         
+  When they were ﬁ rst introduced in the early 1990s, class-based meth-
+ods for requirements modeling were often categorized as  object- oriented analysis. 
+ Although a number of different class-based 
+methods and representations were introduced, Coad and Yourdon [Coa91] 
+
+noted one universal characteristic for all of them:  
+[Object-oriented methods are all] based upon concepts that we ﬁ rst learned in 
+kindergarten: objects and attributes, wholes and parts, classes and members.  
+  
+Class-based methods for requirements modeling use these common con-cepts to craft a representation of an application that can be understood by 
+nontechnical stakeholders. As the requirements model is reﬁ ned and ex-
+panding, it evolves into a speciﬁ cation that can be used by software engineers 
+in the creation of the software design.  Class-based modeling represents the objects that the system will manipu-late, the operations (also called  methods 
+ or  
+services 
+) that will be applied to the objects to effect the manipulation, relationships (some hierarchical) between 
+the objects, and the collaborations that occur between the classes that are REQUIREMENTS MODELING: CLASS-BASED METHODS 10   
+What is it?   Software problems 
+can almost always be characterized 
+
+in terms of a set of interacting objects 
+
+each representing something of inter-
+est within a system. Each object becomes a mem-
+ber of a class of objects. Each object is described 
+
+by its state—the data attributes that describe the 
+
+object. All of this can be represented using class-
+based requirements modeling methods. 
+  
+ 
+Who does it?   A software engineer (sometimes called an analyst) builds the class-based model 
+using requirements elicited from the customer. 
+  
+ 
+Why is it important? 
+  A class-based require-ments model makes use of objects drawn from 
+the customer’s view of an application or sys-
+
+tem. The model depicts a view of the system 
+that is common to the customer. Therefore, 
+
+it can be readily evaluated by the customer, 
+
+ resulting in useful feedback at the earliest possible time. Later, as the model is reﬁ
+ ned, it 
+ becomes the basis for software design.   
+ 
+What are the steps?   Class-based modeling deﬁ nes objects, attributes, and relationships. 
+A set of simple heuristics can be developed 
+to extract objects and classes from a problem 
+statement and then represent them in text-
+based and/or diagrammatic forms. Once pre-
+
+liminary models are created, they are reﬁ
+ ned 
+and analyzed to assess their clarity, complete-
+
+ness, and consistency. 
+  
+ 
+What is the work product? 
+  A wide array of text-based and diagrammatic forms may be 
+
+chosen for the requirements model. Each of 
+these representations provides a view of one 
+or more of the model elements.   
+ 
+How do I ensure that I’ve done it right?   Re-quirements modeling work products must be 
+reviewed for correctness, completeness, and 
+consistency. They must reﬂ
+ ect the needs of all 
+stakeholders and establish a foundation from 
+which design can be conducted.   
+QUICK LOOK pre22126_ch10_184-201.indd   184pre22126_ch10_184-201.indd   18413/12/13   6:11 PM13/12/13   6:11 PM

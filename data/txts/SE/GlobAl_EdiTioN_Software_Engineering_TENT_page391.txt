@@ -1,0 +1,25 @@
+To illustrate how decisions on development technologies influence security, 
+assume that the health care provider has decided to build a Mentcare system using an off-the-shelf information system for maintaining patient records. This system has to 
+be configured for each type of clinic in which it is used. This decision has been made 
+because it appears to offer the most extensive functionality for the lowest develop-
+ment cost and fastest deployment time.When you develop an application by reusing an existing system, you have to 
+accept the design decisions made by the developers of that system. Let us assume 
+
+that some of these design decisions are:1. System users are authenticated using a login name/password combination. No other authentication method is supported.2. The system architecture is clientŒserver, with clients accessing data through a 
+standard web browser on a client computer.3.
+ Information is presented to users as an editable web form. They can change 
+
+information in place and upload the revised information to the server.For a generic system, these design decisions are perfectly acceptable, but design 
+risk assessment shows that they have associated vulnerabilities. Examples of these 
+possible vulnerabilities are shown in Figure 13.12.Once vulnerabilities have been identified, you then have to decide what steps you 
+can take to reduce the associated risks. This will often involve making decisions 
+Login/password
+authenticationUsers setguessablepasswordsAuthorized users revealtheir passwords tounauthorized usersTechnology choice
+Vulnerabilities
+Client/serverarchitecture usingweb browserServer subject todenial-of-serviceattackConfidential informationmay be left in browsercacheBrowser securityloopholes lead tounauthorized accessUse of editableweb forms
+Fine-grain 
+loggingof changes isimpossibleAuthorization can™t bevaried according to user™s
+roleFigure 13.12  Vulnerabilities 
+associated with 
+technology choices ˜˜˚˛˙˜˜˜
+˜˜˜

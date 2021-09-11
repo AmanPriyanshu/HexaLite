@@ -1,0 +1,55 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜functionality across hardware, software, and operational processes. You also make 
+decisions about which hardware and software has to be acquired, which suppliers 
+
+should develop the system, and the terms and conditions of the supply contract.3. Development During this stage, the system is developed. 
+Development pro-cesses include requirements definition, system design, hardware and software 
+
+engineering, system integration, and testing. Operational processes are defined, 
+
+and the training courses for system users are designed.4. Operation At this stage, the system is deployed, users are trained, and the sys
+-tem is brought into use. The planned operational processes usually then have to 
+
+change to reflect the real working environment where the system is used. Over 
+time, the system evolves as new requirements are identified. Eventually, the 
+
+system declines in value, and it is decommissioned and replaced.Figure 19.
+1 shows the interactions between these stages. The conceptual design activity is a basis for the system procurement and development but is also used to 
+provide information to users about the system. Development and procurement over-lap and further procurement during development, and operation may be needed as 
+
+new equipment and software become available. Once the system is operational, 
+
+requirements changes are inevitable; implementing these changes requires further 
+
+development and, perhaps, software and hardware procurement.Decisions made at any one of these stages may have a profound influence on the other stages. 
+Design options may be restricted by procurement decisions on the 
+scope of the system and on its hardware and software. Human errors made during 
+the specification, design, and development stages may mean that faults are intro-
+duced into the system. A decision to limit testing for budget reasons may mean that 
+faults are not discovered before a system is put into use. 
+During operation, errors in 
+configuring the system for deployment may lead to problems in using the system. Decisions made during the original procurement may be forgotten when system 
+changes are proposed. This may lead to unforeseen consequences arising from the 
+
+implementation of the changes.An important difference between systems and software engineering is the 
+involvement of a range of professionals throughout the lifetime of the system. 
+
+These include engineers who may be involved in hardware and software design, 
+
+system end-users, managers who are concerned with organizational issues, and 
+
+experts in the system™s application domain. For example, engineering the insulin 
+
+pump system introduced in Chapter 1 requires experts in electronics, mechanical 
+
+engineering, software, and medicine.For very large systems, an even wider range of expertise may be required. 
+Figure 19.
+2 illustrates the technical disciplines that may be involved in the procure-
+ment and development of a new system for air traffic management. Architects and 
+civil 
+ engineers are involved because new air traffic management systems usually 
+have to be installed in a new building. Electrical and mechanical engineers are 
+involved to specify and maintain the power and air conditioning. Electronic engi
+-neers are 
+ concerned with computers, radars, and other equipment. Ergonomists 

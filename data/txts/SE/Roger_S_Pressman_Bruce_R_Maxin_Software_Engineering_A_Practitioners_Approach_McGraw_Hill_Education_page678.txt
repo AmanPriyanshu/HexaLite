@@ -1,0 +1,81 @@
+648 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+ 
+ 
+29.4.5   
+Version Control 
+ 
+As a Web or MobileApp evolves through a series of increments, a number of dif-
+ferent versions may exist at the same time. One version (the current operational 
+app) is available via the Internet for end users; another version (the next app in-
+crement) may be in the ﬁ nal stages of testing prior to deployment; a third version 
+is in development and represents a major update in content, interface aesthet-
+ics, and functionality. Conﬁ
+ guration objects must be clearly deﬁ
+ ned so that each 
+can be associated with the appropriate version. In addition, control mechanisms 
+must be established. Dreilinger [Dre99] discusses the importance of version (and 
+change) control when he writes:  
+In an  uncontrolled
+ 
+ site where multiple authors have access to edit and contribute, the 
+potential for conﬂ ict and problems arises—more so when these authors work from 
+different ofﬁ ces at different times of day and night. You may spend the day improving 
+the ﬁ le  
+index.html 
+ for a customer. After you’ve made your changes, another devel-
+oper who works at home after hours, or in another ofﬁ ce, may spend the night up-
+loading their own newly revised version of the ﬁ le  
+index.html 
+, completely overwriting your work with no way to get it back!  
+  
+It’s likely that you’ve experienced a similar situation. To avoid it, a version con-
+trol process is required.   
+ 
+  1.   
+A central repository for the Web or MobileApp project should be established.
+ 
+ The repository will hold current versions of all conﬁ guration objects (con-
+tent, functional components, and others).   
+ 
+ 
+ 2.
+   
+Each Web engineer creates his or her own working folder.
+ 
+ The folder 
+contains those objects that are being created or changed at any given 
+
+time. 
+  
+ 
+ 
+ 3.
+   
+The clocks on all developer workstations should be synchronized.
+ 
+ This is done to avoid overwriting conﬂ icts when two developers make updates 
+that are very close to one another in time.   
+ 
+ 
+ 4.
+   
+As new conﬁ guration objects are developed or existing objects are 
+changed, they are imported into the central repository.
+ 
+ The version control tool (see discussion of CVS in the sidebar) will manage all check-in and 
+check-out functions from the working folders of each developer. The tool 
+
+will also provide automatic e-mail updates to all interested parties when 
+changes to the repository are made.   
+ 
+ 
+ 5.
+   
+As objects are imported or exported from the repository, an automatic, 
+time-stamped log message is made. 
+ This provides useful information for auditing and can become part of an effective reporting scheme.    
+The version control tool maintains different versions of the app and can revert to an older version if required. pre22126_ch29_623-652.indd   648pre22126_ch29_623-652.indd   64813/12/13   6:16 PM13/12/13   6:16 PM

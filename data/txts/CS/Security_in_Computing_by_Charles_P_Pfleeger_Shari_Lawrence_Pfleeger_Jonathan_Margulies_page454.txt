@@ -1,0 +1,72 @@
+420 Chapter 6  
+Networksultimately causes a system crash, thus denying service, or at least disrupting it. As we 
+describe later in this chapter, exploiting a vulnerability is often a first step in an attacker’s 
+
+commandeering control of a computer that is then conscripted into the attacker’s army.
+Physical DisconnectionFinally, we consider the last of our causes of denial of service: physical failures. A 
+
+network consists of appliances, connectors, and transmission media, any of which can 
+
+fail. A broken cable, faulty circuit board, or malfunctioning switch or router can cause 
+
+a denial of service just as harmful as a hacker attack. And just as the attacker strikes 
+
+without warning and often without obvious cause, hardware failures are unanticipated.
+Transmission Failure
+Communications fail for many reasons. For instance, a line is cut. Or network noise 
+makes a packet unrecognizable or undeliverable. A machine along the transmission path 
+
+fails for hardware or software reasons. A device is removed from service for repair or 
+
+testing. A device is saturated and rejects incoming data until it can clear its overload. 
+
+Many of these problems are temporary or automatically fixed (circumvented) in major 
+
+networks, including the Internet.
+However, some failures cannot be easily repaired. A break in the single communica-
+tions line to your computer (for example, from the network to your network interface 
+
+card or the telephone line to your modem) can be fixed only by establishment of an 
+
+alternative link or repair of the damaged one. The network administrator will say “ser-
+
+vice to the rest of the network was unaffected,” but that is of little consolation to you.
+Component Failure
+Components, for example, routers, circuit boards, firewalls, monitoring devices, storage 
+devices, and switches, fail for unidentified reasons. Age, factory flaws, power surges, 
+
+heat, and tampering can affect hardware. A network is often a fragile chain of compo-
+
+nents, all of which are necessary to keep the network in operation. In the worst case, the 
+
+failure of any component causes the entire network to fail. In Sidebar 6-18 we describe 
+
+how the failure of one or two circuit boards affected the State of Virginia.
+Hardware failures are almost always natural occurrences. Although induced hard-
+ware breakdowns are uncommon, they are not impossible. For example, the Stuxnet 
+
+worm previously described in Sidebar 6-7 could exercise mechanical equipment to the 
+
+point of failure.
+We have considered what might be called individual denial-of-service attacks, 
+actions that disable a single host or deny service to a single address or network segment. 
+
+Such a situation is regrettable for the affected host or addresses. Although that kind of 
+
+harm can incapacitate an ordinary user, large installations such as corporations or major 
+
+government facilities are unfazed 
+
+because they have great capacity 
+
+and resiliency. However, the more 
+
+serious reason to study these attacks 
+is that they can be used as repeat-
+
+able components in a much larger 
+Denial-of-service attacks pit one 
+adversary against one target; a well-
+resourced target can usually outlast a 
+
+less equipped attacker.

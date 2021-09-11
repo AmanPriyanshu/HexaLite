@@ -1,0 +1,149 @@
+432 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+3.   
+Achieve technical work of more uniform, or at least more predictable, quality than 
+can be achieved without reviews, in order to make technical work more manageable. 
+  
+ 
+ 
+ 
+ 
+Many different types of reviews can be conducted as part of software engi-neering. Each has its place. An informal meeting around the coffee machine is 
+a form of review, if technical problems are discussed. A formal presentation of 
+
+software architecture to an audience of customers, management, and technical 
+staff is also a form of review. In this book, however, we focus on  
+technical or peer reviews,
+ 
+ exempliﬁ
+ ed by  
+casual reviews,
+ 
+  walkthroughs,
+ 
+ and 
+ inspections.
+ 
+ A tech-
+nical review (TR) is the most effective ﬁ lter from a quality control standpoint. 
+Conducted by software engineers (and others) for software engineers, the TR is 
+an effective means for uncovering errors and improving software quality. 
+ 
+ 
+ 
+  20.1  
+ 
+ 
+ 
+ 
+ 
+ 
+COST IMPACT
+ OF SOFTWARE
+ DEFECTS  
+ 
+Within the context of the software process, the terms  
+defect 
+ and  
+fault 
+ are synony-
+mous. Both imply a quality problem that is discovered  after 
+ the software has been 
+released to end users (or to another framework activity in the software process). 
+In earlier chapters, we used the term  error
+ 
+ to depict a quality problem that is dis-
+covered by software engineers (or others)  before
+ 
+ the software is released to the 
+end user (or to another framework activity in the software process).  
+ 
+ 
+    Reviews are like a ﬁ lter 
+in the software process 
+
+workﬂ ow. Too few, and 
+
+the ﬂ ow is “dirty.” Too 
+
+many, and the ﬂ ow 
+
+slows to a trickle. Use 
+
+metrics to determine 
+
+which reviews work 
+
+and emphasize them. 
+
+Remove ineffective re-
+views from the ﬂ ow to 
+
+accelerate the process. 
+  
+Bugs, Errors, and Defects 
+ 
+The goal of software quality control, and in a broader sense, quality management in general, is to remove quality problems in the software. 
+These problems are referred to by various names— bugs, faults, errors, 
+ or  defects 
+ to name a few. Are each of 
+these terms synonymous, or are there subtle differences 
+
+between them?  In this book we make a clear distinction between an  error 
+ (a quality problem found  before 
+ the software is released to end users) and a  defect 
+ (a quality problem found only  after 
+ the software has been released to end users).  1 
+ 
+  We make this distinction because errors and de-
+fects have very different economic, business, psychologi-
+
+cal, and human impact. As software engineers, we want 
+to ﬁ nd and correct as many errors as possible before the 
+customer and/or end user encounter them. We want to 
+
+avoid defects—because defects (justiﬁ ably) make soft-
+ware people look bad.  It is important to note, however, that the temporal dis-
+tinction made between errors and defects in this book is 
+
+ not 
+ mainstream thinking. The general consensus within the 
+software engineering community is that defects and errors, 
+
+faults, and bugs are synonymous. That is, the point in time 
+
+that the problem was encountered has no bearing on the 
+
+term used to describe the problem. Part of the argument in 
+
+favor of this view is that it is sometimes difﬁ cult to make a 
+clear distinction between pre- and postrelease (e.g., con-
+sider an incremental process used in agile development). 
+ Regardless of how you choose to interpret these terms, 
+recognize that the point in time at which a problem is dis-
+covered does matter and that software engineers should 
+
+try hard— 
+very
+ 
+ hard—to ﬁ nd problems before their cus-
+tomers and end users encounter them. If you have further 
+
+interest in this issue, a reasonably thorough discussion 
+
+of the terminology surrounding “bugs” can be found at 
+
+  
+www.softwaredevelopment.ca/bugs.shtml 
+ 
+.   
+INFO  
+ 
+1  If software process improvement is considered, a quality problem that is propagated from one 
+process framework activity (e.g.,  modeling 
+) to another (e.g.,  construction 
+) can also be called a “defect” (because the problem should have been found before a work product (e.g., a design 
+model) was “released” to the next activity. 
+pre22126_ch20_431-447.indd   432pre22126_ch20_431-447.indd   43213/12/13   10:01 PM13/12/13   10:01 PM

@@ -1,0 +1,99 @@
+406 PART TWO  
+MODELINGallow resource outsourcing and transfer information of information technology management to service providers while at the same time mitigating the impact 
+of resource limitations on some mobile devices. A service-oriented architecture 
+provides the architectural style (e.g., REST),  25 
+ 
+ standard protocols (e.g., XML 
+ 26 
+ 
+, SOAP  27 
+ 
+), and interfaces (e.g., WSDL)  28 
+ 
+ needed for MobileApp development. Cloud 
+computing enables convenient, on-demand network access to a shared pool of 
+conﬁ gurable computing resources (servers, storage, applications, and services). 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+Services computing 
+ allows MobileApp developers to avoid the need to inte-
+grate service source code into the client running on a mobile device. Instead, 
+the service runs out of the provider’s server and is loosely coupled with the ap-
+
+plications that make use of it through messaging protocols. A service typically 
+provides an API (application programming interface) to allow it to be treated like 
+an abstract black box.    
+Cloud computing 
+ lets the client (either a user or program) request computing 
+capabilities as needed, across network boundaries anywhere or any time. The 
+cloud architecture has three layers, each of which can be called as a service. 
+The  software as service
+ 
+ layer consists of software components and applications 
+hosted by third-party service providers. The  platform as service 
+ layer provides a collaborative development platform to assist with design, implementation, and 
+testing by geographically distributed team members.  Infrastructure as a service
+ 
+ provides virtual computing resources (storage, processing power, network con-
+
+nectivity) on the cloud.  Mobile devices can access cloud services from any location at any time. The risks of identity theft and service hijacking require providers of mobile services 
+and cloud computing to employ rigorous security engineering techniques to pro-
+tect their users. Security and privacy concerns associated with cloud computing 
+are discussed in Chapter 27. Using a vendor-neutral cloud service may make it 
+
+easier to create cross-platform applications [Rat12].  Taivalsaari [Tai12] points out that making use of cloud storage can allow any 
+mobile device or software features to be updated easily on millions of devices 
+worldwide. In fact, it is possible to virtualize the entire mobile user experience 
+so that all applications are downloaded from the cloud.  uote:   “Service-oriented 
+software 
+engineering 
+incorporates the 
+best features 
+of both the 
+services and 
+
+cloud computing 
+paradigms.”  Stephan Yau 
+  
+25   Representation State Transfer
+ 
+ describes a networked web architectural style where the re-
+source representation (e.g. a Web page) places the client in a new state. The client changes or 
+
+transfers state with each resource representation.   
+26   Extensible Markup Language 
+ XML is designed to store and transport data, while HTML is de-
+signed to display data.   
+27   Simple Object Access Protocol
+ 
+ is a  
+protocol  speciﬁ
+ cation for exchanging structured information 
+in the implementation of  Web Services 
+ in  computer networks .   
+28   Web Services Description Language
+ 
+ is an XML-based language for describing Web services and 
+how to access them.  uote:  “Because users’ 
+businesses rely 
+heavily on third-
+party service 
+
+providers, there 
+are serious 
+concerns about how 
+threats to service 
+
+reliability could 
+affect a service 
+
+and consequently 
+a cloud user’s 
+
+business.”  Stephan Yau 
+pre22126_ch18_391-410.indd   406pre22126_ch18_391-410.indd   40616/12/13   6:23 PM16/12/13   6:23 PM

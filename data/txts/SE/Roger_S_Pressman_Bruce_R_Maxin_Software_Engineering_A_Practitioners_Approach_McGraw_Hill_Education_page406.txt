@@ -1,0 +1,58 @@
+376 PART TWO  
+MODELINGDrawing on these diverse skills allows the creation of a model that can be assessed for quality and improved  before
+ 
+ content and code are generated, tests are conducted, 
+and end-users become involved in large numbers. If analysis is where  WebApp quality 
+is established, 
+ then design is where the  quality is truly embedded. 
+  
+ 
+ 
+The appropriate mix of design skills will vary depending upon the nature of the WebApp.  
+Figure 17.2  depicts a design pyramid for WebApps. Each level of the 
+pyramid represents a design action that is described in the sections that follow. 
+  
+ 
+ 
+ 
+ 
+ 17.4  
+WEBAPP INTERFACE
+ DESIGN  
+ 
+When a user interacts with a computer-based system, a set of fundamental 
+principles and overriding design guidelines apply. These have been discussed 
+
+in Chapter 15.  3 
+ 
+ Although WebApps present a few special user interface design 
+challenges, the basic principles and guidelines are applicable.   One of the challenges of interface design for WebApps is the indeterminate 
+nature of the user’s entry point. That is, the user may enter the WebApp at a 
+
+“home” location (e.g., the home page) or may be linked into some lower level of 
+the WebApp architecture. In some cases, the WebApp can be designed in a way 
+
+that reroutes the user to a home location, but if this is undesirable, the WebApp 
+
+design must provide interface navigation features that accompany all content 
+objects and are available regardless of how the user enters the system.  The objectives of a WebApp interface are to: (1) establish a consistent window 
+into the content and functionality provided by the interface, (2) guide the user 
+through a series of interactions with the WebApp, and (3) organize the navigation 
+
+options and content available to the user. To achieve a consistent interface, you 
+  uote:  “If a site is 
+perfectly usable 
+but it lacks an 
+elegant and 
+appropriate design 
+style, it will fail.”  Curt Cloninger 
+Interface
+designAesthetic designContent designNavigation designArchitecture designComponent designusertechnology  
+FIGURE 17.2 
+A design pyramid for 
+WebApps 
+ 
+  
+ 
+3  Section 15.5 is dedicated to WebApp interface design. If you have not already done so, read it 
+at this time. pre22126_ch17_371-390.indd   376pre22126_ch17_371-390.indd   37613/12/13   6:13 PM13/12/13   6:13 PM

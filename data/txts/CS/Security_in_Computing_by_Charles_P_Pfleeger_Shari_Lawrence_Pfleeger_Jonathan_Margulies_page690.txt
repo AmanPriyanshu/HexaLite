@@ -1,0 +1,67 @@
+656 Chapter 10  
+Management and Incidentsattackers to break an encryption algorithm). The inventory of objects and the list of 
+controls should periodically be scrutinized and updated, and risk analysis performed 
+
+anew. The security plan should set times for these periodic reviews, based either on cal-
+
+endar time (such as, review the plan 
+
+every nine months) or on the nature 
+
+of system changes (such as, review 
+
+the plan after every major system 
+
+release).Security Planning Team Members
+Who performs the security analysis, recommends a security program, and writes the 
+
+security plan? As with any such comprehensive task, these activities are likely to be 
+
+performed by a committee that represents all the interests involved. The size of the com-
+
+mittee depends on the size and complexity of the computing organization and the degree 
+of its commitment to security. Organizational behavior studies suggest that the optimum 
+
+size for a working committee is between five and nine members. Sometimes a larger 
+
+committee may serve as an oversight body to review and comment on the products of a 
+
+smaller working committee. Alternatively, a large committee might designate subcom-
+
+mittees to develop sections of the plan.
+The membership of a computer security planning team must somehow relate to 
+the different aspects of computer security described in this book. Security in operat-
+
+ing systems and networks requires the cooperation of the systems administration staff. 
+
+Program security measures can be understood and recommended by applications pro-
+
+grammers. Physical security controls are implemented by those responsible for general 
+physical security, both against human attacks and natural disasters. Finally, because 
+
+controls affect system users, the plan should incorporate users’ views, especially with 
+
+regard to usability and the general desirability of controls.
+Thus, no matter how it is organized, a security planning team should represent each 
+of the following groups.
+• computer hardware group
+• system administrators
+
+• systems programmers
+
+• applications programmers
+
+• data entry personnel
+
+• physical security personnel
+
+• representative users
+In some cases, a group can be adequately represented by someone who is consulted at appropriate times, rather than a committee member from each possible constituency 
+
+being enlisted.Assuring Commitment to a Security PlanAfter the plan is written, it must be accepted and its recommendations carried out. 
+
+Acceptance by the organization is key: A plan that has no organizational commitment is 
+Security plans must be revisited 
+
+periodically to adapt them to changing 
+conditions.

@@ -1,0 +1,38 @@
+ Section 7.1  Introduction to Databases 
+503  database in Figure 7-1 is detailed in Table 7-2. The three separate blocks of the fig-
+ure are examples of subschemas, although other subschemas of this database can be 
+
+defined. We can use schemas and subschemas to present to users only those elements 
+
+they wish or need to see. For example, if Table 7-1 represents the employees at a com-
+
+pany, the subschema on the lower left can list employee names without revealing per-
+
+sonal information such as home address.TABLE 7-2 
+Schema of Database from Figure 7-1NameFirstAddressCityStateZipAirport
+ADAMSCharles212 Market St.ColumbusOH43210CMH
+ADAMSEdward212 Market St.ColumbusOH43210CMH
+BENCHLYZeke501 Union St.ChicagoIL60603ORD
+CARTERMarlene411 Elm St.ColumbusOH43210CMH
+CARTERBeth411 Elm St.ColumbusOH43210CMH
+CARTERBen411 Elm St.ColumbusOH43210CMH
+CARTERLisabeth411 Elm St.ColumbusOH43210CMH
+CARTERMary411 Elm St.ColumbusOH43210CMH
+FIGURE 7-1 Database of Several Related Tables
+ADAMS212 Market St.ColumbusOH43210
+BENCHLY501 Union St.ChicagoIL60603
+
+CARTER411 Elm St.ColumbusOH43210
+ADAMSCharles
+ADAMSEdward
+
+BENCHLYZeke
+
+CARTERMarlene
+CARTERBeth
+CARTERBen
+
+CARTERLisabeth
+CARTERMary
+43210CMH
+60603ORD

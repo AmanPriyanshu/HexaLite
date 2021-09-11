@@ -1,0 +1,34 @@
+CHAPTER 3  
+SOFTWARE PROCESS STRUCTURE
+ 33(d) Parallel process flow(c) Evolutionary process flow
+CommunicationPlanningModeling
+(a) Linear process flowConstructionDeployment
+CommunicationPlanningModelingConstructionDeployment
+ConstructionDeployment
+CommunicationPlanning
+ModelingTime
+(b) Iterative process flowPlanningModelingConstructionDeploymentIncrementreleasedCommunication  
+FIGURE 3.2 
+Process ﬂ
+ ow 
+ 
+  
+ 
+ 
+ 
+For a small software project requested by one person (at a remote location) with simple, straightforward requirements, the  communication 
+ activity might 
+encompass little more than a phone call or email with the appropriate stake-
+holder. Therefore, the only necessary action is  
+phone conversation, 
+ and the work 
+tasks (the  task set 
+) that this action encompasses are:  
+ 
+ 
+ 1.  Make contact with stakeholder via telephone.    
+ 
+ 2.  Discuss requirements and develop notes.   How does a 
+framework activity change as 
+the nature of the 
+project changes? ?pre22126_ch03_029-039.indd   33pre22126_ch03_029-039.indd   3313/12/13   6:10 PM13/12/13   6:10 PM

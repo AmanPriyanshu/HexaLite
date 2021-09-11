@@ -1,0 +1,84 @@
+786 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+much of the project will be affected or how many stakeholders are harmed?). Fi-nally, the timing of a risk considers when and for how long the impact will be felt. 
+
+In most cases, you want the “bad news” to occur as soon as possible, but in some 
+cases, the longer the delay, the better. 
+ 
+ 
+ 
+   
+Returning once more to the risk analysis approach proposed by the U.S. Air Force [AFC88], you can apply the following steps to determine the overall conse-
+quences of a risk: (1) determine the average probability of occurrence value for 
+each risk component; (2) using   
+Figure 35.1  
+, determine the impact for each com-ponent based on the criteria shown, and (3) complete the risk table and analyze 
+the results as described in the preceding sections.  The overall  risk exposure,
+ 
+ RE, is determined using the following relationship 
+  [Hal98]:RE 5  P 
+ 3  C 
+  where  P 
+ is the probability of occurrence for a risk, and  
+C 
+ is the cost to the project 
+should the risk occur. 
+ For example, assume that the software team deﬁ nes a project risk in the fol-
+lowing manner:   
+ 
+ 
+ 
+ 
+Risk identiﬁ cation.
+ 
+  Only 70 percent of the software components sched-
+uled for reuse will, in fact, be integrated into the application. The remain-
+ing functionality will have to be custom developed.    
+ 
+ 
+ 
+Risk probability.
+ 
+  Eighty percent (likely). 
+   
+ 
+ 
+ 
+Risk impact. 
+  Sixty reusable software components were planned. If only 
+70 percent can be used, 18 components would have to be developed from 
+scratch (in addition to other custom software that has been scheduled for 
+development). Since the average component is 100 LOC and local data 
+indicate that the software engineering cost for each LOC is $14.00, the 
+overall cost (impact) to develop the components would be 18 3 100 3 14 5 $25,200.    
+ 
+ 
+ 
+Risk exposure. 
+  RE 
+5 0.80 3 25,200 ~ $20,200.  
+ 
+   
+ 
+ 
+ 
+ 
+Risk exposure can be computed for each risk in the risk table, once an estimate of the cost of the risk is made. The total risk exposure for all risks (above the cut-
+off in the risk table) can provide a means for adjusting the ﬁ nal cost estimate for 
+a project. It can also be used to predict the probable increase in staff resources 
+required at various points during the project schedule.  The risk projection and analysis techniques described in Sections 35.4.1 and 35.4.2 are applied iteratively as the software project proceeds.  4 
+ 
+ The project 
+team should revisit the risk table at regular intervals, reevaluating each risk to  How do we 
+assess the consequences of 
+a risk? ?   Compare RE for all 
+
+risks to the cost 
+estimate for the 
+project. If RE is greater 
+
+the project cost, the 
+viability of the project 
+must be evaluated.   
+4  If you have further interest, a more mathematical treatment of the cost of risk is presented in 
+[Ben10]. pre22126_ch35_777-794.indd   786pre22126_ch35_777-794.indd   78613/12/13   6:17 PM13/12/13   6:17 PM

@@ -1,0 +1,59 @@
+158 PART TWO  
+MODELINGengineers can use search facilities to ﬁ nd and reuse them. Information about an 
+analysis pattern (and other types of patterns) is presented in a standard template 
+[Gey01]  19 
+ 
+ that is discussed in more detail in Chapter 16. Examples of analysis pat-
+terns and further discussion of this topic are presented in Chapter 11.   
+ 
+ 
+8.5.3  Agile Requirements Engineering 
+ 
+The intent of agile requirements engineering is to transfer ideas from stakehold-ers to the software team rather than create extensive analysis work products. 
+In many situations, requirements are not predeﬁ ned but emerge as each iter-
+ation of product development begins. As the agile team acquires a high-level 
+understanding of a product’s critical features use stories (Chapter 5) relevant to 
+
+the next product increment are reﬁ ned. The agile process encourages the early 
+identiﬁ cation and implementation of the highest priority product features. This 
+allows the early creation and testing of working prototypes.  Agile requirements engineering addresses important issues that are common in software projects: high requirements volatility, incomplete knowledge of de-
+
+velopment technology, and customers not able to articulate their visions until 
+
+they see a working prototype. The agile process interleaves requirements engi-
+neering and design activities.  
+ 
+ 
+  
+ 
+ 
+ 
+8.5.4  Requirements for Self-Adaptive Systems 
+ 
+ 
+Self-adaptive systems 
+ 
+ 20 
+ 
+ can reconﬁ gure themselves, augment their functionality, 
+protect themselves, recover from failure, and accomplish all of this while hid-
+ing most of their internal complexity from their users [Qur09]. Adaptive require-
+ments document the variability needed for self-adaptive systems. This means 
+that a requirement must encompass the notion of variability or ﬂ exibility while 
+at the same time specifying either a functional or quality aspect of the software 
+product. Variability might include timing uncertainty, user proﬁ
+ le differences 
+(e.g., end users versus systems administrators), behavior changes based on prob-
+lem domain (e.g., commercial or educational), or predeﬁ ned behaviors exploit-
+ing system assets.  Capturing adaptive requirements focuses on the same questions that are used for requirements engineering of more conventional systems. However, sig-
+
+niﬁ cant variability can be present when answering each of these questions. The 
+more variable the answers, the more complex the resulting system will need to 
+be to accommodate the requirements.  What are the 
+character-istics of a self-
+adaptive system? ?  
+19  A variety of patterns templates have been proposed in the literature. If you have interest, see 
+[Fow97], [Gam95], [Yac03], and [Bus07] among many sources. 
+  
+20  An example of a self-adaptive system is a “location aware” app that adapts its behavior to the 
+location of the mobile platform on which it resides. pre22126_ch08_131-165.indd   158pre22126_ch08_131-165.indd   15813/12/13   6:11 PM13/12/13   6:11 PM

@@ -1,0 +1,36 @@
+˘˘
+˜˚˛˝˙ˆˇ˘˜˘˜˘practices such as pair programming and test-first development. This means that it 
+can be more easily integrated with existing practice in a company. Consequently, as 
+agile methods have become a mainstream approach to software development, Scrum 
+has emerged as the most widely used method.The Scrum process or sprint cycle is shown in Figure 3.9. The input to the process is the product backlog. Each process iteration produces a product increment that 
+
+could be delivered to customers.The starting point for the Scrum sprint cycle is the product backlogŠthe list of items such as product features, requirements, and engineering improvement that 
+
+have to be worked on by the Scrum team. The initial version of the product backlog 
+
+may be derived from a requirements document, a list of user stories, or other descrip
+-
+tion of the software to be developed.While the majority of entries in the product backlog are concerned with the imple-mentation of system features, other activities may also be included. Sometimes, when 
+
+planning an iteration, questions that cannot be easily answered come to light and addi-
+tional work is required to explore possible solutions. The team may carry out some pro-
+totyping or trial development to understand the problem and solution. There may also be 
+
+backlog items to design the system architecture or to develop system documentation.The product backlog may be specified at varying levels of detail, and it is the 
+responsibility of the Product Owner to ensure that the level of detail in the specifica-
+tion is appropriate for the work to be done. For example, a backlog item could be a 
+complete user story such as that shown in Figure 3.5, or it could simply be an instruc-
+tion such as ﬁRefactor user interface codeﬂ that leaves it up to the team to decide on 
+the refactoring to be done.Each sprint cycle lasts a fixed length of time, which is usually between 2 and 4 weeks. 
+At the beginning of each cycle, the Product Owner prioritizes the items on the product 
+
+backlog to define which are the most important items to be developed in that cycle. 
+
+Sprints are never extended to take account of unfinished work. Items are returned to the 
+
+product backlog if these cannot be completed within the allocated time for the sprint.The whole team is then involved in selecting which of the highest priority items 
+they believe can be completed. They then estimate the time required to complete 
+
+these items. To make these estimates, they use the velocity attained in previous 
+Review work to be doneSelect itemsPlansprintReviewsprintSprintScrumProductbacklogSprintbacklogPotentially
+shippablesoftwareFigure 3.9 The Scrum sprint cycle

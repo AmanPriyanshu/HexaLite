@@ -1,0 +1,70 @@
+236 PART TWO  
+MODELINGprocedural (or informational) entities that make up the software. Hiding deﬁ nes 
+and enforces access constraints to both procedural detail within a module and 
+any local data structure used by the module [Ros75].  The use of information hiding as a design criterion for modular systems pro-vides the greatest beneﬁ ts when modiﬁ
+ cations are required during testing and 
+later during software maintenance. Because most data and procedural detail are 
+hidden from other parts of the software, inadvertent errors introduced during 
+modiﬁ cation are less likely to propagate to other locations within the software. 
+ 
+ 
+ 
+ 
+ 
+12.3.7 Functional Independence 
+ 
+  
+The concept of functional independence is a direct outgrowth of separation of concerns, modularity, and the concepts of abstraction and information hiding. 
+
+In landmark papers on software design Wirth [Wir71] and Parnas [Par72] allude 
+
+to reﬁ nement techniques that enhance module independence. Later work by 
+ Stevens, Myers, and Constantine [Ste74] solidiﬁ ed the concept. 
+  
+Functional independence is achieved by developing modules with “ single- minded” function and an “aversion” to excessive interaction with other modules. 
+Stated another way, you should design software so that each module addresses a 
+
+speciﬁ c subset of requirements and has a simple interface when viewed from 
+other parts of the program structure.   
+It is fair to ask why independence is important. Software with effective mod-ularity, that is, independent modules, is easier to develop because function can 
+
+be compartmentalized and interfaces are simpliﬁ ed (consider the ramiﬁ
+ cations 
+when development is conducted by a team). Independent modules are easier to 
+maintain (and test) because secondary effects caused by design or code modiﬁ -cation are limited, error propagation is reduced, and reusable modules are pos-
+sible. To summarize, functional independence is a key to good design, and design 
+
+is the key to software quality. 
+ Independence is assessed using two qualitative criteria: cohesion and cou-pling.  Cohesion 
+ is an indication of the relative functional strength of a module. 
+ Coupling 
+ is an indication of the relative interdependence among modules.   
+ 
+ 
+Cohesion  
+ is a natural extension of the information-hiding concept described 
+in Section 12.3.6. A cohesive module performs a single task, requiring little inter-
+
+action with other components in other parts of a program. Stated simply, a cohe-
+
+sive module should (ideally) do just one thing. Although you should always strive 
+for high cohesion (i.e., single-mindedness), it is often necessary and advisable 
+to have a software component perform multiple functions. However, “schizo-
+
+phrenic” components (modules that perform many unrelated functions) are to 
+be avoided if a good design is to be achieved.  Coupling is an indication of interconnection among modules in a software structure. Coupling depends on the interface complexity between modules, the 
+point at which entry or reference is made to a module, and what data pass across  Why 
+should you strive to create 
+independent 
+modules? ?   Cohesion is a qualita-
+
+tive indication of the 
+degree to which a 
+module focuses on just 
+one thing.    Coupling is a qualita-
+
+tive indication of the 
+degree to which a 
+module is connected to 
+other modules and to 
+the outside world. pre22126_ch12_224-251.indd   236pre22126_ch12_224-251.indd   23613/12/13   6:12 PM13/12/13   6:12 PM

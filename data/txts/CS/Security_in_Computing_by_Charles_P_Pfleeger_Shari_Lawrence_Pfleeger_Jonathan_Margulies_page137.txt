@@ -1,0 +1,66 @@
+ Section 2.3  Cryptography 
+103  Adi Shamir, and Leonard Adleman), this algorithm was introduced in 1978 [RIV78]. 
+Cryptanalysts have subjected RSA to extensive cryptanalysis, but they have found no 
+
+serious flaws.
+The two keys used in RSA, 
+d and 
+e, are used for decryption and encryption. They are 
+actually interchangeable: Either can be chosen as the public key, but one having been 
+
+chosen, the other one must be kept private. For simplicity, we call the encryption key 
+e and the decryption key 
+d. We denote plaintext as 
+P and its corresponding ciphertext as 
+C. C  RSA(
+P,e
+). Also, because of the nature of the RSA algorithm, the keys can be 
+applied in either order:P  E(D(P))  D(E(P))orP  RSA(RSA(P,e
+), d)  RSA(RSA(P,d
+), e)(You can think of 
+E and 
+D as two complementary functions, each of which can “undo” 
+the other’s effect.) 
+RSA does have the unfortunate property that the keys are long: 256 bits is considered 
+the minimum usable length, but in most contexts experts prefer keys on the order of 
+
+1000 to 2000 bits. Encryption in RSA is done by exponentiation, raising each plaintext 
+
+block to a power; that power is the key 
+e. In contrast to fast substitution and transposi-
+tion of symmetric algorithms, exponentiation is extremely time-consuming on a com-
+
+puter. Even worse, the time to encrypt increases exponentially as the exponent (key) 
+
+grows longer. Thus, RSA is markedly slower than DES and AES.
+The encryption algorithm is based on the underlying problem of factoring large num-
+bers in a finite set called a field. So far, nobody has found a shortcut or easy way to 
+
+factor large numbers in a field. In a highly technical but excellent paper, Dan Boneh 
+
+[BON99] reviews all the known cryptanalytic attacks on RSA and concludes that none 
+
+is significant. Because the factorization problem has been open for many decades, most 
+
+cryptographers consider this problem a solid basis for a secure cryptosystem.To summarize, the two symmetric algorithms DES and AES provide solid encryption 
+of blocks of 64 to 256 bits of data. The asymmetric algorithm RSA encrypts blocks of 
+
+various sizes. DES and AES are substantially faster than RSA, by a factor of 10,000 or 
+
+more, and their rather simple primitive operations have been built into some computer 
+
+chips, making their encryption even more efficient than RSA. Therefore, people tend to 
+
+use DES and AES as the major cryptographic workhorses, and reserve slower RSA for 
+
+limited uses at which it excels.
+The characteristics of secret key (symmetric) and public key (asymmetric) algo-
+rithms are compared in Table 2-13.
+Public Key Cryptography to Exchange Secret Keys
+Encryption algorithms alone are not the answer to everyone’s encryption needs. 
+
+Although encryption implements protected communications channels, it can also be 
+
+used for other duties. In fact, combining symmetric and asymmetric encryption often 
+
+capitalizes on the best features of each.

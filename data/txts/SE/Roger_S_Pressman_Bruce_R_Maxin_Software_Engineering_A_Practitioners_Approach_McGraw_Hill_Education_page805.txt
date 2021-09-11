@@ -1,0 +1,77 @@
+CHAPTER 34  
+PROJECT SCHEDULING 775 
+ 
+ 
+34.6.  The relationship between people and time is highly nonlinear. Using Putnam’s soft-
+ware equation (described in Section 34.2.2), develop a table that relates number of people 
+to project duration for a software project requiring 50,000 LOC and 15 person-years of effort 
+(the productivity parameter is 5000 and  B 
+ 5 0.37). Assume that the software must be deliv-
+ered in 24 months plus or minus 12 months.    
+ 
+34.7.  Assume that you have been contracted by a university to develop an online course reg-istration system (OLCRS). First, act as the customer (if you’re a student, that should be easy) 
+and specify the characteristics of a good system. (Alternatively, your instructor will provide 
+
+you with a set of preliminary requirements for the system.) Using the estimation methods 
+discussed in Chapter 33, develop an effort and duration estimate for OLCRS. Suggest how 
+you would:   
+ 
+ 
+ a.  
+Deﬁ ne parallel work activities during the OLCRS project. 
+   
+ 
+ b.  
+Distribute effort throughout the project.    
+ 
+ c.  
+Establish milestones for the project.  
+ 
+   
+ 
+34.8.  Select an appropriate task set for the OLCRS project.    
+ 
+34.9.  Deﬁ ne a task network for OLCRS described in Problem 34.7, or alternatively, for an-
+other software project that interests you. Be sure to show tasks and milestones and to attach 
+effort and duration estimates to each task. If possible, use an automated scheduling tool to 
+perform this work.    
+ 
+34.10.  If an automated scheduling tool is available, determine the critical path for the net-work deﬁ ned in problem 34.9. 
+   
+ 
+34.11.  Using a scheduling tool (if available) or paper and pencil (if necessary), develop a time-line chart for the OLCRS project.    
+ 
+34.12.  Assume you are a software project manager and that you’ve been asked to compute earned value statistics for a small software project. The project has 56 planned work tasks 
+that are estimated to require 582 person-days to complete. At the time that you’ve been 
+asked to do the earned value analysis, 12 tasks have been completed. However the project 
+schedule indicates that 15 tasks should have been completed. The following scheduling data 
+(in person-days) are available:TaskPlanned EffortActual Effort
+112.012.5
+
+215.011.0
+
+313.017.0
+
+48.09.5
+
+59.59.0
+
+618.019.0
+
+710.010.0
+
+84.04.5
+
+912.010.0
+
+106.06.5
+
+115.04.0
+
+1214.014.5
+1316.0 —
+146.0 —
+
+158.0 —
+  
+  Compute the SPI, schedule variance, percent scheduled for completion, percent complete, CPI, and cost variance for the project.  pre22126_ch34_754-776.indd   775pre22126_ch34_754-776.indd   77513/12/13   10:02 PM13/12/13   10:02 PM

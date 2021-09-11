@@ -1,0 +1,68 @@
+ Section 3.3  Countermeasures 
+223  The public relations problem became so large that Microsoft President Bill Gates 
+ordered a total code development shutdown and a top-to-bottom analysis of security and 
+
+coding practices. The analysis and progress plan became known as the Trusted Com-
+
+puting Initiative. In this effort all developers underwent security training, and secure 
+
+software development practices were instituted throughout the company.
+The effort seemed to have met its goal: The number of code patches went down dra-
+matically, to a level of two to three critical security patches per month.
+Design by ContractThe technique known as 
+design by contract™ (a trademark of Eiffel Software) or 
+programming by contract 
+can assist us in identifying potential sources of error. The 
+trademarked form of this technique involves a formal program development approach, 
+
+but more widely, these terms refer to documenting for each program module its precon-
+
+ditions, postconditions, and invariants. Preconditions and postconditions are conditions 
+
+necessary (expected, required, or enforced) to be true before the module begins and 
+
+after it ends, respectively; invariants are conditions necessary to be true throughout 
+
+the module’s execution. Effectively, each module comes with a contract: It expects 
+
+the preconditions to have been met, and it agrees to meet the postconditions. By hav-
+
+ing been explicitly documented, the program can check these conditions on entry and 
+
+exit, as a way of defending against other modules that do not fulfill the terms of their 
+
+contracts or whose contracts contradict the conditions of this module. Another way of 
+
+achieving this effect is by using 
+assertions, which are explicit statements about mod-
+ules. Two examples of assertions are “this module accepts as input 
+age, expected to 
+be between 0 and 150 years” and “input length measured in meters, to be an unsigned 
+integer between 10 and 20.” These assertions are notices to other modules with which 
+
+this module interacts and conditions this module can verify. 
+The calling program must provide correct input, but the called program must not 
+compound errors if the input is incorrect. On sensing a problem, the program can either 
+halt or continue. Simply halting (that is, terminating the entire thread of execution) is 
+
+usually a catastrophic response to seriously and irreparably flawed data, but continuing 
+
+is possible only if execution will not allow the effect of the error to expand. The pro-
+
+grammer needs to decide on the most appropriate way to handle an error detected by a 
+
+check in the program’s code. The programmer of the called routine has several options 
+
+for action in the event of incorrect input:
+• Stop, or signal an error condition and return.• Generate an error message
+ and wait for user action.
+• Generate an error message
+ and reinvoke the calling routine from the top (appro-
+priate if that action forces the user to enter a value for the faulty field).
+• Try to correct it
+ if the error is obvious (although this choice should be taken only 
+if there is only one possible correction).• Continue, with a default or nominal value
+, or continue computation with-
+out the erroneous value
+, for example, if a mortality prediction depends on 
+age, sex, amount of physical activity, and history of smoking, on receiving an 

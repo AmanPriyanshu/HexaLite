@@ -1,0 +1,53 @@
+344 PART TWO  
+MODELING   
+ 4.  Interface style, help facilities, and error handling protocol provide a gen-eral indication of the complexity of the interface and the degree to which 
+it will be accepted by the user. 
+ 
+ 
+  Once the ﬁ rst prototype is built, you can collect a variety of qualitative and 
+quantitative data that will assist in evaluating the interface. To collect qualitative 
+
+data, questionnaires that allow users to assess the interface prototype can be 
+distributed. If quantitative data are desired, a form of time-study analysis can be 
+conducted. Users are observed during interaction, and data—such as number 
+of tasks correctly completed over a standard time period, frequency of actions, 
+sequence of actions, time spent “looking” at the display, number and types of 
+
+errors, error recovery time, time spent using help, and number of help refer-
+
+ences per standard time period—are collected and used as a guide for interface 
+modiﬁ cation. 
+ A complete discussion of user interface evaluation methods is beyond the scope of this book. For further information, see [Hac98] and [Sto05].   
+ 
+ 
+ 
+ 
+ 15.7 S
+UMMARY  
+The user interface is arguably the most important element of a computer-based 
+system or product. If the interface is poorly designed, the user’s ability to tap 
+
+the computational power and informational content of an application may be se-
+verely hindered. In fact, a weak interface may cause an otherwise well-designed 
+and solidly implemented application to fail.  Three important principles guide the design of effective user interfaces: place the user in control, (2) reduce the user’s memory load, and (3) make the 
+
+interface consistent. To achieve an interface that abides by these principles, an 
+
+organized design process must be conducted.  The development of a user interface begins with a series of analysis tasks. User analysis deﬁ nes the proﬁ
+ les of various end users and is gathered from a variety 
+of business and technical sources. Task analysis deﬁ
+ nes user tasks and actions 
+using either an elaborative or object-oriented approach, applying use cases, task 
+and object elaboration, workﬂ ow analysis, and hierarchical task representations 
+to fully understand the human-computer interaction. Environmental analysis 
+identiﬁ es the physical and social structures in which the interface must operate. 
+ Once tasks have been identiﬁ ed, user scenarios are created and analyzed to 
+deﬁ ne a set of interface objects and actions. This provides a basis for the cre-
+ation of a screen layout that depicts graphical design and placement of icons, 
+deﬁ nition of descriptive screen text, speciﬁ
+ cation and titling for windows, and 
+speciﬁ cation of major and minor menu items. Design issues such as response 
+time, command and action structure, error handling, and help facilities are con-
+sidered as the design model is reﬁ ned. A variety of implementation tools are 
+used to build a prototype for evaluation by the user. 
+pre22126_ch15_317-346.indd   344pre22126_ch15_317-346.indd   34413/12/13   10:01 PM13/12/13   10:01 PM

@@ -1,0 +1,28 @@
+˜˜˚˛˝˜˜˜
+˜˜
+While each framework includes slightly different functionality, web application frameworks usually provide components and classes that support:1. Security WAFs may include classes to help implement user authentication 
+(login) and access control to ensure that users can only access permitted func-tionality in the system.2. Dynamic web pages Classes are provided to help you define web page templates 
+and to populate these dynamically with specific data from the system database.3. Database integration 
+Frameworks don™t usually include a database but assume 
+
+that a separate database, such as MySQL, will be used. The framework may 
+
+include classes that provide an abstract interface to different databases.4. Session management Classes to create and manage sessions (a number of inter-
+actions with the system by a user) are usually part of a WAF.5. User interaction Web frameworks provide AJAX (Holdener 2008) and/or 
+
+HTML5 support (Sarris 2013), which allows interactive web pages to be cre-ated. They may include classes that allow device-independent interfaces to be 
+created, which adapt automatically to mobile phones and tablets.To implement a system using a framework, you add concrete classes that inherit operations from abstract classes in the framework. In addition, you define 
+
+ﬁcallbacksﬂ Šmethods that are called in response to events recognized by the frame-work. The framework objects, rather than the application-specific objects, are 
+
+responsible for control in the system. Schmidt et al
+. (Schmidt, Gokhale, and 
+Natarajan 2004) call this ﬁinversion of control.ﬂIn response to events from the user interface and database framework objects 
+invoke ﬁhook methodsﬂ that are then linked to user-provided functionality. The user-
+provided functionality defines how the application should respond to the event 
+
+(Figure 15.
+6). For example, a framework will have a method that handles a mouse 
+click from the environment. This method is called the hook method, which you must 
+configure to call the appropriate application methods to handle the mouse click.Application-specific classesGUI
+DatabaseEventloopCallbacksEventloopPlatformEventloopCallbacksCallbacksFigure 15.6 Inversion of control in frameworks 

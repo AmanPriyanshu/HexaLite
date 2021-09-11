@@ -1,0 +1,36 @@
+˜˜˚˛ˇ˜˜˜˜˜˜˜˜
+2. An ﬁMOT certificateﬂ system, which is used to record all roadworthiness cer-tificates issued by testing agencies licensed by the government.The ﬁsystems as data feedsﬂ architecture is an appropriate architecture to use 
+when it is possible to identify entities in a unique way and create relatively simple 
+queries about these entities. In the licensing system, vehicles can be uniquely identi-
+fied by their registration number. In other systems, it may be possible to identify 
+
+entities such as pollution monitors by their GPS coordinates.A variant of the ﬁsystems as data feedsﬂ architecture arises when a number of 
+systems provide data that are similar but not identical. Therefore, the architecture 
+
+has to include an intermediate layer as shown in Figure 20.11. The role of this 
+
+intermediate layer is to translate the general query from the principal system into the 
+
+specific query required by the individual information system.For example, the iLearn environment interacts with school administration systems 
+from three different providers. All of these systems provide the same information about 
+
+students (names, personal information, etc.) but have different interfaces. The databases 
+
+have different organizations, and the format of the data returned differs from one system 
+
+to another. The unifying interface here detects where the user of the system is based 
+
+and, using this regional information, knows which administrative system should be 
+
+accessed. It then converts a standard query into the appropriate query for that system.Problems that can arise in systems that use this pattern are primarily interface 
+problems when the data feeds are unavailable or are slow to respond. It is important 
+to ensure that timeouts are included in the system so that a failure of a data feed does 
+
+not compromise the response time of the system as a whole. Governance mecha-
+nisms should be in place to ensure that the format of provided data is not changed 
+without the agreement of all system owners.Systems in a container are systems of systems where one of the systems acts as a 
+virtual container and provides a set of common services such as an authentication 
+
+and a storage service. Conceptually, other systems are then placed into this container Data feed 1Data feed 3Data feed 2PrincipalsystemData feed 1(a)Data feed 1(b)Data feed 1(c)Figure 20.11 Systems as data feeds with a 
+
+unifying interface 

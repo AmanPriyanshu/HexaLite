@@ -1,0 +1,59 @@
+CHAPTER 19  
+QUALITY CONCEPTS 425software package, developed by a U.S. company, was modiﬁ
+ ed by hospital tech-
+nicians to compute modiﬁ ed doses of radiation for each patient. 
+ The three Panamanian medical physicists, who tweaked the software to provide 
+additional capability, were charged with second-degree murder. The U.S. company 
+
+was faced with serious litigation in two countries. Gage and  McCormick comment: 
+ 
+ 
+This is not a cautionary tale for medical technicians, even though they can ﬁ nd them-
+selves ﬁ ghting to stay out of jail if they misunderstand or misuse technology. This 
+also is not a tale of how human beings can be injured or worse by poorly designed or 
+poorly explained software, although there are plenty of examples to make the point. 
+This is a warning for any creator of computer programs: that software quality mat-
+ters, that applications must be foolproof, and that—whether embedded in the engine 
+of a car, a robotic arm in a factory or a healing device in a hospital—poorly deployed 
+
+code can kill.  
+  
+Poor quality leads to risks, some of them very serious.  
+ 
+ 
+ 
+19.3.4   
+Negligence and Liability  
+The story is all too common. A governmental or corporate entity hires a major soft-ware developer or consulting company to analyze requirements and then design 
+
+and construct a software-based “system” to support some major activity. The sys-
+
+tem might support a major corporate function (e.g., pension management) or some 
+
+governmental function (e.g., health care administration or homeland security). 
+ Work begins with the best of intentions on both sides, but by the time the sys-
+tem is delivered, things have gone bad. The system is late, fails to deliver de-
+sired features and functions, is error-prone, and does not meet with customer 
+
+approval. Litigation ensues.  In most cases, the customer claims that the developer has been negligent (in the manner in which it has applied software practices) and is therefore not en-
+titled to payment. The developer often claims that the customer has repeatedly 
+changed its requirements and has subverted the development partnership in 
+other ways. In every case, the quality of the delivered system comes into question.   
+ 
+ 
+19.3.5   
+Quality and Security  
+As the criticality of Web-based and mobile systems grows, application security 
+has become increasingly important. Stated simply, software that does not exhibit 
+
+high quality is easier to hack, and as a consequence, low-quality software can 
+indirectly increase the security risk with all of its attendant costs and problems.  In an interview in  ComputerWorld,
+ 
+ author and security expert Gary McGraw 
+comments [Wil05]:
+  
+ 
+Software security relates entirely and completely to quality. You must think about 
+security, reliability, availability, dependability—at the beginning, in the design, 
+
+ architecture, test, and coding phases, all through the software life cycle [process]. pre22126_ch19_411-430.indd   425pre22126_ch19_411-430.indd   42513/12/13   6:13 PM13/12/13   6:13 PM

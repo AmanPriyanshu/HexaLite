@@ -1,0 +1,64 @@
+426 PART THREE  
+QUALITY MANAGEMENTEven people aware of the software security problem have focused on late life-cycle stuff. The earlier you ﬁ nd the software problem, the better. And there are two kinds 
+of software problems. One is bugs, which are implementation problems. The other is 
+software ﬂ aws—architectural problems in the design. People pay too much attention 
+to bugs and not enough on ﬂ aws. 
+ 
+  
+To build a secure system, you must focus on quality, and that focus must begin 
+during design. The concepts and methods discussed in Part 2 of this book lead 
+to a software architecture that reduces “ﬂ aws.” A more detailed discussion of 
+security engineering is presented in Chapter 27.   
+ 
+ 
+19.3.6   
+The Impact of Management Actions  
+Software quality is often inﬂ uenced as much by management decisions as it is by 
+technology decisions. Even the best software engineering practices can be sub-
+verted by poor business decisions and questionable project management actions.  In Part 4 of this book we discuss project management within the context of the software process. As each project task is initiated, a project leader will make 
+decisions that can have a signiﬁ cant impact on product quality. 
+ 
+ 
+Estimation decisions.   A software team is rarely given the luxury of providing an estimate for a project  before
+ 
+ delivery dates are established and an overall budget 
+is speciﬁ ed. Instead, the team conducts a “sanity check” to ensure that deliv-
+ery dates and milestones are rational. In many cases there is enormous time-
+to-market pressure that forces a team to accept unrealistic delivery dates. As a 
+consequence, shortcuts are taken, activities that lead to higher-quality software 
+
+may be skipped, and product quality suffers. If a delivery date is irrational, it is 
+important to hold your ground. Explain why you need more time, or alternatively, 
+
+suggest a subset of functionality that can be delivered (with high quality) in the 
+time allotted.   
+ 
+Scheduling decisions.   When a software project schedule is established (Chap-ter 34), tasks are sequenced based on dependencies. For example, because com-
+ponent  A 
+ depends on processing that occurs within components  
+B, C, 
+ and  
+D, 
+ component  A 
+ cannot be scheduled for testing until components  
+B, C, 
+ and  
+D 
+ are 
+fully tested. A project schedule would reﬂ ect this. But if time is very short, and  
+A 
+ must be available for further critical testing, you might decide to test  A 
+ without 
+its subordinate components (which are running slightly behind schedule), so that 
+you can make it available for other testing that must be done before delivery. 
+
+After all, the deadline looms. As a consequence,  A 
+ may have defects that are 
+hidden, only to be discovered much later. Quality suffers. 
+  
+ 
+Risk-oriented decisions.   Risk management (Chapter 35) is one of the key attri-butes of a successful software project. You really do need to know what might go 
+
+wrong and establish a contingency plan if it does. Too many software teams pre-
+
+fer blind optimism, establishing a development schedule under the assumption pre22126_ch19_411-430.indd   426pre22126_ch19_411-430.indd   42613/12/13   6:13 PM13/12/13   6:13 PM

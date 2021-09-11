@@ -1,0 +1,29 @@
+Chapters 24 explains the basics of software quality management, as 
+practised in large projects. Quality management is concerned with pro-
+cesses and techniques for ensuring and improving the quality of soft
+-
+ware. I discuss the importance of standards in quality management, the 
+
+use of reviews and inspections in the quality assurance process. The final 
+
+section of this chapter covers software measurement and I discuss the 
+
+benefits and problems in using metrics and software data analytics in 
+
+quality management.Finally, Chapter 25 discusses configuration management, a critical issue 
+for all large systems. However, the need for configuration management is 
+
+not always obvious to students who have only been concerned with per-
+sonal software development, so I describe the various aspects of this 
+
+topic here, including version management, system building, change man
+-
+agement and release management. I explain why continuous integration 
+
+or daily system building is important. An important change in this edition 
+
+is the inclusion of new material on distributed version management sys
+-
+tems, such as Git, which are being increasingly used to support software 
+
+engineering by distributed teams.

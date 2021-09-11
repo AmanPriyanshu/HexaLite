@@ -1,0 +1,36 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜without changing other parts of the system. Furthermore, when layer interfaces 
+change or new facilities are added to a layer, only the adjacent layer is affected. As 
+layered systems localize machine dependencies, this makes it easier to provide 
+
+multi-platform implementations of an application system. Only the machine-
+ dependent layers need be reimplemented to take account of the facilities of a  different operating system or database.Figure 6.
+8 is an example of a layered architecture with four layers. The lowest 
+layer includes system support softwareŠtypically, database and operating system 
+
+support. The next layer is the application layer, which includes the components 
+
+concerned with the application functionality and utility components used by other 
+
+application components.The third layer is concerned with user interface management and providing user 
+authentication and authorization, with the top layer providing user interface facili
+-
+ties. Of course, the number of layers is arbitrary. Any of the layers in Figure 6.6 
+could be split into two or more layers.Figure 6.7 The Layered˜Architecture 
+patternNameLayered architectureDescriptionOrganizes the system into layers, with related functionality associated with each layer. A layer 
+provides services to the layer above it, so the lowest level layers represent core services that 
+are likely to be used throughout the system. See Figure 6.8.ExampleA layered model of a digital learning system to support learning of all subjects in schools (Figure 6.9).When usedUsed when building new facilities on top of existing systems; when the development is 
+spread across several teams with each team responsibility for a layer of functionality; when 
+there is a requirement for multilevel security.AdvantagesAllows replacement of entire layers as long as the interface is˜maintained. Redundant facilities 
+
+(e.g., authentication) can be provided in each layer to increase the dependability of the˜system.DisadvantagesIn practice, providing a clean separation between layers is often difficult, and a high-level layer 
+may have to interact directly with lower-level layers rather than through the layer immediately 
+below it. Performance can be a problem because of multiple levels of interpretation of a 
+service request as it is processed at each layer.User interface
+Core business logic/application functionality
+System utilities
+System support (OS, database, etc.)
+User interface management
+Authentication and authorization
+Figure 6.8 A generic layered architecture

@@ -1,0 +1,64 @@
+590 Chapter 9  
+PrivacyComputer-Related Privacy Problems
+You may notice that many kinds of sensitive data and many points about privacy have 
+nothing to do with computers. You are exactly right: These sensitivities and issues pre-
+
+date computers. Computers and networks have affected only the feasibility, speed, and 
+
+reach of some unwanted disclosures. Public records offices have long been open for 
+
+people to study the data held there, but the storage capacity and speed of computers 
+
+have given us the ability to amass, search, and correlate faster and more effectively 
+
+than ever before. With search engines we can find one data item out of billions, the 
+
+equivalent of finding one sheet of paper out of a warehouse full of boxes of papers. 
+
+Furthermore, the openness of networks and the portability of technology (such as lap-
+
+tops, tablets, cell phones, and WiFi-enabled devices) have greatly increased the risk of 
+
+disclosures affecting privacy.
+Rezgui et al. [REZ03]
+ list eight dimensions of privacy (specifically related to the 
+web, although the definitions carry over naturally to other types of computing).
+• Information collection: Data are collected only with knowledge and explicit 
+consent.• Information usage
+: Data are used only for certain specified purposes.
+• Information retention
+: Data are retained for only a set period of time.• Information disclosure
+: Data are disclosed to only an authorized set of people.• Information security: Appropriate mechanisms are used to ensure the protection 
+of the data.• Access control
+: All modes of access to all forms of collected data are controlled.
+• Monitoring: Logs are maintained showing all accesses to data.
+• Policy changes
+: Less restrictive policies are never applied after-the-fact to 
+already obtained data.Here are the privacy issues that have come about through use of computers.
+Data CollectionAs we have said, advances in computer storage make it possible to hold and manipulate 
+huge numbers of records. Disks on ordinary consumer devices are measured in gigabytes 
+
+(109 or 1 billion bytes), terabytes (10
+12 or 1 trillion bytes), petabytes (10
+15 or 1 quadrillion 
+bytes) and exabytes (10
+18 or 1 quintillion bytes). In 2012, Ngo [NGO12] reported that 
+Seagate reached a milestone in storage density: one terabyte per inch, enabling production 
+
+of a 60-terabyte hard drive. Plafke [PLA13] highlighted a team from Swinburne Univer-
+
+sity’s Center for Micro-Photonics that “has developed a technique that can increase a 
+
+DVD’s storage capacity from that standard 4.7 gigabytes (GB) up to 1 petabyte (PB). The 
+
+technique doesn’t change the size or shape of the disc, but instead changes the laser used 
+
+to read the disc’s data.” And Solar [SOL10] reported that alternatives to electronic media 
+
+promise even larger storage devices. He describes a group at the Chinese University of 
+
+Hong Kong that successfully used common bacteria as a secure storage device. “Based 
+
+on the procedures tested, they estimate the ability to store about 900,000 gigabytes in one 
+
+gram of bacteria cells. That is the equivalent of 450 hard drives, each with the capacity of 

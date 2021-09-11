@@ -1,0 +1,60 @@
+ Section 11.2  Information and the Law 
+721  Electronic Publishing
+Many newspapers and magazines post a version of their content on the Internet, as do 
+wire services and television news organizations. For example, the British Broadcast-
+
+ing Company (BBC) and the Reuters news services have a significant web presence. 
+
+We should expect that some news and information will eventually be published and 
+
+distributed exclusively on the Internet. Indeed, the Britannica Encyclopedia, and the 
+
+Columbia Encyclopedia are mainly web-based services now, rather than being delivered 
+
+as the large number of book volumes they used to occupy. Here again the publisher has 
+
+a problem ensuring that it receives fair compensation for the work. Cryptography-based 
+
+technical solutions are under development to address this problem. However, these tech-
+
+nical solutions must be supported by a legal structure to enforce their use. (Another 
+
+impediment to such technical solutions is that they must be easy to use.)
+Protecting Data in a Database
+Databases are a particular form of software that has posed significant problems for legal 
+interpretation. The courts have had difficulty deciding which protection laws apply to 
+
+databases. How does one determine that a set of data came from a particular database 
+
+(so that the database owner can claim some compensation)? Who even owns the data in 
+
+a database if they are public data, such as names and addresses?
+Electronic Commerce
+Laws related to trade in goods have evolved literally over centuries. Adequate legal 
+protections exist to cover defective goods, fraudulent payment, and failure to deliver 
+
+when the goods are tangible and are bought through traditional outlets such as stores 
+and catalogs. However, the situation becomes less clear when the goods are traded 
+
+electronically.
+If you order goods electronically, digital signatures and other cryptographic proto-
+cols can provide a technical protection for your “money.” However, suppose the infor-
+
+mation you order is not suitable for use or never arrives or arrives damaged or arrives 
+
+too late to use. How do you prove conditions of the delivery? For catalog sales, you 
+
+often have receipts or some paper form of acknowledgment of time, date, and location. 
+
+But for digital sales, such verification may not exist or can easily be modified. These 
+
+legal issues must be resolved as we move into an age of electronic commerce.
+The Legal SystemClearly, current laws are imperfect for protecting the information itself and for protect-
+
+ing electronically based forms of commerce. So how is information to be protected 
+
+legally? As described, copyrights, patents, and trade secrets cover some, but not all, 
+
+issues related to information. Nevertheless, the legal system does not allow free traffic 
+
+in information; some mechanisms can be useful.

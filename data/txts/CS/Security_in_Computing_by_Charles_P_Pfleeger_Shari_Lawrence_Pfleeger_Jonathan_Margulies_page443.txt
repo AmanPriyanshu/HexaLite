@@ -1,0 +1,54 @@
+ Section 6.4  Denial of Service 
+409  inspect (and perhaps open) everything your neighbor should have received, and you 
+would block all deliveries to your neighbor. This addressing change would facilitate 
+
+interception and denial of service. A similar situation occurs with network addresses, as 
+
+we now describe.
+DNS SpoofingAt the heart of Internet addressing is a protocol called DNS or 
+Domain Name System protocol. DNS is the database of translations of Internet names to addresses, and the 
+DNS protocol resolves the name to an address. For efficiency, a DNS server builds a 
+
+cache of recently used domain names; with an attack called DNS poisoning, attackers 
+
+try to insert inaccurate entries into that cache so that future requests are redirected to an 
+address the attacker has chosen.
+A standard DNS query and response is shown in Figure 6-23, in which the user 
+requests a translation of the URL microsoft.com, and the name server responds with the 
+
+address 207.46.197.32.DNS service is implemented on a remote server, so a man-in-the-middle attack 
+involves the attacker’s intercepting and replying to a query before the real DNS server 
+
+can respond. Such a situation, called DNS spoofing,
+ is shown in Figure 6-24. In that 
+example, the attacker quickly responds with address 7.0.1.1 (presumably an address 
+
+over which the attacker has control). With that change the attacker can enter into the 
+
+middle of the user’s communication with www.microsoft.com, forwarding whatever 
+
+the attacker wants to the real Micro-
+
+soft website. The user’s browser 
+
+disregards the correct response from 
+
+the DNS server that arrives after the 
+
+browser has already accepted the 
+
+false address from the attacker.
+Rerouting Routing
+One example of a man-in-the-middle attack involves one node’s redirecting a network 
+so that all traffic flows through the attacking node, leading to a potential for inter-
+
+ception. Network routers are a loose confederation of mutually trusting components 
+
+that arrange for delivery of all data through a network, including the Internet. The 
+Please convert www.microsoft.com
+207.46.197.32UserDNS server
+FIGURE 6-23 Resolving a Domain Name to an Address
+Any server can respond to a DNS lookup 
+request; the first responder wins. Being 
+
+first lets an attacker redirect traffic.

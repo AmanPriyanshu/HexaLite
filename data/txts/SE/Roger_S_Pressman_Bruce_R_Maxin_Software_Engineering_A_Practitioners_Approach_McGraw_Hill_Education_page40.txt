@@ -1,0 +1,158 @@
+10
+ CHAPTER 1  
+THE NATURE OF SOFTWARE
+ 
+ 
+ 
+ 
+It is important to recognize that there is a subtle distinction between mobile 
+web applications and mobile apps. A  
+mobile web application
+ 
+ (WebApp) allows a 
+mobile device to gain access to web-based content via a browser that has been 
+speciﬁ
+ cally designed to accommodate the strengths and weaknesses of the mo-
+bile platform. A  
+mobile app
+ 
+ can gain direct access to the hardware characteris-
+tics of the device (e.g., accelerometer or GPS location) and then provide the local 
+processing and storage capabilities noted earlier. As time passes, the distinction 
+between mobile WebApps and mobile apps will blur as mobile browsers become 
+more sophisticated and gain access to device level hardware and information. 
+ 
+ 
+ 
+1.2.3  Cloud Computing 
+ 
+ 
+Cloud computing
+ 
+ encompasses an infrastructure or “ecosystem” that enables 
+any user, anywhere, to use a computing device to share computing resources on 
+a broad scale. The overall logical architecture of cloud computing is represented 
+in  
+Figure 1.3 
+. 
+ 
+ What is the 
+difference 
+between a 
+WebApp and a 
+mobile app? 
+?
+Phones
+Tablets
+Object Storage
+Compute
+Block Storage
+Runtime
+Queue
+Database
+N
+E
+W
+S
+Content
+Communication
+Collaboration
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+2
+1
+12345
+0
+3
+4
+5
+6
+7
+8
+E
+F
+Monitoring
+Finance
+Servers
+Application
+Platform
+Infrastructure
+Cloud Computing
+Laptops
+Desktops
+Network
+Identity
+John Doe 
+3245  0557  5106 5406  5465 7065  76799
+ 
+ 
+F
+IGURE
+ 1.3
+ 
+Cloud computing logical architecture [Wik13] 
+ 
+ 
+p
+r
+e
+2
+2
+1
+2
+6
+_
+c
+h
+0
+1
+_
+0
+0
+1
+-
+0
+1
+3
+.
+i
+n
+d
+d
+ 
+ 
+ 
+1
+0
+pre22126_ch01_001-013.indd   10
+1
+3
+/
+1
+2
+/
+1
+3
+ 
+ 
+ 
+1
+0
+:
+0
+0
+ 
+P
+M
+13/12/13   10:00 PM

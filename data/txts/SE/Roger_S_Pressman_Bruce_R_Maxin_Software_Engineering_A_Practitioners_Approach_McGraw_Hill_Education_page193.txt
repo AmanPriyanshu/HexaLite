@@ -1,0 +1,62 @@
+CHAPTER 8  
+UNDERSTANDING REQUIREMENTS
+ 163process. Seven distinct requirements engineering functions—inception, elicita-tion, elaboration, negotiation, speciﬁ cation, validation, and management—are 
+conducted by members of the software team.  At project inception, stakeholders establish basic problem requirements, de-ﬁ ne overriding project constraints, and address major features and functions 
+that must be present for the system to meet its objectives. This information is 
+reﬁ ned and expanded during elicitation—a requirements gathering activity that 
+makes use of facilitated meetings, QFD, and the development of usage scenarios.  Elaboration further expands requirements in a model—a collection of scenar-
+io-based, activity-based, class-based, behavioral, and ﬂ ow-oriented elements. 
+The model may reference analysis patterns, characteristics of the problem do-
+main that have been seen to reoccur across different applications.  As requirements are identiﬁ ed and the requirements model is being created, 
+the software team and other project stakeholders negotiate the priority, avail-
+
+ability, and relative cost of each requirement. The intent of this negotiation is to 
+
+develop a realistic project plan. In addition, each requirement and the require-
+ments model as a whole are validated against customer need to ensure that the 
+right system is to be built.   
+ 
+  P
+ROBLEMS AND POINTS TO PONDER  
+ 
+ 
+ 
+8.1.  Why is it that many software developers don’t pay enough attention to requirements engineering? Are there ever circumstances where you can skip it?    
+ 
+8.2.  You have been given the responsibility to elicit requirements from a customer who tells 
+you he is too busy to meet with you. What should you do?    
+ 
+8.3.  Discuss some of the problems that occur when requirements must be elicited from three or four different customers.    
+ 
+8.4.  Why do we say that the requirements model represents a snapshot of a system in time?    
+ 
+8.5.  Let’s assume that you’ve convinced the customer (you’re a very good salesperson) to 
+agree to every demand that you have as a developer. Does that make you a master negoti-
+
+ator? Why?    
+ 
+8.6.  Develop at least three additional “context-free questions” that you might ask a stake-holder during inception.    
+ 
+8.7.  Develop a requirements-gathering “kit.” The kit should include a set of guidelines for conducting a requirements-gathering meeting and materials that can be used to facilitate 
+the creation of lists and any other items that might help in deﬁ ning requirements. 
+   
+ 
+8.8.  Your instructor will divide the class into groups of four or six students. Half of the group 
+will play the role of the marketing department and half will take on the role of software en-
+gineering. Your job is to deﬁ
+ ne requirements for the  
+SafeHome 
+ security function described in this chapter. Conduct a requirements-gathering meeting using the guidelines presented 
+
+in this chapter. 
+   
+ 
+8.9.  Develop a complete use case for one of the following activities:   
+ 
+ 
+ a.  
+Making a withdrawal at an ATM. 
+   
+ 
+ b.  
+Using your charge card for a meal at a restaurant.  pre22126_ch08_131-165.indd   163pre22126_ch08_131-165.indd   16313/12/13   6:11 PM13/12/13   6:11 PM

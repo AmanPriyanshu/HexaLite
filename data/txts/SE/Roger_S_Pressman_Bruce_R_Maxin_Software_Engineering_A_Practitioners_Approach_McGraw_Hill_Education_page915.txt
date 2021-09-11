@@ -1,0 +1,13 @@
+APPENDIX 1  
+AN INTRODUCTION TO UML 885comment, and so forth. These all correspond to different states of the  WhiteSpace-AndCommentEliminator  object. In each of these states,  WhiteSpaceAndCom-mentEliminator  behaves differently with regard to the next character read in. 
+  
+To help you visualize all the states of this object and how it changes state, you can use a UML state diagram as shown in   Figure A1.13. A state diagram displays states using rounded rectangles, each of which has a name in its upper 
+half. There is also a black circle called the “initial pseudostate,” which isn’t really 
+a state and instead just points to the initial state. In   Figure A1.13, the  start  state is the initial state. Arrows from one state to another state indicate transitions 
+or changes in the state of the object. Each transition is labeled with a trigger 
+event, a slash (/), and an activity. All parts of the transition labels are optional 
+in state diagrams. If the object is in one state and the trigger event for one of 
+its transitions occurs, then that transition’s activity is performed and the object 
+takes on the new state indicated by the transition. For example, in   Figure A1.13, if the  WhiteSpaceAndCommentEliminator  object is in the  start  state and the next character is “/”, then  WhiteSpaceAndCommentEliminator  advances past that character and changes to the  saw ‘/’  state. If the character after the “/” is another “/”, then the object advances to the  line comment  state and stays there until it next char = eoln/advancenext char != eoln/advancenext char != ‚*™/advancenext char = ‚/™/advancenext char = ‚/™/advancenext char = ‚*™/advancenext char = ‚*™/advancenext char = ‚*™/advancenext char = ‚/™/advancenext char = anything elsenext char = ‚ ™,™\t‚,™\r™,™\n™/advanceEnd of white spacenext char != ‚/™ or ‚*™/pushback™/™saw™*™block commentstart
+line commentsaw ‚/™ F
+IGURE A1.13A state diagram for advancing past white space and comments in Java   

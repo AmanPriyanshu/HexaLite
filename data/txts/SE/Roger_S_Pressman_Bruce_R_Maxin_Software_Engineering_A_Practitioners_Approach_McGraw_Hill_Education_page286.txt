@@ -1,0 +1,57 @@
+256 PART TWO  
+MODELING 
+An architectural description of a software-based system must exhibit char-
+acteristics that combine these metaphors. Tyree and Akerman [Tyr05] note this 
+
+when they write:  
+ 
+Developers want clear, decisive guidance on how to proceed with design. Customers 
+want a clear understanding of the environmental changes that must occur and assur-
+
+ances that the architecture will meet their business needs. Other architects want a 
+clear, salient understanding of the architecture’s key aspects. 
+  
+ 
+Each of these “wants” is reﬂ ected in a different metaphor represented using a 
+different viewpoint.  The IEEE Computer Society has proposed IEEE-Std-1471-2000,  Recommended Practice for Architectural Description of Software-Intensive Systems,
+ 
+ [IEE00], with 
+the following objectives: (1) to establish a conceptual framework and vocabulary 
+for use during the design of software architecture, (2) to provide detailed guide-
+lines for representing an architectural description, and (3) to encourage sound 
+architectural design practices. An  architectural description
+ 
+ (AD) represents 
+multiple views, where each view is “a representation of a whole system from the 
+perspective of a related set of [stakeholder] concerns.”   
+ 
+13.1.4  Architectural Decisions 
+ 
+Each view developed as part of an architectural description addresses a speciﬁ c 
+stakeholder concern. To develop each view (and the architectural description as 
+
+a whole) the system architect considers a variety of alternatives and ultimately 
+decides on the speciﬁ c architectural features that best meet the concern. There-
+fore, architectural decisions themselves can be considered to be one view of the 
+architecture. The reasons that decisions were made provide insight into the 
+structure of a system and its conformance to stakeholder concerns.  As a system architect, you can use the template suggested in the sidebar to document each major decision. By doing this, you provide a rationale for your 
+work and establish a historical record that can be useful when design modiﬁ ca-
+tions must be made.  Grady Booch [Boo11a] writes that when setting out to build an innovative product, software engineers often feel compelled to plunge right in, build stuff, 
+ﬁ x what doesn’t work, improve what does work, and then repeat the process. 
+After doing this a few times, they begin to recognize that an architecture should 
+be deﬁ ned and decisions associated with architectural choices must be stated 
+explicitly. It may not be possible to predict the right choices before building a 
+
+new product. However, if innovators ﬁ
+ nd that architectural decisions are worth 
+repeating after testing their prototypes in the ﬁ eld, then a  
+dominant design 
+ 
+ 1 
+ 
+ for 
+ 
+ 
+1   Dominant design 
+ describes an innovative software architecture or process that becomes an 
+industry standard after a period of successful adaptation and use in the marketplace. pre22126_ch13_252-284.indd   256pre22126_ch13_252-284.indd   25613/12/13   6:12 PM13/12/13   6:12 PM

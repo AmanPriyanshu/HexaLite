@@ -1,0 +1,72 @@
+CHAPTER 4  
+PROCESS MODELS 53 
+ 
+ 
+ 
+ 
+ 
+4.2.1 Component-Based Development 
+ 
+  
+Commercial off-the-shelf (COTS) software components, developed by vendors who offer them as products, provide targeted functionality with well-deﬁ ned in-
+terfaces that enable the component to be integrated into the software that is 
+to be built. The  component-based development model 
+ incorporates many of the 
+characteristics of the spiral model. It is evolutionary in nature [Nie92], demand-
+ing an iterative approach to the creation of software. However, the  
+component-based development model comprises applications from prepackaged software 
+components.  Modeling and construction activities begin with the identiﬁ cation of candidate 
+components. These components can be designed as either conventional software 
+modules or object-oriented classes or packages  11 
+ 
+ of classes. Regardless of the 
+technology that is used to create the components, the component-based devel-
+opment model incorporates the following steps (implemented using an evolu-
+tionary approach):  
+ 
+ 
+ 
+ 1.  Available component-based products are researched and evaluated for 
+the application domain in question.    
+ 
+ 2.  Component integration issues are considered.    
+ 
+ 3.  A software architecture is designed to accommodate the components.    
+ 
+ 4.  Components are integrated into the architecture.    
+ 
+ 5.  Comprehensive testing is conducted to ensure proper functionality. 
+ 
+ 
+  The component-based development model leads to software reuse, and re-usability provides software engineers with a number of measurable beneﬁ ts in-
+cluding a reduction in development cycle time and a reduction in project cost if 
+component reuse becomes part of your organization’s culture. Component-based 
+
+development is discussed in more detail in Chapter 14.   
+ 
+4.2.2 The  
+ 
+Formal Methods Model 
+ 
+  
+The  formal methods model 
+ encompasses a set of activities that leads to formal 
+mathematical speciﬁ cation of computer software. Formal methods enable you 
+to specify, develop, and verify a computer-based system by applying a rigorous, 
+
+mathematical notation. A variation on this approach, called  cleanroom software 
+engineering 
+ [Mil87, Dye92], is currently applied by some software development 
+organizations.  WebRef 
+ Useful information 
+on component-based 
+development can be 
+obtained at: 
+ www.cbd-hq.com
+ . 
+ 
+ 
+11  Object-oriented concepts are discussed in Appendix 2 and are used throughout Part 2 of this 
+book. In this context, a class encompasses a set of data and the procedures that process the 
+data. A package of classes is a collection of related classes that work together to achieve some 
+end result. pre22126_ch04_040-065.indd   53pre22126_ch04_040-065.indd   5313/12/13   6:10 PM13/12/13   6:10 PM

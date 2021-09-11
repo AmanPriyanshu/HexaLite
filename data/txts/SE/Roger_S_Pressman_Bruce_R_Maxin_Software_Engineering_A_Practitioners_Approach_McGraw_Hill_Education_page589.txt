@@ -1,0 +1,117 @@
+CHAPTER 25  
+TESTING WEB APPLICATIONS
+ 559 
+ 
+ 
+ 
+ 
+25.7.2   
+Client-Side Issues  
+On the client side, conﬁ guration tests focus more heavily on WebApp compati-
+bility with conﬁ gurations that contain one or more permutations of the follow-
+ing components: hardware, operating systems, browser software, user interface 
+components, plug-ins, and connectivity services (e.g., cable, DSL, WiFi). In addi-
+
+tion to these components, other variables include networking software, the vaga-
+ries of the ISP, and applications running concurrently. 
+ To design client-side conﬁ
+ guration tests, you must reduce the number of con-
+ﬁ guration variables to a manageable number. 
+ 13 
+ 
+ To accomplish this, each user cat-
+egory is assessed to determine the likely conﬁ gurations to be encountered within 
+the category. In addition, industry market share data may be used to predict the 
+
+most likely combinations of components. The WebApp is then tested within these 
+
+environments.  
+ 
+ 
+  
+ 
+ 
+13  Conducting tests on every possible combination of conﬁ guration components is far too time-
+consuming.   
+14  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+ 15   Security testing is also discussed as part of security engineering in Chapter 27. 
+ 16  Books by Cross and Fisher [Cro07], Andrews and Whittaker [And06], and Trivedi [Tri03] provide 
+useful information about the subject.  
+ 
+Web Conﬁ
+ guration Testing Tools 
+  
+ Objective: 
+ The objective of Web 
+conﬁ guration testing tools is to determine 
+problems that may occur when a page is displayed by 
+
+different web browser and operating system combinations. 
+  Mechanics: 
+ These tools prompt you to enter the URL of a Web page and allow you to select from dozens of 
+
+browser and operating systems combinations. The tools 
+will display thumbnails of the Web page as is appears 
+
+on each browser version selected.   Representative Tools:  
+ 14 
+ 
+  
+ 
+ 
+http://browsershots.org/ 
+ 
+—Browsershots provides an online service that allows you to test your website 
+
+from many different browsers and operating systems.   
+ 
+http://testingbot.com/  
+— TestingBot
+ 
+ provides a limited free trial of an online service that allows you 
+
+to test your website using many different browsers 
+and operating systems.   INFO    
+ 
+ 
+ 
+ 
+ 
+ 25.8  
+SECURITY TESTING 
+ 15    
+ 
+ 
+ 
+ 
+WebApp security is a complex subject that must be fully understood before ef-
+fective security testing can be accomplished.  16 
+ 
+ WebApps and the client-side and 
+server-side environments in which they are housed represent an attractive tar-
+
+get for external hackers, disgruntled employees, dishonest competitors, and 
+anyone else who wishes to steal sensitive information, maliciously modify con-
+tent, degrade performance, disable functionality, or embarrass a person, orga-
+
+nization, or business.   
+ 
+ uote:  “The Internet is 
+a risky place to 
+
+conduct business 
+
+or store assets. 
+
+Hackers, crackers, 
+
+ 
+
+vandals, virus 
+
+launchers, and rogue 
+program purveyors 
+run loose.” 
+ Dorothy and 
+Peter Denning pre22126_ch25_540-566.indd   559pre22126_ch25_540-566.indd   55913/12/13   6:15 PM13/12/13   6:15 PM

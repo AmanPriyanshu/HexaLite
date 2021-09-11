@@ -1,0 +1,32 @@
+˜˜˚˙˜˜˜
+˜˜
+with knowledge of existing systems and their usage and information from docu-ments of various kinds. You need to spend time understanding how people work, 
+
+what they produce, how they use other systems, and how they may need to change to 
+accommodate a new system.There are two fundamental approaches to requirements elicitation:1. Interviewing, where you talk to people about what they do.2.
+ Observation or ethnography, where you watch people doing their job to see 
+
+what artifacts they use, how they use them, and so on.You should use a mix of interviewing and observation to collect information and, 
+from that, you derive the requirements, which are then the basis for further discussions.Formal or informal interviews with system stakeholders are part of most require-ments engineering processes. In these interviews, the requirements engineering team 
+puts questions to stakeholders about the system that they currently use and the sys-
+tem to be developed. Requirements are derived from the answers to these questions. 
+
+Interviews may be of two types:1. Closed interviews, where the stakeholder answers a predefined set of questions.2.
+ Open interviews, in which there is no predefined agenda. The requirements 
+engineering team explores a range of issues with system stakeholders and hence 
+develops a better understanding of their needs.In practice, interviews with stakeholders are normally a mixture of both of these. You may have to obtain the answer to certain questions, but these usually lead to 
+
+other issues that are discussed in a less structured way. Completely open-ended dis-
+cussions rarely work well. You usually have to ask some questions to get started and 
+to keep the interview focused on the system to be developed.Interviews are good for getting an overall understanding of what stakeholders do, 
+how they might interact with the new system, and the difficulties that they face with 
+
+current systems. People like talking about their work, and so they are usually happy 
+to get involved in interviews. However, unless you have a system prototype to dem-
+onstrate, you should not expect stakeholders to suggest specific and detailed require-
+ments. Everyone finds it difficult to visualize what a system might be like. You need 
+
+to analyze the information collected and to generate the requirements from this.Eliciting domain knowledge through interviews can be difficult, for two reasons:1. All application specialists use jargon specific to their area of work. It is impos-
+sible for them to discuss domain requirements without using this terminology. 
+They normally use words in a precise and subtle way that requirements engi
+-neers may misunderstand.

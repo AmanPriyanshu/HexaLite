@@ -1,0 +1,69 @@
+572 Chapter 8  
+Cloud ComputingRegardless of how realm discovery happens, the next step is for the SP to craft an 
+Authentication Request. A SAML Authentication Request contains, among other ele-
+
+ments, the URL of the SP (the “Issuer” tag), the time of the request, and an optional 
+(but recommended) digital signature. SAML digital signatures use the XML Signature 
+
+specification (XMLDSig), which defines rules and tags for signing an XML message 
+
+and XML-encoding the information needed to verify the signature.
+The SP sends the Authentication Request back to the Subject’s browser along with 
+an HTTP Redirect to the IdP, effectively sending the request to the IdP through the Sub-
+
+ject’s system. At this point, the IdP presents a web page that authenticates the Subject. 
+
+While SAML defines a number of typical authentication mechanisms an IdP might 
+
+use, any authentication mechanism is allowed. An SP might require IdPs to use strong 
+
+authentication to protect critical systems, and an IdP might choose a specific authentica-
+
+tion mechanism for convenience or consistency. In most cases, the IdP will present the 
+
+Subject with a typical login form and accept normal domain credentials, as discussed 
+in Chapter 2.Once the Subject is authenticated, the IdP creates an Authentication Response 
+(sometimes called a “SAML Token”) containing one or more SAML Assertions. Asser-
+
+tions are the essence of SAML, for they contain the identity information the SPs need. 
+
+SAML defines three types of Assertions:
+• “Authentication: The assertion subject was authenticated by a particular means 
+at a particular time.”
+• “Attribute: The assertion subject is associated with the supplied attributes.”
+
+• “Authorization Decision: A request to allow the assertion subject to access the 
+specified resource has been granted or denied.” [OAS05a]
+Essentially, the Authentication Assertion tells the SP that the Subject logged in 
+successfully, the Attribute Assertion tells the SP who the Subject is, and the Authoriza-
+
+tion Decision tells the SP what the Subject is allowed to see and do. Assertions con-
+
+tain, among other elements, the URL of the IdP, the time the Assertion was created, an 
+
+optional signature, and optional conditions under which the Assertion is valid. While 
+
+the signature is optional, it is highly recommended as the best way to prevent a mali-
+
+cious user from modifying the Assertion to gain access (although Sidebar 8-4 shows 
+
+why this may not be good enough). Encryption is also important for Assertions because 
+
+they are likely to contain security-relevant or personal information. 
+Once the Authentication Response is created, the IdP sends it back to the Subject’s 
+browser to be sent to the SP. The SP should check the signature for validity, decrypt 
+
+the message, and create a security context for the Subject based on the Assertions. For 
+
+instance, if an Assertion says the Subject is a teacher in a class, then the LMS should 
+
+give that Subject privileges to edit the class site. After the Subject is logged in to the 
+
+SP and the session has begun, the SP can continue to use SAML to query the IdP. For 
+
+instance, if a student tries to delete a classmate’s comment from a message board, the 
+
+LMS might ask the IdP for an Authorization Decision to determine whether to allow 
+
+the action.All the groundwork laid above allows the university system to work seamlessly with 
+that of the cloud provider. Students navigate to the LMS site, log in using their regular 

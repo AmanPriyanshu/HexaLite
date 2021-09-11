@@ -1,0 +1,69 @@
+CHAPTER 38  
+EMERGING TRENDS IN SOFTWARE ENGINEERING
+ 851 
+ 
+ 
+ 
+ 
+38.5.2   
+The Grand Challenge  
+There is one trend that is undeniable—software-based systems will undoubtedly become bigger and more complex as time passes. It is the engineering of these 
+large, complex systems, regardless of delivery platform or application domain, 
+that poses the “grand challenge” [Bro06] for software engineers. Manfred Broy 
+[Bro06] suggests that software engineers can meet “the daunting challenge of 
+complex software systems development” by creating new approaches to under-
+
+standing system models and using those models as a basis for the construction of 
+high-quality next-generation software.  As the software engineering community develops new model-driven approaches 
+(discussed brieﬂ y later in this section) to the representation of system requirements 
+and design, the following characteristics [Bro06] must be addressed: 
+  
+ 
+ 
+ 
+ 
+•   
+Multifunctionality 
+—As digital devices evolve, they have begun to deliver a rich set of sometimes unrelated functions. The mobile phone, once consid-
+ered a straightforward communication device, has become a powerful 
+pocket computer that performs a wide spectrum of functions that are 
+arguably more important than making a phone call. As Broy [Bro06] notes, 
+“[E]ngineers must describe the detailed context in which the functions will 
+be delivered and, most important, must identify the potentially harmful 
+interactions between the system’s different features.” 
+  
+ 
+ 
+•   
+Reactivity and timeliness 
+—Digital devices increasingly interact with the real world and must react to external stimuli in a timely manner. They 
+
+must interface with a broad array of sensors and must respond in a time 
+frame that is appropriate to the task at hand. New methods must be de-
+veloped that (1) help software engineers predict the timing of various re-
+active features and (2) implement those features in a way that makes the 
+feature less machine dependent and more portable.   
+ 
+ 
+•   
+New modes of user interaction 
+—Open-world trends for software mean that new modes of interaction must be modeled and implemented. Whether 
+these new approaches use multitouch interfaces, voice recognition, or di-
+rect mind interfaces,  
+7 
+ 
+ new generations of software for digital devices must accommodate them.  
+  
+ 
+ 
+•   
+Complex architectures
+ 
+—A luxury automobile has over 2,000 functions controlled by software residing within a complex hardware architecture 
+that includes multiple processors, a sophisticated bus structure, actua-
+tors, sensors, an increasingly sophisticated human interface, and many  What system 
+characteris-tics must analysts 
+and designers 
+consider for future 
+apps? ? 7 A brief discussion of direct mind interfaces can be found at  
+http://en.wikipedia.org/wiki/Brain-computer_interface , and a commercial example which continues to evolve is described at  http://au.gamespot.com/news/6166959.htm l pre22126_ch38_839-859.indd   851pre22126_ch38_839-859.indd   85113/12/13   6:17 PM13/12/13   6:17 PM

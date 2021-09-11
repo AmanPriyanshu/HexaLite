@@ -1,0 +1,83 @@
+CHAPTER 25  
+TESTING WEB APPLICATIONS
+ 541 
+ 
+ 
+ 
+ 
+ 25.1  
+TESTING CONCEPTS FOR WEBAPPS  
+ 
+Testing is the process of exercising software with the intent of ﬁ
+ nding (and ulti-
+mately correcting) errors. This fundamental philosophy, ﬁ
+ rst presented in Chap-
+ter 22, does not change for WebApps. In fact, because Web-based systems and 
+
+applications reside on a network and interoperate with many different operating 
+systems, browsers (or other personal communication devices), hardware plat-
+forms, communications protocols, and “backroom” applications, the search for 
+errors represents a signiﬁ cant challenge. 
+ To understand the objectives of testing within a Web engineering context, you 
+should consider the many dimensions of WebApp quality. 
+ 1 
+ 
+ In the context of this 
+discussion, we consider quality dimensions that are particularly relevant in any 
+discussion of WebApp testing. We also consider the nature of the errors that are 
+
+encountered as a consequence of testing, and the testing strategy that is applied 
+to uncover these errors.   
+ 
+ 
+25.1.1   
+Dimensions of Quality  
+Quality is incorporated into a Web application as a consequence of good design. 
+It is evaluated by applying a series of technical reviews that assess various ele-
+ments of the design model and by applying a testing process that is discussed 
+throughout this chapter. Both reviews and testing examine one or more of the 
+
+following quality dimensions [Mil00a]:   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+•   
+Content 
+ is evaluated at both a syntactic and semantic level. At the syntac-tic level, spelling, punctuation, and grammar are assessed for text-based 
+documents. At a semantic level, correctness (of information presented), 
+consistency (across the entire content object and related objects), and lack 
+of ambiguity are all assessed.   
+ 
+ 
+•   
+Function 
+ is tested to uncover errors that indicate lack of conformance to customer requirements. Each WebApp function is assessed for correct-
+
+ness, instability, and general conformance to appropriate implementation 
+
+standards (e.g., Java or AJAX standards).   
+ 
+ 
+•   
+Structure
+ 
+ is assessed to ensure that it properly delivers WebApp content 
+and function, that it is extensible, and that it can be supported as new con-
+tent or functionality is added.   
+ 
+ 
+•   
+Usability 
+ is tested to ensure that each category of user is supported by the interface and can learn and apply all required navigation syntax and 
+semantics.   How do 
+we assess quality within 
+the context of a 
+WebApp and its 
+
+environment? ?  
+1  Generic software quality dimensions, equally applicable for WebApps, were discussed in 
+Chapter 19.  pre22126_ch25_540-566.indd   541pre22126_ch25_540-566.indd   54113/12/13   6:15 PM13/12/13   6:15 PM

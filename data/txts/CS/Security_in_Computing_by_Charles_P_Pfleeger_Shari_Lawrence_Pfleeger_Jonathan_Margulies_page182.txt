@@ -1,0 +1,77 @@
+148 Chapter 3  
+Programs and ProgrammingAs you can see in Figure 3-1, the stack and heap grow toward each other, and you can 
+predict that at some point they might collide. Ordinarily, the operating system monitors 
+
+their sizes and prevents such a collision, except that the operating system cannot know 
+
+that you will write 15,000 bytes into a dynamic heap space for which you requested 
+
+only 15 bytes, or 8 bytes into a 4-byte parameter, or four return parameter values into 
+
+three parameter spaces.The attacker wants to overwrite stack memory, sometimes called 
+stack smashing, in a purposeful manner: Arbitrary data in the wrong place causes strange behavior, but 
+
+particular data in a predictable location causes a planned impact. Here are some ways 
+
+the attacker can produce effects from an overflow attack:
+• Overwrite the program counter
+ stored in the stack so that when this routine 
+exits, control transfers to the address pointed at by the modified program coun-
+
+ter address.• Overwrite part of the code in low memory, substituting the attacker’s instruc-
+tions for previous program statements.
+• Overwrite the program counter and data
+ in the stack so that the program coun-
+ter now points into the stack, causing the data overwritten into the stack to be 
+
+executed.
+The common feature of these attack methods is that the attacker uses overflow data 
+as code the victim will execute. Because this code runs under the authority of the vic-
+
+tim, it carries the victim’s privileges, and it can destroy the victim’s data by overwriting 
+
+it or can perform any actions the victim could, for example, sending email as if from the 
+
+victim. If the overflow occurs during a system call, that is, when the system is running 
+
+with elevated privileges, the attacker’s code also executes with those privileges; thus, 
+
+an attack that transfers control to the attacker by invoking one of the attacker’s routines 
+
+activates the attacker’s code and leaves the attacker in control with privileges. And for 
+
+many attackers the goal is not simply to destroy data by overwriting memory but also 
+
+to gain control of the system as a first step in a more complex and empowering attack.
+Buffer overflow attacks are interesting because they are the first example of a class of 
+problems called data driven attacks. In a 
+data driven attack
+ the harm occurs by the data 
+the attacker sends. Think of such an attack this way: A buffer overflows when someone 
+
+stuffs too much into it. Most people accidentally put one more element in an array or 
+
+append an additional character into a string. The data inserted relate to the application 
+
+being computed. However, with a malicious buffer overflow the attacker, like David 
+
+the nonmalicious researcher, care-
+
+fully chooses data that will cause 
+
+specific action, to make the program 
+
+fail in a planned way. In this way, 
+
+the selected data drive the impact of 
+
+the attack.Malicious exploitation of buffer overflows also exhibit one more important character-
+istic: They are examples of a multistep approach. Not only does the attacker overrun allo-
+
+cated space, but the attacker also uses the overrun to execute instructions to achieve the 
+
+next step in the attack. The overflow is not a goal but a stepping stone to a larger purpose.
+Data driven attacks are directed by 
+
+specially chosen data the attacker feeds 
+a program as input.

@@ -1,0 +1,70 @@
+ Section 4.2  Web Attacks Targeting Users 
+253  their browsers) then accept these signatures as proof that the software is authentic and 
+nonmalicious. Part of the problem is that signing certificates are relatively easy and 
+
+cheap for anyone to obtain; the certificate indicates that the owner is a properly regis-
+
+tered business in the locality in which it operates, but little more. Although signature 
+
+authorities exercise reasonable diligence in issuing signing certificates, some bad actors 
+
+slip through. Thus, signed code may confirm that a piece of software received is what 
+
+the sender sent, but not that the software does all or only what a user expects it to.
+Malicious Web Content
+The cases just described could be harmless or harmful. One example showed that arbi-
+
+trary code could be delivered to an unsuspecting site visitor. That example did not have 
+
+to deliver malicious code, so it could be either nonmalicious or malicious. Likewise, 
+
+someone could rewrite a web site in a way that would embarrass, deceive, or just poke 
+
+fun—the defacer’s motive may not be obvious. The following example, however, has 
+
+unmistakably harmful intent. Our next attacks involve web pages that try to cause harm 
+
+to the user.
+Substitute Content on a Real Web Site
+A website defacement is like graffiti: It makes a statement but does little more. To the 
+site owner it may be embarrassing, and it attracts attention, which may have been the 
+
+attacker’s only intention. More mischievous attackers soon realized that in a similar 
+
+way, they could replace other parts of a web site and do so in a way that did not attract 
+
+attention.Think of all the sites that offer content as PDF files. Most have a link through which 
+to download the free PDF file display tool, Adobe Reader. That tool comes preloaded 
+
+on many computers, and most other users have probably already installed it themselves. 
+
+Still, sites with PDF content want to make sure users can process their downloads, so 
+
+they post a link to the Adobe site, and occasionally a user clicks to download the utility 
+
+program. Think, however, if an attacker wanted to insert malicious code, perhaps even 
+
+in a compromised version of Reader. All the attacker would have to do is modify the 
+
+link on the site with the PDF file so it points to the attacker’s site instead of Adobe’s, as 
+
+depicted in Figure 4-11. If the attacker presents a site that looks credible enough, most 
+
+users would download and install the tool without question. For the attacker, it is one 
+
+tiny change to the original site’s HTML code, certainly no harder than changing the rest 
+
+of the content.Because so many people already have Adobe Reader installed, this example would 
+not affect many machines. Suppose, however, the tool were a special application from 
+
+a bank to enable its customers to manage their accounts online, a toolbar to assist in 
+
+searching, or a viewer to display proprietary content. Many sites offer specialized pro-
+
+grams to further their business goals and, unlike the case with Adobe Reader, users will 
+
+often not know if the tool is legitimate, the site from which the tool comes is authen-
+
+tic, or the code is what the commercial site intended. Thus, website modification has 
+
+advanced from being an attention-seeking annoyance to a serious potential threat.

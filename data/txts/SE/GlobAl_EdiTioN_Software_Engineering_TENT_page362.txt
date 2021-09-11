@@ -1,0 +1,35 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜these software failures will not occur or that they will not be propagated in such a 
+way that dangerous system failures may occur.Safety cases are large and complex documents, and so they are very expensive to 
+produce and maintain. Because of these high costs, safety-critical system developers 
+
+have to take the requirements of the safety case into account in the development process:1.
+ Graydon et al. (Graydon, Knight, and Strunk 2007) argue that the development of a safety case should be tightly integrated with system design and implemen-
+tation. This means that system design decisions may be influenced by the 
+
+requirements of the safety case. Design choices that may add significantly to the 
+difficulties and costs of case development can then be avoided.2. Regulators have their own views on what is acceptable and unacceptable in a 
+safety case. It therefore makes sense for a development team to work with them 
+from early in the development to establish what the regulator expects from the 
+system safety case.The development of safety cases is expensive because of the costs of the record keeping required as well as the costs of comprehensive system validation and safety 
+
+assurance processes. System changes and rework also add to the costs of a safety 
+ChapterDescriptionSystem descriptionAn overview of the system and a description of its critical components.
+Safety requirementsThe safety requirements taken from the system requirements specification. Details of 
+other relevant system requirements may also be included.Hazard and risk 
+analysisDocuments describing the hazards and risks that have been identified and the 
+measures taken to reduce risk. Hazard analyses and hazard logs.Design analysisA set of structured arguments (see Section 12.4.1) that justify why the design is safe.
+Verification and validationA description of the V & V procedures used and, where appropriate, the test plans for 
+the system. Summaries of the test results showing defects that have been detected 
+and corrected. If formal methods have been used, a formal system specification and 
+any analyses of that specification. Records of static analyses of the source code.Review reportsRecords of all design and safety reviews.
+Team competencesEvidence of the competence of all of the team involved in safety-related systems 
+development and validation.Process QARecords of the quality assurance processes (see Chapter 24) carried out during system 
+development.Change 
+management 
+processesRecords of all changes proposed, actions taken, and, where appropriate, justification of 
+the safety of these changes. Information about configuration management procedures 
+and configuration management logs.Associated safety 
+casesReferences to other safety cases that may impact the safety case.Figure 12.10 Possible contents of a software 
+safety case

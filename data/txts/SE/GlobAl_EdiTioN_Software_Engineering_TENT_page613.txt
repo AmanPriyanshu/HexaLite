@@ -1,0 +1,40 @@
+˜˜˚˛˚˝˜˜˜˜˜˜˜
+
+During the design process for embedded software, software designers have to consider in 
+detail the design and performance of the system hardware. Part of the system design 
+
+process may involve deciding which system capabilities are to be implemented in soft-
+ware and which in hardware. For many real-time systems that are embedded in consumer 
+
+products, such as the systems in cell phones, the costs and power consumption of the 
+
+hardware are critical. Specific processors designed to support embedded systems may be 
+
+used. For some systems, special-purpose hardware may have to be designed and built.A top-down software design process, in which the design starts with an abstract model that is decomposed and developed in a series of stages, is impractical for most 
+real-time systems. Low-level decisions on hardware, support software, and system 
+timing must be considered early in the process. These limit the flexibility of system 
+designers. Additional software functionality, such as battery and power manage
+-
+ment, may have to be included in the system.Given that embedded systems are reactive systems that react to events in their 
+environment, the most general approach to embedded, real-time software design is 
+based on a stimulus-response model. A stimulus is an event occurring in the soft-
+ware system™s environment that causes the system to react in some way; a response 
+is a signal or message that the software sends to its environment.You can define the behavior of a real-time system by listing the stimuli received 
+by the system, the associated responses, and the time at which the response must be 
+
+produced. For example, Figure 21.1 shows possible stimuli and system responses for 
+a burglar alarm system (discussed in Section 21.2.1).Stimuli fall into two classes:1. Periodic stimuli These occur at predictable time intervals. For example, the sys-
+tem may examine a sensor every 50 milliseconds and take action (respond) 
+
+depending on that sensor value (the stimulus).2. Aperiodic stimuli These occur irregularly and unpredictably and are usually sig-
+naled, using the computer™s interrupt mechanism. An example of such a stimulus 
+
+would be an interrupt indicating that an I/O transfer was complete and that data 
+was available in a buffer.Stimuli come from sensors in the system™s environment, and responses are sent to actuators, as shown in Figure 21.2. These actuators control equipment, such as a 
+
+pump, which then makes changes to the system™s environment. The actuators them-
+selves may also generate stimuli. The stimuli from actuators often indicate that some 
+problem with the actuator has occurred, which must be handled by the system.A general design guideline for real-time systems is to have separate control pro-cesses for each type of sensor and actuator (Figure 21.3). For each type of sensor, 
+there may be a sensor management process that handles data collection from these 
+sensors. Data-processing processes compute the required responses for the stimuli 
+received by the system. Actuator control processes are associated with each actuator 

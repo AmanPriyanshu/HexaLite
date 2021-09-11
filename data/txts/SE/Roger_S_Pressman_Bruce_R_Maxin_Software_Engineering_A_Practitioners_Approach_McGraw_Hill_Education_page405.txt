@@ -1,0 +1,118 @@
+CHAPTER 17  
+WEBAPP DESIGN 375font styles should be the same across all text documents; graphic art should 
+have a consistent look, color scheme, and style). Graphic design (aesthetics) 
+
+should present a consistent look across all parts of the WebApp. Navigation 
+
+mechanisms should be used consistently across all WebApp elements. As 
+
+Kaiser [Kai02] notes: “Remember that to a visitor, a website is a physical place. 
+
+It is confusing if pages within a site are not consistent in design.“ 
+   
+ 
+ 
+ 
+ 
+ 
+Identity. 
+  The aesthetic, interface, and navigational design of a WebApp 
+must be consistent with the application domain for which it is to be built. 
+A website for a music company will undoubtedly have a different look and 
+feel than a WebApp designed for a ﬁ
+ nancial services company. 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+Robustness. 
+  Based on the identity that has been established, a WebApp 
+often makes an implicit “promise” to a user. The user expects robust con-
+
+tent and functions that are relevant to the user’s needs. If these elements 
+
+are missing or insufﬁ cient, it is likely that the WebApp will fail. 
+   
+ 
+ 
+ 
+ 
+ 
+Navigability. 
+  Navigation should be designed in a manner that is intuitive 
+and predictable. That is, the user should understand how to move about 
+the WebApp without having to search for navigation links or instructions. 
+
+For example, if a ﬁ eld of graphic icons or images contains selected icons 
+or images that will be used as navigation mechanisms, these must be iden-
+tiﬁ ed visually. Nothing is more frustrating than trying to ﬁ
+ nd the appropri-
+ate live link among many graphical images.    
+ 
+ 
+ 
+ 
+ 
+Visual Appeal.   Of all software categories, Web applications are unques-
+tionably the most visual, the most dynamic, and the most unapologetically 
+aesthetic. Beauty (visual appeal) is undoubtedly in the eye of the beholder, 
+
+but many design characteristics (e.g., the look and feel of content; inter-
+
+face layout; color coordination; the balance of text, graphics, and other 
+media; navigation mechanisms) do contribute to visual appeal.    
+ 
+ 
+ 
+ 
+ 
+Compatibility.   A WebApp will be used in a variety of environments (e.g., 
+different hardware, Internet connection types, operating systems, brows-
+ers) and must be designed to be compatible with each.  
+ 
+  
+ 
+ 
+ 
+ 
+ 17.3  
+A DESIGN PYRAMID FOR WEBAPPS  
+ 
+ 
+What is design in the context of Web engineering? This simple question is more 
+difﬁ cult to answer than one might believe. Pressman and Lowe [Pre08] discuss 
+this when they write:  
+The creation of an effective design will typically require a diverse set of skills. Some-times, for small projects, a single developer may need to be multi-skilled. For larger 
+projects, it may be advisable and/or feasible to draw on the expertise of specialists: 
+Web engineers, graphic designers, content developers, programmers, database spe-
+
+cialists, information architects, network engineers, security experts, and testers.   uote:  “To some, Web 
+design focuses on 
+visual look and 
+o others, 
+
+Web design is 
+
+about structuring 
+information 
+and navigation 
+through the 
+document space. 
+Others might even 
+consider Web 
+
+design to be about 
+the technology 
+used to build 
+interactive Web 
+
+applications. In 
+reality, design 
+
+includes all of these 
+things and maybe 
+more.”  Thomas Powell 
+pre22126_ch17_371-390.indd   375pre22126_ch17_371-390.indd   37513/12/13   6:13 PM13/12/13   6:13 PM

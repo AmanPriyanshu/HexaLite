@@ -1,0 +1,26 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜2. Risk detection requirements define mechanisms that identify the risk if it arises and neutralize the risk before losses occur.3. Risk mitigation requirements set out how the system should be designed so that 
+it can recover from and restore system assets after some loss has occurred.A risk-driven security requirements process is shown in Figure 13.5. The process stages are:1. Asset identification, where the system assets that may require protection are 
+identified. The system itself or particular system functions may be identified as 
+
+assets as well as the data associated with the system.2. Asset value assessment, where you estimate the value of the identified assets.3. Exposure assessment, 
+where you assess the potential losses associated with 
+
+each asset. This process should take into account direct losses such as the theft 
+of information, the costs of recovery, and the possible loss of reputation.4. Threat identification, where you identify the threats to system assets.5. Attack assessment, where you decompose each threat into attacks that might be 
+made on the system and the possible ways in which these attacks may occur. 
+
+You may use attack trees (Schneier 1999) to analyze the possible attacks. These 
+are similar to fault trees, (Chapter 12) as you start with a threat at the root of the 
+
+tree and then identify possible causal attacks and how these might be made.6. Control identification, where you propose the controls that might be put in place 
+to protect an asset. The controls are the technical mechanisms, such as encryp-
+tion, that you can use to protect assets.7. Feasibility assessment, where you assess the technical feasibility and the costs 
+of the proposed controls. It is not worth having expensive controls to protect 
+
+assets that don™t have a high value.AssetidentificationAsset valueassessmentThreat
+identificationAttackassessmentExposureassessmentSecurity req.definitionControlidentificationFeasibility
+assessmentFigure 13.5 The preliminary risk 
+assessment process for 
+security requirements 

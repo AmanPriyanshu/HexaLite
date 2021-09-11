@@ -1,0 +1,74 @@
+CHAPTER 12  
+DESIGN CONCEPTS 225   quality guidelines  . .228 
+     refactoring  . . . . . . 238   
+
+   separation of 
+
+concerns. . . . . . . . 234   
+
+   software design  . . 230   
+
+   stepwise 
+
+reﬁ nement  . . . . . . 237     
+ 
+The Roman architecture critic Vitruvius advanced the notion that well- 
+designed buildings were those which exhibited ﬁ rmness, commodity, and delight. The same 
+might be said of good software.  Firmness: 
+ A program should not have any bugs that 
+inhibit its function.  Commodity: 
+ A program should be suitable for the purposes for 
+which it was intended.  Delight: 
+ The experience of using the program should be a 
+pleasurable one. Here we have the beginnings of a theory of design for software.  
+  
+The goal of design is to produce a model or representation that exhibits ﬁ rmness, 
+commodity, and delight. To accomplish this, you must practice diversiﬁ
+ cation and 
+then convergence. Belady [Bel81] states that “diversiﬁ cation is the acquisition of 
+a repertoire of alternatives, the raw material of design: components, component 
+solutions, and knowledge, all contained in catalogs, textbooks, and the mind.” 
+Once this diverse set of information is assembled, you must pick and choose ele-
+ments from the repertoire that meet the requirements deﬁ ned by requirements 
+engineering and the analysis model (Chapters 8 to 11). As this occurs, alterna-
+tives are considered and rejected, and you converge on “one particular conﬁ gu-
+ration of components, and thus the creation of the ﬁ nal product” [Bel81]. 
+ Diversiﬁ cation and convergence combine intuition and judgment based on 
+experience in building similar entities, a set of principles and/or heuristics that 
+guide the way in which the model evolves, a set of criteria that enables quality 
+to be judged, and a process of iteration that ultimately leads to a ﬁ nal design 
+representation.   Software design changes continually as new methods, better analysis, and broader understanding evolve.  1 
+ 
+ Even today, most software design methodologies 
+lack the depth, ﬂ exibility, and quantitative nature that are normally associated 
+with more classical engineering design disciplines. However, methods for soft-
+
+ware design do exist, criteria for design quality are available, and design nota-
+tion can be applied. In this chapter, we explore the fundamental concepts and 
+
+principles that are applicable to all software design, the elements of the design 
+12 to 18 
+
+we’ll present a variety of software design methods as they are applied to archi-
+tectural, interface, and component-level design as well as pattern-based and 
+Web-oriented design approaches. 
+  
+ 
+ 
+ 
+ 12.1 D
+ESIGN WITHIN THE CONTEXT OF SOFTWARE
+ ENGINEERING  
+ 
+Software design sits at the technical kernel of software engineering and is ap-plied regardless of the software process model that is used. Beginning once soft-
+ware requirements have been analyzed and modeled, software design is the last   uote:  “The most common 
+miracle of software 
+engineering is the 
+transition from 
+analysis to design 
+and design to 
+code.”  Richard Due’ 
+  
+1  Those readers with further interest in the philosophy of software design might have interest in 
+Philippe Kruchen’s intriguing discussion of “post-modern” design [Kru05]. 
+pre22126_ch12_224-251.indd   225pre22126_ch12_224-251.indd   22513/12/13   6:12 PM13/12/13   6:12 PM

@@ -1,0 +1,75 @@
+CHAPTER 34  
+PROJECT SCHEDULING 757the software functions and capabilities that you’re requesting. This will make the preliminary version of the product somewhat less functional, but we can announce 
+all functionality and then deliver over the 14-month period. Third, we can dispense 
+with reality and wish the project complete in nine months. We’ll wind up with noth-
+
+ing that can be delivered to a customer. The third option, I hope you’ll agree, is 
+
+unacceptable. Past history and our best estimates say that it is unrealistic and a 
+recipe for disaster. 
+ 
+ 
+ 
+ 
+ 
+  
+There will be some grumbling, but if solid estimates based on good historical data are presented, it’s likely that negotiated versions of option 1 or 2 will be 
+
+chosen. The unrealistic deadline evaporates.   
+ 
+ 
+ 
+ 34.2  
+PROJECT SCHEDULING  
+ 
+Fred Brooks was once asked how software projects fall behind schedule. His re-sponse was as simple as it was profound: “One day at a time.”  The reality of a technical project (whether it involves building a hydroelectric plant or developing an operating system) is that hundreds of small tasks must 
+occur to accomplish a larger goal. Some of these tasks lie outside the mainstream 
+and may be completed without worry about impact on project completion date. 
+Other tasks lie on the  critical path 
+. If these “critical” tasks fall behind schedule, the completion date of the entire project is put into jeopardy. 
+  
+ 
+ 
+ 
+ 
+As a project manager, your objective is to deﬁ
+ ne all project tasks, build a net-
+work that depicts their interdependencies, identify the tasks that are critical 
+within the network, and then track their progress to ensure that delay is recog-
+nized “one day at a time.” To accomplish this, you must have a schedule that has 
+
+been deﬁ ned at a degree of resolution that allows progress to be monitored and 
+the project to be controlled.   
+Software project scheduling
+ 
+ is an activity that distributes estimated effort 
+across the planned project duration by allocating the effort to speciﬁ c software 
+engineering tasks. It is important to note, however, that the schedule evolves 
+
+over time. During early stages of project planning, a macroscopic schedule is de-
+veloped. This type of schedule identiﬁ es all major process framework activities 
+and the product functions to which they are applied. As the project gets under 
+way, each entry on the macroscopic schedule is reﬁ
+ ned into a detailed schedule. 
+Here, speciﬁ c software actions and tasks (required to accomplish an activity) are 
+identiﬁ ed and scheduled. 
+  Scheduling for software engineering projects can be viewed from two rather different perspectives. In the ﬁ rst, an end date for release of a computer-based 
+system has already (and irrevocably) been established. The software organiza-
+tion is constrained to distribute effort within the prescribed time frame. The 
+second view of software scheduling assumes that rough chronological bounds 
+have been discussed but that the end date is set by the software engineering    The tasks required to 
+achieve a project man-
+ager’s objective should 
+
+not be performed man-
+
+ually. There are many 
+
+excellent scheduling 
+tools. Use them.   uote:  “Overly optimistic 
+scheduling doesn’t 
+result in shorter 
+actual schedules, 
+it results in longer 
+ones.”  Steve McConnell 
+pre22126_ch34_754-776.indd   757pre22126_ch34_754-776.indd   75713/12/13   10:02 PM13/12/13   10:02 PM

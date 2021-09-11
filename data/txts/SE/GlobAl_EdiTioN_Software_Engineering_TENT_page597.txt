@@ -1,0 +1,46 @@
+˜˜˚˛ˆ˜˜˜˜˜˜˜˜
+2. The mode of use of the SoS In many cases, SoS are used in such a way that most 
+of the interactions of users at a site are with one of the constituent systems. They 
+
+use other systems only when additional information is required. For example, air 
+
+traffic controllers may normally use a radar system for flight information and only 
+
+access a flight plan database when additional information is required. A unified 
+
+interface is a bad idea in these situations because it would slow down interaction 
+
+with the most commonly used system. However, if the operators interact with all 
+
+of the constituent systems, then a unified UI may be the best way forward.3. The ﬁopennessﬂ of the SoS If the SoS is open, so that new systems may be 
+
+added to it when it is in use, then unified UI development is impractical. It is 
+impossible to anticipate what the UI of new systems will be. Openness also 
+
+applies to the organizations using the SoS. If new organizations can become 
+
+involved, then they may have existing equipment and their own preferences for 
+user interaction. They may therefore prefer not to have a unified UI.In practice, the limiting factor in UI unification is likely to be the budget and time available for UI development. UI development is one of the most expensive systems 
+engineering activities. In many cases, there is simply not enough project budget 
+
+available to pay for the creation of a unified SoS user interface.ˇˇSystem integration and deployment are usually separate activities. A system is inte
+-
+grated from its components by an integration and testing team, validated, and then 
+
+released for deployment. The components are managed so that changes are con-
+trolled and the integration team can be confident that the required version is included 
+
+in the system. However, for SoS, such an approach may not be possible. Some of the 
+
+component systems may already be deployed and in use, and the integration team 
+
+cannot control changes to these systems.For SoS, therefore, it makes sense to consider integration and deployment to be part of the same process. This approach reflects one of the design guidelines that I 
+discuss in the following section, which is that an incomplete system of systems 
+
+should be usable and provide useful functionality. The integration  process should 
+begin with systems that are already deployed, with new systems added to the SoS to 
+provide coherent additions to the functionality of the overall system.It often makes sense to plan the deployment of the SoS to reflect this, so that SoS deployment takes place in a number of stages. For example, Figure 20.8 illustrates a 
+three-stage deployment process for the iLearn digital learning environment:1.
+ The initial deployment provides authentication, basic learning functionality, 
+and integration with school administration systems.2. Stage 2 of the deployment adds an integrated storage system and a set of more 
+specialized tools to support subject-specific learning. These tools might include 

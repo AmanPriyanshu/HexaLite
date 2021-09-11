@@ -1,0 +1,67 @@
+CHAPTER 8  
+UNDERSTANDING REQUIREMENTS
+ 139limited time to interact with the requirements engineer. None of these things are 
+desirable, but all are fairly common, and you are often forced to work within the 
+constraints imposed by this situation.  In the sections that follow, we discuss the steps required to establish the 
+groundwork for an understanding of software requirements—to get the project 
+started in a way that will keep it moving forward toward a successful solution.  
+ 
+ 
+  
+ 
+ 
+8.2.1  Identifying Stakeholders 
+ 
+Sommerville and Sawyer [Som97] deﬁ ne a  
+stakeholder 
+ as “anyone who beneﬁ
+ ts 
+in a direct or indirect way from the system which is being developed.” We have 
+
+already identiﬁ ed the usual suspects: business operations managers, product 
+managers, marketing people, internal and external customers, end users, con-
+sultants, product engineers, software engineers, support and maintenance engi-
+neers, and others. Each stakeholder has a different view of the system, achieves 
+different beneﬁ ts when the system is successfully developed, and is open to dif-
+ferent risks if the development effort should fail.   At inception, you should create a list of people who will contribute input as requirements are elicited (Section 8.3). The initial list will grow as stakeholders 
+are contacted because every stakeholder will be asked: “Whom else do you think 
+I should talk to?”   
+ 
+8.2.2  Recognizing Multiple Viewpoints 
+ 
+Because many different stakeholders exist, the requirements of the system will be explored from many different points of view. For example, the marketing 
+
+group is interested in functions and features that will excite the potential mar-
+
+ket, making the new system easy to sell. Business managers are interested in a 
+feature set that can be built within budget and that will be ready to meet deﬁ ned 
+market windows. End users may want features that are familiar to them and that 
+are easy to learn and use. Software engineers may be concerned with functions 
+that are invisible to nontechnical stakeholders but that enable an infrastructure 
+that supports more marketable functions and features. Support engineers may 
+focus on the maintainability of the software.  Each of these constituencies (and others) will contribute information to the requirements engineering process. As information from multiple viewpoints is 
+collected, emerging requirements may be inconsistent or may conﬂ ict with one 
+another. You should categorize all stakeholder information (including inconsis-
+
+tent and conﬂ icting requirements) in a way that will allow decision makers to 
+choose an internally consistent set of requirements for the system.  There are several things that can make it hard to elicit requirements for soft-ware that satisﬁ es its users: project goals are unclear, stakeholders’ priorities 
+differ, people have unspoken assumptions, stakeholders interpret meanings 
+
+differently, and requirements are stated in a way that makes them difﬁ
+ cult to 
+ A  
+stakeholder  is 
+anyone who has a 
+direct interest in 
+or beneﬁ ts from 
+the system that is 
+to be developed.   uote:  “Put three 
+stakeholders in 
+a room and ask 
+them what kind of 
+system they want. 
+You’re likely to 
+
+get four or more 
+different opinions.”  Author unknown 
+pre22126_ch08_131-165.indd   139pre22126_ch08_131-165.indd   13913/12/13   6:11 PM13/12/13   6:11 PM

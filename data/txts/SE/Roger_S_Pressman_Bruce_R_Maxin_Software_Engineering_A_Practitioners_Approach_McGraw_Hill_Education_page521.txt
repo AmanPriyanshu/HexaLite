@@ -1,0 +1,73 @@
+CHAPTER 22  
+SOFTWARE TESTING STRATEGIES
+ 491 
+ 
+ 
+ 
+ 
+22.9.3   
+Debugging Strategies  
+Regardless of the approach that is taken, debugging has one overriding objec-tive—to ﬁ nd and correct the cause of a software error or defect. The objective is 
+realized by a combination of systematic evaluation, intuition, and luck.  In general, three debugging strategies have been proposed [Mye79]: brute force, backtracking, and cause elimination. Each of these strategies can be con-
+ducted manually, but modern debugging tools can make the process much more 
+
+effective.    
+ 
+ 
+ 
+Debugging Tactics.   
+The  brute force
+ 
+ category of debugging is probably the most 
+common and least efﬁ cient method for isolating the cause of a software error. 
+You apply brute force debugging methods when all else fails. Using a “let the 
+
+computer ﬁ nd the error” philosophy, memory dumps are taken, run-time traces 
+are invoked, and the program is loaded with output statements. You hope that 
+
+somewhere in the morass of information that is produced you’ll ﬁ nd a clue that 
+can lead us to the cause of an error. Although the mass of information produced 
+
+may ultimately lead to success, it more frequently leads to wasted effort and 
+time. Thought must be expended ﬁ rst! 
+  
+Backtracking 
+ is a fairly common debugging approach that can be used suc-
+cessfully in small programs. Beginning at the site where a symptom has been un-
+covered, the source code is traced backward (manually) until the cause is found. 
+Unfortunately, as the number of source lines increases, the number of potential 
+
+backward paths may become unmanageably large.  The third approach to debugging— cause elimination 
+—is manifested by induc-tion or deduction and introduces the concept of binary partitioning. Data related 
+to the error occurrence are organized to isolate potential causes. A “cause hy-
+pothesis” is devised and the aforementioned data are used to prove or disprove 
+the hypothesis. Alternatively, a list of all possible causes is developed and tests 
+
+are conducted to eliminate each. If initial tests indicate that a particular cause 
+hypothesis shows promise, data are reﬁ ned in an attempt to isolate the bug. 
+ 
+ 
+Automated Debugging.   
+Each of these debugging approaches can be supple-mented with debugging tools that can provide you with semiautomated support 
+as debugging strategies are attempted. Hailpern and Santhanam [Hai02] sum-
+many new approaches have 
+
+been proposed and many commercial debugging environments are available. 
+Integrated development environments (IDEs) provide a way to capture some 
+of the language-speciﬁ c predetermined errors (e.g., missing end-of-statement 
+characters, undeﬁ ned variables, and so on) without requiring compilation.” A 
+wide variety of debugging compilers, dynamic debugging aids (“tracers”), au-
+tomatic test-case generators, and cross-reference mapping tools are available. 
+However, tools are not a substitute for careful evaluation based on a complete 
+
+design model and clear source code.   
+ 
+ uote:  “The ﬁ rst step in 
+ﬁ xing a broken 
+
+program is 
+getting it to fail 
+repeatably (on the 
+simplest example 
+possible).”   T. Duff 
+pre22126_ch22_466-495.indd   491pre22126_ch22_466-495.indd   49113/12/13   6:14 PM13/12/13   6:14 PM

@@ -1,0 +1,55 @@
+ Section 4.2  Web Attacks Targeting Users 
+259  • an addition to the bottom of the Save As dialog box, offering the opportunity to 
+buy a computer accessory and take part in a survey to enter a sweepstakes
+• numerous new Favorites entries
+
+• a new browser start page
+Removing this garbage from his computer was a challenge. For example, changing 
+the browser start page worked only while the browser was open; closing the browser 
+
+and reopening it brought back the modified start page. Only some of the programs were 
+
+listed in add/remove programs, and removing programs that way was only partially 
+
+successful. Howes also followed the paths to the companies serving the software and 
+
+downloaded and ran uninstall utilities from those companies, again with only partial 
+
+success. After those two attempts at removal, Howes’ anti-malware utilities found and 
+
+eradicated still more code. He finally had to remove a few stray files by hand.
+Fortunately, it seems there were no long-lasting, hidden registry changes that would 
+have been even harder to eliminate. Howes was prepared for this download and had 
+
+a spare machine he was willing to sacrifice for the experiment, as well as time and 
+
+patience to undo all the havoc it created. Most users would not have been so prepared 
+
+or so lucky.
+This example indicates the range of damage a drive-by download can cause. Also, 
+in this example, the user actually consented to a download (although Howes did not 
+
+consent to all the things actually downloaded). In a more insidious form of drive-by 
+
+download such as the postal service example, the download is just a script. It runs as a 
+
+web page is displayed and probes the computer for vulnerabilities that will permit later 
+downloads without permission.
+Protecting Against Malicious Web Pages
+The basic protection against malicious web content is access control, as presented in 
+Chapter 2. In some way we want to prevent the malicious content from becoming estab-
+
+lished or executed.
+Access control accomplishes separation, keeping two classes of things apart. In this 
+context, we want to keep malicious code off the user’s system; alas, that is not easy.
+Users download code to add new applications, update old ones, or improve execu-
+tion. Additionally, often without the user’s knowledge or consent, applications, includ-
+
+ing browsers, can download code either temporarily or permanently to assist in handling 
+
+a data type (such as displaying a picture in a format new to the user). Although some 
+
+operating systems require administrative privilege to install programs, that practice is 
+
+not universal. And some naïve users run in administrative mode all the time. Even when 
+FIGURE 4-14 Drive-By Downloaded Toolbar

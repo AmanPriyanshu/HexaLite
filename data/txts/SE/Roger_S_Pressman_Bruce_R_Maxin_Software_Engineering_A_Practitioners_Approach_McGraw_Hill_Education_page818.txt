@@ -1,0 +1,75 @@
+788 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+Using the CTC format for the reuse risk noted in Section 35.4.2, you could write: 
+ 
+Given that all reusable software components must conform to speciﬁ c design standards 
+and that some do not conform, then there is concern that (possibly) only 70 percent of 
+
+the planned reusable modules may actually be integrated into the as-built system, re-
+sulting in the need to custom engineer the remaining 30 percent of components. 
+ 
+  
+This general condition can be reﬁ ned in the following manner: 
+  
+ 
+ 
+ 
+ 
+Subcondition 1. 
+ Certain reusable components were developed by a third party with no knowledge of internal design standards.    
+ 
+ 
+ 
+Subcondition 2. 
+ The design standard for component interfaces has not been solidiﬁ ed and may not conform to certain existing reusable components. 
+   
+ 
+ 
+ 
+Subcondition 3. 
+ Certain reusable components have been implemented in a language that is not supported on the target environment.  
+ 
+  The consequences associated with these reﬁ ned subconditions remain the 
+same (i.e., 30 percent of software components must be custom engineered), but 
+the reﬁ nement helps to isolate the underlying risks and might lead to easier 
+analysis and response.    
+ 
+ 
+ 
+35.6  RISK MITIGATION
+, MONITORING, AND MANAGEMENT    
+All of the risk analysis activities presented to this point have a single goal—to assist the project team in developing a strategy for dealing with risk. An effective 
+strategy must consider three issues: risk avoidance, risk monitoring, and risk 
+management and contingency planning.  If a software team adopts a proactive approach to risk, avoidance is always the best strategy. This is achieved by developing a plan for  
+risk mitigation. 
+ For ex-
+ample, assume that high staff turnover is noted as a project risk  r 1. Based on past history and management intuition, the likelihood  l 1 of high turnover is estimated 
+to be 0.70 (70 percent, rather high) and the impact  x 1 is projected as critical. That 
+is, high turnover will have a critical impact on project cost and schedule.   
+ 
+ 
+ 
+ 
+To mitigate this risk, you would develop a strategy for reducing turnover. 
+Among the possible steps to be taken are:   
+ 
+ 
+•  Meet with current staff to determine causes for turnover (e.g., poor work-ing conditions, low pay, competitive job market). 
+  
+ 
+ 
+•  Mitigate those causes that are under your control before the project starts.   
+ 
+ 
+•  Once the project commences, assume turnover will occur and develop techniques to ensure continuity when people leave.   
+ 
+ 
+•  Organize project teams so that information about each development ac-tivity is widely dispersed.   
+ uote:  “If I take so many 
+precautions, it is 
+because I leave 
+nothing to chance.”  Napolean 
+ What can 
+
+we do to mitigate a risk? ?pre22126_ch35_777-794.indd   788pre22126_ch35_777-794.indd   78813/12/13   6:17 PM13/12/13   6:17 PM

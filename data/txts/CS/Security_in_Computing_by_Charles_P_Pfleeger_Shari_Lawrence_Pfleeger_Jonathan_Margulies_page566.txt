@@ -1,0 +1,65 @@
+532 Chapter 7  
+DatabasesStatistical Suppression
+Because the attacks to obtain data used features of statistics, it may not be surprising that statistics also give some clues to countering those attacks.
+Limited Response Suppression Limited response suppression
+ eliminates certain low-frequency elements from being 
+displayed. It is not sufficient to delete them, however, if their values can also be inferred. 
+
+To see why, consider Table 7-11, which shows counts of students by dorm and sex.
+The data in this table suggest that the cells with counts of 1 should be suppressed; their counts are too revealing. But it does no good to suppress the Male–Holmes cell 
+
+when the value 1 can be determined by subtracting Female–Holmes (2) from the total 
+
+(3) to determine 1, as shown in Table 7-12.
+SIDEBAR 7-5 Continueddo not return such forms. And there is always the possibility that a form 
+would be lost in the mail. For the 2000 census the U.S. Census Bureau pro-
+
+posed using statistical sampling and estimative techniques to approximate 
+
+the population. With these techniques they would select certain areas in 
+
+which to take two counts: first, a regular count, and second, an especially 
+
+diligent search for every person residing in the area. In this way the bureau 
+
+could determine the “undercount,” the number of people missed in the reg-
+
+ular count. They could then use this undercount factor to adjust the regular 
+
+count in other similar areas and thus obtain a more accurate, although less 
+
+precise, count.
+The U.S. Supreme Court ruled that statistical sampling techniques 
+were acceptable for determining revenue distribution to the states but not 
+
+for allocating representatives in Congress. As a result, the census can 
+
+never get an exact, accurate count of the number of people in the United 
+States or even in a major U.S. city. At the same time, concerns about pre-
+
+cision and privacy prevent the Census Bureau from releasing information 
+
+about any particular individual living in the United States.
+Does this lack of accuracy and exactness mean that the census is not useful? No. We may not know exactly how many people live in Washing-
+
+ton D.C. or the exact information about a particular resident of Washington 
+
+D.C., but we can use the census information to characterize most residents 
+
+of Washington D.C. For example, we can determine the maximum, min-
+
+imum, mean, and median ages or incomes, and we can investigate the 
+
+relationships among characteristics, such as between education level and 
+
+income for the population surveyed. Researchers are well aware that cen-
+
+sus data are slightly inaccurate. Furthermore, knowing the kinds of people 
+
+not surveyed, researchers can understand the direction of some errors. 
+
+(For example, if unemployed people are underrepresented in the results, 
+
+mean income might be too high.) So accuracy and precision help to reflect 
+
+the balance between protection and need to know.

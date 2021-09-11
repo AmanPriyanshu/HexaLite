@@ -1,0 +1,31 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜The advantage of this architectural style is that protection system software can be 
+much simpler than the software that is controlling the protected process. The only function of the protection system is to monitor operation and to ensure that the sys-
+tem is brought to a safe state in the event of an emergency. Therefore, it is possible 
+to invest more effort in fault avoidance and fault detection. You can check that the 
+software specification is correct and consistent and that the software is correct with 
+
+respect to its specification. The aim is to ensure that the reliability of the protection 
+system is such that it has a very low probability of failure on demand (say, 0.001). 
+Given that demands on the protection system should be rare, a probability of failure 
+on demand of 1/1000 means that protection system failures should be very rare.A self-monitoring architecture (Figure 11.7) is a system architecture in which the sys-
+tem is designed to monitor its own operation and to take some action if a problem is 
+
+detected. Computations are carried out on separate channels, and the outputs of these 
+
+computations are compared. If the outputs are identical and are available at the same 
+
+time, then the system is judged to be operating correctly. If the outputs are different, 
+
+then a failure is assumed. When this occurs, the system raises a failure exception on the 
+
+status output line. This signals that control should be transferred to some other system.To be effective in detecting both hardware and software faults, self-monitoring systems have to be designed so that:1. The hardware used in each channel is diverse. In practice, this might mean that each channel uses a different processor type to carry out the required computa-
+tions, or the chipset making up the system may be sourced from different manu-
+facturers. This reduces the probability of common processor design faults 
+
+affecting the computation.2.
+ The software used in each channel is diverse. Otherwise, the same software 
+
+error could arise at the same time on each channel.On its own, this architecture may be used in situations where it is important for 
+computations to be correct, but where availability is not essential. If the answers 
+SplitterChannel 1Channel 2ComparatorInput valueOutput valueStatusFigure 11.7 Self-monitoring architecture 

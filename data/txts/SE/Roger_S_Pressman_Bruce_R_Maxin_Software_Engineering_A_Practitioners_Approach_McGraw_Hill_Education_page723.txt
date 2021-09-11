@@ -1,0 +1,91 @@
+CHAPTER 31  
+PROJECT MANAGEMENT CONCEPTS 693non-interactive and impersonal communication channels” [Kra95]. Informal 
+communication is more personal. Members of a software team share ideas on 
+
+an ad hoc basis, ask for help as problems arise, and interact with one another 
+
+on a daily basis. 
+ 
+ 
+ 
+  
+ 
+Team Structure  
+ 
+Team Structure 
+ 
+ 
+The scene:  Doug Miller’s ofﬁ
+ ce 
+prior to the initiation of the  SafeHome 
+ software project.   
+The players:  Doug Miller (manager of the  
+SafeHome 
+ software engineering team) and Vinod Raman, Jamie 
+Lazar, and other members of the product software 
+
+engineering team.   
+The conversation:    
+Doug:  Have you guys had a chance to look over 
+the preliminary info on  
+SafeHome 
+ that marketing has prepared?   
+Vinod (nodding and looking at his team-mates):  Yes. But we have a bunch of questions. 
+  
+Doug:  Let’s hold on that for a moment. I’d like to talk 
+about how we are going to structure the team, who’s 
+
+  
+Jamie:  I’m really into the agile philosophy, Doug. I 
+think we should be a self-organizing team.   
+Vinod:  I agree. Given the tight time line and some of 
+the uncertainty, and that fact that we’re all really compe-
+
+tent [laughs], that seems like the right way to go.   
+Doug:  That’s okay with me, but you guys know the 
+drill.   
+Jamie (smiling and talking as if she was reciting something):  “We make tactical decisions, 
+about who does what and when, but it’s our 
+
+responsibility to get product out the door on time.   
+Vinod:  And with quality. 
+  
+Doug:  Exactly. But remember there are constraints. 
+Marketing deﬁ nes the software increments to be 
+produced—in consultation with us, of course.   
+Jamie:  And? 
+  
+Doug:  And, we’re going to use UML as our modeling 
+approach.   
+Vinod:  But keep extraneous documentation to an 
+absolute minimum.   
+Doug:  Who is the liaison with me? 
+  
+Jamie:  We decided that Vinod will be the tech lead—
+he’s got the most experience, so Vinod is your liaison, 
+
+but feel free to talk to any of us.   
+Doug (laughing):  Don’t worry, I will. 
+  
+SAFEHOME  
+ 
+ 
+ 
+ 
+ 
+ 
+ 31.3  
+THE PRODUCT  
+ 
+A software project manager is confronted with a dilemma at the very begin-ning of a software project. Quantitative estimates and an organized plan are 
+
+required, but solid information is unavailable. A detailed analysis of software 
+
+requirements would provide information necessary for estimates, but analy-
+sis often takes weeks or even months to complete. Worse, requirements may 
+
+be fluid, changing regularly as the project proceeds. Yet, a plan is needed 
+
+now! 
+ Like it or not, you must examine the product and the problem it is intended to solve at the very beginning of the project. At a minimum, the scope of the product 
+must be established and bounded. pre22126_ch31_683-702.indd   693pre22126_ch31_683-702.indd   69313/12/13   6:16 PM13/12/13   6:16 PM

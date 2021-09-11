@@ -1,0 +1,129 @@
+212 PART TWO  
+MODELING 
+ 
+ 
+ 
+ 
+Participants.   This section of the patterns description “itemizes the classes/ob-jects that are included in the requirements pattern” [Kon02] and describes the 
+responsibilities of each class/object ( Figure 11.3 ). An abbreviated list follows: 
+ 
+ 
+ 
+•   
+PassiveSensor abstract: 
+ Deﬁ nes an interface for passive sensors. 
+  
+ 
+ 
+•   
+PassiveBooleanSensor: 
+ Deﬁ nes passive Boolean sensors. 
+  
+ 
+ 
+•   
+PassiveIntegerSensor: 
+ Deﬁ nes passive integer sensors. 
+  
+ 
+ 
+•   
+PassiveRealSensor: 
+ Deﬁ nes passive real sensors. 
+  
+ 
+ 
+•   
+ActiveSensor abstract: 
+ Deﬁ nes an interface for active sensors. 
+  
+ 
+ 
+•   
+ActiveBooleanSensor: 
+ Deﬁ nes active Boolean sensors. 
+  
+ 
+ 
+•   
+ActiveIntegerSensor: 
+ Deﬁ nes active integer sensors. 
+  
+ 
+ 
+•   
+ActiveRealSensor: 
+ Deﬁ nes active real sensors. 
+  
+ 
+ 
+•   
+Actuator abstract: 
+ Deﬁ nes an interface for actuators. 
+  
+ 
+ 
+•   
+BooleanActuator: 
+ Deﬁ nes Boolean actuators. 
+  
+ 
+ 
+•   
+IntegerActuator: 
+ Deﬁ nes integer actuators. 
+  
+ 
+ 
+•   
+RealActuator: 
+ Deﬁ nes real actuators. 
+  
+ 
+ 
+•   
+ComputingComponent: 
+ The central part of the controller; it gets the 
+data from the sensors and computes the required response for the 
+
+actuators. 
+  
+ 
+ 
+•   
+ActiveComplexSensor: 
+ Complex active sensors have the basic function-ality of the abstract  ActiveSensor 
+ class, but additional, more elaborate, methods and attributes need to be speciﬁ ed. 
+  
+ 
+ 
+•   
+PassiveComplexSensor: 
+ Complex passive sensors have the basic function-ality of the abstract  PassiveSensor 
+ class, but additional, more elaborate, methods and attributes need to be speciﬁ ed. 
+  
+ 
+ 
+•   
+ComplexActuator: 
+ Complex actuators also have the base functionality of the abstract  Actuator 
+ class, but additional, more elaborate methods and attributes need to be speciﬁ ed. 
+ 
+ 
+  
+ 
+ 
+Collaborations.   This section describes how objects and classes interact with one another and how each carries out its responsibilities.  
+ 
+ 
+•  When the  ComputingComponent 
+ needs to update the value of a  PassiveSensor 
+, it queries the sensors, requesting the value by sending the appropriate message.   
+ 
+ 
+•   
+ActiveSensors 
+ are not queried. They initiate the transmission of sensor values to the computing unit, using the appropriate method to set the 
+value in the  ComputingComponent . They send a life tick at least once during a speciﬁ ed time frame in order to update their timestamps with 
+the system clock’s time. 
+ pre22126_ch11_202-223.indd   212pre22126_ch11_202-223.indd   21213/12/13   6:12 PM13/12/13   6:12 PM

@@ -1,0 +1,59 @@
+CHAPTER 29  
+SOFTWARE CONFIGURATION MANAGEMENT
+ 627to modify the project strategy. Why all this modiﬁ
+ cation? The answer is really 
+quite simple. As time passes, all constituencies know more (about what they need, 
+which approach would be best, and how to get it done and still make money). This 
+additional knowledge is the driving force behind most changes and leads to a 
+statement of fact that is difﬁ cult for many software engineering practitioners to 
+accept:  Most changes are justiﬁ
+ ed!
+ 
+  A  baseline 
+ is a software conﬁ
+ guration management concept that helps you 
+to control change without seriously impeding justiﬁ able change. The IEEE (IEEE 
+Std. No. 610.12-1990) deﬁ nes a baseline as:
+ 
+ 
+A speciﬁ cation or product that has been formally reviewed and agreed upon, that 
+thereafter serves as the basis for further development, and that can be changed only 
+through formal change control procedures.  Before a software conﬁ guration item becomes a baseline, change may be made 
+quickly and informally. However, once a baseline is established, changes can be made, 
+
+but a speciﬁ c, formal procedure must be applied to evaluate and verify each change. 
+ 
+  In the context of software engineering, a baseline is a milestone in the devel-opment of software. A baseline is marked by the delivery of one or more software 
+conﬁ guration items that have been approved as a consequence of a technical 
+review (Chapter 20). For example, the elements of a design model have been 
+documented and reviewed. Errors are found and corrected. Once all parts of 
+the model have been reviewed, corrected, and then approved, the design model 
+becomes a baseline. Further changes to the program architecture (documented 
+in the design model) can be made only after each has been evaluated and ap-
+proved. Although baselines can be deﬁ ned at any level of detail, the most com-
+mon software baselines are shown in  Figure 29.1  
+ 
+.  
+ 
+ 
+ 
+    Most software changes 
+are justiﬁ ed, so there’s 
+
+no point in complaining 
+about them. Rather, be 
+
+certain that you have 
+
+mechanisms in place 
+to handle them.  FIGURE 29.1 
+Baselined 
+the project 
+
+databaseSCIsSCIsModifiedSoftwareengineeringtasksTechnical
+reviewsSCIsApprovedSCIsExtractedSCMcontrolsSCIsStoredProject databaseSystem SpecificationSoftware Requirements
+Design Specification 
+Source Code
+Test Plans/Procedures/Data
+
+Operational System   BASELINES:pre22126_ch29_623-652.indd   627pre22126_ch29_623-652.indd   62713/12/13   6:16 PM13/12/13   6:16 PM

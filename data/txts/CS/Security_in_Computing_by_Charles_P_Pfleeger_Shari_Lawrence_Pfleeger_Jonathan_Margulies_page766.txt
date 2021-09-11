@@ -1,0 +1,56 @@
+732 Chapter 11  
+Legal Issues and EthicsCulp argued [CUL01] that “a vendor’s responsibility is to its customers, not to a self-
+described security community.” He opposed what he called “information anarchy, . . .  
+the practice of deliberately publishing explicit, step-by-step instructions for exploiting 
+
+security vulnerabilities without regard for how the information may be used.” But he 
+
+also acknowledged that the process of developing, distributing, and applying patches 
+
+is imperfect, and his own company “need[s] to make it easier for users to keep their 
+
+systems secure.”
+Users’ Interests
+David Litchfield, a security researcher noted for locating flaws in vendors’ programs, 
+announced in May 2002 that he would no longer automatically wait for a vendor’s 
+
+patch before going public with a vulnerability announcement. Citing “lethargy and an 
+
+unwillingness to patch security problems as and when they are found,” [FIS02b]
+ Litch-field criticized the approach of holding fixes of several vulnerabilities until enough had 
+
+accumulated to warrant a single service pack. He makes the point that publicized or not, 
+
+the vulnerabilities still exist. If one reporter has found the problem, so too could any 
+
+number of malicious attackers. For a vendor to fail to provide timely patches to vulner-
+
+abilities of which the vendor is aware leaves the users wide open to attacks of which the 
+
+user may be unaware.
+Litchfield’s solution is to put pressure on the vendor. He announced he would give 
+vendors one week’s notice of a vulnerability before publicizing the vulnerability—but 
+
+not the details of how to exploit it—to the world.
+“Responsible” Vulnerability Reporting
+Clearly the conflicting interests of vendors and users must meet at some compromise 
+position. Christey and Wysopal [CHR02] have proposed a vulnerability reporting pro-
+
+cess that meets constraints of timeliness, fair play, and responsibility. They call the user 
+
+reporting a suspected vulnerability a “reporter” and the manufacturer the “vendor.” A 
+
+third party—such as a computer emergency response center—called a “coordinator” 
+
+could also play a role when a power issue or conflict arises between reporter and ven-
+
+dor. Basically, the process requires reporter and vendor to do the following:
+• The vendor must acknowledge a vulnerability report confidentially to the 
+reporter.
+• The vendor must agree that the vulnerability exists (or argue otherwise) confi-
+dentially to the reporter.
+• The vendor must inform users of the vulnerability and any available counter-
+measures within 30 days or request additional time from the reporter as needed.• After informing users, the vendor may request from the reporter a 30-day quiet 
+period to allow users time to install patches.
+• At the end of the quiet period the vendor and reporter should agree upon a date at 
+which time the vulnerability information may be released to the general public.• The vendor should credit the reporter with having located the vulnerability.

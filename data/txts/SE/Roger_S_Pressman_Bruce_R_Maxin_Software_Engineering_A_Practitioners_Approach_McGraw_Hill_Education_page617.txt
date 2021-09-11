@@ -1,0 +1,76 @@
+CHAPTER 27  
+SECURITY ENGINEERING 587with this information once it is received in digital form. In ideal circumstances, users can directly control how their data should be handled and shared, but this 
+requires the creation of user-prescribed data-sharing preferences to the data 
+
+itself as it is captured electronically [Pea11].   
+ 
+27.2.1   
+Social Media  
+The explosive growth and popularity of online social media networks have made them attractive targets for malicious programmers. Because of the implicit trust 
+most users have in a social network environment, it is easy for a hacker to use a 
+compromised account to send malware-infected messages to the account hold-
+er’s friends. Social networks can be used to lure users to phishing sites 
+ 1 
+ 
+ with the intention of tricking them into submitting personal data or forwarding cash to a 
+friend in need. Another ruse is the use of e-mails that include details stolen from 
+a user’s personal data [Sae11]. 
+ 
+  Some social media networks allow users to develop their own applications. 
+These applications innocently ask the user to grant access to personal data and 
+
+then use that data in ways that the user never intended. Sometimes an applica-
+tion or game is so attractive that even a knowledgeable user will allow this type 
+
+of access so that she can use the application. Social networks often have check-in 
+
+features that allow criminals to target individuals through their movements in real 
+
+life. Despite the concerns over identity theft, spam, and spyware, many computer 
+
+users are not motivated to take the steps needed to protect themselves [Sta10]. 
+  
+ 
+ 
+27.2.2   
+Mobile Applications  
+ 
+ 
+Users of mobile apps have access to almost the same web services that ﬁ xed-location 
+wired Internet users have. Wireless Internet users have inherited all the security 
+
+risks associated with desktop commerce, plus many new risks unique to mobile net-
+works. The nature of wireless networks requires trust and cooperation between 
+
+nodes that can be exploited by malicious programs to deny services or collect conﬁ -dential information. The platforms and languages developed for mobile devices can 
+
+be hacked, and malicious code can be inserted into the device system software with 
+
+all the privileges of the device owner. This means that security technologies such as 
+
+sign-in, authentication, and encryption can be undermined with relative ease. 
+  
+ 
+ 
+27.2.3   
+Cloud Computing  
+Cloud computing brings additional conﬁ dentiality and privacy concerns because 
+data is entrusted to remote servers that are managed by service providers. 
+These cloud service providers have complete access and control over our data. 
+They are trusted not to share it with others (either accidentally or deliberately)   
+ 
+ uote:  ”If you reveal your 
+secrets to the wind, 
+you should not 
+blame the wind for 
+revealing them to 
+the trees.”  Kahlil Gibran 
+ What 
+
+threats are encountered 
+in mobile 
+applications? ?  
+1  A  
+phishing site 
+ disguises itself as a known and trusted website, luring the user to provide per-
+sonal information that can lead to the loss of security assets. pre22126_ch27_584-600.indd   587pre22126_ch27_584-600.indd   58716/12/13   6:23 PM16/12/13   6:23 PM

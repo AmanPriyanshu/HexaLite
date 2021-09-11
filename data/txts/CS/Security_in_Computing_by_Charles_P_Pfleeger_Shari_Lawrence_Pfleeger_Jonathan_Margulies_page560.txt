@@ -1,0 +1,72 @@
+526 Chapter 7  
+DatabasesAggregation
+Related to the inference problem is 
+aggregation
+, which means building sensitive results 
+from less sensitive inputs. We saw earlier that knowing either the latitude or longitude 
+
+of a gold mine does you no good. But if you know both latitude and longitude, you can 
+
+pinpoint the mine. For a more realistic example, consider how police use aggregation 
+
+frequently in solving crimes: They determine who had a motive for committing the 
+
+crime, when the crime was committed, who had alibis covering that time, who had 
+
+the skills, and so forth. Typically, you think of police investigation as starting with the 
+
+entire population and narrowing the analysis to a single person. But if the police officers 
+
+work in parallel, one may have a list of possible suspects, another may have a list with 
+
+possible motive, and another may have a list of capable persons. When the intersection 
+
+of these lists is a single person, the police have their prime suspect.
+Aggregation is becoming a large, lucrative business, as described in Sidebar 7-3. 
+Addressing the aggregation problem is difficult because it requires the database man-
+
+agement system to track what results each user had already received and conceal any 
+
+result that would let the user derive a more sensitive result. Aggregation is especially 
+
+difficult to counter because it can take place outside the system. For example, suppose 
+
+the security policy is that anyone can have 
+either the latitude or longitude of the mine, 
+but not both. Nothing prevents you from getting one, your friend from getting the other, 
+
+and the two of you talking to each other.
+SIDEBAR 7-3 What They Know
+Emily Steel and Geoffrey Fowler, two 
+Wall Street Journal 
+reporters, investi-
+gated data collection and distribution by online social media applications, 
+specifically Facebook [STE10]. They found that, although Facebook has a 
+well-defined and strong privacy policy, it fails to enforce that policy rigor-
+
+ously on the over 500,000 applications made available to Facebook users, 
+including people who set their profiles to Facebook’s strictest privacy set-
+
+tings. According to the study, as of October 2010, applications transmit 
+
+users’ unique ID numbers (which can be converted easily to names) to 
+
+dozens of advertising and Internet tracking companies. The investigators 
+
+found that all of the ten most popular applications transmitted these data 
+to outside firms.
+Although the tracking is done anonymously—by ID number only—the ability to convert the number to a name permits tracking companies to 
+
+combine data from Facebook with data from other sources to sell to adver-
+
+tisers and others. A Facebook user’s name is always public, regardless of 
+
+the privacy settings of the rest of the user’s profile; if the user has set other 
+
+profile aspects public, such as address or birth date, those data could also 
+
+be swept into the dossier being assembled.Facebook advertising is big business: For its 2013 fiscal year, Face-
+book reported revenue of approximately $1.8 billion, with 1 million advertisers 
+
+as clients. With that amount of money involved, it is easy to see why other 
+advertisers and data analysts would like access to data on Facebook users.

@@ -1,0 +1,46 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜3. Attack monitoring, detection, and recovery involves monitoring the system for unauthorized access, detecting and putting in place strategies for resisting 
+
+attacks, and organizing backups of programs and data so that normal operation 
+can be resumed after an external attack.Operational security is primarily a human and social issue. It focuses on ensuring that the people using the system do not behave in such a way that system security is 
+
+compromised. For example, users may leave themselves logged on to a system while 
+it is unattended. An attacker can then easily get access to the system. Users often 
+
+behave in an insecure way to help them do their jobs more effectively, and they have 
+
+good reason to behave in an insecure way. A challenge for operational security is to 
+raise awareness of security issues and to find the right balance between security and 
+system effectiveness.The term cybersecurity is now commonly used in discussions of system security. Cybersecurity is a very wide-ranging term that covers all aspects of the protection of 
+
+citizens, businesses, and critical infrastructures from threats that arise from their use 
+of computers and the Internet. Its scope includes all system levels from hardware 
+
+and networks through application systems to mobile devices that may be used to 
+
+access these systems. I discuss general cybersecurity issues, including infrastructure 
+
+security, in Chapter 14, which covers resilience engineering. In this 
+chapter, I focus on issues of application security engineeringŠsecurity 
+requirements, design for security, and security testing. I don™t cover general security 
+
+techniques that may be used, such as encryption, and access control mechanisms or 
+attack vectors, such as viruses and worms. General textbooks on computer security 
+
+(Pfleeger and Pfleeger 2007; Anderson 2008; Stallings and Brown 2012) discuss 
+
+these techniques in detail.Security is a system attribute that reflects the ability of the system to protect itself 
+from malicious internal or external attacks. These external attacks are possible 
+
+because most computers and mobile devices are networked and are therefore 
+ accessible by outsiders. Examples of attacks might be the installation of viruses and 
+Trojan horses, unauthorized use of system services, or unauthorized modification of 
+
+a system or its data.If you really want a system to be as secure as possible, it is best not to connect it to the Internet. Then, your security problems are limited to ensuring that authorized 
+users do not abuse the system and to controlling the use of devices such as USB 
+
+drives. In practice, however, networked access provides huge benefits for most 
+ systems, so disconnecting from the Internet is not a viable security option.For some systems, security is the most important system dependability attribute. Military systems, systems for electronic commerce, and systems that involve the 
+
+processing and interchange of confidential information must be designed so that 

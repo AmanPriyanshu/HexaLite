@@ -1,0 +1,57 @@
+772 Chapter 12  
+Details of Cryptographycarelessly discard sensitive material that could give a spy access to plaintext by match-
+ing known ciphertext. And humans can sometimes be bribed or coerced. 
+Not only are people fallible, but so are hardware and software implementations. 
+Sometimes hardware fails in predictable ways, such as when disk-reading heads lose 
+
+their track alignment, so sensitive data thought to be erased are still on the disk. At other 
+
+times, seemingly small things can weaken an otherwise strong approach. For example, 
+
+in one attack, the analyst accurately measured the electricity being used by a computer 
+performing an encryption and deduced the key from the difference in power used to 
+
+compute a 1 versus a 0.
+These problems are separate from issues of the algorithm itself, but they offer ways 
+that a cryptanalyst can approach the task of breaking the code. Remember that the only 
+rule that applies to the attacker is that there are no rules. An example of “anything that 
+
+works” in cryptanalysis is described in Sidebar 12-4.
+SIDEBAR 12-3  
+Hidden Meanings Changed the Course of World War II
+In the spring of 1942, the United States was fighting Japan in the Pacific. American cryptanalysts had cracked some of the Japanese naval codes, 
+
+but they did not understand the extra encoding the Japanese used to 
+
+describe particular sites. A message intercepted by the United States told 
+
+the Allies’ officers that “AF” was to be the target of a major assault. The U.S. 
+
+Navy suspected that the assault would be on Midway island, but it needed 
+to be sure.
+Commander Joseph Rochefort, head of the U.S. Navy’s cryptography 
+center at Pearl Harbor, devised a clever plan to unearth the meaning of 
+
+“AF.” He directed the naval group at Midway to send a message, request-
+
+ing fresh water, saying that the water distillery had been damaged. Soon, 
+
+the United States intercepted a Japanese message indicating that “AF” 
+
+was short of water—verifying that “AF” indeed meant Midway! [SEI01]
+SIDEBAR 12-4 Really Cold Data
+Alex Halderman and a research team at Princeton University investigated 
+
+a novel way to obtain cryptographic keys [HAL08a]. Computer memory 
+
+chips, dynamic random access memory modules (DRAMs), lose their con-
+
+tents after they lose power. For all practical purposes data values disap-
+
+pear on power-off.
+The performance of semiconductors at low temperatures varies from 
+their behavior at room temperature. Because most semiconductors are 
+
+used within a narrow temperature range (
+20°C to 40°C, for example) 
+the effect is not important. But cryptanalysis is “no holds barred” combat.

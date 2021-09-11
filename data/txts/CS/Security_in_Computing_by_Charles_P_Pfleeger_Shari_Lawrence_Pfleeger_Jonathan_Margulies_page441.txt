@@ -1,0 +1,68 @@
+ Section 6.4  Denial of Service 
+407  in the SYN_RECV queue to try to identify the attacker. Second, the attacker wants 
+to make the malicious SYN packets indistinguishable from legitimate SYN packets to 
+
+establish real connections. Choosing a different (spoofed) source address for each one 
+
+makes them unique, as ordinary traffic would be. A SYN–ACK packet to a nonexistent 
+
+address results in an ICMP Destination Unreachable response, but this is not the ACK 
+
+for which the TCP connection is waiting. (TCP and ICMP are different protocol suites, 
+
+so an ICMP reply does not necessarily get back to the sender’s TCP handler.)
+These attacks misuse legitimate features of network protocols to overwhelm the vic-
+tim, but the features cannot be disabled because they have necessary purposes within 
+
+the protocol suite. Overwhelming network capacity is not the only way to deny service, 
+
+however. In the next section we examine attacks that exhaust other available resources.
+Network Flooding by Resource Exhaustion
+A computer supports multiple applications by dividing time among applications; oper-
+
+ating systems research has helped people design effective algorithms for deciding how 
+
+much (what proportion of) processing time to allocate to which applications. Switch-
+
+ing from one application to another, called 
+context switching, requires time and mem-ory because the current state of the application is saved and the previous state of the 
+
+next application is reloaded. Register values must be written to memory, outstanding 
+
+asynchronous activities must be completed, dropped or recorded, and memory must be 
+
+preserved or freed. If there are few active processes and few context switches, the over-
+
+head for each switch is negligible, but as the number of active processes increases, the 
+
+proportion of time spent in context switching also grows, which means the proportion 
+
+of time for actual computing decreases. With too many processes, a system can enter 
+
+a state called thrashing, in which its performance fails because of nearly continuous 
+context switching.
+Time is not the only resource that can be exhausted. Buffers for incoming email can 
+be overwhelmed by a sudden flood of incoming messages. Logging and log files can be 
+
+swamped by a large number of errors or fault conditions that must be handled. Buffers 
+
+for reassembling fragmented communications can also be exhausted.
+Even identification and authentication can become vulnerable in an exhaustion 
+attack. To protect against automated guessing attacks, some authentication services 
+
+temporarily or permanently disable account access after some number, such as three 
+
+or five, of failed login attempts. Thus, a malicious user can block access by repeatedly 
+
+failing to log in as the victim.
+IP Fragmentation: Teardrop
+The teardrop
+ attack misuses a feature ironically intended to improve network com-
+munication. A network IP datagram is a variable-length object. To support different 
+
+applications and conditions, the datagram protocol permits a single data unit to be frag-
+mented, that is, broken into pieces and transmitted separately. Each fragment indicates 
+
+its length and relative position within the data unit. The receiving end reassembles the 
+
+fragments into a single data unit.

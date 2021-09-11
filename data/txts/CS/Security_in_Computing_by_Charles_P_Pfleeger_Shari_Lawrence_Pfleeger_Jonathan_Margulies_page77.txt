@@ -1,0 +1,61 @@
+ Section 2.1  Authentication 
+43  Dictionary AttacksSeveral network sites post dictionaries of phrases, science fiction character names, 
+
+places, mythological names, Chinese words, Yiddish words, and other specialized lists. 
+
+These lists help site administrators identify users who have chosen weak passwords, 
+
+but the same dictionaries can also be used by attackers of sites that do not have such 
+
+attentive administrators. The COPS [FAR90], Crack [MUF92], and SATAN [FAR95] 
+
+utilities allow an administrator to scan a system for weak passwords. But these same 
+
+utilities, or other homemade ones, allow attackers to do the same. Now Internet sites 
+
+offer so-called password recovery software as freeware or shareware for under $20. 
+
+(These are password-cracking programs.)
+People think they can be clever by picking a simple password and replacing certain 
+characters, such as 0 (zero) for letter O, 1 (one) for letter I or L, 3 (three) for letter E or @ 
+
+(at) for letter A. But users aren’t the only people who could think up these substitutions. 
+Inferring Passwords Likely for a UserIf Sandy is selecting a password, she is probably not choosing a word completely at 
+
+random. Most likely Sandy’s password is something meaningful to her. People typically 
+
+choose personal passwords, such as the name of a spouse, child, other family member, 
+
+or pet. For any given person, the number of such possibilities is only a dozen or two. 
+
+Trying this many passwords by computer takes well under a second! Even a person 
+
+working by hand could try ten likely candidates in a minute or two.
+Thus, what seemed formidable in theory is in fact quite vulnerable in practice, and 
+the likelihood of successful penetration is frighteningly high. Morris and Thompson 
+
+[MOR79] confirmed our fears in their report on the results of having gathered pass-
+
+words from many users, shown in Table 2-1. Figure 2-1 (based on data from that study) 
+
+shows the characteristics of the 3,289 passwords gathered. The results from that study 
+
+are distressing, and the situation today is likely to be the same. Of those passwords, 
+
+86 percent could be uncovered in about one week’s worth of 24-hour-a-day testing, 
+using the very generous estimate of 1 millisecond per password check.
+TABLE 2-1 
+Password Characteristics
+NumberPercentageStructure
+151%Single ASCII character
+722%Two ASCII characters
+46414%Three ASCII characters
+
+47714%Four alphabetic letters
+
+70621%Five alphabetic letters, all the same case
+
+60518%Six lowercase alphabetic letters
+
+49215%Words in dictionaries or lists of names
+283186%Total of all categories above

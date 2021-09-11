@@ -1,0 +1,68 @@
+ Section 5.1  Security in Operating Systems 
+293  record, leading to an infinite chain of records from just the first access. But even if we 
+put aside the problem of auditing the audit, little purpose is served by recording every 
+
+time a memory location is changed or a file directory is searched. Furthermore, the audit 
+
+trail is useful only if it is analyzed. Too much data impedes timely and critical analysis.
+Virtualization
+Another important operating system security technique is virtualization, providing the 
+appearance of one set of resources by using different resources. If you present a plate 
+
+of cookies to a group of children, the cookies will likely all disappear. If you hide the 
+
+cookies and put them out a few at a time you limit the children’s access. Operating sys-
+
+tems can do the same thing.Virtual Machine 
+Suppose one set of users, call it the A set, is to be allowed to access only A data, and 
+
+different users, the B set, can access only B data. We can implement this separation 
+
+easily and reliably with two unconnected machines. But for performance, economic, or 
+
+efficiency reasons, that approach may not be desirable. If the A and B sets overlap, strict 
+
+separation is impossible.Another approach is virtualization, in which the operating system presents each 
+user with just the resources that class of user should see. To an A user, the machine, 
+
+called a virtual machine, contains only the A resources. It could seem to the A user 
+as if there is a disk drive, for example, with only the A data. The A user is unable to 
+
+get to—or even know of the exis-
+
+tence of—B resources, because the 
+
+A user has no way to formulate a 
+
+command that would expose those 
+
+resources, just as if they were on a 
+
+separate machine.Virtualization has advantages other than for security. With virtual machines, an oper-
+ating system can simulate the effect of one device by using another. So, for example, if 
+
+an installation decides to replace local disk devices with cloud-based storage, neither 
+
+the users nor their programs need make any change; the operating system virtualizes 
+
+the disk drives by covertly modifying each disk access command so the new commands 
+
+retrieve and pass along the right data. You execute the command meaning “give me the 
+
+next byte in this file.” But the operating system has to determine where the file is stored 
+
+physically on a disk and convert the command to read from sector 
+s block 
+b byte 
+y1. Unless byte y was the end of a block, in which case the next byte may come from a 
+completely different disk location. Or the command might convert to cloud space 
+c file 
+f byte 
+z. You are oblivious to such transformations because the operating system shields 
+you from such detail.Hypervisor A hypervisor
+, or virtual machine monitor, is the software that implements a virtual 
+machine. It receives all user access requests, directly passes along those that apply to 
+Virtualization: presenting a user the 
+
+appearance of a system with only the 
+resources the user is entitled to use

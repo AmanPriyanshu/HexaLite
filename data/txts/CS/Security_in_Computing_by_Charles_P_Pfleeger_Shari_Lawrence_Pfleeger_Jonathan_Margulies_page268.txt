@@ -1,0 +1,61 @@
+234 Chapter 4  
+The Web—User Side
+look at security issues for end-users, usually involving browsers or web sites and usu-
+ally directed maliciously against the user.
+4.1 BROWSER ATTACKS
+Assailants go after a browser to obtain sensitive information, such as account numbers 
+
+or authentication passwords; to entice the user, for example, using pop-up ads; or to 
+
+install malware. There are three attack vectors against a browser:
+• Go after the operating system so it will impede the browser’s correct and secure 
+functioning.• Tackle the browser or one of its components, add-ons, or plug-ins so its activity 
+is altered.• Intercept or modify communication to or from the browser.
+We address operating system issues in Chapter 5 and network communications in 
+Chapter 6. We begin this section by looking at vulnerabilities of browsers and ways to 
+
+prevent such attacks.
+Browser Attack Types
+Because so many people (some of them relatively naïve or gullible) use them, browsers 
+
+are inviting to attackers. A paper book is just what it appears; there is no hidden agent 
+
+that can change the text on a page depending on who is reading. Telephone, television, 
+
+and radio are pretty much the same: A signal from a central point to a user’s device is 
+
+usually uncorrupted or, if it is changed, the change is often major and easily detected, 
+
+such as static or a fuzzy image. Thus, people naturally expect the same fidelity from a 
+
+browser, even though browsers are programmable devices and signals are exposed to 
+
+subtle modification during communication.
+In this section we present several attacks passed through browsers.
+Man-in-the-Browser
+A man-in-the-browser 
+attack is an example of malicious code that has infected a 
+browser. Code inserted into the browser can read, copy, and redistribute anything the 
+
+user enters in a browser. The threat 
+
+here is that the attacker will inter-
+
+cept and reuse credentials to access 
+financial accounts and other sensi-
+
+tive data.
+In January 2008, security research-
+ers led by Liam Omurchu of Symantec detected a new Trojan horse, which they called 
+SilentBanker. This code linked to a victim’s browser as an add-on or browser helper 
+
+object; in some versions it listed itself as a plug-in to display video. As a helper object, 
+
+it set itself to intercept internal browser calls, including those to receive data from 
+
+the keyboard, send data to a URL, generate or import a cryptographic key, read a file 
+Man-in-the-browser: Trojan horse that 
+
+intercepts data passing through the 
+
+browser

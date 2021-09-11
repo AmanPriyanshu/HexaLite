@@ -1,0 +1,39 @@
+˘ˇ˙˝
+Service engineering is the process of developing services for reuse in service-oriented 
+applications. It has much in common with component engineering. Service engi-neers have to ensure that the service represents a reusable abstraction that could 
+
+be useful in different systems. They must design and develop generally useful 
+
+functionality associated with that abstraction and ensure that the service is robust 
+
+and reliable. They have to document the service so that it can be discovered and 
+
+understood by potential users.As shown in Figure 
+18.8, there are three logical stages in the service engineering process:1. Service candidate identification, where you identify possible services that might be implemented and define the service requirements.
+2. Service design, where you design the logical service interface and its implemen
+-
+tation interfaces (SOAP-based and/or RESTful).
+3. Service implementation and deployment, where you implement and test the ser-vice and make it available for use.
+As I discussed in Chapter 16, the development of a reusable component may 
+start with an existing component that has already been implemented and used in 
+
+an application. The same is true for servicesŠthe starting point for this process 
+
+will often be an existing service or a component that is to be converted to a ser
+-vice. In this situation, the design process involves generalizing the existing com
+-
+ponent so that application-specific features are removed. Implementation means 
+
+adapting the component by adding service interfaces and implementing the 
+
+required generalizations.˜˚˛
+The basic idea of service-oriented computing is that services should support business 
+
+processes. As every organization has a wide range of processes, many possible 
+ services may be implemented. Service candidate identification therefore involves 
+Service designServicecandidateidentificationServiceimplementationand deploymentServicerequirementsService interface
+specificationValidated and
+deployed serviceFigure 18.8 The service 
+engineering process 
+˜˚˛˝ˆ˜˜˜
+˜˜˜

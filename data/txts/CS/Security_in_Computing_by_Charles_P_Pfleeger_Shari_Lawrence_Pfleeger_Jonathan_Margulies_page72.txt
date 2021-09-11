@@ -1,0 +1,65 @@
+38 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+2.1 AUTHENTICATION
+Your neighbor recognizes you, sees you frequently, and knows you are someone who 
+should be going into your home. Your neighbor can also notice someone different, 
+
+especially if that person is doing something suspicious, such as snooping around your 
+doorway, peering up and down the walk, or picking up a heavy stone. Coupling these 
+
+suspicious events with hearing the sound of breaking glass, your neighbor might even 
+
+call the police.Computers have replaced many face-to-face interactions with electronic ones. With 
+no vigilant neighbor to recognize that something is awry, people need other mecha-
+
+nisms to separate authorized from unauthorized parties. For this reason, the basis of 
+
+computer security is controlled access: 
+someone is authorized to take 
+some action
+ on 
+something. We examine access control later in this chapter. But for access control to 
+work, we need to be sure who the “someone” is. In this section we introduce authentica-
+
+tion, the process of ascertaining or confirming an identity.
+A computer system does not have the cues we do with face-to-face communication 
+that let us recognize our friends. Instead computers depend on data to recognize others. 
+Determining who a person really is consists of two separate steps:
+• Identification
+ is the act of 
+asserting who a person is.• Authentication
+ is the act of 
+proving that asserted iden-
+
+tity: that the person is who 
+
+she says she is.We have phrased these steps from the perspective of a person seeking to be recog-
+nized, using the term “person” for simplicity. In fact, such recognition occurs between 
+
+people, computer processes (executing programs), network connections, devices, and 
+
+similar active entities. In security, all these entities are called 
+subjects.The two concepts of identification and authentication are easily and often confused. 
+Identities, like names, are often well known, public, and not protected. On the other 
+
+hand, authentication is necessarily protected. If someone’s identity is public, anyone 
+
+can claim to be that person. What separates the pretenders from the real person is proof 
+
+by authentication.Identification Versus Authentication
+Identities are often well known, predictable, or guessable. If you send email to someone, 
+
+you implicitly send along your email account ID so the other person can reply to you. In 
+an online discussion you may post comments under a screen name as a way of linking 
+
+your various postings. Your bank account number is printed on checks you write; your 
+
+debit card account number is shown on your card, and so on. In each of these cases you 
+
+reveal a part of your identity. Notice that your identity is more than just your name: Your 
+
+bank account number, debit card number, email address, and other things are ways by 
+
+which people and processes identify you.Identification is asserting who a 
+person is. Authentication is proving that asserted 
+identity.

@@ -1,0 +1,62 @@
+ Section 3.3  Countermeasures 
+205  • simple, is of a low degree of complexity so that a human can readily understand 
+the purpose and structure of the module• independent, performs a task isolated from other modulesOther component characteristics, such as having a single input and single output or 
+using a limited set of programming constructs, indicate modularity. From a security 
+
+standpoint, modularity should improve the likelihood that an implementation is correct.
+In particular, smallness and simplicity help both developers and analysts understand 
+what each component does. That is, in good software, design and program units should 
+
+be only as large or complex as needed to perform their required functions. There are 
+
+several advantages to having small, independent components.
+• Maintenance. 
+If a component implements a single function, it can be replaced easily with a revised one if necessary. The new component may be needed 
+
+because of a change in requirements, hardware, or environment. Sometimes the 
+
+replacement is an enhancement, using a smaller, faster, more correct, or other-
+
+wise better module. The interfaces between this component and the remainder 
+
+of the design or code are few and well described, so the effects of the replace-
+
+ment are evident.
+• Understandability. 
+A system composed of small and simple components is usu-ally easier to comprehend than one large, unstructured block of code.
+• Reuse.
+ Components developed for one purpose can often be reused in other 
+systems. Reuse of correct, existing design or code components can significantly 
+
+reduce the difficulty of implementation and testing.
+• Correctness. 
+A failure can be quickly traced to its cause if the components 
+perform only one task each.• Testing. 
+A single component with well-defined inputs, outputs, and function can be 
+tested exhaustively by itself, 
+
+without concern for its effects 
+
+on other modules (other than 
+
+the expected function and 
+
+output, of course).A modular component usually has high cohesion and low coupling. By 
+cohesion, we mean that all the elements of a component have a logical and functional reason for 
+
+being there; every aspect of the component is tied to the component’s single purpose. A 
+
+highly cohesive component has a high degree of focus on the purpose; a low degree of 
+
+cohesion means that the component’s contents are an unrelated jumble of actions, often 
+
+put together because of time dependencies or convenience.
+Coupling refers to the degree with which a component depends on other components 
+in the system. Thus, low or loose coupling is better than high or tight coupling because 
+
+the loosely coupled components are free from unwitting interference from other com-
+
+ponents. This difference in coupling is shown in Figure 3-27.
+Simplicity of software design improves 
+
+correctness and maintainability.

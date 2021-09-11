@@ -1,0 +1,133 @@
+198 PART TWO  
+MODELING 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 10.5 A
+SSOCIATIONS
+ 
+ 
+ AND   
+DEPENDENCIES   
+ 
+ 
+ 
+ 
+  
+ 
+In many instances, two analysis classes are related to one another in some fashion. In UML these relationships are called  associations. 
+ Referring back to 
+ 10.2 
+, the  FloorPlan 
+ class is deﬁ
+ ned by identifying a set of associations 
+ between  FloorPlan 
+ and two other classes,  
+Camera 
+ and  
+Wall
+ 
+. The class  Wall
+ 
+ is 
+associated with three classes that allow a wall to be constructed,  WallSegment
+ 
+,  Window
+ 
+, and  Door 
+.  In some cases, an association may be further deﬁ ned by indicating  
+multi-plicity 
+. Referring to  Figure 10.2 , a  Wall
+ 
+ object is constructed from one or more 
+ WallSegment
+ 
+ objects. In addition, the  
+Wall
+ 
+ object may contain 0 or more 
+  
+Window
+ 
+ objects and 0 or more  
+Door 
+ objects. These multiplicity constraints are 
+illustrated in  Figure 10.5 , where “one or more” is represented using 1..*, and “0 
+or more” by 0..*. In UML, the asterisk indicates an unlimited upper bound on 
+
+the range.  
+5  
+ 
+ 
+  In many instances, a client-server relationship exists between two analysis classes. In such cases, a client class depends on the server class in some way 
+and a  dependency relationship
+ 
+ is established. Dependencies are deﬁ
+ ned by a ste-
+reotype. A  stereotype
+ 
+ is an “extensibility mechanism” [Arl02] within UML that 
+allows you to deﬁ ne a special modeling element whose semantics are custom 
+deﬁ ned. In UML stereotypes are represented in double angle brackets (e.g., 
+<<stereotype>>).  
+ 
+ 
+   
+As an illustration of a simple dependency within the  SafeHome 
+ surveillance 
+system, a  Camera 
+ object (in this case, the server class) provides a video image to 
+ What is a 
+stereotype? ?   An association deﬁ nes 
+
+a relationship between 
+classes. Multiplicity 
+deﬁ nes how many of 
+
+one class are related to 
+how many of another 
+class.   
+Operations:    
+displayControl(), selectControl(), displaySituation(), select situation(), accessFloorplan(), selectDeviceIcon(), 
+   
+Class:  HomeManagementInterface 
+ 
+Responsibility  
+Collaborator  displayControl()  
+OptionsPanel  (class) selectControl()  
+OptionsPanel  (class) displaySituation()  
+SituationPanel  (class) selectSituation()  
+SituationPanel  (class) accessFloorplan()  
+FloorPlan  (class)   
+Ed:  So when the operation  
+accessFloorplan() 
+ is 
+invoked, it collaborates with the  FloorPlan 
+ object 
+just like the one we developed for surveillance. 
+
+Wait, I have a description of it here. (They look at 
+
+ Figure 10.2 .) 
+  
+Vinod:  Exactly. And if we wanted to review the 
+ entire class model, we could start with this index 
+card, then go to the collaborator’s index card, and 
+
+from there to one of the collaborator’s collaborators, 
+
+and so on. 
+  
+Ed:  Good way to ﬁ
+ nd omissions or errors. 
+  
+Vinod:  Yep. 
+  
+ 
+5  Other multiplicity relations—one to one, one to many, many to many, one to a speciﬁ
+ ed range 
+with lower and upper limits, and others—may be indicated as part of an association. pre22126_ch10_184-201.indd   198pre22126_ch10_184-201.indd   19813/12/13   6:11 PM13/12/13   6:11 PM

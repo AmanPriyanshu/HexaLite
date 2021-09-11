@@ -1,0 +1,49 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜to help coordinate actions. It is assumed that a phone call for voice communi
+-cation can be separately arranged.The UML is a standard for object-oriented modeling, so use cases and use case-
+based elicitation are used in the requirements engineering process. However, my 
+experience with use cases is that they are too fine-grained to be useful in discussing 
+
+requirements. Stakeholders don™t understand the term use case; they don™t find the 
+graphical model to be useful, and they are often not interested in a detailed descrip
+-
+tion of each and every system interaction. Consequently, I find use cases to be more 
+helpful in systems design than in requirements engineering. I discuss use cases fur
+-
+ther in Chapter 5, which shows how they are used alongside other system models to 
+
+document a system design.Some people think that each use case is a single, low-level interaction scenario. Others, such as Stevens and Pooley (Stevens and Pooley 2006), suggest that each use 
+case includes a set of related, low-level scenarios. Each of these scenarios is a single 
+thread through the use case. Therefore, there would be a scenario for the normal 
+
+interaction plus scenarios for each possible exception. In practice, you can use them 
+in either way.
+
+The software requirements document (sometimes called the software requirements 
+specification or SRS) is an official statement of what the system developers should 
+
+implement. It may include both the user requirements for a system and a detailed 
+
+specification of the system requirements. Sometimes the user and system require-
+ments are integrated into a single description. In other cases, the user requirements 
+are described in an introductory chapter in the system requirements specification.Requirements documents are essential when systems are outsourced for development, 
+when different teams develop different parts of the system, and when a detailed analysis 
+
+of the requirements is mandatory. In other circumstances, such as software product or 
+
+business system development, a detailed requirements document may not be needed.Agile methods argue that requirements change so rapidly that a requirements 
+document is out of date as soon as it is written, so the effort is largely wasted. Rather 
+than a formal document, agile approaches often collect user requirements incremen-
+tally and write these on cards or whiteboards as short user stories. The user then 
+
+prioritizes these stories for implementation in the next increment of the system.For business systems where requirements are unstable, I think that this approach is a good one. However, I think that it is still useful to write a short supporting docu-
+ment that defines the business and dependability requirements for the system; it is 
+easy to forget the requirements that apply to the system as a whole when focusing on 
+
+the functional requirements for the next system release.The requirements document has a diverse set of users, ranging from the senior 
+management of the organization that is paying for the system to the engineers 
+
+responsible for developing the software. Figure 4.16 shows possible users of the 
+
+document and how they use it.

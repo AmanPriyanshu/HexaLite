@@ -1,0 +1,62 @@
+if they can trust you, as a service provider, to deliver the service reliably and securely. 
+Information that you may include in a service description might be:1.
+ Information about your business, contact details, and so on. This is important 
+for trust reasons. External users of a service have to be confident that it will not 
+
+behave maliciously. Information about the service provider allows users to 
+
+check their credentials with business information agencies.
+2. An informal description of the functionality provided by the service. This helps 
+
+potential users to decide if the service is what they want.
+3.
+ A description of how to use the service. For simple services, this can be an 
+
+informal textual description that explains the input and output parameters. For 
+
+more complex SOAP-based services, the WSDL description may be published.
+4.
+ Subscription information that allows users to register for information about 
+
+updates to the service.A general difficulty with service specifications is that the functional behavior of 
+the service is usually specified informally, as a natural language description. Natural 
+
+language descriptions are easy to read, but they are subject to misinterpretation. To 
+
+address this problem, there has been extensive research on using ontologies and 
+
+ontology languages for specifying service semantics by marking up the service with 
+ontology information (W3C 2012). However, ontology-based specification is com
+-
+plex and not widely understood. Consequently, it has not been widely used.
+˘ˇ˙˝
+The underlying principle of service-oriented software engineering is that you compose 
+
+and configure services to create new, composite services. These may be integrated 
+
+with a user interface implemented in a browser to create a web application, or they 
+
+may be used as components in some other service composition. The services involved 
+
+in the composition may be specially developed for the application, business services 
+
+developed within a company, or services from an external provider. Both RESTful and 
+
+SOAP-based services can be composed to create services with extended functionality.
+Many companies have converted their enterprise applications into service-oriented 
+systems, where the basic application building block is a service rather than a compo
+-nent. This allows for widespread reuse within the company. We are now seeing the 
+
+emergence of interorganizational applications between trusted suppliers, who use 
+
+each other™s services. The final realization of the long-term vision of service-oriented 
+
+systems will rely on the development of a ﬁservices market,ﬂ where services are 
+
+bought from trusted external suppliers.
+Service composition may be used to integrate separate business processes to pro
+-vide an integrated process offering more extensive functionality. Say an airline wishes 
+
+to develop a travel aggregation service that provides a complete vacation package for 
+˜˚˛˝ˇ˜˜˜
+˜˜˜

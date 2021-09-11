@@ -1,0 +1,48 @@
+446 Chapter 6  
+NetworksKey ManagementAs with most cryptographic applications, the critical element is key management. IPsec 
+addresses this need with the Internet Security Association Key Management Proto-
+col, or ISAKMP. Like SSL, ISAKMP requires that a distinct key be generated for each 
+security association. The ISAKMP protocol is simple, flexible, and scalable. In IPsec, 
+
+ISAKMP is implemented through the ISAKMP key exchange
+, or IKE, which pro-vides a way to agree on and manage protocols, algorithms, and keys. For key exchange 
+
+between unrelated parties, IKE uses the Diffie–Hellman scheme (described in Chap-
+
+ter 12) to generate a mutually shared secret that will then be used as an encryption key. 
+
+With their shared secret, the two parties exchange identities and certificates to authenti-
+
+cate those identities. Finally, they derive a shared cryptographic key and enter a security 
+
+association.The key exchange is very efficient: The exchange can be accomplished in two mes-
+sages, with an optional two more messages for authentication. Because this is a public 
+
+key method, only two keys are needed for each pair of communicating parties. IKE has 
+
+submodes for authentication (initiation) and for establishing new keys in an existing 
+
+security association.Modes of OperationIPsec can enforce either or both of confidentiality and authenticity. Confidentiality is 
+achieved with symmetric encryption, and authenticity is obtained with an asymmetric 
+
+algorithm for signing with a private key. Additionally, a hash function guards against 
+
+modification.
+For some situations, not only are the data of a transmission sensitive, but so also is 
+the identity (address) of its final recipient. Of course, packets require addresses to be 
+
+routed through the network. However, the exposed address can be that of a front-end 
+
+device, such as a firewall, that then forwards the transmission to an unexposed internal 
+
+network address. IPsec defines two modes of operation, as depicted in Figure 6-47. 
+
+In transport mode (normal operation), the IP address header is unencrypted. In 
+tun-nel mode, the recipient’s address is concealed by encryption, and IPsec substitutes the 
+address of a remote device, such as a firewall, that will receive the transmission and 
+
+remove the IPsec encryption.
+IPsec can establish cryptographic sessions with many purposes, including VPNs, 
+applications, and lower-level network management (such as routing). The protocols of 
+CryptoNumSeqNumPayload Data
+AuthDataauthenticatedencryptedESPAHFIGURE 6-46 Protection of the ESP in IPsec

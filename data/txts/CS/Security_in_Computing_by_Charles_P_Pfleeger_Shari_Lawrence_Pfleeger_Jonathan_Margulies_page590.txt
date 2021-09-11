@@ -1,0 +1,65 @@
+556 Chapter 8  
+Cloud ComputingAnother consideration is whether your systems are appropriate for public clouds. For 
+instance, if you will have constant, high-bandwidth data transfers between your local 
+
+servers and your cloud, a private cloud may make more sense. A private or community 
+
+cloud may also make sense if your data or functions have very strict confidentiality or 
+
+integrity requirements, since those cloud deployment models mitigate the threat from 
+
+sharing infrastructure with potential adversaries. You also may be able to use an in-
+
+between option, a sort of “community in the public” cloud, such as Amazon’s U.S. 
+
+GovCloud. GovCloud is hosted in Amazon’s data centers, but it is only open to U.S. 
+
+government customers and is built to meet those customers’ security and regulatory 
+
+requirements. As long as you can identify other customers with similar needs, there is 
+
+infinite potential to customize cloud offerings.
+Switching Cloud Providers
+One concern that is often ignored when selecting cloud providers is 
+vendor lock-in
+. Vendor lock-in occurs when customers must continue buying a certain type of product 
+
+from the same vendor they have already been using because the upfront cost of migrat-
+
+ing to a different vendor’s product line would be significantly higher than the short-
+
+term cost of continuing with the existing vendor. This situation most commonly occurs 
+
+because of incompatibility between vendors. For example, imagine that you have an 
+
+iPhone and that you’ve spent $1,000 on iPhone apps. Now imagine you are considering 
+
+switching to an Android phone. Your iPhone apps aren’t compatible with Android, so to 
+
+switch, you’ll have to spend another $1,000 to buy new copies of equivalent apps. On 
+
+top of that, because the iPhone is so tied into other Apple products, you may find your-
+
+self needing to replace an iPad and a MacBook to achieve the same functionality you 
+
+had before. As a result, switching 
+
+from one phone vendor to another 
+
+may effectively cost thousands of 
+
+dollars, or many times the price of 
+
+the actual phone.When you are running a business that relies on cloud services, migrating between 
+service providers can be expensive. Unfortunately, this can become an important secu-
+
+rity issue because many potential security- and reliability-related events might drive a 
+
+change in providers:
+• Your provider is shown to have a major security vulnerability that cannot be 
+easily repaired.• Your provider changes its features or API specification so as to no longer be 
+compatible with your requirements.• Your provider is purchased by another company that is somehow incompatible 
+with your needs, such as a competitor of yours.• Your provider moves its operations to a foreign country where you are prohib-
+ited from maintaining your data.• Your provider goes out of business.
+Vendor lock-in inhibits your switching 
+providers.

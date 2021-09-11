@@ -1,0 +1,111 @@
+CHAPTER 25  
+TESTING WEB APPLICATIONS
+ 563 
+ 
+ 
+•  What values of  N, T,
+ 
+ and  D 
+ force the server environment to fail? How does failure manifest itself? Are automated notiﬁ cations sent to technical sup-
+port staff at the server site?   
+ 
+ 
+•  If the system does fail, how long will it take to come back online?   
+ 
+ 
+•  Are certain WebApp functions (e.g., compute intensive functionality, data 
+streaming capabilities) discontinued as capacity reaches the 80 or 90 per-
+
+cent level?  
+ 
+  A variation of stress testing is sometimes referred to as  spike/bounce testing 
+ [Spl01]. In this testing regime, load is spiked to capacity, then lowered quickly to 
+
+normal operating conditions, and then spiked again. By bouncing system load-
+ing, you can determine how well the server can marshal resources to meet very 
+high demand and then release them when normal conditions reappear (so that 
+they are ready for the next spike).  
+ 
+ 
+  
+ 
+ 
+Web Performance Testing Tools 
+  
+ Objective: 
+ The objective of Web 
+performance testing tools is to look for 
+bottlenecks that can cause poor performance or simulate 
+
+conditions that may cause a website to fail completely. 
+  Mechanics: 
+ Online tools prompt you for the URL of a web resource. Some tools automatically conduct a series 
+of simulated load tests. Some tools collect statistics on 
+page loading and server response times as developers 
+
+navigate the website.   Representative Tools:  
+ 18 
+ 
+ 
+  
+ 
+ 
+http://loadimpact.com/  
+ 
+—  
+LoadImpact 
+ is an online tool that conducts load impact testing using simulated 
+user loads on web servers. 
+  
+ 
+http://www.websitepulse.com/help/testtools.
+website-test.html/  
+— WebSitePulse
+ 
+ is an online tool which measures server availability and the 
+response time of a website.   
+ 
+http://www.websiteoptimization.com/
+services/analyze/ 
+ 
+— Web Page Analyzer
+ 
+ is an online tool which measures website performance and 
+
+provides a list of suggested changes to improve load 
+times.   
+http://developer.yahoo.com/yslow/
+ 
+—Yslow is an online tool that analyzes Web pages and suggests 
+
+improvements based on rules for development of 
+high-performing websites. 
+  
+ 
+http://tools.pingdom.com/fpt/  
+— Pingdom 
+ is an online tool which measures Web page load 
+
+time bottlenecks by analyzing component elements 
+individually. 
+  
+INFO  
+ 
+18  Tools noted here do not represent an endorsement, but rather a sampling of tools in this cate-
+gory. In most cases, tool names are trademarked by their respective developers. 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 25.10 S
+UMMARY  
+The goal of WebApp testing is to exercise each of the many dimensions of 
+WebApp quality with the intent of ﬁ
+ nding errors or uncovering issues that may 
+lead to quality failures. Testing focuses on content, function, structure, usability, 
+
+navigability, performance, compatibility, interoperability, capacity, and security. 
+pre22126_ch25_540-566.indd   563pre22126_ch25_540-566.indd   56313/12/13   6:15 PM13/12/13   6:15 PM

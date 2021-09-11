@@ -1,0 +1,73 @@
+CHAPTER 28  
+FORMAL MODELING AND VERIFICATION
+ 611 
+ 
+ 
+Test cases are generated for each set of stimuli 
+ 4 
+ 
+ according to the usage proba-
+bility distribution. To illustrate, consider the  
+SafeHome 
+ system discussed earlier 
+in this book. Cleanroom software engineering is being used to develop a software 
+increment that manages user interaction with the security system keypad. Five 
+stimuli have been identiﬁ ed for this increment. Analysis indicates the percent 
+probability distribution of each stimulus. To make selection of test cases easier, 
+
+these probabilities are mapped into intervals numbered between 1 and 99 [Lin94] 
+and illustrated in the following table:  Program Stimulus
+Probability (%)
+Interval
+Arm/disarm (AD)50
+Zone set (ZS)1550–63
+
+Query (Q)1564–78
+
+Test (T)1579–94
+Panic alarm
+95–99 To generate a sequence of usage test cases that conform to the usage probabil-
+ity distribution, random numbers between 1 and 99 are generated. Each random 
+number corresponds to an interval on the preceding probability distribution. 
+Hence, the sequence of usage test cases is deﬁ ned randomly but corresponds 
+to the appropriate probability of stimuli occurrence. For example, assume the 
+following random-number sequences are generated:  
+ 
+ 
+13-94-22-24-45-56    
+ 
+81-19-31-69-45-9    
+ 
+ 
+ 
+ 
+38-21-52-84-86-4  
+ 
+  Selecting the appropriate stimuli based on the distribution interval shown in the table, the following use cases are derived:  
+ 
+ 
+ 
+ 
+AD–T–AD–AD–AD–ZS    
+ 
+ 
+ 
+ 
+T–AD–AD–AD–Q–AD–AD    
+ 
+ 
+ 
+ 
+AD–AD–ZS–T–T–AD  
+ 
+  The testing team executes these use cases and veriﬁ es software behavior against 
+the speciﬁ cation for the system. Timing for tests is recorded so that interval times 
+may be determined. Using interval times, the certiﬁ cation team can compute 
+mean-time-to-failure. If a long sequence of tests is conducted without failure, the 
+MTTF is low and software reliability may be assumed high.     Unlike conventional 
+testing, cleanroom 
+approaches are 
+statistically driven.  
+  
+4  Automated tools may be used to accomplish this. For further information, see [Dye92]. 
+pre22126_ch28_601-622.indd   611pre22126_ch28_601-622.indd   61113/12/13   6:15 PM13/12/13   6:15 PM

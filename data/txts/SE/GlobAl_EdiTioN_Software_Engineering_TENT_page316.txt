@@ -1,0 +1,44 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜For a bank (and for the bank™s customers), the availability of the ATM network 
+is˜more important than whether or not individual ATM transactions fail. Lack of 
+availability means increased demand on counter services, customer dissatisfaction, 
+
+engineering costs to repair the network, and so on. Therefore, for transaction-based 
+
+systems such as banking and e-commerce systems, the focus of reliability specifica-
+tion is usually on specifying the availability of the system.To specify the availability of an ATM network, you should identify the system services and specify the required availability for each of these services, notably:˜ the customer account database service; and˜ the individual services provided by an ATM such as ﬁwithdraw cashﬂ and ﬁprovide 
+
+account information.ﬂThe database service is the most critical as failure of this service means that all of˜the ATMs in the network are out of action. Therefore, you should specify this 
+service to have a high level of availability. In this case, an acceptable figure for data-
+base availability (ignoring issues such as scheduled maintenance and upgrades) 
+
+would probably be around 0.9999, between 7 am and 11 pm. This means a downtime 
+of less than 1 minute per week.For an individual ATM, the overall availability depends on mechanical reliability and the fact that it can run out of cash. Software issues are probably less significant 
+than these factors. Therefore, a lower level of software availability for the ATM 
+
+software is acceptable. The overall availability of the ATM software might therefore 
+
+be specified as 0.999, which means that a machine might be unavailable for between 
+
+1 and 2 minutes each day. This allows for the ATM software to be restarted in the 
+
+event of a problem.The reliability of control systems is usually specified in terms of the probability that the system will fail when a demand is made (POFOD). Consider the reliability 
+
+requirements for the control software in the insulin pump, introduced in Chapter 1. 
+This system delivers insulin a number of times per day and monitors the user™s blood 
+glucose several times per hour.There are two possible types of failure in the insulin pump:1. Transient software failures, which can be repaired by user actions such as 
+
+resetting or recalibrating the machine. For these types of failure, a relatively 
+
+low value of POFOD (say 0.002) may be acceptable. This means that one 
+
+failure may occur in every 500 demands made on the machine. This is approx-
+imately once every 3.5 days, because the blood sugar is checked about 5 
+
+times per hour.2. Permanent software failures, which require the software to be reinstalled by 
+
+the manufacturer. The probability of this type of failure should be much lower. 
+
+Roughly once a year is the minimum figure, so POFOD should be no more 
+
+than 0.00002.

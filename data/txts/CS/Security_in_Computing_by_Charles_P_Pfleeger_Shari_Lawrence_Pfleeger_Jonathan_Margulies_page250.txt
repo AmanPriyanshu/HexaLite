@@ -1,0 +1,62 @@
+216 Chapter 3  
+Programs and Programming• Testing only observable effects, not the internal structure of a product, does not 
+ensure any degree of completeness.
+• Testing the internal structure of a product involves modifying the product by 
+adding code to extract and display internal states. That extra functionality affects 
+
+the product’s behavior and can itself be a source of vulnerabilities or can mask 
+
+other vulnerabilities.• Testing real-time or complex systems requires keeping track of all states and 
+triggers. This profusion of possible situations makes it hard to reproduce and 
+
+analyze problems reported as testers proceed.Ordinarily, we think of testing in terms of the developer: unit testing a module, 
+integration testing to ensure that modules function properly together, function testing 
+
+to trace correctness across all aspects of a given function, and system testing to com-
+
+bine hardware with software. Likewise, regression testing is performed to make sure a 
+
+change to one part of a system does not degrade any other functionality. But for other 
+
+tests, including acceptance tests, the user or customer administers them to determine if 
+what was ordered is what is delivered. Thus, an important aspect of assurance is consid-
+
+ering whether the tests run are appropriate for the application and level of security. The 
+
+nature and kinds of testing reflect the developer’s testing strategy: which tests address 
+
+what issues.Similarly, testing is almost always constrained by a project’s budget and schedule. 
+The constraints usually mean that testing is incomplete in some way. For this reason, 
+
+we consider notions of test coverage, test completeness, and testing effectiveness in a 
+
+testing strategy. The more complete and effective our testing, the more confidence we 
+
+have in the software. More information on testing can be found in Pfleeger and Atlee 
+
+[PFL10].Countermeasure Specifically for Security
+General software engineering principles are intended to lead to correct code, which is 
+
+certainly a security objective, as well. However, there are also activities during program 
+
+design, implementation, and fielding specifically to improve the security of the finished 
+
+product. We consider those practices next.
+Design Principles for SecurityMultics (MULTiplexed Information and Computer Service) was a major secure software 
+project intended to provide a computing utility to its users, much as we access electricity 
+
+or water. The system vision involved users who could effortlessly connect to it, use the 
+
+computing services they needed, and then disconnect—much as we turn the tap on and 
+
+off. Clearly all three fundamental goals of computer security—confidentiality, integrity, 
+
+and availability—are necessary for such a widely shared endeavor, and security was a 
+
+major objective for the three participating Multics partners: M.I.T, AT&T Bell Labora-
+
+tories, and GE. Although the project never achieved significant commercial success, its 
+
+development helped establish secure computing as a rigorous and active discipline. The 
+
+Unix operating system grew out of Multics, as did other now-common operating system 

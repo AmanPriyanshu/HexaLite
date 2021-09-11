@@ -1,0 +1,59 @@
+CHAPTER 5  
+AGILE DEVELOPMENT 71   
+ 8.  Agile processes promote sustainable development. The sponsors, devel-opers, and users should be able to maintain a constant pace indeﬁ nitely. 
+    
+ 9.  Continuous attention to technical excellence and good design enhances agility. 
+    
+ 10.  Simplicity—the art of maximizing the amount of work not done—is essential. 
+    
+ 11.  The best architectures, requirements, and designs emerge from self- organizing teams.     
+ 12.  At regular intervals, the team reﬂ ects on how to become more effective, 
+then tunes and adjusts its behavior accordingly. 
+   
+ 
+Not every agile process model applies these 12 principles with equal weight, and some models choose to ignore (or at least downplay) the importance of one 
+or more of the principles. However, the principles deﬁ
+ ne an  
+agile spirit 
+ that is 
+maintained in each of the process models presented in this chapter. 
+  
+ 
+5.3.2 The  
+ 
+Politics  
+ of Agile Development  
+ 
+ 
+  
+ 
+There has been considerable debate (sometimes strident) about the beneﬁ ts and 
+applicability of agile software development as opposed to more conventional 
+software engineering processes. Jim Highsmith [Hig02a] (facetiously) states the 
+extremes when he characterizes the feeling of the pro-agility camp (“agilists”). 
+“Traditional methodologists are a bunch of stick-in-the-muds who’d rather pro-
+
+duce ﬂ awless documentation than a working system that meets business needs.” 
+As a counterpoint, he states (again, facetiously) the position of the traditional 
+software engineering camp: “Lightweight, er, ‘agile’ methodologists are a bunch 
+
+of gloriﬁ ed hackers who are going to be in for a heck of a surprise when they try 
+to scale up their toys into enterprise-wide software.”  Like all software technology arguments, this methodology debate risks degen-erating into a religious war. If warfare breaks out, rational thought disappears 
+
+and beliefs rather than facts guide decision making.  No one is against agility. The real question is: What is the best way to achieve 
+it? As important, how do you build software that meets customers’ needs today 
+and exhibits the quality characteristics that will enable it to be extended and 
+scaled to meet customers’ needs over the long term?  There are no absolute answers to either of these questions. Even within the agile school itself, there are many proposed process models (Section 5.4), each 
+with a subtly different approach to the agility problem. Within each model there 
+
+is a set of “ideas” (agilists are loath to call them “work tasks”) that represent a 
+signiﬁ cant departure from traditional software engineering. And yet, many agile 
+concepts are simply adaptations of good software engineering concepts. Bottom 
+line: there is much that can be gained by considering the best of both schools and 
+virtually nothing to be gained by denigrating either approach.    You don’t have to 
+choose between agility 
+and software engineer-
+ing. Rather, deﬁ ne a 
+
+software engineering 
+approach that is agile. pre22126_ch05_066-086.indd   71pre22126_ch05_066-086.indd   7113/12/13   6:10 PM13/12/13   6:10 PM

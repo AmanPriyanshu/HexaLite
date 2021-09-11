@@ -1,0 +1,67 @@
+806 PART FOUR  
+MANAGING SOFTWARE PROJECTS
+ 
+Completeness improves in direct proportion to the amount of analysis per-
+formed by the person doing reverse engineering.  Interactivity 
+ refers to the 
+degree to which the human is “integrated” with automated tools to create an 
+effective reverse engineering process. In most cases, as the abstraction level in-
+creases, interactivity must increase or completeness will suffer. 
+ If the  directionality
+ 
+ of the reverse engineering process is one-way, all infor-
+mation extracted from the source code is provided to the software engineer who 
+can then use it during any maintenance activity. If directionality is two-way, the 
+
+information is fed to a reengineering tool that attempts to restructure or regen-
+erate the old program.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The reverse engineering process is represented in Figure 36.3. Before reverse engineering activities can commence, unstructured (“dirty”) source code is re-
+structured (Section 36.5.1) so that it contains only the structured programming 
+constructs.  5 
+ 
+ This makes the source code easier to read and provides the basis for 
+all the subsequent reverse engineering activities.  
+ 
+ 
+  The core of reverse engineering is an activity called  extract abstractions 
+. You 
+must evaluate the old program and from the (often undocumented) source code, 
+develop a meaningful speciﬁ cation of the processing that is performed, the user 
+interface that is applied, and the program data structures or database that is 
+used.    Three reverse engi-
+neering issues must be 
+addressed: abstraction 
+level, completeness, 
+and directionality. 
+ WebRef 
+ Useful resources for 
+“design recovery and 
+
+program understand-
+ing” can be found at  
+  
+http://www.softpanorama
+.net/SE/reverse_
+engineering_links
+.shtml  . 
+  
+5  Code can be restructured using a  
+restructuring engine
+ 
+—a tool that restructures source code.  
+FIGURE 36.3The reverse 
+engineering 
+process  
+ 
+ Refine &simplifyFinal specificationExtractabstractionsInitial specificationRestructurecodeClean source codeDirty source code
+DatabaseInterface
+Processingpre22126_ch36_795-816.indd   806pre22126_ch36_795-816.indd   80613/12/13   6:17 PM13/12/13   6:17 PM

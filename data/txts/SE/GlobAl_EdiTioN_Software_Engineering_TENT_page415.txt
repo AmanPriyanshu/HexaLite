@@ -1,0 +1,26 @@
+˜˜˚˛˜˜˜˜˜˜
+decide that additional software needs to be bought or written for threat recogni-tion or that regular checking procedures are put in place.4. Threat resistance For each threat or asset/threat pair, you should identify possi-
+ble resistance strategies. These either may be embedded in the system (technical 
+strategies) or may rely on operational procedures. You may also need to think of 
+threat neutralization strategies so that the threat does not recur.5. Asset recovery For each critical asset or asset/threat pair, you should work out 
+how that asset could be recovered in the event of a successful cyberattack. This 
+may involve making extra hardware available or changing backup procedures to 
+make it easier to access redundant copies of data.6. Asset reinstatement This is a more general process of asset recovery where you 
+define procedures to bring the system back into normal operation. Asset rein-
+statement should be concerned with all assets and not simply assets that are 
+
+critical to the organization.Information about all of these stages should be maintained in a cyber-resilience plan. This plan should be regularly updated, and, wherever possible, the strategies 
+identified should be tested in mock attacks on the system.Another important part of cyber-resilience planning is to decide how to support a flex
+-ible response in the event of a cyberattack. Paradoxically, resilience and security 
+ requirements often conflict. The aim of security is usually to limit privilege as far as pos-
+sible so that users can only do what the security policy of the organization allows. 
+
+However, to deal with problems, a user or system operator may have to take the initiative 
+
+and take actions that are normally carried out by someone with a higher level of privilege.
+For example, the system manager of a medical system may not normally be 
+allowed to change the access rights of medical staff to records. For security reasons, 
+access permissions have to be formally authorized, and two people need to be 
+
+involved in making the change. This reduces the chances of system managers col-
+luding with attackers and allowing access to confidential medical information.Now, imagine that the system manager notices that a logged-in user is accessing a large number of records outside of normal working hours. The manager suspects Threatrecognition Cyber-resilience planInterfacedevelopment Integration anddeployment AssetclassificationThreatidentificationThreatresistanceInterfacedevelopment Integration anddeployment AssetrecoveryAsset reinstatementFigure 14.2 Cyber-resilience planning 

@@ -1,0 +1,62 @@
+ Section 3.3  Countermeasures 
+197  We organize this section by who must take action: users or developers, and then we add 
+a few suggestions that seem appealing but simply do not work.
+Countermeasures for Users
+Users bear the most harm from malware infection, so users have to implement the first 
+
+line of protection. Users can do this by being skeptical of all code, with the degree of 
+
+skepticism rising as the source of the code becomes less trustworthy.
+User Vigilance
+The easiest control against malicious code is hygiene: not engaging in behavior that 
+permits malicious code contamination. The two components of hygiene are avoiding 
+
+points of contamination and blocking avenues of vulnerability.
+To avoid contamination, you could simply not use your computer systems—not a 
+realistic choice in today’s world. But, as with preventing colds and the flu, there are sev-
+
+eral techniques for building a reasonably safe community for electronic contact, includ-
+
+ing the following:
+• Use only commercial software acquired from reliable, well-established vendors
+. There is always a chance that you might receive a virus from a large manufac-
+
+turer with a name everyone would recognize. However, such enterprises have 
+
+significant reputations that could be seriously damaged by even one bad inci-
+
+dent, so they go to some degree of trouble to keep their products virus free and 
+
+to patch any problem-causing code right away. Similarly, software distribution 
+
+companies will be careful about products they handle.
+• Test all new software on an isolated computer
+. If you must use software from a 
+questionable source, test the software first on a computer that is not connected 
+
+to a network and contains no sensitive or important data. Run the software and 
+
+look for unexpected behavior, even simple behavior such as unexplained figures 
+
+on the screen. Test the computer with a copy of an up-to-date virus scanner cre-
+
+ated before the suspect program is run. Only if the program passes these tests 
+should you install it on a less isolated machine.• Open attachments—and other potentially infected data files—only when you 
+know them to be safe. What constitutes “safe” is up to you, as you have prob-
+ably already learned in this chapter. Certainly, an attachment from an unknown 
+
+source is of questionable safety. You might also distrust an attachment from a 
+
+known source but with a peculiar message or description.
+• Install software—and other potentially infected executable code files—only 
+when you really, really know them to be safe.
+ When a software package asks to 
+install software on your system (including plug-ins or browser helper objects), 
+
+be really suspicious.• Recognize that any web site can be potentially harmful.
+ You might reasonably 
+assume that sites run by and for hackers are risky, as are sites serving pornog-
+
+raphy, scalping tickets, or selling contraband. You might also be wary of sites 
+
+located in certain countries; Russia, China, Brazil, Korea, and India are often 

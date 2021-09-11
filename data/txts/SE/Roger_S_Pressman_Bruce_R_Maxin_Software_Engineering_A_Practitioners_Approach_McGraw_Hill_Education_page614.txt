@@ -1,0 +1,108 @@
+584  
+ 
+ 
+CHAPTER 
+ 
+ 
+ 
+ 
+ 
+ Devanbu and Stubblebine [Dev00] make the following comment as an introduction to their roadmap for security engineering:  
+Is there such a thing anymore as a software system that doesn’t need to be secure? Almost every software controlled system faces threats from potential ad-
+versaries, from Internet-aware client applications running on PCs, to complex 
+telecommunications and power systems accessible over the Internet, to commod-
+ity software with copy protection mechanisms. Software engineers must be cog-
+nizant of these threats and engineer systems with credible defenses, while still 
+delivering value to customers.   
+ 
+The threats that the authors discussed more than a decade ago have multiplied with the explosive growth of the Web, the ubiquitous presence of 
+
+mobile applications, and the widespread use of the cloud. Each of these tech-
+nologies has raised new concerns about user privacy and the potential loss 
+or theft of personal information. Security is not just a concern to the people SECURITYENGINEERING 27  KEY CONCEPTS     asset  . . . . . . . . . . 585  
+    assurance case  . . . 592  
+
+    attack  . . . . . . . . . 585  
+    pattern . . . . . . 589  
+
+    surface  . . . . . . 596  
+    exposure  . . . . . . . 585  
+
+    security  
+    assurance  . . . . 592   
+
+   case  . . . . . . . . 592   
+
+   engineering. . . 588  
+
+    model  . . . . . . . 590  
+
+    requirements. . 585  
+    threat  
+    analysis  . . . . . 585  
+
+    modeling. . . . . 594  
+    trust veriﬁ
+ cation. . 591    
+ 
+ 
+What is it?   Security engineers build systems that have the ability 
+to protect their assets from attack. 
+Using threat analysis, you can de-termine the controls required to reduce the ex-
+
+posure that results when attacks exploit system 
+vulnerabilities. Security is an essential prereq-
+uisite for software quality factors such as integ-
+rity, availability, reliability, and safety. 
+  
+ 
+Who does it?   Software engineers working with customers and any other stakeholders who rely 
+on the system results or services. 
+  
+ 
+Why is it important? 
+  Each emerging technol-ogy brings new concerns about user privacy 
+
+and the potential loss or theft of valuable in-
+formation. Security is not just a concern to the 
+
+people developing software for the military, 
+
+government, or health agencies. Today, se-
+
+curity must be the concern of every software 
+
+engineer who has client resources to protect.   
+ 
+What are the steps?   First, system assets are identiﬁ ed and the exposure to loss due to 
+security breach is determined. The system ar-
+chitecture is then modeled at the component 
+level. Next, a security requirements speciﬁ ca-
+tion and a risk mitigation plan are created. As 
+the system is constructed, security assurance is 
+preformed and continues throughout the soft-
+
+ware process.   
+ 
+What is the work product? 
+  The primary 
+work products are a security speciﬁ cation 
+(which may be part of a requirements model) 
+
+and a documented security case that is part 
+
+of the system quality assurance documents. To 
+
+develop these work products, a threat model 
+and security risk assessment and risk mitiga-
+tion plan are also created.   
+ 
+How do I ensure I have done it right?   Use the evidence resulting from security reviews, 
+inspections, and test results and present it as 
+a security case that allows system stakeholders 
+to assess their degree of trust that the system 
+protects its assets and preserves stakeholder 
+
+privacy. 
+  
+QUICK LOOK pre22126_ch27_584-600.indd   584pre22126_ch27_584-600.indd   58416/12/13   6:23 PM16/12/13   6:23 PM

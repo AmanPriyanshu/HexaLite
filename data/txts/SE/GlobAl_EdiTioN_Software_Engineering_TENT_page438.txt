@@ -1,0 +1,46 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜Reuse-based software engineering is a software engineering strategy where the 
+development process is geared to reusing existing software. Until around 2000, 
+ systematic software reuse was uncommon, but it is now used extensively in the 
+
+development of new business systems. The move to reuse-based development has 
+
+been in response to demands for lower software production and maintenance costs, 
+
+faster delivery of systems, and increased software quality. Companies see their 
+ software as a valuable asset. They are promoting reuse of existing systems to 
+
+increase their return on software investments.Reusable software of different kinds is now widely available. The open-source 
+movement has meant that there is a huge code base that can be reused. This may be in 
+
+the form of program libraries or entire applications. Many domain-specific  application 
+systems, such as ERP systems, are available that can be tailored and adapted to cus-
+tomer requirements. Some large companies provide a range of  reusable components 
+for their customers. Standards, such as web service standards, have˜made it easier to 
+
+develop software services and reuse them across a range of  applications.Reuse-based software engineering is an approach to development that tries to 
+maximize the reuse of existing software. The software units that are reused may be 
+of radically different sizes. For example:1. System reuse Complete systems, which may be made up of a number of 
+ application programs, may be reused as part of a system of systems (Chapter 20).2. Application reuse 
+An application may be reused by incorporating it without 
+change into other systems or by configuring the application for different 
+ customers. Alternatively, application families or software product lines that 
+
+have a common architecture, but that are adapted to individual customer 
+ requirements, may be used to develop a new system.3. Component reuse Components of an application, ranging in size from subsys-
+tems to single objects, may be reused. For example, a pattern-matching system  developed as part of a text-processing system may be reused in a database 
+ management system. Components may be hosted on the cloud or on private 
+
+servers and may be accessible through an application programming interface 
+
+(API) as services.4. Object and function reuse Software components that implement a single func-tion, such as a mathematical function, or an object class may be reused. This 
+
+form of reuse, designed around standard libraries, has been common for the past 
+40 years. Many libraries of functions and classes are freely available. You reuse 
+the classes and functions in these libraries by linking them with newly devel-
+oped application code. In areas such as mathematical algorithms and graphics, 
+where specialized, expensive expertise is needed to develop efficient objects 
+
+and  functions, reuse is particularly cost-effective.All software systems and components that include generic functionality are 
+potentially reusable. However, these systems or components are sometimes so 

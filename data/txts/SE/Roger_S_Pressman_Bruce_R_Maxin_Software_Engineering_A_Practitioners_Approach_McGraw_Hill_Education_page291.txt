@@ -1,0 +1,46 @@
+CHAPTER 13  
+ARCHITECTURAL DESIGN 261 
+ 
+ 
+Object-Oriented Architectures.   The components of a system encapsulate data and the operations that must be applied to manipulate the data. Communication 
+and coordination between components are accomplished via message passing.   
+ 
+Layered Architectures.   The basic structure of a layered architecture is illus-trated in  Figure 13.4 . A number of different layers are deﬁ ned, each accomplish-
+ing operations that progressively become closer to the machine instruction set. 
+At the outer layer, components service user interface operations. At the inner 
+
+layer, components perform operating system interfacing. Intermediate layers 
+
+provide utility services and application software functions.   
+These architectural styles are only a small subset of those available.  2 
+ 
+ Once re-
+quirements engineering uncovers the characteristics and constraints of the sys-
+tem to be built, the architectural style and/or combination of patterns that best 
+ﬁ ts those characteristics and constraints can be chosen. In many cases, more 
+than one pattern might be appropriate and alternative architectural styles can 
+be designed and evaluated. For example, a layered style (appropriate for most 
+systems) can be combined with a data-centered architecture in many database 
+applications.   
+ 
+ 
+ 
+ 
+ 
+Choosing the right architecture style can be tricky. Buschman [Bus10a] sug-
+gests two complementary concepts that can provide some guidance.  Problem 
+frames 
+ describe characteristics of recurring problems, without being distracted 
+by references to details of domain knowledge or programming solution imple-
+mentations.  Domain-driven design 
+ suggests that the software design should 
+Core layerComponentsUser interface layer
+Application layerUtility layer  
+FIGURE 13.4 
+Layered 
+architecture 
+ 
+  
+ 
+2  See [Roz11], [Tay09], [Bus07], [Gor06], or [Bas03], for a detailed discussion of architectural styles 
+and patterns. pre22126_ch13_252-284.indd   261pre22126_ch13_252-284.indd   26113/12/13   6:12 PM13/12/13   6:12 PM

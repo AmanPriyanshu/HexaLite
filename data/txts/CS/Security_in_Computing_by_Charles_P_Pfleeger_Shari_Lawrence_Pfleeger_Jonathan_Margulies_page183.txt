@@ -1,0 +1,58 @@
+ Section 3.1  Unintentional (Nonmalicious) Programming Oversights 
+149  Buffer overflows can occur with many kinds of data, ranging from arrays to param-
+eters to individual data items, and although some of them are easy to prevent (such as 
+
+checking an array’s dimension before storing), others are not so easy. Human mistakes 
+
+will never be eliminated, which means overflow conditions are likely to remain. In the 
+
+next section we present a selection of controls that can detect and block various kinds 
+
+of overflow faults.
+Overflow Countermeasures
+It would seem as if the countermeasure for a buffer overflow is simple: Check before 
+you write. Unfortunately, that is not quite so easy because some buffer overflow situ-
+
+ations are not directly under the programmer’s control, and an overflow can occur in 
+
+several ways. 
+Although buffer overflows are easy to program, no single countermeasure will pre-
+vent them. However, because of the prevalence and seriousness of overflows, several 
+
+kinds of protection have evolved.
+The most obvious countermeasure to overwriting memory is to stay within bounds. 
+Maintaining boundaries is a shared responsibility of the programmer, operating system, 
+
+compiler, and hardware. All should do the following:
+• Check lengths before writing.
+• Confirm that array subscripts are within limits.
+
+• Double-check boundary condition code to catch possible off-by-one errors.
+
+• Monitor input and accept only as many characters as can be handled.
+
+• Use string utilities that transfer only a bounded amount of data.
+
+• Check procedures that might overrun their space.
+
+• Limit programs’ privileges, so if a piece of code is overtaken maliciously, the 
+violator does not acquire elevated system privileges as part of the compromise.
+Programming Controls Later in this chapter we study programming controls in general. You may already have 
+
+encountered these principles of software engineering in other places. Techniques such as 
+
+code reviews (in which people other than the programmer inspect code for implementa-
+
+tion oversights) and independent testing (in which dedicated testers hypothesize points at 
+
+which a program could fail) can catch overflow situations before they become problems.
+Language Features Two features you may have noticed about attacks involving buffer overflows are that 
+
+the attacker can write directly to particular memory addresses and that the language or 
+
+compiler allows inappropriate operations on certain data types.
+Anthony (C.A.R.) Hoare [HOA81] comments on the relationship between language 
+and design:Programmers are always surrounded by complexity; we cannot avoid it. Our applica-
+tions are complex because we are ambitious to use our computers in ever more sophis-
+
+ticated ways. Programming is complex because of the large number of conflicting 

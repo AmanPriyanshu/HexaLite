@@ -1,0 +1,80 @@
+336 PART TWO  
+MODELINGcontinue to prefer a command-oriented mode of interaction. A number of design issues arise when typed commands or menu labels are provided as a mode of 
+interaction:  
+ 
+ 
+•  Will every menu option have a corresponding command? 
+  
+ 
+ 
+•  What form will commands take? Options include a control sequence   
+ 
+ 
+•  How difﬁ cult will it be to learn and remember the commands? What can 
+be done if a command is forgotten?   
+ 
+ 
+•  Can commands be customized or abbreviated by the user?   
+ 
+ 
+•  Are menu labels self-explanatory within the context of the interface?   
+ 
+ 
+•  Are submenus consistent with the function implied by a master menu item? 
+  
+ 
+ 
+•  Have appropriate conventions for command usage been established across a family of applications?  
+ 
+  
+ 
+ 
+Application Accessibility.   As computing applications become ubiquitous, soft-ware engineers must ensure that interface design encompasses mechanisms that 
+enable easy access for those with special needs.  Accessibility 
+ for users (and soft-
+ware engineers) who may be physically challenged is an imperative for ethical, 
+
+many designed for Web applications but often applicable to all types of soft-
+
+ware—provide detailed suggestions for designing interfaces that achieve varying 
+levels of accessibility. Others (e.g., [App13], [Mic13]) provide speciﬁ
+ c guidelines 
+for “assistive technology” that addresses the needs of those with visual, hearing, 
+mobility, speech, and learning impairments. 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+Internationalization.   Software engineers and their managers invariably under-
+estimate the effort and skills required to create user interfaces that accommodate 
+the needs of different locales and languages. Too often, interfaces are designed 
+
+for one locale and language and then jury-rigged to work in other countries. The 
+challenge for interface designers is to create “globalized” software. That is, user 
+interfaces should be designed to accommodate a generic core of functionality 
+that can be delivered to all who use the software.  Localization 
+ features enable 
+the interface to be customized for a speciﬁ c market. 
+ A variety of internationalization guidelines (e.g., [IBM13]) are available to software engineers. These guidelines address broad design issues (e.g., screen 
+layouts may differ in various markets) and discrete implementation  issues different alphabets may create specialized labeling and spacing require-
+
+ments). The  Unicode 
+ standard [Uni03] has been developed to address the 
+daunting challenge of managing dozens of natural languages with hundreds of 
+characters and symbols.  
+ 
+ 
+  
+WebRef 
+ Guidelines for 
+developing accessible 
+software can be found 
+at   
+http://www-03.ibm.com/
+able/guidelines/
+software/access-
+software.html  . 
+pre22126_ch15_317-346.indd   336pre22126_ch15_317-346.indd   33613/12/13   10:01 PM13/12/13   10:01 PM

@@ -1,0 +1,37 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜˜˜when considering scalability in the context of SaaS, you are considering ﬁscaling 
+outﬂ rather than ﬁscaling up.ﬂ Recall that scaling out means adding additional servers 
+and so also increasing the number of transactions that can be processed in parallel. 
+Scalability is a complex topic that I cannot cover in detail here, but following are 
+some general guidelines for implementing scalable software:1. Develop applications where each component is implemented as a simple state-less service that may be run on any server. In the course of a single transaction, 
+
+a user may therefore interact with instances of the same service that are running 
+on several different servers.2. Design the system using asynchronous interaction so that the application does 
+not have to wait for the result of an interaction (such as a read request). This 
+
+allows the application to carry on doing useful work while it is waiting for the 
+
+interaction to finish.3. Manage resources, such as network and database connections, as a pool so that 
+no single server is likely to run out of resources.4. Design your database to allow fine-grain locking. That is, do not lock out whole 
+records in the database when only part of a record is in use.5.
+ Use a cloud PaaS platform, such as Google App Engine (Sanderson 2012) or 
+
+other PaaS platform for system implementation. These include mechanisms that 
+will automatically scale out your system as the load increases.The notion of software as a service is a major paradigm shift for distributed com-puting. We have already seen consumer software and professional applications, such 
+as Photoshop, move to this model of delivery. Increasingly, businesses are replacing 
+their own systems, such as CRM and inventory systems, with cloud-based SaaS sys-
+tems from external providers such as Salesforce. Specialized software companies 
+
+that implement business applications prefer to provide SaaS because it simplifies 
+
+software update and management.SaaS represents a new way to think about the engineering of enterprise systems. 
+It has always been helpful to think of systems delivering services to users, but, until 
+SaaS, this function has involved using different abstractions, such as objects, when 
+implementing the system. Where there is a closer match between user and system 
+
+abstractions, the resultant systems are easier to understand, maintain, and evolve.Tenant    Key       Name     Address
+  234C100     XYZ Corp  43, Anystreet, Sometown
+  234C110     BigCorp  2, Main St, Motown
+  435X234     J. Bowie  56, Mill St, Starville
+  592PP37     R. Burns  Alloway, Ayrshire
+Figure 17.17  A multi-tenant database 

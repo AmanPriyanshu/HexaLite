@@ -1,0 +1,47 @@
+820 PART FIVE  
+ADVANCED TOPICS
+(4) a strategy for assisting a software organization in implementing those process characteristics that have been found to be weak or missing.  An SPI framework assesses the “maturity” of an organization’s software pro-
+cess and provides a qualitative indication of a maturity level. In fact, the term 
+“maturity model” (Section 37.1.2) is often applied. In essence, the SPI framework 
+encompasses a maturity model that in turn incorporates a set of process quality 
+indicators that provide an overall measure of the process quality that will lead 
+to product quality. 
+  
+ 
+Figure 37.1  
+ provides an overview of a typical SPI framework. The key elements 
+of the framework and their relationship to one another are shown.  
+ 
+ 
+ 
+   
+You should note that there is no universal SPI framework. In fact, the SPI frame-
+work that is chosen by an organization reﬂ ects the constituency that is championing 
+the SPI effort. Conradi [Con96] deﬁ nes six different SPI support constituencies: 
+  
+Quality certifiers.   Process improvement efforts championed by this 
+group focus on the following relationship:   
+ 
+Quality 
+( Process
+ 
+)   Quality 
+( Product
+ 
+)  
+  Their approach is to emphasize assessment methods and to examine a well-deﬁ ned set of characteristics that allows them to determine whether 
+the process exhibits quality. They are most likely to adopt a process 
+
+framework such as the CMMI, SPICE, TickIT, or Bootstrap. 
+ 1 
+ 
+ 
+  What groups 
+champion an SPI effort? ?SoftwareprocessAssessmentIs a foundation forLeads toLeads to
+IsexaminedbyIdentifies capabilities,strengths, and weaknesses ofIdentifies maturity ofIdentifies changes toSuggests improvementapproach forCapabilitydetermination
+Improvementstrategy  
+FIGURE 37.1 
+Elements of an SPI framework  
+  Source: Adapted from [Rou02].   
+1  Each of these SPI frameworks is discussed later in this chapter. 
+pre22126_ch37_817-838.indd   820pre22126_ch37_817-838.indd   82013/12/13   6:17 PM13/12/13   6:17 PM

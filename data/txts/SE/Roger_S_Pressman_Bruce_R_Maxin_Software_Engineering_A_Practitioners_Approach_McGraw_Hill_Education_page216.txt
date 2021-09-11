@@ -1,0 +1,113 @@
+186 PART TWO  
+MODELING 
+producers
+ 
+ (sources) and  
+consumers 
+ (sinks) of data,  
+data managers 
+,  view 
+ or 
+  
+observer classes 
+, and  helper classes 
+.   
+It is also important to note what classes or objects are not. In general, a class should never have an “imperative procedural name” [Cas89]. For example, if 
+the developers of software for a medical imaging system deﬁ ned an object with 
+the name  InvertImage 
+ or even  
+ImageInversion, 
+ they would be making a subtle 
+mistake. The  Image 
+ obtained from the software could, of course, be a class (it 
+is a thing that is part of the information domain). Inversion of the image is an 
+ operation that is applied to the object. It is likely that inversion would be deﬁ ned 
+as an operation for the object  Image 
+, but it would not be deﬁ
+ ned as a separate 
+class to connote “image inversion.” As Cashman [Cas89] states, “[T]he intent of 
+object-orientation is to encapsulate, but still keep separate, data and operations 
+on the data.”  To illustrate how analysis classes might be deﬁ
+ ned during the early stages of 
+modeling, consider a grammatical parse (nouns are underlined, verbs italicized) 
+for a processing narrative  2 
+ 
+ for the  SafeHome 
+ security function.  
+ 
+ 
+The  SafeHome security function   enables 
+ the  
+homeowner  
+to  conﬁ gure
+ 
+ the  
+security system  when it is  
+installed, monitors 
+ all  
+sensors   connected 
+ to the security system, and 
+ interacts 
+ with the homeowner through the  Internet , a  PC  or a  control panel .  During  installation , the SafeHome PC is used to  program
+ 
+ and  
+conﬁ gure
+ 
+ the  
+sys-tem . Each sensor is assigned a  number  and  
+type , a  master password  is programmed 
+for  arming 
+ and  
+disarming 
+ the system, and  
+telephone number(s)  are  
+input 
+ for  
+dialing 
+ when a  sensor event  occurs.  When a sensor event is  recognized
+ 
+, the software  invokes 
+ an  
+audible alarm   attached to the system. After a  delay time  that is  
+speciﬁ ed
+ 
+ by the homeowner during system 
+conﬁ guration activities, the software dials a telephone number of a  
+monitoring ser-
+vice ,  provides
+ 
+  information  about the  
+location ,  reporting
+ 
+ the nature of the event that 
+has been detected. The telephone number will be  redialed
+ 
+ every 20 seconds until 
+ telephone connection  is  obtained. 
+  The homeowner  receives
+ 
+  security information  via a control panel, the PC, or a 
+browser, collectively called an  
+interface . The interface  displays 
+  prompting messages  and  system status information  on the control panel, the PC, or the browser window. 
+  
+ 
+ 
+    The grammatical parse 
+is not foolproof, but it 
+can provide you with 
+an excellent jump start 
+
+if you’re struggling to 
+
+deﬁ ne data objects and 
+
+the transforms that 
+
+operate on them.   
+2  A processing narrative is similar to the use case in style but somewhat different in purpose. 
+The processing narrative provides an overall description of the function to be developed. It 
+is not a scenario written from one actor’s point of view. It is important to note, however, that 
+
+a grammatical parse can also be used for every use case developed as part of requirements 
+gathering (elicitation). pre22126_ch10_184-201.indd   186pre22126_ch10_184-201.indd   18613/12/13   6:11 PM13/12/13   6:11 PM

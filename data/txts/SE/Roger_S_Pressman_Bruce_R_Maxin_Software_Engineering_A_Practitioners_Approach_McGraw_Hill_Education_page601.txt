@@ -1,0 +1,77 @@
+CHAPTER 26  
+TESTING MOBILEAPPS 571that is seen only in the development of real-time systems. Security testing has to 
+take the loss of a physical device into account as well as the fact that MobileApps 
+
+often run directly on the mobile device hardware exposing personal data to theft. 
+
+MobileApps are often designed to be used by people with less technical knowl-
+edge than the typical Web user precipitating the need for more extensive testing 
+
+of the user experience (Section 26.3). Agile development process models (Chap-
+ 
+  
+ 
+ 
+26.2.2   
+The Need for Automation  
+ 
+A MobileApp tester often encounters many conﬁ guration variants (devices, op-
+erating systems, and mobile networks) that may need to be included to ensure 
+that a MobileApp is both functional and context aware. Because it is important to 
+test a MobileApp efﬁ ciently and completely, automated testing can be useful for 
+conﬁ guration testing (Section 25.7) or regression testing (Section 22.3). It should 
+be noted, however, that it may not be possible to automate all parts of MobileApp 
+
+testing (e.g., user interactions found in a handheld video game).  Automated testing tools can improve team morale when testers would other-
+wise be forced to process a large number of repetitive test cases mechanically. 
+
+The availability of automated test tools can encourage earlier and more frequent 
+testing, allowing the early discovery of MobileApp defects. An agile development 
+process (Chapter 5) mandates the use of daily build cycles that require regres-
+sion testing to ensure that changes have not produced unintended side effects.  Mobile Labs, Inc. [Mob11] has proposed an approach to automating Mobile-App testing that encompasses the following elements:   
+ 
+ 
+ 
+ 
+ 
+Feasibility analysis. 
+ Determines which tests and test cases have the greatest return on investment (ROI) if automated. The focus should be on automating re-
+peatable and frequently used test cases. The goal is to try to automate 50 to 
+  
+Proof of concept. 
+ Validates the value of test automation. To accomplish this, 
+a limited number of manual test scripts are automated to determine the ROI of 
+the effort. The test team must determine scalability to the other scripts and the 
+degree of reuse in subsequent testing cycles.   
+Best practice test framework. 
+ Provides a methodology speciﬁ c to mobile 
+applications that serves as the foundation for the testing process. Frameworks 
+deﬁ ne the rules for implementation and testing of the MobileApp and are de-
+veloped for each mobile platform and tailored to the organization’s application 
+
+suite.   
+Customized testing tools. 
+ Customizes testing tools to each mobile platform (and the application being tested) by leveraging advanced scripting techniques.   
+Testing under real-world conditions.
+ 
+ Conﬁ rms how the application will run 
+on an actual device outside the testing laboratory. Testing on actual devices 
+  
+ 
+ uote:  “Today there 
+are hundreds of 
+millions of mobile 
+devices, but you do 
+have to know a bit 
+about what each 
+device is capable 
+of doing in order 
+to approach it as a 
+developer.” 
+ John Fowler 
+ What are 
+
+the most important 
+elements of 
+automated mobile 
+testing? ?pre22126_ch26_567-583.indd   571pre22126_ch26_567-583.indd   57113/12/13   6:15 PM13/12/13   6:15 PM

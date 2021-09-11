@@ -1,0 +1,142 @@
+CHAPTER 12  
+DESIGN CONCEPTS 227 
+The interface design describes how the software communicates with systems that interoperate with it, and with humans who use it. An interface implies a ﬂ ow 
+of information (e.g., data and/or control) and a speciﬁ c type of behavior. There-
+fore, usage scenarios and behavioral models provide much of the information 
+required for interface design.   The component-level design transforms structural elements of the software architecture into a procedural description of software components. Information 
+obtained from the class-based models and behavioral models serve as the basis 
+for component design.  During design you make decisions that will ultimately affect the success of software construction and, as important, the ease with which software can be 
+maintained. But why is design so important?  The importance of software design can be stated with a single word—  
+quality 
+. Design is the place where quality is fostered in software engineering. Design 
+provides you with representations of software that can be assessed for quality. 
+
+Design is the only way that you can accurately translate stakeholder’s require-
+
+ments into a ﬁ nished software product or system. Software design serves as the 
+foundation for all the software engineering and software support activities that 
+follow. Without design, you risk building an unstable system—one that will fail 
+
+when small changes are made; one that may be difﬁ cult to test; one whose qual-
+ity cannot be assessed until late in the software process, when time is short and 
+many dollars have already been spent.   uote:  “There are 
+two ways of 
+constructing a 
+software design. 
+One way is to 
+make it so simple 
+that there are 
+obviously no 
+deﬁ ciencies, and 
+
+the other way 
+is to make it 
+so complicated 
+that there are 
+no obvious 
+deﬁ ciencies. The 
+
+ﬁ rst method is far 
+
+more difﬁ cult.” 
+ C. A. R. Hoare 
+  
+Design versus Coding   
+Design versus Coding  
+ 
+ 
+ 
+ 
+ 
+The scene:  Jamie’s cubicle, as the 
+team prepares to translate require-ments into design.    
+ 
+ 
+ 
+The players:  Jamie, Vinod, and Ed—all members of 
+the  SafeHome 
+ software engineering team.    
+ 
+ 
+ 
+The conversation:  
+   
+ 
+ 
+ 
+Jamie:  You know, Doug [the team manager] is ob-
+sessed with design. I gotta be honest, what I really love 
+doing is coding. Give me C++ or Java, and I’m happy. 
+   
+ 
+ 
+ 
+Ed:  
+   
+ 
+ 
+ 
+Jamie:  You’re not listening—coding is where it’s at. 
+   
+ 
+ 
+ 
+Vinod:  I think what Ed means is you don’t really like 
+coding; you like to design and express it in code. Code 
+is the language you use to represent the design.    
+ 
+ 
+ 
+Jamie:  And what’s wrong with that? 
+   
+ 
+ 
+ 
+Vinod:  Level of abstraction. 
+   
+ 
+ 
+ 
+Jamie:  Huh? 
+   
+ 
+ 
+ 
+Ed:  A programming language is good for representing 
+details like data structures and algorithms, but it’s not 
+
+so good for representing architecture or component-to- 
+   
+ 
+ 
+ 
+Vinod:  And a screwed-up architecture can ruin even 
+the best code.    
+ 
+ 
+ 
+Jamie (thinking for a minute):  So, you’re saying that 
+I can’s not true. 
+   
+ 
+ 
+ 
+Vinod:  You can certainly imply architecture in code, 
+but in most programming languages, it’s pretty difﬁ
+ cult 
+to get a quick, big-picture read on architecture by 
+ examining the code.    
+ 
+ 
+ 
+Ed:  And that’s what we want before we begin coding. 
+   
+ 
+ 
+ 
+Jamie:  Okay, maybe design and coding are different, 
+but I still like coding better. 
+ 
+ 
+  
+SAFEHOME pre22126_ch12_224-251.indd   227pre22126_ch12_224-251.indd   22713/12/13   6:12 PM13/12/13   6:12 PM

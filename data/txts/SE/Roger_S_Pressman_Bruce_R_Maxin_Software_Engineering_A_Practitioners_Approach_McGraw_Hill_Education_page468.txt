@@ -1,0 +1,51 @@
+438 PART THREE  
+QUALITY MANAGEMENT 
+ 
+Referring to the ﬁ gure, the effort expended when reviews are used does in-
+crease early in the development of a software increment, but this early invest-
+ment for reviews pays dividends because testing and corrective effort is reduced. 
+As important, the deployment date for development with reviews is sooner than 
+the deployment date without reviews. Reviews don’t take time, they save it!   
+ 
+ 
+ 
+ 
+ 
+ 20.4 R
+EVIEWS: A FORMALITY SPECTRUM  
+ 
+Technical reviews should be applied with a level of formality that is appropriate for 
+the product to be built, the project time line, and the people who are doing the work. 
+
+ Figure 20.5  depicts a reference model for technical reviews [Lai02] that identiﬁ
+ es four 
+characteristics that contribute to the formality with which a review is conducted. 
+ 
+ 
+ 
+ 
+  Each of the reference model characteristics helps to deﬁ ne the level of review 
+formality. The formality of a review increases when (1) distinct roles are explicitly 
+
+deﬁ ned for the reviewers, (2) there is a sufﬁ
+ cient amount of planning and prepa-
+ration for the review, (3) a distinct structure for the review (including tasks and 
+
+internal work products) is deﬁ ned, and (4) follow-up by the reviewers occurs for 
+any corrections that are made.  To understand the reference model, let’s assume that you’ve decided to re-
+view the interface design for   
+SafeHomeAssured.com 
+ 
+. You can do this in a variety 
+of different ways that range from relatively casual to extremely rigorous. If you 
+decide that the casual approach is most appropriate, you ask a few colleagues 
+(peers) to examine the interface prototype in an effort to uncover potential prob-
+lems. All of you decide that there will be no advance preparation, but that you 
+will evaluate the prototype in a reasonably structured way—looking at layout 
+ﬁ rst, aesthetics next, navigation options after that, and so on. As the designer, 
+you decide to take a few notes, but nothing formal.  FIGURE 20.5 
+Reference 
+model for 
+technical 
+reviews
+ReviewPlanning& preparationRolesindividualsplayMeetingstructureCorrection &verificationpre22126_ch20_431-447.indd   438pre22126_ch20_431-447.indd   43813/12/13   10:01 PM13/12/13   10:01 PM

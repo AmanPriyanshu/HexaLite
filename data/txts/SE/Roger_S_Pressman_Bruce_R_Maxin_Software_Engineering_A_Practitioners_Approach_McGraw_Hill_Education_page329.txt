@@ -1,0 +1,138 @@
+CHAPTER 14  
+COMPONENT-LEVEL DESIGN
+ 299 
+ 
+ 
+ 
+ 
+ 
+ 14.3 C
+ONDUCTING COMPONENT-LEVEL DESIGN    
+Earlier in this chapter we noted that component-level design is elaborative in nature. You must transform information from requirements and architectural 
+
+models into a design representation that provides sufﬁ cient detail to guide the 
+construction (coding and testing) activity. The following steps represent a typical 
+
+task set for component-level design, when it is applied for an object-oriented 
+system.   
+  
+ 
+Step 1. Identify all design classes that correspond to the problem domain.   Using the requirements and architectural model, each analysis class and architectural 
+component is elaborated as described in Section 14.1.1.  
+ 
+ 
+  
+ 
+ 
+ 
+Step 2. Identify all design classes that correspond to the infrastructure  domain.   These classes are not described in the requirements model and are often missing 
+from the architecture model, but they must be described at this point. As we have 
+noted earlier, classes and components in this category include GUI components 
+
+(often available as reusable components), operating system components, and ob-
+ject and data management components.   
+ 
+Step 3. Elaborate all design classes that are not acquired as reusable  components. 
+  Elaboration requires that all interfaces, attributes, and operations necessary to 
+implement the class be described in detail. Design heuristics (e.g., component 
+
+cohesion and coupling) must be considered as this task is conducted. 
+  
+ 
+Step 3a. Specify message details when classes or components collaborate.   The re-quirements model makes use of a collaboration diagram to show how analysis classes 
+
+collaborate with one another. As component-level design proceeds, it is sometimes 
+
+useful to show the details of these collaborations by specifying the structure of 
+   If you’re working in a 
+non-OO environment, 
+the ﬁ rst three steps 
+
+focus on reﬁ nement 
+
+of data objects and 
+processing functions 
+(transforms) identiﬁ ed 
+
+as part of the analysis 
+
+model.   
+ 
+ 
+ 
+Shakira (exasperated):  
+Sarcasm, Vinod, you’ve got to work on your interpersonal skills.    
+ 
+ 
+ 
+Vinod:  
+You were saying? 
+   
+ 
+ 
+ 
+Shakira:  
+Okay, anyway, I ﬁ
+ 
+create an operation within each sensor object called 
+ makeCall()  that would collaborate directly with the   
+OutgoingCall 
+ component, well, with an interface to 
+the  OutgoingCall 
+ component.    
+ 
+ 
+ 
+Vinod (pensive):  
+You mean rather than having that 
+collaboration occur out of a component like  Control-
+Panel  
+or something?    
+ 
+ 
+ 
+Shakira:  
+Y
+means that every sensor object will be connected to the 
+ OutgoingCall  
+component, and that means that it’s 
+i  
+   
+ 
+ 
+ 
+Vinod:  
+I agree. In this case, it’s a better idea to let the 
+sensor interface pass info to the  
+ControlPanel 
+ 
+and let it initiate the outgoing call. Besides, different sen-
+sors might result in different phone numbers. You don’t 
+
+want the sensor to store that information because if it 
+
+   
+ 
+ 
+ 
+Shakira:  
+It just didn’t feel right. 
+   
+ 
+ 
+ 
+Vinod:  
+Design heuristics for coupling tell us it’s not 
+right.    
+ 
+ 
+ 
+Shakira:  
+ 
+ 
+  uote:   “If I had more 
+time, I would have 
+written a shorter 
+letter.” 
+ Blaise Pascal 
+pre22126_ch14_285-316.indd   299pre22126_ch14_285-316.indd   29913/12/13   6:12 PM13/12/13   6:12 PM

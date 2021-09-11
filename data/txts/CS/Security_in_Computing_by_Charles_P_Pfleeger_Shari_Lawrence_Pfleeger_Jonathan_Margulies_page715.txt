@@ -1,0 +1,66 @@
+ Section 10.4  Risk Analysis 
+681  the human guard can handle exceptional situations (for example, when a legitimate user 
+loses a key), but the lock prevents access if the guard is distracted. Also, one control 
+
+may cover multiple vulnerabilities, so encrypting a set of data may protect both confi-
+
+dentiality and integrity.
+Controls have positive and negative effects: Encryption, for example, protects con-
+fidentiality, but it also takes time and introduces key management issues. Thus, when 
+
+selecting controls, you have to consider the full impact.
+Controls are not perfect. They can fail: Guards can be bribed or fall asleep, encryp-
+tion can be broken, and access control devices can malfunction. Some controls are 
+
+stronger than others. For example, a physical device is generally stronger than a written 
+
+policy (policies are nevertheless useful). 
+Which Controls Are Best?Typically there is no single best set of controls. One control is stronger, another is more 
+
+usable, another prevents harm instead of detecting it afterwards, and still another pro-
+
+tects against several types of vulnerabilities.
+As you have inferred, risk analysis involves building a multidimensional array: 
+assets, vulnerabilities, likelihoods, controls. Mapping controls to vulnerabilities may 
+
+involve using graph theory to select a minimal set of controls that address all vulner-
+
+abilities. The advantage of careful, systematic documentation of all these data is that 
+
+each choice can be analyzed, and the side effects of changes are apparent.
+If this process sounds difficult, it is, but it need not be overwhelming. Listing all 
+assets is less important than listing the top few, probably five to ten. Postulating all vul-
+
+nerabilities is less important than recognizing several classes of harm and representative 
+
+causes. With a manageable number of assets and vulnerabilities, determining controls 
+
+(some of which may already be in place) need not be extensive, as long as some control 
+
+covers each major vulnerability.
+Step 6: Project Costs and Savings
+By this point in our risk analysis, we have identified controls that address each vulner-
+ability in our list. The next step is to determine whether the costs outweigh the benefits 
+
+of preventing or mitigating the risks. Recall that we multiply the risk probability by the 
+
+risk impact to determine the risk exposure. The risk impact is the loss that we might 
+
+experience if the risk were to turn into a real problem. There are techniques to help us 
+
+determine the risk exposure. 
+The effective cost of a given control is the actual cost of the control (such as pur-
+chase price, installation costs, and training costs) minus any expected loss from using 
+
+the control (such as administrative or maintenance costs). Thus, the true cost of a con-
+
+trol may be positive if the control is expensive to administer or introduces new risk in 
+
+another area of the system. Or the cost can even be negative if the reduction in risk is 
+
+greater than the cost of the control.For example, suppose a department has determined that some users have gained 
+unauthorized access to the computing system. Managers fear the intruders might inter-
+
+cept or even modify sensitive data on the system. One approach to addressing this prob-
+
+lem is to install a more secure data access control program. Even though the cost of the 

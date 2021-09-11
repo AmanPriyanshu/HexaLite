@@ -1,0 +1,70 @@
+have been introduced during the development process. Many testing techniques, 
+such as program inspections and coverage testing, rely on analysis of the software 
+
+source code. However, if you use services from an external provider, you will not 
+
+have access to the source code of the service implementations. You cannot therefore 
+
+use ﬁwhite boxﬂ testing techniques that rely on the source code of the system.As well as problems of understanding the implementation of the service, testers may also face further difficulties when testing service compositions:
+1.
+ External services are under the control of the service provider rather than the 
+user of the service. The service provider may withdraw these services at any time 
+
+or may make changes to them, which invalidates any previous 
+ application test-ing. These problems are handled in software components by maintaining differ
+-ent versions of the component, but service versions are not normally supported.
+2. If services are dynamically bound, an application may not always use the same 
+
+service each time that it is executed. Therefore, tests may be successful when an 
+
+application is bound to a particular service, but it cannot be guaranteed that that 
+
+service will be used during an actual execution of the system. This problem has 
+
+been one reason why dynamic binding has not been widely used.
+3. The non-functional behavior of a service is not simply dependent on how it is used 
+
+by the application that is being tested. A service may perform well during testing 
+
+because it is not operating under a heavy load. In practice, the observed service 
+
+behavior may be different because of the demands made by other 
+ service users.4.
+ The payment model for services could make service testing very expensive. 
+
+There are different possible payment models: Some services may be freely 
+
+available, some may be paid for by subscription, and others may be paid for on 
+
+a per-use basis. If services are free, then the service provider will not wish them 
+
+to be loaded by applications being tested; if a subscription is required, then a 
+
+service user may be reluctant to enter into a subscription agreement before test
+-
+ing the service. Similarly, if the usage is based on payment for each use, service 
+
+users may find the cost of testing to be prohibitive.
+5. I have discussed the notion of compensation actions that are invoked when an 
+
+exception occurs and previous commitments that have been made (such as a 
+
+flight reservation) have to be revoked. There is a problem in testing such actions 
+
+as they may depend on the failure of other services. Simulating the failure of 
+
+these services during the testing process is usually difficult.
+These problems are particularly acute when external services are used. They are 
+
+less serious when services are used within the same company or where 
+ cooperating 
+companies trust services offered by their partners. In such cases, source code may 
+
+be available to guide the testing process, and payment for services is unlikely to 
+
+be a problem. Resolving these testing problems and producing guidelines, tools, 
+
+and techniques for testing service-oriented applications remains an important 
+
+research issue.˜˚˛˝ˇ˜˜˜
+˜˜˜

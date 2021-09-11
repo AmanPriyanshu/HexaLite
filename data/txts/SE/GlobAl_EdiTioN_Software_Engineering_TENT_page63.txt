@@ -1,0 +1,58 @@
+A system prototype may be used while the system is being designed to carry out design experiments to check the feasibility of a proposed design. For example, a 
+database design may be prototyped and tested to check that it supports efficient data 
+
+access for the most common user queries. Rapid prototyping with end-user involve
+-
+ment is the only sensible way to develop user interfaces. Because of the dynamic 
+
+nature of user interfaces, textual descriptions and diagrams are not good enough for 
+expressing the user interface requirements and design.A process model for prototype development is shown in Figure 2.9. The objec-tives of prototyping should be made explicit from the start of the process. These 
+
+may be to develop the user interface, to develop a system to validate functional 
+
+system requirements, or to develop a system to demonstrate the application to man-
+agers. The same prototype usually cannot meet all objectives. If the objectives are 
+
+left unstated, management or end-users may misunderstand the function of the pro-
+totype. Consequently, they may not get the benefits that they expected from the 
+
+prototype development.The next stage in the process is to decide what to put into and, perhaps more 
+importantly, what to leave out of the prototype system. To reduce prototyping costs 
+and accelerate the delivery schedule, you may leave some functionality out of the 
+prototype. You may decide to relax non-functional requirements such as response 
+
+time and memory utilization. Error handling and management may be ignored unless 
+the objective of the prototype is to establish a user interface. Standards of reliability 
+and program quality may be reduced.The final stage of the process is prototype evaluation. Provision must be 
+made during this stage for user training, and the prototype objectives should 
+
+be˜used to derive a plan for evaluation. Potential users need time to become 
+
+comfortable with a new system and to settle into a normal pattern of usage. Once 
+
+they are using the system normally, they then discover requirements errors 
+
+and˜omissions. A general problem with prototyping is that users may not use the 
+
+prototype in the same way as they use the final system. Prototype testers may 
+
+not be typical of system users. There may not be enough time to train users 
+ during prototype evaluation. If the prototype is slow, the evaluators may adjust 
+
+their way of working and avoid those system features that have slow response 
+
+times. When provided with better response in the final system, they may use it in 
+
+a different way.Establish
+prototype
+objectivesDefineprototypefunctionalityDevelop
+prototype
+Evaluate
+prototype
+Prototyping
+planOutlinedefinitionExecuta
+bleprototype
+Evaluation
+report
+Figure 2.9 Prototype development˜˜˚˝˜˜˜
+˜˜˜

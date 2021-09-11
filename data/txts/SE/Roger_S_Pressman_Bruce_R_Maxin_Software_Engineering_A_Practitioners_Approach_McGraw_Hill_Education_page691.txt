@@ -1,0 +1,50 @@
+CHAPTER 30  
+PRODUCT METRICS 661   
+ 9.  Are the inputs, outputs, ﬁ les, or inquiries complex?  
+   
+ 10.  Is the internal processing complex?  
+   
+ 11.  Is the code designed to be reusable?  
+   
+ 12.  Are conversion and installation included in the design?  
+   
+ 13.  Is the system designed for multiple installations in different organizations?     
+ 14.  Is the application designed to facilitate change and ease of use by the 
+user?  
+  
+Each of these questions is answered using an ordinal scale that ranges from 0 
+(not important or applicable) to 5 (absolutely essential). The constant values in 
+Equation (30.1) and the weighting factors that are applied to information domain 
+counts are determined empirically. 
+      
+To illustrate the use of the FP metric in this context, consider a simple ﬂ
+ ow diagram for a user interaction function within  SafeHome  software, represented in   Figure 30.2  . The function manages user interaction, accepting a user password to activate or deactivate the system, and allows inquiries on the status of security 
+zones and various security sensors. The function displays a series of prompting 
+messages and sends appropriate control signals to various components of the 
+security system.  
+ The ﬂ ow diagram is evaluated to determine a set of key information domain measures required for computation of the function point metric. Three external 
+inputs— password, panic button,  and  activate/deactivate —are shown in the ﬁ g-ure along with two external inquiries— zone inquiry  and  sensor inquiry . One ILF ( system conﬁ guration ﬁ le
+ ) is shown. Two external outputs ( 
+messages  and  sensor  
+ status ) and four EIFs ( test sensor, zone setting, activate/deactivate,
+  and  alarm alert ) are also present. These data, along with the appropriate complexity, are 
+shown in   Figure 30.3  . 
+ WebRef 
+ An online FP calculator 
+
+can be found at 
+  http://groups
+.engin.umd.umich
+.edu/CIS/course
+.des/cis375/
+projects/fp99/
+main.html  .   F
+IGURE 30.2 A ﬂ
+ ow model 
+for  SafeHome  user interac-
+tion function   
+UserSafeHomeuserinteractionfunctionMessagesSystem configuration dataPassword, sensors . . .Sensor statusSensorsMonitoring& responsesubsystemAlarm
+alert
+Activate/deactivateZone settingTest sensorUserSensor inquiry
+Panic button
+Activate/deactivateZone inquiryPassword

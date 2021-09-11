@@ -1,0 +1,66 @@
+CHAPTER 12  
+DESIGN CONCEPTS 247 
+The dashed line with an open triangle at its end ( Figure 12.5 ) indicates that the  ControlPanel 
+ class provides  
+KeyPad 
+ operations as part of its behavior. In UML, 
+this is characterized as a  realization.
+ 
+ That is, part of the behavior of  
+ControlPanel 
+ will be implemented by realizing  KeyPad 
+ operations. These operations will be 
+provided to other classes that access the interface.   
+ 
+12.4.4 Component-Level Design Elements 
+ 
+The component-level design for software is the equivalent to a set of detailed drawings (and speciﬁ cations) for each room in a house. These drawings depict 
+wiring and plumbing within each room, the location of electrical receptacles and 
+wall switches, faucets, sinks, showers, tubs, drains, cabinets, and closets, and 
+every other detail associated with a room.  The component-level design for software fully describes the internal detail of each software component. To accomplish this, the component-level design de-
+
+ﬁ nes data structures for all local data objects and algorithmic detail for all pro-
+cessing that occurs within a component and an interface that allows access to all 
+component operations (behaviors).   Within the context of object-oriented software engineering, a component is 
+represented in UML diagrammatic form as shown in  Figure 12.6 . In this ﬁ g-
+ure, a component named  SensorManagement 
+ (part of the  
+SafeHome 
+ security 
+function) is represented. A dashed arrow connects the component to a class 
+
+named  Sensor 
+ that is assigned to it. The  
+SensorManagement 
+ component per-
+forms all functions associated with  SafeHome 
+ sensors including monitoring 
+and conﬁ guring them. Further discussion of component diagrams is presented 
+ 
+  The design details of a component can be modeled at many different lev-els of abstraction. A UML activity diagram can be used to represent process-
+ing logic. Detailed procedural ﬂ ow for a component can be represented using 
+either pseudocode (a programming languagelike representation described in 
+14) or some other diagrammatic form (e.g., ﬂ
+ owchart or box diagram). 
+Algorithmic structure follows the rules established for structured programming 
+(i.e., a set of constrained procedural constructs). Data structures, selected based 
+on the nature of the data objects to be processed, are usually modeled using 
+pseudocode or the programming language to be used for implementation.   uote:  “The details are not 
+the details. They 
+make the design.”  Charles Eames 
+SensorManagementSensor  
+FIGURE 12.6 
+A UML compo-nent diagram  
+  
+ uote:  “A common 
+mistake that 
+people make 
+when trying to 
+
+design something 
+completely 
+foolproof was to 
+underestimate 
+the ingenuity of 
+complete fools.”  Douglas Adams 
+pre22126_ch12_224-251.indd   247pre22126_ch12_224-251.indd   24713/12/13   6:12 PM13/12/13   6:12 PM

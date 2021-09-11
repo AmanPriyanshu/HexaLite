@@ -1,0 +1,70 @@
+ Section 10.1  Security Planning 
+651  protecting them. The plan may note that some groups may be excluded from respon-
+sibility; for example, joint ventures with other organizations may designate one orga-
+
+nization to provide security for all member organizations. The plan also defines the 
+
+boundaries of responsibility, especially when networks are involved. For instance, the 
+
+plan should clarify who provides the security for a network router, for a leased line to a 
+
+remote site, or for data or processing in a cloud.Even though the security plan should be thorough, there will necessarily be vulner-
+abilities that are not considered. These vulnerabilities are not always the result of igno-
+
+rance or naïveté; rather, they can arise from the addition of new equipment or data as 
+
+the system evolves. They can also result from new situations, such as when a system is 
+
+used in ways not anticipated by its designers. The security plan should detail the process 
+
+to be followed when someone identifies a new vulnerability. In particular, instructions 
+
+should explain how to integrate controls for that vulnerability into the existing security 
+
+procedures.Security Requirements
+The heart of the security plan is its set of requirements
+: functional or performance 
+demands placed on a system to ensure a desired level of security. The requirements are 
+
+usually derived from organizational needs. Sometimes these needs include the need 
+
+to conform to specific security man-
+
+dates imposed from outside, such as 
+by a government agency or a com-
+
+mercial standard.Shari Lawrence Pfleeger [PFL91] points out that we must distinguish the require-
+ments from constraints and controls. A 
+constraint is an aspect of the security policy that 
+constrains, circumscribes, or directs the implementation of the requirements. As defined 
+
+in Chapter 1, a control
+ is an action, device, procedure, or technique that removes or 
+reduces a vulnerability. To see the difference between requirements, constraints, and 
+
+controls, consider the six “requirements” of the U.S. Department of Defense’s TCSEC, 
+
+introduced in Chapter 5. These six items are listed in Table 10-1.
+Given our definitions of requirement, constraint, and control, you can see that the 
+first “requirement” of the TCSEC is really a constraint: the security policy. The second 
+
+and third “requirements” describe mechanisms for enforcing security, not descriptions 
+
+of required behaviors. That is, the second and third “requirements” describe explicit 
+
+implementations, not a general characteristic or property that the system must have. 
+
+However, the fourth, fifth, and sixth TCSEC “requirements” are indeed true require-
+
+ments. They state that the system must have certain characteristics, but they do not 
+
+enforce a particular implementation.These distinctions are important because the requirements explain 
+what should be accomplished, not how. That is, the requirements should always leave the implemen-
+tation details to the designers, whenever possible. For example, rather than writing a 
+
+requirement that certain data records should require passwords for access (an imple-
+
+mentation decision), a security planner should state only that access to the data records 
+should be restricted (and note to whom the access should be restricted).Security requirements document 
+
+organizational and external demands.

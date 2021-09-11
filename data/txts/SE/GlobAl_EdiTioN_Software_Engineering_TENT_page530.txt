@@ -1,0 +1,43 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˚˛˜˜˜
+˜ˇ
+˜style, where REST stands for Representational State Transfer (Fielding 2000). REST 
+is an architectural style based on transferring representations of resources from a 
+
+server to a client. It is the style that underlies the web as a whole and has been used as 
+
+a much simpler method than SOAP/WSDL for implementing web service interfaces.
+The fundamental element in a RESTful architecture is a resource. Essentially, a 
+resource is simply a data element such as a catalog and a medical record, or a docu-
+ment, such as this book chapter. In general, resources may have multiple representa
+-
+tions; that is, they can exist in different formats. For example, this book chapter has 
+
+three representations. These are a MS Word representation, which is used for editing, 
+
+a PDF representation, which is used for web display, and a InDesign representation, 
+
+which is used for publishing. The underlying logical resource made up of text and 
+
+images is the same in all of these representations.In a RESTful architecture, everything is represented as a resource. Resources have 
+a unique identifier, which is their URL. Resources are a bit like objects, with four fun
+-
+damental polymorphic operations associated with them, as shown in Figure 
+18.6(a):1. CreateŠbring the resource into existence.
+2. ReadŠreturn a representation of the resource.3. UpdateŠchange the value of the resource.
+4. DeleteŠmake the resource inaccessible.
+The Web is an example of a system that has a RESTful architecture. Web pages 
+are resources, and the unique identifier of a web page is its URL.
+The web protocols http and https are based on four actions, namely, POST, GET, 
+PUT, and DELETE. These map onto the basic resource operations, as I have shown 
+in Figure 18.6(b):1. POST is used to create a resource. It has associated data that defines the resource.
+2.
+ GET is used to read the value of a resource and return that to the requestor in the 
+specified representation, such as XHTML, that can be rendered in a web browser.
+Resource RCREATE
+UPDATEREAD
+DELETEWeb-accessible
+resource RPOST
+PUTGETDELETE
+URL(a) General resource actions(b) Web resources
+Figure 18.6 Resources and actions 

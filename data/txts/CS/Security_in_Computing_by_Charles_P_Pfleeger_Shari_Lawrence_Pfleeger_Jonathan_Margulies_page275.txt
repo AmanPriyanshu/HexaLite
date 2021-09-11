@@ -1,0 +1,73 @@
+ Section 4.1  Browser Attacks 
+241  In Chapter 2 we explored human-to-computer authentication that used sophisticated 
+techniques such as biometrics and so-called smart identity cards. Although this field 
+
+is advancing rapidly, human usability needs to be considered in such approaches: Few 
+
+people will, let alone can, memorize many unique, long, unguessable passwords. These 
+
+human factors can affect authentication in many contexts because humans often have a 
+
+role in authentication, even of one computer to another. But fully automated computer-
+
+to-computer authentication has additional difficulties, as we describe next.
+Computer AuthenticationWhen a user communicates online with a bank, the communication is really user-to-
+browser and computer-to-bank’s computer. Although the bank performs authentication 
+
+of the user, the user has little sense of having authenticated the bank. Worse, the user’s 
+
+browser and computer in the middle actually interact with the bank’s computing system, 
+
+but the user does not actually see or control that interaction. What is needed is a reliable 
+
+path from the user’s eyes and fingers to the bank, but that path passes through an opaque 
+
+browser and computer.
+Computer authentication uses the same three primitives as human authentication, 
+with obvious variations. There are relatively few ways to use something a computer has 
+
+or is for authentication. If a computer’s address or a component’s serial number cannot 
+into believing the hostages were to be transferred to the supreme com-
+mander of the FARC, Alfonso Cano. Because the infiltrators knew that 
+
+Cesar was unacquainted with most others in the FARC organization, they 
+
+exploited their knowledge by sending him phony messages, purportedly 
+
+from Cano’s staff, advising him of the plan to move the hostages. In the 
+
+plan Cesar was told to have the hostages, Betancourt, the Americans, and 
+
+11 other Colombians, ready for helicopters to pick them up. The two plain 
+
+white helicopters, loaded with soldiers playing the parts of guerillas better 
+
+than some professional actors could, flew into the FARC camp.
+Agents on the helicopters bound the hostages’ hands and loaded 
+them on board; Cesar and another captor also boarded the helicopter, but 
+
+once airborne, they were quickly overpowered by the soldiers. Betancourt 
+
+and the others really believed they were being transferred to another FARC 
+
+camp, but the commander told her they had come to rescue her; only when 
+
+she saw her former captor lying bound on the floor did she really believe 
+
+she was finally free.
+Infiltration of both the local camp and the senior command struc-
+ture of FARC let the Colombian defense accomplish this complex man-in-
+
+the-middle attack. During elaborate preparation, infiltrators on both ends 
+
+intruded in and altered the communication between Cesar and Cano. The 
+
+man-in-the-middle ruse was tricky because the interlopers had to be able 
+
+to represent Cesar and Cano in real time, with facts appropriate for the two 
+
+FARC officials. When boxed in with not enough knowledge, the intermedi-
+
+aries dropped the telephone connection, something believable given the 
+
+state of the Colombian telecommunications network at the time. 

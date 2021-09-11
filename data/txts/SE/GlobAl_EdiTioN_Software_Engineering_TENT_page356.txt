@@ -1,0 +1,43 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜the components. If appropriate, they liaise with the component developers to check that 
+the developers have used dependable processes to create these components and to 
+
+examine the component source code. Once the safety certification team is satisfied that 
+
+a component meets its specification and does not have ﬁhiddenﬂ functionality, they may 
+
+issue a certificate allowing that component to be used in safety-critical systems.ˇˇFormal methods of software development, as I discussed in Chapter 10, rely on a 
+
+formal model of the system that serves as a system specification. These formal 
+ methods are mainly concerned with mathematically analyzing the specification; 
+
+with transforming the specification to a more detailed, semantically equivalent rep-
+resentation; or with formally verifying that one representation of the system is 
+
+semantically equivalent to another representation.The need for assurance in safety-critical systems has been one of the principal 
+drivers in the development of formal methods. Comprehensive system testing is 
+
+extremely expensive and cannot be guaranteed to uncover all of the faults in a sys-
+tem. This is particularly true of systems that are distributed, so that system compo-
+nents are running concurrently. Several safety-critical railway systems were 
+
+developed using formal methods in the 1990s (Dehbonei and Mejia 1995; Behm 
+
+et al. 1999). Companies such as Airbus routinely use formal methods in their soft
+-
+ware development for critical systems (Souyris et al. 2009).Formal methods may be used at different stages in the V & V process:1. A formal specification of the system may be developed and mathematically ana-
+lyzed for inconsistency. This technique is effective in discovering specification 
+
+errors and omissions. Model checking, discussed in the next section, is a par
+-
+ticularly effective approach to specification analysis.2. You can formally verify, using mathematical arguments, that the code of a soft-
+ware system is consistent with its specification. This requires a formal specifi-
+cation. It is effective in discovering programming and some design errors.Because of the wide semantic gap between a formal system specification and pro-gram code, it is difficult and expensive to prove that a separately developed program is 
+Licensing of software engineersIn some areas of engineering, safety engineers must be licensed engineers. Inexperienced, poorly qualified engineers 
+
+are not allowed to take responsibility for safety. In 30 states of the United States, there is some form of licensing for 
+
+software engineers involved in safety-related systems development. These states require that engineering involved 
+
+in safety-critical software development should be licensed engineers, with a defined minimum level of qualifica-tions and experience. This is a controversial issue, and licensing is not required in many other countries.http://software-engineering-book.com/safety-licensing/

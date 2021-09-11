@@ -1,0 +1,71 @@
+364 PART TWO  
+MODELING 
+ 
+Navigation elements: 
+ A text or graphic indicator that initiates validation and processing.   
+ 
+Navigation. 
+ Assist the user in navigating through hierarchical menus, Web 
+pages, and interactive display screens.  
+ 
+ 
+   
+ 
+Pattern: 
+  Edit-in-place 
+   
+Brief description: 
+ Provide simple text editing capability for certain types of content in the location that it is displayed. No need for the user to enter 
+a text editing function or mode explicitly. 
+  
+Details: 
+ The user sees content on the display that must be changed. A mouse double-click on the content indicates to the system that editing is 
+desired. The content is highlighted to signify that editing mode is available 
+and the user makes appropriate changes.   
+Navigation elements: 
+ None.   
+ 
+E-commerce. 
+ Speciﬁ
+ c to websites, these patterns implement recurring ele-
+ments of e-commerce applications.  
+ 
+ 
+   
+ 
+Pattern: 
+  Shopping cart 
+   
+Brief description: 
+ Provides a list of items selected for purchase.   
+Details: 
+ Lists item, quantity, product code, availability (in stock, out of 
+stock), price, delivery information, shipping costs, and other relevant 
+purchase information. Also provides ability to edit (e.g., remove, change 
+quantity).   
+Navigation elements: 
+ Contains ability to proceed with shopping or go to checkout.   
+Each of the preceding example patterns (and all patterns within each category) would also have a complete component-level design, including design classes, 
+attributes, operations, and interfaces.  A comprehensive discussion of user interface patterns is beyond the scope of this book. If you have further interest, see [Yah13], [UXM10], [Gub09], [Duy02], 
+
+[Tid02], and [Bor01] for further information. 
+  
+ 
+ 
+ 
+ 16.6  
+WEBAPP DESIGN PATTERNS
+  
+ 
+Throughout this chapter you’ve learned that there are different types of patterns and many different ways they can be categorized. When you consider the design 
+problems that must be solved when a WebApp is to be built, it’s worth consid-
+
+ering pattern categories by focusing on two dimensions: the design focus of the 
+pattern and its level of granularity.  
+Design focus 
+ identiﬁ
+ es which aspect of the 
+design model is relevant (e.g., information architecture, navigation, interaction). 
+ Granularity 
+ identiﬁ es the level of abstraction that is being considered (e.g., does 
+pre22126_ch16_347-370.indd   364pre22126_ch16_347-370.indd   36416/12/13   6:22 PM16/12/13   6:22 PM

@@ -1,0 +1,63 @@
+CHAPTER 29  
+SOFTWARE CONFIGURATION MANAGEMENT
+ 641a very short time period using a customer-driven approach. Subsequent incre-
+ments add additional content and functionality, and each is likely to implement 
+
+changes that lead to enhanced content, better usability, improved aesthetics, 
+
+better navigation, enhanced performance, and stronger security. Therefore, in 
+
+the agile world of Web and MobileApps, change is viewed somewhat differently. 
+ If you’re a member of a software team that builds Web or MobileApps, you 
+must embrace change. And yet, a typical agile team eschews all things that 
+ appear to be process-heavy, bureaucratic, and formal. Software conﬁ
+ guration 
+management is often viewed (albeit incorrectly) to have these characteristics. 
+This seeming contradiction is remedied not by rejecting SCM principles, prac-
+tices, and tools, but rather by molding them to meet the special needs of Web and 
+
+mobile projects.   
+ 
+29.4.1   
+Dominant Issues  
+ 
+ 
+As Web and MobileApps become increasingly important to business survival and 
+growth, the need for conﬁ guration management grows. Why? Because without 
+effective controls, improper changes to these applications (recall that immedi-
+acy and continuous evolution are dominant attributes) can lead to: unauthorized 
+posting of new product information, erroneous or poorly tested functionality that 
+frustrates users, security holes that jeopardize internal company systems, and 
+other economically unpleasant or even disastrous consequences.  The general strategies for software conﬁ guration management (SCM) de-
+scribed in this chapter are applicable, but tactics and tools must be adapted to 
+conform to the unique nature of Web and MobileApps. 
+ Four issues [Dar99] should be considered when developing tactics for WebApp 
+conﬁ guration management. 
+ 
+ 
+Content.   A typical WebApp contains a vast array of content—text, graphics, ap-
+plets, scripts, audio/video ﬁ les, forms, active page elements, tables, streaming 
+data, and many others. The challenge is to organize this sea of content into a ra-
+tional set of conﬁ guration objects (Section 29.1.4) and then establish appropriate 
+conﬁ guration control mechanisms for these objects. One approach is to model the 
+WebApp content using conventional data modeling techniques [Wik12], attaching 
+
+a set of specialized properties to each object. The static/dynamic nature of each 
+object and its projected longevity (e.g., temporary, ﬁ
+ xed existence, or permanent 
+object) are examples of properties that are required to establish an effective SCM 
+approach. For example, if a content item is changed hourly, it has temporary lon-
+
+gevity. The control mechanisms for this item would be different (less formal) from 
+
+those applied for a forms component that is a permanent object.   
+ 
+People.   
+Because a signiﬁ cant percentage of WebApp development continues to 
+be conducted in an ad hoc manner, any person involved in the WebApp can (and 
+
+often does) create content. Many content creators have no software engineering  What 
+impact does uncontrolled 
+change have on 
+ebApp? 
+?pre22126_ch29_623-652.indd   641pre22126_ch29_623-652.indd   64113/12/13   6:16 PM13/12/13   6:16 PM

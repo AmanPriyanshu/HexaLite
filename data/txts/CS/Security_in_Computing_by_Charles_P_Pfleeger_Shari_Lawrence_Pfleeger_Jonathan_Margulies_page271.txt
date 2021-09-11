@@ -1,0 +1,67 @@
+ Section 4.1  Browser Attacks 
+237  compromise a computer you have to have physical access to install (and later retrieve) 
+the device. You also need to conceal the device so the user will not notice the logger (for 
+
+example, installing it on the back of a desktop machine). In software, the logger is just 
+
+a program installed like any malicious code. Such devices can capture passwords, login 
+
+identities, and all other data typed on the keyboard. Although not limited to browser 
+
+interactions, a keystroke logger could certainly record all keyboard input to the browser.
+Page-in-the-MiddleA page-in-the-middle attack is another type of browser attack in which a user is redi-
+rected to another page. Similar to the man-in-the-browser attack, a page attack might 
+
+wait until a user has gone to a particular web site and present a fictitious page for the 
+
+user. As an example, when the user clicks “login” to go to the login page of any site, the 
+
+attack might redirect the user to the attacker’s page, where the attacker can also capture 
+
+the user’s credentials.
+The admittedly slight difference between these two browser attacks is that the man-
+in-the-browser action is an example of an infected browser that may never alter the sites 
+
+visited by the user but works behind the scenes to capture information. In a page-in-
+
+the-middle action, the attacker redirects the user, presenting different web pages for the 
+
+user to see.Program Download Substitution
+Coupled with a page-in-the-middle attack is a download substitution. In a 
+download 
+substitution, the attacker presents a page with a desirable and seemingly innocuous 
+program for the user to download, 
+
+for example, a browser toolbar or 
+
+a photo organizer utility. What the 
+
+user does not know is that instead 
+
+of or in addition to the intended pro-
+gram, the attacker downloads and 
+
+installs malicious code. The advantage for the attacker of a program download substitution is that users have 
+been conditioned to be wary of program downloads, precisely for fear of downloading 
+
+malicious code. In this attack, the user knows of and agrees to a download, not realiz-
+
+ing what code is actually being installed. (Then again, users seldom know what really 
+
+installs after they click [Yes].) This attack also defeats users’ access controls that would 
+
+normally block software downloads and installations, because the user intentionally 
+
+accepts this software.
+User-in-the-Middle
+A different form of attack puts a human between two automated processes so that the 
+human unwittingly helps spammers register automatically for free email accounts.
+A CAPTCHA is a puzzle that supposedly only a human can solve, so a server appli-
+cation can distinguish between a human who makes a request and an automated pro-
+
+gram generating the same request repeatedly. Think of web sites that request votes to 
+A user agreeing to install a program has 
+
+no way to know what that program will 
+
+actually do.

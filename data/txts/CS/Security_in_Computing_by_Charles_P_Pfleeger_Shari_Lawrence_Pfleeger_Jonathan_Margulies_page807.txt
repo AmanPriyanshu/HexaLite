@@ -1,0 +1,73 @@
+ Section 12.1  Cryptology 
+773  This background information has readied you to study widely used encryption 
+schemes today. Using these schemes is fairly easy, even though the detailed construc-
+
+tion of the algorithms can be quite complex. As you study the three algorithms, keep 
+
+in mind the possibility that cryptanalysts are also working to defeat these encryptions.
+Cryptographic PrimitivesCryptography involves two basic techniques: replacing and shuffling. These operations 
+
+can be applied in complex patterns. With computers, the complexity of the patterns is lim-
+
+ited only by the time one is willing to devote to the encryption and decryption processes.
+As Halderman’s team explains, however, the DRAM data loss is not 
+immediate. Data remain for a few seconds and the loss is gradual, not 
+
+instantaneous. They found reports of a semiconductor device that held its 
+
+data for a week when maintained in liquid nitrogen, approximately 
+200°C; they ran their own test and found only 0.17 percent data loss after 60 min-
+
+utes in liquid nitrogen without power outside the computer.
+Most attackers are not walking around with a container of liquid nitro-
+gen. Halderman’s team used a readily available alternative: electronics 
+
+shops sell aerosol cans of “canned air,” a spray to blow dust and other 
+
+impurities out of electronics. Despite the name, these cans contain com-
+
+pressed gasses, a compressed fluorohydrocarbon refrigerant, that is 
+
+approximately 
+50°C in liquid form, and the liquid can leak out if the can is 
+inverted. Halderman’s team used such products in their experiments, find-
+
+ing that they could preserve memory contents for several minutes.
+So how does a computer chip lead to cryptanalysis? Encryption and 
+decryption both require the key. If an application performs cryptography for 
+
+a user, it has to store the key somewhere, usually in memory to be available 
+
+for feeding into the encryption or decryption routine. Especially helpful is 
+
+that encryption programs often precompute part of their work, trading an 
+
+amount of memory space (to store precomputed tables) for the time saved 
+
+by reducing the work to do each encryption or decryption. The pattern of 
+
+these precomputed tables helps the team locate such tables in memory, 
+
+making them easier to find than, say, a bank account number. Because 
+
+Halderman’s team can preserve the contents of a memory chip, they have 
+
+enough time to copy its entire contents to another stable medium before it 
+
+decays seriously. Once the data are on a nonvolatile medium, the analysts 
+
+have the luxury of time to perform detailed forensic analysis on memory, 
+
+looking for clues that show where keys are stored. 
+Admittedly, this example shows a highly creative (some people might 
+say bizarre or even pathological) approach to obtaining sensitive data. 
+
+Nevertheless, it exemplifies two points we originally make in Chapter 1: 
+
+First, the attacker can use any tools or techniques; there is no concept of 
+
+“playing nicely” in cryptanalysis (or in security). Second, motivation mat-
+
+ters; a highly motivated attacker has incentive to develop and use highly 
+
+sophisticated attacks that may yield a rich payoff.

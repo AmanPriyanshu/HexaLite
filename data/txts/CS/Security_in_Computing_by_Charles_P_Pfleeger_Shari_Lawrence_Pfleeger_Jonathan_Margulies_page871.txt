@@ -1,0 +1,71 @@
+ Section 13.3  Electronic Voting 
+837  • The voting system must be tamperproof, and the election officials must be pre-
+vented from allowing it to be tampered with.
+• All votes must be reported accurately.
+
+• The voting system must be available for use throughout the election period.
+
+• An audit trail must be kept to detect irregularities in voting, but without disclos-
+ing how any individual voted.
+As people used to thinking of threats and vulnerabilities (in part from your reading of this book), you may already be thinking of ways to negate some items on this list. 
+
+These conditions are challenging in ordinary paper- and machine-based elections; they 
+
+are even harder to meet in computer-based elections, especially if there is no mecha-
+
+nism to enable the voter to verify that the vote recorded is the same as the vote cast. And 
+
+as we noted above, voting privacy is essential; in some repressive countries, voting for 
+
+the wrong candidate can be fatal.
+By looking at the staggering amounts of financial contributions to support candidates 
+in public elections in the United States, we see that much is at stake in these contests. 
+
+Although we would like to believe in the impartiality of this support, the magnitude of 
+
+the numbers suggests that there would be ample motive for an attacker to try to manipu-
+
+late the outcome of the election. If a group donated a large sum of money for a can-
+
+didate’s election that was still up to 
+
+the voters, might the group choose 
+
+to spend that money more effec-
+
+tively to support an attacker who 
+
+could produce a definite outcome?
+Fair elections are important because public confidence in the validity of the outcome 
+is critical. Consequently, a fair election process must include a mechanism for validat-
+
+ing both the accuracy of the collection and the reporting of votes. In a poorly designed 
+
+process, these two requirements can be contradictory.
+What Are the Critical Issues?
+One way to enforce the security of the voting process is to use a protocol that is fol-
+
+lowed carefully by everyone involved. DeMillo and Merritt [DEM83] were among the 
+
+first to devise protocols for computerized voting. Shortly thereafter, Hoffman investi-
+
+gated the security and reliability of possible electronic voting schemes [HOF87] and 
+
+recommended ways to use computers to cast votes at polling places [HOF00]. 
+Indeed, many researchers are skeptical that electronic voting can ever be trusted. For 
+example, Rubin’s analysis [RUB00] concludes that, “Given the current state of insecu-
+
+rity of hosts and the vulnerability of the Internet to manipulation and denial-of-service 
+attacks, there is no way that a public election of any significance involving remote elec-
+
+tronic voting could be carried out securely.”
+Several analyses have borne out these fears. For example, [SCH04] details problems 
+with voting machines, and the analysis by Di Franco et al. [DIF04] of the U.S. presi-
+
+dential election in 2000 demonstrates that a change of only two votes in each precinct 
+
+would have resulted in a completely different outcome: Gore instead of Bush. More 
+In terms of method–opportunity–
+motive, affecting election results 
+
+presents possibilities for all three.

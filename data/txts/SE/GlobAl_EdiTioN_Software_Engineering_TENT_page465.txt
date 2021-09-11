@@ -1,0 +1,51 @@
+Component-based software engineering (CBSE) emerged in the late 1990s as an 
+approach to software systems development based on reusing software components. 
+Its creation was motivated by frustration that object-oriented development had not 
+
+led to extensive reuse, as had been originally suggested. Single-object classes were 
+
+too detailed and specific and often had to be bound with an application at compile-
+time. You had to have detailed knowledge of the classes to use them, which usually 
+meant that you had to have the component source code. Selling or distributing 
+
+objects as individual reusable components was therefore practically impossible.Components are higher-level abstractions than objects and are defined by their 
+interfaces. They are usually larger than individual objects, and all implementation 
+
+details are hidden from other components. Component-based software engineering 
+is the process of defining, implementing, and integrating or composing these loosely 
+
+coupled, independent components into systems.CBSE has become as an important software development approach for large-scale enterprise systems, with demanding performance and security requirements. 
+
+Customers are demanding secure and dependable software that is delivered and 
+
+deployed more quickly. The only way that these demands can be met is to build soft-
+ware by reusing existing components.The essentials of component-based software engineering are:1. Independent components that are completely specified by their interfaces. There 
+should be a clear separation between the component interface and its implemen-
+tation. This means that one implementation of a component can be replaced by 
+another, without the need to change other parts of the system.2.
+ Component standards that define interfaces and so facilitate the integration of 
+
+components. These standards are embodied in a component model. They define, at 
+
+the very minimum, how component interfaces should be specified and how com-
+ponents communicate. Some models go much further and define interfaces that 
+
+should be implemented by all conformant components. If components  conform to 
+standards, then their operation is independent of their programming language. 
+
+Components written in different languages can be integrated into the same system.3.
+ Middleware that provides software support for component integration. To 
+
+make independent, distributed components work together, you need 
+ middleware  support that handles component communications. Middleware for 
+component support handles low-level issues efficiently and allows you to 
+
+focus on application-related problems. In addition, middleware for component 
+
+support may provide support for resource allocation, transaction management, 
+
+security, and˜concurrency.4.
+ A development process that is geared to component-based software engineer
+-ing. You need a development process that allows requirements to evolve, 
+
+depending on the functionality of available components.Component-based development embodies good software engineering practice. It often makes sense to design a system using components, even if you have to develop ˜˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜˜˜

@@ -1,0 +1,82 @@
+676 Chapter 10  
+Management and IncidentsTABLE 10-4 
+Attributes Contributing to Vulnerabilities 
+Design/ArchitectureBehavioralGeneral
+• Singularity– Uniqueness
+– Centrality
+– Homogeneity• Separability
+• Logic/implementation errors; 
+fallibility
+• Design sensitivity, fragility, 
+limits, finiteness
+• Unrecoverability
+• Behavioral sensitivity/fragility
+• Malevolence
+
+• Rigidity
+• Malleability
+• Gullibility, deceivability, 
+naïveté
+• Complacency
+
+• Corruptibility, controllability
+• Accessible, detectable, 
+identifiable, transparent, 
+
+interceptable• Hard to manage or control
+
+• Self-unawareness and 
+unpredictability• PredictabilityFrom [ANT02], copyright © RAND 2002, reprinted by permission.
+SIDEBAR 10-7 Three Approaches to Probability
+Normally, we think of probability or likelihood as one concept. But in fact, 
+we can think about and derive probabilities in many ways. The approach 
+
+to probability that you use suggests how much confidence you can have in 
+
+the probability numbers you derive.
+Classical probability
+ is the simplest and most theoretical kind. It is 
+based on a model of how the world works. For example, to calculate the 
+
+probability that a given side of a six-sided die will result from tossing the 
+
+die, we think of a model of a cube, where each side is equally sized and 
+
+weighted. This kind of probability requires no empirical data. The answers 
+
+can be derived from the model itself, and in an objective way. However, 
+
+classical probability requires knowledge of elementary events and is bound 
+
+to the model’s correctness. Classical probability is not well suited for han-
+
+dling problems involving infinite sets.
+When we cannot use classical probability, we often choose to use 
+fre-
+quency probability
+. Here, instead of building a model of a die, we take a real 
+die and toss it many times, recording the result each time. This approach to 
+
+probability requires historical data and assumes environmental stability and 
+
+replication. In our example, we assume that the die is weighted properly 
+
+and the tossing motion is the same each time. Frequency probabilities are 
+
+never exact. What we hope is that, in their limit, they approach the theoreti-
+
+cal probability of an event. Thus, if 100 people each toss a die 100 times, 
+
+each person’s distribution may be slightly different from the others, but in 
+
+the aggregate the distribution will approach the correct one. Clearly, fre-
+
+quency probability cannot be applied to unique events; for example, we 
+
+cannot use it to estimate the probability that software will fail in a particular 
+
+way on a particular day.
+When we cannot use classical or frequency probability, we often rely 
+on subjective probability
+, which requires neither data nor formal analysis. 
+Here, we ask experts to give us their opinions on the likelihood of an event, 

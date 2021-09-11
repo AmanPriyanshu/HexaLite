@@ -1,0 +1,30 @@
+APPENDIX 3  
+FORMAL METHODS 905 where declarations identify the variables that comprise the system state and the 
+invariant imposes constraints on the manner in which the state can evolve. A 
+summary of Z language notation is presented in   Table A3.2. 
+TABLE A3.2  
+SUMMARY OF Z NOTATION
+Z notation is based on typed set theory and first-order logic. Z provides a construct, called a schema, to describe a 
+
+specification’s state space and operations. A schema groups variable declarations with a list of predicates that constrain the 
+
+possible value of a variable. In Z, the schema X is defined by the form 
+
+ X  declarations   predicates Global functions and constants are defined by the form
+
+  declarations   predicates The declaration gives the type of the function or constant, while the predicate gives it value. Only an abbreviated set of 
+Z symbols is presented in this table. 
+Sets:
+S : PXS is declared as a set of Xs.X [ Sx is a member of S.x ñ Sx is not a member of S. S # TS is a subset of T: Every member of 
+S is also in T.S ¿ TThe union of S and T: It contains every member of 
+S or T or both. S š TThe intersection of S and T: It contains every member of both 
+S and T.S \ TThe difference of 
+S and T: It contains every member of 
+S except those also in T. [Empty set: It contains no members. {x}Singleton set: It contains just x. 
+
+NThe set of natural numbers 0, 1, 2, …. S : F XS is declared as a finite set of Xs. max (S)  The maximum of the nonempty set of numbers S.
+Functions:
+f:X  Yf is declared as a partial injection from 
+X to Y.dom fThe domain of f: the set of values x for which f(x) is defined. ran fThe range of f: the set of values taken by f(x) as x varies over the domain of f. f ! {x ¡ y}A function that agrees with 
+f except that x is mapped to y. {x} v fA function like f, except that x is removed from its domain. Logic:
+P ` QP and Q: It is true if both P and Q are true. P  QP implies Q: It is true if either Q is true or P is false. uS9 5 u SNo components of schema S change in an operation.

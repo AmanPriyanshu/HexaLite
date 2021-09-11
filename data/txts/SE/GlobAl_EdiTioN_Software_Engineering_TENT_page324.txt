@@ -1,0 +1,45 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜The company that is procuring the system may include explicit diversity policies that 
+are intended to maximize the differences between the system versions. For example:1.
+ By including requirements that different design methods should be used. For 
+example, one team may be required to produce an object-oriented design, and 
+another team may produce a function-oriented design.2.
+ By stipulating that the programs should be implemented using different pro-
+gramming languages. For example, in a three-version system, Ada, C++, and 
+
+Java could be used to write the software versions.3.
+ By requiring the use of different tools and development environments for the 
+
+system.4. By requiring different algorithms to be used in some parts of the implementa-
+tion. However, this limits the freedom of the design team and may be difficult to 
+reconcile with system performance requirements.Ideally, the diverse versions of the system should have no dependencies and so 
+should fail in completely different ways. If this is the case, then the overall reliability 
+of a diverse system is obtained by multiplying the reliabilities of each channel. So, if 
+
+each channel has a probability of failure on demand of 0.001, then the overall 
+
+POFOD of a three-channel system (with all channels independent) is a million times 
+
+greater than the reliability of a single channel system.In practice, however, achieving complete channel independence is impossible. It has 
+been shown experimentally that independent software design teams often make the 
+
+same mistakes or misunderstand the same parts of the specification (Brilliant, Knight, 
+
+and Leveson 1990; Leveson 1995). There are several reasons for this misunderstanding:1. Members of different teams are often from the same cultural background and may 
+have been educated using the same approach and textbooks. This means that they 
+
+may find the same things difficult to understand and have common difficulties in 
+
+communicating with domain experts. It is quite possible that they will, indepen-dently, make the same mistakes and design the same algorithms to solve a problem.2. If the requirements are incorrect or they are based on misunderstandings about 
+
+the environment of the system, then these mistakes will be reflected in each 
+
+implementation of the system.3.
+ In a critical system, the detailed system specification that is derived from the 
+
+system™s requirements should provide an unambiguous definition of the sys
+-tem™s behavior. However, if the specification is ambiguous, then different teams 
+may misinterpret the specification in the same way.One way to reduce the possibility of common specification errors is to develop 
+detailed specifications for the system independently and to define the specifications in 
+
+different languages. One development team might work from a formal specification, 

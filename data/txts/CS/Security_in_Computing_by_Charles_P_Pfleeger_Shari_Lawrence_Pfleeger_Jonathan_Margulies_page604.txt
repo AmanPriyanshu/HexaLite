@@ -1,0 +1,39 @@
+570 Chapter 8  
+Cloud ComputingSecurity Assertion Markup LanguageTwo prerequisites make FIdM work: trust and standardization. The system that requests 
+identity information must trust the data it receives, the system that provides identity 
+
+information must trust the recipient, and those two systems must have a standard way 
+
+to communicate. The 
+Security Assertion Markup Language 
+(SAML) makes such 
+exchanges possible. It is an XML-based standard that defines a way for systems to 
+
+securely exchange user identity and privilege information.
+Let’s look at a real-world example of where SAML might come into play. Many 
+schools use learning management systems (LMS) such as Blackboard and Canvas to 
+
+help teachers communicate with students. In a typical LMS, each class has a website, 
+and students can use that site to submit homework assignments, check their grades, 
+
+download lectures, and chat with one another. LMSs make good candidates for SaaS 
+
+deployment because they do not process extremely sensitive data or require a lot of 
+
+bandwidth. The only potential hurdle is the identity problem: How does the SaaS know 
+
+which users come from which schools? What classes they are enrolled in? Which 
+
+classes they have just dropped? How do they know that the person claiming to be a 
+
+teacher actually is one?When dealing with hundreds of schools and thousands of students, this sort of iden-
+tity challenge needs to be solved in an automated way. Here is a high-level description 
+
+of how SAML allows that to happen: Once a school signs up for the LMS cloud ser-
+
+vice, the provider needs the URL of the school’s SAML identity server. When a stu-
+
+dent tries to access the LMS, the service redirects the student to that identity server to 
+IdentityManagementSystemUserThird-PartyService ProviderAccessRequest
+Authentication/
+AuthorizationRequestAuthenticationRequestAuthenticationCredentialsAuthorizationResponseAccessResponse132456FIGURE 8-4 Notional View of FIdM

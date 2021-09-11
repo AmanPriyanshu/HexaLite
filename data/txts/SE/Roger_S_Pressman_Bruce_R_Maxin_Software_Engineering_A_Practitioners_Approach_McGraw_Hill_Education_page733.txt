@@ -1,0 +1,106 @@
+703  
+ 
+ 
+ 
+ 
+ 
+ Measurement enables us to gain insight into the process and the proj-ect by providing a mechanism for objective evaluation. Lord Kelvin 
+once said:  
+When you can measure what you are speaking about and express it in numbers, you know something about it; but when you cannot measure, when you cannot ex-
+press it in numbers, your knowledge is of a meager and unsatisfactory kind: it may 
+be the beginning of knowledge, but you have scarcely, in your thoughts, advanced 
+
+to the stage of a science.  
+  
+The software engineering community has taken Lord Kelvin’s words to heart. 
+But not without frustration and more than a little controversy!  Measurement can be applied to the software process with the intent of im-proving it on a continuous basis. Measurement can be used throughout a soft-
+ware project to assist in estimation, quality control, productivity assessment, 
+and project control. Finally, measurement can be used by software engineers 
+
+to help assess the quality of work products and to assist in tactical decision 
+making as a project proceeds (Chapter 30).  PROCESS ANDPROJECT METRICS  
+ 
+ 
+ 
+CHAPTER32  
+KEY CONCEPTS     defect removal 
+efﬁ ciency (DRE)  . . 718  
+    function point (FP)  . 
+710      measurement  . . . . 708  
+
+    metrics  
+    arguments for  . 720  
+
+    baseline. . . . . . 720  
+
+    establishing a 
+
+program. . . . . . 722  
+
+    function-
+
+oriented. . . . . . 710  
+
+    LOC-based 
+
+metrics  . . . . . . 712  
+
+    object-oriented. 713  
+
+    private and 
+
+public. . . . . . . . 706  
+
+    process  . . . . . . 704  
+
+    productivity. . . 712  
+
+    project. . . . . . . 707  
+
+    size-oriented  . . 709  
+ QUICK LOOK   
+What is it?   Software process and project metrics are quantitative mea-
+sures that enable you to gain insight 
+into the efﬁ cacy of the software pro-
+cess and the projects that are conducted using 
+the process as a framework. Basic quality and 
+productivity data are collected. These data 
+are then analyzed, compared against past 
+averages, and assessed to determine whether 
+
+quality and productivity improvements have oc-
+curred. Metrics are also used to pinpoint prob-
+lem areas so that remedies can be developed 
+and the software process can be improved.   
+ 
+Who does it?   Software metrics are analyzed and assessed by software managers. Measures 
+are often collected by software engineers.   
+ 
+Why is it important? 
+  If you don’t measure, 
+judgment can be based only on subjective 
+evaluation. With measurement, trends (either 
+good or bad) can be spotted, better estimates can be made, and true improvement can be 
+accomplished over time.   
+ 
+What are the steps?   Begin by deﬁ ning a 
+limited set of process, project, and prod-
+uct measures that are easy to collect. These 
+measures are often normalized using either 
+
+size- or function-oriented metrics. The result is 
+analyzed and compared to past averages for 
+similar projects performed within the organi-
+
+zation. Trends are assessed and conclusions 
+
+are generated.   
+ 
+What is the work product? 
+  A set of software metrics that provides insight into the process 
+and understanding of the project.   
+ 
+How do I ensure that I’ve done it right?   By applying a consistent, yet simple measurement 
+scheme that is never to be used to assess, re-
+ward, or punish individual performance. 
+ pre22126_ch32_703-726.indd   703pre22126_ch32_703-726.indd   70313/12/13   6:16 PM13/12/13   6:16 PM

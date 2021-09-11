@@ -1,0 +1,66 @@
+604 PART THREE  
+QUALITY MANAGEMENTand syntactic correctness of the code. Then correctness veriﬁ cation is con-
+ducted for the source code.   
+Statistical test planning. 
+ The projected usage of the software is analyzed, and a suite of test cases that exercise a “probability distribution” of usage 
+is planned and designed (Section 28.4). Referring to  Figure 28.1 , this clean-room activity is conducted in parallel with speciﬁ cation, veriﬁ
+ cation, and 
+code generation.   
+Statistical use testing. 
+ Recalling that exhaustive testing of computer soft-ware is impossible (Chapter 23), it is always necessary to design a ﬁ nite 
+number of test cases. Statistical use techniques [Poo88] execute a series of 
+tests derived from a statistical sample (the probability distribution noted 
+earlier) of all possible program executions by all users from a targeted 
+population (Section 28.4).    
+Certiﬁ cation.
+ 
+ Once veriﬁ cation, inspection, and usage testing have been 
+completed (and all errors are corrected), the increment is certiﬁ ed as 
+ready for integration.  The ﬁ rst four activities in the cleanroom process set the stage for the formal 
+veriﬁ cation activities that follow. For this reason, we begin the discussion of the 
+cleanroom approach with the modeling activities that are essential for formal 
+veriﬁ cation to be applied. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 28.2  
+FUNCTIONAL SPECIFICATION
+  
+ 
+The modeling approach in cleanroom software engineering uses a method called  box structure speciﬁ
+ cation.
+ 
+ A “box” encapsulates the system (or some aspect of 
+the system) at some level of detail. Through a process of elaboration or stepwise 
+reﬁ nement, boxes are reﬁ
+ ned into a hierarchy where each box has referential 
+transparency. That is, “the information content of each box speciﬁ
+ cation is sufﬁ
+ -cient to deﬁ ne its reﬁ
+ nement, without depending on the implementation of any 
+other box” [Lin94]. This enables the analyst to partition a system hierarchically, 
+
+moving from essential representation at the top to implementation-speciﬁ c de-
+tail at the bottom. Three types of boxes are used:   
+Black box. 
+ The black box speciﬁ es the behavior of a system or a part of a 
+system. The system (or part) responds to speciﬁ c stimuli (events) by apply-
+ing a set of transition rules that map the stimulus into a response.   
+State box. 
+ The state box encapsulates state data and services (operations) in a manner that is analogous to objects. In this speciﬁ cation view, inputs 
+to the state box (stimuli) and outputs (responses) are represented. The 
+state box also represents the “stimulus history” of the black box, that is, Cleanroom emphasizes tests that exercise the 
+way software is really 
+used. Use cases pro-
+vide input to the test 
+planning process.    A “box” encapsulates 
+
+the system at some 
+level of abstraction and 
+is used in functional 
+speciﬁ cation.  
+pre22126_ch28_601-622.indd   604pre22126_ch28_601-622.indd   60413/12/13   6:15 PM13/12/13   6:15 PM

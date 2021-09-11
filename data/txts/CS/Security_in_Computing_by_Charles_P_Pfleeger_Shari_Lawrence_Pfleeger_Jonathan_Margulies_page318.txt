@@ -1,0 +1,62 @@
+284 Chapter 5  
+Operating Systemsbe applied to parts of a user’s memory space. Memory protection is usually per-
+formed by hardware mechanisms, such as paging or segmentation.
+• File and I/O device access control. 
+The operating system must protect user and system files from access by unauthorized users. Similarly, I/O device use must 
+
+be protected. Data protection is usually achieved by table lookup, as with an 
+
+access control matrix.• Allocation and access control to general objects. 
+Users need general objects, 
+such as constructs to permit concurrency and allow synchronization. However, 
+
+access to these objects must be controlled so that one user does not have a nega-
+
+tive effect on other users. Again, table lookup is the common means by which 
+
+this protection is provided.
+You can probably see security implications in many of these primitive operating 
+systems functions. Operating systems show several faces: traffic director, police agent, 
+
+preschool teacher, umpire, timekeeper, clerk, and housekeeper, to name a few. These 
+
+fundamental, primitive functions of an operating system are called 
+kernel 
+functions, 
+because they are basic to enforcing security as well as the other higher-level operations 
+
+an operating system provides. Indeed, the operating system kernel, which we describe 
+
+shortly, is the basic block that supports all higher-level operating system functions.
+Operating systems did not sprout fully formed with the rich feature set we know 
+today. Instead, they evolved from simple support utilities, as we explain next. The his-
+
+tory of operating systems is helpful to explain why and how operating systems acquired 
+
+the security functionality they have today.
+A Bit of HistoryTo understand operating systems and their security, it can help to know how modern 
+
+operating systems evolved. Unlike the evolutions of many other things, operating sys-
+
+tems did not progress in a straight line from simplest to most complex but instead had a 
+
+more jagged progression.Single UsersOnce upon a time, there were no operating systems: Users entered their programs 
+directly into the machine in binary by means of switches. In many cases, program entry 
+
+was done by physical manipulation of a toggle switch; in other cases, the entry was 
+
+performed with a more complex electronic method, by means of an input device such 
+
+as a keyboard or a punched card or paper tape reader. Because each user had exclusive 
+
+use of the computing system, users were required to schedule blocks of time for running 
+the machine. These users were responsible for loading their own libraries of support 
+
+routines—assemblers, compilers, shared subprograms—and “cleaning up” after use by 
+removing any sensitive code or data.
+For the most part there was only one thread of execution. A user loaded a program 
+and any utility support functions, ran that one program, and waited for it to halt at the 
+
+conclusion of its computation. The only security issue was physical protection of the 
+
+computer, its programs, and data.

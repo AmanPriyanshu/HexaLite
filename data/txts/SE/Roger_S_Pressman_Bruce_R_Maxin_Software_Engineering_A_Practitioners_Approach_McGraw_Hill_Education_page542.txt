@@ -1,0 +1,99 @@
+512 PART THREE  
+QUALITY MANAGEMENTpreceding section, if a set of objects can be linked by relationships that are symmetric, transitive, and reﬂ exive, an equivalence class is present [Bei95]. An 
+equivalence class represents a set of valid or invalid states for input conditions. 
+Typically, an input condition is either a speciﬁ
+ c numeric value, a range of values, 
+a set of related values, or a Boolean condition. Equivalence classes may be de-
+ﬁ ned according to the following guidelines: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1.
+  If an input condition speciﬁ es a range, one valid and two invalid equiva-
+lence classes are deﬁ ned. 
+  
+ 
+ 
+ 2.
+  If an input condition requires a speciﬁ c value, one valid and two invalid 
+equivalence classes are deﬁ ned. 
+  
+ 
+ 
+ 3.
+  If an input condition speciﬁ es a member of a set, one valid and one invalid 
+equivalence class are deﬁ ned. 
+  
+ 
+ 
+ 4.
+  If an input condition is Boolean, one valid and one invalid class are deﬁ ned. 
+   
+By applying the guidelines for the derivation of equivalence classes, test cases for each input domain data item can be developed and executed. Test cases are 
+
+selected so that the largest number of attributes of an equivalence class are 
+exercised at once.   
+ 
+ 
+ 
+23.6.3   
+Boundary Value Analysis 
+ 
+A greater number of errors occurs at the boundaries of the input domain rather than in the “center.” It is for this reason that  
+boundary value analysis 
+ (BVA) has 
+been developed as a testing technique. Boundary value analysis leads to a selec-
+tion of test cases that exercise bounding values.  Boundary value analysis is a test-case design technique that complements equivalence partitioning. Rather than selecting any element of an equivalence 
+class, BVA leads to the selection of test cases at the “edges” of the class. Rather 
+
+than focusing solely on input conditions, BVA derives test cases from the output 
+
+domain as well [Mye79].   
+ 
+Guidelines for BVA are similar in many respects to those provided for equiv-
+alence partitioning:  
+ 
+ 
+ 1.
+  If an input condition speciﬁ es a range bounded by values  
+a 
+ and  b, 
+ test cases should be designed with values  a 
+ and  b 
+ and just above and just below  a 
+ and  b. 
+ 
+  
+ 
+ 
+ 2.
+  If an input condition speciﬁ es a number of values, test cases should be de-
+veloped that exercise the minimum and maximum numbers. Values just 
+
+above and below minimum and maximum are also tested.   
+ 
+ 
+ 3.
+  Apply guidelines 1 and 2 to output conditions. For example, assume that a temperature versus pressure table is required as output from an en-
+gineering analysis program. Test cases should be designed to create an 
+ How do 
+I deﬁ ne 
+equivalence 
+classes for 
+testing? ?  
+ 
+ uote:  “An effective 
+way to test code 
+is to exercise 
+it at its natural 
+boundaries.”  Brian Kernighan 
+   BVA extends equiva-
+
+lence partitioning by 
+
+focusing on data at 
+the “edges” of an 
+equivalence class. pre22126_ch23_496-522.indd   512pre22126_ch23_496-522.indd   51213/12/13   6:14 PM13/12/13   6:14 PM

@@ -1,0 +1,33 @@
+ Section 6.8  Intrusion Detection and Prevention Systems 
+479  As with pattern-matching, heu-ristic intrusion detection is limited 
+
+by the amount of information the 
+
+system has seen (to classify actions 
+into the right category) and how well the current actions fit into one of these categories.
+Rate of data flow does work for detecting flooding. When a particular target receives 
+an abnormally high rate of traffic, that flow stands out for some reason. The reason may 
+
+be legitimate, as when many customers visit a site in response to a television advertise-
+
+ment, or it may be because of an attack.Stateful Protocol Analysis
+As we noted, intrusion detection by means of pattern matching is difficult if the pat-
+tern to be matched is long or variable. A SYN flood attack has a simple pattern (SYN, 
+
+SYN-ACK, no corresponding ACK), but these are three separate steps spread over time; 
+
+detecting the attack requires recognizing step one, later finding step two, and then wait-
+
+ing a reasonable amount of time before concluding that step three is true. Think of an 
+
+intrusion detection system as a state machine, with a state for each of these steps, as 
+shown in Figure 6-65. The IDS needs to record which state it is in. Now multiply the 
+Heuristic intrusion detection infers 
+attacks by tracking suspicious activity.
+FIGURE 6-65 IDS State MachineState 1:Initial
+State 2:SYN received
+State 3:SYN-ACK sent
+State4:
+Waiting for ACK
+ACK waitlimitexpired
+One-time ormany?ACK received:normalIndicateattackManyInfrequent:Probably an error,not an attackSYN recognized

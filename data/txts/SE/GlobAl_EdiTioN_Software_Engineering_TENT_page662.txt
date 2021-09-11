@@ -1,0 +1,39 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜˜
+˜Hierarchical groups can work well when a well-understood problem can be easily 
+broken down into software components that can be developed in different parts of the 
+hierarchy. This grouping allows for rapid decision making, which is why  military organ-izations follow this model. However, it rarely works well for complex software engineer
+-
+ing. In software development, effective team communications at all levels is essential:1. Changes to the software often require changes to several parts of the system, and this requires discussion and negotiation at all levels in the hierarchy.2.
+ Software technologies change so fast that more junior staff may know more 
+
+about new technologies than experienced staff. Top-down communications may 
+mean that the project manager does not find out about the opportunities of using 
+
+these new technologies. More junior staff may become frustrated because of 
+
+what they see as old-fashioned technologies being used for development.A major challenge facing project managers is the difference in technical ability 
+between group members. The best programmers may be up to 25 times more  productive 
+than the worst programmers. It makes sense to use these ﬁsuper-
+ programmersﬂ in the 
+most effective way and to provide them with as much support as possible.At the same time, focusing on the super-programmers can be demotivating for other 
+group members who are resentful that they are not given responsibility. They may be 
+
+concerned that this will affect their career development. Furthermore, if a ﬁsuper- programmerﬂ leaves the company, the impact on a project can be huge. Therefore, 
+
+adopting a group model that is based on individual experts can pose  significant risks.˘˘It is absolutely essential that group members communicate effectively and efficiently 
+with each other and with other project stakeholders. Group members must exchange 
+information on the status of their work, the design decisions that have been made, 
+and changes to previous design decisions. They have to resolve problems that arise 
+with other stakeholders and inform these stakeholders of changes to the system, the 
+group, and delivery plans. Good communication also helps strengthen group cohe-
+siveness. Group members come to understand the motivations, strengths, and weak-
+nesses of other people in the group.The effectiveness and efficiency of communications are influenced by:1. Group size As a group gets bigger, it gets harder for members to communicate  effectively. The number of one-way communication links is n * (n ˚ 1), where n 
+is the group size, so, with a group of eight members, there are 56 possible 
+ communication pathways. This means that it is quite possible that some people 
+will rarely communicate with each other. Status differences between group 
+
+members mean that communications are often one-way. Managers and experi-
+enced engineers tend to dominate communications with less experienced staff, 
+
+who may be reluctant to start a conversation or make critical remarks.

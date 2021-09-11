@@ -1,0 +1,68 @@
+548 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 3.
+   
+Raw data acquired from the database must be transmitted to the WebApp 
+server and properly formatted for subsequent transmittal to the client.
+ 
+ Therefore, tests that demonstrate the validity of the raw data received by 
+the WebApp server must be developed, and additional tests that demon-
+
+strate the validity of the transformations applied to the raw data to create 
+valid content objects must also be created.   
+ 
+ 
+ 4.
+   
+The dynamic content object(s) must be transmitted to the client in a form that can be displayed to the end user.
+ 
+ Therefore, a series of tests must be designed to (1) uncover errors in the content object format and (2) test 
+compatibility with different client environment conﬁ gurations. 
+   
+Considering these four factors, test-case design methods should be applied for each of the “layers of interaction” [Ngu01] noted in  Figure 25.2 . Testing should 
+ensure that (1) valid information is passed between the client and server from the 
+interface layer, (2) the WebApp processes script correctly and properly extract or 
+
+format user data, (3) user data are passed correctly to a server-side data trans-
+
+formation function that formats appropriate queries (e.g., SQL), (4) queries are 
+passed to a data management layer  5 
+ 
+ that communicates with database access 
+routines (potentially located on another machine).  
+ 
+ 
+ 
+ 
+ 
+  The data transformation, data management, and database access layers shown in  Figure 25.2  are often constructed with reusable components that have 
+ 
+ 
+ 
+ uote:  “[W]e are unlikely 
+to have conﬁ dence 
+
+in a website that 
+suffers frequent 
+downtime, hangs 
+in the middle of 
+a transaction, 
+or has a poor 
+sense of usability. 
+
+Testing, therefore, 
+
+has a crucial role 
+in the overall 
+development 
+process.”  Wing Lam 
+  
+5  The data management layer typically incorporates an SQL call-level interface (SQL-CLI) such 
+as Microsoft OLE/ADO or Java Database Connectivity (JDBC). Client layer - user interface
+HTML scriptsUser dataUser dataRaw dataSQLSQLServer layer - WebApp
+Server layer - data transformation
+Server layer - data managment
+Database layer - data accessDatabase FIGURE 25.2 
+Layers of interactionpre22126_ch25_540-566.indd   548pre22126_ch25_540-566.indd   54813/12/13   6:15 PM13/12/13   6:15 PM

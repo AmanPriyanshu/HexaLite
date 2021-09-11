@@ -1,0 +1,65 @@
+220 Chapter 3  
+Programs and Programminglogic analyzer, we can prove that the initial assumptions, plus the implications of the 
+program statements, produce the terminal condition. In this way, we can show that a 
+
+particular program achieves its goal. Sidebar 3-13 presents the case for appropriate use 
+
+of formal proof techniques. Proving program correctness, although desirable and useful, is hindered by several 
+factors. (For more details see [PFL94].)
+• Correctness proofs depend on a programmer’s or logician’s ability to translate a 
+program’s statements into logical implications. Just as programming is prone to 
+
+errors, so also is this translation.• Deriving the correctness proof from the initial assertions and the implications of 
+statements is difficult, and the logical engine to generate proofs runs slowly. The 
+SIDEBAR 3-13  
+Formal Methods Can Catch Difficult-to-
+See Problems
+Formal methods are sometimes used to check various aspects of secure 
+systems. There is some disagreement about just what constitutes a formal 
+
+method, but there is general agreement that every formal method involves 
+
+the use of mathematically precise specification and design notations. In its 
+
+purest form, development based on formal methods involves refinement 
+
+and proof of correctness at each stage in the life cycle. But all formal meth-
+
+ods are not created equal.
+Shari Lawrence Pfleeger and Les Hatton [PFL97a] examined the 
+effects of formal methods on the quality of the resulting software. They point 
+
+out that, for some organizations, the changes in software development 
+
+practices needed to support such techniques can be revolutionary. That is, 
+
+there is not always a simple migration path from current practice to inclu-
+
+sion of formal methods. That’s because the effective use of formal methods 
+
+can require a radical change right at the beginning of the traditional soft-
+
+ware life cycle: how we capture and record customer requirements. Thus, 
+
+the stakes in this area can be particularly high. For this reason, compelling 
+
+evidence of the effectiveness of formal methods is highly desirable.
+Susan Gerhart et al. [GER94] point out: 
+There is no simple answer to the question: do formal methods pay off? Our 
+cases provide a wealth of data but only scratch the surface of information avail-
+
+able to address these questions. All cases involve so many interwoven factors 
+
+that it is impossible to allocate payoff from formal methods versus other factors, 
+
+such as quality of people or effects of other methodologies. Even where data 
+
+was collected, it was difficult to interpret the results across the background of 
+
+the organization and the various factors surrounding the application.
+Indeed, Pfleeger and Hatton compare two similar systems: one sys-
+tem developed with formal methods and one not. The former has higher 
+
+quality than the latter, but other possibilities explain this difference in qual-
+
+ity, including that of careful attention to the requirements and design.

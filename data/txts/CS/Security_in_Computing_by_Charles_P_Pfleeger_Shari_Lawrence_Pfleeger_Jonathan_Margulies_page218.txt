@@ -1,0 +1,78 @@
+184 Chapter 3  
+Programs and ProgrammingAlthough the malware writer usu-
+ally must find a vulnerability and 
+
+hope the intended victim has not yet 
+applied a protective or corrective 
+
+patch, each vulnerability represents 
+a new opening for wreaking havoc 
+
+against all users of a product. Flaws happen, in spite of the best efforts of development teams. Having discov-
+ered a flaw, a security researcher—or a commercial software vendor—faces a dilemma: 
+
+Announce the flaw (for which there may not yet be a patch) and alert malicious code 
+
+writers of yet another vulnerability to attack, or keep quiet and hope the malicious code 
+
+writers have not yet discovered the flaw. As Sidebar 3-7 describes, a vendor who cannot 
+
+release an effective patch will want to limit disclosure. If one attacker finds the vulner-
+
+ability, however, word will spread quickly through the underground attackers’ network. 
+
+Competing objectives make vulnerability disclosure a difficult issue.
+SIDEBAR 3-7 Just Keep It a Secret and It’s Not There
+In July 2005, security researcher Michael Lynn presented information to the 
+Black Hat security conference. As a researcher for Internet Security Sys-
+
+tems (ISS), he had discovered what he considered serious vulnerabilities in 
+
+the underlying operating system IOS on which Cisco based most of its fire-
+
+wall and router products. ISS had made Cisco aware of the vulnerabilities a 
+
+month before the presentation, and the two companies had been planning 
+
+a joint talk there but canceled it.
+Concerned that users were in jeopardy because the vulnerability 
+could be discovered by attackers, Lynn presented enough details of the 
+
+vulnerability for users to appreciate its severity. ISS had tried to block Lynn’s 
+
+presentation or remove technical details, but he resigned from ISS rather 
+
+than be muzzled. Cisco tried to block the presentation, as well, demand-
+
+ing that 20 pages be torn from the conference proceedings. Various sites 
+
+posted the details of the presentation, lawsuits ensued, and the copies 
+
+were withdrawn in settlement of the suits. The incident was a public rela-
+
+tions fiasco for both Cisco and ISS. (For an overview of the facts of the situ-
+ation, see Bank [BAN05].)The issue remains: How far can or should a company go to limit vulner-
+ability disclosure? On the one hand, a company wants to limit disclosure, 
+
+while on the other hand users should know of a potential weakness that might 
+
+affect them. Researchers fear that companies will not act quickly to close vul-
+
+nerabilities, thus leaving customers at risk. Regardless of the points, the legal 
+
+system may not always be the most effective way to address disclosure.
+Computer security is not the only domain in which these debates arise. 
+Matt Blaze, a computer security researcher with AT&T Labs, investigated 
+
+physical locks and master keys [BLA03]; these are locks for structures such 
+
+as college dormitories and office buildings, in which individuals have keys to 
+
+single rooms, and a few maintenance or other workers have a single master 
+
+key that opens all locks. Blaze describes a technique that can find a master 
+Is it better to disclose a flaw and alert users that they are vulnerable or conceal 
+
+it until there is a countermeasure? There 
+
+is no easy answer.

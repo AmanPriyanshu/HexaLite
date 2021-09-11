@@ -1,0 +1,68 @@
+690 Chapter 10  
+Management and IncidentsPersonal computers, laptops, smartphones, and personal digital assistants (PDAs, 
+such as tablets or Blackberries) are designed to be small and portable. Flash drives or 
+
+memory sticks are easily carried in a pocket or briefcase. Computers and media that are 
+
+easy to carry are also easy to conceal. We can take one of three approaches to preventing theft: preventing access, prevent-
+ing portability, or detecting exit.
+Preventing AccessThe surest way to prevent theft is to keep the thief away from the equipment. However, 
+
+thieves can be either insiders or outsiders. Therefore, access control devices are needed 
+
+both to prevent access by unauthorized individuals and to record access by those autho-
+
+rized. A record of accesses can help identify who committed a theft.
+The oldest access control is a guard, not in the firewall sense we discussed in Chapter 
+6 but in the sense of a human being stationed at the door to control access to a room or 
+
+to equipment. Guards offer traditional protection; their role is well understood, and the 
+
+protection they offer is adequate in many situations. However, guards must be on duty 
+
+continuously in order to be effective; permitting breaks implies at least four guards for a 
+
+24-hour operation, with extras for vacation and illness. A guard must personally recog-
+
+nize someone or recognize an access token, such as a badge. People can lose or forget 
+
+badges; terminated employees and forged badges are also problems. Unless the guards 
+
+make a record of everyone who has entered a facility, the security staff cannot know 
+
+who (employee or visitor) has had access before a problem is discovered.
+The second oldest access control is a lock. This device is even easier, cheaper, and 
+simpler to manage than a guard. However, it too generates no record of who has had 
+
+access, and difficulties arise when keys are lost or duplicated. At computer facilities, 
+
+you cannot fumble for a key when your hands are filled with devices that might be 
+
+ruined if dropped. A site also cannot ignore piggybacking: a person who walks through 
+
+the door that someone else has just unlocked. Still, guards and locks afford simple, 
+
+effective security for access to facilities such as computer rooms. In many situations, 
+
+simple is better.
+More exotic access control devices employ cards with radio transmitters, magnetic 
+stripe cards (similar to bank cards), and smart cards with chips containing electronic 
+circuitry that makes them difficult to duplicate. Because each of these devices interfaces 
+
+with a computer, the computer can capture identity information, generating a list of who 
+
+entered and left the facility, when, and by which routes. Some of these devices operate 
+
+by proximity, so that a person can carry the device in a pocket or clipped to a collar; the 
+
+person obtains easy access even when both hands are full. Because these devices are 
+
+computer controlled, the system administrators can readily invalidate an access author-
+
+ity when someone quits or reports the access token lost or stolen.
+The nature of the application or service determines how strict the access control 
+needs to be. Working in concert with computer-based authentication techniques, the 
+
+access controls can be part of defense in depth—using multiple mechanisms to provide 
+
+security.

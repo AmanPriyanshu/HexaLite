@@ -1,0 +1,34 @@
+888 APPENDIX 1  AN INTRODUCTION TO UML As a simple example of an OCL expression, consider the printing system dis-cussed in Chapter 14. The guard condition placed on the  jobCostAccepted  event that causes a transition between the states  computingJobCost  and  formingJob  
+within the statechart diagram for the  PrintJob  object (Figure 14.9). In the dia-gram (Figure 14.9), the guard condition is expressed in natural language and im-
+plies that authorization can only occur if the customer is authorized to approve 
+the cost of the job. In OCL, the expression may take the form:   customer  
+  self.authorizationAuthority = ’yes’  
+ where a Boolean attribute,  authorizationAuthority,  of the class (actually a speciﬁ c instance of the class) named  Customer  must be set to yes for the guard condition to be satisﬁ ed.  As the design model is created, there are often instances in which pre- or postconditions must be satisﬁ ed prior to completion of some action speciﬁ
+ ed by 
+the design. OCL provides a powerful tool for specifying pre- and postconditions 
+in a formal manner. As an example, consider an extension to the print shop sys-
+tem (discussed as an example in Chapter 14) in which the customer provides 
+an upper cost bound for the print job and a “drop-dead” delivery date at the 
+same time as other print job characteristics are speciﬁ ed. If cost and delivery 
+estimates exceed these bounds, the job is not submitted and the customer must 
+be notiﬁ ed. In OCL, a set of pre- and postconditions may be speciﬁ ed in the fol-
+lowing manner:    context  PrintJob::validate(upperCostBound : Integer, custDeliveryReq : 
+ Integer) 
+  
+ pre:  upperCostBound > 0  and custDeliveryReq > 07 
+
+ and self.jobAuthorization = ‘no’ 
+  
+ post: if 
+ self.totalJobCost <= upperCostBound    and self.deliveryDate <= custDeliveryReq 
+
+  then 
+   self.jobAuthorization = ‘yes’ 
+
+  endif   This OCL statement deﬁ nes an invariant  
+(inv )—conditions that must exist prior to (pre) and after (post) some behavior. Initially, a precondition establishes that 
+bounding cost and delivery date must be speciﬁ ed by the customer, and authori-
+
+zation must be set to “no.” After costs and delivery are determined, the postcon-
+dition speciﬁ ed is applied. It should also be noted that the expression:
+ self.jobAuthorization = ‘yes’ 

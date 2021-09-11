@@ -1,0 +1,64 @@
+ Section 3.2  Malicious Code—Malware 
+173  distributed. The moniker refers to the number of days (zero) during which a known vul-
+nerability has gone without being exploited. The exploit window is diminishing rapidly, 
+
+as shown in Sidebar 3-6.
+SIDEBAR 3-6 Rapidly Approaching Zero
+Y2K or the year 2000 problem, when dire consequences were forecast for 
+computer clocks with 2-digit year fields that would turn from 99 to 00, was 
+
+an ideal problem: The threat was easy to define, time of impact was easily 
+
+predicted, and plenty of advance warning was given. Perhaps as a conse-
+
+quence, very few computer systems and people experienced significant 
+
+harm early in the morning of 1 January 2000. Another countdown clock has 
+
+computer security researchers much more concerned.
+The time between general knowledge of a product vulnerability and 
+appearance of code to exploit that vulnerability is shrinking. The general 
+
+exploit timeline follows this sequence:• An attacker discovers a previously unknown vulnerability.
+• The manufacturer becomes aware of the vulnerability.
+
+• Someone develops code (called proof of concept) to demonstrate the 
+vulnerability in a controlled setting.
+• The manufacturer develops and distributes a patch or workaround 
+that counters the vulnerability.
+• Users implement the control.
+
+• Someone extends the proof of concept, or the original vulnerability 
+definition, to an actual attack.As long as users receive and implement the control before the actual 
+attack, no harm occurs. An attack before availability of the control is called 
+
+a zero-day exploit
+. Time between proof of concept and actual attack has 
+been shrinking. Code Red, one of the most virulent pieces of malicious 
+
+code, in 2001 exploited vulnerabilities for which the patches had been 
+
+distributed more than a month before the attack. But more recently, the 
+
+time between vulnerability and exploit has steadily declined. On 18 August 
+2005, Microsoft issued a security advisory to address a vulnerability of 
+
+which the proof of concept code was posted to the French SIRT (Security 
+
+Incident Response Team) web site frsirt.org. A Microsoft patch was distrib-
+
+uted a week later. On 27 December 2005, a vulnerability was discovered 
+
+in Windows metafile (.WMF) files. Within hours hundreds of sites began to 
+
+exploit the vulnerability to distribute malicious code, and within six days a 
+malicious code toolkit appeared, by which anyone could easily create an 
+
+exploit. Microsoft released a patch in nine days.
+Security firm Symantec in its Global Internet Security Threat Report 
+[SYM14b] found 23 zero-day vulnerabilities in 2013, an increase from 14 
+
+the previous year and 8 for 2011. Although these seem like small numbers 
+
+the important observation is the upward trend and the rate of increase. Also, 
+(continues)

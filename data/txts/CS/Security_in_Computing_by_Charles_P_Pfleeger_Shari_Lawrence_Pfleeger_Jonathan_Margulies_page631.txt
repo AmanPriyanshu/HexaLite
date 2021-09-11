@@ -1,0 +1,52 @@
+ Section 9.2  Privacy Principles and Policies 
+597  • Use limitation. Use for purposes other than those specified is authorized only 
+with consent of the data subject or by authority of law.
+• Security safeguards
+. Procedures to guard against loss, corruption, destruction, or misuse of data should be established.• Openness. It should be possible to acquire information about the collection, 
+storage, and use of personal data systems.• Individual participation. The data subjects normally have a right to access and 
+to challenge data relating to them.• Accountability. A data controller should be designated and accountable for com-
+plying with the measures to effect the principles.
+These principles describe the 
+rights of individuals, not require-
+
+ments on collectors; that is, the 
+
+principles do not require protection 
+of the data collected.Ware [WAR73b] raises several important problems, including the linking of data in 
+multiple files and the overuse of keys, such as social security numbers, that were never 
+
+intended to be used as record identifiers. And although he saw that society could be 
+
+moving toward use of a universal identity number, he feared that movement would be 
+
+without plan (and hence without control). He was right, even though he could not have 
+
+foreseen the amount of data exchange over 40 years later.
+Rein Turn and Willis Ware [TUR75] address protecting the data items themselves, 
+recognizing that collections of data will be attractive targets for unauthorized access 
+
+attacks. They suggest four ways to protect stored data:
+• Reduce exposure by limiting the amount of data maintained, asking for only 
+what is necessary and using random samples instead of complete populations.• Reduce data sensitivity by interchanging data items or adding subtle errors to 
+the data (and warning recipients that the data have been altered).
+• Anonymize the data by removing or modifying identifying data items.
+
+• Encrypt the data.
+You will see these four approaches mentioned again, because they remain the stan-
+dard techniques available for protecting the privacy of data. 
+U.S. Privacy LawsWare and his committee expected these principles to apply to all collections of personal 
+
+data on individuals, but reality fell far short of this goal. Instead, the Ware commit-
+
+tee report led to the 1974 Privacy Act (5 USC 552a), which embodies most of these 
+
+principles, although that law applies only to data collected and maintained by the U.S. 
+
+government. Nevertheless, the Privacy Act is a broad law, covering all data collected by 
+
+the government. It is the strongest U.S. privacy law because of its breadth: It applies to 
+
+all personal data held anywhere in the federal government.
+Fair information principles describe 
+privacy rights of individuals to sensitive 
+data.

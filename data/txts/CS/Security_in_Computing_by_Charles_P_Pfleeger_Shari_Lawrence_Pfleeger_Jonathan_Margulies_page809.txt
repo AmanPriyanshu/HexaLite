@@ -1,0 +1,57 @@
+ Section 12.1  Cryptology 
+775  One-Time PadsA one-time pad is sometimes considered the perfect cipher. It is a pure substitution 
+cipher. The name comes from an encryption method in which a large, nonrepeating set 
+
+of keys is written on sheets of paper, glued together into a pad. For example, if the keys 
+
+are 20 characters long and a sender must transmit a message 300 characters in length, 
+the sender would tear off the next 15 pages of keys. The sender would write the key 
+
+letters one at a time above the letters of the plaintext and encipher each plaintext with a 
+
+prearranged substitution involving each plaintext letter and the key value written above 
+
+it. The sender would then destroy the used keys.
+For the encryption to work, the receiver needs a pad identical to that of the sender. 
+Upon receiving a message, the receiver takes the appropriate number of keys and deci-
+
+phers the message as if it were a plain substitution with a long key. Essentially, this 
+
+algorithm gives the effect of a key as long as the number of characters in the pad.
+The one-time pad method has two problems: the need for absolute synchronization 
+between sender and receiver, and the need for an unlimited number of keys. Although 
+
+generating a large number of random keys is no problem, printing, distributing, storing, 
+
+and accounting for such keys are problems.
+Long Random Number SequencesA close approximation of a one-time pad for use on computers is a random number gen-
+erator. In fact, computer random numbers are not random; they really form a sequence 
+
+with a very long period (that is, they go for a long time before repeating the sequence). 
+
+In practice, a generator with a long period can be acceptable for a limited amount of 
+time or plaintext.
+To use a random number generator, the sender with a 300-character message would 
+interrogate the computer for the next 300 random numbers and use one number to enci-
+
+pher each character of the plaintext message.
+The Vernam Cipher
+The Vernam cipher
+ is a type of one-time pad devised by Gilbert Vernam for AT&T. 
+The Vernam cipher is immune from most cryptanalytic attacks. The basic encryption 
+
+involves an arbitrarily long nonrepeating sequence of numbers that are combined with 
+
+the plaintext. Vernam’s invention used an arbitrarily long punched paper tape that fed 
+
+into a teletype machine. The tape contained random numbers that were combined with 
+
+characters typed into the teletype. The sequence of random numbers had no repeats, and 
+
+each tape was used only once. As long as the key tape does not repeat or is not reused, 
+
+this type of cipher is immune from cryptanalytic attack because the available ciphertext 
+
+does not display the pattern of the key. A model of this process is shown in Figure 12-1.
+Book CiphersAnother source of supposedly “random” numbers is any book, piece of music, or other 
+object of which the structure can be analyzed. Both the sender and receiver need access 

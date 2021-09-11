@@ -1,0 +1,95 @@
+CHAPTER 17  
+WEBAPP DESIGN 381 
+ 
+ 
+ 
+ 
+ 
+As content objects are designed, they are “chunked” [Pow02] to form WebApp 
+pages. The number of content objects incorporated into a single page is a func-
+tion of user needs, constraints imposed by download speed of the Internet con-
+nection, and restrictions imposed by the amount of scrolling that the user will 
+tolerate.   
+ 
+ 
+ 
+ 
+ 17.7  
+ARCHITECTURE DESIGN  
+ 
+ 
+Architecture design is tied to the goals established for a WebApp, the content 
+to be presented, the users who will visit, and the navigation philosophy that has 
+been established. As an architectural designer, you must identify content archi-
+
+tecture and WebApp architecture.  
+Content architecture
+ 
+ 
+ 7 
+ 
+ focuses on the manner 
+in which content objects (or composite objects such as Web pages) are structured 
+
+for presentation and navigation.  WebApp architecture
+ 
+ addresses the manner in 
+which the application is structured to manage user interaction, handle internal 
+processing tasks, effect navigation, and present content.   In most cases, architecture design is conducted in parallel with interface de-sign, aesthetic design, and content design. Because the WebApp architecture 
+
+may have a strong inﬂ uence on navigation, the decisions made during this design 
+action will inﬂ uence work conducted during navigation design. 
+ 
+ 
+17.7.1  Content Architecture 
+ 
+The design of content architecture focuses on the deﬁ nition of the overall hy-
+permedia structure of the WebApp. Although custom architectures are some-
+
+times created, you always have the option of choosing from four different content 
+structures [Pow02]:  
+ 
+ 
+ 
+   
+ 
+Linear structures
+ 
+ ( 
+Figure 17.4 ) are encountered when a predictable sequence of interactions (with some variation or diversion) is common. A classic example 
+might be a tutorial presentation in which pages of information along with related 
+graphics, short videos, or audio are presented only after prerequisite informa-
+tion has been presented. The sequence of content presentation is predeﬁ ned and 
+generally linear. Another example might be a product order entry sequence in 
+
+which speciﬁ c information must be speciﬁ
+ ed in a speciﬁ
+ c order. In such cases, 
+the structures shown in  Figure 17.4  are appropriate. As content and processing 
+become more complex, the purely linear ﬂ ow shown on the left of the ﬁ
+ gure gives 
+way to more sophisticated linear structures in which alternative content may be 
+invoked or a diversion to acquire complementary content (structure shown on 
+the right side of  Figure 17.4 ) occurs.  What types 
+of content architectures 
+are commonly 
+encountered? ? Users tend to tolerate 
+
+vertical scrolling more 
+
+readily than horizontal 
+scrolling. Avoid wide 
+
+page formats. 
+  uote:  ”[T]he architectural 
+structure of a well 
+designed site is not 
+always apparent 
+to the user—nor 
+should it be.”  Thomas Powell 
+  
+7  The term  
+information architecture
+ 
+ is also used to connote structures that lead to better organi-
+zation, labeling, navigation, and searching of content objects. pre22126_ch17_371-390.indd   381pre22126_ch17_371-390.indd   38113/12/13   6:13 PM13/12/13   6:13 PM

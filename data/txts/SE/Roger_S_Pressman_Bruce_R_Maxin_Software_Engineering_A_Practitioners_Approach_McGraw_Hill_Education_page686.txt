@@ -1,0 +1,82 @@
+656 PART 
+THREE  QUALITY MANAGEMENT    
+30.1.3   Measurement Principles  
+ Before we introduce a series of product metrics that (1) assist in the evaluation 
+of the analysis and design models, (2) provide an indication of the complexity of 
+procedural designs and source code, and (3) facilitate the design of more effec-
+tive testing, it is important for you to understand basic measurement principles. 
+Roche [Roc94] suggests a measurement process that can be characterized by ﬁ ve activities: formulation, collection, analysis, interpretation, and feedback. Soft-
+ware metrics will be useful only if they are characterized effectively and validated 
+so that their worth is proven. The following principles [Let03b] are representative 
+of many that can be proposed for metrics characterization and validation:    •
+   A metric should have desirable mathematical properties.
+  That is, the met-ric’s value should be in a meaningful range (e.g., 0 to 1, where 0 truly means 
+
+absence, 1 indicates the maximum value, and 0.5 represents the “halfway 
+
+point”). Also, a metric that purports to be on a rational scale should not be 
+
+composed of components that are only measured on an ordinal scale. 
+    •
+   When a metric represents a software characteristic that increases when 
+
+positive traits occur or decreases when undesirable traits are encountered, 
+
+the value of the metric should increase or decrease in the same manner.
+   
+   •
+   Each metric should be validated empirically in a wide variety of contexts 
+before being published or used to make decisions.
+  A metric should mea-
+sure the factor of interest, independently of other factors. It should “scale 
+up” to large systems and work in a variety of programming languages and 
+system domains.    
+ Although formulation, characterization, and validation are critical, collection and 
+
+analysis are the activities that drive the measurement process. Roche [Roc94] sug-
+gests the following guidelines for these activities: (1) whenever possible, data col-
+lection and analysis should be automated; (2) valid statistical techniques should 
+
+be applied to establish relationships between internal product attributes and ex-
+ternal quality characteristics (e.g., whether the level of architectural complexity 
+
+correlates with the number of defects reported in production use); and (3) inter-
+
+pretative guidelines and recommendations should be established for each metric. 
+    
+30.1.4   Goal-Oriented Software Measurement     
+  
+The  Goal/Question/Metric  (GQM) paradigm has been developed by Basili and Weiss [Bas84] as a technique for identifying meaningful metrics for any part of 
+
+the software process. GQM emphasizes the need to (1) establish an explicit mea-
+surement  goal  that is speciﬁ c to the process activity or product characteristic 
+that is to be assessed, (2) deﬁ ne a set of  
+questions  that must be answered in order to achieve the goal, and (3) identify well-formulated  metrics  that help to answer these questions.     uote: 
+ “Just as 
+
+temperature 
+measurement 
+began with 
+an index 
+ﬁ
+
+grew to 
+sophisticated 
+scales, tools and 
+techniques, so 
+too is software 
+measurement 
+maturing.”  Shari Pﬂ
+ eeger  WebRef 
+ A useful discussion of 
+
+GQM can be found at 
+  https://www
+.thecsiac.com/
+resources/
+ref_documents/
+software-
+acquisition-
+gold-practice-goal-
+question-metric-
+gqm-approach  . 

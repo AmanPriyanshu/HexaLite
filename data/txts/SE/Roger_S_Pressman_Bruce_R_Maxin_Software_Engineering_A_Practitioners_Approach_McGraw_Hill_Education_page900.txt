@@ -1,0 +1,39 @@
+870 APPENDIX 1  AN INTRODUCTION TO UML  
+  CLASS DIAGRAMS   
+To model classes, including their attributes, operations, and their relationships and 
+
+associations with other classes,  3 UML provides a  class diagram.  A class diagram 
+provides a static or structural view of the system. It does not show the dynamic 
+
+nature of the communications between the objects of the classes in the diagram. 
+  
+The main elements of a class diagram are boxes, which are the icons used to represent classes and interfaces. Each box is divided into horizontal parts. The 
+top part contains the name of the class. The middle section lists the attributes of 
+the class. Attributes can be values that the class can compute from its instance 
+variables or values that the class can get from other objects of which it is com-
+posed. For example, an object might always know the current time and be able 
+to return it to you whenever you ask, in which case it would be appropriate to list 
+the current time as an attribute of that class of objects. However, the object would 
+most likely not have that time stored in one of its instance variables, because it 
+would need to continually update that ﬁ eld. Instead, the object would likely com-
+
+pute the current time (e.g., through consultation with objects of other classes) at 
+the moment when the time is requested. The third section of the class diagram 
+contains the operations or behaviors of the class. An  operation  refers to what ob-jects of the class can do. It is usually implemented as a  method  of the class.    
+Figure A1.1 presents a simple example of a  Thoroughbred  class that models thoroughbred horses. It has three attributes displayed— mother, father,  and  birth year . The diagram also shows three operations:  getCurrentAge(), getFather(),  
+and  getMother() . There may be other suppressed attributes and operations not shown in the diagram.   
+Each attribute can have a name, a type, and a level of visibility. The type and visibility are optional. The type follows the name and is separated from the 
+name by a colon. The visibility is indicated by a preceding –, #, ~, or +, indicating,   3 
+ If you are unfamiliar with object-oriented concepts, a brief introduction is presented in 
+Appendix 2. Thoroughbred
+-father: Thoroughbred
+-mother: Thoroughbred
+-birthyear: int
++getFather(): Thoroughbred
++getMother(): Thoroughbred
++getCurrentAge(currentYear:Date): int
+ F
+IGURE A1.1A class 
+diagram for a 
+Thoroughbred 
+class   

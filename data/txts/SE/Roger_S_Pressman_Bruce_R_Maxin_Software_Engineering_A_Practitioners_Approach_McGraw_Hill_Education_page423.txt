@@ -1,0 +1,73 @@
+CHAPTER 18  
+MOBILEAPP DESIGN 393 
+System components in mobile computing environments are likely to change their locations while MobileApps are running. In order to maintain connectiv-
+ity in nomadic networks,  4 
+ 
+ coordination mechanisms for discovering devices, ex-
+changing information, maintaining security and communication integrity, and 
+
+synchronizing actions must be developed.     
+ 
+In addition, software engineers must identify the proper design trade-offs be-tween the expressive power of the MobileApp and stakeholder security concerns. 
+Developers must seek to discover algorithms (or adapt existing algorithms) that 
+are energy efﬁ cient in order to conserve battery power when possible. Middle-
+ware may have to be created to allow different types of mobile devices to commu-
+nicate    with each other in the same mobile networks [Gru00].  Software engineers should craft a user experience that takes advantage of de-vice characteristics and context-aware applications. The nonfunctional require-
+ments (e.g., security, performance, usability) are a bit different from those for either 
+
+WebApps or desktop software applications. T26) 
+
+provides additional challenges because the user expects that they will work in 
+
+a large number of physically different environments. Because MobileApps often 
+
+execute on a variety of device platforms, portability is a important consideration. 
+
+In addition, the time and effort associated with accommodating multiple platforms 
+
+often increases overall project cost [Was10]. 
+  
+ 
+18.1.2  Technical Considerations 
+ 
+The low cost of adding Web capabilities to everyday devices such as phones, 
+cameras, and TVs is transforming the way people access information and use 
+network services [Sch11]. Among the many technical considerations that Mobile-
+Apps should address are the following:   
+ 
+ 
+Multiple hardware and software platforms. 
+  It is not at all unusual for a 
+MobileApp to run on many different platforms (both mobile and station-
+ary) with a range of differing levels of functionality. The reasons for these 
+
+differences are in part because the hardware and software available are 
+quite different from device to device. This increases both development 
+cost and time. It also can make conﬁ guration management (Chapter 29) 
+more difﬁ cult. 
+  
+Many development frameworks and programming languages. 
+  MobileApps 
+are currently being written in at least three distinct programming languages 
+
+(Java, Objective C, and C#) for at least ﬁ ve popular development frame-
+works (Android, iOS, BlackBerry, Windows, Symbian) [Was10]. Very few mo-
+
+bile devices allow direct development on a device itself. Instead, MobileApp 
+
+developers use emulators running on desktop development systems. These 
+   There is always a 
+trade-off between 
+ security and other 
+
+elements of the 
+ MobileApp design. 
+ What are 
+
+the primary 
+technical 
+considerations 
+when building a 
+MobileApp? ?  
+4    Nomadic networks 
+ have changing connections to mobile devices or servers. pre22126_ch18_391-410.indd   393pre22126_ch18_391-410.indd   39316/12/13   6:23 PM16/12/13   6:23 PM

@@ -1,0 +1,48 @@
+˜˚˛˝˙˜˜˜˜˜˜
+Common services are those services that may be required by different compo-nents irrespective of the functionality of these components. As I discussed in Chapter 
+16, these may include security services (authentication and authorization), notifica
+-
+tion and naming services, and transaction management services. For distributed 
+
+components, you can think of these common services as being provided by a mid-
+dleware container; for services, they are provided through shared libraries. You then 
+deploy your component, and it can access and use these common services.
+Distributed systems that are accessed over the Internet are organized as clientŒserver 
+systems. In a clientŒserver system, the user interacts with a program running on their 
+local computer, such as a web browser or app on a mobile device. This interacts with 
+another program running on a remote computer, such as a web server. The remote 
+computer provides services, such as access to web pages, which are available to 
+
+external clients. This clientŒserver model, as I discussed in Chapter 6, is a general 
+architectural model of an application. It is not restricted to applications distributed 
+across several machines. You can also use it as a logical interaction model where the 
+client and the server run on the same computer.In a clientŒserver architecture, an application is modeled as a set of services that are 
+provided by servers. Clients may access these services and present results to end-users. 
+
+Clients need to be aware of the servers that are available but don™t have to know any-thing about other clients. Clients and servers are separate processes, as shown in Figure 
+
+17.4. This figure illustrates a situation in which there are four servers (s1Œs4) that 
+
+deliver different services. Each service has a set of associated clients that access these 
+
+services.Figure 17.
+4 shows client and server processes rather than processors. It is normal for several client processes to run on a single processor. For example, on your PC, 
+you may run a mail client that downloads mail from a remote mail server. You may 
+also run a web browser that interacts with a remote web server and a print client that 
+sends documents to a remote printer. Figure 17.5 shows a possible arrangement 
+
+where the 12 logical clients shown in Figure 
+17.4 are running on six computers. The 
+four server processes are mapped onto two physical server computers.Several different server processes may run on the same processor, but, often, 
+servers are implemented as multiprocessor systems in which a separate instance of 
+the server process runs on each machine. Load-balancing software distributes 
+
+requests for service from clients to different servers so that each server does the 
+
+same amount of work. This allows a higher volume of transactions with clients to be 
+
+handled, without degrading the response to individual clients.ClientŒserver systems depend on there being a clear separation between the pres
+-entation of information and the computations that create and process that informa-
+tion. Consequently, you should design the architecture of distributed clientŒserver 
+
+systems so that they are structured into several logical layers, with clear interfaces 

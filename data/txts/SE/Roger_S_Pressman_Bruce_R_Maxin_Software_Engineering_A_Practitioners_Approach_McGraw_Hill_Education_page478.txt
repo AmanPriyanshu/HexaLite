@@ -1,0 +1,115 @@
+448  
+ 
+ 
+CHAPTER21  
+SOFTWARE
+ QUALITYASSURANCE  
+ 
+ 
+ 
+ 
+ 
+ 
+ The software engineering approach described in this book works toward a single goal: to produce on-time, high-quality software. Yet many read-
+
+ers will be challenged by the question: “What is software quality?”  Philip Crosby [Cro79], in his landmark book on quality, provides a wry 
+answer to this question:  
+The problem of quality management is not what people don't know about it. The  In this regard, quality has much in common with sex. Everybody is for it. (Under certain conditions, of course.) Everyone feels they understand it. (Even though 
+they wouldn’t want to explain it.) Everyone thinks execution is only a matter of fol-
+lowing natural inclinations. (After all, we do get along somehow.) And, of course, 
+
+most people feel that problems in these areas are caused by other people. (If only 
+they would take the time to do things right.)  
+  
+ 
+What is it?   It’s not enough to talk 
+the talk by saying that software quality 
+
+is important. You have to (1) explicitly 
+
+deﬁ ne what is meant when you say 
+“software quality,” (2) create a set of activities that 
+
+will help ensure that every software engineering 
+
+work product exhibits high quality, (3) perform 
+
+quality control and assurance activities on every 
+
+software project, (4) use metrics to develop strat-
+egies for improving your software process and, 
+
+as a consequence, the quality of the end product. 
+  
+ 
+Who does it?   Everyone involved in the software 
+engineering process is responsible for quality. 
+  
+ 
+Why is it important? 
+  You can do it right, or 
+you can do it over again. If a software team 
+stresses quality in all software engineering ac-
+tivities, it reduces the amount of rework that it 
+must do. That results in lower costs, and more 
+importantly, improved time to market. 
+  
+ 
+What are the steps?   Before software quality assurance (SQA) activities can be initiated, it is important to deﬁ
+ ne  
+software quality  at a 
+number of different levels of abstraction. Once 
+you understand what quality is, a software 
+team must identify a set of SQA activities that 
+will ﬁ lter errors out of work products before 
+they are passed on.   
+ 
+What is the work product? 
+  A Software Qual-ity Assurance Plan is created to deﬁ ne a soft-
+ware team’s SQA strategy. During modeling 
+
+and coding, the primary SQA work product is 
+
+20). 
+
+During testing (Chapters 22 through 26), 
+test plans and procedures are produced. 
+Other work products associated with process 
+improvement may also be generated.   
+ 
+How do I ensure that I’ve done it right?   Find errors before they become defects! That is, work to improve your defect removal efﬁ -ciency (Chapter 30), thereby reducing the 
+amount of rework that your software team has 
+to perform. 
+  
+QUICK LOOK  KEY CONCEPTS     elements of software 
+quality assurance  . 450  
+
+    formal approaches. 456  
+
+    goals  . . . . . . . . . . 454  
+
+    ISO 9001:2008 
+
+standard. . . . . . . . 462  
+
+    quality management 
+
+resources  . . . . . . . 452  
+
+    Six Sigma. . . . . . . 458  
+
+    software 
+
+reliability  . . . . . . . 459  
+
+    software safety  . . 460  
+
+    SQA plan  . . . . . . . 463  
+
+    SQA tasks  . . . . . . 453  
+
+    statistical software 
+
+quality assurance  . 456  
+
+  pre22126_ch21_448-465.indd   448pre22126_ch21_448-465.indd   44813/12/13   10:02 PM13/12/13   10:02 PM

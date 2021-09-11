@@ -1,0 +1,86 @@
+CHAPTER 21  
+SOFTWARE QUALITY ASSURANCE
+ 463 
+ 
+ 
+ 
+ 
+ 
+ 21.9  
+THE SQA PLAN  
+ 
+The  SQA Plan 
+ provides a road map for instituting software quality assurance. 
+Developed by the SQA group (or by the software team if an SQA group does not 
+exist), the plan serves as a template for SQA activities that are instituted for each 
+software project.  A standard for SQA plans has been published by the IEEE [IEE93]. The stan-dard recommends a structure that identiﬁ es: (1) the purpose and scope of the 
+plan, (2) a description of all software engineering work products (e.g., models, 
+documents, source code) that fall within the purview of SQA, (3) all applicable 
+standards and practices that are applied during the software process, (4) SQA 
+actions and tasks (including reviews and audits) and their placement through-
+out the software process, (5) the tools and methods that support SQA actions 
+and tasks, (6) software conﬁ guration management (Chapter 29) procedures, 
+(7) methods for assembling, safeguarding, and maintaining all SQA-related re-
+cords, and (8) organizational roles and responsibilities relative to product quality. 
+ 
+ 
+ 
+  
+ 
+ 
+Software Quality Management 
+  
+ Objective: 
+ The objective of SQA tools is to assist a project team in assessing and improving the quality of software work product.   Mechanics: 
+ Tools mechanics vary. In general, the intent 
+is to assess the quality of a speciﬁ c work product. Note: 
+
+through 26) are often included within the SQA tools 
+category. 
+  
+Representative Tools:  
+ 6 
+  
+ 
+ 
+ 
+QA Complete, 
+ developed by SmartBear ( 
+http://smartbear.com/products/qa-tools/test-
+
+management 
+), QA management ensures complete test coverage through every stage of the software 
+development process.   
+QPR Suite, 
+ developed by QPR Software ( http://www.
+qpr.com
+ 
+), provides support for Six Sigma and other 
+quality management approaches.   
+Quality Tools and Templates,
+ 
+ developed by iSixSigma ( http://www.isixsigma.com/tools-
+templates/ 
+), describe a wide array of useful tools and methods for quality management.   
+NASA Quality Resources, 
+ developed by the Goddard Space Flight Center ( http://www.hq.nasa.gov/
+ofﬁ ce/codeq/software/ComplexElectronics/
+checklists.htm 
+) provides useful forms, templates, 
+checklists, and tools for SQA.   
+SOFTWARE
+ TOOLS  
+ 
+6  Tools noted here do not represent an endorsement, but rather a sampling of tools in this 
+category. In most cases, tool names are trademarked by their respective developers. 
+  
+ 
+ 
+ 
+ 
+ 
+ 21.10 S
+UMMARY  
+Software quality assurance is a software engineering umbrella activity that is applied at each step in the software process. SQA encompasses procedures for 
+the effective application of methods and tools, oversight of quality control ac-
+tivities such as technical reviews and software testing, procedures for change pre22126_ch21_448-465.indd   463pre22126_ch21_448-465.indd   46313/12/13   10:02 PM13/12/13   10:02 PM

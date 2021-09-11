@@ -1,0 +1,27 @@
+ Section 2.3  Cryptography 
+121  same. Each knows the rest of the chain is accurate because it follows an unbroken line 
+of names and signatures.Certificates: Trustable Identities and Public Keys
+You may have concluded that this process works, but it is far too cumbersome to apply 
+
+in real life; perhaps you have surmised that we are building a system for computers. 
+
+This protocol is represented more easily electronically than on paper. With paper, peo-
+
+ple must guard against forgeries, to prevent part of one chain from being replaced and 
+
+to ensure that the public key at the bottom is bound to the chain. The whole thing can 
+
+be done electronically with digital signatures and hash functions. Kohnfelder [KOH78] 
+
+seems to be the originator of the concept of using an electronic certificate with a chain 
+
+of authenticators; Merkle’s paper [MER80] expands the concept.
+Division Mgr
+CharlesGroup LeaderAnnWorker
+BillTask Leader
+Andrew
+Worker
+BettyTask Leader
+CamillaGroup LeaderMukeshProject ManagerMaryProject ManagerDebbieDepartment MgrDelwynDepartment MgrDianaDivision Mgr
+Division Mgr
+EdwardPresidentFIGURE 2-30 Delegation of Trust

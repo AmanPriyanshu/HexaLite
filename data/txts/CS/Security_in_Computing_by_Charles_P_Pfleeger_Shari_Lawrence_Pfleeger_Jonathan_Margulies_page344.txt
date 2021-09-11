@@ -1,0 +1,68 @@
+310 Chapter 5  
+Operating SystemsLayered Trust
+As we discussed earlier in this chapter, the layered structure of a secure operating sys-
+tem can be thought of as a series of concentric circles, with the most sensitive opera-
+
+tions in the innermost layers. An equivalent view is as a building, with the most sensitive 
+
+tasks assigned to lower floors. Then, the trustworthiness and access rights of a process 
+
+can be judged by the process’s proximity to the center: The more trusted processes are 
+
+closer to the center or bottom.Implicit in the use of layering as a countermeasure is separation. Earlier in this chap-ter we described ways to implement separation: physical, temporal, logical, and crypto-
+
+graphic. Of these four, logical (software-based) separation is most applicable to layered 
+
+design, which means a fundamental (inner or lower) part of the operating system must 
+
+control the accesses of all outer or higher layers to enforce separation.SIDEBAR 5-2 The Importance of Good Design Principles
+Every design, whether it be for hardware or software, must begin with a 
+design philosophy and guiding principles. These principles suffuse the 
+
+design, are built in from the beginning, and are preserved (according to the 
+
+design philosophy) as the design evolves.The design philosophy expresses the overall intentions of the design-
+ers, not only in terms of how the system will look and act but also in terms 
+
+of how it will be tested and maintained. Most systems are not built for short-
+
+term use. They grow and evolve as the world changes over time. Features 
+
+are enhanced, added, or deleted. Supporting or communicating hardware 
+
+and software change. The system is fixed as problems are discovered and 
+
+their causes rooted out. The design philosophy explains how the system will 
+
+“hang together,” maintaining its integrity through all these changes. A good 
+
+design philosophy will make a system easy to test and easy to change.The philosophy suggests a set of good design principles. Modularity, 
+information hiding, and other notions discussed in Chapter 3 form guide-
+
+lines that enable designers to meet their goals for software quality. Since 
+
+security is one of these goals, it is essential that security policy be con-
+
+sistent with the design philosophy and that the design principles enable 
+
+appropriate protections to be built into the system.
+When the quality of the design is not considered up-front and embed-
+ded in the development process, the result can be a sort of software anar-
+
+chy. The system may run properly at first, but as changes are made, the 
+
+software degrades quickly and in a way that makes future changes more 
+
+difficult and time consuming. The software becomes brittle, failing more 
+
+often and sometimes making it impossible for features, including security, 
+
+to be added or changed. Equally important, brittle and poorly designed 
+
+software can easily hide vulnerabilities because the software is so difficult 
+
+to understand and the execution states so hard to follow, reproduce, and 
+
+test. Thus, good design is in fact a security issue, and secure software must 
+
+be designed well.

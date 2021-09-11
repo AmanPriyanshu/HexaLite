@@ -1,0 +1,76 @@
+ Section 9.5  Privacy on the Web 
+625  For example, the 
+Wall Street Journal
+’s website, wsj.com, creates a cookie when a 
+user first logs in. In subsequent transactions, the cookie acts as an identifier; the user no 
+
+longer needs a password to access the site. Other sites use similar approaches. The 
+Wall 
+Street Journal
+ has a pay wall; if you are not a paid subscriber, you cannot log in. The 
+New York Times
+ uses a cookie in a different way; because it has a partial pay wall, the 
+newspaper’s site uses a cookie to keep track of the number of accesses each month by a 
+
+given user. If the user exceeds ten accesses, the pay wall goes up, and users who do not 
+
+pay must wait until the next month to be able to read more than just headlines.
+A portal such as Yahoo! uses cookies to allow users to customize the look of a web 
+page. Suppose Sadie wants a bright background for the news headlines, the weather, 
+
+and her email; Norman wants a gentle pastel background for stock market results, news 
+
+about current movies playing in his area, and interesting things that happened on this 
+
+day in history. Yahoo! could keep all this preference information in its database and eas-
+
+ily customize pages it sends to these two users. Thus, preferences for Sadie or Norman 
+
+are stored on their own computers and passed back to Yahoo! to help Yahoo! form and 
+
+deliver a web page according to Sadie’s or Norman’s preferences. 
+A site can set as many cookies as it wants, with as many values as it wants. As noted 
+above, some sites use cookies to avoid a customer’s having to log in on each visit to 
+
+a site; these cookies contain the user’s ID and password. But a cookie could also con-
+
+tain, for example, a credit card number, the customer name and shipping address, the 
+
+date of the last visit to the site, the number of items purchased or the dollar volume of 
+
+purchases.Sensitive information, such as credit card number or even name and address, should 
+be encrypted or otherwise protected in the cookie. It is up to the site to define or deter-
+
+mine what kind of protection it applies to its cookies. The user never knows if or how 
+
+data are protected.The path and domain fields are supposed to protect against one site’s being able to 
+access another’s cookies. However, as we show in the next section, one company can 
+
+cooperate with another to share the cookies’ data.
+Third-Party Cookies
+When you visit a site, its server asks your browser to save a cookie. When you visit that 
+site again, your browser passes that cookie back to the site. The general flow is from a 
+
+server to your browser and later back to the place from which the cookie came. A web page 
+
+can also contain cookies for organi-
+
+zations. Because these cookies are 
+for organizations other than the web 
+
+page’s owner, they are called 
+third-party cookies. A third-party tracking 
+firm receives reports from individual 
+
+sites and correlates the data to pro-
+
+vide predictive intelligence.
+For instance, DoubleClick (a subsidiary of Google) has agreements with a network 
+of websites delivering content: news, sports, food, finance, travel, and so forth. The 
+Third-party cookies permit an 
+
+aggregator to link information from 
+
+a user’s visit to websites of different 
+
+organizations.

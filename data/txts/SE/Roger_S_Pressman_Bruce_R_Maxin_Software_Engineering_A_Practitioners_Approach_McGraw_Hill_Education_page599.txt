@@ -1,0 +1,77 @@
+CHAPTER 26  
+TESTING MOBILEAPPS 569connectivity to the external system to carry out end-to-end testing. MobileApp testing tools are discussed in greater detail in Section 26.6.   
+ 
+ 
+•   
+Use the Weighted Device Platform Matrix method to identify the most criti-
+cal hardware/platform combination to test.
+ 
+ This method is very useful  especially when hardware/platform combinations are numerous and time to test is low 
+  
+ 
+ 
+•   
+Check the end-to-end functional ﬂ ow in all possible platforms at least 
+once. 
+ When Web services are involved, it is difﬁ
+ cult to trace the actual net-
+work path required to deliver a MobileApp function without performance 
+tools. Tool use is discussed in Section 26.6. 
+  
+ 
+ 
+•   
+Conduct performance testing, GUI testing, and compatibility testing using actual devices. 
+ Even though these tests can be done using emulators, testing with actual devices is recommended. User interaction testing 
+is discussed in Section 26.3 and performance issues are discussed in 
+  
+ 
+ 
+•   
+Measure performance only in realistic conditions of wireless trafﬁ
+ c and 
+user load. 
+ Real-time testing issues for MobileApps are discussed in Sec-tion 26.5.  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 26.2  
+THE TESTING STRATEGIES
+  
+ 
+Technology alone is not sufﬁ
+ cient to guarantee commercial success of a Mo-
+bileApp. Users abandon MobileApps quickly if they do not work well or fail to 
+
+meet expectations. It is important to recall that testing has two important goals: 
+
+to create test cases that uncover defects early in the development cycle and 
+
+(2) to verify the presence of important quality attributes. The quality attributes 
+
+for MobileApps are based on those set forth in ISO 9126 [Spr04] and encompass 
+
+functionality, reliability, usability, efﬁ
+ ciency, maintainability, and portability 
+ 
+ Developing a MobileApp testing strategy requires an understanding of both software testing and the challenges that make mobile devices and their net-
+work infrastructure unique [Kho12a]. In addition to a thorough knowledge of 
+conventional software testing approaches (Chapters 22 and 23), a MobileApp 
+tester should have a good understanding of telecommunications principles and 
+an awareness of the differences and capabilities of mobile operating systems 
+platforms. This basic knowledge must be complemented with a thorough under-
+
+standing of the different types of mobile testing (e.g., MobileApp testing, mobile 
+handset testing, mobile website testing), the use of simulators, test automation 
+tools, and remote data access services (RDA). Each of these topics is discussed 
+later in this chapter. 
+  uote:  ”I want to be 
+buried with a 
+mobile phone, just 
+in case I’m not 
+dead“  Amanda Holden 
+pre22126_ch26_567-583.indd   569pre22126_ch26_567-583.indd   56913/12/13   6:15 PM13/12/13   6:15 PM

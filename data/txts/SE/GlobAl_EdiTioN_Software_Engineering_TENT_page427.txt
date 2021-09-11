@@ -1,0 +1,29 @@
+˜˜˚˛˙˜˜˜˜˜˜˜
+normal backup and archiving strategy that allows recovery of information after a technical or human error. It should also be part of a wider disaster recovery 
+strategy. You have to take account of the possibility of physical events such as 
+fire and flooding and study how to maintain critical information in separate 
+
+locations. You may decide to use cloud backups for this plan.3. You identify system failures and cyberattacks that can compromise a system, and 
+
+you design recognition and resilience strategies to cope with these adverse events.4. You plan how to recover critical services quickly after they have been damaged 
+or taken offline by a failure or cyberattack. This step usually involves providing 
+redundant copies of the critical assets that provide these services and switching 
+to these copies when required.5. Critically, you should test all aspects of your resilience planning. This testing 
+
+involves identifying failure and attack scenarios and playing these scenarios out 
+against your system.Maintaining the availability of critical services is the essence of resilience. 
+Accordingly, you have to know:˜ the system services that are the most critical for a business,˜ the minimal quality of service that must be maintained,˜ how these services might be compromised,˜ how these services can be protected, and˜ how you can recover quickly if the services become unavailable.As part of the analysis of critical services, you have to identify the system assets that are essential for delivering these services. These assets may be hardware (serv-ers, network, etc.), software, data, and people. To build a resilient system, you have 
+to think about how to use redundancy and diversity to ensure that these assets remain 
+available in the event of a system failure.For all of these activities, the key to providing a rapid response and recovery plan after an adverse event is to have additional software that supports resistance, recov-
+ery, and reinstatement. This may be commercial security software or resilience sup-
+port that is programmed into application systems. It may also include scripts and 
+
+specially written programs that are developed for recovery and  reinstatement. If you have the right support software, the processes of recovery and reinstatement can be 
+partially automated and quickly invoked and executed after a system failure.Resilience testing involves simulating possible system failures and cyberattacks to 
+test whether the resilience plans that have been drawn up work as expected. Testing 
+
+is essential because we know from experience that the assumptions made in resil
+-
+ience planning are often invalid and that planned actions do not always work. Testing 
+
+for resilience can reveal these problems so that the resilience plan can be refined.

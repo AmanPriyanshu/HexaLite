@@ -1,0 +1,103 @@
+CHAPTER 13  
+ARCHITECTURAL DESIGN 277established, it is more likely that effective assessment methods for architectures will be established as the design evolves.   
+ 
+ 
+ 
+ 
+ 
+ 
+13.7.2  Architectural Reviews 
+ 
+Architectural reviews are a type of specialized technical review ( Chapter 20 ) that provide a means of assessing the ability of a software architecture to meet the 
+system’s quality requirements (e.g., scalability or performance) and to identify 
+
+any potential risks. Architectural reviews have the potential to reduce project 
+costs by detecting design problems early. 
+ Unlike requirements reviews that involve representatives of all stakeholders, architecture reviews often involve only software engineering team members 
+supplemented by independent experts. The most common architectural review 
+techniques used in industry are: experienced-based reasoning,  11 
+ 
+ prototype eval-uation, scenario review ( Chapter 9 ), and use of checklists.  12 
+ 
+ Many architectural 
+reviews occur early in the project life cycle, they should also occur after new 
+components or packages are acquired in component-based design ( Chapter 14 ). Software engineers who conduct architectural reviews note that architectural 
+work products are sometimes missing or inadequate, thereby making reviews 
+difﬁ cult to complete [Bab09]. 
+ 
+ 
+Architectural Description Languages 
+ 
+The following summary of a number of 
+ important ADLs was prepared by Rickard 
+Land [Lan02] and is reprinted with the author’s per-
+
+mission. It should be noted that the ﬁ rst ﬁ
+ ve ADLs listed 
+have been developed for research purposes and are not 
+commercial products.   
+xArch ( 
+ 
+ 
+http://www.isr.uci.edu/projects/
+xarchuci/ 
+ 
+) a standard, extensible XML-based representation for software architectures.   
+UniCon ( 
+ 
+www.cs.cmu.edu/~UniCon
+ 
+) is “an architectural description language intended to aid 
+designers in deﬁ ning software architectures in terms 
+of abstractions that they ﬁ nd useful.” 
+  
+Wright (
+ 
+ 
+www.cs.cmu.edu/~able/wright/
+ 
+) is a formal language including the following elements: 
+ components 
+ with  ports
+ 
+,  connectors 
+ with  roles 
+, and  glue 
+ to attach roles to ports. Architectural styles 
+can be formalized in the language with predicates, 
+
+thus allowing for static checks to determine the 
+
+consistency and completeness of an architecture.   
+Acme ( 
+ 
+www.cs.cmu.edu/~acme/
+ 
+) can be seen 
+as a second-generation ADL, in that its intention is to 
+
+identify a kind of least common denominator for ADLs. 
+  
+UML ( 
+ 
+www.uml.org/
+ 
+) includes many of the artifacts 
+needed for architectural descriptions—processes, 
+nodes, views, etc. For informal descriptions, UML 
+
+is well suited just because it is a widely understood 
+standard. It, however, lacks the full strength needed 
+
+for an adequate architectural description.   
+SOFTWARE
+ TOOLS  
+ 
+11  
+ Experience-based reasoning
+ 
+ compares the new software architecture to an architecture used 
+to create a similar system in the past.   
+12  Representative checklists can be found at  
+http://www.opengroup.org/architecture/togaf7-doc/
+arch/p4/comp/clists/syseng.htm  pre22126_ch13_252-284.indd   277pre22126_ch13_252-284.indd   27713/12/13   6:12 PM13/12/13   6:12 PM

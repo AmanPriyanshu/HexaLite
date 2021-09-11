@@ -1,0 +1,46 @@
+˜˜˚˛˙˜˜˜
+˜˜˜
+Each of these elements has to have its own safety case. So, the protection system must have a safety case that demonstrates that the software will operate correctly and 
+shut down the reactor as intended. The overall case must also show that if the soft-
+ware protection system fails, there are alternative safety mechanisms, which do not 
+
+rely on software, that are invoked.
+Component failures in any system are inevitable. People make mistakes, undiscov-
+ered bugs in software cause undesirable behavior, and hardware burns out. We use a 
+range of strategies to reduce the number of human failures such as replacing hard
+-
+ware components before the end of their predicted lifetime and checking software 
+using static analysis tools. However, we cannot be sure that these will eliminate 
+
+component failures. We should therefore design systems so that individual compo
+-
+nent failures do not lead to overall system failure.Strategies to achieve and enhance dependability rely on both redundancy and 
+diversity. Redundancy means that spare capacity is included in a system that can be 
+used if part of that system fails. Diversity means that redundant components of the 
+
+system are of different types, thus increasing the chances that they will not fail in 
+exactly the same way.We use redundancy and diversity to enhance dependability in our everyday 
+lives. Commonly, to secure our homes we use more than one lock (redundancy), 
+
+and, usually, the locks used are of different types (diversity). This means that if 
+
+intruders find a way to defeat one of the locks, they have to find a different way of 
+
+defeating the other locks before they can gain entry. As a matter of routine, we 
+
+should all back up our computers and so maintain redundant copies of our data. To 
+
+avoid problems with disk failure, backups should be kept on a separate, diverse, 
+
+external device.Software systems that are designed for dependability may include redundant 
+components that provide the same functionality as other system components. These 
+are switched into the system if the primary component fails. If these redundant com-
+ponents are diverse, that is, not the same as other components, a common fault in 
+replicated components will not result in a system failure. Another form of redun-
+dancy is the inclusion of checking code, which is not strictly necessary for the sys-
+tem to function. This code can detect some kinds of problems, such as data corruption, 
+before they cause failures. It can invoke recovery mechanisms to correct problems to 
+ensure that the system continues to operate.In systems for which availability is a critical requirement, redundant servers are normally used. These automatically come into operation if a designated server fails. 
+Sometimes, to ensure that attacks on the system cannot exploit a common vulnera-
+bility, these servers may be of different types and may run different operating sys-
+tems. Using different operating systems is an example of software diversity and 

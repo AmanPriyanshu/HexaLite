@@ -1,0 +1,100 @@
+594 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+ 
+ 
+ 27.5  
+SECURITY RISK ANALYSIS
+ 
+ 7    
+ 
+ 
+ 
+ 
+ 
+ 
+Identifying and managing security risks are important project planning tasks (Chapter 31). Security engineering is driven by risks that are identiﬁ ed by the 
+software team and other stakeholders. Risks impact project management and 
+security assurance activities.   
+Threat modeling
+ 
+ is a security analysis method that can be used to identify those 
+threats with the highest potential to cause damage to a software-based system. Threat 
+
+modeling is accomplished in the earliest phases of a project using the requirements 
+
+and analysis models. The creation of a threat model involves identifying key com-
+ponents of an application, decomposing the application, identifying and categoriz-
+ing the component threats, rating and categorizing the threats to each component, 
+
+rating the components based on their risk ranking, and developing risk mitigation 
+
+strategies. Microsoft uses the following steps to create a threat model [Sin08]: 
+  
+ 
+ 
+ 
+ 
+ 1   
+Identify assets 
+. List all sensitive information and intellectual property, 
+where it is stored, how it is stored, and who has access.   
+ 
+ 
+ 2   
+Create an architecture overview.
+ 
+ Write system use cases and build a 
+model of the system components.   
+ 
+ 
+ 3   
+Decompose the application. 
+ The goal is to ensure that all data sent among application components are validated.   
+ 
+ 
+ 4   
+Identify threats. 
+ Note all threats that might compromise the system assets 
+using methods like attack trees or attack patterns, often the process involves 
+
+looking as network, host system conﬁ guration, and application threats. 
+  
+ 
+ 
+ 5   
+Document the threats. 
+ Create a risk information sheet detailing how each threat should be monitored and mitigated.   
+ 
+ 
+ 6   
+Rate the threats 
+. Most projects have insufﬁ cient resources to address all 
+conceivable threats, so threats need to be ranked using their impact and 
+likelihood.    
+Costly assets should be protected from high probability risks. A quantitative risk-assessment process (Chapter 35) can be used to rank the threats. First, all 
+assets to be assessed are identiﬁ ed and the dollar value of losing or recreating an 
+asset is determined. For each asset, a list of major threats is created and histor-
+
+ical data are used to determine the likely occurrence of each threat in a typical 
+year. The potential loss in dollars per major threat for each asset per year is com-
+
+puted along with the  annual loss expectancy 
+ (ALE) (determined by multiplying 
+the occurrence and potential loss). Finally, the combined threat of losing an asset 
+
+is computed by adding the ALE values associated with each individual threat.     Threat modeling
+  is 
+a security analysis 
+method that can be 
+used to identify those 
+threats with the high-
+est potential to cause 
+damage.  What are 
+
+the steps required to build a 
+threat model? ?  
+7  A generic discussion of risk analysis for software projects encompassing all types of risks that 
+threaten the project and its success is presented in Chapter 35. pre22126_ch27_584-600.indd   594pre22126_ch27_584-600.indd   59416/12/13   6:23 PM16/12/13   6:23 PM

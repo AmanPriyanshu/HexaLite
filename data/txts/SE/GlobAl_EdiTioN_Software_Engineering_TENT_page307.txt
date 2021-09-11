@@ -1,0 +1,40 @@
+˜˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜˜˜
+Our dependence on software systems for almost all aspects of our business and 
+ personal lives means that we expect that software to be available when we need it. This may be early in the morning or late at night, at weekends or during holidaysŠ
+the software must run all day, every day of the year. We expect that software will 
+operate without crashes and failures and will preserve our data and personal infor-
+mation. We need to be able to trust the software that we use, which means that the 
+software must be reliable.The use of software engineering techniques, better programming languages, and 
+effective quality management has led to significant improvements in software relia-
+bility over the past 20 years. Nevertheless, system failures still occur that affect the 
+
+system™s availability or lead to incorrect results being produced. In situations where 
+
+software has a particularly critical roleŠperhaps in an aircraft or as part of the national 
+
+critical infrastructureŠspecial reliability engineering techniques may be used to 
+
+achieve the high levels of reliability and availability that are required.Unfortunately, it is easy to get confused when talking about system reliability, with 
+different people meaning different things when they talk about system faults and failures. 
+
+Brian Randell, a pioneer researcher in software reliability, defined a faultŒerrorŒfailure 
+
+model (Randell 2000) based on the notion that human errors cause faults; faults lead to 
+
+errors, and errors lead to system failures. He defined these terms precisely:1. Human error or mistake Human behavior that results in the introduction of 
+faults into a system. For example, in the wilderness weather system, a program-
+mer might decide that the way to compute the time for the next transmission is 
+
+to add 1 hour to the current time. This works except when the transmission time 
+is between 23.00 and midnight (midnight is 00.00 in the 24-hour clock).2. System fault A characteristic of a software system that can lead to a system 
+
+error. The fault in the above example is the inclusion of code to add 1 to a  variable 
+called Transmission_time, without a check to see if the value of 
+Transmission_time is greater than or equal to 23.00.3. System error An erroneous system state during execution that can lead to sys-
+tem behavior that is unexpected by system users. In this example, the value of 
+the variable Transmission_time is set incorrectly to 24.XX rather than 00.XX 
+when the faulty code is executed.4. System failure An event that occurs at some point in time when the system does 
+not deliver a service as expected by its users. In this case, no weather data is 
+
+transmitted because the time is invalid.System faults do not necessarily result in system errors, and system errors do not necessarily result in system failures:1. Not all code in a program is executed. The code that includes a fault (e.g., the failure to initialize a variable) may never be executed because of the way that 
+the software is used.

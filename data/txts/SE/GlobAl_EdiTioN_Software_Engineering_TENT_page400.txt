@@ -1,0 +1,37 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜on the computers where it will execute and setting software parameters to reflect the execution environment and the preferences of the system user. Mistakes such as 
+
+forgetting to turn off debugging facilities or forgetting to change the default admin-
+istration password can introduce vulnerabilities into a system.Good management practice can avoid many security problems that arise from 
+configuration and deployment mistakes. However, software designers have the 
+
+responsibility to ﬁdesign for deployment.ﬂ You should always provide support for 
+deployment that reduces the chances of users and system administrators making 
+
+mistakes when configuring the software.I recommend four ways to incorporate deployment support in a system:1. Include support for viewing and analyzing configurations You should always 
+
+include facilities in a system that allow administrators or permitted users to 
+
+examine the current configuration of the system.2. Minimize default privileges You should design software so that the default con-
+figuration of a system provides minimum essential privileges.3. Localize configuration settings When designing system configuration support, 
+you should ensure that everything in a configuration that affects the same part of 
+a system is set up in the same place.4. Provide easy ways to fix security vulnerabilities You should include straightfor-
+ward mechanisms for updating the system to repair security vulnerabilities that 
+have been discovered.Deployment issues are less of a problem than they used to be as more and more software does not require client installation. Rather, the software runs as a service 
+and is accessed through a web browser. However, server software is still vulnerable 
+to deployment errors and omissions, and some types of system require dedicated 
+
+software running on the user™s computer.Irrespective of how much effort you put into maintaining systems security, you 
+
+should always design your system with the assumption that a security failure could 
+occur. Therefore, you should think about how to recover from possible failures and 
+restore the system to a secure operational state. For example, you may include a 
+
+backup authentication system in case your password authentication is compromised.For example, say an unauthorized person from outside the clinic gains access to the Mentcare system and you don™t know how that person obtained a valid login/
+
+password combination. You need to re-initialize the authentication system and not 
+just change the credentials used by the intruder. This is essential because the intruder 
+may also have gained access to other user passwords. You need, therefore, to ensure 
+that all authorized users change their passwords. You also must ensure that the unau-
+thorized person does not have access to the password-changing mechanism.

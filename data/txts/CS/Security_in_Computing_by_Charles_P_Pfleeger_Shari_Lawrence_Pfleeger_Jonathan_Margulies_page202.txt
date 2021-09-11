@@ -1,0 +1,82 @@
+168 Chapter 3  
+Programs and ProgrammingBecause viruses are insidious, we cannot assume that a clean program yesterday is still clean today. Moreover, a good program can be modified to include a copy of the virus 
+
+program, so the infected good program itself begins to act as a virus, infecting other 
+
+programs. The infection usually 
+
+spreads at a geometric rate, eventu-
+
+ally overtaking an entire computing 
+
+system and spreading to other con-
+nected systems.A virus can be either transient or resident. A 
+transient virus has a life span that 
+depends on the life of its host; the virus runs when the program to which it is attached 
+executes, and it terminates when the attached program ends. (During its execution, the 
+
+transient virus may spread its infection to other programs.) A 
+resident
+ virus locates 
+itself in memory; it can then remain active or be activated as a stand-alone program, 
+
+even after its attached program ends.
+The terms worm and virus are often used interchangeably, but they actually refer to 
+different things. A 
+worm
+ is a program that spreads copies of itself through a network. 
+(John Shoch and Jon Hupp [SHO82] are apparently the first to describe a worm, which, 
+
+interestingly, was created for nonmalicious purposes. Researchers at the Xerox Palo Alto 
+
+Research Center, Shoch and Hupp wrote the first program as an experiment in distributed 
+
+computing.) The primary difference between a worm and a virus is that a worm operates 
+
+through networks, and a virus can spread through any medium (but usually uses a copied 
+
+program or data files). Additionally, 
+
+the worm spreads copies of itself as 
+
+a stand-alone program, whereas the 
+virus spreads copies of itself as a 
+
+program that attaches to or embeds 
+in other programs. 
+Spreading copies of yourself seems boring and perhaps narcissistic. But worms do 
+have a common, useful purpose. How big is the Internet? What addresses are in use? 
+
+Worm programs, sometimes called “crawlers” seek out machines on which they can 
+
+install small pieces of code to gather such data. The code items report back to collection 
+
+points, telling what connectivity they have found. As we describe in Chapter 6, this kind 
+
+of reconnaissance can also have a negative security purpose; the worms that travel and 
+
+collect data do not have to be evil.
+As a slightly different example of this type of worm, consider how search engines 
+know about all the pages on the web. A 
+bot (short for robot), is a kind of worm used 
+in vast numbers by search engine hosts like Bing and Google. Armies of these agents 
+
+run on any computers on which they can install themselves. Their purpose is to scan 
+
+accessible web content continuously and report back to their controller any new content 
+
+they have found. In this way, the agents find pages that their controllers then catalog, 
+
+enabling the search engines to return these results in response to individuals’ que-
+
+ries. Thus, when you post a new web page (or modify an old one) with results of your 
+
+research on why people like peanut butter, a crawler soon notices that page and informs 
+
+its controller of the contents and whereabouts of your new page.
+Virus: code with malicious purpose; 
+
+intended to spread
+Worm: program that spreads copies of 
+
+itself through a network

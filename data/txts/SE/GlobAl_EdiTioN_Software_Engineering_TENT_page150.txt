@@ -1,0 +1,31 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜prescription, or a doctor. As an implementation is developed, you define implemen
+-tation objects to represent data that is manipulated by the system. In this section, the 
+
+focus is on the modeling of real-world objects as part of the requirements or early 
+software design processes. A similar approach is used for data structure modeling.Class diagrams in the UML can be expressed at different levels of detail. When you are developing a model, the first stage is usually to look at the world, identify 
+the essential objects, and represent these as classes. The simplest way of writing 
+
+these diagrams is to write the class name in a box. You can also note the existence of 
+an association by drawing a line between classes. For example, Figure 5.8 is a sim-
+ple class diagram showing two classes, Patient and Patient Record, with an associa-
+tion between them. At this stage, you do not need to say what the association is.Figure 5.
+9 develops the simple class diagram in Figure 5.8 to show that objects of class Patient are also involved in relationships with a number of other classes. In this 
+example, I show that you can name associations to give the reader an indication of 
+the type of relationship that exists.Figures 5.
+8 and 5.9, shows an important feature of class diagramsŠthe ability to show how many objects are involved in the association. In Figure 5.8 each end of the 
+association is annotated with a 1, meaning that there is a 1:1 relationship between 
+objects of these classes. That is, each patient has exactly one record, and each record 
+maintains information about exactly one patient.As you can see from Figure 5.9, other multiplicities are possible. You can define that an exact number of objects are involved (e.g., 1..4) or, by using a *, indicate that 
+there are an indefinite number of objects involved in the association. For example, 
+the (1..*) multiplicity in Figure 
+5.9 on the relationship between Patient and Condition 
+
+shows that a patient may suffer from several conditions and that the same condition 
+
+may be associated with several patients.Patient
+Patient
+record11Figure 5.8 UML Classes and associationPatient
+GeneralpractitionerConsultationConsultantMedicationTreatment
+HospitalDoctorConditionreferred-byreferred-todiagnosed-withattendsprescribesprescribesinvolves1..*11..*11..*1..*1..*1..*1..41..*1..*1..*1..*1..*Figure 5.9 Classes and associations in the 
+Mentcare system

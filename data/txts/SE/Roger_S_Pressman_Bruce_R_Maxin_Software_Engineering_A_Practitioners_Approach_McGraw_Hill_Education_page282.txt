@@ -1,0 +1,94 @@
+252  
+ 
+KEY CONCEPTS     agility and 
+architecture . . . . . 280  
+
+    archetypes . . . . . . 269  
+
+    architectural 
+
+decisions  . . . . . . . 266  
+
+    architectural description 
+
+language . . . . . . . 276  
+
+    architectural 
+
+descriptions . . . . . 255  
+
+    architectural 
+
+design . . . . . . . . . 267  
+ ARCHITECTURAL DESIGN 13   
+ 
+ 
+CHAPTER 
+ 
+QUICK LOOK   
+What is it?   Architectural design represents the structure of data and 
+program components that are re-
+quired to build a computer-based 
+system. It considers the architectural style that 
+the system will take, the structure and properties 
+
+of the components that constitute the system, 
+and the interrelationships that occur among all 
+architectural components of a system.   
+ 
+Who does it?   Although a software engineer can design both data and architecture, the job 
+is often allocated to specialists when large, 
+complex systems are to be built. A database 
+or data warehouse designer creates the data 
+architecture for a system. The “system archi-
+tect” selects an appropriate architectural style 
+from the requirements derived during software 
+requirements analysis.   
+ 
+Why is it important? 
+  You wouldn’t attempt to 
+build a house without a blueprint, would you? 
+You also wouldn’t begin drawing blueprints by 
+
+sketching the plumbing layout for the house. 
+You’d need to look at the big picture—the 
+
+house itself—before you worry about details. 
+That’s what architectural design does—it pro-
+vides you with the big picture and ensures that 
+you’ve got it right.   
+ 
+What are the steps?   Architectural design be-gins with data design and then proceeds to 
+the derivation of one or more representations 
+of the architectural structure of the system. Al-
+ternative architectural styles or patterns are 
+
+analyzed to derive the structure that is best 
+suited to customer requirements and quality 
+attributes. Once an alternative has been se-
+
+lected, the architecture is elaborated using an 
+architectural design method.   
+ 
+What is the work product? 
+  An architecture model encompassing data architecture and 
+program structure is created during architec-
+tural design. In addition, component properties 
+
+and relationships (interactions) are described.   
+ 
+How do I ensure that I’ve done it right?   At each stage, software design work products 
+are reviewed for clarity, correctness, complete-
+
+ness, and consistency with requirements and 
+with one another. 
+  
+ Design has been described as a multistep process in which represen-tations of data and program structure, interface characteristics, and 
+procedural detail are synthesized from information requirements. This description is extended by Freeman [Fre80]:  
+ 
+ 
+[D]esign is an activity concerned with making major decisions, often of a struc-tural nature. It shares with programming a concern for abstracting information 
+representation and processing sequences, but the level of detail is quite different 
+at the extremes. Design builds coherent, well-planned representations of pro-
+grams that concentrate on the interrelationships of parts at the higher level and 
+the logical operations involved at the lower levels.  pre22126_ch13_252-284.indd   252pre22126_ch13_252-284.indd   25213/12/13   6:12 PM13/12/13   6:12 PM

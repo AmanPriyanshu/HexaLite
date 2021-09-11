@@ -1,0 +1,43 @@
+ Section 6.8  Intrusion Detection and Prevention Systems 
+487  • Use minimal number of signatures with maximum effect.
+• Filter in real time, online.
+
+• Hide its presence.
+
+• Use optimal sliding-time window size to match signatures.
+Stealth ModeAn IDS is a network device (or, in the case of a host-based IDS, a program running on a 
+network device). Any network device is potentially vulnerable to network attacks. How 
+
+useful would an IDS be if it were deluged with a denial-of-service attack? If an attacker 
+
+succeeded in logging in to a system within the protected network, wouldn’t trying to 
+
+disable the IDS be the next step?
+To counter those problems, most IDSs run in 
+stealth mode, whereby an IDS has two 
+network interfaces: one for the network (or network segment) it is monitoring and the 
+
+other to generate alerts and perhaps perform other administrative needs. The IDS uses 
+
+the monitored interface as input only; it never sends packets out through that interface. 
+
+Often, the interface is configured so that the device has no published address through 
+
+the monitored interface; that is, no router can route anything directly to that address 
+
+because the router does not know such a device exists. It is the perfect passive wire-
+
+tap. If the IDS needs to generate an 
+alert, it uses only the alarm interface 
+
+on a completely separate control 
+
+network. Such an architecture is 
+
+shown in Figure 6-66.
+Stealth mode IDS prevents the attacker 
+
+from knowing an alarm has been raised.
+IDS control networkFirewall
+Firewall
+IDSMonitored networkoptionalFIGURE 6-66 IDS Control Network

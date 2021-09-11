@@ -1,0 +1,30 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+Language (UML) activity model that illustrates how the software transforms an input 
+blood sugar level to a sequence of commands that drive the insulin pump.Clearly, this is a safety-critical system. If the pump fails to operate or does not 
+operate correctly, then the user™s health may be damaged or they may fall into a 
+
+coma because their blood sugar levels are too high or too low. This system must 
+
+therefore meet two essential high-level requirements:1. The system shall be available to deliver insulin when required.2. The system shall perform reliably and deliver the correct amount of insulin to counteract the current level of blood sugar.The system must therefore be designed and implemented to ensure that it always 
+
+meets these requirements. More detailed requirements and discussions of how to 
+
+ensure that the system is safe are discussed in later chapters.
+
+A patient information system to support mental health care (the Mentcare system) is a 
+
+medical information system that maintains information about patients suffering from 
+
+mental health problems and the treatments that they have received. Most mental 
+
+health patients do not require dedicated hospital treatment but need to attend special-
+ist clinics regularly where they can meet a doctor who has detailed knowledge of their 
+
+problems. To make it easier for patients to attend, these clinics are not just run in 
+
+hospitals. They may also be held in local medical practices or community centers.The Mentcare system (Figure 1.6) is a patient information system that is intended for use in clinics. It makes use of a centralized database of patient information but Mentcareclient
+Mentcare serverPatient databaseMentcareclient
+Mentcareclient
+NetworkFigure 1.6 The organization of the 
+Mentcare system

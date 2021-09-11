@@ -1,0 +1,30 @@
+334 PART TWO  
+MODELINGdrags and drops a different camera location icon into the camera icon in the upper left-hand corner of the screen.   
+The layout sketch shown would have to be supplemented with an expansion of each menu item within the menu bar, indicating what actions are available for 
+
+the video monitoring mode (state). A complete set of sketches for each home-
+owner task noted in the user scenario would be created during the interface 
+design.   
+ 
+15.4.2 User Interface Design Patterns 
+ 
+Graphical user interfaces have become so common that a wide variety of user interface design patterns has emerged. A  design pattern 
+ is an abstraction that 
+prescribes a design solution to a speciﬁ c, well-bounded design problem. 
+ As an example of a commonly encountered interface design problem, con-sider a situation in which a user must enter one or more calendar dates, some-
+times months in advance. There are many possible solutions to this simple 
+problem, and a number of different patterns that might be proposed. Laakso 
+[Laa00] suggests a pattern called  CalendarStrip 
+ that produces a continuous, 
+scrollable calendar in which the current date is highlighted and future dates 
+may be selected by picking them from the calendar. The calendar metaphor 
+ FIGURE 15.3 
+Preliminary 
+screen layout
+Access   Configure  System Status   View   Monitoring
+Monitoring
+First FloorSSSSSSSSMMVideo ImageŠLRLRDRKITCCCSafeHomeConnectStatusVideo Camera
+InOutRLSMCdoor/window sensor
+motion detector (beam shown)
+video camera location
+pre22126_ch15_317-346.indd   334pre22126_ch15_317-346.indd   33413/12/13   10:01 PM13/12/13   10:01 PM

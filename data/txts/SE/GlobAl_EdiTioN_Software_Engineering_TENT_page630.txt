@@ -1,0 +1,41 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜they are doing is checking whether or not a sensor has changed its status (e.g., from off to on). It is reasonable to assume that the execution time to check and assess the 
+state of one sensor is less than 1 millisecond.To ensure that you meet the deadlines defined by the timing requirements, you then have to decide how frequently the related processes have to run and how many 
+sensors should be examined during each execution of the process. There are obvious 
+
+trade-offs here between frequency and execution time:1. The deadline for detecting a change of state is 0.25 second, which means that 
+each sensor has to be checked 4 times per second. If you examine one sensor 
+
+during each process execution, then if there are N sensors of a particular type, 
+
+you must schedule the process 4N times per second to ensure that all sensors are 
+checked within the deadline.2. If you examine four sensors, say, during each process execution, then the execu-
+tion time is increased to about 4 ms, but you need only run the process N times/
+second to meet the timing requirement.In this case, because the system requirements define actions when two or more sensors are positive, the best strategy is to examine sensors in groups, with groups 
+based on the physical proximity of the sensors. If an intruder has entered the build-
+ing, then it will probably be adjacent sensors that are positive.When you have completed the timing analysis, you may then annotate the process 
+model with information about frequency of execution and their expected execution 
+time (see Figure 21.17). Here, periodic processes are annotated with their frequency, 
+processes that are started in response to a stimulus are annotated with R, and the test-ing process is a background process, annotated with B. This background process 
+Lighting control
+process
+External alert
+process
+Voltage monitor
+process
+System
+controllerConsole displayprocess
+Door sensorprocess
+Movementdetector process
+Window sensorproces
+sAudible alarm
+process
+Control panelprocess
+Testing process
+Power management
+process
+50 Hz (0.5 ms)50 Hz (1 ms)50 Hz (0.5 ms)250 Hz (0.5 ms)250 Hz(1 ms)B50 Hz (0.5 ms)50 Hz (1 ms)R (20 ms)
+R (10 ms)
+R (5 ms)
+R (5 ms)
+Figure 21.17  Alarm process timing 

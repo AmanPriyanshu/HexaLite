@@ -1,0 +1,48 @@
+140 Chapter 3  
+Programs and Programmingsecurity group. Pincus and Baker [PIN04] reviewed buffer overflows ten years after 
+Mudge and found that, far from being a minor aspect of attack, buffer overflows had 
+
+been a significant attack vector and had spawned several other new attack types. That 
+
+pattern continues today.
+An alternative style of buffer overflow occurs when parameter values are passed into 
+a routine, especially when the parameters are passed to a web server on the Internet. 
+
+Parameters are passed in the URL line, with a syntax similar to
+http://www.somesite.com/subpage/userinput.asp? parm1=(808)555-1212In this example, the application script userinput receives one parameter, parm1 with 
+value (808)555-1212 (perhaps a U.S. telephone number). The web browser on the call-
+
+er’s machine will accept values from a user who probably completes fields on a form. 
+
+The browser encodes those values and transmits them back to the server’s web site.
+The attacker might question what the server would do with a really long telephone 
+number, say, one with 500 or 1000 digits. This is precisely the question David asked in 
+
+the example we described in Sidebar 3-2. Passing a very long string to a web server is a 
+
+slight variation on the classic buffer overflow, but no less effective.
+Overwriting MemoryNow think about a buffer overflow. If you write an element past the end of an array or 
+you store an 11-byte string in a 10-byte area, that extra data has to go somewhere; often 
+
+it goes immediately after the last assigned space for the data. A buffer (or array or string) is a space in which data can be held. A buffer resides in 
+memory. Because memory is finite, a buffer’s capacity is finite. For this reason, in many 
+
+programming languages the programmer must declare the buffer’s maximum size so 
+
+that the compiler can set aside that amount of space.Let us look at an example to see how buffer overflows can happen. Suppose a C lan-
+guage program contains the declarationchar sample[10];The compiler sets aside 10 bytes to store this buffer, one byte for each of the 10 ele-
+
+ments of the array, denoted sample[0] through sample[9]. Now we execute the statement
+sample[10] = 'B';The subscript is out of bounds (that is, it does not fall between 0 and 9), so we have a 
+
+problem. The nicest outcome (from a security perspective) is for the compiler to detect 
+
+the problem and mark the error during compilation, which the compiler could do in this 
+case. However, if the statement were
+sample[i] = 'B';then the compiler could not identify the problem until i was set during execution either 
+
+to a proper value (between 0 and 9) or to an out-of-bounds subscript (less than 0 or 
+
+greater than 9). It would be useful if, during execution, the system produced an error 
+
+message warning of a subscript exception. Unfortunately, in some languages, buffer 

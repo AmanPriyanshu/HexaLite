@@ -1,0 +1,77 @@
+216 PART TWO  
+MODELING 
+ 
+ 
+•   
+Interaction model 
+—describes the manner in which users interact with   
+ 
+ 
+•   
+Functional model 
+—deﬁ nes the operations that will be applied to manip-
+ulate content and describes other processing functions that are indepen-
+dent of content but necessary to the end user. 
+  
+ 
+ 
+•   
+Navigation model 
+—deﬁ nes the overall navigation strategy for the app. 
+  
+ 
+ 
+•   
+Conﬁ guration model
+ 
+—describes the environment and infrastructure in which the app resides.  
+ 
+  You can develop each of these models using a representation scheme (often 
+called a “language”) that allows its intent and structure to be communicated and 
+evaluated easily among members of the engineering team and other stakehold-
+ers. As a consequence, a list of key issues (e.g., errors, omissions, inconsistencies, 
+suggestions for enhancement or modiﬁ cation, points of clariﬁ
+ cation) are identi-
+ﬁ ed and acted upon. 
+ 
+ 
+ 
+11.5.4  Content Model 
+ 
+The content model contains structural elements that provide an important view 
+of content requirements for an application. These structural elements encompass 
+
+content objects and all  analysis classes 
+—user-visible entities that are created or 
+manipulated as a user interacts with the app through a browser or a mobile device.  9 
+ 
+   
+Content can be developed prior to the implementation of the app, while the app is being built, or long after the app is operational. In every case, it is incorpo-
+rated via navigational reference into the overall application structure. A  content object 
+ might be a textual description of a product, an article describing a news 
+event, a graphical representation of retrieved data (e.g., stock price as a func-
+tion of time), an action photograph taken at a sporting event, a user’s response 
+
+on a discussion forum, an animated representation of a corporate logo, a short 
+video of a speech, or an audio overlay for a collection of presentation slides. The 
+content objects might be stored as separate ﬁ les or obtained dynamically from 
+a database. They might be embedded directly into Web pages, displayed on the 
+
+screen of a mobile device. In other words, a content object is any item of cohesive 
+information that is to be presented to an end user. 
+ Content objects can be determined directly from use cases by examining the scenario description for direct and indirect references to content. For example, a 
+WebApp that supports  
+SafeHome 
+ is established at  
+www.safehomeassured.com. 
+ A use case,  Purchasing Select SafeHome Components,
+ 
+ describes the scenario 
+ required to purchase a  SafeHome 
+ component and contains the sentence: 
+ 
+I will be able to get descriptive and pricing information for each product component.  
+  
+ 
+9  Analysis classes were discussed in Chapter 10. 
+pre22126_ch11_202-223.indd   216pre22126_ch11_202-223.indd   21613/12/13   6:12 PM13/12/13   6:12 PM

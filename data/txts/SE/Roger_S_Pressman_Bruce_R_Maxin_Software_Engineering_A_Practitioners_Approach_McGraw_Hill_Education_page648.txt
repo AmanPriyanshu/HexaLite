@@ -1,0 +1,69 @@
+618 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+•  No elements of the queue will contain the same block numbers.   
+ 
+ 
+•  The collection of used blocks and blocks that are unused will be the total collection of blocks that make up ﬁ les. 
+  
+ 
+ 
+•  The collection of unused blocks will have no duplicate block numbers.   
+ 
+ 
+•  The collection of used blocks will have no duplicate block numbers.  
+ 
+  Some of the operations associated with this data are:  add() 
+ a collection of blocks 
+to the end of the queue,  remove()
+ 
+ a collection of used blocks from the front of the 
+queue and place them in the collection of unused blocks, and  check() 
+ whether 
+the queue of blocks is empty. 
+ The precondition of  add() 
+ is that the blocks to be added must be in the collec-tion of used blocks. The postcondition is that the collection of blocks is now found 
+at the end of the queue. The precondition of  remove()
+ 
+ is that the queue must 
+have at least one item in it. The postcondition is that the blocks must be added 
+to the collection of unused blocks. The  check() 
+ operation has no precondition. 
+This means that the operation is always deﬁ ned, regardless of what value the 
+state is. The postcondition delivers the value  true 
+ if the queue is empty and  false 
+ otherwise.  In the examples noted in this section, we introduce the key concepts of for-
+mal speciﬁ cation but without emphasizing the mathematics that are required 
+to make the speciﬁ cation formal. In Appendix 3 we consider how mathematical 
+notation can be used to formally specify some element of a system.   
+ 
+ 
+ 
+ 
+ 
+ 28.7  
+ALTERNATIVE
+ ARGUMENTS  
+ 
+Parnas [Par10] offers several criticisms of the approach typically used to prove program correctness. He argues that using values of expression variables to de-
+ﬁ ne the state of computation ignores the role of interrupt handlers in real-time 
+systems. Formal methods typically discourage the use of expression side effects 
+that may be common in some application domains. Information hiding facilitated 
+by use of abstract data types gives rise to the use of hidden states, which must be 
+accounted for when writing data invariants. This often makes assertions more 
+complex than the code itself. Formal methods were devised for deterministic 
+programs.  12 
+ 
+ This does not account for programs designed to run forever. 
+  Formal methods depend on the use of models intended to provide a simpliﬁ ed 
+view of the program. There is no reliable method of translating these models to 
+program code. It is possible to prove a program correct that may have defects, 
+because the model or code was ﬂ awed. 
+ 
+ 
+12  
+ Deterministic programs
+ 
+ always begin in a deﬁ ned start state and end in a single end state. 
+pre22126_ch28_601-622.indd   618pre22126_ch28_601-622.indd   61813/12/13   6:15 PM13/12/13   6:15 PM

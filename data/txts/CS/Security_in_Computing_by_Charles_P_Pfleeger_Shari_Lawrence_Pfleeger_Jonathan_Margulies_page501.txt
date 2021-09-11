@@ -1,0 +1,64 @@
+ Section 6.7  Firewalls 
+467  be vulnerable to a crafty attack through the operating system by a rootkit. Still, espe-
+cially for cable modem, DSL, and other “always on” connections, the static workstation 
+
+is a visible and vulnerable target for an ever-present attack community. A personal fire-
+
+wall can provide reasonable protection to clients that are not behind a network firewall.
+Comparison of Firewall Types
+We can summarize the differences among the several types of firewalls we have pro-
+
+filed. The comparisons are shown in Table 6-6. Firewall types are arranged generally 
+
+from least sophisticated on the left to more so on the right, with the exception of per-
+
+sonal firewalls, which are more like an enterprise packet filter. Do not, however, inter-
+
+pret least sophisticated as meaning weakest or least desirable; in fact, packet filtering 
+
+firewalls are the work horses of enterprise networks, quickly and efficiently blocking 
+
+much undesirable traffic. As you study this table, bear in mind that firewalls, like many 
+
+other commercial products, are caught in marketing wars. Products that started as sim-
+
+ple packet filters soon began to appear with functions more normally found in stateful 
+
+inspection and application-level firewalls. Thus, few products now fit the crisply dis-
+
+tinct definitions of types just presented, and the cells of this table describe fundamental 
+
+properties that may be enhanced in practice.Example Firewall Configurations
+Let us look at several examples to understand how to use firewalls. We present situ-
+
+ations designed to show how a firewall complements a sensible security policy and 
+
+architecture.The simplest use of a firewall is shown in Figure 6-59. This environment has a 
+screening router positioned between the internal LAN and the outside network con-
+
+nection. In many cases, this installation is adequate when we need to screen only the 
+
+address of a router.
+However, to use a proxy machine, this screening router’s placement is not ideal. 
+Similarly, configuring a router for a complex set of approved or rejected addresses is 
+
+difficult. If the firewall router is successfully attacked, all traffic on the LAN to which 
+
+the firewall is connected is visible. To reduce this exposure, a firewall is often installed 
+
+on its own LAN, as shown in Figure 6-60. The firewall’s LAN feeds traffic to a router 
+
+for a separate protected LAN of users’ machines. In this configuration, the only traffic 
+
+visible to the outside is on the firewall’s LAN, whose data either came from the outside 
+
+or are destined to go outside.poke a hole in a firewall? Only if it is absolutely necessary, is temporary, 
+and is done with the permission of the system administrator. Such situa-
+
+tions may arise in emergencies, when protected information or services are 
+
+needed to address unusual problems. The challenge is to ensure that the 
+
+emergency does not become standard practice and that the exception is 
+
+removed after its use.

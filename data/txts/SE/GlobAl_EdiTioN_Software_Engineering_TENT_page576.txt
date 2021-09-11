@@ -1,0 +1,41 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˚˜˜˜
+˜2. Because subsystems are never completely independent, changes to one subsystem 
+may have side-effects that adversely affect the performance or behavior of other 
+
+subsystems. Consequent changes to these subsystems may therefore be needed.3.
+ The reasons for original design decisions are often unrecorded. Those responsible 
+
+for˜the system evolution have to work out why particular design decisions were made.
+4.
+ As systems age, their structure becomes corrupted by change, so the costs of 
+
+making further changes increases.Systems that have been in use for many years are often reliant on obsolete hard-ware and software technology. These ﬁlegacy systemsﬂ (discussed in Chapter 9) are 
+
+sociotechnical computer-based systems that have been developed using technology 
+that is now obsolete. However, they don™t just include legacy hardware and software. 
+They also rely on legacy processes and proceduresŠold ways of doing things that 
+
+are difficult to change because they rely on legacy software. Changes to one part of 
+the system inevitably involve changes to other components.Changes made to a system during system evolution are often a source of problems and vulnerabilities. If the people implementing the changes are different from those 
+who developed the system, they may be unaware that a design decision was taken for 
+dependability and security reasons. Therefore, they may change the system and lose 
+some safeguards that were deliberately implemented when the system was built. 
+
+Furthermore, as testing is so expensive, complete retesting may be impossible after 
+every system change. Consequently, testing may not discover the adverse side-
+effects of changes that introduce or expose faults in other system components.Figure 19.12 Factors that influence system 
+lifetimesFactorRationaleInvestment costThe costs of a systems engineering project may be tens or even hundreds of 
+millions of dollars. These costs can only be justified if the system can deliver 
+value to an organization for many years.Loss of expertiseAs businesses change and restructure to focus on their core activities, they 
+often lose engineering expertise. This may mean that they lack the ability to 
+specify the requirements for a new system.Replacement costThe cost of replacing a large system is very high. Replacing an existing system can 
+
+be justified only if this leads to significant cost savings over the existing system.Return on investmentIf a fixed budget is available for systems engineering, spending on new 
+systems in some other area of the business may lead to a higher return on 
+investment than replacing an existing system.Risks of changeSystems are an inherent part of business operations, and the risks of 
+replacing existing systems with new systems cannot be justified. The danger 
+with a new system is that things can go wrong in the hardware, software, and 
+operational processes. The potential costs of these problems for the business 
+may be so high that they cannot take the risk of system replacement.System dependenciesSystems are interdependent and replacing one of these systems may lead to 
+extensive changes in other systems.

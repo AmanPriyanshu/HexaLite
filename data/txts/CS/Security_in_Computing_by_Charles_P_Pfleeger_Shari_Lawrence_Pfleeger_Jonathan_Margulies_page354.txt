@@ -1,0 +1,61 @@
+320 Chapter 5  
+Operating SystemsWe can think of the TCB as a coherent whole in the following way. Suppose you 
+divide a trusted operating system into the parts that are in the TCB and those that are 
+
+not, and you allow the most skillful malicious programmers to write all the non-TCB 
+
+parts. Since the TCB handles all the security (including protecting itself), nothing the 
+
+malicious non-TCB parts do can impair the correct security policy enforcement of the 
+
+TCB. This definition gives you a sense that the TCB forms the fortress-like shell that 
+
+protects whatever in the system needs protection. But the analogy also clarifies the 
+
+meaning of trusted in trusted operating system: Our trust in the security of the whole 
+system depends on the TCB.
+Obviously, the TCB must be both correct and complete. Thus, to understand how 
+to design a good TCB, we focus on the division between the TCB and non-TCB ele-
+
+ments of the operating system and concentrate our effort on ensuring the correctness of 
+
+the TCB.
+TCB Functions Just what constitutes the TCB? We can answer this question by listing system elements 
+
+on which security enforcement could depend:• hardware
+, including processors, memory, registers, a clock, and I/O devices
+• some notion of 
+processes
+, so that we can separate and protect security-critical processes• primitive 
+files
+, such as the security access control database and identification 
+and authentication data• protected 
+memory, so that the reference monitor can be protected against 
+tampering• some interprocess communication
+, so that different parts of the TCB can pass 
+data to and activate other parts; for example, the reference monitor can invoke 
+
+and pass data securely to the audit routineIt may seem as if this list encompasses most of the operating system, but in fact the 
+TCB is only a small subset. For example, although the TCB requires access to files of 
+
+enforcement data, it does not need an entire file structure of hierarchical directories, 
+
+virtual devices, indexed files, and multidevice files. Thus, the TCB might contain a 
+
+primitive file manager to handle only the small, simple security data files needed for 
+
+the TCB. The more complex file manager to provide externally visible files could be 
+
+outside the TCB. Figure 5-17 shows a typical division into TCB and non-TCB sections.
+The TCB, which must maintain the secrecy and integrity of each domain, monitors 
+four basic interactions.• Process activation
+. In a multiprogramming environment, activation and deac-
+tivation of processes occur frequently. Changing from one process to another 
+
+requires a complete change of registers, relocation maps, file access lists, pro-
+
+cess status information, and other pointers, much of which is security-sensitive 
+
+information.• Execution domain switching
+. Processes running in one domain often invoke pro-
+cesses in other domains to obtain more or less sensitive data or services.

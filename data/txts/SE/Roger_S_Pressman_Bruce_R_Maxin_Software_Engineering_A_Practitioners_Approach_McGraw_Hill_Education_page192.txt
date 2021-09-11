@@ -1,0 +1,66 @@
+162 PART TWO  
+MODELING 
+ 
+ 
+•  Have requirements patterns been used to simplify the requirements model? Have all patterns been properly validated? Are all patterns con-
+sistent with customer requirements?    
+These and other questions should be asked and answered to ensure that the requirements model is an accurate reﬂ ection of stakeholder needs and that it 
+provides a solid foundation for design.   
+ 
+ 
+ 8.9 A
+VOIDING COMMON MISTAKES
+  
+ 
+Buschmann [Bus10] describes three related mistakes that must be avoided as a software team performs requirements engineering. He calls them: featuritis, 
+ﬂ exibilitis, and performitis. 
+  
+Fearturitis 
+ describes the practice of trading functional coverage for overall 
+system quality. There is a tendency in some organizations to equate the quan-
+
+tity of functions delivered at the earliest possible time with the overall quality 
+of the end product. This is driven in part by business stakeholders who think 
+more is better. There is also a tendency of software developers to want to imple-
+
+ment easy functions quickly without thought to their quality. The reality is that 
+
+one of the most common causes of software project failure is lack of operational 
+ quality— not 
+ missing functionality. To avoid this trap, you should initiate a discus-
+sion (with other stakeholders) about the key functions the system requires and 
+ensure that each delivered function exhibits all necessary quality attributes.   
+Flexibilitis 
+ happens when software engineers overload product with adapta-
+tion and conﬁ guration facilities. Overly ﬂ
+ exible systems are hard to conﬁ
+ gure 
+and exhibit poor operational performance. This can be a symptom of poorly de-
+ﬁ ned system scope. The root cause, however, may be developers who use ﬂ
+ exibil-
+ity as a cover for uncertainty. Rather than making tough design decisions early, 
+
+they provide design “hooks” to allow the addition of unplanned features. The 
+result is a “ﬂ exible” system that is unnecessarily complex, more difﬁ
+ cult to test, 
+and more challenging to manage.   
+Performitis 
+ occurs when 
+ 
+ software developers become overly focused on sys-
+tem performance at the expense of quality attributes like maintainability, reli-
+
+ability, or security. System performance characteristics should be determined 
+
+as part of an evaluation of nonfunctional software requirements. Performance 
+should conform to the business need for a product and must be compatible with 
+the other system characteristics.   
+ 
+ 
+ 
+ 
+ 8.10 S
+UMMARY  
+Requirements engineering tasks are conducted to establish a solid foundation for design and construction. Requirements engineering occurs during the commu-
+nication and modeling activities that have been deﬁ ned for the generic software 
+pre22126_ch08_131-165.indd   162pre22126_ch08_131-165.indd   16213/12/13   6:11 PM13/12/13   6:11 PM

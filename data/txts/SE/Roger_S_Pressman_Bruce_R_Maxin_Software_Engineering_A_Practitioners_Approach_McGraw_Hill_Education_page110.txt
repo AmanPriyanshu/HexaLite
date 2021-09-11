@@ -1,0 +1,86 @@
+80 PART ONE  
+THE SOFTWARE PROCESS
+prototyping in a controlled project environment” [CCS02]. The DSDM philosophy is borrowed from a modiﬁ ed version of the Pareto principle—80 percent of an 
+application can be delivered in 20 percent of the time it would take to deliver the 
+complete (100 percent) application.  DSDM is an iterative software process in which each iteration follows the percent rule. That is, only enough work is required for each increment to 
+
+ facilitate movement to the next increment. The remaining detail can be com-pleted later when more business requirements are known or changes have been 
+requested and accommodated.  
+ 
+ 
+   
+The DSDM Consortium (  
+www.dsdm.org
+ 
+ 
+) is a worldwide group of member companies that collectively take on the role of “keeper” of the method. The con-
+sortium has deﬁ ned an agile process model, called the  
+DSDM life cycle,  
+that begins with a  feasibility study 
+ that establishes basic business requirements and 
+constraints and is followed by a  business study 
+ that identiﬁ
+ es functional and in-
+formation requirements. DSDM then deﬁ nes three different iterative cycles: 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+Functional model iteration— 
+produces a set of incremental prototypes that demonstrate functionality for the customer. (Note: All DSDM prototypes are 
+
+intended to evolve into the deliverable application.) The intent during this iter-
+
+ative cycle is to gather additional requirements by eliciting feedback from users 
+as they exercise the prototype.    
+ 
+ 
+ 
+ 
+ 
+Design and build iteration— 
+revisits prototypes built during the functional model iteration to ensure that each has been engineered in a manner that 
+will enable it to provide operational business value for end users. In some 
+cases, the functional model iteration and the design and build iteration occur 
+concurrently. 
+   
+ 
+ 
+ 
+ 
+ 
+Implementation— 
+places the latest software increment (an “operationalized” prototype) into the operational environment. It should be noted that (1) the in-
+crement may not be 100 percent complete or (2) changes may be requested as 
+the increment is put into place. In either case, DSDM development work contin-
+ues by returning to the functional model iteration activity. 
+ 
+ 
+ 
+ 
+ 
+   
+DSDM can be combined with XP (Section 5.4) to provide a combination ap-proach that deﬁ nes a solid process model (the DSDM life cycle) with the nuts and 
+bolts practices (XP) that are required to build software increments.   
+ 
+5.5.3 Agile Modeling 
+ 
+There are many situations in which software engineers must build large,  business-critical systems. The scope and complexity of such systems must be modeled so that (1) all constituencies can better understand what needs to be ac-
+complished, (2) the problem can be partitioned effectively among the people who 
+must solve it, and (3) quality can be assessed as the system is being engineered 
+and built. But in some cases, it can be daunting to manage the volume of notation    DSDM is a process 
+framework that can 
+adopt the tactics of 
+another agile approach 
+such as XP. 
+ WebRef 
+ Comprehensive infor-
+mation on agile model-
+
+  www.agilemodel-
+
+ing.com  . 
+pre22126_ch05_066-086.indd   80pre22126_ch05_066-086.indd   8013/12/13   6:10 PM13/12/13   6:10 PM

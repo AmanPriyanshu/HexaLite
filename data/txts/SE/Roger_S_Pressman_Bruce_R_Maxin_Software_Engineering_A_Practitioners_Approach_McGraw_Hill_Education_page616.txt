@@ -1,0 +1,98 @@
+586 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 27.2  
+SECURITY AND PRIVACY
+ IN AN ONLINE WORLD  
+ 
+Internet activity is moving away from traditional desktop browsing and toward scenarios in which browsers provide dynamic, customized content. Users can 
+enter their own content on community forums that incorporate data mash-ups 
+from third-party sites. Many desktop applications make use of web browser in-
+terfaces to access local data and provide a uniform user experience on multiple 
+computing platforms. As a consequence, web developers need better control and 
+security mechanisms. Data and code from untrusted sources should not be given 
+the same privileges as a trusted programmer’s code. For the web browser to be 
+
+an effective user interface, privacy, trust, and security need to be among its most 
+
+important quality attributes [Sei11].   In many instances a user’s conﬁ
+ dential information ﬂ
+ ows across organiza-
+tional boundaries on the Internet. For example, electronic patient information 
+may need to be shared among hospitals, insurance companies, and physicians. 
+Similarly, travel information may need to be shared among travel agencies, ho-
+
+tels, and airlines. In these situations, users must reveal personal information to 
+receive a service. Often the user is not able to control what an organization does   uote  ”Relying on the 
+government to 
+protect your 
+privacy is like 
+asking a peeping 
+tom to install your 
+window blinds.“  John Perry 
+Barlow   
+ 
+Stakeholder Security Concerns    
+ 
+Stakeholder Security Concerns   
+ 
+The scene:  Software engineering 
+team workspace.   
+The players:  Jamie Lazar, software team member; 
+Vinod Raman, software team member; Ed Robbins, soft-
+ware team member, Doug Miller, software engineering 
+
+manager; and Lisa Perez, marketing team members, 
+and a product engineering representative.   
+The conversation:    
+Vinod:  If it’s okay, I’ll act as facilitator for this meeting. 
+ (Everyone nods in agreement) 
+  
+We need to begin determining the security concerns for 
+the  SafeHome 
+ Project.   
+Doug:  Can we begin by listing the things we’re worried 
+about protecting? 
+  
+Jamie:  Well, what if an outsider hacks into  
+SafeHome 
+ and manages to rob or damage a homeowner’s house? 
+  
+Lisa:  The company’s reputation would suffer if it was 
+known some hacker disabled our systems.   
+Jamie:  Not to mention the liability if the system was 
+determined to be poorly designed. 
+  
+Doug:  The web interface to the product makes it possible 
+for someone to intercept passwords as they’re transmitted. 
+  
+Ed:  More importantly, the web interface will require a 
+database containing customer information, so we have 
+
+privacy concerns. 
+  
+Vinod:  Perhaps this would be a good time to have 
+everyone spend 10 minutes listing each asset they think 
+
+might be lost or compromised by an attack.   [10 minutes pass]   
+Vinod:  OK, let’s post them on the whiteboard and see 
+if there are similar concerns. 
+ [15 minutes and the list is created]   
+Lisa:  That looks like a lot of concerns. How can we 
+handle them all?   
+Doug:  We need to prioritize our list based on the cost 
+to repair the damage caused by losing the asset.   
+Lisa:  How can we do that? 
+  
+Vinod:  We need to get real costs for replacing the lost 
+assets using historic project data. And Lisa, you need 
+to talk to legal and get their take on what our liability 
+might be.  
+ 
+  
+SAFEHOME pre22126_ch27_584-600.indd   586pre22126_ch27_584-600.indd   58616/12/13   6:23 PM16/12/13   6:23 PM

@@ -1,0 +1,58 @@
+x ContentsChapter 5 Operating Systems 280
+5.1 Security in Operating Systems 280
+Background: Operating System Structure 281
+Security Features of Ordinary Operating Systems 282
+
+A Bit of History 284
+
+Protected Objects 286
+
+Operating System Tools to Implement Security Functions 292
+5.2 Security in the Design of Operating Systems 308
+Simplicity of Design 309
+
+Layered Design 309
+
+Kernelized Design 312
+
+Reference Monitor 313
+
+Correctness and Completeness 314
+
+Secure Design Principles 315
+
+Trusted Systems 316
+
+Trusted System Functions 319
+
+The Results of Trusted Systems Research 325
+5.3 Rootkit 329
+Phone Rootkit 329
+
+Rootkit Evades Detection 330
+
+Rootkit Operates Unchecked 334
+
+Sony XCP Rootkit 335
+
+TDSS Rootkits 336
+
+Other Rootkits 338
+5.4 Conclusion 338
+5.5 Exercises 339
+Chapter 6 Networks 341
+6.1 Network Concepts 342
+Background: Network Transmission Media 343
+Background: Protocol Layers 349
+
+Background: Addressing and Routing 350
+ Part I—War on Networks: Network Security Attacks 353
+6.2 Threats to Network Communications 354
+Interception: Eavesdropping and Wiretapping 354
+Modification, Fabrication: Data Corruption  361
+
+Interruption: Loss of Service 366
+
+Port Scanning 369
+
+Vulnerability Summary 374

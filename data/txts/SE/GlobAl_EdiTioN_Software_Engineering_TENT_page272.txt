@@ -1,0 +1,32 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜Figure 9.
+12 shows an approximate distribution of maintenance costs, based on 
+data from the most recent survey available (Davidsen and Krogstie 2010). This study compared maintenance cost distribution with a number of earlier studies from 1980 
+to 2005. The authors found that the distribution of maintenance costs had changed 
+very little over 30 years. Although we don™t have more recent data, this suggests that 
+this distribution is still largely correct. Repairing system faults is not the most expen-
+sive maintenance activity. Evolving the system to cope with new environments and 
+
+new or changed requirements generally consumes most maintenance effort.Experience has shown that it is usually more expensive to add new features to a system during maintenance than it is to implement the same features during initial 
+development. The reasons for this are:1. A new team has to understand the program being maintained. After a system has been delivered, it is normal for the development team to be broken up and 
+for people to work on new projects. The new team or the individuals responsible 
+for system maintenance do not understand the system or the background to sys
+-
+tem design decisions. They need to spend time understanding the existing sys-
+tem before they can implement changes to it.2. Separating maintenance and development means there is no incentive for the 
+
+development team to write maintainable software. The contract to maintain a 
+
+system is usually separate from the system development contract. A different 
+
+company, rather than the original software developer, may be responsible for 
+
+software maintenance. In those circumstances, a development team gets no ben-
+efit from investing effort to make the software maintainable. If a development 
+
+team can cut corners to save effort during development it is worthwhile for them 
+
+to do so, even if this means that the software is more difficult to change in future.3. Program maintenance work is unpopular. Maintenance has a poor image among 
+software engineers. It is seen as a less skilled process than system development Functionality additionor modification(58%)Fault repair(24%)Environmental adaptation(19%)Figure 9.12  Maintenance effort 
+distribution 

@@ -1,0 +1,46 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜3. Platform-specific models (PSM) PSMs are transformations of the platform- independent model with a separate PSM for each application platform. In 
+ principle, there may be layers of PSM, with each layer adding some platform-specific detail. So, the first level PSM could be middleware-specific but 
+ database-independent. When a specific database has been chosen, a database-
+
+specific PSM can then be generated.Model-based engineering allows engineers to think about systems at a high 
+level of abstraction, without concern for the details of their implementation. This 
+
+reduces the likelihood of errors, speeds up the design and implementation process, 
+
+and allows for the creation of reusable, platform-independent application models. 
+
+By using powerful tools, system implementations can be generated for different 
+
+platforms from the same model. Therefore, to adapt the system to some new plat-
+form technology, you write a model translator for that platform. When this is 
+
+available, all platform-independent models can then be rapidly re-hosted on the 
+
+new platform.Fundamental to MDA is the notion that transformations between models can be defined and applied automatically by software tools, as illustrated in Figure 
+5.19. 
+This diagram also shows a final level of automatic transformation where a transfor-
+mation is applied to the PSM to generate the executable code that will run on the 
+
+designated software platform. Therefore, in principle at least, executable software 
+
+can be generated from a high-level system model.In practice, completely automated translation of models to code is rarely possi-ble. The translation of high-level CIM to PIM models remains a research problem, 
+
+and for production systems, human intervention, illustrated using a stick figure in 
+
+Figure 5.
+19, is normally required. A particularly difficult problem for automated 
+
+model transformation is the need to link the concepts used in different CIMS. For 
+
+example, the concept of a role in a security CIM that includes role-driven access 
+
+control may have to be mapped onto the concept of a staff member in a hospital 
+
+CIM. Only a person who understands both security and the hospital environment can 
+
+make this mapping.Platformspecific modelPlatformindependentmodelExecutablecodeTranslator
+Translator
+Translator
+Domain specificguidelinesPlatformspecific pattern
+sand rulesLanguagespecificpatternsComputationindependentmodelFigure 5.19 MDA transformations

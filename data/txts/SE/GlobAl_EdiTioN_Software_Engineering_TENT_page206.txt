@@ -1,0 +1,29 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜˜in doing too much modeling. You should not make detailed decisions about the imple-mentation that are really best left until the system is  implemented.Sequence models are dynamic models that describe, for each mode of interaction, the sequence of object interactions that take place. When documenting a design, you 
+should produce a sequence model for each significant interaction. If you have devel
+-
+oped a use case model, then there should be a sequence model for each use case that 
+you have identified.Figure 7.
+7 is an example of a sequence model, shown as a UML sequence 
+ diagram. This diagram shows the sequence of interactions that take place when an 
+external system requests the summarized data from the weather station. You read 
+
+sequence diagrams from top to bottom:1. The SatComms object receives a request from the weather information system to 
+collect a weather report from a weather station. It acknowledges receipt of this 
+request. The stick arrowhead on the sent message indicates that the external system 
+
+does not wait for a reply but can carry on with other processing.2. SatComms sends a message to WeatherStation, via a satellite link, to create a summary of the collected weather data. Again, the stick arrowhead indicates 
+
+that SatComms does not suspend itself waiting for a reply.3. WeatherStation
+ sends a message to a Commslink object to summarize the 
+weather data. In this case, the squared-off style of arrowhead indicates that the 
+instance of the WeatherStation object class waits for a reply.4. Commslink calls the summarize method in the object WeatherData and waits 
+for a reply.:SatCommsrequest (report)
+acknowledgereportWeather ()
+get (summary)reply (report)
+acknowledge:WeatherStation
+:Commslinksummarize ():WeatherData
+acknowledgesend (report)
+acknowledgeWeather
+information systemFigure 7.7 Sequence diagram describing  
+data collection

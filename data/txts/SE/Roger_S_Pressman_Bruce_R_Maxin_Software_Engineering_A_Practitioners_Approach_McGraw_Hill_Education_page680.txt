@@ -1,0 +1,68 @@
+650 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 29.5 S
+UMMARY  
+Software conﬁ guration management is an umbrella activity that is applied 
+throughout the software process. SCM identiﬁ es, controls, audits, and reports 
+modiﬁ cations that invariably occur while software is being developed and after 
+it has been released to a customer. All work products created as part of software 
+
+engineering become part of a software conﬁ guration. The conﬁ
+ guration is orga-
+nized in a manner that enables orderly control of change.  The software conﬁ guration is composed of a set of interrelated objects, also 
+called software conﬁ guration items, that are produced as a result of some soft-
+ware engineering activity. In addition to software engineering work products, 
+
+the development environment that is used to create software can also be placed 
+under conﬁ guration control. All SCIs are stored within a repository that imple-
+ments a set of mechanisms and data structures to ensure data integrity, provide 
+
+integration support for other software tools, support information sharing among 
+all members of the software team, and implement functions in support of version 
+and change control.  Once a conﬁ guration object has been developed and reviewed, it becomes a 
+baseline. Changes to a baselined object result in the creation of a new version of 
+that object. The evolution of a program can be tracked by examining the revision 
+history of all conﬁ guration objects. Version control is the set of procedures and 
+tools for managing the use of these objects.  Change control is a procedural activity that ensures quality and consistency as changes are made to a conﬁ guration object. The change control process be-
+gins with a change request, leads to a decision to make or reject the request for 
+change, and culminates with a controlled update of the SCI that is to be changed.  The conﬁ guration audit is an SQA activity that helps to ensure that quality is 
+maintained as changes are made. Status reporting provides information about 
+each change to those with a need to know. 
+ Conﬁ guration management for Web and MobileApps is similar in most re-
+spects to SCM for conventional software. However, each of the core SCM tasks 
+ DOE SCM checklist:  
+http://energy.gov/cio/
+downloads/software-
+quality-systems-
+engineering-program-
+
+software-conﬁ guration-management 
+  BS-6488  British Std., Conﬁ
+ guration 
+Management of Computer-Based 
+
+Systems  Best Practice—UK Ofﬁ
+ ce of Government Commerce: 
+  
+http://www.cabinetofﬁ
+ ce.gov.uk/content/ofﬁ
+ ce-government-commerce-ogc  
+  CMII Institute of CM Best Practices: 
+  
+www.icmhq.com 
+ 
+  A  Conﬁ guration Management Resource Guide
+ 
+ provides complementary information for those interested in CM 
+
+processes and practice. It is available at   
+http://cmpic.com/cmresourceguide.htm  
+.  pre22126_ch29_623-652.indd   650pre22126_ch29_623-652.indd   65013/12/13   6:16 PM13/12/13   6:16 PM

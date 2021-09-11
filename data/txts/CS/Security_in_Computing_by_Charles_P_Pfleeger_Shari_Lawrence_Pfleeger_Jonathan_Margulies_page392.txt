@@ -1,0 +1,66 @@
+358 Chapter 6  
+NetworksMany Points of Attack  
+Simple computing system is a self-contained unit. Access controls on one machine pre-
+
+serve the confidentiality of data on that processor. However, when a file is stored in a 
+
+network host remote from the user, the data or the file itself may pass through many 
+
+hosts to get to the user. One host’s administrator may enforce rigorous security policies, 
+
+but that administrator has no control over other hosts in the network. Thus, the user 
+
+must depend on the access control mechanisms in each of these systems. An attack can 
+
+come from any host to any host, so a large network offers many points of vulnerability.
+Sharing Because networks enable resource and workload sharing, networked systems open up 
+
+potential access to more users than do single computers. Perhaps worse, access is afforded 
+
+to more systems, so access controls for single systems may be inadequate in networks.
+System Complexity In Chapter 5 we saw that an operating system is a complicated piece of software. Reli-
+
+able security is difficult, if not impossible, on a large operating system, especially one 
+
+not designed specifically for security. A network combines two or more possibly dis-
+
+similar operating systems. Therefore, a network operating/control system is likely to be 
+
+more complex than an operating system for a single computing system. Furthermore, 
+
+the ordinary laptop computer today has greater computing power than did many office 
+
+computers in the last two decades. 
+The attacker can use this power to advantage by causing the victim’s computer to 
+perform part of the attack’s computation. And because an average computer is so pow-
+
+erful, most users do not know what their computers are really doing at any moment: 
+
+What processes are active in the 
+
+background while you are playing 
+
+Invaders from Mars? This complex-
+
+ity diminishes confidence in the net-
+
+work’s security.
+domain administrator could also modify the authentication database to 
+access anything else in the forest.
+For this reason, system administrators had to consider how they defined 
+domains and their separation in a network. Otherwise, they could conjure up 
+
+scary but possible scenarios. For instance, suppose one domain adminis-
+
+trator was a bad apple. She worked out a way to modify the authentication 
+
+database to make herself an administrator for the entire forest. Then she could 
+
+access any data in the forest, turn on services for some users, and turn off 
+
+services for other users. This example reinforces the security point introduced 
+
+in Chapter 3 of the importance of least privilege and separation of privilege.
+Most users have no idea of all the processes active in the background on 
+
+their computers.SIDEBAR 6-4 Continued

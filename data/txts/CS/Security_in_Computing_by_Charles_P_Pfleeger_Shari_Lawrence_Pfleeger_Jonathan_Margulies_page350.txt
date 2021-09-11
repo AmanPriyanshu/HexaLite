@@ -1,0 +1,68 @@
+316 Chapter 5  
+Operating Systems• permission based
+• separation of privilege
+
+• least common mechanism
+
+• ease of use
+Although these design principles were suggested several decades ago, they are as 
+accurate now as they were when originally written. The principles have been used 
+
+repeatedly and successfully in the design and implementation of numerous trusted sys-
+tems. More importantly, when security problems have been found in operating systems 
+
+in the past, they almost always derive from failure to abide by one or more of these prin-
+
+ciples. These design principles led to the development of “trusted” computer systems or 
+
+“trusted” operating systems.Trusted Systems
+Trusted systems can also help counter the malicious software problem. A 
+trusted sys-tem is one that has been shown to warrant some degree of trust that it will perform 
+certain activities faithfully, that is, in accordance with users’ expectations. Contrary to 
+
+popular usage, “trusted” in this context does not mean hope, in the sense of “gee, I 
+
+hope this system protects me from 
+
+malicious code.” Hope is trust with 
+
+little justification; trusted systems 
+
+have convincing evidence to justify 
+
+users’ trust. See Sidebar 5-4 for fur-
+
+ther discussion of the meaning of 
+
+the word.
+Trusted system: one with evidence to 
+
+substantiate the claim it implements 
+some function or policySIDEBAR 5-4 What Does “Trust” Mean for a System?
+Before we begin to examine a trusted operating system in detail, let us look 
+more carefully at the terminology involved in understanding and describing 
+
+trust. What would it take for us to consider something to be secure?
+The word secure reflects a dichotomy: Something is either secure or 
+not secure. If secure, it should withstand all attacks, today, tomorrow, and 
+
+a century from now. And if we claim that it is secure, you either accept our 
+
+assertion (and buy and use it) or reject it (and either do not use it or use it 
+
+but do not expect much from it).
+How does security differ from quality? If we claim that something is 
+good, you are less interested in our claims and more interested in an objec-
+
+tive appraisal of whether the thing meets your performance and function-
+
+ality needs. From this perspective, security is only one facet of goodness 
+
+or quality; you may choose to balance security with other characteristics 
+
+(such as speed or user friendliness) to select a system that is best, given 
+the choices you may have. In particular, the system you build or select may 
+
+be pretty good, even though it may not be as secure as you would like it 
+
+to be.

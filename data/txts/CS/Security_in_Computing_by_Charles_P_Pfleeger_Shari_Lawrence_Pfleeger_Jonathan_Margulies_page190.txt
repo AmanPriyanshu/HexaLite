@@ -1,0 +1,42 @@
+156 Chapter 3  
+Programs and ProgrammingThe data structure is essentially a work ticket, requiring a stamp of authorization; 
+once authorized, it is put on a queue of things to be done. Normally the access control 
+mediator process receives the data structure, determines whether the access should be 
+
+allowed, and either rejects the access and stops processing or allows the access and for-
+
+wards the data structure to the file handler for processing.
+To carry out this authorization sequence, the access control mediator would have to 
+look up the file name (and the user identity and any other relevant parameters) in tables. 
+
+The mediator could compare the names in the table to the file name in the data structure 
+
+to determine whether access is appropriate. More likely, the mediator would copy the 
+
+file name into its own local storage area and compare from there. Comparing from the 
+
+copy leaves the data structure in the user’s area, under the user’s control.
+At this point the incomplete mediation flaw can be exploited. While the mediator is 
+checking access rights for the file my_file, the user could change the file name descrip-
+
+tor to your_file, the value shown in Figure 3-13. Having read the work ticket once, the 
+
+mediator would not be expected to reread the ticket before approving it; the mediator 
+
+would approve the access and send the now-modified descriptor to the file handler.
+The problem is called a time-of-check to time-of-use flaw because it exploits the 
+delay between the two actions: check and use. That is, between the time the access was 
+
+checked and the time the result of the check was used, a change occurred, invalidating 
+
+the result of the check.Security ImplicationThe security implication here is clear: Checking one action and performing another is an example of ineffective access control, leading to confidentiality failure or integrity 
+
+failure or both. We must be wary whenever a time lag or loss of control occurs, making 
+
+sure that there is no way to corrupt the check’s results during that interval.
+File:
+my_fileAction:Change byte 4 to A
+FIGURE 3-12 File Access Data Structure
+File:
+my_fileAction:Change byte 4 to A
+File:your_fileAction:Delete fileFIGURE 3-13 Unchecked Change to Work Descriptor

@@ -1,0 +1,26 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜Testing can be very difficult and expensive as, obviously, the testing cannot be carried 
+out on an operational system. The system and its environment may have to be duplicated 
+for testing, and staff may have to be released from their normal responsibilities to work 
+
+on the test system. To reduce costs, you can use ﬁdesk testing.ﬂ The testing team assumes 
+
+a problem has occurred and tests their reactions to it; they do not simulate that problem 
+
+on a real system. While this approach can provide useful information about system resil-
+ience, it is less effective than testing in discovering deficiencies in the resilience plan.As an example of this approach, let us look at resilience engineering for the 
+Mentcare system. To recap, this system is used to support clinicians treating patients 
+in a variety of locations who have mental health problems. It provides patient infor-
+mation and records of consultations with doctors and specialist nurses. It includes a 
+number of checks that can flag patients who may be potentially dangerous or sui-
+cidal. Figure 14.10 shows the architecture of this system.The system is consulted by doctors and nurses before and during a consultation, and patient information is updated after the consultation. To ensure the effectiveness 
+of clinics, the business resilience requirements are that the critical system services 
+are available during normal working hours, that the patient data should not be per-
+manently damaged or lost by a system failure or cyberattack, and that patient infor-
+mation should not be released to unauthorized people.Two critical services in the system have to be maintained:1. An information service that provides information about a patient™s current diag-
+nosis and treatment plan.2. A warning service that highlights patients who could pose a danger to others or 
+
+to themselves.Notice that the critical service is not the availability of the complete patient 
+record. Doctors and nurses only need to go back to previous treatments occasionally, MentcareclientMentcare serverPatient database
+MentcareclientMentcareclientNetworkFigure 14.10 The clientŒserver architecture 
+of the Mentcare system 

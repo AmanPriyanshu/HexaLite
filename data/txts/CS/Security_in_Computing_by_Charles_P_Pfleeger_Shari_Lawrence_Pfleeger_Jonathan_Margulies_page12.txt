@@ -1,0 +1,55 @@
+xii Contents6.8 Intrusion Detection and Prevention Systems 474
+Types of IDSs 476
+Other Intrusion Detection Technology 481
+
+Intrusion Prevention Systems 482
+
+Intrusion Response 483
+
+Goals for Intrusion Detection Systems 486
+
+IDS Strengths and Limitations 488
+6.9 Network Management 489
+Management to Ensure Service 489
+
+Security Information and Event Management (SIEM) 492
+6.10 Conclusion 496
+6.11 Exercises 496
+Chapter 7 Databases 501
+7.1 Introduction to Databases 502
+Concept of a Database 502
+Components of Databases 502
+
+Advantages of Using Databases 506
+7.2 Security Requirements of Databases 507
+Integrity of the Database 507
+
+Element Integrity 508
+
+Auditability 510
+
+Access Control 511
+
+User Authentication 512
+
+Availability 512
+
+Integrity/Confidentiality/Availability 512
+7.3 Reliability and Integrity 513
+Protection Features from the Operating System 513
+
+Two-Phase Update 514
+
+Redundancy/Internal Consistency 516
+
+Recovery 516
+
+Concurrency/Consistency 517
+7.4 Database Disclosure 518
+Sensitive Data 518
+
+Types of Disclosures 519
+
+Preventing Disclosure: Data Suppression and Modification 529
+
+Security Versus Precision 530

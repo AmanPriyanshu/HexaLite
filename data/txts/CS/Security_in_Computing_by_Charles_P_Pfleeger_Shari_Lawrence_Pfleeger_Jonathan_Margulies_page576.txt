@@ -1,0 +1,50 @@
+542 Chapter 7  
+DatabasesUse of massive amounts of data from varied sources is often referred to as 
+big data. Big data differs from more conventional “small” data because big data comes from 
+
+sources outside the company and is not generated solely by the organization’s own 
+
+internal systems.  It can come from sensors and social media as well as video and audio 
+
+recordings. It can come from government databases, market analytics, and customer 
+
+reports. Every search query helps define trends of great value to companies. Social 
+
+media give companies insight into 
+
+what products, services, and prefer-
+
+ences people are sharing with their 
+
+friends.All these uses of data to predict behavior are valuable as companies decide how to 
+allocate resources. So now the grocer does not merely look at a ten-day weather forecast 
+
+but instead uses more data to predict with greater accuracy how many heads of lettuce 
+
+will sell.Big data is becoming a big deal. And as with many highly popular technologies, func-
+tionality outpaces security. In the next section we briefly describe the big data approach, 
+
+point out some of its security limitations, and suggest potential countermeasures.A Big Data Application Framework: Apache HadoopAs shown in Figure 7-5, the conventional model of computing has users interacting with 
+a processor that can access storage. To expand such a system, as shown in Figure 7-6, 
+
+storage can be increased by addition of more disks to a disk array, for example. How-
+
+ever, there is an implicit limit to how far storage can grow without suffering serious 
+
+performance delays: At some point the biggest device on the market fills up and a dif-
+
+ferent architecture is needed. A new processor can give greater speed, but again, exist-
+
+ing technology has its limits, and higher performance tends to be disproportionately 
+
+more expensive. Furthermore, one processor and one storage array become potential 
+
+points of catastrophic failure. Big data requires an architecture that can readily scale to 
+
+virtually unlimited capacity.
+Data on activities or behavior abound. 
+Are they accurate?
+FIGURE 7-5 Conventional Computing 
+ArchitectureStorageUserUserUserUserUserProcessorFIGURE 7-6 Conventional Architecture Scales by 
+Adding More, Bigger, or Faster Components
+StorageUserUserUserUserUserProcessor

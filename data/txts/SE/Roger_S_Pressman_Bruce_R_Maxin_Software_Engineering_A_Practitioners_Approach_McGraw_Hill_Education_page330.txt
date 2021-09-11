@@ -1,0 +1,52 @@
+300 PART TWO  
+MODELINGmessages that are passed between objects within a system. Although this design ac-tivity is optional, it can be used as a precursor to the speciﬁ cation of interfaces that 
+show how components within the system communicate and collaborate. 
+   
+Figure 14.6  illustrates a simple collaboration diagram for the printing system 
+discussed earlier. Three objects,  
+ProductionJob, WorkOrder,
+ 
+ and  
+JobQueue, 
+ col-
+laborate to prepare a print job for submission to the production stream. Messages 
+are passed between objects as illustrated by the arrows in the ﬁ gure. During 
+requirements modeling the messages are speciﬁ ed as shown in the ﬁ
+ gure. How-
+ever, as design proceeds, each message is elaborated by expanding its syntax in 
+
+the following manner [Ben02]:   
+[guard condition] sequence expression (return value) :5   message name (argument list)  
+where a [guard condition] is written in Object Constraint Language (OCL) 
+ 5 
+ 
+ and 
+speciﬁ es any set of conditions that must be met before the message can be sent; 
+ sequence expression is an integer value (or other ordering indicator, e.g., 3.1.2) that 
+indicates the sequential order in which a message is sent; (return value) is the name 
+of the information that is returned by the operation invoked by the message; 
+ message name identiﬁ
+ es the operation that is to be invoked, and
+ (argument list) is the list of attributes that are passed to the operation.   
+ 
+ 
+Step 3b. Identify appropriate interfaces for each component.   Within the context 
+of component-level design, a UML interface is “a group of externally visible (i.e., 
+
+public) operations. The interface contains no internal structure, it has no attributes, 
+
+.” [Ben02]. Stated more formally, an interface is the equivalent 
+
+of an abstract class that provides a controlled connection between design classes. 
+
+The elaboration of interfaces is illustrated in  Figure 14.1 . In essence, operations de-ﬁ ned for the design class are categorized into one or more abstract classes. Every 
+:ProductionJob:WorkOrder
+:JobQueue1: buildJob(WOnumber)2: submitJob(WOnumber)  
+FIGURE 14.6 
+Collaboration diagram with 
+messaging  
+  
+ 
+5  OCL is discussed brieﬂ
+ y in Appendix 1. 
+pre22126_ch14_285-316.indd   300pre22126_ch14_285-316.indd   30013/12/13   6:12 PM13/12/13   6:12 PM

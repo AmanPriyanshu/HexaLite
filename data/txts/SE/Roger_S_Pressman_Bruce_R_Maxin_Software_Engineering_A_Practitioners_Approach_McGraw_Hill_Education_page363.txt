@@ -1,0 +1,137 @@
+CHAPTER 15  
+USER INTERFACE DESIGN
+ 333computer (while I’m at work or traveling), I can determine the status of the alarm sys-tem, arm or disarm the system, reconﬁ gure security zones, and view different rooms 
+within the house via preinstalled video cameras.  To access  
+SafeHome 
+ from a remote location, I provide an identiﬁ
+ er and a pass-
+word. These deﬁ ne levels of access (e.g., all users may not be able to reconﬁ
+ gure the 
+system) and provide security. Once validated, I can check the status of the system and 
+
+change the status by arming or disarming  SafeHome. 
+ I can reconﬁ
+ gure the system by 
+displaying a ﬂ oor plan of the house, viewing each of the security sensors, displaying 
+each currently conﬁ gured zone, and modifying zones as required. I can view the in-
+terior of the house via strategically placed video cameras. I can pan and zoom each 
+camera to provide different views of the interior. 
+ 
+  
+Based on this use case, the following homeowner tasks, objects, and data items are identiﬁ ed:
+ 
+ 
+ 
+ 
+•   
+Accesses 
+ the  SafeHome 
+ system   
+ 
+ 
+•   
+Enters 
+ an  ID 
+ and  password 
+ to allow remote access   
+ 
+ 
+•   
+Checks 
+  system status 
+ 
+  
+ 
+ 
+•   
+Arms 
+ or  disarms 
+  SafeHome 
+ system   
+ 
+ 
+•   
+Displays 
+  ﬂ oor plan
+ 
+ and  sensor locations 
+ 
+  
+ 
+ 
+•   
+Displays 
+  zones 
+ on ﬂ oor plan 
+  
+ 
+ 
+•   
+Changes 
+  zones 
+ on ﬂ oor plan 
+  
+ 
+ 
+•   
+Displays 
+  video camera locations 
+ on ﬂ oor plan 
+  
+ 
+ 
+•   
+Selects 
+  video camera 
+ for viewing   
+ 
+ 
+•   
+Views
+ 
+  video images 
+ (four frames per second)   
+ 
+ 
+•   
+Pans 
+ or  zooms 
+ the  video camera 
+ 
+ 
+ 
+  Objects (boldface) and actions (italics) are extracted from this list of  homeowner tasks. The majority of objects noted are application objects. However,  
+video cam-era location 
+ (a source object) is dragged and dropped onto  
+video camera 
+ (a target 
+object) to create a  video image 
+ (a window with video display).  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+A preliminary sketch of the screen layout for video monitoring is created  ( Figure 15.3 ).  4 
+ 
+ To invoke the video image, a video camera location icon,  
+C, 
+ located 
+in the ﬂ oor plan displayed in the monitoring window is selected. In this case a 
+camera location in the living room (LR) is then dragged and dropped onto the 
+video camera icon in the upper left-hand portion of the screen. The video image 
+window appears, displaying streaming video from the camera located in the LR. 
+The zoom and pan control slides are used to control the magniﬁ cation and direc-
+tion of the video image. To select a view from another camera, the user simply 
+   Although automated 
+tools can be useful 
+in developing layout 
+prototypes, sometimes 
+a pencil and paper are 
+all that are needed.   
+4  Note that this differs somewhat from the implementation of these features in earlier chapters. 
+This might be considered a ﬁ rst draft design and represents one alternative that might be 
+considered. pre22126_ch15_317-346.indd   333pre22126_ch15_317-346.indd   33313/12/13   10:01 PM13/12/13   10:01 PM

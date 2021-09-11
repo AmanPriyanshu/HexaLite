@@ -1,0 +1,91 @@
+653 P
+RODUCTMETRICS   
+      
+A key element of any engineering process is measurement. You can use 
+
+measures to better understand the attributes of the models that you 
+create and to assess the quality of the engineered products or systems that you build. But unlike other engineering disciplines, software engineering 
+is not grounded in the basic quantitative laws of physics. Direct measures, 
+such as voltage, mass, velocity, or temperature, are uncommon in the software 
+
+world. Because software measures and metrics are often indirect, they are 
+open to debate. Fenton [Fen91] addresses this issue when he states:  
+Measurement is the process by which numbers or symbols are assigned to the 
+attributes of entities in the real world in such a way as to deﬁ ne them according to clearly deﬁ In the physical sciences, medicine, economics, and 
+more recently the social sciences, we are now able to measure attributes that we 
+Of course, such measurements are not
+ K
+EY CONCEPTS     architectural design 
+
+metrics. . . . . . . . . 663  
+
+    class-oriented 
+metrics. . . . . . . . . 667  
+
+    function point (FP)  . 
+659      goal/question/metric 
+(GQM). . . . . . . . . 656  
+
+    indicator. . . . . . . . 655  
+
+    measure. . . . . . . . 654  
+
+    measurement  . . . . 654  
+
+    measurement 
+principles  . . . . . . . 656  
+    
+CHAPTER30   
+What is it?   By its nature, engi-neering is a quantitative discipline. 
+Product metrics help software engi-
+neers gain insight into the design and construction of the software they build by 
+focusing on speciﬁ c, measurable attributes of 
+
+software engineering work products.    
+Who does it?   Software engineers use prod-uct metrics to help them build higher-quality 
+
+software.    
+Why is it important? 
+  There will always be a qualitative element to the creation of computer 
+software. The problem is that qualitative as-
+sessment may not be enough. You need objec-
+
+tive criteria to help guide the design of data, 
+architecture, interfaces, and components. 
+
+When testing, you need quantitative guidance 
+that will help in the selection of test cases and 
+their targets. Product metrics provide a basis 
+from which analysis, design, coding, and test-
+ing can be conducted more objectively and 
+assessed more quantitatively. 
+   
+What are the steps?   The ﬁ rst step in the 
+measurement process is to derive the software measures and metrics that are appropriate for 
+the representation of software that is being 
+considered. Next, data required to derive 
+the formulated metrics are collected. Once 
+
+computed, appropriate metrics are analyzed 
+based on preestablished guidelines and past 
+data. The results of the analysis are interpreted 
+to gain insight into the quality of the soft-
+ware, and the results of the interpretation lead 
+to modiﬁ cation of requirements and design 
+
+models, source code, or test cases. In some 
+instances, it may also lead to modiﬁ cation of 
+the software process itself.    
+What is the work product? 
+  Product metrics that are computed from data collected from the 
+requirements and design models, source code, 
+and test cases.    
+How do I ensure that I’ve done it right?   You should establish the objectives of measure-
+
+ment before data collection begins, deﬁ ning each product metric in an unambiguous man-
+ner. Deﬁ ne only a few metrics and then use 
+
+them to gain insight into the quality of a soft-
+ware engineering work product.  
+ Q
+UICK LOOK 

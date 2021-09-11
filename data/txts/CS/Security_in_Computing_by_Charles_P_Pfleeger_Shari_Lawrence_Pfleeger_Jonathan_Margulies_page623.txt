@@ -1,0 +1,68 @@
+ Section 9.1  Privacy Concepts 
+589  Affected Subject
+Individuals, groups, companies, organizations, and governments all have data they con-
+sider sensitive. We use terms such as “subject” and “owner” to distinguish between the 
+
+person or entity being described by data and the person or entity that holds the data. 
+
+So far we have described privacy from a personal standpoint, where the subject is a 
+
+person. But public and private organizations are interested in privacy, too. Companies 
+
+may have data they consider private or sensitive: product plans, key customers, profit 
+
+margins, and newly discovered technologies, as examples. For private enterprise, pri-
+
+vacy usually relates to gaining and maintaining an edge over the competition. Other 
+
+organizations, such as schools, hospitals, or charities, may need to protect personal data 
+
+about their students, patients, or donors. Many organizations protect information related 
+
+to their reputation, too; they may want to control negative news or time the release of 
+
+information that could affect stock price or a legal decision. Most governments consider 
+
+military and diplomatic matters sensitive, but they also recognize their responsibilities 
+
+to provide information that informs national discourse. At the same time, governments 
+
+have a responsibility to protect and keep confidential the data they collect from citizens, 
+
+such as tax information. Privacy is an aspect of confidentiality. As we have learned throughout this book, the 
+three security goals of confidentiality, integrity, and availability can conflict, and confiden-
+
+tiality sometimes conflicts with availability. For example, if you choose not to have your 
+
+telephone number published in a directory, then some people may not be able to reach you 
+
+by telephone. Or refusing to reveal personal data to a shop may prevent you from receiv-
+
+ing a frequent-shopper discount. So 
+it is important to consider privacy 
+
+not only as a way to protect informa-
+
+tion but also as a possible obstacle to 
+
+other important, positive goals.
+SummaryTo summarize, here are some points about privacy:
+• Privacy is controlled disclosure, in that the subject chooses what personal data 
+to give out, when and to whom.
+• After disclosing something, a subject relinquishes much control to the receiver.
+
+• What data are sensitive is at the discretion of the subject; people consider dif-
+ferent things sensitive. Whether a person considers something sensitive is as 
+
+important as why it is sensitive.
+• Individuals, informal groups, and formal organizations all have things they 
+ consider private.
+• Privacy can have a cost. Choosing not to give out certain data may limit the 
+ benefits that could have come with disclosure.
+In the next section we consider some examples of data that some people consider 
+private.
+Privacy and confidentiality relate in that 
+
+confidentiality is a means of protecting 
+
+what one person considers private.

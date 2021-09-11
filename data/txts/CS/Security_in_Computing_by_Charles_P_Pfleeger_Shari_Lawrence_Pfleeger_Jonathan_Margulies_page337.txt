@@ -1,0 +1,68 @@
+ Section 5.1  Security in Operating Systems 
+303  compatibility among operating systems and machine families. A tagged architecture 
+would require fundamental changes to substantially all the operating system code, a 
+
+requirement that can be prohibitively expensive. But as the price of memory continues 
+
+to fall, the implementation of a tagged architecture becomes more feasible.
+Virtual Memory 
+We present two more approaches to memory protection, each of which can be imple-
+
+mented on top of a conventional machine structure, suggesting a better chance of accep-
+
+tance. Although these approaches are ancient by computing standards—they were 
+
+designed between 1965 and 1975—they have been implemented on many machines 
+
+since then. Furthermore, they offer important advantages in addressing, with memory 
+
+protection being a delightful bonus.Segmentation The first of these two approaches, 
+segmentation, involves the simple notion of dividing 
+a program into separate pieces. Each piece has a logical unity, exhibiting a relationship 
+
+among all its code or data values. For example, a segment may be the code of a single 
+
+procedure, the data of an array, or the collection of all local data values used by a particu-
+
+lar module. Segmentation was developed as a feasible means to produce the effect of the 
+
+equivalent of an unbounded number of base/bounds registers. In other words, segmenta-
+
+tion allows a program to be divided into many pieces having different access rights.
+Each segment has a unique name. A code or data item within a segment is addressed 
+as the pair name, offset
+, where name is the name of the segment containing the data 
+item and offset is its location within the segment (that is, its distance from the start of 
+
+the segment).
+Logically, the programmer pictures a program as a long collection of segments. Seg-
+ments can be separately relocated, allowing any segment to be placed in any available 
+
+memory locations. The relationship between a logical segment and its true memory 
+
+position is shown in Figure 5-11.
+The operating system must maintain a table of segment names and their true 
+addresses in memory. When a program generates an address of the form 
+name, offset
+, the operating system looks up name in the segment directory and determines its real 
+
+beginning memory address. To that address the operating system adds offset, giving the 
+
+true memory address of the code or data item. This translation is shown in Figure 5-12. 
+
+For efficiency there is usually one operating system segment address table for each 
+
+process in execution. Two processes that need to share access to a single segment would 
+
+have the same segment name and address in their segment tables.
+Thus, a user’s program does not know what true memory addresses it uses. It has no 
+way—and no need—to determine the actual address associated with a particular 
+name, offset
+. The name, offset
+ pair is adequate to access any data or instruction to which a 
+program should have access.
+This hiding of addresses has three advantages for the operating system.
+• The operating system can place any segment at any location or move any seg-
+ment to any location, even after the program begins to execute. Because the 
+
+operating system translates all address references by a segment address table, 

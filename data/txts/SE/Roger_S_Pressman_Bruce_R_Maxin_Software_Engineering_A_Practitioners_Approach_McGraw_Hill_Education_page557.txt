@@ -1,0 +1,43 @@
+CHAPTER 24  
+TESTING OBJECT-ORIENTED APPLICATIONS
+ 527 
+ 
+ 
+ 4.
+   
+Using the inverted connections examined in step 3, determine whether other classes might be required or whether responsibilities are properly 
+grouped among the classes. 
+ 
+  
+ 
+ 
+ 5.
+   
+Determine whether widely requested responsibilities might be combined into a single responsibility.
+ 
+ For example,  read credit card
+ 
+ and  get autho-rization 
+ occur in every situation. They might be combined into a  validate credit request
+ 
+ responsibility that incorporates getting the credit card number and gaining authorization.  
+ 
+  You should apply steps 1 through 5 iteratively to each class and through each 
+evolution of the requirements model.  Once the design model (Chapters 12–18) is created, you should also conduct reviews of the system design and the object design. The system design depicts 
+the overall product architecture, the subsystems that compose the product, the 
+manner in which subsystems are allocated to processors, the allocation of classes 
+to subsystems, and the design of the user interface. The object model presents 
+the details of each class and the messaging activities that are necessary to imple-
+ment collaborations between classes.  The system design is reviewed by examining the object-behavior model de-veloped during object-oriented analysis and mapping required system behav-
+ior against the subsystems designed to accomplish this behavior. Concurrency 
+
+and task allocation are also reviewed within the context of system behavior. The 
+
+behavioral states of the system are evaluated to determine which exist concur-
+
+rently. Use cases are used to exercise the user interface design. 
+ The object model should be tested against the object-relationship network to ensure that all design objects contain the necessary attributes and operations to  FIGURE 24.1 An example CRC Index 
+card used for 
+
+review
+pre22126_ch24_523-539.indd   527pre22126_ch24_523-539.indd   52713/12/13   10:02 PM13/12/13   10:02 PM

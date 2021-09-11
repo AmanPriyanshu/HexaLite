@@ -1,0 +1,64 @@
+ Section 9.1  Privacy Concepts 
+587  9.1 PRIVACY CONCEPTS
+In this section we examine privacy, first from its general or common usage and then as 
+it applies in technological situations.Aspects of Information PrivacyInformation privacy has three aspects: sensitive data, affected parties, and controlled 
+
+disclosure. In fact, these aspects are similar to the three elements of access control from 
+
+Chapter 2: subject, object, and access rights. We examine these three in turn.
+Controlled Disclosure
+What is privacy? A good working definition is that privacy is the right to control who 
+knows certain aspects about you, your communications, and your activities. In other 
+
+words, you voluntarily choose who can know which things about you. People may ask 
+
+you for your telephone number: your auto mechanic, a shop clerk, your tax authority, a 
+
+new business contact, or a new friend. In each case, you consider why the person wants 
+
+the number and then decide whether 
+to give it out. But the key point is 
+
+that you decide. So privacy is some-
+thing over which you can have con-
+
+siderable influence.You do not have complete control, however. Once you give your number to a person 
+or a system, your control is diminished because it depends in part on what the person 
+or system does with that information. In giving out your number, you are transferring 
+
+or ceding authority and control to someone or something else. You may say “don’t give 
+
+my number to anyone else,” “use discretion,” or “I am sensitive about my privacy,” but 
+
+you do not control the other person or system. You have to trust the person or system to 
+
+comply with your wishes, whether you state those wishes explicitly or not. This prob-
+
+lem is similar to the propagation problem of computer security: Anyone who has access 
+
+to an object can copy, transfer, or propagate that object or its content to others without 
+
+restriction. And even if you specify that the object should be deleted or destroyed after 
+
+a certain period of time, you have no way to verify that the system or person really does 
+
+destroy the content.
+Sensitive DataSomeone asks you for your shoe size. You might answer, “I’m a very private person and 
+cannot imagine why you would want to know such an intimate detail” or you could say 
+
+“10C”; some people find that data item more sensitive than others. Some information 
+
+is usually considered sensitive, such as financial status, certain health data, unsavory 
+
+events in someone’s past, and the like. So if you learn something you consider sensitive 
+
+about someone, you are likely to keep it quiet, unless there is a compelling argument 
+
+for revealing it. For example, in many places, healthcare professionals (interested in 
+
+disease identification, containment, and prevention) are required to report instances of 
+
+highly communicable or deadly diseases, even if the stricken person does not want that 
+Privacy is the right to control who 
+
+knows certain things about you.

@@ -1,0 +1,46 @@
+˘˜˚˛˘˜˘˘˘
+activities apart from programming and testing. It is perfectly feasible, in a plan-driven 
+process, to allocate requirements and plan the design and development phase as a 
+
+series of increments. An agile process is not inevitably code-focused, and it may 
+ produce some design documentation. Agile developers may decide that an iteration 
+
+should not produce new code but rather should produce system models and documentation.
+
+In the 1980s and early 1990s, there was a widespread view that the best way to 
+
+achieve better software was through careful project planning, formalized quality 
+
+assurance, use of analysis and design methods supported by software tools, and con-
+trolled and rigorous software development processes. This view came from the soft
+-
+ware engineering community that was responsible for developing large, long-lived 
+software systems such as aerospace and government systems.This plan-driven approach was developed for software developed by large teams, working for different companies. Teams were often geographically dispersed and 
+
+worked on the software for long periods of time. An example of this type of software 
+is the control systems for a modern aircraft, which might take up to 10 years from 
+initial specification to deployment. Plan-driven approaches involve a significant 
+
+overhead in planning, designing, and documenting the system. This overhead is jus-
+tified when the work of multiple development teams has to be coordinated, when the 
+system is a critical system, and when many different people will be involved in 
+
+maintaining the software over its lifetime.However, when this heavyweight, plan-driven development approach is applied to small and medium-sized business systems, the overhead involved is so large that 
+it dominates the software development process. More time is spent on how the sys-
+tem should be developed than on program development and testing. As the system 
+
+requirements change, rework is essential and, in principle at least, the specification 
+and design have to change with the program.Dissatisfaction with these heavyweight approaches to software engineering 
+led to the development of agile methods in the late 1990s. These methods allowed 
+
+the development team to focus on the software itself rather than on its design and 
+
+documentation. They are best suited to application development where the sys-tem requirements usually change rapidly during the development process. They 
+
+are intended to deliver working software quickly to customers, who can then pro-pose new and changed requirements to be included in later iterations of the sys-tem. They aim to cut down on process bureaucracy by avoiding work that has 
+
+dubious long-term value and eliminating documentation that will probably never 
+
+be used.The philosophy behind agile methods is reflected in the agile manifesto (http://
+agilemanifesto.org) issued by the leading developers of these methods. This mani-
+festo states:

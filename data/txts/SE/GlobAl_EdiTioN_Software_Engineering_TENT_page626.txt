@@ -1,0 +1,39 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜˜by an independent process. This architecture is efficient for systems that use multi-ple processors or multicore processors. Each process in the pipeline can be associ
+-
+ated with a separate processor or core, so that the processing steps can be carried 
+
+out in parallel.Figure 21.
+12 is a brief description of the data pipeline pattern, and Figure 21.13 shows the process architecture for this pattern. Notice that the processes involved 
+
+produce and consume information. The processes exchange information using 
+ synchronized buffers, as I explained in Section 21.1. Producer and consumer pro-
+cesses can thereby operate at different speeds without data losses.An example of a system that may use a process pipeline is a high-speed data 
+acquisition system. Data acquisition systems collect data from sensors for subse-
+quent processing and analysis. These systems are used in situations where the sen-
+sors are collecting large volumes of data from the system™s environment and it isn™t 
+
+possible or necessary to process that data in real time. Rather, it is collected and 
+
+stored for later analysis. Data acquisition systems are often used in scientific experi-
+ments and process control systems where physical processes, such as chemical reac-
+tions, are very rapid. In these systems, the sensors may be generating data very 
+
+quickly, and the data acquisition system has to ensure that a sensor reading is col-
+lected before the sensor value changes.Figure 21.
+14 is a simplified model of a data acquisition system that might be part of the control software in a nuclear reactor. This system collects data from sensors 
+monitoring the neutron flux (the density of neutrons) in the reactor. The sensor data 
+is placed in a buffer from which it is extracted and processed. The average flux level 
+is displayed on an operator™s display and stored for future processing.
+As I discussed in the introduction to this chapter, the correctness of a real-time sys-
+tem depends not just on the correctness of its outputs but also on the time at which 
+
+these outputs were produced. Therefore, timing analysis is an important activity in 
+
+the embedded, real-time software development process. In such an analysis, you cal-culate how often each process in the system must be executed to ensure that all inputs 
+Flux valuebufferFluxprocessingRaw data
+buffer
+A-Dconvertor
+Sensoridentifier andflux value
+Processed
+flux levelNeutron flux sensorsStorageDisplayFigure 21.14 Neutron flux data acquisition 

@@ -1,0 +1,62 @@
+ Section 13.2  Economics 
+827  how cybersecurity affects the overall economy. These data can help us under-
+stand how impairments to the information infrastructure can generate ripple 
+
+effects
+2 on other aspects of national and global economies.• Enterprise data enable us to examine how firms and enterprises apply security 
+technologies to prevent attacks and to deal with the effects of security breaches. 
+
+In particular, those data capture information about how enterprises balance their 
+
+security costs with other economic demands.• Technology data
+ describe threats against core infrastructure technologies, 
+enabling modelers to develop a set of least-cost responses.
+If we were looking at cost of labor, raw materials, or finished goods, we would have 
+excellent data from which to work. Those concepts are easier to quantify and measure, 
+
+governments assist in collecting the data, and economists know where to turn to obtain 
+
+them. What makes these statistics so valuable to economists is that they are comparable. 
+
+Two economists can investigate the same situation and either come to similar conclu-
+
+sions or, if they differ, investigate the data models underlying their arguments to deter-
+
+mine what one model has considered differently from the other.
+Data to support economic decision making must have the following characteristics:
+• Accuracy
+. Data are accurate when reported values are equal to or acceptably 
+close to actual values. For example, if a company reports that it has experienced 
+
+100 attempted intrusions per month, then the actual number of attempted intru-
+sions should equal or be very close to 100.
+• Consistency. Consistent reporting requires that the same counting rules be used by all reporting organizations and that the data be gathered under the same con-
+
+ditions. For example, the counting rules should specify what is meant by an 
+
+“intrusion” and whether multiple intrusion attempts by a single malicious actor 
+should be reported once per actor or each time an attempt is made. Similarly, if 
+
+a system consists of 50 computers and an intrusion is attempted simultaneously 
+by the same actor in the same way, the counting rules should indicate whether 
+
+the intrusion is counted once or 50 times.• Timeliness
+. Reported data should be current enough to reflect an existing situ-
+ation. Some surveys indicate that the nature of attacks has been changing over 
+
+time. For instance, Symantec’s periodic threat reports [SYM06] indicated in 
+
+2006 that attack behavior at the companies it surveys had changed from mis-
+
+chievous hacking to serious criminal behavior. But by 2014, the report noted 
+
+that, “cybercriminals unleashed the most damaging series of cyber attacks in 
+
+history—ushering in the era of the ‘Mega Breach.’” [SYM14] Thus, reliance on 
+
+old data might lead security personnel to be solving yesterday’s problem.
+• Reliability. Reliable data come from credible sources with a common under-
+standing of terminology. Good data sources define terms consistently, so data 
+
+collected in one year are comparable with data collected in other years.2. A ripple effect is a cascading series of events that happen when one event triggers several others, which 
+in turn initiate others.

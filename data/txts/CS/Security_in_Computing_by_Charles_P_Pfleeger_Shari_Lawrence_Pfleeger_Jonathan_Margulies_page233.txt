@@ -1,0 +1,73 @@
+ Section 3.3  Countermeasures 
+199  show in this section, detection tools are generally effective, meaning that they detect 
+most examples of malicious code that are at most somewhat sophisticated. Detection 
+
+tools do have two major limitations, however.
+First, detection tools are necessarily retrospective, looking for patterns of known 
+infections. As new infectious code types are developed, tools need to be updated fre-
+
+quently with new patterns. But even with frequent updates (most tool vendors recom-
+
+mend daily updates), there will be infections that are too new to have been analyzed and 
+
+included in the latest pattern file. Thus, a malicious code writer has a brief window, as 
+
+little as hours or a day but perhaps longer if a new strain evades notice of the pattern 
+
+analysts, during which the strain’s pattern will not be in the database. Even though a day 
+
+is a short window of opportunity, it is enough to achieve significant harm.
+Second, patterns are necessarily static. If malicious code always begins with, or 
+even contains, the same four instructions, the binary code of those instructions may 
+
+be the invariant pattern for which the tool searches. Because tool writers want to avoid 
+
+misclassifying good code as malicious, they seek the longest pattern they can: Two 
+
+programs, one good and one malicious, might by chance contain the same four instruc-
+tions. But the longer the pattern string, the less likely a benign program will match that 
+
+pattern, so longer patterns are desirable. Malicious code writers are conscious of pattern 
+matching, so they vary their code to reduce the number of repeated patterns. Sometimes 
+
+minor perturbations in the order of instructions is insignificant. Thus, in the example, 
+
+the dominant pattern might be instructions A-B-C-D, in that order. But the program’s 
+
+logic might work just as well with instructions B-A-C-D, so the malware writer will 
+
+send out half the code with instructions A-B-C-D and half with B-A-C-D. Do-nothing 
+
+instructions, such as adding 0 or subtracting 1 and later adding 1 again or replacing a 
+data variable with itself, can be slipped into code at various points to break repetitive 
+
+patterns. Longer patterns are more likely to be broken by a code modification. Thus, the 
+
+virus detector tool writers have to discern more patterns for which to check.
+Both timeliness and variation limit the effectiveness of malicious code detectors. 
+Still, these tools are largely successful, and so we study them now. You should also note 
+
+in Sidebar 3-9 that antivirus tools can also help people who 
+do not use the tools.Symantec, maker of the Norton antivirus software packages, announced in a 4 May 
+2014 Wall Street Journal
+ article that antivirus technology is dead. They contend that rec-
+ognizing malicious code on a system is a cat-and-mouse game: Malware signatures will 
+
+always be reactive, reflecting code patterns discovered yesterday, and heuristics detect 
+
+suspicious behavior but must forward code samples to a laboratory for human analysis 
+
+and confirmation. Attackers are getting more skillful at evading detection by both pat-
+
+tern matchers and heuristic detectors. Furthermore, in the article, Symantec’s Senior 
+
+Vice President for Information Security admitted that antivirus software catches only 
+
+45 percent of malicious code. In the past, another vendor, FireEye, has also denounced 
+
+these tools as ineffective. Both vendors prefer more specialized monitoring and analysis 
+
+services, of which antivirus scanners are typically a first line of defense.
+Does this statistic mean that people should abandon virus checkers? No, for two 
+reasons. First, 45 percent still represents a solid defense, when you consider that there 
+are now over 200 million specimens of malicious code in circulation [MCA14]. Second, 

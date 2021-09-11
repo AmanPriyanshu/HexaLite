@@ -1,0 +1,37 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜Figure 6.4 The Model-View-Controller (MVC) patternNameMVC (Model-View-Controller)DescriptionSeparates presentation and interaction from the system data. The 
+
+system˜is structured into three logical components that interact with 
+
+each˜other. The Model component manages the system data and 
+
+associated operations on that data. The View component defines and 
+
+manages how the data is presented to the user. The Controller compo-nent manages user interaction (e.g., key presses, mouse clicks, etc.) and 
+
+passes these interactions to the View and the Model. See Figure 6.5.ExampleFigure 6.6 shows the architecture of a web-based application system 
+organized using the MVC pattern.When usedUsed when there are multiple ways to view and interact with data. 
+Also used when the future requirements for interaction and 
+presentation of data are unknown.AdvantagesAllows the data to change independently of its representation and vice 
+versa. Supports presentation of the same data in different ways, with 
+changes made in one representation shown in all of them.DisadvantagesMay involve additional code and code complexity when the data 
+model and interactions are simple.ControllerView
+ModelView
+selectionStatechangeChangenotificationState queryUser eventsMaps user actionsto model updates
+Selects viewRenders model
+Requests model updatesSends user events tocontrollerEncapsulates application
+state
+Notifies view of state
+changesFigure 6.5 The organization of the Model-View-ControllerFor more detailed information about patterns and their use, you should refer to the 
+
+published pattern handbooks.You can think of an Architectural pattern as a stylized, abstract description of good 
+practice, which has been tried and tested in different systems and environments. So, 
+
+an Architectural pattern should describe a system organization that has been success-
+ful in previous systems. It should include information on when it is and is not appro-
+priate to use that pattern, and details on the pattern™s strengths and weaknesses.Figure 6.
+4 describes the well-known Model-View-Controller pattern. This pattern 
+is the basis of interaction management in many web-based systems and is supported 
+
+by most language frameworks. The stylized pattern description includes the pattern 

@@ -1,0 +1,44 @@
+ Section 2.3  Cryptography 
+101  In 1976, Whitfield Diffie and Martin Hellman [DIF76] invented public key cryptog-
+raphy, a new kind of encryption. With a public key encryption system, each user has two 
+
+keys, one of which does not have to be kept secret. Although counterintuitive, in fact 
+
+the public nature of the key does not compromise the secrecy of the system. Instead, the 
+
+basis for public key encryption is to allow the key to be divulged but to keep the decryp-
+
+tion technique secret. Public key cryptosystems accomplish this goal by using two keys: 
+
+one to encrypt and the other to decrypt. Although these keys are produced in mathemati-
+
+cally related pairs, an outsider is effectively unable to use one key to derive the other.
+In this section, we look at ways to allow the key to be public but still protect the 
+message. We also focus on the RSA algorithm, a popular, commercial-grade public key 
+
+system. Other algorithms, such as elliptic curve cryptosystems [MIL85, KOB87] and 
+
+the El Gamal algorithm [ELG85], both of which we cover in Chapter 12, operate simi-
+
+larly (although the underlying mathematics are very different). We concentrate on RSA 
+
+because many applications use it. We also present a mathematical scheme by which 
+
+two users can jointly construct a secret encryption key without having any prior secrets.
+MotivationWhy should making the key public be desirable? With a conventional symmetric key 
+system, each pair of users needs a separate key. But with public key systems, anyone 
+
+using a single public key can send a secret message to a user, and the message remains 
+
+adequately protected from being read by an interceptor. Let us investigate why this is so.
+Recall that in general, an 
+n-user system requires 
+n * (n  1)/2 keys, and each user 
+must track and remember a key for each other user with whom he or she wants to com-
+
+municate. As the number of users grows, the number of keys increases rapidly, as shown 
+
+in Figure 2-23. Determining and distributing these keys is a problem. A more serious 
+FIGURE 2-23 Explosion in Number of Keys
+ABCDEExisting UsersABCDEFNew User
+New Keys to Be Added

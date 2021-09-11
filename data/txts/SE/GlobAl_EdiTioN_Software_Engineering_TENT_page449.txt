@@ -1,0 +1,26 @@
+˜˜˚˛˙˜˜˜
+˜˜˜
+2. At the I/O management level (level 2), components handle operator authentication, 
+generate reports of incidents and vehicles dispatched, support map output and route 
+
+planning, and provide a mechanism for operators to query the system databases.3.
+ At the resource management level (level 3), components allow vehicles to be 
+
+located and dispatched, update the status of vehicles and equipment, and log 
+
+details of incidents.4.
+ At the database level, as well as the usual transaction management support, 
+
+there are separate databases of vehicles, equipment, and maps.User interface
+ResourcetrackingResource policycontrolResourceallocationUserauthenticationQuerymanagementResource databaseResourcedeliveryTransaction management
+InteractionI/O managementResource managementDatabase managementFigure 15.8 The architecture of a 
+resource management 
+system I/O managementOperator interfaceVehicle status
+managerIncidentloggerResource managementOperatorauthenticationQuerymanagerEquipmentdatabaseMap and routeplannerTransaction management
+Vehicle database
+Incident logMap databaseVehicle
+dispatcherEquipmentmanagerVehicle
+locatorReport
+generatorComms systeminterface
+Database managementResource managementI/O managementInteractionFigure 15.9 A product-line architecture of a vehicle 
+dispatcher system 

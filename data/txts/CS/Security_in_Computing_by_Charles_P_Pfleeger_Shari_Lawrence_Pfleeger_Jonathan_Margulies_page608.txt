@@ -1,0 +1,74 @@
+574 Chapter 8  
+Cloud ComputingAPI access. OAuth 2.0 is an authorization standard rather than an authentication stan-
+dard, and its primary purpose is authorizing third-party applications to access APIs on 
+
+a user’s behalf. For instance, if an application wants to use Facebook’s API to write a 
+
+message on a user’s Facebook page, it uses OAuth to get permission. If a PaaS applica-
+
+tion needs to access data in a SaaS database or STaaS offering, OAuth is the answer.
+OAuth does not exchange identity information, just authorization. Let’s return to 
+Facebook as an example: Imagine you have just downloaded an app that stores contact 
+
+information for your friends. If you have hundreds of friends, loading the contact infor-
+
+mation manually will be a painful process. But if the app supports OAuth, you can give 
+
+it permission to get your list of friends and their contact information directly from your 
+Facebook account. Here’s a summary of how it works: First the app sends a request to 
+
+Facebook’s OAuth server asking for permission to see your list of friends. Next, Face-
+
+book asks you to log in, and you enter your credentials. Facebook then tells you the 
+
+name of the app that wants to access your account, and the exact permissions the app 
+
+wants, giving you a chance to reject some or all of the permissions. Once you confirm 
+
+the app’s permission, Facebook sends it a token that it can use for login.
+OAuth provides a nice security benefit by allowing users to give third-party appli-
+cations access to only the account resources they need (enforcing the principle of least 
+
+privilege), and doing so without sharing passwords. This means that if the application 
+
+gets hacked, the user’s password is safe, and the attacker can gain only the limited 
+
+account access the application had. Once the compromise is discovered, OAuth allows 
+
+the service provider (or the user through the service provider) to revoke the applica-
+
+tion’s access without changing any credentials. Another benefit of OAuth is that, unlike 
+
+SAML, it is designed to work with native applications, not just in a web browser.
+OAuth expects all communication to take place via HTTP, and, like SAML, uses 
+HTTP requests to pass a token via a user’s device. As we walk through the commu-
+
+nication flow depicted in Figure 8-6, you will notice that there will be no mention of 
+
+signatures or encryption. That’s because the OAuth framework doesn’t specify any; 
+
+instead, it strongly recommends using TLS wherever possible. In SAML, signatures 
+
+and encryption are important because they protect the integrity and confidentiality of 
+
+assertions from malicious users. In OAuth tokens, there is no data worth modifying, so 
+
+the primary concern is confidentiality against eavesdroppers.
+OAuth defines four roles:
+• The 
+Resource Owner
+, analogous to the SAML subject, is the user with a 
+password-protected online account.
+• The Resource Server
+ is the server on which the APIs reside.
+• The Client, analogous to the SAML SP, is the application that is attempting to 
+access the account APIs.
+• The Authorization Server
+, analogous to the SAML IdP, is the server that can 
+authenticate the resource owner and grant the client access to the resource server.
+OAuth divides Clients into two types, with important security implications: Con-
+fidential Clients are web applications and are the more secure of the two types. End 
+
+users cannot read Confidential Clients’ back-end code, so those Clients can store keys 
+
+that allow them to authenticate themselves to Authorization Servers. Public Clients are 

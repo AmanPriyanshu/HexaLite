@@ -1,0 +1,58 @@
+ Section 10.1  Security Planning 
+653  The requirements should address all aspects of security: confidentiality, integrity, and 
+availability. They should also be reviewed to make sure that they are of appropriate 
+
+strength and quality. In particular, we should make sure that the requirements have these 
+
+characteristics:• Correctness
+: Are the requirements understandable? Are they stated without 
+error?• Consistency: Are there any conflicting or ambiguous requirements?
+• Completeness: Are all possible situations addressed by the requirements?
+• Realism: Is it possible to implement what the requirements mandate?• Need: Are the requirements unnecessarily restrictive?
+• Verifiability
+: Can tests be written to demonstrate conclusively and objectively 
+that the requirements have been met? Can the system or its functionality be 
+
+measured in some way that will assess the degree to which the requirements 
+
+are met?• Traceability
+: Can each requirement be traced to the functions and data related to it so that changes in a requirement can lead to easy reevaluation?
+The requirements may then be constrained by budget, schedule, performance, poli-
+cies, governmental regulations, and more. Given the requirements and constraints, 
+
+developers then choose appropriate controls.
+Recommended Controls
+Security requirements lay out the system’s needs in terms of what should be protected. 
+The security plan must also recommend what controls should be incorporated into the 
+system to meet those requirements. Throughout this book you have seen many exam-
+
+ples of controls, so we need not review them here. As we discuss later in this chapter, 
+
+we can use risk analysis to create a map from vulnerabilities to controls. The mapping 
+
+tells us how the system will meet the security requirements. That is, the recommended 
+
+controls address implementation issues: how the system will be designed and developed 
+
+to meet stated security requirements.Responsibility for ImplementationA section of the security plan will identify which people (usually listed as organizational 
+titles, such as Head of Human Relations or the Network Security Administrator on duty) 
+
+are responsible for implementing the security requirements. This documentation assists 
+
+those who must coordinate their individual responsibilities with those of other develop-
+
+ers. At the same time, the plan makes explicit who is accountable should some require-
+
+ment not be met or some vulnerability not be addressed. That is, the plan notes who 
+
+is responsible for implementing 
+
+controls when a new vulnerability 
+
+is discovered or a new kind of asset 
+
+is introduced. (But see Sidebar 10-1 
+on who is responsible.)A security plan documents who is 
+responsible for implementing security. 
+
+No one responsible implies no action.

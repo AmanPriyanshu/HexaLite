@@ -1,0 +1,35 @@
+˜˜˚˝˜˜˜˜˜˜
+UML. A use case can be taken as a simple description of what a user expects from a system in that interaction. I have discussed use cases for requirements elicitation in 
+Chapter 4. As I said in Chapter 4, I find use case models to be more useful in the 
+early stages of system design rather than in requirements engineering.Each use case represents a discrete task that involves external interaction with a system. In its simplest form, a use case is shown as an ellipse, with the actors 
+
+involved in the use case represented as stick figures. Figure 5.3 shows a use case 
+
+from the Mentcare system that represents the task of uploading data from the 
+
+Mentcare system to a more general patient record system. This more general system 
+maintains summary data about a patient rather than data about each consultation, 
+
+which is recorded in the Mentcare system.Notice that there are two actors in this use caseŠthe operator who is transferring the data and the patient record system. The stick figure notation was originally devel-
+oped to cover human interaction, but it is also used to represent other external sys-
+tems and hardware. Formally, use case diagrams should use lines without arrows as 
+arrows in the UML indicate the direction of flow of messages. Obviously, in a use 
+case, messages pass in both directions. However, the arrows in Figure 5.3 are used 
+informally to indicate that the medical receptionist initiates the transaction and data 
+
+is transferred to the patient record system.Use case diagrams give a simple overview of an interaction, and you need to add more detail for complete interaction description. This detail can either be a simple 
+textual description, a structured description in a table, or a sequence diagram. You 
+choose the most appropriate format depending on the use case and the level of detail 
+that you think is required in the model. I find a standard tabular format to be the most 
+useful. Figure 5.4 shows a tabular description of the ﬁTransfer dataﬂ use case.Composite use case diagrams show a number of different use cases. Sometimes it is possible to include all possible interactions within a system in a single composite 
+
+use case diagram. However, this may be impossible because of the number of use 
+
+cases. In such cases, you may develop several diagrams, each of which shows related 
+
+use cases. For example, Figure 5.5 shows all of the use cases in the Mentcare system Figure 5.4 Tabular description of the 
+Transfer-data use caseMentcare system: Transfer dataActorsMedical receptionist, Patient records system (PRS)DescriptionA receptionist may transfer data from the Mentcare system to a 
+general patient record database that is maintained by a health authority. The information transferred may either be updated 
+personal information (address, phone number, etc.) or a 
+summary of the patient™s diagnosis and treatment.DataPatient™s personal information, treatment summaryStimulusUser command issued by medical receptionistResponseConfirmation that PRS has been updatedCommentsThe receptionist must have appropriate security permissions to 
+access the patient information and the PRS.

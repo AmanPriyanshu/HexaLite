@@ -1,0 +1,36 @@
+892 APPENDIX 2  
+OBJECT-ORIENTED CONCEPTS
+ 
+Now that we have introduced a few basic concepts, a more formal deﬁ nition 
+of  object oriented 
+ will prove more meaningful. Coad and Yourdon [Coa91] deﬁ
+ ne 
+the term this way:  Object oriented = objects + classiﬁ cation + inheritance + communication 
+ 
+Three of these concepts have already been introduced. Communication is dis-cussed later in this appendix.   
+  C
+LASSES AND OBJECTS  
+ 
+A class is an OO concept that encapsulates the data and procedural abstrac-tions required to describe the content and behavior of some real-world entity. 
+Data abstractions that describe the class are enclosed by a “wall” of procedural 
+abstractions [Tay90] (represented in   
+Figure A2.1) that are capable of manipulat-ing the data in some way. In a well-designed class, the only way to reach the at-
+tributes (and operate on them) is to go through one of the methods that form the 
+“wall” illustrated in the ﬁ gure. Therefore, the class encapsulates data (inside the 
+wall) and the processing that manipulates the data (the methods that make up 
+the wall). This achieves information hiding (Chapter 12) and reduces the impact 
+of side effects associated with change. Since the methods tend to manipulate a 
+limited number of attributes, their cohesion is improved, and because communi-
+cation occurs only through the methods that make up the “wall,” the class tends 
+to be less strongly coupled from other elements of a system.  1 
+  
+ 
+1  It should be noted, however, that coupling can become a serious problem in OO systems. It 
+arises when classes from various parts of the system are used as the data types of attributes, 
+and arguments to methods. Even though access to the objects may only be through procedure 
+calls, this does not mean that coupling is necessarily low, just lower than if direct access to the 
+
+internals of objects were allowed.  FIGURE A2.1A schematic representation 
+of a class  
+ AttributesMethod1()Method3()Method
+4()Methodn()Method2()pre22126_app2_891-898.indd   892pre22126_app2_891-898.indd   89213/12/13   6:18 PM13/12/13   6:18 PM

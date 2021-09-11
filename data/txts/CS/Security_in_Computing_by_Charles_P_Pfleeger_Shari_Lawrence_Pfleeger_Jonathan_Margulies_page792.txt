@@ -1,0 +1,51 @@
+758 Chapter 11  
+Legal Issues and EthicsAt this point, here are some of the ethical issues involved.
+• Is a programmer responsible for the programs he or she writes? Is a programmer 
+responsible for the results of those programs? (In contemplating this question, 
+suppose the program were to adjust dosage in a computer-controlled medical 
+
+application, and Ed’s request were for a way to override the program controls 
+
+to cause a lethal dosage. Would Alicia then be responsible for the results of the 
+
+program?)• Is a programmer merely an employee who follows orders (assigned tasks) 
+unthinkingly?• What degree of personal risk (such as possible firing) is an employee obliged to 
+accept for opposing an action he or she thinks is improper?• Would a program to manipulate the books as described here ever be justified? If 
+so, in what circumstances would it be justified?
+• What kinds of controls can be placed on such programs to make them accept-
+able? What are some ways that a manager could legitimately ask an employee to 
+
+write a program like this?
+• Would the ethical issues in this situation be changed if Alicia designed and 
+wrote this program herself?AnalysisThe act-deontologist would say that truth is good. Therefore, if Alicia thought the pur-
+pose of the program was to deceive, writing it would not be a good act. (If the pur-
+
+pose were for learning or to be able to admire beautiful code, then writing it might be 
+justifiable.)
+A more useful analysis is from the perspective of the utilitarian. To Alicia, writing 
+the program brings possible harm for being an accomplice to fraud, with the gain of 
+
+having cooperated with her manager. She has a possible item with which to blackmail 
+
+Ed, but Ed might also turn on her and say the program was her idea. On balance, this 
+
+option seems to have a strong negative slant.
+By not writing the program her possible harm is being fired. However, she has a 
+potential gain by being able to “blow the whistle” on Ed. This option does not seem 
+
+to bring her much good, either. But fraudulent acts have negative consequences for the 
+
+stockholders, the banks, and other innocent employees. Not writing the program brings 
+
+only personal harm to Alicia, which is similar to the harm described earlier. Thus, it 
+
+seems as if not writing the program is the more positive option.
+There is another possibility. The program may 
+not be for fraudulent purposes. If so, 
+then there is no ethical conflict. Therefore, Alicia might try to determine whether Ed’s 
+
+motives are fraudulent.
+Situation VII: Accuracy of InformationFor our next problem, we consider responsibility for accuracy or integrity of infor-
+
+mation. Again, this is an issue addressed 
+by database management systems and other 

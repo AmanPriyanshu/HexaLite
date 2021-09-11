@@ -1,0 +1,69 @@
+CHAPTER 6  
+HUMAN ASPECTS OF SOFTWARE ENGINEERING
+ 95important concepts, continuous feedback, and the avoidance of voluminous doc-umentation as a communication medium.   
+To achieve 
+ simplicity,
+ 
+ the agile team designs only for immediate needs, rather 
+than considering future needs. The intent is to create a simple design that can be 
+easily implemented in code. If the design must be improved, it can be  refactored
+ 
+ 
+ 5   at a later time.   
+ 
+Feedback 
+ is derived from three sources: the implemented software itself, the 
+customer, and other software team members. By designing and implementing an 
+
+effective testing strategy (Chapters 22 through 26), the software (via test results) 
+provides the agile team with feedback. The team makes use of the  unit test 
+ as 
+its primary testing tactic. As each class is developed, the team develops a unit 
+test to exercise each operation according to its speciﬁ ed functionality. As an in-
+crement is delivered to a customer, the  
+user stories 
+ or  use cases 
+ (Chapter 9) that are implemented by the increment are used to perform acceptance tests. The 
+degree to which the software implements the output, function, and behavior of 
+the use case is a form of feedback. Finally, as new requirements are derived as 
+
+part of iterative planning, the team provides the customer with rapid feedback 
+regarding cost and schedule impact.   Beck [Bec04a] argues that strict adherence to certain XP practices demands  courage. 
+ A better word might be  
+discipline. 
+ For example, there is often signiﬁ
+ -cant pressure to design for future requirements. Most software teams succumb, 
+arguing that “designing for tomorrow” will save time and effort in the long run. 
+An XP team must have the discipline (courage) to design for today, recognizing 
+
+that future requirements may change dramatically, thereby demanding substan-
+
+tial rework of the design and implemented code.  By following each of these values, the XP team inculcates  respect
+ 
+ among its 
+members, between other stakeholders and team members, and indirectly, for 
+
+the software itself. As they achieve successful delivery of software increments, 
+the team develops growing respect for the XP process.   
+ 
+ 
+ 
+ 6.6 T
+HE IMPACT
+ OF   
+SOCIAL MEDIA    
+ 
+Email, texting, and videoconferencing have become ubiquitous activities in soft-ware engineering work. But these communication mechanisms are really noth-
+ing more than modern substitutes or supplements for the face-to-face contact. 
+Social media is different.   
+5  Refactoring allows a software engineer to improve the internal structure of a design (or source 
+code) without changing its external functionality or behavior. In essence, refactoring can be 
+
+used to improve the efﬁ ciency, readability, or performance of a design or the code that imple-
+ments a design.   uote:  “XP is the answer 
+to the question, 
+‘How little can we 
+do and still build 
+great software?’ “ 
+ Anonymous 
+pre22126_ch06_087-102.indd   95pre22126_ch06_087-102.indd   9513/12/13   6:10 PM13/12/13   6:10 PM

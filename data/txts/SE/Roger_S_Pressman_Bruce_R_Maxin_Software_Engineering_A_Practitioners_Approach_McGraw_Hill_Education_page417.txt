@@ -1,0 +1,65 @@
+CHAPTER 17  
+WEBAPP DESIGN 387earlier, a WoN identiﬁ
+ es navigation nodes (e.g., content) and then links that en-
+able navigation between them. The WoN are then organized into NSUs. 
+  
+ 
+17.8.2  Navigation Syntax 
+ 
+ 
+ 
+   
+As design proceeds, your next task is to deﬁ ne the mechanics of navigation. Most 
+websites make use of one or more of the following navigation options for imple-
+menting each NSU: individual navigation links, horizontal or vertical navigation 
+bars (lists), tabs, or access to a complete site map.   
+ 
+ 
+ 
+ 
+In addition to choosing the mechanics of navigation, you should also es-tablish appropriate navigation conventions and aids. For example, icons and 
+graphical links should look “clickable” by beveling the edges to give the image a 
+three-dimensional look. Audio or visual feedback should be designed to provide 
+the user with an indication that a navigation option has been chosen. For text-
+based navigation, color should be used to indicate navigation links and to provide 
+an indication of links already traveled. These are but a few of dozens of design 
+conventions that make navigation user-friendly. 
+  
+ 
+ 
+ 
+ 
+ 
+ 17.9 C
+OMPONENT-LEVEL DESIGN  
+ 
+Modern WebApps deliver increasingly sophisticated processing functions that 
+(1) perform localized processing to generate content and navigation capability in 
+a dynamic fashion, (2) provide computation or data processing capability that are 
+appropriate for the WebApp’s business domain, (3) provide sophisticated data-
+
+base query and access, and (4) establish data interfaces with external corporate 
+systems. To achieve these (and many other) capabilities, you must design and 
+<<navigation link>>select Room<<navigation link>>view BillOfMaterials<<navigation link>>return to Room
+<<navigation link>>purchase ProductComponent<<navigation link>>recommend component(s)<<navigation link>>request alternative
+<<navigation link>>show ProductComponent<<navigation link>>show description<<navigation link>>purchase ProductComponentRoomBillOfMaterialsProductComponentCompDescriptiontechDescriptionphotographschematicvideoMarketingDescription  
+FIGURE 17.9 
+Creating an NSU 
+ 
+    In most situations, 
+choose either 
+horizontal or 
+vertical navigation 
+
+mechanisms, but 
+not both.    The site map should be 
+
+accessible from every 
+
+page. The map itself 
+should be organized 
+so that the structure of 
+
+WebApp information is 
+
+readily apparent. pre22126_ch17_371-390.indd   387pre22126_ch17_371-390.indd   38713/12/13   6:13 PM13/12/13   6:13 PM

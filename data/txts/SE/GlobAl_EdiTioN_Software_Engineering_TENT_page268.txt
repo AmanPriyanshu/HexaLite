@@ -1,0 +1,52 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜more effectively in other ways. You have to be careful, however, about occasional 
+but important use of systems. For example, a university system for student regis-tration may only be used at the beginning of each academic year. Although it is 
+
+used infrequently, it is an essential system with a high business value.2. The business processes that are supported When a system is introduced, busi-
+ness processes are usually introduced to exploit the system™s capabilities. If the 
+
+system is inflexible, changing these business processes may be impossible. 
+
+However, as the environment changes, the original business processes may 
+
+become obsolete. Therefore, a system may have a low business value because it 
+
+forces the use of inefficient business processes.3. System dependability System dependability is not only a technical problem but 
+also a business problem. If a system is not dependable and the problems directly 
+affect business customers, or mean that people in the business are diverted from 
+other tasks to solve these problems, the system has a low business value.4. The system outputs The key issue here is the importance of the system outputs to 
+the successful functioning of the business. If the business depends on these out-
+puts, then the system has a high business value. Conversely, if these outputs can 
+
+be cheaply generated in some other way, or if the system produces outputs that 
+are rarely used, then the system has a low business value.For example, assume that a company provides a travel ordering system that is 
+used by staff responsible for arranging travel. They can place orders with an approved 
+travel agent. Tickets are then delivered, and the company is invoiced for them. 
+
+However, a business value assessment may reveal that this system is only used for a 
+
+fairly small percentage of travel orders placed. People making travel arrangements 
+find it cheaper and more convenient to deal directly with travel suppliers through 
+
+their websites. This system may still be used, but there is no real point in keeping 
+itŠthe same functionality is available from external systems.Conversely, say a company has developed a system that keeps track of all previ
+-ous customer orders and automatically generates reminders for customers to reorder 
+goods. This results in a large number of repeat orders and keeps customers satisfied 
+
+because they feel that their supplier is aware of their needs. The outputs from such a 
+system are important to the business, so this system has a high business value.To assess a software system from a technical perspective, you need to consider 
+both the application system itself and the environment in which the system operates. 
+
+The environment includes the hardware and all associated support software such as 
+
+compilers, debuggers and development environments that are needed to maintain the 
+
+system. The environment is important because many system changes, such as upgrades 
+
+to the hardware or operating system, result from changes to the environment.Factors that you should consider during the environment assessment are shown in 
+Figure 9.
+10. Notice that these are not all technical characteristics of the environment. 
+You also have to consider the reliability of the suppliers of the hardware and support 
+software. If suppliers are no longer in business, their systems may not be supported, 
+so you may have to replace these systems.

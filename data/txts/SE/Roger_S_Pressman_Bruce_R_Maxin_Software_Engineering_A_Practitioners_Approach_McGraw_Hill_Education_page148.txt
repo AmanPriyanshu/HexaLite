@@ -1,0 +1,118 @@
+118 PART TWO  
+MODELINGComponent-level design should be functionally independent  
+.  Components should be loosely coupled to one another and to the external environment  
+.Design representations (models) should be easily understand-able. 
+The design should be developed iteratively 
+ 
+.Creation of a design model does not preclude an agile  
+approach 
+ 
+. 
+WebRef 
+ Insightful comments 
+on the design process, 
+along with a discussion 
+of design aesthetics, 
+can be found at 
+  http://www.
+gobookee.net/
+search.php?
+q=aabyan+
+design+aesthetics  . 
+  uote:  “See ﬁ rst that 
+the design is wise 
+and just: that 
+ascertained, pursue 
+it resolutely; do 
+not for one repulse 
+forego the purpose 
+that you resolved 
+to effect.”  William 
+Shakespeare thing to provide guidance for constructing each detail (e.g., the plumbing layout). Similarly, the design model that is created for software provides a variety of dif-
+
+ferent views of the system.   There is no shortage of methods for deriving the various elements of a software design. Some methods are data driven, allowing the data structure to dictate 
+the program architecture and the resultant processing components. Others are 
+pattern driven, using information about the problem domain (the requirements 
+model) to develop architectural styles and processing patterns. Still others are 
+object oriented, using problem domain objects as the driver for the creation of 
+data structures and the methods that manipulate them. Yet all embrace a set of 
+
+design principles that can be applied regardless of the method that is used:   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Principle 1. 
+  Design should be traceable to the requirements model.Design should be traceable to the requirements model.
+ 
+ The requirements model describes the information domain of the problem, 
+user-visible functions, system behavior, and a set of requirements classes 
+
+that package business objects with the methods that service them. The 
+design model translates this information into an architecture, a set of sub-
+systems that implement major functions, and a set of components that are 
+the realization of requirements classes. The elements of the design model 
+should be traceable to the requirements model.    
+ 
+ 
+ 
+ 
+ 
+Principle 2. 
+  Always consider the architecture of the system to be built.Always consider the architecture of the system to be built.
+ 
+  Software architecture (Chapter 13) is the skeleton of the system to be built. It affects interfaces, data structures, program control ﬂ ow and be-
+havior, the manner in which testing can be conducted, the maintainability 
+
+of the resultant system, and much more. For all of these reasons, design 
+should start with architectural considerations. Only after the architecture 
+has been established should component-level issues be considered.    
+ 
+ 
+ 
+ 
+ 
+Principle 3. 
+  Design of data is as important as design of processing Design of data is as important as design of processing 
+ functions.functions. 
+ Data design is an essential element of architectural design. The manner in 
+
+which data objects are realized within the design cannot be left to chance. 
+
+A well-structured data design helps to simplify program ﬂ ow, makes the 
+design and implementation of software components easier, and makes 
+
+overall processing more efﬁ cient. 
+   
+ 
+ 
+ 
+ 
+ 
+Principle 4. 
+  Interfaces (both internal and external) must be designed with Interfaces (both internal and external) must be designed with care.care.
+ 
+ The manner in which data ﬂ ows between the components of a sys-
+tem has much to do with processing efﬁ ciency, error propagation, and 
+design simplicity. A well-designed interface makes integration easier and 
+
+assists the tester in validating component functions.    
+ 
+ 
+ 
+ 
+ 
+Principle 5. 
+  User interface design should be tuned to the needs of the end User interface design should be tuned to the needs of the end user.user.
+ 
+  However, in every case, it should stress ease of use.However, in every case, it should stress ease of use.
+ 
+ The user interface is the visible manifestation of the software. No matter how sophisticated 
+its internal functions, no matter how comprehensive its data structures, pre22126_ch07_103-130.indd   118pre22126_ch07_103-130.indd   11813/12/13   6:11 PM13/12/13   6:11 PM

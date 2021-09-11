@@ -1,0 +1,37 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˚˜˜˜˜uncertified companies. The ISO 9001 standard focuses on ensuring that the organi-zation has quality management procedures in place and that it follows these proce-
+dures. There is no guarantee that ISO 9001 certified companies use the best software 
+development practices or that their processes lead to high-quality software.The ISO 9001 certification is inadequate, in my view, because it defines quality to be the conformance to standards. It takes no account of quality as experienced by 
+users of the software. For example, a company could define test coverage standards 
+specifying that all methods in objects must be called at least once. Unfortunately, 
+
+this standard can be met by incomplete software testing that does not include tests 
+with different method parameters. As long as the defined testing procedures are fol-
+lowed and test records are maintained, the company could be ISO 9001 certified.
+Reviews and inspections are quality assurance activities that check the quality of 
+
+project deliverables. This involves checking the software, its documentation, and 
+
+records of the process to discover errors and omissions as well as standards viola-
+tions. As I explained in Chapter 8, reviews and inspections are used alongside pro-gram testing as part of the general process of software verification and validation.During a review, several people examine the software and its associated docu-mentation, looking for potential problems and nonconformance with standards. The 
+review team makes informed judgments about the level of quality of the software or 
+
+project documents. Project managers may then use these assessments to make plan-
+ning decisions and allocate resources to the development process.Quality reviews are based on documents that have been produced during the soft-ware development process. As well as software specifications, designs, code, pro
+-
+cess models, test plans, configuration management procedures, process standards, 
+Project 1
+quality planProject 2
+quality planProject 3
+quality planProject quality
+management
+Organization
+quality manual
+ISO 9001
+quality modelsOrganization
+quality process
+is used to developinstantiated as
+instantiated as
+documentsSupports
+Figure 24.6 ISO 9001 and quality 
+management

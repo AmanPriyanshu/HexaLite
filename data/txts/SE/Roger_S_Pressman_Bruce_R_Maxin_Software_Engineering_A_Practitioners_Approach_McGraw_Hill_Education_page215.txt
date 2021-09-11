@@ -1,0 +1,100 @@
+CHAPTER 10  
+REQUIREMENTS MODELING: CLASS-BASED METHODS 185deﬁ ned. The elements of a class-based model include classes and objects, attri-
+butes, operations, class-responsibility-collaborator (CRC)  
+ models, collaboration 
+diagrams, and packages. The sections that follow present a series of informal 
+guidelines that will assist in their identiﬁ cation and representation. 
+ 
+ 
+ 
+ 
+ 10.1 I
+DENTIFYING   
+ANALYSIS
+ CLASSES   
+ 
+  
+If you look around a room, there is a set of physical objects that can be eas-ily identiﬁ ed, classiﬁ
+ ed, and deﬁ
+ ned (in terms of attributes and operations). But 
+when you “look around” the problem space of a software application, the classes 
+(and objects) may be more difﬁ cult to comprehend. 
+ We can begin to identify classes by examining the usage scenarios developed 
+as part of the requirements model (Chapter 9) and performing a “  
+grammatical parse  
+” [Abb83] on the use cases developed for the system to be built. Classes are determined by underlining each noun or noun phrase and entering it into a sim-
+ple table. Synonyms should be noted. If the class (noun) is required to implement 
+a solution, then it is part of the solution space; otherwise, if a class is necessary 
+only to describe a solution, it is part of the problem space.   
+ 
+ 
+ 
+ 
+But what should we look for once all of the nouns have been isolated?  Analysis classes 
+ manifest themselves in one of the following ways: 
+ 
+ 
+ 
+•   
+External entities 
+ (e.g., other systems, devices, people) that produce or con-sume information to be used by a computer-based system. 
+  
+ 
+ 
+•   
+Things 
+ (e.g., reports, displays, letters, signals) that are part of the informa-tion domain for the problem.   
+ 
+ 
+•   
+Occurrences or events
+ 
+ (e.g., a property transfer or the completion of a series 
+of robot movements) that occur within the context of system operation. 
+  
+ 
+ 
+•   
+Roles 
+ (e.g., manager, engineer, salesperson) played by people who interact 
+with the system.   
+ 
+ 
+•   
+Organizational units
+ 
+ (e.g., division, group, team) that are relevant to an application.   
+ 
+ 
+•   
+Places 
+ (e.g., manufacturing ﬂ oor or loading dock) that establish the con-
+text of the problem and the overall function of the system.   
+ 
+ 
+•   
+Structures
+ 
+ (e.g., sensors, four-wheeled vehicles, or computers) that deﬁ
+ ne 
+a class of objects or related classes of objects.  
+ 
+  This categorization is but one of many that have been proposed in the liter-
+ature.  1 
+ 
+ For example, Budd [Bud96] suggests a taxonomy of classes that includes 
+ How do 
+analysis classes manifest 
+themselves as 
+elements of the 
+solution space? ?  uote:  “The really 
+hard problem is 
+discovering what 
+are the right 
+objects [classes] in 
+the ﬁ rst place.” 
+ Carl Argila 
+  
+1  Another important categorization, deﬁ
+ ning entity, boundary, and controller classes, is dis-
+cussed in Section 10.5. pre22126_ch10_184-201.indd   185pre22126_ch10_184-201.indd   18513/12/13   6:11 PM13/12/13   6:11 PM

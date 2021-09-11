@@ -1,0 +1,65 @@
+42 Chapter 2  
+Toolbox: Authentication, Access Control, and Cryptography
+• Revocation. 
+To revoke one user’s access right to an object, someone must change 
+the password, thereby causing the same problems as disclosure.
+• Loss. Depending on how the passwords are implemented, it may be impossible 
+to retrieve a lost or forgotten password. The operators or system administrators 
+
+can certainly intervene and provide a new password, but often they cannot deter-
+
+mine what password a user had chosen previously. If the user loses (or forgets) 
+
+the password, administrators must assign a new one.
+Attacking and Protecting Passwords
+How secure are passwords themselves? Passwords are somewhat limited as protec-
+tion devices because of the relatively small number of bits of information they contain. 
+
+Worse, people pick passwords that do not even take advantage of the number of bits 
+
+available: Choosing a well-known string, such as qwerty, password, or 123456 reduces 
+
+an attacker’s uncertainty or difficulty essentially to zero.
+Knight and Hartley [KNI98] list, in order, 12 steps an attacker might try in order 
+to determine a password. These steps are in increasing degree of difficulty (number of 
+
+guesses), and so they indicate the amount of work to which the attacker must go in order 
+
+to derive a password. Here are their password guessing steps:
+• no password
+• the same as the user ID
+
+• is, or is derived from, the user’s name
+
+• on a common word list (for example, password, secret, private) plus common 
+names and patterns (for example, qwerty, aaaaaa)
+• contained in a short college dictionary
+
+• contained in a complete English word list
+
+• contained in common non-English-language dictionaries
+
+• contained in a short college dictionary with capitalizations (PaSsWorD) or sub-
+stitutions (digit 0 for letter O, and so forth)• contained in a complete English dictionary with capitalizations or substitutions
+
+• contained in common non-English dictionaries with capitalization or substitutions
+
+• obtained by brute force, trying all possible combinations of alphabetic characters
+
+• obtained by brute force, trying all possible combinations from the full 
+character setAlthough the last step will always 
+succeed, the steps immediately pre-
+
+ceding it are so time consuming that 
+
+they will deter all but the most dedi-
+
+cated attacker for whom time is not a 
+
+limiting factor.
+We now expand on some of these approaches.
+Every password can be guessed; 
+
+password strength is determined by 
+
+how many guesses are required.

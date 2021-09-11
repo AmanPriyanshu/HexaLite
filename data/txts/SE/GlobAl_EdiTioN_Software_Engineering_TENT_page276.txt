@@ -1,0 +1,49 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+˜3. Average time taken to implement a change request 
+This is not the same as the 
+time for impact analysis although it may correlate with it. This is the ˜amount of 
+time that you need to modify the system and its documentation, after you have 
+assessed which components are affected. An increase in the time needed to 
+
+implement a change may indicate a decline in maintainability.4. Number of outstanding change requests 
+An increase in this number over time 
+may imply a decline in maintainability.You use predicted information about change requests and predictions about sys-tem maintainability to predict maintenance costs. Most managers combine this infor-
+mation with intuition and experience to estimate costs. The COCOMO 2 model of 
+cost estimation, discussed in Chapter 23, suggests that an estimate for software 
+
+maintenance effort can be based on the effort to understand existing code and the 
+
+effort to develop the new code.Software maintenance involves understanding the program that has to be changed 
+
+and then implementing any required changes. However, many systems, especially 
+
+older legacy systems, are difficult to understand and change. The programs may 
+
+have been optimized for performance or space utilization at the expense of under-
+standability, or, over time, the initial program structure may have been corrupted by 
+a series of changes.To make legacy software systems easier to maintain, you can reengineer these 
+systems to improve their structure and understandability. Reengineering may 
+
+involve redocumenting the system, refactoring the system architecture, translat-
+ing programs to a modern programming language, or modifying and updating the 
+
+structure and values of the system™s data. The functionality of the software is not 
+
+changed, and, normally, you should try to avoid making major changes to the 
+
+system architecture.Reengineering has two important advantages over replacement:1. Reduced risk There is a high risk in redeveloping business-critical software. 
+
+Errors may be made in the system specification or there may be development 
+problems. Delays in introducing the new software may mean that business is 
+
+lost and extra costs are incurred.2. Reduced cost The cost of reengineering may be significantly less than the cost 
+
+of developing new software. Ulrich (Ulrich 1990) quotes an example of a 
+
+commercial system for which the reimplementation costs were estimated at 
+
+$50 million. The system was successfully reengineered for $12 million. I sus-pect that, with modern software technology, the relative cost of reimplemen-
+tation is probably less than Ulrich™s figure but will still be more than the costs 
+
+of reengineering.

@@ -1,0 +1,54 @@
+˜˜˚˛˝˙ˆˇ˘
+˜˜˜˜˜
+1. Heterogeneity Increasingly, systems are required to operate as distributed sys-tems across networks that include different types of computer and mobile 
+devices. As well as running on general-purpose computers, software may also 
+have to execute on mobile phones and tablets. You often have to integrate new 
+
+software with older legacy systems written in different programming languages. 
+The challenge here is to develop techniques for building dependable software 
+that is flexible enough to cope with this heterogeneity.2. Business and social change Businesses and society are changing incredibly 
+
+quickly as emerging economies develop and new technologies become availa-
+ble. They need to be able to change their existing software and to rapidly 
+
+develop new software. Many traditional software engineering techniques are 
+
+time consuming, and delivery of new systems often takes longer than planned. 
+They need to evolve so that the time required for software to deliver value to its 
+
+customers is reduced.3. Security and trust As software is intertwined with all aspects of our lives, it is 
+essential that we can trust that software. This is especially true for remote soft
+-
+ware systems accessed through a web page or web service interface. We have to 
+make sure that malicious users cannot successfully attack our software and that 
+information security is maintained.4. Scale Software has to be developed across a very wide range of scales, from 
+very small embedded systems in portable or wearable devices through to 
+
+Internet-scale, cloud-based systems that serve a global community.To address these challenges, we will need new tools and techniques as well as 
+innovative ways of combining and using existing software engineering methods.
+
+Software engineering is a systematic approach to the production of software 
+
+that takes into account practical cost, schedule, and dependability issues, as 
+
+well as the needs of software customers and producers. The specific methods, 
+
+tools, and techniques used depend on the organization developing the software, 
+
+the type of software, and the people involved in the development process. There 
+
+are no universal software engineering methods that are suitable for all systems 
+
+and all companies. Rather, a diverse set of software engineering methods and 
+
+tools has evolved over the past 50 years. However, the SEMAT initiative 
+
+(Jacobson et al. 2013) proposes that there can be a fundamental meta-process 
+
+that can be instantiated to create different kinds of process. This is at an early 
+
+stage of development and may be a basis for improving our current software 
+
+engineering methods.Perhaps the most significant factor in determining which software engineering 
+methods and techniques are most important is the type of application being devel-
+oped. There are many different types of application, including:

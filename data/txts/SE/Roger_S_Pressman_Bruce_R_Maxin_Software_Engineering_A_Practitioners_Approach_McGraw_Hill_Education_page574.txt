@@ -1,0 +1,92 @@
+544 PART THREE  
+QUALITY MANAGEMENTwill emerge. A more disciplined approach recognizes that planning establishes a road map for all work that follows. It’s worth the effort. In their book on WebApp 
+
+testing, Splaine and Jaskiel [Spl01] state:  
+Except for the simplest of websites, it quickly becomes apparent that some sort of 
+test planning is needed. All too often, the initial number of bugs found from ad hoc 
+
+testing is large enough that not all of them are ﬁ xed the ﬁ
+ rst time they’re detected. 
+This puts an additional burden on people who test websites and applications. Not 
+
+only must they conjure up imaginative new tests, but they must also remember how 
+
+previous tests were executed in order to reliably re-test the website/application, 
+
+and ensure that known bugs have been removed and that no new bugs have been 
+
+introduced. 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+The questions you should ask are: How do we “conjure up imaginative new tests,” and what should those tests focus on? The answers to these questions are 
+contained within a test plan.  A WebApp test plan identiﬁ
+ es (1) the task set 
+ 2 
+ 
+ to be applied as testing 
+commences, (2) the work products to be produced as each testing task is ex-
+ecuted, and (3) the manner in which the results of testing are evaluated, re-
+corded, and reused when regression testing is conducted. In some cases, the 
+
+test plan is integrated with the project plan. In others, the test plan is a sep-
+arate document. 
+  
+ 
+ 
+ 
+ 
+ 
+ 25.2  
+THE TESTING PROCESS—AN OVERVIEW    
+You begin the WebApp testing process with tests that exercise content and inter-
+face functionality that are immediately visible to end users. As testing proceeds, 
+aspects of the design architecture and navigation are exercised. Finally, the 
+
+focus shifts to tests that examine technological capabilities that are not always 
+apparent to end users—WebApp infrastructure and installation/implementation 
+
+issues.   
+Figure 25.1  juxtaposes the WebApp testing process with the design pyra-
+mid for WebApps (Chapter 17). Note that as the testing ﬂ
+ ow proceeds from 
+left to right and top to bottom, user-visible elements of the WebApp design 
+
+(top elements of the pyramid) are tested ﬁ rst, followed by infrastructure design 
+elements. 
+ 
+    The test plan identiﬁ es 
+the testing task set, 
+the work products to 
+be developed, and the 
+way in which results 
+are to be evaluated, 
+recorded, and reused.   uote:  “In general, the 
+software testing 
+techniques that 
+are applied to 
+other applications 
+are the same as 
+those applied 
+to Web-based 
+
+
+The difference 
+between the two 
+types of testing is 
+that the technology 
+variables in the 
+Web environment 
+
+multiply.” 
+ Hung Nguyen 
+  
+2  Task sets are discussed in Chapter 3. A related term– 
+workﬂ ow
+ 
+">–is also used to describe a series of tasks required to accomplish a software engineering activity. 
+pre22126_ch25_540-566.indd   544pre22126_ch25_540-566.indd   54413/12/13   6:15 PM13/12/13   6:15 PM

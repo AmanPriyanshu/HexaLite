@@ -1,0 +1,5 @@
+ Section 2.1  Authentication 
+69  FIGURE 2-7 Federated Identity ManagerUserIdentity Manager(performsauthentication)AuthenticatedIdentityApplication(no authentication)Application(no authentication)Application(no authentication)UserSingle Sign-OnShellIdentification and
+AuthenticationCredentialsApplicationAuthenticationToken
+AuthenticationAuthenticationApplicationApplicationPassword
+FIGURE 2-8 Single Sign-On

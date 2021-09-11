@@ -1,0 +1,57 @@
+ Section 4.5  Conclusion 
+277  • Encrypt the session key under the recipient’s public key.
+• Generate a message digest or hash of the message; sign the hash by encrypting it 
+with the sender’s private key (for message integrity and authenticity).
+• Attach the encrypted session key to the encrypted message and digest.
+
+• Transmit the message to the recipient.
+The recipient reverses these steps to retrieve and validate the message content.
+S/MIMEAn Internet standard governs how email is sent and received. The general MIME speci-
+fication defines the format and handling of email attachments. 
+S/MIME (Secure Multi-
+purpose Internet Mail Extensions) is the Internet standard for secure email attachments.S/MIME is very much like PGP and its predecessors, PEM (Privacy-Enhanced 
+Mail) and RIPEM. The Internet standards documents defining S/MIME (version 3) are 
+
+described in [HOU99] and [RAM99] S/MIME has been adopted in commercial email packages, such as Eudora and Microsoft Outlook.The principal difference between S/MIME and PGP is the method of key exchange. 
+Basic PGP depends on each user’s exchanging keys with all potential recipients and 
+
+establishing a ring of trusted recipients; it also requires establishing a degree of trust 
+
+in the authenticity of the keys for those recipients. S/MIME uses hierarchically vali-
+
+dated certificates, usually represented in X.509 format, for key exchange. Thus, with  
+
+S/MIME, the sender and recipient do not need to have exchanged keys in advance as 
+
+long as they have a common certifier they both trust.
+S/MIME works with a variety of cryptographic algorithms, such as DES, AES, and 
+RC2 for symmetric encryption.S/MIME performs security transformations very similar to those for PGP. PGP was 
+originally designed for plaintext messages, but S/MIME handles (secures) all sorts 
+
+of attachments, such as data files (for example, spreadsheets, graphics, presentations, 
+
+movies, and sound). Because it is integrated into many commercial email packages,  
+
+S/MIME is likely to dominate the secure email market.
+4.5 CONCLUSION
+The Internet is a dangerous place. As we have explained in this chapter, the path from 
+
+a user’s eyes and fingers to a remote site seems to be direct but is in fact a chain of 
+
+vulnerable components. Some of those parts belong to the network, and we consider 
+
+security issues in the network itself in Chapter 6. But other vulnerabilities lie within the 
+
+user’s area, in the browser, in applications, and in the user’s own actions and reactions. 
+
+To improve this situation, either users have to become more security conscious or the 
+
+technology more secure. As we have argued in this chapter, for a variety of reasons, nei-
+
+ther of those improvements is likely to occur. Some users become more wary, but at the 
+
+same time the user population continually grows with a wave of young, new users who 
+
+do not have the skepticism of more experienced users. And technology always seems to 
+
+respond to the market demands for functionality—the “cool” factor—not security. You 

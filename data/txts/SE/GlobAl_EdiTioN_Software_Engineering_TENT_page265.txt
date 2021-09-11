@@ -1,0 +1,43 @@
+˜˜˚˝˜˜˜
+˜˜
+3. Important business rules may be embedded in the software and may not be doc
+-umented elsewhere. A business rule is a constraint that applies to some business 
+function, and breaking that constraint can have unpredictable consequences for 
+the business. For example, an insurance company may have embedded its rules 
+for assessing the risk of a policy application in its software. If these rules are not 
+maintained, the company may accept high-risk policies that could result in 
+
+expensive future claims.4. New software development is inherently risky, so that there may be unexpected prob-
+lems with a new system. It may not be delivered on time and for the price expected.Keeping legacy systems in use avoids the risks of replacement, but making 
+changes to existing software inevitably becomes more expensive as systems get 
+
+older. Legacy software systems that are more than a few years old are particularly 
+expensive to change:1.
+ The program style and usage conventions are inconsistent because different 
+people have been responsible for system changes. This problem adds to the dif-
+ficulty of understanding the system code.2.
+ Part or all of the system may be implemented using obsolete programming 
+ languages. It may be difficult to find people who have knowledge of these  languages. 
+Expensive outsourcing of system maintenance may therefore be required.3. System documentation is often inadequate and out of date. In some cases, the 
+only documentation is the system source code.4.
+ Many years of maintenance usually degrades the system structure, making it 
+
+increasingly difficult to understand. New programs may have been added and 
+interfaced with other parts of the system in an ad hoc way.5.
+ The system may have been optimized for space utilization or execution 
+
+speed so that it runs effectively on older slower hardware. This normally 
+
+involves using specific machine and language optimizations, and these usu
+-
+ally lead to software that is hard to understand. This causes problems for 
+
+programmers who have learned modern software engineering techniques and 
+
+who don™t understand the programming tricks that have been used to opti-
+mize the software.6. The data processed by the system may be maintained in different files that have 
+incompatible structures. There may be data duplication, and the data itself may 
+be out of date, inaccurate, and incomplete. Several databases from different sup
+-
+pliers may be used.At same stage, the costs of managing and maintaining the legacy system become so high that it has to be replaced with a new system. In the next section, I discuss a 
+systematic decision-making approach to making such a replacement decision.

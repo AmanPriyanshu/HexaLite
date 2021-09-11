@@ -1,0 +1,65 @@
+240 Chapter 4  
+The Web—User Side
+on to another bunch. Thus, spammers need a constant source of new accounts, and they 
+would like to automate the process of obtaining new ones.
+Petmail (http://petmail.lothar.com) is a proposed anti-spam email system. In the 
+description the author hypothesizes the following man-in-the-middle attack against 
+
+CAPTCHAs from free email account vendors. First, the spam sender creates a site that 
+
+will attract visitors; the author suggests a site with pornographic photos. Second, the 
+spammer requires people to solve a CAPTCHA in order to enter the site and see the 
+
+photos. At the moment a user requests access, the spam originator automatically gener-
+
+ates a request to create a new email account (Hotmail, for example). Hotmail presents a 
+
+CAPTCHA, which the spammer then presents to the pornography requester. When the 
+
+requester enters the solution, the spammer forwards that solution back to Hotmail. If the 
+
+solution succeeds, the spammer has a new account and allows the user to see the photos; 
+
+if the solution fails, the spammer presents a new CAPTCHA challenge to the user. In 
+
+this way, the attacker in the middle splices together two interactions by inserting a small 
+
+amount of the account creation thread into the middle of the photo access thread. The 
+
+user is unaware of the interaction in the middle.
+How Browser Attacks Succeed: Failed Identification and Authentication
+The central failure of these in-the-middle attacks is faulty authentication. If A cannot 
+
+be assured that the sender of a message is really B, A cannot trust the authenticity of 
+
+anything in the message. In this section we consider authentication in different contexts.
+Human AuthenticationAs we first stated in Chapter 2, authentication is based on something you know, are, or 
+possess. People use these qualities all the time in developing face-to-face authentica-
+
+tion. Examples of human authentication techniques include a driver’s license or identity 
+
+card, a letter of introduction from a mutual acquaintance or trusted third party, a picture 
+
+(for recognition of a face), a shared secret, or a word. (The original use of “password” 
+
+was a word said to a guard to allow the speaker to pass a checkpoint.) Because we 
+
+humans exercise judgment, we develop a sense for when an authentication is adequate 
+
+and when something just doesn’t seem right. Of course, humans can also be fooled, as 
+
+described in Sidebar 4-2.SIDEBAR 4-2  
+Colombian Hostages Freed by Man-in-the-
+Middle Trick
+Colombian guerrillas captured presidential candidate Ingrid Betancourt in 
+2002, along with other political prisoners. The guerillas, part of the FARC 
+
+movement, had considered Betancourt and three U.S. contractors to be 
+
+their most valuable prisoners. The captives were liberated in 2008 through 
+
+a scheme involving two infiltrations: one infiltration of the local group that 
+
+held the hostages, and the other of the central FARC command structure.
+Having infiltrated the guerillas’ central command organization, Colom-
+bian defense officials tricked the local FARC commander, known as Cesar, 

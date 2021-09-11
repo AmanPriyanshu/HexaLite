@@ -1,0 +1,82 @@
+646 PART THREE  
+QUALITY MANAGEMENT 
+ 
+ 
+ 
+ 
+ 
+ 
+29.4.4   
+Change Management  
+The workﬂ ow associated with change control for conventional software (Sec-
+29.3.3) is generally too ponderous for WebApp and mobile software devel-
+
+opment. It is unlikely that the change request, change report, and engineering 
+change order sequence can be achieved in an agile manner that is acceptable 
+for many Web and MobileApp development projects. How then do we manage a 
+
+continuous stream of changes requested for content and functionality?  To implement effective change management within the “code and go” phi-
+losophy that continues to dominate much of Web and mobile development, the 
+
+conventional change control process must be modiﬁ ed. Each change should be 
+categorized into one of four classes:  
+ 
+ 
+ 
+ 
+ 
+ 
+Class 1 
+—A content or function change that corrects an error or enhances local content or functionality. 
+   
+ 
+ 
+ 
+ 
+ 
+Class 2 
+—A content or function change that has an impact on other content objects or functional components.    
+ 
+ 
+ 
+ 
+ 
+Class 3 
+—A content or function change that has a broad impact across an app (e.g., major extension of functionality, signiﬁ
+ cant enhancement or reduction in 
+content, major required changes in navigation).    
+ 
+ 
+ 
+ 
+ 
+Class 4 
+—A major design change (e.g., a change in interface design or naviga-tion approach) that will be immediately noticeable to one or more categories of 
+user. 
+ 
+ 
+  Once the requested change has been categorized, it can be processed according to the algorithm shown in  Figure 29.7  
+ 
+ for WebApps but equally applicable for 
+MobileApps.  
+ 
+ 
+ 
+  Referring to the ﬁ gure, class 1 and 2 changes are treated informally and are 
+handled in an agile manner. For a class 1 change, you would evaluate the im-
+
+pact of the change, but no external review or documentation is required. As the 
+change is made, standard check-in and check-out procedures are enforced by 
+conﬁ guration repository tools. For class 2 changes, you should review the impact 
+of the change on related objects (or ask other developers responsible for those 
+objects to do so). If the change can be made without requiring signiﬁ cant changes 
+to other objects, modiﬁ cation occurs without additional review or documenta-
+tion. If substantive changes are required, further evaluation and planning are 
+necessary. 
+ Class 3 and 4 changes are also treated in an agile manner, but some de-
+scriptive documentation and more formal review procedures are required. A 
+ change description 
+—describing the change and providing a brief assessment of the impact of the change—is developed for class 3 changes. The description is 
+distributed to all members of the team who review it to better assess its impact. 
+A change description is also developed for class 4 changes, but in this case, the 
+review is conducted by all stakeholders. pre22126_ch29_623-652.indd   646pre22126_ch29_623-652.indd   64613/12/13   6:16 PM13/12/13   6:16 PM

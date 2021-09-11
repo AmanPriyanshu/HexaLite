@@ -1,0 +1,68 @@
+818 Chapter 13  
+Emerging Topics
+Mobile PhonesSmartphones constitute a second growing product area in the Internet of Things. Just as 
+designers are interested in integrating smartphones into medical monitoring situations, 
+
+arguing that many users already have a smartphone and that smartphones have available 
+
+computing power to collect and analyze data, other product and service providers have 
+
+the same idea: piggyback products and services on existing technology.
+But there are dangers to using existing technology in unanticipated ways. As we 
+describe in Chapter 5, operating systems are not just for conventional computers. Some 
+
+form of operating system runs many products with computer functionality. In this sec-
+
+tion we are interested in a wildly popular class of devices: smartphones, tablets, net-
+
+books, e-readers, portable video game players, and similar products.If you have a smartphone, you are familiar with the operating system that runs tasks 
+in the background (for example, to connect with local cell phone service and handle 
+
+the transfer from one cell tower to another as you move), run tasks on demand (such 
+
+as handling email or browsing web pages), perform monitoring and accounting func-
+
+tions (including fetching email and status updates or counting cell phone minutes used). 
+
+But most people do not think such a device has an operating system because, unlike 
+
+a computer’s operating system, a cell phone’s operating system doesn’t present itself 
+
+explicitly as one. You do not log in, there is no command line to execute commands, 
+
+you cannot readily see or change the list of current tasks, there are no operating system 
+functions or parameters to tune, task or process scheduling is invisible, and you cannot 
+
+see or interpret the smartphone’s memory management. Thus, a mobile phone operat-
+
+ing system does not seem to have most of the functionality we described earlier in this 
+
+chapter. Do not be fooled, however. Mobile phones do have powerful operating systems.
+Users and UsesThe three most popular operating systems over all mobile phone products today are 
+Android (provided by Google), Windows (Microsoft), and iOS (Apple). Gartner Group 
+
+predicts sales during 2014 of almost 1.1 billion copies (61 percent of total) Android, 
+
+360 million (20 percent) of Windows, and 330 million (18 percent) of iOS (
+CNet News
+, 7 January 2014). Considering only smartphones, the respective market shares are 
+
+85 percent for Android, 3 percent for Windows, and 12 percent for Apple.
+A Juniper Networks report describes the results of a survey of over 4000 mobile 
+device users in 2012 [JUN12]. It notes that 76 percent of respondents say they have 
+
+used a mobile device to access sensitive data, such as banking information or medical 
+
+records. Over 89 percent of business employees reported using a mobile device to access 
+
+sensitive company information. Of those, 41 percent said they did so without com-
+
+pany permission. At the same time, security managers expressed concerns about mobile 
+
+phone usage leading to exposure of sensitive data because of lost devices (41 percent), 
+
+inability to manage different devices, operating systems, and protocols (37 percent), and 
+
+risk of employees introducing malware through these devices (32 percent).
+Users were undecided about whether to trust their devices: 15 percent had great con-
+fidence in the security of their devices, 18 percent had little, but 63 percent had not yet 

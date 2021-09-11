@@ -1,0 +1,35 @@
+Security risk assessment during requirements engineering identifies a set of high-level security requirements for a system. However, as the system is designed and 
+
+implemented, architectural and technology decisions made during the system design 
+process influence the security of a system. These decisions generate new design 
+
+requirements and may mean that existing requirements have to change.System design and the assessment of design-related risks are interleaved pro
+-cesses (Figure 13.10). Preliminary design decisions are made, and the risks associ-
+ated with these decisions are assessed. This assessment may lead to new requirements 
+
+to mitigate the risks that have been identified or design changes to reduce these risks. 
+
+As the system design evolves and is developed in more detail, the risks are reas
+-
+sessed and the results are fed back to the system designers. The design risk assess-
+ment process ends when the design is complete and the remaining risks are acceptable.When assessing risks during design and implementation, you have more informa
+-tion about what needs to be protected, and you also will know something about the 
+vulnerabilities in the system. Some of these vulnerabilities will be inherent in the 
+
+design choices made. For example, an inherent vulnerability in password-based 
+
+authentication is that an authorized user reveals their password to an unauthorized 
+user. So, if password-based authentication is used, the risk assessment process may 
+suggest new requirements to mitigate the risk. For example, there may be a require-
+ment for multifactor authentication where users must authenticate themselves using 
+some personal knowledge as well as a password.Denial-of-service attacksDenial-of-service attacks attempt to bring down a networked system by bombarding it with a huge number of 
+service requests, usually from hundreds of attacking systems. These place a load on the system for which it was 
+not designed and they exclude legitimate requests for system service. Consequently, the system may become 
+unavailable either because it crashes with the heavy load or has to be taken offline by system managers to stop 
+the flow of requests.http://software-engineering-book.com/web/denial-of-service/Design riskassessmentSystemdesignTechnology
+choicesDesign assetsDesign andrequirementschangesArchitecturaldesignSystem requirementsFigure 13.10
+ Interleaved 
+design and risk 
+assessment 
+˜˜˚˛˙˜˜˜
+˜˜˜

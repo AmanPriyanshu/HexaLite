@@ -1,0 +1,119 @@
+285 COMPONENT-LEVEL DESIGN   
+ 
+ 
+ 
+ 
+  
+Component-level design occurs after the ﬁ rst iteration of architec-
+tural design has been completed. At this stage, the overall data and 
+
+program structure of the software has been established. The intent 
+is to translate the design model into operational software. But the level of 
+
+abstraction of the existing design model is relatively high, and the abstrac-
+tion level of the operational program is low. The translation can be challeng-
+
+ing, opening the door to the introduction of subtle errors that are difﬁ cult 
+to ﬁ nd and correct in later stages of the software process. In a famous lec-
+ture,  Edsgar Dijkstra, a major contributor to our understanding of software 
+ design, stated [Dij72]: 
+ 
+Software seems to be different from many other products, where as a rule higher quality implies a higher price. Those who want really reliable software will dis-
+
+cover that they must ﬁ
+ nd a means of avoiding the majority of bugs to start with, 
+. effective 
+
+ . should not waste their time debugging—they should not intro-
+duce bugs to start with.  Although these words were spoken many years ago, they remain true today. 
+As you translate the design model into source code, you should follow a set of 
+design principles that not only perform the translation but also do not “intro-
+duce bugs to start with.” 14   
+ 
+ 
+CHAPTER 
+KEY CONCEPTS     cohesion. . . . . . . . 296  
+    component  . . . . . . 312  
+    adaptation  . . . . 310  
+
+    classifying  . . . . 286  
+
+    composition  . . . 310  
+
+    qualiﬁ
+ cation  . . . 309  
+    WebApp. . . . . . 305  
+    component-based 
+
+development. . . . . 308  
+
+    content design  . . . 306  
+
+    coupling  . . . . . . . . 298  
+
+    dependency inversion 
+
+principle. . . . . . . . 293  
+
+    design for reuse. . . 312  
+
+    design guidelines. . 295  
+
+    domain 
+
+engineering. . . . . . 308  
+
+    interface segregation 
+
+principle. . . . . . . . 294  
+
+    Liskov substitution 
+
+principle. . . . . . . . 293  
+
+    object-oriented 
+
+view  . . . . . . . . . . 286  
+
+    open-closed 
+
+principle. . . . . . . . 292  
+
+    process-related. . . 291  
+
+    traditional 
+
+components  . . . . . 307  
+
+    traditional view . . . 
+288      
+What is it?  
+ A complete set of soft-
+ware components is deﬁ ned during 
+architectural design. But the internal 
+
+data structures and processing de-tails of each component are not represented 
+at a level of abstraction that is close to code. 
+Component-level design deﬁ nes the data struc-
+tures, algorithms, interface characteristics, and 
+
+communication mechanisms allocated to each 
+software component.   
+ 
+Who does it?  
+ A software engineer performs 
+component-level design.   
+ 
+Why is it important? 
+ 
+ You have to be able to 
+determine whether the software will work be-
+
+fore you build it. The component-level design 
+represents the software in a way that allows 
+you to review the details of the design for cor-
+
+rectness and consistency with other design 
+representations (i.e., the data, architectural, 
+and interface designs). It provides a means for 
+ QUICK LOOK pre22126_ch14_285-316.indd   285pre22126_ch14_285-316.indd   28513/12/13   6:12 PM13/12/13   6:12 PM

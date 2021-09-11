@@ -1,0 +1,124 @@
+CHAPTER 15  
+USER INTERFACE DESIGN
+ 321 
+ 
+ 
+ 
+15.1.3 Make the Interface Consistent 
+  
+The interface should present and acquire information in a consistent fashion. This implies that (1) all visual information is organized according to design rules 
+that are maintained throughout all screen displays, (2) input mechanisms are 
+constrained to a limited set that is used consistently throughout the application, 
+and (3) mechanisms for navigating from task to task are consistently deﬁ ned and 
+implemented. Mandel [Man97] deﬁ nes a set of design principles that help make 
+the interface consistent:  
+ 
+ 
+ 
+ 
+Allow the user to put the current task into a meaningful context. 
+ Many 
+interfaces implement complex layers of interactions with dozens of 
+
+screen images. It is important to provide indicators (e.g., window titles, 
+
+graphical icons, consistent color coding) that enable the user to know 
+
+the context of the work at hand. In addition, the user should be able to 
+
+determine where he has come from and what alternatives exist for a 
+
+transition to a new task. 
+   
+ 
+ 
+ 
+Maintain consistency across a complete product line. 
+ A family of applica-tions (i.e., a product line) should implement the same design rules so that 
+consistency is maintained for all interaction.    
+ 
+ 
+ 
+If past interactive models have created user expectations, do not make changes unless there is a compelling reason to do so. 
+ Once a particular interactive sequence has become a de facto standard (e.g., the use of alt-S 
+to save a ﬁ le), the user expects this in every application encountered. A 
+change (e.g., using alt-S to invoke scaling) will cause confusion.  
+ 
+  The interface design principles discussed in this and the preceding sections provide you with basic guidance. In the sections that follow, you’ll learn about the 
+
+interface design process itself.  
+ 
+ 
+  
+ uote:  “Things that look 
+different should act 
+different. Things 
+that look the same 
+should act the 
+same.”  Larry Marine 
+  
+ 
+ 
+ 
+Jamie:  Uh, we could provide a list of operational 
+ cameras and their locations.    
+ 
+ 
+ 
+Vinod:  That’s possible, but why should he have to ask 
+for a list?    
+ 
+ 
+ 
+Jamie:  Okay, we provide the list whether he asks or 
+not.    
+ 
+ 
+ 
+Vinod:  Better. At least he doesn’t have to remember 
+stuff that we can give him.    
+ 
+ 
+ 
+Jamie (thinking for a moment):  But you like the 
+ﬂ oor plan, don’t you? 
+   
+ 
+ 
+ 
+Vinod:  Uh huh. 
+   
+ 
+ 
+ 
+Jamie:  Which one will marketing like, do you think? 
+   
+ 
+ 
+ 
+Vinod:  You’re kidding, right? 
+   
+ 
+ 
+ 
+Jamie:  No. 
+   
+ 
+ 
+ 
+Vinod:  Duh … the one with the ﬂ
+ ash … they love sexy 
+product features … they’re not interested in which is 
+easier to build.    
+ 
+ 
+ 
+Jamie (sighing):  Okay, maybe I’ll prototype both. 
+   
+ 
+ 
+ 
+Vinod:  Good idea … then we let the customer decide. 
+ 
+ 
+ pre22126_ch15_317-346.indd   321pre22126_ch15_317-346.indd   32113/12/13   10:01 PM13/12/13   10:01 PM

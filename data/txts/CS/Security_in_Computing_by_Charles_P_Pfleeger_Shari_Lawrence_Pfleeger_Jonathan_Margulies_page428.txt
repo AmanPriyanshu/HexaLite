@@ -1,0 +1,57 @@
+394 Chapter 6  
+NetworksAttacks on WPA 
+Shortly after the appearance of the WPA protocol suite, researchers found and 
+described flaws.
+Man-in-the-Middle Mishra and Arbaugh [MIS02] identified two potential flaws in the design of WPA pro-
+
+tocols. The first of these, called a man-in-the-middle attack (we showed other examples 
+
+of in-the-middle attacks in Chapter 4), is exploited when a clever attacker can intrude 
+
+in a legitimate conversation, intercepting and perhaps changing both sides, in order to 
+
+surreptitiously obtain or modify protected data. The attack of Mishra and Arbaugh uses 
+
+a malicious man in the middle to hijack a session, that is, for an outsider to replace a 
+legitimate user and carry on that session in the authority of the user.
+The attack succeeds by means of a MAC address spoofing attack. During the associ-
+ation sequence between a device and an access point, the device presents credentials to 
+
+authenticate and the access point sends a message confirming the authentication. At that 
+
+point, the malicious man in the middle changes its MAC address to that of the access 
+
+point and sends the device a request to disassociate. Disassociation is a means for either 
+
+party to terminate an association and can happen because of completion of activity, 
+
+overloading, or some other reason. The requesting device ceases the association and 
+
+begins again the process of associating; meanwhile, the malicious outsider has changed 
+
+the MAC address to that of the disassociated device and continues the association with 
+
+the access point as if it were the original user.
+The problem permitting this attack is that frames lack integrity protection; therefore, 
+the disassociate message from a rogue host is not identified as being inauthentic.
+Incomplete Authentication The second attack against WPA pinpoints a related weakness in the authentication 
+
+sequence.SIDEBAR 6-15 WPA Replacing WEP
+Since its introduction in 2004, WPA has been steadily growing in usage. In 
+2008, the Hong Kong Professional Information Security Association con-
+
+ducted a survey by war-driving, monitoring, and cataloging access points 
+
+that could be found. They determined that, of the over 10,000 access 
+
+points identified in Hong Kong and Macau, 43 percent were using WEP and 
+
+40 percent WPA.
+RSA Security performed a survey, also in 2008, of major business 
+centers. They found WPA or WPA2 usage at 49 percent (of access points 
+
+surveyed) in New York City, 71 percent in Paris, and 48 percent in London.
+Although the percentage of WPA use continues to grow throughout 
+the world, the rate of adoption is remarkably small, considering the major 
+
+security advantages of WPA over WEP (or, worse, over no security at all).

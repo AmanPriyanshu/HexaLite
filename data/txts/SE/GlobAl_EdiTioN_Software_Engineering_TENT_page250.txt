@@ -1,0 +1,43 @@
+˜˜
+˚˛˝˙ˆˇ˘˜˜˜˜˜˜Alternatively, the software may be made publicly available for use by anyone who is interested in experimenting with it.Beta testing is mostly used for software products that are used in many different settings. This is important as, unlike custom product developers, there is no way for 
+the product developer to limit the software™s operating environment. It is impossible 
+for product developers to know and replicate all the settings in which the software 
+product will be used. Beta testing is therefore used to discover interaction problems 
+between the software and features of its operational environment. Beta testing is also 
+
+a form of marketing. Customers learn about their system and what it can do for them.Acceptance testing is an inherent part of custom systems development. Customers 
+test a system, using their own data, and decide if it should be accepted from the system 
+
+developer. Acceptance implies that final payment should be made for the software.Figure 8.11 shows that here are six stages in the acceptance testing process:1. Define acceptance criteria This stage should ideally take place early in the pro-
+cess before the contract for the system is signed. The acceptance criteria should 
+be part of the system contract and be approved by the customer and the devel-
+oper. In practice, however, it can be difficult to define criteria so early in the 
+
+process. Detailed requirements may not be available, and the requirements will 
+
+almost certainly change during the development process.2. Plan acceptance testing This stage involves deciding on the resources, time, and 
+budget for acceptance testing and establishing a testing schedule. The accept-
+ance test plan should also discuss the required coverage of the requirements and 
+the order in which system features are tested. It should define risks to the testing 
+process such as system crashes and inadequate performance, and discuss how 
+these risks can be mitigated.3. Derive acceptance tests Once acceptance criteria have been established, tests 
+
+have to be designed to check whether or not a system is acceptable. Acceptance 
+tests should aim to test both the functional and non-functional characteristics 
+
+(e.g., performance) of the system. They should ideally provide complete cover
+-
+age of the system requirements. In practice, it is difficult to establish completely 
+
+objective acceptance criteria. There is often scope for argument about whether 
+or not a test shows that a criterion has definitely been met.4. Run acceptance tests The agreed acceptance tests are executed on the system. 
+
+Ideally, this step should take place in the actual environment where the system 
+will be used, but this may be disruptive and impractical. Therefore, a user  testing DefineacceptancecriteriaTest
+criteriaPlanacceptancetestingDeriveacceptancetestsRunacceptancetestsNegotiatetest resultsAccept orrejectsystemTest
+planTests
+Test
+resultsTesting
+report
+Figure 8.11 The acceptance testing 
+process 
