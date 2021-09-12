@@ -1,4 +1,7 @@
 # HexaLite
+
+### Ranked First in Code Innovation Series - associated with GitHub (08/2021)
+
 An unsupervised method for text searching based on contextual similarity within a corpus.
 
 ![DEMO](/demo.gif)
